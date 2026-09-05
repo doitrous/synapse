@@ -18218,3 +18218,5611 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-189
+## title
+The receptors found at synapses between preganglionic and postaganglionic neurons of th…
+## question
+The receptors found at synapses between preganglionic and postaganglionic neurons of the sympathetic system are:
+## vignette
+This item asks the student to name nicotinic as the receptor at the sympathetic ganglionic synapse.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+muscarinic
+## explanation_a
+Muscarinic receptors sit on effector organs reached by postganglionic parasympathetic (or cholinergic-sympathetic) fibres, not at the ganglionic synapse between pre- and postganglionic neurons.
+## answer_b
+nicotinic
+## explanation_b
+Correct. The synapse between preganglionic and postganglionic sympathetic neurons uses nicotinic receptors — the same receptor type used at every autonomic ganglion, regardless of division.
+
+Why this is right:
+- Nicotinic receptors, activated by nicotine, sit in the autonomic ganglia (on postganglionic-neuron membranes) and the adrenal medulla — the receptor at the preganglionic-to-postganglionic synapse itself, for both divisions.
+## answer_c
+beta adrenergic
+## explanation_c
+Beta adrenergic receptors sit on effector organs reached by postganglionic adrenergic fibres, not at the ganglionic synapse, which uses acetylcholine and nicotinic receptors rather than noradrenaline.
+## answer_d
+alpha adrenergic
+## explanation_d
+Alpha adrenergic receptors, like beta, sit on effector organs, not at the ganglionic synapse.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-5B28B080597460
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name nicotinic as the receptor at the sympathetic ganglionic synapse.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p22 q3. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-190
+## title
+Noradrenaline:
+## question
+Noradrenaline:
+## vignette
+This item asks the student to state that noradrenaline excites mainly alpha receptors.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is the neurotransmitter released by sympathetic secretory fibers to sweat glands
+## explanation_a
+Sweat-gland secretory fibres are one of the two named cholinergic exceptions among postganglionic sympathetic fibres — they release acetylcholine, not noradrenaline.
+## answer_b
+Is the main catecholamine secreted by the adrenal medulla
+## explanation_b
+Backwards. Adrenaline, not noradrenaline, is the main catecholamine the adrenal medulla secretes (80% adrenaline to 20% noradrenaline).
+## answer_c
+Is released from all preganglionic sympathetic fibers.
+## explanation_c
+Backwards. Noradrenaline is released from postganglionic, not preganglionic, sympathetic fibres — preganglionic fibres of both divisions are cholinergic.
+## answer_d
+Excites mainly alpha receptors
+## explanation_d
+Correct. Noradrenaline excites mainly alpha receptors, exciting beta receptors only to a slight extent — the reverse of adrenaline's roughly equal action on both.
+
+Why this is right:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-F16D60268905BC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that noradrenaline excites mainly alpha receptors.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p22 q4. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-191
+## title
+The a- adrenergic receptors produce:
+## question
+The a- adrenergic receptors produce:
+## vignette
+This item asks the student to state that alpha-2 receptors relax intestinal smooth muscle.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Vasodilation of blood vessels
+## explanation_a
+Vasodilation is a beta-2 receptor effect (on coronary and skeletal blood vessels); alpha receptors are instead associated with vasoconstriction (alpha-1, on skin/visceral/genital vessels).
+## answer_b
+Inhibition of plain muscles of intestinal wall
+## explanation_b
+Correct. Alpha-2 receptors are mainly inhibitory, producing relaxation of intestinal smooth muscle.
+
+Why this is right:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis.
+## answer_c
+Increased cardiac activity
+## explanation_c
+Increased cardiac activity is a beta-1 receptor effect, not an alpha effect.
+## answer_d
+Innivition of plain muscles of urinary bladder
+## explanation_d
+Inhibition of urinary bladder plain muscle (relaxation, allowing filling) is a beta-2 receptor effect; the alpha-1 effect on the bladder is instead contraction of the internal urethral sphincter (retention), a different tissue within the same organ.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-F16D60268905BC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that alpha-2 receptors relax intestinal smooth muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p23 q6. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-192
+## title
+The sympathetic:
+## question
+The sympathetic:
+## vignette
+This item asks the student to name the two cholinergic exceptions among postganglionic sympathetic fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Some of postganglionic fibers release acetylcholine
+## explanation_a
+Correct. Some postganglionic sympathetic fibres — the two named exceptions, secretory fibres to sweat glands and vasodilator fibres to skeletal-muscle blood vessels — release acetylcholine rather than noradrenaline.
+
+Why this is right:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline.
+## answer_b
+Postganglionic fibers to the heart release adrenaline
+## explanation_b
+Postganglionic fibres to the heart are adrenergic (release noradrenaline), one of the majority, not one of the two cholinergic exceptions.
+## answer_c
+Postganglionic fibers to the skin arterioles release acetylcholine
+## explanation_c
+Postganglionic fibres to the skin arterioles are adrenergic (vasoconstrictor, releasing noradrenaline) — the skeletal-muscle vasodilator fibres are the cholinergic exception, not the skin ones.
+## answer_d
+Postganglionic fibers to the sweat glands release noradrenaline
+## explanation_d
+Backwards. Postganglionic fibres to the sweat glands release acetylcholine (one of the two named cholinergic exceptions), not noradrenaline.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-1DB903AAE3D02A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name the two cholinergic exceptions among postganglionic sympathetic fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p23 q9. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-193
+## title
+Sympathetic fibers to abdominal viscera:
+## question
+Sympathetic fibers to abdominal viscera:
+## vignette
+This item asks the student to state that sympathetic stimulation raises blood glucose by hepatic glycogenolysis.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Originate from lateral horn cells of upper 6 thoracic segments
+## explanation_a
+Backwards on the segments. Sympathetic fibres to abdominal viscera originate from T5–T12 (lower thoracic segments), not the upper 6 — the upper four thoracic segments instead supply the thoracic viscera.
+## answer_b
+Supplying the adrenal medulla secrete norepinephrine from their ends
+## explanation_b
+Backwards. Postganglionic cells of the adrenal medulla have lost their axons and secrete catecholamines directly; the fibres *supplying* the adrenal medulla are preganglionic and cholinergic, not adrenergic norepinephrine-secreting fibres from their own endings.
+## answer_c
+Increase the blood glucose level by decreasing liver glycogen
+## explanation_c
+Correct. Sympathetic stimulation of the liver drives glycogenolysis, breaking down stored glycogen and so increasing blood glucose level.
+
+Why this is right:
+- Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves.
+## answer_d
+Produce inhibition of plain muscles and sphincters of small intestine
+## explanation_d
+Backwards. Sympathetic stimulation *relaxes* plain muscle of the stomach/small intestine/proximal large intestine while *contracting* their sphincters — inhibition of both muscle and sphincter is not the pattern seen here.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that sympathetic stimulation raises blood glucose by hepatic glycogenolysis.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p23 q11. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-194
+## title
+The autonomic nervous system differs from the somatic nervous system In:
+## question
+The autonomic nervous system differs from the somatic nervous system In:
+## vignette
+This item asks the student to state that the autonomic system is a two-neuron efferent pathway, unlike the somatic system.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Is a 2 efferent system
+## explanation_a
+Correct. The autonomic efferent pathway is a two-neuron system (preganglionic and postganglionic), while the somatic motor pathway from cord to skeletal muscle is a single-neuron system — this is the key structural difference between the two.
+
+Why this is right:
+- These efferent pathways differ from the somatic motor pathway: each somatic pathway from the cord to a skeletal muscle is composed of a single fibre (one-neuron system), while each autonomic, involuntary pathway is composed of two fibres, the preganglionic and the postganglionic neurons (two-neuron system).
+## answer_b
+Originates from all segments of the spinal cord
+## explanation_b
+Backwards. The autonomic system does not originate from all segments uniformly — sympathetic outflow is thoracolumbar and parasympathetic outflow is cranio-sacral, each restricted to specific segments, unlike this option's "all segments" claim.
+## answer_c
+Has no control on the heart
+## explanation_c
+Backwards. The autonomic system has extensive control over the heart (both sympathetic and parasympathetic divisions act on it) — "no control on the heart" is false and describes neither division.
+## answer_d
+Originates from the anterior horn cells
+## explanation_d
+Backwards. Autonomic *afferent* fibres relay at the lateral horn or cranial nuclei, and autonomic *efferent* fibres originate from cranial nuclei or lateral horn cells — not from the anterior horn cells, which is where somatic motor neurons originate instead.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-D28EA156B57AB0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that the autonomic system is a two-neuron efferent pathway, unlike the somatic system.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p25 q19. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-195
+## title
+Acetylcholine is released from the following, except:
+## question
+Acetylcholine is released from the following, except:
+## vignette
+This item asks the student to recognise that most (not all) postganglionic sympathetic fibres are adrenergic, not cholinergic.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+All parasympathetic preganglionic fibers
+## explanation_a
+All parasympathetic preganglionic fibres genuinely release acetylcholine (as all preganglionic autonomic fibres do), so this is not the exception.
+## answer_b
+All parasympathetic postganglionic fibers
+## explanation_b
+All parasympathetic postganglionic fibres genuinely release acetylcholine, so this is not the exception.
+## answer_c
+All sympathetic preganglionic fibers
+## explanation_c
+All sympathetic preganglionic fibres genuinely release acetylcholine (as all preganglionic autonomic fibres do), so this is not the exception.
+## answer_d
+All sympathetic postganglionic fibers -
+## explanation_d
+Correct. The exception. Most postganglionic sympathetic fibres release noradrenaline (adrenergic), not acetylcholine — only the two named exceptions (sweat gland secretory fibres, skeletal-muscle vasodilator fibres) are cholinergic, so "all sympathetic postganglionic fibres" release acetylcholine is false.
+
+Why this is right:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-1DB903AAE3D02A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that most (not all) postganglionic sympathetic fibres are adrenergic, not cholinergic.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p25 q23. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-196
+## title
+Norepinephrine secreted at the postgang!ionic sympathetic fibers is removed by:
+## question
+Norepinephrine secreted at the postgang!ionic sympathetic fibers is removed by:
+## vignette
+This item asks the student to name reuptake as the dominant route by which noradrenaline is removed from postganglionic sympathetic endings.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Reuptake by the endings of the sympathetic fibers
+## explanation_a
+Correct. Active re-uptake into the sympathetic nerve endings themselves accounts for the removal of 50–80% of secreted noradrenaline — the dominant of the three named removal routes.
+
+Why this is right:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
+## answer_b
+Inactivation inside the adrenergic nerve endings by COMT
+## explanation_b
+COMT does inactivate noradrenaline, but it is present in all tissues *except* the adrenergic nerve endings themselves — this option misplaces where COMT acts.
+## answer_c
+Transformation into epinephrine
+## explanation_c
+Noradrenaline is not transformed into epinephrine at the postganglionic sympathetic ending — epinephrine synthesis (by methylation of noradrenaline) occurs specifically in the adrenal medulla, a different tissue with a different enzyme.
+## answer_d
+Diffusion from blood into tissues
+## explanation_d
+Diffusion away from the nerve ending into surrounding fluid and blood is one of the three removal routes, but it is not the dominant one — reuptake accounts for the larger share (50–80%).
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-2FB725F305BDB1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name reuptake as the dominant route by which noradrenaline is removed from postganglionic sympathetic endings.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p27 q31. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-197
+## title
+Stimulation of the greater splanchnic nerve produces:
+## question
+Stimulation of the greater splanchnic nerve produces:
+## vignette
+This item asks the student to state that greater splanchnic nerve stimulation causes adrenal medulla catecholamine secretion.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Increased motility of the plain muscles of stomach
+## explanation_a
+Backwards. Sympathetic stimulation *relaxes*, not increases the motility of, the plain muscle of the stomach.
+## answer_b
+Excessive secretion of gastric juice
+## explanation_b
+Backwards. Sympathetic stimulation is not described as increasing gastric juice secretion — secretomotor stimulation of GIT glands is a parasympathetic (vagal) effect, the opposite division.
+## answer_c
+Decreased blood glucose level
+## explanation_c
+Backwards. Splanchnic-nerve-driven hepatic glycogenolysis *increases*, not decreases, blood glucose level.
+## answer_d
+Secretion of epinephrine and norepinephrine by the adrenal medulla
+## explanation_d
+Correct. The greater splanchnic nerve carries preganglionic cholinergic sympathetic fibres directly to the adrenal medulla, and its stimulation causes secretion of adrenaline and noradrenaline into the blood.
+
+Why this is right:
+- Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that greater splanchnic nerve stimulation causes adrenal medulla catecholamine secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p27 q32. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-198
+## title
+Epinephrine is:
+## question
+Epinephrine is:
+## vignette
+This item asks the student to state that epinephrine is synthesised in the adrenal medulla by methylation of noradrenaline.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Synthesized in the adrenal medulla by methylation of norepinephrine
+## explanation_a
+Correct. Epinephrine (adrenaline) is synthesised in the adrenal medulla by methylating noradrenaline — the final step distinguishing the two catecholamines.
+
+Why this is right:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
+## answer_b
+The chemical transmitter of most sympathetic postganglionic nerve fibers
+## explanation_b
+Backwards. Noradrenaline, not epinephrine, is the transmitter of most sympathetic postganglionic nerve fibres — epinephrine is instead a circulating hormone from the adrenal medulla.
+## answer_c
+Released by the sympathetic cholinergic postganglionic nerve fibers
+## explanation_c
+Sympathetic cholinergic postganglionic fibres (sweat glands, skeletal-muscle vasodilators) release acetylcholine, not epinephrine — the two are unrelated compounds released by entirely different fibre types.
+## answer_d
+Hydrolyzed by cholinesterase enzyme
+## explanation_d
+Epinephrine is removed by re-uptake, diffusion and enzymatic breakdown by MAO/COMT, the same routes as noradrenaline — cholinesterase is the enzyme that hydrolyses acetylcholine, not catecholamines.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-2FB725F305BDB1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that epinephrine is synthesised in the adrenal medulla by methylation of noradrenaline.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p27 q34. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-199
+## title
+Concerning norepinephrine all of the following is correct, except:
+## question
+Concerning norepinephrine all of the following is correct, except:
+## vignette
+This item asks the student to recognise that noradrenaline synthesis proceeds through hydroxylation/decarboxylation from tyrosine, not through MAO.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is synthesized from tyrosine by the enzyme monoamine oxidase (MAO).
+## explanation_a
+Correct. The exception. Noradrenaline is synthesised from tyrosine by hydroxylation (to DOPA) and decarboxylation (to dopamine), then conversion to noradrenaline — MAO (monoamine oxidase) is a *degrading*, not synthesising, enzyme, part of noradrenaline's removal rather than its manufacture.
+
+Why this is right:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
+## answer_b
+It is inactivated by catechol-O-methyl transferase (COMT) present on the ‘membrane of the postsynaptic neurons.
+## explanation_b
+True, so not the exception. COMT does inactivate noradrenaline and is present broadly in tissues, including on postsynaptic neuron membranes.
+## answer_c
+It causes contraction of dilator pupillae muscle.
+## explanation_c
+True, so not the exception. Noradrenaline, acting mainly on alpha-1 receptors, causes contraction of the dilator pupillae muscle (mydriasis).
+## answer_d
+It causes bronchodilation.
+## explanation_d
+True, so not the exception. Noradrenaline's (mild) beta-2 stimulation, alongside the sympathetic system's broader effect, contributes to bronchodilation.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-2FB725F305BDB1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that noradrenaline synthesis proceeds through hydroxylation/decarboxylation from tyrosine, not through MAO.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q35. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-200
+## title
+The a- adrenergic receptors produces all of the following, except:
+## question
+The a- adrenergic receptors produces all of the following, except:
+## vignette
+This item asks the student to recognise that increased cardiac activity is a beta, not an alpha, adrenergic effect.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Vasoconsiriction
+## explanation_a
+Vasoconstriction (of skin, visceral and genital blood vessels) is a genuine alpha-1 receptor effect, so it is not the exception.
+## answer_b
+Pupil dilation
+## explanation_b
+Pupil dilation (mydriasis, via the dilator pupillae) is a genuine alpha-1 receptor effect, so it is not the exception.
+## answer_c
+Relaxation of intestinal wall
+## explanation_c
+Relaxation of intestinal wall smooth muscle is a genuine alpha-2 receptor effect, so it is not the exception.
+## answer_d
+Increased cardiac activity
+## explanation_d
+Correct. The exception. Increased cardiac activity is a beta-1, not an alpha, receptor effect — alpha receptors' actions are elsewhere (vasoconstriction, mydriasis, sphincter contraction, intestinal relaxation), never on the heart.
+
+Why this is right:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-F16D60268905BC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that increased cardiac activity is a beta, not an alpha, adrenergic effect.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q37. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-201
+## title
+Acti vation of the sympathetic nervous system by epinephrine causes tacnycardia and con…
+## question
+Acti vation of the sympathetic nervous system by epinephrine causes tacnycardia and contraction of the smooth muscle in which of the following?
+## vignette
+This item asks the student to state that epinephrine's alpha-1 action contracts arteriolar smooth muscle.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Bronchioles
+## explanation_a
+Epinephrine's beta-2 action *relaxes* (dilates) bronchiole smooth muscle, the opposite of contraction — this option asks for a tissue where contraction occurs, and bronchioles are not it.
+## answer_b
+Pupils
+## explanation_b
+Epinephrine's alpha-1 action on the eye contracts the dilator pupillae (a specific named muscle), not "pupils" generically as smooth muscle in the way this option frames it, and the tachycardia/contraction pairing the stem asks about is better matched by the vascular effect.
+## answer_c
+Intestine
+## explanation_c
+Epinephrine's beta-2 action *relaxes* intestinal smooth muscle, the opposite of contraction.
+## answer_d
+Arterioles
+## explanation_d
+Correct. Alongside beta-1-driven tachycardia, epinephrine's alpha-1 action contracts (vasoconstricts) arteriolar smooth muscle in skin, viscera and genitalia — matching both halves of the stem, tachycardia and smooth-muscle contraction, in one receptor-consistent picture.
+
+Why this is right:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-F16D60268905BC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that epinephrine's alpha-1 action contracts arteriolar smooth muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p29 q42. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-202
+## title
+On muscarinic receptors stimulation, which of the following signs is present?
+## question
+On muscarinic receptors stimulation, which of the following signs is present?
+## vignette
+This item asks the student to state that muscarinic receptor stimulation produces bradycardia.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Skeletal muscle contracture
+## explanation_a
+Skeletal muscle contraction is mediated by nicotinic receptors at the neuromuscular junction (a different nicotinic receptor subtype from the autonomic-ganglion one), not by muscarinic receptors, which the autonomic system does not use on skeletal muscle at all.
+## answer_b
+Bradycardia
+## explanation_b
+Correct. Muscarinic receptors mediate the parasympathetic (vagal) effect on the heart, which slows atrial activity — bradycardia.
+
+Why this is right:
+- Nicotinic receptors, activated by nicotine, sit in the autonomic ganglia (on postganglionic-neuron membranes) and the adrenal medulla — the receptor at the preganglionic-to-postganglionic synapse itself, for both divisions.
+## answer_c
+Dilation of the pupils
+## explanation_c
+Backwards. Muscarinic (parasympathetic) stimulation *constricts* the pupil (miosis); dilation is the sympathetic, alpha-receptor-mediated effect instead.
+## answer_d
+Hypertension
+## explanation_d
+Backwards. Muscarinic stimulation of the heart slows it and, through vasodilator effects elsewhere, tends toward lower rather than higher blood pressure — hypertension is not a muscarinic-stimulation sign.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-5B28B080597460
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that muscarinic receptor stimulation produces bradycardia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p29 q43. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-203
+## title
+Sympathetic stimulation causes dilatation of blood vessels of skeletal muscles because …
+## question
+Sympathetic stimulation causes dilatation of blood vessels of skeletal muscles because they are supplied with
+## vignette
+This item asks the student to state that skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Sympathetic cholinergic nerve fibers
+## explanation_a
+Correct. Skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres — one of the two named exceptions where a sympathetic fibre releases acetylcholine rather than noradrenaline, and it is this cholinergic action (muscarinic-receptor-mediated dilation) that dilates the vessels under sympathetic stimulation.
+
+Why this is right:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline.
+## answer_b
+Sympathetic adrenergic nerve fibers
+## explanation_b
+Sympathetic *adrenergic* fibres (releasing noradrenaline, acting on alpha-1 receptors) cause vasoconstriction, not the vasodilation this question asks about — the dilation instead comes from the cholinergic exception fibres.
+## answer_c
+Parasympaithetic cholinergic nerve fibers
+## explanation_c
+Parasympathetic fibres do not supply skeletal-muscle blood vessels at all — this vasodilation is a sympathetic phenomenon, achieved by the cholinergic exception among sympathetic fibres, not by the parasympathetic division.
+## answer_d
+Parasympathetic adrenergic nerve fibers
+## explanation_d
+Parasympathetic fibres are cholinergic, not adrenergic, throughout — "parasympathetic adrenergic" describes no real fibre type in this system, and in any case parasympathetic fibres do not reach skeletal-muscle vessels.
+## topic
+Autonomic Nervous System
+## subtopic
+Chemical transmission at autonomic junctions and autonomic receptors
+## main_concept
+CON-NEU-1DB903AAE3D02A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p29 q46. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-204
+## title
+Pre-transcriptional regulation includes:
+## question
+Pre-transcriptional regulation includes:
+## vignette
+This item asks the student to identify epigenetic mechanisms as pre-transcriptional regulation, among the options actually present.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Epigenetic mechanisms
+## explanation_a
+Correct. Listed epigenetic mechanisms as the first item under Pre-transcriptional regulation, alongside the amount of DNA and gene rearrangements.
+
+Why this is right:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
+## answer_b
+mRNA stability
+## explanation_b
+mRNA stability relates to post-transcriptional features such as the poly(A) tail, not to pre-transcriptional regulation.
+## answer_c
+Trimming
+## explanation_c
+Trimming is listed under Post-translational regulation in the diagram, not pre-transcriptional.
+## answer_d
+Covalent modification
+## explanation_d
+Covalent modification is listed under Post-translational regulation in the diagram, not pre-transcriptional.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-94381B5F0910E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify epigenetic mechanisms as pre-transcriptional regulation, among the options actually present.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p74 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+Answer changed from the source's: The printed key names a fifth option this extracted row does not have. Among the four options present, only epigenetic mechanisms is listed under Pre-transcriptional regulation in the book (physical p102); mRNA stability, trimming and covalent modification belong to post-transcriptional or post-translational regulation instead.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-205
+## title
+DNA methylation and histone acetylation are examples of
+## question
+DNA methylation and histone acetylation are examples of
+## vignette
+This item asks the student to recognise DNA methylation and histone acetylation as the two epigenetic mechanisms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Genetic mutation
+## explanation_a
+DNA methylation and histone acetylation do not alter the DNA sequence, so they are not genetic mutations.
+## answer_b
+Chromosomal rearrangements
+## explanation_b
+Chromosomal rearrangements are large-scale structural changes to chromosomes; discussed methylation and acetylation under epigenetic mechanisms, a different category.
+## answer_c
+Epigenetic phenomena
+## explanation_c
+Correct. The Epigenetic Mechanisms section is built around exactly these two examples: DNA methylation and chromatin remodeling by histone acetylation.
+
+Why this is right:
+- Epigenetic means 'around the gene'; it refers to changes in DNA and histone proteins that do not alter the DNA sequence.
+## answer_d
+Translocation
+## explanation_d
+Translocation is a type of chromosomal rearrangement, not what is called DNA methylation or histone acetylation.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-4C59A8FA82E031
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise DNA methylation and histone acetylation as the two epigenetic mechanisms.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p74 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: correctSource is 'none' — no printed key survived. The book's own Epigenetic Mechanisms section opens with exactly these two examples, DNA methylation and chromatin remodeling by histone acetylation, so c is the answer the book supports.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-206
+## title
+DNA methylation:
+## question
+DNA methylation:
+## vignette
+This item asks the student to state that DNA methylation targets cytosine, is catalysed by DNA methyltransferase, and is reversible, and that it silences gene activity.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is irreversible
+## explanation_a
+'Demethylation reverses the process' — methylation is reversible, not irreversible.
+## answer_b
+Occurs on guanine
+## explanation_b
+Placed the target cytosine next to a guanine (forming a CpG island); the base that gets methylated is cytosine, not guanine.
+## answer_c
+Causes gene silencing
+## explanation_c
+Correct. DNA methylation 'is associated with the silencing of the activities of certain genes.'
+
+Why this is right:
+- Epigenetic means 'around the gene'; it refers to changes in DNA and histone proteins that do not alter the DNA sequence.
+## answer_d
+Catalyzed by DNA ligase
+## explanation_d
+DNA methyltransferase is the enzyme that methylates cytosine; DNA ligase, which joins DNA fragments, plays no part in this reaction.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-4C59A8FA82E031
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that DNA methylation targets cytosine, is catalysed by DNA methyltransferase, and is reversible, and that it silences gene activity.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p74 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: correctSource is 'none' — no printed key survived. The book states that methylation is 'associated with the silencing of the activities of certain genes,' which settles the answer as c; the same passage rules out the other three options (methylation targets cytosine, not guanine; demethylation reverses it, so it is not irreversible; and it is catalysed by DNA methyltransferase, not DNA ligase).
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-207
+## title
+The cell responds to methotrexate chemotherapy by:
+## question
+The cell responds to methotrexate chemotherapy by:
+## vignette
+This item asks the student to name gene amplification as the mechanism of methotrexate resistance.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Gene rearrangement
+## explanation_a
+Gene rearrangement recombines existing gene segments (as in immunoglobulin genes); credited methotrexate resistance to more copies of the DHFR gene, not to a rearrangement.
+## answer_b
+DNA methylation
+## explanation_b
+DNA methylation is an epigenetic, gene-silencing mechanism; the methotrexate-resistance example is about increasing gene copy number, not methylating it.
+## answer_c
+Gene amplification
+## explanation_c
+Correct. Malignant cells can develop resistance to methotrexate — a DHFR inhibitor — by amplifying the gene for this enzyme.
+
+Why this is right:
+- A change in the number of copies of a gene can affect the amount of gene product produced.
+## answer_d
+Gene diminution
+## explanation_d
+Gene diminution is a decrease in gene copies, the example being genes disappearing during red blood cell maturation; methotrexate resistance works the opposite way, by increasing copies.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-8AA415B9264E77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name gene amplification as the mechanism of methotrexate resistance.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p74 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-208
+## title
+Diversity of immunoglobulins is achieved by:
+## question
+Diversity of immunoglobulins is achieved by:
+## vignette
+This item asks the student to name gene rearrangement as the source of immunoglobulin diversity.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gene rearrangement
+## explanation_a
+Correct. The heavy and light chains of immunoglobulins are encoded by several hundred gene segments, and their rearrangement generates several million different immunoglobulins.
+
+Why this is right:
+- A change in the number of copies of a gene can affect the amount of gene product produced.
+## answer_b
+DNA methylation
+## explanation_b
+DNA methylation silences gene activity; it is not the mechanism credited with generating antibody diversity.
+## answer_c
+Gene amplification
+## explanation_c
+Gene amplification increases the number of copies of one gene (the example is the DHFR gene under methotrexate); it does not recombine different gene segments the way immunoglobulin diversity requires.
+## answer_d
+Gene diminution
+## explanation_d
+Gene diminution decreases gene copy number, as in maturing red blood cells; it does not generate the combinatorial diversity of antibodies.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-8AA415B9264E77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name gene rearrangement as the source of immunoglobulin diversity.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p74 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-209
+## title
+TATA box:
+## question
+TATA box:
+## vignette
+This item asks the student to state that the TATA box defines where transcription starts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is transacting element
+## explanation_a
+The TATA box is a cis-acting element, a DNA sequence, not a trans-acting (diffusible) regulatory molecule.
+## answer_b
+Controls the frequency of transcription
+## explanation_b
+The CAAT box and GC box, not the TATA box, control how frequently transcription starts (its frequency); assigned the TATA box the job of fixing where it starts.
+## answer_c
+Located 40-200 bp upstream the transcription start site
+## explanation_c
+Placed the CAAT box and GC box 40-200 bp upstream; the TATA box itself is placed 20-30 bp upstream, a different location.
+## answer_d
+Defines where transcription is to start
+## explanation_d
+Correct. The TATA box defines where transcription is to start along the DNA.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the TATA box defines where transcription starts.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-210
+## title
+Not long ago, it was believed that a count of the number of protein-coding genes would …
+## question
+Not long ago, it was believed that a count of the number of protein-coding genes would provide a count of the number of proteins produced in any given eukaryotic species. This is incorrect, largely due to the discovery of widespread.........ssee
+## vignette
+This item asks the student to name alternative splicing as the reason the number of proteins exceeds the number of genes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Chromatin condensation control
+## explanation_a
+Chromatin condensation is an epigenetic/pre-transcriptional mechanism affecting whether a gene is expressed at all, not a source of extra protein variety from one gene.
+## answer_b
+Transcriptional control
+## explanation_b
+Transcriptional control affects how much of a gene is transcribed, not how many different protein products one gene can yield.
+## answer_c
+Alternative splicing
+## explanation_c
+Correct. Alternative splicing explains why the estimated number of proteins much exceeds the number of genes, since one primary transcript can be spliced differently to yield different proteins.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## answer_d
+Translational control
+## explanation_d
+Translational control affects how efficiently an existing mRNA is translated, not how many different proteins a single gene’s transcript can be turned into.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name alternative splicing as the reason the number of proteins exceeds the number of genes.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-211
+## title
+Post-transcriptional regulation includes:
+## question
+Post-transcriptional regulation includes:
+## vignette
+This item asks the student to recognise capping as a post-transcriptional regulation step.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Epigenetic mechanisms
+## explanation_a
+Epigenetic mechanisms are listed under Pre-transcriptional regulation, not post-transcriptional.
+## answer_b
+Capping
+## explanation_b
+Correct. The Post-transcriptional regulation section lists capping, poly-A tailing, splicing and miRNA.
+
+Why this is right:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
+## answer_c
+Trimming
+## explanation_c
+Trimming is listed under Post-translational regulation, not post-transcriptional.
+## answer_d
+Basal expression elements
+## explanation_d
+Basal expression elements (TATA, CAAT/GC boxes) belong to transcriptional regulation, not post-transcriptional.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-94381B5F0910E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise capping as a post-transcriptional regulation step.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-212
+## title
+Posttranscriptional processing of mRNA includes:
+## question
+Posttranscriptional processing of mRNA includes:
+## vignette
+This item asks the student to recognise alternative splicing as part of post-transcriptional processing of mRNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Replacement of UU with CCA nucleotides at the 3° end
+## explanation_a
+Described no replacement of 'UU with CCA' anywhere in its account of mRNA processing; this option does not match any book-taught step.
+## answer_b
+Removal of poly A tail
+## explanation_b
+Described addition, not removal, of the poly(A) tail as the polyadenylation step; this option reverses it.
+## answer_c
+Removal of leader sequence
+## explanation_c
+A is never described"leader sequence" being removed as part of mRNA processing; this is not one of its listed steps.
+## answer_d
+Alternative splicing
+## explanation_d
+Correct. The Post-transcriptional regulation list includes splicing, and alternative splicing is the extension of splicing to yield multiple proteins from one gene's transcript.
+
+Why this is right:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-94381B5F0910E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise alternative splicing as part of post-transcriptional processing of mRNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-213
+## title
+Micro RNAs (miRNAs):
+## question
+Micro RNAs (miRNAs):
+## vignette
+This item asks the student to state that miRNAs reduce expression of their target mRNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Initiate translation
+## explanation_a
+MiRNAs reduce expression of their target mRNA, by degrading it or blocking its translation — the opposite of initiating translation.
+## answer_b
+Are cis-acting elements
+## explanation_b
+Cis-acting elements are DNA sequences flanking a gene; miRNAs are RNA molecules that act post-transcriptionally on mRNA, a different category.
+## answer_c
+Reduce expression of the target mRNA
+## explanation_c
+Correct. MiRNAs are non-coding RNAs that reduce expression of the target mRNA, either by inducing its degradation or blocking its translation.
+
+Why this is right:
+- miRNAs are non-coding RNAs that reduce expression of the target mRNA either by inducing its degradation or blocking its translation.
+## answer_d
+Are transacting elements
+## explanation_d
+Trans-acting elements are regulatory molecules that diffuse to a DNA-binding site to affect transcription; miRNAs act post-transcriptionally on mRNA, not at the level of DNA-binding transcriptional control.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-CCAFC81D7A7486
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that miRNAs reduce expression of their target mRNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-214
+## title
+Trimming is:
+## question
+Trimming is:
+## vignette
+This item asks the student to recognise trimming as a post-translational modification.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Transcriptional modification.
+## explanation_a
+Transcriptional modification is not a category applied to trimming; trimming acts on a finished protein chain, not on transcription.
+## answer_b
+Pretranscriptional modification
+## explanation_b
+Pretranscriptional regulation covers epigenetics, DNA amount and gene rearrangement — none of which is trimming, a protein-level event.
+## answer_c
+Posttranscriptional modification
+## explanation_c
+Posttranscriptional modification covers capping, poly-A tailing, splicing and miRNA, all acting on mRNA; trimming acts on a protein, not mRNA.
+## answer_d
+Posttranslational modification
+## explanation_d
+Correct. Listed trimming under Post-Translational Modification of Proteins (discussed in Translation), alongside covalent modification.
+
+Why this is right:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-94381B5F0910E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise trimming as a post-translational modification.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p75 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-215
+## title
+One of the following is a covalent modification to a peptide chain:
+## question
+One of the following is a covalent modification to a peptide chain:
+## vignette
+This item asks the student to name carboxylation as a covalent modification to a peptide chain.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Carboxylation
+## explanation_a
+Correct. Carboxylation, forming γ-carboxyglutamate so clotting proteins can bind calcium, is one of the covalent post-translational modifications.
+
+Why this is right:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell.
+## answer_b
+Trimming
+## explanation_b
+Trimming is the proteolytic removal of a segment from a precursor protein — the other branch of post-translational modification, not a covalent addition.
+## answer_c
+Capping
+## explanation_c
+Capping adds a cap to the 5' end of mRNA, a post-transcriptional modification of RNA, not a covalent modification of a peptide chain.
+## answer_d
+Editing
+## explanation_d
+Editing changes the coding sequence of mRNA (as in the ApoB example), a post-transcriptional RNA event, not a covalent modification of a peptide chain.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-344140D2457FBB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name carboxylation as a covalent modification to a peptide chain.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p76 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-216
+## title
+One of the following is an example of a posttranslational covalent modification that ma…
+## question
+One of the following is an example of a posttranslational covalent modification that may regulate protein function:
+## vignette
+This item asks the student to name phosphorylation as a covalent modification that regulates protein function.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Phosphorylation
+## explanation_a
+Correct. Phosphorylation and dephosphorylation regulate the activity of many proteins, such as the enzymes of glycogen metabolism and regulators of gene transcription.
+
+Why this is right:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell.
+## answer_b
+Trimming
+## explanation_b
+Trimming is proteolytic removal of a segment from a precursor protein, the other branch of post-translational modification, not a covalent modification that regulates an existing protein’s function.
+## answer_c
+Polyadenylation
+## explanation_c
+Polyadenylation adds a poly(A) tail to mRNA, a post-transcriptional RNA modification, not a covalent modification of a protein.
+## answer_d
+Deamination
+## explanation_d
+Deamination is not one of the listed covalent protein modifications (phosphorylation, glycosylation, acetylation/methylation, hydroxylation, carboxylation); used cytidine deamination only in the context of mRNA editing.
+## topic
+Regulation Of Gene Expression
+## subtopic
+Regulation of Gene Expression
+## main_concept
+CON-FND-344140D2457FBB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Regulation of Gene Expression
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-REGULATION-OF-GENE-EXPRESSION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name phosphorylation as a covalent modification that regulates protein function.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p76 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-217
+## title
+Which of the following best describes transcription?
+## question
+Which of the following best describes transcription?
+## vignette
+This item asks the student to state that RNA synthesis always proceeds 5' to 3', and rule out the false alternatives about priming, strand complementarity and NTP substrates.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+RNA synthesis is always in the 5' - 3' direction
+## explanation_a
+Correct. The transcriptional-unit diagram shows the RNA transcript running 5' to 3'; RNA polymerase always extends the growing chain in this one direction.
+
+Why this is right:
+- Synthesis of RNA from DNA is known as transcription.
+## answer_b
+RNA polymerase needs a primer to initiate transcription
+## explanation_b
+The pre-initiation and initiation steps have TFIID, the other transcription factors and RNA polymerase II assemble directly at the promoter and begin synthesis — nothing in this process is described as needing a primer, unlike DNA replication.
+## answer_c
+The sequence of the mRNA is complementary to the sequence of coding strand
+## explanation_c
+This reverses the rule: 'the sequence of RNA is complementary to the sequence of template strand,' not the coding strand — mRNA matches the coding strand instead, except for U replacing T.
+## answer_d
+The RNA polymerase utilizes ribonucleoside triphosphates as ATP, GTP, CTP and TTP
+## explanation_d
+The four ribonucleoside triphosphates RNA polymerase II uses are ATP, GTP, CTP and UTP — not TTP, since RNA never contains thymine.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CDAB433363C64E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that RNA synthesis always proceeds 5' to 3', and rule out the false alternatives about priming, strand complementarity and NTP substrates.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-218
+## title
+mRNA is complementary to the nucleotide sequence of:
+## question
+mRNA is complementary to the nucleotide sequence of:
+## vignette
+This item asks the student to state that mRNA is complementary to the template strand, not the coding strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Coding strand
+## explanation_a
+The coding strand is what mRNA matches (apart from U for T) — it is complementary to the template strand, not to the coding strand itself.
+## answer_b
+Ribosomal RNA
+## explanation_b
+Ribosomal RNA is a translation component, not the DNA strand mRNA is transcribed against.
+## answer_c
+tRNA
+## explanation_c
+tRNA is a translation component, not the DNA strand mRNA is transcribed against.
+## answer_d
+Template strand
+## explanation_d
+Correct. Plainly that RNA's sequence is complementary to the template strand's sequence.
+
+Why this is right:
+- Synthesis of RNA from DNA is known as transcription.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CDAB433363C64E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that mRNA is complementary to the template strand, not the coding strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between options a and d. The book states directly that 'the sequence of RNA is complementary to the sequence of template strand,' which settles it as d — mRNA is complementary to the template strand, not the coding strand.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-219
+## title
+The base sequence of the strand of DNA used as the template for transcription has the b…
+## question
+The base sequence of the strand of DNA used as the template for transcription has the base sequence GATCTAC. What is the base sequence of the RNA product? (All sequences are written according to standard convention 5’-3’)
+## vignette
+This item asks the student to derive an RNA product's sequence from a given template strand using complementary, antiparallel base pairing with U replacing T.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+CTAGATG
+## explanation_a
+This sequence uses DNA bases (T) rather than RNA bases (U), and does not correctly complement the template read antiparallel.
+## answer_b
+GTAGATC
+## explanation_b
+This uses T instead of U, so it cannot be the RNA product; RNA is built with uracil, never thymine, in place of adenine’s partner.
+## answer_c
+GAUCUAC
+## explanation_c
+This keeps the template’s own base order rather than pairing each base with its complement — it copies GATCTAC into RNA letters (GAUCUAC) rather than transcribing its complement.
+## answer_d
+GUAGAUC
+## explanation_d
+Correct. Pairing each base of the 5'-GATCTAC-3' template with its complement, read antiparallel (RNA polymerase moves 3' to 5' along the template while extending RNA 5' to 3', with U replacing T), gives 5'-GUAGAUC-3'.
+
+Why this is right:
+- Synthesis of RNA from DNA is known as transcription.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CDAB433363C64E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Derive an RNA product's sequence from a given template strand using complementary, antiparallel base pairing with U replacing T.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-220
+## title
+Which sequence of RNA bases would pair with this partial DNA strand ATG TGA CAG?
+## question
+Which sequence of RNA bases would pair with this partial DNA strand ATG TGA CAG?
+## vignette
+This item asks the student to pair RNA bases directly against a given DNA strand using complementary base pairing with U replacing T.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+ATG TGA CAG
+## explanation_a
+This simply repeats the DNA sequence with T unchanged; RNA pairing requires each DNA base to be swapped for its complement, and T is never used in RNA.
+## answer_b
+UAC ACU GUC
+## explanation_b
+Correct. Pairing each DNA base with its RNA complement (A pairs with U, T pairs with A, G pairs with C, C pairs with G) across ATG TGA CAG gives UAC ACU GUC.
+
+Why this is right:
+- Synthesis of RNA from DNA is known as transcription.
+## answer_c
+TUC UCT GTC
+## explanation_c
+This mixes DNA and RNA bases (T alongside U) in a way that does not consistently follow the complementary-pairing rule.
+## answer_d
+TAC ACT GTC
+## explanation_d
+This uses T throughout, which is a DNA base; the rule is that RNA takes U in place of T.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CDAB433363C64E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Pair RNA bases directly against a given DNA strand using complementary base pairing with U replacing T.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-221
+## title
+The base sequence of codons number 6 and 7 in the coding strand in a specific gene is C…
+## question
+The base sequence of codons number 6 and 7 in the coding strand in a specific gene is CAGCGC. The mRNA produced upon transcription of this gene will contain which sequence?
+## vignette
+This item asks the student to apply the rule that mRNA matches the coding strand's sequence, U for T, to read off an mRNA sequence directly.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+GCGCTC
+## explanation_a
+This is neither the coding-strand sequence nor its proper U-for-T conversion; it does not follow the stated rule.
+## answer_b
+CAGCGC
+## explanation_b
+Correct. MRNA 'is the same as that of coding strand except for U replacing T'; since CAGCGC contains no T to begin with, the mRNA sequence is identical to the coding strand, CAGCGC.
+
+Why this is right:
+- Synthesis of RNA from DNA is known as transcription.
+## answer_c
+CUGCGC
+## explanation_c
+This does not match the coding strand’s letters position for position, so it cannot be the mRNA sequence the rule produces.
+## answer_d
+GUCGCG
+## explanation_d
+This does not match the coding strand’s letters position for position, so it cannot be the mRNA sequence the rule produces.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CDAB433363C64E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply the rule that mRNA matches the coding strand's sequence, U for T, to read off an mRNA sequence directly.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-222
+## title
+Which of the following best describes the key function of helicases during transcription?
+## question
+Which of the following best describes the key function of helicases during transcription?
+## vignette
+This item asks the student to name helicase (TFIIH) activity as what separates the two DNA strands for transcription.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Relief of tension in the DNA strands
+## explanation_a
+Relief of torsional tension is a topoisomerase's job, not what is credited to helicase activity here.
+## answer_b
+Separation of two strands of DNA
+## explanation_b
+Correct. TFIIH has a helicase activity that separates the two strands of DNA for initiation.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## answer_c
+Synthesis of the RNA primers
+## explanation_c
+RNA primers are not part of the transcription mechanism; RNA polymerase does not need a primer, unlike DNA polymerase.
+## answer_d
+Re-annealing of two DNA strands after transcription
+## explanation_d
+Re-annealing the strands happens after RNA polymerase passes, not as helicase's key function during transcription; credited TFIIH's helicase activity with separating strands, not rejoining them.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name helicase (TFIIH) activity as what separates the two DNA strands for transcription.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p61 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-223
+## title
+What is a promoter?
+## question
+What is a promoter?
+## vignette
+This item asks the student to define the promoter as the DNA sequence RNA polymerase binds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+A specific sequence of DNA to which DNA polymerase binds
+## explanation_a
+DNA polymerase acts in DNA replication, not transcription; the promoter is where RNA polymerase, not DNA polymerase, begins attachment.
+## answer_b
+A specific sequence of DNA to which RNA polymerase binds
+## explanation_b
+Correct. The promoter is the nucleotide sequence at which RNA polymerase begins attachment, lying upstream of the transcription region.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## answer_c
+A specific DNA sequence to which a restriction endonuclease binds
+## explanation_c
+A restriction endonuclease cuts DNA at its own recognition sequence; this has nothing to do with the promoter's role in transcription.
+## answer_d
+A specific RNA sequence to which RNA polymerase binds
+## explanation_d
+The promoter is a DNA sequence, not an RNA sequence, and it is bound before any RNA exists.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define the promoter as the DNA sequence RNA polymerase binds.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-224
+## title
+What is the role of the promoter region in the regulation of gene expression?
+## question
+What is the role of the promoter region in the regulation of gene expression?
+## vignette
+This item asks the student to state that the promoter's role is binding transcription factors that assemble the pre-initiation complex.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Bind negative regulators to inhibit gene expression
+## explanation_a
+Described the promoter recruiting transcription factors and RNA polymerase II to begin transcription, not binding negative regulators to inhibit expression.
+## answer_b
+Recruit DNA polymerase and transcription factors to DNA
+## explanation_b
+The promoter recruits RNA polymerase II and transcription factors, not DNA polymerase — DNA polymerase belongs to DNA replication, not transcription.
+## answer_c
+Allow for alternative splicing and recombination of genetic components
+## explanation_c
+Splicing and recombination are separate post-transcriptional/gene-rearrangement processes; the promoter's role is initiating transcription, not enabling splicing.
+## answer_d
+Alter gene expression by binding transcription factors
+## explanation_d
+Correct. Described the promoter's basal expression elements (TATA box, CAAT/GC box) as the site where TFIID and the other transcription factors bind and assemble, which is how the promoter region influences gene expression.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the promoter's role is binding transcription factors that assemble the pre-initiation complex.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between options a and d. The book describes the promoter's basal expression elements (TATA, CAAT/GC) and TFIID as binding transcription factors that assemble the pre-initiation complex there — the promoter's role is binding transcription factors, which is what controls gene expression, not recruiting DNA polymerase (the wrong enzyme for transcription).
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-225
+## title
+The region of DNA known as TATA BOX is the site for binding of:
+## question
+The region of DNA known as TATA BOX is the site for binding of:
+## vignette
+This item asks the student to identify the TATA box as part of the promoter where RNA polymerase's transcription machinery assembles.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+DNA polymerase
+## explanation_a
+DNA polymerase belongs to DNA replication, not to the promoter's role in transcription.
+## answer_b
+Topoisomerase
+## explanation_b
+Topoisomerase relieves DNA supercoiling; it is not what is associated with the TATA box.
+## answer_c
+RNA polymerase
+## explanation_c
+Correct. The TATA box is part of the promoter, the nucleotide sequence at which — per the terminology — RNA polymerase begins attachment; TFIID binds it first as the entry point for the RNA polymerase II pre-initiation complex.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## answer_d
+DNA ligase
+## explanation_d
+DNA ligase joins DNA fragments during replication or repair; it has no role at the TATA box during transcription.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the TATA box as part of the promoter where RNA polymerase's transcription machinery assembles.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-226
+## title
+In eukaryotes, synthesis of mRNA is catalyzed by:
+## question
+In eukaryotes, synthesis of mRNA is catalyzed by:
+## vignette
+This item asks the student to name RNA polymerase II as the enzyme responsible for eukaryotic mRNA synthesis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+RNA polymerase I
+## explanation_a
+RNA polymerase I is for rRNA synthesis mainly, per the classification, not mRNA.
+## answer_b
+RNA polymerase II
+## explanation_b
+Correct. Directly that RNA polymerase II is responsible for synthesis of mRNAs.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## answer_c
+RNA polymerase III
+## explanation_c
+RNA polymerase III is for tRNA synthesis mainly, per the classification, not mRNA.
+## answer_d
+DNA polymerase I
+## explanation_d
+DNA polymerase I is a DNA-replication enzyme, not an RNA-synthesising one.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name RNA polymerase II as the enzyme responsible for eukaryotic mRNA synthesis.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-227
+## title
+The large eukaryotic rRNA genes, such as 18S and 28S RNA-encoding genes, are transcribe…
+## question
+The large eukaryotic rRNA genes, such as 18S and 28S RNA-encoding genes, are transcribed by which of the following RNA polymerases?
+## vignette
+This item asks the student to assign large ribosomal RNA genes (18S, 28S) to RNA polymerase I.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+RNA polymerase III
+## explanation_a
+Grouped RNA polymerase III with polymerase I for rRNA/tRNA synthesis generally, but the large 18S/28S ribosomal RNAs specifically belong to polymerase I among the two.
+## answer_b
+RNA-dependent RNA polymerase 8
+## explanation_b
+'RNA-dependent RNA polymerase' is not one of the three nuclear RNA polymerases; the three are RNA polymerase I, II and III.
+## answer_c
+RNA polymerase I
+## explanation_c
+Correct. Assigned rRNA synthesis mainly to RNA polymerase I (together with III for tRNA); the large 18S and 28S ribosomal RNA genes are transcribed by RNA polymerase I.
+
+Why this is right:
+- There are three types of nuclear RNA polymerases: RNA polymerase I and III, for synthesis of rRNAs and tRNAs mainly; and RNA polymerase II, for synthesis of mRNAs, most small nuclear RNAs (snRNAs) and micro RNAs (miRNAs).
+## answer_d
+RNA polymerase II
+## explanation_d
+RNA polymerase II is dedicated to mRNA, most snRNA and miRNA, not to the large ribosomal RNAs.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-A734203535EAA1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Assign large ribosomal RNA genes (18S, 28S) to RNA polymerase I.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-228
+## title
+In eukaryotes, the TATA sequence functions as:
+## question
+In eukaryotes, the TATA sequence functions as:
+## vignette
+This item asks the student to state that the TATA box defines the transcription start site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+An indication of the starting point for replication
+## explanation_a
+The TATA box belongs to transcription, not DNA replication; it a role in marking a replication start point is never assigned.
+## answer_b
+An indication of the starting point for transcription
+## explanation_b
+Correct. The TATA box 'defines where transcription is to start along the DNA.'
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## answer_c
+A termination signal for transcription
+## explanation_c
+Assigned the terminator, not the TATA box, to marking where transcription ends.
+## answer_d
+A termination signal for translation
+## explanation_d
+The TATA box acts at the start of transcription, not at the end of translation — an unrelated process.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the TATA box defines the transcription start site.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-229
+## title
+Processing of mRNA lacks:
+## question
+Processing of mRNA lacks:
+## vignette
+This item asks the student to recognise trimming as absent from the list of mRNA processing steps.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Capping
+## explanation_a
+Capping is one of the four listed post-transcriptional modifications of mRNA — present, not lacking.
+## answer_b
+Polyadenylation
+## explanation_b
+Polyadenylation is one of the four listed modifications — present, not lacking.
+## answer_c
+Splicing
+## explanation_c
+Splicing is one of the four listed modifications — present, not lacking.
+## answer_d
+Trimming
+## explanation_d
+Correct. The post-transcriptional modifications of mRNA are capping, polyadenylation, splicing and editing; trimming is a post-translational modification of proteins, not something mRNA processing includes.
+
+Why this is right:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-CC55F157021237
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise trimming as absent from the list of mRNA processing steps.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p62 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-230
+## title
+What sequence feature is thought to protect mRNAs from degradation?
+## question
+What sequence feature is thought to protect mRNAs from degradation?
+## vignette
+This item asks the student to name the poly(A) tail as the mRNA feature that protects against degradation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Telomeres
+## explanation_a
+Telomeres protect the ends of chromosomal DNA, not mRNA; they play no part in the mRNA-processing discussion.
+## answer_b
+Poly (A) tail
+## explanation_b
+Correct. Polyadenylation 'stabilizes the mRNA and protects it against the attack by ribonucleases.'
+
+Why this is right:
+- Capping at the 5' end adds a methyl-guanosine cap; this stabilises the mRNA and protects it against attack by ribonucleases, and it facilitates protein synthesis by helping transport the mRNA to the cytoplasm and allowing its recognition by ribosomes.
+## answer_c
+Introns
+## explanation_c
+Introns are removed by splicing before the mature mRNA is finished; they are not a feature that protects the mature message.
+## answer_d
+Exons
+## explanation_d
+Exons are the coding sequence retained in the mature mRNA, but credited the poly(A) tail, not exons themselves, with ribonuclease protection.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-EEEEDA8F5EA739
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the poly(A) tail as the mRNA feature that protects against degradation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p63 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-231
+## title
+mRNA splicing involves:
+## question
+mRNA splicing involves:
+## vignette
+This item asks the student to state that splicing cuts introns out and joins exons together, not the reverse.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cutting of exons and joining of introns
+## explanation_a
+This reverses the description: splicing cuts out introns and joins together the exons, not the other way round.
+## answer_b
+The action of RNA polymerase
+## explanation_b
+RNA polymerase carries out transcription itself; splicing is a separate, later step carried out by the spliceosome, not by RNA polymerase.
+## answer_c
+The action of DNA ligase
+## explanation_c
+DNA ligase joins DNA fragments in replication or repair; splicing of mRNA is carried out by the spliceosome (snRNPs), not DNA ligase.
+## answer_d
+Cutting of introns and joining of exons
+## explanation_d
+Correct. Splicing removes introns (non-expressed regions) and joins exons (expressed regions) to form functional mRNA.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that splicing cuts introns out and joins exons together, not the reverse.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p63 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between a and d. The book states splicing 'removes introns... and joins exons... to form functional mRNA,' which settles it as d — cutting of introns and joining of exons — the reverse of option a.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-232
+## title
+Which best describes the process in the following figure? Exon Exon Exon Exon mRNA [ee …
+## question
+Which best describes the process in the following figure? Exon Exon Exon Exon mRNA [ee Basi! es) SS Protein A Protein B
+## vignette
+This item asks the student to recognise alternative splicing from a figure showing one gene's transcript yielding two different proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Capping
+## explanation_a
+Capping adds a methyl-guanosine cap to the 5' end; it does not produce two different proteins from one transcript, which is what the figure shows.
+## answer_b
+Polyadenylation
+## explanation_b
+Polyadenylation adds a poly(A) tail to the 3' end; it does not produce two different proteins from one transcript.
+## answer_c
+Splicing
+## explanation_c
+Plain splicing removes introns to give one mature mRNA; the figure’s two different protein products from the same exons is specifically what is called alternative splicing.
+## answer_d
+Alternative splicing
+## explanation_d
+Correct. The primary transcript of some genes may be spliced differently to yield different proteins from the same gene — exactly what the figure of one transcript producing Protein A and Protein B shows.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise alternative splicing from a figure showing one gene's transcript yielding two different proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p63 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-233
+## title
+Mature mammalian mRNA would be least likely to contain:
+## question
+Mature mammalian mRNA would be least likely to contain:
+## vignette
+This item asks the student to state that mature mRNA lacks introns because splicing has already removed them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+A 5’ cap structure
+## explanation_a
+The 5' cap is added during processing and is retained in mature mRNA — it would be present, not least likely.
+## answer_b
+A 3’ poly A tail structure
+## explanation_b
+The 3' poly(A) tail is added during processing and is retained in mature mRNA — it would be present, not least likely.
+## answer_c
+Anexon
+## explanation_c
+Exons are the expressed, coding regions that splicing keeps and joins together — they are present in mature mRNA, not least likely.
+## answer_d
+An intron
+## explanation_d
+Correct. Splicing removes introns and joins exons to form the functional, mature mRNA, so an intron is exactly what mature mRNA is least likely to still contain.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that mature mRNA lacks introns because splicing has already removed them.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p63 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-234
+## title
+What is the macromolecular complex that associates with introns during mRNA splicing?
+## question
+What is the macromolecular complex that associates with introns during mRNA splicing?
+## vignette
+This item asks the student to name the spliceosome as the complex that associates with introns during splicing.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Splicer
+## explanation_a
+'Splicer' is not the name for this machinery; named the spliceosome specifically.
+## answer_b
+Ribosomes
+## explanation_b
+Ribosomes carry out translation, not splicing; they play no part in intron removal.
+## answer_c
+Nuclear body
+## explanation_c
+'Nuclear body' is not the term for the splicing machinery; it is called a spliceosome.
+## answer_d
+Spliceosomes
+## explanation_d
+Correct. Splicing requires a spliceosome, made of small nuclear ribonucleoproteins (snRNPs) built of special proteins and small nuclear RNAs.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the spliceosome as the complex that associates with introns during splicing.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p64 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-235
+## title
+A 32-year-old female patient complains of skin rash, and painful swelling of joints. Sh…
+## question
+A 32-year-old female patient complains of skin rash, and painful swelling of joints. She was diagnosed with systemic lupus erythematosus (SLE) with autoantibodies against small nuclear ribonucleoproteins (snRNPs). This is caused by defective:
+## vignette
+This item asks the student to connect anti-snRNP autoantibodies in SLE to a splicing defect.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Capping
+## explanation_a
+The clinical correlation names snRNPs, the spliceosome's components, as the antibody target in SLE — not a capping-related complex.
+## answer_b
+Polyadenylation
+## explanation_b
+The clinical correlation names snRNPs as the antibody target in SLE, not any polyadenylation-related component.
+## answer_c
+Splicing
+## explanation_c
+Correct. The clinical correlation states that in SLE, autoantibodies target small nuclear ribonucleoproteins (snRNPs) — the components of the spliceosome that carries out splicing — so defective splicing is the mechanism.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## answer_d
+Alternative splicing
+## explanation_d
+The clinical correlation concerns snRNPs and ordinary splicing, not the choice between alternative splice patterns.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Connect anti-snRNP autoantibodies in SLE to a splicing defect.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p64 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-236
+## title
+A two-year-old girl was diagnosed with f-thalassemia. Genetic analysis revealed a nucle…
+## question
+A two-year-old girl was diagnosed with f-thalassemia. Genetic analysis revealed a nucleotide change at an intron-exon junction. this may result from defective:
+## vignette
+This item asks the student to recognise that a mutation at an intron-exon junction disrupts splicing, since that boundary is exactly where the spliceosome must recognise where to cut.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Capping
+## explanation_a
+Capping happens at the 5' end of the transcript, not at internal intron-exon boundaries; a junction mutation does not fit a capping defect.
+## answer_b
+Polyadenylation
+## explanation_b
+Polyadenylation happens at the 3' end of the transcript, not at internal intron-exon boundaries; a junction mutation does not fit a polyadenylation defect.
+## answer_c
+Splicing
+## explanation_c
+Correct. Splicing works by the spliceosome recognising the boundary between an intron and an exon in order to remove the intron and join the exons; a mutation exactly at that junction disrupts the recognition the description of splicing depends on.
+
+Why this is right:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes.
+## answer_d
+Alternative splicing
+## explanation_d
+Alternative splicing is a normal, regulated choice between splice patterns, not a description of what a junction mutation itself does to a single splice site.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-27013C64915C7E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise that a mutation at an intron-exon junction disrupts splicing, since that boundary is exactly where the spliceosome must recognise where to cut.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p64 q22. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-237
+## title
+The following figure demonstrates which of the post-transcriptional modifications of mR…
+## question
+The following figure demonstrates which of the post-transcriptional modifications of mRNA? hnRNA Ss (ee *| 3° : {ginj mRNA we AUG AA UA So sremnawaraneanes 3 (stop) Transiation apo 6-48 protein NH3t coo
+## vignette
+This item asks the student to identify mRNA editing from the ApoB figure showing a CAA-to-UAA base change that shortens the translated protein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Capping
+## explanation_a
+Capping adds a 5' cap and does not change the coding sequence read by the ribosome, unlike the CAA-to-UAA base change the figure shows.
+## answer_b
+Polyadenylation
+## explanation_b
+Polyadenylation adds a 3' poly(A) tail and does not change the coding sequence read by the ribosome, unlike the change shown.
+## answer_c
+Splicing
+## explanation_c
+Splicing removes introns and joins exons; it does not itself convert one coding codon into a stop codon, which is what the figure’s CAA-to-UAA change and the resulting shorter Apo B-48 protein show.
+## answer_d
+mRNA editing
+## explanation_d
+Correct. The ApoB example is exactly this: a cytidine deaminase converts a CAA codon to the UAA stop codon in intestinal mRNA, producing the truncated Apo B-48 protein — this is mRNA editing.
+
+Why this is right:
+- Coding information of mRNA can be changed by RNA editing.
+## topic
+Rna Synthesis (Transcription)
+## subtopic
+RNA Synthesis (Transcription)
+## main_concept
+CON-FND-46D33A24F4AE03
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify mRNA editing from the ApoB figure showing a CAA-to-UAA base change that shortens the translated protein.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p64 q23. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-238
+## title
+Concerning pernicious anemia:
+## question
+Concerning pernicious anemia:
+## vignette
+This item asks the student to identify absent intrinsic factor and gastric HCl as the mechanism of pernicious anaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Itis a familial autoimmune disease against red blood cells
+## explanation_a
+Pernicious anaemia is an autoimmune disease against the gastric parietal cells (destroying the source of intrinsic factor), not against the red blood cells themselves.
+## answer_b
+The red blood cells are microcytic with low hemoglobin content
+## explanation_b
+Backwards. Vitamin B12 deficiency, which pernicious anaemia causes, gives macrocytic (large-cell) RBCs, not microcytic ones with low haemoglobin content — that picture belongs to iron deficiency instead.
+## answer_c
+There is absence of intrinsic factor and gastric HC] secretion
+## explanation_c
+Correct. Pernicious anaemia follows immune destruction of the parietal cells, which removes both their intrinsic-factor secretion (so vitamin B12 cannot be absorbed) and their gastric HCl secretion together, since the same cells make both.
+
+Why this is right:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption.
+## answer_d
+Is associated with folic acid deficiency
+## explanation_d
+Pernicious anaemia is a vitamin B12 deficiency disease, not a folic acid one — the two share the same macrocytic-anaemia mechanism (failed DNA synthesis) but different absorption pathways, and this option names the wrong vitamin.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-D76C58506E52B7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify absent intrinsic factor and gastric HCl as the mechanism of pernicious anaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p7 q2. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-239
+## title
+Vitamin By2:
+## question
+Vitamin By2:
+## vignette
+This item asks the student to name pancreatic disease as a cause of defective vitamin B12 absorption, alongside intrinsic-factor loss.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Deficiency results in production of red blood cells smaller than normal
+## explanation_a
+Backwards. Vitamin B12 deficiency produces RBCs *larger* than normal (macrocytic), not smaller, because failed DNA synthesis leaves the nucleus unable to divide on schedule while the cytoplasm keeps growing.
+## answer_b
+Stimulates nuclear maturation through Inhibition of thymidine triphosphate formation
+## explanation_b
+Backwards. Vitamin B12 stimulates nuclear maturation by enabling DNA synthesis, not by inhibiting a nucleotide precursor — the vitamin is needed *for* DNA synthesis, the opposite direction from "inhibition".
+## answer_c
+Needs intrinsic factor for its absorption from the upper part of the smal! intestine
+## explanation_c
+Backwards on location. Vitamin B12 (with intrinsic factor) is absorbed in the lower ileum, not the upper small intestine — the receptor for the bound complex sits in the terminal ileal brush border.
+## answer_d
+Defective absorpiion occurs in pancreatic diseases
+## explanation_d
+Correct. Pancreatic trypsin is required for vitamin B12 absorption, so pancreatic-deficiency disease can impair absorption independently of intrinsic factor and gastric HCl.
+
+Why this is right:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-D76C58506E52B7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name pancreatic disease as a cause of defective vitamin B12 absorption, alongside intrinsic-factor loss.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p9 q14. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-240
+## title
+Synthesis of DNA and cell division requires:
+## question
+Synthesis of DNA and cell division requires:
+## vignette
+This item asks the student to name vitamin B12 and folic acid as the nutrients DNA synthesis and cell division require.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+lron
+## explanation_a
+Iron is needed to build the haem part of haemoglobin, not for DNA synthesis — its deficiency shrinks the cell (microcytic) rather than blocking division.
+## answer_b
+Vitamin B,»2 and folic acid
+## explanation_b
+Correct. Both vitamin B12 and folic acid are essential for DNA synthesis, which the marrow's dividing cells need for nuclear maturation and division.
+
+Why this is right:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well.
+## answer_c
+Proteins of plant origin
+## explanation_c
+Proteins of high biological value are needed to build the globin part of haemoglobin, a separate requirement from DNA synthesis.
+## answer_d
+Vitamin C
+## explanation_d
+Vitamin C assists iron absorption (reducing ferric to ferrous iron) — it is not what DNA synthesis for cell division depends on.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-DDAAF125FD2EBE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name vitamin B12 and folic acid as the nutrients DNA synthesis and cell division require.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q28. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-241
+## title
+Macrocytic anemia is cue to:
+## question
+Macrocytic anemia is cue to:
+## vignette
+This item asks the student to attribute macrocytic anaemia to vitamin B12 or folic acid deficiency.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Chronic blood loss
+## explanation_a
+Chronic blood loss depletes iron stores over time and gives the microcytic, hypochromic picture, not macrocytic anaemia.
+## answer_b
+Bone marrow depression
+## explanation_b
+Bone marrow depression gives normocytic, normochromic anaemia — the marrow simply produces fewer normally-sized cells, rather than producing abnormally large ones.
+## answer_c
+lron deficiency
+## explanation_c
+Iron deficiency gives microcytic, hypochromic anaemia (small, pale cells) — the opposite cell-size direction from macrocytic anaemia.
+## answer_d
+Vitamin B12 or folic acid deficiency
+## explanation_d
+Correct. Vitamin B12 or folic acid deficiency both block DNA synthesis, failing nuclear maturation and division and leaving bigger, irregular, fragile RBCs — the macrocytic (megaloblastic) picture.
+
+Why this is right:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-DDAAF125FD2EBE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute macrocytic anaemia to vitamin B12 or folic acid deficiency.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q31. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-242
+## title
+Bicecing tendency associates common bile duct Obstruction due to
+## question
+Bicecing tendency associates common bile duct Obstruction due to
+## vignette
+This item asks the student to attribute the bleeding tendency of bile-duct obstruction to vitamin K malabsorption.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Malabsorption of vitamin C
+## explanation_a
+Vitamin C assists iron absorption; it plays no part in the coagulation factors and is not associated with a bile-dependent bleeding tendency.
+## answer_b
+Malabsorption of vitamin B2
+## explanation_b
+There is no vitamin B2-dependent step in coagulation-factor synthesis; this option names an unrelated vitamin.
+## answer_c
+Malabsorption of vitamin B12
+## explanation_c
+Vitamin B12 malabsorption gives a macrocytic anaemia, not a bleeding tendency — it does not touch the coagulation factors at all.
+## answer_d
+Malabsorption of vitamin K
+## explanation_d
+Correct. Vitamin K is fat-soluble and needs bile for its absorption; common bile duct obstruction removes that bile, causing vitamin K deficiency, decreased hepatic synthesis of factors II, VII, IX, X (and proteins C, S), and a bleeding tendency.
+
+Why this is right:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S.
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time.
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K).
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-BC9F1F59205EC7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute the bleeding tendency of bile-duct obstruction to vitamin K malabsorption.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p17 q61. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-243
+## title
+If MCV= 75 cu in anemic patient, what might be the cause?
+## question
+If MCV= 75 cu in anemic patient, what might be the cause?
+## vignette
+This item asks the student to attribute a low MCV in anaemia to iron deficiency, not to a vitamin B12/folic-acid or haemolytic cause.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+lron deficiency
+## explanation_a
+Correct. An MCV of 75 μ3 is below the normal range (< 80 μ3), which is defined as microcytic — the classification given specifically to iron-deficiency anaemia.
+
+Why this is right:
+- Iron-deficiency anaemia is classified as microcytic hypochromic anaemia: MCV < 80 μ3 and MCH < 25 pg, reflecting decreased RBC mass and haemoglobin content from too little iron to build haemoglobin.
+## answer_b
+Vitamin B12 deficiency
+## explanation_b
+Vitamin B12 deficiency gives a raised MCV (> 95 μ3, macrocytic), the opposite direction from the low value in this case.
+## answer_c
+Folic acid deficiency
+## explanation_c
+Folic acid deficiency, like B12 deficiency, gives a raised MCV (macrocytic), not a reduced one.
+## answer_d
+G-6PD deficiency
+## explanation_d
+G-6PD deficiency causes a haemolytic anaemia, which is classified as normocytic normochromic — the cells are the normal size, just fewer of them, which does not match a low MCV.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-7F0EF6B0D6F2FB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute a low MCV in anaemia to iron deficiency, not to a vitamin B12/folic-acid or haemolytic cause.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p17 q65. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-244
+## title
+All of the following are conditions are accompanied by Bleeding tendency, except:
+## question
+All of the following are conditions are accompanied by Bleeding tendency, except:
+## vignette
+This item asks the student to recognise that vitamin B12 deficiency causes anaemia rather than a bleeding tendency.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Hemophilia
+## explanation_a
+Haemophilia is a clotting-factor deficiency and genuinely causes a bleeding tendency, so it is not the exception.
+## answer_b
+Thrombocytopenia
+## explanation_b
+Thrombocytopenia is a platelet-number deficiency and genuinely causes a bleeding tendency (prolonged bleeding time), so it is not the exception.
+## answer_c
+Liver failure
+## explanation_c
+Liver failure removes the site where most clotting factors are made and genuinely causes a bleeding tendency, so it is not the exception.
+## answer_d
+Vitamin B42 deficiency
+## explanation_d
+Correct. The exception. Vitamin B12 deficiency blocks DNA synthesis and gives a macrocytic anaemia; it does not touch the coagulation factors or platelets, so it is not accompanied by a bleeding tendency the way the other three conditions are.
+
+Why this is right:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well.
+## topic
+Blood
+## subtopic
+Vitamin B12 and folic acid
+## main_concept
+CON-HEM-DDAAF125FD2EBE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Vitamin B12 and folic acid
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that vitamin B12 deficiency causes anaemia rather than a bleeding tendency.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p18 q68. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
