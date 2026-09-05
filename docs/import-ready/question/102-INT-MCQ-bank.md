@@ -11920,3 +11920,2493 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-126
+## title
+Erythrocytes:
+## question
+Erythrocytes:
+## vignette
+This item asks the student to recall a correct property of erythrocytes: their count rises at high altitude through the hypoxia–erythropoietin pathway.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Count is increased in people living at high altitude
+## explanation_a
+Correct. RBC count runs above the adult range at high altitude, alongside newborns and athletes — a physiological, hypoxia-driven response, not a disease.
+
+Why this is right:
+- The average RBC count ranges from 5–5.5 million/mm3 in males and 4–4.5 million/mm3 in females.
+## answer_b
+Biconcave shape is important to facilitate their rupture in narrow capillaries
+## explanation_b
+Backwards. The biconcave shape enhances flexibility so erythrocytes can be squeezed through narrow capillaries *without* rupturing — it facilitates safe passage, not rupture.
+## answer_c
+Synthesize and release erythropoietin
+## explanation_c
+Erythrocytes do not synthesize erythropoietin — the kidney (85%) and liver (15%) do, and erythrocytes are the *targets* of erythropoietin's action, not its source.
+## answer_d
+Membrane keeps hemoglobin inside to prevent decreased heart load
+## explanation_d
+The erythrocyte membrane keeps haemoglobin inside to prevent the *hazards* of free plasma haemoglobin (renal tubule blockage, raised viscosity, raised colloidal osmotic pressure) — those hazards raise cardiac workload if the membrane fails, so the membrane's job is to prevent an *increased*, not decreased, heart load.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-E3063003DB0FDD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that RBC count is higher than normal in people living at high altitude.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p7 q1. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-127
+## title
+Erythropoietin hormone is:
+## question
+Erythropoietin hormone is:
+## vignette
+This item asks the student to identify a correct statement about erythropoietin, the hormone secreted mainly by the kidney in response to hypoxia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Secreted by the kidney 15% and the liver 85%
+## explanation_a
+Backwards. In adults, erythropoietin is secreted 85% by the kidney and 15% by the liver — the option gives the reversed split.
+## answer_b
+Stimulated by acidosis at high altitude
+## explanation_b
+Backwards. Erythropoietin secretion is stimulated by the alkalosis that develops at high altitude, not by acidosis — named alkalosis specifically.
+## answer_c
+Synthesized and released by red blood cell
+## explanation_c
+Backwards. Erythropoietin is synthesized and released by the kidneys and liver, not by red blood cells — RBCs are the downstream product of erythropoiesis, not a source of the hormone driving it.
+## answer_d
+Inhibited by adenosine antagonists
+## explanation_d
+Correct. Adenosine is one of the named stimulators of erythropoietin secretion, so an adenosine antagonist — blocking that stimulus — would inhibit secretion rather than promote it.
+
+Why this is right:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration.
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone.
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-6DBD73A50D2AD4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise adenosine as a stimulator of erythropoietin secretion, so its antagonists inhibit secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p7 q5. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-128
+## title
+Stomach plays important role in erythropoiesis because it:
+## question
+Stomach plays important role in erythropoiesis because it:
+## vignette
+This item asks the student why the stomach matters for erythropoiesis: it aids absorption of vitamin B12 (via intrinsic factor) and iron (via gastric HCl).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Helps absorption of folic acid
+## explanation_a
+Folic acid absorption is not described as gastric-dependent the way vitamin B12 and iron are — it does not require intrinsic factor or gastric acid.
+## answer_b
+Helps absorption of B12 and iron
+## explanation_b
+Correct. Gastric parietal cells provide intrinsic factor (needed for vitamin B12 absorption in the lower ileum) and gastric HCl (needed to reduce dietary iron to its absorbable ferrous form) — both nutrients the stomach makes possible, through different secretions from the same organ.
+
+Why this is right:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption.
+## answer_c
+Secretes erythropoietin
+## explanation_c
+Erythropoietin is secreted by the kidney (85%) and liver (15%), not by the stomach.
+## answer_d
+Forms globin part of hemoglobin
+## explanation_d
+The globin part of haemoglobin is formed by the liver, not the stomach.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-D76C58506E52B7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that the stomach's role in erythropoiesis includes absorption of both vitamin B12 and iron.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p10 q23. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-129
+## title
+Renal failure may cause anemia as
+## question
+Renal failure may cause anemia as
+## vignette
+This item asks the student to explain the anaemia of renal failure by the loss of kidney-derived erythropoietin (about 85% of the total).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Stem cells are not present in the bone marrow
+## explanation_a
+The stem cells are present in the marrow in renal failure — the marrow itself is not the diseased organ here, the kidney is, and the marrow simply lacks the hormonal drive to use those stem cells at full rate.
+## answer_b
+85 % of erythropoietin hormone is formed by the kidney
+## explanation_b
+Correct. Since the kidney normally makes 85% of erythropoietin and the liver's 15% cannot compensate for its loss, renal failure causes severe anaemia through erythropoietin deficiency.
+
+Why this is right:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration.
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone.
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis.
+## answer_c
+The patient cannot eat the essential vitamins
+## explanation_c
+Renal failure does not stop a patient eating essential vitamins — the anaemia mechanism here is hormonal (lost erythropoietin), not nutritional.
+## answer_d
+The bone marrow has congenital anomaly
+## explanation_d
+Attributed renal-failure anaemia to lost erythropoietin drive, not to a congenital marrow anomaly, which is an unrelated and unstated mechanism.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-6DBD73A50D2AD4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute renal-failure anaemia to loss of the kidney's 85% share of erythropoietin production.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p15 q54. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-130
+## title
+Erythropoiesis occurs in the bone marrow due to
+## question
+Erythropoiesis occurs in the bone marrow due to
+## vignette
+This item asks the student to attribute erythropoiesis in the bone marrow to the presence of haemopoietic stem cells.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The presence of intrinsic factor receptors
+## explanation_a
+Intrinsic factor receptors are found in the lower ileal mucosa (for vitamin B12 absorption), not in the bone marrow.
+## answer_b
+The presence of hemopoietic stem cells
+## explanation_b
+Correct. Active bone marrow contains the haemopoietic stem cells from which erythrocytes (and the other blood cell lines) develop — their presence, in healthy marrow, is what makes the marrow the site of erythropoiesis after birth.
+
+Why this is right:
+- In the fetus, erythropoiesis occurs in the liver and spleen.
+- After birth it occurs in active red marrow in the cavities of all bones; by age 20 the marrow in the cavities of long bones (except the upper humerus and femur) becomes inactive yellow marrow infiltrated by fat, so after age 20 only the membranous bones — vertebrae, skull, ribs and pelvis — produce erythrocytes.
+- The bone marrow is one of the largest and most active organs in the body, approaching the size and weight of the liver.
+## answer_c
+The presence of megakaryocytes
+## explanation_c
+Megakaryocytes are present in bone marrow, but they are the platelet-producing cells, not what makes the marrow the site of erythropoiesis specifically.
+## answer_d
+The presence of alkaline phosphatase
+## explanation_d
+Alkaline phosphatase is not named as a reason marrow supports erythropoiesis; it is not part of this mechanism.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-A3B0CEA5DFA83E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that bone marrow is the site of erythropoiesis because it contains haemopoietic stem cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q56. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-131
+## title
+In the blood, iron is primarily transported by:
+## question
+In the blood, iron is primarily transported by:
+## vignette
+This item asks the student to name transferrin as the plasma protein that transports iron in the blood.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Hemosiderin
+## explanation_a
+Haemosiderin is an aggregate storage form of iron, mainly in the liver, spleen and bone marrow — it is not what carries iron through the circulation.
+## answer_b
+Ferritin
+## explanation_b
+Ferritin is the main intracellular storage form of iron, not the circulating transport protein.
+## answer_c
+Secretin
+## explanation_c
+Secretin is a gastrointestinal hormone that stimulates pancreatic bicarbonate secretion; it has no role in iron transport.
+## answer_d
+Transferrin
+## explanation_d
+Correct. Transferrin is the plasma protein that binds ferric iron exported from enterocytes or macrophages and delivers it to cells with transferrin receptors — bone marrow, liver and muscle.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name transferrin as the plasma iron transport protein.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p15 q51. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-132
+## title
+Iron absorption:
+## question
+Iron absorption:
+## vignette
+This item asks the student to recall that iron absorption requires gastric HCl to reduce ferric to the absorbable ferrous form.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Occurs when the iron is in the ferric state (Fe3+)
+## explanation_a
+Backwards. Iron is better absorbed in the ferrous state (Fe2+) — ferric iron (Fe3+) must first be reduced before it can cross via DMT1.
+## answer_b
+Requires gastric HCl
+## explanation_b
+Correct. Gastric HCl helps dissolve dietary iron and, with ascorbic acid, reduce ferric iron to the absorbable ferrous form.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## answer_c
+Is a passive process which depends on the body requirements
+## explanation_c
+Backwards. Iron absorption is an active, carrier-mediated process (DMT1 and HCP1), not passive diffusion, though how much of the absorbed iron is retained does depend on body requirements at the intracellular-fate step.
+## answer_d
+Occurs in the lower part of the small intestine
+## explanation_d
+Backwards. Iron is absorbed mainly in the duodenum, the upper part of the small intestine, not the lower part — the lower ileum is instead where vitamin B12 is absorbed, and the two are a standard mix-up.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that iron absorption requires gastric HCl.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q27. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-133
+## title
+Microcytic hypochromic anemia is due to:
+## question
+Microcytic hypochromic anemia is due to:
+## vignette
+This item asks the student to link microcytic hypochromic anaemia to iron deficiency.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Decreased vitamin B12 intake
+## explanation_a
+Decreased vitamin B12 intake causes macrocytic anaemia (large cells), not microcytic hypochromic anaemia (small, pale cells) — the two deficiencies act at different stages of red cell production.
+## answer_b
+Decrease iron intake
+## explanation_b
+Correct. Iron-deficiency anaemia — microcytic and hypochromic because too little haemoglobin can be built — follows from decreased dietary iron intake, among the named causes.
+
+Why this is right:
+- Deficiency of iron in the diet is one of the three named causes of iron-deficiency anaemia, due to a lower iron intake than the body needs; it is more common in growing children and during pregnancy, when demand for iron rises.
+## answer_c
+Diseases of the heart
+## explanation_c
+Heart disease is not one of the causes of iron-deficiency anaemia; it does not appear in the diet/absorption/blood-loss list.
+## answer_d
+Acute massive bleeding
+## explanation_d
+Acute massive bleeding gives a dilutional, normocytic normochromic anaemia in the short term (the liver replaces lost plasma faster than the marrow can replace lost cells) — not the microcytic hypochromic picture of chronic iron depletion.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-BDED630BBC87A3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name decreased dietary iron intake as a cause of microcytic hypochromic anaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q29. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-134
+## title
+As regard the iron required for hemoglobin synthesis:
+## question
+As regard the iron required for hemoglobin synthesis:
+## vignette
+This item asks the student to recall that iron for haemoglobin synthesis is carried in the blood bound to transferrin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Ferric iron (Fe3+) is absorbed from the upper part of the small intestine
+## explanation_a
+Backwards. Ferric iron is the form that is *not* readily absorbed — it must first be reduced to the ferrous form, and absorption occurs mainly in the duodenum, not the upper small intestine generically.
+## answer_b
+It is transported in the blood in the form of transferrin
+## explanation_b
+Correct. Iron exported from enterocytes (or released from macrophage recycling of old RBCs) is oxidised to the ferric form and carried in the blood bound to the plasma transport protein transferrin.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## answer_c
+Its deficiency produces macrocytic anemia
+## explanation_c
+Backwards. Iron deficiency produces microcytic, not macrocytic, anaemia — macrocytic anaemia is the vitamin B12/folic-acid picture.
+## answer_d
+The greatest percentage of ferritin is found in the bone marrow
+## explanation_d
+Ferritin, the iron-storage protein, is concentrated mainly in the liver, spleen, intestinal enterocytes and bone marrow together — the bone marrow is not singled out as holding the greatest percentage.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that iron is transported in the blood bound to transferrin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p10 q24. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-135
+## title
+Concerning hemoglobin:
+## question
+Concerning hemoglobin:
+## vignette
+This item asks the student to identify a correct property of haemoglobin, whose globin chains form carbamino compounds with CO2.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Each molecule can carry 8 molecules of oxygen.
+## explanation_a
+Each haemoglobin molecule carries four oxygen molecules — one per haem group — not eight; eight is double the true figure and a common overreach from remembering "four haem groups" without the one-to-one ratio.
+## answer_b
+It contains 2 atoms of iron in the ferrous state
+## explanation_b
+Haemoglobin contains four haem groups, each with one iron atom, so four atoms of iron in total, not two.
+## answer_c
+It forms oxyhemoglobin with carbon monoxide
+## explanation_c
+Haemoglobin forms oxyhaemoglobin with oxygen, not carbon monoxide — carbon monoxide instead forms carboxyhaemoglobin, a different reaction named separately.
+## answer_d
+The globin part forms carbamino compounds with CO2
+## explanation_d
+Correct. The globin (polypeptide) part of haemoglobin forms carbamino compounds with carbon dioxide — carbaminohaemoglobin — distinct from the iron-based reactions with oxygen, carbon monoxide and oxidising agents.
+
+Why this is right:
+- Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so the book calls this oxygenation, not oxidation.
+- Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron.
+- Hb reacts with carbon monoxide to form carboxyhaemoglobin.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-CA5D4380823112
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name carbaminohaemoglobin as the compound formed between the globin chains and carbon dioxide.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p8 q7. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-136
+## title
+Iron deficiency:
+## question
+Iron deficiency:
+## vignette
+This item asks the student to recall that iron deficiency, a cause of microcytic anaemia, often results from chronic blood loss.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is more common in males than in females
+## explanation_a
+Backwards. Chronic blood loss is more common in females than males, largely through menstrual loss — not the other way round.
+## answer_b
+May cause anemia by inhibiting the rate of multiplication of RBCs stem cells
+## explanation_b
+Iron deficiency limits haemoglobin synthesis in the RBCs the marrow already produces; it does not itself slow stem-cell multiplication, which is the mechanism taught for vitamin B12/folic-acid deficiency instead.
+## answer_c
+Occurs due to chronic blood loss
+## explanation_c
+Correct. Chronic blood loss — from hookworm infestation, peptic ulcer or piles bleeding, or excessive menstrual loss — is one of the three named causes of iron-deficiency anaemia.
+
+Why this is right:
+- Chronic blood loss is one of the three causes of iron-deficiency anaemia named, alongside deficient dietary intake and deficient absorption.
+## answer_d
+May cause large pale erythrocytes to appear in peripheral blood
+## explanation_d
+Backwards. Iron deficiency produces small, pale (microcytic, hypochromic) erythrocytes, not large pale ones — large pale cells are the macrocytic picture of vitamin B12 or folic acid deficiency instead.
+## topic
+Blood
+## subtopic
+Anaemia
+## main_concept
+CON-HEM-3767DA0A153B4C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anaemia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANAEMIA-AND-POLYCYTHEMIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name chronic blood loss as a cause of iron deficiency.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p10 q22. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-137
+## title
+Vitamin B12:
+## question
+Vitamin B12:
+## vignette
+This item asks the student to recall that vitamin B12 is needed for nuclear maturation and cell division, so its deficiency gives a macrocytic anaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Deficiency produces normocytic anemia.
+## explanation_a
+Backwards. Vitamin B12 deficiency produces macrocytic (large-cell) anaemia, because diminished DNA synthesis fails nuclear maturation and division, leaving bigger, irregular, fragile RBCs — not normocytic anaemia.
+## answer_b
+Needs gastric HCl for its absorption
+## explanation_b
+Gastric HCl is what iron absorption needs (to reduce ferric to ferrous iron); vitamin B12 absorption instead needs intrinsic factor from the gastric parietal cells and pancreatic trypsin.
+## answer_c
+Is absorbed from the upper part of the small intestine
+## explanation_c
+Backwards on location. Vitamin B12, bound to intrinsic factor, is absorbed in the lower ileum, not the upper small intestine — the receptor for the intrinsic-factor complex sits in the brush border of the terminal ileal mucosa.
+## answer_d
+Is needed for nuclear maturation and cell division.
+## explanation_d
+Correct. The bone marrow's rapidly dividing cells need DNA synthesis for nuclear maturation and division, and vitamin B12 is essential for that synthesis.
+
+Why this is right:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well.
+## topic
+Blood
+## subtopic
+Anaemia
+## main_concept
+CON-HEM-DDAAF125FD2EBE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anaemia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANAEMIA-AND-POLYCYTHEMIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that vitamin B12 is needed for nuclear maturation and cell division.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q25. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-138
+## title
+Anemia results from all the following, EXCEPT:
+## question
+Anemia results from all the following, EXCEPT:
+## vignette
+This item asks the student to spot the exception: living at high altitude raises the red-cell count (secondary polycythemia) rather than causing anaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Living at high altitude
+## explanation_a
+Correct. The exception. Living at high altitude raises the RBC count through the hypoxia–erythropoietin pathway (secondary polycythemia); it does not cause anaemia, which is the opposite direction of change.
+
+Why this is right:
+- Polycythemia means an increased number of RBCs, which may reach 6-8 million/mm3.
+- There are two types: primary polycythemia (polycythemia vera), due to a condition in the RBC-forming organs themselves and usually accompanied by increased production of WBCs and platelets too; and secondary polycythemia, which occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude.
+## answer_b
+Bone marrow depression
+## explanation_b
+Bone marrow depression is a genuine cause of anaemia (normocytic, normochromic — the marrow simply cannot keep up production), so it is not the exception.
+## answer_c
+Atrophy of gastric mucosa
+## explanation_c
+Atrophy of the gastric mucosa removes the parietal cells that secrete intrinsic factor, causing vitamin B12 malabsorption and macrocytic anaemia — a genuine cause, so not the exception.
+## answer_d
+Iron deficiency
+## explanation_d
+Iron deficiency is the standard cause of microcytic hypochromic anaemia, so it is not the exception.
+## topic
+Blood
+## subtopic
+Anaemia
+## main_concept
+CON-HEM-3FDA659AB5822B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anaemia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANAEMIA-AND-POLYCYTHEMIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that high altitude raises RBC count (polycythemia) rather than causing anaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q32. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-139
+## title
+Hemoproteins are:
+## question
+Hemoproteins are:
+## vignette
+This item asks the student to classify hemoproteins as conjugated proteins (protein plus a haem prosthetic group).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple proteins
+## explanation_a
+Wrong direction — a simple protein is one built only of amino acids; hemoproteins carry a heme prosthetic group in addition, which is what makes them conjugated rather than simple.
+## answer_b
+Conjugated proteins
+## explanation_b
+Correct. Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group — the non-amino-acid heme component is exactly what conjugation means.
+
+Why this is right:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
+## answer_c
+Glycoprotein
+## explanation_c
+A glycoprotein's added group is carbohydrate, not heme; picking this confuses one class of conjugated protein for another.
+## answer_d
+Lipoproteins
+## explanation_d
+A lipoprotein's added group is lipid, not heme; hemoproteins are named for their prosthetic group, and that group is heme, not a generic lipid.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-208821E5E203D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define hemoproteins as conjugated proteins whose non-protein component is heme.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-140
+## title
+The main function of hemoglobin is:
+## question
+The main function of hemoglobin is:
+## vignette
+This item asks the student to name oxygen transport in blood as the main function of haemoglobin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Oxygen transport in blood
+## explanation_a
+Correct. The hemoprotein table assigns hemoglobin exactly this job: transportation of oxygen in blood.
+
+Why this is right:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
+## answer_b
+Oxygen storage in muscles
+## explanation_b
+That is myoglobin's job in the same table, not hemoglobin's — oxygen storage happens in muscle, oxygen transport happens in blood.
+## answer_c
+Hydroxylation reactions
+## explanation_c
+Hydroxylation reactions belong to a different class of enzyme entirely; the table does not credit any hemoprotein it lists with hydroxylation.
+## answer_d
+Oxidation of tryptophan
+## explanation_d
+Oxidation of tryptophan is not among the functions assigned to any hemoprotein in its table.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-208821E5E203D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match hemoglobin to its stated function, oxygen transport in blood, and distinguish it from myoglobin's storage role.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-141
+## title
+Myoglobin is formed of:
+## question
+Myoglobin is formed of:
+## vignette
+This item asks the student to recall the structure of myoglobin: a single haem attached to a single polypeptide chain.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Four heme groups attached to four polypeptide chains
+## explanation_a
+This is hemoglobin's composition, not myoglobin's — contrasted the two explicitly: hemoglobin has four heme groups on four chains, myoglobin has one on one.
+## answer_b
+Two heme groups attached to one polypeptide chain
+## explanation_b
+Neither protein has this composition; myoglobin has one heme on one chain, and no hemoprotein is described as two hemes on a single chain.
+## answer_c
+Three heme groups attached to three polypeptide chains
+## explanation_c
+No hemoprotein is described this way; three hemes on three chains matches neither myoglobin (1:1) nor hemoglobin (4:4).
+## answer_d
+One heme attached to one polypeptide chain
+## explanation_d
+Correct. Myoglobin is formed of one heme attached to one polypeptide chain, while hemoglobin is the one with four hemes on four chains.
+
+Why this is right:
+- Myoglobin is formed of one heme group attached to one polypeptide chain (apomyoglobin, 153 amino acids, 8 α-helices), while hemoglobin is formed of four heme groups attached to four polypeptide chains.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-B9017F150AF212
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State myoglobin's heme-to-chain ratio (1:1) and contrast it with hemoglobin's (4:4).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p41 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-142
+## title
+In sickle cell anemia, the basis of the malfunction of the hemoglobin molecules is:
+## question
+In sickle cell anemia, the basis of the malfunction of the hemoglobin molecules is:
+## vignette
+This item asks the student to identify the molecular basis of sickle cell anaemia as the substitution of a single amino acid in the beta chain.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Incorrect secondary structure
+## explanation_a
+A secondary-structure fault is not described; the defect is a single substituted residue, and the α-helical secondary structure itself is not what changes.
+## answer_b
+Substitution of a single amino acid
+## explanation_b
+Correct. Traced the whole malfunction to one point mutation in the β-globin gene, replacing glutamate with valine at position six of the β chain — a single amino-acid substitution.
+
+Why this is right:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
+## answer_c
+Insufficient iron in the diet
+## explanation_c
+Sickle cell anaemia is not a dietary iron deficiency; the account is genetic, a point mutation in the β-globin gene, with no mention of iron intake.
+## answer_d
+Faulty binding of the heme groups
+## explanation_d
+Heme binding is not implicated; the substituted valine creates a sticky surface patch on the β subunit itself, away from where heme sits.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-BEF9577989EAF4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Attribute sickle cell anaemia's malfunction to a single amino-acid substitution rather than a structural, dietary, or heme-binding defect.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-143
+## title
+Fetal hemoglobin (HbF):
+## question
+Fetal hemoglobin (HbF):
+## vignette
+This item asks the student to recall that fetal haemoglobin (HbF) has a higher oxygen affinity than adult haemoglobin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Consists of 2 alpha and 2 delta chains
+## explanation_a
+α2δ2 is HbA2, not HbF — given HbF the composition α2γ2, two alpha and two gamma chains, not delta.
+## answer_b
+Runs faster than adult hemoglobin in electrophoresis
+## explanation_b
+HbF's electrophoretic mobility relative to adult haemoglobin is not described, so this is not a supported claim.
+## answer_c
+Has a higher affinity to oxygen than adult hemoglobin
+## explanation_c
+Correct. HbF has a higher affinity for oxygen than adult haemoglobin, which allows more efficient transplacental transfer of oxygen from mother to fetus.
+
+Why this is right:
+- Hemoglobin structure differs across embryonic, fetal and adult life; all are tetramers of different polypeptide chains encoded by different genes.
+## answer_d
+Is the major hemoglobin found in adults
+## explanation_d
+Given HbA1 as the major adult haemoglobin, 98% of the total; HbF is instead described as present only up to six months after birth, not as the major form found in adults.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-E172B2F684099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that fetal haemoglobin's higher oxygen affinity aids transplacental oxygen transfer, and give its correct chain composition (α2γ2).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p42 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-144
+## title
+In HbS, the 6th amino acid of the beta chain is replaced by:
+## question
+In HbS, the 6th amino acid of the beta chain is replaced by:
+## vignette
+This item asks the student to recall that in HbS the sixth amino acid of the beta chain, glutamate, is replaced by valine.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Tyrosine
+## explanation_a
+Tyrosine is not the residue named; the substituting amino acid is valine.
+## answer_b
+Valine
+## explanation_b
+Correct. The point mutation replaces the polar glutamate at position six of the β chain with a nonpolar valine.
+
+Why this is right:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
+## answer_c
+Glycine
+## explanation_c
+Glycine is not the residue named for this substitution; specified valine replacing glutamate.
+## answer_d
+Serine
+## explanation_d
+Serine is not the residue named here; serine is instead the amino acid that combines with phosphatidic acid to form phosphatidylserine in an unrelated lipid concept, not the HbS substitution.
+## topic
+Chemistry Of Hemoproteins
+## subtopic
+Chemistry of Hemoproteins
+## main_concept
+CON-HEM-BEF9577989EAF4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name valine as the amino acid substituted for glutamate at position six of the β chain in HbS.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p43 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-145
+## title
+Hemophilia, a recessive X-linked disease is
+## question
+Hemophilia, a recessive X-linked disease is
+## vignette
+This item asks the student to recall that haemophilia, an X-linked recessive clotting-factor deficiency, prolongs the coagulation time.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Common in females than males
+## explanation_a
+Backwards. A sex-linked recessive disease on the X chromosome is carried by females (who have a second, usually normal, X) and manifests almost always in males (who have only one X) — the opposite of what this option claims.
+## answer_b
+Of type-A, is caused by lack of factor XI
+## explanation_b
+This describes haemophilia B (factor IX deficiency), but the stem does not name a type, and this option misstates the missing factor as XI when haemophilia B is defined by factor IX — haemophilia C is the one caused by factor XI absence.
+## answer_c
+Characterized by prolonged bleeding time
+## explanation_c
+Haemophilia is a clotting-factor deficiency, which prolongs the whole blood *coagulation* time, not the *bleeding* time (a platelet-function measure) — the two tests are not interchangeable.
+## answer_d
+Characterized by prolonged coagulation time
+## explanation_d
+Correct. Whichever factor is missing (VIII, IX or XI, according to type), haemophilia slows the intrinsic-pathway cascade and so prolongs the whole blood coagulation time.
+
+Why this is right:
+- Haemophilia is a sex-linked recessive disease, carried by females and manifested almost always in males, characterised by episodes of haemorrhage into joints or internal organs after minor trauma, and causing prolongation of the whole blood coagulation time.
+- There are three types: haemophilia A (classic haemophilia), from deficiency of factor VIII, representing 85% of cases of haemophilia; haemophilia B, from the absence of factor IX; and haemophilia C, from the absence of factor XI.
+## topic
+Blood
+## subtopic
+Abnormalities of haemostasis
+## main_concept
+CON-HEM-54B08B015D5498
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Abnormalities of haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that haemophilia prolongs the coagulation time, and its inheritance pattern.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p18 q69. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-146
+## title
+Factor IX:
+## question
+Factor IX:
+## vignette
+This item asks the student to recall the action of factor IXa, which (with VIIIa) converts factor X to Xa in the intrinsic pathway.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is a co-factor in the coagulation cascade
+## explanation_a
+Factor IX is not a cofactor — it is an enzyme (a serine protease once activated). The cofactor in its activation complex is factor VIIIa, not factor IX itself.
+## answer_b
+Is activated by factor V
+## explanation_b
+Backwards. Factor IX is activated by factor XIa (upstream of it in the intrinsic pathway), not by factor V, which belongs to the common pathway further downstream.
+## answer_c
+Deficiency causes hemophilia A
+## explanation_c
+Backwards. Deficiency of factor IX causes haemophilia B, not haemophilia A — haemophilia A is factor VIII deficiency.
+## answer_d
+Acts by converting factor X to Xa
+## explanation_d
+Correct. Activated factor IX (IXa), complexed with activated factor VIII (VIIIa), platelet phospholipid and Ca2+, activates factor X — the step at which the intrinsic pathway hands off to the common pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## topic
+Blood
+## subtopic
+Abnormalities of haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Abnormalities of haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ABNORMALITIES-OF-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State what activated factor IX does in the intrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q46. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-147
+## title
+Vitamin K dependent clotting factors include:
+## question
+Vitamin K dependent clotting factors include:
+## vignette
+This item asks the student to identify factor IX among the vitamin-K-dependent clotting factors (II, VII, IX, X).
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Factor IX
+## explanation_a
+Correct. Factor IX belongs to the prothrombin group (II, VII, IX, X), all of which need vitamin K for their hepatic synthesis.
+
+Why this is right:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S.
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time.
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K).
+## answer_b
+Factor XI
+## explanation_b
+Factor XI belongs to the contact group with factor XII, activated by contact with an electronegatively-charged surface — it is not one of the vitamin-K-dependent factors.
+## answer_c
+Fibrinogen
+## explanation_c
+Fibrinogen (factor I) belongs to the fibrinogen group with V, VIII and XIII, activated by thrombin — its synthesis does not depend on vitamin K.
+## answer_d
+Plasminogen
+## explanation_d
+Plasminogen is the fibrinolytic system's substrate, converted to plasmin by tissue plasminogen activator — it plays no part in the vitamin-K-dependent synthesis list.
+## topic
+Blood
+## subtopic
+Physiological limitations of blood coagulation
+## main_concept
+CON-HEM-BC9F1F59205EC7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Physiological limitations of blood coagulation
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PHYSIOLOGICAL-LIMITATIONS-OF-BLOOD-COAGULATION
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name factor IX as one of the four vitamin-K-dependent clotting factors.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q34. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-148
+## title
+Which of the following is a feature of protein S:
+## question
+Which of the following is a feature of protein S:
+## vignette
+This item asks the student to recall that protein S acts as a cofactor to activated protein C in the anticoagulant pathway.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is synthesized by the endothelium
+## explanation_a
+Thrombomodulin, not protein S, is the endothelial surface protein that binds thrombin to start this pathway. Protein S is a circulating cofactor, not something the endothelium synthesises as its structural component.
+## answer_b
+Its synthesis requires vitamin C
+## explanation_b
+Vitamin K, not vitamin C, is what protein S synthesis (like protein C, and factors II, VII, IX, X) depends on in the liver.
+## answer_c
+It functions as a cofactor to protein C
+## explanation_c
+Correct. Protein S is the cofactor that activated protein C needs to inactivate factors V and VIII — protein C is the enzyme, protein S enables it.
+
+Why this is right:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system.
+## answer_d
+It is involved in the inactivation of factor IXa
+## explanation_d
+That is what activated protein C itself does (with protein S as its cofactor) to factor V and VIII — inactivating factor IXa is not part of this pathway; factor IXa is instead removed by fibrinogen degradation products' inhibition of thrombin further downstream, not by protein C/S directly.
+## topic
+Blood
+## subtopic
+Physiological limitations of blood coagulation
+## main_concept
+CON-HEM-87280E690F877F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Physiological limitations of blood coagulation
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PHYSIOLOGICAL-LIMITATIONS-OF-BLOOD-COAGULATION
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that protein S is the cofactor of activated protein C.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q48. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-149
+## title
+Albumin:
+## question
+Albumin:
+## vignette
+This item asks the student to recall that albumin maintains plasma colloid osmotic pressure, and so governs tissue-fluid formation and blood-volume regulation.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Production is decreased in case of burns and kidney disease
+## explanation_a
+Burns lose albumin directly from the circulation (through damaged capillaries) rather than reducing its production, and kidney disease loses albumin in the urine through a leaky glomerular filter — neither is described as decreased *production*.
+## answer_b
+Has transport function due to the elongated shape of its molecule
+## explanation_b
+Transport by binding to substances (hormones, vitamins, lipids, minerals) is albumin's function, but attributed this to albumin's abundance and binding sites, not to an "elongated shape" — elongated shape is instead named for fibrinogen, explaining its outsized contribution to blood viscosity.
+## answer_c
+Is normally filtered by the kidney due to its relatively small molecular size
+## explanation_c
+Backwards. Albumin is normally kept inside the plasma precisely because the capillary membrane is impermeable to it (its molecular size is too large to filter through) — it is not normally filtered by the kidney at all, unlike the renal-disease state where a damaged filter lets it leak into urine.
+## answer_d
+Is important for the tissue fluid formation and blood volume regulation
+## explanation_d
+Correct. Albumin's colloidal osmotic pressure holds water in the capillaries and draws tissue fluid back in, making it central to both tissue fluid formation and the regulation of circulating blood volume.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name albumin's importance for tissue fluid formation and blood volume regulation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p8 q9. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-150
+## title
+Globulins:
+## question
+Globulins:
+## vignette
+This item asks the student to recall that alpha-globulins carry vitamins and hormones, preventing their loss in urine.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+All are formed in the liver except B-type is formed by plasma cells
+## explanation_a
+Backwards on which type is the exception. All globulins are formed in the liver except the gamma type, which plasma cells in lymphoid tissue make — the option names beta as the exception instead of gamma.
+## answer_b
+Of the gamma type are responsible for the plasma osmotic function
+## explanation_b
+Backwards. Albumin, not the gamma globulins, is chiefly responsible for the plasma's osmotic function — the gamma globulins' role is defensive (humoral immunity), not osmotic.
+## answer_c
+Of the alpha type prevents loss of vitamins and hormones in urine
+## explanation_c
+Correct. Albumin and the alpha (and beta) globulins act as carriers for hormones, vitamins, lipids and minerals; binding these substances to plasma proteins prevents their rapid loss in the urine and provides a usable reservoir.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## answer_d
+Are positively charged at the normal pH of plasma and act as weak acids
+## explanation_d
+Backwards. At normal plasma pH, plasma proteins are negatively charged, which is exactly why they act as weak acids — being positively charged and acting as weak acids in the same breath is internally contradictory (a positive charge would make a base's conjugate, not an acid).
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name the alpha globulins' transport role in preventing urinary loss of hormones and vitamins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p8 q8. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
