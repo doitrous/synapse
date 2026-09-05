@@ -160,3 +160,23 @@ occasional capitalised option letter inside a question stem (e.g. Q1's "C. Adhes
 looked like it might be a key marking and was **not** — it does not correlate with the
 real printed key on page 21, confirmed by render. Flagging the missing `keys` subcommand
 for whoever owns `scripts/content/pagetext.mjs` next.
+
+## Third paper (S1 continued): EOM - {INT - 208} 198 (Solved)
+
+`EOM - {INT - 208} 198 (Solved).pdf` (src_1521fa3aed9594cd3e0c, sha256
+`1521fa3aed9594cd3e0c…`; sitting year **2026** by the printed exam date 6/5/2026). An
+OCR'd image-PDF: no native text layer and no PDF annotations, so both `pagetext.mjs keys`
+and `pdf_visual_keys.py` return empty — the answer key is a scanned **cyan highlight
+circle** drawn over the correct option's letter (same marking family as the 2026 Baqoon
+paper's cyan circle). Keys recovered from the OCR text and confirmed by rendering pages
+1/2/5/8/13 at 150 dpi (OCR↔render agreed on 100% of sampled keys). 120 MCQs: **Q1-60**
+4-option general pathology, **Q61-120** 5-option USMLE-style clinical pharmacology.
+119/120 keyed; **Q56 excluded** (two options circled — b TP53 + c RB — with a handwritten
+"Both are correct", an ambiguous two-answer key, per the 2026baqoon-q13 rule).
+
+This paper's Q1-60 general-pathology half overlaps the already-authored 2023/2024 EOM banks
+heavily — most items restate concepts those passes already minted, so the first authoring
+cluster (Q1-22) reuses existing 208 INT concepts wherever a fact is already covered and
+holds the near-literal duplicates rather than re-authoring them. The Q61-120 clinical-
+pharmacology half is the paper's more distinctive content, left for a future pass.
+See `208-INT-triage-keys.txt` third section for the full key table and method note.

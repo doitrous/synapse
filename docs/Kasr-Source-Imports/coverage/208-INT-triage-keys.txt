@@ -66,3 +66,44 @@ different letter order or minor rewording — e.g. this paper's Q26 "Chemotaxis 
 the 2023 paper's Q1 restated) or retest the same concepts from new angles; neither
 duplicates nor untriaged items were authored here and remain for a future pass. Remaining
 208 INT papers: 22 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged.
+
+---
+
+Third paper (S1 continued): EOM - {INT - 208} 198 (Solved).pdf (sitting year 2026 by the
+printed exam date 6/5/2026, which wins over the batch-derived year; manifest sourceId
+src_1521fa3aed9594cd3e0c, sha256 1521fa3aed9594cd3e0cf7b56173721575494fe199fd7c21686f9fc469772d4a,
+corpusRelativePath "208 INT/EOM/EOM - {INT - 208} 198 (Solved).pdf"). Cairo University /
+Kasr Al Ainy Faculty of Medicine, Module Code INT 208, 120 MCQs, 18 pages, 72 marks.
+Method: this is an OCR'd image-PDF (no native text layer, no PDF annotations -- pagetext.mjs
+keys returns [] and pdf_visual_keys.py finds nothing, because the key is a scanned CYAN
+HIGHLIGHT CIRCLE drawn over the correct option's letter, part of the page image, not text
+styling). Recovered by reading the OCR text (pagetext.mjs show -- the cyan circle renders
+as an @/(c)/(R)-type glyph fused to the marked option) and CONFIRMED by rendering pages
+1, 2, 5, 8, 13 at 150 dpi and matching every visible cyan circle by eye -- OCR and render
+agreed on 100% of the sampled keys, so the OCR reading is trusted for the rest (this is the
+kasr-pdf-extraction-traps "keys hide in highlights" hazard, handled by render-before-trust).
+Q1-Q60 are 4-option (a-d) general pathology; Q61-Q120 are 5-option (a-e) USMLE-style
+clinical pharmacology. Q56 is EXCLUDED: two options are circled (b TP53 AND c RB) with a
+handwritten red "Both are correct" annotation -- an ambiguous two-answer key, not a clean
+single-best-answer (same rule as 2026baqoon-q13). 119/120 keyed, 1 excluded (Q56).
+
+Q1.D    Q2.B    Q3.C    Q4.A    Q5.D    Q6.C    Q7.B    Q8.C    Q9.D    Q10.C
+Q11.D   Q12.C   Q13.D   Q14.B   Q15.A   Q16.B   Q17.D   Q18.B   Q19.D   Q20.C
+Q21.A   Q22.C   Q23.C   Q24.A   Q25.C   Q26.A   Q27.B   Q28.A   Q29.D   Q30.A
+Q31.B   Q32.B   Q33.C   Q34.B   Q35.B   Q36.C   Q37.D   Q38.B   Q39.D   Q40.A
+Q41.B   Q42.D   Q43.C   Q44.B   Q45.B   Q46.A   Q47.C   Q48.A   Q49.D   Q50.D
+Q51.D   Q52.C   Q53.C   Q54.C   Q55.A   Q56.?   Q57.C   Q58.C   Q59.C   Q60.B
+Q61.B   Q62.B   Q63.E   Q64.D   Q65.B   Q66.B   Q67.B   Q68.A   Q69.C   Q70.C
+Q71.C   Q72.D   Q73.A   Q74.E   Q75.B   Q76.E   Q77.A   Q78.C   Q79.B   Q80.C
+Q81.D   Q82.C   Q83.A   Q84.A   Q85.B   Q86.A   Q87.B   Q88.D   Q89.C   Q90.B
+Q91.C   Q92.E   Q93.C   Q94.D   Q95.C   Q96.C   Q97.A   Q98.A   Q99.E   Q100.A
+Q101.C  Q102.B  Q103.E  Q104.C  Q105.D  Q106.A  Q107.A  Q108.E  Q109.B  Q110.D
+Q111.B  Q112.C  Q113.E  Q114.B  Q115.C  Q116.C  Q117.D  Q118.E  Q119.D  Q120.D
+
+120/120 questions triaged; 119 keys recovered, Q56 excluded (ambiguous two-answer key).
+This paper heavily overlaps the already-authored 2023/2024 EOM banks on general pathology
+(Q1-60) -- most Q1-60 items restate concepts those passes already minted. The Q61-120
+clinical-pharmacology half is the paper's more distinctive content. This section covers
+the first authoring cluster (general pathology Q1-22); the remaining items are left for a
+future pass. Remaining 208 INT papers: 21 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md)
+untriaged.
