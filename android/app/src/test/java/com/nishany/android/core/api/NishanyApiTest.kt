@@ -406,4 +406,168 @@ class NishanyApiTest {
         assertEquals("wrong_cohort", result.reason)
         assertNull(result.party)
     }
+
+    // --- Study Together (shared tests) ---
+
+    @Test fun `createStudyRoom posts name, questionIds, timed and secondsPerQuestion`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":true,"room":${LOBBY_ROOM_JSON}}"""))
+        api.createStudyRoom("Renal block", listOf("q1", "q2"), timed = true, secondsPerQuestion = 90)
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/study-rooms", request.path)
+        val body = request.body.readUtf8()
+        assertTrue(body.contains("\"name\":\"Renal block\""))
+        assertTrue(body.contains("\"questionIds\":[\"q1\",\"q2\"]"))
+        assertTrue(body.contains("\"timed\":true"))
+        assertTrue(body.contains("\"secondsPerQuestion\":90"))
+    }
+
+    @Test fun `createStudyRoom sends a null secondsPerQuestion when untimed`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":true,"room":${LOBBY_ROOM_JSON}}"""))
+        api.createStudyRoom("Renal block", listOf("q1"), timed = false, secondsPerQuestion = null)
+        assertTrue(server.takeRequest().body.readUtf8().contains("\"secondsPerQuestion\":null"))
+    }
+
+    @Test fun `createStudyRoom surfaces a refusal as ok false with a reason`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":false,"reason":"no_questions"}"""))
+        val result = api.createStudyRoom("Empty", emptyList(), timed = false, secondsPerQuestion = null)
+        assertFalse(result.succeeded)
+        assertEquals("Pick at least one question first.", result.message)
+        assertNull(result.room)
+    }
+
+    @Test fun `joinStudyRoom trims and posts the code as given`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":true,"room":${LOBBY_ROOM_JSON}}"""))
+        api.joinStudyRoom("AB12CD")
+        val request = server.takeRequest()
+        assertEquals("/api/study-rooms/join", request.path)
+        assertTrue(request.body.readUtf8().contains("\"code\":\"AB12CD\""))
+    }
+
+    @Test fun `myStudyRooms decodes the rooms array`() = runBlocking {
+        server.enqueue(
+            MockResponse().setBody(
+                """{"rooms":[
+                    {"id":"r1","code":"AB12CD","name":"Renal block","status":"lobby","questionCount":5},
+                    {"id":"r2","code":"XY99ZZ","name":"Cardio","status":"closed","questionCount":10}
+                ]}""",
+            ),
+        )
+        val rooms = api.myStudyRooms()
+        assertEquals("/api/study-rooms/mine", server.takeRequest().path)
+        assertEquals(2, rooms.size)
+        assertEquals("r1", rooms[0].id)
+        assertEquals("lobby", rooms[0].status)
+        assertEquals(10, rooms[1].questionCount)
+    }
+
+    @Test fun `studyRoom decodes a lobby room with empty questionIds and no answers`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"room":${LOBBY_ROOM_JSON}}"""))
+        val room = api.studyRoom("r1")
+        assertEquals("/api/study-rooms/r1", server.takeRequest().path)
+        assertEquals("r1", room.id)
+        assertEquals("AB12CD", room.code)
+        assertTrue(room.isLobby)
+        assertTrue(room.questionIds.isEmpty())
+        assertTrue(room.isHost)
+        assertEquals(1, room.members.size)
+        assertNull(room.secondsPerQuestion)
+    }
+
+    @Test fun `studyRoom decodes a running room's members, answers and withheld scores`() = runBlocking {
+        server.enqueue(
+            MockResponse().setBody(
+                """{"room":{
+                    "id":"r1","code":"AB12CD","name":"Renal block","isHost":false,"status":"running",
+                    "timed":true,"secondsPerQuestion":90,"questionCount":2,
+                    "questionIds":["q1","q2"],"resultsOpen":false,
+                    "members":[
+                        {"userId":"host","displayName":"Sara","finished":false,"answered":1,"correct":null},
+                        {"userId":"me","displayName":null,"finished":false,"answered":1,"correct":1}
+                    ],
+                    "myAnswers":[{"questionId":"q1","chosenIndex":2,"correct":true}],
+                    "myFinished":false
+                }}""",
+            ),
+        )
+        val room = api.studyRoom("r1")
+        assertEquals("running", room.status)
+        assertFalse(room.isLobby)
+        assertEquals(setOf("q1"), room.answeredIds)
+        assertNull(room.members.first { it.userId == "host" }.correct)
+        assertEquals(1, room.members.first { it.userId == "me" }.correct)
+        assertEquals("Student", room.members.first { it.userId == "me" }.name)
+        assertEquals(2, room.myAnswers.first().chosenIndex)
+    }
+
+    @Test fun `startStudyRoom posts to the start route`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":true,"room":${LOBBY_ROOM_JSON}}"""))
+        api.startStudyRoom("r1")
+        val request = server.takeRequest()
+        assertEquals("POST", request.method)
+        assertEquals("/api/study-rooms/r1/start", request.path)
+    }
+
+    @Test fun `startStudyRoom surfaces not_host as a refusal, not a thrown error`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":false,"reason":"not_host"}"""))
+        val result = api.startStudyRoom("r1")
+        assertFalse(result.succeeded)
+        assertEquals("Only the host can start it.", result.message)
+    }
+
+    @Test fun `submitStudyRoomAnswer posts questionId, chosenIndex and seconds`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":true,"correct":true,"correctIndex":2}"""))
+        val result = api.submitStudyRoomAnswer("r1", "q1", chosenIndex = 2, seconds = 12)
+        val request = server.takeRequest()
+        assertEquals("/api/study-rooms/r1/answers", request.path)
+        val body = request.body.readUtf8()
+        assertTrue(body.contains("\"questionId\":\"q1\""))
+        assertTrue(body.contains("\"chosenIndex\":2"))
+        assertTrue(body.contains("\"seconds\":12"))
+        // The server marks it and answers with a verdict, not a fresh room --
+        // see submitStudyRoomAnswer's doc. There is nothing here for the app
+        // to self-score from.
+        assertTrue(result.succeeded)
+        assertNull(result.room)
+    }
+
+    @Test fun `submitStudyRoomAnswer surfaces not_in_room as a refusal`() = runBlocking {
+        server.enqueue(MockResponse().setBody("""{"ok":false,"reason":"not_in_room"}"""))
+        val result = api.submitStudyRoomAnswer("r1", "ghost", chosenIndex = 0, seconds = 1)
+        assertFalse(result.succeeded)
+        assertEquals("That question is not part of this test.", result.message)
+    }
+
+    @Test fun `finishStudyRoom posts to the finish route and decodes the closed room`() = runBlocking {
+        server.enqueue(
+            MockResponse().setBody(
+                """{"ok":true,"room":{
+                    "id":"r1","code":"AB12CD","name":"Renal block","isHost":true,"status":"closed",
+                    "timed":false,"secondsPerQuestion":null,"questionCount":1,
+                    "questionIds":["q1"],"resultsOpen":true,
+                    "members":[{"userId":"me","displayName":"Me","finished":true,"answered":1,"correct":1}],
+                    "myAnswers":[{"questionId":"q1","chosenIndex":0,"correct":true}],
+                    "myFinished":true
+                }}""",
+            ),
+        )
+        val result = api.finishStudyRoom("r1")
+        assertEquals("/api/study-rooms/r1/finish", server.takeRequest().path)
+        assertTrue(result.succeeded)
+        assertEquals(true, result.room?.resultsOpen)
+        assertEquals(true, result.room?.myFinished)
+    }
+
+    private companion object {
+        // A lobby room withholds questionIds by design (server/src/studyRooms.js
+        // `roomFor`) -- used wherever a test only cares that the mutation
+        // round-tripped, not about the room's content.
+        const val LOBBY_ROOM_JSON = """{
+            "id":"r1","code":"AB12CD","name":"Renal block","isHost":true,"status":"lobby",
+            "timed":false,"secondsPerQuestion":null,"questionCount":5,
+            "questionIds":[],"resultsOpen":false,
+            "members":[{"userId":"host","displayName":"Sara","finished":false,"answered":0,"correct":null}],
+            "myAnswers":[],"myFinished":false
+        }"""
+    }
 }

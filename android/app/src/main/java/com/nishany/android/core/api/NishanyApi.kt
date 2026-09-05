@@ -7,6 +7,9 @@ import com.nishany.android.core.rooms.RoomProtocol
 import com.nishany.android.core.model.QotdFriends
 import com.nishany.android.core.model.QotdLeaderboard
 import com.nishany.android.core.model.QotdToday
+import com.nishany.android.core.model.RoomMutation
+import com.nishany.android.core.model.RoomSummary
+import com.nishany.android.core.model.StudyRoom
 import com.nishany.android.core.sync.StateOwnership
 import java.io.File
 import java.io.FileOutputStream
@@ -471,6 +474,120 @@ class NishanyApi(
             members = members,
         )
     }
+
+    // --- Study Together (shared tests, `/api/study-rooms/*`) ---
+    //
+    // A separate system from "Study rooms" above (`/api/parties/*`, voice-only):
+    // an asynchronous shared test. A host builds a room from a frozen list of
+    // question ids, everyone joins by code, the host starts it, and everyone
+    // answers the same set at their own pace -- see `server/src/studyRooms.js`'s
+    // own doc for why this is deliberately not a live/websocket surface.
+
+    /** `POST /api/study-rooms`. A refusal (no valid questions, catalogue locked) is `{ ok: false, reason }`, not a thrown [ApiError]. */
+    suspend fun createStudyRoom(name: String, questionIds: List<String>, timed: Boolean, secondsPerQuestion: Int?): RoomMutation {
+        val body = buildJsonObject {
+            put("name", name)
+            put("questionIds", JsonArray(questionIds.map { JsonPrimitive(it) }))
+            put("timed", timed)
+            put("secondsPerQuestion", secondsPerQuestion?.let { JsonPrimitive(it) } ?: JsonNull)
+        }.toString()
+        return decodeRoomMutation(requestObject("POST", "/api/study-rooms", body))
+    }
+
+    /** `POST /api/study-rooms/join`. A wrong or closed code is `{ ok: false, reason }`, not a thrown [ApiError]. */
+    suspend fun joinStudyRoom(code: String): RoomMutation {
+        val body = buildJsonObject { put("code", code) }.toString()
+        return decodeRoomMutation(requestObject("POST", "/api/study-rooms/join", body))
+    }
+
+    /** `GET /api/study-rooms/mine`. Rooms this student hosts or has joined, most recent first. */
+    suspend fun myStudyRooms(): List<RoomSummary> {
+        val root = requestObject("GET", "/api/study-rooms/mine")
+        val array = root["rooms"] as? JsonArray ?: JsonArray(emptyList())
+        return array.mapNotNull { (it as? JsonObject)?.let(::decodeRoomSummary) }
+    }
+
+    /** `GET /api/study-rooms/:id`. A non-member gets the same 404 as a non-existent room -- see the route's own doc on the server. */
+    suspend fun studyRoom(id: String): StudyRoom =
+        decodeStudyRoomOrThrow(requestObject("GET", "/api/study-rooms/$id")["room"])
+
+    /** `POST /api/study-rooms/:id/start`. Host-only, enforced by the server (`reason: "not_host"` otherwise). */
+    suspend fun startStudyRoom(id: String): RoomMutation =
+        decodeRoomMutation(requestObject("POST", "/api/study-rooms/$id/start"))
+
+    /**
+     * `POST /api/study-rooms/:id/answers`.
+     *
+     * [chosenIndex] is a position in the question's option list, not a label.
+     * The server marks it against the same published projection the app reads
+     * for the solo bank, which drops blank options in the same order -- so the
+     * indexes line up. Sending a label here would mark every answer against
+     * the wrong option. The server never trusts a client-supplied verdict:
+     * this call's [RoomMutation.room] is null on success (the server answers
+     * `{ ok: true, correct, correctIndex }` here, not a fresh room) -- the
+     * caller re-fetches via [studyRoom] to see the marked answer reflected.
+     */
+    suspend fun submitStudyRoomAnswer(roomId: String, questionId: String, chosenIndex: Int, seconds: Int): RoomMutation {
+        val body = buildJsonObject {
+            put("questionId", questionId)
+            put("chosenIndex", chosenIndex)
+            put("seconds", seconds)
+        }.toString()
+        return decodeRoomMutation(requestObject("POST", "/api/study-rooms/$roomId/answers", body))
+    }
+
+    /** `POST /api/study-rooms/:id/finish`. Idempotent -- finishing twice is a no-op success, matching the server's `ON DUPLICATE`-free `WHERE finished_at IS NULL` guard. */
+    suspend fun finishStudyRoom(id: String): RoomMutation =
+        decodeRoomMutation(requestObject("POST", "/api/study-rooms/$id/finish"))
+
+    private fun decodeStudyRoomOrThrow(element: JsonElement?): StudyRoom =
+        decodeStudyRoom(element.asObjectOrMalformed("room"))
+
+    private fun decodeStudyRoom(obj: JsonObject): StudyRoom = StudyRoom(
+        id = obj["id"].stringOrMalformed("room.id"),
+        code = obj["code"].stringOrMalformed("room.code"),
+        name = obj["name"].stringOrMalformed("room.name"),
+        isHost = obj["isHost"].booleanOrMalformed("room.isHost"),
+        status = obj["status"].stringOrMalformed("room.status"),
+        timed = obj["timed"].booleanOrMalformed("room.timed"),
+        secondsPerQuestion = (obj["secondsPerQuestion"] as? JsonPrimitive)?.intOrNull,
+        questionCount = obj["questionCount"].intOrMalformed("room.questionCount"),
+        questionIds = (obj["questionIds"] as? JsonArray)?.mapNotNull { it.stringOrNull() } ?: emptyList(),
+        resultsOpen = obj["resultsOpen"].booleanOrMalformed("room.resultsOpen"),
+        members = (obj["members"] as? JsonArray)?.mapNotNull { (it as? JsonObject)?.let(::decodeRoomMember) } ?: emptyList(),
+        myAnswers = (obj["myAnswers"] as? JsonArray)?.mapNotNull { (it as? JsonObject)?.let(::decodeRoomAnswer) } ?: emptyList(),
+        myFinished = obj["myFinished"].booleanOrMalformed("room.myFinished"),
+    )
+
+    private fun decodeRoomMember(obj: JsonObject): StudyRoom.Member = StudyRoom.Member(
+        userId = obj["userId"].stringOrMalformed("member.userId"),
+        displayName = obj["displayName"].stringOrNull(),
+        finished = obj["finished"].booleanOrMalformed("member.finished"),
+        answered = obj["answered"].intOrMalformed("member.answered"),
+        correct = (obj["correct"] as? JsonPrimitive)?.intOrNull,
+    )
+
+    private fun decodeRoomAnswer(obj: JsonObject): StudyRoom.Answer = StudyRoom.Answer(
+        questionId = obj["questionId"].stringOrMalformed("answer.questionId"),
+        chosenIndex = obj["chosenIndex"].intOrMalformed("answer.chosenIndex"),
+        correct = obj["correct"].booleanOrMalformed("answer.correct"),
+    )
+
+    private fun decodeRoomSummary(obj: JsonObject): RoomSummary = RoomSummary(
+        id = obj["id"].stringOrMalformed("roomSummary.id"),
+        code = obj["code"].stringOrMalformed("roomSummary.code"),
+        name = obj["name"].stringOrMalformed("roomSummary.name"),
+        status = obj["status"].stringOrMalformed("roomSummary.status"),
+        questionCount = obj["questionCount"].intOrMalformed("roomSummary.questionCount"),
+    )
+
+    /** [RoomMutation.room] and [RoomMutation.id] are both genuinely optional -- see the class doc. */
+    private fun decodeRoomMutation(obj: JsonObject): RoomMutation = RoomMutation(
+        ok = (obj["ok"] as? JsonPrimitive)?.booleanOrNull,
+        reason = obj["reason"].stringOrNull(),
+        room = (obj["room"] as? JsonObject)?.let(::decodeStudyRoom),
+        id = obj["id"].stringOrNull(),
+    )
 
     // --- Vouchers & pricing ---
 
