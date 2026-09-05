@@ -9352,3 +9352,3195 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-DE22503021510E
+## label
+Golgi tendon organs are the tension receptors of the inverse (autogenic) stretch reflex
+## canonical_key
+golgitendonorgan.function.inverse-stretch-reflex-receptor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Golgi tendon organs are encapsulated receptors lying in series with extrafusal muscle fibres at the musculotendinous junction, so they are activated by muscle TENSION rather than length. Their group Ib afferents drive the inverse (autogenic) stretch reflex: through an inhibitory interneuron they inhibit the homonymous alpha motor neurons, causing the contracting muscle to relax when tension rises steeply. This protects the muscle-tendon unit from excessive force and smooths the gradation of contraction. They are distinct from muscle spindles, which lie in parallel, sense length, and excite (not inhibit) their own muscle.
+## explicit_objective
+Identify the Golgi tendon organ as the in-series tension receptor whose Ib afferents mediate the inhibitory inverse stretch reflex.
+## pitfalls
+Confusing the Golgi tendon organ (in series, senses tension, Ib afferent, inhibits its muscle) with the muscle spindle (in parallel, senses length, Ia afferent, excites its muscle). Options that call it a group Ia receptor or place it in parallel with extrafusal fibres describe the spindle, not the tendon organ.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor control
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Control > Golgi Tendon Organ
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q76); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-65325C394417B8
+## label
+During spinal shock the bladder is atonic, giving urinary retention with overflow
+## canonical_key
+spinalshock.bladder.retention-with-overflow
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Spinal shock is the transient loss of all reflex activity below a sudden complete cord transection. During this stage the detrusor is areflexic (atonic), so the bladder fills passively and cannot empty, producing urinary RETENTION; once it is over-full, urine dribbles out passively as retention with overflow. Only weeks later, when reflexes return, does an automatic (reflex) bladder develop. The hyperactive automatic bladder and mass reflex are therefore features of the recovery stage, not of spinal shock itself.
+## explicit_objective
+Describe the bladder in spinal shock as atonic with retention and overflow, contrasting it with the later automatic (reflex) bladder.
+## pitfalls
+Labelling the spinal-shock bladder as 'automatic' or 'hyperactive' — those are recovery-stage patterns. During spinal shock the bladder is flaccid/atonic with retention and overflow.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Spinal cord
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Spinal Cord > Spinal Shock
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q77); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-2B91065FC77C92
+## label
+Transection of the cord at the upper cervical level causes immediate death from respiratory arrest
+## canonical_key
+cordtransection.upper-cervical.respiratory-arrest-death
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The phrenic nerve supplying the diaphragm arises from C3-C5, and the intercostal (thoracic) nerves supply the intercostal muscles. A transection at the UPPER cervical level (above C3) cuts descending drive to the phrenic and intercostal motor neurons, paralysing both the diaphragm and the intercostals, so all respiratory muscles fail and death is immediate unless ventilated. A lower cervical lesion may spare the phrenic outflow and preserve diaphragmatic breathing, and thoracic or lumbar lesions leave respiration intact. Level therefore determines survival.
+## explicit_objective
+Explain why an upper-cervical cord transection (above the phrenic origin) is immediately fatal through diaphragmatic and intercostal paralysis.
+## pitfalls
+Assuming any high cord lesion kills — only transection above the phrenic origin (C3-C5) paralyses the diaphragm and is immediately fatal; a lower cervical lesion can spare diaphragmatic breathing.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Spinal cord
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Spinal Cord > Cord Transection Levels
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q78); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-0F9EDC0489F845
+## label
+Bending the stereocilia toward the kinocilium depolarises the vestibular hair cell
+## canonical_key
+vestibularhaircell.stereocilia.kinocilium-bending-depolarizes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each vestibular hair cell carries a bundle of stereocilia and one tall kinocilium. Deflection of the stereocilia TOWARD the kinocilium opens mechanically-gated cation channels, admits K+ from the surrounding endolymph and depolarises the cell, increasing afferent firing; bending away from the kinocilium hyperpolarises it and reduces firing. The transduction current is carried mainly by K+ (endolymph is K+-rich), not by a voltage-gated sodium 'pump'. In the crista ampullaris this directional sensitivity lets the canal signal the direction of angular acceleration.
+## explicit_objective
+State that stereocilia deflection toward the kinocilium depolarises the vestibular hair cell (K+ influx from endolymph), increasing afferent discharge.
+## pitfalls
+Thinking depolarisation is achieved by linear acceleration (that is the maculae) or by a voltage-gated sodium pump. Deflection toward the kinocilium opens mechanotransduction channels carrying a K+ current from endolymph, and the crista responds to angular, not linear, acceleration.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vestibular physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Vestibular Hair Cell
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q79); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-C80711328C2C3C
+## label
+The macula of the saccule detects linear head movement in the vertical plane
+## canonical_key
+saccule.macula.vertical-linear-acceleration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The otolith organs — utricle and saccule — sense linear acceleration and static head tilt via a CaCO3-loaded otolithic membrane over their maculae. The macula of the SACCULE is oriented in the vertical (sagittal) plane, so it is maximally sensitive to vertical linear movement (e.g. riding a lift) and to the pull of gravity along that axis. The macula of the utricle lies in the horizontal plane and detects horizontal linear acceleration and head tilt. The cristae of the semicircular ducts, by contrast, detect angular (rotational) acceleration, not linear movement.
+## explicit_objective
+Assign vertical-plane linear acceleration to the saccular macula and horizontal-plane linear acceleration to the utricular macula.
+## pitfalls
+Swapping the maculae — the saccule is vertical-plane, the utricle horizontal-plane — or assigning linear acceleration to a crista ampullaris (which detects angular acceleration).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vestibular physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Otolith Organs
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q80); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-B20EC15C78FFA9
+## label
+The premotor cortex programmes patterns of complex, coordinated gross movements
+## canonical_key
+premotorcortex.function.complex-coordinated-gross-movements
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The premotor cortex (area 6) lies just ANTERIOR to the primary motor cortex on the lateral surface and organises learned, coordinated patterns of movement — sequences and postural sets involving many muscle groups — which it then feeds to the primary motor cortex for execution. It works with the supplementary motor area and basal ganglia in planning movement. The primary motor cortex (area 4), not the premotor cortex, contains the giant Betz cells; and the premotor cortex is concerned with movement patterning rather than simple facilitation of muscle tone.
+## explicit_objective
+Describe the premotor cortex as the area programming complex, coordinated gross-movement patterns anterior to the primary motor cortex.
+## pitfalls
+Placing the premotor cortex posterior to the primary motor cortex (it is anterior), crediting it with Betz cells (those are in area 4), or reducing its role to muscle-tone facilitation.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor control
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Cortex > Premotor Area
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q81); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-65186FCA5E5EF7
+## label
+Broca's area lesion causes expressive (non-fluent) aphasia with preserved comprehension
+## canonical_key
+brocasarea.lesion.expressive-nonfluent-aphasia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Broca's area (areas 44, 45) in the dominant inferior frontal gyrus programmes the motor sequences of speech. Its lesion produces an EXPRESSIVE (motor, non-fluent) aphasia: the patient understands written and spoken language but speaks slowly, effortfully and with poor articulation, because the plan for producing words is damaged. Comprehension is preserved because Wernicke's (sensory) area is intact; a Wernicke lesion instead gives fluent speech with impaired understanding. The clinical picture of good comprehension but laboured output localises to Broca's area.
+## explicit_objective
+Localise effortful, poorly articulated speech with intact comprehension to a Broca's-area (expressive, non-fluent) aphasia.
+## pitfalls
+Confusing Broca (expressive/non-fluent, comprehension intact) with Wernicke (receptive/fluent, comprehension lost). Poor articulation with preserved understanding is Broca, not Wernicke or angular gyrus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Higher functions
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Language > Broca's Area
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.55
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q82); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-BD529F0178B50D
+## label
+Upper motor neuron lesions cause spastic paralysis with hypertonia and hyperreflexia
+## canonical_key
+umnlesion.signs.spastic-paralysis-hypertonia-hyperreflexia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An upper motor neuron (UMN) lesion removes descending cortical inhibition of the spinal reflex arcs, so the deep tendon reflexes become exaggerated (hyperreflexia), muscle tone rises (spastic hypertonia, clasp-knife type) and an extensor plantar (positive Babinski) appears. Paralysis is spastic, and because whole descending tracts are affected, muscle groups rather than single muscles are weak; there is little wasting (only mild disuse atrophy) and no fasciculation. Clonus may be elicited. These 'release' signs distinguish a UMN from a lower motor neuron lesion.
+## explicit_objective
+List the UMN signs — spastic paralysis, hypertonia, hyperreflexia, clonus and extensor plantar — as loss of descending inhibition.
+## pitfalls
+Attributing hypertonia/hyperreflexia to lower motor neuron lesions (which give flaccidity and hyporeflexia), or to sleep/hypothyroidism (which reduce reflexes). Marked wasting and fasciculation are LMN, not UMN, features.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Lesions > Upper Motor Neuron
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.55
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q83 and Q85); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-4155FD6B0E37D6
+## label
+Lower motor neuron lesions cause flaccid paralysis with wasting and fasciculation
+## canonical_key
+lmnlesion.signs.flaccid-paralysis-wasting-fasciculation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A lower motor neuron (LMN) lesion interrupts the final common path to the muscle, so the affected muscle loses all innervation: it becomes flaccid (hypotonic) with absent reflexes, and — because the muscle is denervated — undergoes marked WASTING (atrophy) together with fasciculations and, on EMG, fibrillations. The plantar response is normal (flexor) and there is no clonus. This contrasts sharply with the UMN picture of spastic hypertonia, hyperreflexia and little wasting. Muscle wasting with fasciculation is the hallmark of denervation.
+## explicit_objective
+List the LMN signs — flaccid paralysis, hypotonia, areflexia, marked wasting and fasciculation — as denervation of the muscle.
+## pitfalls
+Expecting rigidity, hyperactive reflexes or clonus in an LMN lesion — those are UMN features. LMN lesions give flaccidity, wasting, fasciculation and a normal plantar response.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Lesions > Lower Motor Neuron
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.55
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q84); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-CA3DE6073A85FA
+## label
+Parkinsonism features rigidity, bradykinesia, resting tremor and slow monotonous speech
+## canonical_key
+parkinsonism.features.rigidity-bradykinesia-monotonous-speech
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parkinsonism results from degeneration of the nigrostriatal dopaminergic pathway and is characterised by the triad of RESTING (pill-rolling) tremor, lead-pipe/cogwheel RIGIDITY and bradykinesia/akinesia, together with postural instability. Speech becomes slow, soft and MONOTONOUS (hypokinetic dysarthria) and the gait is shuffling/festinant, not high-stepping. Tone is increased (rigidity), so hypotonia is not a feature, and the tremor is present at rest rather than kinetic. Slow monotonous speech is therefore a recognised Parkinsonian sign.
+## explicit_objective
+Recognise slow monotonous speech, resting tremor, rigidity and bradykinesia as features of parkinsonism.
+## pitfalls
+Choosing kinetic (intention) tremor, high-steppage gait or hypotonia — those are not Parkinsonian. Parkinsonism gives a resting tremor, rigidity (increased tone) and a shuffling gait with monotonous speech.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Basal ganglia
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Basal Ganglia > Parkinsonism
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q86); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-33516812B5E087
+## label
+The cerebellum coordinates the muscles required to execute a movement
+## canonical_key
+cerebellum.function.coordination-of-movement
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cerebellum does not itself initiate movement or directly drive lower motor neurons; instead it compares the intended movement with the actual movement (using proprioceptive feedback) and issues corrective signals that COORDINATE the timing, force and sequence of the muscles involved. It acts on the SAME (ipsilateral) side of the body, because its output crosses and the corticospinal tract crosses again (double crossing). It is involved in the planning as well as the smooth execution of movement. Its overall role is coordination, so its disease produces incoordination (ataxia) rather than paralysis.
+## explicit_objective
+State the cerebellum's general role as ipsilateral coordination of the muscles required for a movement, not initiation or direct motor-neuron drive.
+## pitfalls
+Saying the cerebellum directly stimulates motor neurons, controls the opposite side of the body, or is uninvolved in planning. It coordinates ipsilaterally and participates in planning as well as execution.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Cerebellum
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Cerebellum > General Function
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q87); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-3DFE36944A69F5
+## label
+The intermediate zone of the cerebellum acts as a servo-comparator sending corrective impulses
+## canonical_key
+cerebellum.intermediate-zone.servo-comparator-correction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cerebellum is functionally divided into a midline vermis, an intermediate (paravermal) zone and a lateral zone. The INTERMEDIATE zone receives both the motor command (corollary discharge from the cortex) and sensory feedback about the limb's actual movement, so it works as a servo-comparator: it detects the error between intended and actual movement and sends CORRECTIVE impulses back (via the interposed nuclei and thalamus to the cortex, and via the red nucleus) to smooth ongoing distal-limb movement. The lateral zone handles planning through cortical connections, while the flocculonodular/vermal parts (with the vestibular nuclei) control equilibrium and tone.
+## explicit_objective
+Describe the cerebellar intermediate zone as a servo-comparator that computes movement error and returns corrective impulses.
+## pitfalls
+Assigning the servo-comparator/correction role to the flocculonodular lobe (equilibrium) or the lateral zone (planning). The intermediate zone is the comparator issuing corrective impulses for ongoing limb movement.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Cerebellum
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Cerebellum > Functional Zones
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q88); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-E6C808F07FD954
+## label
+Cerebellar disease produces ataxia and related incoordination, not resting tremor or rigidity
+## canonical_key
+cerebellarlesion.signs.ataxia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because the cerebellum coordinates movement, its disease produces INCOORDINATION — ataxia — with a broad-based staggering gait, dysmetria (past-pointing), dysdiadochokinesia, an intention (kinetic) tremor that worsens near the target, scanning speech, nystagmus and hypotonia. Signs are ipsilateral to the lesion. A resting tremor, akinesia and rigidity are basal-ganglia (Parkinsonian) features, not cerebellar. The unifying cerebellar sign is ataxia.
+## explicit_objective
+Identify ataxia (with intention tremor, dysmetria, hypotonia) as the hallmark of cerebellar disease, distinguishing it from Parkinsonian signs.
+## pitfalls
+Choosing resting tremor, akinesia or rigidity for cerebellar disease — those are basal-ganglia signs. Cerebellar lesions give ataxia, intention tremor and hypotonia, ipsilateral to the lesion.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Cerebellum
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Cerebellum > Cerebellar Signs
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.45
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q89); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-19ADA8419C8F4D
+## label
+Delta waves are the high-amplitude slow rhythm of deep (slow-wave) sleep
+## canonical_key
+eeg.delta-waves.slow-wave-sleep
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+EEG rhythms track arousal. Delta waves (below 4 Hz, high amplitude) dominate deep slow-wave (stage 3-4 NREM) sleep and, abnormally, some organic brain disease. Alpha (8-13 Hz) appears in an awake but relaxed adult with eyes closed; beta (over 13 Hz) appears with alertness, mental activity and eye opening; theta (4-7 Hz) is seen in children, drowsiness and some pathology. So the correct pairing is delta with slow-wave sleep, not alpha with thinking or beta with quiet rest.
+## explicit_objective
+Pair delta waves with deep slow-wave sleep and place alpha (relaxed awake), beta (alert) and theta (drowsy) correctly.
+## pitfalls
+Cross-pairing rhythms: beta (not alpha) is the alert/thinking rhythm, alpha the relaxed-awake rhythm; delta — not theta — dominates slow-wave sleep.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sleep and EEG
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > EEG and Sleep > EEG Rhythms
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q90); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-F75E39C84DB053
+## label
+REM sleep shows autonomic activation with raised, irregular heart and respiratory rate and atonia
+## canonical_key
+remsleep.features.increased-heart-respiratory-rate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+REM (paradoxical) sleep combines a desynchronised, awake-like EEG with vivid, well-remembered dreams and rapid conjugate eye movements. Autonomic activity is increased and irregular — heart rate and respiratory rate RISE and fluctuate and blood pressure varies — yet skeletal muscle tone is actively ABOLISHED (atonia) except for the eye and respiratory muscles. Dreams are typically recalled if the sleeper wakes from REM. Increased heart and respiratory rate is therefore the characteristic REM feature; increased muscle tone is the opposite of what occurs.
+## explicit_objective
+Recognise raised, irregular heart and respiratory rates (with muscle atonia and vivid recalled dreams) as characteristic of REM sleep.
+## pitfalls
+Expecting increased muscle tone (REM causes atonia) or unremembered dreams (REM dreams are usually recalled). Heart and respiratory rate rise and are irregular in REM.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sleep and EEG
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > EEG and Sleep > REM Sleep
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q91); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-1F88D59D4F5AE7
+## label
+Glaucoma causes blindness through raised intraocular pressure damaging the optic nerve
+## canonical_key
+glaucoma.mechanism.raised-iop-optic-nerve-damage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glaucoma is a raised intraocular pressure caused by impaired drainage of aqueous humour (through the trabecular meshwork and canal of Schlemm). The sustained high pressure compresses the optic nerve head and its blood supply, progressively destroying retinal ganglion-cell axons and causing an irreversible, characteristically peripheral-first field loss that can end in blindness. This is distinct from cataract (lens opacity), astigmatism (irregular corneal curvature) and presbyopia (age-related loss of accommodation), none of which act by pressure on the optic nerve.
+## explicit_objective
+Explain glaucoma as raised intraocular pressure damaging the optic nerve, distinguishing it from cataract, astigmatism and presbyopia.
+## pitfalls
+Confusing glaucoma with cataract, astigmatism or presbyopia — only glaucoma blinds through raised intraocular pressure on the optic nerve.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Glaucoma
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.55
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q92); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-F2A2D328A35620
+## label
+Corneal transparency depends on avascularity, relative dehydration and non-myelinated nerves
+## canonical_key
+cornea.transparency.avascular-dehydrated-nonmyelinated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cornea is kept transparent by several features: a non-keratinised surface epithelium, the AVASCULAR stroma (no blood vessels to scatter light), a regular lattice arrangement of stromal collagen, relative corneal DEHYDRATION maintained by the endothelial pump, and the fact that its sensory nerves lose their myelin sheaths soon after entering (myelin would scatter light). Therefore a supply of MYELINATED sensory nerve fibres would not contribute to transparency — corneal nerves are non-myelinated centrally, which is the exception in an 'all except' question. Blood vessels or myelin in the cornea reduce clarity.
+## explicit_objective
+List the determinants of corneal transparency (avascular, dehydrated, non-keratinised, regularly arranged, non-myelinated nerves) and identify myelinated nerves as NOT a cause.
+## pitfalls
+Believing corneal nerves are myelinated — centrally they are non-myelinated, since myelin would scatter light. Vascularisation or oedema (over-hydration) reduces transparency.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Corneal Transparency
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q93); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-CD0A245F6C0411
+## label
+The fovea has the highest visual acuity because of one-to-one wiring (absence of convergence)
+## canonical_key
+fovea.acuity.absence-of-convergence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fovea centralis contains densely packed CONES (not rods) and achieves the highest visual acuity because each cone connects essentially one-to-one through a single midget bipolar cell to a single ganglion cell — i.e. there is little or no CONVERGENCE, preserving fine spatial detail. In addition the overlying inner retinal layers and blood vessels are swept aside at the foveal pit so light reaches the cones directly. Convergence is high in the peripheral rod system, which favours sensitivity over acuity. Absence of convergence at the fovea is the basis of its acuity.
+## explicit_objective
+Attribute foveal acuity to minimal convergence (near one-to-one cone-bipolar-ganglion wiring) and dense cones.
+## pitfalls
+Saying the fovea has condensed rods or that its acuity comes from convergence — it has dense cones with minimal convergence (one-to-one wiring), and rods/convergence favour sensitivity, not acuity.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Foveal Acuity
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q94); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-A4FF8174A9A775
+## label
+In dark adaptation retinal sensitivity to light rises as photopigment regenerates
+## canonical_key
+darkadaptation.mechanism.increased-retinal-sensitivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dark adaptation is the progressive INCREASE in retinal sensitivity to light that occurs on moving from bright light into darkness. In the dark, bleached photopigments (rhodopsin in rods, and cone pigments) regenerate, so the threshold for detecting light FALLS and dim signals in retinal neurons are amplified; the cone limb adapts within minutes and the more sensitive rod limb over 20-30 minutes. The pupils DILATE (not constrict) to admit more light. So dark adaptation means increased sensitivity and a lowered threshold, the opposite of a rising threshold or reduced signal.
+## explicit_objective
+Define dark adaptation as increased retinal sensitivity (lowered threshold) from photopigment regeneration, with pupillary dilatation.
+## pitfalls
+Thinking dark adaptation raises the threshold, reduces retinal signal, or constricts the pupil — sensitivity rises, threshold falls and the pupil dilates.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Dark Adaptation
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q95); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-98B793B1D58486
+## label
+Loudness is coded by the amplitude of basilar-membrane vibration and the number of hair cells excited
+## canonical_key
+hearing.loudness-coding.basilar-membrane-amplitude
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A louder sound produces a larger-AMPLITUDE vibration of the basilar membrane, which bends more hair-cell stereocilia more strongly. This increases the firing rate of the auditory afferents AND recruits MORE hair cells (and a wider area of membrane), so the auditory system interprets the sound as loud through greater neural activity. Pitch, by contrast, is coded by the PLACE of maximal vibration along the membrane. A decreased vibration amplitude, fewer hair cells or a lower firing rate would all signal a softer sound.
+## explicit_objective
+Attribute perceived loudness to increased amplitude of basilar-membrane vibration, higher afferent firing and recruitment of more hair cells.
+## pitfalls
+Selecting fewer hair cells stimulated, a diminished firing rate or decreased membrane amplitude — those signal a softer sound. Loudness = greater amplitude, more hair cells, higher firing.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Hearing
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Loudness Coding
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q97); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-60D759F33EC322
+## label
+Inner hair cells perform most auditory afferent signalling; their afferents sit in the spiral ganglion
+## canonical_key
+cochlearhaircell.inner.primary-auditory-afferent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The organ of Corti has one row of INNER hair cells and three rows of OUTER hair cells. Although outer hair cells outnumber inner ones, transmission of auditory information to the brain is performed MAINLY by the inner hair cells, which receive about 90-95% of the afferent (type I) fibres; the outer hair cells act chiefly as a cochlear amplifier (electromotility). The afferent nerve fibres stimulated by the hair cells have their cell bodies in the SPIRAL (cochlear) GANGLION, not in the brainstem cochlear nuclei. Depolarisation occurs when stereocilia bend toward the tallest row (away from the modiolus), not toward the modiolus.
+## explicit_objective
+State that inner hair cells carry most auditory afferent signalling, with cell bodies of their afferents in the spiral ganglion.
+## pitfalls
+Believing outer hair cells do most afferent signalling, that afferent cell bodies lie in the cochlear nuclei, or that inner hair cells outnumber outer. Inner hair cells dominate afferent transmission; their neurons sit in the spiral ganglion.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Hearing
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Cochlear Hair Cells
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q98); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-2692D7C916A97D
+## label
+The middle ear amplifies sound mainly by the tympanic-membrane-to-oval-window area ratio and the ossicular lever
+## canonical_key
+middleear.impedance-matching.area-ratio-tympanic-oval
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The middle ear matches the low impedance of air to the high impedance of cochlear fluid so that sound energy is not lost at the oval window. The dominant mechanism is the AREA RATIO: the large tympanic membrane collects force and concentrates it onto the much smaller stapes footplate/oval window, raising pressure roughly 17-fold; the ossicular lever adds a smaller factor (about 1.3x). Amplification therefore depends on rigid, not flexible, ossicular coupling, and stapedius/tensor tympani reflexes (facial and trigeminal) can attenuate it. The area ratio between tympanic membrane and oval window is the key amplifier.
+## explicit_objective
+Explain middle-ear amplification chiefly by the tympanic-to-oval-window area ratio, with a smaller ossicular-lever contribution.
+## pitfalls
+Attributing amplification to flexible ligaments (it needs rigid coupling) or to a large-factor lever alone. The main mechanism is the tympanic-membrane-to-oval-window area ratio.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Hearing
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Middle Ear Amplification
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q99); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-69041EF94AC791
+## label
+Vitamin A deficiency causes night blindness by impairing rhodopsin regeneration
+## canonical_key
+vitamina-deficiency.night-blindness-rhodopsin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamin A (retinol) is the precursor of 11-cis-retinal, the chromophore that combines with opsin to form rhodopsin in rods. When vitamin A is deficient, rhodopsin cannot be regenerated fast enough, so rod (scotopic) vision fails first and the earliest symptom is NIGHT BLINDNESS (nyctalopia); prolonged deficiency also causes conjunctival/corneal xerosis and keratomalacia. Rods, not cones, mediate dim-light vision, so colour vision (a cone function) is relatively preserved early. Night blindness is therefore the classic early sign.
+## explicit_objective
+Link vitamin A deficiency to night blindness through defective rhodopsin regeneration in rods.
+## pitfalls
+Attributing vitamin A deficiency mainly to poor colour vision (a cone function), astigmatism or presbyopia. The hallmark is night blindness from impaired rhodopsin regeneration.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Vitamin A and Vision
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q100); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-94B218C808352C
+## label
+Unmyelinated fibres wrapped by Schwann cells (Remak bundles) include postganglionic sympathetic fibres
+## canonical_key
+unmyelinatedfibers.postganglionic-sympathetic.schwann-remak
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the peripheral nervous system even UNMYELINATED axons are enveloped by Schwann cells: several thin axons are cradled in grooves of a single Schwann cell without a spiral myelin wrapping, forming a Remak bundle. Classic examples are the small, slow POSTGANGLIONIC SYMPATHETIC (autonomic) fibres and C (pain) fibres. Central grey and white matter contain unmyelinated axons too, but these are supported by oligodendrocytes/astrocytes, NOT Schwann cells, which are peripheral. So 'unmyelinated fibres with Schwann cells' points to a peripheral autonomic fibre such as the postganglionic sympathetic fibre.
+## explicit_objective
+Identify postganglionic sympathetic fibres as peripheral unmyelinated axons ensheathed by Schwann cells (Remak bundles).
+## pitfalls
+Assigning Schwann-cell-invested unmyelinated fibres to CNS grey or white matter — central unmyelinated axons are supported by glia (oligodendrocytes/astrocytes), not Schwann cells. Postganglionic sympathetic (and C) fibres are the peripheral example.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nerve histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Peripheral Nerve > Unmyelinated Fibres
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q101); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-177BE1AF7CE424
+## label
+Purkinje cells are large multipolar neurons with a flask-shaped (pyriform) body
+## canonical_key
+purkinjecell.morphology.multipolar-pyriform
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Purkinje cells of the cerebellar cortex are large MULTIPOLAR neurons with a distinctive flask-shaped (PYRIFORM) cell body arranged in a single row between the molecular and granular layers. A single elaborate dendritic tree fans out into the molecular layer in one plane, and one axon leaves basally to reach the deep cerebellar nuclei (the only output of the cerebellar cortex). They are not bipolar, unipolar or pyramidal — 'pyramidal' cells belong to the cerebral cortex/hippocampus. Multipolar pyriform is the defining Purkinje morphology.
+## explicit_objective
+Classify the Purkinje cell as a large multipolar neuron with a pyriform (flask-shaped) body and a single planar dendritic tree.
+## pitfalls
+Calling the Purkinje cell bipolar, unipolar or pyramidal. It is multipolar and pyriform; pyramidal neurons are cerebral-cortical, not cerebellar.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Neuron histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Cerebellar Cortex > Purkinje Cell
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q102); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-25AACEE079833F
+## label
+Microglia (mesoglia) are small phagocytic glia with short, spiny/thorny processes
+## canonical_key
+microglia.morphology.spiny-thorny-processes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Microglia (mesoglia) are the smallest neuroglia and the resident phagocytes of the CNS, derived from bone-marrow monocytes. They have a small, dense, elongated nucleus and short branching processes covered with fine SPINE-LIKE (thorny) projections that decorate both the cell body and the branches. Being of mesodermal origin they lack the centrioles/mitotic activity attributed to them in distractor options, and they proliferate mainly by recruitment in injury. In this histology item, spiny processes on the cell body and branches identify microglia; protoplasmic astrocytes have MANY short processes (not few long ones), and ependymal cells line ventricles rather than surrounding ganglion neurons (that is satellite cells).
+## explicit_objective
+Identify microglia (mesoglia) by their small size and short spiny/thorny processes on cell body and branches.
+## pitfalls
+Crediting protoplasmic astrocytes with 'few long processes' (they have many short ones), or placing ependymal cells around ganglion neurons (satellite cells' role). Spiny processes on mesoglia identify microglia.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Neuroglia
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Neuroglia > Microglia
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q103); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-E27FB174502DDF
+## label
+The cupula of the crista ampullaris is a gelatinous cap that lacks CaCO3 otoliths
+## canonical_key
+crista.cupula.lacks-otoliths-caco3
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each crista ampullaris sits in the ampulla of a semicircular duct and is capped by the CUPULA, a dome of gelatinous proteoglycan that embeds the hair-cell stereocilia and kinocilia and stretches across the ampulla. Unlike the otolithic membrane of the maculae (utricle and saccule), the cupula contains NO calcium carbonate (CaCO3) crystals/otoliths, so it is not weighted by gravity and instead is deflected by endolymph movement during ANGULAR acceleration. This composition is exactly why cristae detect rotation while maculae, with their CaCO3 otoconia, detect linear acceleration and tilt.
+## explicit_objective
+State that the cupula overlying the crista lacks CaCO3 otoliths (unlike the maculae), making the crista an angular-acceleration detector.
+## pitfalls
+Believing the cupula carries otoconia (those belong to the maculae) or that cristae detect linear acceleration. The cupula lacks CaCO3 and responds to angular acceleration.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Vestibular histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Vestibular Apparatus > Crista Ampullaris
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q105); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-E0D0F47A614E47
+## label
+Reissner's (vestibular) membrane forms the roof of the cochlear duct
+## canonical_key
+reissnersmembrane.roof-of-cochlear-duct
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cochlear duct (scala media) is triangular in cross-section. Its ROOF is Reissner's (vestibular) membrane, which separates the endolymph of the duct from the perilymph of the scala vestibuli above. Its FLOOR is the basilar membrane bearing the organ of Corti (separating it from the scala tympani below), and its OUTER WALL is the stria vascularis. Reissner's membrane is a thin two-cell-layered partition; it is not the outer wall, floor or spiral lamina. Its role as the roof maintains the ionic separation needed for cochlear function.
+## explicit_objective
+Locate Reissner's (vestibular) membrane as the roof of the cochlear duct, with the basilar membrane as floor and stria vascularis as outer wall.
+## pitfalls
+Confusing Reissner's membrane (roof) with the basilar membrane (floor), the stria vascularis (outer wall) or the spiral lamina. It is the roof of the cochlear duct.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Cochlear histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Cochlea > Cochlear Duct
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q106); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---
+
+# Item
+## id
+CON-NEU-A9AB3868E4E200
+## label
+Rod outer-segment discs are continuously shed at the tip and phagocytosed by the pigment epithelium
+## canonical_key
+rodcell.outer-segment.disc-shedding-phagocytosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A rod photoreceptor's OUTER segment is a stack of membranous discs packed with rhodopsin. These discs are continuously renewed: new discs form at the base of the outer segment while the oldest discs at the tip are SHED and PHAGOCYTOSED by the adjacent retinal pigment epithelium, which recycles their components. Rods are concentrated in the PERIPHERAL retina (cones dominate the fovea), and the rod's INNER fibre ends at a small spherule (the cone ending is the pedicle). Continuous disc shedding and phagocytosis by the pigment epithelium is the defining feature of the rod outer segment.
+## explicit_objective
+Describe continuous shedding of rod outer-segment discs and their phagocytosis by the retinal pigment epithelium.
+## pitfalls
+Saying rod inner fibres end in a pedicle (that is the cone; rods have a spherule) or that rods are concentrated at the retinal centre (they are peripheral; cones are central). Rod discs are continuously shed and phagocytosed by the pigment epithelium.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Retinal histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Retina > Rod Cell
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+Authored from 205 NEU EOM 2024 (batch EOM 197, Q108); key render-confirmed green highlight.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR’d this pass — content here reflects standard neurophysiology/histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 11-15 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against the module concept file and pending import-ready; new concept. Fifth cluster for 205 NEU (2024-eom-physiology-b, Q76-108 of the EOM 197 paper: cerebellum, motor lesions, sleep/EEG, vision, hearing, CNS histology).
+
+---

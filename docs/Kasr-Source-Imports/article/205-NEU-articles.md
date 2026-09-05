@@ -600,3 +600,158 @@ university_notes: Fourth article for module 205 NEU, covering the 23 concepts of
 
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+
+## title
+CNS physiology II: cerebellum, motor lesions, spinal cord, sleep and EEG, vision and hearing, with CNS histology
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Physiology
+
+## summary
+This cluster runs from motor physiology through the special senses and finishes with CNS histology. Motor control turns on two proprioceptors that behave oppositely: the muscle spindle lies in parallel and senses length (excites its own muscle), while the Golgi tendon organ lies in series and senses tension, its Ib afferents driving the inhibitory inverse (autogenic) stretch reflex. Lesion signs are the highest-yield theme: an upper motor neuron lesion releases the cord reflexes to give spastic paralysis with hypertonia, hyperreflexia, clonus and an extensor plantar, whereas a lower motor neuron lesion denervates the muscle to give flaccid paralysis with wasting and fasciculation; parkinsonism (nigrostriatal degeneration) adds resting tremor, rigidity, bradykinesia and slow monotonous speech, and cerebellar disease gives ipsilateral ataxia with intention tremor and hypotonia. The cerebellum coordinates rather than initiates movement and works ipsilaterally, its intermediate zone acting as a servo-comparator that returns corrective impulses; the premotor cortex programmes complex coordinated gross-movement patterns, and Broca's area lesions give an expressive non-fluent aphasia with preserved comprehension. Spinal facts include the immediately fatal upper-cervical transection (diaphragm plus intercostal paralysis) and the atonic, retention-with-overflow bladder of spinal shock. Sleep and EEG pair delta waves with slow-wave sleep and mark REM by raised, irregular heart and respiratory rates with muscle atonia and vivid recalled dreams. Vision covers glaucoma (raised intraocular pressure on the optic nerve), the determinants of corneal transparency (avascular, dehydrated, non-keratinised, non-myelinated nerves), foveal acuity from near one-to-one wiring, dark adaptation as rising retinal sensitivity, and vitamin A deficiency as night blindness. Hearing covers loudness coding by basilar-membrane amplitude, the dominance of inner hair cells in afferent transmission, and middle-ear amplification by the tympanic-to-oval-window area ratio, alongside vestibular transduction (stereocilia bent toward the kinocilium depolarise the cell) and the saccular macula's vertical-plane sensitivity. The histology tail identifies unmyelinated Schwann-invested fibres (postganglionic sympathetic), the multipolar pyriform Purkinje cell, spiny-processed microglia, the otolith-free cupula of the crista, Reissner's membrane as the cochlear-duct roof, and continuous rod-disc shedding phagocytosed by the pigment epithelium.
+
+## sections
+
+### Definition
+Motor proprioception rests on two receptors with opposite geometry and sign. The muscle spindle lies in PARALLEL with extrafusal fibres, senses length and rate of stretch through primary (Ia) endings, and reflexly EXCITES its own muscle (the monosynaptic stretch reflex). The Golgi tendon organ lies in SERIES at the musculotendinous junction, senses TENSION, and through group Ib afferents and an inhibitory interneuron INHIBITS the homonymous motor neurons — the inverse (autogenic) stretch reflex that protects the muscle-tendon unit and grades contraction. Upper and lower motor neuron lesions are the clinical counterpoints: a UMN lesion removes descending inhibition (spastic hypertonia, hyperreflexia, clonus, extensor plantar, little wasting), while a LMN lesion denervates the muscle (flaccid hypotonia, areflexia, marked wasting, fasciculation). Parkinsonism (nigrostriatal dopaminergic loss) gives resting tremor, rigidity, bradykinesia and hypokinetic monotonous speech, and cerebellar disease gives ataxia — the cerebellum coordinating, not initiating, movement.
+
+### Mechanism
+The cerebellum compares intended with actual movement and issues corrective signals; because its output crosses and then the corticospinal tract crosses again, it acts on the SAME (ipsilateral) side, and its intermediate (paravermal) zone is the servo-comparator that computes the movement error and feeds corrections back through the interposed nuclei and red nucleus. The premotor cortex (area 6), just anterior to the primary motor cortex, programmes learned patterns of complex coordinated gross movement and hands them to area 4 (which alone holds the Betz cells) for execution; Broca's area (44, 45) programmes speech output, so its lesion gives effortful non-fluent speech with intact comprehension. In the cord, the phrenic (C3-C5) and intercostal outflows mean an upper-cervical transection paralyses all respiratory muscles and is immediately fatal, while spinal shock leaves the detrusor atonic so the bladder fills to retention and overflows. Sensory transduction in the ear is mechanoelectrical: deflection of vestibular or cochlear hair-cell stereocilia TOWARD the kinocilium (or tallest row) opens cation channels and admits K+ from endolymph to depolarise the cell; loudness is signalled by a larger-amplitude basilar-membrane vibration recruiting more hair cells at higher firing rates, while place along the membrane codes pitch.
+
+### Key determinants
+Special-sense single facts decide most answers. In the eye: glaucoma blinds by raised intraocular pressure compressing the optic nerve (not cataract, astigmatism or presbyopia); corneal transparency needs an avascular, relatively dehydrated, non-keratinised, regularly arranged stroma with NON-myelinated nerves; the fovea's acuity comes from dense cones wired nearly one-to-one (minimal convergence); dark adaptation is a RISE in retinal sensitivity as photopigment regenerates (pupils dilate); and vitamin A deficiency causes night blindness by starving rhodopsin regeneration. In the ear: inner hair cells (one row) carry ~90-95% of afferent transmission though outer hair cells (three rows) are more numerous, and the afferent cell bodies lie in the spiral ganglion; middle-ear amplification is chiefly the tympanic-membrane-to-oval-window AREA ratio (~17x) with a smaller ossicular lever, and needs rigid coupling. In the vestibular apparatus the saccular macula senses vertical-plane linear acceleration (the utricle horizontal), while the cristae sense angular acceleration. Histology: peripheral unmyelinated axons (postganglionic sympathetic, C fibres) are Schwann-cell-invested Remak bundles; Purkinje cells are multipolar pyriform neurons; microglia (mesoglia) bear short spiny processes; the crista's cupula lacks CaCO3 otoliths (unlike the maculae); Reissner's membrane is the cochlear-duct roof (basilar membrane the floor, stria vascularis the outer wall); and rod outer-segment discs are continuously shed and phagocytosed by the retinal pigment epithelium.
+
+### Clinical significance
+These facts localise lesions and explain deficits at the bedside. The direction of tone and reflex change separates a UMN lesion (spastic, hyperreflexic, extensor plantar) from an LMN lesion (flaccid, wasted, fasciculating), and the pattern of tremor separates cerebellar disease (intention tremor, ataxia, ipsilateral) from parkinsonism (resting tremor, rigidity, bradykinesia). An upper-cervical cord injury is an airway emergency because the diaphragm is paralysed, and the atonic bladder of spinal shock warns of retention with overflow before an automatic bladder later develops. In ophthalmology, recognising glaucoma as a pressure-driven optic neuropathy, night blindness as early vitamin A deficiency, and the basis of foveal acuity guides screening and diagnosis; in otology, the inner-hair-cell dominance of afferent transmission and the impedance-matching role of the middle ear underlie audiometric and conductive-versus-sensorineural reasoning, and the otolith-free cupula explains why the semicircular canals test rotational rather than linear acceleration.
+
+### Common misconceptions
+Swapping the spindle (parallel, length, excites) with the Golgi tendon organ (series, tension, inhibits), or calling the tendon organ a Ia receptor. Expecting wasting/fasciculation in a UMN lesion or rigidity/hyperreflexia in an LMN lesion. Attributing the cerebellar servo-comparator role to the flocculonodular lobe, or saying the cerebellum drives motor neurons directly or acts contralaterally. Placing the premotor cortex posterior to area 4 or crediting it with Betz cells. Reading Broca's aphasia as loss of comprehension. Pairing alpha (not beta) with thinking or theta (not delta) with slow-wave sleep, or expecting increased muscle tone in REM. Believing corneal nerves are myelinated, that the fovea is rod-rich, that dark adaptation raises the threshold, or that vitamin A deficiency chiefly harms colour vision. Crediting outer hair cells with afferent dominance, placing their neurons in the cochlear nuclei, or attributing middle-ear gain to flexible ligaments. Giving the cupula otoconia, calling Reissner's membrane the outer wall or floor, or saying rod inner fibres end in a pedicle (that is the cone).
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Physiology > Central Nervous System
+
+## subtopic
+CNS physiology and histology
+
+## microtopic
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## learner_stage
+Year 2 foundation
+
+## high_yield
+Core
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-NEU-DE22503021510E
+CON-NEU-65325C394417B8
+CON-NEU-2B91065FC77C92
+CON-NEU-0F9EDC0489F845
+CON-NEU-C80711328C2C3C
+CON-NEU-B20EC15C78FFA9
+CON-NEU-65186FCA5E5EF7
+CON-NEU-BD529F0178B50D
+CON-NEU-4155FD6B0E37D6
+CON-NEU-CA3DE6073A85FA
+CON-NEU-33516812B5E087
+CON-NEU-3DFE36944A69F5
+CON-NEU-E6C808F07FD954
+CON-NEU-19ADA8419C8F4D
+CON-NEU-F75E39C84DB053
+CON-NEU-1F88D59D4F5AE7
+CON-NEU-F2A2D328A35620
+CON-NEU-CD0A245F6C0411
+CON-NEU-A4FF8174A9A775
+CON-NEU-98B793B1D58486
+CON-NEU-60D759F33EC322
+CON-NEU-2692D7C916A97D
+CON-NEU-69041EF94AC791
+CON-NEU-94B218C808352C
+CON-NEU-177BE1AF7CE424
+CON-NEU-25AACEE079833F
+CON-NEU-E27FB174502DDF
+CON-NEU-E0D0F47A614E47
+CON-NEU-A9AB3868E4E200
+CON-NEU-CEE4C1F784F4C1
+
+## related_articles
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## nanotopic
+
+
+## arabic_title
+
+
+## aliases
+
+
+## language
+en
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Physiology CNS 158pp, Physiology general 108pp, Histology, all image-only) were not OCR'd this pass — content here reflects standard neurophysiology and CNS histology consistent with the render-confirmed exam-paper key, not department-book page citations.
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology supplied; left empty rather than model-translated.
+university_notes: Fifth article for module 205 NEU, covering the 29 newly minted concepts of the 2024-eom-physiology-b cluster (Q76-108 of the EOM 197 paper, resource src_e3182cba35c85f7acea8, keys render-confirmed on pages 11-15 at 170dpi) plus one reused Golgi-tendon-organ histology concept for Q104. Q96 and Q107 held (exam's own hand strikethrough crosses out the green key with an off-colour mark on a different, anatomically correct option). Q109-111 are text-only (clean keys D/A/A) available next; Q112-115 + Section B are figure/table-dependent holds.
+
+## reading_time
+9
