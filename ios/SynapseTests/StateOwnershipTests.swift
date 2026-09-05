@@ -27,6 +27,12 @@ struct StateOwnershipTests {
         "synapse.library.personalTags",
         "synapse.library.userArticles",
         "synapse.library.marks.v1",
+        // Article highlights: the web writes these under the rebranded key, and
+        // the phone must route it to the same private store or every save is
+        // refused and the marks appear to vanish.
+        "nishany.library.marks.v1",
+        "nishany.library.read",
+        "nishany.library.personalTags",
         "synapse.annotations.v1.doc42.s0",
         "synapse.reader.fit",
         "synapse.account.prefs.v1",

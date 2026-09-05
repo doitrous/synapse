@@ -13,12 +13,16 @@ final class UserLibrary {
 
     static let readKey = "synapse.library.read"
     static let tagsKey = "synapse.library.personalTags"
+    static let marksKey = LibraryMarks.storageKey
 
     /// Article id → read. Stored as a map rather than a list because that is
     /// what the website writes.
     private(set) var read: [String: Bool] = [:]
     /// Article id → the tags this student put on it.
     private(set) var tags: [String: [String]] = [:]
+    /// Article id → the student's highlights and notes on it. One document for
+    /// the whole library, the shape the website writes.
+    private(set) var marks: LibraryMarkStore = [:]
 
     /// False until the first read succeeds.
     ///
@@ -45,10 +49,62 @@ final class UserLibrary {
 
         async let remoteRead = try? api.userState([String: Bool].self, key: Self.readKey)
         async let remoteTags = try? api.userState([String: [String]].self, key: Self.tagsKey)
+        // A malformed or absent marks document reads as no marks rather than
+        // failing the whole load — the article should still open.
+        async let remoteMarks = try? api.userState(LibraryMarkStore.self, key: Self.marksKey)
 
         read = (await remoteRead)?.value ?? [:]
         tags = (await remoteTags)?.value ?? [:]
+        marks = (await remoteMarks)?.value ?? [:]
         isLoaded = true
+    }
+
+    // MARK: - Marks
+
+    /// This student's highlights and notes on one article, in creation order.
+    func marks(on articleID: String) -> [LibraryMark] {
+        LibraryMarks.marks(marks, on: articleID)
+    }
+
+    /// Add a highlight (or, with a note, a sticky note) on a resolved range of a
+    /// block's text. Returns the mark it made, or nil when the range could not
+    /// be anchored — the same signal the web's `create` gives.
+    @discardableResult
+    func addMark(
+        articleID: String,
+        block: String,
+        text: String,
+        range: TextRange,
+        tone: String,
+        note: String = ""
+    ) async -> LibraryMark? {
+        guard isLoaded else { return nil }
+        guard let anchor = LibraryMarks.makeAnchor(block: block, text: text, start: range.start, end: range.end)
+        else { return nil }
+        let mark = LibraryMark(
+            id: LibraryMarks.newMarkId(),
+            articleId: articleID,
+            anchor: anchor,
+            tone: tone,
+            note: note,
+            createdAt: ISO8601DateFormatter().string(from: Date())
+        )
+        marks = LibraryMarks.upsert(marks, mark)
+        await sync?.write(key: Self.marksKey, value: marks)
+        return mark
+    }
+
+    /// Replace a mark — its tone changed, or its note edited.
+    func updateMark(_ mark: LibraryMark) async {
+        guard isLoaded else { return }
+        marks = LibraryMarks.upsert(marks, mark)
+        await sync?.write(key: Self.marksKey, value: marks)
+    }
+
+    func removeMark(articleID: String, markID: String) async {
+        guard isLoaded else { return }
+        marks = LibraryMarks.remove(marks, articleId: articleID, markId: markID)
+        await sync?.write(key: Self.marksKey, value: marks)
     }
 
     // MARK: - Read

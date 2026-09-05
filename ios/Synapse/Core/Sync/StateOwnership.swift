@@ -27,6 +27,11 @@ enum StateOwnership {
             "^synapse\\.whiteboard\\.",
             "^synapse\\.calendar\\.blocks$",
             "^synapse\\.library\\.(read|userArticles|personalTags|marks)",
+            // Article highlights and sticky notes. The web writes this under the
+            // rebranded `nishany…` key (`LIBRARY_MARKS_STORAGE_KEY`), so the
+            // phone must route it there too or every save would be sent to the
+            // shared catalogue store and refused.
+            "^nishany\\.library\\.(read|userArticles|personalTags|marks)",
             "^synapse\\.account\\.",
             "^synapse-notification-read-v1-",
             "^synapse-applied-voucher-v1$",
