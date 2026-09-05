@@ -14410,3 +14410,2808 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-151
+## title
+Regarding autonomic ganglia:
+## question
+Regarding autonomic ganglia:
+## vignette
+This item asks the student to state that a ganglion relays between one preganglionic and 8–9 postganglionic fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Contain the mother neurons of preganglionic fibers
+## explanation_a
+Backwards. A ganglion contains the mother neurons of *postganglionic* fibres, not preganglionic ones — the preganglionic fibre is what travels in to synapse there, not what originates there.
+## answer_b
+Are collection of neurons inside the CNS
+## explanation_b
+Backwards. A ganglion is, by definition, a collection of neurons *outside* the CNS — that is exactly what distinguishes it from a nucleus, the CNS equivalent.
+## answer_c
+Are the site of relay between one preganglionic and 8-9 postganglionic fibers
+## explanation_c
+Correct. Each preganglionic axon synapses on 8–9 postganglionic cell bodies, so a ganglion is the site of relay between one preganglionic fibre and several (8–9) postganglionic fibres — the mechanism by which autonomic output is diffused.
+
+Why this is right:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream.
+## answer_d
+Terminal ganglia are modified sympathetic ganglia
+## explanation_d
+It is the adrenal medulla, not terminal ganglia, that is the modified sympathetic ganglion (with postganglionic cells that have lost their axons). Terminal ganglia instead relay parasympathetic fibres, near or inside the organ itself.
+## topic
+Autonomic Nervous System
+## subtopic
+Autonomic ganglia
+## main_concept
+CON-NEU-FCFD384A1011F8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Autonomic ganglia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-AUTONOMIC-GANGLIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that a ganglion relays between one preganglionic and 8–9 postganglionic fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p23 q7. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between options C and D, but the book supports only C: each preganglionic axon synapses on 8–9 postganglionic cell bodies, giving a 1:8–1:9 ratio (physical p152). Option D ("terminal ganglia are modified sympathetic ganglia") is false per the book — the adrenal medulla, not terminal ganglia, is the modified sympathetic ganglion; terminal ganglia are parasympathetic relay points near the organ.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-152
+## title
+Adrenal medulla:
+## question
+Adrenal medulla:
+## vignette
+This item asks the student to state that the adrenal medulla is stimulated by acetylcholine via preganglionic cholinergic sympathetic fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is a modified parasympathetic ganglion
+## explanation_a
+Backwards. The adrenal medulla is a modified *sympathetic* ganglion, not a parasympathetic one.
+## answer_b
+Is supplied by preganglionic adrenergic fibers
+## explanation_b
+The adrenal medulla is supplied by preganglionic *cholinergic* sympathetic fibres — "adrenergic" describes the transmitter of most postganglionic sympathetic fibres, not the preganglionic fibres supplying the medulla.
+## answer_c
+Secretes 80% norepinephrine and 20% epinephrine
+## explanation_c
+Backwards. The adrenal medulla secretes 80% adrenaline and 20% noradrenaline, not the reverse split this option gives.
+## answer_d
+Is stimulated by acetylcholine
+## explanation_d
+Correct. The preganglionic fibres supplying the adrenal medulla are cholinergic (as all preganglionic autonomic fibres are), releasing acetylcholine to stimulate the medulla's catecholamine release — consistent with the medulla behaving as a modified sympathetic ganglion whose "postganglionic" cells have lost their axons.
+
+Why this is right:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream.
+## topic
+Autonomic Nervous System
+## subtopic
+Autonomic ganglia
+## main_concept
+CON-NEU-FCFD384A1011F8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Autonomic ganglia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-AUTONOMIC-GANGLIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that the adrenal medulla is stimulated by acetylcholine via preganglionic cholinergic sympathetic fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q15. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-153
+## title
+Preganglionic parasympathetic fibers may relay in:
+## question
+Preganglionic parasympathetic fibers may relay in:
+## vignette
+This item asks the student to state that preganglionic parasympathetic fibres relay in collateral and terminal ganglia.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The corresponding ganglia of the paravertebral sympathetic chain
+## explanation_a
+The paravertebral sympathetic chain relays sympathetic fibres only — parasympathetic fibres never relay there.
+## answer_b
+Collateral and terminal ganglia.
+## explanation_b
+Correct. Preganglionic parasympathetic fibres relay in collateral ganglia (the parasympathetic-relaying subset: ciliary, sphenopalatine, submaxillary, otic) and in terminal ganglia (near or in the organ) — both is parasympathetic relay points, not one exclusively.
+
+Why this is right:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream.
+## answer_c
+Terminal ganglia only.
+## explanation_c
+Terminal ganglia alone is too narrow — collateral ganglia also relay some parasympathetic fibres (the four named cranial ones), so "terminal ganglia only" excludes a real relay site.
+## answer_d
+Postganglionic neurons of the adrenal medulla.
+## explanation_d
+The adrenal medulla is a *sympathetic* structure, supplied by preganglionic sympathetic fibres, not a relay point for parasympathetic ones.
+## topic
+Autonomic Nervous System
+## subtopic
+Autonomic ganglia
+## main_concept
+CON-NEU-FCFD384A1011F8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Autonomic ganglia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-AUTONOMIC-GANGLIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that preganglionic parasympathetic fibres relay in collateral and terminal ganglia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q38. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-154
+## title
+Preganglionic sympathetic fibers to head and neck:
+## question
+Preganglionic sympathetic fibers to head and neck:
+## vignette
+This item asks the student to state that preganglionic sympathetic fibres to the head and neck relay in the cervical ganglia of the paravertebral chain.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Originate from lateral horn cells of upper 4 thoracic segments.
+## explanation_a
+Backwards. Preganglionic sympathetic fibres to the head and neck arise from the lateral horn cells of the first and second *thoracic* segments, not the upper four — the upper-four-thoracic origin belongs to the thoracic-viscera supply instead.
+## answer_b
+Relay in neurons of the cervical ganglia in the paravertebral sympathetic chain. :
+## explanation_b
+Correct. Preganglionic sympathetic fibres to the head and neck ascend to relay with neurons in the cervical ganglia, which are part of the paravertebral sympathetic chain.
+
+Why this is right:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream.
+## answer_c
+Relay in the ciliary ganglia of the eye.
+## explanation_c
+The ciliary ganglion is a collateral ganglion relaying *parasympathetic* fibres (from the oculomotor nerve), not the relay point for sympathetic fibres to the head and neck.
+## answer_d
+Relay in terminal ganglia situated in the head and neck.
+## explanation_d
+Terminal ganglia relay parasympathetic fibres near the organ — sympathetic fibres to the head and neck relay in the cervical paravertebral chain, not in terminal ganglia.
+## topic
+Autonomic Nervous System
+## subtopic
+Autonomic ganglia
+## main_concept
+CON-NEU-FCFD384A1011F8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Autonomic ganglia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-AUTONOMIC-GANGLIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that preganglionic sympathetic fibres to the head and neck relay in the cervical ganglia of the paravertebral chain.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q39. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-155
+## title
+The neurotransmitter inside the ganglion is:
+## question
+The neurotransmitter inside the ganglion is:
+## vignette
+This item asks the student to state that acetylcholine is the neurotransmitter inside the autonomic ganglion.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Nor adrenaline
+## explanation_a
+Noradrenaline is the transmitter at most postganglionic sympathetic endings (on the effector organ), not inside the ganglion at the preganglionic-to-postganglionic synapse.
+## answer_b
+Adrenaline
+## explanation_b
+Adrenaline is a hormone released by the adrenal medulla into the blood, not the transmitter used at the ganglionic synapse.
+## answer_c
+Dopamine
+## explanation_c
+Dopamine is a synthetic intermediate on the way to noradrenaline inside adrenergic nerve terminals; it is not the ganglionic transmitter.
+## answer_d
+Acetyl choline
+## explanation_d
+Correct. All preganglionic autonomic fibres — sympathetic and parasympathetic alike — are cholinergic, releasing acetylcholine onto nicotinic receptors on the postganglionic neuron inside the ganglion.
+
+Why this is right:
+- Acetylcholine receptors divide into two types.
+## topic
+Autonomic Nervous System
+## subtopic
+Autonomic ganglia
+## main_concept
+CON-NEU-5B28B080597460
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Autonomic ganglia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-AUTONOMIC-GANGLIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that acetylcholine is the neurotransmitter inside the autonomic ganglion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p30 q49. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-156
+## title
+One of the following is not supplied by autonomic nervous system:
+## question
+One of the following is not supplied by autonomic nervous system:
+## vignette
+This item asks the student to identify skeletal muscle as somatic, not autonomic, territory.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Heart
+## explanation_a
+The heart is autonomic territory (cardiac muscle), reached by both sympathetic and vagal parasympathetic fibres, so it is supplied and not the exception.
+## answer_b
+Lungs
+## explanation_b
+The lungs are autonomic territory (bronchial smooth muscle and glands), reached by sympathetic bronchodilator and vagal bronchoconstrictor fibres, so they are supplied and not the exception.
+## answer_c
+Siomach
+## explanation_c
+The stomach is autonomic territory (gastrointestinal smooth muscle), reached by both divisions, so it is supplied and not the exception.
+## answer_d
+Skeletal muscles
+## explanation_d
+Correct. The exception. Skeletal muscle is controlled by the somatic motor system alone. The autonomic system's remit is smooth muscle, glands and cardiac muscle; it has no direct motor pathway to skeletal muscle fibres.
+
+Why this is right:
+- The nervous system, alongside the endocrine system, is one of the body's two major regulatory systems; it receives sensory information every minute and integrates it to determine a rapid, precise response.
+- Anatomically it divides into the central nervous system, CNS (brain and spinal cord), and the peripheral nervous system, PNS (peripheral ganglia and peripheral nerves).
+- Sensory information processing (the integrative function) occurs at three CNS levels: the spinal cord level, the lower brain/subcortical level, and the higher brain/cortical level.
+## topic
+Autonomic Nervous System
+## subtopic
+Organisation of autonomic nervous system
+## main_concept
+CON-NEU-1F023F6441DF6A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Organisation of autonomic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ORGANISATION-OF-THE-AUTONOMIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify skeletal muscle as somatic, not autonomic, territory.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p25 q18. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-157
+## title
+Stimulation of the sacral autonomic supply produces:
+## question
+Stimulation of the sacral autonomic supply produces:
+## vignette
+This item asks the student to name erection as the parasympathetic effect of sacral autonomic stimulation.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inhibition of the plain muscles of the wall of the urinary bladder
+## explanation_a
+Backwards. Parasympathetic (sacral) stimulation *relaxes* the internal urethral sphincter to allow micturition; it does not inhibit the bladder wall muscle, which it instead contracts.
+## answer_b
+Erection
+## explanation_b
+Correct. The sacral parasympathetic outflow (S2–S4, via the pelvic splanchnic nerves) produces vasodilatation of the penile blood vessels, which is erection.
+
+Why this is right:
+- The parasympathetic supply to pelvic viscera originates from preganglionic fibres in the second, third and fourth sacral segments, runs as the pelvic splanchnic nerve (nervi erigentes), and relays in terminal ganglia inside or close to the organ.
+## answer_c
+Contraction of the wall of rectum and the internal anal sphincter
+## explanation_c
+Backwards on both halves. Parasympathetic stimulation causes defecation by *contracting* the rectal wall and *relaxing* the internal anal sphincter — the option states the opposite pairing, which is closer to the sympathetic pattern of retention.
+## answer_d
+Increased gastric acid and pepsin secretion
+## explanation_d
+Gastric acid and pepsin secretion are increased by the vagus (thoracic/abdominal parasympathetic outflow), not by the sacral supply, which serves the pelvic organs.
+## topic
+Autonomic Nervous System
+## subtopic
+Organisation of autonomic nervous system
+## main_concept
+CON-NEU-6CC8F7E6DC2871
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Organisation of autonomic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ORGANISATION-OF-THE-AUTONOMIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name erection as the parasympathetic effect of sacral autonomic stimulation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q40. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-158
+## title
+Parasympathetic fibers to head and neck:
+## question
+Parasympathetic fibers to head and neck:
+## vignette
+This item asks the student to state that oculomotor parasympathetic stimulation prepares the eye for near vision.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Originate from lateral horn cells of upper 4 thoracic segments.
+## explanation_a
+Preganglionic sympathetic (not parasympathetic) fibres to the head and neck originate from the upper two thoracic lateral horn cells — this option describes sympathetic, not parasympathetic, origin.
+## answer_b
+Preganglionic fibers relay in neurons of the paravertebral chain.
+## explanation_b
+Preganglionic parasympathetic fibres relay in dedicated cranial ganglia (ciliary, sphenopalatine, submandibular, otic) or terminal ganglia — not in the paravertebral chain, which relays sympathetic fibres only.
+## answer_c
+Prepares the eye for near vision |
+## explanation_c
+Correct. Oculomotor (III) parasympathetic stimulation contracts the ciliary muscle, increasing lens power and preparing the eye for near vision — alongside constricting the pupil.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_d
+Produces salivary secretion which is concentrated, small in amount and viscid
+## explanation_d
+Parasympathetic salivary secretion (via VII and IX) is large in amount, watery and dilute — the small, concentrated, viscid pattern belongs to sympathetic stimulation instead.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that oculomotor parasympathetic stimulation prepares the eye for near vision.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p22 q5. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-159
+## title
+Parasympathetic fibers to the thoracic and abdominal viscera:
+## question
+Parasympathetic fibers to the thoracic and abdominal viscera:
+## vignette
+This item asks the student to state that vagal stimulation decreases the heart's oxygen consumption.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Dilate bronchi and bronchioles
+## explanation_a
+Backwards. Vagal (parasympathetic) stimulation causes bronchoconstriction, not dilation, of the bronchi and bronchioles.
+## answer_b
+Inhibit ventricular muscle contraction
+## explanation_b
+Backwards. The vagus inhibits *atrial* cardiac muscle only, and explicitly does not supply the ventricles at all — there is no ventricular contraction for it to inhibit.
+## answer_c
+Decrease the oxygen consumption of the heart
+## explanation_c
+Correct. Vagal stimulation decreases coronary blood flow and the heart's oxygen consumption, alongside slowing the atria.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## answer_d
+Inhibit pancreatic secretion
+## explanation_d
+Backwards. Vagal stimulation is *secretory* to the pancreas (and GIT glands and liver), not inhibitory.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that vagal stimulation decreases the heart's oxygen consumption.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q12. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-160
+## title
+The parasympathetic fibers:
+## question
+The parasympathetic fibers:
+## vignette
+This item asks the student to state that parasympathetic fibres contract the ciliary muscle for near vision.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Stimulation cause dilation of the bronchi and bronchioles
+## explanation_a
+Backwards. Parasympathetic stimulation causes bronchoconstriction, not dilation, of the bronchi and bronchioles.
+## answer_b
+To salivary glands stimulate secretion of small amount of viscid concenirated fluid
+## explanation_b
+Backwards. Parasympathetic secretion to the salivary glands is large in amount and watery/dilute, not small and viscid — the small, concentrated pattern is the sympathetic one.
+## answer_c
+Produce contraction of ciliary muscle to help near vision
+## explanation_c
+Correct. Parasympathetic (oculomotor) stimulation contracts the ciliary muscle, increasing the lens's power and helping the eye focus for near vision.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_d
+Present in oculomotor nerve represent 75% of all parasympathetic fibers
+## explanation_d
+Backwards. The vagus (cranial nerve X), not the oculomotor nerve, carries about 75% of all parasympathetic fibres — the oculomotor nerve's parasympathetic component is a small fraction of the total by comparison.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that parasympathetic fibres contract the ciliary muscle for near vision.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q14. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-161
+## title
+Stimulation of vagus nerve does not produce:
+## question
+Stimulation of vagus nerve does not produce:
+## vignette
+This item asks the student to recognise that vagal stimulation decreases, not increases, heart rate.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Increased heart rate
+## explanation_a
+Correct. The exception. Vagal (parasympathetic) stimulation slows, not increases, atrial activity — accelerating the heart is a sympathetic effect, the opposite of what the vagus does.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## answer_b
+Dilation of pulmonary vessels
+## explanation_b
+Dilatation of pulmonary vessels is a genuine vagal effect (alongside bronchoconstriction and bronchial gland stimulation), so it is not the exception.
+## answer_c
+Increased gastric secretion
+## explanation_c
+Increased gastric secretion is a genuine vagal effect (secretomotor to GIT glands), so it is not the exception.
+## answer_d
+Contraction of the wall of the gall bladder
+## explanation_d
+Contraction of the gall bladder wall is a genuine vagal effect (evacuation of the gall bladder), so it is not the exception.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that vagal stimulation decreases, not increases, heart rate.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p25 q22. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-162
+## title
+Parasympathetic stimulation produces all of the following, except:
+## question
+Parasympathetic stimulation produces all of the following, except:
+## vignette
+This item asks the student to recognise that parasympathetic stimulation causes bronchoconstriction, not bronchodilation.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Decreased heart rate
+## explanation_a
+Decreased heart rate is a genuine parasympathetic (vagal) effect on the atria, so it is not the exception.
+## answer_b
+Bronchodilation
+## explanation_b
+Correct. The exception. Parasympathetic stimulation causes bronchoconstriction, the opposite of bronchodilation, which is instead a sympathetic effect on the lungs.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## answer_c
+Increased gastric secretion
+## explanation_c
+Increased gastric secretion is a genuine parasympathetic (vagal) effect, so it is not the exception.
+## answer_d
+Urination
+## explanation_d
+Urination (contraction of the bladder wall, relaxation of the internal urethral sphincter) is a genuine parasympathetic (sacral) effect, so it is not the exception.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that parasympathetic stimulation causes bronchoconstriction, not bronchodilation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p26 q24. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-163
+## title
+One of the following is not supplied by parasympathetic fibers:
+## question
+One of the following is not supplied by parasympathetic fibers:
+## vignette
+This item asks the student to state that the vagus does not supply the cardiac ventricles.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Airia
+## explanation_a
+The atria genuinely are supplied by parasympathetic (vagal) fibres, which inhibit atrial cardiac muscle, so this is not the exception.
+## answer_b
+Veniricles
+## explanation_b
+Correct. The exception. The vagus does not supply the ventricles — the one chamber of the heart parasympathetic fibres do not reach.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## answer_c
+Gall biadder
+## explanation_c
+The gall bladder genuinely is supplied by parasympathetic (vagal) fibres, causing its evacuation, so it is not the exception.
+## answer_d
+Salivary glands
+## explanation_d
+The salivary glands genuinely are supplied by parasympathetic fibres (via the facial and glossopharyngeal nerves), so it is not the exception.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that the vagus does not supply the cardiac ventricles.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p26 q25. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-164
+## title
+Parasympathetic nerves:
+## question
+Parasympathetic nerves:
+## vignette
+This item asks the student to state that parasympathetic and sympathetic effects on intestinal smooth muscle are opposite.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Have opposite effects to sympathetic nerves on intestinal smooth muscle
+## explanation_a
+Correct. Parasympathetic stimulation contracts intestinal smooth muscle and relaxes its sphincters, while sympathetic stimulation relaxes the muscle and contracts the sphincters — a directly opposite pairing on the same tissue.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## answer_b
+Have longer postganglionic than preganglionic fibers
+## explanation_b
+Backwards. Preganglionic parasympathetic fibres are typically short (relaying close to or in the organ, e.g. terminal ganglia) while postganglionic fibres are correspondingly short too — the point about long/short fibre length is that parasympathetic postganglionic fibres are short (1 mm to several cm), not that they are longer than the preganglionic ones.
+## answer_c
+Cause vasodilatation in skeletal muscle during prolonged exercise
+## explanation_c
+Vasodilatation in skeletal muscle during exercise is mediated by sympathetic cholinergic vasodilator fibres, not by parasympathetic fibres, which do not supply skeletal muscle blood vessels at all.
+## answer_d
+Cause sweat secretion in skin when body temperature rises
+## explanation_d
+Sweat glands are supplied by sympathetic (cholinergic) fibres, not parasympathetic ones — sweating is not a parasympathetic effect.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that parasympathetic and sympathetic effects on intestinal smooth muscle are opposite.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p26 q28. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-165
+## title
+Stimulation of the vagus nerves produces:
+## question
+Stimulation of the vagus nerves produces:
+## vignette
+This item asks the student to state that vagal stimulation contracts the gall bladder.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+A reduction in the force of. ventricular contraction
+## explanation_a
+Backwards. Vagal stimulation *reduces* the force of ventricular contraction — but the vagus does not supply the ventricles at all, so this specific claim about ventricular force is itself unsupported, not merely a wrong-direction error.
+## answer_b
+Secretion and vasodilatation in the salivary glands
+## explanation_b
+Vagal effects on the salivary glands are not part of the vagus's named remit — salivary secretion and vasodilatation come from the facial and glossopharyngeal nerves, not the vagus.
+## answer_c
+Bronchodilation |
+## explanation_c
+Backwards. Vagal stimulation causes bronchoconstriction, not bronchodilation.
+## answer_d
+Contraction of the gallbladder
+## explanation_d
+Correct. Vagal stimulation evacuates the gall bladder — contraction of its wall together with relaxation of the sphincter of Oddi.
+
+Why this is right:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-C3D7B209FB3260
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that vagal stimulation contracts the gall bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p26 q29. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-166
+## title
+The preganglionic neurons of the parasympathetic division of the autonomic nervous syst…
+## question
+The preganglionic neurons of the parasympathetic division of the autonomic nervous system are located in the brain nuclei of the following cranial nerves:
+## vignette
+This item asks the student to name cranial nerves III, VII, IX and X as the parasympathetic cranial outflow.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+IIl, VII, IX, X
+## explanation_a
+Correct. Cranial nerves III (oculomotor, Edinger-Westphal nucleus), VII (facial, superior salivary nucleus), IX (glossopharyngeal, inferior salivary nucleus) and X (vagus, vagal nucleus) are the four carrying preganglionic parasympathetic fibres.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_b
+VI, VII, VIII, IX
+## explanation_b
+Cranial nerves VI (abducens, a purely motor nerve to the lateral rectus) and VIII (vestibulocochlear, a purely sensory nerve) carry no parasympathetic fibres at all — this option substitutes them for the correct III and X.
+## answer_c
+VI, VII, IX, X
+## explanation_c
+This option keeps VII and IX correctly but drops III (oculomotor) in favour of VI, which is never a parasympathetic carrier.
+## answer_d
+ffi, Vi, Vil, IX
+## explanation_d
+This option is missing X (vagus) entirely, which carries about 75% of all parasympathetic fibres — the single largest component of the cranial outflow cannot be left off the list.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name cranial nerves III, VII, IX and X as the parasympathetic cranial outflow.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p27 q30. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between A (III, VII, IX, X) and B (VI, VII, VIII, IX). The book names exactly III (Edinger-Westphal nucleus, physical p159), VII (superior salivary nucleus, p159), IX (inferior salivary nucleus, p159) and X (vagal nucleus, p160) as the four cranial nerves carrying preganglionic parasympathetic fibres. Option B substitutes VI (abducens) and VIII (vestibulocochlear) — neither of which the book names as parasympathetic — for III and X, which makes B unsupportable.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-167
+## title
+Stimulation of the pelvic parasympathetic nerves produces:
+## question
+Stimulation of the pelvic parasympathetic nerves produces:
+## vignette
+This item asks the student to state that pelvic parasympathetic stimulation contracts the bladder wall and relaxes the internal urethral sphincter.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Relaxation of the wall of rectum and contraction of internal anal sohincter
+## explanation_a
+Backwards. Parasympathetic stimulation *contracts* the rectal wall while *relaxing* the internal anal sphincter (defecation) — this option gives the reverse pairing, closer to the sympathetic (retention) pattern.
+## answer_b
+Vasoconstriction of blood vessels causing erection of penis
+## explanation_b
+Backwards. Vasodilatation of penile blood vessels *causes* erection, it does not cause vasoconstriction — this option states an effect (vasoconstriction) that contradicts erection's own mechanism.
+## answer_c
+Contraction of the bladder wall and relaxation of internal urethral sphincter | |
+## explanation_c
+Correct. Parasympathetic pelvic stimulation contracts the bladder wall and relaxes the internal urethral sphincter, producing micturition.
+
+Why this is right:
+- The parasympathetic supply to pelvic viscera originates from preganglionic fibres in the second, third and fourth sacral segments, runs as the pelvic splanchnic nerve (nervi erigentes), and relays in terminal ganglia inside or close to the organ.
+## answer_d
+Ejaculation of semen
+## explanation_d
+Ejaculation of semen is a sympathetic pelvic effect (contraction of the vas deferens, seminal vesicles and prostate), not a parasympathetic one.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-6CC8F7E6DC2871
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that pelvic parasympathetic stimulation contracts the bladder wall and relaxes the internal urethral sphincter.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p27 q33. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-168
+## title
+The action of parasympathetic in the salivary glands is:
+## question
+The action of parasympathetic in the salivary glands is:
+## vignette
+This item asks the student to state that parasympathetic action on the salivary glands is vasodilation with secretion.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Vasoconstriction and secretion
+## explanation_a
+Backwards. Parasympathetic action on the salivary glands is secretomotor *and vasodilator*, not vasoconstrictor — vasoconstriction paired with secretion is closer to a mixed pattern not seen in this division.
+## answer_b
+Vasodilation and secretion -
+## explanation_b
+Correct. The facial and glossopharyngeal nerves' parasympathetic function on the salivary glands is secretomotor and vasodilator — vasodilation accompanies the (large, watery) secretion they produce.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_c
+Vasodilation and inhibition of secretion
+## explanation_c
+Backwards. Parasympathetic stimulation *causes* secretion, it does not inhibit it — inhibition of secretion is not a pattern seen in either division.
+## answer_d
+Vasoconstriction and inhibition of secretion
+## explanation_d
+Backwards on both counts. Parasympathetic action is vasodilator, not vasoconstrictor, and it stimulates rather than inhibits secretion.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that parasympathetic action on the salivary glands is vasodilation with secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p28 q36. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-169
+## title
+Which of the followings is true as regards occulomotor nerve stimulation?
+## question
+Which of the followings is true as regards occulomotor nerve stimulation?
+## vignette
+This item asks the student to state that oculomotor (parasympathetic) stimulation prepares the eye for near vision.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Bronchodilatation
+## explanation_a
+Bronchodilatation is a sympathetic effect on the lungs, unrelated to oculomotor nerve stimulation, which acts on the eye alone.
+## answer_b
+Dilatation of the pupil
+## explanation_b
+Backwards. Oculomotor parasympathetic stimulation *constricts* the pupil (miosis, via the constrictor pupillae) — dilatation of the pupil (mydriasis) is instead the sympathetic effect, via the dilator pupillae.
+## answer_c
+Retention of urine
+## explanation_c
+Retention of urine is a sympathetic pelvic effect (internal urethral sphincter contraction), unrelated to the oculomotor nerve.
+## answer_d
+Near vision
+## explanation_d
+Correct. Oculomotor parasympathetic stimulation contracts the ciliary muscle, increasing the lens's refractive power and preparing the eye for near vision, alongside constricting the pupil.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that oculomotor (parasympathetic) stimulation prepares the eye for near vision.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p29 q44. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-170
+## title
+The cranial nerve that carries parasympathetic nerve fibers is
+## question
+The cranial nerve that carries parasympathetic nerve fibers is
+## vignette
+This item asks the student to name the facial nerve as a carrier of parasympathetic fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Facial nerve
+## explanation_a
+Correct. The facial nerve (cranial nerve VII) carries preganglionic parasympathetic fibres from the superior salivary nucleus, relaying in the sphenopalatine and submandibular ganglia to the lacrimal, nasal, submandibular and sublingual glands.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_b
+Trigeminal nerve
+## explanation_b
+The trigeminal nerve (V) is chiefly sensory to the face plus motor to the muscles of mastication — it carries no parasympathetic fibres of its own.
+## answer_c
+Hypoglossal nerve
+## explanation_c
+The hypoglossal nerve (XII) is a purely motor nerve to the tongue muscles — it carries no parasympathetic fibres.
+## answer_d
+Optic nerve
+## explanation_d
+The optic nerve (II) is a purely sensory nerve for vision — it carries no motor or parasympathetic fibres at all.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name the facial nerve as a carrier of parasympathetic fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p29 q45. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-171
+## title
+The origin of sympathetic nervous system is from:
+## question
+The origin of sympathetic nervous system is from:
+## vignette
+This item asks the student to identify the lumbar segments as part of the sympathetic (thoracolumbar) origin.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Cranial nerves
+## explanation_a
+Cranial nerves carry the parasympathetic outflow (III, VII, IX, X), not the sympathetic system, which has no cranial-nerve component.
+## answer_b
+Lumbar segments
+## explanation_b
+Correct. As the best available answer among these four: the sympathetic nervous system is thoracolumbar, originating from the lateral horn cells of all thoracic segments *and* the upper two lumbar segments — of the four options offered, only "lumbar segments" names any part of that true origin; the other three (cranial nerves, sacral segments, cervical segments) are parasympathetic or unrelated locations.
+
+Why this is right:
+- The sympathetic nervous system is thoracolumbar, originating from the lateral horn cells of all thoracic segments and the upper two lumbar segments — of the autonomic system's two divisions, only the sympathetic has this thoracolumbar cell-column origin, in contrast to the parasympathetic's cranio-sacral one (cranial nerves III/VII/IX/X plus sacral segments S2–S4).
+## answer_c
+Sacral segments
+## explanation_c
+Sacral segments (S2–S4) are the origin of the *parasympathetic* pelvic outflow, not the sympathetic system, which is thoracolumbar.
+## answer_d
+Cervical segments
+## explanation_d
+Cervical segments contribute no preganglionic sympathetic cell bodies at all — sympathetic fibres to the head and neck originate from upper thoracic segments and only *relay* in the cervical ganglia, further up the paravertebral chain.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify the lumbar segments as part of the sympathetic (thoracolumbar) origin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p30 q47. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-172
+## title
+The following cranial nerve carries parasyinpatnetic nerve fibers:
+## question
+The following cranial nerve carries parasyinpatnetic nerve fibers:
+## vignette
+This item asks the student to identify cranial nerve III (oculomotor) as a carrier of parasympathetic fibres.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Cranial nerve number IV (4)
+## explanation_a
+Cranial nerve IV (trochlear) is a purely motor nerve to the superior oblique eye muscle — it carries no parasympathetic fibres.
+## answer_b
+Cranial nerve number II! (3)
+## explanation_b
+Correct. Cranial nerve III (oculomotor) carries preganglionic parasympathetic fibres from the Edinger-Westphal nucleus, relaying in the ciliary ganglion.
+
+Why this is right:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
+## answer_c
+Cranial nerve number Xi (12)
+## explanation_c
+Cranial nerve XI (accessory) is a purely motor nerve to the sternocleidomastoid and trapezius — it carries no parasympathetic fibres.
+## answer_d
+Cranial nerve number VIII (8)
+## explanation_d
+Cranial nerve VIII (vestibulocochlear) is a purely sensory nerve for hearing and balance — it carries no parasympathetic fibres.
+## topic
+Autonomic Nervous System
+## subtopic
+Parasympathetic nervous system
+## main_concept
+CON-NEU-489FA78A649E37
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify cranial nerve III (oculomotor) as a carrier of parasympathetic fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p30 q48. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-173
+## title
+Stimulation of sympathetic nervous system:
+## question
+Stimulation of sympathetic nervous system:
+## vignette
+This item asks the student to identify GI smooth-muscle relaxation with sphincter contraction as a true sympathetic effect.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Causes vasoconsiriction of cutaneous, pulmonary and coronary blood vessels
+## explanation_a
+Sympathetic stimulation causes vasoconstriction of cutaneous and (mildly) pulmonary vessels, but the *opposite* — indirect vasodilatation — of the coronary vessels; grouping all three together as constriction is false for the coronary case.
+## answer_b
+Relaxes the radial muscle of the eye to dilate the pupil
+## explanation_b
+Backwards. Sympathetic stimulation *contracts* the dilator pupillae to widen the pupil (mydriasis) — it does not relax the radial muscle, and the description of the mechanism is inverted.
+## answer_c
+Stimulates the secretion of large amounts of diluted watery saliva
+## explanation_c
+Backwards. Sympathetic stimulation to the salivary glands gives a small amount of thick, concentrated, viscid saliva — large amounts of dilute watery saliva are the parasympathetic secretion pattern instead.
+## answer_d
+Relaxes smooth muscles and contracts sphincters of the gastrointestinal tract
+## explanation_d
+Correct. Sympathetic stimulation relaxes the smooth muscle of the stomach, small intestine and proximal large intestine while contracting the sphincters (e.g. pyloric) — confirmed unambiguously by a near-identical sibling question carrying an unambiguous printed key.
+
+Why this is right:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify GI smooth-muscle relaxation with sphincter contraction as a true sympathetic effect.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p22 q1. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between A and D. The book contradicts A: sympathetic stimulation causes indirect *vasodilatation* of coronary vessels (not constriction, grouped with cutaneous and pulmonary constriction as this option does), so A is false. D matches the book directly ("Relaxation of the plain muscles of the wall of the stomach, small intestine... Contraction of the sphincters e.g. the pyloric sphincter", physical p157). A near-identical sibling question in the same book (`MCQ-102-2093c80b-p23-q10`, same stem, options b–d unchanged) carries an unambiguous printed key of D, confirming the reading.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-174
+## title
+Stimulation of sympathetic nervous system:
+## question
+Stimulation of sympathetic nervous system:
+## vignette
+This item asks the student to state that sympathetic stimulation relaxes GI smooth muscle while contracting its sphincters.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Causes vasoconstriction of pulmonary and coronary blood vessels
+## explanation_a
+Sympathetic stimulation dilates coronary vessels indirectly, the opposite of the constriction this option groups it with alongside the pulmonary vessels.
+## answer_b
+Relaxes the radial muscle of the eye to dilate the pupil
+## explanation_b
+Backwards. Sympathetic stimulation contracts the dilator pupillae (mydriasis); it does not relax the radial muscle to dilate the pupil by relaxation.
+## answer_c
+Stimulates the secretion of large amounts of diluted watery saliva
+## explanation_c
+Backwards. Sympathetic salivary secretion is small, thick and viscid, not large and watery — that pattern belongs to parasympathetic stimulation.
+## answer_d
+Relaxes smooth muscles and contracts sphincters of the gastrointestinal tract
+## explanation_d
+Correct. Sympathetic stimulation relaxes gastrointestinal smooth muscle while contracting its sphincters, the standard pattern for the abdominal viscera.
+
+Why this is right:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that sympathetic stimulation relaxes GI smooth muscle while contracting its sphincters.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p23 q10. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-175
+## title
+Sympathetic fibers to pelvic viscera:
+## question
+Sympathetic fibers to pelvic viscera:
+## vignette
+This item asks the student to state that sympathetic stimulation to the pelvis produces ejaculation and penile shrinkage.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Produce ejaculation of semen and shrinkage of penis
+## explanation_a
+Correct. Sympathetic fibres to the pelvic viscera contract the vas deferens, seminal vesicles and prostate (ejaculation) and vasoconstrict pelvic/genital vessels, causing shrinkage of the penis during the sexual act.
+
+Why this is right:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
+## answer_b
+Originate from all lumbar and upper 2 sacral segments
+## explanation_b
+Backwards on the segments. Sympathetic pelvic fibres originate from the 12th thoracic and upper two lumbar segments, not "all lumbar and upper 2 sacral" — sacral segments belong to the parasympathetic outflow instead.
+## answer_c
+Produce vasodilation of pelvic blood vessels
+## explanation_c
+Backwards. Sympathetic stimulation *vasoconstricts* pelvic blood vessels (contributing to penile shrinkage), it does not vasodilate them — vasodilatation of penile vessels is the parasympathetic erection mechanism.
+## answer_d
+Inhibit defecation and mediate micturition
+## explanation_d
+Backwards on both halves. Sympathetic stimulation *contracts* the internal anal sphincter (retention of faeces) and, for the bladder, contracts the internal urethral sphincter to mediate urinary retention — not micturition, which is a parasympathetic effect.
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that sympathetic stimulation to the pelvis produces ejaculation and penile shrinkage.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q13. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-176
+## title
+Sympathetic fibers to the head and Neck:
+## question
+Sympathetic fibers to the head and Neck:
+## vignette
+This item asks the student to state that sympathetic stimulation increases cerebral blood flow and mental alertness.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Relaxes ciliary muscle to increase power of lens to see far objects
+## explanation_a
+Backwards. Sympathetic stimulation *contracts* the ciliary muscle's relaxation is a parasympathetic effect preparing the eye for *near*, not far, vision — sympathetic stimulation does not increase lens power for distance vision this way.
+## answer_b
+Causes vasodilation of skin blood vessels to increase sweat secretion
+## explanation_b
+Backwards. Sympathetic stimulation causes cutaneous *vaso*constriction, not vasodilation, and its secretory effect on sweat glands is unrelated to the direction of skin vessel calibre here.
+## answer_c
+Increase cerebral blood flow and produce mental alertness
+## explanation_c
+Correct. Sympathetic stimulation raises systemic arterial blood pressure, which increases cerebral blood flow despite mild direct constriction of cerebral vessels, and increases mental alertness by lowering the reticular formation's threshold.
+
+Why this is right:
+- Sympathetic effects on the head and neck (preganglionic from T1–T2, relaying in the cervical ganglia): contraction of dilator pupillae (mydriasis), contraction of upper-eyelid smooth muscle (widens the palpebral fissure, increasing the field of vision), vasoconstriction of conjunctival vessels, sweat-gland secretion and cutaneous vasoconstriction, salivary secretion that is small in amount, concentrated and viscid (mainly from the submaxillary gland), increased cerebral blood flow (via raised systemic pressure, despite mild direct constriction of cerebral vessels), and increased mental alertness.
+## answer_d
+Contracts muscles of lower eye lid to increase field of vision
+## explanation_d
+Backwards. Sympathetic stimulation contracts the *upper* eyelid's smooth muscle to widen the palpebral fissure — this option names the lower eyelid, which is not the muscle involved.
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-7200808D45CA8C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that sympathetic stimulation increases cerebral blood flow and mental alertness.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q16. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-177
+## title
+The greater splanchnic nerve:
+## question
+The greater splanchnic nerve:
+## vignette
+This item asks the student to place the greater splanchnic nerve's origin in the lower thoracic segments.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is the postganglionic sympathetic fiber to the abdominal region
+## explanation_a
+Backwards. The greater splanchnic nerve carries *preganglionic*, not postganglionic, sympathetic fibres — it passes through the paravertebral chain without relaying, on its way to synapse in a collateral ganglion.
+## answer_b
+Relays in the paravertebral sympathetic chain. _
+## explanation_b
+Backwards. The greater splanchnic nerve passes through the paravertebral chain *without* relaying there — it relays instead in the coeliac and superior mesenteric ganglia (collateral ganglia), further from the cord.
+## answer_c
+Originates from the lateral horn cells of the lower six thoracic segments
+## explanation_c
+Correct. The greater splanchnic nerve's origin lies among the lower thoracic segments (T5–T9) that supply the abdominal viscera, in contrast to the upper four thoracic segments that supply the thoracic viscera.
+
+Why this is right:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
+## answer_d
+Is the preganglionic sympathetic fiber to the pelvic region
+## explanation_d
+The greater splanchnic nerve supplies abdominal, not pelvic, viscera — pelvic preganglionic sympathetic fibres instead leave as lumbar and sacral splanchnic nerves from lower segments (T12–L2).
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-7D2786E349DE45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Place the greater splanchnic nerve's origin in the lower thoracic segments.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p24 q17. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-178
+## title
+The sympathetic response in a "fight or flight" reaction causes a cecrease in the:
+## question
+The sympathetic response in a "fight or flight" reaction causes a cecrease in the:
+## vignette
+This item asks the student to name skin-blood-vessel constriction as part of the sympathetic "fight or flight" response.
+## subject
+neuro
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arterial blood pressure
+## explanation_a
+Backwards. The sympathetic "fight or flight" response *raises* arterial blood pressure (for better perfusion of vital organs and muscles), it does not decrease it.
+## answer_b
+Diameter of the pupil
+## explanation_b
+Backwards. The sympathetic response *dilates* the pupil (letting in more light), it does not decrease pupil diameter.
+## answer_c
+Diameter of skin blood vessels
+## explanation_c
+Correct. The alarm response constricts skin blood vessels, which limits bleeding from wounds — a decrease in the diameter of skin blood vessels.
+
+Why this is right:
+- The sympathetic nervous system discharges as one unit in emergency situations, to prepare the individual to cope with the emergency — preparation for flight, fear or fight. It dilates the pupils, letting more light into the eyes. It accelerates the heartbeats and raises the blood pressure, which gives better perfusion of vital organs and muscles. It constricts the blood vessels of the skin, which limits bleeding from wounds. It lowers the threshold in the reticular formation of the brain, reinforcing the alert and aroused state. And it stimulates lipolysis and glycogenolysis, supplying more energy as glucose and free fatty acids.
+## answer_d
+Blood glucose concentration
+## explanation_d
+Backwards. The sympathetic response *raises* blood glucose (via lipolysis and glycogenolysis, supplying more energy), it does not decrease it.
+## topic
+Autonomic Nervous System
+## subtopic
+Sympathetic nervous system
+## main_concept
+CON-NEU-DCDACCB179C2A5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name skin-blood-vessel constriction as part of the sympathetic "fight or flight" response.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p26 q27. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
