@@ -2,13 +2,15 @@
 ## id
 CON-REN-D823DE43FBEFAA
 ## label
-Focal proliferative glomerulonephritis affects only some glomeruli, and only segments of those
+Focal proliferative glomerulonephritis
 ## subject
 renal
 ## status
 under review
 ## definition
-In focal proliferative glomerulonephritis only a proportion of glomeruli are involved, and within an affected glomerulus only part of the tuft shows proliferation. Focal describes how many glomeruli are affected; segmental describes how much of each.
+In **focal proliferative glomerulonephritis** only a proportion of glomeruli are involved, and within an affected glomerulus only part of the tuft shows proliferation.
+
+__Focal__ describes how many glomeruli are affected; __segmental__ describes how much of each.
 ## explicit_objective
 Distinguish focal from diffuse and segmental from global when describing a pattern of glomerular injury.
 ## original_wording
@@ -23,13 +25,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-0E170769834796
 ## label
-Membranous nephropathy shows diffuse uniform thickening of the glomerular basement membrane
+Membranous nephropathy: diffuse GBM thickening
 ## subject
 renal
 ## status
 under review
 ## definition
-The glomerular basement membrane in membranous nephropathy is thickened diffusely and uniformly, affecting all glomeruli and the whole of each capillary loop, which is what distinguishes it from the segmental changes of other patterns.
+In **membranous nephropathy** the glomerular basement membrane is thickened __diffusely and uniformly__, affecting all glomeruli and the whole of each capillary loop.
+
+That uniformity is what distinguishes it from the **segmental** changes of other patterns.
 ## explicit_objective
 Recognise the uniform, diffuse basement-membrane thickening of membranous nephropathy and contrast it with focal or segmental patterns.
 ## original_wording
@@ -44,13 +48,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-95F19D57F25A2B
 ## label
-About 80% of bladder carcinomas are papillary, formed of delicate fibrovascular cores covered by urothelium
+Papillary bladder carcinoma (about 80%)
 ## subject
 renal
 ## status
 under review
 ## definition
-The great majority of bladder carcinomas are papillary tumours, each frond consisting of a delicate fibrovascular core covered by neoplastic urothelium. The papillary architecture is what distinguishes them from the flat, non-papillary tumours that make up the remainder.
+The great majority of bladder carcinomas — about **80%** — are **papillary tumours**, each frond consisting of a delicate fibrovascular core covered by neoplastic urothelium.
+
+The __papillary architecture__ is what distinguishes them from the flat, non-papillary tumours that make up the remainder.
 ## explicit_objective
 Describe the papillary architecture of the commonest bladder carcinomas and state the approximate proportion they represent.
 ## original_wording
@@ -65,13 +71,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-A6AEEA7A18934B
 ## label
-About 20% of bladder carcinomas are solid, flat and non-papillary, and invade muscle at presentation
+Solid non-papillary bladder carcinoma (about 20%)
 ## subject
 renal
 ## status
 under review
 ## definition
-A minority of bladder carcinomas are flat and solid rather than papillary. These behave far more aggressively, being invasive at the time of diagnosis and characteristically infiltrating the detrusor muscle.
+A minority of bladder carcinomas — about **20%** — are **flat and solid** rather than papillary.
+
+These behave far more aggressively: they are __invasive at the time of diagnosis__ and characteristically infiltrate the **detrusor muscle**.
 ## explicit_objective
 Contrast the flat, non-papillary bladder carcinoma with the papillary type in both architecture and behaviour at presentation.
 ## original_wording
@@ -86,13 +94,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-64E32F60E90072
 ## label
-The glomerular basement membrane consists of type IV collagen, laminin and polyanionic proteoglycans, mostly heparan sulfate
+Constituents of the glomerular basement membrane
 ## subject
 renal
 ## status
 under review
 ## definition
-The glomerular basement membrane is built from collagen, predominantly type IV, together with laminin and polyanionic proteoglycans of which heparan sulfate is the main one. The fixed negative charge those proteoglycans carry is what makes the barrier selective for charge as well as size.
+The glomerular basement membrane is built from **type IV collagen**, **laminin** and **polyanionic proteoglycans**, of which **heparan sulfate** is the main one.
+
+The __fixed negative charge__ those proteoglycans carry is what makes the barrier selective for charge as well as size.
 ## explicit_objective
 Name the constituents of the glomerular basement membrane and explain how its anionic charge contributes to filtration selectivity.
 ## original_wording
@@ -107,13 +117,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-2926B6DCBB2134
 ## label
-A low urine pH favours the formation of uric acid and cystine stones
+Acid urine favours uric acid and cystine stones
 ## subject
 renal
 ## status
 under review
 ## definition
-Uric acid and cystine are both less soluble in acid urine, so a persistently low urine pH favours their crystallisation. This is why alkalinising the urine is used to prevent and dissolve stones of these two types, and why it does not help with calcium stones.
+**Uric acid** and **cystine** are both less soluble in acid urine, so a persistently __low urine pH__ favours their crystallisation.
+
+This is why **alkalinising the urine** is used to prevent and dissolve stones of these two types — and why it does not help with calcium stones.
 ## explicit_objective
 Relate urine pH to the solubility of stone-forming solutes, and identify which stone types are favoured by acid urine.
 ## original_wording
@@ -128,13 +140,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-A33EEFD4C4A862
 ## label
-The metabolic acidosis of renal failure results from retention of phosphates, sulphates and organic acids
+Metabolic acidosis of renal failure
 ## subject
 renal
 ## status
 under review
 ## definition
-As glomerular filtration falls, the acid anions produced by normal metabolism — phosphates, sulphates and organic acids — are retained instead of being excreted. Their accumulation, together with impaired renal generation of bicarbonate, produces the metabolic acidosis of renal failure.
+As glomerular filtration falls, the acid anions produced by normal metabolism — **phosphates, sulphates and organic acids** — are __retained instead of being excreted__.
+
+Their accumulation, together with **impaired renal generation of bicarbonate**, produces the metabolic acidosis of renal failure.
 ## explicit_objective
 Explain the metabolic acidosis of renal failure from the retention of unexcreted acid anions.
 ## original_wording
@@ -149,13 +163,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-374A36F2DAF367
 ## label
-Acquired bladder diverticula are usually associated with prostatic enlargement
+Acquired bladder diverticula and outflow obstruction
 ## subject
 renal
 ## status
 under review
 ## definition
-Acquired diverticula of the bladder arise where mucosa herniates between hypertrophied detrusor bundles, and they are most often the consequence of chronic outflow obstruction — in men, usually prostatic enlargement. They differ from congenital diverticula, which are present from birth and are not obstruction-related.
+**Acquired bladder diverticula** form where mucosa herniates between hypertrophied detrusor bundles, most often as a consequence of __chronic outflow obstruction__ — in men, usually **prostatic enlargement**.
+
+They differ from **congenital diverticula**, which are present from birth and are not obstruction-related.
 ## explicit_objective
 Distinguish acquired from congenital bladder diverticula and name the obstruction that usually causes the acquired form.
 ## original_wording
@@ -170,13 +186,13 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-REN-8A11F1D9204098
 ## label
-About 80% of patients with bladder carcinoma are between 50 and 80 years of age
+Age distribution of bladder carcinoma
 ## subject
 renal
 ## status
 under review
 ## definition
-Bladder carcinoma is predominantly a disease of later life, with roughly four-fifths of patients presenting between the ages of 50 and 80.
+Bladder carcinoma is predominantly a disease of __later life__, with roughly **four-fifths of patients** presenting between the ages of **50 and 80**.
 ## explicit_objective
 State the age distribution of bladder carcinoma and use it in weighting a differential for visible haematuria.
 ## original_wording
