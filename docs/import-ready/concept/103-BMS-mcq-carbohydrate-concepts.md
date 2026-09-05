@@ -50,7 +50,7 @@
 # Item
 
 ## label
-A bond is high energy when hydrolysis releases 7.3 kcal/mol or more, which is what each terminal phosphate bond of ATP yields
+High- and low-energy bonds
 
 ## id
 CON-FND-7228237A5897B5
@@ -73,7 +73,11 @@ Pyrophosphate bond of ATP
 رابطة البيروفوسفات في الأدينوسين ثلاثي الفوسفات
 
 ## definition
-Every hydrolysable bond in the body falls into one of two groups by the free energy it releases. A low-energy bond liberates less than 7.3 kcal/mol, which is not enough to generate ATP; the book's examples are the phosphate ester, carboxyl ester, glycosidic and peptide bonds, and glucose 6-phosphate is the standard low-energy phosphate. A high-energy bond liberates 7.3 kcal/mol or more and is written with a curved double dash; the examples are ATP, 2-phosphoenolpyruvate, creatine phosphate and S-adenosylmethionine. The two terminal phosphates of ATP are joined by high-energy pyrophosphate bonds, and each releases 7.3 kcal/mol on hydrolysis.
+Every hydrolysable bond in the body falls into one of two groups by the free energy it releases.
+
+A **low-energy bond** liberates less than 7.3 kcal/mol, which is not enough to generate ATP; the book's examples are the phosphate ester, carboxyl ester, glycosidic and peptide bonds, and glucose 6-phosphate is the standard low-energy phosphate.
+
+A **high-energy bond** liberates 7.3 kcal/mol or more and is written with a curved double dash; the examples are ATP, 2-phosphoenolpyruvate, creatine phosphate and S-adenosylmethionine. __The two terminal phosphates of ATP are joined by high-energy pyrophosphate bonds__, and each releases 7.3 kcal/mol on hydrolysis.
 
 ## explicit_objective
 State the free-energy figure that separates high-energy from low-energy bonds, and sort a list of phosphorylated compounds into the two groups.
@@ -230,7 +234,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Cells do not store energy as ATP; creatine phosphate is the store, and the ATP–ADP cycle turns over in seconds
+The ATP–ADP cycle and creatine phosphate
 
 ## id
 CON-FND-6B7241CD9F3C42
@@ -253,7 +257,9 @@ ATP as energy currency
 إنزيم كيناز الكرياتين
 
 ## definition
-ATP is the product of catabolism and the fuel of anabolism, and it is what pays for mechanical work in muscle, electrical work in nerve, chemical work in biosynthesis and osmotic work in transport. The ATP a cell holds would keep it going for only a few seconds, so the ATP–ADP cycle turns over very fast and the cell does not store energy as ATP at all. Creatine phosphate is the major storage form of energy in muscle: in energy-rich states creatine kinase transfers the phosphate from ATP to creatine, and in energy-poor states the reaction runs the other way within two to seven seconds.
+**ATP** is the product of catabolism and the fuel of anabolism, and it is what pays for mechanical work in muscle, electrical work in nerve, chemical work in biosynthesis and osmotic work in transport.
+
+The ATP a cell holds would keep it going for only a few seconds, so the ATP–ADP cycle turns over very fast and __the cell does not store energy as ATP at all__. **Creatine phosphate** is the major storage form in muscle: in energy-rich states creatine kinase transfers the phosphate from ATP to creatine, and in energy-poor states the reaction runs the other way within two to seven seconds.
 
 ## explicit_objective
 Name the storage form of high-energy phosphate in muscle, name the enzyme that makes and breaks it, and explain why ATP itself cannot be the store.
@@ -410,7 +416,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Anabolism builds and consumes energy; catabolism breaks down and releases it, in three stages that converge on acetyl-CoA
+Anabolism and catabolism
 
 ## id
 CON-FND-9D5F6458F68D4B
@@ -435,7 +441,11 @@ Amphibolic pathway
 مراحل الهدم الثلاث
 
 ## definition
-Metabolism is the sum of the chemical changes foodstuffs undergo in the body, and it has two halves. Anabolism is the biosynthesis of large molecules from smaller precursors and consumes energy; it accelerates during growth and regeneration. Catabolism is the breakdown of large molecules into small ones with energy production, and it accelerates during fasting, physical or mental activity and stress. Catabolism runs in three stages: stage 1 degrades macromolecules to monosaccharides, amino acids, glycerol and fatty acids and traps no energy; stage 2 converts those products to acetyl-CoA with reduced coenzymes and some ATP; stage 3 oxidises acetyl-CoA in the citric acid cycle. A pathway that serves both halves at once is amphibolic.
+Metabolism is the sum of the chemical changes foodstuffs undergo in the body, and it has two halves. **Anabolism** is the biosynthesis of large molecules from smaller precursors and consumes energy; it accelerates during growth and regeneration. **Catabolism** is the breakdown of large molecules into small ones with energy production, and it accelerates during fasting, physical or mental activity and stress.
+
+Catabolism runs in __three stages__: stage 1 degrades macromolecules to monosaccharides, amino acids, glycerol and fatty acids and traps no energy; stage 2 converts those products to acetyl-CoA with reduced coenzymes and some ATP; stage 3 oxidises acetyl-CoA in the citric acid cycle.
+
+A pathway that serves both halves at once is **amphibolic**.
 
 ## explicit_objective
 Classify a named pathway as anabolic, catabolic or amphibolic, and say which of the three catabolic stages traps no energy.
@@ -591,7 +601,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The reducing agent is the electron donor, and oxygen has the highest redox potential, which is why it sits at the end of the chain
+Redox potential and oxygen as terminal acceptor
 
 ## id
 CON-FND-8771AB893CA4C3
@@ -616,7 +626,11 @@ Final acceptor of electrons
 المستقبل النهائي للإلكترونات
 
 ## definition
-A reducing agent is the molecule that donates its electrons and is itself oxidised; an oxidising agent accepts them. Electrons move down the respiratory chain from carriers of low redox potential to carriers of high redox potential, and oxygen has the highest of all, which is why it is the terminal acceptor. At complex IV the electrons arriving from cytochrome c are handed to oxygen, which combines with two protons to form water. Water, not glucose, is the product at the end of the chain.
+A **reducing agent** is the molecule that donates its electrons and is itself oxidised; an **oxidising agent** accepts them.
+
+Electrons move down the respiratory chain from carriers of low redox potential to carriers of high redox potential, and __oxygen has the highest of all__, which is why it is the terminal acceptor.
+
+At complex IV the electrons arriving from cytochrome c are handed to oxygen, which combines with two protons to form water. **Water, not glucose, is the product at the end of the chain.**
 
 ## explicit_objective
 Identify the electron donor in a redox pair, rank NAD, FMN, FAD and oxygen by redox potential, and name the product formed at the end of the chain.
@@ -772,7 +786,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The respiratory chain has four complexes and two mobile carriers, and NADH and FADH2 enter it at different points
+The respiratory chain: components and entry points
 
 ## id
 CON-FND-A3BC299ED2C7C9
@@ -799,7 +813,11 @@ Cytochromes
 السيتوكرومات
 
 ## definition
-The electron transport chain lies in the inner mitochondrial membrane and carries hydrogen atoms and electrons from NADH+H⁺ and FADH2 to oxygen, forming water and ATP. It is built from four protein complexes, two mobile carriers — ubiquinone (coenzyme Q) and cytochrome c — and complex V, ATP synthase. Complex I is a flavoprotein on FMN and passes two hydrogens from NADH to CoQ. Complex II is succinate dehydrogenase on FAD and passes two hydrogens from FADH2 to CoQ, bypassing complex I. Complex III, a haemoprotein of cytochromes b and c1, passes two electrons from CoQH2 to cytochrome c. Complex IV, cytochromes a and a3 with two copper atoms, passes them to oxygen. Cytochromes carry electrons, not hydrogen atoms.
+The **electron transport chain** lies in the inner mitochondrial membrane and carries hydrogen atoms and electrons from NADH+H⁺ and FADH2 to oxygen, forming water and ATP. It is built from four protein complexes, two mobile carriers — **ubiquinone (coenzyme Q)** and **cytochrome c** — and complex V, ATP synthase.
+
+**Complex I** is a flavoprotein on FMN and passes two hydrogens from NADH to CoQ. **Complex II** is succinate dehydrogenase on FAD and passes two hydrogens from FADH2 to CoQ, __bypassing complex I__. **Complex III**, a haemoprotein of cytochromes b and c1, passes two electrons from CoQH2 to cytochrome c. **Complex IV**, cytochromes a and a3 with two copper atoms, passes them to oxygen.
+
+Cytochromes carry electrons, not hydrogen atoms.
 
 ## explicit_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -956,7 +974,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Complexes I, III and IV pump the protons; the gradient they build is what drives ATP synthase
+Chemiosmosis: proton pumps and ATP synthase
 
 ## id
 CON-FND-0CA8047810DF78
@@ -982,7 +1000,11 @@ P:O ratio
 الفسفرة التأكسدية
 
 ## definition
-By the chemiosmotic theory, the energy released as electrons travel down the chain is used to pump protons out of the matrix into the intermembrane space, which becomes electropositive. Complexes I, III and IV are the pumps — complexes I and III move four protons each and complex IV moves two. Complex II pumps none. The inner membrane is impermeable to protons, so the gradient persists as the proton motive force, and protons can return only through the F0 channel of ATP synthase; four of them drive the synthesis of one ATP at the F1 subunit in the matrix. Oxidation of NADH yields 2.5 ATP per oxygen atom and of FADH2 1.5, because FADH2 bypasses complex I and so misses one pump.
+By the **chemiosmotic theory**, the energy released as electrons travel down the chain is used to pump protons out of the matrix into the intermembrane space, which becomes electropositive.
+
+**Complexes I, III and IV are the pumps** — I and III move four protons each and IV moves two; complex II pumps none. The inner membrane is impermeable to protons, so the gradient persists as the proton motive force, and protons return only through the F0 channel of **ATP synthase**; four of them drive the synthesis of one ATP at the F1 subunit.
+
+Oxidation of NADH yields **2.5 ATP** per oxygen atom and of FADH2 **1.5**, because FADH2 bypasses complex I and so misses one pump.
 
 ## explicit_objective
 State which complexes pump protons and which does not, and explain why the P:O ratio for FADH2 is lower than for NADH.
@@ -1139,7 +1161,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-An uncoupler lets oxidation continue while ATP synthesis stops, and the energy leaves as heat; ADP availability is what normally sets the rate
+Uncouplers and respiratory control
 
 ## id
 CON-FND-C3CB859E560A18
@@ -1165,7 +1187,11 @@ Non-shivering thermogenesis
 التوليد الحراري بدون ارتعاش
 
 ## definition
-Uncouplers dissociate oxidation in the respiratory chain from phosphorylation: they make the inner membrane permeable to protons and abolish the gradient, so oxidation continues but no ATP is made and the energy is released as heat. Thyroxine at high levels, intravenous calcium and aspirin overdose all uncouple, which is why each is felt as heat. Thermogenin, the uncoupling protein of brown adipose tissue, opens a proton channel that bypasses ATP synthase and is how non-shivering thermogenesis works. Coupling is otherwise tight: the gradient blocks further electron transport until protons return through ATP synthase, and that depends on ADP, so working muscle with plenty of ADP speeds the chain and resting muscle with little ADP slows it.
+**Uncouplers** dissociate oxidation in the respiratory chain from phosphorylation: they make the inner membrane permeable to protons and abolish the gradient, so __oxidation continues but no ATP is made and the energy is released as heat__. Thyroxine at high levels, intravenous calcium and aspirin overdose all uncouple, which is why each is felt as heat.
+
+**Thermogenin**, the uncoupling protein of brown adipose tissue, opens a proton channel that bypasses ATP synthase and is how non-shivering thermogenesis works.
+
+Coupling is otherwise tight: the gradient blocks further electron transport until protons return through ATP synthase, and that depends on **ADP** — so working muscle with plenty of ADP speeds the chain and resting muscle with little ADP slows it.
 
 ## explicit_objective
 Predict what happens to electron flow, to ATP synthesis and to heat production when an uncoupler is added, and name the cellular signal that normally accelerates the chain.
@@ -1322,7 +1348,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Substrate-level phosphorylation makes ATP directly at three reactions: two in glycolysis and one in the citric acid cycle
+Substrate-level phosphorylation: three reactions
 
 ## id
 CON-FND-5253967A0E3786
@@ -1346,7 +1372,9 @@ Direct ATP formation
 إنزيم ثيوكيناز السكسينات
 
 ## definition
-Substrate-level phosphorylation is the oxidation of a substrate to a product carrying a high-energy bond, whose energy then phosphorylates ADP or GDP directly to ATP or GTP without the respiratory chain. It happens at exactly three reactions in two pathways. In glycolysis, phosphoglycerate kinase takes the high-energy phosphate of 1,3-bisphosphoglycerate, and pyruvate kinase takes that of 2-phosphoenolpyruvate. In the citric acid cycle, succinate thiokinase cleaves the high-energy thioester bond of succinyl-CoA — the only reaction in the whole cycle that makes ATP at substrate level.
+**Substrate-level phosphorylation** is the oxidation of a substrate to a product carrying a high-energy bond, whose energy phosphorylates ADP or GDP directly to ATP or GTP __without the respiratory chain__.
+
+It happens at exactly three reactions in two pathways. In glycolysis, **phosphoglycerate kinase** takes the high-energy phosphate of 1,3-bisphosphoglycerate, and **pyruvate kinase** takes that of 2-phosphoenolpyruvate. In the citric acid cycle, **succinate thiokinase** cleaves the high-energy thioester bond of succinyl-CoA — the only reaction in the whole cycle that makes ATP at substrate level.
 
 ## explicit_objective
 Name the three substrate-level phosphorylation reactions and the pathway each belongs to, and distinguish them from ATP made by oxidative phosphorylation.
@@ -1502,7 +1530,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Every citric acid cycle enzyme is in the mitochondrial matrix except succinate dehydrogenase, which is complex II of the respiratory chain
+Site of the citric acid cycle
 
 ## id
 CON-FND-BCCBDEC637795A
@@ -1525,7 +1553,11 @@ FAD in the TCA cycle
 الإنزيمات المساعدة في الدورة
 
 ## definition
-The enzymes of the citric acid cycle are soluble enzymes of the mitochondrial matrix, with one exception: succinate dehydrogenase is tightly bound to the inner mitochondrial membrane, where it is complex II of the respiratory chain. That is also why it is the only cycle enzyme whose coenzyme is FAD; the three dehydrogenase steps in the matrix — isocitrate dehydrogenase, the α-ketoglutarate dehydrogenase complex and malate dehydrogenase — all use NAD⁺, so NAD⁺ is what accepts hydrogen from malate. Sitting the cycle beside the respiratory chain is what lets the reduced coenzymes be reoxidised at once.
+The enzymes of the citric acid cycle are soluble enzymes of the **mitochondrial matrix**, with one exception: __succinate dehydrogenase is tightly bound to the inner membrane, where it is complex II of the respiratory chain__.
+
+That is also why it is the only cycle enzyme whose coenzyme is **FAD**; the three matrix dehydrogenase steps — isocitrate dehydrogenase, the α-ketoglutarate dehydrogenase complex and malate dehydrogenase — all use **NAD⁺**.
+
+Sitting the cycle beside the respiratory chain is what lets the reduced coenzymes be reoxidised at once.
 
 ## explicit_objective
 Name the one membrane-bound enzyme of the cycle, say which respiratory complex it is, and match each dehydrogenase step of the cycle to its coenzyme.
@@ -1681,7 +1713,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The cycle is cyclic because oxaloacetate is regenerated at every turn, not because its reactions are reversible
+Why the citric acid cycle is a cycle
 
 ## id
 CON-FND-8F8B3EF0763399
@@ -1702,7 +1734,11 @@ Why the citric acid cycle is a cycle
 الطبيعة الدورية لدورة كريبس
 
 ## definition
-The cycle opens with citrate synthase condensing the two-carbon acetyl group of acetyl-CoA with four-carbon oxaloacetate to make six-carbon citrate, and it closes with malate dehydrogenase oxidising malate back to oxaloacetate. That last step is what makes the pathway a cycle: the oxaloacetate consumed at the start is remade at the end and is free to take up the next acetyl group. Citrate is not regenerated — it is consumed on the way round — and three of the cycle's steps are irreversible, so reversibility is not what makes it cyclic either.
+The cycle opens with **citrate synthase** condensing the two-carbon acetyl group of acetyl-CoA with four-carbon **oxaloacetate** to make six-carbon citrate, and it closes with **malate dehydrogenase** oxidising malate back to oxaloacetate.
+
+__That last step is what makes the pathway a cycle__: the oxaloacetate consumed at the start is remade at the end and is free to take up the next acetyl group.
+
+Citrate is not regenerated — it is consumed on the way round — and three of the cycle's steps are irreversible, so reversibility is not what makes it cyclic either.
 
 ## explicit_objective
 Explain what the cyclic character of the Krebs cycle actually means, and name the step and enzyme that restore the starting compound.
@@ -1858,7 +1894,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-One turn of the cycle releases two CO2 and yields ten ATP: three NADH, one FADH2 and one substrate-level ATP
+Yield of the citric acid cycle
 
 ## id
 CON-FND-9420F608039B74
@@ -1880,7 +1916,9 @@ Energy production of TCA cycle
 عشر جزيئات ATP لكل أستيل
 
 ## definition
-One turn of the citric acid cycle oxidises one acetyl group and yields two molecules of CO2, three of NADH, one of FADH2 and one ATP made at substrate level. The two CO2 come from the two decarboxylations — isocitrate dehydrogenase releases the first and the α-ketoglutarate dehydrogenase complex the second. Passed through the respiratory chain, three NADH give 7.5 ATP and one FADH2 gives 1.5, which with the substrate-level ATP makes ten ATP per acetyl-CoA.
+One turn of the citric acid cycle oxidises one acetyl group and yields __two CO2, three NADH, one FADH2 and one ATP made at substrate level__. The two CO2 come from the two decarboxylations — isocitrate dehydrogenase releases the first and the α-ketoglutarate dehydrogenase complex the second.
+
+Passed through the respiratory chain, three NADH give 7.5 ATP and one FADH2 gives 1.5, which with the substrate-level ATP makes **ten ATP per acetyl-CoA**.
 
 ## explicit_objective
 State the CO2, NADH, FADH2 and ATP yield of one turn of the cycle, and show how the ten-ATP total is assembled from them.
@@ -2036,7 +2074,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The cycle is amphibolic: its intermediates leave to build haem, amino acids, fatty acids and glucose
+The citric acid cycle is amphibolic
 
 ## id
 CON-FND-8ADE222FBB57B2
@@ -2059,7 +2097,9 @@ Anabolic function of the Krebs cycle
 سكسينيل مرافق الإنزيم أ وتخليق الهيم
 
 ## definition
-The citric acid cycle is called amphibolic because it serves catabolism and anabolism at once. Citrate leaves the mitochondrion and is split by ATP-citrate lyase to give acetyl-CoA for fatty acid and cholesterol synthesis. α-Ketoglutarate is transaminated to glutamate, which is the route from the cycle to the amino acids. Succinyl-CoA is used for haem synthesis and for ketone body oxidation. Malate can be decarboxylated to pyruvate by malic enzyme, one of the sources of NADPH. Oxaloacetate is transaminated to aspartate, and in the cytosol is converted by PEPCK to phosphoenolpyruvate, which is a step of gluconeogenesis.
+The citric acid cycle is called **amphibolic** because it serves catabolism and anabolism at once.
+
+**Citrate** leaves the mitochondrion and is split by ATP-citrate lyase to give acetyl-CoA for fatty acid and cholesterol synthesis. **α-Ketoglutarate** is transaminated to glutamate, the route from the cycle to the amino acids. **Succinyl-CoA** is used for haem synthesis and ketone body oxidation. **Malate** can be decarboxylated to pyruvate by malic enzyme, one of the sources of NADPH. **Oxaloacetate** is transaminated to aspartate, and in the cytosol is converted by PEPCK to phosphoenolpyruvate, a step of gluconeogenesis.
 
 ## explicit_objective
 Explain what amphibolic means, and match each cycle intermediate that leaves the cycle to the anabolic pathway it feeds.
@@ -2215,7 +2255,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Fluoroacetate poisons the cycle at aconitase and arsenic poisons it at α-ketoglutarate dehydrogenase
+Inhibitors of the citric acid cycle
 
 ## id
 CON-FND-F9CE11670992CE
@@ -2239,7 +2279,9 @@ Rodenticide poisoning
 التسمم بالزرنيخ
 
 ## definition
-Two poisons stop the cycle at named enzymes. Fluoroacetate, used as a rodenticide, is converted in the body to fluorocitrate, which inhibits aconitase, so citrate accumulates behind the block. Arsenic compounds inhibit α-ketoglutarate dehydrogenase by forming a stable complex with the thiol groups of lipoic acid, making the cofactor unavailable; the same mechanism inhibits pyruvate dehydrogenase and the branched-chain keto acid dehydrogenase, which is why arsenic poisoning is not confined to one pathway.
+Two poisons stop the cycle at named enzymes. **Fluoroacetate**, used as a rodenticide, is converted in the body to fluorocitrate, which inhibits **aconitase**, so citrate accumulates behind the block.
+
+**Arsenic** compounds inhibit **α-ketoglutarate dehydrogenase** by forming a stable complex with the thiol groups of lipoic acid, making the cofactor unavailable; __the same mechanism inhibits pyruvate dehydrogenase and the branched-chain keto acid dehydrogenase__, which is why arsenic poisoning is not confined to one pathway.
 
 ## explicit_objective
 Match fluoroacetate and arsenic to the cycle enzyme each inhibits, and give the mechanism by which arsenic does it.
@@ -2395,7 +2437,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Carbohydrate digestion ends in glucose, galactose and fructose, so a disaccharidase deficiency leaves the disaccharides in the stool
+Carbohydrate digestion and disaccharidase deficiency
 
 ## id
 CON-GIT-E43BAB1EBDEBE6
@@ -2418,7 +2460,9 @@ Dietary carbohydrates
 عدم تحمل اللاكتوز
 
 ## definition
-Dietary carbohydrate is monosaccharide, disaccharide and polysaccharide. Digestion begins in the mouth, continues in the stomach and finishes in the small intestine, and its end products are mainly glucose, galactose and fructose — only monosaccharides are absorbed. The final step is the brush-border disaccharidases, so when their activity is low the disaccharides themselves are never split: maltose, sucrose and lactose stay in the lumen and appear in the stool. Starch is still broken down to disaccharides by amylase, and the monosaccharides that were never released cannot appear in blood.
+Dietary carbohydrate is monosaccharide, disaccharide and polysaccharide. Digestion begins in the mouth, continues in the stomach and finishes in the small intestine, and its end products are mainly **glucose, galactose and fructose** — only monosaccharides are absorbed.
+
+The final step is the brush-border **disaccharidases**, so when their activity is low the disaccharides are never split: __maltose, sucrose and lactose stay in the lumen and appear in the stool__. Starch is still broken down to disaccharides by amylase, and the monosaccharides that were never released cannot appear in blood.
 
 ## explicit_objective
 Name the three monosaccharides that enter the blood after a mixed carbohydrate meal, and predict what appears in the stool when the brush-border disaccharidases are deficient.
@@ -2575,7 +2619,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-GLUT-4 is the only insulin-dependent glucose transporter, and SGLT-2 is what reabsorbs filtered glucose in the proximal tubule
+Glucose transporters: GLUT and SGLT carriers
 
 ## id
 CON-FND-E9C3C98FA0388C
@@ -2601,7 +2645,11 @@ Renal glucosuria
 الناقل المشترك للصوديوم والجلوكوز
 
 ## definition
-Glucose crosses cell membranes on two families of carrier. The facilitative transporters GLUT-1 to GLUT-5 need no energy; GLUT-2 in liver, kidney, pancreatic β-cells and the basal border of the enterocyte takes glucose up rapidly in proportion to blood level, and GLUT-4 in heart, skeletal muscle and adipose tissue is the only one that is insulin dependent — insulin moves it from an intracellular pool to the surface, and without insulin it is endocytosed and uptake falls whatever the blood glucose. The sodium-dependent cotransporters move glucose against a gradient: SGLT-1 in the small intestine at two sodium to one glucose, and SGLT-2 in the proximal renal tubule at one to one, where it reabsorbs about 90% of filtered glucose. A defect in SGLT-2 therefore spills glucose into urine at a normal blood glucose.
+Glucose crosses cell membranes on two families of carrier.
+
+The facilitative transporters **GLUT-1 to GLUT-5** need no energy; **GLUT-2** in liver, kidney, β-cells and the enterocyte's basal border takes glucose up rapidly in proportion to blood level, and **GLUT-4** in heart, skeletal muscle and adipose tissue is __the only one that is insulin dependent__ — insulin moves it to the surface, and without insulin it is endocytosed and uptake falls whatever the blood glucose.
+
+The sodium-dependent cotransporters move glucose against a gradient: **SGLT-1** in the small intestine at two sodium to one glucose, and **SGLT-2** in the proximal renal tubule at one to one, where it reabsorbs about 90% of filtered glucose. A defect in SGLT-2 therefore spills glucose into urine at a normal blood glucose.
 
 ## explicit_objective
 Name the insulin-dependent glucose transporter and its tissues, and explain how glucosuria can occur in a person who is not diabetic.
@@ -2757,7 +2805,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Hexokinase has a low Km and works everywhere; glucokinase has a high Km, sits in liver and β-cells, and is induced by insulin
+Hexokinase versus glucokinase
 
 ## id
 CON-FND-EA1BA37ACB643B
@@ -2781,7 +2829,11 @@ Regulation of glycolysis
 التثبيط بالناتج
 
 ## definition
-The first step of glycolysis phosphorylates glucose to glucose 6-phosphate, and two enzymes can do it. Hexokinase is in all tissue cells, has a low Km and therefore a high affinity for glucose with a low Vmax, and is allosterically inhibited by its own product, glucose 6-phosphate; that combination guarantees every tissue a supply even when blood glucose is low. Glucokinase, or hexokinase D, is restricted to liver and pancreatic β-cells, has a high Km and therefore a low affinity with a high Vmax, and is not inhibited by glucose 6-phosphate; it lets the liver take up excess glucose after a meal and lets the β-cell sense a high glucose and secrete insulin. Insulin induces glucokinase and glucagon represses it; neither hormone affects hexokinase.
+The first step of glycolysis phosphorylates glucose to glucose 6-phosphate, and two enzymes can do it.
+
+**Hexokinase** is in all tissue cells, has a low Km (high affinity, low Vmax), and is allosterically inhibited by its own product, glucose 6-phosphate; that combination guarantees every tissue a supply even when blood glucose is low.
+
+**Glucokinase**, or hexokinase D, is restricted to liver and pancreatic β-cells, has a high Km (low affinity, high Vmax), and is not inhibited by glucose 6-phosphate; it lets the liver take up excess glucose after a meal and lets the β-cell sense a high glucose and secrete insulin. __Insulin induces glucokinase and glucagon represses it; neither hormone affects hexokinase.__
 
 ## explicit_objective
 Contrast hexokinase and glucokinase by site, Km, Vmax, product inhibition and hormonal control, and predict which is active at a given blood glucose.
@@ -2937,7 +2989,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glycolysis has three irreversible steps, and the committed one is PFK-1 making fructose 1,6-bisphosphate
+Glycolysis: irreversible steps and the committed one
 
 ## id
 CON-FND-853096A349FFBD
@@ -2962,7 +3014,11 @@ Energy utilization phase
 الخطوات غير العكوسة في تحلل السكر
 
 ## definition
-Glycolysis runs in the cytosol of every cell and has two phases. In the energy-utilising phase, hexokinase or glucokinase spends one ATP to make glucose 6-phosphate, phosphohexose isomerase converts it to fructose 6-phosphate, phosphofructokinase-1 spends a second ATP to make fructose 1,6-bisphosphate, and aldolase A cleaves that into glyceraldehyde 3-phosphate and dihydroxyacetone phosphate. In the energy-producing phase each triose is oxidised and dephosphorylated to pyruvate. Three steps are irreversible and are the regulated ones: glucokinase or hexokinase, PFK-1 and pyruvate kinase. PFK-1 is the committed step and the most important control site, because it is the first irreversible reaction unique to glycolysis; it is inhibited by ATP, citrate and low pH and activated by AMP.
+Glycolysis runs in the cytosol of every cell and has two phases.
+
+In the **energy-utilising phase**, hexokinase or glucokinase spends one ATP to make glucose 6-phosphate, phosphohexose isomerase converts it to fructose 6-phosphate, phosphofructokinase-1 spends a second ATP to make fructose 1,6-bisphosphate, and aldolase A cleaves that into glyceraldehyde 3-phosphate and dihydroxyacetone phosphate. In the **energy-producing phase** each triose is oxidised and dephosphorylated to pyruvate.
+
+Three steps are irreversible and regulated: glucokinase or hexokinase, PFK-1 and pyruvate kinase. __PFK-1 is the committed step and the most important control site__, because it is the first irreversible reaction unique to glycolysis; it is inhibited by ATP, citrate and low pH and activated by AMP.
 
 ## explicit_objective
 Name the committed step of glycolysis with its enzyme and product, list the three irreversible reactions, and give the substrate of aldolase.
@@ -3118,7 +3174,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glucose yields 32 ATP aerobically and 2 anaerobically, and four of the aerobic ATP are made at substrate level in glycolysis
+Energy yield of glucose: aerobic and anaerobic
 
 ## id
 CON-FND-0F4A45886203EF
@@ -3145,7 +3201,13 @@ Yield from muscle glycogen
 اثنان وثلاثون جزيء ATP
 
 ## definition
-Glycolysis spends two ATP in phase I and makes four by substrate-level phosphorylation in phase II, at phosphoglycerate kinase and pyruvate kinase, so the substrate-level total is four and the net is two. Aerobically the two NADH from glyceraldehyde 3-phosphate dehydrogenase are oxidised by the chain for five more ATP, making a net seven for glycolysis alone; complete oxidation of one glucose to six CO2 yields 32 ATP. Anaerobically the NADH is spent making lactate instead, and the net is two ATP only. Because half a glucose's work is done per triose, converting one glyceraldehyde 3-phosphate to one pyruvate yields two ATP and one NADH; converting one fructose 1,6-bisphosphate to two pyruvates yields four ATP and two NADH. Glucose taken from glycogen enters as glucose 1-phosphate and costs no ATP to phosphorylate, so a glucosyl unit of muscle glycogen yields 33. Two accounting conventions exist for the same oxidation: the modern one uses the measured P/O ratios of 2.5 ATP per NADH and 1.5 per FADH2 and totals 30 to 32 (the department book's table gives 32); the classical one uses 3 and 2 and totals 36 to 38. Kasr Al Ainy papers key 32; Alexandria's question bank keys 38 — the chemistry is identical, only the ratio assumed per reduced coenzyme differs, so a student should state which convention a question is using.
+Glycolysis spends two ATP in phase I and makes four by substrate-level phosphorylation in phase II, at phosphoglycerate kinase and pyruvate kinase, so the __net is two__.
+
+Aerobically the two NADH from glyceraldehyde 3-phosphate dehydrogenase are oxidised by the chain for five more ATP, a net seven for glycolysis alone; complete oxidation of one glucose to six CO2 yields **32 ATP**. Anaerobically the NADH is spent making lactate instead, and the net is **two ATP only**.
+
+Because half a glucose's work is done per triose, converting one glyceraldehyde 3-phosphate to pyruvate yields two ATP and one NADH; converting one fructose 1,6-bisphosphate to two pyruvates yields four ATP and two NADH. Glucose taken from glycogen enters as glucose 1-phosphate and costs no ATP, so a glucosyl unit of muscle glycogen yields 33.
+
+Two accounting conventions exist: the modern one uses the P/O ratios of 2.5 ATP per NADH and 1.5 per FADH2 and totals 30 to 32 (the book's table gives 32); the classical one uses 3 and 2 and totals 36 to 38. __Kasr Al Ainy papers key 32; Alexandria's question bank keys 38__ — the chemistry is identical, only the ratio assumed per reduced coenzyme differs, so a student should state which convention a question is using.
 
 ## explicit_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, adjust the figure for glucose entering from glycogen, and explain why the classical 38 and the modern 32 describe the same oxidation.
@@ -3302,7 +3364,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Fluoride stops glycolysis at enolase and arsenic stops it at glyceraldehyde 3-phosphate dehydrogenase
+Inhibitors of glycolysis: fluoride and arsenic
 
 ## id
 CON-FND-0D6BFD870813B7
@@ -3327,7 +3389,9 @@ Blood glucose sample
 تثبيط إنزيم الإينوليز
 
 ## definition
-Two glycolytic enzymes have named inhibitors. Glyceraldehyde 3-phosphate dehydrogenase is inhibited by arsenic and by iodoacetate, both of which block the SH group in its active site. Enolase is irreversibly inhibited by fluoride, which binds the magnesium in its active site; that is why sodium fluoride is added to a blood tube before glucose estimation — it stops the red cells consuming the glucose in the sample, so the result is the glucose the patient had rather than what is left after the tube has been sitting.
+Two glycolytic enzymes have named inhibitors. **Glyceraldehyde 3-phosphate dehydrogenase** is inhibited by arsenic and by iodoacetate, both of which block the SH group in its active site.
+
+**Enolase** is irreversibly inhibited by **fluoride**, which binds the magnesium in its active site; __that is why sodium fluoride is added to a blood tube before glucose estimation__ — it stops the red cells consuming the glucose in the sample, so the result is the glucose the patient had rather than what is left after the tube has been sitting.
 
 ## explicit_objective
 Match fluoride and arsenic to the glycolytic enzyme each inhibits, and explain why a glucose sample is collected into a fluoride tube.
@@ -3483,7 +3547,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-A red cell without pyruvate kinase makes no net ATP from glucose, and the result is haemolytic anaemia
+Pyruvate kinase deficiency and haemolytic anaemia
 
 ## id
 CON-HEM-585B833F845F62
@@ -3505,7 +3569,9 @@ Non-spherocytic haemolytic anaemia
 اعتماد كرات الدم الحمراء على تحلل السكر
 
 ## definition
-The red cell has no mitochondria, so glycolysis is its only source of ATP, and both of glycolysis's substrate-level ATP steps must work for there to be any net gain. Pyruvate kinase makes two of the four ATP; without it the two ATP spent by hexokinase and PFK-1 are never repaid, so the net yield falls from two to zero. The cell cannot run its membrane pumps, and it lyses — a haemolytic anaemia. Because pyruvate is not formed, lactate is not formed either, and the ADP-to-ATP ratio rises above normal.
+The **red cell** has no mitochondria, so glycolysis is its only source of ATP, and both substrate-level ATP steps must work for there to be any net gain.
+
+**Pyruvate kinase** makes two of the four ATP; without it the two ATP spent by hexokinase and PFK-1 are never repaid, so __the net yield falls from two to zero__. The cell cannot run its membrane pumps and it lyses — a **haemolytic anaemia**. Because pyruvate is not formed, lactate is not formed either, and the ADP-to-ATP ratio rises above normal.
 
 ## explicit_objective
 Explain why pyruvate kinase deficiency causes haemolysis, and state the net ATP yield and the products that fail to appear in a red cell that lacks the enzyme.
@@ -3662,7 +3728,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Anaerobic glycolysis makes lactate not for the lactate but to regenerate the NAD+ that glyceraldehyde 3-phosphate dehydrogenase needs
+Anaerobic glycolysis regenerates NAD⁺
 
 ## id
 CON-FND-403D06D1FB129F
@@ -3685,7 +3751,9 @@ Lactate formation in muscle
 تكوين اللاكتات في العضلات
 
 ## definition
-Glyceraldehyde 3-phosphate dehydrogenase needs NAD⁺ and there is very little of it in a cell, so glycolysis can only continue while NADH is being reoxidised. Aerobically the respiratory chain does that. Without oxygen the chain stops, and lactate dehydrogenase reduces pyruvate to lactate using the NADH the dehydrogenase step produced, which returns NAD⁺ to the pathway. The lactate is a by-product; the NAD⁺ is the point. This happens in red cells, which have no mitochondria at all, and in muscle during severe prolonged exercise, where oxygen is relatively deficient.
+**Glyceraldehyde 3-phosphate dehydrogenase** needs NAD⁺ and there is very little of it in a cell, so glycolysis can only continue while NADH is being reoxidised. Aerobically the respiratory chain does that.
+
+Without oxygen the chain stops, and **lactate dehydrogenase** reduces pyruvate to lactate using the NADH the dehydrogenase step produced, which returns NAD⁺ to the pathway. __The lactate is a by-product; the NAD⁺ is the point.__ This happens in red cells, which have no mitochondria, and in muscle during severe prolonged exercise.
 
 ## explicit_objective
 Explain why pyruvate is reduced to lactate when oxygen is absent, naming the enzyme and the cofactor that has to be regenerated.
@@ -3841,7 +3909,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Pyruvate dehydrogenase is irreversible and needs five coenzymes, of which thiamine pyrophosphate is the one that fails first
+Pyruvate dehydrogenase and its five coenzymes
 
 ## id
 CON-FND-229C78C9EB0E78
@@ -3867,7 +3935,9 @@ Active acetate
 الحماض اللبني الخلقي
 
 ## definition
-Pyruvate formed by aerobic glycolysis is carried into the mitochondrion and undergoes oxidative decarboxylation to acetyl-CoA by the pyruvate dehydrogenase complex. The reaction is irreversible — no enzyme reverses it — and it needs five coenzymes: thiamine pyrophosphate, lipoate, coenzyme A, FAD and NAD⁺. It is inhibited by its own products, acetyl-CoA and NADH, and by ATP, and activated by pyruvate, NAD⁺, CoA, ADP, calcium released during exercise, and insulin. When it fails, pyruvate accumulates and is converted to lactate: congenital deficiency of the complex is the commonest cause of congenital lactic acidosis and damages the brain, thiamine deficiency produces the same lactic acidosis, and arsenic poisoning blocks it by tying up the thiol groups of lipoate.
+Pyruvate formed by aerobic glycolysis is carried into the mitochondrion and undergoes oxidative decarboxylation to acetyl-CoA by the **pyruvate dehydrogenase complex**. The reaction is __irreversible__ and needs five coenzymes: **thiamine pyrophosphate, lipoate, coenzyme A, FAD and NAD⁺**. It is inhibited by its own products acetyl-CoA and NADH and by ATP, and activated by pyruvate, NAD⁺, CoA, ADP, calcium released during exercise, and insulin.
+
+When it fails, pyruvate accumulates and is converted to lactate: congenital deficiency of the complex is the commonest cause of **congenital lactic acidosis** and damages the brain, thiamine deficiency produces the same lactic acidosis, and arsenic poisoning blocks it by tying up the thiol groups of lipoate.
 
 ## explicit_objective
 Name the enzyme that converts pyruvate to acetyl-CoA, list its coenzymes, and predict what accumulates in blood when it is inhibited by deficiency, by thiamine lack or by arsenic.
@@ -4023,7 +4093,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Pyruvate carboxylase carboxylates pyruvate to oxaloacetate, needs biotin, and is switched on by acetyl-CoA
+Pyruvate carboxylase makes oxaloacetate
 
 ## id
 CON-FND-CA0F9E019BC5BA
@@ -4046,7 +4116,9 @@ Oxaloacetate formation
 البيوتين كعامل مساعد
 
 ## definition
-Pyruvate carboxylase is a mitochondrial enzyme that adds CO2 to pyruvate to make oxaloacetate, using ATP and requiring biotin and magnesium. The reaction is irreversible and is a carboxylation, not an oxidation or a decarboxylation. Acetyl-CoA is its allosteric activator, which is how a cell with plenty of acetyl-CoA guarantees itself the oxaloacetate that citrate synthase needs; anti-insulin hormones induce the enzyme and insulin represses it. The same reaction is the first of the two steps that carry pyruvate to phosphoenolpyruvate in gluconeogenesis.
+**Pyruvate carboxylase** is a mitochondrial enzyme that adds CO2 to pyruvate to make **oxaloacetate**, using ATP and requiring **biotin** and magnesium. The reaction is irreversible and is a carboxylation, not an oxidation or a decarboxylation.
+
+**Acetyl-CoA** is its allosteric activator, which is how a cell with plenty of acetyl-CoA guarantees itself the oxaloacetate that citrate synthase needs; anti-insulin hormones induce the enzyme and insulin represses it. __The same reaction is the first of the two steps that carry pyruvate to phosphoenolpyruvate in gluconeogenesis.__
 
 ## explicit_objective
 Classify the pyruvate-to-oxaloacetate reaction, name its enzyme, cofactor and allosteric activator, and say where it sits in gluconeogenesis.
@@ -4202,7 +4274,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glycogen synthesis runs on UDP-glucose, and making it costs a UTP
+Glycogenesis runs on UDP-glucose
 
 ## id
 CON-FND-1FC7D932D7EFDC
@@ -4226,7 +4298,9 @@ Activation of glucose
 إنزيم تخليق الجليكوجين
 
 ## definition
-Glycogenesis is the synthesis of glycogen from glucose, in the cytosol of liver and muscle, and it begins by activating the sugar. Glucose is phosphorylated to glucose 6-phosphate, phosphoglucomutase converts that to glucose 1-phosphate, and UDP-glucose pyrophosphorylase then condenses glucose 1-phosphate with UTP to give UDP-glucose, the immediate precursor for glycogen synthesis. Glycogen synthase, the key enzyme, transfers glucosyl units from UDP-glucose onto a glycogen primer in α1,4 linkage, and the branching enzyme moves segments of six to eight residues to form the α1,6 branch points.
+**Glycogenesis** is the synthesis of glycogen from glucose, in the cytosol of liver and muscle, and it begins by activating the sugar.
+
+Glucose is phosphorylated to glucose 6-phosphate, phosphoglucomutase converts that to glucose 1-phosphate, and **UDP-glucose pyrophosphorylase** condenses glucose 1-phosphate with **UTP** to give **UDP-glucose**, the immediate precursor. **Glycogen synthase**, the key enzyme, transfers glucosyl units from UDP-glucose onto a glycogen primer in α1,4 linkage, and the __branching enzyme moves segments of six to eight residues to form the α1,6 branch points__.
 
 ## explicit_objective
 Name the nucleotide required to activate glucose for glycogen synthesis and the enzyme that uses the activated form, and put the steps of glycogenesis in order.
@@ -4382,7 +4456,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glycogen breakdown yields mostly glucose-1-phosphate, and only the liver can turn it into blood glucose
+Glycogenolysis: product and its tissue fate
 
 ## id
 CON-FND-3905E3B98C2EC4
@@ -4407,7 +4481,11 @@ Glucose 6-phosphatase in liver
 غياب الفوسفاتيز في العضلات
 
 ## definition
-Glycogen phosphorylase cleaves α1,4 linkages phosphorolytically and releases glucose 1-phosphate, stopping about four residues from each branch point. The debranching enzyme then transfers three of those residues with its glucosyl transferase activity and hydrolyses the last one with its glucosidase activity, releasing a single free glucose. Because only the residue at each branch point comes off as free glucose, the major product is glucose 1-phosphate. Phosphoglucomutase converts it to glucose 6-phosphate, and there the two tissues part company: liver has glucose 6-phosphatase and releases free glucose to the blood, while muscle has none, so its glucose 6-phosphate can only enter glycolysis and feed the contracting muscle. That is why liver glycogen maintains blood glucose and muscle glycogen does not.
+**Glycogen phosphorylase** cleaves α1,4 linkages phosphorolytically and releases glucose 1-phosphate, stopping about four residues from each branch point. The **debranching enzyme** then transfers three residues with its glucosyl transferase activity and hydrolyses the last with its glucosidase activity, releasing a single free glucose.
+
+Because only the residue at each branch point comes off as free glucose, __the major product is glucose 1-phosphate__. Phosphoglucomutase converts it to glucose 6-phosphate.
+
+There the two tissues part company: **liver** has glucose 6-phosphatase and releases free glucose to the blood, while **muscle** has none, so its glucose 6-phosphate can only enter glycolysis and feed the contracting muscle. That is why liver glycogen maintains blood glucose and muscle glycogen does not.
 
 ## explicit_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -4563,7 +4641,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glycogen synthesis and breakdown are reciprocally switched by one cAMP cascade, with calcium and AMP as the muscle's own overrides
+Reciprocal control of glycogen metabolism
 
 ## id
 CON-FND-CA74978B7B7ED1
@@ -4589,7 +4667,11 @@ AMP and phosphorylase b
 التنظيم المتبادل
 
 ## definition
-Glucagon in liver and epinephrine in liver and muscle raise cAMP, which activates protein kinase A. Protein kinase A phosphorylates two targets in opposite directions: it phosphorylates glycogen synthase, which inactivates it, and it phosphorylates phosphorylase kinase, which activates it and which in turn phosphorylates glycogen phosphorylase, activating that. So one signal stops synthesis and starts breakdown at once. Insulin reverses the whole cascade by activating phosphodiesterase, which lowers cAMP, and protein phosphatase-1, which dephosphorylates both enzymes — activating the synthase and inactivating the phosphorylase. On top of that sit allosteric controls: glucose 6-phosphate activates glycogen synthase and inhibits phosphorylase, ATP inhibits phosphorylase, AMP activates it, and in contracting muscle a rise in calcium activates phosphorylase kinase without any phosphorylation at all.
+Glucagon in liver and epinephrine in liver and muscle raise **cAMP**, which activates **protein kinase A**.
+
+Protein kinase A phosphorylates two targets in opposite directions: it phosphorylates **glycogen synthase**, inactivating it, and **phosphorylase kinase**, activating it, which in turn activates glycogen phosphorylase. __One signal stops synthesis and starts breakdown at once.__ Insulin reverses the whole cascade by activating phosphodiesterase, which lowers cAMP, and protein phosphatase-1, which dephosphorylates both enzymes.
+
+On top of that sit allosteric controls: glucose 6-phosphate activates the synthase and inhibits phosphorylase, ATP inhibits phosphorylase, AMP activates it, and in contracting muscle a rise in **calcium** activates phosphorylase kinase without any phosphorylation at all.
 
 ## explicit_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -4746,7 +4828,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Von Gierke's disease is glucose 6-phosphatase deficiency, and every feature follows from glucose 6-phosphate that cannot be dephosphorylated
+Von Gierke's disease: glucose 6-phosphatase deficiency
 
 ## id
 CON-FND-1BE461A57AB76D
@@ -4770,7 +4852,11 @@ Fasting hypoglycaemia in infancy
 أمراض تخزين الجليكوجين
 
 ## definition
-Von Gierke's disease is type I glycogen storage disease and is caused by a defect in hepatic glucose 6-phosphatase. Both glycogenolysis and gluconeogenesis end in glucose 6-phosphate, so when it cannot be dephosphorylated no net glucose is formed and the child has fasting hypoglycaemia with an enlarged liver. The accumulated glucose 6-phosphate goes down glycolysis to lactate, giving lactic acidosis, and down the pentose phosphate pathway to excess purine synthesis and so to hyperuricaemia — which the lactate worsens by competing with urate for renal excretion. Severe hypoglycaemia drives epinephrine, epinephrine drives lipolysis, and the free fatty acids reaching the liver become triacylglycerol, so there is hyperlipidaemia and a fatty liver.
+**Von Gierke's disease** is type I glycogen storage disease, caused by a defect in hepatic **glucose 6-phosphatase**.
+
+Both glycogenolysis and gluconeogenesis end in glucose 6-phosphate, so when it cannot be dephosphorylated __no net glucose is formed and the child has fasting hypoglycaemia with an enlarged liver__. The accumulated glucose 6-phosphate goes down glycolysis to lactate, giving lactic acidosis, and down the pentose phosphate pathway to excess purine synthesis and so to hyperuricaemia — which the lactate worsens by competing with urate for renal excretion.
+
+Severe hypoglycaemia drives epinephrine, epinephrine drives lipolysis, and the free fatty acids reaching the liver become triacylglycerol, so there is hyperlipidaemia and a fatty liver.
 
 ## explicit_objective
 Name the enzyme defective in von Gierke's disease and derive its four metabolic features — hypoglycaemia, lactic acidosis, hyperuricaemia and hyperlipidaemia — from the one block.
@@ -4926,7 +5012,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Gluconeogenesis is the reversal of glycolysis except at three irreversible steps, which four key enzymes bypass
+Gluconeogenesis: the four bypass enzymes
 
 ## id
 CON-FND-C2C88203E4A918
@@ -4951,7 +5037,9 @@ Dicarboxylic acid shuttle
 مكوك الأحماض ثنائية الكربوكسيل
 
 ## definition
-Gluconeogenesis is the synthesis of glucose from non-carbohydrate precursors, mainly in liver and to a lesser extent in kidney, which are the only tissues with glucose 6-phosphatase and fructose 1,6-bisphosphatase. It is the reversal of glycolysis except at glycolysis's three irreversible kinase steps, and four key enzymes bypass them: glucose 6-phosphatase reverses glucokinase, fructose 1,6-bisphosphatase reverses PFK-1, and pyruvate carboxylase and phosphoenolpyruvate carboxykinase together reverse pyruvate kinase. That last bypass therefore takes two irreversible reactions, not one, and it straddles two compartments — pyruvate carboxylase is mitochondrial and PEPCK cytosolic, so oxaloacetate leaves the mitochondrion as malate in the dicarboxylic acid shuttle. All four key enzymes are cytosolic except pyruvate carboxylase.
+**Gluconeogenesis** is the synthesis of glucose from non-carbohydrate precursors, mainly in liver and to a lesser extent kidney — the only tissues with glucose 6-phosphatase and fructose 1,6-bisphosphatase. It is the reversal of glycolysis except at glycolysis's three irreversible kinase steps.
+
+__Four key enzymes bypass them__: glucose 6-phosphatase reverses glucokinase, fructose 1,6-bisphosphatase reverses PFK-1, and **pyruvate carboxylase** and **PEPCK** together reverse pyruvate kinase. That last bypass therefore takes two reactions, not one, and straddles two compartments — pyruvate carboxylase is mitochondrial and PEPCK cytosolic, so oxaloacetate leaves the mitochondrion as malate in the dicarboxylic acid shuttle. All four key enzymes are cytosolic except pyruvate carboxylase.
 
 ## explicit_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -5107,7 +5195,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Lactate, glucogenic amino acids, glycerol and odd-chain fatty acids give glucose; acetyl-CoA never can
+Gluconeogenic substrates, and why acetyl-CoA cannot
 
 ## id
 CON-FND-089E2C3E01031C
@@ -5132,7 +5220,9 @@ Odd chain fatty acids
 لماذا لا تتحول الدهون إلى جلوكوز
 
 ## definition
-A gluconeogenic substrate is anything that gives, directly or indirectly, pyruvate, oxaloacetate or an intermediate of glycolysis or the citric acid cycle. The book names four: lactate, from red cells continuously and from muscle in severe exercise; glucogenic amino acids, which is all of them except leucine and lysine; glycerol, released by lipolysis and entering at dihydroxyacetone phosphate after glycerol kinase and glycerol 3-phosphate dehydrogenase; and, rarely, the propionyl-CoA from odd-chain fatty acids. Acetyl-CoA can never give glucose, because the pyruvate dehydrogenase reaction that made it is irreversible — which is why even-chain fatty acids and ketone bodies such as acetoacetate are not gluconeogenic. Lactate enters at pyruvate and glycerol at dihydroxyacetone phosphate, so the first intermediate they share is glucose 6-phosphate.
+A **gluconeogenic substrate** gives, directly or indirectly, pyruvate, oxaloacetate or an intermediate of glycolysis or the citric acid cycle. The book names four: **lactate**, from red cells continuously and from muscle in severe exercise; **glucogenic amino acids**, which is all of them except leucine and lysine; **glycerol**, released by lipolysis and entering at dihydroxyacetone phosphate; and, rarely, the **propionyl-CoA** from odd-chain fatty acids.
+
+__Acetyl-CoA can never give glucose__, because the pyruvate dehydrogenase reaction that made it is irreversible — which is why even-chain fatty acids and ketone bodies are not gluconeogenic. Lactate enters at pyruvate and glycerol at dihydroxyacetone phosphate, so the first intermediate they share is glucose 6-phosphate.
 
 ## explicit_objective
 List the gluconeogenic substrates, name the two amino acids that are purely ketogenic, and explain why acetyl-CoA cannot become glucose.
@@ -5288,7 +5378,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The Cori cycle carries lactate from muscle and red cells to the liver, which makes glucose from it and sends it back
+The Cori cycle
 
 ## id
 CON-FND-596FDA58EEEF0A
@@ -5310,7 +5400,9 @@ Removal of lactic acid
 التخلص من حمض اللاكتيك
 
 ## definition
-Lactate is produced by glycolysis in red cells continuously and in skeletal muscle during severe exercise. It diffuses into the blood and is taken up by the liver, where lactate dehydrogenase turns it back into pyruvate and gluconeogenesis turns the pyruvate into glucose; the glucose returns in the blood to the muscle and the red cell to be used again. The cycle runs muscle to liver, not liver to muscle, and it depends on the liver having glucose 6-phosphatase — muscle cannot do the return leg because it cannot release free glucose. Its importance is twofold: it maintains blood glucose, and it prevents lactic acidosis.
+**Lactate** is produced by glycolysis in red cells continuously and in skeletal muscle during severe exercise. It diffuses into the blood and is taken up by the **liver**, where lactate dehydrogenase turns it back into pyruvate and gluconeogenesis turns the pyruvate into glucose; the glucose returns in the blood to the muscle and the red cell.
+
+The cycle runs __muscle to liver, not liver to muscle__, and it depends on the liver having glucose 6-phosphatase — muscle cannot do the return leg because it cannot release free glucose. Its importance is twofold: it maintains blood glucose, and it prevents lactic acidosis.
 
 ## explicit_objective
 State the direction of lactate and of glucose in the Cori cycle, name the two tissues it links, and give its two purposes.
@@ -5467,7 +5559,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-The glucose–alanine cycle carries muscle nitrogen to the liver as alanine and brings the carbon back as glucose
+The glucose–alanine cycle
 
 ## id
 CON-FND-E7214B4A8D8835
@@ -5490,7 +5582,9 @@ Protein as a source of blood glucose
 الألانين كناقل للنيتروجين
 
 ## definition
-When muscle degrades amino acids for energy, it must move the nitrogen somewhere safe. It transaminates the resulting amino group onto pyruvate to form alanine, and the alanine travels in the blood to the liver. There transdeamination strips the nitrogen off again for the urea cycle and returns the carbon skeleton as pyruvate, which gluconeogenesis converts to glucose; the glucose goes back to the muscle. Protein becomes the main source of blood glucose in prolonged fasting, and it does so through this cycle.
+When muscle degrades amino acids for energy, it must move the nitrogen somewhere safe. It transaminates the resulting amino group onto pyruvate to form **alanine**, and the alanine travels in the blood to the liver.
+
+There transdeamination strips the nitrogen off again for the urea cycle and returns the carbon skeleton as pyruvate, which gluconeogenesis converts to glucose; the glucose goes back to the muscle. __Protein becomes the main source of blood glucose in prolonged fasting__, and it does so through this cycle.
 
 ## explicit_objective
 Name the amino acid that carries nitrogen from muscle to liver during starvation, and describe what happens to its nitrogen and to its carbon skeleton on arrival.
@@ -5646,7 +5740,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glycolysis and gluconeogenesis are reciprocally regulated, and it is fatty acid oxidation that tips the liver towards making glucose
+Reciprocal regulation of glycolysis and gluconeogenesis
 
 ## id
 CON-FND-7B3B4F0BEBF198
@@ -5669,7 +5763,11 @@ Fasting metabolism
 أيض الصيام
 
 ## definition
-The two pathways are switched in opposite directions by the same signals, so that the liver never runs both at once. Fasting, starvation, a low-carbohydrate diet, stress and severe exercise all raise anti-insulin hormones, which drive lipolysis; the free fatty acids that arrive in the liver are oxidised, and that oxidation is what does the switching. It raises ATP, which allosterically inhibits PFK-1, pyruvate kinase and pyruvate dehydrogenase, and it raises acetyl-CoA, which allosterically stimulates pyruvate carboxylase and inhibits pyruvate dehydrogenase — so pyruvate is pushed towards oxaloacetate and glucose rather than towards acetyl-CoA. Hormonally, insulin raises the glycolytic key enzymes and lowers the gluconeogenic ones, and glucagon is the main inducer of the gluconeogenic key enzymes; cortisol adds amino acids by protein catabolism and growth hormone induces the liver aminotransferases. In starvation, oxaloacetate is drawn off into glucose, which is why it is no longer available to condense with acetyl-CoA.
+The two pathways are switched in opposite directions by the same signals, so __the liver never runs both at once__.
+
+Fasting, starvation, a low-carbohydrate diet, stress and severe exercise all raise anti-insulin hormones, which drive lipolysis; the free fatty acids that arrive in the liver are oxidised, and **that oxidation is what does the switching**. It raises ATP, which inhibits PFK-1, pyruvate kinase and pyruvate dehydrogenase, and it raises acetyl-CoA, which stimulates pyruvate carboxylase and inhibits pyruvate dehydrogenase — so pyruvate is pushed towards oxaloacetate and glucose.
+
+Hormonally, insulin raises the glycolytic key enzymes and lowers the gluconeogenic ones, and glucagon is the main inducer of the gluconeogenic key enzymes; cortisol adds amino acids by protein catabolism and growth hormone induces the liver aminotransferases. In starvation, oxaloacetate is drawn off into glucose, so it is no longer available to condense with acetyl-CoA.
 
 ## explicit_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -5826,7 +5924,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Red cells depend on glucose absolutely, and the brain very nearly so, which is what gluconeogenesis exists to protect
+The tissues that depend on glucose
 
 ## id
 CON-FND-F6450B9D5AB855
@@ -5849,7 +5947,11 @@ Basal glucose requirement
 اعتماد المخ على الجلوكوز
 
 ## definition
-Some tissues cannot do without glucose. The red cell has no mitochondria, so glucose is its only source of ATP in every condition, fed or fasting, and during fasting the glucose can only come from gluconeogenesis. The brain uses glucose as its main fuel and cannot use fatty acids at all, because they travel bound to albumin and cannot cross the blood–brain barrier; it takes five to six days of starvation before it adapts to ketone bodies. Even tissues that burn fat need a basal supply of glucose, because pyruvate is where their oxaloacetate comes from, and without oxaloacetate the citric acid cycle cannot turn — so fatty acid and ketone body oxidation cannot proceed without a minimum of glucose.
+Some tissues cannot do without glucose. The **red cell** has no mitochondria, so glucose is its only source of ATP in every condition, and during fasting that glucose can only come from gluconeogenesis.
+
+The **brain** uses glucose as its main fuel and cannot use fatty acids at all, because they travel bound to albumin and cannot cross the blood–brain barrier; __it takes five to six days of starvation before it adapts to ketone bodies__.
+
+Even fat-burning tissues need a basal supply of glucose, because pyruvate is where their oxaloacetate comes from, and without oxaloacetate the citric acid cycle cannot turn — so fatty acid and ketone body oxidation cannot proceed without a minimum of glucose.
 
 ## explicit_objective
 Name the tissue that depends on glucose in all conditions and the tissue that depends on gluconeogenesis during fasting, and explain why fat oxidation still needs some glucose.
@@ -6006,7 +6108,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Glucose 6-phosphate is the crossroads: every tissue makes it, and five pathways lead away from it
+Glucose 6-phosphate: the metabolic crossroads
 
 ## id
 CON-FND-051CF62C7920A3
@@ -6029,7 +6131,9 @@ Phosphohexose isomerase
 ملتقى المسارات الأيضية
 
 ## definition
-Glucose 6-phosphate is the first product of glucose entering any cell and the intermediate at the junction of five pathways: glycolysis, gluconeogenesis, the pentose phosphate pathway, glycogenesis and glycogenolysis. It is therefore the one metabolite that every cell uses for glycolysis, for glycogen synthesis and for the hexose monophosphate shunt alike. In the fed state its major fate in all tissues is isomerisation to fructose 6-phosphate by phosphohexose isomerase, which carries it into glycolysis; hydrolysis back to free glucose is possible only in liver and kidney, which have glucose 6-phosphatase.
+**Glucose 6-phosphate** is the first product of glucose entering any cell and the intermediate at the junction of __five pathways__: glycolysis, gluconeogenesis, the pentose phosphate pathway, glycogenesis and glycogenolysis. It is the one metabolite that every cell uses for glycolysis, glycogen synthesis and the hexose monophosphate shunt alike.
+
+In the fed state its major fate in all tissues is isomerisation to fructose 6-phosphate by phosphohexose isomerase, carrying it into glycolysis; hydrolysis back to free glucose is possible only in **liver and kidney**, which have glucose 6-phosphatase.
 
 ## explicit_objective
 Name the metabolite common to glycolysis, glycogen synthesis and the pentose phosphate pathway, and state its major fate in the fed state.
@@ -6185,7 +6289,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Insulin is the only hormone that lowers blood glucose; five anti-insulin hormones raise it, and vasopressin is not one of them
+Insulin and the five anti-insulin hormones
 
 ## id
 CON-END-0B615572003514
@@ -6212,7 +6316,9 @@ Phosphodiesterase
 الأنسولين كهرمون خافض وحيد
 
 ## definition
-Insulin is the only hypoglycaemic hormone. Secreted by the pancreatic β-cells in response to hyperglycaemia, it increases glucose uptake through GLUT-4 in heart, skeletal muscle and adipose tissue, increases oxidation, glycogenesis and lipogenesis, and decreases hepatic glycogenolysis and gluconeogenesis; it works partly by activating phosphodiesterase, which degrades cAMP and so inactivates protein kinase A. Five hormones oppose it. Glucagon, from the α-cells, acts mainly on the liver and is secreted in fasting or hypoglycaemia, stimulating glycogenolysis and gluconeogenesis and inhibiting glycolysis and glycogenesis. Epinephrine acts on liver, muscle and adipose tissue. Cortisol drives protein catabolism and lipolysis and reduces peripheral glucose use. Growth hormone induces the liver aminotransferases. Thyroid hormones increase every aspect of carbohydrate metabolism.
+**Insulin** is the only hypoglycaemic hormone. Secreted by the pancreatic β-cells in response to hyperglycaemia, it increases glucose uptake through GLUT-4 in heart, skeletal muscle and adipose tissue, increases oxidation, glycogenesis and lipogenesis, and decreases hepatic glycogenolysis and gluconeogenesis; it works partly by activating phosphodiesterase, which degrades cAMP and inactivates protein kinase A.
+
+__Five hormones oppose it.__ **Glucagon**, from the α-cells, acts mainly on the liver in fasting or hypoglycaemia, stimulating glycogenolysis and gluconeogenesis and inhibiting glycolysis and glycogenesis. **Epinephrine** acts on liver, muscle and adipose tissue. **Cortisol** drives protein catabolism and lipolysis and reduces peripheral glucose use. **Growth hormone** induces the liver aminotransferases. **Thyroid hormones** increase every aspect of carbohydrate metabolism.
 
 ## explicit_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -6369,7 +6475,7 @@ relationships: Walked the 28 concepts in ../concept/103-BMS-biochemistry-concept
 # Item
 
 ## label
-Hypoglycaemia is adrenergic first and neuroglycopenic later, and in a treated diabetic the cause is usually the insulin
+Hypoglycaemia: symptoms and causes
 
 ## id
 CON-END-853A9833B36C99
@@ -6395,7 +6501,11 @@ Postprandial hypoglycaemia
 أعراض نقص السكر
 
 ## definition
-Hypoglycaemia is a fall of blood glucose below the normal fasting level, and below 45 to 50 mg/dL it may be fatal. Mild hypoglycaemia gives hunger, tremors, drowsiness, sweating, an accelerated heart rate and tingling lips; as it deepens come difficulty concentrating, confusion and loss of consciousness. Measuring the blood glucose is the only evidence of it. Fasting hypoglycaemia, after six hours or more without food, is caused either by overutilisation of glucose — insulinoma, or an overdose of insulin or of a diabetes medication — or by impaired production, as in severe liver disease, chronic kidney disease, adrenal or pituitary hypofunction, or von Gierke's disease. Postprandial or reactive hypoglycaemia comes two to five hours after a meal and never during fasting. High insulin with a low glucose points to the insulin being the cause.
+**Hypoglycaemia** is a fall of blood glucose below the normal fasting level, and below **45 to 50 mg/dL** it may be fatal.
+
+Mild hypoglycaemia gives hunger, tremors, drowsiness, sweating, an accelerated heart rate and tingling lips; as it deepens come difficulty concentrating, confusion and loss of consciousness. Measuring the blood glucose is the only evidence of it.
+
+**Fasting hypoglycaemia**, after six hours or more without food, is caused either by __overutilisation of glucose__ — insulinoma, or an overdose of insulin or of a diabetes medication — or by __impaired production__, as in severe liver disease, chronic kidney disease, adrenal or pituitary hypofunction, or von Gierke's disease. **Postprandial (reactive) hypoglycaemia** comes two to five hours after a meal and never during fasting. High insulin with a low glucose points to the insulin being the cause.
 
 ## explicit_objective
 Recognise the symptoms of hypoglycaemia, separate fasting from postprandial causes, and interpret a high insulin with a low glucose.
