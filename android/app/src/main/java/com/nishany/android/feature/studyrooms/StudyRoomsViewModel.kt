@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.nishany.android.core.api.JoinedParty
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.backgroundWorkScope
 import com.nishany.android.core.rooms.MediasoupVoiceClient
 import com.nishany.android.core.rooms.MuteTransition
@@ -63,7 +63,7 @@ sealed interface StudyRoomsState {
  */
 class StudyRoomsViewModel(
     private val appContext: Context,
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     private val apiBaseUrl: String,
     private val tokenProvider: suspend () -> String?,
     private val wsClient: OkHttpClient,
@@ -297,7 +297,7 @@ class StudyRoomsViewModel(
 
         fun factory(
             appContext: Context,
-            api: SynapseApi,
+            api: NishanyApi,
             apiBaseUrl: String,
             tokenProvider: suspend () -> String?,
         ) = viewModelFactory {

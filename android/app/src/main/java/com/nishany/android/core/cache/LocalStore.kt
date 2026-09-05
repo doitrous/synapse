@@ -48,7 +48,7 @@ data class OutboxEntry(
  * see the module doc at the top of this task's brief. [SyncEngine] (a later
  * task) is the only thing that calls the network, and it writes into this
  * store the same way anything else does: through these methods. Nothing
- * here talks to `SynapseApi`.
+ * here talks to `NishanyApi`.
  */
 class LocalStore(private val database: CortexDatabase) {
 

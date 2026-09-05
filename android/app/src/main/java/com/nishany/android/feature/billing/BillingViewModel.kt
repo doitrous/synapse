@@ -7,7 +7,7 @@ import com.nishany.android.core.ConnectivityMonitor
 import com.nishany.android.core.api.ApiError
 import com.nishany.android.core.api.Entitlement
 import com.nishany.android.core.api.PricingQuote
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.api.VoucherRedemption
 import com.nishany.android.core.backgroundWorkScope
 import com.nishany.android.core.ui.UiState
@@ -40,16 +40,16 @@ data class BillingUi(
  *
  * Network-only, the same shape as
  * [com.nishany.android.feature.assistant.AssistantViewModel]:
- * [SynapseApi.me] is the one read this screen cannot do without (iOS's own
+ * [NishanyApi.me] is the one read this screen cannot do without (iOS's own
  * `BillingModel.load` comment says the same), so a failed load is
  * [UiState.Error] rather than a stale local copy -- there is nothing cached
- * to fall back to. [myVoucher][SynapseApi.myVoucher] and the two
- * [pricingQuote][SynapseApi.pricingQuote] reads are best-effort: a plan
+ * to fall back to. [myVoucher][NishanyApi.myVoucher] and the two
+ * [pricingQuote][NishanyApi.pricingQuote] reads are best-effort: a plan
  * screen missing "Applied" or a price line is a smaller loss than the whole
  * screen refusing to load over a secondary read.
  */
 class BillingViewModel(
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     connectivity: ConnectivityMonitor? = null,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("BillingViewModel")
@@ -90,7 +90,7 @@ class BillingViewModel(
 
     /**
      * Redeem [code]. A refusal is a normal, server-worded answer -- see
-     * [SynapseApi.redeemVoucher]'s doc -- not an exception this catches
+     * [NishanyApi.redeemVoucher]'s doc -- not an exception this catches
      * specially.
      */
     fun redeem(code: String) {
@@ -144,7 +144,7 @@ class BillingViewModel(
         const val PERIOD_MONTH = "month"
         const val PERIOD_TERM = "term"
 
-        fun factory(api: SynapseApi, connectivity: ConnectivityMonitor) = viewModelFactory {
+        fun factory(api: NishanyApi, connectivity: ConnectivityMonitor) = viewModelFactory {
             initializer { BillingViewModel(api, connectivity) }
         }
     }

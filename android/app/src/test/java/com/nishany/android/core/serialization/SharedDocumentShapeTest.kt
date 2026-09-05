@@ -3,7 +3,7 @@ package com.nishany.android.core.serialization
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.cache.CortexDatabase
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.model.LedgerDecoder
@@ -76,7 +76,7 @@ class SharedDocumentShapeTest {
         database = Room.inMemoryDatabaseBuilder(context, CortexDatabase::class.java).build()
         store = LocalStore(database)
         sync = SyncEngine(
-            SynapseApi(
+            NishanyApi(
                 baseUrl = server.url("/").toString().trimEnd('/'),
                 client = OkHttpClient(),
                 tokenProvider = { "token" },

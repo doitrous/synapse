@@ -3,7 +3,7 @@ package com.nishany.android
 import android.content.Context
 import androidx.glance.appwidget.updateAll
 import com.nishany.android.core.ConnectivityMonitor
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.backgroundWorkScope
 import com.nishany.android.core.calendar.CALENDAR_TASKS_KEY
 import com.nishany.android.core.calendar.MODULE_SCHEDULES_KEY
@@ -27,7 +27,7 @@ import okhttp3.OkHttpClient
 
 /**
  * One instance of everything the app needs, held for the life of the
- * process by [SynapseApp].
+ * process by [NishanyApp].
  *
  * `CortexDatabase` must be one instance per process -- Room hands out a
  * connection pool per instance, so two instances over the same file are two
@@ -74,7 +74,7 @@ class AppGraph(context: Context, val config: AppConfig) {
     // so the apparent cycle (api needs a token, auth needs the api)
     // resolves without a lateinit or a holder object.
     val authBackend: AuthBackend by lazy { SupabaseAuthBackend(config, sessionStore, http) }
-    val api: SynapseApi by lazy { SynapseApi(config.apiBaseUrl, http, authBackend::accessToken) }
+    val api: NishanyApi by lazy { NishanyApi(config.apiBaseUrl, http, authBackend::accessToken) }
     val auth: AuthModel by lazy { AuthModel(config, api, authBackend, sessionStore) }
 
     // The only correct way to open the file: it pins the name and forces

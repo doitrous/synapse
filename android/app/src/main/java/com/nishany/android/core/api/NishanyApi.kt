@@ -107,7 +107,7 @@ data class AssistantChatResult(
     val remaining: Int,
 )
 
-/** One voucher, as the shared catalogue stores it and [SynapseApi.redeemVoucher] echoes it back. Admin-only fields (eligibility windows, redemption counts) are left off -- this app never edits a voucher, only applies one. */
+/** One voucher, as the shared catalogue stores it and [NishanyApi.redeemVoucher] echoes it back. Admin-only fields (eligibility windows, redemption counts) are left off -- this app never edits a voucher, only applies one. */
 data class Voucher(
     val id: String,
     val code: String,
@@ -155,7 +155,7 @@ data class JoinPartyResult(val ok: Boolean, val reason: String?, val party: Join
  * of routes the app needs, and how to turn a status code into an [ApiError]
  * the caller can act on.
  */
-class SynapseApi(
+class NishanyApi(
     private val baseUrl: String,
     private val client: OkHttpClient,
     private val tokenProvider: suspend () -> String?,

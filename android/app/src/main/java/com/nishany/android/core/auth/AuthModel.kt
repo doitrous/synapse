@@ -3,7 +3,7 @@ package com.nishany.android.core.auth
 import com.nishany.android.BuildConfig
 import com.nishany.android.core.api.ApiError
 import com.nishany.android.core.api.SessionUser
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.config.AppConfig
 import io.github.jan.supabase.auth.Auth
 import io.github.jan.supabase.auth.SessionManager
@@ -59,7 +59,7 @@ interface AuthBackend {
  * Who is signed in, and how the app got there.
  *
  * The app talks to two services that must agree: Supabase issues the token,
- * and the Synapse API verifies it. Signing in is therefore not finished when
+ * and the Nishany API verifies it. Signing in is therefore not finished when
  * [AuthBackend.signIn] returns -- it is finished when [api] accepts that
  * session (see [confirmWithServer]). Reporting success on Supabase's word
  * alone would drop a student into a shell that 401s on its first read.
@@ -105,7 +105,7 @@ data class AuthNotice(val text: String, val tone: Tone) {
 
 class AuthModel(
     private val config: AppConfig,
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     private val backend: AuthBackend,
     private val userCache: SessionUserCache = SessionUserCache.Forgetful,
 ) {
@@ -175,7 +175,7 @@ class AuthModel(
     }
 
     /**
-     * The token provider handed to [SynapseApi]. Read fresh on every call,
+     * The token provider handed to [NishanyApi]. Read fresh on every call,
      * never cached here: the underlying SDK keeps the token current via
      * background refresh, and a copy cached in this class would go stale and
      * 401 every request made after that.
@@ -183,7 +183,7 @@ class AuthModel(
     suspend fun accessToken(): String? = backend.accessToken()
 
     /**
-     * Ask the Synapse API who it thinks we are. This is the step that proves
+     * Ask the Nishany API who it thinks we are. This is the step that proves
      * the whole chain -- Supabase token, JWKS verification, role -- actually
      * works.
      *
@@ -397,7 +397,7 @@ class SupabaseAuthBackend(
     } catch (e: CancellationException) {
         // Not a token failure -- the caller's scope died mid-read. Rethrow
         // rather than recording it: a null return here reads as "no
-        // session" to SynapseApi, which would send an unauthenticated
+        // session" to NishanyApi, which would send an unauthenticated
         // request on the way out of a cancelled scope, and lastTokenError
         // would carry a misleading breadcrumb about a read that never
         // actually failed.

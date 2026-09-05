@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.backgroundWorkScope
 import java.util.UUID
 import kotlinx.coroutines.Job
@@ -75,7 +75,7 @@ private fun newSessionId(): String = UUID.randomUUID().toString()
  * every play/pause, the same tradeoff `RunnerViewModel`'s own ticker takes.
  */
 class FocusViewModel(
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     private val store: FocusSessionStore,
     val tasks: FocusTasksStore,
     private val notifier: FocusNotifier,
@@ -231,7 +231,7 @@ class FocusViewModel(
     companion object {
         private const val TAG = "FocusViewModel"
 
-        fun factory(api: SynapseApi, store: FocusSessionStore, tasks: FocusTasksStore, notifier: FocusNotifier) = viewModelFactory {
+        fun factory(api: NishanyApi, store: FocusSessionStore, tasks: FocusTasksStore, notifier: FocusNotifier) = viewModelFactory {
             initializer { FocusViewModel(api, store, tasks, notifier) }
         }
     }

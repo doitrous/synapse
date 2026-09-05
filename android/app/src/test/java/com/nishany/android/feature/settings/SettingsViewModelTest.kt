@@ -2,7 +2,7 @@ package com.nishany.android.feature.settings
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.auth.AuthBackend
 import com.nishany.android.core.auth.AuthModel
 import com.nishany.android.core.config.AppConfig
@@ -29,12 +29,12 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
-/** Mirrors the old `AccountViewModelTest`'s server-and-backend setup; see its own doc for why a real [MockWebServer] rather than a fake [SynapseApi]. */
+/** Mirrors the old `AccountViewModelTest`'s server-and-backend setup; see its own doc for why a real [MockWebServer] rather than a fake [NishanyApi]. */
 @RunWith(RobolectricTestRunner::class)
 class SettingsViewModelTest {
 
     private lateinit var server: MockWebServer
-    private lateinit var api: SynapseApi
+    private lateinit var api: NishanyApi
     private lateinit var backend: FakeAuthBackend
     private lateinit var auth: AuthModel
     private lateinit var themePreference: ThemePreference
@@ -52,7 +52,7 @@ class SettingsViewModelTest {
         themePreference = ThemePreference(context)
         languagePreference = LanguagePreference(context)
         backend = FakeAuthBackend()
-        api = SynapseApi(
+        api = NishanyApi(
             baseUrl = server.url("/").toString().trimEnd('/'),
             client = OkHttpClient(),
             tokenProvider = { backend.accessToken() },

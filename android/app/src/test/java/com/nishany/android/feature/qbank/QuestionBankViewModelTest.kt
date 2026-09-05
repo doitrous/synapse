@@ -3,7 +3,7 @@ package com.nishany.android.feature.qbank
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.cache.CortexDatabase
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.model.LedgerDecoder
@@ -44,7 +44,7 @@ class QuestionBankViewModelTest {
     private lateinit var server: MockWebServer
     private lateinit var database: CortexDatabase
     private lateinit var store: LocalStore
-    private lateinit var api: SynapseApi
+    private lateinit var api: NishanyApi
     private lateinit var sync: SyncEngine
 
     private val overrides = ConcurrentHashMap<String, () -> MockResponse>()
@@ -62,7 +62,7 @@ class QuestionBankViewModelTest {
         val context = ApplicationProvider.getApplicationContext<Context>()
         database = Room.inMemoryDatabaseBuilder(context, CortexDatabase::class.java).build()
         store = LocalStore(database)
-        api = SynapseApi(
+        api = NishanyApi(
             baseUrl = server.url("/").toString().trimEnd('/'),
             client = OkHttpClient(),
             tokenProvider = { "token" },

@@ -8,7 +8,7 @@ import com.nishany.android.core.adaptive.CoverageDebt
 import com.nishany.android.core.adaptive.ReadinessResult
 import com.nishany.android.core.api.ApiError
 import com.nishany.android.core.api.RemoteState
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.cache.PendingDocument
 import com.nishany.android.core.library.LibraryMarks
@@ -55,14 +55,14 @@ sealed interface SyncStatus {
  * in memory).
  */
 class SyncEngine(
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     private val store: LocalStore,
 ) {
     private val _status = MutableStateFlow<SyncStatus>(SyncStatus.Idle)
     val status: StateFlow<SyncStatus> = _status.asStateFlow()
 
     // Guards refresh() against overlap. A plain flag read-then-set on
-    // _status would race for real here — SynapseApi's calls resume on
+    // _status would race for real here — NishanyApi's calls resume on
     // OkHttp's own dispatcher thread, not necessarily the caller's — so this
     // needs an actual mutual-exclusion primitive, not just a checked field.
     private val refreshMutex = Mutex()
@@ -208,7 +208,7 @@ class SyncEngine(
     /**
      * Diffs [CATALOGUE_KEYS] against the manifest and fetches only what
      * moved. A 404 on the manifest itself is a rollout fallback, not an
-     * error — see the class doc on [SynapseApi.manifest] — and degrades to
+     * error — see the class doc on [NishanyApi.manifest] — and degrades to
      * fetching every catalogue document directly.
      *
      * Returns how many documents were actually written locally.

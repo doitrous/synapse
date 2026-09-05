@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.model.ContentKind
 import com.nishany.android.core.model.Question
@@ -41,13 +41,13 @@ sealed interface QotdUiState {
 /**
  * Question of the Day.
  *
- * The server marks answers ([SynapseApi.qotdAnswer]), so this never self-marks
+ * The server marks answers ([NishanyApi.qotdAnswer]), so this never self-marks
  * and never writes a question-bank attempt: QotD is a separate track. Today's
  * status comes from the API; the question BODY is resolved from the local ledger
  * by id, exactly as the question bank resolves its pool.
  */
 class QotdViewModel(
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     private val store: LocalStore,
 ) : ViewModel() {
 
@@ -131,7 +131,7 @@ class QotdViewModel(
     }
 
     companion object {
-        fun factory(store: LocalStore, sync: SyncEngine, api: SynapseApi) = viewModelFactory {
+        fun factory(store: LocalStore, sync: SyncEngine, api: NishanyApi) = viewModelFactory {
             initializer { QotdViewModel(api, store) }
         }
     }

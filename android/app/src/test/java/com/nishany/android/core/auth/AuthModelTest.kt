@@ -1,7 +1,7 @@
 package com.nishany.android.core.auth
 
 import com.nishany.android.core.api.SessionUser
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.config.AppConfig
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.runBlocking
@@ -21,7 +21,7 @@ import org.junit.Test
 class AuthModelTest {
 
     private lateinit var server: MockWebServer
-    private lateinit var api: SynapseApi
+    private lateinit var api: NishanyApi
     private lateinit var backend: FakeAuthBackend
     private lateinit var cache: FakeSessionUserCache
     private lateinit var config: AppConfig
@@ -35,7 +35,7 @@ class AuthModelTest {
             supabaseAnonKey = "anon-key",
             rawApiBaseUrl = server.url("/").toString(),
         )
-        api = SynapseApi(
+        api = NishanyApi(
             baseUrl = server.url("/").toString().trimEnd('/'),
             client = OkHttpClient(),
             tokenProvider = { backend.accessToken() },

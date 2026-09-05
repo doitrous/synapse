@@ -6,7 +6,7 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import com.nishany.android.core.api.ApiError
 import com.nishany.android.core.api.Profile
 import com.nishany.android.core.api.SupportTicket
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.api.UsernameAvailability
 import com.nishany.android.core.auth.AuthModel
 import com.nishany.android.core.backgroundWorkScope
@@ -20,7 +20,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-/** What the Settings screen shows. See `SynapseApi.me()`'s own doc for why a null profile ([Empty]) is a state to render, not an error. */
+/** What the Settings screen shows. See `NishanyApi.me()`'s own doc for why a null profile ([Empty]) is a state to render, not an error. */
 sealed interface SettingsUiState {
     data object Loading : SettingsUiState
     data class ConnectionDropped(val message: String) : SettingsUiState
@@ -60,7 +60,7 @@ sealed interface SupportListState {
  */
 class SettingsViewModel(
     private val auth: AuthModel,
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     val themePreference: ThemePreference,
     val languagePreference: LanguagePreference,
 ) : ViewModel() {
@@ -92,7 +92,7 @@ class SettingsViewModel(
 
     fun setLanguage(language: AppLanguage) = languagePreference.set(language)
 
-    /** Saves the Profile section as one `PUT /api/me/enrolment` -- see [SynapseApi.updateEnrolment]'s doc for why [universityId]/[year] are resent unchanged. */
+    /** Saves the Profile section as one `PUT /api/me/enrolment` -- see [NishanyApi.updateEnrolment]'s doc for why [universityId]/[year] are resent unchanged. */
     fun saveProfile(username: String, profileIcon: String, statusMessage: String, onResult: (Result<Unit>) -> Unit) {
         val current = (_state.value as? SettingsUiState.Content)?.profile ?: return
         backgroundScope.launch {
@@ -154,7 +154,7 @@ class SettingsViewModel(
     }
 
     companion object {
-        fun factory(auth: AuthModel, api: SynapseApi, themePreference: ThemePreference, languagePreference: LanguagePreference) = viewModelFactory {
+        fun factory(auth: AuthModel, api: NishanyApi, themePreference: ThemePreference, languagePreference: LanguagePreference) = viewModelFactory {
             initializer { SettingsViewModel(auth, api, themePreference, languagePreference) }
         }
     }

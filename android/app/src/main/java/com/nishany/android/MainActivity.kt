@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val graph = (application as SynapseApp).graph
+        val graph = (application as NishanyApp).graph
         openFocusTimerRequest = intent?.getBooleanExtra(EXTRA_OPEN_FOCUS_TIMER, false) == true
 
         // Read once, synchronously, before setContent -- so the first frame

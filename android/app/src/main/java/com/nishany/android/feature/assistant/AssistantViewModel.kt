@@ -7,7 +7,7 @@ import com.nishany.android.core.ConnectivityMonitor
 import com.nishany.android.core.api.ApiError
 import com.nishany.android.core.api.AssistantMessage
 import com.nishany.android.core.api.AssistantStatus
-import com.nishany.android.core.api.SynapseApi
+import com.nishany.android.core.api.NishanyApi
 import com.nishany.android.core.backgroundWorkScope
 import com.nishany.android.core.ui.UiState
 import kotlinx.coroutines.cancel
@@ -35,11 +35,11 @@ data class AssistantTurn(val id: String, val role: String, val content: String)
  * [com.nishany.android.feature.practical.PracticalViewModel]'s connectivity-aware
  * [UiState] fold but with no local ledger behind it: nothing here reads or
  * writes [com.nishany.android.core.cache.LocalStore], so [uiState] is built
- * straight from [SynapseApi.assistantStatus] and [ConnectivityMonitor] rather
+ * straight from [NishanyApi.assistantStatus] and [ConnectivityMonitor] rather
  * than from a synced document.
  */
 class AssistantViewModel(
-    private val api: SynapseApi,
+    private val api: NishanyApi,
     connectivity: ConnectivityMonitor? = null,
 ) : ViewModel() {
     private val backgroundScope = backgroundWorkScope("AssistantViewModel")
@@ -165,7 +165,7 @@ class AssistantViewModel(
         /** Matches the server's own per-message cap (`assistant.js`'s `MAX_MESSAGE_CHARS`). */
         const val MAX_MESSAGE_CHARACTERS = 4000
 
-        fun factory(api: SynapseApi, connectivity: ConnectivityMonitor) = viewModelFactory {
+        fun factory(api: NishanyApi, connectivity: ConnectivityMonitor) = viewModelFactory {
             initializer { AssistantViewModel(api, connectivity) }
         }
     }
@@ -174,7 +174,7 @@ class AssistantViewModel(
 /**
  * Each [ApiError] a failed chat turn can come back as, worded the way iOS's
  * `AssistantFailure` words them (`Assistant.swift`). [ApiError.Transient]
- * with a null status is what [request][com.nishany.android.core.api.SynapseApi]
+ * with a null status is what [request][com.nishany.android.core.api.NishanyApi]
  * throws for an `IOException` with no HTTP response at all -- the same
  * signal iOS's own offline check exists to catch ahead of time, read here
  * off the exception instead of a second connectivity check.

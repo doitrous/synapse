@@ -14,15 +14,15 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 
-class SynapseApiTest {
+class NishanyApiTest {
 
     private lateinit var server: MockWebServer
-    private lateinit var api: SynapseApi
+    private lateinit var api: NishanyApi
     private var token: String? = "token-123"
 
     @Before fun setUp() {
         server = MockWebServer().also { it.start() }
-        api = SynapseApi(
+        api = NishanyApi(
             baseUrl = server.url("/").toString().trimEnd('/'),
             client = OkHttpClient(),
             tokenProvider = { token },

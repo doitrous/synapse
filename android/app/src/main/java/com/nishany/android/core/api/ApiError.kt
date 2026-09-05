@@ -3,7 +3,7 @@ package com.nishany.android.core.api
 /**
  * What a status code means for the caller, not what it meant for the server.
  *
- * `SynapseApi` is the only thing that ever sees an HTTP status; everything
+ * `NishanyApi` is the only thing that ever sees an HTTP status; everything
  * downstream — the sync engine especially — needs to know one of three
  * things about a failure, and only one of three: keep retrying, give up on
  * this document for good, or the session itself is over. Those three answers
