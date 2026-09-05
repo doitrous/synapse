@@ -27,4 +27,21 @@ Q21.A Q22.C Q23.B Q24.A
 #   Q22 (internal laryngeal supplies sensation above the vocal folds) == EOM197 "Function of the internal laryngeal nerve".
 #   Q24 (posterior part of midbrain = tectum) == EOM197 CNS "Structure forming the posterior surface of the midbrain".
 
-# NOT YET TRIAGED: Q25-115 (pages 4-14, image-only) and Section B (extended cross-match).
+# ============================================================================
+# SECOND PASS (2026-09-06): Q25-51 (pages 4-6) rendered at 200dpi, margin
+# letters read by eye and cross-checked against standard neuroanatomy.
+# Keys read this pass (Q25-51):
+Q25.B Q26.A Q27.C Q28.A Q29.C Q30.D Q31.B Q32.D Q33.C
+Q34.A Q35.A Q36.B Q37.C Q38.D Q39.D Q40.A Q41.A Q42.C
+Q43.B Q44.D Q45.A Q46.C Q47.B Q48.D Q49.D Q50.C Q51.A
+#
+# AUTHORED this pass (24 genuinely-new items, cluster 2023-eom-head-and-neck-anatomy):
+#   Q25, Q26, Q27, Q28, Q29, Q30, Q32, Q33, Q34, Q35, Q36, Q37, Q38, Q39,
+#   Q40, Q41, Q42, Q43, Q44, Q45, Q46, Q49, Q50, Q51
+#
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q31 (Broca's area supplied by MCA) == EOM197 CNS "A region supplied by the middle cerebral artery" (inverted direction, same MCA-cortex fact).
+#   Q47 (commissural fiber = corpus callosum) == EOM197 CNS "Fibers connecting corresponding areas in the 2 cerebral hemispheres" (same fact).
+#   Q48 (cerebral cortex true statement -> primary motor cortex in frontal lobe) == EOM197 CNS "Skilled voluntary movement / primary motor cortex" localisation; single-fact Q51 (auditory=temporal) authored instead.
+#
+# NOT YET TRIAGED: Q52-115 (pages 7-14, image-only) and Section B (extended cross-match).
