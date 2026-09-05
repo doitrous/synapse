@@ -147220,3 +147220,2515 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: Filed here from the unassigned pile: the stem names no structure any leaf’s vocabulary matched, but crossing-over during the first meiotic division is gametogenesis and belongs to this leaf. The 2020 paper printed no key and the recovered answer sheet does not cover this source. The answer does not come from the department book either — the book teaches no meiosis at all, and that gap is recorded on this concept. It is set to prophase because crossing-over is by definition an event of prophase I, at the pachytene stage, when the homologous chromosomes are synapsed; the other three stages are each defined by an event that is not it, so only one option is defensible and a faculty reviewer is not needed to say which.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1457
+## title
+basophil membrane contain receptor for
+## question
+basophil membrane contain receptor for
+## vignette
+This item asks the student to name the immunoglobulin the basophil membrane has receptors for.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+IgA
+## explanation_a
+IgA is the immunoglobulin of secretions — tears, saliva, gut and respiratory mucus. Nothing puts a receptor for it on the basophil.
+## answer_b
+IgG
+## explanation_b
+IgG is the commonest circulating immunoglobulin and the one that crosses the placenta. Chosen by students who reason from abundance, but abundance is not what the receptor is for.
+## answer_c
+IgE
+## explanation_c
+Correct. The basophil membrane shows receptors for IgE, which is what makes the cell degranulate on a second exposure to an allergen.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## answer_d
+IgM
+## explanation_d
+IgM is the first antibody made in a primary response and the largest. It is not what the basophil binds.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the immunoglobulin the basophil membrane has receptors for.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q35; Blood | Module 101 questions.pdf.pdf p9 q16. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1458
+## title
+Percent of Neutrophils
+## question
+Percent of Neutrophils
+## vignette
+This item asks the student to give the neutrophil’s share of the differential white cell count.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+60 – 70
+## explanation_a
+Correct. 60–70%, which makes the neutrophil the commonest leukocyte. The thresholds either side are: neutrophilia above 75%, neutropenia below 60%.
+
+Why this is right:
+- Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase.
+- Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## answer_b
+1-4
+## explanation_b
+1–4% is the eosinophil’s share. Picked when the four options are read as a set and the wrong cell’s figure is chosen.
+## answer_c
+0 -1
+## explanation_c
+0–1% is the basophil’s share — the rarest of the granulocytes.
+## answer_d
+15 -20
+## explanation_d
+15–20% is closer to the lymphocyte, which is the second commonest cell rather than the first.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-3899015C5024C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall of a stated figure
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the neutrophil’s share of the differential white cell count.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q34; Blood | Module 101 questions.pdf.pdf p9 q12. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1459
+## title
+……………. contain histaminase, sulfatase, Neurotoxin
+## question
+……………. contain histaminase, sulfatase, Neurotoxin
+## vignette
+This item asks the student to identify a granulocyte from the contents of its granules.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+neutrophil
+## explanation_a
+The neutrophil’s granules hold myeloperoxidase in the azurophil population and collagenase, phagocytin, lysozyme and lactoferrin in the specific one. None of the three named here.
+## answer_b
+eosinophil
+## explanation_b
+Correct. Histaminase and sulphatase are what the eosinophil uses to destroy histamine and heparin and so terminate an allergic reaction; the granule’s basic protein is the cytotoxic agent against parasites.
+
+Why this is right:
+- Eosinophils are 1–4% of the count, 10–14 µm, with a bilobed horse-shoe nucleus joined by a thick chromatin thread and large acidophilic specific granules.
+## answer_c
+basophil
+## explanation_c
+The basophil is the cell that *holds* histamine and heparin. This option is the trap: the two cells are opposite ends of the same reaction, and the answer turns on histaminase versus histamine.
+## answer_d
+lymphocyte
+## explanation_d
+The lymphocyte is agranular. It is not a granular leukocyte at all, so it cannot be the answer to a question about granule contents.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-CA78CC131E0236
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify a granulocyte from the contents of its granules.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p9 q14. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1460
+## title
+………….. Contain histamine, heparine
+## question
+………….. Contain histamine, heparine
+## vignette
+This item asks the student to identify the granulocyte whose granules contain histamine and heparin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+neutrophil
+## explanation_a
+The neutrophil holds no vasoactive amine. Its granules are for killing and digesting bacteria.
+## answer_b
+eosinophil
+## explanation_b
+The eosinophil holds histamin*ase*, the enzyme that destroys histamine — the opposite role. This is the same pair of options as the previous question with the answer reversed, and the faculty asks it both ways.
+## answer_c
+basophil
+## explanation_c
+Correct. Histamine and heparin are the basophil’s, and it is the heparin that makes the granules stain metachromatically with toluidine blue.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## answer_d
+lymphocyte
+## explanation_d
+The plasma cell is a connective-tissue cell that secretes antibody. It is not a leukocyte of the granular series.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify the granulocyte whose granules contain histamine and heparin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p9 q15. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1461
+## title
+cells which release histaminase enzyme:
+## question
+cells which release histaminase enzyme:
+## vignette
+This item asks the student to name the cell that releases histaminase.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+neutrophils
+## explanation_a
+Neutrophils release lactoferrin, phagocytin, lysozyme and collagenase — antibacterial, not anti-allergic.
+## answer_b
+eosinophils
+## explanation_b
+Correct. The eosinophil secretes histaminase and sulphatase to destroy histamine and heparin, which is how it terminates an allergic reaction.
+
+Why this is right:
+- Eosinophils are 1–4% of the count, 10–14 µm, with a bilobed horse-shoe nucleus joined by a thick chromatin thread and large acidophilic specific granules.
+## answer_c
+plasma cells
+## explanation_c
+Plasma cells secrete antibody. They are not granular leukocytes.
+## answer_d
+basophils
+## explanation_d
+The basophil releases histamine. Choosing it here is reading the stem as "which cell is involved with histamine" rather than which one destroys it.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-CA78CC131E0236
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the cell that releases histaminase.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q26. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1462
+## title
+cells which release histamine :
+## question
+cells which release histamine :
+## vignette
+This item asks the student to name the cell that releases histamine.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+neutrophils
+## explanation_a
+Neutrophils release no histamine; their granules are antibacterial.
+## answer_b
+eosinophils
+## explanation_b
+The eosinophil releases histamin*ase*, which destroys histamine. The faculty sets this option and its mirror image in adjacent questions on purpose.
+## answer_c
+plasma cells
+## explanation_c
+Plasma cells secrete antibody, not vasoactive amines.
+## answer_d
+basophils
+## explanation_d
+Correct. The basophil releases histamine, causing the vasodilatation and sudden drop in blood pressure that define anaphylaxis. The mast cell does the same, but the option set here is of leukocytes.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the cell that releases histamine.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q25. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1463
+## title
+basophils increase in number in case of :
+## question
+basophils increase in number in case of :
+## vignette
+This item asks the student to say what raises the basophil count.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Bacterial infection
+## explanation_a
+Bacterial infection raises the neutrophil count — neutrophilia above 75% — because the neutrophil is the first line of non-specific defence.
+## answer_b
+Parasitic infection
+## explanation_b
+Parasitic infection raises the eosinophil count. In Egypt, bilharziasis is the leading cause.
+## answer_c
+Allergy
+## explanation_c
+Correct. Basophilia, above 2%, goes with allergy: the basophil carries IgE receptors and degranulates when an allergen cross-links them.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## answer_d
+both b & c are correct
+## explanation_d
+"Both b and c" folds in parasitic infection, which is the eosinophil’s. Picked by students who know allergy is right and are unwilling to rule the other out.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Applied
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Say what raises the basophil count.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q18. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1464
+## title
+All characters of Neutrophils except
+## question
+All characters of Neutrophils except
+## vignette
+This item asks the student to recognise which described feature does not belong to the neutrophil.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+single, segmented Nucleus connected by thin chromatin
+## explanation_a
+True of the neutrophil: a single segmented nucleus of two to five lobes joined by thin chromatin threads. Not the exception.
+## answer_b
+pseudopodia with few organelles, rich in glycogen
+## explanation_b
+True: on electron microscopy the neutrophil shows pseudopodia, few organelles, and more glycogen for energy. Not the exception.
+## answer_c
+Coarse, basophilic that contain heparin
+## explanation_c
+Correct. This is the exception being asked for. Coarse basophilic granules containing heparin belong to the basophil, not the neutrophil, whose specific granules are fine and pale.
+
+Why this is right:
+- Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase.
+- Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## answer_d
+Primary azurophilic granules with myeloperoxidase in lysosome
+## explanation_d
+True: the azurophil (primary) granules are considered primary lysosomes and contain myeloperoxidase. Not the exception.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-3899015C5024C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Recognise which described feature does not belong to the neutrophil.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p9 q13. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1465
+## title
+Azurophilic granules contain mainly:
+## question
+Azurophilic granules contain mainly:
+## vignette
+This item asks the student to say what the azurophil granule contains.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+collagenase
+## explanation_a
+Collagenase is in the neutrophil’s *specific* granule, with phagocytin, lysozyme and lactoferrin. This option is the whole point of the question: the two granule populations hold different things.
+## answer_b
+histaminase
+## explanation_b
+Histaminase is the eosinophil’s, not the neutrophil’s.
+## answer_c
+sulfatase
+## explanation_c
+Sulphatase is also the eosinophil’s, secreted with histaminase to destroy heparin.
+## answer_d
+hydrolytic enzymes
+## explanation_d
+Correct. The azurophil granule is a primary lysosome, so its contents are hydrolytic enzymes — myeloperoxidase among them, for defence against bacteria and viruses.
+
+Why this is right:
+- Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase.
+- Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-3899015C5024C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Say what the azurophil granule contains.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q54. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1466
+## title
+…………. secreted by neutrophil to help in healing of wounds
+## question
+…………. secreted by neutrophil to help in healing of wounds
+## vignette
+This item asks the student to name the substance credited with helping the neutrophil promote wound healing.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+clathrin
+## explanation_a
+Clathrin coats vesicles during receptor-mediated endocytosis. It is a cytology term that appears in this module’s cell chapter, which is why it is a plausible distractor here.
+## answer_b
+trephone
+## explanation_b
+Correct. The neutrophil secretes trephone, which is credited with helping wounds heal.
+
+Why this is right:
+- Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase.
+- Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## answer_c
+tubulin
+## explanation_c
+Tubulin is the protein of microtubules — cytoskeleton, not secretion.
+## answer_d
+Actin
+## explanation_d
+Actin is the protein of microfilaments and of the microvillus core. Also cytoskeletal.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-3899015C5024C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall of a stated term
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the substance credited with helping the neutrophil promote wound healing.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q41; Blood | Module 101 questions.pdf.pdf p10 q22. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1467
+## title
+A 21 years old patient suffering from abdominal pain. His serological tests are indicat…
+## question
+A 21 years old patient suffering from abdominal pain. His serological tests are indicating typhoid fever and CBC will show:
+## vignette
+This item asks the student to predict the differential count in typhoid fever.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Basophilia
+## explanation_a
+Basophilia, above 2%, goes with allergy rather than with a bacterial fever.
+## answer_b
+Polycythemia
+## explanation_b
+Polycythaemia is a raised red cell count and belongs to a different chapter entirely.
+## answer_c
+Neutropenia
+## explanation_c
+Correct. Typhoid is the commonest cause of neutropenia — below 60% — and it is the exception worth holding, because almost every other bacterial infection raises the neutrophil count instead.
+
+Why this is right:
+- Their azurophil (primary) granules are large, few and dark — primary lysosomes holding myeloperoxidase.
+- Bacterial toxins attract them; they leave the blood by diapedesis between endothelial cells and become motile microphages.
+## answer_d
+Eosinophilia
+## explanation_d
+Eosinophilia, above 5%, goes with parasitic infection and allergy. Picked by students who know the patient has an infection and reach for the parasite answer because the presentation is abdominal.
+## topic
+Blood
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-3899015C5024C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Predict the differential count in typhoid fever.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q8. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1468
+## title
+Regarding basophils, they:
+## question
+Regarding basophils, they:
+## vignette
+This item asks the student to pick the true statement about the basophil from a set of counts, nuclear shapes and staining claims.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Constitute 3-8% of circulating leucocytes.
+## explanation_a
+Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell, and basophilia begins above 2%.
+## answer_b
+Increase in acute pyogenic infection.
+## explanation_b
+Acute pyogenic infection raises the neutrophils, the first line of non-specific defence. The basophil rises in allergy, and its own products — histamine, heparin, leukotrienes — are what an allergic reaction is made of.
+## answer_c
+Have kidney shaped nuclei.
+## explanation_c
+A kidney-shaped nucleus is the monocyte's. The basophil's is irregular, segmented and S-shaped, and it is usually hidden altogether by the granules lying over it.
+## answer_d
+Are rich in metachromatically stained granules.
+## explanation_d
+Correct. The basophil's coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## topic
+Granular leukocytes
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Pick the true statement about the basophil from a set of counts, nuclear shapes and staining claims.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q41. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer is worked from the department book. Three of the four options contradict its own numbers and descriptions — basophils are 0–1% of the count, they rise in allergy rather than in pyogenic infection, and their nucleus is irregular and S-shaped — while the fourth restates its sentence that their coarse granules stain metachromatically purple with toluidine blue because of their heparin.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1469
+## title
+Which leucocyte is responsible for Cell mediated immunity?
+## question
+Which leucocyte is responsible for Cell mediated immunity?
+## vignette
+This item asks the student to name the lymphocyte that mediates cell-mediated immunity and the one that mediates humoral immunity.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+B- lymphocyte.
+## explanation_a
+The B lymphocyte mediates humoral immunity: activated by antigen and by a helper T cell it becomes a plasma cell and secretes antibody. Antibody is a molecule in the plasma, which is what "humoral" means, and it is the opposite arm from the one asked for.
+## answer_b
+T- lymphocytes.
+## explanation_b
+Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.
+
+Why this is right:
+- By function there are three lymphocytes, and they cannot be told apart by light or electron microscopy — only by their surface receptors.
+## answer_c
+Basophils.
+## explanation_c
+Basophils belong to the allergic response, not to either immune arm. They secrete histamine, heparin and leukotrienes and have only limited phagocytic power.
+## answer_d
+Monocyte.
+## explanation_d
+The monocyte becomes the macrophage, which presents antigen and so starts both responses — but presenting is not mediating, and the cell that carries the cell-mediated response out is the T lymphocyte.
+## topic
+Granular leukocytes
+## subtopic
+Granular leukocytes
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the lymphocyte that mediates cell-mediated immunity and the one that mediates humoral immunity.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q44. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book, which says in as many words that T lymphocytes mediate cell-mediated immunity and B lymphocytes mediate humoral immunity.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1470
+## title
+Cells are required for Initiation of cellular & humoral immunity:
+## question
+Cells are required for Initiation of cellular & humoral immunity:
+## vignette
+This item asks the student to name the two cells whose interaction opens both arms of the immune response.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+T Helper & Macrophage
+## explanation_a
+Correct. The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.
+
+Why this is right:
+- The cell-mediated and the humoral responses share their opening step.
+## answer_b
+T suppressor & Monocyte
+## explanation_b
+The suppressor (regulatory) T cell damps a response down and maintains tolerance to self. Pairing the brake with the response it is supposed to start is the trap here.
+## answer_c
+B lymphocyte & Macrophage
+## explanation_c
+Half right, which is what makes it attractive: the macrophage is one of the pair, but the B lymphocyte is the effector of the humoral response only, and it acts after the helper T cell, not before it.
+## answer_d
+Plasmablast & Monocyte
+## explanation_d
+The plasmablast is already a committed antibody-producing cell — the end of the humoral response, not its beginning — and it has no part in the cell-mediated arm.
+## topic
+Histology-general
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-681584C9DC1F94
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the two cells whose interaction opens both arms of the immune response.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p24 q11. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`: the macrophage presents the antigen and the helper T cell is activated by it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1471
+## title
+………….. is Antigen presenting cell, precursor of All phagocytic cell
+## question
+………….. is Antigen presenting cell, precursor of All phagocytic cell
+## vignette
+This item asks the student to identify the monocyte as the source of every phagocytic cell of the tissues.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+lymphocyte
+## explanation_a
+A lymphocyte is immune-competent but not phagocytic, and it gives rise to plasma cells rather than to macrophages.
+## answer_b
+monocyte
+## explanation_b
+Correct. The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_c
+Nertrophil
+## explanation_c
+The neutrophil is highly phagocytic, which is exactly what makes it tempting, but it is an end cell: it phagocytoses and dies as a pus cell, and nothing descends from it.
+## answer_d
+megakaryocyte
+## explanation_d
+The megakaryocyte belongs to the marrow and sheds platelets. It leaves nothing behind in the tissues.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify the monocyte as the source of every phagocytic cell of the tissues.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q28. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1472
+## title
+………….. is Antigen presenting cell, precursor of phagocytic cell
+## question
+………….. is Antigen presenting cell, precursor of phagocytic cell
+## vignette
+This item asks the student to identify the monocyte as both an antigen-presenting cell and the precursor of the tissue phagocytes.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+lymphocyte
+## explanation_a
+A lymphocyte carries antigen receptors but does not phagocytose or present antigen to others; that is the macrophage's and the monocyte's role.
+## answer_b
+monocyte
+## explanation_b
+Correct. The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_c
+Nertrophil
+## explanation_c
+The neutrophil phagocytoses vigorously but presents no antigen and is a terminal cell — it dies at the site as a pus cell.
+## answer_d
+megakaryocyte
+## explanation_d
+The megakaryocyte is a marrow cell that produces platelets; it is neither phagocytic nor antigen-presenting.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify the monocyte as both an antigen-presenting cell and the precursor of the tissue phagocytes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p6 q43. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1473
+## title
+The largest leucocytes is:
+## question
+The largest leucocytes is:
+## vignette
+This item asks the student to rank the leukocytes by diameter and name the largest.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Monocyte
+## explanation_a
+Correct. The monocyte is 13–20 µm, larger than any other white cell on the film.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_b
+Large lymphocyte
+## explanation_b
+The commonest wrong answer, and an understandable one: the large lymphocyte is big at 10–15 µm, but it stops short of the monocyte. Its round nucleus, against the monocyte's kidney-shaped one, tells them apart.
+## answer_c
+Neutrophil
+## explanation_c
+The neutrophil is 10–12 µm. It looks busy because of its lobes, not because it is large.
+## answer_d
+Natural killer
+## explanation_d
+The natural killer cell is a large lymphocyte and shares its size range, so it cannot be larger than the large lymphocyte, let alone the monocyte.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Rank the leukocytes by diameter and name the largest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p5 q25. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1474
+## title
+The origin of macrophages is:
+## question
+The origin of macrophages is:
+## vignette
+This item asks the student to name the blood cell the tissue macrophage comes from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is the resting fibroblast. It makes fibres and ground substance and has no phagocytic role.
+## answer_b
+Pericytes
+## explanation_b
+The pericyte is an adult mesenchymal stem cell around capillaries and can become endothelium, fibroblast or smooth muscle — but not a macrophage.
+## answer_c
+Monocytes
+## explanation_c
+Correct. The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_d
+B lymphocytes
+## explanation_d
+The B lymphocyte becomes the plasma cell. Confusing the two lines is the trap: one produces antibody, the other phagocytoses.
+## topic
+Connective Tissue
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the blood cell the tissue macrophage comes from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q141. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1475
+## title
+The origin of plasma cells is:
+## question
+The origin of plasma cells is:
+## vignette
+This item asks the student to name the cell the plasma cell descends from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is a resting fibroblast. Both it and the plasma cell are connective tissue cells, but they are unrelated lines.
+## answer_b
+Pericytes
+## explanation_b
+The pericyte gives endothelium, fibroblasts and smooth muscle. It makes no immune cell.
+## answer_c
+Monocytes
+## explanation_c
+The monocyte becomes the macrophage. Picking it here is the mirror image of the commonest error on the macrophage question — the two answers get swapped as a pair.
+## answer_d
+B lymphocytes
+## explanation_d
+Correct. The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.
+
+Why this is right:
+- When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+- Some of its progeny become B memory cells, which give the rapid second response.
+## topic
+Connective Tissue
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell the plasma cell descends from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q142. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1476
+## title
+Two cells are required for the initiation of the cellular and humoral immune responses:
+## question
+Two cells are required for the initiation of the cellular and humoral immune responses:
+## vignette
+This item asks the student to name the two cells whose interaction initiates both the cell-mediated and the humoral response.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+T helper & Macrophage
+## explanation_a
+Correct. The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.
+
+Why this is right:
+- The cell-mediated and the humoral responses share their opening step.
+## answer_b
+T suppressor & Monocyte
+## explanation_b
+The suppressor T cell exists to limit a response and to hold tolerance to self antigens. It ends responses rather than starting them.
+## answer_c
+B lymphocyte & Macrophage
+## explanation_c
+The macrophage is right and the B lymphocyte is wrong: the B cell is the effector of the humoral arm and has no part in starting the cell-mediated one, and it needs the helper T cell before it does anything at all.
+## answer_d
+Plasmablast & Monocyte
+## explanation_d
+The plasmablast is the B lymphocyte already committed to making antibody, so it belongs at the end of the humoral response, not the start of both.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-681584C9DC1F94
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the two cells whose interaction initiates both the cell-mediated and the humoral response.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p2 q7. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1477
+## title
+Which cell can divide
+## question
+Which cell can divide
+## vignette
+This item asks the student to identify the one circulating blood cell that retains the power to divide.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Erythrocytes
+## explanation_a
+The erythrocyte has no nucleus and no organelles — the space is given over to haemoglobin — so it cannot divide at all.
+## answer_b
+Thrombocyte
+## explanation_b
+The thrombocyte is a shed fragment of megakaryocyte cytoplasm with no nucleus, so division is impossible.
+## answer_c
+Lymphocyte
+## explanation_c
+Correct. The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.
+
+Why this is right:
+- Mature blood cells are, with one exception, end cells.
+## answer_d
+Monocyte
+## explanation_d
+The tempting one: the monocyte has a large nucleus and clearly changes into a macrophage. But that is differentiation, not division — it is already an end cell when it leaves the marrow.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-667148E42AB738
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Identify the one circulating blood cell that retains the power to divide.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q17. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1478
+## title
+Which of the following is a granulocyte?
+## question
+Which of the following is a granulocyte?
+## vignette
+This item asks the student to recognise the polymorphonuclear leukocyte as a granulocyte under its other name.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Thrombocyte
+## explanation_a
+A thrombocyte is a platelet, not a leukocyte at all — it is a non-nucleated fragment, and the granular/non-granular split applies only to white cells.
+## answer_b
+Monocyte
+## explanation_b
+The monocyte is a non-granular leukocyte. Its cytoplasm holds azurophil granules, which are lysosomes, but no specific granules.
+## answer_c
+Lymphocyte
+## explanation_c
+The lymphocyte is the other non-granular leukocyte, with only a thin rim of cytoplasm and a few azurophil granules in it.
+## answer_d
+Polymorphonuclear leukocyte
+## explanation_d
+Correct. Polymorphonuclear leukocyte is the neutrophil's other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.
+
+Why this is right:
+- White blood cells are classified by whether their cytoplasm carries specific granules.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-785718A47454E8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Recognise the polymorphonuclear leukocyte as a granulocyte under its other name.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p3 q16. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1479
+## title
+Which of these blood elements can differentiate into plasma cells?
+## question
+Which of these blood elements can differentiate into plasma cells?
+## vignette
+This item asks the student to name the blood element that becomes the antibody-secreting plasma cell.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Monocytes
+## explanation_a
+The monocyte differentiates in the tissues, but into the macrophage. Antibody production is not in its line.
+## answer_b
+Megakaryocytes
+## explanation_b
+The megakaryocyte sheds platelets in the marrow. It has nothing to do with immunity.
+## answer_c
+B Lymphocytes
+## explanation_c
+Correct. The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.
+
+Why this is right:
+- When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+- Some of its progeny become B memory cells, which give the rapid second response.
+## answer_d
+T Lymphocytes
+## explanation_d
+The near miss, and the reason this is asked: T lymphocytes are essential to the humoral response — the helper T cell is what licenses the B cell — but they mediate cell-mediated immunity and never become plasma cells themselves.
+## topic
+Blood
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the blood element that becomes the antibody-secreting plasma cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q63; Blood | Module 101 questions.pdf.pdf p2 q11; Dpt Book HISTO MCQ [Blood] (1).pdf p3 q20. Manifest src_2944234d11e92ac4bbc8, src_34c967631e388497dc35, src_995e491b2e22cc96d8ef.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1480
+## title
+Histiocytes originate from:
+## question
+Histiocytes originate from:
+## vignette
+This item asks the student to name the blood cell the tissue macrophage comes from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pericyte.
+## explanation_a
+The pericyte is the connective tissue stem cell around a capillary and gives rise to fibroblasts, smooth muscle and endothelium. It is a resident cell, and the histiocyte comes from the blood.
+## answer_b
+B-lymphocyte.
+## explanation_b
+The B lymphocyte becomes the plasma cell. Both answers are "a blood cell that settles in connective tissue and changes", which is what makes this the strongest distractor — but the product is an antibody factory, not a phagocyte.
+## answer_c
+Adipocyte.
+## explanation_c
+The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. It gives rise to nothing.
+## answer_d
+Monocyte.
+## explanation_d
+Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## topic
+Non granular leukocytes
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the blood cell the tissue macrophage comes from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q25; EOY 195 first 2022 101 ISK final (1).pdf p15 q15; EOY 195 first 2022  101 ISK  final module (1).pdf p12 q15. Manifest src_9e6aad6c6af097e473d6, src_51fef9b6234c5d381f59, src_1641d3629225bb111726.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: the macrophage, also called the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1481
+## title
+The surface marker/ receptor that identifies NK cell is:
+## question
+The surface marker/ receptor that identifies NK cell is:
+## vignette
+This item asks the student to give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+CD16.
+## explanation_a
+Correct. CD16 is the marker for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.
+
+Why this is right:
+- By function there are three lymphocytes, and they cannot be told apart by light or electron microscopy — only by their surface receptors.
+## answer_b
+CD4.
+## explanation_b
+CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; CD4 and CD8 belong to the T cell alone.
+## answer_c
+lg M.
+## explanation_c
+IgM is one of the two receptors of the B lymphocyte, together with IgD. The natural killer cell carries neither T nor B receptors, and that absence is part of its definition.
+## answer_d
+Ig
+## explanation_d
+The option is truncated to "Ig" on the paper, and whichever immunoglobulin it named it would still be a B cell receptor rather than an NK marker.
+## topic
+Non granular leukocytes
+## subtopic
+Non granular leukocytes
+## main_concept
+CON-HEM-FDAC2D5F64032E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NON-GRANULAR-LEUKOCYTES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q42. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
