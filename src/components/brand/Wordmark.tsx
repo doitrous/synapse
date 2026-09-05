@@ -74,7 +74,7 @@ export function Wordmark({
           nishany
         </span>
         {endorsement ? (
-          <span className="mt-[0.38em] font-sans text-[max(8px,0.32em)] font-semibold tracking-[0.2em] text-[#1b2b55]">
+          <span className="mt-[0.38em] font-sans text-[max(8px,0.32em)] font-semibold tracking-[0.2em] text-(--brand-endorse)">
             BY CONNECT
           </span>
         ) : null}

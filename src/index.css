@@ -631,6 +631,17 @@
   --auth-card-border: #241d18;
 }
 
+/* The wordmark's "BY CONNECT" endorsement — the Midnight Seed navy on light and
+   warm grounds, lifted to periwinkle on Dark/OLED where the navy would vanish.
+   One brand-level var so the global header lockup reads in every theme. */
+:root {
+  --brand-endorse: #1b2b55;
+}
+:root[data-theme='dark'],
+:root[data-theme='oled'] {
+  --brand-endorse: #aeb9e6;
+}
+
 @layer base {
   :root {
     color-scheme: light;
