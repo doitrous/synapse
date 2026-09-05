@@ -10,7 +10,7 @@ Conventional karyotype as a systematic chromosome arrangement
 genetics.cytogenetics.conventional-karyotype
 
 ## definition
-A conventional karyotype is presented in the ASU lecture as a systematic arrangement of the chromosomes of an individual, using dividing-cell samples such as peripheral blood lymphocytes, bone marrow or amniotic fluid.
+A **conventional karyotype** is a __systematic arrangement of an individual's chromosomes__, prepared from **dividing-cell** samples such as peripheral blood lymphocytes, bone marrow or amniotic fluid.
 
 ## explicit_objective
 Define conventional karyotype and name the sample types listed in the ASU cytogenetic techniques lecture.
@@ -182,7 +182,7 @@ High-resolution karyotype uses relatively uncondensed prophase or prometaphase c
 genetics.cytogenetics.high-resolution-karyotype
 
 ## definition
-High-resolution karyotype is taught in the ASU lecture as stopping division at prophase or prometaphase, when chromosomes are still relatively uncondensed.
+A **high-resolution karyotype** stops division at __prophase or prometaphase__, when chromosomes are still relatively **uncondensed** — giving finer structural detail than a standard metaphase spread.
 
 ## explicit_objective
 Explain the mitotic timing used for high-resolution karyotype in the ASU lecture.
@@ -354,7 +354,7 @@ FISH in ASU cytogenetic technique comparison
 genetics.cytogenetics.fish-technique
 
 ## definition
-In the ASU lecture comparison, FISH can detect chromosomal aneuploidy or rearrangements of any size, takes less time than karyotyping, and requires knowing what to look for before the study is requested.
+**FISH** can detect chromosomal **aneuploidy or rearrangements of any size** and takes less time than karyotyping, but __requires knowing what to look for before the study is requested.__
 
 ## explicit_objective
 State the advantages and target-dependence of FISH as compared with karyotype in the ASU lecture.
@@ -526,7 +526,7 @@ Microarray detects copy-number rearrangements but not balanced translocations
 genetics.cytogenetics.microarray-technique
 
 ## definition
-In the ASU lecture, microarray can detect small copy-number rearrangements across the genome, including deletions and duplications, without needing to know the locus, but it is unable to detect balanced translocations.
+**Microarray** detects small **copy-number rearrangements** across the genome (deletions and duplications) without needing to know the locus, but __it cannot detect balanced translocations__, where no material is gained or lost.
 
 ## explicit_objective
 State what microarray can detect and what limitation the ASU lecture gives for balanced translocations.

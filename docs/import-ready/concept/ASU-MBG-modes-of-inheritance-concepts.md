@@ -4,7 +4,7 @@
 CON-FND-C37775BB2D8741
 
 ## label
-Genotype, phenotype and allele are distinct levels of describing an inherited trait
+Genotype, phenotype and allele
 
 ## canonical_key
 genetics.terminology.genotype-phenotype-allele
@@ -21,7 +21,13 @@ Allele definition
 النمط الجيني والنمط الظاهري
 
 ## definition
-Genotype is an individual's genetic constitution at a locus — which alleles they carry. Phenotype is the physical, observable expression of that genotype. An allele is one alternative form of a gene. The three describe the same inherited trait at three different levels: the genetic makeup, the version of the gene, and the visible result.
+**Genotype** is an individual's genetic constitution at a locus — which alleles they carry.
+
+**Phenotype** is the physical, observable expression of that genotype.
+
+An **allele** is one alternative form of a gene.
+
+__The three describe the same trait at three levels__: the genetic makeup, the version of the gene, and the visible result.
 
 ## explicit_objective
 Distinguish genotype, phenotype and allele as three separate levels of describing an inherited trait, and use each term correctly in a pedigree scenario.
@@ -164,7 +170,7 @@ relationships: Walked the 12 concepts minted for this same Mode of Inheritance b
 CON-FND-9D8C8CCF783D24
 
 ## label
-Zygosity states — homozygous, heterozygous and compound heterozygous — describe which alleles a genotype carries
+Zygosity: homozygous, heterozygous, compound
 
 ## canonical_key
 genetics.terminology.zygosity-states
@@ -181,7 +187,13 @@ Zygosity
 تماثل الزيجوت وتغايره
 
 ## definition
-A genotype's zygosity state names which two alleles it carries at one locus. Homozygous means both alleles are identical (either both normal or both the same mutant). Heterozygous means the two alleles differ — commonly one normal and one mutant. Compound heterozygous is the specific case of two different mutant alleles of the same gene, with no normal copy present at all.
+A genotype's **zygosity state** names which two alleles it carries at one locus.
+
+**Homozygous**: both alleles are identical (either both normal or both the same mutant).
+
+**Heterozygous**: the two alleles differ — commonly one normal and one mutant.
+
+**Compound heterozygous**: __two different mutant alleles of the same gene, with no normal copy present at all.__
 
 ## explicit_objective
 Classify a genotype's zygosity state — homozygous, heterozygous or compound heterozygous — from a description of its two alleles.
@@ -323,7 +335,7 @@ relationships: Linked to CON-FND-C37775BB2D8741 (genotype/phenotype/allele) as t
 CON-FND-398856B4B32D8E
 
 ## label
-Autosomal dominant inheritance produces a vertical pedigree pattern with variable expressivity
+Autosomal dominant inheritance pattern
 
 ## canonical_key
 genetics.inheritance.autosomal-dominant-pattern
@@ -341,7 +353,9 @@ Variable expressivity
 الوراثة الجسمية السائدة
 
 ## definition
-Autosomal dominant (AD) inheritance shows an affected individual in every generation (a vertical pedigree), affects males and females equally, and needs only one affected parent to transmit the trait — each pregnancy of an affected-by-unaffected mating carries an independent 50% risk, unaffected by what happened in earlier pregnancies. The same mutation can still produce a milder or more severe phenotype in different affected relatives, a phenomenon called variable expressivity, and male-to-male transmission (which X-linked inheritance can never show) is a defining feature.
+**Autosomal dominant (AD)** inheritance shows an affected individual in every generation (a **vertical pedigree**), affects males and females equally, and needs only one affected parent to transmit. __Each pregnancy of an affected-by-unaffected mating carries an independent 50% risk__, regardless of earlier pregnancies.
+
+The same mutation can produce a milder or more severe phenotype in different relatives — **variable expressivity**. __Male-to-male transmission, which X-linked inheritance can never show, is a defining feature.__
 
 ## explicit_objective
 Recognise an autosomal dominant pedigree from its vertical pattern and calculate the 50% per-pregnancy risk, while accounting for variable expressivity between affected relatives.
@@ -484,7 +498,7 @@ relationships: Contrasts with CON-FND-87B8D24E724816 (autosomal recessive patter
 CON-FND-B8CDB276EC9E25
 
 ## label
-A new mutation explains an autosomal dominant disorder appearing in a child of unaffected parents
+New (de novo) mutation in sporadic AD disease
 
 ## canonical_key
 genetics.inheritance.new-mutation-sporadic-ad
@@ -501,7 +515,9 @@ New mutation in achondroplasia
 الطفرة الجديدة (الطفرة الوليدة)
 
 ## definition
-When a child has an autosomal dominant disorder but both parents are clinically unaffected and unrelated, the most common textbook explanation is a new (de novo) mutation arising in one parent's germ cell at conception, not reduced penetrance and not a hidden recessive mechanism. Achondroplasia is the classic example: most cases arise in families with no prior history, from a new mutation, typically in the paternal germline.
+When a child has an autosomal dominant disorder but both parents are clinically unaffected and unrelated, __the most common explanation is a new (de novo) mutation arising in one parent's germ cell at conception__ — not reduced penetrance and not a hidden recessive mechanism.
+
+**Achondroplasia** is the classic example: most cases arise in families with no prior history, from a new mutation, typically in the **paternal germline**.
 
 ## explicit_objective
 Identify a new (de novo) mutation as the explanation for a sporadic autosomal dominant disorder appearing in a child of unaffected parents.
@@ -642,7 +658,7 @@ relationships: Linked to CON-FND-398856B4B32D8E (autosomal dominant pattern) as 
 CON-FND-87B8D24E724816
 
 ## label
-Autosomal recessive inheritance requires two carrier parents and typically clusters in one generation
+Autosomal recessive inheritance pattern
 
 ## canonical_key
 genetics.inheritance.autosomal-recessive-pattern
@@ -660,7 +676,9 @@ Carrier-by-carrier cross
 الوراثة الجسمية المتنحية
 
 ## definition
-Autosomal recessive (AR) inheritance needs two carrier (heterozygous, clinically normal) parents. Each pregnancy of a carrier-by-carrier mating then carries a 25% risk of an affected (homozygous mutant) child, a 50% chance of a carrier child, and a 25% chance of a homozygous-normal child. Unlike autosomal dominant disease, AR disease typically clusters within a single generation of siblings rather than appearing in every generation, and consanguinity raises the chance both parents happen to carry the same recessive allele.
+**Autosomal recessive (AR)** inheritance needs two **carrier** (heterozygous, clinically normal) parents. Each pregnancy of a carrier-by-carrier mating then carries a __25% risk of an affected child, 50% carrier, 25% homozygous-normal.__
+
+Unlike AD disease, AR disease typically **clusters within a single generation of siblings** rather than appearing in every generation. **Consanguinity** raises the chance both parents carry the same recessive allele.
 
 ## explicit_objective
 Recognise an autosomal recessive pedigree and calculate the 25% affected / 50% carrier / 25% unaffected recurrence risk for a carrier-by-carrier mating.
@@ -804,7 +822,7 @@ relationships: Contrasts with CON-FND-398856B4B32D8E (autosomal dominant pattern
 CON-FND-70936F91A4C8E5
 
 ## label
-X-linked dominant inheritance: an affected father transmits to all his daughters and none of his sons
+X-linked dominant inheritance pattern
 
 ## canonical_key
 genetics.inheritance.x-linked-dominant-pattern
@@ -821,7 +839,11 @@ X-linked hypophosphataemic rickets pattern
 الوراثة السائدة المرتبطة بـX
 
 ## definition
-X-linked dominant (XLD) inheritance shows no male-to-male transmission, because a father passes his Y chromosome, never his X, to a son. An affected father transmits the condition to all of his daughters (who all receive his single X) and none of his sons. An affected heterozygous mother transmits it to 50% of her children, regardless of sex. X-linked hypophosphataemic rickets is the classic teaching example, distinguishing this pattern from both autosomal dominant inheritance (where sex does not affect transmission) and X-linked recessive inheritance (where an affected father's daughters are carriers, not affected).
+**X-linked dominant (XLD)** inheritance shows __no male-to-male transmission__, because a father passes his Y — never his X — to a son.
+
+An **affected father** transmits to **all his daughters** (who all receive his single X) and **none of his sons**. An affected heterozygous **mother** transmits to **50% of her children**, regardless of sex.
+
+**X-linked hypophosphataemic rickets** is the classic example. It differs from AD (where sex does not affect transmission) and from X-linked recessive (where an affected father's daughters are carriers, not affected).
 
 ## explicit_objective
 Predict the transmission pattern of an X-linked dominant disorder from an affected mother or an affected father, and distinguish it from both autosomal dominant and X-linked recessive inheritance.
@@ -964,7 +986,7 @@ relationships: Contrasts with CON-FND-592065F09E7EC8 (X-linked recessive pattern
 CON-FND-592065F09E7EC8
 
 ## label
-X-linked recessive inheritance affects males almost exclusively through carrier mothers
+X-linked recessive inheritance pattern
 
 ## canonical_key
 genetics.inheritance.x-linked-recessive-pattern
@@ -981,7 +1003,11 @@ Sex-linked recessive inheritance
 الوراثة المتنحية المرتبطة بـX
 
 ## definition
-X-linked recessive (XLR) inheritance affects males almost exclusively, because a male has only one X chromosome and any recessive allele on it is unopposed by a second, normal copy. A carrier (heterozygous) mother transmits the disease allele to 50% of her sons, who are affected, and 50% of her daughters, who become carriers. An affected father transmits the allele to all of his daughters, who all become obligate carriers, and to none of his sons, who receive his Y chromosome instead. There is no male-to-male transmission. Duchenne muscular dystrophy and haemophilia are the classic teaching examples.
+**X-linked recessive (XLR)** inheritance __affects males almost exclusively__, because a male's single X leaves any recessive allele on it unopposed by a second, normal copy.
+
+A **carrier mother** transmits the disease allele to **50% of her sons** (affected) and **50% of her daughters** (carriers). An **affected father** transmits it to **all his daughters** (obligate carriers) and **none of his sons**, who receive his Y instead — so there is no male-to-male transmission.
+
+**Duchenne muscular dystrophy** and **haemophilia** are the classic examples.
 
 ## explicit_objective
 Predict the transmission pattern of an X-linked recessive disorder from a carrier mother or an affected father, and explain why males are affected far more often than females.
@@ -1125,7 +1151,7 @@ relationships: Contrasts with CON-FND-70936F91A4C8E5 (X-linked dominant pattern)
 CON-FND-613ADDD5AAE5EA
 
 ## label
-Y-linked (holandric) inheritance passes only from father to all sons
+Y-linked (holandric) inheritance
 
 ## canonical_key
 genetics.inheritance.y-linked-holandric-pattern
@@ -1142,7 +1168,9 @@ Y-linked transmission
 الوراثة الهولاندرية
 
 ## definition
-Y-linked (holandric) inheritance passes only from an affected father to all of his sons, because only sons inherit the Y chromosome; none of his daughters are affected or carriers, since they never receive a Y chromosome. This is the one single-gene pattern in which male-to-male transmission is obligatory in every affected lineage, not merely a possibility as it is in autosomal inheritance.
+**Y-linked (holandric)** inheritance passes only from an affected father __to all of his sons__, because only sons inherit the Y. None of his daughters are affected or carriers, since they never receive a Y.
+
+This is the one single-gene pattern in which **male-to-male transmission is obligatory** in every affected lineage, not merely a possibility as in autosomal inheritance.
 
 ## explicit_objective
 Identify Y-linked (holandric) inheritance from its obligatory, sons-only, male-to-male transmission pattern.
@@ -1284,7 +1312,7 @@ relationships: Related to CON-FND-592065F09E7EC8 (X-linked recessive pattern) an
 CON-FND-2ECC10B655DD47
 
 ## label
-Mitochondrial inheritance passes only from an affected mother to all her children
+Mitochondrial inheritance pattern
 
 ## canonical_key
 genetics.inheritance.mitochondrial-pattern
@@ -1301,7 +1329,9 @@ Cytoplasmic inheritance
 الوراثة الخلوية (السيتوبلازمية)
 
 ## definition
-Mitochondrial inheritance passes only through the mother. An affected mother transmits her mitochondrial genome, and therefore any mitochondrial mutation, to all of her children regardless of sex, because the egg's cytoplasm (and its mitochondria) forms the zygote's cytoplasm. An affected father transmits the mutation to none of his children, because sperm mitochondria are not retained after fertilisation.
+**Mitochondrial inheritance passes only through the mother.** An affected mother transmits her mitochondrial genome — and any mitochondrial mutation — to __all of her children regardless of sex__, because the egg's cytoplasm (and its mitochondria) forms the zygote's cytoplasm.
+
+An **affected father transmits to none of his children**, because sperm mitochondria are not retained after fertilisation.
 
 ## explicit_objective
 Predict that only an affected mother, never an affected father, transmits a mitochondrial disorder, and to all of her children regardless of sex.
@@ -1444,7 +1474,7 @@ relationships: Related to CON-FND-613ADDD5AAE5EA (Y-linked pattern) as the other
 CON-FND-12961F079B4C89
 
 ## label
-Genomic imprinting explains why losing the paternal versus maternal chromosome 15 region causes Prader-Willi versus Angelman syndrome
+Genomic imprinting: Prader-Willi vs Angelman
 
 ## canonical_key
 genetics.imprinting.prader-willi-angelman
@@ -1462,7 +1492,13 @@ Parent-of-origin effect
 الوسم الجيني الأبوي
 
 ## definition
-Genomic imprinting silences one parent's copy of certain genes in the germline, so only the other parent's copy is normally active in the offspring. At chromosome 15q11-13, only the paternally-inherited copy of the region is normally active; losing it — most often by a deletion of the paternal chromosome 15, or by maternal uniparental disomy — causes Prader-Willi syndrome. The maternally-inherited copy of a nearby gene (UBE3A) is instead the one normally active; losing that active maternal copy causes Angelman syndrome. The two syndromes are reciprocal disorders of the same chromosomal region, distinguished entirely by which parent's copy was lost.
+**Genomic imprinting** silences one parent's copy of certain genes in the germline, so only the other parent's copy is normally active in the offspring.
+
+At chromosome **15q11-13**, only the **paternally-inherited** copy is normally active. Losing it — usually a deletion of the paternal chromosome 15, or maternal uniparental disomy — causes __Prader-Willi syndrome__.
+
+For a nearby gene (**UBE3A**), the **maternally-inherited** copy is the active one. Losing that active maternal copy causes __Angelman syndrome__.
+
+The two are **reciprocal disorders of the same region**, distinguished entirely by which parent's copy was lost.
 
 ## explicit_objective
 Explain why loss of the paternal versus the maternal copy of chromosome 15q11-13 produces two different syndromes (Prader-Willi versus Angelman), citing genomic imprinting as the mechanism.
@@ -1606,7 +1642,7 @@ relationships: Related to CON-FND-A385468E42B123 (trinucleotide repeat/anticipat
 CON-FND-A385468E42B123
 
 ## label
-Trinucleotide repeat expansion disorders show genetic anticipation — earlier onset, greater severity each generation
+Trinucleotide repeat expansion and anticipation
 
 ## canonical_key
 genetics.mutation.trinucleotide-repeat-anticipation
@@ -1624,7 +1660,11 @@ Dynamic mutation
 الطفرة الديناميكية
 
 ## definition
-A trinucleotide repeat expansion disorder is caused by a repeated three-nucleotide sequence within or near a gene expanding beyond a disease threshold. Huntington's disease is the worked example: a CAG repeat within the coding region (polyglutamine tract) becomes disease-causing at roughly 36 repeats or more. Because the repeat tends to expand further with each transmission, these disorders show genetic anticipation — an earlier age of onset and greater severity in each successive generation of an affected family.
+A **trinucleotide repeat expansion** disorder is caused by a repeated three-nucleotide sequence within or near a gene expanding beyond a disease threshold.
+
+**Huntington's disease** is the worked example: a **CAG repeat** in the coding region (polyglutamine tract) becomes disease-causing at roughly **36 repeats or more**.
+
+Because the repeat tends to expand further with each transmission, these disorders show __genetic anticipation — earlier onset and greater severity in each successive generation.__
 
 ## explicit_objective
 Define genetic anticipation and link it to trinucleotide repeat expansion, using Huntington's disease and its approximately 36-repeat threshold as the worked example.
@@ -1769,7 +1809,7 @@ relationships: Related to CON-FND-398856B4B32D8E (autosomal dominant pattern), s
 CON-FND-D1119AD6424AF0
 
 ## label
-Multifactorial disease recurrence risk rises with closer relatedness, more affected relatives and greater severity
+Multifactorial disease: recurrence-risk factors
 
 ## canonical_key
 genetics.inheritance.multifactorial-risk-factors
@@ -1786,7 +1826,9 @@ Complex trait recurrence risk
 الوراثة المتعددة الجينات والعوامل البيئية
 
 ## definition
-A multifactorial disorder results from the combined effect of several genes and environmental factors, so it does not follow a fixed Mendelian recurrence fraction such as 25% or 50%. Instead, the recurrence risk to a relative rises with a closer degree of relationship to the affected individual, with a greater number of already-affected relatives in the family, and with greater severity of the affected individual's own malformation.
+A **multifactorial disorder** results from the combined effect of several genes and environmental factors, so __it does not follow a fixed Mendelian fraction such as 25% or 50%.__
+
+Instead, the recurrence risk to a relative rises with a **closer degree of relationship** to the affected individual, a **greater number of already-affected relatives**, and **greater severity** of the affected individual's own malformation.
 
 ## explicit_objective
 List the three factors that raise a multifactorial disorder's recurrence risk — closer relatedness, more affected relatives, greater severity in the index case — and contrast this with single-gene recurrence risk.
