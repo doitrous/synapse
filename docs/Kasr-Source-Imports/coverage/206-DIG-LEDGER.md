@@ -6,7 +6,8 @@
 | 2025-eom-anatomy-tranche-2 (Q17-42, same paper) | 26 | 0 | 78 | 104 |
 | 2025-eom-physiology-tranche-3 (Q43-64, same paper) | 22 | 0 | 56 | 78 |
 | 2025-eom-physiology-tranche-4 (Q65-84, same paper) | 20 | 0 | 36 | 56 |
-| 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 62 | 0 | 1 (untriaged) | 1 |
+| 2025-eom-histology-tranche-5 (Q85-104, same paper) | 20 | 0 | 16 | 36 |
+| 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
 (Q17-42, all Anatomy — posterior abdominal wall/retroperitoneal vasculature and nerves,
@@ -51,6 +52,26 @@ secreted"); Q73-84 relied on the tranche-3 render verification. Authored in
 created=43/rejected=0, audit neutral vs the tranche-3 baseline — no new error categories).
 **36 questions remain on this paper: Q85-113 Histology (29) + Q114-120 Biochemistry (7)** —
 all render-verified, next author starts at Q85.
+
+Tranche 5: 20/20 questions authored (Q85-104, all Histology — organ histology of the
+digestive tract and its glands: oral mucosa/lingual papillae/taste buds/oesophagus Q85-88;
+stomach [peptic ulcer, enteroendocrine infranuclear Golgi, chief/peptic cells, pylorus]
+Q89-92; intestines [goblet-cell distribution, appendix lymphoid tissue, enterocyte brush
+border, M cells] Q93-96; salivary glands/exocrine and endocrine pancreas/gall bladder/liver
+Q97-104), 0 held, 0 excluded. 20 new histology concepts minted university-blind via
+mint-concept-id.mjs (all `CON-GIT-*`, SYSTEM=GIT; SHA-256 collision-checked against 15618
+live/import-ready IDs — no collisions), all filed under DIS-HIS-T03 (Organ histology) with
+SYS-GIT-T01 cross-nav, grouped into 4 library articles (oral cavity/tongue/oesophagus;
+stomach; intestines; glands and liver). Keys were render-verified in the tranche-3 mapping
+pass; PDF p.12 (pagetext page 13, Q90-97) was re-rendered this pass to read Q93's
+watermark-garbled option b (the circled answer is "Sigmoid colon") and re-confirm every "@"
+marker — all matched. Authored in `question/206-DIG-2025eom-mcq-tranche5.md`,
+`concept/206-DIG-histology-tranche5-concepts.md`,
+`article/206-DIG-histology-tranche5-articles.md`. Gate-clean (batch 0 errors, simulate
+created=44/rejected=0, audit neutral vs the tranche-4 baseline — 23 category types in both,
+no new categories; the only delta is 4 vs 3 article-placeholder sets, proportionate to the
+extra article). **16 questions remain on this paper: Q105-113 Histology tail (9) +
+Q114-120 Biochemistry (7)** — all render-verified, next author starts at Q105.
 
 ## Sources
 
