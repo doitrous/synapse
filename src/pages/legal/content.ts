@@ -51,9 +51,6 @@ export interface LegalPageContent {
 
 export type LegalPageKey = 'terms' | 'privacy' | 'refund' | 'contact' | 'accessibility'
 
-/** The exact line the pricing page already shows, reused as the refund opener. */
-const REFUND_LINE = '14-day refund window, subject to the published refund policy and abuse controls.'
-
 const TERMS: LegalPageContent = {
   slug: '/terms',
   title: 'Terms and Conditions',
@@ -76,14 +73,39 @@ const TERMS: LegalPageContent = {
       id: 'accounts',
       heading: 'Your account and eligibility',
       paragraphs: [
-        'You need an account to use Nishany. You give a real email address, verify it, and tell us the university and academic year you study in, because the curriculum you see is scoped to that cohort.',
+        'You need an account to use Nishany. You sign in with your phone number or email and a password, and you tell us the university, field of study and academic year you study in, because the curriculum you see is scoped to that cohort.',
         'The account is personal. It belongs to one student and is meant to be used by that student alone.',
         'You are responsible for what happens under your account, including keeping your sign-in details private. Tell us straight away if you think someone else has your credentials.',
       ],
       bullets: [
         'One account per student.',
-        'Accurate university and year, so your content is the right content.',
-        'A working email address, because access and billing notices go there.',
+        'Accurate university, field and year, so your content is the right content.',
+        'A working phone number and email address, because access and billing notices go there.',
+      ],
+    },
+    {
+      id: 'required-info',
+      heading: 'Required information and how it is used',
+      paragraphs: [
+        'When you create an account, some information is required: your full name, phone number, academic year, field of study, and university. You may also add a profile picture, which is optional.',
+        'This information is collected to improve the course recommendations you see and your experience on the platform. It is not sold, and it is not shared with third parties for their own purposes; it is stored securely in line with our privacy policy.',
+      ],
+      bullets: [
+        'Full name',
+        'Phone number',
+        'Academic year',
+        'Field of study',
+        'University',
+        'Profile picture (optional)',
+      ],
+    },
+    {
+      id: 'device-binding',
+      heading: 'Account registration and device binding',
+      paragraphs: [
+        'When you create an account, it is automatically linked to the device you registered on. This protects your data and your subscription from being used on another device without your knowledge.',
+        'To move your account to a new device, contact support at ' + SUPPORT_ADDRESS + '. Once we have verified you, we unlink the old device and let you sign in on the new one with your phone number or email and password. The old device details we held — brand, manufacturer and Android version — are deleted at that point.',
+        'If you try to sign in on a new device before it is approved, the app tells you so: "This account is linked to another device. To switch devices, contact ' + SUPPORT_ADDRESS + '."',
       ],
     },
     {
@@ -113,6 +135,26 @@ const TERMS: LegalPageContent = {
       ],
     },
     {
+      id: 'prohibited-environments',
+      heading: 'Prohibited device settings and environments',
+      paragraphs: [
+        'To protect the content and keep the platform fair for everyone, some device settings and environments are not allowed. Where one is detected, access to the app or to certain features may be restricted, and we may act on the account.',
+        'Developer options. You must turn off your device’s developer options before using the app, because the tools they expose can be used to capture protected content. The app may restrict features while they are enabled.',
+        'Emulators and virtual devices. Running the app on an emulator, a virtual machine, or anything that simulates a physical device is not allowed, and access may be denied where it is detected.',
+        'Rooted devices. Rooted devices — those modified to bypass the manufacturer’s restrictions — are a security risk and are not supported. Access from them may be restricted or blocked.',
+      ],
+    },
+    {
+      id: 'in-course-security',
+      heading: 'Extra security while watching a course',
+      paragraphs: [
+        'Some courses turn on extra protections during video playback, at the course owner’s request, to prevent recording and piracy. If one of these gets in your way, contact the course instructor or ' + SUPPORT_ADDRESS + ' and we can review it and, where appropriate, turn it off for your account.',
+        'Headphones. Some courses require headphones to be connected while a video plays, to make it harder to record the audio.',
+        'Biometric checks. Some courses ask for a fingerprint or similar check at intervals during playback, to confirm the account owner is the one watching. If your device has no biometric support, the instructor can disable this for you.',
+        'Name announcement. Some courses read the account holder’s name aloud from time to time during playback, to discourage screen recording. The course owner can remove this on request.',
+      ],
+    },
+    {
       id: 'content-ownership',
       heading: 'Content and ownership',
       paragraphs: [
@@ -128,6 +170,20 @@ const TERMS: LegalPageContent = {
         'Anything you make in Nishany — notes, whiteboards, highlights, bookmarks, plans, uploaded files — stays yours. We do not claim ownership of it and we do not sell it.',
         'To run the service we need permission to store it, back it up, and show it back to you on your devices, and to show it to anybody you deliberately share it with (a shared note link, a study room you join).',
         'You are responsible for what you upload: that you are allowed to upload it, and that it does not breach somebody else\'s rights.',
+      ],
+    },
+    {
+      id: 'interacting',
+      heading: 'Comments and reporting',
+      paragraphs: [
+        'You can comment on courses, lessons and quizzes to ask questions or leave feedback. To keep the space usable, comments must stay civil: no offensive language or hate speech, no harassment or personal attacks, and no spam or off-topic messages. Comments that break these rules may be removed and the account may face further action. Other users can report a comment, and our moderation team reviews what is reported.',
+        'If something in the course material is wrong or broken, report it from the app with a short note of what you saw. We review reports and act on them as soon as we can. Things worth reporting include:',
+      ],
+      bullets: [
+        'Videos that do not play or are broken',
+        'Files that are missing or corrupted',
+        'Quiz questions with the wrong answer',
+        'Inappropriate or misleading course content',
       ],
     },
     {
@@ -179,7 +235,7 @@ const TERMS: LegalPageContent = {
       id: 'changes',
       heading: 'Changes to these terms',
       paragraphs: [
-        'We may update these terms as the service changes or the law requires. The date at the top of this page is the date of the version you are reading.',
+        'We may update these terms as the service changes or the law requires, so it is worth reviewing them from time to time. The date at the top of this page is the date of the version you are reading.',
         'If a change materially affects you — pricing structure, refund mechanics, how your data is used — we will tell you by email or in the app before it takes effect. Continuing to use Nishany after that date means you accept the new version.',
       ],
     },
@@ -215,9 +271,9 @@ const PRIVACY: LegalPageContent = {
       id: 'what-we-collect',
       heading: 'What we collect',
       paragraphs: [
-        'Account identity. Your email address and password are held by Supabase Auth, the sign-in service Nishany uses; the password is stored as a hash and is never visible to us. Alongside that we keep your display name, your university, your academic year, and whether your email is verified.',
+        'Account identity. Your phone number, email address and password are held by Supabase Auth, the sign-in service Nishany uses; the password is stored as a hash and is never visible to us. Alongside that we keep your full name, your field of study, your university, your academic year, an optional profile picture, and whether your account is verified.',
         'Learning records. Everything you do in the study surfaces is stored against your verified account id: question attempts and their outcomes, timing, review scheduling, notes, whiteboards, highlights, bookmarks, plans, tasks and uploaded files.',
-        'Devices and reminders. If you turn on reminders we store a push token for that device so a notification can reach it. Turning reminders off removes it.',
+        'Devices and reminders. Your account is bound to the device you registered on, and we keep that device’s brand, manufacturer and operating-system version for that purpose; these are deleted when you move your account to a new device. If you turn on reminders we also store a push token for the device so a notification can reach it, which is removed when you turn reminders off.',
         'Technical records. Ordinary server logs — request times, IP address, browser and device type — kept for security and for finding faults.',
         'Payment records. What you bought, when, for how much, and the payment reference. Card numbers never reach Nishany; they are handled by the payment provider.',
       ],
@@ -230,6 +286,7 @@ const PRIVACY: LegalPageContent = {
       ],
       bullets: [
         'To give you access to the right curriculum for your university and year.',
+        'To recommend the courses and content that fit your university, field and year.',
         'To keep your progress: to schedule reviews, draw your performance, and show your own notes back to you.',
         'To take payment and to keep the accounting records we are required to keep.',
         'To send the messages the service needs to send — verification, billing, and reminders you asked for.',
@@ -318,74 +375,37 @@ const REFUND: LegalPageContent = {
   slug: '/refund-policy',
   title: 'Refund Policy',
   documentTitle: 'Refund Policy · Nishany',
-  description: 'How refunds work at Nishany: the 14-day window, how to ask for one, what is excluded, and how long it takes.',
+  description: 'How refunds work at Nishany: how requests are reviewed, upgrading or downgrading a subscription, and the free trial.',
   updated: UPDATED,
-  intro: REFUND_LINE,
+  intro: 'Refund requests for Nishany purchases are reviewed one by one, and the amount we decide on is final.',
   sections: [
     {
-      id: 'window',
-      heading: 'The refund window',
-      needsReview: true,
+      id: 'how-refunds-work',
+      heading: 'How refunds are decided',
       paragraphs: [
-        REFUND_LINE,
-        'The window runs from the moment a payment is taken, not from the day you first open the app. It applies to the purchase you are asking about, not to earlier ones.',
-        'How the window interacts with a renewed or extended period, and whether it is offered more than once per account, still needs to be settled. Treat [REFUND WINDOW MECHANICS] as unconfirmed.',
+        'Every refund request for a Nishany purchase is evaluated on its own, case by case. The refund amount we determine for a request is final.',
+      ],
+    },
+    {
+      id: 'upgrade-downgrade',
+      heading: 'Upgrading or downgrading a subscription',
+      paragraphs: [
+        'If a subscription you bought has not been activated yet, you can ask to upgrade or downgrade it. For a combination package, every subscription included in it must be unused.',
+        'You can also ask to upgrade or downgrade a renewal, as long as the renewal period has not started. Whichever way you switch, the current price of the subscription applies.',
+      ],
+    },
+    {
+      id: 'trial',
+      heading: 'Free trial',
+      paragraphs: [
+        'Most products come with a 3-day free trial, so you can try one before you pay for it.',
       ],
     },
     {
       id: 'how-to-request',
-      heading: 'How to ask for a refund',
+      heading: 'How to ask',
       paragraphs: [
-        'Write to ' + SUPPORT_ADDRESS + ' from the email address on the account, or use the contact page. There is no form to fill in and no reason you have to give.',
-        'Tell us which payment you mean so we can find it quickly.',
-      ],
-      bullets: [
-        'The email address on the account.',
-        'The date of the payment and the amount.',
-        'The payment reference from your receipt, if you still have it.',
-      ],
-    },
-    {
-      id: 'excluded',
-      heading: 'What is not refundable',
-      needsReview: true,
-      paragraphs: [
-        'Two of these follow from the published line itself. The rest are proposed, not policy: they are the exclusions we expect to apply, and they are marked so, because the only refund term Nishany has published is the 14-day window and the reference to abuse controls.',
-      ],
-      bullets: [
-        'Requests made after the 14-day window has passed.',
-        'The trial, because it is free and nothing was charged.',
-        '[TO CONFIRM] Access bought with a voucher or a scholarship, to the extent nothing was paid for it.',
-        '[TO CONFIRM] Accounts closed for breaking the acceptable use rules — account sharing, reselling access, or scraping the question bank.',
-        '[TO CONFIRM] Repeat requests where the pattern is buy, use, refund, buy again.',
-      ],
-    },
-    {
-      id: 'timing',
-      heading: 'How long it takes',
-      needsReview: true,
-      paragraphs: [
-        'We answer refund requests within [SUPPORT RESPONSE TIME]. Once a refund is approved we send it back through the same payment method it came from.',
-        'The money then takes [REFUND PROCESSING DAYS] to reach you, depending on your bank or card issuer — that part is outside our control.',
-        'The response time and the processing time above have not been confirmed with the payment provider.',
-      ],
-    },
-    {
-      id: 'cancelling',
-      heading: 'Cancelling without a refund',
-      paragraphs: [
-        'Access does not renew on its own, so there is nothing to cancel to avoid a future charge.',
-        'If you are past the window, you keep access until the end of the period you paid for. Your notes, uploads, bookmarks and attempt history stay attached to your account after it ends, and are there again when you come back.',
-      ],
-    },
-    {
-      id: 'abuse',
-      heading: 'Abuse controls',
-      needsReview: true,
-      paragraphs: [
-        'The published line says the window is "subject to … abuse controls". This section is what we understand those controls to be, and it is a draft: what actually counts as abuse of the refund window, and what evidence is enough to refuse on it, is [ABUSE CONTROLS TO CONFIRM].',
-        'The intent is settled even where the mechanics are not. The window exists so that a student who finds Nishany is not what they needed is not stuck with it, and not so that a term can be studied and then handed back.',
-        '[TO CONFIRM] We expect to look at how an account was used before refunding, and to be able to refuse a request where the account was shared, where the content was bulk-downloaded, or where the same account has done this before.',
+        'Write to ' + SUPPORT_ADDRESS + ' from the email address or phone number on your account, or use the contact page. Tell us which purchase you mean so we can find it quickly.',
       ],
     },
     {
@@ -450,7 +470,7 @@ const CONTACT: LegalPageContent = {
       id: 'other-routes',
       heading: 'Refunds, privacy and account deletion',
       paragraphs: [
-        'These all go to the same inbox, and each has its own page explaining what happens: the refund policy sets out the window and the exclusions, and the privacy policy covers exports, corrections and deletion.',
+        'These all go to the same inbox, and each has its own page explaining what happens: the refund policy sets out how requests are reviewed, and the privacy policy covers exports, corrections and deletion.',
         'To have your account deleted, write from the address on the account and say so plainly. Deletion is permanent.',
       ],
     },
@@ -458,67 +478,62 @@ const CONTACT: LegalPageContent = {
       id: 'form',
       heading: 'Send us a message',
       paragraphs: [
-        'There is no contact endpoint on this site yet, so this form does not send anything by itself. Filling it in and choosing "Open in my mail app" composes the email in whatever mail application your device uses, addressed to ' + SUPPORT_ADDRESS + ' — you send it from there, and you keep a copy in your own sent items.',
-        'If nothing opens, your device has no mail application set up. Write to ' + SUPPORT_ADDRESS + ' directly instead.',
+        'Filling in the form below and choosing "Send message" delivers it straight to the support inbox.',
+        'If it does not send, write to ' + SUPPORT_ADDRESS + ' directly instead.',
       ],
     },
   ],
 }
 
-const ACCESSIBILITY: LegalPageContent = {
+/**
+ * The accessibility statement.
+ *
+ * Part of `LEGAL_PAGES` / `LegalPageKey` like the other four: the admin's
+ * `/admin/legal` override editor patches it the same way, and `LegalPage.tsx`
+ * merges an override for it because `legalSlugOf('/accessibility')` resolves
+ * to the `accessibility` slug in `src/data/legalPages.ts`'s `LEGAL_SLUGS`.
+ */
+export const ACCESSIBILITY: LegalPageContent = {
   slug: '/accessibility',
   title: 'Accessibility Statement',
   documentTitle: 'Accessibility Statement · Nishany',
-  description: 'Our commitment to making Nishany usable with a keyboard, a screen reader, and at every zoom level — and how to report a barrier.',
-  updated: UPDATED,
+  description: 'What Nishany does to be usable with assistive technology, what still falls short of that, and how to report a barrier.',
+  updated: '2026-09-03',
   intro:
-    'Nishany is built to be usable by every student, including students who navigate by keyboard, who use a screen reader, or who need larger text or more contrast. This page states that commitment and how to tell us when we fall short of it.',
+    'Nishany is built to be usable by every student who needs it, including students who use a screen reader, a keyboard alone, or a browser\'s own zoom and contrast settings. This page says what we target, where we currently fall short of it, and how to tell us about a barrier you hit.',
   sections: [
     {
       id: 'standard',
-      heading: 'Our standard',
+      heading: 'Conformance target',
       paragraphs: [
-        'We build and review Nishany against the Web Content Accessibility Guidelines (WCAG) 2.1, level AA. That is our target for every screen we ship, not a bar we clear once and leave — new features are reviewed against it before they go out, the same as any other correctness check.',
-        'This is a statement of intent and ongoing work, not a claim that every screen already passes a formal audit. Where a specific screen falls short, tell us — see "Report a barrier" below — and we will treat it as a bug.',
+        'We target WCAG 2.1 level AA across the student site — the pages at nishany.com and the study application at /app.',
+        'The current status is partially conformant: most of the interface meets that target, and the sections below name where it does not yet.',
       ],
     },
     {
-      id: 'what-we-do',
-      heading: 'What that looks like in the product',
+      id: 'scope',
+      heading: 'Scope',
       paragraphs: [
-        'A few of the concrete things this means, drawn from how the app is actually built:',
+        'This statement covers the Nishany student site: the marketing pages, sign-in and sign-up, and the study application. It does not cover third-party content embedded inside it, such as an individual PDF a university has provided as a source.',
+      ],
+    },
+    {
+      id: 'limitations',
+      heading: 'Known limitations',
+      paragraphs: [
+        'These are the areas we know fall short of AA today, and are working through in order of how many students they affect.',
       ],
       bullets: [
-        'Every control reachable and operable by keyboard alone, with a visible focus state.',
-        'Dialogs and menus trap focus while open, return it on close, and close on Escape.',
-        'Form fields carry real labels, and a failed save is announced to assistive technology rather than only shown in colour.',
-        'Text and interface colours are checked for contrast, in every theme — Light, Warm, Dark and Black.',
-        'Layout that holds up at larger browser zoom and text-size settings, rather than clipping or overlapping.',
-        'Motion that respects a reduced-motion preference where the system exposes one.',
+        'PDF reader annotations — highlighting and note-taking on an opened document are placed with a pointer and do not yet have a full keyboard or screen-reader equivalent.',
+        'The whiteboard canvas — drawing and arranging objects on a whiteboard is a pointer-driven surface without a non-visual equivalent yet.',
+        'Live study-room audio — voice study rooms have no live captioning.',
       ],
     },
     {
-      id: 'known-gaps',
-      heading: 'Known gaps',
-      needsReview: true,
+      id: 'feedback',
+      heading: 'Reporting a barrier',
       paragraphs: [
-        'Nishany has surfaces — live study rooms, some data-dense admin screens, and drawing-based practice — that are harder to make fully equivalent by keyboard and screen reader than a form or a document, and we do not yet claim full AA conformance on all of them.',
-        'A specific list of open gaps and their target dates is [ACCESSIBILITY GAP LIST TO PUBLISH]. Until it exists, the fastest way to know the state of a particular screen is to ask us or to report what you found.',
-      ],
-    },
-    {
-      id: 'report',
-      heading: 'Report a barrier',
-      paragraphs: [
-        'If part of Nishany is hard or impossible to use with the technology or settings you rely on, write to ' + SUPPORT_ADDRESS + ' and tell us the page, what you were trying to do, and what happened. Mention your browser, device and any assistive technology in use — that is usually enough for us to reproduce it.',
-        'We treat an accessibility report as a bug, not a feature request: it goes into the same queue that content errors and faults go into, and we will tell you when it is fixed.',
-      ],
-    },
-    {
-      id: 'changes',
-      heading: 'Changes to this statement',
-      paragraphs: [
-        'When this statement changes, the date at the top changes with it.',
+        'If you hit a barrier that is not listed above, or one that is, tell us through the contact page and we will look at it. Include the page, what you were trying to do, and what assistive technology or browser setting you were using — that is usually enough for us to reproduce it.',
       ],
     },
   ],

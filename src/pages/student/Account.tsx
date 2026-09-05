@@ -1,26 +1,22 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import {
-  Bell, BookOpen, Bot, Check, Download, FileText, KeyRound, LockKeyhole,
-  LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound,
-} from 'lucide-react'
+import { Bell, BookOpen, Bot, Check, Download, FileText, KeyRound, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
-import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
+import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { MfaControl } from '@/components/auth/MfaControl'
 import { PasskeyControl } from '@/components/auth/PasskeyControl'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
-import { LanguageSwitch } from '@/components/shell/LanguageSwitch'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
-import { API_MODE, ApiError, apiGet, apiPost, apiPut } from '@/lib/api'
+import { API_MODE, apiGet, apiPost, apiPut } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
@@ -28,37 +24,37 @@ import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem
 import { AccountTabs } from '@/components/account/AccountTabs'
 import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
 import { BillingPanels } from '@/components/account/BillingPanels'
+import { useUsernameAvailability } from '@/lib/useUsernameAvailability'
 import { SupportContactPanel } from '@/components/account/SupportContactPanel'
 import { AiDisclaimerDialog } from '@/components/account/AiDisclaimerDialog'
 import { DeleteAccountDialog } from '@/components/account/DeleteAccountDialog'
 
+/** The browser's own IANA zone name, or Cairo if the runtime cannot say. */
+function detectTimezone(): string {
+  return Intl.DateTimeFormat().resolvedOptions().timeZone || 'Africa/Cairo'
+}
+
 /**
  * Preferences the student owns.
  *
- * Name and email are not here: they are the sign-in identity, and a form that
- * appeared to change them would change nothing in Supabase. University, year
- * and group are here, and they are real — they write to the same user-owned
- * document onboarding writes, which every scoping surface reads.
+ * Name, email and timezone are not here: name and email are the sign-in
+ * identity, and a form that appeared to change them would change nothing in
+ * Supabase; timezone is detected, not chosen (see `detectTimezone` and the
+ * sync effect in `Account`). University, year and group are here, and they
+ * are real — they write to the same user-owned document onboarding writes,
+ * which every scoping surface reads.
  */
 interface AccountPrefs {
-  timezone: string
   reviewReminders: boolean
   calendarReminders: boolean
 }
 
 const DEFAULTS: AccountPrefs = {
-  timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || 'Africa/Cairo',
   reviewReminders: true,
   calendarReminders: true,
 }
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
-const PROFILE_STORAGE_KEY = 'nishany.account.profile.v1'
-
-interface StudentProfilePrefs {
-  username: string
-  iconId: string
-}
 
 function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
   const t = useT()
@@ -103,7 +99,6 @@ function StudyContext() {
   const [configured] = useUniversityCatalogue()
 
   const [group, setGroup] = useState(audience.group)
-  const [statusMessage, setStatusMessage] = useState(profile.statusMessage ?? '')
   const [targetUniversityId, setTargetUniversityId] = useState(audience.universityId)
   const [targetYear, setTargetYear] = useState(audience.year)
   const [reason, setReason] = useState('')
@@ -121,7 +116,7 @@ function StudyContext() {
   const targetYears = selectedTargetUniversity
     ? [...new Set([...selectedTargetUniversity.years.map((entry) => entry.year), ...YEARS])]
     : [...new Set([...YEARS, audience.year, profile.year].filter((value): value is string => Boolean(value)))]
-  const dirty = group !== audience.group || statusMessage !== (profile.statusMessage ?? '')
+  const dirty = group !== audience.group
   const requestDirty = targetUniversityId !== audience.universityId || targetYear !== audience.year
   const canRequest = requestDirty && reason.trim().length >= 12
 
@@ -130,7 +125,7 @@ function StudyContext() {
     setError('')
     setSaving(true)
     try {
-      await saveEnrolment({ universityId: audience.universityId, year: audience.year, group: group.trim(), statusMessage })
+      await saveEnrolment({ universityId: audience.universityId, year: audience.year, group: group.trim() })
       setJustSaved(true)
     } catch {
       setError(t('That could not be saved. Check your connection and try again.'))
@@ -157,6 +152,10 @@ function StudyContext() {
           changes.push({ field: 'year', requestedValue: targetYear })
         }
         if (!changes.length) { setRequesting(false); return }
+        // Optimistic: the request reads as sent immediately, and reverts below
+        // only if every field-change actually failed — a partial failure still
+        // means the request went in, just not all of it.
+        setRequestSent(true)
         const results = await Promise.allSettled(
           changes.map((change) => apiPost('/me/enrollment-change-requests', { ...change, reason: reason.trim() })),
         )
@@ -169,10 +168,12 @@ function StudyContext() {
           const message = failures[0].reason instanceof Error ? failures[0].reason.message : ''
           setRequestError(message || t('One of your requests could not be sent, but the other was received.'))
         }
+      } else {
+        setRequestSent(true)
       }
-      setRequestSent(true)
       setReason('')
     } catch (submitError) {
+      setRequestSent(false)
       const message = submitError instanceof Error ? submitError.message : ''
       setRequestError(message || t('Your request could not be sent. Try again, or contact support if it keeps happening.'))
     } finally {
@@ -193,35 +194,22 @@ function StudyContext() {
         {profile.year && profile.year !== audience.year && <RosterNote recorded={profile.year} />}
       </div>
 
-      <form className="grid gap-4 sm:col-span-2" onSubmit={(event) => void saveGroup(event)}>
-        <Field label={t('Status message')} htmlFor="account-status-message" hint={t('Shown under your name. Optional.')}>
-          <Textarea
-            id="account-status-message"
-            value={statusMessage}
-            maxLength={140}
-            className="min-h-16"
-            placeholder={t('e.g. Studying for finals')}
-            onChange={(event) => { setStatusMessage(event.target.value); setJustSaved(false) }}
+      <form className="grid gap-4 sm:col-span-2 sm:grid-cols-[minmax(0,1fr)_auto]" onSubmit={(event) => void saveGroup(event)}>
+        <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
+          <TextInput
+            id="account-group"
+            value={group}
+            maxLength={40}
+            placeholder={t('e.g. Group 4')}
+            onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
           />
-          <p className="tnum mt-1 text-end font-mono text-[11px] text-ink-3">{140 - statusMessage.length}</p>
         </Field>
-        <div className="grid gap-4 sm:grid-cols-[minmax(0,1fr)_auto]">
-          <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
-            <TextInput
-              id="account-group"
-              value={group}
-              maxLength={40}
-              placeholder={t('e.g. Group 4')}
-              onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
-            />
-          </Field>
-          <div className="flex items-end">
-            <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
-              {justSaved && !dirty ? t('Saved') : t('Save')}
-            </Button>
-          </div>
+        <div className="flex items-end">
+          <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
+            {justSaved && !dirty ? t('Saved') : t('Save group')}
+          </Button>
         </div>
-        {error && <p role="alert" className="text-[12.5px] text-danger">{error}</p>}
+        {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
       </form>
 
       <div className="sm:col-span-2 rounded-xl border border-line bg-surface-2/50 p-4">
@@ -311,57 +299,52 @@ function AvatarControl() {
   )
 }
 
-type UsernameAvailability = 'idle' | 'checking' | 'available' | 'taken'
-
+/**
+ * Username, icon and status message — the caller's own row in `students`,
+ * read from and written straight through `useIdentity`, so this and the
+ * sidebar can never show two different usernames the way the old
+ * browser-local echo of this form once could.
+ */
 function ProfileIdentity() {
   const t = useT()
-  const [profile, setProfile] = usePersistentState<StudentProfilePrefs>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
-  const [username, setUsername] = useState(profile.username)
-  const [iconId, setIconId] = useState(profile.iconId || DEFAULT_PROFILE_ICON)
+  const { profile, reload } = useIdentity()
+  const [username, setUsername] = useState(profile.username ?? '')
+  const [iconId, setIconId] = useState(profile.profileIcon || DEFAULT_PROFILE_ICON)
+  const [statusMessage, setStatusMessage] = useState(profile.statusMessage ?? '')
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [error, setError] = useState('')
-  const [availability, setAvailability] = useState<UsernameAvailability>('idle')
+
   const cleanUsername = normaliseUsername(username)
   const problem = usernameProblem(username)
-  const dirty = cleanUsername !== profile.username || iconId !== profile.iconId
-  const currentClean = normaliseUsername(profile.username)
-
-  // A live pre-check against the server, debounced so a student typing a name
-  // does not fire a request per keystroke. `usernameProblem` is the cheap,
-  // client-side shape check; this is the one that actually knows what is
-  // taken in this university. The save-path 409 stays the backstop for the
-  // race between this check and the click.
-  useEffect(() => {
-    if (!API_MODE || problem || cleanUsername === currentClean) {
-      setAvailability('idle')
-      return
-    }
-    setAvailability('checking')
-    const timer = window.setTimeout(() => {
-      apiGet<{ available: boolean; reason?: string }>(`/me/username-available?handle=${encodeURIComponent(cleanUsername)}`)
-        .then((result) => setAvailability(result.available ? 'available' : 'taken'))
-        .catch(() => setAvailability('idle'))
-    }, 400)
-    return () => window.clearTimeout(timer)
-  }, [cleanUsername, currentClean, problem])
+  // Checks the server only once the username actually changed from what is
+  // on record — the account's own current username never needs asking about.
+  const availability = useUsernameAvailability(username, profile.username ?? '')
+  const checking = availability === 'checking'
+  const taken = availability === 'taken'
+  const dirty = cleanUsername !== (profile.username ?? '')
+    || iconId !== (profile.profileIcon || DEFAULT_PROFILE_ICON)
+    || statusMessage.trim() !== (profile.statusMessage ?? '')
 
   async function save() {
-    if (problem || availability === 'taken') return
+    if (problem || checking || taken) return
     setError('')
+    // Optimistic: Save reads as done immediately; a failure rolls the three
+    // fields back to what the server still holds and says so inline.
+    const previous = { username: profile.username ?? '', iconId: profile.profileIcon || DEFAULT_PROFILE_ICON, statusMessage: profile.statusMessage ?? '' }
     setSaving(true)
-    const payload = { username: cleanUsername, iconId }
+    setSaved(true)
     try {
-      if (API_MODE) await apiPut('/me/profile', payload)
-      setProfile(payload)
-      setSaved(true)
-    } catch (saveError) {
-      if (saveError instanceof ApiError && saveError.status === 409) {
-        setAvailability('taken')
-        setError(t('That username is taken. Choose another.'))
-      } else {
-        setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
+      if (API_MODE) {
+        await apiPut('/me/profile', { username: cleanUsername, profileIcon: iconId, statusMessage: statusMessage.trim(), timezone: detectTimezone() })
+        reload()
       }
+    } catch {
+      setSaved(false)
+      setUsername(previous.username)
+      setIconId(previous.iconId)
+      setStatusMessage(previous.statusMessage)
+      setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
     } finally {
       setSaving(false)
     }
@@ -374,19 +357,19 @@ function ProfileIdentity() {
           <TextInput id="account-username" value={username} onChange={(event) => { setUsername(event.target.value); setSaved(false) }} maxLength={24} autoComplete="username" />
         </Field>
         <div className="flex items-end">
-          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || availability === 'taken' || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
+          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || checking || taken || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
             {saved && !dirty ? t('Saved') : t('Save profile')}
           </Button>
         </div>
       </div>
       <p className="mt-2 text-[12px] text-ink-3">{t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span></p>
       {problem && <p role="alert" className="mt-1 text-[12px] text-danger">{t(problem)}</p>}
-      {!problem && availability === 'checking' && <p className="mt-1 text-[12px] text-ink-3">{t('Checking availability…')}</p>}
-      {!problem && availability === 'available' && <p className="mt-1 flex items-center gap-1 text-[12px] text-success"><Check size={12} />{t('Available')}</p>}
-      {!problem && availability === 'taken' && <p role="alert" className="mt-1 text-[12px] text-danger">{t('That username is taken in your university.')}</p>}
+      {!problem && checking && <p className="mt-1 text-[12px] text-ink-3">{t('Checking…')}</p>}
+      {!problem && availability === 'available' && <p className="mt-1 text-[12px] text-success">{t('Available')}</p>}
+      {!problem && taken && <p role="alert" className="mt-1 text-[12px] text-danger">{t('Already taken')}</p>}
 
       <div className="mt-4">
-        <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Study icon')}</p>
+        <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
         <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-6">
           {PROFILE_ICONS.map((entry) => (
             <li key={entry.id}>
@@ -406,6 +389,19 @@ function ProfileIdentity() {
           ))}
         </ul>
       </div>
+
+      <div className="mt-4">
+        <Field label={t('Status')} htmlFor="account-status" hint={t('Shown next to your name to friends and study-party members.')}>
+          <TextInput
+            id="account-status"
+            value={statusMessage}
+            onChange={(event) => { setStatusMessage(event.target.value.replace(/[\r\n]+/g, ' ')); setSaved(false) }}
+            maxLength={120}
+            placeholder={t('e.g. Cramming for finals')}
+          />
+        </Field>
+      </div>
+
       {error && <p role="alert" className="mt-3 text-[12.5px] text-danger">{error}</p>}
     </div>
   )
@@ -422,10 +418,9 @@ function ProfileIdentity() {
  */
 export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } = {}) {
   const t = useT()
-  const { email } = useIdentity()
+  const { email, profile, reload } = useIdentity()
   const [tab, setTab] = useAccountTab(initialTab)
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
-  const timezone = prefs.timezone || DEFAULTS.timezone
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
   // New and existing students are private until they explicitly opt in.
@@ -441,6 +436,21 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
       .then((result) => setDiscoverableState(result.discoverable))
       .catch(() => {})
   }, [])
+
+  /**
+   * There is no timezone picker any more — the browser already knows, and a
+   * manual choice just goes stale after a trip or a clock change. This syncs
+   * it once: silently, and only when the server's answer actually disagrees
+   * with what `Intl` reports right now, which is also what stops it from
+   * firing more than once a session — the second render after a successful
+   * sync already sees them agree.
+   */
+  useEffect(() => {
+    if (!API_MODE || !profile.studentId) return
+    const detected = detectTimezone()
+    if (!detected || detected === profile.timezone) return
+    apiPut('/me/profile', { timezone: detected }).then(reload).catch(() => {})
+  }, [profile.studentId, profile.timezone, reload])
 
   /**
    * Flip the toggle immediately and tell the server. Without a backend this is
@@ -507,15 +517,6 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
             <AvatarControl />
             <StudyContext />
             <ProfileIdentity />
-            <div className="border-t border-line p-5">
-              <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')} className="max-w-sm">
-                <Select aria-label={t('Timezone')} value={timezone} onChange={(event) => patch({ timezone: event.target.value })}>
-                  {[timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
-                    .filter((zone, index, all) => all.indexOf(zone) === index)
-                    .map((zone) => <option key={zone || 'timezone-default'} value={zone}>{zone}</option>)}
-                </Select>
-              </Field>
-            </div>
           </Panel>
         )}
 
@@ -541,26 +542,19 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   product updates — were read by nothing at all. They return when
                   email delivery actually consults a preference. */}
               <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-                {t('Email preferences are not configurable yet. Nishany only emails you about your account.')}
+                {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
               </p>
             </Panel>
 
             <div className="space-y-4">
               <Panel>
                 <PanelHeader title={t('Appearance')} icon={Palette} />
-                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line p-4">
-                  <div className="min-w-0">
-                    <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
-                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, Warm, Dark or Black. Kept on this device.')}</p>
-                  </div>
-                  <ThemeSwitch />
-                </div>
                 <div className="flex flex-wrap items-center justify-between gap-3 p-4">
                   <div className="min-w-0">
-                    <p className="text-[13px] font-medium text-ink">{t('Language')}</p>
-                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('English or Arabic. Kept on this device.')}</p>
+                    <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
+                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
                   </div>
-                  <LanguageSwitch />
+                  <ThemeSwitch />
                 </div>
               </Panel>
 
@@ -615,7 +609,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   {/* Only this session is described. Enumerating and revoking other
                       sessions needs a server-side session list that does not exist. */}
                   <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">
-                    {t('Other devices are not listed. Signing out here clears this browser only.')}
+                    {t('Signing out here ends your session on every device where you are signed in.')}
                   </p>
                   <Link to="/logout" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg px-3 text-[12.5px] font-semibold text-ink-2 hover:bg-inset hover:text-ink"><LogOut size={15} />{t('Sign out')}</Link>
                 </div>
@@ -672,23 +666,21 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   </p>
                 </div>
               </Panel>
+
+              <Panel className="border-danger/30">
+                <PanelHeader title={t('Danger zone')} icon={Trash2} />
+                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+                  <div className="min-w-0">
+                    <p className="text-[13px] font-medium text-ink">{t('Delete your account')}</p>
+                    <p className="mt-0.5 max-w-md text-[11.5px] leading-relaxed text-ink-3">
+                      {t('Permanently deletes your Nishany account and everything in it. This also removes your access on the app. This cannot be undone.')}
+                    </p>
+                  </div>
+                  <Button type="button" variant="danger" iconLeft={Trash2} onClick={() => setDeleteOpen(true)}>{t('Delete account')}</Button>
+                </div>
+              </Panel>
             </div>
           </div>
-        )}
-
-        {tab === 'security' && (
-          <Panel className="mt-4 border-danger/30">
-            <PanelHeader title={t('Danger zone')} icon={Trash2} />
-            <div className="flex flex-wrap items-center justify-between gap-3 p-4">
-              <div className="min-w-0">
-                <p className="text-[13px] font-medium text-ink">{t('Delete your account')}</p>
-                <p className="mt-0.5 max-w-md text-[11.5px] leading-relaxed text-ink-3">
-                  {t('Permanently deletes your Nishany account and everything in it. This also removes your access on the app. This cannot be undone.')}
-                </p>
-              </div>
-              <Button type="button" variant="danger" iconLeft={Trash2} onClick={() => setDeleteOpen(true)}>{t('Delete account')}</Button>
-            </div>
-          </Panel>
         )}
       </div>
 

@@ -17,15 +17,10 @@ external requests at runtime).
 
 ## 2. Host (client-side routing needs a SPA fallback)
 
-Because routes like `/admin/questions` are client-rendered, every path must fall
-back to `index.html`. Config is already included:
-
-- **Vercel** — `vercel.json` (rewrites all paths to `/index.html`, long-caches
-  hashed assets). Import the repo and deploy; build command and output dir are set.
-- **Netlify** — `public/_redirects` (`/* /index.html 200`). Set build command
-  `npm run build`, publish directory `dist`.
-- **Cloudflare Pages / other** — build `npm run build`, output `dist`, and add a
-  catch-all rewrite to `/index.html`.
+Deployment is Coolify building the repo's `Dockerfile`: the image serves `dist`
+through `server/src/index.js` (Express), which also mounts `/api` and falls every
+unmatched path back to `index.html` — that fallback is what makes client-rendered
+routes like `/admin/questions` work.
 
 Point the domain (`synapse.doitrous.com`, already in the meta tags) at the host.
 
@@ -73,8 +68,7 @@ domain is a hand-over to the student site.
 The app sends email through a serverless function so the Resend key never reaches
 the browser. See `server/send-email.example.ts` and `.env.example`:
 
-- Deploy the function (Vercel `/api`, Netlify function, etc.) and set
-  `RESEND_API_KEY` in **that platform's** server environment — never `VITE_`-prefixed.
+- Set `RESEND_API_KEY` in the **server** environment (Coolify) — never `VITE_`-prefixed.
 - Set `VITE_EMAIL_ENDPOINT` (the function URL) and `VITE_EMAIL_FROM` in the app's
   build env. Until set, the app runs in demo mode (messages are logged, not sent) —
   the Email & Automations page shows which mode is active.
@@ -117,7 +111,7 @@ so swapping the storage layer is localized.
 ## 5. Pre-launch checklist
 
 - [x] Production build passes (`npm run build`).
-- [x] SPA fallback configured (Vercel + Netlify).
+- [x] SPA fallback configured (Express, `server/src/index.js`).
 - [x] Top-level error boundary (graceful recovery screen, not a white page).
 - [x] SEO/social meta complete (title, description, canonical, hreflang, OpenGraph, Twitter, theme-color, favicon).
 - [x] Responsive on mobile & tablet (drawer nav, scrolling tables, stacking grids).

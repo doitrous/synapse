@@ -1,12 +1,7 @@
 import { useMemo } from 'react'
-import {
-  CONTENT_LEDGER_STORAGE_KEY,
-  initialManagedContent,
-  isStudentPublishable,
-  type ManagedContentItem,
-} from '@/data/contentControl'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty, type Question } from '@/data/qbank'
-import { usePersistentState } from './usePersistentState'
+import { useScopedQuestions, type QuestionScope } from './content'
 import { useIdentity } from './useIdentity'
 import { questionInAudience } from './questionAudience'
 
@@ -75,8 +70,12 @@ function managedQuestionToSummary(item: ManagedContentItem): Question | null {
   if (item.kind !== 'question' || !isStudentPublishable(item) || !item.questionData) return null
 
   const data = item.questionData
-  const answers = data.answers.filter((answer) => answer.text.trim())
-  if (answers.length < 2 || !answers.some((answer) => answer.label === data.correctAnswer)) return null
+  // A record with no `answers` at all came from `/content/questions?view=summary`,
+  // where the server strips them *after* applying this exact rule
+  // (`isAnswerableQuestion`). A record that has them is re-checked here, which
+  // is every record in the demo build and every one that still carries a key.
+  const answers = (data.answers ?? []).filter((answer) => answer.text.trim())
+  if (data.answers && (answers.length < 2 || !answers.some((answer) => answer.label === data.correctAnswer))) return null
 
   return {
     id: item.id,
@@ -127,11 +126,24 @@ export function publishedQuestionsForAudience(
     .filter((question): question is Question => question !== null)
 }
 
-/** Published admin content is the single source of truth for every student question surface. */
+/**
+ * Published admin content is the single source of truth for every student
+ * question surface.
+ *
+ * The catalogue is `/api/content/questions`, not the admin ledger: the same
+ * answerable-question rule applied server-side, plus `{ id, title }` stubs for
+ * the library and resource ids the projection resolves to titles. A student's
+ * own cohort is applied there too, so "unscoped" here means "not narrowed
+ * further by this client", never "every university's bank".
+ */
 export function usePublishedQuestions() {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [catalogue] = useScopedQuestions()
   return useMemo(() => publishedQuestionsFromCatalogue(catalogue), [catalogue])
 }
+
+/** The one scope object every unscoped caller shares, so the memo below has a stable key. */
+const WHOLE_BANK: QuestionScope = {}
+const SUMMARY_SCOPE: QuestionScope = { view: 'summary' }
 
 /** Stable empty array so a disabled `useScopedPublishedQuestions` doesn't hand out a new `[]` reference every render. */
 const EMPTY_QUESTIONS: Question[] = []
@@ -144,14 +156,16 @@ const EMPTY_QUESTIONS: Question[] = []
  * surfaces (question-of-the-day pinning, rooms) that deliberately see the whole
  * bank.
  *
- * `enabled` (default `true`, so every existing caller is unchanged) defers the
- * actual per-question build: pass `false` while a caller only needs the
- * lightweight `useScopedPublishedQuestionSummaries` below, and flip it on the
- * moment the real, fully-built questions are needed (e.g. the Question Bank
- * starting a test).
+ * `enabled` (default `true`, so every existing caller is unchanged) gates the
+ * **request** as well as the build. Full questions carry every option,
+ * rationale and explanation and are the largest thing a student can download,
+ * so a surface that only needs `useScopedPublishedQuestionSummaries` below
+ * must not ask for them at all — flip this on the moment they are really
+ * needed (the Question Bank starting a test), and narrow `scope` to what that
+ * test actually covers so the answer is a slice rather than the whole bank.
  */
-export function useScopedPublishedQuestions(enabled = true) {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+export function useScopedPublishedQuestions(enabled = true, scope: QuestionScope = WHOLE_BANK) {
+  const [catalogue] = useScopedQuestions(scope, { enabled })
   const { audience } = useIdentity()
   const { universityId, yearId } = audience
   return useMemo(
@@ -166,9 +180,14 @@ export function useScopedPublishedQuestions(enabled = true) {
  * `managedQuestionToSummary`). This is what the Question Bank hub should
  * mount with — counts, source cards and presets only need these fields, not
  * options/explanations/attachments.
+ *
+ * A different *document*, not a cheaper read of the same one: `view=summary`
+ * is its own request under its own cache key, and the server sends no answers,
+ * rationales or explanations at all. Roughly a quarter of the bytes the full
+ * questions weigh, and none of them are bytes a student could answer from.
  */
 export function useScopedPublishedQuestionSummaries() {
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [catalogue] = useScopedQuestions(SUMMARY_SCOPE)
   const { audience } = useIdentity()
   const { universityId, yearId } = audience
   return useMemo(

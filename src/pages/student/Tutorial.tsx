@@ -204,7 +204,6 @@ export function Tutorial() {
     <PageContainer>
       <PageHeader
         title={t('Learn how Nishany works')}
-        description={t('A short guide and a short video for every part of the app. Pick a section, then a topic — or search for what you are trying to do.')}
         actions={(
           // The wrapper is what carries the width: `SearchInput` puts its own
           // `div.relative` around the field, and as a flex item that div is

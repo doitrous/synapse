@@ -9,6 +9,7 @@ import { SharedBoardView } from '@/components/share/SharedBoardView'
 import { updateShare, useSharedDocument } from '@/lib/useShares'
 import { useIdentity } from '@/lib/useIdentity'
 import { useRelativeTime } from '@/lib/useRelativeTime'
+import { useNoIndex } from '@/lib/pageMeta'
 import type { BoardState } from '@/data/whiteboard'
 import { useT } from '@/lib/i18n'
 import { editorJsonToPlainText, plainTextToEditorJson, type NotebookEditorJson } from '@/data/notebook'
@@ -43,6 +44,8 @@ interface NoteDraft {
 }
 
 export function SharedDocument() {
+  // A copied link, not a page anyone should find by searching.
+  useNoIndex()
   const t = useT()
   const relativeTime = useRelativeTime()
   const { id } = useParams()

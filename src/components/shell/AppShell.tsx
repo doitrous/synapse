@@ -16,7 +16,6 @@ import { cn } from '@/lib/cn'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
-import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
 import { StudyActivityTracker } from './StudyActivityTracker'
 import { FocusAudioProvider } from './FocusAudioPlayer'
 import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
@@ -233,7 +232,6 @@ function AppShellInner({ portal }: { portal: Portal }) {
       )}
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
-      <OverflowTooltipLayer />
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
       {portal === 'student' && <AiConsentGate />}

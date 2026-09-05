@@ -5,12 +5,14 @@ import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Stat } from '@/components/ui/Stat'
 import { Field } from '@/components/ui/Field'
 import { Segmented } from '@/components/ui/Tabs'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import type { MedicalTerm } from '@/data/glossary'
 import { buildBoard, isPair, MIN_PAIRS, type MatchBoard, type MatchMode, type MatchTile } from '@/data/termMatch'
+import { catalogueAvailability } from '@/lib/catalogueAvailability'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 
@@ -244,8 +246,12 @@ export function TermMatchPage() {
   const t = useT()
   // Same source `MedicalTaxonomy` reads: live in production, the starter set
   // in demo mode.
-  const [glossary] = useMedicalGlossary()
+  const [glossary, , glossaryStatus] = useMedicalGlossary()
   const terms: MedicalTerm[] = glossary.terms
+  const availability = useMemo(
+    () => catalogueAvailability({ statuses: [glossaryStatus], itemCount: terms.length }),
+    [glossaryStatus, terms.length],
+  )
 
   const [searchParams] = useSearchParams()
   const urlSeedParam = searchParams.get('seed')
@@ -281,12 +287,14 @@ export function TermMatchPage() {
         back={{ fallback: '/app/minigames' }}
       />
 
-      {terms.length === 0 ? (
+      {availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <EmptyState
-            icon={Shuffle}
-            title={t('The glossary has not been published yet.')}
-            description={t('Terms appear here once they are published in the admin console.')}
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: t('The glossary has not been published yet.'),
+              description: t('Terms appear here once they are published in the admin console.'),
+            }}
           />
         </Panel>
       ) : (

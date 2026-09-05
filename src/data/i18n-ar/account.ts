@@ -71,7 +71,7 @@ export const AR_ACCOUNT: Record<string, string> = {
   'Reset through a time-limited email link.': 'تُعاد عبر رابط بريدي محدود المدة.',
   'This browser': 'هذا المتصفح',
   'This session': 'هذه الجلسة',
-  'Other devices are not listed. Signing out here clears this browser only.':
+  'Signing out here ends your session on every device where you are signed in.':
     'لا تُعرض الأجهزة الأخرى هنا. وتسجيل الخروج من هنا يمسح هذا المتصفح وحده.',
   'Download my data': 'تنزيل بياناتي',
   'Includes every document your account owns — notes, whiteboards, bookmarks, calendar blocks and progress.':
@@ -85,15 +85,15 @@ export const AR_ACCOUNT: Record<string, string> = {
   'Support': 'الدعم',
   'Contact support': 'تواصل مع الدعم',
   'Contact support about your plan': 'تواصل مع الدعم بخصوص اشتراكك',
-  'Email the Maristana team': 'راسل فريق Maristana',
+  'Email the Nishany team': 'راسل فريق Maristana',
   'Email preferences are not configurable yet. Maristana only emails you about your account.':
     'لا يمكن ضبط تفضيلات البريد بعد. ولا يراسلك Maristana إلا بخصوص حسابك.',
-  'Maristana does not take card payments in the app, and stores no card details. Your plan is arranged with the Maristana team directly.':
+  'Nishany does not take card payments in the app, and stores no card details. Your plan is arranged with the Nishany team directly.':
     'لا يقبل Maristana مدفوعات البطاقات داخل التطبيق، ولا يحفظ أي بيانات بطاقة. ويُرتَّب اشتراكك مع فريق Maristana مباشرة.',
-  'Subscriptions are managed by the Maristana team. To change or end your plan, get in touch and someone will action it on your account.':
+  'Subscriptions are managed by the Nishany team. To change or end your plan, get in touch and someone will action it on your account.':
     'يدير فريق Maristana الاشتراكات. ولتغيير اشتراكك أو إنهائه، تواصل معهم وسيتولى أحدهم تنفيذ ذلك على حسابك.',
   'No subscription yet': 'لا يوجد اشتراك بعد',
-  'No plan has been granted to your account yet. Contact the Maristana team to arrange one.':
+  'No plan has been granted to your account yet. Contact the Nishany team to arrange one.':
     'لم يُمنح حسابك أي اشتراك بعد. تواصل مع فريق Maristana لترتيب واحد.',
   'Your university hasn\'t set up your student profile yet. Once it has, any plan granted to you appears here.':
     'لم تُنشئ جامعتك ملفك الطلابي بعد. وبمجرد إنشائه يظهر هنا أي اشتراك يُمنح لك.',
@@ -129,6 +129,6 @@ export const AR_ACCOUNT: Record<string, string> = {
   'This code is valid and opens full access for {days} days. Connect the backend to apply it.':
     'هذا الرمز صالح ويفتح وصولًا كاملًا لمدة {days} أيام. اربط الخادم لتطبيقه.',
   'Student ID discount': 'خصم بطاقة الطالب',
-  'Upload your student ID to claim {percent}% off. It is checked by the Maristana team, and the discount applies from your next invoice once it is accepted.':
+  'Upload your student ID to claim {percent}% off. It is checked by the Nishany team, and the discount applies from your next invoice once it is accepted.':
     'ارفع بطاقتك الطلابية للحصول على خصم {percent}%. يراجعها فريق Maristana، ويُطبَّق الخصم من فاتورتك التالية بمجرد قبولها.',
 }

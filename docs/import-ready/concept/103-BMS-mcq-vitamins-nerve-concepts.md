@@ -58,7 +58,7 @@
 # Item
 
 ## label
-A myelinated fibre is an axon insulated by Schwann-cell myelin and interrupted at the nodes of Ranvier; an unmyelinated one is an axon those cells merely surround
+Myelinated versus unmyelinated nerve fibres
 
 ## id
 CON-NEU-5664D7AB68AD8D
@@ -81,7 +81,11 @@ Schwann cell
 خلايا شوان
 
 ## definition
-The neuron is the structural and functional unit of the nervous system. In a myelinated fibre its axon is wrapped in a myelin sheath secreted by Schwann cells, an excellent insulator that decreases ion flow across the membrane, and the sheath is interrupted at the nodes of Ranvier, where the membrane is exposed and ions cross with little resistance. In an unmyelinated fibre the axon is simply surrounded by Schwann cells with no sheath formed, so there are no nodes.
+The **neuron** is the structural and functional unit of the nervous system.
+
+In a **myelinated fibre** its axon is wrapped in a **myelin sheath** secreted by Schwann cells, an excellent insulator that decreases ion flow across the membrane, and the sheath is interrupted at the **nodes of Ranvier**, where the membrane is exposed and ions cross with little resistance.
+
+In an **unmyelinated fibre** the axon is simply surrounded by Schwann cells with no sheath formed, so __there are no nodes__.
 
 ## explicit_objective
 Distinguish a myelinated from an unmyelinated nerve fibre by what the Schwann cell does to the axon, and state where ion flow is permitted in each.
@@ -242,7 +246,7 @@ relationships: Walked the 14 live concepts under ART-NEU-TOP-5A8339CA4A and the 
 # Item
 
 ## label
-Saltatory conduction regenerates the impulse only at the nodes, which buys both speed and economy
+Saltatory conduction and conduction velocity
 
 ## id
 CON-NEU-A0C8307D2825A6
@@ -264,7 +268,11 @@ Node-to-node conduction
 سرعة التوصيل العصبي
 
 ## definition
-In a myelinated axon the internodal membrane is insulated, and only at the nodes of Ranvier is it exposed and richly supplied with voltage-gated sodium channels. An action potential at one node is the stimulus for the next, so action potentials are generated only at the nodes and the signal jumps between them. This increases conduction velocity up to fifty-fold and conserves energy, because little sodium and potassium have to be pumped back. Speed also rises with fibre size — it is proportional to the square root of the fibre diameter, and the internodal distance increases with diameter.
+In a myelinated axon the internodal membrane is insulated, and only at the **nodes of Ranvier** is it exposed and richly supplied with voltage-gated sodium channels.
+
+An action potential at one node is the stimulus for the next, so __action potentials are generated only at the nodes and the signal jumps between them__. This increases conduction velocity up to fifty-fold and conserves energy, because little sodium and potassium have to be pumped back.
+
+Speed also rises with **fibre size** — it is proportional to the square root of the fibre diameter, and the internodal distance increases with diameter.
 
 ## explicit_objective
 Explain how insulating the internode speeds conduction, and list the three determinants of conduction velocity.
@@ -426,7 +434,7 @@ relationships: Walked the same 20 neighbours. Two are in related_concept_ids. A 
 # Item
 
 ## label
-Repolarisation is sodium inactivation plus a delayed potassium efflux, and the slow closure of those potassium channels is what causes hyperpolarisation
+Repolarisation and hyperpolarisation of the action potential
 
 ## id
 CON-NEU-DD9033DCA3AAF1
@@ -449,7 +457,11 @@ Descending limb of the spike
 تدفق البوتاسيوم إلى الخارج
 
 ## definition
-Two events together end the spike. Inactivation of the voltage-gated sodium channels stops the sodium influx and terminates depolarisation, while the potassium channels — which open shortly after the sodium ones, more slowly and for longer — carry potassium out and complete the return to the resting level. Repolarisation is rapid for its first 70 per cent and slow for the remaining 30 per cent. The potassium channels then close slowly, so potassium keeps leaving after it should have stopped and the membrane overshoots into hyperpolarisation, which lasts 35 to 40 msec against the spike's 2 msec; leak potassium channels return it to rest.
+Two events together end the spike. Inactivation of the voltage-gated **sodium channels** stops the sodium influx and terminates depolarisation, while the **potassium channels** — which open shortly after the sodium ones, more slowly and for longer — carry potassium out and complete the return to the resting level.
+
+Repolarisation is rapid for its first 70 per cent and slow for the remaining 30 per cent.
+
+The potassium channels then close slowly, so potassium keeps leaving after it should have stopped and __the membrane overshoots into hyperpolarisation__, which lasts 35 to 40 msec against the spike's 2 msec; leak potassium channels return it to rest.
 
 ## explicit_objective
 Give both ionic events of repolarisation, the proportions of its rapid and slow phases, and the cause and duration of the hyperpolarising after-potential.
@@ -612,7 +624,7 @@ relationships: Walked the 6 concepts in the pending 103 physiology batch and the
 # Item
 
 ## label
-The local response is graded, non-propagated and has no refractory period, which is exactly why it can be summated to the firing level
+The local response: graded and summatable
 
 ## id
 CON-NEU-7E784A50D2BBAF
@@ -635,7 +647,11 @@ Summation of subthreshold stimuli
 الجهد المتدرج في العصب
 
 ## definition
-A subthreshold stimulus opens some sodium activation gates; sodium enters and partially depolarises the membrane without reaching the firing level, and repolarisation then follows rapidly. The response does not obey the all-or-none law; it is non-propagated and fades within one to two millimetres; it is graded, so its size and duration vary with the stimulus; it has no refractory period; and excitability is increased during it, because the membrane has moved towards the firing level. Because there is no refractory period, rapid repeated subthreshold stimuli summate, and when summation reaches −65 mV an action potential is generated.
+A subthreshold stimulus opens some sodium activation gates; sodium enters and partially depolarises the membrane without reaching the firing level, and repolarisation then follows rapidly.
+
+The response does not obey the all-or-none law; it is **non-propagated** and fades within one to two millimetres; it is **graded**, so its size and duration vary with the stimulus; it has __no refractory period__; and excitability is increased during it, because the membrane has moved towards the firing level.
+
+Because there is no refractory period, rapid repeated subthreshold stimuli **summate**, and when summation reaches −65 mV an action potential is generated.
 
 ## explicit_objective
 List the characters of the local response and explain why the absence of a refractory period is what makes summation possible.
@@ -794,7 +810,7 @@ relationships: Walked the same 20 neighbours. Three are in related_concept_ids. 
 # Item
 
 ## label
-Sodium permeability sets nerve excitability and extracellular potassium sets the resting potential, which is why local anaesthetics silence a nerve and hypokalaemia paralyses a patient
+Factors affecting nerve excitability
 
 ## id
 CON-NEU-77596C8A899A7E
@@ -817,7 +833,11 @@ Effect of calcium and potassium on excitability
 الشلل الدوري العائلي
 
 ## definition
-Anything that increases membrane permeability to sodium increases excitability — veratridine, and a low extracellular calcium. Anything that decreases it stabilises the membrane and lowers excitability — a high extracellular calcium, and local anaesthetics such as cocaine, which make the membrane depolarise too slowly to reach the firing level. A fall in extracellular sodium shrinks the action potential with little effect on the resting potential, and tetrodotoxin blocks the sodium channels so that no action potential can be elicited. Potassium acts on the resting potential instead: hyperkalaemia depolarises and raises excitability, hypokalaemia hyperpolarises and lowers it, which is the mechanism of familial periodic paralysis.
+Anything that **increases** membrane permeability to sodium increases excitability — veratridine, and a low extracellular calcium. Anything that **decreases** it stabilises the membrane and lowers excitability — a high extracellular calcium, and **local anaesthetics** such as cocaine, which make the membrane depolarise too slowly to reach the firing level.
+
+A fall in extracellular sodium shrinks the action potential with little effect on the resting potential, and **tetrodotoxin** blocks the sodium channels so that no action potential can be elicited.
+
+**Potassium** acts on the resting potential instead: hyperkalaemia depolarises and raises excitability, __hypokalaemia hyperpolarises and lowers it__, which is the mechanism of familial periodic paralysis.
 
 ## explicit_objective
 Predict the direction excitability moves when sodium permeability, extracellular calcium or extracellular potassium changes, and apply it to a local anaesthetic and to familial periodic paralysis.
@@ -976,7 +996,7 @@ relationships: Walked the same 20 neighbours. Three are in related_concept_ids. 
 # Item
 
 ## label
-The Na⁺–K⁺ pump is ATP-driven primary active transport of three sodium out for two potassium in, which makes it electrogenic
+The Na⁺–K⁺ pump is electrogenic
 
 ## id
 CON-NEU-1E66BE533E894C
@@ -999,7 +1019,11 @@ Electrogenic pump
 إنزيم ATPase للصوديوم والبوتاسيوم
 
 ## definition
-The Na⁺–K⁺ pump is the standard example of primary active transport. Its α subunit carries the ATP-binding site, two potassium sites on the outer aspect and three sodium sites on the inner; its β subunit has the ATPase activity that splits ATP into ADP, phosphate and energy. It moves three sodium out for every two potassium in, so more positive charge leaves than enters and the pump is electrogenic, contributing about −4 mV to the resting membrane potential. It also re-establishes the sodium and potassium concentration gradients after an action potential, which is a different job from generating the spike.
+The **Na⁺–K⁺ pump** is the standard example of primary active transport. Its **α subunit** carries the ATP-binding site, two potassium sites on the outer aspect and three sodium sites on the inner; its **β subunit** has the ATPase activity that splits ATP into ADP, phosphate and energy.
+
+It moves __three sodium out for every two potassium in__, so more positive charge leaves than enters and the pump is **electrogenic**, contributing about −4 mV to the resting membrane potential.
+
+It also re-establishes the sodium and potassium concentration gradients after an action potential, which is a different job from generating the spike.
 
 ## explicit_objective
 Classify the Na⁺–K⁺ pump as primary active transport, give its stoichiometry, and separate its contribution to the resting potential from its role in restoring gradients.
@@ -1160,7 +1184,7 @@ relationships: Walked the same 20 neighbours. Three are in related_concept_ids. 
 # Item
 
 ## label
-Neuromuscular transmission runs presynaptic calcium, acetylcholine exocytosis, a cation channel on the end plate, the end-plate potential, then hydrolysis by acetylcholinesterase
+Sequence of neuromuscular transmission
 
 ## id
 CON-MSK-77D955AAB4D0FA
@@ -1183,7 +1207,11 @@ Acetylcholinesterase at the junction
 جهد الصفيحة الانتهائية
 
 ## definition
-Arrival of the nerve impulse opens voltage-gated calcium channels in the ending; calcium enters, ruptures the vesicles and releases acetylcholine into the cleft. The transmitter binds a ligand-gated channel in the motor end plate, which opens to small cations so that sodium enters and the end plate depolarises. That end-plate potential is graded and non-propagated, and it carries the adjacent muscle membrane to its firing level, so action potentials are generated on either side of the end plate and propagate along the fibre. Acetylcholine then dissociates and is hydrolysed by acetylcholinesterase bound to the basal lamina in the cleft, which prevents one impulse causing multiple contractions.
+Arrival of the nerve impulse opens voltage-gated **calcium channels** in the ending; calcium enters, ruptures the vesicles and releases **acetylcholine** into the cleft.
+
+The transmitter binds a ligand-gated channel in the motor end plate, which opens to small cations so that sodium enters and the end plate depolarises. That **end-plate potential** is graded and non-propagated, and it carries the adjacent muscle membrane to its firing level, so action potentials are generated on either side of the end plate and propagate along the fibre.
+
+Acetylcholine then dissociates and is hydrolysed by **acetylcholinesterase** bound to the basal lamina in the cleft, __which prevents one impulse causing multiple contractions__.
 
 ## explicit_objective
 Put the seven events of neuromuscular transmission in order, and say which ion moves through which channel at each step.
@@ -1346,7 +1374,7 @@ relationships: Walked the 13 live concepts under ART-MSK-TOP-17872815ED, the 13 
 # Item
 
 ## label
-Myasthenia gravis is antibodies against the acetylcholine receptor, which is why an anticholinesterase relieves it
+Myasthenia gravis: acetylcholine receptor antibodies
 
 ## id
 CON-MSK-5C2B5DD83C1805
@@ -1367,7 +1395,11 @@ Neostigmine in myasthenia
 أجسام مضادة لمستقبلات الأسيتيل كولين
 
 ## definition
-Myasthenia gravis is an autoimmune disease caused by antibodies against the acetylcholine receptors of the motor end plate. With fewer functioning receptors the neuromuscular junction cannot transmit enough signals from nerve to muscle, so skeletal muscles are weak and tire easily, and in the severe form the patient may die of paralysis of the respiratory muscles. It is treated by an anticholinesterase such as neostigmine, which lets adequate amounts of acetylcholine accumulate to act on the receptors that remain.
+**Myasthenia gravis** is an autoimmune disease caused by __antibodies against the acetylcholine receptors__ of the motor end plate.
+
+With fewer functioning receptors the neuromuscular junction cannot transmit enough signals from nerve to muscle, so skeletal muscles are weak and tire easily, and in the severe form the patient may die of paralysis of the respiratory muscles.
+
+It is treated by an **anticholinesterase** such as neostigmine, which lets adequate amounts of acetylcholine accumulate to act on the receptors that remain.
 
 ## explicit_objective
 Name the antigen in myasthenia gravis and explain why inhibiting acetylcholinesterase relieves the weakness.
@@ -1526,7 +1558,7 @@ relationships: Walked the same 28 muscle-side neighbours. One is in related_conc
 # Item
 
 ## label
-Excitation–contraction coupling relays a T-tubule depolarisation into calcium release, calcium onto troponin C, and tropomyosin off the actin site
+Excitation–contraction coupling in muscle
 
 ## id
 CON-MSK-3013AA61E917B7
@@ -1549,7 +1581,11 @@ Dihydropyridine and ryanodine receptors
 تروبونين سي والتروبوميوسين
 
 ## definition
-The T tubule is an invagination of the muscle fibre membrane carrying extracellular fluid into the depth of the fibre, and the action potential spreads over the membrane and into it. The tubule's voltage-sensitive dihydropyridine receptor senses the depolarisation and, through foot processes, opens the ryanodine calcium channel on the terminal cisterna of the sarcoplasmic reticulum, so calcium floods the cytoplasm. Calcium binds troponin C; troponin changes conformation, tropomyosin moves off the myosin-binding site on actin, and the cross-bridges attach. Relaxation follows when the calcium pump on the reticulum removes calcium and tropomyosin re-covers the site.
+The **T tubule** is an invagination of the muscle fibre membrane carrying extracellular fluid into the depth of the fibre, and the action potential spreads over the membrane and into it.
+
+The tubule's voltage-sensitive **dihydropyridine receptor** senses the depolarisation and, through foot processes, opens the **ryanodine calcium channel** on the terminal cisterna of the sarcoplasmic reticulum, so calcium floods the cytoplasm.
+
+Calcium binds **troponin C**; troponin changes conformation, __tropomyosin moves off the myosin-binding site on actin__, and the cross-bridges attach. Relaxation follows when the calcium pump on the reticulum removes calcium and tropomyosin re-covers the site.
 
 ## explicit_objective
 Trace excitation–contraction coupling from the T tubule to the uncovered actin site, naming the two receptors and the three regulatory proteins.
@@ -1713,7 +1749,7 @@ relationships: Walked the 26 live muscle concepts and the 2 in the pending 103 b
 # Item
 
 ## label
-Red slow fibres are oxidative and fatigue-resistant; pale fast fibres are glycolytic, powerful and quick to tire
+Muscle fibre types: red slow versus pale fast
 
 ## id
 CON-MSK-3E5F54D8D58E9C
@@ -1735,7 +1771,11 @@ Myoglobin and muscle fibre type
 الألياف الحمراء البطيئة والألياف الشاحبة السريعة
 
 ## definition
-Slow red type I fibres are small, innervated by small slowly conducting motor neurones, rich in oxidative enzymes and mitochondria, low in ATPase, surrounded by extensive capillaries and high in myoglobin, which stores oxygen; together these give a slow contractile mechanism, a large aerobic capacity and high resistance to fatigue. Fast pale type IIb fibres are larger, innervated by large rapidly conducting motor neurones, carry an extensive sarcoplasmic reticulum for rapid calcium release, large amounts of glycolytic enzymes and a high ATPase activity, and have less blood supply, less myoglobin and fewer mitochondria; they contract rapidly and fatigue quickly. Postural muscles such as soleus are mainly slow; muscles of fine skilled movement such as the extraocular muscles are mainly fast.
+**Slow red type I fibres** are small, innervated by small slowly conducting motor neurones, rich in oxidative enzymes and mitochondria, low in ATPase, surrounded by extensive capillaries and high in **myoglobin**, which stores oxygen; together these give a slow contractile mechanism, a large aerobic capacity and __high resistance to fatigue__.
+
+**Fast pale type IIb fibres** are larger, innervated by large rapidly conducting motor neurones, carry an extensive sarcoplasmic reticulum for rapid calcium release, large amounts of glycolytic enzymes and a high ATPase activity, and have less blood supply, less myoglobin and fewer mitochondria; they __contract rapidly and fatigue quickly__.
+
+Postural muscles such as soleus are mainly slow; muscles of fine skilled movement such as the extraocular muscles are mainly fast.
 
 ## explicit_objective
 Contrast the two skeletal muscle fibre types by enzyme profile, capillary supply, myoglobin, mitochondria and fatigue resistance, and predict which predominates in a given muscle.
@@ -1896,7 +1936,7 @@ relationships: Walked the 14 live concepts under ART-MSK-TOP-3A09F08EF0 and the 
 # Item
 
 ## label
-A nerve trunk gives a compound action potential that is multi-peaked and graded, because it is a population of fibres and not one
+The compound action potential of a nerve trunk
 
 ## id
 CON-NEU-18D07BA4202CDA
@@ -1918,7 +1958,11 @@ Recruitment in a nerve trunk
 الاستجابة المتدرجة للعصب المختلط
 
 ## definition
-A nerve trunk is made of many fibres, so the potential recorded from it is compound. It has many peaks, because the fibres differ in threshold, in distance from the stimulating electrodes and in conduction speed, so activity in fast fibres arrives before activity in slow ones. It is graded rather than all-or-none: subthreshold stimuli give no response, a threshold stimulus excites the low-threshold fibres and gives a small potential, a supra-threshold stimulus increases the amplitude up to a maximum at maximal stimulation, and supramaximal stimuli add nothing further.
+A nerve trunk is made of **many fibres**, so the potential recorded from it is compound.
+
+It has **many peaks**, because the fibres differ in threshold, in distance from the stimulating electrodes and in conduction speed, so activity in fast fibres arrives before activity in slow ones.
+
+It is __graded rather than all-or-none__: subthreshold stimuli give no response, a threshold stimulus excites the low-threshold fibres and gives a small potential, a supra-threshold stimulus increases the amplitude up to a maximum at maximal stimulation, and supramaximal stimuli add nothing further.
 
 ## explicit_objective
 Explain why a compound action potential is graded and multi-peaked while a single fibre is all-or-none.
@@ -2078,7 +2122,7 @@ relationships: Walked the same 20 neighbours. Three are in related_concept_ids. 
 # Item
 
 ## label
-Monophasic and biphasic recordings differ only in whether one electrode is inside the fibre, and the second deflection disappears when the nerve between them is damaged
+Monophasic versus biphasic action potential recording
 
 ## id
 CON-NEU-8E195C4C7D9BFF
@@ -2099,7 +2143,11 @@ Localising nerve damage by recording
 التسجيل السطحي لجهد الفعل
 
 ## definition
-A monophasic action potential is recorded with one electrode inserted into the interior of the fibre and an indifferent electrode on the outer surface. A biphasic action potential is recorded with both electrodes on the outer surface: at rest there is no potential difference; as depolarisation reaches the nearer electrode it becomes negative relative to the other; when the impulse lies between them the potential returns to zero; as the impulse passes the second electrode the first becomes positive relative to it and a wave in the opposite direction is recorded; and when the impulse leaves the second electrode no difference remains. Crushing or destroying the nerve between the electrodes, or under the second one, makes the record monophasic — which is what allows the technique to localise damage.
+A **monophasic** action potential is recorded with one electrode inserted into the interior of the fibre and an indifferent electrode on the outer surface.
+
+A **biphasic** action potential is recorded with both electrodes on the outer surface: at rest there is no potential difference; as depolarisation reaches the nearer electrode it becomes negative relative to the other; when the impulse lies between them the potential returns to zero; as the impulse passes the second electrode the first becomes positive relative to it and a wave in the opposite direction is recorded; and when the impulse leaves the second electrode no difference remains.
+
+Crushing or destroying the nerve between the electrodes, or under the second one, makes the record monophasic — __which is what allows the technique to localise damage__.
 
 ## explicit_objective
 Distinguish a monophasic from a biphasic recording by electrode placement, and explain why damage between the electrodes abolishes the second deflection.

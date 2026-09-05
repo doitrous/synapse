@@ -18,6 +18,7 @@ import type { Command } from '@/lib/shortcuts/registry'
 import type { FlashcardsApi } from '@/lib/useFlashcards'
 import type { Note, NoteType } from '@/data/flashcards/model'
 import { sanitizeRich, isRichEmpty } from '@/data/flashcards/richText'
+import { newId } from '@/data/userLibrary'
 import { validateCloze, clozeNumbers, renderClozeSide, type ClozeError } from '@/data/flashcards/cloze'
 import { isDuplicateNote } from '@/data/flashcards/duplicate'
 import { RichField, type RichFieldHandle } from './RichField'
@@ -167,7 +168,7 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
 
   async function onAudioFile(file: File | undefined) {
     if (!file) return
-    const id = `card-audio-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
+    const id = newId('card-audio')
     try {
       await storeMediaFile(id, file)
       const ref = mediaReference(id)
@@ -186,7 +187,7 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
       return
     }
     if (blockedByDuplicate) return
-    const note = buildNote(editNoteId ?? `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`)
+    const note = buildNote(editNoteId ?? newId('note'))
     if (!note) return
     api.saveNote(note)
     // The saved note now owns `audio`. Delete any blob attached this session that

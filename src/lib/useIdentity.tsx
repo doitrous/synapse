@@ -1,8 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { API_MODE, apiGet, apiPut } from './api'
+import { API_MODE, adoptOwnerLookup, apiPut, loadMe, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
 import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
-import { redeemSessionHandoff, supabase } from './supabase'
 import { yearId as deriveYearId } from '@/data/taxonomy'
 import { STORED_ROLES, rank as rankOf, type EffectiveRole } from '@/data/adminRoles'
 import { TAB_IDS } from '@/data/adminTabs'
@@ -10,12 +9,14 @@ import { TAB_IDS } from '@/data/adminTabs'
 /**
  * Who is using the app, from the sources that actually know.
  *
- * Three records answer three different questions and none of them answers all
- * three. Supabase owns the sign-in identity — the email and whether there is a
- * session at all. The server owns the role and assurance level, and it must:
- * a role read from Supabase user metadata is a claim the browser could edit.
- * The `students` roster owns the profile — name, university, year, cohort — and
- * the subscription that follows from it.
+ * Two records answer two different questions and neither answers both. The
+ * server owns the sign-in identity, the role, the assurance level and whether
+ * the address is confirmed — all of it read from the session cookie it holds,
+ * because a role read from Supabase user metadata would be a claim the browser
+ * could edit. The `students` roster owns the profile — name, university, year,
+ * cohort — and the subscription that follows from it.
+ *
+ * One request answers both: `GET /api/me`.
  *
  * Everything that used to read a hardcoded person reads this instead. When a
  * source has nothing to say the field is empty and the surface says so; there
@@ -55,10 +56,14 @@ export interface IdentityProfile {
   profileComplete?: boolean
   /** A `managed_media` id, or null to show the profile_icon glyph instead. See useAvatar.ts. */
   avatarMediaId?: string | null
-  /** A short freeform line under the student's name, e.g. "Studying for finals". */
+  username?: string | null
+  profileIcon?: string | null
+  /** A short freeform line under the student's name, shown in the friends directory and party member lists. */
   statusMessage?: string | null
   /** ISO timestamp of first AI-features consent, or null until the student has agreed. */
   aiConsentAt?: string | null
+  /** IANA zone name, auto-detected by the browser and written by `PUT /me/profile`. */
+  timezone?: string | null
 }
 
 export interface Entitlement {
@@ -98,6 +103,16 @@ export interface Identity {
    * does have an unopened verification email waiting for it.
    */
   emailVerified: boolean
+  /** A verified authenticator is enrolled but this session has not presented it yet (aal1). */
+  mfaPending: boolean
+  /**
+   * The name and photo an OAuth provider handed back at sign-up, straight from
+   * Supabase's own `user_metadata` — only ever populated on a fresh `/api/me`
+   * read (a session under an hour old, or `?fresh=1`), null otherwise. For
+   * CompleteProfile.tsx to prefill from, never a substitute for `profile.name`.
+   */
+  metadataName: string | null
+  avatarUrl: string | null
   /** Never a fabricated person: the real name, else the email, else "Student". */
   displayName: string
   /** True when nobody has created a roster row for this account yet. */
@@ -166,7 +181,7 @@ const NO_ENTITLEMENT: Entitlement = { state: 'none', plan: 'Free', expiresAt: nu
 
 const ANONYMOUS: Identity = {
   status: 'loading', userId: null, email: null, role: null, rank: 0, tabs: [], contentScope: null,
-  aal: null, emailVerified: false,
+  aal: null, emailVerified: false, mfaPending: false, metadataName: null, avatarUrl: null,
   displayName: 'Student', profileMissing: true, audienceUnknown: true, profile: EMPTY_PROFILE, audience: EMPTY_AUDIENCE,
   entitlement: NO_ENTITLEMENT, subscription: null, reload: () => undefined,
   saveEnrolment: async () => ({ phoneConflict: false }), loading: true, audienceSettled: false,
@@ -176,12 +191,18 @@ const ANONYMOUS: Identity = {
 interface MeResponse {
   user: {
     id: string
+    /** Only present on a fresh read; see the note on `Identity.metadataName`. */
+    metadataName?: string | null
+    avatarUrl?: string | null
     email: string | null
     role: string | null
     rank?: number
     tabs?: string[]
     contentScope?: ContentScope | null
     aal: string | null
+    /** Null means "not asked" — see the note on the /api/me handler. */
+    emailVerified?: boolean | null
+    mfaPending?: boolean
   } | null
   profile: IdentityProfile | null
   subscription: Subscription | null
@@ -191,8 +212,8 @@ interface MeResponse {
 const IdentityContext = createContext<Identity>(ANONYMOUS)
 
 /** The name to greet someone by, never invented. */
-function nameFor(profile: IdentityProfile | null, metadataName: string | null, email: string | null): string {
-  const real = profile?.name?.trim() || metadataName?.trim()
+function nameFor(profile: IdentityProfile | null, email: string | null): string {
+  const real = profile?.name?.trim()
   if (real) return real
   const local = email?.split('@')[0]?.trim()
   return local || 'Student'
@@ -237,12 +258,15 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     status: IdentityStatus
     userId: string | null
     email: string | null
-    metadataName: string | null
     role: EffectiveRole | null
     tabs: string[]
     contentScope: ContentScope | null
     aal: 'aal1' | 'aal2' | null
     emailVerified: boolean
+  /** A verified authenticator is enrolled but this session has not presented it yet (aal1). */
+  mfaPending: boolean
+    metadataName: string | null
+    avatarUrl: string | null
     profile: IdentityProfile | null
     subscription: Subscription | null
     entitlement: Entitlement
@@ -250,58 +274,58 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     // Without a backend there is no account system to consult, so the app is
     // usable immediately and simply knows nothing about who is using it.
     status: API_MODE ? 'loading' : 'demo',
-    userId: null, email: null, metadataName: null,
+    userId: null, email: null,
     // The demo build has no account system to consult, so nothing is hidden:
     // the offline prototype resolves to a super admin holding every tab.
     role: API_MODE ? null : 'super_admin',
     tabs: API_MODE ? [] : TAB_IDS,
     contentScope: null,
     aal: null,
+    mfaPending: false,
     // Nothing to verify without an account system.
     emailVerified: !API_MODE,
+    metadataName: null, avatarUrl: null,
     profile: null, subscription: null, entitlement: NO_ENTITLEMENT,
   }))
   // Demo mode only — see the note on the key. In live mode this hook is still
   // called (hooks are not conditional) but its value is never consulted.
   const [storedAudience, setStoredAudience, audienceStatus] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
   const [nonce, setNonce] = useState(0)
-  const reload = useCallback(() => setNonce((n) => n + 1), [])
+  /**
+   * Re-read `/api/me`.
+   *
+   * A reload that follows a sign-in has to move the whole app, not just the
+   * page that did it — and the gap before the answer arrives used to be read
+   * as whatever was true before, i.e. "anonymous", which sent somebody who had
+   * just typed their password correctly back to /login for a second try. So an
+   * anonymous identity is reset to "loading" first: the guards hold instead of
+   * concluding anonymous from a session that has, in fact, just been created.
+   */
+  const reload = useCallback(() => {
+    setState((s) => (s.status === 'anonymous' ? { ...s, status: 'loading' } : s))
+    setNonce((n) => n + 1)
+  }, [])
 
   useEffect(() => {
     if (!API_MODE) return
     let cancelled = false
+    // Whether this app currently believes somebody is signed in. Only used by
+    // the expiry listener below, and kept here rather than read back out of
+    // state so the listener cannot act on a stale render's answer.
+    let authed = false
 
+    // One round trip, and the session it reads is a cookie this page cannot
+    // see. Everything the handoff apparatus used to do — minting a code on one
+    // origin, redeeming it on the other — is gone: both portal hostnames share
+    // the one cookie, so arriving on either is arriving signed in.
     const load = async () => {
-      // A cross-origin handoff (HandOver in router.tsx, authHandoff.js on the
-      // server) lands here with a one-time code in the URL instead of a
-      // session. It has to become a session before anything below asks
-      // whether one exists — otherwise this concludes "anonymous" for the
-      // width of that round trip, and RequireAuth bounces to /login for the
-      // exact case the handoff exists to avoid.
-      const handoffParams = new URLSearchParams(window.location.search)
-      const handoffCode = handoffParams.get('authHandoff')
-      if (handoffCode) {
-        await redeemSessionHandoff(handoffCode)
-        if (cancelled) return
-        // Stripped whether or not it redeemed: a dead code left in the URL
-        // would otherwise be retried on every later reload of this effect.
-        handoffParams.delete('authHandoff')
-        const query = handoffParams.toString()
-        window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`)
-      }
-      const session = supabase ? (await supabase.auth.getSession()).data.session : null
-      if (cancelled) return
-      const metadata = session?.user.user_metadata as { full_name?: string; name?: string } | undefined
-      const metadataName = metadata?.full_name || metadata?.name || null
-      // Only a session that actually reports an unconfirmed address counts as
-      // one. No session at all is not evidence of anything, and reading it as
-      // "unverified" would send a signed-in student to a verification page they
-      // have already been through and cannot get past.
-      const emailVerified = session ? Boolean(session.user.email_confirmed_at) : true
-
       let me: MeResponse | null = null
       try {
-        me = await apiGet<MeResponse>('/me')
+        const request = loadMe<MeResponse>()
+        // The state store asks the same question for its recovery keys; hand it
+        // this request so a boot makes one `/me` call, not two.
+        void adoptOwnerLookup(request)
+        me = await request
       } catch {
         // A 401 here is the ordinary signed-out case, not a fault. Anything
         // else leaves the app unauthenticated too, which is the safe reading.
@@ -309,9 +333,20 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
 
       if (!me?.user) {
-        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, metadataName: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
+        authed = false
+        setStateOwnerId(null)
+        setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, mfaPending: false, metadataName: null, avatarUrl: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
+      // Null means the server did not ask Supabase this time, which is not
+      // evidence of anything. Only an explicit `false` holds an account back;
+      // reading silence as "unverified" would send a signed-in student to a
+      // verification page they have already been through and cannot get past.
+      const emailVerified = me.user.emailVerified !== false
+      authed = true
+      // Crash-recovery copies are keyed to the account that wrote them, and
+      // this is the first moment that account is known.
+      setStateOwnerId(me.user.id)
       // Documents read before the session was restored were refused with a 401
       // and are sitting unread; a signed-in identity is what makes them
       // readable. Without this the app boots empty and stays that way until the
@@ -320,8 +355,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       setState({
         status: 'authenticated',
         userId: me.user.id,
-        email: me.profile?.email ?? me.user.email ?? session?.user.email ?? null,
-        metadataName,
+        email: me.profile?.email ?? me.user.email ?? null,
         // The server resolves the role, including the super admin it derives
         // from the email. An unrecognised value reads as a student rather than
         // being trusted: this is the browser's copy, not the authority.
@@ -330,6 +364,9 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         contentScope: readScope(me.user.contentScope),
         aal: me.user.aal === 'aal2' ? 'aal2' : 'aal1',
         emailVerified,
+        mfaPending: me.user.mfaPending === true,
+        metadataName: me.user.metadataName ?? null,
+        avatarUrl: me.user.avatarUrl ?? null,
         profile: me.profile,
         subscription: me.subscription,
         entitlement: me.entitlement ?? NO_ENTITLEMENT,
@@ -337,23 +374,26 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     }
 
     void load()
-    // Signing in or out has to move the whole app, not just the page that did it.
-    const subscription = supabase?.auth.onAuthStateChange((event) => {
-      // The gap between this event and `/api/me` answering is still read as
-      // whatever identity was true before it — for a sign-in, that is
-      // "anonymous", which is what sent someone who had just typed their
-      // password correctly back to /login for a second try, racing the guard
-      // against this same async load. Resetting to 'loading' here closes that
-      // gap: RequireAuth holds the loading state instead of concluding
-      // anonymous from a session that has, in fact, just been established.
-      // A token refresh carries none of that risk and is left alone so it
-      // never flashes a loading state across the whole app.
-      if (event === 'SIGNED_IN' || event === 'SIGNED_OUT') setState((s) => ({ ...s, status: 'loading' }))
+
+    /**
+     * A session that ended somewhere else.
+     *
+     * `api.ts` fires this on any 401. It is only acted on while this app still
+     * believes somebody is signed in, which is the whole loop guard: the
+     * re-read settles on "anonymous", the guards send the person to /login
+     * once, and every later 401 — including the ones /login's own page makes —
+     * finds an identity that already agrees and does nothing.
+     */
+    const onExpired = () => {
+      if (!authed) return
+      authed = false
+      setState((s) => ({ ...s, status: 'loading' }))
       void load()
-    })
+    }
+    window.addEventListener(SESSION_EXPIRED_EVENT, onExpired)
     return () => {
       cancelled = true
-      subscription?.data.subscription.unsubscribe()
+      window.removeEventListener(SESSION_EXPIRED_EVENT, onExpired)
     }
   }, [nonce])
 
@@ -427,8 +467,11 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       tabs: state.tabs,
       contentScope: state.contentScope,
       aal: state.aal,
+      mfaPending: state.mfaPending,
       emailVerified: state.emailVerified,
-      displayName: nameFor(state.profile, state.metadataName, state.email),
+      metadataName: state.metadataName,
+      avatarUrl: state.avatarUrl,
+      displayName: nameFor(state.profile, state.email),
       profileMissing: state.status === 'authenticated' && !state.profile,
       /** True when nobody has said where this account studies. */
       audienceUnknown: !universityId || !year,

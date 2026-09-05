@@ -13,6 +13,7 @@
 export type InlineToken =
   | { kind: 'text'; text: string }
   | { kind: 'strong'; text: string }
+  | { kind: 'underline'; text: string }
   | { kind: 'em'; text: string }
   | { kind: 'code'; text: string }
   | { kind: 'link'; text: string; href: string }
@@ -30,12 +31,29 @@ function safeHref(href: string): string | null {
 }
 
 // Ordered: code first, so `**` inside a code span is not read as emphasis.
-const PATTERNS: Array<{ kind: InlineToken['kind']; re: RegExp }> = [
-  { kind: 'code', re: /`([^`\n]+)`/ },
-  { kind: 'link', re: /\[([^\]\n]+)\]\(([^)\s]+)\)/ },
-  { kind: 'strong', re: /\*\*([^*\n]+)\*\*/ },
-  { kind: 'em', re: /(?<!\*)\*([^*\n]+)\*(?!\*)/ },
+// `notAfter` stands in for a lookbehind (`(?<!\*)`): Safari only gained
+// lookbehind in 16.4, and the supported floor is iOS 15.4, where the regex
+// literal itself would fail to parse and take the whole chunk down with it.
+const PATTERNS: Array<{ kind: InlineToken['kind']; re: RegExp; notAfter?: string }> = [
+  { kind: 'code', re: /`([^`\n]+)`/g },
+  { kind: 'link', re: /\[([^\]\n]+)\]\(([^)\s]+)\)/g },
+  { kind: 'strong', re: /\*\*([^*\n]+)\*\*/g },
+  // Underline is `__like this__`. Authored content uses it to mark key terms for
+  // scanning; single underscores (identifiers like SUB_PE) never pair up.
+  { kind: 'underline', re: /__([^_\n]+)__/g },
+  { kind: 'em', re: /\*([^*\n]+)\*(?!\*)/g, notAfter: '*' },
 ]
+
+/** First match of `re` in `input` not immediately preceded by `notAfter`. */
+function findMatch(re: RegExp, input: string, notAfter?: string): RegExpExecArray | null {
+  re.lastIndex = 0
+  let match: RegExpExecArray | null
+  while ((match = re.exec(input))) {
+    if (!notAfter || match.index === 0 || input[match.index - 1] !== notAfter) return match
+    re.lastIndex = match.index + 1
+  }
+  return null
+}
 
 export function tokenizeInline(input: string): InlineToken[] {
   const tokens: InlineToken[] = []
@@ -44,8 +62,8 @@ export function tokenizeInline(input: string): InlineToken[] {
   while (rest) {
     let best: { index: number; length: number; token: InlineToken } | null = null
 
-    for (const { kind, re } of PATTERNS) {
-      const match = re.exec(rest)
+    for (const { kind, re, notAfter } of PATTERNS) {
+      const match = findMatch(re, rest, notAfter)
       if (!match) continue
       if (best && match.index >= best.index) continue
 
@@ -75,5 +93,5 @@ export function tokenizeInline(input: string): InlineToken[] {
 
 /** True when a string contains nothing this renderer would change. */
 export function isPlainInline(input: string): boolean {
-  return !/[`*[]/.test(input)
+  return !/[`*[_]/.test(input)
 }

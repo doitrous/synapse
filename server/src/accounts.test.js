@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem,
-  usernameAvailability, isProfileComplete, saveOwnEnrolment, recordAiConsent,
+  isProfileComplete, saveOwnEnrolment, recordAiConsent, normaliseStatusMessage, normaliseTimezone, usernameAvailability,
 } from './accounts.js'
 import { pool } from './db.js'
 
@@ -125,37 +125,43 @@ test('saveOwnEnrolment returns on the happy path without a scope error', async (
   assert.equal(result.phoneConflict, false)
 })
 
+test('saveOwnEnrolment never lets the caller write their own subscription plan', async (t) => {
+  // A field a client is never asked for but is still free to include in the
+  // request body. If it reached the INSERT, "onboarding" would double as a
+  // way to grant yourself a paid tier for nothing.
+  const written = []
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql, params) => {
+      if (/FOR UPDATE/.test(sql)) return [[{ id: 'stu-1', user_id: 'stu-1' }]]
+      if (/WHERE phone = /.test(sql)) return [[]]
+      if (/SELECT name, email, university_id/.test(sql)) return [[{ name: null, email: 'a@b.c', universityId: null, year: null, yearId: null, usernameNormalized: null }]]
+      if (/FROM subscriptions/.test(sql)) return [[]]
+      if (/INSERT INTO subscriptions/.test(sql) || /UPDATE students SET plan/.test(sql)) written.push({ sql, params })
+      return [{ affectedRows: 1 }]
+    },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  t.mock.method(pool, 'query', async () => [[]])
+
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', plan: 'Adaptive' })
+  assert.equal(result.ok, true)
+  assert.equal(written.length, 2)
+  const subscriptionInsert = written.find((w) => /INSERT INTO subscriptions/.test(w.sql))
+  assert.ok(subscriptionInsert.sql.includes("'Free'"), 'plan is a literal in the SQL, not a bound parameter')
+  assert.ok(!subscriptionInsert.params.includes('Adaptive'))
+  const studentsUpdate = written.find((w) => /UPDATE students SET plan/.test(w.sql))
+  assert.deepEqual(studentsUpdate.params, ['Free', 'stu-1'])
+})
+
 test('saveOwnEnrolment reports phoneConflict when the number belongs to someone else', async (t) => {
   fakeEnrolmentPool(t, { phoneHeldByOther: true })
   const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })
   assert.equal(result.ok, true)
   assert.equal(result.phoneConflict, true)
-})
-
-/* ── usernameAvailability: the /api/me/username-available pre-check ────── */
-
-test('usernameAvailability rejects an invalid handle without querying', async () => {
-  const conn = { query: async () => { throw new Error('must not query on an invalid handle') } }
-  const result = await usernameAvailability(conn, { handle: 'ab', universityId: 'cairo', currentUsernameNormalized: null, studentId: 's1' })
-  assert.deepEqual(result, { available: false, reason: 'invalid' })
-})
-
-test('usernameAvailability reports unchanged for the caller\'s own current handle', async () => {
-  const conn = { query: async () => { throw new Error('must not query when the handle has not changed') } }
-  const result = await usernameAvailability(conn, { handle: 'Omar_98', universityId: 'cairo', currentUsernameNormalized: 'omar_98', studentId: 's1' })
-  assert.deepEqual(result, { available: true, reason: 'unchanged' })
-})
-
-test('usernameAvailability reports taken when another student in the same university holds it', async () => {
-  const conn = { query: async () => [[{ id: 'someone-else' }]] }
-  const result = await usernameAvailability(conn, { handle: 'newhandle', universityId: 'cairo', currentUsernameNormalized: null, studentId: 's1' })
-  assert.deepEqual(result, { available: false, reason: 'taken' })
-})
-
-test('usernameAvailability reports available for a free handle', async () => {
-  const conn = { query: async () => [[]] }
-  const result = await usernameAvailability(conn, { handle: 'freshhandle', universityId: 'cairo', currentUsernameNormalized: null, studentId: 's1' })
-  assert.deepEqual(result, { available: true })
 })
 
 /* ── recordAiConsent: written once, read back on every later call ──────── */
@@ -200,6 +206,10 @@ function fakeEnrolmentPoolWithStatus(t, { storedStatusMessage = null } = {}) {
       if (/SELECT name, email, university_id/.test(sql)) {
         return [[{ name: null, email: 'a@b.c', universityId: null, year: null, yearId: null, usernameNormalized: null, statusMessage: storedStatusMessage }]]
       }
+      // The trial grant denormalises the plan with its own `UPDATE students SET
+      // plan = ?` after the enrolment write; ignore it so `written` keeps the
+      // enrolment UPDATE (the one carrying status_message at -2).
+      if (/UPDATE students SET plan/.test(sql)) return [{ affectedRows: 1 }]
       if (/UPDATE students/.test(sql)) { written = params; return [{ affectedRows: 1 }] }
       if (/FROM subscriptions/.test(sql)) return [[]]
       return [{ affectedRows: 1 }]
@@ -233,4 +243,51 @@ test('saveOwnEnrolment leaves the status message untouched when the field is not
   const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1' })
   assert.equal(result.ok, true)
   assert.equal(writtenParams().at(-2), 'kept as-is')
+})
+
+test('normaliseStatusMessage trims, folds line breaks, and caps at 120 chars', () => {
+  assert.equal(normaliseStatusMessage('  studying for finals  '), 'studying for finals')
+  assert.equal(normaliseStatusMessage('line one\nline two\r\nline three'), 'line one line two line three')
+  assert.equal(normaliseStatusMessage('x'.repeat(200)).length, 120)
+  assert.equal(normaliseStatusMessage('   '), null)
+  assert.equal(normaliseStatusMessage(undefined), undefined) // "not provided" — leave the column alone
+})
+
+test('normaliseTimezone accepts a real IANA zone and falls back to Cairo otherwise', () => {
+  assert.equal(normaliseTimezone('Asia/Tokyo'), 'Asia/Tokyo')
+  assert.equal(normaliseTimezone('Not/AZone'), 'Africa/Cairo')
+  assert.equal(normaliseTimezone(''), 'Africa/Cairo')
+  assert.equal(normaliseTimezone(undefined), 'Africa/Cairo')
+})
+
+test('usernameAvailability rejects a badly formatted candidate without a query', async (t) => {
+  let queried = false
+  t.mock.method(pool, 'query', async () => { queried = true; return [[]] })
+  const result = await usernameAvailability('stu-1', 'a')
+  assert.deepEqual(result, { available: false, reason: 'invalid' })
+  assert.equal(queried, false)
+})
+
+test('usernameAvailability reports the caller\'s own current username as available', async (t) => {
+  t.mock.method(pool, 'query', async () => [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]])
+  const result = await usernameAvailability('stu-1', 'Nour')
+  assert.deepEqual(result, { available: true })
+})
+
+test('usernameAvailability reports taken when another student at the same university holds it', async (t) => {
+  t.mock.method(pool, 'query', async (sql) => {
+    if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
+    return [[{ id: 'stu-2' }]] // usernameConflict's own query, via the same pool
+  })
+  const result = await usernameAvailability('stu-1', 'someone-else')
+  assert.deepEqual(result, { available: false, reason: 'taken' })
+})
+
+test('usernameAvailability reports available when nobody else at the university holds it', async (t) => {
+  t.mock.method(pool, 'query', async (sql) => {
+    if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
+    return [[]]
+  })
+  const result = await usernameAvailability('stu-1', 'free-name')
+  assert.deepEqual(result, { available: true })
 })

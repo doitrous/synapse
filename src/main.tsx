@@ -1,3 +1,4 @@
+import './lib/polyfills'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
@@ -27,13 +28,19 @@ import './index.css'
 // private, so the marketing head is stripped and the domain is told to stay out of
 // search results.
 if (isAdminHost()) {
-  document.title = 'Maristana Admin'
+  document.title = 'Nishany Admin'
   document.querySelectorAll('link[rel="canonical"], link[rel="alternate"][hreflang], meta[property^="og:"], meta[name^="twitter:"]').forEach((tag) => tag.remove())
   const robots = document.createElement('meta')
   robots.name = 'robots'
   robots.content = 'noindex, nofollow'
   document.head.appendChild(robots)
 }
+
+// Registered once here so offline caching (public/sw.js) benefits every
+// visitor, not only whoever lands on the one page that used to mount
+// `useWebPush` — that hook now reuses this registration via
+// `serviceWorker.ready` instead of registering a second time.
+try { void navigator.serviceWorker?.register(`${import.meta.env.BASE_URL}sw.js`) } catch { /* best-effort */ }
 
 async function startApp() {
   // Keep the local showcase populated for review without putting fixture code

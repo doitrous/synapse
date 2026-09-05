@@ -506,7 +506,7 @@ export function notifyRoomPresence(roomId) {
  * "connection error" in every browser; a close code is something the client can
  * read and say out loud.
  */
-export async function attachRoomsRealtime(httpServer, { identityFromToken, resolveRoom, readRoom, loadSfu }) {
+export async function attachRoomsRealtime(httpServer, { identityFromToken, identityFromCookies, resolveRoom, readRoom, loadSfu }) {
   let WebSocketServer
   try {
     ({ WebSocketServer } = await import('ws'))
@@ -568,7 +568,13 @@ export async function attachRoomsRealtime(httpServer, { identityFromToken, resol
 
     let identity = null
     try {
-      identity = token ? await identityFromToken(token) : null
+      // A browser cannot set an Authorization header on a WebSocket, and the
+      // web client no longer holds a token to smuggle through a subprotocol —
+      // its session is the `nsid` cookie, which the upgrade request carries like
+      // any other same-origin request. Native clients still offer the token.
+      identity = token
+        ? await identityFromToken(token)
+        : (identityFromCookies ? await identityFromCookies(request.headers.cookie) : null)
     } catch {
       identity = null
     }

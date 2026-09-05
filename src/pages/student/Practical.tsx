@@ -405,7 +405,6 @@ export function Practical() {
     <PageContainer>
       <PageHeader
         title={t('Practical')}
-        description={t('Rehearse OSCE stations, work through clinical cases, and practise lab and imaging interpretation.')}
         back={{ fallback: '/app/practice' }}
       />
 

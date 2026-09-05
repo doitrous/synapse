@@ -3,6 +3,8 @@ import { diffStateForDelta, isDeltaKey } from './stateDelta'
 import { isUserOwnedState } from './stateOwnership'
 import { recoveryCopyWins } from './statePrecedence'
 import { awaitsSession, hydrationRetryDelay, RETRY_MS } from './stateRetry'
+import { LANG_STORAGE_KEY } from './i18n'
+import { THEME_STORAGE_KEY } from './useTheme'
 
 /**
  * One document per key, shared by every component that asks for it.
@@ -396,6 +398,18 @@ export function hydrate(key: string): void {
   entry.hydrating = true
 
   const attempt = async () => {
+    // Nothing under /api/state answers without a session — student-owned or
+    // shared — and the server knows the session from the cookie alone, so there
+    // is no header to wait for. Ask once who is signed in (one shared /me) and,
+    // if nobody is, hold the read for `retryAfterSignIn` instead of sending it
+    // to be refused: a signed-out login page used to fire and retry every
+    // document it would need once signed in.
+    if (!(await stateOwnerId())) {
+      entry.hydrating = false
+      entry.awaitingSession = true
+      setStatus(entry, { error: 'unauthorized' })
+      return
+    }
     const remote = await (entry.userOwned ? getUserState(entry.key) : getState(entry.key))
     if (remote.error) {
       // Never mark this hydrated: writing now would push the local seed over a
@@ -511,6 +525,33 @@ export function invalidateEntry(key: string): void {
   if (!entry || !API_MODE) return
   entry.hydrated = false
   hydrate(key)
+}
+
+/**
+ * Forget everything this browser holds for the account that just signed out.
+ *
+ * A cookie session ends on the server, which is what matters — but the crash
+ * recovery copies, the demo documents and the per-surface preferences this app
+ * writes are all still sitting in this browser under the previous account's
+ * name, and the next person to sign in on this machine would adopt them. Only
+ * the two choices that belong to the device rather than the account survive:
+ * the language and the theme, which are also what an inline script reads before
+ * React exists, so clearing them would repaint the page mid-sign-out.
+ *
+ * The in-memory documents are invalidated rather than dropped: a component may
+ * still be subscribed to one as this runs, and removing its entry outright is
+ * how a mounted surface reads `undefined` and crashes on the way to /login.
+ */
+export function clearAppStorage(): void {
+  const keep = new Set<string>([LANG_STORAGE_KEY, THEME_STORAGE_KEY])
+  for (const store of [window.localStorage, window.sessionStorage]) {
+    try {
+      for (const key of Object.keys(store)) {
+        if (/^nishany[-.]/.test(key) && !keep.has(key)) store.removeItem(key)
+      }
+    } catch { /* storage may be unavailable */ }
+  }
+  for (const key of entries.keys()) invalidateEntry(key)
 }
 
 /**

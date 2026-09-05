@@ -4,7 +4,7 @@
 CON-FND-A10D3E6030F49D
 
 ## label
-Prokaryotic RNA polymerase is one multi-subunit holoenzyme, and its sigma subunit directs initiation by recognising the Pribnow box
+Prokaryotic RNA polymerase: sigma and the Pribnow box
 
 ## canonical_key
 transcription.prokaryotic-initiation.sigma-holoenzyme-pribnow-box
@@ -23,7 +23,11 @@ Bacterial RNA polymerase
 عامل سيجما
 
 ## definition
-Bacteria transcribe every class of RNA — mRNA, rRNA and tRNA alike — with a single RNA polymerase, in contrast to eukaryotes, which use three separate polymerases (I, II and III). That single bacterial enzyme is itself an aggregate of several different subunits, which is why it is called a holoenzyme rather than a simple enzyme. The holoenzyme is the core enzyme (the catalytic subunits alone, sufficient for elongation but not accurate initiation) plus a detachable sigma subunit. Sigma factor is what lets the holoenzyme recognise the correct promoter and start transcription at the right site — specifically the Pribnow box, a consensus sequence (TATAAT) centred about ten base pairs upstream of the transcription start site.
+Bacteria transcribe every class of RNA — **mRNA, rRNA and tRNA alike** — with a single RNA polymerase, unlike eukaryotes, which use three separate polymerases (I, II and III).
+
+That single bacterial enzyme is an aggregate of several subunits, which is why it is called a **holoenzyme**. The holoenzyme is the **core enzyme** (the catalytic subunits alone, enough for elongation but not accurate initiation) plus a detachable **sigma subunit**.
+
+__Sigma factor lets the holoenzyme recognise the correct promoter and start at the right site__ — specifically the **Pribnow box**, a consensus sequence (**TATAAT**) centred about ten base pairs upstream of the transcription start site.
 
 ## explicit_objective
 Identify sigma factor as the RNA polymerase subunit responsible for promoter recognition and transcription initiation, name TATAAT as the Pribnow box consensus sequence, and state that bacteria transcribe every RNA class with one holoenzyme rather than three separate polymerases.
@@ -170,7 +174,7 @@ scopeRuling: Authored per chief-of-staff ruling on this session's dispatch (2026
 CON-FND-E5651C6097AEC7
 
 ## label
-Prokaryotic transcription terminates either through rho factor or through an intrinsic G-C-rich hairpin, with no dedicated helicase needed to unwind the DNA
+Prokaryotic transcription termination: rho vs intrinsic
 
 ## canonical_key
 transcription.prokaryotic-termination.rho-dependent-and-intrinsic
@@ -188,7 +192,13 @@ Rho-independent termination
 عامل رو
 
 ## definition
-Bacterial transcription ends in one of two ways. Rho-dependent termination needs the rho protein, which follows behind RNA polymerase along the growing transcript and eventually catches up to it, unwinding the RNA-DNA hybrid and releasing both the polymerase and the finished RNA. Intrinsic (rho-independent) termination needs no separate protein factor at all: a G-C-rich, self-complementary sequence near the 3' end of the new RNA folds back on itself into a hairpin, and that hairpin combined with a following run of U residues destabilises the RNA-DNA hybrid enough to release the transcript on its own. Neither mechanism, nor initiation, needs a dedicated helicase enzyme to unwind the DNA ahead of the polymerase — RNA polymerase itself locally opens the double helix it is transcribing, unlike DNA replication, which does depend on a dedicated helicase.
+Bacterial transcription ends in one of two ways.
+
+**Rho-dependent termination** needs the **rho protein**, which follows behind RNA polymerase along the growing transcript, eventually catches up, unwinds the RNA-DNA hybrid and releases both the polymerase and the finished RNA.
+
+**Intrinsic (rho-independent) termination** needs no protein factor: a **G-C-rich, self-complementary** sequence near the 3' end folds back into a **hairpin**, which — combined with a following run of U residues — destabilises the RNA-DNA hybrid enough to release the transcript on its own.
+
+__Neither mechanism, nor initiation, needs a dedicated helicase__ — RNA polymerase itself locally opens the double helix it transcribes, unlike DNA replication, which does depend on one.
 
 ## explicit_objective
 Distinguish rho-dependent from intrinsic (rho-independent) bacterial transcription termination, and state that transcription needs no dedicated helicase enzyme the way DNA replication does.

@@ -21,6 +21,7 @@ import { resolveMediaSource } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import { overlayPortal } from '@/lib/overlayPortal'
 import { API_MODE, apiFetchBlob } from '@/lib/api'
 import { setShareFollow, setShareStar, useSharedDocuments, type ShareSummary } from '@/lib/useShares'
@@ -59,7 +60,8 @@ export function Notebook() {
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
   const { subtopics: allSubtopics } = useLiveLibrary()
-  const [notes, setNotes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
+  const [notes, setNotes, notesStatus] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
+  const online = useOnlineStatus()
   // Was hardcoded to the demo note id `nb1`, so a student whose notes did not
   // include it opened on "No note selected" even with notes in the list.
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -284,6 +286,13 @@ export function Notebook() {
         )}
       </div>
       {tab === 'questions' ? null : tab === 'your' ? (
+        !notesStatus.hydrated ? (
+          <SkeletonList rows={5} className="px-2 py-3" />
+        ) : notesStatus.error && !online ? (
+          <p className="px-4 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">{t("You're offline. Your notes will sync once you reconnect.")}</p>
+        ) : notesStatus.error ? (
+          <p className="px-4 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">{t('Your notes could not be loaded. This keeps retrying on its own.')}</p>
+        ) : (
         <ul className="flex-1 overflow-y-auto px-2 pb-3">
           {filtered.length === 0 && (
             <li className="px-2.5 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">
@@ -313,6 +322,7 @@ export function Notebook() {
             </li>
           ))}
         </ul>
+        )
       ) : (
         <SharedNotesList query={query} shared={sharedNotes} onClose={() => setListOpen(false)} />
       )}

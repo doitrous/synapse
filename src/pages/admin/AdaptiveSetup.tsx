@@ -14,7 +14,7 @@
 
 import { useMemo, useState } from 'react'
 import {
-  Activity, Braces, CalendarRange, ClipboardCheck, Gauge, Layers, ScrollText, Sparkles,
+  Activity, Braces, CalendarRange, ClipboardCheck, Gauge, Layers, ScrollText, Radar,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -45,7 +45,7 @@ import { yearId as deriveYearId } from '@/data/taxonomy'
 const TABS = [
   { value: 'overview', label: 'Overview & pool health', icon: Activity },
   { value: 'blueprints', label: 'Blueprints', icon: Layers },
-  { value: 'selection', label: 'Selection', icon: Sparkles },
+  { value: 'selection', label: 'Selection', icon: Radar },
   { value: 'mastery', label: 'Mastery model', icon: Braces },
   { value: 'interventions', label: 'Interventions', icon: Gauge },
   { value: 'readiness', label: 'Readiness', icon: ClipboardCheck },

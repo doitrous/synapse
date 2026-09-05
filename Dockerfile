@@ -6,10 +6,8 @@ FROM node:22-alpine AS web
 WORKDIR /web
 # Same-origin: the app calls /api on its own host, so no separate API domain.
 ENV VITE_API_BASE=/api
-ARG VITE_SUPABASE_URL=""
-ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL
-ARG VITE_SUPABASE_PUBLISHABLE_KEY=""
-ENV VITE_SUPABASE_PUBLISHABLE_KEY=$VITE_SUPABASE_PUBLISHABLE_KEY
+ARG VITE_TURNSTILE_SITE_KEY=""
+ENV VITE_TURNSTILE_SITE_KEY=$VITE_TURNSTILE_SITE_KEY
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
@@ -41,5 +39,7 @@ RUN node -e "import('mediasoup').then((m) => console.log('mediasoup', m.version,
 COPY server/ .
 COPY --from=web /web/dist ./public
 ENV PORT=8080
+# Production mode: Secure session cookies, no dev key fallback, express caching.
+ENV NODE_ENV=production
 EXPOSE 8080
 CMD ["node", "src/index.js"]

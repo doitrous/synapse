@@ -1,6 +1,15 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import { pool } from './db.js'
+import { expiryFrom, refreshGrant, tokenAal } from './goTrue.js'
 import { effectiveRole, hasConsoleAccess, mfaEnforced, parseSuperAdminEmails, rank } from './roles.js'
+import {
+  clearSessionCookie,
+  destroySession,
+  loadSession,
+  readSessionCookie,
+  saveTokens,
+  touchSession,
+} from './sessionStore.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForRole } from './tabs.js'
 
 const supabaseUrl = process.env.SUPABASE_URL?.replace(/\/$/, '')
@@ -142,6 +151,130 @@ export async function identityFromToken(token) {
   }
 }
 
+/**
+ * The origins allowed to make a cookie-authenticated write.
+ *
+ * An exact allowlist, not a pattern: this is the whole CSRF defence, and a
+ * pattern that admits `nishany.com.evil.test` admits everything.
+ */
+let portalOriginsCache = null
+function portalOrigins() {
+  portalOriginsCache ??= (process.env.PORTAL_ORIGINS || 'https://nishany.com,https://connectadminacademy.nishany.com')
+    .split(',').map((origin) => origin.trim().replace(/\/$/, '')).filter(Boolean)
+  return portalOriginsCache
+}
+
+/**
+ * Whether a cookie-authenticated request came from one of our own pages.
+ *
+ * Only cookies are forgeable this way — a bearer token has to be *sent*
+ * deliberately, and no cross-site form can read one — so this is asked only of
+ * cookie callers, and only for methods that change something. A write with
+ * neither header is refused: every browser sends `Origin` on a cross-origin
+ * write, so a request without one is not a browser doing what we expect.
+ */
+export function csrfOk(req, origins = portalOrigins()) {
+  const method = String(req.method ?? 'GET').toUpperCase()
+  if (method === 'GET' || method === 'HEAD' || method === 'OPTIONS') return true
+  const headers = req.headers ?? {}
+  let origin = headers.origin ?? null
+  if (!origin && headers.referer) {
+    try { origin = new URL(headers.referer).origin } catch { origin = null }
+  }
+  return Boolean(origin) && origins.includes(String(origin).replace(/\/$/, ''))
+}
+
+/**
+ * One refresh per session, however many requests arrive at once.
+ *
+ * A page that fires six requests as a token expires would otherwise spend six
+ * refresh grants on the same session, and GoTrue's rotation means five of them
+ * come back invalid — which reads to the user as a random sign-out.
+ */
+const refreshing = new Map() // session id -> Promise<session|null>
+
+async function withFreshToken(session) {
+  if (session.accessExpiresAt.getTime() - Date.now() > 60_000) return session
+  let inflight = refreshing.get(session.id)
+  if (!inflight) {
+    inflight = (async () => {
+      const { data, error } = await refreshGrant(session.refreshToken)
+      if (error || !data?.access_token) return null
+      const next = {
+        ...session,
+        accessToken: data.access_token,
+        refreshToken: data.refresh_token ?? session.refreshToken,
+        accessExpiresAt: expiryFrom(data),
+        aal: tokenAal(data.access_token),
+      }
+      await saveTokens(session.id, {
+        accessToken: next.accessToken,
+        refreshToken: next.refreshToken,
+        expiresAt: next.accessExpiresAt,
+        aal: next.aal,
+      })
+      return next
+    })().finally(() => refreshing.delete(session.id))
+    refreshing.set(session.id, inflight)
+  }
+  return inflight
+}
+
+/**
+ * The identity behind the `nsid` cookie, refreshing the access token if it is
+ * about to expire, and then resolved by exactly the code a bearer token goes
+ * through — so `req.identity` cannot differ between the two ways in.
+ */
+async function sessionIdentity(req, res) {
+  const raw = readSessionCookie(req)
+  if (!raw) return null
+  let session
+  try {
+    session = await loadSession(raw)
+  } catch (error) {
+    // A session table that is missing or unreachable is "not signed in", never
+    // a 500 on every route in the product.
+    console.error('[auth] session lookup failed:', error?.message ?? error)
+    return null
+  }
+  if (!session) {
+    // Expired, revoked or never ours. Drop the cookie so the browser stops
+    // presenting it on every request for the next thirty days.
+    clearSessionCookie(res)
+    return null
+  }
+
+  const fresh = await withFreshToken(session)
+  if (!fresh) {
+    await destroySession(session.id)
+    clearSessionCookie(res)
+    return null
+  }
+
+  let identity = null
+  try {
+    identity = await supabaseIdentity(fresh.accessToken)
+  } catch { /* an unreadable token is simply no identity */ }
+  if (!identity) return null
+
+  req.sessionRow = fresh
+  // Idle expiry needs a heartbeat, not a write per request; the store rate
+  // limits it to one every five minutes, and a failed heartbeat is not a
+  // failed request.
+  void touchSession(fresh.id).catch(() => {})
+  return identity
+}
+
+/** The identity behind a cookie header, for the WebSocket upgrade (no `res` there). */
+export async function identityFromCookieHeader(header) {
+  const noop = { append() {} }
+  try {
+    return await sessionIdentity({ headers: { cookie: header } }, noop)
+  } catch {
+    return null
+  }
+}
+
 export async function apiAuthGate(req, res, next) {
   if (!req.path.startsWith('/api')) return next()
   // Public by design, and each for the same reason: the caller cannot possibly
@@ -177,12 +310,25 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
     || req.path === '/api/pricing/quote'
+    // The landing page's live subscriber count: read by visitors who are not
+    // signed in, and it already hides everything unless an admin turned it on.
+    || (req.method === 'GET' && req.path === '/api/public/subscriber-count')
     || req.path === '/api/facebook/deletion-callback'
-    // The destination of a cross-origin handoff (authHandoff.js) has no session
-    // to present — that is the case it exists for. Safe to leave open: it
-    // accepts nothing but an opaque, single-use, 30-second code and answers
-    // only with the refresh_token that code was minted for.
-    || req.path === '/api/auth/handoff/redeem'
+    // The marketing site's contact form: visitors are, by definition, not
+    // signed in. Turnstile and its own rate limit guard it (contentReports.js).
+    || (req.method === 'POST' && req.path === '/api/contact')
+    // Sign-in, sign-up and recovery (authRoutes.js). None of them can present a
+    // session — that is what they are for. Each carries its own rate limit, and
+    // each answers the same way whether or not the address exists, so none of
+    // them is an account-existence oracle. `verify`, `oauth/:provider` and
+    // `callback` are browser navigations carrying a one-time token or code.
+    || req.path === '/api/auth/login'
+    || req.path === '/api/auth/signup'
+    || req.path === '/api/auth/recover'
+    || req.path === '/api/auth/resend'
+    || req.path === '/api/auth/verify'
+    || req.path === '/api/auth/callback'
+    || req.path.startsWith('/api/auth/oauth/')
     // The pre-login half of passkey sign-in (webauthn.js): the caller has no
     // session yet, that is the whole point of a passwordless flow. Protected
     // instead by the WebAuthn ceremony itself — an authentication assertion
@@ -215,8 +361,12 @@ export async function apiAuthGate(req, res, next) {
     if (token && supabaseUrl) {
       try {
         const identity = await supabaseIdentity(token)
-        if (identity) req.identity = identity
+        if (identity) { req.identity = identity; req.authVia = 'bearer' }
       } catch { /* an unreadable token is simply no identity here */ }
+    }
+    if (!req.identity && readSessionCookie(req)) {
+      const identity = await sessionIdentity(req, res)
+      if (identity) { req.identity = identity; req.authVia = 'cookie' }
     }
     return next()
   }
@@ -231,10 +381,37 @@ export async function apiAuthGate(req, res, next) {
       const identity = await supabaseIdentity(token)
       if (identity) {
         req.identity = identity
+        req.authVia = 'bearer'
         return next()
       }
     } catch {
       // Do not disclose signature or account-state details.
+    }
+  }
+
+  /**
+   * The web client's way in: one opaque cookie, the tokens held here.
+   *
+   * Second, not first, so an installed app that presents a bearer token is
+   * answered by exactly the code that always answered it. The CSRF check comes
+   * before the session is even loaded — a cross-site write should cost this
+   * server nothing, and there is nothing to learn from how long it took.
+   */
+  if (readSessionCookie(req)) {
+    if (!csrfOk(req)) {
+      console.warn('[security]', {
+        event: 'csrf_reject',
+        path: req.path,
+        method: req.method,
+        origin: req.headers?.origin ?? req.headers?.referer ?? null,
+      })
+      return res.status(403).json({ error: 'bad_origin' })
+    }
+    const identity = await sessionIdentity(req, res)
+    if (identity) {
+      req.identity = identity
+      req.authVia = 'cookie'
+      return next()
     }
   }
 
@@ -287,6 +464,12 @@ export async function heldTabs(identity) {
   return tabsForRole(identity.role, await roleTabs())
 }
 
+/** One 403, logged the same way everywhere it happens — `need` is also the response's `error`. */
+function forbidden(req, res, need) {
+  console.warn('[security] forbidden', { route: req.originalUrl, userId: req.identity?.id ?? null, need })
+  return res.status(403).json({ error: need })
+}
+
 /**
  * A route belongs to a tab, and you must hold that tab.
  *
@@ -295,11 +478,11 @@ export async function heldTabs(identity) {
  */
 export function requireTab(...tabIds) {
   return async function guard(req, res, next) {
-    if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
-    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+    if (!hasConsoleAccess(req.identity?.role)) return forbidden(req, res, 'console access required')
+    if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
     try {
       if (!holdsTab(await heldTabs(req.identity), tabIds)) {
-        return res.status(403).json({ error: 'that area is not part of your role' })
+        return forbidden(req, res, 'that area is not part of your role')
       }
     } catch (error) { return next(error) }
     return next()
@@ -308,14 +491,14 @@ export function requireTab(...tabIds) {
 
 /** Any console role at all. Not sufficient on its own — see `requireTab`. */
 export function requireConsole(req, res, next) {
-  if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
-  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  if (!hasConsoleAccess(req.identity?.role)) return forbidden(req, res, 'console access required')
+  if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
   return next()
 }
 
 export function requireSuperAdmin(req, res, next) {
-  if (req.identity?.role !== 'super_admin') return res.status(403).json({ error: 'super admin required' })
-  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  if (req.identity?.role !== 'super_admin') return forbidden(req, res, 'super admin required')
+  if (!mfaSatisfied(req.identity)) return forbidden(req, res, 'mfa_required')
   return next()
 }
 

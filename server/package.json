@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Nishany backend — state store, students, and Resend mail on MariaDB.",
+  "description": "Nishany backend \u2014 state store, students, and Resend mail on MariaDB.",
   "main": "src/index.js",
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",
@@ -27,9 +27,12 @@
     "mysql2": "^3.11.5",
     "resend": "^6.18.1",
     "web-push": "^3.6.7",
-    "ws": "8.18.3"
+    "ws": "8.21.3"
   },
   "optionalDependencies": {
     "mediasoup": "3.26.0"
+  },
+  "overrides": {
+    "qs": "^6.16.0"
   }
 }

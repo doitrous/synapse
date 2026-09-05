@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Bell, BellRing, Check, Share2, Target, Trophy, Users, X } from 'lucide-react'
+import { Bell, BellRing, Check, Share2, Target, Trophy, Users, WifiOff, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -13,6 +13,7 @@ import { QuestionView } from '@/components/qbank/QuestionView'
 import { useQotd } from '@/lib/useQotd'
 import { useIdentity } from '@/lib/useIdentity'
 import { useWebPush } from '@/lib/useWebPush'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import { useT } from '@/lib/i18n'
 import { API_MODE, apiGet } from '@/lib/api'
 import { formatLongDate } from '@/lib/format'
@@ -226,6 +227,7 @@ export function QuestionOfTheDay() {
   const t = useT()
   const identity = useIdentity()
   const qotd = useQotd()
+  const online = useOnlineStatus()
   const [pendingIndex, setPendingIndex] = useState<number | null>(null)
   const [busy, setBusy] = useState(false)
   const [refreshKey, setRefreshKey] = useState(0)
@@ -304,11 +306,23 @@ export function QuestionOfTheDay() {
                 </div>
               </div>
             ) : !qotd.question ? (
-              <EmptyState
-                icon={Target}
-                title={t('Nothing to answer right now')}
-                description={t('There is no question available for your cohort yet. Check back soon.')}
-              />
+              // qotd has no error field of its own — the request either lands or
+              // the question stays null — so offline is the one distinction this
+              // page can still make honestly, the same way CatalogueUnavailable does.
+              !online ? (
+                <EmptyState
+                  icon={WifiOff}
+                  title={t("You're offline")}
+                  description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
+                  action={<Button variant="secondary" size="sm" onClick={() => window.location.reload()}>{t('Try again')}</Button>}
+                />
+              ) : (
+                <EmptyState
+                  icon={Target}
+                  title={t('Nothing to answer right now')}
+                  description={t('There is no question available for your cohort yet. Check back soon.')}
+                />
+              )
             ) : (
               <>
                 <QuestionView

@@ -14,6 +14,7 @@
  */
 
 import type { Difficulty, Question } from '@/data/qbank'
+import { yearScopeMatches } from '../universities.ts'
 
 /**
  * A question plus everything needed to decide whether to ask it.
@@ -119,7 +120,7 @@ export function itemInScope(
   if (scope.universityId && item.universityIds.length > 0 && !item.universityIds.includes(scope.universityId)) {
     return false
   }
-  if (scope.yearId && item.years.length > 0 && !item.years.includes(scope.yearId)) return false
+  if (!yearScopeMatches(item.years, scope.yearId)) return false
   if (scope.moduleIds?.length && item.moduleIds.length > 0) {
     const wanted = new Set(scope.moduleIds)
     if (!item.moduleIds.some((id) => wanted.has(id))) return false

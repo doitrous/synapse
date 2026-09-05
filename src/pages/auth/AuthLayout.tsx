@@ -8,37 +8,18 @@ import { cn } from '@/lib/cn'
 export type AuthStep = 'account' | 'verify' | 'setup'
 
 /**
- * Warm-crimson palette for the brand panel. Explicit hex, not tokens: this
- * one surface (pre-login) deliberately breaks from the app's cool design
- * tokens, so the values live here rather than fighting `--color-accent`.
- */
-const WARM = {
-  panelBg: '#f4ecdd',
-  dot: '#e4d5bc',
-  ink: '#2b211c',
-  ink2: '#6e6157',
-  crimson: '#a81d40',
-  rose: '#e0859b',
-  navy: '#1b2b55',
-  taupeDotted: '#cabca3',
-  taupeRing: '#cdbfa6',
-  cardBorder: '#eadfce',
-  fieldBorder: '#dccfba',
-  fieldBg: '#fffdfa',
-}
-
-/**
  * The lockup mark beside "nishany" on the brand panel: the Noon mark (ن) — two
- * concentric arcs opening top-right (crimson outer, rose inner) with a
- * midnight-blue dot in the mouth. Same vector as `NishanyMark`; drawn locally
- * so the WARM hex is the single source of truth on this deliberately-warm panel.
+ * concentric arcs opening top-right with a dot in the mouth. Same vector as
+ * `NishanyMark`; drawn locally off the `--auth-*` vars so it recolours with the
+ * surface (crimson/rose + navy dot in Light/Warm, lifted rose + periwinkle dot
+ * on the dark panel, where crimson and navy would sink into the ground).
  */
 function WordmarkRingIcon({ size = 24 }: { size?: number }) {
   return (
     <svg aria-hidden focusable="false" viewBox="0 0 100 100" width={size} height={size} fill="none">
-      <circle cx="50" cy="50" r="34" fill="none" stroke={WARM.crimson} strokeWidth="8" strokeLinecap="round" strokeDasharray="163.2 50.4" />
-      <circle cx="50" cy="50" r="20" fill="none" stroke={WARM.rose} strokeWidth="7" strokeLinecap="round" strokeDasharray="96 29.7" />
-      <circle cx="72" cy="28" r="5" fill={WARM.navy} />
+      <circle cx="50" cy="50" r="34" fill="none" stroke="var(--auth-mark-outer)" strokeWidth="8" strokeLinecap="round" strokeDasharray="163.2 50.4" />
+      <circle cx="50" cy="50" r="20" fill="none" stroke="var(--auth-mark-inner)" strokeWidth="7" strokeLinecap="round" strokeDasharray="96 29.7" />
+      <circle cx="72" cy="28" r="5" fill="var(--auth-mark-dot)" />
     </svg>
   )
 }
@@ -50,28 +31,28 @@ function BrandLockup({ size = 'md' }: { size?: 'md' | 'lg' }) {
     <Link to="/" aria-label="Nishany home" className="relative flex items-center gap-2.5">
       <WordmarkRingIcon size={lg ? 30 : 28} />
       <span className="flex flex-col leading-none">
-        <span className={cn('font-brand font-extrabold', lg ? 'text-[18px]' : 'text-[16px]')} style={{ color: WARM.ink }}>nishany</span>
-        <span className="mt-[0.3em] text-[10px] font-semibold tracking-[0.2em]" style={{ color: WARM.crimson }}>BY CONNECT</span>
+        <span className={cn('font-brand font-extrabold', lg ? 'text-[18px]' : 'text-[16px]')} style={{ color: 'var(--auth-ink)' }}>nishany</span>
+        <span className="mt-[0.3em] text-[10px] font-semibold tracking-[0.2em]" style={{ color: 'var(--auth-endorse)' }}>BY CONNECT</span>
       </span>
     </Link>
   )
 }
 
 /**
- * The panel's hero graphic: a still, warm-palette echo of `NishanyLoader`'s
- * rings — a dotted taupe ring, a solid taupe ring, a thick crimson ring, a
- * thin inner crimson ring, and a filled crimson centre dot, drawn as a
- * complete concentric "target". Decorative only; sits in normal flow at the
- * foot of the brand panel, whole and centred rather than bled off an edge.
+ * The panel's hero graphic: a still echo of `NishanyLoader`'s rings — a dotted
+ * ring, a solid ring, a thick accent ring, a thin inner ring, and a filled
+ * centre dot, drawn as a complete concentric "target" off the `--auth-*` vars
+ * so it warms or darkens with the surface. Decorative only; sits in normal flow
+ * at the foot of the brand panel, whole and centred rather than bled off an edge.
  */
 function HeroRingGraphic({ size = 300, className }: { size?: number; className?: string }) {
   return (
     <svg aria-hidden focusable="false" viewBox="0 0 100 100" width={size} height={size} className={className}>
-      <circle cx="50" cy="50" r="46" fill="none" stroke={WARM.taupeDotted} strokeWidth="1.5" strokeDasharray="1.5 5" strokeLinecap="round" />
-      <circle cx="50" cy="50" r="38" fill="none" stroke={WARM.taupeRing} strokeWidth="1.5" />
-      <circle cx="50" cy="50" r="30" fill="none" stroke={WARM.crimson} strokeWidth="6" />
-      <circle cx="50" cy="50" r="20" fill="none" stroke={WARM.crimson} strokeWidth="1" opacity="0.55" />
-      <circle cx="50" cy="50" r="6" fill={WARM.crimson} />
+      <circle cx="50" cy="50" r="46" fill="none" stroke="var(--auth-taupe-dotted)" strokeWidth="1.5" strokeDasharray="1.5 5" strokeLinecap="round" />
+      <circle cx="50" cy="50" r="38" fill="none" stroke="var(--auth-taupe-ring)" strokeWidth="1.5" />
+      <circle cx="50" cy="50" r="30" fill="none" stroke="var(--auth-mark-outer)" strokeWidth="6" />
+      <circle cx="50" cy="50" r="20" fill="none" stroke="var(--auth-mark-outer)" strokeWidth="1" opacity="0.55" />
+      <circle cx="50" cy="50" r="6" fill="var(--auth-mark-outer)" />
     </svg>
   )
 }
@@ -119,7 +100,7 @@ function StepRail({ activeIndex, completedSteps }: { activeIndex: number; comple
 }
 
 const privacyNote = (
-  <p className="flex items-center justify-center gap-2 text-center text-[12px] leading-relaxed" style={{ color: WARM.ink2 }}>
+  <p className="flex items-center justify-center gap-2 text-center text-[12px] leading-relaxed" style={{ color: 'var(--auth-ink-2)' }}>
     <Icon icon={LockKeyhole} size={14} /> Your notes, answers and progress are private to your account.
   </p>
 )
@@ -146,23 +127,28 @@ export function AuthLayout({
   const activeIndex = steps.findIndex((item) => item.id === step)
 
   /**
-   * Full-bleed split screen for the branded flows (sign-in, sign-up): the warm
-   * brand panel fills one half at full height with the hero ring bleeding off
-   * its corner, and the form sits in a card on the other half — edge to edge,
-   * matching the auth redesign canvas. Below `lg` the brand half drops away and
-   * the form card centres on the cream ground. The plainer auth screens (verify
-   * email, second factor) pass no `aside` and keep the centred card further
-   * down instead.
+   * Full-bleed split screen for the branded flows (sign-in, sign-up): the brand
+   * panel fills one half at full height with the hero ring at its foot, and the
+   * form sits in a card on the other half — edge to edge, matching the auth
+   * redesign canvas. Below `lg` the brand half drops away and the form card
+   * centres on the panel ground. The plainer auth screens (verify email, second
+   * factor) pass no `aside` and keep the centred card further down instead.
+   *
+   * `.auth-surface` is what makes the screen theme-aware: it defines the
+   * `--auth-*` palette (warm cream + white card by default, warm charcoal + dark
+   * card under Dark/OLED), so the deliberate brand colours here follow the
+   * reader's theme instead of being pinned to one look. The form card's own text
+   * uses the app tokens, which are already right for the active theme.
    */
   if (aside) {
     return (
       <div
-        className="min-h-dvh lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)]"
+        className="auth-surface min-h-dvh lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)]"
         style={{
-          backgroundColor: WARM.panelBg,
-          backgroundImage: `radial-gradient(circle, ${WARM.dot} 1px, transparent 1.6px)`,
+          backgroundColor: 'var(--auth-panel)',
+          backgroundImage: `radial-gradient(circle, var(--auth-dot) 1px, transparent 1.6px)`,
           backgroundSize: '26px 26px',
-          color: WARM.ink,
+          color: 'var(--auth-ink)',
         }}
       >
         <aside className="relative hidden overflow-hidden p-12 xl:p-16 lg:sticky lg:top-0 lg:flex lg:h-dvh lg:flex-col">
@@ -180,8 +166,8 @@ export function AuthLayout({
           <div className="w-full max-w-md">
             <div className="mb-8 lg:hidden"><BrandLockup /></div>
             <div
-              className="rounded-[22px] border bg-white p-6 sm:p-8"
-              style={{ borderColor: WARM.cardBorder, boxShadow: `0 26px 60px -34px ${WARM.crimson}47` }}
+              className="rounded-[22px] border p-6 sm:p-8"
+              style={{ backgroundColor: 'var(--auth-card)', borderColor: 'var(--auth-card-border)', boxShadow: `0 26px 60px -34px var(--auth-shadow)` }}
             >
               <div className="mb-6">
                 <h1 className="text-[26px] leading-tight tracking-[-0.01em] text-ink">{title}</h1>
@@ -198,8 +184,8 @@ export function AuthLayout({
   }
 
   return (
-    <div className="min-h-dvh bg-paper">
-      <header className="border-b border-line bg-surface/70">
+    <div className="auth-surface min-h-dvh" style={{ backgroundColor: 'var(--auth-panel)', color: 'var(--auth-ink)' }}>
+      <header className="border-b" style={{ borderColor: 'var(--auth-card-border)' }}>
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
           <Link to="/" aria-label="Nishany home"><Wordmark /></Link>
         </div>
@@ -208,22 +194,20 @@ export function AuthLayout({
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className={cn('mx-auto', compact ? 'max-w-2xl' : 'max-w-3xl')}>
           <div className="mb-8">
-            <h1 className="text-[clamp(2rem,4vw,3.25rem)] leading-[1.02] tracking-[-0.025em] text-ink">{title}</h1>
-            <p className="mt-3 max-w-[65ch] text-[15px] leading-relaxed text-ink-2">{description}</p>
+            <h1 className="text-[clamp(2rem,4vw,3.25rem)] leading-[1.02] tracking-[-0.025em]" style={{ color: 'var(--auth-ink)' }}>{title}</h1>
+            <p className="mt-3 max-w-[65ch] text-[15px] leading-relaxed" style={{ color: 'var(--auth-ink-2)' }}>{description}</p>
           </div>
 
           {showProgress && <StepRail activeIndex={activeIndex} completedSteps={completedSteps} />}
 
           <section
-            className="overflow-hidden rounded-[20px] border bg-surface"
-            style={{ borderColor: WARM.cardBorder, boxShadow: `0 18px 45px -18px ${WARM.crimson}40` }}
+            className="overflow-hidden rounded-[20px] border"
+            style={{ backgroundColor: 'var(--auth-card)', borderColor: 'var(--auth-card-border)', boxShadow: `0 18px 45px -18px var(--auth-shadow)` }}
           >
             <div className="p-6 sm:p-8 lg:p-10">{children}</div>
           </section>
 
-          <p className="mx-auto mt-6 flex max-w-2xl items-center justify-center gap-2 text-center text-[12px] leading-relaxed text-ink-2">
-            <Icon icon={LockKeyhole} size={14} /> Your notes, answers and progress are private to your account.
-          </p>
+          <div className="mx-auto mt-6 max-w-2xl">{privacyNote}</div>
         </div>
       </main>
     </div>

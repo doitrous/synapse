@@ -45,7 +45,7 @@
 # Item
 
 ## label
-Ammonia and aspartate donate the two nitrogen atoms of urea, three ATP pay for one turn, and N-acetylglutamate is what commits carbamoyl phosphate synthetase I
+The urea cycle: nitrogen donors, cost, regulation
 
 ## id
 CON-FND-3806EF570B0A1C
@@ -72,7 +72,13 @@ Rate limiting step of urea synthesis
 تكلفة دورة اليوريا من ATP
 
 ## definition
-The book prints the whole cycle as a single equation — aspartate + NH3 + CO2 + 3 ATP → urea + fumarate + 2 ADP + 2 Pi + AMP + PPi — and every term in it is examined. The two nitrogen atoms of urea come from two different donors entering in two different compartments. The first is free ammonia, condensed with bicarbonate at the expense of 2 ATP by carbamoyl phosphate synthetase I in the mitochondrial matrix. The second is the amino group of aspartate, joined to citrulline by argininosuccinate synthetase in the cytosol, which is why aspartate is the amino acid the cycle needs alongside CO2, NH3 and ATP. The price is three molecules of ATP but four high-energy phosphate bonds, because the third is hydrolysed to AMP and PPi rather than to ADP. Carbamoyl phosphate synthetase I is the rate-limiting enzyme and is absolutely dependent on N-acetylglutamate, which is made from acetyl-CoA and glutamate in a reaction arginine activates — so a protein-rich meal supplies both the substrate and the regulator, and the rate of urea synthesis follows protein intake.
+The book prints the whole cycle as a single equation — __aspartate + NH3 + CO2 + 3 ATP → urea + fumarate + 2 ADP + 2 Pi + AMP + PPi__ — and every term in it is examined.
+
+The two nitrogen atoms of urea come from **two different donors** entering in two different compartments. The first is free **ammonia**, condensed with bicarbonate at the expense of 2 ATP by **carbamoyl phosphate synthetase I** in the mitochondrial matrix. The second is the amino group of **aspartate**, joined to citrulline by argininosuccinate synthetase in the cytosol — which is why aspartate is the amino acid the cycle needs alongside CO2, NH3 and ATP.
+
+The price is three molecules of ATP but __four high-energy phosphate bonds__, because the third is hydrolysed to AMP and PPi rather than to ADP.
+
+Carbamoyl phosphate synthetase I is the **rate-limiting enzyme** and is absolutely dependent on **N-acetylglutamate**, which is made from acetyl-CoA and glutamate in a reaction arginine activates — so a protein-rich meal supplies both the substrate and the regulator, and the rate of urea synthesis follows protein intake.
 
 ## explicit_objective
 Read the overall equation of the urea cycle back: name the two nitrogen donors and the compartment each enters in, state the cost as both molecules of ATP and high-energy bonds, and name the enzyme and the activator that set the rate.
@@ -243,7 +249,7 @@ relationships: Walked the eight pending concepts in ./103-BMS-mcq-protein-concep
 # Item
 
 ## label
-Fumarate is where the urea cycle meets the citric acid cycle, and the aspartate–argininosuccinate shunt hands the carbon back
+Fumarate links the urea and citric acid cycles
 
 ## id
 CON-FND-129A247205D4D0
@@ -268,7 +274,11 @@ Fate of the carbon skeleton of aspartate
 مصير الهيكل الكربوني للأسبارتات
 
 ## definition
-Aspartate enters the cytosolic arm of the urea cycle and is joined to citrulline to form argininosuccinate. Argininosuccinase then cleaves that molecule in two: arginine keeps the nitrogen and goes on to yield urea, while the four carbons aspartate brought in leave as fumarate. Fumarate is an intermediate of the citric acid cycle, so it is the compound at which the two cycles meet. From there the citric acid cycle's own reactions carry the carbon round and back: fumarase hydrates fumarate to malate, malate dehydrogenase oxidises malate to oxaloacetate, and AST transaminates oxaloacetate to aspartate, which re-enters the urea cycle. The urea cycle therefore borrows a carbon skeleton and returns it, and malate sits one step past the junction rather than at it.
+**Aspartate** enters the cytosolic arm of the urea cycle and is joined to citrulline to form **argininosuccinate**. **Argininosuccinase** then cleaves that molecule in two: arginine keeps the nitrogen and goes on to yield urea, while the four carbons aspartate brought in leave as **fumarate**.
+
+__Fumarate is an intermediate of the citric acid cycle, so it is the compound at which the two cycles meet__. From there the citric acid cycle's own reactions carry the carbon round and back: fumarase hydrates fumarate to malate, malate dehydrogenase oxidises malate to oxaloacetate, and AST transaminates oxaloacetate to aspartate, which re-enters the urea cycle.
+
+The urea cycle therefore borrows a carbon skeleton and returns it, and malate sits one step past the junction rather than at it.
 
 ## explicit_objective
 Name fumarate as the compound linking the urea cycle to the citric acid cycle, and trace the carbon of aspartate out of the urea cycle and back into it.
@@ -435,7 +445,7 @@ relationships: Walked the eight pending concepts in ./103-BMS-mcq-protein-concep
 # Item
 
 ## label
-Uraemia is failure to excrete urea, not failure to make it: renal failure raises plasma urea, while hepatic failure lowers it and raises ammonia
+Uraemia: renal versus hepatic failure
 
 ## id
 CON-REN-744E6E6F75BEFA
@@ -461,7 +471,13 @@ Renal failure and blood urea
 تسمم الأمونيا
 
 ## definition
-Urea is synthesised only in the liver and travels in the blood, at a normal plasma level of 10 to 50 mg/dL, to the kidneys, where it passes into the urine. Production and excretion are therefore the jobs of two different organs, and they fail in opposite directions. In renal failure the liver goes on making urea normally but the product cannot leave, so plasma urea rises: that is uraemia, and it is why blood urea is a marker of renal and not of hepatic function. In hepatic failure the cycle itself fails, so ammonia remains in the blood as hyperammonaemia, or ammonia intoxication, while the plasma urea level falls; normal blood ammonia is below 0.05 mg/dL. Acquired hyperammonaemia occurs in liver cirrhosis, which may follow hepatitis, biliary obstruction or alcoholism, and the hereditary forms are rare deficiencies of the urea cycle enzymes, most severe when one of the first two reactions is affected.
+Urea is synthesised only in the **liver** and travels in the blood, at a normal plasma level of **10 to 50 mg/dL**, to the **kidneys**, where it passes into the urine. Production and excretion are therefore the jobs of two different organs, and __they fail in opposite directions__.
+
+In **renal failure** the liver goes on making urea normally but the product cannot leave, so plasma urea rises: that is **uraemia**, and it is why blood urea is a marker of renal and not of hepatic function.
+
+In **hepatic failure** the cycle itself fails, so ammonia remains in the blood as **hyperammonaemia**, or ammonia intoxication, while the plasma urea level falls; normal blood ammonia is below 0.05 mg/dL.
+
+Acquired hyperammonaemia occurs in liver cirrhosis, which may follow hepatitis, biliary obstruction or alcoholism, and the hereditary forms are rare deficiencies of the urea cycle enzymes, most severe when one of the first two reactions is affected.
 
 ## explicit_objective
 Predict what happens to plasma urea and to plasma ammonia in renal failure and in hepatic failure, and say which of the two failures is uraemia.

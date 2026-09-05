@@ -42,10 +42,16 @@ test('right university but wrong year is hidden (no cross-year leak)', () => {
   assert.equal(questionInAudience(helwanY3, 'hu', 'HU_Y2'), false)
 })
 
-test('a year-label mismatch fails closed rather than leaking', () => {
-  // A record whose year holds a label ("Year 3") never matches the scoped id.
+test('a year-label tag matches the scoped composite id for the same year', () => {
+  // The bulk importer stores years as bare labels ("Year 3"); yearScopeMatches
+  // (src/data/universities.ts) compares by ordinal so this still matches HU_Y3.
   const labelled = question({ universityIds: ['hu'], years: ['Year 3'] })
-  assert.equal(questionInAudience(labelled, 'hu', 'HU_Y3'), false)
+  assert.equal(questionInAudience(labelled, 'hu', 'HU_Y3'), true)
+})
+
+test('a year-label tag does not match a different year (no cross-year leak)', () => {
+  const labelled = question({ universityIds: ['hu'], years: ['Year 3'] })
+  assert.equal(questionInAudience(labelled, 'hu', 'HU_Y2'), false)
 })
 
 test('questionOnlyFor narrows a shared question to the allow-listed cohort', () => {

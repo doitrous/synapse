@@ -4,7 +4,7 @@
 CON-FND-05748BDCBE10A5
 
 ## label
-The retinoblastoma protein (Rb) controls passage through the G1 restriction point by sequestering the E2F transcription factor until cyclin-CDK phosphorylation releases it
+Rb controls the G1 restriction point via E2F
 
 ## canonical_key
 rb.e2f.restriction-point-control
@@ -22,7 +22,13 @@ G1 restriction point
 عامل النسخ E2F
 
 ## definition
-In its hypophosphorylated (active) state, the retinoblastoma protein (Rb) binds the E2F transcription factor and prevents it from driving the cell into S phase. When a mitogenic (growth-factor) signal is received, cyclin-CDK complexes phosphorylate Rb; phosphorylated (inactivated) Rb releases E2F, which then activates the genes required for DNA synthesis, and the cell passes the late-G1 restriction point committed to complete the cycle. Rb is a tumor suppressor and cell-cycle regulator, not a growth-driving oncogene: it restrains, rather than drives, passage into S phase, so it is a loss-of-function mutation in RB — not the protein "driving cells into the cycle" — that removes this brake and permits uncontrolled proliferation. p53 and Rb both act at this same G1-to-S transition, on different arms of the same checkpoint, which is why exam questions pair the two genes together.
+In its **hypophosphorylated (active)** state, the **retinoblastoma protein (Rb)** binds the **E2F** transcription factor and prevents it from driving the cell into S phase.
+
+When a mitogenic (growth-factor) signal arrives, **cyclin-CDK** complexes phosphorylate Rb. __Phosphorylated (inactivated) Rb releases E2F__, which activates the genes for DNA synthesis, and the cell passes the late-G1 **restriction point** committed to complete the cycle.
+
+Rb is a **tumor suppressor**, not an oncogene: it restrains passage into S phase. __So it is a loss-of-function mutation in RB that removes this brake__ and permits uncontrolled proliferation.
+
+**p53 and Rb both act at this same G1-to-S transition**, on different arms of the same checkpoint — which is why exam questions pair the two genes.
 
 ## explicit_objective
 State which phosphorylation state of Rb releases E2F and drives G1/S progression, and distinguish Rb's restraining tumor-suppressor role from a growth-driving oncogene's role.
@@ -167,7 +173,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-1BCB86AE1C6B66
 
 ## label
-Proto-oncogenes encode proteins that normally drive cell division (growth factors, receptors, signal-transduction proteins, cell-cycle regulators); tumor suppressor genes encode proteins that normally restrain division or repair/eliminate damaged cells — both operate, in their normal form, in every healthy cell
+Proto-oncogenes vs tumor suppressor genes
 
 ## canonical_key
 oncogene.proto-oncogene-vs-tumor-suppressor-gene.definitions
@@ -186,7 +192,15 @@ CDK inhibitors as tumor suppressors
 جين كابت للورم
 
 ## definition
-Proto-oncogenes and tumor suppressor genes are functionally opposite classes of gene that both, in their normal state, participate in controlling cell division — the similarity a question can test directly. A proto-oncogene's normal product promotes division (a growth factor, its receptor, a signal-transduction protein, or a cell-cycle driver such as a cyclin); a gain-of-function mutation converts it into an oncogene, and one mutated allele is enough to contribute to uncontrolled proliferation. A tumor suppressor gene's normal product restrains division or repairs/eliminates damaged cells (RB and p53 are the two worked examples in this chapter; CDK inhibitors such as p15, p16 and p21 are tumor suppressor genes too, not oncogenes); a loss-of-function mutation removes this brake. Growth factors themselves can stimulate the cell cycle directly. Cyclins drive the cycle forward and so are not classed as tumor suppressor genes, and CDK inhibitors restrain it and so are not classed as oncogenes; recognised oncogenes in this chapter's own answer key include Cerb-B2, c-Myc and Bcl-2. Proto-oncogenes are present and normally expressed in every healthy cell — they are not switched on only after a cell becomes malignant; it is specifically their mutated, overexpressed oncogene form that is pathological.
+Proto-oncogenes and tumor suppressor genes are **functionally opposite** classes, but both — in their normal state — participate in controlling cell division. That shared role can be tested directly.
+
+A **proto-oncogene's** normal product **promotes division** (a growth factor, its receptor, a signal-transduction protein, or a cyclin). __A gain-of-function mutation converts it into an oncogene, and one mutated allele is enough__ to contribute to uncontrolled proliferation.
+
+A **tumor suppressor gene's** normal product **restrains division** or repairs/eliminates damaged cells (RB and p53 are the worked examples; CDK inhibitors such as p15, p16 and p21 are tumor suppressors too). __A loss-of-function mutation removes this brake.__
+
+Note the classifications: cyclins drive the cycle, so they are not tumor suppressors; CDK inhibitors restrain it, so they are not oncogenes. Recognised oncogenes here include **Cerb-B2, c-Myc and Bcl-2**.
+
+__Proto-oncogenes are present and normally expressed in every healthy cell__ — not switched on only after malignancy; it is their mutated, overexpressed oncogene form that is pathological.
 
 ## explicit_objective
 State the functional difference between a proto-oncogene's and a tumor suppressor gene's normal product, name RB/p53/CDK-inhibitors as tumor suppressor genes and Cerb-B2/c-Myc/Bcl-2 as oncogenes, and state that proto-oncogenes are expressed in healthy cells, not only in transformed ones.
@@ -332,7 +346,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-76604784CC143B
 
 ## label
-A proto-oncogene is converted to an active oncogene by point mutation, gene amplification, chromosomal translocation, insertion mutagenesis (including retroviral promoter insertion) or elimination of its own translational start signal — never by deletion of the gene itself
+How a proto-oncogene becomes an oncogene
 
 ## canonical_key
 oncogene.activation.proto-to-active-mechanisms
@@ -350,7 +364,16 @@ Gene amplification cancer
 الانتقال الصبغي
 
 ## definition
-Several distinct mechanisms convert a normal proto-oncogene into an active oncogene: a point mutation in the coding sequence (the classical RAS example), gene amplification (extra copies raising expression, e.g. HER2/Cerb-B2 in breast cancer), chromosomal translocation that places the gene under a new, stronger regulatory element or fuses it to another gene (the Philadelphia chromosome's BCR-ABL is the worked translocation example), and insertion mutagenesis, in which a foreign sequence — classically a retroviral promoter — is inserted next to the proto-oncogene and drives its overexpression. Every one of these mechanisms increases the gene's expression or activity. Deletion of a proto-oncogene has the opposite effect: it removes the gene's growth-promoting function rather than activating it, so deletion is never a mechanism of proto-oncogene-to-oncogene activation, in direct contrast to a tumor suppressor gene, where deletion of the remaining functional copy is exactly the mechanism that contributes to cancer. Eliminating a proto-oncogene's own translational start signal would silence its expression, not enhance it, so this too is not an activating mechanism.
+Several mechanisms convert a normal proto-oncogene into an active oncogene:
+
+- **Point mutation** in the coding sequence (the classical RAS example).
+- **Gene amplification** — extra copies raising expression (e.g. HER2/Cerb-B2 in breast cancer).
+- **Chromosomal translocation** that places the gene under a stronger regulatory element or fuses it to another gene (the Philadelphia chromosome's BCR-ABL).
+- **Insertional mutagenesis**, in which a foreign sequence — classically a retroviral promoter — inserts next to the gene and drives its overexpression.
+
+__Every one of these increases the gene's expression or activity.__
+
+**Deletion does the opposite**: it removes the gene's growth-promoting function, so deletion is never an activating mechanism — in direct contrast to a tumor suppressor gene, where deletion of the remaining copy is exactly what contributes to cancer. Likewise, eliminating a proto-oncogene's own translational start signal would **silence** it, not activate it.
 
 ## explicit_objective
 Name the mechanisms that activate a proto-oncogene into an oncogene, and explain why deletion of a proto-oncogene — unlike deletion of a tumor suppressor gene — is not one of them.
@@ -496,7 +519,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-4A768CDB232E77
 
 ## label
-Retroviruses can transform a host cell into a tumor cell by inserting a strong viral promoter next to a host proto-oncogene (insertional mutagenesis), a process that requires the retrovirus's own reverse transcriptase to first copy its RNA genome into DNA for integration
+Retroviral oncogenesis by promoter insertion
 
 ## canonical_key
 retrovirus.oncogenesis.promoter-insertion-mechanism
@@ -513,7 +536,11 @@ Retrovirus reverse transcriptase requirement
 إدخال المروج الفيروسي
 
 ## definition
-A retrovirus carries an RNA genome and must first copy it into double-stranded DNA using its own reverse transcriptase — an RNA-dependent DNA polymerase — before that DNA copy (the provirus) can integrate into the host cell's chromosome. If the provirus happens to integrate next to a host proto-oncogene, the strong viral promoter/enhancer it carries drives abnormally high expression of that proto-oncogene — a mechanism called insertional mutagenesis or promoter insertion, one of the recognised routes by which a proto-oncogene is activated into an oncogene. Without reverse transcriptase, a retrovirus cannot make the DNA copy its genome needs to integrate, and so cannot alter host gene expression by this route at all; reverse transcriptase, not telomerase, caspase or any DNA-repair enzyme, is the specific enzyme this mechanism depends on.
+A retrovirus carries an **RNA genome** and must first copy it into double-stranded DNA using its own **reverse transcriptase** (an RNA-dependent DNA polymerase) before that DNA copy — the **provirus** — can integrate into the host chromosome.
+
+If the provirus integrates next to a host proto-oncogene, the strong viral promoter/enhancer drives abnormally high expression of it — __insertional mutagenesis (promoter insertion), one of the recognised routes activating a proto-oncogene into an oncogene.__
+
+Without reverse transcriptase, the retrovirus cannot make the DNA copy it needs to integrate, and so cannot alter host gene expression by this route. __Reverse transcriptase — not telomerase, caspase or any DNA-repair enzyme — is the specific enzyme this mechanism depends on.__
 
 ## explicit_objective
 State that retroviruses transform host cells chiefly by promoter insertion next to a proto-oncogene, and name reverse transcriptase as the enzyme this mechanism requires.
@@ -654,7 +681,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-B03C1C16A79323
 
 ## label
-p53, the guardian of the genome, is normally kept inactive by Mdm2; DNA damage stabilises p53, which halts the cell at the G1-S checkpoint via p21, activates DNA-repair enzymes, and triggers apoptosis if the damage is irreparable
+p53: guardian of the genome
 
 ## canonical_key
 p53.dna-damage-response.guardian-of-genome
@@ -672,7 +699,15 @@ p53 وحارس الجينوم — الاستجابة لتلف الحمض الن�
 جين Mdm2
 
 ## definition
-p53 is called the guardian of the genome because it is the cell's principal sensor-and-response system for DNA damage. In a normal, undamaged cell, p53 is kept at a low, inactive level by Mdm2, which binds it and targets it for degradation. DNA damage disrupts this Mdm2-p53 interaction, stabilising and activating p53. Activated p53 halts the cell cycle specifically at the G1-S checkpoint (through p21, a CDK inhibitor) so that damaged DNA is not replicated, and stimulates synthesis of the DNA-repair enzymes needed to fix the damage. If the damage is irreparable, p53 instead commits the cell to apoptosis (through the pro-apoptotic protein Bax), removing the damaged cell rather than allowing a mutation to be passed on. p53 does not cause or drive the G1-S transition — halting that very transition is its role — and it is a policeman-of-the-cell / tumor-suppressor function throughout, never one that activates anti-apoptotic (pro-survival) gene expression.
+**p53** is called the **guardian of the genome** because it is the cell's principal sensor-and-response system for DNA damage.
+
+In a normal, undamaged cell, p53 is kept low and inactive by **Mdm2**, which binds it and targets it for degradation. __DNA damage disrupts the Mdm2-p53 interaction, stabilising and activating p53.__
+
+Activated p53 halts the cell cycle at the **G1-S checkpoint** (through **p21**, a CDK inhibitor) so damaged DNA is not replicated, and stimulates synthesis of the **DNA-repair enzymes** needed to fix it.
+
+__If the damage is irreparable, p53 instead commits the cell to apoptosis__ (through the pro-apoptotic protein **Bax**), removing the damaged cell rather than passing a mutation on.
+
+p53 does not drive the G1-S transition — halting it is the whole point — and it is a **tumor-suppressor** function throughout, never one that activates pro-survival (anti-apoptotic) genes.
 
 ## explicit_objective
 State p53's normal regulation by Mdm2, the checkpoint it halts on DNA damage, and its two possible outcomes (repair-then-resume, or apoptosis if damage is irreparable).
@@ -819,7 +854,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-BBCC9BC05C8C5F
 
 ## label
-Caspase 9 is the initiator caspase of the intrinsic (mitochondrial) pathway and caspase 8 the initiator of the extrinsic (death-receptor) pathway; both converge on the same shared effector caspase, caspase 3, which actually executes the cell's death; the apoptosome (cytochrome c + Apaf-1 + procaspase-9, assembled with ATP) activates caspase 9, while a receptor-bound adaptor protein directly activates procaspase 8
+Caspase cascade: initiators, effector, apoptosome
 
 ## canonical_key
 apoptosis.caspase-cascade.initiator-effector-apoptosome
@@ -839,7 +874,13 @@ Caspase 3 executioner
 جسيم الاستماتة (أبوبتوسوم)
 
 ## definition
-Two initiator caspases start apoptosis, one per pathway. Caspase 9 initiates the intrinsic/mitochondrial pathway: cytochrome c released from mitochondria binds Apaf-1 (apoptosis activation factor) together with ATP/dATP and procaspase-9 to form the apoptosome, which activates caspase 9; the apoptosome does not contain procaspase-8, which belongs to the separate extrinsic pathway. Caspase 8 initiates the extrinsic/death-receptor pathway: once a death ligand binds its receptor (e.g. FAS or TNF receptor), a receptor-bound adaptor protein directly activates procaspase-8 — not cytochrome c or Apaf-1. Both initiator caspases converge on a single shared effector (executioner) caspase, caspase 3, which is the caspase that actually carries out the death of the cell — DNA fragmentation, cytoskeletal breakdown and the other hallmarks of apoptotic execution. Caspase 8 is specific to the extrinsic pathway and takes no part in the intrinsic pathway.
+__Two initiator caspases start apoptosis, one per pathway.__
+
+**Caspase 9** initiates the **intrinsic/mitochondrial** pathway: cytochrome c released from mitochondria binds **Apaf-1** with ATP/dATP and procaspase-9 to form the **apoptosome**, which activates caspase 9. The apoptosome does not contain procaspase-8.
+
+**Caspase 8** initiates the **extrinsic/death-receptor** pathway: once a death ligand binds its receptor (e.g. FAS or TNF receptor), a receptor-bound adaptor protein directly activates procaspase-8 — not cytochrome c or Apaf-1.
+
+Both converge on a single **effector (executioner) caspase, caspase 3**, which __actually carries out the cell's death__ — DNA fragmentation, cytoskeletal breakdown and the other hallmarks of apoptotic execution. Caspase 8 is specific to the extrinsic pathway and takes no part in the intrinsic one.
 
 ## explicit_objective
 Name caspase 9 as the intrinsic-pathway initiator, caspase 8 as the extrinsic-pathway initiator, caspase 3 as the shared effector that both converge on, list the apoptosome's four components, and name the adaptor protein as procaspase-8's direct activator.
@@ -992,7 +1033,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-CF3FFDEA6D271F
 
 ## label
-A cancer cell is characterised by uncontrolled cell division, invasion of neighbouring tissue, spread to distant sites (metastasis), and resistance to apoptosis — the combination of all four, not any single feature alone
+The four hallmarks of a cancer cell
 
 ## canonical_key
 cancer.cell-hallmarks.phenotype
@@ -1009,7 +1050,14 @@ Hallmarks of a cancer cell
 الانتشار (النقائل)
 
 ## definition
-A cancer cell is defined by the combination of four phenotypic features acting together, not by any one of them in isolation: autonomous, uncontrolled cell division that no longer responds to the normal signals restraining growth; invasion of neighbouring tissue, crossing boundaries a normal cell respects; metastasis, the capacity to spread to and establish growth at distant sites; and resistance to apoptosis, evading the normal programmed-death response that would otherwise remove a damaged or abnormal cell. All four features together are what an exam question asking "a cancer cell is characterised by" is testing, and each on its own is a genuine but partial description.
+__A cancer cell is defined by four phenotypic features acting together, not by any one alone:__
+
+- **Uncontrolled cell division** — autonomous, no longer responding to the signals that normally restrain growth.
+- **Invasion** of neighbouring tissue, crossing boundaries a normal cell respects.
+- **Metastasis** — the capacity to spread to and grow at distant sites.
+- **Resistance to apoptosis** — evading the programmed-death response that would otherwise remove a damaged cell.
+
+All four together are what "a cancer cell is characterised by" is testing; each on its own is a genuine but partial description.
 
 ## explicit_objective
 List the four hallmark features that together characterise a cancer cell (uncontrolled division, invasion, metastasis, apoptosis resistance).

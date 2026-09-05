@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
+import { useContentSlice } from './content'
+import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { resources as SEED_RESOURCES, type Resource } from '@/data/resources'
 import type { ResourceType } from '@/data/types'
 import { API_MODE } from './api'
@@ -75,7 +75,7 @@ function itemToResource(item: ManagedContentItem): LiveResource {
  * in Resources & Media setup. Archived resources are hidden.
  */
 export function useLiveResources(): LiveResource[] {
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger] = useContentSlice('resource')
 
   return useMemo(() => {
     const items = ledger.filter((i) => i.kind === 'resource')

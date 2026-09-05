@@ -24,6 +24,16 @@ test('bold is not mistaken for two italics', () => {
   assert.deepEqual(tokenizeInline('**strong**'), [{ kind: 'strong', text: 'strong' }])
 })
 
+test('double underscores are an underline; a lone underscore is not', () => {
+  assert.deepEqual(tokenizeInline('mark __this__ term'), [
+    { kind: 'text', text: 'mark ' },
+    { kind: 'underline', text: 'this' },
+    { kind: 'text', text: ' term' },
+  ])
+  // An identifier with single underscores must survive untouched.
+  assert.deepEqual(tokenizeInline('node SYS_HEM_T01'), [{ kind: 'text', text: 'node SYS_HEM_T01' }])
+})
+
 test('emphasis inside a code span stays literal', () => {
   assert.deepEqual(tokenizeInline('`a **b** c`'), [{ kind: 'code', text: 'a **b** c' }])
 })

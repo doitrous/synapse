@@ -21,8 +21,21 @@
  * host), and any page that does render there must behave as the student site.
  */
 
-export const ADMIN_ORIGIN = 'https://connectadminacademy.nishany.com'
-export const STUDENT_ORIGIN = 'https://nishany.com'
+/**
+ * Overridable so the two-host split can be exercised locally.
+ *
+ * The session is one cookie shared by both hostnames, and a browser will not
+ * accept `Domain=.localhost` — so development uses real-looking names pointed
+ * at loopback in /etc/hosts (`nishany.test`, `connectadminacademy.nishany.test`)
+ * and names them here. Production leaves both unset and keeps the defaults.
+ *
+ * Read off an optional `import.meta.env`: this module is also imported by the
+ * plain-node test runner, where there is no Vite environment to read at all.
+ */
+const env = import.meta.env as Partial<ImportMetaEnv> | undefined
+
+export const ADMIN_ORIGIN = (env?.VITE_ADMIN_ORIGIN as string | undefined) || 'https://connectadminacademy.nishany.com'
+export const STUDENT_ORIGIN = (env?.VITE_STUDENT_ORIGIN as string | undefined) || 'https://nishany.com'
 
 // Anchored to the leading label, so the admin subdomain (connectadminacademy.nishany.com)
 // can never satisfy the student pattern even though it contains "nishany.".

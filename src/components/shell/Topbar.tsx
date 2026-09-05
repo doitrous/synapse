@@ -4,7 +4,6 @@ import { Menu, Bell, CalendarClock, BookOpen, BellRing, X, ArrowRight, Maximize,
 import type { Portal } from './nav'
 import { titleForPath } from './nav'
 import { Icon } from '@/components/ui/Icon'
-import { Tooltip } from '@/components/ui/Tooltip'
 import { TopbarAccount, TopbarTools } from './TopbarTools'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
@@ -112,11 +111,9 @@ export function Topbar({
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       {/* The desktop collapse control now lives in the sidebar, with the menu it
           opens. This one stays: on a phone there is no sidebar to put it in. */}
-      <Tooltip content={t('Open navigation')} placement="bottom">
-        <button ref={mobileButtonRef} type="button" className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
-          <Icon icon={Menu} size={18} />
-        </button>
-      </Tooltip>
+      <button ref={mobileButtonRef} type="button" className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
+        <Icon icon={Menu} size={18} />
+      </button>
 
       <nav className="flex min-w-0 flex-1 items-center gap-1.5" aria-label={t('Breadcrumb')}>
         {/* The portal word is context, not the destination: it only earns a
@@ -145,24 +142,21 @@ export function Topbar({
           onOpenSearch={onOpenSearch}
           beforeMenu={(
             <div className="hidden sm:block">
-            <Tooltip content={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')} placement="bottom">
-              <button
-                type="button"
-                className={iconBtn}
-                onClick={toggleFullscreen}
-                aria-label={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')}
-                aria-pressed={isFullscreen}
-              >
-                <Icon icon={isFullscreen ? Minimize : Maximize} size={18} />
-              </button>
-            </Tooltip>
+            <button
+              type="button"
+              className={iconBtn}
+              onClick={toggleFullscreen}
+              aria-label={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')}
+              aria-pressed={isFullscreen}
+            >
+              <Icon icon={isFullscreen ? Minimize : Maximize} size={18} />
+            </button>
             </div>
           )}
         />
 
 
         <div className="relative" ref={popoverRef}>
-          <Tooltip content={t('Notifications')} placement="bottom">
             <button
               type="button"
               className={cn(iconBtn, 'relative')}
@@ -176,7 +170,6 @@ export function Topbar({
                 <span className="absolute end-2 top-2 size-1.5 rounded-full bg-primary ring-2 ring-paper" />
               )}
             </button>
-          </Tooltip>
           {notificationsOpen && (
             <div
               role="dialog"

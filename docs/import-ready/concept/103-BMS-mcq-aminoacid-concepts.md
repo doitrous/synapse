@@ -66,7 +66,7 @@
 # Item
 
 ## label
-Glycine is required for the synthesis of serine, glutathione, heme, purines, creatine and bile salts, and it feeds the one-carbon pool
+Glycine: functions and derivatives
 
 ## id
 CON-FND-38F3A09255526F
@@ -89,7 +89,13 @@ Glycine as an inhibitory neurotransmitter
 نظام انشطار الجليسين
 
 ## definition
-Glycine is the smallest amino acid, non-essential and glucogenic, made mainly from serine by serine hydroxymethyl transferase. The department book gives it one structural role and one list. Structurally it is an essential component of some proteins, collagen among them. The list is what it is required to synthesise: serine, by serine hydroxymethyl transferase; glutathione; heme; purines; creatine; and bile salts, which it forms by conjugating with bile acids so they are excreted in bile. It also gives formyl-tetrahydrofolate and methylene-tetrahydrofolate to one-carbon metabolism, and it is an inhibitory chemical transmitter in its own right. Its main catabolic route is the glycine cleavage system, which splits it to ammonia, carbon dioxide and methylene-THF; the alternative route converts it to serine, which serine dehydratase then deaminates to pyruvate, which is what makes glycine glucogenic.
+**Glycine** is the smallest amino acid, non-essential and glucogenic, made mainly from serine by serine hydroxymethyl transferase. The department book gives it one structural role and one list.
+
+Structurally it is an essential component of some proteins, **collagen** among them.
+
+The list is what it is __required to synthesise__: serine (by serine hydroxymethyl transferase), **glutathione**, **heme**, **purines**, **creatine**, and **bile salts**, which it forms by conjugating with bile acids so they are excreted in bile. It also gives formyl-tetrahydrofolate and methylene-tetrahydrofolate to one-carbon metabolism, and it is an inhibitory chemical transmitter in its own right.
+
+Its main catabolic route is the **glycine cleavage system**, which splits it to ammonia, carbon dioxide and methylene-THF; the alternative route converts it to serine, which serine dehydratase then deaminates to pyruvate — __which is what makes glycine glucogenic__.
 
 ## explicit_objective
 List the compounds glycine is required to synthesise, and assign each common distractor compound — lecithin, GABA, melatonin, glutamine — to the amino acid that actually makes it.
@@ -257,7 +263,7 @@ CANCELLATION: Glycine itself, printed page 91, is not cancelled and the question
 # Item
 
 ## label
-A defect in glycine degradation diverts glycine to oxalate, and calcium oxalate stones cause nephrocalcinosis and renal failure
+Glycine defect: oxalate stones and nephrocalcinosis
 
 ## id
 CON-REN-339CFAB4C81D12
@@ -280,7 +286,11 @@ Oxalate nephropathy
 حصوات الكلى الأوكسالاتية
 
 ## definition
-A genetic defect in the degradation of glycine diverts it towards glyoxylate, which is oxidised to oxalate and excreted in the urine. Calcium oxalate is poorly soluble, so the excess crystallises in the renal tubules, forms recurrent stones, and produces nephrocalcinosis and progressive renal impairment that can end in renal failure. The mechanism is overproduction of a poorly soluble excretion product — the same logic that makes urate stones form in gout — and it is the opposite of the mechanism behind cystine stones, which form because a normally soluble amino acid is not reabsorbed.
+A genetic defect in the degradation of **glycine** diverts it towards glyoxylate, which is oxidised to **oxalate** and excreted in the urine.
+
+**Calcium oxalate** is poorly soluble, so the excess crystallises in the renal tubules, forms recurrent stones, and produces __nephrocalcinosis and progressive renal impairment that can end in renal failure__.
+
+The mechanism is overproduction of a poorly soluble excretion product — the same logic that makes urate stones form in gout — and it is the opposite of the mechanism behind cystine stones, which form because a normally soluble amino acid is not reabsorbed.
 
 ## explicit_objective
 Attribute urinary oxalate and oxalate stone disease to a disorder of glycine degradation, and distinguish an overproduction stone from the transport-defect stone of cystinuria.
@@ -448,7 +458,7 @@ CANCELLATION: Glycine, printed page 91, is not on the department's cancelled lis
 # Item
 
 ## label
-Maple syrup urine disease is a deficiency of branched-chain alpha-keto acid dehydrogenase, so valine, leucine and isoleucine and their keto acids accumulate and are excreted
+Branched-chain amino acids and maple syrup urine disease
 
 ## id
 CON-FND-58FAD64EEA965B
@@ -471,7 +481,13 @@ Burnt sugar urine odour
 فالين ليوسين آيزوليوسين
 
 ## definition
-Valine, leucine and isoleucine are the branched-chain amino acids, all three essential. They are catabolised in two steps: transamination to the corresponding alpha-keto acid, then oxidative decarboxylation of that keto acid by branched-chain alpha-keto acid dehydrogenase, which needs the same five factors as the other alpha-keto acid dehydrogenases — thiamine pyrophosphate, FAD, lipoate, NAD+ and coenzyme A — and yields the corresponding lower-chain acyl-CoA. Maple syrup urine disease is a genetic deficiency of that single dehydrogenase. Because one enzyme serves all three amino acids, all three and all three of their branched-chain alpha-keto acids accumulate in the body fluids and are excreted in urine, giving it the characteristic odour of maple syrup or burnt sugar. The keto acids are neurotoxic and cause mental retardation, and treatment is a diet restricted in branched-chain amino acids.
+**Valine, leucine and isoleucine** are the branched-chain amino acids, all three essential. They are catabolised in two steps: transamination to the corresponding alpha-keto acid, then oxidative decarboxylation of that keto acid by **branched-chain alpha-keto acid dehydrogenase**, yielding the corresponding lower-chain acyl-CoA.
+
+That enzyme needs the same five factors as the other alpha-keto acid dehydrogenases — **thiamine pyrophosphate, FAD, lipoate, NAD+ and coenzyme A**.
+
+**Maple syrup urine disease** is a genetic deficiency of that single dehydrogenase. Because one enzyme serves all three amino acids, __all three and all three of their branched-chain alpha-keto acids accumulate__ in the body fluids and are excreted in urine, giving it the characteristic odour of maple syrup or burnt sugar.
+
+The keto acids are neurotoxic and cause mental retardation, and treatment is a diet restricted in branched-chain amino acids.
 
 ## explicit_objective
 Name branched-chain alpha-keto acid dehydrogenase as the enzyme deficient in maple syrup urine disease, state which class of amino acids accumulates, and give the five cofactors the enzyme shares with pyruvate dehydrogenase.
@@ -638,7 +654,7 @@ CANCELLATION: The orientation cancels Threonine, which the book prints on the sa
 # Item
 
 ## label
-Glutamic acid gives GABA, glutamine, glutathione, arginine and proline, and is gamma-carboxylated for clotting factors — but not heme
+Glutamic acid: functions and derivatives
 
 ## id
 CON-NEU-46F59E9C3EA406
@@ -661,7 +677,13 @@ Glutamine synthetase
 حمض جاما أمينوبيوتيريك
 
 ## definition
-Glutamic acid is a non-essential, glucogenic amino acid made by the reversal of oxidative deamination, by the transamination reactions of ALT and AST, and from the catabolism of proline, arginine and histidine. Its derivatives are a fixed list: GABA, formed by glutamate decarboxylase with pyridoxal phosphate; glutathione, the tripeptide it forms with cysteine and glycine; arginine and proline, built from its carbon skeleton; and glutamine, formed by glutamine synthetase adding ammonia as an amide, which is the major mechanism for removing ammonia in the brain and whose amide group then supplies asparagine, purines, pyrimidines, amino sugars and nicotinamide. Glutamate is also gamma-carboxylated, and that carboxylation is what activates the vitamin K-dependent clotting factors and the osteocalcin of bone. Heme is not on the list: heme comes from glycine condensed with succinyl-CoA.
+**Glutamic acid** is a non-essential, glucogenic amino acid made by the reversal of oxidative deamination, by the transamination reactions of ALT and AST, and from the catabolism of proline, arginine and histidine.
+
+Its derivatives are a fixed list: **GABA**, formed by glutamate decarboxylase with pyridoxal phosphate; **glutathione**, the tripeptide it forms with cysteine and glycine; and **arginine and proline**, built from its carbon skeleton.
+
+**Glutamine** is formed by glutamine synthetase adding ammonia as an amide, __the major mechanism for removing ammonia in the brain__; its amide group then supplies asparagine, purines, pyrimidines, amino sugars and nicotinamide.
+
+Glutamate is also **gamma-carboxylated**, and that carboxylation is what activates the vitamin K-dependent clotting factors and the osteocalcin of bone. __Heme is not on the list__: heme comes from glycine condensed with succinyl-CoA.
 
 ## explicit_objective
 List the derivatives of glutamic acid and separate them from the derivatives of glycine, naming heme as glycine's and GABA as glutamate's.
@@ -828,7 +850,7 @@ CANCELLATION: Glutamic Acid, printed pages 94 to 95, is not cancelled and the qu
 # Item
 
 ## label
-Cysteine gives cystine, enzyme thiol groups, the sulfate of PAPS, thioethanolamine of coenzyme A, taurine and glutathione
+Cysteine: functions and derivatives
 
 ## id
 CON-FND-11F38A2B3E9B67
@@ -853,7 +875,13 @@ Trans-sulfuration pathway
 الجلوتاثيون
 
 ## definition
-Cysteine is the non-essential sulfur amino acid, synthesised by the trans-sulfuration pathway in which cystathionine synthase condenses homocysteine with serine to give cystathionine, and cystathionase then splits cystathionine into homoserine and cysteine; both enzymes need pyridoxal phosphate. It is glucogenic, being converted to pyruvate. The department book gives it six derivatives, and every one of them is a different use of the same sulfur atom. Two molecules of cysteine are oxidised to cystine, joined by a disulfide bond. The thiol group is a component of the active site of many enzymes. Cysteine provides the sulfate group of phosphoadenosyl-phosphosulfate, PAPS or active sulfate, the sulfate donor for glycosaminoglycans, sulfolipids and detoxification. It makes thioethanolamine, a component of coenzyme A. It makes taurine, mainly in liver cells, which is conjugated with bile acids like glycine and excreted in bile as bile salts. And it is one of the three amino acids of glutathione, with glycine and glutamic acid.
+**Cysteine** is the non-essential sulfur amino acid, synthesised by the **trans-sulfuration pathway**: cystathionine synthase condenses homocysteine with serine to give cystathionine, and cystathionase then splits cystathionine into homoserine and cysteine; both enzymes need pyridoxal phosphate. It is glucogenic, being converted to pyruvate.
+
+The department book gives it __six derivatives, and every one is a different use of the same sulfur atom__. Two molecules of cysteine are oxidised to **cystine**, joined by a disulfide bond. The **thiol group** is a component of the active site of many enzymes.
+
+Cysteine provides the sulfate group of **PAPS** (phosphoadenosyl-phosphosulfate, active sulfate), the sulfate donor for glycosaminoglycans, sulfolipids and detoxification. It makes **thioethanolamine**, a component of coenzyme A.
+
+It makes **taurine**, mainly in liver cells, which is conjugated with bile acids like glycine and excreted in bile as bile salts. And it is one of the three amino acids of **glutathione**, with glycine and glutamic acid.
 
 ## explicit_objective
 List the six derivatives of cysteine, name taurine's role in bile salt formation, and assign melatonin, melanin and heme to the amino acids that actually make them.
@@ -1024,7 +1052,7 @@ CANCELLATION: Cysteine, printed pages 96 to 97, is not on the department's cance
 # Item
 
 ## label
-S-adenosylmethionine is the body's methyl donor: it methylates ethanolamine to choline, noradrenaline to adrenaline and N-acetylserotonin to melatonin, and becomes homocysteine
+S-adenosylmethionine and the transmethylation reactions
 
 ## id
 CON-FND-3622E11F05032C
@@ -1048,7 +1076,13 @@ Methyl transferases
 واهب الميثيل
 
 ## definition
-Methionine is an essential, glucogenic amino acid, and its active form S-adenosylmethionine is used as the body's methyl donor. Methionine adenosyl transferase makes SAM from methionine and ATP, with glutathione as a cofactor. Different methyl transferases then hand SAM's methyl group to an acceptor, and the acceptor becomes the methylated product: the department book's transmethylation examples are ethanolamine to choline, noradrenaline to adrenaline, and N-acetylserotonin to melatonin. Having given up its methyl group SAM becomes S-adenosylhomocysteine, which a hydrolase splits, releasing adenosine and homocysteine. Methionine synthase then regenerates methionine from homocysteine using methylcobalamin and methyl-tetrahydrofolate, which is why deficiency of vitamin B12 or of folate raises homocysteine. Methionine is also involved in the synthesis of protein and of the polyamines spermine and spermidine, which stabilise DNA and RNA by their multiple positive charges, act in gene expression, and behave as growth factors in cell culture.
+**Methionine** is an essential, glucogenic amino acid, and its active form **S-adenosylmethionine (SAM)** is the body's methyl donor. Methionine adenosyl transferase makes SAM from methionine and ATP, with glutathione as a cofactor.
+
+Different methyl transferases hand SAM's methyl group to an acceptor, and __the acceptor becomes the methylated product__. The book's transmethylation examples are **ethanolamine to choline, noradrenaline to adrenaline, and N-acetylserotonin to melatonin**.
+
+Having given up its methyl group SAM becomes S-adenosylhomocysteine, which a hydrolase splits, releasing adenosine and **homocysteine**. Methionine synthase then regenerates methionine from homocysteine using methylcobalamin and methyl-tetrahydrofolate, __which is why deficiency of vitamin B12 or of folate raises homocysteine__.
+
+Methionine is also involved in the synthesis of protein and of the polyamines **spermine and spermidine**, which stabilise DNA and RNA by their multiple positive charges, act in gene expression, and behave as growth factors in cell culture.
 
 ## explicit_objective
 Name the acceptor rather than the product in a SAM reaction, list the department book's three transmethylation examples, and trace the cycle from methionine through SAM and homocysteine back to methionine.
@@ -1217,7 +1251,7 @@ CANCELLATION: Methionine, printed pages 98 to 99, is not cancelled and the quest
 # Item
 
 ## label
-Homocystinuria is most often a cystathionine synthase defect, which raises both homocysteine and methionine; a methionine synthase defect raises homocysteine with normal methionine
+Homocystinuria and raised plasma homocysteine
 
 ## id
 CON-FND-E8A570D41E7B8F
@@ -1240,7 +1274,15 @@ Methionine synthase defect
 ارتفاع الهوموسيستين
 
 ## definition
-Homocystinuria is a group of autosomal recessive diseases involving defects in the metabolism of homocysteine. The commonest cause is a defect in cystathionine synthase, the pyridoxal phosphate-dependent enzyme that converts homocysteine to cystathionine; a defect of the enzyme or of vitamin B6 gives high plasma homocysteine and high plasma methionine, low plasma cysteine — which becomes an essential amino acid in these patients — and excretion of large amounts of homocystine, two homocysteine molecules joined by a disulfide linkage. The other cause is a defect in methionine synthase, which converts homocysteine to methionine using vitamin B12 and tetrahydrofolate; a defect of the enzyme, of folate or of B12 gives high homocysteine with normal methionine, and the same homocystinuria. Raised homocysteine modifies LDL and collagen, producing endothelial injury, atherogenesis, coronary artery disease, thromboembolic disorders and hypertension, together with osteoporosis, mental retardation, and dislocation or complete detachment of the lens. Treatment is restriction of methionine intake and a diet rich in cysteine with vitamins B6, B12 and folate.
+**Homocystinuria** is a group of autosomal recessive diseases involving defects in the metabolism of homocysteine.
+
+The commonest cause is a defect in **cystathionine synthase**, the pyridoxal phosphate-dependent enzyme that converts homocysteine to cystathionine. A defect of the enzyme or of vitamin B6 gives __high plasma homocysteine and high plasma methionine__, low plasma cysteine — which becomes an essential amino acid in these patients — and excretion of large amounts of homocystine, two homocysteine molecules joined by a disulfide linkage.
+
+The other cause is a defect in **methionine synthase**, which converts homocysteine to methionine using vitamin B12 and tetrahydrofolate. A defect of the enzyme, of folate or of B12 gives __high homocysteine with normal methionine__, and the same homocystinuria.
+
+Raised homocysteine modifies LDL and collagen, producing endothelial injury, atherogenesis, coronary artery disease, thromboembolic disorders and hypertension, together with osteoporosis, mental retardation, and dislocation or complete detachment of the lens.
+
+Treatment is restriction of methionine intake and a diet rich in cysteine with vitamins B6, B12 and folate.
 
 ## explicit_objective
 Name cystathionine synthase as the commonest deficient enzyme in raised plasma homocysteine, and use the plasma methionine level to separate a cystathionine synthase defect from a methionine synthase defect.
@@ -1408,7 +1450,7 @@ CANCELLATION: Methionine and its metabolic disorder, printed pages 98 to 99, are
 # Item
 
 ## label
-Cystinuria is a genetic defect in the dibasic amino acid transporter, so cystine, arginine, ornithine and lysine are not reabsorbed and cystine forms stones
+Cystinuria: a dibasic amino acid transport defect
 
 ## id
 CON-REN-3DD1CADB68BB1B
@@ -1431,7 +1473,11 @@ Most common genetic error of amino acid transport
 خلل ناقل الأحماض الأمينية ثنائية القاعدة
 
 ## definition
-Cystinuria is the most common genetic error of amino acid transport. A genetic defect in the transporter of the dibasic amino acids causes failure to transport cystine, arginine, ornithine and lysine across the renal proximal tubules, so all four are excreted in the urine. Cystine is the least soluble of the four; it precipitates in the renal tubules, crystallises as the characteristic hexagonal crystals seen in urine, and forms cystine stones. Treatment follows directly from the mechanism — alkalinisation of the urine and ingestion of plenty of fluids make cystine more soluble so that it is washed out of the urinary tract rather than deposited in it.
+**Cystinuria** is the most common genetic error of amino acid transport. A genetic defect in the transporter of the **dibasic amino acids** causes failure to reabsorb __cystine, arginine, ornithine and lysine__ across the renal proximal tubules, so all four are excreted in the urine.
+
+**Cystine** is the least soluble of the four; it precipitates in the renal tubules, crystallises as the characteristic **hexagonal crystals** seen in urine, and forms cystine stones.
+
+Treatment follows directly from the mechanism — alkalinisation of the urine and ingestion of plenty of fluids make cystine more soluble so that it is washed out of the urinary tract rather than deposited in it.
 
 ## explicit_objective
 Identify cystinuria as a defect of dibasic amino acid transport rather than of synthesis or degradation, name the four amino acids that appear in the urine, and justify alkalinisation and fluids from the mechanism.

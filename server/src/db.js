@@ -1,52 +1,77 @@
-import { readFile } from 'node:fs/promises'
-import { fileURLToPath } from 'node:url'
-import { dirname, join } from 'node:path'
 import mysql from 'mysql2/promise'
 import { findCatalogueYear, parseCatalogue, UNIVERSITY_KEY } from './academic.js'
-
-const __dirname = dirname(fileURLToPath(import.meta.url))
+import { runMigrations } from './migrations.js'
 
 /**
  * A single shared connection pool. Prefers DATABASE_URL; otherwise assembles the
  * connection from the discrete DB_* vars (matches .env.local).
+ *
+ * DATABASE_URL used to be handed to mysql2 as a raw string. mysql2 parses a
+ * string connection the same way either way, but passing it as a string
+ * meant the pool-sizing options below silently never applied to it — the
+ * live tunnel (DATABASE_URL) got mysql2's own hardcoded default forever,
+ * with no way to tune it short of a code change. Parsed into the same object
+ * shape as the discrete-var branch instead, so both take the same knobs.
  */
-export const pool = mysql.createPool(
-  process.env.DATABASE_URL
-    ? process.env.DATABASE_URL
-    : {
-        host: process.env.DB_HOST,
-        port: Number(process.env.DB_PORT) || 3306,
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_NAME,
-        waitForConnections: true,
-        connectionLimit: 10,
-        charset: 'utf8mb4',
-      },
-)
+// Exported only for the test below — reads process.env fresh on every call,
+// so a test can flip env vars and re-call it without re-importing the module
+// (which would create a second real pool as a side effect).
+export function poolConfig() {
+  const shared = {
+    waitForConnections: true,
+    // Ops-tunable without a redeploy: how many connections this process may
+    // hold open against the database at once.
+    connectionLimit: Number(process.env.DB_POOL_SIZE) || 10,
+    // Requests beyond the pool queue rather than erroring immediately, up to
+    // this many waiting — past it, mysql2 fails fast instead of piling up an
+    // unbounded queue behind a stalled database.
+    queueLimit: 100,
+    charset: 'utf8mb4',
+    timezone: process.env.DB_TIMEZONE || 'local',
+  }
+  if (!process.env.DATABASE_URL) {
+    return {
+      host: process.env.DB_HOST,
+      port: Number(process.env.DB_PORT) || 3306,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+      database: process.env.DB_NAME,
+      ...shared,
+    }
+  }
+  const url = new URL(process.env.DATABASE_URL)
+  return {
+    host: url.hostname,
+    port: Number(url.port) || 3306,
+    user: decodeURIComponent(url.username),
+    password: decodeURIComponent(url.password),
+    database: url.pathname.replace(/^\//, ''),
+    // Anything the URL carries as a query string (?ssl=..., etc.) still
+    // reaches mysql2 — just as object keys instead of a query string.
+    ...Object.fromEntries(url.searchParams),
+    ...shared,
+  }
+}
 
-/** Run schema.sql once at boot so a fresh database is ready with no manual step. */
+const dbPoolConfig = poolConfig()
+console.log(`[db] pool ready: connectionLimit=${dbPoolConfig.connectionLimit} queueLimit=${dbPoolConfig.queueLimit}`)
+export const pool = mysql.createPool(dbPoolConfig)
+
+/**
+ * Applies every not-yet-applied file in server/migrations (see migrations.js:
+ * runMigrations), which is now the fresh-install path too (0001_baseline.sql
+ * is today's schema.sql plus the back-compat ALTERs formerly run ad hoc
+ * below). Then runs the handful of one-time steps that cannot be expressed as
+ * plain, idempotent SQL: two ENUM widenings (MODIFY COLUMN has no "IF" form)
+ * and several one-off data repairs, each guarded by a marker row in the
+ * legacy `schema_migrations` table (id VARCHAR PRIMARY KEY — distinct from
+ * the file-tracking `schema_migration_files` table runMigrations uses).
+ */
 export async function migrate() {
-  const sql = await readFile(join(__dirname, '..', 'schema.sql'), 'utf8')
-  const statements = sql.split(/;\s*[\r\n]/).map((s) => s.trim()).filter(Boolean)
+  await runMigrations(pool)
+
   const conn = await pool.getConnection()
   try {
-    for (const statement of statements) await conn.query(statement)
-
-    // schema.sql only creates tables that do not exist yet, so a column added
-    // to an existing table needs its own statement. Guarded by a lookup rather
-    // than a migration marker: the check is exact, and a database restored from
-    // a dump that already has the column must not fail to boot.
-    const [mfaColumn] = await conn.query(
-      `SELECT 1 FROM information_schema.columns
-        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'mfa_required'`,
-    )
-    if (!mfaColumn.length) {
-      await conn.query(
-        'ALTER TABLE user_access ADD COLUMN mfa_required BOOLEAN NOT NULL DEFAULT 0 AFTER status',
-      )
-    }
-
     // The console grew from two roles to four. The lookup is on the column type
     // rather than a marker, so a database restored from a dump that already has
     // the wider enum boots without repeating the ALTER, and one that does not
@@ -430,8 +455,12 @@ export async function migrate() {
       }
     }
 
-    // QotD reminders: device_tokens gains web-push subscription columns and a
-    // wider platform enum. Guarded by lookups so a DB that already has them boots.
+    // QotD reminders widened device_tokens.platform to include 'web'. Not
+    // expressible as idempotent SQL (MODIFY COLUMN has no "IF" form), so this
+    // stays a guarded JS step like the role widening above; the new web_* columns
+    // and the study-room seat columns/index it used to sit next to are now
+    // plain ADD COLUMN IF NOT EXISTS / CREATE INDEX IF NOT EXISTS statements in
+    // server/migrations/0001_baseline.sql.
     const [platformCol] = await conn.query(
       `SELECT COLUMN_TYPE AS type FROM information_schema.columns
         WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = 'platform'`,
@@ -439,56 +468,6 @@ export async function migrate() {
     if (platformCol.length && !platformCol[0].type.includes("'web'")) {
       await conn.query(
         "ALTER TABLE device_tokens MODIFY COLUMN platform ENUM('ios','android','web') NOT NULL DEFAULT 'ios'",
-      )
-    }
-    for (const [column, definition] of [
-      ['web_endpoint', 'TEXT NULL'],
-      ['web_p256dh', 'VARCHAR(255) NULL'],
-      ['web_auth', 'VARCHAR(255) NULL'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'device_tokens' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE device_tokens ADD COLUMN ${column} ${definition}`)
-    }
-
-    // A study room shows the room, not just you: where each member sits, what
-    // their desk looks like, and whether they are working right now. Added by
-    // lookup like every column above, so a database restored from a dump that
-    // already has them still boots.
-    for (const [column, definition] of [
-      ['seat_desk', 'VARCHAR(16) NULL'],
-      ['seat_device', 'VARCHAR(16) NULL'],
-      ['seat_chair', 'VARCHAR(16) NULL'],
-      ['seat_index', 'TINYINT NULL'],
-      ['last_active_at', 'DATETIME NULL'],
-      ['activity', 'VARCHAR(16) NULL'],
-    ]) {
-      const [found] = await conn.query(
-        `SELECT 1 FROM information_schema.columns
-          WHERE table_schema = DATABASE() AND table_name = 'study_party_members' AND column_name = ?`,
-        [column],
-      )
-      if (!found.length) await conn.query(`ALTER TABLE study_party_members ADD COLUMN ${column} ${definition}`)
-    }
-
-    // Two people cannot sit at one desk, and a read-then-write cannot promise
-    // that — the index can. MariaDB allows any number of NULLs in a unique
-    // index, so "in the room, nowhere in particular" stays available to
-    // everyone while a genuine race for desk 3 fails loudly as ER_DUP_ENTRY.
-    // Separate from the columns, as the `students_phone_unique` note explains:
-    // creating it can fail on data that already holds duplicates, and that has
-    // to be an operator's problem rather than a column quietly unconstrained.
-    const [seatIndexUnique] = await conn.query(
-      `SELECT 1 FROM information_schema.statistics
-        WHERE table_schema = DATABASE() AND table_name = 'study_party_members'
-          AND index_name = 'study_party_members_seat_unique'`,
-    )
-    if (!seatIndexUnique.length) {
-      await conn.query(
-        'CREATE UNIQUE INDEX study_party_members_seat_unique ON study_party_members (party_id, seat_index)',
       )
     }
   } finally {

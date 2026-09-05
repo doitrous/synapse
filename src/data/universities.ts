@@ -87,6 +87,50 @@ export function universityYearId(universityShort: string, label: string): string
 }
 
 /**
+ * Whether an item's authored year list admits a student whose year resolves to
+ * `scopeYearId`.
+ *
+ * Year tags come in two shapes that mean the same thing: the bare label the bulk
+ * question importer stores verbatim ("Year 1", "Internship Year 2") and the
+ * university-scoped id everything else uses ("KAU_Y1", "KAU_INT2"). The student
+ * audience always carries the composite id, so a question tagged with the bare
+ * label — which is how `## years` is recorded for questions — never matched and
+ * was silently hidden. Compare by year ordinal so the two shapes agree. Two
+ * composites still must match literally: a composite already names its
+ * university, and matching those by ordinal would leak content across
+ * universities. A bare label carries no university, so the separate university
+ * tag is what gates it. Empty list means unrestricted, as everywhere else.
+ */
+export function yearScopeMatches(itemYears: string[] | undefined, scopeYearId?: string): boolean {
+  if (!scopeYearId || !itemYears || itemYears.length === 0) return true
+  return itemYears.some((token) => yearTokensMatch(token, scopeYearId))
+}
+
+function yearOrdinal(token: string): string | null {
+  const t = token.trim()
+  const label = t.match(/^year\s*(\d+)$/i)?.[1]
+  if (label) return `Y${label}`
+  const intern = t.match(/^internship(?:\s+year)?\s*(\d+)$/i)?.[1]
+  if (intern) return `INT${intern}`
+  const compY = t.match(/_Y(\d+)$/i)?.[1]
+  if (compY) return `Y${compY}`
+  const compInt = t.match(/_INT(\d+)$/i)?.[1]
+  if (compInt) return `INT${compInt}`
+  return null
+}
+
+function isCompositeYear(token: string): boolean {
+  return /_(?:Y|INT)\d+$/i.test(token.trim())
+}
+
+function yearTokensMatch(itemYear: string, scopeYearId: string): boolean {
+  if (itemYear === scopeYearId) return true
+  if (isCompositeYear(itemYear) && isCompositeYear(scopeYearId)) return false
+  const a = yearOrdinal(itemYear)
+  return a !== null && a === yearOrdinal(scopeYearId)
+}
+
+/**
  * Kasr Al Ainy's modules, as the faculty lists them.
  *
  * `[name, moduleId]`, and the name is the label the faculty uses rather than an
@@ -309,6 +353,6 @@ export interface AuthoredScope {
 
 export function scopeMatches(scope: AuthoredScope | undefined, universityId?: string, yearId?: string): boolean {
   if (universityId && (scope?.universityIds?.length ?? 0) > 0 && !scope!.universityIds!.includes(universityId)) return false
-  if (yearId && (scope?.yearIds?.length ?? 0) > 0 && !scope!.yearIds!.includes(yearId)) return false
+  if (!yearScopeMatches(scope?.yearIds, yearId)) return false
   return true
 }

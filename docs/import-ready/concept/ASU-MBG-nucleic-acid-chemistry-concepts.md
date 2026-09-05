@@ -4,7 +4,7 @@
 CON-FND-AF09E96F70832F
 
 ## label
-GC-rich DNA melts at a higher temperature than AT-rich DNA because a G-C base pair holds three hydrogen bonds against an A-T pair's two
+GC content raises DNA melting temperature
 
 ## canonical_key
 dna.composition.gc-content-raises-melting-temperature
@@ -19,7 +19,9 @@ Tm and GC content
 ## arabic_aliases
 
 ## definition
-Heating a DNA duplex disrupts the hydrogen bonds holding the two strands together (denaturation/melting). A G-C base pair is held by three hydrogen bonds, one more than an A-T pair's two, so a DNA region richer in guanine and cytosine requires a higher temperature to denature than an equally long region richer in adenine and thymine.
+Heating a DNA duplex disrupts the hydrogen bonds holding the two strands together (**denaturation/melting**).
+
+A **G-C base pair is held by three hydrogen bonds**, one more than an A-T pair's two. __So a region richer in guanine and cytosine requires a higher temperature to denature__ than an equally long region richer in adenine and thymine.
 
 ## explicit_objective
 Predict which of two DNA samples or regions denatures at a higher temperature from their base composition.
@@ -162,7 +164,7 @@ sourceCandidateIds2: also searched "denaturation" — no hit.
 CON-FND-4E6FC7DF8DE3E5
 
 ## label
-DNA polymerase proofreads with its 3'-to-5' exonuclease activity as it synthesises, while only DNA polymerase I (not III) also carries a separate 5'-to-3' exonuclease activity used to remove RNA primers
+DNA polymerase proofreading and Pol I's dual exonuclease
 
 ## canonical_key
 replication.dna-polymerase.exonuclease-proofreading-and-pol1-dual-activity
@@ -177,7 +179,9 @@ DNA polymerase I dual exonuclease activity
 ## arabic_aliases
 
 ## definition
-As DNA polymerase adds nucleotides, its 3'-to-5' exonuclease activity removes a wrongly paired nucleotide it has just added, immediately, before synthesis continues — this proofreading happens during synthesis, not only after it finishes. DNA polymerase I is unusual in also carrying a 5'-to-3' exonuclease activity, used to remove RNA primers and nick-translate them away; ordinary replicative polymerases such as DNA polymerase III do not have this second activity.
+As DNA polymerase adds nucleotides, its **3'-to-5' exonuclease** activity immediately removes a wrongly paired nucleotide it has just added, before synthesis continues. __This proofreading happens during synthesis, not only after it finishes.__
+
+**DNA polymerase I** is unusual in also carrying a separate **5'-to-3' exonuclease** activity, used to remove RNA primers and nick-translate them away. __Ordinary replicative polymerases such as DNA polymerase III lack this second activity.__
 
 ## explicit_objective
 State which exonuclease activity of DNA polymerase performs proofreading, and identify DNA polymerase I as the one enzyme with both 5'-3' and 3'-5' exonuclease activities.

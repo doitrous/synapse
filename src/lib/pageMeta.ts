@@ -34,6 +34,21 @@ export interface PageMeta {
   jsonLd?: unknown[]
 }
 
+/**
+ * Keep a page that must never be indexed out of search, for as long as it is
+ * mounted — `RequireAuth`-guarded layouts and the `/s/:id` shared-document
+ * page (a signed-out visitor's copied link, not a page anyone should find by
+ * searching) call this. Reverted on unmount, same as `usePageMeta` above, so
+ * navigating to a public page after one of these does not carry the tag with it.
+ */
+export function useNoIndex(): void {
+  useEffect(() => upsert(
+    'meta[name="robots"]',
+    () => document.createElement('meta'),
+    (el) => { el.setAttribute('name', 'robots'); el.setAttribute('content', 'noindex, nofollow') },
+  ), [])
+}
+
 /** Set an element's attribute, remembering whether we were the ones who made it. */
 function upsert(selector: string, create: () => HTMLElement, apply: (el: HTMLElement) => void): () => void {
   const existing = document.head.querySelector<HTMLElement>(selector)

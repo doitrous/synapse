@@ -93,7 +93,8 @@ export function normalizeDashes(text: string): string {
     .replace(/ +-- +/g, '—')
     // Both edges are guarded, so a longer run of dots is left alone rather than
     // having an ellipsis taken out of the middle of it.
-    .replace(/(?<!\.)\.{3}(?!\.)/g, '…')
+    // (A captured prefix rather than a lookbehind: Safari < 16.4 has none.)
+    .replace(/(^|[^.])\.{3}(?!\.)/g, '$1…')
 }
 
 /**

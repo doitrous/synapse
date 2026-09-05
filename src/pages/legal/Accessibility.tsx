@@ -1,6 +1,6 @@
 import { LegalPage } from './LegalPage'
-import { LEGAL_PAGES } from './content'
+import { ACCESSIBILITY } from './content'
 
 export function Accessibility() {
-  return <LegalPage page={LEGAL_PAGES.accessibility} />
+  return <LegalPage page={ACCESSIBILITY} />
 }

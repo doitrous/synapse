@@ -1,11 +1,13 @@
 import { useCallback, useState, type ReactNode } from 'react'
-import { ArrowLeft, DoorOpen, Globe, LogIn, Plus, Users } from 'lucide-react'
+import { ArrowLeft, DoorOpen, Globe, LogIn, Plus, Users, WifiOff } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { SkeletonList } from '@/components/ui/Skeleton'
 import { Field, TextInput } from '@/components/ui/Field'
 import { PARTY_REFUSALS, useMyParties, useOpenParties, usePartyActions } from '@/lib/useParties'
 import { API_MODE } from '@/lib/api'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import { useT } from '@/lib/i18n'
 import { ROOM_CAPACITY } from '@/lib/rooms/roomPresence'
 import { DEMO_OPEN_ROOMS, DEMO_ROOM_SUMMARY } from '@/lib/rooms/demoRoom'
@@ -75,8 +77,9 @@ function RunnerFrame({ onBack, children }: { onBack: () => void; children: React
  */
 export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void }) {
   const t = useT()
-  const { parties, reload: reloadMine } = useMyParties()
-  const { parties: openParties, reload: reloadOpen } = useOpenParties()
+  const online = useOnlineStatus()
+  const { parties, loading: loadingMine, reload: reloadMine } = useMyParties()
+  const { parties: openParties, loading: loadingOpen, reload: reloadOpen } = useOpenParties()
   const { create, join } = usePartyActions()
 
   const [name, setName] = useState('')
@@ -150,7 +153,17 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
         <div className="space-y-4">
           <Panel>
             <PanelHeader title={t('Your rooms')} icon={Users} hint={mine.length ? `${mine.length}` : undefined} />
-            {mine.length === 0 ? (
+            {loadingMine ? (
+              <SkeletonList rows={2} className="p-4" />
+            ) : mine.length === 0 && !online ? (
+              <EmptyState
+                className="px-5 py-8"
+                icon={WifiOff}
+                title={t("You're offline")}
+                description={t('Your rooms will show up here once you reconnect.')}
+                action={<Button variant="secondary" size="sm" onClick={() => void reloadMine()}>{t('Try again')}</Button>}
+              />
+            ) : mine.length === 0 ? (
               <EmptyState
                 className="px-5 py-8"
                 icon={DoorOpen}
@@ -172,7 +185,11 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
               icon={Globe}
               hint={t('Open to your university and year')}
             />
-            {open.length === 0 ? (
+            {loadingOpen ? (
+              <SkeletonList rows={2} className="p-4" />
+            ) : open.length === 0 && !online ? (
+              <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">{t("You're offline — this keeps retrying on its own.")}</p>
+            ) : open.length === 0 ? (
               <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">
                 {t('No open rooms in your year right now.')}
               </p>

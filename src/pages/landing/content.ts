@@ -184,7 +184,7 @@ export const AR_CONTENT: LandingContent = {
   plans: {
     title: 'خطط وأسعار',
     sub: 'خطط تناسب طريقة مذاكرتك. يمكن الترقية أو الإلغاء في أي وقت.',
-    refund: 'نافذة استرداد ١٤ يومًا، وفق سياسة الاسترداد المنشورة وضوابط الاستخدام.',
+    refund: 'تُراجَع طلبات الاسترداد حالة بحالة — راجع سياسة الاسترداد.',
     perMonth: 'ما يعادل شهريًا',
     save: 'وفّر',
     currency: 'ج.م',
@@ -307,7 +307,7 @@ export const EN_CONTENT: LandingContent = {
   plans: {
     title: 'Plans & pricing',
     sub: 'Plans that fit how you study. Upgrade or cancel any time.',
-    refund: '14-day refund window, subject to the published refund policy and abuse controls.',
+    refund: 'Refund requests are reviewed case by case — see the refund policy.',
     perMonth: 'a month, equivalent',
     save: 'Save',
     currency: 'EGP',

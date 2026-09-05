@@ -8,7 +8,7 @@
  */
 
 import {
-  Boxes, Brain, ClipboardCheck, CalendarRange, Layers, Sparkles, Timer,
+  Boxes, Brain, ClipboardCheck, CalendarRange, Layers, SlidersHorizontal, Timer, Zap,
 } from 'lucide-react'
 import { NumberSetting, OrderEditor, SettingGroup, ShareEditor, ToggleSetting } from './controls'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
@@ -97,7 +97,7 @@ export function SelectionTab({ draft, setDraft }: { draft: Draft; setDraft: SetD
         ))}
       </SettingGroup>
 
-      <SettingGroup title="Priority weights" icon={Sparkles} hypothesis>
+      <SettingGroup title="Priority weights" icon={SlidersHorizontal} hypothesis>
         <NumberSetting
           label="Concept weakness" value={draft.priority.conceptWeakness} min={0} max={1} step={0.01}
           onChange={(value) => priority('conceptWeakness', value)}
@@ -386,7 +386,7 @@ export function InterventionsTab({ draft, setDraft }: { draft: Draft; setDraft: 
 
   return (
     <div className="space-y-5">
-      <SettingGroup title="Temporary boost" icon={Sparkles} hypothesis>
+      <SettingGroup title="Temporary boost" icon={Zap} hypothesis>
         <Caveat>
           A small multiplier may not reorder a short block at all. That is why a repeated or confident error also creates
           a transfer-check obligation — the obligation is the guarantee, the multiplier is only the preference.

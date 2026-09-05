@@ -32,16 +32,24 @@ export function useMaristanas() {
   }, [refresh])
 
   const rename = useCallback(async (slot: number, name: string) => {
+    const apply = (current: MaristanaOverview | null) => current ? {
+      ...current,
+      hospitals: current.hospitals.map((hospital) => hospital.slot === slot ? { ...hospital, name } : hospital),
+    } : current
     if (!API_MODE) {
-      setData((current) => current ? {
-        ...current,
-        hospitals: current.hospitals.map((hospital) => hospital.slot === slot ? { ...hospital, name } : hospital),
-      } : current)
+      setData(apply)
       return
     }
-    await apiSend(`/maristanas/${slot}`, 'PATCH', { name })
-    await refresh()
-  }, [refresh])
+    let previous: MaristanaOverview | null = null
+    setData((current) => { previous = current; return apply(current) })
+    try {
+      await apiSend(`/maristanas/${slot}`, 'PATCH', { name })
+    } catch (cause) {
+      setData(previous)
+      setError(true)
+      throw cause
+    }
+  }, [])
 
   return { data, loading, error, refresh, rename }
 }

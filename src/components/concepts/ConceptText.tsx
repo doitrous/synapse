@@ -129,9 +129,13 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
           </div>
 
           <div className="max-h-[min(26rem,60dvh)] overflow-y-auto overscroll-contain">
-            <p className="px-4 py-3 text-[13px] leading-[1.6] text-ink-2">
-              {open.concept.definition || t('Definition awaiting editorial review.')}
-            </p>
+            <div className="px-4 py-3 text-[13px] leading-[1.6] text-ink-2">
+              {open.concept.definition
+                ? open.concept.definition.split('\n').filter((line) => line.trim()).map((para, index) => (
+                    <p key={index} className={index ? 'mt-2.5' : undefined}><RichText text={para} /></p>
+                  ))
+                : <p>{t('Definition awaiting editorial review.')}</p>}
+            </div>
 
             {/* A concept's own images, from the same library a question draws
                 on — so the plate a student meets in a question is the plate

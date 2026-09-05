@@ -106,7 +106,7 @@
 # Item
 
 ## label
-A fatty acid is activated to acyl-CoA in the cytosol, and only carnitine can carry it across the inner mitochondrial membrane
+Fatty acid activation and the carnitine shuttle
 
 ## id
 CON-FND-177A829022AC8F
@@ -132,7 +132,11 @@ Transport of fatty acyl CoA into mitochondria
 ناقلة أسيل الكارنيتين
 
 ## definition
-Before a fatty acid can be oxidised it must be activated: acyl-CoA synthetase (thiokinase) joins it to coenzyme A in the cytosol, spending one ATP that goes to AMP and pyrophosphate, so two high-energy bonds are consumed. Fatty acids of fewer than 12 carbons then cross the mitochondrial membranes freely, but long-chain acyl-CoA cannot. It is carried in by the carnitine shuttle: CPT-I on the outer membrane exchanges CoA for carnitine, carnitine acyl-carnitine translocase moves the acyl-carnitine across the inner membrane against outgoing free carnitine, and CPT-II regenerates acyl-CoA in the matrix. Carnitine is made from lysine and methionine in liver and kidney and is stored in skeletal muscle, heart and brain.
+Before a fatty acid can be oxidised it must be activated: **acyl-CoA synthetase (thiokinase)** joins it to coenzyme A in the cytosol, spending one ATP that goes to AMP and pyrophosphate, so __two high-energy bonds are consumed__.
+
+Fatty acids of fewer than 12 carbons then cross the mitochondrial membranes freely, but long-chain acyl-CoA cannot. It is carried in by the **carnitine shuttle**: CPT-I on the outer membrane exchanges CoA for carnitine, carnitine acyl-carnitine translocase moves the acyl-carnitine across the inner membrane against outgoing free carnitine, and CPT-II regenerates acyl-CoA in the matrix.
+
+**Carnitine** is made from lysine and methionine in liver and kidney and is stored in skeletal muscle, heart and brain.
 
 ## explicit_objective
 Separate activation from transport, naming the molecule and the enzyme used at each step, and explain why the two-carbon cost of activation is subtracted from the ATP yield.
@@ -289,7 +293,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Beta-oxidation removes two carbons per turn in the mitochondrial matrix, and that fixes the turn count, the yield per turn, and what an odd-chain fatty acid leaves behind
+Beta-oxidation: two carbons per turn
 
 ## id
 CON-FND-84BDACCA71AF45
@@ -314,7 +318,11 @@ Acyl-CoA dehydrogenase
 ناتج الطاقة من أكسدة بيتا
 
 ## definition
-Beta-oxidation runs in the mitochondrial matrix, beside the citric acid cycle and the electron transport chain. Each turn performs four reactions — oxidation, hydration, oxidation, thiolytic cleavage — releasing one acetyl-CoA and reducing one FAD and one NAD+. Because two carbons leave per turn and the last turn splits a four-carbon acyl-CoA into two acetyl-CoA at once, a chain of n carbons needs (n/2)-1 turns and gives n/2 acetyl-CoA: palmitate takes 7 turns for 8 acetyl-CoA and yields 108 ATP, a net 106 after the two high-energy bonds spent on activation. An odd-chain fatty acid ends instead with three-carbon propionyl-CoA, which propionyl-CoA carboxylase converts to methylmalonyl-CoA and then to succinyl-CoA, the one part of a fatty acid that can become glucose.
+**Beta-oxidation** runs in the mitochondrial matrix, beside the citric acid cycle and the electron transport chain. Each turn performs four reactions — __oxidation, hydration, oxidation, thiolytic cleavage__ — releasing one acetyl-CoA and reducing one FAD and one NAD+.
+
+Because two carbons leave per turn and the last turn splits a four-carbon acyl-CoA into two acetyl-CoA at once, a chain of n carbons needs (n/2)-1 turns and gives n/2 acetyl-CoA: **palmitate takes 7 turns for 8 acetyl-CoA and yields 108 ATP**, a net 106 after the two high-energy bonds spent on activation.
+
+An **odd-chain** fatty acid ends instead with three-carbon **propionyl-CoA**, which propionyl-CoA carboxylase converts to methylmalonyl-CoA and then to succinyl-CoA — __the one part of a fatty acid that can become glucose__.
 
 ## explicit_objective
 Calculate the turns, acetyl-CoA, FADH2 and NADH produced from a fatty acid of a given chain length, and state what an odd-chain fatty acid leaves behind and where it goes.
@@ -471,7 +479,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Fatty acid oxidation reduces FAD and NAD+, fatty acid synthesis spends NADPH, and keeping the two currencies apart is what lets both run in one cell
+Redox cofactors of fatty acid oxidation and synthesis
 
 ## id
 CON-FND-4C05D459E80AEF
@@ -495,7 +503,11 @@ Redox cofactors of lipid metabolism
 الإنزيم الماليكي
 
 ## definition
-The two halves of fatty acid metabolism use different reducing currencies, and that separation is what allows a cell to hold both pathways without a futile cycle. Oxidation reduces FAD, at acyl-CoA dehydrogenase, and NAD+, at 3-hydroxyacyl-CoA dehydrogenase — so riboflavin yields a cofactor used in oxidation and not in synthesis. Synthesis reduces its growing chain twice per cycle and both reductions consume NADPH; making palmitate takes 14 NADPH. The department book names two sources: the hexose monophosphate pathway, and malic enzyme, which decarboxylates malate to pyruvate as the citrate shuttle returns carbon to the mitochondrion. Insulin stimulates the HMP dehydrogenases along with the rest of lipogenesis, so supply and demand are switched on together.
+The two halves of fatty acid metabolism use different reducing currencies, and __that separation is what allows a cell to hold both pathways without a futile cycle__.
+
+**Oxidation** reduces FAD, at acyl-CoA dehydrogenase, and NAD+, at 3-hydroxyacyl-CoA dehydrogenase — so riboflavin yields a cofactor used in oxidation and not in synthesis.
+
+**Synthesis** reduces its growing chain twice per cycle and both reductions consume **NADPH**; making palmitate takes 14 NADPH. The department book names two sources: the **hexose monophosphate pathway**, and **malic enzyme**, which decarboxylates malate to pyruvate as the citrate shuttle returns carbon to the mitochondrion. Insulin stimulates the HMP dehydrogenases along with the rest of lipogenesis, so supply and demand are switched on together.
 
 ## explicit_objective
 State which reduced cofactor belongs to oxidation and which to synthesis, name two sources of NADPH, and explain why the cell keeps NADH oxidised and NADPH reduced.
@@ -652,7 +664,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Alpha-oxidation handles fatty acids that are too branched for beta-oxidation and peroxisomal oxidation handles those that are too long
+Alpha- and peroxisomal fatty acid oxidation
 
 ## id
 CON-FND-F8FE239D334F4F
@@ -678,7 +690,11 @@ Omega oxidation
 حمض الفيتانيك
 
 ## definition
-Mitochondrial beta-oxidation attacks the beta-carbon, so a fatty acid carrying a methyl group there is blocked. Alpha-oxidation, a peroxisomal route, removes one carbon from the carboxyl end and shifts the methyl group off the beta position so beta-oxidation can proceed; losing it causes phytanic acid to accumulate, which is Refsum disease. Peroxisomal beta-oxidation is a separate function, trimming very-long-chain fatty acids down to a length the mitochondrion can take; losing the peroxisome itself, as in Zellweger syndrome, causes long-chain fatty acids to accumulate in tissues. Omega-oxidation, a minor microsomal route acting on the terminal methyl carbon, becomes more prominent when beta-oxidation is blocked.
+Mitochondrial beta-oxidation attacks the beta-carbon, so a fatty acid carrying a methyl group there is blocked.
+
+**Alpha-oxidation**, a peroxisomal route, removes one carbon from the carboxyl end and shifts the methyl group off the beta position so beta-oxidation can proceed; losing it causes phytanic acid to accumulate — __Refsum disease__.
+
+**Peroxisomal beta-oxidation** is a separate function, trimming very-long-chain fatty acids down to a length the mitochondrion can take; losing the peroxisome itself, as in **Zellweger syndrome**, causes long-chain fatty acids to accumulate in tissues. **Omega-oxidation**, a minor microsomal route acting on the terminal methyl carbon, becomes more prominent when beta-oxidation is blocked.
 
 ## explicit_objective
 Match each alternative oxidation route to the shape of fatty acid it exists for, and say which substance accumulates when each one fails.
@@ -836,7 +852,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Any block in fatty acid oxidation produces fasting hypoglycaemia with LOW ketone bodies, and that combination is the diagnosis
+Fatty acid oxidation defects: hypoketotic hypoglycaemia
 
 ## id
 CON-FND-A0F07BE6AD30A5
@@ -862,7 +878,11 @@ Metabolic disorders of beta oxidation
 نقص الكارنيتين
 
 ## definition
-MCAD deficiency, carnitine deficiency and CPT-I or CPT-II deficiency all stop fatty acids being oxidised, and they produce one syndrome. Hepatic fatty acid oxidation normally supplies the ATP gluconeogenesis runs on, so gluconeogenesis fails; the body falls back on glucose, so liver glycogen is stripped; and because the liver generates no acetyl-CoA there is nothing to make ketone bodies from, so ketones are LOW rather than high. Muscle weakness, myoglobinuria and cardiomyopathy follow from the ATP deficit, hyperammonaemia from increased protein catabolism, and fatty liver especially in CPT-I deficiency. Treatment is avoidance of fasting and strenuous exercise, a high-carbohydrate low-fat diet, and oral carnitine where carnitine is the deficiency.
+**MCAD deficiency**, carnitine deficiency and CPT-I or CPT-II deficiency all stop fatty acids being oxidised, and they produce one syndrome.
+
+Hepatic fatty acid oxidation normally supplies the ATP gluconeogenesis runs on, so gluconeogenesis fails; the body falls back on glucose, so liver glycogen is stripped; and because the liver generates no acetyl-CoA there is nothing to make ketone bodies from, so __ketones are LOW rather than high__.
+
+Muscle weakness, myoglobinuria and cardiomyopathy follow from the ATP deficit, hyperammonaemia from increased protein catabolism, and fatty liver especially in CPT-I deficiency. Treatment is avoidance of fasting and strenuous exercise, a high-carbohydrate low-fat diet, and oral carnitine where carnitine is the deficiency.
 
 ## explicit_objective
 Explain why a block in fatty acid oxidation gives hypoglycaemia with low ketones, and use that combination to separate it from other causes of fasting hypoglycaemia.
@@ -1019,7 +1039,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Acetyl-CoA carboxylase is the key enzyme of lipogenesis: it needs biotin, it makes malonyl-CoA, and every control signal converges on it
+Acetyl-CoA carboxylase: the key enzyme of lipogenesis
 
 ## id
 CON-FND-2F3A652B8E3104
@@ -1044,7 +1064,11 @@ Fatty acid synthase
 فيتامين ب7 البيوتين
 
 ## definition
-Acetyl-CoA carboxylase catalyses the first committed and rate-limiting reaction of fatty acid synthesis, adding CO2 to acetyl-CoA to form malonyl-CoA, and it carries biotin as the prosthetic group that ferries the CO2. Malonyl-CoA is the two-carbon donor for every elongation step, so palmitate needs seven malonyl-CoA and one acetyl-CoA. The enzyme is active when dephosphorylated and inactive when phosphorylated; insulin activates it in the fed state, glucagon and adrenaline inactivate it in fasting, and its own products malonyl-CoA and palmityl-CoA inhibit it allosterically. Fatty acid synthase, the multienzyme complex of two identical chains bearing seven activities, does the chemistry downstream but is not the regulated step. The same biotin serves pyruvate carboxylase and propionyl-CoA carboxylase.
+**Acetyl-CoA carboxylase** catalyses the first committed and rate-limiting reaction of fatty acid synthesis, adding CO2 to acetyl-CoA to form **malonyl-CoA**, and it carries **biotin** as the prosthetic group that ferries the CO2. Malonyl-CoA is the two-carbon donor for every elongation step, so palmitate needs seven malonyl-CoA and one acetyl-CoA.
+
+The enzyme is __active when dephosphorylated and inactive when phosphorylated__; insulin activates it in the fed state, glucagon and adrenaline inactivate it in fasting, and its own products malonyl-CoA and palmityl-CoA inhibit it allosterically.
+
+**Fatty acid synthase**, the multienzyme complex of two identical chains bearing seven activities, does the chemistry downstream but is not the regulated step. The same biotin serves pyruvate carboxylase and propionyl-CoA carboxylase.
 
 ## explicit_objective
 Identify the rate-limiting enzyme of lipogenesis, name its cofactor, and explain why the busiest enzyme in a pathway is not usually the regulated one.
@@ -1202,7 +1226,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Acetyl-CoA reaches the cytosol as citrate, and ATP-citrate lyase is what releases it there
+The citrate shuttle and ATP-citrate lyase
 
 ## id
 CON-FND-FCFC1B5A95695E
@@ -1225,7 +1249,9 @@ Transport of acetyl-CoA to cytosol
 نقل الأسيتيل إلى خارج الميتوكوندريا
 
 ## definition
-Acetyl-CoA is made by pyruvate dehydrogenase inside the mitochondrion but cannot cross the inner membrane, while fatty acid synthesis is cytosolic. The citrate shuttle solves this: citrate synthase condenses acetyl-CoA with oxaloacetate to form citrate, a specific transporter carries citrate to the cytosol, and ATP-citrate lyase splits it back to acetyl-CoA and oxaloacetate. The oxaloacetate returns as malate or pyruvate, and malic enzyme generates NADPH on the way. Insulin activates the shuttle along with glycolysis, pyruvate dehydrogenase, acetyl-CoA carboxylase and fatty acid synthase expression.
+Acetyl-CoA is made by pyruvate dehydrogenase inside the mitochondrion but cannot cross the inner membrane, while fatty acid synthesis is cytosolic.
+
+The **citrate shuttle** solves this: citrate synthase condenses acetyl-CoA with oxaloacetate to form citrate, a specific transporter carries citrate to the cytosol, and **ATP-citrate lyase** splits it back to acetyl-CoA and oxaloacetate. The oxaloacetate returns as malate or pyruvate, and __malic enzyme generates NADPH on the way__. Insulin activates the shuttle along with glycolysis, pyruvate dehydrogenase, acetyl-CoA carboxylase and fatty acid synthase expression.
 
 ## explicit_objective
 Describe how acetyl units reach the cytosol for lipogenesis, name the enzyme that releases them, and say what the returning limb of the shuttle contributes.
@@ -1380,7 +1406,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Adipose tissue lacks glycerol kinase, so it can only build triacylglycerol when glucose is available and cannot reuse the glycerol it releases
+Adipose tissue lacks glycerol kinase
 
 ## id
 CON-FND-6B469645AE7DBC
@@ -1403,7 +1429,11 @@ Why adipose tissue needs glucose
 اعتماد النسيج الدهني على الجلوكوز
 
 ## definition
-Esterifying a fatty acid requires glycerol-3-phosphate. Liver, kidney and intestinal mucosa make it directly from free glycerol using glycerol kinase; adipose tissue lacks that enzyme and must instead reduce dihydroxyacetone phosphate from glycolysis. Adipose triacylglycerol synthesis is therefore dependent on a supply of glucose and on the insulin that admits it through GLUT-4. The same missing enzyme explains the other direction: when adipose triacylglycerol is broken down the glycerol released cannot be reused locally, so it leaves the fat cell for the liver, which is why plasma glycerol is a marker of lipolysis and why glycerol is a gluconeogenic substrate.
+Esterifying a fatty acid requires **glycerol-3-phosphate**. Liver, kidney and intestinal mucosa make it directly from free glycerol using **glycerol kinase**; adipose tissue lacks that enzyme and must instead reduce dihydroxyacetone phosphate from glycolysis.
+
+Adipose triacylglycerol synthesis is therefore __dependent on a supply of glucose__ and on the insulin that admits it through GLUT-4.
+
+The same missing enzyme explains the other direction: when adipose triacylglycerol is broken down the glycerol released cannot be reused locally, so it leaves the fat cell for the liver — which is why plasma glycerol is a marker of lipolysis and why glycerol is a gluconeogenic substrate.
 
 ## explicit_objective
 Explain from one missing enzyme both why adipose tissue needs glucose to store fat and why the glycerol it releases travels to the liver.
@@ -1561,7 +1591,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Depot fat is triacylglycerol stored in adipose tissue, distinct from the structural tissue fat in every cell, and the liver is the primary site of its synthesis
+Depot fat versus tissue fat
 
 ## id
 CON-FND-69437CF1F5CCC0
@@ -1584,7 +1614,11 @@ Tissue fat and depot fat
 موضع تخليق الدهون الثلاثية
 
 ## definition
-Triacylglycerol is stored as depot fat in adipose tissue, and it differs from the tissue fat present in every cell on four counts the department book tabulates: site, function, composition and response to diet. Tissue fat is mainly phospholipid, glycolipid and cholesterol, rich in unsaturated fatty acids, constant in amount and never used for energy; depot fat is mainly triacylglycerol, rich in saturated fatty acids, variable, and increases with overfeeding and falls with fasting. Triacylglycerol suits storage because it is anhydrous and highly reduced — one gram yields about 9.3 kcal. The liver is the primary site of triacylglycerol synthesis and exports it as VLDL, which is why a failure of VLDL formation strands the triacylglycerol and produces a fatty liver.
+Triacylglycerol is stored as **depot fat** in adipose tissue, and it differs from the **tissue fat** present in every cell on four counts the book tabulates: site, function, composition and response to diet.
+
+Tissue fat is mainly phospholipid, glycolipid and cholesterol, rich in unsaturated fatty acids, constant in amount and never used for energy; depot fat is mainly triacylglycerol, rich in saturated fatty acids, variable, and increases with overfeeding and falls with fasting. Triacylglycerol suits storage because it is anhydrous and highly reduced — __one gram yields about 9.3 kcal__.
+
+The **liver** is the primary site of triacylglycerol synthesis and exports it as VLDL, which is why a failure of VLDL formation strands the triacylglycerol and produces a fatty liver.
 
 ## explicit_objective
 Contrast depot fat with tissue fat on site, function, composition and response to diet, and name the primary site of triacylglycerol synthesis with its export route.
@@ -1741,7 +1775,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Insulin and the anti-insulin hormones pull one switch in opposite directions: the phosphorylation state of hormone-sensitive lipase and of acetyl-CoA carboxylase
+Hormonal control of lipogenesis versus lipolysis
 
 ## id
 CON-FND-1C668119B3C0BB
@@ -1765,7 +1799,11 @@ Lipase phosphatase
 هرمونات مضادة الأنسولين
 
 ## definition
-Hormone-sensitive lipase is the key enzyme of lipolysis and exists in an active phosphorylated and an inactive dephosphorylated form. Glucagon and adrenaline activate adenylyl cyclase, raising cAMP and activating protein kinase A, which phosphorylates and activates it; thyroxine and growth hormone activate protein kinase A directly, and glucocorticoids increase synthesis of the enzyme. Insulin, the only hormone that inhibits lipolysis, stimulates phosphodiesterase so cAMP is destroyed, and activates lipase phosphatase so the enzyme is dephosphorylated. The same hormones move acetyl-CoA carboxylase the opposite way, insulin activating and the anti-insulin hormones inactivating it, so lipogenesis and lipolysis are never on together. Caffeine increases lipolysis by inhibiting phosphodiesterase.
+**Hormone-sensitive lipase** is the key enzyme of lipolysis and exists in an active phosphorylated and an inactive dephosphorylated form.
+
+**Glucagon and adrenaline** activate adenylyl cyclase, raising cAMP and activating protein kinase A, which phosphorylates and activates it; thyroxine and growth hormone activate protein kinase A directly, and glucocorticoids increase synthesis of the enzyme. **Insulin**, the only hormone that inhibits lipolysis, stimulates phosphodiesterase so cAMP is destroyed, and activates lipase phosphatase so the enzyme is dephosphorylated.
+
+The same hormones move acetyl-CoA carboxylase the opposite way, insulin activating and the anti-insulin hormones inactivating it, so __lipogenesis and lipolysis are never on together__. Caffeine increases lipolysis by inhibiting phosphodiesterase.
 
 ## explicit_objective
 Predict the direction lipolysis and lipogenesis move under a named hormone, and state the two mechanisms by which insulin inhibits lipolysis.
@@ -1922,7 +1960,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Lipoprotein lipase empties triacylglycerol-rich particles at the capillary wall; apo C-II activates it, insulin induces it, and heparin displaces it
+Lipoprotein lipase: apo C-II, insulin and heparin
 
 ## id
 CON-GIT-6CB618DBA50596
@@ -1946,7 +1984,11 @@ Degradation of lipoprotein TAG
 تطهير الكيلومكرونات من الدم
 
 ## definition
-Lipoprotein lipase is anchored to the vascular endothelium of extrahepatic tissues — adipose tissue above all, and also skeletal and cardiac muscle — facing the blood, because a lipoprotein particle is far too large to enter a cell whole. It hydrolyses the triacylglycerol carried in chylomicrons and VLDL into free fatty acids and glycerol, removing about 90% of a chylomicron's load and about 50% of VLDL's. Its activator is apo C-II, lent to the particle by HDL, and its synthesis is induced by insulin, so a meal both fills the fat stores and clears the plasma. Heparin displaces it from its endothelial anchor into the circulation, which is the basis of post-heparin lipolytic activity. Insulin deficiency lowers its activity and plasma triacylglycerol rises.
+**Lipoprotein lipase** is anchored to the vascular endothelium of extrahepatic tissues — adipose tissue above all, and also skeletal and cardiac muscle — facing the blood, because a lipoprotein particle is far too large to enter a cell whole.
+
+It hydrolyses the triacylglycerol carried in chylomicrons and VLDL into free fatty acids and glycerol, removing about 90% of a chylomicron's load and about 50% of VLDL's. Its activator is **apo C-II**, lent to the particle by HDL, and its synthesis is __induced by insulin__, so a meal both fills the fat stores and clears the plasma.
+
+**Heparin** displaces it from its endothelial anchor into the circulation, which is the basis of post-heparin lipolytic activity. Insulin deficiency lowers its activity and plasma triacylglycerol rises.
 
 ## explicit_objective
 State where lipoprotein lipase sits, what activates and induces it, and predict what happens to plasma triacylglycerol when insulin falls.
@@ -2103,7 +2145,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-The plasma lipoproteins form one series ordered by protein content, and that order is the order of density
+Plasma lipoproteins ordered by protein content and density
 
 ## id
 CON-GIT-ECB3C2F56DC72D
@@ -2132,7 +2174,11 @@ Lp(a)
 البروتين الدهني عالي الكثافة
 
 ## definition
-Plasma lipoproteins are separated by ultracentrifugation according to density, and because protein is the densest component and lipid the least dense, the series runs by protein content: chylomicrons 2% protein and 98% lipid, mainly triacylglycerol; VLDL 10% and 90%, mainly triacylglycerol; IDL 10% and 90%, cholesteryl ester and triacylglycerol; LDL 20% and 80%, mainly cholesteryl ester; HDL 45% and 55%, mainly phospholipid and cholesteryl ester. Source and function follow the same order: chylomicrons from intestinal cells carry dietary lipid, VLDL from the liver carries hepatic triacylglycerol out, LDL delivers cholesterol to tissues and is the bad cholesterol, and HDL returns cholesterol to the liver and is the good one. Lipoprotein(a) is a modified LDL carrying apolipoprotein(a), which resembles plasminogen and slows fibrinolysis.
+Plasma lipoproteins are separated by ultracentrifugation according to density, and because protein is the densest component and lipid the least dense, __the series runs by protein content__: chylomicrons 2% protein and 98% lipid, mainly triacylglycerol; VLDL 10% and 90%, mainly triacylglycerol; IDL 10% and 90%, cholesteryl ester and triacylglycerol; LDL 20% and 80%, mainly cholesteryl ester; HDL 45% and 55%, mainly phospholipid and cholesteryl ester.
+
+Source and function follow the same order: **chylomicrons** from intestinal cells carry dietary lipid, **VLDL** from the liver carries hepatic triacylglycerol out, **LDL** delivers cholesterol to tissues and is the bad cholesterol, and **HDL** returns cholesterol to the liver and is the good one.
+
+**Lipoprotein(a)** is a modified LDL carrying apolipoprotein(a), which resembles plasminogen and slows fibrinolysis.
 
 ## explicit_objective
 Order the lipoproteins by protein content, density and dominant lipid, and derive each particle's source and function from its position in the series.
@@ -2287,7 +2333,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-The proteins on a lipoprotein do four jobs — structure, enzyme activation, receptor binding and lipid transfer — and LCAT is the enzyme that traps cholesterol in the core
+The four functions of apolipoproteins, and LCAT
 
 ## id
 CON-GIT-99EF5E989B0C65
@@ -2316,7 +2362,11 @@ CETP
 النقل العكسي للكوليسترول
 
 ## definition
-The department book gives apolipoproteins four functions. They are structural elements of the particle; they activate enzymes, as apo C-II activates lipoprotein lipase; they bind cell-surface receptors to direct the particle to its target, apo B-100 to the LDL receptor, apo A-I to the hepatic HDL receptor, apo E for remnant and IDL uptake; and they transfer lipid between particles, exchanging triacylglycerol for cholesteryl esters. Integral apolipoproteins such as apo B cannot be removed; peripheral ones such as apo C and apo E can, and their loss is what converts VLDL to IDL and IDL to LDL. Alongside them, LCAT esterifies the free cholesterol HDL collects into cholesteryl ester, which is hydrophobic and sinks into the core — trapping it there and converting discoidal HDL into spherical HDL, which is what keeps reverse cholesterol transport running.
+The book gives apolipoproteins **four functions**. They are structural elements of the particle; they **activate enzymes**, as apo C-II activates lipoprotein lipase; they **bind cell-surface receptors** to direct the particle to its target — apo B-100 to the LDL receptor, apo A-I to the hepatic HDL receptor, apo E for remnant and IDL uptake; and they **transfer lipid** between particles, exchanging triacylglycerol for cholesteryl esters.
+
+Integral apolipoproteins such as apo B cannot be removed; peripheral ones such as apo C and apo E can, and __their loss is what converts VLDL to IDL and IDL to LDL__.
+
+Alongside them, **LCAT** esterifies the free cholesterol HDL collects into cholesteryl ester, which is hydrophobic and sinks into the core — trapping it there and converting discoidal HDL into spherical HDL, which is what keeps reverse cholesterol transport running.
 
 ## explicit_objective
 Assign each named apolipoprotein to its function, and explain why esterifying cholesterol is what allows HDL to keep collecting it.
@@ -2473,7 +2523,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-The liver makes ketone bodies it cannot itself use, because it has HMG-CoA synthase and lyase and lacks thiophorase
+Ketogenesis and ketolysis: hepatic versus extrahepatic
 
 ## id
 CON-END-2E748A37DA660A
@@ -2502,7 +2552,11 @@ Metabolism of ketone bodies
 بيتا هيدروكسي بيوتيرات
 
 ## definition
-Ketogenesis occurs in the mitochondria of the liver because HMG-CoA synthase and HMG-CoA lyase are found chiefly there: two acetyl-CoA condense to acetoacetyl-CoA, a third is added to give HMG-CoA, and the lyase releases acetoacetate, which is reduced to 3-hydroxybutyrate or decarboxylates spontaneously to acetone. Ketolysis occurs in the mitochondria of extrahepatic tissues, because thiophorase — succinyl-CoA acetoacetate CoA-transferase — is active there and deficient in the liver, so the liver cannot activate the ketone bodies it makes. Ketone bodies are water-soluble and travel without albumin or a lipoprotein, so tissues use them more easily than fatty acids; the brain, which cannot take up albumin-bound fatty acids at all, adapts to them after five to six days of starvation. Acetoacetate yields 19 ATP and 3-hydroxybutyrate 21.5.
+**Ketogenesis** occurs in the mitochondria of the **liver** because HMG-CoA synthase and HMG-CoA lyase are found chiefly there: two acetyl-CoA condense to acetoacetyl-CoA, a third is added to give HMG-CoA, and the lyase releases **acetoacetate**, which is reduced to 3-hydroxybutyrate or decarboxylates spontaneously to acetone.
+
+**Ketolysis** occurs in the mitochondria of extrahepatic tissues, because **thiophorase** — succinyl-CoA acetoacetate CoA-transferase — is active there and deficient in the liver, so __the liver cannot activate the ketone bodies it makes__.
+
+Ketone bodies are water-soluble and travel without albumin or a lipoprotein, so tissues use them more easily than fatty acids; the brain, which cannot take up albumin-bound fatty acids at all, adapts to them after five to six days of starvation. Acetoacetate yields 19 ATP and 3-hydroxybutyrate 21.5.
 
 ## explicit_objective
 Name the enzymes that confine ketogenesis to the liver and ketolysis to extrahepatic tissues, and explain why the brain can use ketone bodies but not fatty acids.
@@ -2660,7 +2714,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-HMG-CoA reductase is the rate-limiting step of cholesterol synthesis, active when dephosphorylated, and the branch point that decides whether HMG-CoA becomes a sterol or a ketone body is the compartment
+HMG-CoA reductase and cholesterol synthesis control
 
 ## id
 CON-GIT-3A348EEAF118BD
@@ -2684,7 +2738,11 @@ Rate limiting step of cholesterol synthesis
 تنظيم تخليق الكوليسترول
 
 ## definition
-Cholesterol is synthesised in the cytosol and endoplasmic reticulum of all nucleated cells from acetyl-CoA, and the pathway begins exactly as ketogenesis does, through HMG-CoA — but in the cytosol rather than the mitochondrion, and that compartment is what decides the fate. The rate-limiting reaction is the reduction of HMG-CoA to mevalonate by HMG-CoA reductase, consuming two NADPH. The enzyme is active when dephosphorylated and inactive when phosphorylated, with AMP-activated protein kinase doing the phosphorylating; insulin induces the gene and activates the protein phosphatase that dephosphorylates it, glucagon represses the gene, and cholesterol itself both allosterically inhibits and represses the enzyme. Statins inhibit it competitively as structural analogues of HMG-CoA.
+Cholesterol is synthesised in the cytosol and endoplasmic reticulum of all nucleated cells from acetyl-CoA, and the pathway begins exactly as ketogenesis does, through HMG-CoA — but in the cytosol rather than the mitochondrion, and __that compartment is what decides the fate__.
+
+The rate-limiting reaction is the reduction of HMG-CoA to **mevalonate** by **HMG-CoA reductase**, consuming two NADPH. The enzyme is active when dephosphorylated and inactive when phosphorylated, with AMP-activated protein kinase doing the phosphorylating; insulin induces the gene and activates the protein phosphatase that dephosphorylates it, glucagon represses the gene, and cholesterol itself both allosterically inhibits and represses the enzyme.
+
+**Statins** inhibit it competitively as structural analogues of HMG-CoA.
 
 ## explicit_objective
 Identify the rate-limiting step of cholesterol synthesis, predict the effect of insulin, glucagon and cholesterol on it, and explain why the step before it is not the committed one.
@@ -2842,7 +2900,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Plasma cholesterol runs 120-200 mg/dL, hypercholesterolaemia means the LDL fraction is high, and thyroid status moves it in both directions
+Plasma cholesterol: hyper- and hypocholesterolaemia
 
 ## id
 CON-GIT-E6AEB25F31B529
@@ -2866,7 +2924,11 @@ Statins
 نقص كوليسترول الدم
 
 ## definition
-Total plasma cholesterol ranges from 120 to 200 mg/dL, about two thirds as cholesteryl ester and one third free, and hypercholesterolaemia means a level above 200 mg/dL. The fraction that carries it is LDL, which is 80% lipid and mainly cholesteryl ester and delivers cholesterol from liver to tissues; a high LDL forms arterial plaques, which is why it is called the bad cholesterol. The department book names six causes: a diet rich in saturated fat, carbohydrate and cholesterol; obesity; diabetes mellitus, through three mechanisms at once; hypothyroidism, because thyroid hormone drives the conversion of cholesterol to bile acids; obstructive jaundice, which blocks the only exit; and the familial hyperlipoproteinaemias. Hyperthyroidism runs that conversion fast and therefore lowers plasma cholesterol. Statins lower it by competitively inhibiting HMG-CoA reductase.
+Total plasma cholesterol ranges from **120 to 200 mg/dL**, about two thirds as cholesteryl ester and one third free, and **hypercholesterolaemia** means a level above 200 mg/dL. The fraction that carries it is **LDL**, which is 80% lipid and mainly cholesteryl ester and delivers cholesterol from liver to tissues; a high LDL forms arterial plaques — the bad cholesterol.
+
+The book names six causes: a diet rich in saturated fat, carbohydrate and cholesterol; obesity; diabetes mellitus, through three mechanisms at once; hypothyroidism, because thyroid hormone drives the conversion of cholesterol to bile acids; obstructive jaundice, which blocks the only exit; and the familial hyperlipoproteinaemias.
+
+**Hyperthyroidism** runs that conversion fast and therefore __lowers plasma cholesterol__. Statins lower it by competitively inhibiting HMG-CoA reductase.
 
 ## explicit_objective
 Name the lipoprotein fraction that rises in hypercholesterolaemia, list the causes, and explain in both directions why thyroid status changes the plasma level.
@@ -3025,7 +3087,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Eicosanoids are twenty-carbon signalling lipids made from arachidonic acid down two branches, and aspirin blocks the cyclooxygenase branch
+Eicosanoids from arachidonic acid, and where aspirin acts
 
 ## id
 CON-FND-90496D64322904
@@ -3053,7 +3115,11 @@ Prostacyclin
 حمض الأراكيدونيك
 
 ## definition
-Eicosanoids are twenty-carbon signalling lipids — the name is from the Greek for twenty — derived from arachidonic acid released from membrane phospholipid by phospholipase A2. Arachidonic acid then takes one of two branches: the cyclooxygenase branch yields prostaglandins, thromboxanes and prostacyclin, and the lipoxygenase branch yields leukotrienes. Thromboxane, made by platelets, promotes platelet aggregation and vasoconstriction. Aspirin inhibits cyclooxygenase, so it blocks the first branch and leaves the second intact; glucocorticoids act further upstream on phospholipase A2 and shut down both; and a leukotriene receptor antagonist such as montelukast acts on the second branch, downstream of synthesis.
+**Eicosanoids** are twenty-carbon signalling lipids — the name is from the Greek for twenty — derived from **arachidonic acid** released from membrane phospholipid by phospholipase A2.
+
+Arachidonic acid then takes one of two branches: the **cyclooxygenase** branch yields prostaglandins, thromboxanes and prostacyclin, and the **lipoxygenase** branch yields leukotrienes. Thromboxane, made by platelets, promotes platelet aggregation and vasoconstriction.
+
+__Aspirin inhibits cyclooxygenase__, so it blocks the first branch and leaves the second intact; glucocorticoids act further upstream on phospholipase A2 and shut down both; and a leukotriene receptor antagonist such as montelukast acts on the second branch, downstream of synthesis.
 
 ## explicit_objective
 Name the precursor and the two branches of eicosanoid synthesis, and place aspirin, a glucocorticoid and a leukotriene antagonist on the correct branch or step.
@@ -3212,7 +3278,7 @@ relationships: Walked the 46 concepts already authored for 103 BMS and the DIS-B
 # Item
 
 ## label
-Insulin is secreted in two phases, and loss of the first is one of the earliest abnormalities in type 2 diabetes
+Biphasic insulin secretion
 
 ## id
 CON-END-83E98BC1F9E93E
@@ -3233,7 +3299,11 @@ Secretion of insulin
 المرحلة الأولى من إفراز الأنسولين
 
 ## definition
-Insulin secretion in response to a glucose load is biphasic. The first phase is a sharp spike within minutes, released from hormone already synthesised and stored in granules docked at the membrane, and it limits the immediate post-meal rise in glucose. The second phase is slower, smaller and sustained, drawing on the reserve pool and on newly synthesised hormone, and it lasts as long as the stimulus does. Loss of the first phase is one of the earliest detectable abnormalities in type 2 diabetes, appearing before the fasting glucose becomes abnormal, which is why a person can have a normal fasting sugar and a clearly abnormal response to a glucose load.
+Insulin secretion in response to a glucose load is **biphasic**.
+
+The **first phase** is a sharp spike within minutes, released from hormone already synthesised and stored in granules docked at the membrane, and it limits the immediate post-meal rise in glucose. The **second phase** is slower, smaller and sustained, drawing on the reserve pool and on newly synthesised hormone, and it lasts as long as the stimulus does.
+
+__Loss of the first phase is one of the earliest detectable abnormalities in type 2 diabetes__, appearing before the fasting glucose becomes abnormal, which is why a person can have a normal fasting sugar and a clearly abnormal response to a glucose load.
 
 ## explicit_objective
 State that insulin secretion is biphasic, say what each phase contributes, and explain why first-phase loss shows up before a fasting glucose does.
@@ -3390,7 +3460,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Type 1 diabetes is a problem of insulin supply and type 2 a problem of insulin action, and every other difference between them follows from that
+Type 1 versus type 2 diabetes
 
 ## id
 CON-END-85750744126501
@@ -3416,7 +3486,11 @@ Treatment of type 1 diabetes
 داء السكري غير المعتمد على الأنسولين
 
 ## definition
-Type 1 diabetes follows destruction of the pancreatic beta cells, so the deficiency of insulin is absolute; it characteristically presents young, carries a high incidence of ketoacidosis because nothing restrains lipolysis, and is treated by replacing the hormone by injection, since insulin is a 51-amino-acid protein and would be digested if swallowed. Type 2 diabetes is insulin resistance with a relative and progressive secretory failure; it characteristically presents in middle age, rarely produces ketoacidosis because residual insulin holds lipolysis partly in check, and responds initially to weight loss and exercise because there is insulin present to become more sensitive to. Oral secretagogues such as the sulphonylureas cannot work in type 1, because they act on beta cells that no longer exist.
+**Type 1 diabetes** follows destruction of the pancreatic beta cells, so the deficiency of insulin is __absolute__; it characteristically presents young, carries a high incidence of ketoacidosis because nothing restrains lipolysis, and is treated by replacing the hormone by injection, since insulin is a 51-amino-acid protein and would be digested if swallowed.
+
+**Type 2 diabetes** is insulin resistance with a relative and progressive secretory failure; it characteristically presents in middle age, rarely produces ketoacidosis because residual insulin holds lipolysis partly in check, and responds initially to weight loss and exercise because there is insulin present to become more sensitive to.
+
+Oral secretagogues such as the **sulphonylureas** cannot work in type 1, because they act on beta cells that no longer exist.
 
 ## explicit_objective
 Distinguish type 1 from type 2 diabetes on mechanism, onset, ketoacidosis risk and treatment, and derive each difference from the supply-versus-action distinction.
@@ -3574,7 +3648,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Diabetes is diagnosed by four thresholds, and the band between normal and diabetic has its own name
+Diagnostic thresholds for diabetes and pre-diabetes
 
 ## id
 CON-END-AC5B11BA2F2BCA
@@ -3599,7 +3673,11 @@ Oral glucose tolerance test
 اختبار تحمل الجلوكوز الفموي
 
 ## definition
-The department book gives the normal fasting plasma glucose, after 8 to 12 hours of fasting, as 70 to under 100 mg/dL, returning to under 140 mg/dL two hours after feeding. Diabetes is diagnosed by any one of four criteria: fasting plasma glucose 126 mg/dL or above, a 2-hour value of 200 mg/dL or above on an oral glucose tolerance test, HbA1c of 6.5% or above, or a random glucose of 200 mg/dL or above in a patient with the classical symptoms. A fasting glucose of 100 to 125 mg/dL is impaired fasting glucose, or pre-diabetes: not diabetic, but carrying a substantially raised risk of becoming so and of cardiovascular disease, and the stage at which lifestyle change can still return the value to normal.
+The book gives the normal fasting plasma glucose, after 8 to 12 hours of fasting, as **70 to under 100 mg/dL**, returning to under 140 mg/dL two hours after feeding.
+
+Diabetes is diagnosed by any one of __four criteria__: fasting plasma glucose 126 mg/dL or above, a 2-hour value of 200 mg/dL or above on an oral glucose tolerance test, HbA1c of 6.5% or above, or a random glucose of 200 mg/dL or above in a patient with the classical symptoms.
+
+A fasting glucose of **100 to 125 mg/dL** is impaired fasting glucose, or **pre-diabetes**: not diabetic, but carrying a substantially raised risk of becoming so and of cardiovascular disease, and the stage at which lifestyle change can still return the value to normal.
 
 ## explicit_objective
 Place a fasting, post-prandial, random or HbA1c value in the normal, pre-diabetic or diabetic band, and state the four diagnostic criteria with their thresholds.
@@ -3755,7 +3833,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-HbA1c is non-enzymatic and irreversible, so the red cell lifespan is what sets the two-to-three-month window it reports
+HbA1c and the window it reports
 
 ## id
 CON-END-839E4F7D92FBEF
@@ -3779,7 +3857,11 @@ Monitoring of diabetes
 متابعة التحكم في السكري
 
 ## definition
-Glucose attaches non-enzymatically to the N-terminal valine of the haemoglobin beta chain at a rate that depends only on how much glucose is present and for how long. Because no enzyme regulates the reaction and it is irreversible, the label is carried for the remaining life of that red cell, and HbA1c therefore reports a weighted average of glucose exposure over roughly the preceding 8 to 12 weeks. It is used both to diagnose diabetes, at 6.5% or above, and to follow it up, because it is unaffected by whether the patient has just eaten or is acutely unwell. Anything that shortens red cell survival falsely lowers it, and fructosamine — glycated serum albumin, reporting on 2 to 3 weeks — is the alternative in that situation.
+Glucose attaches non-enzymatically to the N-terminal valine of the haemoglobin beta chain at a rate that depends only on how much glucose is present and for how long.
+
+Because no enzyme regulates the reaction and it is irreversible, the label is carried for the remaining life of that red cell, and **HbA1c** therefore reports __a weighted average of glucose exposure over roughly the preceding 8 to 12 weeks__. It is used both to diagnose diabetes, at 6.5% or above, and to follow it up, because it is unaffected by whether the patient has just eaten or is acutely unwell.
+
+Anything that shortens red cell survival falsely lowers it, and **fructosamine** — glycated serum albumin, reporting on 2 to 3 weeks — is the alternative in that situation.
 
 ## explicit_objective
 State what HbA1c measures and over what period, explain why the red cell lifespan sets that period, and say when it is unreliable.
@@ -3937,7 +4019,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Diabetic dyslipidaemia is production up and clearance down at once: lipolysis floods the liver while insulin-induced lipoprotein lipase falls
+Diabetic dyslipidaemia: production up, clearance down
 
 ## id
 CON-END-B41C6D0DFACFE4
@@ -3958,7 +4040,11 @@ Hypertriglyceridaemia in diabetes
 ارتفاع الدهون الثلاثية في السكري
 
 ## definition
-The department book gives three mechanisms by which diabetes raises plasma lipids, and they act together. Increased lipolysis and increased fatty acid oxidation leave excess acetyl-CoA, and more cholesterol is synthesised from it. The rise in plasma fatty acids drives triacylglycerol synthesis in liver cells, so plasma VLDL and cholesterol rise. And the activity of plasma lipoprotein lipase, which insulin induces, falls, so the clearance of triacylglycerol-rich lipoproteins is reduced. Production rises and clearance falls simultaneously, which is why the characteristic picture is a raised triacylglycerol with a low HDL.
+The book gives three mechanisms by which diabetes raises plasma lipids, and __they act together__.
+
+Increased lipolysis and increased fatty acid oxidation leave excess acetyl-CoA, and more **cholesterol** is synthesised from it. The rise in plasma fatty acids drives triacylglycerol synthesis in liver cells, so plasma **VLDL** and cholesterol rise. And the activity of plasma **lipoprotein lipase**, which insulin induces, falls, so the clearance of triacylglycerol-rich lipoproteins is reduced.
+
+Production rises and clearance falls simultaneously, which is why the characteristic picture is a __raised triacylglycerol with a low HDL__.
 
 ## explicit_objective
 Explain why plasma triacylglycerol and cholesterol both rise in insulin deficiency, naming the enzyme insulin normally induces and the two production mechanisms that accompany its loss.
@@ -4116,7 +4202,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-The chronic complications of diabetes are vascular complications, sorted by the calibre of the vessel
+Chronic diabetic complications: micro- versus macrovascular
 
 ## id
 CON-END-F0182CA8A56EA7
@@ -4141,7 +4227,11 @@ Long term complications of diabetes
 اعتلال الكلية السكري
 
 ## definition
-The chronic complications of diabetes divide by the calibre of vessel involved. Microvascular disease affects capillaries and small vessels — retinopathy, nephropathy and peripheral neuropathy — and its severity tracks the duration and degree of hyperglycaemia most closely, so it responds most to tightening glucose control. Macrovascular disease is accelerated atherosclerosis of the large arteries — coronary heart disease, cerebrovascular disease and peripheral arterial disease — driven additionally by the diabetic dyslipidaemia and by glycation of vessel wall proteins, so it requires the blood pressure and the lipids to be treated as well. Nephropathy is detected first as microalbuminuria and progresses to end-stage renal disease.
+The chronic complications of diabetes __divide by the calibre of vessel involved__.
+
+**Microvascular disease** affects capillaries and small vessels — retinopathy, nephropathy and peripheral neuropathy — and its severity tracks the duration and degree of hyperglycaemia most closely, so it responds most to tightening glucose control.
+
+**Macrovascular disease** is accelerated atherosclerosis of the large arteries — coronary heart disease, cerebrovascular disease and peripheral arterial disease — driven additionally by the diabetic dyslipidaemia and by glycation of vessel wall proteins, so it requires the blood pressure and the lipids to be treated as well. **Nephropathy** is detected first as microalbuminuria and progresses to end-stage renal disease.
 
 ## explicit_objective
 Sort a named diabetic complication into the microvascular or macrovascular group and say what each group implies for treatment.
@@ -4298,7 +4388,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Aldose reductase traps glucose as sorbitol in exactly the tissues that cannot refuse it, which is why the lens and the nerve are damaged
+The polyol pathway: aldose reductase and sorbitol
 
 ## id
 CON-END-5D8DA0351D0C94
@@ -4323,7 +4413,11 @@ Sorbitol pathway
 إعتام عدسة العين السكري
 
 ## definition
-Aldose reductase reduces glucose to sorbitol using NADPH, and sorbitol dehydrogenase then oxidises sorbitol to fructose. The enzyme has a high Km, so it handles significant amounts of glucose only when glucose is high, and it operates in tissues whose glucose uptake is insulin-independent: lens, retina, kidney, Schwann cells and peripheral nerve. Those tissues cannot protect themselves by reducing uptake, so intracellular glucose rises with the plasma level. Sorbitol is polar and crosses membranes poorly, so it is trapped, accumulates, and draws water in osmotically; the pathway also consumes NADPH, weakening glutathione-dependent antioxidant defence. The result is cataract, retinopathy and peripheral neuropathy in poorly controlled diabetes. The same enzyme forms galactitol in galactosaemia, which is why cataract is prominent there too.
+**Aldose reductase** reduces glucose to **sorbitol** using NADPH, and sorbitol dehydrogenase then oxidises sorbitol to fructose. The enzyme has a high Km, so it handles significant amounts of glucose only when glucose is high, and it operates in tissues whose glucose uptake is insulin-independent: __lens, retina, kidney, Schwann cells and peripheral nerve__.
+
+Those tissues cannot protect themselves by reducing uptake, so intracellular glucose rises with the plasma level. Sorbitol is polar and crosses membranes poorly, so it is trapped, accumulates, and draws water in osmotically; the pathway also consumes NADPH, weakening glutathione-dependent antioxidant defence.
+
+The result is cataract, retinopathy and peripheral neuropathy in poorly controlled diabetes. The same enzyme forms galactitol in galactosaemia, which is why cataract is prominent there too.
 
 ## explicit_objective
 Name the enzymes of the polyol pathway and explain why sorbitol accumulation damages the lens and the peripheral nerve specifically.
@@ -4482,7 +4576,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Wet skin means hypoglycaemia and dry skin means a hyperglycaemic coma, and the two hyperglycaemic comas differ by whether the problem is acid or water
+The three acute diabetic comas
 
 ## id
 CON-END-68CC8CA610DF37
@@ -4508,7 +4602,11 @@ Hypoglycaemia
 غيبوبة فرط الأسمولية
 
 ## definition
-Three acute crises must be told apart. Hypoglycaemia provokes a sympatho-adrenal discharge, so the skin is wet and cool with tremor, tachycardia, hunger and confusion, and it develops over minutes; the department book gives the normal fasting range as 70 to under 100 mg/dL and notes that a fall below about 45 to 50 mg/dL may be fatal. Diabetic ketoacidosis develops over hours to days in absolute insulin deficiency: unrestrained lipolysis and ketogenesis produce an acidosis, with Kussmaul breathing, ketonuria, a fruity breath, and dry skin from the osmotic diuresis. Hyperosmolar coma occurs with extreme hyperglycaemia and enough residual insulin to prevent ketosis; consciousness is depressed by hyperosmolarity and cellular dehydration rather than by acid, and the skin is dry.
+Three acute crises must be told apart.
+
+**Hypoglycaemia** provokes a sympatho-adrenal discharge, so the skin is __wet__ and cool with tremor, tachycardia, hunger and confusion, and it develops over minutes; the book gives the normal fasting range as 70 to under 100 mg/dL and notes that a fall below about 45 to 50 mg/dL may be fatal.
+
+**Diabetic ketoacidosis** develops over hours to days in absolute insulin deficiency: unrestrained lipolysis and ketogenesis produce an acidosis, with Kussmaul breathing, ketonuria, a fruity breath, and __dry skin__ from the osmotic diuresis. **Hyperosmolar coma** occurs with extreme hyperglycaemia and enough residual insulin to prevent ketosis; consciousness is depressed by hyperosmolarity and cellular dehydration rather than by acid, and the skin is dry.
 
 ## explicit_objective
 Distinguish the three acute diabetic comas on skin, breathing, ketones, speed of onset and the mechanism that depresses consciousness.
@@ -4666,7 +4764,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-The feed-starve cycle has four stages and each runs on a different fuel: dietary glucose, then hepatic glycogen, then fatty acids, then ketone bodies
+The feed-starve cycle: four stages, four fuels
 
 ## id
 CON-FND-85583A59349A47
@@ -4691,7 +4789,13 @@ Metabolism in starvation
 حالة الصيام المتأخر
 
 ## definition
-The department book divides the feed-starve cycle into four stages. In the well-fed state, 0 to 4 hours, the main fuel is glucose from the meal and insulin predominates; liver, muscle and adipose tissue all take glucose up and store the surplus. In early fasting, 4 to 18 hours, insulin falls and glucagon rises, and blood glucose is supplied mainly by hepatic glycogenolysis. In late fasting, 18 to 48 hours, glycogen is significantly depleted, anti-insulin hormones predominate, gluconeogenesis maintains blood glucose, and the body switches to fat-burning, so the main fuel is fatty acids from adipose lipolysis. In starvation, beyond 48 hours, the liver makes large amounts of ketone bodies; after 2 to 5 days the brain takes about a third of its energy from them and after several weeks they are its major fuel. Muscle glycogenolysis cannot contribute directly to plasma glucose, and the brain is never affected by falling insulin because its uptake is insulin-independent.
+The book divides the feed-starve cycle into __four stages__, each running on a different fuel.
+
+In the **well-fed state** (0 to 4 hours) the main fuel is glucose from the meal and insulin predominates; liver, muscle and adipose tissue all take glucose up and store the surplus.
+
+In **early fasting** (4 to 18 hours) insulin falls and glucagon rises, and blood glucose is supplied mainly by hepatic glycogenolysis. In **late fasting** (18 to 48 hours) glycogen is significantly depleted, anti-insulin hormones predominate, gluconeogenesis maintains blood glucose, and the body switches to fat-burning, so the main fuel is fatty acids from adipose lipolysis.
+
+In **starvation** (beyond 48 hours) the liver makes large amounts of ketone bodies; after 2 to 5 days the brain takes about a third of its energy from them and after several weeks they are its major fuel. Muscle glycogenolysis cannot contribute directly to plasma glucose, and the brain is never affected by falling insulin because its uptake is insulin-independent.
 
 ## explicit_objective
 Name the main fuel, the dominant hormone and the source of blood glucose at each of the four stages, and place a stated number of hours into the right stage.
@@ -4852,7 +4956,7 @@ relationships: Walked the ten live concepts on DIS-BIO-T03 taught by ART-END-TOP
 # Item
 
 ## label
-Alanine is the major glucogenic amino acid because the glucose-alanine cycle moves carbon and waste nitrogen out of muscle in one carrier
+The glucose-alanine cycle in starvation
 
 ## id
 CON-FND-1B027502822320
@@ -4876,7 +4980,11 @@ Gluconeogenesis from amino acids
 الحفاظ على البروتين أثناء الصيام
 
 ## definition
-In fasting, muscle protein is broken down and the amino groups released are transferred by transamination onto pyruvate from glycolysis, forming alanine. Alanine travels to the liver, where it is transaminated back to pyruvate and rebuilt into glucose while its nitrogen enters the urea cycle — so one carrier performs two jobs at once, exporting gluconeogenic carbon and disposing of waste nitrogen without releasing free ammonia into the blood. That dual role is why alanine dominates among the glucogenic amino acids. Lactate returns from muscle and red cells by the parallel Cori cycle. Gluconeogenesis from protein is deliberately restrained during prolonged starvation, because the brain's switch to ketone bodies reduces the demand for glucose; once the triacylglycerol stores are exhausted the only remaining fuel is protein, degradation accelerates, and death follows from organ failure.
+In fasting, muscle protein is broken down and the amino groups released are transferred by transamination onto pyruvate from glycolysis, forming **alanine**.
+
+Alanine travels to the liver, where it is transaminated back to pyruvate and rebuilt into glucose while its nitrogen enters the urea cycle — so __one carrier performs two jobs at once__, exporting gluconeogenic carbon and disposing of waste nitrogen without releasing free ammonia into the blood. That dual role is why alanine dominates among the glucogenic amino acids. Lactate returns from muscle and red cells by the parallel **Cori cycle**.
+
+Gluconeogenesis from protein is deliberately restrained during prolonged starvation, because the brain's switch to ketone bodies reduces the demand for glucose; once the triacylglycerol stores are exhausted the only remaining fuel is protein, degradation accelerates, and death follows from organ failure.
 
 ## explicit_objective
 Name the major glucogenic amino acid of fasting, describe the two jobs the glucose-alanine cycle performs, and explain what determines survival time in starvation.

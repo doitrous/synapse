@@ -52,9 +52,21 @@ test('no API call site repeats the /api prefix already in the base', () => {
 
 /** Express route patterns the API actually registers, e.g. `/api/me`. */
 function serverRoutes(): string[] {
-  const source = readFileSync(join('server', 'src', 'index.js'), 'utf8')
+  // Routes live in `server/src/index.js` plus every `register*Routes(app)`
+  // module under `server/src/` (routes/, authRoutes.js, studentContent.js…).
   const ROUTE = /\bapp\.(?:get|put|post|patch|delete)\(\s*(['"`])([^'"`]+)\1/g
-  return [...source.matchAll(ROUTE)].map((match) => match[2])
+  return serverSources(join('server', 'src')).flatMap((file) =>
+    [...readFileSync(file, 'utf8').matchAll(ROUTE)].map((match) => match[2]),
+  )
+}
+
+function serverSources(dir: string, found: string[] = []): string[] {
+  for (const entry of readdirSync(dir)) {
+    const path = join(dir, entry)
+    if (statSync(path).isDirectory()) serverSources(path, found)
+    else if (entry.endsWith('.js') && !entry.endsWith('.test.js')) found.push(path)
+  }
+  return found
 }
 
 /** Whether a concrete request path is served by a route pattern. */

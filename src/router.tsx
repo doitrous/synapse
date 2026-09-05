@@ -1,7 +1,7 @@
-import { lazy, Suspense, useEffect, type ComponentType, type ReactElement } from 'react'
+import { lazy, Suspense, useEffect, useState, type ComponentType, type ReactElement } from 'react'
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
-import { RouteLoading } from '@/components/shell/RouteLoading'
+import { RouteLoading, type RouteSkeleton } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
 import { RequireAuth } from '@/components/auth/RequireAuth'
@@ -9,7 +9,6 @@ import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
-import { mintSessionHandoff, supabase } from '@/lib/supabase'
 
 /**
  * A route component that can also be fetched before it is rendered, so the
@@ -35,12 +34,38 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
  * message for this only because the router supplies one at the top level;
  * everything under `/app` and `/admin` showed an empty page instead.
  */
-function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
+function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}, skeleton: RouteSkeleton = 'page'): ReactElement {
   return (
     <RouteBoundary>
-      <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+      <Suspense fallback={<RouteLoading variant={skeleton} />}><Page {...props} /></Suspense>
     </RouteBoundary>
   )
+}
+
+/**
+ * How many hand-overs in a row stop being a redirect and start being a loop.
+ *
+ * Two origins that each decide the other one owns this path will bounce a
+ * browser between them until it gives up, and `location.replace` leaves no
+ * history to escape through. Nothing in the app should produce a second hop —
+ * but "should not" is what this counter exists to survive, and a person stuck
+ * in it deserves a sentence and a way out rather than a spinning tab.
+ */
+const HOP_KEY = 'nishany.handoff.hops'
+const HOP_WINDOW_MS = 10_000
+
+function countHop(): number {
+  try {
+    const stored = JSON.parse(sessionStorage.getItem(HOP_KEY) ?? 'null') as { n: number; firstAt: number } | null
+    const fresh = stored && Date.now() - stored.firstAt < HOP_WINDOW_MS ? stored : { n: 0, firstAt: Date.now() }
+    const next = { n: fresh.n + 1, firstAt: fresh.firstAt }
+    sessionStorage.setItem(HOP_KEY, JSON.stringify(next))
+    return next.n
+  } catch {
+    // No sessionStorage (private mode, an embedded webview): the redirect is
+    // still the right answer, it simply cannot be counted.
+    return 1
+  }
 }
 
 /**
@@ -49,28 +74,44 @@ function render(Page: ComponentType<Record<string, unknown>>, props: Record<stri
  * `replace` rather than `assign` so the back button returns to wherever the
  * student came from, not to a page that will only bounce them again.
  *
- * A session lives in this origin's localStorage and nowhere else, so arriving
- * plain used to mean the other origin saw nobody signed in and asked to sign
- * in again — a second login for something that already happened once. If
- * there is a session here, its refresh_token is hung off a one-time code
- * first (mintSessionHandoff, authHandoff.js) and carried across as
- * `?authHandoff=`; the target origin redeems it on boot (useIdentity.tsx)
- * before it ever has to decide anyone is anonymous.
+ * The session used to live in this origin's localStorage and nowhere else, so
+ * arriving plain meant the other origin saw nobody signed in — hence the
+ * one-time handoff code that used to ride along in the URL. The session is now
+ * a single cookie both hostnames send, so there is nothing to carry: the
+ * browser simply goes there, already signed in.
  */
 function HandOver({ origin }: { origin: string }): ReactElement {
+  const [looping, setLooping] = useState(false)
   useEffect(() => {
-    let cancelled = false
-    async function go() {
-      const code = supabase ? await mintSessionHandoff() : null
-      if (cancelled) return
-      const target = new URL(samePathOn(origin))
-      if (code) target.searchParams.set('authHandoff', code)
-      window.location.replace(target.toString())
-    }
-    void go()
-    return () => { cancelled = true }
+    if (countHop() > 2) { setLooping(true); return }
+    window.location.replace(samePathOn(origin))
   }, [origin])
-  return <RouteLoading />
+  if (!looping) return <RouteLoading />
+  return (
+    <Panel
+      title="This page keeps being handed back and forth"
+      body="The student site and the admin console each think this address belongs to the other. Signing out and back in usually settles it; if it does not, the address is not one your account can open."
+    />
+  )
+}
+
+/**
+ * A dead end, said plainly, with the one control that is genuinely available.
+ *
+ * Both cases below are a page that cannot be rendered for this account and has
+ * nowhere honest to redirect to. Redirecting anyway is what turned each of them
+ * into a loop.
+ */
+function Panel({ title, body }: { title: string; body: string }): ReactElement {
+  return (
+    <div className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center gap-3 px-6 text-center">
+      <h1 className="text-[20px] font-semibold text-ink">{title}</h1>
+      <p className="text-[13px] leading-relaxed text-ink-2">{body}</p>
+      <p>
+        <a href="/logout" className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface px-4 text-[13px] font-semibold text-ink hover:bg-inset">Sign out</a>
+      </p>
+    </div>
+  )
 }
 
 const Landing = lazyNamed(() => import('@/pages/Landing'), 'Landing')
@@ -79,9 +120,9 @@ const PricingEn = lazyNamed(() => import('@/pages/PricingEn'), 'PricingEn')
 const PricingAr = lazyNamed(() => import('@/pages/PricingAr'), 'PricingAr')
 const Terms = lazyNamed(() => import('@/pages/legal/Terms'), 'Terms')
 const Privacy = lazyNamed(() => import('@/pages/legal/Privacy'), 'Privacy')
+const Accessibility = lazyNamed(() => import('@/pages/legal/Accessibility'), 'Accessibility')
 const RefundPolicy = lazyNamed(() => import('@/pages/legal/RefundPolicy'), 'RefundPolicy')
 const Contact = lazyNamed(() => import('@/pages/legal/Contact'), 'Contact')
-const Accessibility = lazyNamed(() => import('@/pages/legal/Accessibility'), 'Accessibility')
 const NotFound = lazyNamed(() => import('@/pages/NotFound'), 'NotFound')
 const Placeholder = lazyNamed(() => import('@/pages/Placeholder'), 'Placeholder')
 
@@ -213,8 +254,26 @@ const studentPages: Record<string, Preloadable> = {
   account: Account,
 }
 
+/**
+ * The skeleton each student page wears while its chunk loads. Only the pages
+ * whose first painted view is not the default `page` shape (header + cards) are
+ * listed; everything else falls through to `page`. A new page is honest by
+ * default — add a line here only when it opens on a different shape.
+ */
+const studentSkeletons: Partial<Record<keyof typeof studentPages, RouteSkeleton>> = {
+  performance: 'stats',
+  account: 'form',
+  resources: 'list',
+  university: 'list',
+  maristanas: 'list',
+  tutorial: 'list',
+  notebook: 'split',
+  library: 'split',
+  whiteboard: 'canvas',
+}
+
 const studentBuilt: Record<string, ReactElement> = Object.fromEntries(
-  Object.entries(studentPages).map(([path, Page]) => [path, render(Page)]),
+  Object.entries(studentPages).map(([path, Page]) => [path, render(Page, {}, studentSkeletons[path] ?? 'page')]),
 )
 
 /**
@@ -226,6 +285,8 @@ export function preloadStudentRoute(to: string): void {
   studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
+// Admin console skeletons are left at the default for now — this pass tunes the
+// student-facing pages only.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
   library: render(ControlDashboard, { initialKind: 'article', lockedKind: true }),
@@ -282,7 +343,7 @@ const studentRoutes = [
   ...studentRedirects,
   // Reading a source is its own screen, not a modal over the catalogue: it owns
   // the viewport, and it has to be linkable at a page.
-  { path: 'resources/:id', element: render(ResourceReader) },
+  { path: 'resources/:id', element: render(ResourceReader, {}, 'split') },
 ]
 /**
  * The tab that owns each admin path.
@@ -323,7 +384,16 @@ function AdminHome() {
   const identity = useIdentity()
   if (identity.tabs.includes('dashboard')) return <PlatformDashboard />
   const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
-  return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
+  if (first) return <Navigate to={first.to} replace />
+  // Nowhere in the console belongs to this account. Sending them to `/app`
+  // from the admin origin is a hand-over to the student site, which hands the
+  // console path back — the loop this panel replaces.
+  return (
+    <Panel
+      title="No console area has been assigned to your account"
+      body="Your account can sign in, but no part of the admin console has been assigned to it yet. Ask a super admin to grant the areas you need."
+    />
+  )
 }
 
 // Which portal this origin serves. Everywhere else — localhost, previews — both
@@ -400,9 +470,9 @@ export const router = createBrowserRouter([
   // translated versions are flagged as pending rather than faked.
   { path: '/terms', element: adminHost ? toStudentSite : render(Terms) },
   { path: '/privacy', element: adminHost ? toStudentSite : render(Privacy) },
+  { path: '/accessibility', element: adminHost ? toStudentSite : render(Accessibility) },
   { path: '/refund-policy', element: adminHost ? toStudentSite : render(RefundPolicy) },
   { path: '/contact', element: adminHost ? toStudentSite : render(Contact) },
-  { path: '/accessibility', element: adminHost ? toStudentSite : render(Accessibility) },
   // Auth stays on both origins: RequireAuth sends a signed-out admin to /login, and
   // a session lives per-origin, so the admin domain needs its own way in.
   { path: '/login', element: render(Login) },

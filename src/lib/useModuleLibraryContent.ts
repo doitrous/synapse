@@ -1,7 +1,8 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useArticleIndex } from './content'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { itemInScope } from '@/data/contentControl'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
 import { mergeModuleCoverage, type ProjectionModule } from '@/pages/student/universityModel'
@@ -77,13 +78,15 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
   const studentModules = useStudentModules(universityId, yearId)
   const curriculum = useStudentCurriculum()
   const library = useLiveLibrary()
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [index] = useArticleIndex()
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [medicalTaxonomy] = useMedicalTaxonomy()
 
+  // Articles are the only kind this resolves — `articlesUnder` is the whole of
+  // what is read below — so the index stands in for the ledger unchanged.
   const membership = useMemo(
-    () => buildCurriculumMembership({ items: ledger, graph, medicalTaxonomy }),
-    [ledger, graph, medicalTaxonomy],
+    () => buildCurriculumMembership({ items: index.items, graph, medicalTaxonomy }),
+    [index, graph, medicalTaxonomy],
   )
 
   const projectionModules = useMemo(() => flattenProjectionModules(curriculum.projection), [curriculum.projection])
@@ -96,6 +99,28 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
     [projectionModules],
   )
 
+  // Articles name their own module(s) via `articleData.moduleIds`, authored
+  // directly on the article. The per-module curriculum coverage above is a
+  // separate, admin-authored mapping that is frequently unpopulated, so an
+  // article correctly tagged for its module would otherwise never reach it.
+  // Group by the article's own module tag too, scoped to this student, and union
+  // it with coverage. The publish filter below (library.subtopics) still gates.
+  const articleIdsByModule = useMemo(() => {
+    const map = new Map<string, string[]>()
+    for (const item of index.items) {
+      if (item.kind !== 'article') continue
+      if (!itemInScope(item, universityId || undefined, yearId || undefined)) continue
+      for (const raw of item.articleData?.moduleIds ?? []) {
+        const mid = raw.trim()
+        if (!mid) continue
+        const list = map.get(mid)
+        if (list) list.push(item.id)
+        else map.set(mid, [item.id])
+      }
+    }
+    return map
+  }, [index.items, universityId, yearId])
+
   const groups = useMemo(() => studentModules.map((module): ModuleLibraryGroup => {
     const projectionModule = matchProjectionModule(module, byModuleId, byName)
     const coverage = projectionModule ? mergeModuleCoverage(projectionModule) : { articleIds: [], topicNodeIds: [] }
@@ -107,6 +132,8 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
       membership.articlesUnder(nodeId).forEach((item) => candidateIds.add(item.id))
     })
 
+    ;(articleIdsByModule.get(module.id.trim()) ?? []).forEach((id) => candidateIds.add(id))
+
     // 4: keep only ids that resolve to a currently-published LiveSubtopic —
     // that lookup succeeding is itself the publish filter.
     const articles = library.subtopics.filter((subtopic) => candidateIds.has(subtopic.id))
@@ -117,7 +144,7 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
       articles,
       articleIds: articles.map((subtopic) => subtopic.id),
     }
-  }), [studentModules, byModuleId, byName, membership, library.subtopics])
+  }), [studentModules, byModuleId, byName, membership, library.subtopics, articleIdsByModule])
 
   const availability = useMemo(
     () => combineAvailability(library.availability, { loading: curriculum.loading, error: curriculum.error }),

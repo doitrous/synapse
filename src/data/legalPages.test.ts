@@ -196,7 +196,7 @@ test('slugs map to and from the public routes', () => {
   assert.equal(legalSlugOf('/refund-policy'), 'refund-policy')
   assert.equal(legalSlugOf('/terms'), 'terms')
   assert.equal(legalSlugOf('/pricing'), undefined)
-  assert.deepEqual(LEGAL_SLUGS, ['terms', 'privacy', 'refund-policy', 'contact'])
+  assert.deepEqual(LEGAL_SLUGS, ['terms', 'privacy', 'refund-policy', 'contact', 'accessibility'])
 })
 
 test('paragraphs and bullets round-trip through the editor textareas', () => {

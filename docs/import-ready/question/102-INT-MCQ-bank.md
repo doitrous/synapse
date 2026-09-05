@@ -2172,3 +2172,8958 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Verbatim from page 71. Collagen is tagged as a contextual concept, not an assessed one: the stem uses collagen as the setting, and what is actually tested is which modification acts on prolyl and lysyl residues. Every distractor is one of the other four modification types and each explanation names the residues and the example that belong to it, so the whole five-item list is recoverable from the item.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-023
+## title
+Enzymes can recognize and react with a special chemical substance called:
+## question
+Enzymes can recognize and react with a special chemical substance called:
+## vignette
+Every enzyme is specific for the molecule it acts on. This item asks for the name of that molecule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cofactor
+## explanation_a
+A cofactor is a non-protein helper — a metal ion or an organic coenzyme — that some enzymes need in order to work. It assists catalysis; it is not the molecule the enzyme recognises and converts. Picking it confuses a helper of the enzyme with the target of the enzyme.
+## answer_b
+Activator
+## explanation_b
+An activator raises an enzyme’s activity, but it is not what the enzyme acts on. The stem asks for the molecule the enzyme recognises and reacts with, which is the substrate; the activator only modulates the rate at which that reaction runs.
+## answer_c
+Substrate
+## explanation_c
+Correct. The substrate is the specific molecule an enzyme binds at its active site and converts to product. Enzyme specificity is defined against the substrate — the active site is shaped to fit it — which is exactly the recognise-and-react relationship the stem describes.
+## answer_d
+Product
+## explanation_d
+The product is what the reaction yields, not what the enzyme starts from. It appears at the end, after the substrate has been converted; a student who picks it has read the reaction backwards.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the molecule an enzyme acts on and distinguish it from the cofactor, activator and product.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 1, page 45; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Tests the substrate half of the concept definition, which lists specificity for the substrate as a defining feature of enzymes.
+---
+# Item
+## id
+QST-102-INT-MCQ-024
+## title
+Enzymes belong to which group of biomolecules?
+## question
+Enzymes belong to which group of biomolecules?
+## vignette
+The concept defines enzymes by their chemical class before anything else. This item asks for that class.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lipids
+## explanation_a
+Lipids are hydrophobic molecules built mainly from fatty acids; they store energy and build membranes, and they are not catalysts of metabolic reactions in the way enzymes are. Almost all enzymes are proteins, so lipid is the wrong class.
+## answer_b
+Carbohydrates
+## explanation_b
+Carbohydrates are the substrates and energy stores of metabolism, not its catalysts. A student who picks this may be thinking of what enzymes act on rather than what enzymes are made of.
+## answer_c
+Phospholipids
+## explanation_c
+Phospholipids are the amphipathic building blocks of membranes, not catalysts. This distractor pairs the membrane role with the enzyme question; the two are unrelated.
+## answer_d
+Proteins
+## explanation_d
+Correct. Enzymes are proteins — polymers of amino acids folded into a shape that carries the active site. (The rare catalytic RNAs, ribozymes, are the sole exception and are not what a departmental “enzymes are…” item is asking.) The concept opens by defining enzymes as protein biocatalysts.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the chemical class of enzymes and reject the other three macromolecule classes.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 2, page 45; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. The protein-nature claim is the first clause of the concept definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-025
+## title
+Common features of the enzymes include:
+## question
+Common features of the enzymes include:
+## vignette
+Four statements are offered about enzymes; only one is a genuine property. The other three are the classic misconceptions the definition exists to correct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Produced by living cells
+## explanation_a
+Correct. Enzymes are synthesised by living cells — this is part of their definition as biological catalysts. The other three options are each a property enzymes specifically do NOT have, which is why this is the only defensible choice.
+## answer_b
+Affection of the reaction equilibrium
+## explanation_b
+A catalyst speeds a reaction toward equilibrium but never moves the equilibrium position itself; it accelerates the forward and reverse rates equally. Believing an enzyme shifts equilibrium is the single most common enzyme misconception, and the concept names it explicitly as false.
+## answer_c
+Chemically changed at the end of the reaction
+## explanation_c
+A catalyst emerges from the reaction unchanged and is free to act again — that is what makes tiny amounts sufficient. “Chemically changed at the end” describes a reactant, not a catalyst.
+## answer_d
+Needed in large amount
+## explanation_d
+Because they are regenerated, enzymes are needed only in trace amounts; one enzyme molecule turns over many substrate molecules. “Large amount” contradicts the catalytic definition.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Select a true property of enzymes and reject the three standard false claims (they shift equilibrium, are consumed, or are needed in bulk).
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 3, page 45; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Each distractor is a negation of a clause in the concept definition (unchanged by the reaction, needed in tiny amounts, does not affect equilibrium).
+---
+# Item
+## id
+QST-102-INT-MCQ-026
+## title
+The enzymes are polymers of:
+## question
+The enzymes are polymers of:
+## vignette
+Following on from the class of enzymes, this item asks for their monomer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fatty acids
+## explanation_a
+Fatty acids are the building blocks of lipids, not proteins. This is the distractor for a student who has not connected “enzymes are proteins” to “proteins are chains of amino acids”.
+## answer_b
+Amino acids
+## explanation_b
+Correct. Enzymes are proteins, and proteins are polymers of amino acids joined by peptide bonds. The chain folds so that particular side chains come together to form the active site.
+## answer_c
+Hexose sugars
+## explanation_c
+Hexose sugars are the monomers of polysaccharides such as glycogen and starch, not of proteins. Picking this confuses the carbohydrate polymer with the protein polymer.
+## answer_d
+Inorganic phosphate
+## explanation_d
+Inorganic phosphate is a small ion, not a monomer of any macromolecule chain; it is a backbone linker in nucleic acids but is never the repeating unit of a protein.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the monomer of an enzyme as the amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 4, page 45; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Direct corollary of the protein-nature clause in the concept definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-027
+## title
+The active site of an enzyme:
+## question
+The active site of an enzyme:
+## vignette
+The active site is the pocket where catalysis happens. Three of these statements misdescribe it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is remote from the site of substrate attachment
+## explanation_a
+The active site IS the site of substrate attachment — substrate binding and catalysis happen in the same pocket. A site remote from where the substrate binds describes an allosteric site, not the active site.
+## answer_b
+Is converted to product
+## explanation_b
+The substrate is converted to product; the active site is not consumed. Confusing the site with the substrate it holds is the error here — the enzyme, active site included, is regenerated.
+## answer_c
+Catalyses the reaction
+## explanation_c
+Correct. The active site binds the substrate and catalyses its conversion, chiefly by lowering the activation energy of the reaction. This is the defining function named in the concept.
+## answer_d
+Increases the energy of reaction
+## explanation_d
+An enzyme LOWERS the activation energy — that is the whole mechanism of catalysis. “Increases the energy of reaction” inverts it, and is the trap for a student who has the direction of the energy barrier reversed.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-5846431203789F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State what the active site does — bind substrate and catalyse the reaction — and reject claims that it is remote, is consumed, or raises the reaction’s energy.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 5, page 45; printed answer key = c.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Distractor D is the exact inverse of the mechanism clause, deliberately paired with the correct statement.
+---
+# Item
+## id
+QST-102-INT-MCQ-028
+## title
+In any reaction catalyzed by an enzyme, the reacting molecule is called the:
+## question
+In any reaction catalyzed by an enzyme, the reacting molecule is called the:
+## vignette
+A second phrasing of the substrate definition, this time against a different set of distractors.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Substrate
+## explanation_a
+Correct. The reacting molecule the enzyme binds and converts is the substrate. Everything else listed is either a helper of the enzyme or a variant of the enzyme, not the molecule being reacted on.
+## answer_b
+Cofactor
+## explanation_b
+A cofactor is a non-protein helper the enzyme may need; it is not the reacting molecule. It assists the conversion of the substrate rather than being converted itself.
+## answer_c
+Coenzyme
+## explanation_c
+A coenzyme is an organic cofactor (often vitamin-derived) that ferries chemical groups. It participates in catalysis but is not the substrate whose fate the reaction describes.
+## answer_d
+Isozyme
+## explanation_d
+Isozymes are different protein forms of the same enzyme activity. This option names a kind of enzyme, not the molecule the enzyme acts on.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-BA7E60E9E6800B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the reacting molecule as the substrate and separate it from cofactor, coenzyme and isozyme.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 6, page 45; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 45. Same substrate claim as item 23, kept because the department asks it against a distinct distractor set (cofactor/coenzyme/isozyme).
+---
+# Item
+## id
+QST-102-INT-MCQ-029
+## title
+The general mechanism in enzyme action is by:
+## question
+The general mechanism in enzyme action is by:
+## vignette
+This item asks for the single sentence that captures how any enzyme accelerates a reaction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Reducing activation energy
+## explanation_a
+Correct. An enzyme provides an alternative reaction path with a lower activation energy, so more substrate molecules can cross the barrier per unit time. This is the universal mechanism of enzyme catalysis stated in the concept.
+## answer_b
+Increasing activation energy
+## explanation_b
+Increasing the activation energy would SLOW the reaction — the opposite of catalysis. This is the sign-flip trap: the barrier is lowered, never raised.
+## answer_c
+Decreasing pH value
+## explanation_c
+Enzymes do not work by changing the pH of the medium; rather, each enzyme has an optimum pH at which it works best. Confusing “pH affects enzymes” with “enzymes act by changing pH” reverses cause and effect.
+## answer_d
+Increasing pH value
+## explanation_d
+As with option C, altering pH is not how an enzyme catalyses. pH is a condition that affects the enzyme, not a lever the enzyme pulls on the reaction.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-5846431203789F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that enzymes work by lowering activation energy, not by changing pH.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 7, page 45; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR fragment “me Enzymes 42” trailing option D on the page was a running header, not part of the option, and was dropped. Verbatim otherwise from page 45.
+---
+# Item
+## id
+QST-102-INT-MCQ-030
+## title
+Factors affecting enzyme activity include:
+## question
+Factors affecting enzyme activity include:
+## vignette
+Three genuine factors are listed separately, then together. The best answer is the one that is complete.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Temperature
+## explanation_a
+Temperature does affect enzyme activity, but it is not the only factor, so on its own it is an incomplete answer to a stem that lists all three separately and then together.
+## answer_b
+Concentration of substrate
+## explanation_b
+Substrate concentration is a real factor, but choosing it alone ignores temperature and pH, which the stem also offers. The combined option is more complete.
+## answer_c
+pH
+## explanation_c
+pH is a genuine factor — each enzyme has an optimum pH — but selecting it alone is incomplete for the same reason as A and B.
+## answer_d
+Temperature, concentration and pH
+## explanation_d
+Correct. Temperature, substrate concentration and pH all set the rate of an enzyme-catalysed reaction, and the concept lists exactly these (with enzyme and cofactor concentration) as the determinants. When a stem offers each true factor separately and then all together, the all-together option is the intended answer.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F29934C070A94C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise temperature, substrate concentration and pH as jointly the factors that set enzyme rate.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 10, page 46; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Classic “all of the above” structure; the concept enumerates these determinants explicitly.
+---
+# Item
+## id
+QST-102-INT-MCQ-031
+## title
+In enzyme kinetics, Km implies:
+## question
+In enzyme kinetics, Km implies:
+## vignette
+The Michaelis constant has one precise definition and several near-miss paraphrases. This item separates them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The substrate concentration that gives one half Vmax
+## explanation_a
+Correct. Km is the substrate concentration at which the reaction runs at half of its maximal velocity (Vmax). This is the operational definition, and a smaller Km means the enzyme reaches half-maximal speed at lower substrate — i.e. higher affinity.
+## answer_b
+The dissociation constant for the enzyme substrate complex
+## explanation_b
+Km equals the dissociation constant of the ES complex only under the special assumption that the complex is at true equilibrium (k2 much smaller than the off-rate). As a general definition of Km this is an approximation, not the primary meaning, so it is not the best answer.
+## answer_c
+Concentration of enzyme
+## explanation_c
+Km is a substrate concentration, not an enzyme concentration, and it is independent of how much enzyme is present. This option confuses the two concentrations.
+## answer_d
+Half of the substrate concentration required to achieve Vmax
+## explanation_d
+This is the deliberate corruption: Km is not “half the substrate needed for Vmax”. Vmax is approached only at saturating (effectively infinite) substrate, so “half the substrate for Vmax” has no defined value. Km is defined the other way round — the substrate that gives half the VELOCITY.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-028C50A610B2A2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Km is the substrate concentration giving half Vmax and reject the corrupted paraphrase.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 13, page 46; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Distractors B and D are the two standard Km misstatements; the concept fixes Km as the substrate concentration for half Vmax.
+---
+# Item
+## id
+QST-102-INT-MCQ-032
+## title
+The catalytic efficiency of two different enzymes can be compared by the:
+## question
+The catalytic efficiency of two different enzymes can be compared by the:
+## vignette
+To rank two enzymes for how readily they act on their substrate, one parameter is the standard yardstick.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Formation of the product
+## explanation_a
+That both enzymes make product tells you nothing about which does so more readily; every working enzyme forms product. It is not a comparative measure of affinity or efficiency.
+## answer_b
+Km value
+## explanation_b
+Correct. Km compares the substrate affinity of two enzymes: the enzyme with the lower Km reaches half-maximal velocity at lower substrate and so binds its substrate more effectively. That is why Km is the standard comparator, as the concept states.
+## answer_c
+Molecular size of the enzymes
+## explanation_c
+Molecular size does not track catalytic efficiency — small and large enzymes can be equally or unequally efficient. Size is irrelevant to the comparison.
+## answer_d
+pH of optimum value
+## explanation_d
+Optimum pH tells you the conditions each enzyme prefers, not how efficiently it handles its substrate. Two enzymes could share an optimum pH yet differ widely in Km.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-028C50A610B2A2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Use Km as the comparator of substrate affinity between enzymes and reject size, pH and product formation.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 14, page 46; printed answer key = b.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 46. Leans on the affinity clause of the Km concept (lower Km = higher affinity).
+---
+# Item
+## id
+QST-102-INT-MCQ-033
+## title
+Blocking the enzyme action by occupying its active site is called:
+## question
+Blocking the enzyme action by occupying its active site is called:
+## vignette
+Inhibitors are named by where and how they act. This item asks for the term when the block is at the active site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Non-competitive inhibition
+## explanation_a
+A non-competitive inhibitor binds a site OTHER than the active site, so it is not defeated by adding substrate. The stem specifies the active site, which points to competitive inhibition instead.
+## answer_b
+Allosteric inhibition
+## explanation_b
+Allosteric inhibition also acts away from the active site, at a regulatory site, changing the enzyme’s shape. It is not the active-site block the stem describes.
+## answer_c
+Competitive inhibition
+## explanation_c
+Correct. When the inhibitor occupies the active site itself — because it resembles the substrate — it is a competitive inhibitor. The concept ties competitive inhibition to active-site occupancy by a substrate look-alike.
+## answer_d
+Feedback inhibition
+## explanation_d
+Feedback inhibition names WHERE in a pathway an inhibitor acts (an end product switching off an earlier step), not the active-site mechanism. That end product is usually an allosteric, not active-site, inhibitor.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name active-site occupancy by a substrate-like molecule as competitive inhibition.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 17, page 47; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47. The active-site occupancy clause is central to the competitive-inhibition concept.
+---
+# Item
+## id
+QST-102-INT-MCQ-034
+## title
+Enzyme inhibition caused by a substance resembling the substrate molecule is called:
+## question
+Enzyme inhibition caused by a substance resembling the substrate molecule is called:
+## vignette
+Structural resemblance to the substrate is the signature of one class of inhibitor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Allosteric inhibition
+## explanation_a
+Allosteric inhibitors need not resemble the substrate at all; they bind a separate regulatory site by their own shape. Resemblance to the substrate is not their defining feature.
+## answer_b
+Competitive inhibition
+## explanation_b
+Correct. A molecule that resembles the substrate closely enough to fit the active site competes with the substrate for that site — competitive inhibition. Substrate mimicry is exactly the clause the concept uses to define it.
+## answer_c
+Feedback inhibition
+## explanation_c
+Feedback inhibition describes a pathway end product shutting down an upstream enzyme; the inhibitor there resembles the end product, not the substrate of the enzyme it blocks.
+## answer_d
+Non-competitive inhibition
+## explanation_d
+A non-competitive inhibitor binds away from the active site and does not resemble the substrate. Structural mimicry is the hallmark of the competitive type instead.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Link substrate resemblance to competitive inhibition.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 18, page 47; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47. Same concept as item 33, asked from the substrate-resemblance side; kept because the two phrasings catch different errors.
+---
+# Item
+## id
+QST-102-INT-MCQ-035
+## title
+A competitive inhibitor:
+## question
+A competitive inhibitor:
+## vignette
+Competitive inhibition has a precise kinetic fingerprint on Km and Vmax. This item tests that fingerprint.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Increases the Km of the enzyme
+## explanation_a
+Correct. A competitive inhibitor raises the apparent Km — more substrate is now needed to reach half-maximal velocity because inhibitor and substrate compete for the active site. Vmax is unchanged, since enough substrate still out-competes the inhibitor. The concept states exactly this: higher apparent Km, untouched Vmax.
+## answer_b
+Decreases the Vmax of the enzyme
+## explanation_b
+Lowering Vmax is the fingerprint of a NON-competitive inhibitor, which removes functional enzyme regardless of substrate. A competitive inhibitor leaves Vmax intact because saturating substrate overcomes it.
+## answer_c
+Increases the Vmax of the enzyme
+## explanation_c
+No inhibitor increases Vmax — inhibition can only reduce or leave activity unchanged. This option confuses inhibition with activation.
+## answer_d
+Decreases the Km of the enzyme
+## explanation_d
+A competitive inhibitor raises, not lowers, Km. Decreasing Km would mean tighter substrate binding, the opposite of what competition for the active site produces.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a competitive inhibitor raises apparent Km while leaving Vmax unchanged.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 19, page 47; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 47 (trailing OCR fragment “mum Enzymes 44” on option D was a running footer, dropped). The Km-up / Vmax-unchanged signature is the crux of the concept.
+---
+# Item
+## id
+QST-102-INT-MCQ-036
+## title
+An allosteric effector influences enzyme activity by:
+## question
+An allosteric effector influences enzyme activity by:
+## vignette
+Allosteric regulation is defined by where the effector binds and what that binding does to the protein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Covalently modifying the enzyme
+## explanation_a
+Covalent modification (such as phosphorylation) is a separate regulatory mechanism. An allosteric effector binds non-covalently and reversibly; it does not form a covalent bond with the enzyme.
+## answer_b
+Binding to the substrate and altering its conformation
+## explanation_b
+An allosteric effector binds the ENZYME, not the substrate. Altering the substrate’s conformation is not the mechanism; changing the enzyme’s conformation is.
+## answer_c
+Competing for the catalytic site with substrate
+## explanation_c
+Competing for the catalytic site describes a competitive inhibitor. The defining feature of an allosteric effector is that it acts at a DIFFERENT site, not the active site.
+## answer_d
+Binding to a site on the enzyme distinct from the catalytic site
+## explanation_d
+Correct. An allosteric effector binds a regulatory site distinct from the active site and changes activity by inducing a conformational change in the protein. That distinct-site, conformational mechanism is precisely the concept’s definition.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-6BBAC69900B22F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe allosteric action as binding a site distinct from the active site to produce a conformational change.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 20, page 48; printed answer key = d.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Distractor C is the deliberate competitive-inhibition confusion the allosteric concept is meant to separate.
+---
+# Item
+## id
+QST-102-INT-MCQ-037
+## title
+Which of the following represents irreversible enzyme inhibition?
+## question
+Which of the following represents irreversible enzyme inhibition?
+## vignette
+Some inhibitors bind and let go; others disable the enzyme for good. This item asks for an example of the permanent kind.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Statins
+## explanation_a
+Statins reversibly inhibit HMG-CoA reductase; they are competitive, substrate-like inhibitors that bind and release, not permanent poisons. So they are not an example of irreversible inhibition.
+## answer_b
+Allopurinol
+## explanation_b
+Allopurinol inhibits xanthine oxidase; it acts reversibly (its oxidised product binds tightly but the classic teaching contrasts it with true irreversible poisons). It is not the intended answer for permanent inhibition.
+## answer_c
+Mercury
+## explanation_c
+Correct. Mercury and other heavy-metal salts inhibit irreversibly by combining with free sulfhydryl (–SH) groups on the enzyme, permanently disabling it. The concept names heavy-metal binding to sulfhydryl groups as the model of irreversible inhibition.
+## answer_d
+Sulfonamides
+## explanation_d
+Sulfonamides are competitive, reversible inhibitors — they mimic PABA and block bacterial folate synthesis, releasing when PABA rises. Reversible, not irreversible.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-42EE1863F04920
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a heavy-metal poison as an irreversible inhibitor and separate it from reversible drug inhibitors.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 21, page 48; printed answer key = c.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. The mercury/sulfhydryl mechanism is stated in the irreversible-inhibition concept; the three drug distractors are all reversible inhibitors.
+---
+# Item
+## id
+QST-102-INT-MCQ-038
+## title
+A zymogen or proenzyme is:
+## question
+A zymogen or proenzyme is:
+## vignette
+Some enzymes are made in an off state and switched on later. This item asks what that off form is.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+A hormone
+## explanation_a
+A hormone is a signalling molecule, not an inactive enzyme. A zymogen may be activated in response to signals, but it is itself an enzyme-in-waiting, not the signal.
+## answer_b
+A vitamin
+## explanation_b
+A vitamin is a micronutrient, often the source of a coenzyme. It is unrelated to the definition of a zymogen as an inactive enzyme form.
+## answer_c
+An enzyme precursor
+## explanation_c
+Correct. A zymogen (proenzyme) is an inactive precursor of an enzyme, switched on by proteolytic removal of the part of the chain that masks its active site. That precursor definition is exactly the concept.
+## answer_d
+A modulator
+## explanation_d
+A modulator adjusts an enzyme’s activity (as an allosteric effector does). A zymogen is not a modulator; it is the enzyme itself before activation.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define a zymogen as an inactive enzyme precursor.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 23, page 48; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Straight statement of the zymogen concept’s core definition.
+---
+# Item
+## id
+QST-102-INT-MCQ-039
+## title
+An example of a pro-enzyme is:
+## question
+An example of a pro-enzyme is:
+## vignette
+Having defined a zymogen, this item asks which of four names is one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pepsinogen
+## explanation_a
+Correct. Pepsinogen is the inactive precursor secreted by gastric chief cells; acid and autocatalysis cleave it to active pepsin. The “-ogen” suffix flags the zymogen, and pepsinogen is the concept’s worked example.
+## answer_b
+Trypsin
+## explanation_b
+Trypsin is the ACTIVE enzyme; its zymogen is trypsinogen. Picking trypsin selects the product of activation rather than the precursor the stem asks for.
+## answer_c
+Chymotrypsin
+## explanation_c
+Chymotrypsin is likewise the active form; its precursor is chymotrypsinogen. Same error as trypsin — the active enzyme, not the proenzyme.
+## answer_d
+Lysine
+## explanation_d
+Lysine is an amino acid, not an enzyme at all, let alone a proenzyme. It is the odd-one-out distractor.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise pepsinogen as a zymogen and distinguish it from the active enzymes and the amino acid distractor.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 24, page 48; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. Pepsinogen→pepsin is the example named in the zymogen concept; trypsin/chymotrypsin are the active-form traps.
+---
+# Item
+## id
+QST-102-INT-MCQ-040
+## title
+Phosphorylation / dephosphorylation of enzymes:
+## question
+Phosphorylation / dephosphorylation of enzymes:
+## vignette
+Reversible covalent modification is a major on/off switch in metabolism. This item tests its specifics.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Occurs on specific serine and threonine residues
+## explanation_a
+Correct. A protein kinase attaches phosphate to specific serine, threonine (and sometimes tyrosine) residues; a phosphatase removes it. The concept identifies these hydroxyl-bearing residues as the sites of the modification.
+## answer_b
+Is a non-covalent type of modification
+## explanation_b
+Phosphorylation forms a covalent phosphoester bond to the residue’s hydroxyl group — it is a covalent modification, not a non-covalent interaction. This option contradicts the mechanism.
+## answer_c
+Is an irreversible type of modification
+## explanation_c
+It is reversible: kinase adds the phosphate, phosphatase takes it off, which is what makes it usable as a rapid on/off switch. “Irreversible” is the trap that confuses it with proteolytic activation.
+## answer_d
+Does not affect the enzyme’s catalytic activity
+## explanation_d
+The whole point of the modification is that it changes activity — switching an enzyme on or off depending on which enzyme it is. Saying it has no effect denies its regulatory role.
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## main_concept
+CON-FND-6A58FA1680290F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+68
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that enzyme phosphorylation is a reversible covalent modification on serine and threonine residues that changes activity.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Enzymes, printed MCQ 25, page 48; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 48. The serine/threonine, covalent, reversible clauses are all in the covalent-modification concept.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-041
+## title
+Proteins are:
+## question
+Proteins are:
+## vignette
+Before their building blocks, this item asks what proteins are as a class of molecule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Organic compounds with low molecular weight
+## explanation_a
+Proteins are organic, but not of low molecular weight. They are polymers of many amino acids, so their masses run from thousands to millions of daltons — the opposite of a small molecule.
+## answer_b
+Organic compounds with high molecular weight
+## explanation_b
+Correct. Proteins are carbon-based (organic) macromolecules built by joining amino acids through peptide bonds, giving large molecular weights that rise with chain length.
+## answer_c
+Inorganic compounds with low molecular weight
+## explanation_c
+Proteins are carbon-containing, so they are organic, not inorganic; and being polymers, they are large, not low in molecular weight. Both halves of this option are wrong.
+## answer_d
+Inorganic compounds with high molecular weight
+## explanation_d
+The molecular weight is high, which is right, but proteins are organic — built on a carbon backbone — so calling them inorganic misclassifies them.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+82
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that proteins are organic macromolecules of high molecular weight built from amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 1, page 25; printed answer key = b.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-042
+## title
+Synthesis of proteins commonly requires:
+## question
+Synthesis of proteins commonly requires:
+## vignette
+This item asks how many different amino acids the body draws on to build its proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+100 different amino acids
+## explanation_a
+Hundreds of amino acids exist in nature, but only a fixed set is used to build proteins. One hundred overstates the number the ribosome assembles.
+## answer_b
+300 different amino acids
+## explanation_b
+This is far above the count used in protein synthesis. Non-protein amino acids are numerous, but they are not the ones read from the genetic code.
+## answer_c
+20 different amino acids
+## explanation_c
+Correct. Twenty standard amino acids are specified by the genetic code and used by the ribosome to build proteins; every protein is a sequence drawn from this set.
+## answer_d
+30 different amino acids
+## explanation_d
+Close to the correct order of magnitude but still wrong — the standard set the genetic code encodes is twenty, not thirty.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+83
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that twenty standard amino acids are used to synthesise proteins.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 2, page 25; printed answer key = c.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-043
+## title
+Which of the following is an example of α-amino acids?
+## question
+Which of the following is an example of α-amino acids?
+## vignette
+An α-amino acid carries its amino group on the carbon next to the carboxyl group. This item asks which of the four is a true α-amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Phenylalanine
+## explanation_a
+Correct. Phenylalanine has its amino group on the α-carbon, the carbon adjacent to the carboxyl group — the defining arrangement of an α-amino acid, shared by the standard protein amino acids.
+## answer_b
+Proline
+## explanation_b
+Proline is an imino acid, not a true amino acid: its nitrogen is part of a ring and forms a secondary amine (imino) group rather than a free α-amino group.
+## answer_c
+Hydroxyproline
+## explanation_c
+Like proline, hydroxyproline carries a ring nitrogen and is classed as an imino acid; it is proline hydroxylated in collagen, not a free α-amino acid.
+## answer_d
+Glutathione
+## explanation_d
+Glutathione is a tripeptide (γ-glutamyl-cysteinyl-glycine), not a single amino acid, so it cannot be an example of an α-amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+66
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a true α-amino acid and distinguish it from imino acids and peptides.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 3, page 25; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "o amino acids"; the printed word is "α (alpha) amino acids", restored here.
+---
+# Item
+## id
+QST-102-INT-MCQ-044
+## title
+Which of the following is an imino acid?
+## question
+Which of the following is an imino acid?
+## vignette
+One of the twenty standard building blocks has its nitrogen locked in a ring, making it an imino rather than an amino acid. This item asks which.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Alanine
+## explanation_a
+Alanine is a simple neutral aliphatic amino acid with a free α-amino group; its nitrogen is not part of any ring, so it is not an imino acid.
+## answer_b
+Glutamate
+## explanation_b
+Glutamate is an acidic amino acid with a free α-amino group and a side-chain carboxyl; it has no ring nitrogen and is not an imino acid.
+## answer_c
+Proline
+## explanation_c
+Correct. Proline's side chain loops back onto its own α-nitrogen, forming a ring so the nitrogen is a secondary (imino) group — which is why proline is called an imino acid.
+## answer_d
+Serine
+## explanation_d
+Serine is a neutral amino acid with a hydroxyl side chain and a free α-amino group; nothing about it makes it an imino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify proline as the imino acid among the standard amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 4, page 25; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-045
+## title
+Amino acids can be classified by:
+## question
+Amino acids can be classified by:
+## vignette
+This item asks which of the listed schemes is a real basis for classifying amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Physical classification
+## explanation_a
+Amino acids are not grouped by a general 'physical' scheme. The standard schemes are chemical (by side-chain group), nutritional and metabolic — physical is not one of them.
+## answer_b
+Pathological classification
+## explanation_b
+There is no 'pathological' classification of amino acids. Disease can result from amino-acid disorders, but that does not make pathology a way of sorting the amino acids themselves.
+## answer_c
+Chemical classification
+## explanation_c
+Correct. Amino acids are classified chemically by the nature of their side chain — aliphatic, aromatic, heterocyclic, acidic, basic, and so on — one of the standard classification schemes.
+## answer_d
+Quantitative classification
+## explanation_d
+Amino acids are not sorted by quantity. A 'quantitative' scheme is not among the recognised bases, which are chemical, nutritional (essential/non-essential) and metabolic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise chemical structure as a basis for classifying amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 5, page 25; printed answer key = c.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-046
+## title
+Histidine is an example of:
+## question
+Histidine is an example of:
+## vignette
+Histidine's side chain carries a nitrogen-containing ring. This item asks which chemical class that places it in.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Aromatic amino acid
+## explanation_a
+The aromatic amino acids are phenylalanine, tyrosine and tryptophan, whose side chains carry a benzene or indole ring. Histidine's ring contains nitrogen, so it is grouped as heterocyclic rather than plainly aromatic.
+## answer_b
+Heterocyclic amino acid
+## explanation_b
+Correct. Histidine's side chain is an imidazole ring, a five-membered ring containing two nitrogen atoms; a ring built from more than one kind of atom makes it a heterocyclic amino acid.
+## answer_c
+Branched chain amino acid
+## explanation_c
+The branched-chain amino acids are valine, leucine and isoleucine, with branched aliphatic side chains. Histidine's side chain is a ring, not a branched hydrocarbon.
+## answer_d
+Non-branched chain amino acid
+## explanation_d
+This describes straight aliphatic side chains such as glycine or alanine. Histidine carries a ring, so it is neither branched nor a simple non-branched aliphatic amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+64
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify histidine as a heterocyclic amino acid by its imidazole side chain.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 7, page 25; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-047
+## title
+Valine is:
+## question
+Valine is:
+## vignette
+This item asks for the chemical class of valine, one of the three branched-chain amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Aliphatic branched amino acid
+## explanation_a
+Correct. Valine's side chain is an isopropyl group — a short carbon chain that branches — making it an aliphatic, branched-chain amino acid alongside leucine and isoleucine.
+## answer_b
+Aliphatic non-branched amino acid
+## explanation_b
+Valine is aliphatic, but its side chain branches at the β-carbon; non-branched aliphatic amino acids such as glycine or alanine have straight side chains.
+## answer_c
+Aromatic amino acid
+## explanation_c
+Aromatic amino acids carry a benzene or indole ring (phenylalanine, tyrosine, tryptophan). Valine's side chain is a small branched hydrocarbon with no ring.
+## answer_d
+Heterocyclic amino acid
+## explanation_d
+Heterocyclic amino acids such as histidine or tryptophan have a ring containing atoms other than carbon. Valine has no ring at all.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify valine as a branched-chain aliphatic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 9, page 26; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-048
+## title
+Which of the following amino acids contains a hydroxyl group?
+## question
+Which of the following amino acids contains a hydroxyl group?
+## vignette
+One of these side chains carries an –OH group. This item asks which amino acid is the hydroxyl-containing one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Arginine
+## explanation_a
+Arginine's side chain ends in a guanidinium group rich in nitrogen, which makes it basic — there is no hydroxyl group on it.
+## answer_b
+Serine
+## explanation_b
+Correct. Serine's side chain is a hydroxymethyl group (–CH2OH), so it carries a hydroxyl group; this –OH is also the site that can be phosphorylated.
+## answer_c
+Cysteine
+## explanation_c
+Cysteine's side chain carries a thiol (–SH) group, not a hydroxyl. The sulfur is what lets it form disulfide bonds.
+## answer_d
+Methionine
+## explanation_d
+Methionine's side chain contains sulfur in a thioether linkage; it has no hydroxyl group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+77
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify serine as a hydroxyl-containing amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 10, page 26; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "hydroxy]"; restored to "hydroxyl".
+---
+# Item
+## id
+QST-102-INT-MCQ-049
+## title
+An amino acid containing a hydroxyl group is:
+## question
+An amino acid containing a hydroxyl group is:
+## vignette
+This item again asks for a hydroxyl-bearing amino acid, from a different set of options.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Threonine
+## explanation_a
+Correct. Threonine's side chain carries a hydroxyl group on a branched carbon; together with serine it makes up the pair of hydroxyl-containing amino acids that can be phosphorylated.
+## answer_b
+Methionine
+## explanation_b
+Methionine's side chain contains sulfur in a thioether, not a hydroxyl group.
+## answer_c
+Glutathione
+## explanation_c
+Glutathione is a tripeptide, not a single amino acid, so it is not the answer to a question about which amino acid carries a hydroxyl group.
+## answer_d
+Hydroxyproline
+## explanation_d
+Hydroxyproline does carry a hydroxyl, but it is an imino acid formed by modifying proline in collagen, not one of the standard hydroxyl amino acids the department pairs (serine and threonine); threonine is the intended answer.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+63
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify threonine as a hydroxyl-containing standard amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 11, page 26; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "hydroxyl]"; restored to "hydroxyl".
+---
+# Item
+## id
+QST-102-INT-MCQ-050
+## title
+Which of the following amino acids contains a sulfur atom?
+## question
+Which of the following amino acids contains a sulfur atom?
+## vignette
+Two standard amino acids carry sulfur. This item asks which of the four listed is one of them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Serine
+## explanation_a
+Serine's side chain is a hydroxymethyl group; it carries oxygen in an –OH, not sulfur.
+## answer_b
+Threonine
+## explanation_b
+Threonine carries a hydroxyl group on its side chain, not a sulfur atom.
+## answer_c
+Methionine
+## explanation_c
+Correct. Methionine's side chain contains a sulfur atom in a thioether linkage; with cysteine it is one of the two sulfur-containing amino acids.
+## answer_d
+Aspartate
+## explanation_d
+Aspartate is an acidic amino acid with a side-chain carboxyl group; it contains no sulfur.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify methionine as a sulfur-containing amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 12, page 26; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-051
+## title
+An amino acid containing an acidic group is:
+## question
+An amino acid containing an acidic group is:
+## vignette
+This item asks for the amino acid whose side chain carries a second, acidic carboxyl group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Arginine
+## explanation_a
+Arginine's side chain is basic, carrying a nitrogen-rich guanidinium group — the opposite of an acidic side chain.
+## answer_b
+Glycine
+## explanation_b
+Glycine's side chain is a single hydrogen atom; it is neutral, with no extra acidic group.
+## answer_c
+Pyruvate
+## explanation_c
+Pyruvate is a keto acid intermediate of metabolism, not an amino acid, so it cannot answer a question about amino-acid side chains.
+## answer_d
+Aspartate
+## explanation_d
+Correct. Aspartate's side chain carries a carboxyl group that ionises to a negative charge, making it one of the two acidic amino acids alongside glutamate.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify aspartate as an acidic amino acid by its side-chain carboxyl group.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 14, page 26; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-052
+## title
+An amino acid containing a basic group is:
+## question
+An amino acid containing a basic group is:
+## vignette
+This item asks for the amino acid whose side chain carries an extra nitrogen-containing basic group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lysine
+## explanation_a
+Correct. Lysine's side chain ends in an ε-amino group that accepts a proton and carries a positive charge, making it a basic amino acid together with arginine and histidine.
+## answer_b
+Proline
+## explanation_b
+Proline is an imino acid with a ring side chain; it has no extra basic group.
+## answer_c
+Glycine
+## explanation_c
+Glycine's side chain is one hydrogen atom, so it is neutral, not basic.
+## answer_d
+Alanine
+## explanation_d
+Alanine's side chain is a simple methyl group; it is neutral aliphatic, with no basic group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify lysine as a basic amino acid by its side-chain amino group.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 15, page 27; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-053
+## title
+An amino acid containing an aromatic ring is:
+## question
+An amino acid containing an aromatic ring is:
+## vignette
+This item asks which amino acid carries a true aromatic (benzene-type) ring in its side chain.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Histidine
+## explanation_a
+Histidine carries an imidazole ring, but that ring contains nitrogen, so it is classed as heterocyclic rather than a plain aromatic amino acid.
+## answer_b
+Proline
+## explanation_b
+Proline's ring is a saturated pyrrolidine ring with no aromatic character; it is an imino acid, not an aromatic one.
+## answer_c
+Alanine
+## explanation_c
+Alanine's side chain is a small methyl group with no ring at all.
+## answer_d
+Phenylalanine
+## explanation_d
+Correct. Phenylalanine's side chain is a benzyl group carrying a benzene ring, making it one of the aromatic amino acids alongside tyrosine and tryptophan.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify phenylalanine as an aromatic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 16, page 27; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-054
+## title
+An example of a heterocyclic amino acid is:
+## question
+An example of a heterocyclic amino acid is:
+## vignette
+A heterocyclic amino acid has a ring containing an atom other than carbon. This item asks which of the four fits.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Histidine
+## explanation_a
+Correct. Histidine's side chain is an imidazole ring containing two nitrogen atoms; a ring built from more than one kind of atom makes it heterocyclic.
+## answer_b
+Cysteine
+## explanation_b
+Cysteine carries a thiol side chain with no ring; it is a sulfur-containing amino acid, not a heterocyclic one.
+## answer_c
+Tyrosine
+## explanation_c
+Tyrosine's ring is a benzene ring bearing a hydroxyl — an aromatic side chain of carbon only, so it is aromatic rather than heterocyclic.
+## answer_d
+Methionine
+## explanation_d
+Methionine has a straight sulfur-containing side chain with no ring at all.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+66
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify histidine as a heterocyclic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 17, page 27; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-055
+## title
+Serine is an amino acid with:
+## question
+Serine is an amino acid with:
+## vignette
+This item asks how serine's side chain is classed on the polarity scheme.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Non-polar group
+## explanation_a
+Serine's hydroxyl side chain is polar and can hydrogen-bond with water, so it is not non-polar.
+## answer_b
+Uncharged polar group
+## explanation_b
+Correct. Serine's –OH side chain is polar and forms hydrogen bonds but carries no charge at physiological pH, placing it among the uncharged (neutral) polar amino acids.
+## answer_c
+Charged polar group
+## explanation_c
+Charged polar side chains are the acidic (aspartate, glutamate) and basic (lysine, arginine, histidine) ones. Serine's hydroxyl is polar but neutral, not charged.
+## answer_d
+Hydrophobic group
+## explanation_d
+Hydrophobic side chains are the non-polar ones such as valine or leucine. Serine's hydroxyl makes it hydrophilic, not hydrophobic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-327EF635E45CB6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+65
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify serine as an uncharged polar amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 18, page 27; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-056
+## title
+Arginine is:
+## question
+Arginine is:
+## vignette
+This item asks how arginine's strongly basic side chain is classed on the polarity scheme.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+An amino acid with an uncharged polar group
+## explanation_a
+Uncharged polar side chains, such as serine's hydroxyl, are neutral. Arginine's guanidinium group takes up a proton and carries a positive charge, so it is not uncharged.
+## answer_b
+An amino acid with a charged polar group
+## explanation_b
+Correct. Arginine's guanidinium side chain is protonated and positively charged at physiological pH, placing it among the charged polar (basic) amino acids.
+## answer_c
+An amino acid with a non-polar group
+## explanation_c
+Non-polar side chains are hydrocarbon-like and hydrophobic. Arginine's nitrogen-rich, charged side chain is strongly polar, the opposite of non-polar.
+## answer_d
+An amino acid with a hydrophobic group
+## explanation_d
+Arginine's charged guanidinium group is highly hydrophilic and interacts strongly with water, so it is not hydrophobic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-327EF635E45CB6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+65
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify arginine as a charged polar (basic) amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 19, page 27; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-057
+## title
+Amino acids are nutritionally classified into:
+## question
+Amino acids are nutritionally classified into:
+## vignette
+This item asks for the categories of the nutritional classification of amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Essential, non-essential, and half-essential amino acids
+## explanation_a
+Correct. The nutritional scheme sorts amino acids by whether the diet must supply them: essential (must be eaten), non-essential (the body can make them) and half- (semi-) essential.
+## answer_b
+Ketogenic, glucogenic, and mixed amino acids
+## explanation_b
+This is the metabolic classification, based on whether an amino acid's carbon skeleton yields ketone bodies or glucose — not the nutritional one.
+## answer_c
+Aliphatic, aromatic, and heterocyclic amino acids
+## explanation_c
+This is the chemical classification, based on side-chain structure, not on dietary need.
+## answer_d
+Non-polar, uncharged polar, and charged polar amino acids
+## explanation_d
+This is the polarity-based classification, which describes how side chains interact with water, not a nutritional grouping.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-D0EDFFF1477094
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the three categories of the nutritional classification of amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 20, page 27; printed answer key = a.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-058
+## title
+Valine is:
+## question
+Valine is:
+## vignette
+This item asks where valine falls on the nutritional (dietary) classification.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Essential amino acid
+## explanation_a
+Correct. Valine cannot be synthesised by the body and must be supplied by the diet, so it is an essential amino acid — one of the branched-chain essentials with leucine and isoleucine.
+## answer_b
+Non-essential amino acid
+## explanation_b
+Non-essential amino acids are those the body can make for itself, such as alanine or glycine. Valine cannot be synthesised, so it is not non-essential.
+## answer_c
+Semi-essential amino acid
+## explanation_c
+The semi- (half-) essential amino acids are arginine and histidine, needed extra during growth. Valine is fully essential, required from the diet throughout life.
+## answer_d
+Mixed amino acid
+## explanation_d
+'Mixed' belongs to the metabolic classification (both glucogenic and ketogenic), not the nutritional one, so it does not describe valine's dietary status.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-D0EDFFF1477094
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+77
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify valine as an essential amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 21, page 27; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27. This item tests nutritional class; MCQ-001-style items test chemical class.
+---
+# Item
+## id
+QST-102-INT-MCQ-059
+## title
+Proteins containing all the essential amino acids have:
+## question
+Proteins containing all the essential amino acids have:
+## vignette
+Dietary proteins differ in how completely they supply the essential amino acids. This item asks what a complete protein is said to have.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+High biological value
+## explanation_a
+Correct. A protein that supplies all the essential amino acids in adequate amounts is a complete protein of high biological value — animal proteins such as egg and milk are the classic examples.
+## answer_b
+Moderate biological value
+## explanation_b
+Moderate value describes proteins short in one or more essential amino acids. A protein carrying the full set is high, not moderate, value.
+## answer_c
+Low biological value
+## explanation_c
+Low biological value describes incomplete proteins, typically plant proteins lacking one or more essential amino acids — the opposite of a protein that contains them all.
+## answer_d
+Low molecular weight
+## explanation_d
+Biological value reflects amino-acid completeness, not size. Containing all the essential amino acids says nothing about molecular weight.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-F7B968019AB64C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Relate a complete essential-amino-acid profile to high biological value of a protein.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 23, page 28; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-060
+## title
+Amino acids are classified metabolically into:
+## question
+Amino acids are classified metabolically into:
+## vignette
+This item asks for the categories of the metabolic classification of amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Ketogenic, glucogenic, and mixed amino acids
+## explanation_a
+Correct. The metabolic scheme sorts amino acids by the fate of their carbon skeleton: ketogenic (to ketone bodies/acetyl-CoA), glucogenic (to glucose precursors) and mixed (both).
+## answer_b
+Acidic, alkaline, and neutral amino acids
+## explanation_b
+Acidic/basic/neutral describes side-chain charge under the chemical classification, not the metabolic fate of the carbon skeleton.
+## answer_c
+Aliphatic, aromatic, and heterocyclic amino acids
+## explanation_c
+This is the chemical classification by side-chain structure, not a metabolic grouping.
+## answer_d
+Essential, non-essential, and semi-essential amino acids
+## explanation_d
+This is the nutritional classification, based on dietary need, not on whether the carbon skeleton yields glucose or ketone bodies.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the three categories of the metabolic classification of amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 25, page 28; printed answer key = a.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-061
+## title
+Lysine is:
+## question
+Lysine is:
+## vignette
+This item asks for the metabolic class of lysine, whose carbon skeleton has a single fate.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pure ketogenic amino acid
+## explanation_a
+Correct. Lysine's carbon skeleton is degraded only to acetyl-CoA/acetoacetate and cannot form glucose, so it is one of the two purely ketogenic amino acids (with leucine).
+## answer_b
+Pure glucogenic amino acid
+## explanation_b
+Glucogenic amino acids yield glucose precursors such as pyruvate or citric-acid-cycle intermediates. Lysine cannot form glucose, so it is not glucogenic.
+## answer_c
+Pure galactogenic amino acid
+## explanation_c
+'Galactogenic' is not a metabolic class of amino acids; the categories are glucogenic, ketogenic and mixed.
+## answer_d
+Glucogenic and ketogenic amino acid
+## explanation_d
+Mixed amino acids such as phenylalanine yield both glucose and ketone bodies. Lysine gives only ketogenic products, so it is not mixed.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+62
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify lysine as a purely ketogenic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 26, page 28; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-062
+## title
+Phenylalanine is:
+## question
+Phenylalanine is:
+## vignette
+This item asks for the metabolic class of phenylalanine, whose carbon skeleton has two fates.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pure galactogenic amino acid
+## explanation_a
+'Galactogenic' is not a real metabolic class of amino acids; the categories are glucogenic, ketogenic and mixed.
+## answer_b
+Pure glucogenic amino acid
+## explanation_b
+Phenylalanine does yield the glucose precursor fumarate, but it also yields acetoacetate, so it is not purely glucogenic.
+## answer_c
+Pure ketogenic amino acid
+## explanation_c
+Phenylalanine yields the ketogenic product acetoacetate, but it also yields fumarate, a glucose precursor, so it is not purely ketogenic.
+## answer_d
+Glucogenic and ketogenic amino acid
+## explanation_d
+Correct. Phenylalanine (via tyrosine) is broken down to both fumarate (glucogenic) and acetoacetate (ketogenic), making it a mixed amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+61
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify phenylalanine as a mixed (glucogenic and ketogenic) amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 27, page 28; printed answer key = d.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-063
+## title
+Amino acid is:
+## question
+An amino acid is:
+## vignette
+Amino acids are amphoteric — their net charge depends on the pH of the medium. This item asks how the charge behaves in acidic conditions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Positively charged in acidic medium
+## explanation_a
+Correct. In an acidic (low-pH) medium, excess protons keep the amino group protonated and suppress carboxyl ionisation, so the amino acid carries a net positive charge and migrates to the cathode.
+## answer_b
+Positively charged in alkaline medium
+## explanation_b
+In an alkaline medium the carboxyl group is deprotonated and the amino group loses its proton, so the amino acid is net negative, not positive.
+## answer_c
+Negatively charged in acidic medium
+## explanation_c
+A net negative charge appears in alkaline, not acidic, conditions. In acid the molecule gains protons and is positive.
+## answer_d
+Uncharged in alkaline medium
+## explanation_d
+At high pH an amino acid carries a net negative charge; it is uncharged only at its isoelectric point, not in an alkaline medium.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+62
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that an amino acid is positively charged in an acidic medium.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 28, page 28; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-064
+## title
+The isoelectric point (IEP) of all monoamino-monocarboxylic amino acids is at pH:
+## question
+The isoelectric point (IEP) of all monoamino-monocarboxylic amino acids is at pH:
+## vignette
+At the isoelectric point an amino acid carries no net charge. This item asks for the approximate IEP of the simple monoamino-monocarboxylic amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+10.02
+## explanation_a
+A pH near 10 is the isoelectric region of basic amino acids such as lysine, not of the neutral monoamino-monocarboxylic ones.
+## answer_b
+6.02
+## explanation_b
+Correct. For a simple monoamino-monocarboxylic amino acid the isoelectric point is about 6, the average of the α-carboxyl and α-amino pKa values, where the zwitterion carries no net charge.
+## answer_c
+2.02
+## explanation_c
+A pH near 2–3 is the isoelectric region of acidic amino acids such as aspartate, whose extra carboxyl lowers the IEP, not that of the neutral amino acids.
+## answer_d
+30.02
+## explanation_d
+A pH of 30 is outside the possible pH scale and cannot be an isoelectric point.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the isoelectric point of neutral (monoamino-monocarboxylic) amino acids is about 6.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 29, page 29; printed answer key = b.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed the stem without "is at pH"; the printed phrasing is restored for readability. Answer key = b.
+---
+# Item
+## id
+QST-102-INT-MCQ-065
+## title
+Peptide bond is formed between the carboxylic group of one amino acid:
+## question
+A peptide bond is formed between the carboxylic group of one amino acid and:
+## vignette
+This item asks which group of the next amino acid joins the carboxyl group to make a peptide bond.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+With the carboxylic group of the other
+## explanation_a
+Two carboxyl groups do not condense into a peptide bond; a peptide bond joins a carboxyl to an amino group, not carboxyl to carboxyl.
+## answer_b
+With the amino group of the other
+## explanation_b
+Correct. A peptide bond is an amide formed by condensation between the α-carboxyl group of one amino acid and the α-amino group of the next, releasing a molecule of water.
+## answer_c
+With the hydroxylic group of the other
+## explanation_c
+A carboxyl reacting with a hydroxyl would give an ester, not a peptide bond; the peptide bond forms with the amino group.
+## answer_d
+With the amidic group of the other
+## explanation_d
+The peptide bond is itself the amide (–CO–NH–) that results; it forms with the free α-amino group, not with a pre-existing amide group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-7C8A02831B3243
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a peptide bond forms between the carboxyl group of one amino acid and the amino group of the next.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 30, page 29; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 29; stem lightly repunctuated for readability.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-066
+## title
+Which of the following is an aldotriose?
+## question
+Which of the following is an aldotriose?
+## vignette
+This item asks the student to match each aldose to its carbon-count class, starting with the aldotriose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Glyceraldehyde
+## explanation_a
+Correct. Glyceraldehyde is the aldotriose — the 3-carbon aldose.
+## answer_b
+Erythrose
+## explanation_b
+Erythrose is the aldotetrose (4 carbons), one carbon longer than an aldotriose.
+## answer_c
+Ribose
+## explanation_c
+Ribose is an aldopentose (5 carbons), not a triose.
+## answer_d
+Glucose
+## explanation_d
+Glucose is an aldohexose (6 carbons), the largest of the aldoses named in this list.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match each aldose to its carbon-count class, starting with the aldotriose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p6 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-067
+## title
+Which of the following are Aldohexoses?
+## question
+Which of the following are Aldohexoses?
+## vignette
+This item asks the student to identify a pair of named aldohexoses (glucose, mannose, galactose).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Glucose and fructose
+## explanation_a
+Fructose is a ketohexose, not an aldose, so this pair mixes classes even though both sugars are hexoses.
+## answer_b
+Fructose and ribose
+## explanation_b
+Fructose is a ketohexose and ribose is an aldopentose — neither is an aldohexose, so this pair fails on both counts.
+## answer_c
+Glucose and Galactose
+## explanation_c
+Correct. Glucose, mannose and galactose are the aldohexose examples; glucose and galactose are two of the three.
+## answer_d
+Ribose and glucose
+## explanation_d
+Ribose is an aldopentose, not a hexose, so this pair fails the carbon-count test even though glucose alone qualifies.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a pair of named aldohexoses (glucose, mannose, galactose).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p6 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-068
+## title
+Which of the following is the simplest ketose?
+## question
+Which of the following is the simplest ketose?
+## vignette
+This item asks the student to name dihydroxyacetone as the simplest ketose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Erythrulose
+## explanation_a
+Erythrulose is the ketotetrose (4 carbons) — one class larger than the simplest ketose.
+## answer_b
+Ribulose
+## explanation_b
+Ribulose is the ketopentose (5 carbons), further still from the simplest ketose.
+## answer_c
+Dihydroxyacetone
+## explanation_c
+Correct. Dihydroxyacetone is the simplest ketose (C3).
+## answer_d
+Fructose
+## explanation_d
+Fructose is the ketohexose (6 carbons), the largest ketose named in this list, not the simplest.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name dihydroxyacetone as the simplest ketose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p7 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-069
+## title
+A ketohexose sugar is:
+## question
+A ketohexose sugar is:
+## vignette
+This item asks the student to identify fructose as the ketohexose example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Dihydroxyacetone
+## explanation_a
+Dihydroxyacetone is the ketotriose (3 carbons), not a hexose.
+## answer_b
+Ribulose
+## explanation_b
+Ribulose is the ketopentose (5 carbons), one carbon short of a hexose.
+## answer_c
+Fructose
+## explanation_c
+Correct. Fructose is the named example of a ketohexose.
+## answer_d
+Glucose
+## explanation_d
+Glucose is a hexose but an aldose, not a ketose — it carries its carbonyl group at C1, not C2.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify fructose as the ketohexose example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p7 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-070
+## title
+Two sugars which differ from one another only in the configuration around a single carbon atom are termed:
+## question
+Two sugars which differ from one another only in the configuration around a single carbon atom are termed:
+## vignette
+This item asks the student to recall the definition of epimers.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Epimers
+## explanation_a
+Correct. Epimers are compounds with the same molecular formula that differ only in the configuration around one carbon.
+## answer_b
+Anomers
+## explanation_b
+Anomers are specifically the alpha- and beta- forms created by cyclization at the new stereocentre, not a difference at any single carbon in general.
+## answer_c
+Optical isomers
+## explanation_c
+"Optical isomers" is not one of the four named isomer types here.
+## answer_d
+Stereoisomers
+## explanation_d
+"Stereoisomers" is a broader term than the specific, single-carbon definition of epimers — it would also describe enantiomers and anomers, so it is less precise than the option the question is testing for.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall the definition of epimers.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-071
+## title
+D- glucose and D- mannose are epimers at carbon:
+## question
+D- glucose and D- mannose are epimers at carbon:
+## vignette
+This item asks the student to recall that glucose and mannose are epimers at C2.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+l
+## explanation_a
+C2, not C1, is the point of difference between glucose and mannose.
+## answer_b
+3
+## explanation_b
+C3 is not the carbon for the glucose-mannose epimer pair; C4 is the carbon for the glucose-galactose pair instead.
+## answer_c
+2
+## explanation_c
+Correct. Glucose and mannose are epimers at C2.
+## answer_d
+5
+## explanation_d
+C5 is not a configuration named for any epimer pair in this chapter.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall that glucose and mannose are epimers at C2.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-072
+## title
+D- glucose and D- galactose are epimers at carbon:
+## question
+D- glucose and D- galactose are epimers at carbon:
+## vignette
+This item asks the student to recall that glucose and galactose are epimers at C4.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+l
+## explanation_a
+C1 is not the carbon named for either epimer pair.
+## answer_b
+2
+## explanation_b
+C2 is the carbon named for the glucose-mannose pair, not glucose-galactose.
+## answer_c
+3
+## explanation_c
+C3 is not a configuration named for any epimer pair in this chapter.
+## answer_d
+4
+## explanation_d
+Correct. Glucose and galactose are epimers at C4.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall that glucose and galactose are epimers at C4.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-073
+## title
+The sugar abundantly present in honey is:
+## question
+The sugar abundantly present in honey is:
+## vignette
+This item asks the student to name fructose as the sugar present in honey.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Maltose
+## explanation_a
+Maltose is not among the sugars present in honey; it is the disaccharide product of starch digestion.
+## answer_b
+Fructose
+## explanation_b
+Correct. Fructose ("fruit sugar") is present in honey, fruits, semen, sucrose and inulin.
+## answer_c
+Ribulose
+## explanation_c
+Ribulose is a ketopentose used as a structural example elsewhere in the chapter, not a sugar present in honey.
+## answer_d
+Lactose
+## explanation_d
+Lactose is milk sugar, formed of galactose and glucose — it is not present in honey.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-EDE6D8E401EB10
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name fructose as the sugar present in honey.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q25. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-074
+## title
+The sugar found in DNA is:
+## question
+The sugar found in DNA is:
+## vignette
+This item asks the student to name deoxyribose as the sugar of DNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Xylose
+## explanation_a
+Xylose is an aldopentose example used earlier in the chapter's carbon-count classification, not a nucleic-acid sugar.
+## answer_b
+Ribose
+## explanation_b
+Ribose is the RNA sugar, the other pentose in this pair — easy to swap with deoxyribose if the two nucleic acids aren't kept straight.
+## answer_c
+Deoxyribose
+## explanation_c
+Correct. 2-deoxyribose is a component of deoxyribonucleic acid (DNA).
+## answer_d
+Ribulose
+## explanation_d
+Ribulose is a ketopentose from the carbonyl/carbon-count classification, not a nucleic-acid sugar.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-EDE6D8E401EB10
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name deoxyribose as the sugar of DNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q26. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-075
+## title
+Sugar alcohol of glucose is:
+## question
+Sugar alcohol of glucose is:
+## vignette
+This item asks the student to match glucose to its sugar alcohol, sorbitol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Sorbitol
+## explanation_a
+Correct. Sorbitol is glucose and fructose alcohol.
+## answer_b
+Inositol
+## explanation_b
+Inositol is not named among the sugar alcohols at all.
+## answer_c
+Dulcitol
+## explanation_c
+Dulcitol is galactose alcohol, not glucose's.
+## answer_d
+Mannitol
+## explanation_d
+Mannitol is mannose alcohol, not glucose's.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match glucose to its sugar alcohol, sorbitol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-076
+## title
+In amino sugars, an amino group replaces the hydroxyl group on which carbon?
+## question
+In amino sugars, an amino group replaces the hydroxyl group on which carbon?
+## vignette
+This item asks the student to state that amino sugars are formed by replacing the C2 hydroxyl with an amino group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+First carbon
+## explanation_a
+C1 carries the carbonyl group (the aldehyde) in an aldose, not the substitution site for amino sugars.
+## answer_b
+Second carbon
+## explanation_b
+Correct. Amino sugars are sugars in which the hydroxyl group at C2 is replaced by an amino group (NH2).
+## answer_c
+Third carbon
+## explanation_c
+C3 is not the substitution site for amino sugars — it is also not the site for deoxy sugars, which use C2 as well.
+## answer_d
+Fourth carbon
+## explanation_d
+C4 is not a substitution site for any of the monosaccharide derivative classes here.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that amino sugars are formed by replacing the C2 hydroxyl with an amino group.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q38. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-077
+## title
+Reduction of monosaccharides produces:
+## question
+Reduction of monosaccharides produces:
+## vignette
+This item asks the student to state that reducing a monosaccharide's carbonyl group produces a sugar alcohol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Sugar acid
+## explanation_a
+Sugar acids form by oxidation of the primary alcohol group, the opposite chemistry to reduction.
+## answer_b
+Deoxy sugar
+## explanation_b
+Deoxy sugars form by replacing the C2 hydroxyl with hydrogen, not by reducing the carbonyl group.
+## answer_c
+Amino sugar
+## explanation_c
+Amino sugars form by replacing the C2 hydroxyl with an amino group, not by reduction.
+## answer_d
+Sugar alcohol
+## explanation_d
+Correct. Sugar alcohols are sugars in which the carbonyl group is reduced to an alcohol group.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that reducing a monosaccharide's carbonyl group produces a sugar alcohol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-078
+## title
+Which of the following is a sugar alcohol?
+## question
+Which of the following is a sugar alcohol?
+## vignette
+This item asks the student to identify mannitol as a sugar alcohol against three unmodified sugars.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Mannitol
+## explanation_a
+Correct. Mannitol is the sugar alcohol of mannose, formed by reducing mannose's carbonyl group to an alcohol group.
+## answer_b
+Fructose
+## explanation_b
+Fructose is an unmodified ketohexose, not a reduction product of any sugar.
+## answer_c
+Galactose
+## explanation_c
+Galactose is an unmodified aldohexose — its reduction product, dulcitol, would be the sugar alcohol, not galactose itself.
+## answer_d
+Ribose
+## explanation_d
+Ribose is an unmodified aldopentose — its reduction product, ribitol, would be the sugar alcohol, not ribose itself.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-38F8E2264D46B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify mannitol as a sugar alcohol against three unmodified sugars.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p10 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-079
+## title
+Sucrose hydrolysis produces:
+## question
+Sucrose hydrolysis produces:
+## vignette
+This item asks the student to state that sucrose hydrolyses to glucose and fructose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Galactose and mannose
+## explanation_a
+Neither galactose nor mannose is a component of sucrose; sucrose is built from fructose and glucose.
+## answer_b
+Glucose and fructose
+## explanation_b
+Correct. Sucrose is formed of fructose and glucose united by a glycosidic linkage, so hydrolysis returns those two monosaccharides.
+## answer_c
+Glucose and galactose
+## explanation_c
+Glucose and galactose are the hydrolysis products of lactose, not sucrose.
+## answer_d
+Glucose and mannose
+## explanation_d
+Mannose is not a component of any disaccharide named in this chapter.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that sucrose hydrolyses to glucose and fructose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q41. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-080
+## title
+One of following is a non- reducing disaccharide:
+## question
+One of following is a non- reducing disaccharide:
+## vignette
+This item asks the student to identify sucrose as the non-reducing disaccharide.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Isomaltose
+## explanation_a
+Isomaltose is not discussed as an exception to the reducing pattern; only sucrose is singled out as non-reducing.
+## answer_b
+Lactose
+## explanation_b
+Lactose is grouped with maltose as having a free carbonyl group, making it a reducing sugar.
+## answer_c
+Sucrose
+## explanation_c
+Correct. In sucrose both carbonyl carbons are involved in the linkage, so it is non-reducing.
+## answer_d
+Maltose
+## explanation_d
+Maltose is reducing, alongside lactose, because it retains a free carbonyl group.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify sucrose as the non-reducing disaccharide.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q44. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-081
+## title
+A carbohydrate formed by B 1,4-galactosidic linkages is:
+## question
+A carbohydrate formed by B 1,4-galactosidic linkages is:
+## vignette
+This item asks the student to match the beta1,4-galactosidic linkage to lactose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Maltose
+## explanation_a
+Maltose's linkage is alpha1,4-glucosidic, a glucosidic bond rather than a galactosidic one.
+## answer_b
+Cellulose
+## explanation_b
+Cellulose's linkage is beta1,4-glucosidic — the same anomeric form and position as lactose's, but glucosidic rather than galactosidic, since cellulose is built of glucose units only.
+## answer_c
+Lactose
+## explanation_c
+Correct. Lactose is galactose and glucose united by a beta1,4-galactosidic linkage.
+## answer_d
+Sucrose
+## explanation_d
+Sucrose's linkage is alpha1,2-glucosidic (beta2,1-fructosidic), not a 1,4-galactosidic bond.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match the beta1,4-galactosidic linkage to lactose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p12 q49. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-082
+## title
+Which of the following is a polymer of fructose?
+## question
+Which of the following is a polymer of fructose?
+## vignette
+This item asks the student to identify inulin as a fructan (fructose polymer).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Starch
+## explanation_a
+Starch is a glucan — a polymer of glucose, per the Glucans list.
+## answer_b
+Dextrin
+## explanation_b
+Dextrin is not discussed in the homopolysaccharide classification.
+## answer_c
+Inulin
+## explanation_c
+Correct. Inulin is a fructan, formed of fructose units, present in plants.
+## answer_d
+Cellulose
+## explanation_d
+Cellulose is a glucan — a polymer of glucose, per the Glucans list, alongside starch and glycogen.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4128FE1AD6819C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify inulin as a fructan (fructose polymer).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p12 q51. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-083
+## title
+Starch is a:
+## question
+Starch is a:
+## vignette
+This item asks the student to classify starch as a homopolysaccharide (glucan).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Homopolysaccharide
+## explanation_a
+Correct. Starch is listed among the Glucans — homopolysaccharides built entirely of glucose units.
+## answer_b
+Monosaccharide
+## explanation_b
+Starch is a large polymer of many glucose units, far from the single-unit monosaccharide class.
+## answer_c
+Disaccharide
+## explanation_c
+Starch contains far more than the two units that define a disaccharide.
+## answer_d
+Heteropolysaccharide
+## explanation_d
+Heteropolysaccharides contain more than one monosaccharide type; starch is built of glucose alone, which makes it a homopolysaccharide instead.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4706C1246E4B76
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify starch as a homopolysaccharide (glucan).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p13 q54. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-084
+## title
+Which of the following is the carbohydrate storage form in animals?
+## question
+Which of the following is the carbohydrate storage form in animals?
+## vignette
+This item asks the student to state that glycogen is the animal storage carbohydrate.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Starch
+## explanation_a
+Starch is the plant storage form, not the animal one.
+## answer_b
+Glycogen
+## explanation_b
+Correct. Glycogen is the storage form of carbohydrates in animals.
+## answer_c
+Glucose
+## explanation_c
+Glucose is the monosaccharide that glycogen is built from and stores, not the storage form itself.
+## answer_d
+Inulin
+## explanation_d
+Inulin is a plant fructan, unrelated to animal carbohydrate storage.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4706C1246E4B76
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that glycogen is the animal storage carbohydrate.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p13 q57. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-085
+## title
+Which of the following is a glycosaminoglycans?
+## question
+Which of the following is a glycosaminoglycans?
+## vignette
+This item asks the student to identify heparin as a GAG against a fructan and two amino sugars.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inulin.
+## explanation_a
+Inulin is a fructan homopolysaccharide, not a GAG.
+## answer_b
+Heparin
+## explanation_b
+Correct. Heparin is one of the sulfate-containing glycosaminoglycans.
+## answer_c
+Glucosamine
+## explanation_c
+Glucosamine is an amino sugar — a monosaccharide derivative and a building block that GAGs are made from, not a GAG itself.
+## answer_d
+Galactosamine
+## explanation_d
+Galactosamine is likewise an amino sugar, a component monosaccharide of some GAGs rather than a GAG in its own right.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-E84660F1CEC3AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify heparin as a GAG against a fructan and two amino sugars.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p14 q65. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-086
+## title
+The polysaccharide which is used to prevent blood clotting is:
+## question
+The polysaccharide which is used to prevent blood clotting is:
+## vignette
+This item asks the student to name heparin as the anticoagulant GAG.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Heparin
+## explanation_a
+Correct. Heparin proteoglycan is an important anticoagulant, preventing thrombus formation.
+## answer_b
+Keratan sulfate
+## explanation_b
+Keratan sulfate's role is corneal transparency and development, not anticoagulation.
+## answer_c
+Cellulose
+## explanation_c
+Cellulose is a structural plant homopolysaccharide, unrelated to blood clotting.
+## answer_d
+Heparan sulfate
+## explanation_d
+Heparan sulfate's role is cell membrane receptors and cell-cell interaction — a name easily confused with heparin, but a different job.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-CD24D4572D101B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name heparin as the anticoagulant GAG.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p14 q67. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-087
+## title
+Free cholesterol contains:
+## question
+Free cholesterol contains:
+## vignette
+This item asks the student to state that free cholesterol contains 27 carbon atoms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+24 carbon atoms
+## explanation_a
+24 carbon atoms is the threshold for a 'very long chain' fatty acid, not cholesterol's own carbon count.
+## answer_b
+25 carbon atoms
+## explanation_b
+25 carbon atoms is not the figure for cholesterol, which contains 27.
+## answer_c
+26 carbon atoms
+## explanation_c
+26 carbon atoms is not the figure for cholesterol, which contains 27.
+## answer_d
+27 carbon atoms
+## explanation_d
+Correct. Free cholesterol contains 27 carbon atoms.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E77FD4A4D78884
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that free cholesterol contains 27 carbon atoms.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q38. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-088
+## title
+Phosphatidic acid is present in:
+## question
+Phosphatidic acid is present in:
+## vignette
+This item asks the student to identify lecithin and cephalin as phosphatidic acid derivatives, distinct from the ceramide-based glycolipids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lecithin and cephalin
+## explanation_a
+Correct. Both lecithin (phosphatidic acid plus choline) and cephalin (phosphatidic acid plus ethanolamine) are built directly on phosphatidic acid, so it is present in both.
+## answer_b
+Lecithin and cerebrosides
+## explanation_b
+Cerebrosides are glycolipids, built from ceramide and a carbohydrate, not from phosphatidic acid at all.
+## answer_c
+Gangliosides and cephalin
+## explanation_c
+Gangliosides are glycolipids, built from ceramide and a carbohydrate radical, not from phosphatidic acid.
+## answer_d
+Lecithin and gangliosides
+## explanation_d
+Gangliosides are glycolipids built from ceramide, not phosphatidic acid, so this pairing is wrong on the gangliosides half even though lecithin is correctly a phosphatidic acid derivative.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D5D15A190D88AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify lecithin and cephalin as phosphatidic acid derivatives, distinct from the ceramide-based glycolipids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-089
+## title
+Which of the following is considered glycolipid?
+## question
+Which of the following is considered glycolipid?
+## vignette
+This item asks the student to name cerebrosides as one of the glycolipid examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Sphingomyelin
+## explanation_a
+Sphingomyelin is classed as a phospholipid (ceramide plus phosphocholine), not a glycolipid.
+## answer_b
+Lecithin
+## explanation_b
+Lecithin is a glycerophospholipid (phosphatidic acid plus choline), not a glycolipid.
+## answer_c
+Plasmalogens
+## explanation_c
+Plasmalogens are glycerophospholipids with a fatty-alcohol substitution, not glycolipids.
+## answer_d
+Cerebrosides
+## explanation_d
+Correct. Cerebrosides are listed directly among the glycolipid examples, alongside sulfolipids and gangliosides.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-5C3202473D16EA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name cerebrosides as one of the glycolipid examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q34. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-090
+## title
+Hydrolysis of phosphatidic acid yields:
+## question
+Hydrolysis of phosphatidic acid yields:
+## vignette
+This item asks the student to derive phosphatidic acid's hydrolysis products (1,2-diacylglycerol and phosphoric acid) from its stated substituent positions on glycerol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+1, 2-diacylglycerol and phosphoric acid
+## explanation_a
+Correct. Phosphoric acid sits at position 3 of phosphatidic acid's glycerol backbone, with the two fatty acids at positions 1 and 2; hydrolysing off that phosphate leaves 1,2-diacylglycerol and phosphoric acid.
+## answer_b
+1, 3-diacylglycerol and phosphoric acid
+## explanation_b
+A 1,3-diacylglycerol would require the phosphate to sit at position 2, contradicting the standard numbering, which places phosphoric acid at position 3 and the two fatty acids at positions 1 and 2.
+## answer_c
+1, 4-diacylglycerol and phosphoric acid
+## explanation_c
+Glycerol has only three carbons, so a '4' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.
+## answer_d
+1, 5-diacylglycerol and phosphoric acid
+## explanation_d
+Glycerol has only three carbons, so a '5' position does not exist on it — this option is not consistent with the glycerol-based structure of phosphatidic acid.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D5D15A190D88AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Derive phosphatidic acid's hydrolysis products (1,2-diacylglycerol and phosphoric acid) from its stated substituent positions on glycerol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-091
+## title
+Which of the following is a simple lipid?
+## question
+Which of the following is a simple lipid?
+## vignette
+This item asks the student to identify triacylglycerol as the simple lipid example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lecithin
+## explanation_a
+Lecithin is a compound lipid — a phospholipid, since it contains fatty acid, alcohol and a phosphate group.
+## answer_b
+Fatty acid
+## explanation_b
+Fatty acid on its own is a derived lipid, a hydrolysis product, not a simple lipid (an ester).
+## answer_c
+Triacylglycerol
+## explanation_c
+Correct. Triacylglycerol (neutral fat) is the example of a simple lipid — an ester of fatty acids with the alcohol glycerol, nothing more added.
+## answer_d
+Steroids BS =
+## explanation_d
+Steroids are derived lipids, not esters of fatty acid with alcohol at all.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-30D2E317144DDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify triacylglycerol as the simple lipid example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-092
+## title
+Lung surfactant is formed mainly of:
+## question
+Lung surfactant is formed mainly of:
+## vignette
+This item asks the student to name dipalmitoyl-lecithin as the main constituent of lung surfactant.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Dipalmitoyl-lecithin
+## explanation_a
+Correct. Lung surfactant is formed mainly of dipalmitoyl-lecithin, secreted naturally by pneumocytes.
+## answer_b
+Phosphatidylethanolamine
+## explanation_b
+Phosphatidylethanolamine (cephalin) is not the surfactant lipid; its own role is increasing thrombin formation for blood clotting.
+## answer_c
+Ceramide
+## explanation_c
+Ceramide is a sphingolipid building block, not the lipid credited with forming lung surfactant.
+## answer_d
+Phosphatidylinositol
+## explanation_d
+Phosphatidylinositol's role is as a second messenger, not as the main constituent of lung surfactant.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-CEDE8978E2DE3A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name dipalmitoyl-lecithin as the main constituent of lung surfactant.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-093
+## title
+Cholesteryl esters are examples of:
+## question
+Cholesteryl esters are examples of:
+## vignette
+This item asks the student to identify cholesteryl esters as one of the wax examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Waxes
+## explanation_a
+Correct. Cholesteryl esters are listed directly among the wax examples, alongside ceramide and the vitamin A/D esters.
+## answer_b
+Neutral fats
+## explanation_b
+Neutral fats are the triacylglycerol subtype of simple lipid — three fatty acids on glycerol — not cholesteryl esters.
+## answer_c
+Compound lipids
+## explanation_c
+Compound lipids add a phosphate or carbohydrate group beyond fatty acid and alcohol; cholesteryl esters, a wax, are a simple lipid.
+## answer_d
+Derived lipids
+## explanation_d
+Derived lipids are hydrolysis products such as free fatty acids and steroids; the ester form, cholesteryl esters, is specifically filed under waxes rather than derived lipids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify cholesteryl esters as one of the wax examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-094
+## title
+How many carbon atoms do eicosanoids have?
+## question
+How many carbon atoms do eicosanoids have?
+## vignette
+This item asks the student to state that eicosanoids are C20 compounds, matching their arachidonic acid precursor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+18
+## explanation_a
+18 carbons describes fatty acids like stearic, oleic or linoleic acid, not the C20 backbone of eicosanoids.
+## answer_b
+20
+## explanation_b
+Correct. Eicosanoids are physiologically active compounds formed from C20 polyunsaturated fatty acids such as arachidonic acid.
+## answer_c
+22
+## explanation_c
+22 carbons is not the carbon count of eicosanoids; they are C20 specifically, matching arachidonic acid.
+## answer_d
+24
+## explanation_d
+24 carbons describes a very-long-chain fatty acid by chain-length classification, not the C20 eicosanoids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-588CA87354B099
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that eicosanoids are C20 compounds, matching their arachidonic acid precursor.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-095
+## title
+What is the other name of triglycerides?
+## question
+What is the other name of triglycerides?
+## vignette
+This item asks the student to name 'neutral fats' as the other term for triacylglycerol/triglycerides.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Sphingolipid
+## explanation_a
+Sphingolipid is a different lipid family entirely, built on sphingosine rather than glycerol; it is not another name for triglyceride.
+## answer_b
+Lecithin
+## explanation_b
+Lecithin is a specific phospholipid (phosphatidylcholine), a compound lipid, not another name for triglyceride.
+## answer_c
+Neutral fats
+## explanation_c
+Correct. 'Neutral fats' is the other name for triacylglycerol (TAG), the simple-lipid subtype built from three fatty acids on glycerol.
+## answer_d
+Waxes
+## explanation_d
+Waxes are the simple lipid's other subtype — one fatty acid on a monohydroxy alcohol higher than glycerol — not another name for the three-fatty-acid triglyceride.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name 'neutral fats' as the other term for triacylglycerol/triglycerides.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-096
+## title
+If a fatty acid is esterified with long chain monohydroxy alcohol higher than glycerol …
+## question
+If a fatty acid is esterified with long chain monohydroxy alcohol higher than glycerol the result is:
+## vignette
+This item asks the student to define waxes as esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Neutral fats
+## explanation_a
+Neutral fats (TAG) use glycerol, not a longer-chain monohydroxy alcohol, and use three fatty acids, not one.
+## answer_b
+Waxes
+## explanation_b
+Correct. Waxes are defined exactly this way: esters of one fatty acid with a long chain monohydroxy alcohol higher than glycerol.
+## answer_c
+Sphingolipids
+## explanation_c
+Sphingolipids are built on sphingosine joined to fatty acid by an amide bond, not an ester of fatty acid with a higher monohydroxy alcohol.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids add a phosphate group to a fatty-acid/alcohol ester; they are not defined by the alcohol being 'higher than glycerol'.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define waxes as esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-097
+## title
+Linoleic acid is an example for:
+## question
+Linoleic acid is an example for:
+## vignette
+This item asks the student to name linoleic acid as the ω6 PUFA example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Omega-3 fatty acid
+## explanation_a
+Omega-3 is the family assigned to linolenic acid, not linoleic acid.
+## answer_b
+Omega-6 fatty acid
+## explanation_b
+Correct. Linoleic acid is listed under the ω6 PUFA family, alongside arachidonic acid.
+## answer_c
+Monoenoic fatty acid
+## explanation_c
+Monoenoic means one double bond; linoleic acid, a PUFA, carries more than one, so it is polyenoic, not monoenoic.
+## answer_d
+Saturated fatty acid
+## explanation_d
+Linoleic acid is unsaturated (polyunsaturated, specifically), not saturated — it belongs among the cis/PUFA fatty acids, not the saturated ones.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name linoleic acid as the ω6 PUFA example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-098
+## title
+Steroids are examples of which type of lipid?
+## question
+Steroids are examples of which type of lipid?
+## vignette
+This item asks the student to classify steroids as derived lipids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Neutral fats
+## explanation_a
+Neutral fats are the simple-lipid (triacylglycerol) subtype, not where steroids belong.
+## answer_b
+Waxes
+## explanation_b
+Waxes are the other simple-lipid subtype, not where steroids belong.
+## answer_c
+Derived lipids
+## explanation_c
+Correct. Steroids are one of the derived lipid types, alongside fatty acids, alcohols, fat-soluble vitamins and carotenoids.
+## answer_d
+Compound lipids
+## explanation_d
+Compound lipids add a phosphate or carbohydrate group to fatty acid and alcohol; steroids are instead filed under derived lipids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-30D2E317144DDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify steroids as derived lipids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q36. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-099
+## title
+The main dietary source for trans fatty acids is:
+## question
+The main dietary source for trans fatty acids is:
+## vignette
+This item asks the student to name margarine (partially hydrogenated vegetable oil) as the main dietary source of trans fatty acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Vegetables
+## explanation_a
+Vegetables themselves are not named as a trans fat source; only small amounts of trans fat occur naturally (in butter), and the main dietary source is processed — partially hydrogenated vegetable oil.
+## answer_b
+Margarine
+## explanation_b
+Correct. The main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils, with margarine as an example.
+## answer_c
+Ground nuts
+## explanation_c
+Ground nuts are a source of cis unsaturated fatty acids, not the main dietary source of trans fat.
+## answer_d
+Fruits
+## explanation_d
+Fruits are not a named source of trans fatty acids.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-F5D38D496B7D0D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name margarine (partially hydrogenated vegetable oil) as the main dietary source of trans fatty acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-100
+## title
+Stearic acid is considered as:
+## question
+Stearic acid is considered as:
+## vignette
+This item asks the student to classify stearic acid as both saturated and non-essential.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Saturated and non-essential fatty acid
+## explanation_a
+Correct. Stearic acid is listed among the saturated fatty acids, and non-essential fatty acids are defined as all fatty acids other than α-linolenic, linoleic (and conditionally arachidonic) acid — stearic acid is one of these, made in the body mainly from carbohydrates.
+## answer_b
+Monounsaturated and non-essential fatty acid
+## explanation_b
+Stearic acid has no double bonds, so "monounsaturated" is wrong regardless of the essential/non-essential half of the option.
+## answer_c
+Saturated and essential fatty acid
+## explanation_c
+The named essential fatty acids are α-linolenic and linoleic acid (and conditionally arachidonic); stearic acid is not among them.
+## answer_d
+Polyunsaturated and non-essential fatty acid
+## explanation_d
+Stearic acid has no double bonds, so "polyunsaturated" is wrong regardless of the essential/non-essential half of the option.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D0969A4C2C03CE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify stearic acid as both saturated and non-essential.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-101
+## title
+The number of double bonds in arachidonic acid is:
+## question
+The number of double bonds in arachidonic acid is:
+## vignette
+This item asks the student to count arachidonic acid's double bonds (four) from its structural formula.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+|
+## explanation_a
+This option's text did not survive the scan intact ('|'); read as a plausible original value it most likely intended '1', which is far below the four double bonds the structural formula for arachidonic acid shows.
+## answer_b
+2
+## explanation_b
+Two double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.
+## answer_c
+3
+## explanation_c
+Three double bonds undercounts the four (CH=CH.CH2) repeats shown in the structural formula for arachidonic acid.
+## answer_d
+4
+## explanation_d
+Correct. The structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH, contains four (CH=CH.CH2) repeats — four double bonds — consistent with its ω6 polyunsaturated classification.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Count arachidonic acid's double bonds (four) from its structural formula.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-102
+## title
+Disulfide bond can be between:
+## question
+Disulfide bond can be between:
+## vignette
+This item asks the student to state that a disulfide bond forms between two cysteine residues.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+2 alanine
+## explanation_a
+Alanine's side chain has no sulfur to form a disulfide bond with; named cysteine specifically.
+## answer_b
+2 tyrosine
+## explanation_b
+Tyrosine's side chain is a phenol, not a thiol, and is not the residue named for disulfide bonding.
+## answer_c
+2 cysteine
+## explanation_c
+Correct. Disulfide bonds are present in many proteins when two cysteine residues connect to form cystine, giving keratin and insulin as examples.
+## answer_d
+2 serine
+## explanation_d
+Serine's hydroxyl group takes part in hydrogen bonding elsewhere in the tertiary structure, not in disulfide bond formation, which is reserved for cysteine.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a disulfide bond forms between two cysteine residues.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q31. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-103
+## title
+The Van der Waal interaction is:
+## question
+The Van der Waal interaction is:
+## vignette
+This item asks the student to state that Van der Waals interactions are weak forces contributing to tertiary structure stability.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+A strong bond in the tertiary structure
+## explanation_a
+Called Van der Waals interactions weak, transient attractions, not strong bonds.
+## answer_b
+A weak bond in the tertiary structure
+## explanation_b
+Correct. Described Van der Waals interactions as transient attractions between molecules that, as weak interactions, also contribute to the stability of proteins — introduced among the tertiary-structure interactions.
+## answer_c
+A strong bond in the secondary structure
+## explanation_c
+Discussed Van der Waals interactions under tertiary structure, not secondary structure, and in any case calls them weak, not strong.
+## answer_d
+A weak bond in the primary structure
+## explanation_d
+Primary structure is held by peptide bonds, not Van der Waals interactions, and called these interactions weak, not strong.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Van der Waals interactions are weak forces contributing to tertiary structure stability.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-104
+## title
+In the B- pleated sheet structure, the polypeptide chains:
+## question
+In the B- pleated sheet structure, the polypeptide chains:
+## vignette
+This item asks the student to describe β-pleated sheet formation as chain segments lining up side by side.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cross each other to form sheet
+## explanation_a
+Crossing chains is not how described sheet formation; the segments line up side by side, and "crossing" is not the geometry given for any secondary structure.
+## answer_b
+Cross each other to form coils
+## explanation_b
+Combines two errors — crossing is not the geometry, and "coils" describes the α-helix, not the β-pleated sheet.
+## answer_c
+Line side by side to form coils
+## explanation_c
+Side by side is correct, but the resulting structure is a sheet, not a coil — "coil" is the α-helix's shape, not the β-pleated sheet's.
+## answer_d
+Line side by side to form sheet
+## explanation_d
+Correct. When two or more segments of chain are arranged side by side, a β-pleated sheet is formed.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe β-pleated sheet formation as chain segments lining up side by side.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-105
+## title
+Which of the following is involved in hydrogen bond formation in the tertiary structure?
+## question
+Which of the following is involved in hydrogen bond formation in the tertiary structure?
+## vignette
+This item asks the student to match each side-chain group named for tertiary-structure hydrogen bonding to the correct amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The hydroxyl group of aspartate
+## explanation_a
+Aspartate's side chain is carboxylic, not hydroxyl; listed aspartic acid's carboxylic group, not a hydroxyl group, among the hydrogen-bonding groups.
+## answer_b
+The hydroxyl group of serine
+## explanation_b
+Correct. The hydroxyl group of amino acids such is serine (and threonine) as taking part in internal hydrogen bond formation in the tertiary structure.
+## answer_c
+The amide group of threonine
+## explanation_c
+Threonine's group named is a hydroxyl group, like serine's, not an amide group — the amide group belongs to glutamine and asparagine instead.
+## answer_d
+The sulfur group of methionine St en
+## explanation_d
+Methionine's sulfur is not among the groups listed for tertiary hydrogen bonding; disulfide bonds, a separate bond type, involve cysteine's sulfur, not methionine's.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match each side-chain group named for tertiary-structure hydrogen bonding to the correct amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-106
+## title
+In the a- helix structure, the R- groups project:
+## question
+In the a- helix structure, the R- groups project:
+## vignette
+This item asks the student to state that the R-groups of an α-helix project outward from the coil.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inwards of the helix
+## explanation_a
+Inward projection would crowd the R-groups into the helix's core; they project outwards, away from the axis.
+## answer_b
+Outwards of the helix
+## explanation_b
+Correct. The R-groups of amino acids project outwards of the helix.
+## answer_c
+Upwards of the helix
+## explanation_c
+Upwards is not the direction given; the helix is a coil around a long axis, and the R-groups point outward from that axis, not along it.
+## answer_d
+Downwards of the helix
+## explanation_d
+Downwards has the same problem as upwards — it describes motion along the helix's axis rather than the outward projection stated.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the R-groups of an α-helix project outward from the coil.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-107
+## title
+The primary structure of proteins:
+## question
+The primary structure of proteins:
+## vignette
+This item asks the student to recognise the primary structure as the amino acid sequence laid down first, which the higher orders of structure are built from by folding.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Determines the secondary and tertiary structures
+## explanation_a
+Correct. Laid out the four orders of structure in sequence — primary first, as the amino acid sequence fixed by peptide bonds during biosynthesis — and describes the secondary and tertiary orders as further folding of that same chain; the sequence set at the primary level is what the higher orders fold.
+## answer_b
+Is the final structure of the proteins
+## explanation_b
+The reverse of the ordering: primary structure is the first of four orders, not the final one — tertiary (or quaternary, for multi-chain proteins) is the higher, later order.
+## answer_c
+Is the functional structure of the proteins
+## explanation_c
+The example of a functionally essential order is the quaternary structure of hemoglobin, not the primary sequence on its own.
+## answer_d
+Includes the a- helix structure
+## explanation_d
+The α-helix is a secondary-structure feature, one specific folded form the chain can take — it is not part of the primary structure, which is the unfolded amino acid sequence.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BE919386760579
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+70
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise the primary structure as the amino acid sequence laid down first, which the higher orders of structure are built from by folding.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-108
+## title
+B- pleated sheets formed between different regions of the same chain is stabilized by:
+## question
+B- pleated sheets formed between different regions of the same chain is stabilized by:
+## vignette
+This item asks the student to state that a β-sheet built within one chain is held by intra-chain hydrogen bonds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inter-chain hydrogen bonds
+## explanation_a
+Inter-chain hydrogen bonds stabilize a sheet built between separate chains; a sheet formed within one chain's own regions is intra-chain.
+## answer_b
+Intra-chain hydrogen bonds
+## explanation_b
+Correct. When two or more segments of a single polypeptide chain are arranged side by side, the resulting β-pleated sheet is stabilized by intra-chain hydrogen bonds.
+## answer_c
+Inter-chain ionic bonds
+## explanation_c
+Ionic bonds are not the stabilizing bond type given for β-pleated sheets, whichever scope is chosen; hydrogen bonds are.
+## answer_d
+Intra-chain ionic bonds
+## explanation_d
+Intra-chain is the right scope, but ionic bonds are the wrong bond type — specified hydrogen bonds for this structure.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a β-sheet built within one chain is held by intra-chain hydrogen bonds.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-109
+## title
+Adjacent polypeptide chains running in opposite direction are called:
+## question
+Adjacent polypeptide chains running in opposite direction are called:
+## vignette
+This item asks the student to name antiparallel β-pleated sheet as the form with strands running in opposite directions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Parallel B- pleated sheet
+## explanation_a
+Parallel is the name for segments running in the same direction (N to C terminus), the opposite of what this stem describes.
+## answer_b
+Anti-parallel B- pleated sheet
+## explanation_b
+Correct. When adjacent segments run in opposite directions, the structure is termed an antiparallel β-pleated sheet.
+## answer_c
+Perpendicular B- pleated sheet
+## explanation_c
+Perpendicular is not a term used for β-sheet strand orientation; the two named orientations are parallel and antiparallel.
+## answer_d
+Separate B- pleated sheet
+## explanation_d
+"Separate" describes nothing about strand direction and is not a term used for sheet classification.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name antiparallel β-pleated sheet as the form with strands running in opposite directions.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-110
+## title
+The sugar moiety present in RNA is:
+## question
+The sugar moiety present in RNA is:
+## vignette
+This item asks the student to identify ribose as RNA's sugar, in contrast to DNA's deoxyribose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Ribulose
+## explanation_a
+Ribulose is a five-carbon sugar involved in photosynthetic carbon fixation, not the sugar of RNA.
+## answer_b
+Arabinose
+## explanation_b
+Arabinose is not a sugar assigned to either nucleic acid.
+## answer_c
+Ribose
+## explanation_c
+Correct. The comparison table gives RNA the sugar ribose, versus DNA's 2-deoxyribose.
+## answer_d
+Deoxyribose
+## explanation_d
+Deoxyribose is DNA's sugar, not RNA's — this option swaps the two nucleic acids' sugars.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-CB55EE69768E2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify ribose as RNA's sugar, in contrast to DNA's deoxyribose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-111
+## title
+A DNA segment contains 100 Adenine and 100 cytosines. How many nucleotides are present …
+## question
+A DNA segment contains 100 Adenine and 100 cytosines. How many nucleotides are present in the segment?
+## vignette
+This item asks the student to apply complementary base pairing (A with T, G with C) to compute the total nucleotide count of a double-stranded DNA segment from two of its base counts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+100
+## explanation_a
+100 only counts the adenine given in the question — it ignores that the segment is double-stranded and has an equal number of paired thymine and cytosine bases, plus the guanine paired with the given cytosine.
+## answer_b
+200
+## explanation_b
+200 accounts for adenine and its thymine partner (100+100) but leaves out the 100 cytosine and its 100 paired guanine entirely.
+## answer_c
+400
+## explanation_c
+Correct. In double-stranded DNA, adenine pairs with thymine and guanine pairs with cytosine, so 100 adenine implies 100 thymine, and 100 cytosine implies 100 guanine: 100+100+100+100 = 400 nucleotides total.
+## answer_d
+50
+## explanation_d
+640 does not follow from doubling any combination of the given counts consistent with complementary base pairing — it overshoots what the A-T/G-C pairing rule gives.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Calculation
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply complementary base pairing (A with T, G with C) to compute the total nucleotide count of a double-stranded DNA segment from two of its base counts.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-112
+## title
+Number of hydrogen bonds between adenine and thymine is:
+## question
+Number of hydrogen bonds between adenine and thymine is:
+## vignette
+This item asks the student to state the number of hydrogen bonds (two) between adenine and thymine, as distinct from the three between guanine and cytosine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+|
+## explanation_a
+1 is too few for any base pair described; even the weaker A-T pair has two hydrogen bonds, not one.
+## answer_b
+2
+## explanation_b
+Correct. Adenine pairs with thymine through two hydrogen bonds.
+## answer_c
+3
+## explanation_c
+3 is the number of hydrogen bonds between guanine and cytosine, not adenine and thymine — this swaps the two base pairs' bond counts.
+## answer_d
+4
+## explanation_d
+4 hydrogen bonds is not a count given for either base pair; neither A-T (two) nor G-C (three) reaches four.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the number of hydrogen bonds (two) between adenine and thymine, as distinct from the three between guanine and cytosine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p55 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-113
+## title
+A phosphodiester bond is present in:
+## question
+A phosphodiester bond is present in:
+## vignette
+This item asks the student to locate the phosphodiester bond as the linkage between nucleotides within a nucleic acid strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Nucleotide in a nucleic acid
+## explanation_a
+Correct. Nucleotides within a nucleic acid strand are linked by phosphodiester bonds, between the 3'-hydroxyl of one nucleotide and the 5'-hydroxyl of the next, through a phosphate group.
+## answer_b
+Monosaccharides in a polysaccharide
+## explanation_b
+Monosaccharides in a polysaccharide are linked by glycosidic bonds, not phosphodiester bonds — a different class of biomolecule entirely.
+## answer_c
+Amino acids in a polypeptide
+## explanation_c
+Amino acids in a polypeptide are linked by peptide bonds, not phosphodiester bonds.
+## answer_d
+Fatty acids in a diglyceride
+## explanation_d
+Fatty acids in a diglyceride are linked by ester bonds to glycerol, not phosphodiester bonds.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-C5D9467CA2A949
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate the phosphodiester bond as the linkage between nucleotides within a nucleic acid strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-114
+## title
+A short length of DNA has 80 thymine and 80 guanine residues. The total no. of nucleoti…
+## question
+A short length of DNA has 80 thymine and 80 guanine residues. The total no. of nucleotides in DNA fragment is:
+## vignette
+This item asks the student to apply complementary base pairing to compute total nucleotide count from thymine and guanine counts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+160
+## explanation_a
+160 only accounts for the thymine and its adenine partner (80+80) — it leaves out the 80 guanine and its 80 paired cytosine.
+## answer_b
+40
+## explanation_b
+40 is far too small even for one base pair's worth of the given counts — it does not follow from the base-pairing rule applied to either given number.
+## answer_c
+320
+## explanation_c
+Correct. Thymine pairs with adenine and guanine pairs with cytosine, so 80 thymine implies 80 adenine, and 80 guanine implies 80 cytosine: 80+80+80+80 = 320 nucleotides total.
+## answer_d
+640
+## explanation_d
+640 overshoots what the pairing rule gives for these counts — it does not correspond to any consistent application of A-T/G-C pairing to 80 and 80.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Calculation
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply complementary base pairing to compute total nucleotide count from thymine and guanine counts.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-115
+## title
+Which of the following is a purine nucleoside?
+## question
+Which of the following is a purine nucleoside?
+## vignette
+This item asks the student to identify Adenosine as a purine nucleoside, built from the purine base adenine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cytosine
+## explanation_a
+Cytosine is a pyrimidine base, not a nucleoside, and not a purine.
+## answer_b
+Adenine
+## explanation_b
+Adenine is the purine base itself, not its nucleoside; the naming table gives Adenine's nucleoside a separate name, Adenosine.
+## answer_c
+Adenosine
+## explanation_c
+Correct. The naming table pairs the purine base Adenine with the nucleoside Adenosine — a purine nucleoside.
+## answer_d
+Uracil
+## explanation_d
+Uracil is a pyrimidine base, not a nucleoside, and not a purine.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify Adenosine as a purine nucleoside, built from the purine base adenine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-116
+## title
+Uridylic acid is composed of:
+## question
+Uridylic acid is composed of:
+## vignette
+This item asks the student to apply the nucleotide definition (base + pentose + phosphate) to name uridylic acid's three components.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Uracil only
+## explanation_a
+Uracil alone is only the base; uridylic acid (UMP) is the full nucleotide, which per the definition needs a pentose and phosphate as well.
+## answer_b
+Uracil and ribose
+## explanation_b
+Uracil and ribose together describe Uridine, the nucleoside — one step short of uridylic acid, which per the definition also carries a phosphate.
+## answer_c
+Ribose and phosphate
+## explanation_c
+Ribose and phosphate without the base omits the nitrogenous base that gives uridylic acid its identity as a uracil-containing compound.
+## answer_d
+Uracil, ribose, and Phosphate
+## explanation_d
+Correct. Uridylic acid is Uridine monophosphate (UMP), and a nucleotide is base + pentose + phosphate — here, uracil, ribose and phosphate.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-F2A54F8809C051
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply the nucleotide definition (base + pentose + phosphate) to name uridylic acid's three components.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-117
+## title
+Which of the following nucleotides contains ribose sugar and not deoxyribose?
+## question
+Which of the following nucleotides contains ribose sugar and not deoxyribose?
+## vignette
+This item asks the student to identify uracil as the base restricted to RNA, and so to ribose, unlike cytosine and adenine which appear in both nucleic acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Thymine — pentose sugar-phosphate
+## explanation_a
+Thymine is present only in DNA, so a thymine nucleotide always carries 2-deoxyribose, never ribose.
+## answer_b
+Uracil — pentose sugar-phosphate
+## explanation_b
+Correct. Uracil is present only in RNA, so a uracil nucleotide always carries ribose, never deoxyribose — the only one of these four bases restricted to RNA alone.
+## answer_c
+Adenine — pentose sugar-phosphate
+## explanation_c
+Listed adenine among the purines present in the structure of both nucleic acids (RNA and DNA), so an adenine nucleotide is not uniquely tied to ribose the way uracil's is.
+## answer_d
+Cytosine — pentose sugar-phosphate
+## explanation_d
+Cytosine is present in both nucleic acids, so, like adenine, a cytosine nucleotide can carry either ribose or deoxyribose depending on which nucleic acid it is part of.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-C672878EA48528
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify uracil as the base restricted to RNA, and so to ribose, unlike cytosine and adenine which appear in both nucleic acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p50 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.

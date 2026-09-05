@@ -25,6 +25,23 @@ import { pool } from './db.js'
 const PRODUCTION = 'https://api.push.apple.com'
 const SANDBOX = 'https://api.sandbox.push.apple.com'
 
+/**
+ * A device token is opaque to us, so the only thing worth checking is that it
+ * looks like one rather than like a mistake. APNs issues hex, but pinning the
+ * exact length would mean a future token format silently failing to register,
+ * which is a hard problem to notice — nobody reports the notification they
+ * never received.
+ *
+ * Here rather than in a route file because both the device routes and the
+ * per-user state write (which excludes the calling device from the nudge) read
+ * a token off a request, and one of them must not drift from the other.
+ */
+export function normaliseDeviceToken(value) {
+  const token = typeof value === 'string' ? value.trim() : ''
+  if (token.length < 32 || token.length > 255) return null
+  return /^[A-Za-z0-9]+$/.test(token) ? token : null
+}
+
 /** Apple rejects a token older than an hour and refuses one refreshed too often. */
 const TOKEN_LIFETIME_MS = 45 * 60 * 1000
 

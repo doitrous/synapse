@@ -1,14 +1,14 @@
 import { useMemo, useState } from 'react'
-import { CalendarDays, Check, CheckSquare2, ChevronLeft, ChevronRight, Clock, Filter, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight } from 'lucide-react'
+import { CalendarDays, Check, CheckSquare2, ChevronLeft, ChevronRight, CircleAlert, Clock, Filter, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight, WifiOff } from 'lucide-react'
 import type { CalEvent } from '@/data/calendar'
-import { scheduleLinks } from '@/data/moduleSchedule'
+import { scheduleLinks, type ModuleScheduleStore } from '@/data/moduleSchedule'
 import { getSubject, subjects } from '@/data/subjects'
 import {
   durationMinutes, isoDay, STUDY_BLOCKS_STORAGE_KEY, type StudyBlock,
 } from '@/data/studyBlocks'
-import { useStudentSchedule } from '@/lib/useStudentSchedule'
+import { useStudentSchedule, MODULE_SCHEDULE_STORAGE_KEY } from '@/lib/useStudentSchedule'
 import { useTasks } from '@/lib/useTasks'
-import type { Task } from '@/data/tasks'
+import { EMPTY_TASKS, TASKS_STORAGE_KEY, type Task, type TaskDoc } from '@/data/tasks'
 import { TaskList } from '@/components/calendar/TaskList'
 import { Checkbox } from '@/components/ui/Checkbox'
 import type { ScheduledSession } from '@/lib/studentSchedule'
@@ -25,11 +25,13 @@ import { Toggle } from '@/components/ui/Toggle'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { DateField, TimeField } from '@/components/ui/DateTimeField'
 import { SystemMark } from '@/components/ui/SystemMark'
+import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
 import { DEFAULT_WEEK_START, addDays, monthGrid, sameDay, weekDays, weekdayLabels } from '@/lib/calendarGrid'
 import { useIdentity } from '@/lib/useIdentity'
-import { useStudentModules } from '@/lib/useUniversityCatalogue'
+import { useStudentModules, useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { Icon } from '@/components/ui/Icon'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import { formatLongDate, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -430,7 +432,7 @@ export function CalendarPage() {
   const [editingBlockId, setEditingBlockId] = useState<string | null>(null)
   const [detailEvent, setDetailEvent] = useState<CalEvent | null>(null)
   const [daySheet, setDaySheet] = useState<Date | null>(null)
-  const [blocks, setBlocks] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
+  const [blocks, setBlocks, blocksStatus] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
   const { sessions, hasYear } = useStudentSchedule()
   const tasksApi = useTasks()
   const tasks = tasksApi.doc.tasks
@@ -438,6 +440,17 @@ export function CalendarPage() {
   const [taskDay, setTaskDay] = useState<string | null>(null)
   const [highlightedTask, setHighlightedTask] = useState<string | null>(null)
   const today = new Date()
+
+  // `useStudentSchedule` and `useTasks` wrap `usePersistentState` internally
+  // without surfacing its status, so it's re-read here for the same keys —
+  // free, since entries are shared and hydration runs once per key.
+  const [, , catalogueStatus] = useUniversityCatalogue()
+  const [, , moduleScheduleStatus] = usePersistentState<ModuleScheduleStore>(MODULE_SCHEDULE_STORAGE_KEY, {})
+  const [, , tasksStatus] = usePersistentState<TaskDoc>(TASKS_STORAGE_KEY, EMPTY_TASKS)
+  const calendarStatuses = [blocksStatus, catalogueStatus, moduleScheduleStatus, tasksStatus]
+  const calendarLoading = calendarStatuses.some((status) => !status.hydrated)
+  const calendarError = calendarStatuses.find((status) => status.error)?.error ?? null
+  const online = useOnlineStatus()
 
   const days = useMemo(
     () => (view === 'week' ? weekDays(anchor, WEEK_START) : monthGrid(anchor, WEEK_START)),
@@ -554,6 +567,35 @@ export function CalendarPage() {
         </div>
       </div>
 
+      {calendarLoading ? (
+        <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_21rem]" aria-label={t('Loading your calendar')}>
+          <div className="space-y-2">
+            <Skeleton className="h-10 w-full rounded-lg" />
+            <div className="grid grid-cols-7 gap-1">
+              {Array.from({ length: 35 }, (_, i) => <Skeleton key={i} className="h-16 rounded-md sm:h-28" />)}
+            </div>
+          </div>
+          <SkeletonList rows={6} />
+        </div>
+      ) : calendarError ? (
+        <Panel className="p-10">
+          {online ? (
+            <EmptyState
+              icon={CircleAlert}
+              title={t('This could not be loaded')}
+              description={t('We could not reach the server. Check your connection — this page keeps retrying on its own.')}
+              action={<Button variant="secondary" size="sm" onClick={() => window.location.reload()}>{t('Try again')}</Button>}
+            />
+          ) : (
+            <EmptyState
+              icon={WifiOff}
+              title={t("You're offline")}
+              description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
+              action={<Button variant="secondary" size="sm" onClick={() => window.location.reload()}>{t('Try again')}</Button>}
+            />
+          )}
+        </Panel>
+      ) : (
       <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_21rem]">
         <div className={cn('min-w-0', pane !== 'calendar' && 'hidden xl:block')}>
         {view === 'month' ? (
@@ -618,8 +660,9 @@ export function CalendarPage() {
           />
         </div>
       </div>
+      )}
 
-      {!hasYear && (
+      {!calendarLoading && !calendarError && !hasYear && (
         <Panel className="mt-3 p-4">
           <EmptyState
             icon={CalendarDays}
@@ -628,12 +671,14 @@ export function CalendarPage() {
           />
         </Panel>
       )}
-      {hasYear && sessions.length === 0 && (
+      {!calendarLoading && !calendarError && hasYear && sessions.length === 0 && (
         <p className="mt-3 rounded-lg border border-dashed border-line bg-surface-2/40 px-4 py-3 text-[12.5px] text-ink-3">
           {t('Your year has no published sessions yet. Blocks you plan yourself still appear on this calendar.')}
         </p>
       )}
-      <p className="mt-3 flex items-center gap-1.5 text-[12px] text-ink-3"><CalendarDays size={13} />{t('Select any day to add a personal block. Curriculum sessions are filled; your plan is outlined.')}</p>
+      {!calendarLoading && !calendarError && (
+        <p className="mt-3 flex items-center gap-1.5 text-[12px] text-ink-3"><CalendarDays size={13} />{t('Select any day to add a personal block. Curriculum sessions are filled; your plan is outlined.')}</p>
+      )}
       {daySheet && (
         <DaySheet
           date={daySheet}

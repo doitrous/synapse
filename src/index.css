@@ -34,7 +34,7 @@
 
   --color-ink: #161920;        /* near-black, faintly cool */
   --color-ink-2: #5d636f;      /* body-safe muted, ≥4.5:1 on paper */
-  --color-ink-3: #686e7a;      /* muted, ~4.77:1 on paper — safe for small text too, not decorative-only */
+  --color-ink-3: #5f6778;      /* faint — still ≥4.5:1 on every light surface (WCAG AA) */
 
   --color-line: #e3e7ef;       /* hairline */
   --color-line-2: #ccd3e0;     /* stronger rule / control border */
@@ -219,6 +219,15 @@
      follows the theme without the component knowing which theme it is in. */
   --brand-blue: var(--color-accent);
   --brand-rose: var(--color-primary);
+
+  /* The Noon mark (ن) — crimson outer arc, rose inner arc, midnight-blue dot.
+     Literals on light/warm grounds (the chosen brand look); Dark and OLED
+     override --mark-outer and --mark-dot below, because #a81d40 goes muddy and
+     the #1b2b55 dot all but vanishes on a dark ground. `NishanyMark` reads
+     these, so the logotype follows the theme without branching. */
+  --mark-outer: #a81d40;
+  --mark-inner: #e0859b;
+  --mark-dot: #1b2b55;
 }
 
 /* =========================================================================
@@ -242,7 +251,7 @@
 
   --color-ink: #1f1b16;
   --color-ink-2: #675e51;
-  --color-ink-3: #746b5e;      /* muted, ~4.70:1 on paper */
+  --color-ink-3: #69604f;      /* ≥4.5:1 on the warm surfaces */
 
   --color-line: #e9e0d2;
   --color-line-2: #d7ccb9;
@@ -343,7 +352,7 @@
 
   --color-ink: #e8ecf3;        /* not #ffffff — that is only glare at 2am */
   --color-ink-2: #a2abbb;      /* 7.4:1 on surface */
-  --color-ink-3: #7d8798;      /* less faint here, so labels stay legible */
+  --color-ink-3: #8791a2;      /* ≥4.5:1 on every dark surface */
 
   --color-line: #232b37;
   --color-line-2: #38424f;
@@ -474,6 +483,12 @@
      fill: #d13a63 on #151b24 is 3.7:1 and fails. The blue half needs no
      override — it already points at --color-accent, which lifts above. */
   --brand-rose: var(--color-primary-strong);
+
+  /* Mark on a dark ground: lift the muddy #a81d40 outer to the brighter crimson
+     the UI already uses, and swap the near-invisible midnight-blue dot for the
+     accent periwinkle so it reads. Inner rose (#e0859b) stays legible as-is. */
+  --mark-outer: #d13a63;
+  --mark-dot: #6fa5ff;
 }
 
 /* OLED / Black — a fourth mode, not "Dark taken further". Dark's ground
@@ -500,7 +515,7 @@
 
   --color-ink: #dfe2e8;        /* ~16.2:1 on paper, ~15.2:1 on surface — legible without glaring */
   --color-ink-2: #9aa1af;      /* ~8.1:1 on paper, ~7.6:1 on surface */
-  --color-ink-3: #747b89;      /* muted, ~4.94:1 on paper */
+  --color-ink-3: #767d8b;      /* ≥4.5:1 on black and the OLED insets */
 
   --color-line: #1e1f24;
   --color-line-2: #32333a;
@@ -568,6 +583,80 @@
   --shadow-action-hover: 0 2px 6px rgba(0, 0, 0, 0.55);
 
   --brand-rose: var(--color-primary-strong);
+
+  /* Same lift as Dark — the mark's crimson and dot both need it on true black. */
+  --mark-outer: #d13a63;
+  --mark-dot: #6fa5ff;
+}
+
+/* =========================================================================
+   Auth surface — the pre-login brand moment (sign in / sign up / verify).
+   It is deliberately its OWN small palette rather than the app tokens: a warm
+   cream panel with a white form card in Light/Warm, and a warm-charcoal panel
+   with a dark card in Dark/OLED, so the screen has a real dark version instead
+   of a light card that goes illegible. Everything on the surface reads from
+   these `--auth-*` vars; the form card's own text still uses the app tokens
+   (text-ink, …), which are already correct for whichever theme is active. */
+.auth-surface {
+  --auth-panel: #f4ecdd;
+  --auth-dot: #e4d5bc;
+  --auth-card: #ffffff;
+  --auth-card-border: #eadfce;
+  --auth-field-bg: #fffdfa;
+  --auth-field-border: #dccfba;
+  --auth-ink: #2b211c;
+  --auth-ink-2: #6e6157;
+  --auth-accent: #a81d40;                    /* crimson — Arabic line, chips */
+  --auth-accent-soft: rgba(168, 29, 64, 0.1);
+  --auth-chip: rgba(255, 255, 255, 0.6);
+  --auth-endorse: #1b2b55;                   /* "BY CONNECT" — the Midnight Seed navy */
+  --auth-mark-outer: #a81d40;
+  --auth-mark-inner: #e0859b;
+  --auth-mark-dot: #1b2b55;
+  --auth-taupe-dotted: #cabca3;
+  --auth-taupe-ring: #cdbfa6;
+  --auth-shadow: rgba(168, 29, 64, 0.28);
+}
+
+:root[data-theme='dark'] .auth-surface,
+:root[data-theme='oled'] .auth-surface {
+  --auth-panel: #16110d;
+  --auth-dot: #271d15;
+  --auth-card: #181310;
+  --auth-card-border: #2c2420;
+  --auth-field-bg: #211b16;
+  --auth-field-border: #3a2f28;
+  --auth-ink: #f4ecde;
+  --auth-ink-2: #b8a996;
+  --auth-accent: #eda0b4;                    /* lifted so it carries on the dark panel */
+  --auth-accent-soft: rgba(237, 160, 180, 0.14);
+  --auth-chip: rgba(255, 255, 255, 0.06);
+  --auth-endorse: #aeb9e6;                   /* periwinkle — navy is invisible on dark */
+  --auth-mark-outer: #e0859b;
+  --auth-mark-inner: #c46f88;
+  --auth-mark-dot: #aeb9e6;
+  --auth-taupe-dotted: #463b30;
+  --auth-taupe-ring: #524537;
+  --auth-shadow: rgba(0, 0, 0, 0.55);
+}
+
+/* OLED wants true black behind the panel, not warm charcoal. */
+:root[data-theme='oled'] .auth-surface {
+  --auth-panel: #000000;
+  --auth-dot: #1b140e;
+  --auth-card: #0b0908;
+  --auth-card-border: #241d18;
+}
+
+/* The wordmark's "BY CONNECT" endorsement — the Midnight Seed navy on light and
+   warm grounds, lifted to periwinkle on Dark/OLED where the navy would vanish.
+   One brand-level var so the global header lockup reads in every theme. */
+:root {
+  --brand-endorse: #1b2b55;
+}
+:root[data-theme='dark'],
+:root[data-theme='oled'] {
+  --brand-endorse: #aeb9e6;
 }
 
 @layer base {
@@ -594,6 +683,11 @@
 
   body {
     margin: 0;
+    /* iOS Safari < 15.4 and old Android WebViews (see the old-device floor in
+       vite.config.ts) do not know `dvh` and drop the whole declaration — this
+       line is the fallback the cascade keeps for them; a browser that does
+       support `dvh` simply overrides it with the line below. */
+    min-height: 100vh;
     min-height: 100dvh;
     background-color: var(--color-paper);
     /* Faint paper grain — what makes the light palette feel premium rather
@@ -919,33 +1013,49 @@
 
 /* ---- The Nishany loader -------------------------------------------------
    Two concentric arcs — outer blue, inner crimson — that each fill and then
-   empty around their ring while rotating a full turn. `--c` is the ring's
-   circumference, set inline per arc; the offset runs c → 0 → -c, which is
-   "fill, then empty". The first and last frames are visually identical — the
-   arc is empty at both ends and the rotation is a whole turn — so the loop
-   has no seam. `--dir` (1 or -1) spins the two rings opposite ways and
-   `--speed` runs them at slightly different rates, so the gap between them
-   opens and closes instead of the pair turning as one rigid object — they
-   read as catching up to each other. `--phase` adds a small start delay on
-   top. The shared ease-in curve is what makes each sweep start slow and
-   accelerate through the loop before it seams back to the start. */
+   empty around their ring while rotating a full turn, both the same way
+   round. `--c` is the ring's circumference, set inline per arc; the offset
+   runs c → 0 → -c, which is "fill, then empty". The first and last frames
+   are visually identical — the arc is empty at both ends and the rotation is
+   a whole turn — so the loop has no seam.
+
+   Rotation lives on a wrapper `<g>` (transform only — compositor-friendly,
+   `will-change: transform`) separate from the `<circle>`'s stroke-dashoffset
+   sweep, so the GPU can own the spin independently of the paint work the arc
+   still needs. The inner ring's `--speed` runs at 0.8× the outer ring's
+   duration, so lap over lap it visibly catches up and overtakes rather than
+   the pair turning as one rigid object. `--phase` adds a small start delay.
+   The shared per-cycle ease — slow start, fast finish — is what makes each
+   sweep accelerate through the loop before it seams back to the start. */
+@keyframes nishany-loader-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 @keyframes nishany-loader-sweep {
-  0%   { stroke-dashoffset: var(--c); transform: rotate(0deg); }
-  50%  { stroke-dashoffset: 0;        transform: rotate(calc(180deg * var(--dir, 1))); }
-  100% { stroke-dashoffset: calc(var(--c) * -1); transform: rotate(calc(360deg * var(--dir, 1))); }
+  0%   { stroke-dashoffset: var(--c); }
+  50%  { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: calc(var(--c) * -1); }
+}
+.nishany-loader-ring {
+  transform-origin: 50% 50%;
+  will-change: transform;
+  animation-name: nishany-loader-spin;
+  animation-duration: calc(var(--dur-loader) * var(--speed, 1));
+  animation-timing-function: cubic-bezier(0.45, 0, 0.9, 0.4);
+  animation-iteration-count: infinite;
+  animation-delay: var(--phase, 0ms);
 }
 .nishany-loader-arc {
-  transform-origin: 50% 50%;
   animation-name: nishany-loader-sweep;
   animation-duration: calc(var(--dur-loader) * var(--speed, 1));
-  animation-timing-function: cubic-bezier(0.55, 0, 0.85, 0.35);
+  animation-timing-function: cubic-bezier(0.45, 0, 0.9, 0.4);
   animation-iteration-count: infinite;
   animation-delay: var(--phase, 0ms);
 }
 /* Held rather than hidden: the arcs stop at a quarter and three quarters,
    which is the pair standing still. */
 @media (prefers-reduced-motion: reduce) {
-  .nishany-loader-arc { animation: none; }
+  .nishany-loader-ring, .nishany-loader-arc { animation: none; }
 }
 
 /* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated

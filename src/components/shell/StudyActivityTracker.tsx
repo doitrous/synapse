@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import { API_MODE, apiPost } from '@/lib/api'
 import { MARISTANA_PROGRESS_EVENT } from '@/lib/useMaristanas'
+import { newId } from '@/data/userLibrary'
 
 const ACTIVE_FOR_MS = 3 * 60_000
 const HEARTBEAT_MS = 60_000
@@ -21,7 +22,7 @@ const STUDY_SURFACES = new Set([
 
 function sessionId(): string {
   if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) return crypto.randomUUID()
-  return `study-${Date.now()}-${Math.random().toString(36).slice(2)}`
+  return newId('study')
 }
 
 /**

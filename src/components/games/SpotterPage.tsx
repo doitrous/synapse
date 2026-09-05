@@ -6,8 +6,10 @@ import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Stat } from '@/components/ui/Stat'
 import { useLiveHistology } from '@/lib/useLiveHistology'
+import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { buildSpotter, MIN_LABELS, type SpotterGame, type SpotterRound } from '@/data/spotter'
 import type { HistologySlide } from '@/data/histology'
 import { resolveMediaSource } from '@/lib/mediaStorage'
@@ -261,6 +263,7 @@ function SpotterPlayer({
 export function SpotterPage() {
   const t = useT()
   const { slides } = useLiveHistology()
+  const availability = useCatalogueAvailability(slides.length)
 
   const [searchParams] = useSearchParams()
   const urlSeedParam = searchParams.get('seed')
@@ -292,30 +295,44 @@ export function SpotterPage() {
         back={{ fallback: '/app/minigames' }}
       />
 
-      {!game.refusal && (
-        <div className="mb-4 flex items-center justify-end">
-          <Button variant="secondary" iconLeft={copied ? Check : Copy} onClick={handleShare}>
-            {copied ? t('Copied') : t('Share this game')}
-          </Button>
-        </div>
-      )}
-
-      {game.refusal ? (
+      {availability.kind === 'loading' || availability.kind === 'error' ? (
         <Panel className="p-8">
-          <EmptyState
-            icon={Crosshair}
-            title={t(game.refusal === 'too_few_structures' ? 'No slides ready for Spotter' : 'Not enough structures for Spotter')}
-            description={
-              game.refusal === 'too_few_structures'
-                ? t('Spotter needs published slides with at least one structure pinned. They will appear here once an admin publishes some.')
-                : t(
-                    'Spotter needs at least {min} differently labelled structures across the published slides to build a round of options — there are too few right now.',
-                  ).replace('{min}', String(MIN_LABELS))
-            }
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: t('No slides ready for Spotter'),
+              description: t('Spotter needs published slides with at least one structure pinned. They will appear here once an admin publishes some.'),
+            }}
           />
         </Panel>
       ) : (
-        <SpotterPlayer key={seed} game={game as SpotterGame & { refusal: null }} slides={slides} onReplay={newGame} />
+        <>
+          {!game.refusal && (
+            <div className="mb-4 flex items-center justify-end">
+              <Button variant="secondary" iconLeft={copied ? Check : Copy} onClick={handleShare}>
+                {copied ? t('Copied') : t('Share this game')}
+              </Button>
+            </div>
+          )}
+
+          {game.refusal ? (
+            <Panel className="p-8">
+              <EmptyState
+                icon={Crosshair}
+                title={t(game.refusal === 'too_few_structures' ? 'No slides ready for Spotter' : 'Not enough structures for Spotter')}
+                description={
+                  game.refusal === 'too_few_structures'
+                    ? t('Spotter needs published slides with at least one structure pinned. They will appear here once an admin publishes some.')
+                    : t(
+                        'Spotter needs at least {min} differently labelled structures across the published slides to build a round of options — there are too few right now.',
+                      ).replace('{min}', String(MIN_LABELS))
+                }
+              />
+            </Panel>
+          ) : (
+            <SpotterPlayer key={seed} game={game as SpotterGame & { refusal: null }} slides={slides} onReplay={newGame} />
+          )}
+        </>
       )}
     </PageContainer>
   )

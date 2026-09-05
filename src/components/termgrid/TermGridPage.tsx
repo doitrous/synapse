@@ -6,11 +6,13 @@ import { Panel } from '@/components/ui/Panel'
 import { Field, Select } from '@/components/ui/Field'
 import { Button } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Stat } from '@/components/ui/Stat'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import { buildGrid, givenTermsForGrid, MIN_TERMS, type GridTerm } from '@/data/crossword'
 import { useTermGrid, termGridPuzzleId } from '@/lib/useTermGrid'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { catalogueAvailability } from '@/lib/catalogueAvailability'
 import { useT } from '@/lib/i18n'
 import { TermGridBoard } from './TermGridBoard'
 
@@ -177,8 +179,12 @@ export function TermGridPage() {
   const t = useT()
   // Same source `MedicalTaxonomy` reads: live in production, the starter set
   // in demo mode. See `useMedicalGlossary` for why it is not auto-seeded here.
-  const [glossary] = useMedicalGlossary()
+  const [glossary, , glossaryStatus] = useMedicalGlossary()
   const categories = glossary.categories
+  const availability = useMemo(
+    () => catalogueAvailability({ statuses: [glossaryStatus], itemCount: categories.length }),
+    [glossaryStatus, categories.length],
+  )
 
   const [searchParams] = useSearchParams()
   // A link from Medical Taxonomy carries both a category and a seed; a link
@@ -240,12 +246,14 @@ export function TermGridPage() {
         back={{ fallback: '/app/minigames' }}
       />
 
-      {categories.length === 0 ? (
+      {availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <EmptyState
-            icon={Grid3x3}
-            title={t('The glossary has not been published yet.')}
-            description={t('Terms appear here once they are published in the admin console.')}
+          <CatalogueUnavailable
+            availability={availability}
+            empty={{
+              title: t('The glossary has not been published yet.'),
+              description: t('Terms appear here once they are published in the admin console.'),
+            }}
           />
         </Panel>
       ) : (

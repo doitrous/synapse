@@ -7,7 +7,7 @@ import { useEssayAnswers } from '@/lib/useEssayAnswers'
 import { useLiveEssays } from '@/lib/useLiveEssays'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
-import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
 
 export interface PracticeProgress {
   /** Bank and room attempts only — the records the bank figures are cut from. */
@@ -36,7 +36,11 @@ export interface PracticeProgress {
  * a copy of the arithmetic.
  */
 export function usePracticeProgress(): PracticeProgress {
-  const questions = usePublishedQuestions()
+  // Only `.length` is read, so this is the counts-only summary view (no answer
+  // bodies) — the same document the Question Bank hub mounts with. The full
+  // `usePublishedQuestions` here pulled every question with its options and
+  // explanations onto the dashboard on boot.
+  const questions = useScopedPublishedQuestionSummaries()
   const history = useAttemptHistory()
   const { progress } = usePracticalProgress()
   const { osceStations, clinicalCases, labImaging } = useLivePracticals()

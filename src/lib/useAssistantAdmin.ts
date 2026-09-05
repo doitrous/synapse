@@ -43,6 +43,25 @@ export interface AssistantProvider {
   hasEnvKey: boolean
 }
 
+/** One rung of the fallback ladder. Step 0 is the main provider above it. */
+export interface AssistantFallback {
+  step: number
+  provider: string
+  model: string
+  /** Null inherits the main answer length. */
+  maxTokens: number | null
+  enabled: boolean
+}
+
+/** How a step has been behaving, so a benched one is visible where it is configured. */
+export interface AssistantStepHealth {
+  step: number
+  calls: number
+  successRate: number
+  /** An ISO timestamp while the step is benched, else null. */
+  pausedUntil: string | null
+}
+
 export interface AssistantSettings {
   enabled: boolean
   provider: string
@@ -52,8 +71,18 @@ export interface AssistantSettings {
   resolvedBaseUrl: string | null
   model: string
   maxTokens: number
+  /** Grading answers with JSON, which does not fit the chat budget. */
+  gradeMaxTokens: number
   temperature: number
+  /** The share of calls a step must answer to keep its place in the ladder. */
+  targetSuccessRate: number
+  /** Tokens the whole platform may spend in a day. Null is no cap. */
+  dailyTokenCap: number | null
   extraPrompt: string
+  fallbacks: AssistantFallback[]
+  stepHealth: AssistantStepHealth[]
+  /** True once today's spend has passed the cap and the feature is paused. */
+  spendCapHit: boolean
   keyHint: string | null
   keySource: 'stored' | 'environment' | 'none'
   /** A stored key that will not decrypt — usually a rotated wrapping secret. */
@@ -84,8 +113,14 @@ export interface AssistantSettingsPatch {
   baseUrl?: string
   model?: string
   maxTokens?: number
+  gradeMaxTokens?: number
   temperature?: number
+  targetSuccessRate?: number
+  /** Null clears the cap. */
+  dailyTokenCap?: number | null
   extraPrompt?: string
+  /** The whole ladder, in order. Steps are numbered by position on the server. */
+  fallbacks?: { provider: string; model: string; maxTokens: number | null; enabled: boolean }[]
   /** Empty string clears the stored key and falls back to the environment. */
   apiKey?: string
   /** Which provider the key belongs to. Defaults to the one being saved. */
@@ -103,6 +138,11 @@ const MESSAGES: Record<string, string> = {
   unconfigured: 'No API key is set for that provider yet.',
   invalid_model: 'Enter a model id.',
   invalid_max_tokens: 'Answer length must be between 100 and 4000 tokens.',
+  invalid_grade_max_tokens: 'Grading length must be between 400 and 8000 tokens.',
+  invalid_target_success_rate: 'The target must be between 0.5 and 0.999 — 1 would bench a provider for a single failure.',
+  invalid_token_cap: 'A daily token cap must be a whole number of at least 1,000, or empty for no cap.',
+  invalid_fallbacks: 'Every fallback needs a provider and a model id, and there can be at most eight.',
+  assistant_paused: 'The daily token cap has been reached, so the assistant is paused until tomorrow.',
   invalid_temperature: 'Temperature must be between 0 and 1.',
   prompt_too_long: 'Additional instructions must be under 4000 characters.',
   invalid_limit: 'A daily limit must be a whole number between 0 and 10,000.',

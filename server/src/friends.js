@@ -25,11 +25,22 @@ async function accountExists(userId) {
   return rows.length > 0
 }
 
+/**
+ * A name to show a classmate, never the account's own email or its local-part
+ * (`name` falls back to the email as a *placeholder* when nobody has set one —
+ * see accounts.js `saveOwnEnrolment` — so it has to be checked against the
+ * real email, not just truthiness, before it is trusted as a name).
+ */
+export function displayNameFrom({ name, email, username }) {
+  if (name && name !== email) return String(name)
+  return username || 'Student'
+}
+
 /** Name and cohort for a set of ids, for rendering a row. */
 async function profilesFor(ids) {
   if (!ids.length) return new Map()
   const [rows] = await pool.query(
-    `SELECT a.user_id, COALESCE(s.name, s.email, a.email) AS name, s.university_id, s.year
+    `SELECT a.user_id, s.name, a.email, s.username, s.university_id, s.year, s.status_message
        FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id
       WHERE a.user_id IN (?)`,
     [ids],
@@ -38,9 +49,10 @@ async function profilesFor(ids) {
   for (const row of rows) {
     byId.set(row.user_id, {
       userId: row.user_id,
-      displayName: row.name ? String(row.name).split('@')[0] : 'Student',
+      displayName: displayNameFrom(row),
       universityId: row.university_id ?? null,
       year: row.year ?? null,
+      statusMessage: row.status_message ?? null,
     })
   }
   return byId
@@ -127,7 +139,11 @@ export async function directorySearch(userId, query) {
   if (!cohort?.university_id || !cohort?.year || !Number(cohort.discoverable)) return []
   const term = `%${String(query ?? '').trim().slice(0, 60)}%`
   const [rows] = await pool.query(
-    `SELECT s.user_id, COALESCE(s.name, s.email) AS name, s.university_id, s.year
+    // The LIKE still matches against name-or-email — a search box that only
+    // works once a display name exists would be a worse search, and matching
+    // is not the same as displaying. `sortKey` keeps that same ordering.
+    `SELECT s.user_id, s.name, s.email, s.username, s.university_id, s.year, s.status_message,
+            COALESCE(s.name, s.email) AS sortKey
        FROM students s
       WHERE s.university_id = ? AND s.year = ?
         AND s.discoverable = 1
@@ -139,13 +155,14 @@ export async function directorySearch(userId, query) {
            WHERE (f.user_a = LEAST(s.user_id, ?) AND f.user_b = GREATEST(s.user_id, ?))
              AND f.status IN ('pending','accepted')
         )
-      ORDER BY name LIMIT 20`,
+      ORDER BY sortKey LIMIT 20`,
     [cohort.university_id, cohort.year, userId, term, userId, userId],
   )
   return rows.map((row) => ({
     userId: row.user_id,
-    displayName: row.name ? String(row.name).split('@')[0] : 'Student',
+    displayName: displayNameFrom(row),
     universityId: row.university_id ?? null,
     year: row.year ?? null,
+    statusMessage: row.status_message ?? null,
   }))
 }

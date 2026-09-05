@@ -4,7 +4,7 @@
 CON-FND-06F6AE69D9BD8D
 
 ## label
-Gene therapy inserts normal genes into human cells to correct a genetic disorder, and whether the change is heritable depends entirely on which cell line it targets — germline (heritable) or somatic (not heritable)
+Gene therapy: germline vs somatic heritability
 
 ## canonical_key
 genetherapy.definition.germline-vs-somatic-heritability
@@ -24,7 +24,13 @@ Heritability of gene therapy
 العلاج الجيني للخلايا الجسدية
 
 ## definition
-Gene therapy is the process of inserting a normal copy of a gene into human cells to correct a disorder caused by a defective or missing gene — distinct from live vector vaccines (which deliver antigens, not corrective genes), molecular cloning (which is a laboratory DNA-propagation technique, not a patient treatment), and stem cell therapy (which replaces cells rather than genes). Whether the correction can be passed to the next generation depends entirely on which cell line is targeted. Germline gene therapy modifies reproductive cells (sperm, eggs, or the early embryo), so the correction is heritable and passed to offspring. Somatic gene therapy modifies non-reproductive body cells, so the correction is confined to the treated individual and is not heritable — this is the only form of gene therapy currently used in clinical practice, precisely because germline modification's heritability raises safety and ethical concerns that somatic therapy does not.
+**Gene therapy** inserts a normal copy of a gene into human cells to correct a disorder caused by a defective or missing gene. It is distinct from live vector vaccines (deliver antigens), molecular cloning (a lab technique), and stem cell therapy (replaces cells, not genes).
+
+__Whether the correction is heritable depends entirely on which cell line is targeted.__
+
+**Germline** gene therapy modifies reproductive cells (sperm, eggs, or the early embryo), so the correction **is heritable** and passed to offspring.
+
+**Somatic** gene therapy modifies non-reproductive body cells, so the correction is confined to the treated individual and is **not heritable**. __This is the only form currently used in clinical practice__, precisely because germline modification's heritability raises safety and ethical concerns that somatic therapy does not.
 
 ## explicit_objective
 Define gene therapy as gene insertion to correct a disorder, distinguish it from live vector vaccines, molecular cloning and stem cell therapy, and state which of germline vs somatic gene therapy is heritable.
@@ -170,7 +176,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-C444D428BE3E1D
 
 ## label
-Restriction endonucleases are bacterial enzymes that recognise and cut DNA at specific palindromic sequences, and it is this specific recognition — not indiscriminate cutting — that makes them the basic tool of recombinant DNA technology
+Restriction endonucleases: source and recognition
 
 ## canonical_key
 restrictionendonuclease.origin-and-recognition.bacterial-source-palindromic-sites
@@ -189,7 +195,11 @@ Restriction site
 التتابع المتناظر (Palindromic)
 
 ## definition
-Restriction endonucleases occur normally in bacteria, where they form part of a restriction-modification defence system that cuts up foreign (e.g. bacteriophage) DNA while the bacterium's own DNA is protected by methylation at the same sites. Each restriction endonuclease recognises a specific palindromic sequence — a double-stranded sequence that reads identically 5'→3' on both strands, so that its reverse complement equals itself (e.g. ACGGCCGT) — and cuts the DNA only at that sequence, which is why restriction enzymes are described as site-specific rather than random cutters. A restriction endonuclease is capable of recognising its specific site, cutting (breaking the covalent phosphodiester backbone) at that site, and — in the course of unwinding the double helix to reach the cut site — transiently breaking the hydrogen bonds holding the two strands together; this combination of properties is what makes them the foundational tool of molecular cloning and recombinant DNA technology.
+**Restriction endonucleases** occur naturally in bacteria, as part of a **restriction-modification defence system** that cuts up foreign (e.g. bacteriophage) DNA while the bacterium's own DNA is protected by methylation at the same sites.
+
+Each enzyme recognises a specific **palindromic sequence** — a double-stranded sequence that reads identically 5'→3' on both strands, so its reverse complement equals itself (e.g. ACGGCCGT) — and cuts only there. __This is why they are site-specific, not random, cutters.__
+
+A restriction endonuclease can recognise its site, cut (breaking the covalent phosphodiester backbone), and — while unwinding the helix to reach the cut — transiently break the hydrogen bonds between the strands. __This combination makes them the foundational tool of recombinant DNA technology.__
 
 ## explicit_objective
 State that restriction endonucleases are naturally bacterial, that they recognise specific palindromic sequences rather than cutting DNA randomly, and identify a palindromic sequence from its reverse complement.
@@ -336,7 +346,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-744B37261093E4
 
 ## label
-A restriction endonuclease produces sticky ends when its cut leaves overlapping (complementary single-stranded overhang) fragment ends, and blunt ends when the cut leaves non-overlapping, flush fragment ends
+Restriction digestion: sticky vs blunt ends
 
 ## canonical_key
 restrictiondigestion.fragment-ends.sticky-vs-blunt
@@ -355,7 +365,11 @@ Overhang ends
 النهايات الحادة (Blunt ends)
 
 ## definition
-When a restriction endonuclease cuts a double-stranded DNA fragment, the two resulting ends are described by whether they overlap. Sticky (cohesive) ends occur when the enzyme cuts the two strands at staggered positions, leaving a short single-stranded overhang on each fragment; because the two overhangs from any DNA cut by the same enzyme are complementary to each other, the ends of a double-stranded fragment are overlapping and can re-anneal (or anneal to a foreign fragment cut with the same enzyme) by base-pairing — this is exactly why sticky-end cutters are preferred for molecular cloning, since they let a target gene and a vector cut with the same enzyme join specifically. Blunt ends occur when the enzyme cuts both strands at the same position, leaving no overhang; the ends of a double-stranded fragment are non-overlapping (flush), and joining two blunt ends relies on non-specific ligation rather than complementary base-pairing.
+When a restriction endonuclease cuts double-stranded DNA, the two resulting ends are described by whether they overlap.
+
+**Sticky (cohesive) ends** occur when the enzyme cuts the strands at **staggered positions**, leaving a short single-stranded overhang on each fragment. Because overhangs from the same enzyme are complementary, the ends can re-anneal by base-pairing (or anneal to a foreign fragment cut with the same enzyme). __This is why sticky-end cutters are preferred for cloning — a target gene and a vector cut with the same enzyme join specifically.__
+
+**Blunt ends** occur when the enzyme cuts both strands at the **same position**, leaving no overhang. The flush ends are non-overlapping, so joining them relies on **non-specific ligation** rather than complementary base-pairing.
 
 ## explicit_objective
 State that sticky ends have overlapping (overhang) fragment ends and blunt ends have non-overlapping (flush) fragment ends, and explain why sticky ends are useful for directional cloning.
@@ -499,7 +513,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-1F3840652F24F8
 
 ## label
-A restriction enzyme cutting a linear DNA molecule at n sites produces n+1 fragments, but the same enzyme cutting a circular DNA molecule (e.g. a plasmid) at n sites produces exactly n fragments
+Fragment count: linear vs circular DNA
 
 ## canonical_key
 restrictiondigestion.fragment-count.linear-vs-circular-dna
@@ -517,7 +531,11 @@ Plasmid digestion fragment number
 عدد القطع في الدنا الدائري (البلازميد)
 
 ## definition
-Counting the fragments a restriction enzyme produces depends on whether the starting DNA molecule is linear or circular. A linear piece of DNA already has two free ends before any cut is made, so each additional cut at one of the enzyme's n recognition sites adds one more fragment: n cut sites produce n+1 fragments (three sites on a linear molecule give four fragments). A circular piece of DNA (such as a bacterial plasmid, which is the standard cloning vector) has no free ends to start with, so every cut both creates a new fragment and closes off the fragment before it; n cut sites on a circular molecule therefore produce exactly n fragments (three sites on a circular molecule give three fragments, not four).
+The fragment count depends on whether the starting DNA is linear or circular.
+
+**Linear DNA** already has two free ends before any cut, so each cut adds one more fragment: __n cut sites produce n+1 fragments__ (three sites give four fragments).
+
+**Circular DNA** (such as a bacterial plasmid, the standard cloning vector) has no free ends, so every cut both creates a new fragment and closes off the one before it: __n cut sites produce exactly n fragments__ (three sites give three fragments, not four).
 
 ## explicit_objective
 Calculate the number of fragments produced by a restriction enzyme cutting at n sites, applying the linear rule (n+1 fragments) and the circular rule (n fragments) correctly to the shape of molecule given.
@@ -661,7 +679,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-3893485BBEEC06
 
 ## label
-Molecular cloning joins a target DNA segment cut out by a restriction enzyme into a circular double-stranded plasmid vector to form chimeric (recombinant) DNA, which is then transfected into a host cell and selected for using the vector's marker gene
+Molecular cloning workflow and vectors
 
 ## canonical_key
 molecularcloning.workflow.chimeric-dna-and-vectors
@@ -682,7 +700,13 @@ Vector essential features
 الاستنساخ الجزيئي
 
 ## definition
-Molecular cloning is a laboratory DNA technology, distinct from gene therapy, CRISPR gene editing and PCR, in which a target DNA segment is joined to a vector to form chimeric DNA — a gene formed by joining DNA segments from two different sources, also called a hybrid or recombinant gene (all three terms describe the same product). The standard vector is a bacterial plasmid, a double-stranded circular DNA molecule (not single-stranded and not linear); a functional vector must additionally be capable of replicating inside the host cell, contain a restriction site recognised by restriction endonucleases so target DNA can be inserted, and carry a marker gene for selecting successfully transformed host cells — being circular is typical of a plasmid vector but is not itself one of these three essential features, since some vectors (viral vectors) are not circular. The correct sequence of the cloning workflow is: (1) use a restriction endonuclease to isolate/excise the target DNA, (2) join it to the cut vector to form chimeric DNA, (3) transfect the chimeric DNA into a host cell, and (4) select the successfully transformed host cells by their marker gene. Separately, molecular cloning technology is also the basis for producing monoclonal antibodies used in diagnostic tests, via hybridoma cloning of antibody-producing cells.
+**Molecular cloning** is a laboratory DNA technology (distinct from gene therapy, CRISPR editing and PCR) in which a target DNA segment is joined to a vector to form **chimeric DNA** — a gene made from two different sources, also called a hybrid or recombinant gene (all three terms mean the same product).
+
+The standard vector is a **bacterial plasmid**: a double-stranded, circular DNA molecule (not single-stranded, not linear). A functional vector must be able to **replicate inside the host cell**, contain a **restriction site** so target DNA can be inserted, and carry a **marker gene** for selection. __Being circular is typical but not one of these three essential features__ — some viral vectors are not circular.
+
+The cloning workflow: __(1) excise the target DNA with a restriction endonuclease, (2) join it to the cut vector to form chimeric DNA, (3) transfect it into a host cell, (4) select transformed cells by their marker gene.__
+
+Separately, molecular cloning also underlies **monoclonal antibody** production for diagnostics, via hybridoma cloning of antibody-producing cells.
 
 ## explicit_objective
 Describe the correct order of the molecular cloning workflow (cut target DNA, form chimeric DNA, transfect host, select by marker), state that a bacterial plasmid vector is double-stranded circular DNA, and list the three essential features of a vector.
@@ -832,7 +856,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-16C60870619649
 
 ## label
-CRISPR-Cas9 is a gene-editing (not gene-therapy, gene-cloning, or in-vitro-amplification) technology, in which the Cas9 enzyme performs the DNA-cutting step
+CRISPR-Cas9 gene editing
 
 ## canonical_key
 crispr.mechanism.cas9-gene-editing
@@ -852,7 +876,9 @@ Gene editing strategies
 تحرير الجينات
 
 ## definition
-CRISPR-cas9 is classified as a gene editing strategy — distinct from recombinant DNA (molecular cloning), gene cloning, in vitro DNA amplification (PCR), and gene therapy, even though these related technologies are often tested against each other as options. Cas9 is the enzyme CRISPR-cas9 uses to cut the target DNA at a site specified by a guide RNA, and it is Cas9 by name, not Cas3, Cas5, Cpr9 or "Rna5," that a question testing this fact expects.
+**CRISPR-Cas9** is a **gene-editing** strategy — distinct from recombinant DNA (molecular cloning), gene cloning, in-vitro amplification (PCR), and gene therapy, even though these are often tested against each other as options.
+
+__Cas9 is the enzyme that cuts the target DNA__ at a site specified by a **guide RNA** — Cas9 by name, not Cas3, Cas5, Cpr9 or "Rna5."
 
 ## explicit_objective
 Classify CRISPR-cas9 correctly as a gene-editing strategy and name Cas9 as the cutting enzyme it uses.
@@ -996,7 +1022,7 @@ microtopicId: Free-text title given (see microtopic); not guaranteed to resolve 
 CON-FND-1C82888CCCC7FD
 
 ## label
-Adenosine deaminase (ADA) deficiency, a severe combined immunodeficiency, was the first disorder researchers treated with gene therapy, and gene therapy to replace the ADA gene — not any form of blood-product transfusion — is the treatment that can permanently cure it
+ADA deficiency: the first gene-therapy target
 
 ## canonical_key
 adascid.treatment.first-successful-gene-therapy
@@ -1014,7 +1040,13 @@ Gene therapy for ADA deficiency
 أول تجربة علاج جيني
 
 ## definition
-Adenosine deaminase (ADA) deficiency is an autosomal recessive severe combined immunodeficiency in which bone marrow lymphoblasts cannot replicate to generate immune-competent lymphocytes (the underlying biochemical mechanism — dATP accumulation inhibiting ribonucleotide reductase — is covered separately). ADA deficiency holds a specific historical distinction in this chapter: it was the first disorder researchers treated with gene therapy. For a patient with ADA-SCID whose bone marrow lymphoblasts cannot replicate, transfusion-based treatments (blood, plasma, lymphocyte, or platelet transfusion from a healthy donor) can only provide temporary, passive replacement — they do not correct the underlying genetic defect and so cannot permanently cure the patient. Gene therapy to replace the defective ADA gene is the treatment option that would permanently cure the patient, because it corrects the defect in the patient's own lymphoblasts rather than substituting donor cells or products from outside.
+**Adenosine deaminase (ADA) deficiency** is an autosomal recessive **severe combined immunodeficiency**, in which bone marrow lymphoblasts cannot replicate to generate immune-competent lymphocytes (the biochemistry — dATP accumulation inhibiting ribonucleotide reductase — is covered separately).
+
+Its historical distinction: __it was the first disorder researchers treated with gene therapy.__
+
+For a patient whose lymphoblasts cannot replicate, **transfusion-based treatments** (blood, plasma, lymphocyte, or platelet) give only temporary, passive replacement — they do not correct the genetic defect and so cannot cure.
+
+__Gene therapy to replace the defective ADA gene is the option that would permanently cure the patient__, because it corrects the defect in the patient's own lymphoblasts rather than substituting donor cells from outside.
 
 ## explicit_objective
 State that ADA deficiency was the first disorder treated with gene therapy, and explain why gene therapy to replace the ADA gene — rather than any transfusion of donor blood products — is the option that can permanently cure ADA-SCID.

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Bot, CircleAlert, KeyRound, Plus, RefreshCw, RotateCcw, Trash2, TriangleAlert } from 'lucide-react'
+import { ArrowDown, ArrowUp, Bot, CircleAlert, KeyRound, Layers, Plus, RefreshCw, RotateCcw, Trash2, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -9,7 +9,7 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Toggle } from '@/components/ui/Toggle'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Icon } from '@/components/ui/Icon'
-import { useAssistantAdmin, type AssistantTier } from '@/lib/useAssistantAdmin'
+import { useAssistantAdmin, type AssistantFallback, type AssistantStepHealth, type AssistantTier } from '@/lib/useAssistantAdmin'
 
 /**
  * The study assistant's control surface.
@@ -28,6 +28,39 @@ function emptyTier(): AssistantTier {
   return { plan: '', label: '', dailyMessages: 30, enabled: true }
 }
 
+/** A row in the ladder editor. `step` is display only — the server numbers by position. */
+type DraftFallback = Pick<AssistantFallback, 'provider' | 'model' | 'maxTokens' | 'enabled'>
+
+/**
+ * How a step has been behaving, next to the row that configures it.
+ *
+ * Silent until the step has actually been used: "100% of nothing" reads as a
+ * healthy provider, which is the one thing this must not say.
+ */
+function StepHealth({ health }: { health?: AssistantStepHealth }) {
+  if (!health?.calls) return <span className="text-[12px] text-ink-3">Not used yet</span>
+  if (health.pausedUntil) {
+    return (
+      <Badge tone="danger" dot>
+        Paused until {new Date(health.pausedUntil).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+      </Badge>
+    )
+  }
+  return (
+    <span className="tnum text-[12px] text-ink-3">
+      {Math.round(health.successRate * 100)}% of {health.calls} calls
+    </span>
+  )
+}
+
+function moved<T>(list: T[], from: number, to: number): T[] {
+  if (to < 0 || to >= list.length) return list
+  const next = [...list]
+  const [row] = next.splice(from, 1)
+  next.splice(to, 0, row)
+  return next
+}
+
 export function AssistantSetup() {
   const { settings, usage, loading, saving, error, notice, save, saveTier, removeTier, reload, live,
           models, modelsLoading, loadModels } = useAssistantAdmin()
@@ -36,10 +69,14 @@ export function AssistantSetup() {
   const [baseUrl, setBaseUrl] = useState('')
   const [model, setModel] = useState('')
   const [maxTokens, setMaxTokens] = useState(700)
+  const [gradeMaxTokens, setGradeMaxTokens] = useState(1200)
   const [temperature, setTemperature] = useState(0.3)
   const [extraPrompt, setExtraPrompt] = useState('')
   const [apiKey, setApiKey] = useState('')
   const [draftTier, setDraftTier] = useState<AssistantTier | null>(null)
+  const [fallbacks, setFallbacks] = useState<DraftFallback[]>([])
+  const [targetSuccessRate, setTargetSuccessRate] = useState(0.99)
+  const [dailyTokenCap, setDailyTokenCap] = useState('')
 
   // The form mirrors the server's answer whenever it changes, so a save that
   // was rejected leaves the fields showing what is actually stored.
@@ -49,8 +86,14 @@ export function AssistantSetup() {
     setBaseUrl(settings.baseUrl)
     setModel(settings.model)
     setMaxTokens(settings.maxTokens)
+    setGradeMaxTokens(settings.gradeMaxTokens)
     setTemperature(settings.temperature)
     setExtraPrompt(settings.extraPrompt)
+    setFallbacks(settings.fallbacks.map(({ provider: id, model: m, maxTokens: cap, enabled }) => (
+      { provider: id, model: m, maxTokens: cap, enabled }
+    )))
+    setTargetSuccessRate(settings.targetSuccessRate)
+    setDailyTokenCap(settings.dailyTokenCap == null ? '' : String(settings.dailyTokenCap))
   }, [settings])
 
   const activeProvider = settings?.providers.find((entry) => entry.id === provider)
@@ -118,6 +161,16 @@ export function AssistantSetup() {
       )}
       {notice && !error && (
         <div className="mb-4 rounded-lg border border-success/30 bg-success/10 px-3.5 py-2.5 text-[13px] text-ink">{notice}</div>
+      )}
+
+      {settings?.spendCapHit && (
+        <div className="mb-4 flex items-start gap-2.5 rounded-lg border border-danger/30 bg-danger/8 px-3.5 py-2.5">
+          <Icon icon={TriangleAlert} size={15} className="mt-0.5 shrink-0 text-danger" />
+          <p className="text-[13px] leading-relaxed text-ink">
+            <span className="font-semibold">The daily token cap has been reached.</span> The assistant and essay grading are
+            answering &ldquo;paused&rdquo; to every student until tomorrow. Raise the cap below, or clear it, to resume now.
+          </p>
+        </div>
       )}
 
       {loading && !settings && <Panel className="p-6 text-[13.5px] text-ink-3">Loading…</Panel>}
@@ -301,6 +354,29 @@ export function AssistantSetup() {
               </Field>
 
               <Field
+                label="Longest essay grade"
+                hint="Grading answers with a JSON object sized by the mark scheme. On the chat budget it truncates mid-object and the call is wasted."
+              >
+                <TextInput
+                  type="number" min={400} max={8000} step={100}
+                  value={gradeMaxTokens}
+                  onChange={(event) => setGradeMaxTokens(Number(event.target.value))}
+                />
+              </Field>
+
+              <Field
+                label="Daily token cap"
+                hint="Tokens the whole platform may spend in a day. Empty is no cap. Past it the assistant answers 'paused' rather than spending."
+              >
+                <TextInput
+                  type="number" min={1000} step={1000}
+                  placeholder="No cap"
+                  value={dailyTokenCap}
+                  onChange={(event) => setDailyTokenCap(event.target.value)}
+                />
+              </Field>
+
+              <Field
                 className="lg:col-span-2"
                 label="Additional instructions"
                 hint="Appended to the built-in prompt — it cannot replace it. The clinical-guidance refusal is not editable from here."
@@ -318,7 +394,10 @@ export function AssistantSetup() {
                   variant="primary"
                   loading={saving}
                   disabled={!model.trim() || (Boolean(activeProvider?.requiresBaseUrl) && !baseUrl.trim())}
-                  onClick={() => void save({ provider, baseUrl, model: model.trim(), maxTokens, temperature, extraPrompt })}
+                  onClick={() => void save({
+                    provider, baseUrl, model: model.trim(), maxTokens, gradeMaxTokens, temperature, extraPrompt,
+                    dailyTokenCap: dailyTokenCap.trim() === '' ? null : Number(dailyTokenCap),
+                  })}
                 >
                   Save provider and model
                 </Button>
@@ -327,6 +406,137 @@ export function AssistantSetup() {
                     {activeProvider.label} has no key yet — set one above before enabling.
                   </span>
                 )}
+              </div>
+            </div>
+          </Panel>
+
+          {/* ---- Fallback ladder ---- */}
+          <Panel>
+            <PanelHeader
+              title="If that provider does not answer"
+              icon={Layers}
+              hint="Tried in order after the provider above, on a rate limit, an outage or a timeout. Each step signs with the key already stored for its provider."
+              action={
+                <Button
+                  variant="secondary"
+                  size="sm"
+                  iconLeft={Plus}
+                  disabled={fallbacks.length >= 8}
+                  onClick={() => setFallbacks([...fallbacks, {
+                    provider, model: model.trim() || (activeProvider?.suggested[0] ?? ''), maxTokens: null, enabled: true,
+                  }])}
+                >
+                  Add a step
+                </Button>
+              }
+            />
+            <div className="grid gap-3 border-t border-line p-4 sm:p-5">
+              <div className="flex flex-wrap items-center gap-2 text-[12.5px] text-ink-2">
+                <Badge tone="neutral">Step 0</Badge>
+                <span>{activeProvider?.label ?? provider} — <span className="font-mono">{model || '—'}</span></span>
+                <StepHealth health={settings.stepHealth.find((entry) => entry.step === 0)} />
+              </div>
+
+              {fallbacks.length === 0 && (
+                <p className="text-[13px] text-ink-3">
+                  No fallback. A rate limit or an outage at {activeProvider?.label ?? 'that provider'} is an outage of the assistant.
+                </p>
+              )}
+
+              {fallbacks.map((row, index) => {
+                const def = settings.providers.find((entry) => entry.id === row.provider)
+                const patch = (next: Partial<DraftFallback>) =>
+                  setFallbacks(fallbacks.map((entry, i) => (i === index ? { ...entry, ...next } : entry)))
+                return (
+                  <div
+                    key={index}
+                    className="grid gap-3 rounded-lg border border-line bg-inset p-3 sm:grid-cols-[auto_1fr_1fr_auto_auto_auto] sm:items-end"
+                  >
+                    <div className="flex items-center gap-2 pb-1.5">
+                      <Badge tone="neutral">Step {index + 1}</Badge>
+                      <StepHealth health={settings.stepHealth.find((entry) => entry.step === index + 1)} />
+                    </div>
+
+                    <Field label="Provider">
+                      <Select value={row.provider} onChange={(event) => patch({ provider: event.target.value })}>
+                        {settings.providers.map((entry) => (
+                          <option key={entry.id} value={entry.id}>
+                            {entry.label}
+                            {entry.hasStoredKey || entry.hasEnvKey ? '' : ' — no key'}
+                          </option>
+                        ))}
+                      </Select>
+                    </Field>
+
+                    <Field label="Model">
+                      <TextInput
+                        value={row.model}
+                        onChange={(event) => patch({ model: event.target.value })}
+                        placeholder={def?.suggested[0] ?? 'model-id'}
+                      />
+                    </Field>
+
+                    <Field label="Tokens" hint="Blank inherits.">
+                      <TextInput
+                        type="number" min={100} max={8000} step={50}
+                        className="w-24"
+                        value={row.maxTokens ?? ''}
+                        placeholder={String(maxTokens)}
+                        onChange={(event) => patch({ maxTokens: event.target.value === '' ? null : Number(event.target.value) })}
+                      />
+                    </Field>
+
+                    <div className="flex items-center gap-2 pb-1.5">
+                      <Toggle
+                        checked={row.enabled}
+                        onChange={(next) => patch({ enabled: next })}
+                        label={`Step ${index + 1} enabled`}
+                      />
+                    </div>
+
+                    <div className="flex items-center gap-1 pb-1">
+                      <IconButton
+                        icon={ArrowUp}
+                        label={`Move step ${index + 1} up`}
+                        disabled={index === 0}
+                        onClick={() => setFallbacks(moved(fallbacks, index, index - 1))}
+                      />
+                      <IconButton
+                        icon={ArrowDown}
+                        label={`Move step ${index + 1} down`}
+                        disabled={index === fallbacks.length - 1}
+                        onClick={() => setFallbacks(moved(fallbacks, index, index + 1))}
+                      />
+                      <IconButton
+                        icon={Trash2}
+                        label={`Remove step ${index + 1}`}
+                        onClick={() => setFallbacks(fallbacks.filter((_, i) => i !== index))}
+                      />
+                    </div>
+                  </div>
+                )
+              })}
+
+              <div className="flex flex-wrap items-end gap-4">
+                <Field
+                  label="Target success rate"
+                  className="w-40"
+                  hint="A step answering less often than this is skipped for ten minutes."
+                >
+                  <TextInput
+                    type="number" min={0.5} max={0.999} step={0.005}
+                    value={targetSuccessRate}
+                    onChange={(event) => setTargetSuccessRate(Number(event.target.value))}
+                  />
+                </Field>
+                <Button
+                  variant="primary"
+                  loading={saving}
+                  disabled={fallbacks.some((row) => !row.model.trim())}
+                  onClick={() => void save({ fallbacks, targetSuccessRate })}
+                >
+                  Save fallbacks
+                </Button>
               </div>
             </div>
           </Panel>

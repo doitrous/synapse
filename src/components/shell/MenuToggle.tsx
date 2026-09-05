@@ -45,7 +45,6 @@ export function MenuToggle({
       onClick={onToggle}
       aria-expanded={open}
       aria-label={text}
-      title={text}
       className={cn(
         'inline-flex items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
         showLabel ? 'h-11 gap-2 px-2.5 text-[13px] lg:h-9' : direction ? 'h-11 gap-0.5 px-1.5 lg:h-9' : 'size-11 justify-center gap-2 lg:size-9',

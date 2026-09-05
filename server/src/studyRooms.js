@@ -15,8 +15,8 @@
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
-import { orderedPair } from './friendship.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
+import { displayNameFrom } from './friends.js'
 
 /** Longest a room may be. Enough for a full paper, short of an endurance test. */
 const MAX_QUESTIONS = 40
@@ -33,11 +33,20 @@ function newCode() {
 
 async function displayNameFor(userId) {
   const [rows] = await pool.query(
-    'SELECT COALESCE(s.name, s.email, a.email) AS name FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id WHERE a.user_id = ? LIMIT 1',
+    'SELECT s.name, a.email, s.username FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id WHERE a.user_id = ? LIMIT 1',
     [userId],
   )
-  const name = rows[0]?.name
-  return name ? String(name).split('@')[0] : 'Student'
+  return displayNameFrom(rows[0] ?? {})
+}
+
+/** Batch form of `displayNameFor`, for seating several members in one insert. */
+async function displayNamesFor(userIds) {
+  if (!userIds.length) return new Map()
+  const [rows] = await pool.query(
+    'SELECT a.user_id, s.name, a.email, s.username FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id WHERE a.user_id IN (?)',
+    [userIds],
+  )
+  return new Map(rows.map((row) => [row.user_id, displayNameFrom(row)]))
 }
 
 /**
@@ -50,21 +59,27 @@ async function displayNameFor(userId) {
  * would turn room creation into a way to probe whether an arbitrary user id
  * exists, so a non-friend is simply not seated, the same way a stranger's
  * guess at a room code just does not work.
+ *
+ * One query for who is actually an accepted friend, one for their names, one
+ * multi-row insert to seat them — regardless of how many were invited,
+ * instead of two round trips per invitee.
  */
-async function seatInvitedFriends(hostId, roomId, inviteUserIds) {
+// Exported only for the query-count test below — every real caller reaches
+// this through createRoom.
+export async function seatInvitedFriends(hostId, roomId, inviteUserIds) {
   const ids = [...new Set((Array.isArray(inviteUserIds) ? inviteUserIds : []).filter((id) => id && id !== hostId))]
-  for (const friendId of ids) {
-    const { userA, userB } = orderedPair(hostId, friendId)
-    const [rows] = await pool.query(
-      "SELECT 1 FROM friendships WHERE user_a = ? AND user_b = ? AND status = 'accepted' LIMIT 1",
-      [userA, userB],
-    )
-    if (!rows.length) continue
-    await pool.query(
-      'INSERT INTO study_room_members (room_id, user_id, display_name) VALUES (?, ?, ?)',
-      [roomId, friendId, await displayNameFor(friendId)],
-    )
-  }
+  if (!ids.length) return
+  const [friendRows] = await pool.query(
+    `SELECT user_a, user_b FROM friendships
+      WHERE status = 'accepted' AND ((user_a = ? AND user_b IN (?)) OR (user_b = ? AND user_a IN (?)))`,
+    [hostId, ids, hostId, ids],
+  )
+  const friendIds = friendRows.map((row) => (row.user_a === hostId ? row.user_b : row.user_a))
+  if (!friendIds.length) return
+  const names = await displayNamesFor(friendIds)
+  const placeholders = friendIds.map(() => '(?, ?, ?)').join(', ')
+  const params = friendIds.flatMap((friendId) => [roomId, friendId, names.get(friendId) ?? 'Student'])
+  await pool.query(`INSERT INTO study_room_members (room_id, user_id, display_name) VALUES ${placeholders}`, params)
 }
 
 async function createRoomUnlocked(userId, { name, questionIds, timed, secondsPerQuestion, inviteUserIds }) {

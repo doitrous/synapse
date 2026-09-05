@@ -1,9 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { apiPost } from '@/lib/api'
-import { authAccessToken } from '@/lib/supabase'
+import { API_BASE, apiPost } from '@/lib/api'
 import type { PartyGameAction, PartyGamePublicState, PublicPartyGameEvent } from '@/data/partyGameSync'
-
-const API_BASE = import.meta.env.VITE_API_BASE as string | undefined
 
 export interface UsePartyGameSyncOptions {
   partyId: string
@@ -121,12 +118,13 @@ export function usePartyGameSync({
     async function connect() {
       while (!abort.signal.aborted) {
         try {
-          const token = await authAccessToken()
           const after = lastEventId.current
           const separator = resolvedEventsPath.includes('?') ? '&' : '?'
           const path = after ? `${resolvedEventsPath}${separator}after=${encodeURIComponent(after)}` : resolvedEventsPath
-          const response = await fetch(`${API_BASE ?? ''}${path}`, {
-            headers: token ? { Authorization: `Bearer ${token}` } : {},
+          // No Authorization header: the session is a same-origin cookie the
+          // browser attaches itself, and there is no token in this page to send.
+          const response = await fetch(`${API_BASE}${path}`, {
+            credentials: 'same-origin',
             signal: abort.signal,
           })
           if (!response.ok || !response.body) throw new Error('Live party updates are reconnecting.')

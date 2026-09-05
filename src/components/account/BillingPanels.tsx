@@ -155,7 +155,7 @@ export function BillingPanels() {
                 title={t('No subscription yet')}
                 description={profileMissing
                   ? t("Your university hasn't set up your student profile yet. Once it has, any plan granted to you appears here.")
-                  : t('No plan has been granted to your account yet. Contact the Maristana team to arrange one.')}
+                  : t('No plan has been granted to your account yet. Contact the Nishany team to arrange one.')}
                 action={<ButtonAnchor href={supportLink} variant="secondary" size="sm" iconLeft={LifeBuoy}>{t('Contact support')}</ButtonAnchor>}
               />
             ) : (
@@ -191,7 +191,7 @@ export function BillingPanels() {
                 )}
 
                 <p className="mt-5 border-t border-line pt-4 text-[12.5px] leading-relaxed text-ink-3">
-                  {t('Subscriptions are managed by the Maristana team. To change or end your plan, get in touch and someone will action it on your account.')}
+                  {t('Subscriptions are managed by the Nishany team. To change or end your plan, get in touch and someone will action it on your account.')}
                 </p>
                 <ButtonAnchor href={supportLink} className="mt-3" variant="secondary" size="md" iconLeft={LifeBuoy}>{t('Contact support about your plan')}</ButtonAnchor>
               </>
@@ -203,7 +203,7 @@ export function BillingPanels() {
           <PanelHeader title={t('Payments')} icon={CreditCard} />
           <div className="p-5">
             <p className="text-[13px] leading-relaxed text-ink-2">
-              {t('Maristana does not take card payments in the app, and stores no card details. Your plan is arranged with the Maristana team directly.')}
+              {t('Nishany does not take card payments in the app, and stores no card details. Your plan is arranged with the Nishany team directly.')}
             </p>
           </div>
         </Panel>
@@ -256,7 +256,7 @@ export function BillingPanels() {
           <PanelHeader title={t('Student ID discount')} icon={IdCard} />
           <div className="p-5">
             <p className="text-[12.5px] leading-relaxed text-ink-2">
-              {t('Upload your student ID to claim {percent}% off. It is checked by the Maristana team, and the discount applies from your next invoice once it is accepted.')
+              {t('Upload your student ID to claim {percent}% off. It is checked by the Nishany team, and the discount applies from your next invoice once it is accepted.')
                 .replace('{percent}', String(studentIdOffer.percent))}
             </p>
             {studentIdDoc ? (

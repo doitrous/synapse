@@ -10,6 +10,8 @@ import { useUpcoming } from '@/lib/useUpcoming'
 import { useTasks } from '@/lib/useTasks'
 import { dayDiff } from '@/lib/format'
 import { useT } from '@/lib/i18n'
+import { PageContainer, PageHeader } from '@/components/shell/Page'
+import { SkeletonCard } from '@/components/ui/Skeleton'
 
 function examDate(ymd: string): Date | null {
   const [year, month, day] = ymd.split('-').map(Number)
@@ -32,20 +34,33 @@ function examDate(ymd: string): Date | null {
 export function Plan() {
   const t = useT()
   const { items } = useUpcoming()
-  const { records } = useAttemptHistory()
+  const { records, loading } = useAttemptHistory()
   const { doc } = useTasks()
   const nextExam = useNextExam()
 
   const now = new Date()
+  const qbank = useMemo(() => records.filter((record) => record.surface === 'qbank' || record.surface === 'room'), [records])
+  const accuracy = useMemo(() => firstAttemptSplit(qbank).first.accuracy, [qbank])
+  const sessions = useMemo(() => bySession(qbank).length, [qbank])
+
+  if (loading) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Plan')} description={t('Where your weeks are going.')} className="border-b border-line pb-5 sm:pb-6" />
+        <div className="stagger grid gap-4 sm:grid-cols-2 xl:grid-cols-3" aria-label={t('Loading…')}>
+          <SkeletonCard className="h-40" />
+          <SkeletonCard className="h-40" />
+          <SkeletonCard className="h-40" />
+        </div>
+      </PageContainer>
+    )
+  }
+
   const today = itemsOn(items, now)
   const personal = today.filter((item) => item.source === 'personal')
   const donePersonal = personal.filter((item) => item.done).length
   const open = openTasks(doc).length
-
-  const qbank = useMemo(() => records.filter((record) => record.surface === 'qbank' || record.surface === 'room'), [records])
-  const accuracy = useMemo(() => firstAttemptSplit(qbank).first.accuracy, [qbank])
   const week = dailyCounts(qbank, 7, now).reduce((sum, day) => sum + day.attempts, 0)
-  const sessions = useMemo(() => bySession(qbank).length, [qbank])
 
   const examDay = nextExam ? examDate(nextExam.exam.date) : null
   const daysToExam = examDay ? Math.max(0, dayDiff(examDay, now)) : null

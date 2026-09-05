@@ -17,9 +17,9 @@ import { useLiveEssays } from '@/lib/useLiveEssays'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { STUDY_BLOCKS_STORAGE_KEY, type StudyBlock } from '@/data/studyBlocks'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
+import { useIdentity } from '@/lib/useIdentity'
 import { PartyGameSyncPlayer } from './PartyGameSyncPlayer'
 import type { PartyGameKind, PartyGamePublicState } from '@/data/partyGameSync'
-import { authUserId } from '@/lib/supabase'
 
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
@@ -133,7 +133,9 @@ export function PartyPage({
   const [partyGames, setPartyGames] = useState<PartyGameSummary[]>([])
   const [openGame, setOpenGame] = useState<PartyGamePublicState | null>(null)
   const [gameMessage, setGameMessage] = useState('')
-  const [actorId, setActorId] = useState<string | null>(null)
+  // The account id used to come from the Supabase session in this browser.
+  // `/api/me` is the only thing that knows it now, and identity already holds it.
+  const actorId = useIdentity().userId
 
   const activities = useMemo(() => [
     ...questions.map((question) => ({ kind: 'question' as const, id: question.id, title: question.stem, subjectId: question.subjectId })),
@@ -157,9 +159,6 @@ export function PartyPage({
     void reloadPartyGames()
   }, [reloadPartyGames])
 
-  useEffect(() => {
-    void authUserId().then(setActorId)
-  }, [])
 
   if (openSessionId) {
     return <PartySessionRunner sessionId={openSessionId} onExit={() => { setOpenSessionId(null); void reloadSessions() }} />
@@ -447,7 +446,10 @@ export function PartyPage({
           {party.members.map((member) => (
             <li key={member.userId} className="flex items-center gap-3 px-4 py-2.5">
               <Avatar name={member.displayName} size="sm" />
-              <span className="min-w-0 flex-1 truncate text-[13px] text-ink">{member.displayName}</span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-[13px] text-ink">{member.displayName}</span>
+                {member.statusMessage && <span className="block truncate text-[11px] text-ink-3">{member.statusMessage}</span>}
+              </span>
               {member.role === 'host' && <Badge tone="primary">{t('Host')}</Badge>}
             </li>
           ))}

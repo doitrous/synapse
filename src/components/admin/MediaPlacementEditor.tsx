@@ -10,6 +10,7 @@ import { useMediaRecords } from '@/lib/useMediaRecords'
 import { verifyRenders } from '@/lib/mediaUpload'
 import type { AnswerLetter, MediaPlacement, MediaSlot } from '@/data/mediaLibrary'
 import type { Question } from '@/data/qbank'
+import { newId } from '@/data/userLibrary'
 
 const SLOTS: Array<{ id: MediaSlot; label: string }> = [
   { id: 'stem', label: 'Question stem' },
@@ -33,7 +34,7 @@ type Proof =
   | { phase: 'failed'; at: 'upload' | 'verify'; reason: string }
 
 function newPlacementId() {
-  return `plc-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
+  return newId('plc')
 }
 
 /**

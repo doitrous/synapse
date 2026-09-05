@@ -6,7 +6,7 @@ import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { API_MODE, apiDelete } from '@/lib/api'
-import { supabase } from '@/lib/supabase'
+import { logout } from '@/lib/auth/client'
 import { useT } from '@/lib/i18n'
 
 const CONFIRM_WORD = 'DELETE'
@@ -31,9 +31,9 @@ export function DeleteAccountDialog({ onClose }: { onClose: () => void }) {
     try {
       if (API_MODE) await apiDelete('/account')
       // Best-effort: the account is already gone server-side at this point,
-      // so a Supabase hiccup here should not strand the student on a page
+      // so a logout hiccup here should not strand the student on a page
       // that belongs to a deleted account.
-      await supabase?.auth.signOut({ scope: 'local' }).catch(() => {})
+      await logout().catch(() => {})
       navigate('/login', { replace: true })
     } catch {
       setError(t('Your account could not be deleted right now. Check your connection and try again, or contact support.'))
