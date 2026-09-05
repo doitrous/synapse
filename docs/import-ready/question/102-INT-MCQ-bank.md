@@ -17215,3 +17215,1006 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-179
+## title
+A protein rich in glycine is:
+## question
+A protein rich in glycine is:
+## vignette
+This item asks the student to state that collagen is unusually rich in glycine because it occupies every third position of the repeating triplet.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen
+## explanation_a
+Correct by the description of collagen's amino acid composition: each α-chain's repeating Gly-X-Y triplet places glycine at every third position across roughly 1000 residues, making collagen distinctively glycine-rich.
+
+Why this is right:
+- Collagen is strong because every level of its structure is built for it, for seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility.
+## answer_b
+Hemoglobin
+## explanation_b
+Hemoglobin's globin chains are not described in terms of glycine content; nothing in this chapter's text supports singling it out as glycine-rich.
+## answer_c
+Keratin
+## explanation_c
+Keratin appears only as a named example of a fibrous protein and, elsewhere, of a protein with disulfide-bonded cysteines; its glycine content is not stated.
+## answer_d
+Fibronectin
+## explanation_d
+Fibronectin is named only once in this chapter's text, in a list of extracellular-matrix fibrous proteins, with no composition detail given — given no basis for calling it glycine-rich.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-14647EC60106E1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that collagen is unusually rich in glycine because it occupies every third position of the repeating triplet.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key ("none"). The book states that in collagen's repeating Gly-X-Y triplet, glycine occupies every third position across roughly 1000 residues per α-chain — making collagen unusually glycine-rich among proteins; the book does not give a glycine content for hemoglobin, keratin or fibronectin to compare against.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-180
+## title
+The number of helices in collagen molecule are:
+## question
+The number of helices in collagen molecule are:
+## vignette
+This item asks the student to state that tropocollagen is built from three coiled α-chains.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+|
+## explanation_a
+Reads as "1" (garbled by OCR to "|"); a single chain could not form the triple helix described as tropocollagen's building unit.
+## answer_b
+2
+## explanation_b
+Two chains would not match the description of tropocollagen; it explicitly names three left-handed α-chains twisting together.
+## answer_c
+3
+## explanation_c
+Correct. Tropocollagen consists of three coiled α-chains, each a left-handed helix, tightly twisted together into a right-handed superhelix.
+
+Why this is right:
+- Collagen is strong because every level of its structure is built for it, for seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility.
+## answer_d
+4
+## explanation_d
+Four chains overshoots the count; tropocollagen is built from three α-chains, not four.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-14647EC60106E1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that tropocollagen is built from three coiled α-chains.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-181
+## title
+Each turn in the helix of tropocollagen contains:
+## question
+Each turn in the helix of tropocollagen contains:
+## vignette
+This item asks the student to state that each turn of tropocollagen's helix contains 3 amino acid residues, tighter than an ordinary protein's 3.6.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+3 amino acids
+## explanation_a
+Correct. Each turn of the collagen helix contains 3 amino acid residues, making a tighter helix than normal proteins, which have 3.6 residues per turn.
+
+Why this is right:
+- Collagen is strong because every level of its structure is built for it, for seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility.
+## answer_b
+4 amino acids
+## explanation_b
+4 residues per turn is not the figure given for collagen; it states 3.
+## answer_c
+3.6 amino acids
+## explanation_c
+3.6 is the figure for normal proteins' helix, given specifically as the contrast to collagen's tighter, 3-residue turn — not collagen's own value.
+## answer_d
+4.6 amino acids
+## explanation_d
+4.6 does not match either figure given — neither collagen's 3 residues per turn nor the ordinary protein's 3.6.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-14647EC60106E1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that each turn of tropocollagen's helix contains 3 amino acid residues, tighter than an ordinary protein's 3.6.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-182
+## title
+Each third position in the amino acid composition of collagen contains:
+## question
+Each third position in the amino acid composition of collagen contains:
+## vignette
+This item asks the student to state that glycine occupies every third position of collagen's repeating amino acid triplet.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Serine
+## explanation_a
+Serine is not named in the Gly-X-Y triplet at all; this option likely reflects an OCR misread of the printed key rather than a book-supported answer.
+## answer_b
+Proline
+## explanation_b
+Proline is the X position in the Gly-X-Y triplet, not the third (repeating-Gly) position — it sits at the second position of each triplet, not the third.
+## answer_c
+Lysine
+## explanation_c
+Lysine only appears as an occasional substitute for the X position (normally proline); it is not the residue occupying every third position.
+## answer_d
+Glycine
+## explanation_d
+Correct. The repeating triplet is Gly-X-Y, where Gly is glycine, present in every third position of the chain.
+
+Why this is right:
+- Collagen is strong because every level of its structure is built for it, for seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-14647EC60106E1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that glycine occupies every third position of collagen's repeating amino acid triplet.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagree between (a) Serine and (d) Glycine. The book's own text settles it: each α-chain's repeating triplet is Gly-X-Y, "where Gly is glycine (which is present in every third position)" — glycine, not serine, occupies the third position.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-183
+## title
+In collagen, the vitamin required for the formation of hydroxyproline is:
+## question
+In collagen, the vitamin required for the formation of hydroxyproline is:
+## vignette
+This item asks the student to name vitamin C as the cofactor collagen's proline-hydroxylase enzyme requires.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Vitamin C
+## explanation_a
+Correct. Hydroxylation of some proline and some lysine residues, during collagen synthesis in the RER, is carried out by hydroxylase enzymes that require vitamin C as a cofactor.
+
+Why this is right:
+- During collagen synthesis, inside the lumen of the rough endoplasmic reticulum, some proline and some lysine residues of the procollagen α-chain are hydroxylated by hydroxylase enzymes that require vitamin C as a cofactor.
+## answer_b
+Vitamin A
+## explanation_b
+Vitamin A is not named anywhere in this chapter's account of collagen synthesis.
+## answer_c
+Vitamin D
+## explanation_c
+Vitamin D is named elsewhere only in connection with osteocalcin synthesis (induced by calcitriol), not with proline hydroxylation.
+## answer_d
+Vitamin E
+## explanation_d
+Vitamin E is not named anywhere in this chapter's text on collagen synthesis.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-96FF52D15F67AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name vitamin C as the cofactor collagen's proline-hydroxylase enzyme requires.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key ("none"). The book states directly that hydroxylation of some proline and some lysine residues during collagen synthesis is carried out by hydroxylase enzymes that require vitamin C as a cofactor.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-184
+## title
+In collagen, glucose and galactose residues are attached to:
+## question
+In collagen, glucose and galactose residues are attached to:
+## vignette
+This item asks the student to state that glucose and galactose attach to hydroxylysine, making collagen a glycoprotein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lysine
+## explanation_a
+Unmodified lysine is not the attachment site named; lysine must first be hydroxylated to hydroxylysine before the sugars are attached.
+## answer_b
+Proline
+## explanation_b
+Proline occupies the X position of the triplet and is not described as carrying attached sugars; hydroxylation and glycosylation in the account happen to lysine residues, not proline.
+## answer_c
+Hydroxylysine
+## explanation_c
+Correct. Glucose and galactose molecules are attached to hydroxylysine residues, which is why collagen is considered a glycoprotein.
+
+Why this is right:
+- During collagen synthesis, inside the lumen of the rough endoplasmic reticulum, some proline and some lysine residues of the procollagen α-chain are hydroxylated by hydroxylase enzymes that require vitamin C as a cofactor.
+## answer_d
+Hydroxyproline
+## explanation_d
+Hydroxyproline is the hydroxylated form of proline (the Y position of the triplet); attached the sugars to hydroxylysine, not hydroxyproline.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-96FF52D15F67AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that glucose and galactose attach to hydroxylysine, making collagen a glycoprotein.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p38 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-185
+## title
+Collagen and elastin have the following similarity:
+## question
+Collagen and elastin have the following similarity:
+## vignette
+This item asks the student to identify hydroxyproline content as a feature collagen and elastin share, despite differing everywhere else.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Both are glycoproteins
+## explanation_a
+Elastin is a non-glycoprotein, unlike collagen, which is a glycoprotein because of its sugar-bearing hydroxylysine residues — this is a difference, not a similarity.
+## answer_b
+Both, tropocollagen and tropoelastin, are triple helices
+## explanation_b
+Described tropocollagen as three chains forming a triple helix, but tropoelastin as a monomer — a single polypeptide chain, not a helix of several chains — so this is also a difference, not a shared feature.
+## answer_c
+Both have hydroxyproline residues
+## explanation_c
+Correct. Tropoelastin contains little hydroxyproline (less than collagen's Y-position hydroxyproline content, but present nonetheless), so both proteins carry hydroxyproline residues, even though the amounts differ.
+
+Why this is right:
+- Collagen and elastin are both connective-tissue fibrous proteins and share the presence of hydroxyproline residues, though elastin's tropoelastin monomer contains only little hydroxyproline and no hydroxylysine at all, unlike collagen's larger hydroxyproline content.
+## answer_d
+Both have hydroxylysine residues
+## explanation_d
+Explicitly stated elastin has no hydroxylysine at all, while collagen's hydroxylysine is what carries its attached sugars — a clear difference, not a similarity.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-31F96EC2F609C9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify hydroxyproline content as a feature collagen and elastin share, despite differing everywhere else.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p39 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-186
+## title
+Carboxylation of glutamate residues in bone tissue requires:
+## question
+Carboxylation of glutamate residues in bone tissue requires:
+## vignette
+This item asks the student to name vitamin K as the cofactor for γ-carboxylation of osteocalcin's glutamate residues.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Vitamin A
+## explanation_a
+Vitamin A is not named in the account of bone protein carboxylation.
+## answer_b
+Vitamin C
+## explanation_b
+Vitamin C is the cofactor for collagen's proline/lysine hydroxylation, a different reaction from the glutamate carboxylation this question asks about.
+## answer_c
+Vitamin D
+## explanation_c
+Vitamin D (as calcitriol) is named as what induces osteocalcin's synthesis, not as the cofactor for the carboxylation reaction itself — that is vitamin K.
+## answer_d
+Vitamin K
+## explanation_d
+Correct. Osteocalcin's glutamate residues are γ-carboxylated by a vitamin K-dependent enzyme, to γ-carboxyglutamate that binds hydroxyapatite.
+
+Why this is right:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-E6C216AED80ED8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name vitamin K as the cofactor for γ-carboxylation of osteocalcin's glutamate residues.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p39 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-187
+## title
+Bone proteins contain mainly collagen:
+## question
+Bone proteins contain mainly collagen:
+## vignette
+This item asks the student to state that Type I collagen forms 90% of bone protein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Type I
+## explanation_a
+Correct. Type I collagen forms 90% of bone proteins, made of two α1 chains and one α2 chain.
+
+Why this is right:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
+## answer_b
+Type Il
+## explanation_b
+Garbled by OCR to "Type Il"; read as Type II, this is the collagen type assigned to cartilage, not bone — bone's dominant type is Type I.
+## answer_c
+Type Il
+## explanation_c
+Also garbled to "Type Il", identically to option b; whichever numeral was intended, it is not Type I, the type forms 90% of bone protein.
+## answer_d
+Type IV
+## explanation_d
+Type IV is named only as a minor form present in bone, not the mainly-present type — bone's dominant collagen is Type I.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-E6C216AED80ED8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Type I collagen forms 90% of bone protein.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p39 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-188
+## title
+The most abundant collagen in cartilage is:
+## question
+The most abundant collagen in cartilage is:
+## vignette
+This item asks the student to state that Type II collagen is the most abundant collagen in cartilage.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Typel
+## explanation_a
+Garbled OCR for "Type I" ("Typel"); Type I is the dominant collagen for bone, not cartilage — cartilage's dominant type is Type II.
+## answer_b
+Type II
+## explanation_b
+Correct. Type II collagen forms 90–98% of the total collagen present in cartilage, made of three identical α1 chains.
+
+Why this is right:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
+## answer_c
+Type Ill
+## explanation_c
+Garbled OCR for "Type III" ("Type Ill"); type III only is one of several minor collagen types, without singling it out for cartilage.
+## answer_d
+Type IV
+## explanation_d
+Type IV is not named as cartilage's dominant collagen; given Type II that role.
+## topic
+Proteins Of Extracellular Matrix
+## subtopic
+Proteins of Extracellular Matrix
+## main_concept
+CON-FND-E6C216AED80ED8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Extracellular Matrix
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Type II collagen is the most abundant collagen in cartilage.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p39 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
