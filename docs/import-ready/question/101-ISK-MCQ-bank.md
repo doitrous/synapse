@@ -118092,3 +118092,4028 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives merocrine as the most common mode, discharged by exocytosis with no change in the secretory cell. Option b is the same sentence with "least" substituted for "most", which is what makes it the item's trap.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1169
+## title
+Which of the following is NOT a fiber found in connective tissue?
+## question
+Which of the following is NOT a fiber found in connective tissue?
+## vignette
+This item asks the student to name the three connective tissue fibres and reject a fibre that belongs to another tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Collagen fiber
+## explanation_a
+One of the three. Collagen is the strongest and the most abundant.
+## answer_b
+Elastic fiber
+## explanation_b
+One of the three. Elastic fibres are the ones that stretch and recoil.
+## answer_c
+Reticular fiber
+## explanation_c
+One of the three. Reticular fibres are the branching network of an organ's stroma.
+## answer_d
+Purkinje fiber
+## explanation_d
+Correct. Not a connective tissue fibre at all. Purkinje fibres are modified cardiac muscle cells conducting the impulse through the ventricle; the word "fibre" in histology names a thread of protein in some places and a whole cell in others, and this option is built on that ambiguity.
+
+Why this is right:
+- There are three connective tissue fibres and no others; each is a protein polymerised into threads and each does one mechanical job.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6CCD045AEF0536
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the three connective tissue fibres and reject a fibre that belongs to another tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q3. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1170
+## title
+Which is the most abundant fiber in connective tissue?
+## question
+Which is the most abundant fiber in connective tissue?
+## vignette
+This item asks the student to name the commonest connective tissue fibre in the body.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen fiber
+## explanation_a
+Correct. Collagen is the most abundant fibre in connective tissue and the most abundant protein in the body — tendon, dermis, bone matrix and organ capsules are all collagen.
+
+Why this is right:
+- There are three connective tissue fibres and no others; each is a protein polymerised into threads and each does one mechanical job.
+## answer_b
+Elastic fiber
+## explanation_b
+Elastic fibres are abundant only where recoil is needed: the large arteries, the lung, the ligamenta flava. Everywhere else they are the minority fibre in a collagenous field.
+## answer_c
+Reticular fiber
+## explanation_c
+Reticular fibres are fine and sparse by design — they are a delicate supporting mesh in the stroma of organs, not a bulk structural fibre.
+## answer_d
+Purkinje fiber
+## explanation_d
+Purkinje fibres are cardiac conducting cells, not connective tissue fibres at all.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6CCD045AEF0536
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the commonest connective tissue fibre in the body.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q25. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1171
+## title
+What are stretchable/flexible CT fibers?
+## question
+What are stretchable/flexible CT fibers?
+## vignette
+This item asks the student to attribute stretch and recoil to the elastic fibre and not to collagen.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Collagen fibers type I
+## explanation_a
+Type I collagen is flexible but inelastic — it bends freely and resists being lengthened, which is what makes a tendon transmit a muscle's pull without stretching.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. Elastin lets the fibre stretch and spring back, which is why it is concentrated in the aorta, the lung and the skin.
+
+Why this is right:
+- There are three connective tissue fibres and no others; each is a protein polymerised into threads and each does one mechanical job.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are described as a loose flexible supporting network. Flexible is not elastic: they bend with the organ but do not recoil.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre under another name, so this option and C are the same answer — a sign that neither can be right.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6CCD045AEF0536
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute stretch and recoil to the elastic fibre and not to collagen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q53. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1172
+## title
+The following CT fibers can branch EXCEPT:
+## question
+The following CT fibers can branch EXCEPT:
+## vignette
+This item asks the student to state which connective tissue fibres branch, and separate a branching bundle from a branching fibre.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen fibers type I
+## explanation_a
+Correct. This is the exception. The wording is exact: collagen forms "wavy branching bundles formed of non-branching fibres". The bundle divides; the individual type I fibre inside it does not.
+
+Why this is right:
+- In loose areolar tissue both fibres are acidophilic and lie in the same field.
+## answer_b
+Elastic fibers
+## explanation_b
+Elastic fibres branch, and freely — they run singly and anastomose into a network, which is one of the two characters that separates them from collagen in the same field.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres branch and anastomose; that is what makes them a network and what the word reticular means.
+## answer_d
+Collagen fibers type III
+## explanation_d
+Type III collagen is the reticular fibre, so this option repeats C. It branches for the same reason.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-103DF490A6E01E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+State which connective tissue fibres branch, and separate a branching bundle from a branching fibre.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q52. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1173
+## title
+The type of tissue that makes up the bulk of the dermis is:
+## question
+The type of tissue that makes up the bulk of the dermis is:
+## vignette
+This item asks the student to name the fibre that forms the bulk of the dermis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen
+## explanation_a
+Correct. The dermis is dense irregular connective tissue, and its bulk is collagen bundles interweaving in every plane so that skin resists pull from any direction.
+
+Why this is right:
+- There are three connective tissue fibres and no others; each is a protein polymerised into threads and each does one mechanical job.
+## answer_b
+Melanin
+## explanation_b
+Melanin is a pigment made by melanocytes in the epidermis, not a connective tissue at all — and it is a granule, not a fibre.
+## answer_c
+Keratin
+## explanation_c
+Keratin is the intermediate filament protein of the epidermal keratinocyte, so it belongs to the layer above the dermis rather than to the dermis itself.
+## answer_d
+Fibroplastin
+## explanation_d
+"Fibroplastin" is not a substance in this module or in any other; it is built out of "fibroblast" to look plausible.
+## topic
+Basis
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6CCD045AEF0536
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Site
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the fibre that forms the bulk of the dermis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q8. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1174
+## title
+Regarding the staining, the following are true EXCEPT:
+## question
+Regarding the staining, the following are true EXCEPT:
+## vignette
+This item asks the student to give the colour each fibre takes with its stain, and identify the fibre that H&E cannot show at all.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Elastic fiber stain brown with orcien
+## explanation_a
+True. Orcein browns elastic fibres, and that is the standard stain for them.
+## answer_b
+Reticular fibers stain pink with H&E
+## explanation_b
+Correct. This is the exception. Reticular fibres are not visible in H&E; that invisibility is the whole reason silver impregnation exists for them, and PAS reddens them because of their sugar.
+
+Why this is right:
+- Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
+- Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
+## answer_c
+Collagen fibers stain pink with H&E
+## explanation_c
+True. Collagen is acidophilic and takes eosin pink — this is what it looks like in every routine section.
+## answer_d
+Mast cells stain purple with toludin blue
+## explanation_d
+True. Toluidine blue stains mast cell granules metachromatically purple, a different colour from the dye itself, because of their heparin.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-CE178A6B5707B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the colour each fibre takes with its stain, and identify the fibre that H&E cannot show at all.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q66. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1175
+## title
+H&E could be used to stain:
+## question
+H&E could be used to stain:
+## vignette
+This item asks the student to say which of the three connective tissue fibres H&E shows and which it does not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+collagen fibers + elastic fibers
+## explanation_a
+Correct. This is the keyed answer. Collagen and elastic fibres are both acidophilic and both take eosin pink — which is why H&E cannot tell them apart by colour and the student must use bundling and outline instead.
+
+Why this is right:
+- Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
+- Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
+## answer_b
+elastic fibers + reticular fibers
+## explanation_b
+Includes reticular fibres, and those are invisible in H&E. A pairing that contains the one fibre H&E misses cannot be the answer.
+## answer_c
+collagen fibers + reticular fibers
+## explanation_c
+Same fault as B for the same reason: reticular fibres take no H&E colour.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" fails on reticular fibres alone. Two out of three is not all.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-CE178A6B5707B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Stain choice
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Say which of the three connective tissue fibres H&E shows and which it does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q62. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1176
+## title
+Regarding reticular fibers:
+## question
+Regarding reticular fibers:
+## vignette
+This item asks the student to give the collagen type of the reticular fibre and the two stains that demonstrate it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+type III collagen
+## explanation_a
+True on its own — reticular fibres are type III collagen — but the stem offers a combined option, so a single true statement is not yet the answer.
+## answer_b
+stained with Ag
+## explanation_b
+True on its own. Silver browns them, which is why they are called argyrophilic.
+## answer_c
+stained with PAS
+## explanation_c
+True on its own. PAS reddens them, because of the high sugar content that distinguishes type III from type I.
+## answer_d
+all of the above
+## explanation_d
+Correct. This is the keyed answer. All three statements hold together, and the reason they do is one fact: a sugar-rich type III collagen takes both a silver and a carbohydrate stain.
+
+Why this is right:
+- Reticular fibres are type III collagen with a high sugar content.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-4DBDF635382663
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Give the collagen type of the reticular fibre and the two stains that demonstrate it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q65. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1177
+## title
+Reticular fibers are:
+## question
+Reticular fibers are:
+## vignette
+This item asks the student to pick the true statement about reticular fibres from a set built out of collagen's characters.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Forming bundles
+## explanation_a
+Bundles are collagen type I. Reticular fibres run as a fine anastomosing network — that is the difference between a rope and a net.
+## answer_b
+Thick , non branching fibers
+## explanation_b
+The opposite of the fibre on both counts. Reticular fibres are thin and they branch; thick and non-branching describes the individual type I collagen fibre.
+## answer_c
+Formed of collagen type III
+## explanation_c
+Correct. Reticular fibres are type III collagen, and their sugar content is what makes them argyrophilic and PAS-positive.
+
+Why this is right:
+- Reticular fibres are type III collagen with a high sugar content.
+## answer_d
+Lacking axial periodicity
+## explanation_d
+Reticular fibres are collagen, and collagen has axial periodicity — the banding is the mark of the molecule, not of the fibre's calibre.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-4DBDF635382663
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Pick the true statement about reticular fibres from a set built out of collagen's characters.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p1 q4. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1178
+## title
+Concerning the reticular fibers:
+## question
+Concerning the reticular fibers:
+## vignette
+This item asks the student to pick the true statement about reticular fibres, including who makes them and whether H&E shows them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+They form bundles
+## explanation_a
+Bundles belong to type I collagen. The reticular fibre is a network, and the word reticular says so.
+## answer_b
+They are formed by chondroblasts & smooth muscle cells
+## explanation_b
+Chondroblasts make type II collagen, in cartilage. Reticular fibres come from fibroblasts, reticular cells and smooth muscle cells — the chondroblast is borrowed from the row above in the same table.
+## answer_c
+They are formed mainly of type III collagen fibers
+## explanation_c
+Correct. Reticular fibres are type III collagen; that identity is what explains both their staining and their fineness.
+
+Why this is right:
+- Reticular fibres are type III collagen with a high sugar content.
+## answer_d
+They are visible by H&E
+## explanation_d
+The single most reliable negative fact about this fibre: it is not visible in H&E, which is why silver was needed at all.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-4DBDF635382663
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Pick the true statement about reticular fibres, including who makes them and whether H&E shows them.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q19. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the department book's own statement — reticular fibres are type III collagen — and each of the other three contradicts the book directly: they form a network rather than bundles, they are made by fibroblasts, reticular cells and smooth muscle cells rather than chondroblasts, and they are not visible in H&E.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1179
+## title
+The stroma of the organs is formed by:
+## question
+The stroma of the organs is formed by:
+## vignette
+This item asks the student to name the fibre that forms the supporting stroma of an organ.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+collagen fibers
+## explanation_a
+Collagen makes the capsule that surrounds an organ, not the delicate mesh inside it. Capsule and stroma are different jobs and different fibres.
+## answer_b
+elastic fibers
+## explanation_b
+Elastic fibres are found in organ stroma only where recoil is needed, as in lung; they are not what supports the parenchymal cells of spleen, lymph node and liver.
+## answer_c
+reticular fibers
+## explanation_c
+Correct. Reticular fibres branch and anastomose into a loose flexible network — the stroma — and the reticular cell that secretes them lives in it.
+
+Why this is right:
+- Reticular fibres are type III collagen with a high sugar content.
+## answer_d
+muscle fibers
+## explanation_d
+Muscle fibres are cells of a different basic tissue. Naming them here is the same ambiguity of "fibre" that the Purkinje distractor uses.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-4DBDF635382663
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Site
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the fibre that forms the supporting stroma of an organ.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q95. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1180
+## title
+Reticular fibers are composed of type………collagen fibrils
+## question
+Reticular fibers are composed of type………collagen fibrils
+## vignette
+This item asks the student to give the collagen type of the reticular fibre.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+II
+## explanation_a
+Type II is cartilage collagen, laid down by chondroblasts as fine fibres in the matrix.
+## answer_b
+III
+## explanation_b
+Correct. Reticular fibres are type III collagen, and their high sugar content is what separates them from type I in staining.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_c
+IV
+## explanation_c
+Type IV is the granular collagen of the basal lamina, made by the epithelium — the only one of the five that is not fibrous.
+## answer_d
+V
+## explanation_d
+Type V is not one of the five types this module tabulates; it is offered to see whether the number was memorised or the tissue was understood.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the collagen type of the reticular fibre.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q96. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1181
+## title
+Reticular fibers are formed of:
+## question
+Reticular fibers are formed of:
+## vignette
+This item asks the student to give the collagen type of the reticular fibre against a different distractor set.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Type I
+## explanation_a
+Type I is the bundled collagen of tendon, bone and dermis — the one a student names first because it is the commonest.
+## answer_b
+Type III
+## explanation_b
+Correct. Type III is the reticular fibre.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_c
+Type V
+## explanation_c
+Type V is outside the five types tabulated here.
+## answer_d
+Type IV
+## explanation_d
+Type IV is the basal lamina collagen, and granular rather than fibrous, so it cannot make a fibre of any sort.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the collagen type of the reticular fibre against a different distractor set.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q47. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1182
+## title
+The most common type of collagen in the body is:
+## question
+The most common type of collagen in the body is:
+## vignette
+This item asks the student to name the commonest collagen type in the body.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Type I
+## explanation_a
+Correct. Type I is the collagen of connective tissue proper, tendon, bone and organ capsules, and those tissues are most of the body's bulk.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_b
+Type II
+## explanation_b
+Type II is confined to cartilage, which is a small fraction of adult tissue.
+## answer_c
+Type III
+## explanation_c
+Type III is the reticular fibre — fine and sparse, a supporting mesh rather than a bulk fibre.
+## answer_d
+Type IV
+## explanation_d
+Type IV is a granular component of basement membranes, which are microscopically thin sheets.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the commonest collagen type in the body.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q74. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1183
+## title
+The most common type of collagen is:
+## question
+The most common type of collagen is:
+## vignette
+This item asks the student to name the commonest collagen type against a distractor set drawn from the higher numbers.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Type I
+## explanation_a
+Correct. Type I, arranged in bundles, is the commonest collagen in the body.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_b
+Type III
+## explanation_b
+Type III is reticular fibre — everywhere in organ stroma but never in bulk.
+## answer_c
+Type V
+## explanation_c
+Type V is not among the types this module tabulates.
+## answer_d
+Type VI
+## explanation_d
+Type VI is not among them either; both C and D exist to reward the student who counted rather than the one who learned the table.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the commonest collagen type against a distractor set drawn from the higher numbers.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q46. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1184
+## title
+The strongest type of collagen is:
+## question
+The strongest type of collagen is:
+## vignette
+This item asks the student to name the strongest collagen type and connect its strength to the way it is arranged.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+type I
+## explanation_a
+Correct. This is the keyed answer. Type I is the strongest, and it is strongest because it is bundled — many parallel fibres sharing one line of pull, which is what a tendon is.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_b
+type II
+## explanation_b
+Type II is fine fibres dispersed in cartilage matrix; cartilage resists compression, and it does so through its ground substance rather than through fibre strength.
+## answer_c
+type Ill
+## explanation_c
+Type III forms a delicate anastomosing network built for support, not for load.
+## answer_d
+type IV
+## explanation_d
+Type IV is granular and sits in a basement membrane a fraction of a micrometre thick.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the strongest collagen type and connect its strength to the way it is arranged.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p11 q64. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1185
+## title
+Type I collagen is present mainly in:
+## question
+Type I collagen is present mainly in:
+## vignette
+This item asks the student to name the type of connective tissue in which type I collagen predominates.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+reticular connective tissue
+## explanation_a
+Reticular connective tissue is named for its type III fibres; that is what makes it reticular rather than collagenous.
+## answer_b
+dense collagenous connective tissue
+## explanation_b
+Correct. Dense collagenous connective tissue — tendon, ligament, dermis, capsule — is bundled type I collagen and little else.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_c
+mucoid connective tissue
+## explanation_c
+Mucoid connective tissue is jelly rich in hyaluronic acid with few fibres; Wharton's jelly of the umbilical cord is the example.
+## answer_d
+yellow elastic connective tissue
+## explanation_d
+Yellow elastic connective tissue is named for its elastic fibres, which are elastin and not collagen at all.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Site
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the type of connective tissue in which type I collagen predominates.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q110. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1186
+## title
+Type IV collagen is in the form of:
+## question
+Type IV collagen is in the form of:
+## vignette
+This item asks the student to give the form type IV collagen takes, and note that it is not a fibre.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+granules
+## explanation_a
+Correct. This is the keyed answer. Type IV is granular — a sheet of granules in the basal lamina, not a thread.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_b
+fibrils
+## explanation_b
+Fibrils are what type I and type III form. Reading "collagen" as "must be a fibre" is the whole trap of this question.
+## answer_c
+fibers
+## explanation_c
+Fibres are the aggregate of fibrils; type IV never gets that far.
+## answer_d
+bundles
+## explanation_d
+Bundles are type I, and bundling is exactly what makes type I strong. Type IV is in a basement membrane, which needs to filter rather than to pull.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Give the form type IV collagen takes, and note that it is not a fibre.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q63. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1187
+## title
+All of the following concerning reticular cells is true except :
+## question
+All of the following concerning reticular cells is true except :
+## vignette
+This item asks the student to name the collagen the reticular cell secretes, and reject the type belonging to cartilage.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Produce collagen type III
+## explanation_a
+True. The reticular cell secretes reticular fibres, and those are type III collagen.
+## answer_b
+Produce collagen type II
+## explanation_b
+Correct. This is the exception. Type II collagen is cartilage collagen and comes from the chondroblast; the reticular cell never makes it.
+
+Why this is right:
+- Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells.
+## answer_c
+Present in stroma of organs
+## explanation_c
+True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glands.
+## answer_d
+Have supporting function
+## explanation_d
+True. With their fibres the reticular cells form the supporting network of the organ, which is the definition of stroma.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-A635150A3F245D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the collagen the reticular cell secretes, and reject the type belonging to cartilage.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q124. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1188
+## title
+In the basal lamina of the epithelia:
+## question
+In the basal lamina of the epithelia:
+## vignette
+This item asks the student to give the collagen type abundant in the basal lamina.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Type I collagen protein is abundant
+## explanation_a
+Type I is the bundled collagen of tendon and dermis. It lies in the connective tissue below the basement membrane, not within the basal lamina.
+## answer_b
+Type IV collagen protein is abundant
+## explanation_b
+Correct. The basal lamina is an electron-dense sheet of type IV collagen and glycoproteins, and the epithelium itself makes it.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_c
+Type II collagen protein is abundant
+## explanation_c
+Type II is cartilage collagen; there is no epithelium resting on cartilage matrix in this sense.
+## answer_d
+Type VII collagen protein is abundant
+## explanation_d
+Type VII is present at the basement membrane but as anchoring fibrils tying it down to the connective tissue, not as the substance of the lamina.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the collagen type abundant in the basal lamina.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q49. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1189
+## title
+Which type of collagen is the main part of basal lamina?
+## question
+Which type of collagen is the main part of basal lamina?
+## vignette
+This item asks the student to name the main collagen of the basal lamina.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Type ١ collagen
+## explanation_a
+Type I is the collagen of the connective tissue underneath, arranged in bundles.
+## answer_b
+Type II collagen
+## explanation_b
+Type II is cartilage.
+## answer_c
+Type III collagen
+## explanation_c
+Type III makes the reticular lamina, which is the other half of the basement membrane and the connective tissue's contribution.
+## answer_d
+Type IV collagen
+## explanation_d
+Correct. This is the keyed answer. Type IV collagen is the main constituent of the basal lamina.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the main collagen of the basal lamina.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q63. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1190
+## title
+Which type of collagen Is a component of the basement membrane?
+## question
+Which type of collagen Is a component of the basement membrane?
+## vignette
+This item asks the student to name a collagen of the basement membrane from a set of four types.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Type Il.
+## explanation_a
+Type II is the fine fibre of cartilage matrix, made by chondroblasts.
+## answer_b
+Type IV.
+## explanation_b
+Correct. Type IV is the granular collagen of the basal lamina, made by the epithelial cells that sit on it.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_c
+Type V.
+## explanation_c
+Type V is not among the five collagens this module tabulates.
+## answer_d
+Type |.
+## explanation_d
+Type I is the bundled collagen of the connective tissue below; it is near the basement membrane but not in it.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name a collagen of the basement membrane from a set of four types.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q45. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Type IV is the collagen of the basal lamina in the department book's own table, and none of the other three types offered — II, V or I — is a basement membrane component.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1191
+## title
+Collagen in the basal lamina:
+## question
+Collagen in the basal lamina:
+## vignette
+This item asks the student to give both the type and the form of the collagen in the basal lamina.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Type ١ fibers
+## explanation_a
+Wrong type and wrong form. Type I is bundled collagen in the connective tissue proper.
+## answer_b
+Type Ill fibers
+## explanation_b
+Type III fibres are the reticular lamina, the connective-tissue half of the basement membrane, not the basal lamina.
+## answer_c
+Type IV fibers
+## explanation_c
+The right type in the wrong form, and the option that catches most students. Type IV is correct, but in the basal lamina it is granular; it does not aggregate into fibres.
+## answer_d
+Type IV granules
+## explanation_d
+Correct. This is the keyed answer. Type IV, in granular form — exactly this pairing.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Recall
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Give both the type and the form of the collagen in the basal lamina.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q33. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1192
+## title
+contain collagen fiber type III and ground substance:
+## question
+contain collagen fiber type III and ground substance:
+## vignette
+This item asks the student to name the layer of the basement membrane made of type III collagen and ground substance.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is type IV collagen and glycoproteins, and it is the epithelium's own product.
+## answer_b
+epithelial component
+## explanation_b
+"Epithelial component" is another name for the basal lamina, so this option is A restated — and it is wrong for the same reason.
+## answer_c
+reticular lamina
+## explanation_c
+Correct. The reticular lamina is the connective-tissue component: type III collagen, which is reticular fibre, together with ground substance.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_d
+a, b
+## explanation_d
+Pairs two names for the same wrong layer.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the layer of the basement membrane made of type III collagen and ground substance.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q32. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1193
+## title
+electron dense sheat formed of collagen IV, lamins:
+## question
+electron dense sheat formed of collagen IV, lamins:
+## vignette
+This item asks the student to recognise that the basal lamina and the epithelial component of the basement membrane are one and the same layer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+basal lamina
+## explanation_a
+True as far as it goes — the basal lamina is the electron-dense sheet of type IV collagen and laminin — but the stem allows a combined option, and B is equally true.
+## answer_b
+epithelial component
+## explanation_b
+True as far as it goes. The epithelial component of the basement membrane is precisely the basal lamina.
+## answer_c
+reticular lamina
+## explanation_c
+The reticular lamina is the connective-tissue component and is type III collagen, so it is neither electron-dense in this sense nor made of type IV.
+## answer_d
+a, b
+## explanation_d
+Correct. A and B name one layer under two names, so both are right and the combined option is the answer.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Recognise that the basal lamina and the epithelial component of the basement membrane are one and the same layer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q31. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1194
+## title
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## question
+Anchoring fibers that fix basement membrane to C.T. are formed of:
+## vignette
+This item asks the student to give the collagen type of the anchoring fibrils of the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Type | collage
+## explanation_a
+Type I is bundled collagen of the connective tissue; it is what the anchoring fibrils tie the membrane down to, not the fibrils themselves.
+## answer_b
+Type Il collagen
+## explanation_b
+Type II is cartilage collagen and plays no part in a basement membrane.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres — type III — make the reticular lamina, which is a layer of the membrane rather than the tether that anchors it.
+## answer_d
+Type VII collagen
+## explanation_d
+Correct. Type VII collagen forms the anchoring fibrils.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Give the collagen type of the anchoring fibrils of the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p6 q57. Manifest src_510c935c09a7e7cbff32.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book's collagen table names type VII as anchoring fibres in basement membranes, made by fibroblasts, and gives no other type that role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1195
+## title
+Regarding the basement membrane, choose the correct statement:
+## question
+Regarding the basement membrane, choose the correct statement:
+## vignette
+This item asks the student to pick the true statement about the two laminae, their collagens and the stain that shows the membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Basal lamina has no collagen
+## explanation_a
+False on the central fact of the layer. The basal lamina is largely type IV collagen; saying it has none contradicts every account of it.
+## answer_b
+Reticular lamina is formed of reticular fibers and ground substance
+## explanation_b
+Correct. This is the keyed answer. The reticular lamina is the connective-tissue component — reticular fibres, which are type III collagen, plus ground substance.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_c
+It is best seen by Janus green
+## explanation_c
+Janus green is the vital stain for mitochondria. The basement membrane is shown with PAS or with silver, both of which act on its carbohydrate.
+## answer_d
+The anchoring fibers are represented by collagen type I
+## explanation_d
+The anchoring fibres are type VII, not type I. Type I is the bundled collagen of the connective tissue underneath.
+## topic
+Epithelium
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Pick the true statement about the two laminae, their collagens and the stain that shows the membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q32. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1196
+## title
+Dense regular collagenous connective tissue is present in:
+## question
+Dense regular collagenous connective tissue is present in:
+## vignette
+This item asks the student to name a site of dense regular collagenous connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Tendon
+## explanation_a
+Correct. A tendon transmits pull along one line, so its collagen bundles all run that way — the definition of regular.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, Wharton's jelly, which is ground substance rich in hyaluronic acid with few fibres.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue; it needs recoil, not tensile strength in one direction.
+## answer_d
+Capsule of organs
+## explanation_d
+A capsule is pulled on from every side, so its bundles interweave — that makes it dense irregular, not regular.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Site
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name a site of dense regular collagenous connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q45. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1197
+## title
+Dense irregular collagenous connective tissue is present in:
+## question
+Dense irregular collagenous connective tissue is present in:
+## vignette
+This item asks the student to name a site of dense irregular collagenous connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Tendon
+## explanation_a
+A tendon is the type example of the regular form: parallel bundles, one direction of pull.
+## answer_b
+Umbilical cord
+## explanation_b
+The umbilical cord is mucoid connective tissue, not dense at all.
+## answer_c
+Aorta
+## explanation_c
+The aorta is yellow elastic connective tissue.
+## answer_d
+Capsule of organs
+## explanation_d
+Correct. An organ capsule is stressed from all directions, so its collagen bundles interweave in different planes — dense irregular.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Site
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name a site of dense irregular collagenous connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p6 q44. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1198
+## title
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## question
+Regarding dense irregular connective tissue: 8 Dr Dalia El Marakby
+## vignette
+This item asks the student to say what dense irregular connective tissue is rich in and what it is poor in.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is highly vascular
+## explanation_a
+Dense connective tissue is comparatively poorly vascular; it is packed with fibre, and vessels have little room in it.
+## answer_b
+It is highly cellular
+## explanation_b
+Dense means few cells. Cellularity is a feature of loose areolar tissue, which holds every connective tissue cell type there is.
+## answer_c
+Its main fiber type is collagen
+## explanation_c
+Correct. This is the keyed answer. Collagen is the main fibre of dense white fibrous connective tissue in both its regular and irregular forms.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## answer_d
+It has a large amount of ground substance
+## explanation_d
+Little ground substance, not a large amount. A large amount of ground substance describes mucoid connective tissue instead.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Say what dense irregular connective tissue is rich in and what it is poor in.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q52. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1199
+## title
+Dense regular C.T is of two types:
+## question
+Dense regular C.T is of two types:
+## vignette
+This item asks the student to name the two fibres that give dense regular connective tissue its two forms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen and elastic
+## explanation_a
+Correct. Dense regular tissue comes in a white fibrous form, whose parallel bundles are collagen and which makes tendons and ligaments, and a yellow elastic form, whose parallel fibres are elastin and which makes the ligamenta flava and the vocal ligament.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## answer_b
+Collagen and reticular
+## explanation_b
+Reticular fibres never form a dense regular tissue; they make a loose anastomosing stroma, which is the opposite arrangement.
+## answer_c
+Elastic and reticular
+## explanation_c
+Pairs elastic with reticular and so drops collagen, which is the commoner of the two dense regular forms.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" is only defensible if A is wrong, and A is the standard division.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the two fibres that give dense regular connective tissue its two forms.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q68. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1200
+## title
+One of the following is true about fibroblasts:
+## question
+One of the following is true about fibroblasts:
+## vignette
+This item asks the student to state what the fibroblast makes, and separate it from the pericyte and the fat cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Can differentiate to endothelial cells and smooth muscle cells
+## explanation_a
+That is the pericyte. The perivascular stem cell around a capillary divides into endothelium, fibroblasts and smooth muscle; the fibroblast is one of its products, not another stem cell.
+## answer_b
+Secrete collagen and elastic fibers
+## explanation_b
+Correct. This is the keyed answer. The fibroblast synthesises the connective tissue fibres — collagen, elastic and reticular — and the ground substance they lie in.
+
+Why this is right:
+- It becomes active again for wound healing.
+## answer_c
+large cubical cells
+## explanation_c
+The active fibroblast is branched with long thin processes, and the inactive fibrocyte is spindle-shaped. Neither is large and cubical; cubical is an epithelial shape.
+## answer_d
+responsible for storage of fat
+## explanation_d
+Fat storage is the adipocyte's work. Both cells descend from the undifferentiated mesenchymal cell, which is why the two are confused.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-E15318FC4CE3A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+State what the fibroblast makes, and separate it from the pericyte and the fat cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q49. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1201
+## title
+One of the functions of undifferentiated mesenchymal cells is:
+## question
+One of the functions of undifferentiated mesenchymal cells is:
+## vignette
+This item asks the student to say what the undifferentiated mesenchymal cell does, as against what the cells it becomes do.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Formation of collagen fibers
+## explanation_a
+Collagen is laid down by the fibroblast. The mesenchymal cell's contribution is to become that fibroblast.
+## answer_b
+Formation of blood cells
+## explanation_b
+Correct. In bone marrow the undifferentiated mesenchymal cell is the life-long source of the blood cells — an example of why the cell stays undifferentiated into adult life.
+
+Why this is right:
+- Connective tissue arises from mesoderm, and the mesenchymal cells that migrate from it do not all differentiate.
+## answer_c
+Secretion of the intercellular matrix
+## explanation_c
+Ground substance, like fibre, is a fibroblast product.
+## answer_d
+Formation of elastic fibers
+## explanation_d
+Elastic fibres are made by fibroblasts, chondroblasts and smooth muscle cells; the stem cell makes none of them directly.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6EC4DC6997F361
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Say what the undifferentiated mesenchymal cell does, as against what the cells it becomes do.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q3. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book gives the undifferentiated mesenchymal cell as a life-long source of cells in certain adult sites and names bone marrow, for blood cells, as one of them. The other three options are the work of the fibroblast the mesenchymal cell differentiates into, not of the stem cell itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1202
+## title
+………….. prevent clotting, promote allergy
+## question
+………….. prevent clotting, promote allergy
+## vignette
+This item asks the student to name the mast cell secretion that is an anticoagulant.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+histamine
+## explanation_a
+Histamine is the mast cell's vasodilator and permeability agent — it gives the flare and the swelling of an allergic reaction, but it does not touch clotting.
+## answer_b
+Collagen
+## explanation_b
+Collagen is a fibre, not a secretion of this kind; it is here because the extraction filed this row under fibres for exactly that word.
+## answer_c
+heparin
+## explanation_c
+Correct. Heparin is the anticoagulant of the mast cell granule, and it is also what makes the granule metachromatic with toluidine blue.
+
+Why this is right:
+- The mast cell carries surface receptors for IgE, and when allergen binds them it discharges its granules.
+## answer_d
+sulfate
+## explanation_d
+"Sulfate" names a chemical group rather than a secretion; heparin is itself a sulphated glycosaminoglycan, which is why the group sounds familiar.
+## topic
+Blood
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-E0C05B1FE6D280
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the mast cell secretion that is an anticoagulant.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p10 q24. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1203
+## title
+A young child was suffering from bleeding gums and non-healing wounds. This disease may…
+## question
+A young child was suffering from bleeding gums and non-healing wounds. This disease may be due to the defective synthesis of:
+## vignette
+This item asks the student to name the fibre whose defective synthesis gives bleeding gums and unhealed wounds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Extracellular matrix
+## explanation_a
+The extracellular matrix is the whole ground substance and fibre together. The defect in scurvy is specific to one component of it, and naming the whole matrix does not identify it.
+## answer_b
+Collagen fibers
+## explanation_b
+Correct. This is the keyed answer. Vitamin C deficiency blocks collagen synthesis, and the wound that will not close and the gum that bleeds are collagen failing.
+
+Why this is right:
+- Vitamin C deficiency — scurvy — is due to defective collagen synthesis, and it presents with unhealed wounds and bleeding gums.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres are type III collagen and are not the fibre of wound repair; scar tissue is type I.
+## answer_d
+Elastic fibers
+## explanation_d
+Elastic fibres are unaffected in scurvy. A student picks them because bleeding suggests vessels, and vessels suggest elasticity.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-46C9A4425362B0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the fibre whose defective synthesis gives bleeding gums and unhealed wounds.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q40. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1204
+## title
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unheal…
+## question
+A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and unhealed wounds. It is diagnosed as scurvy which may be due to defective synthesis of:
+## vignette
+This item asks the student to name the molecule whose defective synthesis causes scurvy, when the diagnosis is given in the stem.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen molecules
+## explanation_a
+Correct. Scurvy is defective collagen synthesis, and this stem hands the student the diagnosis and asks only for the molecule.
+
+Why this is right:
+- Vitamin C deficiency — scurvy — is due to defective collagen synthesis, and it presents with unhealed wounds and bleeding gums.
+## answer_b
+Elastin molecules
+## explanation_b
+Elastin is unaffected. Its failure gives loss of recoil in arteries and skin, not bleeding gums.
+## answer_c
+Reticulin molecules
+## explanation_c
+Reticulin is type III collagen and is not the fibre of repair.
+## answer_d
+Glycoprotein molecules
+## explanation_d
+Glycoprotein is a component of ground substance and of the basal lamina; scurvy is a fibre disease, not a ground substance one.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-46C9A4425362B0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the molecule whose defective synthesis causes scurvy, when the diagnosis is given in the stem.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q10. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book states directly that vitamin C deficiency — scurvy — is due to defective collagen synthesis, and none of the other three molecules is implicated in it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1205
+## title
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan…
+## question
+A 68-year-old man presented with a two-week history of abdominal discomfort. A CT. scan revealed a dilated & calcified segment_of abdominal aorta. After surgery the examination of this dilated part demonstrated loss of which of the following cellular components that contributed in development of this aneurysm:
+## vignette
+This item asks the student to name the fibre whose loss allows an artery to dilate into an aneurysm.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Collagen I
+## explanation_a
+Collagen resists stretching but does not recoil, and in a degenerating aortic wall it is often increased rather than lost — it is the scarring, not the failure.
+## answer_b
+Elastic fibers
+## explanation_b
+Correct. The aorta's wall is packed with elastic laminae; when they are destroyed the vessel dilates and cannot spring back, which is what a CT scan shows as an aneurysm.
+
+Why this is right:
+- There are three connective tissue fibres and no others; each is a protein polymerised into threads and each does one mechanical job.
+## answer_c
+Reticular fibers
+## explanation_c
+Reticular fibres support the cells of an organ's stroma; they carry no part of the pressure in a great vessel.
+## answer_d
+Smooth muscle
+## explanation_d
+Smooth muscle loss does contribute to a weak arterial wall, and this is the most defensible distractor — but the stem asks what was lost on examining the dilated part, and it is the elastic lamina whose destruction defines the lesion.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-6CCD045AEF0536
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Name the fibre whose loss allows an artery to dilate into an aneurysm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q3. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. An aneurysm is a dilated arterial segment, and the aorta is yellow elastic connective tissue whose recoil comes from its elastic fibres; losing them lets the wall stretch and stay stretched. None of the other three components supplies recoil.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1206
+## title
+In basement membrane, a major component of basal lamina is:
+## question
+In basement membrane, a major component of basal lamina is:
+## vignette
+This item asks the student to name the collagen type that makes up the basal lamina, and separate it from the types in the reticular lamina and the anchoring fibrils.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen type IV.
+## explanation_a
+Correct. Type IV collagen is granular rather than fibrillar, is secreted by the epithelial cells themselves, and is the collagen of the basal lamina — the epithelial half of the basement membrane.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_b
+Collagen type Ill.
+## explanation_b
+Type III collagen is the reticular fibre, and it is in the basement membrane — but in the reticular lamina, the connective tissue half. This option is right about the membrane and wrong about the layer, which is exactly the distinction the stem asks for.
+## answer_c
+Collagen type |.
+## explanation_c
+Type I collagen is the ordinary collagen bundle of connective tissue proper, tendon, bone and organ capsules. It is nowhere in the basement membrane.
+## answer_d
+Collagen type VII.
+## explanation_d
+Type VII collagen is in the basement membrane too, as the anchoring fibrils that tie it to the underlying connective tissue. It fixes the membrane down rather than forming the lamina, so like option b it is a real component in the wrong role.
+## topic
+Connective Tissue Fibres
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the collagen type that makes up the basal lamina, and separate it from the types in the reticular lamina and the anchoring fibrils.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q31. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the basal lamina as an electron-dense sheet of type IV collagen granules and glycoproteins made by the epithelial cells, and its collagen table lists type IV in granular form in the basement membrane. The three distractors are the three other collagen types the same table names.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1207
+## title
+The C.T. fibers stained brown with-orcéin are ottttteeudeeeeeees fibers:
+## question
+The C.T. fibers stained brown with-orcéin are ottttteeudeeeeeees fibers:
+## vignette
+This item asks the student to name the fibre orcein browns, and keep it apart from the fibre silver browns.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Reticular.
+## explanation_a
+Reticular fibres are also stained brown — but by silver, not orcein, and the two browns are the trap this option sets. Reticular fibres are invisible in H&E and take PAS red as well, because of their sugar content.
+## answer_b
+Elastic.
+## explanation_b
+Correct. Orcein is the elastic fibre stain and turns them brown; it is paired with van Gieson, which turns the same fibres yellow.
+
+Why this is right:
+- Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
+- Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
+## answer_c
+Collagen.
+## explanation_c
+Collagen is pink with eosin, blue with Mallory and red with van Gieson. Orcein is not in its row at all.
+## answer_d
+b&c .
+## explanation_d
+"b and c" would require orcein to brown collagen as well as elastic fibres. It does not, and van Gieson is the stain that shows both fibres in one section — in two different colours, red and yellow, which is the point of using it.
+## topic
+Connective Tissue Fibres
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-CE178A6B5707B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stain identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Name the fibre orcein browns, and keep it apart from the fibre silver browns.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q23; EOY 195 first 2022 101 ISK final (1).pdf p15 q14. Manifest src_ce4292e31edea7517e7b, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2022 paper and none was recovered for this row, so the answer comes from the department book's fibre-and-stain table: elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson, while it is silver, not orcein, that browns reticular fibres. The stem carries scanner noise where the blank was ("ottttteeudeeeeeees") but is otherwise intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1208
+## title
+The reticular connective tissue can be demonstrated with:
+## question
+The reticular connective tissue can be demonstrated with:
+## vignette
+This item asks the student to name the stain that shows reticular tissue and say why H&E does not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Toluidine blue.
+## explanation_a
+Toluidine blue is the metachromatic stain of the mast cell and the blood basophil, acting on the heparin in their granules. It shows a cell, not a fibre network.
+## answer_b
+silver.
+## explanation_b
+Correct. Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.
+
+Why this is right:
+- Reticular fibres are type III collagen with a high sugar content.
+## answer_c
+H&E.
+## explanation_c
+H&E is the option that makes the question worth asking: reticular fibres are not visible in it, which is why a special stain is needed at all.
+## answer_d
+Sudan Ill.
+## explanation_d
+Sudan III stains fat orange and needs a frozen section. It identifies the adipocyte, the tissue reticular fibres also support but are not made of.
+## topic
+Connective Tissue Fibres
+## subtopic
+Connective Tissue Fibres
+## main_concept
+CON-FND-4DBDF635382663
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stain identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Fibres
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the stain that shows reticular tissue and say why H&E does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q24. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the answer is the reticular fibre's stain. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: reticular fibres are not visible in H&E and are stained brown by silver, and its chapter on the types of connective tissue proper says reticular connective tissue is stained brown-black by silver.
