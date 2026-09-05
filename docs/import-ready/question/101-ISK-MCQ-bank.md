@@ -122117,3 +122117,3626 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the answer is the reticular fibre's stain. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: reticular fibres are not visible in H&E and are stained brown by silver, and its chapter on the types of connective tissue proper says reticular connective tissue is stained brown-black by silver.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1209
+## title
+Integral proteins are represented by:
+## question
+Integral proteins are represented by:
+## vignette
+This item asks the student to recognise the integral protein as the one that crosses the bilayer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Non continuous layer
+## explanation_a
+A non-continuous layer describes the way peripheral proteins are scattered over the membrane surfaces, not the integral protein.
+## answer_b
+Loosely attached to both surfaces of cell membrane
+## explanation_b
+This is the definition of a peripheral protein — loosely attached to either surface — and it is the exact opposite of an integral one. It is the option most often taken by students who read "integral" as "important" rather than as "built in".
+## answer_c
+Small molecules
+## explanation_c
+Small molecules are what integral proteins carry, not what they are. Glucose and ions cross through them; they are not made of them.
+## answer_d
+Trans. membrane protein
+## explanation_d
+Correct. Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## topic
+Histology-general
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Recognise the integral protein as the one that crosses the bilayer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p2 q2; Cytology | Module 101 questions.pdf.pdf p24 q2. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1210
+## title
+A teen ager presenting with slower growth rate than expected for age and delayed sexual…
+## question
+A teen ager presenting with slower growth rate than expected for age and delayed sexual development, investigations may show:
+## vignette
+This item asks the student to explain a failure of hormone action when the hormone level itself is normal.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Defective cell receptors and decreased hormone level in blood
+## explanation_a
+A low hormone level would explain the failure without any receptor being involved, and the point of the question is a target cell that cannot hear a message that is being sent normally.
+## answer_b
+Defective cell membrane and normal hormone level
+## explanation_b
+A defect of the whole cell membrane would not produce a picture confined to growth and sexual development. What is selective here is the receptor, not the membrane.
+## answer_c
+Defective cell receptors and normal hormone {evel
+## explanation_c
+Correct. The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — a recognised cause of dwarfism.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_d
+Defective endoplasmic reticulum receptors
+## explanation_d
+The receptors that bind circulating hormones sit on the cell coat at the external surface, where the hormone can reach them. Endoplasmic reticulum is inside the cell and a blood-borne hormone never arrives there.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_4a8ddb5edfab86d624d8
+## learning_objective
+Explain a failure of hormone action when the hormone level itself is normal.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p6 q3. Manifest src_4a8ddb5edfab86d624d8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1211
+## title
+About function of cell coat, which of the followings is true:
+## question
+About function of cell coat, which of the followings is true:
+## vignette
+This item asks the student to list all the functions of the cell coat rather than stopping at the first true one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+important for cell recognition
+## explanation_a
+True, but not the whole answer. Cell recognition — one cell identifying another as self or foreign — is a cell coat function.
+## answer_b
+important for cell adhesion
+## explanation_b
+True, but not the whole answer. Adhesion of cells to each other is a cell coat function.
+## answer_c
+site of receptors
+## explanation_c
+True, but not the whole answer. The coat carries the specific receptors for drugs, hormones, bacteria and viruses.
+## answer_d
+All of the above
+## explanation_d
+Correct. Recognition, adhesion and reception are three of the coat's functions, alongside protection and cell immunity; a student who stops at the first true option has answered a third of the question.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+List all the functions of the cell coat rather than stopping at the first true one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p19 q81. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each a stated cell coat function, so the only option that is not incomplete is D.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1212
+## title
+all the following statements about the cell membrane are true except
+## question
+all the following statements about the cell membrane are true except
+## vignette
+This item asks the student to place the cell coat on the outer surface and nowhere else.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+its thickness is about 7.5.10nm
+## explanation_a
+True, so not the exception. 7.5–10 nm is the given thickness.
+## answer_b
+it is not visible by the light microscope with H, E
+## explanation_b
+True, so not the exception. The membrane is below the resolving power of the light microscope in an H&E section, which is why it has to be inferred rather than seen.
+## answer_c
+the cell coat is present on its inner surface
+## explanation_c
+Correct. The exception, and the answer. Picked by students who remember that peripheral proteins sit on both surfaces and extend that to the coat. The carbohydrate is added on the external face only; the inner surface carries the cytoskeleton instead.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_d
+Can be stained with silver or PAS
+## explanation_d
+True, so not the exception. Silver and PAS both act on the carbohydrate of the coat, and they are the only way the membrane is shown by light microscopy.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Place the cell coat on the outer surface and nowhere else.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q2. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1213
+## title
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## question
+All the following statements concerning gap junction (nexus) are true EXCEPT:
+## vignette
+This item asks the student to distinguish a bridged gap from a true membrane fusion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Leaves an intercellular cleft 2-3 nm
+## explanation_a
+True, so not the exception. The gap junction leaves a narrow intercellular cleft — narrow, but a real one.
+## answer_b
+Minute structure bridging the gap called connexons
+## explanation_b
+True, so not the exception. The minute structures crossing that cleft are the connexons.
+## answer_c
+Each connexon consists of six subunits
+## explanation_c
+True, so not the exception. Each channel is built of six symmetrical transmembrane protein subunits.
+## answer_d
+Provides an actual fusion of adjacent two cell membranes
+## explanation_d
+Correct. The exception, and the answer. Actual fusion of the two membranes belongs to the zonula occludens, where the distance between them falls to zero. The gap junction is named for the gap it keeps; a student who has learnt "junction means the membranes join" picks this one.
+
+Why this is right:
+- Epithelial cells are linked laterally by four junctions.
+- In the tight or occluding junction, the zonula occludens, the two adjacent cell membranes actually fuse at points through transmembrane proteins, leaving no space between them at all, and it encircles the apex of the cell like a belt, restricting passage between the cells.
+- In the adherens junction, the zonula adherens, a wide intercellular space is bridged by transmembrane proteins joined with the help of calcium ions, and condensed protein on the cytoplasmic side binds them to actin filaments; it too encircles the cell.
+## topic
+Epithelium
+## subtopic
+The cell
+## main_concept
+CON-FND-17E5245CBA11D0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Distinguish a bridged gap from a true membrane fusion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q88. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1214
+## title
+As regards the glycocalyx:
+## question
+As regards the glycocalyx:
+## vignette
+This item asks the student to choose the true statement about the glycocalyx from three near-misses about its position and composition.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Present on both surfaces of cell membrane
+## explanation_a
+The coat is on the external surface only. This option is the mirror of the commonest error, and it is what students choose when they generalise from peripheral proteins, which really are on both.
+## answer_b
+Embeded in lipid bilayer
+## explanation_b
+The glycocalyx projects from the outer face of the bilayer; it is not embedded within it. What is embedded in the lipid is cholesterol and the integral proteins.
+## answer_c
+Formed of proteins & lipids
+## explanation_c
+It is formed of glycoproteins and glycolipids — that is, of the carbohydrate attached to protein and to lipid. Naming proteins and lipids without the sugar leaves out the only part that makes it a glycocalyx.
+## answer_d
+Plays a role in cell adhesion & recognition
+## explanation_d
+Correct. Adhesion and recognition are the coat's two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Choose the true statement about the glycocalyx from three near-misses about its position and composition.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p26 q24. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1215
+## title
+by EM cell membrane:
+## question
+by EM cell membrane:
+## vignette
+This item asks the student to describe the trilaminar unit membrane completely.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+appear formed of 3 layers
+## explanation_a
+True, but not the whole answer. Three layers is what "trilaminar" means and what "unit membrane" names.
+## answer_b
+have outer & inner electron dense
+## explanation_b
+True, but not the whole answer. The two dark lines are the electron-dense outer and inner layers.
+## answer_c
+have middle electron lucent
+## explanation_c
+True, but not the whole answer. The middle layer is electron lucent, which is why the membrane reads as two dark lines with a clear one between them.
+## answer_d
+all of the above
+## explanation_d
+Correct. The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Describe the trilaminar unit membrane completely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q88. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are the three parts of one statement — the unit membrane is three layers, the outer two electron dense and the middle electron lucent — so no single one of them can be the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1216
+## title
+Cell coat:
+## question
+Cell coat:
+## vignette
+This item asks the student to identify the one false statement in a set about the cell coat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+mix of glycolipid, glycoprotein
+## explanation_a
+True. The coat is a mixture of glycolipid and glycoprotein — sugar carried on the lipid and on the protein of the outer leaflet.
+## answer_b
+have receptors
+## explanation_b
+True. The receptors for drugs, hormones, bacteria and viruses are part of the coat.
+## answer_c
+on internal surface only
+## explanation_c
+False, and it is the statement the answer excludes. The coat is on the external surface only.
+## answer_d
+all except C
+## explanation_d
+Correct. A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Identify the one false statement in a set about the cell coat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q17. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1217
+## title
+Cell membrane is formed of:
+## question
+Cell membrane is formed of:
+## vignette
+This item asks the student to name all three molecular components of the cell membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lipids
+## explanation_a
+True, but not the whole answer. Lipid is the phospholipid bilayer plus cholesterol.
+## answer_b
+Carbohydrates
+## explanation_b
+True, but not the whole answer. Carbohydrate is the smallest component by mass and sits on the outer surface only, but it is a component.
+## answer_c
+Proteins
+## explanation_c
+True, but not the whole answer. Protein is about half the membrane by mass.
+## answer_d
+All of the above
+## explanation_d
+Correct. Lipid, protein and carbohydrate — the three-part answer.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name all three molecular components of the cell membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q7. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1218
+## title
+Cell membrane of basophils shows receptors for:
+## question
+Cell membrane of basophils shows receptors for:
+## vignette
+This item asks the student to name the immunoglobulin whose receptor the basophil membrane carries.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Ig A
+## explanation_a
+IgA is the immunoglobulin of secretions — tears, saliva, gut and airway mucus. Nothing puts a receptor for it on the basophil.
+## answer_b
+Ig E
+## explanation_b
+Correct. The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_c
+Ig M
+## explanation_c
+IgM is the first antibody of a primary response and the largest. Chosen by students reasoning from size or from primacy, neither of which is what the receptor is selected for.
+## answer_d
+Ig D
+## explanation_d
+IgD sits on the surface of B lymphocytes as an antigen receptor. It is a membrane immunoglobulin, which makes it tempting, but it is on a different cell.
+## topic
+Blood
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the immunoglobulin whose receptor the basophil membrane carries.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q58; EOY 195 first 2022 101 ISK final (1).pdf p16 q29. Manifest src_2944234d11e92ac4bbc8, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1219
+## title
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## question
+Concerning highly selective lipoproteins of plasmalemma, which is false?
+## vignette
+This item asks the student to recognise selective permeability as keeping large molecules in while letting gases through.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+allows gas exchange
+## explanation_a
+True, so not the false one. Oxygen and carbon dioxide cross the lipid bilayer freely, which is the whole basis of the red cell's work.
+## answer_b
+allows escape of Hb
+## explanation_b
+Correct. False, and therefore the answer. If haemoglobin could escape, the red cell would empty itself into the plasma; selectivity means small gases pass and the large protein does not.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## answer_c
+prevents of escape of Hb
+## explanation_c
+True, so not the false one. It is the same statement as B with the sense reversed, and having both in one option set is the point — a student who reads quickly will pick whichever they see first.
+## answer_d
+none of the above
+## explanation_d
+There is a false statement in the set, so "none of the above" cannot stand.
+## topic
+Blood
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recognise selective permeability as keeping large molecules in while letting gases through.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q70. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1220
+## title
+function of cell coat:
+## question
+function of cell coat:
+## vignette
+This item asks the student to recall the full list of cell coat functions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+identification, adhesion
+## explanation_a
+True, but not the whole answer. Identification and adhesion are the two functions most often quoted.
+## answer_b
+immunity
+## explanation_b
+True, but not the whole answer. Cell immunity is among the coat's functions.
+## answer_c
+protection
+## explanation_c
+True, but not the whole answer. Protection is on the same list.
+## answer_d
+all the above
+## explanation_d
+Correct. Adhesion, identification, protection and cell immunity belong together, so any single option leaves most of the list out.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Recall the full list of cell coat functions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q18. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1221
+## title
+function of the cell coat is /are:
+## question
+function of the cell coat is /are:
+## vignette
+This item asks the student to recall the full list of cell coat functions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+cell adhesion
+## explanation_a
+True, but not the whole answer. Adhesion of one cell to another is a coat function.
+## answer_b
+cell recognition
+## explanation_b
+True, but not the whole answer. Recognition of self from foreign is a coat function.
+## answer_c
+act as specific cell receptor
+## explanation_c
+True, but not the whole answer. The specific receptors of the cell are carried on the coat.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight is placed on it.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Recall the full list of cell coat functions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q19. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1222
+## title
+Gap junction Is characterized by:
+## question
+Gap junction Is characterized by:
+## vignette
+This item asks the student to identify the gap junction by what passes through it rather than by what holds it together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Present at site of mechanical stress e.g. friction
+## explanation_a
+Sites of mechanical stress and friction are where desmosomes are, because the desmosome is the strongest junction. The gap junction is a communication device and adds almost nothing to adhesion.
+## answer_b
+Intercellular space filled with adhesive material
+## explanation_b
+An intercellular space filled with adhesive material describes the adherens junction and the desmosome, where transmembrane proteins are joined across a wide gap with calcium.
+## answer_c
+Condensation of actin at the cytoplasmic side of plasma membrane
+## explanation_c
+Condensation of actin on the cytoplasmic side is the zonula adherens. Intermediate filaments, not actin, go to the desmosome, and nothing is anchored at a gap junction.
+## answer_d
+Permits the passage of ions
+## explanation_d
+Correct. The gap junction's channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.
+
+Why this is right:
+- Epithelial cells are linked laterally by four junctions.
+- In the tight or occluding junction, the zonula occludens, the two adjacent cell membranes actually fuse at points through transmembrane proteins, leaving no space between them at all, and it encircles the apex of the cell like a belt, restricting passage between the cells.
+- In the adherens junction, the zonula adherens, a wide intercellular space is bridged by transmembrane proteins joined with the help of calcium ions, and condensed protein on the cytoplasmic side binds them to actin filaments; it too encircles the cell.
+## topic
+Histology-general
+## subtopic
+The cell
+## main_concept
+CON-FND-17E5245CBA11D0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Identify the gap junction by what passes through it rather than by what holds it together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q42. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C each describe a different junction — desmosome, adherens junction and adherens junction again — and only D describes the gap junction, whose channels carry ions and small molecules.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1223
+## title
+Glycocalyx can be detected by:
+## question
+Glycocalyx can be detected by:
+## vignette
+This item asks the student to choose the stains that demonstrate carbohydrate.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+H & E
+## explanation_a
+H&E shows neither the membrane nor its coat; the coat is too thin and too little coloured by either dye. This is the option taken by students who assume that anything on a routine slide must be H&E-visible.
+## answer_b
+PAS
+## explanation_b
+True, but not the whole answer. PAS is the carbohydrate stain and it does show the coat.
+## answer_c
+Ag
+## explanation_c
+True, but not the whole answer. Silver also demonstrates it.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Choose the stains that demonstrate carbohydrate.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p3 q16. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1224
+## title
+Glycocalyx is:
+## question
+Glycocalyx is:
+## vignette
+This item asks the student to identify the glycocalyx as the carbohydrate component of the membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+the protein component of the cell membrane
+## explanation_a
+The protein component is the peripheral and integral proteins. "Glyco-" is the part of the word that names what this actually is.
+## answer_b
+the carbohydrate component of the cell membrane
+## explanation_b
+Correct. The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_c
+the hydrophilic end of lipid
+## explanation_c
+The hydrophilic end of the phospholipid is its head, which faces the aqueous solution. It is on the outer surface too, which is what makes this option tempting, but it is lipid, not sugar.
+## answer_d
+the hydrophobic end of lipid
+## explanation_d
+The hydrophobic end is the fatty acid tail, and it points inwards, away from the surface entirely.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Identify the glycocalyx as the carbohydrate component of the membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q66. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1225
+## title
+Glycocalyx is formed of
+## question
+Glycocalyx is formed of
+## vignette
+This item asks the student to give the two molecule types that make up the cell coat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Molecules of lipoproteins and glycoproteins
+## explanation_a
+Lipoproteins are what the membrane as a whole is often called. The coat is specifically the sugar carried on lipid and on protein, and "lipoprotein" leaves the sugar out.
+## answer_b
+Molecules of glycolipids and glycoproteins
+## explanation_b
+Correct. Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_c
+Molecules of proteoglycans and glycoproteins
+## explanation_c
+Proteoglycans are ground substance molecules of connective tissue. They are sugar-rich, which is why the option looks plausible, but they are extracellular matrix, not membrane coat.
+## answer_d
+Molecules of phospholipids and cholesterol
+## explanation_d
+Phospholipids and cholesterol are the lipid of the bilayer itself, underneath the coat rather than part of it.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Give the two molecule types that make up the cell coat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q3. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1226
+## title
+How thick is the plasma membrane?
+## question
+How thick is the plasma membrane?
+## vignette
+This item asks the student to give membrane thickness in the correct unit.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+7.5-10 angstroms
+## explanation_a
+Angstroms are a tenth of a nanometre, so 7.5–10 Å would be under a nanometre — thinner than a single phospholipid molecule, and thinner than one leaflet of the bilayer.
+## answer_b
+7.5-10 nanometers
+## explanation_b
+Correct. 7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_c
+7.5-10 micrometers
+## explanation_c
+Micrometres would make the membrane about the width of a red blood cell. The whole point of the figure is that the membrane is far below light-microscopic resolution.
+## answer_d
+7.5-10 millimeters
+## explanation_d
+Millimetres would make it visible to the naked eye. The option is in the set only to mark the far end of the unit ladder that this question is entirely about.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Give membrane thickness in the correct unit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p4 q18. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1227
+## title
+In zonula occludens, distance between two cell membranes is:
+## question
+In zonula occludens, distance between two cell membranes is:
+## vignette
+This item asks the student to state the intercellular distance at a tight junction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+20 nm
+## explanation_a
+20 nm is roughly the wide intercellular space of an adherens junction or a desmosome. Chosen by students who know the tight junction is narrow but not that it is nothing.
+## answer_b
+20 um
+## explanation_b
+20 µm is a thousand times too large — wider than most whole cells, so no junction could span it.
+## answer_c
+Zero
+## explanation_c
+Correct. At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.
+
+Why this is right:
+- Epithelial cells are linked laterally by four junctions.
+- In the tight or occluding junction, the zonula occludens, the two adjacent cell membranes actually fuse at points through transmembrane proteins, leaving no space between them at all, and it encircles the apex of the cell like a belt, restricting passage between the cells.
+- In the adherens junction, the zonula adherens, a wide intercellular space is bridged by transmembrane proteins joined with the help of calcium ions, and condensed protein on the cytoplasmic side binds them to actin filaments; it too encircles the cell.
+## answer_d
+200 um
+## explanation_d
+200 µm is larger still, and is in the set only as the far end of the unit ladder.
+## topic
+Epithelium
+## subtopic
+The cell
+## main_concept
+CON-FND-17E5245CBA11D0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+State the intercellular distance at a tight junction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p17 q53. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1228
+## title
+One of the followings is not a function of the cell membrane:
+## question
+One of the followings is not a function of the cell membrane:
+## vignette
+This item asks the student to separate what the membrane does from what the nucleus does.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Active transport
+## explanation_a
+Active transport is a membrane function: the sodium–potassium pump is an integral protein of the membrane.
+## answer_b
+Passive diffusion
+## explanation_b
+Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the keyed answer, and taking it would mean denying that anything crosses a membrane unaided.
+## answer_c
+Phagocytosis
+## explanation_c
+Phagocytosis is a membrane function: the pseudopodia that surround a particle are membrane, and the phagosome is made from it.
+## answer_d
+RNA synthesis
+## explanation_d
+Correct. RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Separate what the membrane does from what the nucleus does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q14; EOY 195 first 2022 101 ISK final (1).pdf p14 q7. Manifest src_6846577508f49244d715, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, and passive diffusion is a membrane function — it is the plainest one there is. RNA synthesis happens in the nucleus and is the only listed activity the membrane has no part in. The key is one letter off; the answer is D.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1229
+## title
+Protein components of the cell membrane is
+## question
+Protein components of the cell membrane is
+## vignette
+This item asks the student to distinguish peripheral from integral protein by position.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Peripheral present inside the lipid bilayer
+## explanation_a
+Peripheral proteins are outside the lipid bilayer, on one surface or the other. Inside the bilayer is where the integral proteins are.
+## answer_b
+Peripheral small continuous molecules outside the lipid bilayer
+## explanation_b
+The first half is right — peripheral proteins are outside the bilayer — but they are not a continuous layer; they are scattered and loosely attached. "Continuous" is what makes this option false.
+## answer_c
+integral present outside the lipid bilayer
+## explanation_c
+Integral proteins are not outside the bilayer. This option and A are the same swap made in both directions, which is what the question is set to catch.
+## answer_d
+integral may cross the lipid bilayer
+## explanation_d
+Correct. Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Distinguish peripheral from integral protein by position.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q2. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is correct.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1230
+## title
+Responsible for blood Grouping:
+## question
+Responsible for blood Grouping:
+## vignette
+This item asks the student to attribute the blood group antigens to the cell coat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+Correct. The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+The membrane cytoskeleton on the inner surface gives the red cell its elasticity and its biconcave shape. It faces the cytoplasm, so it cannot be what another person's antibodies recognise.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer. It is the same in every red cell of every group and carries no identity.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids likewise are structural and identical between people. Only the sugar of the coat varies enough to type blood by.
+## topic
+Blood
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Attribute the blood group antigens to the cell coat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q42. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1231
+## title
+Responsible for RBCs Elasticity & flexibility:
+## question
+Responsible for RBCs Elasticity & flexibility:
+## vignette
+This item asks the student to attribute red cell deformability to the membrane cytoskeleton on the inner surface.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Cell coat on outer surface of RBCs
+## explanation_a
+The cell coat on the outer surface carries the blood group antigens. It identifies the cell; it does not give it shape. This is the paired question to `responsible-for-blood-grouping`, with the same four options, and swapping the two answers is what the pair is designed to catch.
+## answer_b
+Cytoskeleton on the inner surface of RBCs plasma membrane
+## explanation_b
+Correct. The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## answer_c
+Cholesterol
+## explanation_c
+Cholesterol stabilises the bilayer and restricts phospholipid movement — it makes the membrane less mobile, not more deformable.
+## answer_d
+Phospholipids
+## explanation_d
+Phospholipids form the bilayer, which is fluid but has no mechanical memory of its own. Shape and recoil come from the protein scaffold beneath it.
+## topic
+Blood
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Attribute red cell deformability to the membrane cytoskeleton on the inner surface.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q43. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1232
+## title
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## question
+The carbohydrate coat that is found on the outer surface of the cell membrane is:
+## vignette
+This item asks the student to name the carbohydrate coat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the membrane itself, the structure the coat sits on.
+## answer_b
+Glycocalyx
+## explanation_b
+Correct. Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## answer_c
+cristae
+## explanation_c
+Cristae are the folds of the inner mitochondrial membrane. They are in the option set because this book uses one quartet of membranous terms across several questions.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and the Golgi.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name the carbohydrate coat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p1 q1. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1233
+## title
+The cell limiting membrane is:
+## question
+The cell limiting membrane is:
+## vignette
+This item asks the student to name the limiting membrane of the cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane that envelopes the cell — its own definition.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is carried on the plasmalemma's outer surface. It is a coat, not a membrane, and it does not limit the cell by itself.
+## answer_c
+cristae
+## explanation_c
+Cristae are folds of the inner mitochondrial membrane, inside an organelle rather than around the cell.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the sacs of the endoplasmic reticulum, again inside the cell.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name the limiting membrane of the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q9. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1234
+## title
+The cell membrane can be demonstrated by
+## question
+The cell membrane can be demonstrated by
+## vignette
+This item asks the student to choose the stain that shows the cell membrane by light microscopy.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+H&E
+## explanation_a
+H&E does not show it. This is the option most students take, because H&E is the slide they see every week — but the membrane is below the light microscope's resolution and neither dye concentrates in it.
+## answer_b
+PAS
+## explanation_b
+Correct. PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_c
+Sudan III
+## explanation_c
+Sudan III is a fat stain, used on frozen sections for fat inclusions. The membrane's lipid is far too little to show with it.
+## answer_d
+Orcein
+## explanation_d
+Orcein stains elastic fibres in connective tissue and has nothing to do with the cell membrane.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stains and techniques
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Choose the stain that shows the cell membrane by light microscopy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p24 q1. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1235
+## title
+The cell membrane of the mast cells have specific receptors for:
+## question
+The cell membrane of the mast cells have specific receptors for:
+## vignette
+This item asks the student to name the immunoglobulin whose receptor the mast cell membrane carries.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+IgM
+## explanation_a
+IgM is the first antibody of a primary response, made and released by plasma cells rather than bound at a mast cell surface.
+## answer_b
+IgG
+## explanation_b
+IgG is the commonest circulating immunoglobulin and the one crossing the placenta. Chosen by students reasoning from abundance.
+## answer_c
+IgA
+## explanation_c
+IgA is the immunoglobulin of secretions and is handled by epithelium, not by mast cells.
+## answer_d
+IgE
+## explanation_d
+Correct. The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the two cells are compared directly.
+
+Why this is right:
+- The cell coat, or glycocalyx, is the fuzzy layer of glycoprotein and glycolipid molecules on the external surface of the cell membrane and on that surface only.
+## topic
+Connective Tissue
+## subtopic
+The cell
+## main_concept
+CON-FND-F2237ED98E88F3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the immunoglobulin whose receptor the mast cell membrane carries.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q39; EOM first 2021 101 INT end of module.pdf p6 q41. Manifest src_4e481d399b2ffd65b97a, src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1236
+## title
+The cell membrane’s thickness ranges from:
+## question
+The cell membrane’s thickness ranges from:
+## vignette
+This item asks the student to give the membrane thickness as a range within the right order of magnitude.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+4-6 nm thick
+## explanation_a
+4–6 nm is thinner than the bilayer plus its coat, and is roughly what a single leaflet with its head groups would measure.
+## answer_b
+6-7.5 nm thick
+## explanation_b
+6–7.5 nm brushes the bottom of the true range without reaching it. This option is set immediately below the answer, so it catches a half-remembered figure.
+## answer_c
+7.5-10 nm thick
+## explanation_c
+Correct. 7.5–10 nm is the given range.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_d
+10-30 nm thick
+## explanation_d
+10–30 nm is thicker than any plasma membrane and closer to the width of an intercellular gap at an adherens junction.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Give the membrane thickness as a range within the right order of magnitude.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q89. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The given range is 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1237
+## title
+The function of cholesterol in the cell membrane is to:
+## question
+The function of cholesterol in the cell membrane is to:
+## vignette
+This item asks the student to state what cholesterol does in the bilayer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+act as channels
+## explanation_a
+Channels are integral proteins spanning the bilayer. Cholesterol sits between the fatty acid tails and conducts nothing.
+## answer_b
+stabilize the cell membrane
+## explanation_b
+Correct. Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## answer_c
+act as receptors
+## explanation_c
+Receptors are on the cell coat and are glycoprotein. Cholesterol is buried in the lipid interior where no extracellular ligand could reach it.
+## answer_d
+both a & c are correct
+## explanation_d
+Both a and c would need cholesterol to be a channel and a receptor, and it is neither. This is the option for a student who thinks a lipid this famous must be doing more than one thing.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+State what cholesterol does in the bilayer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q15. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1238
+## title
+The inner folds of mitochondrial membrane are called:
+## question
+The inner folds of mitochondrial membrane are called:
+## vignette
+This item asks the student to tell the plasmalemma apart from the other membranous terms often confused with it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+plasmalemma
+## explanation_a
+Plasmalemma is the limiting membrane of the whole cell, not a fold inside an organelle.
+## answer_b
+Glycocalyx
+## explanation_b
+Glycocalyx is the carbohydrate coat on the outer surface of the plasmalemma.
+## answer_c
+cristae
+## explanation_c
+Correct. Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_d
+cisternae
+## explanation_d
+Cisternae are the flattened sacs of the endoplasmic reticulum and of the Golgi. This quartet of four membranous terms is reused across several questions in this book, and answering it is a matter of holding all four apart at once.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Tell the plasmalemma apart from the other membranous terms often confused with it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q8. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1239
+## title
+The thickness of the cell membraneis:
+## question
+The thickness of the cell membraneis:
+## vignette
+This item asks the student to give membrane thickness in the correct unit.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+7.5 – 10 mm
+## explanation_a
+7.5–10 mm is a centimetre-scale membrane. The option is at the far end of the unit ladder this question is built from.
+## answer_b
+7.5 – 10 µm
+## explanation_b
+7.5–10 µm is about the diameter of a red blood cell — a thousand times too thick.
+## answer_c
+7.5 – 10 nm
+## explanation_c
+Correct. 7.5–10 nm.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Give membrane thickness in the correct unit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q8. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1240
+## title
+thickness of the cell membrane is about:
+## question
+thickness of the cell membrane is about:
+## vignette
+This item asks the student to give membrane thickness in the correct unit and the correct order of magnitude.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+7.5.10nm
+## explanation_a
+Correct. 7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_b
+7.5 .10 µm
+## explanation_b
+The same figure in micrometres, a thousandfold too thick.
+## answer_c
+75.100nm
+## explanation_c
+75–100 nm is ten times the true thickness and is closer to the diameter of a small vesicle.
+## answer_d
+75.100µm
+## explanation_d
+75–100 µm is larger than most whole cells.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Give membrane thickness in the correct unit and the correct order of magnitude.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q1. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1241
+## title
+What is the limiting membrane of a cell?
+## question
+What is the limiting membrane of a cell?
+## vignette
+This item asks the student to name the limiting membrane of the cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Plasmalemma
+## explanation_a
+Correct. The plasmalemma is the limiting membrane enveloping the cell.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_b
+Glycocalyx
+## explanation_b
+The glycocalyx is the coat carried on the plasmalemma's outer face, not the membrane itself.
+## answer_c
+Protoplasm
+## explanation_c
+Protoplasm is the whole living content of the cell, cytoplasm and nucleus together. It is what the membrane encloses, not what encloses it.
+## answer_d
+Cristae
+## explanation_d
+Cristae are folds of the inner mitochondrial membrane.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Name the limiting membrane of the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p1 q4. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1242
+## title
+Which molecule of the cell membrane has a stabilizing effect?
+## question
+Which molecule of the cell membrane has a stabilizing effect?
+## vignette
+This item asks the student to attribute membrane stabilisation to cholesterol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+cholesterol
+## explanation_a
+Correct. Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.
+
+Why this is right:
+- The cell membrane is built of lipid, protein and carbohydrate.
+## answer_b
+cell coat
+## explanation_b
+The cell coat is on the outer surface and does recognition, adhesion and reception. It contributes nothing to the mechanical stability of the lipid.
+## answer_c
+Phospholipids
+## explanation_c
+Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the keyed answer, and taking it reverses the relationship the question is about.
+## answer_d
+Intrinsic proteins
+## explanation_d
+Intrinsic — integral — proteins are channels, carriers and pumps. They cross the bilayer but they do not hold it together.
+## topic
+Cytology
+## subtopic
+The cell
+## main_concept
+CON-FND-85CC08A33D0A88
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Attribute membrane stabilisation to cholesterol.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p9 q2. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1243
+## title
+The axoneme of a cilium is composed of:
+## question
+The axoneme of a cilium is composed of:
+## vignette
+This item asks the student to give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+27 microtubules covered by cell membrane.
+## explanation_a
+Twenty-seven is the basal body, and the centriole it comes from: nine triplets. The covering is right and the number is wrong, which is the harder half of the item to see.
+## answer_b
+27 microtubules not covered by cell membrane.
+## explanation_b
+Both halves wrong. Twenty-seven belongs to the basal body, and the basal body is the part that sits inside the apical cytoplasm — but that makes it the structure the option is describing, not the axoneme.
+## answer_c
+20 microtubules not covered by cell membrane.
+## explanation_c
+The right count with the wrong covering. The axoneme projects above the cell surface, and everything that projects from a cell is covered by its plasma membrane; a bare bundle of microtubules in the extracellular space would not be part of a cell at all.
+## answer_d
+20 microtubules covered by cell membrane.
+## explanation_d
+Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+The cell
+## subtopic
+The cell
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural detail
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q12. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: cilia are motile processes with a microtubular core covered by plasmalemma, the shaft is called the axoneme, and that shaft has nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1244
+## title
+Multipolar nerve cells are present in:
+## question
+Multipolar nerve cells are present in:
+## vignette
+This item asks the student to sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Purkinje cells in cerebellar cortex.
+## explanation_a
+Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.
+
+Why this is right:
+- A neuron is named by the number of processes leaving its cell body.
+## answer_b
+Spinal ganglia.
+## explanation_b
+Spinal ganglion cells are unipolar — strictly pseudounipolar, a single process that divides in two — and they are the standard example of that class. This is the strongest distractor because a ganglion is where most students first meet a named nerve cell.
+## answer_c
+Vestibular ganglia in ear.
+## explanation_c
+Vestibular ganglion cells in the ear are bipolar: one process at each end of the cell body. They belong with the retinal and olfactory cells, not with the Purkinje cell.
+## answer_d
+Retina of the eye.
+## explanation_d
+The bipolar cells of the retina are the second standard example of the bipolar class, which is why the item offers two bipolar options — a student who knows only that ganglia are unipolar still has to choose between them.
+## topic
+The cell
+## subtopic
+The cell
+## main_concept
+CON-FND-14D80DE53DE835
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > The cell
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-THE-CELL
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q28. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the course material: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the course text. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
