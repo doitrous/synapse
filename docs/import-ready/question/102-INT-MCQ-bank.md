@@ -6216,3 +6216,1998 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Verbatim from page 29; stem lightly repunctuated for readability.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-066
+## title
+Which of the following is an aldotriose?
+## question
+Which of the following is an aldotriose?
+## vignette
+This item asks the student to match each aldose to its carbon-count class, starting with the aldotriose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Glyceraldehyde
+## explanation_a
+Correct. Glyceraldehyde is the aldotriose — the 3-carbon aldose.
+## answer_b
+Erythrose
+## explanation_b
+Erythrose is the aldotetrose (4 carbons), one carbon longer than an aldotriose.
+## answer_c
+Ribose
+## explanation_c
+Ribose is an aldopentose (5 carbons), not a triose.
+## answer_d
+Glucose
+## explanation_d
+Glucose is an aldohexose (6 carbons), the largest of the aldoses named in this list.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match each aldose to its carbon-count class, starting with the aldotriose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p6 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-067
+## title
+Which of the following are Aldohexoses?
+## question
+Which of the following are Aldohexoses?
+## vignette
+This item asks the student to identify a pair of named aldohexoses (glucose, mannose, galactose).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Glucose and fructose
+## explanation_a
+Fructose is a ketohexose, not an aldose, so this pair mixes classes even though both sugars are hexoses.
+## answer_b
+Fructose and ribose
+## explanation_b
+Fructose is a ketohexose and ribose is an aldopentose — neither is an aldohexose, so this pair fails on both counts.
+## answer_c
+Glucose and Galactose
+## explanation_c
+Correct. Glucose, mannose and galactose are the aldohexose examples; glucose and galactose are two of the three.
+## answer_d
+Ribose and glucose
+## explanation_d
+Ribose is an aldopentose, not a hexose, so this pair fails the carbon-count test even though glucose alone qualifies.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a pair of named aldohexoses (glucose, mannose, galactose).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p6 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-068
+## title
+Which of the following is the simplest ketose?
+## question
+Which of the following is the simplest ketose?
+## vignette
+This item asks the student to name dihydroxyacetone as the simplest ketose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Erythrulose
+## explanation_a
+Erythrulose is the ketotetrose (4 carbons) — one class larger than the simplest ketose.
+## answer_b
+Ribulose
+## explanation_b
+Ribulose is the ketopentose (5 carbons), further still from the simplest ketose.
+## answer_c
+Dihydroxyacetone
+## explanation_c
+Correct. Dihydroxyacetone is the simplest ketose (C3).
+## answer_d
+Fructose
+## explanation_d
+Fructose is the ketohexose (6 carbons), the largest ketose named in this list, not the simplest.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name dihydroxyacetone as the simplest ketose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p7 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-069
+## title
+A ketohexose sugar is:
+## question
+A ketohexose sugar is:
+## vignette
+This item asks the student to identify fructose as the ketohexose example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Dihydroxyacetone
+## explanation_a
+Dihydroxyacetone is the ketotriose (3 carbons), not a hexose.
+## answer_b
+Ribulose
+## explanation_b
+Ribulose is the ketopentose (5 carbons), one carbon short of a hexose.
+## answer_c
+Fructose
+## explanation_c
+Correct. Fructose is the named example of a ketohexose.
+## answer_d
+Glucose
+## explanation_d
+Glucose is a hexose but an aldose, not a ketose — it carries its carbonyl group at C1, not C2.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-ABEA43BF07B408
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify fructose as the ketohexose example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p7 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-070
+## title
+Two sugars which differ from one another only in the configuration around a single carbon atom are termed:
+## question
+Two sugars which differ from one another only in the configuration around a single carbon atom are termed:
+## vignette
+This item asks the student to recall the definition of epimers.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Epimers
+## explanation_a
+Correct. Epimers are compounds with the same molecular formula that differ only in the configuration around one carbon.
+## answer_b
+Anomers
+## explanation_b
+Anomers are specifically the alpha- and beta- forms created by cyclization at the new stereocentre, not a difference at any single carbon in general.
+## answer_c
+Optical isomers
+## explanation_c
+"Optical isomers" is not one of the four named isomer types here.
+## answer_d
+Stereoisomers
+## explanation_d
+"Stereoisomers" is a broader term than the specific, single-carbon definition of epimers — it would also describe enantiomers and anomers, so it is less precise than the option the question is testing for.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall the definition of epimers.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-071
+## title
+D- glucose and D- mannose are epimers at carbon:
+## question
+D- glucose and D- mannose are epimers at carbon:
+## vignette
+This item asks the student to recall that glucose and mannose are epimers at C2.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+l
+## explanation_a
+C2, not C1, is the point of difference between glucose and mannose.
+## answer_b
+3
+## explanation_b
+C3 is not the carbon for the glucose-mannose epimer pair; C4 is the carbon for the glucose-galactose pair instead.
+## answer_c
+2
+## explanation_c
+Correct. Glucose and mannose are epimers at C2.
+## answer_d
+5
+## explanation_d
+C5 is not a configuration named for any epimer pair in this chapter.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall that glucose and mannose are epimers at C2.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-072
+## title
+D- glucose and D- galactose are epimers at carbon:
+## question
+D- glucose and D- galactose are epimers at carbon:
+## vignette
+This item asks the student to recall that glucose and galactose are epimers at C4.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+l
+## explanation_a
+C1 is not the carbon named for either epimer pair.
+## answer_b
+2
+## explanation_b
+C2 is the carbon named for the glucose-mannose pair, not glucose-galactose.
+## answer_c
+3
+## explanation_c
+C3 is not a configuration named for any epimer pair in this chapter.
+## answer_d
+4
+## explanation_d
+Correct. Glucose and galactose are epimers at C4.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-358E18A31D89FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recall that glucose and galactose are epimers at C4.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p8 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-073
+## title
+The sugar abundantly present in honey is:
+## question
+The sugar abundantly present in honey is:
+## vignette
+This item asks the student to name fructose as the sugar present in honey.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Maltose
+## explanation_a
+Maltose is not among the sugars present in honey; it is the disaccharide product of starch digestion.
+## answer_b
+Fructose
+## explanation_b
+Correct. Fructose ("fruit sugar") is present in honey, fruits, semen, sucrose and inulin.
+## answer_c
+Ribulose
+## explanation_c
+Ribulose is a ketopentose used as a structural example elsewhere in the chapter, not a sugar present in honey.
+## answer_d
+Lactose
+## explanation_d
+Lactose is milk sugar, formed of galactose and glucose — it is not present in honey.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-EDE6D8E401EB10
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name fructose as the sugar present in honey.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q25. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-074
+## title
+The sugar found in DNA is:
+## question
+The sugar found in DNA is:
+## vignette
+This item asks the student to name deoxyribose as the sugar of DNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Xylose
+## explanation_a
+Xylose is an aldopentose example used earlier in the chapter's carbon-count classification, not a nucleic-acid sugar.
+## answer_b
+Ribose
+## explanation_b
+Ribose is the RNA sugar, the other pentose in this pair — easy to swap with deoxyribose if the two nucleic acids aren't kept straight.
+## answer_c
+Deoxyribose
+## explanation_c
+Correct. 2-deoxyribose is a component of deoxyribonucleic acid (DNA).
+## answer_d
+Ribulose
+## explanation_d
+Ribulose is a ketopentose from the carbonyl/carbon-count classification, not a nucleic-acid sugar.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-EDE6D8E401EB10
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name deoxyribose as the sugar of DNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q26. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-075
+## title
+Sugar alcohol of glucose is:
+## question
+Sugar alcohol of glucose is:
+## vignette
+This item asks the student to match glucose to its sugar alcohol, sorbitol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Sorbitol
+## explanation_a
+Correct. Sorbitol is glucose and fructose alcohol.
+## answer_b
+Inositol
+## explanation_b
+Inositol is not named among the sugar alcohols at all.
+## answer_c
+Dulcitol
+## explanation_c
+Dulcitol is galactose alcohol, not glucose's.
+## answer_d
+Mannitol
+## explanation_d
+Mannitol is mannose alcohol, not glucose's.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match glucose to its sugar alcohol, sorbitol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-076
+## title
+In amino sugars, an amino group replaces the hydroxyl group on which carbon?
+## question
+In amino sugars, an amino group replaces the hydroxyl group on which carbon?
+## vignette
+This item asks the student to state that amino sugars are formed by replacing the C2 hydroxyl with an amino group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+First carbon
+## explanation_a
+C1 carries the carbonyl group (the aldehyde) in an aldose, not the substitution site for amino sugars.
+## answer_b
+Second carbon
+## explanation_b
+Correct. Amino sugars are sugars in which the hydroxyl group at C2 is replaced by an amino group (NH2).
+## answer_c
+Third carbon
+## explanation_c
+C3 is not the substitution site for amino sugars — it is also not the site for deoxy sugars, which use C2 as well.
+## answer_d
+Fourth carbon
+## explanation_d
+C4 is not a substitution site for any of the monosaccharide derivative classes here.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that amino sugars are formed by replacing the C2 hydroxyl with an amino group.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q38. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-077
+## title
+Reduction of monosaccharides produces:
+## question
+Reduction of monosaccharides produces:
+## vignette
+This item asks the student to state that reducing a monosaccharide's carbonyl group produces a sugar alcohol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Sugar acid
+## explanation_a
+Sugar acids form by oxidation of the primary alcohol group, the opposite chemistry to reduction.
+## answer_b
+Deoxy sugar
+## explanation_b
+Deoxy sugars form by replacing the C2 hydroxyl with hydrogen, not by reducing the carbonyl group.
+## answer_c
+Amino sugar
+## explanation_c
+Amino sugars form by replacing the C2 hydroxyl with an amino group, not by reduction.
+## answer_d
+Sugar alcohol
+## explanation_d
+Correct. Sugar alcohols are sugars in which the carbonyl group is reduced to an alcohol group.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-2BD334DFDAE34C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that reducing a monosaccharide's carbonyl group produces a sugar alcohol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p9 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-078
+## title
+Which of the following is a sugar alcohol?
+## question
+Which of the following is a sugar alcohol?
+## vignette
+This item asks the student to identify mannitol as a sugar alcohol against three unmodified sugars.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Mannitol
+## explanation_a
+Correct. Mannitol is the sugar alcohol of mannose, formed by reducing mannose's carbonyl group to an alcohol group.
+## answer_b
+Fructose
+## explanation_b
+Fructose is an unmodified ketohexose, not a reduction product of any sugar.
+## answer_c
+Galactose
+## explanation_c
+Galactose is an unmodified aldohexose — its reduction product, dulcitol, would be the sugar alcohol, not galactose itself.
+## answer_d
+Ribose
+## explanation_d
+Ribose is an unmodified aldopentose — its reduction product, ribitol, would be the sugar alcohol, not ribose itself.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-38F8E2264D46B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify mannitol as a sugar alcohol against three unmodified sugars.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p10 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-079
+## title
+Sucrose hydrolysis produces:
+## question
+Sucrose hydrolysis produces:
+## vignette
+This item asks the student to state that sucrose hydrolyses to glucose and fructose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Galactose and mannose
+## explanation_a
+Neither galactose nor mannose is a component of sucrose; sucrose is built from fructose and glucose.
+## answer_b
+Glucose and fructose
+## explanation_b
+Correct. Sucrose is formed of fructose and glucose united by a glycosidic linkage, so hydrolysis returns those two monosaccharides.
+## answer_c
+Glucose and galactose
+## explanation_c
+Glucose and galactose are the hydrolysis products of lactose, not sucrose.
+## answer_d
+Glucose and mannose
+## explanation_d
+Mannose is not a component of any disaccharide named in this chapter.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that sucrose hydrolyses to glucose and fructose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q41. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-080
+## title
+One of following is a non- reducing disaccharide:
+## question
+One of following is a non- reducing disaccharide:
+## vignette
+This item asks the student to identify sucrose as the non-reducing disaccharide.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Isomaltose
+## explanation_a
+Isomaltose is not discussed as an exception to the reducing pattern; only sucrose is singled out as non-reducing.
+## answer_b
+Lactose
+## explanation_b
+Lactose is grouped with maltose as having a free carbonyl group, making it a reducing sugar.
+## answer_c
+Sucrose
+## explanation_c
+Correct. In sucrose both carbonyl carbons are involved in the linkage, so it is non-reducing.
+## answer_d
+Maltose
+## explanation_d
+Maltose is reducing, alongside lactose, because it retains a free carbonyl group.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify sucrose as the non-reducing disaccharide.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p11 q44. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-081
+## title
+A carbohydrate formed by B 1,4-galactosidic linkages is:
+## question
+A carbohydrate formed by B 1,4-galactosidic linkages is:
+## vignette
+This item asks the student to match the beta1,4-galactosidic linkage to lactose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Maltose
+## explanation_a
+Maltose's linkage is alpha1,4-glucosidic, a glucosidic bond rather than a galactosidic one.
+## answer_b
+Cellulose
+## explanation_b
+Cellulose's linkage is beta1,4-glucosidic — the same anomeric form and position as lactose's, but glucosidic rather than galactosidic, since cellulose is built of glucose units only.
+## answer_c
+Lactose
+## explanation_c
+Correct. Lactose is galactose and glucose united by a beta1,4-galactosidic linkage.
+## answer_d
+Sucrose
+## explanation_d
+Sucrose's linkage is alpha1,2-glucosidic (beta2,1-fructosidic), not a 1,4-galactosidic bond.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-FC888FB7A7D8A8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match the beta1,4-galactosidic linkage to lactose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p12 q49. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-082
+## title
+Which of the following is a polymer of fructose?
+## question
+Which of the following is a polymer of fructose?
+## vignette
+This item asks the student to identify inulin as a fructan (fructose polymer).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Starch
+## explanation_a
+Starch is a glucan — a polymer of glucose, per the Glucans list.
+## answer_b
+Dextrin
+## explanation_b
+Dextrin is not discussed in the homopolysaccharide classification.
+## answer_c
+Inulin
+## explanation_c
+Correct. Inulin is a fructan, formed of fructose units, present in plants.
+## answer_d
+Cellulose
+## explanation_d
+Cellulose is a glucan — a polymer of glucose, per the Glucans list, alongside starch and glycogen.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4128FE1AD6819C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify inulin as a fructan (fructose polymer).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p12 q51. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-083
+## title
+Starch is a:
+## question
+Starch is a:
+## vignette
+This item asks the student to classify starch as a homopolysaccharide (glucan).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Homopolysaccharide
+## explanation_a
+Correct. Starch is listed among the Glucans — homopolysaccharides built entirely of glucose units.
+## answer_b
+Monosaccharide
+## explanation_b
+Starch is a large polymer of many glucose units, far from the single-unit monosaccharide class.
+## answer_c
+Disaccharide
+## explanation_c
+Starch contains far more than the two units that define a disaccharide.
+## answer_d
+Heteropolysaccharide
+## explanation_d
+Heteropolysaccharides contain more than one monosaccharide type; starch is built of glucose alone, which makes it a homopolysaccharide instead.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4706C1246E4B76
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify starch as a homopolysaccharide (glucan).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p13 q54. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-084
+## title
+Which of the following is the carbohydrate storage form in animals?
+## question
+Which of the following is the carbohydrate storage form in animals?
+## vignette
+This item asks the student to state that glycogen is the animal storage carbohydrate.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Starch
+## explanation_a
+Starch is the plant storage form, not the animal one.
+## answer_b
+Glycogen
+## explanation_b
+Correct. Glycogen is the storage form of carbohydrates in animals.
+## answer_c
+Glucose
+## explanation_c
+Glucose is the monosaccharide that glycogen is built from and stores, not the storage form itself.
+## answer_d
+Inulin
+## explanation_d
+Inulin is a plant fructan, unrelated to animal carbohydrate storage.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-4706C1246E4B76
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that glycogen is the animal storage carbohydrate.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p13 q57. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-085
+## title
+Which of the following is a glycosaminoglycans?
+## question
+Which of the following is a glycosaminoglycans?
+## vignette
+This item asks the student to identify heparin as a GAG against a fructan and two amino sugars.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inulin.
+## explanation_a
+Inulin is a fructan homopolysaccharide, not a GAG.
+## answer_b
+Heparin
+## explanation_b
+Correct. Heparin is one of the sulfate-containing glycosaminoglycans.
+## answer_c
+Glucosamine
+## explanation_c
+Glucosamine is an amino sugar — a monosaccharide derivative and a building block that GAGs are made from, not a GAG itself.
+## answer_d
+Galactosamine
+## explanation_d
+Galactosamine is likewise an amino sugar, a component monosaccharide of some GAGs rather than a GAG in its own right.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-E84660F1CEC3AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify heparin as a GAG against a fructan and two amino sugars.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p14 q65. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-086
+## title
+The polysaccharide which is used to prevent blood clotting is:
+## question
+The polysaccharide which is used to prevent blood clotting is:
+## vignette
+This item asks the student to name heparin as the anticoagulant GAG.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Heparin
+## explanation_a
+Correct. Heparin proteoglycan is an important anticoagulant, preventing thrombus formation.
+## answer_b
+Keratan sulfate
+## explanation_b
+Keratan sulfate's role is corneal transparency and development, not anticoagulation.
+## answer_c
+Cellulose
+## explanation_c
+Cellulose is a structural plant homopolysaccharide, unrelated to blood clotting.
+## answer_d
+Heparan sulfate
+## explanation_d
+Heparan sulfate's role is cell membrane receptors and cell-cell interaction — a name easily confused with heparin, but a different job.
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## main_concept
+CON-FND-CD24D4572D101B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name heparin as the anticoagulant GAG.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p14 q67. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
