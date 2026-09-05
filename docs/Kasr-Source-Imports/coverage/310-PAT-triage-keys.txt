@@ -1,0 +1,35 @@
+310 PAT — triage keys (Year 3, Pathology & Pharmacology) — MODULE OPENED 2026-09-06
+Source: 310 PAT/Pathology/Questions & MCQs/Pathology MCQ by Abolmagd [SOLVED].pdf
+  (manifest sourceId src_a2b36e9ed9778bfa7efd, kasr-y3-sources.json;
+   sha256 a2b36e9ed9778bfa7efd3726683e90d56619f08873397fcb1398906924596a38;
+   corpusRelativePath "310 PAT/Pathology/Questions & MCQs/Pathology MCQ by Abolmagd [SOLVED].pdf";
+   student-authored "Previous Years" cardiovascular-pathology MCQ+written compilation, [SOLVED], 28 pages).
+Sitting year: none (a previous-years compilation, not a single dated sitting; cover names a 2008-2015
+  range; some stems carry per-question batch tags [196]/[195]). manifest examSittingYear = null.
+Module-code note: the cover prints the pathology code as [210] (the Year-2 code) though the owner
+  filed the file under y3/310 PAT; placement follows the disk tree (Year 3 / 310 PAT).
+
+Method: native text layer (no OCR). The correct answer is the option whose TEXT is coloured RED.
+  Detected with `node scripts/content/pagetext.mjs keys <pdf> --pages N`, then render-verified at
+  170 dpi (mark-garbled then render) against pp.3-6 by eye. Every keyed answer is a SINGLE red-text
+  option. The automated detector produced spurious "multiple"/missing flags on negative-stem pages
+  (p4 Q8 flagged multiple -> single red c; p4 Q9 missed -> red b; p6 Q19/Q21 flagged multiple ->
+  single red c / a); ALL were resolved to a single red option by the render, 0 genuine double-marks,
+  0 unmarked, 0 exclusions in Q1-24. Section decoration is unrelated: the "VASCULAR" heading has a
+  red highlight background, and [196]/[195] batch tags are yellow-highlighted — neither is an answer.
+
+Section map (this paper): Q1-18 Hypertension (pp.3-5), Q19-30 Atherosclerosis begins p.6.
+This tranche authors Q1-24 (Hypertension Q1-18 + Atherosclerosis Q19-24). Q25+ untriaged.
+
+# Hypertension (Q1-18) — render-verified pp.3-5
+Q1.c   Q2.a   Q3.c   Q4.b   Q5.d   Q6.b
+Q7.b   Q8.c   Q9.b   Q10.a  Q11.c  Q12.d
+Q13.d  Q14.c  Q15.d  Q16.a  Q17.c  Q18.d
+
+# Atherosclerosis (Q19-24) — render-verified p.6
+Q19.c  Q20.c  Q21.a  Q22.b  Q23.d  Q24.b
+
+# Remaining on this paper (untriaged): Q25-30 Atherosclerosis (p.7, some detector-ambiguous:
+#   p7 Q26/Q28 flagged multiple — render-adjudicate before authoring), then Blood Vessels (p.8+),
+#   Endocarditis (p.13+), Ischemia (p.17+), Heart Diseases (p.19+), 2008-2015 MCQ set (p.24+),
+#   Written topics (p.26+, not MCQ).
