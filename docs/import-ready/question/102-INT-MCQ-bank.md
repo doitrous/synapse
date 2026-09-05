@@ -30828,3 +30828,7811 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-315
+## title
+Synthesis of proteins commonly require:
+## question
+Synthesis of proteins commonly require:
+## vignette
+This item asks the student to state the number of amino acids commonly required for protein synthesis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+100 different amino acids
+## explanation_a
+Overshoots the correct number by a factor of five.
+## answer_b
+300 different amino acids
+## explanation_b
+Far above the correct count; there is no expanded amino-acid alphabet in what this chapter teaches.
+## answer_c
+20 different amino acids
+## explanation_c
+Correct. Synthesis of proteins commonly requires twenty different amino acids.
+
+Why this is right:
+- Proteins are organic compounds with a high molecular weight.
+## answer_d
+30 different amino acids
+## explanation_d
+A plausible-sounding round number, but not the correct one — it is fixed at twenty, not thirty.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the number of amino acids commonly required for protein synthesis.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p25 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-316
+## title
+Which of the following is an example of o amino acids?
+## question
+Which of the following is an example of o amino acids?
+## vignette
+This item asks the student to recognise phenylalanine as a true α-amino acid and rule out proline, hydroxyproline and glutathione.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Phenylalanine
+## explanation_a
+Correct. Phenylalanine is one of the twenty amino acids, and — unlike proline — it is a true α-amino acid, with a free amino group on the carbon next to the carboxyl group.
+
+Why this is right:
+- Proteins are organic compounds with a high molecular weight.
+## answer_b
+Proline
+## explanation_b
+The stated exception. Proline is singled out as an imino acid, not an α-amino acid, because its side chain cyclises onto its own nitrogen.
+## answer_c
+Hydroxyproline
+## explanation_c
+Hydroxyproline is not one of the twenty amino acids used during protein synthesis at all — it belongs among the amino acids formed by hydroxylation of proline after the protein has already been built.
+## answer_d
+Glutathione
+## explanation_d
+Glutathione does not appear in this chapter's list of the twenty amino acids; nothing here identifies it as an α-amino acid.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise phenylalanine as a true α-amino acid and rule out proline, hydroxyproline and glutathione.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p25 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-317
+## title
+Which of the following amino acids contain hydroxy] group?
+## question
+Which of the following amino acids contain hydroxy] group?
+## vignette
+This item asks the student to identify serine as a hydroxyl-containing amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Arginine
+## explanation_a
+Arginine is a basic aliphatic amino acid; its side chain is a guanidinium group, not a hydroxyl.
+## answer_b
+Serine
+## explanation_b
+Correct. Serine, with threonine, is listed under the hydroxyl-containing amino acids in the chemical classification.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## answer_c
+Cysteine
+## explanation_c
+Cysteine is grouped with methionine among the sulfur-containing amino acids, not the hydroxyl-containing pair.
+## answer_d
+Methionine
+## explanation_d
+Methionine is the other sulfur-containing amino acid — its side chain carries a thioether, not a hydroxyl group.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify serine as a hydroxyl-containing amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p26 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-318
+## title
+An amino acid containing hydroxyl] group is:
+## question
+An amino acid containing hydroxyl] group is:
+## vignette
+This item asks the student to identify threonine as a hydroxyl-containing amino acid, and rule out the post-translationally hydroxylated hydroxyproline.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Threonine
+## explanation_a
+Correct. Threonine is the second hydroxyl-containing amino acid, alongside serine.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## answer_b
+Methionine
+## explanation_b
+Methionine's defining group is sulfur (a thioether), placing it with cysteine among the sulfur-containing amino acids, not the hydroxyl-containing pair.
+## answer_c
+Glutathione
+## explanation_c
+Glutathione is not one of the twenty amino acids and is never assigned to a hydroxyl-containing subgroup in this chapter.
+## answer_d
+Hydroxyproline
+## explanation_d
+Hydroxyproline is formed by hydroxylation of proline only after the protein has been synthesised; the hydroxyl-containing subgroup lists only serine and threonine among the twenty amino acids used in synthesis.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify threonine as a hydroxyl-containing amino acid, and rule out the post-translationally hydroxylated hydroxyproline.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p26 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-319
+## title
+Which of the following amino acids contain sulfur atom?
+## question
+Which of the following amino acids contain sulfur atom?
+## vignette
+This item asks the student to identify methionine as a sulfur-containing amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Serine
+## explanation_a
+Serine belongs to the hydroxyl-containing subgroup, not the sulfur-containing one.
+## answer_b
+Threonine
+## explanation_b
+Threonine is the second hydroxyl-containing amino acid — its side chain has no sulfur.
+## answer_c
+Methionine
+## explanation_c
+Correct. Methionine, with cysteine, is the sulfur-containing amino acid.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## answer_d
+Aspartate
+## explanation_d
+Aspartate (aspartic acid) is an acidic aliphatic amino acid; its side chain is a second carboxyl group, not sulfur.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify methionine as a sulfur-containing amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p26 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-320
+## title
+An amino acid containing an acidic group:
+## question
+An amino acid containing an acidic group:
+## vignette
+This item asks the student to identify aspartate as an acidic aliphatic amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Arginine
+## explanation_a
+Arginine sits in the opposite, basic aliphatic group.
+## answer_b
+Glycine
+## explanation_b
+Glycine is the smallest neutral aliphatic amino acid — it carries no charged side-chain group at all.
+## answer_c
+Pyruvate
+## explanation_c
+Pyruvate is not one of the twenty amino acids; it is not listed anywhere in this chapter.
+## answer_d
+Aspartate
+## explanation_d
+Correct. Aspartate (aspartic acid), with glutamic acid, is one of the two acidic aliphatic amino acids.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify aspartate as an acidic aliphatic amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p26 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-321
+## title
+An amino acid containing basic group:
+## question
+An amino acid containing basic group:
+## vignette
+This item asks the student to identify lysine as a basic aliphatic amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lysine.
+## explanation_a
+Correct. Lysine, with arginine, is one of the basic aliphatic amino acids.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## answer_b
+Proline.
+## explanation_b
+Proline is grouped under heterocyclic amino acids by its ring structure, not among the basic aliphatic group.
+## answer_c
+Glycine.
+## explanation_c
+Glycine is the neutral, uncharged short-chain amino acid — the simplest of the twenty.
+## answer_d
+Alanine.
+## explanation_d
+Alanine is also a neutral short-chain amino acid, with no basic side-chain group.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify lysine as a basic aliphatic amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p27 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-322
+## title
+An amino acid containing an aromatic ring:
+## question
+An amino acid containing an aromatic ring:
+## vignette
+This item asks the student to identify phenylalanine as an aromatic amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Histidine
+## explanation_a
+Histidine's ring places it in the heterocyclic group instead.
+## answer_b
+Proline
+## explanation_b
+Proline is the other heterocyclic amino acid, not aromatic.
+## answer_c
+Alanine
+## explanation_c
+Alanine is a short-chain neutral aliphatic amino acid with a simple methyl side chain — no ring at all.
+## answer_d
+Phenylalanine
+## explanation_d
+Correct. Phenylalanine, with tyrosine and tryptophan, is one of the aromatic amino acids.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify phenylalanine as an aromatic amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p27 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-323
+## title
+An example of heterocyclic amino acid:
+## question
+An example of heterocyclic amino acid:
+## vignette
+This item asks the student to identify histidine as a heterocyclic amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Histidine
+## explanation_a
+Correct. Histidine, with proline, is one of the two heterocyclic amino acids.
+
+Why this is right:
+- Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
+## answer_b
+Cysteine
+## explanation_b
+Cysteine is a sulfur-containing aliphatic amino acid, not heterocyclic.
+## answer_c
+Tyrosine
+## explanation_c
+Tyrosine is one of the three aromatic amino acids; it is also hydroxyl-containing, but never heterocyclic.
+## answer_d
+Methionine
+## explanation_d
+Methionine is the other sulfur-containing aliphatic amino acid.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify histidine as a heterocyclic amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p27 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-324
+## title
+Arginine is an:
+## question
+Arginine is an:
+## vignette
+This item asks the student to classify arginine as a charged (basic) amino acid by side-chain polarity.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Amino acid with uncharged polar group
+## explanation_a
+Uncharged polar covers hydroxyl-, sulfhydryl- and amide-bearing side chains (serine, cysteine, asparagine and others); arginine's guanidinium group carries a positive charge at physiological pH.
+## answer_b
+Amino acid with charged polar group
+## explanation_b
+Correct. Arginine is among the basic amino acids, one of the two charged-R-group categories.
+
+Why this is right:
+- By the polarity of the side chain (R-group), amino acids sort into three main groups.
+## answer_c
+Amino acid with non-polar group
+## explanation_c
+Non-polar amino acids are the hydrophobic group (glycine, alanine, valine and others); arginine's charged side chain is the opposite of nonpolar.
+## answer_d
+Amino acid with hydrophobic group
+## explanation_d
+Hydrophobic is the term for the nonpolar group; arginine's charged, water-attracting side chain places it firmly outside it.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-327EF635E45CB6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify arginine as a charged (basic) amino acid by side-chain polarity.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p27 q19. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-325
+## title
+Amino acid is:
+## question
+Amino acid is:
+## vignette
+This item asks the student to state that amino acids are positively charged in acidic medium and negatively charged in alkaline medium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Positively charged in acidic medium
+## explanation_a
+Correct. In acidic medium amino acids are positively charged (R-NH3+), because the excess H+ leaves the ammonium group charged.
+
+Why this is right:
+- Amino acids can react with both acids and bases, so they are ampholytes.
+## answer_b
+Positively charged in alkaline medium
+## explanation_b
+Reverses the rule. In alkaline medium amino acids are negatively charged (R-COO-), not positively.
+## answer_c
+Negatively charged in acidic medium
+## explanation_c
+Reverses the acidic-medium charge. Amino acids are positively, not negatively, charged in acidic medium.
+## answer_d
+Uncharged in alkaline medium
+## explanation_d
+In alkaline medium amino acids are negatively charged, not uncharged — the fully uncharged form is not present at any pH.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that amino acids are positively charged in acidic medium and negatively charged in alkaline medium.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p28 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-326
+## title
+The Iso Electric Point (IEP) all monoamino-monocarboxylic amino acids is at pH:
+## question
+The Iso Electric Point (IEP) all monoamino-monocarboxylic amino acids is at pH:
+## vignette
+This item asks the student to state the isoelectric point value, pH 6.02, for monoamino-monocarboxylic amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+10.02
+## explanation_a
+10.02 is well into the alkaline range, where amino acids are negatively charged rather than balanced at their IEP.
+## answer_b
+6.02
+## explanation_b
+Correct. The isoelectric point for all monoamino-monocarboxylic amino acids is pH 6.02, the pH at which the zwitterion carries equal positive and negative charge and cannot migrate in an electric field.
+
+Why this is right:
+- Amino acids can react with both acids and bases, so they are ampholytes.
+## answer_c
+2.02
+## explanation_c
+2.02 is strongly acidic, where amino acids are positively charged rather than at their zwitterionic balance point.
+## answer_d
+30.02
+## explanation_d
+30.02 is not a physiologically meaningful pH value at all — the pH scale for aqueous solutions runs roughly 0-14.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the isoelectric point value, pH 6.02, for monoamino-monocarboxylic amino acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p29 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-327
+## title
+Peptide bond is formed between the carboxylic group of one amino acid:
+## question
+Peptide bond is formed between the carboxylic group of one amino acid:
+## vignette
+This item asks the student to describe peptide bond formation as condensation of one amino acid's carboxyl group with the next amino acid's amino group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+With the carboxylic group of the other
+## explanation_a
+Two carboxylic groups do not condense with each other in peptide bond formation — the reaction is specifically carboxyl-to-amino, not carboxyl-to-carboxyl.
+## answer_b
+With the amino group of the other
+## explanation_b
+Correct. The peptide bond is formed by condensation of the carboxylic group of one amino acid with the amino group of a second amino acid, releasing one molecule of water.
+
+Why this is right:
+- A dipeptide is formed by the condensation of the carboxylic group of one amino acid with the amino group of a second amino acid, losing one molecule of water.
+## answer_c
+With the hydroxylic group of the other
+## explanation_c
+A hydroxyl group belongs only to specific amino acids like serine and threonine, not to the general peptide-bond-forming reaction that applies to every amino acid pair.
+## answer_d
+With the amidic group of the other
+## explanation_d
+"Amidic group" is not the partner group in the condensation reaction — the peptide bond itself becomes an amide linkage as a result of the reaction, but the group that reacts on the second amino acid is its free amino group.
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## main_concept
+CON-FND-7C8A02831B3243
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe peptide bond formation as condensation of one amino acid's carboxyl group with the next amino acid's amino group.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p29 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-328
+## title
+Which of the following is a feature of DNA replication?
+## question
+Which of the following is a feature of DNA replication?
+## vignette
+This item asks the student to identify semi-conservative replication as the defining feature of how DNA is copied.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Semi-conservative
+## explanation_a
+Correct. Each daughter DNA molecule keeps one original (conserved) parental strand and gains one newly synthesized strand — the definition of semi-conservative replication.
+
+Why this is right:
+- DNA replication is the process by which a double-stranded DNA molecule is copied to produce two identical daughter DNA molecules, catalysed mainly by DNA polymerases.
+## answer_b
+discontinuous
+## explanation_b
+Only true of the lagging strand. The leading strand is synthesized continuously, so 'discontinuous' describes one of the two new strands, not replication as a whole.
+## answer_c
+Unidirectional
+## explanation_c
+Wrong direction of error. Eukaryotic replication starts at many origins across each chromosome and proceeds outward from each one, which makes it multi-directional at each origin, not unidirectional.
+## answer_d
+DNA ligases build the new DNA strand
+## explanation_d
+Mixes up two different enzymes. DNA ligase seals the nicks between finished fragments; DNA polymerases are what actually build the new strand by adding nucleotides.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A5CFD23270ACE3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify semi-conservative replication as the defining feature of how DNA is copied.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p57 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-329
+## title
+In DNA replication, one new strand is synthesized complementary to an old (parent) stra…
+## question
+In DNA replication, one new strand is synthesized complementary to an old (parent) strand and is referred as:
+## vignette
+This item asks the student to name the mechanism in which one new strand is built against one old strand as semi-conservative.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mutational
+## explanation_a
+A mutation is an error in the copied sequence, not a description of the copying mechanism itself.
+## answer_b
+Semiconservative
+## explanation_b
+Correct. One strand of each daughter molecule is the original parental strand and one is newly synthesized against it — that pairing of one old, one new strand per daughter molecule is what 'semi-conservative' names.
+
+Why this is right:
+- DNA replication is the process by which a double-stranded DNA molecule is copied to produce two identical daughter DNA molecules, catalysed mainly by DNA polymerases.
+## answer_c
+Discontinuous
+## explanation_c
+Discontinuous describes how the lagging strand is built, in Okazaki fragments — it is not the term for the old-strand/new-strand relationship the question describes.
+## answer_d
+Conservative
+## explanation_d
+Conservative would mean the original duplex stays entirely intact and a wholly new duplex forms alongside it. That is the opposite of what happens; DNA replication mixes one old and one new strand in each daughter molecule.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A5CFD23270ACE3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the mechanism in which one new strand is built against one old strand as semi-conservative.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p57 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-330
+## title
+Which of the following enzymes unwinds the DNA double helix during replication?
+## question
+Which of the following enzymes unwinds the DNA double helix during replication?
+## vignette
+This item asks the student to identify helicase as the enzyme that unwinds the parental duplex at the replication fork.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Helicase
+## explanation_a
+Correct. Helicase enzyme molecules attach at each origin and unwind the DNA by breaking the hydrogen bonds between base pairs, producing the replication bubble.
+
+Why this is right:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork.
+## answer_b
+Replicase
+## explanation_b
+'Replicase' is not a name used for any replication enzyme — a plausible-sounding invented term, not the enzyme that opens the duplex.
+## answer_c
+Polymerase
+## explanation_c
+DNA polymerase builds the new strand once the template is already single-stranded; it does not do the unwinding that exposes the template in the first place.
+## answer_d
+Ligase
+## explanation_d
+DNA ligase works at the very end of the process, sealing nicks between finished fragments — it has no role in opening the helix.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-81A17C5BF7ED85
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify helicase as the enzyme that unwinds the parental duplex at the replication fork.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p57 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-331
+## title
+Which enzyme catalyzes the elongation of DNA molecules?
+## question
+Which enzyme catalyzes the elongation of DNA molecules?
+## vignette
+This item asks the student to state that DNA polymerases are the enzymes that catalyze the elongation of a DNA strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+DNA polymerase
+## explanation_a
+Correct. DNA polymerases catalyse the formation of polynucleotide chains, adding complementary nucleotides base-paired with the parental strand — this is elongation.
+
+Why this is right:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand.
+## answer_b
+Helicase
+## explanation_b
+Helicase's job is upstream of elongation: it unwinds the duplex so a template is available, but it does not add nucleotides itself.
+## answer_c
+DNA ligase
+## explanation_c
+DNA ligase acts after elongation is finished, joining the ends of adjacent fragments rather than extending a strand.
+## answer_d
+Primase
+## explanation_d
+Primase lays down the short RNA primer elongation starts from, but it is the polymerase, not the primase, that carries out the actual chain extension.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that DNA polymerases are the enzymes that catalyze the elongation of a DNA strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p57 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-332
+## title
+Formation of RNA primer:
+## question
+Formation of RNA primer:
+## vignette
+This item asks the student to place RNA primer formation as the initiation step that must occur before a new DNA strand can be elongated.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Precedes replication
+## explanation_a
+Correct. DNA polymerases cannot initiate DNA synthesis without an RNA primer already in place — primer formation is the initiation step, carried out before elongation can begin.
+
+Why this is right:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
+## answer_b
+Follows replication
+## explanation_b
+Reverses the order. The primer has to exist before DNA polymerase can extend anything from it, not after.
+## answer_c
+Precedes transcription
+## explanation_c
+Transcription is a separate process (making RNA from a DNA template for gene expression) — the RNA primer is a replication tool, not a product of, or a step before, transcription.
+## answer_d
+Follows transcription
+## explanation_d
+Same mix-up as the transcription option, in the other direction — the primer has nothing to do with when transcription happens.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-75C487BD0973FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Place RNA primer formation as the initiation step that must occur before a new DNA strand can be elongated.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p57 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-333
+## title
+Given that DNA polymerases are unable to synthesize DNA without a primer, what molecule…
+## question
+Given that DNA polymerases are unable to synthesize DNA without a primer, what molecule serves as the primer for these enzymes during DNA replication?
+## vignette
+This item asks the student to identify the RNA primer as a short RNA molecule, not a sugar, a bare deoxyribose, or a protein.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Five carbon sugars
+## explanation_a
+Five-carbon sugars are the backbone components of nucleotides, not a molecule that base-pairs with a template to prime synthesis.
+## answer_b
+Deoxyribose alone
+## explanation_b
+Deoxyribose alone is a sugar with no base or phosphate — it cannot base-pair with anything or serve as a binding site for a polymerase.
+## answer_c
+A short RNA molecule
+## explanation_c
+Correct. The RNA primer is a short segment of RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand, giving DNA polymerase a 3'-OH end to extend.
+
+Why this is right:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
+## answer_d
+Proteins with free hydroxyl groups
+## explanation_d
+Proteins do bind DNA (e.g., SSB proteins, histones), but none of them serves as the primer DNA polymerase extends — that role belongs specifically to a short RNA sequence.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-75C487BD0973FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the RNA primer as a short RNA molecule, not a sugar, a bare deoxyribose, or a protein.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered for this row (correctSource: none). The book states directly (p82) that 'RNA primer is a short segment of RNA used as a binding site for DNA polymerase', which is option c.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-334
+## title
+A single-stranded DNA molecule contains 20%A, 25°%T, 30%G, and 25%C. When the complemen…
+## question
+A single-stranded DNA molecule contains 20%A, 25°%T, 30%G, and 25%C. When the complement of this strand is synthesized, the T content of the resulting strand will be:
+## vignette
+This item asks the student to apply complementary base pairing (A pairs with T) to compute the base composition of a newly synthesized complementary strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+20%
+## explanation_a
+Correct. Adenine pairs with thymine, so wherever the template strand carries an A, the new complementary strand carries a T. The template is 20% A, so the new strand is 20% T.
+
+Why this is right:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three.
+## answer_b
+22.5%
+## explanation_b
+22.5% is not the composition of any single base in either strand here — it looks like an average of two of the template's percentages, which is not how complementary pairing works.
+## answer_c
+25%
+## explanation_c
+25% is the template strand's own T content, not the new strand's. Copying the template's T percentage straight into the answer pairs T with itself instead of pairing template-A with new-T.
+## answer_d
+30%
+## explanation_d
+30% is the template's G content. Since G pairs with C, the new strand's C content would be 30%, not its T content — this option confuses which base ends up complementary to which.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Calculation
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply complementary base pairing (A pairs with T) to compute the base composition of a newly synthesized complementary strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-335
+## title
+After formation of replication fork:
+## question
+After formation of replication fork:
+## vignette
+This item asks the student to state that the two new DNA strands are synthesized differently — one continuously, one discontinuously — because DNA polymerase can only read 3' to 5'.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Both new strands are synthesized discontinuously
+## explanation_a
+Only the lagging strand is made discontinuously. DNA polymerase ε makes the leading strand continuously from a single primer, so 'both' overstates it.
+## answer_b
+One strand is synthesized continuously and the other discontinuously
+## explanation_b
+Correct. The leading strand is synthesized continuously by polymerase ε while the lagging strand is built discontinuously, as Okazaki fragments, by polymerase δ.
+
+Why this is right:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand.
+## answer_c
+Both new strands are synthesized continuously
+## explanation_c
+Only the leading strand is continuous. The lagging strand's Okazaki fragments make continuous synthesis on both strands impossible given the fork's single overall direction of travel.
+## answer_d
+RNA primer is required only for the synthesis of one new strand
+## explanation_d
+Both strands need an RNA primer — the lagging strand actually needs many primers, one per Okazaki fragment, so a single primer is not enough for even one strand, let alone both.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the two new DNA strands are synthesized differently — one continuously, one discontinuously — because DNA polymerase can only read 3' to 5'.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-336
+## title
+Okazaki fragments are formed during the synthesis of
+## question
+Okazaki fragments are formed during the synthesis of
+## vignette
+This item asks the student to identify Okazaki fragments as short pieces of newly synthesized DNA on the lagging strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+mRNA
+## explanation_a
+mRNA is synthesized continuously during transcription; it is not built in short fragments the way the lagging strand of DNA is.
+## answer_b
+tRNA
+## explanation_b
+tRNA is transcribed as a single continuous molecule that then folds into its cloverleaf shape — it has no Okazaki-fragment-style discontinuous synthesis.
+## answer_c
+rRNA
+## explanation_c
+rRNA, like the other RNA types, is synthesized continuously by transcription, not in short discontinuous pieces.
+## answer_d
+DNA
+## explanation_d
+Correct. Okazaki fragments are the short pieces of DNA that polymerase δ builds discontinuously while copying the lagging strand at the replication fork.
+
+Why this is right:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify Okazaki fragments as short pieces of newly synthesized DNA on the lagging strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-337
+## title
+DNA replication in eukaryotes occurs only in:
+## question
+DNA replication in eukaryotes occurs only in:
+## vignette
+This item asks the student to place DNA replication specifically in the S (synthesis) phase of the cell cycle.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Gl phase
+## explanation_a
+G1 is a growth phase in which the cell increases in size before committing to divide; DNA is not yet being copied.
+## answer_b
+S phase
+## explanation_b
+Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated, and it is the only phase in which replication occurs.
+
+Why this is right:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
+## answer_c
+G2 phase
+## explanation_c
+G2 is a further growth phase that prepares the cell for mitosis, after DNA has already been duplicated in S phase.
+## answer_d
+M phase
+## explanation_d
+M phase is mitosis, where the two already-duplicated copies of the genetic material are separated into two daughter cells — no new DNA synthesis happens here.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-32A72B4F49EC2B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Place DNA replication specifically in the S (synthesis) phase of the cell cycle.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-338
+## title
+The process of DNA replication involves:
+## question
+The process of DNA replication involves:
+## vignette
+This item asks the student to state that eukaryotic chromosomes replicate from many origins at once, recognized by origin recognition complex (ORC) proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Multiple origins of replication per chromosome in eukaryotes
+## explanation_a
+Correct. Many origins, rich in AT base pairs, serve as starting points across each chromosome, and that using multiple origins markedly decreases the time replication takes.
+
+Why this is right:
+- Replication begins with the opening of DNA at multiple origins of replication.
+## answer_b
+Binding of ribosomes to origins of replication
+## explanation_b
+Origin recognition complex (ORC) proteins bind the origins, not ribosomes. Ribosomes have no role in DNA replication — they are the site of protein synthesis.
+## answer_c
+Continuous synthesis on both strands of the double helix
+## explanation_c
+Only the leading strand is synthesized continuously; the lagging strand is built discontinuously as Okazaki fragments, so 'continuous synthesis on both strands' is contradicted by the description of the fork.
+## answer_d
+Conservative replication
+## explanation_d
+DNA replication is semi-conservative, not conservative — each daughter molecule keeps one old strand and gains one new one, rather than one daughter keeping an entirely intact original duplex.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-47766D8DAC7503
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that eukaryotic chromosomes replicate from many origins at once, recognized by origin recognition complex (ORC) proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book directly supports option a (p81: 'Many origins across the chromosomes... serve as starting points for replication... The presence of multiple replication origins markedly decreases the time needed for replication') and directly contradicts the other three: ORC proteins, not ribosomes, bind the origins (b); only the leading strand is synthesized continuously, not both strands (c); and replication is semi-conservative, not conservative (d).
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-339
+## title
+During eukaryotic DNA replication, single stranded binding proteins (SSBP):
+## question
+During eukaryotic DNA replication, single stranded binding proteins (SSBP):
+## vignette
+This item asks the student to state that single-strand binding proteins stabilize and protect the unwound single strands of DNA at the replication fork.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Catalyze the synthesis of an RNA primer on the lagging strand
+## explanation_a
+Synthesizing the RNA primer is the job of the DNA polymerase–primase complex, not of SSB proteins.
+## answer_b
+Remove the incorrectly base-paired nucleotides through a 3'-5’exonuclease activity
+## explanation_b
+Removing mispaired nucleotides by 3'-5' exonuclease activity is the proofreading function of DNA polymerases ε and δ, not of SSB proteins.
+## answer_c
+Stabilize single-stranded DNA in the region
+## explanation_c
+Correct. SSB proteins bind the single strands of unwound DNA and stabilize them — without them the two strands would simply rewind — and they also protect the exposed single strand from nucleases.
+
+Why this is right:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork.
+## answer_d
+Cut and reseal DNA in advance of the replication fork to eliminate supercoiling in @80000800080
+## explanation_d
+Cutting and resealing DNA ahead of the fork to relieve supercoiling is the job of topoisomerases, not SSB proteins.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-81A17C5BF7ED85
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that single-strand binding proteins stabilize and protect the unwound single strands of DNA at the replication fork.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p58 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-340
+## title
+The short strand of primer is required for the replication of DNA:
+## question
+The short strand of primer is required for the replication of DNA:
+## vignette
+This item asks the student to identify RNA, not DNA, histone, or protein, as the chemical nature of the short primer strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+DNA
+## explanation_a
+DNA is what the primer allows to be synthesized afterward — the primer that gets DNA synthesis started is itself made of RNA, not DNA.
+## answer_b
+RNA
+## explanation_b
+Correct. The short primer strand required to start DNA replication is RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand.
+
+Why this is right:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
+## answer_c
+Histone
+## explanation_c
+Histones are structural proteins that package finished DNA into nucleosomes; they play no role in priming new strand synthesis.
+## answer_d
+Protein
+## explanation_d
+Protein is too broad and simply wrong here — the primer is a nucleic acid (RNA), not a protein, even though proteins such as primase are what synthesize it.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-75C487BD0973FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify RNA, not DNA, histone, or protein, as the chemical nature of the short primer strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-341
+## title
+Which statement about the elongation of the lagging strand during DNA replication is co…
+## question
+Which statement about the elongation of the lagging strand during DNA replication is correct?
+## vignette
+This item asks the student to state that the lagging strand's discontinuous synthesis requires a fresh RNA primer for every Okazaki fragment.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is synthesized in a 3' — 5' direction
+## explanation_a
+All new DNA strands, leading and lagging alike, are synthesized 5' to 3' — this option reverses the direction of synthesis.
+## answer_b
+It progresses (grows) toward the replication fork
+## explanation_b
+The lagging strand is copied in the direction opposite the advancing replication fork, so each new fragment is actually built away from the fork, not toward it.
+## answer_c
+It requires a short RNA primer to proceed
+## explanation_c
+Correct. DNA polymerase δ needs a new RNA primer to start each Okazaki fragment, so, unlike the single-primer leading strand, the lagging strand requires multiple RNA primers.
+
+Why this is right:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand.
+## answer_d
+It is synthesized continuously
+## explanation_d
+The lagging strand is the one synthesized discontinuously, in short Okazaki fragments — continuity describes the leading strand instead.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the lagging strand's discontinuous synthesis requires a fresh RNA primer for every Okazaki fragment.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key was recovered (correctSource: none). The book supports option c directly: multiple RNA primers are required by DNA polymerase δ to synthesize the lagging strand (p82). The other three are directly contradicted: the lagging strand is synthesized 5' to 3', not 3' to 5' (a); it is copied in the opposite direction of the advancing fork, so it does not progress toward the fork (b); and it is synthesized discontinuously as Okazaki fragments, not continuously (d).
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-342
+## title
+The following enzyme is responsible for removal of RNA primers during eukaryotic replic…
+## question
+The following enzyme is responsible for removal of RNA primers during eukaryotic replication:
+## vignette
+This item asks the student to name RNase H as the enzyme that removes RNA primers during termination of eukaryotic replication.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+DNA polymerase a
+## explanation_a
+DNA polymerase α, as part of the primase complex, lays the primer down in the first place — it does not remove it afterward.
+## answer_b
+RNA primase
+## explanation_b
+RNA primase is the enzyme that synthesizes the RNA primer, which is the opposite job from removing it.
+## answer_c
+DNA polymerase ¢
+## explanation_c
+This option repeats another DNA polymerase without changing the enzyme's job — DNA polymerases build or fill strands; primer removal is a separate, exonuclease-driven step.
+## answer_d
+RNAse H
+## explanation_d
+Correct. RNase H removes the RNA primers by its exonuclease activity, clearing the way for the gaps to be filled and the fragments joined.
+
+Why this is right:
+- Termination of replication removes the primers and joins the fragments in two steps.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-DB5CF51C91F866
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name RNase H as the enzyme that removes RNA primers during termination of eukaryotic replication.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-343
+## title
+The gaps between Okazaki fragments are eventually sealed by:
+## question
+The gaps between Okazaki fragments are eventually sealed by:
+## vignette
+This item asks the student to identify DNA ligase as the enzyme that seals the nicks left between adjacent Okazaki fragments.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Gyrase
+## explanation_a
+Gyrase is a bacterial type of topoisomerase; it is not the enzyme named for joining fragments in eukaryotic replication.
+## answer_b
+DNA ligase
+## explanation_b
+Correct. Once RNase H has removed the primers and the gaps are filled, DNA ligase joins the ends of the adjacent DNA fragments.
+
+Why this is right:
+- Termination of replication removes the primers and joins the fragments in two steps.
+## answer_c
+Polymerase
+## explanation_c
+Polymerase fills the gap left after primer removal, but it cannot seal the final nick between two DNA fragments — that step needs ligase.
+## answer_d
+Helicase
+## explanation_d
+Helicase's job is unwinding the parental duplex at the start of replication; it plays no part in sealing fragments together at the end.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-DB5CF51C91F866
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify DNA ligase as the enzyme that seals the nicks left between adjacent Okazaki fragments.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q19. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-344
+## title
+What is the role of topoisomerases in eukaryotic DNA replication?
+## question
+What is the role of topoisomerases in eukaryotic DNA replication?
+## vignette
+This item asks the student to state that topoisomerases relieve the supercoiling generated ahead of the replication fork.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cut, uncoil, and reseal the double stranded DNA
+## explanation_a
+Correct. As the fork advances and DNA unwinds, supercoils build up ahead of it; topoisomerases remove this supercoiling.
+
+Why this is right:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork.
+## answer_b
+Bind to the origin of replication sites within double stranded DNA
+## explanation_b
+Binding the origin sites is the job of origin recognition complex (ORC) proteins, not topoisomerases.
+## answer_c
+Open up the double stranded DNA at the replication fork
+## explanation_c
+Opening the double-stranded DNA at the fork itself is helicase's job — topoisomerases work ahead of the fork on the still-wound DNA, relieving the strain unwinding creates, rather than doing the unwinding at the fork.
+## answer_d
+Join the Okazaki fragments together with phosphodietster bonds
+## explanation_d
+Joining Okazaki fragments with phosphodiester bonds is DNA ligase's job, a completely different enzyme working at a different stage of replication.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-81A17C5BF7ED85
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that topoisomerases relieve the supercoiling generated ahead of the replication fork.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-345
+## title
+What is the function of ligase?
+## question
+What is the function of ligase?
+## vignette
+This item asks the student to state that DNA ligase's function is to join the Okazaki fragments of the lagging strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Works on the leading strand
+## explanation_a
+Ligase acts at the end of replication on both strands' finished fragments, not specifically 'on' the leading strand, which does not need fragment-joining at all since it is made continuously.
+## answer_b
+Undoes the work of DNA polymerase
+## explanation_b
+Ligase does not undo anything DNA polymerase does — it completes the polymerase's work by sealing the nick left after the gap has been filled.
+## answer_c
+Joins the Okazaki fragments
+## explanation_c
+Correct. DNA ligase joins the ends of adjacent DNA fragments, sealing the nicks left between Okazaki fragments once their RNA primers are removed and the gaps filled.
+
+Why this is right:
+- Termination of replication removes the primers and joins the fragments in two steps.
+## answer_d
+Winds the leading and lagging strands together
+## explanation_d
+Winding the leading and lagging strands together is not a step described at all, and it is not what ligase does — ligase seals covalent breaks, it does not wind strands.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-DB5CF51C91F866
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that DNA ligase's function is to join the Okazaki fragments of the lagging strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p60 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-346
+## title
+What is the name of the unusual repeated stretch of DNA localized at the tips of all eu…
+## question
+What is the name of the unusual repeated stretch of DNA localized at the tips of all eukaryotic chromosomes?
+## vignette
+This item asks the student to name telomeres as the repeated sequence found at the ends of eukaryotic chromosomes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Kinetochore
+## explanation_a
+A kinetochore is the site on a chromosome where spindle fibres attach during mitosis — a different structure from the repeated end sequence being described here.
+## answer_b
+Telomere
+## explanation_b
+Correct. Telomeres are the ends of eukaryotic linear chromosomes, carrying a non-coding sequence (5'-TTAGGG-3') repeated thousands of times.
+
+Why this is right:
+- The ends of eukaryotic linear chromosomes are called telomeres.
+## answer_c
+Centriole
+## explanation_c
+A centriole is a cytoplasmic organelle involved in organizing the mitotic spindle — it has nothing to do with the repeated DNA sequence at chromosome ends.
+## answer_d
+Chromomere
+## explanation_d
+Chromomere is not a term used for the chromosome-end structure — it names beads of tightly coiled chromatin seen along a chromosome, not the telomeric repeat.
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## main_concept
+CON-FND-ADBBD5E030ECA6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name telomeres as the repeated sequence found at the ends of eukaryotic chromosomes.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p60 q22. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-347
+## title
+Which of the following is an example for saturated fatty acid?
+## question
+Which of the following is an example for saturated fatty acid?
+## vignette
+This item asks the student to identify stearic acid as a saturated fatty acid, distinguishing it from the unsaturated examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Oleic acid
+## explanation_a
+Oleic acid is a monoenoic (unsaturated) fatty acid example, not a saturated one — it carries one cis double bond.
+## answer_b
+Stearic acid
+## explanation_b
+Correct. Stearic acid is listed among the saturated fatty acids, alongside acetic, butyric and palmitic acid — all with no double bonds.
+
+Why this is right:
+- Fatty acids are classified by the existence of double bonds into saturated fatty acids (SFA), which contain none — acetic, butyric, palmitic and stearic acid are examples, with palmitic and stearic the most important, widely distributed in animal fats from whole milk, milk products, fatty meats, coconut oil and palm oil — and unsaturated fatty acids, which contain one or more.
+## answer_c
+Linoleic acid
+## explanation_c
+Linoleic acid is an ω6 polyunsaturated example, not a saturated fatty acid.
+## answer_d
+Arachidonic acid
+## explanation_d
+Arachidonic acid is an ω6 polyunsaturated example with four double bonds, the opposite of saturated.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-F5D38D496B7D0D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify stearic acid as a saturated fatty acid, distinguishing it from the unsaturated examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagree on whether the printed key names (a) or (b); the department book resolves it directly — stearic acid is listed among the saturated fatty acids (p29: 'Stearic acid (C18) CH3-(CH2)16-COOH'), while oleic acid is listed among the monoenoic (unsaturated) acids (p30), so (b) is correct.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-348
+## title
+Which of the following is the most common saturated fatty acid in human tissues?
+## question
+Which of the following is the most common saturated fatty acid in human tissues?
+## vignette
+This item asks the student to name palmitic acid as the most important/common saturated fatty acid in human tissue, alongside stearic acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Palmitic acid
+## explanation_a
+Correct. Palmitic acid, alongside stearic acid, is the most important saturated fatty acid, widely distributed in animal fats — the printed key identifies palmitic as the more common of the two in human tissue.
+
+Why this is right:
+- Fatty acids are classified by the existence of double bonds into saturated fatty acids (SFA), which contain none — acetic, butyric, palmitic and stearic acid are examples, with palmitic and stearic the most important, widely distributed in animal fats from whole milk, milk products, fatty meats, coconut oil and palm oil — and unsaturated fatty acids, which contain one or more.
+## answer_b
+Timnodonic acid
+## explanation_b
+Timnodonic acid (EPA) does not appear among the saturated fatty acid examples at all.
+## answer_c
+Arachidonic acid
+## explanation_c
+Arachidonic acid is a polyunsaturated ω6 example, not a saturated fatty acid.
+## answer_d
+Linoleic acid
+## explanation_d
+Linoleic acid is a polyunsaturated ω6 example, not a saturated fatty acid.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-F5D38D496B7D0D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name palmitic acid as the most important/common saturated fatty acid in human tissue, alongside stearic acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-349
+## title
+Which of the following is an example for monounsaturated fatty acid?
+## question
+Which of the following is an example for monounsaturated fatty acid?
+## vignette
+This item asks the student to identify oleic acid as the monounsaturated (monoenoic) fatty acid example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Palmitic acid
+## explanation_a
+Palmitic acid is one of the saturated fatty acid examples, with no double bond at all.
+## answer_b
+Arachidonic acid
+## explanation_b
+Arachidonic acid is a polyunsaturated (four double bonds) example, not monounsaturated.
+## answer_c
+Oleic acid
+## explanation_c
+Correct. Oleic acid (ω9) is a monoenoic — one double bond — fatty acid example, which is what monounsaturated means.
+
+Why this is right:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
+## answer_d
+Stearic acid
+## explanation_d
+Stearic acid is one of the saturated fatty acid examples, with no double bond.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify oleic acid as the monounsaturated (monoenoic) fatty acid example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No OCR pass recovered a printed key; the book itself supplies the answer — oleic acid is listed as the book's monoenoic (one double bond) fatty acid example (p30), which is what 'monounsaturated' means, while palmitic and stearic are saturated and arachidonic is polyunsaturated.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-350
+## title
+Which of the following is an omega-3 fatty acid?
+## question
+Which of the following is an omega-3 fatty acid?
+## vignette
+This item asks the student to name α-linolenic acid as the ω3 PUFA example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Linoleic acid
+## explanation_a
+Linoleic acid is an ω6, not ω3, PUFA example.
+## answer_b
+a-Linolenic acid
+## explanation_b
+Correct. Linolenic (α-linolenic) acid is listed under the ω3 PUFA family.
+
+Why this is right:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
+## answer_c
+Nervonic acid
+## explanation_c
+Nervonic acid does not appear anywhere among the named fatty acids.
+## answer_d
+Palmitic acid
+## explanation_d
+Palmitic acid is a saturated fatty acid, with no double bonds to place it in any omega family.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-1DFF2BB6521B64
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name α-linolenic acid as the ω3 PUFA example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p17 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-351
+## title
+Which of the following is an essential fatty acid?
+## question
+Which of the following is an essential fatty acid?
+## vignette
+This item asks the student to identify α-linolenic acid as an essential fatty acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+a-Linolenic acid
+## explanation_a
+Correct. α-linolenic acid, alongside linoleic acid, is one of the fatty acids the body cannot synthesise and must obtain from the diet.
+
+Why this is right:
+- Essential fatty acids are not synthesised in the body, so they must be taken in the diet; they include α-linolenic acid and linoleic acid.
+## answer_b
+Arachidonic acid
+## explanation_b
+Arachidonic acid is only conditionally essential — the body normally makes it from linoleic acid, and it only becomes essential when linoleic acid is absent.
+## answer_c
+Oleic acid
+## explanation_c
+Oleic acid is a monounsaturated fatty acid the body makes for itself; it is not one of the named essential fatty acids.
+## answer_d
+Palmitic acid
+## explanation_d
+Palmitic acid is a saturated, non-essential fatty acid, made in the body mainly from carbohydrates.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D0969A4C2C03CE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify α-linolenic acid as an essential fatty acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-352
+## title
+Deficiency of essential fatty acids leads to:
+## question
+Deficiency of essential fatty acids leads to:
+## vignette
+This item asks the student to list fatty liver as a stated consequence of essential fatty acid deficiency.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Opacity of the cornea
+## explanation_a
+Opacity of the cornea is not among the effects of essential fatty acid deficiency — these are dermatitis, fatty liver and growth retardation.
+## answer_b
+Fatty liver
+## explanation_b
+Correct. Deficiency of essential fatty acids causes dermatitis, fatty liver, and growth retardation, especially in children.
+
+Why this is right:
+- Essential fatty acids are not synthesised in the body, so they must be taken in the diet; they include α-linolenic acid and linoleic acid.
+## answer_c
+Spleen enlargement
+## explanation_c
+Spleen enlargement is not among the effects of essential fatty acid deficiency.
+## answer_d
+Renal failure
+## explanation_d
+Renal failure is not among the effects of essential fatty acid deficiency.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D0969A4C2C03CE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+List fatty liver as a stated consequence of essential fatty acid deficiency.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-353
+## title
+Which of the following is considered as wax?
+## question
+Which of the following is considered as wax?
+## vignette
+This item asks the student to recognise vitamin A esters as one of the named wax examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Triacylglycerol
+## explanation_a
+Triacylglycerol is the neutral-fat subtype of simple lipid, not the wax subtype.
+## answer_b
+Cholesterol
+## explanation_b
+Cholesterol itself is a derived lipid (a sterol); it is cholesteryl esters, not free cholesterol, that is listed as a wax.
+## answer_c
+Vitamin A esters
+## explanation_c
+Correct. Vitamin A (retinol) esters are named directly among the wax examples, alongside ceramide, cholesteryl esters and vitamin D esters.
+
+Why this is right:
+- Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use.
+## answer_d
+Lecithin
+## explanation_d
+Lecithin is a compound lipid (phospholipid), not a wax.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E618B54C3E216C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise vitamin A esters as one of the named wax examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key survives; the book's own list of wax examples names Vitamin A (retinol) esters directly (p32: 'b) Cholesteryl esters. c) Vitamin A (retinol) esters. d) Vitamin D (calciferol) esters'), unlike the other three options.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-354
+## title
+Which of the following is called phosphatidic acid?
+## question
+Which of the following is called phosphatidic acid?
+## vignette
+This item asks the student to name diacylglycerol phosphate as the synonym for phosphatidic acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Diacylglycerol phosphate
+## explanation_a
+Correct. Phosphatidic acid's parenthetical synonym is named directly: 'Phosphatidic acid (Diacylglycerol phosphate)'.
+
+Why this is right:
+- Phosphatidic acid, also called diacylglycerol phosphate, is a glycerophospholipid: on hydrolysis it yields one glycerol, one saturated fatty acid at position 1, one unsaturated fatty acid at position 2, and phosphoric acid at position 3.
+## answer_b
+Diphosphatidy! glycerol
+## explanation_b
+Diphosphatidylglycerol is the name for cardiolipin, a different, larger molecule built from two phosphatidic acid units, not a synonym for phosphatidic acid itself.
+## answer_c
+Lipositol
+## explanation_c
+Lipositol is not a standard term; phosphatidylinositol (phosphatidic acid plus inositol) is the closest related compound, but it is not called phosphatidic acid.
+## answer_d
+Cephalin
+## explanation_d
+Cephalin is phosphatidic acid plus ethanolamine — a derivative of phosphatidic acid, not another name for it.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D5D15A190D88AE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name diacylglycerol phosphate as the synonym for phosphatidic acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q19. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-355
+## title
+What is the other name of lecithin?
+## question
+What is the other name of lecithin?
+## vignette
+This item asks the student to name phosphatidylcholine as lecithin's other name.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Phosphatidylcholine
+## explanation_a
+Correct. Phosphatidylcholine is lecithin's other name.
+
+Why this is right:
+- Lecithin, also called phosphatidylcholine, is formed of phosphatidic acid and choline.
+## answer_b
+Phosphatidylserine
+## explanation_b
+Phosphatidylserine is phosphatidic acid plus serine, a separate glycerophospholipid from lecithin.
+## answer_c
+Cardiolipin
+## explanation_c
+Cardiolipin is the name for diphosphatidylglycerol, an unrelated, larger molecule built from two phosphatidic acid units.
+## answer_d
+Sphingomyelins
+## explanation_d
+Sphingomyelins are built on sphingosine, not glycerol, and are a separate phospholipid subgroup from lecithin.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-CEDE8978E2DE3A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name phosphatidylcholine as lecithin's other name.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p19 q22. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-356
+## title
+Lecithin/sphingomyelin ratio of amniotic fluid is important as it evaluates:
+## question
+Lecithin/sphingomyelin ratio of amniotic fluid is important as it evaluates:
+## vignette
+This item asks the student to identify the L/S ratio of amniotic fluid as a marker of fetal lung maturity.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fetal kidney maturity
+## explanation_a
+The L/S ratio is not connected to kidney maturity; it marks fetal lung maturity specifically.
+## answer_b
+Fetal lung maturity
+## explanation_b
+Correct. The lecithin/sphingomyelin (L/S) ratio of amniotic fluid is a marker of fetal lung maturity.
+
+Why this is right:
+- Lecithin, also called phosphatidylcholine, is formed of phosphatidic acid and choline.
+## answer_c
+Fetal brain maturity
+## explanation_c
+The L/S ratio is not connected to brain maturity; it marks fetal lung maturity specifically.
+## answer_d
+Fetal liver maturity
+## explanation_d
+The L/S ratio is not connected to liver maturity; it marks fetal lung maturity specifically.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-CEDE8978E2DE3A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Investigation
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the L/S ratio of amniotic fluid as a marker of fetal lung maturity.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q25. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-357
+## title
+Which of the following lipids is an important component of the inner mitochondrial memb…
+## question
+Which of the following lipids is an important component of the inner mitochondrial membrane?
+## vignette
+This item asks the student to name cardiolipin as the phospholipid located almost exclusively in the inner mitochondrial membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lecithin
+## explanation_a
+Lecithin is a widely distributed membrane phospholipid, not one singled out for the inner mitochondrial membrane specifically.
+## answer_b
+Cephalin
+## explanation_b
+Cephalin is described by its role in blood clotting (increasing thrombin formation), not by a special inner-mitochondrial-membrane location.
+## answer_c
+Cardiolipins
+## explanation_c
+Correct. Cardiolipins sit almost exclusively in the inner mitochondrial membrane, involved in mitochondrial energy metabolism.
+
+Why this is right:
+- Cardiolipins, also called diphosphatidylglycerol, are formed of two molecules of phosphatidic acid connected by a molecule of glycerol, so they contain four fatty acids, three glycerol units and two phosphates.
+## answer_d
+Ceramide
+## explanation_d
+Ceramide is the sphingolipid backbone molecule, not a phospholipid located in the inner mitochondrial membrane.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E48C83F7BD0E6A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name cardiolipin as the phospholipid located almost exclusively in the inner mitochondrial membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q26. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-358
+## title
+Which of the following is a type of ether phospholipids?
+## question
+Which of the following is a type of ether phospholipids?
+## vignette
+This item asks the student to identify plasmalogens as the phospholipid with a fatty-alcohol (ether-type) substitution.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Gangliosides
+## explanation_a
+Gangliosides are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.
+## answer_b
+Sulfolipids
+## explanation_b
+Sulfolipids are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.
+## answer_c
+Plasmalogens
+## explanation_c
+Correct. Plasmalogens carry a fatty alcohol, rather than the usual fatty acid, at position 1 of the phosphatidic acid backbone — an ether-type substitution in place of the normal ester.
+
+Why this is right:
+- Plasmalogens resemble lecithin and cephalin but contain a fatty alcohol instead of a fatty acid at position 1 of their phosphatidic acid — an ether-type linkage in place of the usual ester.
+## answer_d
+Cerebrosides
+## explanation_d
+Cerebrosides are glycolipids (ceramide plus carbohydrate), with no ether linkage involved.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-08650B3DDFE948
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify plasmalogens as the phospholipid with a fatty-alcohol (ether-type) substitution.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q27. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key survives ('none'). The book's own description of plasmalogens — a fatty alcohol in place of the usual fatty acid at position 1 of the phosphatidic acid backbone (p33) — is the ether-type linkage the question's 'ether phospholipid' names; the other three options are all glycolipids in the book's classification, built from ceramide and a carbohydrate, with no ether linkage described.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-359
+## title
+The reduction of which of the following phospholipid is associated with Alzheimer disease?
+## question
+The reduction of which of the following phospholipid is associated with Alzheimer disease?
+## vignette
+This item asks the student to name plasmalogens as the phospholipid whose reduced levels are associated with Alzheimer disease.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cardiolipins
+## explanation_a
+Cardiolipins are located in the inner mitochondrial membrane; they are not associated with Alzheimer disease.
+## answer_b
+Lecithin
+## explanation_b
+Lecithin's roles are as an acetylcholine precursor and lung surfactant component; it is not associated with Alzheimer disease.
+## answer_c
+Plasmalogens
+## explanation_c
+Correct. Plasmalogens' reduced levels have been associated with Alzheimer disease.
+
+Why this is right:
+- Plasmalogens resemble lecithin and cephalin but contain a fatty alcohol instead of a fatty acid at position 1 of their phosphatidic acid — an ether-type linkage in place of the usual ester.
+## answer_d
+Cephalin
+## explanation_d
+Cephalin's role is increasing thrombin formation for blood clotting; it is not associated with Alzheimer disease.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-08650B3DDFE948
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name plasmalogens as the phospholipid whose reduced levels are associated with Alzheimer disease.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-360
+## title
+Which compounds form ceramide?
+## question
+Which compounds form ceramide?
+## vignette
+This item asks the student to name fatty acid and sphingosine as ceramide's two building blocks.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Glycerol and glucose
+## explanation_a
+Glycerol and glucose are not ceramide's building blocks; ceramide comes from sphingosine and fatty acid.
+## answer_b
+Fatty acid and choline
+## explanation_b
+Fatty acid and choline combine (via phosphatidic acid) to make lecithin, not ceramide, which needs sphingosine.
+## answer_c
+Fatty acid and serine
+## explanation_c
+Fatty acid and serine combine (via phosphatidic acid) to make phosphatidylserine, not ceramide, which needs sphingosine.
+## answer_d
+Fatty acids and sphingosine 17 (om
+## explanation_d
+Correct (the trailing '17 (om' in this option's text is scanner noise, not part of the answer). Fatty acids link to sphingosine by an amide bond to form ceramide.
+
+Why this is right:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-268703EAF31C9D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name fatty acid and sphingosine as ceramide's two building blocks.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p20 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-361
+## title
+Which of the following is connected to phosphocholine to form sphingomyelin?
+## question
+Which of the following is connected to phosphocholine to form sphingomyelin?
+## vignette
+This item asks the student to name ceramide as the molecule that combines with phosphocholine to form sphingomyelin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pyruvate
+## explanation_a
+Pyruvate plays no role in sphingomyelin formation.
+## answer_b
+Serine
+## explanation_b
+Serine is not what connects to phosphocholine; serine instead combines with phosphatidic acid to form phosphatidylserine, an unrelated glycerophospholipid.
+## answer_c
+Ceramide
+## explanation_c
+Correct. Ceramide is connected to phosphocholine to form sphingomyelin.
+
+Why this is right:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
+## answer_d
+Glucose
+## explanation_d
+Glucose is not what connects to phosphocholine in sphingomyelin formation; it is ceramide that does.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-268703EAF31C9D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name ceramide as the molecule that combines with phosphocholine to form sphingomyelin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-362
+## title
+Sphingomyelin is considered as:
+## question
+Sphingomyelin is considered as:
+## vignette
+This item asks the student to classify sphingomyelin as a phospholipid rather than a glycolipid, despite sharing the ceramide backbone with the glycolipids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple lipid
+## explanation_a
+Simple lipids are esters of fatty acid with alcohol alone; sphingomyelin adds a phosphocholine group, which makes it a phospholipid, not a simple lipid.
+## answer_b
+Phospholipid
+## explanation_b
+Correct. Sphingomyelin is classed, alongside the glycerophospholipids, under phospholipids — its subgroup whose alcohol is sphingosine rather than glycerol.
+
+Why this is right:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
+## answer_c
+Glycolipid
+## explanation_c
+Glycolipids are ceramide joined to a carbohydrate; sphingomyelin is ceramide joined to phosphocholine, which is classed as a phospholipid instead.
+## answer_d
+Derived lipid
+## explanation_d
+Derived lipids are hydrolysis products such as free fatty acids and steroids; sphingomyelin is a compound lipid (a phospholipid), not a derived one.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-268703EAF31C9D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify sphingomyelin as a phospholipid rather than a glycolipid, despite sharing the ceramide backbone with the glycolipids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q31. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-363
+## title
+The importance of phospholipids as constituent of cell membrane is because they possess:
+## question
+The importance of phospholipids as constituent of cell membrane is because they possess:
+## vignette
+This item asks the student to state that phospholipids' membrane role rests on their amphipathic structure — hydrophobic tails, hydrophilic heads.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Hydrophobic heads and tails
+## explanation_a
+This reverses the standard labelling of the bilayer diagram, which marks the tails hydrophobic (nonpolar) and the heads hydrophilic (polar), not the other way for both ends.
+## answer_b
+Hydrophobic tails and hydrophilic heads
+## explanation_b
+Correct. Phospholipids are amphipathic — nonpolar fatty acid tails and polar (glycerol/phosphate/head-group) regions — and the membrane diagram labels the tails hydrophobic and the heads hydrophilic.
+
+Why this is right:
+- Phospholipids are amphipathic molecules with non-polar fatty acid side chains and polar head groups, and they are important constituents of the lipid bilayer of cell membranes. Increasing the unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity, because the kinks of the cis-double bonds prevent the phospholipids from packing closely together.
+## answer_c
+Large cyclic structure
+## explanation_c
+A large cyclic structure is not how phospholipids are described; they are amphipathic molecules with fatty-acid tails and polar head groups, not a ring system.
+## answer_d
+Hydrophobic heads and hydrophilic tails
+## explanation_d
+This exactly reverses the standard bilayer diagram, which marks the tails hydrophobic and the heads hydrophilic — not heads hydrophobic and tails hydrophilic.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D1FDD52629718C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that phospholipids' membrane role rests on their amphipathic structure — hydrophobic tails, hydrophilic heads.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q32. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-364
+## title
+Which of the following are second messengers?
+## question
+Which of the following are second messengers?
+## vignette
+This item asks the student to identify phosphatidylinositol as the phospholipid credited with a second-messenger role.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Phosphatidyl choline
+## explanation_a
+Phosphatidylcholine (lecithin) is an acetylcholine precursor and lung-surfactant component, not a second messenger.
+## answer_b
+Phosphatidyl serine
+## explanation_b
+Phosphatidylserine has no second-messenger role; it is only a phosphatidic acid derivative (with serine).
+## answer_c
+Inositol-triphosphate and diacylglycerol
+## explanation_c
+Correct. Phosphatidylinositol itself acts as a second messenger to many chemical transmitters, hormones and growth factors; this option names that role using its more familiar textbook form (its cleavage products, inositol triphosphate and diacylglycerol), a level of detail not otherwise spelled out here.
+
+Why this is right:
+- Phosphatidylinositol, formed of phosphatidic acid and inositol, acts as a second messenger to many chemical transmitters, hormones and growth factors.
+## answer_d
+Plasmalogens
+## explanation_d
+Plasmalogens are known for their platelet-activating-factor and Alzheimer's associations, not as second messengers.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-0958D1436FD2E7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify phosphatidylinositol as the phospholipid credited with a second-messenger role.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q33. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-365
+## title
+Which of the following is a derived lipid?
+## question
+Which of the following is a derived lipid?
+## vignette
+This item asks the student to identify fatty acids as one of the derived lipid examples.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+TAG
+## explanation_a
+TAG (triacylglycerol) is the simple-lipid example, not a derived lipid.
+## answer_b
+Fatty acid
+## explanation_b
+Correct. Fatty acids are listed first among the examples of derived lipids.
+
+Why this is right:
+- Lipids are classified into three main groups by composition.
+## answer_c
+Lecithin
+## explanation_c
+Lecithin is a compound lipid (phospholipid), not a derived lipid.
+## answer_d
+Cardiolipin
+## explanation_d
+Cardiolipin is a compound lipid (phospholipid), not a derived lipid.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-30D2E317144DDF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify fatty acids as one of the derived lipid examples.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p21 q35. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-366
+## title
+A steroid which moderates membrane fluidity:
+## question
+A steroid which moderates membrane fluidity:
+## vignette
+This item asks the student to name cholesterol as the steroid that moderates membrane fluidity, distinct from the steroid hormones built from it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Estradiol
+## explanation_a
+Estradiol is a steroid hormone (an estrogen); membrane fluidity control is the role given to cholesterol, not to the sex hormones built from it.
+## answer_b
+Cholesterol
+## explanation_b
+Correct. Cholesterol is an important constituent of cell membranes that controls their fluidity.
+
+Why this is right:
+- Phospholipids are amphipathic molecules with non-polar fatty acid side chains and polar head groups, and they are important constituents of the lipid bilayer of cell membranes. Increasing the unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity, because the kinks of the cis-double bonds prevent the phospholipids from packing closely together.
+## answer_c
+Testosterone
+## explanation_c
+Testosterone is a steroid hormone (a male sex hormone), not the membrane-fluidity-controlling sterol.
+## answer_d
+Progesterone
+## explanation_d
+Progesterone is a steroid hormone (a female sex hormone), not the membrane-fluidity-controlling sterol.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-D1FDD52629718C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name cholesterol as the steroid that moderates membrane fluidity, distinct from the steroid hormones built from it.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q37. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key survives ('none'). The book states directly that cholesterol is an important constituent of cell membranes that controls their fluidity (p37), which none of the three sex-hormone options is credited with anywhere in the book.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-367
+## title
+Cholesterol is precursor for the following:
+## question
+Cholesterol is precursor for the following:
+## vignette
+This item asks the student to name vitamin D as one of cholesterol's derivatives, via 7-dehydrocholesterol.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Vitamin E
+## explanation_a
+Vitamin E is a fat-soluble vitamin listed separately among the derived lipids; cholesterol is not its precursor.
+## answer_b
+Vitamin C
+## explanation_b
+Vitamin C is not a lipid-derived vitamin at all, and is not listed among cholesterol's derivatives.
+## answer_c
+Vitamin D
+## explanation_c
+Correct. Cholesterol can be oxidised in the liver into 7-dehydrocholesterol, converted into vitamin D3 in the skin by ultraviolet rays.
+
+Why this is right:
+- Cholesterol matters because so much else is made from it. It is converted into bile acids and bile salts in the liver. It is the precursor of all steroid hormones. It can be oxidised in the liver into 7-dehydrocholesterol, which ultraviolet rays convert into vitamin D3 under the skin. And it is an important constituent of cell membranes that controls their fluidity. It is excreted from the body mainly in bile, in the form of bile salts.
+## answer_d
+Vitamin B12
+## explanation_d
+Vitamin B12 is not a lipid-derived vitamin, and is not listed among cholesterol's derivatives.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E77FD4A4D78884
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name vitamin D as one of cholesterol's derivatives, via 7-dehydrocholesterol.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q39. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-368
+## title
+Bile acids are derived from:
+## question
+Bile acids are derived from:
+## vignette
+This item asks the student to name cholesterol as the precursor of bile acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cholesterol
+## explanation_a
+Correct. Cholesterol is converted into bile acids and bile salts in the liver.
+
+Why this is right:
+- Cholesterol matters because so much else is made from it. It is converted into bile acids and bile salts in the liver. It is the precursor of all steroid hormones. It can be oxidised in the liver into 7-dehydrocholesterol, which ultraviolet rays convert into vitamin D3 under the skin. And it is an important constituent of cell membranes that controls their fluidity. It is excreted from the body mainly in bile, in the form of bile salts.
+## answer_b
+Amino acids
+## explanation_b
+Amino acids are not the precursor of bile acids; cholesterol is.
+## answer_c
+Fatty acids
+## explanation_c
+Fatty acids are not the precursor of bile acids; cholesterol is.
+## answer_d
+Bilirubin
+## explanation_d
+Bilirubin is a heme breakdown product in the body, not the precursor of bile acids, which is cholesterol.
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## main_concept
+CON-FND-E77FD4A4D78884
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name cholesterol as the precursor of bile acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q40. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-369
+## title
+Proteins which are formed of 1 polypeptide chain have:
+## question
+Proteins which are formed of 1 polypeptide chain have:
+## vignette
+This item asks the student to state that a single-chain protein has primary, secondary and tertiary structure only, without a quaternary level.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Tertiary, quaternary, and pentagonal structures
+## explanation_a
+Pentagonal structure names nothing described, and starting the list at tertiary skips over primary and secondary altogether — a single-chain protein still has all three of the lower orders.
+## answer_b
+Tertiary, quaternary, and hexagonal structures
+## explanation_b
+Same problem as the pentagonal option with a different invented shape name; a single chain does not reach quaternary structure at all, so quaternary should not be on this list.
+## answer_c
+Primary, secondary, and tertiary structures
+## explanation_c
+Correct. A protein built of one polypeptide chain has primary, secondary and tertiary structure; quaternary structure requires two or more chains.
+
+Why this is right:
+- Proteins in their native state are characterized by their three-dimensional structure.
+## answer_d
+Primary, secondary, tertiary, and quaternary structures
+## explanation_d
+Adds quaternary structure, which only appears when two or more polypeptide chains combine as subunits — a single chain never reaches it.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-89C28B312B15FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a single-chain protein has primary, secondary and tertiary structure only, without a quaternary level.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p31 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-370
+## title
+Proteins which are formed of 2 or more polypeptide chains have:
+## question
+Proteins which are formed of 2 or more polypeptide chains have:
+## vignette
+This item asks the student to state that a multi-chain protein adds quaternary structure on top of primary, secondary and tertiary.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Tertiary, quaternary, and pentagonal structures
+## explanation_a
+Pentagonal structure is not a level recognised, and this list also skips primary and secondary, which a multi-chain protein still has.
+## answer_b
+Tertiary, quaternary, and hexagonal structures
+## explanation_b
+Hexagonal structure is likewise not one of the four orders, and the list again omits primary and secondary.
+## answer_c
+Primary, secondary, and tertiary structures
+## explanation_c
+This is the set for a single-chain protein. A protein with two or more chains adds a fourth, quaternary, level on top of these three.
+## answer_d
+Primary, secondary, tertiary, and quaternary structures.
+## explanation_d
+Correct. Two or more chains combine as subunits into a quaternary structure, on top of the primary, secondary and tertiary structure each subunit already has on its own.
+
+Why this is right:
+- Proteins in their native state are characterized by their three-dimensional structure.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-89C28B312B15FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a multi-chain protein adds quaternary structure on top of primary, secondary and tertiary.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p31 q5. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-371
+## title
+In the primary structure, the polypeptide chain starts on the left side by:
+## question
+In the primary structure, the polypeptide chain starts on the left side by:
+## vignette
+This item asks the student to identify the N-terminus as the amino acid that starts the polypeptide chain on the left.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+N-terminus amino acid
+## explanation_a
+Correct. The polypeptide chain starts on the left side with amino acid number 1, which carries a free terminal amino group and is termed the N-terminus amino acid.
+
+Why this is right:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
+## answer_b
+C-terminus amino acid
+## explanation_b
+The C-terminus, with its free carboxylic group, is the name for the end of the chain on the right, not the start on the left.
+## answer_c
+S- terminus amino acid
+## explanation_c
+S-terminus names no group described; it invents a sulfur-based terminus that does not exist in the primary structure it teaches.
+## answer_d
+OH- terminus amino acid
+## explanation_d
+OH-terminus is likewise not a term used; no hydroxyl group defines either end of the chain.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BE919386760579
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the N-terminus as the amino acid that starts the polypeptide chain on the left.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p31 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-372
+## title
+In the primary structure, the polypeptide chain ends on the right side by:
+## question
+In the primary structure, the polypeptide chain ends on the right side by:
+## vignette
+This item asks the student to identify the C-terminus as the amino acid that ends the polypeptide chain on the right.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+N-terminus amino acid
+## explanation_a
+N-terminus, with its free amino group, is the name for the start of the chain on the left, not the end on the right.
+## answer_b
+C-terminus amino acid
+## explanation_b
+Correct. At the end, on the right side, the chain carries an amino acid with a free terminal carboxylic group, termed the C-terminus amino acid.
+
+Why this is right:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
+## answer_c
+S- terminus amino acid
+## explanation_c
+S-terminus is not a term used for either end of the chain.
+## answer_d
+OH- terminus amino acid
+## explanation_d
+OH-terminus is likewise not one of the two termini.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BE919386760579
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the C-terminus as the amino acid that ends the polypeptide chain on the right.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-373
+## title
+The synthesis of the polypeptide chain starts:
+## question
+The synthesis of the polypeptide chain starts:
+## vignette
+This item asks the student to state that polypeptide synthesis proceeds from the N-terminus toward the C-terminus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+From the N-terminus to the C- terminus
+## explanation_a
+Correct. Synthesis of the polypeptide chain starts from the N-terminus end toward the C-terminus, with the sequence determined by the genetic information in DNA.
+
+Why this is right:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
+## answer_b
+From the C-terminus to the N- terminus
+## explanation_b
+Reverses the stated direction; synthesis runs from the N- toward the C-terminus, not the other way.
+## answer_c
+From the S-terminus to the N- terminus
+## explanation_c
+Invents an S-terminus that as a starting point is never named for synthesis.
+## answer_d
+From the S-terminus to the C- terminus
+## explanation_d
+Invents the same nonexistent S-terminus as the wrong starting point, and still gets the direction of travel wrong.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BE919386760579
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that polypeptide synthesis proceeds from the N-terminus toward the C-terminus.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-374
+## title
+Secondary structure of proteins includes mainly:
+## question
+Secondary structure of proteins includes mainly:
+## vignette
+This item asks the student to name α-helix and β-pleated sheet as the two main forms of secondary structure.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+a- helix or a - pleated sheets
+## explanation_a
+Repeats 'a-' for both forms; paired the α-helix with the β-pleated sheet, not with a second α form.
+## answer_b
+B - helix or B- pleated sheets
+## explanation_b
+There is no "β-helix"; The two regular secondary structures are the α-helix and the β-pleated sheet.
+## answer_c
+a- helix or B- pleated sheets
+## explanation_c
+Correct. Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## answer_d
+a- helix or B- globular sheets
+## explanation_d
+"β-globular sheets" is not a term used; "globular" describes a class of whole proteins by conformation, not a secondary-structure form.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name α-helix and β-pleated sheet as the two main forms of secondary structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-375
+## title
+In the a- helix protein structure:
+## question
+In the a- helix protein structure:
+## vignette
+This item asks the student to describe the α-helix as a coiling of the chain along its own long axis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The polypeptide chain coils along its long axis
+## explanation_a
+Correct. Described the α-helix as a folding of the polypeptide chain along its long axis into a specific coiled structure.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## answer_b
+The polypeptide chain is perpendicular to its axis
+## explanation_b
+Perpendicular coiling is not how described the helix; the coiling runs along the chain's own long axis, not across it.
+## answer_c
+The polypeptide chains line side by side
+## explanation_c
+Chains lying side by side is how described β-pleated sheet formation, not the α-helix, which is a single coiled chain.
+## answer_d
+The polypeptide chains cross each other
+## explanation_d
+Chains crossing each other describes neither structure taught; the α-helix is one chain coiling around its own axis.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe the α-helix as a coiling of the chain along its own long axis.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-376
+## title
+The a- helix structure is stabilized by:
+## question
+The a- helix structure is stabilized by:
+## vignette
+This item asks the student to state that the α-helix is stabilized by intra-chain hydrogen bonds between the NH and C=O of different peptide bonds in the same chain.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inter-chain hydrogen bonds
+## explanation_a
+Inter-chain hydrogen bonds stabilize β-pleated sheets formed between separate chains; the α-helix is a single chain coiling on itself, so its bonds are intra-chain.
+## answer_b
+Intra-chain hydrogen bonds
+## explanation_b
+Correct. The α-helix is stabilized by intra-chain hydrogen bonds, formed between the NH group of one peptide bond and the C=O group of another peptide bond in the same chain.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## answer_c
+Inter-chain ionic bonds
+## explanation_c
+Ionic bonds are not what is credited with α-helix stability; hydrogen bonds are, and in any case ionic bonds between certain side chains are described as disrupting the helix, not stabilizing it.
+## answer_d
+Intra-chain ionic bonds
+## explanation_d
+Combines two errors: ionic bonds are described as disruptive to the helix, not stabilizing, and the stabilizing hydrogen bonds are the correct bond type here, not ionic bonds.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the α-helix is stabilized by intra-chain hydrogen bonds between the NH and C=O of different peptide bonds in the same chain.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-377
+## title
+In the a- helix structure, the intra-chain hydrogen bonds are:
+## question
+In the a- helix structure, the intra-chain hydrogen bonds are:
+## vignette
+This item asks the student to identify the NH and C=O groups of the peptide bond as the partners in the α-helix's stabilizing hydrogen bonds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Formed between NH and C=O groups
+## explanation_a
+Correct. Specified the α-helix's intra-chain hydrogen bonds form between the NH group of one peptide bond and the C=O group of another.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## answer_b
+Formed between NH and R- groups
+## explanation_b
+The R-group is not one of the stated partners; the bond is between backbone NH and C=O groups of the peptide bonds, not a side chain.
+## answer_c
+Formed between C=O and R- groups
+## explanation_c
+Same substitution error as the NH/R- option, with the R-group swapped in for the NH partner instead — kept both partners as backbone peptide-bond groups.
+## answer_d
+Formed between NH and SH groups he tis 29 Ge
+## explanation_d
+SH belongs to cysteine's side chain, relevant to disulfide bonds elsewhere, not to the α-helix's hydrogen bonding, which involves NH and C=O.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the NH and C=O groups of the peptide bond as the partners in the α-helix's stabilizing hydrogen bonds.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-378
+## title
+What is the effect of the presence of the tryptophan R- groups in the helical structure?
+## question
+What is the effect of the presence of the tryptophan R- groups in the helical structure?
+## vignette
+This item asks the student to state that tryptophan's ring structure disturbs the α-helix.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It Enforces it
+## explanation_a
+Named tryptophan among the residues that disrupt the helix, not residues that reinforce it.
+## answer_b
+It Stabilizes it
+## explanation_b
+The opposite of what is stated — tryptophan's ring structure is one of the two named causes of helix disruption, not stabilization.
+## answer_c
+It Disturbs it
+## explanation_c
+Correct. Listed tryptophan, alongside proline, as disrupting the α-helical structure because its ring structure disturbs the helical formation.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## answer_d
+It has no effect
+## explanation_d
+Given tryptophan a specific, named disruptive effect on the helix; it is not neutral.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that tryptophan's ring structure disturbs the α-helix.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-379
+## title
+In B- pleated sheet, the side chains are:
+## question
+In B- pleated sheet, the side chains are:
+## vignette
+This item asks the student to state that a β-sheet's R-groups project above or below the plane of the sheet.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Above or below the sheet plane
+## explanation_a
+Correct. The R-groups of amino acids project above or below the plane of the sheet.
+
+Why this is right:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
+## answer_b
+Inside or outside the sheet plane
+## explanation_b
+Inside or outside the plane is not the description; "inside/outside" better fits a folded globular shape than a flat sheet.
+## answer_c
+Forward or backward to the sheet plane
+## explanation_c
+Forward or backward does not describe the perpendicular projection given; the R-groups project above or below the flat plane, not along it.
+## answer_d
+Away or near to the sheet plane
+## explanation_d
+Away or near does not capture the specific geometry of projection above or below the sheet's plane.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a β-sheet's R-groups project above or below the plane of the sheet.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-380
+## title
+Which of the following terms refer to adjacent polypeptide chains running in same direc…
+## question
+Which of the following terms refer to adjacent polypeptide chains running in same direction?
+## vignette
+This item asks the student to name parallel β-pleated sheet as the form with strands running in the same direction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Parallel B- pleated sheet.
+## explanation_a
+Correct. When segments of the β-pleated sheet run in the same direction (N to C terminus), the structure is termed a parallel β-pleated sheet.
+
+Why this is right:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
+## answer_b
+Anti-parallel B- pleated sheet.
+## explanation_b
+Antiparallel is the name for the opposite case, strands running in opposite directions.
+## answer_c
+Perpendicular B- pleated sheet.
+## explanation_c
+Perpendicular is not one of the two named strand orientations.
+## answer_d
+Separate B- pleated sheet.
+## explanation_d
+"Separate" is not a term used to classify strand direction in a β-pleated sheet.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name parallel β-pleated sheet as the form with strands running in the same direction.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q22. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-381
+## title
+The B- pleated sheet formed by different chains is stabilized by:
+## question
+The B- pleated sheet formed by different chains is stabilized by:
+## vignette
+This item asks the student to state that a β-sheet built from separate chains is held by inter-chain hydrogen bonds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Inter-chain hydrogen bonds
+## explanation_a
+Correct. In the case of multiple polypeptide chains, the chains involved in β-pleated sheet formation are stabilized by inter-chain hydrogen bonds.
+
+Why this is right:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
+## answer_b
+Intra-chain hydrogen bonds
+## explanation_b
+Intra-chain hydrogen bonds stabilize a sheet formed by segments of a single chain folding on itself, not a sheet built from separate chains.
+## answer_c
+Inter-chain ionic bonds
+## explanation_c
+Ionic bonds are not the bond type credited with β-sheet stability in either case; hydrogen bonds are, whether intra- or inter-chain.
+## answer_d
+Intra-chain ionic bonds
+## explanation_d
+Combines two errors — ionic bonds are the wrong bond type, and intra-chain is the wrong scope for a sheet built between separate chains.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a β-sheet built from separate chains is held by inter-chain hydrogen bonds.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q23. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-382
+## title
+Collagen protein contains:
+## question
+Collagen protein contains:
+## vignette
+This item asks the student to recognise that collagen's helix is left-handed, distinct from the ordinary right-handed α-helix most proteins use.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+a- helix and a-pleated sheet structures
+## explanation_a
+"a-pleated sheet" names nothing described, and in any case collagen's helix is explicitly the left-handed exception to the ordinary α-helix, not a standard α-helix at all.
+## answer_b
+B- helix and B- pleated sheet structures
+## explanation_b
+There is no "β-helix" in the account of secondary structure, for collagen or any other protein.
+## answer_c
+a- helix and B- pleated sheet structures
+## explanation_c
+The ordinary α-helix/β-pleated-sheet pairing describes most proteins' secondary structure, but specifically singled out collagen as forming a left-handed helix where most proteins form a right-handed one — collagen is the stated exception, not an example of the ordinary pairing.
+## answer_d
+Its own characteristic secondary structure
+## explanation_d
+Correct. Noted that helical folding is right-handed in most proteins but left-handed in collagen — marking collagen's helix out from the standard forms described for secondary structure, consistent with collagen having its own characteristic secondary structure.
+
+Why this is right:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise that collagen's helix is left-handed, distinct from the ordinary right-handed α-helix most proteins use.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q25. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-383
+## title
+Tertiary structure is the folding of the polypeptide chain to:
+## question
+Tertiary structure is the folding of the polypeptide chain to:
+## vignette
+This item asks the student to state that tertiary structure folds a polypeptide chain into a higher three-dimensional globular structure.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Higher 2-dimensional structure
+## explanation_a
+Two dimensions understates the fold; specified a higher three-dimensional globular structure, not a flat, two-dimensional one.
+## answer_b
+Higher 3-dimensional structure
+## explanation_b
+Correct. Tertiary structure is the folding of the polypeptide chain into a specific higher three-dimensional globular structure.
+
+Why this is right:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
+## answer_c
+Higher 4-dimensional structure
+## explanation_c
+Four dimensions is not a description applied to any level of protein structure.
+## answer_d
+Higher 5-dimensional structure
+## explanation_d
+Five dimensions, likewise, is not a real description used anywhere.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that tertiary structure folds a polypeptide chain into a higher three-dimensional globular structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q26. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-384
+## title
+Which of the following tends to associate together in the hydrophobic interactions in t…
+## question
+Which of the following tends to associate together in the hydrophobic interactions in the tertiary structure?
+## vignette
+This item asks the student to identify the nonpolar side chains of neutral amino acids as the ones clustering together in hydrophobic interactions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+nonpolar side chains of neutral amino acids
+## explanation_a
+Correct. The nonpolar side chains of neutral amino acids tend to associate together in proteins, driven by their tendency to cluster away from the surrounding aqueous medium.
+
+Why this is right:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
+## answer_b
+nonpolar side chains of acidic amino acids
+## explanation_b
+Acidic amino acids are charged at physiological pH, which is what makes them polar, not nonpolar — the hydrophobic clustering described is specifically among neutral, nonpolar side chains.
+## answer_c
+polar side chains of acidic amino acids
+## explanation_c
+Polar side chains are the opposite of what associates hydrophobically; hydrophobic interactions are driven by nonpolar groups avoiding water, not polar ones.
+## answer_d
+polar side chains of alkaline amino acids
+## explanation_d
+Same error as the acidic-polar option with an alkaline side chain substituted — polar side chains, charged or not, are not what is credited with hydrophobic clustering.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the nonpolar side chains of neutral amino acids as the ones clustering together in hydrophobic interactions.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q27. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-385
+## title
+The electrostatic bonds in the tertiary structures are formed between:
+## question
+The electrostatic bonds in the tertiary structures are formed between:
+## vignette
+This item asks the student to state that electrostatic (ionic) bonds in tertiary structure form between oppositely charged side chains.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Uncharged groups of amino acids
+## explanation_a
+Uncharged groups cannot form an electrostatic bond, which by definition requires charge; the example, lysine and aspartic acid, are both charged, just oppositely.
+## answer_b
+Oppositely charged groups of amino acids side chains
+## explanation_b
+Correct. Electrostatic bonds (salt bridges or ionic bonds) form between oppositely charged groups of amino acid side chains, giving lysine (positive) and aspartic acid (negative) as the example.
+
+Why this is right:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
+## answer_c
+The same charged groups of amino acids
+## explanation_c
+Same-charged groups repel rather than bond; an electrostatic attraction requires opposite charges, as the lysine/aspartate example shows.
+## answer_d
+2 sulfur groups of amino acids
+## explanation_d
+Two sulfur groups describes the disulfide bond, a different bond type covered separately from the electrostatic (ionic) bond.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that electrostatic (ionic) bonds in tertiary structure form between oppositely charged side chains.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-386
+## title
+Which of the following structures is essential for hemoglobin activity?
+## question
+Which of the following structures is essential for hemoglobin activity?
+## vignette
+This item asks the student to name quaternary structure as essential to hemoglobin's activity, per the example.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Primary structure
+## explanation_a
+Primary structure is necessary for any protein but is not the level singled out as essential for hemoglobin's activity.
+## answer_b
+Secondary structure
+## explanation_b
+Secondary structure, likewise, is a prerequisite but not the specific level named for hemoglobin's function.
+## answer_c
+Tertiary structure
+## explanation_c
+Tertiary structure is what a single subunit reaches on its own; hemoglobin's activity specifically depends on its subunits combining further, into quaternary structure.
+## answer_d
+Quaternary structure
+## explanation_d
+Correct. This high level of organization — quaternary structure — may be essential for the activity of certain proteins, naming hemoglobin as an example.
+
+Why this is right:
+- Proteins in their native state are characterized by their three-dimensional structure.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-89C28B312B15FC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name quaternary structure as essential to hemoglobin's activity, per the example.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q32. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-387
+## title
+Denaturation is a specific property of:
+## question
+Denaturation is a specific property of:
+## vignette
+This item asks the student to state that denaturation is a property specific to proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Proteins
+## explanation_a
+Correct. Denaturation is a specific property of proteins — the change of a protein's native state by rupture of the bonds holding its secondary, tertiary and quaternary structure.
+
+Why this is right:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost.
+## answer_b
+Carbohydrates
+## explanation_b
+Carbohydrates are not described as undergoing denaturation anywhere; the concept is specific to proteins' folded structure.
+## answer_c
+Lipids
+## explanation_c
+Lipids, likewise, are not subject to denaturation in the account — denaturation is defined specifically as a property of proteins.
+## answer_d
+Water
+## explanation_d
+Water has no folded structure to lose; denaturation as defined it applies to proteins' secondary, tertiary and quaternary structure.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-2414B3639FD4D3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that denaturation is a property specific to proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q33. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-388
+## title
+Albumin coagulation is due to the formation of:
+## question
+Albumin coagulation is due to the formation of:
+## vignette
+This item asks the student to state that heat-induced albumin coagulation results from disulfide cross-linking.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Ionic bonds
+## explanation_a
+Ionic bonds are not the cross-link named for albumin's heat coagulation; it names disulfide cross-linking specifically.
+## answer_b
+Carboxyl cross linkage
+## explanation_b
+"Carboxyl cross linkage" is not a bond type described for albumin coagulation or anywhere else in this section.
+## answer_c
+Glycoprotein cross linkage
+## explanation_c
+"Glycoprotein cross linkage" is not a real bond type; it is not how described the coagulation mechanism.
+## answer_d
+Disulfide cross linkage
+## explanation_d
+Correct. Given albumin coagulation by heat as its example of denaturation, occurring due to the formation of disulfide cross linkage.
+
+Why this is right:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-2414B3639FD4D3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that heat-induced albumin coagulation results from disulfide cross-linking.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q34. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-389
+## title
+Among the effects of protein denaturation:
+## question
+Among the effects of protein denaturation:
+## vignette
+This item asks the student to list increased viscosity as one of the stated effects of protein denaturation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Increase protein solubility
+## explanation_a
+Denaturation decreases protein solubility, due to exposure of nonpolar hydrophobic groups — the opposite of this option.
+## answer_b
+Increase protein viscosity
+## explanation_b
+Correct. Listed increased viscosity among the effects of denaturation on proteins.
+
+Why this is right:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost.
+## answer_c
+Decrease protein digestibility
+## explanation_c
+Denaturation increases digestibility by proteolytic enzymes, due to exposure of peptide bonds — the opposite of this option.
+## answer_d
+Increase enzymes activity
+## explanation_d
+Denaturation causes loss of biologic activity, including inactivation of enzymes — the opposite of increased enzyme activity.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-2414B3639FD4D3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+List increased viscosity as one of the stated effects of protein denaturation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q35. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-390
+## title
+Proteins are classified according to their conformation classified into:
+## question
+Proteins are classified according to their conformation classified into:
+## vignette
+This item asks the student to name fibrous and globular as the two conformational classes of proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple and compound proteins
+## explanation_a
+Simple and compound is a classification by composition, not the conformational classification given here, which is fibrous and globular.
+## answer_b
+Glycoproteins and lipoproteins
+## explanation_b
+Glycoproteins and lipoproteins are classified by what is conjugated to the protein, not by conformation.
+## answer_c
+Fibrous and globular proteins
+## explanation_c
+Correct. That, depending on their conformation, proteins are classified into two major classes: fibrous and globular.
+
+Why this is right:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
+## answer_d
+Essential and nonessential proteins
+## explanation_d
+Essential and nonessential is a nutritional classification of amino acids, not a conformational classification of proteins.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BEB66C74781AF0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name fibrous and globular as the two conformational classes of proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q36. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-391
+## title
+Collagen and elastin are:
+## question
+Collagen and elastin are:
+## vignette
+This item asks the student to classify collagen and elastin as fibrous proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fibrous proteins
+## explanation_a
+Correct. Given collagen and elastin, alongside α-keratin, as its examples of fibrous proteins.
+
+Why this is right:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
+## answer_b
+Globular proteins
+## explanation_b
+Globular is the other conformational class, illustrated instead by hemoglobin, myoglobin and enzymes, not by collagen or elastin.
+## answer_c
+Spherical proteins
+## explanation_c
+Spherical is not one of the two conformational classes; it is closer in meaning to "globular," which collagen and elastin are not.
+## answer_d
+Cylindrical proteins
+## explanation_d
+Cylindrical is not a term used for protein conformation at all.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BEB66C74781AF0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify collagen and elastin as fibrous proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q37. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-392
+## title
+Hemoglobin and myoglobin are:
+## question
+Hemoglobin and myoglobin are:
+## vignette
+This item asks the student to classify hemoglobin and myoglobin as globular proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibrous proteins
+## explanation_a
+Fibrous is the other conformational class, illustrated by collagen, elastin and α-keratin, not by hemoglobin or myoglobin.
+## answer_b
+Globular proteins
+## explanation_b
+Correct. Listed hemoglobin and myoglobin among its examples of globular proteins, tightly folded into compact spherical shapes.
+
+Why this is right:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
+## answer_c
+Apoproteins proteins
+## explanation_c
+Apoprotein describes a protein lacking its non-protein prosthetic group (as apo-hemoglobin would lack heme) — a different distinction from the fibrous/globular conformational classification the question asks about.
+## answer_d
+Cylindrical proteins
+## explanation_d
+Cylindrical is not a term used for protein conformation.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BEB66C74781AF0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify hemoglobin and myoglobin as globular proteins.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p36 q38. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
