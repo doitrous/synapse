@@ -125740,3 +125740,3246 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the course material: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the course text. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1245
+## title
+Chorionic plate
+## question
+Chorionic plate
+## vignette
+This item asks the student to identify the chorionic plate as the fetal half of the placenta.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is the chorion leave
+## explanation_a
+Chorion laeve is the smooth part of the chorion, whose villi degenerate; it forms no part of the placenta and is covered by the decidua capsularis.
+## answer_b
+Is the chorion frondosum
+## explanation_b
+Correct. The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.
+
+Why this is right:
+- Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third.
+## answer_c
+Is the decidua basalis
+## explanation_c
+Decidua basalis is the *decidual* plate — the maternal half. The two plates face each other across the intervillous spaces, and one printing of this question is keyed to this option in error.
+## answer_d
+Is the decidua capsularis
+## explanation_d
+Decidua capsularis covers the conceptus on the side away from the placenta and is stretched away as the sac grows. It contributes to no plate.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Identify the chorionic plate as the fetal half of the placenta.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p91 q29. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key, and the "(DEP BOOK)" printing of the same question is keyed to the decidua basalis, which is the *decidual* plate. The department book states that the placenta is formed by union of a maternal part, the decidual plate or decidua basalis, and a fetal part, the chorionic plate or chorion frondosum. Set to B, which is also what the third printing of this question is keyed to.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1246
+## title
+Regarding the placental (decidual) septa
+## question
+Regarding the placental (decidual) septa
+## vignette
+This item asks the student to say where the placental septa come from and what they do not contain.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+They are composed of chorion frondosum
+## explanation_a
+Chorion frondosum is the fetal plate. The septa grow from the opposite side, and their core is maternal decidua.
+## answer_b
+They are extensions from decidual plate
+## explanation_b
+Correct. Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.
+
+Why this is right:
+- The placental, or decidual, septa are incomplete septa extending from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast; they carry no maternal vessels, they are not fixed to the chorionic plate, and opposite each of them is a groove on the maternal surface separating one cotyledon from the next.
+## answer_c
+They are fixed to the chorionic plate
+## explanation_c
+They are incomplete and do not reach the chorionic plate — if they did, the intervillous spaces would be sealed off from one another instead of intercommunicating.
+## answer_d
+They contain maternal blood vessels
+## explanation_d
+The maternal vessels are in the decidua basalis of the plate itself, not in the septa. A septum with vessels in it would bleed into the intervillous space at every groove.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-D870770450E17D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Say where the placental septa come from and what they do not contain.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q59. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1247
+## title
+Placental barrier is the separation between em em em em em
+## question
+Placental barrier is the separation between em em em em em
+## vignette
+This item asks the student to define the placental barrier by the two bloods it keeps apart.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fetal and maternal surfaces of placenta
+## explanation_a
+The fetal and maternal surfaces are the two faces of the whole organ, centimetres apart. A barrier is a membrane of a few micrometres.
+## answer_b
+Chorionic and decidual plates of placenta
+## explanation_b
+The chorionic and decidual plates are again the two sides of the organ. Between them lie the intervillous spaces, which is where the barrier actually works — at the villus wall, not at the plates.
+## answer_c
+Cytotrophoblastic shell and intervillous spaces
+## explanation_c
+The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the keyed option.
+## answer_d
+Fetal and maternal blood inside placenta. Ac ad
+## explanation_d
+Correct. The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.
+
+Why this is right:
+- The placental barrier is what maternal blood in the intervillous space must cross to reach fetal blood in the villus.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-2D15CFF44F825F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Define the placental barrier by the two bloods it keeps apart.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to C, the cytotrophoblastic shell and the intervillous spaces. The department book defines the placental barrier as the membrane separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi — option D. The shell is a structure the barrier passes near, not what it separates.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1248
+## title
+One of the following is correct regarding the functions of placenta
+## question
+One of the following is correct regarding the functions of placenta
+## vignette
+This item asks the student to state the limits of the placenta's protective function.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It allows the passage of maternal antibodies
+## explanation_a
+Correct. Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.
+
+Why this is right:
+- Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development.
+## answer_b
+It prevents passage of gases. P
+## explanation_b
+Gas exchange is one of the placenta's principal functions — it is the fetal lung. Preventing the passage of gases would be fatal within minutes.
+## answer_c
+It doesn't produce progesterone hormone
+## explanation_c
+The placenta does produce progesterone, which maintains the endometrium of pregnancy, along with oestrogen, HCG and somatomammotropin.
+## answer_d
+It prevents the passage of all viruses y ad
+## explanation_d
+The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the keyed option.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-AB990D329EBEC2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State the limits of the placenta's protective function.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to D, that the placenta prevents the passage of all viruses. The department book says it prevents bacteria and *most* viruses, with named exceptions, so D is an overstatement. A is the book's own statement: transmission of maternal antibodies to fetal blood, giving the fetus immunity. Set to A.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1249
+## title
+One of the following is not among the anomalies of placenta: (2023) y em
+## question
+One of the following is not among the anomalies of placenta: (2023) y em
+## vignette
+This item asks the student to separate an anomaly of the placenta from an anomaly of the amniotic fluid.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Velamentous placenta
+## explanation_a
+An anomaly, so not the answer. Velamentous placenta is the cord-attachment group: the cord attached through the amniotic membrane.
+## answer_b
+Placenta accrete
+## explanation_b
+An anomaly, so not the answer, and the keyed option. Placenta accreta is the infiltration group, in which the villi invade the myometrium.
+## answer_c
+Bipartate placenta. P
+## explanation_c
+An anomaly, so not the answer. A bipartite placenta is the shape group, with the bilobed and trilobed forms.
+## answer_d
+Polyhydramnios. Vi
+## explanation_d
+Correct. Not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.
+
+Why this is right:
+- The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate an anomaly of the placenta from an anomaly of the amniotic fluid.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p127 q5; EOM ISK 101 - 2023.pdf p5 q59. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to placenta accreta, which is one of the department book's own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1250
+## title
+Thin and wide placenta is known as
+## question
+Thin and wide placenta is known as
+## vignette
+This item asks the student to name the anomaly of placental diameter.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Placenta membranacea
+## explanation_a
+Correct. Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.
+
+Why this is right:
+- The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.
+## answer_b
+Placenta increta
+## explanation_b
+Placenta increta is an infiltration anomaly: villi growing into the myometrium. Thickness of invasion, not of the disc.
+## answer_c
+Velamentous placenta
+## explanation_c
+Velamentous placenta is a cord-attachment anomaly, the cord inserting through the amniotic membrane.
+## answer_d
+Accessory placenta
+## explanation_d
+An accessory placenta is a number anomaly — a second, smaller lobe beside the main one, each of normal thickness.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Name the anomaly of placental diameter.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p96 q64. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. The department book groups placenta membranacea under anomalies of diameter, describing it as thinner and wider, which is the stem word for word; the third printing of this question is keyed to the same option.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1251
+## title
+Marginal attachment of umbilical cord to the placenta is known as
+## question
+Marginal attachment of umbilical cord to the placenta is known as
+## vignette
+This item asks the student to name the marginal cord attachment and separate it from the membranous one.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Battle-door placenta
+## explanation_a
+Correct. Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.
+
+Why this is right:
+- The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.
+## answer_b
+Velamentous placenta
+## explanation_b
+Velamentous placenta is the other cord-attachment anomaly, and the one it is confused with: there the cord inserts into the membranes and the vessels run through them, which is dangerous because they are unprotected. One printing of this question is keyed to it.
+## answer_c
+Placenta previa
+## explanation_c
+Placenta previa is a position anomaly — implantation in the lower uterine segment. Nothing to do with the cord.
+## answer_d
+Placenta accrete
+## explanation_d
+Placenta accreta is an infiltration anomaly, the villi invading the myometrium. Also nothing to do with the cord.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-723B31B1B9ED2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the marginal cord attachment and separate it from the membranous one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q63; Anatomy MCQ Book [2025] [first priority].pdf p96 q63. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1252
+## title
+Abnormally long umbilical cord may lead to Ac ad Ac ad ad ad
+## question
+Abnormally long umbilical cord may lead to Ac ad Ac ad ad ad
+## vignette
+This item asks the student to give the consequence of a long cord and separate it from that of a short one.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Formation of false knots.
+## explanation_a
+A false knot is a wider curve of an umbilical artery, and it causes the fetus no stress. It is a feature of the cord's tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.
+## answer_b
+Early separation of placenta during delivery.
+## explanation_b
+Early separation of the placenta belongs to the short cord, which is pulled taut as the fetus descends. This is the paired question with the answers exchanged.
+## answer_c
+Strangulation of the baby during delivery.
+## explanation_c
+Correct. A long cord may encircle the fetal neck and strangle the baby during delivery.
+
+Why this is right:
+- The congenital anomalies of the umbilical cord are: a short cord, which limits fetal movement and can separate the placenta prematurely during delivery; a long cord, which may encircle the fetal neck or form a true knot; congenital umbilical hernia (omphalocele), where the proximal cord contains intestinal loops because the intestine failed to return to the abdominal cavity; presence of only one umbilical artery from degeneration of the other; and abnormal attachment to the placenta — battledore, at the margin, or velamentous, through the amniotic membrane.
+## answer_d
+Adhesion between the fetus with the wall of uterus.
+## explanation_d
+Adhesion of the fetus to the uterine wall is prevented by amniotic fluid, and its failure is a fluid problem — oligohydramnios — not a cord problem.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-3E918A4C74B56D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the consequence of a long cord and separate it from that of a short one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p130 q21. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question carries a key. The department book gives the long cord two consequences — encircling the fetal neck, and a true knot — and gives premature separation of the placenta to the *short* cord. Encircling the neck is strangulation during delivery, option C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1253
+## title
+Physiological hernia occurs when a loop of intestine is present in
+## question
+Physiological hernia occurs when a loop of intestine is present in
+## vignette
+This item asks the student to place the physiological hernia in the primitive cord rather than the ring or the definitive cord.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Abdominal cavity
+## explanation_a
+An intestinal loop in the abdominal cavity is where it belongs and is not a hernia at all — that is the state before the herniation and again after the loop returns.
+## answer_b
+Primitive umbilical ring
+## explanation_b
+The primitive umbilical ring is the defect in the ventral abdominal wall that the loops pass through. It is the doorway, not the room, and it forms in the fourth week before the intestine grows out.
+## answer_c
+Primitive umbilical cord
+## explanation_c
+Correct. The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.
+
+Why this is right:
+- The primitive umbilical ring forms in the fourth week, as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; through it pass the allantois and the umbilical vessels within the connecting stalk, and the vitelline duct with its vessels.
+- When the amnion sheathes those structures the primitive umbilical cord is formed, containing the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and later the herniated intestinal loops — the physiological umbilical hernia, which is therefore a feature of the primitive cord and not of the definitive one.
+- The definitive cord forms when the intestine returns to the abdomen, one umbilical vein and the extra-embryonic vitelline vessels obliterate, and the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate; Wharton's jelly forms from the mesoderm of the connecting stalk.
+## answer_d
+Definitive umbilical cord
+## explanation_d
+The definitive cord is what remains after the intestine has gone back into the abdomen and the yolk sac, vitelline duct and allantois have degenerated. An intestinal loop there is an omphalocele — a real anomaly, and one printing of this question is keyed to it.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-134C8B5E98D759
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Place the physiological hernia in the primitive cord rather than the ring or the definitive cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q71. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1254
+## title
+Regarding the primitive umbilical ring
+## question
+Regarding the primitive umbilical ring
+## vignette
+This item asks the student to list the contents of the primitive umbilical ring.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is surrounded with amniochorionic membrane
+## explanation_a
+The amniochorionic membrane forms later, when the expanding amniotic cavity presses the amnion against the chorion. The ring is surrounded by the ventral body wall.
+## answer_b
+It contains definitive yolk sac
+## explanation_b
+The definitive yolk sac lies in the primitive umbilical *cord*, once the amnion has sheathed the structures passing through the ring — one step further on. It is the strongest distractor here, and one printing of this question is keyed to it.
+## answer_c
+It contains vitelline duct
+## explanation_c
+Correct. The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.
+
+Why this is right:
+- The primitive umbilical ring forms in the fourth week, as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; through it pass the allantois and the umbilical vessels within the connecting stalk, and the vitelline duct with its vessels.
+- When the amnion sheathes those structures the primitive umbilical cord is formed, containing the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and later the herniated intestinal loops — the physiological umbilical hernia, which is therefore a feature of the primitive cord and not of the definitive one.
+- The definitive cord forms when the intestine returns to the abdomen, one umbilical vein and the extra-embryonic vitelline vessels obliterate, and the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate; Wharton's jelly forms from the mesoderm of the connecting stalk.
+## answer_d
+It contains loops of intestine
+## explanation_d
+The intestinal loops herniate later still, into the primitive cord. In the fourth week, when the ring forms, the midgut is still inside the abdomen.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-134C8B5E98D759
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+List the contents of the primitive umbilical ring.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q70. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1255
+## title
+Definitive yolk sac is connected with midgut through
+## question
+Definitive yolk sac is connected with midgut through
+## vignette
+This item asks the student to name the duct that joins yolk sac to midgut.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Connecting stalk
+## explanation_a
+The connecting stalk joins the caudal end of the disc to the chorion and carries the allantois and the umbilical vessels. It reaches the placenta, not the gut.
+## answer_b
+Vitelline duct
+## explanation_b
+Correct. Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.
+
+Why this is right:
+- The primary yolk sac is made when flat cells from the hypoblast form Heuser's membrane lining the blastocele, on the ninth day.
+- The secondary — definitive — yolk sac follows when new hypoblast-derived cells line Heuser's membrane, a large part of the sac is pinched off as the chorionic cavity grows, and a diverticulum extends from its caudal wall into the connecting stalk as the allantois.
+- After folding, the sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then gradually degenerate.
+## answer_c
+Allantois
+## explanation_c
+The allantois is a diverticulum from the caudal wall of the yolk sac into the connecting stalk, and its proximal part becomes the apex of the bladder. It runs the other way. One printing of this question is keyed to it.
+## answer_d
+Hindgut
+## explanation_d
+The hindgut is a division of the gut itself, formed in the tail fold. A duct cannot connect the yolk sac to the midgut by way of a different part of the gut.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-1D10DF3B716A70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the duct that joins yolk sac to midgut.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q57; Anatomy MCQ Book [2025] [first priority].pdf p95 q57. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1256
+## title
+Allantois is a dorsal extension from
+## question
+Allantois is a dorsal extension from
+## vignette
+This item asks the student to give the origin of the allantois.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Secondary yolk sac
+## explanation_a
+Correct. The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.
+
+Why this is right:
+- The primary yolk sac is made when flat cells from the hypoblast form Heuser's membrane lining the blastocele, on the ninth day.
+- The secondary — definitive — yolk sac follows when new hypoblast-derived cells line Heuser's membrane, a large part of the sac is pinched off as the chorionic cavity grows, and a diverticulum extends from its caudal wall into the connecting stalk as the allantois.
+- After folding, the sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then gradually degenerate.
+## answer_b
+Amniotic cavity
+## explanation_b
+The amniotic cavity is on the other side of the embryonic disc and gives off no diverticulum at all.
+## answer_c
+Chorionic cavity
+## explanation_c
+The chorionic cavity is the extra-embryonic coelom, a space rather than a lined sac that could bud.
+## answer_d
+Primary yolk sac
+## explanation_d
+The primary yolk sac has already been replaced by the secondary one by the time the allantois appears, on the thirteenth day. One stage too early.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-1D10DF3B716A70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the origin of the allantois.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q75. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1257
+## title
+Heuser’s membrane lines the
+## question
+Heuser’s membrane lines the
+## vignette
+This item asks the student to attach Heuser's membrane to the primary yolk sac.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Definitive yolk sac
+## explanation_a
+Definitive is another word for secondary, and the secondary sac is lined by a second wave of hypoblast cells laid down over Heuser's membrane. Offered first in every printing, and one stage too late.
+## answer_b
+Primary yolk sac
+## explanation_b
+Correct. Heuser's membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.
+
+Why this is right:
+- The primary yolk sac is made when flat cells from the hypoblast form Heuser's membrane lining the blastocele, on the ninth day.
+- The secondary — definitive — yolk sac follows when new hypoblast-derived cells line Heuser's membrane, a large part of the sac is pinched off as the chorionic cavity grows, and a diverticulum extends from its caudal wall into the connecting stalk as the allantois.
+- After folding, the sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then gradually degenerate.
+## answer_c
+Secondary yolk sac
+## explanation_c
+The secondary yolk sac is the same structure as the definitive one under its other name — which is why the two appear as separate options and neither can be right.
+## answer_d
+Vitelline duct
+## explanation_d
+The vitelline duct is what is left of the sac after folding compresses it. It is a remnant, formed weeks later, and is not lined by Heuser's membrane.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-1D10DF3B716A70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Attach Heuser's membrane to the primary yolk sac.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p98 q74. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Two of the four printings of this question carry no key and the third has its stem damaged; that third is keyed to B. The department book states that the primary yolk sac forms when flat hypoblast-derived cells form Heuser's membrane lining the blastocele, so B is right.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1258
+## title
+Which of the following Is responsible for bladder development? (2024)
+## question
+Which of the following Is responsible for bladder development? (2024)
+## vignette
+This item asks the student to trace the apex of the bladder to the allantois.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Allantois
+## explanation_a
+Correct. The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.
+
+Why this is right:
+- The primary yolk sac is made when flat cells from the hypoblast form Heuser's membrane lining the blastocele, on the ninth day.
+- The secondary — definitive — yolk sac follows when new hypoblast-derived cells line Heuser's membrane, a large part of the sac is pinched off as the chorionic cavity grows, and a diverticulum extends from its caudal wall into the connecting stalk as the allantois.
+- After folding, the sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then gradually degenerate.
+## answer_b
+Yolk sac
+## explanation_b
+The yolk sac is the allantois's parent and shares in forming the gut, but the bladder comes specifically from the diverticulum it sends into the connecting stalk. The question is asking for the more precise structure.
+## answer_c
+Amniotic ﬂuid
+## explanation_c
+Amniotic fluid accumulates fetal urine once the bladder works. It is downstream of the organ, not its origin.
+## answer_d
+Primordial gut
+## explanation_d
+The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-1D10DF3B716A70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace the apex of the bladder to the allantois.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q26; EOM ISK EOM exam 2024.pdf p11 q417. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1259
+## title
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## question
+Expansion of amniotic cavity will lead to .•.•...••.•.••
+## vignette
+This item asks the student to name what the expanding amniotic cavity forms when it meets the chorion.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Formation of secondary yolk sac
+## explanation_a
+The secondary yolk sac is formed by hypoblast cells re-lining the primary sac and by pinching off, on the thirteenth day. The amnion is not involved.
+## answer_b
+Formation of connecting stalk
+## explanation_b
+The connecting stalk is the surviving bridge of extra-embryonic mesoderm across the chorionic cavity. Expansion of the amnion narrows that cavity rather than creating the stalk.
+## answer_c
+Formation of amniochorionic membrane
+## explanation_c
+Correct. Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.
+
+Why this is right:
+- The amnion is the wall of the amniotic cavity.
+## answer_d
+Formation of neural tube
+## explanation_d
+The neural tube forms from ectoderm induced by the notochord, inside the embryo. Expansion of the surrounding cavity has nothing to do with it.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-AAC09F773BC45D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name what the expanding amniotic cavity forms when it meets the chorion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q66. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1260
+## title
+Regarding the decidua basalis, one of the following statements is correct:
+## question
+Regarding the decidua basalis, one of the following statements is correct:
+## vignette
+This item asks the student to give the fate of decidua basalis and separate it from the other two parts.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It fuses with the decidua capsularis obliterating the uterine cavity.
+## explanation_a
+Fusing and obliterating the uterine cavity is what capsularis and parietalis do to each other at about the fourth month. Basalis is on the other side of the conceptus altogether.
+## answer_b
+It forms the maternal part of the placenta
+## explanation_b
+Correct. Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.
+
+Why this is right:
+- The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth.
+## answer_c
+It covers the embryo
+## explanation_c
+Covering the embryo and separating it from the uterine cavity is decidua capsularis — the classic swap, since basalis is beneath and capsularis above.
+## answer_d
+It degenerates at last.
+## explanation_d
+Degenerating at last is the fate of capsularis and parietalis. Basalis is the one part of the decidua that persists as an organ.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the fate of decidua basalis and separate it from the other two parts.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book states that decidua basalis, the decidual plate, persists to form the maternal part of the placenta; the fusing, the covering and the final degeneration belong to capsularis and parietalis. Set to B.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1261
+## title
+Regarding the decidua parietalis, choose the correct statement: em
+## question
+Regarding the decidua parietalis, choose the correct statement: em
+## vignette
+This item asks the student to give the fate of decidua parietalis.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It lies between the implanted embryo and myometrium
+## explanation_a
+Lying between the implanted embryo and the myometrium is decidua basalis, which becomes the placenta. Parietalis is the lining of the rest of the cavity.
+## answer_b
+It covers the embryo separating it from the uterine cavity
+## explanation_b
+Covering the embryo is decidua capsularis. Parietalis is what capsularis eventually fuses with, not the covering itself.
+## answer_c
+It persists as the maternal part of the placenta
+## explanation_c
+Persisting as the maternal part of the placenta is again basalis. This question and the decidua basalis question are printed with the same four statements and differ only in which part is named.
+## answer_d
+It degenerates at last y
+## explanation_d
+Correct. Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.
+
+Why this is right:
+- The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the fate of decidua parietalis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1262
+## title
+Neurenteric canal is the communication between
+## question
+Neurenteric canal is the communication between
+## vignette
+This item asks the student to name the two cavities the neurenteric canal joins.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Amniotic and chorionic cavities
+## explanation_a
+The chorionic cavity is outside the embryonic disc entirely; the neurenteric canal is a passage through the disc, which is why it joins the two cavities on either side of it.
+## answer_b
+Amniotic and yolk sac cavities
+## explanation_b
+Correct. Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.
+
+Why this is right:
+- The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.
+- The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+- The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity.
+## answer_c
+Amniotic and uterine cavities
+## explanation_c
+The uterine cavity is maternal and separated from everything embryonic by the decidua. No canal within the embryo could reach it.
+## answer_d
+Yolk sac and chorionic cavities
+## explanation_d
+The yolk sac is one of the two correct cavities and the chorionic cavity is not the other. Half right, which makes it the best of the three wrong answers.
+## topic
+Embryology
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-1BCF37C48AF307
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the two cavities the neurenteric canal joins.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q34; Anatomy MCQ Book [2025] [first priority].pdf p92 q34; EOM first 2021 101 INT end of module.pdf p6 q44. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1263
+## title
+One of the following is an event of the 8th day of pregnancy
+## question
+One of the following is an event of the 8th day of pregnancy
+## vignette
+This item asks the student to assign four second-week events to their days and pick the eighth.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Formation of hypoblast
+## explanation_a
+Correct. The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.
+
+Why this is right:
+- On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole.
+## answer_b
+Formation of primary yolk sac. P
+## explanation_b
+The primary yolk sac forms on the ninth day, when Heuser's membrane lines the blastocele. One day late, and it is the answer to the companion question on the same page.
+## answer_c
+Formation of extraembryonic mesoderm
+## explanation_c
+The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.
+## answer_d
+Formation of primary chorionic villi. y ad
+## explanation_d
+The primary chorionic villi begin after the thirteenth day, at the very end of the second week.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-22C6EB6EB88448
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental timing
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign four second-week events to their days and pick the eighth.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q15. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1264
+## title
+Chorionic vesicle is formed at the
+## question
+Chorionic vesicle is formed at the
+## vignette
+This item asks the student to date the chorionic vesicle from the day its cavity closes.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+10th day of pregnancy.
+## explanation_a
+On the tenth day the blastocyst has only just been completely embedded; there is no extra-embryonic mesoderm yet and so no cavity to enclose.
+## answer_b
+11th day of pregnancy.
+## explanation_b
+The eleventh and twelfth days bring the extra-embryonic mesoderm and the first scattered spaces in it. Closer, but the spaces are still separate.
+## answer_c
+8th day of pregnancy.
+## explanation_c
+The eighth day is the amniotic cavity and the bilaminar disc — five days too early, and the earliest option offered.
+## answer_d
+13thday of the pregnancy.
+## explanation_d
+Correct. On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.
+
+Why this is right:
+- On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-22C6EB6EB88448
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental timing
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Date the chorionic vesicle from the day its cavity closes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question carries a key. The chorionic vesicle exists once the separate spaces in the extra-embryonic mesoderm have run together into a single chorionic cavity with a chorion around it, and the department book places that on the thirteenth day. Set to D.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1265
+## title
+Regarding monozygotic twin
+## question
+Regarding monozygotic twin
+## vignette
+This item asks the student to state what follows from two twins sharing one zygote.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is the commonest type.
+## explanation_a
+Dizygotic twinning is the commoner kind by a wide margin. Identical twins are the more memorable, which is why this option is offered first.
+## answer_b
+Twins are always of same sex.
+## explanation_b
+Correct. One zygote means one set of chromosomes, so the two are necessarily of the same sex.
+
+Why this is right:
+- Dizygotic twins arise when two ova are released and each is fertilised by its own sperm.
+## answer_c
+Are non-identical in shape.
+## explanation_c
+Monozygotic twins are identical — that is what the word means. Non-identical describes the dizygotic pair.
+## answer_d
+Are developed by fertilization of two ova Birth defects
+## explanation_d
+Development from two ova is the definition of dizygotic twinning, and it is the direct contradiction of "monozygotic" in the stem.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-698CF33638D4D7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State what follows from two twins sharing one zygote.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p132 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key; the other printing of the same question, which lost an option, is keyed to B. Monozygotic twins come from one fertilised ovum and therefore share one genotype, so they must be of the same sex — the only true statement of the four.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1266
+## title
+Regarding the dizygotic twin
+## question
+Regarding the dizygotic twin
+## vignette
+This item asks the student to state what follows from two twins arising from two zygotes.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Are non-identical in shape
+## explanation_a
+Correct. Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.
+
+Why this is right:
+- Dizygotic twins arise when two ova are released and each is fertilised by its own sperm.
+## answer_b
+Always of same sex
+## explanation_b
+Always of the same sex is the monozygotic rule. Dizygotic twins may be a boy and a girl, which is in fact the only certain way to tell the two kinds apart at birth.
+## answer_c
+Has a common amnion
+## explanation_c
+Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in a monozygotic pair that split late.
+## answer_d
+Has a common chorion
+## explanation_d
+A common chorion likewise requires one conceptus. Two separate implantations give two chorions, and usually two placentae.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-698CF33638D4D7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+State what follows from two twins arising from two zygotes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p99 q82. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically ordinary siblings — non-identical, of either sex, and each with its own amnion and chorion. Only A is true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1267
+## title
+Concerning to the mucous CT, the followings are true EXCEPT:
+## question
+Concerning to the mucous CT, the followings are true EXCEPT:
+## vignette
+This item asks the student to recognise that mucoid tissue is defined by its ground substance and not by its fibres.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is jelly like
+## explanation_a
+True, so not the exception. The matrix is a soft jelly, which is where the name comes from.
+## answer_b
+It is rich in hyaluronic acid
+## explanation_b
+True, so not the exception. Hyaluronic acid is what makes the ground substance so abundant and so hydrated.
+## answer_c
+It has a abundant amount of collagen fibers type I
+## explanation_c
+Correct. The exception, and the answer. Mucoid tissue has only *fine* collagen and reticular fibres; abundant type I collagen belongs to dense white fibrous tissue, which is the opposite kind of connective tissue — strong rather than soft.
+
+Why this is right:
+- It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth.
+## answer_d
+It is the main component of umbilical cord
+## explanation_d
+True, so not the exception. Wharton's jelly, the main component of the umbilical cord, is mucoid connective tissue.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-EA4034F1E87235
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Recognise that mucoid tissue is defined by its ground substance and not by its fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q60. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1268
+## title
+Mucoid connective tissue is present in all of the following except:
+## question
+Mucoid connective tissue is present in all of the following except:
+## vignette
+This item asks the student to name the three sites of mucoid tissue and reject the one that only sounds like a fourth.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+mucous membranes
+## explanation_a
+Correct. The exception, and the answer. A mucous membrane is an epithelium with its underlying lamina propria — loose areolar tissue, not mucoid tissue. The two share a syllable and nothing else, which is exactly why the option works.
+
+Why this is right:
+- It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth.
+## answer_b
+pulp of teeth
+## explanation_b
+True, so not the exception. The pulp of the teeth is one of the three sites.
+## answer_c
+umbilical cord
+## explanation_c
+True, so not the exception. In the umbilical cord it is called Wharton's jelly.
+## answer_d
+vitreous of the eye
+## explanation_d
+True, so not the exception. The vitreous humour of the eye is the third site.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-EA4034F1E87235
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the three sites of mucoid tissue and reject the one that only sounds like a fourth.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q16. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1269
+## title
+Collagen type 1 is present in:
+## question
+Collagen type 1 is present in:
+## vignette
+This item asks the student to place type I collagen in the dense tissues.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Capsule of organs
+## explanation_a
+Correct. The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_b
+Fetal connective tissue
+## explanation_b
+Fetal connective tissue is mesenchyme, cellular and with very fine fibres. It has not yet laid down the dense bundles type I forms.
+## answer_c
+Vascular connective tissue
+## explanation_c
+Vascular — mucoid — connective tissue holds only fine collagen and reticular fibres in a jelly matrix; its whole character is the absence of dense collagen.
+## answer_d
+Placenta
+## explanation_d
+The placenta's connective tissue is the loose mesodermal core of the villi and Wharton's jelly in the cord, neither of which is dense.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Place type I collagen in the dense tissues.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q126. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1270
+## title
+Collagen type III forms:
+## question
+Collagen type III forms:
+## vignette
+This item asks the student to identify type III collagen as the reticular fibre.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+White fibrous connective tissue
+## explanation_a
+White fibrous connective tissue — tendon, ligament, aponeurosis — is type I. It is the option a student picks who has learnt "collagen means strong" without the numbering.
+## answer_b
+Stroma of parenchymatous organs
+## explanation_b
+Correct. Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_c
+Basement membrane
+## explanation_c
+The basement membrane is type IV collagen, a network rather than a fibre.
+## answer_d
+Placental connective tissue
+## explanation_d
+Placental connective tissue is the loose core of the villus, and is not defined by a collagen type at all.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Identify type III collagen as the reticular fibre.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p16 q125. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1271
+## title
+Reticular connective tissue is present in:
+## question
+Reticular connective tissue is present in:
+## vignette
+This item asks the student to name the site of reticular connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+capsule of organs
+## explanation_a
+The capsule of an organ is dense irregular tissue of type I collagen. The reticular tissue is inside the capsule, holding the parenchyma.
+## answer_b
+Ligamentum nuchae
+## explanation_b
+Ligamentum nuchae is yellow elastic connective tissue — it has to stretch and recoil as the head nods.
+## answer_c
+umbilical cord
+## explanation_c
+The umbilical cord is mucoid connective tissue, Wharton's jelly.
+## answer_d
+stroma of organs
+## explanation_d
+Correct. Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the site of reticular connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q107. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1272
+## title
+yellow elastic connective tissue is present in:
+## question
+yellow elastic connective tissue is present in:
+## vignette
+This item asks the student to name the site of yellow elastic connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+capsule of organs
+## explanation_a
+The capsule of an organ resists stretch rather than performing it; it is dense collagen.
+## answer_b
+Ligamentum nuchae
+## explanation_b
+Correct. Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_c
+umbilical cord
+## explanation_c
+The umbilical cord is mucoid tissue. This question and the reticular-tissue question are printed with the same four options, so the four sites have to be held apart as a set.
+## answer_d
+stroma of organs
+## explanation_d
+The stroma of organs is reticular tissue, type III collagen.
+## topic
+Connective Tissue
+## subtopic
+Fetal Membranes
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the site of yellow elastic connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q106. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1273
+## title
+Premature separation of placenta occurs due to:
+## question
+Premature separation of placenta occurs due to:
+## vignette
+This item asks the student to attach premature separation of the placenta to the short cord, and give what each of the other cord and placental anomalies causes instead.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Short umbilical cord.
+## explanation_a
+Correct. A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.
+
+Why this is right:
+- The congenital anomalies of the umbilical cord are: a short cord, which limits fetal movement and can separate the placenta prematurely during delivery; a long cord, which may encircle the fetal neck or form a true knot; congenital umbilical hernia (omphalocele), where the proximal cord contains intestinal loops because the intestine failed to return to the abdominal cavity; presence of only one umbilical artery from degeneration of the other; and abnormal attachment to the placenta — battledore, at the margin, or velamentous, through the amniotic membrane.
+## answer_b
+Long umbilical cord.
+## explanation_b
+The long cord is the dangerous one a student remembers, because neck encirclement and a true knot are life-threatening — but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.
+## answer_c
+Accessory placenta.
+## explanation_c
+An accessory placenta is an anomaly of number, a separate lobe joined to the main disc by vessels. It matters because the extra lobe may be retained after delivery, which is the opposite problem: placenta left behind rather than placenta detached early.
+## answer_d
+Placenta accreta.
+## explanation_d
+Placenta accreta is abnormal infiltration of the placenta into the uterine wall, and it too is the opposite of this question — an accreta will not separate when it should, and is a cause of retained placenta and post-partum haemorrhage.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-3E918A4C74B56D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Attach premature separation of the placenta to the short cord, and give what each of the other cord and placental anomalies causes instead.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q40. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book rather than from a key. The book lists among the congenital anomalies of the cord "short cord limiting fetal movement and causing premature separation of placenta during delivery", which is option a in the paper’s own words.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1274
+## title
+Concerning the umbilical cord at birth, select the incorrect statement:
+## question
+Concerning the umbilical cord at birth, select the incorrect statement:
+## vignette
+This item asks the student to give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+About 50-60 cm in length.
+## explanation_a
+True, and the figure is exactly 50–60 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.
+## answer_b
+Contains 2 veins and one artery.
+## explanation_b
+Correct. This is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.
+
+Why this is right:
+- The primitive umbilical ring forms in the fourth week, as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; through it pass the allantois and the umbilical vessels within the connecting stalk, and the vitelline duct with its vessels.
+- When the amnion sheathes those structures the primitive umbilical cord is formed, containing the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and later the herniated intestinal loops — the physiological umbilical hernia, which is therefore a feature of the primitive cord and not of the definitive one.
+- The definitive cord forms when the intestine returns to the abdomen, one umbilical vein and the extra-embryonic vitelline vessels obliterate, and the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate; Wharton's jelly forms from the mesoderm of the connecting stalk.
+## answer_c
+Is attached to the fetal surface of the placenta.
+## explanation_c
+True. The cord is attached near the centre of the smooth, amnion-covered fetal surface; attachment at the margin is battledore placenta and attachment through the amniotic membrane is velamentous, and both are named as anomalies precisely because the normal site is the fetal surface.
+## answer_d
+Short cord may lead to premature separation of the placenta.
+## explanation_d
+True, and it is the first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-134C8B5E98D759
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q55. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives the definitive cord two umbilical arteries and one umbilical vein, a length of 50–60 cm, attachment near the centre of the fetal surface of the placenta, and a short cord as a cause of premature separation — so a, c and d are its own words and b is the one statement it contradicts.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1275
+## title
+Concerning the placenta, one of the following is incorrect:
+## question
+Concerning the placenta, one of the following is incorrect:
+## vignette
+This item asks the student to name the fetal and the maternal part of the placenta, and say which of the three deciduae each part comes from.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Its fetal part develops from chorion frondosum.
+## explanation_a
+True. The fetal part is the chorionic plate, and the chorionic plate is chorion frondosum — the pole of the chorion facing decidua basalis, where the villi are kept and grow.
+## answer_b
+Its maternal part develops from decidua capsularis.
+## explanation_b
+Correct. This is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.
+
+Why this is right:
+- The placental, or decidual, septa are incomplete septa extending from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast; they carry no maternal vessels, they are not fixed to the chorionic plate, and opposite each of them is a groove on the maternal surface separating one cotyledon from the next.
+## answer_c
+There is a barrier between fetal and maternal blood.
+## explanation_c
+True. The placental barrier separates maternal blood in the intervillous spaces from fetal blood in the tertiary villi, and it is the whole reason the two circulations never mix.
+## answer_d
+Has many hormonal functions.
+## explanation_d
+True. The placenta is an endocrine gland as well as an exchange organ, secreting progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-D870770450E17D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the fetal and the maternal part of the placenta, and say which of the three deciduae each part comes from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p6 q59. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book states the placenta is formed by union of a maternal part — the decidual plate, which is decidua basalis — and a fetal part, the chorionic plate, which is chorion frondosum. Option b names decidua capsularis, which the book gives no part in the placenta at all.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1276
+## title
+Regarding the umbilical cord at birth, select the incorrect statement:
+## question
+Regarding the umbilical cord at birth, select the incorrect statement:
+## vignette
+This item asks the student to give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+About 50-60 cm in length.
+## explanation_a
+True, and the cord is 50–60 cm long and about 2 cm in diameter.
+## answer_b
+Contains 2 veins and 2 arteries.
+## explanation_b
+Correct. This is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year’s version is harder than the previous year’s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.
+
+Why this is right:
+- The primitive umbilical ring forms in the fourth week, as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; through it pass the allantois and the umbilical vessels within the connecting stalk, and the vitelline duct with its vessels.
+- When the amnion sheathes those structures the primitive umbilical cord is formed, containing the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and later the herniated intestinal loops — the physiological umbilical hernia, which is therefore a feature of the primitive cord and not of the definitive one.
+- The definitive cord forms when the intestine returns to the abdomen, one umbilical vein and the extra-embryonic vitelline vessels obliterate, and the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate; Wharton's jelly forms from the mesoderm of the connecting stalk.
+## answer_c
+Is attached to the fetal surface.of thé placenta.
+## explanation_c
+True. The cord is attached near the centre of the fetal surface of the placenta — the smooth surface covered by amnion, over which the umbilical vessels run to reach the villi.
+## answer_d
+Short cord may lead to premature separation of the placenta.
+## explanation_d
+True, and the short cord’s known effect: it limits fetal movement and separates the placenta prematurely during delivery.
+## topic
+Fetal Membranes
+## subtopic
+Fetal Membranes
+## main_concept
+CON-DEV-134C8B5E98D759
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Membranes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CHORIONIC-VILLI-PLACENTA
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Give the vessel count, the length and the placental attachment of the definitive umbilical cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p5 q56. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book: the definitive cord holds two umbilical arteries and one umbilical vein. This is the previous year’s question reset with the false option changed from "2 veins and one artery" to "2 veins and 2 arteries"; the other three options are word for word the same and are all true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
