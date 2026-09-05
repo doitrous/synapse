@@ -133672,3 +133672,2034 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the nutrient artery enters the middle of the shaft and supplies the inner two-thirds of it, while the periosteal arteries supply the outer third. The paper calls that vessel the diaphyseal artery, also known as the nutrient artery; the two names are the same vessel — the artery of the diaphysis — and no other option names anything in the interior of the shaft.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1323
+## title
+Early amniotic cavity separates between
+## question
+Early amniotic cavity separates between
+## vignette
+This item asks the student to name the two cell populations the amniotic cavity opens between.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Amnioblast and Cytotrophoblast
+## explanation_a
+The amnioblast lies against the cytotrophoblast, but the cavity does not open between them — it opens on the other side of the amnioblast. This option describes a contact rather than a separation.
+## answer_b
+Amnioblast and epiblast
+## explanation_b
+Correct. The cavity appears within the inner cell mass and separates the amnioblast, which roofs it, from the epiblast, which floors it.
+
+Why this is right:
+- On the eighth day the cells of the embryoblast facing the blastocele become cuboidal and form the hypoblast.
+- A cavity then opens within the remainder of the inner cell mass — the amniotic cavity — separating two populations: the amnioblast, flat cells in contact with the cytotrophoblast which form the roof of the cavity and are the first source of amniotic fluid, and the epiblast, tall columnar cells in contact with the hypoblast which form its floor.
+- Epiblast and hypoblast together are the bilaminar embryonic disc.
+## answer_c
+Amnioblast and hypoblast
+## explanation_c
+The hypoblast is on the far side of the epiblast, facing the blastocele. The amniotic cavity never touches it — the epiblast is between the two.
+## answer_d
+Amnioblast and yolk sac
+## explanation_d
+The yolk sac is below the hypoblast and is separated from the amniotic cavity by the whole thickness of the bilaminar disc. This is the answer a student gives when they picture the two cavities as neighbours rather than as the two sides of the disc.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-59DB99C028C33F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the two cell populations the amniotic cavity opens between.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p10 q65; Anatomy MCQ Book [2025] [first priority].pdf p96 q65. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1324
+## title
+The source of the three germ layers is
+## question
+The source of the three germ layers is
+## vignette
+This item asks the student to attribute all three germ layers to one layer of the bilaminar disc.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Hypoblast
+## explanation_a
+The hypoblast is displaced by epiblast cells invaginating through the primitive streak; it contributes nothing to the trilaminar disc. It is the intuitive answer — lower layer becomes lower layer — and the contrary is stated as a point in its own right.
+## answer_b
+Epiblast
+## explanation_b
+Correct. Ectoderm, intra-embryonic mesoderm and endoderm all come from the epiblast.
+
+Why this is right:
+- On the eighth day the cells of the embryoblast facing the blastocele become cuboidal and form the hypoblast.
+- A cavity then opens within the remainder of the inner cell mass — the amniotic cavity — separating two populations: the amnioblast, flat cells in contact with the cytotrophoblast which form the roof of the cavity and are the first source of amniotic fluid, and the epiblast, tall columnar cells in contact with the hypoblast which form its floor.
+- Epiblast and hypoblast together are the bilaminar embryonic disc.
+## answer_c
+Extraembryonic mesoderm
+## explanation_c
+The extra-embryonic mesoderm is outside the disc, lining the cytotrophoblast and covering the yolk sac. It becomes the chorion and the connecting stalk, not the embryo.
+## answer_d
+Cytotrophoblast
+## explanation_d
+The cytotrophoblast is trophoblast, and the trophoblast never contributes to the embryo proper at all — it makes the fetal part of the placenta.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-59DB99C028C33F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Attribute all three germ layers to one layer of the bilaminar disc.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q31; Anatomy MCQ Book [2025] [first priority].pdf p91 q31. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1325
+## title
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) A…
+## question
+Cells of the embryoblast form the hypoblast and epiblast, which begin to form: (2024) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the cavity the embryoblast itself produces.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Chorionic cavity
+## explanation_a
+The chorionic cavity is the extra-embryonic coelom, and it opens in the extra-embryonic mesoderm on the thirteenth day — outside the disc, and five days later.
+## answer_b
+Antrum
+## explanation_b
+The antrum is the fluid-filled cavity of the ovarian follicle, before ovulation. It has nothing to do with the embryoblast; it is offered because it is another named cavity of the same reproductive story.
+## answer_c
+Blastocele
+## explanation_c
+The blastocele is the cavity that made the blastocyst a blastocyst, and it existed before the embryoblast split into epiblast and hypoblast. It is later converted into the primary yolk sac, not into a new cavity.
+## answer_d
+Amniotic cavity
+## explanation_d
+Correct. The amniotic cavity opens within the inner cell mass on the eighth day, separating amnioblast from epiblast.
+
+Why this is right:
+- On the eighth day the cells of the embryoblast facing the blastocele become cuboidal and form the hypoblast.
+- A cavity then opens within the remainder of the inner cell mass — the amniotic cavity — separating two populations: the amnioblast, flat cells in contact with the cytotrophoblast which form the roof of the cavity and are the first source of amniotic fluid, and the epiblast, tall columnar cells in contact with the hypoblast which form its floor.
+- Epiblast and hypoblast together are the bilaminar embryonic disc.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-59DB99C028C33F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the cavity the embryoblast itself produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q19; EOM ISK EOM exam 2024.pdf p10 q410. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Of the four cavities offered, only the amniotic cavity forms within the inner cell mass; the chorionic cavity forms in the extra-embryonic mesoderm, the blastocele is already there before the embryoblast divides, and the antrum belongs to the ovarian follicle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1326
+## title
+The earliest source of amniotic fluid is
+## question
+The earliest source of amniotic fluid is
+## vignette
+This item asks the student to order the sources of amniotic fluid and name the first.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Epiblast
+## explanation_a
+The epiblast forms the floor of the amniotic cavity and goes on to become the embryo. It is not secretory, and the roof rather than the floor is what makes the fluid.
+## answer_b
+Diffusion from fetal blood
+## explanation_b
+Diffusion of fluid from maternal blood is the main source later, once there is a placenta to diffuse across. There is no such circulation at the eighth day.
+## answer_c
+Fetal urinary system
+## explanation_c
+Fetal urine is added only from about the fifth month, when the kidneys begin to work. It is the last source to arrive, not the earliest, and it is the commonest wrong answer because it is the one students remember.
+## answer_d
+Amnioblast
+## explanation_d
+Correct. The amnioblast cells, which form the roof of the amniotic cavity, are the first source of amniotic fluid.
+
+Why this is right:
+- On the eighth day the cells of the embryoblast facing the blastocele become cuboidal and form the hypoblast.
+- A cavity then opens within the remainder of the inner cell mass — the amniotic cavity — separating two populations: the amnioblast, flat cells in contact with the cytotrophoblast which form the roof of the cavity and are the first source of amniotic fluid, and the epiblast, tall columnar cells in contact with the hypoblast which form its floor.
+- Epiblast and hypoblast together are the bilaminar embryonic disc.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-59DB99C028C33F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Order the sources of amniotic fluid and name the first.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p11 q67. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1327
+## title
+Regarding implantation
+## question
+Regarding implantation
+## vignette
+This item asks the student to give the site, the day and the agent of implantation together.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It starts at the gth day of pregnancy
+## explanation_a
+Implantation starts on the seventh day and is complete on the eleventh. The ninth day is the day the blastocyst is completely embedded, which is a stage within implantation rather than its beginning — a distinction of two days that these books ask about repeatedly.
+## answer_b
+Chorionic vesicle is the stage that starts implantation
+## explanation_b
+The blastocyst starts implantation. The chorionic vesicle is what the conceptus becomes at the end of the second week, after implantation is over.
+## answer_c
+It occurs at the upper part of the posterior wall of uterine cavity
+## explanation_c
+Correct. Implantation occurs normally in the upper part of the posterior wall of the uterus, just below the fundus.
+
+Why this is right:
+- Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium.
+- It begins on the seventh day with adhesion of the blastocyst by its embryonic pole.
+## answer_d
+Implantation cavity is formed through the action of proteolytic enzymes
+## explanation_d
+The proteolytic enzymes are made by the syncytiotrophoblast. As printed here the option stops at "proteolytic enzymes" without naming a source, which makes it a true statement about the mechanism and not a false one — but it is not the site, and the stem is answered by C.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E08715FEB6438D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the site, the day and the agent of implantation together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q16. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1328
+## title
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## question
+The common site of implantation in the uterus is at: (2023 - 2022) em em em em em
+## vignette
+This item asks the student to name the wall and the level at which the blastocyst normally implants.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Anterior wall of the fundus
+## explanation_a
+The anterior wall of the fundus is the second commonest site and this is true, which makes it the strongest distractor: it is right about the level and wrong about the wall.
+## answer_b
+Posterior wall of the fundus
+## explanation_b
+Correct. The upper part of the posterior wall, just below the fundus, is the normal site.
+
+Why this is right:
+- Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium.
+- It begins on the seventh day with adhesion of the blastocyst by its embryonic pole.
+## answer_c
+Anterior wall of the cervix.ViP
+## explanation_c
+The cervix is below the internal os altogether. Implantation there is a cervical ectopic pregnancy, the rarest and most dangerous kind.
+## answer_d
+Posterior wall of the lower part of body· Ac ad
+## explanation_d
+The posterior wall of the lower part of the body is the lower uterine segment, where implantation gives placenta previa.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E08715FEB6438D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the wall and the level at which the blastocyst normally implants.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q6; EOM ISK 101 195 Answers.pdf p5 q57. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1329
+## title
+During the second week of development, the trophoblast differentiates into:
+## question
+During the second week of development, the trophoblast differentiates into:
+## vignette
+This item asks the student to name the two layers the trophoblast splits into.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Syncytiotrophoblast and cytotrophoblast
+## explanation_a
+Correct. The trophoblast differentiates into an inner cytotrophoblast of separate cells and an outer syncytiotrophoblast whose cells have no membranes between them.
+
+Why this is right:
+- Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium.
+- It begins on the seventh day with adhesion of the blastocyst by its embryonic pole.
+## answer_b
+The blastocyst begins implantation by its embryonic pole
+## explanation_b
+A true statement about the second week, but not an answer to the stem: the question asks what the trophoblast differentiates *into*, and this names what the blastocyst does rather than a pair of layers.
+## answer_c
+Intraembryonic and extraembryonic mesoderm
+## explanation_c
+Intra-embryonic and extra-embryonic mesoderm are mesoderm, not trophoblast, and the intra-embryonic kind does not exist until the third week.
+## answer_d
+Yolk sac (secondary) Vi ad
+## explanation_d
+The secondary yolk sac does form in the second week, on the thirteenth day, but from the hypoblast lining the primary yolk sac — not from the trophoblast.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E08715FEB6438D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the two layers the trophoblast splits into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1330
+## title
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cel…
+## question
+On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cells: (2024) em em em
+## vignette
+This item asks the student to place the lacunae in the layer that erodes the endometrium.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Syncytiotrophoblast
+## explanation_a
+Correct. The lacunar spaces appear within the syncytiotrophoblast on the ninth day, and fill with maternal blood two days later as the utero-placental circulation.
+
+Why this is right:
+- Implantation is the process by which the blastocyst becomes embedded in the superficial layers of the endometrium.
+- It begins on the seventh day with adhesion of the blastocyst by its embryonic pole.
+## answer_b
+Extraembryonic coelom
+## explanation_b
+The extra-embryonic coelom is a cavity in the extra-embryonic mesoderm, which does not exist until the eleventh or twelfth day — two days after the lacunae.
+## answer_c
+Extraembryonic splanchnopleuric
+## explanation_c
+The splanchnopleuric extra-embryonic mesoderm covers the yolk sac and is a thirteenth-day structure, deep inside the conceptus rather than at its eroding surface.
+## answer_d
+Exocoelomic P Ac ad
+## explanation_d
+The exocoelomic (Heuser's) membrane lines the primary yolk sac and is hypoblast-derived. It faces inwards, away from the maternal blood the lacunae are opening onto.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E08715FEB6438D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the lacunae in the layer that erodes the endometrium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q20. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1331
+## title
+Amniotic cavity starts formation at the …….
+## question
+Amniotic cavity starts formation at the …….
+## vignette
+This item asks the student to date the appearance of the amniotic cavity.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+7th day of pregnancy.
+## explanation_a
+The seventh day is when implantation begins and the trophoblast splits in two. The inner cell mass has not yet divided, so there is nothing for a cavity to open within.
+## answer_b
+8th day of pregnancy.
+## explanation_b
+Correct. The amniotic cavity forms on the eighth day, at the same time as the hypoblast and the bilaminar disc.
+
+Why this is right:
+- On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole.
+## answer_c
+9th day of pregnancy.
+## explanation_c
+The ninth day brings complete embedding, Heuser's membrane, the primary yolk sac and the lacunae — the next entry on the timetable, and the commonest wrong answer for that reason.
+## answer_d
+10th day of pregnancy.
+## explanation_d
+By the tenth day the amniotic cavity is already there. The four options are consecutive days, so nothing but the timetable itself separates them.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-22C6EB6EB88448
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Date the appearance of the amniotic cavity.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1332
+## title
+One of the following is an event of the 9th day of pregnancy
+## question
+One of the following is an event of the 9th day of pregnancy
+## vignette
+This item asks the student to assign four second-week events to their days.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Formation of hypoblast.
+## explanation_a
+The hypoblast forms on the eighth day, with the amniotic cavity. It is one day early, and it is the closest of the three wrong answers.
+## answer_b
+Formation of primary yolk sac.
+## explanation_b
+Correct. Heuser's membrane forms on the ninth day and converts the blastocele into the primary yolk sac, alongside complete embedding and the appearance of the lacunae.
+
+Why this is right:
+- On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole.
+## answer_c
+Formation of extraembryonic mesoderm.
+## explanation_c
+The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.
+## answer_d
+Formation of primary chorionic villi.
+## explanation_d
+The primary chorionic villi begin after the thirteenth day, at the very end of the second week. They are four days late for this stem.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-22C6EB6EB88448
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental timing
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign four second-week events to their days.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q16. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. Of the four events offered, only the primary yolk sac belongs to the ninth day: the book places the hypoblast on the eighth, the extra-embryonic mesoderm on the eleventh and twelfth, and the primary chorionic villi at the end of the week, after the thirteenth.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1333
+## title
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2…
+## question
+One of the following statements is wrong during the second week of pregnancy: (2023 - 2022)
+## vignette
+This item asks the student to keep the third week's trilaminar disc out of the second.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Blastocyst completes its implantation
+## explanation_a
+True of the second week, so not the wrong one. Implantation begins on the seventh day and is complete on the eleventh.
+## answer_b
+Trophoblast differentiates into 2 layers
+## explanation_b
+True of the second week, so not the wrong one. The trophoblast splits into cytotrophoblast and syncytiotrophoblast on the seventh day.
+## answer_c
+Inner cell mass becomes a trilaminar disc.
+## explanation_c
+Correct. The wrong one, and the answer. The inner cell mass becomes a *bilaminar* disc in the second week — epiblast and hypoblast. The third layer arrives with gastrulation in the third week, and the single word "trilaminar" is the whole of the error.
+
+Why this is right:
+- On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole.
+## answer_d
+Amniotic cavity is formed.
+## explanation_d
+True of the second week, so not the wrong one. The amniotic cavity forms on the eighth day.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-22C6EB6EB88448
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Keep the third week's trilaminar disc out of the second.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q7; EOM ISK 101 195 Answers.pdf p6 q58. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Three of the four statements are events placed in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1334
+## title
+Somatic extraembryonic mesoderm
+## question
+Somatic extraembryonic mesoderm
+## vignette
+This item asks the student to say what the somatic layer of extra-embryonic mesoderm lines.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is the connecting stalk
+## explanation_a
+The connecting stalk is what is left of the extra-embryonic mesoderm bridging the chorionic cavity, not the somatic layer as such. It is a remnant of the whole mesoderm rather than one of its two divisions.
+## answer_b
+Covers yolk sac cavity. P
+## explanation_b
+Covering the yolk sac is what the splanchnic layer does. Somatic and splanchnic are asked as a pair in these books, and this is the other half of the pair.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Correct. The somatic layer lines the cytotrophoblast, and with the cytotrophoblast and syncytiotrophoblast makes the three layers of the chorion.
+
+Why this is right:
+- Extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac, between the cytotrophoblast outside and the embryonic disc with its two cavities inside.
+- Spaces open in it and run together on the thirteenth day into the chorionic cavity — the extra-embryonic coelom — which splits the mesoderm in two.
+- The somatic, or somatopleuric, layer lines the cytotrophoblast and covers the amniotic cavity; the splanchnic, or splanchnopleuric, layer covers the secondary yolk sac.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+The syncytiotrophoblast is the outermost layer, with the cytotrophoblast between it and the mesoderm. The mesoderm cannot line it without passing through the cytotrophoblast first.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-B87D52797068D2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say what the somatic layer of extra-embryonic mesoderm lines.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1335
+## title
+Splanchnic extraembryonic mesoderm
+## question
+Splanchnic extraembryonic mesoderm
+## vignette
+This item asks the student to say what the splanchnic layer of extra-embryonic mesoderm covers.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Covers amniotic c:avity
+## explanation_a
+The amniotic cavity is covered by the somatic layer, along with the lining of the cytotrophoblast. This is the pair reversed.
+## answer_b
+yolk sac cavity
+## explanation_b
+Correct. The splanchnic layer covers the secondary yolk sac — splanchnic goes with the gut and its derivatives throughout embryology, and the yolk sac is the gut's ancestor.
+
+Why this is right:
+- Extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac, between the cytotrophoblast outside and the embryonic disc with its two cavities inside.
+- Spaces open in it and run together on the thirteenth day into the chorionic cavity — the extra-embryonic coelom — which splits the mesoderm in two.
+- The somatic, or somatopleuric, layer lines the cytotrophoblast and covers the amniotic cavity; the splanchnic, or splanchnopleuric, layer covers the secondary yolk sac.
+## answer_c
+Lines Cytotrophoblast
+## explanation_c
+Lining the cytotrophoblast is the somatic layer's work.
+## answer_d
+Lines syncytiotrophoblast
+## explanation_d
+Nothing lines the syncytiotrophoblast from within except the cytotrophoblast. Both this and option C describe the outer wall, which is the somatic side of the split.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-B87D52797068D2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Say what the splanchnic layer of extra-embryonic mesoderm covers.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q23. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1336
+## title
+•••••••••••••••••••• is the middle layer of chorion
+## question
+•••••••••••••••••••• is the middle layer of chorion
+## vignette
+This item asks the student to order the three layers of the chorion from inside out.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cytotrophoblast
+## explanation_a
+Correct. The chorion is somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast from within outwards, so the cytotrophoblast is the middle layer.
+
+Why this is right:
+- Extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac, between the cytotrophoblast outside and the embryonic disc with its two cavities inside.
+- Spaces open in it and run together on the thirteenth day into the chorionic cavity — the extra-embryonic coelom — which splits the mesoderm in two.
+- The somatic, or somatopleuric, layer lines the cytotrophoblast and covers the amniotic cavity; the splanchnic, or splanchnopleuric, layer covers the secondary yolk sac.
+## answer_b
+Syncytiotrophoblast
+## explanation_b
+The syncytiotrophoblast is the outermost layer, the one in contact with the decidua and with maternal blood.
+## answer_c
+Somatic extraembryonic mesoderm
+## explanation_c
+The somatic extra-embryonic mesoderm is the innermost layer, facing the chorionic cavity. It is the layer students most often place in the middle, because it is the one they think of last when reciting from outside in.
+## answer_d
+Splanchnic extraembryonic mesoderm
+## explanation_d
+The splanchnic layer is not part of the chorion at all — it is on the yolk sac, at the other end of the split.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-B87D52797068D2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Order the three layers of the chorion from inside out.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p4 q25. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1337
+## title
+Primary chorionic villi y ad Ac em
+## question
+Primary chorionic villi y ad Ac em
+## vignette
+This item asks the student to give the composition of a primary villus and reject the later stages.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast.
+## explanation_a
+Correct. A primary villus is a core of proliferating cytotrophoblast pushing into the overlying syncytiotrophoblast, and nothing else.
+
+Why this is right:
+- Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third.
+## answer_b
+It contains fetal blood vessels.
+## explanation_b
+Fetal blood vessels appear only in the tertiary villus, two stages later. This is the keyed option, and it is the answer to the same question asked about tertiary villi.
+## answer_c
+It starts formation at the middle of the 3rd week of pregnancy.
+## explanation_c
+The middle of the third week is when secondary villi appear. Primary villi start at the end of the second week, which is a week earlier.
+## answer_d
+It forms the fetal part of placenta.
+## explanation_d
+The fetal part of the placenta is the chorion frondosum, made of well-developed tertiary villi. A primary villus is three steps away from that.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the composition of a primary villus and reject the later stages.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that a primary villus contains fetal blood vessels. Vessels are what make a villus tertiary; a primary villus is a cytotrophoblast core covered by syncytiotrophoblast, with no mesoderm and no vessels at all. The answer is A. Primary villi are a core of cytotrophoblast covered by syncytiotrophoblast, secondary villi add a mesodermal core, and tertiary villi add vessels within it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1338
+## title
+Secondary chorionic villi Ac em
+## question
+Secondary chorionic villi Ac em
+## vignette
+This item asks the student to date the secondary villus and keep the tertiary villus's vessels out of it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is composed of cytotrophoblast and syncytiotrophoblast
+## explanation_a
+Cytotrophoblast covered by syncytiotrophoblast, with nothing between, is the primary villus. The secondary villus has somatic extra-embryonic mesoderm in its core as well.
+## answer_b
+It contains fetal blood vessels
+## explanation_b
+Fetal blood vessels make a villus tertiary. This is the keyed option, and the distinction it erases — mesoderm without vessels against mesoderm with them — is the one thing this question exists to test.
+## answer_c
+It is formed at the middle of the 3rd week of pregnancy
+## explanation_c
+Correct. Secondary villi form at the middle of the third week, when somatic mesoderm grows into the core of the primary villus.
+
+Why this is right:
+- Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third.
+## answer_d
+It forms the fetal part of placenta. Acad
+## explanation_d
+The fetal part of the placenta is the chorion frondosum, which carries tertiary villi. A secondary villus has no circulation and could not serve as a placenta.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental timing
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Date the secondary villus and keep the tertiary villus's vessels out of it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that the secondary villus contains fetal blood vessels. It does not: mesoderm alone in the core makes a villus secondary, and it becomes tertiary only once vessels form in that mesoderm. Secondary villi appear at the middle of the third week, which is option C, and that is the only true statement of the four.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1339
+## title
+Cytotrophoblastic shell is formed from cytotrophoblast of
+## question
+Cytotrophoblastic shell is formed from cytotrophoblast of
+## vignette
+This item asks the student to trace the cytotrophoblastic shell to the villus that reaches the decidua.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Primary chorionic villi
+## explanation_a
+Primary villi exist at the end of the second week, before there are intervillous spaces for a shell to bound. The shell is a third-week structure.
+## answer_b
+Secondary chorionic villi.
+## explanation_b
+The secondary villus has a mesodermal core but is still floating; it does not reach the decidua. This is the option the other printing of this question is keyed to.
+## answer_c
+Stem tertiary chorionic villi
+## explanation_c
+Correct. The shell forms from the cytotrophoblast of the stem, or anchoring, tertiary villi — the ones that run all the way from chorion to decidua basalis and can therefore spread out against it.
+
+Why this is right:
+- Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third.
+## answer_d
+Floating or absorbing tertiary chorionic villi. :
+## explanation_d
+The free or floating villi hang in maternal blood in the intervillous spaces and touch nothing. A villus that reaches no wall cannot build a shell against one; the stem villi are named anchoring for exactly this reason.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-E099FAA01BEAEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_f32859b80fb79d668010
+## learning_objective
+Trace the cytotrophoblastic shell to the villus that reaches the decidua.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf p5 q28. Manifest src_f32859b80fb79d668010.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key and the other is keyed to the secondary villus, which cannot be right — the shell forms around the tertiary villi and the intervillous spaces, from the cytotrophoblast of the tertiary villi, and it is the stem villi that reach the decidua basalis where the shell lies. Set to C.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1340
+## title
+Late placental barrier is composed of
+## question
+Late placental barrier is composed of
+## vignette
+This item asks the student to name the two layers left in the late placental barrier.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Syncytiotrophoblast and Cytotrophoblast.
+## explanation_a
+Syncytiotrophoblast plus cytotrophoblast is the outer half of the early barrier, and the cytotrophoblast is precisely the layer that disappears. It is also incomplete — a barrier has to reach the fetal blood, and this one stops short of it.
+## answer_b
+Syncytiotrophoblast and endothelium of fetal blood vessels
+## explanation_b
+Correct. The late barrier is syncytiotrophoblast and the endothelium of the fetal blood vessels, two layers where the early barrier had four.
+
+Why this is right:
+- The placental barrier is what maternal blood in the intervillous space must cross to reach fetal blood in the villus.
+## answer_c
+Cytotrophoblast and extraembryonic mesoderm.
+## explanation_c
+Cytotrophoblast and villus mesoderm are the two layers that are lost. This option names the disappearing half of the early barrier and nothing that survives.
+## answer_d
+Cytotrophoblast and endothelium of blood vessels.
+## explanation_d
+Keeping the cytotrophoblast and dropping the syncytiotrophoblast reverses which layer persists. The syncytium is the one in contact with maternal blood throughout, and it is the layer that never goes.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-2D15CFF44F825F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the two layers left in the late placental barrier.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p128 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. Late in pregnancy the cytotrophoblast has disappeared from most of the villus and the core connective tissue is reduced, leaving syncytiotrophoblast and the endothelium of the fetal vessels — option B. Every other option keeps the cytotrophoblast, which is the layer that goes.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1341
+## title
+Regarding the notochord
+## question
+Regarding the notochord
+## vignette
+This item asks the student to give the notochord's importance and reject three near-misses about its fate and extent.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It persists as the annulus fibrosus part of intervertebral disc
+## explanation_a
+It persists as the nucleus pulposus, the soft centre of the disc, not as the annulus fibrosus, the fibrous ring around it. One word apart, and the wrong half of the same structure.
+## answer_b
+It lies between cloacal and buccopharyngeal membrane
+## explanation_b
+The notochord extends from the primitive pit to the bucco-pharyngeal membrane. The cloacal membrane is caudal to the primitive streak, well beyond the notochord's caudal end.
+## answer_c
+It limits the head fold during folding of the embryonic disc
+## explanation_c
+Correct. Its firmness limits the head fold during folding of the embryonic disc, which is one of three key points about its importance.
+
+Why this is right:
+- The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.
+- The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+- The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity.
+## answer_d
+It is formed during the second week of pregnancy
+## explanation_d
+The notochord forms in the third week, after gastrulation has produced a primitive pit for it to invaginate from. In the second week there is no epiblast streak yet.
+## topic
+Embryology
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-1BCF37C48AF307
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the notochord's importance and reject three near-misses about its fate and extent.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q33. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1342
+## title
+Regarding the somites, choose the true statement:
+## question
+Regarding the somites, choose the true statement:
+## vignette
+This item asks the student to say what somites are made of and reject a second-week date for them.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+They are segments of paraxial mesoderm
+## explanation_a
+Correct. Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and the neural tube.
+
+Why this is right:
+- Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and neural tube.
+## answer_b
+They start formation during the second week of pregnancy.
+## explanation_b
+The first somite pair separates on the twentieth day, in the third week, and three pairs are added daily from then. This is the keyed option, and it is a whole week early — the paraxial mesoderm itself only appears on the seventeenth day.
+## answer_c
+They give rise to muscles of gut.
+## explanation_c
+The muscle of the gut is smooth muscle from splanchnopleuric lateral plate mesoderm. Somites give skeletal muscle, through the myotome, and skeletal muscle is not what a gut wall is made of.
+## answer_d
+They are developed from intermediate mesoderm.
+## explanation_d
+Intermediate mesoderm forms the urogenital system. Somites come from the paraxial mesoderm, which is the medial of the three divisions — swapping the two is the commonest error in the whole mesoderm story.
+## topic
+Second Week of Development
+## subtopic
+Second Week of Development
+## main_concept
+CON-DEV-5E63C211DEEE00
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Second Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-IMPLANTATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say what somites are made of and reject a second-week date for them.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p122 q5; EOM ISK 101 195 Answers.pdf p5 q52. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, that somites start forming during the second week. The first pair of occipital somites forms on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
