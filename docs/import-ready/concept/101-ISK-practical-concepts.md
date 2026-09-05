@@ -4301,13 +4301,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Collagen and elastic fibres are told apart in one field by bundling and by outline
+Collagen vs elastic fibre
 ## id
 CON-FND-103DF490A6E01E
 ## canonical_key
 collagen-versus-elastic-fibre-identification
 ## definition
-In loose areolar tissue both fibres are acidophilic and lie in the same field. Collagen runs as thick, wavy, condensed bundles that do not branch; elastic fibres run singly, thin, branching, in a zigzag course. Orcein stains elastic fibres brown and leaves collagen unstained, and in the fresh state collagen is white while elastic tissue is yellow.
+In loose areolar tissue both fibres are acidophilic and lie in the same field.
+
+**Collagen** runs as thick, wavy, condensed __bundles that do not branch__; **elastic** fibres run singly — thin, branching, in a zigzag course.
+
+**Orcein** stains elastic fibres brown and leaves collagen unstained; fresh, collagen is __white__ and elastic tissue __yellow__.
 ## explicit_objective
 Name each fibre when arrowed in a loose areolar section and give one visible character of each.
 ## pitfalls
@@ -4443,13 +4447,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Reticular fibres are invisible in H&E and appear as a fine brown branching network after silver
+Reticular fibre on a silver stain
 ## id
 CON-FND-4DBDF635382663
 ## canonical_key
 reticular-fibre-silver-identification
 ## definition
-Reticular fibres are type III collagen with a high sugar content. They do not show in H&E; silver impregnation stains them brown and PAS stains them red. On a silver preparation they form a fine network of thin fibres that branch and anastomose, which is what makes them the stroma of spleen, lymph node and liver.
+Reticular fibres are **type III collagen** with a high sugar content. They **do not show in H&E**; silver stains them brown and PAS stains them red.
+
+On a silver preparation they form a __fine branching, anastomosing network__ — which is what makes them the stroma of **spleen, lymph node and liver**.
 ## explicit_objective
 Identify reticular fibres on a silver preparation, name the stain and give two visible characters.
 ## pitfalls
@@ -4584,13 +4590,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Loose areolar connective tissue is identified by both fibre types and scattered cells in an open matrix
+Loose areolar connective tissue
 ## id
 CON-FND-3E3303864A3CE8
 ## canonical_key
 loose-areolar-connective-tissue-identification
 ## definition
-Loose areolar tissue is the commonest connective tissue proper. Its section shows collagen bundles and single zigzag elastic fibres running loosely in an abundant matrix, with fibroblast nuclei scattered between them and open spaces — the areolae — that hold tissue fluid.
+Loose areolar tissue is the **commonest connective tissue proper**.
+
+Its section shows **collagen bundles** and single **zigzag elastic fibres** in an abundant matrix, with **fibroblast nuclei** scattered between them.
+
+The open spaces — the __areolae__ — hold tissue fluid.
 ## explicit_objective
 Identify loose areolar connective tissue specifically, and name the two fibre types, the fibroblast and the matrix when each is marked.
 ## pitfalls
@@ -4725,13 +4735,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Reticular connective tissue is the silver-stained network that forms the stroma of an organ
+Reticular connective tissue
 ## id
 CON-FND-49D5829AC3DCA1
 ## canonical_key
 reticular-connective-tissue-identification
 ## definition
-Reticular connective tissue is a delicate type in which reticular fibres and reticular cells form a supporting framework. It is demonstrated by silver, which stains the fibres brown, and it is the stroma of spleen, lymph node and liver rather than a tissue that stands on its own.
+Reticular connective tissue is a delicate type in which **reticular fibres and reticular cells** form a supporting framework.
+
+It is demonstrated by **silver** (fibres brown), and it is the __stroma of spleen, lymph node and liver__ rather than a tissue that stands on its own.
 ## explicit_objective
 Identify reticular connective tissue and name the stain that demonstrates it.
 ## pitfalls
@@ -4866,13 +4878,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Yellow elastic connective tissue is a dense field of thin, single, zigzag elastic fibres, yellow in the fresh state
+Yellow elastic connective tissue
 ## id
 CON-FND-7FB8290199B237
 ## canonical_key
 yellow-elastic-connective-tissue-identification
 ## definition
-Yellow elastic connective tissue is a dense tissue in which parallel elastic fibres predominate. On section the fibres are thin, single and zigzag rather than bundled; orcein stains them brown, and in the fresh state the tissue is yellow — as in the ligamentum flavum and the ligamentum nuchae.
+Yellow elastic connective tissue is a dense tissue in which **parallel elastic fibres predominate**.
+
+On section the fibres are __thin, single and zigzag__ rather than bundled; orcein stains them brown, and fresh the tissue is **yellow**.
+
+It forms the **ligamentum flavum** and the **ligamentum nuchae**.
 ## explicit_objective
 Identify yellow elastic connective tissue, give its colour in the fresh state, name the stain and the colour it gives, and give two visible characters of its fibres.
 ## pitfalls
@@ -5007,13 +5023,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Regular and irregular white fibrous tissue differ only in the arrangement of the same thick collagen bundles
+Regular vs irregular white fibrous tissue
 ## id
 CON-FND-B33D27A8517527
 ## canonical_key
 regular-versus-irregular-white-fibrous-connective-tissue
 ## definition
-Both are dense tissues of thick acidophilic collagen bundles with few cells, and both are white in the fresh state. In the regular form the bundles run parallel with fibroblast nuclei in rows between them; in the irregular form the bundles run in every direction with fibroblasts scattered among them.
+Both are dense tissues of **thick acidophilic collagen bundles** with few cells, and both are white in the fresh state.
+
+In the **regular** form the bundles run __parallel__, with fibroblast nuclei in rows between them.
+
+In the **irregular** form the bundles run __in every direction__, with fibroblasts scattered among them.
 ## explicit_objective
 Identify white fibrous connective tissue as regular or irregular, give its fresh colour, and give two visible characters.
 ## pitfalls
@@ -5150,13 +5170,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Mucoid connective tissue is recognised by ground substance predominating over cells and fibres
+Mucoid connective tissue
 ## id
 CON-FND-4671C4D2911392
 ## canonical_key
 mucoid-connective-tissue-identification
 ## definition
-Mucoid connective tissue is jelly-like: the ground substance, rich in mucus and hyaluronic acid, predominates, with few scattered fibroblasts and delicate fibres running through it. It is the tissue of Wharton's jelly in the umbilical cord, the vitreous humour and the pulp of a tooth.
+Mucoid connective tissue is jelly-like: the **ground substance**, rich in mucus and hyaluronic acid, __predominates over cells and fibres__, with only a few scattered fibroblasts and delicate fibres through it.
+
+It is the tissue of **Wharton's jelly** in the umbilical cord, the **vitreous humour** and the **pulp of a tooth**.
 ## explicit_objective
 Identify mucoid connective tissue on a section and name a site where it is found.
 ## pitfalls
@@ -5288,13 +5310,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Simple squamous epithelium is one layer of flat cells with flat nuclei
+Simple squamous epithelium
 ## id
 CON-FND-CC0954729ED55F
 ## canonical_key
 simple-squamous-epithelium-identification
 ## definition
-Simple squamous epithelium is a single layer of flat cells whose nuclei are flattened and bulge slightly into the lumen. Cut in section it reads as a thin line of widely spaced flat nuclei on a basement membrane, and it lines the heart and blood vessels, the lung alveoli, the serous membranes and Bowman's capsule.
+Simple squamous epithelium is a **single layer of flat cells** whose nuclei are flattened and bulge slightly into the lumen.
+
+Cut in section it reads as a __thin line of widely spaced flat nuclei__ on a basement membrane.
+
+It lines the **heart and blood vessels**, the **lung alveoli**, the **serous membranes** and **Bowman's capsule**.
 ## explicit_objective
 Identify simple squamous epithelium on a section, give one visible feature, and name the flat nucleus and the basement membrane when marked.
 ## pitfalls
@@ -5429,13 +5455,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Simple cubical epithelium is one layer of square cells with central rounded nuclei
+Simple cubical epithelium
 ## id
 CON-FND-8760847341DE80
 ## canonical_key
 simple-cubical-epithelium-identification
 ## definition
-Simple cubical epithelium is a single layer of cells as tall as they are wide, each with a central rounded nucleus. It lines the convoluted tubules of the kidney, the secretory acini of glands and the thyroid follicles, and its functions are secretion and reabsorption.
+Simple cubical epithelium is a single layer of cells __as tall as they are wide__, each with a **central rounded nucleus**.
+
+It lines the **convoluted tubules of the kidney**, the **secretory acini** of glands and the **thyroid follicles**; its functions are **secretion and reabsorption**.
 ## explicit_objective
 Identify simple cubical epithelium, give one visible feature, and name the rounded central nucleus and the basement membrane when marked.
 ## pitfalls
@@ -5571,13 +5599,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Simple columnar epithelium is one layer of tall cells with oval nuclei at the same basal level
+Simple columnar epithelium
 ## id
 CON-FND-A214482F13AD8D
 ## canonical_key
 simple-columnar-epithelium-identification
 ## definition
-Simple columnar epithelium is a single layer of tall cells, each with an oval nucleus lying at the same level near the base. It lines the stomach and the small and large intestine, and its functions are secretion and absorption.
+Simple columnar epithelium is a single layer of **tall cells**, each with an __oval nucleus lying at the same basal level__.
+
+It lines the **stomach** and the **small and large intestine**; its functions are **secretion and absorption**.
 ## explicit_objective
 Identify simple columnar epithelium, give one visible feature, and name the structure marked beneath or beside it.
 ## pitfalls
@@ -5710,13 +5740,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Pseudostratified columnar ciliated epithelium is one layer whose crowded nuclei lie at several levels
+Pseudostratified ciliated columnar epithelium
 ## id
 CON-FND-9715187C19E7FA
 ## canonical_key
 pseudostratified-columnar-epithelium-identification
 ## definition
-Pseudostratified epithelium is genuinely one layer: every cell rests on the basement membrane, but not every cell reaches the surface, and the crowding puts their nuclei at more than one level so the epithelium looks stratified. The respiratory variety carries motile cilia and goblet cells.
+Pseudostratified epithelium is **genuinely one layer**: every cell rests on the basement membrane, but __not every cell reaches the surface__.
+
+The crowding puts nuclei at more than one level, so the epithelium **looks** stratified.
+
+The respiratory variety carries motile **cilia** and **goblet cells**.
 ## explicit_objective
 Identify pseudostratified columnar ciliated epithelium, give two visible characters, and name the cilia, the goblet cell, the basement membrane and the underlying connective tissue when marked.
 ## pitfalls
@@ -5850,13 +5884,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Stereocilia are long non-motile microvilli, not cilia, and mark the male genital tract
+Stereocilia vs cilia
 ## id
 CON-FND-28F7FA711C1C1C
 ## canonical_key
 stereocilia-versus-cilia-identification
 ## definition
-The pseudostratified epithelium of the male genital tract carries stereocilia: long, often clumped apical processes that are microvilli, not true cilia. They contain no axoneme and cannot beat, and the epithelium that carries them has no goblet cells, unlike the ciliated respiratory variety.
+The pseudostratified epithelium of the **male genital tract** carries **stereocilia**: long, often clumped apical processes that are __microvilli, not true cilia__.
+
+They contain **no axoneme** and cannot beat, and the epithelium that carries them has **no goblet cells**, unlike the ciliated respiratory variety.
 ## explicit_objective
 Tell stereocilia from motile cilia on a pseudostratified epithelium and say what each implies about the site.
 ## pitfalls
@@ -5986,13 +6022,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Keratinized and non-keratinized stratified squamous epithelium differ in what lies on the surface
+Keratinized vs non-keratinized stratified squamous
 ## id
 CON-FND-8EEA6972B77898
 ## canonical_key
 keratinized-versus-non-keratinized-stratified-squamous
 ## definition
-Both are many layers of polyhedral cells with rounded central nuclei, becoming flatter towards the surface and resting on a basement membrane over connective tissue. In the non-keratinized form the surface cells are flat and still nucleated; in the keratinized form they are replaced by an acidophilic anuclear horny layer of condensed keratin.
+Both are many layers of polyhedral cells with rounded central nuclei, becoming flatter towards the surface and resting on a basement membrane over connective tissue.
+
+The difference is __what lies on the surface__. In the **non-keratinized** form the surface cells are flat and **still nucleated**.
+
+In the **keratinized** form they are replaced by an acidophilic **anuclear horny layer** of condensed keratin.
 ## explicit_objective
 Identify stratified squamous epithelium as keratinized or non-keratinized, name the horny layer or the flattened superficial layer, and name the intermediate layers and the underlying connective tissue when marked.
 ## pitfalls
