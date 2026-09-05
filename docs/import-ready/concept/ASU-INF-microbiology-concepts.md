@@ -12051,7 +12051,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Enzyme inactivation and efflux pumps are plasmid-mediated; 30S alteration and DNA gyrase alteration are chromosome-mutation-mediated
+Plasmid-mediated vs chromosome-mutation resistance
 
 ## id
 CON-INF-8F76601D55C470
@@ -12060,7 +12060,9 @@ CON-INF-8F76601D55C470
 antibiotic-resistance.plasmid-vs-chromosome-mediated
 
 ## definition
-Plasmid-mediated resistance mechanisms in this module include enzyme inactivation of the drug (e.g. beta-lactamase) and active efflux pumps and porin-permeability modification, whereas 30S-ribosomal-subunit alteration is chromosome-mutation-mediated rather than plasmid-mediated; conversely, alteration of DNA gyrase is chromosome-mutation-mediated, while active efflux pumps are grouped with the plasmid-mediated mechanisms rather than chromosome mutations in this module's framework.
+**Plasmid-mediated** resistance mechanisms in this module include **enzyme inactivation** of the drug (e.g. beta-lactamase), **active efflux pumps** and **porin/permeability modification**.
+
+**Chromosome-mutation-mediated** mechanisms include __alteration of the 30S ribosomal subunit__ and __alteration of DNA gyrase__ — not the efflux pumps, which this module groups with the plasmid-mediated mechanisms.
 
 ## explicit_objective
 Distinguish which resistance mechanisms are grouped as plasmid-mediated (enzyme inactivation, efflux pumps, porin modification) versus chromosome-mutation-mediated (30S subunit alteration, DNA gyrase alteration) in this module.
@@ -12219,7 +12221,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Antibiotic treatment duration is reviewed after 72 hours
+Review antibiotic duration at 72 hours
 
 ## id
 CON-INF-1872C1B986AAD3
@@ -12228,7 +12230,9 @@ CON-INF-1872C1B986AAD3
 antibiotic-stewardship.treatment-duration-review
 
 ## definition
-As an antibiotic stewardship principle, the duration and appropriateness of an antibiotic treatment course is reviewed after 72 hours, allowing reassessment based on clinical response and culture results rather than continuing indefinitely on the initial empiric choice.
+As an **antibiotic stewardship** principle, the duration and appropriateness of a treatment course is __reviewed after 72 hours__.
+
+This allows reassessment based on clinical response and culture results, rather than continuing indefinitely on the initial empiric choice.
 
 ## explicit_objective
 State that antibiotic treatment duration/appropriateness is reviewed after 72 hours.
@@ -12387,7 +12391,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Wrong antibiotic choice, interrupted courses, and unindicated use enhance selection of resistant mutants; high dose does not
+What selects for resistant mutants
 
 ## id
 CON-INF-7C50CF18CD73F7
@@ -12396,7 +12400,9 @@ CON-INF-7C50CF18CD73F7
 antibiotic-stewardship.resistance-selection-factors
 
 ## definition
-Selection of antibiotic-resistant mutants is enhanced by a wrong choice of antibiotic, an interrupted treatment course, and use of an antibiotic that is not indicated -- all practices that expose bacteria to sub-lethal drug pressure -- whereas an adequately high dose (as part of correct dosing) is not itself a factor that enhances resistance selection.
+Selection of antibiotic-resistant mutants is enhanced by a **wrong choice** of antibiotic, an **interrupted course**, and **use when not indicated** — all of which expose bacteria to __sub-lethal drug pressure__.
+
+An adequately **high dose** (as part of correct dosing) is __not__ itself a factor that enhances resistance selection.
 
 ## explicit_objective
 Identify wrong antibiotic choice, interrupted courses, and unindicated antibiotic use as factors that enhance selection of resistant mutants, and recognize that an adequately high (correct) dose is not one of these factors.
@@ -12558,7 +12564,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Capsomers are the small protein subunits composing a viral capsid
+Capsomers: the protein subunits of a capsid
 
 ## id
 CON-INF-80960EC6FD48EC
@@ -12594,7 +12600,9 @@ CON-INF-8D2EDDBECE528D
 fungi.morphology.molds-filamentous
 
 ## definition
-The morphology of molds -- one of the two basic fungal growth forms -- is filamentous, consisting of thread-like hyphae, in contrast to yeasts (unicellular, budding) and dimorphic fungi (able to switch between the two forms).
+**Molds** — one of the two basic fungal growth forms — have a __filamentous morphology__, consisting of thread-like **hyphae**.
+
+This contrasts with **yeasts** (unicellular, budding) and **dimorphic fungi** (able to switch between the two forms).
 
 ## explicit_objective
 State that filamentous growth is the defining morphology of molds.
@@ -12753,7 +12761,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The fungal cell wall of medically important fungi is composed of glucan and mannan
+Fungal cell wall: glucan and mannan
 
 ## id
 CON-INF-37160A7BC0B002
@@ -12762,7 +12770,9 @@ CON-INF-37160A7BC0B002
 fungi.cell-wall.glucan-mannan-composition
 
 ## definition
-A characterizing feature of medically important fungi is that their cell wall is composed of glucan and mannan (polysaccharide/glycoprotein components), distinguishing fungi from bacteria (peptidoglycan-based wall) and from organisms whose membrane sterol is cholesterol rather than ergosterol.
+A characterizing feature of medically important fungi is a cell wall composed of **glucan and mannan** (polysaccharide/glycoprotein components).
+
+This __distinguishes fungi from bacteria__ (peptidoglycan wall) and from organisms whose membrane sterol is cholesterol rather than **ergosterol**.
 
 ## explicit_objective
 State that the cell wall of medically important fungi is composed of glucan and mannan.
@@ -12921,7 +12931,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Spore-forming bacilli is not a fungal morphological feature
+Spore-forming bacilli is not a fungal feature
 
 ## id
 CON-INF-5FD079DAC1BCFB
@@ -12930,7 +12940,9 @@ CON-INF-5FD079DAC1BCFB
 fungi.morphology.excludes-bacterial-spore-forming
 
 ## definition
-True fungal morphological features include being dimorphic, having non-septate hyphae, and existing as unicellular yeast cells; "spore-forming bacilli" describes a bacterial (not fungal) morphology and is not a feature of fungi.
+True fungal morphological features include being **dimorphic**, having **non-septate hyphae**, and existing as **unicellular yeast** cells.
+
+"**Spore-forming bacilli**" describes a __bacterial, not fungal, morphology__ and is not a feature of fungi.
 
 ## explicit_objective
 Identify "spore-forming bacilli" as a bacterial morphological description that does not apply to fungi, distinguishing it from true fungal morphological features (dimorphism, non-septate hyphae, unicellular yeast forms).
@@ -13089,7 +13101,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Dimorphic fungi grow as a mold in nature/room temperature and as a yeast in vivo/body temperature
+Dimorphic fungi: mold at 25C, yeast at 37C
 
 ## id
 CON-INF-44400FF4328CA8
@@ -13098,7 +13110,9 @@ CON-INF-44400FF4328CA8
 fungi.dimorphism.mold-vs-yeast-form
 
 ## definition
-Dimorphic fungi are best described as forming hyphae (mold form) in nature at 25C (room temperature) and converting to a yeast form at 37C (human body temperature, i.e. in vivo), a temperature-dependent morphology switch responsible for their ability to cause both cutaneous and systemic infection.
+**Dimorphic fungi** form **hyphae (mold)** in nature at **25C** (room temperature) and convert to a **yeast** form at **37C** (body temperature, in vivo).
+
+This __temperature-dependent switch__ underlies their ability to cause both cutaneous and systemic infection.
 
 ## explicit_objective
 State that dimorphic fungi grow as a mold in nature (25C) and as a yeast in vivo (37C), and that this switch underlies their capacity for both cutaneous and systemic disease.
@@ -13257,7 +13271,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Fungal spores are an essential part of the fungal life cycle, unlike bacterial survival spores
+Fungal spores are reproductive, not survival, structures
 
 ## id
 CON-INF-2FEBA5328F9E83
@@ -13266,7 +13280,9 @@ CON-INF-2FEBA5328F9E83
 fungi.spores.reproductive-vs-survival-role
 
 ## definition
-Fungal spores differ from bacterial spores in that they are an essential, routine part of the fungal life cycle (used for reproduction and dispersal), rather than being produced only under adverse survival conditions, restricted to filamentous fungi alone, or universally present in every fungal species.
+**Fungal spores** are an __essential, routine part of the fungal life cycle__, used for reproduction and dispersal.
+
+This differs from **bacterial spores**, which are produced only under adverse survival conditions. Fungal spores are not restricted to filamentous fungi alone, nor universal to every species.
 
 ## explicit_objective
 State that fungal spores are an essential part of the normal fungal life cycle, distinguishing them from bacterial endospores, which form specifically as a survival response to adverse conditions.
@@ -13425,7 +13441,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Chitin is the main component of most fungal cell walls
+Chitin is the main fungal wall component
 
 ## id
 CON-INF-5711F66EFF586F
@@ -13434,7 +13450,9 @@ CON-INF-5711F66EFF586F
 fungi.cell-wall.chitin-main-component
 
 ## definition
-Most fungal cell walls are composed mostly of chitin, a structural polysaccharide, rather than peptidoglycan (a bacterial wall component), cellulose, or lipopolysaccharide -- chitin is the specific, medically testable answer for "main component" of the fungal wall.
+Most fungal cell walls are composed mostly of **chitin**, a structural polysaccharide.
+
+It is __not__ peptidoglycan (bacterial), cellulose, or lipopolysaccharide — chitin is the testable answer for the main component of the fungal wall.
 
 ## explicit_objective
 State that chitin is the main component of most fungal cell walls.
@@ -13593,7 +13611,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The macroscopic aggregation of fungal hyphae is known as the mycelium
+Aggregated hyphae form the mycelium
 
 ## id
 CON-INF-7213E96DAD38D1
@@ -13602,7 +13620,9 @@ CON-INF-7213E96DAD38D1
 fungi.morphology.hyphae-mycelium
 
 ## definition
-When individual fungal hyphae aggregate into a visible mass, the resulting macroscopic structure is called the mycelium, distinct from a yeast form, a hyphal body, or fungal spores.
+When individual fungal **hyphae** aggregate into a visible mass, the resulting macroscopic structure is called the **mycelium**.
+
+It is distinct from a yeast form, a hyphal body, or fungal spores.
 
 ## explicit_objective
 State that the macroscopic aggregation of fungal hyphae is called the mycelium.
@@ -13761,7 +13781,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-KOH preparation is used to visualize fungal elements in skin scrapings by dissolving keratin
+KOH prep visualizes fungi by dissolving keratin
 
 ## id
 CON-INF-09F0BCC572E758
@@ -13770,7 +13790,9 @@ CON-INF-09F0BCC572E758
 fungi.laboratory-diagnosis.koh-preparation
 
 ## definition
-The potassium hydroxide (KOH) preparation is the technique commonly used to visualize fungal elements in skin scrapings or nail clippings, working by dissolving host keratin so that fungal hyphae/spores become visible under the microscope -- distinct from India ink prep, Gram staining, or PAS staining.
+The **potassium hydroxide (KOH) preparation** is used to visualize fungal elements in skin scrapings or nail clippings.
+
+It works by __dissolving host keratin__ so that fungal hyphae and spores become visible under the microscope — distinct from India ink prep, Gram staining, or PAS staining.
 
 ## explicit_objective
 State that KOH preparation visualizes fungal elements in skin/nail specimens by dissolving keratin.
@@ -13929,7 +13951,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Polyenes act by binding ergosterol and forming pores in the fungal cell membrane
+Polyenes bind ergosterol and form membrane pores
 
 ## id
 CON-INF-15A9CB1D102D73
@@ -13938,7 +13960,9 @@ CON-INF-15A9CB1D102D73
 antifungal.polyenes.ergosterol-binding-mechanism
 
 ## definition
-Polyene antifungals (such as amphotericin B) act primarily by binding ergosterol in the fungal cell membrane and forming pores, disrupting membrane integrity -- a mechanism distinct from blocking microtubule assembly, inhibiting nucleic acid synthesis, or inhibiting beta-glucan synthesis.
+**Polyene** antifungals such as **amphotericin B** act by __binding ergosterol in the fungal cell membrane and forming pores__, disrupting membrane integrity.
+
+This is distinct from blocking microtubule assembly, inhibiting nucleic acid synthesis, or inhibiting beta-glucan synthesis.
 
 ## explicit_objective
 State that polyenes act by binding ergosterol and forming membrane pores.
@@ -14097,7 +14121,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Echinocandins act by inhibiting beta-glucan synthase
+Echinocandins inhibit beta-glucan synthase
 
 ## id
 CON-INF-8C46B66176DADA
@@ -14106,7 +14130,9 @@ CON-INF-8C46B66176DADA
 antifungal.echinocandins.beta-glucan-synthase-inhibition
 
 ## definition
-Echinocandins (e.g. caspofungin) act by inhibiting beta-glucan synthase, the enzyme that produces beta-glucan, a key structural component of the fungal cell wall -- a mechanism distinct from ergosterol synthesis inhibition (azoles), microtubule formation, or capsule synthesis.
+**Echinocandins** (e.g. **caspofungin**) act by __inhibiting beta-glucan synthase__, the enzyme that produces beta-glucan — a key structural component of the fungal cell wall.
+
+This differs from ergosterol synthesis inhibition (azoles), microtubule formation, or capsule synthesis.
 
 ## explicit_objective
 State that echinocandins act by inhibiting beta-glucan synthase, disrupting fungal cell wall synthesis.
@@ -14265,7 +14291,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The capsid (nucleocapsid) is the structural component found in all viruses
+The capsid is present in all viruses
 
 ## id
 CON-INF-5544B0DB9FAF82
@@ -14274,7 +14300,9 @@ CON-INF-5544B0DB9FAF82
 virus.structure.capsid-universal-component
 
 ## definition
-The capsid -- the protein coat surrounding the viral genome, together forming the nucleocapsid -- is the one structural component found in ALL viruses (enveloped or not), unlike envelope, spikes, or a fixed nucleic acid type (DNA or RNA, not both); its functions include protecting the viral genome, mediating attachment to host-cell receptors, and conferring antigenicity, but it does NOT confer sensitivity to 70% alcohol (a property instead associated with the lipid envelope).
+The **capsid** — the protein coat surrounding the viral genome, together forming the **nucleocapsid** — is the one structural component found in __all viruses__, enveloped or not, unlike an envelope, spikes, or a fixed nucleic acid type.
+
+Its functions are protecting the genome, mediating attachment to host-cell receptors, and conferring antigenicity. __It does not confer sensitivity to 70% alcohol__ — that property belongs to the lipid envelope.
 
 ## explicit_objective
 State that the capsid (nucleocapsid) is the structural component found in all viruses, and list its true functions (genome protection, attachment, antigenicity) versus one that is not its function (alcohol sensitivity).
@@ -14433,7 +14461,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-A viroid is a circular RNA molecule without an envelope or protein coat
+A viroid is a naked circular RNA
 
 ## id
 CON-INF-6EE705523FD61C
@@ -14442,7 +14470,9 @@ CON-INF-6EE705523FD61C
 virus.viroid.definition
 
 ## definition
-A viroid is defined as a small, circular RNA molecule lacking both an envelope and a protein coat (capsid) -- distinct from a satellite virus (which needs a helper virus to replicate) or a prion (an infectious protein without nucleic acid).
+A **viroid** is a small, **circular RNA** molecule __lacking both an envelope and a protein coat (capsid)__.
+
+It is distinct from a **satellite virus** (needs a helper virus to replicate) and a **prion** (an infectious protein without nucleic acid).
 
 ## explicit_objective
 State that a viroid is a circular RNA molecule without an envelope or coat.
@@ -14601,7 +14631,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The virion of an enveloped virus is composed of nucleocapsid plus envelope
+Enveloped virion = nucleocapsid plus envelope
 
 ## id
 CON-INF-9C0D5FBED79267
@@ -14610,7 +14640,9 @@ CON-INF-9C0D5FBED79267
 virus.structure.enveloped-virion-composition
 
 ## definition
-The complete virus particle (virion) of an enveloped virus is composed of the nucleocapsid (genome plus capsid) surrounded by an envelope -- not the nucleocapsid alone, nor "core plus envelope" or "coat plus envelope" as separately, imprecisely worded alternatives.
+The complete virus particle (**virion**) of an enveloped virus is the **nucleocapsid** (genome plus capsid) __surrounded by an envelope__.
+
+It is not the nucleocapsid alone, nor the imprecisely worded "core plus envelope" or "coat plus envelope."
 
 ## explicit_objective
 State that the virion of an enveloped virus is composed of nucleocapsid plus envelope.
@@ -14769,7 +14801,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The viral envelope is a lipoprotein derived from the host cell membrane during budding
+The viral envelope: host-derived lipid, viral protein
 
 ## id
 CON-INF-7952070C4BD8AF
@@ -14778,7 +14810,9 @@ CON-INF-7952070C4BD8AF
 virus.envelope.origin-and-composition
 
 ## definition
-The viral envelope is lipoprotein in nature; its lipid portion is acquired from the host cell's plasma or nuclear membrane during the budding process, while its protein portion is coded by the VIRAL genome (not the host genome) -- and it is sensitive to detergents, which dissolve its lipid component.
+The **viral envelope** is **lipoprotein** in nature. Its __lipid is acquired from the host cell's plasma or nuclear membrane during budding__, while its protein is coded by the **viral** genome (not the host genome).
+
+It is **sensitive to detergents**, which dissolve its lipid component.
 
 ## explicit_objective
 State that the viral envelope's lipid is host-derived (via budding) while its protein is viral-genome-coded, and that the envelope is detergent-sensitive.
@@ -14937,7 +14971,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Viruses have either DNA or RNA, are non-susceptible to antibiotics, and are obligate intracellular, but are NOT reliably destroyed by phenol
+General viral properties; phenol is not universally lethal
 
 ## id
 CON-INF-1165F8B9564697
@@ -14946,7 +14980,9 @@ CON-INF-1165F8B9564697
 virus.general-properties.destroyed-by-phenol-exception
 
 ## definition
-Viruses are characterized by having either DNA or RNA (never both as their genome), being non-susceptible to antibiotics (which target bacterial-specific structures/processes), and being obligate intracellular organisms; being "destroyed by phenol" is NOT a universal viral property, since non-enveloped/naked viruses are notably more resistant to phenol and similar disinfectants than enveloped viruses are.
+Viruses have **either DNA or RNA** (never both as their genome), are **non-susceptible to antibiotics**, and are **obligate intracellular** organisms.
+
+Being "destroyed by phenol" is __not__ a universal viral property — **non-enveloped (naked) viruses** are notably more resistant to phenol and similar disinfectants than enveloped viruses.
 
 ## explicit_objective
 List the general properties shared by all viruses (single nucleic acid type, antibiotic non-susceptibility, obligate intracellular existence), and recognize that reliable destruction by phenol is not one of them.
@@ -15105,7 +15141,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Latent viral infection is an occult form of the virus inside the infected cell
+Latent viral infection: an occult, hidden form
 
 ## id
 CON-INF-4EC402ABB55946
@@ -15114,7 +15150,9 @@ CON-INF-4EC402ABB55946
 virus.infection-patterns.latent
 
 ## definition
-A latent viral infection is one in which the virus persists in an occult (hidden, non-productive) form inside the infected cell, distinct from a chronic infection (ongoing, detectable low-level replication) or a slow infection (long incubation, progressive disease) -- and a virus can persist in the body after recovery from acute illness through any of these mechanisms (chronic, latent, or slow infection).
+A **latent** viral infection is one in which the virus persists in an __occult (hidden, non-productive) form__ inside the infected cell.
+
+This differs from a **chronic** infection (ongoing, detectable low-level replication) and a **slow** infection (long incubation, progressive disease). A virus can persist after recovery from acute illness through any of these mechanisms.
 
 ## explicit_objective
 Define latent viral infection as an occult, non-productive form of the virus persisting inside the infected cell, and recognize that viral persistence after recovery can occur via chronic, latent, or slow infection.
@@ -15273,7 +15311,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Systemic viral infection involves viremia, multiple organs and long-lasting immunity, unlike localized infection
+Systemic vs localized viral infection
 
 ## id
 CON-INF-46988C6D071F21
@@ -15282,7 +15320,9 @@ CON-INF-46988C6D071F21
 virus.infection-patterns.systemic-vs-localized
 
 ## definition
-A systemic viral infection is characterized by viremia, involvement of multiple organs, and (typically) long-lasting immunity after recovery -- NOT by a short incubation period, which is instead more typical of a localized infection; a localized infection, by contrast, multiplies at the entry site, has a short incubation period, produces no long-lasting immunity, and does NOT involve severe viremia.
+A **systemic** viral infection is characterized by **viremia**, involvement of **multiple organs**, and (typically) __long-lasting immunity__ — not by a short incubation period.
+
+A **localized** infection multiplies at the entry site, has a **short incubation period**, produces no long-lasting immunity, and does not involve severe viremia.
 
 ## explicit_objective
 Distinguish systemic viral infection (viremia, multi-organ spread, longer incubation, long-lasting immunity) from localized viral infection (multiplication at entry site, short incubation, no long-lasting immunity, no severe viremia).
@@ -15441,7 +15481,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Rabies virus produces Negri inclusion bodies
+Rabies virus produces Negri bodies
 
 ## id
 CON-INF-8989679385BD3C
@@ -15450,7 +15490,9 @@ CON-INF-8989679385BD3C
 rabies-virus.negri-bodies
 
 ## definition
-Among viral causes of inclusion bodies, rabies virus is the one specifically associated with "Negri" inclusion bodies, cytoplasmic inclusions found in infected neurons -- distinct from the inclusion bodies associated with measles, herpes, or pox viruses.
+Among viral causes of inclusion bodies, **rabies virus** is the one associated with **Negri inclusion bodies** — cytoplasmic inclusions found in __infected neurons__.
+
+These are distinct from the inclusion bodies of measles, herpes, or pox viruses.
 
 ## explicit_objective
 Identify rabies virus as the cause of Negri inclusion bodies.
@@ -15609,7 +15651,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Viral inclusion bodies are aggregates of virions or viral proteins and degenerative changes, and are not detectable only by EM
+What viral inclusion bodies are
 
 ## id
 CON-INF-514E4CAEB62A82
@@ -15618,7 +15660,9 @@ CON-INF-514E4CAEB62A82
 virus.inclusion-bodies.general-properties
 
 ## definition
-Viral inclusion bodies can be aggregates of virions, aggregates of viral proteins, or degenerative changes in a virally infected cell; they are NOT detectable only by electron microscopy (EM) -- many classic inclusion bodies (such as Negri bodies) are visible by routine light microscopy with appropriate staining.
+**Viral inclusion bodies** can be aggregates of virions, aggregates of viral proteins, or degenerative changes in an infected cell.
+
+They are __not detectable only by electron microscopy__ — many classic inclusion bodies, such as **Negri bodies**, are visible by routine light microscopy with appropriate staining.
 
 ## explicit_objective
 List the true properties of viral inclusion bodies (aggregates of virions/proteins, degenerative cell changes) and recognize that detection is not limited to electron microscopy.
@@ -15777,7 +15821,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Hemadsorption detects viral growth on tissue culture via virally infected cells adsorbing RBCs
+Hemadsorption detects viral growth in culture
 
 ## id
 CON-INF-36861264D145AB
@@ -15786,7 +15830,9 @@ CON-INF-36861264D145AB
 virus.culture-detection.hemadsorption
 
 ## definition
-Hemadsorption is a technique for detecting viral growth on tissue culture: red blood cells (RBCs) added to the culture adhere to virally infected cells that express viral hemagglutinin proteins on their surface, indicating viral replication has occurred -- one of several recognized ways viral growth on tissue culture can be identified, alongside cell lysis and the interference phenomenon.
+**Hemadsorption** detects viral growth on tissue culture: red blood cells added to the culture __adhere to infected cells that display viral hemagglutinin__ on their surface, indicating replication has occurred.
+
+It is one of several ways to identify viral growth, alongside cell lysis and the interference phenomenon.
 
 ## explicit_objective
 State that hemadsorption detects viral growth via infected cells adsorbing RBCs, and recognize that cell lysis, interference and hemadsorption together are all valid ways to recognize viral growth on tissue culture.
@@ -15945,7 +15991,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Viral entry and penetration through the host cell membrane occurs by endocytosis or fusion of the envelope with the membrane
+Viral entry: endocytosis or envelope fusion
 
 ## id
 CON-INF-F595E6CEC3AFD2
@@ -15954,7 +16000,9 @@ CON-INF-F595E6CEC3AFD2
 virus.entry.fusion-vs-endocytosis
 
 ## definition
-The entry and penetration step of viral infection -- following initial attachment -- occurs through endocytosis or fusion of the viral envelope with the host cell membrane, mechanisms distinct from simple receptor interaction (which mediates attachment, a prior step) or budding/exocytosis (which mediate viral RELEASE, not entry).
+The **entry and penetration** step — following attachment — occurs by **endocytosis** or **fusion of the viral envelope** with the host cell membrane.
+
+These differ from simple receptor interaction (which mediates **attachment**, a prior step) and from budding/exocytosis (which mediate viral **release**, not entry).
 
 ## explicit_objective
 State that viral entry/penetration occurs via endocytosis or envelope-membrane fusion, distinguishing this step from attachment (receptor interaction) and from release (budding/exocytosis).
