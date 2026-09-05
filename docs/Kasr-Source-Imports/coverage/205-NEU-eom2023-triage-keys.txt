@@ -1,0 +1,30 @@
+205 NEU EOM (2023 sitting) — triage keys
+Source: EOM - NEU-205 2024 Answered.pdf (manifest sourceId src_1d0cd2a7afeb66dcfd85,
+sha256 1d0cd2a7afeb66dcfd854153d41c4152d6b7571bfd42d1b90b1a0a1df1050498,
+corpusRelativePath "205 NEU/EOM/EOM - NEU-205 2024 Answered.pdf"). Printed date
+30/11/2023 on page 1 -> sitting year 2023 (printed date wins over the filename's
+"2024" uploader label). End of Module Exam, Section A = 115 MCQ, Section B = one
+extended cross-match. Total 84 marks, 14 pages.
+
+Method: pages 1-2 carry a partial text layer; pages 3-14 are image-only (words=0).
+Pages 1-3 were rendered at 170dpi and read by eye. The correct option is a
+hand-written LETTER in the left margin beside each question number, with a pencil
+arrow pointing to the chosen option (and frequent marginal working, e.g. "corda",
+"mandibular", nerve numbers). Keys below are that margin letter, cross-checked
+against standard anatomy. This first pass covers Q1-24 (pages 1-3).
+
+# Keys read this pass (Q1-24):
+Q1.A  Q2.B  Q3.C  Q4.C  Q5.D  Q6.D  Q7.A  Q8.C  Q9.B  Q10.C
+Q11.D Q12.A Q13.B Q14.B Q15.D Q16.D Q17.C Q18.A Q19.B Q20.D
+Q21.A Q22.C Q23.B Q24.A
+
+# AUTHORED this batch (20 genuinely-new items, cluster 2023-eom-head-and-neck-anatomy):
+#   Q1, Q2, Q3, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q23
+
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q4  (lateral rectus supplied by abducent) == EOM197 "Muscle supplied by the abducent nerve" (same fact, inverted).
+#   Q13 (skin over angle of mandible = great auricular) == EOM197 "Nerve supplying skin over the angle of the mandible".
+#   Q22 (internal laryngeal supplies sensation above the vocal folds) == EOM197 "Function of the internal laryngeal nerve".
+#   Q24 (posterior part of midbrain = tectum) == EOM197 CNS "Structure forming the posterior surface of the midbrain".
+
+# NOT YET TRIAGED: Q25-115 (pages 4-14, image-only) and Section B (extended cross-match).

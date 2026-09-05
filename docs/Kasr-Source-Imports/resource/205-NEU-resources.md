@@ -105,3 +105,58 @@ KAU_Y2
 ## description
 Scanned exam paper with hand-circled answer marking (fileName "EOY - {NEU - 205} (198) Solved.pdf", corpusRelativePath "205 NEU/EOY/EOY - {NEU - 205} (198) Solved.pdf"). No native text layer (image-only); OCR'd page by page via `pagetext.mjs ocr`. Sections A and B (pages 1-14) are short-essay and clinical-case questions with typed-in model answers, not MCQ, and are out of scope for this batch. Section C (pages 15-16) is 14 single-best-answer MCQs; the correct option on each is hand-circled in blue/cyan ink, confirmed by rendering both pages at 200dpi and reading every circle by eye (not inferred from OCR garbling, unlike this module's EOM 197 paper). The Section C matching item (extended matching to a labelled figure) is image-dependent and held. Second content batch for 205 NEU, following the EOM 2024 (197) head-and-neck-anatomy triage.
 
+
+---
+
+# Item
+
+## id
+src_1d0cd2a7afeb66dcfd85
+
+## title
+Kasr Al Ainy 205 NEU EOM (2023 sitting) exam paper (solved), Neuroscience module, 115-MCQ Section A
+
+## subject
+neuro
+
+## type
+Question bank
+
+## source
+Faculty of Medicine, Kasr Al Ainy, Cairo University
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+## topics
+Cranial nerves
+Neck triangles and fascia
+Meninges and dural venous sinuses
+Muscles of mastication
+Pharynx and palate
+Nose and paranasal sinuses
+Vasculature of the head and neck
+Tongue muscles
+
+## chapter
+Section A (115 single-best-answer MCQs, 0.7 mark each) and Section B (one extended cross-match) — End of Module Exam, module code NEU 205, printed date 30/11/2023, total 84 marks, 14 pages
+
+## module_ids
+205 NEU
+
+## module_subject
+205 NEU > Anatomy > Head and Neck
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## description
+Scanned/solved EOM exam paper (fileName "EOM - NEU-205 2024 Answered.pdf", manifest sourceId src_1d0cd2a7afeb66dcfd85, sha256 1d0cd2a7afeb66dcfd854153d41c4152d6b7571bfd42d1b90b1a0a1df1050498, corpusRelativePath "205 NEU/EOM/EOM - NEU-205 2024 Answered.pdf"). The printed exam date on page 1 is 30/11/2023, so the sitting year is recorded as 2023 (the "2024" in the filename is an uploader label, overridden by the printed date per manifest/README-y2). A DIFFERENT sitting from this module's EOM 197 paper (printed 28/11/2024); both are 115-MCQ End-Module papers and overlap heavily in topic, so items were de-duplicated against the ~117 already-authored 205 NEU stems and only genuinely-new questions authored. Page 1-2 carry a partial text layer; pages 3-14 are image-only and were rendered at 170dpi and read by eye. The correct option is a hand-written letter in the LEFT MARGIN beside each question number, with a pencil arrow to the chosen option; keys were recovered by reading that margin letter (confirmed against standard anatomy, not inferred from OCR). First triage pass over this paper: Q1-24 read (pages 1-3); this batch authors the first 20 genuinely-new items and skips the near-duplicates (see triage-keys). Section B (cross-match) and later pages are not yet triaged.
