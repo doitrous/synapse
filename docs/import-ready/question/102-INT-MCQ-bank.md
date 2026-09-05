@@ -11127,3 +11127,796 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-118
+## title
+Blood coagulation:
+## question
+Blood coagulation:
+## vignette
+This item asks the student to separate the two initiating cascades of coagulation: the extrinsic pathway is triggered by tissue thromboplastin released on tissue damage, while the intrinsic pathway starts on a negatively charged surface.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Through the extrinsic pathway is initiated by contact of blood with a negatively charged surface
+## explanation_a
+Backwards. Contact with a negatively charged surface initiates the *intrinsic* pathway (factor XII activation), not the extrinsic one.
+## answer_b
+Through the intrinsic pathway does not occur outside the body
+## explanation_b
+Backwards. The intrinsic pathway occurs both in vivo and in vitro — it is the extrinsic pathway that occurs only in vivo, since it needs actual tissue trauma.
+## answer_c
+Through the intrinsic pathway is initiated by tissue damage
+## explanation_c
+Backwards. Tissue damage initiates the *extrinsic* pathway (via thromboplastin release), not the intrinsic one, which is triggered by collagen or foreign-surface contact instead.
+## answer_d
+Through the extrinsic pathway is initiated by the release of tissue thromboplastin
+## explanation_d
+Correct. The extrinsic pathway is initiated when tissue trauma releases tissue thromboplastin, which activates factor VII.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that the extrinsic pathway is initiated by tissue thromboplastin release.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q33. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-119
+## title
+The final reaction in the formation of a blood clot:
+## question
+The final reaction in the formation of a blood clot:
+## vignette
+This item asks the student to name the final step of clot formation, in which thrombin converts soluble fibrinogen into the insoluble fibrin mesh.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The formation of prothrombin activator
+## explanation_a
+Forming the prothrombin activator (active factor X with Ca2+, phospholipid and factor Va) is an earlier common-pathway step, not the final one — it is what makes thrombin, not the last reaction itself.
+## answer_b
+Thrombin converts fibrinogen to fibrin
+## explanation_b
+Correct. Thrombin converting soluble fibrinogen to insoluble fibrin monomer threads is the final reaction that actually produces the clot — everything before it builds toward generating thrombin.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_c
+Prothrombin activator converts prothrombin to thrombin
+## explanation_c
+Converting prothrombin to thrombin is the step immediately before the final reaction, not the final reaction itself.
+## answer_d
+Hageman factor activates prothrombin
+## explanation_d
+Hageman factor is another name for factor XII, which activates the intrinsic pathway at its very start, not prothrombin at the cascade's end.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify thrombin converting fibrinogen to fibrin as the final step of clot formation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q35. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-120
+## title
+The correct sequence of activation of extrinsic pathway of blood coagulation is:
+## question
+The correct sequence of activation of extrinsic pathway of blood coagulation is:
+## vignette
+This item asks the student to order the extrinsic pathway, in which tissue thromboplastin (tissue factor) activates factor VII.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Tissue thromboplastin activates factor VIII
+## explanation_a
+Factor VIII belongs to the intrinsic pathway (activated when separated from von Willebrand factor by thrombin), not to the extrinsic sequence tissue thromboplastin starts.
+## answer_b
+Calcium ions activates factor VII
+## explanation_b
+Calcium is a cofactor throughout the cascade, but it does not itself activate factor VII — tissue thromboplastin does.
+## answer_c
+Tissue thromboplastin activates factor VII
+## explanation_c
+Correct. Tissue thromboplastin, released by damaged tissue, activates factor VII — the first step of the extrinsic pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_d
+Tissue thromboplastin activates factor IX
+## explanation_d
+Factor IX is activated in the intrinsic pathway (by XIa) or, downstream, by the VIIa–thromboplastin complex — but factor VII is the extrinsic pathway's own first target, not IX.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that tissue thromboplastin activates factor VII in the extrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p12 q36. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-121
+## title
+Contact of the blood with subendothelial collagen produces:
+## question
+Contact of the blood with subendothelial collagen produces:
+## vignette
+This item asks the student to identify the first step of the intrinsic pathway, in which contact with exposed subendothelial collagen activates factor XII.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Inhibition of platelets
+## explanation_a
+Backwards. Contact with subendothelial collagen *activates* platelets (the adhesion step of primary haemostasis), it does not inhibit them.
+## answer_b
+Activation of factor VII
+## explanation_b
+Factor VII is activated by tissue thromboplastin in the *extrinsic* pathway, not by collagen contact, which triggers the intrinsic pathway instead.
+## answer_c
+Activation of factor XII
+## explanation_c
+Correct. Contact with exposed subendothelial collagen activates factor XII to XIIa — the first step of the intrinsic pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_d
+Activation of factor IX
+## explanation_d
+Factor IX is activated further downstream in the intrinsic cascade (by XIa, after XII and XI), not directly by collagen contact itself.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that contact with subendothelial collagen activates factor XII, starting the intrinsic pathway.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p13 q41. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-122
+## title
+Tissue thromboplastin:
+## question
+Tissue thromboplastin:
+## vignette
+This item asks the student to recognise tissue thromboplastin (tissue factor) as the extrinsic-pathway partner that, with factor VIIa, activates factor X.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is also known as factor V
+## explanation_a
+Tissue thromboplastin is not another name for factor V — it is the tissue-derived phospholipid that starts the extrinsic pathway by activating factor VII, a separate identity entirely.
+## answer_b
+Is the cell surface receptor for factor VIIa
+## explanation_b
+Tissue thromboplastin is the trigger that activates factor VII, not a receptor that factor VIIa binds to on a cell surface.
+## answer_c
+Complexes with factor VIIa to catalyze the activation of factor X
+## explanation_c
+Correct. Tissue thromboplastin, complexed with factor VIIa, activates factor X — the extrinsic pathway's route into the common pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_d
+Is an important component of the intrinsic coagulation pathway
+## explanation_d
+Backwards. Tissue thromboplastin is the defining trigger of the *extrinsic* pathway, not a component of the intrinsic one.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that tissue thromboplastin complexes with factor VIIa to activate factor X.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q44. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-123
+## title
+Thrombomodulin:
+## question
+Thrombomodulin:
+## vignette
+This item asks the student to recall thrombomodulin as the endothelial protein that binds thrombin and switches it to activating protein C, one of the natural anticoagulant limiting reactions.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is secreted by RBCs
+## explanation_a
+Thrombomodulin is secreted by endothelial cells, not by red blood cells — RBCs play no part in this limiting mechanism.
+## answer_b
+Is activated by heparin
+## explanation_b
+Thrombomodulin is not activated by heparin — heparin's own anticoagulant action instead works through antithrombin III, a separate limiting mechanism entirely.
+## answer_c
+Activates platelets
+## explanation_c
+Thrombomodulin's role is to bind thrombin and, through the resulting complex, activate protein C — it does not itself activate platelets, which is instead what thrombin and ADP do earlier in primary haemostasis.
+## answer_d
+Binds with thrombin forming a complex that activates protein S
+## explanation_d
+Correct. Thrombomodulin binds thrombin, and the thrombomodulin–thrombin complex activates protein C, which (with its cofactor protein S) inactivates factors V and VIII and frees fibrinolysis to proceed — one of the named physiological limits on coagulation. The next sentence names protein C, with protein S as its cofactor, as what that complex activates.
+
+Why this is right:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-87280E690F877F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that thrombomodulin binds thrombin to activate a pathway leading to reduced coagulation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q47. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-124
+## title
+Factor VII:
+## question
+Factor VII:
+## vignette
+This item asks the student to place factor VII as the initiator of the extrinsic pathway together with tissue thromboplastin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is a cofactor in the intrinsic pathway of coagulation
+## explanation_a
+Factor VII belongs to the prothrombin group of the extrinsic/common pathway, not a cofactor in the intrinsic pathway — the intrinsic pathway's own contact-group members are XI and XII.
+## answer_b
+Initiates the process of coagulation with tissue thromboplastin
+## explanation_b
+Correct. Factor VII, activated by tissue thromboplastin released from damaged tissue, initiates the extrinsic coagulation pathway.
+
+Why this is right:
+- Coagulation runs as two initiating cascades that converge.
+## answer_c
+Activates the conversion of fibrinogen into fibrin
+## explanation_c
+Converting fibrinogen to fibrin is thrombin's job at the end of the common pathway, not factor VII's at the cascade's start.
+## answer_d
+Is produced by platelets
+## explanation_d
+Coagulation factors are produced by the liver (mainly beta globulins), not by platelets, though platelets do contribute phospholipid surface and some factors from their alpha granules — factor VII specifically is hepatic, not platelet-derived.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-8EC1CD48F9DB41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that factor VII initiates coagulation together with tissue thromboplastin.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p18 q67. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-125
+## title
+In thrombocytopenia there is:
+## question
+In thrombocytopenia there is:
+## vignette
+This item asks the student to link thrombocytopenia (a low platelet count) to a prolonged bleeding time, the platelet-function measure.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Blood coagulation is increased
+## explanation_a
+Backwards. A low platelet count *impairs* the platelet-dependent phase of haemostasis; blood coagulation (the clotting-factor cascade) is not increased by thrombocytopenia.
+## answer_b
+Excessive hemolysis of RBCs
+## explanation_b
+Excessive RBC haemolysis describes a haemolytic anaemia, an unrelated condition to a low platelet count.
+## answer_c
+Prolonged bleeding time
+## explanation_c
+Correct. Thrombocytopenia — platelet count below 50,000/mm3, or defective platelet function — is characterised by prolonged bleeding time and petechiae.
+
+Why this is right:
+- Thrombocytopenic purpura is due to a decrease of platelet number below 50,000/mm3, or to defective platelet function (thrombasthenia).
+- It is characterised by petechiae (the presence of many subcutaneous haemorrhages) and prolongation of bleeding time — the time needed for bleeding to stop without clotting of the blood, normally 1-3 minutes, depending on platelet count and function.
+## answer_d
+Increased number of platelets
+## explanation_d
+"Thrombocytopenia" means a *decreased*, not increased, platelet number — the name itself states the opposite of this option.
+## topic
+Blood
+## subtopic
+Platelets and haemostasis
+## main_concept
+CON-HEM-E55B5F7BA5CD04
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that thrombocytopenia prolongs bleeding time.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p18 q70. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
