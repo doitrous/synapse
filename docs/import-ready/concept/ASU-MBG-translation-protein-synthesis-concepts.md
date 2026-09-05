@@ -4,7 +4,7 @@
 CON-FND-6D0BFB1CD8B9A3
 
 ## label
-Prokaryotic translation initiation binds the 30S subunit to the Shine-Dalgarno sequence by base pairing, and starts with formylmethionyl-tRNA entering the P site directly
+Prokaryotic translation initiation: 30S, Shine-Dalgarno, fMet
 
 ## canonical_key
 translation.initiation.prokaryotic-30s-shine-dalgarno-fmet
@@ -22,7 +22,9 @@ Prokaryotic translation initiation
 تسلسل شاين-دالجارنو
 
 ## definition
-In bacteria, translation initiation begins when the 30S ribosomal subunit binds directly to the mRNA — specifically to the Shine-Dalgarno sequence, a purine-rich stretch a few bases upstream of the AUG start codon that base-pairs (hydrogen bonds) with a complementary sequence near the 3' end of 16S rRNA. This positions the small subunit at the correct start codon without needing a 5' cap the way eukaryotes do. The initiating aminoacyl-tRNA in bacteria carries N-formylmethionine (fMet-tRNAfMet) rather than plain methionine, and — unlike every elongator aminoacyl-tRNA, which must first enter the A site — this initiator tRNA is loaded directly into the P site, together with the small subunit, before the 50S subunit joins to complete the 70S initiation complex.
+In bacteria, initiation begins when the **30S ribosomal subunit** binds directly to the mRNA at the **Shine-Dalgarno sequence** — a purine-rich stretch a few bases upstream of the AUG start codon that base-pairs with a complementary sequence near the 3' end of **16S rRNA**. __This positions the small subunit at the correct start codon without needing a 5' cap the way eukaryotes do.__
+
+The initiating aminoacyl-tRNA carries **N-formylmethionine (fMet-tRNAfMet)**, not plain methionine. Unlike every elongator tRNA, which must first enter the A site, __this initiator tRNA is loaded directly into the P site__, together with the small subunit, before the 50S subunit joins to complete the **70S initiation complex**.
 
 ## explicit_objective
 State that prokaryotic initiation begins with 30S-subunit binding to the Shine-Dalgarno sequence by base pairing (hydrogen bonds) with 16S rRNA, and that the initiator fMet-tRNA enters the P site directly rather than via the A site.
@@ -169,7 +171,7 @@ scopeRuling: Authored this pass — 5 of the Translation chapter's 65 banked que
 CON-FND-8C0EB47D70D27A
 
 ## label
-The ribosome's third site, the E site, receives the deacylated tRNA vacated from the P site during translocation, and in a polysome the ribosome nearest the mRNA's 3' end has synthesized the longest peptide
+The E site and polysome directionality
 
 ## canonical_key
 translation.elongation.e-site-and-polysome-directionality
@@ -186,7 +188,11 @@ Polysome directionality
 موقع الخروج
 
 ## definition
-The elongating ribosome has three tRNA-binding sites, not two: the A (aminoacyl) site receives each new charged tRNA, the P (peptidyl) site holds the tRNA carrying the growing chain, and the E (exit) site is where the spent, deacylated tRNA sits immediately before it leaves the ribosome. During each translocation step the ribosome moves exactly one codon (three nucleotides) toward the mRNA's 3' end: the tRNA that had been in the A site (now carrying the peptide) moves into the P site, and, simultaneously, the tRNA that had been in the P site (now empty of its amino acid) moves into the E site, from which it then dissociates. Because translation reads the mRNA 5' to 3' and each ribosome that initiated earliest has moved furthest along the message, in a polysome (several ribosomes translating one mRNA at once) the ribosome positioned nearest the mRNA's 3' end is always the one that started first and therefore carries the longest, most nearly complete peptide chain; the ribosome nearest the 5' end has only just begun.
+The elongating ribosome has **three** tRNA-binding sites, not two: the **A (aminoacyl) site** receives each new charged tRNA, the **P (peptidyl) site** holds the tRNA carrying the growing chain, and the **E (exit) site** is where the spent, deacylated tRNA sits just before it leaves.
+
+During each **translocation** step the ribosome moves exactly one codon (three nucleotides) toward the mRNA's 3' end: the A-site tRNA (now carrying the peptide) moves to the P site, and simultaneously the P-site tRNA (now deacylated) moves to the E site, from which it dissociates.
+
+Translation reads the mRNA 5' to 3', so in a **polysome** (several ribosomes on one mRNA), __the ribosome nearest the 3' end started first and carries the longest, most nearly complete peptide__; the one nearest the 5' end has only just begun.
 
 ## explicit_objective
 Name the E site as the third ribosomal tRNA-binding site and state what moves into it during translocation, and explain why the ribosome nearest a polysome's 3' end carries the longest peptide chain.
@@ -331,7 +337,7 @@ scopeRuling: Authored this pass — 2 of the Translation chapter's 65 banked que
 CON-FND-E5354D98C97340
 
 ## label
-Peptidyl transferase is a ribozyme — its catalytic activity is carried by ribosomal RNA (28S rRNA in the eukaryotic 60S subunit, 23S rRNA in the prokaryotic 50S subunit), not by a ribosomal protein
+Peptidyl transferase is a ribozyme
 
 ## canonical_key
 translation.peptidyl-transferase.ribozyme-rrna-identity
@@ -348,7 +354,11 @@ Ribozyme
 الإنزيم الريبوزي
 
 ## definition
-Peptidyl transferase, the enzymatic activity that forms every peptide bond during translation (and that later hydrolyses the finished polypeptide off its tRNA at termination), is not a protein enzyme. It is a ribozyme — its catalytic activity resides in ribosomal RNA itself, specifically the large-subunit rRNA: 28S rRNA in the eukaryotic 60S subunit, and the corresponding 23S rRNA in the prokaryotic 50S subunit. This makes peptidyl transferase, alongside ribonuclease P and self-splicing introns, one of the classic examples proving that RNA, not only protein, can catalyse biological reactions.
+**Peptidyl transferase** forms every peptide bond during translation (and later hydrolyses the finished polypeptide off its tRNA at termination). __It is not a protein enzyme — it is a ribozyme.__
+
+Its catalytic activity resides in **ribosomal RNA** itself, specifically the large-subunit rRNA: **28S rRNA** in the eukaryotic 60S subunit, and the corresponding **23S rRNA** in the prokaryotic 50S subunit.
+
+Alongside ribonuclease P and self-splicing introns, it is one of the classic examples proving that **RNA, not only protein, can catalyse** biological reactions.
 
 ## explicit_objective
 State that peptidyl transferase activity is RNA-based (a ribozyme), not protein-based, and name 28S rRNA (eukaryotic 60S) and 23S rRNA (prokaryotic 50S) as its molecular identity.
@@ -496,7 +506,7 @@ scopeRuling: Authored this pass — 5 of the Translation chapter's 65 banked que
 CON-FND-02E8733D78D5DC
 
 ## label
-Aminoacyl-tRNA synthetases, not the ribosome itself, are the primary guarantee of translational fidelity — each of the 20 is specific for one amino acid and its cognate tRNA, a specificity sometimes called the "second genetic code," while the small ribosomal subunit's decoding center adds a further layer of codon-anticodon proofreading
+Translational fidelity: synthetases and the decoding center
 
 ## canonical_key
 translation.fidelity.synthetase-specificity-and-decoding-center
@@ -514,7 +524,11 @@ Decoding center
 الشفرة الوراثية الثانية
 
 ## definition
-Faithful translation of the genetic code depends on more than the ribosome alone. The primary safeguard is each aminoacyl-tRNA synthetase's own specificity: there are 20 different synthetases, one per amino acid, and each recognises both its one amino acid and its one matching tRNA with very high accuracy before charging them together — a specificity so central to translational accuracy that it is sometimes called the "second genetic code," because an error made here (attaching the wrong amino acid to a tRNA) would be invisible to every downstream step, which reads only the anticodon, not the amino acid actually carried. A second, smaller safeguard operates at the ribosome itself: the small (40S/30S) ribosomal subunit's decoding center monitors how well each incoming aminoacyl-tRNA's anticodon pairs with the mRNA codon in the A site, rejecting poor matches before a peptide bond can form.
+Faithful translation depends on more than the ribosome alone.
+
+The **primary safeguard** is each **aminoacyl-tRNA synthetase's** specificity: there are 20, one per amino acid, and each recognises both its one amino acid and its one matching tRNA with very high accuracy before charging them together. This is sometimes called the **"second genetic code,"** because __an error made here would be invisible to every downstream step, which reads only the anticodon__, not the amino acid actually carried.
+
+A **second, smaller safeguard** operates at the ribosome: the small (40S/30S) subunit's **decoding center** monitors how well each incoming anticodon pairs with the mRNA codon in the A site, rejecting poor matches before a peptide bond can form.
 
 ## explicit_objective
 Identify aminoacyl-tRNA synthetase specificity as the main determinant of translational fidelity (the "second genetic code"), and the small ribosomal subunit as the site of additional codon-anticodon proofreading.
@@ -659,7 +673,7 @@ scopeRuling: Authored this pass — 4 of the Translation chapter's 65 banked que
 CON-FND-E8FDAF79A38797
 
 ## label
-Elongation spends four high-energy phosphate bonds per amino acid added — two to activate the amino acid onto its tRNA and one GTP each for aminoacyl-tRNA delivery to the A site and for translocation — while peptide bond formation itself, catalysed by peptidyl transferase, consumes no additional energy
+Translation energetics: four bonds per residue
 
 ## canonical_key
 translation.energetics.four-bonds-per-residue
@@ -675,7 +689,15 @@ ATP and GTP cost of translation
 ## arabic_aliases
 
 ## definition
-Building a polypeptide costs energy at defined steps, not continuously. Activating a single amino acid onto its tRNA consumes two high-energy phosphate bonds, because aminoacyl-tRNA synthetase hydrolyses ATP all the way to AMP and pyrophosphate (PPi), and the subsequent hydrolysis of that pyrophosphate makes the reaction irreversible — chemically equivalent to spending two ATP-equivalent bonds, not one. Two further GTP molecules are spent for every amino acid added during elongation: one GTP is hydrolysed when the elongation factor delivers the charged aminoacyl-tRNA to the ribosome's A site, and a second GTP is hydrolysed to drive translocation, the step that shifts the ribosome one codon along the mRNA. That totals four high-energy phosphate bonds spent per amino acid incorporated during elongation. Peptide bond formation itself, catalysed by peptidyl transferase, needs no additional energy input at that step — the energy for that bond was already stored earlier, in the high-energy ester bond linking the amino acid to its tRNA. Because the initiating amino acid is activated but not itself added by an elongation cycle, this department's own worked total for a short polypeptide sometimes follows a simplified convention of three bonds per residue (two for activation plus one GTP for ribosome entry, without separately re-counting translocation's GTP) rather than the fuller four-bonds-per-residue tally — for example, arriving at 30 high-energy bonds for a 10-amino-acid chain under the simplified count, versus a higher total under the fuller one. Both conventions appear in different teaching sources; a student should recognise which the question intends from the numbers offered.
+Building a polypeptide costs energy at defined steps, not continuously.
+
+**Activation** of one amino acid onto its tRNA costs **two high-energy phosphate bonds**: aminoacyl-tRNA synthetase hydrolyses ATP all the way to AMP + pyrophosphate (PPi), and the subsequent hydrolysis of that PPi makes the reaction irreversible — two ATP-equivalent bonds, not one.
+
+**Two GTP** are then spent per amino acid during elongation: one when the elongation factor delivers the charged tRNA to the **A site**, and a second to drive **translocation**. __That totals four high-energy phosphate bonds per amino acid incorporated.__
+
+**Peptide bond formation** by peptidyl transferase needs no extra energy — that bond's energy was already stored in the high-energy ester bond linking the amino acid to its tRNA.
+
+One caveat on counting: because the initiating amino acid is activated but not added by an elongation cycle, some teaching sources use a simplified **three-bonds-per-residue** convention (two for activation plus one GTP for ribosome entry, not re-counting translocation) — e.g. 30 high-energy bonds for a 10-amino-acid chain, versus a higher total under the fuller tally. __Recognise which convention a question intends from the numbers offered.__
 
 ## explicit_objective
 State that amino acid activation spends two high-energy phosphate bonds, that elongation spends two further GTP per residue (A-site delivery and translocation) for a total of four bonds per amino acid added, and that peptide bond formation itself needs no separate energy input.
@@ -821,7 +843,7 @@ scopeRuling: Authored this pass — 4 of the Translation chapter's 65 banked que
 CON-FND-175BC0480CCD48
 
 ## label
-Prokaryotic genes are typically polycistronic, and their mRNA carries more than one protein-coding region translated together, while eukaryotic genes are monocistronic, contain introns, and are regulated in part by enhancers
+Polycistronic vs monocistronic mRNA
 
 ## canonical_key
 gene-expression.polycistronic-versus-monocistronic-mrna
@@ -838,7 +860,11 @@ Operon
 متعدد السيسترونات
 
 ## definition
-A prokaryotic operon is typically transcribed as one polycistronic mRNA molecule, meaning that single transcript carries more than one protein-coding region and can direct ribosomes to synthesise several different, functionally related proteins from one piece of mRNA. Eukaryotic genes work differently: eukaryotic mRNA is monocistronic, carrying only one protein-coding region per transcript, so eukaryotic translation typically produces only one polypeptide per mRNA molecule. Consistent with this more elaborate, individually regulated gene structure, eukaryotic genes also contain introns (non-coding sequences removed by splicing before translation) and are commonly regulated by enhancers, DNA elements that can act at a distance to influence transcription — features that prokaryotic, polycistronic operons generally lack.
+A prokaryotic **operon** is typically transcribed as one **polycistronic** mRNA: __a single transcript carrying more than one protein-coding region__, directing ribosomes to make several different, functionally related proteins from one piece of mRNA.
+
+Eukaryotic mRNA is **monocistronic** — one protein-coding region per transcript — so eukaryotic translation typically produces __only one polypeptide per mRNA.__
+
+Consistent with this more elaborate, individually regulated structure, eukaryotic genes also contain **introns** (non-coding sequences removed by splicing) and are commonly regulated by **enhancers** (DNA elements acting at a distance) — features prokaryotic operons generally lack.
 
 ## explicit_objective
 Contrast prokaryotic polycistronic mRNA (multiple coding regions per transcript) with eukaryotic monocistronic mRNA (one coding region per transcript, introns present, enhancer-regulated).
