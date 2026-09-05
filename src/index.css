@@ -234,19 +234,8 @@
 /* Warm — the same instrument on paper-tinted stock rather than cool porcelain.
    A reading mode: only the neutral ramp warms, and the brand holds its value.
    Keeping the crimson fixed across all three themes is what makes the button
-   in light, warm and dark read as one brand.
-
-   Also matched as a bare `[data-theme='warm']` so the palette can be SCOPED to
-   a subtree, not just the document root: the pre-login auth flow wraps itself
-   in one of these to stay warm even when the app theme is Dark/OLED (a white
-   card full of theme-token text turns illegible otherwise). Because the block
-   can now sit under a dark root — where the "fixed" brand tokens it used to
-   inherit from :root are the dark ones — it re-pins the couple it actually
-   needs (primary-strong for link text) rather than inheriting a dark value. */
-:root[data-theme='warm'],
-[data-theme='warm'] {
-  --color-primary-strong: #a82449;
-
+   in light, warm and dark read as one brand. */
+:root[data-theme='warm'] {
   --color-paper: #f7f2ea;
   --color-surface: #fffdf9;
   --color-surface-2: #f1ebe1;
@@ -581,6 +570,65 @@
   /* Same lift as Dark — the mark's crimson and dot both need it on true black. */
   --mark-outer: #d13a63;
   --mark-dot: #6fa5ff;
+}
+
+/* =========================================================================
+   Auth surface — the pre-login brand moment (sign in / sign up / verify).
+   It is deliberately its OWN small palette rather than the app tokens: a warm
+   cream panel with a white form card in Light/Warm, and a warm-charcoal panel
+   with a dark card in Dark/OLED, so the screen has a real dark version instead
+   of a light card that goes illegible. Everything on the surface reads from
+   these `--auth-*` vars; the form card's own text still uses the app tokens
+   (text-ink, …), which are already correct for whichever theme is active. */
+.auth-surface {
+  --auth-panel: #f4ecdd;
+  --auth-dot: #e4d5bc;
+  --auth-card: #ffffff;
+  --auth-card-border: #eadfce;
+  --auth-field-bg: #fffdfa;
+  --auth-field-border: #dccfba;
+  --auth-ink: #2b211c;
+  --auth-ink-2: #6e6157;
+  --auth-accent: #a81d40;                    /* crimson — Arabic line, chips */
+  --auth-accent-soft: rgba(168, 29, 64, 0.1);
+  --auth-chip: rgba(255, 255, 255, 0.6);
+  --auth-endorse: #1b2b55;                   /* "BY CONNECT" — the Midnight Seed navy */
+  --auth-mark-outer: #a81d40;
+  --auth-mark-inner: #e0859b;
+  --auth-mark-dot: #1b2b55;
+  --auth-taupe-dotted: #cabca3;
+  --auth-taupe-ring: #cdbfa6;
+  --auth-shadow: rgba(168, 29, 64, 0.28);
+}
+
+:root[data-theme='dark'] .auth-surface,
+:root[data-theme='oled'] .auth-surface {
+  --auth-panel: #16110d;
+  --auth-dot: #271d15;
+  --auth-card: #181310;
+  --auth-card-border: #2c2420;
+  --auth-field-bg: #211b16;
+  --auth-field-border: #3a2f28;
+  --auth-ink: #f4ecde;
+  --auth-ink-2: #b8a996;
+  --auth-accent: #eda0b4;                    /* lifted so it carries on the dark panel */
+  --auth-accent-soft: rgba(237, 160, 180, 0.14);
+  --auth-chip: rgba(255, 255, 255, 0.06);
+  --auth-endorse: #aeb9e6;                   /* periwinkle — navy is invisible on dark */
+  --auth-mark-outer: #e0859b;
+  --auth-mark-inner: #c46f88;
+  --auth-mark-dot: #aeb9e6;
+  --auth-taupe-dotted: #463b30;
+  --auth-taupe-ring: #524537;
+  --auth-shadow: rgba(0, 0, 0, 0.55);
+}
+
+/* OLED wants true black behind the panel, not warm charcoal. */
+:root[data-theme='oled'] .auth-surface {
+  --auth-panel: #000000;
+  --auth-dot: #1b140e;
+  --auth-card: #0b0908;
+  --auth-card-border: #241d18;
 }
 
 @layer base {

@@ -114,10 +114,10 @@ export function Signup() {
 
   const aside = (
     <div>
-      <h2 className="text-[25px] text-[#2b211c]">What belongs to you</h2>
-      <p className="mt-2 text-[13px] leading-relaxed text-[#6e6157]">Your private learning record is stored under your verified account ID—not under an email typed into a form.</p>
-      <ul className="mt-6 divide-y divide-[#e4d5bc]">
-        {ownership.map((item) => <li key={item.title} className="flex gap-3 py-4 first:pt-0"><span className="grid size-9 shrink-0 place-items-center rounded-lg bg-white/60 text-[#a81d40]"><Icon icon={item.icon} size={17} /></span><span><span className="block text-[13.5px] font-semibold text-[#2b211c]">{item.title}</span><span className="mt-0.5 block text-[12px] leading-relaxed text-[#6e6157]">{item.detail}</span><span className="mt-1.5 inline-flex items-center gap-1 rounded-full bg-[#a81d40]/10 px-2 py-0.5 text-[11px] font-semibold text-[#a81d40]"><Icon icon={Check} size={11} /> Private to your account</span></span></li>)}
+      <h2 className="text-[25px] text-(--auth-ink)">What belongs to you</h2>
+      <p className="mt-2 text-[13px] leading-relaxed text-(--auth-ink-2)">Your private learning record is stored under your verified account ID—not under an email typed into a form.</p>
+      <ul className="mt-6 divide-y divide-(--auth-card-border)">
+        {ownership.map((item) => <li key={item.title} className="flex gap-3 py-4 first:pt-0"><span className="grid size-9 shrink-0 place-items-center rounded-lg bg-(--auth-chip) text-(--auth-accent)"><Icon icon={item.icon} size={17} /></span><span><span className="block text-[13.5px] font-semibold text-(--auth-ink)">{item.title}</span><span className="mt-0.5 block text-[12px] leading-relaxed text-(--auth-ink-2)">{item.detail}</span><span className="mt-1.5 inline-flex items-center gap-1 rounded-full bg-(--auth-accent-soft) px-2 py-0.5 text-[11px] font-semibold text-(--auth-accent)"><Icon icon={Check} size={11} /> Private to your account</span></span></li>)}
       </ul>
     </div>
   )
@@ -133,20 +133,20 @@ export function Signup() {
           OR
           <span className="h-px flex-1 bg-line" />
         </div>
-        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" name="name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} className="border-[#dccfba]! bg-[#fffdfa]!" /></Field>
-        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" className="border-[#dccfba]! bg-[#fffdfa]!" /></Field>
+        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" name="name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} className="border-(--auth-field-border)! bg-(--auth-field-bg)!" /></Field>
+        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" className="border-(--auth-field-border)! bg-(--auth-field-bg)!" /></Field>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Phone number" htmlFor="signup-phone" hint="One account per number">
-            <TextInput id="signup-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" className="border-[#dccfba]! bg-[#fffdfa]!" />
+            <TextInput id="signup-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" className="border-(--auth-field-border)! bg-(--auth-field-bg)!" />
           </Field>
           <Field label="Nationality" htmlFor="signup-nationality" hint="Optional">
-            <TextInput id="signup-nationality" name="nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian…" className="border-[#dccfba]! bg-[#fffdfa]!" />
+            <TextInput id="signup-nationality" name="nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian…" className="border-(--auth-field-border)! bg-(--auth-field-bg)!" />
           </Field>
         </div>
         <Field label="Password" htmlFor="signup-password" hint={`${MIN_PASSWORD} characters or more`}>
-          <div className="relative"><TextInput id="signup-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12 border-[#dccfba]! bg-[#fffdfa]!" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
+          <div className="relative"><TextInput id="signup-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12 border-(--auth-field-border)! bg-(--auth-field-bg)!" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
         </Field>
-        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" name="password-confirmation" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} className="border-[#dccfba]! bg-[#fffdfa]!" /></Field>
+        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" name="password-confirmation" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} className="border-(--auth-field-border)! bg-(--auth-field-bg)!" /></Field>
         <div className="rounded-lg border border-line bg-surface-2/55 p-3 text-[11.5px]">
           <p aria-label={`${MIN_PASSWORD} or more characters: ${longEnough ? 'met' : 'not yet met'}`} className={longEnough ? 'flex items-center gap-1.5 font-semibold text-success' : 'flex items-center gap-1.5 font-semibold text-ink-2'}>
             <Icon icon={longEnough ? Check : Circle} size={12} />{MIN_PASSWORD} or more characters

@@ -118,9 +118,9 @@ export function Login() {
 
   const aside = (
     <div>
-      <h2 className="text-[25px] text-[#2b211c]">Learn medicine the way you&rsquo;ll practise it.</h2>
-      <p className="mt-3 text-[14px] leading-relaxed text-[#6e6157]">Your question bank, spaced-repetition cards, and progress — one account, on every device.</p>
-      <p dir="rtl" lang="ar" className="mt-5 text-[14px] font-medium text-[#a81d40]">هدفك الأول للتفوّق في الطب.</p>
+      <h2 className="text-[25px] text-(--auth-ink)">Learn medicine the way you&rsquo;ll practise it.</h2>
+      <p className="mt-3 text-[14px] leading-relaxed text-(--auth-ink-2)">Your question bank, spaced-repetition cards, and progress — one account, on every device.</p>
+      <p dir="rtl" lang="ar" className="mt-5 text-[14px] font-medium text-(--auth-accent)">هدفك الأول للتفوّق في الطب.</p>
     </div>
   )
 
@@ -158,11 +158,11 @@ export function Login() {
           <span className="h-px flex-1 bg-line" />
         </div>
         <Field label="Email address" htmlFor="login-email">
-          <TextInput id="login-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" className="border-[#dccfba]! bg-[#fffdfa]!" />
+          <TextInput id="login-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" className="border-(--auth-field-border)! bg-(--auth-field-bg)!" />
         </Field>
         <Field label="Password" htmlFor="login-password">
           <div className="relative">
-            <TextInput id="login-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12 border-[#dccfba]! bg-[#fffdfa]!" />
+            <TextInput id="login-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12 border-(--auth-field-border)! bg-(--auth-field-bg)!" />
             <button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
               <Icon icon={showPassword ? EyeOff : Eye} size={16} />
             </button>
