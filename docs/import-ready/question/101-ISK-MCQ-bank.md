@@ -135703,3 +135703,1925 @@ Department book MCQ, transcribed rather than derived.
 Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The books key this to B, that somites start forming during the second week. The first pair of occipital somites forms on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1343
+## title
+The radial collateral ligament, choose the correct answer:
+## question
+The radial collateral ligament, choose the correct answer:
+## vignette
+This item asks the student to give the distal attachment of the radial collateral ligament and say which stress it resists.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Attached to the neck of the radius
+## explanation_a
+Picked by students who assume a collateral ligament must reach the bone below it. It deliberately does not: an attachment to the neck of the radius would tether the radial head and abolish pronation and supination.
+## answer_b
+Attached to the annular ligament
+## explanation_b
+Correct. The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_c
+It is continuous with the capsule of the superior radioulnar joint
+## explanation_c
+Tempting because the superior radio-ulnar joint does share the elbow capsule, so the two seem continuous. The ligament is described as ending in the anular ligament, and that is the attachment the question wants.
+## answer_d
+Prevents abduction of the elbow joint
+## explanation_d
+The wrong side of the joint. It is the ulnar collateral ligament, on the medial side, that resists abduction — a valgus force; the radial collateral resists adduction.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the distal attachment of the radial collateral ligament and say which stress it resists.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p25 q43; Upper MCQ Dr.jalal (1).pdf p37 q43; Anatomy Question [Upper Limb] (1).pdf p29 q168; Anatomy MCQ Book [2025] [first priority].pdf p49 q168. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The radial collateral ligament runs from the lateral epicondyle to the anular ligament, and it is the only one of the four statements that is true; A and C are the classic misreadings of that attachment and D swaps it with the ulnar collateral.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1344
+## title
+The radial collateral ligament, choose the correct answer: y y
+## question
+The radial collateral ligament, choose the correct answer: y y
+## vignette
+This item asks the student to give the distal attachment of the radial collateral ligament and say which stress it resists.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Attached to the neck of the radius.
+## explanation_a
+The margin of this copy of the page marks A, which is how the wrong answer reached the bank. Attaching the ligament to the neck of the radius would tether the radial head and abolish pronation and supination.
+## answer_b
+Attached to the annular ligament.
+## explanation_b
+Correct. From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_c
+It is continuous with the capsule of the superior radioulnar joint.
+## explanation_c
+Tempting because the superior radio-ulnar joint shares the elbow capsule. The described attachment is nevertheless to the anular ligament.
+## answer_d
+Prevents abduction of the elbow joint.
+## explanation_d
+The wrong side. Abduction — valgus — is resisted by the ulnar collateral ligament on the medial side.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the distal attachment of the radial collateral ligament and say which stress it resists.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p100 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A from a margin mark rather than a key, and A is wrong: the radial collateral ligament is attached to the anular ligament and to no part of the radius. The identical row `the-radial-collateral-ligament-choose-the-correct-answer-39257210`, asked four times, printed no key at all.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1345
+## title
+Annular ligament, choose the correct answer:
+## question
+Annular ligament, choose the correct answer:
+## vignette
+This item asks the student to give the attachments and the borders of the anular ligament.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Forms about 3/4 of the osseofibrous ring around neck of radius
+## explanation_a
+Half right, which is what makes it dangerous. The ligament does form most of an osseofibrous ring, but that ring encircles the head of the radius, not the neck, and the ligament makes up about four fifths of it, the radial notch of the ulna the rest.
+## answer_b
+Attached to the posterior margin of the radial tuberosity
+## explanation_b
+Picked by students who remember an attachment near the upper radius and reach for the tuberosity. The attachments are to the anterior and posterior margins of the radial notch of the ulna.
+## answer_c
+Attached to the head of the radius
+## explanation_c
+The attachment the ligament cannot have. It surrounds the head of the radius without being fixed to it, and that freedom is exactly what allows the head to rotate during pronation and supination.
+## answer_d
+Its upper border blends with the capsule and ligaments of the elbow joint
+## explanation_d
+Correct. The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.
+
+Why this is right:
+- It is attached to no part of the radius.
+- It belongs to the superior radio-ulnar joint, not to the elbow and not to the wrist.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-879B4239272078
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the attachments and the borders of the anular ligament.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p30 q169; Anatomy MCQ Book [2025] [first priority].pdf p50 q169. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the one statement that is true as written; A misplaces the ring on the neck rather than the head and understates it, and B and C attach the ligament to bone it never touches.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1346
+## title
+One of the following is not a ligament of wrist joint: Vi ad
+## question
+One of the following is not a ligament of wrist joint: Vi ad
+## vignette
+This item asks the student to attribute the anular ligament to the superior radio-ulnar joint and not to the wrist.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Medial collateral ligament.
+## explanation_a
+A real wrist ligament — the medial or ulnar collateral, from the styloid process of the ulna to the triquetral and pisiform. The bank marks it, and that is the error this override corrects.
+## answer_b
+Lateral collateral ligament.
+## explanation_b
+A real wrist ligament — the lateral or radial collateral, from the styloid process of the radius to the scaphoid.
+## answer_c
+Palmar radiocarpal ligament.
+## explanation_c
+A real wrist ligament — the palmar radiocarpal, one of the anterior and posterior ligaments that bind the radius to the carpus.
+## answer_d
+Annular ligament.
+## explanation_d
+Correct. The one that is not, and the answer. The anular ligament is at the elbow, holding the head of the radius against the ulna; students place it at the wrist because it sounds like a retinaculum and because the wrist is where they last met a ring of fibrous tissue.
+
+Why this is right:
+- It is attached to no part of the radius.
+- It belongs to the superior radio-ulnar joint, not to the elbow and not to the wrist.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-879B4239272078
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attribute the anular ligament to the superior radio-ulnar joint and not to the wrist.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q9; EOM ISK 101 195 Answers.pdf p10 q100. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the medial (ulnar) collateral ligament is a genuine ligament of the wrist. The anular ligament belongs to the superior radio-ulnar joint at the other end of the forearm, so D is the one that is not a wrist ligament.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1347
+## title
+Regarding movements of joints:
+## question
+Regarding movements of joints:
+## vignette
+This item asks the student to say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Circumduction can occur at the shoulder girdle
+## explanation_a
+Correct. The examiner’s answer. The shoulder girdle moves at the sternoclavicular and acromioclavicular joints in elevation, depression, protraction and retraction, and the sum of those around the sternoclavicular saddle is circumduction of the lateral end of the clavicle.
+
+Why this is right:
+- A pivot joint is uniaxial for rotation: at the superior and inferior radio-ulnar joints that rotation is pronation and supination.
+## answer_b
+Pronation can occur at the wrist joints
+## explanation_b
+The commonest error in this leaf. Pronation happens at the superior and inferior radio-ulnar joints; because the hand is carried on the radius, the movement looks as if it happened at the wrist.
+## answer_c
+Adduction and abduction can occur at the elbow joint
+## explanation_c
+Forbidden by the shape of the joint. The elbow is a uniaxial hinge, so it flexes and extends and does nothing else; what feels like side-to-side play at the elbow is rotation of the shoulder.
+## answer_d
+Flexion and extension can occur at the metacarpophalangeal joints
+## explanation_d
+True as printed — the metacarpophalangeal joints are condyloid and do flex and extend — so it fails to discriminate, and the key nonetheless rests on A. A student who chose this has the anatomy right, and the item needs a faculty eye rather than the student’s.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-B88F413E4536F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q61; Upper MCQ Dr.jalal (1).pdf p40 q61; Anatomy Question [Upper Limb] (1).pdf p12 q70. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1348
+## title
+Regarding movements of joints: Vi P y
+## question
+Regarding movements of joints: Vi P y
+## vignette
+This item asks the student to say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Circumduction can occur at the shoulder girdle
+## explanation_a
+Correct. This is the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.
+
+Why this is right:
+- A pivot joint is uniaxial for rotation: at the superior and inferior radio-ulnar joints that rotation is pronation and supination.
+## answer_b
+Pronation can occur at the wrist joints
+## explanation_b
+Pronation belongs to the two radio-ulnar joints, not the wrist. The hand follows the radius, which is what makes the movement seem to be at the wrist.
+## answer_c
+Adduction and abduction can occur at the elbow joint
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. A hinge has one axis; abduction and adduction at the elbow are anatomically impossible.
+## answer_d
+Flexion and extension can occur at the metacarpophalangeal joints
+## explanation_d
+True as printed, since the metacarpophalangeal joints are condyloid and flex and extend. It does not discriminate, and the examiner’s key rests on A.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-B88F413E4536F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say which movements the shoulder girdle, the wrist and the elbow do and do not permit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p104 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, which is impossible: the elbow is a uniaxial hinge and cannot abduct or adduct. The identical row `regarding-movements-of-joints-39f1039b`, asked three times, is keyed A, and A is the option this override restores.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1349
+## title
+Movements of abduction and adduction are possible at the following joint: (2017) Vi
+## question
+Movements of abduction and adduction are possible at the following joint: (2017) Vi
+## vignette
+This item asks the student to identify the one joint in the forearm and wrist with two axes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Elbow joint.y Ac
+## explanation_a
+A uniaxial hinge. Flexion and extension are all the elbow has; any apparent side-to-side movement comes from the shoulder.
+## answer_b
+Wrist joint
+## explanation_b
+Correct. The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.
+
+Why this is right:
+- A pivot joint is uniaxial for rotation: at the superior and inferior radio-ulnar joints that rotation is pronation and supination.
+## answer_c
+Superior radio-ulnar
+## explanation_c
+The answer the extractor took from the page, and the reason for the override. The superior radio-ulnar joint is a pivot: the radial head spins within the anular ligament on one axis, producing pronation and supination and nothing else.
+## answer_d
+Inferior radio-ulnar
+## explanation_d
+The inferior radio-ulnar joint is the other pivot of the same pair, moving with the superior one in pronation and supination only.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-B88F413E4536F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Movements
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the one joint in the forearm and wrist with two axes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p102 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but a pivot joint has a single axis and permits rotation only. The wrist is the sole biaxial joint among the four offered, so B is the only possible answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1350
+## title
+Which is correct about lumbrical muscles? (2021)
+## question
+Which is correct about lumbrical muscles? (2021)
+## vignette
+This item asks the student to state what the lumbricals do at the metacarpophalangeal and interphalangeal joints, and separate the two.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lumbricals are each attached to a tendon of ﬂexor digitorum superﬁcial is
+## explanation_a
+The wrong flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deep tendons that pass on through to the distal phalanges; superficialis splits and never reaches them.
+## answer_b
+They are all supplied by the median nerve
+## explanation_b
+True of the lateral two only. The medial two lumbricals are supplied by the deep branch of the ulnar nerve, which is why an ulnar lesion, not a median one, produces the clawed ring and little fingers.
+## answer_c
+They produce ﬂexion at the metacarpophalangeal joints of the ﬁnger
+## explanation_c
+Correct. Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.
+
+Why this is right:
+- A pivot joint is uniaxial for rotation: at the superior and inferior radio-ulnar joints that rotation is pronation and supination.
+## answer_d
+They produce ﬂexion at the interphalangeal joint. y ad
+## explanation_d
+The exact reverse of what the extensor expansion insertion produces. Lumbricals extend the interphalangeal joints; losing that action is what lets the profundus claw the fingers.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-B88F413E4536F9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Movements
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State what the lumbricals do at the metacarpophalangeal and interphalangeal joints, and separate the two.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q31. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The lumbricals arise from flexor digitorum profundus and insert into the dorsal extensor expansion, so they flex the metacarpophalangeal joints and extend the interphalangeal joints; C is the only option that states either correctly.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1351
+## title
+The elbow joint is:
+## question
+The elbow joint is:
+## vignette
+This item asks the student to classify the elbow joint by the shape of its articular surfaces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Hinge
+## explanation_a
+Correct. The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+Ellipsoid
+## explanation_b
+Ellipsoid is the wrist. Students swap the two because both joints bend in the same direction, but the wrist adds a second axis the elbow has not.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar is the knee and the temporomandibular joint. The elbow has a capitulum as well as a trochlea, which makes it look like two condyles until you notice the radius, not the ulna, meets the capitulum.
+## answer_d
+Ball and socket
+## explanation_d
+Ball and socket is the shoulder, and the shoulder is the joint most students name first when they are thinking about the upper limb rather than the elbow.
+## topic
+Basis
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Classify the elbow joint by the shape of its articular surfaces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q34. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1352
+## title
+The elbow joint is: em em em em em
+## question
+The elbow joint is: em em em em em
+## vignette
+This item asks the student to classify the elbow joint by the shape of its articular surfaces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Hinge
+## explanation_a
+Correct. Trochlea in trochlear notch is a hinge, and it moves on one axis only.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+Ellipsoid
+## explanation_b
+Ellipsoid is the wrist. The two are swapped because both bend the same way; only the wrist has a second axis.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar belongs to the knee. The elbow’s capitulum makes it look like a second condyle until you notice it takes the radius rather than the ulna.
+## answer_d
+Ball and socket
+## explanation_d
+The answer printed on this page, and the reason for the override. Ball and socket is the shoulder — the joint students name when they are thinking of the upper limb in general rather than of the elbow.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Classify the elbow joint by the shape of its articular surfaces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p10 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D — ball and socket — which is the shoulder, not the elbow. The identical row `the-elbow-joint-is-b2ab4933` is keyed A, and the elbow is a hinge on every account this module teaches.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1353
+## title
+The wrist joint is:
+## question
+The wrist joint is:
+## vignette
+This item asks the student to classify the wrist joint by the shape of its articular surfaces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Hinge
+## explanation_a
+Hinge is the elbow. It is the wrist’s second axis — the abduction and adduction of radial and ulnar deviation — that rules a hinge out.
+## answer_b
+Ellipsoid
+## explanation_b
+Correct. The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_c
+Bicondylar
+## explanation_c
+Bicondylar belongs to the knee, where two separate condyles articulate side by side. The wrist has one continuous oval surface.
+## answer_d
+Ball and socket
+## explanation_d
+Ball and socket is the shoulder. It would give the wrist rotation, and the wrist has none of its own — what looks like rotation there is pronation and supination of the forearm.
+## topic
+Basis
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Classify the wrist joint by the shape of its articular surfaces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q35; Anatomy MCQ Book [2025] [first priority].pdf p7 q35. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1354
+## title
+One of the following joints of the upper limb is synovial biaxial ellipsoid: (2019)
+## question
+One of the following joints of the upper limb is synovial biaxial ellipsoid: (2019)
+## vignette
+This item asks the student to match the description "synovial biaxial ellipsoid" to the one upper limb joint it fits.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Elbow joint.y Vi
+## explanation_a
+The answer this page carries, and the reason for the override. The elbow is a uniaxial synovial hinge; the same question book keys it as a hinge elsewhere in this leaf.
+## answer_b
+Wrist joint
+## explanation_b
+Correct. The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_c
+Acromioclavicular joint
+## explanation_c
+The acromioclavicular joint is a plane joint, where two flat surfaces glide. It is small and easy to leave unclassified, which is what makes it a usable distractor.
+## answer_d
+Carpometacarpal joint of thumb. P
+## explanation_d
+The carpometacarpal joint of the thumb is a saddle joint, and it is biaxial — which is exactly why it is offered here. Saddle and ellipsoid share the axis count but not the surface shape.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Match the description "synovial biaxial ellipsoid" to the one upper limb joint it fits.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p103 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the elbow is a uniaxial hinge and cannot be a biaxial ellipsoid. The wrist is the module’s worked example of an ellipsoid joint, so B is the answer; the elbow rows in this same leaf are keyed to hinge, which makes A self-contradictory.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1355
+## title
+Regarding types of the joints of upper limb, choose correct answer:
+## question
+Regarding types of the joints of upper limb, choose correct answer:
+## vignette
+This item asks the student to pick the one correctly classified joint out of four upper limb joints.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The elbow joint is synovial hinge joint
+## explanation_a
+Correct. Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+The carpometacarpal joint of the thumb is synovial pivot
+## explanation_b
+The right joint and the wrong type. The carpometacarpal joint of the thumb is a saddle, and it is that saddle shape that gives the thumb its opposition; a pivot would give it rotation about a single axis instead.
+## answer_c
+The radioulnar joints are ball and socket
+## explanation_c
+The radio-ulnar joints are pivots. Ball and socket is offered because both permit rotation, but a pivot rotates about one axis and a ball and socket about three.
+## answer_d
+The wrist joint is synovial saddle
+## explanation_d
+The right joint and the wrong type again. The wrist is ellipsoid; the saddle in the upper limb is the thumb’s carpometacarpal joint, one option above.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q60; Upper MCQ Dr.jalal (1).pdf p39 q60. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only A classifies its joint correctly: the elbow is a synovial hinge. The other three each name a real joint and give it the wrong type.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1356
+## title
+Regarding the types of the joints of the upper limb, choose the correct answer:
+## question
+Regarding the types of the joints of the upper limb, choose the correct answer:
+## vignette
+This item asks the student to pick the one correctly classified joint out of four upper limb joints.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The elbow joint is synovial hinge joint
+## explanation_a
+Correct. The elbow is a synovial hinge, uniaxial, flexing and extending only.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+The carpometacarpal joint of the thumb is synovial pivot
+## explanation_b
+The thumb’s carpometacarpal joint is a saddle, not a pivot. The saddle is what allows opposition, which no pivot could produce.
+## answer_c
+The radioulnar joints are ball and socket
+## explanation_c
+The radio-ulnar joints are pivots. Both a pivot and a ball and socket rotate, which is the resemblance the option trades on, but a pivot has one axis and a ball and socket three.
+## answer_d
+The wrist joint is synovial saddle
+## explanation_d
+The wrist is ellipsoid. Saddle belongs to the thumb, one option above, and swapping the two is the trap this question is built around.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p27 q50. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The elbow is a synovial hinge, and it is the only one of the four statements whose type matches its joint.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1357
+## title
+Regarding the types of joints of the upper limb, mark one correct statement:
+## question
+Regarding the types of joints of the upper limb, mark one correct statement:
+## vignette
+This item asks the student to pick the one correctly classified joint out of four upper limb joints.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot. Ball and socket is offered because the radial head is round, but it spins on one axis inside the anular ligament rather than moving on three.
+## answer_b
+The acromioclavicular joint is of saddle variety
+## explanation_b
+The acromioclavicular joint is a plane joint of two flat gliding surfaces. The saddle of the upper limb is the thumb’s carpometacarpal joint.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. Pivot is the type of the two radio-ulnar joints, and the superior one shares the elbow capsule — which is precisely why students hand the elbow its type.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p17 q97. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1358
+## title
+Regarding types of joints of upper limb, mark one correct statement:
+## question
+Regarding types of joints of upper limb, mark one correct statement:
+## vignette
+This item asks the student to pick the one correctly classified joint out of four upper limb joints.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot. The round radial head suggests a ball, but it turns on one axis inside the anular ligament.
+## answer_b
+The acromioclavicular joint is of saddle variety
+## explanation_b
+The acromioclavicular joint is a plane joint. The saddle joint of the upper limb is the thumb’s carpometacarpal.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. Pivot is borrowed from the superior radio-ulnar joint, which shares the elbow’s capsule and so is easily read as part of it.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p28 q59. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The identical question at `regarding-the-types-of-joints-of-the-upper-limb-mark-one-cor-2a45433e` is keyed D, and the wrist is indeed the ellipsoid joint of the limb; the other three statements each give a real joint the wrong type.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1359
+## title
+Regarding types of foints of upper limb, mark one correct statement:
+## question
+Regarding types of foints of upper limb, mark one correct statement:
+## vignette
+This item asks the student to pick the one correctly classified joint out of four upper limb joints.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The superior radioulnar joint is of ball and socket variety
+## explanation_a
+The superior radio-ulnar joint is a pivot: one axis, giving pronation and supination.
+## answer_b
+The acromioclavicular joint is of saddle variety. 1
+## explanation_b
+The acromioclavicular joint is plane. Saddle is the thumb’s carpometacarpal joint.
+## answer_c
+The elbow joint is of pivot variety
+## explanation_c
+The elbow is a hinge. The pivot in that neighbourhood is the superior radio-ulnar joint, which shares the capsule.
+## answer_d
+The wrist joint is of ellipsoid variety
+## explanation_d
+Correct. The wrist is a biaxial ellipsoid joint.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## topic
+Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Pick the one correctly classified joint out of four upper limb joints.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p39 q59. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and OCR has turned "joints" into "foints" in the stem without touching the options. The keyed copy of this question, `regarding-the-types-of-joints-of-the-upper-limb-mark-one-cor-2a45433e`, gives D, and the wrist is the ellipsoid joint of the upper limb.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1360
+## title
+Sternoclavicular joint, choose the. correct answer: Ac em
+## question
+Sternoclavicular joint, choose the. correct answer: Ac em
+## vignette
+This item asks the student to give the type, the disc and the supports of the sternoclavicular joint, and distinguish them from the acromioclavicular joint.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is a synovial hinge joint
+## explanation_a
+The answer printed on this page, and the reason for the override. The sternoclavicular joint is a synovial saddle joint; calling it a hinge would confine the clavicle to one axis when in fact it elevates, depresses, protracts, retracts and circumducts.
+## answer_b
+Contains a ﬁbrocartilaginous disc
+## explanation_b
+Correct. A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.
+
+Why this is right:
+- The sternoclavicular joint is a synovial saddle joint between the medial end of the clavicle and the manubrium sterni with the first costal cartilage — above the sternal angle, not at it.
+## answer_c
+Between clavicle and sternum at the angle of Lewis
+## explanation_c
+Off by one level. The angle of Lewis — the sternal angle — is where the second costal cartilage meets the sternum, below this joint; the sternoclavicular joint is on the manubrium with the first costal cartilage.
+## answer_d
+Supported by coracoclavicular ligament. y
+## explanation_d
+The other end of the clavicle. The coracoclavicular ligament supports the acromioclavicular joint; the ligament that anchors the clavicle down here is the costoclavicular, and the two names differ by a syllable.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-5079195BC42B5E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the type, the disc and the supports of the sternoclavicular joint, and distinguish them from the acromioclavicular joint.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p96 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1361
+## title
+Which of the following flexes the arm at the glenohumeral joint?
+## question
+Which of the following flexes the arm at the glenohumeral joint?
+## vignette
+This item asks the student to name a flexor of the shoulder joint, and say what each of the other three muscles offered does at that joint instead.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pectoralis major.
+## explanation_a
+Correct. The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm — so the same muscle appears as the answer to several opposite questions, which is why it is examined so often.
+
+Why this is right:
+- Flexion of the arm is by the anterior fibres of deltoid, the clavicular head of pectoralis major, coracobrachialis and biceps.
+## answer_b
+Latissimus dorsi.
+## explanation_b
+Latissimus dorsi is the principal extensor of the shoulder, the exact opposite of what the stem asks. It is picked by students who remember it as a powerful mover of the arm without remembering the direction.
+## answer_c
+Subscapularis.
+## explanation_c
+Subscapularis is a rotator cuff muscle on the front of the scapula, and its action at the joint is medial rotation. Lying in front of the joint makes it look like a flexor, which is the trap.
+## answer_d
+Infraspinatus.
+## explanation_d
+Infraspinatus is the cuff muscle behind the scapula and rotates the arm laterally. Like subscapularis it steadies the humeral head in the glenoid cavity, and that stabilising role is not a movement.
+## topic
+Joints of Upper Limb
+## subtopic
+Joints of Upper Limb
+## main_concept
+CON-MSK-171B2F8B24F6E7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Movements
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Joints of Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ELBOW-JOINT
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name a flexor of the shoulder joint, and say what each of the other three muscles offered does at that joint instead.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p9 q96. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives flexion of the shoulder to the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps. Pectoralis major is the only one of the four options on that list: latissimus dorsi extends, subscapularis rotates medially and infraspinatus rotates laterally.
