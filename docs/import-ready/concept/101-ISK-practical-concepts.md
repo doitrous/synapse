@@ -40,13 +40,15 @@
 
 # Item
 ## label
-The plasma membrane is identified on electron microscopy as a trilaminar unit membrane
+Plasma membrane: trilaminar unit membrane (EM)
 ## id
 CON-FND-8BD70C3ED36B79
 ## canonical_key
 unit-membrane-trilaminar-identification
 ## definition
-At the magnification the department's plates use, the plasma membrane resolves into two electron-dense (dark) layers separated by one electron-lucent (pale) layer — the trilaminar unit membrane. Where two cells meet, two such membranes run parallel with the intercellular space between them and the cytoplasm of each cell outside them.
+At the magnification the department's plates use, the **plasma membrane** resolves into two electron-dense (dark) layers separated by one electron-lucent (pale) layer — the __trilaminar unit membrane__.
+
+Where two cells meet, two such membranes run parallel, with the **intercellular space** between them and the **cytoplasm** of each cell outside them.
 ## explicit_objective
 Identify the plasma membrane on an electron micrograph, give one visible character of it, and name the intercellular space and the cytoplasm on either side when each is separately marked.
 ## pitfalls
@@ -178,13 +180,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Mitochondria are identified under the light microscope as rods or granules stained by iron haematoxylin or Janus green
+Mitochondria under the light microscope
 ## id
 CON-FND-ED156BF8FBFD46
 ## canonical_key
 mitochondria-light-microscopy-identification
 ## definition
-Mitochondria are not resolved by routine H&E. The department demonstrates them with iron haematoxylin, which stains them dark blue, or Janus green, which stains them green; they then appear as granules or short rods scattered through the cytoplasm and concentrated in the most active part of the cell.
+Mitochondria are **not resolved by routine H&E**.
+
+The department demonstrates them with **iron haematoxylin** (dark blue) or **Janus green** (green).
+
+They then appear as __granules or short rods__ scattered through the cytoplasm and concentrated in the most active part of the cell.
 ## explicit_objective
 Identify mitochondria on a light micrograph, name a stain that demonstrates them, and give one visible character.
 ## pitfalls
@@ -315,13 +321,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A mitochondrion is identified on electron microscopy by its double membrane, its cristae and its matrix
+Mitochondrion ultrastructure (EM)
 ## id
 CON-FND-E0B130AC5EC939
 ## canonical_key
 mitochondrion-ultrastructure-identification
 ## definition
-On electron microscopy a mitochondrion is a rounded or oval vesicle bounded by two unit membranes, the inner of which is thrown into shelf-like cristae projecting into an electron-dense matrix.
+On electron microscopy a mitochondrion is a rounded or oval vesicle bounded by a **double (two unit) membrane**.
+
+The inner membrane is thrown into shelf-like __cristae__ that project into an electron-dense **matrix**.
 ## explicit_objective
 Identify a mitochondrion on an electron micrograph and name the cristae and the matrix separately when each is arrowed.
 ## pitfalls
@@ -453,13 +461,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-The Golgi apparatus is identified on electron microscopy by stacked parallel saccules with transfer vesicles on one face and secretory vesicles on the other
+Golgi apparatus ultrastructure (EM)
 ## id
 CON-FND-89F4A730D095B7
 ## canonical_key
 golgi-apparatus-ultrastructure-identification
 ## definition
-On electron microscopy the Golgi apparatus is a stack of short, smooth, parallel flattened saccules. Small transfer vesicles arrive at the entry (cis) face from the rough endoplasmic reticulum and larger secretory vesicles bud from the exit (trans) face, which is why the department calls it the secretory apparatus of the cell.
+On electron microscopy the Golgi apparatus is a stack of short, smooth, __parallel flattened saccules__.
+
+Small **transfer vesicles** arrive at the entry (**cis**) face from the rough endoplasmic reticulum; larger **secretory vesicles** bud from the exit (**trans**) face.
+
+That role is why the department calls it the **secretory apparatus of the cell**.
 ## explicit_objective
 Identify the Golgi apparatus on an electron micrograph, give one visible character, and tell a transfer vesicle from a secretory vesicle by the face it lies on.
 ## pitfalls
@@ -591,13 +603,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-In a silver preparation the Golgi apparatus is brown fibrils or granules, perinuclear in a nerve cell and apical in a secretory cell
+Golgi position in a silver preparation
 ## id
 CON-FND-F4DF782C697CCF
 ## canonical_key
 golgi-apparatus-position-silver-stain
 ## definition
-Silver impregnation stains the Golgi apparatus brown, as fine fibrils or granules. In a nerve cell it lies around the central rounded nucleus; in a secretory cell it lies apical to the nucleus, on the side the secretion travels towards.
+Silver impregnation stains the Golgi apparatus **brown**, as fine __fibrils or granules__.
+
+In a **nerve cell** it lies around the central rounded nucleus; in a **secretory cell** it lies apical to the nucleus, on the side the secretion travels towards.
 ## explicit_objective
 Identify the Golgi apparatus on a silver-stained light micrograph, name the stain and the colour it gives, and state the organelle's position in the cell type on the plate.
 ## pitfalls
@@ -731,13 +745,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-The negative Golgi image is an unstained pale zone beside the nucleus of a routinely stained secretory cell
+Negative Golgi image
 ## id
 CON-FND-0492C40A7F76E7
 ## canonical_key
 negative-golgi-image-identification
 ## definition
-In H&E the Golgi apparatus takes neither dye, so in a cell whose remaining cytoplasm is deeply basophilic — classically the plasma cell — it appears as a clear pale area beside the nucleus. The department calls this the negative Golgi image.
+In H&E the Golgi apparatus takes **neither dye**.
+
+So in a cell whose remaining cytoplasm is deeply basophilic — classically the **plasma cell** — it appears as a __clear pale area beside the nucleus__. The department calls this the **negative Golgi image**.
 ## explicit_objective
 Identify the negative Golgi image on a routinely stained slide and say why the Golgi appears as an absence of stain rather than a colour.
 ## pitfalls
@@ -870,13 +886,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Rough endoplasmic reticulum is identified by long parallel flattened cisternae studded with ribosomes
+Rough endoplasmic reticulum (EM)
 ## id
 CON-FND-08378767774524
 ## canonical_key
 rough-endoplasmic-reticulum-ultrastructure
 ## definition
-On electron microscopy rough endoplasmic reticulum is a system of long, regular, parallel flattened cisternae whose cytosolic surface carries ribosomes as dense granules. Abundant rER is what makes the cytoplasm of a protein-forming cell basophilic under the light microscope.
+On electron microscopy, rough ER is a system of long, regular, __parallel flattened cisternae__ whose cytosolic surface carries **ribosomes** as dense granules.
+
+Abundant rER is what makes the cytoplasm of a protein-forming cell **basophilic** under the light microscope.
 ## explicit_objective
 Identify rough endoplasmic reticulum on an electron micrograph, give one visible character, and state that its function is protein synthesis.
 ## pitfalls
@@ -1010,13 +1028,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Smooth endoplasmic reticulum is identified by a ribosome-free surface and vesicles of differing size and shape
+Smooth endoplasmic reticulum (EM)
 ## id
 CON-FND-369A1D27DFE0DD
 ## canonical_key
 smooth-endoplasmic-reticulum-ultrastructure
 ## definition
-On electron microscopy smooth endoplasmic reticulum is an anastomosing system of tubules and vesicles of different size and shape whose surface carries no ribosomes. Where it is abundant the cytoplasm is acidophilic, and it is concentrated in the parts of the cell that handle lipid.
+On electron microscopy, smooth ER is an anastomosing system of __tubules and vesicles of different size and shape__ whose surface carries **no ribosomes**.
+
+Where it is abundant the cytoplasm is **acidophilic**, and it concentrates in the parts of the cell that handle **lipid**.
 ## explicit_objective
 Identify smooth endoplasmic reticulum on an electron micrograph and give one visible feature the answer page accepts.
 ## pitfalls
@@ -1148,13 +1168,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Rough and smooth endoplasmic reticulum are told apart on one micrograph by ribosomes, not by shape
+Rough vs smooth ER on one micrograph
 ## id
 CON-FND-82768007A697F1
 ## canonical_key
 rough-versus-smooth-endoplasmic-reticulum-electron-microscopy
 ## definition
-The department sets a plate showing both systems in one field. The rough system is recognised by ribosomes on its cytosolic face and by long regular parallel cisternae; the smooth system by a bare surface and by tubules and vesicles of varying size. The two are continuous with each other, so the surface, not the outline, is the discriminator.
+The department sets a plate showing **both systems in one field**.
+
+The **rough** system is recognised by ribosomes on its cytosolic face and by long regular parallel cisternae; the **smooth** system by a bare surface and by tubules and vesicles of varying size.
+
+The two are continuous with each other, so __the surface, not the outline, is the discriminator__.
 ## explicit_objective
 On a micrograph carrying both, say which profile is rough and which is smooth and give the character that decides each.
 ## pitfalls
@@ -1286,13 +1310,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Nissl's granules are the basophilic clumps of rough endoplasmic reticulum seen in a nerve cell body
+Nissl's granules
 ## id
 CON-FND-4AE74C678A6F64
 ## canonical_key
 nissl-granules-identification
 ## definition
-In a stained nerve cell the cytoplasm carries coarse basophilic clumps, Nissl's granules. They are aggregates of rough endoplasmic reticulum with free ribosomes; their basophilia is the light-microscopic expression of the ribosomal RNA in them.
+In a stained nerve cell the cytoplasm carries coarse **basophilic clumps**, the **Nissl's granules**.
+
+They are aggregates of **rough endoplasmic reticulum** with free ribosomes; their basophilia is the light-microscopic expression of the __ribosomal RNA__ in them.
 ## explicit_objective
 Identify Nissl's granules in a nerve cell and state what organelle they are made of.
 ## pitfalls
@@ -1422,13 +1448,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A ribosome is identified on a labelled diagram by its two subunits and the mRNA, tRNA and growing chain they hold
+Ribosome on a labelled diagram
 ## id
 CON-FND-ACF503263BA7D7
 ## canonical_key
 ribosome-structure-identification
 ## definition
-A ribosome is a non-membranous particle of ribosomal RNA and protein, formed of a small and a large subunit united by the mRNA strand. The department's labelled plate names the two subunits, the P and A sites, the tRNA, the codon on the mRNA and the growing amino-acid chain.
+A ribosome is a **non-membranous** particle of ribosomal RNA and protein, formed of a __small and a large subunit__ united by the mRNA strand.
+
+The department's labelled plate names the two subunits, the **P and A sites**, the **tRNA**, the **codon** on the mRNA and the growing **amino-acid chain**.
 ## explicit_objective
 Name the parts of a ribosome on a labelled diagram and say where in the cell free ribosomes and attached ribosomes send their product.
 ## pitfalls
@@ -1558,13 +1586,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A centriole is identified in transverse section by nine triplets of microtubules and no central pair
+Centriole in transverse section
 ## id
 CON-FND-759499A4A27938
 ## canonical_key
 centriole-ultrastructure-identification
 ## definition
-A centriole is a short cylinder whose wall is built of twenty-seven microtubules arranged as nine triplets, with nothing in the centre. Two centrioles lie at right angles near the nucleus, and a single centriole embedded in the cytoplasm is the basal body of a cilium.
+A centriole is a short cylinder whose wall is built of twenty-seven microtubules arranged as __nine triplets__, with **nothing in the centre**.
+
+Two centrioles lie at right angles near the nucleus. A single centriole embedded in the cytoplasm is the **basal body** of a cilium.
 ## explicit_objective
 Identify a centriole on an electron micrograph and state that its microtubules are arranged as nine triplets.
 ## pitfalls
@@ -1697,13 +1727,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A microvillus is told from a cilium on electron microscopy by having no microtubules and a pale core
+Microvillus vs cilium (EM)
 ## id
 CON-FND-942169C7CEC1CA
 ## canonical_key
 microvillus-versus-cilium-electron-microscopy
 ## definition
-On the department's plate both projections are cut in the same field. The cilium is the larger, and its shaft contains an axoneme of about twenty microtubules — nine peripheral doublets and two central singlets. The microvillus is small, has a pale core containing no microtubules, and is covered by the same cell membrane.
+On the department's plate both projections are cut in the same field.
+
+The **cilium** is the larger, and its shaft contains an __axoneme of about twenty microtubules__ — nine peripheral doublets and two central singlets.
+
+The **microvillus** is small, has a __pale core with no microtubules__, and is covered by the same cell membrane.
 ## explicit_objective
 On a micrograph showing both, identify each projection and give the character that separates them.
 ## pitfalls
@@ -1836,13 +1870,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Glycogen is identified as red granules in liver cells after Best's carmine or PAS
+Glycogen inclusion
 ## id
 CON-FND-7650D31963FEBD
 ## canonical_key
 glycogen-inclusion-identification
 ## definition
-Glycogen dissolves during routine processing and leaves vacuoles in H&E. It is demonstrated by Best's carmine, which gives red granules, or by PAS, which gives magenta-red; the department's plate is of liver cells.
+Glycogen dissolves during routine processing and leaves **vacuoles** in H&E.
+
+It is demonstrated by **Best's carmine** (red granules) or **PAS** (magenta-red); the department's plate is of __liver cells__.
 ## explicit_objective
 Identify glycogen as the inclusion on a stained plate, name a stain that demonstrates it, give one visible character, and name the cell it is shown in.
 ## pitfalls
@@ -1975,13 +2011,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Fat is identified as a large orange droplet in an adipocyte after Sudan III, and as an empty vacuole in H&E
+Fat inclusion
 ## id
 CON-FND-53E16F5D4E3538
 ## canonical_key
 fat-inclusion-identification
 ## definition
-Fat dissolves in the solvents used for routine processing, so in H&E an adipocyte shows an empty vacuole with the nucleus and cytoplasm pushed to the rim. Sudan III preserves and stains it, giving a large orange droplet in the same cell.
+Fat dissolves in the solvents used for routine processing, so in H&E an adipocyte shows an __empty vacuole__ with the nucleus and cytoplasm pushed to the rim.
+
+**Sudan III** preserves and stains it, giving a **large orange droplet** in the same cell.
 ## explicit_objective
 Identify fat as the inclusion, name the stain used on the plate in front of you, and give the visible character that stain produces.
 ## pitfalls
