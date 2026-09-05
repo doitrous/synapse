@@ -1,0 +1,32 @@
+207 END — triage keys (first tranche, Q1-26 Histology only)
+Source: 207 END/EOM/EOM - END-207 2024 ANS.pdf (manifest sourceId src_2d00db5decd243a861ea,
+kasr-y2-sources.json; sha256 2d00db5decd243a861ea82701e8208db547c5ed5a3b841fced9128792b189832;
+corpusRelativePath "207 END/EOM/EOM - END-207 2024 ANS.pdf"; printed exam date 16/4/2024 on
+the cover page, EOM, solved, 108 MCQs, 11 pages — Module "Endocrine & Reproductive Systems",
+code END 207, 54 marks). Sitting year 2024 (calendar label on the file; manifest
+examSittingYear=2024).
+
+Method: no native text layer (scanned PDF) — read via
+`node scripts/content/pagetext.mjs ocr --force` (default settings). Correct answer is
+marked by a solid red/orange circle drawn over the option letter/bullet; the OCR
+transcribes the circled option letter as "@" in place of the letter. Confirmed genuine by
+rendering pp.1, 2 and 3 (the full Q1-26 range of this tranche) at 170 dpi and checking
+every circled option against the OCR "@" markers by eye — all three pages matched exactly,
+0 disagreements, EXCEPT one genuine double-mark (see Q10 below).
+
+Section map (this paper): Q1-26 Histology (endocrine + reproductive), Q27+ Anatomy
+(starts p.4). This tranche authors the Histology section only.
+
+Q1.b   Q2.c   Q3.d   Q4.c   Q5.b   Q6.d   Q7.c   Q8.a
+Q9.b   Q10.EXCLUDE   Q11.b  Q12.c  Q13.c  Q14.a  Q15.b  Q16.a  Q17.c  Q18.c
+Q19.a  Q20.c  Q21.d  Q22.c  Q23.a  Q24.a  Q25.d  Q26.d
+
+Q10 EXCLUDED — two options are circled in red on the paper (c. Tubuli recti AND
+d. Ejaculatory ducts); OCR reads "@ Tubuli recti @ Ejaculatory ducts". The key is
+ambiguous/contradictory (single-best-answer stem, two answers marked), so per protocol the
+item is excluded rather than guessed. Not authored.
+
+Q27-108 (Anatomy p.4-6, Physiology, then remaining sections): OCR'd (see
+`scripts/content/pagetext.mjs show` on this PDF) but NOT yet individually render-verified —
+treat that OCR text as a lead, not a confirmed key, until rendered. Next author picking up
+this paper starts at Q27 (Anatomy) and spot-renders before trusting the "@" reading.
