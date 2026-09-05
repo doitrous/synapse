@@ -111,7 +111,9 @@ teaching.pharma.loading.definition
 ## explicit_objective
 Explain or apply: A loading dose is the initial dose that raises plasma drug level to the target concentration
 ## definition
-A loading dose is an initial dose intended to reach a target drug concentration promptly. Because it is larger than a usual maintenance dose, an incorrect loading dose can cause toxicity.
+A **loading dose** is an initial dose intended to reach a target drug concentration promptly.
+
+Because it is larger than a usual maintenance dose, __an incorrect loading dose can cause toxicity__.
 ## label
 Loading dose
 ## modules
@@ -206,9 +208,9 @@ teaching.pharma.maintenance.definition
 ## explicit_objective
 Explain or apply: A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state
 ## definition
-A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state.
+A **maintenance dose** replaces the drug eliminated since the preceding dose, __to maintain steady state__.
 ## label
-A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state
+Maintenance dose
 ## modules
 108 INT
 ## module_subject
@@ -305,7 +307,9 @@ teaching.pharma.vd.definition
 ## explicit_objective
 Explain or apply: Apparent volume of distribution is the hypothetical fluid volume that would contain the total drug amount at the measured plasma concentration
 ## definition
-Apparent volume of distribution is the hypothetical volume that relates the amount of drug in the body to its plasma concentration: Vd = amount in the body ÷ plasma concentration.
+The **apparent volume of distribution (Vd)** is the hypothetical volume that relates the amount of drug in the body to its plasma concentration.
+
+__Vd = amount in the body ÷ plasma concentration.__
 ## label
 Apparent volume of distribution
 ## modules
@@ -401,9 +405,9 @@ teaching.pharma.vd.apparent
 ## explicit_objective
 Explain or apply: Apparent volume of distribution may exceed physical body volume, as stated for digoxin
 ## definition
-Apparent volume of distribution can exceed total body volume because it is a proportionality term, not a physical anatomical space.
+The apparent volume of distribution can __exceed total body volume__ because it is a **proportionality term**, not a physical anatomical space.
 ## label
-Apparent volume of distribution can exceed body volume
+Why Vd can exceed body volume
 ## modules
 108 INT
 ## module_subject
@@ -494,7 +498,7 @@ teaching.pharma.vd.high
 ## explicit_objective
 Explain or apply: A high apparent volume of distribution indicates multicompartment distribution or tissue concentration
 ## definition
-A high apparent volume of distribution usually indicates that a drug is extensively distributed or bound in tissues relative to its plasma concentration.
+A **high** apparent volume of distribution usually indicates that a drug is __extensively distributed or bound in tissues__ relative to its plasma concentration.
 ## label
 Interpretation of a high apparent volume of distribution
 ## modules
@@ -591,7 +595,7 @@ teaching.pharma.vd.low
 ## explicit_objective
 Explain or apply: A low apparent volume of distribution indicates retention in the vascular compartment due to high molecular weight or high plasma-protein binding
 ## definition
-A low apparent volume of distribution suggests that much of the measured drug remains in plasma, often because of limited tissue distribution or substantial plasma-protein binding.
+A **low** apparent volume of distribution suggests that __much of the drug remains in plasma__, often because of limited tissue distribution or substantial plasma-protein binding.
 ## label
 Interpretation of a low apparent volume of distribution
 ## modules
@@ -687,9 +691,9 @@ teaching.pharma.clearance.volume
 ## explicit_objective
 Explain or apply: Clearance is the volume of body fluid from which drug is removed per unit time
 ## definition
-Clearance is the volume of body fluid from which drug is removed per unit time.
+**Clearance** is the __volume of body fluid from which drug is removed per unit time__.
 ## label
-Clearance is the volume of body fluid from which drug is removed per unit time
+Clearance
 ## modules
 108 INT
 ## module_subject
@@ -781,9 +785,9 @@ teaching.pharma.tubular.secretion
 ## explicit_objective
 Explain or apply: Active tubular excretion is saturable and is a site of competition and drug interaction
 ## definition
-Active tubular excretion is saturable and is a site of competition and drug interaction.
+**Active tubular secretion** is __saturable__, and so is a site of **competition and drug interaction**.
 ## label
-Active tubular excretion is saturable and is a site of competition and drug interaction
+Active tubular secretion
 ## modules
 108 INT
 ## module_subject
@@ -881,9 +885,9 @@ teaching.pharma.enterohepatic
 ## explicit_objective
 Explain or apply: Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation
 ## definition
-Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation.
+Drug excreted in **bile** can be __reabsorbed from the intestine__, setting up an **enterohepatic circulation**.
 ## label
-Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation
+Enterohepatic circulation
 ## modules
 108 INT
 ## module_subject
