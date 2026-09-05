@@ -4,7 +4,7 @@
 CON-FND-74F14B0C28F74B
 
 ## label
-Choosing a cytogenetic technique matches the size and kind of abnormality suspected: conventional karyotyping for a numerical or large structural change, FISH for a specific known probe target, and microarray for a genome-wide copy-number screen that still misses balanced rearrangements
+Cytogenetic technique selection by indication
 
 ## canonical_key
 genetics.cytogenetics.technique-selection-by-indication
@@ -19,7 +19,17 @@ Choosing FISH vs karyotype vs microarray
 ## arabic_aliases
 
 ## definition
-The four ASU cytogenetic techniques are not interchangeable: conventional karyotyping is the first-line, general-purpose test for a numerical aberration (such as trisomy 21) or a large structural one, and is what confirms a balanced translocation because it is the only technique of the four that visualises the whole chromosome complement rather than screening for a known target or for copy-number change. High-resolution karyotyping arrests cells earlier (prophase/prometaphase) to resolve smaller structural abnormalities than conventional karyotyping can. FISH targets one known, specific probe (a microdeletion such as 15q, or a suspected aneuploidy), is faster than karyotyping, but requires knowing what to look for in advance. Microarray screens the whole genome for copy-number changes (microdeletions, microduplications, trisomies, monosomies) at higher resolution than karyotyping, but — because it detects gain or loss of material rather than its arrangement — it cannot detect a balanced translocation or inversion, where no material is gained or lost. Indications for referring a patient for cytogenetic analysis include intellectual disability with dysmorphic facies, short stature in a female (possible Turner syndrome), fertility problems and recurrent miscarriage, and advanced maternal age in pregnancy — but not universal newborn screening, which is not indicated for every infant.
+The four cytogenetic techniques are not interchangeable — each matches the size and kind of abnormality suspected.
+
+**Conventional karyotyping** is the first-line, general-purpose test for a **numerical aberration** (such as trisomy 21) or a large structural one. __It is the only one of the four that visualises the whole chromosome complement, so it is what confirms a balanced translocation.__
+
+**High-resolution karyotyping** arrests cells earlier (prophase/prometaphase) to resolve **smaller structural abnormalities** than conventional karyotyping can.
+
+**FISH** targets one known, specific probe (a microdeletion such as 15q, or a suspected aneuploidy) and is faster than karyotyping, but __requires knowing what to look for in advance.__
+
+**Microarray** screens the whole genome for **copy-number changes** (microdeletions, microduplications, trisomies, monosomies) at higher resolution than karyotyping. Because it detects gain or loss of material rather than its arrangement, __it cannot detect a balanced translocation or inversion__, where no material is gained or lost.
+
+Indications for referral include intellectual disability with dysmorphic facies, short stature in a female (possible Turner syndrome), fertility problems and recurrent miscarriage, and advanced maternal age — **but not universal newborn screening**.
 
 ## explicit_objective
 Given a clinical indication (a suspected microdeletion, a numerical aneuploidy, a balanced translocation, or a genome-wide unbalanced rearrangement), select the cytogenetic technique that can actually detect it, and state why the others cannot.
