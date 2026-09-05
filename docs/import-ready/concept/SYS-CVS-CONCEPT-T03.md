@@ -1,6 +1,6 @@
 # Item
 ## label
-A fixed coronary stenosis limits maximal flow, not resting flow
+Fixed stenosis and demand ischaemia
 ## id
 CON-CVS-F77D6322B0BCF6
 ## canonical_key
@@ -12,7 +12,9 @@ Demand ischaemia | Flow-limiting stenosis
 ## arabic_aliases
 نقص التروية الطلبي
 ## definition
-An atherosclerotic narrowing reduces the maximum flow a coronary artery can deliver while leaving resting flow intact, because distal arteriolar dilatation compensates until that reserve is exhausted. Symptoms therefore appear only when demand rises.
+An atherosclerotic narrowing reduces the **maximum flow** a coronary artery can deliver while leaving __resting flow intact__ — distal arteriolar dilatation compensates until that reserve is exhausted.
+
+Symptoms therefore appear only when **demand rises**.
 ## explicit_objective
 Explain why a stenosis produces exertional symptoms and no resting symptoms, using coronary flow reserve.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Angina is called stable when its provoking threshold and relief are reproducible
+What makes angina 'stable'
 ## id
 CON-CVS-75ACD62292F389
 ## canonical_key
@@ -88,7 +90,9 @@ Stable angina definition | Anginal threshold
 ## arabic_aliases
 عتبة الذبحة
 ## definition
-Stable angina is chest discomfort provoked by a predictable amount of exertion or emotion and relieved within minutes by rest or nitrate. Stability is a statement about the pattern over time, not about severity — severe angina can be stable, and mild new angina is not.
+**Stable angina** is chest discomfort provoked by a predictable amount of exertion or emotion and relieved within minutes by rest or nitrate.
+
+Stability describes the __pattern over time, not the severity__ — severe angina can be stable, and mild new angina is not.
 ## explicit_objective
 Define stability by reproducibility of threshold and relief rather than by intensity.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Myocardial ischaemia can occur without pain
+Silent ischaemia
 ## id
 CON-CVS-4A4EAE32C2A3F8
 ## canonical_key
@@ -164,7 +168,9 @@ Silent myocardial ischaemia | Asymptomatic ischaemia
 ## arabic_aliases
 نقص التروية الصامت
 ## definition
-Ischaemia produces its metabolic and electrical consequences whether or not the afferent pathway reports pain. Silent ischaemia is objectively demonstrable ischaemia without angina, and it carries the same prognostic weight as the symptomatic form.
+Ischaemia produces its metabolic and electrical consequences __whether or not the afferent pathway reports pain__.
+
+**Silent ischaemia** is objectively demonstrable ischaemia without angina, and it carries the __same prognostic weight__ as the symptomatic form.
 ## explicit_objective
 State that ischaemia and angina are separable, and name the groups in whom pain is commonly absent.
 ## pitfalls
@@ -228,7 +234,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Diabetic autonomic neuropathy blunts the warning of ischaemia
+Diabetic neuropathy and silent ischaemia
 ## id
 CON-CVS-14B0C5FA3D00FD
 ## canonical_key
@@ -240,7 +246,9 @@ Silent ischaemia in diabetes
 ## arabic_aliases
 نقص التروية الصامت في السكري
 ## definition
-Damage to the visceral afferent fibres that carry cardiac pain leaves the ischaemic signal ungenerated. Patients with long-standing diabetes therefore present with breathlessness, fatigue, or an infarct found incidentally, rather than with chest pain.
+Damage to the **visceral afferent fibres** that carry cardiac pain leaves the ischaemic signal ungenerated.
+
+Long-standing diabetics therefore present with __breathlessness, fatigue, or an incidentally found infarct__ rather than with chest pain.
 ## explicit_objective
 Explain silent presentation in diabetes from loss of the afferent pathway, and predict the atypical symptoms that replace pain.
 ## pitfalls
@@ -304,7 +312,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Acute coronary syndromes share one mechanism: plaque disruption with thrombosis
+Plaque disruption and thrombosis
 ## id
 CON-CVS-03CFAE6A58D964
 ## canonical_key
@@ -316,7 +324,11 @@ Plaque rupture | Atherothrombosis
 ## arabic_aliases
 تمزق اللويحة العصيدية
 ## definition
-Unstable angina, non-ST-elevation myocardial infarction and ST-elevation myocardial infarction are one disease at three severities. A vulnerable plaque ruptures or erodes, exposes thrombogenic material, and a thrombus forms. How much of the lumen that thrombus occludes, and for how long, decides which of the three results.
+Unstable angina, **non-ST-elevation myocardial infarction** and **ST-elevation myocardial infarction** are one disease at three severities.
+
+A vulnerable plaque __ruptures or erodes__, exposes thrombogenic material, and a thrombus forms.
+
+How much of the lumen that thrombus occludes, and for how long, decides which of the three results.
 ## explicit_objective
 Explain the acute coronary syndromes as one mechanism differing in degree of occlusion rather than three separate diseases.
 ## pitfalls
@@ -380,7 +392,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Troponin separates unstable angina from infarction
+Troponin: unstable angina vs infarction
 ## id
 CON-CVS-A99EFE8C4351C9
 ## canonical_key
@@ -392,7 +404,9 @@ Unstable angina versus NSTEMI
 ## arabic_aliases
 دور التروبونين في التفريق
 ## definition
-Unstable angina and non-ST-elevation myocardial infarction present identically. What distinguishes them is whether myocardial necrosis occurred: a rise and fall in cardiac troponin means infarction, and its absence means ischaemia that stopped short of cell death.
+Unstable angina and **non-ST-elevation myocardial infarction** present identically.
+
+What separates them is whether **myocardial necrosis** occurred: a __rise and fall in cardiac troponin means infarction__, and its absence means ischaemia that stopped short of cell death.
 ## explicit_objective
 Use the troponin result as the single discriminator between unstable angina and NSTEMI, and state that the clinical picture does not distinguish them.
 ## pitfalls
@@ -456,7 +470,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Myocardial infarction requires a troponin rise together with evidence of ischaemia
+Defining myocardial infarction
 ## id
 CON-CVS-D28E18DD959A0F
 ## canonical_key
@@ -468,7 +482,9 @@ Universal definition of myocardial infarction
 ## arabic_aliases
 التعريف العالمي للاحتشاء
 ## definition
-Infarction is diagnosed when a rise or fall in cardiac troponin, with at least one value above the upper reference limit, occurs together with evidence of myocardial ischaemia — symptoms, new ischaemic ECG change, new loss of viable myocardium on imaging, or thrombus at angiography.
+Infarction requires a **rise or fall in cardiac troponin**, with at least one value above the upper reference limit, __together with evidence of ischaemia__.
+
+That evidence is any of: symptoms, new ischaemic ECG change, new loss of viable myocardium on imaging, or thrombus at angiography.
 ## explicit_objective
 State both halves of the definition and explain why a troponin value alone does not diagnose infarction.
 ## pitfalls
@@ -532,7 +548,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Type 1 infarction is atherothrombotic; type 2 is supply-demand mismatch
+Type 1 vs type 2 infarction
 ## id
 CON-CVS-D7397BCE4C0BEA
 ## canonical_key
@@ -544,7 +560,11 @@ MI classification by mechanism
 ## arabic_aliases
 تصنيف الاحتشاء حسب الآلية
 ## definition
-A type 1 infarct follows plaque disruption and thrombus in a coronary artery. A type 2 infarct follows an imbalance between myocardial oxygen supply and demand without plaque disruption — severe anaemia, tachyarrhythmia, hypotension, sepsis. The two need different treatment, so the distinction is not academic.
+A **type 1 infarct** follows plaque disruption and thrombus in a coronary artery.
+
+A **type 2 infarct** follows a __supply–demand imbalance without plaque disruption__ — severe anaemia, tachyarrhythmia, hypotension, sepsis.
+
+The two need different treatment, so the distinction is not academic.
 ## explicit_objective
 Distinguish the two mechanisms and explain why the treatment differs.
 ## pitfalls
@@ -608,7 +628,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-ST elevation indicates complete occlusion and transmural ischaemia
+ST elevation means complete occlusion
 ## id
 CON-CVS-E098BA1F8E472C
 ## canonical_key
@@ -620,7 +640,9 @@ STEMI mechanism | Transmural ischaemia
 ## arabic_aliases
 الاحتشاء عبر الجدار
 ## definition
-When a coronary thrombus occludes the vessel completely, ischaemia extends through the full thickness of the wall and the injured segment generates a current that lifts the ST segment in the leads facing it. The finding therefore reports an occluded artery, which is why it and not the troponin determines the urgency.
+When a coronary thrombus occludes the vessel completely, ischaemia extends through the **full thickness of the wall**, and the injured segment generates a current that __lifts the ST segment__ in the facing leads.
+
+The finding reports an **occluded artery** — which is why it, not the troponin, sets the urgency.
 ## explicit_objective
 Connect ST elevation to complete occlusion and transmural ischaemia, and explain why it drives urgency ahead of any blood test.
 ## pitfalls
@@ -684,7 +706,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The leads showing ST elevation localise the occluded artery
+ECG leads localise the occluded artery
 ## id
 CON-CVS-7D1C84E60DA84D
 ## canonical_key
@@ -696,7 +718,11 @@ Infarct territory localisation | Culprit vessel from the ECG
 ## arabic_aliases
 تحديد الشريان المسؤول من التخطيط
 ## definition
-Each ECG lead looks at a region of myocardium, and each region is supplied by a known artery. Anterior leads report the anterior interventricular artery, inferior leads the right coronary in most hearts, and lateral leads the circumflex. The pattern of elevation therefore names the vessel before any angiogram.
+Each ECG lead looks at a region of myocardium, and each region has a known artery.
+
+**Anterior** leads report the anterior interventricular artery, **inferior** leads the right coronary in most hearts, and **lateral** leads the circumflex.
+
+The pattern of elevation therefore __names the vessel before any angiogram__.
 ## explicit_objective
 Map lead groups to coronary territories and infer the culprit vessel from the ECG.
 ## pitfalls
@@ -760,7 +786,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Time from occlusion to reperfusion determines how much myocardium survives
+Time-dependent myocardial salvage
 ## id
 CON-CVS-4F4134BADDE6A1
 ## canonical_key
@@ -772,7 +798,9 @@ Time is muscle | Myocardial salvage
 ## arabic_aliases
 الوقت عضلة
 ## definition
-Necrosis after coronary occlusion begins in the subendocardium and advances outwards over hours. Restoring flow early salvages the myocardium that has not yet died, so the benefit of reperfusion falls steeply with delay.
+Necrosis after occlusion begins in the **subendocardium** and advances outwards over hours.
+
+Restoring flow early salvages myocardium that has not yet died, so __the benefit of reperfusion falls steeply with delay__.
 ## explicit_objective
 Explain the wavefront of necrosis and derive from it why reperfusion is time-critical.
 ## pitfalls
@@ -836,7 +864,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Arrhythmia is the commonest early cause of death after infarction
+Early post-infarction arrhythmia
 ## id
 CON-CVS-50689264617D53
 ## canonical_key
@@ -848,7 +876,9 @@ Ventricular fibrillation after MI | Early post-MI arrhythmia
 ## arabic_aliases
 رجفان بطيني بعد الاحتشاء
 ## definition
-Ischaemic myocardium is electrically unstable, and ventricular fibrillation in the first hours after infarction is the commonest mechanism of death — frequently before the patient reaches hospital. This is why continuous monitoring, not any drug, is the first intervention after the diagnosis is suspected.
+Ischaemic myocardium is electrically unstable, and **ventricular fibrillation** in the first hours is the __commonest mechanism of death__ — often before the patient reaches hospital.
+
+This is why **continuous monitoring**, not any drug, is the first intervention once infarction is suspected.
 ## explicit_objective
 Identify early ventricular arrhythmia as the leading early cause of death and justify immediate monitoring.
 ## pitfalls
@@ -912,7 +942,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Mechanical complications of infarction follow the timing of tissue softening
+Timing of mechanical complications
 ## id
 CON-CVS-47C35793220C42
 ## canonical_key
@@ -924,7 +954,9 @@ Papillary muscle rupture | Free wall rupture | Post-infarction VSD
 ## arabic_aliases
 تمزق العضلة الحليمية
 ## definition
-Necrotic myocardium is at its weakest while macrophages are clearing it and before fibrous replacement is complete. Rupture of the free wall, of the interventricular septum, or of a papillary muscle therefore clusters in the days after infarction rather than at its onset.
+Necrotic myocardium is weakest while macrophages are clearing it and before fibrous replacement is complete.
+
+**Rupture** — of the free wall, the interventricular septum, or a papillary muscle — therefore __clusters in the days after infarction__ rather than at its onset.
 ## explicit_objective
 Relate the timing of mechanical complications to the histological stage of infarct healing.
 ## pitfalls
@@ -988,7 +1020,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Ventricular remodelling after infarction changes the shape of the chamber, not only the scar
+Post-infarction ventricular remodelling
 ## id
 CON-CVS-622D9ADBF1CB2D
 ## canonical_key
@@ -1000,7 +1032,9 @@ Adverse remodelling | Ventricular dilatation after MI
 ## arabic_aliases
 إعادة التشكل البطيني
 ## definition
-After a large infarct the surviving myocardium is loaded more heavily, and over weeks to months the ventricle dilates and becomes more spherical. That geometric change reduces efficiency and drives the progression from an infarct to chronic heart failure.
+After a large infarct the surviving myocardium is loaded more heavily, and over weeks to months the ventricle **dilates and becomes more spherical**.
+
+That geometric change reduces efficiency and __drives the progression from infarct to chronic heart failure__.
 ## explicit_objective
 Explain remodelling as a progressive change in chamber geometry and connect it to later heart failure.
 ## pitfalls
