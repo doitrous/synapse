@@ -98,13 +98,15 @@
 
 # Item
 ## label
-Pharmacokinetics is what the body does to the drug; pharmacodynamics is what the drug does to the body
+Pharmacokinetics vs pharmacodynamics
 ## id
 CON-FND-6BB35F11EBD54B
 ## canonical_key
 teaching.pharma.scope.kinetics-vs-dynamics
 ## definition
-Pharmacokinetics describes the movement of a drug through the body — absorption, distribution, metabolism and excretion — and so determines the concentration that reaches the site of action. Pharmacodynamics describes what the drug then does there: the receptors it occupies, the effect it produces, and how that effect grows with concentration.
+**Pharmacokinetics** describes the movement of a drug through the body — absorption, distribution, metabolism and excretion — and so __determines the concentration that reaches the site of action__.
+
+**Pharmacodynamics** describes what the drug then does there: the receptors it occupies, the effect it produces, and how that effect grows with concentration.
 ## explicit_objective
 Sort a described drug property into pharmacokinetics or pharmacodynamics, and say which one determines concentration and which determines effect.
 ## pitfalls
@@ -235,13 +237,15 @@ relationships: Walked the 40 concepts in this batch and the 9 live concepts unde
 
 # Item
 ## label
-Most drugs cross cell membranes by passive diffusion, which favours the small, lipid-soluble, non-ionised molecule
+Simple diffusion across membranes
 ## id
 CON-FND-584FCF6897C35E
 ## canonical_key
 teaching.pharma.membrane.simple-diffusion
 ## definition
-Simple diffusion carries a drug down its concentration gradient through the lipid of the membrane, without a carrier and without energy. Only the uncharged, lipid-soluble fraction of the drug can make the crossing, so molecular size, lipid solubility and degree of ionisation set the rate.
+**Simple diffusion** carries a drug down its concentration gradient through the lipid of the membrane, __without a carrier and without energy__.
+
+Only the **uncharged, lipid-soluble** fraction can make the crossing, so molecular size, lipid solubility and degree of ionisation set the rate.
 ## explicit_objective
 Predict whether a drug will cross a membrane by simple diffusion from its size, lipid solubility and degree of ionisation.
 ## pitfalls
@@ -368,13 +372,17 @@ relationships: Prerequisite_of the absorption, distribution and excretion record
 
 # Item
 ## label
-Carrier-mediated transport of drugs needs a carrier, is saturable, and can be blocked by competition
+Carrier-mediated drug transport
 ## id
 CON-FND-9D7D3A5B015805
 ## canonical_key
 teaching.pharma.membrane.carrier-mediated
 ## definition
-Some drugs cross membranes bound to a protein carrier rather than through the lipid. Facilitated diffusion runs down the concentration gradient and needs no energy; active transport runs against it and does need energy. Both are saturable, both are relatively selective, and both can be inhibited by another drug competing for the same carrier.
+Some drugs cross membranes bound to a **protein carrier** rather than through the lipid.
+
+**Facilitated diffusion** runs down the concentration gradient and needs no energy; **active transport** runs against it and does need energy.
+
+Both are __saturable__, relatively selective, and can be inhibited by another drug competing for the same carrier.
 ## explicit_objective
 Recognise carrier-mediated transport from its three signatures — carrier dependence, saturability and competitive inhibition — and separate active transport from facilitated diffusion by direction and energy use.
 ## pitfalls
@@ -506,13 +514,15 @@ relationships: contrasts_with CON-FND-584FCF6897C35E and prerequisite_of CON-FND
 
 # Item
 ## label
-A drug's pKa and the pH of the medium decide what fraction of it is non-ionised, and therefore how well it is absorbed
+pH partition and ionisation
 ## id
 CON-FND-ED16C95CE71A4B
 ## canonical_key
 teaching.pharma.ionisation.ph-partition
 ## definition
-Most drugs are weak acids or weak bases, so they exist as an equilibrium between an ionised and a non-ionised form. Only the non-ionised form is lipid-soluble enough to diffuse across a membrane. A weak acid is mostly non-ionised in an acidic medium and a weak base is mostly non-ionised in an alkaline one, so the pH of the compartment decides how readily each is absorbed.
+Most drugs are **weak acids or weak bases**, so they exist as an equilibrium between an ionised and a non-ionised form. __Only the non-ionised form is lipid-soluble enough to diffuse across a membrane.__
+
+A **weak acid** is mostly non-ionised in an acidic medium and a **weak base** is mostly non-ionised in an alkaline one, so the pH of the compartment decides how readily each is absorbed.
 ## explicit_objective
 Predict, for a weak acid or a weak base, whether it will be mainly ionised or non-ionised in a given compartment, and say what that does to its absorption.
 ## pitfalls
@@ -642,13 +652,17 @@ relationships: prerequisite_of CON-FND-97E55D75DE9ED1 (ion trapping) and mechani
 
 # Item
 ## label
-Ion trapping: a drug that ionises in a compartment cannot leave it, which is why urine pH is manipulated in overdose
+Ion trapping
 ## id
 CON-FND-97E55D75DE9ED1
 ## canonical_key
 teaching.pharma.ionisation.ion-trapping
 ## definition
-When a drug crosses into a compartment whose pH ionises it, the charged form cannot diffuse back and the drug accumulates there. Alkalinising the urine ionises a weak acid in the tubule and traps it for excretion; acidifying the urine does the same for a weak base. The same trapping explains why weak bases concentrate in gastric juice and in breast milk.
+When a drug crosses into a compartment whose pH ionises it, __the charged form cannot diffuse back and the drug accumulates there__.
+
+Alkalinising the urine ionises a **weak acid** in the tubule and traps it for excretion; acidifying the urine does the same for a **weak base**.
+
+The same trapping explains why weak bases concentrate in gastric juice and in breast milk.
 ## explicit_objective
 Choose whether to alkalinise or acidify the urine to speed the excretion of a named weak acid or weak base, and explain the trapping that makes it work.
 ## pitfalls
@@ -776,13 +790,17 @@ relationships: caused_by CON-FND-ED16C95CE71A4B and mechanism_step_before CON-FN
 
 # Item
 ## label
-Oral absorption is set by gastrointestinal surface area, gastric emptying, blood flow and what else is in the gut
+Factors in oral absorption
 ## id
 CON-FND-F2DD5E50875917
 ## canonical_key
 teaching.pharma.absorption.oral-factors
 ## definition
-The small intestine absorbs most orally given drugs because its villi give it by far the largest surface area. How fast a drug reaches that surface depends on gastric emptying; how fast it leaves depends on splanchnic blood flow. Food, other drugs and gut disease change all three, and can compete directly with the drug for absorption.
+The **small intestine** absorbs most orally given drugs because its villi give it __by far the largest surface area__.
+
+How fast a drug reaches that surface depends on **gastric emptying**; how fast it leaves depends on **splanchnic blood flow**.
+
+Food, other drugs and gut disease change all three, and can compete directly with the drug for absorption.
 ## explicit_objective
 Given a change in gastric emptying, gut motility, blood flow or gut contents, predict its effect on the rate and the extent of oral drug absorption.
 ## pitfalls
@@ -912,13 +930,15 @@ relationships: mechanism_step_before CON-FND-CF40F32A8A74A0 (bioavailability) an
 
 # Item
 ## label
-Bioavailability is the fraction of an oral dose that reaches the systemic circulation, and first-pass metabolism is what removes the rest
+Bioavailability and first-pass metabolism
 ## id
 CON-FND-CF40F32A8A74A0
 ## canonical_key
 teaching.pharma.bioavailability.first-pass
 ## definition
-Bioavailability is the fraction of an administered dose that reaches the systemic circulation unchanged. An intravenous dose is by definition completely bioavailable. An oral dose is not, because it must survive the gut lumen, the gut wall and then the liver, which it passes through before reaching the rest of the body — the first-pass effect.
+**Bioavailability** is the fraction of an administered dose that reaches the systemic circulation unchanged. An **intravenous** dose is by definition completely bioavailable.
+
+An **oral** dose is not, because it must survive the gut lumen, the gut wall and then the liver, which it passes through before reaching the rest of the body — __the first-pass effect__.
 ## explicit_objective
 Define bioavailability and first-pass metabolism, and explain why the same drug needs a larger dose by mouth than by vein.
 ## pitfalls
@@ -1050,13 +1070,15 @@ relationships: This is the most heavily weighted record in the kinetics half —
 
 # Item
 ## label
-Drugs distribute into one of four patterns, from staying in plasma to concentrating in a single tissue
+The four patterns of distribution
 ## id
 CON-FND-040D2633B0A2FE
 ## canonical_key
 teaching.pharma.distribution.patterns
 ## definition
-A drug may stay almost entirely in the plasma, spread through the extracellular fluid, spread through total body water by entering every cell, or leave the water compartments altogether and concentrate in one tissue such as fat, bone or thyroid. Which pattern it takes follows from its size, its charge, its lipid solubility and how tightly plasma proteins hold it.
+A drug may stay almost entirely in the **plasma**, spread through the **extracellular fluid**, spread through **total body water** by entering every cell, or leave the water compartments altogether and **concentrate in one tissue** such as fat, bone or thyroid.
+
+Which pattern it takes follows from its __size, charge, lipid solubility and how tightly plasma proteins hold it__.
 ## explicit_objective
 Match a drug's physical properties to the distribution pattern it will follow, and name the body compartment each pattern corresponds to.
 ## pitfalls
@@ -1183,13 +1205,15 @@ relationships: prerequisite_of the live Vd records CON-FND-CBA2A73AE9A6D8, CON-F
 
 # Item
 ## label
-Plasma protein binding, lipid solubility, blood flow and tissue affinity are what decide where a drug goes
+What decides where a drug goes
 ## id
 CON-FND-53FF18E42BC94B
 ## canonical_key
 teaching.pharma.distribution.factors
 ## definition
-Only free drug can leave the circulation, so the fraction bound to plasma protein — chiefly albumin for acids, alpha-1 acid glycoprotein for bases — limits distribution and acts as a reservoir. Lipid solubility decides whether the free drug can cross membranes, regional blood flow decides how fast it arrives, and affinity for a particular tissue decides where it accumulates.
+__Only free drug can leave the circulation__, so the fraction bound to plasma protein — chiefly **albumin** for acids, **alpha-1 acid glycoprotein** for bases — limits distribution and acts as a reservoir.
+
+**Lipid solubility** decides whether the free drug can cross membranes, **regional blood flow** decides how fast it arrives, and **tissue affinity** decides where it accumulates.
 ## explicit_objective
 List the factors that determine drug distribution and explain, for each, the direction in which it moves the drug.
 ## pitfalls
@@ -1318,13 +1342,17 @@ relationships: prerequisite_of CON-FND-040D2633B0A2FE and mechanism_step_before 
 
 # Item
 ## label
-The blood-brain barrier, the placenta and breast milk each let only some drugs through, and each has a clinical consequence
+Blood-brain barrier, placenta, breast milk
 ## id
 CON-FND-3CECD012838275
 ## canonical_key
 teaching.pharma.distribution.barriers
 ## definition
-The blood-brain barrier admits lipid-soluble, non-ionised, unbound drug and excludes the rest, which is why some antibiotics never reach the meninges and why a centrally acting drug must be lipid-soluble. The placenta is a far weaker barrier and most drugs cross it, so a drug given to a pregnant woman is given to the fetus. Weak bases are trapped in the relatively acidic breast milk and reach the infant.
+The **blood-brain barrier** admits lipid-soluble, non-ionised, unbound drug and excludes the rest, which is why some antibiotics never reach the meninges and why a centrally acting drug must be lipid-soluble.
+
+The **placenta** is a far weaker barrier and most drugs cross it, so __a drug given to a pregnant woman is given to the fetus__.
+
+Weak bases are trapped in the relatively acidic **breast milk** and reach the infant.
 ## explicit_objective
 Predict whether a named drug will cross the blood-brain barrier or the placenta, and state the clinical consequence of it doing so.
 ## pitfalls
@@ -1453,13 +1481,17 @@ relationships: The secondary placement SYS-FND-T04-S03-M03 (Special populations)
 
 # Item
 ## label
-The liver is the main site of drug metabolism, but the gut wall, plasma, lung and kidney all metabolise drugs too
+Where drugs are metabolised
 ## id
 CON-FND-C3B843D7032C7F
 ## canonical_key
 teaching.pharma.metabolism.sites
 ## definition
-Biotransformation converts a drug into a more polar metabolite that the kidney can excrete. The liver does most of it, which is why hepatic disease and first-pass metabolism matter so much, but the intestinal wall, plasma esterases, the lung and the kidney also carry out drug metabolism, and for some drugs they carry out most of it.
+**Biotransformation** converts a drug into a more polar metabolite that the kidney can excrete.
+
+The **liver** does most of it, which is why hepatic disease and first-pass metabolism matter so much.
+
+But the **intestinal wall, plasma esterases, the lung and the kidney** also metabolise drugs, and for some drugs they carry out most of it.
 ## explicit_objective
 Name the sites of drug metabolism in order of importance and say why extrahepatic metabolism changes what happens to a drug given by mouth.
 ## pitfalls
@@ -1586,13 +1618,15 @@ relationships: prerequisite_of CON-FND-44B6AE3E7DDA55 and part_of the first-pass
 
 # Item
 ## label
-Phase I reactions expose or add a reactive group; Phase II conjugates it, and the drug leaves the body only after the second
+Phase I and Phase II metabolism
 ## id
 CON-FND-44B6AE3E7DDA55
 ## canonical_key
 teaching.pharma.metabolism.phases
 ## definition
-Phase I is non-synthetic: oxidation, reduction or hydrolysis unmasks or introduces a functional group, and the metabolite may be less active, equally active or more active than the parent drug. Phase II is synthetic: the drug or its Phase I metabolite is conjugated — with glucuronic acid, sulphate, acetate, glycine or glutathione — into a polar, usually inactive product that the kidney can excrete.
+**Phase I** is non-synthetic: oxidation, reduction or hydrolysis unmasks or introduces a functional group, and the metabolite may be __less active, equally active or more active__ than the parent drug.
+
+**Phase II** is synthetic: the drug or its Phase I metabolite is **conjugated** — with glucuronic acid, sulphate, acetate, glycine or glutathione — into a polar, usually inactive product that the kidney can excrete.
 ## explicit_objective
 Compare Phase I and Phase II metabolism by reaction type, effect on activity and effect on polarity, and explain why a drug may need both.
 ## pitfalls
@@ -1720,13 +1754,15 @@ relationships: ILO 15 carries both ticks and the 2024 paper asked Phase I as a 1
 
 # Item
 ## label
-Microsomal enzymes are hepatic, inducible and act on lipid-soluble drugs; non-microsomal enzymes are neither confined to the liver nor inducible
+Microsomal vs non-microsomal enzymes
 ## id
 CON-FND-E34035C5B4FF80
 ## canonical_key
 teaching.pharma.metabolism.microsomal-vs-nonmicrosomal
 ## definition
-Microsomal enzymes sit in the smooth endoplasmic reticulum of the hepatocyte, chiefly the cytochrome P450 system, act on lipid-soluble drugs, catalyse most Phase I reactions and glucuronide conjugation, and can be induced or inhibited. Non-microsomal enzymes are cytoplasmic or mitochondrial, are found in the liver and in plasma, gut and other tissues, catalyse the remaining conjugations and some oxidations, and are not inducible.
+**Microsomal enzymes** sit in the smooth endoplasmic reticulum of the hepatocyte, chiefly the **cytochrome P450** system; they act on lipid-soluble drugs, catalyse most Phase I reactions and glucuronide conjugation, and __can be induced or inhibited__.
+
+**Non-microsomal enzymes** are cytoplasmic or mitochondrial, found in the liver and in plasma, gut and other tissues; they catalyse the remaining conjugations and some oxidations, and are __not inducible__.
 ## explicit_objective
 Compare microsomal and non-microsomal drug-metabolising enzymes by site, organs involved, phases catalysed and inducibility.
 ## pitfalls
@@ -1856,13 +1892,17 @@ relationships: ILO 18 carries both ticks and the 2025 paper asked it as a single
 
 # Item
 ## label
-Enzyme induction speeds a drug's own metabolism and everyone else's; enzyme inhibition does the opposite and does it faster
+Enzyme induction and inhibition
 ## id
 CON-FND-450B67836EBF1A
 ## canonical_key
 teaching.pharma.metabolism.induction-inhibition
 ## definition
-An inducer increases the synthesis of microsomal enzymes over days to weeks, so the drug that induced them and any other drug they metabolise is cleared faster, loses effect, and may need a larger dose — and a prodrug may become more toxic. An inhibitor blocks the enzyme within hours, so the affected drug accumulates and its effect and toxicity rise. Age, genetics, liver disease, malnutrition, smoking and diet all shift enzyme activity in the same way.
+An **inducer** increases the synthesis of microsomal enzymes over days to weeks, so the drug that induced them and any other drug they metabolise is cleared faster, loses effect, and may need a larger dose — and a prodrug may become more toxic.
+
+An **inhibitor** blocks the enzyme within hours, so the affected drug accumulates and its effect and toxicity rise.
+
+Age, genetics, liver disease, malnutrition, smoking and diet all shift enzyme activity in the same way.
 ## explicit_objective
 Predict what induction or inhibition of a drug-metabolising enzyme does to the plasma level, effect and toxicity of a co-administered drug, and say which acts faster.
 ## pitfalls
@@ -1995,13 +2035,17 @@ relationships: causes CON-FND-7F618A3D1F940B (pharmacokinetic interaction) and i
 
 # Item
 ## label
-Renal drug elimination is the sum of glomerular filtration, active tubular secretion and passive tubular reabsorption
+Renal excretion: three processes
 ## id
 CON-FND-88101C454AAF1D
 ## canonical_key
 teaching.pharma.excretion.renal-processes
 ## definition
-Only free, unbound drug is filtered at the glomerulus, so a highly protein-bound drug is barely filtered at all. Active tubular secretion needs a carrier, handles acids and bases on separate transporters, and can move bound drug as well. Passive reabsorption returns lipid-soluble, non-ionised drug from the tubule to the blood, which is why urine pH changes the final amount excreted.
+__Only free, unbound drug is filtered at the glomerulus__, so a highly protein-bound drug is barely filtered at all.
+
+**Active tubular secretion** needs a carrier, handles acids and bases on separate transporters, and can move bound drug as well.
+
+**Passive reabsorption** returns lipid-soluble, non-ionised drug from the tubule to the blood, which is why urine pH changes the final amount excreted.
 ## explicit_objective
 Break renal drug elimination into its three processes and say, for a named drug property, which process it affects and in which direction.
 ## pitfalls
@@ -2132,13 +2176,17 @@ relationships: part_of relationships run from CON-FND-01E59D0FD26046 up to this 
 
 # Item
 ## label
-Drugs also leave the body through the lungs, the gut, sweat, saliva and milk, and each route has a use or a hazard
+Non-renal routes of excretion
 ## id
 CON-FND-67D5E471045317
 ## canonical_key
 teaching.pharma.excretion.non-renal
 ## definition
-Volatile drugs and gases are excreted by the lungs, which is what makes a breath alcohol test possible and what governs recovery from an inhalational anaesthetic. The alimentary tract excretes drug in bile and in gastrointestinal secretions. Skin glands excrete drug in sweat, and salivary and mammary glands do the same — so a drug can reach a breastfed infant by an exit route rather than an entry one.
+**Volatile drugs and gases** are excreted by the lungs, which is what makes a breath alcohol test possible and what governs recovery from an inhalational anaesthetic.
+
+The **alimentary tract** excretes drug in bile and in gastrointestinal secretions.
+
+**Skin, salivary and mammary glands** excrete drug in sweat, saliva and milk — so a drug can reach a breastfed infant by __an exit route rather than an entry one__.
 ## explicit_objective
 Name the non-renal routes of drug excretion and give, for each, one clinical use or hazard that follows from it.
 ## pitfalls
@@ -2268,13 +2316,15 @@ relationships: mechanism_step_before CON-FND-9D89A82094F8AA on the biliary route
 
 # Item
 ## label
-First-order elimination removes a constant fraction per unit time; zero-order removes a constant amount, because the enzyme is saturated
+First-order vs zero-order elimination
 ## id
 CON-FND-BB7BEEC27836BE
 ## canonical_key
 teaching.pharma.kinetics.order
 ## definition
-Most drugs are eliminated by first-order kinetics: the rate is proportional to the concentration, so a constant fraction goes per unit time, half-life is constant, and doubling the dose doubles the steady-state level. When the eliminating enzyme or carrier is saturated the process becomes zero-order: a constant amount goes per unit time whatever the concentration, half-life is no longer fixed, and a small dose increase can produce a large and dangerous rise in plasma level.
+Most drugs follow **first-order kinetics**: the rate is proportional to the concentration, so a __constant fraction__ goes per unit time, half-life is constant, and doubling the dose doubles the steady-state level.
+
+When the eliminating enzyme or carrier is saturated the process becomes **zero-order**: a __constant amount__ goes per unit time whatever the concentration, half-life is no longer fixed, and a small dose increase can produce a large and dangerous rise in plasma level.
 ## explicit_objective
 Compare first-order and zero-order elimination by rate, constancy of half-life and behaviour on dose increase, and recognise which one a described drug is following.
 ## pitfalls
@@ -2404,13 +2454,17 @@ relationships: prerequisite_of CON-FND-955AD7B6FE6F03 and CON-FND-7A66C16BA5029C
 
 # Item
 ## label
-Plasma half-life is the time taken for the plasma concentration to fall by half, and it is fixed only in first-order elimination
+Plasma half-life
 ## id
 CON-FND-955AD7B6FE6F03
 ## canonical_key
 teaching.pharma.halflife.definition
 ## definition
-The plasma half-life, t1/2, is the time in which the plasma concentration of a drug falls to half its value. It follows from the volume of distribution and the clearance together, not from either alone, and it is a constant only while elimination is first-order; once the eliminating enzyme saturates, the half-life lengthens as the concentration rises.
+The **plasma half-life (t1/2)** is the time in which the plasma concentration falls to half its value.
+
+It follows from the **volume of distribution and the clearance together**, not from either alone.
+
+It is a constant __only while elimination is first-order__; once the eliminating enzyme saturates, the half-life lengthens as the concentration rises.
 ## explicit_objective
 Define plasma half-life and state the two kinetic parameters that determine it and the condition under which it stays constant.
 ## pitfalls
@@ -2542,13 +2596,15 @@ relationships: ILO 25 carries both ticks and the 2025 paper asked it as a 1-mark
 
 # Item
 ## label
-Four to five half-lives are needed to reach steady state on repeated dosing, and the same to clear a drug after stopping
+Using the half-life: four to five rule
 ## id
 CON-FND-3D0ACE759233EC
 ## canonical_key
 teaching.pharma.halflife.applications
 ## definition
-Because a first-order process removes a constant fraction, roughly 50, 75, 87.5 and 94 per cent of the way to the plateau is covered in successive half-lives, so about four to five half-lives bring a repeated-dose regimen to steady state and about the same number clear the drug once it is stopped. The half-life therefore sets the dosing interval, tells you when to expect full effect, and tells you when a drug will have washed out.
+Because a first-order process removes a constant fraction, successive half-lives cover roughly **50, 75, 87.5 and 94 per cent** of the way to the plateau, so about __four to five half-lives__ bring a repeated-dose regimen to steady state and about the same number clear the drug once it is stopped.
+
+The half-life therefore sets the **dosing interval**, tells you when to expect full effect, and tells you when a drug will have washed out.
 ## explicit_objective
 Use a drug's half-life to predict the time to steady state, the time to washout, and a sensible dosing interval.
 ## pitfalls
@@ -2677,13 +2733,15 @@ relationships: prerequisite_of CON-FND-3CC86CC26BF549 — the loading dose exist
 
 # Item
 ## label
-Steady state is reached when the rate of drug entering the body equals the rate leaving it
+Steady state
 ## id
 CON-FND-7A66C16BA5029C
 ## canonical_key
 teaching.pharma.steadystate.definition
 ## definition
-On repeated dosing or continuous infusion the plasma concentration rises until elimination matches administration; from then on the average concentration stays constant and the drug is at steady state. The level of that plateau is set by the dose rate and the clearance; the time taken to reach it is set by the half-life alone.
+On repeated dosing or continuous infusion the plasma concentration rises until __elimination matches administration__; from then on the average concentration stays constant and the drug is at **steady state**.
+
+The **level** of that plateau is set by the dose rate and the clearance; the **time** taken to reach it is set by the half-life alone.
 ## explicit_objective
 State the condition that defines steady state, and separate what determines the level of the plateau from what determines the time taken to reach it.
 ## pitfalls
@@ -2814,13 +2872,17 @@ relationships: prerequisite_of the live CON-FND-7F59EAD61B05E0, and caused_by CO
 
 # Item
 ## label
-Drugs act through receptors, through enzymes, through ion channels and transporters, or by physical and chemical means with no receptor at all
+How drugs act
 ## id
 CON-FND-1A18E2FEA47B37
 ## canonical_key
 teaching.pharma.action.mechanisms
 ## definition
-Most drugs act on a receptor, but not all do. A drug may inhibit or activate an enzyme, block or open an ion channel, compete for a transporter, replace a deficient substance, or act by a purely physical or chemical mechanism such as an osmotic laxative or an antacid neutralising gastric acid. Naming the mechanism is what predicts the drug's selectivity and its side-effect profile.
+Most drugs act on a **receptor**, but not all do.
+
+A drug may inhibit or activate an **enzyme**, block or open an **ion channel**, compete for a **transporter**, replace a deficient substance, or act by a purely **physical or chemical** mechanism — an osmotic laxative, an antacid neutralising gastric acid.
+
+__Naming the mechanism is what predicts the drug's selectivity and its side-effect profile.__
 ## explicit_objective
 Sort a named drug action into receptor-mediated, enzyme-mediated, channel or transporter-mediated, or non-receptor physical or chemical action.
 ## pitfalls
@@ -2949,13 +3011,17 @@ relationships: prerequisite_of CON-FND-38CD8C0BD5B4DE and CON-FND-42F34977A8DF23
 
 # Item
 ## label
-A receptor is the macromolecule a drug binds; affinity is how readily it binds, and it is not the same as producing an effect
+Receptors and affinity
 ## id
 CON-FND-38CD8C0BD5B4DE
 ## canonical_key
 teaching.pharma.receptor.affinity
 ## definition
-A receptor is a cellular macromolecule, usually a protein, with which a drug forms a reversible complex that begins a chain of events ending in the drug's effect. Affinity is the tendency of the drug to form that complex and to hold it — the ability to fit onto the receptor. Affinity alone says nothing about whether the complex then does anything.
+A **receptor** is a cellular macromolecule, usually a protein, with which a drug forms a reversible complex that begins a chain of events ending in the drug's effect.
+
+**Affinity** is the tendency of the drug to form that complex and hold it — the ability to fit onto the receptor.
+
+__Affinity alone says nothing about whether the complex then does anything.__
 ## explicit_objective
 Define a receptor and define affinity, and explain why a drug with high affinity may still produce no effect.
 ## pitfalls
@@ -3086,13 +3152,17 @@ relationships: often_confused_with CON-FND-17149EED384DCA — affinity against p
 
 # Item
 ## label
-Potency is the dose needed for an effect; efficacy is the largest effect the drug can produce, and a potent drug may have low efficacy
+Efficacy vs potency
 ## id
 CON-FND-17149EED384DCA
 ## canonical_key
 teaching.pharma.response.efficacy-vs-potency
 ## definition
-Efficacy is the maximum response a drug can produce however much of it is given — the Emax, the height of the plateau on a concentration-response curve. Potency is the amount needed to produce a given response — the position of the curve along the dose axis, read off as the EC50 or ED50. The two are independent: of two drugs at the same receptor, the more potent may reach a lower maximum.
+**Efficacy** is the maximum response a drug can produce however much is given — the **Emax**, the height of the plateau on a concentration-response curve.
+
+**Potency** is the amount needed to produce a given response — the position of the curve along the dose axis, read as the **EC50 or ED50**.
+
+__The two are independent__: of two drugs at the same receptor, the more potent may reach a lower maximum.
 ## explicit_objective
 Read efficacy and potency off a concentration-response curve, and decide from two drugs' maximum effects which has the greater efficacy.
 ## pitfalls
@@ -3225,13 +3295,19 @@ relationships: often_confused_with CON-FND-38CD8C0BD5B4DE, and prerequisite_of C
 
 # Item
 ## label
-A ligand may be a full agonist, a partial agonist, an inverse agonist or an antagonist, according to what its binding does to the receptor
+Agonists, partial, inverse, antagonists
 ## id
 CON-FND-4388E0D8A75FD4
 ## canonical_key
 teaching.pharma.ligands.types
 ## definition
-A full agonist binds and produces the maximum response the receptor can give. A partial agonist binds with affinity but produces a submaximal response however much is given, and in the presence of a full agonist it acts as an antagonist. An inverse agonist binds and produces the opposite of the agonist's effect by reducing the receptor's constitutive activity. An antagonist binds with affinity, has no efficacy of its own, and acts only by preventing an agonist from binding.
+A **full agonist** binds and produces the maximum response the receptor can give.
+
+A **partial agonist** binds with affinity but produces a submaximal response however much is given, and __in the presence of a full agonist it acts as an antagonist__.
+
+An **inverse agonist** produces the opposite of the agonist's effect by reducing the receptor's constitutive activity.
+
+An **antagonist** binds with affinity, has no efficacy of its own, and acts only by preventing an agonist from binding.
 ## explicit_objective
 Classify a ligand from its affinity and its efficacy, and explain why a partial agonist behaves as an antagonist when a full agonist is present.
 ## pitfalls
@@ -3362,13 +3438,15 @@ relationships: is_a hierarchy under CON-FND-38CD8C0BD5B4DE, and prerequisite_of 
 
 # Item
 ## label
-A competitive antagonist shifts the agonist curve right and is surmountable; a non-competitive antagonist lowers Emax and is not
+Competitive vs non-competitive antagonism
 ## id
 CON-FND-138FC0AB7A3461
 ## canonical_key
 teaching.pharma.antagonism.competitive-vs-noncompetitive
 ## definition
-A competitive antagonist binds the same site as the agonist, so enough agonist displaces it: the concentration-response curve shifts to the right in parallel, potency falls, and the maximum response is eventually still reached. A non-competitive antagonist binds elsewhere or binds irreversibly, so agonist cannot displace it: the curve flattens, the maximum response falls, and no amount of agonist restores it.
+A **competitive antagonist** binds the same site as the agonist, so enough agonist displaces it: the curve shifts __right in parallel__, potency falls, but the maximum response is eventually still reached — it is **surmountable**.
+
+A **non-competitive antagonist** binds elsewhere or binds irreversibly, so agonist cannot displace it: the curve flattens, the __maximum response falls__, and no amount of agonist restores it.
 ## explicit_objective
 Distinguish competitive from non-competitive antagonism from the shape of the shifted concentration-response curve, and say for each whether excess agonist can overcome it.
 ## pitfalls
@@ -3503,13 +3581,17 @@ relationships: This is the single most heavily examined pharmacodynamics point i
 
 # Item
 ## label
-An irreversible antagonist binds covalently, so its block lifts only when the cell makes new receptors
+Irreversible antagonism
 ## id
 CON-FND-390F2D9EC3D6DC
 ## canonical_key
 teaching.pharma.antagonism.irreversible
 ## definition
-A reversible non-competitive antagonist dissociates from its site, so the block wears off as the drug is cleared. An irreversible antagonist forms a covalent bond, so clearing the drug from plasma does not restore the receptor: the effect lasts until the cell synthesises replacements, which can be days. Neither can be overcome by adding more agonist.
+A **reversible** non-competitive antagonist dissociates from its site, so the block wears off as the drug is cleared.
+
+An **irreversible** antagonist forms a **covalent bond**, so clearing the drug from plasma does not restore the receptor: __the effect lasts until the cell synthesises replacements__, which can be days.
+
+Neither can be overcome by adding more agonist.
 ## explicit_objective
 Explain why the duration of an irreversible antagonist's effect is set by receptor turnover rather than by its plasma half-life.
 ## pitfalls
@@ -3638,13 +3720,19 @@ relationships: is_a specialisation of CON-FND-138FC0AB7A3461, and often_confused
 
 # Item
 ## label
-The four receptor types transduce signals on four different timescales, from milliseconds at an ion channel to hours at a nuclear receptor
+Four receptor types, four timescales
 ## id
 CON-FND-42F34977A8DF23
 ## canonical_key
 teaching.pharma.receptor.transduction-types
 ## definition
-Ligand-gated ion channels open a pore directly and act in milliseconds. G-protein-coupled receptors act through a G protein and a second messenger in seconds. Enzyme-linked receptors, such as tyrosine kinases, phosphorylate intracellular targets over minutes to hours. Intracellular nuclear receptors bind a lipid-soluble ligand and alter gene transcription, so their effect appears over hours to days and outlasts the drug.
+**Ligand-gated ion channels** open a pore directly and act in **milliseconds**.
+
+**G-protein-coupled receptors** act through a G protein and a second messenger in **seconds**.
+
+**Enzyme-linked receptors**, such as tyrosine kinases, phosphorylate intracellular targets over **minutes to hours**.
+
+**Nuclear receptors** bind a lipid-soluble ligand and alter gene transcription, so their effect appears over __hours to days and outlasts the drug__.
 ## explicit_objective
 Name the four receptor types, describe how each transduces its signal, and give the timescale of the response each produces.
 ## pitfalls
@@ -3777,13 +3865,17 @@ relationships: The heaviest record in the file. ILO 36 carries both ticks and th
 
 # Item
 ## label
-Adverse drug reactions are classified A to E: augmented, bizarre, chronic, delayed and end-of-use
+Adverse drug reactions: types A to E
 ## id
 CON-FND-D957928472CA57
 ## canonical_key
 teaching.pharma.adr.classification
 ## definition
-An adverse drug reaction is a harmful and unintended response to a drug at doses used for therapy. Type A is an augmented, predictable extension of the drug's known action; Type B is bizarre and unpredictable; Type C follows chronic use; Type D appears after a delay; Type E follows the end of use. The letter carries the prediction: it says whether the reaction is dose-related, whether it was foreseeable, and when to expect it.
+An **adverse drug reaction** is a harmful and unintended response to a drug at doses used for therapy.
+
+**Type A** is an augmented, predictable extension of the drug's known action; **Type B** is bizarre and unpredictable; **Type C** follows chronic use; **Type D** appears after a delay; **Type E** follows the end of use.
+
+__The letter carries the prediction__: whether the reaction is dose-related, whether it was foreseeable, and when to expect it.
 ## explicit_objective
 Assign a described adverse reaction to type A, B, C, D or E, and justify the assignment from dose-dependence, predictability and timing.
 ## pitfalls
@@ -3911,13 +4003,15 @@ relationships: Neither ILO 38 nor ILO 39 appeared on either paper read, which is
 
 # Item
 ## label
-Type A reactions are dose-dependent extensions of the drug's action; Type B reactions are not dose-dependent and not predictable from it
+Type A versus Type B reactions
 ## id
 CON-FND-062BA29B028382
 ## canonical_key
 teaching.pharma.adr.type-a-vs-type-b
 ## definition
-A Type A reaction is the drug doing more of what it does — bleeding on an anticoagulant, hypoglycaemia on insulin. It is common, dose-related, predictable from the mechanism, and managed by reducing the dose. A Type B reaction bears no relation to the known pharmacology, occurs in a susceptible minority, is not dose-related, is often severe, and is managed by stopping the drug and never giving it again.
+A **Type A** reaction is the drug doing more of what it does — bleeding on an anticoagulant, hypoglycaemia on insulin. It is common, __dose-related__, predictable from the mechanism, and managed by reducing the dose.
+
+A **Type B** reaction bears no relation to the known pharmacology, occurs in a susceptible minority, is __not dose-related__, is often severe, and is managed by stopping the drug and never giving it again.
 ## explicit_objective
 Separate Type A from Type B from a clinical description, and state the different management each implies.
 ## pitfalls
@@ -4046,13 +4140,17 @@ relationships: is_a specialisation of CON-FND-D957928472CA57 and often_confused_
 
 # Item
 ## label
-Allergy is immune-mediated, idiosyncrasy is genetically determined, and super-sensitivity is an exaggerated normal response to a small dose
+Allergy, idiosyncrasy, super-sensitivity
 ## id
 CON-FND-7FFD028F1C7B58
 ## canonical_key
 teaching.pharma.adr.allergy-vs-idiosyncrasy
 ## definition
-Drug allergy is an immune response to the drug or a metabolite, so it needs prior sensitisation and is unrelated to dose. Idiosyncrasy is a qualitatively abnormal response arising from a genetic difference in an enzyme or a receptor, present on first exposure and needing no immune mechanism. Super-sensitivity is quantitatively abnormal rather than qualitative: the normal action of the drug, exaggerated, after a small therapeutic dose.
+**Drug allergy** is an immune response to the drug or a metabolite, so it needs prior sensitisation and is __unrelated to dose__.
+
+**Idiosyncrasy** is a qualitatively abnormal response from a genetic difference in an enzyme or receptor, present on first exposure and needing no immune mechanism.
+
+**Super-sensitivity** is quantitatively abnormal rather than qualitative: the normal action of the drug, __exaggerated__, after a small therapeutic dose.
 ## explicit_objective
 Distinguish allergy, idiosyncrasy and super-sensitivity by mechanism, by whether prior exposure is needed and by whether the response is qualitatively normal.
 ## pitfalls
@@ -4189,13 +4287,17 @@ relationships: This record carries the highest weight_confidence in the ADR grou
 
 # Item
 ## label
-Type C, D and E reactions declare themselves late: chronic use, delayed teratogenic or carcinogenic effects, and withdrawal on stopping
+Type C, D and E reactions
 ## id
 CON-FND-2A5DE8657047E4
 ## canonical_key
 teaching.pharma.adr.chronic-delayed-withdrawal
 ## definition
-Type C reactions need continued exposure and appear during chronic use. Type D reactions appear long after the exposure that caused them and include teratogenicity — a structural defect produced in the developing fetus — carcinogenicity and mutagenicity, a heritable change in the genetic material. Type E reactions follow withdrawal of a drug the body has adapted to, and are prevented by tapering rather than by stopping.
+**Type C** reactions need continued exposure and appear during chronic use.
+
+**Type D** reactions appear long after the exposure that caused them: **teratogenicity** (a structural defect in the developing fetus), **carcinogenicity** and **mutagenicity** (a heritable change in the genetic material).
+
+**Type E** reactions follow withdrawal of a drug the body has adapted to, and are __prevented by tapering rather than by stopping__.
 ## explicit_objective
 Recognise a chronic, a delayed and an end-of-use adverse reaction from its timing relative to the drug, and define teratogenicity and mutagenicity.
 ## pitfalls
@@ -4332,13 +4434,17 @@ relationships: The secondary placement SYS-FND-T04-S03-M03 (Special populations)
 
 # Item
 ## label
-Acquired tolerance is pharmacokinetic when the body clears the drug faster and pharmacodynamic when the receptor stops responding
+Pharmacokinetic and pharmacodynamic tolerance
 ## id
 CON-FND-A1FC8CB691E6C5
 ## canonical_key
 teaching.pharma.tolerance.mechanisms
 ## definition
-Tolerance is the need for a larger dose to produce the effect an earlier dose produced. It is pharmacokinetic when the drug induces the enzymes that metabolise it, so less reaches the receptor. It is pharmacodynamic when the receptor itself adapts — chronic agonist exposure reduces receptor number and sensitivity, down-regulation, while chronic antagonist exposure increases them, up-regulation, which is why an abruptly withdrawn antagonist can produce rebound.
+**Tolerance** is the need for a larger dose to produce the effect an earlier dose produced.
+
+It is **pharmacokinetic** when the drug induces the enzymes that metabolise it, so less reaches the receptor.
+
+It is **pharmacodynamic** when the receptor itself adapts — chronic agonist exposure reduces receptor number and sensitivity (**down-regulation**), while chronic antagonist exposure increases them (**up-regulation**), __which is why an abruptly withdrawn antagonist can produce rebound__.
 ## explicit_objective
 Assign a described mechanism of tolerance to the pharmacokinetic or the pharmacodynamic route, and predict the effect of chronic agonist or antagonist exposure on receptor number.
 ## pitfalls
@@ -4472,13 +4578,17 @@ relationships: caused_by CON-FND-42F34977A8DF23 on the pharmacodynamic side and 
 
 # Item
 ## label
-Habituation is psychic dependence, physical dependence shows itself on withdrawal, and addiction is both plus compulsive drug-seeking
+Habituation, physical dependence, addiction
 ## id
 CON-FND-57E821D46F016D
 ## canonical_key
 teaching.pharma.dependence.subtypes
 ## definition
-Habituation, or psychic dependence, is a desire to continue taking a drug for the sense of well-being it gives, with no physical withdrawal syndrome if it stops. Physical dependence is an adapted state in which stopping the drug produces a characteristic withdrawal syndrome, so the drug must be tapered. Addiction is the compulsive state combining both, with drug-seeking behaviour that overrides the harm being done.
+**Habituation (psychic dependence)** is a desire to continue a drug for the sense of well-being it gives, with __no physical withdrawal syndrome__ if it stops.
+
+**Physical dependence** is an adapted state in which stopping the drug produces a characteristic **withdrawal syndrome**, so the drug must be tapered.
+
+**Addiction** is the compulsive state combining both, with __drug-seeking behaviour that overrides the harm being done__.
 ## explicit_objective
 Distinguish habituation, physical dependence and addiction from a clinical description, and say which of them requires a taper.
 ## pitfalls
@@ -4609,13 +4719,17 @@ relationships: ILO 44 carries both ticks and neither sitting read has asked it, 
 
 # Item
 ## label
-Drug interactions are pharmaceutical before administration, pharmacokinetic through ADME, or pharmacodynamic at the site of action
+Three kinds of drug interaction
 ## id
 CON-FND-7F618A3D1F940B
 ## canonical_key
 teaching.pharma.interactions.mechanisms
 ## definition
-A pharmaceutical interaction happens outside the patient, when two drugs are mixed in a syringe or an infusion and react chemically or precipitate. A pharmacokinetic interaction happens when one drug changes another's absorption, distribution, metabolism or excretion, so the plasma level moves. A pharmacodynamic interaction happens when both drugs act on the same system, so the effect moves without the plasma level changing at all.
+A **pharmaceutical** interaction happens outside the patient, when two drugs mixed in a syringe or infusion react chemically or precipitate.
+
+A **pharmacokinetic** interaction happens when one drug changes another's absorption, distribution, metabolism or excretion, so the __plasma level moves__.
+
+A **pharmacodynamic** interaction happens when both drugs act on the same system, so __the effect moves without the plasma level changing at all__.
 ## explicit_objective
 Assign a described drug interaction to the pharmaceutical, pharmacokinetic or pharmacodynamic mechanism, and say whether the plasma concentration of the affected drug would change.
 ## pitfalls
@@ -4748,13 +4862,19 @@ relationships: caused_by CON-FND-450B67836EBF1A and CON-FND-53FF18E42BC94B on th
 
 # Item
 ## label
-Two drugs together may summate, synergise, potentiate or reverse each other, and the four are not interchangeable words
+Summation, synergism, potentiation, reversal
 ## id
 CON-FND-CE72B2E63A736B
 ## canonical_key
 teaching.pharma.interactions.combination-effects
 ## definition
-Summation is two drugs with the same action producing an effect equal to the sum of their separate effects. Synergism is a combined effect greater than that sum. Potentiation is one drug increasing the effect of another that has, on its own, no such effect. Reversal of action is one drug turning another's effect into its opposite, as happens when one component of a mixed response is blocked and the other is left unopposed.
+**Summation** is two drugs with the same action producing an effect equal to the sum of their separate effects.
+
+**Synergism** is a combined effect __greater than that sum__.
+
+**Potentiation** is one drug increasing the effect of another that has, on its own, no such effect.
+
+**Reversal of action** is one drug turning another's effect into its opposite, as when one component of a mixed response is blocked and the other is left unopposed.
 ## explicit_objective
 Name which of summation, synergism, potentiation or reversal a described drug combination shows, from the effect of each drug alone and of the two together.
 ## pitfalls
@@ -4883,13 +5003,15 @@ relationships: is_a specialisation of CON-FND-7F618A3D1F940B, and often_confused
 
 # Item
 ## label
-Chemical and physiological antagonism work without a shared receptor: one binds the drug, the other opposes it through a second pathway
+Chemical and physiological antagonism
 ## id
 CON-FND-A1E2092A49359C
 ## canonical_key
 teaching.pharma.antagonism.chemical-physiological
 ## definition
-Chemical antagonism is a direct reaction between two substances in solution, so the antagonist inactivates the drug before it reaches any receptor — a chelating agent binding a heavy metal, an antacid neutralising acid. Physiological, or functional, antagonism is two drugs acting at different receptors on different systems to produce opposite effects on the same measurement, so each cancels the other without either binding the other's receptor.
+**Chemical antagonism** is a direct reaction between two substances in solution, so the antagonist inactivates the drug __before it reaches any receptor__ — a chelating agent binding a heavy metal, an antacid neutralising acid.
+
+**Physiological (functional) antagonism** is two drugs acting at different receptors on different systems to produce opposite effects on the same measurement, so each cancels the other __without either binding the other's receptor__.
 ## explicit_objective
 Distinguish chemical from physiological antagonism, and separate both from receptor antagonism by asking whether the two drugs share a receptor at all.
 ## pitfalls
@@ -5018,13 +5140,17 @@ relationships: contrasts_with CON-FND-138FC0AB7A3461 — the whole point is that
 
 # Item
 ## label
-The therapeutic index is the ratio of the toxic dose to the effective dose, and it is a measure of safety, not of potency
+Therapeutic index and window
 ## id
 CON-FND-BB0DBAE1BC802B
 ## canonical_key
 teaching.pharma.posology.therapeutic-index
 ## definition
-ED50 is the dose producing the desired effect in half a population, LD50 the dose killing half of it, and the therapeutic index is the ratio of the two. A large ratio means a wide gap between the dose that works and the dose that harms, so the drug is safe to give without monitoring. The therapeutic window is the related but narrower idea of the plasma concentration range within which effect is achieved without toxicity, and it is what plasma-level monitoring aims at.
+**ED50** is the dose producing the desired effect in half a population, **LD50** the dose killing half of it, and the **therapeutic index** is the ratio of the two.
+
+A large ratio means a __wide gap between the dose that works and the dose that harms__, so the drug is safe to give without monitoring.
+
+The **therapeutic window** is the related but narrower idea — the plasma concentration range within which effect is achieved without toxicity — and it is what plasma-level monitoring aims at.
 ## explicit_objective
 Define ED50, LD50 and the therapeutic index, say what a large or small index implies for monitoring, and distinguish the index from the therapeutic window.
 ## pitfalls
@@ -5158,13 +5284,17 @@ relationships: The clearest case in the file where the tick pattern and the pape
 
 # Item
 ## label
-Routes of administration divide into enteral, parenteral and topical, and the route chosen is a kinetic decision before it is a practical one
+Routes: enteral, parenteral, topical
 ## id
 CON-FND-6A60CE8D2E7C5C
 ## canonical_key
 teaching.pharma.routes.classification
 ## definition
-Enteral routes deliver the drug to the gastrointestinal tract — oral, sublingual, buccal and rectal. Parenteral routes bypass it — intravenous, intramuscular, subcutaneous, intra-arterial, intracardiac, intrathecal and intra-articular. Topical routes act on a surface. The division matters because it predicts bioavailability, speed of onset, and whether the first pass through the liver happens at all.
+**Enteral** routes deliver the drug to the gastrointestinal tract — oral, sublingual, buccal and rectal.
+
+**Parenteral** routes bypass it — intravenous, intramuscular, subcutaneous, intra-arterial, intracardiac, intrathecal and intra-articular.
+
+**Topical** routes act on a surface. The division matters because it __predicts bioavailability, speed of onset, and whether the first pass through the liver happens at all__.
 ## explicit_objective
 Classify a named route as enteral, parenteral or topical, and state what that classification predicts about first-pass metabolism and onset.
 ## pitfalls
@@ -5296,13 +5426,17 @@ relationships: The whole routes section of both papers is picture-led — the st
 
 # Item
 ## label
-The oral route is the safest and most convenient, and its price is the first pass, slow onset and dependence on a co-operative gut
+The oral route and its price
 ## id
 CON-FND-3CC8853A7D6DA8
 ## canonical_key
 teaching.pharma.routes.oral-first-pass
 ## definition
-Oral administration is safe, painless, cheap and self-administered, and it is the route of choice whenever it will work. It is also slow in onset, useless in vomiting or unconsciousness, unreliable when gut motility or contents vary, unsuitable for a drug destroyed by gastric acid or digestive enzymes, and it exposes the drug to the first pass. Sublingual and buccal administration keep the convenience while draining into the systemic veins, so they escape the first pass and act fast.
+**Oral** administration is safe, painless, cheap and self-administered, and it is the route of choice whenever it will work.
+
+It is also slow in onset, useless in vomiting or unconsciousness, unreliable when gut motility or contents vary, unsuitable for a drug destroyed by gastric acid or enzymes, and it exposes the drug to the **first pass**.
+
+**Sublingual and buccal** administration keep the convenience while draining into the systemic veins, so they __escape the first pass and act fast__.
 ## explicit_objective
 Give the advantages and disadvantages of the oral route, and explain why the sublingual route acts faster and escapes first-pass metabolism.
 ## pitfalls
@@ -5437,13 +5571,17 @@ relationships: caused_by CON-FND-CF40F32A8A74A0, and the sublingual half contras
 
 # Item
 ## label
-Intravenous bolus, slow intravenous injection and infusion differ in speed, in control, and in what they can safely deliver
+Intravenous: bolus, slow injection, infusion
 ## id
 CON-FND-6235934A8DD0FE
 ## canonical_key
 teaching.pharma.routes.intravenous-types
 ## definition
-An intravenous bolus delivers the whole dose at once, giving the fastest possible onset and complete bioavailability, and offering no way to stop once it is given. Slow intravenous injection spreads the same dose over minutes so a dangerous peak is avoided. Infusion delivers the drug continuously at a controlled rate, which is how a steady state is held and how an irritant drug is diluted; other parenteral hazards follow the same logic, which is why intra-arterial injection risks distal ischaemia and intrathecal injection is reserved for drugs that must reach the central nervous system directly.
+An **intravenous bolus** delivers the whole dose at once, giving the fastest possible onset and complete bioavailability, and __offering no way to stop once it is given__.
+
+**Slow intravenous injection** spreads the same dose over minutes so a dangerous peak is avoided.
+
+**Infusion** delivers the drug continuously at a controlled rate, which is how a steady state is held and how an irritant drug is diluted. The same logic explains why intra-arterial injection risks distal ischaemia and intrathecal injection is reserved for drugs that must reach the CNS directly.
 ## explicit_objective
 Differentiate intravenous bolus, slow intravenous injection and infusion by speed, controllability and indication, and state the hazard of inadvertent intra-arterial injection.
 ## pitfalls
