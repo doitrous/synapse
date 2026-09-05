@@ -2642,8 +2642,7 @@ atomicClaimIds: Left as-is (untouched) — the live record already carries a cla
 CON-MSK-3EE23956EE2DDB
 
 ## label
-The three hamstring muscles all arise from the ischial tuberosity, except the short head of biceps, and all flex the knee and extend the hip
-
+The hamstring muscles
 ## canonical_key
 thigh-back.hamstrings.attachments-action-nerve
 
@@ -2663,8 +2662,13 @@ Muscles of the back of thigh
 العضلة نصف الغشائية
 
 ## definition
-The hamstring muscles are biceps femoris, semitendinosus and semimembranosus. All three arise from the ischial tuberosity, except the short head of biceps femoris, which arises instead from the linea aspera; all three are supplied by the sciatic nerve; and all three flex the knee and extend the hip. Biceps femoris has two heads: the long head, from the ischial tuberosity with semitendinosus, supplied by the tibial part of the sciatic nerve; and the short head, from the lateral lip of the linea aspera, supplied by the common peroneal part. Both heads unite into a common tendon inserting into the head of the fibula, producing flexion and lateral rotation of the knee, with the long head alone also extending the hip. Semitendinosus arises with the long head of biceps and inserts into the upper medial tibia behind sartorius and gracilis; it is one of the three "guy-rope" muscles (with sartorius and gracilis) that steady the pelvis on the femur, and it flexes and medially rotates the knee besides extending the hip. Semimembranosus arises from the upper lateral part of the ischial tuberosity and inserts into the groove on the back of the medial tibial condyle, the knee capsule, the popliteal fascia and the soleal line; it flexes and medially rotates the knee and extends the hip.
+The **hamstrings** are biceps femoris, semitendinosus and semimembranosus. All three __arise from the ischial tuberosity, except the short head of biceps__ (from the linea aspera); all are supplied by the sciatic nerve; and all flex the knee and extend the hip.
 
+**Biceps femoris** has two heads: the long head, from the ischial tuberosity with semitendinosus, supplied by the tibial part of the sciatic nerve; and the short head, from the lateral lip of the linea aspera, supplied by the common peroneal part. Both unite into a common tendon inserting into the head of the fibula, producing flexion and lateral rotation of the knee, with the long head alone also extending the hip.
+
+**Semitendinosus** arises with the long head of biceps and inserts into the upper medial tibia behind sartorius and gracilis. It is one of the three "guy-rope" muscles (with sartorius and gracilis) that steady the pelvis on the femur, and it flexes and medially rotates the knee besides extending the hip.
+
+**Semimembranosus** arises from the upper lateral part of the ischial tuberosity and inserts into the groove on the back of the medial tibial condyle, the knee capsule, the popliteal fascia and the soleal line. It flexes and medially rotates the knee and extends the hip.
 ## explicit_objective
 Name the three hamstring muscles, state which one alone does not arise from the ischial tuberosity, and give the nerve supply, insertion and actions of each.
 
@@ -2828,8 +2832,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-BBBD5662711A93
 
 ## label
-The knee joint's capsule is reinforced by four extracapsular and three intracapsular ligaments, and two menisci deepen its tibial surfaces
-
+Ligaments and menisci of the knee joint
 ## canonical_key
 joints.knee.capsule-ligaments-menisci
 
@@ -2848,8 +2851,15 @@ Collateral ligaments of the knee
 الهلالتان الغضروفيتان
 
 ## definition
-The knee is a synovial, modified-hinge joint between the lower end of the femur, the upper end of the tibia and the back of the patella. Its fibrous capsule is reinforced by four extracapsular ligaments: the patellar ligament anteriorly, the downward continuation of the quadriceps tendon from the patella to the tibial tuberosity; the fibular (lateral) collateral ligament, a cord from the lateral femoral epicondyle to the fibular head, separated from the lateral meniscus by the tendon of popliteus so the meniscus stays free and mobile; the tibial (medial) collateral ligament, a flattened band from the medial femoral epicondyle to the medial tibial condyle, firmly attached to the medial meniscus; and the oblique popliteal ligament posteriorly, an expansion of semimembranosus's own insertion. Three ligaments lie inside the capsule: the anterior and posterior cruciate ligaments, and the transverse ligament connecting the anterior horns of the two menisci. The medial meniscus is C-shaped and larger, its anterior and posterior horns attached to the tibial intercondylar area; it is firmly fixed to the tibial collateral ligament and capsule, which makes it less mobile and more liable to injury. The lateral meniscus is smaller and circular, separated from the capsule and fibular collateral ligament by popliteus, which makes it more mobile and less liable to injury. Both menisci deepen the tibial articular surfaces to fit the convex femoral condyles and act as shock absorbers.
+The knee is a **synovial, modified-hinge joint** between the lower end of the femur, the upper end of the tibia and the back of the patella.
 
+Its capsule is reinforced by **four extracapsular ligaments**: the **patellar ligament** anteriorly, continuing the quadriceps tendon from patella to tibial tuberosity; the **fibular (lateral) collateral ligament**, a cord from the lateral femoral epicondyle to the fibular head, separated from the lateral meniscus by popliteus so the meniscus stays mobile; the **tibial (medial) collateral ligament**, a band from the medial femoral epicondyle to the medial tibial condyle, firmly attached to the medial meniscus; and the **oblique popliteal ligament** posteriorly, an expansion of semimembranosus.
+
+**Three ligaments lie inside the capsule**: the anterior and posterior cruciate ligaments, and the transverse ligament connecting the anterior horns of the two menisci.
+
+The **medial meniscus** is C-shaped and larger, its horns attached to the tibial intercondylar area; it is firmly fixed to the tibial collateral ligament and capsule, which makes it __less mobile and more liable to injury__. The **lateral meniscus** is smaller and circular, separated from the capsule and fibular collateral ligament by popliteus, which makes it __more mobile and less liable to injury__.
+
+Both menisci deepen the tibial articular surfaces to fit the convex femoral condyles and act as **shock absorbers**.
 ## explicit_objective
 List the four extracapsular and three intracapsular ligaments of the knee joint, and contrast the medial and lateral menisci by shape, attachment and mobility, explaining why the medial meniscus is more often injured.
 
@@ -3013,8 +3023,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-9B1204D74AF4FF
 
 ## label
-The knee locks into a rigid column on full extension by lateral rotation of the tibia, and unlocks by popliteus rotating the femur laterally on the tibia
-
+Movements and locking of the knee
 ## canonical_key
 joints.knee.movements-locking-mechanism
 
@@ -3032,8 +3041,17 @@ Popliteus unlocking mechanism
 دور العضلة المأبضية في فك القفل
 
 ## definition
-Flexion and extension are the main movements of the knee: flexion by the three hamstrings, assisted by popliteus, sartorius and gracilis; extension by quadriceps femoris alone. A slight further rotation is possible: active rotation, performed only with the knee semiflexed, is lateral rotation by biceps femoris alone and medial rotation by sartorius, gracilis, semitendinosus and semimembranosus together; passive (obligatory) rotation occurs automatically during the last 15 degrees of extension, locking the knee by lateral rotation of the tibia on the femur, and during the first 15 degrees of flexion, unlocking it by medial rotation of the tibia on the femur. Locking happens because the anterior cruciate ligament becomes taut before extension is complete on the lateral side, so extension continues on the medial side, producing rotation — helped by the medial articular surfaces of the femur being longer front-to-back than the lateral ones; quadriceps femoris is the muscle responsible, and locking makes the limb a rigid column for standing and walking. Unlocking is produced by popliteus alone, rotating the femur laterally on the fixed tibia (or, equivalently, the tibia medially on the femur) at the start of flexion. Nerve supply of the joint is from three genicular branches of the tibial nerve, three from the common peroneal nerve, and branches from the femoral and obturator nerves as for the hip joint — which is why hip disease can refer pain to the knee. Its arterial supply is from the anastomosis around the knee.
+Flexion and extension are the main movements: **flexion** by the three hamstrings, assisted by popliteus, sartorius and gracilis; **extension** by quadriceps femoris alone.
 
+A slight rotation is possible only with the knee semiflexed: **active** lateral rotation by biceps femoris, and medial rotation by sartorius, gracilis, semitendinosus and semimembranosus together.
+
+**Passive (obligatory) rotation** occurs automatically in the last 15 degrees of extension, __locking the knee by lateral rotation of the tibia on the femur__, and in the first 15 degrees of flexion, unlocking it by medial rotation of the tibia on the femur.
+
+**Locking** happens because the anterior cruciate ligament becomes taut before extension is complete on the lateral side, so extension continues on the medial side, producing rotation — helped by the medial femoral articular surfaces being longer front-to-back than the lateral. Quadriceps femoris is the muscle responsible, and locking makes the limb a __rigid column for standing and walking__.
+
+**Unlocking** is produced by **popliteus** alone, rotating the femur laterally on the fixed tibia at the start of flexion.
+
+The joint's nerve supply is from three genicular branches of the tibial nerve, three from the common peroneal nerve, and branches from the femoral and obturator nerves as for the hip — __which is why hip disease can refer pain to the knee__. Its arterial supply is from the anastomosis around the knee.
 ## explicit_objective
 Explain the mechanism and the muscles responsible for locking and unlocking the knee joint, and state why locking matters functionally for standing and walking.
 
@@ -3197,8 +3215,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-C4AD88B60ADDB8
 
 ## label
-The ankle is a hinge joint between the tibia, fibula and talus, stabilised by the medial deltoid ligament and three lateral bands, allowing only plantar flexion and dorsiflexion
-
+The ankle joint
 ## canonical_key
 joints.ankle.surfaces-ligaments-movements
 
@@ -3216,8 +3233,15 @@ Talo-crural joint
 الرباط الوحشي للكاحل
 
 ## definition
-The ankle joint is a synovial, uniaxial, hinge joint. Its articulating surfaces are the lower end of the tibia and its medial malleolus above and medially, the lateral malleolus of the fibula above and laterally, and the trochlea of the talus below. The medial ligament, the deltoid ligament, is triangular, attached by its apex to the tip of the medial malleolus and by its base to the neck of talus, the tuberosity of the navicular, the spring ligament, the sustentaculum tali and the body of talus. The lateral ligament is formed of three separate bands radiating from the lateral malleolus: the anterior talofibular ligament, to the talus; the posterior talofibular ligament, running horizontally from the malleolar fossa of the fibula to the talus; and the calcaneofibular ligament, a vertical middle band from the lateral malleolus to the lateral calcaneus. A posterior tibiofibular ligament runs from the upper part of the malleolar fossa to the medial malleolus. Only two movements occur at the ankle: plantar flexion, produced mainly by gastrocnemius and soleus and helped by the deep calf muscles (tibialis posterior, flexor hallucis longus, flexor digitorum longus); and dorsiflexion, produced by the anterior compartment muscles (tibialis anterior, extensor digitorum longus, extensor hallucis longus, peroneus tertius). Nerve supply is from the anterior and posterior tibial nerves, and arterial supply from the anastomosis around the ankle, around the two malleoli.
+The **ankle joint** is a **synovial, uniaxial, hinge joint**. Its articulating surfaces are the lower end of the tibia and its medial malleolus above and medially, the lateral malleolus of the fibula above and laterally, and the **trochlea of the talus** below.
 
+The medial ligament, the **deltoid ligament**, is triangular, attached by its apex to the tip of the medial malleolus and by its base to the neck of talus, the tuberosity of the navicular, the spring ligament, the sustentaculum tali and the body of talus.
+
+The **lateral ligament** has three bands radiating from the lateral malleolus: the **anterior talofibular**, to the talus; the **posterior talofibular**, running horizontally from the malleolar fossa to the talus; and the **calcaneofibular**, a vertical middle band from the lateral malleolus to the lateral calcaneus. A posterior tibiofibular ligament runs from the upper malleolar fossa to the medial malleolus.
+
+Only two movements occur: **plantar flexion**, produced mainly by gastrocnemius and soleus and helped by the deep calf muscles (tibialis posterior, flexor hallucis longus, flexor digitorum longus); and **dorsiflexion**, produced by the anterior compartment (tibialis anterior, extensor digitorum longus, extensor hallucis longus, peroneus tertius).
+
+Nerve supply is from the anterior and posterior tibial nerves, and arterial supply from the anastomosis around the ankle, around the two malleoli.
 ## explicit_objective
 Name the three articulating bones of the ankle joint, contrast the single medial (deltoid) ligament with the lateral ligament's three named bands, and state the two movements the joint allows with the muscles producing each.
 
@@ -3382,8 +3406,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-F5196760C3DB9C
 
 ## label
-Inversion and eversion of the foot occur at the subtalar and talo-calcaneo-navicular joints, not the ankle, produced by tibialis anterior and posterior against the three peronei
-
+Inversion and eversion of the foot
 ## canonical_key
 foot.inversion-eversion.joints-and-muscles
 
@@ -3401,8 +3424,13 @@ Talo-calcaneo-navicular joint
 المفصل الكاحلي العقبي الزورقي
 
 ## definition
-Inversion turns the sole of the foot medially, and eversion turns it laterally. These movements occur at the intertarsal joints, not the ankle: the subtalar (talocalcanean) joint, a plane synovial joint between the inferior surface of the body of talus and the upper surface of the calcaneus; and the talo-calcaneo-navicular joint, a complex ball-and-socket synovial joint where the head of talus (the ball) articulates with a socket formed by the calcaneus and navicular bones, with the spring ligament between them. The range of inversion and eversion is increased by the gliding action of the transverse tarsal (mid-tarsal) joint. The mechanism is that the talus is held fixed by the two malleoli while the calcaneus and navicular bones swing around it, carrying the rest of the foot's bones with them. Inversion is produced by tibialis anterior and tibialis posterior; eversion is produced by peroneus longus, peroneus brevis and peroneus tertius.
+**Inversion** turns the sole of the foot medially, and **eversion** turns it laterally. These movements occur at the intertarsal joints, __not the ankle__.
 
+They take place at the **subtalar (talocalcanean) joint**, a plane synovial joint between the body of talus and the calcaneus, and the **talo-calcaneo-navicular joint**, a ball-and-socket joint where the head of talus articulates with a socket formed by the calcaneus and navicular, with the spring ligament between them. The range is increased by the gliding of the **transverse tarsal (mid-tarsal) joint**.
+
+The mechanism is that the **talus is held fixed** by the two malleoli while the calcaneus and navicular swing around it, carrying the rest of the foot with them.
+
+**Inversion** is produced by tibialis anterior and tibialis posterior; **eversion** by peroneus longus, peroneus brevis and peroneus tertius.
 ## explicit_objective
 Name the two joints at which inversion and eversion occur, describe the mechanism by which the calcaneus and navicular swing around a fixed talus, and list the muscles producing each movement.
 
@@ -3565,8 +3593,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-47A1A46432D3E0
 
 ## label
-The great saphenous vein is the longest vein in the body, running from the dorsal venous arch to the femoral vein below the pubic tubercle
-
+The great (long) saphenous vein
 ## canonical_key
 vein.great-saphenous.course-tributaries
 
@@ -3584,8 +3611,13 @@ Varicose veins of the leg
 الدوالي
 
 ## definition
-The great (long) saphenous vein is the longest vein in the body. It begins on the dorsum of the foot from the medial end of the dorsal venous arch, passes backwards on the medial side of the foot and ascends in front of the medial malleolus, runs up the medial side of the leg to the medial side of the back of the knee, then ascends along the medial thigh and curves forwards to the saphenous opening, piercing the cribriform fascia to end in the femoral vein four centimetres below and lateral to the pubic tubercle. It carries fifteen to twenty valves, which divide it into segments and reduce venous pressure on its walls in the erect position. Its tributaries and communications are superficial veins from the foot, leg and thigh; communicating veins to the small saphenous vein; perforating veins piercing the deep fascia to join the deep veins; and the superficial inguinal veins (superficial circumflex iliac, superficial epigastric and superficial external pudendal).
+The **great (long) saphenous vein** is the __longest vein in the body__. It begins on the dorsum of the foot from the medial end of the dorsal venous arch, passes backwards on the medial side of the foot, and ascends in front of the medial malleolus.
 
+It runs up the medial side of the leg to the back of the knee, then ascends the medial thigh and curves forwards to the **saphenous opening**, piercing the cribriform fascia to end in the femoral vein __four centimetres below and lateral to the pubic tubercle__.
+
+It carries **fifteen to twenty valves**, which divide it into segments and reduce venous pressure on its walls in the erect position.
+
+Its tributaries and communications are superficial veins from the foot, leg and thigh; communicating veins to the small saphenous vein; perforating veins piercing the deep fascia to join the deep veins; and the superficial inguinal veins (superficial circumflex iliac, superficial epigastric and superficial external pudendal).
 ## explicit_objective
 Trace the great saphenous vein from its origin to its termination, state where and how it ends, and explain how incompetent perforating-vein valves produce varicose veins.
 
@@ -3747,8 +3779,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-E812B745282A3A
 
 ## label
-The small saphenous vein begins from the lateral end of the dorsal venous arch and ends in the popliteal vein, unlike the great saphenous vein
-
+The small (short) saphenous vein
 ## canonical_key
 vein.small-saphenous.course-termination
 
@@ -3764,8 +3795,11 @@ Lesser saphenous vein
 مسار الوريد الصافن الصغير
 
 ## definition
-The small (short) saphenous vein begins from the lateral end of the dorsal venous arch, ascends behind the lateral malleolus and runs along the middle of the back of the leg accompanied by the sural nerve, then pierces the deep fascia and ascends between the two heads of gastrocnemius before ending in the popliteal vein. It carries five to ten valves — fewer than the great saphenous vein's fifteen to twenty — and drains the lateral side of the foot and the back of the leg. It communicates with the great saphenous vein.
+The **small (short) saphenous vein** begins from the __lateral__ end of the dorsal venous arch, ascends behind the lateral malleolus, and runs along the middle of the back of the leg accompanied by the sural nerve.
 
+It then pierces the deep fascia and ascends between the two heads of gastrocnemius before ending in the **popliteal vein**.
+
+It carries **five to ten valves** — fewer than the great saphenous vein's fifteen to twenty — drains the lateral side of the foot and the back of the leg, and communicates with the great saphenous vein.
 ## explicit_objective
 Trace the small saphenous vein from its origin to its termination, contrasting its origin, course and termination point-by-point with the great saphenous vein.
 
@@ -3926,8 +3960,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-MSK-E77A7FF7843CF2
 
 ## label
-Superficial lymph mostly follows the great saphenous vein to the superficial inguinal nodes, and obstruction of lower-limb lymphatics can progress to elephantiasis
-
+Lymph drainage of the lower limb
 ## canonical_key
 lymph.lower-limb.nodes-and-elephantiasis
 
@@ -3947,8 +3980,15 @@ Elephantiasis
 داء الفيل
 
 ## definition
-Superficial lymph vessels drain the skin and subcutaneous tissue superficial to the deep fascia; most accompany the great saphenous vein to the superficial inguinal lymph nodes, and a minority accompany the small saphenous vein to the popliteal lymph nodes. Deep lymph vessels drain tissue beneath the deep fascia, accompanying the deep blood vessels to the inguinal nodes. The superficial inguinal nodes form a horizontal group, below and parallel to the inguinal ligament, and a vertical group along the termination of the great saphenous vein; together they receive afferents from the skin of the lower limb, the gluteal region, the external genitalia, the perineum (including the lower anal canal and vagina) and the anterior abdominal wall below the umbilicus, and send efferents to the deep inguinal nodes. The deep inguinal nodes lie beneath the deep fascia along the medial side of the femoral vein, inside the femoral canal; they receive afferents from the superficial inguinal nodes, the deep tissues of the limb, the popliteal nodes and the deep perineum, and send efferents to the external iliac nodes. The popliteal nodes lie deep in the popliteal fossa along the popliteal vessels, receive afferents from the foot and leg, and send efferents to the deep inguinal nodes. Obstruction of the lower limb's lymphatics leads to progressive oedema, and when the limb becomes greatly enlarged the condition is called elephantiasis.
+**Superficial lymph vessels** drain the skin and subcutaneous tissue above the deep fascia; most accompany the **great saphenous vein** to the superficial inguinal nodes, and a minority accompany the small saphenous vein to the popliteal nodes. **Deep lymph vessels** accompany the deep blood vessels to the inguinal nodes.
 
+The **superficial inguinal nodes** form a horizontal group below and parallel to the inguinal ligament and a vertical group along the great saphenous vein. They receive afferents from the skin of the lower limb, the gluteal region, the external genitalia, the perineum (including the lower anal canal and vagina) and the anterior abdominal wall below the umbilicus, and send efferents to the deep inguinal nodes.
+
+The **deep inguinal nodes** lie along the medial side of the femoral vein inside the femoral canal; they receive afferents from the superficial inguinal nodes, the deep tissues of the limb, the popliteal nodes and the deep perineum, and send efferents to the external iliac nodes.
+
+The **popliteal nodes** lie deep in the popliteal fossa along the popliteal vessels, receive afferents from the foot and leg, and send efferents to the deep inguinal nodes.
+
+__Obstruction of the lower limb's lymphatics leads to progressive oedema__, and when the limb becomes greatly enlarged the condition is called **elephantiasis**.
 ## explicit_objective
 Trace lymph drainage from the skin and deep tissues of the lower limb through the superficial and deep inguinal and popliteal nodes to the external iliac nodes, and explain the anatomical basis of elephantiasis.
 
@@ -4112,8 +4152,7 @@ relationships: Walked the live concepts on DIS-ANA-T03 and this file's own sibli
 CON-DEV-EAF577AD3F3C53
 
 ## label
-Limb buds form in the fourth week from lateral plate mesoderm under an apical ectodermal ridge, and the lower limb rotates 90 degrees medially in the seventh week
-
+Development of the limb buds
 ## canonical_key
 limb.development.bud-formation-and-rotation
 
@@ -4131,8 +4170,13 @@ Development of the limbs
 دوران الطرف السفلي
 
 ## definition
-At the end of the fourth week, limb buds form as outpocketings from the anterolateral body wall. Each bud has a core of mesenchyme from lateral plate mesoderm, which forms the limb's skeleton and connective tissue, covered by surface ectoderm, which gives rise to the epidermis; the distal margin of the bud thickens into the apical ectodermal ridge (AER). By six weeks the terminal part of the bud flattens into a hand- or footplate, separated from the proximal segment by a circular constriction, and a second constriction later divides the proximal portion into two, giving the limb three segments. Fingers and toes form when cell death in the AER separates it into five parts that grow into the digits. Limb musculature and the dermis derive from the dermomyotomes of somites that migrate into the limb, initially segmented according to their somite of origin, then splitting into flexor and extensor components with further splitting and fusion, so a single muscle can arise from more than one original segment. Upper limb buds lie opposite the lower five cervical and upper two thoracic segments; lower limb buds lie opposite the lower four lumbar and upper two sacral segments, and the nerve supply of each limb depends on the somites its muscles and dermatomes derive from. During the seventh week the limbs rotate in opposite directions: the upper limb rotates 90 degrees laterally, placing the extensor muscles on its lateral and posterior surface and the thumb laterally; the lower limb rotates approximately 90 degrees medially, placing the extensor muscles on its anterior surface and the big toe medially.
+At the end of the **fourth week**, limb buds form as outpocketings from the anterolateral body wall. Each has a core of **mesenchyme from lateral plate mesoderm** (forming the skeleton and connective tissue) covered by surface ectoderm (forming the epidermis), and its distal margin thickens into the **apical ectodermal ridge (AER)**.
 
+By six weeks the terminal part flattens into a hand- or footplate, separated by a constriction, and a second constriction divides the proximal portion, giving the limb three segments. **Fingers and toes** form when cell death in the AER separates it into five parts that grow into the digits.
+
+Limb musculature and dermis derive from the **dermomyotomes** of somites that migrate into the limb, initially segmented by somite of origin, then splitting into flexor and extensor components with further splitting and fusion, so a single muscle can arise from more than one segment. Upper limb buds lie opposite the lower five cervical and upper two thoracic segments; lower limb buds opposite the lower four lumbar and upper two sacral segments.
+
+During the **seventh week** the limbs rotate in opposite directions: the __upper limb rotates 90 degrees laterally__, placing the extensors on its lateral and posterior surface and the thumb laterally; the __lower limb rotates about 90 degrees medially__, placing the extensors on its anterior surface and the big toe medially.
 ## explicit_objective
 Describe the formation of the limb bud and the apical ectodermal ridge, explain how the segmental nerve supply of the limb follows from its somitic origin, and state the direction and degree of rotation of the lower limb and its anatomical consequence.
 
@@ -4299,8 +4343,7 @@ relationships: Walked the live concepts under `DIS-EMB-T03`/`T04` and this file'
 CON-DEV-59689788046B4E
 
 ## label
-The limb skeleton ossifies from a cartilage model by primary centres in the shaft before birth and secondary centres in the epiphyses after, separated by a growth-controlling epiphyseal plate
-
+Ossification of the limb skeleton
 ## canonical_key
 limb.skeleton.endochondral-ossification
 
@@ -4319,8 +4362,15 @@ Epiphyseal plate
 الصفيحة المشاشية
 
 ## definition
-The mesenchymal core of the limb bud is first transformed into a skeleton of hyaline cartilage. Endochondral ossification of that cartilage begins by the end of the embryonic period: primary ossification centres form in the shafts of the cartilage models, converting the shaft into bone but leaving its two ends cartilaginous. At birth the shafts are usually completely ossified, but the epiphyses are still cartilaginous; secondary ossification centres then appear in the epiphyses, and a cartilage plate, the epiphyseal plate, temporarily remains between the diaphyseal and epiphyseal ossification centres, playing the central role in growth of the bone's length. When the bone reaches its full length the epiphyseal plates disappear and the epiphyses unite with the shaft. In long bones an epiphyseal plate is found at each extremity; in smaller bones such as the phalanges, only at one extremity; and in irregular bones such as the vertebrae, one or more primary centres and usually several secondary centres are present. By the sixth week, joints form by an arrest of chondrogenesis at the future joint site, and the surrounding mesenchymal cells differentiate into a joint capsule.
+The mesenchymal core of the limb bud is first transformed into a skeleton of **hyaline cartilage**.
 
+**Endochondral ossification** begins by the end of the embryonic period: **primary ossification centres** form in the shafts of the cartilage models, converting the shaft into bone but leaving its two ends cartilaginous.
+
+At birth the shafts are usually completely ossified but the epiphyses are still cartilaginous; **secondary ossification centres** then appear in the epiphyses, and a cartilage **epiphyseal plate** temporarily remains between the diaphyseal and epiphyseal centres, __playing the central role in growth of the bone's length__. When the bone reaches full length the plates disappear and the epiphyses unite with the shaft.
+
+In long bones an epiphyseal plate is found at each end; in smaller bones such as the phalanges, only at one end; and in irregular bones such as the vertebrae, one or more primary centres and usually several secondary centres are present.
+
+By the **sixth week**, joints form by an arrest of chondrogenesis at the future joint site, and the surrounding mesenchymal cells differentiate into a joint capsule.
 ## explicit_objective
 Describe the sequence of endochondral ossification of the limb skeleton from cartilage model to mature bone, name where primary and secondary centres appear, and explain the epiphyseal plate's role in longitudinal growth.
 
@@ -4486,8 +4536,7 @@ relationships: Walked the live concepts under `DIS-EMB-T03`/`T04` and this file'
 CON-DEV-7A9E2385A26A8B
 
 ## label
-Limb anomalies range from complete absence to duplication or fusion of digits, named amelia, meromelia, brachydactyly, syndactyly, polydactyly and cleft hand or foot
-
+Congenital limb anomalies
 ## canonical_key
 limb.anomalies.classification
 
@@ -4509,8 +4558,9 @@ Cleft hand or foot
 زيادة الأصابع
 
 ## definition
-The department book gives six examples of limb anomalies. Meromelia is a short limb; amelia is the complete absence of a limb; brachydactyly is abnormally short digits; syndactyly is fusion of two or three digits; polydactyly is the presence of an extra digit; and cleft hand or foot is a condition with two fingers (or toes) in either the hand or the foot. These are presented as anomalies of the normal developmental sequence — limb bud outgrowth, apical-ectodermal-ridge-driven digit separation, and endochondral ossification — described in the same chapter, rather than as a separate mechanism of their own.
+The department book gives **six examples** of limb anomalies. **Meromelia** is a short limb; **amelia** is the complete absence of a limb; **brachydactyly** is abnormally short digits; **syndactyly** is fusion of two or three digits; **polydactyly** is the presence of an extra digit; and **cleft hand or foot** has two fingers (or toes) in either the hand or the foot.
 
+These are presented as anomalies of the normal developmental sequence — limb bud outgrowth, apical-ectodermal-ridge-driven digit separation, and endochondral ossification — rather than as a separate mechanism of their own.
 ## explicit_objective
 Name and define the six limb anomalies the department book lists, distinguishing absence (amelia), shortening (meromelia, brachydactyly) and digit number or fusion defects (syndactyly, polydactyly, cleft hand or foot).
 
