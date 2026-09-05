@@ -22,8 +22,13 @@ export type Theme = (typeof THEMES)[number]
 export const THEME_STORAGE_KEY = 'nishany-theme'
 const LEGACY_THEME_STORAGE_KEY = 'synapse-theme'
 
-/** Light is the reference ground the Nishany palette is built around. */
-const DEFAULT_THEME: Theme = 'light'
+/**
+ * Warm (the "coffee" theme) is the ground the site presents by default; a
+ * reader who has never chosen lands here and can still switch. Light remains
+ * the reference the palette is built around, but is no longer the default.
+ * Kept in sync with the inline boot script in index.html.
+ */
+const DEFAULT_THEME: Theme = 'warm'
 
 /** The address bar / task switcher colour, so browser chrome matches the page. */
 const THEME_COLOR: Record<Theme, string> = {
