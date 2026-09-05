@@ -108590,3 +108590,4831 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the four-option printing of the same question; the tendon of the long head of biceps is the only structure that runs within the capsule of the shoulder joint while remaining outside the synovial cavity.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1075
+## title
+Normal RBCs are :
+## question
+Normal RBCs are :
+## vignette
+This item asks the student to give the shape of the normal red corpuscle and say whether it has a nucleus.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+oval in shape
+## explanation_a
+Oval red cells — ovalocytes — are one of the abnormal shapes, alongside spherocytes, sickle cells and poikilocytes.
+## answer_b
+nucleated biconcave disks
+## explanation_b
+The shape is right and the nucleus is not. The mature mammalian red corpuscle has extruded its nucleus, and that is what leaves room for haemoglobin.
+## answer_c
+non nucleated biconcave disks
+## explanation_c
+Correct. Non-nucleated biconcave discs — the two facts that between them define the cell.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_d
+non nucleated biconvex disks
+## explanation_d
+Biconvex is the reverse curvature, and it would reduce the surface area for the volume rather than increasing it.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structural identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the shape of the normal red corpuscle and say whether it has a nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q4. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1076
+## title
+RBCs are……………
+## question
+RBCs are……………
+## vignette
+This item asks the student to say how a red corpuscle stains and why.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+basophilic
+## explanation_a
+Basophilic cytoplasm means RNA, and the mature red corpuscle has none — that is what the reticulocyte lost on its way to becoming one.
+## answer_b
+need special stain
+## explanation_b
+No special stain is needed: the routine Leishman's film shows the cell perfectly. A special stain is needed for the reticulocyte, which is a different cell.
+## answer_c
+acidophilic
+## explanation_c
+Correct. Haemoglobin is a basic protein, so it binds the acidic dye eosin, and the corpuscle is acidophilic.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_d
+All the above
+## explanation_d
+"All the above" cannot hold when A and C are opposites.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Staining
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Say how a red corpuscle stains and why.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q26. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1077
+## title
+Light microscopic features of red blood corpuscles Include:
+## question
+Light microscopic features of red blood corpuscles Include:
+## vignette
+This item asks the student to pick the true light-microscopic feature of the red corpuscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Variation in size
+## explanation_a
+Variation in size is anisocytosis, and it is one of the abnormalities of size, along with microcytes and macrocytes. A normal film is uniform.
+## answer_b
+Acidophilic appearance
+## explanation_b
+Correct. The cell is acidophilic, because haemoglobin is a basic protein and binds the acidic dye.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_c
+The presence of nuclei
+## explanation_c
+The mature red corpuscle has no nucleus. A nucleated red cell in peripheral blood is a pathological finding.
+## answer_d
+Dark central area
+## explanation_d
+The exact inversion of the finding: the centre is pale, not dark, because the biconcavity thins it and it holds less haemoglobin.
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural identification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Pick the true light-microscopic feature of the red corpuscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p23 q2. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the correct account — the corpuscle is acidophilic because haemoglobin is a basic protein — and each of the other three is contradicted: normal corpuscles are uniform in size (variation is anisocytosis, an abnormality), they have no nuclei, and the centre is pale rather than dark.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1078
+## title
+Central pallor in RBCs is the:
+## question
+Central pallor in RBCs is the:
+## vignette
+This item asks the student to give the size of the central pallor as a fraction of the cell.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+middle 1/3
+## explanation_a
+Correct. Keyed. The pale centre is about one third of the diameter, and a normochromic film is judged against that figure.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_b
+middle 1/2
+## explanation_b
+A half would be a much paler cell than normal, and increased central pallor of that degree is what hypochromia means.
+## answer_c
+middle 2/3
+## explanation_c
+Two thirds would leave only a thin rim of haemoglobin — a severely hypochromic cell.
+## answer_d
+middle 1/4
+## explanation_d
+A quarter understates it, and would make a normal cell look denser than it is.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall of a number
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Give the size of the central pallor as a fraction of the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q59. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1079
+## title
+top view of RBCS is ……….. while side view is …………
+## question
+top view of RBCS is ……….. while side view is …………
+## vignette
+This item asks the student to give the outline of a red corpuscle seen face on and seen edge on.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+biconcave, rounded
+## explanation_a
+The two halves are the right words in the wrong order. Biconcavity is what is seen from the side; from above the cell is a disc.
+## answer_b
+rounded, biconcave
+## explanation_b
+Correct. The corpuscle is rounded seen face on and biconcave seen edge on.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_c
+oval, biconvex
+## explanation_c
+The answer the page carries, and the reason for this override. Oval is the ovalocyte, an abnormal shape, and biconvex is the curvature the cell does not have.
+## answer_d
+biconvex, cylinder
+## explanation_d
+Biconvex again, and a cylinder is no shape a red corpuscle takes in any view.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural identification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the outline of a red corpuscle seen face on and seen edge on.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q1. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C — "oval, biconvex" — and both halves of it are contradicted by the reference figure, captioned "Top view and Side view of the RBC", and the accompanying text: "rounded in top view, biconcave in side view to increase surface area for gas exchange". Oval is an abnormal shape (the ovalocyte) and biconvex is the opposite curvature to the one that gives the cell its surface area. B states the correct pair.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1080
+## title
+The following statements concerning erythrocytes are true EXCEPT
+## question
+The following statements concerning erythrocytes are true EXCEPT
+## vignette
+This item asks the student to identify the false statement about the erythrocyte from three true ones.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Rounded biconcave non nucleated cells
+## explanation_a
+True. Rounded, biconcave and non-nucleated is the standard description.
+## answer_b
+6-9 µm in diameter
+## explanation_b
+True. The diameter is 6–9 µm, with an average of 7.5.
+## answer_c
+It is red because of its hemoglobin content
+## explanation_c
+True. The colour is haemoglobin, and it is why the cell is acidophilic.
+## answer_d
+It is very active cell
+## explanation_d
+Correct. The exception. The mature red corpuscle is the least active cell in the body: no nucleus, no organelles, no division and no protein synthesis — it is a bag of haemoglobin with a membrane.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Identify the false statement about the erythrocyte from three true ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q75. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1081
+## title
+The following are characters of RBCs except:
+## question
+The following are characters of RBCs except:
+## vignette
+This item asks the student to separate what the red corpuscle does from what the leukocytes do.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+average diameter is 7.5 um
+## explanation_a
+True. The average diameter is 7.5 µm.
+## answer_b
+have a role in immunity
+## explanation_b
+Correct. The exception. Immunity is the leukocyte's work. The red corpuscle carries gases and buffers acid, and it has neither the organelles nor the receptors for a defensive role.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_c
+have biconcave shape
+## explanation_c
+True, and the shape is what gives the cell its surface area.
+## answer_d
+can form rouleaux appearance
+## explanation_d
+True. Rouleaux is the reversible stacking that occurs in slow circulation.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Separate what the red corpuscle does from what the leukocytes do.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q76. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1082
+## title
+The RBCs in adults:
+## question
+The RBCs in adults:
+## vignette
+This item asks the student to pick the true statement about the adult red corpuscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Are flexible biconcave discs
+## explanation_a
+Correct. Flexible biconcave discs: the flexibility lets them through the capillaries and the biconcavity gives them their surface area.
+
+Why this is right:
+- On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity.
+## answer_b
+Have a life span of about 3 weeks
+## explanation_b
+Three weeks is far short. The life span is about 120 days, after which macrophages in liver, spleen and marrow destroy them.
+## answer_c
+Are nucleated cells
+## explanation_c
+The mature adult red corpuscle has no nucleus. Nucleated red cells belong to the developing stages in the marrow.
+## answer_d
+Contain myoglobin
+## explanation_d
+Myoglobin is the oxygen-binding pigment of muscle. The red corpuscle carries haemoglobin, and the two are confused because both bind oxygen and both are red.
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Pick the true statement about the adult red corpuscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p23 q1. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A is the accurate description; the other three are each contradicted, since the life span is about 120 days rather than three weeks, the mature cell is non-nucleated, and the oxygen-binding pigment of the red corpuscle is haemoglobin — myoglobin belongs to muscle.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1083
+## title
+The following is character of the erythrocytes
+## question
+The following is character of the erythrocytes
+## vignette
+This item asks the student to pick the correct one of the red corpuscle's four standard numbers.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+its average diameter is 7.5 µm
+## explanation_a
+Correct. The average diameter is 7.5 µm, within a range of 6 to 9.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_b
+Is life span is about 20 days
+## explanation_b
+Twenty days is a leukocyte kind of figure. The red corpuscle lasts about 120 days.
+## answer_c
+its count ranges from 400 - 11000/mm3
+## explanation_c
+4000–11000 per cubic millimetre is the total leukocytic count, misprinted here as a range starting at 400. The red corpuscle count is in millions.
+## answer_d
+Decreased its number below 4 million/mm is called polyeythemia
+## explanation_d
+Below four million is anaemia, not polycythaemia. Polycythaemia is above six million, and this option swaps the two.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall of a number
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Pick the correct one of the red corpuscle's four standard numbers.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q1. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1084
+## title
+The average size of RBCs
+## question
+The average size of RBCs
+## vignette
+This item asks the student to give the red corpuscle's diameter in the correct unit.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+7.0 um
+## explanation_a
+Correct. The only option in a plausible unit. 7.5 µm is the average within a 6–9 µm range, so the printed 7.0 is a rounding of it; what this question is really testing is the micrometre.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_b
+7.0 nm
+## explanation_b
+Nanometres would make the cell smaller than a mitochondrion and far below the resolution of the light microscope that routinely shows it.
+## answer_c
+7.0 mm
+## explanation_c
+Millimetres would make a red corpuscle visible to the naked eye.
+## answer_d
+0.7 cm
+## explanation_d
+0.7 cm is seven millimetres — the size of a small bead.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall of a number
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the red corpuscle's diameter in the correct unit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q77. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1085
+## title
+blood elements are :
+## question
+blood elements are :
+## vignette
+This item asks the student to name the formed elements of blood.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+erythrocytes
+## explanation_a
+True on its own. Erythrocytes are the most numerous of the three.
+## answer_b
+leukocytes
+## explanation_b
+True on its own. Leukocytes are the nucleated cells of blood.
+## answer_c
+thrombocytes
+## explanation_c
+True on its own. Thrombocytes — platelets — are the third element, even though they are not true cells.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three are formed elements of blood, suspended in the fluid matrix that is plasma.
+
+Why this is right:
+- Blood is a special type of connective tissue circulating inside blood vessels, made of cells and an extracellular fluid matrix called plasma — 45% cells and 55% plasma.
+- Blood is examined as a film — a drop spread on a slide, air-dried and stained with a neutral stain such as Leishman's.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-0EBFB178160067
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the formed elements of blood.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q3. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1086
+## title
+characteristic ultrastructural feature of RBCs includes:
+## question
+characteristic ultrastructural feature of RBCs includes:
+## vignette
+This item asks the student to say what an electron microscope finds inside a mature red corpuscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Well-developed rER
+## explanation_a
+Well-developed rough endoplasmic reticulum belongs to a protein-forming cell. The red corpuscle makes no protein at all.
+## answer_b
+Heterochromatic nucleus
+## explanation_b
+A heterochromatic nucleus is the small lymphocyte's. The mature red corpuscle has no nucleus of any kind.
+## answer_c
+Cell membrane as the only organelle
+## explanation_c
+Correct. The cell membrane is the only membranous structure left; everything inside is homogeneous electron-dense haemoglobin.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## answer_d
+Euchromatic nucleus
+## explanation_d
+A euchromatic nucleus is the active, protein-forming kind — twice wrong for a cell with no nucleus and no synthesis.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Ultrastructure
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Say what an electron microscope finds inside a mature red corpuscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q2. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1087
+## title
+All characters of RBCs except
+## question
+All characters of RBCs except
+## vignette
+This item asks the student to identify the false statement in the adaptation table.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+flexible, can squeeze in narrow capillary
+## explanation_a
+True. The flexible plasmalemma lets the cell squeeze through a capillary narrower than itself.
+## answer_b
+high selective for gas exchange
+## explanation_b
+True. The lipoprotein membrane is highly selective, admitting the gases and holding the haemoglobin in.
+## answer_c
+rounded, easy pass in vessels
+## explanation_c
+True. Rounded edges are what let it pass easily through branched vessels.
+## answer_d
+low surface area for gas exchange
+## explanation_d
+Correct. The exception. The biconcave shape exists precisely to give a large surface area for the volume; a low surface area would defeat the whole design.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify the false statement in the adaptation table.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q28. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1088
+## title
+The followings concerning RBC adaptation to its function ECXEPT
+## question
+The followings concerning RBC adaptation to its function ECXEPT
+## vignette
+This item asks the student to identify the false adaptation, where the falsehood is the presence of a nucleus.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Biconcave shape provides a large surface area
+## explanation_a
+True. The biconcave shape gives a large surface area for gas exchange.
+## answer_b
+Cell membrane is highly selective for gas exchange
+## explanation_b
+True. The membrane is lipoprotein and therefore highly selective.
+## answer_c
+Cell membrane is elastic to pass through the small capillaries
+## explanation_c
+True. Its elasticity lets the cell through capillaries narrower than itself.
+## answer_d
+The small nucleus provide a wide space for hemoglobin
+## explanation_d
+Correct. The exception, on one word. There is no nucleus at all, small or otherwise; the space for haemoglobin comes from having lost it entirely.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Identify the false adaptation, where the falsehood is the presence of a nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q27. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1089
+## title
+Which of the following gives more space for Hb?
+## question
+Which of the following gives more space for Hb?
+## vignette
+This item asks the student to name everything about the red corpuscle that makes room for haemoglobin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Biconcave shape of RBCs
+## explanation_a
+True on its own. The biconcave shape distributes the same volume over a larger surface, which is part of the same design.
+## answer_b
+absence of nuclei
+## explanation_b
+True on its own. Losing the nucleus frees the largest single volume in the cell.
+## answer_c
+absence of organelles
+## explanation_c
+True on its own. Losing the organelles frees the rest.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three contribute, and together they are the "content" row of the adaptation table.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name everything about the red corpuscle that makes room for haemoglobin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q67. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1090
+## title
+Plasmalemma or RBCS is adapted for gas exchange due to high:
+## question
+Plasmalemma or RBCS is adapted for gas exchange due to high:
+## vignette
+This item asks the student to name the property of the red corpuscle membrane that makes it selective for gases.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Myoglobin content
+## explanation_a
+Myoglobin is muscle's oxygen store and is not a membrane component of anything.
+## answer_b
+Cholesterol content
+## explanation_b
+Cholesterol does sit among the fatty acid tails and stabilise the membrane, but the selectivity for gas exchange comes from the membrane's lipoprotein nature.
+## answer_c
+Carbohydrate content
+## explanation_c
+The carbohydrate of the outer coat carries the blood group antigens. It is on one face only and has nothing to do with letting gases across.
+## answer_d
+Lipoprotein content
+## explanation_d
+Correct. The plasmalemma is lipoprotein and therefore highly selective — permeable to the gases and not to the haemoglobin.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the property of the red corpuscle membrane that makes it selective for gases.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q2. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1091
+## title
+function of RBCs is :
+## question
+function of RBCs is :
+## vignette
+This item asks the student to name what the red corpuscle does, and what it does not.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+transfer gases
+## explanation_a
+True on its own. Carrying oxygen and carbon dioxide is the cell's main work.
+## answer_b
+acid base buffer
+## explanation_b
+True on its own. Haemoglobin and the carbonic anhydrase inside the cell make it an acid–base buffer.
+## answer_c
+phagocytosis
+## explanation_c
+Phagocytosis needs lysosomes and a cytoskeleton capable of pseudopodia. The red corpuscle has neither.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Gas transport and buffering are both red corpuscle functions; phagocytosis is the leukocyte's.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name what the red corpuscle does, and what it does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q7. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1092
+## title
+Adaptations of RBCS to function include:
+## question
+Adaptations of RBCS to function include:
+## vignette
+This item asks the student to match each adaptation to the property it actually derives from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+flexible cell membrane to squeeze in capillaries
+## explanation_a
+Correct. Flexibility is what squeezing through a narrow capillary needs, and it is attributed to the plasmalemma.
+
+Why this is right:
+- The red corpuscle's adaptations fall into three groups: plasmalemma, shape and content.
+## answer_b
+lipoprotein cell membrane to squeeze in capillaries
+## explanation_b
+The right property attached to the wrong consequence. Being lipoprotein is what makes the membrane selective for gases; being flexible is what lets it squeeze.
+## answer_c
+rounded edges to help gaseous exchange
+## explanation_c
+Swapped the other way. Rounded edges ease passage through branched vessels; it is the biconcave surface that serves gas exchange.
+## answer_d
+biconcave surface to pass in branched vessels
+## explanation_d
+And swapped again: the biconcave surface gives surface area for gas exchange, while the rounded edges account for passage through branched vessels.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-2C81CE9CF9F3D8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Match each adaptation to the property it actually derives from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p2 q7. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each adaptation pairs with its own property: the flexible membrane is what lets the cell squeeze through narrow capillaries, the lipoprotein membrane is what makes it selective for gas exchange, the rounded edges are what ease passage through branched vessels, and the biconcave shape is what gives the surface area. Options B, C and D each keep the right pairs but exchange their halves; only A pairs a property with its correct consequence.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1093
+## title
+The outer surface of cell membrane of RBCs is responsible for:
+## question
+The outer surface of cell membrane of RBCs is responsible for:
+## vignette
+This item asks the student to say what the outer surface of the red corpuscle membrane carries.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+blood grouping
+## explanation_a
+Correct. The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and the Rh factor.
+
+Why this is right:
+- The outer surface of the red corpuscle's plasma membrane carries its glycocalyx, and the carbohydrate of that coat is where the antigenic sites of the ABO blood groups and of the Rh factor sit — so blood grouping is a property of the outside of the membrane.
+## answer_b
+maintainance of its shape
+## explanation_b
+Shape is maintained from the inside, by the spectrin and actin cytoskeleton beneath the membrane.
+## answer_c
+maintainace of its color
+## explanation_c
+Colour is haemoglobin, in the cytoplasm, and has nothing to do with either face of the membrane.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" fails because two of the three belong elsewhere — which is the point of asking the question by surface.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-77AC215885FD6B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Say what the outer surface of the red corpuscle membrane carries.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q6. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1094
+## title
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
+## question
+The spectrin & actin at inner surface of cell membrane of RBCs is responsible for:
+## vignette
+This item asks the student to say what the cytoskeleton beneath the red corpuscle membrane does.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+blood grouping
+## explanation_a
+Blood grouping is a property of the outer surface, the carbohydrate coat, not of the proteins beneath the inner one.
+## answer_b
+maintainance of its shape
+## explanation_b
+Correct. Spectrin and actin maintain the biconcave shape and give the membrane the elasticity and stability it needs to be deformed thousands of times.
+
+Why this is right:
+- The outer surface of the red corpuscle's plasma membrane carries its glycocalyx, and the carbohydrate of that coat is where the antigenic sites of the ABO blood groups and of the Rh factor sit — so blood grouping is a property of the outside of the membrane.
+## answer_c
+maintainace of its color
+## explanation_c
+Colour is haemoglobin.
+## answer_d
+all of the above
+## explanation_d
+"All of the above" would require the cytoskeleton to do the coat's job as well.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-77AC215885FD6B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Say what the cytoskeleton beneath the red corpuscle membrane does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q73. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1095
+## title
+…………… Keep shape, stability of CM of RBCS
+## question
+…………… Keep shape, stability of CM of RBCS
+## vignette
+This item asks the student to name both proteins of the red corpuscle cytoskeleton.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+actin
+## explanation_a
+True on its own. Actin is one of the two.
+## answer_b
+spectrin
+## explanation_b
+True on its own. Spectrin is the other, and it is the one whose gene defect causes spherocytosis.
+## answer_c
+myosin
+## explanation_c
+Myosin is the motor protein of muscle contraction and of the pericyte; the red corpuscle needs no motor, only a scaffold.
+## answer_d
+a, b
+## explanation_d
+Correct. Actin and spectrin together are the peripheral protein network beneath the inner surface.
+
+Why this is right:
+- The outer surface of the red corpuscle's plasma membrane carries its glycocalyx, and the carbohydrate of that coat is where the antigenic sites of the ABO blood groups and of the Rh factor sit — so blood grouping is a property of the outside of the membrane.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-77AC215885FD6B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name both proteins of the red corpuscle cytoskeleton.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q27. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1096
+## title
+Hereditary spherocytosis of RBCs is caused by: XXX
+## question
+Hereditary spherocytosis of RBCs is caused by: XXX
+## vignette
+This item asks the student to name the protein whose gene defect gives hereditary spherocytosis.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Abnormal type of hemoglobin (HbS)
+## explanation_a
+HbS is sickle cell anaemia — a haemoglobin defect that makes a crescent, not a sphere.
+## answer_b
+Deficiency of hemoglobin reductase enzyme
+## explanation_b
+Haemoglobin reductase deficiency affects the oxidation state of the iron, not the shape of the cell.
+## answer_c
+Deficiency of carbonic anhydrase enzyme
+## explanation_c
+Carbonic anhydrase carries carbon dioxide; losing it would impair gas transport, not deform the membrane.
+## answer_d
+Primary defect in spectrin gene expression
+## explanation_d
+Correct. A primary defect in spectrin gene expression leaves the cytoskeleton unable to hold the biconcavity, so the cell rounds up into a sphere and is destroyed early.
+
+Why this is right:
+- The outer surface of the red corpuscle's plasma membrane carries its glycocalyx, and the carbohydrate of that coat is where the antigenic sites of the ABO blood groups and of the Rh factor sit — so blood grouping is a property of the outside of the membrane.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-77AC215885FD6B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the protein whose gene defect gives hereditary spherocytosis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q3. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1097
+## title
+Rouleaux appearance is characteristic for :
+## question
+Rouleaux appearance is characteristic for :
+## vignette
+This item asks the student to name the blood cell that forms rouleaux.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+RBCs
+## explanation_a
+Correct. Only red corpuscles stack like coins, and the reason is their biconcave surfaces meeting face to face.
+
+Why this is right:
+- Rouleaux is the adhesion of red corpuscles to one another in piles resembling stacks of coins.
+## answer_b
+WBCs
+## explanation_b
+Leukocytes are irregular nucleated cells and do not stack.
+## answer_c
+monocytes
+## explanation_c
+The monocyte is a leukocyte and does not stack either; it is offered separately here because its frosted-glass cytoplasm is asked about in the row beside this one.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" cannot stand when the red corpuscle is on the list.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C2A2C9AC2F59D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structural identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the blood cell that forms rouleaux.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q21. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1098
+## title
+Concerning the rouleaux appearance , which is false?
+## question
+Concerning the rouleaux appearance , which is false?
+## vignette
+This item asks the student to give the cause of rouleaux and reject the inverted version of it.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+RBCs adhere to each other
+## explanation_a
+True. Rouleaux is adhesion of the corpuscles to each other.
+## answer_b
+Occurs in slow circulation
+## explanation_b
+True. It occurs in slow circulation, not in normal flow.
+## answer_c
+its cause is high surface tension
+## explanation_c
+True: the surface tension of the biconcave surfaces is what makes them stick.
+## answer_d
+its cause is low surface tension
+## explanation_d
+Correct. The false statement. It is high surface tension, not low, that causes the stacking — this option is C with one word inverted, which is the whole item.
+
+Why this is right:
+- Rouleaux is the adhesion of red corpuscles to one another in piles resembling stacks of coins.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C2A2C9AC2F59D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Negative stem
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the cause of rouleaux and reject the inverted version of it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q69. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1099
+## title
+Rolueux appearance:
+## question
+Rolueux appearance:
+## vignette
+This item asks the student to pick the true statement about rouleaux, including its effect on the sedimentation rate.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Occurs in normal circulation
+## explanation_a
+It occurs in slow circulation. Normal flow keeps the cells apart.
+## answer_b
+Reversible phenomena
+## explanation_b
+Correct. Keyed. Rouleaux is reversible: the stacks separate again when the circulation speeds up, and no cell is harmed.
+
+Why this is right:
+- Rouleaux is the adhesion of red corpuscles to one another in piles resembling stacks of coins.
+## answer_c
+Causes damage of RBCs
+## explanation_c
+No damage occurs, which is the point of calling it reversible.
+## answer_d
+Decrease the erythrocyte sedimentation rate
+## explanation_d
+The opposite of the consequence. Long chains sediment faster than single cells, so rouleaux raises the ESR — which is why the ESR rises in inflammation.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C2A2C9AC2F59D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Pick the true statement about rouleaux, including its effect on the sedimentation rate.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p4 q23. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1100
+## title
+Regarding RBCs:
+## question
+Regarding RBCs:
+## vignette
+This item asks the student to pick the true statement about the red corpuscle from a set of near-misses.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Aged RBCs are destroyed in bone marrow by megakaryocytes
+## explanation_a
+The right places and the wrong cell. Aged red corpuscles are destroyed by macrophages in liver, spleen and bone marrow; the megakaryocyte is the platelet's parent and destroys nothing.
+## answer_b
+Decreased number is called polycythemia
+## explanation_b
+Inverted. A decreased number is anaemia; polycythaemia is an increase.
+## answer_c
+Their biconvex shape is maintained by cytoskeleton
+## explanation_c
+One word wrong. The cytoskeleton maintains the biconcave shape, not a biconvex one.
+## answer_d
+They tend to form rouleaux appearance in slow circulation
+## explanation_d
+Correct. Rouleaux forms in slow circulation, reversibly and without damage.
+
+Why this is right:
+- Rouleaux is the adhesion of red corpuscles to one another in piles resembling stacks of coins.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C2A2C9AC2F59D5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Pick the true statement about the red corpuscle from a set of near-misses.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q50. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1101
+## title
+RBCs are fragile, so maintained in …………. solution
+## question
+RBCs are fragile, so maintained in …………. solution
+## vignette
+This item asks the student to name the tonicity in which a red corpuscle keeps its shape.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+isotonic
+## explanation_a
+Correct. The corpuscle keeps its normal shape in an isotonic medium, and plasma is isotonic — equal in osmotic pressure to 0.9% saline.
+
+Why this is right:
+- The red corpuscle is fragile, and it holds its normal shape only in the isotonic plasma that surrounds it, whose osmotic pressure equals that of 0.9% saline.
+## answer_b
+hypertonic
+## explanation_b
+A hypertonic solution draws water out and crenates the cell.
+## answer_c
+hypotonic
+## explanation_c
+A hypotonic solution drives water in until the cell bursts and leaves a ghost.
+## answer_d
+none of above
+## explanation_d
+"None of the above" cannot stand while isotonic is offered.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-BF988AB4E39366
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the tonicity in which a red corpuscle keeps its shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q2. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1102
+## title
+RBCs if placed in hypertonic solution, it ……………
+## question
+RBCs if placed in hypertonic solution, it ……………
+## vignette
+This item asks the student to predict what a hypertonic medium does to a red corpuscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+remain the same
+## explanation_a
+Only an isotonic medium leaves the cell unchanged.
+## answer_b
+shrink crenate
+## explanation_b
+Correct. Water leaves the cell, it shrinks, and its edge takes on the notches that give crenation its name.
+
+Why this is right:
+- The red corpuscle is fragile, and it holds its normal shape only in the isotonic plasma that surrounds it, whose osmotic pressure equals that of 0.9% saline.
+## answer_c
+swell, burst
+## explanation_c
+Swelling and bursting is what a hypotonic solution does — the opposite tonicity.
+## answer_d
+lea of Hg, hemolysis
+## explanation_d
+Leakage of haemoglobin and haemolysis is again the hypotonic outcome, and what it leaves behind is the cell ghost.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-BF988AB4E39366
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Prediction
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Predict what a hypertonic medium does to a red corpuscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q25. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1103
+## title
+Aplastic anemia is caused by:
+## question
+Aplastic anemia is caused by:
+## vignette
+This item asks the student to name the cause of aplastic anaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Deficiency of iron & vitamin B12
+## explanation_a
+Iron and vitamin B12 deficiencies give nutritional anaemias — microcytic and pernicious respectively — in which the marrow is present but under-supplied.
+## answer_b
+Bone marrow depression by x-ray
+## explanation_b
+Correct. Aplastic anaemia is depression or destruction of the bone marrow itself, by irradiation or chemotherapy, and because the whole marrow fails all three cell lines fall together.
+
+Why this is right:
+- Three anaemias are named here.
+## answer_c
+Acute blood loss
+## explanation_c
+Acute blood loss gives a haemorrhagic anaemia with a marrow that responds by working harder — the reverse of aplasia.
+## answer_d
+Spherocytosis or favism
+## explanation_d
+Spherocytosis and favism are haemolytic: the marrow is normal and the cells are destroyed in the circulation.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the cause of aplastic anaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p1 q5. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1104
+## title
+………………. is low Vit B12 due to failed production of intrinsic factor in stomach
+## question
+………………. is low Vit B12 due to failed production of intrinsic factor in stomach
+## vignette
+This item asks the student to name the anaemia caused by failure of intrinsic factor.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Aplastic anemia
+## explanation_a
+Aplastic anaemia is marrow failure from irradiation or chemotherapy, not a vitamin problem.
+## answer_b
+Perinicious anemia
+## explanation_b
+Correct. Pernicious anaemia is vitamin B12 deficiency, and the deficiency arises because the stomach fails to make the intrinsic factor B12 needs to be absorbed.
+
+Why this is right:
+- Three anaemias are named here.
+## answer_c
+sickle cell anemia
+## explanation_c
+Sickle cell anaemia is a haemoglobin gene mutation.
+## answer_d
+microcytic anemia
+## explanation_d
+Microcytic anaemia is the small-cell anaemia of iron deficiency; B12 deficiency makes cells too large, not too small.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the anaemia caused by failure of intrinsic factor.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q30. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1105
+## title
+………………. is abnormal rigid type of Hb (Hbs), accumulation of Hb at one side like cresent
+## question
+………………. is abnormal rigid type of Hb (Hbs), accumulation of Hb at one side like cresent
+## vignette
+This item asks the student to name the anaemia in which abnormal haemoglobin gathers at one side of the cell.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Aplastic anemia
+## explanation_a
+Aplastic anaemia has normal haemoglobin and no marrow to make cells with it.
+## answer_b
+Perinicious anemia
+## explanation_b
+Pernicious anaemia is a B12 deficiency; the haemoglobin molecule is normal.
+## answer_c
+sickle cell anemia
+## explanation_c
+Correct. HbS is rigid and accumulates at one side of the cell, pulling it into the crescent that names sickle cell anaemia.
+
+Why this is right:
+- Three anaemias are named here.
+## answer_d
+microcytic anemia
+## explanation_d
+Microcytic anaemia is defined by cell size, not by an abnormal haemoglobin type.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the anaemia in which abnormal haemoglobin gathers at one side of the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q7. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1106
+## title
+Which statement typifies sickle cell anemia?
+## question
+Which statement typifies sickle cell anemia?
+## vignette
+This item asks the student to place the defect of sickle cell anaemia at the right level.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Spherical cell
+## explanation_a
+A spherical cell is the spherocyte, and its defect is in spectrin — a membrane protein, not a haemoglobin.
+## answer_b
+Crenated RBC's
+## explanation_b
+A crenated cell is an artefact of a hypertonic medium, not a disease.
+## answer_c
+Abnormal RBC's nucleus
+## explanation_c
+The mature red corpuscle has no nucleus, so no red cell disease can be an abnormality of one.
+## answer_d
+Mutated DNA encoding Hb
+## explanation_d
+Correct. Keyed. A mutation in the DNA encoding the globin chain produces HbS, and everything else about the disease follows from that molecule.
+
+Why this is right:
+- Three anaemias are named here.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Place the defect of sickle cell anaemia at the right level.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p2 q12. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1107
+## title
+average number of Normochromic RBCs is ………….. million / mm3
+## question
+average number of Normochromic RBCs is ………….. million / mm3
+## vignette
+This item asks the student to give the average red corpuscle count.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+6
+## explanation_a
+Six million is the threshold above which the count becomes polycythaemia, not the average.
+## answer_b
+5
+## explanation_b
+Correct. The average count is 5 million per cubic millimetre — 4.5–5.5 in the male, 4–5 in the female.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_c
+8
+## explanation_c
+Eight million is far beyond even a pathological polycythaemia in this course.
+## answer_d
+7
+## explanation_d
+Seven million is above the polycythaemia threshold and is not a normal figure.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall of a number
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the average red corpuscle count.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q5. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1108
+## title
+life span of RBCs is ……………
+## question
+life span of RBCs is ……………
+## vignette
+This item asks the student to give the life span of the red corpuscle.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+90 days
+## explanation_a
+Ninety days is short of the figure and is not a number this course gives for anything.
+## answer_b
+100 days
+## explanation_b
+A hundred days is close enough to be tempting, which is why it is here; that is not the correct figure.
+## answer_c
+120 days
+## explanation_c
+Correct. About 120 days, after which macrophages in liver, spleen and marrow remove the cell.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_d
+150 days
+## explanation_d
+A hundred and fifty days overshoots. The cell cannot repair itself, having no organelles, which is what limits it.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall of a number
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the life span of the red corpuscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q24. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1109
+## title
+male RBCs number is more than female due to …………
+## question
+male RBCs number is more than female due to …………
+## vignette
+This item asks the student to give the reason the male red corpuscle count exceeds the female.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+stimulatory effect of estrogen on B.M
+## explanation_a
+The difference is attributed to the male hormones, not to oestrogen driving the marrow.
+## answer_b
+inhibitory effect of estrogen on B.M
+## explanation_b
+An inhibitory effect of oestrogen would give the same arithmetic by a different route, but that is not the case.
+## answer_c
+stimulatory effect of androgen on B.M
+## explanation_c
+Correct. The higher male count is the stimulatory effect of the male hormones — androgens — on the bone marrow.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_d
+inhibitory effect of androgen on B.M
+## explanation_d
+An inhibitory androgen effect would make the male count the lower of the two, which is the reverse of the observation.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the reason the male red corpuscle count exceeds the female.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q6. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1110
+## title
+polycythemia is:
+## question
+polycythemia is:
+## vignette
+This item asks the student to define polycythaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+decreased Hb in RBCs
+## explanation_a
+Decreased haemoglobin in the corpuscles is hypochromia, one half of the definition of anaemia.
+## answer_b
+decreased number of RBCs
+## explanation_b
+A decreased number is anaemia — oligocythaemia — the opposite condition.
+## answer_c
+increased number of RBCs
+## explanation_c
+Correct. Polycythaemia is an increased number of red corpuscles, above six million per cubic millimetre, driven by hypoxia stimulating the marrow.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## answer_d
+increase size of RBCs
+## explanation_d
+Increased size is macrocytosis, an abnormality of size rather than of number.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Define polycythaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q51. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1111
+## title
+Physiological increase of RBCs in the following except:
+## question
+Physiological increase of RBCs in the following except:
+## vignette
+This item asks the student to separate physiological from pathological polycythaemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+High altitude
+## explanation_a
+Physiological. Thin air means less oxygen, and the marrow answers by making more carriers.
+## answer_b
+exercise
+## explanation_b
+Physiological. Muscular exercise raises the count for the same reason.
+## answer_c
+new born
+## explanation_c
+Physiological. The newborn has the highest count of any age, and it falls gradually thereafter.
+## answer_d
+lung disease
+## explanation_d
+Correct. The exception. Chronic lung disease raises the count by the same hypoxic mechanism, but it is filed under pathological polycythaemia because the hypoxia is disease rather than circumstance.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative stem
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Separate physiological from pathological polycythaemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p4 q31. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1112
+## title
+One is true about RBCs:
+## question
+One is true about RBCs:
+## vignette
+This item asks the student to pick the one true statement about red corpuscles from a set of near-misses on size, shape and number.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Contain azurophilic granules
+## explanation_a
+Azurophilic granules are lysosomes, and they are found in leukocytes. The red corpuscle has no organelles at all.
+## answer_b
+The center is thicker than the periphery
+## explanation_b
+The reverse. The centre is 0.8 µm thick and the edge 2.2 µm, which is what makes the centre pale.
+## answer_c
+About 10-12 pm in diameter
+## explanation_c
+10–12 µm is the basophil's size. The red corpuscle is 6–9 µm, averaging 7.5.
+## answer_d
+Increase in number in chronic lung disease
+## explanation_d
+Correct. Chronic lung disease causes hypoxia, hypoxia drives the marrow, and the count rises — a standard example of pathological polycythaemia.
+
+Why this is right:
+- The count is highest in the newborn and falls gradually.
+- The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-11ABCB9BFB7F06
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Pick the one true statement about red corpuscles from a set of near-misses on size, shape and number.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q37. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the correct pathological polycythaemia — chronic lung disease raises the count through hypoxia — and the other three are each contradicted: azurophilic granules belong to leukocytes, the centre of the corpuscle is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1113
+## title
+Concerning the red bone marrow which statement is correct:
+## question
+Concerning the red bone marrow which statement is correct:
+## vignette
+This item asks the student to pick the true statement about red bone marrow from four claims about its cells, its sinusoids and its site.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Reticular cells are among the free bone marrow cells
+## explanation_a
+Reticular cells are stromal, not free. The free cells of the marrow are the developing blood cells and the stem cells.
+## answer_b
+Ratio of immature WBCs to immature RBCs is 5:1
+## explanation_b
+Correct. Immature white cells outnumber immature red cells about five to one, because most white cells are shorter-lived and need replacing faster.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## answer_c
+Blood sinusoid in its stroma has continuous basement membrane
+## explanation_c
+The marrow sinusoid has a non-continuous basement membrane, and it is the gaps in it that let a finished cell out into the blood.
+## answer_d
+Present in shaft of long bone in adult
+## explanation_d
+The shaft of an adult long bone holds yellow, fatty marrow. Red marrow in the adult is in the flat, short and irregular bones.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Pick the true statement about red bone marrow from four claims about its cells, its sinusoids and its site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q7. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1114
+## title
+ratio of immature wBCs to immature RBCs
+## question
+ratio of immature wBCs to immature RBCs
+## vignette
+This item asks the student to give the ratio of immature white to immature red cells in marrow.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+1:5
+## explanation_a
+1:5 is the ratio inverted, and inverting it would say the marrow spends most of its effort on red cells — which the short life of the white cells makes untrue.
+## answer_b
+5:1
+## explanation_b
+Correct. About five immature white cells to every immature red one.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## answer_c
+4:1
+## explanation_c
+4:1 is the right direction with the wrong figure.
+## answer_d
+1:4
+## explanation_d
+1:4 is inverted as well as wrong.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall of a number
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Give the ratio of immature white to immature red cells in marrow.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p6 q48. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1115
+## title
+Basophils are characterized by:
+## question
+Basophils are characterized by:
+## vignette
+This item asks the student to give the nuclear shape and granule type of the basophil.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Smaller diameter than RBCs
+## explanation_a
+The basophil is 10–12 µm and the red corpuscle 6–9, so the basophil is the larger of the two.
+## answer_b
+Presence of azurophilic granules onlv
+## explanation_b
+Azurophilic granules are the non-specific lysosomal granules every granulocyte has. The basophil is defined by its specific granules in addition to them.
+## answer_c
+S-shaped nuclei
+## explanation_c
+Correct. The basophil nucleus is irregular and S-shaped, usually half hidden under the coarse granules lying over it.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## answer_d
+Acidophilic coarse granules
+## explanation_d
+Acidophilic coarse granules are the eosinophil. Basophil granules are basophilic, and metachromatic with toluidine blue.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural identification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the nuclear shape and granule type of the basophil.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q65. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1116
+## title
+frosted glass appearance is characteristic for:
+## question
+frosted glass appearance is characteristic for:
+## vignette
+This item asks the student to name the blood cell whose cytoplasm looks like frosted glass and say what causes it.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+RBCs
+## explanation_a
+The red corpuscle has no cytoplasmic texture at all — it is homogeneous haemoglobin with a pale centre.
+## answer_b
+WBCs
+## explanation_b
+"WBCs" as a whole is too broad: neutrophils, eosinophils and basophils are all granular in different ways, and the lymphocyte's cytoplasm is a clear blue rim.
+## answer_c
+monocytes
+## explanation_c
+Correct. The monocyte's pale basophilic cytoplasm is finely stippled with lysosomes, and that gives the frosted-glass or ground-glass look.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_d
+none of the above
+## explanation_d
+"None of the above" cannot stand while the monocyte is on the list.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structural identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the blood cell whose cytoplasm looks like frosted glass and say what causes it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q22. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1117
+## title
+Which of the following increases with age:
+## question
+Which of the following increases with age:
+## vignette
+This item asks the student to name the pigment that accumulates with age and say why.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+lipofuscin
+## explanation_a
+Correct. Lipofuscin is undigested residue left in residual bodies, and in cells that never divide — cardiac muscle, nerve cells — it accumulates year on year, which is why it is called the age pigment.
+
+Why this is right:
+- Cytoplasm is cytosol, organelles and inclusions.
+- Organelles are classified by whether they have a limiting membrane.
+## answer_b
+carotene
+## explanation_b
+Carotene is an exogenous pigment taken in with food and dissolved in fat; its amount follows diet, not age.
+## answer_c
+hemoglobin
+## explanation_c
+Haemoglobin is an endogenous pigment but its concentration is set by the marrow, and if anything the count falls gradually from birth.
+## answer_d
+hemosedrin
+## explanation_d
+Haemosiderin accumulates where red cells have been broken down in quantity, which is a matter of haemolysis or bleeding rather than of years.
+## topic
+Cytology
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-FND-2560DB7970AF40
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name the pigment that accumulates with age and say why.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q58. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1118
+## title
+One is regarded as an endogenous pigment:
+## question
+One is regarded as an endogenous pigment:
+## vignette
+This item asks the student to separate endogenous from exogenous pigment inclusions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Haemoglobin
+## explanation_a
+Correct. Haemoglobin is made by the body — the standard example of an endogenous pigment.
+
+Why this is right:
+- Cytoplasm is cytosol, organelles and inclusions.
+- Organelles are classified by whether they have a limiting membrane.
+## answer_b
+Carbon
+## explanation_b
+Carbon is inhaled dust: exogenous, and the pigment of an anthracotic lung.
+## answer_c
+Carotene
+## explanation_c
+Carotene comes in with food and is dissolved in the fat of the adipocyte, which is what makes white fat white rather than colourless.
+## answer_d
+Tattoo marks. |
+## explanation_d
+Tattoo marks are dye injected under the skin — a standard example of an exogenous pigment, and the most obviously so of the four.
+## topic
+Cytology
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-FND-2560DB7970AF40
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_4a8ddb5edfab86d624d8
+## learning_objective
+Separate endogenous from exogenous pigment inclusions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p4 q42. Manifest src_4a8ddb5edfab86d624d8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The endogenous pigments are haemoglobin, melanin and lipofuscin, and the exogenous ones are carbon and dust, carotene and tattoo dyes, which places three of these four options on the exogenous side and leaves haemoglobin.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1119
+## title
+The pigment which is responsible for the brown color of brown adipose tissue is:
+## question
+The pigment which is responsible for the brown color of brown adipose tissue is:
+## vignette
+This item asks the student to name the pigment that makes brown adipose tissue brown.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+melanin
+## explanation_a
+Melanin is the pigment of skin, hair and the choroid, made by melanocytes; it plays no part in adipose tissue.
+## answer_b
+cytochrome
+## explanation_b
+Correct. The multilocular fat cell is packed with mitochondria, and their cytochrome pigment — with the tissue's richer blood supply — is what makes brown fat brown.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_c
+hemosedrin
+## explanation_c
+Haemosiderin is iron stored after red cells break down, and it is brown, which is why it is offered here.
+## answer_d
+hemoglobin
+## explanation_d
+Haemoglobin colours the blood in the tissue rather than the cells; the colour is attributed to the cytochromes of the mitochondria.
+## topic
+Connective Tissue
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the pigment that makes brown adipose tissue brown.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q139. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1120
+## title
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, fallin…
+## question
+A child arrived at the pediatric outpatient clinic complaining of bleeding gums, falling of teeth and persistent non-healing wounds. The attending resident suspected a disease related to connective tissue. The disease causing such symptoms could be:
+## vignette
+This item asks the student to recognise the clinical triad of defective collagen synthesis and name the disease.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Osteoporosis. —
+## explanation_a
+Osteoporosis is loss of bone mass, and it presents with fracture rather than with bleeding gums and open wounds.
+## answer_b
+Purpura
+## explanation_b
+Purpura is bleeding into the skin from a platelet or vessel problem; it would not explain teeth falling out or wounds failing to close.
+## answer_c
+Anemia
+## explanation_c
+Anaemia is a red corpuscle disorder. It causes pallor and breathlessness, not a failure of tissue repair.
+## answer_d
+Scurvy
+## explanation_d
+Correct. Bleeding gums, loss of teeth and non-healing wounds together are scurvy, and the underlying lesion is collagen that cannot be made properly.
+
+Why this is right:
+- Vitamin C deficiency — scurvy — is due to defective collagen synthesis, and it presents with unhealed wounds and bleeding gums.
+## topic
+Histology-general
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-FND-46C9A4425362B0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Recognise the clinical triad of defective collagen synthesis and name the disease.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q14. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Vitamin C deficiency — scurvy — is due to defective collagen synthesis and is characterised by unhealed wounds and bleeding gums, which is the stem's own description, and the stem adds that the resident suspected a connective tissue disease.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1121
+## title
+Regarding the reticulocyte, the following statement is correct:
+## question
+Regarding the reticulocyte, the following statement is correct:
+## vignette
+This item asks the student to describe the reticulocyte's staining and reject the leukocyte figures offered beside it.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Acidophilic cytoplasm with basophilic reticulum
+## explanation_a
+Correct. Keyed. The cell is already acidophilic from its haemoglobin, and what a supravital stain adds is a basophilic reticulum precipitated from its remaining ribosomes.
+
+Why this is right:
+- The reticulocyte is the last stage before the mature red cell.
+## answer_b
+Its size is 20 pm
+## explanation_b
+Twenty micrometres is monocyte size. The reticulocyte is a red cell and is red-cell sized.
+## answer_c
+Their % increases in case of allergy
+## explanation_c
+Allergy raises the eosinophil count. What raises the reticulocyte count is blood loss or haemolysis, because the marrow is releasing young cells early.
+## answer_d
+Its percentage is 60-70% of total leucocytic count
+## explanation_d
+60–70% of the total leukocytic count is the neutrophil. Reticulocytes do not exceed one per cent of the cells in peripheral blood.
+## topic
+Blood
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C020FBF779203C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural identification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Describe the reticulocyte's staining and reject the leukocyte figures offered beside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q41. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1122
+## title
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## question
+Formation of an abnormal rigid type of Hb (HBS) results in:
+## vignette
+This item asks the student to name the anaemia caused by an abnormal rigid haemoglobin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Aplastic anemia.
+## explanation_a
+Aplastic anaemia is a failure of the bone marrow to produce cells at all. The haemoglobin it does make is normal; there is simply not enough of it, and the white cells and platelets fall with the red.
+## answer_b
+Sickle cell anemia.
+## explanation_b
+Correct. HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.
+
+Why this is right:
+- Three anaemias are named here.
+## answer_c
+Spherocytosis.
+## explanation_c
+Spherocytosis is a membrane defect: the cell loses its biconcave shape and becomes a sphere, which raises its osmotic fragility. The fault is in the membrane cytoskeleton, not in the haemoglobin.
+## answer_d
+Favism.
+## explanation_d
+Favism is haemolysis brought on by eating broad beans in a person deficient in an enzyme of the red cell. Like spherocytosis it destroys normal haemoglobin rather than being caused by an abnormal one.
+## topic
+Red Blood Corpuscles
+## subtopic
+Red Blood Corpuscles
+## main_concept
+CON-HEM-C79EA8644C0C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Reasoning
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-RED-BLOOD-CORPUSCLES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the anaemia caused by an abnormal rigid haemoglobin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q36. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: sickle cell anaemia is the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
