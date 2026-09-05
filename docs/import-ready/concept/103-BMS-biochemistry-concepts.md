@@ -79,7 +79,7 @@
 # Item
 
 ## label
-The body meets reactive oxygen species with scavenger enzymes and with metabolic end products that are themselves antioxidants
+Antioxidant defences against reactive oxygen species
 
 ## id
 CON-FND-5F0DC4407DEC51
@@ -104,7 +104,11 @@ Superoxide dismutase
 البيليروبين وحمض البوليك كمضادات أكسدة
 
 ## definition
-The body combats free radicals in two ways. It prevents their generation, by chelating copper and iron on ceruloplasmin, transferrin and albumin, and by the enzymes catalase, peroxidases and glutathione peroxidase. It also scavenges the ROS already present, using vitamins C, E, provitamin A and B6; the enzyme superoxide dismutase, which is widely distributed in tissues; thiol-containing proteins and cysteine itself; and two metabolic end products, bilirubin and uric acid, which act as antioxidants and are oxidised to biliverdin and allantoin respectively.
+The body combats free radicals in **two ways**.
+
+It **prevents their generation**, by chelating copper and iron on ceruloplasmin, transferrin and albumin, and by the enzymes **catalase, peroxidases and glutathione peroxidase**.
+
+It also **scavenges the ROS already present**, using vitamins C, E, provitamin A and B6; the enzyme **superoxide dismutase**, widely distributed in tissues; thiol-containing proteins and cysteine itself; and two metabolic end products, __bilirubin and uric acid__, which act as antioxidants and are oxidised to biliverdin and allantoin respectively.
 
 ## explicit_objective
 Name one antioxidant enzyme and one metabolic end product that protects against reactive oxygen species, and state what each is oxidised to or what reaction it runs.
@@ -258,7 +262,7 @@ relationships: Walked the 84 concepts under DIS-BIO and the 6 under SYS-FND-T06.
 # Item
 
 ## label
-Hydrogen peroxide is disposed of by catalase and by glutathione peroxidase, and the glutathione route runs on NADPH
+Disposing of hydrogen peroxide
 
 ## id
 CON-FND-D8A41B5C23B148
@@ -281,7 +285,11 @@ Selenium and glutathione peroxidase
 إنزيم الكاتالاز
 
 ## definition
-Hydrogen peroxide is a normal metabolite, produced either by flavoprotein oxidases or by the superoxide dismutase reaction. It is removed by two routes. Catalase splits it into water and oxygen. Glutathione peroxidase, a selenium enzyme, reduces it to two molecules of water while oxidising two reduced glutathione (G–SH) to the disulphide G-S–S-G; glutathione reductase, an FAD enzyme, then reduces that disulphide back to G–SH using NADPH+H⁺. The peroxide is therefore only disposed of for as long as NADPH keeps arriving.
+**Hydrogen peroxide** is a normal metabolite, produced by flavoprotein oxidases or by the superoxide dismutase reaction. It is removed by **two routes**.
+
+**Catalase** splits it into water and oxygen. **Glutathione peroxidase**, a selenium enzyme, reduces it to two molecules of water while oxidising two reduced glutathione (G–SH) to the disulphide G-S–S-G; **glutathione reductase**, an FAD enzyme, then reduces that disulphide back to G–SH using **NADPH+H⁺**.
+
+The peroxide is therefore __only disposed of for as long as NADPH keeps arriving__.
 
 ## explicit_objective
 Label the two enzymes on the "Fate of H₂O₂" diagram, and explain why the glutathione arm of it stops working when NADPH runs short.
@@ -436,7 +444,7 @@ relationships: Walked the 84 concepts under DIS-BIO. The HMP and G6PD records ar
 # Item
 
 ## label
-Three irreversible steps make citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase the key enzymes of the Krebs cycle
+Key regulatory enzymes of the Krebs cycle
 
 ## id
 CON-FND-037BF052DDFC0D
@@ -460,7 +468,11 @@ Alpha-ketoglutarate dehydrogenase
 إنزيم سينثاز الستريت
 
 ## definition
-The citric acid cycle has three irreversible steps, catalysed by citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase. These are the rate-controlling key enzymes of the cycle. All three are inhibited by a high ATP/ADP ratio; the two dehydrogenases are also inhibited by a high NADH/NAD⁺ ratio, which is why the cycle runs only when the electron transport chain is reoxidising NADH. Succinyl-CoA feeds back on citrate synthase and α-ketoglutarate dehydrogenase, and calcium released during muscle contraction activates all three.
+The citric acid cycle has **three irreversible steps**, catalysed by **citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase** — the rate-controlling key enzymes of the cycle.
+
+All three are inhibited by a **high ATP/ADP ratio**; the two dehydrogenases are also inhibited by a **high NADH/NAD⁺ ratio**, which is why __the cycle runs only when the electron transport chain is reoxidising NADH__.
+
+**Succinyl-CoA** feeds back on citrate synthase and α-ketoglutarate dehydrogenase, and **calcium** released during muscle contraction activates all three.
 
 ## explicit_objective
 Name the three key enzymes of the Krebs cycle and state, for each regulator the book gives, whether it turns the cycle up or down.
@@ -614,7 +626,7 @@ relationships: Walked the 25 concepts under DIS-BIO-T03. They are almost all ins
 # Item
 
 ## label
-The hexose monophosphate pathway is the main source of NADPH, and its oxidative phase is irreversible
+HMP pathway: the main source of NADPH
 
 ## id
 CON-FND-B928DE79E08882
@@ -638,7 +650,11 @@ Importance of HMP pathway
 أهمية مسار أحادي فوسفات الهكسوز
 
 ## definition
-The pentose phosphate pathway is a second route for oxidising glucose, running in the cytosol of liver, thyroid, adrenal cortex, adipose tissue, gonads, retina, lactating mammary gland and red cells. Its oxidative phase is irreversible: glucose 6-phosphate is dehydrogenated and decarboxylated to ribose 5-phosphate, yielding NADPH+H⁺ at two steps. It is the main source of NADPH, which fatty acid synthesis, steroid synthesis, vision, NADPH oxidase and the regeneration of reduced glutathione all depend on; it also supplies the ribose 5-phosphate for nucleotides and nucleic acids.
+The **pentose phosphate (HMP) pathway** is a second route for oxidising glucose, running in the cytosol of liver, thyroid, adrenal cortex, adipose tissue, gonads, retina, lactating mammary gland and red cells.
+
+Its **oxidative phase is irreversible**: glucose 6-phosphate is dehydrogenated and decarboxylated to ribose 5-phosphate, yielding **NADPH+H⁺ at two steps**.
+
+It is the __main source of NADPH__, which fatty acid synthesis, steroid synthesis, vision, NADPH oxidase and the regeneration of reduced glutathione all depend on; it also supplies the **ribose 5-phosphate** for nucleotides and nucleic acids.
 
 ## explicit_objective
 Name the pathway that supplies most of the body's NADPH, state its two products, and list the reactions that consume the NADPH it makes.
@@ -804,13 +820,15 @@ CON-HEM-A1EF4D20C85878
 teaching.g6pd.pathway
 
 ## label
-G6PD catalyzes an initial glucose-oxidation pathway step that generates NADPH
+G6PD: key enzyme generating NADPH
 
 ## canonical_key
 hmp.g6pd.key-enzyme-nadph
 
 ## definition
-Glucose 6-phosphate dehydrogenase (G6PD) catalyses the first and rate-limiting step of the oxidative phase of the hexose monophosphate pathway, dehydrogenating glucose 6-phosphate to 6-phosphogluconolactone and generating the first NADPH+H⁺. It is the key enzyme of that pathway. NADPH is a feedback inhibitor of it, and insulin induces its synthesis.
+**Glucose 6-phosphate dehydrogenase (G6PD)** catalyses the **first and rate-limiting step** of the oxidative phase of the hexose monophosphate pathway, dehydrogenating glucose 6-phosphate to 6-phosphogluconolactone and generating the **first NADPH+H⁺**. It is the __key enzyme of that pathway__.
+
+**NADPH** is a feedback inhibitor of it, and **insulin** induces its synthesis.
 
 ## explicit_objective
 Name the key enzyme of the pathway that supplies NADPH, and state where in the pathway it acts and what regulates it.
@@ -899,13 +917,17 @@ CON-HEM-4F64967BBFBB6F
 teaching.g6pd.hemolysis
 
 ## label
-G6PD deficiency increases RBC susceptibility to oxidant-induced hemolysis
+G6PD deficiency and oxidant haemolysis
 
 ## canonical_key
 g6pd.deficiency.oxidant-haemolysis
 
 ## definition
-Favism is a genetic deficiency of glucose 6-phosphate dehydrogenase and the commonest human enzymopathy. Red cells are already exposed to oxidative damage because they carry oxygen, and hydrogen peroxide peroxidises their membrane lipids and raises membrane fragility. Without G6PD there is too little NADPH for glutathione reductase to regenerate reduced glutathione, so glutathione peroxidase cannot clear the peroxide. Exposure to an oxidant — primaquine, aspirin, sulfonamides, or fava beans — then lyses the fragile cells, producing haemolytic anaemia and jaundice.
+**Favism** is a genetic deficiency of glucose 6-phosphate dehydrogenase and the __commonest human enzymopathy__.
+
+Red cells are already exposed to oxidative damage because they carry oxygen, and **hydrogen peroxide** peroxidises their membrane lipids and raises membrane fragility. Without G6PD there is too little NADPH for glutathione reductase to regenerate reduced glutathione, so **glutathione peroxidase cannot clear the peroxide**.
+
+Exposure to an oxidant — **primaquine, aspirin, sulfonamides, or fava beans** — then lyses the fragile cells, producing __haemolytic anaemia and jaundice__.
 
 ## explicit_objective
 Explain, in the order the mechanism runs, how deficiency of G6PD leaves a red cell unable to survive an oxidant challenge, and name the trigger drugs and food the book gives.
@@ -989,7 +1011,7 @@ relationships: Updated rather than duplicated after "G6PD", "hemolysis" and "fav
 # Item
 
 ## label
-Glycolysis is the only source of ATP in the red cell, because the red cell has no mitochondria
+Glycolysis: the red cell's only ATP source
 
 ## id
 CON-HEM-095C9C97B56CCA
@@ -1012,7 +1034,9 @@ Methaemoglobin and the glyceraldehyde 3-phosphate dehydrogenase step
 الفسفرة على مستوى الركيزة في كرات الدم الحمراء
 
 ## definition
-Red cells have no mitochondria, so they cannot use the electron transport chain and glycolysis is their only source of ATP, produced by substrate-level phosphorylation. Glycolysis does a second job for them as well: the NADH+H⁺ made at the glyceraldehyde 3-phosphate dehydrogenase step keeps the iron of haemoglobin in the ferrous state, because ferric haem makes methaemoglobin, which cannot carry oxygen.
+Red cells have **no mitochondria**, so they cannot use the electron transport chain and __glycolysis is their only source of ATP__, produced by substrate-level phosphorylation.
+
+Glycolysis does a second job: the **NADH+H⁺** made at the glyceraldehyde 3-phosphate dehydrogenase step keeps the iron of haemoglobin in the **ferrous** state, because ferric haem makes **methaemoglobin**, which cannot carry oxygen.
 
 ## explicit_objective
 State the two reasons the book gives for why glycolysis matters to a red cell, and explain why a red cell cannot fall back on any other pathway for ATP.
@@ -1166,7 +1190,7 @@ relationships: Walked the 122 concepts in the CON-HEM- namespace and the 25 unde
 # Item
 
 ## label
-The BPG shunt yields no net ATP because it bypasses the phosphoglycerate kinase step
+The BPG shunt yields no net ATP
 
 ## id
 CON-HEM-7FBB4829A4A4EC
@@ -1189,7 +1213,9 @@ Bisphosphoglycerate shunt in red blood cells
 عدم إنتاج ATP من تحويلة BPG
 
 ## definition
-In the red cell, 2,3-bisphosphoglycerate mutase converts 1,3-bisphosphoglycerate into 2,3-bisphosphoglycerate, and 2,3-bisphosphoglycerate phosphatase then hydrolyses that to 3-phosphoglycerate. The shunt rejoins glycolysis below phosphoglycerate kinase, which is the step where glycolysis would have made ATP from 1,3-bisphosphoglycerate. Any molecule that takes the shunt therefore skips the site of ATP yield, and the cell gains no net ATP from it.
+In the red cell, **2,3-bisphosphoglycerate mutase** converts 1,3-bisphosphoglycerate into **2,3-bisphosphoglycerate**, and **2,3-bisphosphoglycerate phosphatase** then hydrolyses that to 3-phosphoglycerate.
+
+The shunt rejoins glycolysis **below phosphoglycerate kinase**, the step where glycolysis would have made ATP from 1,3-bisphosphoglycerate. Any molecule that takes the shunt therefore __skips the site of ATP yield, and the cell gains no net ATP__.
 
 ## explicit_objective
 Using the BPG shunt diagram, explain why a red cell gains no net ATP from the shunt, naming the enzyme that is bypassed and the enzyme that starts the bypass.
@@ -1343,7 +1369,7 @@ relationships: Walked the 122 CON-HEM- concepts and the 25 under DIS-BIO-T03. No
 # Item
 
 ## label
-2,3-BPG binds haemoglobin and lowers its oxygen affinity, which is what makes the shunt worth running
+2,3-BPG lowers haemoglobin's oxygen affinity
 
 ## id
 CON-HEM-6B557A065A8D90
@@ -1366,7 +1392,9 @@ BPG and oxygen affinity
 تسهيل توصيل الأكسجين للأنسجة
 
 ## definition
-2,3-bisphosphoglycerate, the product of the BPG shunt, binds to haemoglobin and decreases its affinity for oxygen. Haemoglobin therefore gives oxygen up more readily, and delivery of oxygen to the tissues is favoured. This is the return the red cell gets for a shunt that yields it no ATP.
+**2,3-bisphosphoglycerate**, the product of the BPG shunt, binds haemoglobin and __decreases its affinity for oxygen__. Haemoglobin therefore gives oxygen up more readily, and delivery to the tissues is favoured.
+
+This is the return the red cell gets for a shunt that __yields it no ATP__.
 
 ## explicit_objective
 State what 2,3-BPG does to haemoglobin and to oxygen delivery, and use that to justify why a red cell runs a shunt that costs it ATP yield.
@@ -1520,7 +1548,7 @@ relationships: Walked the 122 CON-HEM- concepts and the six records returned for
 # Item
 
 ## label
-Chylomicrons carry dietary triacylglycerol out of the gut; VLDL carries hepatic triacylglycerol out of the liver
+Chylomicrons vs VLDL
 
 ## id
 CON-GIT-33EAF87333AAD5
@@ -1543,7 +1571,11 @@ Very low density lipoprotein
 وظيفة VLDL
 
 ## definition
-Both particles carry triacylglycerol, and the difference between them is where the triacylglycerol came from. Chylomicrons are formed by intestinal cells and transport absorbed dietary lipids to the lymphatics and then to the systemic circulation; they are 98 per cent lipid, mainly triacylglycerol, with apo B-48 and apo A in the nascent particle. VLDL is formed by liver cells and transports triacylglycerol from the liver to extrahepatic tissues; it is 90 per cent lipid, mainly triacylglycerol, with apo B-100 in the nascent particle. Lipoprotein lipase hydrolyses about 90 per cent of the chylomicron's triacylglycerol and about 50 per cent of the VLDL's.
+Both particles carry **triacylglycerol**, and the difference between them is __where the triacylglycerol came from__.
+
+**Chylomicrons** are formed by intestinal cells and transport absorbed **dietary** lipids to the lymphatics and then the systemic circulation; they are 98 per cent lipid, with **apo B-48 and apo A** in the nascent particle.
+
+**VLDL** is formed by the liver and transports **hepatic** triacylglycerol to extrahepatic tissues; it is 90 per cent lipid, with **apo B-100**. **Lipoprotein lipase** hydrolyses about 90 per cent of the chylomicron's triacylglycerol and about 50 per cent of the VLDL's.
 
 ## explicit_objective
 State the source, the cargo and the destination of a chylomicron and of a VLDL particle, and say which apolipoprotein identifies each.
@@ -1698,7 +1730,7 @@ relationships: Walked the 10 concepts under DIS-BIO-T04. They are the fatty-live
 # Item
 
 ## label
-Familial hypercholesterolaemia is a defect of the LDL receptor, so LDL cannot be taken up and accumulates in blood
+Familial hypercholesterolaemia: the LDL receptor
 
 ## id
 CON-GIT-8C5125A491B189
@@ -1721,7 +1753,11 @@ Apo B-100 receptor defect
 فرط البروتينات الدهنية في الدم
 
 ## definition
-LDL is cleared by binding to specific apo B-100 receptors, 70 per cent of them in the liver and 30 per cent in extrahepatic tissues, after which the particle is endocytosed and its cholesterol released for biosynthesis. Familial hypercholesterolaemia is a hyperlipoproteinaemia caused by a defect in those LDL receptors in the liver and other tissues, and it produces a marked increase in blood LDL. Because LDL carries cholesterol and high LDL forms arterial plaque, the untreated consequence is atherosclerosis.
+**LDL** is cleared by binding **apo B-100 receptors** — 70 per cent in the liver, 30 per cent in extrahepatic tissues — after which the particle is endocytosed and its cholesterol released for biosynthesis.
+
+**Familial hypercholesterolaemia** is a hyperlipoproteinaemia caused by a __defect in those LDL receptors__ in the liver and other tissues, producing a marked rise in blood LDL.
+
+Because LDL carries cholesterol and high LDL forms arterial plaque, the untreated consequence is **atherosclerosis**.
 
 ## explicit_objective
 Name the disease that follows a defect in LDL uptake, and explain in one step why the defect raises plasma LDL.
@@ -1875,7 +1911,7 @@ relationships: Walked the 10 concepts under DIS-BIO-T04. Three loose neighbours 
 # Item
 
 ## label
-A low plasma VLDL leaves triacylglycerol stranded in the liver, and the result is a fatty liver
+Low VLDL causes a fatty liver
 
 ## id
 CON-GIT-38CC5CC7716DB7
@@ -1898,7 +1934,9 @@ Low VLDL and hepatic steatosis
 نقص البروتينات الدهنية في الدم
 
 ## definition
-VLDL is the only vehicle the liver has for exporting the triacylglycerol it makes. When plasma VLDL is low, that export fails and triacylglycerol accumulates in hepatocytes as a fatty liver. The book's worked example is abetalipoproteinaemia, a hypolipoproteinaemia in which apo-B is not synthesised: chylomicron formation fails, which gives fatty diarrhoea, and VLDL formation fails, which gives fatty liver.
+**VLDL** is the __only vehicle the liver has for exporting the triacylglycerol it makes__. When plasma VLDL is low, that export fails and triacylglycerol accumulates in hepatocytes as a **fatty liver**.
+
+The book's worked example is **abetalipoproteinaemia**, in which apo-B is not synthesised: chylomicron formation fails, giving **fatty diarrhoea**, and VLDL formation fails, giving **fatty liver**.
 
 ## explicit_objective
 Predict what happens in the liver when plasma VLDL falls, and name the disorder the book uses to illustrate it.
@@ -2052,7 +2090,7 @@ relationships: Walked the 10 concepts under DIS-BIO-T04 and the eight records re
 # Item
 
 ## label
-Ketosis is what happens when ketogenesis outruns ketolysis, and every cause is a state of high anti-insulin to insulin ratio
+Ketosis: when ketogenesis outruns ketolysis
 
 ## id
 CON-END-CC450A236ABF50
@@ -2075,7 +2113,9 @@ Starvation ketosis
 الكيتوزية في السكري غير المنضبط
 
 ## definition
-Ketosis is raised ketone bodies in blood (ketonaemia) and in urine (ketonuria); normal blood levels are 0.5–3 mg/dL and urinary output is under 15 mg/day. It occurs whenever the rate of ketogenesis exceeds the rate of ketolysis. The book lists five causes: starvation; a low-carbohydrate, high-fat diet; severe uncontrolled diabetes mellitus; prolonged administration of anti-insulin hormones; and prolonged, severe muscular exercise. Raised 3-hydroxybutyrate and acetoacetate cause acidosis and may lead to coma and death.
+**Ketosis** is raised ketone bodies in blood (**ketonaemia**) and urine (**ketonuria**); normal blood levels are 0.5–3 mg/dL and urinary output under 15 mg/day. It occurs whenever __the rate of ketogenesis exceeds the rate of ketolysis__.
+
+The book lists **five causes**: starvation; a low-carbohydrate, high-fat diet; severe uncontrolled diabetes mellitus; prolonged administration of anti-insulin hormones; and prolonged, severe muscular exercise. Raised 3-hydroxybutyrate and acetoacetate cause **acidosis** and may lead to coma and death.
 
 ## explicit_objective
 List the causes of ketosis, and state the single condition — a raised anti-insulin to insulin ratio — that all of them share.
@@ -2229,7 +2269,7 @@ relationships: Walked the 10 concepts under DIS-BIO-T04 and the 11 insulin and d
 # Item
 
 ## label
-Negative nitrogen balance has three causes: too little protein in, too much protein lost, too much protein broken down
+Causes of negative nitrogen balance
 
 ## id
 CON-FND-B320D24EC35D30
@@ -2252,7 +2292,9 @@ Protein balance
 الرصيد البروتيني السالب
 
 ## definition
-Nitrogen forms about 16 per cent of protein, so the difference between nitrogen intake and nitrogen output measures the balance between protein anabolism and catabolism. Negative nitrogen balance exists when output exceeds intake, and the book gives three causes. Inadequate protein intake, in starvation, malnutrition, deficiency of an essential amino acid, and gastrointestinal disease. Loss of protein, in chronic haemorrhage, albuminuria, and lactation on an inadequate diet. Increased protein catabolism, in diabetes mellitus, Cushing's syndrome, hyperthyroidism, and infectious fevers.
+Nitrogen forms about **16 per cent of protein**, so intake minus output measures the balance between protein anabolism and catabolism. **Negative nitrogen balance** exists when __output exceeds intake__, and the book gives three causes.
+
+**Inadequate intake** — starvation, malnutrition, deficiency of an essential amino acid, gastrointestinal disease. **Loss of protein** — chronic haemorrhage, albuminuria, lactation on an inadequate diet. **Increased catabolism** — diabetes mellitus, Cushing's syndrome, hyperthyroidism, infectious fevers.
 
 ## explicit_objective
 Give the three causes of negative nitrogen balance and place at least one clinical example under each.
@@ -2406,7 +2448,7 @@ relationships: Walked the 13 concepts under DIS-BIO-T05. They are the protein-di
 # Item
 
 ## label
-Phenylketonuria is deficiency of phenylalanine hydroxylase, and the mousy odour comes from the metabolites phenylalanine is diverted into
+Phenylketonuria: the enzyme defect
 
 ## id
 CON-FND-D7BB8C3AFB54CC
@@ -2430,7 +2472,11 @@ Musty urine odor
 رائحة البول الفأرية
 
 ## definition
-Phenylalanine is an essential amino acid converted to tyrosine by phenylalanine hydroxylase (PAH), which needs tetrahydrobiopterin (BH4) as its hydrogen donor. Most cases of phenylketonuria are a deficiency of PAH itself; about 1–2 per cent are a deficiency of BH4. Phenylalanine that cannot become tyrosine is metabolised instead to phenylpyruvate, phenyl-lactate and phenylacetate, and these rise in tissues, plasma and urine. They are what give the urine its characteristic musty, mousy odour.
+**Phenylalanine** is an essential amino acid converted to **tyrosine** by **phenylalanine hydroxylase (PAH)**, which needs **tetrahydrobiopterin (BH4)** as its hydrogen donor.
+
+Most cases of **phenylketonuria** are a deficiency of **PAH** itself; about 1–2 per cent are a deficiency of **BH4**.
+
+Phenylalanine that cannot become tyrosine is metabolised instead to **phenylpyruvate, phenyl-lactate and phenylacetate**, which rise in tissues, plasma and urine and __give the urine its musty, mousy odour__.
 
 ## explicit_objective
 Given an infant with a mousy urine odour and raised phenylpyruvate, name the diagnosis and the deficient enzyme, and say what the raised metabolites are made from.
@@ -2587,7 +2633,7 @@ relationships: Walked the 13 concepts under DIS-BIO-T05 and the seven records re
 # Item
 
 ## label
-The mental retardation of PKU comes from what phenylalanine keeps out of the brain, not from phenylalanine itself
+Why PKU causes mental retardation
 
 ## id
 CON-FND-587B0A39D3C0BD
@@ -2610,7 +2656,11 @@ Amino acid transport competition at the blood-brain barrier
 نقص النواقل العصبية
 
 ## definition
-Two things happen at once. Raised phenylalanine and its metabolites interfere with the transport of tyrosine and tryptophan into the brain, so the brain is short of both. And because phenylalanine cannot be hydroxylated, tyrosine is low to begin with, which impairs synthesis of the neurotransmitters derived from it — DOPA and the catecholamines dopamine, noradrenaline and adrenaline. The book gives this as the explanation for why an untreated patient shows mental retardation, manifest by the age of one year.
+Two things happen at once. Raised phenylalanine and its metabolites __interfere with the transport of tyrosine and tryptophan into the brain__, so the brain is short of both.
+
+And because phenylalanine cannot be hydroxylated, **tyrosine is low** to begin with, which impairs synthesis of the neurotransmitters derived from it — **DOPA and the catecholamines** dopamine, noradrenaline and adrenaline.
+
+The book gives this as why an untreated patient shows **mental retardation, manifest by the age of one year**.
 
 ## explicit_objective
 Explain the cause of the neurological manifestations of PKU in two steps, naming the amino acids kept out of the brain and the neurotransmitters that are consequently not made.
@@ -2765,7 +2815,7 @@ relationships: Walked the 13 concepts under DIS-BIO-T05 and the SYS-NEU-T02 set.
 # Item
 
 ## label
-PKU pale skin has two causes at once: there is too little tyrosine to make melanin from, and too much phenylalanine inhibiting the enzyme that would
+Why PKU causes pale skin
 
 ## id
 CON-FND-1DF6B985CB77A1
@@ -2788,7 +2838,11 @@ Melanin deficiency in PKU
 تثبيط إنزيم التيروزيناز
 
 ## definition
-Melanin is made from DOPA in melanocytes by tyrosinase, and DOPA is made from tyrosine. In PKU tyrosine is deficient because phenylalanine cannot be hydroxylated to it, so the substrate for melanin is short. On top of that, the high level of phenylalanine competitively inhibits tyrosinase itself. Hair, skin and the iris of the eye are therefore hypopigmented — which is why the infant in the case is paler than the siblings.
+**Melanin** is made from **DOPA** in melanocytes by **tyrosinase**, and DOPA is made from tyrosine.
+
+In PKU **tyrosine is deficient** because phenylalanine cannot be hydroxylated to it, so the substrate for melanin is short. On top of that, the high phenylalanine __competitively inhibits tyrosinase itself__.
+
+Hair, skin and the iris are therefore **hypopigmented** — which is why the infant is paler than the siblings.
 
 ## explicit_objective
 Give both mechanisms behind the hypopigmentation of PKU — substrate deficiency and competitive enzyme inhibition — and name the enzyme and the pigment involved.
@@ -2942,7 +2996,7 @@ relationships: Walked the 13 concepts under DIS-BIO-T05 and the seven melanin re
 # Item
 
 ## label
-PKU is treated by removing phenylalanine from the diet and putting tyrosine back, and it must start before the damage is done
+Dietary treatment of PKU
 
 ## id
 CON-FND-81A4F3A9C51B7B
@@ -2965,7 +3019,11 @@ BH4 supplementation in PKU
 تعويض التيروزين
 
 ## definition
-The book states that PKU is treatable by dietary means and that early diagnosis is what avoids the mental retardation. Treatment of classic PKU is dietary restriction of phenylalanine, using a phenylalanine-free milk formula, together with tyrosine supplementation — tyrosine has become an essential amino acid for this patient because they cannot make it. In the rare cases caused by BH4 deficiency rather than by PAH deficiency, the treatment is both dietary and supplementation of BH4.
+The book states that PKU is treatable by dietary means and that __early diagnosis is what avoids the mental retardation__.
+
+Treatment of classic PKU is **dietary restriction of phenylalanine**, using a phenylalanine-free milk formula, together with **tyrosine supplementation** — tyrosine has become an essential amino acid for this patient because they cannot make it.
+
+In the rare **BH4-deficiency** cases rather than PAH deficiency, the treatment is both dietary and **supplementation of BH4**.
 
 ## explicit_objective
 State the treatment of classic PKU and of the BH4-deficient variant, and explain why tyrosine has to be supplied rather than merely allowed.
@@ -3119,7 +3177,7 @@ relationships: Walked the 13 concepts under DIS-BIO-T05. Three loose neighbours 
 # Item
 
 ## label
-In obstructive jaundice the stool is clay coloured because no stercobilin reaches it, and the urine is dark because conjugated bilirubin does
+Obstructive jaundice: clay stool, dark urine
 
 ## id
 CON-GIT-A265DD7A7CC8EF
@@ -3143,7 +3201,11 @@ Post-hepatic jaundice
 فرط البيليروبين المقترن
 
 ## definition
-Obstruction of the biliary passages — by gallstones, by cancer of the head of the pancreas, or by inflammation of the pancreas or of the passages themselves — stops conjugated bilirubin reaching the intestine and forces it back into the blood. Two consequences follow directly. Stercobilin, which is what makes stool brown, disappears from the faeces, so the stool is clay coloured. Conjugated bilirubin is water-soluble and not bound to albumin, so the kidney excretes it and the urine becomes dark brown. The urine also contains bile salts, and serum alkaline phosphatase is raised.
+Obstruction of the biliary passages — by **gallstones, cancer of the head of the pancreas, or inflammation** — stops conjugated bilirubin reaching the intestine and forces it back into the blood.
+
+**Stercobilin**, which makes stool brown, disappears from the faeces, so the __stool is clay coloured__. **Conjugated bilirubin** is water-soluble and not bound to albumin, so the kidney excretes it and the __urine becomes dark brown__.
+
+The urine also contains **bile salts**, and serum **alkaline phosphatase** is raised.
 
 ## explicit_objective
 Explain, from what happens to bilirubin, why the stool is pale and the urine is dark in obstructive jaundice, naming the pigment missing from each.
@@ -3298,7 +3360,7 @@ relationships: Walked the CON-HEM- namespace for bile and bilirubin records and 
 # Item
 
 ## label
-The three jaundices are told apart by which bilirubin rises and which enzyme rises with it
+Telling the three jaundices apart
 
 ## id
 CON-GIT-4A2A86832F1FF2
@@ -3322,7 +3384,11 @@ Enzymatic changes in jaundice
 البيليروبين المباشر وغير المباشر
 
 ## definition
-Jaundice is classified by which form of bilirubin predominates in serum. In haemolytic jaundice bilirubin production outruns the liver's capacity to excrete it, so unconjugated (indirect) bilirubin rises while the conjugated fraction stays normal; the book records no enzyme change for it. In obstructive jaundice conjugated (direct) bilirubin regurgitates into blood and alkaline phosphatase is raised. In hepatocellular jaundice both fractions rise — the damaged liver conjugates less, and swollen cells block the canaliculi — and ALT and AST are raised because liver cells are being destroyed.
+Jaundice is classified by which form of **bilirubin** predominates in serum.
+
+In **haemolytic jaundice**, production outruns the liver's capacity to excrete it, so **unconjugated (indirect)** bilirubin rises while the conjugated fraction stays normal; the book records __no enzyme change__.
+
+In **obstructive jaundice**, **conjugated (direct)** bilirubin regurgitates into blood and **alkaline phosphatase** is raised. In **hepatocellular jaundice**, both fractions rise — the damaged liver conjugates less and swollen cells block the canaliculi — and **ALT and AST** are raised because liver cells are being destroyed.
 
 ## explicit_objective
 Complete a three-by-three table of haemolytic, obstructive and hepatocellular jaundice against the bilirubin fraction elevated and the serum enzyme change in each.
@@ -3489,13 +3555,17 @@ CON-HEM-F2B664C215C912
 teaching.hemolytic-anemia.definition
 
 ## label
-Hemolytic anemia is excessive RBC hemolysis and often has jaundice
+Haemolytic anaemia and its jaundice
 
 ## canonical_key
 haemolytic-anaemia.definition.jaundice
 
 ## definition
-Haemolytic anaemia is anaemia from excessive destruction of red cells, and it is often accompanied by jaundice. The jaundice is unconjugated: haemolysis produces bilirubin faster than the liver can excrete it, so serum unconjugated bilirubin rises while the conjugated fraction stays normal. Because unconjugated bilirubin is bound to plasma albumin it cannot be excreted in urine, which is why the book calls this "acholuric jaundice". Stercobilin increases in the faeces, so the stool is dark brown rather than pale.
+**Haemolytic anaemia** is anaemia from __excessive destruction of red cells__, and it is often accompanied by jaundice.
+
+The jaundice is **unconjugated**: haemolysis produces bilirubin faster than the liver can excrete it, so serum unconjugated bilirubin rises while the conjugated fraction stays normal. Because it is bound to **plasma albumin** it cannot be excreted in urine, which is why the book calls this **"acholuric jaundice"**.
+
+**Stercobilin** increases in the faeces, so the stool is __dark brown rather than pale__.
 
 ## explicit_objective
 State which bilirubin fraction rises in haemolytic jaundice, and explain why the urine stays clear while the stool darkens.
@@ -3576,7 +3646,7 @@ relationships: Updated rather than duplicated after "jaundice", "hemolysis" and 
 # Item
 
 ## label
-Alcohol raises urate through lactate: both share one renal transporter, and lactate wins
+How alcohol raises urate through lactate
 
 ## id
 CON-REN-0460ED67059E66
@@ -3599,7 +3669,11 @@ Competition for the renal urate transporter
 تنافس اللاكتات وحمض البوليك على ناقل الكلية
 
 ## definition
-Oxidising ethanol to acetaldehyde generates a large amount of NADH. The raised NADH/NAD⁺ ratio pushes the lactate dehydrogenase reaction towards lactate, so blood lactate rises. Lactate and uric acid use the same transporter in the renal tubules, and lactate — present at higher concentration and more soluble — takes the transporter in preference, so uric acid is retained and gout follows. Alcohol also causes dehydration. The book files this under decreased excretion, that is, renal gout, not under overproduction.
+Oxidising **ethanol** to acetaldehyde generates a large amount of **NADH**. The raised NADH/NAD⁺ ratio pushes the lactate dehydrogenase reaction towards **lactate**, so blood lactate rises.
+
+Lactate and uric acid **use the same renal transporter**, and lactate — more concentrated and more soluble — __takes the transporter in preference__, so uric acid is retained and gout follows. Alcohol also causes dehydration.
+
+The book files this under **decreased excretion**, that is, renal gout, not overproduction.
 
 ## explicit_objective
 Trace the chain from an alcoholic drink to a raised blood urate in the order the book gives it, and say why a raised blood lactate on its own has the same effect.
@@ -3754,7 +3828,7 @@ relationships: Walked all 16 concepts under DIS-BIO-T06 whose labels concern pur
 # Item
 
 ## label
-Urate is lowered two ways — make less of it or excrete more of it — and the book names a drug for only one of them
+Lowering urate: make less or excrete more
 
 ## id
 CON-REN-38B4BED80BC671
@@ -3777,7 +3851,11 @@ Urate-lowering therapy
 علاج النقرس
 
 ## definition
-The book divides the drug treatment of gout into three. Anti-inflammatory agents reduce joint inflammation and relieve pain but do not lower urate. Drugs decreasing the production of uric acid, of which allopurinol is the drug of choice. And drugs increasing the excretion of uric acid, the uricosuric drugs, which the book names as a class without naming a member; it adds that they must be taken with plenty of fluid and with alkalinisation of the urine, to prevent renal stones. Diet and adequate fluid intake sit alongside the drugs, and alcohol is to be avoided.
+The book divides the drug treatment of gout into **three**. **Anti-inflammatory agents** reduce joint inflammation and relieve pain but __do not lower urate__.
+
+**Drugs decreasing production**, of which **allopurinol** is the drug of choice. And **drugs increasing excretion**, the **uricosuric drugs**, which the book names as a class without naming a member; they must be taken with __plenty of fluid and alkalinisation of the urine__ to prevent renal stones.
+
+**Diet and adequate fluid** sit alongside the drugs, and **alcohol is to be avoided**.
 
 ## explicit_objective
 Name the two mechanisms by which a drug can lower blood uric acid, say which class does which, and state the precaution the book attaches to the uricosuric class.
@@ -3942,13 +4020,17 @@ CON-REN-31708150F8B722
 teaching.bio2.tophaceous-gout
 
 ## label
-Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones
+Chronic gout: tophi and urate stones
 
 ## canonical_key
 gout.chronic.tophi-and-urate-stones
 
 ## definition
-Gout is a painful inflammation of one or more joints, characterised by deposition of nodular masses of uric acid crystals — tophi — in soft tissue. In the joints they are found most often as hard nodules around the fingers, at the tips of the elbows, and around the big toe, where they cause arthritis. Precipitation of urates in the urinary tract may produce renal stones. Hyperuricaemia, the raised serum urate behind it, comes either from overproduction (metabolic) or from decreased excretion (renal); plasma urate is normally 4–7 mg/dL in men and 3–6 mg/dL in women.
+**Gout** is a painful inflammation of one or more joints, characterised by deposition of nodular masses of uric acid crystals — **tophi** — in soft tissue.
+
+In the joints they are found most often as hard nodules around the **fingers, elbows and big toe**, where they cause arthritis. Precipitation of urates in the urinary tract may produce **renal stones**.
+
+**Hyperuricaemia**, the raised serum urate behind it, comes from overproduction (metabolic) or decreased excretion (renal); plasma urate is normally __4–7 mg/dL in men and 3–6 mg/dL in women__.
 
 ## explicit_objective
 Given inflammation of the big toe with a high blood uric acid and tophi, give the diagnosis, and name the two broad mechanisms that raise serum urate.
@@ -4042,13 +4124,17 @@ CON-REN-E5BAEF03791C8F
 teaching.bio2.allopurinol.gout
 
 ## label
-Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function
+Allopurinol: how it lowers uric acid
 
 ## canonical_key
 gout.allopurinol.urate-lowering-and-renal-caution
 
 ## definition
-Allopurinol is the drug of choice for lowering uric acid production. It resembles hypoxanthine closely enough that xanthine oxidase oxidises it to oxypurinol, and oxypurinol then binds tightly to xanthine oxidase, so the enzyme can no longer oxidise hypoxanthine and xanthine and less uric acid is formed. Allopurinol also reacts with PRPP, which lowers the PRPP pool and reduces de-novo purine synthesis. It therefore works at two points: the last step of catabolism and the first step of synthesis.
+**Allopurinol** is the drug of choice for lowering uric acid production. It resembles hypoxanthine closely enough that **xanthine oxidase** oxidises it to **oxypurinol**, and oxypurinol then __binds tightly to xanthine oxidase__, so the enzyme can no longer oxidise hypoxanthine and xanthine and less uric acid is formed.
+
+Allopurinol also reacts with **PRPP**, which lowers the PRPP pool and reduces de-novo purine synthesis.
+
+It therefore works at **two points**: the last step of catabolism and the first step of synthesis.
 
 ## explicit_objective
 Explain how allopurinol lowers blood uric acid at both of the points the book describes, naming the enzyme inhibited and the metabolite formed from allopurinol itself.
@@ -4134,7 +4220,7 @@ relationships: Updated rather than duplicated after "allopurinol", "gout" and "u
 # Item
 
 ## label
-Each fat-soluble vitamin is matched to one reaction and one deficiency: A to dark adaptation, D to 1-hydroxylase, E to lipid antioxidation, K to glutamate carboxylation
+The four fat-soluble vitamins
 
 ## id
 CON-FND-46B9F239340ED9
@@ -4158,7 +4244,13 @@ Increased dark adaptation time
 الأشكال النشطة للفيتامينات الذائبة في الدهون
 
 ## definition
-Four vitamins are fat-soluble, and each carries one function a matching question can hang on. Vitamin A, active as retinol, retinal and retinoic acid, maintains healthy epithelium, vision, reproduction and gene expression; its deficiency gives night blindness, in which the dark adaptation time is increased, and xerophthalmia. Vitamin D is converted in the liver by 25-hydroxylase to calcidiol and in the kidney by 1-hydroxylase to calcitriol, the active form, which maintains plasma calcium and bone calcification; deficiency gives rickets and osteomalacia. Vitamin E, as α-tocopherol, is the lipid-soluble antioxidant; deficiency raises red cell fragility and gives anaemia. Vitamin K, as the hydroquinone, γ-carboxylates glutamate residues of the clotting factors and other proteins; deficiency gives bleeding.
+Four vitamins are fat-soluble, each carrying one function a matching question can hang on.
+
+**Vitamin A** (retinol, retinal, retinoic acid) maintains epithelium, vision, reproduction and gene expression; deficiency gives **night blindness**, in which the dark adaptation time is increased, and xerophthalmia.
+
+**Vitamin D** is converted in the liver by 25-hydroxylase to calcidiol and in the kidney by **1-hydroxylase** to **calcitriol**, the active form, which maintains plasma calcium and bone; deficiency gives **rickets and osteomalacia**.
+
+**Vitamin E (α-tocopherol)** is the **lipid-soluble antioxidant**; deficiency raises red cell fragility and gives anaemia. **Vitamin K** (hydroquinone) **γ-carboxylates glutamate** residues of the clotting factors; deficiency gives bleeding.
 
 ## explicit_objective
 Match each fat-soluble vitamin to its active form, the one reaction the book names for it, and its deficiency disease.
@@ -4312,7 +4404,7 @@ relationships: Walked the 18 records returned for "vitamin" across the endocrine
 # Item
 
 ## label
-The water-soluble vitamins are coenzymes, and a matching question tests which reaction each one runs
+The water-soluble vitamins as coenzymes
 
 ## id
 CON-FND-C9E5128193029E
@@ -4336,7 +4428,11 @@ Synthesis of CoA-SH
 الأشكال المساعدة للفيتامينات الذائبة في الماء
 
 ## definition
-Vitamin C and the B complex are water-soluble, absorbed directly into blood, not stored except for folate and B12, and their deficiencies appear quickly. Each has one function a matching question uses. Thiamine, as thiamine pyrophosphate, runs the oxidative decarboxylation of α-keto acids and transketolase; deficiency is beriberi. Riboflavin, as FMN and FAD, and niacin, as NAD⁺ and NADP⁺, are hydrogen carriers; niacin deficiency is pellagra. Pantothenic acid is the vitamin of coenzyme A and is the acyl carrier. Biotin runs carboxylation, that is, CO₂ fixation. Folic acid, as tetrahydrofolate, transfers one-carbon units; deficiency gives megaloblastic anaemia and neural tube defects. Cobalamin converts homocysteine to methionine and methylmalonyl-CoA to succinyl-CoA, and its deficiency gives subacute combined degeneration of the spinal cord. Vitamin C is the water-soluble antioxidant, and pyridoxal phosphate sits at each catalytic site of muscle glycogen phosphorylase.
+**Vitamin C and the B complex** are water-soluble, absorbed directly into blood, not stored except for folate and B12, and their deficiencies appear quickly.
+
+**Thiamine (TPP)** runs oxidative decarboxylation of α-keto acids and transketolase; deficiency is **beriberi**. **Riboflavin (FMN/FAD)** and **niacin (NAD⁺/NADP⁺)** are hydrogen carriers; niacin deficiency is **pellagra**. **Pantothenic acid** is the vitamin of **coenzyme A** and the acyl carrier. **Biotin** runs carboxylation (CO₂ fixation).
+
+**Folic acid (THF)** transfers one-carbon units; deficiency gives **megaloblastic anaemia and neural tube defects**. **Cobalamin** converts homocysteine to methionine and methylmalonyl-CoA to succinyl-CoA; deficiency gives **subacute combined degeneration of the spinal cord**. **Vitamin C** is the water-soluble antioxidant, and **pyridoxal phosphate** sits at each catalytic site of muscle glycogen phosphorylase.
 
 ## explicit_objective
 Match each water-soluble vitamin to the reaction or the deficiency the book names for it, and identify which options in a matching list belong to a vitamin that is not in the stem.
@@ -4491,7 +4587,7 @@ relationships: Walked the 18 records returned for "vitamin" and the DIS-BIO-T08 
 # Item
 
 ## label
-Folate antagonists work at two different enzymes, and that is why one is an antibiotic and the other an anticancer drug
+Folate antagonists: antibiotic vs anticancer
 
 ## id
 CON-FND-1A4A49607783A9
@@ -4515,7 +4611,11 @@ PABA and folic acid synthesis
 مثبطات إنزيم اختزال ثنائي هيدروفولات
 
 ## definition
-The book names two folate antagonists and they act at different points. Sulfonamides are competitive inhibitors of the bacterial enzyme that incorporates PABA into folic acid, so bacteria cannot make folate and cannot multiply; they do not affect human DNA or RNA synthesis, because mammalian cells cannot synthesise folic acid at all and must take it in. Methotrexate is an anticancer drug and a competitive inhibitor of dihydrofolate reductase, so folic acid is not activated to tetrahydrofolate, and DNA synthesis and cell division of malignant cells stop — the conversion of dUMP to dTMP needs methylene-THF. Treatment with methotrexate is itself a listed cause of folate deficiency.
+The book names **two folate antagonists**, acting at different points.
+
+**Sulfonamides** competitively inhibit the bacterial enzyme that incorporates **PABA** into folic acid, so bacteria cannot make folate and cannot multiply; they __do not affect human DNA or RNA synthesis__, because mammalian cells cannot synthesise folate and must take it in.
+
+**Methotrexate** is an anticancer drug and a competitive inhibitor of **dihydrofolate reductase**, so folic acid is not activated to tetrahydrofolate and __DNA synthesis and cell division of malignant cells stop__ (dUMP→dTMP needs methylene-THF). Treatment with methotrexate is itself a listed cause of folate deficiency.
 
 ## explicit_objective
 Name the two folate antagonists the book gives, state the enzyme each inhibits, and explain why one is selective for bacteria and the other is not.
@@ -4670,7 +4770,7 @@ relationships: Walked the 18 records returned for "vitamin", the four for "folat
 # Item
 
 ## label
-Alanine is made from pyruvate by transamination, is purely glucogenic, and its whole job in the book is the glucose-alanine cycle
+Alanine and the glucose-alanine cycle
 
 ## id
 CON-FND-8723D6C2BB6B32
@@ -4692,7 +4792,11 @@ ALT and alanine
 حلقة الجلوكوز-ألانين
 
 ## definition
-Alanine is a nonessential amino acid, synthesised by transamination of pyruvate with glutamate, using alanine aminotransferase (ALT); the book also notes it is released as a by-product of tryptophan catabolism. It is glucogenic only, because transamination converts it straight back to pyruvate. The book gives it a single function: ammonia released in muscle is carried to the liver as alanine, through the glucose-alanine cycle.
+**Alanine** is a nonessential amino acid, synthesised by **transamination of pyruvate** with glutamate, using alanine aminotransferase (**ALT**); it is also released as a by-product of tryptophan catabolism.
+
+It is **glucogenic only**, because transamination converts it straight back to pyruvate.
+
+The book gives it a single function: ammonia released in muscle is carried to the liver **as alanine**, through the __glucose-alanine cycle__.
 
 ## explicit_objective
 State how alanine is made, why it is glucogenic and not ketogenic, and name the one function the book gives it.
@@ -4849,7 +4953,7 @@ relationships: Linked to the glucose-alanine cycle concept and the gluconeogenes
 # Item
 
 ## label
-Serine is made two ways, from glycine and from a glycolytic intermediate, and its hydroxyl group is what makes it a site for covalent modification
+Serine: synthesis and its reactive hydroxyl
 
 ## id
 CON-FND-602DDE47BF8387
@@ -4871,7 +4975,11 @@ Covalent modification of proteins by serine
 مسار الفوسفوسيرين
 
 ## definition
-Serine is nonessential and is made two ways: from glycine, by serine hydroxymethyl transferase (the same reaction run in reverse of glycine's own synthesis), and from 3-phosphoglycerate, which is oxidised to 3-phosphohydroxypyruvate, transaminated to phosphoserine, then dephosphorylated. It is glucogenic, deaminated by serine dehydratase to pyruvate. Its hydroxyl group lets it be phosphorylated and glycosylated, which is how some proteins are switched on and off; it also gives glycine and the carbon skeleton of cysteine, joins one-carbon metabolism, and is a major constituent of phospholipids.
+**Serine** is nonessential and made **two ways**: from **glycine**, by serine hydroxymethyl transferase (glycine's own synthesis run in reverse), and from **3-phosphoglycerate**, oxidised to 3-phosphohydroxypyruvate, transaminated to phosphoserine, then dephosphorylated.
+
+It is **glucogenic**, deaminated by serine dehydratase to pyruvate.
+
+Its **hydroxyl group** lets it be __phosphorylated and glycosylated__, which is how some proteins are switched on and off; it also gives glycine and the carbon skeleton of cysteine, joins one-carbon metabolism, and is a major constituent of phospholipids.
 
 ## explicit_objective
 Name both routes of serine synthesis, its catabolic fate, and the four things the book lists it as being needed for.
@@ -5028,7 +5136,7 @@ relationships: Linked to Glycine (mutual interconversion) and Cysteine (serine s
 # Item
 
 ## label
-Threonine is essential, purely glucogenic, and the book gives it exactly one function: a regulatory hydroxyl group, like serine's
+Threonine: essential, glucogenic, one function
 
 ## id
 CON-FND-83628BADCA3377
@@ -5048,7 +5156,9 @@ Hydroxyl containing aliphatic amino acids
 حمض أميني أساسي
 
 ## definition
-Threonine is one of the two hydroxyl-containing aliphatic amino acids the book pairs with serine. It is essential, so the book states no synthesis for it, and it is glucogenic. The one function given is that its hydroxyl group, like serine's, confers a regulatory role on some proteins through reversible phosphorylation and dephosphorylation.
+**Threonine** is one of the two hydroxyl-containing aliphatic amino acids the book pairs with serine. It is **essential**, so the book states no synthesis for it, and it is **glucogenic**.
+
+The one function given is that its **hydroxyl group**, like serine's, __confers a regulatory role on some proteins__ through reversible phosphorylation and dephosphorylation.
 
 ## explicit_objective
 State that threonine is essential and glucogenic, and name the one functional role the book gives its hydroxyl group.
@@ -5205,7 +5315,7 @@ relationships: Grouped with Serine, since the book itself pairs them under one h
 # Item
 
 ## label
-Aspartate is made from oxaloacetate by transamination, is purely glucogenic, and donates carbon or nitrogen to three different synthetic pathways
+Aspartate: synthesis and three donations
 
 ## id
 CON-FND-F3A76A6F880190
@@ -5227,7 +5337,9 @@ Aspartate as urea nitrogen donor
 مصدر نيتروجين اليوريا
 
 ## definition
-Aspartate is a nonessential amino acid, synthesised from oxaloacetate by transamination with glutamate, using AST (a PLP-dependent enzyme). It is glucogenic, since it regenerates oxaloacetate, a gluconeogenic substrate. The book gives it three functions: it is converted to asparagine by asparagine synthetase, with asparagine acting as the glycosylation site on many proteins; it supplies one of the two nitrogen atoms of urea; and it feeds into purine and pyrimidine synthesis.
+**Aspartate** is a nonessential amino acid, synthesised from **oxaloacetate** by transamination with glutamate, using AST (a PLP-dependent enzyme). It is **glucogenic**, since it regenerates oxaloacetate.
+
+The book gives it **three functions**: it is converted to **asparagine**, which acts as a glycosylation site on many proteins; it supplies __one of the two nitrogen atoms of urea__; and it feeds into **purine and pyrimidine synthesis**.
 
 ## explicit_objective
 State how aspartate is made and why it is glucogenic, and name the three synthetic pathways the book says it feeds.
@@ -5384,7 +5496,7 @@ relationships: Linked to the two urea cycle concepts that already state what asp
 # Item
 
 ## label
-Arginine is semi-essential, is split by arginase into urea and ornithine, and is also the substrate for nitric oxide
+Arginine: urea cycle and nitric oxide
 
 ## id
 CON-FND-D0FFF93FC15672
@@ -5406,7 +5518,9 @@ Arginine creatine synthesis
 تخليق أكسيد النيتريك
 
 ## definition
-Arginine is semi-essential, synthesised from the carbon skeleton of ornithine. It is glucogenic: in the liver, arginase splits it into urea and ornithine, the last step of the urea cycle, and ornithine is then converted to glutamate. The book gives it two further functions outside the urea cycle: nitric oxide synthase converts it to nitric oxide, a neurotransmitter, vasodilator and smooth-muscle relaxant, and it shares in creatine synthesis.
+**Arginine** is **semi-essential**, synthesised from the carbon skeleton of ornithine. It is **glucogenic**: in the liver, **arginase** splits it into **urea and ornithine**, the last step of the urea cycle, and ornithine is then converted to glutamate.
+
+The book gives it two further functions outside the urea cycle: **nitric oxide synthase** converts it to **nitric oxide** — a neurotransmitter, vasodilator and smooth-muscle relaxant — and it shares in **creatine synthesis**.
 
 ## explicit_objective
 State why arginine is semi-essential, name the enzyme and products of its urea-cycle step, and give its two non-urea functions.
@@ -5563,7 +5677,7 @@ relationships: Linked to both urea cycle concepts already in this file, and to t
 # Item
 
 ## label
-Lysine is essential and purely ketogenic, and its two roles are structural — hydroxylysine in collagen — and regulatory — histone acetylation
+Lysine: collagen crosslinks and histone acetylation
 
 ## id
 CON-FND-8507EE95B795A8
@@ -5585,7 +5699,11 @@ Histone acetylation lysine
 أستلة الهستونات
 
 ## definition
-Lysine is essential and ketogenic, forming acetoacetyl-CoA. In collagen and elastin, lysine is hydroxylated by lysyl hydroxylase to hydroxylysine, a reaction that requires vitamin C as cofactor; hydroxylysine contributes to the crosslinks that stabilise collagen's fibril structure. Separately, acetylation of the lysine residues of histones is a mechanism of chromatin remodelling that regulates gene expression.
+**Lysine** is **essential and ketogenic**, forming acetoacetyl-CoA.
+
+In collagen and elastin, lysine is hydroxylated by **lysyl hydroxylase** to **hydroxylysine**, a reaction requiring **vitamin C**; hydroxylysine contributes the __crosslinks that stabilise collagen's fibrils__.
+
+Separately, **acetylation of the lysine residues of histones** is a mechanism of chromatin remodelling that regulates gene expression.
 
 ## explicit_objective
 State that lysine is essential and ketogenic, and give its two named roles: collagen crosslinking and histone acetylation.
@@ -5742,7 +5860,7 @@ relationships: Linked to Arginine (paired under one book heading), Proline (both
 # Item
 
 ## label
-Proline is made from glutamate, is interconvertible with glutamate semialdehyde, and its one named job is collagen
+Proline: from glutamate, for collagen
 
 ## id
 CON-FND-5AB8B303F0D7B2
@@ -5762,7 +5880,9 @@ Glutamate semialdehyde
 تخليق البرولين من الجلوتامات
 
 ## definition
-Proline is a nonessential amino acid synthesised from glutamate. Being interconvertible with glutamate semialdehyde, it is glucogenic. The book gives it one function: proline is needed in protein synthesis, particularly collagen.
+**Proline** is a nonessential amino acid synthesised from **glutamate**. Being interconvertible with glutamate semialdehyde, it is **glucogenic**.
+
+The book gives it **one function**: proline is needed in protein synthesis, __particularly collagen__.
 
 ## explicit_objective
 State that proline is made from glutamate, is glucogenic, and give the one protein the book names it as needed for.
@@ -5919,7 +6039,7 @@ relationships: Linked to Glutamic Acid, its precursor, and to Lysine, its collag
 # Item
 
 ## label
-The book closes the amino acid chapter with one table: which amino acids are glucogenic, ketogenic or both, and which are essential
+Amino acid classification: the summary table
 
 ## id
 CON-FND-F91310521FC982
@@ -5940,7 +6060,11 @@ Mixed glucogenic ketogenic amino acids
 الأحماض الأمينية السكرية والكيتونية
 
 ## definition
-The book's own closing table sorts all sixteen amino acids of the chapter by two axes at once: glucogenic, ketogenic or mixed, and essential, non-essential or semi-essential. Purely ketogenic are leucine and lysine. Mixed (both glucogenic and ketogenic) are isoleucine, phenylalanine and tyrosine. Every other amino acid in the table — glycine, alanine, serine, threonine, valine, glutamic acid, aspartic acid, arginine, cysteine, methionine, tryptophan, histidine and proline — is glucogenic only. Essential are threonine, valine, leucine, isoleucine, lysine, methionine, phenylalanine, tryptophan and histidine; arginine is semi-essential; the rest are non-essential.
+The book's closing table sorts all sixteen amino acids of the chapter by **two axes at once**: glucogenic, ketogenic or mixed, and essential, non-essential or semi-essential.
+
+**Purely ketogenic** are leucine and lysine. **Mixed** (both glucogenic and ketogenic) are isoleucine, phenylalanine and tyrosine. **Glucogenic only** is every other — glycine, alanine, serine, threonine, valine, glutamic acid, aspartic acid, arginine, cysteine, methionine, tryptophan, histidine and proline.
+
+**Essential** are threonine, valine, leucine, isoleucine, lysine, methionine, phenylalanine, tryptophan and histidine; **arginine is semi-essential**; the rest are non-essential.
 
 ## explicit_objective
 Given any one amino acid from the chapter, state from the table whether it is glucogenic, ketogenic or mixed, and whether it is essential, non-essential or semi-essential.
@@ -6097,7 +6221,7 @@ relationships: Linked to the amino acids with the least intuitive classification
 # Item
 
 ## label
-Active acetate is the one hub where carbohydrate, fat and protein metabolism converge, and from it the body makes energy, fat, cholesterol, ketones or an acetyl group
+Active acetate: the metabolic crossroads
 
 ## id
 CON-FND-0C22ADD8295933
@@ -6119,7 +6243,11 @@ Acetylation reactions active acetate
 مصائر الأسيتيل-CoA
 
 ## definition
-The book closes the amino acid chapter with a second summary, tracing active acetate (acetyl-CoA) as the point where all three foodstuffs meet. Its sources are four: carbohydrates, through glycolysis to pyruvate then pyruvate dehydrogenase; triacylglycerol, both its glycerol arm, through triose phosphate and glycolysis, and its fatty-acid arm, through beta-oxidation; amino acids, glucogenic ones through pyruvate and ketogenic ones directly; and ketone bodies, through ketolysis in extrahepatic tissue. Its fates are five: oxidation by the citric acid cycle for energy; fatty acid synthesis, in lipogenesis; cholesterol synthesis, through HMG-CoA; ketone body synthesis, in the liver mitochondria, when fatty acid oxidation is excessive; and acetylation reactions — acetylcholine, N-acetylserotonin in melatonin synthesis, N-acetylglutamate, and N-acetylamino sugars.
+The book closes the amino acid chapter with a second summary, tracing **active acetate (acetyl-CoA)** as the point where __all three foodstuffs meet__.
+
+Its **four sources**: **carbohydrates**, through glycolysis to pyruvate then pyruvate dehydrogenase; **triacylglycerol**, both its glycerol arm (through triose phosphate and glycolysis) and its fatty-acid arm (through beta-oxidation); **amino acids**, glucogenic ones through pyruvate and ketogenic ones directly; and **ketone bodies**, through ketolysis in extrahepatic tissue.
+
+Its **five fates**: oxidation by the **citric acid cycle** for energy; **fatty acid synthesis**; **cholesterol synthesis** through HMG-CoA; **ketone body synthesis** in the liver when fatty-acid oxidation is excessive; and **acetylation reactions** — acetylcholine, N-acetylserotonin in melatonin synthesis, N-acetylglutamate, and N-acetylamino sugars.
 
 ## explicit_objective
 Name the four metabolic sources and the five metabolic fates the book gives for active acetate.
@@ -6276,7 +6404,7 @@ relationships: Linked to the citric acid cycle concept and to the lipogenesis, c
 # Item
 
 ## label
-In the well-fed state insulin rises and every tissue turns to storage: the liver and muscle build glycogen, adipose tissue builds fat, and glucose is the fuel everywhere
+The well-fed state
 
 ## id
 CON-FND-61DA35C82C732F
@@ -6297,7 +6425,11 @@ Postprandial metabolism
 الحالة الامتصاصية بعد الوجبة
 
 ## definition
-The well-fed state runs 0 to 4 hours after a meal. Food breaks down mainly to glucose, amino acids and fatty acids; water-soluble products are absorbed directly to blood, water-insoluble ones as chylomicrons through lymph. Insulin secretion rises and glucagon falls as blood glucose increases. Muscle and adipose tissue increase glucose uptake through GLUT-4, and increase glycolysis; muscle also increases glycogenesis and incorporates amino acids into protein; adipose tissue increases lipogenesis and decreases lipolysis. The liver increases glucose uptake, glycolysis, glycogenesis, lipogenesis and cholesterol synthesis. The brain increases glucose uptake and glycolysis. Glucose is the main fuel throughout, and insulin is the dominant hormone.
+The **well-fed state** runs 0 to 4 hours after a meal. Food breaks down mainly to glucose, amino acids and fatty acids; water-soluble products are absorbed directly to blood, insoluble ones as **chylomicrons** through lymph.
+
+**Insulin rises and glucagon falls** as blood glucose increases. Muscle and adipose tissue take up glucose through **GLUT-4** and increase glycolysis; muscle also builds **glycogen** and incorporates amino acids into protein; adipose tissue increases **lipogenesis** and decreases lipolysis.
+
+The **liver** increases glucose uptake, glycolysis, glycogenesis, lipogenesis and cholesterol synthesis; the **brain** increases glucose uptake and glycolysis. __Glucose is the main fuel throughout, and insulin is the dominant hormone.__
 
 ## explicit_objective
 For each of the five tissues the book names, state whether glucose uptake, glycolysis, glycogenesis and lipogenesis rise or fall in the well-fed state, and name the dominant hormone.
@@ -6454,7 +6586,7 @@ relationships: Linked to the chapter-level feed-starve cycle concept it speciali
 # Item
 
 ## label
-In early fasting, insulin falls and glucagon rises, and the whole point is to keep the brain fed by hepatic glycogenolysis while other tissues switch to fat
+The early-fasting state
 
 ## id
 CON-FND-EFF5FB178CDDFA
@@ -6474,7 +6606,11 @@ Hepatic glycogenolysis fasting
 الصيام من 4 إلى 18 ساعة
 
 ## definition
-Early fasting runs 4 to 18 hours after the last meal, marked by falling plasma glucose, falling insulin and rising glucagon. Every change aims to keep the brain supplied with glucose, first by glycogenolysis then by gluconeogenesis, and to release free fatty acids from adipose tissue for other tissues. The brain is unaffected by falling insulin and keeps using glucose by glycolysis. Muscle decreases glucose uptake, glycolysis and glycogenesis, and increases beta-oxidation. The liver decreases glucose uptake, glycolysis, glycogenesis and lipogenesis, and increases glycogenolysis, gluconeogenesis and beta-oxidation. Adipose tissue decreases glucose uptake, glycolysis and lipogenesis, and increases lipolysis. Muscle glycogenolysis does not itself supply plasma glucose and matters mainly during exercise, not fasting. The main fuel is glucose from hepatic glycogenolysis, and the predominant hormone is glucagon.
+**Early fasting** runs 4 to 18 hours after the last meal, marked by **falling glucose and insulin and rising glucagon**. Every change aims to __keep the brain supplied with glucose__ — first by glycogenolysis, then gluconeogenesis — and to release free fatty acids for other tissues.
+
+The **brain** is unaffected by falling insulin and keeps using glucose. **Muscle** decreases glucose uptake, glycolysis and glycogenesis, and increases beta-oxidation. **Adipose tissue** decreases glucose uptake and lipogenesis and increases **lipolysis**.
+
+The **liver** decreases glucose uptake, glycolysis, glycogenesis and lipogenesis, and increases **glycogenolysis, gluconeogenesis and beta-oxidation**. Muscle glycogenolysis does not itself supply plasma glucose and matters mainly in exercise. __The main fuel is glucose from hepatic glycogenolysis, and the predominant hormone is glucagon.__
 
 ## explicit_objective
 State which two hormones change direction at the start of early fasting, and explain why muscle glycogenolysis does not contribute to plasma glucose.
@@ -6631,7 +6767,7 @@ relationships: Linked to Well-Fed State (the stage before it) and Late Fasting S
 # Item
 
 ## label
-In late fasting the body switches from burning glucose to burning fat, and the glucose-alanine cycle carries muscle protein breakdown to the liver for gluconeogenesis
+The late-fasting state
 
 ## id
 CON-FND-7F3A2AEFD5FF87
@@ -6652,7 +6788,11 @@ Muscle protein breakdown fasting
 الصيام من 18 إلى 48 ساعة
 
 ## definition
-Late fasting runs 18 to 48 hours, once anti-insulin hormones (glucagon, catecholamines, cortisol and growth hormone) predominate and glycogen stores are significantly depleted. Blood glucose is now maintained by gluconeogenesis, and the body switches from glucose-burning to fat-burning: lipolysis, beta-oxidation, ketogenesis and ketolysis dominate. The brain still runs mainly on glucose but can also use some ketone bodies. Muscle increases beta-oxidation, transaminates pyruvate to alanine for the liver through the glucose-alanine cycle, and breaks down its own protein to supply that alanine. The liver increases gluconeogenesis, beta-oxidation and ketogenesis. Adipose tissue decreases lipogenesis and increases lipolysis. The main fuel is fatty acids from adipose lipolysis, and the predominant hormones are glucagon and catecholamines.
+**Late fasting** runs 18 to 48 hours, once anti-insulin hormones (glucagon, catecholamines, cortisol and growth hormone) predominate and glycogen stores are significantly depleted.
+
+Blood glucose is now maintained by **gluconeogenesis**, and the body switches from glucose-burning to **fat-burning**: lipolysis, beta-oxidation, ketogenesis and ketolysis. The **brain** still runs mainly on glucose but can also use some ketone bodies.
+
+**Muscle** increases beta-oxidation, transaminates pyruvate to **alanine** for the liver through the glucose-alanine cycle, and __breaks down its own protein to supply that alanine__. The **liver** increases gluconeogenesis, beta-oxidation and ketogenesis; **adipose tissue** increases lipolysis. The main fuel is **fatty acids**, and the hormones are glucagon and catecholamines.
 
 ## explicit_objective
 Explain why muscle protein must be broken down in late fasting, and name the cycle that carries the resulting nitrogen to the liver.
@@ -6809,7 +6949,7 @@ relationships: Linked to Early Fasting State and Starvation State, the stages ei
 # Item
 
 ## label
-In starvation the kidney joins the liver making glucose, ketone bodies become the brain's main fuel, and once fat runs out only protein is left to burn
+The starvation state
 
 ## id
 CON-FND-0741CE71FB0569
@@ -6831,7 +6971,13 @@ Brain ketone body adaptation
 الكيتوزية في المجاعة
 
 ## definition
-Starvation begins after 48 hours of fasting. The first priority is glucose for the brain and other glucose-dependent tissues; the second is to preserve protein, using fatty acids and ketone bodies in its place. The kidney becomes an important site of gluconeogenesis, contributing up to half of blood glucose, which itself does not fall below 70 mg/dL. After two to five days the liver forms large amounts of ketone bodies (ketosis); gluconeogenesis from protein decreases, and the brain begins drawing about a third of its energy from ketone bodies. After several weeks, ketone bodies become the brain's major fuel, and survival time is set by the size of the triacylglycerol depot; once that is exhausted, protein is the only fuel left, its degradation accelerates, and death follows from loss of respiratory, cardiac, hepatic or renal function. Muscle increases beta-oxidation and ketolysis; the liver decreases gluconeogenesis initially while increasing beta-oxidation and ketogenesis; adipose tissue markedly increases lipolysis; insulin secretion is minimal and glucagon maximal.
+**Starvation** begins after 48 hours of fasting. The first priority is **glucose for the brain**; the second is to **preserve protein**, using fatty acids and ketone bodies in its place.
+
+The **kidney** becomes an important site of gluconeogenesis, contributing up to half of blood glucose, which itself does not fall below **70 mg/dL**. After two to five days the liver forms large amounts of ketone bodies (**ketosis**), gluconeogenesis from protein decreases, and the brain begins drawing about a third of its energy from ketone bodies.
+
+After several weeks, **ketone bodies become the brain's major fuel**, and survival time is set by the size of the triacylglycerol depot; __once that is exhausted, protein is the only fuel left__, its degradation accelerates, and death follows from respiratory, cardiac, hepatic or renal failure.
+
+**Muscle** increases beta-oxidation and ketolysis; the **liver** decreases gluconeogenesis initially while increasing beta-oxidation and ketogenesis; **adipose tissue** markedly increases lipolysis; insulin is minimal and glucagon maximal.
 
 ## explicit_objective
 State the two priorities of starvation metabolism in order, and trace how the brain's fuel source changes over the days and weeks that follow.
@@ -6988,7 +7134,7 @@ relationships: Linked to Late Fasting State, the stage before it, and to the ket
 # Item
 
 ## label
-The pyrimidine ring is built from only two sources — aspartate and the amide of glutamine — and its catabolism ends in small, water-soluble pieces the purine ring never produces
+Pyrimidine ring: two sources, soluble breakdown
 
 ## id
 CON-FND-D2044E7265FB03
@@ -7009,7 +7155,11 @@ Beta-alanine beta-aminoisobutyrate
 نواتج تكسير البيريميدين
 
 ## definition
-Where the book gives the purine ring five different sources across four different donor molecules, the pyrimidine ring is simpler: its six atoms come from only two sources, the amide group of glutamine and aspartate, with one carbon from CO2. Catabolism of the pyrimidine ring ends in small, freely water-soluble products that are easily excreted: carbon dioxide, ammonia, and either beta-alanine, from uracil and cytosine, or beta-aminoisobutyrate, from thymine. This is the fact that distinguishes pyrimidine catabolism from purine catabolism, which the book states ends in uric acid, a far less soluble end product responsible for gout.
+Where the purine ring has five sources across four donor molecules, the **pyrimidine ring** is simpler: its six atoms come from only **two sources** — the **amide group of glutamine** and **aspartate** — with one carbon from CO2.
+
+Catabolism of the pyrimidine ring ends in **small, freely water-soluble products** that are easily excreted: carbon dioxide, ammonia, and either **beta-alanine** (from uracil and cytosine) or **beta-aminoisobutyrate** (from thymine).
+
+This is what __distinguishes pyrimidine catabolism from purine catabolism__, which ends in **uric acid**, a far less soluble product responsible for gout.
 
 ## explicit_objective
 Name the two sources of the pyrimidine ring's atoms, and give the three or four small end products of its catabolism.
@@ -7166,7 +7316,7 @@ relationships: Linked to the purine biosynthesis concept, its structural counter
 # Item
 
 ## label
-The book gives the uronic acid pathway one line: it is the other minor pathway of glucose oxidation, and its purpose is making glucuronic acid, not energy
+The uronic acid pathway in one line
 
 ## id
 CON-FND-B7423F19A99029
@@ -7186,7 +7336,9 @@ Minor pathways of glucose oxidation
 تخليق حمض الجلوكورونيك
 
 ## definition
-The book names two minor pathways of glucose oxidation, alongside glycolysis, that exist to make other compounds rather than energy: the hexose monophosphate pathway, for pentoses and NADPH, and the uronic acid pathway, for the synthesis of glucuronic acid. The book gives the uronic acid pathway no further detail — no enzymes, no intermediates — beyond naming this one product and this one purpose.
+The book names **two minor pathways** of glucose oxidation, alongside glycolysis, that exist to make other compounds rather than energy: the **hexose monophosphate pathway** (pentoses and NADPH) and the **uronic acid pathway** (synthesis of **glucuronic acid**).
+
+The book gives the uronic acid pathway __no further detail__ — no enzymes, no intermediates — beyond naming this one product and this one purpose.
 
 ## explicit_objective
 State the one product the book names for the uronic acid pathway, and place it correctly as a minor, non-energy-yielding route of glucose oxidation alongside the hexose monophosphate pathway.
