@@ -57,7 +57,7 @@
 # Item
 
 ## label
-Phenylalanine hydroxylase runs on tetrahydrobiopterin, and the same coenzyme stands at the head of tyrosine and tryptophan hydroxylation too
+Phenylalanine hydroxylase and its coenzyme BH4
 
 ## id
 CON-FND-A6E502DCE4232F
@@ -82,7 +82,11 @@ BH4-dependent hydroxylases
 مانح الهيدروجين للإنزيم
 
 ## definition
-Phenylalanine is an essential amino acid and tyrosine is not, because phenylalanine hydroxylase (PAH) makes tyrosine from it. The enzyme requires tetrahydrobiopterin (BH4) as its coenzyme and hydrogen donor: molecular oxygen supplies the hydroxyl group that goes onto the ring, BH4 is oxidised to BH2 as it gives up its hydrogen, and NADPH reduces BH2 back to BH4 so the coenzyme cycles rather than being consumed. The book gives tyrosine hydroxylase, which begins catecholamine synthesis, "the same factors as those for phenylalanine hydroxylase", and makes tryptophan hydroxylase BH4-dependent as well.
+**Phenylalanine** is an essential amino acid; **tyrosine** is not, because __phenylalanine hydroxylase (PAH) makes tyrosine from it__.
+
+The enzyme's coenzyme and hydrogen donor is **tetrahydrobiopterin (BH4)**. __Molecular oxygen supplies the hydroxyl group__ that goes onto the ring, BH4 is oxidised to BH2 as it gives up its hydrogen, and NADPH reduces BH2 back to BH4 so the coenzyme cycles rather than being consumed.
+
+The same coenzyme reappears downstream: the book gives **tyrosine hydroxylase**, which begins catecholamine synthesis, "the same factors as those for phenylalanine hydroxylase", and makes **tryptophan hydroxylase** BH4-dependent as well.
 
 ## explicit_objective
 Name tetrahydrobiopterin as the coenzyme of phenylalanine hydroxylase, say what molecular oxygen and NADPH each contribute to the reaction, and name the two other hydroxylases the book gives the same coenzyme.
@@ -246,7 +250,7 @@ relationships: Walked the four pending phenylketonuria concepts, the eight pendi
 # Item
 
 ## label
-Tyrosine is non-essential and mixed: its catabolism ends in fumarate, which is glucogenic, and acetoacetate, which is ketogenic
+Tyrosine catabolism: fumarate and acetoacetate
 
 ## id
 CON-FND-634036621EB132
@@ -272,7 +276,11 @@ Tyrosine aminotransferase
 حمض أميني مولد للجلوكوز ومولد للكيتونات
 
 ## definition
-Tyrosine is non-essential because phenylalanine hydroxylase makes it from phenylalanine, and it is a mixed amino acid because its catabolism ends in two different kinds of product. Tyrosine aminotransferase, a PLP enzyme, transaminates it with α-ketoglutarate to p-hydroxyphenylpyruvate; p-hydroxyphenylpyruvate hydroxylase, needing vitamin C and Cu²⁺, converts that to homogentisate and releases CO2; homogentisate oxidase, needing vitamin C and Fe²⁺, opens the ring to maleylacetoacetate; an isomerase and then a hydrolase split it into fumarate, which is glucogenic, and acetoacetate, which is ketogenic. The book's summary table lists tyrosine as mixed and non-essential, and phenylalanine as mixed and essential.
+**Tyrosine** is non-essential because phenylalanine hydroxylase makes it from phenylalanine, and it is a **mixed amino acid** because its catabolism ends in two different kinds of product.
+
+**Tyrosine aminotransferase**, a PLP enzyme, transaminates it with α-ketoglutarate to p-hydroxyphenylpyruvate. **p-Hydroxyphenylpyruvate hydroxylase** (vitamin C and Cu²⁺) converts that to homogentisate and releases CO2, and **homogentisate oxidase** (vitamin C and Fe²⁺) opens the ring to maleylacetoacetate.
+
+An isomerase and then a hydrolase split it into __**fumarate**, which is glucogenic, and **acetoacetate**, which is ketogenic__. The book's summary table lists tyrosine as mixed and non-essential, and phenylalanine as mixed and essential.
 
 ## explicit_objective
 Classify tyrosine as non-essential and mixed, name fumarate and acetoacetate as its two catabolic end products, and explain why phenylalanine's carbon enters the citric acid cycle as fumarate.
@@ -436,7 +444,7 @@ relationships: Walked the four pending phenylketonuria concepts, the pending cit
 # Item
 
 ## label
-Tyrosine is the precursor of the catecholamines, melanin and the thyroid hormones, and DOPA is where the first two part company
+Tyrosine's derivatives: catecholamines, melanin, thyroid hormones
 
 ## id
 CON-FND-FA4D15805B9D02
@@ -463,7 +471,11 @@ Thyroid hormone synthesis
 تخليق الميلانين
 
 ## definition
-Tyrosine is hydroxylated to dihydroxyphenylalanine (DOPA) by tyrosine hydroxylase, which needs the same factors as phenylalanine hydroxylase, and DOPA is the precursor of the catecholamines — dopamine, noradrenaline and adrenaline. DOPA produced in melanocytes is used instead for the synthesis of melanin by tyrosinase, so the same intermediate serves the transmitter pathway in one tissue and the pigment pathway in another. The third derivative bypasses DOPA altogether: tyrosine residues of thyroglobulin are iodinated to monoiodotyrosine and diiodotyrosine, and two diiodotyrosine couple to give T4 while one of each gives T3.
+**Tyrosine** is hydroxylated to **dihydroxyphenylalanine (DOPA)** by tyrosine hydroxylase, which needs the same factors as phenylalanine hydroxylase, and __DOPA is the precursor of the catecholamines__ — dopamine, noradrenaline and adrenaline.
+
+DOPA produced in melanocytes is used instead for the synthesis of **melanin** by **tyrosinase**, so the same intermediate serves the transmitter pathway in one tissue and the pigment pathway in another.
+
+The third derivative bypasses DOPA altogether: tyrosine residues of thyroglobulin are iodinated to **monoiodotyrosine** and **diiodotyrosine**, and __two diiodotyrosine couple to give T4 while one of each gives T3__.
 
 ## explicit_objective
 Name tyrosine as the precursor of the catecholamines, melanin and the thyroid hormones; place DOPA as the branch point between the catecholamine and melanin routes; and name the enzyme that makes DOPA and the one that consumes it.
@@ -628,7 +640,7 @@ relationships: Walked the four pending phenylketonuria concepts, the six minted 
 # Item
 
 ## label
-Alkaptonuria is deficiency of homogentisate oxidase: the urine is normal when passed and blackens as it stands, and the same quinones stain bone and cartilage
+Alkaptonuria: homogentisate oxidase deficiency and black urine
 
 ## id
 CON-FND-49155E4E08617B
@@ -654,7 +666,11 @@ Alcaptonuria
 الداء الأوكروني
 
 ## definition
-Alkaptonuria is caused by deficiency of homogentisate oxidase, the vitamin C and Fe²⁺ dependent enzyme that opens the ring of homogentisate to maleylacetoacetate on the catabolic branch of tyrosine. Homogentisate accumulates in the tissues and is excreted in the urine, where it undergoes auto-oxidation into quinones, which are deep brown. The child voids urine of normal colour and it soon darkens to black, because the oxidation happens in air rather than in the bladder. The same quinones give the tissues — particularly bone and cartilage — a brown colour, a condition called ochronosis, and the patient suffers arthritis.
+**Alkaptonuria** is caused by deficiency of **homogentisate oxidase**, the vitamin C and Fe²⁺ dependent enzyme that opens the ring of homogentisate to maleylacetoacetate on the catabolic branch of tyrosine.
+
+Homogentisate accumulates in the tissues and is excreted in the urine, where it undergoes auto-oxidation into **quinones**, which are deep brown. __The child voids urine of normal colour and it soon darkens to black__, because the oxidation happens in air rather than in the bladder.
+
+The same quinones give the tissues — particularly **bone and cartilage** — a brown colour, a condition called **ochronosis**, and the patient suffers arthritis.
 
 ## explicit_objective
 Identify alkaptonuria from a history of urine that is normal when passed and darkens on standing, name homogentisate oxidase as the deficient enzyme, and place the block relative to phenylketonuria and albinism on the same pathway.
@@ -819,7 +835,7 @@ relationships: Walked the four pending phenylketonuria concepts, the six minted 
 # Item
 
 ## label
-Tryptophan gives serotonin, then melatonin in the pineal body, and nicotinic acid only in the presence of vitamin B6
+Tryptophan's derivatives: serotonin, melatonin, nicotinic acid
 
 ## id
 CON-NEU-6C4A6BDA725F0E
@@ -846,7 +862,13 @@ Indole and skatole
 حمض النيكوتينيك من التربتوفان
 
 ## definition
-Tryptophan is an essential, mixed amino acid whose catabolism gives alanine and acetoacetate, and it is the only amino acid in this course that yields a vitamin. It has five products. Nicotinic acid, vitamin B3, is made from it in the presence of pyridoxine, so deficiency of either tryptophan or vitamin B6 gives pellagra-like manifestations. Formyl-THF from its catabolism enters one-carbon metabolism. BH4-dependent tryptophan hydroxylase converts it to 5-hydroxytryptophan, which is decarboxylated to serotonin — made in nervous tissue and in intestinal argentaffin cells, a CNS transmitter that also contracts smooth muscle and causes vasoconstriction. In the pineal body serotonin is acetylated and then methylated to melatonin, which is an antioxidant, rises in the dark, promotes sleep to some extent and acts as an antidepressant. Tryptophan reaching the large intestine is putrefied to indole and skatole.
+**Tryptophan** is an essential, mixed amino acid whose catabolism gives alanine and acetoacetate, and __it is the only amino acid in this course that yields a vitamin__. It has five products.
+
+**Nicotinic acid** (vitamin B3) is made from it in the presence of **pyridoxine**, so deficiency of either tryptophan or vitamin B6 gives pellagra-like manifestations. Formyl-THF from its catabolism enters one-carbon metabolism.
+
+BH4-dependent **tryptophan hydroxylase** converts it to 5-hydroxytryptophan, which is decarboxylated to **serotonin** — made in nervous tissue and in intestinal argentaffin cells, a CNS transmitter that also contracts smooth muscle and causes vasoconstriction.
+
+In the **pineal body** serotonin is acetylated and then methylated to **melatonin**, which is an antioxidant, rises in the dark, promotes sleep to some extent and acts as an antidepressant. Tryptophan reaching the large intestine is putrefied to indole and skatole.
 
 ## explicit_objective
 List tryptophan's five derivatives, name the two-step route from tryptophan to serotonin and the tissue in which serotonin becomes melatonin, and assign the tyrosine-derived distractors — melanin, thyroid hormones, adrenaline — to their own precursor.
@@ -1014,7 +1036,7 @@ relationships: Walked the two live serotonin records, the six concepts minted be
 # Item
 
 ## label
-Carcinoid tumour overproduces serotonin, so blood and urine 5-HIAA rise — and pellagra may develop because tryptophan is diverted away from nicotinic acid
+Carcinoid tumour: raised 5-HIAA and pellagra
 
 ## id
 CON-GIT-4952149F99782D
@@ -1040,7 +1062,11 @@ Monoamine oxidase
 البلاجرا في الورم السرطاوي
 
 ## definition
-A carcinoid tumour, or argentaffinoma, is a tumour of the argentaffin cells of the gastrointestinal tract, and it overproduces serotonin. Both serotonin and its metabolite 5-hydroxyindole-acetic acid, 5-HIAA, are present at increased levels in blood and urine; 5-HIAA is formed from serotonin by monoamine oxidase. The tumour has a second consequence on the other branch of the same amino acid: pellagra may develop, because tryptophan metabolism is shunted towards the synthesis of serotonin and its metabolites by the tumour cells, with a marked decrease in nicotinic acid synthesis.
+A **carcinoid tumour**, or argentaffinoma, is a tumour of the **argentaffin cells** of the gastrointestinal tract, and it overproduces **serotonin**.
+
+Both serotonin and its metabolite **5-hydroxyindole-acetic acid (5-HIAA)** are present at increased levels in blood and urine; __5-HIAA is formed from serotonin by monoamine oxidase__.
+
+The tumour has a second consequence on the other branch of the same amino acid: **pellagra** may develop, because tryptophan metabolism is shunted towards the synthesis of serotonin by the tumour cells, __with a marked decrease in nicotinic acid synthesis__.
 
 ## explicit_objective
 Name 5-HIAA as the metabolite raised in carcinoid tumour and the enzyme that makes it, and explain on a biochemical basis why the same patient may develop pellagra.
@@ -1203,7 +1229,7 @@ relationships: Walked the live argentaffin and serotonin records, the six concep
 # Item
 
 ## label
-Histamine is the decarboxylation product of histidine, which is the same rule that makes GABA, dopamine and serotonin
+Histamine from histidine by decarboxylation
 
 ## id
 CON-FND-82BFCE60217493
@@ -1229,7 +1255,11 @@ N-formimino-glutamate
 الهيستيدين
 
 ## definition
-Histidine is an essential, glucogenic amino acid whose carbon skeleton passes through N-formimino-glutamate (Figlu), hands its formimino group to tetrahydrofolate, and joins the glutamate metabolic pool. Its best-known derivative is made in a single step: histamine is the decarboxylation product of histidine — the α-carboxyl group leaves as CO2 and the nitrogen stays, which is what makes the product an amine. The book records that histamine causes vasodilatation and names it with allergic reactions, and that histidine has a second, structural role in the binding of iron and oxygen to the globin of haemoglobin and the apomyoglobin of myoglobin.
+**Histidine** is an essential, glucogenic amino acid whose carbon skeleton passes through **N-formimino-glutamate (Figlu)**, hands its formimino group to tetrahydrofolate, and joins the glutamate metabolic pool.
+
+Its best-known derivative is made in a single step: __**histamine** is the decarboxylation product of histidine__ — the α-carboxyl group leaves as CO2 and the nitrogen stays, which is what makes the product an amine.
+
+The book records that histamine causes vasodilatation and names it with allergic reactions, and that histidine has a second, structural role in the binding of **iron and oxygen** to the globin of haemoglobin and the apomyoglobin of myoglobin.
 
 ## explicit_objective
 State that histamine is formed from histidine by decarboxylation, explain why any reaction that removes or adds nitrogen or carboxyl cannot produce it, and generalise the rule to the other biogenic amines.
