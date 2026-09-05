@@ -2,13 +2,15 @@
 ## id
 CON-REN-DB9326762E58CC
 ## label
-Clearance equals urine concentration times urine flow divided by plasma concentration
+Renal clearance and its formula
 ## subject
 renal
 ## status
 under review
 ## definition
-Clearance equals urine concentration times urine flow divided by plasma concentration. It is the volume of plasma that would need to be completely cleared of the substance each minute to account for the amount appearing in the urine.
+**Clearance = (urine concentration × urine flow) ÷ plasma concentration.**
+
+It is the __volume of plasma that would need to be completely cleared__ of the substance each minute to account for the amount appearing in the urine.
 ## explicit_objective
 Calculate the clearance of a substance from a urine concentration, a urine flow rate and a plasma concentration, and state the units of the result.
 ## aliases
@@ -47,13 +49,15 @@ arabicLabel: not supplied; this record is retired and carries no student-facing 
 ## id
 CON-REN-E4ECB5005A7A41
 ## label
-Clearance helps determine whether filtered solute is reabsorbed or secreted
+Clearance vs GFR: reabsorption or secretion
 ## subject
 renal
 ## status
 under review
 ## definition
-Comparing a substance's clearance with the glomerular filtration rate reveals its tubular handling: a clearance below the filtration rate indicates net reabsorption, above it indicates net secretion, and equal to it indicates neither.
+Comparing a substance's **clearance** with the **glomerular filtration rate** reveals its tubular handling.
+
+Clearance __below GFR__ indicates net **reabsorption**; __above GFR__ indicates net **secretion**; __equal to GFR__ indicates neither.
 ## explicit_objective
 Infer whether a solute is reabsorbed, secreted or neither by comparing its clearance with the glomerular filtration rate.
 ## aliases
@@ -92,13 +96,15 @@ arabicLabel: not supplied; this record is retired and carries no student-facing 
 ## id
 CON-REN-31C3C4C47EF721
 ## label
-Creatinine is an endogenous substance formed from muscle creatine
+Creatinine: endogenous, from muscle creatine
 ## subject
 renal
 ## status
 under review
 ## definition
-Creatinine is produced endogenously from creatine in skeletal muscle at a fairly constant rate, which is what allows its plasma concentration to be used as an index of excretion without administering anything.
+**Creatinine** is produced endogenously from **creatine in skeletal muscle** at a fairly constant rate.
+
+That steady production is what lets its __plasma concentration serve as an index of excretion__ without administering anything.
 ## explicit_objective
 State the origin of creatinine and explain why an endogenous, steadily produced substance is convenient as a marker of renal excretion.
 ## aliases
@@ -137,13 +143,15 @@ arabicLabel: not supplied; this record is retired and carries no student-facing 
 ## id
 CON-REN-262E9A13219C74
 ## label
-Creatinine clearance slightly overestimates GFR relative to inulin because of secretion
+Why creatinine clearance overestimates GFR
 ## subject
 renal
 ## status
 under review
 ## definition
-Creatinine clearance exceeds the true glomerular filtration rate because a small amount of creatinine is secreted by the tubules in addition to being filtered. The overestimate widens as filtration falls, since the secreted fraction becomes a larger share of what is excreted.
+**Creatinine clearance** exceeds the true glomerular filtration rate because a small amount of creatinine is __secreted by the tubules__ in addition to being filtered.
+
+The overestimate __widens as filtration falls__, since the secreted fraction becomes a larger share of what is excreted.
 ## explicit_objective
 Explain why creatinine clearance overestimates glomerular filtration rate, and state the direction in which the error changes as renal function declines.
 ## aliases
@@ -182,13 +190,15 @@ arabicLabel: not supplied; this record is retired and carries no student-facing 
 ## id
 CON-REN-C929E8998F6299
 ## label
-Ammonia clearance exceeds 650 mL/min because ammonia is synthesized and secreted
+Why ammonia clearance exceeds renal plasma flow
 ## subject
 renal
 ## status
 under review
 ## definition
-Ammonia clearance can exceed renal plasma flow because the kidney synthesises ammonia from glutamine within the tubular cells and secretes it, so its urinary appearance is not limited by delivery in the plasma. Production is regulated and rises markedly in acidosis.
+**Ammonia clearance** can exceed renal plasma flow because the kidney __synthesises ammonia from glutamine__ within the tubular cells and secretes it, so its urinary appearance is not limited by delivery in the plasma.
+
+Production is regulated and __rises markedly in acidosis__.
 ## explicit_objective
 Explain how a clearance can exceed renal plasma flow, and relate renal ammoniagenesis to acid excretion.
 ## aliases
