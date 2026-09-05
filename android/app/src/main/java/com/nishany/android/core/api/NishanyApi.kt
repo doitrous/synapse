@@ -8,6 +8,8 @@ import com.nishany.android.core.model.QotdFriends
 import com.nishany.android.core.model.QotdLeaderboard
 import com.nishany.android.core.model.QotdToday
 import com.nishany.android.core.sync.StateOwnership
+import java.io.File
+import java.io.FileOutputStream
 import java.io.IOException
 import java.net.URLEncoder
 import java.time.Instant
@@ -355,6 +357,64 @@ class NishanyApi(
     /** `DELETE /api/account`. Hard-deletes the caller's own account, on the server, in one transaction — see `DeleteAccountDialog`'s doc for why nothing here is a soft delete. */
     suspend fun deleteAccount() {
         request("DELETE", "/api/account")
+    }
+
+    // --- Library / resources ---
+
+    /**
+     * Streams `GET /api/medical-resources/:id`'s bytes to [destination] --
+     * this is the one route in the app whose response is not JSON. Written
+     * via a `.part` sibling file, renamed into place only once the whole
+     * body has landed, so a cancelled or failed download never leaves a
+     * half-written PDF at [destination] for [com.nishany.android.core.library.ResourceFileStore]
+     * to mistake for a complete one.
+     *
+     * [onProgress] is called with a 0..1 fraction whenever the server sends
+     * a `Content-Length`; it is never called at all otherwise (chunked
+     * responses have no known total), so callers must treat "no progress
+     * update" as "can't tell", not as "stuck".
+     *
+     * A resource with no source URI and no uploaded file is a 404
+     * ([ApiError.NotFound]), matching `server/src/index.js`'s
+     * `/api/medical-resources/:resourceId` -- a source-URI resource 302s
+     * straight to it, which OkHttp follows transparently.
+     */
+    suspend fun downloadResourceFile(id: String, destination: File, onProgress: (Float) -> Unit = {}) {
+        val token = tokenProvider()
+        val builder = Request.Builder().url("$baseUrl/api/medical-resources/$id")
+        if (token != null) builder.header("Authorization", "Bearer $token")
+
+        val response = client.newCall(builder.get().build()).await()
+        response.use {
+            val status = it.code
+            if (status !in 200..299) {
+                throw when (status) {
+                    401 -> ApiError.Unauthorized
+                    403 -> ApiError.Forbidden
+                    404 -> ApiError.NotFound
+                    else -> ApiError.Transient(status)
+                }
+            }
+            val body = it.body ?: throw ApiError.Malformed("empty resource body")
+            val total = body.contentLength()
+
+            val partial = File(destination.parentFile, "${destination.name}.part")
+            body.byteStream().use { input ->
+                FileOutputStream(partial).use { output ->
+                    val buffer = ByteArray(64 * 1024)
+                    var written = 0L
+                    while (true) {
+                        val read = input.read(buffer)
+                        if (read == -1) break
+                        output.write(buffer, 0, read)
+                        written += read
+                        if (total > 0) onProgress((written.toFloat() / total).coerceIn(0f, 1f))
+                    }
+                }
+            }
+            destination.delete()
+            if (!partial.renameTo(destination)) throw ApiError.Malformed("could not save downloaded resource")
+        }
     }
 
     // --- Study assistant ---

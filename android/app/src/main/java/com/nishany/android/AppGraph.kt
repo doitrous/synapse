@@ -15,6 +15,7 @@ import com.nishany.android.core.auth.SupabaseAuthBackend
 import com.nishany.android.core.cache.CortexDatabase
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.config.AppConfig
+import com.nishany.android.core.library.ResourceFileStore
 import com.nishany.android.core.sync.SyncEngine
 import com.nishany.android.design.LanguagePreference
 import com.nishany.android.design.ThemePreference
@@ -82,6 +83,12 @@ class AppGraph(context: Context, val config: AppConfig) {
     val database: CortexDatabase = CortexDatabase.build(context)
     val store = LocalStore(database)
     val sync: SyncEngine by lazy { SyncEngine(api, store) }
+
+    // Held here, not in a ViewModel: a resource download must survive the
+    // student leaving the reader screen and coming back, which a
+    // nav-graph-scoped ViewModel does not. Backed by `filesDir`, not the
+    // cache dir -- see [ResourceFileStore]'s own doc.
+    val resourceFileStore: ResourceFileStore by lazy { ResourceFileStore(api, context.applicationContext.filesDir) }
 
     // Keeps the home-screen calendar widget's [CalendarWidgetStore] snapshot
     // current. The widget's own process must not open Room (see that store's
