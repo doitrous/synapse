@@ -1,7 +1,7 @@
 # Item
 
 ## label
-Body protein is in a dynamic steady state, and it is burnt for energy only when carbohydrate and fat cannot spare it
+Protein turnover and protein sparing
 
 ## id
 CON-FND-1F052A080A1CB9
@@ -24,7 +24,9 @@ Protein as a source of energy
 توفير البروتين بالكربوهيدرات والدهون
 
 ## definition
-Cellular proteins are continuously degraded and resynthesised, so a constant body protein content is a balance between two large opposing fluxes rather than a static store; about 75 per cent of the amino acids released are reutilised and the rest are rapidly degraded. Protein yields 4 kcal/g, nearly the same as carbohydrate and less than half that of fat, and the presence of carbohydrate and fat in the diet spares protein from oxidation, so amino acids are used for energy only when those fuels are inadequate.
+Cellular proteins are __continuously degraded and resynthesised__, so a constant body protein content is a balance between two large opposing fluxes rather than a static store; about 75 per cent of the amino acids released are reutilised and the rest are rapidly degraded.
+
+Protein yields **4 kcal/g**, nearly the same as carbohydrate and less than half that of fat. The presence of carbohydrate and fat in the diet **spares protein from oxidation**, so amino acids are used for energy only when those fuels are inadequate.
 
 ## explicit_objective
 Explain why a steady body protein content is a steady state rather than a static one, and predict when amino acids will be oxidised for energy from the availability of carbohydrate and fat.
@@ -183,7 +185,7 @@ relationships: Walked the 13 live concepts under DIS-BIO-T05 and the 28 in the p
 # Item
 
 ## label
-Positive nitrogen balance occurs whenever new tissue is being built, not whenever protein intake is high
+Positive nitrogen balance
 
 ## id
 CON-FND-B7FA7F593BAAB9
@@ -206,7 +208,11 @@ Positive protein balance
 اتزان النيتروجين
 
 ## definition
-Nitrogen forms about 16 per cent of protein, so the difference between nitrogen intake and output measures the balance between protein anabolism and catabolism. Positive nitrogen balance exists when intake exceeds output and occurs whenever new tissues are built — during growth, pregnancy, muscular training, and convalescence from a state of negative nitrogen balance. A healthy adult on an adequate diet is in nitrogen equilibrium, not positive balance, because synthesis and degradation are matched.
+Nitrogen forms about **16 per cent** of protein, so the difference between nitrogen intake and output measures the balance between protein anabolism and catabolism.
+
+**Positive nitrogen balance** exists when intake exceeds output and occurs __whenever new tissues are built__ — during growth, pregnancy, muscular training, and convalescence from a state of negative nitrogen balance.
+
+A healthy adult on an adequate diet is in **nitrogen equilibrium**, not positive balance, because synthesis and degradation are matched.
 
 ## explicit_objective
 Classify a named clinical state as positive nitrogen balance, nitrogen equilibrium or negative nitrogen balance, and justify the classification by whether tissue is being net gained or net lost.
@@ -367,7 +373,7 @@ relationships: Walked the same DIS-BIO-T05 set as CON-FND-1F052A080A1CB9. The on
 # Item
 
 ## label
-Absorbed amino acids join one common pool with an anabolic and a catabolic fate, and only the anabolic fate keeps the nitrogen
+The amino acid pool: anabolic and catabolic fates
 
 ## id
 CON-FND-EB9951F01C7251
@@ -390,7 +396,11 @@ Glucogenic and ketogenic amino acids
 المصير البنائي والهدمي للأحماض الأمينية
 
 ## definition
-Absorbed amino acids mix with those released from body protein and those synthesised in the body to form one common amino acid pool, drawn on for both anabolism and catabolism. The anabolic fate is synthesis of proteins and of other nitrogenous substances — glutathione, adrenaline, thyroxine, melanin, niacin, purines, pyrimidines, amino sugars and the nitrogenous bases of phospholipids. The catabolic fate begins by cleaving the amino acid into ammonia, mostly converted to urea, and a carbon skeleton that may become glucose, ketone bodies, or CO2 and water.
+Absorbed amino acids mix with those released from body protein and those synthesised in the body to form one common **amino acid pool**, drawn on for both anabolism and catabolism.
+
+The **anabolic fate** is synthesis of proteins and of other nitrogenous substances — glutathione, adrenaline, thyroxine, melanin, niacin, purines, pyrimidines, amino sugars and the nitrogenous bases of phospholipids.
+
+The **catabolic fate** begins by cleaving the amino acid into __ammonia, mostly converted to urea__, and a carbon skeleton that may become glucose, ketone bodies, or CO2 and water.
 
 ## explicit_objective
 Sort a named fate of the amino acid pool into the anabolic or the catabolic branch, and give the rule that decides it — whether the nitrogen is kept in a useful molecule or routed to excretion.
@@ -547,7 +557,7 @@ relationships: Walked DIS-BIO-T05 live and pending. prerequisite_of holds toward
 # Item
 
 ## label
-Amino acid nitrogen is removed by transdeamination — transamination onto α-ketoglutarate, then oxidative deamination of glutamate, then urea
+Transdeamination: the three steps of nitrogen removal
 
 ## id
 CON-FND-B4CECDDC9A8BEE
@@ -570,7 +580,11 @@ Coupled transaminase and glutamate dehydrogenase
 الترانس أمينيشن المقترن بنزع الأمين التأكسدي
 
 ## definition
-Removal of amino acid nitrogen in humans runs in three steps: transamination with α-ketoglutarate to form glutamate, oxidative deamination of glutamate to release ammonia, and synthesis of urea for excretion. Neither of the first two works alone — transamination liberates no free ammonia, and oxidative deamination works efficiently only on glutamate — so glutamate acts as the collector of nitrogen from all amino acids and α-ketoglutarate is regenerated for the next round. Deamination of amino acids is the major source of blood ammonia; deamination of purines and pyrimidines and bacterial putrefaction in the intestine are minor ones.
+Removal of amino acid nitrogen in humans runs in three steps: __transamination with α-ketoglutarate to form glutamate, oxidative deamination of glutamate to release ammonia, and synthesis of urea for excretion__.
+
+Neither of the first two works alone — transamination liberates no free ammonia, and oxidative deamination works efficiently only on glutamate — so **glutamate** acts as the collector of nitrogen from all amino acids and α-ketoglutarate is regenerated for the next round.
+
+Deamination of amino acids is the __major source of blood ammonia__; deamination of purines and pyrimidines and bacterial putrefaction in the intestine are minor ones.
 
 ## explicit_objective
 State the three steps of nitrogen removal in order, explain why transamination and oxidative deamination each fail on their own, and enumerate the sources of blood ammonia.
@@ -728,7 +742,7 @@ relationships: Walked DIS-BIO-T05. mechanism_step_before holds from CON-FND-8614
 # Item
 
 ## label
-Transamination is reversible and pyridoxal-phosphate dependent, and α-ketoglutarate is the amino-group acceptor in every one of them
+Transamination: reversible and PLP-dependent
 
 ## id
 CON-FND-861450E9BAAA11
@@ -751,7 +765,11 @@ Pyridoxal phosphate in transamination
 فوسفات البيريدوكسال في نقل الأمين
 
 ## definition
-Transamination transfers an amino group from an α-amino acid to an α-keto acid, forming a new α-keto acid and a new α-amino acid, and requires pyridoxal phosphate as the intermediate carrier of the amino group. It takes up and releases no free ammonia. α-Ketoglutarate is the amino-group acceptor in all transamination reactions, so glutamate collects nitrogen from every amino acid, and because the reaction is reversible it serves both deamination and the biosynthesis of the non-essential amino acids from carbohydrate intermediates — pyruvate to alanine by ALT, oxaloacetate to aspartate by AST.
+**Transamination** transfers an amino group from an α-amino acid to an α-keto acid, forming a new α-keto acid and a new α-amino acid, and requires **pyridoxal phosphate** as the intermediate carrier of the amino group. It takes up and releases no free ammonia.
+
+__α-Ketoglutarate is the amino-group acceptor in all transamination reactions__, so glutamate collects nitrogen from every amino acid.
+
+Because the reaction is **reversible** it serves both deamination and the biosynthesis of the non-essential amino acids from carbohydrate intermediates — pyruvate to alanine by **ALT**, oxaloacetate to aspartate by **AST**.
 
 ## explicit_objective
 Write a transamination reaction with its four participants and its cofactor, and explain how one reversible reaction serves both nitrogen disposal and non-essential amino acid synthesis.
@@ -909,7 +927,7 @@ relationships: Walked DIS-BIO-T05. mechanism_step_before holds towards CON-FND-4
 # Item
 
 ## label
-Glutamate dehydrogenase does the deamination that matters; L-amino acid oxidase is a low-activity liver and kidney enzyme
+Oxidative deamination: GDH versus L-amino acid oxidase
 
 ## id
 CON-FND-45DCF7CE171F0B
@@ -932,7 +950,9 @@ Enzymes of oxidative deamination
 أوكسيديز الأحماض الأمينية
 
 ## definition
-Two enzymes carry out oxidative deamination. L-amino acid oxidase is an FMN-containing flavoprotein of low activity that works only in liver and kidney, producing the α-keto acid, ammonia and hydrogen peroxide, which catalase then destroys. L-glutamate dehydrogenase is a mitochondrial NAD(P)+-dependent enzyme of high activity and wide distribution that converts glutamate to α-ketoglutarate; it is the essential component of transdeamination and, being reversible, also resynthesises glutamate from free ammonia and NAD(P)H.
+Two enzymes carry out oxidative deamination. **L-amino acid oxidase** is an FMN-containing flavoprotein of low activity that works only in liver and kidney, producing the α-keto acid, ammonia and hydrogen peroxide, which catalase then destroys.
+
+**L-glutamate dehydrogenase** is a mitochondrial NAD(P)+-dependent enzyme of high activity and wide distribution that converts glutamate to α-ketoglutarate; __it is the essential component of transdeamination__ and, being reversible, also resynthesises glutamate from free ammonia and NAD(P)H.
 
 ## explicit_objective
 Contrast the two oxidative deaminating enzymes on cofactor, activity, distribution and importance, and explain why the low-activity one cannot account for most ammonia release.
@@ -1090,7 +1110,7 @@ relationships: Walked DIS-BIO-T05 and the pending 103 batch. often_confused_with
 # Item
 
 ## label
-Ammonia travels as glutamine from brain and as alanine from muscle, and it injures the brain three ways when the liver cannot clear it
+Ammonia transport and brain toxicity
 
 ## id
 CON-FND-880D165894A5EC
@@ -1114,7 +1134,11 @@ Ammonia encephalopathy
 اعتلال الدماغ الأموني
 
 ## definition
-Ammonia is produced continuously yet held below about 0.05 mg/dL in blood, because it is carried in non-toxic forms and disposed of. Glutamine synthetase condenses ammonia with glutamate to give glutamine, which is the major route of ammonia removal in the brain and is hydrolysed by glutaminase in liver and kidney; muscle instead transfers its amino acid nitrogen onto pyruvate by ALT and sends alanine to the liver in the glucose-alanine cycle. When clearance fails, the brain is injured three ways: α-ketoglutarate is pulled into glutamate, depleting a citric acid cycle intermediate and cutting ATP production; GABA becomes deficient and convulsions may follow; and glutamine accumulating in astrocytes causes osmotic brain oedema.
+Ammonia is produced continuously yet held below about **0.05 mg/dL** in blood, because it is carried in non-toxic forms and disposed of.
+
+**Glutamine synthetase** condenses ammonia with glutamate to give **glutamine**, which is the major route of ammonia removal in the brain and is hydrolysed by glutaminase in liver and kidney; muscle instead transfers its amino acid nitrogen onto pyruvate by ALT and sends **alanine** to the liver in the **glucose-alanine cycle**.
+
+When clearance fails, __the brain is injured three ways__: α-ketoglutarate is pulled into glutamate, depleting a citric acid cycle intermediate and cutting ATP production; GABA becomes deficient and convulsions may follow; and glutamine accumulating in astrocytes causes osmotic brain oedema.
 
 ## explicit_objective
 Name the transport form of ammonia used by each organ, and give the three mechanisms by which hyperammonaemia damages the brain.
@@ -1274,7 +1298,7 @@ relationships: Walked DIS-BIO-T05 live and pending, and the live CON-REN- ammoni
 # Item
 
 ## label
-Urea is made only in the liver, by five enzymes — two in the mitochondrion and three in the cytosol — with ornithine regenerated every turn
+Urea cycle enzymes and their two compartments
 
 ## id
 CON-FND-6A2CCA2892E78C
@@ -1297,7 +1321,11 @@ Ornithine transcarbamoylase
 تخليق اليوريا في الكبد
 
 ## definition
-Urea formation occurs only in the liver, because arginase is present only there. The first two reactions run in the mitochondrial matrix — carbamoyl phosphate synthetase I condensing ammonia with bicarbonate, and ornithine transcarbamoylase transferring the carbamoyl group to ornithine to make citrulline — and all subsequent reactions run in the cytosol: argininosuccinate synthetase, argininosuccinate lyase and arginase. Citrulline leaves the mitochondrion in exchange for ornithine on an antiporter, and the ornithine released by arginase returns for another turn, so ornithine is a regenerated carrier rather than a consumed substrate.
+Urea formation occurs __only in the liver__, because **arginase** is present only there.
+
+The first two reactions run in the **mitochondrial matrix** — carbamoyl phosphate synthetase I condensing ammonia with bicarbonate, and ornithine transcarbamoylase transferring the carbamoyl group to ornithine to make citrulline — and all subsequent reactions run in the **cytosol**: argininosuccinate synthetase, argininosuccinate lyase and arginase.
+
+Citrulline leaves the mitochondrion in exchange for ornithine on an antiporter, and the **ornithine** released by arginase returns for another turn, so __ornithine is a regenerated carrier rather than a consumed substrate__.
 
 ## explicit_objective
 List the five urea cycle enzymes in order with their compartments, state why urea synthesis is confined to the liver, and identify ornithine as the regenerated carrier.
