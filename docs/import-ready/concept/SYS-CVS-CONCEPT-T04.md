@@ -1,6 +1,6 @@
 # Item
 ## label
-Heart failure is a clinical syndrome, not a diagnosis in itself
+Heart failure is a syndrome
 ## id
 CON-CVS-F128F608F5BA68
 ## canonical_key
@@ -12,7 +12,9 @@ Definition of heart failure | Heart failure syndrome
 ## arabic_aliases
 متلازمة قصور القلب
 ## definition
-Heart failure is the combination of characteristic symptoms and signs with objective evidence of cardiac dysfunction. Naming it does not name a cause, so every diagnosis of heart failure is incomplete until the underlying disease is identified.
+Heart failure combines characteristic **symptoms and signs** with objective evidence of **cardiac dysfunction**.
+
+Naming it does not name a cause, so __every diagnosis of heart failure is incomplete until the underlying disease is identified__.
 ## explicit_objective
 Define heart failure by its three components and explain why the aetiology must always be pursued.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Ejection fraction classifies heart failure; it does not define it
+Ejection fraction classifies, not defines
 ## id
 CON-CVS-60414C8D9FDCFD
 ## canonical_key
@@ -88,7 +90,9 @@ HFrEF and HFpEF | Ejection fraction phenotypes
 ## arabic_aliases
 تصنيف الكسر القذفي
 ## definition
-Patients with the same symptoms are divided by ejection fraction into reduced and preserved groups because the two respond differently to treatment. The fraction is a classifier chosen for its therapeutic consequences, not the thing that makes a patient a heart failure patient.
+Patients with the same symptoms are split by ejection fraction into **reduced** and **preserved** groups because the two respond differently to treatment.
+
+The fraction is a __classifier chosen for its therapeutic consequences__, not the thing that makes a patient a heart failure patient.
 ## explicit_objective
 Explain the role of ejection fraction as a treatment-relevant classifier rather than a diagnostic criterion.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A ventricle that cannot contract dilates; one that cannot relax thickens
+Eccentric vs concentric remodelling
 ## id
 CON-CVS-C432B742ED1DAE
 ## canonical_key
@@ -164,7 +168,11 @@ Eccentric hypertrophy | Concentric hypertrophy | Remodelling patterns
 ## arabic_aliases
 التضخم المركزي واللامركزي
 ## definition
-Volume overload and contractile failure add sarcomeres in series, lengthening myocytes and dilating the chamber. Pressure overload adds sarcomeres in parallel, thickening the wall at the expense of cavity size and compliance. The two patterns produce the two heart failure phenotypes.
+**Volume overload** and contractile failure add sarcomeres in series, lengthening myocytes and __dilating the chamber__.
+
+**Pressure overload** adds sarcomeres in parallel, __thickening the wall__ at the expense of cavity size and compliance.
+
+The two patterns produce the two heart failure phenotypes.
 ## explicit_objective
 Relate eccentric and concentric remodelling to their loading conditions and to the resulting phenotype.
 ## pitfalls
@@ -228,7 +236,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Neurohormonal activation rescues output in the short term and destroys the heart in the long term
+Neurohormonal activation in heart failure
 ## id
 CON-CVS-A08556F9435CB4
 ## canonical_key
@@ -240,7 +248,9 @@ RAAS activation in heart failure | Sympathetic activation in heart failure
 ## arabic_aliases
 تفعيل الرينين أنجيوتنسين في قصور القلب
 ## definition
-A fall in output activates the sympathetic nervous system and the renin–angiotensin–aldosterone system. Both raise pressure and filling and restore output for a time. Sustained, they raise afterload, retain fluid, and drive fibrosis and adverse remodelling — so the compensation becomes the disease.
+A fall in output activates the **sympathetic nervous system** and the **renin–angiotensin–aldosterone system**, which raise pressure and filling and restore output for a time.
+
+Sustained, they raise afterload, retain fluid, and drive fibrosis and adverse remodelling — so __the compensation becomes the disease__.
 ## explicit_objective
 Explain why the drugs that improve survival in heart failure block the compensatory systems rather than stimulate the heart.
 ## pitfalls
@@ -304,7 +314,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Natriuretic peptides rise with wall stress and are most useful for ruling heart failure out
+Natriuretic peptides rule heart failure out
 ## id
 CON-CVS-158CE5FC3C00D1
 ## canonical_key
@@ -316,7 +326,11 @@ BNP | NT-proBNP | Natriuretic peptide testing
 ## arabic_aliases
 الببتيد الدماغي المدر للصوديوم
 ## definition
-Ventricular myocytes release natriuretic peptides in response to wall stretch. A low value in an untreated, breathless patient makes heart failure very unlikely, which is the property that makes the test useful; a raised value has many other causes and must be interpreted in context.
+Ventricular myocytes release **natriuretic peptides** in response to wall stretch.
+
+A __low value in an untreated, breathless patient makes heart failure very unlikely__ — the property that makes the test useful.
+
+A raised value has many other causes and must be interpreted in context.
 ## explicit_objective
 Use natriuretic peptides for their negative predictive value and name the conditions that raise them without heart failure.
 ## pitfalls
@@ -380,7 +394,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-In heart failure with preserved ejection fraction the problem is filling, not emptying
+HFpEF is a filling problem
 ## id
 CON-CVS-B4176527CD22F2
 ## canonical_key
@@ -392,7 +406,9 @@ Diastolic heart failure | HFpEF mechanism
 ## arabic_aliases
 قصور القلب الانبساطي
 ## definition
-A stiff, poorly relaxing ventricle fills only at a raised filling pressure. It ejects a normal fraction of a small volume, so the ejection fraction looks normal while stroke volume is limited and pressure is transmitted back to the lungs.
+A stiff, poorly relaxing ventricle fills only at a **raised filling pressure**.
+
+It ejects a normal fraction of a __small volume__, so the ejection fraction looks normal while stroke volume is limited and pressure is transmitted back to the lungs.
 ## explicit_objective
 Explain how a normal ejection fraction coexists with congestion and a limited stroke volume.
 ## pitfalls
@@ -456,7 +472,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A stiff ventricle depends on atrial contraction and on time to fill
+The stiff ventricle needs atrial kick and time
 ## id
 CON-CVS-5D3DD9D51A4664
 ## canonical_key
@@ -468,7 +484,9 @@ Atrial kick dependence | Rate intolerance in HFpEF
 ## arabic_aliases
 الاعتماد على الركلة الأذينية
 ## definition
-Passive filling is impaired when the ventricle is stiff, so the atrial contribution matters more and the time available for filling matters more. Losing either — through atrial fibrillation or through tachycardia — precipitates decompensation out of proportion to the rhythm change itself.
+When the ventricle is stiff, passive filling is impaired, so the **atrial contribution** matters more and the **time available for filling** matters more.
+
+Losing either — through __atrial fibrillation__ or __tachycardia__ — precipitates decompensation out of proportion to the rhythm change itself.
 ## explicit_objective
 Predict why atrial fibrillation and tachycardia decompensate a stiff ventricle disproportionately.
 ## pitfalls
@@ -532,7 +550,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Acute heart failure is classified by congestion and perfusion, not by ejection fraction
+Wet/dry, warm/cold in acute heart failure
 ## id
 CON-CVS-36C0FD0F3D948D
 ## canonical_key
@@ -544,7 +562,9 @@ Wet and dry, warm and cold | Haemodynamic profiles in acute heart failure
 ## arabic_aliases
 تصنيف الاحتقان والتروية
 ## definition
-At the bedside a patient in acute heart failure is placed on two axes: congested or not, and adequately perfused or not. The four combinations that result point to different treatment, and they are assessable without any investigation.
+At the bedside an acute heart failure patient is placed on two axes: **congested or not**, and **adequately perfused or not**.
+
+The four combinations point to __different treatment__, and they are assessable without any investigation.
 ## explicit_objective
 Assign a patient to a congestion–perfusion profile from bedside findings and state why that classification directs treatment.
 ## pitfalls
@@ -608,7 +628,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Acute pulmonary oedema is often redistribution rather than accumulation of fluid
+Redistribution pulmonary oedema
 ## id
 CON-CVS-BB3B2F423519C6
 ## canonical_key
@@ -620,7 +640,9 @@ Flash pulmonary oedema | Vascular redistribution
 ## arabic_aliases
 الوذمة الرئوية الخاطفة
 ## definition
-A sudden rise in afterload or filling pressure can shift blood from the systemic veins into the pulmonary circulation within minutes, flooding the lungs in a patient whose total body fluid is normal. Such patients are often not volume-overloaded and respond to reducing afterload and preload rather than to large volumes of diuretic.
+A sudden rise in afterload or filling pressure can shift blood from the systemic veins into the pulmonary circulation within minutes, **flooding the lungs** in a patient whose total body fluid is normal.
+
+Such patients are often __not volume-overloaded__ and respond to reducing afterload and preload rather than to large volumes of diuretic.
 ## explicit_objective
 Distinguish redistribution from fluid accumulation and predict which treatment each requires.
 ## pitfalls
@@ -684,7 +706,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The commonest cause of right heart failure is left heart failure
+Left failure is the commonest cause of right failure
 ## id
 CON-CVS-BD1C5CAA5FCE5E
 ## canonical_key
@@ -696,7 +718,9 @@ Biventricular failure | Right heart failure aetiology
 ## arabic_aliases
 قصور القلب ثنائي البطين
 ## definition
-Raised left atrial pressure is transmitted back through the pulmonary circulation, raising the load on the right ventricle until it fails too. Right heart failure is therefore most often a consequence of left heart disease rather than an independent problem.
+Raised **left atrial pressure** is transmitted back through the pulmonary circulation, raising the load on the right ventricle until it fails too.
+
+Right heart failure is therefore __most often a consequence of left heart disease__ rather than an independent problem.
 ## explicit_objective
 State the commonest cause of right heart failure and trace the pressure pathway that produces it.
 ## pitfalls
@@ -760,7 +784,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Cor pulmonale is right heart failure caused by disease of the lungs or pulmonary vessels
+Cor pulmonale
 ## id
 CON-CVS-02C7499DE32A4F
 ## canonical_key
@@ -772,7 +796,9 @@ Pulmonary heart disease | Cor pulmonale definition
 ## arabic_aliases
 القلب الرئوي
 ## definition
-Cor pulmonale is right ventricular hypertrophy and eventually failure resulting from pulmonary hypertension due to disease of the lung parenchyma, the airways, the pulmonary vasculature or the control of ventilation. Right heart failure caused by left heart disease is excluded by definition.
+Cor pulmonale is **right ventricular hypertrophy and eventual failure** from pulmonary hypertension due to disease of the lung parenchyma, the airways, the pulmonary vasculature or the control of ventilation.
+
+Right heart failure caused by left heart disease is __excluded by definition__.
 ## explicit_objective
 Define cor pulmonale by the site of the causative disease and exclude left heart disease from it.
 ## pitfalls
@@ -836,7 +862,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Dilated cardiomyopathy is dilatation with systolic impairment unexplained by loading or coronary disease
+Dilated cardiomyopathy
 ## id
 CON-CVS-C531A645354244
 ## canonical_key
@@ -848,7 +874,9 @@ DCM | Dilated cardiomyopathy
 ## arabic_aliases
 اعتلال العضلة القلبية التوسعي
 ## definition
-Dilated cardiomyopathy is left ventricular or biventricular dilatation with impaired systolic function, in the absence of abnormal loading conditions or coronary disease sufficient to explain it. The exclusion is part of the definition, so the diagnosis is one of exclusion by design.
+Dilated cardiomyopathy is **left ventricular or biventricular dilatation with impaired systolic function**, without abnormal loading conditions or coronary disease sufficient to explain it.
+
+The exclusion is part of the definition, so it is __a diagnosis of exclusion by design__.
 ## explicit_objective
 Define dilated cardiomyopathy including its exclusion criteria, and explain why coronary disease must be excluded first.
 ## pitfalls
@@ -912,7 +940,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Hypertrophic cardiomyopathy is a sarcomere disease with asymmetric hypertrophy
+Hypertrophic cardiomyopathy
 ## id
 CON-CVS-D65416DBAEAA0E
 ## canonical_key
@@ -924,7 +952,9 @@ HCM | Hypertrophic cardiomyopathy
 ## arabic_aliases
 اعتلال العضلة القلبية الضخامي
 ## definition
-Hypertrophic cardiomyopathy is left ventricular hypertrophy, characteristically asymmetric and septal, not explained by loading conditions, and caused in most identified cases by mutations in genes encoding sarcomere proteins. Histology shows myocyte disarray and fibrosis, which is the substrate for arrhythmia.
+Hypertrophic cardiomyopathy is **left ventricular hypertrophy**, characteristically asymmetric and septal, not explained by loading conditions, and caused in most identified cases by __sarcomere-protein gene mutations__.
+
+Histology shows **myocyte disarray and fibrosis**, which is the substrate for arrhythmia.
 ## explicit_objective
 Define hypertrophic cardiomyopathy by its genetics, its distribution of hypertrophy and its histology.
 ## pitfalls
@@ -988,7 +1018,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The murmur of dynamic outflow obstruction behaves opposite to that of aortic stenosis
+Dynamic obstruction and bedside manoeuvres
 ## id
 CON-CVS-3E5ED855F22FC8
 ## canonical_key
@@ -1000,7 +1030,9 @@ HCM murmur manoeuvres | Dynamic left ventricular outflow obstruction
 ## arabic_aliases
 مناورات اللغط في الاعتلال الضخامي
 ## definition
-Obstruction in hypertrophic cardiomyopathy is dynamic: it worsens when the ventricle is emptier. Manoeuvres that reduce preload or afterload — standing, Valsalva strain — increase the murmur, whereas the fixed obstruction of aortic stenosis becomes quieter because there is less blood to eject.
+Obstruction in hypertrophic cardiomyopathy is **dynamic**: it worsens when the ventricle is emptier.
+
+Manoeuvres that reduce preload or afterload — standing, Valsalva strain — __increase__ the murmur, whereas the fixed obstruction of aortic stenosis becomes __quieter__ because there is less blood to eject.
 ## explicit_objective
 Predict the effect of preload-altering manoeuvres on a dynamic and on a fixed outflow murmur, and explain the difference.
 ## pitfalls
@@ -1064,7 +1096,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Hypertrophic cardiomyopathy is a leading cause of sudden cardiac death in the young
+HCM and sudden cardiac death in the young
 ## id
 CON-CVS-9953F14A7D2BC8
 ## canonical_key
@@ -1076,7 +1108,9 @@ Sudden cardiac death in athletes | HCM risk
 ## arabic_aliases
 الموت المفاجئ في الاعتلال الضخامي
 ## definition
-Myocyte disarray and patchy fibrosis create a substrate for ventricular arrhythmia, so hypertrophic cardiomyopathy can present with sudden death in a previously well young person, sometimes during exertion. Risk assessment and family screening therefore form part of the diagnosis rather than following it.
+Myocyte disarray and patchy fibrosis create a substrate for **ventricular arrhythmia**, so hypertrophic cardiomyopathy can present with __sudden death in a previously well young person__, sometimes during exertion.
+
+Risk assessment and family screening therefore form part of the diagnosis rather than following it.
 ## explicit_objective
 Explain the arrhythmic substrate and justify family screening as part of management.
 ## pitfalls
@@ -1140,7 +1174,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Restrictive cardiomyopathy impairs filling without dilating the ventricle
+Restrictive cardiomyopathy
 ## id
 CON-CVS-4A41D59159ED61
 ## canonical_key
@@ -1152,7 +1186,9 @@ RCM | Restrictive cardiomyopathy
 ## arabic_aliases
 اعتلال العضلة القلبية التقييدي
 ## definition
-Restrictive cardiomyopathy is a stiff, non-compliant ventricle with impaired diastolic filling, normal or near-normal systolic function and normal or reduced cavity size. The atria dilate markedly because they are working against a ventricle that will not accept blood.
+Restrictive cardiomyopathy is a **stiff, non-compliant ventricle** with impaired diastolic filling, normal or near-normal systolic function and normal or reduced cavity size.
+
+The atria dilate markedly because they are __working against a ventricle that will not accept blood__.
 ## explicit_objective
 Define restrictive cardiomyopathy by the combination of stiff ventricle, preserved systolic function, non-dilated cavity and dilated atria.
 ## pitfalls
@@ -1216,7 +1252,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Restriction is a muscle problem and constriction is a sac problem
+Restriction vs constriction
 ## id
 CON-CVS-AF4489EBD5E71C
 ## canonical_key
@@ -1228,7 +1264,9 @@ Restrictive cardiomyopathy versus constrictive pericarditis
 ## arabic_aliases
 التفريق بين التقييد والتضيق
 ## definition
-Restrictive cardiomyopathy and constrictive pericarditis produce almost identical clinical pictures of impaired filling, but one is stiff myocardium and the other a rigid pericardium. The distinction matters because constriction can be relieved surgically and restriction generally cannot.
+Restrictive cardiomyopathy and constrictive pericarditis produce almost identical pictures of impaired filling, but one is **stiff myocardium** and the other a **rigid pericardium**.
+
+The distinction matters because __constriction can be relieved surgically__ and restriction generally cannot.
 ## explicit_objective
 State why the distinction is made and name the feature that separates them — ventricular interdependence.
 ## pitfalls
@@ -1292,7 +1330,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Myocarditis can mimic an acute coronary syndrome
+Myocarditis can mimic an ACS
 ## id
 CON-CVS-0E33A402615A08
 ## canonical_key
@@ -1304,7 +1342,9 @@ Myocarditis presentation | ACS mimic
 ## arabic_aliases
 محاكاة المتلازمة التاجية
 ## definition
-Myocardial inflammation causes chest pain, troponin release and ECG change, so a young patient with myocarditis can present exactly as an infarct. Unobstructed coronary arteries in that setting should prompt consideration of myocarditis rather than reassurance.
+Myocardial inflammation causes chest pain, troponin release and ECG change, so a young patient with **myocarditis** can present exactly as an infarct.
+
+__Unobstructed coronary arteries__ in that setting should prompt consideration of myocarditis rather than reassurance.
 ## explicit_objective
 Recognise myocarditis as a differential for acute coronary syndrome and state what distinguishes it.
 ## pitfalls
