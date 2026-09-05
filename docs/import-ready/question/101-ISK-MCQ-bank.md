@@ -66949,3 +66949,7833 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book puts pronator quadratus in the deep flexor group but gives it only pronation: it runs horizontally across the front of the lower radius and ulna, crosses no joint that can flex, and does not appear in the book’s list of the muscles that flex the wrist. Flexor pollicis longus, flexor digitorum profundus and flexor carpi ulnaris are all on that list.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-663
+## title
+Most common cell in Connective tissue is :
+## question
+Most common cell in Connective tissue is :
+## vignette
+This item asks the student to name the commonest cell of connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fibroblast
+## explanation_a
+Correct. The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_b
+Plasma cells
+## explanation_b
+Plasma cells are free cells, numerous only in lymphoid tissue and at sites of chronic inflammation.
+## answer_c
+Mast cells
+## explanation_c
+Mast cells are scattered, chiefly around blood vessels and under the epithelium of gut and lung.
+## answer_d
+Macrophages
+## explanation_d
+Macrophages are numerous where there is something to eat, but they are immigrants from the blood rather than the resident population.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the commonest cell of connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q144. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-664
+## title
+Regarding fibroblasts all of the following are true except:
+## question
+Regarding fibroblasts all of the following are true except:
+## vignette
+This item asks the student to recognise the fibroblast as the commonest connective tissue cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Are rare cells in connective tissue
+## explanation_a
+Correct. The exception, and the answer. Fibroblasts are the commonest cell of connective tissue proper, not rare ones.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_b
+Produce collagen fibers
+## explanation_b
+True, so not the exception. Producing collagen is the fibroblast's chief work.
+## answer_c
+Are the main cell type in dense connective tissue
+## explanation_c
+True, so not the exception. In dense connective tissue there is little but collagen and fibroblasts.
+## answer_d
+Cannot undergo cell division
+## explanation_d
+True, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Recognise the fibroblast as the commonest connective tissue cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q54. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-665
+## title
+Collagen fibers are mainly synthesized by:
+## question
+Collagen fibers are mainly synthesized by:
+## vignette
+This item asks the student to name the cell that makes collagen in connective tissue proper.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Mast cells
+## explanation_a
+Mast cells store and release heparin and histamine. They build nothing.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages digest — including old collagen. They are the demolition half of the pair, not the construction half.
+## answer_c
+Fibroblasts
+## explanation_c
+Correct. Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_d
+plasma cells
+## explanation_d
+Plasma cells are protein-synthesising cells, but the protein is antibody, which is exported into the plasma rather than laid down as fibre.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell that makes collagen in connective tissue proper.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q81. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-666
+## title
+Which connective tissue cell type produces collagen?
+## question
+Which connective tissue cell type produces collagen?
+## vignette
+This item asks the student to name the collagen-producing connective tissue cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fibroblast
+## explanation_a
+Correct. The fibroblast.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_b
+Connective tissue macrophage
+## explanation_b
+The connective tissue macrophage phagocytoses; it makes no fibre.
+## answer_c
+Histiocyte
+## explanation_c
+Histiocyte is simply the other name for the connective tissue macrophage, so B and C are the same cell offered twice — which is a clue that neither is the answer.
+## answer_d
+Plasma cell
+## explanation_d
+The plasma cell makes antibody.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the collagen-producing connective tissue cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q26. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-667
+## title
+The ground substance of connective tissue is synthesized mainly by:
+## question
+The ground substance of connective tissue is synthesized mainly by:
+## vignette
+This item asks the student to attribute the ground substance to the fibroblast as well as the fibres.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Mast cells
+## explanation_a
+Mast cells release heparin into the tissue, which is a glycosaminoglycan — but releasing a stored mediator is not synthesising the matrix.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages break the matrix down during remodelling; they do not lay it down.
+## answer_c
+Fibroblasts
+## explanation_c
+Correct. The fibroblast makes both the fibres and the ground substance they lie in.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell exports antibody and nothing structural.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute the ground substance to the fibroblast as well as the fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q92. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-668
+## title
+Elastic fibers are formed by:
+## question
+Elastic fibers are formed by:
+## vignette
+This item asks the student to attribute the elastic fibre to the same cell that makes collagen.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+fibroblasts
+## explanation_a
+Correct. The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_b
+macrophages
+## explanation_b
+Macrophages are phagocytes. This is the option chosen by students who assume a different fibre must mean a different cell.
+## answer_c
+fat cells
+## explanation_c
+Fat cells store lipid and secrete leptin.
+## answer_d
+mast cells
+## explanation_d
+Mast cells secrete heparin and histamine.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute the elastic fibre to the same cell that makes collagen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q117. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-669
+## title
+All the followings are concerned to the function of the fibroblast EXCEPT:
+## question
+All the followings are concerned to the function of the fibroblast EXCEPT:
+## vignette
+This item asks the student to keep epithelial growth off the fibroblast's list of functions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Secretion of elastin and fibrillin
+## explanation_a
+True, so not the exception. Elastin and fibrillin are both fibroblast products — fibrillin is the microfibril scaffold the elastin is laid on.
+## answer_b
+Secretion of collagen
+## explanation_b
+True, so not the exception. Collagen is its principal product.
+## answer_c
+Repair of injuries
+## explanation_c
+True, so not the exception. Wound healing is the fibrocyte turning active again and laying down new collagen.
+## answer_d
+Growth of epithelium
+## explanation_d
+Correct. The exception, and the answer. Epithelium grows on its own account, from its own stem cells; the fibroblast supplies the connective tissue beneath it and does not drive it.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Keep epithelial growth off the fibroblast's list of functions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q13. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-670
+## title
+Fibroblast has the following functions EXCEPT:
+## question
+Fibroblast has the following functions EXCEPT:
+## vignette
+This item asks the student to keep heparin off the fibroblast's list.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Synthesis of C.T fibers
+## explanation_a
+True, so not the exception. All three fibre types are fibroblast products.
+## answer_b
+Synthesis of ground substances
+## explanation_b
+True, so not the exception. The ground substance is made by the same cell.
+## answer_c
+Secretion of collagen
+## explanation_c
+True, so not the exception, and the same fact as A named more narrowly.
+## answer_d
+Secretion of heparin
+## explanation_d
+Correct. The exception, and the answer. Heparin comes from the mast cell — and the mast cell often sits right beside the fibroblast in loose connective tissue, which is what makes the swap easy.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Keep heparin off the fibroblast's list.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q11. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-671
+## title
+A Female was exposed to car accident while driving, resulting in many wounds In her bod…
+## question
+A Female was exposed to car accident while driving, resulting in many wounds In her body. The wounds healed within few days. The main C.T. cell contributing for this healing Is:
+## vignette
+This item asks the student to name the cell that heals a wound.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fibroblasts
+## explanation_a
+Correct. The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.
+
+Why this is right:
+- In its active state it is a branched cell with many long thin processes, deeply basophilic cytoplasm and a central large oval pale nucleus with a prominent nucleolus.
+## answer_b
+Fat cells
+## explanation_b
+Fat cells fill the space beneath the skin and store lipid. They contribute bulk, not repair — and in the obese, an excess of them actually delays healing.
+## answer_c
+Mast cells
+## explanation_c
+Mast cells release histamine in the first minutes of injury and open the vessels; that is the inflammatory phase, not the healing one.
+## answer_d
+Plasma cells
+## explanation_d
+Plasma cells make antibody and appear in chronic inflammation. They fight infection rather than close a wound.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EA7F8E2898EB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the cell that heals a wound.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p20 q43. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. Wound healing is the laying down of new collagen and ground substance, which is the fibroblast's work — the department book gives repair of injuries among its functions and says the fibrocyte becomes active again for wound healing.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-672
+## title
+The following C.T. cells are a protein secreting cells:
+## question
+The following C.T. cells are a protein secreting cells:
+## vignette
+This item asks the student to name the two connective tissue cells built for protein export.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fat and macrophage cells
+## explanation_a
+The fat cell stores lipid and the macrophage digests; neither has the rough endoplasmic reticulum of an exporter.
+## answer_b
+Fat and fibroblast cell
+## explanation_b
+Half right — the fibroblast is one of the two — but the fat cell is not a protein-secreting cell, whatever its leptin output.
+## answer_c
+Macrophage and plasma cells
+## explanation_c
+Half right the other way: the plasma cell is one of the two, and the macrophage is not.
+## answer_d
+Fibroblast and plasma cells
+## explanation_d
+Correct. The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.
+
+Why this is right:
+- The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0E38E21957DB05
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the two connective tissue cells built for protein export.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q34. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-673
+## title
+Which of the following cells of the connective tissue is richest in rER:
+## question
+Which of the following cells of the connective tissue is richest in rER:
+## vignette
+This item asks the student to name the connective tissue cell with the most rough endoplasmic reticulum.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibrocytes
+## explanation_a
+The fibrocyte is the resting fibroblast, with little rough endoplasmic reticulum — the active form would be a better answer than this one.
+## answer_b
+Monocytes
+## explanation_b
+The monocyte is a blood cell with pale non-granular cytoplasm and lysosomes; its work is digestion, not export.
+## answer_c
+Plasma cells
+## explanation_c
+Correct. The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.
+
+Why this is right:
+- The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds.
+## answer_d
+Adipocytes
+## explanation_d
+The adipocyte is almost entirely one lipid droplet, with the cytoplasm squeezed into a rim.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0E38E21957DB05
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the connective tissue cell with the most rough endoplasmic reticulum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q31. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-674
+## title
+rER is present in the following except:
+## question
+rER is present in the following except:
+## vignette
+This item asks the student to name the cell whose endoplasmic reticulum is smooth rather than rough.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+plasma cell
+## explanation_a
+True, so not the exception. The plasma cell is the type example of a rough-ER-rich cell.
+## answer_b
+pancreatic cell
+## explanation_b
+True, so not the exception. The pancreatic acinar cell exports digestive enzymes and is full of rough ER.
+## answer_c
+liver
+## explanation_c
+Correct. The exception, and the answer. The liver cell is dominated by *smooth* endoplasmic reticulum, for lipid and steroid synthesis and for detoxification — it has rough ER as well, but the question is asking which of the four is not characterised by it.
+
+Why this is right:
+- The endoplasmic reticulum is a membranous network of intercommunicating channels and sacs — cisternae — extending from the nucleus to the cell membrane, and it is of two kinds.
+## answer_d
+fibroblast
+## explanation_d
+True, so not the exception. The active fibroblast is a protein-synthesising cell.
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0E38E21957DB05
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name the cell whose endoplasmic reticulum is smooth rather than rough.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p5 q19. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-675
+## title
+sER is present in:
+## question
+sER is present in:
+## vignette
+This item asks the student to name both cells rich in smooth endoplasmic reticulum.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+liver
+## explanation_a
+True but incomplete. The liver cell uses smooth ER for lipid synthesis and for detoxification.
+## answer_b
+plasma cell
+## explanation_b
+The plasma cell is the opposite — rough ER throughout, for antibody export.
+## answer_c
+endocrine cell
+## explanation_c
+True but incomplete. A steroid-secreting endocrine cell is built on smooth ER.
+## answer_d
+a,c
+## explanation_d
+Correct. Liver cells and steroid-forming endocrine cells, the two classic sites.
+
+Why this is right:
+- Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells.
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0B3CC0A79F9150
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name both cells rich in smooth endoplasmic reticulum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p6 q24. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-676
+## title
+smooth endoplasmic reticulum is seen in:
+## question
+smooth endoplasmic reticulum is seen in:
+## vignette
+This item asks the student to name the cell with abundant smooth endoplasmic reticulum.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+liver cells
+## explanation_a
+Correct. The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.
+
+Why this is right:
+- Smooth endoplasmic reticulum is a membranous organelle concerned with lipid and steroid synthesis, well developed in cells that form fat and steroid hormones, such as liver cells.
+## answer_b
+muscle cells
+## explanation_b
+The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell associated with smooth ER is the hepatocyte.
+## answer_c
+plasma cells
+## explanation_c
+The plasma cell is rough ER from end to end.
+## answer_d
+fat cells
+## explanation_d
+The fat cell stores its lipid as a droplet in the cytosol, not in a membrane system.
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0B3CC0A79F9150
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name the cell with abundant smooth endoplasmic reticulum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25; EOM ISK 101 195 Answers.pdf p1 q2; EOY 195 first 2022  101 ISK  final module (1).pdf p11 q1. Manifest src_d1414701d8fcb55932b6, src_9e6aad6c6af097e473d6, src_1641d3629225bb111726.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-677
+## title
+The cell responsible for production of antibodies is:
+## question
+The cell responsible for production of antibodies is:
+## vignette
+This item asks the student to name the antibody-producing cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast exports protein, but structural protein — collagen and elastin.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. The plasma cell synthesises and secretes antibody.
+
+Why this is right:
+- Its function is the synthesis and secretion of antibodies.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell releases mediators it has stored, not proteins it has made to order.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage presents the antigen that starts the response and then leaves the antibody to the plasma cell.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CC62175DBE7355
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the antibody-producing cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q121. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-678
+## title
+Plasma cells secrete:
+## question
+Plasma cells secrete:
+## vignette
+This item asks the student to give the plasma cell's product.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Heparin
+## explanation_a
+Heparin is a mast cell granule constituent.
+## answer_b
+Histamine
+## explanation_b
+Histamine likewise.
+## answer_c
+Antibodies
+## explanation_c
+Correct. Antibodies — immunoglobulin — are what the plasma cell exists to make.
+
+Why this is right:
+- Its function is the synthesis and secretion of antibodies.
+## answer_d
+both a & b are correct
+## explanation_d
+"Both a & b" is the answer to the mast cell version of this question, printed on the same page with the same options.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CC62175DBE7355
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the plasma cell's product.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q85. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-679
+## title
+Cartwheel nucleus is present in :
+## question
+Cartwheel nucleus is present in :
+## vignette
+This item asks the student to attribute the cart-wheel nucleus to the plasma cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast has a large pale oval nucleus with a prominent nucleolus — an active nucleus, but not patterned.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. The plasma cell's eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.
+
+Why this is right:
+- Its function is the synthesis and secretion of antibodies.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell's nucleus is central, spherical and pale, and is usually hidden by the granules over it.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage's nucleus is kidney-shaped, which is the other named nuclear shape in this chapter.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CC62175DBE7355
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute the cart-wheel nucleus to the plasma cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q145. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-680
+## title
+Which one of the following C.T cells, its nucleus has a clock face appearance:
+## question
+Which one of the following C.T cells, its nucleus has a clock face appearance:
+## vignette
+This item asks the student to recognise the clock-face nucleus as the cart-wheel under its other name.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Mast cells
+## explanation_a
+The mast cell nucleus is pale, round and central.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage nucleus is kidney-shaped and eccentric.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast nucleus is a large pale oval with a nucleolus.
+## answer_d
+plasma cells
+## explanation_d
+Correct. Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.
+
+Why this is right:
+- Its function is the synthesis and secretion of antibodies.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CC62175DBE7355
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Recognise the clock-face nucleus as the cart-wheel under its other name.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q88. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-681
+## title
+Russell bodies are spherical inclusion present in:
+## question
+Russell bodies are spherical inclusion present in:
+## vignette
+This item asks the student to attribute Russell bodies to the plasma cell and explain what they are.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fat cells
+## explanation_a
+A fat cell contains one droplet of lipid, not spherical protein inclusions.
+## answer_b
+Plasma cells
+## explanation_b
+Correct. Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.
+
+Why this is right:
+- Its function is the synthesis and secretion of antibodies.
+## answer_c
+Phagocytic cells
+## explanation_c
+A phagocytic cell contains phagosomes and residual bodies — inclusions, but of ingested material rather than of its own product.
+## answer_d
+Endothelial cells
+## explanation_d
+An endothelial cell is a thin lining cell with no notable inclusions.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CC62175DBE7355
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute Russell bodies to the plasma cell and explain what they are.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q30. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-682
+## title
+Negative Golgi image is seen in:
+## question
+Negative Golgi image is seen in:
+## vignette
+This item asks the student to name the cell in which the negative Golgi image is best seen.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Mast cells
+## explanation_a
+The mast cell's cytoplasm is crowded with granules; a pale unstained patch would not stand out and is not what the cell is known for.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage's cytoplasm is pale throughout, so there is no dark background for a pale area to show against.
+## answer_c
+Fibroblasts
+## explanation_c
+The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell whose basophilia is the deepest of any connective tissue cell.
+## answer_d
+plasma cells
+## explanation_d
+Correct. The plasma cell's deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.
+
+Why this is right:
+- It is demonstrated positively by silver, which shows it as a network of brown granules and fibrils.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-9EBFBDE42AC100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell in which the negative Golgi image is best seen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q80. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-683
+## title
+The cell derived from B lymphocytes is:
+## question
+The cell derived from B lymphocytes is:
+## vignette
+This item asks the student to trace the plasma cell to the B lymphocyte.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mast cell
+## explanation_a
+The mast cell comes from the undifferentiated mesenchymal cell, in connective tissue.
+## answer_b
+Plasma cell
+## explanation_b
+Correct. The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.
+
+Why this is right:
+- When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+- Some of its progeny become B memory cells, which give the rapid second response.
+## answer_c
+Fibroblast
+## explanation_c
+The fibroblast comes from the undifferentiated mesenchymal cell and the pericyte.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage comes from the blood monocyte — which is the other lineage question on this page and has a different answer.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Trace the plasma cell to the B lymphocyte.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q77. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-684
+## title
+Which connective tissue cell is derived from B lymphocytes?
+## question
+Which connective tissue cell is derived from B lymphocytes?
+## vignette
+This item asks the student to trace the plasma cell to the B lymphocyte.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast is mesenchymal in origin and has nothing to do with the immune lineages.
+## answer_b
+Mast cell
+## explanation_b
+The mast cell is also mesenchymal, despite behaving like a basophil.
+## answer_c
+Histiocyte
+## explanation_c
+The histiocyte is the connective tissue macrophage and comes from the monocyte.
+## answer_d
+Plasma cell
+## explanation_d
+Correct. The plasma cell.
+
+Why this is right:
+- When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+- Some of its progeny become B memory cells, which give the rapid second response.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Trace the plasma cell to the B lymphocyte.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q17. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-685
+## title
+B lymphocytes can
+## question
+B lymphocytes can
+## vignette
+This item asks the student to say what a B lymphocyte does when it meets its antigen.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+ingest pathogenic organisms
+## explanation_a
+Ingesting organisms is the neutrophil's and macrophage's work. The lymphocyte has no phagocytic apparatus.
+## answer_b
+Differentiate into plasma cells during immune responses
+## explanation_b
+Correct. On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.
+
+Why this is right:
+- When it meets its specific antigen and is activated by a helper T cell, it becomes a plasmablast and then a plasma cell, which synthesises and secretes antibody — the humoral immune response.
+- Some of its progeny become B memory cells, which give the rapid second response.
+## answer_c
+Differentiate into macrophage as a result of tissue damage
+## explanation_c
+The macrophage comes from the monocyte, not from any lymphocyte — this is the standard confusion between the two responses.
+## answer_d
+Secrete histamine
+## explanation_d
+Histamine is secreted by the mast cell and the basophil.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-A8DC563DBFFDF6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Say what a B lymphocyte does when it meets its antigen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q59. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-686
+## title
+Basophilic granules are present in:
+## question
+Basophilic granules are present in:
+## vignette
+This item asks the student to attribute granular basophilia to the mast cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast's basophilia is diffuse, from its ribosomes, and it has no granules.
+## answer_b
+Plasma cells
+## explanation_b
+The plasma cell is the most basophilic cell of all, but again diffusely — a fact worth holding, because the word in the stem is "granules".
+## answer_c
+Mast cells
+## explanation_c
+Correct. The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.
+
+Why this is right:
+- The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage's cytoplasm is pale and its lysosomes are too fine to read as granules by light microscopy.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0BB73C5CC1821B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute granular basophilia to the mast cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q147. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-687
+## title
+Which one of the following C.T cells has receptors for immunoglobulin E ( IgE ):
+## question
+Which one of the following C.T cells has receptors for immunoglobulin E ( IgE ):
+## vignette
+This item asks the student to attribute IgE receptors to the mast cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Mast cells
+## explanation_a
+Correct. The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.
+
+Why this is right:
+- The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage has receptors for the Fc of IgG and for complement, which help it phagocytose opsonised material — related receptors for a different immunoglobulin and a different purpose.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast carries no immunoglobulin receptors at all.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell makes immunoglobulin rather than binding it; a receptor for its own product would be self-defeating.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0BB73C5CC1821B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute IgE receptors to the mast cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q89. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-688
+## title
+Mast cells secrete:
+## question
+Mast cells secrete:
+## vignette
+This item asks the student to name both principal mast cell products.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Heparin
+## explanation_a
+True but incomplete. Heparin is the anticoagulant of the granule and is what makes it metachromatic.
+## answer_b
+Histamine
+## explanation_b
+True but incomplete. Histamine is the vasodilator.
+## answer_c
+Antibodies
+## explanation_c
+Antibodies come from the plasma cell. The mast cell binds antibody made by someone else.
+## answer_d
+both a & b are correct
+## explanation_d
+Correct. Heparin and histamine together, and a student who takes the first true option has half the granule.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name both principal mast cell products.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q86. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-689
+## title
+Mast cells synthesize and secrete:
+## question
+Mast cells synthesize and secrete:
+## vignette
+This item asks the student to list the mast cell granule contents.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Heparin
+## explanation_a
+True but incomplete.
+## answer_b
+Histamine
+## explanation_b
+True but incomplete.
+## answer_c
+Serotonin
+## explanation_c
+True but incomplete: serotonin is listed among the mast cell's secretions alongside heparin and histamine.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+List the mast cell granule contents.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p5 q36. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-690
+## title
+Mast cells synthesize and secrete all of the following except:
+## question
+Mast cells synthesize and secrete all of the following except:
+## vignette
+This item asks the student to keep histaminase, the eosinophil's enzyme, off the mast cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Heparin
+## explanation_a
+True, so not the exception.
+## answer_b
+Histamine
+## explanation_b
+True, so not the exception.
+## answer_c
+Serotonin
+## explanation_c
+True, so not the exception.
+## answer_d
+histaminase
+## explanation_d
+Correct. The exception, and the answer. Histaminase destroys histamine and is secreted by the eosinophil, which arrives to end the reaction the mast cell started. One syllable separates the mediator from its antidote.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Keep histaminase, the eosinophil's enzyme, off the mast cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q134. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-691
+## title
+Which of the following cells is the precursor of histamine & heparin.?
+## question
+Which of the following cells is the precursor of histamine & heparin.?
+## vignette
+This item asks the student to name the source of histamine and heparin in connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibroblasts
+## explanation_a
+The fibroblast makes fibres and ground substance.
+## answer_b
+Mast cells
+## explanation_b
+Correct. The mast cell stores both in its granules and releases them together.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## answer_c
+Plasma cells
+## explanation_c
+The plasma cell makes antibody.
+## answer_d
+Macrophages
+## explanation_d
+The macrophage digests, and secretes cytokines rather than amines.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the source of histamine and heparin in connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q73. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-692
+## title
+Which connective tissue cell type secretes histamine?
+## question
+Which connective tissue cell type secretes histamine?
+## vignette
+This item asks the student to name the histamine-secreting connective tissue cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast makes structural protein.
+## answer_b
+Fibrocyte
+## explanation_b
+The fibrocyte is the same cell resting, and makes even less.
+## answer_c
+Mast cell
+## explanation_c
+Correct. The mast cell.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## answer_d
+Plasma cell
+## explanation_d
+The plasma cell makes antibody — and it is antibody of the IgE class, bound to the mast cell, that triggers the histamine release. The two cells work in sequence, which is why they are so often offered together.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the histamine-secreting connective tissue cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q27. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-693
+## title
+After receiving Penicillin injection, a patient suffered from allergic reaction which i…
+## question
+After receiving Penicillin injection, a patient suffered from allergic reaction which is probably due to secretion of:
+## vignette
+This item asks the student to attribute an allergic reaction to mast cell histamine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Growth factors by fibroblasts
+## explanation_a
+Fibroblast growth factors drive repair over days. An allergic reaction takes minutes.
+## answer_b
+Lipid by adipocytes
+## explanation_b
+Adipocyte lipid is storage, not signalling.
+## answer_c
+Antibodies by plasma cells
+## explanation_c
+Plasma cell antibody is what sensitised the patient in the first place, but the reaction itself is the release triggered when the allergen meets that antibody on a mast cell.
+## answer_d
+Histamine by mast cells
+## explanation_d
+Correct. Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Attribute an allergic reaction to mast cell histamine.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q42. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-694
+## title
+A 2-year-old girl with itchy skin& respiratory distress is brought to | the emergency r…
+## question
+A 2-year-old girl with itchy skin& respiratory distress is brought to | the emergency room by her parents 30 minutes after eating peanut butter cookies .On physical examination the patient showed flushing &swelling of the lips &eye lids. Blood pressure [90/40mm Hg] & : pulse 100/minute. Which of the following is responsible for | increased vascular permeability in this patient with a severe peanut allergy:
+## vignette
+This item asks the student to name the cell whose mediator raises vascular permeability in anaphylaxis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Eosinophils
+## explanation_a
+The eosinophil arrives later and secretes histaminase and sulphatase to end the reaction. It is a raised eosinophil count that marks allergy, not the eosinophil that causes it.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages phagocytose and present antigen; they release no vasoactive amine.
+## answer_c
+Mast cells
+## explanation_c
+Correct. Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.
+
+Why this is right:
+- The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes.
+## answer_d
+Plasma cells
+## explanation_d
+The plasma cell made the IgE that sensitised the child, days or weeks earlier. It is upstream of the reaction, not the cause of the permeability.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D406E91EA3BF2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Name the cell whose mediator raises vascular permeability in anaphylaxis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p4 q1. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. The increased vascular permeability of an immediate allergic reaction is produced by histamine, and in the tissues — skin, lips, eyelids, airway — the cell that releases it is the mast cell.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-695
+## title
+A 17-year-old girl received a penicillin injection for treatment of an | infectious dis…
+## question
+A 17-year-old girl received a penicillin injection for treatment of an | infectious disease. Fifteen minutes after the injection, she suffered from difficulty in breathing, edema and sudden drop in blood pressure (anaphylactic shock). The cell responsible for this | condition is: |
+## vignette
+This item asks the student to name the blood cell responsible for anaphylactic shock.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Plasma cell
+## explanation_a
+The plasma cell made the IgE that sensitised her, but the shock itself is the discharge of granules from the cell that IgE is bound to.
+## answer_b
+Fibroblast
+## explanation_b
+The fibroblast has no part in an immediate reaction.
+## answer_c
+Eosinophil
+## explanation_c
+The eosinophil is drawn in to terminate the reaction — it destroys histamine with histaminase — so it is the brake rather than the accelerator.
+## answer_d
+Basoptill
+## explanation_d
+Correct. The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.
+
+Why this is right:
+- Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-607B783A16FBEB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_995e491b2e22cc96d8ef
+## learning_objective
+Name the blood cell responsible for anaphylactic shock.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Blood] (1).pdf p4 q5. Manifest src_995e491b2e22cc96d8ef.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The stem asks which cell is responsible for an anaphylactic shock fifteen minutes after an intravenous drug, and of the four blood and connective tissue cells offered only the basophil releases histamine — the department book names the histamine release of the basophil as anaphylaxis in so many words.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-696
+## title
+Metachromatic granules are present in:
+## question
+Metachromatic granules are present in:
+## vignette
+This item asks the student to attribute metachromatic granules to the mast cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+mast cells
+## explanation_a
+Correct. The heparin of the mast cell granule turns toluidine blue purple — metachromasia.
+
+Why this is right:
+- Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red.
+## answer_b
+plasma cells
+## explanation_b
+The plasma cell is basophilic but not metachromatic; its blue is the dye's own colour.
+## answer_c
+fat cells
+## explanation_c
+The fat cell has a lipid droplet and no granules.
+## answer_d
+pigment cells
+## explanation_d
+The pigment cell holds melanin, which is brown on its own account and needs no dye at all.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-A5D2D2350D099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute metachromatic granules to the mast cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q119. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-697
+## title
+Which one of the following can be stained metachromatically by toludine blue:
+## question
+Which one of the following can be stained metachromatically by toludine blue:
+## vignette
+This item asks the student to name the cell toluidine blue stains metachromatically.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Mast cells
+## explanation_a
+Correct. The mast cell.
+
+Why this is right:
+- Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage is shown by trypan blue in the living animal, or by acid phosphatase histochemistry.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast takes haematoxylin diffusely and metachromatically nothing.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell is the other deeply basophilic cell, and the one this question exists to exclude.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-A5D2D2350D099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell toluidine blue stains metachromatically.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q83. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-698
+## title
+Which of the following cells has metachromatic granules:
+## question
+Which of the following cells has metachromatic granules:
+## vignette
+This item asks the student to name both cells with metachromatic granules.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mast cells & Lymphocytes
+## explanation_a
+The lymphocyte has a thin agranular rim of cytoplasm and no granules to be metachromatic.
+## answer_b
+Mast cells & basophilis
+## explanation_b
+Correct. The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.
+
+Why this is right:
+- Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red.
+## answer_c
+Mast cells & Plasma cells
+## explanation_c
+The plasma cell is basophilic without being metachromatic — the distinction this whole group of questions is built on.
+## answer_d
+Mast cells
+## explanation_d
+"Mast cells" alone is true but incomplete, and incomplete is wrong when the fuller option is on the list.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-A5D2D2350D099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name both cells with metachromatic granules.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p4 q19. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-699
+## title
+Macrophages originate from..?
+## question
+Macrophages originate from..?
+## vignette
+This item asks the student to trace the macrophage to the blood monocyte.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Chondroblast
+## explanation_a
+The chondroblast makes cartilage matrix and is a fixed cell of a different tissue.
+## answer_b
+Plasma cell
+## explanation_b
+The plasma cell is the other end of the immune system — it comes from the B lymphocyte and makes antibody.
+## answer_c
+Mast cell
+## explanation_c
+The mast cell is mesenchymal in origin and is not a phagocyte.
+## answer_d
+Blood monocytes
+## explanation_d
+Correct. The blood monocyte enters the tissue and becomes the macrophage.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Trace the macrophage to the blood monocyte.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q70. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-700
+## title
+monocyte can give rise to :
+## question
+monocyte can give rise to :
+## vignette
+This item asks the student to name what the monocyte becomes in tissue.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+mast cells
+## explanation_a
+Mast cells arise in the connective tissue itself, from undifferentiated mesenchymal cells.
+## answer_b
+plasma cells
+## explanation_b
+Plasma cells come from B lymphocytes.
+## answer_c
+macrophage
+## explanation_c
+Correct. In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_d
+lymphocytes
+## explanation_d
+Lymphocytes arise from lymphoid precursors and are a separate line from the monocyte altogether.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name what the monocyte becomes in tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q24. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-701
+## title
+Which one of the following originates from the blood monocytes:
+## question
+Which one of the following originates from the blood monocytes:
+## vignette
+This item asks the student to name the connective tissue cell of monocyte origin.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mast cells
+## explanation_a
+The mast cell is mesenchymal. It resembles the basophil, which does come from the marrow, but it is not that cell grown up.
+## answer_b
+Macrophages
+## explanation_b
+Correct. The macrophage.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast is mesenchymal.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell comes from the B lymphocyte.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the connective tissue cell of monocyte origin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p10 q82. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-702
+## title
+The main function of histiocyte (macrophage) is:
+## question
+The main function of histiocyte (macrophage) is:
+## vignette
+This item asks the student to give the macrophage's main function.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+secretion of antibodies
+## explanation_a
+Antibody secretion is the plasma cell's.
+## answer_b
+secretion of histamine
+## explanation_b
+Histamine secretion is the mast cell's.
+## answer_c
+phagocytosis
+## explanation_c
+Correct. Phagocytosis — the cell is named for it, macro-phage, the big eater.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_d
+exocytosis
+## explanation_d
+Exocytosis is a mechanism every secretory cell uses, not a function that identifies a cell.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give the macrophage's main function.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q118. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-703
+## title
+Which cell is a connective tissue macrophage?
+## question
+Which cell is a connective tissue macrophage?
+## vignette
+This item asks the student to give the macrophage's name in connective tissue among its names in other tissues.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Kupffer cells
+## explanation_a
+The Kupffer cell is the macrophage of the liver sinusoid.
+## answer_b
+Histiocyte
+## explanation_b
+Correct. Histiocyte is the connective tissue macrophage's own name.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_c
+Dust cell
+## explanation_c
+The dust cell is the macrophage of the lung alveolus.
+## answer_d
+Langerhans cell
+## explanation_d
+The Langerhans cell is the antigen-presenting cell of the epidermis. All four are the same lineage under four names, and only one of them belongs to connective tissue.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Give the macrophage's name in connective tissue among its names in other tissues.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q1. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-704
+## title
+Which one of the following C.T cells is typically an antigen presenting cell:
+## question
+Which one of the following C.T cells is typically an antigen presenting cell:
+## vignette
+This item asks the student to name the antigen-presenting cell of connective tissue.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mast cells
+## explanation_a
+The mast cell binds antigen through IgE and reacts to it; it does not present it to a T cell.
+## answer_b
+Macrophages
+## explanation_b
+Correct. The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_c
+Fibroblasts
+## explanation_c
+The fibroblast has no immunological role.
+## answer_d
+plasma cells
+## explanation_d
+The plasma cell is the product of antigen presentation, not the agent of it.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the antigen-presenting cell of connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q87; EOM ISK 101 - 2023.pdf p2 q20. Manifest src_4e481d399b2ffd65b97a, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-705
+## title
+Antigen presenting cells are:
+## question
+Antigen presenting cells are:
+## vignette
+This item asks the student to name the second antigen-presenting cell beside the macrophage.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Macrophages + reticular cells
+## explanation_a
+Correct. Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the two are paired.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## answer_b
+Macrophages + plasma cells
+## explanation_b
+The plasma cell is the end of the response, not its beginning.
+## answer_c
+Macrophages + mast cells
+## explanation_c
+The mast cell reacts to antigen through bound IgE; it presents nothing.
+## answer_d
+Macrophages + fibroblasts
+## explanation_d
+The fibroblast plays no immunological part at all.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the second antigen-presenting cell beside the macrophage.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q60. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-706
+## title
+Kidney shaped nucleus is present in:
+## question
+Kidney shaped nucleus is present in:
+## vignette
+This item asks the student to attribute the kidney-shaped nucleus to the macrophage.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fibroblast
+## explanation_a
+The fibroblast's nucleus is a large pale oval with a prominent nucleolus.
+## answer_b
+Plasma cells
+## explanation_b
+The plasma cell's nucleus is eccentric with a cart-wheel pattern.
+## answer_c
+Mast cells
+## explanation_c
+The mast cell's nucleus is central, spherical and pale.
+## answer_d
+Macrophages
+## explanation_d
+Correct. The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.
+
+Why this is right:
+- The monocyte is 13–20 µm across, the largest of the white cells, with a large eccentric kidney-shaped pale nucleus and non-granular pale basophilic cytoplasm whose lysosomes give it a frosted-glass look.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-719FA556594454
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute the kidney-shaped nucleus to the macrophage.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p18 q146. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-707
+## title
+Pericytes of the connective tissue arises from:
+## question
+Pericytes of the connective tissue arises from:
+## vignette
+This item asks the student to trace the pericyte to the undifferentiated mesenchymal cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+reticular cells
+## explanation_a
+The reticular cell is itself a modified fibroblast and produces reticular fibres; it is a sibling rather than a parent.
+## answer_b
+fibroblasts
+## explanation_b
+The fibroblast is one of the things a pericyte can become, so this reverses the direction.
+## answer_c
+undifferentiated mesenchymal cells
+## explanation_c
+Correct. The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_d
+macrophages
+## explanation_d
+The macrophage comes from the monocyte and gives rise to nothing.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Trace the pericyte to the undifferentiated mesenchymal cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q90. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-708
+## title
+Which cell is present around blood capillaries:
+## question
+Which cell is present around blood capillaries:
+## vignette
+This item asks the student to name the cell that wraps a capillary.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Mast cells
+## explanation_a
+Mast cells lie *near* blood vessels, which is what makes this the strongest distractor — but they lie beside them, not wrapped around the endothelium inside its basement membrane.
+## answer_b
+Macrophages
+## explanation_b
+Macrophages wander through the tissue and are not fixed to vessels.
+## answer_c
+pericytes
+## explanation_c
+Correct. The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_d
+plasma cells
+## explanation_d
+Plasma cells are free cells of the tissue at large.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell that wraps a capillary.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q98. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-709
+## title
+Under certain conditions, Pericytes of the connective tissue can differentiate into:
+## question
+Under certain conditions, Pericytes of the connective tissue can differentiate into:
+## vignette
+This item asks the student to list everything a pericyte can become.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+endothelial cells
+## explanation_a
+True but incomplete. After injury it can replace lost endothelium.
+## answer_b
+fibroblasts
+## explanation_b
+True but incomplete. It is one of the two sources of new fibroblasts.
+## answer_c
+smooth muscle cells
+## explanation_c
+True but incomplete. It can become smooth muscle, which is what it already half is.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three, which is the point of calling it undifferentiated.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+List everything a pericyte can become.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p11 q91. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-710
+## title
+After injury of adult C.T., the following cells differentiate for C.T. repair:
+## question
+After injury of adult C.T., the following cells differentiate for C.T. repair:
+## vignette
+This item asks the student to name the two cells repair calls on.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mast cells & Fibroblasts
+## explanation_a
+The mast cell opens the vessels in the first minutes of injury but lays down nothing.
+## answer_b
+Pericytes & Fibroblasts
+## explanation_b
+Correct. Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_c
+Reticular cells & Histiocytes
+## explanation_c
+Reticular cells and histiocytes belong to organ stroma and to phagocytosis respectively.
+## answer_d
+Reticular cells & plasma cells
+## explanation_d
+Plasma cells appear in chronic inflammation and make antibody, not matrix.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the two cells repair calls on.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q36. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-711
+## title
+Incase of injury, pericytes can differentiate into : |
+## question
+Incase of injury, pericytes can differentiate into : |
+## vignette
+This item asks the student to name what a pericyte becomes after injury.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Chondrocyte
+## explanation_a
+The chondrocyte comes from the chondroblast, in cartilage, and no connective tissue pericyte becomes one.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the connective tissue macrophage and comes from the blood monocyte. It is also asked the other way round — "can pericytes become macrophages?" — and the answer is no both times.
+## answer_c
+Fibroblast
+## explanation_c
+Correct. The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_d
+Lymphocyte. ‏ا‎
+## explanation_d
+Lymphocytes come from lymphoid precursors in the marrow and thymus.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Name what a pericyte becomes after injury.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p1 q4. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The pericyte gives rise to fibroblasts, smooth muscle and endothelium, and of the four options only the fibroblast is on that list — the parallel question `under-certain-conditions-pericytes-of-the-connective-tissue-a9606c24` names all three and is keyed to "all of the above".
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-712
+## title
+All of the following about pericytes are correct except:
+## question
+All of the following about pericytes are correct except:
+## vignette
+This item asks the student to keep the macrophage lineage out of the pericyte's repertoire.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Can differentiate into macrophages
+## explanation_a
+Correct. The exception, and the answer. The macrophage comes from the blood monocyte. The pericyte is undifferentiated and versatile, which is exactly why students grant it a lineage it does not have.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_b
+Regulate blood flow through the capillaries
+## explanation_b
+True, so not the exception. Its actin and myosin let it contract and so regulate capillary flow.
+## answer_c
+Are located along capillaries
+## explanation_c
+True, so not the exception. It lies along the capillary within the basement membrane.
+## answer_d
+Can differentiate to endothelial cells and smooth muscle cells
+## explanation_d
+True, so not the exception. Endothelium and smooth muscle are both within its power.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Keep the macrophage lineage out of the pericyte's repertoire.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q48. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-713
+## title
+All of the following cells synthesize collagen EXCEPT:
+## question
+All of the following cells synthesize collagen EXCEPT:
+## vignette
+This item asks the student to recognise the several cells that make collagen and the one that does not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+chondroblasts
+## explanation_a
+True, so not the exception. The chondroblast makes the type II collagen of cartilage.
+## answer_b
+odontoblasts
+## explanation_b
+True, so not the exception. The odontoblast makes the collagen of dentine.
+## answer_c
+osteoblasts
+## explanation_c
+True, so not the exception. The osteoblast makes the type I collagen of bone matrix.
+## answer_d
+pericytes
+## explanation_d
+Correct. The exception, and the answer. The pericyte is an undifferentiated reserve cell; it can *become* a fibroblast and then make collagen, but as a pericyte it makes none.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Recognise the several cells that make collagen and the one that does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q93. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-714
+## title
+Collagen is secreted by all of the following EXCEPT:
+## question
+Collagen is secreted by all of the following EXCEPT:
+## vignette
+This item asks the student to name the cell in a collagen-making list that makes none.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibroblast
+## explanation_a
+True, so not the exception. The fibroblast is the type example.
+## answer_b
+Osteoblast
+## explanation_b
+True, so not the exception. Bone matrix is largely type I collagen.
+## answer_c
+Mast cell
+## explanation_c
+Correct. The exception, and the answer. The mast cell stores and releases mediators; it builds nothing.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_d
+Chondroblast
+## explanation_d
+True, so not the exception. Cartilage matrix is type II collagen.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the cell in a collagen-making list that makes none.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q71. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-715
+## title
+Collagen fibers are formed by the following cell:
+## question
+Collagen fibers are formed by the following cell:
+## vignette
+This item asks the student to pick the collagen-forming cell from a list of three that do not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Macrophage
+## explanation_a
+The macrophage digests collagen during remodelling; it makes none.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the macrophage under its connective tissue name, so options A and B are one cell offered twice — which is itself the signal that neither can be the answer.
+## answer_c
+Chondroblasts
+## explanation_c
+Correct. The chondroblast lays down the type II collagen of cartilage matrix.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_d
+Adipocyte
+## explanation_d
+The adipocyte stores lipid and secretes leptin.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Pick the collagen-forming cell from a list of three that do not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p2 q15; Dpt Book MCQ histo 101 .NEW (1).pdf p17 q15. Manifest src_7449943b97c0e18d37b0, src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key; the parallel printing at `collagen-fibers-are-formed-by-88f2dbc4`, with the same four options, is keyed to the chondroblast. Of the four cells offered only the chondroblast makes collagen — the macrophage and the histiocyte are the same phagocyte under two names, and the adipocyte stores fat.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-716
+## title
+Collagen fibers are formed by:
+## question
+Collagen fibers are formed by:
+## vignette
+This item asks the student to pick the collagen-forming cell from a list of three that do not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+macrophage
+## explanation_a
+The macrophage phagocytoses.
+## answer_b
+histocytes
+## explanation_b
+The histiocyte is the same cell under another name.
+## answer_c
+chondroblats
+## explanation_c
+Correct. The chondroblast makes the collagen of cartilage.
+
+Why this is right:
+- Connective tissue has three kinds of fibre.
+## answer_d
+adipocytes
+## explanation_d
+The adipocyte stores fat.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-6F4EB91B19C122
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Pick the collagen-forming cell from a list of three that do not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p14 q115. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-717
+## title
+The type III collagen fibers are secreted by the following cells:
+## question
+The type III collagen fibers are secreted by the following cells:
+## vignette
+This item asks the student to name the two cells that make type III collagen.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibroblasts, macrophage cells
+## explanation_a
+The macrophage makes no collagen of any type.
+## answer_b
+Fibroblasts & reticular cells
+## explanation_b
+Correct. Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.
+
+Why this is right:
+- Reticular fibres are fine, branching fibres of type III collagen that form a network rather than bundles.
+## answer_c
+Fibroblasts & mast cells
+## explanation_c
+The mast cell secretes mediators.
+## answer_d
+Fibroblasts & plasma cells
+## explanation_d
+The plasma cell secretes antibody.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-471B49C03F8BF8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the two cells that make type III collagen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q39; EOM first 2021 101 INT end of module.pdf p2 q14. Manifest src_c30d9391aa0861f41e44, src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-718
+## title
+Adipocytes are of two types:
+## question
+Adipocytes are of two types:
+## vignette
+This item asks the student to name the two kinds of fat cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Free and fixed
+## explanation_a
+Free and fixed is the classification of connective tissue cells in general, not of fat cells — and the fat cell is fixed under it.
+## answer_b
+Unilocular and multilocular
+## explanation_b
+Correct. Unilocular, with one droplet, and multilocular, with many.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_c
+Primary and secondary
+## explanation_c
+Primary and secondary describes lysosomes and chorionic villi elsewhere in this course, not adipocytes.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" fails once B is true.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the two kinds of fat cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q24. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-719
+## title
+White adipose connective tissue:
+## question
+White adipose connective tissue:
+## vignette
+This item asks the student to match white fat to its cell type.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Formed mainly of multilocular adipocytes
+## explanation_a
+Multilocular cells make brown fat, whose many droplets and many mitochondria are what let it burn fat for heat.
+## answer_b
+Formed mainly of unilocular adipocytes
+## explanation_b
+Correct. White adipose tissue is made of unilocular cells, each holding one large droplet.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_c
+All of the above
+## explanation_c
+"All of the above" cannot hold when A and B are alternatives.
+## answer_d
+None of the above
+## explanation_d
+"None of the above" fails once B is true.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Match white fat to its cell type.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p4 q27. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-720
+## title
+Brown adipose connective tissue is:
+## question
+Brown adipose connective tissue is:
+## vignette
+This item asks the student to give both the cell type and the function of brown fat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+responsible for fat storage
+## explanation_a
+Storage is white fat's job. Brown fat spends what it holds.
+## answer_b
+responsible for heat production
+## explanation_b
+True but incomplete. Heat production is its function.
+## answer_c
+formed of multilocular fat cells
+## explanation_c
+True but incomplete. Multilocular fat cells are what it is made of.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Give both the cell type and the function of brown fat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q104. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-721
+## title
+Which of the following cells has the mission of producing heat:
+## question
+Which of the following cells has the mission of producing heat:
+## vignette
+This item asks the student to name the heat-producing cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+plasma cells
+## explanation_a
+Plasma cells make antibody.
+## answer_b
+White adipocytes
+## explanation_b
+White adipocytes insulate against heat loss, which is not the same as generating heat — the commonest confusion in this pair.
+## answer_c
+Brown adipocytes
+## explanation_c
+Correct. The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_d
+Mast cells
+## explanation_d
+Mast cells release mediators.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Name the heat-producing cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p5 q30. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-722
+## title
+An obese 40-year-old female suffered from delayed healing of abdominal surgical incisio…
+## question
+An obese 40-year-old female suffered from delayed healing of abdominal surgical incision. The cause of this condition could be attributed to:
+## vignette
+This item asks the student to explain delayed healing in an obese patient from what fat tissue is like.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Increased unilocular fat cells.
+## explanation_a
+Correct. Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_b
+Increased multilocular fat cells.
+## explanation_b
+Multilocular brown fat is a tissue of fetal life and infancy, largely replaced by white fat during childhood; an adult has too little for it to matter.
+## answer_c
+Increased fibroblasts.
+## explanation_c
+More fibroblasts would mean more collagen and faster healing. The option has the direction reversed.
+## answer_d
+Decreased fibroblasts.
+## explanation_d
+A fall in fibroblast number would indeed delay healing, but obesity does not cause one — what it causes is more fat between the fibroblasts that are there.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Explain delayed healing in an obese patient from what fat tissue is like.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p19 q7. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this case carries a key. Obesity is an increase in white, unilocular fat, and it is that tissue — poorly vascularised and holding few fibroblasts — that heals slowly. Brown fat is negligible in an adult, and an increase in fibroblasts would speed healing rather than delay it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-723
+## title
+Leptin hormone Is secreted by the following cell:
+## question
+Leptin hormone Is secreted by the following cell:
+## vignette
+This item asks the student to name the cell with an endocrine function among the connective tissue cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fibroblast cell
+## explanation_a
+The fibroblast secretes fibres and ground substance, and growth factors locally; it is not an endocrine cell.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the connective tissue macrophage and secretes cytokines that act nearby.
+## answer_c
+Plasma cell
+## explanation_c
+The plasma cell secretes antibody into the plasma, which is a secretion but not a hormone.
+## answer_d
+Adipocyte
+## explanation_d
+Correct. The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.
+
+Why this is right:
+- Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-37C773B1F99BE3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the cell with an endocrine function among the connective tissue cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p17 q12. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. The department book gives adipose connective tissue an endocrine function and names leptin as its hormone, so the cell is the adipocyte.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-724
+## title
+give orange color with fat cell:
+## question
+give orange color with fat cell:
+## vignette
+This item asks the student to name the stain that colours fat orange.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+sudan III
+## explanation_a
+Correct. Sudan III stains fat orange, and the section must be a frozen one.
+
+Why this is right:
+- Fat is demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away.
+## answer_b
+PAS
+## explanation_b
+PAS gives magenta red on carbohydrate.
+## answer_c
+silver
+## explanation_c
+Silver blackens reticular fibres and browns the Golgi.
+## answer_d
+H, E
+## explanation_d
+H&E dissolves the fat away and leaves a signet ring.
+## topic
+Cytology
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-721D9B96A2367F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name the stain that colours fat orange.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q7. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-725
+## title
+Which of the following is suitable to examine the fat cells:
+## question
+Which of the following is suitable to examine the fat cells:
+## vignette
+This item asks the student to choose the technique that shows fat.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Periodic acid-Schiff reaction (PAS)
+## explanation_a
+PAS shows carbohydrate: glycogen, mucus, basement membrane.
+## answer_b
+Silver (Ag)
+## explanation_b
+Silver shows reticular fibres, nerve tissue and the Golgi.
+## answer_c
+Acid phosphatase
+## explanation_c
+Acid phosphatase histochemistry identifies lysosomes and so phagocytes.
+## answer_d
+Sudan Ill
+## explanation_d
+Correct. Sudan III.
+
+Why this is right:
+- Fat is demonstrated by the fat stains, of which Sudan III is the type example, staining it orange; the section must be a frozen one, because the xylol of the paraffin technique dissolves the fat away.
+## topic
+Histology-general
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-721D9B96A2367F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Choose the technique that shows fat.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p1 q6. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Fat is demonstrated by a fat stain — Sudan III — on a frozen section; the other three options are a carbohydrate stain, a metal impregnation and an enzyme reaction.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-726
+## title
+All of the following is branched Connective tissue cells EXCEPT:
+## question
+All of the following is branched Connective tissue cells EXCEPT:
+## vignette
+This item asks the student to sort the connective tissue cells by shape.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pericytes
+## explanation_a
+Branched, so not the exception. The pericyte wraps a capillary in long processes.
+## answer_b
+Fibroblasts
+## explanation_b
+Branched, so not the exception. The active fibroblast is the most processed cell of all.
+## answer_c
+Plasma cells
+## explanation_c
+Correct. The exception, and the answer. The plasma cell is a plump oval with no processes — which suits a cell that exports antibody into the fluid around it rather than reaching out to anything.
+
+Why this is right:
+- The cells of connective tissue proper are grouped two ways.
+## answer_d
+Pigment cells
+## explanation_d
+Branched, so not the exception. The pigment cell sends dendritic processes between the cells it supplies with melanin.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D55448AC644C5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Sort the connective tissue cells by shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p9 q75. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-727
+## title
+ALL those connective tissue cells are branched Except:
+## question
+ALL those connective tissue cells are branched Except:
+## vignette
+This item asks the student to recognise the fat cell as the unbranched extreme.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fibroblasts
+## explanation_a
+Branched, so not the exception.
+## answer_b
+Pericytes
+## explanation_b
+Branched, so not the exception.
+## answer_c
+Fat cell
+## explanation_c
+Correct. The exception, and the answer. A unilocular fat cell is a sphere distended by a single droplet; there is no room for a process and nothing for one to do.
+
+Why this is right:
+- The cells of connective tissue proper are grouped two ways.
+## answer_d
+UMCs
+## explanation_d
+Branched, so not the exception. The undifferentiated mesenchymal cell keeps the stellate shape of the mesenchyme it came from.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D55448AC644C5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Recognise the fat cell as the unbranched extreme.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p15 q122. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-728
+## title
+Which one of these cells is not a cell type routinely found in loose connective tissue?
+## question
+Which one of these cells is not a cell type routinely found in loose connective tissue?
+## vignette
+This item asks the student to reject a phagocyte that belongs to another tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Fibroblast
+## explanation_a
+Found there, so not the answer. The fibroblast is the commonest cell of loose connective tissue.
+## answer_b
+Microglia
+## explanation_b
+Correct. The answer. Microglia are the macrophages of the central nervous system and are found only there — they share the macrophage's lineage, which is exactly what makes the option plausible.
+
+Why this is right:
+- The cells of connective tissue proper are grouped two ways.
+## answer_c
+Histiocyte
+## explanation_c
+Found there, so not the answer. The histiocyte is the connective tissue macrophage.
+## answer_d
+Plasma cell
+## explanation_d
+Found there, so not the answer. Plasma cells are free cells of loose connective tissue, more numerous where there is chronic inflammation.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-7D55448AC644C5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Reject a phagocyte that belongs to another tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p2 q8. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-729
+## title
+Asection in the tendon shows all the following features except:
+## question
+Asection in the tendon shows all the following features except:
+## vignette
+This item asks the student to recall that dense regular tissue is nearly all fibre and nearly no free cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Minimal intercellular substance
+## explanation_a
+True, so not the exception. Dense tissue has little ground substance between its bundles.
+## answer_b
+Many macrophages and mast cells
+## explanation_b
+Correct. The exception, and the answer. A tendon is collagen bundles with fibrocytes squeezed between them and almost nothing else; free cells such as macrophages and mast cells belong to loose connective tissue, where there is room and blood supply for them.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## answer_c
+Parallel collagen bundles
+## explanation_c
+True, so not the exception. Parallel bundles are what make it regular.
+## answer_d
+Regular white fibrous connective tissue
+## explanation_d
+True, so not the exception. Tendon is the type example of dense regular white fibrous tissue.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Recall that dense regular tissue is nearly all fibre and nearly no free cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p8 q47. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-730
+## title
+White fibrous connective tissue:
+## question
+White fibrous connective tissue:
+## vignette
+This item asks the student to give the cell of dense white fibrous tissue and reject three properties of loose tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Has abundant matrix.
+## explanation_a
+Abundant matrix is loose areolar tissue, and mucoid tissue most of all. Dense tissue is packed with fibre and has little ground substance.
+## answer_b
+Is rich in blood supply. '
+## explanation_b
+Dense fibrous tissue is poorly vascularised, which is why tendons and ligaments heal so slowly.
+## answer_c
+Contains the three types of connective tissue fibers. :
+## explanation_c
+It is dominated by collagen. Tissue containing all three fibre types in quantity is loose areolar tissue, the general-purpose one.
+## answer_d
+Its cells are fibroblasts.
+## explanation_d
+Correct. Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## topic
+Connective Tissue
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Give the cell of dense white fibrous tissue and reject three properties of loose tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p3 q27. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Dense white fibrous tissue has little ground substance, a poor blood supply — which is why a tendon heals slowly — and is dominated by collagen rather than carrying all three fibre types. Its cells are fibroblasts and fibrocytes, so only D is true.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-731
+## title
+Fixed cells of bone marrow include the following except:
+## question
+Fixed cells of bone marrow include the following except:
+## vignette
+This item asks the student to separate the marrow stroma from the cells developing in it.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fibroblasts
+## explanation_a
+Fixed, so not the exception. Fibroblasts are part of the stroma.
+## answer_b
+Fat cells
+## explanation_b
+Fixed, so not the exception. Fat cells are stromal and are the largest cells in the marrow.
+## answer_c
+Endothelium of blood sinusoids
+## explanation_c
+Fixed, so not the exception. The sinusoidal endothelium is part of the framework.
+## answer_d
+Megakaryocytes
+## explanation_d
+Correct. The exception, and the answer. The megakaryocyte is a free cell — a developing blood element, shedding platelets into the sinusoid — not part of the scaffolding.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Separate the marrow stroma from the cells developing in it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q45. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-732
+## title
+The largest cell in bone marrow is:
+## question
+The largest cell in bone marrow is:
+## vignette
+This item asks the student to name the largest cell in marrow.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fat cell
+## explanation_a
+Correct. The fat cells are the largest cells of the marrow stroma.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## answer_b
+Megakaryocyte
+## explanation_b
+The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the largest-cell claim is about the fat cell, and a distended unilocular adipocyte is larger still.
+## answer_c
+Reticular cell
+## explanation_c
+The reticular cell is a modest stellate cell of the framework.
+## answer_d
+fibroblast
+## explanation_d
+The fibroblast is likewise ordinary in size.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Definition
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Name the largest cell in marrow.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q45; EOY 195 first 2022 101 ISK final (1).pdf p16 q25; EOY 195 first 2022  101 ISK  final module (1).pdf p13 q25. Manifest src_c6ab1b49dc16762227e1, src_51fef9b6234c5d381f59, src_1641d3629225bb111726.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-733
+## title
+The stroma of myeloid tissue is formed of:
+## question
+The stroma of myeloid tissue is formed of:
+## vignette
+This item asks the student to list the fixed cells that make up the marrow stroma.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Fat cells and blood platelets
+## explanation_a
+Platelets are a circulating product, not a structural element.
+## answer_b
+Reticular cells and lymphocytes
+## explanation_b
+Lymphocytes are free cells developing in the marrow, not part of its framework.
+## answer_c
+Reticular cells, fat cells and fibroblasts
+## explanation_c
+Correct. Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## answer_d
+Fibroblasts and developing blood cells
+## explanation_d
+Developing blood cells are the free population the stroma supports; this option mixes one stromal cell with them.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+List the fixed cells that make up the marrow stroma.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q20. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-734
+## title
+In the red bone marrow, you can recognize
+## question
+In the red bone marrow, you can recognize
+## vignette
+This item asks the student to recall that marrow contains both the stroma and the cells developing in it.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Fat cells, fibroblasts and endothelial cells
+## explanation_a
+True but incomplete. Fat cells, fibroblasts and the sinusoidal endothelium are all stromal elements.
+## answer_b
+Macrophages and reticular ells
+## explanation_b
+True but incomplete, and the keyed option. Macrophages and reticular cells are there too.
+## answer_c
+Blood forming cells
+## explanation_c
+True but incomplete. The developing blood cells are the free population, and the reason the tissue exists.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three groups are present, and naming only one of them describes a third of the marrow.
+
+Why this is right:
+- Red bone marrow has a stroma and free cells.
+- The stroma is reticular cells, which with reticular fibres form the supporting network, together with fibroblasts, undifferentiated mesenchymal cells, pericytes, osteogenic cells and fat cells — the largest cells in the marrow — and the blood sinusoids, wide irregular capillaries lined by endothelium on a non-continuous basement membrane, through whose pores finished cells enter the blood.
+## topic
+Blood
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-HEM-E27E5F8544640A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recall that marrow contains both the stroma and the cells developing in it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q82. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B. All three of the first options are true of red bone marrow — the stroma holds fat cells, fibroblasts, endothelial cells, macrophages and reticular cells, and the free population is the developing blood cells — so with "all of the above" on the list, no single one of them can be the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-735
+## title
+Macrophages can be stained with:
+## question
+Macrophages can be stained with:
+## vignette
+This item asks the student to name the stain that demonstrates a macrophage, and say why it works.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Trypan blue.
+## explanation_a
+Correct. Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.
+
+Why this is right:
+- A vital stain is one given to a living animal, whose cells then take it up while alive: trypan blue and Indian ink are injected, and the macrophages phagocytose them, which is how the macrophage is demonstrated.
+## answer_b
+Toluidine blue.
+## explanation_b
+Toluidine blue stains the mast cell and the blood basophil metachromatically, turning their heparin granules purple. It is the neighbouring cell in the same chapter and the commonest wrong answer here.
+## answer_c
+Silver.
+## explanation_c
+Silver stains reticular fibres brown, and the Golgi apparatus. It shows a fibre network, not a phagocyte.
+## answer_d
+Orcein
+## explanation_d
+Orcein browns elastic fibres. Both silver and orcein give a brown result, which is why naming the colour is never enough to name the stain.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-5EFDEADAA559B8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stain identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the stain that demonstrates a macrophage, and say why it works.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q17. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it says the macrophage is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses. The other three options are the stains the same chapters give to other cells and fibres.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-736
+## title
+Mast cells can be metachromatically stained with:
+## question
+Mast cells can be metachromatically stained with:
+## vignette
+This item asks the student to name the metachromatic stain of the mast cell granule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Indian ink.
+## explanation_a
+Indian ink is a vital stain the macrophage phagocytoses. It marks a cell by being eaten, not by changing colour, so it cannot be metachromatic at all.
+## answer_b
+Sudan Ill.
+## explanation_b
+Sudan III stains fat orange, on a frozen section, and identifies the adipocyte. Nothing about it involves a colour change.
+## answer_c
+Toluidine blue.
+## explanation_c
+Correct. Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye's own, which is what metachromasia means.
+
+Why this is right:
+- Toluidine blue is the example: it is blue, and on the sulphated mucopolysaccharide granules of the mast cell and of the blood basophil it turns violet, purple or magenta red.
+## answer_d
+Trypan blue.
+## explanation_d
+Trypan blue is the other vital stain of the macrophage. Two of the four options here are macrophage stains, so a student who has not separated the mast cell from the macrophage has a one-in-two chance of the wrong cell.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-A5D2D2350D099D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stain identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the metachromatic stain of the mast cell granule.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q19. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book: the mast cell's basophilic granules are stained metachromatically purple or red by toluidine blue. It is the only metachromatic stain the book teaches.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-737
+## title
+Mallory trichrome stain can be used for demonstration of:
+## question
+Mallory trichrome stain can be used for demonstration of:
+## vignette
+This item asks the student to give the fibre Mallory's trichrome demonstrates and the colour it gives.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Collagen fibers.
+## explanation_a
+Correct. Mallory's trichrome stains collagen fibres blue, and it is one of the three stains tabulated against collagen.
+
+Why this is right:
+- Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson.
+- Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson.
+## answer_b
+Reticular fibers.
+## explanation_b
+Reticular fibres are invisible in H&E and are shown by silver, which browns them, or by PAS, which reddens them because of their sugar content. Mallory does not reach them.
+## answer_c
+Macrophages.
+## explanation_c
+A macrophage is a cell, not a fibre, and it is demonstrated by a vital stain it eats. Putting a cell in a fibre-stain question tests whether the student knows what the stain is for.
+## answer_d
+actin microfibers.
+## explanation_d
+Actin microfilaments are cytoskeletal and intracellular, and all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-CE178A6B5707B1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Stain identification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the fibre Mallory's trichrome demonstrates and the colour it gives.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q22. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book's fibre-and-stain table: collagen fibres are pink with eosin, blue with Mallory's trichrome and red with van Gieson. Mallory is listed against no other fibre.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-738
+## title
+The following cell stained metachromati¢ally with toluidine blue is:
+## question
+The following cell stained metachromati¢ally with toluidine blue is:
+## vignette
+This item asks the student to name the connective tissue cell that stains metachromatically.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Plasma cell.
+## explanation_a
+The plasma cell is deeply basophilic, which makes it the closest wrong answer — but its basophilia is diffuse cytoplasmic staining from rough endoplasmic reticulum, and it takes the dye's own colour. Basophilic is not the same as metachromatic.
+## answer_b
+Macrophages
+## explanation_b
+The macrophage is demonstrated by a vital stain it phagocytoses, trypan blue or India ink, and its cytoplasm is only palely basophilic.
+## answer_c
+Mast cell.
+## explanation_c
+Correct. The mast cell's granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.
+
+Why this is right:
+- The mast cell arises from the undifferentiated mesenchymal cell and lies in loose connective tissue around blood vessels and under the epithelium of the lung and digestive tube.
+## answer_d
+Pericyte.
+## explanation_d
+The pericyte is a small undifferentiated cell around a capillary, with few organelles and no granules at all. There is nothing in it for a metachromatic dye to react with.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-0BB73C5CC1821B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Name the connective tissue cell that stains metachromatically.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p1 q1. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper printed no key for this row and the highlight recovery returned nothing for it, so the answer comes from the department book: only the mast cell is described as having granules stained metachromatically purple or red by toluidine blue. This is the same fact as `mast-cells-can-be-metachromatically-stained-with`, asked from the other end.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-739
+## title
+The C.T. cell that gives rise to fibroblast is:
+## question
+The C.T. cell that gives rise to fibroblast is:
+## vignette
+This item asks the student to name the connective tissue cells a fibroblast can arise from.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pericyte.
+## explanation_a
+Correct. The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.
+
+Why this is right:
+- Pericytes lie along the outside of capillaries and venules, sharing their basement membrane and wrapping the endothelium in long processes.
+## answer_b
+Mast cell.
+## explanation_b
+The mast cell arises from the undifferentiated mesenchymal cell itself and gives rise to nothing. It is a differentiated secretory cell, not a reserve.
+## answer_c
+Fat cell.
+## explanation_c
+The fat cell also arises from the undifferentiated mesenchymal cell and is an end point. A cell full of stored lipid is the least likely thing on the list to divide into something else.
+## answer_d
+Reticular cell.
+## explanation_d
+The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and it arises from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-4589050BE16100
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Name the connective tissue cells a fibroblast can arise from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q18. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2022 paper and none was recovered, so the answer is taken from the department book: the fibroblast arises from undifferentiated mesenchymal cells and from pericytes, and the pericyte in injury divides and differentiates into endothelium, fibroblasts and smooth muscle cells. The undifferentiated mesenchymal cell is not among the four options, which leaves the pericyte as the only stem cell on the list.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-740
+## title
+The mucoid C.T. is Characterized by:
+## question
+The mucoid C.T. is Characterized by:
+## vignette
+This item asks the student to recognise mucoid connective tissue by its jelly-like ground substance.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Jelly-like €xCess ground Substance.
+## explanation_a
+Correct. The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton's jelly of the umbilical cord, the vitreous humour and the dental pulp.
+
+Why this is right:
+- It is found in the umbilical cord, where it is called Wharton's jelly, in the vitreous humour of the eye and in the pulp of the teeth.
+## answer_b
+Fat cells predominate.
+## explanation_b
+Fat cells predominating is adipose connective tissue. Both are loose types, and grouping them is the mistake this option exists to catch.
+## answer_c
+High vascularity.
+## explanation_c
+High vascularity belongs to loose areolar tissue and to brown adipose tissue. Wharton's jelly is a packing around the umbilical vessels, not a vascular tissue itself.
+## answer_d
+Predominating collagen fibers.
+## explanation_d
+Predominating collagen fibres is white fibrous connective tissue, a dense type. Mucoid tissue has only fine collagen and reticular fibres, which is why it is a jelly rather than a cord.
+## topic
+Connective Tissue Cells
+## subtopic
+Connective Tissue Cells
+## main_concept
+CON-FND-EA4034F1E87235
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Connective Tissue Cells
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Recognise mucoid connective tissue by its jelly-like ground substance.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q24. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper carried no key and no highlight was recovered for that row, so the answer comes from the department book, which describes mucoid connective tissue as containing mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. The extractor has mangled two words of option a — "€xCess" and "Substance" — but the option is legible.
+1 materially different wording of this question exist in the books and were not collapsed into it.
