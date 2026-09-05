@@ -1,6 +1,11 @@
 package com.synapse.android.core.sync
 
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.adaptive.AdaptiveConfig
+import com.synapse.android.core.adaptive.AdaptiveEvidenceStore
+import com.synapse.android.core.adaptive.BlueprintNode
+import com.synapse.android.core.adaptive.CoverageDebt
+import com.synapse.android.core.adaptive.ReadinessResult
 import com.synapse.android.core.api.ApiError
 import com.synapse.android.core.api.RemoteState
 import com.synapse.android.core.api.SynapseApi
@@ -273,7 +278,14 @@ class SyncEngine(
             .map { "%04d-%02d".format(it.year, it.monthValue) }
             .distinct()
             .sorted()
-        return USER_STATE_KEYS + AttemptStore.INDEX_KEY + months.map(AttemptStore::monthKey)
+        // Adaptive Study's evidence ledger is month-sharded exactly like the
+        // attempt ledger (`src/data/adaptive/evidenceLedger.ts`), so it is pulled
+        // the same way: its index plus the same recent-month window
+        // [com.synapse.android.core.adaptive.AdaptiveEvidenceStore] reads back.
+        // The keys come from that object so the pull list cannot drift from the read.
+        return USER_STATE_KEYS +
+            AttemptStore.INDEX_KEY + months.map(AttemptStore::monthKey) +
+            AdaptiveEvidenceStore.INDEX_KEY + months.map(AdaptiveEvidenceStore::monthKey)
     }
 
     companion object {
@@ -298,6 +310,11 @@ class SyncEngine(
             "synapse-notification-campaigns-v1",
             "synapse-vouchers-v1",
             "synapse-system-colors-v1",
+            // Adaptive Study's admin-authored, student-read config and blueprint
+            // (server `STUDENT_READABLE_STATE`). Referenced by named constant so
+            // the read path and this pull list cannot spell the key differently.
+            AdaptiveConfig.KEY, // nishany-adaptive-config-v1
+            BlueprintNode.KEY, // nishany-adaptive-blueprints-v1
         )
 
         /** The content ledger's key — the one catalogue document that also gets shredded into rows [LocalStore] can query. */
@@ -325,6 +342,14 @@ class SyncEngine(
             PRACTICAL_PROGRESS_KEY, // nishany.practical.progress.v1 — src/data/practicalProgress.ts:17
             "nishany.notebook.notes", // src/pages/student/Notebook.tsx:62
             "nishany.calendar.tasks.v1", // src/data/tasks.ts:13
+            // Adaptive Study's per-student documents. The month-sharded evidence
+            // ledger (index + shards) is added in [userStateKeys]; these two are
+            // whole documents. Named constants, referenced by the ViewModel read
+            // path too, so the pull can never drift from the read. `boosts` and
+            // the stored `plan` are deliberately out of scope: the dashboard reads
+            // neither (no on-device session runner).
+            CoverageDebt.KEY, // nishany.progress.adaptive.coverageDebt.v1
+            ReadinessResult.KEY, // nishany.progress.adaptive.readiness.v1
         )
 
         /**
