@@ -620,7 +620,10 @@ export function SlideViewer({
             >
               <img
                 src={imageUrl}
-                alt=""
+                alt={t('{title} — {tissue}, {objective}× objective')
+                  .replace('{title}', slide.title)
+                  .replace('{tissue}', slide.tissue)
+                  .replace('{objective}', String(objective))}
                 draggable={false}
                 onLoad={(event) => setNaturalSize({ w: event.currentTarget.naturalWidth, h: event.currentTarget.naturalHeight })}
                 className="size-full object-cover"
@@ -742,7 +745,12 @@ export function SlideViewer({
                   className="relative mx-auto w-full touch-none overflow-hidden rounded-lg border border-line-2 bg-inset shadow-control focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                   style={{ aspectRatio: thumbnailAspect }}
                 >
-                  <img src={imageUrl} alt="" draggable={false} className="size-full object-contain" />
+                  <img
+                    src={imageUrl}
+                    alt={t('Full-slide overview of {title}').replace('{title}', slide.title)}
+                    draggable={false}
+                    className="size-full object-contain"
+                  />
                   <span
                     aria-hidden
                     className="absolute rounded-sm border-2 border-primary bg-primary/15 shadow-[0_0_0_999px_rgba(0,0,0,0.24)]"

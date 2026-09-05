@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
+import { Bell, BookOpen, Bot, Check, Download, FileText, KeyRound, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button, ButtonAnchor } from '@/components/ui/Button'
+import { Button } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
@@ -25,6 +25,9 @@ import { AccountTabs } from '@/components/account/AccountTabs'
 import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
 import { BillingPanels } from '@/components/account/BillingPanels'
 import { useUsernameAvailability } from '@/lib/useUsernameAvailability'
+import { SupportContactPanel } from '@/components/account/SupportContactPanel'
+import { AiDisclaimerDialog } from '@/components/account/AiDisclaimerDialog'
+import { DeleteAccountDialog } from '@/components/account/DeleteAccountDialog'
 
 /** The browser's own IANA zone name, or Cairo if the runtime cannot say. */
 function detectTimezone(): string {
@@ -52,8 +55,6 @@ const DEFAULTS: AccountPrefs = {
 }
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
-
-const SUPPORT_ADDRESS = 'help@nishany.com'
 
 function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
   const t = useT()
@@ -424,9 +425,10 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
   const [exportError, setExportError] = useState('')
   // New and existing students are private until they explicitly opt in.
   const [discoverable, setDiscoverableState] = useState(false)
+  const [aboutAiOpen, setAboutAiOpen] = useState(false)
+  const [deleteOpen, setDeleteOpen] = useState(false)
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Maristana profile change request')}`
 
   useEffect(() => {
     if (!API_MODE) return
@@ -628,16 +630,62 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                 </div>
               </Panel>
 
+              <SupportContactPanel />
+
               <Panel>
-                <PanelHeader title={t('Support')} icon={LifeBuoy} />
-                <div className="p-4">
-                  <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Nishany team')}</ButtonAnchor>
+                <PanelHeader title={t('Help')} icon={BookOpen} />
+                <div className="space-y-2 p-4">
+                  <Link to="/app/tutorial" className="flex min-h-11 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset">
+                    <BookOpen size={15} />{t('App tutorials')}
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => setAboutAiOpen(true)}
+                    className="flex min-h-11 w-full items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-start text-[13px] font-semibold text-ink hover:bg-inset"
+                  >
+                    <Bot size={15} />{t('About AI in Nishany')}
+                  </button>
+                </div>
+              </Panel>
+
+              <Panel>
+                <PanelHeader title={t('Legal and about')} icon={FileText} />
+                <div className="space-y-1 p-2">
+                  {([
+                    ['Terms and Conditions', '/terms'],
+                    ['Privacy Policy', '/privacy'],
+                    ['Accessibility statement', '/accessibility'],
+                  ] as const).map(([label, href]) => (
+                    <Link key={href} to={href} target="_blank" rel="noopener noreferrer" className="flex min-h-11 items-center justify-between rounded-lg px-3 text-[13px] font-medium text-ink-2 hover:bg-inset hover:text-ink">
+                      {t(label)}
+                    </Link>
+                  ))}
+                  <p className="flex min-h-11 items-center justify-between px-3 text-[12px] text-ink-3">
+                    {t('App version')}
+                    <span className="tnum font-mono">{(import.meta.env.VITE_APP_VERSION as string | undefined) ?? '—'}</span>
+                  </p>
+                </div>
+              </Panel>
+
+              <Panel className="border-danger/30">
+                <PanelHeader title={t('Danger zone')} icon={Trash2} />
+                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+                  <div className="min-w-0">
+                    <p className="text-[13px] font-medium text-ink">{t('Delete your account')}</p>
+                    <p className="mt-0.5 max-w-md text-[11.5px] leading-relaxed text-ink-3">
+                      {t('Permanently deletes your Nishany account and everything in it. This also removes your access on the app. This cannot be undone.')}
+                    </p>
+                  </div>
+                  <Button type="button" variant="danger" iconLeft={Trash2} onClick={() => setDeleteOpen(true)}>{t('Delete account')}</Button>
                 </div>
               </Panel>
             </div>
           </div>
         )}
       </div>
+
+      {aboutAiOpen && <AiDisclaimerDialog onClose={() => setAboutAiOpen(false)} />}
+      {deleteOpen && <DeleteAccountDialog onClose={() => setDeleteOpen(false)} />}
     </PageContainer>
   )
 }

@@ -87,6 +87,98 @@ export async function migrate() {
       )
     }
 
+    // Which modules and years a reviewer may write. Added by lookup, like every
+    // column above, so a database that already has it still boots.
+    const [scopeColumn] = await conn.query(
+      `SELECT 1 FROM information_schema.columns
+        WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'content_scope'`,
+    )
+    if (!scopeColumn.length) {
+      await conn.query('ALTER TABLE user_access ADD COLUMN content_scope JSON NULL AFTER mfa_required')
+    }
+
+    // Sign-up now asks for a phone number and a nationality, and the number has
+    // to be unique or the same person can register twice under two emails.
+    // Added by lookup rather than a marker, so a database restored from a dump
+    // that already has them still boots.
+    for (const [column, definition] of [
+      ['phone', 'VARCHAR(32) NULL AFTER email'],
+      ['nationality', 'VARCHAR(64) NULL AFTER phone'],
+      ['year_id', 'VARCHAR(64) NULL AFTER year'],
+      ['status_message', 'VARCHAR(140) NULL'],
+      ['ai_consent_at', 'DATETIME NULL'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'students' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE students ADD COLUMN ${column} ${definition}`)
+    }
+
+    // A student's own uploads were PDFs only — the storage key ended `.pdf` and
+    // the download was served as one. A whiteboard can now carry any file, so
+    // what it was called and what it is have to be stored rather than assumed.
+    for (const [column, definition] of [
+      ['file_name', 'VARCHAR(255) NULL AFTER media_type'],
+      ['mime_type', 'VARCHAR(128) NULL AFTER file_name'],
+    ]) {
+      const [found] = await conn.query(
+        `SELECT 1 FROM information_schema.columns
+          WHERE table_schema = DATABASE() AND table_name = 'user_documents' AND column_name = ?`,
+        [column],
+      )
+      if (!found.length) await conn.query(`ALTER TABLE user_documents ADD COLUMN ${column} ${definition}`)
+    }
+
+    // The unique index is separate from the column: adding it can fail on a
+    // database that already holds duplicates, and that has to be a loud failure
+    // an operator resolves rather than a column quietly left unconstrained.
+    const [phoneIndex] = await conn.query(
+      `SELECT 1 FROM information_schema.statistics
+        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'students_phone_unique'`,
+    )
+    if (!phoneIndex.length) {
+      await conn.query('CREATE UNIQUE INDEX students_phone_unique ON students (phone)')
+    }
+
+    const [yearIdIndex] = await conn.query(
+      `SELECT 1 FROM information_schema.statistics
+        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'idx_students_university_year_id'`,
+    )
+    if (!yearIdIndex.length) {
+      await conn.query('CREATE INDEX idx_students_university_year_id ON students (university_id, year_id)')
+    }
+
+    await conn.query(
+      `CREATE TABLE IF NOT EXISTS academic_publish_requests (
+        idempotency_key VARCHAR(128) PRIMARY KEY,
+        actor_id        VARCHAR(64) NOT NULL,
+        response_json   LONGTEXT NOT NULL,
+        created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_academic_publish_actor (actor_id, created_at)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+    )
+
+    // Contact-us. Same belt-and-suspenders as every table above: schema.sql
+    // already creates this on a fresh database, this guard is what gets it
+    // onto an existing production database on the next boot.
+    await conn.query(
+      `CREATE TABLE IF NOT EXISTS support_messages (
+        id         VARCHAR(64) PRIMARY KEY,
+        user_id    VARCHAR(64) NOT NULL,
+        student_id VARCHAR(64) NULL,
+        subject    VARCHAR(160) NULL,
+        message    TEXT NOT NULL,
+        status     ENUM('open','closed') NOT NULL DEFAULT 'open',
+        admin_note TEXT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        INDEX idx_support_messages_user (user_id, created_at),
+        INDEX idx_support_messages_status (status, created_at)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+    )
+
     const backfillYearIds = '2026-08-26-backfill-student-year-ids'
     const [yearBackfillApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [backfillYearIds])
     if (!yearBackfillApplied.length) {

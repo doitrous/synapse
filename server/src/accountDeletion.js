@@ -49,6 +49,7 @@ export const OWNED_BY_USER_ID = [
   'study_party_game_participants',
   'study_party_game_answers',
   'enrollment_change_requests',
+  'support_messages',
   'qbank_attempts',
   'qotd_answers',
   'maristana_study_minutes',

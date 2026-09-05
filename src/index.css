@@ -64,6 +64,14 @@
   --color-accent-line: #c4d9f7;
   --color-on-accent: #f8fbff;
 
+  /* ---- Midnight · the Noon mark's seed dot -----------------------------
+     Not part of the two-hue brand system above — this is the one fixed navy
+     the mark itself carries (matches `NishanyMark`'s dot, #1b2b55), reused
+     wherever the mark's dot needs to exist as a token rather than a literal.
+     Dark and OLED lift it — the raw value is close to those themes' own card
+     surfaces and would all but disappear there. */
+  --color-midnight: #1b2b55;
+
   /* ---- Mist · the accent ground ---------------------------------------
      Field blue at about six percent over white: the paper, one step raised.
      A band or a tile, never a whole page: hub header bands, icon tiles, the
@@ -368,6 +376,11 @@
   --color-accent-line: #24406b;
   --color-on-accent: #0a1120;      /* dark ink on a light-blue fill */
 
+  /* #1b2b55 is nearly the same value as this theme's own card surface
+     (#151b24) — lifted the same way accent is, so the seed dot still reads
+     as a dot rather than vanishing into the panel behind it. */
+  --color-midnight: #5b6fc4;
+
   /* Ivory in the dark themes is a warm *lift* off the page rather than a
      light ground: the same role — a band that is not the page — read at
      night, with the ink inverted to a warm off-white. */
@@ -525,6 +538,10 @@
   --color-accent-tint: #11203a;
   --color-accent-line: #24406b;
   --color-on-accent: #0a1120;
+
+  /* Same lift as Dark, held a shade brighter — the card surface here
+     (#0a0a0c) is darker still. */
+  --color-midnight: #6478d6;
 
   /* Darker than Dark's, for the same reason every other surface here is:
      paper is true black, so every lift above it starts lower. */
@@ -811,6 +828,10 @@
   from { transform: translateX(100%); }
   to { transform: none; }
 }
+@keyframes nishany-slide-up {
+  from { transform: translateY(100%); }
+  to { transform: none; }
+}
 
 @utility animate-fade {
   animation: nishany-fade var(--dur-fast) var(--ease-out-quint) backwards;
@@ -823,6 +844,10 @@
 }
 @utility animate-slide-x {
   animation: nishany-slide-x 0.24s var(--ease-out-quint) backwards;
+}
+/* The Focus Timer panel filling the screen from the bottom. */
+@utility animate-slide-up {
+  animation: nishany-slide-up 0.28s var(--ease-out-quint) backwards;
 }
 
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */

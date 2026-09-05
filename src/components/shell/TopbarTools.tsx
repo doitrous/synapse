@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  ArrowLeft, ArrowLeftRight, AudioLines, ChevronRight, LogOut, Maximize2, Search, Settings, SlidersHorizontal, TimerReset, UserRound, type LucideIcon,
+  ArrowLeft, ArrowLeftRight, AudioLines, ChevronRight, LogOut, Maximize2, Search, Settings, SlidersHorizontal, Timer, TimerReset, UserRound, type LucideIcon,
 } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { Avatar } from '@/components/ui/Avatar'
@@ -12,6 +12,9 @@ import { countOverlays } from '@/lib/overlayStack'
 import { Toggle } from '@/components/ui/Toggle'
 import { PomodoroPanel, usePomodoroEngine, type PomodoroEngine } from './PomodoroTimer'
 import { FocusAudioPanel, useFocusAudio } from './FocusAudioPlayer'
+import { FocusTimerPanel } from './FocusTimerPanel'
+import { useFocusSession, type FocusSessionEngine } from '@/lib/useFocusSession'
+import { formatClock } from '@/lib/focusSession'
 import type { Portal } from './nav'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -213,6 +216,42 @@ function AudioButton({ playing, className }: { playing: boolean; className?: str
 }
 
 /**
+ * The dedicated Focus Timer, promoted next to the quick Pomodoro popover.
+ * Where that popover is a glance-and-adjust widget, this opens the full
+ * slide-up surface: duration/count-up modes, task selection, strict mode and
+ * the Build Maristanas tie-in. The engine is instantiated once by
+ * `StudentTools` — always mounted — so the block keeps ticking and crediting
+ * study time whether or not this button's panel is currently open.
+ */
+function FocusTimerButton({ engine, open, onOpen, className }: { engine: FocusSessionEngine; open: boolean; onOpen: () => void; className?: string }) {
+  const t = useT()
+  const running = engine.state.running
+  const label = running ? `${t('Focus Timer')} — ${formatClock(engine.state.mode === 'countdown' ? engine.state.remainingSeconds : engine.state.elapsedSeconds)}` : t('Focus Timer')
+
+  return (
+    <button
+      type="button"
+      onClick={onOpen}
+      aria-label={label}
+      aria-haspopup="dialog"
+      aria-expanded={open}
+      className={cn(
+        TRIGGER,
+        running ? 'min-w-[5.4rem] bg-inset px-2.5 text-ink sm:min-w-[5rem]' : 'w-11 sm:w-9',
+        className,
+      )}
+    >
+      <Icon icon={Timer} size={18} strokeWidth={2.1} />
+      {running && (
+        <span className="tnum font-mono text-[12px] font-semibold tracking-[-0.02em] text-ink" aria-hidden>
+          {formatClock(engine.state.mode === 'countdown' ? engine.state.remainingSeconds : engine.state.elapsedSeconds)}
+        </span>
+      )}
+    </button>
+  )
+}
+
+/**
  * What is left of the menu: Search, and the switch that gives the page the
  * whole screen. Two rows is thin, but a menu whose contents you can predict is
  * worth more than one that hides four unrelated things.
@@ -227,12 +266,16 @@ function ToolsMenu({
   onOpenSearch,
   engine,
   audioPlaying,
+  focusEngine,
+  onOpenFocusTimer,
 }: {
   focusMode: boolean
   onToggleFocusMode: () => void
   onOpenSearch: () => void
   engine?: PomodoroEngine
   audioPlaying?: boolean
+  focusEngine?: FocusSessionEngine
+  onOpenFocusTimer?: () => void
 }) {
   const t = useT()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
@@ -359,6 +402,18 @@ function ToolsMenu({
                   </button>
                 )}
 
+                {/* The Focus Timer is a fullscreen surface, not another popover
+                    view — this row closes the menu and opens it directly. */}
+                {focusEngine && onOpenFocusTimer && (
+                  <button type="button" className={cn(ROW, 'sm:hidden')} onClick={() => { close(); onOpenFocusTimer() }}>
+                    <RowIcon icon={Timer} />
+                    <span className="min-w-0 flex-1 text-[13px] font-medium text-ink">{t('Focus Timer')}</span>
+                    {focusEngine.state.running
+                      ? <Badge tone="primary" dot><span className="tnum font-mono">{formatClock(focusEngine.state.mode === 'countdown' ? focusEngine.state.remainingSeconds : focusEngine.state.elapsedSeconds)}</span></Badge>
+                      : <Icon icon={ChevronRight} size={15} className="shrink-0 text-ink-3 rtl:-scale-x-100" />}
+                  </button>
+                )}
+
                 <div className={cn(ROW, 'hover:bg-transparent')}>
                   <RowIcon icon={Maximize2} />
                   <span className="min-w-0 flex-1 text-[13px] font-medium text-ink">{t('Hide menus')}</span>
@@ -379,10 +434,16 @@ function StudentTools({ focusMode, onToggleFocusMode, onOpenSearch, beforeMenu }
   // read the same clock, and it keeps running with every surface closed.
   const engine = usePomodoroEngine()
   const { playing } = useFocusAudio()
+  // Same idea for the dedicated Focus Timer: instantiated here, once, so the
+  // block keeps ticking and crediting study time whether its panel is open,
+  // closed, or reached from the phone row instead of the bar button.
+  const focusSession = useFocusSession()
+  const [focusTimerOpen, setFocusTimerOpen] = useState(false)
   return (
     <>
       <PomodoroButton engine={engine} className="max-sm:hidden" />
       <AudioButton playing={playing} className="max-sm:hidden" />
+      <FocusTimerButton engine={focusSession} open={focusTimerOpen} onOpen={() => setFocusTimerOpen(true)} className="max-sm:hidden" />
       {beforeMenu}
       <ToolsMenu
         focusMode={focusMode}
@@ -390,10 +451,13 @@ function StudentTools({ focusMode, onToggleFocusMode, onOpenSearch, beforeMenu }
         onOpenSearch={onOpenSearch}
         engine={engine}
         audioPlaying={playing}
+        focusEngine={focusSession}
+        onOpenFocusTimer={() => setFocusTimerOpen(true)}
       />
       <span className="sr-only" aria-live="polite">
         {t(engine.modeLabel)}, {Math.round(engine.progress * 100)}%
       </span>
+      {focusTimerOpen && <FocusTimerPanel engine={focusSession} onClose={() => setFocusTimerOpen(false)} />}
     </>
   )
 }

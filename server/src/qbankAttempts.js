@@ -1,6 +1,7 @@
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
+import { chunk } from './batchInsert.js'
 
 function cleanText(value, max) {
   const text = String(value ?? '').trim()

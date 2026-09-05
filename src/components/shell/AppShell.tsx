@@ -8,6 +8,7 @@ import { StudyAssistant } from '@/components/assistant/StudyAssistant'
 import { CommandSearch } from './CommandSearch'
 import { StudyContextMenu } from './StudyContextMenu'
 import { StudentOnboarding } from '@/components/onboarding/StudentOnboarding'
+import { AiConsentGate } from '@/components/account/AiConsentGate'
 import { OfflineBanner } from './OfflineBanner'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
@@ -233,6 +234,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
+      {portal === 'student' && <AiConsentGate />}
       {portal === 'student' && <StudyActivityTracker />}
       {portal === 'student' && <MaristanaProgressNotice />}
       {/* Docked, not a page: the question is nearly always about what is

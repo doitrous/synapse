@@ -267,6 +267,15 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS avatar_media_id VARCHAR(64) NULL;
    closed for everyone. This is where an admin now records it. */
 ALTER TABLE students ADD COLUMN IF NOT EXISTS study_group VARCHAR(120) NULL;
 
+/* A short freeform line under the student's name, shown on their profile —
+   plain text, no HTML. Blank clears it. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS status_message VARCHAR(140) NULL;
+
+/* When this account first agreed to AI-assisted features (grading, study
+   suggestions). NULL until the consent gate has been accepted once; never
+   cleared or rewritten after that. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS ai_consent_at DATETIME NULL;
+
 CREATE TABLE IF NOT EXISTS subscriptions (
   id           VARCHAR(64) PRIMARY KEY,
   student_id   VARCHAR(64) NOT NULL,
@@ -738,6 +747,23 @@ CREATE TABLE IF NOT EXISTS enrollment_change_requests (
   INDEX idx_enrollment_change_user (user_id, created_at),
   INDEX idx_enrollment_change_status (status, created_at),
   INDEX idx_enrollment_change_student (student_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Contact-us: a student writes to admin, an admin reads and closes it. Same
+   shape as enrollment_change_requests above, minus the approve/reject
+   workflow — a support message only ever needs open or closed. */
+CREATE TABLE IF NOT EXISTS support_messages (
+  id         VARCHAR(64) PRIMARY KEY,
+  user_id    VARCHAR(64) NOT NULL,
+  student_id VARCHAR(64) NULL,
+  subject    VARCHAR(160) NULL,
+  message    TEXT NOT NULL,
+  status     ENUM('open','closed') NOT NULL DEFAULT 'open',
+  admin_note TEXT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_support_messages_user (user_id, created_at),
+  INDEX idx_support_messages_status (status, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* Server-verified question attempts. Public rankings read only rows marked

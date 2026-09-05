@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem,
-  isProfileComplete, saveOwnEnrolment, normaliseStatusMessage, normaliseTimezone, usernameAvailability,
+  isProfileComplete, saveOwnEnrolment, recordAiConsent, normaliseStatusMessage, normaliseTimezone, usernameAvailability,
 } from './accounts.js'
 import { pool } from './db.js'
 
@@ -162,6 +162,87 @@ test('saveOwnEnrolment reports phoneConflict when the number belongs to someone 
   const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', phone: '+201001234567' })
   assert.equal(result.ok, true)
   assert.equal(result.phoneConflict, true)
+})
+
+/* ── recordAiConsent: written once, read back on every later call ──────── */
+
+test('recordAiConsent sets the timestamp the first time and leaves it alone after', async (t) => {
+  let stored = null
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql) => {
+      if (/FOR UPDATE/.test(sql)) return [[{ id: 'stu-1', user_id: 'stu-1' }]]
+      if (/UPDATE students SET ai_consent_at/.test(sql)) {
+        stored = stored ?? '2026-09-03T00:00:00.000Z'
+        return [{ affectedRows: 1 }]
+      }
+      if (/SELECT ai_consent_at/.test(sql)) return [[{ aiConsentAt: stored }]]
+      return [{ affectedRows: 1 }]
+    },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  const first = await recordAiConsent('stu-1')
+  assert.equal(first.ok, true)
+  assert.equal(first.aiConsentAt, '2026-09-03T00:00:00.000Z')
+  const second = await recordAiConsent('stu-1')
+  assert.equal(second.aiConsentAt, first.aiConsentAt, 're-consenting must not move the timestamp')
+})
+
+/* ── saveOwnEnrolment: status_message ────────────────────────────────── */
+
+function fakeEnrolmentPoolWithStatus(t, { storedStatusMessage = null } = {}) {
+  let written = undefined
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql, params) => {
+      if (/FOR UPDATE/.test(sql)) return [[{ id: 'stu-1', user_id: 'stu-1' }]]
+      if (/WHERE phone = /.test(sql)) return [[]]
+      if (/SELECT name, email, university_id/.test(sql)) {
+        return [[{ name: null, email: 'a@b.c', universityId: null, year: null, yearId: null, usernameNormalized: null, statusMessage: storedStatusMessage }]]
+      }
+      // The trial grant denormalises the plan with its own `UPDATE students SET
+      // plan = ?` after the enrolment write; ignore it so `written` keeps the
+      // enrolment UPDATE (the one carrying status_message at -2).
+      if (/UPDATE students SET plan/.test(sql)) return [{ affectedRows: 1 }]
+      if (/UPDATE students/.test(sql)) { written = params; return [{ affectedRows: 1 }] }
+      if (/FROM subscriptions/.test(sql)) return [[]]
+      return [{ affectedRows: 1 }]
+    },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  t.mock.method(pool, 'query', async () => [[]])
+  return () => written
+}
+
+test('saveOwnEnrolment strips control characters and caps the status message at 140 chars', async (t) => {
+  const writtenParams = fakeEnrolmentPoolWithStatus(t)
+  const longMessage = `hithere${'x'.repeat(200)}`
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', statusMessage: longMessage })
+  assert.equal(result.ok, true)
+  // status_message is the 11th placeholder in the UPDATE, right before the id.
+  const stored = writtenParams().at(-2)
+  assert.ok(!stored.includes(''), 'control character must be stripped')
+  assert.equal(stored.length, 140)
+})
+
+test('saveOwnEnrolment clears the status message on an explicit empty string', async (t) => {
+  const writtenParams = fakeEnrolmentPoolWithStatus(t, { storedStatusMessage: 'previously set' })
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1', statusMessage: '' })
+  assert.equal(result.ok, true)
+  assert.equal(writtenParams().at(-2), null)
+})
+
+test('saveOwnEnrolment leaves the status message untouched when the field is not sent', async (t) => {
+  const writtenParams = fakeEnrolmentPoolWithStatus(t, { storedStatusMessage: 'kept as-is' })
+  const result = await saveOwnEnrolment('stu-1', { universityId: 'cairo', year: 'Year 1' })
+  assert.equal(result.ok, true)
+  assert.equal(writtenParams().at(-2), 'kept as-is')
 })
 
 test('normaliseStatusMessage trims, folds line breaks, and caps at 120 chars', () => {

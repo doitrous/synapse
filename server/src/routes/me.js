@@ -2,7 +2,8 @@
  * The caller's own account: profile, enrolment, avatar, export and discoverability.
  */
 import { ACADEMIC_STATE_KEYS, parseAcademicDocuments, studentUniversityProjection } from '../academic.js'
-import { getDiscoverable, getUserByIdentity, saveOwnEnrolment, saveOwnProfile, setDiscoverable } from '../accounts.js'
+import { getDiscoverable, getUserByIdentity, recordAiConsent, saveOwnEnrolment, saveOwnProfile, setDiscoverable } from '../accounts.js'
+import { createSupportMessage, mySupportMessages } from '../support.js'
 import { heldTabs, requireAuthenticated } from '../auth.js'
 import { clearAvatar, setAvatarFromUpload, setAvatarFromUrl } from '../avatar.js'
 import { pool } from '../db.js'
@@ -80,6 +81,7 @@ export function registerMeRoutes(app) {
             username: user.username,
             profileIcon: user.profileIcon,
             statusMessage: user.statusMessage,
+            aiConsentAt: user.aiConsentAt,
             timezone: user.timezone,
             avatarMediaId: user.avatarMediaId,
             discoverable: user.discoverable,
@@ -239,5 +241,24 @@ export function registerMeRoutes(app) {
     const result = await setDiscoverable(req.identity.id, Boolean(req.body?.discoverable))
     if (result.error === 'not_found') return res.status(404).json({ error: 'no account to update' })
     res.json(result)
+  }))
+
+  // Contact-us: a student files a support message; admins read them at
+  // /api/admin/support-messages (routes/admin.js).
+  app.post('/api/me/support', requireAuthenticated, wrap(async (req, res) => {
+    const result = await createSupportMessage(req.identity.id, req.body ?? {})
+    if (result.error) return res.status(400).json(result)
+    res.json(result)
+  }))
+
+  app.get('/api/me/support', requireAuthenticated, wrap(async (req, res) => {
+    res.json({ messages: await mySupportMessages(req.identity.id) })
+  }))
+
+  // AI-usage disclaimer acceptance. Idempotent: COALESCE keeps the first time.
+  app.post('/api/me/consent/ai', requireAuthenticated, wrap(async (req, res) => {
+    const result = await recordAiConsent(req.identity.id)
+    if (result.error) return res.status(404).json(result)
+    res.json({ aiConsentAt: result.aiConsentAt })
   }))
 }

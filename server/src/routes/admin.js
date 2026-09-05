@@ -6,6 +6,7 @@ import { randomUUID } from 'node:crypto'
 import { open } from 'node:fs/promises'
 import { cancelSubscription, getUser, getUserActivity, grantSubscription, listUsers, passwordResetConfigured, readReason, recordAction, requestPasswordReset, setAccessStatus, setContentScope, setRole, setUserPassword } from '../accounts.js'
 import { requireTab } from '../auth.js'
+import { closeSupportMessage, listSupportMessages } from '../support.js'
 import { pool } from '../db.js'
 import { applyDirectEnrollmentChange, decideEnrollmentChangeRequest, listEnrollmentChangeRequests } from '../enrollmentChanges.js'
 import { wrap } from '../http.js'
@@ -282,6 +283,17 @@ export function registerAdminRoutes(app) {
       const status = result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
       return res.status(status).json(result)
     }
+    res.json(result)
+  }))
+
+  // Contact-us inbox: students file via POST /api/me/support (routes/me.js).
+  app.get('/api/admin/support-messages', requireTab('users'), wrap(async (req, res) => {
+    res.json({ messages: await listSupportMessages({ status: req.query?.status ? String(req.query.status) : 'open' }) })
+  }))
+
+  app.post('/api/admin/support-messages/:id/close', requireTab('users'), wrap(async (req, res) => {
+    const result = await closeSupportMessage(req.params.id, { note: req.body?.note })
+    if (result.error) return res.status(404).json(result)
     res.json(result)
   }))
 

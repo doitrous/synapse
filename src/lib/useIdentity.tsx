@@ -58,8 +58,10 @@ export interface IdentityProfile {
   avatarMediaId?: string | null
   username?: string | null
   profileIcon?: string | null
-  /** Shown next to this student's name in the friends directory and party member lists. */
+  /** A short freeform line under the student's name, shown in the friends directory and party member lists. */
   statusMessage?: string | null
+  /** ISO timestamp of first AI-features consent, or null until the student has agreed. */
+  aiConsentAt?: string | null
   /** IANA zone name, auto-detected by the browser and written by `PUT /me/profile`. */
   timezone?: string | null
 }
@@ -163,12 +165,14 @@ export interface EnrolmentInput {
   phone?: string
   nationality?: string
   plan?: string
+  /** Omit to leave unchanged; `''` clears it. Capped at 140 characters server-side. */
+  statusMessage?: string
 }
 
 const EMPTY_PROFILE: IdentityProfile = {
   studentId: null, name: null, email: null, phone: null, nationality: null,
   universityId: null, year: null, yearId: null, group: null, status: null, profileComplete: false,
-  avatarMediaId: null,
+  avatarMediaId: null, statusMessage: null, aiConsentAt: null,
 }
 
 const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: '', group: '' }

@@ -95,6 +95,7 @@ const USER_COLUMNS = `
   s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
   s.status_message AS statusMessage, s.timezone AS timezone,
   s.avatar_media_id AS avatarMediaId,
+  s.status_message AS statusMessage, s.ai_consent_at AS aiConsentAt,
   s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
   s.accuracy, s.readiness, COALESCE(s.user_id, a.user_id) AS userId, s.notes,
@@ -177,6 +178,8 @@ function shape(row) {
     // which the browser prepends its own API base to) and this reuses it rather
     // than hand back a second, differently-rooted path format.
     avatarMediaId: row.avatarMediaId || null,
+    statusMessage: row.statusMessage ?? null,
+    aiConsentAt: row.aiConsentAt ?? null,
     discoverable: Boolean(row.discoverable),
     socialProvider: row.socialProvider,
     socialSubject: row.socialSubject,
@@ -801,6 +804,20 @@ function normalisedUsernameText(value) {
     .replace(/-{2,}/g, '-')
 }
 
+/**
+ * A short freeform line under the student's name — "Studying for finals",
+ * "Away until Monday". Plain text only: control characters are stripped
+ * (they cannot render and some are used to spoof RTL/LTR direction), and an
+ * explicit empty string clears it rather than being ignored.
+ */
+function cleanStatusMessage(value) {
+  return String(value ?? '')
+    .replace(/[\x00-\x1f\x7f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 140)
+}
+
 export function usernameProblem(value) {
   const raw = String(value ?? '').trim()
   if (!raw) return 'username_required'
@@ -964,6 +981,9 @@ export async function saveOwnEnrolment(userId, input) {
   const usernameNormalized = username ? normaliseUsername(username) : null
   const usernameError = username ? usernameProblem(username) : null
   if (usernameError) return { error: usernameError }
+  // `undefined` means "not sent, leave it alone"; an explicit '' clears it.
+  const statusMessageProvided = Object.prototype.hasOwnProperty.call(input ?? {}, 'statusMessage')
+  const statusMessage = statusMessageProvided ? cleanStatusMessage(input.statusMessage) : undefined
 
   // Declared out here, not inside the try: the success return below runs after
   // the finally, outside the try block, and reads it.
@@ -1003,7 +1023,7 @@ export async function saveOwnEnrolment(userId, input) {
      * deliberately, by an administrator, and is never overwritten from here.
      */
     const [[stored]] = await conn.query(
-      'SELECT name, email, university_id AS universityId, year, year_id AS yearId, username_normalized AS usernameNormalized FROM students WHERE id = ?',
+      'SELECT name, email, university_id AS universityId, year, year_id AS yearId, username_normalized AS usernameNormalized, status_message AS statusMessage FROM students WHERE id = ?',
       [student.id],
     )
     const lockedUniversity = Boolean(stored?.universityId)
@@ -1021,6 +1041,7 @@ export async function saveOwnEnrolment(userId, input) {
     }
     const placeholder = !stored?.name || stored.name === stored.email
     const finalName = placeholder ? (name ?? stored?.name ?? null) : stored.name
+    const finalStatusMessage = statusMessageProvided ? (statusMessage || null) : (stored?.statusMessage ?? null)
 
     await conn.query(
       `UPDATE students
@@ -1034,11 +1055,12 @@ export async function saveOwnEnrolment(userId, input) {
               username = COALESCE(?, username),
               username_normalized = COALESCE(?, username_normalized),
               profile_icon = COALESCE(?, profile_icon),
+              status_message = ?,
               discoverable = COALESCE(discoverable, 0),
               status = COALESCE(status, 'Active'),
               joined = COALESCE(joined, CURDATE())
         WHERE id = ?`,
-      [universityId, year, yearId, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, student.id],
+      [universityId, year, yearId, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, finalStatusMessage, student.id],
     )
 
     // The trial is granted once, by the server, so it starts when the account
@@ -1070,4 +1092,29 @@ export async function saveOwnEnrolment(userId, input) {
   }
 
   return { ok: true, phoneConflict, profile: await getUserByIdentity(userId) }
+}
+
+/**
+ * Record that this account has agreed to AI-assisted features (grading,
+ * study suggestions, and the like). Written once: a second call is a no-op
+ * that just hands back the timestamp already on record, so the consent date
+ * shown to the student is always the first time they agreed, not the last
+ * time they happened to hit the button again.
+ */
+export async function recordAiConsent(userId) {
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'no_identity' } }
+    await conn.query('UPDATE students SET ai_consent_at = COALESCE(ai_consent_at, NOW()) WHERE id = ?', [student.id])
+    const [[row]] = await conn.query('SELECT ai_consent_at AS aiConsentAt FROM students WHERE id = ?', [student.id])
+    await conn.commit()
+    return { ok: true, aiConsentAt: row.aiConsentAt }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
 }

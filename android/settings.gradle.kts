@@ -19,6 +19,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // mediasoup-client-android (the real ORTC<->SDP client for the study-room
+        // SFU) is only published on JitPack. Scoped to its one group so
+        // mavenCentral stays authoritative for everything else.
+        maven {
+            url = uri("https://jitpack.io")
+            content { includeGroup("com.github.haiyangwu") }
+        }
     }
 }
 

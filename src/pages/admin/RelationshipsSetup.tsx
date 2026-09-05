@@ -457,7 +457,7 @@ export function RelationshipsSetup() {
                         <tr className="bg-surface-2/25">
                           <td colSpan={4} className="px-4 py-1.5 ps-6">
                             <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                              <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} className="grid size-4 place-items-center"><Icon icon={ChevronRight} size={12} className={cn('chevron-turn')} open={!topCollapsed} /></button>
+                              <button type="button" onClick={() => toggleGroup(topKey)} aria-expanded={!topCollapsed} aria-label={topCollapsed ? `Expand ${topic}` : `Collapse ${topic}`} className="grid size-4 place-items-center"><Icon icon={ChevronRight} size={12} className={cn('chevron-turn')} open={!topCollapsed} /></button>
                               {knownSubjects.has(sys) && topic !== 'General' ? <EditableLabel value={topic} onSave={(v) => renameTopic(sys, topic, v)} /> : topic}
                               <span className="tnum font-mono text-ink-3/70">{list.length}</span>
                             </div>

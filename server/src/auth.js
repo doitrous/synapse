@@ -54,6 +54,25 @@ function readContentScope(raw) {
   return moduleIds.length || yearIds.length ? { moduleIds, yearIds } : null
 }
 
+/**
+ * How often the bookkeeping writes below actually run, per Supabase `sub`.
+ *
+ * ponytail: in-process, per-instance Map — a second server instance (or a
+ * restart) simply re-runs the bookkeeping once more, which is harmless since
+ * both writes are idempotent upserts. This cache never governs authz: the
+ * role/status SELECT a few lines down always runs live, on every request, so
+ * a suspended or demoted user is caught immediately regardless of this TTL.
+ * Upgrade to a shared store (Redis) only if per-instance duplication of these
+ * writes ever shows up as a real cost.
+ */
+const BOOKKEEPING_TTL_MS = 5 * 60 * 1000 // 5 minutes
+const bookkeepingWrittenAt = new Map()
+
+/** Pure: has the bookkeeping-write TTL for this sub elapsed? */
+export function shouldRunBookkeeping(lastWriteAt, now, ttlMs = BOOKKEEPING_TTL_MS) {
+  return lastWriteAt == null || now - lastWriteAt >= ttlMs
+}
+
 async function supabaseIdentity(token) {
   if (!jwks || !issuer) return null
   const { payload } = await jwtVerify(token, jwks, {
@@ -66,19 +85,26 @@ async function supabaseIdentity(token) {
   const email = typeof payload.email === 'string' ? payload.email : null
   const appMetadata = payload.app_metadata && typeof payload.app_metadata === 'object' ? payload.app_metadata : {}
   const provider = typeof appMetadata.provider === 'string' ? appMetadata.provider.slice(0, 32) : null
-  await pool.query(
-    `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
-     ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
-    [userId, email],
-  )
-  if (provider && provider !== 'email') {
+
+  // Row-existence + last-active bookkeeping, not authz — throttled so the hot
+  // request path isn't paying for two writes on every single call. The authz
+  // read below is never throttled.
+  if (shouldRunBookkeeping(bookkeepingWrittenAt.get(userId), Date.now())) {
     await pool.query(
-      `UPDATE students
-          SET social_provider = COALESCE(social_provider, ?),
-              social_subject = COALESCE(social_subject, ?)
-        WHERE user_id = ?`,
-      [provider, userId, userId],
+      `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
+       ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
+      [userId, email],
     )
+    if (provider && provider !== 'email') {
+      await pool.query(
+        `UPDATE students
+            SET social_provider = COALESCE(social_provider, ?),
+                social_subject = COALESCE(social_subject, ?)
+          WHERE user_id = ?`,
+        [provider, userId, userId],
+      )
+    }
+    bookkeepingWrittenAt.set(userId, Date.now())
   }
   const [rows] = await pool.query(
     'SELECT role, status, mfa_required, content_scope FROM user_access WHERE user_id = ?',

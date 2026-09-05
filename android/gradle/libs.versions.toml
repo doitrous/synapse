@@ -19,6 +19,8 @@ room = "2.8.4"
 robolectric = "4.16.1"
 androidxTestCore = "1.7.0"
 navigationCompose = "2.9.8"
+glance = "1.2.0"
+mediasoupClient = "3.0.4-beta-2"
 # Pinned separately from lifecycleRuntimeKtx (2.11.0): the Compose lifecycle
 # artifacts at 2.11.0 raise their AARs' minCompileSdk to 37, which this
 # project's pinned compileSdk 36 cannot satisfy without bumping the
@@ -45,6 +47,7 @@ kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 okhttp-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutines" }
 supabase-auth = { group = "io.github.jan-tennert.supabase", name = "auth-kt", version.ref = "supabase" }
 ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
 androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "androidxSecurityCrypto" }
@@ -56,6 +59,9 @@ androidx-test-core = { group = "androidx.test", name = "core", version.ref = "an
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleCompose" }
 androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleCompose" }
+androidx-glance-appwidget = { group = "androidx.glance", name = "glance-appwidget", version.ref = "glance" }
+androidx-glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glance" }
+mediasoup-client-android = { group = "com.github.haiyangwu", name = "mediasoup-client-android", version.ref = "mediasoupClient" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

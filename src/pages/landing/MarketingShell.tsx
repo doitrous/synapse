@@ -56,11 +56,11 @@ function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: st
 }
 
 /**
- * The footer's second row: terms, privacy, refunds, contact.
+ * The footer's second row: terms, privacy, refunds, contact, accessibility.
  *
  * Written out here rather than imported from `pages/legal/content.ts` so the
- * marketing bundle does not carry the full text of four documents just to draw
- * four links. The Arabic shell keeps the same URLs and adds `?lang=ar`, which
+ * marketing bundle does not carry the full text of five documents just to draw
+ * five links. The Arabic shell keeps the same URLs and adds `?lang=ar`, which
  * mirrors the page's chrome and shows the "translation pending" notice.
  */
 function legalLinks(lang: 'ar' | 'en'): [string, string][] {

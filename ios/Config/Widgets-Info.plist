@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  Merged into the Info.plist Xcode generates for the widget extension
+	  (GENERATE_INFOPLIST_FILE is YES), exactly like the app's Config/Info.plist.
+	  Only the NSExtension point Xcode cannot derive from build settings lives
+	  here; CFBundle* keys, versions and the executable name come from the
+	  target's build settings.
+	-->
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.widgetkit-extension</string>
+	</dict>
+</dict>
+</plist>

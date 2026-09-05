@@ -1,8 +1,13 @@
-import type {
-  InputHTMLAttributes,
-  ReactNode,
-  SelectHTMLAttributes,
-  TextareaHTMLAttributes,
+import {
+  Children,
+  cloneElement,
+  isValidElement,
+  useId,
+  type InputHTMLAttributes,
+  type ReactElement,
+  type ReactNode,
+  type SelectHTMLAttributes,
+  type TextareaHTMLAttributes,
 } from 'react'
 import { ChevronDown, Search } from 'lucide-react'
 import { Icon } from './Icon'
@@ -24,12 +29,27 @@ export function Field({
   children: ReactNode
   className?: string
 }) {
+  // A caller that already wires htmlFor + id itself (the common pattern
+  // below) is left untouched. One that doesn't gets a generated id here,
+  // threaded onto both the label and — when there is exactly one child and
+  // it hasn't set its own id — that child, so the label is never left
+  // pointing at nothing. `useId()` makes this automatic at all ~74 call
+  // sites rather than requiring every one of them to pass an id.
+  const autoId = useId()
+  const forId = htmlFor ?? autoId
+  const onlyChild = Children.count(children) === 1 && isValidElement(children) ? children : null
+  const content = !htmlFor && onlyChild
+    ? cloneElement(onlyChild as ReactElement<{ id?: string }>, {
+        id: (onlyChild.props as { id?: string }).id ?? autoId,
+      })
+    : children
+
   return (
     <div className={className}>
-      <label htmlFor={htmlFor} className="mb-1.5 block text-[12.5px] font-medium text-ink-2">
+      <label htmlFor={forId} className="mb-1.5 block text-[12.5px] font-medium text-ink-2">
         {label}
       </label>
-      {children}
+      {content}
       {hint && <p className="mt-1 text-[12px] text-ink-3">{hint}</p>}
     </div>
   )

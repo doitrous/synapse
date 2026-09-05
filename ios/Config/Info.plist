@@ -12,7 +12,7 @@
 	  Build settings below are substituted at build time. The hosts carry no
 	  scheme because xcconfig treats `//` as a comment. See Config/Base.xcconfig.
 	-->
-	<key>SynapseAPIHost</key>
+	<key>NishanyAPIHost</key>
 	<string>$(API_HOST)</string>
 	<key>SupabaseHost</key>
 	<string>$(SUPABASE_HOST)</string>
@@ -51,9 +51,30 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
+		<!--
+		  So a study-room voice call keeps running when the phone locks or the
+		  student switches away mid-conversation, rather than being cut the moment
+		  the app leaves the foreground.
+		-->
+		<string>audio</string>
 	</array>
 
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+
+	<!--
+	  Study-room voice. The microphone is opened only when a student taps
+	  "Join voice"; this string is what iOS shows in that one system prompt.
+	-->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Nishany uses your microphone so you can talk to the others in a study room. It is only on while you are in a room's voice.</string>
+
+	<!--
+	  Lets the app start a Focus Timer Live Activity (lock screen + Dynamic
+	  Island). The Activity's UI is drawn by the NishanyWidgets extension; this
+	  key is what allows the app process to request one.
+	-->
+	<key>NSSupportsLiveActivities</key>
+	<true/>
 </dict>
 </plist>

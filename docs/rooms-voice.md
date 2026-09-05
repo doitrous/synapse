@@ -304,3 +304,69 @@ different networks — TURN.
   running two API replicas would put two members of one room on two SFUs that
   cannot hear each other. Voice needs either one replica or a shared
   media server before the API is scaled out.
+
+---
+
+## 8. The iOS client
+
+The native app speaks the exact same protocol as the web client — same socket
+URL (with the `/api` strip), same `nishany.bearer` subprotocol, same `sfu:*`
+frames. It lives under `ios/Synapse/Core/StudyTogether/Voice/`:
+
+| File | What |
+|---|---|
+| `RoomVoiceProtocol.swift` | Pure: the socket URL, the auth subprotocols, encode/decode of every frame. The counterpart of `roomChannel.ts`. |
+| `RoomVoiceChannel.swift` | The `URLSessionWebSocketTask`, retries (1 s → 30 s), request/response correlation. The counterpart of `useRoomChannel.ts`. |
+| `RoomAudioController.swift` | The call: mic → producer, each remote producer → a consumer, speaking, mute, reconnect. The counterpart of `useRoomAudio.ts`. |
+| `RoomSpeakingDetector.swift`, `RoomMuteMachine.swift` | Pure: the RMS thresholds and the three things Mute does. |
+| `MediasoupModels.swift`, `MediasoupSdp.swift` | The ORTC ⇄ SDP mapping (see below). |
+| `WebRTCClient.swift` | The `RoomVoiceRTC` protocol and its `stasel/WebRTC` implementation. |
+| `RoomVoiceAudioSession.swift` | `AVAudioSession` (`.playAndRecord`/`.voiceChat`), interruptions, route changes. |
+| `Features/More/RoomVoiceSection.swift` | Join / Mute / Leave, the speaking roster. |
+
+### The dependency, and the hand-rolled part
+
+`mediasoup-client-swift` is distributed as a CocoaPod that bundles its own
+`WebRTC.xcframework`; this project is Swift Package Manager only. Rather than
+vendor two binary xcframeworks and switch the build to a workspace, the app
+takes the plain **`stasel/WebRTC`** XCFramework as an SPM package
+(`XCRemoteSwiftPackageReference`, pinned to `152.0.0`, wired into
+`Synapse.xcodeproj/project.pbxproj` the same way Supabase and GRDB are) and
+implements the mediasoup produce/consume signalling **by hand** for the one case
+a study room needs: a single Opus stream, no video, no simulcast, no RTX.
+
+`MediasoupSdp.swift` is that hand-rolled mapping, following `mediasoup-client`'s
+Unified-Plan handler: on **send** the peer connection makes the offer and we
+read the produced track's `RtpParameters` out of it and set a remote *answer* we
+build; on **recv** we build a remote *offer* from the consumer's `RtpParameters`
+and let the peer connection answer. mediasoup is always the DTLS server
+(ICE-lite), so every remote section is `a=setup:passive` and the transport is
+connected with the client's own fingerprint and `role: "client"`.
+
+**These SDP transforms are pure and unit-tested** (`MediasoupSdpTests`,
+`RoomVoiceProtocolTests`, `RoomVoiceLogicTests`). What the tests *cannot* prove
+is that the resulting DTLS/ICE handshake actually completes against a live SFU —
+that needs two devices, `SFU_ANNOUNCED_IP` set, the UDP range open, and TURN.
+That end-to-end verification is the same infrastructure checklist as §5–6 above,
+and is the one part of the iOS client not covered by the build or the tests.
+
+If a future release wants the fully-maintained mediasoup handler instead, the
+seam is `RoomVoiceRTC`: swap `MediasoupRTCClient` for a `mediasoup-client-swift`
+binding (which then requires a Podfile and a `.xcworkspace`).
+
+### Info.plist and permissions
+
+`NSMicrophoneUsageDescription` is set, and `audio` is added to
+`UIBackgroundModes` so a call survives the phone locking. The microphone is
+requested **only** on an explicit "Join voice" tap (via `AVAudioApplication`),
+never at cold launch — the same idiom as `PushRegistrar`/`PermissionPrimerRow`.
+
+### iOS-specific simplifications
+
+- **Speaking is measured from WebRTC stats** (`media-source` `audioLevel`)
+  during a live call, not from a second audio graph. So, unlike the web client,
+  there is no local level meter when the SFU is unavailable — the section simply
+  says voice is unavailable and the rest of the room is untouched.
+- **A closed consumer's `m=` section is left inactive** rather than recycled by a
+  full renegotiation. A study room churns speakers slowly and a stale inactive
+  section costs nothing.

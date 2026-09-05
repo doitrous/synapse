@@ -16,7 +16,7 @@ fun readSecret(name: String): String {
 }
 
 android {
-    namespace = "com.synapse.android"
+    namespace = "com.nishany.android"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -66,6 +66,17 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.glance.appwidget)
+    implementation(libs.androidx.glance.material3)
+    // Real mediasoup client (bundles libwebrtc for all four ABIs) for study-room
+    // voice. See core/rooms/MediasoupVoiceClient.kt. Its POM drags in the ancient
+    // appcompat 1.0.0 (a leftover from its demo), whose vectordrawable 1.0.0
+    // pair shares one namespace and fails AGP 9's manifest merge -- this app is
+    // pure Compose and needs no appcompat, so the whole branch is excluded.
+    implementation(libs.mediasoup.client.android) {
+        exclude(group = "androidx.appcompat")
+        exclude(group = "androidx.vectordrawable")
+    }
     ksp(libs.androidx.room.compiler)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
@@ -76,5 +87,6 @@ dependencies {
     testImplementation(libs.robolectric)
     testImplementation(libs.androidx.test.core)
     testImplementation(libs.kotlinx.coroutines.core)
+    testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.androidx.compose.ui.test.junit4)
 }
