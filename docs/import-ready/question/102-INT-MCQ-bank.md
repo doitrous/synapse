@@ -28227,3 +28227,2604 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-289
+## title
+Which of the following processes is absent in the eukaryotic cell nucleus?
+## question
+Which of the following processes is absent in the eukaryotic cell nucleus?
+## vignette
+This item asks the student to identify translation as the one listed process that happens outside the nucleus, at the rough endoplasmic reticulum.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Transcription
+## explanation_a
+Transcription happens in the nucleus, where RNA polymerase reads the DNA template — it is not the exception.
+## answer_b
+Translation
+## explanation_b
+Correct. Protein synthesis takes place at the rough endoplasmic reticulum, which is cytoplasmic; translation cannot happen in the nucleus because the ribosomes, tRNAs and aminoacyl-tRNA synthetases it needs are cytoplasmic machinery, and the mRNA reaching them has already been exported through a nuclear pore.
+
+Why this is right:
+- Rough endoplasmic reticulum is the site of formation of proteins in eukaryotes — translation happens in the cytoplasm, on ribosomes studding the rough ER, once the mature mRNA has already left the nucleus through a nuclear pore.
+## answer_c
+Removal of introns
+## explanation_c
+Removal of introns is splicing, one of the post-transcriptional modifications of mRNA that takes place in the nucleus — not the exception.
+## answer_d
+DNA replication
+## explanation_d
+DNA replication copies the nuclear genome and so happens in the nucleus — not the exception.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-E4551E87D19A8F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify translation as the one listed process that happens outside the nucleus, at the rough endoplasmic reticulum.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p68 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: correctSource is 'none' — no printed key survived. The book places protein synthesis at the rough endoplasmic reticulum, i.e. in the cytoplasm, while it places post-transcriptional processing of mRNA (including 'removal of introns', i.e. splicing) inside the nucleus; transcription must also occur there since it produces the transcript that gets processed. Translation is therefore the process absent from the nucleus.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-290
+## title
+Which of the following is inapplicable for the genetic code?
+## question
+Which of the following is inapplicable for the genetic code?
+## vignette
+This item asks the student to recognise 'overlapping' as the characteristic the genetic code does not have.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Specific
+## explanation_a
+Specificity is one of the four characteristics of the genetic code — applicable, not the exception.
+## answer_b
+Degenerate
+## explanation_b
+Degeneracy is one of the four characteristics — applicable, not the exception.
+## answer_c
+Universal
+## explanation_c
+Universality is one of the four characteristics — applicable, not the exception.
+## answer_d
+Overlapping
+## explanation_d
+Correct. The reading-frame characteristic reads the code as 'a continuous uninterrupted sequence of bases taken 3 at a time' from a fixed start point — every base is used in exactly one codon, so the code is non-overlapping, not overlapping.
+
+Why this is right:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-F7408686F4736E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise 'overlapping' as the characteristic the genetic code does not have.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p68 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-291
+## title
+The genetic code lacks which of the following?
+## question
+The genetic code lacks which of the following?
+## vignette
+This item asks the student to recognise that specificity rules out one codon coding for more than one amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Each codon consists of three bases
+## explanation_a
+True of the code (each codon is 3 of the 4 bases), so this is present, not lacking.
+## answer_b
+A single amino acid can have more than one codon
+## explanation_b
+This is degeneracy — an amino acid coded by more than one (synonym) codon — a real characteristic of the genetic code, so present, not lacking.
+## answer_c
+The genetic code is mainly universal
+## explanation_c
+Universality is a real characteristic of the genetic code — present, not lacking.
+## answer_d
+A single codon can code for more than one amino acid
+## explanation_d
+Correct. This reverses specificity: a particular codon always codes for only one amino acid. A single codon coding for more than one amino acid is exactly what the code lacks.
+
+Why this is right:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-F7408686F4736E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise that specificity rules out one codon coding for more than one amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p68 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-292
+## title
+While the genetic code has 64 codons, there are only 20 naturally occurring amino acids…
+## question
+While the genetic code has 64 codons, there are only 20 naturally occurring amino acids. Consequently, some amino acids are encoded by more than one codon. Which best describes this feature of the genetic code?
+## vignette
+This item asks the student to name degeneracy as the characteristic behind synonym codons for the same amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Degenerate
+## explanation_a
+Correct. Degeneracy is defined as an amino acid being coded by more than one codon, called synonym codons — exactly the feature described.
+
+Why this is right:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
+## answer_b
+Duplicative
+## explanation_b
+'Duplicative' is not one of the four named characteristics of the genetic code; it is invented terminology standing in for degeneracy.
+## answer_c
+Nonoverlapping
+## explanation_c
+Nonoverlapping describes the reading frame (bases read once each, three at a time), not the fact that one amino acid has several codons.
+## answer_d
+Overlapping 5S. In the following figure, which best describes the genetic code? ,; 2? 3 1 2 a poe : c pe eae A, CAT GATE, ELE, partial overlapping non-overlapping without comma ——e | 1 2 me Fue fed dq EAL AG AY hecdlind | non-overlapping complete overlapping with comma 65 toa
+## explanation_d
+Overlapping is not a real characteristic of the code at all — the reading frame is explicitly a continuous, non-overlapping sequence — and even if it were, it would not describe one amino acid having multiple codons.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-F7408686F4736E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name degeneracy as the characteristic behind synonym codons for the same amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p68 q4. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-293
+## title
+The flexibility of the 1st base in.the anticodon loop of the tRNA when pairing with the…
+## question
+The flexibility of the 1st base in.the anticodon loop of the tRNA when pairing with the 3rd base of the codon is called:
+## vignette
+This item asks the student to name the wobble hypothesis as the mechanism behind flexible third-base pairing.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Degeneracy of genetic code
+## explanation_a
+Degeneracy is the fact that an amino acid may have several synonym codons; the question asks about the pairing flexibility of the third base, which is wobble, a related but distinct idea.
+## answer_b
+Wobble hypothesis
+## explanation_b
+Correct. This flexibility of the third codon base — paired against the first anticodon base — is named the wobble hypothesis.
+
+Why this is right:
+- Correct pairing of the codon in the mRNA with the anticodon of the tRNA is essential for accurate translation.
+## answer_c
+The central dogma
+## explanation_c
+'The central dogma' names the DNA to RNA to protein information flow; it says nothing about anticodon pairing flexibility.
+## answer_d
+Alternative splicing
+## explanation_d
+Alternative splicing is a post-transcriptional mRNA-processing event, unrelated to how tRNA reads a codon.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-FB17D0600C8D49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the wobble hypothesis as the mechanism behind flexible third-base pairing.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-294
+## title
+AUG, the only codon for methionine is important as:
+## question
+AUG, the only codon for methionine is important as:
+## vignette
+This item asks the student to identify AUG as the genetic code's single initiation codon.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+A releasing factor for peptide chains
+## explanation_a
+A release/releasing factor acts at a stop codon during termination, not at AUG.
+## answer_b
+A polypeptide chain terminating codon
+## explanation_b
+AUG starts translation; the codons that terminate the chain are UAA, UAG and UGA, not AUG.
+## answer_c
+Recognition site on tRNA
+## explanation_c
+tRNA recognises a codon through its anticodon, but AUG is not a 'recognition site on tRNA' — the recognition site for any codon is on the mRNA itself.
+## answer_d
+A polypeptide chain initiating codon
+## explanation_d
+Correct. AUG is the one codon that acts as the initiation codon for protein synthesis.
+
+Why this is right:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-FB99DCB7F61A0E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify AUG as the genetic code's single initiation codon.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q7. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-295
+## title
+In biosynthesis of proteins the chain terminating codons are:
+## question
+In biosynthesis of proteins the chain terminating codons are:
+## vignette
+This item asks the student to name the three termination (stop) codons.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+UAA, UAG and UGA
+## explanation_a
+Correct. These three are exactly the termination (stop) codons, coding for no amino acid.
+
+Why this is right:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
+## answer_b
+UGG, UGU and AGU
+## explanation_b
+None of UGG, UGU or AGU is one of the three stop codons; UGG in fact codes for tryptophan.
+## answer_c
+AAU, AAG and GAU
+## explanation_c
+None of AAU, AAG or GAU is a stop codon in the genetic-code table.
+## answer_d
+GCG, GCA and GCU
+## explanation_d
+None of GCG, GCA or GCU is a stop codon; these code for alanine.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-FB99DCB7F61A0E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the three termination (stop) codons.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-296
+## title
+Codons are present in:
+## question
+Codons are present in:
+## vignette
+This item asks the student to locate codons specifically on mRNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Template strand of DNA
+## explanation_a
+The template strand of DNA carries the gene the codon is copied from, but the codon itself is defined as a feature of mRNA, not of DNA.
+## answer_b
+mRNA
+## explanation_b
+Correct. The genetic code is defined as 'the nucleotide sequence of mRNA representing the code words for amino acids' — codons are on mRNA.
+
+Why this is right:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
+## answer_c
+tRNA
+## explanation_c
+tRNA carries the anticodon, which pairs with the codon — the codon itself sits on mRNA, not on tRNA.
+## answer_d
+rRNA
+## explanation_d
+rRNA forms part of the ribosome that reads the codon; it does not itself carry codons.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-FB99DCB7F61A0E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate codons specifically on mRNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-297
+## title
+Transfer RNA transfers
+## question
+Transfer RNA transfers
+## vignette
+This item asks the student to state what tRNA physically transfers, and where from and to.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Information from DNA to ribosome
+## explanation_a
+Information moves from DNA to mRNA by transcription, not by tRNA, and not directly to the ribosome.
+## answer_b
+Information from mRNA to cytosol
+## explanation_b
+mRNA itself carries information from DNA (via transcription) to the ribosome; tRNA's job is different — it carries amino acids, not information from mRNA.
+## answer_c
+Amino acids from cytosol to ribosomes
+## explanation_c
+Correct. In the cytosol, tRNAs carry the (activated) amino acids into the ribosomes.
+
+Why this is right:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
+## answer_d
+Proteins from ribosomes to cytosol
+## explanation_d
+Newly made polypeptide leaves the ribosome as a free chain, not attached to tRNA once released; this describes the ribosome’s output, not tRNA’s job.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-89278C7DEE1C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State what tRNA physically transfers, and where from and to.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-298
+## title
+Which one of the following is noncompulsory during synthesis of a protein?
+## question
+Which one of the following is noncompulsory during synthesis of a protein?
+## vignette
+This item asks the student to recognise which components translation genuinely requires.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+A ribosome
+## explanation_a
+The ribosome is explicitly one of translation’s requirements — it carries the peptidyl transferase activity — so it is compulsory.
+## answer_b
+mRNA
+## explanation_b
+mRNA is explicitly listed as the template translation requires — compulsory.
+## answer_c
+Amino acids
+## explanation_c
+Amino acids, activated and carried on tRNA, are explicitly one of the four requirements of translation — compulsory.
+## answer_d
+Okazaki fragments
+## explanation_d
+Correct. Okazaki fragments are a feature of lagging-strand DNA replication; they play no part in what translation needs (three RNA classes, amino acids, energy, protein factors).
+
+Why this is right:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-89278C7DEE1C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise which components translation genuinely requires.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-299
+## title
+Which best defines a codon?
+## question
+Which best defines a codon?
+## vignette
+This item asks the student to state the definition of a codon.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+A protein that begins transcription by breaking apart H- bonds
+## explanation_a
+This describes a protein/enzyme action, not a codon, which is defined as a sequence feature of mRNA, not a protein.
+## answer_b
+A free-floating base that attaches to an open DNA strand
+## explanation_b
+A codon is not a free-floating base; it is a fixed 3-base sequence within the mRNA chain.
+## answer_c
+A code word of three bases on mRNA that specifies one amino acid
+## explanation_c
+Correct. Each 3 successive nitrogenous bases in mRNA represents a codon representing one amino acid's code word.
+
+Why this is right:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
+## answer_d
+A strong bond between two complementary nitrogen bases
+## explanation_d
+A codon is a base sequence on a single strand of mRNA, not a bond between two paired bases on complementary strands.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-FB99DCB7F61A0E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the definition of a codon.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p69 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-300
+## title
+The following figure describes which step of protein synthesis? Ri 0 H3N -C—C , & 2p H …
+## question
+The following figure describes which step of protein synthesis? Ri 0 H3N -C—C , & 2p H 60 HN -CO—C = (hala HO 5' end Ei amino aminoacyltRNA _ synthetase acid ATP AMP + PP aL " Y \ J. _ ascta@ | anticodon anticodon tANA aminoacyl-tRNA
+## vignette
+This item asks the student to identify the amino-acid-activation step from its ATP to AMP+PPi, enzyme-amino acid-tRNA reaction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Activation of an amino acid
+## explanation_a
+Correct. The reaction shown — an amino acid plus aminoacyl-tRNA synthetase and ATP, releasing PPi and forming an enzyme-AMP-amino acid complex before the aminoacyl-tRNA is released — is exactly the two-step formation of aminoacyl-tRNA, i.e. activation of the amino acid.
+
+Why this is right:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
+## answer_b
+Initiation of translation
+## explanation_b
+Initiation of translation involves IF-4, the 40S and 60S ribosomal subunits and the AUG start codon — none of which appear in a reaction between a free amino acid, its synthetase, ATP and tRNA.
+## answer_c
+Elongation of a polypeptide chain
+## explanation_c
+Elongation adds amino acids to a growing chain already on the ribosome; this reaction has no ribosome and no growing peptide, only the free amino acid being loaded onto its tRNA.
+## answer_d
+Termination of translation
+## explanation_d
+Termination involves a release factor acting on a stop codon at the ribosome; nothing here matches that step.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-89278C7DEE1C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify the amino-acid-activation step from its ATP to AMP+PPi, enzyme-amino acid-tRNA reaction.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p70 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-301
+## title
+During cell analysis, their cytoplasm was determined to have high content of aminoacyl …
+## question
+During cell analysis, their cytoplasm was determined to have high content of aminoacyl tRNA synthetase. This enzyme ensures the following process:
+## vignette
+This item asks the student to state the job of aminoacyl-tRNA synthetase.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Amino acid activation
+## explanation_a
+Correct. 20 different amino-acyl-tRNA synthetases, each specific for one amino acid and its tRNA, carry out the activation and loading of amino acids onto tRNA.
+
+Why this is right:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
+## answer_b
+Amino acid synthesis
+## explanation_b
+The synthetase activates and attaches an existing amino acid to its tRNA; it does not synthesise the amino acid itself.
+## answer_c
+Amino acid inactivation
+## explanation_c
+The synthetase's product, aminoacyl-tRNA, is described as 'charged' — the active, usable form — not an inactivated one.
+## answer_d
+Amino acid degradation
+## explanation_d
+Aminoacyl-tRNA synthetase's job is activation and attachment, not breakdown; nothing in its function involves degrading amino acids.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-89278C7DEE1C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the job of aminoacyl-tRNA synthetase.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p70 q14. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-302
+## title
+Which of the following is irrelevant to protein synthesis?
+## question
+Which of the following is irrelevant to protein synthesis?
+## vignette
+This item asks the student to distinguish translation's own machinery from the spliceosome, which processes RNA before translation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Ribosomes
+## explanation_a
+Ribosomes are explicitly part of translation, carrying the peptidyl transferase activity — relevant, not the exception.
+## answer_b
+Peptidyl transferase
+## explanation_b
+Peptidyl transferase, part of the 60S ribosomal subunit, catalyses the peptide bond itself — relevant, not the exception.
+## answer_c
+Spliceosome
+## explanation_c
+Correct. The spliceosome removes introns and joins exons during mRNA splicing, a nuclear, post-transcriptional step that happens before the finished mRNA ever reaches a ribosome — it plays no part in translation itself.
+
+Why this is right:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
+## answer_d
+Amino acyl-tRNA synthetase
+## explanation_d
+Amino acyl-tRNA synthetase activates and loads amino acids onto tRNA, a step translation explicitly requires — relevant, not the exception.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-89278C7DEE1C9C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Distinguish translation's own machinery from the spliceosome, which processes RNA before translation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p70 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-303
+## title
+At the stage of translation in the rough endoplasmic reticulum, Amino acids are joined …
+## question
+At the stage of translation in the rough endoplasmic reticulum, Amino acids are joined together by peptide bonds in a specific sequence. The sequence of amino acids in a polypeptide corresponds to the sequence of:
+## vignette
+This item asks the student to state that the polypeptide's amino acid order is set by the mRNA's codon order.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+mRNA codons
+## explanation_a
+Correct. During elongation, the aminoacyl-tRNA bound at each step is determined by the mRNA codon aligned with the A site, so the order amino acids are added in — the polypeptide sequence — directly follows the order of codons on the mRNA.
+
+Why this is right:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
+## answer_b
+tRNA nucleotides
+## explanation_b
+tRNA nucleotides form the anticodon and the rest of the tRNA structure; it is the codon they read, not the tRNA's own nucleotide sequence, that sets the amino acid order.
+## answer_c
+rRNA anticodons
+## explanation_c
+rRNA does not carry anticodons; anticodons belong to tRNA, and rRNA's part is structural/catalytic (peptidyl transferase), not information-carrying.
+## answer_d
+rRNA nucleotides
+## explanation_d
+rRNA nucleotides form the ribosome's structure and its catalytic peptidyl transferase site; they do not dictate which amino acid goes where in the chain.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-9A1437CD0A382C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the polypeptide's amino acid order is set by the mRNA's codon order.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p70 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-304
+## title
+The first amino acyl transfer RNA which initiates translation in eukaryotes is:
+## question
+The first amino acyl transfer RNA which initiates translation in eukaryotes is:
+## vignette
+This item asks the student to name methionyl-tRNA (Met-tRNAi) as the tRNA that initiates eukaryotic translation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+MethionyltRNA
+## explanation_a
+Correct. Initiation has 'the initiating methionyl tRNA (Met-tRNAi)' bind to the AUG start codon on the mRNA — methionyl-tRNA is the eukaryotic initiator.
+
+Why this is right:
+- Initiation involves the assembly of the components of protein synthesis at the initiation codon.
+## answer_b
+Formylmethionyl tRNA
+## explanation_b
+Formylmethionyl-tRNA does not appear anywhere in eukaryotic initiation, which names only methionyl-tRNA (Met-tRNAi).
+## answer_c
+Tyrosinyl tRNA
+## explanation_c
+Tyrosine is not the amino acid AUG codes for; AUG is the initiation codon for methionine, so the initiator tRNA carries methionine, not tyrosine.
+## answer_d
+Alanyl tRNA 67 ao
+## explanation_d
+Alanyl-tRNA carries alanine, not the methionine that AUG, the initiation codon, specifies.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-CC6BAFEE04D3F8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name methionyl-tRNA (Met-tRNAi) as the tRNA that initiates eukaryotic translation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p70 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-305
+## title
+During the process of translation, the formation of the bond between two successive ami…
+## question
+During the process of translation, the formation of the bond between two successive amino acids is catalyzed by:
+## vignette
+This item asks the student to name peptidyl transferase as the enzyme that forms the peptide bond.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Peptidyl transferase
+## explanation_a
+Correct. Peptidyl transferase, part of the 60S subunit, forms the peptide bond between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain in the P site.
+
+Why this is right:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
+## answer_b
+Glucosyl transferase
+## explanation_b
+Glucosyl transferase adds sugar groups (as in glycosylation, a post-translational modification); it has no role in bond formation between amino acids.
+## answer_c
+Peptidyl polymerase
+## explanation_c
+Peptidyl polymerase is not the name of a real enzyme here; peptide bond formation is credited specifically to peptidyl transferase.
+## answer_d
+Aminoacyl tRNAn synthetase
+## explanation_d
+Aminoacyl-tRNA synthetase attaches an amino acid to its tRNA before elongation begins; it does not form the bond between two amino acids already on the ribosome.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-9A1437CD0A382C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name peptidyl transferase as the enzyme that forms the peptide bond.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-306
+## title
+Peptidy] transferase activity is present in:
+## question
+Peptidy] transferase activity is present in:
+## vignette
+This item asks the student to locate peptidyl transferase activity on the 60S ribosomal subunit.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+40 S ribosomal subunit
+## explanation_a
+The 40S subunit is where the mRNA first binds and slides to find the AUG start codon during initiation; peptidyl transferase activity is on the large subunit, not this one.
+## answer_b
+60 S ribosomal subunit
+## explanation_b
+Correct. Peptidyl transferase is an enzyme that is part of the 60S subunit.
+
+Why this is right:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
+## answer_c
+eEF-2
+## explanation_c
+eEF-2 is an elongation factor name, not the ribosomal subunit carrying the catalytic activity itself, and it is not credited with peptidyl transferase activity.
+## answer_d
+Amino acyl tRNA
+## explanation_d
+Aminoacyl-tRNA is the substrate peptidyl transferase acts on, not the enzyme itself or its location.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-9A1437CD0A382C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate peptidyl transferase activity on the 60S ribosomal subunit.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q19. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-307
+## title
+Post-translation processing includes:
+## question
+Post-translation processing includes:
+## vignette
+This item asks the student to recognise trimming as a post-translational modification, distinct from mRNA-processing steps.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+5°- capping
+## explanation_a
+5'-capping is a post-transcriptional modification of mRNA, not a post-translational modification of a finished protein.
+## answer_b
+Trimming
+## explanation_b
+Correct. Trimming — the proteolytic removal of a segment from a precursor protein — is one of the two post-translational modifications, alongside covalent modification.
+
+Why this is right:
+- Many proteins secreted from the cell are initially made as large, precursor molecules that are not functionally active.
+## answer_c
+3°- polyadenylation
+## explanation_c
+3'-polyadenylation is a post-transcriptional modification of mRNA, not a post-translational one.
+## answer_d
+Splicing
+## explanation_d
+Splicing removes introns from the primary RNA transcript; it is a post-transcriptional, not post-translational, event.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-837C223B0C4E69
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise trimming as a post-translational modification, distinct from mRNA-processing steps.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-308
+## title
+Activation of trypsinogen into trypsin in the small intestine is an example of:
+## question
+Activation of trypsinogen into trypsin in the small intestine is an example of:
+## vignette
+This item asks the student to name trypsinogen activation as the classic zymogen example of trimming.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Trimming
+## explanation_a
+Correct. Trypsinogen becoming activated to trypsin in the small intestine is the classic example of a zymogen (inactive enzyme precursor) activated by trimming — proteolytic removal of part of the chain.
+
+Why this is right:
+- Many proteins secreted from the cell are initially made as large, precursor molecules that are not functionally active.
+## answer_b
+Phosphorylation
+## explanation_b
+Phosphorylation is covalent modification by addition of a phosphate group, unrelated to the proteolytic cleavage that activates trypsinogen.
+## answer_c
+Glycosylation
+## explanation_c
+Glycosylation adds a carbohydrate group and marks proteins for secretion or the lysosome/membrane; it is not how trypsinogen is activated.
+## answer_d
+Carboxylation
+## explanation_d
+Carboxylation adds a carboxyl group, as in clotting-protein activation for calcium binding; it is not how trypsinogen is converted to trypsin.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-837C223B0C4E69
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name trypsinogen activation as the classic zymogen example of trimming.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-309
+## title
+Which modification can allow proteins to bind Ca” as a step during blood coagulation?
+## question
+Which modification can allow proteins to bind Ca” as a step during blood coagulation?
+## vignette
+This item asks the student to name carboxylation as the covalent modification that lets clotting proteins bind calcium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Phosphorylation
+## explanation_a
+Phosphorylation regulates enzyme activity (e.g. glycogen metabolism enzymes) by adding a phosphate group; it is not what lets clotting proteins bind calcium.
+## answer_b
+Glycosylation
+## explanation_b
+Glycosylation adds carbohydrate groups, mainly to proteins destined for secretion, lysosomes or membranes — not the modification behind calcium binding in clotting.
+## answer_c
+Hydroxylation
+## explanation_c
+Hydroxylation of prolyl/lysyl residues stabilises collagen; it is not the modification that lets clotting proteins bind calcium.
+## answer_d
+Carboxylation
+## explanation_d
+Correct. Carboxylation forms γ-carboxyglutamate, which allows clotting proteins to bind Ca2+, a step in clot formation.
+
+Why this is right:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-344140D2457FBB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name carboxylation as the covalent modification that lets clotting proteins bind calcium.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q23. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-310
+## title
+What type of mutation is represented in the second strand of DNA? TACGGCACT TACGGACT
+## question
+What type of mutation is represented in the second strand of DNA? TACGGCACT TACGGACT
+## vignette
+This item asks the student to identify a deletion by comparing the length and bases of two aligned DNA sequences.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Deletion
+## explanation_a
+Correct. Aligning the two sequences shows the second strand is one base shorter than the first — a base has been lost, which is a deletion.
+
+Why this is right:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
+## answer_b
+Insertion
+## explanation_b
+An insertion would make the second, changed strand longer than the first, not shorter.
+## answer_c
+Substitution
+## explanation_c
+A substitution keeps both strands the same length, with one base replaced by another; here the second strand has fewer bases altogether.
+## answer_d
+No mutation
+## explanation_d
+The strands are not identical in length, so this is a mutation, not "no mutation."
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-25E8976EFF0509
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a deletion by comparing the length and bases of two aligned DNA sequences.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-311
+## title
+Which of the following is a transition point mutation:
+## question
+Which of the following is a transition point mutation:
+## vignette
+This item asks the student to recognise a purine-for-purine substitution as a transition.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Adenine is replaced by cytosine
+## explanation_a
+Adenine (a purine) replaced by cytosine (a pyrimidine) crosses between the two base classes — that is a transversion, not a transition.
+## answer_b
+Uracil is replaced by adenine
+## explanation_b
+Uracil (a pyrimidine, and not even a DNA base) replaced by adenine (a purine) crosses between classes — a transversion pattern, not a transition.
+## answer_c
+Guanine is replaced by adenine
+## explanation_c
+Correct. Guanine and adenine are both purines, so one replacing the other is a purine-for-purine substitution — the definition of a transition.
+
+Why this is right:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
+## answer_d
+Guanine is replaced by uracil
+## explanation_d
+Guanine (a purine) replaced by uracil (a pyrimidine, and not a DNA base) crosses between classes — a transversion pattern, not a transition.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-25E8976EFF0509
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise a purine-for-purine substitution as a transition.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p72 q25. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-312
+## title
+Substitution of a thymine base by adenine in DNA is known as:
+## question
+Substitution of a thymine base by adenine in DNA is known as:
+## vignette
+This item asks the student to recognise a pyrimidine-for-purine substitution as a transversion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Transposition
+## explanation_a
+'Transposition' is not one of the two named substitution types; only transition and transversion are named.
+## answer_b
+Transversion
+## explanation_b
+Correct. Thymine (a pyrimidine) replaced by adenine (a purine) crosses between the two base classes — the definition of a transversion.
+
+Why this is right:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
+## answer_c
+Transition
+## explanation_c
+A transition keeps the substitution within one base class (purine-for-purine or pyrimidine-for-pyrimidine); thymine to adenine crosses classes, so it cannot be a transition.
+## answer_d
+Frame shift mutation
+## explanation_d
+A frameshift mutation results from an insertion or deletion that is not a multiple of three bases, not from a single base substitution.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-25E8976EFF0509
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise a pyrimidine-for-purine substitution as a transversion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p72 q26. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-313
+## title
+Insertion or deletion of one or two bases in a gene resulting in:
+## question
+Insertion or deletion of one or two bases in a gene resulting in:
+## vignette
+This item asks the student to identify a 1-2 base indel as a frameshift mutation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Missense mutation
+## explanation_a
+Missense mutation is an effect of a base substitution changing one codon's amino acid, not the name for a 1-2 base insertion/deletion.
+## answer_b
+Silent mutation
+## explanation_b
+Silent mutation is an effect of a base substitution that leaves the amino acid unchanged; it does not describe an insertion or deletion.
+## answer_c
+Frame shift mutation
+## explanation_c
+Correct. Inserting or deleting a number of bases that is not a multiple of three — such as one or two bases — shifts the reading frame, producing a frameshift mutation.
+
+Why this is right:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
+## answer_d
+Nonsense mutation
+## explanation_d
+Nonsense mutation is an effect of a base substitution that creates a premature stop codon; it is not what an indel of one or two bases is called.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-25E8976EFF0509
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a 1-2 base indel as a frameshift mutation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p72 q27. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-314
+## title
+Sickle cell anemia is due to:
+## question
+Sickle cell anemia is due to:
+## vignette
+This item asks the student to name sickle cell anaemia as the classic example of a missense mutation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Nonsense mutation
+## explanation_a
+Nonsense mutation creates a premature stop codon and usually a non-functional truncated protein (the classic example is thalassaemia) — not the sickle cell mechanism, which changes rather than truncates the chain.
+## answer_b
+Missense mutation
+## explanation_b
+Correct. Sickle cell anaemia is the classic example of a missense mutation, in which glutamate is replaced by valine at position six of the β chain.
+
+Why this is right:
+- A base substitution falling in the coding region of a gene has one of three effects. A missense mutation changes the codon so that a different amino acid is inserted, with consequences ranging from none to very serious. A nonsense mutation converts an amino acid codon into a stop codon, so translation terminates early and the protein product is usually non-functional. A silent mutation gives a synonym codon for the same amino acid, so the protein is unchanged.
+## answer_c
+Silent mutation
+## explanation_c
+A silent mutation changes the codon to a synonym for the same amino acid, so the protein is unchanged — sickle cell anaemia is caused by an actual amino acid change, not a silent one.
+## answer_d
+Frame shift mutation 1.b 6.b | 11l.d | 16.a | 21.a | 26.b 26 7.d 12.c | 17.a | 22.c | 27.c¢ aa 8.a 13.a | 18.a | 23.d | 28.b 4.a 9.b 14.a | 19.b | 24.a 3. 10.c | 15.c | 20.b | 25.c Il- Write true (T) or false (F) in front of each statement: 1. Phosphorylation of an enzyme always leads to its activation. 2. Deletion of one or two bases preserves the open reading frame. 3. In a mutation, if a purine replaces a pyrimidine the substitution is called a transition. 4. Insertion of 3 bases into the DNA of a gene has more devastating effects than insertion of 2 bases. 5. Gene mutations are permanent changes in the DNA. 1.F 2.F 3.F 4.F 5. T IlI-On biochemical basis explain: 1. Trimming as a posttranslational modification. 2. Covalent modification is very important posttranslational modification. 3. The effect of missense mutation. 4. The effect of nonsense mutation. 5. The effect of silent mutation.
+## explanation_d
+A frameshift mutation comes from an insertion or deletion that is not a multiple of three bases, not from a single base substitution changing one codon’s amino acid, which is what causes sickle cell anaemia.
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## main_concept
+CON-FND-4508AC0EA86F86
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name sickle cell anaemia as the classic example of a missense mutation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p72 q28. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
