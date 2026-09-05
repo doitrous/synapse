@@ -116,3 +116,29 @@ test('every shipped migration file passes the runner unchanged (fresh-install pa
   assert.ok(versions.includes('0001_baseline.sql'))
   assert.ok(versions.length >= 5, `expected the shipped files to apply, got ${versions.join(', ')}`)
 })
+
+test('never issues CREATE TABLE when the tracking table already exists (DML-only runtime user)', async () => {
+  const { pool, executed } = fakePool()
+  await runMigrations(pool, { dir: join(tmpdir(), 'migrations-test-does-not-exist') })
+  assert.ok(!executed.some((s) => /CREATE TABLE/i.test(s)), 'a runtime user without DDL rights must boot')
+})
+
+test('creates the tracking table on a fresh database', async () => {
+  const { pool, executed, versions } = fakePool()
+  const inner = await pool.getConnection()
+  let created = false
+  const realQuery = inner.query.bind(inner)
+  inner.query = async (sql, params) => {
+    if (!created && /^SELECT version FROM schema_migration_files/i.test(sql)) {
+      throw Object.assign(new Error('no such table'), { code: 'ER_NO_SUCH_TABLE' })
+    }
+    if (/CREATE TABLE IF NOT EXISTS schema_migration_files/i.test(sql)) created = true
+    return realQuery(sql, params)
+  }
+  await withTempDir({ '0001_a.sql': 'CREATE TABLE a (id INT);' }, async (dir) => {
+    await runMigrations(pool, { dir })
+  })
+  assert.ok(created)
+  assert.deepEqual(versions, ['0001_a.sql'])
+  assert.ok(executed.some((s) => s.includes('CREATE TABLE a')))
+})

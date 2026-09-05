@@ -19,6 +19,7 @@ const WARM = {
   ink2: '#6e6157',
   crimson: '#a81d40',
   rose: '#e0859b',
+  navy: '#1b2b55',
   taupeDotted: '#cabca3',
   taupeRing: '#cdbfa6',
   cardBorder: '#eadfce',
@@ -28,16 +29,16 @@ const WARM = {
 
 /**
  * The lockup mark beside "nishany" on the brand panel: the Noon mark (ن) — two
- * concentric arcs opening top-right (crimson outer, rose inner) with a crimson
- * dot in the mouth. Same vector as `NishanyMark`; drawn locally so the WARM
- * hex is the single source of truth on this deliberately-warm panel.
+ * concentric arcs opening top-right (crimson outer, rose inner) with a
+ * midnight-blue dot in the mouth. Same vector as `NishanyMark`; drawn locally
+ * so the WARM hex is the single source of truth on this deliberately-warm panel.
  */
 function WordmarkRingIcon({ size = 24 }: { size?: number }) {
   return (
     <svg aria-hidden focusable="false" viewBox="0 0 100 100" width={size} height={size} fill="none">
       <circle cx="50" cy="50" r="34" fill="none" stroke={WARM.crimson} strokeWidth="8" strokeLinecap="round" strokeDasharray="163.2 50.4" />
       <circle cx="50" cy="50" r="20" fill="none" stroke={WARM.rose} strokeWidth="7" strokeLinecap="round" strokeDasharray="96 29.7" />
-      <circle cx="72" cy="28" r="5" fill={WARM.crimson} />
+      <circle cx="72" cy="28" r="5" fill={WARM.navy} />
     </svg>
   )
 }
@@ -50,7 +51,7 @@ function BrandLockup({ size = 'md' }: { size?: 'md' | 'lg' }) {
       <WordmarkRingIcon size={lg ? 30 : 28} />
       <span className="flex flex-col leading-none">
         <span className={cn('font-brand font-extrabold', lg ? 'text-[18px]' : 'text-[16px]')} style={{ color: WARM.ink }}>nishany</span>
-        <span className="mt-[0.3em] text-[10px] font-semibold tracking-[0.2em]" style={{ color: WARM.crimson }}>BY CONNECT</span>
+        <span className="mt-[0.3em] text-[10px] font-semibold tracking-[0.2em]" style={{ color: WARM.navy }}>BY CONNECT</span>
       </span>
     </Link>
   )
@@ -156,6 +157,7 @@ export function AuthLayout({
   if (aside) {
     return (
       <div
+        data-theme="warm"
         className="min-h-dvh lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)]"
         style={{
           backgroundColor: WARM.panelBg,
@@ -197,7 +199,7 @@ export function AuthLayout({
   }
 
   return (
-    <div className="min-h-dvh bg-paper">
+    <div data-theme="warm" className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
           <Link to="/" aria-label="Nishany home"><Wordmark /></Link>

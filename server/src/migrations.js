@@ -47,13 +47,22 @@ function assertSafe(filename, sql) {
 export async function runMigrations(pool, { dir = DEFAULT_DIR } = {}) {
   const conn = await pool.getConnection()
   try {
-    await conn.query(
-      `CREATE TABLE IF NOT EXISTS schema_migration_files (
-        version    VARCHAR(64) PRIMARY KEY,
-        applied_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
-    )
-    const [rows] = await conn.query('SELECT version FROM schema_migration_files')
+    // Read first, create only when missing: the runtime user may hold DML
+    // rights only (DDL runs from the pre-deploy step as another user), and
+    // CREATE TABLE IF NOT EXISTS is refused for it even when the table exists.
+    let rows
+    try {
+      ;[rows] = await conn.query('SELECT version FROM schema_migration_files')
+    } catch (err) {
+      if (err?.code !== 'ER_NO_SUCH_TABLE') throw err
+      await conn.query(
+        `CREATE TABLE IF NOT EXISTS schema_migration_files (
+          version    VARCHAR(64) PRIMARY KEY,
+          applied_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+      )
+      ;[rows] = await conn.query('SELECT version FROM schema_migration_files')
+    }
     const applied = new Set(rows.map((row) => row.version))
 
     let files

@@ -44,6 +44,15 @@ const templates = {
     url: `${VERIFY}&type=email_change&next=/app/account`,
     after: 'The link works for 24 hours. If you did not request this change, ignore this email and your address stays the same — then change your password from Account → Security.',
   },
+  'reauthentication': {
+    subject: '{{ .Token }} is your verification code',
+    preheader: 'Enter this code on nishany.com to confirm it is you.',
+    eyebrow: 'Verification code',
+    title: 'Confirm it is you',
+    lead: 'You are about to make a sensitive change on your Nishany account (<strong>{{ .Email }}</strong>). Enter this code on the page that asked for it:',
+    code: '{{ .Token }}',
+    after: 'The code expires in a few minutes and only works once. If you did not request it, ignore this email and consider changing your password from Account → Security.',
+  },
   'invite': {
     subject: 'You are invited to Nishany',
     preheader: 'Accept the invitation and set up your account.',
@@ -58,6 +67,28 @@ const templates = {
 
 // Email-safe palette lifted from src/index.css: ink #161920, ink-2 #5d636f,
 // primary (crimson) #d13a63 / #a82449, accent (navy) #1553b3, mist #eff3fa.
+const buttonBlock = (t) => `            <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 28px;">
+              <tr><td align="center" bgcolor="#d13a63" style="border-radius:12px;">
+                <a class="btn" href="${t.url}" style="display:inline-block;padding:14px 28px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:12px;background:#d13a63;">${t.button}&nbsp;&rarr;</a>
+              </td></tr>
+            </table>
+            <p style="margin:0 0 22px;font-size:14px;line-height:22px;color:#5d636f;">${t.after}</p>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eaf1fd;border-radius:12px;">
+              <tr><td style="padding:14px 16px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;">
+                <p style="margin:0 0 4px;font-size:12px;line-height:16px;font-weight:700;color:#0e3f8c;">Button not working?</p>
+                <p style="margin:0;font-size:12px;line-height:18px;color:#1553b3;word-break:break-all;"><a href="${t.url}" style="color:#1553b3;text-decoration:underline;">${t.url}</a></p>
+              </td></tr>
+            </table>`
+
+// One-time code instead of a link (Supabase "Reauthentication" template).
+const codeBlock = (t) => `            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 26px;">
+              <tr><td align="center" bgcolor="#eaf1fd" style="border-radius:14px;border:1px solid #c4d9f7;padding:22px 16px;">
+                <p style="margin:0 0 6px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;line-height:16px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:#0e3f8c;">Your code</p>
+                <p style="margin:0;font-family:'SF Mono',Menlo,Consolas,'Courier New',monospace;font-size:36px;line-height:44px;letter-spacing:10px;font-weight:700;color:#161920;">${t.code}</p>
+              </td></tr>
+            </table>
+            <p style="margin:0;font-size:14px;line-height:22px;color:#5d636f;">${t.after}</p>`
+
 const page = (t) => `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,18 +130,7 @@ const page = (t) => `<!DOCTYPE html>
             <p style="margin:0 0 10px;font-size:12px;line-height:16px;letter-spacing:1.4px;text-transform:uppercase;font-weight:700;color:#a82449;">${t.eyebrow}</p>
             <h1 style="margin:0 0 16px;font-size:26px;line-height:32px;font-weight:700;color:#161920;letter-spacing:-0.3px;">${t.title}</h1>
             <p style="margin:0 0 26px;font-size:16px;line-height:26px;color:#3a404b;">${t.lead}</p>
-            <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 28px;">
-              <tr><td align="center" bgcolor="#d13a63" style="border-radius:12px;">
-                <a class="btn" href="${t.url}" style="display:inline-block;padding:14px 28px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:20px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:12px;background:#d13a63;">${t.button}&nbsp;&rarr;</a>
-              </td></tr>
-            </table>
-            <p style="margin:0 0 22px;font-size:14px;line-height:22px;color:#5d636f;">${t.after}</p>
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eaf1fd;border-radius:12px;">
-              <tr><td style="padding:14px 16px;font-family:'Segoe UI',Helvetica,Arial,sans-serif;">
-                <p style="margin:0 0 4px;font-size:12px;line-height:16px;font-weight:700;color:#0e3f8c;">Button not working?</p>
-                <p style="margin:0;font-size:12px;line-height:18px;color:#1553b3;word-break:break-all;"><a href="${t.url}" style="color:#1553b3;text-decoration:underline;">${t.url}</a></p>
-              </td></tr>
-            </table>
+${t.code ? codeBlock(t) : buttonBlock(t)}
           </td></tr>
         </table>
       </td></tr>
@@ -129,7 +149,7 @@ const page = (t) => `<!DOCTYPE html>
 `
 
 let readme = `# Supabase auth email templates\n\nPaste each file's full contents into Supabase → Authentication → Emails → Templates → *Body (HTML)*, and set the subject shown. The links point at \`/api/auth/verify\`, which redeems the token server-side and sets the session cookie; \`{{ .ConfirmationURL }}\` must not be used.\n\n| Template in Supabase | File | Subject |\n|---|---|---|\n`
-const names = { 'confirm-signup': 'Confirm sign up', 'invite': 'Invite user', 'magic-link': 'Magic Link', 'change-email': 'Change Email Address', 'reset-password': 'Reset Password' }
+const names = { 'confirm-signup': 'Confirm sign up', 'invite': 'Invite user', 'magic-link': 'Magic Link', 'change-email': 'Change Email Address', 'reset-password': 'Reset Password', 'reauthentication': 'Reauthentication' }
 for (const [key, t] of Object.entries(templates)) {
   writeFileSync(`${out}/${key}.html`, page(t))
   readme += `| ${names[key]} | \`${key}.html\` | ${t.subject} |\n`

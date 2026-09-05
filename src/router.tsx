@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect, useState, type ComponentType, type ReactElement } from 'react'
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
-import { RouteLoading } from '@/components/shell/RouteLoading'
+import { RouteLoading, type RouteSkeleton } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
 import { RequireAuth } from '@/components/auth/RequireAuth'
@@ -34,10 +34,10 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
  * message for this only because the router supplies one at the top level;
  * everything under `/app` and `/admin` showed an empty page instead.
  */
-function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
+function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}, skeleton: RouteSkeleton = 'page'): ReactElement {
   return (
     <RouteBoundary>
-      <Suspense fallback={<RouteLoading />}><Page {...props} /></Suspense>
+      <Suspense fallback={<RouteLoading variant={skeleton} />}><Page {...props} /></Suspense>
     </RouteBoundary>
   )
 }
@@ -254,8 +254,26 @@ const studentPages: Record<string, Preloadable> = {
   account: Account,
 }
 
+/**
+ * The skeleton each student page wears while its chunk loads. Only the pages
+ * whose first painted view is not the default `page` shape (header + cards) are
+ * listed; everything else falls through to `page`. A new page is honest by
+ * default — add a line here only when it opens on a different shape.
+ */
+const studentSkeletons: Partial<Record<keyof typeof studentPages, RouteSkeleton>> = {
+  performance: 'stats',
+  account: 'form',
+  resources: 'list',
+  university: 'list',
+  maristanas: 'list',
+  tutorial: 'list',
+  notebook: 'split',
+  library: 'split',
+  whiteboard: 'canvas',
+}
+
 const studentBuilt: Record<string, ReactElement> = Object.fromEntries(
-  Object.entries(studentPages).map(([path, Page]) => [path, render(Page)]),
+  Object.entries(studentPages).map(([path, Page]) => [path, render(Page, {}, studentSkeletons[path] ?? 'page')]),
 )
 
 /**
@@ -267,6 +285,8 @@ export function preloadStudentRoute(to: string): void {
   studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
+// Admin console skeletons are left at the default for now — this pass tunes the
+// student-facing pages only.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
   library: render(ControlDashboard, { initialKind: 'article', lockedKind: true }),
@@ -323,7 +343,7 @@ const studentRoutes = [
   ...studentRedirects,
   // Reading a source is its own screen, not a modal over the catalogue: it owns
   // the viewport, and it has to be linkable at a page.
-  { path: 'resources/:id', element: render(ResourceReader) },
+  { path: 'resources/:id', element: render(ResourceReader, {}, 'split') },
 ]
 /**
  * The tab that owns each admin path.
