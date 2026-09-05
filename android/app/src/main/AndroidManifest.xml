@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Runtime-requested only, on API 33+, and only when the student taps
          "Enable reminders" in Settings; see core/notifications/NotificationPermission.kt. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Study-room voice. RECORD_AUDIO is runtime-requested only when the
+         student taps "Join voice"; see core/rooms/MicPermission.kt. The typed
+         foreground service keeps a live call alive across backgrounding/lock. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+
+    <!-- The mediasoup AAR's manifest declares CAMERA and WRITE_EXTERNAL_STORAGE
+         (it is a general A/V library); this app is audio-only and never writes
+         external storage, so both are stripped from the merged manifest. -->
+    <uses-permission android:name="android.permission.CAMERA" tools:node="remove" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
+    <!-- The merger implies READ_EXTERNAL_STORAGE from the AAR's WRITE request;
+         this app reads no external storage, so it goes too. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove" />
 
     <application
         android:name=".SynapseApp"
@@ -30,6 +48,15 @@
         <receiver
             android:name=".feature.focus.FocusNotificationReceiver"
             android:exported="false" />
+
+        <!-- Keeps a study-room voice call alive across backgrounding and screen
+             lock. Typed "microphone" as targetSdk 36 requires for a service that
+             captures audio; started/stopped by RoomForegroundService only while a
+             call is live. -->
+        <service
+            android:name=".core.rooms.RoomForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
 
         <!-- To-do home-screen widget: lists FocusTasksStore's items. -->
         <receiver
