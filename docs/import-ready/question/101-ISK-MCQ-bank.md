@@ -104446,3 +104446,4147 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1034
+## title
+The lateral intermuscular septum, choose the correct answer:
+## question
+The lateral intermuscular septum, choose the correct answer:
+## vignette
+This item asks the student to give what the lateral intermuscular septum attaches to and separate it from the medial septum by the nerve that pierces it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Pierced by the ulnar nerve
+## explanation_a
+The single commonest error on this leaf, and it is the medial septum's property. The ulnar nerve leaves the anterior compartment by piercing the medial septum; what pierces the lateral septum is the radial nerve with the radial collateral artery.
+## answer_b
+Gives origin to brachialis muscle
+## explanation_b
+Correct. Brachialis takes origin from the lower half of the front of the humerus and from both intermuscular septa, so the lateral septum does give it origin — along with brachioradialis and extensor carpi radialis longus.
+
+Why this is right:
+- The medial septum is pierced by the ulnar nerve and the superior ulnar collateral artery, which is how the ulnar nerve leaves the front of the arm for the back.
+## answer_c
+Gives attachment to the lateral head of triceps
+## explanation_c
+Tempting because the lateral head is the head on the same side as this septum. It is the medial head of triceps that arises from the septa; the lateral head arises from bone, above the spiral groove.
+## answer_d
+Gives attachment to the supinator muscle
+## explanation_d
+Supinator lies below the elbow, arising from the lateral epicondyle and the ulna. It never reaches the arm, and no intermuscular septum gives it anything.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-BAB2A859A2575C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+10.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=1.00
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give what the lateral intermuscular septum attaches to and separate it from the medial septum by the nerve that pierces it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p8 q2; Upper MCQ Dr.jalal (1).pdf p13 q2; Anatomy Question [Upper Limb] (1).pdf p26 q149; Anatomy MCQ Book [2025] [first priority].pdf p44 q149; Anatomy MCQ Book [2025] [first priority].pdf p46 q149. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 5 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachialis arises from both intermuscular septa, so B is true; the other three each belong to the medial septum or to no septum at all. The DEP BOOK printing of this same question carries a margin letter A, which is the medial septum's answer, and is overridden there for the same reason.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1035
+## title
+The medial intermuscular septum; mark the correct answer:
+## question
+The medial intermuscular septum; mark the correct answer:
+## vignette
+This item asks the student to name the structures that pierce the medial intermuscular septum.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pierced by the ulnar nerve
+## explanation_a
+Correct. The ulnar nerve pierces the medial intermuscular septum about halfway down the arm, with the superior ulnar collateral artery, and passes behind the medial epicondyle into the forearm.
+
+Why this is right:
+- The medial septum is pierced by the ulnar nerve and the superior ulnar collateral artery, which is how the ulnar nerve leaves the front of the arm for the back.
+## answer_b
+Pierced by the profunda brachii arteries
+## explanation_b
+The lateral septum's answer. The profunda brachii ends by piercing the lateral septum as the radial collateral artery, with the radial nerve, on the other side of the arm entirely.
+## answer_c
+Gives attachment to the anconeus muscle
+## explanation_c
+Anconeus lies behind the elbow, arising from the back of the lateral epicondyle. Nothing in the arm gives it attachment, and it is on the wrong side for a medial septum.
+## answer_d
+Gives attachment to the lateral head of triceps muscle
+## explanation_d
+Half right, which is what makes it dangerous. The septa do give attachment to triceps behind — but to the medial head, not the lateral head, which arises from bone above the spiral groove.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-BAB2A859A2575C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the structures that pierce the medial intermuscular septum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p8 q3; Anatomy Question [Upper Limb] (1).pdf p26 q150; Anatomy MCQ Book [2025] [first priority].pdf p44 q150; Anatomy MCQ Book [2025] [first priority].pdf p46 q150. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve and the superior ulnar collateral artery pierce the medial septum, which makes A the only true statement here; B, C and D are each the lateral septum's property or nobody's.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1036
+## title
+Biceps brachii:
+## question
+Biceps brachii:
+## vignette
+This item asks the student to give the insertion, the nerve relation and the actions of biceps brachii.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It inserts in the ulnar tuberosity
+## explanation_a
+One letter of anatomy away from the truth. Biceps inserts into the radial — bicipital — tuberosity; the ulnar tuberosity takes brachialis, and swapping them swaps the two elbow flexors.
+## answer_b
+Is pierced by musculocutaneous nerve
+## explanation_b
+The nerve does run with biceps, between it and brachialis, but the muscle it pierces is coracobrachialis. Nothing pierces biceps.
+## answer_c
+Is a powerful muscle in inducing supination
+## explanation_c
+Correct. Biceps is the powerful supinator of the flexed forearm — supinator alone is the weaker muscle, which is why a screw is driven with the elbow bent.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_d
+Helps in extending the flexed elbow
+## explanation_d
+Backwards. Biceps flexes the elbow; the muscle that extends the flexed elbow is triceps, on the other side of the arm.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the insertion, the nerve relation and the actions of biceps brachii.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q6; Anatomy Question [Upper Limb] (1).pdf p30 q175; Anatomy MCQ Book [2025] [first priority].pdf p50 q175. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. C is the one true statement: biceps is the powerful supinator. The DEP BOOK printing of the identical question, `biceps-brachii-dep-book-p-6228b593`, keys C, which is the same answer reached independently.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1037
+## title
+The coracoid process of the scapula gives attachment to: •
+## question
+The coracoid process of the scapula gives attachment to: •
+## vignette
+This item asks the student to name what attaches to the coracoid process and separate it from what attaches to the supraglenoid and infraglenoid tubercles.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pectoralis minor
+## explanation_a
+Correct. Pectoralis minor is inserted into the coracoid process, along with the short head of biceps and coracobrachialis from its tip and three ligaments — coraco-acromial, coraco-clavicular and coraco-humeral.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_b
+Capsule of shoulder joint
+## explanation_b
+The capsule of the shoulder joint is attached round the glenoid margin above and the anatomical neck below. It passes beneath the coracoid without touching it; what bridges the two is the coraco-humeral ligament.
+## answer_c
+Long head of biceps brachii muscle
+## explanation_c
+The trap the whole question is built on. It is the *short* head of biceps that arises from the coracoid; the long head arises from the supraglenoid tubercle inside the joint.
+## answer_d
+Long head of triceps
+## explanation_d
+Wrong tubercle and wrong muscle. The long head of triceps arises from the infraglenoid tubercle, below the glenoid cavity, on the opposite aspect of the scapula from the coracoid.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name what attaches to the coracoid process and separate it from what attaches to the supraglenoid and infraglenoid tubercles.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p9 q7; Anatomy Question [Upper Limb] (1).pdf p30 q173; Anatomy MCQ Book [2025] [first priority].pdf p50 q173. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis minor is inserted into the medial border and upper surface of the coracoid process. The DEP BOOK printing `the-coracoid-process-of-the-scapula-gives-attachment-to-dep-1994b4da` keys A, which agrees.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1038
+## title
+The ulnar collateral ligament, choose the correct answer:
+## question
+The ulnar collateral ligament, choose the correct answer:
+## vignette
+This item asks the student to give the attachments of the ulnar collateral ligament and the relation of the ulnar nerve to it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Attached to the medial epicondyle of the humerus
+## explanation_a
+Correct. The ligament is triangular and its apex is on the medial epicondyle; from there an anterior band runs to the coronoid process, a posterior band to the olecranon and an oblique band between the two.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_b
+Attached to the medial border of olecranon process of ulna
+## explanation_b
+True of one band and not of the ligament. The posterior band does reach the medial margin of the olecranon, which is why this tempts — but the question asks for the ligament's attachment, and only the medial epicondyle is shared by all three bands.
+## answer_c
+Attached to triceps and extensor carpi ulnaris
+## explanation_c
+Confuses a ligament with a muscle origin. Flexor carpi ulnaris arises by two heads from the medial epicondyle and the olecranon and covers the ligament; triceps and extensor carpi ulnaris are behind and below it.
+## answer_d
+The ulnar nerve passes deep to the ulnar collateral ligament
+## explanation_d
+The relation the wrong way round. The ulnar nerve lies on the ligament as it passes behind the medial epicondyle — superficial to it, between it and flexor carpi ulnaris — which is why the nerve is palpable there and vulnerable to a blow.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the attachments of the ulnar collateral ligament and the relation of the ulnar nerve to it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p25 q42; Anatomy Question [Upper Limb] (1).pdf p29 q167; Anatomy MCQ Book [2025] [first priority].pdf p49 q167. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. All three bands of the triangular ulnar collateral ligament converge on the medial epicondyle, so A is the attachment that describes the ligament as a whole; the DEP BOOK printing `the-ulnar-collateral-ligament-choose-the-correct-answer-dep-3303080a` keys A, and the third printing `the-ulnar-collateral-ligament-ceb5359a` offers A against three plainly false options.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1039
+## title
+Profunda brachii artery, choose the correct answer:
+## question
+Profunda brachii artery, choose the correct answer:
+## vignette
+This item asks the student to give the origin and course of the profunda brachii artery and the nerve it accompanies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arises from third part of axillary artery
+## explanation_a
+One vessel too proximal. The axillary artery ends at the lower border of teres major and the profunda brachii arises just below that, from the brachial; the branches of the third part of the axillary are the subscapular and the two circumflex humeral arteries.
+## answer_b
+Passes with the ulnar nerve in the spiral groove
+## explanation_b
+The right groove and the wrong nerve. The spiral groove carries the radial nerve; the ulnar nerve is on the medial side of the arm and pierces the medial septum with the superior ulnar collateral artery.
+## answer_c
+Descends between medial and long heads of triceps
+## explanation_c
+Correct. It passes backwards between the long and medial heads of triceps with the radial nerve, then winds round the humerus in the spiral groove.
+
+Why this is right:
+- The profunda brachii is the first and largest branch of the brachial artery, arising just below the lower border of teres major.
+## answer_d
+It supplies biceps brachii muscle
+## explanation_d
+Biceps lies in the anterior compartment and is supplied by muscular branches of the brachial artery. The profunda brachii is a posterior-compartment vessel and never reaches it.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-A4A49A26BA10E7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the origin and course of the profunda brachii artery and the nerve it accompanies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q16; Anatomy Question [Upper Limb] (1).pdf p33 q189. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The profunda brachii leaves the brachial artery backwards between the long and medial heads of triceps, which makes C true; the DEP BOOK printing `profunda-brachii-artery-choose-the-correct-answer-dep-book-e-1b684392` keys C as well.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1040
+## title
+Regarding injury of radial nerve in the spiral groove, choose the correct answer:
+## question
+Regarding injury of radial nerve in the spiral groove, choose the correct answer:
+## vignette
+This item asks the student to say which muscles and which skin an injury in the spiral groove costs, and why triceps largely escapes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It results in complete paralysis of triceps muscle
+## explanation_a
+The classic overstatement. The branches to the long and medial heads of triceps leave the radial nerve in the axilla, above the groove, so a lesion in the groove spares most of the muscle; elbow extension is weakened against resistance, not lost.
+## answer_b
+It produces paralysis of the extensor carpi ulnaris
+## explanation_b
+Correct. Extensor carpi ulnaris is a posterior interosseous muscle, and everything the radial nerve supplies below the groove goes — which is exactly what produces the wrist drop.
+
+Why this is right:
+- The radial nerve runs in the spiral groove on the back of the shaft of the humerus with the profunda brachii vessels, and a fracture of the shaft may injure it there.
+## answer_c
+It results in Ape-like hand deformity
+## explanation_c
+The ape hand belongs to the median nerve, from wasting of the thenar eminence and loss of opposition of the thumb. The radial deformity is wrist drop.
+## answer_d
+It produces disturbed sensation of medial 1/3 of the dorsum of hand
+## explanation_d
+The wrong side of the hand. The radial nerve covers the lateral two thirds of the dorsum; the medial third is ulnar territory, and it is untouched by a lesion in the groove.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-712EBE5936F7E4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Say which muscles and which skin an injury in the spiral groove costs, and why triceps largely escapes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q16; Upper MCQ Dr.jalal (1).pdf p32 q16. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Extensor carpi ulnaris is supplied by the posterior interosseous nerve, well distal to the groove, so it is paralysed and B is true. The DEP BOOK printing `regarding-injury-of-radial-nerve-in-the-spiral-groove-choose-20fddd6d` carries a margin letter A, which is overridden there because triceps is not completely paralysed.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1041
+## title
+Supination is more powerful than pronation due to; mark the most suitable answer:
+## question
+Supination is more powerful than pronation due to; mark the most suitable answer:
+## vignette
+This item asks the student to name both supinators and say which of the two makes supination the stronger movement.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The action of biceps brachii muscle and supinator
+## explanation_a
+Correct. Supinator turns the forearm on its own in the extended position, but biceps is added once the elbow is flexed, and the two together outweigh pronator teres and pronator quadratus.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_b
+The action of supinator muscle only
+## explanation_b
+True as far as it goes and therefore the commonest wrong choice. Supinator alone is roughly a match for the two pronators; the extra power comes from biceps.
+## answer_c
+The action of brachioradialis only
+## explanation_c
+Brachioradialis is a flexor of the elbow that returns the forearm to the mid-prone position from either extreme. It neither supinates nor pronates beyond that neutral point.
+## answer_d
+The action of brachialis
+## explanation_d
+Brachialis flexes the elbow and does nothing else. It is inserted into the ulna, which does not rotate, so it cannot contribute to supination at all.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name both supinators and say which of the two makes supination the stronger movement.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p18 q4; Anatomy Question [Upper Limb] (1).pdf p27 q152. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Supination is produced by supinator and biceps together, and it is biceps — a far bulkier muscle than either pronator — that makes it the stronger movement, so A is the only complete answer.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1042
+## title
+The middle third of the humerus shows the following features, choose the correct answer:
+## question
+The middle third of the humerus shows the following features, choose the correct answer:
+## vignette
+This item asks the student to place the deltoid tuberosity, the coracobrachialis insertion, the spiral groove and the bicipital groove on the correct surface of the humerus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Deltoid tuberosity, laterally
+## explanation_a
+Correct. The deltoid tuberosity is the rough V on the lateral surface at the middle of the shaft, receiving deltoid and separating the two heads of brachialis below it.
+
+Why this is right:
+- The upper third of the shaft of the humerus carries the intertubercular (bicipital) groove in front, with pectoralis major on its lateral lip, teres major on its medial lip and latissimus dorsi on its floor.
+## answer_b
+Coracobrachialis insertion laterally
+## explanation_b
+The right level and the wrong side. Coracobrachialis is inserted into the middle of the medial border of the shaft, opposite the deltoid tuberosity — the two mark the same third from opposite sides.
+## answer_c
+Spiral groove anteriorly
+## explanation_c
+The one that costs the radial nerve. The spiral groove crosses the posterior surface, which is why a fracture of the middle third injures the radial nerve and not the median.
+## answer_d
+Bicipital groove posteriorly
+## explanation_d
+Right groove, wrong third and wrong surface. The intertubercular (bicipital) groove is anterior and belongs to the upper third, between the two tuberosities.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-7325E0613EC953
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Place the deltoid tuberosity, the coracobrachialis insertion, the spiral groove and the bicipital groove on the correct surface of the humerus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p24 q139; Anatomy MCQ Book [2025] [first priority].pdf p42 q139. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deltoid tuberosity lies on the lateral surface at the middle of the shaft, which makes A true; coracobrachialis is inserted on the medial border, the spiral groove is posterior and the bicipital groove is in the upper third. The printing `middle-third-of-humerus-choose-the-correct-answer-f032c445` carries a pencilled A beside its options, and the DEP BOOK copy's key of B is overridden there for the same reason.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1043
+## title
+The radial nerve, around the elbow, choose the correct answer:
+## question
+The radial nerve, around the elbow, choose the correct answer:
+## vignette
+This item asks the student to trace the radial nerve from the spiral groove into the front of the elbow and name the muscles it lies between.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Comes in contact with the medial epincodyle of the humerus
+## explanation_a
+The wrong epicondyle. It is the ulnar nerve that is in contact with the medial epicondyle, grooving its back; the radial nerve reaches the front of the lateral epicondyle.
+## answer_b
+Passes between biceps brachii and brachioradialis
+## explanation_b
+Both muscles are real neighbours of the nerve lower down, which is what makes this plausible, but at this level the nerve lies against brachialis, with brachioradialis and extensor carpi radialis longus lateral to it.
+## answer_c
+Pierces the lateral intermuscular septum and passes between brachialis and
+## explanation_c
+Correct. Having wound round the humerus, the radial nerve pierces the lateral intermuscular septum and descends in the groove between brachialis medially and brachioradialis laterally.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## answer_d
+Passes between extensor capri radialis longus and brevis
+## explanation_d
+That plane belongs to the posterior interosseous nerve after it has pierced supinator, or to the superficial branch under brachioradialis — both are below the elbow, not around it.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Trace the radial nerve from the spiral groove into the front of the elbow and name the muscles it lies between.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p18 q103; Anatomy MCQ Book [2025] [first priority].pdf p36 q103. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1044
+## title
+All of the following muscles are supplied by the radial nerve except: em em em
+## question
+All of the following muscles are supplied by the radial nerve except: em em em
+## vignette
+This item asks the student to recall that every head of triceps and anconeus are radial, and that biceps is not.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Medial head of triceps
+## explanation_a
+The printed key, and it is wrong. The medial head of triceps has two radial branches — one from the axilla, one running with the ulnar nerve down the arm — which is exactly why the head is spared by a lesion in the spiral groove.
+## answer_b
+Anconeus
+## explanation_b
+True, so not the exception. Anconeus is supplied by the branch to the medial head of triceps continuing past the elbow.
+## answer_c
+Lateral head of triceps
+## explanation_c
+True, so not the exception. The lateral head is supplied by the radial nerve as it lies in the spiral groove.
+## answer_d
+Biceps
+## explanation_d
+Correct. The exception, and the answer. Biceps is supplied by the musculocutaneous nerve from the lateral cord — the one anterior-compartment muscle on a list otherwise made of extensors.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recall that every head of triceps and anconeus are radial, and that biceps is not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, and A is wrong: the medial head of triceps is supplied by the radial nerve in the axilla and again in the arm. Biceps is musculocutaneous, and is the only muscle listed that the radial nerve does not supply. The unkeyed printing of the same question, `all-of-the-following-muscles-are-supplied-by-the-radial-nerv-c798f4a7`, is overridden to D on the same reasoning.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1045
+## title
+All of the following muscles are supplied by the radial nerve, except:
+## question
+All of the following muscles are supplied by the radial nerve, except:
+## vignette
+This item asks the student to recall that every head of triceps and anconeus are radial, and that biceps is not.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+medial head of triceps
+## explanation_a
+True, so not the exception. The medial head takes two branches from the radial nerve, one in the axilla and one in the arm.
+## answer_b
+anconeus
+## explanation_b
+True, so not the exception. Anconeus is supplied by the continuation of the branch to the medial head of triceps.
+## answer_c
+lateral head of triceps
+## explanation_c
+True, so not the exception. The lateral head is supplied from the nerve in the spiral groove.
+## answer_d
+biceps
+## explanation_d
+Correct. The exception, and the answer. Biceps belongs to the anterior compartment and is supplied by the musculocutaneous nerve.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_a38c7a9672971718ccdb
+## learning_objective
+Recall that every head of triceps and anconeus are radial, and that biceps is not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p1 q7. Manifest src_a38c7a9672971718ccdb.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Biceps is the only muscle listed that is not supplied by the radial nerve; the other three are triceps heads and anconeus, all radial.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1046
+## title
+Biceps brachii: 0
+## question
+Biceps brachii: 0
+## vignette
+This item asks the student to give the insertion, the nerve relation and the actions of biceps brachii.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It inserts in the ulnar tuberosity. 1
+## explanation_a
+Biceps inserts into the radial (bicipital) tuberosity. The ulnar tuberosity belongs to brachialis, and the swap turns one elbow flexor into the other.
+## answer_b
+Is pierced by musculocutaneous nerve
+## explanation_b
+The musculocutaneous nerve pierces coracobrachialis, then runs between biceps and brachialis without piercing either.
+## answer_c
+Isa powerful muscle in inducing supination
+## explanation_c
+Correct. Biceps is the powerful supinator of the flexed forearm; supinator alone is the weaker of the two.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_d
+Helps in extending the flexed elbow
+## explanation_d
+Biceps flexes the elbow. Extending the flexed elbow is the work of triceps and anconeus.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Give the insertion, the nerve relation and the actions of biceps brachii.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p13 q6. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This is a third printing of the same question; biceps is the powerful supinator, and the DEP BOOK printing `biceps-brachii-dep-book-p-6228b593` keys C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1047
+## title
+Biceps brachii: P
+## question
+Biceps brachii: P
+## vignette
+This item asks the student to give the insertion, the nerve relation and the actions of biceps brachii.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It inserts in the ulnar tuberosity. Ac ad
+## explanation_a
+The radial tuberosity, not the ulnar. The ulnar tuberosity takes brachialis, and the two flexors are told apart by which bone they pull on.
+## answer_b
+Is pierced by musculocutaneous nerve
+## explanation_b
+The nerve that runs with biceps pierces coracobrachialis, not biceps. Nothing pierces biceps.
+## answer_c
+Is a powerful muscle in inducing supination
+## explanation_c
+Correct. Biceps is the powerful supinator, and adding it to supinator is what makes supination stronger than pronation.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_d
+Helps in extending the ﬂexed elbow
+## explanation_d
+Reversed. Biceps flexes the elbow; the flexed elbow is extended by triceps.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the insertion, the nerve relation and the actions of biceps brachii.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1048
+## title
+Concerning the median nerve, one of the following is not correct: (2022)
+## question
+Concerning the median nerve, one of the following is not correct: (2022)
+## vignette
+This item asks the student to trace the median nerve from the two cords to the hand and fix its position relative to the brachial artery in the cubital fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arises from both the medial and lateral cords of the brachial plexus.
+## explanation_a
+True, so not the answer. The median nerve is formed by a lateral and a medial root, from the lateral and medial cords, which embrace the third part of the axillary artery.
+## answer_b
+It crosses the brachial artery at the insertion of the coracobrachialis.
+## explanation_b
+True, so not the answer. The nerve begins lateral to the brachial artery and crosses in front of it to the medial side at about the level of the insertion of coracobrachialis.
+## answer_c
+In the cubital fossa, it lies lateral to the brachial artery.
+## explanation_c
+Correct. Not correct, and therefore the answer. Because the nerve has already crossed the artery in the arm, it enters the cubital fossa medial to it — the fossa's contents run median nerve, brachial artery, biceps tendon, radial nerve from medial to lateral.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_d
+It enters the hand in the carpal tunnel.
+## explanation_d
+True, so not the answer. The median nerve enters the palm deep to the flexor retinaculum, in the carpal tunnel, which is why the retinaculum can compress it.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Trace the median nerve from the two cords to the hand and fix its position relative to the brachial artery in the cubital fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q74; EOM ISK 101 - 2023.pdf p7 q78. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. In the cubital fossa the median nerve lies medial to the brachial artery, so C is the statement that is not correct; A, B and D are all true of the nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1049
+## title
+Considering the movement of the radio-ulnar joint: (2024)
+## question
+Considering the movement of the radio-ulnar joint: (2024)
+## vignette
+This item asks the student to say which of pronation and supination is stronger, what the bones do in each, and which muscle supinates the extended forearm.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+In supination, the axis of supination-pronation is oblique to the axis of the forearm
+## explanation_a
+Correct. The axis runs from the centre of the head of the radius above to the head of the ulna below, and that line crosses the long axis of the forearm obliquely rather than lying along it.
+
+Why this is right:
+- Supination is lateral rotation of the forearm, and it is produced by supinator and by biceps brachii.
+## answer_b
+In pronation, the bones of the forearm are parallel.
+## explanation_b
+The two positions swapped. The bones are parallel in supination and crossed in pronation, the radius having rotated over the ulna.
+## answer_c
+Pronation is the stronger movement.
+## explanation_c
+The printed key, and the reverse of the truth. Supination is the stronger movement because biceps joins supinator; there is no pronator of comparable bulk.
+## answer_d
+Supination with the elbow in extension is done by biceps.
+## explanation_d
+True only of the flexed elbow. With the elbow extended biceps pulls almost along the axis of the radius and cannot rotate it, so supination is then the work of supinator alone.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-E10403A4189B45
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say which of pronation and supination is stronger, what the bones do in each, and which muscle supinates the extended forearm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p101 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is wrong: supination is the stronger movement, because biceps is added to supinator while the pronators have no comparable muscle. A is left by elimination and is true — the axis of pronation-supination runs from the head of the radius to the head of the ulna, oblique to the long axis of the forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1050
+## title
+Middle third of humerus, choose the correct answer:
+## question
+Middle third of humerus, choose the correct answer:
+## vignette
+This item asks the student to place the deltoid tuberosity, the coracobrachialis insertion, the spiral groove and the bicipital groove on the correct surface of the humerus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Deltoid tuberosity, laterally.
+## explanation_a
+Correct. The deltoid tuberosity is on the lateral surface at the middle of the shaft; it is what makes the middle third recognisable from the outside.
+
+Why this is right:
+- The upper third of the shaft of the humerus carries the intertubercular (bicipital) groove in front, with pectoralis major on its lateral lip, teres major on its medial lip and latissimus dorsi on its floor.
+## answer_b
+Coracobrachialis Insertion laterally.
+## explanation_b
+The printed key, and it is the same landmark from the wrong side. Coracobrachialis is inserted on the medial border at this level, facing the deltoid tuberosity across the bone.
+## answer_c
+Spiral groove anteriorly.
+## explanation_c
+The spiral groove is posterior. Putting it in front would mean the radial nerve lay against brachialis for the whole arm, and a shaft fracture would drop nothing.
+## answer_d
+Bicipital groove posteriorly.
+## explanation_d
+The intertubercular groove is anterior and belongs to the upper third, between the greater and lesser tuberosities.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-7325E0613EC953
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the deltoid tuberosity, the coracobrachialis insertion, the spiral groove and the bicipital groove on the correct surface of the humerus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p28 q26. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, and B is wrong: coracobrachialis is inserted into the middle of the *medial* border of the shaft, not laterally. The deltoid tuberosity is the lateral marking of the middle third, so A is true. The unkeyed printing `middle-third-of-humerus-choose-the-correct-answer-f032c445` carries a pencilled A beside its third option, which agrees.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1051
+## title
+One of the following muscles is supplied by radial nerve: (2018) Ac P Vi a- Biceps brachii
+## question
+One of the following muscles is supplied by radial nerve: (2018) Ac P Vi a- Biceps brachii
+## vignette
+This item asks the student to pick the radial-supplied muscle out of a list whose other members are musculocutaneous or axillary.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Biceps brachii.
+## explanation_a
+Biceps is musculocutaneous. It is an anterior-compartment muscle, and the radial nerve supplies no muscle in front of the arm except the lateral part of brachialis.
+## answer_b
+Coracobrachialis.
+## explanation_b
+Coracobrachialis is musculocutaneous too — indeed the nerve pierces it, which is the strongest possible evidence of who supplies it.
+## answer_c
+Teres minor.
+## explanation_c
+Teres minor is one of the two muscles of the axillary nerve, along with deltoid. It is close to the radial nerve's territory on the back of the shoulder, which is what makes it tempting.
+## answer_d
+Anconeus.
+## explanation_d
+Correct. Anconeus is supplied by the radial nerve, and it is the only extensor on the list.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the radial-supplied muscle out of a list whose other members are musculocutaneous or axillary.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p48 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Anconeus is supplied by the radial nerve, through the continuation of the branch to the medial head of triceps; biceps and coracobrachialis are musculocutaneous and teres minor is axillary.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1052
+## title
+One of the following muscles is supplied by radial nerve: (2018) Vi P
+## question
+One of the following muscles is supplied by radial nerve: (2018) Vi P
+## vignette
+This item asks the student to pick the radial-supplied muscle out of a list whose other members are musculocutaneous or axillary.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps brachii is musculocutaneous.
+## answer_b
+Coracobrachialis
+## explanation_b
+Coracobrachialis is musculocutaneous, and is pierced by that nerve.
+## answer_c
+Teres minor
+## explanation_c
+The printed key, and it is the neighbouring nerve. Teres minor and deltoid are the axillary nerve's two muscles; the axillary and radial nerves are both branches of the posterior cord, which is what makes the swap easy.
+## answer_d
+Anconeus
+## explanation_d
+Correct. Anconeus takes the continuation of the radial branch to the medial head of triceps.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the radial-supplied muscle out of a list whose other members are musculocutaneous or axillary.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is wrong: teres minor is supplied by the axillary nerve, not the radial. Anconeus is the radial-supplied muscle on this list.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1053
+## title
+One of the following muscles produces ﬂexion of the pronated forearm: (2017) y
+## question
+One of the following muscles produces ﬂexion of the pronated forearm: (2017) y
+## vignette
+This item asks the student to name the muscle that flexes the elbow whatever the position of the forearm.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps flexes the elbow strongly when the forearm is supinated, but in pronation its tendon is wound round the radius and it pulls at a disadvantage; it also tends to supinate rather than simply flex.
+## answer_b
+Coracobrachialis
+## explanation_b
+Coracobrachialis crosses the shoulder, not the elbow. It flexes and adducts the arm at the shoulder joint and has no action below it.
+## answer_c
+Brachialis
+## explanation_c
+Correct. Brachialis is inserted into the ulna, which does not rotate, so its pull is unaffected by pronation — it is the flexor of the pronated forearm and the main flexor of the elbow in any position.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## answer_d
+Deltoid
+## explanation_d
+Deltoid acts at the shoulder alone. It is on the list because it flexes the arm, which is a different joint from the elbow.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle that flexes the elbow whatever the position of the forearm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1054
+## title
+One of the following muscles produces flexion of the pronated forearm: (2017)
+## question
+One of the following muscles produces flexion of the pronated forearm: (2017)
+## vignette
+This item asks the student to name the muscle that flexes the elbow whatever the position of the forearm.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Biceps brachii
+## explanation_a
+Biceps is the powerful flexor of the supinated forearm; pronation winds its tendon round the radius and robs it of leverage.
+## answer_b
+Coracobrachialis
+## explanation_b
+Coracobrachialis acts on the shoulder joint, flexing and adducting the arm, and does not cross the elbow.
+## answer_c
+Brachialis
+## explanation_c
+Correct. Brachialis is inserted into the coronoid process and tuberosity of the ulna, a bone that does not rotate, so it flexes the elbow equally in pronation and supination.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## answer_d
+Deltoid
+## explanation_d
+Deltoid is a shoulder muscle and takes no part in elbow movement.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the muscle that flexes the elbow whatever the position of the forearm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p50 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Brachialis inserts into the ulna and is therefore unaffected by rotation of the radius; the sibling printing `one-of-the-following-muscles-produces-exion-of-the-pronated-0a1665ea` keys C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1055
+## title
+Profunda brachii artery, choose the correct answer: em em em em em
+## question
+Profunda brachii artery, choose the correct answer: em em em em em
+## vignette
+This item asks the student to give the origin and course of the profunda brachii artery and the nerve it accompanies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arises from third part of axillary artery
+## explanation_a
+The axillary artery ends at the lower border of teres major, and the profunda brachii arises below that from the brachial artery. The third part of the axillary gives the subscapular and circumflex humeral arteries.
+## answer_b
+Passes with the ulnar nerve in the spiral groove
+## explanation_b
+The wrong nerve for that groove. The spiral groove carries the radial nerve; the ulnar nerve stays medial and pierces the medial intermuscular septum with the superior ulnar collateral artery.
+## answer_c
+Descends between medial and long heads of triceps
+## explanation_c
+Correct. It runs backwards between the long and medial heads of triceps, alongside the radial nerve, before entering the spiral groove.
+
+Why this is right:
+- The profunda brachii is the first and largest branch of the brachial artery, arising just below the lower border of teres major.
+## answer_d
+It supplies biceps brachii muscle. Ac ad
+## explanation_d
+Biceps lies in front and is supplied by muscular branches direct from the brachial artery; the profunda brachii serves the posterior compartment.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A4A49A26BA10E7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the origin and course of the profunda brachii artery and the nerve it accompanies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1056
+## title
+Regarding Injury of radial nerve in the spiral groove, choose the correct answer: Ac em
+## question
+Regarding Injury of radial nerve in the spiral groove, choose the correct answer: Ac em
+## vignette
+This item asks the student to say which muscles and which skin an injury in the spiral groove costs, and why triceps largely escapes.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It results in complete paralysis of triceps muscle
+## explanation_a
+The printed key, and the word that makes it false is "complete". Triceps keeps its axillary branches to the long and medial heads; the patient is weak in resisted extension of the elbow, not unable to extend it.
+## answer_b
+It produces paralysis of the extensor carpi ulnaris
+## explanation_b
+Correct. Everything the radial nerve supplies distal to the groove is paralysed, extensor carpi ulnaris among them, and that loss is what produces wrist drop.
+
+Why this is right:
+- The radial nerve runs in the spiral groove on the back of the shaft of the humerus with the profunda brachii vessels, and a fracture of the shaft may injure it there.
+## answer_c
+It results in Ape-like hand deformity. P
+## explanation_c
+The ape hand is a median-nerve deformity from a wasted thenar eminence. The radial deformity is wrist drop.
+## answer_d
+It produces disturbed sensation of medial 1/3 of the dorsum of hand
+## explanation_d
+The medial third of the dorsum is ulnar territory. The radial nerve supplies the lateral two thirds.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-712EBE5936F7E4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say which muscles and which skin an injury in the spiral groove costs, and why triceps largely escapes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, and A is wrong: the branches to the long and medial heads of triceps leave the radial nerve in the axilla, above the groove, so the paralysis of triceps is partial and never complete. B is true — extensor carpi ulnaris is a posterior interosseous muscle and is lost.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1057
+## title
+Regarding injury of radial nerve in the spiral groove, the following statements are cor…
+## question
+Regarding injury of radial nerve in the spiral groove, the following statements are correct, except: (2022) y y
+## vignette
+This item asks the student to separate the deformity of a radial injury from the deformity of a median injury.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is usually caused by fracture of the shaft of the humerus.
+## explanation_a
+True, so not the exception. The nerve lies against the bone in the spiral groove, and a fracture of the shaft is the classic cause.
+## answer_b
+It results in paralysis of extensor carpi radialis longus.
+## explanation_b
+True, so not the exception. Extensor carpi radialis longus is supplied by the radial nerve just above the elbow, distal to the groove, so it is paralysed.
+## answer_c
+It results in Ape-like hand deformity.
+## explanation_c
+Correct. The exception, and the answer. The ape hand belongs to the median nerve — thenar wasting with loss of opposition of the thumb; a radial lesion in the groove gives wrist drop instead.
+
+Why this is right:
+- The radial nerve runs in the spiral groove on the back of the shaft of the humerus with the profunda brachii vessels, and a fracture of the shaft may injure it there.
+## answer_d
+It produces impaired sensation of the lateral 2/3 of the dorsum of hand.
+## explanation_d
+True, so not the exception. The radial nerve supplies the lateral two thirds of the dorsum of the hand through its superficial terminal branch.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-712EBE5936F7E4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the deformity of a radial injury from the deformity of a median injury.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q12; EOM ISK 101 - 2023.pdf p9 q96. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1058
+## title
+Regarding the brachialis muscle, select the correct statement: (2022 - 2021) y
+## question
+Regarding the brachialis muscle, select the correct statement: (2022 - 2021) y
+## vignette
+This item asks the student to give the nerve, the origin, the action and the insertion of brachialis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is innervated by the median nerve
+## explanation_a
+The printed key, and the wrong nerve. The median nerve descends the arm alongside brachialis, resting on it, and gives it nothing; brachialis is musculocutaneous, with a small radial twig to its lateral part.
+## answer_b
+Arises from the upper third of the shaft of humerus
+## explanation_b
+The wrong end of the bone. Brachialis arises from the lower half of the front of the shaft, embracing the deltoid insertion; the upper third of the humerus carries the bicipital groove and its three muscles.
+## answer_c
+The main ﬂexor of the elbow joint
+## explanation_c
+Correct. Brachialis is the main flexor of the elbow: it acts in every position of the forearm, and biceps only reinforces it when the forearm is supinated.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## answer_d
+Attaches to the pronator tuberosity of the radius
+## explanation_d
+A tuberosity that does not exist under that name. Brachialis is inserted into the coronoid process and the tuberosity of the *ulna*; "pronator tuberosity" blends the pronator teres impression on the radius with the ulnar tuberosity.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the nerve, the origin, the action and the insertion of brachialis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q15; EOM ISK 101 195 Answers.pdf p6 q64. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, and A is wrong: brachialis is supplied by the musculocutaneous nerve, with a twig from the radial, and never by the median. C is true — brachialis is the main flexor of the elbow joint. This is the department book's revised printing of a question whose earlier versions had no true option at all, and the revision is exactly the addition of C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1059
+## title
+Regarding the elbow joint, choose the correct answer: Ac ad Ac ad ad ad
+## question
+Regarding the elbow joint, choose the correct answer: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to classify the elbow joint and name the bony parts that form it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is formed by articulation of the lower end of humerus and the upper ends of radius and ulna.
+## explanation_a
+Correct. The lower end of the humerus — trochlea and capitulum — meets the trochlear notch of the ulna and the head of the radius, so all three bones share the joint.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_b
+Its ﬂexion is produced by coracobrachialis.
+## explanation_b
+Coracobrachialis crosses the shoulder joint and never reaches the elbow. Elbow flexion is brachialis and biceps, with brachioradialis assisting.
+## answer_c
+Its capsule is attached to the head of radius.
+## explanation_c
+The capsule deliberately avoids the head of the radius: it is attached to the neck and to the anular ligament, leaving the head free to spin inside the ring during pronation and supination.
+## answer_d
+It is a synovial joint of pivot.
+## explanation_d
+The pivot joint at this level is the superior radio-ulnar joint, which shares the capsule. The elbow itself is a hinge, and its single axis is why it only flexes and extends.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Classify the elbow joint and name the bony parts that form it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p100 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1060
+## title
+Regarding the muscles of the upper arm:
+## question
+Regarding the muscles of the upper arm:
+## vignette
+This item asks the student to separate biceps from brachialis by insertion, nerve supply and action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The biceps is a powerful pronator of the forearm
+## explanation_a
+The reverse. Biceps is the powerful supinator; the pronators are pronator teres and pronator quadratus, both in the forearm.
+## answer_b
+The brachialis is supplied by the medial and musculocutaneous nerves
+## explanation_b
+A near miss that catches students who remember two nerves. Brachialis does take two — but the musculocutaneous and the *radial*, not the median; the median nerve merely lies on it.
+## answer_c
+The biceps is inserted into the ulnar tuberosity
+## explanation_c
+Biceps inserts into the radial tuberosity. The ulnar tuberosity is brachialis's insertion, and this option is that swap.
+## answer_d
+The brachia lis is the primary flexor of the elbow joint
+## explanation_d
+Correct. Brachialis is the primary flexor of the elbow, acting in every position of the forearm, with biceps reinforcing it only in supination.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Separate biceps from brachialis by insertion, nerve supply and action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p14 q81. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1061
+## title
+Regarding the muscles of the upper arm: Ac ad Ac ad ad ad
+## question
+Regarding the muscles of the upper arm: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to separate biceps from brachialis by insertion, nerve supply and action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The biceps is a powerful pronator of the forearm.
+## explanation_a
+Biceps is the powerful supinator, not a pronator.
+## answer_b
+The brachialis is supplied by medial and musculocutaneous nerves.
+## explanation_b
+Brachialis is supplied by the musculocutaneous nerve with a radial twig; the median nerve lies against it but supplies it nothing.
+## answer_c
+The biceps is inserted into the ulnar tuberosity.
+## explanation_c
+The printed key, and it is the standard swap between the two flexors. Biceps goes to the radial tuberosity; the ulnar tuberosity takes brachialis.
+## answer_d
+The brachialis is the primary ﬂexor of the elbow joint.
+## explanation_d
+Correct. Brachialis is the primary flexor of the elbow joint in every position of the forearm.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate biceps from brachialis by insertion, nerve supply and action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p45 q18. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is wrong: biceps is inserted into the radial (bicipital) tuberosity, and the ulnar tuberosity belongs to brachialis. D is true, and the identical question at `regarding-the-muscles-of-the-upper-arm-a8bb6e78` keys D.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1062
+## title
+Regarding the radial nerve, choose the correct answer: (2021) em em em em em
+## question
+Regarding the radial nerve, choose the correct answer: (2021) em em em em em
+## vignette
+This item asks the student to give the root value of the radial nerve, its companion vessel in the spiral groove, its cutaneous branches in the arm, and where the posterior interosseous nerve is given off.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It runs with profunda brachii artery in the radial groove
+## explanation_a
+Correct. The nerve and the profunda brachii artery wind round the back of the humerus together, which is why one fracture can injure both.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## answer_b
+It contains ﬁbers from C 5,6, 7,8 only
+## explanation_b
+The root value is C5 to T1. Dropping T1 makes the radial nerve look like a purely upper-trunk nerve and changes which root lesions are predicted to weaken it.
+## answer_c
+It has no cutaneous branches in the upper arm
+## explanation_c
+The radial nerve gives two cutaneous branches in the arm — the posterior cutaneous nerve of the arm in the axilla and the lower lateral cutaneous nerve of the arm in the groove — plus the posterior cutaneous nerve of the forearm.
+## answer_d
+Gives off the posterior interosseus nerve in the spiral groove. Ac ad
+## explanation_d
+The printed key, and it is one level too high. The radial nerve divides into superficial and deep branches in front of the lateral epicondyle; the deep branch becomes the posterior interosseous nerve after piercing supinator.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the root value of the radial nerve, its companion vessel in the spiral groove, its cutaneous branches in the arm, and where the posterior interosseous nerve is given off.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, and D is wrong: the posterior interosseous nerve is the deep terminal branch, given off in front of the lateral epicondyle, not in the spiral groove — the nerve is still undivided there. A is true: the radial nerve and the profunda brachii vessels share the radial (spiral) groove.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1063
+## title
+Regarding the triceps brachii muscle: (2024)
+## question
+Regarding the triceps brachii muscle: (2024)
+## vignette
+This item asks the student to name the three heads of triceps, its insertion and its nerve supply.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It has a lateral, a medial and a short head.
+## explanation_a
+Biceps has the short head. Triceps has a long, a lateral and a medial head, and the word "short" here is borrowed from the muscle on the other side of the arm.
+## answer_b
+Long head takes origin from supraglenoid tubercle of scapula.
+## explanation_b
+Supra- for infra-, and it swaps the two muscles again. The supraglenoid tubercle gives the long head of biceps; the long head of triceps comes from the infraglenoid tubercle.
+## answer_c
+It is supplied by ulnar nerve.
+## explanation_c
+The ulnar nerve passes down the medial side of the arm beside the medial head of triceps without supplying it. Every head of triceps is radial.
+## answer_d
+It is inserted into the olecranon process.
+## explanation_d
+Correct. The three heads join in a common tendon inserted into the upper surface of the olecranon process of the ulna.
+
+Why this is right:
+- Triceps brachii fills the back of the arm and has three heads: a long head from the infraglenoid tubercle of the scapula, a lateral head from the back of the humerus above and lateral to the spiral groove, and a medial head from the whole back of the humerus below the groove and from both intermuscular septa.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-34E34E10280236
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the three heads of triceps, its insertion and its nerve supply.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p48 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Triceps is inserted into the olecranon, which makes D true; the other three each misname a head, a tubercle or the nerve.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1064
+## title
+Select the correct statement; the musculocutaneous nerve:
+## question
+Select the correct statement; the musculocutaneous nerve:
+## vignette
+This item asks the student to give the cord of origin, the course between the arm muscles and the cutaneous continuation of the musculocutaneous nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+it is anterior to the biceps brachii muscle but deep to the brachialis
+## explanation_a
+The two relations swapped. The nerve runs *behind* biceps and *in front of* brachialis — it lies in the plane between them, so it is deep to biceps, not anterior to it.
+## answer_b
+arises from the medial cord of the brachial plexus.
+## explanation_b
+The lateral cord, not the medial. The medial cord gives the ulnar nerve, the medial pectoral nerve and the two medial cutaneous nerves; the musculocutaneous is the lateral cord's muscular branch.
+## answer_c
+becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon.
+## explanation_c
+Correct. It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.
+
+Why this is right:
+- The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7.
+## answer_d
+supplies the brachioradialis muscle.
+## explanation_d
+Brachioradialis is supplied by the radial nerve. The musculocutaneous supplies exactly three muscles — coracobrachialis, biceps and brachialis — all in the arm.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-F125616F7ED37A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Give the cord of origin, the course between the arm muscles and the cutaneous continuation of the musculocutaneous nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p56 q1; EOM ISK EOM exam 2024.pdf p6 q64. Manifest src_b7301bfcd7d002317e40, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The nerve pierces the deep fascia at the lateral border of the biceps tendon about an inch above the elbow and continues as the lateral cutaneous nerve of the forearm, which makes C true; A reverses its plane, B gives the wrong cord and D gives it a radial muscle.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1065
+## title
+The biceps brachii muscle is primarily involved in:
+## question
+The biceps brachii muscle is primarily involved in:
+## vignette
+This item asks the student to state the two actions of biceps brachii.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+extension of the forearm
+## explanation_a
+Extension of the forearm is triceps, in the posterior compartment. Biceps is a flexor.
+## answer_b
+flexion and supination of the forearm
+## explanation_b
+Correct. Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_c
+pronation of the forearm
+## explanation_c
+The printed key, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.
+## answer_d
+flexion of the wrist
+## explanation_d
+Biceps stops at the radial tuberosity and the bicipital aponeurosis, well above the wrist. Wrist flexion is the forearm flexor group.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State the two actions of biceps brachii.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3; EOM ISK EOM exam 2024.pdf p6 q67. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is the exact opposite of the truth: biceps is the powerful supinator, and it cannot pronate. B is the answer — flexion and supination of the forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1066
+## title
+The brachial artery, select the true answer: (2022) Ac em
+## question
+The brachial artery, select the true answer: (2022) Ac em
+## vignette
+This item asks the student to place the brachial artery relative to the biceps tendon and the median nerve, and give the level at which it divides.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+In the cubital fossa, it lies medial to the biceps tendon.
+## explanation_a
+Correct. In the cubital fossa the order from medial to lateral is median nerve, brachial artery, biceps tendon — so the artery lies medial to the tendon, and that is how it is found for a pulse.
+
+Why this is right:
+- The brachial artery begins at the lower border of teres major as the continuation of the axillary artery, descends on the medial side of the shaft of the humerus and then passes to the front of the arm midway between the epicondyles into the cubital fossa, ending one centimetre below the elbow joint at the level of the neck of the radius by dividing into the radial and ulnar arteries.
+- Its branches are the profunda brachii, the superior ulnar collateral, the inferior ulnar collateral, the nutrient artery to the humerus, muscular branches to biceps, brachialis and coracobrachialis, and the two terminal arteries.
+## answer_b
+Bifurcates opposite the neck of the humerus.
+## explanation_b
+The wrong bone. The artery divides opposite the neck of the *radius*; the neck of the humerus is at the shoulder, where the vessel is still the axillary artery.
+## answer_c
+Is deep throughout its entire course.
+## explanation_c
+The opposite of its defining feature. The brachial artery is superficial throughout, covered only by skin and fascia, which is why it can be compressed to arrest bleeding in the forearm.
+## answer_d
+The median nerve crosses in front of the artery from the medial to the lateral side.
+## explanation_d
+The crossing is real but the direction is reversed. The median nerve begins lateral to the artery and crosses in front of it to the medial side, not medial to lateral.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-798DE81B6EE665
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the brachial artery relative to the biceps tendon and the median nerve, and give the level at which it divides.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p47 q15; EOM ISK 101 - 2023.pdf p7 q73. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1067
+## title
+The contents of cubital fossa include (2024)
+## question
+The contents of cubital fossa include (2024)
+## vignette
+This item asks the student to name the contents of the cubital fossa and separate them from the structures that form its floor or pass outside it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Brachial artery
+## explanation_a
+Correct. The contents from medial to lateral are the median nerve, the brachial artery with the beginnings of the radial and ulnar arteries, the biceps tendon, and the radial nerve.
+
+Why this is right:
+- The cubital fossa is an inverted triangular hollow in front of the elbow joint, occupying the upper third of the front of the forearm.
+## answer_b
+Musculocutaneous nerve
+## explanation_b
+It comes close but does not enter. The musculocutaneous nerve has already pierced the deep fascia at the lateral border of the biceps tendon, so it is subcutaneous by this level, not in the fossa.
+## answer_c
+Ulnar nerve
+## explanation_c
+The wrong side of the elbow entirely. The ulnar nerve passes behind the medial epicondyle, and that is why an injury there spares the contents of the fossa.
+## answer_d
+Tendon of brachialis
+## explanation_d
+Brachialis is the floor of the fossa, not a content of it, and its insertion is into the ulna just beyond. The tendon lying in the fossa is the biceps tendon.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-74BFAB9385B955
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the contents of the cubital fossa and separate them from the structures that form its floor or pass outside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p70 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The termination of the brachial artery is one of the four contents of the fossa; the musculocutaneous and ulnar nerves both lie outside it, and brachialis forms its floor rather than sending a tendon through it.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1068
+## title
+The coracoid process of the scapula gives attachment to: em em em em em
+## question
+The coracoid process of the scapula gives attachment to: em em em em em
+## vignette
+This item asks the student to name what attaches to the coracoid process and separate it from what attaches to the supraglenoid and infraglenoid tubercles.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pectoralis minor
+## explanation_a
+Correct. Pectoralis minor is inserted into the medial border and upper surface of the coracoid process; the short head of biceps and coracobrachialis take its tip.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_b
+Capsule of shoulder joint
+## explanation_b
+The capsule of the shoulder joint runs from the glenoid margin to the anatomical neck and does not reach the coracoid. It is the coraco-humeral ligament that bridges the gap.
+## answer_c
+Long head of biceps brachii muscle
+## explanation_c
+The head this question is built to catch. The short head of biceps takes the coracoid; the long head arises from the supraglenoid tubercle.
+## answer_d
+Long head of triceps. P Ac ad
+## explanation_d
+The long head of triceps arises from the infraglenoid tubercle, on the other side of the glenoid cavity.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name what attaches to the coracoid process and separate it from what attaches to the supraglenoid and infraglenoid tubercles.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p19 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1069
+## title
+The coronoid process of the ulna receive the insertion for which muscle: (2019) em
+## question
+The coronoid process of the ulna receive the insertion for which muscle: (2019) em
+## vignette
+This item asks the student to name the muscle inserted into the coronoid process of the ulna.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Coracobrachialis.
+## explanation_a
+Coracobrachialis is inserted into the medial border of the humerus, halfway down the arm. It does not cross the elbow at all.
+## answer_b
+Biceps brachii.s
+## explanation_b
+The commonest wrong answer, and it is one bone out. Biceps is inserted into the radial tuberosity, which faces the coronoid process across the joint.
+## answer_c
+Triceps brachii.
+## explanation_c
+The printed key, and it is the wrong end of the ulna. Triceps takes the olecranon behind; the coronoid process is in front.
+## answer_d
+Brachialis. Acad 28 | a g e iP iP
+## explanation_d
+Correct. Brachialis descends from the lower half of the humerus to the coronoid process and the tuberosity of the ulna.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, with a small twig from the radial nerve to its lateral part.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-2D2E4341DC5990
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle inserted into the coronoid process of the ulna.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p44 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, and C is wrong: triceps is inserted into the olecranon, at the other end of the trochlear notch. Brachialis is the muscle inserted into the coronoid process and the tuberosity of the ulna.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1070
+## title
+The following muscle is Innervated by the radial nerve: Ac P Vi a- Long head of biceps …
+## question
+The following muscle is Innervated by the radial nerve: Ac P Vi a- Long head of biceps brachii
+## vignette
+This item asks the student to recall that brachialis takes a radial twig as well as its musculocutaneous supply.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Long head of biceps brachii.
+## explanation_a
+Both heads of biceps are musculocutaneous; splitting the muscle into heads does not change its nerve.
+## answer_b
+Short head of biceps brachii.
+## explanation_b
+The short head is musculocutaneous like the long head. The two heads of biceps share one nerve.
+## answer_c
+Brachialis.
+## explanation_c
+Correct. Brachialis is the exception among the flexors: its lateral part receives a branch from the radial nerve, which is why it appears on a list of radial-supplied muscles at all.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## answer_d
+Coracobrachialis.
+## explanation_d
+Coracobrachialis is musculocutaneous, and is pierced by that nerve — which makes it the least likely of the four to be radial.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recall that brachialis takes a radial twig as well as its musculocutaneous supply.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Every option is an anterior-compartment muscle, and the only one the radial nerve reaches is brachialis, whose lateral part takes a twig from the radial nerve in addition to its musculocutaneous supply.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1071
+## title
+The lateral intermuscular septum, choose the correct answer: Ac em
+## question
+The lateral intermuscular septum, choose the correct answer: Ac em
+## vignette
+This item asks the student to give what the lateral intermuscular septum attaches to and separate it from the medial septum by the nerve that pierces it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Pierced by the ulnar nerve
+## explanation_a
+The printed key, and it is the medial septum's answer. On this page the medial-septum question sits directly below, and A is its answer, not this one's. The lateral septum is pierced by the radial nerve with the radial collateral artery.
+## answer_b
+Gives origin to brachialis muscle
+## explanation_b
+Correct. Brachialis arises from the lower half of the front of the humerus and from both intermuscular septa; the lateral septum also gives origin to brachioradialis and extensor carpi radialis longus.
+
+Why this is right:
+- The medial septum is pierced by the ulnar nerve and the superior ulnar collateral artery, which is how the ulnar nerve leaves the front of the arm for the back.
+## answer_c
+Gives attachment to the lateral head of triceps
+## explanation_c
+It is the medial head of triceps that the septa give attachment to behind. The lateral head arises from bone above the spiral groove and touches no septum.
+## answer_d
+Gives attachment to the supinator muscle. y
+## explanation_d
+Supinator is a forearm muscle, arising from the lateral epicondyle and the ulna. No septum of the arm reaches it.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-BAB2A859A2575C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give what the lateral intermuscular septum attaches to and separate it from the medial septum by the nerve that pierces it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p43 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, and A belongs to the other septum: the ulnar nerve pierces the medial intermuscular septum, and the lateral septum is pierced by the radial nerve. B is true — brachialis arises from both septa. The unkeyed printing of this question, asked five times, is overridden to B on the same reasoning.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1072
+## title
+The musculocutaneous nerve pierces which muscle? (2022) em em em em em
+## question
+The musculocutaneous nerve pierces which muscle? (2022) em em em em em
+## vignette
+This item asks the student to name the muscle the musculocutaneous nerve pierces.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Coracobrachialis
+## explanation_a
+Correct. Coracobrachialis is the muscle the nerve pierces on its way from the axilla into the arm.
+
+Why this is right:
+- The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7.
+## answer_b
+Short head of biceps
+## explanation_b
+The short head of biceps lies in front of the nerve, not around it.
+## answer_c
+Brachialis
+## explanation_c
+Brachialis is supplied by the nerve and lies behind it — a relation, not a piercing.
+## answer_d
+Long head of biceps
+## explanation_d
+The long head of biceps is a tendon in the intertubercular groove at the level where the nerve pierces coracobrachialis.
+## topic
+Arm
+## subtopic
+Arm
+## main_concept
+CON-MSK-F125616F7ED37A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle the musculocutaneous nerve pierces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q5; EOM ISK 101 - 2023.pdf p10 q105. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1073
+## title
+The ulnar collateral ligament:
+## question
+The ulnar collateral ligament:
+## vignette
+This item asks the student to give the attachments of the ulnar collateral ligament and the relation of the ulnar nerve to it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Attached to the medial epicondyle of the humerus
+## explanation_a
+Correct. All three bands — anterior, posterior and oblique — spring from the medial epicondyle, which is what makes the ligament triangular.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_b
+Attached to the lateral border of coronoid process of ulna
+## explanation_b
+The right process from the wrong side. The anterior band reaches the *medial* margin of the coronoid process; a lateral attachment would cross the joint to the radial side.
+## answer_c
+Attached to triceps and flexor carpi radialis
+## explanation_c
+Flexor carpi ulnaris covers the ligament and arises from the medial epicondyle and the olecranon. Flexor carpi radialis is on the other side of the forearm, and triceps is behind.
+## answer_d
+The ulnar nerve passes in front the ulnar collateral ligament
+## explanation_d
+The relation reversed. The ulnar nerve passes *behind* the medial epicondyle, resting on the posterior band of the ligament, which is why a blow there is felt in the little finger.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the attachments of the ulnar collateral ligament and the relation of the ulnar nerve to it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q21. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The apex of the triangular ulnar collateral ligament is on the medial epicondyle, from which all three of its bands radiate; B, C and D each name an attachment or a relation the ligament does not have.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1074
+## title
+Which tendon is intracapsular extrasynovial of the shoulder 1 joint, mark the correct a…
+## question
+Which tendon is intracapsular extrasynovial of the shoulder 1 joint, mark the correct answer:
+## vignette
+This item asks the student to explain why the tendon of the long head of biceps is inside the capsule of the shoulder joint but outside its synovial membrane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Long head of biceps brachii
+## explanation_a
+Correct. The tendon runs from the supraglenoid tubercle across the head of the humerus inside the capsule, wrapped in a synovial sheath that keeps it extrasynovial.
+
+Why this is right:
+- It is supplied by the musculocutaneous nerve, from the lateral cord.
+## answer_b
+Short head of biceps brachii
+## explanation_b
+The short head arises from the coracoid process, outside the joint entirely.
+## answer_c
+Long head of triceps muscle
+## explanation_c
+The long head of triceps arises from the infraglenoid tubercle, below and outside the capsular attachment.
+## answer_d
+Teres minor
+## explanation_d
+Teres minor blends with the outer surface of the capsule as part of the rotator cuff; it does not pass through it.
+## topic
+Upper Limb
+## subtopic
+Arm
+## main_concept
+CON-MSK-875049D4420AA4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Arm
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-ARM
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Explain why the tendon of the long head of biceps is inside the capsule of the shoulder joint but outside its synovial membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p13 q5. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This is the four-option printing of the same question; the tendon of the long head of biceps is the only structure that runs within the capsule of the shoulder joint while remaining outside the synovial cavity.
