@@ -86,6 +86,7 @@ import com.nishany.android.feature.qbank.TopicChooserScreen
 import com.nishany.android.feature.reader.ArticleReaderRoute
 import com.nishany.android.feature.reader.ResourceReaderRoute
 import com.nishany.android.feature.studyrooms.StudyRoomsRoute
+import com.nishany.android.feature.studytest.StudyTestRoute
 import java.time.Duration
 import kotlinx.coroutines.flow.first
 
@@ -107,6 +108,10 @@ private const val ROUTE_LIBRARY = "library"
 // Voice study rooms. A pushed destination from Home's "MORE" grid, never a
 // bottom-nav tab — the same shape as ROUTE_LIBRARY and friends.
 private const val ROUTE_STUDYROOMS = "studyrooms"
+// The shared-test "Study together" room (`/api/study-rooms/*`) -- a separate
+// system from ROUTE_STUDYROOMS above (voice, `/api/parties/*`). Also a pushed
+// destination from Home's "MORE" grid, never a bottom-nav tab.
+private const val ROUTE_STUDYTEST = "studytest"
 // The article Reader, pushed from the Library with the article's id. A real
 // nav destination (not the Library's internal detail state) so system back
 // returns to the Library and a "read next" link can push another Reader on top.
@@ -345,6 +350,7 @@ private fun SignedInNavHost(
                     onOpenAssistant = { navController.navigate(ROUTE_ASSISTANT) },
                     onOpenLibrary = { navController.navigate(ROUTE_LIBRARY) },
                     onOpenStudyRooms = { navController.navigate(ROUTE_STUDYROOMS) },
+                    onOpenStudyTogether = { navController.navigate(ROUTE_STUDYTEST) },
                     onOpenAdaptiveStudy = { navController.navigate(ROUTE_ADAPTIVE) },
                 )
             }
@@ -431,6 +437,12 @@ private fun SignedInNavHost(
             // stack entry so system back returns to Home.
             composable(ROUTE_STUDYROOMS) {
                 StudyRoomsRoute(graph = graph, onBack = { navController.popBackStack() })
+            }
+            // The shared-test "Study together" room -- pushed from Home's
+            // "MORE" grid, its own back stack entry so system back returns to
+            // Home. A separate system from ROUTE_STUDYROOMS above (voice).
+            composable(ROUTE_STUDYTEST) {
+                StudyTestRoute(graph = graph, onBack = { navController.popBackStack() })
             }
             // Reached from Settings' Billing row, not the "MORE" grid --
             // matching iOS and the web, which both put Billing under Account.

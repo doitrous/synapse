@@ -85,6 +85,7 @@ fun HomeRoute(
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenStudyTogether: () -> Unit,
     onOpenAdaptiveStudy: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
@@ -104,6 +105,7 @@ fun HomeRoute(
         onOpenAssistant = onOpenAssistant,
         onOpenLibrary = onOpenLibrary,
         onOpenStudyRooms = onOpenStudyRooms,
+        onOpenStudyTogether = onOpenStudyTogether,
         onOpenAdaptiveStudy = onOpenAdaptiveStudy,
     )
 }
@@ -142,6 +144,7 @@ fun HomeScreen(
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenStudyTogether: () -> Unit,
     onOpenAdaptiveStudy: () -> Unit,
 ) {
     val cortex = LocalCortex.current
@@ -186,6 +189,7 @@ fun HomeScreen(
                 onOpenTerminology = onOpenTerminology,
                 onOpenAssistant = onOpenAssistant,
                 onOpenStudyRooms = onOpenStudyRooms,
+                onOpenStudyTogether = onOpenStudyTogether,
                 onOpenAdaptiveStudy = onOpenAdaptiveStudy,
             )
         }
@@ -390,6 +394,7 @@ private fun MoreGrid(
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenStudyTogether: () -> Unit,
     onOpenAdaptiveStudy: () -> Unit,
 ) {
     val cortex = LocalCortex.current
@@ -478,6 +483,20 @@ private fun MoreGrid(
                 onClick = onOpenAdaptiveStudy,
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            // A shared test (host/join by code, everyone answers the same
+            // set) -- unrelated to "Study rooms" above, which is voice-only.
+            // Reuses QuestionBankGlyph rather than a new icon: this is, at
+            // heart, the question bank sat together.
+            GridCard(
+                icon = { QuestionBankGlyph(color = cortex.accentStrong) },
+                label = "Study together",
+                sublabel = "Sit a shared test",
+                onClick = onOpenStudyTogether,
+                modifier = Modifier.weight(1f),
+            )
+            Spacer(modifier = Modifier.weight(1f))
         }
     }
 }
