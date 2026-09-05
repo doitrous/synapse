@@ -69,7 +69,7 @@
 
 # Item
 ## label
-Pathology is studied in two stages, general pathology and systemic pathology
+Pathology: general and systemic
 ## id
 CON-FND-E9DDE81591D0A7
 ## canonical_key
@@ -85,7 +85,11 @@ What pathology studies
 علم الأمراض العام
 علم الأمراض الخاص
 ## definition
-Pathology is the scientific study of disease, covering the functional and structural changes of disease from the molecular level up to the effect on the whole individual. It is learned in two stages: general pathology, which is the study of the main types of disease process such as inflammation and tumours, and systemic pathology, which describes specific diseases as they affect one organ or organ system.
+**Pathology** is the scientific study of disease — the functional and structural changes of disease from the molecular level up to the effect on the whole individual.
+
+It is learned in two stages. __General pathology__ is the study of the main types of disease process, such as inflammation and tumours.
+
+__Systemic pathology__ describes specific diseases as they affect one organ or organ system.
 ## explicit_objective
 Distinguish general pathology from systemic pathology, and place a named topic in the right one.
 ## pitfalls
@@ -211,7 +215,7 @@ relationships: Walked the 49 concepts in this batch and the zero concepts alread
 
 # Item
 ## label
-Every disease entity is described under six headings, from epidemiology to prognosis
+The six headings of a disease
 ## id
 CON-FND-1712C0F57AAD45
 ## canonical_key
@@ -228,7 +232,11 @@ Sequelae
 المسبب
 الإمراض
 ## definition
-Each disease is described under six things in order: epidemiology, the distribution and determinants of the disease in a population; aetiology, its cause; pathogenesis, the mechanism by which that cause produces the disease; the morphological, functional and clinical changes it makes; its complications and sequelae; and its prognosis, the course it would take if left alone.
+Each disease is described under **six headings**, in order.
+
+**Epidemiology** is the distribution and determinants of the disease in a population; **aetiology** is its cause; **pathogenesis** is the mechanism by which that cause produces the disease.
+
+Then come the **morphological, functional and clinical changes** it makes, its **complications and sequelae**, and finally its **prognosis** — __the course it would take if left alone__.
 ## explicit_objective
 Name the six headings under which a disease is described, and separate aetiology from pathogenesis when given a clinical example.
 ## pitfalls
@@ -354,7 +362,7 @@ relationships: Walked all 49 batch concepts. The two other introduction records 
 
 # Item
 ## label
-Diseases are classified by mechanism into congenital and acquired
+Classifying disease by pathogenesis
 ## id
 CON-FND-0BE3CE88A36BB5
 ## canonical_key
@@ -369,7 +377,11 @@ Classification of disease by pathogenesis
 الأمراض الخلقية
 الأمراض المكتسبة
 ## definition
-The most widely used general classification of disease is by pathogenesis, the mechanism. Diseases are congenital, which is either genetic or non-genetic, or acquired, which divides five ways: inflammatory, haemodynamic, growth disorders, disordered immunity, and metabolic and degenerative disease.
+The most widely used classification of disease is by **pathogenesis** — the mechanism.
+
+Diseases are **congenital**, which is either genetic or non-genetic, or **acquired**.
+
+__Acquired disease divides five ways__: inflammatory, haemodynamic, growth disorders, disordered immunity, and metabolic and degenerative disease.
 ## explicit_objective
 Place a named disease in this classification, and give the five subdivisions of acquired disease.
 ## pitfalls
@@ -494,7 +506,7 @@ relationships: Walked all 49 batch concepts. Every cell-injury record in this ba
 
 # Item
 ## label
-A cell meets stress with adaptation, reversible injury, or irreversible injury and death
+Adaptation, reversible injury, cell death
 ## id
 CON-FND-D53E254A82F334
 ## canonical_key
@@ -510,7 +522,11 @@ Homeostasis and cell stress
 التكيف الخلوي
 الإصابة العكوسة
 ## definition
-Normal cell function is a steady state between physiological demand and the cell's structural and metabolic capacity. Modest stress is met by adaptation, which changes the cell but preserves its viability. Greater stress produces reversible injury, which returns to normal if the stimulus is removed. Stress beyond the cell's capacity to adapt produces irreversible injury and cell death. The three are one continuum of progressive impairment, not three separate events.
+Normal cell function is a **steady state** between physiological demand and the cell's structural and metabolic capacity.
+
+Modest stress is met by **adaptation**, which changes the cell but preserves its viability. Greater stress produces **reversible injury**, which returns to normal if the stimulus is removed. Stress beyond the cell's capacity produces **irreversible injury and cell death**.
+
+__The three are one continuum of progressive impairment__, not three separate events.
 ## explicit_objective
 Predict which of the three responses a cell makes to a given stimulus, and justify the answer from the severity and duration of the stress.
 ## pitfalls
@@ -640,7 +656,7 @@ relationships: Walked the 49 batch concepts and the zero live concepts under SYS
 
 # Item
 ## label
-Adaptation takes four forms: hypertrophy, hyperplasia, atrophy and metaplasia
+The four cellular adaptations
 ## id
 CON-FND-DF726F864C8BC3
 ## canonical_key
@@ -659,7 +675,9 @@ Metaplasia
 الضمور
 الحؤول
 ## definition
-Adaptation occurs when a physiological or pathological stressor induces a new steady state that changes the cell but preserves its viability in the face of the stimulus. The four changes are hypertrophy, hyperplasia, atrophy and metaplasia.
+**Adaptation** occurs when a physiological or pathological stressor induces a new steady state that changes the cell but __preserves its viability__ in the face of the stimulus.
+
+The four changes are **hypertrophy, hyperplasia, atrophy and metaplasia**.
 ## explicit_objective
 Name the four adaptive changes and identify which one a described tissue has undergone.
 ## pitfalls
@@ -783,7 +801,7 @@ relationships: Walked the 49 batch concepts. Atrophy connects to the brown-atrop
 
 # Item
 ## label
-Hypoxia is the commonest cause of cell injury, and it reaches the cell three ways
+Hypoxia and the causes of cell injury
 ## id
 CON-FND-8989A49BEBCF14
 ## canonical_key
@@ -800,7 +818,11 @@ Oxygen deprivation
 نقص الأكسجة
 نقص التروية
 ## definition
-Oxygen deprivation impairs aerobic respiration and therefore the cell's ability to generate ATP, and it is the single most important and common cause of cell injury and death. Hypoxia arises from ischaemia, a deficient blood supply; from inadequate oxygenation, as in cardiorespiratory failure; or from loss of the oxygen-carrying capacity of the blood, as in anaemia and carbon monoxide poisoning. The other six causes are physical agents, chemical agents and drugs, infectious agents, immunological reactions, genetic derangements and nutritional imbalance.
+**Oxygen deprivation** impairs aerobic respiration and so the cell's ability to generate ATP. It is __the single most important and common cause of cell injury and death__.
+
+Hypoxia arises from **ischaemia**, a deficient blood supply; from **inadequate oxygenation**, as in cardiorespiratory failure; or from **loss of oxygen-carrying capacity**, as in anaemia and carbon monoxide poisoning.
+
+The other six causes are physical agents, chemical agents and drugs, infectious agents, immunological reactions, genetic derangements and nutritional imbalance.
 ## explicit_objective
 Enumerate the causes of cell injury, and separate ischaemia from the other two routes to hypoxia when given a clinical scenario.
 ## pitfalls
@@ -928,7 +950,7 @@ relationships: Walked the 49 batch concepts. Hypoxia causes the ATP-depletion me
 
 # Item
 ## label
-ATP depletion injures the cell through the sodium pump, protein synthesis and calcium
+ATP depletion injures the cell
 ## id
 CON-FND-375B9454502DE8
 ## canonical_key
@@ -944,7 +966,9 @@ Oxidative phosphorylation failure
 آليات إصابة الخلية
 فشل مضخة الصوديوم
 ## definition
-Interference with oxidative phosphorylation in the mitochondria reduces ATP and so impairs the biochemical processes that depend on it. Three consequences follow: the sodium pump loses activity, so sodium accumulates inside the cell and water follows it in and the cell swells; protein synthesis is interfered with; and intracellular calcium rises, because the enzymes that keep calcium in check are themselves ATP-dependent.
+Interference with **oxidative phosphorylation** in the mitochondria reduces **ATP** and so impairs the processes that depend on it.
+
+Three consequences follow. The **sodium pump** loses activity, so sodium accumulates inside the cell and __water follows it in and the cell swells__. **Protein synthesis** is interfered with. And **intracellular calcium rises**, because the enzymes that keep calcium in check are themselves ATP-dependent.
 ## explicit_objective
 Trace ATP depletion to cell swelling, and name the two other consequences of losing ATP.
 ## pitfalls
@@ -1072,7 +1096,7 @@ relationships: Walked the 49 batch concepts. This is mechanism_step_before cloud
 
 # Item
 ## label
-Oxidative stress is free-radical production outrunning antioxidant defence
+Free radicals and oxidative stress
 ## id
 CON-FND-7B96FFE8FC4285
 ## canonical_key
@@ -1089,7 +1113,11 @@ Lipid peroxidation
 الجذور الحرة
 أنواع الأكسجين التفاعلية
 ## definition
-Free radicals are chemical species with a single unpaired electron in an outer orbit, which makes them highly reactive with adjacent molecules. They are produced normally in small amounts during mitochondrial redox reactions, and the reactive oxygen species involved are superoxide, the hydroxyl radical and hydrogen peroxide. Defence is by antioxidants such as vitamin E and enzymes such as superoxide dismutase. When the defences are overcome, free radicals attack membrane lipids by peroxidation, and attack cellular proteins and DNA — that state is oxidative stress.
+**Free radicals** are chemical species with a single unpaired electron in an outer orbit, which makes them __highly reactive__ with adjacent molecules.
+
+They are produced normally in small amounts during mitochondrial redox reactions; the **reactive oxygen species** are superoxide, the hydroxyl radical and hydrogen peroxide. Defence is by **antioxidants** such as vitamin E and enzymes such as superoxide dismutase.
+
+When the defences are overcome, free radicals attack membrane lipids by **peroxidation** and attack cellular proteins and DNA — __that state is oxidative stress__.
 ## explicit_objective
 Name the three reactive oxygen species and the two defences against them, and explain what makes a free radical reactive.
 ## pitfalls
@@ -1217,7 +1245,7 @@ relationships: Walked the 49 batch concepts. Free radicals cause the lipofuscin 
 
 # Item
 ## label
-Free radicals released on reperfusion injure tissue that survived the ischaemia
+Membrane disruption and reperfusion injury
 ## id
 CON-FND-2126819970522D
 ## canonical_key
@@ -1233,7 +1261,11 @@ Lysosomal rupture
 تلف الأغشية الخلوية
 انحلال الجسيمات الحالة
 ## definition
-Membrane disruption is the common end point of the other mechanisms. ATP depletion stops the plasma-membrane sodium pump; rising intracellular calcium activates phospholipases that break membranes down; free-radical peroxidation damages membrane lipids further; and rupture of lysosomal membranes releases DNAases and proteases into the cytosol, which kills the cell. Free radicals are the agent responsible for reperfusion injury, which follows the restoration of blood flow to ischaemic tissue, and in cellular ageing, chemical injury and radiation damage.
+**Membrane disruption** is the common end point of the other mechanisms.
+
+ATP depletion stops the plasma-membrane sodium pump; rising **calcium** activates phospholipases that break membranes down; free-radical **peroxidation** damages membrane lipids further; and rupture of **lysosomal membranes** releases DNAases and proteases into the cytosol, __which kills the cell__.
+
+Free radicals are the agent responsible for **reperfusion injury**, which follows restoration of blood flow to ischaemic tissue, and they act in cellular ageing, chemical injury and radiation damage.
 ## explicit_objective
 Explain why restoring blood flow to ischaemic tissue can injure it further, and name the four routes by which membranes are disrupted.
 ## pitfalls
@@ -1362,7 +1394,7 @@ relationships: Walked the 49 batch concepts. This is mechanism_step_before necro
 
 # Item
 ## label
-Reversible injury shows as cloudy swelling first, then hydropic change, then fatty change
+Reversible injury: cloudy, hydropic, fatty
 ## id
 CON-FND-2DDF56DA42A0A8
 ## canonical_key
@@ -1380,7 +1412,11 @@ Reversible injury
 التورم الغائم
 التنكس المائي
 ## definition
-Cloudy swelling is one of the earliest changes seen in injury: the sodium pump is lost, sodium and water accumulate, the cell swells and the cytoplasm looks granular. It is seen in liver cells, myocardial cells and renal tubular cells. Hydropic, ballooning or vacuolar change is the same mechanism further advanced — the cell is swollen with excess water, the cytoplasm is pale and shows multiple vacuoles. Fatty change is the third pattern, occurring in hypoxic and toxic injury, in which lipid appears as empty vacuoles in the cytoplasm of cells that handle fat.
+**Cloudy swelling** is one of the earliest changes: the sodium pump is lost, sodium and water accumulate, the cell swells and the cytoplasm looks granular. It is seen in liver, myocardial and renal tubular cells.
+
+**Hydropic (ballooning or vacuolar) change** is the same mechanism further advanced — the cell is swollen with excess water, the cytoplasm pale with multiple vacuoles.
+
+**Fatty change** is the third pattern, in hypoxic and toxic injury, in which __lipid appears as empty vacuoles__ in the cytoplasm of cells that handle fat.
 ## explicit_objective
 Name the earliest morphological change of reversible cell injury, and order the three reversible patterns by severity.
 ## pitfalls
@@ -1510,7 +1546,7 @@ relationships: Walked the 49 batch concepts. Cloudy swelling is mechanism_step_b
 
 # Item
 ## label
-Necrosis is the death of a group of cells within a living body
+What necrosis is
 ## id
 CON-FND-4CD77608FB35DF
 ## canonical_key
@@ -1526,7 +1562,11 @@ Cell death
 موت الخلايا
 النخر النسيجي
 ## definition
-Necrosis is death of a group of cells within a living body. With severe or prolonged moderate injury the cell loses membrane integrity and lysosomal enzymes are released into the cytosol, destroying the cellular constituents; cell contents leak into the surrounding tissue and provoke an inflammatory response. Two processes underlie the morphology: denaturation of proteins, and enzymatic digestion of organelles and other cytosolic components. Necrotic areas are removed by macrophages and repaired by fibrosis, and dystrophic calcification may follow.
+**Necrosis** is __death of a group of cells within a living body__.
+
+With severe or prolonged injury the cell loses membrane integrity and **lysosomal enzymes** are released into the cytosol, destroying cellular constituents; contents leak into the tissue and **provoke inflammation**.
+
+Two processes underlie the morphology: **denaturation of proteins** and **enzymatic digestion** of organelles and cytosolic components. Necrotic areas are removed by macrophages and repaired by fibrosis, and dystrophic calcification may follow.
 ## explicit_objective
 Define necrosis, name the two processes that produce its morphology, and state the fate of necrotic tissue.
 ## pitfalls
@@ -1657,7 +1697,7 @@ relationships: Walked the 49 batch concepts and the zero live concepts under SYS
 
 # Item
 ## label
-Necrosis is recognised by karyolysis, pyknosis and karyorrhexis with a pinker cytoplasm
+Nuclear and cytoplasmic signs of necrosis
 ## id
 CON-FND-8DA30AD870AC1E
 ## canonical_key
@@ -1675,7 +1715,11 @@ Nuclear changes in necrosis
 تكثف النواة
 تفتت النواة
 ## definition
-The nucleus of a necrotic cell changes three ways: karyolysis, the fading of nuclear basophilia; pyknosis, nuclear shrinkage, which is followed by karyorrhexis; and karyorrhexis itself, destructive nuclear fragmentation. Eventually the nucleus disappears completely. The cytoplasm becomes more eosinophilic — stains pinker with haematoxylin and eosin — partly from loss of the cytoplasmic RNA that binds haematoxylin and partly from denatured proteins that bind eosin; the cell border loses definition, and later the tissue appears structureless pink from autolysis.
+The nucleus changes three ways: **karyolysis**, the fading of nuclear basophilia; **pyknosis**, nuclear shrinkage; and **karyorrhexis**, destructive nuclear fragmentation. __Eventually the nucleus disappears completely__.
+
+The cytoplasm becomes more **eosinophilic** — stains pinker — partly from loss of cytoplasmic RNA that binds haematoxylin and partly from denatured proteins that bind eosin.
+
+The cell border loses definition, and later the tissue appears structureless pink from autolysis.
 ## explicit_objective
 Name the three nuclear changes of necrosis, define each, and explain why necrotic cytoplasm stains pinker.
 ## pitfalls
@@ -1806,7 +1850,7 @@ relationships: Walked the 49 batch concepts. This is part_of the necrosis defini
 
 # Item
 ## label
-Coagulative necrosis keeps the cell outline because denaturation outruns autolysis
+Coagulative necrosis
 ## id
 CON-FND-5285A9707E61CA
 ## canonical_key
@@ -1823,7 +1867,11 @@ Ghost outlines
 النخر الإقفاري
 الاحتشاء
 ## definition
-Coagulative necrosis follows acute ischaemia, a sudden decrease in blood supply, and is due to protein denaturation: the injury denatures the structural proteins and also the enzymes that would digest them, so the cellular outlines are held for a time. The necrotic area is initially white or yellow but of normal consistency, as in infarction of the kidney, spleen and heart. Microscopically there is loss of nuclei and increased cytoplasmic eosinophilia with the general cellular outline retained — the ghost of the original tissue — and inflammatory cells infiltrate the margin while macrophages remove the dead tissue.
+**Coagulative necrosis** follows acute **ischaemia** and is due to **protein denaturation**: the injury denatures the structural proteins and also the enzymes that would digest them, so __the cellular outlines are held for a time__.
+
+The necrotic area is initially white or yellow but of normal consistency, as in infarction of the **kidney, spleen and heart**.
+
+Microscopically there is loss of nuclei and increased cytoplasmic eosinophilia with the outline retained — **the ghost of the original tissue** — while inflammatory cells infiltrate the margin and macrophages remove the dead tissue.
 ## explicit_objective
 Explain why cellular outlines survive in coagulative necrosis, and name three organs in which it occurs.
 ## pitfalls
@@ -1953,7 +2001,7 @@ relationships: Walked the 49 batch concepts. Hypoxia causes this (CON-FND-8989A4
 
 # Item
 ## label
-Liquefactive necrosis turns the dead tissue to fluid, in the brain and in pus
+Liquefactive necrosis
 ## id
 CON-FND-88508ABAB84A67
 ## canonical_key
@@ -1970,7 +2018,11 @@ Abscess
 النخر الاستحالي
 القيح
 ## definition
-Liquefactive or colliquative necrosis occurs in central nervous system infarction, where the tissue is rich in lipid, soft and lacking supporting stroma. The necrotic area becomes surrounded by glial tissue and is changed into a cyst. Pus in suppurative inflammation is the other example.
+**Liquefactive (colliquative) necrosis** occurs in **central nervous system infarction**, where the tissue is rich in lipid, soft and lacking supporting stroma.
+
+The necrotic area becomes surrounded by glial tissue and is __changed into a cyst__.
+
+**Pus** in suppurative inflammation is the other example.
 ## explicit_objective
 Name the two settings in which liquefactive necrosis occurs, and explain from tissue structure why the brain liquefies where the kidney does not.
 ## pitfalls
@@ -2096,7 +2148,7 @@ relationships: Walked the 49 batch concepts. contrasts_with coagulative necrosis
 
 # Item
 ## label
-Caseation necrosis is the cheese-like necrosis of tuberculosis
+Caseation necrosis
 ## id
 CON-FND-5B3B6BA12670C7
 ## canonical_key
@@ -2112,7 +2164,9 @@ Cheese-like necrosis
 التجبن
 النخر التجبني
 ## definition
-Caseation necrosis is a type of necrosis in which the necrotic tissue appears semi-solid, yellowish and cheese-like, from casein. Under the microscope it appears as granular structureless pink material. It occurs mainly in tuberculosis, through tissue digestion by activated macrophages, and the lipids liberated from the capsule of the tubercle bacillus add to the cheese-like appearance.
+**Caseation necrosis** is necrosis in which the dead tissue appears semi-solid, yellowish and __cheese-like__, from casein. Under the microscope it is granular structureless pink material.
+
+It occurs mainly in **tuberculosis**, through tissue digestion by activated macrophages, and the lipids liberated from the capsule of the tubercle bacillus add to the cheese-like appearance.
 ## explicit_objective
 Recognise caseation necrosis from a gross or microscopic description, and name the disease it points to.
 ## pitfalls
@@ -2241,7 +2295,7 @@ relationships: Walked the 49 batch concepts. Caseation causes dystrophic calcifi
 
 # Item
 ## label
-Fat necrosis is traumatic or enzymatic, and the enzymatic form makes chalky calcium soaps
+Fat necrosis: traumatic and enzymatic
 ## id
 CON-FND-6626C19B61A23B
 ## canonical_key
@@ -2258,7 +2312,9 @@ Pancreatic fat necrosis
 النخر الدهني الرضحي
 النخر الدهني الإنزيمي
 ## definition
-Traumatic fat necrosis follows trauma to adipose tissue: intracellular fat is released and provokes an inflammatory response, macrophages engulf the fat, and fibrosis follows. A common site is the breast, where it produces a palpable mass. Enzymatic fat necrosis occurs in acute pancreatitis, where leaked pancreatic lipase splits mesenteric fat into fatty acids, which combine with calcium to form white calcium soaps.
+**Traumatic fat necrosis** follows trauma to adipose tissue: intracellular fat is released and provokes inflammation, macrophages engulf the fat, and fibrosis follows. A common site is the **breast**, where it produces a palpable mass.
+
+**Enzymatic fat necrosis** occurs in **acute pancreatitis**, where leaked pancreatic lipase splits mesenteric fat into fatty acids, which combine with calcium to form __white calcium soaps__.
 ## explicit_objective
 Distinguish the two types of fat necrosis by mechanism and site, and explain why the enzymatic form looks chalky white.
 ## pitfalls
@@ -2390,7 +2446,7 @@ relationships: Walked the 49 batch concepts. Fat necrosis causes dystrophic calc
 
 # Item
 ## label
-Fibrinoid necrosis stains like fibrin and marks immune damage to vessels and collagen
+Fibrinoid necrosis
 ## id
 CON-FND-BA0739479AD0FC
 ## canonical_key
@@ -2405,7 +2461,9 @@ Fibrinoid degeneration
 النخر الشبيه بالفيبرين
 التنكس الفيبريني
 ## definition
-Fibrinoid necrosis is a special form of necrosis in which the necrotic material has staining reactions resembling fibrin: with haematoxylin and eosin the material is deep red and homogeneous. It is seen where collagen is damaged in some autoimmune diseases, such as rheumatoid arthritis, and in immune reactions involving blood vessels, such as polyarteritis nodosa.
+**Fibrinoid necrosis** is a special form in which the necrotic material has staining reactions __resembling fibrin__: with haematoxylin and eosin it is deep red and homogeneous.
+
+It is seen where **collagen** is damaged in autoimmune diseases such as rheumatoid arthritis, and in **immune reactions involving blood vessels** such as polyarteritis nodosa.
 ## explicit_objective
 Name the type of necrosis found in blood vessels in autoimmune disease, and give its appearance on haematoxylin and eosin.
 ## pitfalls
@@ -2534,7 +2592,7 @@ relationships: Walked the 49 batch concepts. often_confused_with hyaline change 
 
 # Item
 ## label
-Apoptosis is energy-dependent deletion of single cells that provokes no inflammation
+What apoptosis is
 ## id
 CON-FND-11D3CBC654E7F3
 ## canonical_key
@@ -2550,7 +2608,11 @@ Individual cell deletion
 موت الخلية المبرمج
 الموت الخلوي المبرمج
 ## definition
-Apoptosis is programmed cell death, and it is energy dependent. It is a form of cell death that deletes individual cells: their membranes remain intact, so cell contents are never released into the surrounding tissue, and it therefore does not provoke an inflammatory response.
+**Apoptosis** is __programmed cell death__, and it is energy dependent.
+
+It deletes individual cells: their **membranes remain intact**, so contents are never released into the surrounding tissue.
+
+It therefore __does not provoke inflammation__.
 ## explicit_objective
 Define apoptosis, and explain from membrane integrity why it causes no inflammation.
 ## pitfalls
@@ -2680,7 +2742,7 @@ relationships: Walked the 49 batch concepts and the two live apoptosis concepts 
 
 # Item
 ## label
-Apoptosis is executed by caspases and controlled by the bcl-2 protein family
+Caspases and bcl-2 control apoptosis
 ## id
 CON-FND-C6661CBD045436
 ## canonical_key
@@ -2697,7 +2759,9 @@ Apoptosis regulation
 الكاسبيزات
 عائلة بروتين bcl-2
 ## definition
-Apoptosis is controlled by the bcl-2 protein family and is brought about by the activation of a group of enzymes called caspases. The caspases destroy the nuclear membrane and activate DNAases, which degrade nuclear DNA.
+Apoptosis is controlled by the **bcl-2 protein family** and brought about by activation of enzymes called **caspases**.
+
+The caspases destroy the nuclear membrane and activate **DNAases**, which __degrade nuclear DNA__.
 ## explicit_objective
 Name the enzyme family that executes apoptosis and the protein family that controls it, and state what the caspases do.
 ## pitfalls
@@ -2826,7 +2890,7 @@ relationships: Walked the 49 batch concepts. This is mechanism_step_before the a
 
 # Item
 ## label
-Apoptosis has physiological causes as well as pathological ones
+Physiological and pathological apoptosis
 ## id
 CON-FND-A40D59DAB245EA
 ## canonical_key
@@ -2842,7 +2906,9 @@ Embryogenesis cell death
 الاستماتة الفسيولوجية
 الاستماتة المرضية
 ## definition
-Physiologically, apoptosis destroys cells programmed for deletion in embryogenesis, produces hormone-dependent involution such as the endometrium in menstruation, deletes cells in proliferating populations such as intestinal epithelium to hold cell number constant, and removes cells with significant DNA damage before their mutations are passed on. Pathologically it kills virus-infected cells, follows irradiation, eliminates cancer cells including under anticancer drugs, is induced by cytotoxic T lymphocytes in transplant rejection, follows accumulation of misfolded proteins, and produces the pathological atrophy of a parenchymal organ after duct obstruction.
+**Physiologically**, apoptosis destroys cells programmed for deletion in embryogenesis, produces hormone-dependent involution such as the endometrium in menstruation, deletes cells in proliferating populations such as intestinal epithelium to __hold cell number constant__, and removes cells with significant DNA damage before their mutations are passed on.
+
+**Pathologically**, it kills virus-infected cells, follows irradiation, eliminates cancer cells including under anticancer drugs, is induced by cytotoxic T lymphocytes in transplant rejection, follows accumulation of misfolded proteins, and produces the pathological atrophy of a parenchymal organ after duct obstruction.
 ## explicit_objective
 Give a physiological and a pathological cause of apoptosis, and explain why deleting a DNA-damaged cell is protective.
 ## pitfalls
@@ -2968,7 +3034,7 @@ relationships: Walked the 49 batch concepts. Misfolded-protein accumulation appe
 
 # Item
 ## label
-An apoptotic cell shrinks with an intact membrane and breaks into apoptotic bodies
+Morphology of an apoptotic cell
 ## id
 CON-FND-46B3AD5A2D8294
 ## canonical_key
@@ -2984,7 +3050,11 @@ Cell shrinkage
 التغيرات الشكلية للاستماتة
 تكثف السيتوبلازم
 ## definition
-The cytoplasm condenses and the cell shrinks while the plasma membrane stays intact. The nucleus shrinks and fragments. The cell throws out surface blebs, which then break off as membrane-bound apoptotic bodies, each a dark nuclear fragment surrounded by eosinophilic cytoplasm. Adjacent cells or macrophages remove the apoptotic cells and bodies.
+The cytoplasm condenses and the cell **shrinks** while the plasma membrane __stays intact__. The nucleus shrinks and fragments.
+
+The cell throws out surface blebs, which break off as membrane-bound **apoptotic bodies**, each a dark nuclear fragment surrounded by eosinophilic cytoplasm.
+
+Adjacent cells or macrophages remove the apoptotic cells and bodies.
 ## explicit_objective
 Describe the morphological features of apoptosis in order, and identify an apoptotic body from a description.
 ## pitfalls
@@ -3113,7 +3183,7 @@ relationships: Walked the 49 batch concepts. contrasts_with the necrosis morphol
 
 # Item
 ## label
-Necrosis and apoptosis differ in cell size, membrane integrity and inflammation
+Necrosis versus apoptosis
 ## id
 CON-FND-2CDE9A5C884133
 ## canonical_key
@@ -3128,7 +3198,13 @@ Types of cell death
 ## arabic_aliases
 مقارنة أنماط موت الخلية
 ## definition
-Cell death occurs by two morphological patterns and mechanisms. Necrosis kills a group of cells, swells them, breaks the membrane, spills the contents and provokes inflammation, and it is not energy dependent. Apoptosis deletes individual cells, shrinks them, keeps the membrane intact, packages the remains into apoptotic bodies and provokes no inflammation, and it costs the cell energy. Both fragment the nucleus, which is why the nuclear picture alone does not separate them.
+Cell death occurs by two patterns.
+
+**Necrosis** kills a group of cells, swells them, breaks the membrane, spills the contents and provokes inflammation, and is __not energy dependent__.
+
+**Apoptosis** deletes individual cells, shrinks them, keeps the membrane intact, packages the remains into apoptotic bodies and provokes no inflammation, and __costs the cell energy__.
+
+Both fragment the nucleus, which is why the nuclear picture alone does not separate them.
 ## explicit_objective
 Compare necrosis and apoptosis across cell size, membrane integrity, inflammatory response, number of cells and energy requirement.
 ## pitfalls
@@ -3259,7 +3335,7 @@ relationships: Walked the 49 batch concepts. This record is itself the discharge
 
 # Item
 ## label
-A cell accumulates a substance when production, metabolism or degradation fails
+Three routes to intracellular accumulation
 ## id
 CON-FND-0A32C902A825AA
 ## canonical_key
@@ -3274,7 +3350,13 @@ Abnormal accumulation
 ## arabic_aliases
 تراكم المواد داخل الخلية
 ## definition
-Cells accumulate abnormal amounts of substances by three routes. A normal endogenous substance — water, protein, carbohydrate or lipid — is produced at a normal rate but accumulates because the metabolic rate cannot remove it, as with fat in liver cells, or accumulates because of a genetic or acquired defect in its metabolism, as in the lysosomal storage diseases. An abnormal endogenous substance, the product of a mutated gene, accumulates because it is misfolded, mistransported or inadequately degraded, as in alpha-1 antitrypsin disease. An abnormal exogenous substance accumulates in normal cells that cannot degrade it, as with macrophages laden with environmental carbon.
+Cells accumulate abnormal amounts of substances by **three routes**.
+
+A **normal endogenous substance** — water, protein, carbohydrate or lipid — is produced normally but accumulates because metabolism cannot remove it (fat in liver cells), or because of a genetic or acquired metabolic defect (lysosomal storage diseases).
+
+An **abnormal endogenous substance**, the product of a mutated gene, accumulates because it is misfolded, mistransported or inadequately degraded, as in alpha-1 antitrypsin disease.
+
+An **abnormal exogenous substance** accumulates in normal cells that cannot degrade it, as with macrophages laden with environmental carbon.
 ## explicit_objective
 Classify a named intracellular accumulation into one of the three routes, and give an example of each.
 ## pitfalls
@@ -3403,7 +3485,7 @@ relationships: Walked the 49 batch concepts. This is the parent of the steatosis
 
 # Item
 ## label
-Steatosis is abnormal triglyceride accumulation inside parenchymal cells
+Steatosis (fatty change)
 ## id
 CON-FND-3B89025E2FB4E0
 ## canonical_key
@@ -3420,7 +3502,11 @@ Fatty degeneration
 التغير الدهني
 الكبد الدهني
 ## definition
-Steatosis, or fatty change, is an abnormal accumulation of triglycerides within parenchymal cells, either from excessive entry of lipid or from defective metabolism of it. It is typically reversible, but it can lead to inflammation and fibrosis. The commonest site is the liver, but it also occurs in the heart, muscle and kidney. The causes of hepatic steatosis are alcohol abuse — the commonest cause in the USA — protein malnutrition, diabetes mellitus, obesity, hypoxia and toxins.
+**Steatosis**, or fatty change, is __abnormal accumulation of triglycerides within parenchymal cells__, from excessive entry of lipid or defective metabolism of it.
+
+It is typically **reversible**, but can lead to inflammation and fibrosis. The commonest site is the **liver**, but it also occurs in heart, muscle and kidney.
+
+Causes of hepatic steatosis are **alcohol abuse** (commonest in the USA), protein malnutrition, diabetes mellitus, obesity, hypoxia and toxins.
 ## explicit_objective
 Define steatosis, name four causes of a fatty liver, and state whether the change is reversible.
 ## pitfalls
@@ -3549,7 +3635,7 @@ relationships: Walked the 49 batch concepts and the five live DIS-BIO-T04 hepati
 
 # Item
 ## label
-Hepatic steatosis follows four routes: more fat in, less oxidised, more made, less exported
+Four routes to a fatty liver
 ## id
 CON-FND-A0BC07E35554B1
 ## canonical_key
@@ -3564,7 +3650,9 @@ Mechanism of steatosis
 ## arabic_aliases
 آلية حدوث الكبد الدهني
 ## definition
-Steatosis arises from excessive entry or defective metabolism of lipids, by four routes, each with an example: increased fatty acids entering the liver, as in starvation and corticosteroid excess; decreased fatty acid oxidation, as in hypoxia; increased triglyceride formation, as with alcohol; and impaired lipoprotein secretion from the liver, also alcohol.
+Hepatic steatosis arises from excessive entry or defective metabolism of lipids, by **four routes**, each with an example:
+
+increased **fatty acids entering** the liver, as in starvation and corticosteroid excess; decreased **fatty acid oxidation**, as in hypoxia; increased **triglyceride formation**, as with alcohol; and impaired **lipoprotein secretion** from the liver, also alcohol.
 ## explicit_objective
 Discuss the pathogenesis of fatty change, and explain why alcohol appears twice on the list.
 ## pitfalls
@@ -3691,7 +3779,7 @@ relationships: Walked the 49 batch concepts and the five live DIS-BIO-T04 hepati
 
 # Item
 ## label
-The fatty liver is enlarged, yellow and greasy, with signet-ring hepatocytes
+The fatty liver: gross and microscopic
 ## id
 CON-FND-70554B38361679
 ## canonical_key
@@ -3707,7 +3795,11 @@ Liver steatosis slide
 مظهر خاتم الخاتم
 الكبد المتضخم الأصفر
 ## definition
-Grossly the fatty liver is enlarged and soft, its borders are rounded, and the cut section is yellow and greasy. Microscopically small intracytoplasmic droplets or large vacuoles of fat accumulate in the liver cells, and the nucleus is flattened and pushed to one side, giving the cell a signet-ring appearance. In a paraffin section the vacuole is empty, because the fat dissolved in xylol and alcohol during processing.
+Grossly the fatty liver is **enlarged and soft**, its borders rounded, and the cut section **yellow and greasy**.
+
+Microscopically small droplets or large vacuoles of fat accumulate in the liver cells, and the nucleus is flattened and pushed to one side, giving a __signet-ring appearance__.
+
+In a paraffin section the vacuole is **empty**, because the fat dissolved in xylol and alcohol during processing.
 ## explicit_objective
 Describe the gross and microscopic picture of a fatty liver, and explain why the fat vacuole appears empty on a routine section.
 ## pitfalls
@@ -3838,7 +3930,7 @@ relationships: Walked the 49 batch concepts and the 101 ISK practical concepts. 
 
 # Item
 ## label
-Fatty change of the myocardium is spotty in ischaemia and diffuse in toxaemia
+Fatty change of the myocardium
 ## id
 CON-FND-4354823564BAB3
 ## canonical_key
@@ -3854,7 +3946,11 @@ Myocardial fatty change
 ## arabic_aliases
 قلب القط المخطط
 ## definition
-Fatty change occurs in cells involved in or dependent on fat metabolism, which in the heart means the myocardial cells. In the myocardium it can be spotty, in ischaemia, or diffuse, in toxaemia such as diphtheria. The museum specimen shows a yellow myocardium in which the columnae carneae carry brown dots alternating with yellow ones, which is the tabby cat appearance.
+Fatty change occurs in cells dependent on fat metabolism, which in the heart means the **myocardial cells**.
+
+In the myocardium it can be **spotty**, in ischaemia, or **diffuse**, in toxaemia such as diphtheria.
+
+The museum specimen shows a yellow myocardium in which the columnae carneae carry brown dots alternating with yellow — the __tabby cat appearance__.
 ## explicit_objective
 Explain the difference between spotty and diffuse myocardial fatty change by cause, and identify the tabby cat heart from a gross description.
 ## pitfalls
@@ -3983,7 +4079,7 @@ relationships: Walked the 49 batch concepts. contrasts_with brown atrophy of the
 
 # Item
 ## label
-Cholesterol accumulates as clefts in atheroma and as foamy macrophages in xanthomas
+Cholesterol: atheroma clefts and xanthomas
 ## id
 CON-FND-3BB4FF8F2223FF
 ## canonical_key
@@ -4001,7 +4097,11 @@ Cholesterol esters
 الورم الأصفر
 الخلايا الرغوية
 ## definition
-Cholesterol is normally required for cell membranes and for lipid-soluble hormone synthesis and its production is tightly regulated, but it accumulates in several pathological states. In atherosclerosis, cholesterol and cholesterol esters accumulate in the smooth muscle cells and macrophages of the arterial wall, and the extracellular accumulations appear microscopically as cleft-like spaces where the crystals dissolved during processing. In acquired and hereditary hyperlipidaemias, lipids accumulate in foamy macrophages that cluster in subcutaneous tissue and tendons to form masses called xanthomas.
+**Cholesterol** is needed for cell membranes and lipid-soluble hormone synthesis and is tightly regulated, but it accumulates in several pathological states.
+
+In **atherosclerosis**, cholesterol and its esters accumulate in the smooth muscle cells and macrophages of the arterial wall; the extracellular deposits appear as __cleft-like spaces__ where the crystals dissolved during processing.
+
+In hyperlipidaemias, lipids accumulate in **foamy macrophages** that cluster in subcutaneous tissue and tendons to form masses called **xanthomas**.
 ## explicit_objective
 Name the substance that builds up in a xanthoma, and explain why cholesterol appears as empty clefts in an atheromatous plaque.
 ## pitfalls
@@ -4132,7 +4232,7 @@ relationships: Walked the 49 batch concepts. Atheromatous plaques are the book's
 
 # Item
 ## label
-Hyaline change names a glassy pink appearance, not a single substance
+Hyaline change: a glassy pink look
 ## id
 CON-FND-5CB8B822A9A6AF
 ## canonical_key
@@ -4150,7 +4250,11 @@ Hyaline arteriolosclerosis
 التحول الهياليني
 أجسام راسل
 ## definition
-Hyaline refers to an alteration within cells or in the extracellular space that gives a homogeneous, glassy, pink appearance on routine haematoxylin and eosin sections. It is a descriptive histological term, not a specific marker of cell injury. Intracellular examples are Russell bodies, hyaline change in plasma cells distended with immunoglobulin in chronic inflammation, and Mallory alcoholic hyaline in hepatocytes in chronic alcoholism. Extracellular examples are the hyalinised collagen of old scars, mesenchymal soft-tissue tumours such as leiomyoma, and the arteriolar walls of long-standing hypertension and diabetes, especially in the kidney, where extravasated plasma protein and basement-membrane material accumulate.
+**Hyaline** is an alteration within cells or in the extracellular space that gives a __homogeneous, glassy, pink appearance__ on routine H&E. It is a descriptive term, not a specific marker of injury.
+
+**Intracellular** examples are Russell bodies (plasma cells distended with immunoglobulin in chronic inflammation) and Mallory alcoholic hyaline in hepatocytes in chronic alcoholism.
+
+**Extracellular** examples are the hyalinised collagen of old scars, mesenchymal tumours such as leiomyoma, and the arteriolar walls of long-standing hypertension and diabetes — especially in the kidney, where plasma protein and basement-membrane material accumulate.
 ## explicit_objective
 Separate intracellular from extracellular examples of hyaline change, and state why the term describes an appearance rather than a substance.
 ## pitfalls
@@ -4283,7 +4387,7 @@ relationships: Walked the 49 batch concepts. often_confused_with fibrinoid necro
 
 # Item
 ## label
-Excess intracellular glycogen appears as clear vacuoles in the glycogen storage diseases
+Glycogen accumulation
 ## id
 CON-FND-2D8B89A2F75643
 ## canonical_key
@@ -4298,7 +4402,9 @@ Glycogen inclusions
 ## arabic_aliases
 أمراض اختزان الغليكوجين
 ## definition
-Glycogen is commonly stored within cells as a ready energy source. Excessive intracellular deposits, seen as clear vacuoles, occur in the glycogen storage diseases, the glycogenoses.
+**Glycogen** is stored within cells as a ready energy source.
+
+Excessive intracellular deposits, seen as __clear vacuoles__, occur in the **glycogen storage diseases** (the glycogenoses).
 ## explicit_objective
 Name the disease group in which excess intracellular glycogen accumulates, and give the appearance of the deposit on a routine section.
 ## pitfalls
@@ -4424,7 +4530,7 @@ relationships: Walked the 49 batch concepts and the 101 ISK practical concepts. 
 
 # Item
 ## label
-Inhaled carbon blackens the lung as anthracosis and can fibrose it in coal miners
+Carbon pigment: anthracosis and tattoo
 ## id
 CON-FND-57B12823E95B52
 ## canonical_key
@@ -4441,7 +4547,11 @@ Tattoo pigment
 الفحام الرئوي
 تصبغ الرئة بالكربون
 ## definition
-Exogenous pigments come from outside the body. Carbon particles in air polluted by factory and car exhaust are inhaled, picked up by alveolar macrophages and carried through lymphatic channels to the tracheobronchial lymph nodes; accumulation blackens the lung tissue and the involved nodes, which is anthracosis. In coal miners the aggregates of carbon dust may induce a fibroblastic reaction and so cause coal worker's pneumoconiosis. Tattoo pigment inoculated into the skin is phagocytosed by dermal macrophages, giving permanent localised pigmentation.
+**Exogenous pigments** come from outside the body.
+
+**Carbon** particles in polluted air are inhaled, picked up by alveolar macrophages and carried to the tracheobronchial lymph nodes; accumulation blackens the lung and nodes — **anthracosis**. In coal miners the carbon dust may induce a fibroblastic reaction, causing __coal worker's pneumoconiosis__.
+
+**Tattoo pigment** inoculated into the skin is phagocytosed by dermal macrophages, giving permanent localised pigmentation.
 ## explicit_objective
 Name the pigment that accumulates in anthracosis, trace its route from the air to the lymph node, and state what turns anthracosis into a serious lung disease.
 ## pitfalls
@@ -4569,7 +4679,7 @@ relationships: Walked the 49 batch concepts. This is an instance of route three 
 
 # Item
 ## label
-Lipofuscin is wear-and-tear pigment from lipid peroxidation, and it does not harm the cell
+Lipofuscin: wear-and-tear pigment
 ## id
 CON-FND-2A370D3EF3EDCF
 ## canonical_key
@@ -4585,7 +4695,11 @@ Endogenous pigments
 صباغ البلى والتآكل
 الصباغ الشحمي
 ## definition
-Lipofuscin is an insoluble endogenous pigment, also called lipochrome or wear-and-tear pigment. It is derived through lipid peroxidation of cellular membranes and is a sign of free-radical injury and lipid peroxidation across the life of the cell, but it is not injurious to the cell or its functions. It appears as a yellow-brown, finely granular, often perinuclear cytoplasmic pigment, and is seen in the liver and heart cells of ageing patients and of patients with severe malnutrition or cancer.
+**Lipofuscin** is an insoluble endogenous pigment, also called lipochrome or __wear-and-tear pigment__.
+
+It is derived through **lipid peroxidation** of cellular membranes and is a sign of free-radical injury across the life of the cell, but it is __not injurious__ to the cell or its functions.
+
+It appears as a yellow-brown, finely granular, often perinuclear pigment, seen in liver and heart cells of ageing patients and of those with severe malnutrition or cancer.
 ## explicit_objective
 State what lipofuscin is derived from, describe its microscopic appearance, and say whether it damages the cell that holds it.
 ## pitfalls
@@ -4713,7 +4827,7 @@ relationships: Walked the 49 batch concepts. Free-radical injury (CON-FND-7B96FF
 
 # Item
 ## label
-Brown atrophy is a small brown senile heart loaded with lipofuscin
+Brown atrophy of the heart
 ## id
 CON-FND-063F60318B4D20
 ## canonical_key
@@ -4729,7 +4843,11 @@ Serous atrophy of fat
 ضمور القلب الشيخي
 الضمور المصلي للدهن
 ## definition
-Brown atrophy of the heart is a senile atrophy of the heart with an excess of lipofuscin pigment. Grossly the heart is reduced in size and brown, the coronaries appear more tortuous because normal-length arteries now run over a smaller heart, and the pericardial fat is replaced by oedematous jelly-like tissue, which is serous atrophy of the fat. Microscopically the muscle fibres are thin and atrophic, and excess fine yellow-brown lipofuscin granules sit on both sides of the nucleus in haematoxylin and eosin sections.
+**Brown atrophy** is a senile atrophy of the heart with an excess of __lipofuscin__.
+
+Grossly the heart is reduced in size and brown, the coronaries appear tortuous because normal-length arteries run over a smaller heart, and the pericardial fat is replaced by jelly-like tissue — **serous atrophy of the fat**.
+
+Microscopically the muscle fibres are thin and atrophic, with excess fine yellow-brown lipofuscin granules on both sides of the nucleus.
 ## explicit_objective
 Discuss the pathogenesis of brown atrophy of the heart and describe its gross and microscopic morphology, including why the coronaries look tortuous.
 ## pitfalls
@@ -4860,7 +4978,7 @@ relationships: Walked the 49 batch concepts. is_a atrophy (CON-FND-DF726F864C8BC
 
 # Item
 ## label
-Melanin is made by tyrosinase, and five named conditions increase it
+Melanin and its five causes of excess
 ## id
 CON-FND-AA9A76DBB4EE6B
 ## canonical_key
@@ -4879,7 +4997,9 @@ Melanocyte
 الكلف
 بقع القهوة بالحليب
 ## definition
-Melanin is an endogenous, non-haemoglobin-derived brown-black pigment formed when the enzyme tyrosinase catalyses the oxidation of tyrosine to dihydroxyphenylalanine in melanocytes. Melanin is increased in five conditions: prolonged exposure to the sun; melanocytic naevi and melanomas; chloasma of pregnancy, brown patches on the face, nipple and genitalia from hormonal change; Addison's disease, where hyperpigmentation of sun-exposed areas and pressure points such as the neck, elbows, knees and knuckles is characteristic, caused by raised pro-opiomelanocortin from the anterior pituitary, the precursor of both ACTH and melanocyte-stimulating hormone; and café-au-lait patches in neurofibromatosis.
+**Melanin** is an endogenous, non-haemoglobin brown-black pigment formed when **tyrosinase** oxidises tyrosine to dihydroxyphenylalanine in melanocytes.
+
+It is increased in **five conditions**: prolonged sun exposure; melanocytic naevi and melanomas; chloasma of pregnancy; **Addison's disease**, where __raised pro-opiomelanocortin__ (precursor of both ACTH and MSH) pigments sun-exposed areas and pressure points; and cafe-au-lait patches in neurofibromatosis.
 ## explicit_objective
 Discuss the causes of increased melanin pigmentation, and explain why primary adrenal failure darkens the skin.
 ## pitfalls
@@ -5010,7 +5130,7 @@ relationships: Walked the 49 batch concepts and the three live melanin concepts 
 
 # Item
 ## label
-Haemosiderin is stored excess iron, deposited locally after bleeding or throughout the body in overload
+Haemosiderin: local and generalised overload
 ## id
 CON-FND-5DBC795B58DC74
 ## canonical_key
@@ -5028,7 +5148,11 @@ Ferritin
 داء ترسب الهيموسيدرين
 صباغ الحديد
 ## definition
-Haemosiderin is a haemoglobin-derived, golden yellow-to-brown granular pigment. Iron is carried by transferrin and stored bound to apoferritin as ferritin micelles; when there is a local or systemic excess of iron, ferritin aggregates into haemosiderin granules that are easily seen with the light microscope. Localised haemosiderosis follows haemorrhage into tissue, where macrophages break down extravasated red cells over several days, as in chronic venous congestion of the lung. Generalised haemosiderosis follows systemic iron overload, whose three causes are increased absorption of dietary iron, haemolytic anaemias releasing abnormal quantities of iron from erythrocytes, and repeated blood transfusion. Iron appears as a coarse golden granular cytoplasmic pigment and is demonstrated by the Prussian blue reaction; in most cases of systemic haemosiderosis it does not damage the parenchymal cells or impair organ function.
+**Haemosiderin** is a haemoglobin-derived, golden yellow-to-brown granular pigment. Iron is carried by transferrin and stored as **ferritin**; when iron is in excess, ferritin aggregates into haemosiderin granules visible by light microscopy.
+
+**Localised haemosiderosis** follows haemorrhage into tissue, where macrophages break down extravasated red cells, as in chronic venous congestion of the lung.
+
+**Generalised haemosiderosis** follows systemic iron overload — from increased dietary iron absorption, haemolytic anaemias, or repeated transfusion. Iron appears as coarse golden granules, shown by the **Prussian blue** reaction, and __usually does not damage the parenchymal cells__.
 ## explicit_objective
 Give three causes of generalised haemosiderosis, name the stain that demonstrates iron, and separate localised from generalised deposition.
 ## pitfalls
@@ -5160,7 +5284,7 @@ relationships: Walked the 49 batch concepts. prerequisite_of haemochromatosis (C
 
 # Item
 ## label
-Primary haemochromatosis is a chromosome-6 defect that loads the body with iron
+Primary haemochromatosis
 ## id
 CON-FND-B9A3C8B28B1443
 ## canonical_key
@@ -5177,7 +5301,11 @@ Iron overload
 السكري البرونزي
 فرط تحميل الحديد
 ## definition
-Primary haemochromatosis is the commonest form of iron overload. It is a congenital disorder from a gene defect on chromosome 6; heterozygotes absorb more iron, but only homozygotes reach dangerous levels. The defect increases iron absorption in the small intestine even when transferrin is fully saturated. In the liver, haemosiderin appears as golden-yellow granules in periportal hepatocytes that stain blue with Prussian blue; with increasing load the rest of the lobule, the bile duct epithelium and the Kupffer cells become pigmented, the liver is slightly enlarged, dense and chocolate brown, and fibrous septa develop slowly into a micronodular cirrhosis in an intensely pigmented liver. In advanced disease iron is deposited in the endocrine glands — pancreas, adrenal, pituitary and thyroid. Bronze diabetes is iron-induced damage to the pancreatic islets together with increased pituitary melanotropin, which raises skin melanin on top of the haemosiderin already deposited in the skin. Deposition in the heart can lead to heart failure.
+**Primary haemochromatosis** is the commonest form of iron overload, a congenital disorder from a **gene defect on chromosome 6**; heterozygotes absorb more iron, but only homozygotes reach dangerous levels. Iron absorption is increased even when transferrin is saturated.
+
+In the **liver**, haemosiderin appears as golden granules in periportal hepatocytes staining blue with Prussian blue; with increasing load the whole lobule, bile ducts and Kupffer cells become pigmented, and fibrous septa develop into a __micronodular cirrhosis in an intensely pigmented liver__. In advanced disease iron deposits in the endocrine glands.
+
+**Bronze diabetes** is iron damage to the pancreatic islets plus increased pituitary melanotropin, which raises skin melanin on top of the haemosiderin. Cardiac deposition can lead to heart failure.
 ## explicit_objective
 Explain what makes a diabetic patient bronze, and describe the hepatic changes of primary haemochromatosis.
 ## pitfalls
@@ -5307,7 +5435,7 @@ relationships: Walked the 49 batch concepts. is_a generalised haemosiderosis at 
 
 # Item
 ## label
-Hemozoin is the iron pigment made by blood-feeding parasites, and Prussian blue misses it
+Hemozoin: malaria pigment
 ## id
 CON-FND-C96C66BC1A17DF
 ## canonical_key
@@ -5322,7 +5450,9 @@ Parasitic pigment
 ## arabic_aliases
 صباغ الملاريا
 ## definition
-Hemozoin is a brownish iron-containing pigment produced by parasites feeding on blood cells, in malaria and in bilharziasis. It is not reactive to Prussian blue. The pigment is released into the blood and taken up by the macrophages of the liver, spleen and other organs.
+**Hemozoin** is a brownish iron-containing pigment produced by parasites feeding on blood cells, in **malaria** and in **bilharziasis**. It is __not reactive to Prussian blue__.
+
+The pigment is released into the blood and taken up by the macrophages of the liver, spleen and other organs.
 ## explicit_objective
 Name the pigment associated with parasitic infection, and give the stain result that separates it from haemosiderin.
 ## pitfalls
@@ -5448,7 +5578,7 @@ relationships: Walked the 49 batch concepts and the live DIS-PAR-T01 malaria con
 
 # Item
 ## label
-Dystrophic calcification is calcium laid down in already damaged tissue at a normal serum calcium
+Dystrophic calcification
 ## id
 CON-FND-33466CEBFC4EBA
 ## canonical_key
@@ -5464,7 +5594,11 @@ Lithopedion
 التكلس المرضي
 ترسب الكالسيوم في الأنسجة التالفة
 ## definition
-Pathological calcification is abnormal deposition of calcium salts in tissue other than teeth or bone. Dystrophic calcification occurs in tissues already affected by disease, with a normal serum calcium, and is due to local precipitation of insoluble calcium salts. Examples are atheromatous plaques, congenital bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, lithopedion — a dead retained fetus — and fat necrosis.
+**Pathological calcification** is abnormal deposition of calcium salts in tissue other than teeth or bone.
+
+**Dystrophic calcification** occurs in tissue __already affected by disease__, at a **normal serum calcium**, from local precipitation of insoluble calcium salts.
+
+Examples are atheromatous plaques, congenital bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, lithopedion (a dead retained fetus) and fat necrosis.
 ## explicit_objective
 Define dystrophic calcification, state the serum calcium in it, and give four examples of tissues in which it occurs.
 ## pitfalls
@@ -5597,7 +5731,7 @@ relationships: Walked the 49 batch concepts. Necrosis, caseation, fat necrosis a
 
 # Item
 ## label
-Metastatic calcification is calcium laid down in living tissue because the blood level is high
+Metastatic calcification
 ## id
 CON-FND-87392C49DB246C
 ## canonical_key
@@ -5613,7 +5747,11 @@ Milk alkali syndrome
 التكلس بسبب فرط كالسيوم الدم
 تكلس الكلية
 ## definition
-Metastatic calcification occurs in viable tissues in cases of hypercalcaemia. Its causes are elevated parathyroid hormone — from a parathyroid tumour, from ectopic secretion by another neoplasm, or secondary hyperparathyroidism in chronic renal failure; bone destruction, as in primary marrow malignancy such as multiple myeloma, diffuse skeletal metastasis such as breast cancer, accelerated bone turnover in Paget's disease, or immobilisation; hypervitaminosis D; and, less commonly, the milk-alkali syndrome from excessive ingestion of calcium and absorbable antacids. The deposits sit in the interstitial tissue of the gastric mucosa, kidney, lungs, systemic arteries and pulmonary veins. They usually cause no clinical dysfunction, but massive deposits in the kidney — nephrocalcinosis — may in time cause renal failure.
+**Metastatic calcification** occurs in __viable tissues__ in cases of **hypercalcaemia**.
+
+Its causes are raised **parathyroid hormone** (parathyroid tumour, ectopic secretion, or secondary hyperparathyroidism in chronic renal failure); **bone destruction** (multiple myeloma, skeletal metastasis, Paget's disease, immobilisation); **hypervitaminosis D**; and the **milk-alkali syndrome**.
+
+Deposits sit in the interstitium of gastric mucosa, kidney, lungs and arteries. They usually cause no dysfunction, but massive renal deposits — **nephrocalcinosis** — may cause renal failure.
 ## explicit_objective
 Enumerate four causes of metastatic calcification, name its main sites of deposition, and state the one that can cause organ failure.
 ## pitfalls
@@ -5744,7 +5882,7 @@ relationships: Walked the 49 batch concepts. contrasts_with dystrophic calcifica
 
 # Item
 ## label
-The two calcifications look identical; only the serum calcium tells them apart
+Dystrophic versus metastatic calcification
 ## id
 CON-FND-718662116D90C4
 ## canonical_key
@@ -5759,7 +5897,9 @@ Basophilic calcium deposits
 ## arabic_aliases
 مقارنة أنواع التكلس المرضي
 ## definition
-Both dystrophic and metastatic calcification look the same. Grossly the deposit is chalky white granular material; microscopically calcium salts have a basophilic amorphous granular appearance. What separates them is not the deposit but the setting: dystrophic calcification is in tissue already damaged, at a normal serum calcium; metastatic calcification is in viable tissue, at a raised serum calcium.
+Both types look the same. Grossly the deposit is **chalky white granular** material; microscopically calcium salts are **basophilic, amorphous and granular**.
+
+What separates them is not the deposit but the setting: **dystrophic** is in tissue already damaged, at a __normal serum calcium__; **metastatic** is in viable tissue, at a __raised serum calcium__.
 ## explicit_objective
 Given a described calcified lesion, decide whether it is dystrophic or metastatic, and justify the answer from the serum calcium and the state of the tissue.
 ## pitfalls
@@ -5889,7 +6029,7 @@ relationships: Walked the 49 batch concepts. This record discharges the often_co
 
 # Item
 ## label
-Amyloid is extracellular beta-pleated protein deposited on basement membranes and vessel walls
+What amyloid is
 ## id
 CON-FND-D955408D228002
 ## canonical_key
@@ -5906,7 +6046,11 @@ Amyloid P protein
 المادة النشوانية
 الترسب النشواني
 ## definition
-Amyloidosis is extracellular deposition of an abnormal protein with a beta-pleated configuration together with a glycoprotein, amyloid P protein. It is deposited on basement membranes, reticulin fibres and the walls of small blood vessels, and the affected tissue becomes hard and waxy. It arises from abnormal folding of proteins, which become insoluble, aggregate and deposit as fibrils; normally misfolded proteins are degraded intracellularly in proteasomes or extracellularly by macrophages, and in amyloidosis these quality-control mechanisms fail. The proteins that form amyloid are either normal proteins with an inherent tendency to fold improperly when produced in increased amounts, or mutant proteins prone to misfolding and aggregation.
+**Amyloidosis** is extracellular deposition of an abnormal **beta-pleated protein** together with a glycoprotein, amyloid P protein. It is deposited on basement membranes, reticulin fibres and the walls of small vessels, and __the affected tissue becomes hard and waxy__.
+
+It arises from **abnormal folding** of proteins, which become insoluble, aggregate and deposit as fibrils; normally misfolded proteins are degraded in proteasomes or by macrophages, and in amyloidosis these quality-control mechanisms fail.
+
+The proteins are either normal proteins that fold improperly when overproduced, or mutant proteins prone to misfolding.
 ## explicit_objective
 State the nature of amyloid, name where it is deposited, and explain the failure of protein quality control that allows it to accumulate.
 ## pitfalls
@@ -6035,7 +6179,7 @@ relationships: Walked the 49 batch concepts and the one live amyloid concept on 
 
 # Item
 ## label
-AL amyloid comes from plasma-cell light chains; AA amyloid from the acute phase response
+AL and AA amyloid
 ## id
 CON-FND-8151AE03EA25C5
 ## canonical_key
@@ -6053,7 +6197,11 @@ Types of amyloid protein
 أميلويد السلسلة الخفيفة
 الأميلويد المرتبط بالالتهاب
 ## definition
-More than twenty distinct forms of amyloid protein exist. The two commonest are amyloid light chain (AL) protein, immunoglobulin light chains derived from plasma cells, and amyloid-associated (AA) protein, a non-immunoglobulin protein derived from a larger serum precursor, serum amyloid-associated (SAA) protein, which hepatocytes synthesise as part of the acute phase response.
+More than twenty forms of amyloid protein exist; the two commonest are AL and AA.
+
+**AL (amyloid light chain)** protein is made of immunoglobulin light chains derived from **plasma cells**.
+
+**AA (amyloid-associated)** protein is a non-immunoglobulin protein derived from a serum precursor, **SAA**, which hepatocytes synthesise as part of the __acute phase response__.
 ## explicit_objective
 Name the two commonest amyloid fibril proteins with their cell of origin, and decide which one a named disease would produce.
 ## pitfalls
@@ -6182,7 +6330,7 @@ relationships: Walked the 49 batch concepts. AL and AA map directly onto primary
 
 # Item
 ## label
-Systemic amyloidosis is primary, secondary or senile, and each has its own protein
+Systemic amyloidosis: three types
 ## id
 CON-FND-E3F496F6DDD7C3
 ## canonical_key
@@ -6200,7 +6348,13 @@ Myeloma associated amyloidosis
 الداء النشواني الأولي
 الداء النشواني الثانوي
 ## definition
-In systemic amyloidosis the material is deposited in many organs — liver, spleen, tongue, heart and kidney — producing organomegaly such as hepatomegaly, splenomegaly and macroglossia, and organ dysfunction such as heart failure and proteinuria. It is classified by aetiology into three. Primary, or myeloma-associated, amyloidosis deposits AL protein and accompanies myeloma, a plasma-cell tumour arising in bone marrow that produces a large amount of one immunoglobulin class with one light-chain type; the light chain forms the amyloid. Secondary, or reactive, amyloidosis deposits AA protein derived from SAA, an acute-phase reactant the liver secretes when inflammatory cytokines stimulate it, and it follows long-lasting chronic inflammation — bronchiectasis, chronic osteomyelitis, rheumatoid disease, tuberculosis, Crohn's disease and ulcerative colitis — with a predilection for liver, spleen and kidney. Senile amyloidosis deposits minute amounts of transthyretin in the heart and blood-vessel walls, and only rarely causes clinical disease.
+In **systemic amyloidosis** the material deposits in many organs — liver, spleen, tongue, heart and kidney — producing organomegaly (hepatomegaly, splenomegaly, macroglossia) and dysfunction (heart failure, proteinuria). It is classified by aetiology into three.
+
+**Primary (myeloma-associated)** deposits **AL** protein and accompanies myeloma, a plasma-cell tumour producing one immunoglobulin with one light-chain type; that light chain forms the amyloid.
+
+**Secondary (reactive)** deposits **AA** protein from SAA, an acute-phase reactant, and follows chronic inflammation — bronchiectasis, chronic osteomyelitis, rheumatoid disease, tuberculosis, Crohn's disease, ulcerative colitis — favouring liver, spleen and kidney.
+
+**Senile** deposits minute amounts of **transthyretin** in the heart and vessel walls, rarely causing disease.
 ## explicit_objective
 Classify systemic amyloidosis by aetiology, and list the chronic inflammatory diseases that cause the secondary form.
 ## pitfalls
@@ -6332,7 +6486,7 @@ relationships: Walked the 49 batch concepts. contrasts_with localised amyloidosi
 
 # Item
 ## label
-Localised amyloid marks medullary thyroid carcinoma, Alzheimer disease and type 2 diabetic islets
+Localised amyloidosis
 ## id
 CON-FND-42A1BD1A1DAAE6
 ## canonical_key
@@ -6349,7 +6503,11 @@ Islet amyloid
 الأميلويد الدماغي
 أميلويد جزر لانغرهانس
 ## definition
-In localised amyloidosis the deposits are limited to a single tissue or organ. In medullary carcinoma of the thyroid, a tumour of the calcitonin-secreting C cells, amyloid made of calcitonin precursor molecules in beta-pleated configuration lies in the stroma around the tumour cells; it has no clinical effect but helps identify the tumour. Cerebral amyloid is found in Alzheimer disease, in neuritic plaques and in blood-vessel walls, as A-beta protein. Localised deposits are occasionally seen without obvious cause in skin, laryngeal wall, lung, ureter and urinary system, and amyloid is found in the islets of Langerhans in type 2 diabetes mellitus.
+In **localised amyloidosis** the deposits are limited to a single tissue or organ.
+
+In **medullary carcinoma of the thyroid** (a tumour of calcitonin-secreting C cells), amyloid made of calcitonin precursor lies in the stroma; it has no clinical effect but __helps identify the tumour__. **Cerebral amyloid** in Alzheimer disease appears in neuritic plaques and vessel walls as A-beta protein.
+
+Localised deposits are also seen without obvious cause in skin, larynx, lung, ureter and urinary system, and amyloid is found in the **islets of Langerhans in type 2 diabetes**.
 ## explicit_objective
 Give two examples of localised amyloidosis, and explain what the amyloid in medullary thyroid carcinoma is made of and what it is useful for.
 ## pitfalls
@@ -6478,7 +6636,7 @@ relationships: Walked the 49 batch concepts and the one live amyloid concept on 
 
 # Item
 ## label
-Congo red under polarised light gives amyloid its apple-green birefringence
+Staining amyloid: Congo red
 ## id
 CON-FND-4867DD3814D088
 ## canonical_key
@@ -6495,7 +6653,11 @@ Lugol iodine amyloid
 الانكسار المزدوج الأخضر التفاحي
 صبغات الأميلويد
 ## definition
-Grossly, a slice of tissue immersed in Lugol's iodine stains amyloid dark brown against a yellow background, which is the observation the substance is named for; iodine followed by 1% sulphuric acid turns the amyloid blue. Microscopically, amyloid stains pink with haematoxylin and eosin; it stains orange-red with Congo red and, viewed by polarised light through a fixed and a rotating filter, appears apple green against a dark background — apple-green birefringence; and with the metachromatic stains methyl violet and crystal violet it stains rose red while the rest of the tissue stains violet.
+Grossly, tissue immersed in **Lugol's iodine** stains amyloid dark brown against a yellow background — the observation the substance is named for; iodine then 1% sulphuric acid turns it blue.
+
+Microscopically, amyloid stains pink with H&E; with **Congo red** it stains orange-red and, under polarised light, shows __apple-green birefringence__.
+
+With the metachromatic stains methyl violet and crystal violet it stains rose red while the rest of the tissue stains violet.
 ## explicit_objective
 Name the stain and the optical technique that confirm amyloid, and state the colour seen.
 ## pitfalls
@@ -6625,7 +6787,7 @@ relationships: Walked the 49 batch concepts. diagnosed_by is the relation this r
 
 # Item
 ## label
-Renal amyloid obliterates the glomerulus and presents as proteinuria, then renal failure
+Renal amyloidosis
 ## id
 CON-FND-699152CE450385
 ## canonical_key
@@ -6641,7 +6803,11 @@ Amyloid nephropathy
 أميلويد الكلية
 البيلة البروتينية النشوانية
 ## definition
-Grossly the kidney is enlarged and its cut surface is pale yellow with brown waxy dots, the amyloid in the glomeruli; in long-standing cases the kidneys contract from secondary ischaemic change. Microscopically amyloid is deposited in the basement membrane of the glomerular capillaries and in the mesangium, appearing thick and pink, until the whole glomerular capillary is obliterated and appears as a homogeneous pink mass. Arteriolar walls are thickened by amyloid, producing ischaemia, tubular atrophy and fibrosis; amyloid is also deposited in the tubular basement membrane, and the tubular lumen shows hyaline casts. Clinically the patient presents with proteinuria and later renal failure.
+Grossly the kidney is enlarged, its cut surface pale yellow with brown waxy dots — the glomerular amyloid; in long-standing cases the kidneys contract from ischaemia.
+
+Microscopically amyloid deposits in the **glomerular basement membrane and mesangium**, appearing thick and pink, until the whole capillary is obliterated as a homogeneous pink mass. Arteriolar walls thicken, producing ischaemia, tubular atrophy and fibrosis; tubular basement membranes are involved and lumina show hyaline casts.
+
+Clinically the patient presents with **proteinuria** and __later renal failure__.
 ## explicit_objective
 Describe the gross and microscopic picture of amyloid kidney, and explain why an enlarged kidney becomes a contracted one.
 ## pitfalls
@@ -6771,7 +6937,7 @@ relationships: Walked the 49 batch concepts. part_of systemic amyloidosis (CON-F
 
 # Item
 ## label
-Amyloid makes the liver waxy and firm, and the spleen either sago or lardaceous
+Amyloid in liver and spleen
 ## id
 CON-FND-00024C3C0A7C4F
 ## canonical_key
@@ -6788,7 +6954,11 @@ Diffuse amyloid spleen
 طحال الساجو
 الطحال الشحمي
 ## definition
-The amyloid liver is enlarged, heavy, firm and rubbery with sharp borders, and its cut surface shows waxy light-brown streaks of amyloid on a yellow background of fatty change; microscopically amyloid lies in the sinusoid walls as pink streaks, the liver cells atrophy from pressure and anoxia, and the walls of hepatic arterioles and venules are thickened. The spleen takes one of two forms. Sago spleen is enlarged, rubbery and firm, its cut surface showing brown glassy dots — follicles laden with amyloid — against a red background; amyloid lies in the central arterioles of the white-pulp follicles, which thicken and narrow, and the follicles atrophy and are replaced. Diffuse amyloid or lardaceous spleen is less common, markedly enlarged, with brown streaks of amyloid deposited widely in the red-pulp sinusoids and an atrophic white pulp.
+The **amyloid liver** is enlarged, heavy, firm and rubbery with sharp borders, its cut surface showing waxy light-brown streaks on a yellow background of fatty change; microscopically amyloid lies in the sinusoid walls and the liver cells atrophy from pressure and anoxia.
+
+The spleen takes one of two forms. **Sago spleen** shows brown glassy dots — follicles laden with amyloid in their central arterioles, which atrophy.
+
+**Lardaceous (diffuse) spleen** is less common, markedly enlarged, with amyloid deposited widely in the red-pulp sinusoids and an atrophic white pulp.
 ## explicit_objective
 Distinguish sago spleen from lardaceous spleen by the compartment involved and the cut-surface appearance, and describe the gross liver in amyloidosis.
 ## pitfalls
@@ -6919,7 +7089,7 @@ relationships: Walked the 49 batch concepts. part_of systemic amyloidosis, and c
 
 # Item
 ## label
-Cardiac amyloid causes arrhythmia and heart failure; gut amyloid causes macroglossia and malabsorption
+Amyloid in heart and gut
 ## id
 CON-FND-13BFC600597FD6
 ## canonical_key
@@ -6936,7 +7106,9 @@ Amyloid heart failure
 ضخامة اللسان
 اعتلال القلب النشواني
 ## definition
-In the heart, amyloid is deposited in the walls of small blood vessels and in the interstitial tissue surrounding and replacing muscle fibres; the heart is enlarged and the myocardium thickened and firm, and the effects are cardiac arrhythmias and heart failure. Any part of the gastrointestinal tract can be affected: amyloid in the tongue causes macroglossia, and amyloid in the intestine affects blood vessels first before extending into the adjacent submucosa, muscularis and subserosa, producing mucosal atrophy with malabsorption and protein loss.
+In the **heart**, amyloid deposits in small vessel walls and the interstitium surrounding and replacing muscle fibres; the heart is enlarged and the myocardium thickened and firm, and the effects are __cardiac arrhythmias and heart failure__.
+
+Any part of the **gastrointestinal tract** can be affected: amyloid in the tongue causes **macroglossia**, and amyloid in the intestine affects blood vessels first before extending into the submucosa, muscularis and subserosa, producing mucosal atrophy with **malabsorption** and protein loss.
 ## explicit_objective
 State the functional consequence of amyloid deposition in the heart and in the gut, and name the tongue sign of systemic amyloidosis.
 ## pitfalls
@@ -7066,7 +7238,7 @@ relationships: Walked the 49 batch concepts. part_of systemic amyloidosis, and c
 
 # Item
 ## label
-Amyloidosis is diagnosed on tissue, by kidney, rectal or gingival biopsy
+Diagnosing amyloidosis
 ## id
 CON-FND-A69F39242D6698
 ## canonical_key
@@ -7082,7 +7254,9 @@ Amyloid biopsy
 خزعة النسيج
 خزعة المستقيم
 ## definition
-The diagnosis of amyloidosis depends on histological demonstration of amyloid deposits in tissue. The commonest sites biopsied are the kidney, when renal manifestations are present, and rectal or gingival biopsy in patients suspected of having systemic amyloidosis.
+Diagnosis depends on __histological demonstration of amyloid in tissue__.
+
+The commonest sites biopsied are the **kidney**, when renal manifestations are present, and **rectal or gingival biopsy** in patients suspected of having systemic amyloidosis.
 ## explicit_objective
 State what the diagnosis of amyloidosis rests on, and name the three biopsy sites with the circumstance that selects each.
 ## pitfalls
