@@ -302,3 +302,152 @@ university_notes: Second article for module 205 NEU, covering 14 concepts (13 ne
 
 ## reading_time
 6
+
+---
+
+# Item
+
+## id
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+
+## title
+CNS gross anatomy: cerebral cortex localisation, ventricles, meninges, diencephalon, internal capsule, cerebellum, brainstem and cerebral vasculature
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Anatomy
+
+## summary
+Cortical localisation is the highest-yield theme of this cluster: general somatic sensation maps to the primary somatosensory cortex (areas 3, 1, 2) and skilled voluntary movement to the primary motor cortex (area 4), while expressive speech is Broca's area (44, 45), colour and higher visual interpretation belong to the visual association cortex (18, 19), and the paracentral lobule on the medial surface carries the lower-limb representation together with cortical control of the bladder and bowel — so a parasagittal lesion there causes incontinence. The ventricular system runs from the C-shaped lateral ventricles inside the cerebral hemispheres, through the interventricular foramina to the third ventricle of the diencephalon (choroid plexus in its roof), down the cerebral aqueduct to the fourth ventricle between the pons/medulla and the cerebellum. The meninges divide by behaviour — the pia follows the brain into every sulcus, the arachnoid bridges over them leaving cisterns such as the cisterna magna (cerebellomedullary cistern) beneath — and the diencephalon's metathalamus (medial and lateral geniculate bodies) hangs from the posterior thalamus. White-matter fibres split into commissural (corpus callosum, joining corresponding areas of the two hemispheres), association (cingulum, superior longitudinal fasciculus, within one hemisphere) and projection (internal capsule) groups, with the optic radiation running in the retrolenticular part of the internal capsule. Brainstem landmarks include the trochlear nerve as the only cranial nerve leaving the dorsal surface and the corpora quadrigemina forming the posterior surface of the midbrain, while the cerebellum's posterolateral fissure separates the flocculonodular lobe from the posterior lobe. Vascular facts round out the cluster: the middle cerebral artery supplies the lateral surface (including the auditory area), the superficial middle cerebral vein runs in the lateral sulcus toward the cavernous sinus, and the arteria radicularis magna (of Adamkiewicz) is the dominant supply to the lumbar enlargement of the spinal cord. A few head-and-neck items sit alongside: the pterygopalatine ganglion as the lacrimal secretomotor relay, the transverse cervical nerve crossing sternocleidomastoid, and two embryology vignettes (second-pouch/cervical-sinus branchial fistula and maxillary-to-intermaxillary cleft lip).
+
+## sections
+
+### Definition
+The cerebral cortex is mapped by function into primary and association areas that exam vignettes test by lesion. The primary somatosensory cortex (Brodmann areas 3, 1, 2) in the postcentral gyrus receives general somatic sensation from the contralateral body, mirrored across the central sulcus by the primary motor cortex (area 4) in the precentral gyrus, whose large hand representation is why fine manual work fails after a lesion there. Broca's area (areas 44, 45) in the dominant inferior frontal gyrus programmes speech output, so its lesion gives a non-fluent expressive aphasia; the visual association cortex (areas 18, 19) interprets colour, form and movement, distinct from the primary visual cortex (area 17) that merely detects; and the paracentral lobule on the medial surface holds both the lower-limb representation and the higher control of the bladder and rectal sphincters, so a parasagittal lesion produces incontinence with leg weakness. The ventricular system links these regions internally: each lateral ventricle is a C-shaped cavity within a cerebral hemisphere, draining through the interventricular foramina into the third ventricle of the diencephalon (whose choroid plexus lies in its roof), then through the cerebral aqueduct into the fourth ventricle, the tent-shaped hindbrain cavity between the pons/medulla in front and the cerebellum behind.
+
+### Mechanism
+The meninges are best learned by how each layer behaves at the brain surface: the pia mater is a delicate vascular film that dips into every sulcus and fissure and cannot be stripped from the cortex, whereas the arachnoid bridges over the sulci, and where the arachnoid spans a wide gap it leaves a subarachnoid cistern beneath — the cisterna magna (cerebellomedullary cistern) between the cerebellum and medulla being the largest, receiving fourth-ventricle CSF through the median aperture. The diencephalon's parts are positioned around the thalamus: the metathalamus (medial and lateral geniculate bodies, the auditory and visual relays) is attached to the posterior thalamus (pulvinar), while the epithalamus sits on the roof, the hypothalamus below and anterior, and the subthalamus below. Cerebral white matter divides into three fibre types: commissural fibres cross the midline to join corresponding areas of the two hemispheres, and the corpus callosum is the great commissure carrying most of them (so callosal lesions disconnect the hemispheres); association fibres such as the cingulum and superior longitudinal fasciculus link regions within one hemisphere; and projection fibres run vertically through the internal capsule between cortex and lower centres. Within the internal capsule, the retrolenticular part (behind the lentiform nucleus) carries the optic radiation from the lateral geniculate body to the visual cortex, which is why a retrolenticular lesion causes a contralateral field defect.
+
+### Key determinants
+Brainstem and cerebellar surface anatomy supply several single-fact answers. The trochlear nerve (CN IV) is the only cranial nerve to emerge from the dorsal (posterior) surface of the brainstem, just below the inferior colliculi, and the only one to decussate before exiting; the corpora quadrigemina (paired superior and inferior colliculi) form the posterior surface of the midbrain (the tectum), while the cerebral peduncles form its anterior surface. In the cerebellum, the posterolateral fissure — the first cerebellar fissure to appear in development — separates the phylogenetically oldest flocculonodular lobe from the posterior lobe, distinct from the primary fissure that divides the anterior and posterior lobes. Cerebral vasculature adds three determinants: the middle cerebral artery supplies most of the lateral surface of the hemisphere, including the auditory area (areas 41, 42) and the face-and-arm motor/sensory strip and language areas, while the lower-limb strip on the medial surface is anterior cerebral artery territory; the superficial middle cerebral vein runs along the posterior ramus of the lateral sulcus and drains chiefly into the cavernous sinus (reaching the transverse and superior sagittal sinuses only indirectly via the anastomotic veins of Labbe and Trolard); and the arteria radicularis magna (great anterior radicular artery of Adamkiewicz) is the dominant reinforcement of the anterior spinal artery in the lower cord and the principal supply to the lumbar enlargement.
+
+### Clinical significance
+Localising a lesion from a sign is the cluster's recurring exam pattern and its clinical payoff. Incontinence of urine and stool with leg weakness points to a medial-surface paracentral lobule lesion (classically a parasagittal meningioma or anterior cerebral artery infarct), an expressive aphasia points to Broca's area, and an isolated colour-discrimination deficit with preserved basic sight points to visual association cortex rather than area 17. The internal capsule's retrolenticular optic radiation explains post-capsular visual field loss, and the artery of Adamkiewicz's dominance over the lumbar cord explains why its interruption during aortic surgery risks anterior spinal artery syndrome and paraplegia. The head-and-neck items carry their own clinical weight: loss of the pterygopalatine ganglion's parasympathetic relay produces a dry eye from reduced lacrimal secretion (distinct from sympathetic vasomotor loss); a complete branchial fistula opening at the anterior border of sternocleidomastoid and ending at the tonsillar fossa reflects a persistent second pharyngeal pouch plus cervical sinus; and a cleft lip reflects failure of the maxillary prominence to fuse with the intermaxillary segment.
+
+### Common misconceptions
+Placing sphincter (bladder/bowel) control on the lateral convexity rather than the medial paracentral lobule, so that parasagittal incontinence is missed. Assuming the middle cerebral artery supplies the whole-body motor/sensory strip, when the lower-limb representation on the medial surface is anterior cerebral artery territory. Swapping the third ventricle's communications — the interventricular foramina lead to the lateral ventricles and the cerebral aqueduct to the fourth ventricle, not the reverse. Confusing the pia (enters all sulci) with the arachnoid (bridges over sulci). Expecting all cranial nerves to emerge ventrally and so missing the trochlear nerve's unique dorsal exit. Attributing the optic radiation to the posterior limb of the internal capsule instead of the retrolenticular part. Crediting the anterior spinal artery in general for the lumbar enlargement rather than the specific arteria radicularis magna that reinforces it there. Mixing up commissural fibres (corpus callosum, across hemispheres) with association fibres (cingulum, superior longitudinal fasciculus, within one hemisphere).
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Anatomy > Central Nervous System
+
+## subtopic
+CNS gross anatomy
+
+## microtopic
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## learner_stage
+Year 2 foundation
+
+## high_yield
+Core
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-NEU-FEBC0C7946940F
+CON-NEU-DC8FBB18182F1A
+CON-NEU-2914B44330D1B4
+CON-NEU-A14AEEDF434B4D
+CON-NEU-B51FF245ADF2D1
+CON-NEU-D33D684EE10AEE
+CON-NEU-F70E1D7CCAB7A2
+CON-NEU-54686EA08F458E
+CON-NEU-F64784AD391EED
+CON-NEU-B593873E1E2C06
+CON-NEU-5C40112BFE7B46
+CON-NEU-F3B523893E3788
+CON-NEU-ABD88AE9E58D86
+CON-NEU-87E6D9E11F2656
+CON-NEU-8BEEDA00FFCCEE
+CON-NEU-2FF114258317D6
+CON-NEU-94C3FA287AE06E
+CON-NEU-C2F2FC6CAD1FE8
+CON-NEU-A2A8A85067BDE0
+CON-NEU-FBA861A98E005E
+CON-NEU-60895CDC74C11A
+CON-NEU-29D4FC563514E5
+CON-NEU-52B22D62663877
+
+## related_articles
+ART-NEU-205NEU-HEAD-AND-NECK-ANATOMY
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## nanotopic
+
+
+## arabic_title
+
+
+## aliases
+
+
+## language
+en
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## evidence_gaps
+Evidence must be attached before publication. Department books for this module (Anatomy 321pp, Physiology CNS 158pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard CNS gross anatomy consistent with the render-verified exam-paper key, not department-book page citations.
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology supplied; left empty rather than model-translated.
+university_notes: Third article for module 205 NEU, covering the 23 concepts of the 2024-eom-cns-gross-anatomy cluster (Q29-52 of the EOM 197 paper, resource src_e3182cba35c85f7acea8, keys render-confirmed on pages 5-8). Q29 held (off-colour highlight contradicts anatomically correct option). No department book was readable this pass (all image-only). Remaining 205 NEU frontier: EOM 197 Q53-115 (physiology, OCR-legible; synaptic-transmission concepts already minted cross-module) then Q109-115/Section B figure items, then the untriaged EOY/Baqoon papers and 3 dept books.
+
+## reading_time
+7

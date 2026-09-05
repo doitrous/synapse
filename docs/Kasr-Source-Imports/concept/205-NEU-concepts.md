@@ -4291,3 +4291,2533 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed circled answer on 205 NEU EOY 198 (Solved) final written exam, Section C p.16 (200dpi render, circle around option a confirmed by eye). sourceCandidateIds: ran find-existing.mjs for "protoplasmic astrocyte" -- hit on a pending FOMSCU concept about fibrous vs. protoplasmic astrocyte morphology (a different fact -- shape/location, not BBB participation); new concept for this specific claim, related_concept_ids links to CON-NEU-64AA996B2B62AF (BBB astrocyte end-feet).
+
+---
+
+# Item
+## id
+CON-NEU-FEBC0C7946940F
+## label
+The pterygopalatine ganglion relays parasympathetic secretomotor fibres to the lacrimal gland
+## canonical_key
+pterygopalatineganglion.function.lacrimal-secretomotor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pterygopalatine ganglion is the parasympathetic relay station for the lacrimal gland: preganglionic fibres travel in the facial nerve, greater petrosal nerve and nerve of the pterygoid canal to synapse here, and postganglionic fibres reach the lacrimal gland via the zygomatic and lacrimal nerves. Interruption of this pathway reduces tear secretion. This distinguishes it from the otic ganglion (parotid) and ciliary ganglion (pupil/accommodation).
+## explicit_objective
+Identify the pterygopalatine ganglion as the parasympathetic relay for lacrimal secretomotor fibres, distinguishing it from the otic and ciliary ganglia.
+## pitfalls
+Confusing the parasympathetic secretomotor supply (pterygopalatine ganglion) with the sympathetic vasomotor supply (superior cervical ganglion) that merely hitch-hikes to the gland.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Autonomic ganglia of the head
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Autonomic Ganglia of the Head > Pterygopalatine Ganglion
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient complains of dryness of eyes, there was decreased secretion of lacrimal glands, the most likely ganglion involved is? a. Otic. b. Ciliary. c. Pterygopalatine. d. Superior cervical." ANSWER: c (205 NEU EOM 2024, Q30)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-DC8FBB18182F1A
+## label
+The transverse cervical nerve crosses horizontally over sternocleidomastoid
+## canonical_key
+transversecervicalnerve.course.crosses-sternocleidomastoid
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The transverse (anterior) cutaneous nerve of the neck is a cutaneous branch of the cervical plexus (C2-C3). It winds around the posterior border of sternocleidomastoid near its midpoint and runs horizontally (transversely) forward across the muscle to supply skin of the anterior triangle. This transverse course distinguishes it from the other cervical plexus cutaneous branches.
+## explicit_objective
+Identify the transverse cervical nerve as the cervical plexus branch crossing horizontally over sternocleidomastoid.
+## pitfalls
+Confusing it with the great auricular nerve, which ascends vertically over the same muscle toward the ear.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cervical plexus
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Neck > Cervical Plexus Cutaneous Branches
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"What is the cutaneous branch of the cervical plexus that crosses over the sternocleidomastoid muscle? a. Transverse cervical. b. Great auricular. c. Supraclavicular. d. Lesser occipital." ANSWER: a (205 NEU EOM 2024, Q31)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-2914B44330D1B4
+## label
+A complete lateral cervical (branchial) fistula arises from the second pharyngeal pouch and cervical sinus
+## canonical_key
+branchialfistula.embryology.second-pharyngeal-pouch-cervical-sinus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A complete lateral cervical (branchial) fistula runs from an external opening at the anterior border of sternocleidomastoid to an internal opening in the tonsillar fossa. It forms when the second pharyngeal pouch (giving the internal tonsillar-fossa opening) persists together with the cervical sinus (the buried ectodermal-groove remnant, giving the external opening). Persistence of both is what makes it a through-and-through fistula rather than a blind cyst.
+## explicit_objective
+Explain that a complete branchial fistula ending at the tonsillar fossa involves the second pharyngeal pouch and the cervical sinus.
+## pitfalls
+Attributing an internal opening at the tonsillar fossa to the third pouch (which opens near the piriform fossa) or forgetting that a complete fistula needs both pouch and cervical-sinus components.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Embryology of head and neck
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Embryology of Head and Neck > Pharyngeal Apparatus
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...a branchial fistula. The pit extended to the tonsillar fossa. Which embryologic structure(s) is (are) involved? a. Second pharyngeal arch. b. Second pharyngeal pouch and groove. c. Third pharyngeal pouch. d. Second pharyngeal pouch and cervical sinus." ANSWER: d (205 NEU EOM 2024, Q32)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-A14AEEDF434B4D
+## label
+Cleft lip results from failure of fusion of the maxillary prominence with the intermaxillary segment
+## canonical_key
+cleftlip.embryology.maxillary-intermaxillary-fusion-failure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The upper lip forms when the maxillary prominence of each side fuses with the intermaxillary segment (the merged medial nasal prominences, which contribute the philtrum and the incisor-bearing premaxilla). Failure of the maxillary prominence to fuse with the intermaxillary segment leaves the gap of a lateral cleft lip. This maxillary-to-intermaxillary fusion is the step that closes the upper lip.
+## explicit_objective
+State that cleft lip results from failure of fusion of the maxillary prominence with the intermaxillary segment.
+## pitfalls
+Confusing lateral cleft lip (maxillary-intermaxillary failure) with the rare median cleft (medial nasal prominences not merging) or oblique facial cleft (lateral-nasal to medial-nasal failure).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Embryology of head and neck
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Embryology of Head and Neck > Development of the Face
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...a cleft lip. Failure of fusion of which structures is the most likely cause? a. Maxillary prominences and the intermaxillary segment. b. Medial nasal prominences. c. Lateral nasal and medial nasal prominences. d. Lateral prominences." ANSWER: a (205 NEU EOM 2024, Q33)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-B51FF245ADF2D1
+## label
+General somatic sensation is localised to the primary somatosensory cortex (areas 3, 1, 2)
+## canonical_key
+somatosensorycortex.localization.areas-3-1-2-general-sensation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Brodmann areas 3, 1 and 2 form the primary somatosensory cortex in the postcentral gyrus, the cortical destination for general somatic sensation (touch, proprioception, pain and temperature discrimination) from the contralateral body half. A lesion here causes contralateral loss of general sensation. Its somatotopic sensory homunculus mirrors the primary motor cortex across the central sulcus.
+## explicit_objective
+Localise general somatic sensation to the primary somatosensory cortex (areas 3, 1, 2) in the postcentral gyrus.
+## pitfalls
+Confusing the primary somatosensory area (3,1,2) with the primary visual (17), auditory (41,42) or language-association (22) areas.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Functional Localisation
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...loss of general sensation on one side. Which area is most likely affected? a. Area 3,1,2. b. Area 22. c. Area 17. d. Areas 18,19." ANSWER: a (205 NEU EOM 2024, Q34)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-D33D684EE10AEE
+## label
+The paracentral lobule contains the cortical control of the bladder and bowel sphincters
+## canonical_key
+paracentrallobule.function.bladder-bowel-cortical-control
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The paracentral lobule, on the medial surface of the hemisphere astride the central sulcus, contains the lower-limb representation and the higher-centre control of the bladder and rectal (anal) sphincters. A lesion here (e.g. parasagittal meningioma or anterior cerebral artery infarct) produces urinary and faecal incontinence, often with lower-limb weakness. Its medial, midline location is why sphincter control is vulnerable to parasagittal lesions.
+## explicit_objective
+Identify the paracentral lobule as the cortical region controlling the bladder and bowel sphincters, whose lesion causes incontinence.
+## pitfalls
+Attributing incontinence to the premotor or parietal association areas rather than the medial-surface paracentral lobule.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Functional Localisation
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...incontinence of urine and stool. Which area is most likely affected? a. Cuneus. b. Paracentral lobule. c. Premotor area. d. Parietal association area." ANSWER: b (205 NEU EOM 2024, Q35)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-F70E1D7CCAB7A2
+## label
+Broca's area (areas 44, 45) is the motor speech area of the dominant hemisphere
+## canonical_key
+brocasarea.function.motor-speech-expression
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Broca's area (Brodmann areas 44 and 45 in the inferior frontal gyrus of the dominant hemisphere) is the motor speech area that programmes the articulatory movements of speech. A lesion causes expressive (non-fluent, Broca's) aphasia: comprehension is intact but fluent speech output is lost. Its position just anterior to the motor face/larynx representation links it to speech output.
+## explicit_objective
+Localise motor (expressive) speech to Broca's area (areas 44, 45) in the dominant inferior frontal gyrus.
+## pitfalls
+Confusing Broca's (motor/expressive) area with Wernicke's area (22, sensory/receptive language) or the premotor area.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Functional Localisation
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...inability to talk. Which area is most likely affected? a. Primary olfactory area. b. Broca's area. c. Premotor area. d. Prefrontal area." ANSWER: b (205 NEU EOM 2024, Q36)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-54686EA08F458E
+## label
+Colour discrimination is a function of the visual association cortex (areas 18, 19)
+## canonical_key
+visualassociationcortex.function.areas-18-19-colour-discrimination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Areas 18 and 19 are the visual association cortex, where the raw visual input from primary visual cortex (area 17) is interpreted, including higher-order processing of colour, form and movement. A lesion here can impair colour discrimination (a visual agnosia) while basic sight is preserved. This distinguishes association cortex (interpretation) from primary visual cortex (detection).
+## explicit_objective
+Attribute higher-order colour discrimination to the visual association cortex (areas 18, 19), not the primary visual cortex.
+## pitfalls
+Assuming loss of colour discrimination reflects an area 17 (primary visual) lesion, which instead causes a field defect.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Functional Localisation
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...cannot discriminate the colors. Which area is most likely affected? a. Area 3,1,2. b. Area 17. c. Areas 41,42. d. Areas 18,19." ANSWER: d (205 NEU EOM 2024, Q37)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-F64784AD391EED
+## label
+Skilled voluntary (fine hand) movement is executed by the primary motor cortex (area 4)
+## canonical_key
+primarymotorcortex.localization.area-4
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Brodmann area 4, the primary motor cortex in the precentral gyrus, executes voluntary movement of the contralateral body, with a disproportionately large cortical representation for the hand and fingers. A lesion weakens precise skilled finger movements. Its large motor-homunculus hand area is why fine manual dexterity is heavily affected by lesions here.
+## explicit_objective
+Localise execution of skilled voluntary (especially fine hand) movement to the primary motor cortex, Brodmann area 4.
+## pitfalls
+Attributing loss of skilled hand work to parietal association areas (40,39) rather than the primary motor cortex.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Functional Localisation
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A tailor cannot do her work. Which area is most likely affected? a. Areas 40,39. b. Area 28. c. Motor area 4. d. Areas 41,42." ANSWER: c (205 NEU EOM 2024, Q38)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-B593873E1E2C06
+## label
+The fourth ventricle lies between the pons/medulla and the cerebellum
+## canonical_key
+fourthventricle.location.between-pons-cerebellum
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fourth ventricle is the tent-shaped hindbrain (rhombencephalic) cavity, with the pons and upper medulla forming its floor (rhomboid fossa) in front and the cerebellum forming its roof behind. It communicates above with the cerebral aqueduct and below with the central canal. Its CSF escapes into the subarachnoid space through the median and lateral apertures in its roof.
+## explicit_objective
+State that the fourth ventricle lies between the pons/medulla and the cerebellum.
+## pitfalls
+Confusing the fourth ventricle with the third ventricle (diencephalon) or placing a cavity inside the cerebellum itself.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Fourth Ventricle
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which ventricle lies between the pons and cerebellum? a. Lateral. b. Third. c. Fourth. d. Fifth." ANSWER: c (205 NEU EOM 2024, Q39)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-5C40112BFE7B46
+## label
+The pia mater follows the brain surface into all its sulci
+## canonical_key
+piamater.property.follows-into-all-sulci
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pia mater is the innermost, delicate vascular meningeal layer, closely investing the brain surface and dipping into every sulcus and fissure, following the contours of gyri and sulci exactly. Unlike the arachnoid (which bridges over sulci), the pia cannot be stripped off the cortex. This distinguishes it from the tough dura and the sulcus-bridging arachnoid.
+## explicit_objective
+State that the pia mater follows the brain surface into all its sulci, unlike the arachnoid and dura.
+## pitfalls
+Swapping the pia (enters all sulci) with the arachnoid (bridges over sulci, leaving cisterns beneath).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Meninges
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges > Pia Mater
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pia matter: a. Tough membrane. b. Is carried into all its sulci. c. Bridges over the various sulci. d. Its two layers enclose venous sinuses." ANSWER: b (205 NEU EOM 2024, Q40)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-F3B523893E3788
+## label
+The cisterna magna is the cerebellomedullary cistern
+## canonical_key
+cisternamagna.location.cerebellomedullary-cistern
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cisterna magna is the anatomical name of the cerebellomedullary cistern, the large subarachnoid space between the undersurface of the cerebellum and the posterior surface of the medulla oblongata. It receives CSF from the fourth ventricle through the median aperture (foramen of Magendie) and is a site for cisternal puncture. Its large accessible size earns it the name magna (great cistern).
+## explicit_objective
+Identify the cisterna magna as the cerebellomedullary cistern, between the cerebellum and medulla.
+## pitfalls
+Confusing the cisterna magna with the pontine, interpeduncular or lateral-fissure cisterns.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Meninges and cisterns
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Subarachnoid Cisterns > Cisterna Magna
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cisterna magna is applied to: a. Cerebello-medullary cistern. b. Cistern of lateral fissure. c. Interpeduncular cistern. d. Pontine cistern." ANSWER: a (205 NEU EOM 2024, Q41)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-ABD88AE9E58D86
+## label
+The metathalamus (geniculate bodies) is attached to the posterior part of the thalamus
+## canonical_key
+metathalamus.location.posterior-thalamus-geniculate-bodies
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The metathalamus consists of the medial and lateral geniculate bodies, which project from the posterior (pulvinar) region of the thalamus. The lateral geniculate body is the visual relay and the medial geniculate body the auditory relay. Their posterior inferolateral attachment to the pulvinar makes the metathalamus the diencephalic part attached to the posterior thalamus.
+## explicit_objective
+Identify the metathalamus (medial and lateral geniculate bodies) as the diencephalic part attached to the posterior thalamus.
+## pitfalls
+Confusing the metathalamus with the epithalamus (pineal/habenula), hypothalamus (below/anterior) or subthalamus (below).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Diencephalon
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Diencephalon > Metathalamus
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The part of the diencephalon attached to the posterior part of the thalamus: a. Hypothalamus. b. Epithalamus. c. Metathalamus. d. Subthalamus." ANSWER: c (205 NEU EOM 2024, Q42)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-87E6D9E11F2656
+## label
+The optic radiation runs in the retrolenticular part of the internal capsule
+## canonical_key
+internalcapsule.retrolenticular.optic-radiation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The retrolenticular part of the internal capsule lies behind the lentiform nucleus and carries the optic radiation (geniculocalcarine fibres) from the lateral geniculate body to the primary visual cortex, along with posterior thalamic radiation fibres. A retrolenticular lesion produces a contralateral visual field defect. Its position behind the lentiform nucleus distinguishes it from the sublenticular part below.
+## explicit_objective
+State that the optic radiation runs in the retrolenticular part of the internal capsule.
+## pitfalls
+Confusing the retrolenticular part (optic radiation) with the posterior limb (corticospinal/sensory) or sublenticular part (auditory radiation).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Internal capsule and white matter
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Internal Capsule > Retrolenticular Part
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The part of the internal capsule that contains optic radiation is: a. Anterior limb. b. Posterior limb. c. Retro-lenticular part. d. Sub-lenticular part." ANSWER: c (205 NEU EOM 2024, Q43)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-8BEEDA00FFCCEE
+## label
+The corpus callosum is the commissure connecting corresponding areas of the two hemispheres
+## canonical_key
+corpuscallosum.function.commissural-fibres-hemispheres
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The corpus callosum is the largest commissure of the brain, a broad plate of commissural fibres connecting corresponding (homologous) cortical areas of the two cerebral hemispheres across the midline. Commissural fibres by definition join matching regions on the two sides. Callosal lesions produce disconnection syndromes between the two sides of the brain.
+## explicit_objective
+Classify the corpus callosum as the commissural bundle connecting corresponding areas of the two hemispheres, distinct from projection and association fibres.
+## pitfalls
+Confusing commissural fibres (corpus callosum, across hemispheres) with association fibres (cingulum, superior longitudinal fasciculus, within one hemisphere) or projection fibres (vertical).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Internal capsule and white matter
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral White Matter > Commissural Fibres
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Fibers connecting corresponding areas in the 2 cerebral hemispheres: a. Projection fibers. b. Corpus callosum. c. Cingulum. d. Superior longitudinal fibers." ANSWER: b (205 NEU EOM 2024, Q44)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-2FF114258317D6
+## label
+The lateral ventricles lie within the cerebral hemispheres
+## canonical_key
+lateralventricles.location.cerebral-hemispheres
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each lateral ventricle is a C-shaped cavity lying entirely within one cerebral hemisphere, with a body and anterior (frontal), posterior (occipital) and inferior (temporal) horns extending into the lobes. They communicate with the midline third ventricle through the interventricular foramina (of Monro). Their sweeping course through all the lobes makes them the ventricles of the cerebral hemispheres.
+## explicit_objective
+State that the lateral ventricles lie within the cerebral hemispheres and communicate with the third ventricle via the interventricular foramina.
+## pitfalls
+Misplacing the lateral ventricles in the diencephalon (that is the third ventricle) or brainstem/cerebellum.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Lateral Ventricles
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The lateral ventricles are located within which part of the brain? a. Cerebellum. b. Brainstem. c. Cerebral hemispheres. d. Diencephalon." ANSWER: c (205 NEU EOM 2024, Q45)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-94C3FA287AE06E
+## label
+The trochlear nerve is the only cranial nerve emerging from the dorsal brainstem
+## canonical_key
+trochlearnerve.attachment.dorsal-brainstem
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The trochlear nerve (CN IV) is the only cranial nerve to emerge from the posterior (dorsal) surface of the brainstem, appearing just below the inferior colliculi before curving around the midbrain. It is also the only cranial nerve whose fibres decussate before exiting, and the most slender cranial nerve. This dorsal exit makes it vulnerable in the ambient cistern.
+## explicit_objective
+State that the trochlear nerve (CN IV) is the only cranial nerve emerging from the dorsal (posterior) surface of the brainstem.
+## pitfalls
+Assuming all cranial nerves emerge ventrally; the trochlear nerve is the dorsal-exit exception.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem and cranial nerves
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Cranial Nerve Attachments
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following cranial nerves is attached to the posterior aspect of the brain stem: a. Abducent. b. Vagus. c. Oculomotor. d. Trochlear." ANSWER: d (205 NEU EOM 2024, Q46)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-C2F2FC6CAD1FE8
+## label
+The choroid plexus of the third ventricle lies in its roof
+## canonical_key
+thirdventricle.choroidplexus.roof
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The choroid plexus of the third ventricle lies in its roof, formed by the tela choroidea (a double fold of pia) invaginating the ependymal roof between the two thalami, continuous through the interventricular foramina with the plexus of the lateral ventricles. The third ventricle communicates with the lateral ventricles via the interventricular foramina and with the fourth ventricle via the cerebral aqueduct. Its plexus contributes to CSF production.
+## explicit_objective
+State that the third ventricle's choroid plexus lies in its roof, and correctly assign its two communications.
+## pitfalls
+Swapping the third ventricle's communications: interventricular foramina go to the lateral ventricles, the cerebral aqueduct to the fourth ventricle.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Third Ventricle
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Statements concern the third ventricle, one is correct: ... d. The choroid plexus is located in the roof." ANSWER: d (205 NEU EOM 2024, Q47)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-A2A8A85067BDE0
+## label
+The middle cerebral artery supplies the lateral surface including the auditory area
+## canonical_key
+middlecerebralartery.territory.auditory-area
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The middle cerebral artery supplies most of the lateral surface of the cerebral hemisphere, including the auditory area (Brodmann areas 41 and 42) in the superior temporal gyrus, and the face-and-upper-limb motor/sensory cortex and cortical language areas. The lower-limb motor/sensory representation on the medial surface is anterior cerebral artery territory instead. This broad lateral distribution defines MCA occlusion syndromes.
+## explicit_objective
+Recognise that the MCA supplies the lateral surface including the auditory area, distinguishing MCA from anterior cerebral artery territory.
+## pitfalls
+Assuming the MCA supplies the whole-body motor/sensory strip; the medial (lower-limb) part is anterior cerebral artery.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral vasculature
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Vasculature > Middle Cerebral Artery
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The middle cerebral artery supplies one of the following parts: a. Auditory area. b. Sublentiform part of internal capsule. c. Motor and sensory areas of the whole body. d. Medial half of orbital surface." ANSWER: a (205 NEU EOM 2024, Q48)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-FBA861A98E005E
+## label
+The corpora quadrigemina form the posterior (dorsal) surface of the midbrain
+## canonical_key
+midbrain.posteriorsurface.corpora-quadrigemina
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The posterior (dorsal) surface of the midbrain is the tectum, formed by the corpora quadrigemina — the paired superior and inferior colliculi. The superior colliculi are visual reflex centres and the inferior colliculi auditory relay centres, and the trochlear nerves emerge just below the inferior colliculi. The cerebral peduncles form the anterior (ventral) surface instead.
+## explicit_objective
+State that the corpora quadrigemina (tectum) form the posterior surface of the midbrain, the cerebral peduncles the anterior surface.
+## pitfalls
+Placing the fourth ventricle (a hindbrain cavity) or the cerebral peduncles (ventral) on the posterior midbrain surface.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem and cranial nerves
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Midbrain
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The posterior surface of midbrain is represented by: a. Upper part of 4th ventricle. b. Lower part of 4th ventricle. c. Cerebral peduncle. d. Corpora quadrigemina." ANSWER: d (205 NEU EOM 2024, Q49)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-60895CDC74C11A
+## label
+The posterolateral fissure separates the flocculonodular lobe from the posterior lobe
+## canonical_key
+posterolateralfissure.cerebellum.separates-flocculonodular-posterior-lobe
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The posterolateral fissure separates the flocculonodular lobe (the phylogenetically oldest, vestibular part of the cerebellum) from the posterior lobe. It is the first cerebellar fissure to appear in development, consistent with the flocculonodular lobe being the oldest part. Recognising it defines the three-lobe division of the cerebellum (anterior, posterior, flocculonodular).
+## explicit_objective
+Identify the posterolateral fissure as separating the flocculonodular lobe from the posterior lobe of the cerebellum.
+## pitfalls
+Confusing the posterolateral fissure with the primary fissure (anterior vs posterior lobe) or the horizontal fissure.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebellum
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebellum > Lobes and Fissures
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The fissure that separates the flocculonodular lobe from posterior lobe: a. Primary. b. Horizontal. c. Posterolateral. d. Lateral." ANSWER: c (205 NEU EOM 2024, Q50)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-29D4FC563514E5
+## label
+The superficial middle cerebral vein runs in the lateral sulcus and drains to the cavernous sinus
+## canonical_key
+superficialmiddlecerebralvein.course.posterior-ramus-lateral-sulcus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The superficial middle cerebral vein runs along the posterior ramus of the lateral sulcus (Sylvian fissure), draining the cortex around the fissure, then passes forward to end in the cavernous sinus (via the sphenoparietal sinus). It communicates with the transverse sinus through the inferior anastomotic vein (of Labbe) and with the superior sagittal sinus through the superior anastomotic vein (of Trolard). Its course within the lateral sulcus defines it.
+## explicit_objective
+State that the superficial middle cerebral vein runs in the lateral sulcus and drains chiefly to the cavernous sinus.
+## pitfalls
+Assuming it ends directly in the transverse or superior sagittal sinus; those are reached only indirectly via the anastomotic veins.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral vasculature
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Vasculature > Cerebral Venous Drainage
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning the superficial middle cerebral vein: a. It lies in the posterior ramus of the lateral sulcus. b. Receives majority of inferior cerebral veins of the medial surface. c. Ends in transverse sinus. d. Ends in superior sagittal sinus." ANSWER: a (205 NEU EOM 2024, Q51)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+---
+
+# Item
+## id
+CON-NEU-52B22D62663877
+## label
+The arteria radicularis magna (of Adamkiewicz) supplies the lumbar enlargement of the spinal cord
+## canonical_key
+arteriaradicularismagna.territory.lumbar-enlargement-adamkiewicz
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The arteria radicularis magna (great anterior radicular artery, or artery of Adamkiewicz) is the dominant segmental feeder reinforcing the anterior spinal artery in the lower thoracic and lumbar region, and the principal supply to the lumbar (lumbosacral) enlargement of the spinal cord. Because it supplies so much of the lower cord, its interruption risks infarction and anterior spinal artery syndrome. The thin anterior spinal artery alone is inadequate there.
+## explicit_objective
+Identify the arteria radicularis magna (artery of Adamkiewicz) as the dominant arterial supply to the lumbar enlargement.
+## pitfalls
+Crediting the anterior spinal artery in general rather than the specific great radicular artery that reinforces it in the lumbar region.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal cord
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Spinal Cord > Blood Supply
+## article_ids
+
+## related_article_ids
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The arterial supply of the lumbar enlargement of the spinal cord: a. The arteria radicularis magna. b. The anterior spinal artery. c. The posterior spinal arteries. d. The basilar artery." ANSWER: a (205 NEU EOM 2024, Q52)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Anatomy/Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
