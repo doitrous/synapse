@@ -1,0 +1,28 @@
+205 NEU — triage keys
+Source: 205 NEU/EOM/EOM - NEU 205 EOM 197 answers.pdf (sitting year 2024 — printed
+date 28/11/2024 on page 1 wins over the batch-code-197 → calendar-2025 hint, per
+manifest/README-y2; manifest sourceId src_e3182cba35c85f7acea8, sha256
+e3182cba35c85f7acea806811d5fb0dbae65abe5c12a6c5afa018e83cb98d9cc, corpusRelativePath
+"205 NEU/EOM/EOM - NEU 205 EOM 197 answers.pdf"). Same paper as the 2024-eom-head-and-
+neck-anatomy cluster (Q1-28); this file records the Q29-59 range read this pass.
+Method: NO printed answer-key table on this paper. The correct option of each MCQ is
+GREEN-highlighted on the scan; the image-only PDF has no text layer, so keys were
+recovered by rendering pages 5-8 at 170 dpi (pagetext.mjs render, pages mark-garbled
+first) and reading every highlight by eye — not inferred from OCR garbling. Confirmed
+green = single, saturated green highlight on exactly one option. An OFF-COLOUR (orange/
+tan) highlight is treated as ambiguous and excluded (same convention as the module's
+earlier Q23 hold).
+
+# Q29-52 = cluster 2024-eom-cns-gross-anatomy (this pass). Q53-59 read and confirmed
+# for the NEXT cluster (physiology), listed here so the next pass need not re-render.
+
+Q30.C   Q31.A   Q32.D   Q33.A   Q34.A   Q35.B   Q36.B   Q37.D   Q38.C   Q39.C
+Q40.B   Q41.A   Q42.C   Q43.C   Q44.B   Q45.C   Q46.D   Q47.D   Q48.A   Q49.D
+Q50.C   Q51.A   Q52.A
+# physiology (next cluster, not authored here):
+Q53.B   Q54.D   Q55.D   Q56.A   Q57.D   Q58.C   Q59.A
+
+EXCLUDED (key not recovered / ambiguous):
+Q29 — option c "Glossopharyngeal" highlighted in ORANGE (not the confirmed green), with
+a solver's red "?" beside the item; the anatomically classic answer (auriculotemporal,
+option d) contradicts the orange mark. No option source-supported with confidence. HELD.
