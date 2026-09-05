@@ -100380,3 +100380,4069 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2022 paper reprints the previous year’s question word for word, in the past tense, with the same four options. It printed no key either, and the recovered answer sheet does not cover this source, so the answer again comes from the department book: the radial artery crosses the anatomical snuffbox, whose floor is the scaphoid.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-994
+## title
+Regarding the axillary artery, choose the correct answer:
+## question
+Regarding the axillary artery, choose the correct answer:
+## vignette
+This item asks the student to give the beginning, the ending, the divisions and the relations of the axillary artery, and reject three near-misses on each.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It begins at the inner border of the first rib
+## explanation_a
+One word wrong, and the word matters. The axillary artery begins at the outer border of the first rib — that crossing is the line at which the subclavian artery changes its name, and an inner border would put the change inside the thorax.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+The wrong teres. The artery ends at the lower border of teres major and becomes the brachial; teres minor is a rotator cuff muscle high on the posterior wall and nothing ends at it.
+## answer_c
+It is divided into three parts by the pectoralis minor muscle
+## explanation_c
+Correct. Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## answer_d
+Its third part is related medially to the median nerve
+## explanation_d
+The wrong nerve on the right side. Medial to the third part lies the ulnar nerve; the median nerve lies in front of it, formed there by its two roots.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the beginning, the ending, the divisions and the relations of the axillary artery, and reject three near-misses on each.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q3; Anatomy Question [Upper Limb] (1).pdf p3 q17; Anatomy MCQ Book [2025] [first priority].pdf p21 q17. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pectoralis minor crossing the artery is what makes its three parts, so C is true; A puts the beginning at the inner instead of the outer border of the first rib, B ends the artery at teres minor instead of teres major, and D puts the median nerve medial to the third part where the ulnar nerve lies.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-995
+## title
+The axillary sheath, mark the correct statement:
+## question
+The axillary sheath, mark the correct statement:
+## vignette
+This item asks the student to say what the axillary sheath is derived from and exactly which structures it encloses.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is formed by the clavipectoral fascia
+## explanation_a
+Two sheets of fascia in the same region, doing different jobs. The clavipectoral fascia is local to the pectoral region and forms the deep layer of the anterior wall; the sheath descends from the neck as prevertebral fascia and lies inside the axilla.
+## answer_b
+Encloses the great nerves of the upper limb only
+## explanation_b
+The word "only" is what makes it false. The sheath encloses the artery as well as the nerves, and it is the artery inside it that makes the axillary approach to a plexus block reliable.
+## answer_c
+Encloses the axillary artery
+## explanation_c
+Correct. The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.
+
+Why this is right:
+- It encloses the axillary artery and the cords of the brachial plexus with their branches.
+## answer_d
+It encloses the axillary lymph nodes
+## explanation_d
+The lymph nodes lie in the axillary fat outside the sheath, which is what lets them be dissected out without opening the sheath and injuring the plexus.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-F4D5605867D790
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Say what the axillary sheath is derived from and exactly which structures it encloses.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p26 q148; Anatomy MCQ Book [2025] [first priority].pdf p44 q148; Anatomy MCQ Book [2025] [first priority].pdf p46 q148. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The axillary sheath is prevertebral fascia carried down from the neck around the axillary artery and the cords of the plexus, so C is true; the vein, the nodes and the fat are outside it, and the clavipectoral fascia has nothing to do with its formation.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-996
+## title
+The upper trunk of brachial plexus gives origin to; select the correct answers:
+## question
+The upper trunk of brachial plexus gives origin to; select the correct answers:
+## vignette
+This item asks the student to name the two branches of the upper trunk and separate them from root and cord branches.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Suprascapular nerve
+## explanation_a
+Correct. This is the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve comes off the roots, from C5, C6 and C7, before any trunk is formed. Students place it on a trunk because it is a long named nerve like the suprascapular.
+## answer_c
+Upper subscapular nerve
+## explanation_c
+The upper subscapular nerve comes from the posterior cord, two stages further along, with the lower subscapular and the thoracodorsal.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve is a terminal branch of the posterior cord, not a trunk branch — although its fibres are C5 and C6, the same as the upper trunk, which is exactly why it is a tempting option.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the two branches of the upper trunk and separate them from root and cord branches.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q29; Upper MCQ Dr.jalal (1).pdf p6 q29; Anatomy Question [Upper Limb] (1).pdf p19 q105. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-997
+## title
+One of the followings is a branch of axillary artery:
+## question
+One of the followings is a branch of axillary artery:
+## vignette
+This item asks the student to separate the branches of the axillary artery from those of the brachial artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Profunda brachii artery
+## explanation_a
+Correct as a distractor because it is the other large branch in the region. The profunda brachii comes off the brachial artery just below teres major and runs with the radial nerve in the spiral groove.
+## answer_b
+Subscapular artery
+## explanation_b
+Correct. This is the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## answer_c
+Superior ulnar collateral
+## explanation_c
+The superior ulnar collateral is a branch of the brachial artery in the arm, running with the ulnar nerve behind the medial epicondyle.
+## answer_d
+Inferior ulnar collateral
+## explanation_d
+The inferior ulnar collateral is also a brachial artery branch, arising just above the elbow to join the anastomosis around the joint.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Separate the branches of the axillary artery from those of the brachial artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p34 q1; Anatomy Question [Upper Limb] (1).pdf p3 q15. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-998
+## title
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer:
+## question
+Regarding lesion of the lower root of the brachial plexus, choose the correct answer:
+## vignette
+This item asks the student to give the muscles, the deformity and the sensory territory of a C8–T1 lesion and separate them from a median nerve lesion and from Erb's palsy.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+There is paralysis of the intrinsic muscles of the hand
+## explanation_a
+Correct. C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.
+
+Why this is right:
+- Klumpke's paralysis is injury of the lower trunk of the brachial plexus, C8 and T1, from excessive abduction of the arm with traction or tearing of those roots — falling from a height clutching an object is the type example.
+## answer_b
+It results in ape hand deformity
+## explanation_b
+The wrong deformity, from the wrong lesion. Ape hand — a flat thenar eminence with the thumb pulled back into the plane of the palm — follows a median nerve injury; a lower trunk lesion gives a claw hand.
+## answer_c
+It can be due to fracture of clavicle
+## explanation_c
+The wrong mechanism. Fracture of the clavicle sits over the middle of the plexus and classically threatens the upper trunk or the cords; the lower trunk is torn by traction with the arm forced upwards, as in a fall while clutching at something.
+## answer_d
+There is loss of skin sensations along the lateral side of the arm
+## explanation_d
+The wrong side of the limb. C8 and T1 carry sensation from the medial side of the arm, forearm and hand; the lateral side of the arm is C5 and C6 and belongs to Erb's palsy.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-528AA0580391C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the muscles, the deformity and the sensory territory of a C8–T1 lesion and separate them from a median nerve lesion and from Erb's palsy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p21 q20; Anatomy MCQ Book [2025] [first priority].pdf p22 q20. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `regarding-lesion-of-the-lower-root-of-the-brachial-plexus-th-729c03b6` is keyed A and A is the only true statement. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so their loss paralyses the intrinsics.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-999
+## title
+Regarding the axillary artery, one is correct:
+## question
+Regarding the axillary artery, one is correct:
+## vignette
+This item asks the student to give the largest branch of the axillary artery, the root of the median nerve that crosses it, how much of it pectoralis minor covers, and the side the vein lies on.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The largest of its branches is the superior thoracic artery
+## explanation_a
+The smallest branch offered as the largest. The superior thoracic is a twig to the first two intercostal spaces; the largest branch of the axillary artery is the subscapular, from the third part.
+## answer_b
+Its third part is crossed by the lateral root of the median nerve
+## explanation_b
+The right crossing given to the wrong root. The median nerve is formed in front of the third part of the artery, and it is the medial root that has to cross the artery to reach the lateral root — the lateral root is already on that side.
+## answer_c
+The pectoralis minor covers most of the artery
+## explanation_c
+Pectoralis minor covers only the second part. It crosses the artery rather than covering it, which is exactly why it can be used to divide the vessel into three.
+## answer_d
+The axillary vein lies medial to the artery
+## explanation_d
+Correct. The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the largest branch of the axillary artery, the root of the median nerve that crosses it, how much of it pectoralis minor covers, and the side the vein lies on.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p35 q6; Anatomy MCQ Book [2025] [first priority].pdf p25 q38. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the keyed copy `regarding-the-axillary-artery-one-is-correct-dep-book-ad-y-y-60559964` marks B, which is wrong: it is the medial root of the median nerve that crosses in front of the third part, not the lateral. The axillary vein does lie medial to the artery along its whole length, so D is the only statement here that stands.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1000
+## title
+The cervico-axillary canal, choose the correct answer:
+## question
+The cervico-axillary canal, choose the correct answer:
+## vignette
+This item asks the student to give the three boundaries of the cervico-axillary canal and say which stage of the brachial plexus and which vessels pass through it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Bounded medially by inner border first rib
+## explanation_a
+The wrong border of the right bone. The medial boundary is the outer border of the first rib — the same line at which the subclavian artery becomes the axillary — and the inner border faces into the thorax.
+## answer_b
+Bounded posteriorly by upper border of scapula
+## explanation_b
+Correct. The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.
+
+Why this is right:
+- The apex of the axilla is the cervico-axillary canal, the gateway between the root of the neck and the axilla.
+## answer_c
+The roots of brachial plexus pass through it
+## explanation_c
+The commonest error about this canal. The roots of the plexus lie in the neck between scalenus anterior and scalenus medius; by the time the canal is reached they have joined into trunks and divided into divisions.
+## answer_d
+Transmits subclavian vessels
+## explanation_d
+True only up to the moment of passage. The subclavian artery becomes the axillary artery as it crosses the outer border of the first rib, which is the medial edge of the canal — so what the canal transmits is the axillary vessels.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-36F854FD651912
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the three boundaries of the cervico-axillary canal and say which stage of the brachial plexus and which vessels pass through it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q26; Anatomy Question [Upper Limb] (1).pdf p34 q194. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The upper border of the scapula is the posterior boundary of the canal, so B is true; A gives the inner instead of the outer border of the first rib, C sends the roots through when the roots stay in the neck, and D names the subclavian vessels when the vessels change their name at the canal itself.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1001
+## title
+The dorsal scapular nerve arises from:
+## question
+The dorsal scapular nerve arises from:
+## vignette
+This item asks the student to place the dorsal scapular nerve at the root stage of the brachial plexus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Posterior cord of brachial plexus
+## explanation_a
+The posterior cord gives the radial, axillary, upper and lower subscapular and thoracodorsal nerves. The rhomboids are on the back like the posterior cord's muscles, which is what makes this the strongest wrong answer.
+## answer_b
+Upper trunk of brachial plexus
+## explanation_b
+The upper trunk gives the nerve to subclavius and the suprascapular nerve, and both go forwards or laterally rather than to the vertebral border of the scapula.
+## answer_c
+Roots of brachial plexus
+## explanation_c
+Correct. The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## answer_d
+Medial cord of brachial plexus
+## explanation_d
+The medial cord supplies the flexor side of the forearm and hand and reaches nothing on the back of the scapula.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Place the dorsal scapular nerve at the root stage of the brachial plexus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p31 q6; Upper MCQ Dr.jalal (1).pdf p53 q6. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root, before any trunk is formed, alongside the long thoracic nerve — the two root branches of the plexus.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1002
+## title
+Which one of the following nerves arises from the roots of the brachial plexus?
+## question
+Which one of the following nerves arises from the roots of the brachial plexus?
+## vignette
+This item asks the student to identify the branch that leaves the plexus at the root stage rather than from a cord.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Medial pectoral nerve
+## explanation_a
+The medial pectoral nerve comes from the medial cord, alongside the ulnar and the medial cutaneous nerves.
+## answer_b
+Dorsal scapular nerve
+## explanation_b
+Correct. The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus's only two root branches.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## answer_c
+Axillary nerve
+## explanation_c
+The axillary nerve is a terminal branch of the posterior cord, at the far end of the plexus.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+The thoracodorsal nerve also comes from the posterior cord. It is picked here because its muscle, latissimus dorsi, is on the back like the rhomboids of the true answer.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Identify the branch that leaves the plexus at the root stage rather than from a cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p6 q28; Anatomy MCQ Book [2025] [first priority].pdf p32 q79; EOM ISK 101 195 Answers.pdf p8 q82. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root; the medial pectoral, axillary and thoracodorsal nerves all arise from cords.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1003
+## title
+Concerning the axilla, the following statements are correct except: (2022)
+## question
+Concerning the axilla, the following statements are correct except: (2022)
+## vignette
+This item asks the student to recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Its posterior wall is formed of subscapularis, teres major and latissimus dorsi
+## explanation_a
+True, so not the exception. Subscapularis above with teres major and latissimus dorsi below make the posterior wall.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+Correct. The exception, and the answer. The roots stay in the neck; the plexus reaches the axilla as cords, which is why the cords are named for their position round the second part of the axillary artery.
+
+Why this is right:
+- The contents of the axilla are the axillary artery and its branches; the axillary vein and its tributaries; the cords of the brachial plexus and their branches; the long thoracic nerve; the intercostobrachial nerve, which is the lateral cutaneous branch of the second thoracic nerve; five groups of axillary lymph nodes; the tail of the mammary gland; and axillary fat.
+- The vessels and the plexus run from the apex to the base along the lateral wall, nearer the anterior wall than the posterior.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+True, so not the exception. The apex of the axilla is the cervico-axillary canal, between the clavicle, the scapula and the first rib.
+## answer_d
+The serratus anterior muscle shares in the formation of its medial wall
+## explanation_d
+True, so not the exception. Serratus anterior covers the upper ribs and their intercostal muscles to make the medial wall, and carries the long thoracic nerve on its surface.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-8AA227FAC19B41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p36 q3. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The roots of the brachial plexus lie in the neck between the scalene muscles; what the axilla contains is the cords and their branches, so B is the exception. The other three statements are all true of the axilla.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1004
+## title
+Concerning the axilla, the following statements are correct except: (2022). em em em em em
+## question
+Concerning the axilla, the following statements are correct except: (2022). em em em em em
+## vignette
+This item asks the student to recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Its posterior wall is formed of subscapularis, teres major and latissimus dorsi
+## explanation_a
+True, so not the exception. That is the standard list for the posterior wall.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+Correct. The exception, and the answer. Roots in the neck, trunks and divisions in the cervico-axillary canal, cords in the axilla — the axilla holds the last of the three.
+
+Why this is right:
+- The contents of the axilla are the axillary artery and its branches; the axillary vein and its tributaries; the cords of the brachial plexus and their branches; the long thoracic nerve; the intercostobrachial nerve, which is the lateral cutaneous branch of the second thoracic nerve; five groups of axillary lymph nodes; the tail of the mammary gland; and axillary fat.
+- The vessels and the plexus run from the apex to the base along the lateral wall, nearer the anterior wall than the posterior.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+True, so not the exception. The cervico-axillary canal is the apex, and it is the route by which everything enters.
+## answer_d
+The serratus anterior muscle shares in the formation of its medial wall. Ac ad
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Serratus anterior covering the upper ribs is the textbook medial wall of the axilla, and the long thoracic nerve on it is the reason axillary surgery has to know that.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-8AA227FAC19B41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise that the axilla contains the cords of the brachial plexus and not its roots.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q14; EOM ISK 101 - 2023.pdf p9 q97. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but serratus anterior genuinely does form the medial wall of the axilla, so it cannot be the exception. The exception is B: the roots of the plexus lie in the neck and the axilla holds the cords.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1005
+## title
+Damage to this nerve results "in wrist drop" inability to extend hand at wrist: em em em
+## question
+Damage to this nerve results "in wrist drop" inability to extend hand at wrist: em em em
+## vignette
+This item asks the student to name the nerve whose injury causes wrist drop.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Obturator
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. The obturator nerve arises from the lumbar plexus and supplies the adductors of the thigh; nothing it does could affect a wrist.
+## answer_b
+Radial
+## explanation_b
+Correct. The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.
+
+Why this is right:
+- The radial nerve runs in the spiral groove on the back of the shaft of the humerus with the profunda brachii vessels, and a fracture of the shaft may injure it there.
+## answer_c
+Axillary
+## explanation_c
+The axillary nerve supplies deltoid and teres minor and reaches no further than the shoulder. Its injury flattens the shoulder and loses abduction, not extension of the wrist.
+## answer_d
+Phrenic
+## explanation_d
+The phrenic nerve goes to the diaphragm. It is offered here because it is a familiar named nerve, not because it has any relation to the limb.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-712EBE5936F7E4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve whose injury causes wrist drop.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q11. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, the obturator nerve, which is a nerve of the lower limb and does not enter the upper limb at all. Every extensor of the wrist and fingers is supplied by the radial nerve, so B is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1006
+## title
+Injury of which of the following nerves results in winging of the scapula: (2018)
+## question
+Injury of which of the following nerves results in winging of the scapula: (2018)
+## vignette
+This item asks the student to name the nerve whose injury wings the scapula.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Dorsal scapular.
+## explanation_a
+The dorsal scapular nerve supplies the rhomboids and levator scapulae. Losing it weakens retraction, and any winging it produces is slight and not the classical sign.
+## answer_b
+Long thoracic.
+## explanation_b
+Correct. This is the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.
+
+Why this is right:
+- The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance.
+## answer_c
+Thoracodorsal.
+## explanation_c
+The thoracodorsal nerve supplies latissimus dorsi. It runs on the posterior wall of the axilla and is at risk in the same operation, but its loss costs extension and adduction of the arm.
+## answer_d
+Axillary.
+## explanation_d
+The axillary nerve supplies deltoid and teres minor; its injury flattens the shoulder and loses abduction between fifteen and ninety degrees.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-24E318F2E3F18E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve whose injury wings the scapula.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p20 q16. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1007
+## title
+Medial cord of brachial plexus gives, choose the correct answer:
+## question
+Medial cord of brachial plexus gives, choose the correct answer:
+## vignette
+This item asks the student to separate the branches of the medial cord from those of the lateral cord.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lateral cutaneous nerve of the forearm. :
+## explanation_a
+The lateral cutaneous nerve of the forearm is the continuation of the musculocutaneous nerve, and so belongs to the lateral cord. The word "lateral" in the name is the tell.
+## answer_b
+Musculocutaeous nerve. 1
+## explanation_b
+The musculocutaneous nerve is the lateral cord's own terminal branch, to the flexors of the arm.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+The lateral pectoral nerve is a lateral cord branch, going to the clavicular head of pectoralis major. Its medial counterpart is the one that belongs to the medial cord.
+## answer_d
+Ulnar nerve. ١
+## explanation_d
+Correct. The ulnar nerve is the medial cord's largest branch, carrying C8 and T1 down the medial side of the limb.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Separate the branches of the medial cord from those of the lateral cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p7 q33. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the largest branch of the medial cord; the other three options are all lateral cord branches or derived from one.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1008
+## title
+One of the following is a branch of axillary artery: Ac ad Ac ad ad ad
+## question
+One of the following is a branch of axillary artery: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to separate the branches of the axillary artery from those of the brachial artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Profunda brachii artery.
+## explanation_a
+The profunda brachii is the brachial artery's first and largest branch, arising just below the lower border of teres major — a centimetre or two past the point at which the axillary artery has already ended.
+## answer_b
+Subscapular artery.
+## explanation_b
+Correct. This is the key. The subscapular artery is the largest branch of the axillary, from the third part.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## answer_c
+Superior ulnar collateral.
+## explanation_c
+The superior ulnar collateral arises from the brachial artery and accompanies the ulnar nerve behind the medial epicondyle.
+## answer_d
+Inferior ulnar collateral.
+## explanation_d
+The inferior ulnar collateral also comes from the brachial artery, near the elbow, and feeds the anastomosis around the joint.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the branches of the axillary artery from those of the brachial artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q19. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1009
+## title
+One of the following structures pierces the clavipectoral fascia: (2018) em em
+## question
+One of the following structures pierces the clavipectoral fascia: (2018) em em
+## vignette
+This item asks the student to name the four structures that pierce the clavipectoral fascia and reject the vessels that pass deep to it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+First part of the axillary artery
+## explanation_a
+The first part of the axillary artery lies deep to the fascia rather than passing through it; it is the artery's branch, the thoraco-acromial, that pierces it.
+## answer_b
+Axillary vein
+## explanation_b
+The axillary vein also lies deep to the fascia. The vein that pierces it is the cephalic, coming the other way — from the deltopectoral groove inwards to join the axillary vein.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+Correct. This is the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.
+
+Why this is right:
+- The clavipectoral fascia is a strong sheet lying deep to pectoralis major.
+## answer_d
+Medial pectoral nerve
+## explanation_d
+The medial pectoral nerve pierces pectoralis minor rather than the fascia, and supplies both that muscle and the sternocostal head of pectoralis major. One syllable separates it from the answer.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-8DDA3D07A02813
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the four structures that pierce the clavipectoral fascia and reject the vessels that pass deep to it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p18 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1010
+## title
+Regarding axillary lymph nodes. one statement is wrong; (IPKA)
+## question
+Regarding axillary lymph nodes. one statement is wrong; (IPKA)
+## vignette
+This item asks the student to assign each group of axillary nodes to its wall and its vessel.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Apical group lies at axilla apex, behind clavicle & subclavius
+## explanation_a
+True, so not the wrong statement. The apical group lies at the apex of the axilla behind the clavicle and subclavius, and receives from all the other groups.
+## answer_b
+Subscapular group lies on axilla anterior wall along subscapular artery
+## explanation_b
+Correct. The wrong statement, and the answer. The subscapular group is named for the muscle it lies on, and subscapularis is the posterior wall. Putting it on the anterior wall swaps it with the pectoral group — the one mistake that would send a surgeon to the wrong side of the armpit.
+
+Why this is right:
+- The axillary lymph nodes fall into five groups.
+## answer_c
+Central group lies in fat above axilla base
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. The central group does lie embedded in the fat near the base of the axilla, above the axillary fascia, and it is the group a clinician feels for first.
+## answer_d
+Humeral group lies near axilla lateral wall along axillary vein
+## explanation_d
+True, so not the wrong statement. The humeral or lateral group lies along the medial side of the axillary vein on the lateral wall and drains the whole upper limb.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-552299E3126E53
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Assign each group of axillary nodes to its wall and its vessel.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but the central group does lie in the axillary fat near the base of the axilla, so that statement stands. The wrong statement is B: the subscapular group lies on the posterior wall of the axilla, along the subscapular vessels — the anterior wall belongs to the pectoral group along the lateral thoracic vessels.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1011
+## title
+Regarding lesion of the lower root of the brachial plexus, the correct answer:
+## question
+Regarding lesion of the lower root of the brachial plexus, the correct answer:
+## vignette
+This item asks the student to give the muscles, the deformity and the sensory territory of a C8–T1 lesion.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+There is paralysis of the intrinsic muscles of the hand
+## explanation_a
+Correct. This is the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.
+
+Why this is right:
+- Klumpke's paralysis is injury of the lower trunk of the brachial plexus, C8 and T1, from excessive abduction of the arm with traction or tearing of those roots — falling from a height clutching an object is the type example.
+## answer_b
+It results in ape hand deformity
+## explanation_b
+Ape hand — the thumb pulled back into the plane of the palm with a wasted thenar eminence — is a median nerve sign.
+## answer_c
+It can be due to fracture of clavicle
+## explanation_c
+A clavicular fracture lies over the trunks and cords rather than the lower trunk specifically; the lower trunk is torn by upward traction on the abducted arm.
+## answer_d
+There is loss of skin sensations along the lateral side of the arm
+## explanation_d
+C8 and T1 carry the medial strip of the arm, forearm and hand. The lateral strip is C5 and C6, and losing it is Erb's palsy.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-528AA0580391C0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the muscles, the deformity and the sensory territory of a C8–T1 lesion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p4 q20. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1012
+## title
+Regarding pectoralis major, mark one correct statement:
+## question
+Regarding pectoralis major, mark one correct statement:
+## vignette
+This item asks the student to give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Inserted into the lateral lip of the bicipital groove
+## explanation_a
+Correct. The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.
+
+Why this is right:
+- It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion.
+- It is supplied by the lateral and medial pectoral nerves.
+## answer_b
+Receives nerve supply from posterior cord of brachial plexus
+## explanation_b
+The wrong cord. The pectoral nerves come from the lateral and medial cords; the posterior cord supplies the extensor side of the limb.
+## answer_c
+Forms the medial wall of axilla
+## explanation_c
+The wrong wall. Pectoralis major is the anterior wall of the axilla; the medial wall is serratus anterior over the upper ribs.
+## answer_d
+Is a powerful lateral rotator of the shoulder
+## explanation_d
+The wrong direction. Pectoralis major lies in front of the shoulder joint and rotates the arm medially.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-2B9F47FC205689
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p1 q4. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; two keyed copies of this question in the Pectoral Region leaf both mark A. Pectoralis major inserts into the lateral lip of the bicipital groove, and each of the other three statements reverses a fact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1013
+## title
+Regarding pectoralis major muscle, mark one correct statement:
+## question
+Regarding pectoralis major muscle, mark one correct statement:
+## vignette
+This item asks the student to give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Inserted into the lateral lip of the bicipital groove
+## explanation_a
+Correct. Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.
+
+Why this is right:
+- It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion.
+- It is supplied by the lateral and medial pectoral nerves.
+## answer_b
+Receives nerve supply from posterior cord of brachial plexus
+## explanation_b
+The pectoral nerves are lateral and medial cord branches, never posterior cord.
+## answer_c
+Forms the medial wall of axilla
+## explanation_c
+Pectoralis major forms the anterior wall of the axilla, not the medial.
+## answer_d
+Is a powerful lateral rotator of the shoulder
+## explanation_d
+Pectoralis major is a medial rotator; the lateral rotators are infraspinatus and teres minor, behind the joint.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-2B9F47FC205689
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p21 q116. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copies in the Pectoral Region leaf mark A, and the lateral lip of the bicipital groove is the muscle's insertion.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1014
+## title
+Regarding the axilla, the following statement is correct: (2019)
+## question
+Regarding the axilla, the following statement is correct: (2019)
+## vignette
+This item asks the student to pick the one true statement about the axilla from three that each misstate a wall or a content.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Its posterior wall is formed of subscapularis only
+## explanation_a
+Incomplete rather than wrong, and incompleteness is what the word "only" makes fatal. The posterior wall is subscapularis with teres major and latissimus dorsi below it.
+## answer_b
+It contains the roots of the brachial plexus
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The roots of the plexus lie in the neck; the axilla holds the cords, which is why they are named for their positions round the second part of the axillary artery.
+## answer_c
+It is connected with the neck through the cervicoaxillary canal
+## explanation_c
+Correct. The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.
+
+Why this is right:
+- The contents of the axilla are the axillary artery and its branches; the axillary vein and its tributaries; the cords of the brachial plexus and their branches; the long thoracic nerve; the intercostobrachial nerve, which is the lateral cutaneous branch of the second thoracic nerve; five groups of axillary lymph nodes; the tail of the mammary gland; and axillary fat.
+- The vessels and the plexus run from the apex to the base along the lateral wall, nearer the anterior wall than the posterior.
+## answer_d
+The pectoralis major and minor muscles share in the formation of its medial wall
+## explanation_d
+The wrong pair of muscles for that wall. The pectoral muscles form the anterior wall; the medial wall is the upper ribs and intercostals covered by serratus anterior.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-8AA227FAC19B41
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the one true statement about the axilla from three that each misstate a wall or a content.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p34 q16. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but the axilla contains the cords of the brachial plexus, not its roots, which lie in the neck between the scalene muscles. C is true as printed: the apex of the axilla is the cervico-axillary canal, through which the space communicates with the root of the neck.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1015
+## title
+Regarding the axillary artery, choose the correct answer: em em em em em
+## question
+Regarding the axillary artery, choose the correct answer: em em em em em
+## vignette
+This item asks the student to give the relations of the second and third parts of the axillary artery and the correct beginning and end of the vessel.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It begins at the inner border of the ﬁrst rib
+## explanation_a
+The outer border of the first rib, not the inner. That crossing is the line at which the subclavian artery becomes the axillary.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+Teres major, not teres minor. The lower border of teres major is where the axillary artery becomes the brachial.
+## answer_c
+Its third part is related medially to the ulnar nerve
+## explanation_c
+Correct. The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## answer_d
+Its second part is related posteriorly to the axillary nerve. Ac ad
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Behind the second part lies the posterior cord itself; the axillary nerve is one of that cord's two terminal branches and lies behind the third part instead. The option names a branch where the parent belongs.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the relations of the second and third parts of the axillary artery and the correct beginning and end of the vessel.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q14. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, but the second part is related posteriorly to the posterior cord, not to the axillary nerve — the axillary nerve is a branch of that cord and lies behind the third part. C is true: the ulnar nerve lies on the medial side of the third part, between the artery and the vein.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1016
+## title
+Regarding the axillary artery, choose the correct answer: em em em
+## question
+Regarding the axillary artery, choose the correct answer: em em em
+## vignette
+This item asks the student to give the beginning, the ending, the divisions and the relations of the axillary artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It begins at the inner border of the ﬁrst rib
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Outer border, not inner — and the difference is not pedantic, since the outer border of the first rib is exactly where the subclavian artery changes its name.
+## answer_b
+It ends at the lower border of the teres minor muscle
+## explanation_b
+Teres major ends the artery, not teres minor. The two names differ by one word and lie centimetres apart on the posterior wall.
+## answer_c
+It is divided into three parts by the pectoralis minor muscle
+## explanation_c
+Correct. Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## answer_d
+Its third part is related medially to the median nerve
+## explanation_d
+Medial to the third part lies the ulnar nerve; the median nerve is in front of it, formed there by the union of its two roots.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the beginning, the ending, the divisions and the relations of the axillary artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q20. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is the standard statement with one word changed: the axillary artery begins at the outer border of the first rib, not the inner. Pectoralis minor dividing the artery into three parts is the statement that is true, so the answer is C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1017
+## title
+Regarding the axillary artery, one is correct: ad y y
+## question
+Regarding the axillary artery, one is correct: ad y y
+## vignette
+This item asks the student to give the largest branch, the root of the median nerve that crosses the third part, and the side the axillary vein lies on.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The largest of its branches Is the superior thoracic artery.
+## explanation_a
+The smallest branch called the largest. The subscapular artery, from the third part, is the largest branch of the axillary; the superior thoracic is a twig from the first part.
+## answer_b
+Its third part is crossed by the lateral root of the median nerve.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The median nerve is formed in front of the third part by two roots, and only the medial root has to cross the artery to reach its partner.
+## answer_c
+The pectoralis minor covers most of the artery.
+## explanation_c
+Pectoralis minor crosses the artery over its second part alone. Calling it a cover for most of the vessel makes nonsense of the three-part division that same muscle produces.
+## answer_d
+The axillary vein lies medial to the artery.
+## explanation_d
+Correct. The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the largest branch, the root of the median nerve that crosses the third part, and the side the axillary vein lies on.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p41 q21. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but it is the medial root of the median nerve that crosses in front of the third part of the axillary artery — the lateral root is already on the lateral side and has no artery to cross. D is the statement that is true: the axillary vein lies medial to the artery throughout.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1018
+## title
+Regarding the ulnar nerve: Ac ad Ac ad ad ad
+## question
+Regarding the ulnar nerve: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to give the cord of origin, the branches in the forearm and the relation of the ulnar nerve to the medial epicondyle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is a branch of lateral cord of brachial plexus.
+## explanation_a
+The wrong cord, and the wrong side of the limb. The ulnar nerve is the largest branch of the medial cord, carrying C8 and T1 down the medial side.
+## answer_b
+It gives no branches in forearm.
+## explanation_b
+Inverted. The ulnar nerve gives no branches in the arm and several in the forearm — flexor carpi ulnaris, the medial half of flexor digitorum profundus, and the palmar and dorsal cutaneous branches. A student who has learnt "no branches in the arm" and misremembers which segment picks this.
+## answer_c
+It passes behind medial epicondyle of humerus.
+## explanation_c
+Correct. The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_d
+It supplies extensor carpi ulnaris.
+## explanation_d
+The name is the trap. Extensor carpi ulnaris lies on the ulnar side of the forearm but is an extensor, and every extensor of the forearm is supplied by the radial nerve.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the cord of origin, the branches in the forearm and the relation of the ulnar nerve to the medial epicondyle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q51. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `regarding-the-ulnar-nerve-d455c153`, asked twice, is keyed C. The ulnar nerve grooves the back of the medial epicondyle, and each of the other three statements is false.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1019
+## title
+Regarding veins of upper limb, one is correct answer:
+## question
+Regarding veins of upper limb, one is correct answer:
+## vignette
+This item asks the student to attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The bicipital aponeurosis separates the cephalic vein from the brachial
+## explanation_a
+Correct relationship, wrong vein. The bicipital aponeurosis separates the median cubital vein from the brachial artery, which is what makes venepuncture at the elbow safe.
+## answer_b
+The cephalic vein starts at lateral end of dorsal venous arch of the hand
+## explanation_b
+Correct. This is the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_c
+The basilic vein pierces the clavipectoral fascia
+## explanation_c
+The two veins swapped. It is the cephalic that pierces the clavipectoral fascia; the basilic pierces the deep fascia about the middle of the arm.
+## answer_d
+Axillary artery is accompanied by two venae comitantes
+## explanation_d
+The brachial artery has two venae comitantes; the axillary artery has a single axillary vein, formed where those venae comitantes join the basilic.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p5 q27. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1020
+## title
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA -…
+## question
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA - 2016) ad Ac ad ad ad
+## vignette
+This item asks the student to name the vessel the anterior group of axillary nodes lies along.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Upper part of the axillary vein.
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. The upper part of the axillary vein is where the apical group sits, behind the clavicle; the lateral group runs along the vein lower down. Neither is the pectoral group.
+## answer_b
+Lower part of the axillary vein.
+## explanation_b
+The lower part of the axillary vein is the territory of the lateral or humeral group, which drains the upper limb.
+## answer_c
+Lateral thoracic artery.
+## explanation_c
+Correct. The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.
+
+Why this is right:
+- The axillary lymph nodes fall into five groups.
+## answer_d
+Subscapular artery.
+## explanation_d
+The subscapular vessels carry the posterior (subscapular) group, on the posterior wall.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-552299E3126E53
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the vessel the anterior group of axillary nodes lies along.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p95 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but the axillary vein is the vessel of the lateral (humeral) group; the anterior or pectoral group lies along the lateral thoracic vessels at the lower border of pectoralis minor, and that is the group breast lymph reaches first.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1021
+## title
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA -…
+## question
+The anterior (pectoral) group of the axillary lymph nodes is located along the: (IPKA - 2016)
+## vignette
+This item asks the student to name the vessel the anterior group of axillary nodes lies along.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Upper part of the axillary vein
+## explanation_a
+The upper part of the axillary vein belongs to the apical group, behind the clavicle and subclavius.
+## answer_b
+Lower part of the axillary vein
+## explanation_b
+The lower part of the axillary vein belongs to the lateral or humeral group, which drains the limb.
+## answer_c
+Lateral thoracic artery
+## explanation_c
+Correct. Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.
+
+Why this is right:
+- The axillary lymph nodes fall into five groups.
+## answer_d
+Subscapular artery
+## explanation_d
+The subscapular vessels carry the posterior group on the posterior wall of the axilla.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-552299E3126E53
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Name the vessel the anterior group of axillary nodes lies along.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p138 q3. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Each group of axillary nodes is named for the wall it lies on and the vessel it accompanies, and the anterior or pectoral group accompanies the lateral thoracic vessels along the lower border of pectoralis minor.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1022
+## title
+The axillary nerve may be injured due to: (2019) Ac ad Ac ad ad ad
+## question
+The axillary nerve may be injured due to: (2019) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to match each level of humeral fracture to the nerve that lies against the bone there.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Surgical neck of the humerus fracture.
+## explanation_a
+Correct. The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.
+
+Why this is right:
+- It supplies deltoid and teres minor.
+## answer_b
+Fracture of the mid shaft of the humerus.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The mid-shaft is the radial nerve's level, in the spiral groove, and the deformity there is wrist drop rather than a flat shoulder.
+## answer_c
+Fracture of the medial epicondyle of the humerus.
+## explanation_c
+The medial epicondyle is the ulnar nerve's level, and a fracture there gives a claw hand and numbness of the little finger.
+## answer_d
+Fracture of the trochlea.
+## explanation_d
+A fracture of the trochlea is at the elbow and threatens the median nerve in front and the ulnar behind. Nothing at the elbow can reach a nerve that ends at the shoulder.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-EE022A2043C10F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Match each level of humeral fracture to the nerve that lies against the bone there.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p40 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but a fracture of the mid-shaft of the humerus injures the radial nerve in the spiral groove. The axillary nerve winds round the surgical neck, so A is the fracture that endangers it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1023
+## title
+The bicipital groove of the humerus lodges (contains) the: (2017 – 2016 - 2021) Vi ad
+## question
+The bicipital groove of the humerus lodges (contains) the: (2017 – 2016 - 2021) Vi ad
+## vignette
+This item asks the student to name the tendon that runs in the intertubercular groove of the humerus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Axillary artery.
+## explanation_a
+The axillary artery runs down the axilla medial to the humerus and ends at the lower border of teres major; it never lies in a bony groove of the humerus.
+## answer_b
+Long head of the biceps.
+## explanation_b
+Correct. The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.
+
+Why this is right:
+- The shoulder joint is a synovial polyaxial ball-and-socket joint between the head of the humerus and the glenoid cavity, deepened by the labrum glenoidale.
+## answer_c
+Long head of the triceps.
+## explanation_c
+The answer the extractor read off this page, and the reason for the override. Long head of triceps, not biceps: it arises from the infraglenoid tubercle and passes down the back of the arm between teres major and teres minor.
+## answer_d
+Coracobrachialis.
+## explanation_d
+Coracobrachialis runs from the coracoid process to the middle of the medial side of the humeral shaft, well below and medial to the groove — a lateral wall structure of the axilla, but not a groove tenant.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-EA4C451C8749B9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the tendon that runs in the intertubercular groove of the humerus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q1; EOM ISK 101 195 Answers.pdf p10 q104. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, but the long head of triceps arises from the infraglenoid tubercle of the scapula and runs down the back of the arm, nowhere near the groove. The intertubercular groove lodges the tendon of the long head of biceps, held there by the transverse humeral ligament.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1024
+## title
+The cervico-axillary canal, choose the correct answer: Ac P Vi a- Bounded medially by i…
+## question
+The cervico-axillary canal, choose the correct answer: Ac P Vi a- Bounded medially by inner border ﬁrst rib. ad
+## vignette
+This item asks the student to give the three boundaries of the cervico-axillary canal and say what passes through it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Bounded medially by inner border ﬁrst rib.
+## explanation_a
+The option the scan has echoed into the stem, and it is false: the medial boundary is the outer border of the first rib.
+## answer_b
+Bounded posteriorly by upper border of scapula.
+## explanation_b
+Correct. The posterior boundary of the cervico-axillary canal is the upper border of the scapula.
+
+Why this is right:
+- The apex of the axilla is the cervico-axillary canal, the gateway between the root of the neck and the axilla.
+## answer_c
+The roots of brachial plexus pass through It.
+## explanation_c
+The roots of the plexus are in the neck; the canal transmits trunks and divisions.
+## answer_d
+Transmits subclavian vessels.
+## explanation_d
+The vessels are already becoming axillary as they cross the outer border of the first rib, which is the canal's own medial edge.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-36F854FD651912
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the three boundaries of the cervico-axillary canal and say what passes through it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p33 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan, which is page furniture and not a key. The upper border of the scapula is the canal's posterior boundary, so B is the answer, as it is on the other two copies of this question.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1025
+## title
+The dorsal scapular nerve arises from: Vi
+## question
+The dorsal scapular nerve arises from: Vi
+## vignette
+This item asks the student to place the dorsal scapular nerve at the root stage of the brachial plexus.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Posterior cord of brachial plexus.
+## explanation_a
+The posterior cord supplies the extensor side of the limb through the radial and axillary nerves and the three subscapular-group branches. The rhomboids being on the back makes this the tempting answer.
+## answer_b
+Upper trunk of brachial plexus.
+## explanation_b
+The upper trunk gives the suprascapular nerve and the nerve to subclavius only.
+## answer_c
+Roots of brachial plexus.
+## explanation_c
+Correct. The nerve leaves C5 before any trunk forms, which is what makes it a root branch.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## answer_d
+Medial cord of brachial plexus.
+## explanation_d
+The medial cord's branches all run down the medial and flexor side of the limb.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the dorsal scapular nerve at the root stage of the brachial plexus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p36 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsal scapular nerve arises from the C5 root and pierces scalenus medius; the long thoracic nerve is the only other root branch.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1026
+## title
+The innervation of the serratus anterior muscle is done by: (2021)
+## question
+The innervation of the serratus anterior muscle is done by: (2021)
+## vignette
+This item asks the student to name the nerve that supplies serratus anterior and where it runs.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Medial pectoral nerve
+## explanation_a
+The medial pectoral nerve supplies pectoralis minor and the sternocostal head of pectoralis major, on the opposite wall of the axilla.
+## answer_b
+Lateral pectoral nerve
+## explanation_b
+The lateral pectoral nerve supplies the clavicular head of pectoralis major, also on the anterior wall.
+## answer_c
+Long thoracic nerve
+## explanation_c
+Correct. This is the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.
+
+Why this is right:
+- The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance.
+## answer_d
+Axilla nerve
+## explanation_d
+The axillary nerve supplies deltoid and teres minor and does not reach the chest wall. It is offered because the question is about a muscle in the axilla.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-24E318F2E3F18E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the nerve that supplies serratus anterior and where it runs.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p22 q27. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1027
+## title
+The medial cord of brachial plexus gives, choose the correct answer:
+## question
+The medial cord of brachial plexus gives, choose the correct answer:
+## vignette
+This item asks the student to separate the branches of the medial cord from those of the lateral cord.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lateral cutaneous nerve of the forearm
+## explanation_a
+The lateral cutaneous nerve of the forearm is the terminal continuation of the musculocutaneous nerve, and so a lateral cord derivative.
+## answer_b
+Musculoc;utaeous nerve
+## explanation_b
+The musculocutaneous nerve is the lateral cord's own terminal branch.
+## answer_c
+Lateral pectoral nerve
+## explanation_c
+The lateral pectoral nerve belongs to the lateral cord; the medial cord's counterpart is the medial pectoral nerve.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## topic
+Upper Limb
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Separate the branches of the medial cord from those of the lateral cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p33 q191. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve is the medial cord's largest branch; the lateral cutaneous nerve of the forearm, the musculocutaneous nerve and the lateral pectoral nerve all belong to the lateral cord.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1028
+## title
+The radial nerve supplies the following muscle in the axilla: (2019)
+## question
+The radial nerve supplies the following muscle in the axilla: (2019)
+## vignette
+This item asks the student to name the muscle the radial nerve supplies while still in the axilla, before it enters the spiral groove.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Long head of triceps.
+## explanation_a
+Correct. This is the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.
+
+Why this is right:
+- The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1.
+## answer_b
+Lateral head of triceps.
+## explanation_b
+The lateral head of triceps is supplied in the arm, after the nerve has left the axilla and entered the spiral groove. The muscle is right and the level is wrong, which is exactly what the stem is testing.
+## answer_c
+Long head of biceps.
+## explanation_c
+The long head of biceps is supplied by the musculocutaneous nerve, from the lateral cord. Its tendon runs in the intertubercular groove, which is why it comes to mind in any axillary question.
+## answer_d
+Anconeus.
+## explanation_d
+Anconeus is supplied by the radial nerve too, but at the far end of the arm, near the elbow.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-A49B57B03A3610
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle the radial nerve supplies while still in the axilla, before it enters the spiral groove.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q15. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1029
+## title
+The subscapular artery, choose the correct answer:
+## question
+The subscapular artery, choose the correct answer:
+## vignette
+This item asks the student to give the origin and the branches of the subscapular artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Arises from the 2™ part of axillary artery
+## explanation_a
+The wrong part. The subscapular artery arises from the third part of the axillary artery, below pectoralis minor, along with the two circumflex humeral arteries.
+## answer_b
+Gives the posterior circumflex humeral artery
+## explanation_b
+The posterior circumflex humeral is a separate branch of the third part in its own right, not a branch of the subscapular. The two arise within a centimetre of each other, which is what makes this plausible.
+## answer_c
+Shares in anastomoses around surgical neck of humerus
+## explanation_c
+The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery's own contribution is to the scapular anastomosis, through its circumflex scapular branch. This option is keyed correct, and it is defensible only on that looser reading.
+## answer_d
+Gives circumflex scapular artery
+## explanation_d
+Correct. The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.
+
+Why this is right:
+- The axillary artery is the continuation of the subclavian artery from the outer border of the first rib to the lower border of teres major, where it becomes the brachial artery.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-C608D59631E713
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Give the origin and the branches of the subscapular artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p52 q186. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `the-subscapular-artery-choose-the-correct-answer-dep-book-d894ec7d` marks C, which is the loosest of the four. The subscapular artery gives the circumflex scapular and continues as the thoracodorsal, so D is true as printed and is the statement the anatomy supports without qualification.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1030
+## title
+The ulnar nerve: (2024) Ac em
+## question
+The ulnar nerve: (2024) Ac em
+## vignette
+This item asks the student to give the cord of origin, the course in the arm and the muscles of the ulnar nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It is a terminal branch of the lateral cord of the brachial plexus
+## explanation_a
+The wrong cord. The ulnar nerve is the largest branch of the medial cord; the lateral cord gives the musculocutaneous nerve and the lateral root of the median.
+## answer_b
+It lies behind the medial epicondyle of the humerus
+## explanation_b
+Correct. The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_c
+It descends with the long head of the triceps
+## explanation_c
+The wrong head. In the arm the ulnar nerve pierces the medial intermuscular septum and descends on the front of the medial head of triceps; the long head lies further back and laterally.
+## answer_d
+It innervates the triceps. y
+## explanation_d
+Triceps is supplied by the radial nerve throughout. The ulnar nerve gives no muscular branch at all in the arm.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the cord of origin, the course in the arm and the muscles of the ulnar nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q30. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, which is true and is the fact every clinical use of the nerve rests on; A gives it the wrong cord, C the wrong head of triceps, and D a muscle that belongs to the radial nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1031
+## title
+Which is a branch of medial cord of brachial plexus: (2021)
+## question
+Which is a branch of medial cord of brachial plexus: (2021)
+## vignette
+This item asks the student to pick the medial cord branch from a list of one lateral cord, one root and one posterior cord branch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Medial pectoral nerve.
+## explanation_a
+Correct. The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## answer_b
+Lateral pectoral nerve.
+## explanation_b
+The lateral pectoral nerve is its counterpart from the lateral cord. The two nerves are named for their cords, which makes this pair the whole point of the item.
+## answer_c
+Dorsal scapular nerve.
+## explanation_c
+The dorsal scapular nerve arises from the C5 root, before the trunks form.
+## answer_d
+Axillary nerve.
+## explanation_d
+The axillary nerve is a terminal branch of the posterior cord.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the medial cord branch from a list of one lateral cord, one root and one posterior cord branch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p37 q18. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The medial pectoral nerve is a branch of the medial cord; the lateral pectoral belongs to the lateral cord, the dorsal scapular to the C5 root and the axillary to the posterior cord.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1032
+## title
+Which nerve arises from a cord of the brachial plexus cords? ad Ac a- Long thoracic ner…
+## question
+Which nerve arises from a cord of the brachial plexus cords? ad Ac a- Long thoracic nerve. y Ac
+## vignette
+This item asks the student to distinguish the branches that leave the cords from those that leave the roots and the upper trunk.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Long thoracic nerve.
+## explanation_a
+A root branch, from C5, C6 and C7, and the option the scan has echoed into the stem. The long thoracic nerve leaves the plexus before any trunk forms.
+## answer_b
+Nerve to subclavius.
+## explanation_b
+A branch of the upper trunk, running down in front of the subclavian vessels to subclavius.
+## answer_c
+Suprascapular nerve.
+## explanation_c
+Also a branch of the upper trunk, passing laterally to the suprascapular notch.
+## answer_d
+Thoracodorsal nerve.
+## explanation_d
+Correct. The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.
+
+Why this is right:
+- The brachial plexus lies partly in the neck and partly in the axilla and consists of roots C5 to T1, three trunks, six divisions and three cords.
+- The upper trunk is C5 and C6, the middle trunk C7 alone, the lower trunk C8 and T1; each divides behind the clavicle into an anterior and a posterior division.
+- The lateral cord is the anterior divisions of the upper and middle trunks, the medial cord the anterior division of the lower trunk, the posterior cord the posterior divisions of all three.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-CF723B5FB24D70
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Distinguish the branches that leave the cords from those that leave the roots and the upper trunk.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan rather than marked as an answer. The thoracodorsal nerve is a branch of the posterior cord; the long thoracic comes from the roots and the nerve to subclavius and the suprascapular nerve from the upper trunk.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1033
+## title
+Which nerve is probably damaged if a patient cannot abduct arm beyond 15°:
+## question
+Which nerve is probably damaged if a patient cannot abduct arm beyond 15°:
+## vignette
+This item asks the student to reason from the range of abduction lost to the nerve that supplies the muscle covering that range.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Axillary
+## explanation_a
+Correct. This is the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve's muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.
+
+Why this is right:
+- It supplies deltoid and teres minor.
+## answer_b
+Radial. P
+## explanation_b
+The radial nerve supplies triceps and all the extensors of the forearm; its injury drops the wrist and leaves abduction of the shoulder intact.
+## answer_c
+Musculocutaneous
+## explanation_c
+The musculocutaneous nerve supplies the flexors of the arm — biceps, brachialis and coracobrachialis — so its loss costs flexion of the elbow, not abduction of the shoulder.
+## answer_d
+Median
+## explanation_d
+The median nerve supplies most of the flexors of the forearm and the thenar muscles, and does not reach the shoulder at all.
+## topic
+Axilla
+## subtopic
+Axilla
+## main_concept
+CON-MSK-EE022A2043C10F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Axilla
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-AXILLA-BREAST
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Reason from the range of abduction lost to the nerve that supplies the muscle covering that range.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
