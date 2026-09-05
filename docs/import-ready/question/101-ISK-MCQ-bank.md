@@ -94885,3 +94885,5498 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer given here is: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. All four junctions are also grouped as lateral specialisations, which is what makes option a false.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-940
+## title
+Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
+## question
+Motor loss resulting from carpal tunnel syndrome induces; mark the most acceptable answer:
+## vignette
+This item asks the student to name the single movement whose loss in carpal tunnel syndrome disables the hand.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Loss of thumb adduction and abduction
+## explanation_a
+Half of this is ulnar. Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, and it is preserved in carpal tunnel syndrome; only abduction, by abductor pollicis brevis, is lost — so the option is wrong as a pair.
+## answer_b
+Loss of writing position of the medial four fingers
+## explanation_b
+The writing position — metacarpophalangeal joints flexed with the interphalangeal joints extended — is the work of all four lumbricals and the interossei. The lateral two lumbricals do go, but the medial two and every interosseous are ulnar, so the position is not lost.
+## answer_c
+Loss of opposition of the thumb
+## explanation_c
+Correct. Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.
+
+Why this is right:
+- Carpal tunnel syndrome is compression of the median nerve as it passes deep to the flexor retinaculum.
+- The deformity is the ape (monkey's) hand: the thenar eminence wasted and flattened, the thumb laterally rotated and adducted with loss of opposition.
+## answer_d
+Loss of abduction and adduction of the medial 4 fingers
+## explanation_d
+Abduction and adduction of the fingers is the interossei, every one of which is supplied by the deep branch of the ulnar nerve and none of which passes through the carpal tunnel with the median.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-9B52018C4649BD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the single movement whose loss in carpal tunnel syndrome disables the hand.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p13 q29; Upper MCQ Dr.jalal (1).pdf p17 q29; Anatomy Question [Upper Limb] (1).pdf p32 q184; Anatomy MCQ Book [2025] [first priority].pdf p52 q184. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve in the carpal tunnel supplies the three thenar muscles, so what it loses is opposition of the thumb; the other three options are all ulnar territory and survive the lesion untouched.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-941
+## title
+The median nerve innervates the following muscles:
+## question
+The median nerve innervates the following muscles:
+## vignette
+This item asks the student to identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Extensor carpi radialis longus
+## explanation_a
+Extensor carpi radialis longus is an extensor of the forearm, and every extensor is radial. The word "radialis" invites the guess that it belongs to the radial side rather than the radial nerve — here they happen to agree, and the nerve is radial.
+## answer_b
+Dorsal and palmer interossei
+## explanation_b
+All seven interossei, dorsal and palmar, take the deep branch of the ulnar nerve.
+## answer_c
+Hypothenar muscles
+## explanation_c
+The hypothenar muscles are also ulnar, through the deep branch.
+## answer_d
+Lateral two lumbricals
+## explanation_d
+Correct. This is the key. The lateral two lumbricals are the median nerve's only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q21; Upper MCQ Dr.jalal (1).pdf p16 q21; Anatomy Question [Upper Limb] (1).pdf p2 q9; Anatomy MCQ Book [2025] [first priority].pdf p20 q9. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-942
+## title
+The radial artery gives the following branch in the hand:
+## question
+The radial artery gives the following branch in the hand:
+## vignette
+This item asks the student to separate the radial artery's branches in the hand from those it gives at the wrist.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Principes pollicis
+## explanation_a
+Correct. Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_b
+Superficial palmar artery
+## explanation_b
+Given at the wrist, not in the hand. The superficial palmar branch leaves the radial artery before it turns back into the snuff box, and runs on to help complete the superficial arch.
+## answer_c
+Second dorsal metacarpal artery
+## explanation_c
+The second dorsal metacarpal artery comes from the dorsal carpal arch. Only the first dorsal metacarpal artery is a direct branch of the radial, given on the back of the hand before it dives into the palm.
+## answer_d
+Posterior carpal artery
+## explanation_d
+The posterior carpal artery is a wrist branch, and it is one of the vessels that forms the dorsal carpal arch from which option C then arises.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+9.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.90
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Separate the radial artery's branches in the hand from those it gives at the wrist.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q12; Upper MCQ Dr.jalal (1).pdf p57 q12; Anatomy Question [Upper Limb] (1).pdf p28 q158; Anatomy MCQ Book [2025] [first priority].pdf p48 q158. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the second dorsal metacarpal artery, which comes off the dorsal carpal arch rather than the radial artery itself. Arteria princeps pollicis is given after the artery reaches the palm and is a radial branch in the hand, so A is the answer — and the books' own "except" version of this question lists princeps pollicis, radialis indicis and the first dorsal metacarpal as its hand branches.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-943
+## title
+A patient suffering from carpal tunnel syndrome, would present with one of the followin…
+## question
+A patient suffering from carpal tunnel syndrome, would present with one of the following symptoms:
+## vignette
+This item asks the student to give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Parasthesia over the index finger
+## explanation_a
+Correct. The index finger lies squarely within the median nerve's palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.
+
+Why this is right:
+- Carpal tunnel syndrome is compression of the median nerve as it passes deep to the flexor retinaculum.
+- The deformity is the ape (monkey's) hand: the thenar eminence wasted and flattened, the thumb laterally rotated and adducted with loss of opposition.
+## answer_b
+Parasthesia over the little finger
+## explanation_b
+The little finger is ulnar, and its sparing is what distinguishes carpal tunnel syndrome from an ulnar lesion at the bedside.
+## answer_c
+Weakness in adduction of the thumb
+## explanation_c
+Adduction of the thumb is adductor pollicis, which takes the deep branch of the ulnar nerve and lies outside the carpal tunnel altogether.
+## answer_d
+Weakness in opposition of the little finger
+## explanation_d
+Opposition of the little finger is opponens digiti minimi, a hypothenar muscle and therefore ulnar.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-9B52018C4649BD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p13 q28; Upper MCQ Dr.jalal (1).pdf p17 q28; Anatomy MCQ Book [2025] [first priority].pdf p31 q71. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve carries sensation from the palmar surface of the lateral three and a half fingers, so paraesthesia over the index finger is the presenting symptom; the other three options all name ulnar territory or ulnar muscles.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-944
+## title
+The mid palmar space, choose the correct answer:
+## question
+The mid palmar space, choose the correct answer:
+## vignette
+This item asks the student to give the contents and boundaries of the midpalmar space and distinguish them from those of the thenar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It contains tendon of flexor polices longus
+## explanation_a
+The thenar space's content, not this one's. The intermediate septum runs back to the third metacarpal and keeps flexor pollicis longus on the lateral side of it.
+## answer_b
+It is bounded anteriorly by flexor retinaculum
+## explanation_b
+The flexor retinaculum is proximal to the space, at the wrist; what lies in front of the midpalmar space is the palmar aponeurosis with the flexor tendons and the superficial arch. The retinaculum matters here because the space passes under it into the forearm, which is how sepsis travels.
+## answer_c
+It contains deep palmar arch
+## explanation_c
+The deep palmar arch lies on the interossei and the metacarpal bases, behind the fascia that forms the posterior wall of this space — a centimetre away and on the wrong side of a boundary.
+## answer_d
+It contains tendons of the long flexors of medial 3 fingers
+## explanation_d
+Correct. The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the contents and boundaries of the midpalmar space and distinguish them from those of the thenar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p17 q52; Anatomy Question [Upper Limb] (1).pdf p34 q199; Anatomy MCQ Book [2025] [first priority].pdf p54 q199. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The midpalmar space lies behind the flexor tendons of the medial three fingers with the medial two lumbricals, which are its contents; flexor pollicis longus belongs to the thenar space, the flexor retinaculum lies proximal to the space rather than in front of it, and the deep palmar arch lies behind its posterior wall on the interossei.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-945
+## title
+The opponens pollicis; choose the correct answer:
+## question
+The opponens pollicis; choose the correct answer:
+## vignette
+This item asks the student to give the origin, depth, insertion and nerve of opponens pollicis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Arises from flexor retinaculum and capitate bone
+## explanation_a
+The wrong carpal bone. Opponens pollicis arises from the flexor retinaculum and the tubercle of the trapezium — the bone at the base of the thumb — not the capitate, which sits in the middle of the distal row.
+## answer_b
+Lies superficial to abductor pollicis brevis
+## explanation_b
+Inverted. Abductor pollicis brevis is the superficial muscle of the eminence and opponens pollicis lies deep to it, which is why the opponens has to be uncovered to be seen.
+## answer_c
+Is innervated by of twig from ulnar nerve
+## explanation_c
+The keyed option, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.
+## answer_d
+Is inserted into the lateral aspect of the first metacarpal bone
+## explanation_d
+Correct. Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the origin, depth, insertion and nerve of opponens pollicis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p16 q49; Upper MCQ Dr.jalal (1).pdf p20 q49; Anatomy Question [Upper Limb] (1).pdf p23 q129. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the ulnar nerve, which is a recognised variant rather than the rule: opponens pollicis is a thenar muscle supplied by the recurrent branch of the median nerve. Its insertion into the lateral border of the first metacarpal is true without qualification, so the answer is D.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-946
+## title
+The thenar eminence consists of, choose the correct answer:
+## question
+The thenar eminence consists of, choose the correct answer:
+## vignette
+This item asks the student to name the three muscles of the thenar eminence and exclude the long thumb muscles and adductor pollicis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Abductor pollicis brevis and adductor pollicis
+## explanation_a
+One thenar muscle and one impostor, and the impostor is the point of the item. Adductor pollicis lies deep in the adductor compartment and takes the deep branch of the ulnar nerve; abductor and adductor differ by two letters and by a whole nerve.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus is a forearm muscle whose tendon merely passes through the hand to the distal phalanx of the thumb. Nothing that arises in the forearm forms an eminence in the palm.
+## answer_c
+Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
+## explanation_c
+Correct. Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+Flexor pollicis longus, abductor pollicis longus
+## explanation_d
+Both are long muscles of the forearm. Abductor pollicis longus does not even reach the palm; its tendon forms the anterior boundary of the anatomical snuff box on the back of the wrist.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Name the three muscles of the thenar eminence and exclude the long thumb muscles and adductor pollicis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q19; Upper MCQ Dr.jalal (1).pdf p15 q19; Anatomy MCQ Book [2025] [first priority].pdf p40 q122. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks A, which includes adductor pollicis — a deep, ulnar-supplied muscle that lies outside the eminence. The thenar eminence is abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, which is option C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-947
+## title
+As regards the muscles of the upper limb, one is correct:
+## question
+As regards the muscles of the upper limb, one is correct:
+## vignette
+This item asks the student to pick the one true statement about upper limb muscles from three that misassign a nerve or an action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The deltoid is supplied by the axillary nerve
+## explanation_a
+Correct. This is the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.
+
+Why this is right:
+- Deltoid is a thick triangular muscle forming the rounded contour of the shoulder.
+- Its V-shaped origin is from the anterior border of the lateral third of the clavicle (anterior fibres), the lateral border of the acromion (middle fibres) and the lower lip of the crest of the spine of the scapula (posterior fibres); it inserts into the deltoid tuberosity at the middle of the lateral surface of the shaft of the humerus.
+- It is supplied by the circumflex (axillary) nerve.
+## answer_b
+All interossei are supplied by the median nerve
+## explanation_b
+Every interosseous muscle is supplied by the deep branch of the ulnar nerve. The median's only intrinsic muscles are the three thenar and the lateral two lumbricals.
+## answer_c
+Dorsal interossei are adductors of the fingers
+## explanation_c
+Inverted. Dorsal interossei abduct the fingers and palmar interossei adduct them — DAB and PAD — and reversing them is the commonest error in the hand.
+## answer_d
+The flexor digitorum superficialis flexes the terminal interphalangeal joints
+## explanation_d
+The wrong joint. Flexor digitorum superficialis inserts into the sides of the middle phalanx and flexes the proximal interphalangeal joint; the terminal joint belongs to flexor digitorum profundus, which passes through the split in the superficialis tendon to reach it.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-82C4250560D1A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Pick the one true statement about upper limb muscles from three that misassign a nerve or an action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p8 q42; Anatomy MCQ Book [2025] [first priority].pdf p26 q42. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-948
+## title
+Regarding the thenar space of the hand, choose the correct answer:
+## question
+Regarding the thenar space of the hand, choose the correct answer:
+## vignette
+This item asks the student to give the boundaries and contents of the thenar space and separate them from the midpalmar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It is bounded laterally by the medial septum of the palmar aponeurosis
+## explanation_a
+The wrong septum on the wrong side. The thenar space is bounded laterally by the lateral septum, which runs back to the first metacarpal; the intermediate septum, to the third, is its medial boundary.
+## answer_b
+It is bounded posteriorly by the fascia covering the adductor pollicis
+## explanation_b
+Correct. This is the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space's posterior wall — which is why an abscess there points forwards into the palm rather than backwards.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_c
+It contains the tendon of the digitorum profundus
+## explanation_c
+The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space, on the other side of the intermediate septum. Only the index tendons reach the thenar space.
+## answer_d
+It contains the medial three lumbricals
+## explanation_d
+The medial three lumbricals lie in the midpalmar space. The thenar space holds the first lumbrical alone.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Give the boundaries and contents of the thenar space and separate them from the midpalmar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q43; Anatomy Question [Upper Limb] (1).pdf p16 q92. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-949
+## title
+Regarding the ulnar artery at the wrist and hand, mark the correct answer:
+## question
+Regarding the ulnar artery at the wrist and hand, mark the correct answer:
+## vignette
+This item asks the student to say which arch the ulnar artery ends as and which branch it contributes to the other.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_b
+Gives radialis indicis artery
+## explanation_b
+The radialis indicis is a radial artery branch, given in the palm alongside the arteria princeps pollicis.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The anterior carpal arch is formed by the anterior carpal branches of the radial and ulnar arteries meeting across the front of the carpus. The ulnar artery contributes to it but does not continue as it.
+## answer_d
+Continues as deep palmar arch
+## explanation_d
+The two arches swapped, which is the standard error in this leaf. The ulnar artery continues as the superficial arch; the radial artery ends as the deep one.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p28 q160; Anatomy MCQ Book [2025] [first priority].pdf p48 q160. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks the radialis indicis, which is a radial artery branch. The ulnar artery does give a deep palmar branch that completes the deep arch, so A is true; it ends as the superficial arch, not the deep one.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-950
+## title
+The lumbrical muscles, choose the correct answer:
+## question
+The lumbrical muscles, choose the correct answer:
+## vignette
+This item asks the student to give the origin, insertion, nerve supply and action of the lumbricals.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Arise from the tendons of flexor digitorum superficialis
+## explanation_a
+The wrong long flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deeper of the two, which is what lets them act on a moving origin.
+## answer_b
+Are inserted into the radial side of extensor expansion
+## explanation_b
+Correct. Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_c
+Are innervated by ulnar and radial nerves
+## explanation_c
+The wrong pair of nerves. It is the median and the ulnar that share the lumbricals — lateral two median, medial two ulnar; the radial nerve supplies no muscle in the hand at all.
+## answer_d
+In association with the interossei, extend the digits at the metacarpo
+## explanation_d
+The wrong direction at that joint. Lumbricals and interossei flex the metacarpophalangeal joints while extending the interphalangeal joints, which together give the writing position.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the origin, insertion, nerve supply and action of the lumbricals.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p23 q131; Anatomy MCQ Book [2025] [first priority].pdf p41 q131. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `the-lumbrical-muscles-choose-the-correct-answer-dep-book-eb649e8d` is keyed B, and B is the only true statement here. The lumbricals arise from profundus not superficialis, are median and ulnar not ulnar and radial, and flex rather than extend the metacarpophalangeal joints.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-951
+## title
+A 32-year-old man was admitted to the hospital with a wound of the palm of his em em em…
+## question
+A 32-year-old man was admitted to the hospital with a wound of the palm of his em em em em em hand. He could not touch the pads of his lingers with his thumb but could grip a sheet of paper between all lingers and had no loss of sensation of the skin of his hand. Vi Which of the following nerves is most likely injured? (2019)
+## vignette
+This item asks the student to reason from a preserved movement and preserved sensation to a purely motor branch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Deep branch of ulnar. P Ac ad
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. The deep branch of the ulnar nerve supplies all the interossei and adductor pollicis, so a patient with that branch cut cannot hold paper between the fingers — and this patient can.
+## answer_b
+Median
+## explanation_b
+The median nerve as a whole would fit the loss of opposition but not the intact sensation: the trunk carries sensation from the palmar surface of the lateral three and a half fingers, and the stem says there is none lost.
+## answer_c
+Recurrent branch of median
+## explanation_c
+Correct. The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+Deep branch of radial
+## explanation_d
+The deep branch of the radial nerve is the posterior interosseous nerve, in the forearm, and it supplies no muscle in the hand. A wound of the palm cannot reach it.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+## question_type
+Clinical application
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Reason from a preserved movement and preserved sensation to a purely motor branch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p63 q10. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, the deep branch of the ulnar nerve, and the stem rules it out: the patient can grip a sheet of paper between the fingers, which is adduction by the palmar interossei — precisely the deep branch's muscles. Loss of opposition with intact adduction and no sensory loss localises the injury to the recurrent branch of the median nerve, which is purely motor to the thenar muscles.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-952
+## title
+A patient complaining of inability to ﬂex the proximal interphalangeal joints. Which of…
+## question
+A patient complaining of inability to ﬂex the proximal interphalangeal joints. Which of the following muscles appear to be paralyzed? (IPKA) P Vi a- Palmar interossei. ad Vi P
+## vignette
+This item asks the student to attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Palmar interossei.
+## explanation_a
+The palmar interossei adduct the fingers and, with the lumbricals, flex the metacarpophalangeal joints while extending the interphalangeal joints — the opposite of the movement lost here.
+## answer_b
+Flexor digitorum profundus.
+## explanation_b
+Flexor digitorum profundus flexes the distal interphalangeal joint, since its tendon runs past the middle phalanx to the base of the terminal one. It will flex the proximal joint too as it passes, so its loss alone would not abolish the movement.
+## answer_c
+Flexor digitorum superﬁcialis.
+## explanation_c
+Correct. This is the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Lumbricals.
+## explanation_d
+The lumbricals extend the interphalangeal joints rather than flexing them.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p50 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-953
+## title
+A patient complaining of inability to flex the proximal interphalangeal joints. Which o…
+## question
+A patient complaining of inability to flex the proximal interphalangeal joints. Which of the following muscles appear to be paralyzed? (IPKA)
+## vignette
+This item asks the student to attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Palmar interossei
+## explanation_a
+The palmar interossei adduct the fingers and extend the interphalangeal joints.
+## answer_b
+Flexor digitorum profundus
+## explanation_b
+Flexor digitorum profundus reaches the distal phalanx and flexes the terminal joint.
+## answer_c
+Flexor digitorum superficialis
+## explanation_c
+Correct. Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Lumbricals
+## explanation_d
+The lumbricals extend the interphalangeal joints as part of the writing position.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Attribute flexion of the proximal interphalangeal joint to the tendon that inserts on the middle phalanx.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `a-patient-complaining-of-inability-to-ex-the-proximal-interp-78c7fc3c` is keyed C. Flexor digitorum superficialis inserts into the middle phalanx and is the only muscle of the four that acts primarily on the proximal interphalangeal joint.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-954
+## title
+A patient suffering from carpal tunnel syndrome would present with one of the P y follo…
+## question
+A patient suffering from carpal tunnel syndrome would present with one of the P y following symptoms: Ac em
+## vignette
+This item asks the student to give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Paresthesia over the index ﬁnger
+## explanation_a
+Correct. Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.
+
+Why this is right:
+- Carpal tunnel syndrome is compression of the median nerve as it passes deep to the flexor retinaculum.
+- The deformity is the ape (monkey's) hand: the thenar eminence wasted and flattened, the thumb laterally rotated and adducted with loss of opposition.
+## answer_b
+Paresthesia over the little ﬁnger
+## explanation_b
+The little finger is ulnar and is spared, which is the sign that separates this diagnosis from an ulnar lesion.
+## answer_c
+Weakness in adduction of the thumb
+## explanation_c
+Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, outside the tunnel.
+## answer_d
+Weakness in opposition of the little ﬁnger. y
+## explanation_d
+Opposition of the little finger is opponens digiti minimi, a hypothenar and therefore ulnar muscle.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-9B52018C4649BD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the sensory territory of the median nerve in the hand and separate it from the ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p69 q49. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The index finger lies in the median nerve's palmar territory, and the other three options all name structures supplied by the ulnar nerve, which is unaffected by compression in the carpal tunnel.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-955
+## title
+All of the following are branches of radial artery in the hand except:
+## question
+All of the following are branches of radial artery in the hand except:
+## vignette
+This item asks the student to list the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Princips pollicis artery
+## explanation_a
+A radial branch, so not the exception. The arteria princeps pollicis leaves the radial artery in the palm and divides for the two sides of the thumb.
+## answer_b
+Palmar digital branch to medial side of little finger
+## explanation_b
+Correct. The exception, and the answer. The medial side of the little finger is the ulnar-most point of the hand and is supplied by a proper palmar digital branch of the ulnar artery, given off before the superficial arch is even complete.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_c
+Radialis indicis artery
+## explanation_c
+A radial branch, so not the exception. Radialis indicis runs along the radial side of the index finger.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+A radial branch, so not the exception. The first dorsal metacarpal artery is given on the back of the hand, before the artery dives between the heads of the first dorsal interosseous.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_6c62090ee8d9969a8c5b
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q2; EOM ISK 101 195 Answers.pdf p7 q68. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key, and the one keyed copy marks A, princeps pollicis, which is a radial branch and cannot be the exception. The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, so B is the exception.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-956
+## title
+All the following are branches of radial artery in the hand except: (IPKA - 2022)
+## question
+All the following are branches of radial artery in the hand except: (IPKA - 2022)
+## vignette
+This item asks the student to list the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Princips pollicis artery
+## explanation_a
+A radial branch in the palm, so not the exception.
+## answer_b
+Palmar digital branch to medial side of little finger
+## explanation_b
+Correct. The exception, and the answer. That digital artery is the ulnar artery's own first branch in the hand, given at the medial edge of the palm.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_c
+Radialis indicis artery
+## explanation_c
+A radial branch, so not the exception — the artery to the radial side of the index.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+A radial branch, so not the exception, given on the dorsum before the artery enters the palm.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p100 q2. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Princeps pollicis, radialis indicis and the first dorsal metacarpal artery are all radial branches in the hand; the palmar digital artery to the medial side of the little finger is ulnar, so it is the exception.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-957
+## title
+All the following are branches of radial artery in the hand except: (IPKA - 2021) em em…
+## question
+All the following are branches of radial artery in the hand except: (IPKA - 2021) em em em em em
+## vignette
+This item asks the student to list the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Princips pollicis artery
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Princeps pollicis is the radial artery's branch to the thumb, given as soon as it enters the palm.
+## answer_b
+Palmar digital branch to medial side of little ﬁnger
+## explanation_b
+Correct. The exception, and the answer. The medial side of the little finger belongs to the ulnar artery, on the opposite edge of the hand from everything the radial reaches directly.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_c
+Radialis indicis artery
+## explanation_c
+Radialis indicis is a radial branch, so not the exception.
+## answer_d
+1st dorsal metacarpal artery
+## explanation_d
+The first dorsal metacarpal artery is a radial branch on the back of the hand, so not the exception.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+List the radial artery's branches in the hand and identify the digital artery that is ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p76 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but arteria princeps pollicis is one of the radial artery's two named digital branches in the palm and cannot be the exception. The exception is B, the palmar digital artery to the medial side of the little finger, which comes from the ulnar artery.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-958
+## title
+As a result of injury of the ulnar nerve at the wrist: (2022) Ac ad Ac ad ad ad
+## question
+As a result of injury of the ulnar nerve at the wrist: (2022) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to give the motor and sensory consequences of an ulnar nerve injury at the wrist for the thumb.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Marked wasting (atrophy) of thenar eminence.
+## explanation_a
+The wrong eminence. An ulnar lesion flattens the hypothenar eminence and hollows the spaces between the metacarpals; a wasted thenar eminence is the ape hand of a median lesion.
+## answer_b
+Thumb cannot be adducted.
+## explanation_b
+Correct. Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, and its loss is what produces Froment's sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.
+
+Why this is right:
+- The ulnar nerve descends behind the medial epicondyle, grooving it, and is injured there by fracture, dislocation or compression.
+## answer_c
+Thumb cannot be abducted.
+## explanation_c
+Abduction of the thumb is abductor pollicis brevis, a thenar muscle and therefore median.
+## answer_d
+Loss of sensation over the thumb.
+## explanation_d
+Sensation over the thumb is median and radial. The ulnar nerve's sensory territory is the medial one and a half fingers.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-B640E3E982A149
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the motor and sensory consequences of an ulnar nerve injury at the wrist for the thumb.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q72; EOM ISK 101 - 2023.pdf p6 q70. Manifest src_08bc782553366518791e, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so adduction of the thumb is what is lost; wasting of the thenar eminence, loss of abduction and sensation over the thumb are all median.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-959
+## title
+One of the following is a branch of superﬁcial palmar arch: (IPKA – 2022 - 2021) Ac P V…
+## question
+One of the following is a branch of superﬁcial palmar arch: (IPKA – 2022 - 2021) Ac P Vi a- Descending anastomotic branch
+## vignette
+This item asks the student to name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Descending anastomotic branch.
+## explanation_a
+The descending anastomotic branch belongs to the arteries around the elbow, not to a palmar arch.
+## answer_b
+Common palmar digital artery.
+## explanation_b
+Correct. This is the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_c
+2nd Dorsal metacarpal artery.
+## explanation_c
+The second dorsal metacarpal artery arises from the dorsal carpal arch, on the back of the hand.
+## answer_d
+Radialis indicis artery.
+## explanation_d
+Radialis indicis is a branch of the radial artery in the palm, and therefore belongs with the deep arch's territory rather than the superficial.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p79 q29. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-960
+## title
+One of the followings is a branch of superficial palmar arch:
+## question
+One of the followings is a branch of superficial palmar arch:
+## vignette
+This item asks the student to name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Descending anastomotic branch
+## explanation_a
+A branch of the arteries around the elbow, not of any arch in the hand.
+## answer_b
+Common palmar digital
+## explanation_b
+Correct. The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_c
+2nd Dorsal metacarpal artery
+## explanation_c
+The dorsal carpal arch gives the second, third and fourth dorsal metacarpal arteries.
+## answer_d
+Radialis indicis artery
+## explanation_d
+Radialis indicis comes directly from the radial artery in the palm.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_6c62090ee8d9969a8c5b
+## learning_objective
+Name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q8; EOM ISK 101 195 Answers.pdf p8 q78; EOM ISK 101 - 2023.pdf p10 q111. Manifest src_6c62090ee8d9969a8c5b, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-super-cial-palmar-arch-i-25404826` marks B. The superficial arch gives four palmar digital arteries, of which the common palmar digitals are three.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-961
+## title
+Regarding median nerve, all are correct except: Ac ad Ac ad ad ad
+## question
+Regarding median nerve, all are correct except: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to give the formation, course and deformity of the median nerve and place it correctly against the brachial artery.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Arises from both medial & lateral cords of brachial plexus.
+## explanation_a
+True, so not the exception. The median nerve is the only branch of the plexus formed by roots from two different cords, which is why it carries C5 to T1.
+## answer_b
+Enters hand in carpal tunnel.
+## explanation_b
+True, so not the exception. It passes deep to the flexor retinaculum with the long flexor tendons, and that is what makes carpal tunnel syndrome possible.
+## answer_c
+In cubital fossa it lies lateral to brachial artery.
+## explanation_c
+Correct. The exception, and the answer. In the cubital fossa the nerve is medial to the brachial artery, having crossed in front of it in the arm; it is the tendon of biceps that is lateral to the artery there.
+
+Why this is right:
+- The median nerve is formed in the axilla in front of the third part of the axillary artery by a lateral root from the lateral cord and a medial root from the medial cord, root value C5 to T1.
+## answer_d
+Injury of the nerve causes ape like hand.
+## explanation_d
+True, so not the exception. Ape hand — a wasted thenar eminence with the thumb adducted and laterally rotated — is the deformity of a median lesion.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-D81C4A38D695CF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the formation, course and deformity of the median nerve and place it correctly against the brachial artery.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q65. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve crosses in front of the brachial artery about the middle of the arm and lies medial to it in the cubital fossa, so C is the exception; the other three statements are all true.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-962
+## title
+Regarding the cutaneous supply of the upper limb, choose the correct answer:
+## question
+Regarding the cutaneous supply of the upper limb, choose the correct answer:
+## vignette
+This item asks the student to assign each strip of skin on the limb to the cord or the nerve that supplies it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The skin of the medial side of the forearm is supplied by a branch of the post cord of
+## explanation_a
+The wrong cord. The medial cutaneous nerve of the forearm comes from the medial cord — its name says which — and the posterior cord's cutaneous branches are all on the back of the limb.
+## answer_b
+The skin of the lateral side of the arm is supplied by branches of the lateral cord of
+## explanation_b
+The wrong cord again. The lateral side of the arm is supplied by the upper and lower lateral cutaneous nerves of the arm, from the axillary and radial nerves, both posterior cord branches.
+## answer_c
+The skin of the dorsum of the hand is supplied by branches of radial and ulnar nerves
+## explanation_c
+Correct. The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.
+
+Why this is right:
+- The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve.
+- The lateral side is supplied over the upper half of the deltoid by the lateral supraclavicular nerve from C3 and C4, over the lower half of the deltoid by the upper lateral cutaneous nerve of the arm from the posterior branch of the axillary nerve, and over the lower lateral arm by the lower lateral cutaneous nerve of the arm from the radial nerve in the spiral groove.
+## answer_d
+The skin of the medial 11⁄2 fingers is supplied by branches of the median nerve
+## explanation_d
+The wrong nerve for that territory. The medial one and a half fingers are ulnar; the median takes the lateral three and a half.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-F4FC0C323C654E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Nerve supply
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Assign each strip of skin on the limb to the cord or the nerve that supplies it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p21 q17. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsum of the hand is shared between the radial and ulnar nerves, which is true as printed; the medial forearm is medial cord not posterior, the lateral arm is axillary and radial not lateral cord, and the medial one and a half fingers are ulnar not median.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-963
+## title
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022)
+## question
+Regarding the cutaneous supply of the upper limb, select the incorrect statement: (2022)
+## vignette
+This item asks the student to identify the one cutaneous territory in the list that is assigned to the wrong cord.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The skin of medial side of forearm is supplied by a branch from medial cord of brachial plexus
+## explanation_a
+True, so not the answer. The medial cutaneous nerve of the forearm is a medial cord branch.
+## answer_b
+The skin of the lateral side of arm is supplied by branches from lateral cord of brachial plexus
+## explanation_b
+Correct. The incorrect statement, and the answer. Nothing from the lateral cord reaches the skin of the arm at all — the lateral cord's only cutaneous territory is the lateral forearm, through the musculocutaneous nerve.
+
+Why this is right:
+- The back of the arm is supplied by the posterior cutaneous nerve of the arm from the radial nerve.
+- The lateral side is supplied over the upper half of the deltoid by the lateral supraclavicular nerve from C3 and C4, over the lower half of the deltoid by the upper lateral cutaneous nerve of the arm from the posterior branch of the axillary nerve, and over the lower lateral arm by the lower lateral cutaneous nerve of the arm from the radial nerve in the spiral groove.
+## answer_c
+The skin of the dorsum of hand is supplied by branches of radial. median and ulnar nerves
+## explanation_c
+True, so not the answer, though it needs care. The dorsum of the hand proper is radial and ulnar; the median nerve's contribution is confined to the skin over the distal phalanges of the lateral three and a half fingers, which most descriptions include and which is why the median is named here.
+## answer_d
+The skin of the dorsal surface of medial 1 ½ fingers is supplied by branches of ulnar nerve
+## explanation_d
+True, so not the answer. The dorsal cutaneous branch of the ulnar nerve covers the back of the medial one and a half fingers.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-F4FC0C323C654E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Nerve supply
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Identify the one cutaneous territory in the list that is assigned to the wrong cord.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p130 q2. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The lateral side of the arm is supplied by the axillary and radial nerves, both branches of the posterior cord, so B is the incorrect statement; the other three are true.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-964
+## title
+Regarding the hand, select the true statement: (2021)
+## question
+Regarding the hand, select the true statement: (2021)
+## vignette
+This item asks the student to place the deep branch of the ulnar nerve against the deep arch and give the surface levels of the two arches.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Deep branch of ulnar nerve lies within the concavity of deep palmar arch.
+## explanation_a
+Correct. The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_b
+Deep palmar arch is level with the distal border of outstretched thumb web.
+## explanation_b
+The level of the wrong arch. The superficial arch lies at the level of the distal border of the fully extended thumb; the deep arch is a finger's breadth proximal to it.
+## answer_c
+Superﬁcial branch of the ulnar nerve supplies the hypothenar muscles.
+## explanation_c
+The wrong branch. The superficial branch of the ulnar nerve supplies palmaris brevis and the skin of the medial one and a half fingers; the hypothenar muscles belong to the deep branch.
+## answer_d
+Flexor digitorum superﬁcialis tendon inserts into the base of distal phalanx.
+## explanation_d
+The wrong phalanx. Superficialis inserts into the sides of the middle phalanx after splitting to let profundus through to the distal one.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the deep branch of the ulnar nerve against the deep arch and give the surface levels of the two arches.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q30; EOM ISK 101 195 Answers.pdf p9 q92. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve accompanies the deep palmar arch and lies within its concavity, which is true as printed; the level in B belongs to the superficial arch, the hypothenar muscles in C are supplied by the deep branch not the superficial, and flexor digitorum superficialis inserts into the middle phalanx, not the distal.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-965
+## title
+Regarding the median nerve, one of the following statements is incorrect: (2021)
+## question
+Regarding the median nerve, one of the following statements is incorrect: (2021)
+## vignette
+This item asks the student to place the median nerve correctly against the brachial artery in the cubital fossa.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+In the cubital fossa, it lies lateral to the brachial artery.
+## explanation_a
+Correct. The incorrect statement, and the answer. From medial to lateral the cubital fossa holds the median nerve, the brachial artery and the tendon of biceps — the nerve is the most medial of the three.
+
+Why this is right:
+- The median nerve is formed in the axilla in front of the third part of the axillary artery by a lateral root from the lateral cord and a medial root from the medial cord, root value C5 to T1.
+## answer_b
+Arises from both the medial and lateral cords of the brachial plexus.
+## explanation_b
+True, so not the answer. The lateral root from the lateral cord and the medial root from the medial cord unite in front of the third part of the axillary artery.
+## answer_c
+It enters the hand in the carpal tunnel.
+## explanation_c
+True, so not the answer. It passes deep to the flexor retinaculum through the carpal tunnel.
+## answer_d
+Injury of the nerve causes ape-like hand.
+## explanation_d
+True, so not the answer. Ape hand is the median nerve's deformity.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-D81C4A38D695CF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the median nerve correctly against the brachial artery in the cubital fossa.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q83. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve lies medial to the brachial artery in the cubital fossa, having crossed in front of it in the middle of the arm, so A is the incorrect statement; the other three are true.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-966
+## title
+Regarding the mid palmar space of the hand, choose the correct answer:
+## question
+Regarding the mid palmar space of the hand, choose the correct answer:
+## vignette
+This item asks the student to give the boundaries and contents of the midpalmar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It contains the two lateral lumbricals.
+## explanation_a
+The lateral two lumbricals lie on the other side of the intermediate septum, in the thenar space. The midpalmar space holds the medial two.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar aponeurosis.
+## explanation_b
+The septum on the wrong side. The intermediate septum runs to the third metacarpal and forms the lateral boundary of this space; the medial boundary is the medial septum, to the fifth metacarpal.
+## answer_c
+It contains the superﬁcial palmar arch.
+## explanation_c
+Correct. This is the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, so it is one of the space's anterior contents.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_d
+It contains the superﬁcial branch of the ulnar nerve.
+## explanation_d
+The superficial branch of the ulnar nerve runs forwards over the hypothenar muscles under the palmar aponeurosis, medial to the space rather than in it.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-967
+## title
+Regarding the midpalmar space of the hand, choose the correct : answer: 1
+## question
+Regarding the midpalmar space of the hand, choose the correct : answer: 1
+## vignette
+This item asks the student to give the boundaries and contents of the midpalmar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It contains the lateral two lumbricals
+## explanation_a
+The lateral two lumbricals belong to the thenar space, across the intermediate septum.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar
+## explanation_b
+The intermediate septum bounds this space laterally, not medially.
+## answer_c
+It contains the superficial palmar arch
+## explanation_c
+Correct. The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_d
+It contains the superficial branch of the ulnar nerve
+## explanation_d
+The superficial branch of the ulnar nerve runs over the hypothenar muscles medial to the space.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q44. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; two keyed copies of this question — `regarding-the-mid-palmar-space-of-the-hand-choose-the-correc-5320e62e` and `regarding-the-midpalmar-space-of-the-hand-the-correct-answer-4f784091` — both mark C. The lateral two lumbricals are thenar, the intermediate septum is the lateral not the medial boundary, and the superficial branch of the ulnar nerve lies medial to the space.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-968
+## title
+Regarding the midpalmar space of the hand, the correct answer:
+## question
+Regarding the midpalmar space of the hand, the correct answer:
+## vignette
+This item asks the student to give the boundaries and contents of the midpalmar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It contains the lateral two lumbricals
+## explanation_a
+The lateral two lumbricals lie in the thenar space, on the far side of the intermediate septum.
+## answer_b
+It is bounded medially by the intermediate septum of the palmar
+## explanation_b
+The intermediate septum forms this space's lateral boundary; the medial boundary is the medial septum, to the fifth metacarpal.
+## answer_c
+It contains the superficial palmar arch
+## explanation_c
+Correct. This is the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_d
+It contains the superficial branch of the ulnar nerve
+## explanation_d
+The superficial branch of the ulnar nerve lies medial to the space, on the hypothenar muscles.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the boundaries and contents of the midpalmar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q93. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-969
+## title
+Regarding the thenar space of the hand, choose the correct answer: ‘a- It is bounded la…
+## question
+Regarding the thenar space of the hand, choose the correct answer: ‘a- It is bounded laterally by the medial septum of the palmar aponeurosis
+## vignette
+This item asks the student to give the boundaries and contents of the thenar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It is bounded laterally by the medial septum of the palmar aponeurosis.
+## explanation_a
+The option the scan has echoed into the stem, and it is false: the lateral boundary of the thenar space is the lateral septum, not the medial one.
+## answer_b
+It is bounded posteriorly by the fascia covering the adductor pollicis.
+## explanation_b
+Correct. The posterior wall of the thenar space is the fascia covering adductor pollicis.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_c
+It contains the tendon of the digitorum profundus.
+## explanation_c
+The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space.
+## answer_d
+It contains the medial three lumbricals.
+## explanation_d
+The medial three lumbricals are midpalmar; the thenar space contains only the first.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Give the boundaries and contents of the thenar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p34 q92. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key — option A has been echoed into the stem by the scan, which is page furniture rather than an answer. The keyed copy `regarding-the-thenar-space-of-the-hand-choose-the-correct-an-5c798469`, asked twice, marks B, and the fascia over adductor pollicis is the space's posterior boundary.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-970
+## title
+Regarding ulnar artery at wrist & hand, mark the correct answer:
+## question
+Regarding ulnar artery at wrist & hand, mark the correct answer:
+## vignette
+This item asks the student to say which arch the ulnar artery ends as and which branch it contributes to the other.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_b
+Gives radialis indicis artery
+## explanation_b
+Radialis indicis is a radial artery branch in the palm.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The ulnar artery contributes an anterior carpal branch to the anterior carpal arch but does not continue as it.
+## answer_d
+Continues as deep palmar arch
+## explanation_d
+The two arches swapped — the standard error in this leaf. Ulnar ends as superficial, radial ends as deep.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p36 q14. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar artery gives a deep palmar branch that completes the deep arch and then continues as the superficial arch, so A is true and D reverses it; radialis indicis is radial and the anterior carpal arch is a contribution rather than a continuation.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-971
+## title
+Regarding ulnar artery at wrist & hand, mark the correct answer: em em em em em
+## question
+Regarding ulnar artery at wrist & hand, mark the correct answer: em em em em em
+## vignette
+This item asks the student to say which arch the ulnar artery ends as and which branch it contributes to the other.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gives a deep palmar branch
+## explanation_a
+Correct. The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.
+
+Why this is right:
+- The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries.
+- The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
+## answer_b
+Gives radialis indices artery
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. Radialis indicis leaves the radial artery in the palm alongside princeps pollicis; the "radialis" in the name is the giveaway.
+## answer_c
+Continues as anterior carpal arch
+## explanation_c
+The ulnar artery gives an anterior carpal branch to the anterior carpal arch, but its own continuation is the superficial palmar arch.
+## answer_d
+Continues as deep palmar arch. Ac ad
+## explanation_d
+The arches reversed. The radial artery ends as the deep arch; the ulnar ends as the superficial.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-BC95DAE3531583
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say which arch the ulnar artery ends as and which branch it contributes to the other.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p78 q19. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, but radialis indicis is a branch of the radial artery in the palm, not of the ulnar. The ulnar artery does give a deep palmar branch to complete the deep arch, so A is the correct statement.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-972
+## title
+Saddle-shaped (biaxial) carpometacarpal, is joint of which finger:
+## question
+Saddle-shaped (biaxial) carpometacarpal, is joint of which finger:
+## vignette
+This item asks the student to identify the one carpometacarpal joint in the hand that is a saddle joint.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Thumb
+## explanation_a
+Correct. The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+Index
+## explanation_b
+The carpometacarpal joints of the medial four fingers are plane joints with very little movement, which is what makes the palm a stable platform.
+## answer_c
+Middle
+## explanation_c
+The third carpometacarpal joint is the least mobile of all, since the capitate and the third metacarpal form the fixed axis of the hand.
+## answer_d
+Ring
+## explanation_d
+The fourth and fifth carpometacarpal joints allow a little flexion for cupping the palm, but they are plane joints and uniaxial at best.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Identify the one carpometacarpal joint in the hand that is a saddle joint.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p29 q64. Manifest src_0f1171705349e98b44e6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `saddle-shaped-biaxial-carpometacarpal-is-the-joint-of-which-e8c6a60f` is keyed A. Only the thumb has a saddle carpometacarpal joint, between the trapezium and the first metacarpal; the other four are plane joints.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-973
+## title
+Saddle-shaped (biaxial) carpometacarpal, is the joint of which finger:
+## question
+Saddle-shaped (biaxial) carpometacarpal, is the joint of which finger:
+## vignette
+This item asks the student to identify the one carpometacarpal joint in the hand that is a saddle joint.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Thumb
+## explanation_a
+Correct. This is the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.
+
+Why this is right:
+- The shoulder joint is synovial ball-and-socket; the elbow is a synovial hinge; the superior and inferior radio-ulnar joints are synovial pivots; the wrist (radiocarpal) joint is synovial ellipsoid, also called condyloid; the carpometacarpal joint of the thumb is a synovial saddle joint; the acromioclavicular joint is a plane joint; the sternoclavicular joint is a saddle joint.
+## answer_b
+Index
+## explanation_b
+A plane joint, like the carpometacarpal joints of all the medial four fingers.
+## answer_c
+Middle
+## explanation_c
+The most fixed of the carpometacarpal joints; the capitate and third metacarpal form the axis the hand is built around.
+## answer_d
+Ring
+## explanation_d
+A plane joint with a little mobility for cupping the palm, but not a saddle and not biaxial.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-4D7492BC85C03D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Identify the one carpometacarpal joint in the hand that is a saddle joint.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p19 q107. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-974
+## title
+The deep branch of the ulnar does NOT innervate which of the following? (2021) em em em…
+## question
+The deep branch of the ulnar does NOT innervate which of the following? (2021) em em em em em
+## vignette
+This item asks the student to identify the two lumbricals that are median rather than ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Abductor digiti minimi
+## explanation_a
+A hypothenar muscle, so it is supplied by the deep branch and is not the exception.
+## answer_b
+Flexer digiti minimi brevis
+## explanation_b
+Also hypothenar, and also deep branch — not the exception.
+## answer_c
+Lumbricals 1 and 2
+## explanation_c
+Correct. The exception, and the answer. The first and second lumbricals accompany the median nerve's digital branches to the index and middle fingers and take their supply from it.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Dorsal interossei 3 and 4
+## explanation_d
+All four dorsal interossei are supplied by the deep branch of the ulnar nerve, so these two are not the exception.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the two lumbricals that are median rather than ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q80. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deep branch of the ulnar nerve supplies the hypothenar muscles, all the interossei, adductor pollicis and the medial two lumbricals; the first and second lumbricals are median, so C is the exception.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-975
+## title
+The deep branch of the ulnar does NOT innervate which of the following? (IPKA)
+## question
+The deep branch of the ulnar does NOT innervate which of the following? (IPKA)
+## vignette
+This item asks the student to identify the two lumbricals that are median rather than ulnar.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Abductor digiti minimi.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Abductor digiti minimi is hypothenar and is supplied by the deep branch of the ulnar nerve, so it cannot be the exception.
+## answer_b
+Flexor digiti minimi brevis.
+## explanation_b
+Flexor digiti minimi brevis is hypothenar too, and also deep branch.
+## answer_c
+Lumbricals 1 and 2.
+## explanation_c
+Correct. The exception, and the answer. Lumbricals one and two travel with the median nerve's digital branches and are median; three and four are ulnar.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Dorsal interossei 3 and 4.
+## explanation_d
+Every dorsal interosseous is supplied by the deep branch.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the two lumbricals that are median rather than ulnar.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q8; EOM ISK 101 195 Answers.pdf p9 q94. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, abductor digiti minimi, which is a hypothenar muscle and squarely within the deep branch's territory. The exception is C: the first and second lumbricals are supplied by the median nerve.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-976
+## title
+The median nerve innervates the following muscle: (2019)
+## question
+The median nerve innervates the following muscle: (2019)
+## vignette
+This item asks the student to identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor carpi ulnaris
+## explanation_a
+Extensor carpi ulnaris is an extensor of the forearm and therefore radial, twice over: every extensor is radial and this one lies in the sixth compartment under the extensor retinaculum.
+## answer_b
+Hypothenar muscles
+## explanation_b
+The hypothenar muscles take the deep branch of the ulnar nerve.
+## answer_c
+Lateral two lumbricals
+## explanation_c
+Correct. The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Adductor pollicis
+## explanation_d
+Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, despite acting on the thumb.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p80 q1. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the copy at `the-median-nerve-innervates-the-following-muscle-2019-ac-0d7e3e6e` is keyed C. The lateral two lumbricals are the median nerve's only muscles in the hand apart from the thenar three.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-977
+## title
+The median nerve innervates the following muscle: (2019) Ac
+## question
+The median nerve innervates the following muscle: (2019) Ac
+## vignette
+This item asks the student to identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Extensor carpi ulnaris.
+## explanation_a
+An extensor of the forearm, and every extensor is radial.
+## answer_b
+Hypothenar muscles.
+## explanation_b
+The hypothenar muscles are ulnar, through the deep branch.
+## answer_c
+Lateral two lumbricals.
+## explanation_c
+Correct. This is the key. Lumbricals one and two are median; three and four are ulnar.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Adductor pollicis is ulnar, which is the fact behind Froment's sign.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the only muscles in the hand outside the thenar eminence that the median nerve supplies.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-978
+## title
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024) Vi P
+## question
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024) Vi P
+## vignette
+This item asks the student to list the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Abductor pollicis brevis
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Abductor pollicis brevis is one of the three thenar muscles and is median; abductor and adductor pollicis differ by a nerve as well as by a syllable.
+## answer_b
+Flexor pollicis brevis
+## explanation_b
+Flexor pollicis brevis is also thenar and median — although its deep head is sometimes supplied by the ulnar nerve, which is the variant that makes this the most defensible of the wrong options.
+## answer_c
+lateral two lumbricals
+## explanation_c
+The lateral two lumbricals are median; the medial two are the ulnar ones.
+## answer_d
+All interossei. P
+## explanation_d
+Correct. Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+List the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, abductor pollicis brevis, which is a thenar muscle supplied by the recurrent branch of the median nerve. All seven interossei take the deep branch of the ulnar, so D is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-979
+## title
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024)
+## question
+The muscles supplied by deep branch of ulnar nerve in hand include: (2024)
+## vignette
+This item asks the student to list the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Abductor pollicis brevis.
+## explanation_a
+Abductor pollicis brevis is thenar and median.
+## answer_b
+Flexor pollicis brevis.
+## explanation_b
+Flexor pollicis brevis is thenar and median, its deep head occasionally ulnar as a variant.
+## answer_c
+Lateral two lumbricals.
+## explanation_c
+The lateral two lumbricals are median; three and four are ulnar.
+## answer_d
+All interossei.
+## explanation_d
+Correct. All the interossei, dorsal and palmar, are deep branch of the ulnar.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Nerve supply
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+List the muscles of the hand supplied by the deep branch of the ulnar nerve.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p64 q19. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The three thenar muscles and the lateral two lumbricals are median; everything else in the hand, including all seven interossei, is the deep branch of the ulnar nerve, so D is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-980
+## title
+The palmar thenar space contains, mark the correct answer:
+## question
+The palmar thenar space contains, mark the correct answer:
+## vignette
+This item asks the student to name the tendons and muscles contained in the thenar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor pollicis longus tendon. 1
+## explanation_a
+Correct. The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_b
+Flexor tendons of the middle 3 fingers
+## explanation_b
+The flexor tendons of the middle three fingers are on the other side of the intermediate septum, in the midpalmar space.
+## answer_c
+The 2"4 [umbrical muscle
+## explanation_c
+The second lumbrical is midpalmar. The thenar space holds the first alone.
+## answer_d
+Deep palmar arch
+## explanation_d
+The deep palmar arch lies behind the posterior wall of both spaces, on the interossei and the bases of the metacarpals.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Name the tendons and muscles contained in the thenar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p20 q47. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the keyed copy `the-palmar-thenar-space-contains-mark-the-correct-answer-dep-6872c651` marks A. The thenar space lies lateral to the intermediate septum and holds the tendon of flexor pollicis longus with the index tendons and the first lumbrical.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-981
+## title
+The palmar thenar space contains, mark the correct answer: em em em em em
+## question
+The palmar thenar space contains, mark the correct answer: em em em em em
+## vignette
+This item asks the student to name the tendons and muscles contained in the thenar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Flexor pollicis longus tendon
+## explanation_a
+Correct. This is the key. Flexor pollicis longus passes to the thumb within the thenar space.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_b
+Flexor tendons of the middle 3 ﬁngers
+## explanation_b
+Those tendons lie in the midpalmar space, medial to the intermediate septum.
+## answer_c
+The 2nd lumbrical muscle
+## explanation_c
+The second lumbrical goes with them into the midpalmar space; the thenar space holds the first.
+## answer_d
+Deep palmar arch
+## explanation_d
+The deep palmar arch is behind both spaces, against the metacarpal bases.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the tendons and muscles contained in the thenar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p59 q15. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-982
+## title
+The palmar thenar space contains, mark the wrong answer:(2022) Ac ad Ac ad ad ad
+## question
+The palmar thenar space contains, mark the wrong answer:(2022) Ac ad Ac ad ad ad
+## vignette
+This item asks the student to identify the tendon that runs in its own compartment of the flexor retinaculum rather than in the thenar space.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Flexer pollicis longus tendon.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; another version of this question keys it as the correct answer.
+## answer_b
+Flexor tendons of the index.
+## explanation_b
+A content, so not the wrong statement. The index flexor tendons lie in the thenar space, lateral to the intermediate septum.
+## answer_c
+The 1st lumbrical muscle.
+## explanation_c
+A content, so not the wrong statement. The first lumbrical accompanies the index tendon into the thenar space.
+## answer_d
+Flexer carpi radialis tendon.
+## explanation_d
+Correct. The wrong statement, and the answer. Flexor carpi radialis never enters the palmar spaces at all: it runs through a separate tunnel in the lateral attachment of the flexor retinaculum, grooving the trapezium, and inserts into the base of the second metacarpal.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the tendon that runs in its own compartment of the flexor retinaculum rather than in the thenar space.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q28. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, but flexor pollicis longus is a content of the thenar space, as the keyed "mark the correct answer" version of this item states. The wrong statement is D: flexor carpi radialis runs in its own compartment in the groove on the trapezium, separate from the carpal tunnel and from the palmar spaces, and ends on the base of the second metacarpal.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-983
+## title
+The radial artery gives the following branch in the hand: Ac P a- Principes pollicis. P…
+## question
+The radial artery gives the following branch in the hand: Ac P a- Principes pollicis. P Vi b- Superﬁcial palmar artery. y
+## vignette
+This item asks the student to separate the radial artery's branches in the hand from those it gives at the wrist.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Principes pollicis.
+## explanation_a
+Correct. Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_b
+Superﬁcial palmar artery.
+## explanation_b
+Given at the wrist, before the artery turns into the snuff box.
+## answer_c
+Second dorsal metacarpal artery.
+## explanation_c
+The answer the extractor took from this page, and the reason for the override. The second, third and fourth dorsal metacarpal arteries all come from the dorsal carpal arch; only the first is the radial artery's own.
+## answer_d
+Posterior carpal artery.
+## explanation_d
+The posterior carpal artery is a wrist branch and one of the vessels that forms that arch.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the radial artery's branches in the hand from those it gives at the wrist.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p77 q17. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries C, the second dorsal metacarpal artery, which arises from the dorsal carpal arch rather than from the radial artery itself; only the first dorsal metacarpal is a direct radial branch. Arteria princeps pollicis is a radial branch given in the palm, and the books' own "except" version of this question confirms it as one, so the answer is A.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-984
+## title
+The space of Parana, choose the correct answer:
+## question
+The space of Parana, choose the correct answer:
+## vignette
+This item asks the student to give the boundaries of the space of Parona and say which palmar space it communicates with.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Bounded posteriorly by the pronator quadratus muscle
+## explanation_a
+Correct. Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_b
+Continuous distally with the thenar space
+## explanation_b
+The wrong palmar space. Parona's space runs under the flexor retinaculum into the midpalmar space, which is why a midpalmar abscess can track up into the forearm.
+## answer_c
+Continuous distally with the pulp space
+## explanation_c
+The pulp space is a closed compartment in the fingertip, separated from everything proximal by the fibrous septa that anchor the skin to the distal phalanx.
+## answer_d
+Transmits sepsis to hand
+## explanation_d
+The direction of spread is the other way. Sepsis reaches Parona's space from the hand through the carpal tunnel; the space is where it collects, not what sends it.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Give the boundaries of the space of Parona and say which palmar space it communicates with.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p35 q200. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The space of Parona lies in the lower forearm between the long flexor tendons in front and pronator quadratus behind, so A is true; distally it communicates with the midpalmar space, not the thenar space or the pulp space.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-985
+## title
+The space of Parona, choose the correct answer:
+## question
+The space of Parona, choose the correct answer:
+## vignette
+This item asks the student to give the boundaries of the space of Parona and say which palmar space it communicates with.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Bounded posteriorly by the pronator quadratus muscle. 1
+## explanation_a
+Correct. The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.
+
+Why this is right:
+- The palmar aponeurosis is a triangular thickening of the deep fascia of the palm.
+- Its apex is attached to the flexor retinaculum and receives the tendon of palmaris longus; its base divides into four slips for the fingers.
+## answer_b
+Continuous distally with the thenar space
+## explanation_b
+The midpalmar space, not the thenar. The communication is through the carpal tunnel under the flexor retinaculum.
+## answer_c
+Contains the end of the fibrous flexor sheath
+## explanation_c
+The fibrous flexor sheaths belong to the fingers, holding the long tendons against the phalanges. Nothing of them reaches the forearm.
+## answer_d
+Transmits sepsis to hand
+## explanation_d
+Sepsis travels into this space from the hand rather than out of it, which is why a neglected midpalmar infection is felt above the wrist.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-301EB5B9E1F00B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_0f68f0c75a8effe74782
+## learning_objective
+Give the boundaries of the space of Parona and say which palmar space it communicates with.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p21 q53. Manifest src_0f68f0c75a8effe74782.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pronator quadratus forms the posterior boundary of the space of Parona, which is true as printed; the space communicates distally with the midpalmar space rather than the thenar, contains no part of the fibrous flexor sheaths, and receives sepsis from the hand rather than sending it there.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-986
+## title
+The thenar eminence consists of, choose the correct
+## question
+The thenar eminence consists of, choose the correct
+## vignette
+This item asks the student to name the three muscles of the thenar eminence and exclude adductor pollicis.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Abductor pollicis brevis and adductor pollicis
+## explanation_a
+Adductor pollicis is not part of the eminence — it is deep, in the adductor compartment, and supplied by the ulnar nerve.
+## answer_b
+Flexor pollicis longus
+## explanation_b
+Flexor pollicis longus arises in the forearm and only sends a tendon through the hand.
+## answer_c
+Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
+## explanation_c
+Correct. Three short muscles, all median through the recurrent branch.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+Flexor pollicis longus, abductor pollicis longus
+## explanation_d
+Both are forearm muscles, and abductor pollicis longus reaches only as far as the base of the first metacarpal on the back of the wrist.
+## topic
+Upper Limb
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Name the three muscles of the thenar eminence and exclude adductor pollicis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p22 q122. Manifest src_69103a53ec28a93958d5.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The thenar eminence is abductor pollicis brevis, opponens pollicis and flexor pollicis brevis; adductor pollicis is ulnar and deep, and the long thumb muscles are in the forearm.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-987
+## title
+What is the innervation of the lumbrical muscles? (2024)
+## question
+What is the innervation of the lumbrical muscles? (2024)
+## vignette
+This item asks the student to state that the lumbricals are divided between the median and ulnar nerves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+All ulnar n.
+## explanation_a
+The answer the extractor read off this page, and the reason for the override. All-ulnar is true of the interossei, not the lumbricals, and it is that neighbouring rule that makes the error easy.
+## answer_b
+All radial n.
+## explanation_b
+The radial nerve supplies no muscle in the hand at all; it stops at the wrist with the extensors.
+## answer_c
+All median n.
+## explanation_c
+All-median is true of the thenar eminence, not of the lumbricals.
+## answer_d
+Half median & half ulnar nerves.
+## explanation_d
+Correct. Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State that the lumbricals are divided between the median and ulnar nerves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, all ulnar. The lumbricals are the one muscle group in the hand split between two nerves: the lateral two are median and the medial two ulnar, so D is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-988
+## title
+What is the innervation of the lumbrical muscles? (2024) y ad Ac a- All ulnar n
+## question
+What is the innervation of the lumbrical muscles? (2024) y ad Ac a- All ulnar n
+## vignette
+This item asks the student to state that the lumbricals are divided between the median and ulnar nerves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+All ulnar n.
+## explanation_a
+True of the interossei, not the lumbricals. It is also the key printed on the other copy of this question, which is why the item needs a faculty eye as well as an override.
+## answer_b
+All radial n.
+## explanation_b
+The answer the extractor read off this page, and the reason for the override. The radial nerve ends at the wrist and its terminal branches are cutaneous; it supplies no intrinsic muscle of the hand.
+## answer_c
+All median n.
+## explanation_c
+All-median describes the thenar eminence.
+## answer_d
+Half median & half ulnar nerves.
+## explanation_d
+Correct. Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.
+
+Why this is right:
+- The lateral two are supplied by the median nerve and the medial two by the deep branch of the ulnar nerve.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-24A0858459A59D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Nerve supply
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State that the lumbricals are divided between the median and ulnar nerves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q29. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, all radial, which is impossible: the radial nerve supplies no muscle in the hand. The lumbricals are half median and half ulnar, so D is the answer — and the other copy of this question is keyed "all ulnar", so the two printed keys contradict each other as well as the anatomy.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-989
+## title
+When the deep branch of the ulnar nerve has been destroyed by compression, the patient …
+## question
+When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with:
+## vignette
+This item asks the student to give the motor loss of a deep branch lesion and explain why sensation is spared.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+paralysis of abductor pollicis brevis
+## explanation_a
+Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.
+## answer_b
+an ape-like deformity of the hand
+## explanation_b
+Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.
+## answer_c
+paralysis of adductor pollicis
+## explanation_c
+Correct. Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
+
+Why this is right:
+- The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent (muscular) branch of the median nerve.
+- Every other intrinsic muscle of the hand takes the deep branch of the ulnar nerve, except the lateral two lumbricals, which are median.
+## answer_d
+loss of sensation over palmar surface of little finger
+## explanation_d
+The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-8FB16415EFF905
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the motor loss of a deep branch lesion and explain why sensation is spared.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27; EOM ISK EOM exam 2024.pdf p8 q87. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The 2024 paper printed no key, and the letter carried on this row from a question-book copy is the upper-case C of a differently lettered printing, which is no longer a letter this row has. The department book settles it without a key: it says the deep branch of the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei and adductor pollicis, and that the three thenar muscles — abductor pollicis brevis among them — are median. It also puts the sensation of the little finger in the superficial branch, so option d is spared as well. Adductor pollicis is the only option the deep branch reaches.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-990
+## title
+Which of the following IS NOT true about the ﬂexor carpi ulnaris (IPKA)
+## question
+Which of the following IS NOT true about the ﬂexor carpi ulnaris (IPKA)
+## vignette
+This item asks the student to give the origin, insertion and nerve relation of flexor carpi ulnaris and identify the false statement about its action.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Acts as a synergist during wrist extension.
+## explanation_a
+Correct. The false statement, and the key. Flexor carpi ulnaris is a flexor of the wrist, so during wrist extension it is the antagonist, not a synergist; it acts as a synergist with extensor carpi ulnaris in ulnar deviation, which is the true version of the claim the option distorts.
+
+Why this is right:
+- The ulnar nerve is the largest branch of the medial cord of the brachial plexus, root value C8 and T1.
+## answer_b
+Inserts into base of ﬁfth metacarpal.
+## explanation_b
+True, so not the answer. Its tendon reaches the base of the fifth metacarpal through the pisohamate and pisometacarpal ligaments, with the pisiform as a sesamoid in its course.
+## answer_c
+Most medial muscles arising from the common ﬂexor origin.
+## explanation_c
+True, so not the answer. It is the most medial of the muscles arising from the common flexor origin on the medial epicondyle.
+## answer_d
+Ulnar nerve passes between Its two heads.
+## explanation_d
+True, so not the answer. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of this muscle, which is exactly why a medial epicondylar fracture threatens it.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the origin, insertion and nerve relation of flexor carpi ulnaris and identify the false statement about its action.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p51 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-991
+## title
+Which of the following muscles may be paralyzed as a result of fracture of the medial e…
+## question
+Which of the following muscles may be paralyzed as a result of fracture of the medial epicondyle of the humerus?
+## vignette
+This item asks the student to reason from a fracture of the medial epicondyle to the nerve behind it and thence to a muscle in the hand.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+First lumbrical.
+## explanation_a
+The first lumbrical is median. It is the one lumbrical a student is most likely to place on the ulnar nerve, because the other three fingers' lumbricals are split two-and-two.
+## answer_b
+Extensor digiti minimi.
+## explanation_b
+Extensor digiti minimi is radial, in the fifth compartment under the extensor retinaculum — on the back of the limb, where the medial epicondyle cannot reach it.
+## answer_c
+Adductor pollicis.
+## explanation_c
+Correct. Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.
+
+Why this is right:
+- The ulnar nerve descends behind the medial epicondyle, grooving it, and is injured there by fracture, dislocation or compression.
+## answer_d
+Flexor carpi radialis.
+## explanation_d
+Flexor carpi radialis is median. Its name puts it on the radial side, but its nerve is the median, and neither is threatened at the medial epicondyle.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-B640E3E982A149
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Reason from a fracture of the medial epicondyle to the nerve behind it and thence to a muscle in the hand.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q54. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, so a fracture there paralyses ulnar-supplied muscles; of the four offered only adductor pollicis is ulnar.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-992
+## title
+A 14-year-old boy falls on his outstretched hand and has a fracture of the scaphoid bon…
+## question
+A 14-year-old boy falls on his outstretched hand and has a fracture of the scaphoid bone. The fracture is most likely accompanied by a rupture of which of the following arteries?
+## vignette
+This item asks the student to say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Ulnar artery.
+## explanation_a
+The ulnar artery is on the opposite side of the wrist, entering the palm superficial to the flexor retinaculum lateral to the pisiform. A fall on the outstretched hand that breaks the scaphoid is nowhere near it.
+## answer_b
+Deep palmar arterial arch.
+## explanation_b
+The deep palmar arch is in the palm, immediately distal to the bases of the metacarpals — well beyond the carpus and separated from the scaphoid by the whole proximal row plus the trapezium. It is tempting because the arch is mainly radial in origin, so a student reasoning "scaphoid, therefore radial, therefore the radial arch" reaches it.
+## answer_c
+Radial artery.
+## explanation_c
+Correct. The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_d
+Princeps pollicis artery.
+## explanation_d
+The princeps pollicis arises only after the radial artery has left the snuffbox and passed between the two heads of the first dorsal interosseous into the palm. It supplies the thumb, distal to the injury.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p11 q115. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book takes the radial artery round the lateral side of the wrist and across the anatomical snuffbox, whose floor is the scaphoid, and says its pulsation can be felt there — so it is the radial artery that lies directly on the fractured bone.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-993
+## title
+A 14-year-old boy fell on-his outstretched hand and has.a fracture of the scaphoid bone…
+## question
+A 14-year-old boy fell on-his outstretched hand and has.a fracture of the scaphoid bone. The fracture is most likely accompanied by a rupture of which of the following arteries?
+## vignette
+This item asks the student to say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Ulnar artery
+## explanation_a
+The ulnar artery reaches the palm on the medial side of the wrist, superficial to the flexor retinaculum and lateral to the pisiform. It is the whole width of the carpus away from the scaphoid.
+## answer_b
+Deep palmar arterial arch
+## explanation_b
+The deep palmar arch lies across the bases of the metacarpals, distal to the carpus. Its main feed is the radial artery, which is why a student who has correctly reasoned "radial" can still pick the wrong radial structure.
+## answer_c
+Radial artery
+## explanation_c
+Correct. This is the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.
+
+Why this is right:
+- On the back of the hand it gives the first dorsal metacarpal artery, then passes forwards between the two heads of the first dorsal interosseous muscle into the palm, and between the two heads of adductor pollicis.
+- The palmar digital artery to the medial side of the little finger comes from the ulnar artery through the superficial arch, not from the radial.
+## answer_d
+Princeps pollicis artery
+## explanation_d
+The princeps pollicis is a branch given after the artery has entered the palm between the heads of the first dorsal interosseous, and it runs to the thumb.
+## topic
+Hand
+## subtopic
+Hand
+## main_concept
+CON-MSK-58D5F74E9595C3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Hand
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-HAND-ARTERIES
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Say which artery lies against the scaphoid, and name the vessels that lie nowhere near it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p10 q112. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2022 paper reprints the previous year’s question word for word, in the past tense, with the same four options. It printed no key either, and the recovered answer sheet does not cover this source, so the answer again comes from the department book: the radial artery crosses the anatomical snuffbox, whose floor is the scaphoid.
+1 materially different wording of this question exist in the books and were not collapsed into it.
