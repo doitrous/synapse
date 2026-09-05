@@ -3865,3 +3865,2354 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Verbatim from page 48. The serine/threonine, covalent, reversible clauses are all in the covalent-modification concept.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-041
+## title
+Proteins are:
+## question
+Proteins are:
+## vignette
+Before their building blocks, this item asks what proteins are as a class of molecule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Organic compounds with low molecular weight
+## explanation_a
+Proteins are organic, but not of low molecular weight. They are polymers of many amino acids, so their masses run from thousands to millions of daltons — the opposite of a small molecule.
+## answer_b
+Organic compounds with high molecular weight
+## explanation_b
+Correct. Proteins are carbon-based (organic) macromolecules built by joining amino acids through peptide bonds, giving large molecular weights that rise with chain length.
+## answer_c
+Inorganic compounds with low molecular weight
+## explanation_c
+Proteins are carbon-containing, so they are organic, not inorganic; and being polymers, they are large, not low in molecular weight. Both halves of this option are wrong.
+## answer_d
+Inorganic compounds with high molecular weight
+## explanation_d
+The molecular weight is high, which is right, but proteins are organic — built on a carbon backbone — so calling them inorganic misclassifies them.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+82
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that proteins are organic macromolecules of high molecular weight built from amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 1, page 25; printed answer key = b.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-042
+## title
+Synthesis of proteins commonly requires:
+## question
+Synthesis of proteins commonly requires:
+## vignette
+This item asks how many different amino acids the body draws on to build its proteins.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+100 different amino acids
+## explanation_a
+Hundreds of amino acids exist in nature, but only a fixed set is used to build proteins. One hundred overstates the number the ribosome assembles.
+## answer_b
+300 different amino acids
+## explanation_b
+This is far above the count used in protein synthesis. Non-protein amino acids are numerous, but they are not the ones read from the genetic code.
+## answer_c
+20 different amino acids
+## explanation_c
+Correct. Twenty standard amino acids are specified by the genetic code and used by the ribosome to build proteins; every protein is a sequence drawn from this set.
+## answer_d
+30 different amino acids
+## explanation_d
+Close to the correct order of magnitude but still wrong — the standard set the genetic code encodes is twenty, not thirty.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+83
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that twenty standard amino acids are used to synthesise proteins.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 2, page 25; printed answer key = c.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-043
+## title
+Which of the following is an example of α-amino acids?
+## question
+Which of the following is an example of α-amino acids?
+## vignette
+An α-amino acid carries its amino group on the carbon next to the carboxyl group. This item asks which of the four is a true α-amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Phenylalanine
+## explanation_a
+Correct. Phenylalanine has its amino group on the α-carbon, the carbon adjacent to the carboxyl group — the defining arrangement of an α-amino acid, shared by the standard protein amino acids.
+## answer_b
+Proline
+## explanation_b
+Proline is an imino acid, not a true amino acid: its nitrogen is part of a ring and forms a secondary amine (imino) group rather than a free α-amino group.
+## answer_c
+Hydroxyproline
+## explanation_c
+Like proline, hydroxyproline carries a ring nitrogen and is classed as an imino acid; it is proline hydroxylated in collagen, not a free α-amino acid.
+## answer_d
+Glutathione
+## explanation_d
+Glutathione is a tripeptide (γ-glutamyl-cysteinyl-glycine), not a single amino acid, so it cannot be an example of an α-amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+66
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify a true α-amino acid and distinguish it from imino acids and peptides.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 3, page 25; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "o amino acids"; the printed word is "α (alpha) amino acids", restored here.
+---
+# Item
+## id
+QST-102-INT-MCQ-044
+## title
+Which of the following is an imino acid?
+## question
+Which of the following is an imino acid?
+## vignette
+One of the twenty standard building blocks has its nitrogen locked in a ring, making it an imino rather than an amino acid. This item asks which.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Alanine
+## explanation_a
+Alanine is a simple neutral aliphatic amino acid with a free α-amino group; its nitrogen is not part of any ring, so it is not an imino acid.
+## answer_b
+Glutamate
+## explanation_b
+Glutamate is an acidic amino acid with a free α-amino group and a side-chain carboxyl; it has no ring nitrogen and is not an imino acid.
+## answer_c
+Proline
+## explanation_c
+Correct. Proline's side chain loops back onto its own α-nitrogen, forming a ring so the nitrogen is a secondary (imino) group — which is why proline is called an imino acid.
+## answer_d
+Serine
+## explanation_d
+Serine is a neutral amino acid with a hydroxyl side chain and a free α-amino group; nothing about it makes it an imino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-A37A5AA8733ACE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify proline as the imino acid among the standard amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 4, page 25; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-045
+## title
+Amino acids can be classified by:
+## question
+Amino acids can be classified by:
+## vignette
+This item asks which of the listed schemes is a real basis for classifying amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Physical classification
+## explanation_a
+Amino acids are not grouped by a general 'physical' scheme. The standard schemes are chemical (by side-chain group), nutritional and metabolic — physical is not one of them.
+## answer_b
+Pathological classification
+## explanation_b
+There is no 'pathological' classification of amino acids. Disease can result from amino-acid disorders, but that does not make pathology a way of sorting the amino acids themselves.
+## answer_c
+Chemical classification
+## explanation_c
+Correct. Amino acids are classified chemically by the nature of their side chain — aliphatic, aromatic, heterocyclic, acidic, basic, and so on — one of the standard classification schemes.
+## answer_d
+Quantitative classification
+## explanation_d
+Amino acids are not sorted by quantity. A 'quantitative' scheme is not among the recognised bases, which are chemical, nutritional (essential/non-essential) and metabolic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise chemical structure as a basis for classifying amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 5, page 25; printed answer key = c.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-046
+## title
+Histidine is an example of:
+## question
+Histidine is an example of:
+## vignette
+Histidine's side chain carries a nitrogen-containing ring. This item asks which chemical class that places it in.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Aromatic amino acid
+## explanation_a
+The aromatic amino acids are phenylalanine, tyrosine and tryptophan, whose side chains carry a benzene or indole ring. Histidine's ring contains nitrogen, so it is grouped as heterocyclic rather than plainly aromatic.
+## answer_b
+Heterocyclic amino acid
+## explanation_b
+Correct. Histidine's side chain is an imidazole ring, a five-membered ring containing two nitrogen atoms; a ring built from more than one kind of atom makes it a heterocyclic amino acid.
+## answer_c
+Branched chain amino acid
+## explanation_c
+The branched-chain amino acids are valine, leucine and isoleucine, with branched aliphatic side chains. Histidine's side chain is a ring, not a branched hydrocarbon.
+## answer_d
+Non-branched chain amino acid
+## explanation_d
+This describes straight aliphatic side chains such as glycine or alanine. Histidine carries a ring, so it is neither branched nor a simple non-branched aliphatic amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+64
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify histidine as a heterocyclic amino acid by its imidazole side chain.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 7, page 25; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 25.
+---
+# Item
+## id
+QST-102-INT-MCQ-047
+## title
+Valine is:
+## question
+Valine is:
+## vignette
+This item asks for the chemical class of valine, one of the three branched-chain amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Aliphatic branched amino acid
+## explanation_a
+Correct. Valine's side chain is an isopropyl group — a short carbon chain that branches — making it an aliphatic, branched-chain amino acid alongside leucine and isoleucine.
+## answer_b
+Aliphatic non-branched amino acid
+## explanation_b
+Valine is aliphatic, but its side chain branches at the β-carbon; non-branched aliphatic amino acids such as glycine or alanine have straight side chains.
+## answer_c
+Aromatic amino acid
+## explanation_c
+Aromatic amino acids carry a benzene or indole ring (phenylalanine, tyrosine, tryptophan). Valine's side chain is a small branched hydrocarbon with no ring.
+## answer_d
+Heterocyclic amino acid
+## explanation_d
+Heterocyclic amino acids such as histidine or tryptophan have a ring containing atoms other than carbon. Valine has no ring at all.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify valine as a branched-chain aliphatic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 9, page 26; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-048
+## title
+Which of the following amino acids contains a hydroxyl group?
+## question
+Which of the following amino acids contains a hydroxyl group?
+## vignette
+One of these side chains carries an –OH group. This item asks which amino acid is the hydroxyl-containing one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Arginine
+## explanation_a
+Arginine's side chain ends in a guanidinium group rich in nitrogen, which makes it basic — there is no hydroxyl group on it.
+## answer_b
+Serine
+## explanation_b
+Correct. Serine's side chain is a hydroxymethyl group (–CH2OH), so it carries a hydroxyl group; this –OH is also the site that can be phosphorylated.
+## answer_c
+Cysteine
+## explanation_c
+Cysteine's side chain carries a thiol (–SH) group, not a hydroxyl. The sulfur is what lets it form disulfide bonds.
+## answer_d
+Methionine
+## explanation_d
+Methionine's side chain contains sulfur in a thioether linkage; it has no hydroxyl group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+77
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify serine as a hydroxyl-containing amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 10, page 26; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "hydroxy]"; restored to "hydroxyl".
+---
+# Item
+## id
+QST-102-INT-MCQ-049
+## title
+An amino acid containing a hydroxyl group is:
+## question
+An amino acid containing a hydroxyl group is:
+## vignette
+This item again asks for a hydroxyl-bearing amino acid, from a different set of options.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Threonine
+## explanation_a
+Correct. Threonine's side chain carries a hydroxyl group on a branched carbon; together with serine it makes up the pair of hydroxyl-containing amino acids that can be phosphorylated.
+## answer_b
+Methionine
+## explanation_b
+Methionine's side chain contains sulfur in a thioether, not a hydroxyl group.
+## answer_c
+Glutathione
+## explanation_c
+Glutathione is a tripeptide, not a single amino acid, so it is not the answer to a question about which amino acid carries a hydroxyl group.
+## answer_d
+Hydroxyproline
+## explanation_d
+Hydroxyproline does carry a hydroxyl, but it is an imino acid formed by modifying proline in collagen, not one of the standard hydroxyl amino acids the department pairs (serine and threonine); threonine is the intended answer.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+63
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify threonine as a hydroxyl-containing standard amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 11, page 26; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed "hydroxyl]"; restored to "hydroxyl".
+---
+# Item
+## id
+QST-102-INT-MCQ-050
+## title
+Which of the following amino acids contains a sulfur atom?
+## question
+Which of the following amino acids contains a sulfur atom?
+## vignette
+Two standard amino acids carry sulfur. This item asks which of the four listed is one of them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Serine
+## explanation_a
+Serine's side chain is a hydroxymethyl group; it carries oxygen in an –OH, not sulfur.
+## answer_b
+Threonine
+## explanation_b
+Threonine carries a hydroxyl group on its side chain, not a sulfur atom.
+## answer_c
+Methionine
+## explanation_c
+Correct. Methionine's side chain contains a sulfur atom in a thioether linkage; with cysteine it is one of the two sulfur-containing amino acids.
+## answer_d
+Aspartate
+## explanation_d
+Aspartate is an acidic amino acid with a side-chain carboxyl group; it contains no sulfur.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify methionine as a sulfur-containing amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 12, page 26; printed answer key = c.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-051
+## title
+An amino acid containing an acidic group is:
+## question
+An amino acid containing an acidic group is:
+## vignette
+This item asks for the amino acid whose side chain carries a second, acidic carboxyl group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Arginine
+## explanation_a
+Arginine's side chain is basic, carrying a nitrogen-rich guanidinium group — the opposite of an acidic side chain.
+## answer_b
+Glycine
+## explanation_b
+Glycine's side chain is a single hydrogen atom; it is neutral, with no extra acidic group.
+## answer_c
+Pyruvate
+## explanation_c
+Pyruvate is a keto acid intermediate of metabolism, not an amino acid, so it cannot answer a question about amino-acid side chains.
+## answer_d
+Aspartate
+## explanation_d
+Correct. Aspartate's side chain carries a carboxyl group that ionises to a negative charge, making it one of the two acidic amino acids alongside glutamate.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify aspartate as an acidic amino acid by its side-chain carboxyl group.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 14, page 26; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 26.
+---
+# Item
+## id
+QST-102-INT-MCQ-052
+## title
+An amino acid containing a basic group is:
+## question
+An amino acid containing a basic group is:
+## vignette
+This item asks for the amino acid whose side chain carries an extra nitrogen-containing basic group.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lysine
+## explanation_a
+Correct. Lysine's side chain ends in an ε-amino group that accepts a proton and carries a positive charge, making it a basic amino acid together with arginine and histidine.
+## answer_b
+Proline
+## explanation_b
+Proline is an imino acid with a ring side chain; it has no extra basic group.
+## answer_c
+Glycine
+## explanation_c
+Glycine's side chain is one hydrogen atom, so it is neutral, not basic.
+## answer_d
+Alanine
+## explanation_d
+Alanine's side chain is a simple methyl group; it is neutral aliphatic, with no basic group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+78
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify lysine as a basic amino acid by its side-chain amino group.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 15, page 27; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-053
+## title
+An amino acid containing an aromatic ring is:
+## question
+An amino acid containing an aromatic ring is:
+## vignette
+This item asks which amino acid carries a true aromatic (benzene-type) ring in its side chain.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Histidine
+## explanation_a
+Histidine carries an imidazole ring, but that ring contains nitrogen, so it is classed as heterocyclic rather than a plain aromatic amino acid.
+## answer_b
+Proline
+## explanation_b
+Proline's ring is a saturated pyrrolidine ring with no aromatic character; it is an imino acid, not an aromatic one.
+## answer_c
+Alanine
+## explanation_c
+Alanine's side chain is a small methyl group with no ring at all.
+## answer_d
+Phenylalanine
+## explanation_d
+Correct. Phenylalanine's side chain is a benzyl group carrying a benzene ring, making it one of the aromatic amino acids alongside tyrosine and tryptophan.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+76
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify phenylalanine as an aromatic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 16, page 27; printed answer key = d.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-054
+## title
+An example of a heterocyclic amino acid is:
+## question
+An example of a heterocyclic amino acid is:
+## vignette
+A heterocyclic amino acid has a ring containing an atom other than carbon. This item asks which of the four fits.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Histidine
+## explanation_a
+Correct. Histidine's side chain is an imidazole ring containing two nitrogen atoms; a ring built from more than one kind of atom makes it heterocyclic.
+## answer_b
+Cysteine
+## explanation_b
+Cysteine carries a thiol side chain with no ring; it is a sulfur-containing amino acid, not a heterocyclic one.
+## answer_c
+Tyrosine
+## explanation_c
+Tyrosine's ring is a benzene ring bearing a hydroxyl — an aromatic side chain of carbon only, so it is aromatic rather than heterocyclic.
+## answer_d
+Methionine
+## explanation_d
+Methionine has a straight sulfur-containing side chain with no ring at all.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-5C05062976F311
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+66
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify histidine as a heterocyclic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 17, page 27; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-055
+## title
+Serine is an amino acid with:
+## question
+Serine is an amino acid with:
+## vignette
+This item asks how serine's side chain is classed on the polarity scheme.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Non-polar group
+## explanation_a
+Serine's hydroxyl side chain is polar and can hydrogen-bond with water, so it is not non-polar.
+## answer_b
+Uncharged polar group
+## explanation_b
+Correct. Serine's –OH side chain is polar and forms hydrogen bonds but carries no charge at physiological pH, placing it among the uncharged (neutral) polar amino acids.
+## answer_c
+Charged polar group
+## explanation_c
+Charged polar side chains are the acidic (aspartate, glutamate) and basic (lysine, arginine, histidine) ones. Serine's hydroxyl is polar but neutral, not charged.
+## answer_d
+Hydrophobic group
+## explanation_d
+Hydrophobic side chains are the non-polar ones such as valine or leucine. Serine's hydroxyl makes it hydrophilic, not hydrophobic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-327EF635E45CB6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+65
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify serine as an uncharged polar amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 18, page 27; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-056
+## title
+Arginine is:
+## question
+Arginine is:
+## vignette
+This item asks how arginine's strongly basic side chain is classed on the polarity scheme.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+An amino acid with an uncharged polar group
+## explanation_a
+Uncharged polar side chains, such as serine's hydroxyl, are neutral. Arginine's guanidinium group takes up a proton and carries a positive charge, so it is not uncharged.
+## answer_b
+An amino acid with a charged polar group
+## explanation_b
+Correct. Arginine's guanidinium side chain is protonated and positively charged at physiological pH, placing it among the charged polar (basic) amino acids.
+## answer_c
+An amino acid with a non-polar group
+## explanation_c
+Non-polar side chains are hydrocarbon-like and hydrophobic. Arginine's nitrogen-rich, charged side chain is strongly polar, the opposite of non-polar.
+## answer_d
+An amino acid with a hydrophobic group
+## explanation_d
+Arginine's charged guanidinium group is highly hydrophilic and interacts strongly with water, so it is not hydrophobic.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-327EF635E45CB6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+65
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify arginine as a charged polar (basic) amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 19, page 27; printed answer key = b.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-057
+## title
+Amino acids are nutritionally classified into:
+## question
+Amino acids are nutritionally classified into:
+## vignette
+This item asks for the categories of the nutritional classification of amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Essential, non-essential, and half-essential amino acids
+## explanation_a
+Correct. The nutritional scheme sorts amino acids by whether the diet must supply them: essential (must be eaten), non-essential (the body can make them) and half- (semi-) essential.
+## answer_b
+Ketogenic, glucogenic, and mixed amino acids
+## explanation_b
+This is the metabolic classification, based on whether an amino acid's carbon skeleton yields ketone bodies or glucose — not the nutritional one.
+## answer_c
+Aliphatic, aromatic, and heterocyclic amino acids
+## explanation_c
+This is the chemical classification, based on side-chain structure, not on dietary need.
+## answer_d
+Non-polar, uncharged polar, and charged polar amino acids
+## explanation_d
+This is the polarity-based classification, which describes how side chains interact with water, not a nutritional grouping.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-D0EDFFF1477094
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+80
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the three categories of the nutritional classification of amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 20, page 27; printed answer key = a.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27.
+---
+# Item
+## id
+QST-102-INT-MCQ-058
+## title
+Valine is:
+## question
+Valine is:
+## vignette
+This item asks where valine falls on the nutritional (dietary) classification.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Essential amino acid
+## explanation_a
+Correct. Valine cannot be synthesised by the body and must be supplied by the diet, so it is an essential amino acid — one of the branched-chain essentials with leucine and isoleucine.
+## answer_b
+Non-essential amino acid
+## explanation_b
+Non-essential amino acids are those the body can make for itself, such as alanine or glycine. Valine cannot be synthesised, so it is not non-essential.
+## answer_c
+Semi-essential amino acid
+## explanation_c
+The semi- (half-) essential amino acids are arginine and histidine, needed extra during growth. Valine is fully essential, required from the diet throughout life.
+## answer_d
+Mixed amino acid
+## explanation_d
+'Mixed' belongs to the metabolic classification (both glucogenic and ketogenic), not the nutritional one, so it does not describe valine's dietary status.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-D0EDFFF1477094
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+77
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify valine as an essential amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 21, page 27; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 27. This item tests nutritional class; MCQ-001-style items test chemical class.
+---
+# Item
+## id
+QST-102-INT-MCQ-059
+## title
+Proteins containing all the essential amino acids have:
+## question
+Proteins containing all the essential amino acids have:
+## vignette
+Dietary proteins differ in how completely they supply the essential amino acids. This item asks what a complete protein is said to have.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+High biological value
+## explanation_a
+Correct. A protein that supplies all the essential amino acids in adequate amounts is a complete protein of high biological value — animal proteins such as egg and milk are the classic examples.
+## answer_b
+Moderate biological value
+## explanation_b
+Moderate value describes proteins short in one or more essential amino acids. A protein carrying the full set is high, not moderate, value.
+## answer_c
+Low biological value
+## explanation_c
+Low biological value describes incomplete proteins, typically plant proteins lacking one or more essential amino acids — the opposite of a protein that contains them all.
+## answer_d
+Low molecular weight
+## explanation_d
+Biological value reflects amino-acid completeness, not size. Containing all the essential amino acids says nothing about molecular weight.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-F7B968019AB64C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Relate a complete essential-amino-acid profile to high biological value of a protein.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 23, page 28; printed answer key = a.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-060
+## title
+Amino acids are classified metabolically into:
+## question
+Amino acids are classified metabolically into:
+## vignette
+This item asks for the categories of the metabolic classification of amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Ketogenic, glucogenic, and mixed amino acids
+## explanation_a
+Correct. The metabolic scheme sorts amino acids by the fate of their carbon skeleton: ketogenic (to ketone bodies/acetyl-CoA), glucogenic (to glucose precursors) and mixed (both).
+## answer_b
+Acidic, alkaline, and neutral amino acids
+## explanation_b
+Acidic/basic/neutral describes side-chain charge under the chemical classification, not the metabolic fate of the carbon skeleton.
+## answer_c
+Aliphatic, aromatic, and heterocyclic amino acids
+## explanation_c
+This is the chemical classification by side-chain structure, not a metabolic grouping.
+## answer_d
+Essential, non-essential, and semi-essential amino acids
+## explanation_d
+This is the nutritional classification, based on dietary need, not on whether the carbon skeleton yields glucose or ketone bodies.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the three categories of the metabolic classification of amino acids.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 25, page 28; printed answer key = a.
+## estimated_seconds
+30
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-061
+## title
+Lysine is:
+## question
+Lysine is:
+## vignette
+This item asks for the metabolic class of lysine, whose carbon skeleton has a single fate.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pure ketogenic amino acid
+## explanation_a
+Correct. Lysine's carbon skeleton is degraded only to acetyl-CoA/acetoacetate and cannot form glucose, so it is one of the two purely ketogenic amino acids (with leucine).
+## answer_b
+Pure glucogenic amino acid
+## explanation_b
+Glucogenic amino acids yield glucose precursors such as pyruvate or citric-acid-cycle intermediates. Lysine cannot form glucose, so it is not glucogenic.
+## answer_c
+Pure galactogenic amino acid
+## explanation_c
+'Galactogenic' is not a metabolic class of amino acids; the categories are glucogenic, ketogenic and mixed.
+## answer_d
+Glucogenic and ketogenic amino acid
+## explanation_d
+Mixed amino acids such as phenylalanine yield both glucose and ketone bodies. Lysine gives only ketogenic products, so it is not mixed.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+62
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify lysine as a purely ketogenic amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 26, page 28; printed answer key = a.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-062
+## title
+Phenylalanine is:
+## question
+Phenylalanine is:
+## vignette
+This item asks for the metabolic class of phenylalanine, whose carbon skeleton has two fates.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pure galactogenic amino acid
+## explanation_a
+'Galactogenic' is not a real metabolic class of amino acids; the categories are glucogenic, ketogenic and mixed.
+## answer_b
+Pure glucogenic amino acid
+## explanation_b
+Phenylalanine does yield the glucose precursor fumarate, but it also yields acetoacetate, so it is not purely glucogenic.
+## answer_c
+Pure ketogenic amino acid
+## explanation_c
+Phenylalanine yields the ketogenic product acetoacetate, but it also yields fumarate, a glucose precursor, so it is not purely ketogenic.
+## answer_d
+Glucogenic and ketogenic amino acid
+## explanation_d
+Correct. Phenylalanine (via tyrosine) is broken down to both fumarate (glucogenic) and acetoacetate (ketogenic), making it a mixed amino acid.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-4EA3F93C091334
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+61
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify phenylalanine as a mixed (glucogenic and ketogenic) amino acid.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 27, page 28; printed answer key = d.
+## estimated_seconds
+40
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-063
+## title
+Amino acid is:
+## question
+An amino acid is:
+## vignette
+Amino acids are amphoteric — their net charge depends on the pH of the medium. This item asks how the charge behaves in acidic conditions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Positively charged in acidic medium
+## explanation_a
+Correct. In an acidic (low-pH) medium, excess protons keep the amino group protonated and suppress carboxyl ionisation, so the amino acid carries a net positive charge and migrates to the cathode.
+## answer_b
+Positively charged in alkaline medium
+## explanation_b
+In an alkaline medium the carboxyl group is deprotonated and the amino group loses its proton, so the amino acid is net negative, not positive.
+## answer_c
+Negatively charged in acidic medium
+## explanation_c
+A net negative charge appears in alkaline, not acidic, conditions. In acid the molecule gains protons and is positive.
+## answer_d
+Uncharged in alkaline medium
+## explanation_d
+At high pH an amino acid carries a net negative charge; it is uncharged only at its isoelectric point, not in an alkaline medium.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+62
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that an amino acid is positively charged in an acidic medium.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 28, page 28; printed answer key = a.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 28.
+---
+# Item
+## id
+QST-102-INT-MCQ-064
+## title
+The isoelectric point (IEP) of all monoamino-monocarboxylic amino acids is at pH:
+## question
+The isoelectric point (IEP) of all monoamino-monocarboxylic amino acids is at pH:
+## vignette
+At the isoelectric point an amino acid carries no net charge. This item asks for the approximate IEP of the simple monoamino-monocarboxylic amino acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+10.02
+## explanation_a
+A pH near 10 is the isoelectric region of basic amino acids such as lysine, not of the neutral monoamino-monocarboxylic ones.
+## answer_b
+6.02
+## explanation_b
+Correct. For a simple monoamino-monocarboxylic amino acid the isoelectric point is about 6, the average of the α-carboxyl and α-amino pKa values, where the zwitterion carries no net charge.
+## answer_c
+2.02
+## explanation_c
+A pH near 2–3 is the isoelectric region of acidic amino acids such as aspartate, whose extra carboxyl lowers the IEP, not that of the neutral amino acids.
+## answer_d
+30.02
+## explanation_d
+A pH of 30 is outside the possible pH scale and cannot be an isoelectric point.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-889417DDD8A661
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Medium
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the isoelectric point of neutral (monoamino-monocarboxylic) amino acids is about 6.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 29, page 29; printed answer key = b.
+## estimated_seconds
+45
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+OCR printed the stem without "is at pH"; the printed phrasing is restored for readability. Answer key = b.
+---
+# Item
+## id
+QST-102-INT-MCQ-065
+## title
+Peptide bond is formed between the carboxylic group of one amino acid:
+## question
+A peptide bond is formed between the carboxylic group of one amino acid and:
+## vignette
+This item asks which group of the next amino acid joins the carboxyl group to make a peptide bond.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+With the carboxylic group of the other
+## explanation_a
+Two carboxyl groups do not condense into a peptide bond; a peptide bond joins a carboxyl to an amino group, not carboxyl to carboxyl.
+## answer_b
+With the amino group of the other
+## explanation_b
+Correct. A peptide bond is an amide formed by condensation between the α-carboxyl group of one amino acid and the α-amino group of the next, releasing a molecule of water.
+## answer_c
+With the hydroxylic group of the other
+## explanation_c
+A carboxyl reacting with a hydroxyl would give an ester, not a peptide bond; the peptide bond forms with the amino group.
+## answer_d
+With the amidic group of the other
+## explanation_d
+The peptide bond is itself the amide (–CO–NH–) that results; it forms with the free α-amino group, not with a pre-existing amide group.
+## topic
+Biochemistry
+## subtopic
+Amino Acids
+## main_concept
+CON-FND-7C8A02831B3243
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+8
+## clinical_relevance
+0.2
+## academic_relevance
+0.95
+## exam_weight_by_year
+KAU_Y1=0.6
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a peptide bond forms between the carboxyl group of one amino acid and the amino group of the next.
+## source_citation
+Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 30, page 29; printed answer key = b.
+## estimated_seconds
+35
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Verbatim from page 29; stem lightly repunctuated for readability.
