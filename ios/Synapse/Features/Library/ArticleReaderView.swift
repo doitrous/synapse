@@ -24,6 +24,34 @@ struct ArticleReaderView: View {
     @State private var tagDraft = ""
     @State private var addingTag = false
 
+    /// A concept term the reader pressed — hosted here now that the markable
+    /// prose is a `UITextView` and cannot open its own sheet the way `ConceptText`
+    /// did.
+    @State private var openedConcept: Concept?
+    /// The mark whose note is open for reading or editing.
+    @State private var editingMark: LibraryMark?
+
+    /// The blocks a student can mark: the serif reading prose. Callouts, key
+    /// points and headings are left out, exactly the prose/heading split the web
+    /// draws with `data-mark-block`.
+    private var markableBlocks: [(id: String, text: String)] {
+        article.blocks.compactMap { block in
+            switch block {
+            case .paragraph(let text): (block.id, text)
+            case .fact(let text, _): (block.id, text)
+            default: nil
+            }
+        }
+    }
+
+    /// Where every mark on this article resolves now, and which are orphaned.
+    /// Recomputed when `library.marks` changes because reading it here makes the
+    /// body observe it.
+    private var placement: (placements: [String: [LibraryMarks.Placement]], orphans: [LibraryMark]) {
+        guard let library else { return ([:], []) }
+        return LibraryMarks.place(library.marks(on: article.id), in: markableBlocks)
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
@@ -39,6 +67,7 @@ struct ArticleReaderView: View {
                 if !article.traps.isEmpty {
                     panel("Where people lose the mark", items: article.traps, tone: .warning)
                 }
+                if library != nil { yourMarks }
                 if !article.relatedArticles.isEmpty {
                     relatedReading
                 }
@@ -73,6 +102,18 @@ struct ArticleReaderView: View {
         .environment(\.evidence, evidence)
         .sheet(item: $showingEvidence) { span in
             EvidenceDrawer(span: span, evidence: evidence, openSource: openSource)
+            .localisedSheet()
+        }
+        .sheet(item: $openedConcept) { concept in
+            ConceptSheet(concept: concept, index: concepts)
+            .localisedSheet()
+        }
+        .sheet(item: $editingMark) { mark in
+            MarkNoteSheet(
+                mark: mark,
+                onCommit: { updated in Task { await library?.updateMark(updated) } },
+                onRemove: { Task { await library?.removeMark(articleID: article.id, markID: mark.id) } }
+            )
             .localisedSheet()
         }
         .alert(strings("Add a tag"), isPresented: $addingTag) {
@@ -187,6 +228,123 @@ struct ArticleReaderView: View {
         }
     }
 
+    /// Reading prose. Selectable-and-markable when a library is attached — the
+    /// live app — and plain `ConceptText` otherwise, so previews and tests that
+    /// build the reader without a store still render.
+    @ViewBuilder
+    private func prose(_ text: String, blockId: String, uiFont: UIFont, font: Font) -> some View {
+        if let library {
+            MarkableText(
+                text: text,
+                blockId: blockId,
+                font: uiFont,
+                concepts: concepts,
+                placements: placement.placements[blockId] ?? [],
+                strings: strings,
+                onOpenConcept: { openedConcept = $0 },
+                onOpenMark: { id in
+                    editingMark = library.marks(on: article.id).first { $0.id == id }
+                },
+                onCreate: { range, tone, openNote in
+                    Task {
+                        let mark = await library.addMark(
+                            articleID: article.id, block: blockId, text: text,
+                            range: range, tone: tone
+                        )
+                        if openNote, let mark { editingMark = mark }
+                    }
+                }
+            )
+        } else {
+            ConceptText(text, font: font, index: concepts)
+        }
+    }
+
+    /// Every mark on this article, in one place — a highlight halfway down a
+    /// long article is otherwise easy to lose. Orphans, whose words an edit
+    /// removed, are listed apart so nothing a student wrote disappears silently.
+    @ViewBuilder private var yourMarks: some View {
+        let all = library?.marks(on: article.id) ?? []
+        if !all.isEmpty {
+            let orphanIds = Set(placement.orphans.map(\.id))
+            let live = all.filter { !orphanIds.contains($0.id) }
+
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(spacing: 6) {
+                    Image(systemName: "highlighter").foregroundStyle(Theme.primary)
+                    Text(strings("Your marks"))
+                        .font(Theme.panelTitle())
+                        .foregroundStyle(Theme.ink2)
+                    Text("\(all.count)")
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.ink3)
+                }
+
+                ForEach(live) { mark in
+                    markRow(mark, orphaned: false)
+                }
+
+                if !placement.orphans.isEmpty {
+                    Text(placement.orphans.count == 1
+                         ? strings("One mark no longer matches the article")
+                         : strings("Some marks no longer match the article"))
+                        .font(Theme.ui(12, weight: 600))
+                        .foregroundStyle(Theme.ink2)
+                        .padding(.top, 4)
+                    Text(strings("The words they were made on were edited or removed. They are kept so nothing you wrote is lost."))
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.ink3)
+                    ForEach(placement.orphans) { mark in
+                        markRow(mark, orphaned: true)
+                    }
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(16)
+            .background(Theme.surface)
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .padding(.top, 8)
+        }
+    }
+
+    private func markRow(_ mark: LibraryMark, orphaned: Bool) -> some View {
+        Button {
+            editingMark = mark
+        } label: {
+            HStack(alignment: .top, spacing: 8) {
+                Circle()
+                    .fill(MarkTonePalette.color(mark.tone))
+                    .frame(width: 10, height: 10)
+                    .padding(.top, 4)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text("“\(mark.anchor.exact)”")
+                        .font(Theme.serifBody(14))
+                        .foregroundStyle(orphaned ? Theme.ink3 : Theme.ink)
+                        .italic(orphaned)
+                        .lineLimit(3)
+                    if !mark.note.trimmed.isEmpty {
+                        HStack(alignment: .top, spacing: 5) {
+                            Image(systemName: "text.bubble").font(.system(size: 11)).foregroundStyle(Theme.ink3)
+                            Text(mark.note)
+                                .font(Theme.ui(12))
+                                .foregroundStyle(Theme.ink2)
+                                .lineLimit(4)
+                        }
+                    }
+                }
+                Spacer(minLength: 0)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(
+            (mark.note.trimmed.isEmpty ? strings("Your highlight") : strings("Your note"))
+            + ": " + mark.anchor.exact
+        )
+    }
+
     @ViewBuilder
     private func blockView(_ block: ArticleBlock) -> some View {
         switch block {
@@ -197,7 +355,7 @@ struct ArticleReaderView: View {
                 .padding(.top, 8)
 
         case .paragraph(let text):
-            ConceptText(text, font: Theme.serifBody(17), index: concepts)
+            prose(text, blockId: block.id, uiFont: Theme.serifBodyFont(17), font: Theme.serifBody(17))
 
         case .callout(let title, let text):
             VStack(alignment: .leading, spacing: 4) {
@@ -230,7 +388,7 @@ struct ArticleReaderView: View {
                     .frame(width: 2)
 
                 VStack(alignment: .leading, spacing: 6) {
-                    ConceptText(text, font: Theme.serifBody(16), index: concepts)
+                    prose(text, blockId: block.id, uiFont: Theme.serifBodyFont(16), font: Theme.serifBody(16))
 
                     if let span {
                         Button {
@@ -340,5 +498,111 @@ struct ArticleReaderView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .contentShape(Rectangle())
+    }
+}
+
+/// Reading, writing and removing one mark's note and tone.
+///
+/// The note is written on the way out rather than per keystroke: this is a
+/// stored document shared with every other surface, and a note is usually a
+/// sentence — the same choice the web's `MarkNotePopover` makes. Changing the
+/// tone commits at once, because there is nothing to compose.
+private struct MarkNoteSheet: View {
+    let mark: LibraryMark
+    let onCommit: (LibraryMark) -> Void
+    let onRemove: () -> Void
+
+    @Environment(\.strings) private var strings
+    @Environment(\.dismiss) private var dismiss
+    @State private var draft: String
+    @State private var tone: String
+
+    init(mark: LibraryMark, onCommit: @escaping (LibraryMark) -> Void, onRemove: @escaping () -> Void) {
+        self.mark = mark
+        self.onCommit = onCommit
+        self.onRemove = onRemove
+        _draft = State(initialValue: mark.note)
+        _tone = State(initialValue: mark.tone)
+    }
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    Text("“\(mark.anchor.exact)”")
+                        .font(Theme.serifBody(15))
+                        .foregroundStyle(Theme.ink2)
+                        .italic()
+                        .padding(.leading, 10)
+                        .overlay(alignment: .leading) {
+                            Rectangle().fill(Theme.primaryLine).frame(width: 2)
+                        }
+
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(strings("Your note"))
+                            .font(Theme.panelTitle(11))
+                            .foregroundStyle(Theme.ink3)
+                        TextEditor(text: $draft)
+                            .font(Theme.ui(15))
+                            .frame(minHeight: 120)
+                            .scrollContentBackground(.hidden)
+                            .padding(8)
+                            .background(Theme.surface2)
+                            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+                            .accessibilityLabel(strings("Your note"))
+                    }
+
+                    HStack(spacing: 10) {
+                        ForEach(LibraryMarks.offeredTones, id: \.self) { option in
+                            Button {
+                                tone = option
+                                onCommit(LibraryMark(
+                                    id: mark.id, articleId: mark.articleId, anchor: mark.anchor,
+                                    tone: option, note: draft, createdAt: mark.createdAt
+                                ))
+                            } label: {
+                                Circle()
+                                    .fill(MarkTonePalette.color(option))
+                                    .frame(width: 22, height: 22)
+                                    .overlay(
+                                        Circle().stroke(tone == option ? Theme.ink : Theme.line, lineWidth: tone == option ? 2 : 1)
+                                    )
+                            }
+                            .buttonStyle(.plain)
+                            .accessibilityLabel(strings(MarkTonePalette.label(option)))
+                            .accessibilityAddTraits(tone == option ? [.isSelected] : [])
+                        }
+                        Spacer()
+                    }
+                }
+                .padding(16)
+                .frame(maxWidth: 680)
+                .frame(maxWidth: .infinity)
+            }
+            .background(Theme.paper)
+            .navigationTitle(strings("Your note"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button(strings("Remove"), role: .destructive) {
+                        onRemove()
+                        dismiss()
+                    }
+                    .tint(Theme.danger)
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button(strings("Done")) { commit(); dismiss() }.tint(Theme.primary)
+                }
+            }
+        }
+        .presentationDetents([.medium, .large])
+    }
+
+    private func commit() {
+        guard draft != mark.note || tone != mark.tone else { return }
+        onCommit(LibraryMark(
+            id: mark.id, articleId: mark.articleId, anchor: mark.anchor,
+            tone: tone, note: draft, createdAt: mark.createdAt
+        ))
     }
 }

@@ -255,6 +255,20 @@ enum Theme {
         variable(Family.serif, size: size, weight: weight, style: .body)
     }
 
+    /// The `serifBody` face as a `UIFont`, for the markable article text that
+    /// has to be a `UITextView` to expose a selection. Same variable weight and
+    /// Dynamic Type curve as the SwiftUI version, so marked and plain prose set
+    /// identically.
+    static func serifBodyFont(_ size: CGFloat, weight: CGFloat = 400) -> UIFont {
+        let axis = 0x77676874
+        let descriptor = UIFontDescriptor(fontAttributes: [
+            .family: Family.serif,
+            kCTFontVariationAttribute as UIFontDescriptor.AttributeName: [axis: weight],
+        ])
+        let font = UIFont(descriptor: descriptor, size: size)
+        return UIFontMetrics(forTextStyle: .body).scaledFont(for: font)
+    }
+
     /// Interface text.
     static func ui(_ size: CGFloat, weight: CGFloat = 400) -> Font {
         variable(Family.sans, size: size, weight: weight, style: .body)
