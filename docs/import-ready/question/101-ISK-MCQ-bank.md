@@ -142880,3 +142880,4343 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1414
+## title
+Loose areolar C.T is abundant in all of the following except:
+## question
+Loose areolar C.T is abundant in all of the following except:
+## vignette
+This item asks the student to name the one organ that loose areolar connective tissue does not occupy.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Dermis of the skin
+## explanation_a
+True, so not the exception. The papillary layer of the dermis is loose areolar connective tissue.
+## answer_b
+Around blood vessels
+## explanation_b
+True, so not the exception. Loose areolar tissue sheathes the vessels and nerves running through the body.
+## answer_c
+Submucosa & muous membranes
+## explanation_c
+True, so not the exception. The lamina propria and submucosa of mucous membranes are loose areolar tissue, which is what lets them swell.
+## answer_d
+brain
+## explanation_d
+Correct. The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, making it the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".
+
+Why this is right:
+- Loose areolar connective tissue is found everywhere in the body except the brain: filling the spaces between organs, in the papillary layer of the dermis, in the lamina propria and submucosa of mucous membranes, in serous membranes, and around blood vessels and nerves.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-B784BE0F18B493
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the one organ that loose areolar connective tissue does not occupy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q18. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1415
+## title
+Protects newborn infants by heat production:
+## question
+Protects newborn infants by heat production:
+## vignette
+This item asks the student to attribute newborn thermogenesis to brown adipose tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+White fat. (adipose tissue)
+## explanation_a
+White fat insulates against heat loss, which sounds close enough to be tempting, but insulation is passive. It generates no heat of its own.
+## answer_b
+Mucoid C.T
+## explanation_b
+Mucoid connective tissue is the jelly of the umbilical cord and the dental pulp. It supports and nothing more.
+## answer_c
+Brown fat. (adipose tissue)
+## explanation_c
+Correct. Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_d
+Reticular C.T
+## explanation_d
+Reticular connective tissue forms the stroma of lymph node, spleen and liver. It has no thermal role.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute newborn thermogenesis to brown adipose tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p17 q132. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1416
+## title
+Regarding loose areolar connective tissue:
+## question
+Regarding loose areolar connective tissue:
+## vignette
+This item asks the student to recognise the position of loose areolar connective tissue beneath epithelium and reject the properties of dense tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is found below epithelium
+## explanation_a
+Correct. Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.
+
+Why this is right:
+- Loose areolar connective tissue is found everywhere in the body except the brain: filling the spaces between organs, in the papillary layer of the dermis, in the lamina propria and submucosa of mucous membranes, in serous membranes, and around blood vessels and nerves.
+## answer_b
+Condensed with fibers
+## explanation_b
+Being condensed with fibres describes dense connective tissue: white fibrous and yellow elastic. Loose areolar tissue has scattered fibres in abundant matrix.
+## answer_c
+It is avascular
+## explanation_c
+Backwards, and worth getting right: loose areolar tissue is well vascularised, which is exactly why the avascular epithelium above it can be fed at all.
+## answer_d
+It has little ground substance
+## explanation_d
+Also backwards. Loose areolar tissue has the most abundant ground substance of any connective tissue proper — that abundance is what makes it loose.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-B784BE0F18B493
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Recognise the position of loose areolar connective tissue beneath epithelium and reject the properties of dense tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p9 q53; EOM ISK 101 195 Answers.pdf p3 q23. Manifest src_c30d9391aa0861f41e44, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1417
+## title
+The followings are functions for adipose C.T EXCEPT:
+## question
+The followings are functions for adipose C.T EXCEPT:
+## vignette
+This item asks the student to separate the functions of adipose tissue from those of the immune cells that live in connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Act as thermal insulator against heat loss
+## explanation_a
+True, so not the exception. Subcutaneous fat is the body's thermal insulation.
+## answer_b
+Antibody secretion
+## explanation_b
+Correct. The exception, and the answer. Antibody is secreted by the plasma cell. Adipose tissue is connective tissue and connective tissue does contain defence cells, which is what makes this misfire — but the fat cell itself secretes leptin, not immunoglobulin.
+
+Why this is right:
+- Adipose connective tissue is fat cells predominating, held by a fine network of reticular fibres with collagen dividing it into incomplete lobules.
+## answer_c
+Keep some organs (like kidney) in position
+## explanation_c
+True, so not the exception. Perirenal fat holds the kidney in position, and losing it lets the kidney drop.
+## answer_d
+Fill the spaces between the tissues
+## explanation_d
+True, so not the exception. Fat fills the spaces between tissues and gives the skin its contour.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-37C773B1F99BE3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Separate the functions of adipose tissue from those of the immune cells that live in connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p8 q64. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1418
+## title
+The followings are functions for white adipose C.T EXCEPT:
+## question
+The followings are functions for white adipose C.T EXCEPT:
+## vignette
+This item asks the student to assign thermogenesis to brown fat and insulation to white.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Act as thermal insulator against heat loss
+## explanation_a
+True, so not the exception. White fat is the body's insulation against heat loss.
+## answer_b
+Act as thermal generator(thermogenesis)
+## explanation_b
+Correct. The exception, and the answer. Thermogenesis belongs to brown, multilocular fat, whose mitochondria carry thermogenin. The pair of words is the trap: insulating against heat loss and generating heat sound like one function and are two, in two different tissues.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## answer_c
+Keep some organs (like kidney) in position
+## explanation_c
+True, so not the exception. White fat around the kidney keeps it in position.
+## answer_d
+Fill the spaces between the tissues
+## explanation_d
+True, so not the exception. White fat fills the spaces between tissues.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Assign thermogenesis to brown fat and insulation to white.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q14. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1419
+## title
+The most common type of connective tissue is:
+## question
+The most common type of connective tissue is:
+## vignette
+This item asks the student to name the commonest type of connective tissue proper.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Reticular connective tissue
+## explanation_a
+Reticular connective tissue is restricted to the stroma of lymph node, spleen and liver. It is delicate and specialised, not general-purpose.
+## answer_b
+Adipose connective tissue
+## explanation_b
+Adipose tissue is bulky and conspicuous, which is why it draws the eye, but it is confined to fat depots. Bulk is not the same as being widespread.
+## answer_c
+Loose areolar connective tissue
+## explanation_c
+Correct. Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.
+
+Why this is right:
+- Loose areolar connective tissue is the most common and most widespread type of connective tissue proper.
+## answer_d
+White fibrous connective tissue
+## explanation_d
+White fibrous connective tissue is dense and specialised for strength — tendon, ligament, organ capsule, reticular dermis — so it appears wherever pull must be resisted and nowhere else.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-5DCA7C68C51E38
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Name the commonest type of connective tissue proper.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p3 q21. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Loose areolar connective tissue is the most common type, and the leaf's other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1420
+## title
+The most widespread C.T is:
+## question
+The most widespread C.T is:
+## vignette
+This item asks the student to name the most widely distributed connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Loose areolar C.T
+## explanation_a
+Correct. Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.
+
+Why this is right:
+- Loose areolar connective tissue is the most common and most widespread type of connective tissue proper.
+## answer_b
+Reticular C.T
+## explanation_b
+Reticular connective tissue lies only in the stroma of the lymphoid organs and the liver.
+## answer_c
+Mucous C.T
+## explanation_c
+Mucous (mucoid) connective tissue is confined to the umbilical cord, the vitreous humour and the dental pulp — three places, and two of them only before birth.
+## answer_d
+Adipose C.T
+## explanation_d
+Adipose tissue is widely distributed but is present only where fat is stored, and its amount varies with diet and hormones rather than being a constant feature of every space.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-5DCA7C68C51E38
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the most widely distributed connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p7 q57. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1421
+## title
+The Type of C.T. contains all types of C.T. cells & fibers is called:
+## question
+The Type of C.T. contains all types of C.T. cells & fibers is called:
+## vignette
+This item asks the student to identify the one connective tissue that contains every cell type and every fibre type.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Loose areolar C.T
+## explanation_a
+Correct. Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.
+
+Why this is right:
+- Loose areolar connective tissue is the most common and most widespread type of connective tissue proper.
+## answer_b
+Adipose C.T
+## explanation_b
+Adipose tissue is defined by one cell predominating — the fat cell — which is the opposite of containing all of them.
+## answer_c
+White fibrous C.T
+## explanation_c
+White fibrous tissue is packed collagen bundles with fibroblasts and almost no other cell, and it carries no elastic or reticular fibres to speak of.
+## answer_d
+Mucoid C.T
+## explanation_d
+Mucoid tissue contains mainly fibroblasts, with only fine collagen and reticular fibres. Its abundant matrix makes it a plausible guess, but its cell population is narrow.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-5DCA7C68C51E38
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Identify the one connective tissue that contains every cell type and every fibre type.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q32. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1422
+## title
+What type of adipose tissue tends to decrease as humans age?
+## question
+What type of adipose tissue tends to decrease as humans age?
+## vignette
+This item asks the student to state which adipose tissue is lost after infancy and give it under both its names.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Both white & brown adipose tissue
+## explanation_a
+Both cannot fall, because the tissue that is lost is replaced by the other. White fat increases as brown fat disappears.
+## answer_b
+White adipose tissue
+## explanation_b
+White adipose tissue increases with age rather than decreasing — it is what replaces the brown fat of infancy.
+## answer_c
+Unilocular adipose tissue
+## explanation_c
+Unilocular is the fat cell of white adipose tissue, so this is the same wrong answer as B under its cellular name.
+## answer_d
+Multilocular adipose tissue
+## explanation_d
+Correct. Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+State which adipose tissue is lost after infancy and give it under both its names.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p7 q44. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1423
+## title
+What type of adipose tissue tends to increase as humans age?
+## question
+What type of adipose tissue tends to increase as humans age?
+## vignette
+This item asks the student to recognise that white and unilocular name the same tissue, so an option offering both must be the answer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Brown adipose tissue
+## explanation_a
+Brown adipose tissue is the one that goes: plentiful in the newborn, largely lost during childhood as white fat replaces it.
+## answer_b
+White adipose tissue
+## explanation_b
+True as far as it goes, and this is where a student stops too early. White adipose tissue does increase — but so does unilocular adipose tissue, because they are the same thing.
+## answer_c
+Unilocular adipose tissue
+## explanation_c
+Also true, and for the same reason: the unilocular fat cell is the cell of white adipose tissue.
+## answer_d
+Both b and c
+## explanation_d
+Correct. B and C are two names for one tissue, so both are right and the combined option is the only complete answer.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Recognise that white and unilocular name the same tissue, so an option offering both must be the answer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q5. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1424
+## title
+Which of the following can be classified as "specialized connective tissue"?
+## question
+Which of the following can be classified as "specialized connective tissue"?
+## vignette
+This item asks the student to distinguish the specialised connective tissues from connective tissue proper and from embryonic connective tissue.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Mesenchyme
+## explanation_a
+Mesenchyme is the embryonic connective tissue every other type arises from. It is a precursor, not a specialisation.
+## answer_b
+Mucoid connective tissue
+## explanation_b
+Mucoid connective tissue is one of the four loose types of connective tissue proper — its matrix is soft, which is what keeps it in that group.
+## answer_c
+Dense connective tissue
+## explanation_c
+Dense connective tissue is also connective tissue proper, just with fibres predominating over matrix. Being firm is not the same as being specialised.
+## answer_d
+Blood
+## explanation_d
+Correct. The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.
+
+Why this is right:
+- Where the matrix is soft the tissue is connective tissue proper, which is loose — areolar, adipose, reticular, mucoid — or dense — white fibrous and yellow elastic.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-FE298AB3CE47E9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Distinguish the specialised connective tissues from connective tissue proper and from embryonic connective tissue.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p1 q2. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1425
+## title
+Which of the following is NOT primarily composed of connective tissue?
+## question
+Which of the following is NOT primarily composed of connective tissue?
+## vignette
+This item asks the student to recognise which named structures are built of connective tissue and which is not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Brain
+## explanation_a
+Correct. The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place loose areolar tissue is absent.
+
+Why this is right:
+- Where the matrix is soft the tissue is connective tissue proper, which is loose — areolar, adipose, reticular, mucoid — or dense — white fibrous and yellow elastic.
+## answer_b
+Organ capsule
+## explanation_b
+An organ capsule is irregular white fibrous connective tissue — dense collagen bundles running in several directions.
+## answer_c
+Ligament
+## explanation_c
+A ligament is connective tissue too: irregular white fibrous tissue, or in a few named cases yellow elastic tissue.
+## answer_d
+Areolar tissue
+## explanation_d
+Areolar tissue is the commonest connective tissue proper, so it is the most connective tissue of all four — picked only by a student reading the "NOT" too quickly.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-FE298AB3CE47E9
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Recognise which named structures are built of connective tissue and which is not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p3 q15. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1426
+## title
+Which types of adipose cells is a characteristic for newborns:
+## question
+Which types of adipose cells is a characteristic for newborns:
+## vignette
+This item asks the student to name the adipose tissue characteristic of the newborn.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+white
+## explanation_a
+White fat is present in the newborn but is not characteristic of it — it is the adult's fat, and it increases as brown fat is lost.
+## answer_b
+yellow
+## explanation_b
+Yellow describes bone marrow and elastic connective tissue, not a type of fat cell.
+## answer_c
+grey
+## explanation_c
+Grey is not one of the two named types of adipose tissue.
+## answer_d
+brown
+## explanation_d
+Correct. Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.
+
+Why this is right:
+- White adipose connective tissue is made of unilocular fat cells and is white because it is poorly vascularised and its droplets hold carotenoids; it is affected by diet and by hormones, lies under the skin and around organs, and stores fat.
+## topic
+Connective Tissue
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-86543DB2855310
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Name the adipose tissue characteristic of the newborn.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p12 q99. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1427
+## title
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## question
+The followin e of connective tissue (C.T.) is widely distributed in body:
+## vignette
+This item asks the student to name the type of connective tissue proper found everywhere in the body.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Irregular white fibrous C.T.
+## explanation_a
+Irregular white fibrous connective tissue is a dense type, sited in the reticular layer of the dermis, in ligaments, in the sclera and in organ capsules. It is widespread but it is not everywhere, and it is dense rather than loose.
+## answer_b
+Loose areolar C.T.
+## explanation_b
+Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and it is found everywhere in the body except the brain.
+
+Why this is right:
+- Loose areolar connective tissue is found everywhere in the body except the brain: filling the spaces between organs, in the papillary layer of the dermis, in the lamina propria and submucosa of mucous membranes, in serous membranes, and around blood vessels and nerves.
+## answer_c
+Yellow elastic C.T.
+## explanation_c
+Yellow elastic connective tissue is confined to places that must recoil: the aorta, the trachea and bronchi, the vocal cords and three named ligaments.
+## answer_d
+Regular white fibrous C.T.
+## explanation_d
+Regular white fibrous connective tissue is tendon and cornea — collagen bundles laid parallel to withstand pull in one direction. Its whole point is that it is specialised to a site.
+## topic
+Types of Connective Tissue Proper
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-B784BE0F18B493
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the type of connective tissue proper found everywhere in the body.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p2 q13. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1428
+## title
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## question
+The type of C.T. in tendons is tetaedSeouserssides OlTE
+## vignette
+This item asks the student to name the connective tissue of a tendon and say how its fibres are arranged.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+White fibrous,
+## explanation_a
+Correct. Confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.
+
+Why this is right:
+- Dense white fibrous connective tissue is packed with collagen bundles and holds few cells and little ground substance.
+## answer_b
+Elastic,
+## explanation_b
+Yellow elastic connective tissue recoils after stretching and is found in the aorta, the trachea and the ligamentum flavum. A tendon that stretched and recoiled would waste the muscle's pull.
+## answer_c
+Mucoid.
+## explanation_c
+Mucoid connective tissue is the soft jelly of the umbilical cord, the vitreous and the dental pulp. It is the least resistant tissue in the chapter.
+## answer_d
+Adipose.
+## explanation_d
+Adipose connective tissue stores fat, insulates and supports organs. It is a packing tissue and carries no load.
+## topic
+Types of Connective Tissue Proper
+## subtopic
+Types of Connective Tissue Proper
+## main_concept
+CON-FND-1438DCA008F0DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+## resource_ids
+src_a54bbf7a625ba2b172fc
+## learning_objective
+Name the connective tissue of a tendon and say how its fibres are arranged.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 2022.pdf p2 q25. Manifest src_a54bbf7a625ba2b172fc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence. Regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1429
+## title
+Fertilization occurs in the
+## question
+Fertilization occurs in the
+## vignette
+This item asks the student to name the organ in which fertilisation takes place.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fallopian tube
+## explanation_a
+Correct. Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_b
+Surface of ovary
+## explanation_b
+The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question is keyed to this option in error.
+## answer_c
+Uterine cavity
+## explanation_c
+The uterine cavity is where the embryo arrives on the fourth day and implants at the end of the first week — four days after fertilisation, not at it.
+## answer_d
+Pelvic cavity
+## explanation_d
+The pelvic cavity is where an omental or abdominal ectopic pregnancy would implant. Nothing normal happens to the oocyte there.
+## topic
+Embryology
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the organ in which fertilisation takes place.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7; EOM ISK 101 195 Answers.pdf p5 q56. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1430
+## title
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## question
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## vignette
+This item asks the student to place fertilisation in the correct part of the uterine tube, not merely in the tube.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Intramural part
+## explanation_a
+The intramural part is the short segment inside the uterine wall, the narrowest part of the tube. It is a site of ectopic implantation, and the most dangerous one, but the oocyte never gets that far unfertilised.
+## answer_b
+Isthmus
+## explanation_b
+The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the printed answer and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.
+## answer_c
+Lateral 1/3 P
+## explanation_c
+Correct. The lateral third of the tube is the ampulla, where fertilisation occurs.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_d
+Infundibulum
+## explanation_d
+The infundibulum is the funnel with the fimbriae at the ovarian end. It collects the oocyte and passes it on; fertilisation happens just medial to it, in the ampulla.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place fertilisation in the correct part of the uterine tube, not merely in the tube.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the isthmus. The department book states that fertilisation occurs "in the ampullary part of the uterine tube (lateral third)", and the written batch's own concept for this, `fertilization-site-mechanism-results`, says the same. The lateral third is the ampulla, so the answer is C. The isthmus is a real place — it is one of the three tubal sites of ectopic implantation the book lists — which is what makes it a plausible key to print by mistake.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1431
+## title
+One of the following is a result of fertilization
+## question
+One of the following is a result of fertilization
+## vignette
+This item asks the student to separate the results of fertilisation from the steps that produce them.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Determination of sex
+## explanation_a
+Correct. Determination of sex is one of the four results of fertilisation, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_b
+Cortical and zona reaction
+## explanation_b
+The cortical and zona reaction is a step within fertilisation, not a result of it — it is the block to polyspermy that happens the moment the membranes fuse.
+## answer_c
+Formation of male and female pronuclei
+## explanation_c
+Formation of the male and female pronuclei is likewise a step. The result is what their fusion produces: the zygote nucleus.
+## answer_d
+Zygote nucleus contains haploid number of chromosomes
+## explanation_d
+The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result of fertilisation.
+## topic
+Embryology
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Separate the results of fertilisation from the steps that produce them.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q13. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1432
+## title
+Phase III of fertilization is y y
+## question
+Phase III of fertilization is y y
+## vignette
+This item asks the student to put the phases of fertilisation in order and name the third by number.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Dispersion of the corona radiata is Phase I, done by the hyaluronidase of the three to five hundred sperms that reach the ovum.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation comes before the phases are counted at all — it is the seven-hour removal of the glycoprotein coat from the sperm's acrosomal region in the female tract. A student who counts it as Phase I lands one number short on every phase that follows, which is exactly what this question is set to catch.
+## answer_c
+Penetration of cell membrane of ovum.
+## explanation_c
+Correct. Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_d
+Penetration of zona pellucida.
+## explanation_d
+Penetration of the zona pellucida is Phase II, the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through the zona.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Put the phases of fertilisation in order and name the third by number.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p115 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1433
+## title
+Regarding morula
+## question
+Regarding morula
+## vignette
+This item asks the student to date the morula and keep the blastocyst's features off it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is formed in uterine tube within 3 days after formation of zygote
+## explanation_a
+Correct. The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.
+
+Why this is right:
+- The morula has no cavity and its zona pellucida is intact.
+## answer_b
+It is formed after degeneration of zona pellucida
+## explanation_b
+Backwards. The zona pellucida is still intact around the morula and only begins to degenerate at the end of the fifth day, after the morula has reached the uterine cavity.
+## answer_c
+It contains a cavity
+## explanation_c
+A cavity is what makes a blastocyst a blastocyst. The morula is a solid ball, which is what its name — mulberry — describes.
+## answer_d
+It is the stage that starts implantation
+## explanation_d
+Implantation is started by the blastocyst, at the end of the first week and by its embryonic pole. The morula is two to three days too early and has no trophoblast yet.
+## topic
+Embryology
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Date the morula and keep the blastocyst's features off it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q14. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1434
+## title
+Which structure bounds cells after fertilization as they compact to form the morula? (2…
+## question
+Which structure bounds cells after fertilization as they compact to form the morula? (2024)
+## vignette
+This item asks the student to name what holds the blastomeres together during cleavage.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.
+
+Why this is right:
+- The morula has no cavity and its zona pellucida is intact.
+## answer_b
+Corona radiate
+## explanation_b
+The corona radiata is the outer layer of follicular cells, and it is dispersed in Phase I of fertilisation — it is gone before the first cleavage division.
+## answer_c
+Pronucleus
+## explanation_c
+A pronucleus is one of the two haploid nuclei that fuse to make the zygote nucleus. It is inside a single cell and bounds nothing.
+## answer_d
+Inner cell maas
+## explanation_d
+The inner cell mass is a group of cells within the blastocyst, two stages later. It is bounded by the trophoblast rather than bounding anything itself.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name what holds the blastomeres together during cleavage.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q12. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1435
+## title
+One of the following.is true about blastocyst
+## question
+One of the following.is true about blastocyst
+## vignette
+This item asks the student to name the parts of the blastocyst and reject the morula's properties.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It has no cavity
+## explanation_a
+The blastocyst is defined by its cavity, the blastocele. It is the morula that has none.
+## answer_b
+It starts implantation by its abembryonic pole
+## explanation_b
+It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and it is asked both ways round.
+## answer_c
+It is formed 3 days after formation of the zygote
+## explanation_c
+Three days after the zygote gives the morula, not the blastocyst; the blastocyst is complete at the end of the sixth day.
+## answer_d
+Its inner cell mass is called embryoblast
+## explanation_d
+Correct. Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.
+
+Why this is right:
+- Once the morula reaches the uterine cavity the zona pellucida begins to degenerate, uterine fluid seeps between its cells, and the spaces run together into one cavity — the blastocele.
+- Its wall is a single layer of cells, the outer cell mass or trophoblast; the inner cell mass, or embryoblast, lies inside that wall against one side.
+## topic
+Embryology
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-28CF4D241BE607
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the parts of the blastocyst and reject the morula's properties.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q15. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1436
+## title
+Concerning the blastocyst, select the false answer: (2023) em em
+## question
+Concerning the blastocyst, select the false answer: (2023) em em
+## vignette
+This item asks the student to place the inner cell mass at the embryonic pole and nowhere else.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Its cavity is called the blastocele
+## explanation_a
+True, so not the false one. Blastocele is the name of the blastocyst's cavity.
+## answer_b
+Its wall is formed by outer cell mass
+## explanation_b
+True, so not the false one. The wall is one cell thick and is the outer cell mass, the trophoblast.
+## answer_c
+Its inner cell mass is located at its ab-embryonic pole. Ac ad
+## explanation_c
+Correct. The false statement, and the answer. The inner cell mass lies at the embryonic pole — the pole is named after it, so the two cannot be on opposite sides. A student picks this as true by remembering that one pole is called abembryonic and pairing it with the wrong structure.
+
+Why this is right:
+- Once the morula reaches the uterine cavity the zona pellucida begins to degenerate, uterine fluid seeps between its cells, and the spaces run together into one cavity — the blastocele.
+- Its wall is a single layer of cells, the outer cell mass or trophoblast; the inner cell mass, or embryoblast, lies inside that wall against one side.
+## answer_d
+Normally implants in the posterior wall of the fundus of the uterus
+## explanation_d
+True, so not the false one. Normal implantation is into the posterior wall of the fundus of the uterus.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-28CF4D241BE607
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the inner cell mass at the embryonic pole and nowhere else.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1437
+## title
+Trophoblast is the outer wall of: Ac ad Ac ad ad ad
+## question
+Trophoblast is the outer wall of: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to attach the trophoblast to the stage that actually has one.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Morula.
+## explanation_a
+The morula is a solid ball of blastomeres with no wall and no cavity, so it has no trophoblast to be the outer layer of. The trophoblast appears only when the blastocele opens up inside it.
+## answer_b
+Blastocyst.
+## explanation_b
+Correct. The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.
+
+Why this is right:
+- Once the morula reaches the uterine cavity the zona pellucida begins to degenerate, uterine fluid seeps between its cells, and the spaces run together into one cavity — the blastocele.
+- Its wall is a single layer of cells, the outer cell mass or trophoblast; the inner cell mass, or embryoblast, lies inside that wall against one side.
+## answer_c
+Chorionic vesicle.
+## explanation_c
+The chorionic vesicle is a later structure — the conceptus once the chorion has formed — and its wall is chorion, which is trophoblast plus extra-embryonic mesoderm, not trophoblast alone.
+## answer_d
+Placenta.
+## explanation_d
+The placenta is later still, and it is built from chorionic villi and decidua basalis together. Trophoblast contributes to it, but the placenta is not a vesicle with a trophoblast wall.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-28CF4D241BE607
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attach the trophoblast to the stage that actually has one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1438
+## title
+Placenta previa
+## question
+Placenta previa
+## vignette
+This item asks the student to separate the one abnormal intrauterine site from the ectopic ones.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Is the implantation of blastocyst in the lower segment of uterine cavity
+## explanation_a
+Correct. Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.
+
+Why this is right:
+- Abnormal implantation is of two kinds.
+## answer_b
+Is the implantation of blastocyst in the uterine tube
+## explanation_b
+Implantation in the uterine tube is tubal ectopic pregnancy — the commonest ectopic site, and the one that ruptures. It is chosen by students who read "abnormal site" as meaning "outside the uterus".
+## answer_c
+Is the implantation of blastocyst at the surface of ovary
+## explanation_c
+Implantation on the surface of the ovary is ovarian ectopic pregnancy, another site outside the uterine cavity.
+## answer_d
+Is the implantation of blastocyst in the pelvic cavity
+## explanation_d
+Implantation on the peritoneum is abdominal or omental ectopic pregnancy. Like B and C it is outside the uterus, whereas previa is inside it and merely too low.
+## topic
+Embryology
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-89FC3BBB3C9BCE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Separate the one abnormal intrauterine site from the ectopic ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q17. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1439
+## title
+Decidua basalis em em em em em
+## question
+Decidua basalis em em em em em
+## vignette
+This item asks the student to define decidua basalis by what lies on either side of it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is the post-Implantation endometrium at the lower segment of uterine cavity
+## explanation_a
+The lower uterine segment is where placenta previa implants. The decidua is named by its relation to the conceptus, not by which part of the uterus it is in.
+## answer_b
+It Is the covering of blastocyst after implantation
+## explanation_b
+The covering over the implanted conceptus is decidua capsularis. This is the classic swap, and it is the option that catches most students: basalis is beneath, capsularis is over.
+## answer_c
+It is the part of endometrium between the implanted blastocyst and myometrium
+## explanation_c
+Correct. Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.
+
+Why this is right:
+- The decidua is the functional layer of the endometrium after implantation, so named because it is shed at birth.
+## answer_d
+It is the endometrium that lines uterine cavity. Ac ad
+## explanation_d
+The endometrium lining the rest of the uterine cavity, away from the conceptus, is decidua parietalis. It fuses with the capsularis at about the fourth month.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Define decidua basalis by what lies on either side of it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1440
+## title
+The process of fusion between sperm and ovum is called:
+## question
+The process of fusion between sperm and ovum is called:
+## vignette
+This item asks the student to name the process by which sperm and ovum unite, and separate it from the three first-week processes it is most often confused with.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cleavage.
+## explanation_a
+Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The start of cleavage is one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.
+## answer_b
+Gastrulation.
+## explanation_b
+Gastrulation belongs to the third week, not the first. It is the formation of the three germ layers from the bilaminar disc, and the only thing it has in common with fertilisation is that both are single named events a student is asked to define.
+## answer_c
+Capacitation.
+## explanation_c
+Capacitation is a change in the sperm, not a fusion with the ovum — the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm’s passage through the female tract, which is what makes it able to fertilise. It is the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.
+## answer_d
+Fertilization.
+## explanation_d
+Correct. Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the process by which sperm and ovum unite, and separate it from the three first-week processes it is most often confused with.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q43. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book defines fertilization in exactly these words: "the process by which sperm and ovum unite to form a zygote".
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1441
+## title
+All of the followings are abnormal site of implantation except:
+## question
+All of the followings are abnormal site of implantation except:
+## vignette
+This item asks the student to list the abnormal sites of implantation, and recognise a site the blastocyst can never reach.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Internal os of the uterus.
+## explanation_a
+An abnormal site, and the commonest one that is still inside the uterus. Implantation at the internal os gives placenta previa, where the placenta lies over or beside the outlet the fetus has to come through.
+## answer_b
+Mesentery of small intestine.
+## explanation_b
+An abnormal site. An omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum — a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.
+## answer_c
+Lungs.
+## explanation_c
+Correct. This is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.
+
+Why this is right:
+- Abnormal implantation is of two kinds.
+## answer_d
+Uterine tube.
+## explanation_d
+An abnormal site, and the commonest ectopic pregnancy of all. Tubal implantation is divided into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-89FC3BBB3C9BCE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+List the abnormal sites of implantation, and recognise a site the blastocyst can never reach.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q53. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book’s abnormal sites are the lower uterine segment (placenta previa, at the internal os), and ectopic implantation — tubal, ovarian and omental, on the surface of the peritoneum. The internal os, the mesentery and the uterine tube are all on that list; the lung is not, and cannot be, because nothing carries a blastocyst there. This is also the option that was lost from the question-book printing of this question, `all-of-the-following-are-abnormal-sites-of-implantation-exce-cafc7147`, which is excluded there for exactly that reason.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1442
+## title
+Morulla is:
+## question
+Morulla is:
+## vignette
+This item asks the student to give the cell number at which the cleaving embryo is called a morula.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+2 cell's stage.
+## explanation_a
+The two-cell stage is the first day of cleavage and has no name of its own. It is offered first because a reader who has copied option a into the stem of the other printing of this question made exactly this mistake.
+## answer_b
+4 cell’s stage.
+## explanation_b
+Four blastomeres is the second day. Still a cleaving zygote, still inside an intact zona pellucida, and still not a morula.
+## answer_c
+8 cell’s stage.
+## explanation_c
+Eight blastomeres is the third day, and it is the most prominently stated figure, which is what makes this the strongest distractor — a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.
+## answer_d
+16 cell’s stage.
+## explanation_d
+Correct. At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.
+
+Why this is right:
+- The morula has no cavity and its zona pellucida is intact.
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FERTILIZATION
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the cell number at which the cleaving embryo is called a morula.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p5 q54. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives the cleavage sequence as 8 blastomeres on the third day, then 16 — the morula — then 32 and 64. The question-book printing of the same question, `morula-is-2022-vi-y-ad-ac-a-2-cell-s-stage-c7ed442b`, lost an option and is excluded in this file; this sat printing has all four.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1443
+## title
+Regarding formation of sperms
+## question
+Regarding formation of sperms
+## vignette
+This item asks the student to give the start and end of spermatogenesis.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Starts at birth and stopped at old age
+## explanation_a
+Starting at birth is the female pattern misapplied to the male, and even for the female it is a month too late — she starts in intrauterine life. Nothing about sperm begins at birth. This is the option one annotated printing of this question is keyed to in error.
+## answer_b
+Starts at birth and stopped at puberty
+## explanation_b
+Stopping at puberty is exactly backwards: puberty is when spermatogenesis begins, not when it ends.
+## answer_c
+Starts at puberty and continues till old. age
+## explanation_c
+Correct. Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.
+
+Why this is right:
+- Gametogenesis is the formation of gametes from primordial germ cells and takes place in the gonads.
+## answer_d
+Starts at old age and continues till death
+## explanation_d
+Starting at old age would leave a man infertile for most of his life. The option exists only to complete the four combinations of the two boundaries.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-623698E111AA4B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental timing
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the start and end of spermatogenesis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p87 q1. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1444
+## title
+Regarding oogenesis
+## question
+Regarding oogenesis
+## vignette
+This item asks the student to place the beginning of oogenesis before birth and name the arrest.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Starts at puberty and continues till age
+## explanation_a
+Starting at puberty is the male schedule. Picked by students who reason from menstruation backwards — but the oocytes were already there, arrested, long before the first period.
+## answer_b
+Starts at birth and continues till menopause
+## explanation_b
+The end is right and the beginning is wrong. Oogenesis does continue to the menopause, but it began in intrauterine life, not at birth — and that half-truth is what makes this the strongest distractor of the four.
+## answer_c
+Starts at birth and continues till puberty
+## explanation_c
+Ending at puberty would mean a woman had no oocytes left to ovulate. Puberty is where the arrested process resumes, not where it stops.
+## answer_d
+Starts in the intra-uterine life, then arrested to be continued at puberty
+## explanation_d
+Correct. Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.
+
+Why this is right:
+- Gametogenesis is the formation of gametes from primordial germ cells and takes place in the gonads.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-623698E111AA4B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Place the beginning of oogenesis before birth and name the arrest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q2; Anatomy MCQ Book [2025] [first priority].pdf p87 q2. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1445
+## title
+Sperm capacitation is
+## question
+Sperm capacitation is
+## vignette
+This item asks the student to define capacitation by what is removed rather than by what improves.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Increase the amount of acrosomal enzymes
+## explanation_a
+Capacitation does not add acrosomal enzymes; the hyaluronidase and acrosin are already in the acrosomal cap when the sperm is made. What changes is access to them.
+## answer_b
+Increase movement of the tail
+## explanation_b
+The sperm does become more active after capacitation, which is why this option is tempting and why one annotated printing of this question is keyed to it. But increased motility is a consequence, not the definition — the definition names what is taken away.
+## answer_c
+Decease amount of the cytoplasm
+## explanation_c
+The sperm shed most of their cytoplasm during spermiogenesis, in the testis, long before they reach the female tract.
+## answer_d
+Removal of glycoprotein coat from the head of the sperm
+## explanation_d
+Correct. Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Define capacitation by what is removed rather than by what improves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q8; Anatomy MCQ Book [2025] [first priority].pdf p88 q8. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1446
+## title
+Phase II of fertilization is
+## question
+Phase II of fertilization is
+## vignette
+This item asks the student to number the phases of fertilisation from the corona radiata inwards.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Dispersion of the corona radiata is Phase I. It is one place too early, and it is the answer of a student who has counted capacitation out of the sequence but not renumbered what follows.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation precedes the numbered phases entirely, and one annotated printing of this question is keyed to it in error. Counting it as Phase I shifts every subsequent phase by one, which is precisely the error this pair of questions is built to detect.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Opening the cell membrane of the oocyte is Phase III, the last of the three.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Correct. Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Number the phases of fertilisation from the corona radiata inwards.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q9; Anatomy MCQ Book [2025] [first priority].pdf p88 q9. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1447
+## title
+Phase III of fertilization is
+## question
+Phase III of fertilization is
+## vignette
+This item asks the student to name the third and last phase of fertilisation.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Penetration of the corona radiata is Phase I, done by hyaluronidase from the several hundred sperms that reach the ovum.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation is the preparation that precedes Phase I; it is not numbered among the three phases at all.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Correct. Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Penetration of the zona pellucida is Phase II. The two questions on this page differ by one word — II against III — and offer the same four options, so a student who has learnt the phases as an unordered list will get one of the pair wrong whichever way they guess.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the third and last phase of fertilisation.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q10; Anatomy MCQ Book [2025] [first priority].pdf p88 q10. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1448
+## title
+Cortical and :zona reactions occur
+## question
+Cortical and :zona reactions occur
+## vignette
+This item asks the student to time the block to polyspermy against the sperm's entry.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+After passage of sperms through corona radiate
+## explanation_a
+After the corona radiata is passed the sperm still has the zona pellucida ahead of it. Blocking other sperms at this point would be premature — the fertilising sperm has not yet arrived.
+## answer_b
+During sperm penetration of zona pellucida
+## explanation_b
+During zona penetration is one step too early for the same reason: several sperms may still be in the zona, and the block is not thrown until one of them is inside.
+## answer_c
+After entrance of the sperm to the cytoplasm of the ovum
+## explanation_c
+Correct. The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_d
+After formation of the zygote
+## explanation_d
+The zygote forms only when the two pronuclei fuse, hours later. If the block waited that long, polyspermy would already have happened.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Time the block to polyspermy against the sperm's entry.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q12; Anatomy MCQ Book [2025] [first priority].pdf p88 q12. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1449
+## title
+Zona reaction
+## question
+Zona reaction
+## vignette
+This item asks the student to define the zona reaction as the ovum's act, not the sperm's.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is the sperm penetration of zona pellucida
+## explanation_a
+That is Phase II, the sperm's acrosomal reaction. The zona reaction is the ovum's answer to it, and the two are easily transposed because both name the zona.
+## answer_b
+Occurs by release of lysosomal enzymes from cortical granules of the ovum
+## explanation_b
+Correct. The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.
+
+Why this is right:
+- Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third.
+- Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
+## answer_c
+Occurs after capacitation of the sperms
+## explanation_c
+It does occur after capacitation, but so does everything else in fertilisation, so this says nothing that identifies it. It is the option one annotated printing of this question is keyed to, and a statement that is true but not defining is the hardest kind of distractor to reject.
+## answer_d
+Is the degeneration of zona pellucida
+## explanation_d
+Degeneration of the zona pellucida is a later and quite separate event — it happens at the end of the fifth day, in the uterine cavity, so the blastocyst can hatch and implant.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-F33BB68138377B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Define the zona reaction as the ovum's act, not the sperm's.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q11; Anatomy MCQ Book [2025] [first priority].pdf p88 q11. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1450
+## title
+Sperm receptors are present on
+## question
+Sperm receptors are present on
+## vignette
+This item asks the student to place the sperm receptors on the correct covering of the ovum.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_b
+Corona radiata
+## explanation_b
+The corona radiata is the outermost covering, of follicular cells, and the sperm passes it by dissolving the hyaluronic acid between its cells rather than by binding a receptor. One annotated printing of this question is keyed to it in error.
+## answer_c
+Cell membrane
+## explanation_c
+The oocyte cell membrane is the innermost of the three coverings and is where Phase III happens — fusion, not binding. Binding has already selected one sperm by then.
+## answer_d
+Nuclear membrane
+## explanation_d
+The nuclear membrane is inside the oocyte altogether. A sperm that reached it would have passed everything the receptors exist to regulate.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Place the sperm receptors on the correct covering of the ovum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p87 q5. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1451
+## title
+Movement of the sperm depends on
+## question
+Movement of the sperm depends on
+## vignette
+This item asks the student to pair the part that generates the energy with the part that uses it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Acrosomal cap and tail
+## explanation_a
+The acrosomal cap carries hyaluronidase and acrosin, which dissolve a path through the ovum's coverings. It contributes nothing to movement — it is chemistry, not propulsion.
+## answer_b
+Mitochondrial sheath and tail
+## explanation_b
+Correct. The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_c
+Head and mitochondrial sheath
+## explanation_c
+The head carries the nucleus and the acrosome and is the passenger, not the engine. Half of this option is right, which is what makes it the most attractive wrong answer.
+## answer_d
+Head and acrosomal cap
+## explanation_d
+Neither the head nor the acrosomal cap has any motile apparatus. This pairs the two parts of the sperm that do the least moving.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Pair the part that generates the energy with the part that uses it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q4. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1452
+## title
+One of the following parts of sperm is responsible for production of energy
+## question
+One of the following parts of sperm is responsible for production of energy
+## vignette
+This item asks the student to separate the part that makes the energy from the part that spends it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Mitochondrial sheath
+## explanation_a
+Correct. The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_b
+Nucleus
+## explanation_b
+The nucleus carries the paternal chromosomes. It is condensed and transcriptionally quiet, and produces no energy at all.
+## answer_c
+Acrosomal cap
+## explanation_c
+The acrosomal cap is a specialised lysosome holding hyaluronidase and acrosin. It spends energy rather than producing it.
+## answer_d
+Tail
+## explanation_d
+The tail is what the energy is spent on, and it is the answer one annotated printing of this question is keyed to. The distinction the question is testing is exactly this one: the tail moves, the middle piece pays for it.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Separate the part that makes the energy from the part that spends it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q3. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1453
+## title
+‏ممم‎ IS the outer cover of the mature ovum
+## question
+‏ممم‎ IS the outer cover of the mature ovum
+## vignette
+This item asks the student to order the three coverings of the ovum from within outwards.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Zona pellucida
+## explanation_a
+The zona pellucida is the middle covering, between the cell membrane and the corona radiata. It is the one students name first because it is the one with the sperm receptors, and it is one layer short of the answer.
+## answer_b
+Cell membrane
+## explanation_b
+The cell membrane is the innermost of the three, in contact with the oocyte cytoplasm.
+## answer_c
+Corona radiata
+## explanation_c
+Correct. The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm's hyaluronidase is what disperses it.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_d
+Nuclear membrane. 7
+## explanation_d
+The nuclear membrane is inside the oocyte and is not one of its coverings at all.
+## topic
+Embryology
+## subtopic
+Gametes
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_f32859b80fb79d668010
+## learning_objective
+Order the three coverings of the ovum from within outwards.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf p2 q6. Manifest src_f32859b80fb79d668010.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key for this row. The department book gives the ovum three coverings from inner to outer — cell membrane, zona pellucida, corona radiata — so the outer cover is the corona radiata.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1454
+## title
+Cilia are present in all of the following EXCEPT:
+## question
+Cilia are present in all of the following EXCEPT:
+## vignette
+This item asks the student to distinguish a flagellum from a cilium by number and length, not by internal structure.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+trachea
+## explanation_a
+True, so not the exception. The trachea is lined by ciliated pseudostratified columnar epithelium.
+## answer_b
+bronchi
+## explanation_b
+True, so not the exception. The bronchi carry the same ciliated lining, part of the mucociliary escalator.
+## answer_c
+fallopian tube
+## explanation_c
+True, so not the exception. The cilia of the uterine tube help carry the ovum and then the embryo towards the uterus.
+## answer_d
+sperm
+## explanation_d
+Correct. The exception, and the answer. The sperm's tail is a flagellum, not a cilium. The two are built on the same 9+2 axoneme, which is what makes the option feel wrong to a student who has learnt the ultrastructure — they differ in that a cell has many short cilia and one long flagellum.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+Cytology
+## subtopic
+Gametes
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Distinguish a flagellum from a cilium by number and length, not by internal structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q59. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1455
+## title
+flagella are present in:
+## question
+flagella are present in:
+## vignette
+This item asks the student to name the one human cell with a flagellum.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+trachea
+## explanation_a
+The trachea has cilia — many short ones per cell — not a flagellum.
+## answer_b
+bronchi
+## explanation_b
+The bronchi likewise carry cilia. A flagellum would move the cell itself, which is not what a fixed epithelial cell needs.
+## answer_c
+fallopian tube
+## explanation_c
+The uterine tube is ciliated. Its cilia move the contents past a stationary cell, the opposite arrangement to the sperm's.
+## answer_d
+sperm
+## explanation_d
+Correct. The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+Cytology
+## subtopic
+Gametes
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name the one human cell with a flagellum.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q60. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1456
+## title
+During which stage of first meiotic division does crossing-over occur?
+## question
+During which stage of first meiotic division does crossing-over occur?
+## vignette
+This item asks the student to name the stage of the first meiotic division at which homologous chromosomes exchange segments.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+prophase
+## explanation_a
+Correct. Crossing-over happens in prophase of the first meiotic division — at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_b
+Metaphase
+## explanation_b
+Metaphase I is when the paired chromosomes line up on the equator of the spindle. The pairing that crossing-over needs has already happened by then, and this is the commonest wrong answer because students remember that meiosis pairs chromosomes and metaphase is where pairs are visible in a diagram.
+## answer_c
+anaphase
+## explanation_c
+Anaphase I is when the homologous chromosomes are pulled apart to opposite poles — the separation, not the exchange. It is also the stage at which failure of that separation, non-disjunction, produces gametes with the wrong chromosome number.
+## answer_d
+telophase
+## explanation_d
+Telophase I is the reforming of the nuclei around the two separated sets. By then the chromosomes are no longer in contact at all, so no exchange between them is possible.
+## topic
+Gametes
+## subtopic
+Gametes
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-GAMETES
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the stage of the first meiotic division at which homologous chromosomes exchange segments.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q32. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Filed here from the unassigned pile: the stem names no structure any leaf’s vocabulary matched, but crossing-over during the first meiotic division is gametogenesis and belongs to this leaf. The 2020 paper printed no key and the recovered answer sheet does not cover this source. The answer does not come from the department book either — the book teaches no meiosis at all, and that gap is recorded on this concept. It is set to prophase because crossing-over is by definition an event of prophase I, at the pachytene stage, when the homologous chromosomes are synapsed; the other three stages are each defined by an event that is not it, so only one option is defensible and a faculty reviewer is not needed to say which.
