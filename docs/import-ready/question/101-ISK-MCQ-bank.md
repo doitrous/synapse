@@ -152972,3 +152972,3663 @@ Department book MCQ, transcribed rather than derived.
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1514
+## title
+One of the functions of superficial fascia is:
+## question
+One of the functions of superficial fascia is:
+## vignette
+This item asks the student to separate a function of superficial fascia from three that belong to deep fascia.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Presence of skin muscles
+## explanation_a
+Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the standard example, and they are there precisely because the face has no deep fascia to hold them.
+
+Why this is right:
+- Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures.
+- It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+## answer_b
+Formation of aponeurosis
+## explanation_b
+An aponeurosis — palmar, plantar — is deep fascia. Tempting because both layers are connective tissue sheets, but only the deep layer is dense enough to make one.
+## answer_c
+Formation of broad sheets
+## explanation_c
+Broad sheets around muscle groups are the first of the five forms deep fascia takes. Superficial fascia surrounds nothing; it lies flat under the skin.
+## answer_d
+Formation of interosseous membranes
+## explanation_d
+Interosseous membranes are deep fascia, spanning between two bones to separate muscle groups. Superficial fascia never reaches bone.
+## topic
+Basis
+## subtopic
+Fascia
+## main_concept
+CON-MSK-2145D2D62EC401
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FASCIA
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Separate a function of superficial fascia from three that belong to deep fascia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q9. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1515
+## title
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## question
+Concerning the superﬁcial fascia, select the correct statement: (2018)
+## vignette
+This item asks the student to recognise the one property that belongs to superficial rather than deep fascia.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It contains fat.
+## explanation_a
+Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+
+Why this is right:
+- Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures.
+- It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+## answer_b
+It forms retinacula.
+## explanation_b
+Retinacula are localised transverse thickenings of *deep* fascia at the wrist and ankle. Picked by students who remember that a retinaculum is superficially placed, which is a statement about depth rather than about which layer it is made of.
+## answer_c
+It forms intermuscular septa.
+## explanation_c
+Intermuscular septa are deep fascia dipping between muscle groups. Superficial fascia has no septa; it does not descend between muscles at all.
+## answer_d
+It forms sheath around vessels.
+## explanation_d
+Sheaths around great vessels, such as the carotid sheath, are deep fascia. The superficial layer conducts vessels *to the skin* rather than wrapping the big ones, and that near-miss is what makes this the strongest distractor.
+## topic
+Fascia
+## subtopic
+Fascia
+## main_concept
+CON-MSK-2145D2D62EC401
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FASCIA
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise the one property that belongs to superficial rather than deep fascia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p4 q7; EOM ISK 101 195 Answers.pdf p5 q48; EOM ISK 101 - 2023.pdf p4 q50. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1516
+## title
+One of the functions of deep fascia is that it:
+## question
+One of the functions of deep fascia is that it:
+## vignette
+This item asks the student to separate a function of deep fascia from three that belong to superficial fascia.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Facilitates the movement of the skin
+## explanation_a
+Facilitating the movement of the skin over the structures beneath is a function of superficial fascia. Deep fascia is inelastic and anchors things rather than freeing them.
+## answer_b
+Prevents heat loss from the body
+## explanation_b
+Preventing heat loss is superficial fascia acting as a thermal insulator, and it does it with its fat. Deep fascia has no fat.
+## answer_c
+Contains many types of glands
+## explanation_c
+The glands — the mammary gland is the standard example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
+## answer_d
+Forms the interosseous membranes
+## explanation_d
+Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
+
+Why this is right:
+- Deep fascia is a non-elastic membrane of compact, regular collagen fibres, well defined in the limbs, very strong and thick in the palm and sole, and absent in the face and in the anterior abdominal wall.
+- Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall.
+## topic
+Basis
+## subtopic
+Fascia
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FASCIA
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Separate a function of deep fascia from three that belong to superficial fascia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q10. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1517
+## title
+The intermuscular septa and interosseous membranes:
+## question
+The intermuscular septa and interosseous membranes:
+## vignette
+This item asks the student to match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+Surrounding the muscles of the limbs is what the broad sheets of deep fascia do — the first of its five forms, and the one the septa arise from. The septa are what dips inward from those sheets, not the sheets themselves.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
+
+Why this is right:
+- Deep fascia is a non-elastic membrane of compact, regular collagen fibres, well defined in the limbs, very strong and thick in the palm and sole, and absent in the face and in the anterior abdominal wall.
+- Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+That is the retinaculum, printed here as a distractor because this leaf's four stems share one option block and each stem's answer is another stem's distractor.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Tough sheaths around big vessels are the carotid sheath and its like — the fifth form of deep fascia, not the septa.
+## topic
+Basis
+## subtopic
+Fascia
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FASCIA
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q11. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1518
+## title
+The retinacula:
+## question
+The retinacula:
+## vignette
+This item asks the student to match the retinacula to their job among the four forms of deep fascia.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Surround the muscles of the upper and lower limbs
+## explanation_a
+The broad sheets of deep fascia surround the limb muscles. A retinaculum is a band across a joint, not a sleeve around a muscle group.
+## answer_b
+Separate different groups of muscles which have different actions
+## explanation_b
+Separating muscle groups of different action is the work of the intermuscular septa, which is the answer to the neighbouring stem sharing this option block.
+## answer_c
+Are transverse thickened bands of deep fascia present at wrist joint
+## explanation_c
+Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
+
+Why this is right:
+- Deep fascia is a non-elastic membrane of compact, regular collagen fibres, well defined in the limbs, very strong and thick in the palm and sole, and absent in the face and in the anterior abdominal wall.
+- Deep fascia is an inelastic membrane of compact regular collagen fibres, well defined in the limbs and absent in the face and the anterior abdominal wall.
+## answer_d
+Form tough sheaths around big blood vessels
+## explanation_d
+Fibrous sheaths around great vessels — the carotid sheath — are a different form of deep fascia. Both are "wrappings", which is what makes this option worth printing.
+## topic
+Basis
+## subtopic
+Fascia
+## main_concept
+CON-MSK-6CD9FFF51AE9CD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Fascia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FASCIA
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Match the retinacula to their job among the four forms of deep fascia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q12. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1519
+## title
+All the statements concerned to the cell membrane are true EXCEPT:
+## question
+All the statements concerned to the cell membrane are true EXCEPT:
+## vignette
+This item asks the student to separate what the membrane is built of from what the electron microscope shows of it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is known as plasma lemma
+## explanation_a
+True, so not the exception. Plasmalemma is simply the other name for the plasma membrane.
+## answer_b
+All membranes of the cell have the same appearance
+## explanation_b
+True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, applied to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.
+## answer_c
+By E/M it is formed of bilayer
+## explanation_c
+Correct. The exception, and the answer. Bilayer describes how the phospholipid molecules are arranged, which is chemistry; what the electron microscope shows is three layers, because the osmium deposits in the two rows of hydrophilic heads and leaves the hydrophobic tails between them unstained. Answering with the molecular truth instead of the microscopic appearance is exactly the confusion the stem is set to catch.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_d
+Invisible by light microscope
+## explanation_d
+True, so not the exception. At 7.5–10 nm the membrane is far below the light microscope's 0.2 µm resolution, so it cannot be resolved and has to be shown indirectly with silver or PAS.
+## topic
+Cytology
+## subtopic
+Microscopes
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MICROSCOPES
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Separate what the membrane is built of from what the electron microscope shows of it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q12. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, which is also the taught statement: the two mitochondrial membranes and both layers of the nuclear envelope are "unit membranes", which is the statement that all the cell's membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1520
+## title
+Electron microscope OF Cell membrane
+## question
+Electron microscope OF Cell membrane
+## vignette
+This item asks the student to count the layers the electron microscope actually shows in the cell membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+bilaminar
+## explanation_a
+Bilaminar is the commonest wrong answer, taken from the phospholipid bilayer. The bilayer is the arrangement of the molecules; the image has one more layer than that.
+## answer_b
+trilaminar
+## explanation_b
+Correct. Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_c
+tetralaminar
+## explanation_c
+Tetralaminar describes nothing in the cell. Four layers would need two membranes, which is what a nuclear envelope or a mitochondrion has, not a cell membrane.
+## answer_d
+unilaminar
+## explanation_d
+Unilaminar would be a single line, which is what the membrane looks like at low magnification before the three layers separate. It is not what the electron microscope resolves.
+## topic
+Cytology
+## subtopic
+Microscopes
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MICROSCOPES
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Count the layers the electron microscope actually shows in the cell membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q10. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1521
+## title
+The resolution of TEM is about
+## question
+The resolution of TEM is about
+## vignette
+This item asks the student to give the resolution of the electron microscope in the correct unit.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+0.2 nm
+## explanation_a
+Correct. The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope's 0.2 µm.
+
+Why this is right:
+- Resolution power is the least distance between two points at which they can still be seen as two points and not one, and it is what actually limits a microscope.
+- The scanning electron microscope shows only surfaces, and it is the one that gives a three-dimensional image.
+## answer_b
+0.4 um
+## explanation_b
+0.4 µm is the wrong order of magnitude and the wrong figure: 0.2 µm is the light microscope, and no instrument in this chapter is quoted at 0.4.
+## answer_c
+0.2 mm
+## explanation_c
+0.2 mm is the resolution of the naked eye. Picked by students who remember the figure 0.2 and not which of the three it belongs to — all three resolutions are 0.2, and only the unit tells them apart.
+## answer_d
+0.4 mm
+## explanation_d
+0.4 mm is coarser than the naked eye, which would make an electron microscope worse than no microscope at all.
+## topic
+Cytology
+## subtopic
+Microscopes
+## main_concept
+CON-FND-DACB83532148D6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MICROSCOPES
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Give the resolution of the electron microscope in the correct unit.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q71. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1522
+## title
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## question
+Electron microscopic feature of cells responsible for steroid hormone secretion is:
+## vignette
+This item asks the student to name the organelle that identifies a steroid-secreting cell on electron microscopy.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Numerous proteasomes
+## explanation_a
+Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not part of this course's cytology chapter, and nothing about them is secretory.
+## answer_b
+Numerous ribosomes.
+## explanation_b
+Numerous free ribosomes mark a cell making protein for its own use. A steroid is a lipid, and no ribosome makes one.
+## answer_c
+Well - developed sER.
+## explanation_c
+Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.
+
+Why this is right:
+- A cell's organelle profile follows from its work, and the inference runs in both directions.
+## answer_d
+Well - developed rER.
+## explanation_d
+Well-developed rough endoplasmic reticulum is the protein-forming cell, and it is the answer to the sister question on this same paper. Swapping the two is the single mistake both items are built to catch.
+## topic
+Microscopes
+## subtopic
+Microscopes
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MICROSCOPES
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the organelle that identifies a steroid-secreting cell on electron microscopy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q4. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1523
+## title
+Electron microscopic feature of protein forming cells is:
+## question
+Electron microscopic feature of protein forming cells is:
+## vignette
+This item asks the student to name the organelle that identifies a protein-secreting cell on electron microscopy.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Numerous lysosomes.
+## explanation_a
+Numerous lysosomes mark a phagocyte: the macrophage, the neutrophil, the monocyte. A cell that digests is not a cell that builds.
+## answer_b
+Numerous peroxisomes.
+## explanation_b
+Numerous peroxisomes mark the liver and kidney cell, where they oxidise long-chain fatty acids. Their own enzymes are made on free ribosomes elsewhere in the cytoplasm.
+## answer_c
+Well - developed sER.
+## explanation_c
+Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cell, and it is the answer to the sister question on the same paper. It has no ribosomes at all, so it cannot make protein.
+## answer_d
+Well - developed rER.
+## explanation_d
+Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.
+
+Why this is right:
+- A cell's organelle profile follows from its work, and the inference runs in both directions.
+## topic
+Microscopes
+## subtopic
+Microscopes
+## main_concept
+CON-FND-7D25B3CB28F0F6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MICROSCOPES
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the organelle that identifies a protein-secreting cell on electron microscopy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q7. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer given here is: rough endoplasmic reticulum is sited in protein-forming cells — the plasma cell is the example — and it carries out protein synthesis, segregation, glycosylation and packing into transfer vesicles.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1524
+## title
+The skeletal muscles are:
+## question
+The skeletal muscles are:
+## vignette
+This item asks the student to identify the property that belongs to skeletal and not to smooth or cardiac muscle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Involuntary
+## explanation_a
+Involuntary control belongs to smooth and cardiac muscle. Skeletal muscle is the voluntary one, supplied by somatic nerves.
+## answer_b
+Present in the heart
+## explanation_b
+The muscle of the heart is cardiac muscle — striated like skeletal muscle, which is why students who go by appearance put them together, but involuntary and autonomically supplied.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+The wall of a blood vessel holds smooth muscle.
+## answer_d
+Attached to the bones
+## explanation_d
+Correct. Skeletal muscle is defined by its attachment to the skeleton, and it is the only one of the three with that attachment.
+
+Why this is right:
+- Muscle tissue is characterised by contraction — the ability of its fibres to shorten — and by structure and function there are three types.
+## topic
+Basis
+## subtopic
+Muscular system
+## main_concept
+CON-MSK-229AAD0C8626CF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Identify the property that belongs to skeletal and not to smooth or cardiac muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q37; Anatomy MCQ Book [2025] [first priority].pdf p7 q37. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1525
+## title
+The smooth muscles are:
+## question
+The smooth muscles are:
+## vignette
+This item asks the student to identify the site that belongs to smooth and not to skeletal or cardiac muscle.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Voluntary
+## explanation_a
+Smooth muscle is involuntary. Voluntary control is skeletal muscle, and this option is the exact inversion the paired question about skeletal muscle uses.
+## answer_b
+Present in the heart
+## explanation_b
+The heart is cardiac muscle. It is involuntary like smooth muscle, so a student who has learnt only "involuntary means smooth" takes this one — the striations are what separate them.
+## answer_c
+Present in the wall of blood vessels
+## explanation_c
+Correct. Smooth muscle is in the wall of blood vessels and of the viscera, has no striations, and is supplied by autonomic nerves.
+
+Why this is right:
+- Muscle tissue is characterised by contraction — the ability of its fibres to shorten — and by structure and function there are three types.
+## answer_d
+Attached to the bones
+## explanation_d
+Attachment to bone is skeletal muscle.
+## topic
+Basis
+## subtopic
+Muscular system
+## main_concept
+CON-MSK-229AAD0C8626CF
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Identify the site that belongs to smooth and not to skeletal or cardiac muscle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p6 q38; Anatomy MCQ Book [2025] [first priority].pdf p7 q38. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1526
+## title
+Deltoid muscle fibers are:
+## question
+Deltoid muscle fibers are:
+## vignette
+This item asks the student to classify the deltoid by the arrangement of its fibres.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Parallel muscle fibers
+## explanation_a
+Parallel or strap-like fibres run the whole length of the muscle, as in sartorius. Deltoid's fibres are short and set obliquely, which is why it is powerful over a short range rather than long-travelled.
+## answer_b
+Unipennate muscle fibers
+## explanation_b
+A unipennate muscle has its fibres on one side of a tendon, like the barbs on one edge of a feather — flexor pollicis longus is the example.
+## answer_c
+Multipennate muscle fibers
+## explanation_c
+Correct. Deltoid is the multipennate example: a series of bipennate units side by side, separated by tendinous septa, which is what lets a muscle of that size abduct the whole limb.
+
+Why this is right:
+- Skeletal muscles are classified by the arrangement of their fibres.
+## answer_d
+Circumpennate muscle fibers
+## explanation_d
+A circumpennate muscle is cylindrical, with a central tendon and bipennate units converging on it from all round — tibialis anterior. It is the closest class to multipennate, and the reason it is printed here.
+## topic
+Upper Limb
+## subtopic
+Muscular system
+## main_concept
+CON-MSK-888467E7C45479
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## resource_ids
+src_0f1171705349e98b44e6
+## learning_objective
+Classify the deltoid by the arrangement of its fibres.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p3 q17; Anatomy Question [Upper Limb] (1).pdf p20 q112; Anatomy MCQ Book [2025] [first priority].pdf p38 q112. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1527
+## title
+Which of the following terms describes a muscle that assists the prime mover in em em e…
+## question
+Which of the following terms describes a muscle that assists the prime mover in em em em em em performing its action? (2024)
+## vignette
+This item asks the student to name the muscle role that assists the prime mover rather than opposing it or holding it steady.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Agonist
+## explanation_a
+The agonist is the prime mover itself. The stem asks for a muscle that assists it, so a term meaning the same muscle cannot answer.
+## answer_b
+Antagonist
+## explanation_b
+The printed answer, and the reason for the override. The antagonist opposes the prime mover; it is the exact opposite of a muscle assisting it, and choosing it inverts the chapter's definition.
+## answer_c
+Synergist
+## explanation_c
+Correct. The override. The synergist contracts to eliminate unwanted movements at joints the prime mover crosses, so that the prime mover's action on the joint that matters becomes maximal — assistance by subtraction.
+
+Why this is right:
+- No purposeful movement is done by one muscle; a group acts together, and by role there are four types of muscle action.
+- The prime mover, or agonist, initiates and maintains the movement.
+- The antagonist opposes the action of the prime mover.
+## answer_d
+Fixator
+## explanation_d
+The fixator, or stabiliser, also assists — but by fixing the *origin* of the prime mover or the joint it acts on, not by working on the movement itself. It is the strongest distractor here and the reason this item is worth sitting.
+## topic
+Muscular system
+## subtopic
+Muscular system
+## main_concept
+CON-MSK-F598AF39FBE297
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the muscle role that assists the prime mover rather than opposing it or holding it steady.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries B, "Antagonist", which the definition contradicts in one line: the antagonist is the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist acts so that the prime mover's action becomes maximal.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1528
+## title
+Regarding the classification of the muscles according to the action, one of the followi…
+## question
+Regarding the classification of the muscles according to the action, one of the following is not true:
+## vignette
+This item asks the student to name the four roles a muscle can play in a movement, and recognise a term that belongs to joints rather than to muscles.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Prime mover.
+## explanation_a
+True as a type of muscle action: the prime mover, or agonist, is the muscle that initiates and maintains the movement.
+## answer_b
+Antagonist.
+## explanation_b
+True: the antagonist is the muscle that opposes the action of the prime mover. Students hesitate here because "opposing" sounds like something outside a classification of how muscles produce a movement — but a movement needs its brake as much as its motor.
+## answer_c
+Fixator.
+## explanation_c
+True: the fixator, or stabiliser, fixes the origin of the prime mover or steadies the joint it acts on, so that the pull has something to work against.
+## answer_d
+Symphysis.
+## explanation_d
+Correct. This is the one that is not true, and the answer. A symphysis is a secondary cartilaginous joint, such as the pubic symphysis or an intervertebral disc; it is a way of joining bones, not a role a muscle plays. The fourth muscle role the option displaces is the synergist, which cancels unwanted movement at the other joints the prime mover crosses.
+
+Why this is right:
+- No purposeful movement is done by one muscle; a group acts together, and by role there are four types of muscle action.
+- The prime mover, or agonist, initiates and maintains the movement.
+- The antagonist opposes the action of the prime mover.
+## topic
+Muscular system
+## subtopic
+Muscular system
+## main_concept
+CON-MSK-F598AF39FBE297
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Muscular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the four roles a muscle can play in a movement, and recognise a term that belongs to joints rather than to muscles.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q37. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Filed here rather than in `articular-system.ts`, where the slice put it on the word "symphysis": the question classifies muscles by action, and this leaf owns that concept. The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: there are exactly four types of muscle action — prime mover (agonist), antagonist, fixator (stabiliser) and synergist. A symphysis is a secondary cartilaginous joint and is on no list of muscle actions.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1529
+## title
+The right atrium receives blood from:
+## question
+The right atrium receives blood from:
+## vignette
+This item asks the student to name the vessels that empty into the right atrium.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Superior and inferior vena cava
+## explanation_a
+Correct. The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.
+
+Why this is right:
+- The heart lies behind the sternum and costal cartilages, about two-thirds of it to the left of the median plane, and has four chambers.
+- The right atrium receives deoxygenated blood from the whole body by the superior and inferior venae cavae and passes it through the tricuspid valve to the right ventricle.
+- The right ventricle sends it through the pulmonary valve into the pulmonary trunk and so to both lungs.
+## answer_b
+Pulmonary artery
+## explanation_b
+The pulmonary artery leaves the right ventricle for the lungs. Naming it here would reverse the direction of flow through the right heart.
+## answer_c
+Aorta
+## explanation_c
+The aorta leaves the left ventricle. It is the outflow of the other side of the heart entirely.
+## answer_d
+Pulmonary veins
+## explanation_d
+The four pulmonary veins are the trap, and a good one: they carry blood back to the heart, so a student thinking only "veins return blood" takes them. They return it to the *left* atrium, and the blood in them is oxygenated.
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## main_concept
+CON-MSK-655D74FEE1515A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the vessels that empty into the right atrium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q43; Anatomy MCQ Book [2025] [first priority].pdf p8 q43. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1530
+## title
+Regarding the systemic circulation, which of the following statements is true?
+## question
+Regarding the systemic circulation, which of the following statements is true?
+## vignette
+This item asks the student to identify the true statement about the systemic circulation.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The blood passes from the right ventricle to the right atrium
+## explanation_a
+Backwards through the right heart. Blood passes from the right atrium to the right ventricle, and in any case that is the start of the pulmonary circuit, not the systemic one.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium
+## explanation_b
+Half right, which is why it is printed. The veins do collect blood into the right atrium, but what they collect is deoxygenated blood — the oxygen was given up in the tissues, which is the point of the circuit.
+## answer_c
+Deoxygenated blood passes through the aorta to all tissues of the body
+## explanation_c
+The right vessel with the wrong blood. The aorta does carry blood to all the tissues, but it leaves the left ventricle and the blood in it is oxygenated.
+## answer_d
+Oxygenated blood passes through the aorta to all tissues of the body
+## explanation_d
+Correct. Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.
+
+Why this is right:
+- The systemic circulation carries oxygenated blood from the left ventricle through the aorta and its branches to all the tissues, where gases and materials are exchanged; the deoxygenated blood is collected by small then large veins and finally the venae cavae into the right atrium.
+- The pulmonary circulation carries deoxygenated blood from the right ventricle through the pulmonary artery and its two branches to both lungs, where gas exchange occurs, and the oxygenated blood returns by the four pulmonary veins to the left atrium.
+- The portal circulation carries venous blood from the stomach, spleen, pancreas and intestine in the portal vein, which enters the liver at the porta hepatis and divides into branches ending in the liver sinusoids; the blood leaves by the hepatic veins into the inferior vena cava.
+## topic
+Basis
+## subtopic
+Cardiovascular system
+## main_concept
+CON-MSK-A12FB50E90A64B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Identify the true statement about the systemic circulation.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p7 q44; Anatomy MCQ Book [2025] [first priority].pdf p8 q44; EOM first 2021 101 INT end of module.pdf p3 q16. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc, src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1531
+## title
+Regarding the pulmonary ‘circulation, which of the following statements is true? P a- T…
+## question
+Regarding the pulmonary ‘circulation, which of the following statements is true? P a- The blood passes from the right ventricle to the right atrium. P Vi ad
+## vignette
+This item asks the student to identify the true statement about the pulmonary circulation.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The blood passes from the right ventricle to the right atrium.
+## explanation_a
+Backwards. Blood passes from the right atrium to the right ventricle and out through the pulmonary valve; a ventricle never fills the atrium above it.
+## answer_b
+Oxygenated blood is collected by the veins into the right atrium.
+## explanation_b
+A description of the systemic circulation with the wrong blood in it. Veins do collect into the right atrium, but the blood they bring is deoxygenated.
+## answer_c
+Oxygenated blood returns from the lung to the left atrium.
+## explanation_c
+Correct. This is the overridden answer. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.
+
+Why this is right:
+- The systemic circulation carries oxygenated blood from the left ventricle through the aorta and its branches to all the tissues, where gases and materials are exchanged; the deoxygenated blood is collected by small then large veins and finally the venae cavae into the right atrium.
+- The pulmonary circulation carries deoxygenated blood from the right ventricle through the pulmonary artery and its two branches to both lungs, where gas exchange occurs, and the oxygenated blood returns by the four pulmonary veins to the left atrium.
+- The portal circulation carries venous blood from the stomach, spleen, pancreas and intestine in the portal vein, which enters the liver at the porta hepatis and divides into branches ending in the liver sinusoids; the blood leaves by the hepatic veins into the inferior vena cava.
+## answer_d
+Deoxygenated blood passes through the aorta to all tissues of the body.
+## explanation_d
+The aorta carries oxygenated blood, and it belongs to the systemic circulation. This option and B are the same swap made in opposite directions.
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## main_concept
+CON-MSK-A12FB50E90A64B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the true statement about the pulmonary circulation.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The "(DEP BOOK)" copy printed no key, and the only other printing of this question is too damaged to import. C is the department chapter's own account of the pulmonary circulation: oxygenated blood returns from both lungs to the left atrium by the four pulmonary veins. The other three options describe flows the chapter denies.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1532
+## title
+Regarding the portal circulation, which of the following statements is true? P
+## question
+Regarding the portal circulation, which of the following statements is true? P
+## vignette
+This item asks the student to say which vessel brings blood to the liver and which takes it away.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The venous blood from the digestive system enters the liver through the portal vein
+## explanation_a
+Correct. The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.
+
+Why this is right:
+- The systemic circulation carries oxygenated blood from the left ventricle through the aorta and its branches to all the tissues, where gases and materials are exchanged; the deoxygenated blood is collected by small then large veins and finally the venae cavae into the right atrium.
+- The pulmonary circulation carries deoxygenated blood from the right ventricle through the pulmonary artery and its two branches to both lungs, where gas exchange occurs, and the oxygenated blood returns by the four pulmonary veins to the left atrium.
+- The portal circulation carries venous blood from the stomach, spleen, pancreas and intestine in the portal vein, which enters the liver at the porta hepatis and divides into branches ending in the liver sinusoids; the blood leaves by the hepatic veins into the inferior vena cava.
+## answer_b
+The venous blood leaves the liver through the portal vein. ad
+## explanation_b
+The right vein, the wrong direction, and the commonest error in the leaf. The portal vein brings blood in; the hepatic veins take it out to the inferior vena cava.
+## answer_c
+The venous blood from the digestive system enters the liver through the hepatic vein
+## explanation_c
+The two names swapped. The hepatic vein is the exit, not the entrance, and this option differs from the answer by one word.
+## answer_d
+The venous blood enters the liver through the inferior vena cava
+## explanation_d
+The inferior vena cava is where portal blood ends up *after* the liver, by way of the hepatic veins. Nothing enters the liver from it.
+## topic
+Cardiovascular system
+## subtopic
+Cardiovascular system
+## main_concept
+CON-MSK-A12FB50E90A64B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-CARDIOVASCULAR-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Say which vessel brings blood to the liver and which takes it away.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p14 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `regarding-the-portal-circulation-which-of-the-following-stat-02876c54` is keyed A, and A is what the department chapter states: venous blood from the stomach, spleen, pancreas and intestine is collected into the portal vein, which enters the liver through the porta hepatis. This is the only copy in which options A and C are printed in full, so it is the only one in which that key can be acted on.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1533
+## title
+Fetal period starts at the beginning of
+## question
+Fetal period starts at the beginning of
+## vignette
+This item asks the student to convert the 9th week into the month it falls in.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+2"d month
+## explanation_a
+The 2nd month is weeks 5 to 8, which is the second half of the embryonic period — the organs are still being formed. Picked by students who count the eight embryonic weeks as one month.
+## answer_b
+3rd month
+## explanation_b
+Correct. The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.
+
+Why this is right:
+- The fetal period is the period from the beginning of the 9th week until birth.
+## answer_c
+4th month
+## explanation_c
+By the 4th month the fetus is already a month into the fetal period: lanugo hair is appearing and the external genitalia differentiated at the end of the previous month.
+## answer_d
+5th month
+## explanation_d
+The 5th month is when vernix caseosa appears and movements are first clearly felt — events within the fetal period, not its start.
+## topic
+Embryology
+## subtopic
+Fetal Period
+## main_concept
+CON-DEV-E273F775E9CB77
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental timing
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Convert the 9th week into the month it falls in.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q77. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1534
+## title
+At full term, the head of the fetus represent about
+## question
+At full term, the head of the fetus represent about
+## vignette
+This item asks the student to attach the right fraction to birth rather than to a mid-fetal stage.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+1/5 of the CH length
+## explanation_a
+One fifth is not one of the three figures at all. It reads plausibly because it lies between the newborn's quarter and the adult's eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.
+## answer_b
+1/6 of the CH length
+## explanation_b
+One sixth would make the newborn head nearer adult proportions than it is; the disproportionately large head is the whole point of the newborn figure.
+## answer_c
+1/3 of the CH length
+## explanation_c
+One third is the true figure for the beginning of the 5th month, taken against crown-heel length. It is the most tempting distractor here because it is the adjacent stage on the same measurement, and a student who has memorised the fractions without their dates will reach for it.
+## answer_d
+1/4 Of the CH length
+## explanation_d
+Correct. At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.
+
+Why this is right:
+- The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height.
+## topic
+Embryology
+## subtopic
+Fetal Period
+## main_concept
+CON-DEV-869FD1A9D3AEB7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Attach the right fraction to birth rather than to a mid-fetal stage.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p13 q79. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1535
+## title
+The weight of fetus at full tern'l ranges between
+## question
+The weight of fetus at full tern'l ranges between
+## vignette
+This item asks the student to give the full-term weight and recognise the preterm weights beside it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+900 - 1300 grams
+## explanation_a
+900–1300 g is the weight around 25–28 weeks — a fetus at the edge of viability, less than half of term weight.
+## answer_b
+1400- 2100 grams
+## explanation_b
+1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question is keyed to it in error.
+## answer_c
+3000 - 3400 grams
+## explanation_c
+Correct. A full-term fetus weighs 3000–3400 g, the last row of the growth table.
+
+Why this is right:
+- At full term — 38 weeks after fertilisation — the fetus weighs about 3000 to 3400 grams.
+## answer_d
+4600 - 5300 grams
+## explanation_d
+4600–5300 g is well above any normal birth weight; a baby of that size is macrosomic and a recognised complication, not the norm.
+## topic
+Embryology
+## subtopic
+Fetal Period
+## main_concept
+CON-DEV-B9581AAE767D2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the full-term weight and recognise the preterm weights beside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q78. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1536
+## title
+The weight of fetus at full term ranges between
+## question
+The weight of fetus at full term ranges between
+## vignette
+This item asks the student to give the full-term weight and recognise the preterm weights beside it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+900 - 1300 grams
+## explanation_a
+900–1300 g is the weight around 25–28 weeks. A term newborn of that weight would be severely growth-restricted.
+## answer_b
+1400 - 2100 grams
+## explanation_b
+1400–2100 g belongs to 28–32 weeks, a preterm fetus. It is the trap on this question, and it catches students because it is genuinely printed in the table they revised from — one row too high.
+## answer_c
+3000 - 3400 grams
+## explanation_c
+Correct. 3000–3400 g is the full-term weight.
+
+Why this is right:
+- At full term — 38 weeks after fertilisation — the fetus weighs about 3000 to 3400 grams.
+## answer_d
+4600 - 5300 grams
+## explanation_d
+4600–5300 g is macrosomia, seen with maternal diabetes; it is not the normal range.
+## topic
+Fetal Period
+## subtopic
+Fetal Period
+## main_concept
+CON-DEV-B9581AAE767D2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Give the full-term weight and recognise the preterm weights beside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p98 q78. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. The same question is printed elsewhere in the books keyed to C, 3000–3400 g, and that is the figure the growth table gives at term; the two annotated printings keyed to B are reading the 28–32 week row. Set to C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1537
+## title
+Bone marrow component which can be transplanted into Patients suffering from leukemia i…
+## question
+Bone marrow component which can be transplanted into Patients suffering from leukemia is ………..:
+## vignette
+This item asks the student to name the component of bone marrow that a transplant actually delivers.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Reticular cells
+## explanation_a
+Reticular cells and their fibres are the marrow's scaffolding. They support haemopoiesis but make no blood cell, so transplanting them would rebuild the shelving and leave it empty.
+## answer_b
+Blood sinusoids
+## explanation_b
+Blood sinusoids are the route out of the marrow, not the source. They are vessels of the recipient's own bone and are not transferred.
+## answer_c
+Fat cells
+## explanation_c
+Fat cells are what fills marrow as it becomes inactive — the opposite of what a leukaemic patient needs restored.
+## answer_d
+Haemopoietic stem cells
+## explanation_d
+Correct. The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.
+
+Why this is right:
+- Bone marrow transplantation infuses stem cells taken from a donor, or from the patient's own marrow, into a patient with a marrow disease such as leukaemia.
+## topic
+Blood
+## subtopic
+Haemopoiesis
+## main_concept
+CON-HEM-5E6C1744F798E1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the component of bone marrow that a transplant actually delivers.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p3 q21. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1538
+## title
+Fibroblast in the histology is a good example for:
+## question
+Fibroblast in the histology is a good example for:
+## vignette
+This item asks the student to recognise the fibroblast as the standard example of an actively synthesising cell rather than a free or a stem cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Active cells
+## explanation_a
+Correct. The active fibroblast is a textbook example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.
+
+Why this is right:
+- It becomes active again for wound healing.
+## answer_b
+Free C.T cells
+## explanation_b
+The fibroblast is a resident — fixed — connective tissue cell, long-lived and staying where it is. The free, transient cells of connective tissue are the plasma cells and the leukocytes that arrive from the blood.
+## answer_c
+Steroid secreting cells
+## explanation_c
+A steroid-secreting cell is recognised by abundant smooth endoplasmic reticulum, tubular mitochondria and lipid droplets. The fibroblast secretes protein — collagen and ground substance — and has rough ER instead.
+## answer_d
+Undifferentiated stem cells
+## explanation_d
+Tempting because the fibroblast comes from an undifferentiated mesenchymal cell, but it is the differentiated product, not the stem cell. The undifferentiated stem cells of connective tissue are the mesenchymal cells and the pericytes.
+## topic
+Connective Tissue
+## subtopic
+Haemopoiesis
+## main_concept
+CON-FND-E15318FC4CE3A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Recognise the fibroblast as the standard example of an actively synthesising cell rather than a free or a stem cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p2 q9. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1539
+## title
+Which bone marrow component increases markedly as hematopoietic activity decreases?
+## question
+Which bone marrow component increases markedly as hematopoietic activity decreases?
+## vignette
+This item asks the student to predict what replaces haemopoietic tissue in the marrow as its activity falls.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fat cells
+## explanation_a
+Correct. Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.
+
+Why this is right:
+- Bone marrow is myeloid tissue and is of two kinds.
+- Red marrow is active and forms blood cells; it fills most bones in children and, in the adult, the flat, short and irregular bones.
+## answer_b
+Erythrocyte
+## explanation_b
+Erythrocytes are a product of haemopoiesis, so they fall with it, not rise. They are also finished cells that leave the marrow through the sinusoids rather than accumulating in it.
+## answer_c
+Hematopoietic cords
+## explanation_c
+The haemopoietic cords are the haemopoietic tissue itself. Saying they increase as haemopoiesis decreases contradicts the stem — a trap for a student reading only the words "bone marrow component".
+## answer_d
+stem cells
+## explanation_d
+Stem cells are the source of haemopoiesis. Their numbers do not swell to fill an inactive marrow; the space is taken by fat.
+## topic
+Blood
+## subtopic
+Haemopoiesis
+## main_concept
+CON-HEM-AEB2E6C6E8A423
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Predict what replaces haemopoietic tissue in the marrow as its activity falls.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p4 q20. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1540
+## title
+Potentially renewable cells:
+## question
+Potentially renewable cells:
+## vignette
+This item asks the student to define a potentially renewable cell population and separate it from a renewing one and from end cells.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Continuously replaced from stem cells.
+## explanation_a
+Continuous replacement from stem cells is a renewing population — blood, epidermis, the lining of the gut. The word the stem turns on is "potentially": these cells are not being replaced continuously, they are held in reserve.
+## answer_b
+Are end cells
+## explanation_b
+End cells are a static population: neurons and cardiac muscle, which have left the cycle for good and are never replaced. That is the opposite of potentially renewable, and it is the option for a student reading "potentially" as "not actually".
+## answer_c
+Have a transient exit from cell cycle in G2 phase.
+## explanation_c
+The right idea with the wrong phase. A cell that leaves the cycle transiently leaves it in the resting phase after mitosis, not in G2 — G2 is the gap between DNA replication and mitosis, and a cell that has already copied its DNA is committed to dividing rather than resting.
+## answer_d
+Return to continue cell cycle on need for replacement
+## explanation_d
+Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.
+
+Why this is right:
+- Tissues are grouped by how their cells replace themselves.
+## topic
+Haemopoiesis
+## subtopic
+Haemopoiesis
+## main_concept
+CON-HEM-25C4304A1DB441
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-HAEMOPOIESIS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Define a potentially renewable cell population and separate it from a renewing one and from end cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q31. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither a printed key nor a recovered highlight covers this row, and the department book does not settle it either: it teaches no classification of cell populations at all — the chapter covers bone marrow structure, the reticulocyte and the megakaryocyte and nothing else. The answer is therefore not from a key and not from the book, but from the standard three-way grouping the item is built on, in which the potentially renewable cell is the one that has left the cycle reversibly and returns to it when replacement is needed. Option c is the same statement with G2 substituted for the resting phase, which is what marks it as the examiner's intended trap. The concept carries a `gaps` note recording that no source this faculty would accept supports the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1541
+## title
+Segmentation of somites starts at
+## question
+Segmentation of somites starts at
+## vignette
+This item asks the student to name where somite segmentation begins and infer the direction it runs.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Occipital region
+## explanation_a
+Correct. Segmentation begins at the occipital region and extends caudally from there.
+
+Why this is right:
+- The paraxial mesoderm, lying on both sides of the notochord and the neural tube, divides transversely into segments called somites.
+- Segmentation begins at the occipital region and extends caudally to the coccygeal region, so the occipital somites are the oldest and the coccygeal the youngest.
+- Cephalic to the first occipital somite the paraxial mesoderm forms smaller unsegmented masses called somitomeres.
+## answer_b
+Cervical region
+## explanation_b
+The cervical region is the first one most students think of, because the vertebral column is usually recited from the neck down. Segmentation has already passed through four occipital pairs by the time it reaches it.
+## answer_c
+Thoracic region
+## explanation_c
+The thoracic somites are the largest group, twelve pairs, which makes them memorable — but they are third in order, not first.
+## answer_d
+Lumbar region
+## explanation_d
+The lumbar region is nearly the end of the sequence. If segmentation began there the occipital and cervical somites would be the youngest, and the whole craniocaudal gradient of development would run backwards.
+## topic
+Embryology
+## subtopic
+Embryonic Period
+## main_concept
+CON-DEV-8F17D9869A6D15
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental timing
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name where somite segmentation begins and infer the direction it runs.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q41. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1542
+## title
+At the occipital region, the embryo has ........... somites,
+## question
+At the occipital region, the embryo has ........... somites,
+## vignette
+This item asks the student to give the number of occipital somite pairs from the regional list.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Four
+## explanation_a
+Correct. Four pairs of occipital somites, the first of the six regional groups and the first to segment.
+
+Why this is right:
+- The paraxial mesoderm, lying on both sides of the notochord and the neural tube, divides transversely into segments called somites.
+- Segmentation begins at the occipital region and extends caudally to the coccygeal region, so the occipital somites are the oldest and the coccygeal the youngest.
+- Cephalic to the first occipital somite the paraxial mesoderm forms smaller unsegmented masses called somitomeres.
+## answer_b
+Six
+## explanation_b
+Six is not a count in the regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.
+## answer_c
+Three
+## explanation_c
+Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit close together and are easily transposed.
+## answer_d
+Five
+## explanation_d
+Five is the count for both the lumbar and the sacral regions, and a student who has learnt the list as a run of numbers rather than as region-to-number pairs will often land on it.
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## main_concept
+CON-DEV-8F17D9869A6D15
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Give the number of occipital somite pairs from the regional list.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q43. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question in the books carries a key. The department book's regional list on page 88 gives 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8–10 coccygeal pairs, so the answer is four.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1543
+## title
+The age of an embryo with 16 pairs of somites is
+## question
+The age of an embryo with 16 pairs of somites is
+## vignette
+This item asks the student to apply the somite-age formula rather than estimating.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+23 days. 1
+## explanation_a
+23 days is what comes out if the twenty-day starting point is kept but the three-pairs-a-day rate is applied to the wrong quantity — it corresponds to about ten somites, not sixteen.
+## answer_b
+24 days
+## explanation_b
+24 days is one day short, the answer of a student who divides sixteen by three and rounds down instead of subtracting the first pair before dividing. The "− 1" in the formula exists because the first pair marks day 20 itself.
+## answer_c
+25 days
+## explanation_c
+Correct. (16 − 1)/3 + 20 = 25 days.
+
+Why this is right:
+- The intra-embryonic mesoderm divides into its three parts on the 17th gestational day.
+- The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period.
+- Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present.
+## answer_d
+26 days
+## explanation_d
+26 days is one day long, from dividing sixteen by three and rounding up. Both neighbours are printed deliberately: the question is testing the arithmetic, not the recall.
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## main_concept
+CON-DEV-3AB7E19B99F387
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Calculation
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Apply the somite-age formula rather than estimating.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q42. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question in the books carries a key. The department book's formula on page 88 is age in days = (number of somites − 1)/3 + 20, which for 16 somites gives (16 − 1)/3 + 20 = 5 + 20 = 25 days.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1544
+## title
+One statement is true:
+## question
+One statement is true:
+## vignette
+This item asks the student to get the direction of the modification right: an epithelial cell takes on a sensory function, rather than a nerve cell becoming epithelial.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Neuroepithelium is a special type of nerve cells modified to epithelium
+## explanation_a
+The modification runs the other way. This option makes the cell a nerve cell first, which would put the tissue in the nervous system; neuro-epithelium is classed among the four types of *epithelial* tissue.
+## answer_b
+Neuroepithelium is a special type of epithelium modified to sensory function
+## explanation_b
+Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors and receive the stimulus of a sensation — the standard definition, and the taste bud is its example.
+
+Why this is right:
+- Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation.
+- The example the book gives is the taste buds of the tongue, which receive the sensation of taste.
+## answer_c
+Neuroepithelium means that nerve and epithelium are of the same origin
+## explanation_c
+A statement about embryology rather than about structure. Some epithelia are ectodermal, as the nervous system is, but shared origin is not what the term neuro-epithelium asserts, and no such claim is made.
+## answer_d
+Neuroepithelium means that epithelium develop from the nerve
+## explanation_d
+The most tempting wrong answer, because it sounds like a mechanism. Nothing develops from the nerve here; the epithelium is already epithelium and acquires a receptor function without changing what it is.
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Get the direction of the modification right: an epithelial cell takes on a sensory function, rather than a nerve cell becoming epithelial.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q75. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1545
+## title
+The epithelium forming the taste buds is:
+## question
+The epithelium forming the taste buds is:
+## vignette
+This item asks the student to classify the taste bud as neuro-epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Neuroepithelium
+## explanation_a
+Correct. The taste bud is the classic example of neuro-epithelium: epithelial cells modified as receptors for the sensation of taste.
+
+Why this is right:
+- Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation.
+- The example the book gives is the taste buds of the tongue, which receive the sensation of taste.
+## answer_b
+Glandular epithelium
+## explanation_b
+Glandular epithelium secretes. Chosen because the tongue does carry glands — the serous glands of von Ebner empty into the trough around the taste bud — but the bud itself receives, it does not secrete.
+## answer_c
+simple epithelium
+## explanation_c
+Simple epithelium is a classification by layer count within *surface* epithelium, so this answers a different question entirely. It also cannot be right on its own terms: the taste bud sits within a stratified squamous covering.
+## answer_d
+stratified epithelium
+## explanation_d
+The epithelium around the taste bud is indeed stratified squamous, which is what makes this attractive. The question asks what forms the bud, not what surrounds it.
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Classify the taste bud as neuro-epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q76. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1546
+## title
+the taste bud is an example of:
+## question
+the taste bud is an example of:
+## vignette
+This item asks the student to classify the taste bud as neuro-epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+glandular epithelium
+## explanation_a
+Glandular epithelium is modified to secrete. The taste bud is modified to receive, which is the other of the four classes.
+## answer_b
+absorptive epithelium
+## explanation_b
+Absorptive epithelium is not one of the four classes at all. It is a description of what simple columnar epithelium does in the gut, borrowed here as a plausible-sounding category.
+## answer_c
+neuro epithelium
+## explanation_c
+Correct. Neuro-epithelium is epithelium modified as a receptor, and the taste bud is the standard example.
+
+Why this is right:
+- Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation.
+- The example the book gives is the taste buds of the tongue, which receive the sensation of taste.
+## answer_d
+endothelium
+## explanation_d
+Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart. It has nothing to do with sensation, and is picked when "endo-" and "neuro-" are treated as interchangeable prefixes rather than read.
+## topic
+Epithelium
+## subtopic
+Neuro Epithelium
+## main_concept
+CON-FND-B6BD265FBD8B5F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Neuro Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NEURO-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Classify the taste bud as neuro-epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q14. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1547
+## title
+The right lymphatic duct drains:
+## question
+The right lymphatic duct drains:
+## vignette
+This item asks the student to state what the right lymphatic duct drains.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The whole body below the diaphragm
+## explanation_a
+The whole body below the diaphragm drains to the thoracic duct, both sides of it. This is the option that catches a student who has divided the body into a right half and a left half.
+## answer_b
+The right lower limb
+## explanation_b
+The right lower limb is below the diaphragm and therefore thoracic duct territory. Its being on the right side is exactly the resemblance that makes this wrong.
+## answer_c
+The right upper limb
+## explanation_c
+Correct. The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.
+
+Why this is right:
+- All the lymph vessels of the body are collected into two large lymph ducts in the root of the neck, each opening into a large vein there.
+- The right lymphatic duct drains the right side of the head and neck, the right half of the thorax and the right upper limb — the right upper quadrant of the body and nothing else.
+- The thoracic duct drains everything that is left: the left side of the head and neck, the left upper limb, the left half of the thorax, and the whole of the body below the diaphragm.
+## answer_d
+The right half of the abdomen
+## explanation_d
+The right half of the abdomen is below the diaphragm, so it too goes to the thoracic duct. Three of the four options are on the right side of the body, which is what makes the question a test of the diaphragm rather than of the midline.
+## topic
+Basis
+## subtopic
+Lymphatic system
+## main_concept
+CON-MSK-BF3670E27D6F12
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+State what the right lymphatic duct drains.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p8 q48. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1548
+## title
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## question
+Concerning the lymph vessels of body, choose the correct answer; (IPKA). Ac
+## vignette
+This item asks the student to identify the true statement about lymph vessels among three that invert a stated character.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Afferent vessels carry lymph away from lymph nodes.
+## explanation_a
+Reversed. Afferent vessels carry lymph *to* the node, opening into its periphery at the convex border; it is the efferent vessels, leaving the hilum, that carry it away. The prefixes are the whole distinction and they are easy to swap under time pressure.
+## answer_b
+Right bronchomediastinal lymph trunk carry lymph from right side thorax and upper surface of the liver left lobe.
+## explanation_b
+The right bronchomediastinal trunk is not described in this chapter, which stops at the two great ducts in the root of the neck. An option naming a structure the course does not teach cannot be the answer a first-year examiner intends, and the detail it adds about the left lobe of the liver is there to look authoritative.
+## answer_c
+End blindly in tissue spaces and contain wide pores but do not have valves.
+## explanation_c
+Half of this is the chapter's own wording — lymph vessels do end blindly in the tissue spaces and do have wide pores — and the last four words reverse it. They have many valves, which is what makes lymph flow in one direction. A statement that is three-quarters true is the hardest kind of distractor.
+## answer_d
+Absent in brain, spinal cord, bone marrow and avascular structures.
+## explanation_d
+Correct. This is the overridden answer. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.
+
+Why this is right:
+- Lymph vessels are fine vessels beginning blindly in the tissue spaces and uniting into larger vessels that reach the lymph nodes.
+- Afferent vessels open into the periphery of a lymph node at its convex border and carry lymph to it; efferent vessels emerge from the hilum and carry lymph away.
+- They are absent from the brain and spinal cord, from bone marrow, and from avascular structures such as cartilage, cornea and hair.
+## topic
+Lymphatic system
+## subtopic
+Lymphatic system
+## main_concept
+CON-MSK-8EFC3649B7898F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Lymphatic system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-LYMPHATIC-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Identify the true statement about lymph vessels among three that invert a stated character.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p15 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the department chapter's own list, word for word — lymph vessels are absent in brain and spinal cord, bone marrow and avascular structures such as cartilage, cornea and hair. A and C each invert a character the chapter states, and B concerns a trunk the chapter never describes.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1549
+## title
+myoepithelial cells are characterized by the following EXCEPT:
+## question
+myoepithelial cells are characterized by the following EXCEPT:
+## vignette
+This item asks the student to place the myo-epithelial cell at the base of the secretory cell, against the basement membrane, and not at its apex.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+are contractile cells
+## explanation_a
+True, so not the exception. Contraction is what the "myo-" in myo-epithelium names, and it is the whole of what the cell does: it squeezes the secretory cells so their secretion is driven into the duct.
+## answer_b
+present between base of cells & their basement membrane
+## explanation_b
+True, so not the exception. The cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.
+## answer_c
+present between apex of cells & their basement membrane
+## explanation_c
+Correct. The exception, and the answer. Picked by students who remember only that the cell lies against the basement membrane and do not check which surface that membrane is on. The basement membrane is by definition at the basal surface, so there is no space between it and the apex for anything to occupy.
+
+Why this is right:
+- Myo-epithelium is a special type of epithelium modified to contract.
+- They are found around the acini of the salivary glands, the mammary glands and the sweat glands.
+## answer_d
+None of the above
+## explanation_d
+A "none of the above" cannot be the exception when a genuinely false statement is on the list. It attracts students who could not separate B from C and hedged rather than choosing between them.
+## topic
+Epithelium
+## subtopic
+Myo Epithelium
+## main_concept
+CON-FND-38ABCC4E4E4E68
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Myo Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MYO-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Place the myo-epithelial cell at the base of the secretory cell, against the basement membrane, and not at its apex.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p9 q72. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
