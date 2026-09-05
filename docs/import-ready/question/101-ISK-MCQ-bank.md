@@ -149732,3 +149732,3243 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1482
+## title
+Anatomical position is: Vi
+## question
+Anatomical position is: Vi
+## vignette
+This item asks the student to pick the full statement of the anatomical erect position from four near-identical postures.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+A term used to refer to the body facing forwards and sitting down.
+## explanation_a
+Sitting is not the reference. A position that changes with the chair could not be a reference for describing anything; the anatomical position is standing, and it is fixed.
+## answer_b
+The position in which the body Is lying down with feet parallel and arms by the sides.
+## explanation_b
+Lying down with the arms at the sides is the supine position, named separately. It is a clinical posture, not the reference posture.
+## answer_c
+The position in which the body is erect, facing front with feet parallel and arms hanging at the sides with the palms facing forwards.
+## explanation_c
+Correct. This is complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
+
+Why this is right:
+- The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally.
+## answer_d
+The position in which the body is erect, facing forward with feet parallel and arms hanging at the sides with palms facing backwards.
+## explanation_d
+Identical to C except that the palms face backwards — which is where they naturally hang, and therefore the option a student who has never noticed the detail will pick. In the anatomical position the forearms are supinated so the palms face forwards and the thumbs point laterally.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-D193498AB94D21
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Pick the full statement of the anatomical erect position from four near-identical postures.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The identical row `anatomical-position-is-ebd3fee8`, asked twice, is keyed C — and this is the only copy in which C and D are printed in full, so it is the only copy in which the key can be acted on at all.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1483
+## title
+The following statement describes the anatomical position:
+## question
+The following statement describes the anatomical position:
+## vignette
+This item asks the student to identify the one statement about the anatomical position that is true, given three that invert a detail of it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The eyes are looking backwards
+## explanation_a
+Reversed. The eyes look forwards; a body facing one way with the eyes looking the other is not a posture anyone could hold, which is what makes this the easiest option to eliminate.
+## answer_b
+The upper limbs are hanging by the sides
+## explanation_b
+Correct. The upper limbs hang by the sides — the only one of the four statements printed as given.
+
+Why this is right:
+- The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally.
+## answer_c
+The palms are facing backwards
+## explanation_c
+Reversed, and the commonest error in this leaf. The palms face forwards, not backwards; this is the one element of the position that is not the way a body naturally stands.
+## answer_d
+The thumbs are directed medially
+## explanation_d
+Reversed. The thumbs are directed laterally, which follows from the palms facing forwards. A student who put the palms backwards will put the thumbs medially too, so the two errors travel together.
+## topic
+Basis
+## subtopic
+Introduction
+## main_concept
+CON-MSK-D193498AB94D21
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Identify the one statement about the anatomical position that is true, given three that invert a detail of it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p2 q1. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1484
+## title
+The plane which divides the body into 2 equal halves right and left is:
+## question
+The plane which divides the body into 2 equal halves right and left is:
+## vignette
+This item asks the student to name the plane that divides the body into equal right and left halves.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Median plane
+## explanation_a
+Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
+
+Why this is right:
+- The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves.
+- The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back.
+- The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
+## answer_b
+Coronal plane
+## explanation_b
+The coronal plane is vertical too, which is why it is picked. It divides the body into anterior and posterior parts, not right and left.
+## answer_c
+Paramedian plane
+## explanation_c
+The trap the word "equal" is in the stem for. The paramedian plane is parallel to the median plane and near it, so it also gives a right and a left part — unequal ones.
+## answer_d
+Horizontal plane. Vi P ad
+## explanation_d
+The horizontal plane cuts across the body into an upper and a lower part. It divides nothing into right and left.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the plane that divides the body into equal right and left halves.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p2 q3. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. Its twin `the-plane-which-divides-the-body-into-2-equal-halves-right-a-8f461c93` is keyed A, and A is what the department book states: the median (sagittal) plane passes in the midline and gives equal right and left halves.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1485
+## title
+A plane which separates the body into an anterior and posterior part is called a: (2024…
+## question
+A plane which separates the body into an anterior and posterior part is called a: (2024). y y
+## vignette
+This item asks the student to name the plane that separates the body into an anterior and a posterior part.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Median plane.
+## explanation_a
+The median plane is vertical like the coronal, but it separates right from left.
+## answer_b
+Sagittal plane.
+## explanation_b
+"Sagittal" is the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
+## answer_c
+Horizontal plane.
+## explanation_c
+The horizontal plane gives an upper and a lower part. A student picks it when reading "separates the body into two parts" and stopping there.
+## answer_d
+Coronal plane.
+## explanation_d
+Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
+
+Why this is right:
+- The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves.
+- The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back.
+- The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the plane that separates the body into an anterior and a posterior part.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The department book defines the coronal (frontal) plane as the one cutting the body vertically into an anterior part towards the front and a posterior part towards the back, so D is the only option that answers the stem.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1486
+## title
+Which of the following is true about the coronal plane?
+## question
+Which of the following is true about the coronal plane?
+## vignette
+This item asks the student to say both what the coronal plane cuts and which way it runs.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It is a horizontal plane
+## explanation_a
+The coronal plane is vertical, not horizontal. This option and C are the same error stated twice, which is a sign that neither is the answer.
+## answer_b
+It divides the body into anterior and posterior halves
+## explanation_b
+Correct. In the exact wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The wording says "parts"; only a plane through the exact mid-thickness of the body would give halves.
+
+Why this is right:
+- The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves.
+- The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back.
+- The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
+## answer_c
+It cuts the body into upper and lower halves
+## explanation_c
+Upper and lower is the horizontal (transverse) plane. Picked by students who remember that the coronal plane is a cross-section of some kind without remembering which way it faces.
+## answer_d
+It is a vertical plane that divides the body into 2 equal right and left halves
+## explanation_d
+A correct definition of the median plane, offered under the coronal plane's name. Both are vertical, which is what makes the swap tempting.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Say both what the coronal plane cuts and which way it runs.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p2 q4. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only true statement: the coronal plane divides the body into an anterior and a posterior part. The book says "parts" rather than "halves", and the item's wording is looser than the book's, but no other option is defensible — A and C describe the horizontal plane and D the median.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1487
+## title
+The anatomical term that means "away from the median plane" is:
+## question
+The anatomical term that means "away from the median plane" is:
+## vignette
+This item asks the student to give the term for a position away from the median plane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lateral
+## explanation_a
+Correct. Lateral is away from the median plane; medial is towards it.
+
+Why this is right:
+- There are fourteen terms of position.
+## answer_b
+Medial
+## explanation_b
+The exact opposite, and the option a student picks by matching the words "median" and "medial" rather than reading the direction.
+## answer_c
+Distal
+## explanation_c
+Distal is away from the root of the limb, not away from the midline. Both mean "further out", which is why the two pairs are confused; they measure from different reference points.
+## answer_d
+Proximal
+## explanation_d
+Proximal is nearer the root of the limb — the wrong axis and the wrong direction at once.
+## topic
+Basis
+## subtopic
+Introduction
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Give the term for a position away from the median plane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p2 q5. Manifest src_51fef9b6234c5d381f59, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1488
+## title
+The anatomical term that means "nearer to the root of the limb" is:
+## question
+The anatomical term that means "nearer to the root of the limb" is:
+## vignette
+This item asks the student to give the term for a position nearer the root of the limb.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Lateral
+## explanation_a
+Lateral is measured from the median plane of the body, not along the limb.
+## answer_b
+Medial
+## explanation_b
+Medial is the other half of that same pair, and belongs to the trunk axis rather than the limb axis.
+## answer_c
+Distal
+## explanation_c
+The exact opposite: distal is away from the root of the limb. A student who reads only "root" and answers by feel takes this half the time.
+## answer_d
+Proximal
+## explanation_d
+Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
+
+Why this is right:
+- There are fourteen terms of position.
+## topic
+Basis
+## subtopic
+Introduction
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Give the term for a position nearer the root of the limb.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q6. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1489
+## title
+Near to the median plane is: em em
+## question
+Near to the median plane is: em em
+## vignette
+This item asks the student to give the term for a position nearer the median plane.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Lateral
+## explanation_a
+Lateral is the opposite — away from the median plane.
+## answer_b
+Proximal
+## explanation_b
+Proximal is measured along a limb, from its root, not from the midline of the body.
+## answer_c
+Medial
+## explanation_c
+Correct. This is the overridden answer. Medial is nearer to the median plane; median itself is exactly in the midline.
+
+Why this is right:
+- There are fourteen terms of position.
+## answer_d
+Inferior
+## explanation_d
+The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-A0C1F50FABDC0F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the term for a position nearer the median plane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p3 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, "Inferior", which cannot stand: inferior means lower, and has nothing to do with the median plane. The department book's own table of terms of position gives medial as "nearer the median plane", so the answer is C. The extractor appears to have read a page mark rather than a key.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1490
+## title
+Regarding the anatomical planes, choose the correct answer:
+## question
+Regarding the anatomical planes, choose the correct answer:
+## vignette
+This item asks the student to say which of the anatomical planes divides the body into two equal halves, and which two parts each of the others leaves behind.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Sagittal plane divides the body into two equal halves upper and lower.
+## explanation_a
+A sagittal plane is vertical and never divides upper from lower. This is the option that pairs the right plane name with the wrong pair of parts, and it is the easiest of the four to eliminate.
+## answer_b
+Coronal plane divides the body into two equal halves anterior and posterior.
+## explanation_b
+The coronal plane does divide the body into anterior and posterior parts, but not into equal halves — the definition says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.
+## answer_c
+Sagittal plane divides the body into two equal halves right and left.
+## explanation_c
+Correct. The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves — which is why it is named separately.
+
+Why this is right:
+- The median (sagittal) plane is the vertical plane passing in the midline of the body, dividing it into equal right and left halves; a paramedian plane is parallel to it and near it, and therefore gives unequal halves.
+- The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back.
+- The horizontal (transverse) plane runs horizontally, cutting the body into an upper (superior) and a lower (inferior) part.
+## answer_d
+Transvers plane divides the body into two equal halves upper and lower.
+## explanation_d
+The transverse (horizontal) plane divides the body into upper and lower parts, but again not equal ones: it can be taken at any level. It fails on the same word as option b.
+## topic
+Introduction
+## subtopic
+Introduction
+## main_concept
+CON-MSK-EE7CDEF8ACA587
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Introduction
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-INTRODUCTION
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Say which of the anatomical planes divides the body into two equal halves, and which two parts each of the others leaves behind.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q38. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book defines the median (sagittal) plane as the vertical plane in the midline "dividing it into equal right and left halves" — the only one of the four planes it describes with the word equal. Of the coronal plane it says only that it cuts the body into an anterior and a posterior part, and of the horizontal plane into an upper and a lower part, with no claim of equality; that single word is what separates option c from options b and d.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1491
+## title
+Regarding the elbow joint, choose the correct answer:
+## question
+Regarding the elbow joint, choose the correct answer:
+## vignette
+This item asks the student to name the bones that form the elbow, classify it, and say what the capsule is and is not attached to.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is formed by articulation of the lower end of humerus and the upper ends
+## explanation_a
+Correct. Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow a textbook example of a compound joint.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_b
+Its flexion is produced by corobrachialis
+## explanation_b
+Coracobrachialis crosses the shoulder, not the elbow: it runs from the coracoid process to the middle of the humeral shaft and so cannot flex the elbow. Picked because its name contains "brachii" territory and it is learnt beside biceps, which does flex the elbow.
+## answer_c
+Its capsule is attached to the head of radius
+## explanation_c
+The capsule is attached to the neck of the radius through the anular ligament, deliberately not to the head. Anything anchored to the head would stop it spinning and abolish pronation and supination.
+## answer_d
+It is a synovial joint of pivot
+## explanation_d
+The classic swap. The pivot in this region is the superior radio-ulnar joint, which shares the elbow's capsule but is a separate joint; the elbow itself is a uniaxial hinge, held to flexion and extension by strong collateral ligaments.
+## topic
+Upper Limb
+## subtopic
+Articular system
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Name the bones that form the elbow, classify it, and say what the capsule is and is not attached to.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p13 q72; Anatomy MCQ Book [2025] [first priority].pdf p31 q72. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1492
+## title
+An example of a secondary cartilaginous joint. Ac P Vi a- Intervertebral
+## question
+An example of a secondary cartilaginous joint. Ac P Vi a- Intervertebral
+## vignette
+This item asks the student to recognise a secondary cartilaginous joint by its midline position and fibrocartilaginous disc.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Intervertebral.
+## explanation_a
+Correct. Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.
+
+Why this is right:
+- A primary cartilaginous joint (synchondrosis) unites bones by hyaline cartilage, is usually temporary and ossifies with growth, and permits no movement — the epiphyseal plate is the type example.
+## answer_b
+Skull sutures.
+## explanation_b
+A skull suture is fibrous, not cartilaginous: the bones are held by a thin sutural ligament, and it is immobile. Picked by students who remember only that sutures are not synovial.
+## answer_c
+Sacroiliac.
+## explanation_c
+The sacroiliac joint tempts because it is axial and barely mobile, so it feels like a symphysis. It is a synovial plane joint, and the pubic symphysis — not the sacroiliac — is the pelvic secondary cartilaginous joint.
+## answer_d
+Distal tibioﬁbular.
+## explanation_d
+The distal (inferior) tibio-fibular joint is a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-8863ACD7E8D790
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise a secondary cartilaginous joint by its midline position and fibrocartilaginous disc.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p12 q25. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, the sacroiliac joint, which is wrong: the sacroiliac is a synovial plane joint anteriorly with a posterior syndesmosis, and carries no fibrocartilaginous disc. The intervertebral joint is the department book's own named example of a secondary cartilaginous joint, and the option-list bleed in the stem shows the list itself began "a- Intervertebral".
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1493
+## title
+In what joint is the root of the tooth attached to a periodontal ligament and held into…
+## question
+In what joint is the root of the tooth attached to a periodontal ligament and held into a tooth socket (2024). y y
+## vignette
+This item asks the student to attach the periodontal ligament to gomphosis and to no other fibrous joint.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gomphosis.
+## explanation_a
+Correct. A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.
+
+Why this is right:
+- A fibrous joint is a joint in which the bone surfaces are connected by fibrous tissue and which is fixed or immobile.
+## answer_b
+Suture.
+## explanation_b
+A suture also uses a fibrous ligament, the sutural ligament, but it unites two flat skull bones edge to edge, not a peg in a hole. Picked by students who group all three fibrous joints under "skull".
+## answer_c
+Syndemosis.
+## explanation_c
+Syndesmosis is the third fibrous type and is held by an interosseous ligament, as between the lower ends of tibia and fibula. It is the printed key here and it is wrong: no tooth is involved.
+## answer_d
+Serrate suture.
+## explanation_d
+Not a separate class — a serrate suture is one shape of suture, and adding the shape does not make it a tooth joint. Chosen when the longer, more technical-sounding option is assumed to be the more precise one.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-17E2267FB4758F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attach the periodontal ligament to gomphosis and to no other fibrous joint.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p12 q23. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, syndesmosis. The stem gives the definition of a gomphosis word for word — a tooth root held in its socket by the periodontal ligament — and syndesmosis is the interosseous-ligament type at the inferior tibio-fibular joint. The same question elsewhere in this leaf is keyed A.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1494
+## title
+One of the following is a character of the secondary cartilaginous joint. Ac P. P Vi a-…
+## question
+One of the following is a character of the secondary cartilaginous joint. Ac P. P Vi a- It is a temporary
+## vignette
+This item asks the student to separate the characters of the secondary cartilaginous joint from those of the primary and of the synovial joint.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is a temporary.
+## explanation_a
+Temporary belongs to the primary cartilaginous joint, which ossifies with growth — the epiphyseal plate is gone by adulthood. A symphysis is permanent, and this is the single most common swap in the pair.
+## answer_b
+It is immobile.
+## explanation_b
+Immobile is again the primary joint. The secondary joint's fibrocartilaginous disc is elastic, and that elasticity is exactly what gives it its limited movement.
+## answer_c
+It is present in the midline.
+## explanation_c
+Correct. Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is their defining character.
+
+Why this is right:
+- A primary cartilaginous joint (synchondrosis) unites bones by hyaline cartilage, is usually temporary and ossifies with growth, and permits no movement — the epiphyseal plate is the type example.
+## answer_d
+It has a potential cavity.
+## explanation_d
+The printed key, and the trap: a potential cavity is a synovial joint character. A cartilaginous joint has cartilage between the bones and therefore no cavity, potential or otherwise.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-8863ACD7E8D790
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the characters of the secondary cartilaginous joint from those of the primary and of the synovial joint.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p10 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints D, a potential cavity, which belongs to the synovial joint and to no cartilaginous joint at all. Being midline is the department book's stated character of the secondary cartilaginous joint; temporary and immobile are the primary's.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1495
+## title
+Regarding characters of the synovial joint, one is wrong : (2022)
+## question
+Regarding characters of the synovial joint, one is wrong : (2022)
+## vignette
+This item asks the student to state which cartilage covers an articular surface and why it is not elastic.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It has a joint cavity.
+## explanation_a
+True, so not the wrong one. The joint cavity is one of the seven components, potential rather than open, and holding only a film of fluid.
+## answer_b
+It has a ﬁbrous capsule.
+## explanation_b
+True, so not the wrong one, and the printed key is wrong to name it. The fibrous capsule surrounds the joint, is lined by synovial membrane and is what the ligaments strengthen.
+## answer_c
+The articular surfaces of the bones are covered by yellow elastic cartilage.
+## explanation_c
+Correct. The wrong statement, and the answer. Articular cartilage is hyaline: smooth, avascular, without nerves, nourished from the synovial fluid. Yellow elastic cartilage is the pinna and epiglottis, and a surface that bends would not hold a joint.
+
+Why this is right:
+- A synovial joint is freely mobile and present mostly in the limbs.
+## answer_d
+It has supportive ligaments.
+## explanation_d
+True, so not the wrong one. Capsular, extracapsular and intracapsular ligaments are the sixth component and the chief factor in the joint's stability.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-1E40050F141F4C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+State which cartilage covers an articular surface and why it is not elastic.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16; EOM ISK End 101 — 2022.pdf p4 q47. Manifest src_08bc782553366518791e, src_a54bbf7a625ba2b172fc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints B, the fibrous capsule, which is the first of the seven components and plainly a true character. The false statement is C: articular cartilage is hyaline, not yellow elastic — elastic cartilage is found in the pinna and epiglottis and never on an articular surface.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1496
+## title
+What is the type of joint that connects the roots of the teeth to their sockets? ad
+## question
+What is the type of joint that connects the roots of the teeth to their sockets? ad
+## vignette
+This item asks the student to name the joint between a tooth root and its socket.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Gomphosis
+## explanation_a
+Correct. Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.
+
+Why this is right:
+- A fibrous joint is a joint in which the bone surfaces are connected by fibrous tissue and which is fixed or immobile.
+## answer_b
+Sutures. y
+## explanation_b
+A suture is fibrous too, and the maxilla the tooth sits in is a skull bone — which is what makes this tempting. A suture unites two bones edge to edge; a tooth is not a bone of the vault.
+## answer_c
+Sacroiliac joint
+## explanation_c
+The sacroiliac joint is synovial and pelvic, and appears here only as filler. Chosen when a student recognises none of the terms and picks the joint they can name.
+## answer_d
+Synovial. em Ac
+## explanation_d
+Synovial is the freely mobile class with a capsule and a cavity. A tooth that moved freely in its socket would be a tooth about to be lost, which is the point of the periodontal ligament being fibrous.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-17E2267FB4758F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the joint between a tooth root and its socket.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q19. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1497
+## title
+Which of the following contains a joint cavity? (2021)
+## question
+Which of the following contains a joint cavity? (2021)
+## vignette
+This item asks the student to recognise that a joint cavity is the property of a synovial joint alone.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Knee joint.
+## explanation_a
+Correct. The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.
+
+Why this is right:
+- A synovial joint is freely mobile and present mostly in the limbs.
+## answer_b
+intervertebral disc.
+## explanation_b
+The intervertebral joint is a secondary cartilaginous joint, whose fibrocartilaginous disc fills the space entirely. Picked by students who imagine the nucleus pulposus as fluid in a cavity — it is a gel within cartilage, with no synovial lining.
+## answer_c
+Suture.
+## explanation_c
+A suture is fibrous and the bones are held edge to edge by a sutural ligament, with no gap at all. In old age it does not open; it ossifies shut.
+## answer_d
+Inferior tibioﬁbular.
+## explanation_d
+The inferior tibio-fibular joint is a syndesmosis, held by an interosseous ligament. Chosen because a ligament between two bones suggests a gap, but the ligament fills it.
+## topic
+Articular system
+## subtopic
+Articular system
+## main_concept
+CON-MSK-1E40050F141F4C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Recognise that a joint cavity is the property of a synovial joint alone.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18; EOM ISK 101 195 Answers.pdf p4 q45. Manifest src_08bc782553366518791e, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Of the four, only the knee is synovial, and a joint cavity — even a potential one — exists in no other class of joint.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1498
+## title
+Which of the following is true in respect to the elbow joint? (2022)
+## question
+Which of the following is true in respect to the elbow joint? (2022)
+## vignette
+This item asks the student to give the ligaments, the type, and the vessels and nerves of the elbow, and reject the ones borrowed from elsewhere.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is strengthened by the radial and ulnar collateral ligaments
+## explanation_a
+Correct. The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.
+
+Why this is right:
+- The elbow is a synovial joint of hinge type, between the trochlea and capitulum of the humerus above and the trochlear notch of the ulna and the head of the radius below.
+## answer_b
+It is a plane type of synovial joint
+## explanation_b
+A plane joint has flat surfaces and gliding movement without an axis — the intercarpal and superior tibio-fibular joints. The elbow has a trochlea articulating with a trochlear notch, which is the definition of a hinge.
+## answer_c
+It is supplied by the cephalic and basilic arteries
+## explanation_c
+The cephalic and basilic are veins, not arteries, and they are superficial veins of the limb that supply nothing. The elbow is supplied by the anastomosis around it, from the brachial, profunda brachii, radial and ulnar arteries.
+## answer_d
+It is innervated by the median and axillary nerves
+## explanation_d
+The axillary nerve serves the shoulder, not the elbow; the elbow is supplied by branches of the musculocutaneous, radial, median and ulnar nerves — the nerves of the muscles that move it, which is Hilton's law. Picked by pairing the one elbow-crossing nerve in the list with a familiar name.
+## topic
+Upper Limb
+## subtopic
+Articular system
+## main_concept
+CON-MSK-782A87EC05EF74
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## resource_ids
+src_b7301bfcd7d002317e40
+## learning_objective
+Give the ligaments, the type, and the vessels and nerves of the elbow, and reject the ones borrowed from elsewhere.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p160 q2. Manifest src_b7301bfcd7d002317e40.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The near-identical row `which-of-the-following-is-true-in-respect-to-the-elbow-joint-b4b873c4` is keyed A, and A is the only true statement of the four: the radial and ulnar collateral ligaments are the elbow's named ligaments.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1499
+## title
+Desmin intermediate filaments are present:
+## question
+Desmin intermediate filaments are present:
+## vignette
+This item asks the student to attach desmin to muscle and say what it holds together there.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+In hair
+## explanation_a
+Hair is keratin. Picked because both are tough structural proteins, but keratin is the epithelial filament and desmin is not found in hair at all.
+## answer_b
+In muscle to join the myofibrils
+## explanation_b
+Correct. Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.
+
+Why this is right:
+- Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue.
+## answer_c
+In neurons
+## explanation_c
+Neurons carry neurofilaments. The four options here are the four tissue-specific filaments, and each question in this set moves the same list on by one.
+## answer_d
+In glial tissue
+## explanation_d
+Glial cells carry glial fibrillary acidic protein, which is the filament a pathologist stains to prove a brain tumour is glial.
+## topic
+Histology-general
+## subtopic
+Nervous system
+## main_concept
+CON-FND-6268E97A4A9F26
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Attach desmin to muscle and say what it holds together there.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q40; Cytology | Module 101 questions.pdf.pdf p28 q40. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1500
+## title
+Neural tube gives rise to
+## question
+Neural tube gives rise to
+## vignette
+This item asks the student to give the neural tube its one derivative and hand the rest to the neural crest.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Peripheral nerves
+## explanation_a
+Peripheral nerves grow from cells of the neural crest and from motor cells whose axons leave the cord; the tube itself does not become them. Picked because nerve and cord look continuous in a dissection.
+## answer_b
+Sensory, sympathetic and parasympathetic ganglia
+## explanation_b
+All three ganglia are neural crest derivatives, which is the single most examined fact in this pair. The crest separates from the folds as they fuse and migrates away; the tube stays behind.
+## answer_c
+Suprarenal medulla
+## explanation_c
+The suprarenal medulla is also neural crest — its chromaffin cells are modified postganglionic sympathetic neurons, which is why it secretes adrenaline on sympathetic command.
+## answer_d
+Central nervous system
+## explanation_d
+Correct. The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.
+
+Why this is right:
+- The neural plate of ectoderm, induced by the underlying notochord, sinks as a neural groove whose lips are the neural folds.
+## topic
+Embryology
+## subtopic
+Nervous system
+## main_concept
+CON-DEV-785CE84F7C03DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the neural tube its one derivative and hand the rest to the neural crest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q38; Anatomy MCQ Book [2025] [first priority].pdf p92 q38. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1501
+## title
+One of the following is a derivative of intra-embryonic mesoderm
+## question
+One of the following is a derivative of intra-embryonic mesoderm
+## vignette
+This item asks the student to assign each offered structure to its germ layer and pick the mesodermal one.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lining epithelium of intestine
+## explanation_a
+The lining epithelium of the intestine is endoderm. Its muscle and connective tissue coats are splanchnopleuric mesoderm, and the question asks about the lining, which is the distinction being tested.
+## answer_b
+Urogenital system
+## explanation_b
+Correct. The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.
+
+Why this is right:
+- The intra-embryonic mesoderm arises from the primitive streak and divides into three on each side of the midline: paraxial mesoderm beside the notochord and neural tube, from the cranial part of the streak, which segments into somites and so into the vertebrae, the dermis and the skeletal muscles; intermediate mesoderm, from the middle of the streak, which forms the urogenital system; and lateral plate mesoderm, from the caudal part, which the coelom splits into somatopleuric mesoderm forming the trunk wall connective tissue and the parietal serous layers and splanchnopleuric mesoderm forming the connective tissue and smooth muscle of gut and respiratory tract, cardiac muscle and the visceral serous layers.
+## answer_c
+Central nervous system
+## explanation_c
+The central nervous system is ectoderm, by way of the neural tube. Chosen because the notochord that induces it is mesodermal, but the induced tissue keeps its own layer.
+## answer_d
+Connecting stalk
+## explanation_d
+The connecting stalk is extra-embryonic mesoderm, outside the embryo proper and destined for the umbilical cord. The stem says intra-embryonic, and that word is the whole question.
+## topic
+Embryology
+## subtopic
+Nervous system
+## main_concept
+CON-DEV-2E3E3098D90C0C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Assign each offered structure to its germ layer and pick the mesodermal one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p8 q50; Anatomy MCQ Book [2025] [first priority].pdf p94 q50. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only the urogenital system is mesodermal — it comes from the intermediate mesoderm. The intestinal lining is endodermal, the central nervous system ectodermal, and the connecting stalk extra-embryonic rather than intra-embryonic mesoderm.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1502
+## title
+Keratin filaments are present in:
+## question
+Keratin filaments are present in:
+## vignette
+This item asks the student to attach cytokeratin to epithelium and to the keratinised structures epithelium makes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Epithelial cells and form hair
+## explanation_a
+Correct. Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.
+
+Why this is right:
+- Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue.
+## answer_b
+Connective tissue
+## explanation_b
+Connective tissue carries vimentin. The two are the pair a pathologist uses to tell a carcinoma from a sarcoma, so swapping them reverses the diagnosis.
+## answer_c
+Neurons
+## explanation_c
+Neurons carry neurofilaments, not keratin.
+## answer_d
+Glial tissue
+## explanation_d
+Glial cells carry glial fibrillary acidic protein, not keratin.
+## topic
+Cytology
+## subtopic
+Nervous system
+## main_concept
+CON-FND-6268E97A4A9F26
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Attach cytokeratin to epithelium and to the keratinised structures epithelium makes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p28 q38. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1503
+## title
+Neurofilaments are present in:
+## question
+Neurofilaments are present in:
+## vignette
+This item asks the student to attach neurofilaments to the neuron and not to the glia beside it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epidermis & hair.
+## explanation_a
+Epidermis and hair carry cytokeratin. Chosen when the four options of this recurring set are answered in the wrong order.
+## answer_b
+C.T.
+## explanation_b
+Connective tissue carries vimentin.
+## answer_c
+Neurons.
+## explanation_c
+Correct. Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.
+
+Why this is right:
+- Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue.
+## answer_d
+Glial tissue.
+## explanation_d
+The nearest miss, and the one worth knowing: glial tissue has its own intermediate filament, glial fibrillary acidic protein, distinct from the neurofilaments of the neuron it supports. That distinctness is what makes the stain diagnostic.
+## topic
+Histology-general
+## subtopic
+Nervous system
+## main_concept
+CON-FND-6268E97A4A9F26
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Attach neurofilaments to the neuron and not to the glia beside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q39. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The name is the answer: neurofilaments are the intermediate filament of neurons, and the other three options carry keratin, vimentin and glial fibrillary acidic protein respectively.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1504
+## title
+Sensory, sympathetic and parasympathetic ganglia are developed from
+## question
+Sensory, sympathetic and parasympathetic ganglia are developed from
+## vignette
+This item asks the student to give the peripheral ganglia to the neural crest.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Neural crest
+## explanation_a
+Correct. Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.
+
+Why this is right:
+- The neural plate of ectoderm, induced by the underlying notochord, sinks as a neural groove whose lips are the neural folds.
+## answer_b
+Neural tube. P
+## explanation_b
+The neural tube gives the central nervous system only. Picked because the ganglia lie so close to the cord and because tube and crest arise in one movement.
+## answer_c
+Surface ectoderm
+## explanation_c
+Surface ectoderm forms the epidermis, and the printed key names it here — evidently carried over from the "epidermis of skin is derived from" question that follows it in these books.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+Intra-embryonic mesoderm forms bone, muscle and the urogenital system, no nervous tissue at all. Nervous tissue is ectodermal throughout.
+## topic
+Nervous system
+## subtopic
+Nervous system
+## main_concept
+CON-DEV-785CE84F7C03DB
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the peripheral ganglia to the neural crest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p123 q13. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, surface ectoderm, which is what forms the epidermis and is the key belonging to the neighbouring question on that page. All three ganglia are neural crest derivatives, and the book's own list of ectodermal derivatives puts them under "derivatives of the neural crest".
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1505
+## title
+The segments of the spinal cord are:
+## question
+The segments of the spinal cord are:
+## vignette
+This item asks the student to give the number of spinal cord segments in each region.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+8 cervical, 10 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_a
+Ten thoracic segments, when there are twelve. Picked by students who half-remember the count and correct the wrong number: it is the cervical eight that is the odd one, not the thoracic twelve.
+## answer_b
+10 cervical, 12 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_b
+Ten cervical segments, when there are eight. Chosen by rounding the odd number to a tidier one.
+## answer_c
+8 cervical, 12 thoracic, 5 lumbar, one sacral and one coccygeal
+## explanation_c
+One sacral segment, when there are five. The sacral segments matter: the parasympathetic nuclei of the lateral horn sit in the second, third and fourth of them.
+## answer_d
+8 cervical, 12 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_d
+Correct. Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.
+
+Why this is right:
+- It is divided into 31 segments — 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 1 coccygeal — each giving one pair of spinal nerves.
+- In section it has outer white matter carrying the nervous tracts, inner H-shaped grey matter of nerve cells, and a central canal.
+- The grey matter forms two dorsal horns with sensory nuclei, two ventral horns with motor nuclei, and two lateral horns holding sympathetic nuclei in the thoracic and upper two lumbar segments and parasympathetic nuclei in the second, third and fourth sacral segments.
+## topic
+Basis
+## subtopic
+Nervous system
+## main_concept
+CON-MSK-59F41C4BAF6181
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Give the number of spinal cord segments in each region.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p9 q51. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1506
+## title
+Vimentin intermediate filaments are present in:
+## question
+Vimentin intermediate filaments are present in:
+## vignette
+This item asks the student to attach vimentin to connective tissue and muscle, and say why muscle appears in two answers of this set.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Hair
+## explanation_a
+Hair is keratin, the epithelial filament.
+## answer_b
+C.T. & muscle
+## explanation_b
+Correct. Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.
+
+Why this is right:
+- Intermediate filaments are 8–10 nm across, between the microfilaments and the microtubules in size, and are formed by the polymerisation of tetrameric subunits that differ chemically from tissue to tissue.
+## answer_c
+Neurons
+## explanation_c
+Neurons carry neurofilaments.
+## answer_d
+Glial tissue
+## explanation_d
+Glial tissue carries glial fibrillary acidic protein. Muscle appears in both the vimentin and the desmin answers of this set, and that is not an error: muscle carries vimentin as a mesenchymal tissue and desmin as its own specialised filament.
+## topic
+Histology-general
+## subtopic
+Nervous system
+## main_concept
+CON-FND-6268E97A4A9F26
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Attach vimentin to connective tissue and muscle, and say why muscle appears in two answers of this set.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p4 q37. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Vimentin is the intermediate filament of connective tissue and of muscle, which is exactly what B states; the other three options name the tissues of keratin, neurofilaments and glial fibrillary acidic protein.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1507
+## title
+One of the following structures lies deep to the extensor retinaculum:
+## question
+One of the following structures lies deep to the extensor retinaculum:
+## vignette
+This item asks the student to separate the tendons that pass through the compartments of the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The basilic vein
+## explanation_a
+The basilic vein is not at the wrist at all — it begins at the medial end of the dorsal venous arch and is already in the forearm by the time the retinaculum is reached. Superficial veins never dive beneath a retinaculum; they lie in the superficial fascia.
+## answer_b
+The dorsal cutaneous branch of the ulnar nerve
+## explanation_b
+A cutaneous nerve, and cutaneous nerves cross superficial to a retinaculum by definition — they are on their way to the skin, and the retinaculum lies deep to the skin. The dorsal cutaneous branch of the ulnar nerve crosses over it to reach the back of the medial fingers.
+## answer_c
+Extensor indices
+## explanation_c
+Correct. Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.
+
+Why this is right:
+- The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral.
+## answer_d
+The beginning of the cephalic vein
+## explanation_d
+The beginning of the cephalic vein lies in the anatomical snuff box, in the superficial fascia over the retinaculum, which is exactly why it can be cannulated there. Students pick it because the snuff box and the retinaculum are neighbours, but neighbouring is not the same as deep to.
+## topic
+Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-44234D1863CE8E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Separate the tendons that pass through the compartments of the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p16 q91; Anatomy MCQ Book [2025] [first priority].pdf p34 q91. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1508
+## title
+Regarding veins of upper limb, choose the correct answer:
+## question
+Regarding veins of upper limb, choose the correct answer:
+## vignette
+This item asks the student to fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The basilic vein starts at the lateral end of the dorsal venous arch
+## explanation_a
+The two veins swapped. Lateral belongs to the cephalic; the basilic starts at the medial end of the dorsal venous arch and stays medial the whole way up.
+## answer_b
+The cephalic vein starts at the medial end of the dorsal venous arch
+## explanation_b
+The same swap in the other direction, and the commonest single error in this leaf. Cephalic is the lateral vein, from its origin at the lateral end of the arch to the deltopectoral groove.
+## answer_c
+The median cubital vein connects cephalic and basilic veins
+## explanation_c
+Correct. The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_d
+The axillary artery is accompanied by two venae comitantes
+## explanation_d
+Tempting because the brachial artery does have two venae comitantes and the axillary is its continuation upwards. It is not: the venae comitantes end by joining the basilic vein to form a single axillary vein, and from there up there is one vein, not two.
+## topic
+Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_69103a53ec28a93958d5
+## learning_objective
+Fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p12 q65; Anatomy MCQ Book [2025] [first priority].pdf p30 q65. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1509
+## title
+One of the following structures lies deep to extensor retinaculum:
+## question
+One of the following structures lies deep to extensor retinaculum:
+## vignette
+This item asks the student to separate the tendons that pass beneath the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The basilic vein
+## explanation_a
+The basilic vein is a superficial vein of the medial forearm and arm and never passes under a retinaculum.
+## answer_b
+The dorsal cutaneous branch of the ulnar nerve
+## explanation_b
+A cutaneous nerve on its way to skin, so it crosses superficial to the retinaculum rather than under it.
+## answer_c
+Extensor indices. P Ac ad
+## explanation_c
+Correct. Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.
+
+Why this is right:
+- The extensor retinaculum is a thick band of the deep fascia of the forearm lying obliquely across the back of the wrist, attached laterally to the anterior border of the lower end of the radius and medially to the pisiform and the triquetral.
+## answer_d
+The beginning of the cephalic vein
+## explanation_d
+The answer the extractor read off this page, and the reason for the override. The cephalic vein does begin at the wrist, in the snuff box — but in the superficial fascia above the retinaculum, which is what makes it accessible to a cannula there.
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-44234D1863CE8E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Separate the tendons that pass beneath the extensor retinaculum from the veins and cutaneous nerves that cross over it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p86 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries D, taken from this copy's page margin rather than a key, and D cannot stand: the cephalic vein begins in the superficial fascia over the anatomical snuff box, superficial to the retinaculum. The identical row `one-of-the-following-structures-lies-deep-to-the-extensor-re-3a476aa5`, asked twice, is keyed C, and C is the only tendon among the four options.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1510
+## title
+Regarding veins of upper limb, choose the correct answer: Vi P y
+## question
+Regarding veins of upper limb, choose the correct answer: Vi P y
+## vignette
+This item asks the student to fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The basilic vein starts at the lateral end of the dorsal venous arch
+## explanation_a
+The answer the extractor took from this page, and the reason for the override. Lateral is the cephalic vein's end of the arch; the basilic starts medially.
+## answer_b
+The cephalic vein starts at the medial end of the dorsal venous arch
+## explanation_b
+The same swap read the other way round. The cephalic vein is the lateral one throughout its course.
+## answer_c
+The median cubital vein connects cephalic and basilic veins
+## explanation_c
+Correct. The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_d
+The axillary artery is accompanied by two venae comitantes
+## explanation_d
+The brachial artery has two venae comitantes; the axillary artery does not. Those venae comitantes join the basilic vein at the lower border of teres major and the result is one axillary vein.
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Fix each superficial vein to its own end of the dorsal venous arch and name what the median cubital vein joins.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The bank carries A, which is the cephalic vein's origin written under the basilic vein's name. The identical row `regarding-veins-of-upper-limb-choose-the-correct-answer-d354d95f`, asked twice, is keyed C, and C is the only statement of the four that is true.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1511
+## title
+Regarding veins of upper limb, one is correct answer: Vi y
+## question
+Regarding veins of upper limb, one is correct answer: Vi y
+## vignette
+This item asks the student to attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein, and give the cephalic vein its correct origin.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The bicipital aponeurosis separates the cephalic vein from the brachial artery.
+## explanation_a
+The right relationship attached to the wrong vein. It is the median cubital vein, not the cephalic, that lies on the bicipital aponeurosis and is separated by it from the brachial artery — which is the whole reason the cubital fossa is a safe place for a needle.
+## answer_b
+The cephalic vein starts at lateral end of dorsal venous arch of the hand.
+## explanation_b
+Correct. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_c
+The basilic vein pierces the clavipectoral fascia.
+## explanation_c
+The two superficial veins swapped at the point where each leaves the superficial fascia. The cephalic vein pierces the clavipectoral fascia to reach the axillary vein; the basilic pierces the deep fascia far lower, about the middle of the arm.
+## answer_d
+Axillary artery is accompanied by two venae comitantes,
+## explanation_d
+A reasonable extrapolation from the brachial artery, which does have two venae comitantes. They end by joining the basilic vein to form a single axillary vein, so above the lower border of teres major there is one vein and not a pair.
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein, and give the cephalic vein its correct origin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only statement of the four that is true: the cephalic vein does start at the lateral end of the dorsal venous arch. A names the wrong vein under the bicipital aponeurosis, C names the wrong vein piercing the clavipectoral fascia, and D gives the axillary artery venae comitantes it does not have.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1512
+## title
+The cephalic vein ends in: P
+## question
+The cephalic vein ends in: P
+## vignette
+This item asks the student to name the vein the cephalic vein drains into and where it does so.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The axillary vein.
+## explanation_a
+Correct. The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_b
+Median cubital vein.
+## explanation_b
+Backwards. The median cubital vein arises from the cephalic vein at the elbow and carries blood away from it into the basilic; it is a tributary relationship, not a termination.
+## answer_c
+The subclavian vein.
+## explanation_c
+One vein too far. The axillary vein becomes the subclavian only at the outer border of the first rib, by which point the cephalic vein has already joined it.
+## answer_d
+The basilic vein.
+## explanation_d
+Chosen by students who remember the two veins being connected and settle on the connection they know. They are connected — by the median cubital vein at the elbow — but the cephalic vein's own ending is higher and is into the axillary vein.
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the vein the cephalic vein drains into and where it does so.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p93 q9. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1513
+## title
+The cephalic vein is located on which aspect of the upper limb?
+## question
+The cephalic vein is located on which aspect of the upper limb?
+## vignette
+This item asks the student to place the cephalic vein on the correct side of the limb.
+## subject
+msk
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+lateral
+## explanation_a
+Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.
+
+Why this is right:
+- The deep veins of the limb accompany their arteries in pairs as venae comitantes as far as the brachial artery; the axillary artery has a single axillary vein and no venae comitantes.
+## answer_b
+medial
+## explanation_b
+The basilic vein's side, and the answer given by every student who has the two names the wrong way round.
+## answer_c
+anterior
+## explanation_c
+The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.
+## answer_d
+posterior
+## explanation_d
+The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.
+## topic
+Veins of the Upper Limb
+## subtopic
+Veins of the Upper Limb
+## main_concept
+CON-MSK-66A2E56C00F3A7
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Place the cephalic vein on the correct side of the limb.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2; EOM ISK EOM exam 2024.pdf p9 q91. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
