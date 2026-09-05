@@ -88526,3 +88526,6362 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the course material does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no accepted source supports it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-877
+## title
+In absorbing columnar cell, the brush border seen by L/M is:
+## question
+In absorbing columnar cell, the brush border seen by L/M is:
+## vignette
+This item asks the student to name the structure whose carpet is seen as a brush border by light microscopy.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cilia
+## explanation_a
+Cilia are visible by light microscopy too, but as a distinct fringe of beating processes on a ciliated epithelium — not as the fine even border of an absorptive cell.
+## answer_b
+Flagella
+## explanation_b
+A flagellum in the human body is the sperm tail, one per cell. It does not form a border of any kind.
+## answer_c
+Microvilli
+## explanation_c
+Correct. Microvilli are too small to resolve individually, so the light microscope sees the whole carpet as a single brush or striated border on the apex of the absorptive cell.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+Stereocilia
+## explanation_d
+Stereocilia are long microvilli, but they are found in the epididymis and not on the absorptive columnar cell of the intestine.
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the structure whose carpet is seen as a brush border by light microscopy.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p11 q13; Epithelium | Module 101 questions.pdf.pdf p11 q13. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-878
+## title
+One of the following is a character of the shaft of cilia:
+## question
+One of the following is a character of the shaft of cilia:
+## vignette
+This item asks the student to attribute the microtubule doublets to the ciliary shaft and the brush border to microvilli.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Increase the surface area for absorption
+## explanation_a
+Increasing surface area for absorption is what a microvillus does. This is the pitfall the whole question is built on — three of the four options describe a microvillus.
+## answer_b
+Form the brush border in cells lining the renal tubules
+## explanation_b
+The brush border of the renal tubule is microvilli. Cilia do not form a border.
+## answer_c
+Form the brush border in cells lining the intestine
+## explanation_c
+The brush border of the intestine is microvilli as well, for the same reason.
+## answer_d
+Contain doublets of microtubules
+## explanation_d
+Correct. The shaft — the axoneme — is nine peripheral doublets of microtubules around two central singlets. Doublets are the giveaway: the basal body has triplets and a microvillus has no microtubules at all.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Attribute the microtubule doublets to the ciliary shaft and the brush border to microvilli.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q41; Epithelium | Module 101 questions.pdf.pdf p16 q50. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-879
+## title
+Stereocilia are:
+## question
+Stereocilia are:
+## vignette
+This item asks the student to define a stereocilium as a long microvillus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Short microvilli
+## explanation_a
+Right kind of structure, wrong length. Ordinary microvilli are the short ones; the "stereo-" prefix here is about length.
+## answer_b
+Long microvilli
+## explanation_b
+Correct. A stereocilium is a long, non-motile microvillus with an actin core, and it is not a true cilium.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_c
+Motile cilia
+## explanation_c
+The trap the name is built for. Stereocilia do not move at all — they have no axoneme to move with.
+## answer_d
+Short cilia
+## explanation_d
+Not a cilium of any length. There is no basal body, no rootlet and no microtubule in a stereocilium.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Define a stereocilium as a long microvillus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q9; Epithelium | Module 101 questions.pdf.pdf p16 q49. Manifest src_25ac512fb1cb23a6f696, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-880
+## title
+which of the following is involved in cell to cell communication??
+## question
+which of the following is involved in cell to cell communication??
+## vignette
+This item asks the student to name the junction through which material actually passes between cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+gap junction
+## explanation_a
+Correct. The gap junction is the communicating junction: its channels carry ions and small molecules from the interior of one cell to the interior of the next, and impulses between muscle cells.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## answer_b
+desmosomes
+## explanation_b
+A desmosome holds cells together and passes nothing. It is chosen because it is the junction students know best.
+## answer_c
+demilunes
+## explanation_c
+Demilunes are the crescents of serous cells capping a mucous acinus in a salivary gland — a gland structure, not a junction at all.
+## answer_d
+basal lamina
+## explanation_d
+The basal lamina lies underneath the epithelium, between it and the connective tissue. It is not between two epithelial cells.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the junction through which material actually passes between cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q107; Epithelium | Module 101 questions.pdf.pdf p9 q25. Manifest src_1fb914ce96908301b7b1, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-881
+## title
+A male patient complains of repeated upper respiratory tract infections and not respond…
+## question
+A male patient complains of repeated upper respiratory tract infections and not responding well to usual medications, the case to be due to:
+## vignette
+This item asks the student to read treatment-resistant repeated infection as a failure of clearance rather than of the drug.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+repeated viral infections
+## explanation_a
+This names the infections again rather than saying why they keep coming back. Repeated viral infection is what has to be explained, not the explanation.
+## answer_b
+repeated bacterial infections
+## explanation_b
+Same objection, and it also conflicts with the stem: the usual medications are not working, which is exactly what ordinary bacterial infection would respond to.
+## answer_c
+immotile cilia
+## explanation_c
+Correct. Cilia that cannot beat cannot move mucus up the airway, secretions accumulate, and bacteria grow on top of them — so the infections recur however they are treated.
+
+Why this is right:
+- The ciliary beat moves secretions and particles across the epithelial surface in one direction, which in the respiratory tract is the clearance of mucus.
+## answer_d
+defective stereocilia
+## explanation_d
+Stereocilia are long non-motile microvilli in the epididymis. They never moved anything, so a defect in them cannot impair clearance, and they are nowhere near the respiratory tract.
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-BBC8959FD63F56
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Read treatment-resistant repeated infection as a failure of clearance rather than of the drug.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p7 q8. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The stem's discriminating detail is that the infections repeat and do not respond to the usual medication, which points at the mucociliary clearance mechanism; the book states directly that immotile cilia let secretions accumulate and bacterial infection follow. Options A and B restate the presentation rather than explain it, and stereocilia are in the epididymis and clear nothing.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-882
+## title
+A male patient complains of repeated upper respiratory tract infections and not respond…
+## question
+A male patient complains of repeated upper respiratory tract infections and not responding well to the usual medications, physician diagnosed the case to be due to:
+## vignette
+This item asks the student to name the ciliary defect behind repeated treatment-resistant respiratory infection.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+repeated viral infections
+## explanation_a
+Restates the problem instead of explaining it, and does not account for the failure of treatment.
+## answer_b
+repeated bacterial. infections
+## explanation_b
+Bacterial infection is what happens on top of retained secretions; the question asks what let the secretions be retained.
+## answer_c
+immotile cilia syndrome
+## explanation_c
+Correct. Immotile cilia syndrome stops the mucociliary escalator, secretions accumulate and infection follows — and because the sperm flagellum shares the axoneme, the same patient may also be infertile.
+
+Why this is right:
+- The ciliary beat moves secretions and particles across the epithelial surface in one direction, which in the respiratory tract is the clearance of mucus.
+## answer_d
+defective stereocilia
+## explanation_d
+Stereocilia are non-motile microvilli of the epididymis. A defect in them would show as a problem of male fertility, not of the airway, and it is worth noticing that the airway and the fertility clue point at the same axoneme by two different routes.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-BBC8959FD63F56
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_4a8ddb5edfab86d624d8
+## learning_objective
+Name the ciliary defect behind repeated treatment-resistant respiratory infection.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cytology] (1).pdf p7 q40. Manifest src_4a8ddb5edfab86d624d8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The same question as `a-male-patient-complains-of-repeated-upper-respiratory-tract-1bada6ea` with the syndrome named in the option, and the same reasoning applies: only immotile cilia explain why the infections recur despite treatment.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-883
+## title
+absorptive membranes are lined with:
+## question
+absorptive membranes are lined with:
+## vignette
+This item asks the student to match absorption to the microvillous columnar cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+ciliated cells
+## explanation_a
+Cilia move material along a surface; they do not take it up. A ciliated epithelium is a transporting one, not an absorbing one.
+## answer_b
+columnar cell with microvilli
+## explanation_b
+Correct. Absorption needs surface area, and a tall cell carrying a carpet of microvilli is how the epithelium gets it.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_c
+simple squamous epithelium
+## explanation_c
+Simple squamous epithelium is thin for diffusion and filtration, and its whole point is that it presents as little material as possible, not as much surface as possible.
+## answer_d
+none of the above
+## explanation_d
+A hedge, and unnecessary — option B is exactly right.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match absorption to the microvillous columnar cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q17. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-884
+## title
+Basal lamina by EM is formed of two layers:
+## question
+Basal lamina by EM is formed of two layers:
+## vignette
+This item asks the student to separate the two layers of the basal lamina from the two layers of the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Basement membrane and lamina lucida
+## explanation_a
+The basement membrane is the whole structure, of which the basal lamina is one part; a part cannot contain the whole. This option is the answer to the neighbouring question read backwards.
+## answer_b
+Lamina lucida and lamina densa
+## explanation_b
+Correct. Within the basal lamina, electron microscopy shows an electron-lucent lamina lucida against the epithelial cell and an electron-dense lamina densa beneath it.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_c
+Lamina lucida and lamina reticularis
+## explanation_c
+The lamina reticularis is the connective-tissue half of the basement membrane, not part of the epithelium's basal lamina. Pairing it with the lamina lucida mixes the two levels of the question.
+## answer_d
+Lamina densa and basal lamina
+## explanation_d
+Same error the other way round: the lamina densa is inside the basal lamina, so the two cannot be listed as siblings.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Separate the two layers of the basal lamina from the two layers of the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q91. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-885
+## title
+Basement membrane by EM is formed of two layers:
+## question
+Basement membrane by EM is formed of two layers:
+## vignette
+This item asks the student to name the two layers of the basement membrane and the tissue that makes each.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Basal lamina and lamina lucida
+## explanation_a
+The lamina lucida is a subdivision of the basal lamina, so this pairs a structure with one of its own parts.
+## answer_b
+Basal lamina and lamina densa
+## explanation_b
+Same fault: the lamina densa also lies within the basal lamina.
+## answer_c
+Basal lamina and lamina reticularis
+## explanation_c
+Correct. The basement membrane is the epithelium's basal lamina — type IV collagen — plus the connective tissue's lamina reticularis of type III collagen, which is the reticular fibres.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_d
+None of the above
+## explanation_d
+A hedge, chosen when the two-level structure has become confusing. Option C is the keyed answer.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the two layers of the basement membrane and the tissue that makes each.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q123. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-886
+## title
+cell junction that restrict passage of substances in between cells is:
+## question
+cell junction that restrict passage of substances in between cells is:
+## vignette
+This item asks the student to name the junction that closes the route between adjacent cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+gap junction
+## explanation_a
+The gap junction does the opposite — it opens a route, though between the interiors of the cells rather than between them.
+## answer_b
+zonula occludens
+## explanation_b
+Correct. The zonula occludens fuses the two membranes at points and encircles the apex, so nothing passes down the intercellular space.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_c
+zonula adherens
+## explanation_c
+The zonula adherens leaves a wide intercellular space and holds the cells together across it. It adheres; it does not seal.
+## answer_d
+None of the above
+## explanation_d
+A hedge with no reason to be chosen — the zonula occludens answers the stem exactly.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the junction that closes the route between adjacent cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q79. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-887
+## title
+Cell membrane modifications mean:
+## question
+Cell membrane modifications mean:
+## vignette
+This item asks the student to recognise that the apical specialisations are all modifications of the same membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cell membrane modify to form microvilli
+## explanation_a
+True, but not the whole answer. A microvillus is a finger of plasma membrane over an actin core.
+## answer_b
+Cell membrane modify to form cilia
+## explanation_b
+True, but not the whole answer. A cilium is a process of plasma membrane over a microtubular axoneme.
+## answer_c
+Cell membrane modify to form flagella
+## explanation_c
+True, but not the whole answer. A flagellum is the same arrangement as a cilium, far longer.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three are the plasma membrane pushed outwards over a different cytoskeletal core, which is exactly what "membranous specialisation" names.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recognise that the apical specialisations are all modifications of the same membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q15. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The source key gives B, which cannot be right: A, B and C are each individually true — microvilli, cilia and flagella are all modifications of the cell membrane — so an option reading "all of the above" must be the answer. Selecting cilia alone would make two printed options false that are not.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-888
+## title
+centrioles share in the the formation of the following EXCEPT:
+## question
+centrioles share in the the formation of the following EXCEPT:
+## vignette
+This item asks the student to recall that the centriole makes microtubular structures, and that the microvillus is not one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mitotic spindles
+## explanation_a
+True, so not the exception. The centrioles organise the mitotic spindle, which is microtubular.
+## answer_b
+Microvilli
+## explanation_b
+Correct. The exception, and the answer. The microvillus has an actin core inserted into a terminal web, with no microtubules and no basal body, so nothing about it comes from a centriole.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## answer_c
+Cilia
+## explanation_c
+True, so not the exception. A centriole duplicates, migrates apically and becomes the basal body of a cilium.
+## answer_d
+Flagella
+## explanation_d
+True, so not the exception. The flagellum has the same axoneme and the same basal-body origin as a cilium.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recall that the centriole makes microtubular structures, and that the microvillus is not one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q38. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-889
+## title
+cilia is formed of:
+## question
+cilia is formed of:
+## vignette
+This item asks the student to name all three parts of a cilium rather than stopping at the shaft.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+basal body
+## explanation_a
+True, but not the whole answer. The basal body is the migrated centriole at the base, 27 microtubules in 9 triplets.
+## answer_b
+shaft
+## explanation_b
+True, but not the whole answer. The shaft is the axoneme, 9 doublets plus 2 singlets.
+## answer_c
+rootlet
+## explanation_c
+True, but not the whole answer. The rootlets are 9 microtubules growing down into the cytoplasm from the C tubule of each basal-body triplet, and they anchor the cilium against its own beat.
+## answer_d
+all the above
+## explanation_d
+Correct. All three, and the reason to know all three is that each has its own microtubule count — 27, 20 and 9 — and the exam asks for them separately.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name all three parts of a cilium rather than stopping at the shaft.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p13 q27. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-890
+## title
+concerning sterocilia, which of the following is true:
+## question
+concerning sterocilia, which of the following is true:
+## vignette
+This item asks the student to give both the function and the site of the stereocilium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Increase the surface area
+## explanation_a
+Correct. True, but not the whole answer. Being a long microvillus, its job is to increase surface area for absorption.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_b
+Present in epididymis
+## explanation_b
+True, but not the whole answer. The epididymis is where they are found, in the male genital system.
+## answer_c
+A and B
+## explanation_c
+Both are true, and a student who takes the first true option has given half the answer.
+## answer_d
+Movement of the mucous
+## explanation_d
+Moving mucus is what a cilium does. A stereocilium is not motile at all, which is the single most examined fact about it.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give both the function and the site of the stereocilium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q83. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-891
+## title
+Concerning the basement membrane ONE statement is true:
+## question
+Concerning the basement membrane ONE statement is true:
+## vignette
+This item asks the student to give the basement membrane's position, and the origin of each of its two layers.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It is supporting layer between the epithelium and connective tissue
+## explanation_a
+True, but not the whole answer. It lies between the epithelium above and the connective tissue below, and supports the one on the other.
+## answer_b
+Basal lamina synthesized by epithelial cells
+## explanation_b
+True, but not the whole answer. The basal lamina is the epithelial contribution — type IV collagen and glycoproteins made by the epithelial cells themselves.
+## answer_c
+Lamina reticularis manufactured by connective tissue cells
+## explanation_c
+True, but not the whole answer. The lamina reticularis is type III collagen laid down by the connective tissue.
+## answer_d
+All of the above
+## explanation_d
+Correct. The structure is made by two tissues from either side, which is why it has two layers and why naming which tissue made which layer is the question this material is always asked as.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the basement membrane's position, and the origin of each of its two layers.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q90; EOM ISK End 101 — 2022.pdf p3 q34. Manifest src_1fb914ce96908301b7b1, src_a54bbf7a625ba2b172fc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-892
+## title
+Desmosome (macula adherence):
+## question
+Desmosome (macula adherence):
+## vignette
+This item asks the student to give the full electron-microscopic picture of a desmosome.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Disk shaped plaque of electron dense materials
+## explanation_a
+True, but not the whole answer. The attachment plaque is a disc of electron-dense protein on the cytoplasmic face of each membrane.
+## answer_b
+Intermediate filaments
+## explanation_b
+True, but not the whole answer. Bundles of intermediate filaments — tonofilaments — are anchored into that plaque.
+## answer_c
+Dense vertical line
+## explanation_c
+True, but not the whole answer. The wide intercellular space between the two plaques shows a dense midline where the transmembrane proteins of the two cells meet.
+## answer_d
+All of the above
+## explanation_d
+Correct. Plaque, intermediate filaments and midline are three parts of one picture, and the desmosome question is normally set as a picture rather than as a single fact.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the full electron-microscopic picture of a desmosome.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q85. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-893
+## title
+each channel in gap junction is formed of ……… Symmetrical subunit
+## question
+each channel in gap junction is formed of ……… Symmetrical subunit
+## vignette
+This item asks the student to state how many subunits form one gap-junction channel.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+6
+## explanation_a
+Correct. Each channel is built of six symmetrical transmembrane protein molecules, which is the one number given for this junction.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## answer_b
+8
+## explanation_b
+Eight is not a count given anywhere in this chapter.
+## answer_c
+9
+## explanation_c
+Nine is the ciliary number — nine doublets in the shaft, nine triplets in the basal body, nine rootlet microtubules — and it is picked when the numbers of this chapter run together.
+## answer_d
+5
+## explanation_d
+Five is not the count.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+State how many subunits form one gap-junction channel.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q39. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-894
+## title
+encircle apex of cell like Belt
+## question
+encircle apex of cell like Belt
+## vignette
+This item asks the student to identify the junction that encircles the apex of the cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+tight junction
+## explanation_a
+Correct. The zonula occludens is the most apical junction and completely encircles the cell like a belt, which is what "zonula" means.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_b
+adherens junction
+## explanation_b
+The zonula adherens is a belt too, which makes this a genuinely close call — but it lies below the occludens rather than at the apex, and the apical position is what the stem specifies.
+## answer_c
+desmosome
+## explanation_c
+A desmosome is a spot, not a belt: "macula" against "zonula" is exactly this distinction.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions are patches of channels scattered on the lateral surface and encircle nothing.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Identify the junction that encircles the apex of the cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q34. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-895
+## title
+Epithelial tissue is distinguished from connective tissue, muscular, or nervous tissue …
+## question
+Epithelial tissue is distinguished from connective tissue, muscular, or nervous tissue by its
+## vignette
+This item asks the student to name the feature that identifies a tissue as epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+large extracellular matrix
+## explanation_a
+A large extracellular matrix is the mark of connective tissue. Epithelial cells are crowded with minimal intercellular space, which is the opposite.
+## answer_b
+contractility
+## explanation_b
+Contractility belongs to muscle — and to the one epithelium modified for it, the myo-epithelium, which is why the option is not absurd.
+## answer_c
+ability to carry action potentials
+## explanation_c
+Carrying action potentials is nerve. Neuro-epithelium receives a stimulus but does not conduct it.
+## answer_d
+basement membrane
+## explanation_d
+Correct. Resting on a basement membrane is what all four classes of epithelium have in common and what none of the other tissues has.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Comparison
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the feature that identifies a tissue as epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q47. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-896
+## title
+Epithelial tissue that can resist friction would have many
+## question
+Epithelial tissue that can resist friction would have many
+## vignette
+This item asks the student to connect resistance to friction to the strongest junction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+desmosomes
+## explanation_a
+Correct. The desmosome is the strongest junction, and it is abundant between the cells of stratified squamous epithelium precisely where the surface is subjected to friction.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_b
+gap junctions
+## explanation_b
+Gap junctions communicate and contribute no mechanical strength at all.
+## answer_c
+tight junctions
+## explanation_c
+Tight junctions seal. They stop material passing between the cells; they are not what holds the cells together when the surface is rubbed.
+## answer_d
+basement junctions
+## explanation_d
+"Basement junction" is not a structure. Hemidesmosomes attach the epithelium to the basement membrane, which resists being peeled off rather than being rubbed.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Connect resistance to friction to the strongest junction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p9 q48. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-897
+## title
+fix epithelium to basement membrane and C.T:
+## question
+fix epithelium to basement membrane and C.T:
+## vignette
+This item asks the student to name the structure that attaches the epithelium to the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+hemidesmosome
+## explanation_a
+Correct. A hemidesmosome is half a desmosome on the basal surface of a basal cell, and it fixes the epithelium to the basement membrane and the connective tissue below.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_b
+basement membrane
+## explanation_b
+The basement membrane is what the epithelium is being fixed to, not what does the fixing. It is the commonest wrong answer because the stem names it.
+## answer_c
+basal infolding
+## explanation_c
+Basal infoldings increase surface area for transport; they attach nothing.
+## answer_d
+desmosome
+## explanation_d
+A desmosome joins two epithelial cells to each other. It is the whole of which the hemidesmosome is half, and the half is what faces the basement membrane.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the structure that attaches the epithelium to the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q30. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-898
+## title
+Gap junction (nexus) is:
+## question
+Gap junction (nexus) is:
+## vignette
+This item asks the student to class the gap junction as communicating rather than occluding or adhering.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Occluding junction
+## explanation_a
+Occluding is the zonula occludens, which seals rather than connects.
+## answer_b
+Adhering junction
+## explanation_b
+Adhering covers the two adherens junctions, which hold cells together mechanically and pass nothing.
+## answer_c
+Communicating junction
+## explanation_c
+Correct. The gap junction is the communicating junction — the only one of the four through which ions, small molecules and impulses actually pass.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## answer_d
+All of the above
+## explanation_d
+The three categories are alternatives, and the gap junction belongs to exactly one of them.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Class the gap junction as communicating rather than occluding or adhering.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q87. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-899
+## title
+Gap junctions
+## question
+Gap junctions
+## vignette
+This item asks the student to state what a gap junction does and does not carry, and where else it is found.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Permit the passage of large proteins from cell to cell
+## explanation_a
+The channel is narrow and selective. Ions and small molecules cross it; large proteins do not, and this is the standard overstatement of what a gap junction does.
+## answer_b
+Form part of the classical junctional complex
+## explanation_b
+The classical junctional complex is three junctions — zonula occludens, zonula adherens and macula adherens — and the gap junction is the one left out.
+## answer_c
+Exist only between epithelial cells
+## explanation_c
+Not exclusive to epithelium at all, and that is the point of the correct option: gap junctions between cardiac and smooth muscle cells carry the impulse.
+## answer_d
+Are areas of transmission of impulses
+## explanation_d
+Correct. Impulses pass through gap junctions at electrical synapses and between muscle cells, which is the same channel doing the same thing in a different tissue.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+State what a gap junction does and does not carry, and where else it is found.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q19. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-900
+## title
+help absorption in male genital system:
+## question
+help absorption in male genital system:
+## vignette
+This item asks the student to place the stereocilium in the male genital tract and give its function.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+stereocilia
+## explanation_a
+Correct. Stereocilia are long non-motile microvilli in the epididymis, and like all microvilli they increase surface area for absorption.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_b
+cilia
+## explanation_b
+Cilia occur in the female genital tract, moving the ovum along the fallopian tube — the mirror-image fact, and the reason this option is tempting.
+## answer_c
+microvilli
+## explanation_c
+Microvilli absorb, but the standard site for them is the intestine; in the male genital system the microvillus takes the long non-motile form and the name stereocilium.
+## answer_d
+flagella
+## explanation_d
+The flagellum in the male genital system is the sperm tail, which moves the cell rather than absorbing anything.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Place the stereocilium in the male genital tract and give its function.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q29. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-901
+## title
+in zonula adherens, transmembrane is attached to ………. filament:
+## question
+in zonula adherens, transmembrane is attached to ………. filament:
+## vignette
+This item asks the student to name the filament anchored at the zonula adherens.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+actin
+## explanation_a
+Correct. Condensed proteins on the cytoplasmic side of the zonula adherens bind the junction to actin filaments.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_b
+myosin
+## explanation_b
+Myosin is the motor that acts on actin, not the filament anchored at the junction. Actin is named here and nothing else.
+## answer_c
+intermediate
+## explanation_c
+Intermediate filaments belong to the macula adherens. Swapping the two adherens junctions is the single commonest error on this material.
+## answer_d
+none of above
+## explanation_d
+There is a filament, and the answer is actin.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the filament anchored at the zonula adherens.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q35. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-902
+## title
+inability of cilia to move result in:
+## question
+inability of cilia to move result in:
+## vignette
+This item asks the student to give the chain from immotile cilia through retained secretions to chronic infection.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+bacterial infection
+## explanation_a
+True, but not the whole answer. Bacteria grow in the secretions the cilia can no longer clear.
+## answer_b
+chronic respiratory infection
+## explanation_b
+True, but not the whole answer. Repeated bacterial infection on retained secretions is what chronic respiratory infection means here.
+## answer_c
+male infertility
+## explanation_c
+Also true in life — the sperm flagellum has the same axoneme, so the same defect causes male infertility — but this option is not part of the source's combined answer, which pairs the two respiratory consequences.
+## answer_d
+a, b
+## explanation_d
+Correct. The bacterial infection and the chronic respiratory picture are one sequence, and naming only one of them describes half of it.
+
+Why this is right:
+- The ciliary beat moves secretions and particles across the epithelial surface in one direction, which in the respiratory tract is the clearance of mucus.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-BBC8959FD63F56
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Give the chain from immotile cilia through retained secretions to chronic infection.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p14 q34. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-903
+## title
+junction complex include all except
+## question
+junction complex include all except
+## vignette
+This item asks the student to name the junction excluded from the junctional complex.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+tight junction
+## explanation_a
+True, so not the exception. The tight junction is the most apical member of the complex.
+## answer_b
+adherens junction
+## explanation_b
+True, so not the exception. The zonula adherens is the middle member.
+## answer_c
+desmosome
+## explanation_c
+True, so not the exception. The desmosome is the deepest member.
+## answer_d
+gap junction
+## explanation_d
+Correct. The exception, and the answer. There are four lateral junctions and three members of the complex, and the gap junction is the one left out — it communicates rather than sealing or adhering.
+
+Why this is right:
+- Where the first three lateral junctions occur together between adjacent cells, running from the apex downwards as zonula occludens, then zonula adherens, then macula adherens, the arrangement is called the junctional complex.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-993662DC8318E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the junction excluded from the junctional complex.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q38. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-904
+## title
+Junctional complex is composed of the following except:
+## question
+Junctional complex is composed of the following except:
+## vignette
+This item asks the student to recognise that fascia adherens is not a member of the epithelial junctional complex.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Zonula occludens
+## explanation_a
+True, so not the exception. Zonula occludens is the first of the three.
+## answer_b
+Zonula adherens
+## explanation_b
+True, so not the exception. Zonula adherens is the second.
+## answer_c
+Fascia adherens
+## explanation_c
+Correct. The exception, and the answer. A fascia adherens is a band-shaped adhering junction of cardiac muscle, not one of the four lateral junctions of epithelium, and it is convincing here because it is built from the same two words as the two junctions that are.
+
+Why this is right:
+- Where the first three lateral junctions occur together between adjacent cells, running from the apex downwards as zonula occludens, then zonula adherens, then macula adherens, the arrangement is called the junctional complex.
+## answer_d
+Macula adherens
+## explanation_d
+True, so not the exception. Macula adherens — the desmosome — is the third member.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-993662DC8318E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recognise that fascia adherens is not a member of the epithelial junctional complex.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q122. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-905
+## title
+lon transporting cells are characterized by:
+## question
+lon transporting cells are characterized by:
+## vignette
+This item asks the student to connect basal infoldings and their mitochondria to active ion transport.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Basal infoldings alternating with mitochondria
+## explanation_a
+Correct. The infoldings multiply the basal membrane area available for transport, and the mitochondria stacked vertically between them supply the ATP on the spot. The kidney tubule cell is the standard example.
+
+Why this is right:
+- Basal infoldings are invaginations of the basal cell membrane that increase the surface area available for transport.
+## answer_b
+Lateral infoldings
+## explanation_b
+Lateral infoldings are not a recognised specialisation. The lateral surface carries junctions, not folds.
+## answer_c
+Stereocilia
+## explanation_c
+Stereocilia are apical, absorb passively and are found in the epididymis. Nothing about them transports ions.
+## answer_d
+Apical cilia
+## explanation_d
+Apical cilia move material across the surface. They face the lumen, which is the wrong end of the cell for a structure whose job is to move ions towards the blood.
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-D716C3939DB217
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Connect basal infoldings and their mitochondria to active ion transport.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p14 q47. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only A describes a structure the book attributes to ion-transporting cells: basal infoldings with mitochondria arranged vertically between them, whose energy drives the active transport. Lateral infoldings are not a structure the book names, and stereocilia and cilia are apical specialisations with no transport role.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-906
+## title
+Long motile structures on the surface of some epithelial cells are known as:
+## question
+Long motile structures on the surface of some epithelial cells are known as:
+## vignette
+This item asks the student to name the motile process on the surface of an epithelial cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Microvilli
+## explanation_a
+Microvilli are short and do not move. They are the structure most often given a cilium's answer.
+## answer_b
+Cilia
+## explanation_b
+Correct. Cilia are the motile processes on the free surface of an epithelium, moving secretions and particles across it in one direction.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## answer_c
+Flagella
+## explanation_c
+A flagellum is longer still and has the same axoneme, but in the human body there is exactly one — the sperm tail — and it moves the cell rather than sitting on an epithelial surface.
+## answer_d
+Steriocilia
+## explanation_d
+Stereocilia are long, which makes them tempting here, but they are non-motile microvilli.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the motile process on the surface of an epithelial cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q106. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-907
+## title
+Macula adherence (desmosome) Is characterized by:
+## question
+Macula adherence (desmosome) Is characterized by:
+## vignette
+This item asks the student to give the feature that identifies a desmosome and reject the three that belong to other junctions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Encircles the cells
+## explanation_a
+Encircling the cell is what a zonula does. Macula means a spot, and the desmosome is scattered as discs rather than running round the cell.
+## answer_b
+Permits the passage of ions
+## explanation_b
+Passing ions is the gap junction. A desmosome passes nothing at all — it is purely mechanical.
+## answer_c
+Important in intercellular communication
+## explanation_c
+Intercellular communication is the gap junction again, stated the other way round.
+## answer_d
+Bundles of intermediate filaments are anchored to the plaques
+## explanation_d
+Correct. Bundles of intermediate filaments are anchored into the dense cytoplasmic plaque on each side, which is what makes the desmosome the strongest junction.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## topic
+Histology-general
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Give the feature that identifies a desmosome and reject the three that belong to other junctions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p13 q43. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only D is true of a desmosome: intermediate filaments anchored into the attachment plaques. Encircling the cell is the zonula, and passing ions and intercellular communication are the gap junction, so each of the other three options describes a different junction.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-908
+## title
+Microtubules share in the formation of the following except:
+## question
+Microtubules share in the formation of the following except:
+## vignette
+This item asks the student to recall that the microvillus is the apical specialisation with no microtubules in it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Mitotic spindle
+## explanation_a
+True, so not the exception. The mitotic spindle is built of microtubules.
+## answer_b
+Microvilli
+## explanation_b
+The exception, and the answer. A microvillus has a core of actin filaments inserted into the terminal web, and not one microtubule.
+## answer_c
+Cilia
+## explanation_c
+Correct. True, so not the exception. The ciliary shaft is nine doublets around two singlets.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+Flagella
+## explanation_d
+True, so not the exception. A flagellum has the same axoneme as a cilium.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recall that the microvillus is the apical specialisation with no microtubules in it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q20. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-909
+## title
+Microvilli under light microscope are described as:
+## question
+Microvilli under light microscope are described as:
+## vignette
+This item asks the student to give both light-microscopic names for a carpet of microvilli.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Brush border
+## explanation_a
+True, but not the whole answer. Brush border is the usual name in the intestine.
+## answer_b
+Striated border
+## explanation_b
+True, but not the whole answer. Striated border is the same appearance under another name, used especially of the kidney tubule.
+## answer_c
+A or B
+## explanation_c
+Correct. The two terms describe one appearance, and a question offering both separately is testing whether the student knows they are synonyms.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+None of the above
+## explanation_d
+Microvilli are certainly visible in aggregate by light microscopy — it is only the individual microvillus that is not.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give both light-microscopic names for a carpet of microvilli.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q81. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-910
+## title
+Movement of cilia can be done by:
+## question
+Movement of cilia can be done by:
+## vignette
+This item asks the student to answer this faculty's question from this faculty's source, while knowing that the wider literature gives dynein arms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Dyenin arms
+## explanation_a
+Dynein arms are the accepted mechanism in the general literature, and they are what the concept record for the cilium states. They are not, however, in the course material, which attributes the beat to the bending of adjacent doublets and never names them — which is why the printed key rejects this option.
+## answer_b
+Nexin
+## explanation_b
+Nexin links hold neighbouring doublets together so that sliding becomes bending. They are not mentioned in the course material either.
+## answer_c
+Radial spokes
+## explanation_c
+Radial spokes run from each doublet to the central pair. Again real, again absent from the course material.
+## answer_d
+None of the above
+## explanation_d
+Correct. The answer as it is keyed. The beat is given as the bending of adjacent doublets against one another, with no protein named at all, so none of the three named structures is in the material the examiner set. Learn the examined answer for the paper and the dynein mechanism for everything after it — the disagreement is recorded on the concept.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## topic
+Cytology
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Answer this faculty's question from this faculty's source, while knowing that the wider literature gives dynein arms.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q16. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-911
+## title
+permit exchange of ions, passage of impulses:
+## question
+permit exchange of ions, passage of impulses:
+## vignette
+This item asks the student to match ion exchange and impulse transmission to the gap junction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+tight junction
+## explanation_a
+The tight junction stops movement between cells rather than permitting it.
+## answer_b
+adherens junction
+## explanation_b
+The adherens junction holds cells together across a wide space and lets nothing through.
+## answer_c
+desmosome
+## explanation_c
+The desmosome is the strongest junction and the least permeable — a mechanical rivet.
+## answer_d
+gap junction
+## explanation_d
+Correct. The gap junction's six-subunit channels carry ions and small molecules between cell interiors, and impulses between muscle cells.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match ion exchange and impulse transmission to the gap junction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q40. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-912
+## title
+Regarding transitional epithelium, the following statement is correct:
+## question
+Regarding transitional epithelium, the following statement is correct:
+## vignette
+This item asks the student to recognise the junctional complex as the joining of the superficial cells of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Formed of 5-30 layers of cells
+## explanation_a
+5–30 layers is stratified squamous epithelium. Transitional is 6–8 layers when the bladder is empty and 3–4 when it is full.
+## answer_b
+Cells rest on thick basement membrane
+## explanation_b
+The bladder's basement membrane is non-clear and thin; the thick, clear, wavy one belongs to the oesophagus, and this option is the oesophagus's answer given to the bladder.
+## answer_c
+Superficial cells are connected by junctional complex
+## explanation_c
+Correct. The dome-shaped superficial cells are joined to one another by junctional complexes — zonula occludens, zonula adherens and macula adherens together — which is part of how the surface stays impermeable to urine.
+
+Why this is right:
+- Where the first three lateral junctions occur together between adjacent cells, running from the apex downwards as zonula occludens, then zonula adherens, then macula adherens, the arrangement is called the junctional complex.
+## answer_d
+Superficial cells are covered by cilia
+## explanation_d
+Cilia move material along a surface. Nothing in the urinary tract needs sweeping, and the superficial cell's luminal specialisation is a rigid plaque, not a cilium.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-993662DC8318E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise the junctional complex as the joining of the superficial cells of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q27. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-913
+## title
+Simple columnar epithelium of the intestine is provided with:
+## question
+Simple columnar epithelium of the intestine is provided with:
+## vignette
+This item asks the student to give the apical specialisation of the intestinal absorptive cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Cilia
+## explanation_a
+Cilia would sweep the contents along, which the intestine achieves by muscular contraction instead. The absorptive cell needs surface area, not motion.
+## answer_b
+Microvilli
+## explanation_b
+Correct. Microvilli, seen by light microscopy as the striated or brush border, multiply the absorptive surface of the intestinal cell.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_c
+sterocilia
+## explanation_c
+Stereocilia are long microvilli of the epididymis. The structure is nearly right and the site is wrong.
+## answer_d
+Flagella
+## explanation_d
+The only human flagellum is the sperm tail.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the apical specialisation of the intestinal absorptive cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q25. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-914
+## title
+strongest type of junction:
+## question
+strongest type of junction:
+## vignette
+This item asks the student to name the strongest of the four lateral junctions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+tight junction
+## explanation_a
+The tight junction is the tightest seal, which is not the same as the strongest bond. It resists leakage, not traction.
+## answer_b
+adherens junction
+## explanation_b
+The adherens junction does adhere, but across a wide space and onto actin, which is a lighter anchorage than the desmosome's.
+## answer_c
+desmosome
+## explanation_c
+Correct. The desmosome anchors intermediate filaments into a dense plaque on each side, and it is the strongest junction — which is why stratified squamous epithelium, the tissue that takes friction, is full of them.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is a set of channels and contributes essentially no mechanical strength.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the strongest of the four lateral junctions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q37. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-915
+## title
+the absorptive columnar cells area characterized by presence of:
+## question
+the absorptive columnar cells area characterized by presence of:
+## vignette
+This item asks the student to give the defining apical feature of an absorptive columnar cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+apical flat nucleus
+## explanation_a
+The nucleus of a columnar cell is oval and basal, not apical and not flat — a flat nucleus belongs to a squamous cell.
+## answer_b
+numerous myosin filaments
+## explanation_b
+The microvillus core is actin, and myosin is not part of it. The option swaps the contractile partner for the structural one.
+## answer_c
+apical microvilli
+## explanation_c
+Correct. Apical microvilli, seen as a brush border, are what make the cell absorptive.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+cilia
+## explanation_d
+Cilia move material past a cell. An absorptive cell takes material in, which needs surface rather than motion.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Give the defining apical feature of an absorptive columnar cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q5. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-916
+## title
+The actin filaments form the core of the microvilli, it is embeded in:
+## question
+The actin filaments form the core of the microvilli, it is embeded in:
+## vignette
+This item asks the student to name the structure the actin core of a microvillus is anchored into.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Basal body
+## explanation_a
+The basal body anchors a cilium, not a microvillus, and it is made of microtubules. This is the cilium's answer given to the microvillus.
+## answer_b
+Kinetochore
+## explanation_b
+The kinetochore is the attachment point of spindle microtubules on a chromosome — a mitotic structure with nothing to do with the apical surface.
+## answer_c
+Terminal web
+## explanation_c
+Correct. The actin filaments of each microvillus run down into a mat of filaments beneath the apical membrane, the terminal web.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+Centrosome
+## explanation_d
+The centrosome is the microtubule organising centre near the nucleus, and it is the ancestor of the basal body rather than of anything in a microvillus.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the structure the actin core of a microvillus is anchored into.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q80. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-917
+## title
+The basement membrane, one of the following is false:
+## question
+The basement membrane, one of the following is false:
+## vignette
+This item asks the student to recall that both the epithelium and the connective tissue build the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Stains positively with (PAS)
+## explanation_a
+True, so not the false one. The basement membrane stains red with PAS and brown with silver, which is how it is seen at all by light microscopy.
+## answer_b
+Is composed of type IV collagen
+## explanation_b
+True, so not the false one, although the printed key says otherwise. The basal lamina is type IV collagen with glycoproteins; the reticular lamina adds type III.
+## answer_c
+Has basal lamina
+## explanation_c
+True, so not the false one. The basal lamina is the epithelial half of the basement membrane.
+## answer_d
+Is produced by the connective tissue alone
+## explanation_d
+Correct. The false statement, and the answer. Two tissues build it from either side — the epithelium lays down the basal lamina and the connective tissue the reticular lamina — and "alone" is the word that makes the option false.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recall that both the epithelium and the connective tissue build the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q57. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+Answer changed from the source's: The source key marks B — "is composed of type IV collagen" — as the false statement, but that is true: the basal lamina is type IV collagen and glycoproteins. The statement that is actually false is D, that the basement membrane is produced by the connective tissue alone; the basal lamina is made by the epithelial cells and only the reticular lamina by the connective tissue. Keeping the printed key would teach a true statement as false.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-918
+## title
+The classical description of a junctional complex includes the following except:
+## question
+The classical description of a junctional complex includes the following except:
+## vignette
+This item asks the student to name the three members of the junctional complex and reject an invented fourth.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+fascia occludens
+## explanation_a
+Correct. The exception, and the answer. There is no fascia occludens. It is manufactured from the vocabulary of the real junctions — fascia from fascia adherens, occludens from zonula occludens — and it is convincing for exactly that reason.
+
+Why this is right:
+- Where the first three lateral junctions occur together between adjacent cells, running from the apex downwards as zonula occludens, then zonula adherens, then macula adherens, the arrangement is called the junctional complex.
+## answer_b
+zonula occludens
+## explanation_b
+True, so not the exception. The zonula occludens is the most apical member.
+## answer_c
+zonula adherens
+## explanation_c
+True, so not the exception. The zonula adherens is the middle member.
+## answer_d
+macula adherens (desmosome)
+## explanation_d
+True, so not the exception. The macula adherens, the desmosome, is the deepest.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-993662DC8318E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the three members of the junctional complex and reject an invented fourth.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p3 q17. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-919
+## title
+The epithelial cells connect to the basement membrane through:
+## question
+The epithelial cells connect to the basement membrane through:
+## vignette
+This item asks the student to name the junction between an epithelial cell and the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+gap junction
+## explanation_a
+Gap junctions connect one cell to another cell, not a cell to a matrix.
+## answer_b
+desmosomes
+## explanation_b
+A desmosome joins two epithelial cells. It is the right family, and the trap is that the answer is only half of it.
+## answer_c
+hemi-desmosomes
+## explanation_c
+Correct. A hemidesmosome is half a desmosome facing the basement membrane instead of a neighbouring cell.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_d
+zonula occludens
+## explanation_d
+The zonula occludens is at the apex, sealing the space between cells. It is at the opposite end of the cell from the basement membrane.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the junction between an epithelial cell and the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q69. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-920
+## title
+The epithelium is characterized by: |
+## question
+The epithelium is characterized by: |
+## vignette
+This item asks the student to recall the general characters of epithelium, including that its basement membrane may be clear or not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+1] has low power of regeneration
+## explanation_a
+The reverse of the truth: epithelium has a high power of regeneration, which is why a graze heals and why the gut lining can be renewed continuously.
+## answer_b
+It consists of cells with wide intercellular spaces,
+## explanation_b
+Wide intercellular spaces are connective tissue. Epithelial cells are crowded with minimal space between them.
+## answer_c
+itis penetrated by blood vessels. 3
+## explanation_c
+Epithelium is avascular — blood and lymph vessels cannot penetrate between its cells, though nerves can — and it is fed by diffusion from the connective tissue below.
+## answer_d
+It has clear or non clear basement membrane
+## explanation_d
+Correct. Every epithelium rests on a basement membrane, and it may be clear, as in skin, or not clear, as in transitional epithelium.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Recall the general characters of epithelium, including that its basement membrane may be clear or not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p1 q1. Manifest src_510c935c09a7e7cbff32.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Three of the four options state the negation of a character the book gives: epithelium has a high power of regeneration, minimal intercellular space, and is avascular because vessels cannot penetrate between its cells. Only D is true — the book states the basement membrane may be clear or not clear.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-921
+## title
+The following can be found on the apical surface of intestinal simple columnar epithelium
+## question
+The following can be found on the apical surface of intestinal simple columnar epithelium
+## vignette
+This item asks the student to distinguish a microvillus from an intestinal villus and from the lateral and basal junctions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Villi
+## explanation_a
+The best distractor on the page. A villus is a finger of the whole mucosa, visible to the naked eye, containing connective tissue and a blood supply; a microvillus is a projection of one cell's membrane. The question is asking about a cell surface, so the answer is the small one.
+## answer_b
+Hemidesmosome
+## explanation_b
+A hemidesmosome is on the basal surface, attaching the cell to the basement membrane — the opposite end of the cell.
+## answer_c
+Desmosome
+## explanation_c
+A desmosome is on the lateral surface, joining the cell to its neighbours.
+## answer_d
+Microvilli
+## explanation_d
+Correct. Microvilli are the apical specialisation of the intestinal absorptive cell, seen by light microscopy as the striated border.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Distinguish a microvillus from an intestinal villus and from the lateral and basal junctions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q20. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-922
+## title
+The following statements concerning gap junction (nexus) are true EXCEPT:
+## question
+The following statements concerning gap junction (nexus) are true EXCEPT:
+## vignette
+This item asks the student to separate the gap junction's narrow bridged gap from the tight junction's membrane fusion.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+It links the interior of adjacent cells
+## explanation_a
+True, so not the exception. The channels link the interior of one cell directly to the interior of the next.
+## answer_b
+It permits ions and small molecule to pass from one cell to another
+## explanation_b
+True, so not the exception. Ions and small molecules are exactly what passes.
+## answer_c
+They transmit impulses at certain synapse
+## explanation_c
+True, so not the exception. At electrical synapses and between muscle cells the junction carries the impulse.
+## answer_d
+Provides an actual fusion of adjacent two cell membranes Basement membrane
+## explanation_d
+Correct. The exception, and the answer. Actual fusion of the two membranes is the zonula occludens. The gap junction leaves a narrow gap — hence the name — and bridges it with channels rather than closing it.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Separate the gap junction's narrow bridged gap from the tight junction's membrane fusion.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p11 q89. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-923
+## title
+The followings are free surface specialization EXCEPT:
+## question
+The followings are free surface specialization EXCEPT:
+## vignette
+This item asks the student to list the apical specialisations and recognise that a process is not one of them.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Microvilli
+## explanation_a
+True, so not the exception. Microvilli are apical.
+## answer_b
+Cilia
+## explanation_b
+True, so not the exception. Cilia are apical.
+## answer_c
+Streocilia
+## explanation_c
+True, so not the exception. Stereocilia are apical, being long microvilli.
+## answer_d
+Phagocytosis
+## explanation_d
+Correct. The exception, and the answer. Phagocytosis is something a cell does, not a structure on its surface, and the question is asking for structures. It is chosen by students who read the list as "things that happen at the free surface" rather than "specialisations of the free surface".
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+List the apical specialisations and recognise that a process is not one of them.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p10 q77. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-924
+## title
+The junction which prevents entrance of extracellular substance:
+## question
+The junction which prevents entrance of extracellular substance:
+## vignette
+This item asks the student to name the junction that bars the intercellular route.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Gap junction
+## explanation_a
+The gap junction lets things through, which is the opposite of what the stem describes.
+## answer_b
+Adherent junction
+## explanation_b
+The adherens junction leaves a wide intercellular space open and merely holds the cells together across it.
+## answer_c
+Occluding junction
+## explanation_c
+Correct. The occluding junction fuses the two membranes at points around the apex, so extracellular material cannot pass down between the cells.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_d
+Desmosome
+## explanation_d
+The desmosome is a spot with a wide space around it, so it seals nothing — it is strong, not tight, and those are different properties.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the junction that bars the intercellular route.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q108. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-925
+## title
+The microvilli containing cells in functional aspect are:
+## question
+The microvilli containing cells in functional aspect are:
+## vignette
+This item asks the student to infer function from the presence of microvilli.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+covering
+## explanation_a
+Covering is what surface epithelium does generally, and it needs no microvilli — a simple squamous covering has none.
+## answer_b
+stem
+## explanation_b
+Stem cells divide to replace others. Nothing about a microvillus serves division.
+## answer_c
+secretory
+## explanation_c
+A secretory cell exports material and is recognised by its granules and its rough endoplasmic reticulum, not by its surface area.
+## answer_d
+absorption
+## explanation_d
+Correct. Microvilli exist to multiply surface area, and surface area is what absorption needs.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Infer function from the presence of microvilli.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q67. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-926
+## title
+the strongest type of junctions is:
+## question
+the strongest type of junctions is:
+## vignette
+This item asks the student to name the strongest junction, using its Latin name.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+zonula occludens
+## explanation_a
+Zonula occludens is the seal. Tightness against leakage is not mechanical strength.
+## answer_b
+zonula adherens
+## explanation_b
+Zonula adherens adheres, but anchors actin across a wide space and is the weaker of the two adherens junctions.
+## answer_c
+macula adherens
+## explanation_c
+Correct. Macula adherens — the desmosome — anchors intermediate filaments into dense plaques and is the strongest of the four.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is for communication and adds no strength.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the strongest junction, using its Latin name.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p12 q99. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-927
+## title
+the type of filament inserted in the dense plaque of desmosomes is:
+## question
+the type of filament inserted in the dense plaque of desmosomes is:
+## vignette
+This item asks the student to name the filament anchored in the desmosomal plaque.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+thin filaments
+## explanation_a
+Thin filaments are actin, and actin is anchored at the zonula adherens. This is the swap the whole topic turns on.
+## answer_b
+thick filaments
+## explanation_b
+Thick filaments are myosin, a muscle structure, and are not anchored at any epithelial junction.
+## answer_c
+intermediate filaments
+## explanation_c
+Correct. Bundles of intermediate filaments — tonofilaments in an epithelial cell — insert into the dense attachment plaque of the desmosome.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_d
+neuro filaments
+## explanation_d
+Neurofilaments are the intermediate filaments of a nerve cell. Right class of filament, wrong cell entirely.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the filament anchored in the desmosomal plaque.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q24. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-928
+## title
+these are motile has like structures on surface some epithelial cells
+## question
+these are motile has like structures on surface some epithelial cells
+## vignette
+This item asks the student to identify the motile hair-like process of an epithelial surface.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+flagella
+## explanation_a
+A flagellum is motile and hair-like, but there is one per cell and in humans only on the spermatozoon — not a covering of an epithelial surface.
+## answer_b
+stereocilia
+## explanation_b
+Stereocilia look like hairs and are not motile at all, which is precisely the trap the name sets.
+## answer_c
+cilia
+## explanation_c
+Correct. Cilia are the motile hair-like processes covering the free surface of a ciliated epithelium.
+
+Why this is right:
+- A cilium develops from a basal body, itself derived from a centriole, which migrates to the apical cell surface.
+## answer_d
+microvilli
+## explanation_d
+Microvilli are neither hair-like at light-microscope resolution nor motile; they appear as a continuous border.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-0FAE59E00B748E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Identify the motile hair-like process of an epithelial surface.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q8. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-929
+## title
+What of the following facts about the epithelial tissue is true?:
+## question
+What of the following facts about the epithelial tissue is true?:
+## vignette
+This item asks the student to identify the basement membrane as the constant feature of epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Epithelium is considered to be (vascular tissue)
+## explanation_a
+Epithelium is avascular. Vessels cannot penetrate between its cells, which is why it depends on diffusion from the connective tissue beneath.
+## answer_b
+It’s one of the C.T. fibers types
+## explanation_b
+Epithelium is a tissue in its own right, not a connective tissue fibre. The fibres are collagen, reticular and elastic.
+## answer_c
+Its cells lie on a basement membrane
+## explanation_c
+Correct. Every epithelium rests on a basement membrane, and it is the feature that distinguishes epithelium from the tissues around it.
+
+Why this is right:
+- On light microscopy it is an amorphous dense layer staining red with PAS or brown with silver, and it may be clear and thick, as in skin, or non-clear and thin, as in transitional epithelium.
+- Hemidesmosomes, shaped like half a desmosome on the basal surface of the basal cells, fix the epithelium to it.
+## answer_d
+It’s transitional type is considered to be simple
+## explanation_d
+Transitional epithelium is stratified, not simple. The epithelium that looks stratified and is simple is the pseudostratified one, and this option swaps the two.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-47743DDD3ED7A0
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Identify the basement membrane as the constant feature of epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q2. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-930
+## title
+Which feature is characteristic for zonula Occludens?
+## question
+Which feature is characteristic for zonula Occludens?
+## vignette
+This item asks the student to give the electron-microscopic feature that identifies a tight junction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Fusion of adjacent membranes at certain points
+## explanation_a
+Correct. The two adjacent plasma membranes fuse at points through transmembrane proteins from each cell, which is what obliterates the space between them.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_b
+Abundant cytokeratin filaments near the junction
+## explanation_b
+Cytokeratin is an intermediate filament, and intermediate filaments gather at the desmosome. This option describes the wrong junction.
+## answer_c
+Surrounds columnar cells in the basal region of their lateral plasma
+## explanation_c
+The basal region is the wrong end of the cell: the zonula occludens encircles the apex, which is why anything entering must pass the seal first.
+## answer_d
+Dense intracellular plaque
+## explanation_d
+A dense intracellular plaque is the desmosome's attachment plaque. The zonula occludens has no plaque.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Give the electron-microscopic feature that identifies a tight junction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q8. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-931
+## title
+Which of the following specializations are described in the stratified epithelia:
+## question
+Which of the following specializations are described in the stratified epithelia:
+## vignette
+This item asks the student to connect stratified epithelium to the junction that resists friction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+microvilli
+## explanation_a
+Microvilli belong to absorptive simple epithelia. A stratified epithelium exists to protect, and multiplying its surface area would work against that.
+## answer_b
+cilia
+## explanation_b
+Cilia sit on simple and pseudostratified columnar epithelia. A stratified surface that is constantly abraded would not keep them.
+## answer_c
+desmosomes
+## explanation_c
+Correct. Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the tissue exposed to friction and the desmosome is the strongest junction.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions occur widely but they are not the specialisation singled out for stratified epithelium.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Connect stratified epithelium to the junction that resists friction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q70. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-932
+## title
+Which of the following statements is the best description of zonula Occludens? Cell adh…
+## question
+Which of the following statements is the best description of zonula Occludens? Cell adhesion involved mainly in:
+## vignette
+This item asks the student to state the functional consequence of the tight junction rather than its structure.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+A barrier to avoid free diffusion along epithelial cells
+## explanation_a
+Correct. The seal is a barrier to free diffusion along the intercellular space, which is what makes an epithelium able to keep two compartments different from each other.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_b
+Exchange of small molecules and ions between cells
+## explanation_b
+Exchange of small molecules and ions is the gap junction, and it is between cell interiors rather than along the space between them.
+## answer_c
+Anchoring the cell to the basement membrane
+## explanation_c
+Anchoring the cell to the basement membrane is the hemidesmosome, at the opposite end of the cell.
+## answer_d
+Mechanical stability and resistance
+## explanation_d
+Mechanical stability and resistance is the desmosome. Tight and strong are the two properties this topic keeps asking students to separate.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+State the functional consequence of the tight junction rather than its structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q37. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-933
+## title
+Which structure forms the brush border?
+## question
+Which structure forms the brush border?
+## vignette
+This item asks the student to name the structure whose carpet is the brush border.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Secretory granules
+## explanation_a
+Secretory granules sit inside the cell, in the apical cytoplasm. They are not on its surface and form no border.
+## answer_b
+Basal body
+## explanation_b
+The basal body is the base of a cilium, inside the cell. Its name makes it sound basal in position, which is a separate confusion worth clearing up: it lies in the apical cytoplasm.
+## answer_c
+Microvilli
+## explanation_c
+Correct. A dense carpet of microvilli is resolved by the light microscope as a single brush or striated border.
+
+Why this is right:
+- The apical specialisations differ in their core and in what they do.
+## answer_d
+Cilia
+## explanation_d
+Cilia are longer and are seen individually as a fringe, not as a solid border.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-5114283D5309E5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the structure whose carpet is the brush border.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q54. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-934
+## title
+which type of cell junction shares in the formation of barriers in the tissues?
+## question
+which type of cell junction shares in the formation of barriers in the tissues?
+## vignette
+This item asks the student to name the junction that makes an epithelium a barrier.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+zonula adherens
+## explanation_a
+The zonula adherens holds cells together across an open space, so material can still pass along it.
+## answer_b
+zonula occludens
+## explanation_b
+Correct. The zonula occludens is what turns a sheet of cells into a barrier, by closing the only route that goes round the cells rather than through them.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_c
+fascia adherens
+## explanation_c
+A fascia adherens is a cardiac muscle junction and is not part of the epithelial set at all.
+## answer_d
+gap junction
+## explanation_d
+The gap junction is a route, not a barrier.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the junction that makes an epithelium a barrier.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q27. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-935
+## title
+which type of junction is located more near apex of the cell??
+## question
+which type of junction is located more near apex of the cell??
+## vignette
+This item asks the student to order the junctions from the apex of the cell downwards.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+zonula adherens
+## explanation_a
+The zonula adherens lies immediately below the tight junction, which makes it the closest wrong answer.
+## answer_b
+tight junction
+## explanation_b
+Correct. The tight junction is the most apical of the lateral junctions, which is what lets it seal everything below it off from the lumen.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_c
+Desmosomes
+## explanation_c
+Desmosomes are the deepest member of the junctional complex and are also scattered further down the lateral surface.
+## answer_d
+gap junction
+## explanation_d
+Gap junctions are not part of the complex and lie on the lateral surface without a fixed apical position.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Order the junctions from the apex of the cell downwards.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p9 q26. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-936
+## title
+wide inter cell space show dark midline:
+## question
+wide inter cell space show dark midline:
+## vignette
+This item asks the student to identify a desmosome from its electron-microscopic appearance.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+tight junction
+## explanation_a
+The tight junction has no intercellular space at the points of fusion, so it cannot show a midline in a space that is not there.
+## answer_b
+adherens junction
+## explanation_b
+The zonula adherens does have a wide intercellular space, which makes this the real competitor — but the dense midline in the middle of that space is described of the desmosome, and the zonula adherens is distinguished instead by being a belt anchoring actin.
+## answer_c
+desmosome
+## explanation_c
+Correct. The desmosome shows a wide intercellular space with a dense midline where the transmembrane proteins of the two cells meet, flanked by an attachment plaque on each side.
+
+Why this is right:
+- The zonula adherens encircles the cell like a belt, and on its cytoplasmic side condensed proteins bind the junction to actin filaments; it provides lateral adhesion.
+- It is the strongest of the junctions, which is why it is abundant between the cells of stratified squamous epithelium, where the surface is subjected to friction.
+## answer_d
+gap junction
+## explanation_d
+The gap junction's space is narrow — that is what "gap" names — and it is crossed by channels rather than marked by a midline.
+## topic
+Epithelium
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-59E3FDA20F54AD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Identify a desmosome from its electron-microscopic appearance.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p4 q36. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-937
+## title
+Chronic respiratory tract infection may be caused by abnormality in:
+## question
+Chronic respiratory tract infection may be caused by abnormality in:
+## vignette
+This item asks the student to trace chronic respiratory infection back to immotile cilia.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cilia
+## explanation_a
+Correct. Cilia sweep mucus and trapped particles up out of the airway; when they cannot beat, the secretions sit still and bacteria grow in them, which is the mechanism behind chronic respiratory infection.
+
+Why this is right:
+- The ciliary beat moves secretions and particles across the epithelial surface in one direction, which in the respiratory tract is the clearance of mucus.
+## answer_b
+Microvilli.
+## explanation_b
+Microvilli increase surface area for absorption and have an actin core with no motility at all. They are found in the small intestine, not the airway, so nothing they do could clear a secretion.
+## answer_c
+Neurofilaments.
+## explanation_c
+Neurofilaments are the intermediate filaments of neurons and are purely supportive. This option is here for a student who has learnt that cilia contain filaments without learning which.
+## answer_d
+Nuclear lamina.
+## explanation_d
+The nuclear lamina is made of lamins, also intermediate filaments, and lies inside the nucleus against the inner nuclear membrane. It is as far from the apical surface of a respiratory cell as anything in the cell can be.
+## topic
+Polarity and Membranous Specializations
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-BBC8959FD63F56
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Trace chronic respiratory infection back to immotile cilia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p1 q5. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: inability of the cilia to move results in bacterial infection on top of accumulated secretions, causing chronic respiratory infections.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-938
+## title
+The communicating type of junction is:
+## question
+The communicating type of junction is:
+## vignette
+This item asks the student to name the junction classed as communicating and say what it lets through.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Tight junction.
+## explanation_a
+The tight junction is occluding: it fuses adjacent membranes into a belt round the apex of the cell precisely to stop substances passing between cells. It is the opposite of communicating.
+## answer_b
+Adherent junction.
+## explanation_b
+The adherens junction is adhering. Its transmembrane proteins are joined across a wide space with the help of calcium and anchored to actin filaments, and it holds cells together without conducting anything.
+## answer_c
+Gap junction.
+## explanation_c
+Correct. Each channel of the gap junction is six symmetrical transmembrane protein molecules, and through them ions and small molecules move directly from one cytoplasm to the next — and impulses between muscle cells.
+
+Why this is right:
+- The gap junction, or nexus, is a communicating junction.
+- The gap between the two membranes is narrow and is bridged by channels, each channel formed of six symmetrical transmembrane protein molecules, and through them ions and small molecules pass directly from the interior of one cell to the interior of the next.
+- Between muscle cells the same channels carry impulses.
+## answer_d
+Desmosomes.
+## explanation_d
+Desmosomes are the maculae adherentes, the strongest junction, anchoring intermediate filaments at scattered spots. Strength is what they provide, not passage.
+## topic
+Polarity and Membranous Specializations
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-ACB35745EC9A5D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the junction classed as communicating and say what it lets through.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p4 q33. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer given here is: the gap junction, also called the nexus or communicating junction, is the only one of the four through which ions, small molecules and impulses pass.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-939
+## title
+Concerning Zonula occludens (occluding junction):
+## question
+Concerning Zonula occludens (occluding junction):
+## vignette
+This item asks the student to pick the true statement about the zonula occludens from a set that describes the other three junctions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Itis a type of apical epithelial specializations.
+## explanation_a
+The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and it is classed with the lateral specialisations — a distinction of position against class that this option is built on.
+## answer_b
+Two adjacent cell’membranes fuse at certain points. ’
+## explanation_b
+Correct. The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.
+
+Why this is right:
+- The tight or occluding junction is the most apical of the lateral junctions.
+- The two adjacent plasma membranes fuse at points through transmembrane proteins contributed by each cell, so the intercellular space at those points is obliterated, and the junction completely encircles the apex of the cell like a belt.
+## answer_c
+The adjacent cell- membranes are widely separated:
+## explanation_c
+Widely separated membranes describe the zonula adherens and the desmosome, where the gap is bridged by calcium-dependent proteins. Fusion and separation are opposite arrangements, and only one junction fuses.
+## answer_d
+It occurs as scattered Spots...
+## explanation_d
+Occurring as scattered spots is the macula adherens — macula means spot. The zonula occludens is a zonula, a belt, and encircles the cell completely.
+## topic
+Polarity and Membranous Specializations
+## subtopic
+Polarity and Membranous Specializations
+## main_concept
+CON-FND-2EAD7BC676C215
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
+## resource_ids
+src_ce4292e31edea7517e7b
+## learning_objective
+Pick the true statement about the zonula occludens from a set that describes the other three junctions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p3 q33. Manifest src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer given here is: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. All four junctions are also grouped as lateral specialisations, which is what makes option a false.
