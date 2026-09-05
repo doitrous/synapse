@@ -1,6 +1,6 @@
 # Item
 ## label
-A left-to-right shunt overloads the pulmonary circulation without causing cyanosis
+Left-to-right shunt physiology
 ## id
 CON-CVS-B1A2897491952B
 ## canonical_key
@@ -12,7 +12,9 @@ Acyanotic shunt | Left-to-right shunt
 ## arabic_aliases
 التحويلة اليسرى اليمنى
 ## definition
-Because left-sided pressures exceed right-sided ones, a communication between the circulations sends oxygenated blood back to the lungs. Systemic saturation is therefore normal, and the problem is volume: the pulmonary circulation and the receiving chambers handle the shunted blood repeatedly.
+Because left-sided pressures exceed right-sided ones, a communication between the circulations sends **oxygenated blood back to the lungs**.
+
+Systemic saturation is therefore normal — __the problem is volume__: the pulmonary circulation and the receiving chambers handle the shunted blood repeatedly.
 ## explicit_objective
 Explain why a left-to-right shunt produces no cyanosis and predict which chambers are volume-loaded.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Sustained pulmonary overcirculation can reverse a shunt permanently
+Eisenmenger physiology
 ## id
 CON-CVS-4F97E55A041408
 ## canonical_key
@@ -88,7 +90,11 @@ Eisenmenger syndrome | Shunt reversal
 ## arabic_aliases
 متلازمة أيزنمنغر
 ## definition
-Prolonged high pulmonary flow and pressure remodel the pulmonary arterioles irreversibly. Pulmonary vascular resistance eventually exceeds systemic resistance, the shunt reverses, and the patient becomes cyanosed. At that point closing the defect is harmful rather than curative.
+Prolonged high pulmonary flow and pressure **remodel the pulmonary arterioles irreversibly**.
+
+Pulmonary vascular resistance eventually exceeds systemic resistance, __the shunt reverses, and the patient becomes cyanosed__.
+
+At that point closing the defect is harmful rather than curative.
 ## explicit_objective
 Explain shunt reversal from progressive pulmonary vascular remodelling, and state why closure becomes contraindicated.
 ## pitfalls
@@ -152,7 +158,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Fixed splitting of the second heart sound is the signature of an atrial septal defect
+Fixed splitting signals an ASD
 ## id
 CON-CVS-7300317974119B
 ## canonical_key
@@ -164,7 +170,11 @@ Fixed split second heart sound | ASD auscultation
 ## arabic_aliases
 الانشطار الثابت
 ## definition
-Normally inspiration delays pulmonary valve closure and widens the split. Where the atria communicate, the two atria fill as a common chamber, so the extra inspiratory return is shared and right ventricular output no longer varies with respiration. The split is therefore wide and does not change.
+Normally inspiration delays pulmonary valve closure and widens the split.
+
+Where the atria communicate, they fill as a **common chamber**, so the extra inspiratory return is shared and right ventricular output no longer varies with respiration.
+
+The split is therefore __wide and does not change__.
 ## explicit_objective
 Derive fixed splitting from equalisation of atrial filling across the defect.
 ## pitfalls
@@ -228,7 +238,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-An atrial septal defect allows a venous clot to reach the systemic circulation
+Paradoxical embolism
 ## id
 CON-CVS-B5692258332FC3
 ## canonical_key
@@ -240,7 +250,9 @@ Paradoxical embolism | Cryptogenic stroke and shunt
 ## arabic_aliases
 الانصمام المتناقض
 ## definition
-An interatrial communication provides a route by which thrombus from the systemic veins bypasses the pulmonary filter and enters the arterial circulation. Transient right-to-left flow — during straining or coughing — is enough, which is why paradoxical embolism can occur despite a predominantly left-to-right shunt.
+An interatrial communication provides a route for thrombus from the systemic veins to __bypass the pulmonary filter__ and enter the arterial circulation.
+
+**Transient right-to-left flow** — during straining or coughing — is enough, which is why paradoxical embolism can occur despite a predominantly left-to-right shunt.
 ## explicit_objective
 Explain paradoxical embolism as bypass of the pulmonary filter through a transiently right-to-left communication.
 ## pitfalls
@@ -304,7 +316,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A small ventricular septal defect is loud; a large one is quiet
+Small VSD is loud, large VSD is quiet
 ## id
 CON-CVS-B04B41D8FDD7E6
 ## canonical_key
@@ -316,7 +328,11 @@ VSD murmur intensity | Maladie de Roger
 ## arabic_aliases
 شدة اللغط في عيب الحاجز البطيني
 ## definition
-Murmur intensity reflects turbulence, which depends on the pressure gradient across the defect. A small defect maintains a large gradient and generates a loud murmur while shunting little; a large defect equalises ventricular pressures, so the gradient and the murmur are small while the shunt is large.
+Murmur intensity reflects turbulence, which depends on the **pressure gradient** across the defect.
+
+A **small defect** keeps a large gradient and generates a loud murmur while shunting little.
+
+A **large defect** equalises ventricular pressures, so __the gradient and murmur are small while the shunt is large__.
 ## explicit_objective
 Explain why murmur loudness varies inversely with defect size and is a poor guide to severity.
 ## pitfalls
@@ -380,7 +396,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The ductus arteriosus normally closes when oxygen rises and prostaglandin falls
+How the ductus arteriosus closes
 ## id
 CON-CVS-6E63E04841FC34
 ## canonical_key
@@ -392,7 +408,11 @@ Patent ductus arteriosus | Ductal closure
 ## arabic_aliases
 انغلاق القناة الشريانية
 ## definition
-In fetal life the ductus is held open by low oxygen tension and circulating prostaglandin. After birth, rising arterial oxygen and falling prostaglandin cause functional closure within days. Where it persists, aortic blood flows continuously into the pulmonary artery.
+In fetal life the ductus is held open by **low oxygen tension and circulating prostaglandin**.
+
+After birth, __rising arterial oxygen and falling prostaglandin__ cause functional closure within days.
+
+Where it persists, aortic blood flows continuously into the pulmonary artery.
 ## explicit_objective
 Explain normal ductal closure from its two regulators, and derive the continuous murmur from the persistent pressure gradient.
 ## pitfalls
@@ -456,7 +476,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Tetralogy of Fallot is four features arising from one malformation
+Tetralogy of Fallot: one malformation, four features
 ## id
 CON-CVS-AF9212C18AAF03
 ## canonical_key
@@ -468,7 +488,9 @@ Tetralogy of Fallot | Fallot tetralogy
 ## arabic_aliases
 رباعية فالو
 ## definition
-Anterior and superior deviation of the outlet septum produces all four components at once: right ventricular outflow obstruction, a ventricular septal defect, an aorta overriding that defect, and right ventricular hypertrophy secondary to the obstruction.
+**Anterior and superior deviation of the outlet septum** produces all four components at once.
+
+These are: right ventricular outflow obstruction, a ventricular septal defect, an __aorta overriding that defect__, and right ventricular hypertrophy secondary to the obstruction.
 ## explicit_objective
 Derive the four components of tetralogy from a single septal malalignment rather than memorising them as a list.
 ## pitfalls
@@ -532,7 +554,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Cyanosis in tetralogy depends on the balance between two resistances
+Cyanosis in tetralogy is a resistance balance
 ## id
 CON-CVS-CD7C6176420AD1
 ## canonical_key
@@ -544,7 +566,9 @@ Hypercyanotic spell | Tet spell | Squatting
 ## arabic_aliases
 نوبة الزرقة
 ## definition
-Blood leaving the right ventricle chooses between the obstructed pulmonary outflow and the systemic circuit through the septal defect. Anything raising outflow obstruction or lowering systemic resistance sends more blood right-to-left and deepens cyanosis; raising systemic resistance does the reverse — which is why an affected child squats.
+Blood leaving the right ventricle chooses between the **obstructed pulmonary outflow** and the systemic circuit through the septal defect.
+
+Anything raising outflow obstruction or lowering systemic resistance sends more blood __right-to-left and deepens cyanosis__; raising systemic resistance does the reverse — which is why an affected child **squats**.
 ## explicit_objective
 Explain hypercyanotic spells and the relief given by squatting through the balance of two competing resistances.
 ## pitfalls
@@ -608,7 +632,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Coarctation produces hypertension above the narrowing and hypoperfusion below it
+Coarctation: hypertension above, hypoperfusion below
 ## id
 CON-CVS-16DABC14A1836E
 ## canonical_key
@@ -620,7 +644,9 @@ Coarctation of the aorta | Radiofemoral delay
 ## arabic_aliases
 التأخر الكعبري الفخذي
 ## definition
-A narrowing of the aorta, characteristically near the ductal insertion, raises pressure in the vessels arising proximally and reduces flow distally. The result is upper limb hypertension with reduced, delayed femoral pulses and a measurable arm-to-leg pressure gradient.
+A narrowing of the aorta, characteristically near the ductal insertion, **raises pressure proximally and reduces flow distally**.
+
+The result is __upper limb hypertension with reduced, delayed femoral pulses__ and a measurable arm-to-leg pressure gradient.
 ## explicit_objective
 Predict the distribution of hypertension and pulse abnormality from the site of the narrowing.
 ## pitfalls
@@ -684,7 +710,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Infective endocarditis requires a surface to settle on and organisms to settle there
+Endocarditis needs a surface and organisms
 ## id
 CON-CVS-45B20CE90AF6EE
 ## canonical_key
@@ -696,7 +722,9 @@ Infective endocarditis pathogenesis | Vegetation formation
 ## arabic_aliases
 تشكّل النبتة
 ## definition
-Turbulent flow or a foreign surface damages the endothelium, and a sterile platelet–fibrin deposit forms. Transient bacteraemia then seeds that deposit, and organisms multiply within a vegetation that shields them from immune cells and from antimicrobial penetration.
+Turbulent flow or a foreign surface damages the endothelium, and a **sterile platelet–fibrin deposit** forms.
+
+__Transient bacteraemia then seeds that deposit__, and organisms multiply within a vegetation that shields them from immune cells and from antimicrobial penetration.
 ## explicit_objective
 Explain endocarditis as the coincidence of an abnormal surface and a bacteraemia, and derive the need for prolonged therapy from the structure of the vegetation.
 ## pitfalls
@@ -760,7 +788,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Blood cultures must be taken before antibiotics in suspected endocarditis
+Cultures before antibiotics
 ## id
 CON-CVS-E32EB4A194172E
 ## canonical_key
@@ -772,7 +800,9 @@ Blood cultures in endocarditis | Culture-negative endocarditis
 ## arabic_aliases
 التهاب الشغاف سلبي الزرع
 ## definition
-Identifying the organism determines the agent and the duration of a treatment course measured in weeks. A single dose of antibiotic given before cultures are drawn can render them negative and leave the whole course empirical.
+Identifying the organism determines the agent and the duration of a course measured in **weeks**.
+
+A single dose of antibiotic given before cultures are drawn can __render them negative and leave the whole course empirical__.
 ## explicit_objective
 Justify taking multiple blood culture sets before antimicrobial therapy in a patient who is not critically unwell.
 ## pitfalls
@@ -836,7 +866,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Rheumatic fever is an immune response to streptococcal infection, not an infection of the heart
+Rheumatic fever is an immune response
 ## id
 CON-CVS-869AC2D954CA74
 ## canonical_key
@@ -848,7 +878,9 @@ Acute rheumatic fever | Molecular mimicry
 ## arabic_aliases
 المحاكاة الجزيئية
 ## definition
-Antibodies and T cells raised against group A streptococcal antigens cross-react with structurally similar host tissue in the heart, joints, skin and brain. The heart is damaged by the immune response weeks after the pharyngitis has resolved, and the organism is not present in the valve.
+Antibodies and T cells raised against group A streptococcal antigens **cross-react with similar host tissue** in the heart, joints, skin and brain.
+
+The heart is damaged by the immune response __weeks after the pharyngitis has resolved__, and the organism is not present in the valve.
 ## explicit_objective
 Explain rheumatic carditis by molecular mimicry and account for the interval between infection and cardiac involvement.
 ## pitfalls
@@ -912,7 +944,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Secondary prophylaxis prevents recurrence, and recurrence is what destroys the valve
+Secondary prophylaxis protects the valve
 ## id
 CON-CVS-ACA109BFD54CDE
 ## canonical_key
@@ -924,7 +956,9 @@ Secondary prophylaxis | Rheumatic fever recurrence
 ## arabic_aliases
 الوقاية الثانوية من الحمى الرثوية
 ## definition
-Valve damage accumulates with each episode of rheumatic fever. Continuous antimicrobial prophylaxis after a first attack prevents further streptococcal infection and therefore further attacks, and it is the single most effective intervention against rheumatic heart disease.
+Valve damage accumulates with **each episode** of rheumatic fever.
+
+Continuous antimicrobial prophylaxis after a first attack prevents further streptococcal infection and therefore further attacks — __the single most effective intervention against rheumatic heart disease__.
 ## explicit_objective
 Explain why prophylaxis is continued for years and why it is directed at recurrence rather than at the existing valve lesion.
 ## pitfalls
@@ -988,7 +1022,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Vasculitis is classified by the size of the vessel it affects
+Vasculitis is classified by vessel size
 ## id
 CON-CVS-A68AA3AE782AD6
 ## canonical_key
@@ -1000,7 +1034,9 @@ Vasculitis classification | Large, medium and small vessel vasculitis
 ## arabic_aliases
 تصنيف التهاب الأوعية
 ## definition
-Vasculitides are grouped by the calibre of vessel involved, because vessel size determines the clinical syndrome. Large-vessel disease produces limb claudication and aortic complications; medium-vessel disease produces organ infarction and aneurysms; small-vessel disease produces purpura, glomerulonephritis and alveolar haemorrhage.
+Vasculitides are grouped by the **calibre of vessel** involved, because vessel size determines the clinical syndrome.
+
+**Large-vessel** disease produces limb claudication and aortic complications; **medium-vessel** disease produces organ infarction and aneurysms; **small-vessel** disease produces purpura, glomerulonephritis and alveolar haemorrhage.
 ## explicit_objective
 Predict the clinical syndrome of a vasculitis from the calibre of vessel it affects.
 ## pitfalls
@@ -1064,7 +1100,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Suspected giant cell arteritis is treated before it is confirmed
+Treat suspected GCA before confirming
 ## id
 CON-CVS-36601970D9FB42
 ## canonical_key
@@ -1076,7 +1112,9 @@ Giant cell arteritis | Temporal arteritis
 ## arabic_aliases
 التهاب الشريان الصدغي
 ## definition
-Giant cell arteritis threatens the ophthalmic circulation, and visual loss once established is irreversible. Because a short delay for biopsy does not obscure the histology but does risk sight, treatment is started on clinical suspicion and the diagnosis confirmed afterwards.
+Giant cell arteritis threatens the ophthalmic circulation, and **visual loss once established is irreversible**.
+
+A short delay for biopsy does not obscure the histology but does risk sight, so __treatment is started on clinical suspicion and confirmed afterwards__.
 ## explicit_objective
 Justify starting treatment before histological confirmation from the irreversibility of the complication being prevented.
 ## pitfalls
@@ -1140,7 +1178,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Takayasu arteritis causes absent pulses and blood pressure asymmetry in young patients
+Takayasu: pulseless disease of the young
 ## id
 CON-CVS-93E29B279C9ADF
 ## canonical_key
@@ -1152,7 +1190,9 @@ Takayasu arteritis | Pulseless disease
 ## arabic_aliases
 داء انعدام النبض
 ## definition
-Granulomatous inflammation of the aorta and its major branches causes stenosis, occlusion and aneurysm. It affects young people, predominantly women, and presents with limb claudication, absent or asymmetric pulses, bruits and a blood pressure difference between the arms.
+Granulomatous inflammation of the aorta and its major branches causes **stenosis, occlusion and aneurysm**.
+
+It affects young people, predominantly women, and presents with __limb claudication, absent or asymmetric pulses, bruits and a blood pressure difference between the arms__.
 ## explicit_objective
 Recognise large-vessel vasculitis as a cause of pulse and pressure asymmetry in a young patient.
 ## pitfalls
