@@ -4,7 +4,7 @@
 CON-FND-BCF447304F1CBC
 
 ## label
-Five classic single-gene diseases each pair, in this course's teaching, with one predominant mutation type: Duchenne muscular dystrophy with nonsense mutation, sickle cell anaemia with missense mutation, alpha-thalassaemia with frameshift mutation, beta-thalassaemia with splice-site mutation, and Huntington disease with trinucleotide-repeat expansion
+Disease–mutation type associations: five classics
 
 ## canonical_key
 genetics.mutation.disease-mutation-type-associations
@@ -25,7 +25,17 @@ Huntington disease trinucleotide repeat
 فقر الدم المنجلي والطفرة المغلوطة
 
 ## definition
-This course pairs five classic single-gene diseases with the one mutation type each is taught to illustrate. Sickle cell anaemia is the textbook missense mutation: a single GAG-to-GTG change in the beta-globin gene substitutes valine for glutamate at position 6 (Glu6Val), changing one amino acid without shortening or shifting the reading frame. Huntington disease is the textbook trinucleotide-repeat expansion: an unstable, expanding CAG repeat in the HTT gene lengthens the huntingtin protein's polyglutamine tract, and (per the related genetic-anticipation concept) the repeat tends to expand further each generation. Beta-thalassaemia is taught here as the splice-site example: many beta-thalassaemia mutations disrupt the consensus splice sites at intron-exon boundaries of the beta-globin gene, causing aberrant splicing and reduced or absent beta-globin. Alpha-thalassaemia is taught here as the frameshift example, grouping it with mutations that shift the reading frame of the alpha-globin genes. Duchenne muscular dystrophy (DMD) is taught here as the nonsense-mutation example: a subset of DMD cases are caused by a point mutation that creates a premature stop codon in the dystrophin gene, producing a severely truncated, non-functional protein — this is also the specific DMD-causing mechanism targeted by nonsense-readthrough drugs such as ataluren.
+This course pairs five classic single-gene diseases with the one mutation type each is taught to illustrate.
+
+**Sickle cell anaemia — missense.** A single GAG-to-GTG change in the beta-globin gene substitutes valine for glutamate at position 6 (**Glu6Val**), changing one amino acid without shortening or shifting the reading frame.
+
+**Huntington disease — trinucleotide-repeat expansion.** An unstable, expanding **CAG repeat** in the HTT gene lengthens huntingtin's polyglutamine tract, and (per the related anticipation concept) the repeat tends to expand further each generation.
+
+**Beta-thalassaemia — splice-site.** Many beta-thalassaemia mutations disrupt the consensus splice sites at intron-exon boundaries of the beta-globin gene, causing aberrant splicing and reduced or absent beta-globin.
+
+**Alpha-thalassaemia — frameshift**, grouping it with mutations that shift the reading frame of the alpha-globin genes.
+
+**Duchenne muscular dystrophy — nonsense.** A subset of DMD cases arise from a point mutation that creates a **premature stop codon** in the dystrophin gene, producing a severely truncated, non-functional protein — __this is the mechanism targeted by nonsense-readthrough drugs such as ataluren.__
 
 ## explicit_objective
 Recall, for each of five classic diseases (Duchenne muscular dystrophy, sickle cell anaemia, alpha-thalassaemia, beta-thalassaemia, Huntington disease), the one mutation-type category this course pairs it with: nonsense, missense, frameshift, splice-site, and trinucleotide-repeat expansion respectively.
@@ -170,7 +180,7 @@ scopeRuling: Authored per this session's dispatch — Cluster 3/4 remainder (dis
 CON-FND-4E6727895BF8B5
 
 ## label
-Using a codon table lets you translate a short mRNA sequence codon-by-codon, classify what a given base change does to the encoded amino acid (silent, missense, nonsense, or a stop-codon-to-sense change that elongates the protein), and find a second, degenerate codon for the same amino acid
+Reading a codon table: point-mutation consequences
 
 ## canonical_key
 genetics.codon-table.point-mutation-consequence-lookup
@@ -189,7 +199,13 @@ Anticodon to codon to amino acid
 جدول الشفرة الوراثية
 
 ## definition
-A standard codon table lets a codon (read 5' to 3' on mRNA) be looked up directly against the amino acid it specifies, and the same table works in reverse for an anticodon: since anticodon and codon pair antiparallel, a tRNA anticodon 5'-GUA-3' pairs with mRNA codon 5'-UAC-3' (tyrosine), not with a codon read in the same 5'-to-3' direction as the anticodon itself. Reading several codons in a row translates a short mRNA stretch into its amino acid sequence, one triplet at a time, always starting the reading frame from the point specified (no gaps, no overlap). Comparing a wild-type and mutant sequence against the table classifies the point mutation: if both codons specify the same amino acid the change is silent (exploiting codon degeneracy — several codons can share one amino acid, e.g. both CAA and CAG code for glutamine), if they specify different amino acids it is missense, if a sense codon changes to a stop codon it is nonsense, and — the least intuitive case — if a stop codon changes to a sense codon, translation reads through the old stop site and continues until the next in-frame stop, producing an abnormally elongated protein (as in haemoglobin variants such as Hb Constant Spring, extended past the normal 141-residue beta-globin length).
+A standard codon table looks up a codon (read 5' to 3' on mRNA) against the amino acid it specifies. The same table works in reverse for an **anticodon**: since anticodon and codon pair **antiparallel**, a tRNA anticodon 5'-GUA-3' pairs with mRNA codon 5'-UAC-3' (tyrosine), not with a codon read in the anticodon's own 5'-to-3' direction.
+
+Reading several codons in a row translates a short mRNA stretch into its amino acid sequence, one triplet at a time, always from the specified reading frame — no gaps, no overlap.
+
+Comparing wild-type and mutant codons against the table classifies the point mutation. **Silent**: both codons specify the same amino acid (codon **degeneracy** — e.g. both CAA and CAG code for glutamine). **Missense**: they specify different amino acids. **Nonsense**: a sense codon becomes a stop codon.
+
+__The least intuitive case: a stop codon changing to a sense codon__ makes translation read through the old stop and continue to the next in-frame stop, producing an abnormally **elongated protein** (as in Hb Constant Spring, extended past the normal 141-residue beta-globin length).
 
 ## explicit_objective
 Use a codon table to translate a short mRNA sequence, identify a codon or anticodon's paired partner and amino acid, classify a point mutation as silent/missense/nonsense from before-and-after codons, and recognise that a stop-to-sense change elongates rather than shortens the protein.
@@ -335,7 +351,7 @@ scopeRuling: Authored per this session's dispatch — Cluster 3/4 remainder, cov
 CON-FND-18F0DFB98E394F
 
 ## label
-The adaptor hypothesis: a tRNA's amino-acid specificity during translation is set entirely by its anticodon, not by whichever amino acid happens to be charged onto it — a mischarged tRNA still delivers its cargo wherever its anticodon pairs
+The adaptor hypothesis of tRNA
 
 ## canonical_key
 translation.trna-charging.adaptor-hypothesis
@@ -351,7 +367,11 @@ tRNA specificity determined by anticodon
 ## arabic_aliases
 
 ## definition
-The ribosome and the mRNA template have no way to check which amino acid is actually attached to an incoming tRNA — they can only read the tRNA's anticodon against the mRNA codon. This is the adaptor hypothesis: a tRNA acts purely as an adaptor between a codon and an amino acid, and its identity for translation purposes is set entirely by its anticodon sequence, not by the amino acid it happens to be carrying. Classic experiments demonstrated this by chemically converting the cysteine already charged onto tRNA-cysteine into alanine, without touching the tRNA itself: the resulting alanyl-tRNA-cysteine still delivered alanine specifically wherever its (unchanged) cysteine anticodon paired with a cysteine codon, producing a protein with alanine substituted at cysteine positions. This shows that fidelity of amino acid incorporation actually depends on two separate, sequential steps: aminoacyl-tRNA synthetases correctly charging each tRNA with its matching amino acid in the first place, and (independently) accurate codon-anticodon pairing at the ribosome — either step failing produces a translation error, and the ribosome cannot catch a mischarging error made upstream by a faulty synthetase.
+The ribosome and mRNA template have no way to check which amino acid is actually attached to an incoming tRNA — they can only read the tRNA's **anticodon** against the mRNA codon. __This is the adaptor hypothesis: a tRNA's identity for translation is set entirely by its anticodon, not by the amino acid it happens to carry.__
+
+Classic experiments proved it by chemically converting the cysteine already charged onto tRNA-cysteine into alanine, without touching the tRNA. The resulting **alanyl-tRNA-cysteine** still delivered alanine wherever its unchanged cysteine anticodon paired with a cysteine codon — putting alanine at cysteine positions.
+
+So fidelity depends on **two separate, sequential steps**: aminoacyl-tRNA synthetases correctly charging each tRNA, and (independently) accurate codon-anticodon pairing at the ribosome. Either step can fail, and __the ribosome cannot catch a mischarging error made upstream by a faulty synthetase.__
 
 ## explicit_objective
 State the adaptor hypothesis: a mischarged tRNA is incorporated wherever its anticodon pairs with the matching mRNA codon, using whatever amino acid it happens to be carrying — not the amino acid normally associated with that tRNA — because the ribosome reads only the anticodon, not the attached amino acid.
