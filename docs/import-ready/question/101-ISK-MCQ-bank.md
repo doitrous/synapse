@@ -139441,3 +139441,1839 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from the question book itself.
 Answer changed from the source's: The bank carries A, but teres major is supplied by the lower subscapular nerve. The thoracodorsal nerve is the nerve to latissimus dorsi — it is named for that muscle's position on the back — so C is the answer.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1380
+## title
+Before folding, the most caudal structure in the tail fold is
+## question
+Before folding, the most caudal structure in the tail fold is
+## vignette
+This item asks the student to place the caudal structures of the disc before the tail fold turns them over.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cloacal membrane
+## explanation_a
+The cloacal membrane is the most caudal structure after folding, not before it. The whole point of the reversal is that these two swap places, and this is the answer to the neighbouring question rather than to this one.
+## answer_b
+Primitive streak
+## explanation_b
+The primitive streak lies in the caudal part of the epiblast, but the connecting stalk is attached beyond it — the streak is caudal within the disc, and the stalk is caudal to the disc.
+## answer_c
+Primitive node
+## explanation_c
+The primitive node is at the cranial end of the primitive streak, so it is the more cranial of the two, not the more caudal.
+## answer_d
+Connecting stalk
+## explanation_d
+Correct. Before folding the connecting stalk, carrying the allantois, is the most caudal structure; the tail fold then swings it cranially and ventrally, leaving the cloacal membrane the most caudal.
+
+Why this is right:
+- Folding of the embryonic disc begins at the end of the third week and is complete at the end of the fourth.
+- It is caused by expansion of the amniotic cavity, which produces longitudinal and transverse folding, and by growth of the neural tube and somites, which increases longitudinal length and drives the cephalo-caudal folds.
+- Its results are transformation of the flat disc into a cylindrical body with a body cavity, the amniotic cavity coming to surround the embryo, and formation of the primitive umbilical ring — the defect in the ventral abdominal wall where the lateral folds fail to fuse because of the connecting stalk, allantois and vitelline duct.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-44A219B862FFD5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Place the caudal structures of the disc before the tail fold turns them over.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p9 q55; Anatomy MCQ Book [2025] [first priority].pdf p95 q55. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1381
+## title
+After folding, the most caudal structure at tail fold is
+## question
+After folding, the most caudal structure at tail fold is
+## vignette
+This item asks the student to apply the reversal of position produced by the tail fold.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Primitive streak.
+## explanation_a
+The primitive streak is regressing by this stage and is in any case never the most caudal structure — the connecting stalk was attached beyond it before the fold.
+## answer_b
+Cloacal membrane.
+## explanation_b
+Correct. The tail fold carries the connecting stalk cranially and ventrally, and the cloacal membrane is left as the most caudal structure of the folded embryo.
+
+Why this is right:
+- Folding of the embryonic disc begins at the end of the third week and is complete at the end of the fourth.
+- It is caused by expansion of the amniotic cavity, which produces longitudinal and transverse folding, and by growth of the neural tube and somites, which increases longitudinal length and drives the cephalo-caudal folds.
+- Its results are transformation of the flat disc into a cylindrical body with a body cavity, the amniotic cavity coming to surround the embryo, and formation of the primitive umbilical ring — the defect in the ventral abdominal wall where the lateral folds fail to fuse because of the connecting stalk, allantois and vitelline duct.
+## answer_c
+Connecting stalk.
+## explanation_c
+The connecting stalk is the answer to the same question asked about the position before folding, and it is the keyed option as well. After the fold it has moved cranially and ventrally to lie in the ventral body wall at the umbilical ring, which is the opposite end of the reversal.
+## answer_d
+Buccopharyngeal membrane.
+## explanation_d
+The bucco-pharyngeal membrane is at the head end throughout. After folding it becomes the most cranial structure, which makes it the exact mirror of the answer here.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-44A219B862FFD5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Apply the reversal of position produced by the tail fold.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the connecting stalk, which is the answer to the paired question about the position *before* folding — the two questions are printed together and their keys appear to have been carried across. The reversal is explicit: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal. After folding the answer is therefore the cloacal membrane, option B.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1382
+## title
+Tail fold of the embryo is limited by Ac ad Ac ad ad ad
+## question
+Tail fold of the embryo is limited by Ac ad Ac ad ad ad
+## vignette
+This item asks the student to name the firm structure that limits each of the two longitudinal folds.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Notochord.
+## explanation_a
+The notochord limits the head fold, not the tail fold. The two limits are paired deliberately, and swapping them is the error the question is set to find.
+## answer_b
+Primitive streak.
+## explanation_b
+Correct. The relatively firm primitive streak limits the tail fold, as the notochord limits the head fold.
+
+Why this is right:
+- Folding of the embryonic disc begins at the end of the third week and is complete at the end of the fourth.
+- It is caused by expansion of the amniotic cavity, which produces longitudinal and transverse folding, and by growth of the neural tube and somites, which increases longitudinal length and drives the cephalo-caudal folds.
+- Its results are transformation of the flat disc into a cylindrical body with a body cavity, the amniotic cavity coming to surround the embryo, and formation of the primitive umbilical ring — the defect in the ventral abdominal wall where the lateral folds fail to fuse because of the connecting stalk, allantois and vitelline duct.
+## answer_c
+Yolk sac.
+## explanation_c
+The yolk sac is carried by folding rather than limiting it — the lateral folds pinch it into the vitelline duct.
+## answer_d
+Amniotic cavity.
+## explanation_d
+The amniotic cavity is what causes folding by expanding; something that drives a fold cannot be what stops it.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-44A219B862FFD5
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Name the firm structure that limits each of the two longitudinal folds.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p126 q4. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1383
+## title
+Notochord is developed from
+## question
+Notochord is developed from
+## vignette
+This item asks the student to trace the notochord to the exact part of the epiblast it comes from.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The epiblast cells at the primitive streak
+## explanation_a
+Epiblast cells at the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from a more precise place — the pit at the cranial end, not the length of the streak.
+## answer_b
+The hypoblast cells
+## explanation_b
+The hypoblast is displaced by the invading epiblast and contributes nothing to the notochord. Half the wrong answers in this chapter come from giving the hypoblast work the epiblast does.
+## answer_c
+Intraembryonic mesoderm
+## explanation_c
+The notochord is not formed from mesoderm; it arises alongside it, from the same epiblast, and lies in the median plane where mesoderm is absent.
+## answer_d
+Epiblast cells at the wall of primitive pit
+## explanation_d
+Correct. The prenotochordal process is a solid cord of epiblast cells from the wall of the primitive pit, which invaginates and grows cranially in the midline.
+
+Why this is right:
+- The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.
+- The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+- The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-1BCF37C48AF307
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Trace the notochord to the exact part of the epiblast it comes from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q32; Anatomy MCQ Book [2025] [first priority].pdf p91 q32; EOM ISK EOM exam 2024.pdf p10 q412. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc, src_16f747e1171423933757.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1384
+## title
+Neurenteric canal is formed due to degeneration of
+## question
+Neurenteric canal is formed due to degeneration of
+## vignette
+This item asks the student to name the wall whose loss opens the neurenteric canal, and say what it connects.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Floor of notochordal canal and underlying endoderm
+## explanation_a
+Correct. The floor of the notochordal canal, fused with the endoderm beneath it, degenerates — which opens the amniotic cavity into the yolk sac through the canal.
+
+Why this is right:
+- The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.
+- The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+- The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity.
+## answer_b
+Roof of notochordal canal and median endoderm
+## explanation_b
+The roof of the notochordal canal lies against ectoderm and persists; with the sides it becomes the notochordal plate. Losing the roof would open the canal upwards into nothing.
+## answer_c
+Roof of notochordal canal with median ectoderm
+## explanation_c
+The same error as B with the wrong layer named as well. The ectoderm is above the roof and the endoderm below the floor, and only the lower pair degenerates.
+## answer_d
+Buccopharyngeal membrane
+## explanation_d
+The bucco-pharyngeal membrane is at the cranial end of the disc and breaks down much later, opening the mouth into the foregut. It has nothing to do with the neurenteric canal.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-1BCF37C48AF307
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Name the wall whose loss opens the neurenteric canal, and say what it connects.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q36; Anatomy MCQ Book [2025] [first priority].pdf p92 q36. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1385
+## title
+One of the following is true regarding the notochord: Ac ad Ac ad ad ad
+## question
+One of the following is true regarding the notochord: Ac ad Ac ad ad ad
+## vignette
+This item asks the student to give the fate of the notochord and its position relative to the neural tube.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It extends between primitive pit and cloaca I membrane.
+## explanation_a
+The notochord extends from the primitive pit cranially as far as the bucco-pharyngeal membrane. The cloacal membrane is at the other end of the disc, caudal to the streak.
+## answer_b
+It persists as nucleus pulposus in the intervertebral discs.
+## explanation_b
+Correct. Most of the notochord degenerates; the part inside the intervertebral disc persists as the nucleus pulposus, which is the only piece of it a person keeps.
+
+Why this is right:
+- The notochord is the temporary primitive axial skeleton of the embryonic disc and develops in four steps.
+- The prenotochordal process is a solid cord of epiblast cells from the primitive pit that invaginates and extends cranially in the midline between ectoderm and endoderm as far as the bucco-pharyngeal membrane.
+- The cavity of the primitive pit then extends into it as the notochordal canal, whose roof lies against ectoderm, whose floor is fused with endoderm and whose cavity is continuous with the amniotic cavity.
+## answer_c
+It is formed from cells migrating from primitive streak.
+## explanation_c
+Cells migrating through the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from the primitive pit at the cranial end of the streak — a distinction of a few cell-widths that the books examine repeatedly.
+## answer_d
+It is dorsal to neural tube.
+## explanation_d
+The notochord is ventral to the neural tube: it lies under the ectoderm it induces to become the neural plate. A student who pictures the vertebral column, with the cord behind the bodies, has the relation the right way round and has only to remember that the notochord ends up inside the bodies.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-1BCF37C48AF307
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the fate of the notochord and its position relative to the neural tube.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p121 q2. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1386
+## title
+Gastrulation is
+## question
+Gastrulation is
+## vignette
+This item asks the student to define gastrulation by which disc it produces.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The formation of trilaminar embryonic disc
+## explanation_a
+Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one.
+
+Why this is right:
+- Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and with the chorionic villi it is the characteristic event of the third gestational week.
+- It begins with the primitive streak, a median narrow groove with bulging sides in the caudal part of the epiblast, formed at the beginning of the third week by proliferation and migration of epiblast cells; at its cranial end is the primitive node, a rounded bulge with the primitive pit in its middle.
+- The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and neural tube, and is absent in three places: at the bucco-pharyngeal membrane and at the cloacal membrane, where ectoderm and endoderm are fused, and in the median region between the primitive node and the bucco-pharyngeal membrane, which the notochord and neural tube occupy.
+## answer_b
+The formation of bilaminar embryonic disc
+## explanation_b
+The bilaminar disc is what gastrulation starts from, and it was made in the second week from the embryoblast. Chosen by students who have the two discs the right way round but the arrow reversed.
+## answer_c
+The formation of chorion and chorionic villi
+## explanation_c
+The chorion and the chorionic villi form in the same third week, which is why they are offered here, but they are extra-embryonic and are formed from the trophoblast, not from the disc.
+## answer_d
+The start of the process of folding
+## explanation_d
+Folding begins at the end of the third week, after gastrulation has provided it with three layers to fold. The order matters: there is nothing to fold into a gut until the endoderm exists.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-215BD7E9E58872
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Define gastrulation by which disc it produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p5 q30. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1387
+## title
+The primitive streak ﬁrst appears at the beginning of the __ week. Vi
+## question
+The primitive streak ﬁrst appears at the beginning of the __ week. Vi
+## vignette
+This item asks the student to date the primitive streak to the week gastrulation happens in.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+First
+## explanation_a
+The first week is fertilisation, cleavage and the blastocyst. There is no epiblast yet, so there is nothing for a primitive streak to form in. This is the keyed option, and it is a week and a half too early.
+## answer_b
+Second
+## explanation_b
+The second week is implantation and the bilaminar disc, which does create the epiblast. It is the strongest wrong answer here, and it stops one step short: the epiblast is made in the second week and the streak appears in it at the start of the third.
+## answer_c
+Third
+## explanation_c
+Correct. The primitive streak appears at the beginning of the third week, and its appearance is the beginning of gastrulation.
+
+Why this is right:
+- Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and with the chorionic villi it is the characteristic event of the third gestational week.
+- It begins with the primitive streak, a median narrow groove with bulging sides in the caudal part of the epiblast, formed at the beginning of the third week by proliferation and migration of epiblast cells; at its cranial end is the primitive node, a rounded bulge with the primitive pit in its middle.
+- The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and neural tube, and is absent in three places: at the bucco-pharyngeal membrane and at the cloacal membrane, where ectoderm and endoderm are fused, and in the median region between the primitive node and the bucco-pharyngeal membrane, which the notochord and neural tube occupy.
+## answer_d
+Fourth
+## explanation_d
+By the fourth week gastrulation is over and folding is under way. The streak is already regressing.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-215BD7E9E58872
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Date the primitive streak to the week gastrulation happens in.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p119 q1. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the first week. Gastrulation, beginning with the formation of the primitive streak in the epiblast, is one of the two characteristic events of the third gestational week — and the epiblast the streak forms in does not exist until the eighth day. The first week is fertilisation, cleavage and blastocyst formation. Set to C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1388
+## title
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## question
+Intraembryonic mesoderm is formed between · ectoderm and ' endoderm at
+## vignette
+This item asks the student to say where intra-embryonic mesoderm lies by knowing the three places it does not.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+BLiccopharyngeal membrane
+## explanation_a
+At the bucco-pharyngeal membrane the ectoderm and endoderm are fused to one another, so there is no space between them for mesoderm. That fusion is what makes it a membrane.
+## answer_b
+Cloacal membrane
+## explanation_b
+The cloacal membrane is the same arrangement at the caudal end — ectoderm fused to endoderm, and no mesoderm between.
+## answer_c
+On both sides of notochord and neural tube
+## explanation_c
+Correct. The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and the neural tube.
+
+Why this is right:
+- Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and with the chorionic villi it is the characteristic event of the third gestational week.
+- It begins with the primitive streak, a median narrow groove with bulging sides in the caudal part of the epiblast, formed at the beginning of the third week by proliferation and migration of epiblast cells; at its cranial end is the primitive node, a rounded bulge with the primitive pit in its middle.
+- The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and neural tube, and is absent in three places: at the bucco-pharyngeal membrane and at the cloacal membrane, where ectoderm and endoderm are fused, and in the median region between the primitive node and the bucco-pharyngeal membrane, which the notochord and neural tube occupy.
+## answer_d
+Median region between primitive pit and buccopharyngeal membrane
+## explanation_d
+The median region between the primitive node and the bucco-pharyngeal membrane is occupied by the notochord and the neural tube, so mesoderm is absent there too. All three wrong options name one of the three exceptions, which is why this question is harder than it looks: a student who has learnt only the exceptions still has to notice that none of them is the answer.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-215BD7E9E58872
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Say where intra-embryonic mesoderm lies by knowing the three places it does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q35. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1389
+## title
+Neural plate is a thickened median region of
+## question
+Neural plate is a thickened median region of
+## vignette
+This item asks the student to name the germ layer the neural plate is a thickening of.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Endoderm
+## explanation_a
+The endoderm is the lowest layer and lines the gut. Nothing nervous comes from it.
+## answer_b
+Mesoderm
+## explanation_b
+The mesoderm lies between the other two and is where the notochord that *induces* the plate sits. Confusing the inducer with the induced is the commonest way to reach this option.
+## answer_c
+Ectoderm
+## explanation_c
+Correct. The neural plate is a thickening of the ectoderm in the median plane, overlying the notochord.
+
+Why this is right:
+- The central nervous system is a derivative of ectoderm.
+## answer_d
+Notochord
+## explanation_d
+The notochord is beneath the plate and induces it, but it is a separate structure and does not thicken into it. If the plate were notochord the nervous system would be mesodermal.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-4BC4233153C3DC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Name the germ layer the neural plate is a thickening of.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p92 q37. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. The neural plate is a median thickening of the ectoderm, and the central nervous system is one of the ectodermal derivatives. Set to C.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1390
+## title
+Regarding formation of central nervous system, mark the correct statement: em em em
+## question
+Regarding formation of central nervous system, mark the correct statement: em em em
+## vignette
+This item asks the student to hold the order of neural tube closure and the identity of the inducer together.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+It is derived from ectoderm
+## explanation_a
+Correct. The central nervous system develops from ectoderm, by way of the neural plate and the neural tube.
+
+Why this is right:
+- The central nervous system is a derivative of ectoderm.
+## answer_b
+It is not induced by the underlying notochord
+## explanation_b
+A double negative hiding a false statement. The notochord does induce the overlying ectoderm to become the neural plate; that induction is the reason the plate lies exactly where the notochord does.
+## answer_c
+The neural groove results from depression of the neural crest
+## explanation_c
+The neural groove is a depression of the neural plate. The neural crest is what is left over at the lips of the groove once the folds fuse, so it is a product of the depression and cannot be the thing depressed.
+## answer_d
+The ﬁrst area of the neural tube to close is its caudal end. Ac ad
+## explanation_d
+Closure begins in the middle of the embryo and runs both ways, so the two ends shut last — and of them the cranial neuropore closes before the caudal. Naming the caudal end as first is wrong twice: it is neither first nor an area where closure begins.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-4BC4233153C3DC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Developmental process
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Hold the order of neural tube closure and the identity of the inducer together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p125 q25. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key. Only A is true: the central nervous system is a derivative of ectoderm, which is the one statement of the four confirmed in the list of ectodermal derivatives. B, C and D are each false, and the reasons are given in their explanations.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1391
+## title
+Epidermis of skin is derived from
+## question
+Epidermis of skin is derived from
+## vignette
+This item asks the student to separate surface ectoderm from the neural ectoderm beside it.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Neural crest
+## explanation_a
+The neural crest gives the melanocytes that live in the epidermis, and sensory ganglia, and much else — but not the keratinocytes that are the epidermis itself. This is the most interesting wrong answer in the leaf, because a crest derivative really does end up in the layer.
+## answer_b
+Neural tube
+## explanation_b
+The neural tube becomes the brain and spinal cord. It began as the same ectoderm, which is what makes the distinction between surface and neural ectoderm worth drawing.
+## answer_c
+Suiface ectoderm
+## explanation_c
+Correct. The epidermis comes from the surface ectoderm, the part of the layer that is left once the neural plate has sunk away from it.
+
+Why this is right:
+- The derivatives of two germ layers are listed directly.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+The intra-embryonic mesoderm gives the dermis beneath the epidermis, and the two are commonly answered for each other. Dermis is mesodermal, epidermis ectodermal.
+## topic
+Embryology
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-C84AD85AB265CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Separate surface ectoderm from the neural ectoderm beside it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q40. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1392
+## title
+Parenchyma of the liver is developed from
+## question
+Parenchyma of the liver is developed from
+## vignette
+This item asks the student to assign the working cells of a gut-derived gland to endoderm.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Endoderm
+## explanation_a
+Correct. The liver parenchyma is endodermal — it grows as a diverticulum from the foregut, whose lining is endoderm.
+
+Why this is right:
+- The derivatives of two germ layers are listed directly.
+## answer_b
+Ectoderm
+## explanation_b
+Ectoderm gives the epidermis, the nervous system and the two ends of the digestive tract. The liver arises from the foregut, well inside the endodermal stretch.
+## answer_c
+Neural crest
+## explanation_c
+Neural crest cells migrate very widely, but they do not build glandular parenchyma. The question says parenchyma deliberately.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+The commonest wrong answer, and it is half right: the liver's connective tissue, its capsule and its blood vessels are mesodermal. The parenchyma — the hepatocytes — is not, and the word "parenchyma" in the stem is what separates the two.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-C84AD85AB265CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Developmental process
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_764a2521809818b8abdc
+## learning_objective
+Assign the working cells of a gut-derived gland to endoderm.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p94 q49. Manifest src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question carries a key. The parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid are derivatives of endoderm, as glandular epithelium. Set to A.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1393
+## title
+By EM , the cell membrane appears as:
+## question
+By EM , the cell membrane appears as:
+## vignette
+This item asks the student to report what the electron microscope shows rather than what the chemistry is.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lipid bilayer
+## explanation_a
+The lipid bilayer is the molecular arrangement. The electron microscope shows one more layer than that, because it stains the two rows of heads and leaves the tails between them unstained.
+## answer_b
+Trilaminar
+## explanation_b
+Correct. Trilaminar — two electron-dense layers with an electron-lucent layer between them — the unit membrane.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_c
+unilaminar
+## explanation_c
+Unilaminar is what the membrane looks like below the magnification at which the three layers separate. It is an appearance of poor resolution, not of the membrane.
+## answer_d
+Pentalaminar
+## explanation_d
+Pentalaminar would need two membranes with something between them, which is what a nuclear envelope shows, not a cell membrane.
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Report what the electron microscope shows rather than what the chemistry is.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p2 q14. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1394
+## title
+Cell membrane appears as trilaminar structure because:
+## question
+Cell membrane appears as trilaminar structure because:
+## vignette
+This item asks the student to give the reason for the three-layered image rather than a true fact about the membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Phospholipids molecules have hydrophilic head and hydrophobic tail
+## explanation_a
+True of phospholipids and not an explanation. Having a head and a tail is why they form a bilayer; it is not why the picture has three layers.
+## answer_b
+Of the arrangement of phospholipids molecules bilayer
+## explanation_b
+Also true, and also not the reason. A bilayer by itself would be expected to look like two layers; the third comes from what the stain does, not from what the lipid does.
+## answer_c
+Of deposition of heavy metals (osmium) in the hydrophilic heads of phospholipids
+## explanation_c
+Correct. Osmium and other heavy metals deposit in the hydrophilic heads at both surfaces and not in the hydrophobic tails between them, so two dense lines appear with a pale line between.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_d
+All of the above
+## explanation_d
+"All of the above" is tempting because A and B are both true statements. The stem asks why the appearance is trilaminar, and only C answers that question — the other two explain the bilayer, which is the thing being imaged rather than the reason for the image.
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Give the reason for the three-layered image rather than a true fact about the membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p10 q10. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1395
+## title
+trilaminar membrane:
+## question
+trilaminar membrane:
+## vignette
+This item asks the student to count the dark and light lines of the unit membrane in the right order.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+1 dark line, 2 light
+## explanation_a
+Reversed. One dark line between two light ones would mean the stain sat in the tails and avoided the heads, which is the opposite of what osmium does.
+## answer_b
+2 dark line, 1 light
+## explanation_b
+Correct. Two dark, electron-dense lines — the stained hydrophilic heads at the two surfaces — with one light, electron-lucent line between them.
+
+Why this is right:
+- The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick.
+## answer_c
+2 dark line, 2 light
+## explanation_c
+Two and two makes four layers, not three, and the word trilaminar in the stem rules it out before any biology is needed.
+## answer_d
+1 dark line, 1 light
+## explanation_d
+One and one makes two, which is the lipid bilayer counted rather than the image described.
+## topic
+Cytology
+## subtopic
+Third Week of Development
+## main_concept
+CON-FND-F4B7458F8B8265
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Count the dark and light lines of the unit membrane in the right order.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p2 q12. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1396
+## title
+One of the following are paired structures in the embryo:
+## question
+One of the following are paired structures in the embryo:
+## vignette
+This item asks the student to separate the paired structures of the early embryo from the median, unpaired ones.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Somites.
+## explanation_a
+Correct. The paraxial mesoderm lies on both sides of the midline, so its segments come in pairs; somites are counted in pairs from the first pair of occipital somites on the twentieth day onwards.
+
+Why this is right:
+- Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and neural tube.
+## answer_b
+Buccopharyngeal membrane.
+## explanation_b
+The bucco-pharyngeal membrane is a single median structure, one of the two places where ectoderm and endoderm fuse with no mesoderm between them. There is one of it, at the cranial end of the disc.
+## answer_c
+Pericardial bulge.
+## explanation_c
+The pericardial bulge is a single midline swelling, the developing heart lifting the ventral surface of the embryo. Students pair it because the heart later has two sides, but the bulge itself is one.
+## answer_d
+Allantois.
+## explanation_d
+The allantois is a single diverticulum from the caudal wall of the yolk sac into the connecting stalk. Like the other two distractors it is median and unpaired, and it is offered because it is the least familiar of the four.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-5E63C211DEEE00
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Separate the paired structures of the early embryo from the median, unpaired ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q45. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: somites are counted in pairs throughout — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs, three pairs separating each day — because the paraxial mesoderm lies on both sides of the notochord and neural tube and segments on each side. The other three options are single median structures.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1397
+## title
+Neural tube is formed from the following cells:
+## question
+Neural tube is formed from the following cells:
+## vignette
+This item asks the student to give the germ layer the neural tube comes from, and say what each of the other layers offered makes instead.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Endoderm.
+## explanation_a
+Endoderm makes the epithelial lining of the gut and its glands. It lies on the opposite face of the disc from the neural plate, and a student picking it has usually confused the notochord’s induction — which comes from below — with the source of the tube itself.
+## answer_b
+Lateral plate mesoderm
+## explanation_b
+Lateral plate mesoderm splits into somatic and splanchnic layers and lines the body cavity; the neural tube is not mesodermal at all. It is offered because mesoderm is the layer that makes most of the body’s bulk.
+## answer_c
+Ectoderm.
+## explanation_c
+Correct. The neural plate is a thickened median region of ectoderm; its edges rise as neural folds, meet and fuse to make the neural tube, and that tube becomes the brain and the spinal cord.
+
+Why this is right:
+- The central nervous system is a derivative of ectoderm.
+## answer_d
+Extraembryonic mesoderm.
+## explanation_d
+Extra-embryonic mesoderm is outside the embryonic disc altogether — it makes the connecting stalk, the chorion and the linings of the cavities — so it can form no part of the embryo’s own nervous system.
+## topic
+Third Week of Development
+## subtopic
+Third Week of Development
+## main_concept
+CON-DEV-4BC4233153C3DC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Developmental process
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Third Week of Development
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Give the germ layer the neural tube comes from, and say what each of the other layers offered makes instead.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p6 q47. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the whole nervous system derives from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.
