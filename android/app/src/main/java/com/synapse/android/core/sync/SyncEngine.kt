@@ -11,6 +11,7 @@ import com.synapse.android.core.api.RemoteState
 import com.synapse.android.core.api.SynapseApi
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.cache.PendingDocument
+import com.synapse.android.core.library.LibraryMarks
 import com.synapse.android.core.model.LedgerDecoder
 import com.synapse.android.core.practical.PRACTICAL_PROGRESS_KEY
 import com.synapse.android.core.progress.AttemptStore
@@ -322,10 +323,11 @@ class SyncEngine(
 
         /**
          * The per-student documents the qbank, practical, notebook and
-         * calendar surfaces read. Enumerated for the same reason
+         * calendar surfaces read, plus the article-marks document the Reader
+         * writes ([LibraryMarks.storageKey]). Enumerated for the same reason
          * [CATALOGUE_KEYS] is. A key outside this list (mastery, adaptive,
-         * library, whiteboard, reader, bookmarks, annotations) is
-         * deliberately out of scope for this milestone.
+         * whiteboard, bookmarks, annotations) is deliberately out of scope
+         * for this milestone.
          *
          * All entries are spelled `nishany…`, matching the web app post-rebrand.
          * The three that have a named constant (the write path uses it) are
@@ -350,6 +352,7 @@ class SyncEngine(
             // neither (no on-device session runner).
             CoverageDebt.KEY, // nishany.progress.adaptive.coverageDebt.v1
             ReadinessResult.KEY, // nishany.progress.adaptive.readiness.v1
+            LibraryMarks.storageKey, // nishany.library.marks.v1 -- article highlights and sticky notes (M6)
         )
 
         /**
