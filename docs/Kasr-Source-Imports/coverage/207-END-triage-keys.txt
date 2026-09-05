@@ -26,7 +26,20 @@ d. Ejaculatory ducts); OCR reads "@ Tubuli recti @ Ejaculatory ducts". The key i
 ambiguous/contradictory (single-best-answer stem, two answers marked), so per protocol the
 item is excluded rather than guessed. Not authored.
 
-Q27-108 (Anatomy p.4-6, Physiology, then remaining sections): OCR'd (see
+— Tranche 2 (Anatomy, Q27-58) render-verified —
+Method same as above: rendered pp.4, 5 and 6 (the full Q27-58 Anatomy range) at 170 dpi and
+checked every solid red circle against the OCR "@" markers by eye — all three pages matched
+exactly, 0 disagreements, no double-marks. Section map confirmed: Q27-58 Anatomy (pelvis,
+perineum, endocrine-gland surgical anatomy, genital-duct embryology), Physiology begins at
+Q59 (p.7). Note Q53 (a "one is incorrect" stem) the OCR rendered the circle glyph as "©"
+rather than "@" — the render confirms a single solid red circle over option b.
+
+Q27.a  Q28.d  Q29.c  Q30.b  Q31.a  Q32.b  Q33.c  Q34.c  Q35.b  Q36.c
+Q37.d  Q38.b  Q39.c  Q40.c  Q41.a  Q42.b  Q43.c  Q44.c  Q45.a  Q46.b
+Q47.b  Q48.d  Q49.c  Q50.a  Q51.c  Q52.a  Q53.b  Q54.c  Q55.c  Q56.d
+Q57.b  Q58.a
+
+Q59-108 (Physiology from Q59 p.7, then any remaining sections): OCR'd (see
 `scripts/content/pagetext.mjs show` on this PDF) but NOT yet individually render-verified —
 treat that OCR text as a lead, not a confirmed key, until rendered. Next author picking up
-this paper starts at Q27 (Anatomy) and spot-renders before trusting the "@" reading.
+this paper starts at Q59 (Physiology) and spot-renders before trusting the "@" reading.
