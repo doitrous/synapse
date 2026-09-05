@@ -1,6 +1,6 @@
 # Item
 ## label
-A test changes the probability of a diagnosis; it does not deliver the answer
+A test changes probability, not the answer
 ## id
 CON-CVS-B52EEBB628B374
 ## canonical_key
@@ -12,7 +12,9 @@ Pre-test probability | Bayesian interpretation of tests
 ## arabic_aliases
 الاحتمال قبل الاختبار
 ## definition
-The meaning of any result depends on how likely the diagnosis was before it was performed. The same positive result raises probability decisively in a high-risk patient and barely at all in a low-risk one, so the clinical assessment that precedes the test determines what the test can tell you.
+The meaning of any result depends on __how likely the diagnosis was before the test__.
+
+The same positive result raises probability decisively in a high-risk patient and barely at all in a low-risk one — so the **pre-test clinical assessment** determines what the test can tell you.
 ## explicit_objective
 Interpret a test result in the light of pre-test probability, and explain why the same result carries different weight in different patients.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Anatomical and functional tests answer different questions
+Anatomical vs functional tests
 ## id
 CON-CVS-95BB587187A5EA
 ## canonical_key
@@ -88,7 +90,9 @@ CT coronary angiography versus functional testing | Ischaemia testing
 ## arabic_aliases
 الاختبار التشريحي مقابل الوظيفي
 ## definition
-An anatomical test shows whether a stenosis is present; a functional test shows whether it limits flow enough to cause ischaemia. A narrowing may exist without causing ischaemia, and ischaemia may occur without an obstructive epicardial lesion, so the two tests are not interchangeable.
+An **anatomical test** shows whether a stenosis is present; a **functional test** shows whether it limits flow enough to cause ischaemia.
+
+A narrowing may exist without causing ischaemia, and ischaemia may occur without an obstructive epicardial lesion — so __the two are not interchangeable__.
 ## explicit_objective
 Choose between anatomical and functional testing according to the clinical question being asked.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Stress testing provokes the mismatch that rest conceals
+Stress testing provokes the mismatch
 ## id
 CON-CVS-21732137EABE8C
 ## canonical_key
@@ -164,7 +168,9 @@ Exercise testing | Pharmacological stress testing
 ## arabic_aliases
 اختبار الجهد
 ## definition
-A flow-limiting stenosis is silent at rest because resting demand is met. Stress testing raises demand, or dilates the coronary bed pharmacologically, to expose the territory that cannot increase its supply — which is then detected as ECG change, wall motion abnormality or a perfusion defect.
+A flow-limiting stenosis is silent at rest because resting demand is met.
+
+Stress testing **raises demand**, or dilates the coronary bed pharmacologically, to expose the territory that cannot increase its supply — detected as __ECG change, wall motion abnormality or a perfusion defect__.
 ## explicit_objective
 Explain the principle common to all stress testing as provocation of a supply–demand mismatch.
 ## pitfalls
@@ -228,7 +234,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Exercise capacity carries prognostic information independent of the ischaemia result
+Exercise capacity is prognostic in itself
 ## id
 CON-CVS-9751EFEBFE8ABA
 ## canonical_key
@@ -240,7 +246,9 @@ Functional capacity | Exercise tolerance prognosis
 ## arabic_aliases
 القدرة الوظيفية
 ## definition
-How much work a patient can perform, and how their heart rate and blood pressure respond, predicts outcome regardless of whether ischaemia is demonstrated. A patient who exercises well has a good prognosis even with some ischaemia; one who cannot has a poor one even with a negative test.
+How much work a patient can perform, and how heart rate and blood pressure respond, **predicts outcome regardless of whether ischaemia is shown**.
+
+A patient who exercises well has a good prognosis even with some ischaemia; __one who cannot has a poor one even with a negative test__.
 ## explicit_objective
 Interpret exercise capacity and haemodynamic response as prognostic data in their own right.
 ## pitfalls
@@ -304,7 +312,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Echocardiography is limited by the window available, not by the machine
+Echo is limited by the window
 ## id
 CON-CVS-B0902BABC49C92
 ## canonical_key
@@ -316,7 +324,9 @@ Acoustic window | Transthoracic echocardiography limitations
 ## arabic_aliases
 النافذة الصوتية
 ## definition
-Ultrasound cannot cross bone or air, so images are acquired through the intercostal spaces and from the subcostal and suprasternal positions. Obesity, lung disease and chest deformity degrade the window, and structures that lie behind others are seen poorly — which is why some questions require a transoesophageal approach.
+Ultrasound cannot cross **bone or air**, so images are acquired through the intercostal spaces and from the subcostal and suprasternal positions.
+
+Obesity, lung disease and chest deformity degrade the window, and structures lying behind others are seen poorly — __which is why some questions require a transoesophageal approach__.
 ## explicit_objective
 Explain the physical limits of transthoracic imaging and identify when an alternative window is required.
 ## pitfalls
@@ -380,7 +390,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Doppler measures velocity, and pressure gradients are calculated from it
+Doppler measures velocity, not pressure
 ## id
 CON-CVS-61A1CF3A18F173
 ## canonical_key
@@ -392,7 +402,9 @@ Doppler echocardiography | Bernoulli equation
 ## arabic_aliases
 معادلة برنولي
 ## definition
-Doppler records the velocity of blood, and a pressure gradient is derived from that velocity rather than measured directly. Because the calculation depends on velocity squared, small errors in velocity produce large errors in gradient — and velocity is underestimated whenever the beam is not aligned with the flow.
+Doppler records the **velocity** of blood, and a pressure gradient is __derived__ from that velocity rather than measured directly.
+
+Because the calculation depends on **velocity squared**, small velocity errors produce large gradient errors — and velocity is underestimated whenever the beam is not aligned with the flow.
 ## explicit_objective
 Explain that echocardiographic gradients are derived quantities and identify beam alignment as the principal source of error.
 ## pitfalls
@@ -456,7 +468,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The transoesophageal probe sees what lies behind the heart
+TOE sees what lies behind the heart
 ## id
 CON-CVS-F75B2BB3741E56
 ## canonical_key
@@ -468,7 +480,9 @@ Transoesophageal echocardiography | TOE indications
 ## arabic_aliases
 تخطيط الصدى عبر المريء
 ## definition
-The oesophagus lies immediately behind the left atrium, so a probe within it images the posterior structures — left atrium and its appendage, mitral valve, interatrial septum, prosthetic valves and the aorta — with far greater resolution than the transthoracic approach, and without intervening lung or rib.
+The oesophagus lies immediately behind the **left atrium**, so a probe within it images the posterior structures — left atrium and its appendage, mitral valve, interatrial septum, prosthetic valves and the aorta.
+
+It does so with __far greater resolution than the transthoracic approach__, and without intervening lung or rib.
 ## explicit_objective
 Derive the indications for transoesophageal imaging from the anatomical relationship between oesophagus and left atrium.
 ## pitfalls
@@ -532,7 +546,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-More sensitive assays detect smaller injury, so specificity falls
+Sensitive troponin: the specificity trade-off
 ## id
 CON-CVS-8B1E0014E27298
 ## canonical_key
@@ -544,7 +558,9 @@ High-sensitivity troponin | Assay sensitivity trade-off
 ## arabic_aliases
 التروبونين عالي الحساسية
 ## definition
-A more sensitive troponin assay detects smaller quantities of myocardial injury. That makes it better at ruling out infarction quickly, and it also detects the many non-coronary causes of myocyte injury — so more results are abnormal and fewer of those abnormalities are infarcts.
+A more sensitive troponin assay detects **smaller quantities of injury**.
+
+That makes it better at __ruling out infarction quickly__ — but it also detects the many non-coronary causes of myocyte injury, so more results are abnormal and fewer of those abnormalities are infarcts.
 ## explicit_objective
 Explain the trade-off produced by increasing assay sensitivity and its consequence for interpretation.
 ## pitfalls
@@ -608,7 +624,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A biomarker reports that a tissue was injured, not why
+A biomarker reports injury, not cause
 ## id
 CON-CVS-12C4BD273890DE
 ## canonical_key
@@ -620,7 +636,11 @@ Myocardial injury versus infarction | Biomarker specificity
 ## arabic_aliases
 الأذية العضلية مقابل الاحتشاء
 ## definition
-Cardiac troponin is specific to cardiac myocytes but not to any particular mechanism of injuring them. Sepsis, arrhythmia, pulmonary embolism, myocarditis, heart failure and renal impairment all release it. The assay identifies the tissue; the clinician identifies the cause.
+Cardiac troponin is specific to **cardiac myocytes** but not to any particular mechanism of injuring them.
+
+Sepsis, arrhythmia, pulmonary embolism, myocarditis, heart failure and renal impairment all release it.
+
+__The assay identifies the tissue; the clinician identifies the cause.__
 ## explicit_objective
 Distinguish tissue specificity from mechanism specificity, and apply it to the interpretation of a raised troponin.
 ## pitfalls
@@ -684,7 +704,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The ECG is a recording of one interval of time, not of a disease
+The ECG is a snapshot
 ## id
 CON-CVS-A7008784E3B0E0
 ## canonical_key
@@ -696,7 +716,9 @@ Serial ECG | ECG limitations
 ## arabic_aliases
 تكرار التخطيط
 ## definition
-An electrocardiogram records electrical activity over a few seconds. Intermittent arrhythmia, evolving ischaemia and dynamic change are invisible on a single trace, which is why serial recording, monitoring and extended ambulatory recording exist.
+An electrocardiogram records electrical activity over a **few seconds**.
+
+Intermittent arrhythmia, evolving ischaemia and dynamic change are __invisible on a single trace__ — which is why serial recording, monitoring and extended ambulatory recording exist.
 ## explicit_objective
 State the temporal limitation of a single recording and identify when extended recording is required.
 ## pitfalls
@@ -760,7 +782,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A previous trace is one of the most valuable investigations available
+The old ECG is a key investigation
 ## id
 CON-CVS-9AE6959A08D82B
 ## canonical_key
@@ -772,7 +794,9 @@ Old ECG comparison | Baseline ECG
 ## arabic_aliases
 مقارنة التخطيط القديم
 ## definition
-Many ECG abnormalities are chronic and of no acute significance, and many acute changes are subtle. Comparing the current trace with a previous one converts an ambiguous finding into either a new change requiring action or an old one requiring none.
+Many ECG abnormalities are **chronic and of no acute significance**, and many acute changes are subtle.
+
+Comparing the current trace with a previous one converts an ambiguous finding into __either a new change requiring action or an old one requiring none__.
 ## explicit_objective
 Justify seeking a previous ECG as an investigation in its own right.
 ## pitfalls
@@ -836,7 +860,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Compressions maintain circulation; defibrillation restores rhythm
+Compressions vs defibrillation
 ## id
 CON-CVS-6268E5888A90A6
 ## canonical_key
@@ -848,7 +872,11 @@ Chest compressions | Defibrillation | Cardiac arrest principles
 ## arabic_aliases
 الضغط الصدري مقابل إزالة الرجفان
 ## definition
-The two interventions do different things and neither substitutes for the other. Compressions generate enough flow to perfuse the brain and myocardium and to keep the myocardium responsive; defibrillation depolarises the myocardium simultaneously so that an organised rhythm can resume. Compressions buy the time in which a shock can work.
+The two interventions do different things and neither substitutes for the other.
+
+**Compressions** generate enough flow to perfuse the brain and myocardium and keep the myocardium responsive; **defibrillation** depolarises the myocardium simultaneously so an organised rhythm can resume.
+
+__Compressions buy the time in which a shock can work.__
 ## explicit_objective
 Distinguish the purpose of compressions from that of defibrillation and explain why interruptions to compressions reduce the chance a shock succeeds.
 ## pitfalls
@@ -912,7 +940,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Cardioversion is synchronised to the QRS; defibrillation is not
+Synchronised vs unsynchronised shock
 ## id
 CON-CVS-E183E5E1F6AD12
 ## canonical_key
@@ -924,7 +952,9 @@ Synchronised cardioversion | Defibrillation | R-on-T
 ## arabic_aliases
 الصدمة المتزامنة
 ## definition
-In an organised rhythm the shock is timed to the R wave, because a shock landing on the T wave — during repolarisation, when the myocardium is electrically heterogeneous — can induce ventricular fibrillation. In ventricular fibrillation there is no organised complex to synchronise to, so the shock is delivered unsynchronised.
+In an organised rhythm the shock is timed to the **R wave**, because a shock landing on the T wave — during repolarisation, when the myocardium is heterogeneous — can __induce ventricular fibrillation__.
+
+In ventricular fibrillation there is no organised complex to synchronise to, so the shock is delivered **unsynchronised**.
 ## explicit_objective
 Explain why synchronisation is required in an organised rhythm and impossible in fibrillation.
 ## pitfalls
@@ -988,7 +1018,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A pacemaker must both capture the myocardium and sense its own activity
+A pacemaker must capture and sense
 ## id
 CON-CVS-EE68014279BC8B
 ## canonical_key
@@ -1000,7 +1030,13 @@ Capture | Sensing | Pacemaker function
 ## arabic_aliases
 الالتقاط والاستشعار
 ## definition
-Pacing has two requirements. **Capture** is delivery of a stimulus sufficient to depolarise the myocardium, seen as a pacing spike followed by a complex. **Sensing** is detection of the heart's own beats so the pacemaker does not compete with them. Failure of either produces a distinct and recognisable malfunction.
+Pacing has two requirements.
+
+**Capture** is delivery of a stimulus sufficient to depolarise the myocardium, seen as a pacing spike followed by a complex.
+
+**Sensing** is detection of the heart's own beats so the pacemaker does not compete with them.
+
+__Failure of either produces a distinct, recognisable malfunction.__
 ## explicit_objective
 Distinguish failure to capture from failure to sense, and identify each on a trace.
 ## pitfalls
@@ -1064,7 +1100,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Coronary angiography shows the lumen, not the vessel wall
+Angiography shows the lumen, not the wall
 ## id
 CON-CVS-455F307C3089F8
 ## canonical_key
@@ -1076,7 +1112,9 @@ Luminography | Coronary angiography limitations
 ## arabic_aliases
 حدود تصوير الأوعية
 ## definition
-Angiography is a silhouette of the contrast-filled lumen. Plaque that has expanded outwards rather than inwards leaves the lumen unchanged and is therefore invisible, so a normal angiogram does not exclude atherosclerosis — only obstructive atherosclerosis.
+Angiography is a **silhouette of the contrast-filled lumen**.
+
+Plaque that has expanded outwards rather than inwards leaves the lumen unchanged and is therefore invisible — so __a normal angiogram excludes only obstructive atherosclerosis, not atherosclerosis itself__.
 ## explicit_objective
 Explain outward remodelling and its consequence for the interpretation of a normal angiogram.
 ## pitfalls
@@ -1140,7 +1178,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Every catheter procedure carries contrast, radiation and access risk
+Every catheter procedure has costs
 ## id
 CON-CVS-F4F8387A96A01F
 ## canonical_key
@@ -1152,7 +1190,9 @@ Contrast nephropathy | Radiation dose | Vascular access complications
 ## arabic_aliases
 مخاطر القسطرة
 ## definition
-Catheter-based investigation is not a free look. Iodinated contrast risks renal injury in susceptible patients; ionising radiation carries a cumulative dose to patient and operator; and arterial access risks bleeding, haematoma, pseudoaneurysm and limb ischaemia — reduced but not abolished by the radial approach.
+Catheter-based investigation is not a free look.
+
+**Iodinated contrast** risks renal injury in susceptible patients; **ionising radiation** carries a cumulative dose to patient and operator; and **arterial access** risks bleeding, haematoma, pseudoaneurysm and limb ischaemia — __reduced but not abolished by the radial approach__.
 ## explicit_objective
 Name the three categories of procedural risk and weigh them against the information the procedure will provide.
 ## pitfalls
