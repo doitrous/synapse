@@ -261,3 +261,41 @@ University teaching material held for internal extraction only. Not redistributa
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_1521fa3aed9594cd3e0c
+## title
+EOM - {INT - 208} 198 (Solved)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOM/EOM - {INT - 208} 198 (Solved).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+18
+## sha256
+1521fa3aed9594cd3e0cf7b56173721575494fe199fd7c21686f9fc469772d4a
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+208 INT End-of-Module exam, 2026 sitting (printed exam date 6/5/2026, which wins over the batch-derived sitting-year formula), 120 MCQs, 72 marks, 18 pages. Q1-60 are 4-option (a-d) general pathology; Q61-120 are 5-option (a-e) USMLE-style clinical pharmacology. OCR'd image-PDF with no native text layer and no PDF annotations: the answer key is a scanned cyan highlight-circle drawn over the correct option's letter, recovered from the OCR text and confirmed by render at 150 dpi (pages 1/2/5/8/13, 100% OCR-render agreement). 119/120 keyed; Q56 excluded (two options circled with a handwritten "Both are correct", an ambiguous two-answer key). See coverage/208-INT-triage-keys.txt third section.
+## confidence
+0.9
+## is_assessment
+true

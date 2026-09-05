@@ -1,71 +1,10 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| (growth disorders, healing, hemodynamics, techniques), bacterial/fungal/viral infections | 0 | 0 | 1 | 1 |
-| --- | 0 | 0 | 1 | 1 |
-| 119/120 keys recovered (Q74 unmarked, held). Of these, 38 authored in this pass (lane 4, | 0 | 0 | 1 | 1 |
-| 120/120 questions triaged, 120/120 keys recovered (all from the printed key page, no | 0 | 0 | 1 | 1 |
 | 2023-eom-general-pathology | 115 | 5 | 0 | 120 |
 | 2024-eom-general-pathology-and-pharmacology | 54 | 11 | 0 | 65 |
 | 2024-eom-pharmacology-tail-continuation | 44 | 11 | 0 | 55 |
-| 2026-baqoon-general-pathology-and-techniques | 10 | 10 | 0 | 20 |
-| 208 INT papers: 21 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged; Q21-72 of the Baqoon 2026 paper are matching-format, out of scope for this SBA lane. | 0 | 0 | 1 | 1 |
-| 208 INT — triage keys | 0 | 0 | 1 | 1 |
-| End of INT - 208 2023 195 With Answers.pdf") | 0 | 0 | 1 | 1 |
-| Method: green highlight annotation on the correct option, one per question, no separate | 0 | 0 | 1 | 1 |
-| Method: printed answer key, page 21 ("ANSWERS INT 208"), native text layer, confirmed by | 0 | 0 | 1 | 1 |
-| Module INT-208 2024 ANS .pdf") | 0 | 0 | 1 | 1 |
-| Note: the source's own key table repeats "60.D" at the start of the next column (both | 0 | 0 | 1 | 1 |
-| Q1.B      Q2.D      Q3.C      Q4.B      Q5.B      Q6.A      Q7.B      Q8.A      Q9.D      Q10.D | 0 | 0 | 1 | 1 |
-| Q1.D    Q2.B    Q3.B    Q4.B    Q5.C    Q6.D    Q7.C    Q8.D    Q9.C    Q10.B | 0 | 0 | 1 | 1 |
-| Q101.B    Q102.B    Q103.C    Q104.D    Q105.A    Q106.B    Q107.A    Q108.C    Q109.A    Q110.D | 0 | 0 | 1 | 1 |
-| Q101.C  Q102.A  Q103.B  Q104.D  Q105.D  Q106.D  Q107.B  Q108.C  Q109.C  Q110.B | 0 | 0 | 1 | 1 |
-| Q11.C   Q12.A   Q13.C   Q14.B   Q15.C   Q16.C   Q17.A   Q18.A   Q19.D   Q20.C | 0 | 0 | 1 | 1 |
-| Q11.D     Q12.C     Q13.C     Q14.C     Q15.B     Q16.A     Q17.C     Q18.C     Q19.A     Q20.C | 0 | 0 | 1 | 1 |
-| Q111.D    Q112.A    Q113.B    Q114.B    Q115.A    Q116.B    Q117.C    Q118.B    Q119.C    Q120.C | 0 | 0 | 1 | 1 |
-| Q111.D  Q112.A  Q113.A  Q114.C  Q115.D  Q116.B  Q117.B  Q118.A  Q119.C  Q120.D | 0 | 0 | 1 | 1 |
-| Q21.C   Q22.C   Q23.A   Q24.B   Q25.C   Q26.D   Q27.B   Q28.D   Q29.B   Q30.D | 0 | 0 | 1 | 1 |
-| Q21.D     Q22.C     Q23.C     Q24.C     Q25.D     Q26.A     Q27.C     Q28.C     Q29.C     Q30.D | 0 | 0 | 1 | 1 |
-| Q31.B     Q32.A     Q33.B     Q34.C     Q35.B     Q36.D     Q37.C     Q38.A     Q39.C     Q40.D | 0 | 0 | 1 | 1 |
-| Q31.B   Q32.B   Q33.D   Q34.A   Q35.C   Q36.C   Q37.B   Q38.A   Q39.B   Q40.A | 0 | 0 | 1 | 1 |
-| Q41.C     Q42.C     Q43.A     Q44.B     Q45.A     Q46.D     Q47.A     Q48.A     Q49.C     Q50.C | 0 | 0 | 1 | 1 |
-| Q41.C   Q42.C   Q43.D   Q44.A   Q45.D   Q46.B   Q47.B   Q48.B   Q49.A   Q50.C | 0 | 0 | 1 | 1 |
-| Q51.B     Q52.C     Q53.B     Q54.A     Q55.C     Q56.C     Q57.C     Q58.B     Q59.D     Q60.C | 0 | 0 | 1 | 1 |
-| Q51.D   Q52.C   Q53.C   Q54.C   Q55.A   Q56.D   Q57.C   Q58.C   Q59.B   Q60.D | 0 | 0 | 1 | 1 |
-| Q61.A     Q62.C     Q63.D     Q64.D     Q65.D     Q66.C     Q67.B     Q68.D     Q69.D     Q70.A | 0 | 0 | 1 | 1 |
-| Q61.D   Q62.D   Q63.A   Q64.B   Q65.B   Q66.C   Q67.A   Q68.D   Q69.B   Q70.C | 0 | 0 | 1 | 1 |
-| Q71.C     Q72.D     Q73.D     Q74.?     Q75.A     Q76.B     Q77.A     Q78.B     Q79.A     Q80.B | 0 | 0 | 1 | 1 |
-| Q71.D   Q72.B   Q73.A   Q74.B   Q75.D   Q76.B   Q77.B   Q78.D   Q79.C   Q80.A | 0 | 0 | 1 | 1 |
-| Q74 (p.16, alpha-receptor-blocker comparison stem) was rendered and confirmed genuinely | 0 | 0 | 1 | 1 |
-| Q81.A     Q82.A     Q83.A     Q84.A     Q85.A     Q86.D     Q87.C     Q88.A     Q89.A     Q90.A | 0 | 0 | 1 | 1 |
-| Q81.B   Q82.D   Q83.D   Q84.B   Q85.D   Q86.B   Q87.D   Q88.C   Q89.A   Q90.C | 0 | 0 | 1 | 1 |
-| Q91.A   Q92.A   Q93.C   Q94.C   Q95.D   Q96.D   Q97.B   Q98.C   Q99.C   Q100.B | 0 | 0 | 1 | 1 |
-| Q91.B     Q92.B     Q93.B     Q94.C     Q95.A     Q96.D     Q97.C     Q98.B     Q99.C     Q100.B | 0 | 0 | 1 | 1 |
-| Second paper (lane 4): EOM - End of Module INT-208 2024 ANS .pdf (sitting year 2024, | 0 | 0 | 1 | 1 |
-| Source: 208 INT/EOM/EOM - End of INT - 208 2023 195 With Answers.pdf (sitting year 2023, | 0 | 0 | 1 | 1 |
-| `highlight-annot`, 1 unmarked (Q74, "0 marked"). Confirmed by two renders (p.1, p.16, both | 0 | 0 | 1 | 1 |
-| a key marking; it does not correlate with the printed key and must not be used as one — | 0 | 0 | 1 | 1 |
-| and autonomic pharmacology — a representative slice, not the whole paper. Many of this | 0 | 0 | 1 | 1 |
-| and must not be confused with the green option highlight, which is the actual key. | 0 | 0 | 1 | 1 |
-| capitalised option letter, e.g. "C. Adhesion of leukocytes to endothelium" on Q1, is NOT | 0 | 0 | 1 | 1 |
-| coverage/KAU-Y2-priority-sources.md) not yet triaged — this file covers the first paper | 0 | 0 | 1 | 1 |
-| different letter order or minor rewording — e.g. this paper's Q26 "Chemotaxis is..." is | 0 | 0 | 1 | 1 |
-| docs/Kasr-Source-Imports/coverage/seeds/208-INT/2024eom.json), spanning general pathology | 0 | 0 | 1 | 1 |
-| duplicates nor untriaged items were authored here and remain for a future pass. Remaining | 0 | 0 | 1 | 1 |
-| highlight marks the question STEM on every question (a "read/reviewed" marker, not a key) | 0 | 0 | 1 | 1 |
-| inference needed). Remaining 208 INT papers (23 more tier 1-3 files, see | 0 | 0 | 1 | 1 |
-| keys <pdf> --json` (PyMuPDF span/annotation reader) — 119/120 keyed cleanly as | 0 | 0 | 1 | 1 |
-| manifest sourceId src_ — see kasr-y2-sources.json, corpusRelativePath "208 INT/EOM/EOM - | 0 | 0 | 1 | 1 |
-| manifest sourceId src_1904964b1c8502ef5410, corpusRelativePath "208 INT/EOM/EOM - End of | 0 | 0 | 1 | 1 |
-| matching the tool's readings exactly by eye) before trusting the rest; a page-wide yellow | 0 | 0 | 1 | 1 |
-| occurrences agree; not a conflict, just the source's own layout quirk). | 0 | 0 | 1 | 1 |
-| only. | 0 | 0 | 1 | 1 |
-| paper's remaining ~81 items duplicate 2023 EOM questions closely (same stem/options, | 0 | 0 | 1 | 1 |
-| printed key table (unlike the 2023 paper). Recovered via `node scripts/content/pagetext.mjs | 0 | 0 | 1 | 1 |
-| render at 200 dpi (no highlighting on the questions themselves — pages 1-20's occasional | 0 | 0 | 1 | 1 |
-| the 2023 paper's Q1 restated) or retest the same concepts from new angles; neither | 0 | 0 | 1 | 1 |
-| this is the "answer keys hide/mislead" hazard, confirmed by render before trusting text). | 0 | 0 | 1 | 1 |
-| unmarked — no green highlight on any of its four options, unlike its neighbours Q75-78, | 0 | 0 | 1 | 1 |
-| which each show exactly one. Held, not guessed. | 0 | 0 | 1 | 1 |
+| 2026-baqoon-general-pathology-and-techniques | 10 | 0 | 0 | 10 |
+| 2026-eom-solved-general-pathology-inflammation-infections | 9 | 13 | 0 | 22 |
 
 ## Held
 - 2023eom-q09 — Printed key marks (a) Cosmetic deformity as the EXCEPT answer to 'All of the following are complications of wound healing EXCEPT: a. Cosmetic deformity b. Carcinoma c. Dermoid cyst d. Chronic sinus', but the department book's own complications list (p.27) names cosmetic deformity as complication #1, alongside carcinoma (Marjolin's ulcer), dermoid cyst (implantation epidermal cyst) and chronic sinus as items #6, #4 and #5 respectively -- all four are recognised complications in the source text, so no option is source-supported as the genuine exception. Held per the book-is-the-source rule rather than authored against a key the book's own text contradicts; flagging for a second source (e.g. a different sitting's key) before this item can be authored.
@@ -95,77 +34,19 @@
 - 2024eom-q45 — Literal duplicate of 2023eom-q38 ("Sites of systemic embolism") — identical stem, options and correct answer. Held rather than re-authored.
 - 2024eom-q47 — Literal duplicate of 2023eom-q40 ("Features of dry gangrene") — identical stem, options and correct answer. Held rather than re-authored.
 - 2024eom-q53 — Literal duplicate of 2023eom-q48 ("Presentation of primary intestinal tuberculosis") — identical stem, options and correct answer (tabes mesenterica). Held rather than re-authored.
-- 2026baqoon-q01 — Twin of already-authored 2024eom-q21 (main_concept CON-FND-3ABA8A2D2D6962, department book's five local signs of acute inflammation). This paper's "loss of appetite" distractor tests the same five-signs list as the already-minted item's "presence of scar" distractor. Held rather than authored as a second near-duplicate of the same concept.
-- 2026baqoon-q02 — Twin of already-authored 2024eom-q40 (main_concept CON-FND-70B16C02F32AA5, hyperemia-vs-congestion). Same fact (active vasodilatation causes hyperemia), positive stem instead of EXCEPT stem. Held rather than re-authored.
-- 2026baqoon-q04 — Twin of already-authored 2023eom-q37 (main_concept CON-FND-0FC5FDF1C3874D, major source of pulmonary emboli). Literal converse of the same deep-vein-thrombus-to-lung relationship ("embolus from a deep vein lodges in the lung" vs "major source of pulmonary emboli is deep leg vein thrombi"). Held rather than re-authored.
-- 2026baqoon-q08 — Twin of already-authored 2024eom-q33 (main_concept CON-FND-15EA2CD991C9CB, water-soluble vitamin). Same fact (vitamin C), different distractor set. Held rather than re-authored.
-- 2026baqoon-q09 — Twin of already-authored 2023eom-q55 (main_concept CON-INF-92D5067ECA6A8D, hepatic bilharziasis true statement). The concept's own definition already names pipe-stem fibrosis as a fact/alias alongside the dilated-portal-vascular-channels fact 2023eom-q55 tests — same concept, different facet, not a fresh concept. Held rather than authored as a second item on the same concept.
-- 2026baqoon-q12 — Twin of already-authored 2024eom-q13 (main_concept CON-FND-471F90B10E495A, intermediate/locally-malignant tumor category). Same classification fact, naming chordoma instead of osteoclastoma as the correct example. Held rather than authored as a second near-duplicate of the same concept.
-- 2026baqoon-q13 — Source's own render (p.9, cyan highlight-circle key style) marks BOTH (a) nasopharyngeal carcinoma and (b) Hodgkin lymphoma, with a handwritten "Both are correct" annotation next to them — not a clean single-best-answer key. Held per the marked-key rule; a genuine SBA stem on EBV-associated malignancy would need a source that names only one correct answer.
-- 2026baqoon-q15 — Literal duplicate of already-authored 2024eom-q04 (main_concept CON-FND-BA4E3D79017392, causes of localized atrophy EXCEPT). Identical stem and four core options (this paper's 5th option, "bilateral ovarian excision," was trimmed for the module's 4-option format); identical correct answer (thyrotoxicosis). Held rather than re-authored.
-- 2026baqoon-q17 — Literal duplicate of already-authored 2024eom-q05 (main_concept CON-FND-2A6D478CFC27ED, myositis ossificans). Identical stem and correct answer (metaplastic condition). Held rather than re-authored.
-- 2026baqoon-q19 — Near-literal duplicate of already-authored 2024eom-q29 (main_concept CON-FND-434E7A6D0A5BF3, labile cells). Identical stem and correct answer (hematopoietic cells); only the "Neurons"/"Brain cells" distractor differs. Held rather than authored as a second near-duplicate of the same concept.
+- 2026eomsolved-q01 — Near-duplicate of already-authored granuloma item (CON-FND-2129BD0D77EC62, 'Definition of a granuloma') -- Q1 identifies granulomatous inflammation from 'epithelioid histiocytes + multinucleated giant cells', the same defining cell description the existing concept and its authored question already test.
+- 2026eomsolved-q03 — Literal duplicate of already-authored 2023eom 'Granulation tissue' (CON-FND-9853F779478D1A) -- identical stem (granulation tissue = fibroblasts + thin-walled blood vessels) and correct answer; 2024eom-q30 was already held as the same duplicate.
+- 2026eomsolved-q08 — Duplicate of already-authored 2023eom-q55 'Hepatic bilharziasis' (CON-INF-92D5067ECA6A8D), whose definition already names pipe-stem fibrosis; 2026baqoon-q09 was held as the same twin. Q8's answer (liver bilharziasis = pipestem fibrosis) restates that concept.
+- 2026eomsolved-q10 — Near-duplicate of already-authored cavitary/chronic-fibrocaseous pulmonary TB items (CON-INF-B525A58C8119DE, 'Cavitary pulmonary tuberculosis' / 'Features of chronic fibrocaseous tuberculosis') -- Q10's 'apical cavity with irregular wall becoming smooth' restates the same concept.
+- 2026eomsolved-q11 — Needs a new concept minted for amniotic fluid embolism -- the existing embolism concepts cover only pulmonary source (CON-FND-0FC5FDF1C3874D) and systemic sites (CON-FND-BA7D3F37AEFEFC), neither of which grounds this postpartum amniotic-fluid-embolism vignette. Deferred to a mint-and-source pass (dept book), not authored in this reuse-only cluster.
+- 2026eomsolved-q12 — Needs a new concept minted and sourced for cystitis glandularis (transformation of urothelium into columnar/intestinal epithelium in bladder bilharziasis) -- not covered by any existing 208 INT concept. Deferred to a mint-and-source pass.
+- 2026eomsolved-q14 — Near-duplicate angle on already-authored 'Pulmonary bilharziasis' (CON-INF-6C300619B04AE3); Q14 is the EXCEPT/FALSE variant testing the same feature set (both-species ova, endarteritis/interstitial fibrosis, dead-worm allergic inflammation), so held rather than re-authored as a second item on the same concept.
+- 2026eomsolved-q15 — Needs a new concept minted and sourced for cystitis cystica (downward growth of transitional epithelium into the bladder mucosa) -- not covered by any existing 208 INT concept. Deferred to a mint-and-source pass; same bladder-bilharziasis lesion family as the held Q12.
+- 2026eomsolved-q16 — Bilharzial granuloma composition (forms around ova, not caseation/Langhans'/cercaria) is scattered across the hepatic and pulmonary bilharziasis concepts but not cleanly one existing concept; would need a dedicated bilharzial-granuloma concept minted. Deferred to a mint-and-source pass rather than force-fit onto a reused concept.
+- 2026eomsolved-q17 — Second item on colonic bilharziasis (CON-INF-1A5FE3A93775E2) after the authored Q13; Q17's gross bilharzial-polyp features (single/multiple, sessile/pedunculated, ulcerated vs the hemorrhage/necrosis exception) are not explicitly grounded in the existing concept body, so held rather than authored from reasoning alone.
+- 2026eomsolved-q20 — Duplicate of already-authored AIDS neoplasm item (CON-INF-324F03A30F7F5F, 'Neoplasm seen in AIDS') -- Q20's correct answer (primary CNS lymphoma) is the same fact from the same concept already tested.
+- 2026eomsolved-q21 — Near-duplicate of already-authored EBV items (CON-FND-4BA8E4B11685CA, 'EBV-associated malignancy'/'EBV-associated carcinoma'/'EBV and Burkitt's lymphoma') -- Q21 (EBV EXCEPT cancer of uterine cervix) tests the same EBV-association set already covered three times.
+- 2026eomsolved-q22 — Near-duplicate of already-authored 'Mycetoma features except' (CON-INF-CE0B094DB20F2A) -- Madura foot IS mycetoma, and Q22's EXCEPT stem tests the same mycetoma feature set (fungal, agricultural workers, subcutaneous tissue and bone, not membranous inflammation).
 
 ## Remaining
-- (growth disorders, healing, hemodynamics, techniques), bacterial/fungal/viral infections
-- ---
-- 119/120 keys recovered (Q74 unmarked, held). Of these, 38 authored in this pass (lane 4,
-- 120/120 questions triaged, 120/120 keys recovered (all from the printed key page, no
-- 208 INT papers: 22 more tier 1-3 files (coverage/KAU-Y2-priority-sources.md) untriaged.
-- 208 INT — triage keys
-- End of INT - 208 2023 195 With Answers.pdf")
-- Method: green highlight annotation on the correct option, one per question, no separate
-- Method: printed answer key, page 21 ("ANSWERS INT 208"), native text layer, confirmed by
-- Module INT-208 2024 ANS .pdf")
-- Note: the source's own key table repeats "60.D" at the start of the next column (both
-- Q1.B      Q2.D      Q3.C      Q4.B      Q5.B      Q6.A      Q7.B      Q8.A      Q9.D      Q10.D
-- Q1.D    Q2.B    Q3.B    Q4.B    Q5.C    Q6.D    Q7.C    Q8.D    Q9.C    Q10.B
-- Q101.B    Q102.B    Q103.C    Q104.D    Q105.A    Q106.B    Q107.A    Q108.C    Q109.A    Q110.D
-- Q101.C  Q102.A  Q103.B  Q104.D  Q105.D  Q106.D  Q107.B  Q108.C  Q109.C  Q110.B
-- Q11.C   Q12.A   Q13.C   Q14.B   Q15.C   Q16.C   Q17.A   Q18.A   Q19.D   Q20.C
-- Q11.D     Q12.C     Q13.C     Q14.C     Q15.B     Q16.A     Q17.C     Q18.C     Q19.A     Q20.C
-- Q111.D    Q112.A    Q113.B    Q114.B    Q115.A    Q116.B    Q117.C    Q118.B    Q119.C    Q120.C
-- Q111.D  Q112.A  Q113.A  Q114.C  Q115.D  Q116.B  Q117.B  Q118.A  Q119.C  Q120.D
-- Q21.C   Q22.C   Q23.A   Q24.B   Q25.C   Q26.D   Q27.B   Q28.D   Q29.B   Q30.D
-- Q21.D     Q22.C     Q23.C     Q24.C     Q25.D     Q26.A     Q27.C     Q28.C     Q29.C     Q30.D
-- Q31.B     Q32.A     Q33.B     Q34.C     Q35.B     Q36.D     Q37.C     Q38.A     Q39.C     Q40.D
-- Q31.B   Q32.B   Q33.D   Q34.A   Q35.C   Q36.C   Q37.B   Q38.A   Q39.B   Q40.A
-- Q41.C     Q42.C     Q43.A     Q44.B     Q45.A     Q46.D     Q47.A     Q48.A     Q49.C     Q50.C
-- Q41.C   Q42.C   Q43.D   Q44.A   Q45.D   Q46.B   Q47.B   Q48.B   Q49.A   Q50.C
-- Q51.B     Q52.C     Q53.B     Q54.A     Q55.C     Q56.C     Q57.C     Q58.B     Q59.D     Q60.C
-- Q51.D   Q52.C   Q53.C   Q54.C   Q55.A   Q56.D   Q57.C   Q58.C   Q59.B   Q60.D
-- Q61.A     Q62.C     Q63.D     Q64.D     Q65.D     Q66.C     Q67.B     Q68.D     Q69.D     Q70.A
-- Q61.D   Q62.D   Q63.A   Q64.B   Q65.B   Q66.C   Q67.A   Q68.D   Q69.B   Q70.C
-- Q71.C     Q72.D     Q73.D     Q74.?     Q75.A     Q76.B     Q77.A     Q78.B     Q79.A     Q80.B
-- Q71.D   Q72.B   Q73.A   Q74.B   Q75.D   Q76.B   Q77.B   Q78.D   Q79.C   Q80.A
-- Q74 (p.16, alpha-receptor-blocker comparison stem) was rendered and confirmed genuinely
-- Q81.A     Q82.A     Q83.A     Q84.A     Q85.A     Q86.D     Q87.C     Q88.A     Q89.A     Q90.A
-- Q81.B   Q82.D   Q83.D   Q84.B   Q85.D   Q86.B   Q87.D   Q88.C   Q89.A   Q90.C
-- Q91.A   Q92.A   Q93.C   Q94.C   Q95.D   Q96.D   Q97.B   Q98.C   Q99.C   Q100.B
-- Q91.B     Q92.B     Q93.B     Q94.C     Q95.A     Q96.D     Q97.C     Q98.B     Q99.C     Q100.B
-- Second paper (lane 4): EOM - End of Module INT-208 2024 ANS .pdf (sitting year 2024,
-- Source: 208 INT/EOM/EOM - End of INT - 208 2023 195 With Answers.pdf (sitting year 2023,
-- `highlight-annot`, 1 unmarked (Q74, "0 marked"). Confirmed by two renders (p.1, p.16, both
-- a key marking; it does not correlate with the printed key and must not be used as one —
-- and autonomic pharmacology — a representative slice, not the whole paper. Many of this
-- and must not be confused with the green option highlight, which is the actual key.
-- capitalised option letter, e.g. "C. Adhesion of leukocytes to endothelium" on Q1, is NOT
-- coverage/KAU-Y2-priority-sources.md) not yet triaged — this file covers the first paper
-- different letter order or minor rewording — e.g. this paper's Q26 "Chemotaxis is..." is
-- docs/Kasr-Source-Imports/coverage/seeds/208-INT/2024eom.json), spanning general pathology
-- duplicates nor untriaged items were authored here and remain for a future pass. Remaining
-- highlight marks the question STEM on every question (a "read/reviewed" marker, not a key)
-- inference needed). Remaining 208 INT papers (23 more tier 1-3 files, see
-- keys <pdf> --json` (PyMuPDF span/annotation reader) — 119/120 keyed cleanly as
-- manifest sourceId src_ — see kasr-y2-sources.json, corpusRelativePath "208 INT/EOM/EOM -
-- manifest sourceId src_1904964b1c8502ef5410, corpusRelativePath "208 INT/EOM/EOM - End of
-- matching the tool's readings exactly by eye) before trusting the rest; a page-wide yellow
-- occurrences agree; not a conflict, just the source's own layout quirk).
-- only.
-- paper's remaining ~81 items duplicate 2023 EOM questions closely (same stem/options,
-- printed key table (unlike the 2023 paper). Recovered via `node scripts/content/pagetext.mjs
-- render at 200 dpi (no highlighting on the questions themselves — pages 1-20's occasional
-- the 2023 paper's Q1 restated) or retest the same concepts from new angles; neither
-- this is the "answer keys hide/mislead" hazard, confirmed by render before trusting text).
-- unmarked — no green highlight on any of its four options, unlike its neighbours Q75-78,
-- which each show exactly one. Held, not guessed.
+(none)
