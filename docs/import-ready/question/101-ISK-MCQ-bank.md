@@ -81944,3 +81944,6585 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer given here is: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell is described this way.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-812
+## title
+Concerning euchromatin:
+## question
+Concerning euchromatin:
+## vignette
+This item asks the student to connect euchromatin to the pale vesicular nucleus it produces.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Represents coiled parts of chromatin
+## explanation_a
+Coiled chromatin is heterochromatin. Euchromatin is the extended, uncoiled form — the whole distinction is in the coiling.
+## answer_b
+Appears as condensed masses in nucleus
+## explanation_b
+Condensed masses are heterochromatin: peripheral chromatin, chromatin islands and the ring around the nucleolus. Euchromatin is too dispersed to appear as a mass.
+## answer_c
+Contains inactive genes that direct protein synthesis
+## explanation_c
+Half right and therefore dangerous. Euchromatin does direct protein synthesis, but by carrying *active* genes; inactive genes direct nothing, and the word "inactive" is what makes this option false.
+## answer_d
+Makes the nucleus vesicular
+## explanation_d
+Correct. Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Histology-general
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Connect euchromatin to the pale vesicular nucleus it produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q50; Cytology | Module 101 questions.pdf.pdf p29 q51. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-813
+## title
+Only ONE statement is correct about small lymphocytes:
+## question
+Only ONE statement is correct about small lymphocytes:
+## vignette
+This item asks the student to recognise the small lymphocyte as the type example of an inactive, heterochromatic cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Abundant cytoplasm
+## explanation_a
+The small lymphocyte has a thin rim of cytoplasm, barely more than a blue line around the nucleus. Abundant cytoplasm belongs to the monocyte.
+## answer_b
+Indented nucleus with nucleolus
+## explanation_b
+An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the standard example of a heterochromatic nucleus.
+## answer_c
+Well-developed organelles
+## explanation_c
+Organelles are scanty in the small lymphocyte, which follows from the same fact: a cell whose chromatin is coiled and silent is not synthesising much and does not need the machinery.
+## answer_d
+The majority of circulating lymphocytes
+## explanation_d
+Correct. Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recognise the small lymphocyte as the type example of an inactive, heterochromatic cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q64; Dpt Book MCQ histo 101 .NEW (1).pdf p24 q21. Manifest src_2944234d11e92ac4bbc8, src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-814
+## title
+Pars fibrosa of the nucleolus:
+## question
+Pars fibrosa of the nucleolus:
+## vignette
+This item asks the student to place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Correct. Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa, granules. The names carry the difference: a fibre is being made, a granule is finished.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+The DNA encoding rRNA is pars amorpha, the nucleolar organiser. It is the template, one step earlier than the fibres.
+## answer_d
+Represents light areas of nuclear sap
+## explanation_d
+Light areas are nucleolar sap and are not one of the three dark parts at all. The option also says "nuclear sap" rather than nucleolar, which is a second reason it cannot be right.
+## topic
+Histology-general
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q52; Cytology | Module 101 questions.pdf.pdf p29 q53; EOM ISK 101 - 2023.pdf p1 q9. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-815
+## title
+Pars granulosa of the nucleolus:
+## question
+Pars granulosa of the nucleolus:
+## vignette
+This item asks the student to place pars granulosa at the finished-product stage of the nucleolar sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Represents newly formed rRNA
+## explanation_a
+Newly formed rRNA is pars fibrosa. This is the option immediately before the answer in the sequence, which is where the mark is usually lost.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Correct. Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_c
+Represents chromosomes encoding for rRNA
+## explanation_c
+The chromosomes encoding rRNA are pars amorpha, the nucleolar organiser.
+## answer_d
+Represents light areas of nucleolar sap
+## explanation_d
+Light areas of nucleolar sap are not part of the dark areas and represent no stage of rRNA at all.
+## topic
+Histology-general
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Place pars granulosa at the finished-product stage of the nucleolar sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p6 q53; Cytology | Module 101 questions.pdf.pdf p30 q54. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-816
+## title
+Regarding Turner syndrome
+## question
+Regarding Turner syndrome
+## vignette
+This item asks the student to give the sex chromosome constitution of Turner syndrome.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Occurs only in males
+## explanation_a
+Turner syndrome occurs in females. It is Klinefelter syndrome that occurs only in males, and this book asks the two questions with the same four options.
+## answer_b
+Somatic cells contains 47 chromosomes
+## explanation_b
+47 chromosomes means one too many, which is Down syndrome or Klinefelter. Turner is one short, at 45.
+## answer_c
+Has XO sex chromosomes
+## explanation_c
+Correct. A single X and no second sex chromosome — XO — which is why the count is 45.
+
+Why this is right:
+- Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name.
+## answer_d
+Has normal genital system
+## explanation_d
+The genital system is underdeveloped in Turner syndrome; a normal genital system would leave nothing to diagnose.
+## topic
+Embryology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-5097CA5BAB2E51
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the sex chromosome constitution of Turner syndrome.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p14 q87; Anatomy MCQ Book [2025] [first priority].pdf p100 q87. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-817
+## title
+About neutrophil , all true except:
+## question
+About neutrophil , all true except:
+## vignette
+This item asks the student to recall that the neutrophil is the commonest leucocyte but not the largest.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Has segmented nucleus 3-5 segments
+## explanation_a
+True, so not the exception. The neutrophil nucleus is segmented into lobes joined by thin chromatin threads — the reason the cell is also called polymorphonuclear.
+## answer_b
+Diferential count 60-70%
+## explanation_b
+True, so not the exception. 60–70% of the differential count makes it the commonest white cell.
+## answer_c
+The largest leucocyte
+## explanation_c
+Correct. The exception, and the answer. Commonest is not largest: the monocyte is the largest leucocyte, and this option is chosen by students who conflate the two superlatives.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_d
+Phagocytic in function
+## explanation_d
+True, so not the exception. The neutrophil is the first line of non-specific defence and is actively phagocytic.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recall that the neutrophil is the commonest leucocyte but not the largest.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q34. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-818
+## title
+All of the following about nuclear envelope are true EXCEPT:
+## question
+All of the following about nuclear envelope are true EXCEPT:
+## vignette
+This item asks the student to recognise that everything nuclear is basophilic.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+acidophilic
+## explanation_a
+Correct. The exception, and the answer. The nucleus and its envelope are basophilic, from the phosphate groups of the nucleic acid. Acidophilia belongs to cytoplasm rich in smooth endoplasmic reticulum or in mitochondria.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## answer_b
+interrupted at intervals by nuclear pores
+## explanation_b
+True, so not the exception. The envelope is interrupted at intervals by nuclear pores.
+## answer_c
+double walled membrane
+## explanation_c
+True, so not the exception. It is a double-walled membrane, two parallel unit membranes.
+## answer_d
+separated by a perinuclear space
+## explanation_d
+True, so not the exception. The perinuclear space separates the two, and it is continuous with the lumen of the rough endoplasmic reticulum.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recognise that everything nuclear is basophilic.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p6 q43. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-819
+## title
+Chromatin:
+## question
+Chromatin:
+## vignette
+This item asks the student to explain why chromatin stains with the basic dye.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Basophilic as it contains phosphate group
+## explanation_a
+Correct. The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_b
+Acidophilic as it contains DNA
+## explanation_b
+Acidophilia would mean binding the acid dye, eosin. DNA is the reason chromatin is basophilic, so this option gets both halves the wrong way round.
+## answer_c
+Basophilic as it contains protein
+## explanation_c
+Protein is present in chromatin, as histone and non-histone protein, but protein is not what makes it basophilic. The nucleic acid is.
+## answer_d
+Acidophilic as it contains protein
+## explanation_d
+Wrong on the staining and wrong on the reason, and in the set to catch a student who is guessing on the second half of the sentence.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Stains and techniques
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Explain why chromatin stains with the basic dye.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p15 q85. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-820
+## title
+Clumps of nucleoprotein concentrated near the periphery of the nucleus are called
+## question
+Clumps of nucleoprotein concentrated near the periphery of the nucleus are called
+## vignette
+This item asks the student to name the chromatin attached to the inner nuclear membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+nuclear pore complex
+## explanation_a
+The nuclear pore complex is protein — nucleoporin — not nucleoprotein clumps, and it fills the pores rather than lying against the membrane between them.
+## answer_b
+nucleolus
+## explanation_b
+The nucleolus is a single rounded mass, usually one or two per nucleus, and it sits within the nucleus rather than around its rim.
+## answer_c
+heterochromatin
+## explanation_c
+Correct. Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+euchromatin
+## explanation_d
+Euchromatin is dispersed and pale and forms no clumps anywhere. It is chosen by students who remember that something is attached at the periphery but not which form.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Name the chromatin attached to the inner nuclear membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p13 q72. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Peripheral chromatin is one of the three named sites of heterochromatin, so C is the only option the description fits.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-821
+## title
+Concerning heterochromatin, all of the followings are true except:
+## question
+Concerning heterochromatin, all of the followings are true except:
+## vignette
+This item asks the student to recognise extended filaments as euchromatin, not heterochromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+The inactive form of chromatin
+## explanation_a
+True, so not the exception. Heterochromatin is the inactive form of chromatin.
+## answer_b
+Present in the form of coiled filaments
+## explanation_b
+True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the keyed answer, and taking it would mean calling heterochromatin's own definition false.
+## answer_c
+Present in the form of extended filaments
+## explanation_c
+Correct. The exception, and the answer. Extended, uncoiled filaments are euchromatin. B and C are the two halves of one contrast and only one of them can be true of this form.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+By EM, it appears as electron dense granules
+## explanation_d
+True, so not the exception. Coiled chromatin scatters electrons, so it is electron dense.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recognise extended filaments as euchromatin, not heterochromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p26 q37. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, "present in the form of coiled filaments", which is the definition of heterochromatin and cannot be the exception. C, "present in the form of extended filaments", describes euchromatin and is the only false statement in the set. B and C are the same sentence with the coiling reversed, which is the shape a one-letter key slip takes.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-822
+## title
+Concerning multilocular adipocytes, they have:
+## question
+Concerning multilocular adipocytes, they have:
+## vignette
+This item asks the student to separate the multilocular from the unilocular fat cell by nucleus, droplets and pigment.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cytochrome pigments
+## explanation_a
+Correct. The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_b
+Signet ring appearance
+## explanation_b
+The signet ring appearance is the unilocular cell: one huge droplet with the nucleus and a thin rim of cytoplasm squeezed to one edge, like the stone of a ring.
+## answer_c
+Single large fat droplet
+## explanation_c
+A single large droplet is again the unilocular cell. The multilocular cell holds many small ones, which is what "multilocular" means.
+## answer_d
+Flat peripheral nucleus
+## explanation_d
+A flat peripheral nucleus is what a single large droplet does to a nucleus. The multilocular cell's nucleus stays central and rounded because no one droplet is big enough to displace it.
+## topic
+Histology-general
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Separate the multilocular from the unilocular fat cell by nucleus, droplets and pigment.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p16 q9. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B, C and D are all features of the unilocular cell; the cytochrome pigment of the many mitochondria is what makes brown fat brown, and it is the only option that belongs to the multilocular cell. The paired question `concerning-unilocular-adipocytes-they-have-all-of-the-follow-88d2b6b6` keys the same option A as the exception for the unilocular cell, which confirms the reading.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-823
+## title
+Concerning reticular cells:
+## question
+Concerning reticular cells:
+## vignette
+This item asks the student to read a pale nucleus and basophilic cytoplasm as an active cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+They are rounded cells with no processes
+## explanation_a
+Reticular cells are stellate and branched — their processes are what form the reticular network the fibres run along. A rounded cell with no processes could not build a mesh.
+## answer_b
+Histiocyte
+## explanation_b
+The histiocyte is the macrophage of connective tissue, a different cell. Both live in reticular tissue, which is what makes the option tempting.
+## answer_c
+They have pale basophilic cytoplasm
+## explanation_c
+Correct. The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+They have dark heterochromatic nucleus
+## explanation_d
+A dark heterochromatic nucleus would mean an inactive cell. It is the opposite of what a reticular cell shows, and this option is the direct contradiction of C — one of the two has to go.
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_7449943b97c0e18d37b0
+## learning_objective
+Read a pale nucleus and basophilic cytoplasm as an active cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Connective Tissue] (1).pdf p2 q11. Manifest src_7449943b97c0e18d37b0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The reticular cell is a branched, stellate cell with a pale euchromatic nucleus and pale basophilic cytoplasm, and it is not a histiocyte. Only C stands.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-824
+## title
+Concerning the nuclear pores:
+## question
+Concerning the nuclear pores:
+## vignette
+This item asks the student to describe the nuclear pore and the direction each cargo travels.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Triangular openings at intervals
+## explanation_a
+The openings are circular. "Triangular" is invented, and it is the option a student takes who remembers only that the pore has a defined geometry.
+## answer_b
+Inner & outer nuclear membranes do not fuse at the pore
+## explanation_b
+The inner and outer membranes do become continuous with one another at the pore; that fusion is what makes a hole rather than two separate holes.
+## answer_c
+Concerned with import of RNA to nucleus
+## explanation_c
+The direction is wrong. RNA and ribosomal subunits are exported out of the nucleus; what is imported is protein made in the cytoplasm.
+## answer_d
+Its proteins form octagonal ring
+## explanation_d
+Correct. About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## topic
+Histology-general
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Describe the nuclear pore and the direction each cargo travels.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q48. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is correct.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-825
+## title
+Concerning unilocular adipocytes , they have all of the following except:
+## question
+Concerning unilocular adipocytes , they have all of the following except:
+## vignette
+This item asks the student to attribute cytochrome pigment to brown fat and not to white.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+cytochrome pigments
+## explanation_a
+Correct. The exception, and the answer. Cytochrome pigment sits in the many mitochondria of the multilocular — brown — fat cell and is what colours it. The unilocular cell has few mitochondria and no such pigment.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_b
+signet ring appearance
+## explanation_b
+True, so not the exception. The signet ring appearance is the unilocular cell's hallmark.
+## answer_c
+single large fat droplet
+## explanation_c
+True, so not the exception. One large droplet fills the cell.
+## answer_d
+flat peripheral nucleus
+## explanation_d
+True, so not the exception. That droplet flattens the nucleus and pushes it to the periphery, which is the other half of the signet ring picture.
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Attribute cytochrome pigment to brown fat and not to white.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p3 q17. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-826
+## title
+Cri-du-chat syndrome is due to
+## question
+Cri-du-chat syndrome is due to
+## vignette
+This item asks the student to give the chromosome and the arm deleted in cri-du-chat syndrome.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Partial deletion of short arm of chromosome 5
+## explanation_a
+Correct. Partial deletion of the short arm of chromosome 5.
+
+Why this is right:
+- Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name.
+## answer_b
+Partial deletion of long arm of chromosome 5
+## explanation_b
+The long arm of chromosome 5 is the same chromosome with the wrong arm. The option set varies chromosome and arm independently, so both have to be remembered.
+## answer_c
+Partial deletion of short arm of chromosome 15
+## explanation_c
+Chromosome 15 is the wrong chromosome, with the right arm — the mirror of B.
+## answer_d
+Partial deletion of long arm of chromosome 15
+## explanation_d
+In the set to complete the two-by-two.
+## topic
+Embryology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-5097CA5BAB2E51
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_12d639a625d8305c4454
+## learning_objective
+Give the chromosome and the arm deleted in cri-du-chat syndrome.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p14 q86. Manifest src_12d639a625d8305c4454.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-827
+## title
+dark area of nucleolus is formed of:
+## question
+dark area of nucleolus is formed of:
+## vignette
+This item asks the student to name all three dark parts of the nucleolus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+pars amorpha
+## explanation_a
+True, but not the whole answer. Pars amorpha is one of the three dark parts.
+## answer_b
+pars fibrosa
+## explanation_b
+True, but not the whole answer. Pars fibrosa is the second.
+## answer_c
+pars granulosa
+## explanation_c
+True, but not the whole answer. Pars granulosa is the third.
+## answer_d
+all the above
+## explanation_d
+Correct. All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name all three dark parts of the nucleolus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q11. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-828
+## title
+Down syndrome occurs due to:
+## question
+Down syndrome occurs due to:
+## vignette
+This item asks the student to give the chromosomal fault behind Down syndrome.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Extra chromosome 13
+## explanation_a
+An extra chromosome 13 is Patau syndrome, not Down. It is the right kind of fault — a trisomy — on the wrong chromosome.
+## answer_b
+Partial deletion of long arm of chromosome 15
+## explanation_b
+A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the keyed answer, and it names a fault the syllabus does not teach at all.
+## answer_c
+Partial deletion of short arm of chromosome 5
+## explanation_c
+Partial deletion of the short arm of chromosome 5 is cri-du-chat syndrome. The books ask that question separately with the same options, so mixing the two up costs both marks.
+## answer_d
+Extra chromosome 21
+## explanation_d
+Correct. Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.
+
+Why this is right:
+- Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-5097CA5BAB2E51
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Clinical application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the chromosomal fault behind Down syndrome.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p133 q6. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, a deletion on chromosome 15, which is not any recognised cause of Down syndrome and does not correspond to any of the four syndromes these books teach. Down syndrome is trisomy 21 — option D — and the key is a straightforward misprint.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-829
+## title
+Euchromatin has all the following except:
+## question
+Euchromatin has all the following except:
+## vignette
+This item asks the student to attribute coarse dark clumps to heterochromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+extended, uncoiled
+## explanation_a
+True, so not the exception. Extended and uncoiled is what euchromatin is.
+## answer_b
+active gene
+## explanation_b
+True, so not the exception. Its genes are the active ones.
+## answer_c
+coarse clumps, dark basophilic
+## explanation_c
+Correct. The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of a comparative table, and this is the row that has been taken from the wrong column.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+electron lucent, clear nucleolus
+## explanation_d
+True, so not the exception. Electron lucent by EM, with a clear nucleolus — both follow from the chromatin being dispersed.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Attribute coarse dark clumps to heterochromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q16. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-830
+## title
+Fibrillar components of the nuclear membrane includes:
+## question
+Fibrillar components of the nuclear membrane includes:
+## vignette
+This item asks the student to name what lies against the fibrillar inner nuclear membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Euchromatin + Lamins
+## explanation_a
+Euchromatin is the dispersed form and is not attached to the nuclear envelope. What is attached there is the coiled, peripheral kind.
+## answer_b
+Lamins
+## explanation_b
+Lamins alone are incomplete. They are the protein the nuclear lamina is built from, and the chromatin attached to the same surface is left out.
+## answer_c
+Heterochromatin + Nuclear lamina
+## explanation_c
+Correct. The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## answer_d
+Lamins + nuclear lamina
+## explanation_d
+Lamins and nuclear lamina are the same material named twice, since the lamina is made mainly of lamins. An option that repeats itself cannot add the second component the question is asking for.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Name what lies against the fibrillar inner nuclear membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q81. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the supported reading, and the row is flagged here because no key was printed and the wording of the options is loose.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-831
+## title
+Following statements concerning nuclear envelope are true EXCEPT:
+## question
+Following statements concerning nuclear envelope are true EXCEPT:
+## vignette
+This item asks the student to recognise that the nuclear envelope is an electron-microscopic structure.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Formed of two membranes
+## explanation_a
+True, so not the exception. Two parallel unit membranes.
+## answer_b
+Perforated at various interval by nuclear pores
+## explanation_b
+True, so not the exception. Perforated at intervals by nuclear pores.
+## answer_c
+Not resolved by EM
+## explanation_c
+Correct. The exception, and the answer. The envelope is not resolved by *light* microscopy; the electron microscope is where its two membranes, its perinuclear space and its pores are seen at all. A student reading quickly swaps the two instruments.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## answer_d
+Has perinuclear cisterna (space)
+## explanation_d
+True, so not the exception. The perinuclear cisterna is the space between the two membranes.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Recognise that the nuclear envelope is an electron-microscopic structure.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q72. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and D are all correct statements. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-832
+## title
+Goblet cell:
+## question
+Goblet cell:
+## vignette
+This item asks the student to recall the goblet cell's product and the nuclear position that follows from it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Contains few RER
+## explanation_a
+A cell exporting a large glycoprotein needs abundant rough endoplasmic reticulum, not a little. Few rER would make secretion impossible.
+## answer_b
+Synthesize mucus
+## explanation_b
+Correct. The goblet cell is a unicellular gland that synthesises and secretes mucus.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_c
+Has central nucleus
+## explanation_c
+The nucleus is basal, not central: the mucous droplets fill the apex and push it down, which is what gives the cell its goblet shape.
+## answer_d
+Has deep acidophilic cytoplasm
+## explanation_d
+The cytoplasm is basophilic from its rER, and its mucous cap is pale. Deep acidophilia would say the cell was making something else entirely.
+## topic
+Epithelium
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recall the goblet cell's product and the nuclear position that follows from it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p8 q62. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-833
+## title
+Heterochromatin has all the following except:
+## question
+Heterochromatin has all the following except:
+## vignette
+This item asks the student to recognise that a protein-forming cell is euchromatic.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+coiled, inactive
+## explanation_a
+True, so not the exception. Coiled and inactive is the definition.
+## answer_b
+inactive gene, electron dense
+## explanation_b
+True, so not the exception. Inactive genes, and electron dense because the coiling is what scatters electrons.
+## answer_c
+in small lymphocyte
+## explanation_c
+True, so not the exception. The small lymphocyte is the standard example of a heterochromatic cell.
+## answer_d
+active in protein forming cell
+## explanation_d
+Correct. The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the comparative table taken from the wrong column.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Recognise that a protein-forming cell is euchromatic.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q17. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-834
+## title
+Heterochromatine is:
+## question
+Heterochromatine is:
+## vignette
+This item asks the student to give both defining features of heterochromatin together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+highly coiled
+## explanation_a
+True, but not the whole answer. Highly coiled is the structural half.
+## answer_b
+electron dense
+## explanation_b
+True, but not the whole answer. Electron dense is what that coiling looks like under the beam.
+## answer_c
+directing protein synthesis
+## explanation_c
+Directing protein synthesis is euchromatin's work. Heterochromatin's genes are inactive, which is the point of it being coiled away.
+## answer_d
+a & b are correct
+## explanation_d
+Correct. A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Give both defining features of heterochromatin together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p5 q39. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-835
+## title
+intermediate layer of transitional is:
+## question
+intermediate layer of transitional is:
+## vignette
+This item asks the student to describe the cells of the intermediate layer of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+polyhedral, central, rounded nucleus
+## explanation_a
+Correct. The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_b
+in full bladder: increase thickness
+## explanation_b
+A full bladder stretches the epithelium and makes it thinner, not thicker. The relationship runs the other way, and it is the fact this epithelium is named for.
+## answer_c
+cuboidal cell, central, rounded nucleus
+## explanation_c
+Cuboidal cells with a central rounded nucleus are the basal layer. The nucleus is described identically, which is what makes this the closest distractor — the cell shape is the only thing separating the two options.
+## answer_d
+flat cell, flat nucleus
+## explanation_d
+Flat cells with flat nuclei are the superficial layer of a stretched bladder, or a simple squamous epithelium elsewhere.
+## topic
+Epithelium
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Describe the cells of the intermediate layer of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q23. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-836
+## title
+largest component of the cell, not present in RBCs:
+## question
+largest component of the cell, not present in RBCs:
+## vignette
+This item asks the student to name the largest cell component and the one the red cell lacks.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Nucleolus
+## explanation_a
+The nucleolus is inside the nucleus, so it is smaller by definition — and a red cell has lost it only because it lost the nucleus around it.
+## answer_b
+nucleus
+## explanation_b
+Correct. The nucleus is the largest component of the cell, and the red blood corpuscle and the platelet, having none, are not true cells.
+
+Why this is right:
+- It is made of four things: the nuclear membrane or envelope, the chromatin material, the nucleolus, and the nuclear sap — a colloidal solution filling the space between the chromatin and the nucleolus, formed of nucleoproteins, enzymes, sugars and calcium, potassium and phosphorus ions, which provides the medium through which RNA is carried to the nuclear pores.
+- The nucleus carries all the genetic information and hereditary factors, controls every cell function including protein synthesis, is responsible for the formation of RNA, and directs cell division.
+## answer_c
+cytoplasm
+## explanation_c
+A red cell is almost entirely cytoplasm — that is where its haemoglobin is. It cannot be what the cell is missing.
+## answer_d
+chromatin
+## explanation_d
+Chromatin is the material inside the nucleus. It is lost with the nucleus, but the question asks for the largest component, and chromatin is a part of it rather than the whole.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-BC0AAA59F11F66
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name the largest cell component and the one the red cell lacks.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q1. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-837
+## title
+light area of nucleolus formed of:
+## question
+light area of nucleolus formed of:
+## vignette
+This item asks the student to name what the light areas of the nucleolus contain.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+RNA
+## explanation_a
+RNA is in the dark areas — newly made in pars fibrosa and mature in pars granulosa. RNA is what makes them dark.
+## answer_b
+DNA
+## explanation_b
+DNA is in the dark areas too, in the pars amorpha that encodes the rRNA.
+## answer_c
+sap
+## explanation_c
+Correct. The light areas are nucleolar sap, the fluid between the dark parts.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_d
+none of above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name what the light areas of the nucleolus contain.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q15. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-838
+## title
+More euchromatin is prominent in :
+## question
+More euchromatin is prominent in :
+## vignette
+This item asks the student to rank the granulocytes by how condensed their nuclei are.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+neutrophils
+## explanation_a
+The neutrophil nucleus is the darkest and most condensed of the three, which is why the paired question keys the neutrophil for heterochromatin.
+## answer_b
+eosinphils
+## explanation_b
+True, but not the whole answer. The eosinophil's bilobed nucleus is paler than the neutrophil's.
+## answer_c
+basophils
+## explanation_c
+True, but not the whole answer. The basophil's nucleus is pale as well, and its granules obscure it further.
+## answer_d
+both b & c are correct
+## explanation_d
+Correct. The eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Rank the granulocytes by how condensed their nuclei are.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q13. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-839
+## title
+More heterochromatin is prominent in :
+## question
+More heterochromatin is prominent in :
+## vignette
+This item asks the student to rank the granulocytes by how condensed their nuclei are.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+neutrophils
+## explanation_a
+Correct. The neutrophil's segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_b
+eosinphils
+## explanation_b
+The eosinophil is the paler of the pair the companion question keys for euchromatin.
+## answer_c
+basophils
+## explanation_c
+The basophil likewise. It is dark on a film, but that is the granules, not the nucleus — and the granules are what make the S-shaped nucleus hard to see at all.
+## answer_d
+both b & c are correct
+## explanation_d
+Both b and c is the answer to the companion question, `more-euchromatin-is-prominent-in`, not to this one. The two rows share an option set and have opposite answers, which is the whole trap.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Rank the granulocytes by how condensed their nuclei are.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p7 q72. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-840
+## title
+nuclear pore complex:
+## question
+nuclear pore complex:
+## vignette
+This item asks the student to describe the nuclear pore complex completely.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+circular opening in interval
+## explanation_a
+True, but not the whole answer. Circular openings at intervals along the envelope.
+## answer_b
+formed of 30 nucleoporin protein
+## explanation_b
+True, but not the whole answer. About thirty nucleoporin proteins build it.
+## answer_c
+octagonal annulus
+## explanation_c
+True, but not the whole answer. Those proteins are arranged as an octagonal annulus.
+## answer_d
+all the above
+## explanation_d
+Correct. Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Describe the nuclear pore complex completely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q7. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-841
+## title
+Nuclear pore complex refers to:
+## question
+Nuclear pore complex refers to:
+## vignette
+This item asks the student to distinguish the pore from the complex that fills it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The nuclear pores
+## explanation_a
+The nuclear pores are the openings. The complex is what sits in them — the two words are used loosely in conversation and precisely in this question.
+## answer_b
+Non membranous cylindrical structure fits the pores
+## explanation_b
+Correct. A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## answer_c
+Rim of the nuclear pores
+## explanation_c
+The rim of the pore is where the inner and outer membranes fuse. It is membrane, and the complex is protein.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Distinguish the pore from the complex that fills it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q74. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The complex is the nucleoporin assembly occupying the pore, not the pore itself and not its rim, so B is the only option that names it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-842
+## title
+Nuclear pores:
+## question
+Nuclear pores:
+## vignette
+This item asks the student to give what a nuclear pore is and what it does.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The sites of nuclear envelope perforation
+## explanation_a
+True, but not the whole answer. The pores are where the envelope is perforated.
+## answer_b
+Sites at which the inner and the outer membranes are continuous
+## explanation_b
+True, but not the whole answer. Inner and outer membranes fuse and become continuous at the rim of each pore.
+## answer_c
+Regulate the exchange of substances between nucleus and cytoplasm
+## explanation_c
+True, but not the whole answer. Protein enters and RNA and ribosomal subunits leave through them, under control.
+## answer_d
+All of the above
+## explanation_d
+Correct. Site, structure and function together — a student stopping at the first true option has answered a third of it.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Give what a nuclear pore is and what it does.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q73. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and C are each correct — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-843
+## title
+Nucleolus associated heterochromatin:
+## question
+Nucleolus associated heterochromatin:
+## vignette
+This item asks the student to define nucleolus-associated chromatin as one of the three sites of heterochromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is a membrane surrounds the nucleolus
+## explanation_a
+The nucleolus has no membrane of its own; it is explicitly not limited by one. Chromatin around it is not a membrane and does not act as one.
+## answer_b
+Is a heterochromatin attached to the nucleolus
+## explanation_b
+Correct. It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_c
+Nucleolar organizer regions
+## explanation_c
+The nucleolar organiser is the pars amorpha *inside* the nucleolus — the DNA encoding rRNA. It is chromosomal too, which is what makes this the closest distractor, but it is in the nucleolus rather than around it.
+## answer_d
+None of the above
+## explanation_d
+There is a correct option in the set, so "none of the above" cannot stand.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Define nucleolus-associated chromatin as one of the three sites of heterochromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q76. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Nucleolus-associated chromatin is the third of the three named heterochromatin sites — heterochromatin condensed around the nucleolus — which is option B.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-844
+## title
+Nucleolus formed of three regions:
+## question
+Nucleolus formed of three regions:
+## vignette
+This item asks the student to name the three regions of the nucleolus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pars granulosa, pars fibrosa and nucleolar organizer regions
+## explanation_a
+Correct. Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_b
+Peripheral , nucleolar associated chromatin and chromatin islands
+## explanation_b
+Peripheral chromatin, nucleolus-associated chromatin and chromatin islands are the three sites of *heterochromatin*, not the three regions of the nucleolus. Two lists of three, and this is the other one.
+## answer_c
+rRNA , ribosomal proteins andDNA
+## explanation_c
+rRNA, ribosomal protein and DNA are the materials the nucleolus works with, not its named regions.
+## answer_d
+Heterochromatin, euchromatin and nucleolar matrix
+## explanation_d
+Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not the correct term.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Name the three regions of the nucleolus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p18 q77. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The nucleolus's dark areas are pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-845
+## title
+nucleolus is:
+## question
+nucleolus is:
+## vignette
+This item asks the student to describe the nucleolus by light microscopy completely.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+basophilic
+## explanation_a
+True, but not the whole answer. Deeply basophilic, from the nucleic acid it is packed with.
+## answer_b
+rich in nucleic acid
+## explanation_b
+True, but not the whole answer. Rich in nucleic acid is the reason for the basophilia.
+## answer_c
+surrounded by chromatin
+## explanation_c
+True, but not the whole answer. Nucleolus-associated chromatin condenses around it.
+## answer_d
+all the above
+## explanation_d
+Correct. All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Describe the nucleolus by light microscopy completely.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p16 q10. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-846
+## title
+nucleolus is composed of all the following except:
+## question
+nucleolus is composed of all the following except:
+## vignette
+This item asks the student to separate the nucleolus's own parts from the nuclear lamina.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+pars granulose
+## explanation_a
+True, so not the exception. Pars granulosa is one of the three dark parts.
+## answer_b
+rRNA
+## explanation_b
+True, so not the exception. rRNA is the material of pars fibrosa and pars granulosa both.
+## answer_c
+fibrous lamina
+## explanation_c
+Correct. The exception, and the answer. The fibrous lamina — the nuclear lamina — lies against the inner nuclear membrane, at the other side of the nucleus entirely. The word "fibrous" beside "pars fibrosa" is what makes this option work as a trap.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_d
+pars fibrosa
+## explanation_d
+True, so not the exception. Pars fibrosa is the newly synthesised rRNA.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Separate the nucleolus's own parts from the nuclear lamina.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p20 q9. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-847
+## title
+nucleus of basophils is :
+## question
+nucleus of basophils is :
+## vignette
+This item asks the student to give the shape of the basophil nucleus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil. The three granulocyte questions in this book share one option list, so each answer is a distractor in the other two.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil, its two lobes joined by a thick chromatin thread.
+## answer_c
+S shaped
+## explanation_c
+Correct. The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_d
+large kidney shaped
+## explanation_d
+Large and kidney-shaped is the monocyte, which is not a granulocyte at all.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the shape of the basophil nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q11. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-848
+## title
+nucleus of monocyte is :
+## question
+nucleus of monocyte is :
+## vignette
+This item asks the student to give the shape of the monocyte nucleus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+multilobed segmented
+## explanation_a
+Multilobed and segmented is the neutrophil.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil.
+## answer_c
+S shaped
+## explanation_c
+S-shaped is the basophil.
+## answer_d
+large kidney shaped
+## explanation_d
+Correct. The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the shape of the monocyte nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p2 q12. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-849
+## title
+nucleus of neutrophils is :
+## question
+nucleus of neutrophils is :
+## vignette
+This item asks the student to give the shape of the neutrophil nucleus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+multilobed segmented
+## explanation_a
+Correct. Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_b
+bilobed horse show
+## explanation_b
+Bilobed and horse-shoe shaped is the eosinophil.
+## answer_c
+S shaped
+## explanation_c
+S-shaped is the basophil.
+## answer_d
+large kidney shaped
+## explanation_d
+Large and kidney-shaped is the monocyte.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Give the shape of the neutrophil nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p1 q9. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-850
+## title
+Nucleus of the nerve cells:
+## question
+Nucleus of the nerve cells:
+## vignette
+This item asks the student to read the nerve cell nucleus as the type example of an active nucleus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Condensed
+## explanation_a
+A condensed nucleus means an inactive cell. The nerve cell is one of the two named as active, alongside the liver cell.
+## answer_b
+Euchromatic
+## explanation_b
+Correct. The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_c
+No visible nucleolus
+## explanation_c
+The nucleolus is not merely visible in a nerve cell but conspicuous; it is one of the features used to recognise the cell on a slide.
+## answer_d
+Inactive
+## explanation_d
+Inactive is the opposite of what the appearance says. A and D are the same answer twice, which usually means neither is the one.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Read the nerve cell nucleus as the type example of an active nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p14 q84. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-851
+## title
+one layer of columnar, crowded cell, with more than one level nucleus:
+## question
+one layer of columnar, crowded cell, with more than one level nucleus:
+## vignette
+This item asks the student to use nuclear level to identify pseudostratified epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+squamous
+## explanation_a
+Squamous cells are flat with flat nuclei, in one layer at one level.
+## answer_b
+cubical
+## explanation_b
+Cubical cells are as tall as they are wide, with central rounded nuclei at a single level.
+## answer_c
+columnar
+## explanation_c
+Simple columnar epithelium is a single layer of tall cells, but its nuclei sit at one level. The word the stem adds — crowded, at more than one level — is exactly what separates the two.
+## answer_d
+pseudostratified
+## explanation_d
+Correct. Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## topic
+Epithelium
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Use nuclear level to identify pseudostratified epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q7. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-852
+## title
+Pars amorpha of the nucleolus:
+## question
+Pars amorpha of the nucleolus:
+## vignette
+This item asks the student to place pars amorpha at the gene stage of the nucleolar sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Represents newly formed strands of rRNA
+## explanation_a
+Newly formed strands of rRNA are pars fibrosa, one step downstream.
+## answer_b
+Represents granules of mature rRNA
+## explanation_b
+Granules of mature rRNA are pars granulosa, two steps downstream.
+## answer_c
+Represents parts of chromosomes encoding for rRNA
+## explanation_c
+Correct. Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap, and the option also says nuclear rather than nucleolar sap.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Place pars amorpha at the gene stage of the nucleolar sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p29 q52. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-853
+## title
+Pars amorpha of the nucleus:
+## question
+Pars amorpha of the nucleus:
+## vignette
+This item asks the student to place pars amorpha at the gene stage of the nucleolar sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Newly synthesised rRNA is pars fibrosa.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa. This is the keyed answer, and it names the last stage of the sequence for the part that is the first.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+Correct. Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap, and are not one of the three dark parts.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Place pars amorpha at the gene stage of the nucleolar sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q17. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, mature rRNA, which is pars granulosa. Pars amorpha is the DNA encoding rRNA — option C — and the same book keys the identical question printed as `pars-amorpha-of-the-nucleolus-dce300f0` correctly as C. Two rows on this page, this one and `pars-fibrosa-of-the-nucleus-5f1e3d3e`, are both keyed B, and B cannot be right for both: a column of the answer key has shifted.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-854
+## title
+Pars fibrosa of the nucleus:
+## question
+Pars fibrosa of the nucleus:
+## vignette
+This item asks the student to place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Represents newly synthesized rRNA
+## explanation_a
+Correct. Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_b
+Represents mature rRNA
+## explanation_b
+Mature rRNA is pars granulosa. This is the keyed answer, and it is one step further along the sequence than the question asks.
+## answer_c
+Represents DNA encoding for rRNA
+## explanation_c
+The DNA encoding rRNA is pars amorpha, one step earlier.
+## answer_d
+Represents the light areas of nuclear sap
+## explanation_d
+The light areas are nucleolar sap and represent no stage of rRNA.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_6846577508f49244d715
+## learning_objective
+Place pars fibrosa at the new-transcript stage of the nucleolar sequence.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q18. Manifest src_6846577508f49244d715.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys B, mature rRNA, which is pars granulosa. Pars fibrosa is newly synthesised rRNA — option A — and the same book keys the identical question printed as `pars-fibrosa-of-the-nucleolus-fd5fcfbb` correctly as A. This row and `pars-amorpha-of-the-nucleus-b92731c1` are both keyed B on the same page, which is the signature of a shifted answer column rather than two independent judgements.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-855
+## title
+part of chromosome carry genes encoding rRNA:
+## question
+part of chromosome carry genes encoding rRNA:
+## vignette
+This item asks the student to identify the nucleolar organiser as chromosomal DNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+pars amorpha
+## explanation_a
+Correct. Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_b
+pars fibrosa
+## explanation_b
+Pars fibrosa is the RNA transcribed from those genes, not the genes themselves.
+## answer_c
+pars granulosa
+## explanation_c
+Pars granulosa is the finished rRNA, further downstream still.
+## answer_d
+all the above
+## explanation_d
+Only one of the three is chromosomal DNA, so "all the above" cannot stand. Two of the three are RNA at different stages.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Identify the nucleolar organiser as chromosomal DNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q12. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-856
+## title
+plasma cells is characterized by:
+## question
+plasma cells is characterized by:
+## vignette
+This item asks the student to assemble the plasma cell's nuclear and cytoplasmic picture as one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+cartwheel nucleus + negative Golgi image
+## explanation_a
+True, but not the whole answer. The cartwheel nucleus is the alternating chromatin seen end-on, and the pale negative Golgi image sits beside it.
+## answer_b
+alternating euchromatin & heterochromatin in nucleus
+## explanation_b
+True, but not the whole answer. The spokes of the cartwheel *are* alternating euchromatin and heterochromatin — this option and A are the same fact described two ways.
+## answer_c
+deep basophilic cytoplasm
+## explanation_c
+True, but not the whole answer. Deep basophilia follows from the rough endoplasmic reticulum an antibody-exporting cell is packed with.
+## answer_d
+all of the above
+## explanation_d
+Correct. Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Assemble the plasma cell's nuclear and cytoplasmic picture as one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p10 q58. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-857
+## title
+Regarding Klinefelter syndrome
+## question
+Regarding Klinefelter syndrome
+## vignette
+This item asks the student to give the chromosome count in Klinefelter syndrome.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Occurs only in females.
+## explanation_a
+Klinefelter syndrome occurs in males. It is Turner syndrome that affects females, and this book asks both with the same four options.
+## answer_b
+Somatic cells contain 47 chromosomes.
+## explanation_b
+Correct. XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.
+
+Why this is right:
+- Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name.
+## answer_c
+Has XO sex chromosomes.
+## explanation_c
+XO is Turner syndrome, and it gives 45. The two syndromes sit either side of the normal count, which is the distinction the paired questions are built on.
+## answer_d
+Has normal genital system.
+## explanation_d
+The genital system is abnormal in Klinefelter syndrome; a normal one would leave nothing to recognise.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-5097CA5BAB2E51
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the chromosome count in Klinefelter syndrome.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p133 q5. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-858
+## title
+Regarding the ovum
+## question
+Regarding the ovum
+## vignette
+This item asks the student to give the ovum's size, chromosome content, timing and coverings.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Its diameter is about 12 microns
+## explanation_a
+The mature ovum is about 120 µm across — one of the largest cells in the body, and the reason it is visible to the naked eye. Twelve microns is a tenth of that and closer to a lymphocyte.
+## answer_b
+The nucleus carries 22 autosomes and either X- or Y-chromosome
+## explanation_b
+The oocyte nucleus carries 22 autosomes and an X chromosome only. "Either X or Y" is true of the sperm, and the same option appears in the sperm question where it is the answer — which is the trap this pair of questions is built on.
+## answer_c
+It starts development at puberty. Ac ad
+## explanation_c
+Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the keyed answer, and it describes spermatogenesis, which really does start at puberty.
+## answer_d
+Corona radiate is the outer cover of the ovum
+## explanation_d
+Correct. The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the ovum's size, chromosome content, timing and coverings.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q8. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book keys C, that the ovum starts development at puberty, but in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as taught. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the course material against it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-859
+## title
+Regarding the sperm, one of the following statements is correct:
+## question
+Regarding the sperm, one of the following statements is correct:
+## vignette
+This item asks the student to give the sperm's length, nuclear content, timing and acrosome position.
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Its length is about 6 microns.
+## explanation_a
+The whole sperm is about 55 µm long: head 4, middle piece 6 and tail 45. Six microns is the middle piece alone, which is where the figure in this option comes from.
+## answer_b
+The nucleus carries 22 autosomes and either X- or Y-chromosome.
+## explanation_b
+Correct. The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.
+
+Why this is right:
+- The sperm is about 55 µm long and has a head, neck, middle piece and tail.
+## answer_c
+It starts formation at birth.
+## explanation_c
+Spermatogenesis starts at puberty and continues into old age. Formation beginning before birth is the female pattern, and the two are being swapped here.
+## answer_d
+Acrosomal cap covers most of the middle piece.
+## explanation_d
+The acrosomal cap covers most of the *nucleus*, in the head. The middle piece carries the mitochondrial sheath instead, and putting the cap there confuses the two ends of the cell.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_08bc782553366518791e
+## learning_objective
+Give the sperm's length, nuclear content, timing and acrosome position.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q7. Manifest src_08bc782553366518791e.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The sperm is 55 µm long, its formation begins at puberty, and the acrosomal cap covers most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-860
+## title
+site of heterochromatin:
+## question
+site of heterochromatin:
+## vignette
+This item asks the student to name all three sites of heterochromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+attached to inner envelope
+## explanation_a
+True, but not the whole answer. Peripheral chromatin, attached to the inner nuclear membrane.
+## answer_b
+scattered in nuclear sap
+## explanation_b
+True, but not the whole answer. Chromatin islands, scattered in the nuclear sap.
+## answer_c
+around nucleolus
+## explanation_c
+True, but not the whole answer. Nucleolus-associated chromatin, condensed around the nucleolus.
+## answer_d
+all the above
+## explanation_d
+Correct. Three sites are listed; each is a separate option in other questions in these books, so knowing only one of them is not enough.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Name all three sites of heterochromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p17 q18. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-861
+## title
+The euchromatin
+## question
+The euchromatin
+## vignette
+This item asks the student to pick the one true statement about euchromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Contains inactive genes
+## explanation_a
+Inactive genes are heterochromatin's. Euchromatin is the form whose genes are being read.
+## answer_b
+Appears dark in EM
+## explanation_b
+Electron dense is heterochromatin. Euchromatin is electron lucent, because it is dispersed.
+## answer_c
+Predominates in active cells
+## explanation_c
+Correct. Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are standard examples.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+Include peripheral and islands chromatin
+## explanation_d
+Peripheral chromatin and chromatin islands are two of the three heterochromatin sites. Naming them for euchromatin puts it in the one place it never is.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Pick the one true statement about euchromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q69. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A, B and D each state a property of heterochromatin; only C — that euchromatin predominates in active cells — is true of it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-862
+## title
+The following is a character of multilocular adipocyte:
+## question
+The following is a character of multilocular adipocyte:
+## vignette
+This item asks the student to give what brown fat is for.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Has membrane-bound granule filling the cytoplasm
+## explanation_a
+A membrane-bound granule filling the cytoplasm is not what a fat droplet is — lipid inclusions have no membrane, which is part of what makes them inclusions rather than organelles.
+## answer_b
+Has flattened peripheral nucleus
+## explanation_b
+A flattened peripheral nucleus is the unilocular cell, pushed aside by its single droplet. The multilocular cell keeps a central rounded nucleus.
+## answer_c
+Function is heat generation
+## explanation_c
+Correct. Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_d
+Most abundant in white adipose C.T
+## explanation_d
+White adipose tissue is unilocular. Multilocular cells make up brown adipose tissue, which is the smaller depot and most prominent in the newborn.
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_c30d9391aa0861f41e44
+## learning_objective
+Give what brown fat is for.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. CT MCQ 2024 JPG.pdf p6 q35. Manifest src_c30d9391aa0861f41e44.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-863
+## title
+The megakaryocyte is characterized by the following
+## question
+The megakaryocyte is characterized by the following
+## vignette
+This item asks the student to identify the megakaryocyte from its nucleus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Have single multilobed dark nucleus
+## explanation_a
+Correct. One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_b
+Have acidophilie cytoplasm rich in lysosomes
+## explanation_b
+Acidophilic cytoplasm rich in lysosomes describes the osteoclast. The megakaryocyte cytoplasm is where the platelet granules are being packaged.
+## answer_c
+Found on bony surface, in howship's lacunae
+## explanation_c
+Sitting on a bony surface in Howship's lacunae is the osteoclast again — another giant multinucleated cell, and the reason this option is here.
+## answer_d
+Give origin to metamyelocytes
+## explanation_d
+Metamyelocytes come from the granulocyte line. What the megakaryocyte gives origin to is platelets, shed from its cytoplasm along demarcation channels.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Identify the megakaryocyte from its nucleus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p13 q9; EOM ISK 101 195 Answers.pdf p4 q43. Manifest src_34c967631e388497dc35, src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-864
+## title
+The nucleus of large lymphocytes is characterized by being …………
+## question
+The nucleus of large lymphocytes is characterized by being …………
+## vignette
+This item asks the student to distinguish the large lymphocyte nucleus from the small one and from the monocyte.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Kidney-shaped
+## explanation_a
+Kidney-shaped is the monocyte. The two are the largest cells on a film and the option is here because they are confused on sight.
+## answer_b
+Large and indented
+## explanation_b
+Correct. Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## answer_c
+With no obvious nucleolus
+## explanation_c
+No obvious nucleolus is the *small* lymphocyte, whose condensed chromatin hides it.
+## answer_d
+Heterochromatic
+## explanation_d
+Heterochromatic is again the small lymphocyte. The large one is paler because it is the active form.
+## topic
+Blood
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Distinguish the large lymphocyte nucleus from the small one and from the monocyte.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p2 q12. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-865
+## title
+The nucleus of protein forming cell shows all the following except:
+## question
+The nucleus of protein forming cell shows all the following except:
+## vignette
+This item asks the student to assemble the nuclear picture of an active cell and name the one feature that does not belong.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+More euchromatin by EM
+## explanation_a
+True, so not the exception. More euchromatin by EM is exactly what an active nucleus shows.
+## answer_b
+More heterochromatin by EM
+## explanation_b
+Correct. The exception, and the answer. More heterochromatin means genes coiled away and unread, which is the nucleus of a resting cell.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_c
+Clear nucleolus
+## explanation_c
+True, so not the exception. A clear nucleolus goes with it, because a cell making protein is making ribosomes.
+## answer_d
+Pale by LM
+## explanation_d
+True, so not the exception. Pale by light microscopy is what dispersed chromatin looks like — the vesicular nucleus.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_620516ae7327c0f4fc2f
+## learning_objective
+Assemble the nuclear picture of an active cell and name the one feature that does not belong.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p9 q51. Manifest src_620516ae7327c0f4fc2f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-866
+## title
+The outer layer of the nuclear envelope:
+## question
+The outer layer of the nuclear envelope:
+## vignette
+This item asks the student to distinguish the outer nuclear membrane from the inner one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is smooth
+## explanation_a
+Smooth is what the inner membrane would be called if the terms were reversed. The outer one carries ribosomes and so is granular — it is continuous with the rough endoplasmic reticulum, and that continuity is the reason.
+## answer_b
+Is granular
+## explanation_b
+Correct. The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## answer_c
+Shows cristae
+## explanation_c
+Cristae are folds of the inner mitochondrial membrane. Nothing in the nuclear envelope is folded that way.
+## answer_d
+Is fibrillar
+## explanation_d
+Fibrillar is the *inner* membrane, with the nuclear lamina against it and peripheral chromatin attached. Granular outside, fibrillar inside, and this question and its options exist to test which is which.
+## topic
+Cytology
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_d1414701d8fcb55932b6
+## learning_objective
+Distinguish the outer nuclear membrane from the inner one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p29 q48. Manifest src_d1414701d8fcb55932b6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-867
+## title
+Unilocular fat cells:
+## question
+Unilocular fat cells:
+## vignette
+This item asks the student to assemble the signet ring appearance from its three parts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+have eccentric flat nucleus
+## explanation_a
+True, but not the whole answer. The nucleus is flattened and pushed eccentrically to the edge.
+## answer_b
+have single large fat droplet
+## explanation_b
+True, but not the whole answer. A single large droplet is what does the pushing.
+## answer_c
+have thin rim of cytoplasm
+## explanation_c
+True, but not the whole answer. What is left of the cytoplasm is a thin rim around that droplet.
+## answer_d
+all of the above
+## explanation_d
+Correct. All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.
+
+Why this is right:
+- Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many.
+## topic
+Connective Tissue
+## subtopic
+Nucleus
+## main_concept
+CON-FND-AEAB45FAA2C33D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_4e481d399b2ffd65b97a
+## learning_objective
+Assemble the signet ring appearance from its three parts.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Connective Tissue].pdf p13 q100. Manifest src_4e481d399b2ffd65b97a.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-868
+## title
+Choose the correct statement concerning the nucleolus:
+## question
+Choose the correct statement concerning the nucleolus:
+## vignette
+This item asks the student to match each dark part of the nucleolus to the stage of ribosomal RNA it holds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pars amorpha contains mature rRNA.
+## explanation_a
+The pars amorpha holds no rRNA of any maturity — it is DNA, the nucleolar organiser carrying the genes from which rRNA is transcribed. Naming it as the mature form skips the whole sequence.
+## answer_b
+Pars amorpha contains immature rRNA.
+## explanation_b
+Immature rRNA is the pars fibrosa, not the pars amorpha. This is the near-miss of option a and catches a student who has learnt that amorpha comes first without learning that what comes first is the gene.
+## answer_c
+Pars granulosa contains mature rRNA.
+## explanation_c
+Correct. The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_d
+Pars granulosa contains immature rRNA
+## explanation_d
+The pars granulosa is the mature form. Swapping "immature" in here inverts the one fact that separates the granulosa from the fibrosa, and the four options are the two parts crossed with the two maturities precisely so that only one crossing is right.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural detail
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Match each dark part of the nucleolus to the stage of ribosomal RNA it holds.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p2 q12. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: the pars amorpha is the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is granules of mature rRNA. Only option c matches a part to the right stage.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-869
+## title
+Sex chromatin (Barr body):
+## question
+Sex chromatin (Barr body):
+## vignette
+This item asks the student to decide which sex-chromosome constitution shows a Barr body, and say which X it is.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Inactive x chromosome in turner syndrome
+## explanation_a
+Turner syndrome is XO: a single X and nothing else. With only one X there is nothing to switch off, so a Turner nucleus shows no Barr body at all — this is the option most students take, because Turner is the sex-chromosome disorder they meet first.
+## answer_b
+Active x chromosome in turner syndrome
+## explanation_b
+Doubly wrong. Turner has no spare X to inactivate, and the Barr body is by definition the inactive one — the active X is never what is seen.
+## answer_c
+Inactive extra X chromosome in Klinefelter syndrome.
+## explanation_c
+Correct. Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.
+
+Why this is right:
+- Sex chromatin, or the Barr body, is an X chromosome that has been inactivated and condensed into a mass of heterochromatin — a dark plaque against the inner nuclear membrane in most cells, and the drumstick appendage on the segmented nucleus in a proportion of female neutrophils.
+## answer_d
+Active extra x chromosome in Klinefelter syndrome.
+## explanation_d
+The right syndrome with the wrong X. Klinefelter does have an extra X, but the one that condenses into sex chromatin is the inactivated one; the active X stays extended and invisible.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-69671A492023B8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Reasoning
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Decide which sex-chromosome constitution shows a Barr body, and say which X it is.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p5 q33. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered. The course material does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the course text.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-870
+## title
+The two ribosomal subunits join each other in the:
+## question
+The two ribosomal subunits join each other in the:
+## vignette
+This item asks the student to say where and when the two ribosomal subunits come together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Cytoplasm during cell division.
+## explanation_a
+The place is right and the occasion is wrong. The subunits do meet in the cytoplasm, but they meet to translate a message, not to divide — and a cell in mitosis has largely stopped synthesising protein.
+## answer_b
+Cytoplasm during protein synthesis
+## explanation_b
+Correct. The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.
+
+Why this is right:
+- The growing polypeptide chain is carried on the large subunit.
+## answer_c
+Nucleus during cell division.
+## explanation_c
+The nucleolus is where the two subunits are assembled out of rRNA and protein, so the nucleus is a tempting answer — but they are assembled there as two separate subunits and exported as two, never as a joined ribosome.
+## answer_d
+Nucleus during protein synthesis.
+## explanation_d
+Protein synthesis does not happen in the nucleus. Combining the right occasion with the wrong compartment, this is the mirror of option a and catches the same half-knowledge from the other side.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-4284C6B8667CD6
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Say where and when the two ribosomal subunits come together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p1 q3. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-871
+## title
+Peroxisomal enzymes are synthesized by:
+## question
+Peroxisomal enzymes are synthesized by:
+## vignette
+This item asks the student to attribute peroxisomal enzymes to free ribosomes rather than to the reticulum the vesicle buds from.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+sER.
+## explanation_a
+Smooth endoplasmic reticulum makes phospholipid and steroid and detoxifies drugs. It has no ribosomes at all, so it cannot synthesise any protein, let alone an enzyme.
+## answer_b
+rER.
+## explanation_b
+This is the trap, and it is a good one: the peroxisome itself does bud off the rough endoplasmic reticulum. But the membrane vesicle and the enzymes inside it come from different places, and the rER makes protein for export and for other membranous organelles, not for this one.
+## answer_c
+Free polysomes.
+## explanation_c
+Correct. Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.
+
+Why this is right:
+- The oxidases carry out beta-oxidation of long-chain fatty acids, which produces heat rather than ATP and generates hydrogen peroxide as a toxic by-product; catalase then breaks that hydrogen peroxide into water and oxygen.
+- They are abundant in liver and kidney cells and they increase in number by division.
+- Lack of peroxisomal enzymes affects the function of organs such as the liver.
+## answer_d
+Nucleus.
+## explanation_d
+The nucleus makes RNA, not protein. No enzyme is synthesised inside it; its ribosomal subunits are exported before any translation happens.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-195407DF67047D
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Attribute peroxisomal enzymes to free ribosomes rather than to the reticulum the vesicle buds from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q10. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper printed no key and none was recovered for it, so the answer given here is: peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-872
+## title
+Regarding peripheral chromatin, it is:
+## question
+Regarding peripheral chromatin, it is:
+## vignette
+This item asks the student to place peripheral chromatin among the three sites of heterochromatin and say what all chromatin is made of.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+A part of euchromatin.
+## explanation_a
+Peripheral chromatin is one of the three sites of heterochromatin, not of euchromatin. It is attached to the inner surface of the nuclear membrane precisely because it is coiled and condensed enough to be seen there.
+## answer_b
+Formed of the nucleoproteins.
+## explanation_b
+Correct. This option looks too general to be the answer, but it is the true one. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_c
+Surrounding the nucleolus.
+## explanation_c
+Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list and the question simply asks which one the name "peripheral" belongs to.
+## answer_d
+Scattered in the nuclear sap.
+## explanation_d
+Scattered in the nuclear sap describes chromatin islands, the second site. Peripheral chromatin is by definition not scattered — it is against the membrane.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Place peripheral chromatin among the three sites of heterochromatin and say what all chromatin is made of.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q13; EOY 195 first 2022 101 ISK final (1).pdf p14 q4. Manifest src_9e6aad6c6af097e473d6, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer given here is: chromatin is defined as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and the three sites of heterochromatin are peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-873
+## title
+In the nucleolus, the newly formed rRNA is found in:
+## question
+In the nucleolus, the newly formed rRNA is found in:
+## vignette
+This item asks the student to name the part of the nucleolus that holds newly transcribed ribosomal RNA.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Pars amorpha.
+## explanation_a
+The pars amorpha is the nucleolar organiser — the DNA carrying the rRNA genes. It is the source of the transcript, not the transcript, and the two are one step apart in the sequence.
+## answer_b
+Pars fibrosa.
+## explanation_b
+Correct. The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.
+
+Why this is right:
+- The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane.
+- By electron microscopy it is spongy, with dark areas and light areas.
+- The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA.
+## answer_c
+Nucleolar organiser.
+## explanation_c
+Nucleolar organiser is another name for the pars amorpha, so this option is option a wearing a different label — offering both names in one option set is how the item checks that a student knows they are the same thing.
+## answer_d
+Pars granulosa.
+## explanation_d
+The pars granulosa holds mature rRNA granules, the finished product. It is the last stage, and "newly formed" is what rules it out.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-30573B6D0A9AFD
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structural detail
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Name the part of the nucleolus that holds newly transcribed ribosomal RNA.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q15. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is reserved for the mature granules.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-874
+## title
+The statement best matches the euchromatin is:
+## question
+The statement best matches the euchromatin is:
+## vignette
+This item asks the student to identify active genes as the defining property of euchromatin.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+It is coiled chromatin.
+## explanation_a
+Coiled chromatin is heterochromatin. Coiling is the physical fact behind the whole distinction, and it runs the other way for euchromatin, which is extended.
+## answer_b
+Dark basophilic nucleus by L.M.
+## explanation_b
+A dark basophilic nucleus by light microscopy is the condensed nucleus of a heterochromatic, inactive cell. Euchromatin gives a pale, vesicular nucleus with a clear nucleolus.
+## answer_c
+It contains active genes.
+## explanation_c
+Correct. Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.
+
+Why this is right:
+- Heterochromatin lies in three places: peripheral chromatin attached to the inner surface of the nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin condensed around the nucleolus.
+## answer_d
+It forms chromatin islands.
+## explanation_d
+Chromatin islands are one of the three sites of heterochromatin, scattered in the nuclear sap. Euchromatin is too dispersed to form a visible clump of any kind.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-6C5ABFD844D630
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Identify active genes as the defining property of euchromatin.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q16. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer given here is: euchromatin is defined as extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-875
+## title
+Nuclear Lamins are:
+## question
+Nuclear Lamins are:
+## vignette
+This item asks the student to place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Mature rRNA.
+## explanation_a
+Mature rRNA is the pars granulosa of the nucleolus. Lamins are protein — intermediate filament protein — and have nothing to do with ribosomal RNA at any stage.
+## answer_b
+Newly formed rRNA.
+## explanation_b
+Newly formed rRNA is the pars fibrosa. The word "fibrosa" is doing the damage here: lamins are fibrillar too, and a student matching on the word rather than the substance lands on the wrong structure.
+## answer_c
+Attached to outer nuclear membrane
+## explanation_c
+The outer nuclear membrane is the one continuous with the rough endoplasmic reticulum and studded with polyribosomes. Nothing is attached to it on the nuclear side, because it does not face the nucleus.
+## answer_d
+Attached to inner nuclear membrane
+## explanation_d
+Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.
+
+Why this is right:
+- The nuclear envelope is a double-walled membrane of two parallel unit membranes separated by a perinuclear space and interrupted at intervals by nuclear pores.
+- The outer membrane is rough — granular, studded with polyribosomes — and is continuous with the cisternae of the rough endoplasmic reticulum.
+- The inner membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-C5C16B3F123155
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q14. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter's envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-876
+## title
+Kinetochores:
+## question
+Kinetochores:
+## vignette
+This item asks the student to define the kinetochore by what attaches to it, and separate it from the telomere.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Are regions of repeated sequence at ends of chromosomes
+## explanation_a
+Repeated sequence at the ends of chromosomes is the telomere. The item offers the telomere twice, described two different ways, which is how it separates students who know both terms from students who know only that both are parts of a chromosome.
+## answer_b
+Are segments of DNA molecules
+## explanation_b
+Every part of a chromosome is a segment of DNA, so this says nothing that distinguishes a kinetochore from anything else. A statement true of the whole cannot identify a part.
+## answer_c
+Attach to spindle fibers during cell division
+## explanation_c
+Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.
+
+Why this is right:
+- A chromosome has two named landmarks the examiners set against each other.
+## answer_d
+Protect end of chromosome from destruction
+## explanation_d
+Protecting the chromosome end from destruction is the telomere's function — the same structure as option a, given by its job rather than its sequence.
+## topic
+Nucleus
+## subtopic
+Nucleus
+## main_concept
+CON-FND-EB83F2B16C479F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Cytology > Nucleus
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-NUCLEUS
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Define the kinetochore by what attaches to it, and separate it from the telomere.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q29. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the course material does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no accepted source supports it.
