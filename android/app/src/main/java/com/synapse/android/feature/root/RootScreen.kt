@@ -82,6 +82,7 @@ import com.synapse.android.feature.qbank.RunnerViewModel
 import com.synapse.android.feature.qbank.SessionBuilderScreen
 import com.synapse.android.feature.qbank.TopicChooserScreen
 import com.synapse.android.feature.reader.ArticleReaderRoute
+import com.synapse.android.feature.studyrooms.StudyRoomsRoute
 import java.time.Duration
 import kotlinx.coroutines.flow.first
 
@@ -99,6 +100,9 @@ private const val ROUTE_BILLING = "billing"
 // A pushed detail destination, not a bottom-bar tab -- reached from Home,
 // the same shape as ROUTE_PERFORMANCE and friends below.
 private const val ROUTE_LIBRARY = "library"
+// Voice study rooms. A pushed destination from Home's "MORE" grid, never a
+// bottom-nav tab — the same shape as ROUTE_LIBRARY and friends.
+private const val ROUTE_STUDYROOMS = "studyrooms"
 // The article Reader, pushed from the Library with the article's id. A real
 // nav destination (not the Library's internal detail state) so system back
 // returns to the Library and a "read next" link can push another Reader on top.
@@ -330,6 +334,7 @@ private fun SignedInNavHost(
                     onOpenTerminology = { navController.navigate(ROUTE_TERMINOLOGY) },
                     onOpenAssistant = { navController.navigate(ROUTE_ASSISTANT) },
                     onOpenLibrary = { navController.navigate(ROUTE_LIBRARY) },
+                    onOpenStudyRooms = { navController.navigate(ROUTE_STUDYROOMS) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -392,6 +397,11 @@ private fun SignedInNavHost(
                     onBack = { navController.popBackStack() },
                     onOpenArticle = { id -> navController.navigate("$ROUTE_READER/${Uri.encode(id)}") },
                 )
+            }
+            // Voice study rooms — pushed from Home's "MORE" grid, its own back
+            // stack entry so system back returns to Home.
+            composable(ROUTE_STUDYROOMS) {
+                StudyRoomsRoute(graph = graph, onBack = { navController.popBackStack() })
             }
             // Reached from Settings' Billing row, not the "MORE" grid --
             // matching iOS and the web, which both put Billing under Account.

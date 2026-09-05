@@ -323,6 +323,36 @@ fun TerminologyGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Col
 
 /** A speech bubble with a small tail, and three dots inside it -- the Study assistant: a conversation, mid-reply. */
 @Composable
+fun StudyRoomsGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = strokeWidthFor(this.size.minDimension)
+        val w = this.size.width
+        val h = this.size.height
+        // A microphone capsule.
+        val corner = androidx.compose.ui.geometry.CornerRadius(w * 0.18f, w * 0.18f)
+        drawRoundRect(
+            color = color,
+            topLeft = Offset(w * 0.36f, h * 0.12f),
+            size = Size(w * 0.28f, h * 0.44f),
+            cornerRadius = corner,
+            style = Stroke(width = stroke),
+        )
+        // The cradle arc under it, and the stand down to a base.
+        drawArc(
+            color = color,
+            startAngle = 0f,
+            sweepAngle = 180f,
+            useCenter = false,
+            topLeft = Offset(w * 0.26f, h * 0.34f),
+            size = Size(w * 0.48f, h * 0.40f),
+            style = Stroke(width = stroke, cap = StrokeCap.Round),
+        )
+        drawLine(color, Offset(w * 0.5f, h * 0.74f), Offset(w * 0.5f, h * 0.88f), stroke, StrokeCap.Round)
+        drawLine(color, Offset(w * 0.34f, h * 0.88f), Offset(w * 0.66f, h * 0.88f), stroke, StrokeCap.Round)
+    }
+}
+
+@Composable
 fun AssistantGlyph(modifier: Modifier = Modifier, size: Dp = 22.dp, color: Color = LocalContentColor.current) {
     Canvas(modifier = modifier.size(size)) {
         val stroke = strokeWidthFor(this.size.minDimension)

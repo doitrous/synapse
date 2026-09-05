@@ -58,6 +58,7 @@ import com.synapse.android.design.PerformanceGlyph
 import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.design.ResourcesGlyph
+import com.synapse.android.design.StudyRoomsGlyph
 import com.synapse.android.design.TerminologyGlyph
 import com.synapse.android.design.Wordmark
 import com.synapse.android.core.ui.StateHost
@@ -83,6 +84,7 @@ fun HomeRoute(
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
+    onOpenStudyRooms: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -100,6 +102,7 @@ fun HomeRoute(
         onOpenTerminology = onOpenTerminology,
         onOpenAssistant = onOpenAssistant,
         onOpenLibrary = onOpenLibrary,
+        onOpenStudyRooms = onOpenStudyRooms,
     )
 }
 
@@ -136,6 +139,7 @@ fun HomeScreen(
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
+    onOpenStudyRooms: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -178,6 +182,7 @@ fun HomeScreen(
                 onOpenCalendar = onOpenCalendar,
                 onOpenTerminology = onOpenTerminology,
                 onOpenAssistant = onOpenAssistant,
+                onOpenStudyRooms = onOpenStudyRooms,
             )
         }
     }
@@ -380,6 +385,7 @@ private fun MoreGrid(
     onOpenCalendar: () -> Unit,
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
+    onOpenStudyRooms: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -451,6 +457,18 @@ private fun MoreGrid(
                 onClick = onOpenAssistant,
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            GridCard(
+                icon = { StudyRoomsGlyph(color = cortex.accentStrong) },
+                label = "Study rooms",
+                sublabel = "Talk & study live",
+                onClick = onOpenStudyRooms,
+                modifier = Modifier.weight(1f),
+            )
+            // A spacer twin keeps the last row's single card at grid width
+            // rather than stretching it across both columns.
+            Spacer(modifier = Modifier.weight(1f))
         }
     }
 }
