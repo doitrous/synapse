@@ -70,6 +70,7 @@ export function SocialAuthButtons({
             type="button"
             variant="secondary"
             className="w-full"
+            aria-label={`${mode === 'sign in' ? 'Sign in' : 'Continue'} with ${provider.label}`}
             loading={busy === provider.id}
             disabled={!API_MODE || Boolean(busy)}
             onClick={() => start(provider.id)}
@@ -77,7 +78,7 @@ export function SocialAuthButtons({
             <span className="grid size-[18px] shrink-0 place-items-center" aria-hidden>
               <provider.icon />
             </span>
-            {mode === 'sign in' ? 'Sign in' : 'Continue'} with {provider.label}
+            {provider.label}
           </Button>
         ))}
       </div>

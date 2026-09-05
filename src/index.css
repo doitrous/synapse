@@ -234,8 +234,19 @@
 /* Warm — the same instrument on paper-tinted stock rather than cool porcelain.
    A reading mode: only the neutral ramp warms, and the brand holds its value.
    Keeping the crimson fixed across all three themes is what makes the button
-   in light, warm and dark read as one brand. */
-:root[data-theme='warm'] {
+   in light, warm and dark read as one brand.
+
+   Also matched as a bare `[data-theme='warm']` so the palette can be SCOPED to
+   a subtree, not just the document root: the pre-login auth flow wraps itself
+   in one of these to stay warm even when the app theme is Dark/OLED (a white
+   card full of theme-token text turns illegible otherwise). Because the block
+   can now sit under a dark root — where the "fixed" brand tokens it used to
+   inherit from :root are the dark ones — it re-pins the couple it actually
+   needs (primary-strong for link text) rather than inheriting a dark value. */
+:root[data-theme='warm'],
+[data-theme='warm'] {
+  --color-primary-strong: #a82449;
+
   --color-paper: #f7f2ea;
   --color-surface: #fffdf9;
   --color-surface-2: #f1ebe1;

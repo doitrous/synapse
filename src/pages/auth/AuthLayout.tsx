@@ -157,6 +157,7 @@ export function AuthLayout({
   if (aside) {
     return (
       <div
+        data-theme="warm"
         className="min-h-dvh lg:grid lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)]"
         style={{
           backgroundColor: WARM.panelBg,
@@ -198,7 +199,7 @@ export function AuthLayout({
   }
 
   return (
-    <div className="min-h-dvh bg-paper">
+    <div data-theme="warm" className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
           <Link to="/" aria-label="Nishany home"><Wordmark /></Link>
