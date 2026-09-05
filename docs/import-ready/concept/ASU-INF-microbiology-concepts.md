@@ -4260,7 +4260,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Gonococcal IgA protease inactivates secretory IgA to promote mucosal colonization
+Gonococcal IgA protease inactivates secretory IgA
 
 ## id
 CON-INF-A6D04F194FA5FB
@@ -4287,7 +4287,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Antiphagocytic capsule is an important virulence factor
+Antiphagocytic capsule as a virulence factor
 
 ## id
 CON-INF-7789C0F6154E35
@@ -4314,7 +4314,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Invasins trigger receptor-mediated uptake of bacteria into non-phagocytic host cells
+Invasins force bacterial uptake into non-phagocytes
 
 ## id
 CON-INF-59379B20FF9F38
@@ -4323,7 +4323,9 @@ CON-INF-59379B20FF9F38
 bacteria.invasins.mechanism
 
 ## definition
-Invasins are bacterial surface proteins that bind specific receptors on host-cell membranes and, through that interaction, trigger the host cell itself to engulf the bacterium by intracellular uptake -- allowing entry into cells that are not professional phagocytes.
+**Invasins** are bacterial surface proteins that bind specific receptors on host-cell membranes.
+
+Through that interaction they __trigger the host cell itself to engulf the bacterium__, allowing entry into cells that are not professional phagocytes.
 
 ## explicit_objective
 State that invasins act by interacting with specific host-cell receptors to cause intracellular uptake of the bacterium.
@@ -4482,7 +4484,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-A bacterium's ability to cause disease is determined by both its virulence and host immunity
+Disease depends on both virulence and host immunity
 
 ## id
 CON-INF-A6DFAC5D14B3D4
@@ -4491,7 +4493,9 @@ CON-INF-A6DFAC5D14B3D4
 bacteria.pathogenicity.determinants
 
 ## definition
-Whether an organism actually causes disease in a given host depends jointly on the pathogen's own virulence (its capacity to invade and damage tissue) and the state of the host's immune defenses, not on either factor in isolation.
+Whether an organism actually causes disease depends __jointly on the pathogen's virulence__ (its capacity to invade and damage tissue) __and the state of the host's immune defenses__.
+
+Neither factor acts in isolation.
 
 ## explicit_objective
 State that disease-causing ability (pathogenicity) reflects the balance between organism virulence and host immunity.
@@ -4650,7 +4654,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Host-microbe relationships are classified as parasitism, commensalism or mutualism
+Parasitism, commensalism and mutualism
 
 ## id
 CON-INF-0B4BAFFD525FDF
@@ -4659,7 +4663,11 @@ CON-INF-0B4BAFFD525FDF
 bacteria.host-relationships.parasitism-commensalism-mutualism
 
 ## definition
-In a parasitic relationship the microbe benefits at the expense of the host (true of pathogenic bacteria); in a commensal relationship the microbe benefits while the host is neither helped nor harmed; in a mutualistic relationship both partners benefit.
+In **parasitism** the microbe benefits at the expense of the host (true of pathogenic bacteria).
+
+In **commensalism** the microbe benefits while the host is neither helped nor harmed.
+
+In **mutualism** __both partners benefit__.
 
 ## explicit_objective
 Differentiate parasitism, commensalism and mutualism by whether the host is harmed, unaffected, or benefited by the relationship.
@@ -4818,7 +4826,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-An exotoxin is a secreted polypeptide/protein, unlike structural endotoxin
+Exotoxin vs endotoxin
 
 ## id
 CON-INF-C87DF729E2ADDF
@@ -4827,7 +4835,9 @@ CON-INF-C87DF729E2ADDF
 bacteria.toxins.exotoxin-vs-endotoxin
 
 ## definition
-An exotoxin is, by definition, a polypeptide or protein actively secreted by living bacteria (Gram-positive or Gram-negative), which distinguishes it from endotoxin -- the lipopolysaccharide/lipid A structural component of the Gram-negative outer membrane, released mainly on bacterial lysis rather than secreted.
+An **exotoxin** is a polypeptide or protein __actively secreted by living bacteria__ (Gram-positive or Gram-negative).
+
+This distinguishes it from **endotoxin** — the lipopolysaccharide/lipid A structural component of the Gram-negative outer membrane, __released mainly on bacterial lysis__ rather than secreted.
 
 ## explicit_objective
 State that an exotoxin is a secreted polypeptide/protein toxin, as opposed to the lipid-based structural nature of endotoxin.
@@ -4986,7 +4996,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Formalin converts the diphtheria AB exotoxin into an immunogenic toxoid
+Formalin turns exotoxin into a toxoid vaccine
 
 ## id
 CON-INF-F6DC0E99178186
@@ -4995,7 +5005,9 @@ CON-INF-F6DC0E99178186
 bacteria.toxoid.formalin-inactivation
 
 ## definition
-Treating an AB-subunit exotoxin such as diphtheria toxin with formalin destroys its toxicity while preserving its antigenicity, producing a toxoid used as a vaccine; structural components such as lipid A or teichoic acid are not toxoided this way.
+Treating an AB-subunit exotoxin such as **diphtheria toxin** with **formalin** __destroys its toxicity while preserving its antigenicity__, producing a **toxoid** used as a vaccine.
+
+Structural components such as lipid A or teichoic acid are not toxoided this way.
 
 ## explicit_objective
 State that formalin treatment of an AB exotoxin (e.g. diphtheria toxin) produces an immunogenic, non-toxic toxoid.
@@ -5154,7 +5166,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Septic shock from Gram-negative infection is caused by lipid A of LPS
+Septic shock is caused by lipid A of LPS
 
 ## id
 CON-INF-D60EAAF763C476
@@ -5163,7 +5175,9 @@ CON-INF-D60EAAF763C476
 bacteria.septic-shock.lps-mediated-pathogenesis
 
 ## definition
-Septic shock following Gram-negative bacterial infection is caused by lipopolysaccharide, specifically its lipid A component, which triggers a massive host cytokine response producing fever, hypotension and multi-organ dysfunction -- it is not caused by an AB exotoxin, a superantigen, or a type III hypersensitivity reaction.
+Septic shock following Gram-negative infection is caused by **lipopolysaccharide**, specifically its **lipid A** component, which triggers a __massive host cytokine response__ — fever, hypotension and multi-organ dysfunction.
+
+It is not caused by an AB exotoxin, a superantigen, or a type III hypersensitivity reaction.
 
 ## explicit_objective
 State that lipid A of LPS is the cause of septic shock in Gram-negative sepsis, and recognize the clinical picture of fever and hypotension after Gram-negative infection.
@@ -5331,7 +5345,9 @@ CON-INF-2A6CE8EF5F40F7
 bacteria.toxins.hemolysin-mechanism
 
 ## definition
-Hemolysins are bacterial exotoxins that damage host-cell membranes, including red blood cells, by directly disrupting membrane integrity -- classifying them as membrane-disturbing cytolytic toxins rather than endotoxins, structural toxins, or AB-subunit toxins.
+**Hemolysins** are bacterial exotoxins that damage host-cell membranes, including red blood cells, by __directly disrupting membrane integrity__.
+
+This makes them **membrane-disturbing cytolytic toxins** — not endotoxins, structural toxins, or AB-subunit toxins.
 
 ## explicit_objective
 Classify hemolysins as membrane-disturbing cytolytic toxins rather than endotoxins or AB-subunit toxins.
@@ -5490,7 +5506,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Gram-positive teichoic acid induces chemotaxis and release of inflammatory mediators
+Teichoic acid drives Gram-positive inflammation
 
 ## id
 CON-INF-22F2937E8D094E
@@ -5499,7 +5515,9 @@ CON-INF-22F2937E8D094E
 bacteria.teichoic-acid.gram-positive-pathogenesis-role
 
 ## definition
-Teichoic acid, a cell-wall component unique to Gram-positive bacteria, contributes to pathogenesis by inducing chemotaxis of inflammatory cells and triggering release of inflammatory mediators -- functioning as the Gram-positive counterpart to LPS in provoking a host inflammatory response, rather than acting as an endotoxin or superantigen itself.
+**Teichoic acid**, a cell-wall component unique to Gram-positive bacteria, contributes to pathogenesis by __inducing chemotaxis of inflammatory cells and triggering release of inflammatory mediators__.
+
+It functions as the **Gram-positive counterpart to LPS** in provoking a host inflammatory response, rather than acting as an endotoxin or superantigen itself.
 
 ## explicit_objective
 State that teichoic acid's pathogenic role is to induce chemotaxis and mediator release, distinct from endotoxin or superantigen action.
@@ -5658,7 +5676,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-TSST-1 of Staphylococcus aureus is a superantigen causing toxic shock syndrome
+TSST-1: the staphylococcal superantigen
 
 ## id
 CON-INF-6F8D6DE961F269
@@ -5667,7 +5685,9 @@ CON-INF-6F8D6DE961F269
 staph-aureus.tsst-1.superantigen-mechanism
 
 ## definition
-Toxic shock syndrome toxin-1 (TSST-1), produced by S. aureus, is a superantigen that non-specifically cross-links MHC class II molecules and T-cell receptors, causing massive, unrestricted T-cell activation and a cytokine storm -- it is the toxin responsible for staphylococcal toxic shock syndrome, is released during active bacterial growth rather than only on death, and does not itself disturb protein synthesis.
+**Toxic shock syndrome toxin-1 (TSST-1)**, produced by *S. aureus*, is a **superantigen** that __non-specifically cross-links MHC class II molecules and T-cell receptors__, causing massive, unrestricted T-cell activation and a cytokine storm.
+
+It is the toxin responsible for staphylococcal toxic shock syndrome, is released during active bacterial growth rather than only on death, and does not itself disturb protein synthesis.
 
 ## explicit_objective
 State that TSST-1 acts as a superantigen and is the toxin responsible for staphylococcal toxic shock syndrome.
@@ -5826,7 +5846,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Toxic shock and septic shock share mediator-driven features but neither requires ongoing living bacteria
+Toxic shock vs septic shock: shared features
 
 ## id
 CON-INF-F2B1AF50F8D51C
@@ -5835,7 +5855,9 @@ CON-INF-F2B1AF50F8D51C
 bacteria.toxic-vs-septic-shock.shared-features
 
 ## definition
-Toxic shock syndrome (superantigen-mediated, S. aureus) and septic shock (LPS-mediated, Gram-negative sepsis) share overproduction of mediators and cytokines (TNF-alpha, IL-1, IL-6), fever and hypotension, and both are mediated by bacterial toxins/wall components rather than requiring live circulating bacteria to be present at the time of shock.
+**Toxic shock syndrome** (superantigen-mediated, *S. aureus*) and **septic shock** (LPS-mediated, Gram-negative sepsis) share overproduction of mediators and cytokines (**TNF-alpha, IL-1, IL-6**), fever and hypotension.
+
+Both are mediated by bacterial toxins or wall components — __neither requires live circulating bacteria__ to be present at the time of shock.
 
 ## explicit_objective
 Recognize the features shared by toxic and septic shock, and identify that being "caused by living bacteria" is not one of them since both are toxin/mediator-driven states.
@@ -5994,7 +6016,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The bronchi and lower respiratory tract are normally sterile body sites
+The lower respiratory tract is normally sterile
 
 ## id
 CON-INF-3E10BA25A4998E
@@ -6003,7 +6025,9 @@ CON-INF-3E10BA25A4998E
 human-body.sterile-sites.lower-respiratory-tract
 
 ## definition
-Among body sites, the bronchi and lower respiratory tract are normally free of resident microbial flora, unlike the lymphatic system's surrounding tissue, the GI tract and the skin, all of which carry normal flora.
+The **bronchi and lower respiratory tract** are __normally free of resident microbial flora__.
+
+This contrasts with the tissue around the lymphatic system, the GI tract and the skin, all of which carry normal flora.
 
 ## explicit_objective
 Identify the bronchi/lower respiratory tract as a naturally sterile body site, in contrast to the GI tract and skin.
@@ -6162,7 +6186,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Transient flora are temporary microorganisms that do not permanently colonize the host
+Transient vs resident flora
 
 ## id
 CON-INF-6579BABB03657C
@@ -6171,7 +6195,9 @@ CON-INF-6579BABB03657C
 microbiome.resident-vs-transient-flora
 
 ## definition
-Transient flora are microorganisms that occupy a body surface temporarily, without becoming permanently established, in contrast to resident flora, which persist long-term and colonize the host under all ordinary conditions.
+**Transient flora** occupy a body surface __temporarily, without becoming permanently established__.
+
+**Resident flora**, by contrast, persist long-term and colonize the host under all ordinary conditions.
 
 ## explicit_objective
 Define transient flora as temporary, non-permanently-established colonizers, distinguishing them from resident flora.
@@ -6330,7 +6356,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Normal flora protect the host but do not produce powerful toxins against it
+Functions of normal flora
 
 ## id
 CON-INF-C8EE841CE9808D
@@ -6339,7 +6365,9 @@ CON-INF-C8EE841CE9808D
 microbiome.normal-flora.functions
 
 ## definition
-Normal (resident) flora benefit the host by producing some vitamins, forming part of innate immunity, and providing a strong stimulus for the developing immune system of an infant; producing powerful toxins against the host is not a function of normal flora.
+**Normal (resident) flora** benefit the host by producing some **vitamins**, forming part of **innate immunity**, and providing a strong stimulus for the developing immune system of an infant.
+
+__Producing powerful toxins against the host is not a function of normal flora.__
 
 ## explicit_objective
 List the protective functions of normal flora (vitamin production, innate immunity, infant immune stimulation) and recognize that toxin production against the host is not one of them.
@@ -6498,7 +6526,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Collagenase, hyaluronidase and invasins promote invasion; ordinary pili and flagella do not
+Invasion factors vs pili and flagella
 
 ## id
 CON-INF-1EAFF70A6FC769
@@ -6507,7 +6535,9 @@ CON-INF-1EAFF70A6FC769
 bacteria.virulence-factors.collagenase-hyaluronidase-invasins-vs-pili
 
 ## definition
-Spreading/invasion factors -- collagenase and hyaluronidase, which break down connective-tissue matrix, and invasins, which trigger cellular uptake -- actively promote bacterial invasion of tissue, whereas ordinary pili (adhesion) and flagella (motility) serve other functions and are not classed among the invasion-promoting factors.
+**Spreading/invasion factors** actively promote bacterial invasion of tissue: **collagenase** and **hyaluronidase** break down connective-tissue matrix, and **invasins** trigger cellular uptake.
+
+__Ordinary pili (adhesion) and flagella (motility) are not invasion-promoting factors__ — they serve other functions.
 
 ## explicit_objective
 Rank collagenase, hyaluronidase and invasins as invasion-promoting factors, distinct from ordinary pili and flagella, whose roles are adhesion and motility.
@@ -6666,7 +6696,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Phospholipase is a protein that disrupts membranes by enzymatic action, not by inducing toxic shock
+Phospholipase disrupts membranes enzymatically
 
 ## id
 CON-INF-CFC7896BF71239
@@ -6675,7 +6705,9 @@ CON-INF-CFC7896BF71239
 bacteria.phospholipase-hemolysin.mechanism
 
 ## definition
-Phospholipase (also called hemolysin in this context) is a protein that disrupts host-cell membranes by enzymatic hydrolysis of membrane phospholipids -- a mechanism distinct from and unrelated to the superantigen mechanism that induces toxic shock syndrome.
+**Phospholipase** (also called hemolysin in this context) is a protein that __disrupts host-cell membranes by enzymatic hydrolysis of membrane phospholipids__.
+
+This mechanism is distinct from and unrelated to the superantigen mechanism that induces toxic shock syndrome.
 
 ## explicit_objective
 Identify phospholipase as a membrane-disrupting protein enzyme, and recognize that inducing toxic shock is not one of its properties (that mechanism belongs to superantigens such as TSST-1).
@@ -6834,7 +6866,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Injectisomes (Type III secretion systems) deliver bacterial toxins directly into host cells
+Injectisomes (Type III secretion) inject toxins into cells
 
 ## id
 CON-INF-4CDBD486C53EB4
@@ -6843,7 +6875,9 @@ CON-INF-4CDBD486C53EB4
 bacteria.type-iii-secretion-system.injectisomes
 
 ## definition
-The Type III secretion system, structurally called an injectisome, is a needle-like apparatus mostly found in Gram-negative bacteria that injects effector proteins/toxins directly from the bacterial cytoplasm into the host-cell cytoplasm, both helping bacterial invasion of cells and contributing to pathogenicity by this direct-delivery route rather than by extracellular release.
+The **Type III secretion system**, structurally an **injectisome**, is a needle-like apparatus found mostly in Gram-negative bacteria.
+
+It __injects effector proteins/toxins directly from the bacterial cytoplasm into the host-cell cytoplasm__, aiding invasion and pathogenicity by this direct-delivery route rather than by extracellular release.
 
 ## explicit_objective
 State that injectisomes (Type III secretion systems) deliver toxins directly into host cells, contributing to invasion and pathogenicity, rather than releasing toxins extracellularly.
@@ -7002,7 +7036,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Transposons are mobile 'jumping genes' able to relocate within or between DNA molecules
+Transposons: jumping genes
 
 ## id
 CON-INF-D6A264E108B348
@@ -7011,7 +7045,9 @@ CON-INF-D6A264E108B348
 bacteria.genetics.transposons
 
 ## definition
-Transposons are DNA segments capable of moving from one location to another within the genome or between chromosome and plasmid, popularly termed "jumping genes," and are distinct from conjugative plasmids, sex-pilus genes, or integrated non-lytic (lysogenic) phage.
+**Transposons** are DNA segments capable of __moving from one location to another__ — within the genome or between chromosome and plasmid — popularly termed "jumping genes."
+
+They are distinct from conjugative plasmids, sex-pilus genes, or integrated non-lytic (lysogenic) phage.
 
 ## explicit_objective
 Identify transposons as mobile genetic elements ("jumping genes") able to relocate within or between DNA molecules.
@@ -7170,7 +7206,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Phenotypic variation is reversible, unlike heritable genotypic variation
+Phenotypic variation is reversible; genotypic is heritable
 
 ## id
 CON-INF-3576B51A9E5B1B
@@ -7179,7 +7215,9 @@ CON-INF-3576B51A9E5B1B
 bacteria.genetics.phenotypic-vs-genotypic-variation
 
 ## definition
-Phenotypic variation -- for example spore formation and vegetative reversion -- is a reversible, non-heritable change in an organism's expressed characteristics, differentiated from genotypic variation (heritable, DNA-sequence-level change, such as mutation) by its reversibility rather than by heritability, environmental independence, or spontaneity of origin.
+**Phenotypic variation** — for example spore formation and vegetative reversion — is a __reversible, non-heritable change__ in expressed characteristics.
+
+**Genotypic variation** is heritable, DNA-sequence-level change (such as mutation). The two are distinguished by reversibility, not by heritability, environmental independence, or spontaneity of origin.
 
 ## explicit_objective
 Differentiate reversible phenotypic variation from heritable genotypic variation, using spore formation/vegetation as the phenotypic example and mutation as the genotypic one.
@@ -7338,7 +7376,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Generalized transduction can transfer non-transmissible plasmid DNA via a bacteriophage
+Generalized vs specialized transduction
 
 ## id
 CON-INF-E9C14F5981ACE5
@@ -7347,7 +7385,11 @@ CON-INF-E9C14F5981ACE5
 bacteria.genetics.transduction-generalized-vs-specialized
 
 ## definition
-Transduction is bacteriophage-mediated gene transfer, occurring in both Gram-positive and Gram-negative bacteria; in generalized transduction (mediated by a virulent/lytic phage) random host DNA -- including a plasmid that is otherwise non-self-transmissible, such as a staphylococcal or other Gram-positive beta-lactamase plasmid -- is accidentally packaged and transferred, while specialized transduction (mediated by a lysogenic/temperate phage) transfers only DNA adjacent to the prophage's integration site, including genes coded by a resident plasmid near that site.
+**Transduction** is bacteriophage-mediated gene transfer, occurring in both Gram-positive and Gram-negative bacteria.
+
+In **generalized transduction** (a virulent/lytic phage) __random host DNA is accidentally packaged and transferred__ — including an otherwise non-self-transmissible plasmid, such as a Gram-positive beta-lactamase plasmid.
+
+In **specialized transduction** (a lysogenic/temperate phage) only DNA adjacent to the prophage's integration site is transferred, including genes coded by a resident plasmid near that site.
 
 ## explicit_objective
 Distinguish generalized transduction (virulent-phage-mediated, can move an otherwise non-transmissible plasmid, not restricted to Gram-negative bacteria) from specialized transduction (lysogenic-phage-mediated, transfers DNA adjacent to the prophage site).
@@ -7506,7 +7548,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Endotoxin (LPS) production is chromosomally encoded, not plasmid-coded
+Endotoxin is chromosomally encoded, not plasmid-coded
 
 ## id
 CON-INF-EB5758CBC71F57
@@ -7515,7 +7557,9 @@ CON-INF-EB5758CBC71F57
 bacteria.genetics.plasmid-vs-chromosome-encoded-traits
 
 ## definition
-Unlike sex-pili production, exotoxin production and ordinary-pili production, which can be plasmid-mediated, endotoxin (lipopolysaccharide) is an intrinsic structural component of the Gram-negative cell wall encoded by chromosomal genes, not carried on a plasmid.
+Sex-pili production, exotoxin production and ordinary-pili production can all be **plasmid-mediated**.
+
+**Endotoxin (lipopolysaccharide)**, by contrast, is an intrinsic structural component of the Gram-negative cell wall __encoded by chromosomal genes, not carried on a plasmid__.
 
 ## explicit_objective
 State that LPS/endotoxin production is a chromosomally encoded structural trait, distinguishing it from plasmid-mediated traits such as sex pili and exotoxin production.
@@ -7674,7 +7718,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Conjugation uses sex pili and helicase, requires an F plasmid, and does not need competence
+Conjugation: sex pili, F plasmid, live donor
 
 ## id
 CON-INF-B7F47EC7A8F7FA
@@ -7683,7 +7727,9 @@ CON-INF-B7F47EC7A8F7FA
 bacteria.genetics.conjugation-mechanism
 
 ## definition
-Bacterial conjugation transfers DNA (typically an F plasmid) from a live donor to a recipient through direct cell contact mediated by sex pili, with helicase unwinding the DNA for transfer; the donor bacterium remains alive throughout conjugation, and the process does not require the recipient to be "competent," since competence is specific to transformation.
+**Conjugation** transfers DNA (typically an **F plasmid**) from a live donor to a recipient through __direct cell contact mediated by sex pili__, with **helicase** unwinding the DNA for transfer.
+
+The donor bacterium remains alive throughout, and the process __does not require the recipient to be "competent"__ — competence is specific to transformation.
 
 ## explicit_objective
 State that conjugation requires sex pili, an F plasmid and helicase, keeps the donor alive throughout, and does not require recipient competence.
@@ -7842,7 +7888,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Transformation requires recipient competence and DNA homology to take up soluble DNA
+Transformation: competence and DNA homology
 
 ## id
 CON-INF-42D77BF4AB3ADD
@@ -7851,7 +7897,9 @@ CON-INF-42D77BF4AB3ADD
 bacteria.genetics.transformation-mechanism
 
 ## definition
-Transformation is the uptake by a recipient bacterium of free (soluble) DNA released from a donor cell; it requires the recipient to be in a physiologically "competent" state and requires sequence homology between the incoming DNA and the recipient's genome for stable incorporation, and does not involve a phage, sex pilus or restriction endonuclease as the uptake mechanism.
+**Transformation** is the uptake by a recipient bacterium of __free (soluble) DNA__ released from a donor cell.
+
+It requires the recipient to be in a physiologically **"competent"** state and requires **sequence homology** between the incoming DNA and the recipient's genome for stable incorporation. It does not involve a phage, sex pilus or restriction endonuclease as the uptake mechanism.
 
 ## explicit_objective
 State that transformation requires both recipient competence and DNA homology for uptake and incorporation of soluble extracellular DNA.
@@ -8010,7 +8058,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Lysogenic conversion changes bacterial phenotype through prophage gene incorporation
+Lysogenic conversion: new phenotype from prophage genes
 
 ## id
 CON-INF-BFFA74CFBB0B25
@@ -8019,7 +8067,9 @@ CON-INF-BFFA74CFBB0B25
 bacteria.genetics.lysogenic-conversion
 
 ## definition
-Lysogenic conversion occurs when a temperate bacteriophage integrates its genome as a prophage into the bacterial chromosome, and genes carried by the prophage (phage-encoded genes) alter the host bacterium's phenotype -- it is a change in bacterial characters due to the phage's own genes together with incorporation of a prophage into the bacterial chromosome, not the uptake of free environmental DNA.
+**Lysogenic conversion** occurs when a temperate bacteriophage integrates its genome as a **prophage** into the bacterial chromosome.
+
+__Genes carried by the prophage alter the host bacterium's phenotype.__ It is a change in bacterial characters due to the phage's own genes plus incorporation of a prophage — not the uptake of free environmental DNA.
 
 ## explicit_objective
 State that lysogenic conversion is a phenotype change driven by phage-gene expression following prophage incorporation into the host chromosome.
