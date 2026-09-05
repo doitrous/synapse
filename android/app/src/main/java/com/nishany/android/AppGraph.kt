@@ -16,6 +16,7 @@ import com.nishany.android.core.cache.CortexDatabase
 import com.nishany.android.core.cache.LocalStore
 import com.nishany.android.core.config.AppConfig
 import com.nishany.android.core.library.ResourceFileStore
+import com.nishany.android.core.reader.ReaderPreferences
 import com.nishany.android.core.sync.SyncEngine
 import com.nishany.android.design.LanguagePreference
 import com.nishany.android.design.ThemePreference
@@ -89,6 +90,9 @@ class AppGraph(context: Context, val config: AppConfig) {
     // nav-graph-scoped ViewModel does not. Backed by `filesDir`, not the
     // cache dir -- see [ResourceFileStore]'s own doc.
     val resourceFileStore: ResourceFileStore by lazy { ResourceFileStore(api, context.applicationContext.filesDir) }
+
+    // Local-only, like themePreference/languagePreference above -- see its own class doc.
+    val readerPreferences = ReaderPreferences(context.applicationContext)
 
     // Keeps the home-screen calendar widget's [CalendarWidgetStore] snapshot
     // current. The widget's own process must not open Room (see that store's
