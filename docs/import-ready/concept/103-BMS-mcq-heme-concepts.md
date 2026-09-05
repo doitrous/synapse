@@ -78,7 +78,7 @@
 # Item
 
 ## label
-Haem is made in the erythroid bone marrow and the liver, and inside the cell the pathway is split between mitochondrion and cytosol
+Sites of haem biosynthesis
 
 ## id
 CON-HEM-3D75438A839FBD
@@ -102,7 +102,11 @@ Bone marrow and liver heme synthesis
 الموقع داخل الخلية لتخليق الهيم
 
 ## definition
-The two major sites of haem biosynthesis are the erythrocyte-producing cells of the bone marrow, which are active in haemoglobin synthesis, and the liver, which makes several haem proteins and cytochrome P450 in particular. Inside the cell the pathway is divided between two compartments: the initial reaction and the last three steps occur in mitochondria, and the intermediate steps occur in the cytosol. The two facts are connected — a mature red cell has no mitochondria, so it cannot make haem at all, and it is the nucleated marrow precursors that do.
+The two major sites of **haem biosynthesis** are the erythrocyte-producing cells of the **bone marrow**, which are active in haemoglobin synthesis, and the **liver**, which makes several haem proteins and cytochrome P450 in particular.
+
+Inside the cell the pathway is divided between two compartments: __the initial reaction and the last three steps occur in mitochondria__, and the intermediate steps occur in the cytosol.
+
+The two facts are connected — a mature red cell has no mitochondria, so it cannot make haem at all, and it is the nucleated marrow precursors that do.
 
 ## explicit_objective
 Name the bone marrow and the liver as the two major sites of haem biosynthesis, state which steps of the pathway are mitochondrial and which are cytosolic, and explain from that split why a mature erythrocyte cannot make haem.
@@ -266,7 +270,7 @@ relationships: Walked the 122 live CON-HEM- records by label text, the 28 concep
 # Item
 
 ## label
-Whether a porphyria is neuropsychiatric or photosensitive depends on whether the block falls before or after the porphyrinogen ring closes
+Porphyria: block before or after ring closure
 
 ## id
 CON-HEM-66B1DEEC8ED961
@@ -290,7 +294,11 @@ ALA and PBG accumulation
 البورفيريا الجلدية الآجلة
 
 ## definition
-Porphyrias are inherited, or occasionally acquired, defects in haem synthesis that let porphyrins or their precursors accumulate in tissues and spill into urine. They produce two clinical pictures, and which one a patient gets is decided by where the block sits. A block before the porphyrinogen ring has been assembled leaves the small linear precursors ALA and porphobilinogen to accumulate; these are neurotoxic, decreasing ATPase activity in nerve cells, and they injure sympathetic nerves to give abdominal pain and somatic nerves to give peripheral neuritis, skeletal muscle paralysis and neuropsychiatric symptoms — the book's example is acute intermittent porphyria, a uroporphyrinogen I synthase deficiency. A block after the ring is closed leaves porphyrinogens to accumulate in skin, where they oxidise spontaneously to porphyrins that absorb light at about 400 nm, release free radicals and destroy skin cells through lysosomal damage — the book's example is porphyria cutanea tarda, a uroporphyrinogen decarboxylase deficiency.
+**Porphyrias** are inherited, or occasionally acquired, defects in haem synthesis that let porphyrins or their precursors accumulate in tissues and spill into urine. They produce two clinical pictures, and __which one a patient gets is decided by where the block sits__.
+
+A block **before the porphyrinogen ring** has been assembled leaves the small linear precursors **ALA and porphobilinogen** to accumulate; these are neurotoxic, decreasing ATPase activity in nerve cells, and they injure sympathetic nerves to give abdominal pain and somatic nerves to give peripheral neuritis, skeletal muscle paralysis and neuropsychiatric symptoms — the book's example is **acute intermittent porphyria**, a uroporphyrinogen I synthase deficiency.
+
+A block **after the ring is closed** leaves porphyrinogens to accumulate in skin, where they oxidise spontaneously to porphyrins that absorb light at about 400 nm, release free radicals and destroy skin cells through lysosomal damage — the book's example is **porphyria cutanea tarda**, a uroporphyrinogen decarboxylase deficiency.
 
 ## explicit_objective
 Given the enzyme deficient in a porphyria, predict whether the patient presents with neuropsychiatric symptoms or with photosensitivity, by deciding whether the block lies before or after closure of the porphyrinogen ring.
@@ -457,7 +465,7 @@ relationships: Walked the live CON-HEM- namespace by label text, the 28 concepts
 # Item
 
 ## label
-Lead blocks haem synthesis at both ends of the pathway — ALA dehydratase and ferrochelatase — which is why the anaemia is microcytic and iron does not fix it
+Lead inhibits haem synthesis at two enzymes
 
 ## id
 CON-HEM-4C0C6A97CA8788
@@ -480,7 +488,11 @@ Plumbism
 تثبيط إنزيم الفيروكيليتاز
 
 ## definition
-The department book records lead's effect on haem metabolism as a note in its own right: in lead poisoning, lead inhibits ALA dehydratase and ferrochelatase. The two enzymes sit at opposite ends of the pathway. ALA dehydratase is step 2, condensing two molecules of ALA into porphobilinogen in the cytosol, so blocking it backs ALA up. Ferrochelatase is step 8, inserting ferrous iron into the centre of the protoporphyrin ring in the mitochondrion, so blocking it leaves protoporphyrin unable to become haem and leaves the iron unused.
+The department book records lead's effect on haem metabolism as a note in its own right: __in lead poisoning, lead inhibits ALA dehydratase and ferrochelatase__. The two enzymes sit at opposite ends of the pathway.
+
+**ALA dehydratase** is step 2, condensing two molecules of ALA into porphobilinogen in the cytosol, so blocking it backs ALA up.
+
+**Ferrochelatase** is step 8, inserting ferrous iron into the centre of the protoporphyrin ring in the mitochondrion, so blocking it leaves protoporphyrin unable to become haem and leaves the iron unused.
 
 ## explicit_objective
 Name the two enzymes of haem synthesis that lead inhibits, place each at its step in the pathway, and explain why the resulting anaemia is microcytic and does not respond to iron.
@@ -646,7 +658,7 @@ relationships: Walked the live CON-HEM- namespace by label text, including the t
 # Item
 
 ## label
-Bilirubin is formed in three places in turn — reticuloendothelial system, then liver, then intestine — and the kidney is not one of them
+Sites of haem catabolism: RES, liver, intestine
 
 ## id
 CON-HEM-26C990AD8F630C
@@ -670,7 +682,13 @@ Biliverdin reductase
 تكوين البيليروبين
 
 ## definition
-The book gives haem catabolism as a sequence of three locations, and bilirubin is formed successively in each. In the reticuloendothelial system, erythrocytes about 120 days old are taken up, globin is removed and hydrolysed to amino acids, and haem oxygenase — needing NADPH and oxygen — releases ferric iron and carbon monoxide to leave green biliverdin, which biliverdin reductase reduces to yellow bilirubin. In the liver, that bilirubin is taken up, conjugated and secreted into bile. In the intestine, bacterial enzymes free it from glucuronic acid and reduce it to stercobilinogen. The kidney appears nowhere in that sequence: it excretes two water-soluble products that reach it in blood — the trace of urobilinogen that escapes the enterohepatic circulation, and conjugated bilirubin when that is abnormally raised — but excreting a product is not participating in the pathway that made it.
+The book gives haem catabolism as a sequence of three locations, and bilirubin is formed successively in each.
+
+In the **reticuloendothelial system**, erythrocytes about 120 days old are taken up, globin is removed and hydrolysed to amino acids, and **haem oxygenase** — needing NADPH and oxygen — releases ferric iron and carbon monoxide to leave green **biliverdin**, which biliverdin reductase reduces to yellow **bilirubin**.
+
+In the **liver**, that bilirubin is taken up, conjugated and secreted into bile. In the **intestine**, bacterial enzymes free it from glucuronic acid and reduce it to stercobilinogen.
+
+__The kidney appears nowhere in that sequence__: it excretes two water-soluble products that reach it in blood — the trace of urobilinogen that escapes the enterohepatic circulation, and conjugated bilirubin when that is abnormally raised — but excreting a product is not participating in the pathway that made it.
 
 ## explicit_objective
 List the three sites at which bilirubin is successively formed, name the enzyme that begins the degradation and the pigment each step produces, and explain why the kidney is not a site of haem catabolism despite handling its products.
@@ -837,7 +855,7 @@ relationships: Walked the live CON-HEM- namespace by label text, the 28 concepts
 # Item
 
 ## label
-The liver makes bilirubin excretable by conjugating it with glucuronic acid, using glucuronyl transferase — an enzyme that can be induced
+Hepatic conjugation of bilirubin with glucuronic acid
 
 ## id
 CON-HEM-7A26AE75471EF8
@@ -861,7 +879,11 @@ Phenobarbital induction
 الاقتران الكبدي للبيليروبين
 
 ## definition
-Unconjugated bilirubin arriving at the liver is taken up by the liver cells, where it dissociates from albumin. Conjugation of bilirubin with glucuronic acid is then catalysed by glucuronyl transferase — two molecules of UDP-glucuronic acid per bilirubin — and the product is conjugated bilirubin. Conjugation increases the polarity and water solubility of bilirubin, which is the single change every difference between the two forms follows from. Glucuronyl transferase is inducible: the book names certain drugs, phenobarbital among them, and glucose.
+Unconjugated bilirubin arriving at the liver is taken up by the liver cells, where it dissociates from albumin.
+
+Conjugation of bilirubin with glucuronic acid is then catalysed by **glucuronyl transferase** — two molecules of UDP-glucuronic acid per bilirubin — and the product is **conjugated bilirubin**. __Conjugation increases the polarity and water solubility of bilirubin__, which is the single change every difference between the two forms follows from.
+
+Glucuronyl transferase is **inducible**: the book names certain drugs, phenobarbital among them, and glucose.
 
 ## explicit_objective
 Name glucuronic acid as the conjugating partner and glucuronyl transferase as the enzyme, state what conjugation changes about the molecule, and explain why an inducible enzyme makes phenobarbital a treatment for jaundice caused by immature or partially deficient conjugation.
@@ -1028,7 +1050,7 @@ relationships: Walked the live CON-HEM- namespace by label text, the pending jau
 # Item
 
 ## label
-Conjugated bilirubin is water-soluble, and every other row of the book's comparison table follows from that one property
+Conjugated bilirubin: water-soluble and its consequences
 
 ## id
 CON-HEM-C87C15A849F158
@@ -1054,7 +1076,13 @@ Van den Bergh reaction
 البيليروبين غير المقترن
 
 ## definition
-Conjugated bilirubin is the form the liver has attached glucuronic acid to, and the book calls it cholebilirubin because bile is its route of excretion. It is mostly polar and water-soluble, and because it is soluble it is not bound to plasma proteins; being unbound and soluble it is excreted by the kidney and appears in urine; and being polar it does not pass the blood-brain barrier, so it does not cause brain damage. In the Van den Bergh reaction it reacts directly with the reagent, within one minute, which is why it is called direct-reacting, and its normal serum level is below 0.3 mg/dL. Unconjugated bilirubin is the mirror image on every one of those rows, and in haemolytic jaundice it is the unconjugated fraction that rises while the conjugated fraction stays normal.
+**Conjugated bilirubin** is the form the liver has attached glucuronic acid to, and the book calls it **cholebilirubin** because bile is its route of excretion.
+
+It is mostly polar and __water-soluble__, and every other property follows: because it is soluble it is not bound to plasma proteins; being unbound and soluble it is excreted by the kidney and appears in urine; and being polar it does not pass the blood-brain barrier, so it does not cause brain damage.
+
+In the **Van den Bergh reaction** it reacts directly with the reagent, within one minute, which is why it is called **direct-reacting**, and its normal serum level is below 0.3 mg/dL.
+
+**Unconjugated bilirubin** is the mirror image on every one of those rows, and in haemolytic jaundice it is the unconjugated fraction that rises while the conjugated fraction stays normal.
 
 ## explicit_objective
 Given any statement about a form of bilirubin — protein binding, renal excretion, blood-brain barrier crossing, Van den Bergh behaviour, or which jaundice raises it — decide which form it describes, by asking first whether that form is soluble.
@@ -1220,7 +1248,7 @@ relationships: Walked the live CON-HEM- namespace by label text, both pending ja
 # Item
 
 ## label
-Faecal stercobilinogen measures how much bilirubin reached the gut, so it rises in haemolysis, falls in hepatocellular jaundice and disappears in obstruction
+Faecal stercobilinogen tracks bilirubin reaching the gut
 
 ## id
 CON-HEM-22375197AEE80D
@@ -1245,7 +1273,11 @@ Clay coloured stool
 اليوروبيلينوجين
 
 ## definition
-In the large intestine, bacterial enzymes release bilirubin from glucuronic acid and reduce it successively to colourless stercobilinogen. Most of it is excreted in stool and oxidised by the oxygen of the air to brown stercobilin, which is what gives stool its colour; about 10 per cent is reabsorbed and returned to the liver in portal blood to be re-excreted in bile, the enterohepatic circulation; and a very little escapes to the systemic circulation and reaches the kidney as colourless urobilinogen, oxidised in air to the yellow urobilin that gives urine its normal colour. Because all of it comes from bilirubin delivered in bile, the amount in stool tracks the delivery: in haemolytic jaundice more bilirubin is made and secreted, so stercobilin increases and the stool becomes dark brown; in hepatocellular jaundice less is secreted, so it usually decreases and the stool is faint; and in obstruction none arrives at all, so stercobilin disappears and the stool is clay coloured.
+In the large intestine, bacterial enzymes release bilirubin from glucuronic acid and reduce it successively to colourless **stercobilinogen**.
+
+Most of it is excreted in stool and oxidised by the oxygen of the air to brown **stercobilin**, which is what gives stool its colour; about 10 per cent is reabsorbed and returned to the liver in portal blood to be re-excreted in bile, the **enterohepatic circulation**; and a very little escapes to the systemic circulation and reaches the kidney as colourless **urobilinogen**, oxidised in air to the yellow **urobilin** that gives urine its normal colour.
+
+Because all of it comes from bilirubin delivered in bile, __the amount in stool tracks the delivery__: in haemolytic jaundice more bilirubin is made and secreted, so stercobilin increases and the stool becomes dark brown; in hepatocellular jaundice less is secreted, so it usually decreases and the stool is faint; and in obstruction none arrives at all, so stercobilin disappears and the stool is clay coloured.
 
 ## explicit_objective
 Predict faecal stercobilinogen from the amount of conjugated bilirubin reaching the intestine, and give the stool and urine picture of haemolytic jaundice — dark stool, urobilinogen-positive but bilirubin-negative urine.
@@ -1412,7 +1444,7 @@ relationships: Walked the live CON-HEM- namespace by label text, including the t
 # Item
 
 ## label
-Crigler-Najjar type I is a complete loss of glucuronyl transferase, and that completeness is why phenobarbital cannot help
+Crigler-Najjar type I versus type II
 
 ## id
 CON-HEM-20178168A8FCF0
@@ -1436,7 +1468,11 @@ Gilbert syndrome
 متلازمة جيلبرت
 
 ## definition
-Crigler-Najjar type I is an autosomal recessive, complete or near-complete absence of UDP-glucuronyl transferase, so almost no bilirubin can be conjugated; serum unconjugated bilirubin climbs past the albumin carrying capacity of about 20 mg/dL and kernicterus is the expected outcome. Type II is a partial deficiency with residual enzyme activity, and the bilirubin generally stays below that threshold. The discriminator worth holding is the response to phenobarbital: the drug works by inducing glucuronyl transferase, and induction can only increase the amount of an enzyme the cell is still able to make, so patients with type I do not respond while patients with type II do.
+**Crigler-Najjar type I** is an autosomal recessive, complete or near-complete absence of **UDP-glucuronyl transferase**, so almost no bilirubin can be conjugated; serum unconjugated bilirubin climbs past the albumin carrying capacity of about 20 mg/dL and __kernicterus is the expected outcome__.
+
+**Type II** is a partial deficiency with residual enzyme activity, and the bilirubin generally stays below that threshold.
+
+The discriminator worth holding is the **response to phenobarbital**: the drug works by inducing glucuronyl transferase, and __induction can only increase the amount of an enzyme the cell is still able to make__, so patients with type I do not respond while patients with type II do.
 
 ## explicit_objective
 Distinguish Crigler-Najjar type I from type II by completeness of enzyme deficiency, serum bilirubin level, inheritance and response to phenobarbital, and explain from the mechanism of induction why an inducer cannot rescue a complete deficiency.
@@ -1601,7 +1637,7 @@ relationships: Walked the live CON-HEM- namespace by label text, both pending ja
 # Item
 
 ## label
-Physiological neonatal jaundice has two causes at once, is transient, and usually stays below 13 mg/dL
+Physiological neonatal jaundice
 
 ## id
 CON-HEM-167E007FE3D9EC
@@ -1625,7 +1661,11 @@ Photoisomers of bilirubin
 العلاج بالضوء الأزرق
 
 ## definition
-Physiological neonatal jaundice is a transient condition of the first few days of life, and it results from two things happening together: increased haemolysis, as the large fetal red cell mass is broken down, and immaturity of the enzyme UDP-glucuronyl transferase, so that disposal is slow at the same time that production is high. It is transient because the enzyme matures. Serum bilirubin usually does not reach 13 mg/dL, and that ceiling is what makes the picture recognisable at the cot side. Treatment is exposure to blue fluorescent light — phototherapy — which converts the insoluble unconjugated bilirubin into more soluble photoisomers that can be excreted into bile without conjugation to glucuronic acid at all; phenobarbital may also be used, to induce the synthesis of glucuronyl transferase.
+**Physiological neonatal jaundice** is a transient condition of the first few days of life, and it results from __two things happening together__: increased haemolysis, as the large fetal red cell mass is broken down, and immaturity of the enzyme **UDP-glucuronyl transferase**, so that disposal is slow at the same time that production is high.
+
+It is transient because the enzyme matures. Serum bilirubin usually does not reach **13 mg/dL**, and that ceiling is what makes the picture recognisable at the cot side.
+
+Treatment is exposure to blue fluorescent light — **phototherapy** — which converts the insoluble unconjugated bilirubin into more soluble **photoisomers** that can be excreted into bile without conjugation to glucuronic acid at all; phenobarbital may also be used, to induce the synthesis of glucuronyl transferase.
 
 ## explicit_objective
 State the two mechanisms that produce physiological neonatal jaundice, give the serum bilirubin ceiling that fits the physiological picture, and explain why phototherapy still works when the conjugating enzyme is immature.
