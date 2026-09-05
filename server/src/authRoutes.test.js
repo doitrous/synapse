@@ -204,3 +204,11 @@ test('reads are never refused on origin, and a referer stands in for a missing O
   // Neither header on a write is not a browser doing what we expect.
   assert.equal(csrfOk(fakeReq({ method: 'POST' }), origins), false)
 })
+
+test('the landing page can read the live subscriber count without a session', async () => {
+  const req = fakeReq({ method: 'GET', url: '/api/public/subscriber-count', headers: {} })
+  const res = fakeRes()
+  let nexted = false
+  await apiAuthGate(req, res, () => { nexted = true })
+  assert.equal(nexted, true, 'anonymous visitors must reach the route')
+})

@@ -284,6 +284,9 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
     || req.path === '/api/pricing/quote'
+    // The landing page's live subscriber count: read by visitors who are not
+    // signed in, and it already hides everything unless an admin turned it on.
+    || (req.method === 'GET' && req.path === '/api/public/subscriber-count')
     || req.path === '/api/facebook/deletion-callback'
     // The marketing site's contact form: visitors are, by definition, not
     // signed in. Turnstile and its own rate limit guard it (contentReports.js).
