@@ -43140,3 +43140,2917 @@ Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-438
+## title
+lron deficiency:
+## question
+lron deficiency:
+## vignette
+This item asks the student to name chronic blood loss as a cause of iron deficiency.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Is more common in males than in females
+## explanation_a
+Backwards. Chronic blood loss is more common in females than males, largely through menstrual loss — not the other way round.
+## answer_b
+May cause anemia by inhibiting the rate of multiplication of RBCs stem cells
+## explanation_b
+Iron deficiency limits haemoglobin synthesis in the RBCs the marrow already produces; it does not itself slow stem-cell multiplication, which is the mechanism taught for vitamin B12/folic-acid deficiency instead.
+## answer_c
+Occurs due to chronic blood loss
+## explanation_c
+Correct. Chronic blood loss — from hookworm infestation, peptic ulcer or piles bleeding, or excessive menstrual loss — is one of the three named causes of iron-deficiency anaemia.
+
+Why this is right:
+- Chronic blood loss is one of the three causes of iron-deficiency anaemia named, alongside deficient dietary intake and deficient absorption.
+## answer_d
+May cause large pale erythrocytes to appear in peripheral blood
+## explanation_d
+Backwards. Iron deficiency produces small, pale (microcytic, hypochromic) erythrocytes, not large pale ones — large pale cells are the macrocytic picture of vitamin B12 or folic acid deficiency instead.
+## topic
+Blood
+## subtopic
+Anaemia
+## main_concept
+CON-HEM-3767DA0A153B4C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anaemia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANAEMIA-AND-POLYCYTHEMIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name chronic blood loss as a cause of iron deficiency.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p10 q22. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-439
+## title
+Vitamin Baz:
+## question
+Vitamin Baz:
+## vignette
+This item asks the student to state that vitamin B12 is needed for nuclear maturation and cell division.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Deficiency produces normocytic anemia.
+## explanation_a
+Backwards. Vitamin B12 deficiency produces macrocytic (large-cell) anaemia, because diminished DNA synthesis fails nuclear maturation and division, leaving bigger, irregular, fragile RBCs — not normocytic anaemia.
+## answer_b
+Needs gastric HCl for its absorption
+## explanation_b
+Gastric HCl is what iron absorption needs (to reduce ferric to ferrous iron); vitamin B12 absorption instead needs intrinsic factor from the gastric parietal cells and pancreatic trypsin.
+## answer_c
+Is absorbed from the upper part of the small intestine
+## explanation_c
+Backwards on location. Vitamin B12, bound to intrinsic factor, is absorbed in the lower ileum, not the upper small intestine — the receptor for the intrinsic-factor complex sits in the brush border of the terminal ileal mucosa.
+## answer_d
+Is needed for nuclear maturation and cell division.
+## explanation_d
+Correct. The bone marrow's rapidly dividing cells need DNA synthesis for nuclear maturation and division, and vitamin B12 is essential for that synthesis.
+
+Why this is right:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well.
+## topic
+Blood
+## subtopic
+Anaemia
+## main_concept
+CON-HEM-DDAAF125FD2EBE
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anaemia
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANAEMIA-AND-POLYCYTHEMIA
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that vitamin B12 is needed for nuclear maturation and cell division.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q25. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-440
+## title
+Protein C:
+## question
+Protein C:
+## vignette
+This item asks the student to identify protein C as a physiological (naturally occurring) anticoagulant, distinct from the fibrinolytic and clotting-factor players it acts on.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Is a major physiological anticoagulant
+## explanation_a
+Correct. Protein C is one of the body's own limiting mechanisms on coagulation: thrombin bound to thrombomodulin on healthy endothelium activates it, and activated protein C, together with protein S, inactivates factors V and VIII and frees tissue plasminogen activator to start fibrinolysis. That whole downstream effect is why protein C counts as a major physiological anticoagulant.
+
+Why this is right:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system.
+## answer_b
+Decreases the formation of plasmin
+## explanation_b
+Backwards. Activated protein C removes the inhibitor of tissue plasminogen activator, which raises TPA activity and so *increases* the formation of plasmin, not decreases it — plasmin is the point of the pathway, not something protein C suppresses.
+## answer_c
+Is activated by prothrombin to activated protein C
+## explanation_c
+Backwards. Protein C is activated by thrombin (bound to thrombomodulin), not by prothrombin, and prothrombin is upstream of thrombin in the cascade — it has not yet become the enzyme that could activate anything.
+## answer_d
+In its activated form degrades factor VII
+## explanation_d
+Wrong target. Activated protein C, with its cofactor protein S, inactivates factors V and VIII, not factor VII. Confusing the fibrinogen-group factors (V, VIII) that protein C disables with the prothrombin-group factor VII is the standard slip here.
+## topic
+Blood
+## subtopic
+Anticoagulants
+## main_concept
+CON-HEM-87280E690F877F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Anticoagulants
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ANTICOAGULANTS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify protein C as a physiological (naturally occurring) anticoagulant, distinct from the fibrinolytic and clotting-factor players it acts on.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p14 q45. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-441
+## title
+Adenine is:
+## question
+Adenine is:
+## vignette
+This item asks the student to classify adenine as a purine base, and distinguish it from its nucleoside (Adenosine) and nucleotide (AMP) forms.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+A purine base
+## explanation_a
+Correct. Adenine, with guanine, is one of the two main purines. Its own naming table confirms adenine is the base — Adenosine is the nucleoside built from it, and AMP is the nucleotide.
+
+Why this is right:
+- Nucleotides are the building units of DNA and RNA.
+## answer_b
+A pyrimidine base
+## explanation_b
+The pyrimidine bases are cytosine, uracil and thymine; adenine is explicitly grouped with guanine among the purines instead.
+## answer_c
+A nucleoside
+## explanation_c
+A nucleoside adds a pentose sugar to the base. The naming table shows adenine's nucleoside is Adenosine, a distinct name — adenine itself remains just the base.
+## answer_d
+A nucleotide
+## explanation_d
+A nucleotide adds sugar and phosphate to the base. The naming table shows adenine's nucleotide is AMP, a distinct name — adenine itself is only the base.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify adenine as a purine base, and distinguish it from its nucleoside (Adenosine) and nucleotide (AMP) forms.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p50 q1. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key survived for this row (correctSource: "none"). The book's own nitrogenous-bases section classifies adenine directly: "Adenine and Guanine are the two main purines that are present in the structure of nucleic acids" (physical p67), and its naming table (physical p68) lists Adenine only as the base, with Adenosine as its nucleoside and AMP as its nucleotide — so adenine itself is a purine base, not a nucleoside or nucleotide.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-442
+## title
+Nucleoside contains:
+## question
+Nucleoside contains:
+## vignette
+This item asks the student to define a nucleoside as base plus pentose sugar.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Base-sugar
+## explanation_a
+Correct. A nucleoside is formed of a nitrogenous base and a pentose — base plus sugar, nothing more.
+
+Why this is right:
+- Nucleotides are the building units of DNA and RNA.
+## answer_b
+Base-phosphate
+## explanation_b
+A nucleoside has no phosphate at all; base-plus-phosphate without a sugar does not match the definition of any of the three building units.
+## answer_c
+Base-sugar-phosphate
+## explanation_c
+Base-sugar-phosphate is the definition of a nucleotide, one step further than a nucleoside — the nucleoside itself lacks the phosphate.
+## answer_d
+Sugar-phosphate
+## explanation_d
+Sugar-phosphate omits the base entirely; the nucleoside always includes the nitrogenous base as one of its two parts.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define a nucleoside as base plus pentose sugar.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p50 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-443
+## title
+The carbon of the pentose in ester linkage with the phosphate in a nucleotide structure…
+## question
+The carbon of the pentose in ester linkage with the phosphate in a nucleotide structure is:
+## vignette
+This item asks the student to state that the phosphate group of a nucleotide is esterified to the 5' carbon of the pentose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cl
+## explanation_a
+C1' is where the base attaches to the pentose by a glycosidic bond, not where the phosphate esterifies.
+## answer_b
+C3
+## explanation_b
+C3' carries a free hydroxyl in the mononucleotide, but it is not where this chapter's single-nucleotide phosphate ester bond forms.
+## answer_c
+C4
+## explanation_c
+C4' is part of the pentose ring itself, not the site of the phosphate ester bond.
+## answer_d
+C5
+## explanation_d
+Correct. The phosphate group is usually attached by ester bond to the terminal alcohol group of the pentose, termed the 5' hydroxyl group — so the linkage is at C5.
+
+Why this is right:
+- Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — the glycosidic bond.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-C672878EA48528
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the phosphate group of a nucleotide is esterified to the 5' carbon of the pentose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p50 q3. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-444
+## title
+What is the pyrimidine base of nucleic acids in the following?
+## question
+What is the pyrimidine base of nucleic acids in the following?
+## vignette
+This item asks the student to identify cytosine as a pyrimidine base, as distinct from the purines guanine and adenine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cytosine
+## explanation_a
+Correct. The major pyrimidines are cytosine, uracil and thymine — cytosine is the only one of these four options that appears on that list.
+
+Why this is right:
+- Nucleotides are the building units of DNA and RNA.
+## answer_b
+Hypoxanthine
+## explanation_b
+Hypoxanthine appears only in the nucleoside/nucleotide naming table (as the base for Inosine/IMP), not among the major purines or pyrimidines it names directly.
+## answer_c
+Guanine
+## explanation_c
+Guanine is explicitly one of the two main purines, not a pyrimidine.
+## answer_d
+Adenine
+## explanation_d
+Adenine is the other of the two main purines, not a pyrimidine.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify cytosine as a pyrimidine base, as distinct from the purines guanine and adenine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-445
+## title
+Uridine present in RNA is:
+## question
+Uridine present in RNA is:
+## vignette
+This item asks the student to use the base/nucleoside/nucleotide naming table to classify Uridine precisely as a nucleoside, resolving a row where the two OCR passes of the printed key disagreed.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Nucleotides
+## explanation_a
+Nucleotide is the name for the phosphorylated form — Uridine monophosphate (UMP), not Uridine itself. The naming table keeps Uridine (nucleoside) and UMP (nucleotide) as two distinct entries.
+## answer_b
+Pyrimidine
+## explanation_b
+Uridine is a nucleoside built from a pyrimidine base (uracil), but the term 'pyrimidine' in the scheme names the base category, not the nucleoside built from it — a precision the naming table insists on.
+## answer_c
+Purine
+## explanation_c
+Uracil-derived compounds belong to the pyrimidine family in the classification, never the purine family.
+## answer_d
+Nucleoside
+## explanation_d
+Correct. The naming table lists Uridine specifically under the 'NUCLEOSIDES' column, built from the base Uracil, and distinct from the nucleotide UMP.
+
+Why this is right:
+- Nucleotides are the building units of DNA and RNA.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Use the base/nucleoside/nucleotide naming table to classify Uridine precisely as a nucleoside, resolving a row where the two OCR passes of the printed key disagreed.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q9. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes of the printed key disagreed between (a) and (d). The book's own naming table (physical p68) settles it: Uracil is listed as the base, Uridine as its nucleoside, and Uridine monophosphate (UMP) as its nucleotide — three distinct names for three distinct things. Since the row asks about "Uridine" specifically, and the table places Uridine in the nucleoside column (not the nucleotide column, which is UMP), the correct answer is (d).
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-446
+## title
+The nitrogenous base is linked to the ribose or deoxyribose sugar via:
+## question
+The nitrogenous base is linked to the ribose or deoxyribose sugar via:
+## vignette
+This item asks the student to name the glycosidic bond as the linkage between a nitrogenous base and its pentose sugar.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Glycosidic bond
+## explanation_a
+Correct. C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — a glycosidic bond.
+
+Why this is right:
+- Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — the glycosidic bond.
+## answer_b
+Amide bond
+## explanation_b
+An amide bond is not how described the base-sugar link; that describes the peptide-bond-forming reaction of amino acids, a different chapter's chemistry.
+## answer_c
+Hydrogen bond
+## explanation_c
+Hydrogen bonds hold the two strands of a double helix together, a different chapter's topic; the base-to-sugar link within one nucleoside is covalent, not hydrogen bonding.
+## answer_d
+Phosphoanhydride bond
+## explanation_d
+A phosphoanhydride bond is what links the phosphate groups of a compound like ATP to each other, not what links the base to the sugar.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-C672878EA48528
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name the glycosidic bond as the linkage between a nitrogenous base and its pentose sugar.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q11. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-447
+## title
+ATP is a:
+## question
+ATP is a:
+## vignette
+This item asks the student to classify ATP as a nucleotide, built from adenine, ribose and phosphate groups.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Nucleoside
+## explanation_a
+A nucleoside lacks phosphate entirely (base + sugar only); ATP carries three phosphate groups, well past the nucleoside stage.
+## answer_b
+Nucleotide
+## explanation_b
+Correct. Introduced ATP alongside ADP and AMP as forms of the adenine nucleotide, differing only in phosphate count — ATP fits the base + pentose + phosphate definition of a nucleotide, with three phosphates.
+
+Why this is right:
+- Each nucleotide is formed of a nitrogenous base, a pentose, and phosphate.
+## answer_c
+Vitamin
+## explanation_c
+ATP is not a vitamin anywhere in the account; it is discussed purely as a nucleotide serving an energy-transduction role.
+## answer_d
+Nucleic acid
+## explanation_d
+A nucleic acid (DNA or RNA) is a polymer of many nucleotides linked together; ATP is a single free nucleotide, not a polymer.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-F2A54F8809C051
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Classify ATP as a nucleotide, built from adenine, ribose and phosphate groups.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-448
+## title
+Factors affecting enzyme activity:
+## question
+Factors affecting enzyme activity:
+## vignette
+This item asks the student to name temperature, substrate concentration and pH together as factors affecting enzyme activity, among the full five-factor list.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Temperature
+## explanation_a
+True but incomplete — temperature is only one of the several factors named; the question asks for the set of factors affecting enzyme activity.
+## answer_b
+Concentration of substrate
+## explanation_b
+True but incomplete on its own — substrate concentration is one factor among several (also enzyme concentration, cofactor concentration, temperature and pH) that discussed together.
+## answer_c
+pH
+## explanation_c
+True but incomplete — pH is one factor among several discussed together, not the sole one.
+## answer_d
+Temperature, concentration & pH
+## explanation_d
+Correct. Discussed substrate concentration, enzyme concentration, cofactor concentration, temperature and pH together as the factors affecting the rate of an enzyme-catalysed reaction; this option is the only one that groups more than one of them together, matching the multi-factor treatment.
+
+Why this is right:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F29934C070A94C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name temperature, substrate concentration and pH together as factors affecting enzyme activity, among the full five-factor list.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p46 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-449
+## title
+The graph below shows an enzyme-controlled reaction. The enzyme concentration is kept c…
+## question
+The graph below shows an enzyme-controlled reaction. The enzyme concentration is kept constant. At concentrations of substrate greater than X: A ail Rate of reaction 9 : > - Concentration of substrate x
+## vignette
+This item asks the student to explain the plateau of a velocity-vs-substrate-concentration curve as enzyme saturation, past which enzyme concentration is the limiting factor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The rate of the reaction is limited by enzyme concentration
+## explanation_a
+Correct. As [S] increases, velocity rises up to the point where the enzyme is saturated — beyond that point (here, substrate concentrations greater than X) enzyme concentration, held constant in this experiment, becomes the limiting factor.
+
+Why this is right:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH.
+## answer_b
+The rate of the reaction tends toward zero
+## explanation_b
+Velocity plateaus near Vmax past saturation; it does not fall toward zero — the substrate-concentration curve rises to a maximum and levels off, it does not descend.
+## answer_c
+The substrate has an inhibitory effect
+## explanation_c
+The account of this curve is saturation of the enzyme, not an inhibitory effect of the substrate itself — inhibition is a separate topic from ordinary substrate saturation.
+## answer_d
+The products have an inhibitory effect
+## explanation_d
+Product inhibition is not described as part of the substrate-concentration-versus-velocity relationship; the plateau here is explained by enzyme saturation, not by products building up and acting back on the enzyme.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F29934C070A94C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Explain the plateau of a velocity-vs-substrate-concentration curve as enzyme saturation, past which enzyme concentration is the limiting factor.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p47 q15. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-450
+## title
+Blocking the enzyme action by blocking its active site is called:
+## question
+Blocking the enzyme action by blocking its active site is called:
+## vignette
+This item asks the student to identify competitive inhibition as the type that works by blocking the enzyme's active site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Non-competitive inhibition
+## explanation_a
+'Non-competitive inhibition' is not a category this chapter names; the two reversible categories are competitive and allosteric.
+## answer_b
+Allosteric inhibition
+## explanation_b
+Allosteric inhibitors bind a site away from, not at, the catalytic (active) site — the opposite of what this question describes.
+## answer_c
+Competitive inhibition
+## explanation_c
+Correct. A competitive inhibitor is one that competes with the substrate to bind reversibly at the active (catalytic) site — directly blocking it.
+
+Why this is right:
+- A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because raising the substrate concentration far enough reverses the inhibition and the reaction reaches the same Vmax as without inhibitor. The apparent Km rises, because more substrate is then needed to reach half of Vmax.
+## answer_d
+Feedback inhibition
+## explanation_d
+Feedback inhibition works through binding of a pathway's end product to an allosteric site on a regulatory enzyme, not by blocking the active site directly.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify competitive inhibition as the type that works by blocking the enzyme's active site.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p47 q17. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-451
+## title
+Enzyme inhibition caused by a substance resembling substrate molecule is called:
+## question
+Enzyme inhibition caused by a substance resembling substrate molecule is called:
+## vignette
+This item asks the student to identify structural resemblance to the substrate as the defining feature of a competitive inhibitor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Allosteric inhibition
+## explanation_a
+An allosteric inhibitor need not resemble the substrate at all — it acts by binding a separate site and reshaping the enzyme, not by mimicking the substrate's shape.
+## answer_b
+Competitive inhibition
+## explanation_b
+Correct. A competitive inhibitor is structurally similar to the substrate, competing with it for the active site.
+
+Why this is right:
+- A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because raising the substrate concentration far enough reverses the inhibition and the reaction reaches the same Vmax as without inhibitor. The apparent Km rises, because more substrate is then needed to reach half of Vmax.
+## answer_c
+Feedback inhibition
+## explanation_c
+Feedback inhibition is defined by an end product of a pathway acting back on an earlier enzyme in that same pathway, not by structural resemblance to any one substrate.
+## answer_d
+Non-competitive inhibition
+## explanation_d
+'Non-competitive inhibition' is not one of the named categories.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-CB8584ED2F3C49
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify structural resemblance to the substrate as the defining feature of a competitive inhibitor.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p47 q18. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-452
+## title
+Allosteric effector influences the enzyme activity by:
+## question
+Allosteric effector influences the enzyme activity by:
+## vignette
+This item asks the student to state that an allosteric effector binds a site on the enzyme distinct from the catalytic site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Covalently modifying the enzyme
+## explanation_a
+Covalent modification (phosphorylation/dephosphorylation) is a separate regulatory mechanism described; allosteric regulation instead works through binding at a distinct site.
+## answer_b
+Binding to the substrate and altering its conformation
+## explanation_b
+The allosteric effector binds the enzyme, not the substrate — it is the enzyme's, not the substrate's, conformation that changes.
+## answer_c
+Competing for catalytic site with substrate
+## explanation_c
+Competing for the catalytic site is exactly what a competitive inhibitor does; allosteric effectors are binding a site away from the catalytic site instead.
+## answer_d
+Binding to a site on the enzyme distinct from catalytic site
+## explanation_d
+Correct. Allosteric inhibitors and activators bind to a specific site away from the catalytic site, producing conformational changes in the protein structure.
+
+Why this is right:
+- Allosteric inhibitors and activators are usually small organic molecules that bind to a specific allosteric site away from the catalytic site, producing conformational changes in protein structure.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-6BBAC69900B22F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that an allosteric effector binds a site on the enzyme distinct from the catalytic site.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p48 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-453
+## title
+Zymogen or proenzyme is:
+## question
+Zymogen or proenzyme is:
+## vignette
+This item asks the student to define a zymogen (proenzyme) as an inactive enzyme precursor.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Hormone
+## explanation_a
+A zymogen is not a signalling molecule secreted by a gland; it strictly is an inactive form of an enzyme.
+## answer_b
+Vitamin
+## explanation_b
+Vitamins are unrelated to the account of zymogens; a zymogen is a form of the enzyme protein itself, not a dietary cofactor.
+## answer_c
+Enzyme precursor
+## explanation_c
+Correct. Many enzymes are formed in the form of proenzymes or zymogens, which are inactive — a zymogen is an enzyme precursor.
+
+Why this is right:
+- Many enzymes are first formed as inactive proenzymes or zymogens.
+## answer_d
+Modulator
+## explanation_d
+'Modulator' suggests something that adjusts an already-active enzyme's rate; a zymogen instead is not active at all until proteolysis switches it on.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Define a zymogen (proenzyme) as an inactive enzyme precursor.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p48 q23. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-454
+## title
+Example of pro-enzyme is:
+## question
+Example of pro-enzyme is:
+## vignette
+This item asks the student to identify pepsinogen as the example of a proenzyme (zymogen).
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Pepsinogen
+## explanation_a
+Correct. The worked example of a zymogen is pepsinogen, which HCl converts to pepsin plus a polypeptide fragment in an autocatalytic reaction.
+
+Why this is right:
+- Many enzymes are first formed as inactive proenzymes or zymogens.
+## answer_b
+Trypsin
+## explanation_b
+Trypsin is the active, already-proteolysed enzyme — not the inactive precursor form the question asks for.
+## answer_c
+Chymotrypsin
+## explanation_c
+Chymotrypsin, like trypsin, is an active digestive enzyme; its inactive zymogen form (chymotrypsinogen) is not named in this chapter's text.
+## answer_d
+Lysine
+## explanation_d
+Lysine is an amino acid, not an enzyme or a zymogen at all — unrelated to this fact.
+## topic
+Enzymes
+## subtopic
+Enzymes
+## main_concept
+CON-FND-F6E154FA6FF42A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify pepsinogen as the example of a proenzyme (zymogen).
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p48 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-455
+## title
+Erythropoietin hormone:
+## question
+Erythropoietin hormone:
+## vignette
+This item asks the student to state that erythropoietin speeds every step of erythropoiesis, from proerythroblast to mature RBC.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is secreted by the kidney 85% and the bone marrow 15%
+## explanation_a
+Backwards. Erythropoietin is secreted 85% by the kidney and only 15% by the bone marrow-adjacent liver split described — the option reverses the percentages and misnames the second source.
+## answer_b
+Is stimulated by cobalt salts and acidosis at high altitude
+## explanation_b
+Cobalt salts and acidosis are not paired as stimulators — cobalt salts are named as a stimulator, but the specific altitude-related stimulus named is alkalosis, not acidosis.
+## answer_c
+Stimulates mitosis of the sensitive uncommitted stem cells
+## explanation_c
+Backwards. Erythropoietin stimulates mitosis of erythropoietin-*sensitive* committed cells, which is distinguished from the uncommitted stem cell pool further upstream — "uncommitted" is the wrong target population.
+## answer_d
+Speeds all the steps of development of proerythroblasts to mature RBCs
+## explanation_d
+Correct. Erythropoietin stimulates all steps of erythropoiesis — from the earliest proerythroblast through to the mature red cell — which is the mechanism directly.
+
+Why this is right:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration.
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone.
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-6DBD73A50D2AD4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that erythropoietin speeds every step of erythropoiesis, from proerythroblast to mature RBC.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p8 q10. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-456
+## title
+Goncerning polycythemia the following is correct, EXCEPT:
+## question
+Goncerning polycythemia the following is correct, EXCEPT:
+## vignette
+This item asks the student to recognise that liver disease is not a named cause of polycythemia.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Occurs in liver disease
+## explanation_a
+Correct. The exception. Liver disease is not among the causes of either primary or secondary polycythemia; if anything, since the liver makes 15% of erythropoietin, liver disease would work against a raised count, not toward one.
+
+Why this is right:
+- Polycythemia means an increased number of RBCs, which may reach 6-8 million/mm3.
+- There are two types: primary polycythemia (polycythemia vera), due to a condition in the RBC-forming organs themselves and usually accompanied by increased production of WBCs and platelets too; and secondary polycythemia, which occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude.
+## answer_b
+Increases the viscosity of the blood
+## explanation_b
+Increased RBC number genuinely increases blood viscosity (viscosity rises in polycythemia and falls in anaemia), so this is a true statement and not the exception.
+## answer_c
+Can occur in someone who lives at high altitude
+## explanation_c
+High altitude is the named example of secondary polycythemia, through tissue hypoxia, so this is true and not the exception.
+## answer_d
+Can result from a high level of erythropoietin secretion
+## explanation_d
+A high level of erythropoietin secretion is exactly the mechanism driving secondary polycythemia, so this is true and not the exception.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-3FDA659AB5822B
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Recognise that liver disease is not a named cause of polycythemia.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p10 q21. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-457
+## title
+Erythropoiesis may be stimulated in heart failure because
+## question
+Erythropoiesis may be stimulated in heart failure because
+## vignette
+This item asks the student to attribute heart-failure-stimulated erythropoiesis to tissue hypoxia driving erythropoietin secretion.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Eryinropoietin cannot be secreted
+## explanation_a
+Backwards. Heart failure is one of the named causes of hypoxia (reduced tissue perfusion), which *stimulates* erythropoietin secretion — the option claims the opposite, that secretion cannot occur.
+## answer_b
+Decreased absorption of iron
+## explanation_b
+Heart failure is not connected to decreased iron absorption; the stimulus it names for heart-failure erythropoiesis is hypoxia, not an iron-supply change.
+## answer_c
+Increased vitamin B12 in blood
+## explanation_c
+Heart failure is not described as raising blood vitamin B12 — this option names an unconnected mechanism.
+## answer_d
+Hypoxia stimulates RBCs formation
+## explanation_d
+Correct. Heart failure reduces tissue oxygen delivery — hypoxia — which is the main stimulus for erythropoietin secretion and so for erythropoiesis, exactly as at high altitude or after haemorrhage.
+
+Why this is right:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration.
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone.
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis.
+## topic
+Blood
+## subtopic
+Erythropoiesis
+## main_concept
+CON-HEM-6DBD73A50D2AD4
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Erythropoiesis
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-ERYTHROPOIESIS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute heart-failure-stimulated erythropoiesis to tissue hypoxia driving erythropoietin secretion.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q55. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-458
+## title
+Concerning Hermoglobin:
+## question
+Concerning Hermoglobin:
+## vignette
+This item asks the student to name carbaminohaemoglobin as the compound formed between the globin chains and carbon dioxide.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Each molecule can carry 8 molecules of oxygen.
+## explanation_a
+Each haemoglobin molecule carries four oxygen molecules — one per haem group — not eight; eight is double the true figure and a common overreach from remembering "four haem groups" without the one-to-one ratio.
+## answer_b
+It contains 2 atoms of iron in the ferrous state
+## explanation_b
+Haemoglobin contains four haem groups, each with one iron atom, so four atoms of iron in total, not two.
+## answer_c
+It forms oxyhemoglobin with carbon monoxide
+## explanation_c
+Haemoglobin forms oxyhaemoglobin with oxygen, not carbon monoxide — carbon monoxide instead forms carboxyhaemoglobin, a different reaction named separately.
+## answer_d
+The globin part forms carbamino compounds with CO.
+## explanation_d
+Correct. The globin (polypeptide) part of haemoglobin forms carbamino compounds with carbon dioxide — carbaminohaemoglobin — distinct from the iron-based reactions with oxygen, carbon monoxide and oxidising agents.
+
+Why this is right:
+- Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so the book calls this oxygenation, not oxidation.
+- Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron.
+- Hb reacts with carbon monoxide to form carboxyhaemoglobin.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-CA5D4380823112
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name carbaminohaemoglobin as the compound formed between the globin chains and carbon dioxide.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p8 q7. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-459
+## title
+lron:
+## question
+lron:
+## vignette
+This item asks the student to name vitamin C as an aid to iron absorption via ferric-to-ferrous reduction.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is absorbed as ferrous (Fe*’) iron by a passive process
+## explanation_a
+Backwards. Ferrous iron crosses the apical enterocyte membrane via the active transporter DMT1, not by passive diffusion.
+## answer_b
+Is decreased in acute blood loss
+## explanation_b
+Backwards. Iron absorption *increases* after acute blood loss, as the body tries to replenish lost iron — blood loss is not described as decreasing absorption.
+## answer_c
+Is stored in the liver in the form of transferrin
+## explanation_c
+Backwards. Iron is stored in the liver mainly as ferritin (and its aggregate, haemosiderin), not as transferrin, which is the plasma transport protein rather than a storage form.
+## answer_d
+Needs vitamin C for absorption
+## explanation_d
+Correct. Ascorbic acid (vitamin C) and other reducing substances help reduce ferric iron (Fe3+) to the absorbable ferrous form (Fe2+), assisted by gastric HCl.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name vitamin C as an aid to iron absorption via ferric-to-ferrous reduction.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q26. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-460
+## title
+lron absorption:
+## question
+lron absorption:
+## vignette
+This item asks the student to state that iron absorption requires gastric HCl.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Occurs when the iron is in the ferric state (Fe*”)
+## explanation_a
+Backwards. Iron is better absorbed in the ferrous state (Fe2+) — ferric iron (Fe3+) must first be reduced before it can cross via DMT1.
+## answer_b
+Requires gastric HCI
+## explanation_b
+Correct. Gastric HCl helps dissolve dietary iron and, with ascorbic acid, reduce ferric iron to the absorbable ferrous form.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## answer_c
+Is a passive process which depends on the body requiremenis
+## explanation_c
+Backwards. Iron absorption is an active, carrier-mediated process (DMT1 and HCP1), not passive diffusion, though how much of the absorbed iron is retained does depend on body requirements at the intracellular-fate step.
+## answer_d
+Occurs in the lower part of the small intestine
+## explanation_d
+Backwards. Iron is absorbed mainly in the duodenum, the upper part of the small intestine, not the lower part — the lower ileum is instead where vitamin B12 is absorbed, and the two are a standard mix-up.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that iron absorption requires gastric HCl.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q27. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-461
+## title
+All about iron absorption is correct, except:
+## question
+All about iron absorption is correct, except:
+## vignette
+This item asks the student to identify the duodenum, not the terminal ileum, as the main site of iron absorption.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Antacids reduce iron absorption
+## explanation_a
+True, so not the exception. Antacids raise gastric pH, which works against the acid-catalysed reduction of ferric to ferrous iron described, so they do reduce absorption.
+## answer_b
+Heme iron is better absorbed than non-heme iron
+## explanation_b
+True, so not the exception. Plainly that heme iron (10% of dietary iron, from meat) is more absorbable than non-heme iron (90%, from plant sources).
+## answer_c
+Ferrous iron (Fe**) is better absorbed than ferric iron (Fe**)
+## explanation_c
+True, so not the exception. Ferrous iron (Fe2+) is the form DMT1 transports; ferric iron (Fe3+) must first be reduced, which is why called ferrous the better-absorbed form.
+## answer_d
+The majority of iron absorption occurs in terminal ileum
+## explanation_d
+Correct. The exception, and the answer. The duodenum is where most iron absorption happens, not the terminal ileum — which is instead the site of vitamin B12 absorption, a distinct chapter's mechanism entirely.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Identify the duodenum, not the terminal ileum, as the main site of iron absorption.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p11 q30. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The two OCR passes disagreed between options C and D for this except-question, but both C and D read as true statements of the book's own text and neither can be the exception: (C) "ferrous iron is better absorbed than ferric iron" restates the book's DMT1/reduction mechanism directly (physical p129), and by elimination the false statement — the actual exception — is (D). The module book names the duodenum, not the terminal ileum, as where iron absorption mainly occurs ("Iron is absorbed by the ENTEROCYTES of the intestinal mucosa mainly in the DUODENUM", physical p129) — the terminal ileum is where vitamin B12 is absorbed instead, a standard confusion the book's own chapter ordering invites.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-462
+## title
+lron absorption needs healiny stomach
+## question
+lron absorption needs healiny stomach
+## vignette
+This item asks the student to name gastric HCl secretion as why a healthy stomach matters for iron absorption.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+For secretion of Hel
+## explanation_a
+Correct. A healthy stomach secretes HCl, which dissolves dietary iron and — with vitamin C — reduces ferric iron to the ferrous form that DMT1 can transport, so achlorhydria (decreased HCl secretion) is associated with iron deficiency.
+
+Why this is right:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum.
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1).
+## answer_b
+For secretion of intrinsic factor
+## explanation_b
+Intrinsic factor secretion is what a healthy stomach contributes to vitamin B12 absorption, not iron absorption — the two nutrients depend on different gastric secretions.
+## answer_c
+For secretion of pepsin
+## explanation_c
+Pepsin secretion digests dietary protein; it is not connected to iron absorption.
+## answer_d
+For secretion of transferrin
+## explanation_d
+Transferrin is made by the liver and secreted into plasma, not by the stomach — it is not a gastric secretion at all.
+## topic
+Blood
+## subtopic
+Iron
+## main_concept
+CON-HEM-A6420C4B3B3D9A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Iron
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-IRON-METABOLISM
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name gastric HCl secretion as why a healthy stomach matters for iron absorption.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q58. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-463
+## title
+As regard the osmotic function of albumin:
+## question
+As regard the osmotic function of albumin:
+## vignette
+This item asks the student to name albumin as chiefly responsible for the plasma colloidal osmotic pressure.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Is due to greatest molecular weight and smallest concentration in plasma
+## explanation_a
+Backwards. Osmotic pressure depends on the *number of particles* in solution, and albumin has the *smallest* molecular weight of the major plasma proteins — that smallness, combined with its greatest concentration, is exactly why it contributes the most particles and dominates the osmotic effect.
+## answer_b
+It is responsible for most colloidal osmotic pressure
+## explanation_b
+Correct. Albumin has the greatest concentration of the plasma proteins, and since osmotic pressure depends on particle number rather than mass, it is responsible for most of the plasma proteins' colloidal osmotic pressure.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## answer_c
+It is due to the permeability of the capillary membrane to albumin
+## explanation_c
+Backwards. The capillary membrane is normally *impermeable* to plasma proteins — that impermeability is exactly what keeps them in the plasma to exert an osmotic pull, not a permeability that lets them leak out.
+## answer_d
+Is increased in liver diseases
+## explanation_d
+Backwards. Albumin production is *decreased*, not increased, in liver disease, since the liver is albumin's main site of synthesis — a diseased liver makes less of it.
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name albumin as chiefly responsible for the plasma colloidal osmotic pressure.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p7 q3. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-464
+## title
+Concerning plasma proteins:
+## question
+Concerning plasma proteins:
+## vignette
+This item asks the student to state that plasma proteins act as weak acids at normal plasma pH.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+They act as weak acids at the normal pH
+## explanation_a
+Correct. At normal plasma pH (7.4), plasma proteins are negatively charged and act as weak acids (anions), combining with bases — this is the basis of their buffering function.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## answer_b
+Fibrinogen has the highest concentration
+## explanation_b
+Backwards. Albumin, not fibrinogen, has the highest concentration among the three named plasma proteins (3.5–5.0 g/dl vs fibrinogen's 0.4 g/dl).
+## answer_c
+At normal plasma pH plasma proteins are positively charged
+## explanation_c
+Backwards. At normal plasma pH, plasma proteins are *negatively* charged, not positively — that negative charge is what lets them act as weak acids in the buffer system.
+## answer_d
+Albumin is mainly formed by the plasma cells in lymphoid tissue
+## explanation_d
+Backwards. Albumin is mainly formed by the liver, not by plasma cells in lymphoid tissue — plasma cells make the gamma globulins instead.
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+State that plasma proteins act as weak acids at normal plasma pH.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p7 q4. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-465
+## title
+Concerning plasma proteins:
+## question
+Concerning plasma proteins:
+## vignette
+This item asks the student to name the clotting factors as part of what plasma proteins include.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+They include clotting factors
+## explanation_a
+Correct. Fibrinogen and the coagulation factors are plasma proteins in their own right, and plasma proteins as a class include them alongside albumin and the globulins.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## answer_b
+Globulins are formed mainly in the liver
+## explanation_b
+Backwards. Globulins are formed partly in the liver (50%) but the gamma fraction is formed by plasma cells in lymphoid tissue — "mainly in the liver" overstates the liver's share for this specific class.
+## answer_c
+Fibrinogen has the highest concentration
+## explanation_c
+Backwards. Albumin, not fibrinogen, has the highest concentration among the named plasma proteins.
+## answer_d
+Aibumin has the largest molecular weight
+## explanation_d
+Backwards. Fibrinogen, not albumin, has the largest molecular weight of the three named proteins (340,000 vs albumin's 69,000) — albumin instead has the smallest.
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Name the clotting factors as part of what plasma proteins include.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p9 q16. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-102-INT-MCQ-466
+## title
+Edema may be present in patients with liver failure secondary to
+## question
+Edema may be present in patients with liver failure secondary to
+## vignette
+This item asks the student to attribute liver-failure oedema to decreased albumin formation.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Increased coagulation factors
+## explanation_a
+Increased coagulation factors would tend toward excess clotting, not oedema — and liver failure in fact decreases coagulation-factor formation (the liver is where most are made), the opposite of this option.
+## answer_b
+Increased plasma protein formation
+## explanation_b
+Backwards. Liver failure decreases plasma protein formation (the liver is the main synthesis site), not increases it.
+## answer_c
+Decreased water reabsorption _
+## explanation_c
+Liver failure is not described as changing renal water reabsorption directly — the oedema mechanism it teaches runs through the plasma proteins' osmotic function, not the kidney.
+## answer_d
+Decreased formation of albumin
+## explanation_d
+Correct. A failing liver forms less albumin; less albumin means less colloidal osmotic pressure to hold water in the capillaries and pull tissue fluid back in, so fluid accumulates in the tissues as oedema.
+
+Why this is right:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein.
+## topic
+Blood
+## subtopic
+Plasma proteins
+## main_concept
+CON-HEM-005D132395BF2F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Reasoning
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Plasma proteins
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-PHY-PLASMA-PROTEINS
+## resource_ids
+src_2093c80b1f9c25f9c0a4
+## learning_objective
+Attribute liver-failure oedema to decreased albumin formation.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. Physio MCQ First Year.pdf p16 q57. Manifest src_2093c80b1f9c25f9c0a4.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
