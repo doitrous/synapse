@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 207 END · concepts for the third tranche, slice 1 (Q59-83, Physiology) of the 207 END EOM 16/4/2024 solved paper. Twenty-five concepts of endocrine physiology grouped into four blocks: hypothalamic-pituitary control and growth hormone (feedback loops, GH secretion and actions, somatomedin C, achondroplasia, Simmond's disease -- eight), posterior pituitary and prolactin (prolactin disinhibition/actions, oxytocin, ADH, nephrogenic diabetes insipidus -- five), thyroid physiology (T4 synthesis, calorigenic actions and exceptions, Graves', tertiary hyperthyroidism -- five) and calcium/phosphate/bone (PTH and nervous excitability, PTH pituitary-independence, calcium-metabolism organs, pyrophosphate, calcitriol/calbindin, calcitonin, FGF23 -- seven). Each minted university-blind: CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collisions, no in-batch duplicates. Filed under DIS-PHY-T06 (Endocrine and reproductive physiology) with SYS-* system cross-nav. Grouped into four library articles. No department book PDF was located/read this pass; concepts are written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stems and options (render-verified against the OCR "@" reading on pp.7-9).
+  Kasr Al Ainy 207 END · concepts for the third tranche (Q59-108, Physiology) of the 207 END EOM 16/4/2024 solved paper. Forty-nine concepts of endocrine and reproductive physiology grouped into eight blocks (hypothalamic-pituitary/GH, posterior pituitary/prolactin, thyroid, calcium/phosphate/bone, adrenal/volume, pancreas/incretins, male reproductive, female reproductive/pregnancy). Each minted university-blind: CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collisions, no in-batch duplicates. Filed under DIS-PHY-T06 (Endocrine and reproductive physiology) with SYS-* system cross-nav. Grouped into eight library articles. No department book PDF was located/read this pass; concepts are written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper own keyed stems and options (render-verified against the OCR @ reading on pp.7-11).
 
   Import: Admin › Bulk import → concept.
 -->
@@ -2745,6 +2745,2697 @@ Phosphate homeostasis
 207 END > Physiology > Phosphate homeostasis
 ## article_ids
 ART-END-207END-CALCIUM-BONE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-B6524649326A3B
+## label
+Glucocorticoids indirectly increase insulin secretion by raising blood glucose
+## canonical_key
+glucocorticoid.metabolic-effect.indirect-insulin-increase
+## aliases
+Cortisone and insulin
+Steroid-induced hyperglycemia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucocorticoids such as cortisone are hyperglycemic: they stimulate gluconeogenesis, cause peripheral insulin resistance and raise blood glucose. The resulting hyperglycemia indirectly drives the beta cells to secrete more insulin, so exogenous cortisone increases insulin secretion secondarily. It does not increase muscle mass (it is catabolic) and, through negative feedback, it suppresses ACTH and endogenous cortisol.
+## explicit_objective
+Explain that glucocorticoids raise insulin secretion indirectly through hyperglycemia.
+## pitfalls
+Expecting increased muscle mass or raised ACTH; glucocorticoids are catabolic and suppress ACTH.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+Glucocorticoids
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Glucocorticoids
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-7DCCD57AB9DE1A
+## label
+Cushing syndrome causes hypertension, not hypotension
+## canonical_key
+cushing-syndrome.features.excludes-hypotension
+## aliases
+Cortisol excess features
+Hypercortisolism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cushing syndrome is chronic glucocorticoid excess. Its features include diabetes mellitus (steroid hyperglycemia), central obesity, osteoporosis and hypertension, the last from cortisol's mineralocorticoid activity and vascular effects. Hypotension is therefore NOT a feature; it is the exception among the listed findings, as cortisol raises blood pressure.
+## explicit_objective
+State that Cushing syndrome causes hypertension, so hypotension is not a feature.
+## pitfalls
+Assuming steroid excess lowers blood pressure; cortisol's mineralocorticoid action raises it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+Cushing syndrome
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Cushing syndrome
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-9F1289F43B5EE2
+## label
+Cortisone treatment inhibits the mediators of inflammation
+## canonical_key
+glucocorticoid.anti-inflammatory.inhibits-mediators
+## aliases
+Glucocorticoid anti-inflammatory action
+Cortisol and inflammation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucocorticoids are potent anti-inflammatory agents: cortisone treatment induces lipocortin (annexin A1), which inhibits phospholipase A2 and thereby reduces prostaglandin and leukotriene production, stabilizes lysosomes and suppresses cytokines. So inhibition of the mediators of inflammation is produced by cortisone treatment. Not all prostaglandins inhibit inflammation, low bradykinin does not, and low ACTH would lower endogenous cortisol.
+## explicit_objective
+Attribute inhibition of inflammatory mediators to glucocorticoid (cortisone) treatment.
+## pitfalls
+Crediting prostaglandins or low ACTH with the anti-inflammatory effect instead of cortisone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+Glucocorticoids
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Glucocorticoids
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-5B4FBCD016174F
+## label
+Hyperaldosteronism causes metabolic alkalosis, not metabolic acidosis
+## canonical_key
+hyperaldosteronism.features.excludes-metabolic-acidosis
+## aliases
+Aldosterone excess
+Conn syndrome features
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aldosterone promotes renal sodium reabsorption in exchange for potassium and hydrogen ions. Hyperaldosteronism therefore causes hypernatremia, hypokalemia, hypertension and, because of hydrogen-ion loss, a metabolic alkalosis. Metabolic acidosis is the exception, since it is the opposite of the alkalosis aldosterone excess actually produces.
+## explicit_objective
+State that hyperaldosteronism produces metabolic alkalosis, so metabolic acidosis is the exception.
+## pitfalls
+Confusing the direction of the acid-base change; hydrogen-ion loss gives alkalosis, not acidosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+Aldosterone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Aldosterone
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-93195F3987E657
+## label
+ACTH secretion is highest in the early morning
+## canonical_key
+acth.circadian-rhythm.peak-early-morning
+## aliases
+Cortisol circadian rhythm
+Diurnal ACTH
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACTH and therefore cortisol follow a circadian rhythm set by the suprachiasmatic nucleus, peaking in the early morning around waking and reaching a nadir late in the evening and the first hours of sleep. So ACTH level is highest in the early morning. This rhythm is why cortisol is measured at defined times and why late-night cortisol is used to screen for Cushing syndrome.
+## explicit_objective
+State that ACTH secretion peaks in the early morning.
+## pitfalls
+Placing the ACTH peak in the evening or night, when it is actually at its lowest.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+ACTH
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > ACTH
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-REN-22279D08361E47
+## label
+A fall in ECF volume stimulates vasopressin, aldosterone and angiotensin II
+## canonical_key
+ecf-volume-depletion.response.vasopressin-aldosterone-angiotensin
+## aliases
+Volume-depletion hormones
+Effective circulating volume response
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A fall in extracellular fluid volume is sensed by baroreceptors and the juxtaglomerular apparatus and triggers a coordinated hormonal response to conserve salt and water. Renin release generates angiotensin II, which raises aldosterone (sodium retention) and, together with baroreceptor unloading, stimulates vasopressin (water retention). Because all three rise, the correct answer is all of the above.
+## explicit_objective
+List vasopressin, aldosterone and angiotensin II as the response to a fall in ECF volume.
+## pitfalls
+Selecting only one hormone; volume depletion activates all three together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+renal
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-REN-T02
+SYS-END-T05
+## topic
+Physiology
+## subtopic
+Volume regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Volume regulation
+## article_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-58729980D134C4
+## label
+Insulin signals through a receptor tyrosine kinase, not cAMP
+## canonical_key
+insulin.signal-transduction.receptor-tyrosine-kinase-not-camp
+## aliases
+Insulin second messenger
+Insulin receptor signaling
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Second-messenger systems differ by hormone. Vasopressin/ADH and parathormone act through Gs-coupled receptors that raise cAMP. Insulin is different: it binds a receptor tyrosine kinase that autophosphorylates and recruits IRS proteins, so it does not use cAMP as its second messenger. Therefore insulin is the hormone that does not use cAMP among the options.
+## explicit_objective
+State that insulin uses a receptor tyrosine kinase rather than cAMP.
+## pitfalls
+Assuming all peptide hormones use cAMP; insulin uses receptor tyrosine kinase signaling.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## topic
+Physiology
+## subtopic
+Insulin signaling
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Insulin signaling
+## article_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-95724A7BAF33F6
+## label
+Exercise lowers blood glucose via AMP-kinase activation and GLUT4 translocation
+## canonical_key
+exercise.glucose-uptake.ampk-glut4-translocation
+## aliases
+Insulin-independent glucose uptake
+Contraction-mediated GLUT4
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During exercise, muscle contraction and the rise in the AMP:ATP ratio activate 5'-AMP-activated protein kinase, which triggers translocation of GLUT4 transporters to the muscle-cell membrane. This increases insulin-independent glucose uptake and lowers blood glucose. It is not due to fewer GLUT2 in muscle, intestinal uptake or increased gluconeogenesis.
+## explicit_objective
+Explain exercise-induced glucose lowering by AMPK activation and GLUT4 translocation.
+## pitfalls
+Attributing the fall to gluconeogenesis or intestinal uptake rather than muscle GLUT4 translocation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## topic
+Physiology
+## subtopic
+Glucose homeostasis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Glucose homeostasis
+## article_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-22504F12C576E3
+## label
+Insulin is co-secreted with C-peptide in a 1:1 ratio
+## canonical_key
+insulin.secretion.c-peptide-equimolar
+## aliases
+C-peptide
+Proinsulin cleavage
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Proinsulin is cleaved in the beta-cell secretory granule into insulin and C-peptide, which are released together in equimolar (1:1) amounts. Because C-peptide is co-secreted with insulin but not extracted by the liver, it is a marker of endogenous insulin secretion, unlike glucagon, GLP-1 or somatostatin. So insulin is secreted along with C-peptide in a 1:1 ratio.
+## explicit_objective
+State that insulin and C-peptide are co-secreted in a 1:1 ratio.
+## pitfalls
+Confusing C-peptide with glucagon or GLP-1; only C-peptide is equimolar with insulin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## topic
+Physiology
+## subtopic
+Insulin secretion
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Insulin secretion
+## article_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-48B432E3E19AF7
+## label
+Insulin inhibits ketogenesis
+## canonical_key
+insulin.metabolic-effects.excludes-ketogenesis
+## aliases
+Insulin anabolic actions
+Insulin and ketone bodies
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Insulin is the dominant anabolic hormone: it promotes protein synthesis, glycogenesis and lipogenesis, and it suppresses lipolysis and hepatic ketone-body production. Therefore ketogenesis is the process insulin does NOT produce; it inhibits it, which is why insulin deficiency in type 1 diabetes causes ketoacidosis. Ketogenesis is the exception among the listed insulin actions.
+## explicit_objective
+State that insulin inhibits ketogenesis while promoting anabolic pathways.
+## pitfalls
+Listing ketogenesis as an insulin action; insulin suppresses it, and its lack drives ketoacidosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## topic
+Physiology
+## subtopic
+Insulin actions
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Insulin actions
+## article_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-12BCFA3D420411
+## label
+GLP-1 acts as an incretin to increase insulin secretion
+## canonical_key
+glp1.incretin.increases-insulin-secretion
+## aliases
+Glucagon-like peptide-1
+Incretin effect
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucagon-like peptide-1 is an incretin released from intestinal L cells after a meal; it augments glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying and promotes satiety. So it acts as an incretin hormone to increase insulin secretion. It does not stimulate glucagon or cause obesity, and it is produced by the gut, not the liver.
+## explicit_objective
+Describe GLP-1 as an incretin that increases glucose-dependent insulin secretion.
+## pitfalls
+Thinking GLP-1 raises glucagon or comes from the liver; it is a gut incretin that lowers glucagon.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## topic
+Physiology
+## subtopic
+Incretins
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Incretins
+## article_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-3F40AEE08F20DC
+## label
+The blood-testis barrier is formed by tight junctions between Sertoli cells
+## canonical_key
+blood-testis-barrier.tight-junctions.between-sertoli-cells
+## aliases
+Sertoli-Sertoli junctions
+Blood-testis barrier
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The blood-testis barrier is created by tight (occluding) junctions between adjacent Sertoli cells, which divide the seminiferous epithelium into basal and adluminal compartments. This isolates the meiotic and post-meiotic germ cells from the immune system and creates the specialized adluminal environment for spermatogenesis. It is formed between Sertoli cells, not Leydig cells, spermatocytes or spermatogonia.
+## explicit_objective
+Identify Sertoli-Sertoli tight junctions as forming the blood-testis barrier.
+## pitfalls
+Attributing the barrier to Leydig cells or germ cells rather than Sertoli-cell tight junctions.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Blood-testis barrier
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Blood-testis barrier
+## article_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-91F95BF55B587C
+## label
+Sertoli cells secrete activin, inhibin and aromatase
+## canonical_key
+sertoli-cell.secretions.activin-inhibin-aromatase
+## aliases
+Sertoli cell products
+Sertoli secretions
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sertoli cells support spermatogenesis and secrete several products: inhibin and activin (which regulate FSH), aromatase enzyme (which converts testosterone to estrogen), androgen-binding protein and anti-Mullerian hormone. Because activin, inhibin and aromatase are all Sertoli-cell products, the correct answer is all of the above. These distinguish Sertoli-cell from Leydig-cell (testosterone) function.
+## explicit_objective
+List activin, inhibin and aromatase among Sertoli-cell secretions.
+## pitfalls
+Restricting Sertoli output to one product; they secrete inhibin, activin and aromatase together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Sertoli cells
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Sertoli cells
+## article_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-99C0B790227C42
+## label
+Sertoli-cell inhibin mediates negative feedback on FSH secretion
+## canonical_key
+sertoli-cell.inhibin.fsh-negative-feedback
+## aliases
+Inhibin and FSH
+Sertoli feedback
+## arabic_label
+
+## arabic_aliases
+
+## definition
+FSH acts on Sertoli cells, which in turn secrete inhibin; inhibin selectively feeds back on the anterior pituitary to suppress FSH secretion, closing the loop that regulates spermatogenesis. So it is the synthesis of inhibin, not testosterone (a Leydig product), aromatization of estrogen or maintenance of the barrier, that mediates negative feedback on FSH.
+## explicit_objective
+Identify Sertoli-cell inhibin as the mediator of FSH negative feedback.
+## pitfalls
+Crediting testosterone or the blood-testis barrier with FSH feedback instead of inhibin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Sertoli cells
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Sertoli cells
+## article_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-3C3628A8A73EB4
+## label
+Sperm acquire fertilizing capacity and motility in the epididymis
+## canonical_key
+sperm-maturation.epididymis.fertilizing-capacity-motility
+## aliases
+Epididymal maturation
+Sperm maturation site
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Spermatozoa leave the testis immotile and incapable of fertilization; they gain progressive motility and fertilizing capacity during their transit and storage in the epididymis, where the epididymal secretions and maturation environment complete their functional maturation. So sperm acquire their power of fertilization and motility in the epididymis, not in the seminal vesicles, prostate or testes.
+## explicit_objective
+State that sperm acquire motility and fertilizing capacity in the epididymis.
+## pitfalls
+Placing sperm maturation in the testis or accessory glands rather than the epididymis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Sperm maturation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Sperm maturation
+## article_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-518A4E1902A402
+## label
+Testosterone deepens the voice rather than producing a high-pitched voice
+## canonical_key
+testosterone.effects.excludes-high-pitched-voice
+## aliases
+Testosterone physiologic effects
+Androgen actions
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Testosterone drives male secondary sexual characteristics: penile and scrotal growth, body-hair growth, and acceleration of epiphyseal closure, and it enlarges the larynx to deepen (lower-pitch) the voice. A high-pitched, sharp voice is therefore NOT an effect of testosterone; it is the exception, being the opposite of the laryngeal deepening testosterone causes.
+## explicit_objective
+State that testosterone deepens the voice, so a high-pitched voice is not among its effects.
+## pitfalls
+Assuming testosterone raises voice pitch; it enlarges the larynx and lowers it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Testosterone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Testosterone
+## article_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-3548A42E5D9A55
+## label
+Lactation is suppressed during pregnancy by high estrogen and progesterone
+## canonical_key
+pregnancy.lactation-suppression.high-estrogen-progesterone
+## aliases
+Antepartum lactation suppression
+Estrogen-progesterone block of milk
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During pregnancy prolactin is high and the breast is prepared, but the high circulating levels of placental estrogen and progesterone block prolactin's action on the alveolar epithelium, so milk is not produced until delivery. After the placenta is delivered, estrogen and progesterone fall and lactation begins. Thus lactation during pregnancy is suppressed by high blood levels of estrogen and progesterone.
+## explicit_objective
+Explain antepartum lactation suppression by high estrogen and progesterone blocking prolactin action.
+## pitfalls
+Attributing suppression to low prolactin or low HPL; prolactin is high but blocked by the sex steroids.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+obs
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-OBS-T01
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Lactation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Lactation
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-9B47E4C559660A
+## label
+Menarche is the appearance of the first menstruation
+## canonical_key
+menarche.definition.first-menstruation
+## aliases
+First menstrual period
+Menarche
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Menarche is defined as the appearance of the first menstrual period, a late event of female puberty that follows thelarche (breast development) and pubarche (pubic-hair development). It marks the establishment of ovarian cyclicity. It is not breast development, pubic-hair development or the appearance of acne, which are separate pubertal changes.
+## explicit_objective
+Define menarche as the first menstruation.
+## pitfalls
+Confusing menarche with thelarche or pubarche, which precede it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Puberty
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Puberty
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-A0A2A2FC141FDE
+## label
+Early gonadotropin secretion is not a cause of delayed puberty
+## canonical_key
+delayed-puberty.causes.excludes-early-gonadotropin
+## aliases
+Delayed puberty causes
+Hypogonadotropic and gonadal causes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Delayed puberty follows from failure of the hypothalamic-pituitary-gonadal axis: panhypopituitarism (no gonadotropins), Turner syndrome (gonadal dysgenesis) and Kallmann syndrome (GnRH deficiency with anosmia) all delay it. Early gonadotropin secretion would instead cause precocious, not delayed, puberty, so it is the exception among the listed causes.
+## explicit_objective
+Exclude early gonadotropin secretion from the causes of delayed puberty.
+## pitfalls
+Overlooking that early gonadotropins advance puberty, the opposite of delay.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T02
+## topic
+Physiology
+## subtopic
+Puberty
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Puberty
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-49794B34E0D980
+## label
+The estrogen-triggered LH surge at ovulation is positive feedback
+## canonical_key
+ovulation.lh-surge.estrogen-positive-feedback
+## aliases
+Ovulatory LH surge
+Estrogen positive feedback at ovulation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Near mid-cycle the rising level of estrogen from the dominant follicle switches from inhibiting to stimulating gonadotropin release, producing the sudden LH surge that triggers ovulation. This switch is positive feedback, distinct from the short-loop, long-loop and ultra-short negative-feedback mechanisms. So the triggering of the LH surge by rising estrogen is explained by positive feedback.
+## explicit_objective
+Explain the ovulatory LH surge as estrogen-driven positive feedback.
+## pitfalls
+Labelling the surge as negative or short-loop feedback; it is positive feedback.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Menstrual cycle
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Menstrual cycle
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-33A991A84A7AF5
+## label
+Estrogen protects the premenopausal cardiovascular system by raising HDL
+## canonical_key
+estrogen.cardioprotection.increases-hdl
+## aliases
+Estrogen and lipids
+Premenopausal cardioprotection
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Estrogen has favorable cardiovascular effects in premenopausal women: it increases HDL and lowers LDL cholesterol, increases endothelial nitric-oxide production causing vasodilation, and reduces vascular smooth-muscle contractility. The mechanism among the options is increasing the production of HDL. Loss of these effects after menopause contributes to the rise in cardiovascular risk.
+## explicit_objective
+State that estrogen is cardioprotective partly by increasing HDL.
+## pitfalls
+Reversing the lipid effect; estrogen raises HDL and NO, not LDL or vascular contractility.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Estrogen
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Estrogen
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-OBS-77F96318338B1D
+## label
+Human chorionic gonadotropin maintains corpus luteum function in pregnancy
+## canonical_key
+hcg.function.maintains-corpus-luteum
+## aliases
+hCG
+Pregnancy hormone rescuing the corpus luteum
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Human chorionic gonadotropin is secreted by the syncytiotrophoblast of the early placenta and, being LH-like, rescues and maintains the corpus luteum so it continues to secrete progesterone until the placenta takes over steroidogenesis. It is therefore the pregnancy hormone that maintains corpus luteum function, distinct from estradiol, estriol and human placental lactogen.
+## explicit_objective
+Identify hCG as the hormone that maintains the corpus luteum in early pregnancy.
+## pitfalls
+Confusing hCG with HPL or estriol; only hCG rescues the corpus luteum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+obs
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-OBS-T01
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Pregnancy hormones
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pregnancy hormones
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-OBS-CDAAF3E56492B3
+## label
+The first stage of labor shows increased uterine contractions from cervical stretch
+## canonical_key
+labor.first-stage.cervical-stretch-uterine-contraction
+## aliases
+Ferguson reflex
+First stage of labor
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The first stage of labor is cervical dilatation. Stretching of the cervix by the descending fetal head reflexly increases oxytocin release and uterine contractions (the Ferguson reflex), a positive-feedback loop that advances dilatation. Expulsion of the fetus is the second stage and delivery of the placenta the third, while progesterone-mediated relaxation opposes rather than defines labor.
+## explicit_objective
+Describe the first stage of labor as increased uterine contractions driven by cervical stretch.
+## pitfalls
+Confusing the first stage with fetal expulsion (second) or placental delivery (third).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+obs
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-OBS-T04
+## topic
+Physiology
+## subtopic
+Labor
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Labor
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2d00db5decd243a861ea
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 16373 live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem/options (render-verified against the OCR "@" marker on pp.7-11); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-OBS-5A136538024844
+## label
+Placental Fas-ligand prevents fetal rejection by inducing T-lymphocyte apoptosis
+## canonical_key
+maternal-fetal-tolerance.placental-fas-ligand.t-cell-apoptosis
+## aliases
+Immune privilege of pregnancy
+Fas-ligand at the placenta
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The semi-allogeneic fetus is protected from maternal immune rejection by several mechanisms, one of which is expression of Fas-ligand at the maternal-fetal interface; it engages Fas on activated maternal T lymphocytes and triggers their apoptosis. So rejection of the fetus is prevented by apoptosis of T lymphocytes via placental Fas-ligand, alongside reduced MHC expression, not increased MHC or B-cell stimulation.
+## explicit_objective
+Explain maternal-fetal tolerance through placental Fas-ligand-induced T-cell apoptosis.
+## pitfalls
+Expecting increased MHC expression or B-cell stimulation to protect the fetus; tolerance is immunosuppressive.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+obs
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-OBS-T01
+## topic
+Physiology
+## subtopic
+Immunology of pregnancy
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Immunology of pregnancy
+## article_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
 ## related_article_ids
 
 ## related_concept_ids

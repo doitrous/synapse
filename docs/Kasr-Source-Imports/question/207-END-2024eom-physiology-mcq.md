@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 207 END · third tranche, slice 1 (Q59-83, Physiology) of the 207 END EOM 16/4/2024 solved paper, 108 MCQs total. Endocrine physiology: hypothalamic-pituitary control and growth hormone (Q60-67), posterior pituitary/prolactin/water balance (Q68-72), thyroid physiology (Q73-77) and calcium/phosphate/bone (Q59, Q78-83). Keys read from a solid red circle over the correct option letter via pagetext.mjs ocr --force (no native text layer) and render-verified against the OCR '@' reading on pp.7-9 (all 25 matched exactly, 0 disagreements, no double-marks). 25 items authored (Q59-83).
+  Kasr Al Ainy 207 END · third tranche (Q59-108, Physiology) of the 207 END EOM 16/4/2024 solved paper, 108 MCQs total. Endocrine and reproductive physiology across pp.7-11: hypothalamic-pituitary control & GH, posterior pituitary/prolactin/water balance, thyroid, calcium/phosphate/bone, adrenal cortex & volume, pancreatic islets/incretins, male reproductive, and female reproductive/pregnancy/labor. Keys read from a solid red circle over the correct option letter via pagetext.mjs ocr --force (no native text layer) and render-verified against the OCR @ reading on pp.7-11 (all 50 matched exactly, 0 disagreements, no double-marks). 49 items authored (Q59-102, Q104-108); Q103 HELD (image-dependent: four progesterone curves, answer d). Physiology is the last section; Q108 ends the paper.
 
   Import: Admin › Bulk import → question.
 -->
@@ -3438,6 +3438,3318 @@ State that FGF23 acts on receptors present in the parathyroid gland.
 
 ## source_citation
 Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-084
+
+## title
+Effect of administered cortisone
+
+## question
+Cortisone is administered to a patient for the treatment of an autoimmune disease. Which of the following is most likely to occur?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Increased ACTH secretion
+
+## explanation_a
+Incorrect. Exogenous cortisone suppresses ACTH by negative feedback.
+
+## answer_b
+Increased cortisol secretion
+
+## explanation_b
+Incorrect. Endogenous cortisol secretion falls because ACTH is suppressed.
+
+## answer_c
+Increased muscle mass
+
+## explanation_c
+Incorrect. Glucocorticoids are catabolic and cause muscle wasting, not increased mass.
+
+## answer_d
+Increased insulin secretion indirectly
+
+## explanation_d
+Correct. Cortisone is hyperglycemic, stimulating gluconeogenesis and causing insulin resistance, so blood glucose rises. The hyperglycemia in turn drives the beta cells to secrete more insulin, an indirect increase in insulin secretion. Meanwhile the exogenous steroid suppresses ACTH and endogenous cortisol and promotes muscle catabolism.
+
+## topic
+Physiology
+
+## subtopic
+Glucocorticoids
+
+## main_concept
+CON-END-B6524649326A3B
+
+## concept_ids
+CON-END-B6524649326A3B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Glucocorticoids
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Explain that glucocorticoids raise insulin secretion indirectly through hyperglycemia.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-085
+
+## title
+Features of Cushing syndrome
+
+## question
+In Cushing syndrome, all of the following features are present EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Diabetes mellitus
+
+## explanation_a
+Incorrect. Steroid-induced hyperglycemia produces diabetes mellitus in Cushing syndrome.
+
+## answer_b
+Hypotension
+
+## explanation_b
+Correct. Cushing syndrome causes hypertension, not hypotension, because cortisol has mineralocorticoid activity and vascular effects that raise blood pressure. Hypotension is therefore the exception among the listed features. Diabetes, central obesity and osteoporosis are all genuine features.
+
+## answer_c
+Osteoporosis
+
+## explanation_c
+Incorrect. Cortisol excess causes osteoporosis by suppressing bone formation and calcium absorption.
+
+## answer_d
+Obesity (central)
+
+## explanation_d
+Incorrect. Central (truncal) obesity is a hallmark of Cushing syndrome.
+
+## topic
+Physiology
+
+## subtopic
+Cushing syndrome
+
+## main_concept
+CON-END-7DCCD57AB9DE1A
+
+## concept_ids
+CON-END-7DCCD57AB9DE1A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Cushing syndrome
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that Cushing syndrome causes hypertension, so hypotension is not a feature.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-086
+
+## title
+Inhibition of inflammatory mediators
+
+## question
+Inhibition of the mediators of inflammation is produced by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+All types of prostaglandins
+
+## explanation_a
+Incorrect. Most prostaglandins are pro-inflammatory mediators, not inhibitors.
+
+## answer_b
+Low level of bradykinin
+
+## explanation_b
+Incorrect. Low bradykinin does not actively inhibit inflammatory mediators.
+
+## answer_c
+Cortisone treatment
+
+## explanation_c
+Correct. Glucocorticoids such as cortisone are potent anti-inflammatory agents; they induce lipocortin (annexin A1), which inhibits phospholipase A2 and thereby reduces prostaglandin and leukotriene synthesis, stabilizes lysosomes and suppresses cytokines. So inhibition of the mediators of inflammation is produced by cortisone treatment. Low ACTH would lower endogenous cortisol and reduce this effect.
+
+## answer_d
+Low ACTH secretion
+
+## explanation_d
+Incorrect. Low ACTH lowers cortisol and would diminish, not produce, the anti-inflammatory effect.
+
+## topic
+Physiology
+
+## subtopic
+Glucocorticoids
+
+## main_concept
+CON-END-9F1289F43B5EE2
+
+## concept_ids
+CON-END-9F1289F43B5EE2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Glucocorticoids
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Attribute inhibition of inflammatory mediators to glucocorticoid (cortisone) treatment.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-087
+
+## title
+Associations of hyperaldosteronism
+
+## question
+Hyperaldosteronism is associated with all of the following EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hypernatremia
+
+## explanation_a
+Incorrect. Aldosterone retains sodium, causing hypernatremia.
+
+## answer_b
+Hypokalemia
+
+## explanation_b
+Incorrect. Aldosterone promotes potassium excretion, causing hypokalemia.
+
+## answer_c
+Hypertension
+
+## explanation_c
+Incorrect. Sodium and water retention raise blood pressure, causing hypertension.
+
+## answer_d
+Metabolic acidosis
+
+## explanation_d
+Correct. Aldosterone drives renal loss of hydrogen ions along with potassium, so hyperaldosteronism causes a metabolic alkalosis, not acidosis. Metabolic acidosis is therefore the exception among the listed associations. The hypernatremia, hypokalemia and hypertension are all expected.
+
+## topic
+Physiology
+
+## subtopic
+Aldosterone
+
+## main_concept
+CON-END-5B4FBCD016174F
+
+## concept_ids
+CON-END-5B4FBCD016174F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Aldosterone
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that hyperaldosteronism produces metabolic alkalosis, so acidosis is the exception.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-088
+
+## title
+Diurnal timing of peak ACTH
+
+## question
+ACTH level is highest during:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Evening
+
+## explanation_a
+Incorrect. Evening is near the nadir of the ACTH rhythm.
+
+## answer_b
+Afternoon
+
+## explanation_b
+Incorrect. The afternoon level is intermediate, not the peak.
+
+## answer_c
+Early morning
+
+## explanation_c
+Correct. ACTH and cortisol follow a circadian rhythm set by the suprachiasmatic nucleus, peaking in the early morning around waking and reaching their lowest in the late evening and first hours of sleep. So ACTH is highest in the early morning. This rhythm underlies the timing of cortisol sampling.
+
+## answer_d
+Night
+
+## explanation_d
+Incorrect. Night, during early sleep, is when ACTH is at its lowest.
+
+## topic
+Physiology
+
+## subtopic
+ACTH
+
+## main_concept
+CON-END-93195F3987E657
+
+## concept_ids
+CON-END-93195F3987E657
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > ACTH
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that ACTH secretion peaks in the early morning.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-089
+
+## title
+Hormone not using cAMP
+
+## question
+Which of the following does not use cAMP as a second-messenger system?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vasopressin
+
+## explanation_a
+Incorrect. Vasopressin acts through Gs-coupled V2 receptors that raise cAMP.
+
+## answer_b
+ADH
+
+## explanation_b
+Incorrect. ADH (vasopressin) uses cAMP as its second messenger in the collecting duct.
+
+## answer_c
+Parathormone
+
+## explanation_c
+Incorrect. Parathormone acts through a Gs-coupled receptor that raises cAMP.
+
+## answer_d
+Insulin
+
+## explanation_d
+Correct. Insulin binds a receptor tyrosine kinase that autophosphorylates and recruits IRS proteins to signal, so it does not use cAMP as a second messenger. This distinguishes it from vasopressin/ADH and parathormone, which all raise cAMP. Insulin is therefore the hormone that does not use cAMP.
+
+## topic
+Physiology
+
+## subtopic
+Insulin signaling
+
+## main_concept
+CON-END-58729980D134C4
+
+## concept_ids
+CON-END-58729980D134C4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Insulin signaling
+
+## question_only_for
+
+## library_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that insulin uses a receptor tyrosine kinase rather than cAMP.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-090
+
+## title
+Hormones stimulated by a fall in ECF volume
+
+## question
+A fall in the ECF volume stimulates the secretion of:
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vasopressin
+
+## explanation_a
+Incorrect only as an isolated answer. Vasopressin does rise, but it is not the sole response.
+
+## answer_b
+Aldosterone
+
+## explanation_b
+Incorrect only as an isolated answer. Aldosterone rises, but it is not the only hormone stimulated.
+
+## answer_c
+Angiotensin II
+
+## explanation_c
+Incorrect only as an isolated answer. Angiotensin II rises, but the response includes the others too.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. A fall in extracellular fluid volume unloads baroreceptors and activates the juxtaglomerular apparatus, so renin generates angiotensin II, which raises aldosterone and, with baroreceptor input, stimulates vasopressin. All three rise together to conserve salt and water, so the answer is all of the above.
+
+## topic
+Physiology
+
+## subtopic
+Volume regulation
+
+## main_concept
+CON-REN-22279D08361E47
+
+## concept_ids
+CON-REN-22279D08361E47
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Volume regulation
+
+## question_only_for
+
+## library_ids
+ART-END-207END-ADRENAL-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+List vasopressin, aldosterone and angiotensin II as the response to a fall in ECF volume.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-091
+
+## title
+How exercise lowers blood glucose
+
+## question
+How can exercise lower the blood glucose?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Through activation of 5'-AMP-kinase and translocation of GLUT4 to the cell membrane
+
+## explanation_a
+Correct. During exercise, muscle contraction and the rising AMP:ATP ratio activate 5'-AMP-activated protein kinase, which triggers translocation of GLUT4 transporters to the muscle-cell membrane. This increases insulin-independent glucose uptake into muscle and lowers blood glucose. It is this contraction-mediated GLUT4 pathway that accounts for the effect.
+
+## answer_b
+By decreasing the number of GLUT2 in muscle cytoplasm
+
+## explanation_b
+Incorrect. GLUT2 is not the muscle transporter, and decreasing it would not lower glucose.
+
+## answer_c
+By increasing glucose uptake by the intestinal mucosa
+
+## explanation_c
+Incorrect. Intestinal glucose uptake is unrelated to exercise-induced glucose lowering.
+
+## answer_d
+Through increasing gluconeogenesis
+
+## explanation_d
+Incorrect. Increasing gluconeogenesis would raise, not lower, blood glucose.
+
+## topic
+Physiology
+
+## subtopic
+Glucose homeostasis
+
+## main_concept
+CON-END-95724A7BAF33F6
+
+## concept_ids
+CON-END-95724A7BAF33F6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Glucose homeostasis
+
+## question_only_for
+
+## library_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Explain exercise-induced glucose lowering by AMPK activation and GLUT4 translocation.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-092
+
+## title
+Molecule co-secreted with insulin 1:1
+
+## question
+Insulin is secreted along with which molecule in a 1:1 ratio?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Glucagon
+
+## explanation_a
+Incorrect. Glucagon is secreted by alpha cells, not co-released with insulin.
+
+## answer_b
+C peptide
+
+## explanation_b
+Correct. Proinsulin is cleaved in the beta-cell granule into insulin and C-peptide, which are released together in equimolar (1:1) amounts. Because C-peptide is co-secreted with insulin and is not extracted by the liver, it serves as a marker of endogenous insulin secretion. So insulin is secreted along with C-peptide in a 1:1 ratio.
+
+## answer_c
+Glucagon-like peptide-1
+
+## explanation_c
+Incorrect. GLP-1 is an intestinal incretin, not a beta-cell co-secretion product.
+
+## answer_d
+Somatostatin
+
+## explanation_d
+Incorrect. Somatostatin is secreted by delta cells, not equimolar with insulin.
+
+## topic
+Physiology
+
+## subtopic
+Insulin secretion
+
+## main_concept
+CON-END-22504F12C576E3
+
+## concept_ids
+CON-END-22504F12C576E3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Insulin secretion
+
+## question_only_for
+
+## library_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that insulin and C-peptide are co-secreted in a 1:1 ratio.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-093
+
+## title
+Process insulin does not produce
+
+## question
+Insulin produces all of the following EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Protein synthesis
+
+## explanation_a
+Incorrect. Insulin is anabolic and promotes protein synthesis.
+
+## answer_b
+Glycogenesis
+
+## explanation_b
+Incorrect. Insulin stimulates glycogenesis (glucose storage as glycogen).
+
+## answer_c
+Ketogenesis
+
+## explanation_c
+Correct. Insulin is anti-ketogenic: it suppresses lipolysis and hepatic ketone-body production, so ketogenesis is the process it does not produce and is the exception among the options. This is why insulin deficiency in type 1 diabetes causes diabetic ketoacidosis. Insulin instead drives protein synthesis, glycogenesis and lipogenesis.
+
+## answer_d
+Lipogenesis
+
+## explanation_d
+Incorrect. Insulin promotes lipogenesis (fat storage).
+
+## topic
+Physiology
+
+## subtopic
+Insulin actions
+
+## main_concept
+CON-END-48B432E3E19AF7
+
+## concept_ids
+CON-END-48B432E3E19AF7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Insulin actions
+
+## question_only_for
+
+## library_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that insulin inhibits ketogenesis while promoting anabolic pathways.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-094
+
+## title
+Correct statement about GLP-1
+
+## question
+Which of the following statements is correct as regards GLP-1?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stimulates glucagon secretion
+
+## explanation_a
+Incorrect. GLP-1 suppresses, not stimulates, glucagon secretion.
+
+## answer_b
+Acts as an incretin hormone to increase insulin secretion
+
+## explanation_b
+Correct. Glucagon-like peptide-1 is an incretin released from intestinal L cells after a meal that augments glucose-dependent insulin secretion. It also suppresses glucagon, slows gastric emptying and promotes satiety. So it acts as an incretin hormone to increase insulin secretion.
+
+## answer_c
+Increased its secretion leads to obesity
+
+## explanation_c
+Incorrect. By promoting satiety and slowing gastric emptying, GLP-1 tends to reduce weight, not cause obesity.
+
+## answer_d
+It is produced by the liver
+
+## explanation_d
+Incorrect. GLP-1 is produced by intestinal L cells, not the liver.
+
+## topic
+Physiology
+
+## subtopic
+Incretins
+
+## main_concept
+CON-END-12BCFA3D420411
+
+## concept_ids
+CON-END-12BCFA3D420411
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Incretins
+
+## question_only_for
+
+## library_ids
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Describe GLP-1 as an incretin that increases glucose-dependent insulin secretion.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-095
+
+## title
+Cells forming the blood-testis barrier
+
+## question
+The blood-testis barrier is formed by tight junctions between:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Leydig cells
+
+## explanation_a
+Incorrect. Leydig cells lie in the interstitium and secrete testosterone; they do not form the barrier.
+
+## answer_b
+Primary spermatocytes
+
+## explanation_b
+Incorrect. Primary spermatocytes are germ cells that lie within, not forming, the barrier.
+
+## answer_c
+Spermatogonia
+
+## explanation_c
+Incorrect. Spermatogonia sit in the basal compartment; they do not create the tight junctions.
+
+## answer_d
+Sertoli cells
+
+## explanation_d
+Correct. The blood-testis barrier is formed by tight (occluding) junctions between adjacent Sertoli cells, which partition the seminiferous epithelium into basal and adluminal compartments. This isolates meiotic and post-meiotic germ cells from the immune system and creates the specialized environment for spermatogenesis. It is a Sertoli-Sertoli junction.
+
+## topic
+Physiology
+
+## subtopic
+Blood-testis barrier
+
+## main_concept
+CON-AND-3F40AEE08F20DC
+
+## concept_ids
+CON-AND-3F40AEE08F20DC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Blood-testis barrier
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Identify Sertoli-Sertoli tight junctions as forming the blood-testis barrier.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-096
+
+## title
+Secretions of Sertoli cells
+
+## question
+Which of the following are secretions of Sertoli cells?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Activin hormone
+
+## explanation_a
+Incorrect only as an isolated answer. Activin is a Sertoli product, but not the only one listed.
+
+## answer_b
+Inhibin hormone
+
+## explanation_b
+Incorrect only as an isolated answer. Inhibin is a Sertoli product, but not the only one listed.
+
+## answer_c
+Aromatase enzyme
+
+## explanation_c
+Incorrect only as an isolated answer. Aromatase is a Sertoli product, but the others are too.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. Sertoli cells secrete inhibin and activin (which regulate FSH), aromatase (which converts testosterone to estrogen), androgen-binding protein and anti-Mullerian hormone. Because activin, inhibin and aromatase are all Sertoli-cell products, the answer is all of the above. These distinguish Sertoli-cell from Leydig-cell (testosterone) function.
+
+## topic
+Physiology
+
+## subtopic
+Sertoli cells
+
+## main_concept
+CON-AND-91F95BF55B587C
+
+## concept_ids
+CON-AND-91F95BF55B587C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Sertoli cells
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+List activin, inhibin and aromatase among Sertoli-cell secretions.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-097
+
+## title
+Sertoli function mediating FSH negative feedback
+
+## question
+Which of the following functions of the Sertoli cells mediates negative feedback control on follicle-stimulating hormone (FSH) secretion?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Synthesis of inhibin
+
+## explanation_a
+Correct. FSH acts on Sertoli cells, which secrete inhibin, and inhibin selectively feeds back on the anterior pituitary to suppress FSH release. This closes the loop regulating spermatogenesis. So it is the synthesis of inhibin that mediates negative feedback on FSH.
+
+## answer_b
+Synthesis of testosterone
+
+## explanation_b
+Incorrect. Testosterone is a Leydig-cell product and feeds back mainly on LH/GnRH.
+
+## answer_c
+Aromatization of estrogen
+
+## explanation_c
+Incorrect. Aromatization produces estrogen locally but is not the FSH-feedback signal.
+
+## answer_d
+Maintenance of the blood-testes barrier
+
+## explanation_d
+Incorrect. Maintaining the blood-testis barrier is structural and does not mediate FSH feedback.
+
+## topic
+Physiology
+
+## subtopic
+Sertoli cells
+
+## main_concept
+CON-AND-99C0B790227C42
+
+## concept_ids
+CON-AND-99C0B790227C42
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Sertoli cells
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Identify Sertoli-cell inhibin as the mediator of FSH negative feedback.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-098
+
+## title
+Site where sperm gain fertilizing power
+
+## question
+Sperm acquire their power of fertilization and motility in the:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Seminal vesicles
+
+## explanation_a
+Incorrect. The seminal vesicles add fructose-rich fluid but do not mature sperm.
+
+## answer_b
+Epididymis
+
+## explanation_b
+Correct. Spermatozoa leave the testis immotile and incapable of fertilization; they acquire progressive motility and fertilizing capacity during their transit and storage in the epididymis, whose secretions and environment complete their functional maturation. So sperm gain their power of fertilization and motility in the epididymis.
+
+## answer_c
+Prostate
+
+## explanation_c
+Incorrect. The prostate contributes fluid to semen but does not mature sperm.
+
+## answer_d
+Testes
+
+## explanation_d
+Incorrect. Sperm are produced in the testes but are not yet motile or fertile there.
+
+## topic
+Physiology
+
+## subtopic
+Sperm maturation
+
+## main_concept
+CON-AND-3C3628A8A73EB4
+
+## concept_ids
+CON-AND-3C3628A8A73EB4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Sperm maturation
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that sperm acquire motility and fertilizing capacity in the epididymis.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-099
+
+## title
+Effect not caused by testosterone
+
+## question
+All of the following are physiologic effects of testosterone EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Acceleration of epiphysial closure
+
+## explanation_a
+Incorrect. Testosterone (via estrogen) accelerates epiphyseal closure.
+
+## answer_b
+Penile & scrotal growth
+
+## explanation_b
+Incorrect. Penile and scrotal growth are androgen-dependent effects.
+
+## answer_c
+Growth of body hair
+
+## explanation_c
+Incorrect. Body-hair growth is a testosterone effect.
+
+## answer_d
+High-pitched and sharp voice
+
+## explanation_d
+Correct. Testosterone enlarges the larynx and thickens the vocal cords, which deepens (lowers the pitch of) the voice, so a high-pitched, sharp voice is the opposite of its effect and is the exception. The other options are all genuine testosterone actions.
+
+## topic
+Physiology
+
+## subtopic
+Testosterone
+
+## main_concept
+CON-AND-518A4E1902A402
+
+## concept_ids
+CON-AND-518A4E1902A402
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Testosterone
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that testosterone deepens the voice, so a high-pitched voice is not among its effects.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-100
+
+## title
+Suppression of lactation during pregnancy
+
+## question
+Which of the following explains the suppression of lactation during pregnancy?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Blood prolactin levels are too low for milk production to occur
+
+## explanation_a
+Incorrect. Prolactin is actually high during pregnancy; the block is at the target tissue.
+
+## answer_b
+Human placental lactogen levels are too low for milk production to occur
+
+## explanation_b
+Incorrect. Human placental lactogen is high, not low, in pregnancy.
+
+## answer_c
+Blood levels of estrogen and progesterone are high
+
+## explanation_c
+Correct. During pregnancy prolactin is high and the breast is prepared, but the high circulating levels of placental estrogen and progesterone block prolactin's action on the alveolar epithelium, so milk is not produced until delivery. After the placenta is delivered these steroids fall and lactation begins. Thus lactation is suppressed by high blood levels of estrogen and progesterone.
+
+## answer_d
+The maternal anterior pituitary is suppressed
+
+## explanation_d
+Incorrect. The anterior pituitary is not suppressed; prolactin output is in fact increased.
+
+## topic
+Physiology
+
+## subtopic
+Lactation
+
+## main_concept
+CON-GYN-3548A42E5D9A55
+
+## concept_ids
+CON-GYN-3548A42E5D9A55
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Lactation
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Explain antepartum lactation suppression by high estrogen and progesterone blocking prolactin action.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-101
+
+## title
+Definition of menarche
+
+## question
+Menarche means:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Development of the breasts
+
+## explanation_a
+Incorrect. Breast development is thelarche, an earlier pubertal event.
+
+## answer_b
+Development of pubic hair
+
+## explanation_b
+Incorrect. Pubic-hair development is pubarche, not menarche.
+
+## answer_c
+Appearance of the first menstruation
+
+## explanation_c
+Correct. Menarche is defined as the appearance of the first menstrual period, a late event of female puberty that follows thelarche and pubarche and marks the establishment of ovarian cyclicity. It is distinct from the other pubertal changes listed. So menarche is the appearance of the first menstruation.
+
+## answer_d
+Appearance of acne in the skin
+
+## explanation_d
+Incorrect. Acne reflects androgen activity and is not the definition of menarche.
+
+## topic
+Physiology
+
+## subtopic
+Puberty
+
+## main_concept
+CON-GYN-9B47E4C559660A
+
+## concept_ids
+CON-GYN-9B47E4C559660A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Puberty
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Define menarche as the first menstruation.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-102
+
+## title
+Cause not producing delayed puberty
+
+## question
+Delayed puberty may be due to all of the following EXCEPT:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Panhypopituitarism
+
+## explanation_a
+Incorrect. Panhypopituitarism removes the gonadotropins needed for puberty, delaying it.
+
+## answer_b
+Turner syndrome
+
+## explanation_b
+Incorrect. Turner syndrome causes gonadal dysgenesis and delayed puberty.
+
+## answer_c
+Early gonadotropin secretion
+
+## explanation_c
+Correct. Early gonadotropin secretion would advance the hypothalamic-pituitary-gonadal axis and cause precocious puberty, the opposite of delayed puberty, so it is the exception among the listed causes. Panhypopituitarism, Turner and Kallmann syndromes all delay puberty.
+
+## answer_d
+Kallmann syndrome
+
+## explanation_d
+Incorrect. Kallmann syndrome is GnRH deficiency with anosmia and delays puberty.
+
+## topic
+Physiology
+
+## subtopic
+Puberty
+
+## main_concept
+CON-GYN-A0A2A2FC141FDE
+
+## concept_ids
+CON-GYN-A0A2A2FC141FDE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Puberty
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Exclude early gonadotropin secretion from the causes of delayed puberty.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-104
+
+## title
+Mechanism of the ovulatory LH surge
+
+## question
+Which of the following clarifies the triggering of the LH surge (sudden increase) by the rising level of estrogen nearly at the time of ovulation?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Positive feedback
+
+## explanation_a
+Correct. Near mid-cycle the rising estrogen from the dominant follicle switches from inhibiting to stimulating gonadotropin release, producing the sudden LH surge that triggers ovulation. This switch to stimulation is positive feedback, the mechanism that clarifies the surge. It is distinct from the negative-feedback loops that dominate the rest of the cycle.
+
+## answer_b
+Short loop negative feedback
+
+## explanation_b
+Incorrect. Short-loop negative feedback is a pituitary hormone acting on the hypothalamus, not the surge mechanism.
+
+## answer_c
+Long loop negative feedback
+
+## explanation_c
+Incorrect. Long-loop negative feedback would suppress, not trigger, the surge.
+
+## answer_d
+Ultrashort negative feedback
+
+## explanation_d
+Incorrect. Ultrashort negative feedback is a releasing hormone on itself and does not explain the surge.
+
+## topic
+Physiology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-49794B34E0D980
+
+## concept_ids
+CON-GYN-49794B34E0D980
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Menstrual cycle
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Explain the ovulatory LH surge as estrogen-driven positive feedback.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-105
+
+## title
+How estrogen protects the cardiovascular system
+
+## question
+How can estrogen protect the cardiovascular system in premenopausal females?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Decreasing the local production of NO
+
+## explanation_a
+Incorrect. Estrogen increases, not decreases, endothelial nitric-oxide production.
+
+## answer_b
+Increasing the production of LDL
+
+## explanation_b
+Incorrect. Estrogen lowers LDL rather than increasing it.
+
+## answer_c
+Increasing the contractile activity of vascular smooth muscles
+
+## explanation_c
+Incorrect. Estrogen reduces vascular smooth-muscle contractility, promoting vasodilation.
+
+## answer_d
+Increasing the production of HDL
+
+## explanation_d
+Correct. Estrogen has favorable cardiovascular effects in premenopausal women, including increasing HDL and lowering LDL, raising nitric-oxide-mediated vasodilation and reducing vascular contractility. The listed protective mechanism is increasing the production of HDL. Loss of these effects after menopause raises cardiovascular risk.
+
+## topic
+Physiology
+
+## subtopic
+Estrogen
+
+## main_concept
+CON-GYN-33A991A84A7AF5
+
+## concept_ids
+CON-GYN-33A991A84A7AF5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Estrogen
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+State that estrogen is cardioprotective partly by increasing HDL.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-106
+
+## title
+Pregnancy hormone maintaining the corpus luteum
+
+## question
+Which of the following is referred to as the pregnancy hormone that maintains corpus luteum function?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+17β-estradiol
+
+## explanation_a
+Incorrect. 17β-estradiol is an ovarian estrogen, not the luteotrophic pregnancy signal.
+
+## answer_b
+Estriol
+
+## explanation_b
+Incorrect. Estriol is a placental estrogen used as a fetoplacental marker, not the corpus-luteum maintainer.
+
+## answer_c
+Human placental lactogen (HPL)
+
+## explanation_c
+Incorrect. Human placental lactogen influences maternal metabolism and the breast, not corpus-luteum rescue.
+
+## answer_d
+Human chorionic gonadotropin (hCG)
+
+## explanation_d
+Correct. Human chorionic gonadotropin is secreted by the syncytiotrophoblast of the early placenta and, being LH-like, rescues and maintains the corpus luteum so it keeps secreting progesterone until the placenta takes over. So hCG is the pregnancy hormone that maintains corpus luteum function.
+
+## topic
+Physiology
+
+## subtopic
+Pregnancy hormones
+
+## main_concept
+CON-OBS-77F96318338B1D
+
+## concept_ids
+CON-OBS-77F96318338B1D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pregnancy hormones
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Identify hCG as the hormone that maintains the corpus luteum in early pregnancy.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-107
+
+## title
+Events of the first stage of labor
+
+## question
+During the first stage of labor:
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Expulsion of the fetus out of the birth canal occurs
+
+## explanation_a
+Incorrect. Expulsion of the fetus is the second stage of labor.
+
+## answer_b
+Increased uterine contractions due to stretching of the cervix by the fetal head
+
+## explanation_b
+Correct. The first stage of labor is cervical dilatation. Stretching of the cervix by the descending fetal head reflexly increases oxytocin release and uterine contractions (the Ferguson reflex), a positive-feedback loop that advances dilatation. So the first stage shows increased uterine contractions due to cervical stretch by the fetal head.
+
+## answer_c
+Relaxation of uterine muscles under the effect of increased progesterone
+
+## explanation_c
+Incorrect. Labor requires uterine contraction; progesterone-mediated relaxation opposes it and wanes before labor.
+
+## answer_d
+Expulsion of the placenta and fetal membranes afterbirth occurs
+
+## explanation_d
+Incorrect. Expulsion of the placenta and membranes is the third stage of labor.
+
+## topic
+Physiology
+
+## subtopic
+Labor
+
+## main_concept
+CON-OBS-CDAAF3E56492B3
+
+## concept_ids
+CON-OBS-CDAAF3E56492B3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Labor
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Describe the first stage of labor as increased uterine contractions driven by cervical stretch.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2024EOM-108
+
+## title
+Prevention of fetal rejection
+
+## question
+The rejection of the fetus by the mother is prevented by:
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Apoptosis of T lymphocytes by placental Fas-ligand
+
+## explanation_a
+Correct. The semi-allogeneic fetus is protected from maternal immune attack by several mechanisms, one of which is expression of Fas-ligand at the maternal-fetal interface; it engages Fas on activated maternal T lymphocytes and triggers their apoptosis. So fetal rejection is prevented by apoptosis of T lymphocytes via placental Fas-ligand.
+
+## answer_b
+Increased expression of MHC class I and II
+
+## explanation_b
+Incorrect. Trophoblast downregulates classical MHC expression; increased MHC would provoke, not prevent, rejection.
+
+## answer_c
+Stimulation of B lymphocytes
+
+## explanation_c
+Incorrect. Stimulating B lymphocytes would not establish tolerance.
+
+## answer_d
+Combined binding of maternal and fetal tissues together
+
+## explanation_d
+Incorrect. Simple tissue binding does not explain immune tolerance of the fetus.
+
+## topic
+Physiology
+
+## subtopic
+Immunology of pregnancy
+
+## main_concept
+CON-OBS-5A136538024844
+
+## concept_ids
+CON-OBS-5A136538024844
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Immunology of pregnancy
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+
+## resource_ids
+src_2d00db5decd243a861ea
+
+## learning_objective
+Explain maternal-fetal tolerance through placental Fas-ligand-induced T-cell apoptosis.
+
+## source_citation
+Kasr Al Ainy 207 END EOM exam paper (printed exam date 16/4/2024, solved), p.11
 
 ## attached_image
 

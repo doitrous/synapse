@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 207 END · library articles for the third tranche's slice-1 concepts (Q59-83 Physiology of the 207 END EOM 16/4/2024 solved paper), grouped into four articles: hypothalamic-pituitary control and growth hormone (8 concepts), posterior pituitary and prolactin (5), thyroid physiology (5) and calcium/phosphate/bone (7). Written from standard endocrine-physiology teaching (Guyton & Hall / Ganong level) corroborated by the exam paper's own keyed stems -- no department book PDF was located/read this pass.
+  Kasr Al Ainy 207 END · library articles for the third tranche third-section concepts (Q59-108 Physiology of the 207 END EOM 16/4/2024 solved paper), grouped into eight articles by endocrine block: hypothalamic-pituitary/GH (8), posterior pituitary/prolactin (5), thyroid (5), calcium/phosphate/bone (7), adrenal/volume (6), pancreas/glucose (5), male reproductive (5) and female reproductive/pregnancy (8). Written from standard endocrine-physiology teaching (Guyton & Hall / Ganong level) corroborated by the exam paper own keyed stems -- no department book PDF was located/read this pass.
 
   Import: Admin › Bulk import → article.
 -->
@@ -337,6 +337,372 @@ CON-END-9C9C9D37E9727D
 CON-END-F4CDCA379A836D
 CON-END-6396DEA9B3FB77
 CON-END-DC53B358FA5ECC
+## related_articles
+
+## resource_ids
+src_2d00db5decd243a861ea
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong-level) corroborated by this exam paper's own keyed stems and options (render-verified against the OCR "@" reading on pp.7-11).
+## reading_time
+8
+
+---
+
+# Item
+## id
+ART-END-207END-ADRENAL-PHYSIOLOGY
+## title
+Adrenal cortex, glucocorticoids, aldosterone and volume regulation
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Glucocorticoids are catabolic and hyperglycemic: cortisone raises blood glucose by gluconeogenesis and insulin resistance, which secondarily increases insulin secretion, and it is strongly anti-inflammatory through induction of lipocortin and inhibition of the mediators of inflammation. Chronic excess (Cushing syndrome) brings diabetes, central obesity, osteoporosis and hypertension -- never hypotension -- while ACTH and cortisol follow a circadian rhythm peaking in the early morning. The mineralocorticoid limb, aldosterone, retains sodium in exchange for potassium and hydrogen, so hyperaldosteronism gives hypernatremia, hypokalemia, hypertension and metabolic alkalosis, not acidosis. When the extracellular fluid volume falls, vasopressin, aldosterone and angiotensin II all rise together to defend it.
+## sections
+### Definition
+This article groups the adrenal-cortex and volume-regulation facts tested by the Physiology section (Q84-88, Q90); each linked concept carries one atomic claim and this overview connects them.
+### Mechanism
+Cortisol and aldosterone act on glucocorticoid and mineralocorticoid receptors to reprogram metabolism, inflammation and renal electrolyte handling, and the renin-angiotensin-aldosterone and vasopressin systems defend circulating volume.
+### Key determinants
+Discriminators tested here: glucocorticoids raise insulin indirectly via hyperglycemia; Cushing has hypertension not hypotension; cortisone inhibits inflammatory mediators; hyperaldosteronism causes alkalosis not acidosis; ACTH peaks early morning; and a fall in ECF volume stimulates vasopressin, aldosterone and angiotensin II.
+### Clinical significance
+These principles underlie the diagnosis and monitoring of Cushing and Conn syndromes, the timing of cortisol testing, steroid side-effects, and the physiology of shock and heart failure.
+### Common misconceptions
+See each concept's pitfalls field; distractors here reverse the blood-pressure and acid-base changes of adrenal steroid excess.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Adrenal physiology
+## subtopic
+Adrenal physiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T05
+SYS-REN-T02
+## related_concepts
+CON-END-B6524649326A3B
+CON-END-7DCCD57AB9DE1A
+CON-END-9F1289F43B5EE2
+CON-END-5B4FBCD016174F
+CON-END-93195F3987E657
+CON-REN-22279D08361E47
+## related_articles
+
+## resource_ids
+src_2d00db5decd243a861ea
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong-level) corroborated by this exam paper's own keyed stems and options (render-verified against the OCR "@" reading on pp.7-11).
+## reading_time
+8
+
+---
+
+# Item
+## id
+ART-END-207END-PANCREAS-GLUCOSE-PHYSIOLOGY
+## title
+Pancreatic islets, insulin signaling and glucose homeostasis
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Insulin is the master anabolic hormone. It signals through a receptor tyrosine kinase rather than cAMP, is co-secreted with C-peptide in a 1:1 ratio (making C-peptide a marker of endogenous secretion), and promotes protein synthesis, glycogenesis and lipogenesis while inhibiting ketogenesis -- which is why its absence causes ketoacidosis. Glucose disposal is not entirely insulin-dependent: during exercise, muscle contraction activates 5'-AMP-kinase and translocates GLUT4 to the membrane, lowering blood glucose independently of insulin. The incretin GLP-1, released from gut L cells after a meal, augments glucose-dependent insulin secretion and suppresses glucagon.
+## sections
+### Definition
+This article groups the insulin, incretin and glucose-homeostasis facts tested by the Physiology section (Q89, Q91-94); each linked concept carries one atomic claim and this overview ties them together.
+### Mechanism
+Insulin's tyrosine-kinase receptor drives anabolic metabolism; contraction-mediated AMPK/GLUT4 offers an insulin-independent route; and incretins amplify meal-stimulated insulin release.
+### Key determinants
+Discriminators tested here: insulin uses a receptor tyrosine kinase, not cAMP; exercise lowers glucose via AMPK and GLUT4 translocation; insulin and C-peptide are equimolar; insulin inhibits ketogenesis; and GLP-1 is an incretin that raises insulin.
+### Clinical significance
+These principles underlie the interpretation of C-peptide, the rationale for exercise in diabetes, incretin-based therapies, and the pathophysiology of diabetic ketoacidosis.
+### Common misconceptions
+See each concept's pitfalls field; distractors here list ketogenesis as an insulin action and misattribute exercise glucose lowering to gluconeogenesis.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Pancreatic and glucose physiology
+## subtopic
+Pancreatic and glucose physiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T06
+## related_concepts
+CON-END-58729980D134C4
+CON-END-95724A7BAF33F6
+CON-END-22504F12C576E3
+CON-END-48B432E3E19AF7
+CON-END-12BCFA3D420411
+## related_articles
+
+## resource_ids
+src_2d00db5decd243a861ea
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong-level) corroborated by this exam paper's own keyed stems and options (render-verified against the OCR "@" reading on pp.7-11).
+## reading_time
+7
+
+---
+
+# Item
+## id
+ART-AND-207END-MALE-REPRODUCTIVE-PHYSIOLOGY
+## title
+Male reproductive physiology: Sertoli cells, sperm maturation and testosterone
+## subject
+androl
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+The seminiferous epithelium is organized by Sertoli cells, whose tight junctions form the blood-testis barrier that isolates developing germ cells. Sertoli cells secrete inhibin, activin and aromatase, and it is their inhibin that feeds back on the pituitary to suppress FSH. Spermatozoa leave the testis immotile and infertile, acquiring motility and fertilizing capacity only during transit through the epididymis. Leydig-cell testosterone drives the male secondary sexual characteristics -- penile and scrotal growth, body hair, epiphyseal closure and laryngeal enlargement that deepens the voice -- so a high-pitched voice is not one of its effects.
+## sections
+### Definition
+This article groups the male reproductive-physiology facts tested by the Physiology section (Q95-99); each linked concept carries one atomic claim and this overview connects them.
+### Mechanism
+Sertoli cells build the barrier and endocrine feedback of the testis, the epididymis completes sperm maturation, and Leydig-cell testosterone masculinizes the body.
+### Key determinants
+Discriminators tested here: the blood-testis barrier is Sertoli-Sertoli tight junctions; Sertoli cells secrete activin, inhibin and aromatase; inhibin mediates FSH negative feedback; sperm mature in the epididymis; and testosterone deepens rather than raises voice pitch.
+### Clinical significance
+These principles underlie the understanding of male infertility, hormone assays (inhibin B, testosterone), and the effects of androgen excess or deficiency.
+### Common misconceptions
+See each concept's pitfalls field; distractors here swap Sertoli and Leydig functions and place sperm maturation in the testis.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Male reproductive physiology
+## subtopic
+Male reproductive physiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## related_concepts
+CON-AND-3F40AEE08F20DC
+CON-AND-91F95BF55B587C
+CON-AND-99C0B790227C42
+CON-AND-3C3628A8A73EB4
+CON-AND-518A4E1902A402
+## related_articles
+
+## resource_ids
+src_2d00db5decd243a861ea
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard endocrine/reproductive physiology teaching (Guyton & Hall / Ganong-level) corroborated by this exam paper's own keyed stems and options (render-verified against the OCR "@" reading on pp.7-11).
+## reading_time
+7
+
+---
+
+# Item
+## id
+ART-GYN-207END-FEMALE-REPRO-PREGNANCY-PHYSIOLOGY
+## title
+Female reproductive, pregnancy and labor physiology
+## subject
+gyn
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Female reproductive physiology runs from puberty to labor. Menarche, the first menstruation, is a late pubertal event, and delayed puberty follows hypothalamic-pituitary-gonadal failure (panhypopituitarism, Turner, Kallmann) -- early gonadotropins would instead cause precocity. Mid-cycle, rising estrogen switches to positive feedback and triggers the ovulatory LH surge, and estrogen also protects the premenopausal heart by raising HDL. In pregnancy, hCG from the trophoblast maintains the progesterone-secreting corpus luteum, high estrogen and progesterone suppress lactation until delivery, placental Fas-ligand induces apoptosis of maternal T cells to prevent fetal rejection, and in the first stage of labor cervical stretch reflexly increases uterine contractions.
+## sections
+### Definition
+This article groups the female reproductive, pregnancy and labor facts tested by the Physiology section (Q100-102, Q104-108); each linked concept carries one atomic claim and this overview ties them together.
+### Mechanism
+The hypothalamic-pituitary-ovarian axis governs puberty and the cycle through negative and positive feedback, while the placenta drives the endocrine and immune adaptations of pregnancy and the reflexes of labor.
+### Key determinants
+Discriminators tested here: menarche is the first menstruation; early gonadotropins do not cause delayed puberty; the ovulatory LH surge is positive feedback; estrogen raises HDL; hCG maintains the corpus luteum; high estrogen/progesterone suppress antepartum lactation; the first stage of labor is cervical-stretch-driven contraction; and placental Fas-ligand causes T-cell apoptosis.
+### Clinical significance
+These principles underlie the assessment of puberty and amenorrhea, ovulation timing, menopausal cardiovascular risk, pregnancy testing, and the management of labor.
+### Common misconceptions
+See each concept's pitfalls field; distractors here confuse pubertal milestones, reverse estrogen's lipid effect and mislabel the stages of labor.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Female reproductive and pregnancy physiology
+## subtopic
+Female reproductive and pregnancy physiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+SYS-OBS-T01
+## related_concepts
+CON-GYN-3548A42E5D9A55
+CON-GYN-9B47E4C559660A
+CON-GYN-A0A2A2FC141FDE
+CON-GYN-49794B34E0D980
+CON-GYN-33A991A84A7AF5
+CON-OBS-77F96318338B1D
+CON-OBS-CDAAF3E56492B3
+CON-OBS-5A136538024844
 ## related_articles
 
 ## resource_ids
