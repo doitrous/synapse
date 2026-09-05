@@ -2153,13 +2153,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-An open-face nucleus is pale and euchromatic and belongs to an active cell; a closed-face nucleus is dark and heterochromatic
+Open-face vs closed-face nucleus
 ## id
 CON-FND-E2DE55693981A7
 ## canonical_key
 open-versus-closed-face-nucleus
 ## definition
-Under the light microscope a vesicular or open-face nucleus is pale and basophilic only faintly, because its chromatin is extended; it belongs to an active, protein-forming cell such as a nerve cell. A closed-face nucleus is small and darkly basophilic because its chromatin is condensed, as in a small lymphocyte.
+An **open-face (vesicular)** nucleus is pale and only faintly basophilic because its chromatin is extended; it belongs to an __active, protein-forming cell__ such as a nerve cell.
+
+A **closed-face** nucleus is small and darkly basophilic because its chromatin is condensed, as in a __small lymphocyte__.
 ## explicit_objective
 Tell an open-face from a closed-face nucleus on a light micrograph and say what each implies about the cell's activity.
 ## pitfalls
@@ -2291,13 +2293,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-The nuclear envelope is identified on electron microscopy as two membranes with a perinuclear space, interrupted by nuclear pores
+Nuclear envelope (EM)
 ## id
 CON-FND-C81FD3E574D3AA
 ## canonical_key
 nuclear-envelope-ultrastructure
 ## definition
-The nuclear envelope is two parallel unit membranes separated by the perinuclear space and interrupted where the two fuse at a nuclear pore. The outer membrane carries ribosomes and is continuous with the rough endoplasmic reticulum; the nucleolus is a separate rounded deeply basophilic mass inside the nucleus and not part of the envelope.
+The nuclear envelope is __two parallel unit membranes__ separated by the **perinuclear space**, interrupted where the two fuse at a **nuclear pore**.
+
+The outer membrane carries ribosomes and is continuous with the **rough endoplasmic reticulum**.
+
+The **nucleolus** is a separate rounded deeply basophilic mass inside the nucleus — __not part of the envelope__.
 ## explicit_objective
 Identify the nuclear membrane, the perinuclear space and a nuclear pore on an electron micrograph, and distinguish them from the nucleolus.
 ## pitfalls
@@ -2433,13 +2439,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A euchromatic and a heterochromatic nucleus are told apart on electron microscopy by how much condensed chromatin they carry
+Euchromatic vs heterochromatic nucleus (EM)
 ## id
 CON-FND-BAABF179A898ED
 ## canonical_key
 euchromatic-versus-heterochromatic-nucleus
 ## definition
-Both nuclei show the same components — peripheral heterochromatin on the inner membrane, chromatin islands in the nuclear sap, nucleolus-associated chromatin, the nucleolus, the nuclear membrane and its pores. What separates them is proportion: the heterochromatic nucleus is dominated by condensed chromatin and belongs to an inactive cell; the euchromatic nucleus is mostly pale nuclear sap with a clear nucleolus and belongs to an active one.
+Both nuclei show the same components — peripheral heterochromatin on the inner membrane, chromatin islands in the nuclear sap, nucleolus-associated chromatin, the nucleolus, and the nuclear membrane with its pores.
+
+What separates them is __proportion__. The **heterochromatic** nucleus is dominated by condensed chromatin and belongs to an **inactive** cell.
+
+The **euchromatic** nucleus is mostly pale nuclear sap with a clear nucleolus and belongs to an **active** cell.
 ## explicit_objective
 State whether an electron micrograph shows a euchromatic or a heterochromatic nucleus, be specific about which, and name the peripheral heterochromatin, the chromatin islands, the nucleolus and the nuclear pore when arrowed.
 ## pitfalls
@@ -2576,13 +2586,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A Leishman-stained blood film is recognised as a preparation before any cell in it is named
+Recognising a Leishman blood film
 ## id
 CON-HEM-1935D59A1D2839
 ## canonical_key
 leishman-blood-film-survey-identification
 ## definition
-A blood film is a drop of blood spread on a slide, dried and stained with a neutral stain — Leishman's, which is methylene blue plus eosin in methyl alcohol. The field is a monolayer dominated by acidophilic non-nucleated erythrocytes, with occasional nucleated leucocytes and small platelet fragments between them. Every spot question in this block opens by asking what the preparation is and what stained it.
+A blood film is a drop of blood spread on a slide, dried and stained with a neutral stain — **Leishman's** (methylene blue plus eosin in methyl alcohol).
+
+The field is a monolayer dominated by **acidophilic non-nucleated erythrocytes**, with occasional nucleated leucocytes and small platelet fragments between them.
+
+__Every spot question in this block opens by asking what the preparation is and what stained it.__
 ## explicit_objective
 State that a slide is a blood film and name Leishman's as the stain before identifying any individual cell in it.
 ## pitfalls
@@ -2719,13 +2733,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-The Barr body is a drumstick appendage on the segmented nucleus of a female neutrophil
+Barr body on a female neutrophil
 ## id
 CON-HEM-DD758E69648658
 ## canonical_key
 barr-body-neutrophil-identification
 ## definition
-In about 3 to 6 per cent of the neutrophils of a female, one segment of the nucleus carries a small drumstick-shaped appendage joined by a thin chromatin thread. This is the Barr body, the condensed inactive X chromosome.
+In about **3 to 6 per cent** of a female's neutrophils, one nuclear segment carries a small __drumstick-shaped appendage__ joined by a thin chromatin thread.
+
+This is the **Barr body**, the condensed inactive **X chromosome**.
 ## explicit_objective
 Identify a Barr body on a marked neutrophil in a blood film and say what it represents.
 ## pitfalls
@@ -2857,13 +2873,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A basophil is identified by large basophilic granules that mask its S-shaped nucleus
+Basophil on a blood film
 ## id
 CON-HEM-1F7D2D1717F91A
 ## canonical_key
 basophil-identification-blood-film
 ## definition
-The basophil is the rarest leucocyte at 0 to 1 per cent. Its cytoplasm is filled with large granules that stain basophilic, and metachromatically purple with toluidine blue because of their heparin; the granules are numerous enough to obscure the irregular, segmented, S-shaped nucleus underneath them.
+The basophil is the **rarest leucocyte** at 0 to 1 per cent.
+
+Its cytoplasm is filled with **large basophilic granules** that stain __metachromatically purple with toluidine blue__ because of their heparin.
+
+The granules are numerous enough to **obscure** the irregular, segmented, S-shaped nucleus underneath them.
 ## explicit_objective
 Identify a basophil in a blood film, give the character of its granules and describe what the granules do to the visibility of its nucleus.
 ## pitfalls
@@ -2996,13 +3016,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Lymphocyte and monocyte are told apart on a film by nuclear shape and by the look of the cytoplasm
+Lymphocyte vs monocyte on a film
 ## id
 CON-HEM-29CA381FD3707B
 ## canonical_key
 lymphocyte-versus-monocyte-blood-film
 ## definition
-Both are non-granular leucocytes. The small lymphocyte is the smaller cell, with a dark heterochromatic nucleus that fills it and a thin rim of pale basophilic cytoplasm. The monocyte is the largest leucocyte at 13 to 20 micrometres, with a large eccentric pale kidney-shaped nucleus and abundant cytoplasm of a frosted-glass appearance given to it by fine azurophilic granules.
+Both are **non-granular** leucocytes.
+
+The **small lymphocyte** is the smaller cell, with a __dark heterochromatic nucleus that fills it__ and a thin rim of pale basophilic cytoplasm.
+
+The **monocyte** is the largest leucocyte at 13 to 20 micrometres, with a large eccentric pale __kidney-shaped nucleus__ and abundant frosted-glass cytoplasm given to it by fine azurophilic granules.
 ## explicit_objective
 Identify a lymphocyte and a monocyte in the same blood film and give the nuclear and cytoplasmic character that separates them.
 ## pitfalls
@@ -3138,13 +3162,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A platelet is identified on a film as a small non-nucleated cytoplasmic fragment, often in clumps
+Platelet on a blood film
 ## id
 CON-HEM-9A7C4752AA21E3
 ## canonical_key
 platelet-identification-blood-film
 ## definition
-Platelets are small oval non-nucleated fragments of megakaryocyte cytoplasm, 2 to 4 micrometres across — far smaller than any leucocyte and smaller than a red cell. On a stained film each shows a pale peripheral hyalomere and a central granular granulomere, and they commonly lie in small clumps between the erythrocytes.
+Platelets are small oval **non-nucleated fragments of megakaryocyte cytoplasm**, 2 to 4 micrometres across — __smaller than any leucocyte and than a red cell__.
+
+On a stained film each shows a pale peripheral **hyalomere** and a central granular **granulomere**, and they commonly lie in __small clumps__ between the erythrocytes.
 ## explicit_objective
 Identify platelets in a blood film and give the character that separates them from a small leucocyte and from cell debris.
 ## pitfalls
@@ -3277,13 +3303,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-An erythrocyte is identified by being non-nucleated, acidophilic and centrally pale
+Erythrocyte on a blood film
 ## id
 CON-HEM-4F5347CC3664E0
 ## canonical_key
 erythrocyte-identification-blood-film
 ## definition
-On a Leishman-stained film the erythrocyte is a rounded non-nucleated acidophilic disc about 7.5 micrometres across, with a central pallor of about one third of its diameter produced by its biconcavity. A crenated cell is the same cell shrunken in a hypertonic medium and shows notches at its edge.
+On a Leishman film the erythrocyte is a rounded **non-nucleated acidophilic disc** about 7.5 micrometres across, with a __central pallor of about one third of its diameter__ produced by its biconcavity.
+
+A **crenated** cell is the same cell shrunken in a hypertonic medium, showing notches at its edge.
 ## explicit_objective
 Identify an erythrocyte in a blood film, give the character the answer page asks for, and tell a normal cell from a crenated one on the same plate.
 ## pitfalls
@@ -3418,13 +3446,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A reticulocyte is only seen in a supravital preparation, where cresyl blue precipitates its ribosomal remnants as a reticulum
+Reticulocyte in a supravital stain
 ## id
 CON-HEM-C020FBF779203C
 ## canonical_key
 reticulocyte-supravital-identification
 ## definition
-The reticulocyte is the last stage before the mature red cell. It is acidophilic like a red cell but still holds remnants of ribosomes and polysomes; these are precipitated into a visible blue network only by a supravital stain such as cresyl blue, applied to living cells. Reticulocytes do not exceed one per cent of the cells in peripheral blood.
+The reticulocyte is the **last stage before the mature red cell**. It is acidophilic like a red cell but still holds remnants of ribosomes and polysomes.
+
+These are precipitated into a visible __blue network__ only by a **supravital stain** such as cresyl blue, applied to living cells.
+
+Reticulocytes do not exceed **one per cent** of the cells in peripheral blood.
 ## explicit_objective
 State that a slide is a supravital preparation, name cresyl blue as the stain and say that it is supravital, and identify the marked reticulocyte.
 ## pitfalls
@@ -3558,13 +3590,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Bone marrow is identified by its fat cells and by the megakaryocyte, recognised by its size and its single multilobed nucleus
+Megakaryocyte and bone marrow
 ## id
 CON-HEM-CF325DABA0EA62
 ## canonical_key
 megakaryocyte-and-bone-marrow-identification
 ## definition
-A bone marrow section is a crowded field of developing blood cells among fat cells, which are the largest cells of the marrow stroma. The megakaryocyte stands out at 50 to 70 micrometres with one very large multilobed dark nucleus and basophilic cytoplasm from which platelets detach.
+A bone marrow section is a crowded field of developing blood cells among **fat cells**, the largest cells of the marrow stroma.
+
+The **megakaryocyte** stands out at 50 to 70 micrometres, with __one very large multilobed dark nucleus__ and basophilic cytoplasm from which platelets detach.
 ## explicit_objective
 Identify a section as bone marrow and name the megakaryocyte and the fat cells when each is arrowed.
 ## pitfalls
@@ -3698,13 +3732,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-The fibroblast is the commonest connective-tissue cell, recognised on section by its nucleus alone
+Fibroblast recognised by its nucleus
 ## id
 CON-FND-2030501B814D35
 ## canonical_key
 fibroblast-versus-fibrocyte-identification
 ## definition
-In an ordinary section of connective tissue the fibroblast's cytoplasm blends into the matrix and only the nucleus is visible: oval, pale, with a prominent nucleolus in the active fibroblast, smaller and darker in the resting fibrocyte. It is the cell the department expects to be named between the collagen bundles.
+In an ordinary section the fibroblast's cytoplasm blends into the matrix, so __only the nucleus is visible__: oval and pale.
+
+It has a **prominent nucleolus** in the active fibroblast, and is smaller and darker in the resting **fibrocyte**.
+
+It is the cell the department expects to be named **between the collagen bundles**.
 ## explicit_objective
 Identify a fibroblast or fibrocyte on a connective-tissue section from its nucleus and its position among the fibres.
 ## pitfalls
@@ -3837,13 +3875,15 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A macrophage is identified by an irregular outline, a dark kidney-shaped nucleus and ingested vital dye
+Macrophage and vital stain
 ## id
 CON-FND-90E8073879B42A
 ## canonical_key
 macrophage-identification-vital-stain
 ## definition
-The macrophage is a large irregular connective-tissue cell with pale basophilic cytoplasm and a dark kidney-shaped nucleus. Its specific demonstration is a vital stain — trypan blue or India ink — which the cell phagocytoses, so the granules of dye inside it are the identification.
+The macrophage is a large irregular connective-tissue cell with pale basophilic cytoplasm and a **dark kidney-shaped nucleus**.
+
+Its specific demonstration is a **vital stain** — trypan blue or India ink — which the cell phagocytoses, so the __granules of dye inside it are the identification__.
 ## explicit_objective
 Identify a macrophage on a section and name the vital stain that demonstrates it.
 ## pitfalls
@@ -3973,13 +4013,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-A plasma cell is identified by deeply basophilic cytoplasm, an eccentric cart-wheel nucleus and a negative Golgi image
+Plasma cell
 ## id
 CON-FND-B83D7EAAF68D3B
 ## canonical_key
 plasma-cell-identification
 ## definition
-The plasma cell is a large oval cell with deeply basophilic cytoplasm from its rich rough endoplasmic reticulum. Its nucleus is single and eccentric, with heterochromatin alternating with euchromatin in the cart-wheel pattern, and the pale unstained juxtanuclear zone beside it is the negative Golgi image.
+The plasma cell is a large oval cell with **deeply basophilic cytoplasm** from its rich rough endoplasmic reticulum.
+
+Its nucleus is single and eccentric, with heterochromatin and euchromatin in the __cart-wheel pattern__.
+
+The pale unstained juxtanuclear zone beside it is the **negative Golgi image**.
 ## explicit_objective
 Identify a plasma cell on a section and give two visible characters of its nucleus.
 ## pitfalls
@@ -4112,13 +4156,17 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-White and brown fat are told apart by whether the cell holds one fat droplet or many
+White vs brown fat cell
 ## id
 CON-FND-97930723FE0D94
 ## canonical_key
 unilocular-versus-multilocular-adipocyte
 ## definition
-The unilocular (white) fat cell is large and oval and holds a single fat droplet that pushes nucleus and cytoplasm into a thin peripheral rim, the signet-ring appearance. The multilocular (brown) fat cell is smaller and rounded and holds many small droplets, so it has no signet ring and its rounded nucleus stays eccentric rather than flattened; brown fat is also the more vascular tissue.
+The **unilocular (white)** fat cell holds a __single fat droplet__ that pushes nucleus and cytoplasm into a thin peripheral rim — the **signet-ring** appearance.
+
+The **multilocular (brown)** fat cell holds __many small droplets__, so it has no signet ring and its rounded nucleus stays eccentric rather than flattened.
+
+Brown fat is also the **more vascular** tissue.
 ## explicit_objective
 Identify white and brown adipose tissue on section, name the cell type each is built from, give two visible characters, and name the stains that demonstrate the fat.
 ## pitfalls
