@@ -1,6 +1,6 @@
 # Item
 ## label
-Hypertension is defined by the risk it carries, not by a natural threshold
+Hypertension is defined by risk
 ## id
 CON-CVS-7A36E91351075C
 ## canonical_key
@@ -12,7 +12,9 @@ Definition of hypertension | Blood pressure thresholds
 ## arabic_aliases
 عتبة تعريف ارتفاع الضغط
 ## definition
-Cardiovascular risk rises continuously with blood pressure, with no point at which it steps up. The diagnostic threshold is therefore a convention chosen where treatment does more good than harm, which is why it differs between guidelines and moves over time.
+Cardiovascular risk rises **continuously** with blood pressure, with no point at which it steps up.
+
+The diagnostic threshold is therefore a __convention chosen where treatment does more good than harm__ — which is why it differs between guidelines and moves over time.
 ## explicit_objective
 Explain the diagnostic threshold as a treatment convention drawn across a continuous risk relationship.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Primary hypertension has no single cause and is diagnosed by exclusion
+Primary hypertension is multifactorial
 ## id
 CON-CVS-CEBA1FECCF5429
 ## canonical_key
@@ -88,7 +90,9 @@ Essential hypertension | Primary hypertension
 ## arabic_aliases
 ارتفاع الضغط الأساسي
 ## definition
-Primary hypertension results from the interaction of genetic susceptibility with sodium intake, obesity, alcohol, inactivity and stress, acting through renal sodium handling, sympathetic activity, the renin–angiotensin system and vascular stiffness. No single lesion accounts for it.
+Primary hypertension results from the interaction of **genetic susceptibility** with sodium intake, obesity, alcohol, inactivity and stress.
+
+These act through renal sodium handling, sympathetic activity, the renin–angiotensin system and vascular stiffness — __no single lesion accounts for it__.
 ## explicit_objective
 Describe primary hypertension as multifactorial and state that its diagnosis requires exclusion of secondary causes where indicated.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Hypertension is silent, so it is diagnosed by measurement rather than by symptoms
+Hypertension is silent
 ## id
 CON-CVS-0FAC19768C558B
 ## canonical_key
@@ -164,7 +168,11 @@ Asymptomatic hypertension | The silent killer
 ## arabic_aliases
 القاتل الصامت
 ## definition
-Uncomplicated hypertension produces no symptoms at any severity. Headache, epistaxis and dizziness are not reliable features, and their absence carries no reassurance. Detection therefore depends entirely on measuring the pressure in people who feel well.
+Uncomplicated hypertension produces **no symptoms at any severity**.
+
+Headache, epistaxis and dizziness are not reliable features, and their absence carries no reassurance.
+
+Detection therefore depends entirely on __measuring the pressure in people who feel well__.
 ## explicit_objective
 State that hypertension is asymptomatic and derive from that the need for systematic measurement.
 ## pitfalls
@@ -228,7 +236,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A single clinic reading is not a diagnosis
+One clinic reading is not a diagnosis
 ## id
 CON-CVS-3B0DED3DFCD507
 ## canonical_key
@@ -240,7 +248,11 @@ White coat hypertension | Masked hypertension | Ambulatory monitoring
 ## arabic_aliases
 ارتفاع ضغط المعطف الأبيض
 ## definition
-Clinic measurement misclassifies in both directions. White coat hypertension is a raised clinic pressure with normal readings elsewhere; masked hypertension is the reverse, and carries the risk of untreated disease. Out-of-office measurement — ambulatory or home — is therefore part of making the diagnosis rather than an optional extra.
+Clinic measurement misclassifies in both directions.
+
+**White coat** hypertension is a raised clinic pressure with normal readings elsewhere; **masked** hypertension is the reverse, and carries the risk of untreated disease.
+
+__Out-of-office measurement — ambulatory or home — is part of making the diagnosis__, not an optional extra.
 ## explicit_objective
 Explain both directions of clinic misclassification and justify out-of-office confirmation.
 ## pitfalls
@@ -304,7 +316,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Target organ damage is the record of how long the pressure has been raised
+Target organ damage
 ## id
 CON-CVS-7E84CDBE098639
 ## canonical_key
@@ -316,7 +328,9 @@ Hypertensive target organ damage | End-organ damage
 ## arabic_aliases
 تلف الأعضاء المستهدفة
 ## definition
-Sustained pressure damages the heart, brain, kidneys, retina and large arteries. Left ventricular hypertrophy, albuminuria, retinopathy and arterial stiffening are markers of cumulative exposure, so their presence raises risk independently and changes the urgency of treatment.
+Sustained pressure damages the **heart, brain, kidneys, retina and large arteries**.
+
+Left ventricular hypertrophy, albuminuria, retinopathy and arterial stiffening are markers of __cumulative exposure__ — their presence raises risk independently and changes the urgency of treatment.
 ## explicit_objective
 Name the target organs and explain why evidence of damage alters management independently of the current reading.
 ## pitfalls
@@ -380,7 +394,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Certain features should prompt a search for a secondary cause
+When to suspect secondary hypertension
 ## id
 CON-CVS-1190F4A5A06877
 ## canonical_key
@@ -392,7 +406,9 @@ Secondary hypertension red flags | Screening for secondary hypertension
 ## arabic_aliases
 مؤشرات ارتفاع الضغط الثانوي
 ## definition
-Secondary causes account for a minority of hypertension, but they are concentrated in recognisable groups: young age at onset, severe or resistant hypertension, abrupt onset or deterioration in a previously controlled patient, hypokalaemia, and clinical clues pointing to a specific endocrine or renal cause.
+Secondary causes are a minority of hypertension, but concentrated in recognisable groups.
+
+Look for **young onset**, **severe or resistant** hypertension, abrupt onset or deterioration in a previously controlled patient, **hypokalaemia**, and clinical clues pointing to a specific endocrine or renal cause.
 ## explicit_objective
 List the features that justify investigation for a secondary cause and explain why indiscriminate screening is not the alternative.
 ## pitfalls
@@ -456,7 +472,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Renal artery stenosis raises pressure by activating the renin–angiotensin system
+Renovascular hypertension
 ## id
 CON-CVS-455CBC7E16DC27
 ## canonical_key
@@ -468,7 +484,9 @@ Renovascular hypertension | Renal artery stenosis
 ## arabic_aliases
 ارتفاع الضغط الوعائي الكلوي
 ## definition
-A stenosis reduces perfusion pressure at the affected kidney, which senses hypovolaemia and releases renin. The resulting angiotensin II raises systemic pressure by vasoconstriction and by sodium retention, at the cost of hypertension everywhere else in the body.
+A stenosis reduces perfusion pressure at the affected kidney, which senses hypovolaemia and **releases renin**.
+
+The resulting **angiotensin II** raises systemic pressure by vasoconstriction and sodium retention — __at the cost of hypertension everywhere else in the body__.
 ## explicit_objective
 Trace the mechanism from reduced renal perfusion to systemic hypertension.
 ## pitfalls
@@ -532,7 +550,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Primary aldosteronism is commoner than its classical description suggests
+Primary aldosteronism is underdiagnosed
 ## id
 CON-CVS-753EA8558A21C8
 ## canonical_key
@@ -544,7 +562,9 @@ Conn syndrome | Primary hyperaldosteronism
 ## arabic_aliases
 متلازمة كون
 ## definition
-Autonomous aldosterone secretion causes sodium retention and potassium loss. The classical presentation with hypokalaemia is the minority: most patients have normal potassium, so relying on hypokalaemia as the trigger for testing misses the majority of cases.
+Autonomous aldosterone secretion causes **sodium retention and potassium loss**.
+
+The classical presentation with hypokalaemia is the minority: __most patients have normal potassium__, so relying on hypokalaemia to trigger testing misses most cases.
 ## explicit_objective
 State that normokalaemia is usual and explain why hypokalaemia is an insensitive screening trigger.
 ## pitfalls
@@ -608,7 +628,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A hypertensive emergency is defined by organ damage, not by the reading
+Emergency is defined by organ damage
 ## id
 CON-CVS-D839EC01D179EC
 ## canonical_key
@@ -620,7 +640,9 @@ Hypertensive emergency | Hypertensive urgency
 ## arabic_aliases
 الطوارئ الارتفاعية
 ## definition
-A hypertensive emergency is severe hypertension with acute, ongoing target organ damage — encephalopathy, acute heart failure, dissection, acute kidney injury, retinal haemorrhage or eclampsia. Severe hypertension without such damage is not an emergency, however alarming the number.
+A hypertensive emergency is severe hypertension with **acute, ongoing target organ damage** — encephalopathy, acute heart failure, dissection, acute kidney injury, retinal haemorrhage or eclampsia.
+
+__Severe hypertension without such damage is not an emergency__, however alarming the number.
 ## explicit_objective
 Distinguish emergency from severe asymptomatic hypertension by the presence of acute organ damage.
 ## pitfalls
@@ -684,7 +706,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Autoregulation resets in chronic hypertension, so pressure must be lowered gradually
+Lower pressure gradually after chronic hypertension
 ## id
 CON-CVS-1F0F01DEE7A38E
 ## canonical_key
@@ -696,7 +718,9 @@ Cerebral autoregulation curve shift | Controlled blood pressure reduction
 ## arabic_aliases
 انزياح منحنى التنظيم الذاتي
 ## definition
-Cerebral and renal autoregulation maintain constant flow across a range of pressures, and that range shifts upwards in chronic hypertension. A pressure that is normal for the population may therefore lie below the lower limit of autoregulation for that patient, causing ischaemia when it is reached abruptly.
+Cerebral and renal **autoregulation** hold flow constant across a range of pressures, and that range __shifts upwards in chronic hypertension__.
+
+A pressure normal for the population may lie below that patient's lower autoregulatory limit, causing **ischaemia when it is reached abruptly**.
 ## explicit_objective
 Explain why rapid normalisation of pressure in a chronically hypertensive patient can cause cerebral, renal or myocardial ischaemia.
 ## pitfalls
@@ -760,7 +784,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Wall stress rises with radius, so an aneurysm enlarges itself
+Laplace's law and aneurysm expansion
 ## id
 CON-CVS-ACD611E9A47BE5
 ## canonical_key
@@ -772,7 +796,9 @@ Law of Laplace | Aneurysm expansion
 ## arabic_aliases
 قانون لابلاس في التمدد
 ## definition
-Tension in a vessel wall is proportional to the pressure within it and to its radius. As an aneurysm dilates, wall stress rises, which promotes further dilatation. Expansion therefore accelerates, and rupture risk rises steeply rather than linearly with diameter.
+Wall tension is proportional to the **pressure within** a vessel and to its **radius**.
+
+As an aneurysm dilates, wall stress rises, which promotes further dilatation — so __expansion accelerates and rupture risk rises steeply, not linearly, with diameter__.
 ## explicit_objective
 Apply the law of Laplace to explain accelerating aneurysm expansion and non-linear rupture risk.
 ## pitfalls
@@ -848,7 +874,9 @@ Ruptured abdominal aortic aneurysm | Asymptomatic aneurysm
 ## arabic_aliases
 تمزق أم الدم الأبهرية
 ## definition
-Most aortic aneurysms cause no symptoms and are found incidentally or by screening. The first clinical event is frequently rupture, which presents with pain, hypotension and a pulsatile mass and carries very high mortality — much of it before the patient reaches an operating theatre.
+Most aortic aneurysms cause **no symptoms** and are found incidentally or by screening.
+
+The first clinical event is frequently **rupture** — pain, hypotension and a pulsatile mass — and it carries very high mortality, __much of it before the patient reaches theatre__.
 ## explicit_objective
 State the asymptomatic natural history and justify screening and surveillance rather than symptom-based detection.
 ## pitfalls
@@ -912,7 +940,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Dissection is a tear in the intima, not a weakness of the whole wall
+Dissection is an intimal tear
 ## id
 CON-CVS-139A58506B8D41
 ## canonical_key
@@ -924,7 +952,9 @@ Aortic dissection | False lumen
 ## arabic_aliases
 اللمعة الكاذبة
 ## definition
-In aortic dissection blood enters the media through an intimal tear and splits the wall along its length, creating a false lumen. This is a different process from aneurysmal dilatation, and the two require different thinking even though both involve a diseased aorta.
+In aortic dissection blood enters the media through an **intimal tear** and splits the wall along its length, creating a __false lumen__.
+
+This is a different process from aneurysmal dilatation, and the two require different thinking even though both involve a diseased aorta.
 ## explicit_objective
 Distinguish dissection from aneurysm by mechanism and explain how the false lumen produces the clinical features.
 ## pitfalls
@@ -988,7 +1018,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Whether the ascending aorta is involved decides the treatment
+Ascending involvement decides treatment
 ## id
 CON-CVS-1307261022DB81
 ## canonical_key
@@ -1000,7 +1030,11 @@ Stanford type A and type B | Dissection classification
 ## arabic_aliases
 تصنيف ستانفورد
 ## definition
-Dissection involving the ascending aorta threatens the aortic valve, the coronary ostia and the pericardium, and is a surgical emergency. Dissection confined to the descending aorta is managed medically unless complications develop. One anatomical question therefore determines the entire pathway.
+Dissection involving the **ascending aorta** threatens the aortic valve, coronary ostia and pericardium — a __surgical emergency__.
+
+Dissection confined to the **descending aorta** is managed medically unless complications develop.
+
+One anatomical question therefore determines the entire pathway.
 ## explicit_objective
 Explain why involvement of the ascending aorta changes management, from the structures it puts at risk.
 ## pitfalls
@@ -1064,7 +1098,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Claudication is exertional muscle ischaemia, the leg equivalent of angina
+Claudication: angina of the leg
 ## id
 CON-CVS-1C4FEC6C43C975
 ## canonical_key
@@ -1076,7 +1110,9 @@ Intermittent claudication | Peripheral arterial disease
 ## arabic_aliases
 العرج المتقطع
 ## definition
-A fixed arterial stenosis supplies enough blood at rest and not enough during walking, so cramping muscle pain appears at a reproducible distance and resolves within minutes of stopping. The mechanism is identical to stable angina, in a different bed.
+A fixed arterial stenosis supplies enough blood at rest and not enough during walking, so **cramping muscle pain** appears at a __reproducible distance__ and resolves within minutes of stopping.
+
+The mechanism is identical to stable angina, in a different bed.
 ## explicit_objective
 Define claudication by its reproducibility and rapid relief, and relate it to the same supply–demand mismatch as angina.
 ## pitfalls
@@ -1140,7 +1176,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Calcified vessels give a falsely high ankle–brachial index
+Calcified vessels falsely raise the ABPI
 ## id
 CON-CVS-A2F98097AF8EA7
 ## canonical_key
@@ -1152,7 +1188,9 @@ Ankle–brachial pressure index | Incompressible vessels
 ## arabic_aliases
 المشعر الكاحلي العضدي
 ## definition
-The ankle–brachial index compares ankle and brachial systolic pressures and falls with arterial disease. Where the vessel wall is calcified and incompressible — characteristically in diabetes and chronic kidney disease — the cuff cannot occlude the artery, so the measured pressure is spuriously high and may mask severe disease.
+The **ankle–brachial index** compares ankle and brachial systolic pressures and falls with arterial disease.
+
+Where the wall is **calcified and incompressible** — characteristically in diabetes and chronic kidney disease — the cuff cannot occlude the artery, so the reading is __spuriously high and may mask severe disease__.
 ## explicit_objective
 Interpret a normal or high ankle–brachial index in a patient with diabetes as potentially unreliable, and name the alternative assessments.
 ## pitfalls
@@ -1216,7 +1254,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Venous thrombosis follows Virchow triad
+Virchow's triad
 ## id
 CON-CVS-1DBCD5D81337B5
 ## canonical_key
@@ -1228,7 +1266,9 @@ Virchow triad | Deep vein thrombosis pathogenesis
 ## arabic_aliases
 ثالوث فيرشو
 ## definition
-Thrombosis requires some combination of stasis, endothelial injury and hypercoagulability. Every risk factor for deep vein thrombosis — immobility, surgery, malignancy, pregnancy, oestrogen, inherited thrombophilia — acts through one or more of these three.
+Thrombosis requires some combination of **stasis, endothelial injury and hypercoagulability**.
+
+Every risk factor for deep vein thrombosis — immobility, surgery, malignancy, pregnancy, oestrogen, inherited thrombophilia — __acts through one or more of these three__.
 ## explicit_objective
 Assign any risk factor for venous thrombosis to one or more elements of the triad.
 ## pitfalls
@@ -1292,7 +1332,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A D-dimer is useful for excluding thrombosis, not for confirming it
+D-dimer rules out, not in
 ## id
 CON-CVS-7B633BCF024C73
 ## canonical_key
@@ -1304,7 +1344,11 @@ D-dimer | Pre-test probability
 ## arabic_aliases
 اختبار الدايمر-د
 ## definition
-D-dimer is sensitive and non-specific. A negative result in a patient assessed as low probability makes venous thrombosis very unlikely and safely ends the pathway; a positive result occurs in infection, malignancy, pregnancy, trauma and the postoperative state, and requires imaging rather than treatment.
+D-dimer is **sensitive and non-specific**.
+
+A negative result in a patient assessed as low probability makes venous thrombosis very unlikely and __safely ends the pathway__.
+
+A positive result occurs in infection, malignancy, pregnancy, trauma and the postoperative state — it requires imaging, not treatment.
 ## explicit_objective
 Use D-dimer only after formal pre-test probability assessment, and state why a positive result is uninformative alone.
 ## pitfalls
@@ -1368,7 +1412,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Chronic venous insufficiency is ambulatory venous hypertension from failed valves
+Ambulatory venous hypertension
 ## id
 CON-CVS-C0C6010B529BF8
 ## canonical_key
@@ -1380,7 +1424,9 @@ Chronic venous insufficiency | Venous hypertension
 ## arabic_aliases
 ارتفاع الضغط الوريدي الحركي
 ## definition
-The calf muscle pump normally lowers venous pressure during walking, provided the valves direct flow upwards. When valves fail — after thrombosis or through primary incompetence — pressure remains high during ambulation, and that sustained pressure produces the oedema, pigmentation, lipodermatosclerosis and ulceration of chronic venous disease.
+The calf muscle pump normally lowers venous pressure during walking, provided the **valves direct flow upwards**.
+
+When valves fail — after thrombosis or through primary incompetence — __pressure stays high during ambulation__, producing the oedema, pigmentation, lipodermatosclerosis and ulceration of chronic venous disease.
 ## explicit_objective
 Explain the skin changes and ulceration of venous disease from persistently raised venous pressure during walking.
 ## pitfalls
