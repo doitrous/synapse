@@ -12,7 +12,7 @@
 	  Build settings below are substituted at build time. The hosts carry no
 	  scheme because xcconfig treats `//` as a comment. See Config/Base.xcconfig.
 	-->
-	<key>SynapseAPIHost</key>
+	<key>NishanyAPIHost</key>
 	<string>$(API_HOST)</string>
 	<key>SupabaseHost</key>
 	<string>$(SUPABASE_HOST)</string>
@@ -71,7 +71,7 @@
 
 	<!--
 	  Lets the app start a Focus Timer Live Activity (lock screen + Dynamic
-	  Island). The Activity's UI is drawn by the SynapseWidgets extension; this
+	  Island). The Activity's UI is drawn by the NishanyWidgets extension; this
 	  key is what allows the app process to request one.
 	-->
 	<key>NSSupportsLiveActivities</key>

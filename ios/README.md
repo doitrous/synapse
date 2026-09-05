@@ -1,4 +1,4 @@
-# Synapse for iOS
+# Nishany for iOS
 
 The native student app. Admins keep using the web console — this covers the
 student portal only.
@@ -22,10 +22,10 @@ Two things worth knowing before editing that file:
 - **Use the publishable ("anon") key, never the service role key.** The service
   role key bypasses every row-level security policy and must not ship in an app.
 
-Then open `ios/Synapse.xcodeproj` and run, or from the command line:
+Then open `ios/Nishany.xcodeproj` and run, or from the command line:
 
 ```bash
-xcodebuild build -project ios/Synapse.xcodeproj -scheme Synapse -destination 'platform=iOS Simulator,name=iPhone 17'
+xcodebuild build -project ios/Nishany.xcodeproj -scheme Nishany -destination 'platform=iOS Simulator,name=iPhone 17'
 ```
 
 **Do not pass `CODE_SIGNING_ALLOWED=NO`, even for the simulator.** An unsigned
@@ -38,7 +38,7 @@ about the Keychain: sign-in appears to succeed, the token then reads back as
 ## How it fits the existing stack
 
 The app is a client of the same Express API in `server/`. It adds no
-Synapse-specific backend of its own.
+Nishany-specific backend of its own.
 
 - **Auth** — `supabase-swift` signs in and holds the session; the access token
   goes to `/api` as a bearer, which `server/src/auth.js` verifies against the
@@ -57,13 +57,13 @@ Synapse-specific backend of its own.
 | Path | What lives there |
 |---|---|
 | `Config/` | Build settings, `Info.plist`, and the gitignored secrets file. Not part of the source group. |
-| `Synapse/Core/Config` | `AppConfig` — reads the build's configuration, reports what's missing. |
-| `Synapse/Core/API` | `SynapseAPI` — the thin API client. Holds no cache and no state. |
-| `Synapse/Core/Auth` | `AuthModel` — sign in/up/reset, and confirming the session against the API. |
-| `Synapse/Design` | `Theme` — the palette and type scale, ported from `src/index.css`. |
-| `Synapse/Features` | Screens. |
+| `Nishany/Core/Config` | `AppConfig` — reads the build's configuration, reports what's missing. |
+| `Nishany/Core/API` | `NishanyAPI` — the thin API client. Holds no cache and no state. |
+| `Nishany/Core/Auth` | `AuthModel` — sign in/up/reset, and confirming the session against the API. |
+| `Nishany/Design` | `Theme` — the palette and type scale, ported from `src/index.css`. |
+| `Nishany/Features` | Screens. |
 
-`Synapse/` is a synchronized file-system group, so files added on disk are
+`Nishany/` is a synchronized file-system group, so files added on disk are
 picked up automatically — the `.xcodeproj` does not need editing to add a file.
 
 ## State of the build
