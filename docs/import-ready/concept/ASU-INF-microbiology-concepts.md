@@ -16161,7 +16161,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Envelope glycoproteins, the capsid, and specific host-cell receptors contribute to viral attachment, but lysozymes do not
+What contributes to viral attachment
 
 ## id
 CON-INF-62046515A155BD
@@ -16170,7 +16170,9 @@ CON-INF-62046515A155BD
 virus.entry.attachment-factors
 
 ## definition
-Viral attachment to the host cell is contributed to by envelope glycoproteins, the capsid, and specific host-cell receptors; lysozymes -- a host antimicrobial enzyme that degrades bacterial peptidoglycan -- play no role in viral attachment.
+Viral attachment to the host cell is contributed to by **envelope glycoproteins**, the **capsid**, and **specific host-cell receptors**.
+
+**Lysozymes** — a host antimicrobial enzyme that degrades bacterial peptidoglycan — __play no role in viral attachment__.
 
 ## explicit_objective
 List the factors that contribute to viral attachment (envelope glycoproteins, capsid, specific host receptors) and recognize that lysozymes do not.
@@ -16329,7 +16331,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-The viral replication cycle proceeds: attachment, penetration, uncoating, replication, assembly, release
+The viral replication cycle in order
 
 ## id
 CON-INF-2C32D6BA60368C
@@ -16338,7 +16340,9 @@ CON-INF-2C32D6BA60368C
 virus.replication-cycle.sequence
 
 ## definition
-The correct sequence of the virus replication cycle is: attachment (to the host cell), penetration (entry into the cell), uncoating (release of the viral genome from the capsid), replication (of the viral genome and synthesis of viral components), assembly (of new virions), and release (from the host cell).
+The virus replication cycle proceeds in order: **attachment** (to the host cell), **penetration** (entry), **uncoating** (release of the genome from the capsid), **replication** (of the genome and viral components), **assembly** (of new virions) and **release**.
+
+__Attachment, then penetration, uncoating, replication, assembly and release.__
 
 ## explicit_objective
 State the correct order of the viral replication cycle: attachment, penetration, uncoating, replication, assembly, release.
@@ -16497,7 +16501,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-A negative-sense ssRNA virus genome must be transcribed by RNA polymerase and cannot itself act as mRNA
+Negative-sense ssRNA needs its own polymerase
 
 ## id
 CON-INF-20755F48E062B0
@@ -16506,7 +16510,9 @@ CON-INF-20755F48E062B0
 virus.genome.negative-sense-ssrna-properties
 
 ## definition
-A negative-sense single-stranded RNA (-ssRNA) virus carries a genome that must be transcribed by an RNA-dependent RNA polymerase (carried in the virion) before it can be translated, because the genome strand itself is single-stranded and cannot directly act as mRNA and is NOT itself infectious on its own -- the infectious unit requires the accompanying polymerase.
+A **negative-sense single-stranded RNA (-ssRNA)** virus carries a genome that __must be transcribed by an RNA-dependent RNA polymerase__ (carried in the virion) before it can be translated.
+
+The genome strand cannot directly act as mRNA and is __not infectious on its own__ — the infectious unit requires the accompanying polymerase.
 
 ## explicit_objective
 State that a -ve sense ssRNA genome must be transcribed by RNA polymerase before translation, cannot itself act as mRNA, and is not infectious as a naked strand on its own.
@@ -16665,7 +16671,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Oncogenic viruses transform cells by inserting a viral oncogene, mutating a regulatory gene, or inactivating a suppressor gene -- not by a viral-coded toxin
+How oncogenic viruses transform cells
 
 ## id
 CON-INF-2AFE43527FBBCC
@@ -16674,7 +16680,9 @@ CON-INF-2AFE43527FBBCC
 virus.oncogenesis.transformation-mechanisms
 
 ## definition
-Mechanisms of cell transformation by oncogenic viruses include insertion of a viral oncogene, mutation of a host regulatory gene, and production of a viral protein that inactivates a cell suppressor gene; production of a viral-coded toxin is NOT a recognized mechanism of oncogenic transformation.
+Oncogenic viruses transform cells by **inserting a viral oncogene**, **mutating a host regulatory gene**, or producing a viral protein that **inactivates a cell suppressor gene**.
+
+Production of a **viral-coded toxin** is __not__ a recognized mechanism of oncogenic transformation.
 
 ## explicit_objective
 List the mechanisms of oncogenic viral cell transformation (oncogene insertion, regulatory gene mutation, suppressor gene inactivation) and recognize that a viral-coded toxin is not one of them.
@@ -16833,7 +16841,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Cell tropism is determined by specific virus receptors, proteolytic enzyme availability, and favorable temperature/pH, but not by absence of immunity
+What determines viral cell tropism
 
 ## id
 CON-INF-CE64E7CD7B4393
@@ -16842,7 +16850,9 @@ CON-INF-CE64E7CD7B4393
 virus.cell-tropism.determinants
 
 ## definition
-The mechanism of viral "cell tropism" -- why a virus infects some cell types/tissues and not others -- is determined by presence of a specific virus receptor on the cell, availability of a proteolytic enzyme the virus requires, and favorable temperature and pH conditions in that cell/tissue; absence of immunity against the virus in those sites is NOT a mechanism of cell tropism, since tropism is a property of the virus-cell interaction itself, not of local immune status.
+**Cell tropism** — why a virus infects some cell types and not others — is determined by a **specific virus receptor** on the cell, availability of a required **proteolytic enzyme**, and favorable **temperature and pH**.
+
+__Absence of local immunity is not a mechanism of tropism__, which is a property of the virus-cell interaction itself, not of immune status.
 
 ## explicit_objective
 List the true determinants of viral cell tropism (specific receptor, proteolytic enzyme, favorable temperature/pH) and recognize that absence of local immunity is not one of them.
@@ -17001,7 +17011,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Integrase is the viral component crucial for integration of retroviral DNA into the host genome
+Integrase integrates retroviral DNA into the host genome
 
 ## id
 CON-INF-A8824D935972A1
@@ -17010,7 +17020,9 @@ CON-INF-A8824D935972A1
 retrovirus.integrase.genome-integration
 
 ## definition
-Among retroviral components, integrase is specifically the enzyme crucial for integrating the reverse-transcribed retroviral DNA into the host cell genome -- distinct from reverse transcriptase (which synthesizes the DNA copy from the RNA genome), protease (which cleaves viral polyproteins), or RNA polymerase.
+Among retroviral components, **integrase** is the enzyme that __integrates the reverse-transcribed retroviral DNA into the host cell genome__.
+
+It is distinct from **reverse transcriptase** (synthesizes the DNA copy from the RNA genome), **protease** (cleaves viral polyproteins), and RNA polymerase.
 
 ## explicit_objective
 Identify integrase as the retroviral enzyme responsible for integrating retroviral DNA into the host genome, distinct from reverse transcriptase and protease.
@@ -17169,7 +17181,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Reporting a sharps injury includes PEP administration, exposure assessment and HCP follow-up, but not preventing the HCP from working
+Reporting a sharps injury: what it covers
 
 ## id
 CON-INF-E8E1DEE578851C
@@ -17178,7 +17190,9 @@ CON-INF-E8E1DEE578851C
 infection-control.sharps-injury.reporting-and-pep
 
 ## definition
-Indications for reporting a sharps injury incident in healthcare include administration of post-exposure prophylaxis (PEP), allowing follow-up for the exposed healthcare provider (HCP), and assessment of the type and severity of exposure; preventing the exposed HCP from working is NOT among these indications -- the exposed worker is not automatically removed from duty simply because a sharps injury occurred and is being reported/managed.
+Reporting a sharps injury supports administration of **post-exposure prophylaxis (PEP)**, **follow-up** for the exposed healthcare provider, and **assessment of the exposure's type and severity**.
+
+__Preventing the exposed worker from working is not among these indications__ — they are not automatically removed from duty because a sharps injury is being reported and managed.
 
 ## explicit_objective
 List the true indications for reporting a sharps injury (PEP administration, HCP follow-up, exposure assessment) and recognize that preventing the exposed HCP from working is not one of them.
@@ -17337,7 +17351,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Abdominal examination has the lowest risk of transmitting infection during healthcare delivery among common procedures
+Abdominal exam carries the lowest infection risk
 
 ## id
 CON-INF-1667BEB0F19C54
@@ -17346,7 +17360,9 @@ CON-INF-1667BEB0F19C54
 infection-control.procedure-risk-stratification
 
 ## definition
-Among common healthcare procedures, abdominal examination carries the lowest risk of acquiring infection during healthcare delivery, in contrast to invasive procedures such as intravenous injection, placement of urinary catheters, and surgical procedures, all of which breach the skin/mucosal barrier and carry substantially higher infection risk.
+Among common healthcare procedures, **abdominal examination** carries the __lowest risk__ of transmitting infection during care.
+
+Invasive procedures — intravenous injection, urinary catheter placement and surgery — breach the skin or mucosal barrier and carry substantially higher risk.
 
 ## explicit_objective
 Identify abdominal examination as the lowest-infection-risk procedure among common healthcare activities, contrasted with invasive procedures.
@@ -17505,7 +17521,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Protective environment precautions, using positive-pressure ventilation, are recommended for allogeneic HSCT and other highly immunocompromised patients
+Protective environment: positive pressure for the immunocompromised
 
 ## id
 CON-INF-4AA7050B1E74CA
@@ -17514,7 +17530,9 @@ CON-INF-4AA7050B1E74CA
 infection-control.protective-environment-precautions
 
 ## definition
-Protective environment precautions -- a room with POSITIVE-pressure ventilation, designed to protect a highly vulnerable patient from organisms in the surrounding air -- are recommended for allogeneic hematopoietic stem cell transplant (HSCT) patients and, more broadly, for other highly immunocompromised patients, distinguishing this precaution category from contact, droplet, and airborne precautions (which use negative pressure and protect others FROM the patient, the opposite direction of protection).
+**Protective environment precautions** use a room with __positive-pressure ventilation__ to protect a highly vulnerable patient from airborne organisms.
+
+They are recommended for **allogeneic HSCT** patients and other highly immunocompromised patients. This is the opposite direction of protection from contact, droplet and airborne precautions, which use negative pressure to protect others from the patient.
 
 ## explicit_objective
 State that protective environment precautions (positive-pressure rooms) are used for allogeneic HSCT and other highly immunocompromised patients, and recognize the opposite direction of protection compared to airborne/droplet/contact precautions.
@@ -17673,7 +17691,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Heavy duty gloves should be worn for cleaning contaminated instruments, handling waste, and cleaning contaminated surfaces
+Heavy-duty gloves for cleaning and waste handling
 
 ## id
 CON-INF-F00BFB8CD11CD5
@@ -17682,7 +17700,9 @@ CON-INF-F00BFB8CD11CD5
 infection-control.ppe.glove-selection-by-task
 
 ## definition
-For tasks such as cleaning contaminated instruments, handling waste, and cleaning contaminated surfaces, heavy-duty gloves are the appropriate PPE choice -- offering greater puncture/chemical resistance than surgical gloves, clean latex gloves, or transparent gloves, which are used for other clinical tasks.
+For tasks such as cleaning contaminated instruments, handling waste, and cleaning contaminated surfaces, **heavy-duty gloves** are the appropriate PPE.
+
+They offer greater __puncture and chemical resistance__ than surgical, clean latex, or transparent gloves, which are used for other clinical tasks.
 
 ## explicit_objective
 State that heavy-duty gloves are the appropriate PPE for cleaning contaminated instruments, waste and surfaces.
@@ -17841,7 +17861,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Hand hygiene, patient skin antisepsis, no-touch technique and sterile gloves are aseptic technique components; a high-efficiency mask is not
+Components of aseptic technique
 
 ## id
 CON-INF-5315A4F1C792BC
@@ -17850,7 +17870,9 @@ CON-INF-5315A4F1C792BC
 infection-control.aseptic-technique.components
 
 ## definition
-Aseptic technique includes hand hygiene with antiseptic soap, patient skin antisepsis, no-touch technique, and wearing sterile gloves; wearing a high-efficiency (N95) mask is NOT a component of aseptic technique -- that mask type belongs instead to airborne-precaution PPE for protecting the wearer from inhaling infectious airborne particles, a different infection-control category from maintaining a sterile field.
+**Aseptic technique** includes **hand hygiene** with antiseptic soap, **patient skin antisepsis**, **no-touch technique**, and **sterile gloves**.
+
+A **high-efficiency (N95) mask** is __not__ a component of aseptic technique — it belongs to airborne-precaution PPE for protecting the wearer from inhaling infectious particles, a different infection-control category.
 
 ## explicit_objective
 List the components of aseptic technique (hand hygiene, skin antisepsis, no-touch technique, sterile gloves) and recognize that a high-efficiency mask belongs to airborne precautions, not to aseptic technique.
@@ -18009,7 +18031,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Endoscopes are disinfected after cleaning, unlike items belonging to sterile-tissue-contact categories
+Endoscopes are disinfected, not sterilized
 
 ## id
 CON-INF-1013FCDCBC8C6E
@@ -18018,7 +18040,9 @@ CON-INF-1013FCDCBC8C6E
 infection-control.reprocessing.endoscope-risk-category
 
 ## definition
-Endoscopes are correctly described as being disinfected after cleaning (high-level disinfection), reflecting their status as semi-critical items that contact mucous membranes but not normally sterile tissue -- they do NOT belong to the same reprocessing category as vascular catheters or intrauterine devices (critical items requiring sterilization, since those contact sterile tissue or the bloodstream directly).
+**Endoscopes** are __disinfected after cleaning__ (high-level disinfection), reflecting their status as **semi-critical items** that contact mucous membranes but not normally sterile tissue.
+
+They do not fall in the same category as **vascular catheters or intrauterine devices** — critical items requiring sterilization because they contact sterile tissue or the bloodstream directly.
 
 ## explicit_objective
 State that endoscopes require high-level disinfection after cleaning (semi-critical items), distinguishing their reprocessing category from critical items like vascular catheters or intrauterine devices, which require sterilization.
@@ -18177,7 +18201,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Airborne precautions require HCW vaccination (where available), an N95 mask, single-room isolation, and NEGATIVE (not positive) air pressure
+Airborne precautions require negative pressure
 
 ## id
 CON-INF-92B5DD983CF7D8
@@ -18186,7 +18210,9 @@ CON-INF-92B5DD983CF7D8
 infection-control.airborne-precautions.requirements
 
 ## definition
-Airborne precautions include, where applicable, vaccination for the healthcare worker (HCW), a high-efficiency (N95) mask for the HCW, and isolation of the patient in a single room; they specifically require NEGATIVE-pressure ventilation, not positive-pressure -- positive-pressure ventilation belongs instead to protective environment precautions -- and a surgical mask for the patient is generally not the standard requirement (the HCW's N95 mask, and single-room isolation, are the key elements, alongside a source-control mask on the patient if needed during transport).
+**Airborne precautions** include (where applicable) **HCW vaccination**, a **high-efficiency (N95) mask** for the HCW, and **single-room isolation** of the patient.
+
+They require __negative-pressure ventilation__, not positive pressure — positive pressure belongs to protective environment precautions. A surgical mask on the patient is not the standard requirement, though a source-control mask may be used during transport.
 
 ## explicit_objective
 List the true components of airborne precautions (HCW vaccination where available, N95 mask, single-room isolation) and identify that positive-pressure ventilation is NOT included -- airborne precautions use negative pressure, the opposite of protective environment precautions.
@@ -18345,7 +18371,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Airborne precautions are used for lung tuberculosis and for measles
+Airborne precautions: tuberculosis and measles
 
 ## id
 CON-INF-DB9EB37C89C863
@@ -18354,7 +18380,9 @@ CON-INF-DB9EB37C89C863
 infection-control.isolation-type-by-disease.airborne-diseases
 
 ## definition
-Among the isolation precaution categories, airborne precautions are the type applied to a patient with pulmonary (lung) tuberculosis and, separately, to measles -- both diseases spread by small, long-suspended airborne particles -- distinguishing them from diseases managed by droplet precautions, contact precautions, or standard precautions alone.
+**Airborne precautions** are applied to **pulmonary (lung) tuberculosis** and to **measles** — both spread by small, long-suspended airborne particles.
+
+This distinguishes them from diseases managed by droplet, contact, or standard precautions alone.
 
 ## explicit_objective
 Identify pulmonary tuberculosis and measles as diseases requiring airborne precautions.
@@ -18513,7 +18541,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-An unvaccinated HCW exposed to HBV should receive 1 dose of vaccine plus 1 dose of HBIg
+HBV exposure in an unvaccinated HCW: vaccine plus HBIg
 
 ## id
 CON-INF-27F27DE6B69D41
@@ -18522,7 +18550,9 @@ CON-INF-27F27DE6B69D41
 infection-control.hepatitis-b.post-exposure-prophylaxis
 
 ## definition
-The appropriate post-exposure prophylaxis for an unvaccinated healthcare worker exposed to hepatitis B virus (HBV) is to initiate 1 dose of hepatitis B vaccine PLUS 1 dose of hepatitis B immune globulin (HBIg) -- combining active immunization (vaccine) with immediate passive protection (HBIg) -- rather than either component alone or antiviral chemotherapy.
+The post-exposure prophylaxis for an **unvaccinated** healthcare worker exposed to **hepatitis B virus** is **1 dose of hepatitis B vaccine plus 1 dose of hepatitis B immune globulin (HBIg)**.
+
+This __combines active immunization (vaccine) with immediate passive protection (HBIg)__ — not either component alone, nor antiviral chemotherapy.
 
 ## explicit_objective
 State that post-exposure prophylaxis for an unvaccinated HCW exposed to HBV combines 1 dose of vaccine with 1 dose of HBIg.
@@ -18681,7 +18711,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Proper disposal of used needles means placing the needle and syringe in a puncture-resistant container
+Dispose of needles in a puncture-resistant container
 
 ## id
 CON-INF-D66B8139A1AA02
@@ -18690,7 +18720,9 @@ CON-INF-D66B8139A1AA02
 infection-control.sharps-disposal.safe-practice
 
 ## definition
-Proper disposal of used needles requires placing the needle and its attached syringe directly into a puncture-resistant sharps container -- NOT breaking or bending the needle, NOT recapping it, and NOT separating the needle from the syringe first, all of which increase the risk of an accidental needlestick injury.
+Proper disposal of used needles means placing the needle and its attached syringe __directly into a puncture-resistant sharps container__.
+
+Do not break or bend the needle, do not recap it, and do not separate the needle from the syringe first — all of these increase the risk of a needlestick injury.
 
 ## explicit_objective
 State that proper needle disposal means placing the needle and syringe intact into a puncture-resistant container, and recognize that breaking, recapping, or separating the needle are unsafe practices.
@@ -18849,7 +18881,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Clean latex gloves are the appropriate PPE for starting IV lines or phlebotomy
+Clean latex gloves for IV lines and phlebotomy
 
 ## id
 CON-INF-606F4E2565AC67
@@ -18858,7 +18890,9 @@ CON-INF-606F4E2565AC67
 infection-control.ppe.selection-by-procedure
 
 ## definition
-For routine procedures involving expected contact with blood, such as starting IV lines or phlebotomy, clean (non-sterile) latex gloves are the appropriate PPE -- a lower-barrier option than sterile gloves (reserved for procedures requiring a sterile field) but still providing blood/body-fluid barrier protection for the healthcare worker.
+For routine procedures with expected blood contact, such as starting IV lines or phlebotomy, **clean (non-sterile) latex gloves** are the appropriate PPE.
+
+They are a __lower-barrier option than sterile gloves__ (reserved for procedures needing a sterile field) but still provide blood/body-fluid barrier protection for the worker.
 
 ## explicit_objective
 State that clean (non-sterile) latex gloves are the appropriate PPE for IV line placement and phlebotomy.
@@ -19017,7 +19051,7 @@ resourceOccurrenceIds: No pipeline occurrence record was generated for this hand
 ---
 # Item
 ## label
-Hospital-acquired infection is one acquired in a healthcare setting more than 48 hours post-admission, not incubating before admission
+Defining hospital-acquired (nosocomial) infection
 
 ## id
 CON-INF-B18A3C1EEE39BE
@@ -19026,7 +19060,9 @@ CON-INF-B18A3C1EEE39BE
 infection-control.definitions.hospital-acquired-infection
 
 ## definition
-The term "hospital-acquired infection" (nosocomial infection) is best defined as an infection acquired in a healthcare setting more than 48 hours after admission, and which was not already incubating (present but not yet symptomatic) at the time of admission -- distinguishing it from a community-acquired infection or an infection that was already incubating before the patient arrived at the healthcare facility.
+A **hospital-acquired (nosocomial) infection** is one __acquired in a healthcare setting more than 48 hours after admission__, and not already incubating at the time of admission.
+
+This distinguishes it from a community-acquired infection or one already incubating before the patient arrived.
 
 ## explicit_objective
 State the definition of hospital-acquired infection: acquired in a healthcare setting more than 48 hours post-admission, not incubating before admission.
