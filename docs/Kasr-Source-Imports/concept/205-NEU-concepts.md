@@ -12874,3 +12874,2203 @@ authored_needs_independent_evidence
 keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), page 15 rendered at 200dpi and read by eye. sourceCandidateIds: ran find-existing.mjs -- no hit; dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 15618 existing IDs and the module concept file; new concept. Sixth cluster tail for 205 NEU (2024-eom-physiology-b Q109-111: eye histology -- cornea, corneal epithelium, iris).
 
 ---
+
+# Item
+## id
+CON-NEU-72DA6765A1BADB
+## label
+The inferior sagittal sinus runs in the inferior (free) border of the falx cerebri
+## canonical_key
+dural-venous-sinuses.inferior-sagittal.inferior-border-falx-cerebri
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The falx cerebri carries two unpaired dural venous sinuses: the SUPERIOR sagittal sinus in its attached (upper, convex) border, and the INFERIOR sagittal sinus in its free (lower, concave) border. The inferior sagittal sinus runs backward in this free margin above the corpus callosum and ends by joining the great cerebral vein to form the straight sinus. The straight sinus itself lies at the junction of the falx cerebri with the tentorium cerebelli, not in the free border; the occipital and transverse sinuses lie in the tentorium/attached margins.
+## explicit_objective
+Locate the inferior sagittal sinus in the free (inferior) border of the falx cerebri.
+## pitfalls
+Confusing the free-border inferior sagittal sinus with the straight sinus (at the falx-tentorium junction) or the superior sagittal sinus (attached upper border).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Dural venous sinuses
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Falx Cerebri
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which dural venous sinus is located at the inferior (free) border of the falx cerebri? a. Inferior sagittal b. Straight c. Occipital d. Transverse" ANSWER: a (205 NEU EOM 2023, Q1)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-819FD6F9B68335
+## label
+The ascending palatine artery is the facial artery's branch in the neck
+## canonical_key
+facial-artery.cervical-branch.ascending-palatine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In its cervical (neck) course, before it hooks over the mandible onto the face, the facial artery gives off the ASCENDING PALATINE artery (to the soft palate and tonsil), the TONSILLAR artery, glandular branches to the submandibular gland, and the submental artery. The ascending pharyngeal artery arises directly from the external carotid, the posterior auricular arises from the external carotid above the facial, and the occipital also arises from the external carotid — none of these is a facial-artery branch.
+## explicit_objective
+Identify the ascending palatine artery as a cervical branch of the facial artery.
+## pitfalls
+Assigning the ascending pharyngeal, posterior auricular or occipital arteries to the facial artery; all three are direct branches of the external carotid.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Arteries of the neck
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Vasculature of the Head and Neck > Facial Artery
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which branch arises from the facial artery in the neck? a. Posterior auricular b. Ascending palatine c. Ascending pharyngeal d. Occipital" ANSWER: b (205 NEU EOM 2023, Q2)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-A80AE48BB694BB
+## label
+Taste from the anterior two-thirds of the tongue travels in the facial nerve (via chorda tympani)
+## canonical_key
+taste.anterior-two-thirds-tongue.facial-nerve-chorda-tympani
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Special (gustatory) sensation from the anterior two-thirds of the tongue is carried by the CHORDA TYMPANI, a branch of the FACIAL nerve (CN VII); the chorda tympani joins the lingual nerve to reach the tongue. General sensation from the same area travels in the lingual nerve (trigeminal, V3). Taste (and general sensation) from the posterior one-third travels in the glossopharyngeal nerve (CN IX).
+## explicit_objective
+Attribute taste from the anterior two-thirds of the tongue to the facial nerve via the chorda tympani.
+## pitfalls
+Confusing taste (facial/chorda tympani) with general sensation (lingual/trigeminal) of the anterior tongue, or attributing anterior-tongue taste to the glossopharyngeal nerve (that is the posterior third).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cranial nerve function
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Facial Nerve (Taste)
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which cranial nerve is responsible for taste sensation from the anterior two-thirds of the tongue? a. 5th (trigeminal) b. 6th (abducent) c. 7th (facial) d. 9th (glossopharyngeal)" ANSWER: c (205 NEU EOM 2023, Q3)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-3FE9AD01EC0927
+## label
+The maxillary nerve lies in the lateral wall of the cavernous sinus
+## canonical_key
+cavernous-sinus.lateral-wall.maxillary-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The LATERAL WALL of the cavernous sinus contains, from above downward, the oculomotor (III), trochlear (IV), ophthalmic (V1) and maxillary (V2) nerves. The abducent nerve (VI) and the internal carotid artery run THROUGH the sinus itself, against the medial wall, not in the lateral wall. The glossopharyngeal and facial nerves are unrelated to the cavernous sinus.
+## explicit_objective
+List the maxillary nerve among the contents of the lateral wall of the cavernous sinus.
+## pitfalls
+Placing the abducent nerve in the lateral wall (it runs inside the sinus lumen) or including cranial nerves IX/VII, which have no relation to the cavernous sinus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cavernous sinus
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Cavernous Sinus
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following nerves is present in the lateral wall of the cavernous sinus? a. Mandibular b. Glossopharyngeal c. Facial d. Maxillary" ANSWER: d (205 NEU EOM 2023, Q5)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C8F800FA2013BA
+## label
+The posterior fibres of temporalis retract the protruded mandible
+## canonical_key
+mandible.retraction.posterior-fibres-temporalis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+After the mandible is protruded (chiefly by the lateral pterygoids), it is drawn back into its normal position by RETRACTION, produced mainly by the posterior (near-horizontal) fibres of the TEMPORALIS muscle, assisted by the digastric and geniohyoid. The lateral pterygoid protrudes and depresses (opens); the masseter and the temporalis anterior fibres elevate; the stylohyoid does not act on the mandible.
+## explicit_objective
+Attribute mandibular retraction to the posterior fibres of temporalis.
+## pitfalls
+Choosing lateral pterygoid (which protrudes, the opposite action) or masseter (an elevator) for retraction of the mandible.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Muscles of mastication
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Muscles of Mastication > Temporalis
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which muscle returns the mandibular condyle to its normal position after the mandible has been protracted? a. Lateral pterygoid b. Masseter c. Stylohyoid d. Temporalis" ANSWER: d (205 NEU EOM 2023, Q6)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-16C39641693E6C
+## label
+The submandibular ganglion is suspended from the lingual nerve, not the maxillary nerve
+## canonical_key
+submandibular-ganglion.suspended-from.lingual-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The submandibular parasympathetic ganglion hangs by two roots from the LINGUAL nerve (a branch of the mandibular division, V3), which delivers its preganglionic secretomotor fibres (originally from the facial nerve via the chorda tympani). The maxillary nerve (V2) does supply the upper teeth and carries sensation for both the hard and soft palate (via the greater/lesser palatine and nasopalatine nerves), but it is NOT associated with the submandibular ganglion — the statement pairing them is the false one.
+## explicit_objective
+State that the submandibular ganglion is suspended from the lingual nerve, correcting the claim that it hangs from the maxillary nerve.
+## pitfalls
+Believing the submandibular ganglion relates to the maxillary nerve; it hangs from the lingual nerve (V3). The pterygopalatine ganglion is the one related to the maxillary nerve.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Trigeminal nerve branches
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Maxillary and Mandibular Nerves
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which statement about the maxillary nerve is INCORRECT? a. The submandibular ganglion is suspended from it b. It supplies the upper teeth c. It carries sensory fibres for the hard palate d. It carries sensory fibres for the soft palate" ANSWER: a (205 NEU EOM 2023, Q7)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-BF2A7BAF72EF24
+## label
+Stylopharyngeus is supplied by the glossopharyngeal nerve, not the pharyngeal plexus
+## canonical_key
+stylopharyngeus.motor-supply.glossopharyngeal-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+All muscles of the pharynx are supplied by the PHARYNGEAL PLEXUS (motor fibres from the cranial accessory nerve carried in the vagus) EXCEPT the STYLOPHARYNGEUS, which is supplied directly by the GLOSSOPHARYNGEAL nerve (CN IX). Thus the superior and inferior constrictors and palatopharyngeus follow the pharyngeal-plexus rule, while stylopharyngeus is the single exception.
+## explicit_objective
+Name stylopharyngeus as the only pharyngeal muscle not supplied by the pharyngeal plexus (it is glossopharyngeal).
+## pitfalls
+Assuming every pharyngeal muscle is pharyngeal-plexus supplied; stylopharyngeus (CN IX) is the exception, and tensor veli palatini (V3) is the palatal exception.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Pharyngeal muscles
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Pharynx and Palate > Pharyngeal Muscles
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following muscles is NOT supplied by the pharyngeal plexus: a. Superior constrictor b. Inferior constrictor c. Stylopharyngeus d. Palatopharyngeus" ANSWER: c (205 NEU EOM 2023, Q8)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C9C329C132A070
+## label
+The floor of the submandibular triangle is formed by mylohyoid and hyoglossus
+## canonical_key
+submandibular-triangle.floor.mylohyoid-and-hyoglossus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The floor of the submandibular (digastric) triangle is formed by the MYLOHYOID muscle anteriorly and the HYOGLOSSUS muscle posteriorly (with a small contribution from the middle constrictor). The sternohyoid, geniohyoid and thyrohyoid are infrahyoid/suprahyoid muscles that do not form this floor.
+## explicit_objective
+Identify mylohyoid and hyoglossus as the muscles forming the floor of the submandibular triangle.
+## pitfalls
+Choosing sternohyoid, geniohyoid or thyrohyoid; only mylohyoid (anterior) and hyoglossus (posterior) floor the submandibular triangle.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Neck triangles
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Neck Triangles and Fascia > Submandibular Triangle
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The muscles forming the floor of the submandibular triangle are the hyoglossus and the: a. Sternohyoid b. Mylohyoid c. Geniohyoid d. Thyrohyoid" ANSWER: b (205 NEU EOM 2023, Q9)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F80860BCE32376
+## label
+In facial nerve palsy the masseter still functions because it is supplied by the trigeminal nerve
+## canonical_key
+facial-palsy.spared-muscle.masseter-trigeminal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The facial nerve (CN VII) supplies the muscles of FACIAL EXPRESSION (orbicularis oris, buccinator, platysma, etc.), so all of these are paralysed in a facial nerve lesion. The MASSETER is a muscle of MASTICATION supplied by the mandibular division of the TRIGEMINAL nerve (V3), so it continues to function despite a facial nerve palsy.
+## explicit_objective
+Explain that the masseter is spared in facial nerve palsy because it is a trigeminal-supplied muscle of mastication.
+## pitfalls
+Grouping the masseter with the muscles of facial expression; it is a muscle of mastication (V3), whereas orbicularis oris, buccinator and platysma are VII-supplied and are paralysed.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Facial nerve lesions
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Facial Nerve (Muscles of Expression)
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A man develops paralysis of the facial nerve. Which muscle will continue to function despite this lesion? a. Orbicularis oris b. Buccinator c. Masseter d. Platysma" ANSWER: c (205 NEU EOM 2023, Q10)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-518C95BA49B4C2
+## label
+The nerve of the second pharyngeal arch is the facial nerve
+## canonical_key
+pharyngeal-arch-2.motor-nerve.facial
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each pharyngeal (branchial) arch has its own nerve. The nerve of the SECOND arch is the FACIAL nerve (CN VII), which supplies the muscles derived from it (muscles of facial expression, stapedius, stylohyoid, posterior belly of digastric). The first arch nerve is the mandibular (V3), the third arch nerve is the glossopharyngeal (IX), and the fourth/sixth arch nerves are branches of the vagus (X).
+## explicit_objective
+Match the second pharyngeal arch to its nerve, the facial nerve.
+## pitfalls
+Assigning the second arch to the mandibular (first arch), glossopharyngeal (third arch) or vagus (fourth/sixth arch) nerves.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Pharyngeal arch derivatives
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Pharynx and Palate > Pharyngeal Arches
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The motor nerve supply of the second pharyngeal arch is the: a. Vagus nerve b. Mandibular nerve c. Glossopharyngeal nerve d. Facial nerve" ANSWER: d (205 NEU EOM 2023, Q11)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-AF94B4B43138CB
+## label
+The glossopharyngeal nerve passes deep to the hyoglossus muscle
+## canonical_key
+hyoglossus.deep-relation.glossopharyngeal-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Structures are classically divided by their relation to hyoglossus. Passing DEEP (medial) to hyoglossus are the GLOSSOPHARYNGEAL nerve, the lingual artery and the stylohyoid ligament. Passing SUPERFICIAL (lateral) to hyoglossus are the hypoglossal nerve, the lingual nerve, the submandibular duct and the deep lingual vein.
+## explicit_objective
+Identify the glossopharyngeal nerve as a structure lying deep to the hyoglossus.
+## pitfalls
+Placing the hypoglossal nerve, lingual nerve or submandibular duct deep to hyoglossus; those are all superficial (lateral) to it.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Tongue and floor of mouth
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Neck Triangles and Fascia > Hyoglossus Relations
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which structure passes deep to the hyoglossus muscle? a. Glossopharyngeal nerve b. Hypoglossal nerve c. Submandibular duct d. Lingual nerve" ANSWER: a (205 NEU EOM 2023, Q12)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C86778DB2E42A6
+## label
+The second part of the subclavian artery lies deep (posterior) to scalenus anterior
+## canonical_key
+scalenus-anterior.posterior-relation.subclavian-artery-second-part
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Scalenus anterior is a key landmark of the root of the neck. Passing DEEP (posterior) to it are the SECOND PART of the subclavian artery and the roots/trunks of the brachial plexus, plus the pleura. Passing anterior (superficial) to it are the subclavian vein, the phrenic nerve (on its anterior surface), and structures such as the transverse cervical and suprascapular arteries.
+## explicit_objective
+State that the second part of the subclavian artery lies behind scalenus anterior.
+## pitfalls
+Placing the subclavian vein or suprascapular artery deep to scalenus anterior; those pass anterior to it, while the second part of the subclavian artery is the structure behind it.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Root of the neck
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Neck Triangles and Fascia > Scalenus Anterior Relations
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following structures lies deep (posterior) to the scalenus anterior muscle: a. Sternomastoid b. Second part of the subclavian artery c. Suprascapular artery d. Subclavian vein" ANSWER: b (205 NEU EOM 2023, Q14)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-3BE0D3045950ED
+## label
+The auriculotemporal nerve is not a branch of the facial nerve
+## canonical_key
+facial-nerve.branches.auriculotemporal-not-a-branch
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Named branches of the facial nerve include the greater superficial petrosal nerve, the nerve to stapedius, the chorda tympani, and (on the face) the temporal, zygomatic, buccal, marginal mandibular and cervical branches. The AURICULOTEMPORAL nerve is NOT a facial branch — it is a branch of the mandibular division of the trigeminal nerve (V3), though it conveys parasympathetic secretomotor fibres to the parotid.
+## explicit_objective
+Exclude the auriculotemporal nerve (a trigeminal branch) from the branches of the facial nerve.
+## pitfalls
+Mistaking the auriculotemporal nerve for a facial branch because it is near the parotid; it is a V3 branch. The chorda tympani, nerve to stapedius and greater superficial petrosal ARE facial branches.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Facial nerve branches
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Facial Nerve Branches
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is NOT a branch of the facial nerve? a. Nerve to stapedius b. Chorda tympani c. Greater superficial petrosal nerve d. Auriculotemporal nerve" ANSWER: d (205 NEU EOM 2023, Q15)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-9BCA828FF61A1C
+## label
+The main sensory nerve of the lower lip is the mental nerve
+## canonical_key
+lower-lip.sensory-supply.mental-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The skin and mucosa of the LOWER lip receive general sensation mainly from the MENTAL nerve, the terminal cutaneous branch of the inferior alveolar nerve (mandibular division, V3), which emerges from the mental foramen. The upper lip is supplied by the infraorbital nerve (V2). The great auricular and cervical branch of the facial nerve do not supply the lip.
+## explicit_objective
+Attribute lower-lip sensation to the mental nerve (a V3 branch).
+## pitfalls
+Assigning the lower lip to the ophthalmic nerve or a facial-nerve branch; sensation is via the mental nerve (V3), while the upper lip is infraorbital (V2).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cutaneous nerve territories
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Mandibular Nerve (Mental Branch)
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The main sensory nerve supply of the lower lip is the: a. Ophthalmic nerve b. Cervical branch of the facial nerve c. Great auricular nerve d. Mental nerve" ANSWER: d (205 NEU EOM 2023, Q16)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-12459B1717C954
+## label
+The posterior inferior cerebellar artery is a branch of the vertebral artery
+## canonical_key
+vertebral-artery.branch.posterior-inferior-cerebellar-artery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The vertebral artery gives, within the cranium, the POSTERIOR INFERIOR CEREBELLAR ARTERY (PICA), the anterior and posterior spinal arteries, and meningeal branches, before the two vertebrals unite to form the basilar artery. The anterior inferior cerebellar artery and the posterior cerebral artery are branches of the BASILAR artery; the anterior cerebral artery is a branch of the internal carotid.
+## explicit_objective
+Identify PICA as a branch of the vertebral artery (not the basilar).
+## pitfalls
+Confusing PICA (vertebral) with AICA and the posterior cerebral artery (both from the basilar), or with the anterior cerebral artery (internal carotid).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral arterial supply
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Vasculature of the Head and Neck > Vertebrobasilar System
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following is a branch of the vertebral artery: a. Anterior cerebral artery b. Anterior inferior cerebellar artery c. Posterior inferior cerebellar artery d. Posterior cerebral artery" ANSWER: c (205 NEU EOM 2023, Q17)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E42AAE87C25B48
+## label
+The sternal head of sternocleidomastoid arises from the front of the manubrium, not its back
+## canonical_key
+sternocleidomastoid.sternal-head.arises-front-of-manubrium
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sternocleidomastoid arises by two heads: the sternal head from the ANTERIOR surface (front) of the manubrium sterni, and the clavicular head from the medial third of the clavicle. It turns the face to the OPPOSITE side, is crossed superficially by the external jugular vein, and is supplied by the spinal part of the accessory nerve (with proprioceptive C2, C3). The statement that it 'arises from the back of the manubrium' is therefore the untrue one.
+## explicit_objective
+Correct the origin of the sternal head of sternocleidomastoid to the front (anterior surface) of the manubrium.
+## pitfalls
+Accepting 'back of the manubrium' as the origin; the sternal head arises from the anterior (front) surface of the manubrium.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Muscles of the neck
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Neck Triangles and Fascia > Sternocleidomastoid
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the sternocleidomastoid, one of the following statements is NOT true: a. It arises from the back of the manubrium b. It turns the face to the opposite side c. It is related superficially to the external jugular vein d. It is supplied by the spinal part of the accessory nerve" ANSWER: a (205 NEU EOM 2023, Q18)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-2F5DD873C4E461
+## label
+The nasolacrimal duct opens into the inferior meatus of the nose
+## canonical_key
+nasal-cavity.inferior-meatus.nasolacrimal-duct-opening
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Drainage into the nasal meatuses is a classic set: the NASOLACRIMAL duct opens into the INFERIOR meatus; the maxillary sinus, frontal sinus, anterior ethmoidal air cells and the nasolacrimal-independent frontonasal duct open into the MIDDLE meatus; the posterior ethmoidal air cells open into the superior meatus; and the sphenoid sinus opens into the spheno-ethmoidal recess. The auditory (Eustachian) tube opens into the nasopharynx, not a nasal meatus.
+## explicit_objective
+State that the nasolacrimal duct drains into the inferior meatus of the nose.
+## pitfalls
+Confusing the inferior meatus (nasolacrimal duct) with the middle meatus (frontal and maxillary sinuses) or misplacing the auditory tube in the nose (it opens into the nasopharynx).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Nasal cavity drainage
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Nose and Paranasal Sinuses > Nasal Meatuses
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which one of the following opens into the inferior meatus of the nose? a. Frontal sinus b. Nasolacrimal duct c. Maxillary sinus d. Auditory tube" ANSWER: b (205 NEU EOM 2023, Q19)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-32BFD06EB6CA38
+## label
+Thyrohyoid is supplied by C1 fibres carried by the hypoglossal nerve
+## canonical_key
+thyrohyoid.innervation.c1-fibres-via-hypoglossal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Although the hypoglossal nerve (CN XII) supplies the intrinsic and most extrinsic tongue muscles, it also carries hitch-hiking fibres from the first cervical nerve (C1). These C1 fibres are distributed to the THYROHYOID and geniohyoid muscles (and, via the superior root of the ansa cervicalis, to the infrahyoid strap muscles). Of the options, thyrohyoid is the muscle receiving C1-via-hypoglossal fibres.
+## explicit_objective
+Attribute the innervation of thyrohyoid to C1 fibres travelling with the hypoglossal nerve.
+## pitfalls
+Assuming all listed muscles are pure CN XII; mylohyoid is V3 (mylohyoid nerve), genioglossus/hyoglossus are true CN XII, and thyrohyoid is the C1-via-hypoglossal muscle.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Infrahyoid muscle innervation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cranial Nerves > Hypoglossal Nerve (C1 Fibres)
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The fibres from C1 (travelling with the hypoglossal nerve) supply which of the following muscles? a. Mylohyoid b. Genioglossus c. Hyoglossus d. Thyrohyoid" ANSWER: d (205 NEU EOM 2023, Q20)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-0E15A3A8918C20
+## label
+The abducent nerve runs within the cavernous sinus, not in its lateral wall
+## canonical_key
+cavernous-sinus.abducent-nerve.intraluminal-not-lateral-wall
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Concerning the cavernous sinus: it lies lateral to the sella turcica (body of sphenoid), is traversed by the internal carotid artery, and communicates with the pterygoid venous plexus (through emissary veins) — all true. The FALSE statement is that the abducent nerve runs in its upper lateral wall: the abducent nerve actually runs THROUGH the sinus lumen, lateral to the internal carotid artery, whereas the lateral wall contains III, IV, V1 and V2.
+## explicit_objective
+State that the abducent nerve traverses the cavernous sinus lumen (with the ICA), not the lateral wall.
+## pitfalls
+Believing the abducent nerve is a lateral-wall structure; only III, IV, V1 and V2 lie in the wall. Abducent and the ICA run inside the sinus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cavernous sinus
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Cavernous Sinus Contents
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning the cavernous sinus, select the FALSE statement: a. The abducent nerve runs in its upper lateral wall b. It lies lateral to the sella turcica c. It is traversed by the internal carotid artery d. It communicates with the pterygoid venous plexus" ANSWER: a (205 NEU EOM 2023, Q21)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-8B07DF3EF1368A
+## label
+Unilateral genioglossus protrudes the tongue and pushes the tip toward the opposite side
+## canonical_key
+genioglossus.action.protrusion-deviates-tip-contralateral
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The genioglossus is the main protruder of the tongue. Acting on one side, it pushes the tongue forward and deviates its TIP toward the OPPOSITE (contralateral) side. This is why a lower motor neuron hypoglossal lesion (paralysing one genioglossus) makes the protruded tongue deviate toward the SAME (paralysed) side — the intact contralateral genioglossus pushes it across. Hyoglossus and styloglossus retract/elevate; palatoglossus elevates the tongue root.
+## explicit_objective
+Describe genioglossus as protruding the tongue with contralateral deviation of the tip.
+## pitfalls
+Confusing the muscle's action (tip to opposite side) with the clinical deviation in a hypoglossal lesion (tongue deviates to the paralysed/same side), or attributing protrusion to styloglossus/hyoglossus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Tongue muscles
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Pharynx and Palate > Tongue Muscles
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which muscle protrudes the tongue and directs its tip toward the opposite side? a. Hyoglossus b. Genioglossus c. Palatoglossus d. Styloglossus" ANSWER: b (205 NEU EOM 2023, Q23)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
+
+---

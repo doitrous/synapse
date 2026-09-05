@@ -1,0 +1,755 @@
+{
+ "lane": "KASR-205NEU",
+ "cluster": "2023-eom-head-and-neck-anatomy",
+ "header": "Kasr Al Ainy 205 NEU · head-and-neck anatomy — authored from the 205 NEU EOM (2023 sitting) exam paper (printed date 30/11/2023; filename 'EOM - NEU-205 2024 Answered.pdf', sourceId src_1d0cd2a7afeb66dcfd85), a DIFFERENT sitting from the module's EOM 197 paper. This is the first triage pass over the paper: Q1-24 read (pages 1-3), 20 genuinely-new items authored here, 4 near-duplicates of already-authored EOM 197 stems skipped (Q4 lateral-rectus/abducent, Q13 skin over mandibular angle/great auricular, Q22 internal laryngeal nerve, Q24 posterior midbrain/tectum). Keys read from the hand-written left-margin answer letter (with a pencil arrow to the chosen option), pages 1-3 rendered at 170dpi and read by eye and cross-checked against standard anatomy. Pages 1-2 have a partial text layer; pages 3-14 are image-only. The 205 NEU department books (Anatomy, image-only) were not OCR'd; explanations reflect standard head-and-neck anatomy consistent with the paper's margin key. Q25-115 + Section B (cross-match) remain to triage.",
+ "defaults": {
+  "subject": "neuro",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": [
+   "kau"
+  ],
+  "years": [
+   "KAU_Y2"
+  ],
+  "module": "205 NEU",
+  "exam_weight_by_year": {
+   "KAU_Y2": "moderate"
+  },
+  "question_only_for": "",
+  "library_ids": [
+   "ART-NEU-205NEU-HEAD-AND-NECK-ANATOMY"
+  ],
+  "resource_ids": [
+   "src_1d0cd2a7afeb66dcfd85"
+  ],
+  "source_citation": "Kasr Al Ainy 205 NEU EOM 2023 exam paper, p.{page}",
+  "setting": "Academic",
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Anatomy",
+  "source": "past-paper"
+ },
+ "questions": [
+  {
+   "key": "2023eom-q1",
+   "page": 1,
+   "id": "QST-KASR205NEU-2023EOM-1",
+   "title": "Sinus in the inferior border of the falx cerebri",
+   "question": "Which dural venous sinus is located at the inferior (free) border of the falx cerebri?",
+   "options": {
+    "A": "Inferior sagittal",
+    "B": "Straight",
+    "C": "Occipital",
+    "D": "Transverse"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The inferior sagittal sinus runs in the free (lower, concave) border of the falx cerebri, above the corpus callosum, and drains backward into the straight sinus. The superior sagittal sinus, by contrast, occupies the attached (upper) border.",
+    "B": "Incorrect. The straight sinus lies along the line of attachment of the falx cerebri to the tentorium cerebelli, not in the free border of the falx; it receives the inferior sagittal sinus and the great cerebral vein.",
+    "C": "Incorrect. The occipital sinus lies in the attached margin of the falx cerebelli, in the posterior cranial fossa, not in the falx cerebri.",
+    "D": "Incorrect. The transverse sinus runs in the attached (posterolateral) margin of the tentorium cerebelli, draining toward the sigmoid sinus."
+   },
+   "main_concept": "CON-NEU-72DA6765A1BADB",
+   "concept_ids": [
+    "CON-NEU-72DA6765A1BADB"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Locate the inferior sagittal sinus in the free (inferior) border of the falx cerebri.",
+   "module_subject": "205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Falx Cerebri",
+   "subtopic": "Dural venous sinuses",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.1"
+   }
+  },
+  {
+   "key": "2023eom-q2",
+   "page": 1,
+   "id": "QST-KASR205NEU-2023EOM-2",
+   "title": "Cervical branch of the facial artery",
+   "question": "Which branch arises from the facial artery in the neck?",
+   "options": {
+    "A": "Posterior auricular",
+    "B": "Ascending palatine",
+    "C": "Ascending pharyngeal",
+    "D": "Occipital"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The posterior auricular artery is a direct posterior branch of the external carotid artery, arising above the level of the facial artery.",
+    "B": "Correct. The ascending palatine artery is a cervical branch of the facial artery, arising near its origin and ascending to supply the soft palate, palatine tonsil and pharyngeal wall. The tonsillar and submental arteries are its other named cervical/facial branches.",
+    "C": "Incorrect. The ascending pharyngeal artery is the smallest and first branch of the external carotid artery, not a facial-artery branch.",
+    "D": "Incorrect. The occipital artery arises from the posterior aspect of the external carotid artery."
+   },
+   "main_concept": "CON-NEU-819FD6F9B68335",
+   "concept_ids": [
+    "CON-NEU-819FD6F9B68335"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Identify the ascending palatine artery as a cervical branch of the facial artery.",
+   "module_subject": "205 NEU > Anatomy > Vasculature of the Head and Neck > Facial Artery",
+   "subtopic": "Arteries of the neck",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.1"
+   }
+  },
+  {
+   "key": "2023eom-q3",
+   "page": 1,
+   "id": "QST-KASR205NEU-2023EOM-3",
+   "title": "Nerve for taste of the anterior two-thirds of the tongue",
+   "question": "Which cranial nerve is responsible for taste sensation from the anterior two-thirds of the tongue?",
+   "options": {
+    "A": "5th (trigeminal)",
+    "B": "6th (abducent)",
+    "C": "7th (facial)",
+    "D": "9th (glossopharyngeal)"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The trigeminal nerve (via the lingual nerve, V3) carries GENERAL sensation from the anterior two-thirds of the tongue, not taste.",
+    "B": "Incorrect. The abducent nerve is purely motor to the lateral rectus muscle and has no role in taste.",
+    "C": "Correct. Taste from the anterior two-thirds of the tongue is carried by the chorda tympani, a branch of the facial nerve (CN VII), which joins the lingual nerve to reach the tongue. Its cell bodies lie in the geniculate ganglion.",
+    "D": "Incorrect. The glossopharyngeal nerve (CN IX) carries taste and general sensation from the POSTERIOR one-third of the tongue, not the anterior two-thirds."
+   },
+   "main_concept": "CON-NEU-A80AE48BB694BB",
+   "concept_ids": [
+    "CON-NEU-A80AE48BB694BB"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Attribute taste from the anterior two-thirds of the tongue to the facial nerve via the chorda tympani.",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Facial Nerve (Taste)",
+   "subtopic": "Cranial nerve function",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.1"
+   }
+  },
+  {
+   "key": "2023eom-q5",
+   "page": 1,
+   "id": "QST-KASR205NEU-2023EOM-5",
+   "title": "Nerve in the lateral wall of the cavernous sinus",
+   "question": "Which of the following nerves is present in the lateral wall of the cavernous sinus?",
+   "options": {
+    "A": "Mandibular",
+    "B": "Glossopharyngeal",
+    "C": "Facial",
+    "D": "Maxillary"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The mandibular nerve (V3) does not enter the cavernous sinus; it leaves the skull through the foramen ovale. Only the ophthalmic (V1) and maxillary (V2) divisions of the trigeminal relate to the lateral wall.",
+    "B": "Incorrect. The glossopharyngeal nerve (CN IX) exits through the jugular foramen and has no relation to the cavernous sinus.",
+    "C": "Incorrect. The facial nerve (CN VII) is unrelated to the cavernous sinus; it enters the internal acoustic meatus.",
+    "D": "Correct. The maxillary nerve (V2) runs in the lateral wall of the cavernous sinus, below the ophthalmic nerve, together with the oculomotor and trochlear nerves. The abducent nerve and internal carotid artery, by contrast, lie within the sinus lumen."
+   },
+   "main_concept": "CON-NEU-3FE9AD01EC0927",
+   "concept_ids": [
+    "CON-NEU-3FE9AD01EC0927"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "List the maxillary nerve among the contents of the lateral wall of the cavernous sinus.",
+   "module_subject": "205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Cavernous Sinus",
+   "subtopic": "Cavernous sinus",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.1"
+   }
+  },
+  {
+   "key": "2023eom-q6",
+   "page": 1,
+   "id": "QST-KASR205NEU-2023EOM-6",
+   "title": "Muscle that retracts the protruded mandible",
+   "question": "Which muscle returns the mandibular condyle to its normal position after the mandible has been protracted?",
+   "options": {
+    "A": "Lateral pterygoid",
+    "B": "Masseter",
+    "C": "Stylohyoid",
+    "D": "Temporalis"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The lateral pterygoid PROTRUDES (and depresses) the mandible; it produces the opposite movement to retraction.",
+    "B": "Incorrect. The masseter is a powerful elevator (closes the jaw) but does not retract the protruded mandible.",
+    "C": "Incorrect. The stylohyoid acts on the hyoid bone, not the mandible.",
+    "D": "Correct. The posterior, nearly horizontal fibres of the temporalis retract the mandible, drawing the condyle backward into the mandibular fossa after protraction; the digastric and geniohyoid assist. Retraction slides the mandibular head from the articular eminence back into the mandibular fossa."
+   },
+   "main_concept": "CON-NEU-C8F800FA2013BA",
+   "concept_ids": [
+    "CON-NEU-C8F800FA2013BA"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Attribute mandibular retraction to the posterior fibres of temporalis.",
+   "module_subject": "205 NEU > Anatomy > Muscles of Mastication > Temporalis",
+   "subtopic": "Muscles of mastication",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.1"
+   }
+  },
+  {
+   "key": "2023eom-q7",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-7",
+   "title": "Incorrect statement about the maxillary nerve",
+   "question": "Which statement about the maxillary nerve is INCORRECT?",
+   "options": {
+    "A": "The submandibular ganglion is suspended from it",
+    "B": "It supplies the upper teeth",
+    "C": "It carries sensory fibres for the hard palate",
+    "D": "It carries sensory fibres for the soft palate"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct answer (the incorrect statement). The submandibular ganglion is suspended from the LINGUAL nerve (V3), not the maxillary nerve. The ganglion related to the maxillary nerve is the pterygopalatine ganglion.",
+    "B": "Incorrect (this is a true statement). The maxillary nerve supplies the upper teeth through its superior alveolar branches.",
+    "C": "Incorrect (this is a true statement). The maxillary nerve carries general sensation from the hard palate via the greater palatine and nasopalatine nerves.",
+    "D": "Incorrect (this is a true statement). The maxillary nerve carries sensation from the soft palate via the lesser palatine nerves."
+   },
+   "main_concept": "CON-NEU-16C39641693E6C",
+   "concept_ids": [
+    "CON-NEU-16C39641693E6C"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "State that the submandibular ganglion is suspended from the lingual nerve, correcting the claim that it hangs from the maxillary nerve.",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Maxillary and Mandibular Nerves",
+   "subtopic": "Trigeminal nerve branches",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q8",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-8",
+   "title": "Pharyngeal muscle not supplied by the pharyngeal plexus",
+   "question": "One of the following muscles is NOT supplied by the pharyngeal plexus:",
+   "options": {
+    "A": "Superior constrictor",
+    "B": "Inferior constrictor",
+    "C": "Stylopharyngeus",
+    "D": "Palatopharyngeus"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The superior constrictor is a pharyngeal muscle supplied by the pharyngeal plexus.",
+    "B": "Incorrect. The inferior constrictor is supplied by the pharyngeal plexus (with additional twigs from the external and recurrent laryngeal nerves).",
+    "C": "Correct. Stylopharyngeus is the only pharyngeal muscle supplied directly by the glossopharyngeal nerve (CN IX), not by the pharyngeal plexus. As the only pharyngeal muscle supplied by CN IX, it elevates the pharynx and larynx during swallowing and speech.",
+    "D": "Incorrect. Palatopharyngeus is supplied by the pharyngeal plexus via the cranial accessory fibres in the vagus."
+   },
+   "main_concept": "CON-NEU-BF2A7BAF72EF24",
+   "concept_ids": [
+    "CON-NEU-BF2A7BAF72EF24"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Name stylopharyngeus as the only pharyngeal muscle not supplied by the pharyngeal plexus (it is glossopharyngeal).",
+   "module_subject": "205 NEU > Anatomy > Pharynx and Palate > Pharyngeal Muscles",
+   "subtopic": "Pharyngeal muscles",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q9",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-9",
+   "title": "Muscle forming the submandibular triangle floor with hyoglossus",
+   "question": "The muscles forming the floor of the submandibular triangle are the hyoglossus and the:",
+   "options": {
+    "A": "Sternohyoid",
+    "B": "Mylohyoid",
+    "C": "Geniohyoid",
+    "D": "Thyrohyoid"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The sternohyoid is an infrahyoid strap muscle lying below the hyoid; it does not form the floor of the submandibular triangle.",
+    "B": "Correct. The floor of the submandibular triangle is formed by the mylohyoid anteriorly and the hyoglossus posteriorly (with the middle constrictor). Mylohyoid is therefore the muscle paired with hyoglossus.",
+    "C": "Incorrect. The geniohyoid lies above the mylohyoid, deep to the floor, and is not part of it.",
+    "D": "Incorrect. The thyrohyoid connects the thyroid cartilage to the hyoid and does not floor this triangle."
+   },
+   "main_concept": "CON-NEU-C9C329C132A070",
+   "concept_ids": [
+    "CON-NEU-C9C329C132A070"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Identify mylohyoid and hyoglossus as the muscles forming the floor of the submandibular triangle.",
+   "module_subject": "205 NEU > Anatomy > Neck Triangles and Fascia > Submandibular Triangle",
+   "subtopic": "Neck triangles",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q10",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-10",
+   "title": "Muscle spared in facial nerve palsy",
+   "question": "A man develops paralysis of the facial nerve. Which muscle will continue to function despite this lesion?",
+   "options": {
+    "A": "Orbicularis oris",
+    "B": "Buccinator",
+    "C": "Masseter",
+    "D": "Platysma"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Orbicularis oris is a muscle of facial expression supplied by the facial nerve, so it is paralysed.",
+    "B": "Incorrect. Buccinator is a muscle of facial expression supplied by the facial nerve and is paralysed.",
+    "C": "Correct. The masseter is a muscle of mastication supplied by the mandibular division of the trigeminal nerve (V3); it is unaffected by a facial nerve lesion and continues to function. Preserved jaw-clenching power alongside facial-expression weakness therefore localises the lesion to CN VII rather than to the trigeminal nerve.",
+    "D": "Incorrect. Platysma is a muscle of facial expression (supplied by the cervical branch of the facial nerve) and is paralysed."
+   },
+   "main_concept": "CON-NEU-F80860BCE32376",
+   "concept_ids": [
+    "CON-NEU-F80860BCE32376"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Reasoning",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Explain that the masseter is spared in facial nerve palsy because it is a trigeminal-supplied muscle of mastication.",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Facial Nerve (Muscles of Expression)",
+   "subtopic": "Facial nerve lesions",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q11",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-11",
+   "title": "Nerve of the second pharyngeal arch",
+   "question": "The motor nerve supply of the second pharyngeal arch is the:",
+   "options": {
+    "A": "Vagus nerve",
+    "B": "Mandibular nerve",
+    "C": "Glossopharyngeal nerve",
+    "D": "Facial nerve"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The vagus nerve is the nerve of the fourth and sixth pharyngeal arches.",
+    "B": "Incorrect. The mandibular nerve (V3) is the nerve of the first pharyngeal arch.",
+    "C": "Incorrect. The glossopharyngeal nerve is the nerve of the third pharyngeal arch.",
+    "D": "Correct. The facial nerve (CN VII) is the nerve of the second pharyngeal arch and supplies its derivatives: the muscles of facial expression, stapedius, stylohyoid and the posterior belly of digastric. Its skeletal derivatives include the stapes, the styloid process and the lesser cornu (and upper body) of the hyoid bone."
+   },
+   "main_concept": "CON-NEU-518C95BA49B4C2",
+   "concept_ids": [
+    "CON-NEU-518C95BA49B4C2"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Match the second pharyngeal arch to its nerve, the facial nerve.",
+   "module_subject": "205 NEU > Anatomy > Pharynx and Palate > Pharyngeal Arches",
+   "subtopic": "Pharyngeal arch derivatives",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q12",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-12",
+   "title": "Structure passing deep to hyoglossus",
+   "question": "Which structure passes deep to the hyoglossus muscle?",
+   "options": {
+    "A": "Glossopharyngeal nerve",
+    "B": "Hypoglossal nerve",
+    "C": "Submandibular duct",
+    "D": "Lingual nerve"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The glossopharyngeal nerve passes deep (medial) to hyoglossus, together with the lingual artery and the stylohyoid ligament. This deep (medial) relationship is why the nerve is reached from the medial side of the muscle in the floor of the mouth.",
+    "B": "Incorrect. The hypoglossal nerve runs superficial (lateral) to hyoglossus.",
+    "C": "Incorrect. The submandibular duct crosses superficial (lateral) to hyoglossus.",
+    "D": "Incorrect. The lingual nerve lies superficial (lateral) to hyoglossus, where it loops around the submandibular duct."
+   },
+   "main_concept": "CON-NEU-AF94B4B43138CB",
+   "concept_ids": [
+    "CON-NEU-AF94B4B43138CB"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Identify the glossopharyngeal nerve as a structure lying deep to the hyoglossus.",
+   "module_subject": "205 NEU > Anatomy > Neck Triangles and Fascia > Hyoglossus Relations",
+   "subtopic": "Tongue and floor of mouth",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q14",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-14",
+   "title": "Structure deep to scalenus anterior",
+   "question": "One of the following structures lies deep (posterior) to the scalenus anterior muscle:",
+   "options": {
+    "A": "Sternomastoid",
+    "B": "Second part of the subclavian artery",
+    "C": "Suprascapular artery",
+    "D": "Subclavian vein"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The sternocleidomastoid lies well anterior and superficial to scalenus anterior, not deep to it.",
+    "B": "Correct. The second part of the subclavian artery lies directly behind (deep to) scalenus anterior, along with the pleura and the trunks of the brachial plexus. The first part of the subclavian artery lies medial to the muscle and the third part lateral to it, so only the second part is truly behind scalenus anterior.",
+    "C": "Incorrect. The suprascapular artery crosses anterior (superficial) to scalenus anterior.",
+    "D": "Incorrect. The subclavian vein passes anterior (superficial) to scalenus anterior, separated from the artery by the muscle."
+   },
+   "main_concept": "CON-NEU-C86778DB2E42A6",
+   "concept_ids": [
+    "CON-NEU-C86778DB2E42A6"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "State that the second part of the subclavian artery lies behind scalenus anterior.",
+   "module_subject": "205 NEU > Anatomy > Neck Triangles and Fascia > Scalenus Anterior Relations",
+   "subtopic": "Root of the neck",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q15",
+   "page": 2,
+   "id": "QST-KASR205NEU-2023EOM-15",
+   "title": "Not a branch of the facial nerve",
+   "question": "Which of the following is NOT a branch of the facial nerve?",
+   "options": {
+    "A": "Nerve to stapedius",
+    "B": "Chorda tympani",
+    "C": "Greater superficial petrosal nerve",
+    "D": "Auriculotemporal nerve"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The nerve to stapedius is a branch of the facial nerve within the facial canal.",
+    "B": "Incorrect. The chorda tympani is a branch of the facial nerve carrying taste from the anterior tongue and secretomotor fibres.",
+    "C": "Incorrect. The greater superficial petrosal nerve is a branch of the facial nerve (from the geniculate ganglion) carrying parasympathetic fibres to the pterygopalatine ganglion.",
+    "D": "Correct. The auriculotemporal nerve is a branch of the mandibular division of the trigeminal nerve (V3), not of the facial nerve, although it delivers parasympathetic secretomotor fibres to the parotid gland. At its origin it splits to encircle the middle meningeal artery, and it conveys postganglionic parasympathetic secretomotor fibres from the otic ganglion to the parotid gland."
+   },
+   "main_concept": "CON-NEU-3BE0D3045950ED",
+   "concept_ids": [
+    "CON-NEU-3BE0D3045950ED"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Exclude the auriculotemporal nerve (a trigeminal branch) from the branches of the facial nerve.",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Facial Nerve Branches",
+   "subtopic": "Facial nerve branches",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.2"
+   }
+  },
+  {
+   "key": "2023eom-q16",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-16",
+   "title": "Sensory nerve of the lower lip",
+   "question": "The main sensory nerve supply of the lower lip is the:",
+   "options": {
+    "A": "Ophthalmic nerve",
+    "B": "Cervical branch of the facial nerve",
+    "C": "Great auricular nerve",
+    "D": "Mental nerve"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The ophthalmic nerve (V1) supplies the forehead, upper eyelid and nose, not the lower lip.",
+    "B": "Incorrect. The cervical branch of the facial nerve is motor to platysma; the facial nerve carries no cutaneous sensation of the lip.",
+    "C": "Incorrect. The great auricular nerve (C2, C3) supplies skin over the parotid and angle of the mandible, not the lip.",
+    "D": "Correct. The mental nerve, the terminal branch of the inferior alveolar nerve (V3) emerging from the mental foramen, is the main sensory supply of the lower lip and chin. After emerging from the mental foramen it fans out into the skin and mucous membrane of the lower lip and the chin."
+   },
+   "main_concept": "CON-NEU-9BCA828FF61A1C",
+   "concept_ids": [
+    "CON-NEU-9BCA828FF61A1C"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Attribute lower-lip sensation to the mental nerve (a V3 branch).",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Mandibular Nerve (Mental Branch)",
+   "subtopic": "Cutaneous nerve territories",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q17",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-17",
+   "title": "Branch of the vertebral artery",
+   "question": "One of the following is a branch of the vertebral artery:",
+   "options": {
+    "A": "Anterior cerebral artery",
+    "B": "Anterior inferior cerebellar artery",
+    "C": "Posterior inferior cerebellar artery",
+    "D": "Posterior cerebral artery"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The anterior cerebral artery is a terminal branch of the internal carotid artery.",
+    "B": "Incorrect. The anterior inferior cerebellar artery (AICA) arises from the basilar artery.",
+    "C": "Correct. The posterior inferior cerebellar artery (PICA) is the largest branch of the vertebral artery, given off before the two vertebrals join to form the basilar artery. PICA supplies the posterolateral medulla and the inferior surface of the cerebellum, and its occlusion produces the lateral medullary (Wallenberg) syndrome.",
+    "D": "Incorrect. The posterior cerebral artery is a terminal branch of the basilar artery."
+   },
+   "main_concept": "CON-NEU-12459B1717C954",
+   "concept_ids": [
+    "CON-NEU-12459B1717C954"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Identify PICA as a branch of the vertebral artery (not the basilar).",
+   "module_subject": "205 NEU > Anatomy > Vasculature of the Head and Neck > Vertebrobasilar System",
+   "subtopic": "Cerebral arterial supply",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q18",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-18",
+   "title": "Untrue statement about sternocleidomastoid",
+   "question": "Regarding the sternocleidomastoid, one of the following statements is NOT true:",
+   "options": {
+    "A": "It arises from the back of the manubrium",
+    "B": "It turns the face to the opposite side",
+    "C": "It is related superficially to the external jugular vein",
+    "D": "It is supplied by the spinal part of the accessory nerve"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct answer (the untrue statement). The sternal head of sternocleidomastoid arises from the FRONT (anterior surface) of the manubrium sterni, not its back. The clavicular head, by contrast, arises from the superior surface of the medial third of the clavicle.",
+    "B": "Incorrect (this is true). Acting alone, sternocleidomastoid turns the face to the opposite side (and tilts the head to the same side).",
+    "C": "Incorrect (this is true). The external jugular vein crosses superficial to the sternocleidomastoid.",
+    "D": "Incorrect (this is true). Sternocleidomastoid is supplied by the spinal part of the accessory nerve, with proprioceptive fibres from C2 and C3."
+   },
+   "main_concept": "CON-NEU-E42AAE87C25B48",
+   "concept_ids": [
+    "CON-NEU-E42AAE87C25B48"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Correct the origin of the sternal head of sternocleidomastoid to the front (anterior surface) of the manubrium.",
+   "module_subject": "205 NEU > Anatomy > Neck Triangles and Fascia > Sternocleidomastoid",
+   "subtopic": "Muscles of the neck",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q19",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-19",
+   "title": "Structure opening into the inferior nasal meatus",
+   "question": "Which one of the following opens into the inferior meatus of the nose?",
+   "options": {
+    "A": "Frontal sinus",
+    "B": "Nasolacrimal duct",
+    "C": "Maxillary sinus",
+    "D": "Auditory tube"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The frontal sinus drains into the middle meatus (via the frontonasal duct/hiatus semilunaris).",
+    "B": "Correct. The nasolacrimal duct opens into the inferior meatus of the nose, beneath the inferior concha. This route carries tears from the lacrimal sac into the nasal cavity, which is why the nose runs during crying.",
+    "C": "Incorrect. The maxillary sinus opens into the middle meatus at the hiatus semilunaris.",
+    "D": "Incorrect. The auditory (pharyngotympanic) tube opens into the nasopharynx, not into a nasal meatus."
+   },
+   "main_concept": "CON-NEU-2F5DD873C4E461",
+   "concept_ids": [
+    "CON-NEU-2F5DD873C4E461"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "State that the nasolacrimal duct drains into the inferior meatus of the nose.",
+   "module_subject": "205 NEU > Anatomy > Nose and Paranasal Sinuses > Nasal Meatuses",
+   "subtopic": "Nasal cavity drainage",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q20",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-20",
+   "title": "Muscle supplied by C1 fibres via the hypoglossal nerve",
+   "question": "The fibres from C1 (travelling with the hypoglossal nerve) supply which of the following muscles?",
+   "options": {
+    "A": "Mylohyoid",
+    "B": "Genioglossus",
+    "C": "Hyoglossus",
+    "D": "Thyrohyoid"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. Mylohyoid is supplied by the mylohyoid nerve, a branch of the inferior alveolar nerve (V3).",
+    "B": "Incorrect. Genioglossus is a true hypoglossal (CN XII proper) muscle, not a C1-fibre muscle.",
+    "C": "Incorrect. Hyoglossus is supplied by the hypoglossal nerve proper (CN XII).",
+    "D": "Correct. Thyrohyoid (like geniohyoid) is supplied by C1 fibres that hitch-hike along the hypoglossal nerve, not by CN XII proper. These same C1 fibres travelling briefly with CN XII also supply geniohyoid before continuing as the superior root of the ansa cervicalis to the strap muscles."
+   },
+   "main_concept": "CON-NEU-32BFD06EB6CA38",
+   "concept_ids": [
+    "CON-NEU-32BFD06EB6CA38"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Attribute the innervation of thyrohyoid to C1 fibres travelling with the hypoglossal nerve.",
+   "module_subject": "205 NEU > Anatomy > Cranial Nerves > Hypoglossal Nerve (C1 Fibres)",
+   "subtopic": "Infrahyoid muscle innervation",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q21",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-21",
+   "title": "False statement about the cavernous sinus",
+   "question": "Concerning the cavernous sinus, select the FALSE statement:",
+   "options": {
+    "A": "The abducent nerve runs in its upper lateral wall",
+    "B": "It lies lateral to the sella turcica",
+    "C": "It is traversed by the internal carotid artery",
+    "D": "It communicates with the pterygoid venous plexus"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct answer (the false statement). The abducent nerve does NOT run in the lateral wall; it passes through the sinus lumen, lateral to the internal carotid artery. The lateral wall contains cranial nerves III, IV, V1 and V2.",
+    "B": "Incorrect (this is true). The cavernous sinus lies on either side of the body of the sphenoid, lateral to the sella turcica.",
+    "C": "Incorrect (this is true). The internal carotid artery, with its surrounding sympathetic plexus, traverses the cavernous sinus.",
+    "D": "Incorrect (this is true). The cavernous sinus communicates with the pterygoid venous plexus via emissary veins, a route for spread of infection."
+   },
+   "main_concept": "CON-NEU-0E15A3A8918C20",
+   "concept_ids": [
+    "CON-NEU-0E15A3A8918C20"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "State that the abducent nerve traverses the cavernous sinus lumen (with the ICA), not the lateral wall.",
+   "module_subject": "205 NEU > Anatomy > Meninges and Dural Venous Sinuses > Cavernous Sinus Contents",
+   "subtopic": "Cavernous sinus",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  },
+  {
+   "key": "2023eom-q23",
+   "page": 3,
+   "id": "QST-KASR205NEU-2023EOM-23",
+   "title": "Muscle protruding the tongue toward the opposite side",
+   "question": "Which muscle protrudes the tongue and directs its tip toward the opposite side?",
+   "options": {
+    "A": "Hyoglossus",
+    "B": "Genioglossus",
+    "C": "Palatoglossus",
+    "D": "Styloglossus"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Hyoglossus depresses and retracts the tongue; it does not protrude it.",
+    "B": "Correct. The genioglossus protrudes the tongue, and acting on one side it directs the tip to the opposite (contralateral) side. Both genioglossi acting together produce straight protrusion.",
+    "C": "Incorrect. Palatoglossus elevates the root of the tongue and narrows the oropharyngeal isthmus; it is a palatal muscle (pharyngeal plexus).",
+    "D": "Incorrect. Styloglossus retracts and elevates the tongue, drawing it upward and backward."
+   },
+   "main_concept": "CON-NEU-8B07DF3EF1368A",
+   "concept_ids": [
+    "CON-NEU-8B07DF3EF1368A"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Reasoning",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Describe genioglossus as protruding the tongue with contralateral deviation of the tip.",
+   "module_subject": "205 NEU > Anatomy > Pharynx and Palate > Tongue Muscles",
+   "subtopic": "Tongue muscles",
+   "topic": "Anatomy",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.3"
+   }
+  }
+ ]
+}
