@@ -2,13 +2,15 @@
 ## id
 CON-RES-4D4B125FF50E60
 ## label
-Acute laryngitis is an acute catarrhal inflammation of the laryngeal mucosa
+Acute laryngitis
 ## subject
 resp
 ## status
 under review
 ## definition
-Acute laryngitis is an acute catarrhal inflammation of the mucosa lining the larynx. Because the vocal folds are mucosal structures, swelling of that lining alters the voice, which is what localises the inflammation to the larynx.
+**Acute laryngitis** is an acute catarrhal inflammation of the mucosa lining the larynx.
+
+Because the vocal folds are mucosal structures, swelling of that lining alters the voice — which is what __localises the inflammation to the larynx__.
 ## explicit_objective
 Define acute laryngitis by the tissue involved, and explain why hoarseness localises inflammation to the larynx.
 ## original_wording
@@ -23,13 +25,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-7B27CD2545F4A5
 ## label
-Laryngeal papilloma is a benign epithelial lesion caused by human papillomavirus types 6 and 11
+Laryngeal papilloma and HPV 6/11
 ## subject
 resp
 ## status
 under review
 ## definition
-Laryngeal papillomas are benign epithelial tumours caused by human papillomavirus, principally types 6 and 11. Because the virus persists in adjacent clinically normal mucosa, the lesions recur after removal — the basis of recurrent respiratory papillomatosis in children.
+**Laryngeal papillomas** are benign epithelial tumours caused by **human papillomavirus**, principally __types 6 and 11__.
+
+The virus persists in adjacent, clinically normal mucosa, so the lesions **recur after removal** — the basis of recurrent respiratory papillomatosis in children.
 ## explicit_objective
 Identify the virus responsible for laryngeal papillomatosis and explain why the lesions recur after excision.
 ## original_wording
@@ -44,13 +48,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-A7AE91E130076E
 ## label
-In acute bacterial pneumonia the alveolar spaces are filled with acute inflammatory cells and red cells
+Alveolar contents in acute bacterial pneumonia
 ## subject
 resp
 ## status
 under review
 ## definition
-Consolidated lung shows alveolar spaces packed with neutrophils and red blood cells within a fibrin exudate. That replacement of alveolar air by cellular exudate is what makes the lung solid and radiodense.
+In consolidated lung the alveolar spaces are packed with **neutrophils** and **red blood cells** within a **fibrin exudate**.
+
+That __replacement of alveolar air by cellular exudate__ is what makes the lung solid and radiodense.
 ## explicit_objective
 Describe the alveolar contents in acute bacterial pneumonia and relate them to the radiographic appearance of consolidation.
 ## original_wording
@@ -65,13 +71,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-5BFE7F3DEA6061
 ## label
-In acute cervical lymphadenitis the nodes are enlarged, separate, mobile, soft, painful and tender
+Nodes in acute cervical lymphadenitis
 ## subject
 resp
 ## status
 under review
 ## definition
-Acutely inflamed cervical nodes enlarge but remain discrete and mobile, and are soft, painful and tender. The contrast is with malignant infiltration, in which nodes are hard, matted, fixed and characteristically painless.
+Acutely inflamed cervical nodes enlarge but remain **discrete and mobile**, and are __soft, painful and tender__.
+
+This contrasts with **malignant infiltration**, in which nodes are hard, matted, fixed and characteristically painless.
 ## explicit_objective
 Describe the character of acutely inflamed cervical nodes and distinguish them from nodes infiltrated by malignancy.
 ## original_wording
@@ -86,13 +94,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-A6F61F4C0A2D64
 ## label
-Centriacinar emphysema produces less voluminous, less pale lungs than panacinar emphysema and obscures the heart less
+Centriacinar vs panacinar emphysema: gross appearance
 ## subject
 resp
 ## status
 under review
 ## definition
-Because centriacinar emphysema destroys the region around the respiratory bronchioles rather than the whole acinus, its gross appearance is less marked than that of panacinar disease: the lungs are less voluminous and less pale, and overlap the heart less at post-mortem.
+**Centriacinar emphysema** destroys the region around the respiratory bronchioles rather than the whole acinus, so its gross appearance is __less marked than that of panacinar disease__.
+
+The lungs are **less voluminous** and **less pale**, and overlap the heart less at post-mortem.
 ## explicit_objective
 Distinguish centriacinar from panacinar emphysema by the naked-eye appearance of the lungs and by the part of the acinus destroyed.
 ## original_wording
@@ -107,13 +117,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-A93F9D04787B4C
 ## label
-A more severe pharyngitis with marked hyperaemia and exudate occurs with beta-haemolytic streptococcal and adenovirus infection
+Exudative pharyngitis: streptococci and adenovirus
 ## subject
 resp
 ## status
 under review
 ## definition
-Marked hyperaemia of the pharynx with a visible exudate is characteristically associated with beta-haemolytic streptococcal and adenoviral infection. Because two different organisms produce the same appearance, the appearance alone cannot establish which is responsible.
+Marked **hyperaemia** of the pharynx with a visible **exudate** is characteristically associated with **beta-haemolytic streptococcal** and **adenoviral** infection.
+
+Because two different organisms produce the same appearance, __the appearance alone cannot establish which is responsible__.
 ## explicit_objective
 Recognise the exudative pattern of pharyngitis and explain why appearance alone does not identify the organism.
 ## original_wording
@@ -128,13 +140,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-EA9A6089817998
 ## label
-A solitary lung abscess is more common on the right side
+Lung abscess: why right-sided
 ## subject
 resp
 ## status
 under review
 ## definition
-Aspiration-related lung abscesses are usually solitary and more often right-sided, because the right main bronchus is wider, shorter and more vertical than the left, so aspirated material passes into it preferentially.
+Aspiration-related **lung abscesses** are usually solitary and more often __right-sided__.
+
+The **right main bronchus** is wider, shorter and more vertical than the left, so aspirated material passes into it preferentially.
 ## explicit_objective
 Predict the side of an aspiration lung abscess from the anatomy of the main bronchi.
 ## original_wording
@@ -149,13 +163,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-BECD91B06EA39D
 ## label
-The terminal bronchiole lies immediately proximal to the respiratory bronchiole
+Terminal and respiratory bronchioles: the boundary
 ## subject
 resp
 ## status
 under review
 ## definition
-The terminal bronchiole is the last purely conducting airway. The respiratory bronchiole immediately distal to it is the first airway to take part in gas exchange, which is where the conducting zone ends and the respiratory zone begins.
+The **terminal bronchiole** is the last __purely conducting airway__.
+
+The **respiratory bronchiole** immediately distal to it is the first airway to take part in gas exchange — where the conducting zone ends and the respiratory zone begins.
 ## explicit_objective
 Place the terminal and respiratory bronchioles in sequence and identify where the conducting zone ends.
 ## original_wording
@@ -170,13 +186,15 @@ arabicLabel: no reviewed Arabic terminology has been supplied; the label is not 
 ## id
 CON-RES-E0B3E37B828F65
 ## label
-Respiratory pathogens commonly attach to the epithelium, causing cell necrosis and an inflammatory response
+How respiratory pathogens injure the airway
 ## subject
 resp
 ## status
 under review
 ## definition
-A common mechanism of respiratory infection is adherence of the organism to the respiratory epithelium, followed by necrosis of those cells and an inflammatory reaction to the damage. That sequence explains the loss of the mucociliary escalator during an infection and the frequency with which bacterial infection follows a viral one.
+A common mechanism of respiratory infection is **adherence** of the organism to the respiratory epithelium, followed by __necrosis of those cells__ and an inflammatory reaction to the damage.
+
+That sequence explains the loss of the **mucociliary escalator** during an infection, and the frequency with which **bacterial infection follows a viral one**.
 ## explicit_objective
 Describe the sequence by which a respiratory pathogen injures the airway lining, and relate it to impaired clearance during infection.
 ## original_wording
