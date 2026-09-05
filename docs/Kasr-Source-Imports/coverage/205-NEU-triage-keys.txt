@@ -19,8 +19,14 @@ earlier Q23 hold).
 Q30.C   Q31.A   Q32.D   Q33.A   Q34.A   Q35.B   Q36.B   Q37.D   Q38.C   Q39.C
 Q40.B   Q41.A   Q42.C   Q43.C   Q44.B   Q45.C   Q46.D   Q47.D   Q48.A   Q49.D
 Q50.C   Q51.A   Q52.A
-# physiology (next cluster, not authored here):
+# physiology cluster 2024-eom-physiology (Q53-75 authored; keys render-confirmed
+# green highlight on pages 8-10 at 170dpi):
 Q53.B   Q54.D   Q55.D   Q56.A   Q57.D   Q58.C   Q59.A
+Q60.D   Q61.A   Q62.B   Q63.C   Q64.B   Q65.B   Q66.D   Q67.B   Q68.D   Q69.D
+Q70.A   Q71.D   Q72.A   Q73.B   Q74.D   Q75.A
+# Q72 caveat: exam option a says tabes dorsalis is due to "virus"; the true cause is
+# Treponema pallidum (neurosyphilis). Option a keyed for its correct localisation to the
+# posterior root ganglia; MCQ explanation states the accurate spirochaetal aetiology.
 
 EXCLUDED (key not recovered / ambiguous):
 Q29 — option c "Glossopharyngeal" highlighted in ORANGE (not the confirmed green), with
