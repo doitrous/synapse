@@ -13,6 +13,7 @@
 export type InlineToken =
   | { kind: 'text'; text: string }
   | { kind: 'strong'; text: string }
+  | { kind: 'underline'; text: string }
   | { kind: 'em'; text: string }
   | { kind: 'code'; text: string }
   | { kind: 'link'; text: string; href: string }
@@ -37,6 +38,9 @@ const PATTERNS: Array<{ kind: InlineToken['kind']; re: RegExp; notAfter?: string
   { kind: 'code', re: /`([^`\n]+)`/g },
   { kind: 'link', re: /\[([^\]\n]+)\]\(([^)\s]+)\)/g },
   { kind: 'strong', re: /\*\*([^*\n]+)\*\*/g },
+  // Underline is `__like this__`. Authored content uses it to mark key terms for
+  // scanning; single underscores (identifiers like SUB_PE) never pair up.
+  { kind: 'underline', re: /__([^_\n]+)__/g },
   { kind: 'em', re: /\*([^*\n]+)\*(?!\*)/g, notAfter: '*' },
 ]
 
@@ -89,5 +93,5 @@ export function tokenizeInline(input: string): InlineToken[] {
 
 /** True when a string contains nothing this renderer would change. */
 export function isPlainInline(input: string): boolean {
-  return !/[`*[]/.test(input)
+  return !/[`*[_]/.test(input)
 }

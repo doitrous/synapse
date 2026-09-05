@@ -24,6 +24,8 @@ export function RichText({ text, className }: { text: string; className?: string
     switch (token.kind) {
       case 'strong':
         return <strong key={key} className="font-semibold text-ink">{token.text}</strong>
+      case 'underline':
+        return <u key={key} className="underline decoration-1 underline-offset-2">{token.text}</u>
       case 'em':
         return <em key={key} className="italic">{token.text}</em>
       case 'code':
