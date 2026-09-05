@@ -52,6 +52,8 @@ import com.synapse.android.design.PracticalGlyph
 import com.synapse.android.design.QuestionBankGlyph
 import com.synapse.android.feature.settings.SettingsScreen
 import com.synapse.android.feature.settings.SettingsViewModel
+import com.synapse.android.feature.adaptive.AdaptiveStudyScreen
+import com.synapse.android.feature.adaptive.AdaptiveStudyViewModel
 import com.synapse.android.feature.assistant.AssistantScreen
 import com.synapse.android.feature.assistant.AssistantViewModel
 import com.synapse.android.feature.auth.SignInScreen
@@ -94,6 +96,7 @@ private const val ROUTE_ACCOUNT = "account"
 private const val ROUTE_PERFORMANCE = "performance"
 private const val ROUTE_NOTEBOOK = "notebook"
 private const val ROUTE_CALENDAR = "calendar"
+private const val ROUTE_ADAPTIVE = "adaptive"
 private const val ROUTE_TERMINOLOGY = "terminology"
 private const val ROUTE_ASSISTANT = "assistant"
 private const val ROUTE_BILLING = "billing"
@@ -335,6 +338,7 @@ private fun SignedInNavHost(
                     onOpenAssistant = { navController.navigate(ROUTE_ASSISTANT) },
                     onOpenLibrary = { navController.navigate(ROUTE_LIBRARY) },
                     onOpenStudyRooms = { navController.navigate(ROUTE_STUDYROOMS) },
+                    onOpenAdaptiveStudy = { navController.navigate(ROUTE_ADAPTIVE) },
                 )
             }
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
@@ -357,6 +361,10 @@ private fun SignedInNavHost(
             composable(ROUTE_CALENDAR) {
                 val viewModel: CalendarViewModel = viewModel(factory = CalendarViewModel.factory(graph.store, graph.sync, graph.connectivity))
                 CalendarScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
+            }
+            composable(ROUTE_ADAPTIVE) {
+                val viewModel: AdaptiveStudyViewModel = viewModel(factory = AdaptiveStudyViewModel.factory(graph.store, graph.sync, graph.connectivity))
+                AdaptiveStudyScreen(viewModel = viewModel, onBack = { navController.popBackStack() })
             }
             composable(ROUTE_TERMINOLOGY) {
                 val viewModel: TerminologyViewModel = viewModel(factory = TerminologyViewModel.factory(graph.store))

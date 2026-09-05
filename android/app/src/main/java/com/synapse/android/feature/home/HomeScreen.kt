@@ -85,6 +85,7 @@ fun HomeRoute(
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenAdaptiveStudy: () -> Unit,
 ) {
     val viewModel: HomeViewModel = viewModel(
         factory = HomeViewModel.factory(graph.auth, graph.store, graph.sync, graph.connectivity),
@@ -103,6 +104,7 @@ fun HomeRoute(
         onOpenAssistant = onOpenAssistant,
         onOpenLibrary = onOpenLibrary,
         onOpenStudyRooms = onOpenStudyRooms,
+        onOpenAdaptiveStudy = onOpenAdaptiveStudy,
     )
 }
 
@@ -140,6 +142,7 @@ fun HomeScreen(
     onOpenAssistant: () -> Unit,
     onOpenLibrary: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenAdaptiveStudy: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     var comingSoon by remember { mutableStateOf<String?>(null) }
@@ -183,6 +186,7 @@ fun HomeScreen(
                 onOpenTerminology = onOpenTerminology,
                 onOpenAssistant = onOpenAssistant,
                 onOpenStudyRooms = onOpenStudyRooms,
+                onOpenAdaptiveStudy = onOpenAdaptiveStudy,
             )
         }
     }
@@ -386,6 +390,7 @@ private fun MoreGrid(
     onOpenTerminology: () -> Unit,
     onOpenAssistant: () -> Unit,
     onOpenStudyRooms: () -> Unit,
+    onOpenAdaptiveStudy: () -> Unit,
 ) {
     val cortex = LocalCortex.current
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -466,9 +471,13 @@ private fun MoreGrid(
                 onClick = onOpenStudyRooms,
                 modifier = Modifier.weight(1f),
             )
-            // A spacer twin keeps the last row's single card at grid width
-            // rather than stretching it across both columns.
-            Spacer(modifier = Modifier.weight(1f))
+            GridCard(
+                icon = { PerformanceGlyph(color = cortex.accentStrong) },
+                label = "Adaptive study",
+                sublabel = "Target your weak spots",
+                onClick = onOpenAdaptiveStudy,
+                modifier = Modifier.weight(1f),
+            )
         }
     }
 }

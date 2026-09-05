@@ -101,6 +101,10 @@ class SyncEngineTest {
                 "synapse-medical-glossary-v1", "synapse-medical-evidence-published-v1",
                 "synapse-plans-v1", "synapse-notification-campaigns-v1",
                 "synapse-vouchers-v1", "synapse-system-colors-v1",
+                // Adaptive Study's admin-authored, student-read config + blueprint,
+                // spelled nishany-* because the feature was written post-rebrand
+                // (the held-out set is server-side but nothing on Android reads it).
+                "nishany-adaptive-config-v1", "nishany-adaptive-blueprints-v1",
             ),
             SyncEngine.CATALOGUE_KEYS,
         )
