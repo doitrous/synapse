@@ -5,7 +5,8 @@
 | 2025-eom-anatomy-tranche-1 (Q1-16, `EOM - 206 solved (197).pdf`) | 16 | 0 | 104 | 120 |
 | 2025-eom-anatomy-tranche-2 (Q17-42, same paper) | 26 | 0 | 78 | 104 |
 | 2025-eom-physiology-tranche-3 (Q43-64, same paper) | 22 | 0 | 56 | 78 |
-| 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 42 | 0 | 1 (untriaged) | 1 |
+| 2025-eom-physiology-tranche-4 (Q65-84, same paper) | 20 | 0 | 36 | 56 |
+| 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 62 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
 (Q17-42, all Anatomy — posterior abdominal wall/retroperitoneal vasculature and nerves,
@@ -33,6 +34,23 @@ correction above — so Q65-113 render verification is effectively done; Q114-12
 has now been individually render-verified against the OCR "@" reading** (this tranche
 authored Q43-64; Q65-120 is verified-but-not-yet-authored). 9 more tier 1-3 papers and 31
 tier-5 banks for this module are entirely untriaged.
+
+Tranche 4: 20/20 questions authored (Q65-84, all Physiology continuation — energy
+metabolism and thermoregulation [BMR, cold responses, fever set-point, food-intake control,
+specific dynamic action] Q65-69, and renal physiology [JG baroreceptors, GFR markers,
+tubular secretion/transport, Na+/K+/glucose/water handling, countercurrent system, SIADH,
+acid-base] Q70-84), 0 held. Cluster ends exactly where the Histology section begins at Q85.
+20 new concepts minted university-blind via `mint-concept-id.mjs` (5 `CON-END-*`
+metabolism/thermo under DIS-PHY-T08/T06, 15 `CON-REN-*` renal under DIS-PHY-T04) — no live
+collisions; grouped into 3 library articles (metabolism/thermoregulation; renal tubular
+function; urine concentration and acid-base). PDF p.10 (Q65-72) was re-rendered this pass to
+confirm the keys and de-scramble Q71's OCR option order (correct = "creatinine is partially
+secreted"); Q73-84 relied on the tranche-3 render verification. Authored in
+`question/206-DIG-2025eom-mcq-tranche4.md`, `concept/206-DIG-renal-metabolism-tranche4-concepts.md`,
+`article/206-DIG-renal-metabolism-tranche4-articles.md`. Gate-clean (batch 0 errors, simulate
+created=43/rejected=0, audit neutral vs the tranche-3 baseline — no new error categories).
+**36 questions remain on this paper: Q85-113 Histology (29) + Q114-120 Biochemistry (7)** —
+all render-verified, next author starts at Q85.
 
 ## Sources
 
