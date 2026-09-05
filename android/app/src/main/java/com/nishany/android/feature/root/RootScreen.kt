@@ -84,6 +84,7 @@ import com.nishany.android.feature.qbank.RunnerViewModel
 import com.nishany.android.feature.qbank.SessionBuilderScreen
 import com.nishany.android.feature.qbank.TopicChooserScreen
 import com.nishany.android.feature.reader.ArticleReaderRoute
+import com.nishany.android.feature.reader.ResourceReaderRoute
 import com.nishany.android.feature.studyrooms.StudyRoomsRoute
 import java.time.Duration
 import kotlinx.coroutines.flow.first
@@ -111,6 +112,12 @@ private const val ROUTE_STUDYROOMS = "studyrooms"
 // returns to the Library and a "read next" link can push another Reader on top.
 private const val ROUTE_READER = "reader"
 private const val ARG_ARTICLE_ID = "articleId"
+// The resource Reader (PDF + ink), pushed from the Library with the
+// resource's id -- the same shape as ROUTE_READER above, kept as a separate
+// route rather than overloading ROUTE_READER because the two destinations
+// read entirely different content (an authored article vs. a downloaded PDF).
+private const val ROUTE_RESOURCE_READER = "resource-reader"
+private const val ARG_RESOURCE_ID = "resourceId"
 
 /**
  * Collects [AppGraph.auth]'s state and shows exactly one thing per
@@ -388,6 +395,20 @@ private fun SignedInNavHost(
                     graph = graph,
                     onBack = { navController.popBackStack() },
                     onOpenReader = { articleId -> navController.navigate("$ROUTE_READER/${Uri.encode(articleId)}") },
+                    onOpenResource = { resourceId -> navController.navigate("$ROUTE_RESOURCE_READER/${Uri.encode(resourceId)}") },
+                )
+            }
+            // The resource Reader (PDF + ink annotations) -- same shape as
+            // ROUTE_READER above.
+            composable(
+                route = "$ROUTE_RESOURCE_READER/{$ARG_RESOURCE_ID}",
+                arguments = listOf(navArgument(ARG_RESOURCE_ID) { type = NavType.StringType }),
+            ) { backStackEntry ->
+                val resourceId = backStackEntry.arguments?.getString(ARG_RESOURCE_ID).orEmpty()
+                ResourceReaderRoute(
+                    graph = graph,
+                    resourceId = resourceId,
+                    onBack = { navController.popBackStack() },
                 )
             }
             // The article Reader, carrying the article id in the route the same

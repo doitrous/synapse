@@ -63,7 +63,7 @@ import com.nishany.android.design.LocalCortex
  * iOS `LibraryView`/`ResourcesView` handle it.
  */
 @Composable
-fun LibraryRoute(graph: AppGraph, onBack: () -> Unit, onOpenReader: (String) -> Unit) {
+fun LibraryRoute(graph: AppGraph, onBack: () -> Unit, onOpenReader: (String) -> Unit, onOpenResource: (String) -> Unit = {}) {
     val viewModel: LibraryViewModel = viewModel(factory = LibraryViewModel.factory(graph.store, graph.sync))
     val state by viewModel.state.collectAsState()
     val syncStatus by graph.sync.status.collectAsState()
@@ -74,7 +74,7 @@ fun LibraryRoute(graph: AppGraph, onBack: () -> Unit, onOpenReader: (String) -> 
         if (syncStatus is SyncStatus.Done) viewModel.load()
     }
 
-    LibraryScreen(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader)
+    LibraryScreen(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader, onOpenResource = onOpenResource)
 }
 
 /** Which detail card, if any, is open on top of the shelf. */
@@ -89,6 +89,7 @@ fun LibraryScreen(
     state: LibraryUiState,
     onBack: () -> Unit,
     onOpenReader: (String) -> Unit,
+    onOpenResource: (String) -> Unit = {},
 ) {
     val cortex = LocalCortex.current
     Column(
@@ -107,7 +108,7 @@ fun LibraryScreen(
                 CenteredMessage { Text(state.message, color = cortex.ink2) }
             }
 
-            is LibraryUiState.Loaded -> LoadedLibrary(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader)
+            is LibraryUiState.Loaded -> LoadedLibrary(viewModel = viewModel, state = state, onBack = onBack, onOpenReader = onOpenReader, onOpenResource = onOpenResource)
         }
     }
 }
@@ -118,6 +119,7 @@ private fun LoadedLibrary(
     state: LibraryUiState.Loaded,
     onBack: () -> Unit,
     onOpenReader: (String) -> Unit,
+    onOpenResource: (String) -> Unit,
 ) {
     var detail by remember { mutableStateOf<LibraryDetail?>(null) }
     // 0 = Resources shelf, 1 = Library taxonomy.
@@ -141,7 +143,7 @@ private fun LoadedLibrary(
     when (val open = detail) {
         is LibraryDetail.Resource -> {
             val resource = state.resources.firstOrNull { it.id == open.id }
-            ResourceDetailCard(resource = resource, onBack = { detail = null })
+            ResourceDetailCard(resource = resource, onBack = { detail = null }, onOpenResource = onOpenResource)
             return
         }
         is LibraryDetail.Article -> {
@@ -408,7 +410,7 @@ private fun ArticleRow(article: ArticleCard, onClick: () -> Unit) {
 // -- Detail cards (reader stubbed) ----------------------------------------
 
 @Composable
-private fun ResourceDetailCard(resource: LibraryResource?, onBack: () -> Unit) {
+private fun ResourceDetailCard(resource: LibraryResource?, onBack: () -> Unit, onOpenResource: (String) -> Unit) {
     val cortex = LocalCortex.current
     Header(title = "Resource", onBack = onBack)
     if (resource == null) {
@@ -429,18 +431,14 @@ private fun ResourceDetailCard(resource: LibraryResource?, onBack: () -> Unit) {
         if (resource.meta.isNotEmpty()) MetaRow("Location", resource.meta)
 
         Spacer(Modifier.size(8.dp))
-        // The article Reader is wired (see ArticleDetailCard). The *resource*
-        // reader is the PDF + ink-annotation surface
-        // (ios/Synapse/Features/Library/ResourceReaderView.swift): it needs a
-        // native PDF engine (continuous render + text search/outline) plus a
-        // resource file-download store, neither of which Android has yet.
-        // Deferred pending that decision -- see the M6 report.
+        // The resource Reader (PDF, built-in PdfRenderer, plus ink/highlighter
+        // annotations synced cross-device) -- see feature/reader/ResourceReaderScreen.kt.
         Button(
-            onClick = { /* TODO: open reader */ },
-            enabled = false,
+            onClick = { onOpenResource(resource.id) },
+            enabled = resource.isOpenable,
             colors = ButtonDefaults.buttonColors(containerColor = cortex.primary, contentColor = cortex.onPrimary),
         ) {
-            Text(if (resource.isOpenable) "Open (coming soon)" else "Not yet available")
+            Text(if (resource.isOpenable) "Open" else "Not yet available")
         }
     }
 }
