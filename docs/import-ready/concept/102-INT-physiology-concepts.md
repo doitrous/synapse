@@ -44,7 +44,7 @@
 # Item
 
 ## label
-Total body water divides into the intracellular and extracellular compartments in a fixed 2:1 ratio, and the extracellular compartment splits further into plasma and interstitial fluid
+Body fluid compartments and their distribution
 
 ## id
 CON-HEM-428F8B432AF540
@@ -62,7 +62,13 @@ body-fluid-compartments-distribution
 [clear]
 
 ## definition
-Total body water (TBW) is about 60% of body weight in a normal adult male, 18% protein, 15% fat and 7% mineral making up the other 40%; TBW is about 75% of body weight in infants and less than 60% in adult females and obese people because of their higher fat content. TBW divides into the intracellular fluid (ICF) compartment, 2/3 of TBW and 40% of body weight, and the extracellular fluid (ECF) compartment, 1/3 of TBW and 20% of body weight. The ECF itself splits into the intravascular fluid (plasma), 5% of body weight, and the interstitial fluid (ISF), 15% of body weight, the fluid outside the vessels around the cells. Total blood volume — plasma plus the cellular elements — is about 8% of body weight. ICF and ECF differ in ionic composition: the main ECF cation is sodium, with calcium; the main ECF anion is chloride, with bicarbonate. The main ICF cation is potassium, with magnesium; the main ICF anion is phosphate, with protein. Osmolarity is the same across all compartments, about 300 mOsmol/L.
+Total body water (TBW) is about **60% of body weight** in a normal adult male — the other 40% being 18% protein, 15% fat and 7% mineral. TBW is about __75% in infants__ and less than 60% in adult females and obese people, because of their higher fat content.
+
+TBW divides into two compartments. The **intracellular fluid (ICF)** is 2/3 of TBW and 40% of body weight; the **extracellular fluid (ECF)** is 1/3 of TBW and 20% of body weight.
+
+The ECF itself splits into the **intravascular fluid (plasma)**, 5% of body weight, and the **interstitial fluid (ISF)**, 15% of body weight — the fluid outside the vessels around the cells. __Total blood volume, plasma plus the cellular elements, is about 8% of body weight.__
+
+ICF and ECF differ in ionic composition. The main **ECF** ions are __sodium (cation) and chloride (anion)__, with calcium and bicarbonate; the main **ICF** ions are __potassium (cation) and phosphate (anion)__, with magnesium and protein. Osmolarity is the same across all compartments, about **300 mOsmol/L**.
 
 ## explicit_objective
 State the fractional distribution of total body water across the intracellular, plasma and interstitial compartments, and name the dominant cation and anion in the ICF and the ECF.
@@ -226,7 +232,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Fick's principle measures a body fluid compartment's volume from a known injected amount of an inert indicator divided by its concentration once evenly distributed
+Fick's principle for measuring fluid volumes
 
 ## id
 CON-HEM-3BA196A0474CA7
@@ -244,7 +250,11 @@ ficks-principle-volume-measurement
 [clear]
 
 ## definition
-Fick's principle states: volume of compartment = amount of indicator injected / concentration of indicator in plasma. An inert, non-toxic indicator the tissues do not use is injected intravenously and given time to distribute evenly, then its plasma concentration is measured by blood sample. Which indicator is chosen depends on the compartment being measured: total body water uses heavy water (D2O) or antipyrine, which distribute into every compartment; ECF volume uses inulin or sodium thiocyanate, which stay extracellular; plasma volume uses Evans blue dye or plasma proteins labelled with radioactive iodine, which stay intravascular. ICF volume cannot be measured directly and is calculated as TBW − ECF; ISF volume likewise is calculated as ECF − plasma (IVF) volume.
+**Fick's principle**: volume of compartment = amount of indicator injected / concentration of indicator in plasma. An __inert, non-toxic indicator__ the tissues do not use is injected intravenously, given time to distribute evenly, then its plasma concentration is measured from a blood sample.
+
+The **indicator chosen depends on the compartment**. Total body water uses __heavy water (D2O) or antipyrine__, which spread into every compartment. ECF volume uses **inulin or sodium thiocyanate**, which stay extracellular. Plasma volume uses **Evans blue dye or radio-iodine-labelled plasma proteins**, which stay intravascular.
+
+Two volumes cannot be measured directly and are calculated instead: __ICF = TBW − ECF__, and __ISF = ECF − plasma (IVF)__.
 
 ## explicit_objective
 State Fick's principle for measuring a fluid compartment's volume and name the indicator substance used for total body water, ECF and plasma.
@@ -405,7 +415,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Homeostatic control systems detect and correct a change in the internal environment mainly by negative feedback, with positive feedback reserved for a few self-accelerating processes
+Homeostasis and feedback control
 
 ## id
 CON-HEM-CAB75A4AE56C30
@@ -423,7 +433,13 @@ homeostasis-control-and-feedback-mechanisms
 [clear]
 
 ## definition
-Homeostasis is keeping the conditions of the internal environment — the interstitial fluid surrounding the cells — constant; most body systems work to maintain it, and its failure often leads to disease and death. A control system has a stimulus, a receptor, a control centre, one or more effector organs, and a feedback mechanism. Almost all homeostatic control mechanisms are negative feedback: the response drives the variable back to its original value. Positive feedback instead makes the response progressively larger, and the body uses it to accelerate a process that must complete rapidly; blood clotting and uterine contractions during childbirth are its two examples. Homeostasis depends on two exchange processes: across the cell membrane (cells take up O2 and food from the interstitial fluid and give up CO2 and waste) and across the capillary wall (O2 and food diffuse from blood to interstitial fluid and waste diffuses back), with blood carrying waste to the kidneys and CO2 to the lungs for excretion; ECF temperature is held constant by a balance of heat production and heat loss, and ECF pH by the body's buffers.
+**Homeostasis** is keeping the internal environment — the interstitial fluid around the cells — constant. Most body systems work to maintain it, and __its failure often leads to disease and death__.
+
+A control system has five components: a **stimulus, a receptor, a control centre, one or more effector organs, and a feedback mechanism**.
+
+Almost all homeostatic mechanisms use __negative feedback__: the response drives the variable back to its original value. **Positive feedback** instead makes the response progressively larger, to accelerate a process that must finish rapidly — its two examples are __blood clotting and uterine contractions during childbirth__.
+
+Homeostasis depends on two exchange processes: across the **cell membrane** (cells take up O2 and food from interstitial fluid and give up CO2 and waste) and across the **capillary wall** (O2 and food diffuse from blood to interstitial fluid, waste diffuses back). Blood carries waste to the kidneys and CO2 to the lungs; ECF temperature is held constant by balancing heat production and loss, and ECF pH by the body's buffers.
 
 ## explicit_objective
 Name the five components of a homeostatic control system and explain why almost all of them use negative rather than positive feedback.
@@ -585,7 +601,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Blood is a slightly alkaline transport medium, about 8% of body weight, made of 55% plasma and 45% cellular elements
+Blood composition and physical properties
 
 ## id
 CON-HEM-58D4AD4945A1DF
@@ -603,7 +619,9 @@ blood-composition-and-physical-properties
 [clear]
 
 ## definition
-Blood is the transport medium of the body, slightly alkaline (pH 7.4), with an average volume of 5 L in a normal adult male and about 4.5 L in females, constituting about 8% of body weight in a normal healthy young adult. It has two main components: plasma, 55% of total blood volume, the fluid part of the blood; and the cellular elements, 45% of total blood volume — red blood corpuscles (RBCs), white blood cells (WBCs) and platelets (thrombocytes).
+Blood is the **transport medium of the body**, slightly alkaline (__pH 7.4__), with an average volume of about **5 L in adult males and 4.5 L in females** — roughly __8% of body weight__ in a healthy young adult.
+
+It has two main components: **plasma**, 55% of blood volume, the fluid part; and the **cellular elements**, 45% of blood volume — __red blood corpuscles (RBCs), white blood cells (WBCs) and platelets (thrombocytes)__.
 
 ## explicit_objective
 State blood's normal pH, adult volume, and the percentage split between plasma and cellular elements.
@@ -762,7 +780,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Blood's main function is gas transport, alongside defence, heat distribution, prevention of blood loss, and maintenance of homeostasis
+Functions of blood
 
 ## id
 CON-HEM-ECAAD731BC13D7
@@ -780,7 +798,9 @@ functions-of-blood
 [clear]
 
 ## definition
-Blood's functions are delivering oxygen to body cells and removing carbon dioxide and other waste products — its main function; defence against invading microorganisms and tumours; distribution of heat; prevention of blood loss; and maintenance of homeostasis — body temperature, pH, ionic composition, and the volume of the internal environment.
+Blood's __main function is gas transport__: delivering **oxygen** to body cells and removing **carbon dioxide** and other waste products.
+
+Its other functions are **defence** against invading microorganisms and tumours, **distribution of heat**, **prevention of blood loss**, and **maintenance of homeostasis** — body temperature, pH, ionic composition, and the volume of the internal environment.
 
 ## explicit_objective
 List the five functions of blood, identifying which one is the main function.
@@ -938,7 +958,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Adult haemoglobin is 96-98% HbA and 2-4% HbA2, while fetal haemoglobin HbF has a higher oxygen affinity and is fully replaced by HbA by four months of age
+Types of haemoglobin: HbA, HbA2, HbF
 
 ## id
 CON-HEM-620F7B36ACAA16
@@ -956,7 +976,11 @@ hemoglobin-types-hba-hba2-hbf
 [clear]
 
 ## definition
-There are three types of haemoglobin. Adult haemoglobin (HbA) is 96-98% of Hb in the adult. Haemoglobin A2 is 2-4% of adult Hb. Fetal haemoglobin (HbF) has more affinity for O2 than HbA, allowing the fetus to extract oxygen from the mother's blood during pregnancy; after birth HbF is changed to HbA, a process completed by the age of 4 months. Haemoglobin content — the amount of Hb in 100 mL of blood — is 15-16 g/dL in adult males and 13-14 g/dL in adult females, reaching up to 19 g/dL in normal newborn infants because of relative intrauterine oxygen deficiency (hypoxia).
+There are three types of haemoglobin. **Adult haemoglobin (HbA)** is __96-98%__ of adult Hb, and **haemoglobin A2** is __2-4%__.
+
+**Fetal haemoglobin (HbF)** has a __higher affinity for O2 than HbA__, letting the fetus extract oxygen from the mother's blood during pregnancy. After birth HbF is replaced by HbA, a change __completed by 4 months of age__.
+
+**Haemoglobin content** — the amount of Hb in 100 mL of blood — is **15-16 g/dL in adult males** and **13-14 g/dL in females**, reaching up to __19 g/dL in newborns__ because of relative intrauterine oxygen deficiency (hypoxia).
 
 ## explicit_objective
 State the three types of haemoglobin, their approximate adult proportions, and why fetal haemoglobin's higher O2 affinity matters before birth.
@@ -1118,7 +1142,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Haemoglobin undergoes four named chemical reactions - with oxygen, carbon dioxide, carbon monoxide, and oxidising agents - forming oxy-, carbamino-, carboxy- and met-haemoglobin
+Chemical reactions of haemoglobin
 
 ## id
 CON-HEM-CA5D4380823112
@@ -1136,7 +1160,11 @@ hemoglobin-chemical-reactions
 [clear]
 
 ## definition
-Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so this is oxygenation, not oxidation. Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron. Hb reacts with carbon monoxide to form carboxyhaemoglobin. On exposure to strong oxidising agents, the Fe2+ iron is oxidised to ferric (Fe3+), forming dark-coloured methaemoglobin, which cannot carry oxygen; small amounts form normally and are reduced back to haemoglobin by NADH-methaemoglobin reductase.
+Hb unites loosely with oxygen to form **oxyhaemoglobin**. The O2 attaches to iron that stays in the __Fe2+ state__, so this is oxygenation, not oxidation.
+
+Hb combines with CO2 to form **carbaminohaemoglobin**, with the CO2 attached to the __polypeptide chains, not the iron__. Hb reacts with carbon monoxide to form **carboxyhaemoglobin**.
+
+On exposure to strong **oxidising agents**, the Fe2+ iron is oxidised to __ferric (Fe3+)__, forming dark **methaemoglobin**, which __cannot carry oxygen__. Small amounts form normally and are reduced back to haemoglobin by NADH-methaemoglobin reductase.
 
 ## explicit_objective
 Name the four chemical reactions of haemoglobin and state which one is not a true oxidation.
@@ -1297,7 +1325,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Erythropoietin, mainly renal in the adult (85%, with 15% hepatic), is released in response to hypoxia and stimulates every step of erythropoiesis
+Erythropoietin: source and regulation
 
 ## id
 CON-HEM-6DBD73A50D2AD4
@@ -1315,7 +1343,13 @@ erythropoietin-source-and-regulation
 [clear]
 
 ## definition
-Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration. During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone. Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis. Hypoxia is the main stimulus for its secretion by the kidneys; alkalosis developing at high altitude, cobalt salts and androgens, and β-adrenergic stimulants and adenosine also stimulate secretion. Recombinant-DNA erythropoietin is available for therapeutic use in the anaemia of renal failure and malignancy.
+**Erythropoietin** is a glycoprotein hormone present in plasma at low concentration. In fetal life it is almost entirely made by the **liver**; in adults, __85% is made by the kidneys and 15% by the liver__.
+
+This split is why **renal failure causes severe anaemia** — __hepatic production cannot compensate__ for the kidneys' loss of the hormone.
+
+Erythropoietin **stimulates all steps of erythropoiesis**, binding receptors on erythropoietin-sensitive cells to __stimulate mitosis and inhibit apoptosis__. Its main secretion stimulus is **hypoxia**; high-altitude alkalosis, cobalt salts, androgens, β-adrenergic stimulants and adenosine also stimulate it.
+
+Recombinant-DNA erythropoietin is used therapeutically in the __anaemia of renal failure and malignancy__.
 
 ## explicit_objective
 State the adult renal/hepatic split of erythropoietin production and name the main stimulus for its secretion.
@@ -1477,7 +1511,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The site of erythropoiesis shifts with age - liver and spleen in the fetus, all bone cavities in childhood, and only the membranous bones after 20
+Site of erythropoiesis by age
 
 ## id
 CON-HEM-A3B0CEA5DFA83E
@@ -1495,7 +1529,13 @@ erythropoiesis-site-by-age
 [clear]
 
 ## definition
-In the fetus, erythropoiesis occurs in the liver and spleen. After birth it occurs in active red marrow in the cavities of all bones; by age 20 the marrow in the cavities of long bones (except the upper humerus and femur) becomes inactive yellow marrow infiltrated by fat, so after age 20 only the membranous bones — vertebrae, skull, ribs and pelvis — produce erythrocytes. The bone marrow is one of the largest and most active organs in the body, approaching the size and weight of the liver. The spleen additionally acts as a site of fetal erythropoiesis, a blood filter that removes old or abnormal RBCs, a blood-storage site that can add volume in acute haemorrhage, a store for 30% of platelets, and an immune organ containing lymphocytes and macrophages.
+In the **fetus**, erythropoiesis occurs in the __liver and spleen__. After birth it occurs in **active red marrow** in the cavities of all bones.
+
+By **age 20**, the marrow in long-bone cavities (except the upper humerus and femur) becomes inactive **yellow marrow** infiltrated by fat. So after 20, only the __membranous bones — vertebrae, skull, ribs and pelvis — produce erythrocytes__.
+
+The **bone marrow** is one of the largest and most active organs in the body, approaching the size and weight of the liver.
+
+The **spleen** has five roles: a site of fetal erythropoiesis, a __blood filter removing old or abnormal RBCs__, a blood-storage site that adds volume in acute haemorrhage, a store for 30% of platelets, and an immune organ of lymphocytes and macrophages.
 
 ## explicit_objective
 Trace the site of erythropoiesis from fetal life through to after age 20, and name the five roles of the spleen.
@@ -1656,7 +1696,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-The body's 3-5g of iron is mostly haemoglobin iron (70%), with the remainder stored as ferritin/haemosiderin (25%), in myoglobin (3%) or bound to cellular enzymes (2%)
+Body iron distribution and storage
 
 ## id
 CON-HEM-A858B859CA693E
@@ -1674,7 +1714,11 @@ body-iron-distribution-and-storage
 [clear]
 
 ## definition
-The human body contains about 3-5 grams of iron: 70% in the haemoglobin of RBCs, 25% stored as ferritin, 3% in muscle myoglobin, and 2% distributed in other tissues as part of cellular enzymes (e.g. cytochrome enzymes, peroxidase, catalase); a very small remaining part circulates in plasma bound to transferrin. Free iron is extremely toxic because it can generate reactive oxygen species harmful to cells, which is why iron is always protein-bound. Ferritin is the main iron-storage form, mainly in liver cells, the spleen, enterocytes of the intestinal mucosa, and bone marrow; ferritin molecules coalesce together to form haemosiderin, another storage form of iron.
+The body holds about **3-5 g of iron**: __70% in the haemoglobin__ of RBCs, **25% stored as ferritin**, 3% in muscle myoglobin, and 2% in cellular enzymes (cytochromes, peroxidase, catalase). A very small part circulates in plasma bound to transferrin.
+
+**Free iron is highly toxic** — it can generate reactive oxygen species harmful to cells — which is why __iron is always protein-bound__.
+
+**Ferritin** is the main storage form, mainly in liver cells, the spleen, intestinal enterocytes and bone marrow. Ferritin molecules coalesce to form **haemosiderin**, __another storage form of the same iron__.
 
 ## explicit_objective
 State the four-way distribution of body iron and name the two intracellular iron-storage forms.
@@ -1834,7 +1878,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Enterocytes absorb ferrous iron via DMT1 and haem iron via HCP1, then export iron to plasma transferrin through ferroportin only when body iron demand is increased
+Iron absorption: DMT1, HCP1 and ferroportin
 
 ## id
 CON-HEM-A6420C4B3B3D9A
@@ -1852,7 +1896,13 @@ iron-absorption-mechanism-dmt1-hcp1-ferroportin
 [clear]
 
 ## definition
-Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). Inside the enterocyte, iron's fate depends on body iron demand: with decreased demand, most of the iron is stored as ferritin and haemosiderin and then lost in the faeces with the sloughed enterocyte; with increased demand, most iron is transported out at the basolateral border by an iron export protein, ferroportin, oxidised to Fe3+ by ferroxidase, and delivered to plasma, where it binds the transport protein transferrin, which has two Fe3+ binding sites and (normally 35% saturated) delivers iron to receptor-bearing cells in bone marrow, liver and muscle. Dietary iron is 10% haem iron (meat and meat products, more absorbable) and 90% non-haem iron (cereals, vegetables, beans, fruit, less absorbable); most dietary iron is in the non-absorbable ferric (Fe3+) form and must be reduced to ferrous (Fe2+) — by ascorbic acid and other reducing substances with the help of gastric HCl — to be absorbed, so patients with decreased HCl secretion (achlorhydria) usually have iron deficiency, and oxalates, phosphates and phytic acid in the diet reduce absorption by forming insoluble complexes with iron.
+Iron is absorbed by **enterocytes** of the intestinal mucosa, mainly in the **duodenum**. At the apical membrane, ferrous iron (Fe2+) enters via __divalent metal transporter 1 (DMT1)__; ferric iron (Fe3+) is first reduced to Fe2+ by a duodenal reductase; and **haem** enters separately via __haem carrier protein 1 (HCP1)__.
+
+Inside the enterocyte, iron's fate depends on **body demand**. With __low demand__, most is stored as ferritin and haemosiderin and lost in the faeces with the sloughed enterocyte. With __high demand__, most is exported at the basolateral border by **ferroportin**, oxidised to Fe3+ by ferroxidase, and delivered to plasma.
+
+In plasma, iron binds **transferrin**, which has two Fe3+ binding sites, is normally __35% saturated__, and delivers iron to receptor-bearing cells in **bone marrow, liver and muscle**.
+
+Dietary iron is __10% haem iron__ (meat and meat products, more absorbable) and __90% non-haem iron__ (cereals, vegetables, beans, fruit, less absorbable). Most dietary iron is in the non-absorbable **ferric (Fe3+)** form and must be reduced to **ferrous (Fe2+)** — by ascorbic acid and other reducing substances with the help of **gastric HCl**. So __achlorhydria usually causes iron deficiency__, and oxalates, phosphates and phytic acid reduce absorption by forming insoluble complexes with iron.
 
 ## explicit_objective
 Name the transporter each form of dietary iron uses to enter the enterocyte, and state what determines whether that iron is stored or exported.
@@ -2013,7 +2063,7 @@ originalWording: Not asked by a past paper in this corpus; authored directly fro
 # Item
 
 ## label
-Hepcidin, a liver-secreted 25-amino-acid hormone, is the main regulator of iron absorption, lowering plasma iron by degrading ferroportin on enterocytes and macrophages
+Hepcidin: main regulator of iron balance
 
 ## id
 CON-HEM-E0B694DE0AF467
@@ -2031,7 +2081,13 @@ hepcidin-regulation-of-iron-balance
 [clear]
 
 ## definition
-The body has no mechanism to regulate iron excretion — iron can only be lost from the body in shed enterocytes or with blood loss — so plasma iron level is regulated mainly through absorption. Hepcidin, a 25-amino-acid hormone secreted by the liver, is the main regulator of that absorption: it binds ferroportin on the basolateral membrane of enterocytes, causing its internalisation and degradation, and binds ferroportin on the surface of macrophages and hepatocytes, inhibiting iron release from those cells — so hepcidin promotes cellular storage of iron and lowers plasma iron levels. The liver senses plasma iron level and regulates hepcidin synthesis and secretion accordingly. Hepcidin production is decreased by iron deficiency, hypoxia and erythropoietin hormone, and increased by excessive iron intake and inflammation, which is why anaemia is present in many inflammatory conditions.
+The body has **no way to regulate iron excretion** — iron is lost only in shed enterocytes or with blood loss — so __plasma iron is regulated mainly through absorption__.
+
+**Hepcidin**, a __25-amino-acid hormone secreted by the liver__, is the main regulator of that absorption. It binds **ferroportin** on the basolateral membrane of enterocytes, causing its internalisation and degradation, and on macrophages and hepatocytes, inhibiting iron release from those cells.
+
+So hepcidin __promotes cellular iron storage and lowers plasma iron__. The liver senses plasma iron level and adjusts hepcidin synthesis and secretion accordingly.
+
+Hepcidin is **decreased** by __iron deficiency, hypoxia and erythropoietin__, and **increased** by excessive iron intake and **inflammation** — which is why __anaemia accompanies many inflammatory conditions__.
 
 ## explicit_objective
 State what hepcidin does to ferroportin and name the factors that raise or lower hepcidin production.
