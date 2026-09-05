@@ -43702,3 +43702,11922 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is worked from the source text, not from a key. Brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow — which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-433
+## title
+Taste bud is an example of
+## question
+Taste bud is an example of
+## vignette
+This item asks the student to place the taste bud in the right one of the four classes of epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Myo-epithelium
+## explanation_a
+Myo-epithelium is modified to contract, around the acini of the salivary, mammary and sweat glands. A taste bud contracts nothing.
+## answer_b
+Surface epithelium
+## explanation_b
+Surface epithelium covers and lines. The bud is embedded in a surface epithelium, which is what makes this tempting, but it is not itself doing the covering.
+## answer_c
+Secretory epithelium
+## explanation_c
+Secretory — glandular — epithelium makes a product. The serous glands of the tongue empty into the trough around the bud, and they are the secretory part; the bud is not.
+## answer_d
+Neuro-epithelium
+## explanation_d
+Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the standard example of it.
+
+Why this is right:
+- Epithelial tissue covers the outer surfaces of the body and lines the surfaces of its cavities.
+- Its cells are crowded with minimal intercellular space; it has a free upper surface and a basal surface resting on a basement membrane that may be clear or not clear; it is avascular, because blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so it is fed by diffusion from the connective tissue beneath; and it has a high power of regeneration.
+- It may be ectodermal, as in skin, mesodermal, as in the serous membranes, or endodermal, as in the gastrointestinal tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-49350AB867CB5A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Place the taste bud in the right one of the four classes of epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q46; Dpt Book MCQ histo 101 .NEW (1).pdf p13 q37; Epithelium | Module 101 questions.pdf.pdf p16 q46. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-434
+## title
+The function of simple columnar epithelium is:
+## question
+The function of simple columnar epithelium is:
+## vignette
+This item asks the student to give both functions of simple columnar epithelium rather than one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Secretion only
+## explanation_a
+True, but not the whole answer. The simple columnar cells of the stomach secrete.
+## answer_b
+Absorption only
+## explanation_b
+True, but not the whole answer. The simple columnar cells of the intestine absorb, which is what their microvilli are for.
+## answer_c
+Secretion and absorption
+## explanation_c
+Correct. The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Protection
+## explanation_d
+Protection is the function of stratified epithelium. One layer of tall cells protects nothing.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Give both functions of simple columnar epithelium rather than one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q16; Dpt Book MCQ histo 101 .NEW (1).pdf p11 q16; Epithelium | Module 101 questions.pdf.pdf p12 q16. Manifest src_510c935c09a7e7cbff32, src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-435
+## title
+One of the following is correct concerning neuro-epithelium:
+## question
+One of the following is correct concerning neuro-epithelium:
+## vignette
+This item asks the student to separate the four classes of epithelium by what each is modified to do.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is modified type of epithelium to contract
+## explanation_a
+Modified to contract is myo-epithelium. Each of the four classes has one modification and they cannot be swapped.
+## answer_b
+Can be keratinized
+## explanation_b
+Keratinisation belongs to stratified squamous surface epithelium of the skin. A receptor cell has no use for a dead protective layer over it.
+## answer_c
+Covers skin & forms glands
+## explanation_c
+Covering skin and forming glands describes surface and glandular epithelium — two of the other three classes in one option.
+## answer_d
+Is present in organ of Corti
+## explanation_d
+Correct. The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Only the taste bud is named in the course material; the organ of Corti comes from the question books.
+
+Why this is right:
+- Epithelial tissue covers the outer surfaces of the body and lines the surfaces of its cavities.
+- Its cells are crowded with minimal intercellular space; it has a free upper surface and a basal surface resting on a basement membrane that may be clear or not clear; it is avascular, because blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so it is fed by diffusion from the connective tissue beneath; and it has a high power of regeneration.
+- It may be ectodermal, as in skin, mesodermal, as in the serous membranes, or endodermal, as in the gastrointestinal tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-49350AB867CB5A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Separate the four classes of epithelium by what each is modified to do.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p5 q47; Epithelium | Module 101 questions.pdf.pdf p16 q47; EOM first 2021 101 INT end of module.pdf p4 q27. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-436
+## title
+One statement is true about simple squamous epithelium:
+## question
+One statement is true about simple squamous epithelium:
+## vignette
+This item asks the student to recall the sites and the avascularity of simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lines the convoluted tubules of kidney
+## explanation_a
+The convoluted tubules are simple cubical. Their job is reabsorption, which needs cytoplasm; the thin cell is used where filtration happens, in Bowman's capsule.
+## answer_b
+Lines the endothelium of blood vessels
+## explanation_b
+Correct. Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_c
+Formed of many layers of cells resting on basement membrane
+## explanation_c
+Many layers would make it stratified. Simple means one layer, all of it on the basement membrane.
+## answer_d
+Penetrated by blood vessels
+## explanation_d
+No epithelium is penetrated by blood vessels. Avascularity is a general character of the tissue, and it is why nutrition arrives by diffusion.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Recall the sites and the avascularity of simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p2 q12; Epithelium | Module 101 questions.pdf.pdf p11 q12; EOM ISK 101 - 2023.pdf p1 q6. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-437
+## title
+One statement is true about stratified columnar epithelium:
+## question
+One statement is true about stratified columnar epithelium:
+## vignette
+This item asks the student to identify a stratified epithelium by the shape of its superficial cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+May be keratinized or non-keratinized
+## explanation_a
+Keratinisation is confined to stratified squamous epithelium in the skin. A columnar surface cell is a living secretory or protective cell, not a dead keratinised plate.
+## answer_b
+The superficial cells are flat
+## explanation_b
+Flat superficial cells would make it stratified squamous. The whole point of the separate name is that the surface cells are not flat.
+## answer_c
+Basal cells are flat
+## explanation_c
+The basal cells are not what any stratified epithelium is classified on, and describing them as flat is doubly wrong — basal cells are columnar or cuboidal.
+## answer_d
+The surface cells are columnar in shape
+## explanation_d
+Correct. Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.
+
+Why this is right:
+- Stratified cubical epithelium is rare and has a limited distribution — usually two layers of cubical cells, as in the ducts of the sweat glands.
+- Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: it is ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_510c935c09a7e7cbff32
+## learning_objective
+Identify a stratified epithelium by the shape of its superficial cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Epithelium] (1).pdf p4 q31; Epithelium | Module 101 questions.pdf.pdf p14 q31. Manifest src_510c935c09a7e7cbff32, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-438
+## title
+Simple squamous epithelium can be found in:
+## question
+Simple squamous epithelium can be found in:
+## vignette
+This item asks the student to name a site of simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Lung alveoli
+## explanation_a
+Correct. The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar, because absorption needs tall cells with microvilli.
+## answer_c
+Trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## answer_d
+Gall bladder
+## explanation_d
+The gall bladder is simple columnar, absorbing water from the bile it stores.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name a site of simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q5; Epithelium | Module 101 questions.pdf.pdf p10 q5. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-439
+## title
+Simple squamous epithelium is formed of:
+## question
+Simple squamous epithelium is formed of:
+## vignette
+This item asks the student to give the cell shape and the nuclear shape of simple squamous epithelium together.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+One layer of cube-like cells with flat nuclei
+## explanation_a
+Cube-like cells are simple cubical, and their nuclei are rounded and central. The option pairs a cubical cell with a squamous nucleus, which does not occur.
+## answer_b
+One layer of flat cells with rounded nuclei
+## explanation_b
+A rounded nucleus does not fit inside a flat cell. The nucleus follows the shape of the cell it is in, which is the principle the question is testing.
+## answer_c
+One layer of flat cells with flat nuclei
+## explanation_c
+Correct. One layer of flat cells with flat nuclei.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_d
+Two layers of flat cells with flat nuclei
+## explanation_d
+Two layers would make it stratified, and no epithelium is called simple with two layers.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Give the cell shape and the nuclear shape of simple squamous epithelium together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q4; Epithelium | Module 101 questions.pdf.pdf p10 q4; EOY 195 first 2022 101 ISK final (1).pdf p15 q18. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-440
+## title
+The stratified squamous epithelium is characterized by:
+## question
+The stratified squamous epithelium is characterized by:
+## vignette
+This item asks the student to connect the desmosome to the epithelium that takes friction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Cells connected by desmosomes
+## explanation_a
+Correct. The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+It is always keratinized
+## explanation_b
+It is keratinised only in the epidermis of the skin. Every other site on the list — oesophagus, oral cavity, cornea, vagina — is non-keratinised.
+## answer_c
+Found in trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated. Stratified squamous appears there only after metaplasia in a heavy smoker.
+## answer_d
+All its cells rest on the basement membrane
+## explanation_d
+All cells resting on the basement membrane is the definition of a simple epithelium, and it is what pseudostratified epithelium exploits. A stratified epithelium has cells that never touch it.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Connect the desmosome to the epithelium that takes friction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p11 q21; Epithelium | Module 101 questions.pdf.pdf p12 q21. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-441
+## title
+2- Mesothelium is :
+## question
+2- Mesothelium is :
+## vignette
+This item asks the student to define mesothelium by its epithelium and its site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Simple squamous epithelium that lines serous cavities
+## explanation_a
+Correct. Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+Simple squamous epithelium that lines the lumen of the
+## explanation_b
+The option describing a vessel lumen names endothelium, which is the same epithelium under the other regional name. Distinguishing the two is what the question exists for.
+## answer_c
+Found in kidney tubules
+## explanation_c
+The kidney tubules are simple cubical, and neither name applies to them.
+## answer_d
+B and C can be correct
+## explanation_d
+A hedge that cannot be right, since options B and C are wrong on their own terms.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Define mesothelium by its epithelium and its site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p7 q39. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-442
+## title
+A type of epithelium with limited distribution in the body is
+## question
+A type of epithelium with limited distribution in the body is
+## vignette
+This item asks the student to recognise stratified cubical epithelium as the rare one.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Stratified cubical epithelium
+## explanation_a
+Correct. Stratified cubical epithelium is rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.
+
+Why this is right:
+- Stratified cubical epithelium is rare and has a limited distribution — usually two layers of cubical cells, as in the ducts of the sweat glands.
+- Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: it is ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra.
+## answer_b
+Simple columnar epithelium
+## explanation_b
+Simple columnar epithelium lines most of the gastrointestinal tract, which is as widely distributed as an epithelium gets.
+## answer_c
+Transitional epithelium
+## explanation_c
+Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and it is not rare.
+## answer_d
+Simple squamous epithelium
+## explanation_d
+Simple squamous epithelium is everywhere: every blood vessel, every serous sac, every alveolus.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise stratified cubical epithelium as the rare one.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q23. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-443
+## title
+All the statements concerning the transitional epithelium is true EXCEPT:
+## question
+All the statements concerning the transitional epithelium is true EXCEPT:
+## vignette
+This item asks the student to recall the shape of the basal cells of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Exclusively in the urinary system
+## explanation_a
+True, so not the exception. Transitional epithelium is found in the urinary system and nowhere else.
+## answer_b
+Superficial cells occasionally bicnucleated
+## explanation_b
+True, so not the exception. The large superficial dome cells are sometimes binucleated.
+## answer_c
+Basal layer is squamous cells
+## explanation_c
+Correct. The exception, and the answer. The basal cells are cuboidal with central rounded nuclei. Squamous basal cells occur in no epithelium at all — a basal cell is always cuboidal or columnar, because it is the youngest cell and has not yet been flattened.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_d
+The number of cell layers is changeable
+## explanation_d
+True, so not the exception. The layer count changes with filling, from 6–8 to 3–4, and that is what "transitional" names.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recall the shape of the basal cells of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q36. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-444
+## title
+all, thin epithelial cells that have the appearance of two or more layers, but with all…
+## question
+all, thin epithelial cells that have the appearance of two or more layers, but with all cells touching the basement membrane is
+## vignette
+This item asks the student to name the epithelium that looks layered while every cell touches the basement membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer of flat cells and has no appearance of layering at all.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is a single row of cubes with nuclei at one level — again no illusion of layers.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium has its nuclei at one level near the base. Crowd it and it becomes the pseudostratified form, which is what the stem describes.
+## answer_d
+pseudostratified columnar epithelium
+## explanation_d
+Correct. Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium that looks layered while every cell touches the basement membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q43. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-445
+## title
+called uro-epithelium:
+## question
+called uro-epithelium:
+## vignette
+This item asks the student to match the name urothelium to transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+transitional
+## explanation_a
+Correct. Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and then it is a disease finding rather than the normal lining.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium lines sweat gland ducts.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is found at the recto-anal junction, in large gland ducts and in the penile urethra — the penile urethra being the one part of the urinary tract that is not urothelium.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match the name urothelium to transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q24. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-446
+## title
+Concerning Nuclei of Transitional epithelium, all are true Except:
+## question
+Concerning Nuclei of Transitional epithelium, all are true Except:
+## vignette
+This item asks the student to recall the nuclear shapes at each level of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+central rounded
+## explanation_a
+True, so not the exception. The basal cuboidal cells have central rounded nuclei.
+## answer_b
+basal & oval
+## explanation_b
+Correct. The exception, and the answer. A basal oval nucleus belongs to a columnar cell, and there is no columnar cell in transitional epithelium — the basal cells are cuboidal. This is the simple columnar answer given to the wrong epithelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_c
+flat
+## explanation_c
+True, so not the exception. In the full bladder the superficial cells flatten and their nuclei flatten with them.
+## answer_d
+May be binucleated
+## explanation_d
+True, so not the exception. The large superficial dome cells may be binucleated, which is one of the recognition features of this epithelium.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Recall the nuclear shapes at each level of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q30. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-447
+## title
+dome-shaped cell with upper convex is present in:
+## question
+dome-shaped cell with upper convex is present in:
+## vignette
+This item asks the student to attribute the dome-shaped superficial cell to transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+transitional
+## explanation_a
+Correct. The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium has flat superficial cells — the opposite shape, and the name says so.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium has cube-shaped surface cells, flat-topped rather than domed.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium has tall surface cells with flat tops.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Attribute the dome-shaped superficial cell to transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q25. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-448
+## title
+Ducts of sweat glands are lined by:
+## question
+Ducts of sweat glands are lined by:
+## vignette
+This item asks the student to name the epithelium of the sweat gland duct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange and smooth movement, neither of which a duct through the dermis needs.
+## answer_b
+Stratified cubical epithelium
+## explanation_b
+Correct. The sweat gland duct is the standard example of stratified cubical epithelium, usually two layers thick.
+
+Why this is right:
+- Stratified cubical epithelium is rare and has a limited distribution — usually two layers of cubical cells, as in the ducts of the sweat glands.
+- Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: it is ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium lines the gut, not a sweat duct.
+## answer_d
+Simple cubical epithelium
+## explanation_d
+Simple cubical epithelium lines the secretory part of many glands, which makes this a near miss — but the duct is two layers, and two layers make it stratified.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium of the sweat gland duct.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q26. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-449
+## title
+Each of the following statements concerning the transitional epithelium is true, EXCEPT:
+## question
+Each of the following statements concerning the transitional epithelium is true, EXCEPT:
+## vignette
+This item asks the student to recognise that transitional epithelium is never keratinised.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+is keratinized
+## explanation_a
+Correct. The exception, and the answer. Keratin is a dry protective plate, and it would be useless in an organ permanently bathed in urine; the barrier here is the rigid plaque on the dome cell instead.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_b
+consists of the basal, intermediate, and superficial layers
+## explanation_b
+True, so not the exception. Basal cuboidal, intermediate polyhedral, superficial dome-shaped.
+## answer_c
+changes the number of its layers, depending on the degree of
+## explanation_c
+True, so not the exception. The layer count changes with the degree of distension, from 6–8 layers empty to 3–4 full.
+## answer_d
+its superficial cells are dome shaped
+## explanation_d
+True, so not the exception. Dome-shaped superficial cells are its signature.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise that transitional epithelium is never keratinised.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q60. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-450
+## title
+Endothelium is:
+## question
+Endothelium is:
+## vignette
+This item asks the student to pair the name endothelium with the right epithelium and the right site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+simple squamous epithelium in blood vessels
+## explanation_a
+Correct. Endothelium is simple squamous epithelium lining the blood vessels and the heart.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+simple squamous epithelium in serous membranes
+## explanation_b
+Right epithelium, wrong site — the serous membranes are lined by the same epithelium under the name mesothelium.
+## answer_c
+simple cuboidal epithelium in blood vessels
+## explanation_c
+Wrong epithelium, right site. A cuboidal lining would make the vessel wall thicker than exchange allows.
+## answer_d
+simple cuboidal epithelium in serous membranes
+## explanation_d
+It is chosen when the two names and the two cell shapes are being guessed at independently.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Pair the name endothelium with the right epithelium and the right site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p13 q109. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-451
+## title
+Epithelial cells that can stretch from a cuboidal or columnar shape to a squamous shape…
+## question
+Epithelial cells that can stretch from a cuboidal or columnar shape to a squamous shape are called
+## vignette
+This item asks the student to name the epithelium whose cells change shape with distension.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous cells are already flat and cannot become anything else.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal cells keep their shape; nothing distends a thyroid follicle or a kidney tubule enough to change them.
+## answer_c
+pseudostratified columnar epithelium
+## explanation_c
+Pseudostratified columnar epithelium looks as if it changes level, but its cells do not change shape.
+## answer_d
+transitional epithelium
+## explanation_d
+Correct. Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium whose cells change shape with distension.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q44. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-452
+## title
+esophagus is lined with:
+## question
+esophagus is lined with:
+## vignette
+This item asks the student to name the oesophageal epithelium and say whether it is keratinised.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer thin enough for exchange. A bolus passing over it would strip it off.
+## answer_b
+stratified cuboidal epithelium
+## explanation_b
+Stratified cuboidal epithelium is the sweat gland duct, two layers, and offers nothing against abrasion.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+The trap. The oesophagus is stratified squamous, but non-keratinised: keratin belongs to the dry surface of the skin, and the oesophagus is moist.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.
+
+Why this is right:
+- The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-89FBF21510F273
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the oesophageal epithelium and say whether it is keratinised.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q23. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-453
+## title
+example of pseudostratified columnar ciliated with motile cilia:
+## question
+example of pseudostratified columnar ciliated with motile cilia:
+## vignette
+This item asks the student to match the motile-ciliated form of pseudostratified epithelium to its site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+upper respiratory
+## explanation_a
+Correct. The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract narrows to bronchioles lined by simple columnar ciliated epithelium, and finally alveoli lined by simple squamous. Pseudostratification is lost as the airway gets smaller.
+## answer_c
+vas deferens
+## explanation_c
+The vas deferens carries the non-ciliated form of the same epithelium.
+## answer_d
+epididymis
+## explanation_d
+The epididymis carries the form with stereocilia, which are long microvilli rather than true cilia and do not move.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match the motile-ciliated form of pseudostratified epithelium to its site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q17. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-454
+## title
+example of pseudostratified columnar ciliated with non-motile cilia:
+## question
+example of pseudostratified columnar ciliated with non-motile cilia:
+## vignette
+This item asks the student to match the stereociliated form of pseudostratified epithelium to its site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+upper respiratory
+## explanation_a
+The upper respiratory tract has motile cilia; sweeping mucus is exactly what it is for.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract is not pseudostratified at all.
+## answer_c
+vas deferens
+## explanation_c
+The vas deferens has the non-ciliated form — no processes of either kind.
+## answer_d
+epididymis
+## explanation_d
+Correct. The epididymis carries stereocilia, classed under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match the stereociliated form of pseudostratified epithelium to its site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q18. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-455
+## title
+example of pseudostratified columnar non ciliated:
+## question
+example of pseudostratified columnar non ciliated:
+## vignette
+This item asks the student to match the non-ciliated form of pseudostratified epithelium to its site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+upper respiratory
+## explanation_a
+The upper respiratory tract is the ciliated form with goblet cells.
+## answer_b
+lower respiratory
+## explanation_b
+The lower respiratory tract is simple columnar ciliated and then simple squamous.
+## answer_c
+vas deferens
+## explanation_c
+Correct. The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_d
+epididymis
+## explanation_d
+The epididymis carries stereocilia, which is the third form; the epididymis and the vas deferens are neighbours in the same duct system and are the pair this question exists to separate.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match the non-ciliated form of pseudostratified epithelium to its site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q16. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-456
+## title
+Function of simple columnar epithelium is:
+## question
+Function of simple columnar epithelium is:
+## vignette
+This item asks the student to give both functions of simple columnar epithelium with their sites.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+secretion (stomach)
+## explanation_a
+True, but not the whole answer. The stomach lining secretes.
+## answer_b
+protection
+## explanation_b
+Protection is stratified epithelium. A single layer of cells protects nothing.
+## answer_c
+absorption (intestine)
+## explanation_c
+True, but not the whole answer. The intestinal lining absorbs, through its microvillous brush border.
+## answer_d
+both a & c are correct
+## explanation_d
+Correct. Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give both functions of simple columnar epithelium with their sites.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q20. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-457
+## title
+Function of stratified squamous epithelium is
+## question
+Function of stratified squamous epithelium is
+## vignette
+This item asks the student to give the function of stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Absorbtion
+## explanation_a
+Absorption needs a thin single layer with a large surface, which is the opposite of many layers of flattened cells.
+## answer_b
+Reabsorbtion
+## explanation_b
+Reabsorption is simple cubical epithelium in the kidney tubule.
+## answer_c
+Protection
+## explanation_c
+Correct. Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_d
+Gas exchange
+## explanation_d
+Gas exchange needs the thinnest barrier possible, which is simple squamous epithelium. Adding layers is exactly what would prevent it.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the function of stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q121. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-458
+## title
+How is a pseudostratified epithelium different from a truly stratified tissue?
+## question
+How is a pseudostratified epithelium different from a truly stratified tissue?
+## vignette
+This item asks the student to state precisely what a pseudostratified epithelium has that a stratified one does not.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The nuclei are at the same level in pseudostratified epithelia
+## explanation_a
+The reverse of the truth, and the reason the epithelium looks stratified in the first place: its nuclei sit at several levels because its cells are of several heights.
+## answer_b
+All cells reach apex
+## explanation_b
+Correct. This needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_c
+There are multiple cell layers in pseudostratified epithelia
+## explanation_c
+Multiple cell layers is what a truly stratified epithelium has and a pseudostratified one only appears to have.
+## answer_d
+All the cells in a pseudostratified epithelium interact with the
+## explanation_d
+This option is cut short and is in any case a restatement of B rather than a competing answer.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Comparison
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+State precisely what a pseudostratified epithelium has that a stratified one does not.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q66. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-459
+## title
+in heavy cigarette smoker, pseudostratified columnar is transformed into:
+## question
+in heavy cigarette smoker, pseudostratified columnar is transformed into:
+## vignette
+This item asks the student to name the epithelium that replaces the respiratory lining in a heavy smoker.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium is a rare epithelium of gland ducts and the recto-anal junction. Metaplasia goes towards the tough general-purpose epithelium, not towards a rarity.
+## answer_b
+stratified cubical
+## explanation_b
+Stratified cubical epithelium is two layers in a sweat duct and gives little protection.
+## answer_c
+stratified squamous
+## explanation_c
+Correct. Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.
+
+Why this is right:
+- Metaplasia is the transformation of one type of epithelium into another under abnormal conditions.
+## answer_d
+none of above
+## explanation_d
+The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and this is called metaplasia.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-5AD09BF9FC2420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the epithelium that replaces the respiratory lining in a heavy smoker.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q28. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-460
+## title
+In heavy smokers, pseudo-stratified columnar ciliated epithelium of the bronchi may be …
+## question
+In heavy smokers, pseudo-stratified columnar ciliated epithelium of the bronchi may be transformed into .................. epithelium:
+## vignette
+This item asks the student to name the product of squamous metaplasia in the bronchus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple columnar
+## explanation_a
+Simple columnar epithelium would be a change of shape without a gain in protection, and metaplasia here is driven by the need for protection.
+## answer_b
+Stratified columnar ciliated
+## explanation_b
+Keeping the cilia would keep the clearance, and the clinical point of this metaplasia is precisely that clearance is lost.
+## answer_c
+Simple cubical
+## explanation_c
+Simple cubical epithelium is thinner and weaker than what it would be replacing.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.
+
+Why this is right:
+- Metaplasia is the transformation of one type of epithelium into another under abnormal conditions.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-5AD09BF9FC2420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the product of squamous metaplasia in the bronchus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q33. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The book states directly that in heavy cigarette smokers the pseudostratified columnar ciliated epithelium of the bronchi may transform into stratified squamous epithelium, which is option D; the other three are epithelia the book never associates with metaplasia.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-461
+## title
+In heavy smokers, the pseudo-stratified columnar ciliated epithelium of the bronchi may…
+## question
+In heavy smokers, the pseudo-stratified columnar ciliated epithelium of the bronchi may be transformed into:
+## vignette
+This item asks the student to name the product of squamous metaplasia in the bronchus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple columnar epithelium
+## explanation_a
+Simple columnar epithelium is a single layer and offers no more protection than what was there.
+## answer_b
+Stratified columnar ciliated epithelium
+## explanation_b
+Retaining cilia would defeat the point: the whole clinical consequence of this metaplasia is that the cilia are gone.
+## answer_c
+Stratified columnar non ciliated epithelium
+## explanation_c
+Stratified columnar non-ciliated epithelium is a rare epithelium found at the recto-anal junction and in large gland ducts; metaplasia does not produce it here.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Correct. Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.
+
+Why this is right:
+- Metaplasia is the transformation of one type of epithelium into another under abnormal conditions.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-5AD09BF9FC2420
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the product of squamous metaplasia in the bronchus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p14 q33. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-462
+## title
+In which of these locations would pseudostratified columnar ciliated epithelium intermi…
+## question
+In which of these locations would pseudostratified columnar ciliated epithelium intermixed with goblet cells be found?
+## vignette
+This item asks the student to place respiratory epithelium in the airway.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+surface of the skin
+## explanation_a
+The surface of the skin is stratified squamous keratinised epithelium — the opposite kind of surface, dry and protective.
+## answer_b
+lining of nasal cavity and trachea
+## explanation_b
+Correct. Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_c
+lining of serous membranes
+## explanation_c
+Serous membranes are mesothelium, simple squamous.
+## answer_d
+lining the small intestine
+## explanation_d
+The small intestine is simple columnar with goblet cells but no cilia — goblet cells alone are not enough to make an epithelium respiratory, which is what this distractor tests.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+6.0
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.60
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Place respiratory epithelium in the airway.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p8 q45; EOM ISK 101 - 2023.pdf p3 q29. Manifest src_25ac512fb1cb23a6f696, src_ce4292e31edea7517e7b.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-463
+## title
+its function is distensibility:
+## question
+its function is distensibility:
+## vignette
+This item asks the student to match distensibility to transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+transitional
+## explanation_a
+Correct. Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium protects against friction. It stretches a little but has no mechanism for changing its layer count.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cubical epithelium is two layers in a sweat duct, which distends not at all.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is a rare protective lining and is not built to stretch.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match distensibility to transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p3 q26. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-464
+## title
+its function is easy movement, exchange of gases:
+## question
+its function is easy movement, exchange of gases:
+## vignette
+This item asks the student to connect thinness and smoothness to simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+squamous
+## explanation_a
+Correct. Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+cubical
+## explanation_b
+Cubical cells are for secretion and reabsorption. Their extra cytoplasm is exactly what a gas barrier must not have.
+## answer_c
+columnar
+## explanation_c
+Columnar cells are taller still, for secretion and absorption.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified columnar epithelium is thick and ciliated, built for moving mucus rather than for exchange.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Connect thinness and smoothness to simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q10. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-465
+## title
+its function is secretion, absorption:
+## question
+its function is secretion, absorption:
+## vignette
+This item asks the student to separate secretion-and-absorption from secretion-and-reabsorption.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+squamous
+## explanation_a
+Squamous cells are for exchange and smooth movement.
+## answer_b
+cubical
+## explanation_b
+The near miss, and the pair this question is set against: cubical epithelium secretes and *re*absorbs, in the kidney tubule and the gland acinus.
+## answer_c
+columnar
+## explanation_c
+Correct. Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified epithelium transports mucus across a surface.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Separate secretion-and-absorption from secretion-and-reabsorption.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q9. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-466
+## title
+its function is secretion, reabsorption:
+## question
+its function is secretion, reabsorption:
+## vignette
+This item asks the student to match secretion and reabsorption to simple cubical epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+squamous
+## explanation_a
+Squamous is exchange and easy movement.
+## answer_b
+cubical
+## explanation_b
+Correct. Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+columnar
+## explanation_c
+The mirror of this question: columnar epithelium secretes and absorbs in the gut. Reabsorption is the word that points at the kidney.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified epithelium moves material along the surface rather than through the cell.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match secretion and reabsorption to simple cubical epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q8. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-467
+## title
+its function is transport of fluid in one direction:
+## question
+its function is transport of fluid in one direction:
+## vignette
+This item asks the student to attribute one-way transport to the ciliated columnar cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+squamous
+## explanation_a
+Simple squamous epithelium lets things across it, not along it.
+## answer_b
+cubical
+## explanation_b
+Simple cubical epithelium moves material through the cell, not over its surface.
+## answer_c
+columnar
+## explanation_c
+Correct. Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+pseudostratified
+## explanation_d
+Pseudostratified columnar ciliated epithelium does the same thing, which makes this the closest wrong answer; the option set here lists simple cell shapes, and columnar is the one that carries the cilia.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Attribute one-way transport to the ciliated columnar cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p1 q11. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-468
+## title
+Mesothelium is:
+## question
+Mesothelium is:
+## vignette
+This item asks the student to pair the name mesothelium with the right epithelium and the right site.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple squamous epithelium in blood vessels
+## explanation_a
+Right epithelium, wrong site — that is endothelium, and the two names are the only thing separating these options.
+## answer_b
+simple squamous epithelium in serous membranes
+## explanation_b
+Correct. Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_c
+simple cuboidal epithelium in blood vessels
+## explanation_c
+Wrong epithelium and wrong site.
+## answer_d
+simple cuboidal epithelium in serous membranes
+## explanation_d
+Wrong epithelium, right site. A cuboidal serous lining would make organs stick rather than slide.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Pair the name mesothelium with the right epithelium and the right site.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q110. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-469
+## title
+non-keratinized is present in all the following except:
+## question
+non-keratinized is present in all the following except:
+## vignette
+This item asks the student to separate the one keratinised site from the non-keratinised list.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+cornea
+## explanation_a
+True, so not the exception. The cornea is non-keratinised, and it must be — keratin would make it opaque.
+## answer_b
+oral cavity
+## explanation_b
+True, so not the exception. The oral cavity is moist and non-keratinised.
+## answer_c
+vagina, esophagus
+## explanation_c
+True, so not the exception. Vagina and oesophagus are both moist non-keratinised linings.
+## answer_d
+epidermis
+## explanation_d
+Correct. The exception, and the answer. The epidermis is the keratinised form, and it is the only one on this list exposed to dry air.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Separate the one keratinised site from the non-keratinised list.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q22. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-470
+## title
+Nuclei of simple columnar epithelium are:
+## question
+Nuclei of simple columnar epithelium are:
+## vignette
+This item asks the student to give the nuclear shape and position of a columnar cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+central rounded
+## explanation_a
+Central rounded nuclei belong to cubical cells, whose height and width are the same so the nucleus sits in the middle.
+## answer_b
+basal & oval
+## explanation_b
+Correct. A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.
+
+Why this is right:
+- Surface epithelium is divided by the number of layers into simple, one layer with every cell on the basement membrane, and stratified, more than one layer.
+## answer_c
+flat
+## explanation_c
+Flat nuclei belong to squamous cells, which have no room for anything else.
+## answer_d
+Binucleated
+## explanation_d
+Binucleated cells occur in the superficial layer of transitional epithelium, not here.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-28D12B544C3BA3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the nuclear shape and position of a columnar cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q23. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-471
+## title
+Nuclei of simple cuboidal epithelium are:
+## question
+Nuclei of simple cuboidal epithelium are:
+## vignette
+This item asks the student to give the nuclear shape and position of a cuboidal cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+central rounded
+## explanation_a
+Correct. A cube-shaped cell holds a round nucleus in the centre.
+
+Why this is right:
+- Surface epithelium is divided by the number of layers into simple, one layer with every cell on the basement membrane, and stratified, more than one layer.
+## answer_b
+basal & oval
+## explanation_b
+Basal and oval is the columnar cell — taller, so the nucleus is displaced downwards and elongated with the cell.
+## answer_c
+flat
+## explanation_c
+Flat is the squamous cell.
+## answer_d
+May be bi-nucleated
+## explanation_d
+Binucleation is a feature of the superficial dome cells of transitional epithelium.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-28D12B544C3BA3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the nuclear shape and position of a cuboidal cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q24. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-472
+## title
+number of layer of transitional epithelium in full bladder:
+## question
+number of layer of transitional epithelium in full bladder:
+## vignette
+This item asks the student to give the layer count of transitional epithelium in the full bladder.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+5-30
+## explanation_a
+5–30 layers is stratified squamous epithelium — a fixed range for an epithelium that does not change with filling.
+## answer_b
+6-8
+## explanation_b
+6–8 layers is transitional epithelium in the *empty* bladder. This is the trap: both numbers belong to this epithelium, and the question specifies which state.
+## answer_c
+2
+## explanation_c
+Two layers is stratified cubical epithelium, in the sweat gland duct.
+## answer_d
+3-4
+## explanation_d
+Correct. 3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Give the layer count of transitional epithelium in the full bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q20. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-473
+## title
+number of layers of stratified squamous:
+## question
+number of layers of stratified squamous:
+## vignette
+This item asks the student to give the layer count of stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+5-30
+## explanation_a
+Correct. 5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+6-8
+## explanation_b
+6–8 layers is transitional epithelium in the empty bladder.
+## answer_c
+2
+## explanation_c
+Two layers is stratified cubical epithelium.
+## answer_d
+3-4
+## explanation_d
+3–4 layers is transitional epithelium in the full bladder.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Give the layer count of stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q19. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-474
+## title
+One of the following organs is lined with transitional epithelium:
+## question
+One of the following organs is lined with transitional epithelium:
+## vignette
+This item asks the student to recognise that transitional epithelium is confined to the urinary tract.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Uterus
+## explanation_a
+The uterus is simple columnar partially ciliated epithelium.
+## answer_b
+Urinary bladder
+## explanation_b
+Correct. The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_c
+Vas deferens
+## explanation_c
+The vas deferens is pseudostratified columnar non-ciliated epithelium — a genital duct, not a urinary one.
+## answer_d
+Gall bladder
+## explanation_d
+The gall bladder is simple columnar, absorbing water from stored bile. It is chosen because both are hollow distensible sacs called bladders, which is a name rather than a histology.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Recognise that transitional epithelium is confined to the urinary tract.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q25. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-475
+## title
+One statement about transitional epithelium is true:
+## question
+One statement about transitional epithelium is true:
+## vignette
+This item asks the student to use the basement membrane and the superficial cells to tell the bladder from the oesophagus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Associated with the respiratory tract
+## explanation_a
+Transitional epithelium is urinary, not respiratory. The respiratory lining is pseudostratified columnar ciliated.
+## answer_b
+Represents a transitional tissue between stratified squamous
+## explanation_b
+The option describing it as a stage between two other epithelia reads the word "transitional" as if it meant intermediate. It does not: the transition is in the epithelium's own shape as the organ fills.
+## answer_c
+Has clear basement membrane
+## explanation_c
+The single most useful discriminator against the oesophagus, and it is false here. The oesophagus has a clear, thick, wavy basement membrane; the bladder's is non-clear and not wavy.
+## answer_d
+The upper most layers have some binucleated cells
+## explanation_d
+Correct. The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.
+
+Why this is right:
+- The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-89FBF21510F273
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Comparison
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Use the basement membrane and the superficial cells to tell the bladder from the oesophagus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q24. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+4 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-476
+## title
+One statement is NOT true:
+## question
+One statement is NOT true:
+## vignette
+This item asks the student to confirm that nuclear shape follows cell shape, and reject an absurdity.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Squamous cells have flat nuclei
+## explanation_a
+True, so not the false one. A flat cell holds a flat nucleus.
+## answer_b
+Columnar cells have oval nuclei
+## explanation_b
+True, so not the false one. A tall cell holds an oval nucleus, placed basally.
+## answer_c
+Cuboidal cells have rounded nuclei
+## explanation_c
+True, so not the false one. A cube holds a round nucleus, centrally.
+## answer_d
+Pseudostratified columnar epithelium cells have no nuclei
+## explanation_d
+Correct. The false statement, and the answer. Every cell of a pseudostratified epithelium has a nucleus — it is the fact that those nuclei sit at several levels that produces the false appearance of layering in the first place.
+
+Why this is right:
+- Surface epithelium is divided by the number of layers into simple, one layer with every cell on the basement membrane, and stratified, more than one layer.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-28D12B544C3BA3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Confirm that nuclear shape follows cell shape, and reject an absurdity.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q11. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-477
+## title
+Only one statement about the stratified squamous epithelium is correct. Cells of the la…
+## question
+Only one statement about the stratified squamous epithelium is correct. Cells of the layer:
+## vignette
+This item asks the student to place squamous and polygonal cells at the right depth in a stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Farthest from the basement membrane, squamous
+## explanation_a
+Correct. Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+Farthest from the basement membrane, are polygonal
+## explanation_b
+Polygonal cells are the intermediate layers, between the columnar base and the flat surface.
+## answer_c
+Closest to the basement membrane, are squamous
+## explanation_c
+Closest to the basement membrane is the basal layer, which is columnar, not squamous. A cell flattens as it is pushed up, so the youngest cell is the tallest.
+## answer_d
+Closest to the basement membrane are polygonal
+## explanation_d
+Polygonal cells are above the basal layer, not in it. The gradient runs columnar, polygonal, flat from base to surface, and this option is one step out.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Place squamous and polygonal cells at the right depth in a stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p6 q34. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-478
+## title
+Pseudostratified columnar epithelium is:
+## question
+Pseudostratified columnar epithelium is:
+## vignette
+This item asks the student to class pseudostratified epithelium among the simple epithelia.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Transitional epithelium
+## explanation_a
+Transitional epithelium is genuinely stratified and confined to the urinary tract.
+## answer_b
+Stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium really does have cells that do not reach the basement membrane, and it is what a pseudostratified epithelium is being mistaken for.
+## answer_c
+A simple columnar epithelium
+## explanation_c
+Correct. Every cell rests on the basement membrane, so it is classified among the simple epithelia despite its appearance.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_d
+It is a false appearance of epithelium, it is CT
+## explanation_d
+It is epithelium, not connective tissue. The "false appearance" is of stratification, not of being epithelium at all.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Class pseudostratified epithelium among the simple epithelia.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q9. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-479
+## title
+Pseudostratified columnar epithelium is evident in:
+## question
+Pseudostratified columnar epithelium is evident in:
+## vignette
+This item asks the student to name a site of pseudostratified columnar epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+ureter
+## explanation_a
+The ureter is transitional epithelium.
+## answer_b
+vas deference
+## explanation_b
+Correct. The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_c
+small intestine
+## explanation_c
+The small intestine is simple columnar with a brush border.
+## answer_d
+esophagus
+## explanation_d
+The oesophagus is stratified squamous non-keratinised.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name a site of pseudostratified columnar epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p13 q68. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-480
+## title
+Pseudostratified columnar non ciliated epithelium lines:
+## question
+Pseudostratified columnar non ciliated epithelium lines:
+## vignette
+This item asks the student to name the site of the non-ciliated form specifically.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Skin
+## explanation_a
+Skin is stratified squamous keratinised.
+## answer_b
+Trachea
+## explanation_b
+The trachea is the same epithelium *with* cilia and goblet cells, which is the distinction the word "non-ciliated" is there to force.
+## answer_c
+Ureter
+## explanation_c
+The ureter is transitional.
+## answer_d
+Vas deferens
+## explanation_d
+Correct. The vas deferens, with the membranous urethra, is the non-ciliated form.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the site of the non-ciliated form specifically.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q25. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-481
+## title
+simple cuboidal epithelium is present in:
+## question
+simple cuboidal epithelium is present in:
+## vignette
+This item asks the student to name a site of simple cubical epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+ureter
+## explanation_a
+The ureter is transitional epithelium.
+## answer_b
+lining the thyroid follicle
+## explanation_b
+Correct. The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## answer_d
+endothelium of blood vessel
+## explanation_d
+The endothelium of a blood vessel is simple squamous — the same "simple", a different shape.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name a site of simple cubical epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q21. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-482
+## title
+simple squamous epithelium is:
+## question
+simple squamous epithelium is:
+## vignette
+This item asks the student to give both consequences of a flat cell shape.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+provides smooth surfaces
+## explanation_a
+True, but not the whole answer. Smoothness lets fluid pass and organs move against one another.
+## answer_b
+form filtration membranes
+## explanation_b
+True, but not the whole answer. Thinness lets it form filtration membranes, as in Bowman's capsule.
+## answer_c
+lines absorptive surfaces
+## explanation_c
+Absorptive surfaces are lined by simple columnar epithelium with microvilli. A flat cell has neither the cytoplasm nor the surface area for it.
+## answer_d
+a & b
+## explanation_d
+Correct. The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Give both consequences of a flat cell shape.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q18. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-483
+## title
+Simple squamous epithelium is suitable for
+## question
+Simple squamous epithelium is suitable for
+## vignette
+This item asks the student to match gas exchange to the thinnest epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Secretion
+## explanation_a
+Secretion needs cytoplasm for the synthetic machinery, so it belongs to cubical and columnar cells.
+## answer_b
+Reabsorption
+## explanation_b
+Reabsorption is simple cubical, in the kidney tubule.
+## answer_c
+Gas exchange
+## explanation_c
+Correct. Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_d
+Protection
+## explanation_d
+Protection is stratified epithelium — the opposite design.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Match gas exchange to the thinnest epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p11 q10. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-484
+## title
+Stratified squamous keratinized epithelium:
+## question
+Stratified squamous keratinized epithelium:
+## vignette
+This item asks the student to give the defining feature of the keratinised form.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Covered by thick layer of keratin
+## explanation_a
+Correct. A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+Present in the moist surfaces (mouth, pharynx and esophagous)
+## explanation_b
+Moist surfaces — mouth, pharynx, oesophagus — carry the non-keratinised form. Keratin is for a dry surface.
+## answer_c
+Lines the digestive tract
+## explanation_c
+The digestive tract is stratified squamous only at its two ends, and non-keratinised there; most of it is simple columnar.
+## answer_d
+Lines the uterus
+## explanation_d
+The uterus is simple columnar partially ciliated.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the defining feature of the keratinised form.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q35. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-485
+## title
+Stratified squamous non keratinized epithelium is found in all EXCEPT:
+## question
+Stratified squamous non keratinized epithelium is found in all EXCEPT:
+## vignette
+This item asks the student to separate the keratinised site from the non-keratinised list.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Gum
+## explanation_a
+True, so not the exception. The gum is part of the oral cavity.
+## answer_b
+Tongue
+## explanation_b
+True, so not the exception. The tongue surface is stratified squamous, non-keratinised over most of it.
+## answer_c
+Cornea
+## explanation_c
+True, so not the exception. The cornea must be non-keratinised to stay transparent.
+## answer_d
+Skin
+## explanation_d
+Correct. The exception, and the answer. The skin is the keratinised form, and the only one in the list that is dry.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Separate the keratinised site from the non-keratinised list.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q46. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-486
+## title
+Stratified squamous non keratinized epithelium is present in:
+## question
+Stratified squamous non keratinized epithelium is present in:
+## vignette
+This item asks the student to name a site of stratified squamous non-keratinised epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Oral cavity
+## explanation_a
+Correct. The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+Trachea
+## explanation_b
+The trachea is pseudostratified columnar ciliated.
+## answer_c
+Skin
+## explanation_c
+The skin is the keratinised form of the same epithelium, which is the one-word difference this question turns on.
+## answer_d
+Uterus
+## explanation_d
+The uterus is simple columnar partially ciliated.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name a site of stratified squamous non-keratinised epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q48. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-487
+## title
+The alveoli in the lung (gas exchange) are line by:
+## question
+The alveoli in the lung (gas exchange) are line by:
+## vignette
+This item asks the student to name the epithelium of the lung alveolus.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+simple squamous epithelium
+## explanation_a
+Correct. Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium would double or triple the diffusion distance.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is thicker still, and belongs to absorbing and secreting surfaces.
+## answer_d
+pseudostratified epithelium
+## explanation_d
+Pseudostratified epithelium lines the conducting airways above the alveolus; the change from conducting to exchanging is precisely a change from thick and ciliated to thin and bare.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the lung alveolus.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q16. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-488
+## title
+The epidermis is formed by:
+## question
+The epidermis is formed by:
+## vignette
+This item asks the student to name the epithelium of the epidermis, keratinisation included.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+simple squamous non keratinized epithelium
+## explanation_a
+"Simple squamous non-keratinised" is a contradiction in the making: one layer of flat cells would be no protection at all on a dry surface.
+## answer_b
+stratified squamous non keratinized epithelium
+## explanation_b
+The right epithelium without the keratin, which is the lining of the oesophagus and the mouth. Naming the epithelium and omitting the keratin is the commonest half-answer here.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+Correct. Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_d
+simple columnar ciliated epithelium
+## explanation_d
+Simple columnar ciliated epithelium belongs to the uterus and the bronchiole.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the epidermis, keratinisation included.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q43. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-489
+## title
+the epithelial lining of the serous membrane is called:
+## question
+the epithelial lining of the serous membrane is called:
+## vignette
+This item asks the student to name the epithelium of the serous membranes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+transitional epithelium
+## explanation_a
+Transitional epithelium is the urinary tract.
+## answer_b
+simple columnar
+## explanation_b
+Simple columnar epithelium is the gut. A serous membrane needs a surface that slides, not one that absorbs.
+## answer_c
+mesothelium
+## explanation_c
+Correct. Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_d
+endothelium
+## explanation_d
+Endothelium is the same epithelium lining blood vessels and the heart. The two names are the whole question.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the epithelium of the serous membranes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q4. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-490
+## title
+The epithelium lines the urinary bladder is:
+## question
+The epithelium lines the urinary bladder is:
+## vignette
+This item asks the student to name the epithelium of the urinary bladder.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer thin enough for exchange, which is the last thing a bladder wants — its lining must be impermeable to urine.
+## answer_b
+stratified squamous epithelium
+## explanation_b
+Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and the change costs the organ its distensibility.
+## answer_c
+Glandular epithelium
+## explanation_c
+Glandular epithelium secretes. The bladder stores; it does not make urine.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the urinary bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q41. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-491
+## title
+the epithelium lining of the blood vesels is called:
+## question
+the epithelium lining of the blood vesels is called:
+## vignette
+This item asks the student to name the epithelium lining blood vessels.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+transitional epithelium
+## explanation_a
+Transitional epithelium is urinary.
+## answer_b
+simple columnar epithelium
+## explanation_b
+Simple columnar epithelium is the gut.
+## answer_c
+mesothelium
+## explanation_c
+Mesothelium is the serous membranes — the same simple squamous epithelium under the other regional name.
+## answer_d
+endothelium
+## explanation_d
+Correct. Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the epithelium lining blood vessels.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p6 q1. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-492
+## title
+The epithelium that lines the blood vessels is called:
+## question
+The epithelium that lines the blood vessels is called:
+## vignette
+This item asks the student to name the epithelium lining blood vessels.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mesothelium
+## explanation_a
+Mesothelium is the serous membranes. The pair endothelium/mesothelium is asked repeatedly across these books, in both directions.
+## answer_b
+Endothelium
+## explanation_b
+Correct. Endothelium lines the blood vessels and the heart.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_c
+Transitional
+## explanation_c
+Transitional epithelium is the urinary tract.
+## answer_d
+Pseudostratified
+## explanation_d
+Pseudostratified epithelium is the airway and the male genital ducts.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium lining blood vessels.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q5. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-493
+## title
+The epithelium that resist friction is:
+## question
+The epithelium that resist friction is:
+## vignette
+This item asks the student to match resistance to friction to stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is one layer thick and is destroyed by abrasion.
+## answer_b
+Pseudostratified columnar
+## explanation_b
+Pseudostratified columnar epithelium is a conducting lining, protected from friction rather than resisting it.
+## answer_c
+Stratified squamous
+## explanation_c
+Correct. Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium resists urine and stretch. Those are chemical and mechanical demands of a different kind.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Match resistance to friction to stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q47. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-494
+## title
+The epithelium type that has the ability to decrease its layers' number in full viscus is:
+## question
+The epithelium type that has the ability to decrease its layers' number in full viscus is:
+## vignette
+This item asks the student to name the epithelium whose layer count changes with distension.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium has one layer and cannot have fewer.
+## answer_b
+Stratified cuboidal epithelium
+## explanation_b
+Stratified cubical epithelium keeps its two layers.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is one layer throughout.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium whose layer count changes with distension.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q38. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-495
+## title
+The epithelium which is composed of cells resting on the same basement membrane, but no…
+## question
+The epithelium which is composed of cells resting on the same basement membrane, but not all reaching the lumen is called:
+## vignette
+This item asks the student to name the epithelium in which every cell touches the base but not every cell the lumen.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+stratified squamous
+## explanation_a
+In stratified squamous epithelium only the basal cells touch the basement membrane.
+## answer_b
+stratified cuboidal
+## explanation_b
+Stratified cuboidal epithelium is likewise genuinely layered.
+## answer_c
+pseudostratified epithelium
+## explanation_c
+Correct. Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is genuinely stratified, and its intermediate and superficial cells do not reach the base.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium in which every cell touches the base but not every cell the lumen.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q18. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-496
+## title
+The epithelium which is formed of more than one layer is called:
+## question
+The epithelium which is formed of more than one layer is called:
+## vignette
+This item asks the student to give the name for an epithelium of more than one layer.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple
+## explanation_a
+Simple means one layer, with every cell on the basement membrane.
+## answer_b
+stratified
+## explanation_b
+Correct. Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.
+
+Why this is right:
+- Surface epithelium is divided by the number of layers into simple, one layer with every cell on the basement membrane, and stratified, more than one layer.
+## answer_c
+pseudostratified
+## explanation_c
+Pseudostratified epithelium only appears to have more than one layer, which is exactly why the word "pseudo" is in its name.
+## answer_d
+all of the above
+## explanation_d
+The three are alternatives and only one of them answers the stem.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-28D12B544C3BA3
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the name for an epithelium of more than one layer.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q42. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-497
+## title
+The esophagus is lined by:
+## question
+The esophagus is lined by:
+## vignette
+This item asks the student to name the oesophageal epithelium precisely, keratinisation included.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple squamous non keratinized epithelium
+## explanation_a
+One layer of flat cells would be stripped off by the first bolus. "Simple squamous non-keratinised" also confuses a term used only of stratified epithelium.
+## answer_b
+stratified squamous non keratinized epithelium
+## explanation_b
+Correct. Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.
+
+Why this is right:
+- The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+The keratinised form is the epidermis of the skin. Adding keratin to the oesophagus is the single commonest error on this question.
+## answer_d
+simple columnar ciliated epithelium
+## explanation_d
+Simple columnar ciliated epithelium is the uterus and the bronchiole. The oesophagus becomes simple columnar only past the cardia, in the stomach.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-89FBF21510F273
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the oesophageal epithelium precisely, keratinisation included.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q44. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-498
+## title
+The following Is true regarding simple squamous epithelium:
+## question
+The following Is true regarding simple squamous epithelium:
+## vignette
+This item asks the student to recognise mesothelium as simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It's formed of many layers of cells
+## explanation_a
+Many layers would make it stratified. Simple means exactly one.
+## answer_b
+It forms the mesothelium of serous membranes
+## explanation_b
+Correct. The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_c
+It lines the intestinal mucosa
+## explanation_c
+The intestinal mucosa is simple columnar, because it absorbs and needs microvilli.
+## answer_d
+It lines thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical, because they secrete and reabsorb.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Recognise mesothelium as simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q8. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only B is true: mesothelium is simple squamous epithelium on the serous membranes. A contradicts the word "simple", and the intestinal mucosa and thyroid follicles are simple columnar and simple cubical respectively.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-499
+## title
+The following is true regarding stratified squamous epithelium:
+## question
+The following is true regarding stratified squamous epithelium:
+## vignette
+This item asks the student to recall a true site of stratified squamous epithelium and reject three false descriptions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The superficial layer of cells always keratinized
+## explanation_a
+"Always keratinised" is false. Only the epidermis is; every moist site is not.
+## answer_b
+It lines the wall of the esophagus
+## explanation_b
+Correct. The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Its most superficial layer of cells is cuboidal cells
+## explanation_c
+The most superficial cells are squamous — flat — which is what the epithelium is named for. Cuboidal surface cells would make it stratified cuboidal.
+## answer_d
+The intercellular spaces contain mucoid-like substance
+## explanation_d
+A mucoid-like substance in wide intercellular spaces is offered by some books as the reason transitional epithelium stretches. It is not a feature of stratified squamous epithelium, whose cells are held close by desmosomes.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Recall a true site of stratified squamous epithelium and reject three false descriptions.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p12 q20. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-500
+## title
+The following statement Is true about transitional epithelium:
+## question
+The following statement Is true about transitional epithelium:
+## vignette
+This item asks the student to pick out the two features that separate bladder epithelium from oesophageal epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Basement membrane Is clear
+## explanation_a
+False, and it is the oesophagus's answer. The oesophageal basement membrane is clear, thick and wavy; the bladder's is non-clear and flat.
+## answer_b
+Superficial cells are columnar
+## explanation_b
+The superficial cells are dome-shaped, not columnar. Columnar surface cells would make it stratified columnar epithelium.
+## answer_c
+Formed of one layer of cells
+## explanation_c
+One layer would make it simple. Transitional epithelium is 6–8 layers empty and 3–4 full — the point being that neither figure is one.
+## answer_d
+Superficial cells are dome shaped
+## explanation_d
+Correct. Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.
+
+Why this is right:
+- The oesophagus is lined by stratified squamous non-keratinised epithelium, which resists the abrasion of a passing bolus.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-89FBF21510F273
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Comparison
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Pick out the two features that separate bladder epithelium from oesophageal epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q24. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only D is true. The bladder's basement membrane is non-clear, not clear — that is the book's own comparison against the oesophagus; the superficial cells are dome-shaped rather than columnar; and the epithelium is stratified, 6–8 layers when empty, not one.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-501
+## title
+The following statement is true regarding simple squamous epithelium:
+## question
+The following statement is true regarding simple squamous epithelium:
+## vignette
+This item asks the student to recognise mesothelium as simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+It's formed of many layers of cells
+## explanation_a
+Many layers contradicts "simple", which means one.
+## answer_b
+It forms the mesothelium of serous membranes
+## explanation_b
+Correct. Mesothelium of the serous membranes is simple squamous epithelium.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_c
+It lines the intestinal mucosa
+## explanation_c
+The intestinal mucosa is simple columnar with a brush border.
+## answer_d
+It lines thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Recognise mesothelium as simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p11 q8. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-502
+## title
+The function of transitional epithelium is:
+## question
+The function of transitional epithelium is:
+## vignette
+This item asks the student to give both functions of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+stretchability
+## explanation_a
+True, but not the whole answer. Stretchability is what the changing layer count provides.
+## answer_b
+Distensibility
+## explanation_b
+True, but not the whole answer, and the same property named by the standard term.
+## answer_c
+Protection from toxins
+## explanation_c
+True, but not the whole answer, and the one students forget: the plaques on the dome cells protect against the cytotoxic effect of urine.
+## answer_d
+All of the above
+## explanation_d
+Correct. Distension and chemical protection are two demands of the same organ, and the epithelium meets both.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give both functions of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q49. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-503
+## title
+The inner lining of the vagina, tip of urethra and esophagus is made up of
+## question
+The inner lining of the vagina, tip of urethra and esophagus is made up of
+## vignette
+This item asks the student to recognise the non-keratinised sites as one epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Columnar epithelium
+## explanation_a
+Columnar epithelium lines the gut and the uterus, not these three.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. Vagina, tip of the urethra and oesophagus are three of the named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Squamous epithelium
+## explanation_c
+"Squamous epithelium" without "stratified" would mean the simple form, one layer thick, which none of these moist abraded surfaces could survive with.
+## answer_d
+Ciliated epithelium
+## explanation_d
+Ciliated epithelium is the airway and the female genital tract above the vagina. It is worth noticing that the fallopian tube and uterus are ciliated while the vagina is not.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise the non-keratinised sites as one epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q57. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-504
+## title
+The kidney tubules are lined by:
+## question
+The kidney tubules are lined by:
+## vignette
+This item asks the student to name the epithelium of the kidney tubules.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is in the same nephron, lining Bowman's capsule, where the job is filtration. The tubule's job is reabsorption and needs more cell than that.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Correct. The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is the gut.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium begins further down, in the renal pelvis, and continues to the bladder.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the kidney tubules.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q19. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-505
+## title
+The lining epithelium of pleura is:
+## question
+The lining epithelium of pleura is:
+## vignette
+This item asks the student to name the epithelium of a serous membrane.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Correct. The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+Cubical Stratified epithelium
+## explanation_b
+Stratified cubical epithelium is a sweat gland duct.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium would be a rough, thick surface — the opposite of what two moving surfaces need.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is confined to the urinary tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of a serous membrane.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p1 q6. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-506
+## title
+The lining epithelium of the ureter is:
+## question
+The lining epithelium of the ureter is:
+## vignette
+This item asks the student to extend transitional epithelium to the whole urinary tract.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium would let urine through, which is exactly what the urinary tract must not do.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium lines the kidney tubules above, where reabsorption is still happening. Once the urine is final, the lining changes.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Simple columnar ciliated epithelium is the uterus and the bronchiole; nothing in the ureter needs sweeping.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Extend transitional epithelium to the whole urinary tract.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p6 q45. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-507
+## title
+The lining epithelium of the uterus is:
+## question
+The lining epithelium of the uterus is:
+## vignette
+This item asks the student to name the epithelium of the uterus and say why it is ciliated.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange; the uterus has to move an ovum along.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium secretes and reabsorbs but cannot transport anything along its surface.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Correct. Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is urinary. The uterus is distensible too, which is what makes this option tempting, but distension there is achieved by the muscle wall and not by the lining.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the uterus and say why it is ciliated.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q22. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-508
+## title
+The lining epithelium of thyroid follicles is:
+## question
+The lining epithelium of thyroid follicles is:
+## vignette
+This item asks the student to name the epithelium of the thyroid follicle.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium appears in a very underactive follicle, but the epithelium here is cubical.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Correct. Simple cubical epithelium, secreting into the colloid and reabsorbing from it.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+simple columnar ciliated epithelium
+## explanation_c
+Cilia would have nothing to move inside a closed follicle.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is urinary and stratified; a follicle lining is one layer.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the thyroid follicle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p3 q21. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-509
+## title
+The respiratory epithelium is also known as:
+## question
+The respiratory epithelium is also known as:
+## vignette
+This item asks the student to give the full name of respiratory epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Endothelium
+## explanation_a
+Endothelium is the lining of blood vessels.
+## answer_b
+Urothelium
+## explanation_b
+Urothelium is transitional epithelium of the urinary tract.
+## answer_c
+Pseudostratified columnar ciliated with goblet cells
+## explanation_c
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## answer_d
+Mesotelium
+## explanation_d
+Mesothelium is the serous membranes. All three wrong options are regional names for other epithelia, which is what the question is really testing.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Give the full name of respiratory epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p2 q7. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-510
+## title
+The simple cuboidal epithelium is present in:
+## question
+The simple cuboidal epithelium is present in:
+## vignette
+This item asks the student to name a site of simple cubical epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+The lining of thyroid follicles
+## explanation_a
+Correct. The thyroid follicle is lined by a single layer of cubical cells.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar — taller cells, with a brush border for absorption.
+## answer_c
+The lining of the vagina
+## explanation_c
+The vagina is stratified squamous non-keratinised.
+## answer_d
+Epidermis of skin
+## explanation_d
+The epidermis is stratified squamous keratinised.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name a site of simple cubical epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q13. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-511
+## title
+the simple squamous epithelium lines:
+## question
+the simple squamous epithelium lines:
+## vignette
+This item asks the student to place simple squamous epithelium in Bowman's capsule and not elsewhere in the kidney.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Bowman capsule of the kidney
+## explanation_a
+Correct. Bowman's capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+gall bladder
+## explanation_b
+The gall bladder is simple columnar, absorbing water from the bile.
+## answer_c
+thyroid follicles
+## explanation_c
+Thyroid follicles are simple cubical.
+## answer_d
+urinary bladder
+## explanation_d
+The urinary bladder is transitional. Two of the four options are in the urinary system, and they take different epithelia — filtration at the top, storage at the bottom.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Place simple squamous epithelium in Bowman's capsule and not elsewhere in the kidney.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q12. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-512
+## title
+The stomach is lined by:
+## question
+The stomach is lined by:
+## vignette
+This item asks the student to name the epithelium of the stomach.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple cubical epithelium
+## explanation_a
+Simple cubical epithelium lines gland acini and kidney tubules, not the stomach surface.
+## answer_b
+Pseudostratified columnar ciliated epithelium with goblet cells
+## explanation_b
+The respiratory epithelium is the airway. It is offered here because both are mucus-covered surfaces, but the stomach's mucus comes from its own surface cells rather than from goblet cells, and it has no cilia.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Stratified columnar epithelium
+## explanation_d
+Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium of the stomach.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p5 q24. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-513
+## title
+the stratified squamous keratinized epithelium is present in the
+## question
+the stratified squamous keratinized epithelium is present in the
+## vignette
+This item asks the student to name the site of keratinised stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+large intestine
+## explanation_a
+The large intestine is simple columnar with many goblet cells.
+## answer_b
+epidermis of skin
+## explanation_b
+Correct. The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+urinary bladder
+## explanation_c
+The urinary bladder is transitional.
+## answer_d
+thyroid follicles
+## explanation_d
+Thyroid follicles are simple cubical.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the site of keratinised stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q11. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-514
+## title
+The stratified squamous keratinized epithelium is present in:
+## question
+The stratified squamous keratinized epithelium is present in:
+## vignette
+This item asks the student to name the site of keratinised stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+The lining of thyroid follicles
+## explanation_a
+Thyroid follicles are simple cubical.
+## answer_b
+Small intestine
+## explanation_b
+The small intestine is simple columnar.
+## answer_c
+The lining of the vagina
+## explanation_c
+The vagina is stratified squamous — but non-keratinised, being a moist surface. It is the closest wrong answer, and the one word that separates it is the whole question.
+## answer_d
+Epidermis of skin
+## explanation_d
+Correct. The epidermis of the skin.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the site of keratinised stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p5 q40. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-515
+## title
+the stratified squamous non-keratinized epithelium is present in
+## question
+the stratified squamous non-keratinized epithelium is present in
+## vignette
+This item asks the student to name a site of non-keratinised stratified squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+esophagus
+## explanation_a
+Correct. The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+gall bladder
+## explanation_b
+The gall bladder is simple columnar.
+## answer_c
+ureter
+## explanation_c
+The ureter is transitional.
+## answer_d
+small intestine
+## explanation_d
+The small intestine is simple columnar with a brush border.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name a site of non-keratinised stratified squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q13. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-516
+## title
+The superficial layer of the skin is composed of which type of tissues:
+## question
+The superficial layer of the skin is composed of which type of tissues:
+## vignette
+This item asks the student to name the epithelium of the epidermis.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple columnar epithelium
+## explanation_a
+Simple columnar epithelium is the gut lining, one cell thick.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Dense fibrous tissue
+## explanation_c
+Dense fibrous tissue is the dermis beneath, and it is connective tissue rather than epithelium. The question asks about the superficial layer.
+## answer_d
+Stratified columnar epithelium
+## explanation_d
+Stratified columnar epithelium is rare and is found in gland ducts and at the recto-anal junction.
+## topic
+Basis
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_51fef9b6234c5d381f59
+## learning_objective
+Name the epithelium of the epidermis.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p2 q7. Manifest src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-517
+## title
+The surface epithelium:
+## question
+The surface epithelium:
+## vignette
+This item asks the student to define surface epithelium against the other three classes.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Is modified to give secretion
+## explanation_a
+Modified to secrete is glandular epithelium.
+## answer_b
+Is modified to contract
+## explanation_b
+Modified to contract is myo-epithelium.
+## answer_c
+Is modified to receive sensation
+## explanation_c
+Modified to receive sensation is neuro-epithelium.
+## answer_d
+Covers surfaces or lines cavities
+## explanation_d
+Correct. Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.
+
+Why this is right:
+- Epithelial tissue covers the outer surfaces of the body and lines the surfaces of its cavities.
+- Its cells are crowded with minimal intercellular space; it has a free upper surface and a basal surface resting on a basement membrane that may be clear or not clear; it is avascular, because blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so it is fed by diffusion from the connective tissue beneath; and it has a high power of regeneration.
+- It may be ectodermal, as in skin, mesodermal, as in the serous membranes, or endodermal, as in the gastrointestinal tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-49350AB867CB5A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Define surface epithelium against the other three classes.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p10 q2. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-518
+## title
+The trachea (upper respiratory tract) is lined by:
+## question
+The trachea (upper respiratory tract) is lined by:
+## vignette
+This item asks the student to name the epithelium of the trachea in full.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamouse pithelium
+## explanation_a
+Simple squamous epithelium is in the alveolus at the far end of the same airway, where the requirement changes from conducting to exchanging.
+## answer_b
+non keratinized stratified squamous epithelium
+## explanation_b
+Non-keratinised stratified squamous epithelium appears in the airway only after metaplasia in a heavy smoker.
+## answer_c
+Keratinized stratified squamouse pithelium
+## explanation_c
+Keratinised stratified squamous epithelium belongs to the skin and appears nowhere in the airway.
+## answer_d
+pseudostratified columnar ciliated epithelium with goblet cells
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the trachea in full.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p2 q14. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-519
+## title
+transitional epithelium is present in:
+## question
+transitional epithelium is present in:
+## vignette
+This item asks the student to name a site of transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+thyroid gland
+## explanation_a
+The thyroid gland is simple cubical epithelium lining its follicles.
+## answer_b
+urinary bladder
+## explanation_b
+Correct. The urinary bladder, the organ this epithelium exists for.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_c
+gallbladder
+## explanation_c
+The gall bladder is simple columnar. It is chosen because it stores a fluid and distends, but its distension is accommodated by folds in the wall rather than by the epithelium changing shape.
+## answer_d
+trachea
+## explanation_d
+The trachea is pseudostratified columnar ciliated with goblet cells.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name a site of transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q20. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-520
+## title
+Transitional epithelium is stretchable as it has:
+## question
+Transitional epithelium is stretchable as it has:
+## vignette
+This item asks the student to give the structural reason transitional epithelium can stretch.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Thick basement membrane
+## explanation_a
+The bladder's basement membrane is thin and non-clear, not thick — and a thick basement membrane would resist stretch rather than permit it.
+## answer_b
+wide intracellular substance containing mucous like substance
+## explanation_b
+Correct. The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_c
+thin layer of keratin on top layer
+## explanation_c
+Keratin is a rigid dead layer for a dry surface. It would crack rather than stretch, and it is confined to the epidermis.
+## answer_d
+flat cells in the top layer and columnar cells in the top layer
+## explanation_d
+The option describing flat cells in the top layer and columnar cells in the top layer contradicts itself, and in any case the superficial cells are dome-shaped and the basal ones cuboidal.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Give the structural reason transitional epithelium can stretch.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q29. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-521
+## title
+Transitional epithelium, one of the following is false:
+## question
+Transitional epithelium, one of the following is false:
+## vignette
+This item asks the student to recognise that transitional epithelium has no goblet cells.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Lines the urinary bladder
+## explanation_a
+True, so not the false one. The urinary bladder is its principal site.
+## answer_b
+Contains goblet cells
+## explanation_b
+Correct. The false statement, and the answer. Goblet cells are unicellular mucous glands scattered in the respiratory and intestinal linings; mucus over the urothelium would serve no purpose, and the barrier here is the plaque instead.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_c
+Is classified as a stratified epithelium
+## explanation_c
+True, so not the false one. It is more than one layer, so it is stratified — named, like every stratified epithelium, for the shape of its superficial cells.
+## answer_d
+Has a non-clear basement membrane
+## explanation_d
+True, so not the false one. The non-clear basement membrane is the point of comparison against the oesophagus.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise that transitional epithelium has no goblet cells.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q58. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-522
+## title
+Type of epithelium in Bowman's capsule of kidney is:
+## question
+Type of epithelium in Bowman's capsule of kidney is:
+## vignette
+This item asks the student to name the epithelium of Bowman's capsule.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Simple squamous
+## explanation_a
+Correct. Filtration needs the thinnest barrier available, and the parietal layer of Bowman's capsule is simple squamous.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium is the convoluted tubule further along the same nephron, where reabsorption happens.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Simple columnar ciliated epithelium is the uterus and bronchiole.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells is the airway.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of Bowman's capsule.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q120. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-523
+## title
+Type of epithelium in bronchioles is:
+## question
+Type of epithelium in bronchioles is:
+## vignette
+This item asks the student to distinguish the bronchiole's epithelium from the trachea's.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is further down still, in the alveolus.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium for the bronchiole is columnar and ciliated.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Correct. Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated with goblet cells is the trachea and bronchi. The airway loses its pseudostratification and its goblet cells as it narrows, and this question is exactly about that transition.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Distinguish the bronchiole's epithelium from the trachea's.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q112. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-524
+## title
+Type of epithelium in convoluted tubules of kidney is:
+## question
+Type of epithelium in convoluted tubules of kidney is:
+## vignette
+This item asks the student to name the epithelium of the convoluted tubules.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is Bowman's capsule, at the start of the same nephron.
+## answer_b
+Simple cuboidal
+## explanation_b
+Correct. Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Nothing in the kidney tubule is ciliated in the sense meant here; urine is moved by pressure, not by beating.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells is the airway.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the convoluted tubules.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q119. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-525
+## title
+Type of epithelium in cornea is:
+## question
+Type of epithelium in cornea is:
+## vignette
+This item asks the student to explain why the cornea is non-keratinised.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratin would make the cornea opaque, which would defeat the whole organ. This is the option that turns a memorised list into a reason.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Correct. Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Explain why the cornea is non-keratinised.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q116. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-526
+## title
+Type of epithelium in ducts of sweat glands is:
+## question
+Type of epithelium in ducts of sweat glands is:
+## vignette
+This item asks the student to name the epithelium of the sweat gland duct.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the epidermis the duct passes through, not the duct itself.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium is the moist linings — mouth, oesophagus, cornea, vagina.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Correct. Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.
+
+Why this is right:
+- Stratified cubical epithelium is rare and has a limited distribution — usually two layers of cubical cells, as in the ducts of the sweat glands.
+- Stratified columnar epithelium resembles stratified squamous but with few layers and columnar superficial cells: it is ciliated in the fetal oesophagus, which is rare, and non-ciliated at the recto-anal junction, in the large ducts of glands and in the penile urethra.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-7FDC0D8E9467FA
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the sweat gland duct.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p15 q118. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-527
+## title
+Type of epithelium in skin is:
+## question
+Type of epithelium in skin is:
+## vignette
+This item asks the student to name the epithelium of the skin, keratinisation included.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Correct. Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+The non-keratinised form lines the moist surfaces. Giving it to the skin is the standard half-answer.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct, which is in the skin but is not the skin.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is the urinary tract.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the skin, keratinisation included.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q117. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-528
+## title
+Type of epithelium in thyroid follicles is:
+## question
+Type of epithelium in thyroid follicles is:
+## vignette
+This item asks the student to name the epithelium of the thyroid follicle.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is for exchange, and a follicle secretes.
+## answer_b
+Simple cuboidal
+## explanation_b
+Correct. Simple cubical epithelium, the standard lining of a secretory unit.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Cilia have nothing to move in a closed follicle.
+## answer_d
+Pseudostratified columnar ciliated with goblet cell
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells belongs to the airway.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the thyroid follicle.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q115. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-529
+## title
+Type of epithelium in trachea is:
+## question
+Type of epithelium in trachea is:
+## vignette
+This item asks the student to name the epithelium of the trachea.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple squamous
+## explanation_a
+Simple squamous epithelium is the alveolus.
+## answer_b
+Simple cuboidal
+## explanation_b
+Simple cubical epithelium is the terminal bronchiole and the gland acinus.
+## answer_c
+Simple columnar ciliated
+## explanation_c
+Simple columnar ciliated epithelium is the bronchiole — the same cilia, one layer, no goblet cells.
+## answer_d
+Pseudostratified columnar ciliated with goblet cells
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the trachea.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q111. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-530
+## title
+Type of epithelium in ureter is:
+## question
+Type of epithelium in ureter is:
+## vignette
+This item asks the student to name the epithelium of the ureter.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the skin.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium is the oesophagus and the other moist abraded linings.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the ureter.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q114. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-531
+## title
+Type of epithelium in urinary bladder is:
+## question
+Type of epithelium in urinary bladder is:
+## vignette
+This item asks the student to name the epithelium of the urinary bladder.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Keratinized stratified squamous
+## explanation_a
+Keratinised stratified squamous epithelium is the skin.
+## answer_b
+Non keratinized stratified squamous
+## explanation_b
+Non-keratinised stratified squamous epithelium appears in the bladder only after bilharzial metaplasia.
+## answer_c
+Stratified cuboidal
+## explanation_c
+Stratified cuboidal epithelium is the sweat gland duct.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Name the epithelium of the urinary bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p14 q113. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-532
+## title
+Urinary bladder is lined with:
+## question
+Urinary bladder is lined with:
+## vignette
+This item asks the student to name the epithelium of the urinary bladder.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pseudostratified columnar epithelium
+## explanation_a
+Pseudostratified columnar epithelium is the airway and the male genital ducts.
+## answer_b
+Stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium is rare — gland ducts, recto-anal junction, penile urethra.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium is the bilharzial metaplasia answer, not the normal lining.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Transitional epithelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the epithelium of the urinary bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p13 q26. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-533
+## title
+Urinary bladder is lined with ................... epithellum:
+## question
+Urinary bladder is lined with ................... epithellum:
+## vignette
+This item asks the student to name the epithelium of the urinary bladder.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Pseudostratified columnar
+## explanation_a
+Pseudostratified columnar epithelium is the airway and the vas deferens.
+## answer_b
+Stratified columnar
+## explanation_b
+Stratified columnar epithelium is confined to gland ducts, the recto-anal junction and the penile urethra.
+## answer_c
+Stratified squamous
+## explanation_c
+Stratified squamous epithelium appears in the bladder only in bilharziasis, as metaplasia.
+## answer_d
+Transitional
+## explanation_d
+Correct. Transitional epithelium, or urothelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Histology-general
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Name the epithelium of the urinary bladder.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p12 q26. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The bladder is lined by transitional epithelium, which is option D; the same question with the same four options is keyed D at `urinary-bladder-is-lined-with-5979e9b6`.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-534
+## title
+What type of epithelium is composed of cells which all touch the basement membrane and …
+## question
+What type of epithelium is composed of cells which all touch the basement membrane and is only one cell layer thick?
+## vignette
+This item asks the student to recognise pseudostratified epithelium from the description of a single layer that looks like several.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Stratified squamous epithelium
+## explanation_a
+Stratified squamous epithelium has many layers and only the basal one touches the basement membrane.
+## answer_b
+Transitional epithelium
+## explanation_b
+Transitional epithelium is genuinely stratified as well.
+## answer_c
+Stratified cuboidal epithelium
+## explanation_c
+Stratified cuboidal epithelium has two layers, of which only one is basal.
+## answer_d
+Pseudostratified epithelium
+## explanation_d
+Correct. Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Definition
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise pseudostratified epithelium from the description of a single layer that looks like several.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q22. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-535
+## title
+What type of epithelium lines most of the gastrointestinal tract?
+## question
+What type of epithelium lines most of the gastrointestinal tract?
+## vignette
+This item asks the student to name the epithelium of most of the gastrointestinal tract.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is for exchange and would be destroyed by gut contents.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cubical epithelium lines the gut's glands, not its surface.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Simple columnar ciliated
+## explanation_d
+Cilia belong to the airway and the female genital tract; nothing in the gut is moved by ciliary beat.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium of most of the gastrointestinal tract.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p4 q21. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-536
+## title
+which of following contain desmosome:
+## question
+which of following contain desmosome:
+## vignette
+This item asks the student to connect abundant desmosomes to the epithelium that takes friction.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium has junctions like any epithelium, but neither it nor its junctions are singled out here.
+## answer_b
+stratified cubical
+## explanation_b
+Stratified cubical epithelium is two layers in a sweat duct and is under no particular mechanical load.
+## answer_c
+stratified squamous
+## explanation_c
+Correct. Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_d
+all the above
+## explanation_d
+A hedge that loses the point: every epithelium has some desmosomes, and the question is which one is defined by having many.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Connect abundant desmosomes to the epithelium that takes friction.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p2 q21. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-537
+## title
+Which of the following epithelia is also called the urothelium
+## question
+Which of the following epithelia is also called the urothelium
+## vignette
+This item asks the student to match urothelium to transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium has its own regional names — endothelium and mesothelium — and neither of them is urothelium.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Stratified squamous epithelium is what urothelium becomes in bilharziasis, which is the one situation in which the two words meet.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium is the gut.
+## answer_d
+Transitional epithelium
+## explanation_d
+Correct. Urothelium is transitional epithelium.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Match urothelium to transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q4. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-538
+## title
+Which of the following epithelia may have a striate border on its surface
+## question
+Which of the following epithelia may have a striate border on its surface
+## vignette
+This item asks the student to attribute the striated border to the absorptive simple columnar cell.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Simple squamous epithelium
+## explanation_a
+A squamous cell has no room for a border of microvilli and no reason for one — it is not absorbing.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+A stratified squamous surface is shedding cells constantly; a specialised absorptive border there would be pointless.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Correct. The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.
+
+Why this is right:
+- Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## answer_d
+Transitional epithelium
+## explanation_d
+The luminal surface of transitional epithelium carries rigid plaques, which is a barrier rather than an absorptive border.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6887E3F110A894
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Attribute the striated border to the absorptive simple columnar cell.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q3. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-539
+## title
+Which of the following epithelium may have keratin on the surface:
+## question
+Which of the following epithelium may have keratin on the surface:
+## vignette
+This item asks the student to recognise that only stratified squamous epithelium keratinises.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer for exchange; keratinising it would destroy the function and the cell.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Correct. Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium secretes and absorbs and stays alive at its surface.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is bathed in urine and never keratinises.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Recognise that only stratified squamous epithelium keratinises.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p1 q2. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-540
+## title
+Which organ contains stratified squamous epithelium with keratinization?
+## question
+Which organ contains stratified squamous epithelium with keratinization?
+## vignette
+This item asks the student to pick the keratinised site out of three non-keratinised ones.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+oral cavity
+## explanation_a
+The oral cavity is stratified squamous and moist, so non-keratinised.
+## answer_b
+Esophagus
+## explanation_b
+The oesophagus is the same — stratified squamous non-keratinised.
+## answer_c
+Trachea
+## explanation_c
+The trachea is pseudostratified columnar ciliated and is not stratified squamous at all.
+## answer_d
+Skin
+## explanation_d
+Correct. The skin, the only place in the body where the surface is dry and the epithelium keratinises.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Pick the keratinised site out of three non-keratinised ones.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q62. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-541
+## title
+Which type of epithelium are cells which are main site of gas exchange?
+## question
+Which type of epithelium are cells which are main site of gas exchange?
+## vignette
+This item asks the student to name the epithelium at which gas exchange happens.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Pseudostratified columnar epithelium
+## explanation_a
+Pseudostratified columnar epithelium conducts air and cleans it; it is far too thick for gas to cross.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is thicker than squamous and belongs to secretory and reabsorptive sites.
+## answer_c
+Simple squamous epithelium
+## explanation_c
+Correct. Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_d
+Transitional epithelium
+## explanation_d
+Transitional epithelium is built to be impermeable, which is the opposite requirement.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epithelium at which gas exchange happens.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p11 q61. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-542
+## title
+Which type of epithelium is best suited for rapid filtration?
+## question
+Which type of epithelium is best suited for rapid filtration?
+## vignette
+This item asks the student to connect filtration to the thinnest epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+simple squamous
+## explanation_a
+Correct. Filtration in Bowman's capsule needs the thinnest possible barrier, and one layer of flat cells provides it.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium is many layers of protection — designed to stop things crossing.
+## answer_c
+pseudostratified
+## explanation_c
+Pseudostratified epithelium is thick and mucus-covered.
+## answer_d
+stratified cuboidal
+## explanation_d
+Stratified cuboidal epithelium is two layers in a duct and filters nothing.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Connect filtration to the thinnest epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p10 q53. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-543
+## title
+which type of epithelium is called respiratory epithelium?
+## question
+which type of epithelium is called respiratory epithelium?
+## vignette
+This item asks the student to name respiratory epithelium exactly, including the cilia that define it.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is the alveolus, at the end of the respiratory tract rather than lining its conducting part.
+## answer_b
+stratified columnar epithelium
+## explanation_b
+Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.
+## answer_c
+pseudo stratified columnar epithelium
+## explanation_c
+The source's printed answer, and incomplete. Pseudostratified columnar epithelium comes in three forms, and the non-ciliated one lines the vas deferens — so this name alone does not identify the respiratory lining.
+## answer_d
+pseudo stratified ciliated columnar epithelium
+## explanation_d
+Correct. Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Classification
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name respiratory epithelium exactly, including the cilia that define it.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q22. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The source key gives C, "pseudo stratified columnar epithelium", but the book divides pseudostratified columnar epithelium into three forms and only the ciliated one is the respiratory epithelium — the non-ciliated form lines the vas deferens. Option D names the ciliated form exactly, so with both on the same list D is the single best answer and C is the incomplete one. Recorded rather than followed, because the printed key would teach students that the cilia are optional.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-544
+## title
+which type of epithelium is found in organs that are responsible for gaseous exchange?
+## question
+which type of epithelium is found in organs that are responsible for gaseous exchange?
+## vignette
+This item asks the student to name the epithelium of organs responsible for gaseous exchange.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+simple squamous epithelium
+## explanation_a
+Correct. Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium is secretory and reabsorptive.
+## answer_c
+pseudo-stratified columnar epithelium
+## explanation_c
+Pseudostratified columnar epithelium conducts and cleans the air on its way in.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+Stratified squamous epithelium is a barrier, which is precisely what an exchange surface must not be.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the epithelium of organs responsible for gaseous exchange.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p7 q16. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-545
+## title
+which type of epithelium is found in the skin?
+## question
+which type of epithelium is found in the skin?
+## vignette
+This item asks the student to name the skin's epithelium with its keratinisation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is one layer for exchange.
+## answer_b
+stratified cuboidal epithelium
+## explanation_b
+Stratified cuboidal epithelium is the sweat gland duct within the skin, not the skin surface.
+## answer_c
+stratified squamous keratinized epithelium
+## explanation_c
+Correct. Stratified squamous keratinised epithelium.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_d
+stratified squamous epithelium
+## explanation_d
+The same epithelium named without its keratin, which is the option this question exists to separate from the right one. Given both, the more exact name is the answer.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_d184b8378f4d66d285e0
+## learning_objective
+Name the skin's epithelium with its keratinisation.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Epithelium | Module 101 questions.pdf.pdf p8 q19. Manifest src_d184b8378f4d66d285e0.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-546
+## title
+Which type of epithelium is present epidermis?
+## question
+Which type of epithelium is present epidermis?
+## vignette
+This item asks the student to name the epidermal epithelium with its keratinisation.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Stratified squamous epithelium without keratinization
+## explanation_a
+Without keratinisation this is the lining of the oesophagus, mouth and vagina — moist surfaces, not skin.
+## answer_b
+Stratified squamous epithelium with keratinization
+## explanation_b
+Correct. Stratified squamous epithelium with keratinisation.
+
+Why this is right:
+- Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
+## answer_c
+Secretory type of epithelium
+## explanation_c
+Secretory epithelium is glandular. The skin contains glands, but the epidermis itself covers.
+## answer_d
+Absorptive type of epithelium
+## explanation_d
+Absorptive epithelium is simple columnar with microvilli, and the skin is built to keep things out rather than take them in.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-8FEBD5195DCED2
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_25ac512fb1cb23a6f696
+## learning_objective
+Name the epidermal epithelium with its keratinisation.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Eithelium mcq 2025  JPG.pdf p12 q64. Manifest src_25ac512fb1cb23a6f696.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-547
+## title
+Which type of the epithelium has dome shaped cells?
+## question
+Which type of the epithelium has dome shaped cells?
+## vignette
+This item asks the student to attribute the dome cell to transitional epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Transitional epithelium
+## explanation_a
+Correct. The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.
+
+Why this is right:
+- Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## answer_b
+Stratified cubical epithelium
+## explanation_b
+Stratified cubical epithelium has cube-shaped surface cells with flat tops.
+## answer_c
+Stratified columnar epithelium
+## explanation_c
+Stratified columnar epithelium has tall surface cells.
+## answer_d
+Stratified squamous epithelium
+## explanation_d
+Stratified squamous epithelium has flat surface cells — the shape at the opposite extreme, and the reason a distended bladder is so often misread as stratified squamous.
+## topic
+Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-6913B2CF5EFC7C
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_1fb914ce96908301b7b1
+## learning_objective
+Attribute the dome cell to transitional epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Epithelium].pdf p4 q32. Manifest src_1fb914ce96908301b7b1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-548
+## title
+The type of epithelium providing thin membrane and smooth surface is:
+## question
+The type of epithelium providing thin membrane and smooth surface is:
+## vignette
+This item asks the student to attribute a thin membrane and a smooth surface to simple squamous epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Simple squamous epithelium.
+## explanation_a
+Correct. One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.
+
+Why this is right:
+- Simple squamous epithelium is one layer of flat cells with flat nuclei.
+- Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+- It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## answer_b
+Simple cubical epithelium.
+## explanation_b
+Simple cubical epithelium is one layer of cube-shaped cells and its functions are secretion and reabsorption — thyroid follicles, kidney convoluted tubules. A cube is thicker than a flat cell, and nothing diffuses across it.
+## answer_c
+Simple columnar epithelium.
+## explanation_c
+Simple columnar epithelium is taller still and works in secretion and absorption along the digestive tract. Height is what this option gets wrong.
+## answer_d
+Stratified squamous epithelium.
+## explanation_d
+Stratified squamous epithelium has flat cells only at its surface and many layers beneath. Its function is protection, which is the opposite requirement — thickness rather than thinness.
+## topic
+Surface Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-E51851DAB2DD13
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Attribute a thin membrane and a smooth surface to simple squamous epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p3 q21. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: simple squamous epithelium is one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-549
+## title
+The type of epithelium with contractile function is:
+## question
+The type of epithelium with contractile function is:
+## vignette
+This item asks the student to name the functional class of epithelium that contracts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Surface epithelium.
+## explanation_a
+Surface epithelium covers surfaces and lines cavities. It is the first of the four classes and the one that does not do a specialised job at all.
+## answer_b
+Neuro-epithelium.
+## explanation_b
+Neuro-epithelium is epithelium modified as a receptor — taste, smell, hearing. It responds to a stimulus rather than producing movement.
+## answer_c
+Myo-epithelium.
+## explanation_c
+Correct. Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.
+
+Why this is right:
+- Epithelial tissue covers the outer surfaces of the body and lines the surfaces of its cavities.
+- Its cells are crowded with minimal intercellular space; it has a free upper surface and a basal surface resting on a basement membrane that may be clear or not clear; it is avascular, because blood and lymph vessels cannot penetrate between epithelial cells although nerves can, so it is fed by diffusion from the connective tissue beneath; and it has a high power of regeneration.
+- It may be ectodermal, as in skin, mesodermal, as in the serous membranes, or endodermal, as in the gastrointestinal tract.
+## answer_d
+Urothelium.
+## explanation_d
+Urothelium is another name for transitional epithelium, which is a kind of surface epithelium and is distensible rather than contractile. Stretching passively and contracting actively are opposite properties, and this option trades on both being about a changing shape.
+## topic
+Surface Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-49350AB867CB5A
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_9487fd713153c573087f
+## learning_objective
+Name the functional class of epithelium that contracts.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT end of module.pdf p4 q25. Manifest src_9487fd713153c573087f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer given here is: in the four-way functional classification, myo-epithelium is the class of epithelial cells with a contractile function.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-550
+## title
+Respiratory epithelium refers to:
+## question
+Respiratory epithelium refers to:
+## vignette
+This item asks the student to give the full name of the epithelium called respiratory epithelium.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Simple cubical epithelium.
+## explanation_a
+Simple cubical epithelium lines thyroid follicles and kidney tubules. It has neither cilia nor goblet cells, so it can move nothing along a surface.
+## answer_b
+Stratified cubical epithelium.
+## explanation_b
+Stratified cubical epithelium is a rare two-layered type found in sweat gland ducts. Nothing in the respiratory tract is lined by it.
+## answer_c
+Simple columnar non ciliated epithelium with goblet cells.
+## explanation_c
+Every word is right except two. The lower respiratory tract — the bronchioles — is lined by simple columnar *ciliated* epithelium, and the named respiratory epithelium of the upper tract is pseudostratified. Dropping the cilia leaves an epithelium that cannot clear secretions at all.
+## answer_d
+Pseudostratified columnar ciliated epithelium with goblet cells.
+## explanation_d
+Correct. Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.
+
+Why this is right:
+- Pseudostratified columnar epithelium looks stratified and is not.
+- Non-ciliated lines the vas deferens and the membranous urethra.
+- Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland.
+## topic
+Surface Epithelium
+## subtopic
+Surface Epithelium
+## main_concept
+CON-FND-68DA70C4BBE2A1
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## resource_ids
+src_9e6aad6c6af097e473d6
+## learning_objective
+Give the full name of the epithelium called respiratory epithelium.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q28. Manifest src_9e6aad6c6af097e473d6.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, known as the respiratory epithelium of the nose, trachea and bronchi.
