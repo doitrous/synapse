@@ -7139,8 +7139,7 @@ reviewDue: Set when the first review completes.
 CON-DER-867BD073CDD6D5
 
 ## label
-The stratum granulosum converts cells into keratinised cells using keratohyalin granules and seals the epidermis using lamellar granules
-
+The stratum granulosum and keratinisation
 ## canonical_key
 epidermis.stratum-granulosum.keratohyalin-and-lamellar-granules
 
@@ -7160,8 +7159,11 @@ Filaggrin
 التقرن
 
 ## definition
-The stratum granulosum (granular cell layer) is 3 to 5 layers of spindle-shaped cells above the prickle cell layer, with deeply basophilic, granular cytoplasm and flat pale nuclei. Its cytoplasm shows two types of granules by electron microscopy. Keratohyalin granules are irregular, large, membrane-free bodies containing proteins rich in phosphate groups, filaggrin and trichohyalin, which account for the granules' intense basophilia and which promote aggregation of keratin filaments into tonofibrils, the step by which granular cells convert into keratinised cells, a process called keratinisation. Membrane-coated lamellar granules are surrounded by membranes and contain lamellar discs of lipid bilayer; their contents form lipid sheets in the intercellular spaces (the cement substance) that act as a barrier with a sealing effect.
+The **stratum granulosum (granular cell layer)** is 3 to 5 layers of spindle-shaped cells above the prickle cell layer, with deeply basophilic, granular cytoplasm and flat pale nuclei. By **electron microscopy** its cytoplasm shows two types of granules.
 
+**Keratohyalin granules** are irregular, large, membrane-free bodies containing proteins rich in phosphate groups, filaggrin and trichohyalin, which account for the granules' intense basophilia and __promote aggregation of keratin filaments into tonofibrils — the step that converts granular cells into keratinised cells (keratinisation)__.
+
+**Membrane-coated lamellar granules** are surrounded by membranes and contain lamellar discs of lipid bilayer; their contents form lipid sheets in the intercellular spaces (the cement substance) that __act as a barrier with a sealing effect__.
 ## explicit_objective
 Distinguish the two granule types of the stratum granulosum by structure and function, and define keratinisation.
 
@@ -7322,8 +7324,7 @@ reviewDue: Set when the first review completes.
 CON-DER-AB2A559A79ACB3
 
 ## label
-The stratum lucidum is a clear layer of dying flattened cells and the stratum corneum the outermost layer of dead, anucleate, keratin-filled scales
-
+The stratum lucidum and stratum corneum
 ## canonical_key
 epidermis.terminal-layers.lucidum-and-corneum
 
@@ -7342,8 +7343,13 @@ Scales
 الطبقة القرنية
 
 ## definition
-The stratum lucidum (clear layer) is a thin, lightly stained, clear, homogeneous layer of much-flattened cells, more apparent in thick skin, whose nuclei are disappearing by karyolysis. By electron microscopy its cells are extremely flattened with thickened cell membranes, few remnants of desmosomes, organelles lost to lysosomal activity, and nuclei appearing as ghosts or gone entirely; the cells hold densely packed keratin filaments (tonofibrils) in an electron-dense matrix formed by keratohyalin granules. The stratum corneum (horny layer), the outermost layer, appears by light microscopy as a thick eosinophilic layer of heavily keratinised dead cells called scales; by electron microscopy its cells show thickened membranes held by remnants of desmosomes, are filled with mature keratin filaments in an amorphous matrix, and show neither nuclei nor organelles. The epidermis is translucent enough to show the dermis through it, especially in light-skinned individuals, which is why skin colour is diagnostically useful: it pales in anaemia and turns blue when oxygenated blood is insufficient, as in heart and lung disease.
+The **stratum lucidum (clear layer)** is a thin, lightly stained, clear, homogeneous layer of much-flattened cells, more apparent in thick skin, whose nuclei are disappearing by karyolysis.
 
+By **electron microscopy** its cells are extremely flattened with thickened cell membranes, few remnants of desmosomes, organelles lost to lysosomal activity, and nuclei appearing as ghosts or gone entirely; they hold densely packed keratin filaments (tonofibrils) in an electron-dense matrix formed by keratohyalin granules.
+
+The **stratum corneum (horny layer)** is the outermost layer. By **light microscopy** it is a thick eosinophilic layer of heavily keratinised dead cells called **scales**; by **electron microscopy** its cells show thickened membranes held by remnants of desmosomes, are filled with mature keratin filaments in an amorphous matrix, and show __neither nuclei nor organelles__.
+
+The epidermis is translucent enough to show the dermis through it, especially in light-skinned individuals, which is why __skin colour is diagnostically useful__: it pales in anaemia and turns blue when oxygenated blood is insufficient, as in heart and lung disease.
 ## explicit_objective
 Describe the light- and electron-microscopic features of the stratum lucidum and stratum corneum, and explain why skin colour changes are diagnostically useful.
 
@@ -7503,8 +7509,7 @@ reviewDue: Set when the first review completes.
 CON-DER-0A867D7DC2BEFC
 
 ## label
-Langerhans cells are bone-marrow-derived, stellate, antigen-presenting cells of the stratum spinosum with tennis-racquet Birbeck granules
-
+Langerhans cells: the skin's antigen-presenting cells
 ## canonical_key
 epidermis.non-keratinocytes.langerhans-cells
 
@@ -7521,8 +7526,13 @@ Antigen presenting cell of the skin
 حبيبات بيربك
 
 ## definition
-Langerhans cells originate from bone marrow precursors that migrate via the blood to the dermis and then the epidermis. They represent 3 to 8% of epidermal cells, are stellate (star-shaped), and are found mainly between cells of the stratum spinosum. In an H&E skin section a Langerhans cell appears with a dark-staining nucleus and pale, clear cytoplasm, and it can be identified with vital stains. By electron microscopy the cytoplasm is of low density and contains a prominent Golgi complex, numerous primary and secondary lysosomes, and special tennis-racquet-shaped granules called Birbeck granules, some of which may contain hydrolytic enzymes; the nucleus is dark and highly irregular; and keratin filaments, desmosomes, melanin granules and cell junctions to keratinocytes are all absent. Langerhans cells act as antigen-presenting cells, binding antigen that contacts the skin and presenting it to T lymphocytes, giving them a significant role in skin immunological reactions such as allergic dermatitis.
+**Langerhans cells** originate from bone marrow precursors that migrate via the blood to the dermis and then the epidermis. They represent 3 to 8% of epidermal cells, are **stellate (star-shaped)**, and are found mainly between cells of the stratum spinosum.
 
+In an H&E skin section a Langerhans cell appears with a dark-staining nucleus and pale, clear cytoplasm, and it can be identified with vital stains.
+
+By **electron microscopy** the cytoplasm is of low density and contains a prominent Golgi complex, numerous primary and secondary lysosomes, and special __tennis-racquet-shaped **Birbeck granules**__, some of which may contain hydrolytic enzymes; the nucleus is dark and highly irregular; and keratin filaments, desmosomes, melanin granules and cell junctions to keratinocytes are all absent.
+
+Langerhans cells act as **antigen-presenting cells**, binding antigen that contacts the skin and presenting it to T lymphocytes, giving them a significant role in __skin immunological reactions such as allergic dermatitis__.
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the Langerhans cell, name its diagnostic organelle, and explain its immunological function.
 
@@ -7682,8 +7692,7 @@ reviewDue: Set when the first review completes.
 CON-DER-71C980D8864B73
 
 ## label
-Melanocytes are neural-crest-derived, basal-layer pigment cells whose tyrosinase-driven melanin synthesis is invisible on routine H&E stain
-
+Melanocytes and melanin synthesis
 ## canonical_key
 epidermis.non-keratinocytes.melanocytes
 
@@ -7701,8 +7710,11 @@ Melanin synthesis
 الخلايا المنتجة للميلانين
 
 ## definition
-Melanocyte precursors arise from the neural crest (ectoderm) and migrate to the skin early in development, differentiating into melanocytes. Their cell bodies lie between and just below the cells of the stratum basale, with rounded, pale-stained nuclei and long irregular cytoplasmic processes extending between keratinocytes, the tips of which terminate in invaginations of cells in the stratum basale and stratum spinosum; H&E-stained skin sections do not demonstrate melanocytes. By electron microscopy the cell shows the characters of an active protein-synthesising cell — abundant rough endoplasmic reticulum, a prominent Golgi apparatus and mitochondria — with granules called melanosomes, a nucleus with euchromatin and a prominent nucleolus, no desmosomes to keratinocytes, and hemidesmosomes binding it to the basal lamina. Melanin pigment is formed by epidermal melanocytes, which synthesise the enzyme tyrosinase essential for melanin synthesis, and ultraviolet light speeds melanin synthesis.
+**Melanocyte** precursors arise from the **neural crest (ectoderm)** and migrate to the skin early in development, differentiating into melanocytes. Their cell bodies lie between and just below the cells of the stratum basale, with rounded pale nuclei and long irregular processes extending between keratinocytes, ending in invaginations of cells in the stratum basale and stratum spinosum; __H&E-stained skin sections do not demonstrate melanocytes__.
 
+By **electron microscopy** the cell shows the characters of an active protein-synthesising cell — abundant rough endoplasmic reticulum, a prominent Golgi apparatus and mitochondria — with granules called **melanosomes**, a nucleus with euchromatin and a prominent nucleolus, no desmosomes to keratinocytes, and hemidesmosomes binding it to the basal lamina.
+
+Melanin pigment is formed by epidermal melanocytes, which synthesise the enzyme **tyrosinase** essential for melanin synthesis, and __ultraviolet light speeds melanin synthesis__.
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the melanocyte, name the enzyme required for melanin synthesis, and explain why melanocytes are invisible on a routine H&E section.
 
@@ -7862,8 +7874,7 @@ reviewDue: Set when the first review completes.
 CON-DER-B9BE859E905F44
 
 ## label
-Albinism is a tyrosinase defect, vitiligo an autoimmune depigmentation, and suntanning a reversible UV-driven rise in melanin synthesis
-
+Albinism, vitiligo and sun tanning
 ## canonical_key
 melanocyte.disorders.albinism-vitiligo-suntanning
 
@@ -7882,8 +7893,11 @@ Pigmentary skin disorders
 اسمرار الجلد
 
 ## definition
-Albinism is the absence of melanin production resulting from a genetic defect in tyrosinase synthesis. Vitiligo presents as white, depigmented patches of skin; its exact cause is unknown, but an autoimmune condition may be involved. Sun tanning is the acquired darkening of skin from exposure to ultraviolet radiation, usually sunlight; excessive exposure may lead to sunburn, accelerated skin ageing, and increased skin cancer risk.
+**Albinism** is the absence of melanin production resulting from a __genetic defect in tyrosinase synthesis__.
 
+**Vitiligo** presents as white, depigmented patches of skin; its exact cause is unknown, but an __autoimmune condition may be involved__.
+
+**Sun tanning** is the acquired darkening of skin from exposure to ultraviolet radiation, usually sunlight; excessive exposure may lead to sunburn, accelerated skin ageing, and increased skin cancer risk.
 ## explicit_objective
 Distinguish albinism, vitiligo and sun tanning by cause, and state the risks of excessive ultraviolet exposure.
 
@@ -8041,8 +8055,7 @@ reviewDue: Set when the first review completes.
 CON-DER-0CE4E701A394EC
 
 ## label
-The zigzag dermal-epidermal junction of interdigitating papillae and ridges forms fingerprints and is fixed by three named structures
-
+The dermal-epidermal junction
 ## canonical_key
 skin.dermal-epidermal-junction.structure-fixation-fingerprints
 
@@ -8059,8 +8072,11 @@ Factors fixing epidermis to dermis
 بصمات الأصابع
 
 ## definition
-The dermal-epidermal junction is zigzag-shaped: dermal papillae, projections of the dermis, interdigitate with matching concavities in the epidermis called epidermal ridges. This interdigitation forms fingerprints, which are of medico-legal importance, and serves two purposes: it provides attachment of epidermis to dermis, and it increases the surface area available for nutrition of the avascular epidermis. Three factors fix the epidermis to the dermis: the basement membrane of the epidermis; hemidesmosomes, between the basal epidermal cells and that basement membrane; and the dermal papillae interdigitating with the epidermal ridges.
+The **dermal-epidermal junction** is zigzag-shaped: **dermal papillae**, projections of the dermis, interdigitate with matching concavities in the epidermis called **epidermal ridges**.
 
+This interdigitation forms **fingerprints**, which are of medico-legal importance, and serves two purposes: __it attaches epidermis to dermis__, and __it increases the surface area for nutrition of the avascular epidermis__.
+
+Three factors fix the epidermis to the dermis: the **basement membrane** of the epidermis; **hemidesmosomes**, between the basal epidermal cells and that basement membrane; and the **dermal papillae** interdigitating with the epidermal ridges.
 ## explicit_objective
 Describe the dermal-epidermal junction and list the three factors that fix the epidermis to the dermis.
 
@@ -8220,8 +8236,7 @@ reviewDue: Set when the first review completes.
 CON-DER-ACDEAF318B290B
 
 ## label
-Thin (hairy) skin covers most of the body and differs from thick skin in every epidermal layer, its appendages, and its dermal papillae
-
+Thin (hairy) skin versus thick skin
 ## canonical_key
 skin.thin.definition-sites-and-comparison-with-thick-skin
 
@@ -8238,8 +8253,11 @@ Non-hairy skin
 الجلد الرفيع
 
 ## definition
-Thin (hairy) skin covers the whole body except the palms, soles, and the tips and sides of the fingers and toes; the eyelid carries the thinnest skin in the body. It shares the basic structure of thick skin but differs from it: its epidermis, Malpighian layer, granular layer (a single layer rather than 3 to 5) and horny layer are all thinner, its clear layer is less apparent rather than clearly present, and its dermal papillae are fewer, small and irregular rather than more numerous, large and regular. Unlike thick (non-hairy) skin, which has a thick epidermis of 400 to 1400 micrometres confined to the palms and soles and lacks hair follicles, sebaceous glands and arrector pili muscles altogether, thin skin carries hair follicles, sebaceous glands and arrector pili muscles, and carries fewer sweat glands than thick skin.
+**Thin (hairy) skin** covers the whole body except the palms, soles, and the tips and sides of the fingers and toes; the eyelid carries the __thinnest skin in the body__.
 
+It shares the basic structure of thick skin but is thinner throughout: its epidermis, Malpighian layer, granular layer (a single layer rather than 3 to 5) and horny layer are all thinner, its clear layer is less apparent rather than clearly present, and its dermal papillae are fewer, small and irregular rather than more numerous, large and regular.
+
+**Thick (non-hairy) skin** has a thick epidermis of 400 to 1400 micrometres confined to the palms and soles and __lacks hair follicles, sebaceous glands and arrector pili muscles altogether__. Thin skin, by contrast, carries hair follicles, sebaceous glands and arrector pili muscles, but carries fewer sweat glands than thick skin.
 ## explicit_objective
 State where thin skin is found, and compare it with thick skin across epidermal thickness, each named epidermal layer, dermal papillae, and the presence of hair-associated appendages.
 
@@ -8400,8 +8418,7 @@ reviewDue: Set when the first review completes.
 CON-DER-7B13D571066F63
 
 ## label
-Hair is a keratinised thread grown from an epidermal-downgrowth hair follicle, whose epidermal stem cells also drive wound healing
-
+Hair, hair follicles and epidermal stem cells
 ## canonical_key
 hair-follicle.structure-development-and-epidermal-stem-cells
 
@@ -8419,8 +8436,11 @@ Skin appendages
 الشعرة
 
 ## definition
-During development, cells of the epidermis grow down into the connective-tissue dermis to form the skin appendages: hair follicles and hairs, sebaceous glands, and sweat glands. Hair is a keratinised epithelial thread embedded in a hair follicle, an epidermal sheath from which the hair develops. Epidermal stem cells are undifferentiated epithelial cells that reside in the hair follicle; they do not contribute to the population of basal stem cells of the epidermis. Under normal conditions they are responsible for the growth of hair follicles and sebaceous glands, and when the epidermis is injured or lost, they migrate toward the wound surface and participate in the initial healing of the wound.
+During development, cells of the epidermis grow down into the connective-tissue dermis to form the **skin appendages**: hair follicles and hairs, sebaceous glands, and sweat glands.
 
+**Hair** is a keratinised epithelial thread embedded in a **hair follicle**, an epidermal sheath from which the hair develops.
+
+**Epidermal stem cells** are undifferentiated epithelial cells that reside in the hair follicle; they do not contribute to the population of basal stem cells of the epidermis. Under normal conditions they drive the growth of hair follicles and sebaceous glands, and __when the epidermis is injured or lost, they migrate toward the wound surface and take part in the initial healing__.
 ## explicit_objective
 Describe hair as a keratinised follicular structure, state the developmental origin of skin appendages, and explain the dual role of hair-follicle epidermal stem cells.
 
@@ -8581,8 +8601,7 @@ reviewDue: Set when the first review completes.
 CON-DER-406696F770DA63
 
 ## label
-Sebaceous glands are holocrine acinar glands, usually attached to hair, whose cells die to release sebum
-
+Sebaceous glands and holocrine secretion
 ## canonical_key
 sebaceous-glands.structure-holocrine-secretion-function
 
@@ -8600,8 +8619,13 @@ Acne
 الإفراز الشامل
 
 ## definition
-Sebaceous glands develop as outgrowths of the external sheath of the hair follicle. They are simple alveolar (acinar) or branched alveolar exocrine glands, sited in the dermis of thin skin, usually associated with hairs and rarely without them, as in the eyelids. Each alveolus is lined by basal flattened germinal cells, whose mitosis produces large polyhedral cells, and large polyhedral vacuolated cells, which gradually fill with numerous lipid droplets. The excretory duct is short and wide, opening into the upper third of the hair follicle, and is lined by stratified squamous epithelium continuous with the follicle. The oily secretion, sebum, is released by holocrine secretion: the cell undergoes programmed cell death (apoptosis), and both the secretory product and the cell debris are discharged through the short duct. Sebaceous glands keep thin skin and its hairs soft, preventing cracking, and their secretion is antifungal and antibacterial. Acne is inflammation of a sebaceous gland from obstruction of its duct by sebum, known as a whitehead; if the plugged sebum mixes with melanin it is called a blackhead.
+**Sebaceous glands** develop as outgrowths of the external sheath of the hair follicle. They are simple alveolar (acinar) or branched alveolar exocrine glands, sited in the dermis of thin skin, usually associated with hairs and rarely without them, as in the eyelids.
 
+Each alveolus is lined by basal flattened **germinal cells**, whose mitosis produces large polyhedral cells, and large polyhedral vacuolated cells that gradually fill with numerous lipid droplets. The short, wide **excretory duct** opens into the upper third of the hair follicle and is lined by stratified squamous epithelium continuous with the follicle.
+
+The oily secretion, **sebum**, is released by __holocrine secretion__: the cell undergoes programmed cell death (apoptosis), and both the secretory product and the cell debris are discharged through the short duct. Sebum keeps thin skin and its hairs soft, preventing cracking, and is antifungal and antibacterial.
+
+**Acne** is inflammation of a sebaceous gland from obstruction of its duct by sebum, known as a whitehead; if the plugged sebum mixes with melanin it is called a blackhead.
 ## explicit_objective
 Describe the structure and holocrine secretory mechanism of the sebaceous gland, state its functions, and explain the difference between a whitehead and a blackhead.
 
@@ -8761,8 +8785,7 @@ reviewDue: Set when the first review completes.
 CON-DER-9D049A8C76F844
 
 ## label
-Eccrine sweat glands cool the whole body by merocrine secretion everywhere except thick skin sites; apocrine glands are puberty-onset scent glands of the axilla, pubis and perineum
-
+Eccrine and apocrine sweat glands
 ## canonical_key
 sweat-glands.eccrine-vs-apocrine-comparison
 
@@ -8780,8 +8803,13 @@ Merocrine secretion
 الغدد المفرزة الجزئية
 
 ## definition
-Sweat glands are simple tubular coiled glands, sited deep in the dermis all over the body except the glans penis and nail beds. Eccrine glands lie all over the body except the glans penis and nail beds, are more numerous, and predominate in thick skin; their secretory part is small with a narrow lumen and three cell types — large clear cells (more numerous, broad base, narrow apex, pale glycogen-rich cytoplasm, joined by intercellular canaliculi), small dark cells (less numerous, narrow base, wide apex, dark cytoplasm with glycoprotein granules; watery secretion from the clear cells passes through the canaliculi to mix with the dark cells' protein product), and myoepithelial cells; their excretory duct spirals through dermis and epidermis, opens directly onto the epidermis, and is lined by two cuboidal cell layers; their secretion is a clear watery fluid of water, sodium chloride, urea and ammonia with low protein content, and its main function is body temperature regulation. Apocrine glands occur in the thin skin of the axillary, pubic and perineal regions, are less numerous, are absent from thick skin, and only start to function at puberty; their secretory part is large with a wide lumen and only two cell types, simple cuboidal cells (eosinophilic cytoplasm, apical granules discharged by exocytosis) and myoepithelial cells; their excretory duct spirals through the dermis and opens into a hair follicle rather than directly onto the skin, lined by two cuboidal cell layers; their secretion is viscous and initially odourless, becoming offensive through bacterial action. Both types share a merocrine mode of secretion, by exocytosis, for their main secretory output, despite the older name "apocrine" implying otherwise.
+**Sweat glands** are simple tubular coiled glands, sited deep in the dermis all over the body except the glans penis and nail beds.
 
+**Eccrine glands** lie all over the body except the glans penis and nail beds, are more numerous, and predominate in thick skin. Their small secretory part with a narrow lumen has three cell types — large **clear cells** (more numerous, broad base, narrow apex, pale glycogen-rich cytoplasm, joined by intercellular canaliculi), small **dark cells** (less numerous, narrow base, wide apex, dark cytoplasm with glycoprotein granules; the clear cells' watery secretion passes through the canaliculi to mix with the dark cells' protein product), and **myoepithelial cells**. Their duct spirals through dermis and epidermis, opens directly onto the epidermis, and is lined by two cuboidal cell layers. Their secretion is a clear watery fluid of water, sodium chloride, urea and ammonia with low protein content, and its main function is __body temperature regulation__.
+
+**Apocrine glands** occur in the thin skin of the axillary, pubic and perineal regions, are less numerous, are absent from thick skin, and __only start to function at puberty__. Their large secretory part with a wide lumen has only two cell types, simple cuboidal cells (eosinophilic cytoplasm, apical granules discharged by exocytosis) and myoepithelial cells. Their duct spirals through the dermis and opens into a **hair follicle** rather than directly onto the skin, lined by two cuboidal cell layers. Their secretion is viscous and initially odourless, __becoming offensive through bacterial action__.
+
+Both types share a **merocrine mode of secretion**, by exocytosis, for their main secretory output, despite the older name "apocrine" implying otherwise.
 ## explicit_objective
 Compare eccrine and apocrine sweat glands on site, cell number and type, excretory duct destination, secretion composition, and onset of function.
 
@@ -8945,8 +8973,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-5DF0AED914A81E
 
 ## label
-A Haversian canal is surrounded by 5–20 concentric circular bony lamellae with osteocytes in lacunae
-
+Concentric lamellae around the Haversian canal
 ## modules
 103 BMS
 
@@ -8968,8 +8995,7 @@ relatedConceptIds: Cross-linked to CON-MSK-702060D54048F5 (Haversian canal conte
 CON-MSK-702060D54048F5
 
 ## label
-A Haversian canal contains blood vessels and nerves in loose connective tissue
-
+Contents of the Haversian canal
 ## modules
 103 BMS
 
@@ -9014,8 +9040,7 @@ relatedConceptIds: Cross-linked to CON-MSK-52DC4C4BF9126D (matrix lamellar arran
 CON-MSK-52DC4C4BF9126D
 
 ## label
-Bone matrix is arranged as lamellae of calcified collagen bundles in calcified ground substance
-
+Bone matrix as calcified lamellae
 ## modules
 103 BMS
 
@@ -9037,8 +9062,7 @@ relatedConceptIds: Cross-linked to CON-MSK-0E9A4639848229 (matrix components).
 CON-MSK-BD54A250111D42
 
 ## label
-A T tubule between two terminal SR cisternae forms a triad
-
+The triad of skeletal muscle
 ## modules
 103 BMS
 
@@ -9065,8 +9089,7 @@ relatedConceptIds: Cross-linked to CON-MSK-B080975D6171CF, the skeletal/cardiac/
 CON-MSK-BBEDCAE76A03B9
 
 ## label
-A band has a central pale H zone bisected by M line
-
+The H zone and M line of the A band
 ## modules
 103 BMS
 
@@ -9095,8 +9118,7 @@ articleIds/relatedArticleIds: `check-two-sided-coverage.py "103 BMS" --list` fla
 CON-MSK-70448A9B07D24A
 
 ## label
-Contraction shortens I band, abolishes H zone, preserves A band, and shortens sarcomere/fiber without filament shortening
-
+Band changes during muscle contraction
 ## modules
 103 BMS
 
@@ -9123,8 +9145,7 @@ relatedConceptIds: Cross-linked to CON-MSK-B080975D6171CF, the skeletal/cardiac/
 CON-MSK-740E240D62B9A5
 
 ## label
-After injury satellite cells activate, proliferate, and fuse into new muscle fibers
-
+Satellite cells repair injured muscle
 ## modules
 103 BMS
 
@@ -9150,8 +9171,7 @@ relatedArticleIds: ART-103-HIS-SKELETAL-MUSCLE-FIBRE-TYPES-CLINICAL discusses th
 CON-MSK-81DB31A24F7B4E
 
 ## label
-At musculotendinous junction muscle connective tissue continues into tendon collagen
-
+The musculotendinous junction
 ## modules
 103 BMS
 
@@ -9177,8 +9197,7 @@ relatedArticleIds: ART-103-HIS-SKELETAL-MUSCLE-FIBRE-TYPES-CLINICAL discusses th
 CON-DER-34D2463B0EAFFE
 
 ## label
-A sensory nerve ending beneath a Merkel cell forms a Merkel cell–neurite complex
-
+The Merkel cell-neurite complex
 ## modules
 103 BMS
 
@@ -9204,8 +9223,7 @@ Matches the department book's own Merkel cell EM description (a free sensory ner
 CON-DER-F4F6AA9BEAB1B6
 
 ## label
-Apocrine ducts spiral through dermis, open into hair follicles, and have two cuboidal-cell layers
-
+The apocrine sweat duct
 ## modules
 103 BMS
 
@@ -9232,8 +9250,7 @@ relatedArticleIds: ART-103-HIS-SWEAT-GLANDS discusses this fact without owning i
 CON-DER-6C82312DEBED0A
 
 ## label
-Apocrine glands occur in thin skin of axillary, pubic, and perineal regions
-
+Where apocrine glands are found
 ## modules
 103 BMS
 
@@ -9260,8 +9277,7 @@ relatedArticleIds: ART-103-HIS-SWEAT-GLANDS discusses this fact without owning i
 CON-DER-8F25CCE084AF16
 
 ## label
-Apocrine secretion is viscous and initially odorless but becomes offensive through bacterial action
-
+Apocrine secretion and body odour
 ## modules
 103 BMS
 
@@ -9315,8 +9331,7 @@ relatedArticleIds: ART-103-HIS-SWEAT-GLANDS discusses this fact without owning i
 CON-DER-8BE6D5C68517EC
 
 ## label
-Aggregation of keratin into tonofibrils converts granular cells into keratinized cells
-
+Keratinisation of granular cells
 ## modules
 103 BMS
 
