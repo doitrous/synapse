@@ -9622,3 +9622,1508 @@ yes
 Department book MCQ, transcribed rather than derived.
 ## author_notes
 Asked 1 time across the question books.
+
+---
+# Item
+## id
+QST-102-INT-MCQ-102
+## title
+Disulfide bond can be between:
+## question
+Disulfide bond can be between:
+## vignette
+This item asks the student to state that a disulfide bond forms between two cysteine residues.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+2 alanine
+## explanation_a
+Alanine's side chain has no sulfur to form a disulfide bond with; named cysteine specifically.
+## answer_b
+2 tyrosine
+## explanation_b
+Tyrosine's side chain is a phenol, not a thiol, and is not the residue named for disulfide bonding.
+## answer_c
+2 cysteine
+## explanation_c
+Correct. Disulfide bonds are present in many proteins when two cysteine residues connect to form cystine, giving keratin and insulin as examples.
+## answer_d
+2 serine
+## explanation_d
+Serine's hydroxyl group takes part in hydrogen bonding elsewhere in the tertiary structure, not in disulfide bond formation, which is reserved for cysteine.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a disulfide bond forms between two cysteine residues.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q31. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-103
+## title
+The Van der Waal interaction is:
+## question
+The Van der Waal interaction is:
+## vignette
+This item asks the student to state that Van der Waals interactions are weak forces contributing to tertiary structure stability.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+A strong bond in the tertiary structure
+## explanation_a
+Called Van der Waals interactions weak, transient attractions, not strong bonds.
+## answer_b
+A weak bond in the tertiary structure
+## explanation_b
+Correct. Described Van der Waals interactions as transient attractions between molecules that, as weak interactions, also contribute to the stability of proteins — introduced among the tertiary-structure interactions.
+## answer_c
+A strong bond in the secondary structure
+## explanation_c
+Discussed Van der Waals interactions under tertiary structure, not secondary structure, and in any case calls them weak, not strong.
+## answer_d
+A weak bond in the primary structure
+## explanation_d
+Primary structure is held by peptide bonds, not Van der Waals interactions, and called these interactions weak, not strong.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that Van der Waals interactions are weak forces contributing to tertiary structure stability.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p35 q30. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-104
+## title
+In the B- pleated sheet structure, the polypeptide chains:
+## question
+In the B- pleated sheet structure, the polypeptide chains:
+## vignette
+This item asks the student to describe β-pleated sheet formation as chain segments lining up side by side.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Cross each other to form sheet
+## explanation_a
+Crossing chains is not how described sheet formation; the segments line up side by side, and "crossing" is not the geometry given for any secondary structure.
+## answer_b
+Cross each other to form coils
+## explanation_b
+Combines two errors — crossing is not the geometry, and "coils" describes the α-helix, not the β-pleated sheet.
+## answer_c
+Line side by side to form coils
+## explanation_c
+Side by side is correct, but the resulting structure is a sheet, not a coil — "coil" is the α-helix's shape, not the β-pleated sheet's.
+## answer_d
+Line side by side to form sheet
+## explanation_d
+Correct. When two or more segments of chain are arranged side by side, a β-pleated sheet is formed.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Describe β-pleated sheet formation as chain segments lining up side by side.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-105
+## title
+Which of the following is involved in hydrogen bond formation in the tertiary structure?
+## question
+Which of the following is involved in hydrogen bond formation in the tertiary structure?
+## vignette
+This item asks the student to match each side-chain group named for tertiary-structure hydrogen bonding to the correct amino acid.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+The hydroxyl group of aspartate
+## explanation_a
+Aspartate's side chain is carboxylic, not hydroxyl; listed aspartic acid's carboxylic group, not a hydroxyl group, among the hydrogen-bonding groups.
+## answer_b
+The hydroxyl group of serine
+## explanation_b
+Correct. The hydroxyl group of amino acids such is serine (and threonine) as taking part in internal hydrogen bond formation in the tertiary structure.
+## answer_c
+The amide group of threonine
+## explanation_c
+Threonine's group named is a hydroxyl group, like serine's, not an amide group — the amide group belongs to glutamine and asparagine instead.
+## answer_d
+The sulfur group of methionine St en
+## explanation_d
+Methionine's sulfur is not among the groups listed for tertiary hydrogen bonding; disulfide bonds, a separate bond type, involve cysteine's sulfur, not methionine's.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Match each side-chain group named for tertiary-structure hydrogen bonding to the correct amino acid.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q29. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-106
+## title
+In the a- helix structure, the R- groups project:
+## question
+In the a- helix structure, the R- groups project:
+## vignette
+This item asks the student to state that the R-groups of an α-helix project outward from the coil.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inwards of the helix
+## explanation_a
+Inward projection would crowd the R-groups into the helix's core; they project outwards, away from the axis.
+## answer_b
+Outwards of the helix
+## explanation_b
+Correct. The R-groups of amino acids project outwards of the helix.
+## answer_c
+Upwards of the helix
+## explanation_c
+Upwards is not the direction given; the helix is a coil around a long axis, and the R-groups point outward from that axis, not along it.
+## answer_d
+Downwards of the helix
+## explanation_d
+Downwards has the same problem as upwards — it describes motion along the helix's axis rather than the outward projection stated.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-99CEF760A9D2CC
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that the R-groups of an α-helix project outward from the coil.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q16. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-107
+## title
+The primary structure of proteins:
+## question
+The primary structure of proteins:
+## vignette
+This item asks the student to recognise the primary structure as the amino acid sequence laid down first, which the higher orders of structure are built from by folding.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Determines the secondary and tertiary structures
+## explanation_a
+Correct. Laid out the four orders of structure in sequence — primary first, as the amino acid sequence fixed by peptide bonds during biosynthesis — and describes the secondary and tertiary orders as further folding of that same chain; the sequence set at the primary level is what the higher orders fold.
+## answer_b
+Is the final structure of the proteins
+## explanation_b
+The reverse of the ordering: primary structure is the first of four orders, not the final one — tertiary (or quaternary, for multi-chain proteins) is the higher, later order.
+## answer_c
+Is the functional structure of the proteins
+## explanation_c
+The example of a functionally essential order is the quaternary structure of hemoglobin, not the primary sequence on its own.
+## answer_d
+Includes the a- helix structure
+## explanation_d
+The α-helix is a secondary-structure feature, one specific folded form the chain can take — it is not part of the primary structure, which is the unfolded amino acid sequence.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-BE919386760579
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+## question_type
+Mechanism
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+70
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Recognise the primary structure as the amino acid sequence laid down first, which the higher orders of structure are built from by folding.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p32 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-108
+## title
+B- pleated sheets formed between different regions of the same chain is stabilized by:
+## question
+B- pleated sheets formed between different regions of the same chain is stabilized by:
+## vignette
+This item asks the student to state that a β-sheet built within one chain is held by intra-chain hydrogen bonds.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Inter-chain hydrogen bonds
+## explanation_a
+Inter-chain hydrogen bonds stabilize a sheet built between separate chains; a sheet formed within one chain's own regions is intra-chain.
+## answer_b
+Intra-chain hydrogen bonds
+## explanation_b
+Correct. When two or more segments of a single polypeptide chain are arranged side by side, the resulting β-pleated sheet is stabilized by intra-chain hydrogen bonds.
+## answer_c
+Inter-chain ionic bonds
+## explanation_c
+Ionic bonds are not the stabilizing bond type given for β-pleated sheets, whichever scope is chosen; hydrogen bonds are.
+## answer_d
+Intra-chain ionic bonds
+## explanation_d
+Intra-chain is the right scope, but ionic bonds are the wrong bond type — specified hydrogen bonds for this structure.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State that a β-sheet built within one chain is held by intra-chain hydrogen bonds.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p34 q24. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-109
+## title
+Adjacent polypeptide chains running in opposite direction are called:
+## question
+Adjacent polypeptide chains running in opposite direction are called:
+## vignette
+This item asks the student to name antiparallel β-pleated sheet as the form with strands running in opposite directions.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Parallel B- pleated sheet
+## explanation_a
+Parallel is the name for segments running in the same direction (N to C terminus), the opposite of what this stem describes.
+## answer_b
+Anti-parallel B- pleated sheet
+## explanation_b
+Correct. When adjacent segments run in opposite directions, the structure is termed an antiparallel β-pleated sheet.
+## answer_c
+Perpendicular B- pleated sheet
+## explanation_c
+Perpendicular is not a term used for β-sheet strand orientation; the two named orientations are parallel and antiparallel.
+## answer_d
+Separate B- pleated sheet
+## explanation_d
+"Separate" describes nothing about strand direction and is not a term used for sheet classification.
+## topic
+Proteins Of Biological Importance
+## subtopic
+Proteins of Biological Importance
+## main_concept
+CON-FND-FAA25760657211
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Name antiparallel β-pleated sheet as the form with strands running in opposite directions.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p33 q21. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-110
+## title
+The sugar moiety present in RNA is:
+## question
+The sugar moiety present in RNA is:
+## vignette
+This item asks the student to identify ribose as RNA's sugar, in contrast to DNA's deoxyribose.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Ribulose
+## explanation_a
+Ribulose is a five-carbon sugar involved in photosynthetic carbon fixation, not the sugar of RNA.
+## answer_b
+Arabinose
+## explanation_b
+Arabinose is not a sugar assigned to either nucleic acid.
+## answer_c
+Ribose
+## explanation_c
+Correct. The comparison table gives RNA the sugar ribose, versus DNA's 2-deoxyribose.
+## answer_d
+Deoxyribose
+## explanation_d
+Deoxyribose is DNA's sugar, not RNA's — this option swaps the two nucleic acids' sugars.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-CB55EE69768E2E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify ribose as RNA's sugar, in contrast to DNA's deoxyribose.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q2. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-111
+## title
+A DNA segment contains 100 Adenine and 100 cytosines. How many nucleotides are present …
+## question
+A DNA segment contains 100 Adenine and 100 cytosines. How many nucleotides are present in the segment?
+## vignette
+This item asks the student to apply complementary base pairing (A with T, G with C) to compute the total nucleotide count of a double-stranded DNA segment from two of its base counts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+100
+## explanation_a
+100 only counts the adenine given in the question — it ignores that the segment is double-stranded and has an equal number of paired thymine and cytosine bases, plus the guanine paired with the given cytosine.
+## answer_b
+200
+## explanation_b
+200 accounts for adenine and its thymine partner (100+100) but leaves out the 100 cytosine and its 100 paired guanine entirely.
+## answer_c
+400
+## explanation_c
+Correct. In double-stranded DNA, adenine pairs with thymine and guanine pairs with cytosine, so 100 adenine implies 100 thymine, and 100 cytosine implies 100 guanine: 100+100+100+100 = 400 nucleotides total.
+## answer_d
+50
+## explanation_d
+640 does not follow from doubling any combination of the given counts consistent with complementary base pairing — it overshoots what the A-T/G-C pairing rule gives.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Calculation
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply complementary base pairing (A with T, G with C) to compute the total nucleotide count of a double-stranded DNA segment from two of its base counts.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q8. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-112
+## title
+Number of hydrogen bonds between adenine and thymine is:
+## question
+Number of hydrogen bonds between adenine and thymine is:
+## vignette
+This item asks the student to state the number of hydrogen bonds (two) between adenine and thymine, as distinct from the three between guanine and cytosine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+|
+## explanation_a
+1 is too few for any base pair described; even the weaker A-T pair has two hydrogen bonds, not one.
+## answer_b
+2
+## explanation_b
+Correct. Adenine pairs with thymine through two hydrogen bonds.
+## answer_c
+3
+## explanation_c
+3 is the number of hydrogen bonds between guanine and cytosine, not adenine and thymine — this swaps the two base pairs' bond counts.
+## answer_d
+4
+## explanation_d
+4 hydrogen bonds is not a count given for either base pair; neither A-T (two) nor G-C (three) reaches four.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+State the number of hydrogen bonds (two) between adenine and thymine, as distinct from the three between guanine and cytosine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p55 q20. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-113
+## title
+A phosphodiester bond is present in:
+## question
+A phosphodiester bond is present in:
+## vignette
+This item asks the student to locate the phosphodiester bond as the linkage between nucleotides within a nucleic acid strand.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Nucleotide in a nucleic acid
+## explanation_a
+Correct. Nucleotides within a nucleic acid strand are linked by phosphodiester bonds, between the 3'-hydroxyl of one nucleotide and the 5'-hydroxyl of the next, through a phosphate group.
+## answer_b
+Monosaccharides in a polysaccharide
+## explanation_b
+Monosaccharides in a polysaccharide are linked by glycosidic bonds, not phosphodiester bonds — a different class of biomolecule entirely.
+## answer_c
+Amino acids in a polypeptide
+## explanation_c
+Amino acids in a polypeptide are linked by peptide bonds, not phosphodiester bonds.
+## answer_d
+Fatty acids in a diglyceride
+## explanation_d
+Fatty acids in a diglyceride are linked by ester bonds to glycerol, not phosphodiester bonds.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-C5D9467CA2A949
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Locate the phosphodiester bond as the linkage between nucleotides within a nucleic acid strand.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q13. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-114
+## title
+A short length of DNA has 80 thymine and 80 guanine residues. The total no. of nucleoti…
+## question
+A short length of DNA has 80 thymine and 80 guanine residues. The total no. of nucleotides in DNA fragment is:
+## vignette
+This item asks the student to apply complementary base pairing to compute total nucleotide count from thymine and guanine counts.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+160
+## explanation_a
+160 only accounts for the thymine and its adenine partner (80+80) — it leaves out the 80 guanine and its 80 paired cytosine.
+## answer_b
+40
+## explanation_b
+40 is far too small even for one base pair's worth of the given counts — it does not follow from the base-pairing rule applied to either given number.
+## answer_c
+320
+## explanation_c
+Correct. Thymine pairs with adenine and guanine pairs with cytosine, so 80 thymine implies 80 adenine, and 80 guanine implies 80 cytosine: 80+80+80+80 = 320 nucleotides total.
+## answer_d
+640
+## explanation_d
+640 overshoots what the pairing rule gives for these counts — it does not correspond to any consistent application of A-T/G-C pairing to 80 and 80.
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## main_concept
+CON-FND-5BAF472E54A764
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Calculation
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply complementary base pairing to compute total nucleotide count from thymine and guanine counts.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p54 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-115
+## title
+Which of the following is a purine nucleoside?
+## question
+Which of the following is a purine nucleoside?
+## vignette
+This item asks the student to identify Adenosine as a purine nucleoside, built from the purine base adenine.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Cytosine
+## explanation_a
+Cytosine is a pyrimidine base, not a nucleoside, and not a purine.
+## answer_b
+Adenine
+## explanation_b
+Adenine is the purine base itself, not its nucleoside; the naming table gives Adenine's nucleoside a separate name, Adenosine.
+## answer_c
+Adenosine
+## explanation_c
+Correct. The naming table pairs the purine base Adenine with the nucleoside Adenosine — a purine nucleoside.
+## answer_d
+Uracil
+## explanation_d
+Uracil is a pyrimidine base, not a nucleoside, and not a purine.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-21029C98FEA19F
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify Adenosine as a purine nucleoside, built from the purine base adenine.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q10. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-116
+## title
+Uridylic acid is composed of:
+## question
+Uridylic acid is composed of:
+## vignette
+This item asks the student to apply the nucleotide definition (base + pentose + phosphate) to name uridylic acid's three components.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Uracil only
+## explanation_a
+Uracil alone is only the base; uridylic acid (UMP) is the full nucleotide, which per the definition needs a pentose and phosphate as well.
+## answer_b
+Uracil and ribose
+## explanation_b
+Uracil and ribose together describe Uridine, the nucleoside — one step short of uridylic acid, which per the definition also carries a phosphate.
+## answer_c
+Ribose and phosphate
+## explanation_c
+Ribose and phosphate without the base omits the nitrogenous base that gives uridylic acid its identity as a uracil-containing compound.
+## answer_d
+Uracil, ribose, and Phosphate
+## explanation_d
+Correct. Uridylic acid is Uridine monophosphate (UMP), and a nucleotide is base + pentose + phosphate — here, uracil, ribose and phosphate.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-F2A54F8809C051
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Apply the nucleotide definition (base + pentose + phosphate) to name uridylic acid's three components.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p51 q12. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+---
+# Item
+## id
+QST-102-INT-MCQ-117
+## title
+Which of the following nucleotides contains ribose sugar and not deoxyribose?
+## question
+Which of the following nucleotides contains ribose sugar and not deoxyribose?
+## vignette
+This item asks the student to identify uracil as the base restricted to RNA, and so to ribose, unlike cytosine and adenine which appear in both nucleic acids.
+## subject
+fnd
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Thymine — pentose sugar-phosphate
+## explanation_a
+Thymine is present only in DNA, so a thymine nucleotide always carries 2-deoxyribose, never ribose.
+## answer_b
+Uracil — pentose sugar-phosphate
+## explanation_b
+Correct. Uracil is present only in RNA, so a uracil nucleotide always carries ribose, never deoxyribose — the only one of these four bases restricted to RNA alone.
+## answer_c
+Adenine — pentose sugar-phosphate
+## explanation_c
+Listed adenine among the purines present in the structure of both nucleic acids (RNA and DNA), so an adenine nucleotide is not uniquely tied to ribose the way uracil's is.
+## answer_d
+Cytosine — pentose sugar-phosphate
+## explanation_d
+Cytosine is present in both nucleic acids, so, like adenine, a cytosine nucleotide can carry either ribose or deoxyribose depending on which nucleic acid it is part of.
+## topic
+Chemistry Of Nucleotides
+## subtopic
+Chemistry of Free Nucleotides
+## main_concept
+CON-FND-C672878EA48528
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## question_only_for
+KAU_Y1
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+## resource_ids
+src_07f0a0ff41addf826c7f
+## learning_objective
+Identify uracil as the base restricted to RNA, and so to ribose, unlike cytosine and adenine which appear in both nucleic acids.
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p50 q6. Manifest src_07f0a0ff41addf826c7f.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
