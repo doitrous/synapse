@@ -26,6 +26,17 @@ describe('Reading an academic outline', () => {
     assert.deepEqual(out.errors, [])
     assert.equal(out.years[0].courses[0].moduleId.length > 0, true)
   })
+
+  test('a trailing (credit N) sets the module credit points, decimals included', () => {
+    const out = parseAcademicOutline(`# Year 1
+## Term 1
+- Normal Structure of the Human Body [101 ISK] (credit 12)
+- Introduction to Biomedical Sciences [102 INT] (credit 10.5)
+- Terminology [127 TER]`)
+    assert.deepEqual(out.errors, [])
+    assert.deepEqual(out.years[0].courses.map((c) => c.moduleId), ['101 ISK', '102 INT', '127 TER'])
+    assert.deepEqual(out.years[0].courses.map((c) => c.creditPoints), [12, 10.5, undefined])
+  })
 })
 
 describe('Subjects inside a module', () => {

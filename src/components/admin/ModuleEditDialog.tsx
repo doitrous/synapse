@@ -26,6 +26,8 @@ export interface ModuleEditDraft {
   block: string
   yearId: string
   term: string
+  /** Credit points; undefined clears them (an unmarked module has none). */
+  creditPoints?: number
 }
 
 /** Sentinel for the "name a new term" option; no real term can collide with it. */
@@ -44,6 +46,7 @@ export function ModuleEditDialog({ university, yearId, course, onClose, onSave }
   const [moduleId, setModuleId] = useState(fallbackId)
   const [name, setName] = useState(course.name)
   const [block, setBlock] = useState(course.block)
+  const [credit, setCredit] = useState(course.creditPoints !== undefined ? String(course.creditPoints) : '')
   const [targetYearId, setTargetYearId] = useState(yearId)
   const [termChoice, setTermChoice] = useState(course.term || termsOf(currentYear ?? { courses: [] })[0])
   const [newTerm, setNewTerm] = useState('')
@@ -69,12 +72,15 @@ export function ModuleEditDialog({ university, yearId, course, onClose, onSave }
   const trimmedId = moduleId.trim()
   const duplicate = trimmedId.length > 0 && taken.has(trimmedId.toUpperCase())
   const term = namingTerm ? newTerm.trim() : termChoice
-  const valid = name.trim().length > 0 && trimmedId.length > 0 && !duplicate && term.length > 0
+  const creditRaw = credit.trim()
+  const creditNumber = creditRaw === '' ? undefined : Number(creditRaw)
+  const creditInvalid = creditNumber !== undefined && (!Number.isFinite(creditNumber) || creditNumber < 0)
+  const valid = name.trim().length > 0 && trimmedId.length > 0 && !duplicate && term.length > 0 && !creditInvalid
 
   function submit(event: React.FormEvent) {
     event.preventDefault()
     if (!valid) return
-    onSave({ moduleId: trimmedId, name: name.trim(), block: block.trim(), yearId: targetYearId, term })
+    onSave({ moduleId: trimmedId, name: name.trim(), block: block.trim(), yearId: targetYearId, term, creditPoints: creditNumber })
   }
 
   const moving = targetYearId !== yearId
@@ -105,6 +111,20 @@ export function ModuleEditDialog({ university, yearId, course, onClose, onSave }
 
           <Field label="Block" htmlFor="module-edit-block" hint="Optional">
             <TextInput id="module-edit-block" value={block} onChange={(event) => setBlock(event.target.value)} placeholder="e.g. Block 3" />
+          </Field>
+
+          <Field label="Credit points" htmlFor="module-edit-credit" hint={creditInvalid ? 'Must be a positive number' : 'Optional (e.g. 10.5)'}>
+            <TextInput
+              id="module-edit-credit"
+              type="number"
+              inputMode="decimal"
+              min={0}
+              step="0.5"
+              value={credit}
+              onChange={(event) => setCredit(event.target.value)}
+              aria-invalid={creditInvalid}
+              placeholder="e.g. 12"
+            />
           </Field>
 
           <Field label="Module name" htmlFor="module-edit-name" className="sm:col-span-2">

@@ -418,6 +418,7 @@ export function studentUniversityProjection(profile, academicDocuments) {
       name: course.name,
       moduleId: course.moduleId ?? null,
       term,
+      creditPoints: typeof course.creditPoints === 'number' ? course.creditPoints : null,
       evidenceState: provenance?.evidenceState ?? course.evidenceState ?? null,
       labels: unique([...labelsFor(provenance ?? course), ...(schedule.some((row) => row.labels.includes('carried-forward')) ? ['carried-forward'] : [])]),
       assessment: schemeProjection(moduleScheme, course.exam ?? course.marks),

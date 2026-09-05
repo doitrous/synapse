@@ -55,3 +55,31 @@ action from this lane.
   are read directly off folder names and are already what `KAU_MODULES` uses, so this
   does not block triage, but a reader wanting the long-form name needs Omar or the
   faculty bylaws (not present here).
+
+---
+
+## AUTHORITATIVE UPDATE — Omar 2026-09-03 (supersedes the 6-module read above)
+
+Year 2 is **11 modules** (number-first convention). The five below beyond the six
+numbered system modules were previously flagged "secondary / no catalogue id" — Omar
+confirms they ARE Year-2 modules:
+
+| Module id | Notes |
+|---|---|
+| 205 NEU | system module (Anatomy/Histology/Pharm/Physiology) |
+| 206 DIG | system module |
+| 207 END | system module |
+| 208 INT | system module (Pathology/Pharmacology) |
+| 210 PAT | system module (Pathology/Pharmacology) |
+| 213 PSY | Psychology — NEEDS-OMAR exam source (no exam material in corpus) |
+| 227 MPE | Medical Psychology / Ethics (was `2ry Modules/MPE-227`, 9 files) |
+| 230 EPE | Evidence-based Practice / Epidemiology (was `EPE-230`, 17 files) |
+| 234 RES | Research (was `RES-234 Research`, 21 files) |
+| 235 CMP | Computer / Computing (was `2ry Modules/Computer`, 2 files) |
+| SSC 1 | Student-Selected Component 1 |
+
+**Priority (Omar): EOM / EOY / department sources first.** The six system modules
+(205/206/207/208/210 + 213-when-sourced) hold the exam banks and lead. 227/230/234/235/SSC1
+are covered after, prioritising any EOM/EOY/dept material they contain (mostly
+instructor/revision files — triage for real exam sittings first). Health Economics &
+Entrepreneurship folders remain uncatalogued — flag for Omar if they need ids.

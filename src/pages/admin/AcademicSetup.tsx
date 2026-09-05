@@ -192,7 +192,7 @@ export function AcademicSetup() {
       years: u.years.map((year) => ({
         ...year,
         courses: year.courses.map((course) => (
-          course.id === target.course.id ? { ...course, moduleId: draft.moduleId, name: draft.name, block: draft.block || course.block } : course
+          course.id === target.course.id ? { ...course, moduleId: draft.moduleId, name: draft.name, block: draft.block || course.block, creditPoints: draft.creditPoints } : course
         )),
       })),
     })

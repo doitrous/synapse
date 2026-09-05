@@ -189,6 +189,14 @@ export function parseAcademicOutline(
       if (!curYear) { errors.push(`Line ${lineNo}: module "${body}" has no year.`); return }
       const term = curTerm ?? 'Term 1'
       if (!curYear.terms?.includes(term)) curYear.terms = [...(curYear.terms ?? []), term]
+      // An optional `(credit 12)` — decimal-safe — records the module's credit
+      // points. Stripped before the `[ID]` match, which anchors to the line end.
+      let creditPoints: number | undefined
+      const creditMatch = body.match(/\(\s*credit\s+(\d+(?:\.\d+)?)\s*\)\s*$/i)
+      if (creditMatch) {
+        creditPoints = Number(creditMatch[1])
+        body = body.slice(0, creditMatch.index).trim()
+      }
       const m = body.match(/^(.*?)\s*\[([^\]]+)\]\s*$/)
       const name = (m ? m[1] : body).trim()
       if (!name) { errors.push(`Line ${lineNo}: empty module name.`); return }
@@ -197,7 +205,7 @@ export function parseAcademicOutline(
         ? resolveModuleId(m[2].trim(), lineNo)
         : uniqueModuleId(defaultModuleId(name, seq))
       curModuleId = moduleId
-      curCourse = { id: `imp-${seq}-${moduleId.replace(/\W+/g, '-').toLowerCase()}`, name, block: term, moduleId, term }
+      curCourse = { id: `imp-${seq}-${moduleId.replace(/\W+/g, '-').toLowerCase()}`, name, block: term, moduleId, term, ...(creditPoints !== undefined ? { creditPoints } : {}) }
       curYear.courses.push(curCourse)
       modules++
       stack = []

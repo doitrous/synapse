@@ -192,7 +192,9 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
             <div className="min-w-0">
               <h3 className="truncate font-serif text-[19px] font-semibold tracking-[-0.02em] text-ink">{module.name}</h3>
               <p className="mt-0.5 text-[12.5px] text-ink-3">
-                {module.moduleId} · {module.subjectCount} {module.subjectCount === 1 ? t('topic') : t('topics')} · {module.schedule.length} {module.schedule.length === 1 ? t('session') : t('sessions')}
+                {module.moduleId}
+                {module.creditPoints !== null && <> · {t('{n} credits').replace('{n}', String(module.creditPoints))}</>}
+                {' · '}{module.subjectCount} {module.subjectCount === 1 ? t('topic') : t('topics')} · {module.schedule.length} {module.schedule.length === 1 ? t('session') : t('sessions')}
               </p>
             </div>
           </div>

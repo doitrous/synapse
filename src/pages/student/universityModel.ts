@@ -39,6 +39,7 @@ export interface ProjectionModule {
   name: string
   moduleId: string | null
   term: string
+  creditPoints?: number | null
   evidenceState?: string | null
   labels?: string[]
   assessment?: ProjectionAssessment
@@ -164,6 +165,7 @@ export interface StudentModuleMap {
   name: string
   moduleId: string
   term: string
+  creditPoints: number | null
   labels: string[]
   assessment: StudentAssessmentMap
   subjects: StudentSubjectMap[]
@@ -440,6 +442,7 @@ export function normalizeStudentUniversityProjection(
         name: raw.name || raw.moduleId || 'Untitled module',
         moduleId: raw.moduleId || raw.id,
         term: raw.term || term.term || DEFAULT_TERM,
+        creditPoints: typeof raw.creditPoints === 'number' ? raw.creditPoints : null,
         labels: unique([...(raw.labels ?? []), raw.evidenceState ?? null]),
         assessment: normalizeAssessment(raw.assessment, flattenSubjectNames(subjects)),
         subjects,
@@ -616,6 +619,7 @@ export function buildDemoStudentUniversityProjection(
           name: course.name,
           moduleId: course.moduleId ?? null,
           term,
+          creditPoints: course.creditPoints ?? null,
           labels: unique([schedule.some((row) => row.labels?.includes('carried-forward')) ? 'carried-forward' : null]),
           assessment: projectionAssessmentFromScheme(scheme, bucketTotals(moduleSubjects)),
           subjects: moduleSubjects.map(projectionSubject).filter(Boolean) as ProjectionSubject[],

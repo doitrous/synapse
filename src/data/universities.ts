@@ -6,6 +6,8 @@ export interface CurriculumCourse {
   moduleId?: string
   /** The term this module sits in (a year has one or more terms). */
   term?: string
+  /** Credit points/hours the module carries in the faculty bylaws. Absent = not recorded. */
+  creditPoints?: number
 }
 
 /** Derive a default module ID like "CVS 01" from a system short + sequence. */
@@ -148,13 +150,19 @@ function yearTokensMatch(itemYear: string, scopeYearId: string): boolean {
  * server, so the same list ships as `docs/import-ready/academic/kau-modules.md`
  * for an admin to apply through Academic Import.
  */
-const KAU_MODULES: Record<string, [name: string, moduleId: string][]> = {
+const KAU_MODULES: Record<string, [name: string, moduleId: string, creditPoints?: number][]> = {
+  // Year 1 is the full 9-module bylaws list (study guide 2025-2026, p14-15): five
+  // horizontal modules plus four vertical skills modules, each with its credit points.
   'Year 1': [
-    ['101 ISK', '101 ISK'],
-    ['102 INT', '102 INT'],
-    ['103 BMS', '103 BMS'],
-    ['104 CPS', '104 CPS'],
-    ['108 INT', '108 INT'],
+    ['101 ISK', '101 ISK', 12],
+    ['102 INT', '102 INT', 10.5],
+    ['103 BMS', '103 BMS', 15],
+    ['104 CPS', '104 CPS', 15],
+    ['108 INT', '108 INT', 2],
+    ['130 EPE', '130 EPE', 2],
+    ['126 MPC', '126 MPC', 1.5],
+    ['100 CRT', '100 CRT', 1.5],
+    ['127 TER', '127 TER', 0.5],
   ],
   'Year 2': [
     ['205 NEU', '205 NEU'],
@@ -255,19 +263,20 @@ const AU_MODULES: Record<string, [name: string, moduleId: string][]> = {
  * Years the set says nothing about are left exactly as they were, empty — an
  * internship year with no modules recorded is a year with no modules recorded.
  */
-function withModules(years: UniYear[], modules: Record<string, [string, string][]>): UniYear[] {
+function withModules(years: UniYear[], modules: Record<string, [string, string, number?][]>): UniYear[] {
   return years.map((year) => {
     const list = modules[year.year]
     if (!list) return year
     return {
       ...year,
       terms: ['Term 1'],
-      courses: list.map(([name, moduleId], index) => ({
+      courses: list.map(([name, moduleId, creditPoints], index) => ({
         id: `${year.id.toLowerCase()}-m${index + 1}`,
         name,
         block: 'Term 1',
         moduleId,
         term: 'Term 1',
+        ...(creditPoints !== undefined ? { creditPoints } : {}),
       })),
     }
   })
