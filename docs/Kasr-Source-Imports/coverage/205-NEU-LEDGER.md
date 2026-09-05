@@ -4,14 +4,22 @@
 | 2024-eom-head-and-neck-anatomy | 26 | 2 | 0 | 28 |
 | 2024-eom-physiology | 23 | 0 | 0 | 23 |
 | 2024-eom-physiology-b | 34 | 4 | 0 | 38 |
-| 2023-eom-head-and-neck-anatomy | 20 | 0 | 91 | 111 |
+| 2023-eom-head-and-neck-anatomy | 44 | 0 | 64 | 108 |
 
 `2023-eom-head-and-neck-anatomy` is the EOM (2023 sitting) paper src_1d0cd2a7afeb66dcfd85
 (printed 30/11/2023). First pass: Q1-24 read (pages 1-3), 20 genuinely-new items authored,
 4 skipped as near-duplicates of already-authored EOM 197 stems (Q4 lateral-rectus/abducent,
 Q13 skin over mandibular angle/great auricular, Q22 internal laryngeal nerve, Q24 posterior
-midbrain/tectum). `remaining` = Q25-115 (pages 4-14, image-only) + Section B (cross-match),
-not yet triaged. See 205-NEU-eom2023-triage-keys.txt.
+midbrain/tectum). Second pass (2026-09-06): Q25-51 read (pages 4-6, image-only, rendered
+200dpi), 24 genuinely-new items authored (cluster continued in seed
+eom2023-head-and-neck-anatomy-p2.json → batch 205-NEU-2023eom-head-neck-p2-mcq.md), 3 skipped
+as near-duplicates (Q31 Broca/MCA vs EOM197 "region supplied by MCA"; Q47 corpus-callosum
+commissural fibre vs EOM197 "fibres connecting the 2 hemispheres"; Q48 primary-motor-cortex
+localisation, single-fact Q51 auditory=temporal authored instead). 24 new concepts minted
+(CON-NEU-…, unsalted university-blind, collision-checked vs 6304 live+pending IDs), added to
+article ART-NEU-205NEU-HEAD-AND-NECK-ANATOMY coverage. `total` = 115 MCQs minus 7 skipped
+dupes = 108; `remaining` = Q52-115 (pages 7-14, image-only) + Section B (cross-match), not yet
+triaged. See 205-NEU-eom2023-triage-keys.txt.
 
 ## Held
 - 2024eom-q20 — Printed options are Lingual/Hypoglossal/Internal laryngeal/Glossopharyngeal for the nerve related to the superior thyroid artery; the source's own hand annotation crosses out the green-highlighted "Internal laryngeal" and corrects it in the margin to "External laryngeal" — the anatomically correct nerve (external laryngeal nerve is closely related to the superior thyroid artery, not internal laryngeal) — but "External laryngeal" is not one of the four printed options. No printed option is source-supported as correct after the correction; held per the book-is-the-source rule rather than authored against a key the source's own correction contradicts.

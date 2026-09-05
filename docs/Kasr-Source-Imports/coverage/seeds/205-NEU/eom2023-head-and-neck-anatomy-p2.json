@@ -1,0 +1,457 @@
+{
+ "lane": "KASR-205NEU",
+ "cluster": "2023-eom-head-and-neck-anatomy",
+ "header": "Kasr Al Ainy 205 NEU · head-and-neck / CNS anatomy — SECOND triage pass over the 205 NEU EOM (2023 sitting) exam paper (printed date 30/11/2023; sourceId src_1d0cd2a7afeb66dcfd85). This pass reads Q25-51 (pages 4-6, image-only, rendered at 200dpi and read by eye). 24 genuinely-new items authored here; 3 near-duplicates of already-authored 205 NEU stems skipped (Q31 Broca/MCA, Q47 corpus-callosum commissural fibre, Q48 primary-motor-cortex localisation). Keys read from the hand-written left-margin answer letter with a pencil arrow to the chosen option, cross-checked against standard neuroanatomy. Q52-115 + Section B (cross-match) remain to triage.",
+ "defaults": {
+  "subject": "neuro",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "205 NEU",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "library_ids": ["ART-NEU-205NEU-HEAD-AND-NECK-ANATOMY"],
+  "resource_ids": ["src_1d0cd2a7afeb66dcfd85"],
+  "source_citation": "Kasr Al Ainy 205 NEU EOM 2023 exam paper, p.{page}",
+  "setting": "Academic",
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Anatomy",
+  "source": "past-paper"
+ },
+ "questions": [
+  {
+   "key": "2023eom-q25", "page": 4, "id": "QST-KASR205NEU-2023EOM-25",
+   "title": "Structure separating the lentiform nucleus from the claustrum",
+   "question": "Which structure separates the lentiform nucleus from the claustrum?",
+   "options": { "A": "Thalamus", "B": "External capsule", "C": "Internal capsule", "D": "Head of caudate" },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The thalamus lies medial to the lentiform nucleus, deep to the internal capsule, and is not interposed between the lentiform nucleus and the claustrum.",
+    "B": "Correct. The external capsule is the thin sheet of white matter lying immediately lateral to the lentiform nucleus (putamen), separating it from the claustrum. Lateral to the claustrum a second thin lamina, the extreme capsule, separates it from the insular cortex. The internal capsule, by contrast, lies medial to the lentiform nucleus.",
+    "C": "Incorrect. The internal capsule lies medial to the lentiform nucleus, between it and the caudate/thalamus, not between the lentiform nucleus and the claustrum.",
+    "D": "Incorrect. The head of the caudate nucleus lies medial and anterior, forming the lateral wall of the anterior horn of the lateral ventricle; it does not lie between lentiform nucleus and claustrum."
+   },
+   "main_concept": "CON-NEU-F88C9407619216", "concept_ids": ["CON-NEU-F88C9407619216"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the external capsule as the white-matter lamina between the lentiform nucleus and the claustrum.",
+   "module_subject": "205 NEU > Anatomy > Cerebrum > Basal Ganglia and Capsules", "subtopic": "Basal ganglia and internal capsule", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q26", "page": 4, "id": "QST-KASR205NEU-2023EOM-26",
+   "title": "Cranial nerve emerging from the interpeduncular fossa",
+   "question": "Which cranial nerve emerges from the interpeduncular fossa around the medial aspect of the cerebral peduncle?",
+   "options": { "A": "3rd (oculomotor)", "B": "4th (trochlear)", "C": "5th (trigeminal)", "D": "6th (abducent)" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The oculomotor nerve (CN III) emerges from the ventral midbrain in the interpeduncular fossa, along the medial surface of the cerebral peduncle. It then passes forward between the posterior cerebral and superior cerebellar arteries to reach the cavernous sinus. This ventral, interpeduncular emergence is characteristic of CN III.",
+    "B": "Incorrect. The trochlear nerve (CN IV) is the only cranial nerve to emerge from the DORSAL surface of the brainstem, just below the inferior colliculus.",
+    "C": "Incorrect. The trigeminal nerve (CN V) is attached to the ventral surface of the pons at its junction with the middle cerebellar peduncle, not to the interpeduncular fossa.",
+    "D": "Incorrect. The abducent nerve (CN VI) emerges at the pontomedullary junction, between the pons and the pyramid of the medulla."
+   },
+   "main_concept": "CON-NEU-E5EE15CF296868", "concept_ids": ["CON-NEU-E5EE15CF296868"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that the oculomotor nerve emerges from the interpeduncular fossa on the medial aspect of the cerebral peduncle.",
+   "module_subject": "205 NEU > Anatomy > Brainstem > Cranial Nerve Attachments", "subtopic": "Brainstem and cranial nerve attachments", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q27", "page": 4, "id": "QST-KASR205NEU-2023EOM-27",
+   "title": "Anterior boundary of the third ventricle",
+   "question": "The third ventricle is bounded anteriorly by which structure?",
+   "options": { "A": "Pineal body", "B": "Subthalamus", "C": "Lamina terminalis", "D": "Habenular commissure" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The pineal body relates to the POSTERIOR wall of the third ventricle, projecting from its posterior wall between the superior colliculi.",
+    "B": "Incorrect. The subthalamus lies in the lower lateral wall/floor region of the third ventricle, not its anterior boundary.",
+    "C": "Correct. The anterior wall of the third ventricle is formed by the lamina terminalis, a thin sheet stretching from the optic chiasma to the rostrum of the corpus callosum, together with the anterior commissure. The interventricular foramen and anterior column of the fornix lie at its anterosuperior angle. The pineal body and habenular commissure belong to the posterior wall.",
+    "D": "Incorrect. The habenular commissure lies in the POSTERIOR wall of the third ventricle, just above the pineal stalk."
+   },
+   "main_concept": "CON-NEU-1327C17D12BED7", "concept_ids": ["CON-NEU-1327C17D12BED7"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the lamina terminalis as the anterior wall of the third ventricle.",
+   "module_subject": "205 NEU > Anatomy > Ventricular System > Third Ventricle", "subtopic": "Ventricular system", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q28", "page": 4, "id": "QST-KASR205NEU-2023EOM-28",
+   "title": "Roof of the fourth ventricle",
+   "question": "The roof of the fourth ventricle is formed by which structure?",
+   "options": { "A": "Cerebellum", "B": "Corpus callosum", "C": "Tectum", "D": "Thalamus" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The roof (posterior wall) of the fourth ventricle is formed by the cerebellum together with the superior medullary velum above and the inferior medullary velum with the tela choroidea below. Its floor is the rhomboid fossa on the dorsal pons and medulla. So the cerebellum, via the medullary vela, roofs the fourth ventricle.",
+    "B": "Incorrect. The corpus callosum is the great commissure of the cerebrum, forming the roof of the lateral ventricles, not the fourth ventricle.",
+    "C": "Incorrect. The tectum (corpora quadrigemina) is the roof of the MIDBRAIN and relates to the cerebral aqueduct, not the fourth ventricle.",
+    "D": "Incorrect. The thalamus is a diencephalic mass forming part of the wall of the third ventricle, unrelated to the fourth ventricle roof."
+   },
+   "main_concept": "CON-NEU-31C9ABE2DD8A61", "concept_ids": ["CON-NEU-31C9ABE2DD8A61"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that the cerebellum and medullary vela form the roof of the fourth ventricle.",
+   "module_subject": "205 NEU > Anatomy > Ventricular System > Fourth Ventricle", "subtopic": "Ventricular system", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q29", "page": 4, "id": "QST-KASR205NEU-2023EOM-29",
+   "title": "Region to which the mammillary bodies belong",
+   "question": "The mammillary bodies are part of which region of the brain?",
+   "options": { "A": "Pons", "B": "Midbrain", "C": "Diencephalon", "D": "Medulla" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The pons is part of the hindbrain; the mammillary bodies are not pontine structures.",
+    "B": "Incorrect. Although the mammillary bodies lie just in front of the posterior perforated substance near the midbrain, they are hypothalamic, not midbrain, structures.",
+    "C": "Correct. The mammillary bodies are two small swellings of the posterior hypothalamus, and the hypothalamus is a part of the diencephalon. Each contains the mammillary nuclei, a relay in the limbic (Papez) circuit receiving the fornix and projecting via the mammillothalamic tract to the anterior thalamic nucleus. Being hypothalamic, they are diencephalic.",
+    "D": "Incorrect. The medulla oblongata is the lowest part of the brainstem and contains no mammillary bodies."
+   },
+   "main_concept": "CON-NEU-1771717135A61E", "concept_ids": ["CON-NEU-1771717135A61E"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Classify the mammillary bodies as hypothalamic (diencephalic) structures.",
+   "module_subject": "205 NEU > Anatomy > Diencephalon > Hypothalamus", "subtopic": "Diencephalon", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4; margin annotation 'hypothalamus' beside option c" }
+  },
+  {
+   "key": "2023eom-q30", "page": 4, "id": "QST-KASR205NEU-2023EOM-30",
+   "title": "Communication between lateral and third ventricles",
+   "question": "The lateral ventricle communicates with the third ventricle through which opening?",
+   "options": { "A": "Aqueduct of Sylvius", "B": "Foramen of Luschka", "C": "Foramen of Magendie", "D": "Foramen of Monro" },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The cerebral aqueduct (of Sylvius) connects the THIRD ventricle with the fourth ventricle, not the lateral with the third.",
+    "B": "Incorrect. The lateral aperture (foramen of Luschka) connects the fourth ventricle with the subarachnoid space at the cerebellopontine angle.",
+    "C": "Incorrect. The median aperture (foramen of Magendie) connects the fourth ventricle with the cisterna magna of the subarachnoid space.",
+    "D": "Correct. Each lateral ventricle opens into the midline third ventricle through the interventricular foramen (of Monro), bounded by the anterior column of the fornix in front and the anterior tubercle of the thalamus behind. The third ventricle then drains to the fourth via the cerebral aqueduct, and the fourth to the subarachnoid space via the apertures of Magendie and Luschka."
+   },
+   "main_concept": "CON-NEU-32B3AE73C81F41", "concept_ids": ["CON-NEU-32B3AE73C81F41"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the interventricular foramen (of Monro) as the lateral-to-third ventricular communication.",
+   "module_subject": "205 NEU > Anatomy > Ventricular System > Ventricular Communications", "subtopic": "Ventricular system", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q32", "page": 4, "id": "QST-KASR205NEU-2023EOM-32",
+   "title": "Branch of the basilar artery",
+   "question": "Which of the following is a branch of the basilar artery?",
+   "options": { "A": "Posterior inferior cerebellar artery", "B": "Middle cerebral artery", "C": "Anterior cerebral artery", "D": "Anterior inferior cerebellar artery" },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The posterior inferior cerebellar artery (PICA) is the largest branch of the VERTEBRAL artery, not the basilar.",
+    "B": "Incorrect. The middle cerebral artery is a terminal branch of the internal carotid artery (anterior circulation).",
+    "C": "Incorrect. The anterior cerebral artery is the other terminal branch of the internal carotid artery.",
+    "D": "Correct. The anterior inferior cerebellar artery (AICA) is a branch of the basilar artery, which is formed by union of the two vertebral arteries. The basilar also gives the labyrinthine and pontine branches and the superior cerebellar artery, and ends as the two posterior cerebral arteries. PICA, by contrast, arises from the vertebral artery."
+   },
+   "main_concept": "CON-NEU-B4CB3856F0C7DF", "concept_ids": ["CON-NEU-B4CB3856F0C7DF"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the anterior inferior cerebellar artery as a branch of the basilar artery.",
+   "module_subject": "205 NEU > Anatomy > Vasculature > Vertebrobasilar System", "subtopic": "Cerebral arterial supply", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q33", "page": 4, "id": "QST-KASR205NEU-2023EOM-33",
+   "title": "Function of arachnoid villi",
+   "question": "Which statement about arachnoid villi is correct?",
+   "options": { "A": "Are situated in the spinal cord", "B": "Produce CSF", "C": "Pass CSF to the venous system", "D": "Are part of the dura" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Arachnoid villi and granulations project into the dural venous sinuses over the cerebral hemispheres, chiefly the superior sagittal sinus, not in the spinal cord.",
+    "B": "Incorrect. Cerebrospinal fluid is produced by the choroid plexuses of the ventricles, not by the arachnoid villi.",
+    "C": "Correct. Arachnoid villi (and their aggregates, the arachnoid granulations) are protrusions of arachnoid mater through the dura into the venous sinuses. They act as one-way valves returning cerebrospinal fluid from the subarachnoid space into the venous blood. This completes the circulation of CSF from its site of production at the choroid plexus.",
+    "D": "Incorrect. Arachnoid villi are outgrowths of the arachnoid mater, not part of the dura, even though they herniate through the dura into the sinus."
+   },
+   "main_concept": "CON-NEU-892BD30DA38A14", "concept_ids": ["CON-NEU-892BD30DA38A14"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that arachnoid villi drain CSF from the subarachnoid space into the venous sinuses.",
+   "module_subject": "205 NEU > Anatomy > Meninges and CSF > CSF Absorption", "subtopic": "Meninges and CSF", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.4" }
+  },
+  {
+   "key": "2023eom-q34", "page": 5, "id": "QST-KASR205NEU-2023EOM-34",
+   "title": "Correct statement about the basal ganglia",
+   "question": "Which of the following statements concerning the basal ganglia is correct?",
+   "options": { "A": "The amygdaloid nucleus is connected to the caudate nucleus", "B": "The claustrum is not part of the basal ganglia", "C": "The corpus striatum lies medial to the thalamus", "D": "The lentiform nucleus is completely divided by the external capsule into globus pallidus and putamen" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The amygdaloid body lies in the roof of the temporal horn of the lateral ventricle, at the anterior end of the tail of the caudate nucleus, with which it is directly continuous. It is grouped with the basal nuclei but is functionally part of the limbic system. This continuity with the caudate is the true statement.",
+    "B": "Incorrect. The claustrum IS conventionally counted among the basal nuclei, lying between the external and extreme capsules.",
+    "C": "Incorrect. The corpus striatum lies LATERAL to the thalamus, separated from it by the internal capsule.",
+    "D": "Incorrect. The lentiform nucleus is divided into globus pallidus and putamen by the internal (medial) medullary lamina, not by the external capsule."
+   },
+   "main_concept": "CON-NEU-EC4CD4A43B1B25", "concept_ids": ["CON-NEU-EC4CD4A43B1B25"], "contextual_concept_ids": ["CON-NEU-F88C9407619216"],
+   "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "Recognise the amygdala's continuity with the tail of the caudate and correct common basal ganglia misconceptions.",
+   "module_subject": "205 NEU > Anatomy > Cerebrum > Basal Ganglia", "subtopic": "Basal ganglia", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q35", "page": 5, "id": "QST-KASR205NEU-2023EOM-35",
+   "title": "Structure winding around the lateral surface of the midbrain",
+   "question": "Which structure winds around the lateral surface of the midbrain?",
+   "options": { "A": "Optic tract", "B": "Anterior cerebral artery", "C": "Abducent nerve", "D": "Fornix" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Each optic tract runs backward and laterally from the optic chiasma, sweeping around the lateral aspect of the cerebral peduncle (upper midbrain) to reach the lateral geniculate body. A smaller root passes to the pretectal and collicular regions for reflexes. So the optic tract is the structure winding around the midbrain.",
+    "B": "Incorrect. The anterior cerebral artery runs forward above the optic nerve into the interhemispheric fissure; it does not encircle the midbrain.",
+    "C": "Incorrect. The abducent nerve runs from the pontomedullary junction upward to the cavernous sinus and does not wind around the midbrain.",
+    "D": "Incorrect. The fornix is a C-shaped limbic bundle beneath the corpus callosum linking the hippocampus to the mammillary body, not a structure around the midbrain."
+   },
+   "main_concept": "CON-NEU-6F6F4E4ECA50C4", "concept_ids": ["CON-NEU-6F6F4E4ECA50C4"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the optic tract as the structure winding around the lateral midbrain to the lateral geniculate body.",
+   "module_subject": "205 NEU > Anatomy > Visual Pathway > Optic Tract", "subtopic": "Visual pathway", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q36", "page": 5, "id": "QST-KASR205NEU-2023EOM-36",
+   "title": "Connection of the superior brachium",
+   "question": "The superior brachium connects the superior colliculus with which structure?",
+   "options": { "A": "Hypothalamus", "B": "Lateral geniculate body", "C": "Uncus", "D": "Mammillary body" },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The hypothalamus is a diencephalic region on the floor of the third ventricle; it is not joined to the superior colliculus by the superior brachium.",
+    "B": "Correct. The superior brachium (brachium of the superior colliculus) links the superior colliculus with the lateral geniculate body and optic tract, carrying visual/collicular connections. Its counterpart, the inferior brachium, links the inferior colliculus with the MEDIAL geniculate body in the auditory pathway. So the superior colliculus connects to the lateral geniculate body.",
+    "C": "Incorrect. The uncus is the hooked medial part of the temporal lobe (parahippocampal gyrus), unrelated to the superior brachium.",
+    "D": "Incorrect. The mammillary body is a hypothalamic swelling in the limbic circuit, not connected by the superior brachium."
+   },
+   "main_concept": "CON-NEU-6855B189726D0E", "concept_ids": ["CON-NEU-6855B189726D0E"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that the superior brachium connects the superior colliculus to the lateral geniculate body.",
+   "module_subject": "205 NEU > Anatomy > Brainstem > Midbrain Tectum", "subtopic": "Midbrain", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q37", "page": 5, "id": "QST-KASR205NEU-2023EOM-37",
+   "title": "Sulcus containing the visual area",
+   "question": "The visual area of the cortex is found in relation to which sulcus?",
+   "options": { "A": "Callosal", "B": "Parieto-occipital", "C": "Calcarine", "D": "Collateral" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The callosal sulcus lies above the corpus callosum on the medial surface, separating it from the cingulate gyrus; it is not the visual area.",
+    "B": "Incorrect. The parieto-occipital sulcus marks the boundary between the parietal and occipital lobes on the medial surface but does not itself house the visual cortex.",
+    "C": "Correct. The primary visual cortex (area 17, striate cortex) occupies the upper and lower lips and depths of the calcarine sulcus on the medial surface of the occipital lobe, extending around the occipital pole. It receives the optic radiation from the lateral geniculate body. Hence the visual area lies along the calcarine sulcus.",
+    "D": "Incorrect. The collateral sulcus is on the inferior surface of the temporal/occipital lobe, related to the lingual and parahippocampal gyri, not the visual cortex."
+   },
+   "main_concept": "CON-NEU-E3AC2F7F3783B2", "concept_ids": ["CON-NEU-E3AC2F7F3783B2"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Localise the primary visual cortex to the calcarine sulcus of the medial occipital lobe.",
+   "module_subject": "205 NEU > Anatomy > Cerebral Cortex > Visual Area", "subtopic": "Cerebral cortex localisation", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5; margin annotation 'post-calcarine'" }
+  },
+  {
+   "key": "2023eom-q38", "page": 5, "id": "QST-KASR205NEU-2023EOM-38",
+   "title": "Gyrus not visible on the medial surface",
+   "question": "Which of the following gyri is NOT visible on the medial surface of the cerebral hemisphere?",
+   "options": { "A": "Lingual", "B": "Callosal (cingulate)", "C": "Cingulate", "D": "Angular" },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The lingual gyrus lies on the medial/inferior surface of the occipital lobe, below the calcarine sulcus, and is seen on the medial surface.",
+    "B": "Incorrect. The gyrus running along the corpus callosum (cingulate) is a medial-surface structure.",
+    "C": "Incorrect. The cingulate gyrus arches above the corpus callosum on the medial surface and is clearly visible there.",
+    "D": "Correct. The angular gyrus is part of the inferior parietal lobule on the LATERAL surface, arching over the end of the superior temporal sulcus. It is not seen on the medial surface, unlike the lingual and cingulate gyri. Therefore the angular gyrus is the odd one out."
+   },
+   "main_concept": "CON-NEU-E8B76AF1131A5C", "concept_ids": ["CON-NEU-E8B76AF1131A5C"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Recognise the angular gyrus as a lateral-surface structure absent from the medial surface.",
+   "module_subject": "205 NEU > Anatomy > Cerebrum > Medial Surface Gyri", "subtopic": "Cerebral surface anatomy", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q39", "page": 5, "id": "QST-KASR205NEU-2023EOM-39",
+   "title": "True statement about the spinal cord",
+   "question": "Regarding the spinal cord, which statement is true?",
+   "options": { "A": "The lumbosacral enlargement is called the conus medullaris", "B": "The denticulate ligaments are lateral extensions of the arachnoid", "C": "The adult spinal cord terminates at the intervertebral disc between L2 and L3", "D": "The filum terminale attaches the lower end of the spinal cord to the back of the coccyx" },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The conus medullaris is the tapered lower END of the cord; the lumbosacral (lumbar) enlargement is the swelling higher up that supplies the lower limb.",
+    "B": "Incorrect. The denticulate ligaments are lateral extensions of the PIA mater that anchor the cord to the dura, not of the arachnoid.",
+    "C": "Incorrect. The adult spinal cord ends at about the lower border of L1 / the L1-L2 disc, not at L2-L3.",
+    "D": "Correct. The filum terminale is a pial prolongation from the conus medullaris; its lower part (filum terminale externum), invested by dura, attaches to the dorsum of the first coccygeal segment. This anchors the lower end of the cord to the back of the coccyx. It is therefore the true statement among the options."
+   },
+   "main_concept": "CON-NEU-ADD558FD8FDDE5", "concept_ids": ["CON-NEU-ADD558FD8FDDE5"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "State that the filum terminale anchors the cord to the coccyx and correct common spinal cord misconceptions.",
+   "module_subject": "205 NEU > Anatomy > Spinal Cord > Terminal Structures", "subtopic": "Spinal cord", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q40", "page": 5, "id": "QST-KASR205NEU-2023EOM-40",
+   "title": "Nerve in the anterolateral sulcus of the medulla",
+   "question": "The anterolateral sulcus of the medulla, between the pyramid and the olive, transmits which nerve?",
+   "options": { "A": "Hypoglossal nerve", "B": "Accessory nerve", "C": "Vagus nerve", "D": "Glossopharyngeal nerve" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The groove between the pyramid (medially) and the olive (laterally) on the ventral medulla is the anterolateral (pre-olivary) sulcus, from which the rootlets of the hypoglossal nerve (CN XII) emerge. The retro-olivary sulcus behind the olive instead transmits CN IX, X and the cranial accessory. So the nerve between pyramid and olive is the hypoglossal.",
+    "B": "Incorrect. The accessory nerve (CN XI) arises in part from the retro-olivary (posterolateral) sulcus and in part from the upper cervical cord, not between pyramid and olive.",
+    "C": "Incorrect. The vagus nerve (CN X) emerges from the retro-olivary sulcus, posterior to the olive.",
+    "D": "Incorrect. The glossopharyngeal nerve (CN IX) also emerges from the retro-olivary sulcus, above the vagus, posterior to the olive."
+   },
+   "main_concept": "CON-NEU-CA8EB4F2393365", "concept_ids": ["CON-NEU-CA8EB4F2393365"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the hypoglossal nerve as emerging from the anterolateral sulcus between pyramid and olive.",
+   "module_subject": "205 NEU > Anatomy > Brainstem > Medulla Oblongata", "subtopic": "Brainstem and cranial nerve attachments", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5; margin annotation 'hypo 12'" }
+  },
+  {
+   "key": "2023eom-q41", "page": 5, "id": "QST-KASR205NEU-2023EOM-41",
+   "title": "Formation of the facial colliculus",
+   "question": "The facial colliculus in the floor of the fourth ventricle is formed by which of the following?",
+   "options": { "A": "Facial nerve fibres and the abducent nucleus", "B": "Facial nerve fibres only", "C": "Facial nucleus only", "D": "Facial nucleus and abducent nerve fibres" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The facial colliculus is a rounded elevation in the upper part of the rhomboid fossa produced by the internal genu of the facial nerve fibres looping over the underlying abducent (CN VI) nucleus. It is therefore raised by facial nerve fibres and the abducent nucleus together. A lesion here can involve both CN VI and CN VII.",
+    "B": "Incorrect. Facial nerve fibres alone do not raise the colliculus; the underlying abducent nucleus is essential to its bulge.",
+    "C": "Incorrect. The facial NUCLEUS lies deeper in the pontine tegmentum and does not itself form the colliculus.",
+    "D": "Incorrect. This reverses the components: it is facial nerve FIBRES over the abducent NUCLEUS, not the facial nucleus and abducent fibres."
+   },
+   "main_concept": "CON-NEU-1676AF0A56D4D9", "concept_ids": ["CON-NEU-1676AF0A56D4D9"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "State that the facial colliculus is raised by facial nerve fibres arching over the abducent nucleus.",
+   "module_subject": "205 NEU > Anatomy > Brainstem > Rhomboid Fossa", "subtopic": "Brainstem", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q42", "page": 5, "id": "QST-KASR205NEU-2023EOM-42",
+   "title": "Level of the conus medullaris in the newborn",
+   "question": "In the newborn, the conus medullaris lies opposite which vertebra?",
+   "options": { "A": "10th thoracic vertebra", "B": "1st lumbar vertebra", "C": "3rd lumbar vertebra", "D": "5th lumbar vertebra" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The 10th thoracic level is far too high; the cord tip is well below this even in the fetus at term.",
+    "B": "Incorrect. The lower border of L1 is the ADULT level of the conus, reached after the vertebral column outgrows the cord.",
+    "C": "Correct. Because the vertebral column grows faster than the cord, the conus medullaris appears to ascend with age. At birth it lies opposite the third lumbar vertebra (L3), whereas in the adult it reaches the lower border of L1. This is why lumbar puncture in infants is performed at a lower level to avoid the cord.",
+    "D": "Incorrect. The 5th lumbar level is below even the newborn conus; the cauda equina, not the conus, occupies this region."
+   },
+   "main_concept": "CON-NEU-077FA8E38D3D48", "concept_ids": ["CON-NEU-077FA8E38D3D48"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that the newborn conus medullaris lies at the level of L3.",
+   "module_subject": "205 NEU > Anatomy > Spinal Cord > Conus Medullaris Level", "subtopic": "Spinal cord", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.5" }
+  },
+  {
+   "key": "2023eom-q43", "page": 6, "id": "QST-KASR205NEU-2023EOM-43",
+   "title": "Fibre that is not an association fibre",
+   "question": "Which of the following is NOT an association fibre of the cerebrum?",
+   "options": { "A": "Uncinate fasciculus", "B": "Corona radiata", "C": "Cingulum", "D": "Superior longitudinal bundle" },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The uncinate fasciculus is an association bundle linking the frontal and temporal lobes; it is an association fibre.",
+    "B": "Correct. The corona radiata is a fan of PROJECTION fibres continuous with the internal capsule, connecting the cortex with the thalamus, brainstem and spinal cord. It is therefore not an association fibre. The uncinate fasciculus, cingulum and superior longitudinal bundle are all association bundles, making the corona radiata the odd one out.",
+    "C": "Incorrect. The cingulum is the association bundle running within the cingulate gyrus, linking limbic-lobe regions.",
+    "D": "Incorrect. The superior longitudinal (arcuate) fasciculus is an association bundle connecting the frontal, parietal, temporal and occipital lobes."
+   },
+   "main_concept": "CON-NEU-085AEF1C716BCD", "concept_ids": ["CON-NEU-085AEF1C716BCD"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Classify the corona radiata as a projection fibre, distinct from association bundles.",
+   "module_subject": "205 NEU > Anatomy > Cerebrum > White Matter Fibres", "subtopic": "Cerebral white matter", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q44", "page": 6, "id": "QST-KASR205NEU-2023EOM-44",
+   "title": "True statement about the cerebellum",
+   "question": "Concerning the cerebellum, which statement is true?",
+   "options": { "A": "It lies in the middle cranial fossa", "B": "Its upper surface is covered by the falx cerebri", "C": "Its superior vermis has the nodule and uvula only", "D": "It is supplied by the superior cerebellar artery" },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The cerebellum lies in the POSTERIOR cranial fossa, below the tentorium cerebelli, not the middle cranial fossa.",
+    "B": "Incorrect. The upper surface of the cerebellum is covered by the tentorium cerebelli, not the falx cerebri (which lies between the two cerebral hemispheres).",
+    "C": "Incorrect. The nodule and uvula belong to the INFERIOR vermis; the superior vermis carries the lingula, central lobule, culmen and declive.",
+    "D": "Correct. The cerebellum is supplied by three paired arteries: the superior cerebellar artery (from the basilar), the anterior inferior cerebellar artery (basilar) and the posterior inferior cerebellar artery (vertebral). The superior cerebellar artery supplies the superior surface and deep cerebellum. So supply by the superior cerebellar artery is the true statement."
+   },
+   "main_concept": "CON-NEU-7FE511ED2257EE", "concept_ids": ["CON-NEU-7FE511ED2257EE"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "Identify the superior cerebellar artery as a cerebellar supply and correct fossa/tentorium/vermis distractors.",
+   "module_subject": "205 NEU > Anatomy > Cerebellum > Blood Supply", "subtopic": "Cerebellum", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q45", "page": 6, "id": "QST-KASR205NEU-2023EOM-45",
+   "title": "Sulcus on the medial surface of the hemisphere",
+   "question": "Which of the following sulci lies on the medial surface of the cerebral hemisphere?",
+   "options": { "A": "Cingulate sulcus", "B": "Central sulcus", "C": "Superior temporal sulcus", "D": "Posterior ramus of the lateral sulcus" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The cingulate (callosal marginal) sulcus arches above the cingulate gyrus and corpus callosum on the medial surface, separating it from the medial frontal gyrus. Along with the parieto-occipital and calcarine sulci, it is a medial-surface landmark. Hence, of the options, the cingulate sulcus is the one on the medial surface.",
+    "B": "Incorrect. The central sulcus lies on the superolateral (convex) surface, separating the frontal and parietal lobes, though it just notches over the superior margin.",
+    "C": "Incorrect. The superior temporal sulcus runs on the lateral surface of the temporal lobe, below the lateral sulcus.",
+    "D": "Incorrect. The posterior ramus of the lateral (Sylvian) sulcus is on the lateral surface, separating the temporal lobe from the frontal and parietal lobes."
+   },
+   "main_concept": "CON-NEU-5703665C32C872", "concept_ids": ["CON-NEU-5703665C32C872"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Identify the cingulate sulcus as a medial-surface sulcus.",
+   "module_subject": "205 NEU > Anatomy > Cerebrum > Medial Surface Sulci", "subtopic": "Cerebral surface anatomy", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q46", "page": 6, "id": "QST-KASR205NEU-2023EOM-46",
+   "title": "True statement about the spinal meninges",
+   "question": "Regarding the spinal meninges, which statement is true?",
+   "options": { "A": "The denticulate ligaments are thickenings of the dura mater", "B": "The dura mater continues below as the filum terminale", "C": "The pia mater is closely adherent to the spinal cord", "D": "The dura mater ends at the level of the fourth sacral vertebra" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The denticulate ligaments are lateral extensions of the PIA mater (not the dura) that anchor the cord to the dural sac.",
+    "B": "Incorrect. The pia mater, not the dura, continues below the conus as the filum terminale; the dura forms the outer investment of its lower part.",
+    "C": "Correct. The pia mater is the innermost, delicate, vascular meningeal layer and is closely adherent to the surface of the spinal cord, dipping into the anterior median fissure and continuing as the filum terminale. It is therefore the true statement. The dural sac ends at about the level of the second sacral vertebra, not the fourth.",
+    "D": "Incorrect. The spinal dural sac ends at about the level of S2 (second sacral vertebra), not S4."
+   },
+   "main_concept": "CON-NEU-51583DC6C6E144", "concept_ids": ["CON-NEU-51583DC6C6E144"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "State that the spinal pia is adherent to the cord and correct denticulate/dura distractors.",
+   "module_subject": "205 NEU > Anatomy > Meninges and CSF > Spinal Meninges", "subtopic": "Spinal meninges", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q49", "page": 6, "id": "QST-KASR205NEU-2023EOM-49",
+   "title": "Incorrect statement about the olive",
+   "question": "Regarding the olive of the medulla, which statement is INCORRECT?",
+   "options": { "A": "It lies on the lateral surface of the medulla oblongata", "B": "It is related anteriorly to the rootlets of the hypoglossal nerve", "C": "It is related posteriorly to the rootlets of the 9th, 10th and 11th cranial nerves", "D": "It is produced by the superior olivary nucleus" },
+   "correct": "D",
+   "explanations": {
+    "A": "This statement is TRUE, so it is not the answer. The olive is the oval swelling on the ventrolateral surface of the medulla oblongata, lateral to the pyramid.",
+    "B": "This statement is TRUE, so it is not the answer. The rootlets of the hypoglossal nerve emerge from the anterolateral (pre-olivary) sulcus, anterior to the olive.",
+    "C": "This statement is TRUE, so it is not the answer. The rootlets of the glossopharyngeal, vagus and cranial accessory nerves emerge from the retro-olivary sulcus, posterior to the olive.",
+    "D": "Correct (this is the INCORRECT statement). The olive is produced by the INFERIOR olivary nucleus, a relay to the cerebellum, not the superior olivary nucleus. The superior olivary nucleus is a small pontine auditory relay and does not raise the medullary olive. So this statement is the false one to select."
+   },
+   "main_concept": "CON-NEU-B946F4F28FDD55", "concept_ids": ["CON-NEU-B946F4F28FDD55"], "contextual_concept_ids": [],
+   "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+   "learning_objective": "Recognise that the medullary olive is raised by the inferior (not superior) olivary nucleus.",
+   "module_subject": "205 NEU > Anatomy > Brainstem > Medulla Oblongata", "subtopic": "Brainstem", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q50", "page": 6, "id": "QST-KASR205NEU-2023EOM-50",
+   "title": "Space entered in lumbar puncture",
+   "question": "In performing a lumbar puncture for CSF collection, the needle is inserted into which space?",
+   "options": { "A": "Subdural space", "B": "Epidural space", "C": "Subarachnoid space", "D": "Extradural space" },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The subdural space is only a potential space between dura and arachnoid and contains no CSF to sample.",
+    "B": "Incorrect. The epidural (extradural) space lies outside the dura and contains fat and veins; it is used for epidural anaesthesia, not CSF collection.",
+    "C": "Correct. Cerebrospinal fluid lies in the subarachnoid space between the arachnoid and pia. In lumbar puncture the needle passes below the conus medullaris (usually L3-L4 or L4-L5 in the adult) through skin, ligaments, dura and arachnoid to reach the subarachnoid space of the lumbar cistern, where CSF is aspirated.",
+    "D": "Incorrect. Extradural is another name for the epidural space, outside the dura; it contains fat and the internal vertebral venous plexus, not CSF."
+   },
+   "main_concept": "CON-NEU-B6C8FC4FB1FC33", "concept_ids": ["CON-NEU-B6C8FC4FB1FC33"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "State that lumbar puncture samples CSF from the subarachnoid space.",
+   "module_subject": "205 NEU > Anatomy > Meninges and CSF > Lumbar Puncture", "subtopic": "Meninges and CSF", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  },
+  {
+   "key": "2023eom-q51", "page": 6, "id": "QST-KASR205NEU-2023EOM-51",
+   "title": "Lobe of the primary auditory cortex",
+   "question": "The primary auditory cortex is found in which lobe?",
+   "options": { "A": "Temporal", "B": "Frontal", "C": "Parietal", "D": "Occipital" },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The primary auditory cortex (areas 41 and 42) occupies the anterior transverse temporal gyri (of Heschl) on the upper surface of the superior temporal gyrus within the lateral sulcus, in the temporal lobe. It receives the auditory radiation from the medial geniculate body. So the primary auditory cortex is temporal.",
+    "B": "Incorrect. The frontal lobe houses the primary motor cortex (area 4) and Broca's area, not the auditory cortex.",
+    "C": "Incorrect. The parietal lobe houses the primary somatosensory cortex (areas 3, 1, 2), not the auditory area.",
+    "D": "Incorrect. The occipital lobe houses the primary visual cortex (area 17), not the auditory cortex."
+   },
+   "main_concept": "CON-NEU-10B39A85BD2CC7", "concept_ids": ["CON-NEU-10B39A85BD2CC7"], "contextual_concept_ids": [],
+   "difficulty": "Easy", "question_type": "Classification", "cognitive_effort": "Low", "reasoning_level": 1,
+   "learning_objective": "Localise the primary auditory cortex to the temporal lobe (Heschl's gyri).",
+   "module_subject": "205 NEU > Anatomy > Cerebral Cortex > Auditory Area", "subtopic": "Cerebral cortex localisation", "topic": "Anatomy",
+   "field_notes": { "keySource": "render-confirmed left-margin answer letter, p.6" }
+  }
+ ]
+}

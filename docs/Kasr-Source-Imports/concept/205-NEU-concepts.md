@@ -15074,3 +15074,2644 @@ authored_needs_independent_evidence
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 1-3 rendered at 170dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live state, pending import-ready and the module concept file; new concept. De-duplicated against the ~117 already-authored 205 NEU stems before authoring.
 
 ---
+
+
+# Item
+## id
+CON-NEU-F88C9407619216
+## label
+The external capsule separates the lentiform nucleus from the claustrum
+## canonical_key
+basal-ganglia.external-capsule.separates-lentiform-from-claustrum
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The external capsule is the thin sheet of white matter that lies immediately LATERAL to the lentiform nucleus (putamen), separating it from the claustrum. Lateral to the claustrum lies a second thin white-matter sheet, the extreme capsule, which separates the claustrum from the insular cortex. The internal capsule, by contrast, lies MEDIAL to the lentiform nucleus, between it and the caudate/thalamus. So the structure between the lentiform nucleus and the claustrum is the external capsule.
+## explicit_objective
+Identify the external capsule as the white-matter lamina between the lentiform nucleus and the claustrum, distinguishing it from the internal and extreme capsules.
+## pitfalls
+Confusing the external capsule (lateral to lentiform, medial to claustrum) with the internal capsule (medial to lentiform) or the extreme capsule (lateral to claustrum, medial to insula).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Basal ganglia and internal capsule
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebrum > Basal Ganglia and Capsules
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The structure separates the lentiform nucleus from the claustrum is: a. Thalamus. b. External capsule. c. Internal capsule. d. Head of caudate." ANSWER: b (205 NEU EOM 2023, Q25)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E5EE15CF296868
+## label
+The oculomotor nerve emerges from the interpeduncular fossa on the medial aspect of the cerebral peduncle
+## canonical_key
+cranial-nerves.oculomotor.emerges-interpeduncular-fossa
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The oculomotor nerve (cranial nerve III) emerges from the ventral midbrain in the interpeduncular fossa, along the medial surface of the cerebral peduncle (crus cerebri). This is its superficial attachment. It then runs forward between the posterior cerebral and superior cerebellar arteries to pierce the dura and enter the lateral wall of the cavernous sinus. The trochlear nerve (IV), in contrast, is the only cranial nerve to emerge from the DORSAL surface of the brainstem, just below the inferior colliculus.
+## explicit_objective
+State that the oculomotor nerve (CN III) emerges from the interpeduncular fossa on the medial aspect of the cerebral peduncle.
+## pitfalls
+Confusing the ventral, interpeduncular emergence of CN III with the dorsal emergence of the trochlear nerve (CN IV), the only cranial nerve leaving the back of the brainstem.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem and cranial nerve attachments
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Cranial Nerve Attachments
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The cranial nerve that emerge from the interpeduncular fossa around medial aspect of the cerebral peduncle is: a. 3rd. b. 4th. c. 5th. d. 6th." ANSWER: a (205 NEU EOM 2023, Q26)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-1327C17D12BED7
+## label
+The lamina terminalis forms the anterior boundary of the third ventricle
+## canonical_key
+third-ventricle.anterior-boundary.lamina-terminalis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The third ventricle is the midline slit-like cavity of the diencephalon. Its ANTERIOR wall is formed by the lamina terminalis (a thin sheet of grey matter and pia stretching from the optic chiasma to the rostrum of the corpus callosum) together with the anterior commissure. The anterior column of the fornix and the interventricular foramen (of Monro) lie at the anterosuperior angle. The pineal body and habenular commissure relate to the POSTERIOR wall, and the hypothalamus and subthalamus form the floor and lower lateral wall respectively.
+## explicit_objective
+Identify the lamina terminalis as the anterior boundary (wall) of the third ventricle.
+## pitfalls
+Assigning the pineal body or habenular commissure (posterior wall) to the anterior boundary, or forgetting that the anterior commissure shares the anterior wall with the lamina terminalis.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Third Ventricle
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The 3rd ventricle is bounded anteriorly by: a. Pineal body. b. Subthalamus. c. Lamina terminalis. d. Habenular commissure." ANSWER: c (205 NEU EOM 2023, Q27)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-31C9ABE2DD8A61
+## label
+The cerebellum (with the medullary vela) forms the roof of the fourth ventricle
+## canonical_key
+fourth-ventricle.roof.cerebellum-medullary-vela
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fourth ventricle is the tent-shaped cavity of the hindbrain lying between the pons and upper medulla in front and the cerebellum behind. Its ROOF (posterior wall) is formed by the cerebellum together with the superior medullary velum (between the two superior cerebellar peduncles) above and the inferior medullary velum with the tela choroidea below. Its FLOOR is the rhomboid fossa on the dorsal surface of the pons and medulla. Thus the cerebellum, via the medullary vela, forms the roof of the fourth ventricle.
+## explicit_objective
+State that the roof of the fourth ventricle is formed by the cerebellum and the superior and inferior medullary vela.
+## pitfalls
+Confusing the roof (cerebellum/medullary vela) with the floor (rhomboid fossa on pons and medulla); the tectum and corpus callosum belong to the midbrain and cerebrum, not the fourth ventricle roof.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Fourth Ventricle
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The roof of the 4th ventricle is formed by: a. Cerebellum. b. Corpus callosum. c. Tectum. d. Thalamus." ANSWER: a (205 NEU EOM 2023, Q28)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-1771717135A61E
+## label
+The mammillary bodies are part of the diencephalon (hypothalamus)
+## canonical_key
+diencephalon.mammillary-bodies.hypothalamus-part
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The mammillary bodies are two small round swellings on the ventral surface of the brain, just behind the tuber cinereum and in front of the posterior perforated substance. They belong to the posterior hypothalamus, which is a part of the DIENCEPHALON (not the midbrain or pons). Each contains the mammillary nuclei, a relay in the limbic (Papez) circuit: they receive the fornix and project via the mammillothalamic tract to the anterior nucleus of the thalamus. Being hypothalamic, they are diencephalic in origin.
+## explicit_objective
+Classify the mammillary bodies as part of the hypothalamus and therefore of the diencephalon.
+## pitfalls
+Placing the mammillary bodies in the midbrain because they lie near the cerebral peduncles; they are hypothalamic (diencephalic) structures.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Diencephalon
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Diencephalon > Hypothalamus
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The mammillary bodies are part of: a. Pons. b. Midbrain. c. Diencephalon. d. Medulla." ANSWER: c (205 NEU EOM 2023, Q29)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-32B3AE73C81F41
+## label
+The lateral ventricle communicates with the third ventricle through the interventricular foramen of Monro
+## canonical_key
+ventricles.interventricular-foramen-monro.lateral-to-third
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each lateral ventricle opens into the midline third ventricle through the interventricular foramen (foramen of Monro), which lies between the anterior column of the fornix in front and the anterior tubercle of the thalamus behind. In contrast, the third ventricle drains into the fourth ventricle through the cerebral aqueduct (of Sylvius), and the fourth ventricle communicates with the subarachnoid space through the median aperture (foramen of Magendie) and the two lateral apertures (foramina of Luschka). So the lateral-to-third connection is the foramen of Monro.
+## explicit_objective
+Identify the interventricular foramen (of Monro) as the channel connecting each lateral ventricle to the third ventricle.
+## pitfalls
+Confusing the interventricular foramen (of Monro) with the cerebral aqueduct (third to fourth ventricle) or the apertures of Magendie/Luschka (fourth ventricle to subarachnoid space).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Ventricular system
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Ventricular System > Ventricular Communications
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The lateral ventricle communicates with 3rd ventricle through: a. Aqueduct of Sylvius. b. Foramen of Luschka. c. Foramen of Magendie. d. Foramen of Monro." ANSWER: d (205 NEU EOM 2023, Q30)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-B4CB3856F0C7DF
+## label
+The anterior inferior cerebellar artery is a branch of the basilar artery
+## canonical_key
+posterior-circulation.aica.branch-of-basilar-artery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The basilar artery is formed by the union of the two vertebral arteries at the pontomedullary junction. Its named branches include the anterior inferior cerebellar artery (AICA), the labyrinthine (internal auditory) artery, numerous pontine branches, the superior cerebellar artery, and it terminates as the two posterior cerebral arteries. The posterior inferior cerebellar artery (PICA), by contrast, arises from the VERTEBRAL artery, while the middle and anterior cerebral arteries arise from the internal carotid system. Therefore AICA is the branch of the basilar artery.
+## explicit_objective
+Identify the anterior inferior cerebellar artery (AICA) as a branch of the basilar artery, distinguishing it from PICA (vertebral) and the carotid-derived cerebral arteries.
+## pitfalls
+Swapping AICA (basilar) with PICA (vertebral), or assigning the anterior/middle cerebral arteries (internal carotid) to the basilar artery.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral arterial supply
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Vasculature > Vertebrobasilar System
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the followings is a branch from basilar artery: a. Posterior inferior cerebellar artery. b. Middle cerebral artery. c. Anterior cerebral artery. d. Anterior inferior cerebellar artery." ANSWER: d (205 NEU EOM 2023, Q32)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-892BD30DA38A14
+## label
+Arachnoid villi pass cerebrospinal fluid from the subarachnoid space into the venous system
+## canonical_key
+csf.arachnoid-villi.drain-to-venous-sinuses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Arachnoid villi (and their larger aggregates, the arachnoid granulations) are tuft-like protrusions of arachnoid mater that project through the dura into the dural venous sinuses, chiefly the superior sagittal sinus. They act as one-way valves that return cerebrospinal fluid from the subarachnoid space into the venous blood, completing CSF circulation. CSF itself is PRODUCED by the choroid plexuses, not by the villi, and the villi are located intracranially over the cerebral hemispheres, not in the spinal cord. Thus their function is to pass CSF to the venous system.
+## explicit_objective
+State that arachnoid villi drain cerebrospinal fluid from the subarachnoid space into the dural venous sinuses.
+## pitfalls
+Believing arachnoid villi produce CSF (the choroid plexus does) or are part of the dura, or placing them in the spinal cord rather than over the cerebral hemispheres.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Meninges and CSF
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and CSF > CSF Absorption
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Arachnoid Villi: a. Are situated in the spinal cord. b. Produce CSF. c. Pass CSF to venous system. d. Are part of dura." ANSWER: c (205 NEU EOM 2023, Q33)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-EC4CD4A43B1B25
+## label
+The amygdaloid nucleus is continuous with the tail of the caudate nucleus
+## canonical_key
+basal-ganglia.amygdaloid-nucleus.continuous-with-tail-of-caudate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The amygdaloid body (amygdala) lies in the roof of the temporal horn of the lateral ventricle, at the anterior end of the tail of the caudate nucleus, with which it is directly continuous. Although grouped anatomically with the basal nuclei, it is functionally part of the limbic system. Other true statements of basal ganglia anatomy: the claustrum IS counted among the basal nuclei; the corpus striatum lies LATERAL (not medial) to the thalamus; and the lentiform nucleus is divided by the internal medullary lamina (not the external capsule) into globus pallidus and putamen. Hence the correct statement is that the amygdaloid nucleus connects to the caudate.
+## explicit_objective
+State that the amygdaloid nucleus is continuous with the tail of the caudate nucleus.
+## pitfalls
+Thinking the lentiform nucleus is split by the external capsule (it is split by the internal/medial medullary lamina), or that the claustrum is excluded from the basal nuclei.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Basal ganglia
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebrum > Basal Ganglia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the followings concerning the basal ganglia is correct: a. The amygdaloid nucleus is connected to the caudate. b. The claustrum is not a part of basal ganglia. c. The corpus striatum lie medial to thalamus. d. The lentiform nucleus is completely divided by external capsule into globus pallidus and putamen." ANSWER: a (205 NEU EOM 2023, Q34)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-6F6F4E4ECA50C4
+## label
+The optic tract winds around the lateral surface of the midbrain (cerebral peduncle)
+## canonical_key
+visual-pathway.optic-tract.winds-around-midbrain
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each optic tract runs backward and laterally from the optic chiasma, sweeping around the lateral aspect of the cerebral peduncle (upper midbrain) to reach the lateral geniculate body, where most fibres relay. A smaller root passes to the pretectal and superior collicular regions for reflexes. Thus the structure that winds around the lateral surface of the midbrain is the optic tract. The abducent nerve and anterior cerebral artery do not encircle the midbrain, and the fornix is a limbic C-shaped bundle beneath the corpus callosum.
+## explicit_objective
+Identify the optic tract as the structure that winds around the lateral surface of the midbrain to reach the lateral geniculate body.
+## pitfalls
+Confusing the optic tract with the trochlear nerve or posterior cerebral artery, which also relate to the midbrain but do not form the tract winding to the geniculate body.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Visual pathway
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Visual Pathway > Optic Tract
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The following structure wind around the lateral surface of midbrain: a. Optic tract. b. Anterior cerebral artery. c. Abducent nerve. d. Fornix." ANSWER: a (205 NEU EOM 2023, Q35)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-6855B189726D0E
+## label
+The superior brachium connects the superior colliculus with the lateral geniculate body
+## canonical_key
+midbrain.superior-brachium.connects-superior-colliculus-to-lgb
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The superior brachium (brachium of the superior colliculus) is a ridge of fibres on the dorsal midbrain that links the superior colliculus with the lateral geniculate body and the optic tract, carrying visual/collicular connections. Correspondingly, the inferior brachium connects the inferior colliculus with the MEDIAL geniculate body in the auditory pathway. So the superior colliculus is joined by its brachium to the lateral geniculate body, not to the hypothalamus, uncus, or mammillary body.
+## explicit_objective
+State that the superior brachium connects the superior colliculus to the lateral geniculate body.
+## pitfalls
+Swapping the superior brachium (superior colliculus to LATERAL geniculate body, visual) with the inferior brachium (inferior colliculus to MEDIAL geniculate body, auditory).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Midbrain
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Midbrain Tectum
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The superior brachium connects the superior colliculus with: a. Hypothalamus. b. Lateral geniculate body. c. Uncus. d. Mammillary body." ANSWER: b (205 NEU EOM 2023, Q36)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E3AC2F7F3783B2
+## label
+The primary visual area lies in the walls of the calcarine sulcus
+## canonical_key
+visual-cortex.primary.calcarine-sulcus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The primary visual cortex (area 17, striate cortex) occupies the upper and lower lips and depths of the CALCARINE sulcus on the medial surface of the occipital lobe, extending around the occipital pole. The parieto-occipital sulcus merely marks the boundary between parietal and occipital lobes, the callosal sulcus lies above the corpus callosum, and the collateral sulcus relates to the lingual/parahippocampal gyri. Therefore the visual area is found along the calcarine sulcus.
+## explicit_objective
+Localise the primary visual cortex to the walls of the calcarine sulcus on the medial occipital lobe.
+## pitfalls
+Confusing the calcarine sulcus (visual cortex) with the neighbouring parieto-occipital or collateral sulci on the medial surface.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Visual Area
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The visual area is found in the following sulcus: a. Callosal. b. Parieto-occipital. c. Calcarine. d. Collateral." ANSWER: c (205 NEU EOM 2023, Q37)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E8B76AF1131A5C
+## label
+The angular gyrus lies on the lateral surface and is not visible on the medial surface of the hemisphere
+## canonical_key
+cerebral-hemisphere.angular-gyrus.lateral-surface-not-medial
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The medial surface of the cerebral hemisphere shows the cingulate gyrus and cingulate (callosal) sulcus, the medial frontal gyrus, the paracentral lobule, the precuneus and cuneus, and the lingual gyrus. The angular gyrus, however, is part of the inferior parietal lobule on the LATERAL surface, arching over the end of the superior temporal sulcus; it is not seen on the medial surface. The lingual, callosal (cingulate) and cingulate gyri are all medial-surface structures, so the odd one out is the angular gyrus.
+## explicit_objective
+Recognise that the angular gyrus is a lateral-surface structure and does not appear on the medial surface of the hemisphere.
+## pitfalls
+Assuming any named gyrus is medial; the angular (and supramarginal) gyri belong to the lateral inferior parietal lobule.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral surface anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebrum > Medial Surface Gyri
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following gyri is not visible on the medial surface: a. Lingual. b. Callosal. c. Cingulate. d. Angular." ANSWER: d (205 NEU EOM 2023, Q38)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-ADD558FD8FDDE5
+## label
+The filum terminale anchors the lower end of the spinal cord to the back of the coccyx
+## canonical_key
+spinal-cord.filum-terminale.anchors-to-coccyx
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The filum terminale is a slender prolongation of pia mater from the tip (conus medullaris) of the spinal cord. Its upper part (filum terminale internum) descends within the dural sac among the cauda equina; its lower part (filum terminale externum), invested by dura, attaches to the dorsum of the first coccygeal segment, anchoring the cord inferiorly. The conus medullaris is the tapered lower END of the cord (not the lumbosacral enlargement); the denticulate ligaments are lateral extensions of PIA (not arachnoid); and in the adult the cord ends at about the L1/L2 disc. So the true statement is that the filum terminale attaches the cord to the coccyx.
+## explicit_objective
+State that the filum terminale attaches the lower end of the spinal cord to the back of the coccyx.
+## pitfalls
+Calling the lumbosacral enlargement the conus medullaris, or the denticulate ligaments extensions of arachnoid (they are pial), or placing adult cord termination at L2/L3 (it is about L1/L2).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal cord
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Spinal Cord > Terminal Structures
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the spinal cord, select the true statement: a. The lumbosacral enlargement called conus medullaries. b. Denticulate ligament are lateral extension of arachnoid. c. The adult spinal cord terminates at intervertebral disc between L2/L3. d. The filum terminale attach the lower end of spinal cord with the back of coccyx." ANSWER: d (205 NEU EOM 2023, Q39)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-CA8EB4F2393365
+## label
+The anterolateral sulcus of the medulla (between pyramid and olive) transmits the hypoglossal nerve rootlets
+## canonical_key
+medulla.anterolateral-sulcus.hypoglossal-rootlets
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On the ventral surface of the medulla oblongata the groove between the pyramid (medially) and the olive (laterally) is the anterolateral (ventrolateral) sulcus, and from it emerge the rootlets of the HYPOGLOSSAL nerve (cranial nerve XII). The retro-olivary (posterolateral) sulcus, behind the olive, transmits the rootlets of the glossopharyngeal (IX), vagus (X) and cranial accessory (XI) nerves. Therefore the nerve leaving between pyramid and olive is the hypoglossal.
+## explicit_objective
+Identify the hypoglossal nerve as emerging from the anterolateral sulcus of the medulla between the pyramid and the olive.
+## pitfalls
+Confusing the anterolateral (pre-olivary) sulcus, which gives the hypoglossal rootlets, with the retro-olivary sulcus behind the olive that transmits CN IX, X and XI.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem and cranial nerve attachments
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Medulla Oblongata
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The anterolateral sulcus of the medulla between pyramid and olive transmits: a. Hypoglossal nerve. b. Accessory nerve. c. Vagus nerve. d. Glossopharyngeal nerve." ANSWER: a (205 NEU EOM 2023, Q40)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-1676AF0A56D4D9
+## label
+The facial colliculus is formed by facial nerve fibres looping over the abducent nucleus
+## canonical_key
+pons.facial-colliculus.facial-genu-over-abducens-nucleus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The facial colliculus is a rounded elevation in the floor of the fourth ventricle (upper part of the rhomboid fossa, over the pons). It is produced by the internal genu of the FACIAL nerve fibres as they loop over the underlying ABDUCENT (CN VI) nucleus. It is therefore formed by facial nerve fibres and the abducens nucleus together, not by the facial nucleus. A lesion here can affect both CN VI and CN VII.
+## explicit_objective
+State that the facial colliculus is raised by facial nerve fibres arching over the abducent nucleus.
+## pitfalls
+Attributing the facial colliculus to the facial NUCLEUS; it is the facial nerve fibres (internal genu) over the ABDUCENT nucleus that raise it.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Rhomboid Fossa
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The facial colliculus is formed by the: a. Facial nerve fibers and abducent nucleus. b. Facial nerve fibers only. c. Facial nucleus only. d. Facial nucleus and abducent nerve fibers." ANSWER: a (205 NEU EOM 2023, Q41)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-077FA8E38D3D48
+## label
+In the newborn the conus medullaris lies opposite the third lumbar vertebra
+## canonical_key
+spinal-cord.conus-medullaris.newborn-level-l3
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During fetal life the spinal cord fills the whole vertebral canal, but the vertebral column grows faster than the cord, so the lower end of the cord (conus medullaris) appears to ascend with age. At BIRTH the conus medullaris lies opposite the third lumbar vertebra (L3), whereas in the ADULT it has reached the lower border of L1 / L1-L2 disc. This ascent is why lumbar puncture in infants is performed at a lower level than in adults to avoid the cord.
+## explicit_objective
+State that the conus medullaris lies at the level of the third lumbar vertebra in the newborn.
+## pitfalls
+Applying the adult level (lower border of L1) to the newborn; at birth the conus is lower, at about L3.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal cord
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Spinal Cord > Conus Medullaris Level
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In newborns, conus medullaris lies opposite the: a. 10th thoracic vertebra. b. 1st lumbar vertebra. c. 3rd lumbar vertebra. d. 5th lumbar vertebra." ANSWER: c (205 NEU EOM 2023, Q42)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-085AEF1C716BCD
+## label
+The corona radiata is a projection fibre system, not an association fibre
+## canonical_key
+cerebral-white-matter.corona-radiata.projection-fibre-not-association
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cerebral white matter is grouped into association fibres (linking areas within the same hemisphere), commissural fibres (linking the two hemispheres) and projection fibres (linking cortex with subcortical centres). The corona radiata is a fan of PROJECTION fibres continuous with the internal capsule, connecting the cortex to the thalamus, brainstem and cord; it is therefore NOT an association fibre. In contrast the uncinate fasciculus, cingulum and superior longitudinal bundle are all association fibre bundles. Hence the corona radiata is the odd one out.
+## explicit_objective
+Classify the corona radiata as a projection fibre system and distinguish it from association bundles such as the uncinate, cingulum and superior longitudinal fasciculus.
+## pitfalls
+Grouping the corona radiata with association bundles; it is projection fibre continuous with the internal capsule.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral white matter
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebrum > White Matter Fibres
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the followings is not an association fiber of the cerebrum: a. uncinate fasiculus. b. corona radiata. c. cingulum. d. superior longitudinal bundle." ANSWER: b (205 NEU EOM 2023, Q43)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-7FE511ED2257EE
+## label
+The cerebellum is supplied by the superior cerebellar artery (among the three cerebellar arteries)
+## canonical_key
+cerebellum.blood-supply.superior-cerebellar-artery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cerebellum receives blood from three paired arteries: the superior cerebellar artery (a branch of the basilar), the anterior inferior cerebellar artery (basilar) and the posterior inferior cerebellar artery (vertebral). The superior cerebellar artery supplies the superior surface and much of the deep cerebellum. Other statements are false: the cerebellum lies in the POSTERIOR cranial fossa (not middle); its upper surface is covered by the tentorium cerebelli (not the falx cerebri); and the superior vermis carries the culmen/central lobule, whereas the nodule and uvula belong to the INFERIOR vermis. So the true statement is that it is supplied by the superior cerebellar artery.
+## explicit_objective
+State that the cerebellum is supplied by the superior cerebellar artery, and correct the fossa/tentorium/vermis distractors.
+## pitfalls
+Placing the cerebellum in the middle cranial fossa or under the falx cerebri (it sits in the posterior fossa under the tentorium cerebelli).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebellum
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebellum > Blood Supply
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning the cerebellum, select the true statement: a. It lies in the middle cranial fossa. b. Its upper surface is covered by falx cerebri. c. Its superior vermis has a nodule and uvula only. d. It's supplied by superior cerebellar artery." ANSWER: d (205 NEU EOM 2023, Q44)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-5703665C32C872
+## label
+The cingulate sulcus lies on the medial surface of the cerebral hemisphere
+## canonical_key
+cerebral-hemisphere.cingulate-sulcus.medial-surface
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On the MEDIAL surface of the hemisphere the cingulate (callosal marginal) sulcus arches above the cingulate gyrus and corpus callosum, separating it from the medial frontal gyrus; the parieto-occipital and calcarine sulci also lie medially. The central sulcus, superior temporal sulcus and the posterior ramus of the lateral sulcus are all found on the LATERAL surface. Therefore, of the options, the cingulate sulcus is the one on the medial surface.
+## explicit_objective
+Identify the cingulate sulcus as a medial-surface sulcus, in contrast to the central, superior temporal and lateral sulci on the lateral surface.
+## pitfalls
+Assuming the central or superior temporal sulcus is medial; they lie on the lateral (convex) surface.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral surface anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebrum > Medial Surface Sulci
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following sulci lie on the medial surface of the cerebral hemisphere: a. Cingulate sulcus. b. Central sulcus. c. Superior temporal sulcus. d. Posterior ramus of lateral sulcus." ANSWER: a (205 NEU EOM 2023, Q45)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-51583DC6C6E144
+## label
+The spinal pia mater is closely adherent to the surface of the spinal cord
+## canonical_key
+spinal-meninges.pia-mater.adherent-to-cord
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pia mater is the innermost (delicate, vascular) meningeal layer and is closely adherent to the surface of the spinal cord, dipping into its anterior median fissure and continuing below as the filum terminale. Other statements are false: the denticulate ligaments are lateral extensions of the PIA (not thickenings of the dura); the dura mater does NOT continue as the filum terminale; and the spinal dural sac ends at about the level of the second SACRAL vertebra (S2), not the fourth. So the true statement is that pia is closely adherent to the cord.
+## explicit_objective
+State that the spinal pia mater is closely adherent to the spinal cord, and correct the denticulate/dura distractors.
+## pitfalls
+Attributing the denticulate ligaments to the dura (they are pial), or ending the dural sac at S4 rather than about S2.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal meninges
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and CSF > Spinal Meninges
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the spinal meninges, select the true statement: a. The denticulate ligaments are thickening of the dura mater. b. The dura mater continues below as the film terminale. c. The pia mater is closely adherent to the spinal cord. d. The dura mater ends at the level of the fourth sacral vertebra." ANSWER: c (205 NEU EOM 2023, Q46)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-B946F4F28FDD55
+## label
+The olive of the medulla is produced by the inferior olivary nucleus, not the superior olivary nucleus
+## canonical_key
+medulla.olive.inferior-olivary-nucleus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The olive is the oval swelling on the ventrolateral surface of the medulla oblongata, lateral to the pyramid, produced by the underlying INFERIOR olivary nucleus (a relay to the cerebellum via the inferior cerebellar peduncle). It lies anteriorly related to the rootlets of the hypoglossal nerve and posteriorly to the rootlets of CN IX, X and XI. The statement that the olive is produced by the SUPERIOR olivary nucleus is incorrect: the superior olivary nucleus is a small pontine auditory relay, not the swelling of the medullary olive.
+## explicit_objective
+State that the medullary olive is raised by the inferior olivary nucleus, identifying the superior-olivary-nucleus statement as false.
+## pitfalls
+Attributing the medullary olive to the superior olivary nucleus (a pontine auditory relay); the swelling is the inferior olivary nucleus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Brainstem
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Brainstem > Medulla Oblongata
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the olive, one of the following is incorrect: a. lies on the lateral surface of medulla oblongata. b. is related anteriorly to the rootlets of hypoglossal nerve. c. is related posteriorly to the rootlets of 9, 10 and 11 cranial nerves. d. is produced by the superior olivary nucleus." ANSWER: d (205 NEU EOM 2023, Q49)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-B6C8FC4FB1FC33
+## label
+In lumbar puncture the needle is inserted into the subarachnoid space
+## canonical_key
+lumbar-puncture.needle.subarachnoid-space
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cerebrospinal fluid is contained in the SUBARACHNOID space (between arachnoid and pia). In a lumbar puncture the needle is passed in the midline below the level of the conus medullaris (usually L3-L4 or L4-L5 in the adult) through skin, ligaments, dura and arachnoid to enter the subarachnoid space of the lumbar cistern, where CSF is aspirated. The epidural (extradural) space lies OUTSIDE the dura and contains fat and veins (used for epidural anaesthesia, not CSF), and the subdural space is only a potential space. So CSF is collected from the subarachnoid space.
+## explicit_objective
+State that lumbar puncture samples cerebrospinal fluid from the subarachnoid space.
+## pitfalls
+Confusing the CSF-containing subarachnoid space with the epidural/extradural space (fat and veins) or the potential subdural space.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Meninges and CSF
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Meninges and CSF > Lumbar Puncture
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In performing a lumbar puncture for CSF collection, the needle is inserted into: a. Subdural space. b. Epidural space. c. Subarachnoid space. d. Extradural space." ANSWER: c (205 NEU EOM 2023, Q50)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-10B39A85BD2CC7
+## label
+The primary auditory cortex is located in the temporal lobe
+## canonical_key
+auditory-cortex.primary.temporal-lobe
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The primary auditory cortex (areas 41 and 42) occupies the anterior transverse temporal gyri (of Heschl) on the upper surface of the superior temporal gyrus within the lateral sulcus, in the TEMPORAL lobe. It is the cortical destination of the auditory radiation from the medial geniculate body. It is not in the frontal, parietal or occipital lobes; the occipital lobe houses the visual cortex, the parietal the somatosensory cortex, and the frontal the motor cortex. So the primary auditory cortex is temporal.
+## explicit_objective
+Localise the primary auditory cortex to the transverse temporal gyri of the temporal lobe.
+## pitfalls
+Placing the auditory cortex in the parietal or occipital lobe; it lies in the superior temporal gyrus (Heschl's gyri).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Cerebral cortex localisation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Cerebral Cortex > Auditory Area
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The primary auditory cortex is found in the following lobe: a. Temporal. b. Frontal. c. Parietal. d. occipital." ANSWER: a (205 NEU EOM 2023, Q51)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department book for 205 NEU (Anatomy, image-only) was not OCR'd this pass; evidence must be attached from a readable department-book render before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
+
+---
