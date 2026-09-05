@@ -2210,8 +2210,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-CB0E0F665E200B
 
 ## label
-The chondrocyte develops from the chondroblast, lies imprisoned in a lacuna, and divides into isogenous groups for interstitial growth
-
+The chondrocyte and interstitial growth
 ## canonical_key
 cartilage.chondrocyte.structure-origin-site-lm-em-function
 
@@ -2228,8 +2227,15 @@ Cell nest
 كوندروسايت
 
 ## definition
-The chondrocyte develops from a chondroblast: when the chondroblast matures it secretes enough matrix to be completely surrounded and imprisoned in a lacuna. Young chondrocytes are superficial and older ones lie deeper in the matrix. Superficial chondrocytes are ovoid, parallel to the surface, with pale basophilic cytoplasm and a rounded dark central nucleus, usually single in a lacuna surrounded by a darkly stained capsule of condensed matrix. Older, deeper chondrocytes are rounded or triangular with a dark rounded nucleus and pale basophilic cytoplasm rich in fat and glycogen (which dissolve during preparation); they divide once or twice to give clusters of 2 to 8 cells, called isogenous groups or cell nests, enclosed by a shared lacuna. By electron microscopy chondrocytes show the features of protein-forming cells, but less prominently than chondroblasts, and old chondrocytes additionally show large lipid droplets and glycogen granules. Chondrocytes are the maintaining cells of cartilage: they continuously secrete new matrix around themselves, producing interstitial growth of cartilage from inside.
+The **chondrocyte** develops from a **chondroblast**: when the chondroblast matures it secretes enough matrix to be completely surrounded and __imprisoned in a lacuna__. Young chondrocytes are superficial and older ones lie deeper in the matrix.
 
+**Superficial chondrocytes** are ovoid, parallel to the surface, with pale basophilic cytoplasm and a rounded dark central nucleus, usually single in a lacuna surrounded by a darkly stained capsule of condensed matrix.
+
+**Older, deeper chondrocytes** are rounded or triangular with a dark rounded nucleus and pale basophilic cytoplasm rich in fat and glycogen (which dissolve during preparation). They divide once or twice to give clusters of 2 to 8 cells — **isogenous groups** or cell nests — enclosed by a shared lacuna.
+
+By **electron microscopy** chondrocytes show the features of protein-forming cells, but less prominently than chondroblasts, and old chondrocytes additionally show large lipid droplets and glycogen granules.
+
+Chondrocytes are the __maintaining cells of cartilage__: they continuously secrete new matrix around themselves, producing **interstitial growth** of cartilage from inside.
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the chondrocyte, describe isogenous groups, and explain interstitial cartilage growth.
 
@@ -2389,8 +2395,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-FB07A439E2B324
 
 ## label
-The perichondrium is a two-layered fibrous capsule that nourishes and grows cartilage, and it is absent at articular surfaces
-
+The perichondrium
 ## canonical_key
 cartilage.perichondrium.layers-functions
 
@@ -2406,8 +2411,11 @@ Inner chondrogenic layer
 غلاف الغضروف
 
 ## definition
-The perichondrium is a capsule-like structure of dense fibrous connective tissue that surrounds hyaline cartilage, except at the articular surface of joints. It has two layers: an outer fibrous layer of white fibrous connective tissue, formed of fibroblasts that secrete type I collagen fibres and rich in blood vessels and nerves; and an inner chondrogenic (cellular) layer rich in chondroblasts. Its functions are nutrition of the non-vascular cartilage by diffusion, providing attachment for muscles, and forming new cartilage cells during growth.
+The **perichondrium** is a capsule-like structure of dense fibrous connective tissue that surrounds hyaline cartilage, __except at the articular surface of joints__.
 
+It has two layers: an outer **fibrous layer** of white fibrous connective tissue, formed of fibroblasts that secrete type I collagen and rich in blood vessels and nerves; and an inner **chondrogenic (cellular) layer** rich in chondroblasts.
+
+Its functions are __nutrition of the non-vascular cartilage__ by diffusion, providing attachment for muscles, and forming new cartilage cells during growth.
 ## explicit_objective
 State the two layers of the perichondrium, their composition, and its three functions, and explain why cartilage lacking a perichondrium behaves differently.
 
@@ -2565,8 +2573,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-0EA979EBF9D434
 
 ## label
-Hyaline cartilage is the most common, glassy-translucent cartilage and the structural template for the other two types
-
+Hyaline cartilage
 ## canonical_key
 cartilage.hyaline.definition-sites
 
@@ -2581,8 +2588,9 @@ Sites of hyaline cartilage
 الغضروف الهياليني
 
 ## definition
-Hyaline cartilage is the most common type of cartilage. It appears translucent with a glassy appearance (hyalo = glass) and has the typical structure of cartilage; the other two types are variants of its basic structure. It is found in the fetal skeleton, the articular surface of bones, costal cartilage, the epiphyseal plate, and the upper respiratory passages (nose, larynx, trachea and bronchi).
+**Hyaline cartilage** is the __most common type of cartilage__. It appears translucent with a glassy appearance (hyalo = glass) and has the typical structure of cartilage; the **other two types are variants of its basic structure**.
 
+It is found in the fetal skeleton, the articular surface of bones, costal cartilage, the epiphyseal plate, and the upper respiratory passages (nose, larynx, trachea and bronchi).
 ## explicit_objective
 Name the five sites of hyaline cartilage and explain why it is treated as the template for the other cartilage types.
 
@@ -2740,8 +2748,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-0F4870E557FAF4
 
 ## label
-Yellow elastic cartilage is flexible and perichondrium-covered; white fibrocartilage is tough, uncovered, and attaches bone to bone
-
+Elastic cartilage and white fibrocartilage
 ## canonical_key
 cartilage.elastic-vs-fibrocartilage.comparison
 
@@ -2759,8 +2766,13 @@ Fibrocartilage
 الغضروف الليفي
 
 ## definition
-Yellow elastic cartilage is yellow in the fresh state, opaque and flexible, and is covered by perichondrium. It has the same structure as hyaline cartilage but with a large number of branching elastic fibres embedded in the matrix, plus a few type II collagen fibres; its chondrocytes form small, mostly 2-cell isogenous groups. It sits in the ear pinna, the Eustachian tube, the epiglottis and some laryngeal cartilages, and the external auditory canal, and it is very flexible, recovering its shape after deformation. White fibrocartilage is a tough type, important in bone-to-bone attachment, with characters intermediate between hyaline cartilage and dense regular white fibrous connective tissue. It is not surrounded by perichondrium, and is formed of dense type I collagen fibres in parallel thick bundles, with cartilage cells inside lacunae present in rows between the bundles, embedded in very scanty matrix. It sits in the shoulder and hip joints, the intervertebral disc, the mandibular joint, the symphysis pubis, the sternoclavicular joint, and the semilunar cartilages of the knee joints, and it is strong and tough, resisting great tensile stretch and attaching bones with limited mobility.
+**Yellow elastic cartilage** is yellow in the fresh state, opaque and flexible, and is __covered by perichondrium__. It has the same structure as hyaline cartilage but with many branching elastic fibres embedded in the matrix, plus a few type II collagen fibres; its chondrocytes form small, mostly 2-cell isogenous groups.
 
+It sits in the ear pinna, the Eustachian tube, the epiglottis and some laryngeal cartilages, and the external auditory canal, and it is __very flexible, recovering its shape after deformation__.
+
+**White fibrocartilage** is a tough type, important in __bone-to-bone attachment__, with characters intermediate between hyaline cartilage and dense regular white fibrous connective tissue. It is __not surrounded by perichondrium__, and is formed of dense type I collagen fibres in parallel thick bundles, with cartilage cells inside lacunae present in rows between the bundles, embedded in very scanty matrix.
+
+It sits in the shoulder and hip joints, the intervertebral disc, the mandibular joint, the symphysis pubis, the sternoclavicular joint, and the semilunar cartilages of the knee joints, and it is __strong and tough, resisting great tensile stretch__ and attaching bones with limited mobility.
 ## explicit_objective
 Compare yellow elastic cartilage and white fibrocartilage on structure, perichondrial covering, site and function.
 
@@ -2921,8 +2933,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-9C7E37FE296254
 
 ## label
-The intervertebral disc has an outer annulus fibrosus of white fibrocartilage around an inner jelly-like nucleus pulposus, and herniation of the nucleus compresses nerve roots
-
+The intervertebral disc and disc prolapse
 ## canonical_key
 cartilage.intervertebral-disc.annulus-nucleus-herniation
 
@@ -2942,8 +2953,9 @@ Disc herniation
 انزلاق غضروفي
 
 ## definition
-The intervertebral disc lies between the bodies of two adjacent vertebrae. It is formed of an outer fibrous ring, the annulus fibrosus, made of white fibrocartilage (type I collagen), surrounding an inner soft jelly-like mass, the nucleus pulposus, containing type II collagen. Herniation of the nucleus pulposus from the annulus fibrosus, called disc prolapse, can compress nerve roots and cause severe pain.
+The **intervertebral disc** lies between the bodies of two adjacent vertebrae. It is formed of an outer fibrous ring, the **annulus fibrosus**, made of white fibrocartilage (type I collagen), surrounding an inner soft jelly-like mass, the **nucleus pulposus** (type II collagen).
 
+**Herniation** of the nucleus pulposus from the annulus fibrosus, called __disc prolapse__, can compress nerve roots and cause severe pain.
 ## explicit_objective
 Describe the two components of the intervertebral disc, their collagen types, and the clinical consequence of nucleus pulposus herniation.
 
@@ -3103,8 +3115,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-295AEB5D72F8D0
 
 ## label
-The periosteum is a two-layered outer bone covering and the endosteum a single-layered inner covering, and both carry osteogenic cells for growth
-
+Periosteum and endosteum
 ## canonical_key
 bone.coverings.periosteum-endosteum-comparison
 
@@ -3123,8 +3134,11 @@ Inner osteogenic layer
 البطانة الداخلية للعظم
 
 ## definition
-Periosteum is a layer of connective tissue covering the outer surface of bone, formed of two layers: an outer fibrous layer of dense type I collagen fibres, fibroblasts and blood capillaries, and an inner osteogenic layer, a cellular layer of osteogenic cells that thickens markedly during growth and fracture repair as these cells multiply. Its blood capillaries nourish bone, its collagen protects bone and gives attachment for muscles, and its osteogenic cells differentiate into osteoblasts that form bone matrix and become osteocytes, driving appositional bone growth. Endosteum is a delicate layer of connective tissue containing a single layer of osteogenic cells that lines the inner bone surface; it protects the bone surface and adds bone growth from inside.
+**Periosteum** covers the outer surface of bone and is formed of two layers: an outer **fibrous layer** of dense type I collagen fibres, fibroblasts and blood capillaries, and an inner **osteogenic layer** of osteogenic cells that __thickens markedly during growth and fracture repair__ as these cells multiply.
 
+Its blood capillaries nourish bone, its collagen protects bone and gives attachment for muscles, and its osteogenic cells differentiate into osteoblasts that form bone matrix and become osteocytes, driving __appositional bone growth__.
+
+**Endosteum** is a delicate layer of connective tissue containing a __single layer of osteogenic cells__ that lines the inner bone surface; it protects the bone surface and adds bone growth from inside.
 ## explicit_objective
 Compare the periosteum and endosteum on structure and function, and explain why the periosteum thickens in growth and fracture.
 
@@ -3284,8 +3298,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-E2291B6BD6BBDF
 
 ## label
-The osteogenic cell arises from mesenchymal cells and pericytes, lines periosteum and endosteum, and gives rise to osteoblasts
-
+The osteogenic (osteoprogenitor) cell
 ## canonical_key
 osteogenic-cell.structure.origin-site-lm-em-function
 
@@ -3301,8 +3314,11 @@ Osteoprogenitor cell
 أوستيوجينيك سيل
 
 ## definition
-The osteogenic (osteoprogenitor) cell arises from undifferentiated mesenchymal cells and pericytes. It is present in the inner layer of the periosteum and in the endosteum. By light microscopy it is a flat cell with a flat nucleus and pale basophilic cytoplasm. By electron microscopy it shows free ribosomes. It can divide and give rise to osteoblasts; osteogenic cells are well developed and numerous in fracture and at young age. In areas of poor vascularity, osteogenic cells can give rise to chondroblasts instead.
+The **osteogenic (osteoprogenitor) cell** arises from undifferentiated mesenchymal cells and pericytes. It is present in the inner layer of the periosteum and in the endosteum.
 
+By **light microscopy** it is a flat cell with a flat nucleus and pale basophilic cytoplasm; by **electron microscopy** it shows free ribosomes.
+
+It can divide and give rise to **osteoblasts**, and osteogenic cells are well developed and numerous in fracture and at young age. __In areas of poor vascularity, osteogenic cells can give rise to chondroblasts instead.__
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the osteogenic cell, and explain why it can become either an osteoblast or, in poorly vascular sites, a chondroblast.
 
@@ -3464,8 +3480,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-6C87364F2CE942
 
 ## label
-The osteocyte is the mature bone cell, imprisoned singly in a lacuna and linked to neighbours by canaliculi, and it cannot divide
-
+The osteocyte: the mature bone cell
 ## canonical_key
 osteocyte.structure.origin-site-lm-em-canaliculi-function
 
@@ -3482,8 +3497,13 @@ Bone lacuna
 أوستيوسايت
 
 ## definition
-The osteocyte, the mature bone cell, arises from the osteoblast. It is present singly in a bony lacuna; lacunae communicate through canaliculi that connect osteocytes together, which matters because the matrix is calcified and no tissue fluid can otherwise pass through it, so these connections carry nutrient and waste exchange. By light microscopy osteocytes are oval cells with fine minute processes and oval nuclei, and lightly basophilic cytoplasm containing alkaline phosphatase. By electron microscopy the osteocyte lies within its lacuna with its processes extending into the canaliculi, and processes of neighbouring cells are connected by gap junctions for nutrition; the cytoplasm has less rough endoplasmic reticulum than the osteoblast but still contains a Golgi apparatus and mitochondria. Osteocytes are bone-maintaining cells: they form the organic part of matrix and calcify it by continuous deposition of calcium salts, and healthy osteocytes are important for the viability of the matrix. Only one osteocyte occupies a lacuna, and because osteocytes cannot divide, there is no interstitial growth in bone.
+The **osteocyte**, the mature bone cell, arises from the **osteoblast**. It lies singly in a bony **lacuna**; lacunae communicate through **canaliculi** that connect osteocytes together — __essential because the calcified matrix lets no tissue fluid pass, so these connections carry nutrient and waste exchange__.
 
+By **light microscopy** osteocytes are oval cells with fine minute processes, oval nuclei, and lightly basophilic cytoplasm containing alkaline phosphatase.
+
+By **electron microscopy** the osteocyte lies within its lacuna with its processes extending into the canaliculi, and processes of neighbouring cells are connected by **gap junctions** for nutrition; the cytoplasm has less rough endoplasmic reticulum than the osteoblast but still contains a Golgi apparatus and mitochondria.
+
+Osteocytes are __bone-maintaining cells__: they form the organic part of matrix and calcify it by continuous deposition of calcium salts, and healthy osteocytes are important for the viability of the matrix. Only one osteocyte occupies a lacuna, and because __osteocytes cannot divide, there is no interstitial growth in bone__.
 ## explicit_objective
 State the origin, site, light- and electron-microscopic features of the osteocyte, describe the canalicular network, and explain why bone has no interstitial growth.
 
@@ -3645,8 +3665,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-CAFCD73A40E6DC
 
 ## label
-The osteoclast is distinguished from the megakaryocyte by its Howship lacuna site, larger size, foamy cytoplasm and multinucleation
-
+Osteoclast versus megakaryocyte
 ## canonical_key
 osteoclast.megakaryocyte.comparison
 
@@ -3662,8 +3681,11 @@ Howship lacuna comparison
 الخلية النواءة
 
 ## definition
-Osteoclasts and megakaryocytes are both large, prominent cells that students confuse. The megakaryocyte sits in bone marrow, is 50 to 70 micrometres in diameter, has basophilic cytoplasm, a single multilobed nucleus, and forms platelets. The osteoclast sits on the inner bone surface within Howship's lacuna, is larger at about 150 micrometres in diameter, has foamy acidophilic cytoplasm, is multinucleated, and resorbs bone.
+**Osteoclasts** and **megakaryocytes** are both large, prominent cells that students confuse.
 
+The **megakaryocyte** sits in bone marrow, is 50 to 70 micrometres in diameter, has basophilic cytoplasm, a __single multilobed nucleus__, and forms platelets.
+
+The **osteoclast** sits on the inner bone surface within **Howship's lacuna**, is larger at about 150 micrometres in diameter, has foamy acidophilic cytoplasm, is __multinucleated__, and resorbs bone.
 ## explicit_objective
 Distinguish the osteoclast from the megakaryocyte on site, diameter, cytoplasm, nucleus and function.
 
@@ -3821,8 +3843,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-89674D65B2316B
 
 ## label
-Bone matrix is 35% organic type I collagen and ground substance and 65% inorganic calcium salts that harden it
-
+Bone matrix: organic and inorganic parts
 ## canonical_key
 bone.matrix.organic-inorganic-composition
 
@@ -3839,8 +3860,11 @@ Osteoporosis
 المصفوفة العظمية
 
 ## definition
-Bone matrix is formed of two main parts. The organic part (35%) is mainly type I collagen fibres arranged as thick bundles, plus ground substance in the form of glycosaminoglycans and glycoproteins. The inorganic part (65%) is mainly calcium salts, as calcium phosphate and carbonate, present on the surface of collagen bundles and within the ground substance, and it causes the hardness of bone. The matrix is arranged as lamellae of calcified collagen bundles embedded in calcified ground substance. Osteoporosis, a common bone disease with progressive loss of normal bone density and increased fracture risk, is caused by bone resorption exceeding bone formation.
+Bone matrix is formed of two main parts. The **organic part (35%)** is mainly **type I collagen** fibres arranged as thick bundles, plus ground substance in the form of glycosaminoglycans and glycoproteins.
 
+The **inorganic part (65%)** is mainly **calcium salts**, as calcium phosphate and carbonate, present on the surface of collagen bundles and within the ground substance, and it __causes the hardness of bone__. The matrix is arranged as lamellae of calcified collagen bundles embedded in calcified ground substance.
+
+**Osteoporosis**, a common bone disease with progressive loss of normal bone density and increased fracture risk, is caused by __bone resorption exceeding bone formation__.
 ## explicit_objective
 State the two components of bone matrix, their approximate proportions, and what each contributes to bone's properties, and define osteoporosis in terms of the osteoblast-osteoclast balance.
 
@@ -4002,8 +4026,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-514B359316B831
 
 ## label
-A bone section is prepared by decalcification, which keeps cells but removes calcium, or by grinding, which keeps calcium but shows no cells
-
+Preparing a bone section: decalcification vs grinding
 ## canonical_key
 bone.preparation.decalcification-vs-grinding
 
@@ -4020,8 +4043,11 @@ Preparation of bone sections
 طريقة الطحن
 
 ## definition
-Bone's hardness, from its calcium content, is the main problem in preparing a section. In the decalcification method, calcium is removed by treating the bone with a mineral acid such as 10% nitric acid; the bone becomes soft and can be cut and stained, and decalcified sections demonstrate the bone cells and soft tissues. In the grinding method, bone is dried in air, cut into small pieces with a saw, and thinned by grinding on a carborundum wheel; the resulting ground sections are unstained and show only the bone lamellae, lacunae, canaliculi, and the Haversian and Volkmann's canals, with no cells. The grinding method is not used for spongy bone.
+Bone's hardness, from its calcium content, is the main problem in preparing a section.
 
+In the **decalcification method**, calcium is removed by treating the bone with a mineral acid such as 10% nitric acid; the bone becomes soft and can be cut and stained, and __decalcified sections demonstrate the bone cells and soft tissues__.
+
+In the **grinding method**, bone is dried in air, cut into small pieces with a saw, and thinned by grinding on a carborundum wheel; the resulting ground sections are unstained and show only the bone lamellae, lacunae, canaliculi, and the Haversian and Volkmann's canals, with __no cells__. The grinding method is not used for spongy bone.
 ## explicit_objective
 Compare the decalcification and grinding methods of preparing a bone section on their steps and on what each does and does not show.
 
@@ -4179,8 +4205,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-B55521FFEC2527
 
 ## label
-Bone is classified anatomically by shape into four types and histologically by structure into compact and spongy
-
+Anatomical and histological classification of bone
 ## canonical_key
 bone.classification.anatomical-vs-histological
 
@@ -4201,8 +4226,11 @@ Irregular bone
 العظام غير المنتظمة
 
 ## definition
-There are two methods for classifying bone. The anatomical classification, by the shape of the bone, gives four types: long bones, short bones, flat bones, and irregular bones. The histological classification, by the structure of the bone, gives two types: compact bone and spongy (cancellous) bone.
+There are two methods for classifying bone.
 
+The **anatomical classification**, by the shape of the bone, gives four types: __long bones, short bones, flat bones, and irregular bones__.
+
+The **histological classification**, by the structure of the bone, gives two types: __compact bone and spongy (cancellous) bone__.
 ## explicit_objective
 State the two classification systems for bone and list the categories each contains.
 
@@ -4360,8 +4388,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-A67054CAEEE89E
 
 ## label
-Compact bone is built of Haversian systems, each a canal with concentric lamellae, linked by Volkmann canals and interstitial lamellae
-
+Compact bone and the Haversian system
 ## canonical_key
 bone.compact.haversian-system-structure
 
@@ -4382,8 +4409,15 @@ Circumferential lamellae
 العظم الكثيف
 
 ## definition
-Compact bone forms the shaft of long bones and also covers the surface of spongy bone. From outside in it is formed of: the periosteum, covering the outer surface; external circumferential lamellae, found under the periosteum, of osteocytes in lacunae between lamellae of calcified collagen bundles running parallel to the bone surface; the Haversian system (osteon), the structural unit of compact bone — cylindrical structures arranged parallel to the long axis of the bone, each with a central Haversian canal carrying blood vessels and nerves in loose connective tissue, surrounded by 5 to 20 concentric circular bony lamellae with osteocytes in lacunae between them, and connected to each other and to the periosteum or marrow cavity by transverse or oblique Volkmann's canals; interstitial lamellae, irregularly arranged lamellae and osteocytes filling the spaces between Haversian systems; internal circumferential lamellae, parallel to the inner circumference and surrounding the marrow cavity; and the endosteum, lining the inner surface. Perforating fibres of Sharpey are calcified collagen fibres from tendons or ligaments that perforate the periosteum, attach to the external circumferential lamellae, become continuous with the matrix collagen, and fix the tendon to the bone.
+**Compact bone** forms the shaft of long bones and also covers the surface of spongy bone. From outside in it is built of several layers.
 
+The **periosteum** covers the outer surface. Beneath it, the **external circumferential lamellae** are osteocytes in lacunae between lamellae of calcified collagen bundles running parallel to the bone surface.
+
+The **Haversian system (osteon)** is the __structural unit of compact bone__: cylindrical structures arranged parallel to the long axis of the bone, each with a central **Haversian canal** carrying blood vessels and nerves in loose connective tissue, surrounded by 5 to 20 concentric circular bony lamellae with osteocytes in lacunae between them, and connected to each other and to the periosteum or marrow cavity by transverse or oblique **Volkmann's canals**.
+
+**Interstitial lamellae** are irregularly arranged lamellae and osteocytes filling the spaces between Haversian systems. **Internal circumferential lamellae** run parallel to the inner circumference, surrounding the marrow cavity, and the **endosteum** lines the inner surface.
+
+**Perforating fibres of Sharpey** are calcified collagen fibres from tendons or ligaments that perforate the periosteum, attach to the external circumferential lamellae, become continuous with the matrix collagen, and __fix the tendon to the bone__.
 ## explicit_objective
 List, from outside to inside, the six structural components of compact bone, describe the Haversian system, and state the role of Volkmann's canals and Sharpey's fibres.
 
@@ -4545,8 +4579,7 @@ reviewDue: Set when the first review completes.
 CON-MSK-0403FC429F118B
 
 ## label
-Spongy bone is a lattice of bony trabeculae without Haversian systems, sited in flat, short and irregular bones and at the epiphyses
-
+Spongy (cancellous) bone
 ## canonical_key
 bone.spongy.structure-sites
 
@@ -4562,8 +4595,11 @@ Bony trabeculae
 العظم الشبكي
 
 ## definition
-Spongy (cancellous) bone is present in the centre of flat, short and irregular bones, and in the epiphysis of long bones. It is formed of irregular, branching and anastomosing bony trabeculae enclosing irregular bone marrow cavities between them. Each trabecula is formed of bone lamellae with osteocytes between them, and there are no Haversian systems. The bone surface is covered by periosteum and the marrow cavities are lined by endosteum.
+**Spongy (cancellous) bone** is present in the centre of flat, short and irregular bones, and in the epiphysis of long bones.
 
+It is formed of irregular, branching and anastomosing **bony trabeculae** enclosing irregular bone marrow cavities between them. Each trabecula is formed of bone lamellae with osteocytes between them, and there are __no Haversian systems__.
+
+The bone surface is covered by periosteum and the marrow cavities are lined by endosteum.
 ## explicit_objective
 State the sites of spongy bone and describe its trabecular structure, contrasting it with compact bone's Haversian organisation.
 
