@@ -7,6 +7,8 @@
 | 2025-eom-physiology-tranche-3 (Q43-64, same paper) | 22 | 0 | 56 | 78 |
 | 2025-eom-physiology-tranche-4 (Q65-84, same paper) | 20 | 0 | 36 | 56 |
 | 2025-eom-histology-tranche-5 (Q85-104, same paper) | 20 | 0 | 16 | 36 |
+| 2025-eom-tranche-6 (Q105-120, same paper) | 16 | 0 | 0 | 16 |
+| **2025 EOM paper total** (`EOM - 206 solved (197).pdf`) | **120** | **0** | **0** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
@@ -72,6 +74,38 @@ created=44/rejected=0, audit neutral vs the tranche-4 baseline — 23 category t
 no new categories; the only delta is 4 vs 3 article-placeholder sets, proportionate to the
 extra article). **16 questions remain on this paper: Q105-113 Histology tail (9) +
 Q114-120 Biochemistry (7)** — all render-verified, next author starts at Q105.
+
+Tranche 6 (FINAL): 16/16 questions authored (Q105-120), 0 held, 0 excluded — this
+completes the 2025 EOM paper at **120/120**. Composition, corrected from the tranche-5
+projection: Q105 hepatocyte histology; Q106-114 urinary-system histology (ureter
+urothelium/umbrella cells, macula densa, glomerular filtration barrier, proximal
+convoluted tubule, podocytes, urinary bladder ×2, membranous urethra, upper-ureter
+muscularis); Q115-120 liver biochemistry (fatty liver, choline/lipotropic factors,
+steatorrhoea, essential-fatty-acid lipotropic factor, VLDL export, cytochrome-P450
+xenobiotic hydroxylation). Note Q114 is ureter **histology**, not Biochemistry — the
+Biochemistry section is Q115-120 (6 items), not the Q114-120 (7) the earlier tranches
+projected. Every key matched both the OCR "@" circle and the render-verified triage file
+(Q105.b Q106.a Q107.d Q108.d Q109.c Q110.c Q111.d Q112.b Q113.c Q114.b Q115.a Q116.c
+Q117.d Q118.b Q119.b Q120.a) — 0 ambiguous. Q116 ("not a cause of choline deficiency")
+is authored to the render-verified circle (alcoholism = the exam's designated exception);
+a note in the concept's `uncertainty` field flags that alcohol excess can clinically
+contribute to methyl-group/choline depletion. 16 new concepts minted university-blind via
+`mint-concept-id.mjs` (SHA-256, collision-checked against 15618 IDs — no collisions): 10
+histology (1 `CON-GIT-*` hepatocyte + 9 `CON-REN-*` urinary) under DIS-HIS-T03 with
+SYS-GIT-T01/SYS-REN-T01 cross-nav, and 6 biochemistry (`CON-GIT-*`, filed under the
+hepatobiliary system like pharm-under-system) under DIS-BIO-T04 (Lipid metabolism) and
+DIS-BIO-T07 (Clinical biochemistry) with SYS-GIT-T01. Biochemistry MCQs are tagged
+subject `fnd` (Foundations — the programme has no `bioch` subject id; biochem content is
+`fnd` module-wide). Grouped into 2 library articles (hepatocyte + urinary histology;
+liver biochemistry). No histology/biochemistry department book PDF was located this pass;
+written from standard teaching (Junqueira/di Fiore, Lippincott/Harper) corroborated by the
+paper's own keyed stems. Authored in `question/206-DIG-2025eom-mcq-tranche6.md`,
+`concept/206-DIG-tranche6-concepts.md`, `article/206-DIG-tranche6-articles.md`. Gate-clean
+(batch 0 errors; simulate created=34/rejected=0/errors=0; audit neutral vs the tranche-5
+baseline — 23 category types in both, 0 new categories, total 150 vs 196 proportionate to
+fewer records). **The 2025 EOM paper is now fully authored, 120/120, 0 held.** Next
+206-DIG work is the 9 remaining tier 1-3 papers and 31 tier-5 banks for this module (all
+untriaged) — see `coverage/KAU-Y2-priority-sources.md`.
 
 ## Sources
 
