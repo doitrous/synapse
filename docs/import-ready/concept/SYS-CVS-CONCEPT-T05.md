@@ -1,6 +1,6 @@
 # Item
 ## label
-Re-entry needs two pathways that differ in conduction speed and refractoriness
+What a re-entry circuit needs
 ## id
 CON-CVS-8AE821231859B8
 ## canonical_key
@@ -12,7 +12,9 @@ Re-entry | Circus movement | Re-entrant tachycardia
 ## arabic_aliases
 آلية عود الدخول
 ## definition
-A re-entrant circuit requires two connected pathways with different conduction velocities and different refractory periods, and unidirectional block in one of them. An impulse blocked in the fast pathway travels down the slow one, finds the fast pathway recovered, and returns — then circles indefinitely.
+A re-entrant circuit needs two connected pathways with **different conduction velocities** and **different refractory periods**, plus **unidirectional block** in one.
+
+An impulse blocked in the fast pathway travels down the slow one, finds the fast pathway recovered, and returns — then __circles indefinitely__.
 ## explicit_objective
 State the three requirements for re-entry and explain why a premature beat is usually what starts it.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Sinus node dysfunction produces both slow and fast rhythms in the same patient
+Sinus node dysfunction
 ## id
 CON-CVS-82AC5CA95A19F5
 ## canonical_key
@@ -88,7 +90,9 @@ Sick sinus syndrome | Tachycardia–bradycardia syndrome
 ## arabic_aliases
 متلازمة العقدة الجيبية المريضة
 ## definition
-Degeneration of the sinus node and surrounding atrium causes inappropriate bradycardia, sinus pauses and chronotropic incompetence, and the same diseased atrium generates atrial tachyarrhythmias. The alternation of slow and fast rhythms is characteristic and creates a therapeutic conflict.
+Degeneration of the sinus node and surrounding atrium causes **inappropriate bradycardia, sinus pauses and chronotropic incompetence** — and the same diseased atrium generates **atrial tachyarrhythmias**.
+
+The alternation of __slow and fast rhythms__ is characteristic and creates a therapeutic conflict.
 ## explicit_objective
 Describe the spectrum of sinus node dysfunction and explain why the tachycardia and bradycardia components conflict in treatment.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Bradycardia is treated for its symptoms and its level, not for its rate
+When bradycardia needs treatment
 ## id
 CON-CVS-03795B7D34EA9A
 ## canonical_key
@@ -164,7 +168,9 @@ Indications for pacing | Symptomatic bradycardia
 ## arabic_aliases
 بطء القلب العرضي
 ## definition
-A slow rate is not by itself an indication for treatment: trained athletes and sleeping adults are bradycardic and well. What justifies intervention is symptoms attributable to the rate, or a level of block whose escape rhythm cannot be relied on.
+A slow rate is not by itself an indication for treatment — trained athletes and sleeping adults are bradycardic and well.
+
+What justifies intervention is __symptoms attributable to the rate__, or a **level of block** whose escape rhythm cannot be relied on.
 ## explicit_objective
 State the two grounds for treating bradycardia and reject rate alone as a criterion.
 ## pitfalls
@@ -228,7 +234,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The level of block determines how reliable the escape rhythm is
+Block level sets escape reliability
 ## id
 CON-CVS-F7D1EC90766644
 ## canonical_key
@@ -240,7 +246,11 @@ Nodal versus infranodal block | Escape rhythm reliability
 ## arabic_aliases
 الحصار العقدي وتحت العقدي
 ## definition
-Block within the atrioventricular node leaves a junctional escape that is relatively fast, narrow-complex and dependable. Block below the node leaves only a ventricular escape, which is slower, broad-complex and unreliable. The same degree of block therefore carries a very different risk depending on where it sits.
+Block **within the AV node** leaves a junctional escape that is relatively fast, narrow-complex and dependable.
+
+Block **below the node** leaves only a ventricular escape — slower, broad-complex and unreliable.
+
+The same degree of block therefore carries a __very different risk depending on where it sits__.
 ## explicit_objective
 Predict escape rhythm reliability from the anatomical level of block, and explain why QRS width and escape rate indicate that level.
 ## pitfalls
@@ -304,7 +314,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Atrial fibrillation causes stasis in the left atrium and systemic embolism
+AF: atrial stasis and embolism
 ## id
 CON-CVS-FB6288CD05630E
 ## canonical_key
@@ -316,7 +326,9 @@ Cardioembolic stroke in atrial fibrillation | Left atrial appendage thrombus
 ## arabic_aliases
 السكتة الصمّية القلبية
 ## definition
-Without coordinated atrial contraction, blood stagnates in the left atrium and particularly in its appendage. Thrombus forms and embolises, most consequentially to the cerebral circulation, which is why the stroke risk rather than the symptom burden dominates management.
+Without coordinated atrial contraction, blood stagnates in the left atrium and particularly its **appendage**.
+
+Thrombus forms and embolises, most consequentially to the __cerebral circulation__ — which is why the stroke risk, not the symptom burden, dominates management.
 ## explicit_objective
 Explain the embolic mechanism and state why anticoagulation decisions are driven by risk rather than by symptoms.
 ## pitfalls
@@ -380,7 +392,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Rate control and rhythm control are both legitimate strategies
+Rate control vs rhythm control
 ## id
 CON-CVS-40BDEB7B4BC58D
 ## canonical_key
@@ -392,7 +404,9 @@ Rate control | Rhythm control | Atrial fibrillation strategy
 ## arabic_aliases
 ضبط المعدل مقابل ضبط النظم
 ## definition
-Atrial fibrillation may be managed by accepting the rhythm and controlling the ventricular rate, or by attempting to restore and maintain sinus rhythm. The choice depends on symptoms, age, duration, atrial size and comorbidity — and neither strategy removes the need to assess embolic risk separately.
+Atrial fibrillation may be managed by accepting the rhythm and **controlling the ventricular rate**, or by **restoring and maintaining sinus rhythm**.
+
+The choice depends on symptoms, age, duration, atrial size and comorbidity — and __neither strategy removes the need to assess embolic risk separately__.
 ## explicit_objective
 Contrast the two strategies and state that anticoagulation is decided independently of which is chosen.
 ## pitfalls
@@ -456,7 +470,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Nodal and accessory-pathway re-entry differ by whether the circuit leaves the node
+AVNRT vs AVRT
 ## id
 CON-CVS-09065927D795BB
 ## canonical_key
@@ -468,7 +482,9 @@ AVNRT | AVRT | Paroxysmal supraventricular tachycardia
 ## arabic_aliases
 تسرع القلب العقدي مقابل المسلكي
 ## definition
-In atrioventricular nodal re-entrant tachycardia the circuit lies within and immediately around the node, using two functionally distinct nodal pathways. In atrioventricular re-entrant tachycardia the circuit is larger, travelling down the node and back through an accessory pathway connecting atrium to ventricle.
+In **AVNRT** the circuit lies within and immediately around the node, using two functionally distinct nodal pathways.
+
+In **AVRT** the circuit is larger, travelling down the node and back through an __accessory pathway connecting atrium to ventricle__.
 ## explicit_objective
 Distinguish the two circuits by their anatomy and explain why both terminate when the node is blocked.
 ## pitfalls
@@ -532,7 +548,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-An accessory pathway pre-excites the ventricle and shortens the PR interval
+Pre-excitation and the delta wave
 ## id
 CON-CVS-0DCE5A186966FB
 ## canonical_key
@@ -544,7 +560,9 @@ Wolff–Parkinson–White pattern | Delta wave | Pre-excitation
 ## arabic_aliases
 موجة دلتا
 ## definition
-An accessory pathway bypasses the atrioventricular node and conducts without its delay, so part of the ventricle depolarises early. The result is a short PR interval and a slurred initial upstroke of the QRS — the delta wave — because that early activation spreads slowly through working myocardium.
+An **accessory pathway** bypasses the AV node and conducts without its delay, so part of the ventricle depolarises early.
+
+The result is a __short PR interval__ and a slurred initial QRS upstroke — the **delta wave** — because that early activation spreads slowly through working myocardium.
 ## explicit_objective
 Explain the short PR interval and the delta wave from the absence of nodal delay and from slow myocardial spread.
 ## pitfalls
@@ -608,7 +626,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Blocking the atrioventricular node in pre-excited atrial fibrillation diverts conduction down the accessory pathway
+The danger of pre-excited AF
 ## id
 CON-CVS-64511BC86377AB
 ## canonical_key
@@ -620,7 +638,9 @@ Pre-excited atrial fibrillation | AF with WPW
 ## arabic_aliases
 الرجفان الأذيني مع المسلك الإضافي
 ## definition
-An accessory pathway lacks the node's rate-limiting properties. In atrial fibrillation with pre-excitation, blocking the node removes the only structure filtering the atrial rate, so more impulses reach the ventricle through the pathway and the rate can accelerate to ventricular fibrillation.
+An accessory pathway lacks the node's rate-limiting properties.
+
+In atrial fibrillation with pre-excitation, __blocking the node removes the only structure filtering the atrial rate__, so more impulses reach the ventricle through the pathway and the rate can accelerate to **ventricular fibrillation**.
 ## explicit_objective
 Explain why removing nodal filtering in pre-excited atrial fibrillation is dangerous rather than helpful.
 ## pitfalls
@@ -684,7 +704,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A broad-complex tachycardia is ventricular tachycardia until proven otherwise
+Broad-complex tachycardia is VT until proven otherwise
 ## id
 CON-CVS-AEC4F470747102
 ## canonical_key
@@ -696,7 +716,9 @@ Broad complex tachycardia | VT versus SVT with aberrancy
 ## arabic_aliases
 التسرع عريض المركب
 ## definition
-Ventricular tachycardia and supraventricular tachycardia with aberrant conduction both produce a regular broad-complex tachycardia, and they can be genuinely difficult to separate. Because ventricular tachycardia is far commoner in this presentation and far more dangerous, the safe default is to assume it.
+Ventricular tachycardia and SVT with aberrant conduction both produce a regular broad-complex tachycardia, and they can be genuinely hard to separate.
+
+Because **VT is far commoner** in this presentation and far more dangerous, the safe default is to __assume it__.
 ## explicit_objective
 State the default assumption for a regular broad-complex tachycardia and justify it by prevalence and consequence.
 ## pitfalls
@@ -760,7 +782,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Atrioventricular dissociation is the most reliable sign of ventricular origin
+AV dissociation points to ventricular origin
 ## id
 CON-CVS-5590534FE77E14
 ## canonical_key
@@ -772,7 +794,9 @@ Capture beats | Fusion beats | AV dissociation in VT
 ## arabic_aliases
 الانفصال الأذيني البطيني
 ## definition
-In ventricular tachycardia the atria continue under sinus control while the ventricles beat independently. Evidence of that independence — P waves marching through the tachycardia, occasional capture beats and fusion beats — establishes a ventricular origin, because a supraventricular rhythm cannot produce it.
+In ventricular tachycardia the atria continue under sinus control while the ventricles beat independently.
+
+Evidence of that independence — **P waves marching through**, occasional **capture** and **fusion beats** — establishes a __ventricular origin__, because a supraventricular rhythm cannot produce it.
 ## explicit_objective
 Identify the three findings that demonstrate atrioventricular dissociation and explain why each proves ventricular origin.
 ## pitfalls
@@ -836,7 +860,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Ventricular fibrillation produces no cardiac output
+Ventricular fibrillation produces no output
 ## id
 CON-CVS-4B1E9C05DA52C1
 ## canonical_key
@@ -848,7 +872,9 @@ Ventricular fibrillation | Shockable cardiac arrest rhythm
 ## arabic_aliases
 الرجفان البطيني
 ## definition
-In ventricular fibrillation the ventricular myocardium depolarises chaotically in many places at once, so no coordinated contraction occurs. There is no stroke volume and no pulse: ventricular fibrillation is cardiac arrest, not a rhythm to be managed on a monitor.
+In ventricular fibrillation the ventricular myocardium depolarises **chaotically in many places at once**, so no coordinated contraction occurs.
+
+There is no stroke volume and no pulse: __ventricular fibrillation is cardiac arrest__, not a rhythm to be managed on a monitor.
 ## explicit_objective
 State that ventricular fibrillation is a cardiac arrest rhythm and explain the absence of output from the loss of coordinated depolarisation.
 ## pitfalls
@@ -912,7 +938,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Prolonged repolarisation is the substrate for torsades de pointes
+Prolonged QT as arrhythmic substrate
 ## id
 CON-CVS-FA465B905A5C5B
 ## canonical_key
@@ -924,7 +950,9 @@ Long QT | QT prolongation | Torsades substrate
 ## arabic_aliases
 متلازمة QT الطويل
 ## definition
-Lengthening ventricular repolarisation widens the window during which an early afterdepolarisation can arise and reach threshold. A triggered beat falling on incompletely repolarised, heterogeneous myocardium can then initiate polymorphic ventricular tachycardia.
+Lengthening ventricular repolarisation widens the window in which an **early afterdepolarisation** can arise and reach threshold.
+
+A triggered beat falling on incompletely repolarised, heterogeneous myocardium can then __initiate polymorphic ventricular tachycardia__.
 ## explicit_objective
 Link QT prolongation to early afterdepolarisations and to the initiation of polymorphic ventricular tachycardia.
 ## pitfalls
@@ -988,7 +1016,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Torsades de pointes is polymorphic and characteristically pause-dependent
+Torsades: polymorphic and pause-dependent
 ## id
 CON-CVS-ADB1946F14D245
 ## canonical_key
@@ -1000,7 +1028,9 @@ Torsades de pointes | Polymorphic ventricular tachycardia
 ## arabic_aliases
 تسرع القلب المغزلي
 ## definition
-Torsades de pointes is polymorphic ventricular tachycardia occurring on a background of prolonged repolarisation, with QRS complexes that appear to twist around the baseline. Episodes characteristically follow a pause, because the beat after a pause has the longest action potential and the widest vulnerable window.
+Torsades de pointes is **polymorphic ventricular tachycardia** on a background of prolonged repolarisation, with QRS complexes that appear to __twist around the baseline__.
+
+Episodes characteristically follow a **pause**, because the beat after a pause has the longest action potential and the widest vulnerable window.
 ## explicit_objective
 Recognise the pause-dependent onset and explain it from the rate dependence of action potential duration.
 ## pitfalls
@@ -1064,7 +1094,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Acquired QT prolongation is commoner than the congenital syndromes
+Acquired QT prolongation is commoner
 ## id
 CON-CVS-7B6CFF794FC76C
 ## canonical_key
@@ -1076,7 +1106,9 @@ Drug-induced QT prolongation | Acquired long QT
 ## arabic_aliases
 إطالة QT الدوائية
 ## definition
-Most prolonged QT intervals encountered clinically are acquired — caused by drugs that block repolarising potassium current, by hypokalaemia, hypomagnesaemia or hypocalcaemia, by bradycardia, or by acute myocardial disease. These causes are additive, and several often coexist in one patient.
+Most prolonged QT intervals seen clinically are **acquired** — from drugs that block repolarising potassium current, from __hypokalaemia, hypomagnesaemia or hypocalcaemia__, from bradycardia, or from acute myocardial disease.
+
+These causes are additive, and several often coexist in one patient.
 ## explicit_objective
 Name the classes of acquired cause and explain why they compound one another.
 ## pitfalls
@@ -1140,7 +1172,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Blocking the node is diagnostic as well as therapeutic in narrow-complex tachycardia
+Nodal block is diagnostic and therapeutic
 ## id
 CON-CVS-3CC8D219891A88
 ## canonical_key
@@ -1152,7 +1184,9 @@ Vagal manoeuvres | Diagnostic AV nodal block
 ## arabic_aliases
 المناورات المبهمية
 ## definition
-Transiently blocking the atrioventricular node terminates a tachycardia whose circuit passes through the node, and merely slows the ventricular response of one that does not — unmasking the underlying atrial activity. Either outcome is informative, so the manoeuvre answers a question whether or not it works.
+Transiently blocking the AV node **terminates** a tachycardia whose circuit passes through the node, and merely **slows** the ventricular response of one that does not — __unmasking the underlying atrial activity__.
+
+Either outcome is informative, so the manoeuvre answers a question whether or not it works.
 ## explicit_objective
 Explain why transient nodal block is diagnostic regardless of whether the tachycardia terminates.
 ## pitfalls
