@@ -6821,3 +6821,2534 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 5-8 rendered at 170dpi and read by eye. Second authored cluster for module 205 NEU (2024-eom-cns-gross-anatomy, Q29-52 of the same EOM 197 paper). Department books (Anatomy/Physiology, image-only) not OCR'd; definition/objective reflect standard neuroanatomy consistent with the paper's confirmed key. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state and pending import-ready; new concept.
+
+
+---
+
+# Item
+## id
+CON-NEU-EE843B5CFCB6A6
+## label
+Presynaptic inhibition works by hyperpolarising the presynaptic terminal, cutting Ca2+ entry and transmitter release
+## canonical_key
+synapse.presynaptic-inhibition.gaba-hyperpolarization-primary-afferent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Presynaptic inhibition is mediated by an axo-axonic synapse in which an inhibitory (usually GABAergic) interneuron acts on the presynaptic terminal of an excitatory neuron. By hyperpolarising and reducing the depolarisation of that terminal (via increased K+ and Cl- conductance), it lowers voltage-gated Ca2+ channel opening when the action potential arrives, so less transmitter is released. This selectively damps one input without changing the postsynaptic cell's overall excitability. It differs from postsynaptic inhibition (the IPSP), which acts on the receiving membrane itself.
+## explicit_objective
+Explain presynaptic inhibition as reduced transmitter release from a hyperpolarised presynaptic terminal at an axo-axonic (GABAergic) synapse.
+## pitfalls
+Confusing presynaptic inhibition (acts on the transmitting terminal, reducing Ca2+ entry) with postsynaptic inhibition/IPSP (acts on the receiving membrane).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Presynaptic Inhibition
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Presynaptic inhibition is characterized by: ... b- Hyperpolarization of presynaptic terminals" ANSWER: b (205 NEU EOM 2024, Q53)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-ED81318B16C20C
+## label
+Chemical synaptic transmission is metabolically demanding and is depressed by hypoglycaemia, hypoxia and acidosis
+## canonical_key
+synapse.transmission.sensitive-to-hypoxia-hypercapnia-acidosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chemical synapses have several special properties: one-way (Dale) conduction, synaptic delay, fatigue on repetitive stimulation, and marked sensitivity to the internal chemical environment. Because transmitter synthesis, vesicle recycling and ion pumping are energy-dependent, synaptic transmission is readily depressed by hypoxia, hypoglycaemia and acidosis, and modulated by drugs. Alkalosis raises neuronal excitability while acidosis and hypoxia depress it, which is why these metabolic disturbances rapidly alter consciousness. This metabolic vulnerability is greatest at the synapse rather than along the axon.
+## explicit_objective
+List the special properties of chemical synapses and identify hypoglycaemia, hypoxia and acidosis as factors that depress synaptic transmission.
+## pitfalls
+Assuming presynaptic terminals release only excitatory transmitters, or that Ca2+ channels sit on the postsynaptic membrane — the voltage-gated Ca2+ channels are presynaptic.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Special Properties of Synapses
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning synaptic transmission: ... d- It is inhibited by hypoglycemia and acidosis" ANSWER: d (205 NEU EOM 2024, Q54)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-16EB6178F5D48C
+## label
+Neurotransmitter release requires Ca2+ influx into the presynaptic terminal through voltage-gated channels
+## canonical_key
+synapse.transmitter-release.presynaptic-calcium-influx
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When an action potential reaches the presynaptic terminal it depolarises the membrane and opens voltage-gated Ca2+ channels, allowing Ca2+ to flow into the terminal. The rise in intracellular Ca2+ triggers vesicle fusion with the presynaptic membrane and exocytosis of transmitter into the synaptic cleft. Release is therefore Ca2+-dependent, graded with Ca2+ entry, and abolished if extracellular Ca2+ is removed or the channels are blocked. Neither acetylcholinesterase synthesis nor terminal hyperpolarisation drives release — those would oppose it.
+## explicit_objective
+Identify presynaptic Ca2+ influx through voltage-gated channels as the trigger for neurotransmitter release at a central chemical synapse.
+## pitfalls
+Thinking release depends on ligand-gated Ca2+ channels or on acetylcholinesterase — release depends on VOLTAGE-gated Ca2+ channels in the presynaptic terminal.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Transmitter Release
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The release of neurotransmitter at a chemical synapse in the CNS is dependent on: ... d- Influx of calcium into the presynaptic terminal" ANSWER: d (205 NEU EOM 2024, Q55)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-79F78F65CC5CA9
+## label
+An IPSP hyperpolarises the postsynaptic membrane, moving it away from the firing threshold
+## canonical_key
+synapse.ipsp.moves-membrane-away-from-firing-threshold
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An inhibitory postsynaptic potential (IPSP) is a graded hyperpolarisation of the postsynaptic membrane produced by inhibitory transmitters (e.g. GABA, glycine) that open Cl- channels (increasing Cl- conductance/influx) or K+ channels (increasing K+ efflux). Summating with excitatory inputs, it moves the membrane potential further from — or opposes movement toward — the firing threshold, reducing the probability of an action potential. IPSPs interact algebraically with EPSPs on the postsynaptic neuron, so the cell fires only if net depolarisation reaches threshold. Increased (not decreased) Cl- conductance and decreased Na+ conductance underlie the hyperpolarisation.
+## explicit_objective
+Define the IPSP as a hyperpolarising postsynaptic potential that summates with other inputs and moves the membrane away from threshold.
+## pitfalls
+Stating the IPSP is produced by DECREASED Cl- conductance or by increased Na+ conductance — it is produced by INCREASED Cl- (or K+) conductance; increased Na+ conductance is depolarising (an EPSP).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Postsynaptic Potentials
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Inhibitory postsynaptic potential (IPSPs): a- Interacts with other potentials to move the membrane potential of postsynaptic neuron away or toward firing level" ANSWER: a (205 NEU EOM 2024, Q56)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-667B888DA911EB
+## label
+Post-tetanic potentiation is caused by residual Ca2+ accumulating in the presynaptic terminal after a tetanus
+## canonical_key
+synapse.post-tetanic-potentiation.presynaptic-calcium-accumulation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Post-tetanic potentiation is a short-term increase in synaptic strength: after a rapid train (tetanus) of presynaptic stimuli, subsequent single stimuli produce larger postsynaptic responses for seconds to minutes. The mechanism is accumulation of residual Ca2+ in the presynaptic terminal, because Ca2+ enters faster during the tetanus than it can be pumped out, so more transmitter is released per impulse afterward. It is a presynaptic phenomenon and a simple form of synaptic plasticity/short-term memory. It is distinct from long-term potentiation, which involves postsynaptic NMDA/AMPA receptor changes.
+## explicit_objective
+Attribute post-tetanic potentiation to residual Ca2+ accumulation in the presynaptic terminal after high-frequency stimulation.
+## pitfalls
+Ascribing post-tetanic potentiation to NMDA/AMPA activation (that is LTP) or to a third inhibitory/excitatory neuron — PTP is presynaptic Ca2+ accumulation.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Synaptic Plasticity
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Post-tetanic potentiation in synapses: ... d- Is due to accumulation of calcium in the presynaptic terminal" ANSWER: d (205 NEU EOM 2024, Q57)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-B75379027065F0
+## label
+Convergence in a neuronal pool lets one neuron integrate many inputs and select important signals
+## canonical_key
+neuronalpool.convergence.signal-selection-integration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Convergence is the arrangement in which many presynaptic fibres, from one source or several sources, terminate on a single postsynaptic neuron. It allows spatial summation of inputs so that a neuron integrates information from multiple sources and can select important signals while ignoring unimportant ones. This is the opposite of divergence, where one neuron distributes signals to many. Convergence from multiple sources is the basis of the integrative, decision-making function of neuronal pools.
+## explicit_objective
+Define convergence as many inputs onto one neuron, enabling integration and selection of important signals.
+## pitfalls
+Swapping convergence with divergence — 'one neuron stimulating many' and 'distribution of signals' describe divergence, not convergence.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Neuronal pools
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Neuronal Pools > Convergence
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Convergence in a neuronal pool: ... c- Helps in the selection of important signals and ignoring unimportant ones" ANSWER: c (205 NEU EOM 2024, Q58)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-BD7982591CF0AE
+## label
+Facilitation arises when two spaced inputs' subliminal fringes overlap, summating to discharge fringe neurons
+## canonical_key
+neuronalpool.facilitation.subliminal-fringe-overlap
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a neuronal pool each input fibre has a central discharge (liminal) zone of neurons it excites to threshold, surrounded by a facilitated (subliminal fringe) zone brought only partway to threshold. When two input fibres are stimulated far enough apart that their discharge zones do not overlap but their subliminal fringes do, the subthreshold EPSPs summate and additional fringe neurons now reach threshold — so the combined response exceeds the sum of the separate responses. This spatial-summation gain is facilitation. When inputs are close together their discharge zones overlap and the combined response is LESS than the sum (occlusion).
+## explicit_objective
+Explain facilitation as overlap of the subliminal fringes of two spaced inputs, contrasting it with occlusion when inputs are close.
+## pitfalls
+Reversing facilitation and occlusion: facilitation needs the two inputs SPACED APART (fringes overlap); inputs close together give occlusion, with fewer impulses than the sum.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Neuronal pools
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Neuronal Pools > Facilitation and Occlusion
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Facilitation: a- Is due to stimulation of 2 input neurons away from each other" ANSWER: a (205 NEU EOM 2024, Q59)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-331FB77B7D330B
+## label
+The receptor (generator) potential is a graded, non-propagated potential that outlasts the action potential
+## canonical_key
+receptorpotential.property.duration-outlasts-action-potential
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A receptor (generator) potential is the local, graded depolarisation a sensory receptor produces when a stimulus is transduced. It is non-propagated, has an amplitude graded with stimulus strength, and its duration is longer than that of the action potential it may trigger — it does not have the fixed all-or-none time course or the long absolute refractory period of an action potential. If it reaches threshold at the first node/spike-initiating zone it generates one or more action potentials, but by itself it does not always fire a spike. Its longer duration is what allows repetitive firing during a maintained stimulus.
+## explicit_objective
+State that the receptor potential is graded and non-propagated and that its duration outlasts the action potential.
+## pitfalls
+Believing the receptor potential is all-or-none, always fires a spike, or has a long absolute refractory period — those are action-potential properties.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory Receptors > Receptor Potential
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The receptor potential: ... d- Its duration is longer than action potential duration" ANSWER: d (205 NEU EOM 2024, Q60)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-56947438931051
+## label
+Sensory transduction converts stimulus energy into a local, graded depolarisation of the receptor
+## canonical_key
+sensoryreceptor.transduction.stimulus-energy-to-local-depolarization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A sensory receptor transduces its adequate stimulus (mechanical, thermal, chemical, photic) into a local graded depolarisation — the receptor potential — by opening ion channels in the receptor membrane. This potential is graded and non-propagating (it spreads electrotonically, not self-propagating like an action potential), and each receptor is specialised (has a low threshold) for one modality of energy, its adequate stimulus, though very strong energy of another form can also excite it. The frequency of action potentials generated rises with stimulus strength but not in a simple linear doubling relationship — it follows a power/logarithmic function. Thus stimulus energy is first converted into a local depolarisation before impulses are generated.
+## explicit_objective
+Describe sensory transduction as conversion of stimulus energy into a local graded depolarisation, with receptors tuned to an adequate stimulus.
+## pitfalls
+Calling the receptor potential 'self-propagating' or assuming impulse frequency doubles when stimulus strength doubles (the relationship is a power function, not linear).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory Receptors > Transduction
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding sensory receptors: a- Stimulus energy is converted into a local depolarization" ANSWER: a (205 NEU EOM 2024, Q61)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-87F6A5BB7FC8BB
+## label
+Increased stimulus intensity is signalled by larger receptor potentials (and higher firing frequency), not faster conduction
+## canonical_key
+sensoryreceptor.intensity-coding.receptor-potential-amplitude
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Receptors code increasing stimulus intensity by producing receptor potentials of greater magnitude, which in turn raise the frequency of action potentials in the sensory fibre (frequency/temporal coding), and by recruiting more receptors (population coding). A stronger stimulus does not change the conduction VELOCITY of impulses along a given fibre — velocity is fixed by fibre diameter and myelination — nor does it lower the receptor threshold. Central 'enhancement' is not how the receptor itself signals intensity. Thus the primary receptor-level mechanism is a larger-amplitude receptor potential.
+## explicit_objective
+Identify larger-magnitude receptor potentials (and higher firing frequency) as how receptors signal increased stimulus intensity.
+## pitfalls
+Thinking intensity is coded by faster conduction velocity or by lowering threshold — velocity depends on fibre type, and intensity is coded by receptor-potential amplitude / impulse frequency / recruitment.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory Receptors > Stimulus Intensity Coding
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Receptors detect increased stimulus intensity by: b- By generating receptor potentials having higher magnitudes" ANSWER: b (205 NEU EOM 2024, Q62)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-A3ED4C8D9B3256
+## label
+Stimulus localisation depends on the labelled-line connections from a specific receptor to a specific cortical point
+## canonical_key
+sensorysystem.localization.receptor-to-cortex-connections
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ability to localise the site of a stimulus depends on the specific point-to-point ('labelled line') anatomical connection between a given receptor and a discrete point in the sensory cortex, preserved through the somatotopic organisation of the pathway. Because each body region projects to its own cortical locus, activity arriving at that locus is referred back to the corresponding body part. Localisation is a property of the wiring, not of the receptor type, its adaptation rate, or the nature of the stimulus. Two-point discrimination is finest where this projection is densest (e.g. fingertips, lips).
+## explicit_objective
+Attribute stimulus localisation to labelled-line connections between the receptor and a specific point in the sensory cortex.
+## pitfalls
+Attributing localisation to receptor type, adaptation rate, or stimulus nature rather than to the point-to-point receptor-to-cortex connection.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory Receptors > Sensory Localisation
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The ability to localize the site of stimuli depends upon: c- Connections between the receptor and the sensory cortex" ANSWER: c (205 NEU EOM 2024, Q63)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-BBC2B8DDCAFDC2
+## label
+Thermal receptors are moderately (partially) adapting free nerve endings
+## canonical_key
+thermalreceptor.adaptation.moderately-adapting
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thermal receptors (cold and warm receptors) are free (non-encapsulated) nerve endings that are moderately/partially adapting: they fire strongly when temperature changes and then settle to a lower steady discharge that still signals the maintained temperature. They are not rapidly adapting like Pacinian corpuscles, nor non-adapting like nociceptors, and they are not all encapsulated. Cold receptors respond over a lower temperature range and warm receptors over a higher range, with paradoxical cold firing at very high temperatures. Their partial adaptation lets them report both temperature change and the ongoing thermal level.
+## explicit_objective
+Classify thermoreceptors as moderately (partially) adapting free nerve endings.
+## pitfalls
+Labelling thermoreceptors as rapidly adapting or as encapsulated — they are moderately adapting free nerve endings.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory Receptors > Thermoreceptors
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Thermal receptors are: b- Moderately adapting receptors" ANSWER: b (205 NEU EOM 2024, Q64)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-BD2280F76D86B4
+## label
+Pain receptors are non-adapting free nerve endings sensitised by locally released K+ (and other mediators)
+## canonical_key
+nociceptor.sensitization.local-potassium-rise
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pain receptors (nociceptors) are free, bare nerve endings — structurally unlike the encapsulated Pacinian corpuscle — that adapt very little or not at all, so pain persists while the noxious stimulus continues (protective). Tissue damage releases chemical mediators — K+, H+, bradykinin, prostaglandins, serotonin, histamine — and a rise in local tissue K+ concentration is a key sensitiser and activator of these endings. They are stimulated by mechanical, thermal and chemical noxious stimuli; visceral nociceptors respond to ischaemia, spasm and over-distension rather than to sharp cutting of the gut wall. Their lack of adaptation distinguishes them from most other cutaneous receptors.
+## explicit_objective
+Describe nociceptors as non-adapting free nerve endings sensitised by raised local tissue K+ and other inflammatory mediators.
+## pitfalls
+Thinking nociceptors resemble Pacinian corpuscles, adapt quickly, or are excited by cutting the gut wall — they are non-adapting free endings; visceral pain comes from ischaemia/distension, not cutting.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Pain physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Pain > Nociceptors
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pain receptors are: b- Sensitized by a rise in the local tissue K+ concentration" ANSWER: b (205 NEU EOM 2024, Q65)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-18D3F809D4F9BA
+## label
+Visceral pain is poorly localised and can cause reflex skeletal-muscle spasm and reflex vomiting
+## canonical_key
+visceralpain.characteristics.poor-localization-reflex-effects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Visceral pain is poorly localised compared with somatic (skin) pain because visceral afferents are sparse and their signals converge with somatic inputs in the cord (basis of referred pain). It is typically diffuse, aching or cramping, and provoked by ischaemia, chemical irritation, spasm of smooth muscle and over-distension rather than by cutting or burning. Through viscero-somatic and autonomic reflexes it can cause reflex contraction (guarding/rigidity) of the overlying skeletal muscle and reflex autonomic effects such as vomiting, sweating and bradycardia. All these features (poor localisation, reflex muscle spasm, reflex vomiting) are therefore correct together.
+## explicit_objective
+List the features of visceral pain: poor localisation, reflex overlying-muscle spasm, and reflex autonomic effects such as vomiting.
+## pitfalls
+Assuming visceral pain is sharply localised like skin pain, or that only one of its reflex effects (guarding vs vomiting) occurs — poor localisation and both reflex effects are all true.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Pain physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Pain > Visceral Pain
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Visceral pain: ... d- All of the above (poorly localized; reflex skeletal muscle contraction; reflex vomiting)" ANSWER: d (205 NEU EOM 2024, Q66)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-2D43734943522D
+## label
+Tactile (Aβ fibre) stimulation of the skin inhibits pain transmission — the gate-control mechanism
+## canonical_key
+pain.gate-control.abeta-tactile-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+According to the gate-control theory, activity in large myelinated tactile afferents (type A-beta fibres) from a skin surface inhibits transmission of pain signals in the dorsal horn. The A-beta input excites inhibitory interneurons (and dorsal-column/collateral circuits) that 'close the gate' on the pain-carrying A-delta and C fibre pathway, reducing onward transmission to the brain. This is why rubbing, massage or transcutaneous electrical stimulation (TENS) around a painful area relieves pain. The pain-carrying fibres themselves are A-delta (fast, sharp) and C (slow, burning), whereas the inhibiting fibres are the large A-beta tactile fibres.
+## explicit_objective
+Identify A-beta tactile fibres as the input that inhibits pain transmission in the gate-control mechanism.
+## pitfalls
+Confusing the pain-carrying fibres (A-delta and C) with the pain-INHIBITING tactile fibres (A-beta) — tactile A-beta activity closes the gate.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Pain physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Pain > Gate Control
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Inhibition of pain signals by tactile stimulation of a skin surface involves: b- Type A beta fibers in peripheral nerves" ANSWER: b (205 NEU EOM 2024, Q67)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-2286AF317AAB9C
+## label
+Anterolateral cordotomy relieves pain by cutting the lateral spinothalamic tract
+## canonical_key
+spinothalamictract.lateral.pain-temperature-cordotomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The lateral spinothalamic tract carries pain and temperature from the contralateral half of the body, its fibres having crossed within one or two segments of entering the cord. Anterolateral cordotomy — a surgical incision in the anterolateral quadrant of the cord — divides this tract and abolishes pain and temperature sensation on the opposite side below the lesion, which is why it is done for intractable pain. The dorsal column (fine touch, proprioception) and the ventral spinocerebellar tract are not the pain pathway. The ventral (anterior) spinothalamic tract carries crude touch, not the sharp pain relieved by cordotomy.
+## explicit_objective
+Attribute pain relief after anterolateral cordotomy to interruption of the lateral spinothalamic tract.
+## pitfalls
+Choosing the dorsal column or a spinocerebellar tract for pain — pain/temperature travel in the LATERAL spinothalamic tract cut by anterolateral cordotomy.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory pathways
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Ascending Pathways > Spinothalamic Tract
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"After anterolateral cordotomy, relief of pain is due to interruption of: d- Lateral spinothalamic tract" ANSWER: d (205 NEU EOM 2024, Q68)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-2CE2134043F292
+## label
+In the supraspinal analgesia system, serotonergic neurons are in the nucleus raphe magnus
+## canonical_key
+analgesiasystem.nucleus-raphe-magnus.serotonin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The endogenous analgesia system has three tiers: the periaqueductal grey (and periventricular area) of the midbrain, the nucleus raphe magnus in the lower pons/upper medulla, and the pain-inhibitory complex of the dorsal horn. The periaqueductal grey excites the nucleus raphe magnus, whose neurons release serotonin (5-HT); their axons descend to the dorsal horn where serotonin causes local interneurons to release enkephalin, producing pre- and post-synaptic inhibition of incoming C and A-delta pain fibres. Thus the serotonin-secreting neurons of this system are located in the nucleus raphe magnus, not in the periaqueductal grey (which is more glutamatergic/enkephalinergic) or the cord interneurons (enkephalin).
+## explicit_objective
+Locate the serotonin-releasing neurons of the descending analgesia system in the nucleus raphe magnus.
+## pitfalls
+Placing the serotonergic analgesia neurons in the periaqueductal grey or cord interneurons — the 5-HT neurons are in the nucleus raphe magnus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Pain physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Pain > Descending Analgesia System
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The neurons that release serotonin as chemical transmitter in the supraspinal analgesia system are located in: d- Nucleus raphe magnus" ANSWER: d (205 NEU EOM 2024, Q69)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-8D062520A74385
+## label
+The dorsal column pathway carries fine (discriminative) touch, vibration and proprioception
+## canonical_key
+dorsalcolumn.function.fine-touch-discrimination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The dorsal column–medial lemniscus system carries fine (two-point discriminative) touch, vibration sense, conscious proprioception and stereognosis, ascending ipsilaterally in the cord to the gracile and cuneate nuclei before decussating. A lesion of this pathway therefore impairs fine touch, vibration and joint-position sense (with a positive Romberg and sensory ataxia), while crude touch, pain and temperature (spinothalamic) are relatively spared. Hearing is unrelated to the dorsal columns, and pain/temperature travel in the spinothalamic tract. Hence a dorsal-column lesion most affects fine touch.
+## explicit_objective
+State that the dorsal column pathway subserves fine touch, vibration and proprioception, sparing pain and temperature.
+## pitfalls
+Assigning pain, temperature or hearing to the dorsal columns — those are spinothalamic (pain/temp) or auditory; dorsal columns carry fine touch/vibration/proprioception.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory pathways
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Ascending Pathways > Dorsal Column
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A lesion of the dorsal column pathway is most likely to affect: a- Fine touch" ANSWER: a (205 NEU EOM 2024, Q70)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-76CF12E0C5F555
+## label
+Spinal hemisection (Brown-Séquard) causes total sensory loss on the same side at the level of the section
+## canonical_key
+spinalcord.hemisection.brown-sequard-ipsilateral-segmental-loss
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hemisection of the spinal cord (Brown-Séquard syndrome) produces a characteristic dissociated picture: below the lesion, ipsilateral loss of fine touch/vibration/proprioception (dorsal column) and ipsilateral spastic paralysis (corticospinal), with contralateral loss of pain and temperature (spinothalamic, which crosses). At the actual level of the section, destruction of the dorsal root and all entering fibres of that segment causes loss of ALL sensations on the same side in that segmental band. So the 'same side, at the level of the section, all sensations lost' statement is the correct one; the contralateral pain/temperature loss is below (not at) the level, and fine-touch loss is ipsilateral, not on the opposite side.
+## explicit_objective
+Recognise that at the level of a cord hemisection there is ipsilateral loss of all sensations, with dissociated deficits below the lesion.
+## pitfalls
+Mixing up the levels: contralateral pain/temperature loss is BELOW the lesion; at the level itself all sensations are lost on the SAME side; fine-touch loss below is ipsilateral, not contralateral.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory pathways
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Spinal Cord > Brown-Séquard Syndrome
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A subject with right hemisection of the spinal cord shows: d- Loss of all sensations on the same side at the level of the section" ANSWER: d (205 NEU EOM 2024, Q71)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-C2ACFF2091BC10
+## label
+Tabes dorsalis is degeneration of the posterior roots/dorsal columns (neurosyphilis), causing sensory ataxia
+## canonical_key
+tabesdorsalis.pathology.posterior-root-ganglia-degeneration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tabes dorsalis is a late manifestation of neurosyphilis in which the dorsal (posterior) nerve roots and their ganglia and the dorsal columns degenerate. Loss of proprioception and vibration produces sensory ataxia with a high-stepping stamping gait, a positive Romberg sign, lightning pains and loss of deep pain, while crude touch and (spinothalamic) sensation are relatively preserved. Note that although the exam option states 'virus infection', the actual cause is the spirochaete Treponema pallidum (syphilis), not a virus — among the listed options only 'infection localised to the posterior root ganglia' correctly captures the site of the lesion. The distractors (shuffling gait, incoordination of voluntary movement, loss of crude touch) describe Parkinsonism, cerebellar disease and spinothalamic loss respectively, none of which fit tabes.
+## explicit_objective
+Localise tabes dorsalis to degeneration of the posterior roots/ganglia and dorsal columns, producing sensory ataxia (a neurosyphilitic, not viral, process).
+## pitfalls
+Taking the option's word 'virus' at face value (tabes is spirochaetal neurosyphilis), or choosing shuffling gait / voluntary incoordination / crude-touch loss — those are Parkinsonian, cerebellar and spinothalamic signs.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory pathways
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Spinal Cord > Tabes Dorsalis
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tabes dorsalis is: a- Due to virus infection of the posterior root ganglia" ANSWER: a (205 NEU EOM 2024, Q72). NOTE: exam key wording says "virus"; causative organism is actually Treponema pallidum (neurosyphilis) — option a is keyed for its localisation to the posterior root ganglia.
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-E055EC3960B49D
+## label
+Muscle spindles are made of intrafusal fibres whose contractile polar ends are supplied by gamma efferents
+## canonical_key
+musclespindle.innervation.gamma-efferents-polar-regions
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The muscle spindle is a stretch receptor composed of small intrafusal fibres (nuclear bag and nuclear chain), lying in parallel with the large force-generating extrafusal fibres. The central (equatorial) region of each intrafusal fibre is the sensory (receptor) portion, while the contractile polar ends are supplied by gamma (fusimotor) efferents; gamma activation shortens the poles and keeps the central sensory region taut, resetting spindle sensitivity as the whole muscle shortens. Afferent discharge from the spindle INCREASES (not decreases) with muscle stretch. Nuclear-bag fibres (via primary endings) give the dynamic response; nuclear-chain fibres give a more static response.
+## explicit_objective
+State that the spindle's intrafusal polar regions are supplied by gamma efferents, keeping the sensory region responsive.
+## pitfalls
+Thinking spindles contain extrafusal fibres, that afferent discharge falls with stretch, or that nuclear-chain fibres give the dynamic response (that is the nuclear-bag/primary ending).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Control > Muscle Spindle
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding muscle spindles: b- Gamma efferents supply their peripheral parts" ANSWER: b (205 NEU EOM 2024, Q73)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-F4E93166CC10C7
+## label
+The central receptor region of nuclear-bag fibres is innervated by primary (annulospiral) Ia afferents
+## canonical_key
+musclespindle.nuclear-bag.primary-annulospiral-ia-afferent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each intrafusal fibre's central (equatorial) region carries sensory endings. The primary (annulospiral) ending wraps the central portion of both nuclear-bag and nuclear-chain fibres and is served by large, fast type Ia afferent fibres; it signals both the rate of change of length (dynamic) and static length. The secondary (flower-spray) ending lies mainly on nuclear-chain fibres and is served by type II afferents, signalling static length. Gamma (A-gamma), A-beta and A-alpha fibres are not the central sensory afferent of the bag fibre — the central receptor area is innervated by Ia (group Ia) fibres.
+## explicit_objective
+Identify the primary (annulospiral) ending of the nuclear-bag fibre's central region as innervated by type Ia afferents.
+## pitfalls
+Choosing gamma, A-beta or alpha fibres for the central spindle ending — the primary annulospiral ending is a group Ia afferent.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Control > Spindle Afferents
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The central receptor area of nuclear-bag fibers is innervated by: d- Ia nerve fibers" ANSWER: d (205 NEU EOM 2024, Q74)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.
+
+---
+
+# Item
+## id
+CON-NEU-CD1486A57D6229
+## label
+Sudden stretch of a muscle drives spindle Ia afferents that reflexly contract the same (homonymous) muscle
+## canonical_key
+stretchreflex.response.homonymous-muscle-contraction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The stretch (myotatic) reflex is monosynaptic: sudden stretch of a muscle excites its spindle primary endings, which fire Ia afferents that synapse directly on alpha motor neurons of the SAME (homonymous) muscle, causing it to contract and oppose the stretch (e.g. the knee-jerk). The reflex resists lengthening and helps maintain muscle tone and posture, and its Ia fibres also inhibit antagonists (reciprocal inhibition). The correct response to Ia spindle afferent activity is therefore contraction of the muscle containing the active spindles — not its relaxation, not relaxation of intrafusal fibres, and not direct activation of gamma motor neurons (Ia acts on alpha motor neurons).
+## explicit_objective
+Describe the stretch reflex: spindle Ia afferents from a suddenly stretched muscle reflexly contract that same muscle via alpha motor neurons.
+## pitfalls
+Choosing relaxation of the stretched muscle, relaxation of intrafusal fibres, or direct gamma activation — Ia afferents excite ALPHA motor neurons to contract the homonymous muscle.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor Control > Stretch Reflex
+## article_ids
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e3182cba35c85f7acea8
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"When a muscle is suddenly stretched, a signal is transmitted over Ia sensory fibers... a- Contraction of the muscle in which the active spindles are located" ANSWER: a (205 NEU EOM 2024, Q75)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed green highlight on 205 NEU EOM 2024 exam paper (src_e3182cba35c85f7acea8), pages 8-10 rendered at 170dpi and read by eye. sourceCandidateIds: dotted canonical key minted via Instruction Manual/tools/mint-concept-id.mjs NEU, collision-checked against live state (15,618 IDs) and pending import-ready; new concept. First physiology cluster for 205 NEU (2024-eom-physiology, Q53-75 of the EOM 197 paper). Keys render-confirmed green highlight, pages 8-10 at 170dpi.

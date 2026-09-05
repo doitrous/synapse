@@ -451,3 +451,152 @@ university_notes: Third article for module 205 NEU, covering the 23 concepts of 
 
 ## reading_time
 7
+
+
+---
+
+# Item
+## id
+ART-NEU-205NEU-CNS-PHYSIOLOGY
+
+## title
+CNS physiology: synaptic transmission, neuronal pools, sensory receptors, pain pathways and muscle spindles
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## topic
+Physiology
+
+## summary
+Synaptic transmission is the highest-yield theme of this cluster. Transmitter release is triggered by Ca2+ entering the presynaptic terminal through voltage-gated channels, and the whole process is energy-dependent, so it is depressed by hypoxia, hypoglycaemia and acidosis. Inhibition comes in two forms that students constantly confuse: presynaptic inhibition hyperpolarises the transmitting terminal (via an axo-axonic GABAergic synapse) to cut Ca2+ entry and release, whereas the IPSP is a postsynaptic hyperpolarisation (increased Cl-/K+ conductance) that moves the receiving membrane away from threshold. Short-term plasticity appears as post-tetanic potentiation, caused by residual Ca2+ accumulating presynaptically after a tetanus. In neuronal pools, convergence lets one neuron integrate and select important inputs, while facilitation reflects overlap of the subliminal fringes of two spaced inputs (inputs close together instead give occlusion). Sensory receptors transduce stimulus energy into a graded, non-propagated receptor potential whose amplitude — not conduction velocity — codes intensity and whose duration outlasts the action potential; localisation depends on labelled-line receptor-to-cortex connections. Receptor behaviour splits by adaptation: thermoreceptors are moderately adapting free endings, whereas nociceptors are non-adapting free endings sensitised by a rise in local tissue K+. Pain pathways carry the cluster's clinical payoff: the lateral spinothalamic tract (cut in anterolateral cordotomy) carries pain and temperature; the dorsal columns carry fine touch, vibration and proprioception; a cord hemisection (Brown-Séquard) gives ipsilateral total loss at the level with dissociated deficits below; tabes dorsalis degenerates the posterior roots/columns; the gate-control mechanism uses A-beta tactile fibres to inhibit pain; and the descending analgesia system's serotonergic neurons sit in the nucleus raphe magnus. Finally the muscle spindle: intrafusal fibres with gamma-supplied contractile poles, a central sensory region served by primary annulospiral Ia afferents, driving the monosynaptic stretch reflex that contracts the homonymous muscle.
+
+## sections
+
+### Definition
+A chemical synapse transmits one way: an action potential depolarises the presynaptic terminal, opens voltage-gated Ca2+ channels, and the resulting Ca2+ influx triggers exocytosis of transmitter that acts on postsynaptic receptors. The postsynaptic response is graded — an excitatory postsynaptic potential (EPSP) depolarises toward threshold (increased Na+ conductance), while an inhibitory postsynaptic potential (IPSP) hyperpolarises away from threshold (increased Cl- or K+ conductance); the neuron fires only when the algebraic sum of all inputs reaches threshold. Sensory receptors are the input transducers: each converts its adequate stimulus into a local, non-propagated receptor (generator) potential that is graded with stimulus strength and, if it reaches threshold, sets off action potentials whose frequency codes intensity. The receptor potential lasts longer than the action potential, which is what permits repetitive firing during a maintained stimulus.
+
+### Mechanism
+Inhibition is organised at two sites. Presynaptic inhibition acts on the transmitting terminal through an axo-axonic synapse (usually GABAergic): it hyperpolarises/less-depolarises the terminal so fewer voltage-gated Ca2+ channels open and less transmitter is released, selectively damping one input. Postsynaptic inhibition is the IPSP on the receiving membrane. Synaptic strength is not fixed — post-tetanic potentiation follows a high-frequency train because Ca2+ enters faster than it is pumped out, so residual presynaptic Ca2+ boosts release for seconds to minutes. Neuronal pools process signals by their connection geometry: convergence (many inputs onto one neuron) supports integration and selection of important signals, divergence (one neuron to many) amplifies and distributes, and each input fibre has a central discharge zone surrounded by a subliminal fringe. When two inputs are spaced apart their fringes overlap and summate — facilitation, a supra-additive response — whereas inputs close together have overlapping discharge zones and give occlusion, a sub-additive response. Receptors code intensity by larger-amplitude receptor potentials, higher impulse frequency and recruitment of more receptors, not by faster conduction; and stimulus localisation depends on the point-to-point labelled-line connection from a specific receptor to a specific cortical locus.
+
+### Key determinants
+Receptor and pathway identity decide most single-fact answers. Thermoreceptors are moderately adapting free nerve endings (they report both temperature change and steady level); nociceptors are non-adapting free endings — unlike encapsulated Pacinian corpuscles — sensitised by a rise in local tissue K+ and other mediators, and visceral nociceptors respond to ischaemia, spasm and distension rather than to cutting. Ascending pathways divide by modality: the lateral spinothalamic tract carries pain and temperature from the contralateral body (interrupted by anterolateral cordotomy to relieve intractable pain), while the dorsal column–medial lemniscus system carries fine discriminative touch, vibration and proprioception ipsilaterally. A cord hemisection (Brown-Séquard) produces ipsilateral loss of all sensation at the level of the section, with ipsilateral dorsal-column loss and contralateral pain/temperature loss below it; tabes dorsalis (neurosyphilis, though often mis-stated as viral) degenerates the posterior roots and dorsal columns, giving sensory ataxia. The endogenous analgesia system runs periaqueductal grey → nucleus raphe magnus (serotonergic) → dorsal-horn enkephalin interneurons, and the gate-control mechanism uses large A-beta tactile fibres to inhibit the A-delta/C pain pathway. The muscle spindle's intrafusal fibres have contractile poles supplied by gamma efferents and a central sensory region served by primary annulospiral Ia afferents; sudden stretch drives those Ia fibres monosynaptically onto alpha motor neurons of the same muscle (the stretch reflex).
+
+### Clinical significance
+These mechanisms map directly onto bedside signs. Because synaptic transmission is the most metabolically vulnerable step, hypoxia, hypoglycaemia and acidosis depress consciousness rapidly. Anterolateral cordotomy is performed for intractable cancer pain precisely because the lateral spinothalamic tract can be divided to abolish contralateral pain and temperature below the lesion; dorsal-column disease (e.g. tabes dorsalis, subacute combined degeneration) instead produces sensory ataxia with a positive Romberg sign and a stamping gait. Brown-Séquard syndrome is recognised by its dissociated pattern — ipsilateral motor and fine-touch loss with contralateral pain/temperature loss — and localises a hemicord lesion. The gate-control principle underlies the pain relief of rubbing an injury and of TENS, and the serotonergic raphe-magnus projection explains why serotonergic drugs and opioids (acting through the enkephalin link) produce analgesia. The stretch reflex is the basis of the clinically tested tendon jerks and of the muscle tone that is lost or exaggerated in lower- and upper-motor-neuron lesions respectively.
+
+### Common misconceptions
+Placing voltage-gated Ca2+ channels on the postsynaptic membrane (they are presynaptic) or thinking release needs acetylcholinesterase synthesis. Swapping presynaptic inhibition (hyperpolarises the transmitting terminal, cuts Ca2+ entry) with the postsynaptic IPSP. Saying the IPSP is produced by decreased Cl- conductance or increased Na+ conductance — it needs increased Cl-/K+ conductance. Attributing post-tetanic potentiation to NMDA/AMPA receptors (that is long-term potentiation, not PTP). Reversing facilitation and occlusion — facilitation needs the two inputs spaced apart so their subliminal fringes overlap. Believing the receptor potential is all-or-none, self-propagating, or always fires a spike, or that intensity is coded by faster conduction velocity. Calling thermoreceptors rapidly adapting or nociceptors quick to adapt. Assigning pain and temperature to the dorsal columns, or fine touch to the spinothalamic tract. Reading tabes dorsalis as a viral infection rather than spirochaetal neurosyphilis. Thinking spindle Ia afferents activate gamma (rather than alpha) motor neurons, or that the stretched muscle relaxes.
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## module
+205 NEU
+
+## module_subject
+205 NEU > Physiology > Central Nervous System
+
+## subtopic
+CNS physiology
+
+## microtopic
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## learner_stage
+Year 2 foundation
+
+## high_yield
+Core
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## related_concepts
+CON-NEU-EE843B5CFCB6A6
+CON-NEU-ED81318B16C20C
+CON-NEU-16EB6178F5D48C
+CON-NEU-79F78F65CC5CA9
+CON-NEU-667B888DA911EB
+CON-NEU-B75379027065F0
+CON-NEU-BD7982591CF0AE
+CON-NEU-331FB77B7D330B
+CON-NEU-56947438931051
+CON-NEU-87F6A5BB7FC8BB
+CON-NEU-A3ED4C8D9B3256
+CON-NEU-BBC2B8DDCAFDC2
+CON-NEU-BD2280F76D86B4
+CON-NEU-18D3F809D4F9BA
+CON-NEU-2D43734943522D
+CON-NEU-2286AF317AAB9C
+CON-NEU-2CE2134043F292
+CON-NEU-8D062520A74385
+CON-NEU-76CF12E0C5F555
+CON-NEU-C2ACFF2091BC10
+CON-NEU-E055EC3960B49D
+CON-NEU-F4E93166CC10C7
+CON-NEU-CD1486A57D6229
+
+## related_articles
+ART-NEU-205NEU-CNS-GROSS-ANATOMY
+
+## resource_ids
+src_e3182cba35c85f7acea8
+
+## nanotopic
+
+
+## arabic_title
+
+
+## aliases
+
+
+## language
+en
+
+## time_sensitive
+stable
+
+## publication_gate
+needs_evidence
+
+## evidence_gaps
+Evidence must be attached before publication. The 205 NEU Physiology department books (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass — content here reflects standard neurophysiology consistent with the render-verified exam-paper key, not department-book page citations.
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology supplied; left empty rather than model-translated.
+university_notes: Fourth article for module 205 NEU, covering the 23 concepts of the first physiology cluster (2024-eom-physiology, Q53-75 of the EOM 197 paper, resource src_e3182cba35c85f7acea8, keys render-confirmed green highlight on pages 8-10 at 170dpi). Remaining 205 NEU frontier: EOM 197 Q76-108 (cerebellum, sleep/EEG, vision, hearing physiology, OCR/render-legible) then Q109-115/Section B figure items (hold), then untriaged EOY/Baqoon papers and the image-only department books.
+
+## reading_time
+8
