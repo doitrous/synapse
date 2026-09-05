@@ -1,6 +1,6 @@
 # Item
 ## label
-Cardiac chest pain arises from myocardial ischaemia, not from the chest wall
+Origin of cardiac chest pain
 ## id
 CON-CVS-96833CEE2EBBF2
 ## canonical_key
@@ -12,7 +12,9 @@ Ischaemic chest pain | Anginal pain origin
 ## arabic_aliases
 الألم الذبحي
 ## definition
-Pain of cardiac origin is generated when myocardial oxygen demand exceeds supply, not by any structure in the chest wall. It is visceral pain: poorly localised, described in pressure rather than sharpness, and referred to dermatomes that share spinal segments with the heart.
+Cardiac pain is generated when **myocardial oxygen demand exceeds supply** — __not by any structure in the chest wall__.
+
+It is **visceral pain**: poorly localised, described as pressure rather than sharpness, and referred to dermatomes that share spinal segments with the heart.
 ## explicit_objective
 Explain why cardiac pain is diffuse and referred rather than point-tender, from the visceral afferent pathway.
 ## pitfalls
@@ -76,7 +78,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Referred cardiac pain follows the T1–T4 sympathetic afferents
+Referred cardiac pain
 ## id
 CON-CVS-06EC3418535C8F
 ## canonical_key
@@ -88,7 +90,9 @@ Radiation of anginal pain | Cardiac pain referral
 ## arabic_aliases
 انتشار الألم الذبحي
 ## definition
-Visceral afferents from the heart enter the cord at roughly T1 to T4, the same segments serving the inner arm, the jaw and the epigastrium. The brain cannot distinguish the source, so cardiac pain is felt in those somatic territories.
+Visceral afferents from the heart enter the cord at roughly **T1–T4** — the same segments serving the __inner arm, jaw and epigastrium__.
+
+The brain cannot tell the source apart, so cardiac pain is felt in those somatic territories.
 ## explicit_objective
 Predict the sites to which cardiac pain radiates from the spinal level of its afferents.
 ## pitfalls
@@ -152,7 +156,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Chest pain is triaged by the conditions that kill, not by the ones that are common
+Triaging chest pain by lethality
 ## id
 CON-CVS-EA365E43773219
 ## canonical_key
@@ -164,7 +168,11 @@ Life-threatening chest pain | Chest pain red flags
 ## arabic_aliases
 العلامات التحذيرية لألم الصدر
 ## definition
-Most chest pain is musculoskeletal or gastro-oesophageal, but the differential is worked from the small group that is immediately dangerous — acute coronary syndrome, aortic dissection, pulmonary embolism, tension pneumothorax and oesophageal rupture — because missing one of those is fatal and missing a common cause is not.
+Most chest pain is **musculoskeletal or gastro-oesophageal**.
+
+But the differential is worked from the small group that is __immediately dangerous__ — **acute coronary syndrome, aortic dissection, pulmonary embolism, tension pneumothorax and oesophageal rupture**.
+
+The order is set by lethality: missing one of those is fatal, and missing a common cause is not.
 ## explicit_objective
 Justify a differential ordered by lethality rather than by prevalence.
 ## pitfalls
@@ -228,7 +236,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Palpitation is an awareness of the heartbeat, not a diagnosis
+What a palpitation is
 ## id
 CON-CVS-97FE48E2D8B55E
 ## canonical_key
@@ -240,7 +248,9 @@ Awareness of heartbeat
 ## arabic_aliases
 الشعور بضربات القلب
 ## definition
-A palpitation is the sensation of one's own heartbeat. It may accompany a normal rhythm at a normal rate, so the symptom localises the problem to the heart without saying whether a rhythm disturbance exists at all.
+A palpitation is the **sensation of one's own heartbeat**.
+
+It can occur with a completely normal rhythm at a normal rate, so the symptom __points to the heart without proving any rhythm disturbance exists__.
 ## explicit_objective
 Separate the symptom of palpitation from the presence of an arrhythmia.
 ## pitfalls
@@ -304,7 +314,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-A palpitation is diagnosed by capturing the rhythm while the symptom is happening
+Symptom–rhythm correlation in palpitations
 ## id
 CON-CVS-A79213496B4D05
 ## canonical_key
@@ -316,7 +326,9 @@ Symptom-rhythm correlation
 ## arabic_aliases
 الربط بين العرض والنظم
 ## definition
-Because palpitations are intermittent, a recording taken between episodes usually shows nothing. The diagnostic aim is to capture the cardiac rhythm during a symptomatic episode, which is what determines the choice and duration of monitoring.
+Because palpitations are **intermittent**, a recording taken between episodes usually shows nothing.
+
+The diagnostic aim is to __capture the cardiac rhythm during a symptomatic episode__, which determines the choice and duration of monitoring.
 ## explicit_objective
 Explain why a normal resting recording does not exclude an arrhythmia, and what follows for monitoring.
 ## pitfalls
@@ -380,7 +392,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Syncope is transient global cerebral hypoperfusion with spontaneous full recovery
+What defines syncope
 ## id
 CON-CVS-D3ED0A0E795D72
 ## canonical_key
@@ -392,7 +404,9 @@ Transient loss of consciousness | Fainting
 ## arabic_aliases
 الغشي
 ## definition
-Syncope is a transient loss of consciousness caused by global cerebral hypoperfusion, characterised by rapid onset, short duration and complete spontaneous recovery. Each element of that definition excludes something: the mechanism excludes seizure and hypoglycaemia, and the spontaneous full recovery excludes coma and cardiac arrest.
+Syncope is a **transient loss of consciousness** caused by **global cerebral hypoperfusion**, with rapid onset, short duration and __complete spontaneous recovery__.
+
+Each element excludes something: the mechanism rules out seizure and hypoglycaemia, and the spontaneous full recovery rules out coma and cardiac arrest.
 ## explicit_objective
 State the four defining elements of syncope and name what each one excludes.
 ## pitfalls
@@ -456,7 +470,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Cardiac syncope is distinguished from reflex syncope by its lack of warning and its posture independence
+Cardiac vs reflex syncope
 ## id
 CON-CVS-6B41EC053C0DC0
 ## canonical_key
@@ -468,7 +482,11 @@ Cardiac syncope red flags | Arrhythmic syncope
 ## arabic_aliases
 الإغماء القلبي
 ## definition
-Reflex syncope has a trigger, a prodrome of nausea, warmth and greying vision, and occurs upright. Syncope from an arrhythmia or an outflow obstruction typically has no warning, occurs in any posture including sitting or lying, and may occur on exertion. The distinction matters because cardiac syncope carries a risk of sudden death and reflex syncope does not.
+**Reflex syncope** has a trigger, a prodrome of nausea, warmth and greying vision, and occurs upright.
+
+**Cardiac syncope** — from an arrhythmia or an outflow obstruction — typically has __no warning__, occurs in any posture including sitting or lying, and may come on with exertion.
+
+The distinction matters because __cardiac syncope carries a risk of sudden death__ and reflex syncope does not.
 ## explicit_objective
 Separate cardiac from reflex syncope using warning, posture and relation to exertion, and state why the distinction changes urgency.
 ## pitfalls
@@ -532,7 +550,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Oedema forms when the Starling forces favour filtration or when lymphatic drainage fails
+Starling mechanism of oedema
 ## id
 CON-CVS-0CBD226F515D23
 ## canonical_key
@@ -544,7 +562,9 @@ Mechanism of oedema | Starling forces in oedema
 ## arabic_aliases
 آلية الوذمة
 ## definition
-Fluid crosses the capillary wall according to the balance between hydrostatic and oncotic pressure on either side of it. Oedema appears when that balance shifts towards filtration — raised capillary pressure, lowered plasma oncotic pressure, increased permeability — or when the lymphatics that normally clear the excess cannot.
+Fluid crosses the capillary wall according to the balance between **hydrostatic and oncotic pressure** on either side.
+
+Oedema appears when that balance shifts towards __filtration__ — raised capillary pressure, lowered plasma oncotic pressure, increased permeability — or when the **lymphatics** that normally clear the excess cannot.
 ## explicit_objective
 Name the four mechanisms of oedema and map each to a clinical cause.
 ## pitfalls
@@ -608,7 +628,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-The distribution of oedema locates its cause
+What oedema distribution tells you
 ## id
 CON-CVS-A0176AF74ADE58
 ## canonical_key
@@ -620,7 +640,11 @@ Pattern of oedema | Bilateral versus unilateral oedema
 ## arabic_aliases
 نمط الوذمة
 ## definition
-Oedema that is bilateral and gravity-dependent points to a systemic cause — cardiac, renal or hepatic. Oedema confined to one limb points to a local one: venous obstruction, lymphatic failure or inflammation. Generalised oedema including the face and periorbital region suggests a low plasma oncotic pressure.
+**Bilateral, gravity-dependent** oedema points to a __systemic cause__ — cardiac, renal or hepatic.
+
+Oedema confined to **one limb** points to a __local cause__: venous obstruction, lymphatic failure or inflammation.
+
+**Generalised** oedema including the face and periorbital region suggests a __low plasma oncotic pressure__.
 ## explicit_objective
 Infer the class of cause from whether oedema is unilateral, bilateral and dependent, or generalised.
 ## pitfalls
@@ -684,7 +708,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Intermittent claudication is exertional muscle ischaemia relieved by rest
+Intermittent claudication
 ## id
 CON-CVS-C35C864EA79CCB
 ## canonical_key
@@ -696,7 +720,9 @@ Vascular claudication | Exertional leg pain
 ## arabic_aliases
 ألم الساق الجهدي
 ## definition
-Claudication is cramping muscle pain brought on by a reproducible amount of walking and relieved within minutes of standing still. It is angina of the limb: a fixed arterial narrowing that supplies enough blood at rest and not enough during exercise.
+Claudication is **cramping muscle pain** brought on by a reproducible amount of walking and __relieved within minutes of standing still__.
+
+It is **angina of the limb**: a fixed arterial narrowing that supplies enough blood at rest but not enough during exercise.
 ## explicit_objective
 Define claudication by its relationship to exertion and rest, and connect it to the supply-and-demand mechanism of ischaemia.
 ## pitfalls
@@ -760,7 +786,7 @@ sourceCandidateIds: The cardiovascular corpus extraction covered T01 only, so no
 
 # Item
 ## label
-Critical limb ischaemia is distinguished from claudication by pain at rest
+Critical limb ischaemia: the rest-pain threshold
 ## id
 CON-CVS-75FDE074D4B12E
 ## canonical_key
@@ -772,7 +798,11 @@ Rest pain | Chronic limb-threatening ischaemia
 ## arabic_aliases
 ألم الراحة
 ## definition
-When arterial supply falls below what the limb needs at rest, pain occurs without exertion — characteristically in the forefoot at night, relieved by hanging the leg down. Tissue loss and ulceration follow. The transition from exertional pain to rest pain marks the point at which the limb itself is threatened.
+When arterial supply falls below what the limb needs at rest, **pain occurs without exertion** — classically in the __forefoot at night, relieved by hanging the leg down__.
+
+**Tissue loss and ulceration** follow.
+
+The transition from exertional pain to __rest pain__ marks the point at which the limb itself is threatened.
 ## explicit_objective
 Identify rest pain and tissue loss as the threshold separating stable claudication from a threatened limb.
 ## pitfalls
