@@ -16,7 +16,7 @@ fun readSecret(name: String): String {
 }
 
 android {
-    namespace = "com.synapse.android"
+    namespace = "com.nishany.android"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
