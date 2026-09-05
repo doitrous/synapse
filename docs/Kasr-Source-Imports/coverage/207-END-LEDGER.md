@@ -3,8 +3,9 @@
 | cluster | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | 2024-eom-histology-tranche-1 (Q1-26, `EOM - END-207 2024 ANS.pdf`) | 25 | 0 | 1 | 82 | 108 |
-| **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **25** | **0** | **1** | **82** | **108** |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 25 | 0 | 1 | untriaged | — |
+| 2024-eom-anatomy-tranche-2 (Q27-58, `EOM - END-207 2024 ANS.pdf`) | 32 | 0 | 0 | 50 | 108 |
+| **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **57** | **0** | **1** | **50** | **108** |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 57 | 0 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -52,11 +53,36 @@ Authored in `question/207-END-2024eom-histology-mcq.md`,
 registered in `evidence/207-END-resources.md`. Gate-clean (batch 0 errors; simulate
 created=25/rejected=0; audit neutral vs the module baseline — no new error category).
 
+## Tranche 2 — Anatomy (Q27-58)
+
+32/32 questions authored (Q27-58), **0 excluded, 0 held** — every Q27-58 red-circle key was
+render-verified against 170 dpi renders of pp.4-6 (all matched the OCR `@` reading exactly, no
+double-marks; see `coverage/207-END-triage-keys.txt`). The Anatomy section runs Q27-58 (pelvis,
+perineum, endocrine-gland surgical anatomy, genital-duct embryology); Physiology begins at Q59.
+
+32 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical
+key, uppercased): 12 `CON-GYN-*`, 6 `CON-REN-*`, 5 `CON-GIT-*`, 3 `CON-END-*`, 6 `CON-FND-*` (+
+1 `CON-AND-*` prostate) — collision-checked against the corpus concept IDs, no collisions, no
+in-batch duplicates. None of the tranche-1 histology concepts were reusable (histology atomic
+claims vs gross/regional anatomy). Filed under `DIS-ANA-T05` (Abdomen and pelvis), with
+`DIS-ANA-T06` (Head and neck) for the thyroid/pituitary/parathyroid, and `SYS-*` system
+cross-nav. Grouped into five library articles by region/system (female reproductive, lower
+urinary/prostate, anorectal, endocrine-gland, perineum/pelvic-wall). No Anatomy department book
+PDF was located/read this pass; concepts and articles are written from standard regional-anatomy
+teaching (Snell / Last's / Moore level) corroborated by this exam paper's own keyed stems and
+options (render-verified). Subject tags by body system (endo/gyn/androl/renal/gi/fnd — all exist
+programme-wide); pure pelvic-wall/perineum items tagged `fnd`.
+
+Authored in `question/207-END-2024eom-anatomy-mcq.md`,
+`concept/207-END-anatomy-concepts.md`, `article/207-END-anatomy-articles.md`. Gate-clean (batch
+0 errors on all three; simulate created=69/rejected=0/errors=0; audit neutral vs the tranche-1
+histology baseline — same categories, no new error category, counts scale with item count).
+
 ## Next cluster
 
-**82 questions remain on this paper: Q27-108.** Next author starts at **Q27 (Anatomy,
-p.4)** — Q27-38 Anatomy are on pp.4; the paper then continues with Anatomy and Physiology
-across pp.5-11. Q27-108 are OCR'd but **not yet individually render-verified** — spot-render
-each page against the OCR `@` reading before trusting it (see the OCR-misread caution in the
-206 DIG ledger). 9 more tier 1-3 papers, 3 department books and 6 banks for this module are
+**50 questions remain on this paper: Q59-108.** Next author starts at **Q59 (Physiology, p.7)** —
+Q59-67 are on p.7; the paper then continues with Physiology across pp.7-11. Q59-108 are OCR'd but
+**not yet individually render-verified** — spot-render each page against the OCR `@` reading
+before trusting it (see the OCR-misread caution in the 206 DIG ledger, and note Q53's `©`-glyph
+circle in this paper). 9 more tier 1-3 papers, 3 department books and 6 banks for this module are
 entirely untriaged.
