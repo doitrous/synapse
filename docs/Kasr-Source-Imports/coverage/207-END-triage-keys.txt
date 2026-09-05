@@ -39,7 +39,28 @@ Q37.d  Q38.b  Q39.c  Q40.c  Q41.a  Q42.b  Q43.c  Q44.c  Q45.a  Q46.b
 Q47.b  Q48.d  Q49.c  Q50.a  Q51.c  Q52.a  Q53.b  Q54.c  Q55.c  Q56.d
 Q57.b  Q58.a
 
-Q59-108 (Physiology from Q59 p.7, then any remaining sections): OCR'd (see
-`scripts/content/pagetext.mjs show` on this PDF) but NOT yet individually render-verified —
-treat that OCR text as a lead, not a confirmed key, until rendered. Next author picking up
-this paper starts at Q59 (Physiology) and spot-renders before trusting the "@" reading.
+— Tranche 3 (Physiology, Q59-108) render-verified —
+Method same as above: rendered pp.7, 8, 9, 10 and 11 (the full Q59-108 Physiology range) at
+170 dpi and checked every solid red circle against the OCR "@" markers by eye — all five pages
+matched exactly, 0 disagreements, no double-marks. Section map confirmed: Q59-108 Physiology
+(hypothalamo-pituitary control, GH/somatomedins, prolactin/oxytocin/ADH, thyroid, calcium/PTH/
+vit-D/FGF23, adreno-cortical, pancreatic/incretin, male reproductive, female reproductive/
+pregnancy/labor). Physiology is the last section; Q108 ends the paper. Q103 is an IMAGE item
+(four progesterone-secretion curves A-D are printed) — the circle is on d (Curve D), verified,
+but the four-curve figure is essential to answer, so Q103 is HELD (media-dependent), not
+excluded; correct answer recorded as d.
+
+Q59.c   Q60.a   Q61.d   Q62.a   Q63.c   Q64.c   Q65.a   Q66.c   Q67.b
+Q68.d   Q69.c   Q70.b   Q71.d   Q72.b   Q73.a   Q74.a   Q75.b   Q76.c   Q77.b
+Q78.a   Q79.d   Q80.c   Q81.b   Q82.c   Q83.a   Q84.d   Q85.b   Q86.c   Q87.d   Q88.c   Q89.d
+Q90.d   Q91.a   Q92.b   Q93.c   Q94.b   Q95.d   Q96.d   Q97.a   Q98.b   Q99.d   Q100.c
+Q101.c  Q102.c  Q103.HOLD(d)  Q104.a  Q105.d  Q106.d  Q107.b  Q108.a
+
+Q103 HELD — image-dependent single-best-answer: the stem shows four progesterone-vs-time
+curves (A-D) and asks which is the normal menstrual-cycle pattern. The red circle is on option
+d (Curve D), render-verified, but the figure itself is required to answer and the paper's page
+image is not redistributable, so the item is held pending a redrawn/licensed figure rather than
+authored without it. Correct answer recorded as d for when the media is supplied.
+
+Paper COMPLETE after this tranche: Q1-108 all triaged (Q10 excluded double-mark, Q103 held
+image; 106 authored across the three tranches).
