@@ -32,3 +32,35 @@ EXCLUDED (key not recovered / ambiguous):
 Q29 — option c "Glossopharyngeal" highlighted in ORANGE (not the confirmed green), with
 a solver's red "?" beside the item; the anatomically classic answer (auriculotemporal,
 option d) contradicts the orange mark. No option source-supported with confidence. HELD.
+
+# ---------------------------------------------------------------------------
+# Q76-108 = cluster 2024-eom-physiology-b (this pass): cerebellum, motor-neuron
+# lesions, spinal shock/cord transection, sleep/EEG, vision physiology, hearing
+# and vestibular physiology, plus a run of CNS histology (neuroglia, Purkinje,
+# nerve endings, organ of Corti, retina). Keys render-confirmed by eye at 170dpi
+# on pages 11-15 (14-15 rendered with --force; not marked garbled in the sidecar).
+Q76.C   Q77.A   Q78.A   Q79.A   Q80.B   Q81.C   Q82.B   Q83.D
+Q84.C   Q85.A   Q86.C   Q87.C   Q88.B   Q89.D   Q90.D   Q91.B
+Q92.C   Q93.D   Q94.C   Q95.A           Q97.D   Q98.D   Q99.C
+Q100.A  Q101.B  Q102.D  Q103.A  Q104.B  Q105.D  Q106.B          Q108.B
+
+EXCLUDED (contradictory marks — source's own hand correction overrides the green key):
+Q96 (hypermetropia) — GREEN highlight is on option d "Parallel light rays converge in
+  front of the retina", but that option is struck through by hand (diagonal pen strokes),
+  and option a "The eye is often shorter than the emmetropic eye" carries an OFF-COLOUR
+  (orange/tan) highlight with a circled "A" in the margin. The green-keyed option d is
+  anatomically the definition of MYOPIA, wrong for hypermetropia (rays converge BEHIND the
+  retina; the eye is shorter — option a — which is the correct fact). Green key contradicted
+  by the source's own strikethrough, with only an off-colour mark on the correct option:
+  same pattern as the module's Q20 hold. HELD (correct answer is a; needs Omar to confirm).
+Q107 (organ of Corti) — GREEN highlight on option d "Border cells support the outer edge of
+  organ of Corti" is struck through by hand; option b "Inner phalangeal cells surround inner
+  hair cells completely" carries an ORANGE highlight with a circled "B" in the margin.
+  Border cells lie at the INNER edge (inner spiral sulcus), so the green option d is dubious;
+  option b is the anatomically sound statement. Conflicting green-vs-orange marks with a
+  struck-out key: HELD (correct answer is b; needs Omar to confirm). Same rule as Q96/Q20.
+
+# STOP at Q108. Q109-111 are TEXT-ONLY (NOT figure-dependent as earlier assumed) with clean
+# green keys read this pass: Q109.D  Q110.A  Q111.A — available for the next physiology pass.
+# Q112-113 reference the labelled "Figure (A)" (spinal-cord cross-section) → figure-dependent
+# hold. Q114-115 + Section B (matching table) also figure/table-dependent → hold.
