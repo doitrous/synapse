@@ -141277,3 +141277,1606 @@ Department book MCQ, transcribed rather than derived.
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the whole nervous system derives from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1398
+## title
+All characters of platelet xpt:
+## question
+All characters of platelet xpt:
+## vignette
+This item asks the student to recognise that the platelet cell coat is thick and central to haemostasis, not incidental.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+outer pale zone called hyalomere that is basophilic
+## explanation_a
+True, so not the exception. The hyalomere is the peripheral pale zone and it is basophilic.
+## answer_b
+thin cell coat, No role in bleeding
+## explanation_b
+Correct. The exception, and the answer. The platelet coat is thick and glycoprotein-rich, and it is what lets the platelet adhere to damaged endothelium — the coat is the beginning of haemostasis, not a bystander.
+
+Why this is right:
+- A platelet is a non-nucleated cytoplasmic fragment, 2–4 µm across, with a peripheral pale basophilic zone — the hyalomere — and a central dark granular zone, the granulomere, which holds the granules and the few organelles.
+## answer_c
+central dark Zone (granulomere. with few organelles
+## explanation_c
+True, so not the exception. The granulomere is the central dark zone and holds the granules with few other organelles.
+## answer_d
+hyalomere Contain microtubule, actin
+## explanation_d
+True, so not the exception. The hyalomere holds the marginal microtubule bundle and actin filaments.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-A2BE134E34EB83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Recognise that the platelet cell coat is thick and central to haemostasis, not incidental.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p5 q32. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1399
+## title
+As regard demarcation channels in megakaryocytes all of the following are true except:
+## question
+As regard demarcation channels in megakaryocytes all of the following are true except:
+## vignette
+This item asks the student to distinguish a membrane invagination within one cell from a junction between two.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+they are cell membrane invaginations
+## explanation_a
+True, so not the exception. They are invaginations of the megakaryocyte plasma membrane.
+## answer_b
+will divide the platelet ribbon into platelets
+## explanation_b
+True, so not the exception. They divide the cytoplasm into platelet ribbons which then fragment.
+## answer_c
+represent cell junctions
+## explanation_c
+Correct. The exception, and the answer. Chosen by students who read "channel" as something between cells; a demarcation channel lies within a single megakaryocyte and joins nothing to anything.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_d
+present in megakaryocytes pseudopodia
+## explanation_d
+True, so not the exception. The channels extend into the pseudopodia the megakaryocyte pushes into the marrow sinusoid.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Distinguish a membrane invagination within one cell from a junction between two.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p10 q61. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1400
+## title
+Blood platelets have the following characters except :
+## question
+Blood platelets have the following characters except :
+## vignette
+This item asks the student to recall that a platelet is a cytoplasmic fragment and has no nucleus at all.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+they are normally 150,000-400,000/ mm3
+## explanation_a
+True, so not the exception. 150,000–400,000/mm³ is the normal range.
+## answer_b
+have central granulomere and peripheral hyalomere
+## explanation_b
+True, so not the exception. That is the platelet's defining two-zone appearance.
+## answer_c
+they initiate local coagulation
+## explanation_c
+True, so not the exception. Adhesion and aggregation at the site of injury are what platelets do.
+## answer_d
+have small lobulated nuclei
+## explanation_d
+Correct. The exception, and the answer. Picked by students who transfer the lobulated nucleus of the neutrophil, or of the megakaryocyte the platelet came from. A platelet is a shed fragment and has no nucleus, lobulated or otherwise.
+
+Why this is right:
+- A platelet is a non-nucleated cytoplasmic fragment, 2–4 µm across, with a peripheral pale basophilic zone — the hyalomere — and a central dark granular zone, the granulomere, which holds the granules and the few organelles.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-A2BE134E34EB83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recall that a platelet is a cytoplasmic fragment and has no nucleus at all.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q31. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1401
+## title
+Demarcation channels is important in ....... Formation
+## question
+Demarcation channels is important in ....... Formation
+## vignette
+This item asks the student to name what demarcation channels produce.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Platelets
+## explanation_a
+Correct. The channels cut the megakaryocyte cytoplasm into platelet ribbons, which fragment into platelets.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_b
+Reticulocytes
+## explanation_b
+A reticulocyte is a young red cell that has lost its nucleus but kept ribosomes. Nothing subdivides it.
+## answer_c
+Megakaryocytes
+## explanation_c
+Backwards: the demarcation channels are inside the megakaryocyte, so they cannot form it.
+## answer_d
+Leucocytes
+## explanation_d
+Leucocytes arise by division of their own precursors, not by fragmentation of a larger cell.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Name what demarcation channels produce.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q47. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Demarcation channels subdivide megakaryocyte cytoplasm into platelets, which is the only option the mechanism produces.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1402
+## title
+EJ/M picture of blood platelets shows:
+## question
+EJ/M picture of blood platelets shows:
+## vignette
+This item asks the student to place the microtubules, the canalicular systems and the granules in the correct zone of the platelet.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Open canalicular system in central zone
+## explanation_a
+The open canalicular system belongs to the hyalomere, the peripheral zone, not the central one. Its job is to open the granulomere's granules to the exterior across that periphery.
+## answer_b
+Bundles of microfilaments in central zone
+## explanation_b
+Microfilaments are in the hyalomere too. The central zone is where the granules are, which is what makes it dark.
+## answer_c
+Central granulomere of microtubules
+## explanation_c
+The granulomere is named for its granules. Its microtubule content is not what defines it, and the marginal bundle is not there.
+## answer_d
+Hyalomere of microtubules in peripheral zone
+## explanation_d
+Correct. The marginal bundle of microtubules runs around the periphery within the hyalomere, and it is what holds the resting platelet in its discoid shape.
+
+Why this is right:
+- The hyalomere is the peripheral, pale zone of the platelet.
+## topic
+Histology-general
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-CC292B4D6CC61E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_bb081b0479f7a33666cd
+## learning_objective
+Place the microtubules, the canalicular systems and the granules in the correct zone of the platelet.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p25 q27. Manifest src_bb081b0479f7a33666cd.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only D puts a structure in the zone that actually holds it: the marginal microtubule bundle lies in the peripheral hyalomere.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1403
+## title
+Granulomere is central dark granular layer of following blood element:
+## question
+Granulomere is central dark granular layer of following blood element:
+## vignette
+This item asks the student to attribute the granulomere to the platelet and to nothing else.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Neutrophils
+## explanation_a
+A neutrophil has granules throughout its cytoplasm and a lobed nucleus; it has no two-zone division into hyalomere and granulomere.
+## answer_b
+Basophils
+## explanation_b
+A basophil is granular, which is what makes this tempting, but its granules fill the cell rather than occupying a named central zone.
+## answer_c
+Erythrocytes
+## explanation_c
+An erythrocyte is a biconcave disc filled with haemoglobin and has no granules at all.
+## answer_d
+Platelets
+## explanation_d
+Correct. Hyalomere and granulomere are the platelet's two zones, and the terms are used of nothing else.
+
+Why this is right:
+- A platelet is a non-nucleated cytoplasmic fragment, 2–4 µm across, with a peripheral pale basophilic zone — the hyalomere — and a central dark granular zone, the granulomere, which holds the granules and the few organelles.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-A2BE134E34EB83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Attribute the granulomere to the platelet and to nothing else.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p12 q4. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1404
+## title
+Granulomere of blood platelets contains:
+## question
+Granulomere of blood platelets contains:
+## vignette
+This item asks the student to match each platelet granule type to its actual contents.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+Dense tubular system
+## explanation_a
+The dense tubular system is a hyalomere structure — it stores the calcium that triggers release — and is not a granulomere content.
+## answer_b
+Alpha granules that contain serotonin
+## explanation_b
+Serotonin is in the delta granules, not the alpha. Alpha granules hold clotting factors, fibrinogen and platelet-derived growth factor.
+## answer_c
+Delta granules that contain ATP
+## explanation_c
+Correct. Delta, or dense, granules hold ADP, ATP, calcium and serotonin, and they lie in the granulomere.
+
+Why this is right:
+- Delta (dense) granules hold ADP, ATP, calcium and serotonin.
+## answer_d
+Lambda granules that contain clotting factor
+## explanation_d
+Lambda granules are lysosomes and hold hydrolytic enzymes. The clotting factors belong to the alpha granules.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-B000CE18F93F83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Structure and function
+## cognitive_effort
+High
+## cognitive_effort_score
+0.8
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+7.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.75
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Match each platelet granule type to its actual contents.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39; EOM ISK End 101 — 2022.pdf p4 q441; EOY 195 first 2022 101 ISK final (1).pdf p16 q28. Manifest src_c6ab1b49dc16762227e1, src_a54bbf7a625ba2b172fc, src_51fef9b6234c5d381f59.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Delta granules do hold ATP; each of the other three options misassigns either a structure or a granule content.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1405
+## title
+Hyalomere is in
+## question
+Hyalomere is in
+## vignette
+This item asks the student to attribute the hyalomere to the platelet and to nothing else.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+T lymphocytes
+## explanation_a
+A T lymphocyte has a large round nucleus and a thin rim of agranular cytoplasm — no named zones.
+## answer_b
+B lymphocytes
+## explanation_b
+A B lymphocyte looks much the same on light microscopy, and is likewise not divided into zones.
+## answer_c
+mast cells
+## explanation_c
+A mast cell is filled with coarse metachromatic granules throughout, with no clear peripheral zone.
+## answer_d
+platelets
+## explanation_d
+Correct. Hyalomere and granulomere are the platelet's two zones.
+
+Why this is right:
+- A platelet is a non-nucleated cytoplasmic fragment, 2–4 µm across, with a peripheral pale basophilic zone — the hyalomere — and a central dark granular zone, the granulomere, which holds the granules and the few organelles.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-A2BE134E34EB83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Structure and function
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Attribute the hyalomere to the platelet and to nothing else.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p8 q78. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1406
+## title
+Hyalomere of blood platelets contain:
+## question
+Hyalomere of blood platelets contain:
+## vignette
+This item asks the student to list everything the hyalomere contains, rather than stopping at the first true option.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+Microtubule rings
+## explanation_a
+True, but not the whole answer. The marginal microtubule bundle holds the resting discoid shape.
+## answer_b
+Actin and Myosin filaments
+## explanation_b
+True, but not the whole answer. Actin and myosin contract to produce the pseudopodia of the activated platelet.
+## answer_c
+Dense and surface connected tubular system
+## explanation_c
+True, but not the whole answer. The open (surface-connected) canalicular system discharges the granules, and the dense tubular system stores the calcium that triggers them.
+## answer_d
+All the above
+## explanation_d
+Correct. All three are hyalomere contents, and between them they perform every mechanical step the platelet takes.
+
+Why this is right:
+- The hyalomere is the peripheral, pale zone of the platelet.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-CC292B4D6CC61E
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+List everything the hyalomere contains, rather than stopping at the first true option.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q40. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1407
+## title
+In the platelets, the granulomere contains the followings EXCEPT
+## question
+In the platelets, the granulomere contains the followings EXCEPT
+## vignette
+This item asks the student to recognise that platelets have three granule types and that a beta granule is not one of them.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Alpha granules which contain clotting factors
+## explanation_a
+True, so not the exception. Alpha granules hold clotting factors and fibrinogen.
+## answer_b
+Beta granules which contain DNA and RNA
+## explanation_b
+Correct. The exception, and the answer. There is no beta granule. It is invented by analogy with alpha and delta, and the DNA and RNA give it away — a platelet has no nucleus and carries no DNA.
+
+Why this is right:
+- Delta (dense) granules hold ADP, ATP, calcium and serotonin.
+## answer_c
+Delta granules which contain calcium ions
+## explanation_c
+True, so not the exception. Delta granules hold calcium along with ADP, ATP and serotonin.
+## answer_d
+Lambda granules which contain hydrolytic enzymes
+## explanation_d
+True, so not the exception. Lambda granules are the platelet's lysosomes.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-B000CE18F93F83
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Structure and function
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Recognise that platelets have three granule types and that a beta granule is not one of them.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p3 q32. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1408
+## title
+number of platelets are ……………
+## question
+number of platelets are ……………
+## vignette
+This item asks the student to state the normal platelet count without confusing it with the red or white cell count.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+5-6 million
+## explanation_a
+5–6 million per mm³ is the red cell count.
+## answer_b
+200,000 – 400,000
+## explanation_b
+Correct. The normal platelet count is roughly 150,000–400,000 per mm³.
+
+Why this is right:
+- The normal platelet count is about 150,000–400,000 per mm³.
+## answer_c
+4000 – 11,000
+## explanation_c
+4,000–11,000 per mm³ is the total white cell count.
+## answer_d
+2 – 4 million
+## explanation_d
+2–4 million confuses the count with the platelet's diameter of 2–4 µm.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-5E948BE9C94615
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Definition
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+State the normal platelet count without confusing it with the red or white cell count.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q9. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1409
+## title
+Origin of blood platelets:
+## question
+Origin of blood platelets:
+## vignette
+This item asks the student to name the cell platelets are shed from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Mesenchymal cells
+## explanation_a
+Mesenchymal cells give rise to connective tissue, not to blood platelets.
+## answer_b
+Megakaryocytes
+## explanation_b
+Correct. Platelets are fragments shed from megakaryocytes in the bone marrow.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_c
+Pericytes
+## explanation_c
+Pericytes sit on the outside of capillaries and are contractile; they produce no blood cells.
+## answer_d
+Monocytes
+## explanation_d
+Monocytes are themselves blood cells and become macrophages; they shed nothing.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name the cell platelets are shed from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p4 q41. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1410
+## title
+origin of platelet
+## question
+origin of platelet
+## vignette
+This item asks the student to name the cell platelets are shed from.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+C
+## answer_a
+macrophage
+## explanation_a
+A macrophage phagocytoses worn platelets; it does not produce them.
+## answer_b
+UMCs
+## explanation_b
+Undifferentiated mesenchymal cells give rise to connective tissue, not to platelets.
+## answer_c
+megakaryocyte
+## explanation_c
+Correct. Platelets are shed from megakaryocytes in the bone marrow.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_d
+fibroblast
+## explanation_d
+A fibroblast makes collagen and ground substance and produces no blood elements.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Name the cell platelets are shed from.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p8 q8. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1411
+## title
+Platelet ribbon is a part of :
+## question
+Platelet ribbon is a part of :
+## vignette
+This item asks the student to place the platelet ribbon in the cell it forms within.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+B
+## answer_a
+Monocyte
+## explanation_a
+A monocyte is a mature circulating cell and does not fragment.
+## answer_b
+Megakaryocyte
+## explanation_b
+Correct. Demarcation channels divide megakaryocyte cytoplasm into ribbons, which then break into individual platelets.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_c
+Reticulocyte
+## explanation_c
+A reticulocyte is a young red cell; the word looks similar but the two have nothing to do with each other.
+## answer_d
+Lymphocyte
+## explanation_d
+A lymphocyte divides in two when it proliferates; it never fragments into ribbons.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Mechanism
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_c6ab1b49dc16762227e1
+## learning_objective
+Place the platelet ribbon in the cell it forms within.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q44. Manifest src_c6ab1b49dc16762227e1.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1412
+## title
+Purpura or thrombocytopenia is characterized by …………
+## question
+Purpura or thrombocytopenia is characterized by …………
+## vignette
+This item asks the student to connect a low platelet count to its marrow cause and its bleeding consequence together.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+D
+## answer_a
+low number of platelet than 50,000 /mm3
+## explanation_a
+True, but not the whole answer. Bleeding becomes a real risk once the count falls below about 50,000/mm³.
+## answer_b
+low production of platelet in B.M
+## explanation_b
+True, but not the whole answer. Reduced marrow production is one route to it, alongside increased destruction.
+## answer_c
+prolonged bleeding time, xss bleeding after trauma
+## explanation_c
+True, but not the whole answer. A prolonged bleeding time and excessive bleeding after trauma are how it presents.
+## answer_d
+All the above
+## explanation_d
+Correct. The count, its cause and its consequence are all part of the picture, and a student who stops at the first true option has answered only a third of it.
+
+Why this is right:
+- The normal platelet count is about 150,000–400,000 per mm³.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-5E948BE9C94615
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical application
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+60
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_34c967631e388497dc35
+## learning_objective
+Connect a low platelet count to its marrow cause and its bleeding consequence together.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 questions.pdf.pdf p9 q11. Manifest src_34c967631e388497dc35.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+---
+
+# Item
+## id
+QST-101-ISK-MCQ-1413
+## title
+The following originate from megakaryocyte:
+## question
+The following originate from megakaryocyte:
+## vignette
+This item asks the student to name what the megakaryocyte produces.
+## subject
+haem
+## status
+Draft
+## owner
+Claude
+## format
+single best answer
+## correct_answer
+A
+## answer_a
+Platelets
+## explanation_a
+Correct. Platelets are shed from megakaryocyte cytoplasm.
+
+Why this is right:
+- Platelets arise from megakaryocytes in the bone marrow.
+## answer_b
+Erythrocytes
+## explanation_b
+Erythrocytes come from the erythroid line, through the normoblast.
+## answer_c
+Monocytes
+## explanation_c
+Monocytes come from the monocyte line in the marrow.
+## answer_d
+Lymphocyte
+## explanation_d
+Lymphocytes come from lymphoid precursors, and mature in the thymus or the marrow.
+## topic
+Blood
+## subtopic
+Blood Platelets
+## main_concept
+CON-HEM-2AD9D05B2B6947
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Mechanism
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+79
+## exam_relevance
+4.5
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## exam_weight_by_year
+KAU_Y1=0.45
+## years
+Year 1
+## universities
+kau
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## question_only_for
+KAU_Y1
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
+## resource_ids
+src_2944234d11e92ac4bbc8
+## learning_objective
+Name what the megakaryocyte produces.
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p5 q48. Manifest src_2944234d11e92ac4bbc8.
+## estimated_seconds
+60
+## randomise_answers
+yes
+## derived_from
+Department book MCQ, transcribed rather than derived.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
