@@ -6,9 +6,10 @@
 | abolmagd-cvs Atherosclerosis (Q19-24, same paper) | 6 | 0 | 0 | 0 | 6 |
 | abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 | 6 |
 | abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 | 7 |
-| abolmagd-cvs Blood Vessels (Q38-47, same paper) | 10 | 0 | 0 | 0 (→ p.11+ Endocarditis) | 10 |
-| **abolmagd-cvs cluster total** | **47** | **0** | **0** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 47 | 0 | 0 | untriaged | — |
+| abolmagd-cvs Blood Vessels / vasculitis (Q38-47, same paper) | 10 | 0 | 0 | 0 | 10 |
+| abolmagd-cvs Aneurysms & Veins (Q48-65, same paper) | 15 | 0 | 3 | 0 (→ p.14+ next section) | 18 |
+| **abolmagd-cvs cluster total** | **62** | **0** | **3** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 62 | 0 | 3 | untriaged | — |
 
 ## Module opened
 
@@ -121,11 +122,42 @@ ischaemic consequence). Files: `question/310-PAT-abolmagd-blood-vessels-mcq.md`,
 article 3/0; simulate created=63/rejected=0/errors=0; audit neutral vs the 310-PAT baseline — the new
 article and all 8 concepts sit only under the pre-existing placeholder categories, no new error category).
 
+## Cluster — abolmagd-cvs-aneurysms-veins (Q48-65)
+
+15/18 authored (Q48-65, pp.11-13 / printed 10-12), **3 excluded, 0 held**. This continues the
+paper's **BLOOD VESSELS** chapter into **aneurysms and veins** (the section here is aneurysms +
+varicose veins, not Endocarditis as the prior ledger estimated). Render-adjudicated pp.11-13 at
+170 dpi (detector unreliable — over-flagged Q48/Q52/Q54/Q57 as "multiple" and missed several; every
+authored key is a single red option): Q48.b, Q49.b, Q50.c, Q51.b, Q52.a, Q53.b, Q54.a, Q55.d, Q56.b,
+Q57.c, Q58.d, Q59.c, Q60.d, Q63.b, Q65.d. **12 new concepts minted** (PAN vessels-affected/Q48;
+dissecting-aortic etiology/Q49+Q51; berry congenital/Q50+Q53; commonest-type/Q52; true-vs-false
+aneurysm/Q54; AAA complications/Q55; aneurysm causes/Q56; aneurysm complications/Q57+Q65; commonest
+aortic site infrarenal/Q58; berry features/Q59; varicose-vein nature+risk/Q60; varicose most-important
+complication/Q63), university-blind (first 14 hex of SHA-256 of the canonical key), collision-checked
+against the corpus — no collisions, no in-batch duplicates. Q48's concept joins the existing
+`ART-CVS-310PAT-BLOOD-VESSELS` (vasculitis) article; Q49-65's 11 concepts are grouped into a **new
+library article `ART-CVS-310PAT-ANEURYSMS-VEINS`** (cross-linked to the vasculitis and atherosclerosis
+articles). **Exam-key caveats:** Q52 (commonest aneurysm type) authored to the printed key
+*congenital* while flagging that modern general pathology names the *atherosclerotic (abdominal
+aortic)* aneurysm as the commonest true aneurysm — in `author_notes` + concept `uncertainty`; Q63
+(most important varicose complication = haemorrhage) carries an emphasis caveat (some texts rank
+chronic venous ulceration highest) in the concept `uncertainty`. **3 excluded** (via the seed `hold`
+mechanism, so they emit nothing but stay visible): Q61 (printed key SCC alone conflicts with the stem
+— ulcer, phlebitis and SCC/Marjolin are all recognised varicose complications, so the defensible
+answer is *all of the above*), Q62 (verbatim duplicate of Q55, deduped), Q64 (printed key *thrombosis*
+has no valid "except" — thrombosis, aneurysm, neuritis and HBV are all recognised PAN associations).
+Files: `question/310-PAT-abolmagd-aneurysms-veins-1-mcq.md` (Q48-57),
+`question/310-PAT-abolmagd-aneurysms-veins-2-mcq.md` (Q58-65), seeds
+`coverage/seeds/310-PAT/abolmagd-cvs-aneurysms-veins-1.json` and `-2.json`. **Gate-clean** (question
+10/0 + 5/0, concept 48/0, article 4/0; simulate created=67/rejected=0/errors=0; audit neutral vs the
+310-PAT baseline — 18 distinct categories, all pre-existing placeholder families, error count scales
+with item count, no new error category).
+
 ## Next cluster
 
-**Remaining on this paper:** the rest of Blood Vessels / Endocarditis onward (p.11+),
-Endocarditis (p.13+), Ischemia (p.17+), Heart Diseases (p.19+), the 2008-2015 MCQ set (p.24+), and
-Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
+**Remaining on this paper:** the next Pathology section from **p.14+** (printed 13+ — Endocarditis /
+Ischemia / Heart Diseases per the section map), then the **2008-2015 MCQ set (p.24+)** and Written
+topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
 Tarek folders) and the entire **Pharmacology** sub-corpus (`All 197 Qs answered by pharmaga.pdf`,
 `Pharma MCQ by Abolmagd.pdf`, `PHARMA GITTTTTTT.pdf`, `Pharma RSPPPPP.pdf`) — pharmacology items

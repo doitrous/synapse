@@ -1,0 +1,134 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-aneurysms-veins",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — ANEURYSMS & VEINS section (Q58-65), continuing the Blood Vessels chapter of the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; render-verified pp.12-13 (printed 11-12) at 170 dpi. Q61, Q62, Q64 EXCLUDED (held): Q61 printed key (SCC alone) conflicts with the stem (ulcer, phlebitis and SCC are all varicose complications, so the defensible answer is 'all of the above'); Q62 is a verbatim duplicate of Q55 (AAA complications); Q64's printed key (thrombosis) has no valid 'except' since thrombosis, aneurysm, neuritis and HBV are all recognised PAN associations.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-ANEURYSMS-VEINS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Aneurysms & Veins section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Aneurysms",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 11,
+    "field_notes": { "keySource": "red-text option; render-verified pp.12-13 (printed 11-12) at 170 dpi — detector unreliable on these pages, eye-adjudicated" }
+  },
+  "questions": [
+    {
+      "key": "q58", "id": "QST-KASR310PAT-ABOLMAGD-58",
+      "title": "Most common site of aortic aneurysm",
+      "question": "The most common site of aortic aneurysm is:",
+      "options": { "A": "Ascending aorta", "B": "Aorta distal to left subclavian artery", "C": "Aorta proximal to renal artery", "D": "Aorta distal to renal artery" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The ascending aorta is the site of syphilitic and Marfan-related aneurysms, but it is not the commonest site of aortic aneurysm overall.",
+        "B": "Incorrect. The descending thoracic aorta distal to the left subclavian is a less common site than the infrarenal abdominal aorta.",
+        "C": "Incorrect. The suprarenal segment (proximal to the renal arteries) is a less common site; most atherosclerotic aneurysms spare it.",
+        "D": "Correct. The commonest site of an (atherosclerotic) aortic aneurysm is the abdominal aorta DISTAL TO the renal arteries — the infrarenal segment, between the renal arteries and the aortic bifurcation. This region bears the heaviest atherosclerotic burden and its media lacks vasa vasorum, making the wall most vulnerable to aneurysmal dilatation. Hence the classic abdominal aortic aneurysm is infrarenal."
+      },
+      "main_concept": "CON-CVS-5F62ED84521083", "concept_ids": ["CON-CVS-5F62ED84521083"],
+      "subtopic": "Aneurysms",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that the commonest site of an aortic aneurysm is the abdominal aorta distal to the renal arteries (infrarenal).",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Abdominal aortic aneurysm"
+    },
+    {
+      "key": "q59", "id": "QST-KASR310PAT-ABOLMAGD-59",
+      "title": "Cerebral berry aneurysm — exception (autosomal recessive)",
+      "question": "These are for cerebral berry aneurysm except:",
+      "options": { "A": "They are commoner in women", "B": "They are commoner at the circle of Willis", "C": "They are inherited as autosomal recessive disease", "D": "They are the commonest cause of spontaneous subarachnoid haemorrhage" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS true). Berry aneurysms are somewhat commoner in women.",
+        "B": "Incorrect (this IS true). They cluster at the branch points of the circle of Willis, where the congenital medial defects lie.",
+        "C": "Correct. This statement is FALSE, so it is the exception: the heritable association of berry aneurysms is with AUTOSOMAL DOMINANT polycystic kidney disease, not an autosomal recessive disease. Berry aneurysms themselves arise from a congenital medial defect and are usually sporadic, but their recognised inherited link is autosomal dominant. Labelling them autosomal recessive reverses the inheritance pattern, which is the trap tested here.",
+        "D": "Incorrect (this IS true). Ruptured berry aneurysms are the commonest cause of spontaneous (non-traumatic) subarachnoid haemorrhage."
+      },
+      "main_concept": "CON-CVS-43209C35DA0F47", "concept_ids": ["CON-CVS-43209C35DA0F47"],
+      "contextual_concept_ids": ["CON-CVS-D28BA0F01F4ECC"],
+      "subtopic": "Aneurysms",
+      "learning_objective": "List the features of cerebral berry aneurysms and recognise their inherited link is autosomal dominant (polycystic kidney disease), not recessive.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Cerebral (berry) aneurysm"
+    },
+    {
+      "key": "q60", "id": "QST-KASR310PAT-ABOLMAGD-60",
+      "title": "False statement about varicose veins (pressure atrophy)",
+      "question": "The following is false about varicose veins:",
+      "options": { "A": "It is produced by prolonged, increased intraluminal venous pressure", "B": "Esophageal varices complicate portal hypertension", "C": "Risk factors include obesity", "D": "Causes pressure atrophy on surrounding structures" },
+      "correct": "D",
+      "page": 12,
+      "explanations": {
+        "A": "Incorrect (this IS true). Varicose veins are produced by prolonged, increased intraluminal venous pressure with valvular incompetence.",
+        "B": "Incorrect (this IS true). Oesophageal varices are the dilated collateral veins that complicate portal hypertension.",
+        "C": "Incorrect (this IS true). Obesity (along with pregnancy, prolonged standing and age) is a recognised risk factor.",
+        "D": "Correct. This statement is FALSE, so it is the answer: varicose veins do NOT cause pressure atrophy of surrounding structures. Pressure atrophy of adjacent tissues (e.g. vertebral erosion) is a feature of a pulsatile, high-pressure ARTERIAL aneurysm, not of low-pressure dilated veins. Attributing pressure atrophy to varicose veins confuses venous varices with arterial aneurysms, which is the error tested here."
+      },
+      "main_concept": "CON-CVS-60E3BE6E63F1E1", "concept_ids": ["CON-CVS-60E3BE6E63F1E1"],
+      "subtopic": "Veins",
+      "learning_objective": "Describe varicose veins and recognise that they do not cause pressure atrophy of surrounding structures.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Varicose veins"
+    },
+    {
+      "key": "q61", "hold": "Printed key = c (squamous cell carcinoma) but the stem asks which complications varicose veins 'include', and chronic non-healing ulcer, phlebitis and SCC (Marjolin ulcer in a chronic venous ulcer) are ALL recognised complications, so the defensible single answer is d (all of the above). Single-red key conflicts with the stem; excluded rather than teach a wrong single answer. Correct answer per medicine: D."
+    },
+    {
+      "key": "q62", "hold": "Verbatim duplicate of Q55 (identical stem 'Complication of abdominal aortic aneurysm include', identical options, same key d). Deduped within the bank; authored once as Q55."
+    },
+    {
+      "key": "q63", "id": "QST-KASR310PAT-ABOLMAGD-63",
+      "title": "Most important complication of varicose veins",
+      "question": "The most important complication of varicose veins is:",
+      "options": { "A": "Oedema", "B": "Hemorrhage", "C": "Aneurysm", "D": "Trophic skin changes" },
+      "correct": "B",
+      "page": 12,
+      "explanations": {
+        "A": "Incorrect. Stasis oedema is a common but comparatively minor complication, not the most important one per this source.",
+        "B": "Correct. This source rates HAEMORRHAGE as the most important complication of varicose veins: a thin-walled superficial varix can rupture through the atrophic overlying skin and bleed profusely, which can be dangerous if not controlled. The chronically raised venous pressure and the exposed, poorly supported varix make sudden haemorrhage the feared acute event. Oedema, aneurysm (an arterial lesion) and trophic skin changes are lesser or non-applicable answers.",
+        "C": "Incorrect. An aneurysm is an arterial wall dilatation and is not a complication of veins.",
+        "D": "Incorrect. Trophic skin changes (pigmentation, eczema, lipodermatosclerosis) accompany chronic venous insufficiency but are not rated the most important complication here."
+      },
+      "main_concept": "CON-CVS-019C029B5BCE11", "concept_ids": ["CON-CVS-019C029B5BCE11"],
+      "contextual_concept_ids": ["CON-CVS-60E3BE6E63F1E1"],
+      "subtopic": "Veins",
+      "author_notes": "Printed key = b (haemorrhage). 'Most important complication' is emphasis-dependent; some texts rank chronic venous ulceration highest. Authored to the printed key with the caveat in the concept uncertainty.",
+      "learning_objective": "Identify haemorrhage as the most important complication of varicose veins per this source.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Varicose veins"
+    },
+    {
+      "key": "q64", "hold": "Printed key = a (thrombosis) for 'PAN may be associated with any of the following except', but thrombosis (of inflamed segments), aneurysm (nodular microaneurysms), neuritis (mononeuritis multiplex) and hepatitis B virus infection (~30%) are ALL recognised associations of polyarteritis nodosa, so the item has no defensible 'except'. Excluded as a flawed key; no single option is medically the odd one out."
+    },
+    {
+      "key": "q65", "id": "QST-KASR310PAT-ABOLMAGD-65",
+      "title": "Complication of aneurysms (all of the above)",
+      "question": "One of the following is a complication of aneurysms:",
+      "options": { "A": "Rupture", "B": "Mural thrombus", "C": "Pressure on the surrounding structure", "D": "All of the above" },
+      "correct": "D",
+      "page": 12,
+      "explanations": {
+        "A": "Incorrect as the single answer. Rupture IS a complication (the major one), but it is not the only one listed.",
+        "B": "Incorrect as the single answer. Mural thrombus IS a complication (with risk of thromboembolism), but not the only one.",
+        "C": "Incorrect as the single answer. Pressure on surrounding structures IS a complication, but not the only one.",
+        "D": "Correct. ALL of the above are complications of an aneurysm: rupture with haemorrhage (the most feared), mural thrombosis within the sac (which can embolise), and pressure/erosion of surrounding structures. Because each listed item is a genuine complication, 'all of the above' is the correct answer. These mechanical and thrombotic complications, not neoplastic change, are what an aneurysm produces."
+      },
+      "main_concept": "CON-CVS-B291A270C10C2D", "concept_ids": ["CON-CVS-B291A270C10C2D"],
+      "subtopic": "Aneurysms",
+      "page": 12,
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Recognise rupture, mural thrombus and pressure on surrounding structures as complications of aneurysms.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aneurysm complications"
+    }
+  ]
+}
