@@ -184,3 +184,90 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-INF-309-MICRO-CHEMO-APPLIED
+## title
+Antimicrobial chemotherapy and applied bacteriology
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Microbiology
+## summary
+This article groups the antimicrobial-chemotherapy and applied-bacteriology facts tested by the paper: the principle of selective toxicity (harming the microbe, not the host), intrinsic resistance (natural absence of the drug target), the cell-wall mechanism of cephalosporins, the intracellular pathogenesis of enteric fever (replication in Peyer's-patch macrophages) and a diagnostic pitfall of brucellosis serology (blocking antibodies causing a false-negative tube agglutination test).
+## sections
+### Definition
+The cluster covers how antibiotics act and fail, and two applied points on the diagnosis and pathogenesis of enteric fever and brucellosis - the practical bacteriology examined alongside the organisms themselves.
+### Mechanism
+Selective toxicity exploits targets unique to bacteria; cephalosporins (beta-lactams) block peptidoglycan transpeptidation to stop cell-wall synthesis. Resistance is intrinsic when the species naturally lacks the drug target, as opposed to acquired mechanisms (enzymes, target modification, new pathways). In enteric fever the salmonella survives and multiplies inside Peyer's-patch macrophages before bacteraemia; in brucellosis, incomplete 'blocking' antibodies can prevent visible agglutination and produce a false-negative tube agglutination test.
+### Key determinants
+Discriminators tested here: selective toxicity (microbe vs host) versus broad spectrum or host-receptor definitions; intrinsic (absent target) versus acquired resistance; cephalosporin cell-wall action versus DNA-gyrase, 30S and membrane mechanisms; intracellular Peyer's-patch replication versus wrong reservoir/excretion/toxin statements; and the blocking-antibody cause of a false-negative Brucella agglutination versus vaccination, cross-reaction or intracellular survival.
+### Clinical significance
+These facts explain why antibiotics are safe and how they are chosen, why some organisms are inherently untreatable by a given drug, why beta-lactam allergy and cell-wall targeting matter, why typhoid is a systemic rather than purely diarrhoeal illness, and why a negative brucellosis agglutination titre must be interpreted with serial dilution or a Coombs test.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (selective toxicity misdefined; acquired mechanisms mislabelled intrinsic; wrong antibiotic mechanism; typhoid reservoir/excretion/toxin errors; false-negative brucellosis serology attributed to the wrong cause).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology
+## subtopic
+Applied microbiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+DIS-MIC
+## related_concepts
+CON-INF-6241D94125ACC0
+CON-INF-D50CC61AC33E86
+CON-INF-D5F8FA1652B842
+CON-INF-8911587C2AB78D
+CON-INF-31D7C835F6FF16
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+5

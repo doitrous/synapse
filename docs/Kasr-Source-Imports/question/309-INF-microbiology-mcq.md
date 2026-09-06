@@ -1807,3 +1807,534 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-9
+## title
+True statement regarding selective toxicity of antibiotics
+## question
+Which statement regarding selective toxicity of antibiotics is TRUE?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+It depends on the presence of a drug receptor in the host, but not in the organism.
+## explanation_a
+Incorrect. Selective toxicity depends on a target present in the ORGANISM but absent (or different) in the host - the opposite of a host-only receptor.
+## answer_b
+It is one of the complications of antibiotic therapy.
+## explanation_b
+Incorrect. Selective toxicity is the desired basis of therapy, not a complication of it.
+## answer_c
+It is the ability of the drug to harm the organism without harming the host.
+## explanation_c
+Correct. Selective toxicity is the ability of an antimicrobial to inhibit or kill the infecting organism while causing little or no harm to the host, by acting on microbial targets absent from human cells.
+## answer_d
+It is the ability of the drug to inhibit the growth of a wide range of pathogens.
+## explanation_d
+Incorrect. Inhibiting a wide range of pathogens defines a broad spectrum, which is a separate property from selective toxicity.
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## main_concept
+CON-INF-6241D94125ACC0
+## concept_ids
+CON-INF-6241D94125ACC0
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Define selective toxicity as harming the microbe without harming the host.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q9 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-52
+## title
+Example of intrinsic resistance to antibiotics
+## question
+Which one is an example of intrinsic resistance to antibiotics?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Production of β-lactamases
+## explanation_a
+Incorrect. Production of beta-lactamases is an acquired enzymatic resistance mechanism.
+## answer_b
+Alteration of 50S subunit of ribosomes
+## explanation_b
+Incorrect. Alteration of the 50S ribosomal subunit is an acquired target-modification mechanism.
+## answer_c
+Absence of receptors for the antibiotic
+## explanation_c
+Correct. Intrinsic (natural) resistance is inherent to the species - for example the natural absence of the antibiotic's receptor/target - so the organism is unaffected without acquiring any new genetic change.
+## answer_d
+Development of a new metabolic pathway
+## explanation_d
+Incorrect. Developing a new metabolic pathway to bypass a blocked step is an acquired resistance mechanism.
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## main_concept
+CON-INF-D50CC61AC33E86
+## concept_ids
+CON-INF-D50CC61AC33E86
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Give the natural absence of the drug target as an example of intrinsic resistance.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q52 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-61
+## title
+Mechanism of action of cephalosporins
+## question
+Cephalosporins are believed to exert their antibacterial effect by which of the following mechanisms?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Inhibition of bacterial cell wall synthesis
+## explanation_a
+Correct. Cephalosporins are beta-lactams: they bind penicillin-binding proteins and block the transpeptidation step of peptidoglycan synthesis, so the bacterium cannot build a competent cell wall.
+## answer_b
+Inhibition of DNA gyrase
+## explanation_b
+Incorrect. Inhibition of DNA gyrase is the mechanism of the fluoroquinolones.
+## answer_c
+Irreversible binding to the 30S subunit of bacterial ribosomes
+## explanation_c
+Incorrect. Irreversible binding to the 30S ribosomal subunit is characteristic of the aminoglycosides.
+## answer_d
+Interference with cell membrane function
+## explanation_d
+Incorrect. Interference with cell-membrane function is the mechanism of the polymyxins.
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## main_concept
+CON-INF-D5F8FA1652B842
+## concept_ids
+CON-INF-D5F8FA1652B842
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that cephalosporins inhibit bacterial cell-wall synthesis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q61 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-68
+## title
+Pathogenesis of enteric fever
+## question
+Which statement is CORRECT regarding the pathogenesis of enteric fever?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Cattle and sheep are the main reservoir of the disease
+## explanation_a
+Incorrect. Humans are the only reservoir of Salmonella Typhi; cattle and sheep are not.
+## answer_b
+The organism replicates intracellularly in macrophages of Peyer's patches
+## explanation_b
+Correct. In enteric fever the organism is taken up by macrophages of the Peyer's patches and replicates intracellularly within them before disseminating in the bloodstream.
+## answer_c
+The organism is excreted in feces during the first week of illness
+## explanation_c
+Incorrect. Faecal excretion is characteristic of the second-third week; in the first week the organism is found mainly in the blood.
+## answer_d
+Stimulation of adenylate cyclase causes diarrhea and vomiting
+## explanation_d
+Incorrect. Adenylate-cyclase stimulation with watery diarrhoea is the mechanism of cholera enterotoxin, not of enteric fever.
+## topic
+Microbiology
+## subtopic
+Enterobacteriaceae
+## main_concept
+CON-INF-8911587C2AB78D
+## concept_ids
+CON-INF-8911587C2AB78D
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Enterobacteriaceae (Salmonella)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that in enteric fever the organism replicates in Peyer's-patch macrophages.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q68 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-69
+## title
+Cause of false-negative Brucella tube agglutination
+## question
+Regarding diagnosis of brucellosis, false negative results obtained during standard tube agglutination test may be due to:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+History of previous vaccination
+## explanation_a
+Incorrect. Previous vaccination tends to raise the titre and cause false-positive, not false-negative, results.
+## answer_b
+Presence of blocking antibodies
+## explanation_b
+Correct. Incomplete (blocking) antibodies bind the antigen without producing visible agglutination, giving a false-negative tube agglutination test; serial dilution or an antiglobulin (Coombs) step unmasks the reaction.
+## answer_c
+Cross reaction with other bacteria
+## explanation_c
+Incorrect. Cross-reaction with other bacteria produces false-positive results, not false-negatives.
+## answer_d
+Intracellular survival of the organism
+## explanation_d
+Incorrect. Intracellular survival explains negative blood cultures, not a false-negative serological agglutination test.
+## topic
+Microbiology
+## subtopic
+Brucella
+## main_concept
+CON-INF-31D7C835F6FF16
+## concept_ids
+CON-INF-31D7C835F6FF16
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Single best answer
+## cognitive_effort
+High
+## cognitive_effort_score
+0.65
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+68
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Brucella
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Explain that blocking antibodies cause a false-negative Brucella tube agglutination test.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q69 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.

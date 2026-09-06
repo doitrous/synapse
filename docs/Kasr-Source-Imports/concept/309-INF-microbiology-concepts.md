@@ -1895,3 +1895,559 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-6241D94125ACC0
+## label
+Selective toxicity is harming the microbe without harming the host
+## canonical_key
+bacteria.chemotherapy.selective-toxicity-harm-microbe-not-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Selective toxicity is the principle underlying useful antimicrobial therapy: the ability of a drug to inhibit or kill the infecting organism while causing little or no harm to the host, achieved by acting on targets present in the microbe but absent (or different) in human cells.
+## explicit_objective
+Define selective toxicity as harming the organism without harming the host.
+## pitfalls
+It is not defined by a drug receptor in the host, is not a complication of therapy, and is not the same as broad spectrum (acting on many pathogens); the essence is differential harm to microbe versus host.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## article_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-D50CC61AC33E86
+## label
+Intrinsic antibiotic resistance is due to natural absence of the drug target
+## canonical_key
+bacteria.chemotherapy.intrinsic-resistance-absence-of-drug-target
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Intrinsic (natural) resistance is an inherent property of a bacterial species - such as the natural absence of the antibiotic's target or receptor - so the organism is unaffected by the drug without having to acquire any new genetic change.
+## explicit_objective
+Give the natural absence of the drug's receptor/target as an example of intrinsic antibiotic resistance.
+## pitfalls
+Producing beta-lactamases, altering the 50S ribosomal subunit and developing a new metabolic pathway are ACQUIRED resistance mechanisms; intrinsic resistance is the pre-existing lack of the target.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## article_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-D5F8FA1652B842
+## label
+Cephalosporins inhibit bacterial cell-wall synthesis
+## canonical_key
+bacteria.chemotherapy.cephalosporins-inhibit-cell-wall-synthesis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cephalosporins are beta-lactam antibiotics that, like penicillins, bind penicillin-binding proteins and inhibit the transpeptidation step of peptidoglycan (cell-wall) synthesis, so the growing bacterium cannot build a competent wall and lyses.
+## explicit_objective
+State that cephalosporins act by inhibiting bacterial cell-wall synthesis.
+## pitfalls
+Inhibiting DNA gyrase is the mechanism of quinolones; irreversible 30S binding is aminoglycosides; interference with the cell membrane is the polymyxins - cephalosporins, as beta-lactams, target cell-wall synthesis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Antimicrobial chemotherapy
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Applied microbiology > Antimicrobial chemotherapy
+## article_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-8911587C2AB78D
+## label
+In enteric fever Salmonella Typhi replicates in Peyer's-patch macrophages
+## canonical_key
+bacteria.salmonella-typhi.replicates-in-peyer-patch-macrophages
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the pathogenesis of enteric (typhoid) fever, Salmonella Typhi invades the intestinal mucosa, is taken up by macrophages of the Peyer's patches and replicates intracellularly within them, then disseminates via the bloodstream - a facultative intracellular, systemic infection.
+## explicit_objective
+State that in enteric fever the organism replicates intracellularly in the macrophages of Peyer's patches.
+## pitfalls
+Humans (not cattle/sheep) are the reservoir; the organism is excreted in faeces mainly in the second-third week (not the first); and diarrhoea is not driven by adenylate-cyclase stimulation (that is cholera). The key event is intracellular replication in Peyer's-patch macrophages.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Enterobacteriaceae
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Enterobacteriaceae (Salmonella)
+## article_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-31D7C835F6FF16
+## label
+Blocking antibodies cause false-negative Brucella tube agglutination
+## canonical_key
+bacteria.brucella.tube-agglutination-false-negative-blocking-antibodies
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In brucellosis, incomplete (blocking) antibodies can bind Brucella antigen without producing visible agglutination; at low serum dilutions they occupy the antigen and prevent lattice formation (a prozone-like effect), so the standard tube agglutination test reads falsely negative unless the serum is diluted further or an antiglobulin (Coombs) step is added.
+## explicit_objective
+Explain that blocking (incomplete) antibodies cause a false-negative standard tube agglutination test in brucellosis.
+## pitfalls
+The false-negative here is due to blocking antibodies, not to previous vaccination, cross-reaction with other bacteria, or the organism's intracellular survival; recognising the prozone/blocking effect prompts serial dilution or a Coombs test.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Brucella
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Brucella
+## article_ids
+ART-INF-309-MICRO-CHEMO-APPLIED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
