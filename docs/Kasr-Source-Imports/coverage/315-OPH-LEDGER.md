@@ -8,6 +8,7 @@
 | kamal-ch4-image-capture | 76 | 10 | 5 | 91 |
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
+| kamal-ch7-red-eye | 8 | 0 | 196 | 204 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -53,3 +54,16 @@
   + 13 reused existing Ch.1/Ch.6 concepts. All 3 added to ART-OPH-315-GLAUCOMA related_concepts.
 - Ch.6 now fully triaged: 54 authored + 17 held = 71. Remaining 0.
 - NEXT cluster: Ch.7 The red eye (198-answer key p.4-5), then Ch.8-15.
+
+## Tranche 12 (2026-09-06): Chapter 7 The red eye OPENED — Q1-8
+- Opened Ch.7 in new file question/315-OPH-kamal-ch7-red-eye-mcq.md on node DIS-OPH-T02 (Anterior segment)
+  and new article ART-OPH-315-RED-EYE. Authored 8 clean single-best (Q1-8); 0 held / 0 excluded in this slice.
+  Keys from answer-key p.4-5 Ch.7 table (198 answers), each re-verified vs option text.
+- Concepts: 8 new on DIS-OPH-T02 (viral conjunctivitis contagious CON-MUL-7BECB4DDEE36A9; miotics
+  contraindicated in uveitis CON-MUL-746158B6BA4249; trachoma cicatricial entropion CON-MUL-A4352E8F366A27;
+  panuveitis causes CON-MUL-71BC64755BDE49; steroids risk perforation in viral ulcer CON-MUL-9AAE962546455C;
+  HSV dendritic ulcer CON-MUL-77C43E82B7F450; fluorescein vital stain CON-MUL-4B8C31D10D2A75; corneal-ulcer
+  no-patch treatment CON-MUL-C23E4F2E6D41CF). All 8 grouped in ART-OPH-315-RED-EYE.
+- Ch.7 keys captured p.4-5: rows Q1-Q204 present EXCEPT Q59/Q63/Q72/Q76/Q84/Q172 (omitted -> HOLD, never guess);
+  a T/F (29 cases) section follows, out of scope. Q9-204 remain for later tranches.
+- NEXT cluster: Ch.7 Q9-onward (many single-best; watch for multi-statement vignettes/T-F), then Ch.8-15.

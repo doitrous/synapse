@@ -1,0 +1,252 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch7-red-eye",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 7 The red eye (conjunctivitis, keratitis and corneal ulcer, uveitis), MCQ Q1-8 opening slice, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.4-5 Chapter 7 table, 198 answers), each key re-verified against the option text. 8 authored (Q1-8) / 0 held / 0 excluded in this slice. Q9-204 remain for later tranches (key omits rows Q59/Q63/Q72/Q76/Q84/Q172 - hold when reached). Node DIS-OPH-T02 (Anterior segment), grouped in new ART-OPH-315-RED-EYE.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y3"
+    ],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > The red eye",
+    "exam_weight_by_year": {
+      "KAU_Y3": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-OPH-315-RED-EYE"
+    ],
+    "resource_ids": [
+      "src_c30b94e296cd15ba86c2"
+    ],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "The red eye",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Low",
+    "reasoning_level": 2,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.7 chapter->Q->letter table (p.4-5, 198 answers), re-verified against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q1",
+      "id": "QST-KASR315OPH-KAMAL-CH7-1",
+      "page": 69,
+      "title": "False statement about viral conjunctivitis",
+      "question": "In viral conjunctivitis, all of the following are true, EXCEPT:",
+      "options": {
+        "A": "It is self-limiting, resolving in about 14 days",
+        "B": "It is characterised by enlarged tender pre-auricular lymph nodes",
+        "C": "It is usually non-contagious",
+        "D": "It is one of the causes of follicular conjunctivitis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (a true statement). Viral (adenoviral) conjunctivitis is self-limiting and resolves over about two weeks.",
+        "B": "Incorrect (a true statement). A tender enlarged preauricular lymph node is characteristic of viral conjunctivitis.",
+        "C": "Correct. This is the false statement: viral conjunctivitis is highly CONTAGIOUS, spreading readily by contact and causing epidemics, so calling it non-contagious is wrong. The other statements are all true of it. Its contagiousness is exactly why hand hygiene and isolation are advised.",
+        "D": "Incorrect (a true statement). Viral conjunctivitis produces a follicular conjunctival reaction."
+      },
+      "subtopic": "Conjunctivitis",
+      "main_concept": "CON-MUL-7BECB4DDEE36A9",
+      "concept_ids": [
+        "CON-MUL-7BECB4DDEE36A9"
+      ],
+      "learning_objective": "Recognise that viral conjunctivitis is contagious, not non-contagious."
+    },
+    {
+      "key": "q2",
+      "id": "QST-KASR315OPH-KAMAL-CH7-2",
+      "page": 69,
+      "title": "Contraindicated drop in acute anterior uveitis",
+      "question": "A 37-year-old man presents with aching pain and blurred vision in the left eye for 5 days. Slit-lamp examination shows fine keratic precipitates, aqueous cells and flare. Which of the following medications is CONTRAINDICATED?",
+      "options": {
+        "A": "Topical corticosteroid eye drops",
+        "B": "Topical pilocarpine 2% eye drops",
+        "C": "Topical atropine 1% eye drops",
+        "D": "Topical timolol 0.5% eye drops"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Topical corticosteroids are a mainstay of treating anterior uveitis, to suppress the inflammation.",
+        "B": "Correct. Pilocarpine, a miotic, is contraindicated in acute anterior uveitis: constricting the inflamed pupil promotes posterior synechiae and worsens pain and inflammation. The pupil should instead be dilated with a cycloplegic such as atropine to rest the ciliary body and prevent synechiae. So the miotic is the contraindicated drop.",
+        "C": "Incorrect. Atropine, a cycloplegic, is exactly what is indicated to dilate the pupil and prevent synechiae.",
+        "D": "Incorrect. Timolol may be added if the pressure rises, and is not contraindicated."
+      },
+      "subtopic": "Anterior uveitis",
+      "main_concept": "CON-MUL-746158B6BA4249",
+      "concept_ids": [
+        "CON-MUL-746158B6BA4249"
+      ],
+      "learning_objective": "Identify miotics as contraindicated in acute anterior uveitis, where a cycloplegic is used.",
+      "reasoning_level": 3
+    },
+    {
+      "key": "q3",
+      "id": "QST-KASR315OPH-KAMAL-CH7-3",
+      "page": 69,
+      "title": "Complication of trachoma",
+      "question": "Complications of trachoma include:",
+      "options": {
+        "A": "Corneal descemetocele",
+        "B": "Cicatricial entropion",
+        "C": "Subconjunctival haemorrhage",
+        "D": "Ptosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A descemetocele is a complication of a deep corneal ulcer, not of trachoma.",
+        "B": "Correct. Trachoma scars the upper tarsal conjunctiva, and the contracting scar rolls the lid margin inward as a cicatricial entropion with trichiasis. The inturned lashes abrade and scar the cornea and can blind the eye. So cicatricial entropion is a classic trachoma complication.",
+        "C": "Incorrect. Subconjunctival haemorrhage is unrelated to trachoma.",
+        "D": "Incorrect. Trachoma causes cicatricial entropion rather than ptosis."
+      },
+      "subtopic": "Trachoma",
+      "main_concept": "CON-MUL-A4352E8F366A27",
+      "concept_ids": [
+        "CON-MUL-A4352E8F366A27"
+      ],
+      "learning_objective": "Recognise cicatricial entropion with trichiasis as a complication of trachoma."
+    },
+    {
+      "key": "q4",
+      "id": "QST-KASR315OPH-KAMAL-CH7-4",
+      "page": 69,
+      "title": "Disease that does not present with panuveitis",
+      "question": "Panuveitis is a common presentation in the following diseases, EXCEPT:",
+      "options": {
+        "A": "Behcet's disease",
+        "B": "Rheumatoid arthritis",
+        "C": "Vogt-Koyanagi-Harada syndrome",
+        "D": "Sarcoidosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it causes panuveitis). Behcet disease classically causes a panuveitis with hypopyon.",
+        "B": "Correct. Rheumatoid arthritis is the exception: its ocular disease is scleritis and keratoconjunctivitis sicca (dry eye), not panuveitis. Behcet, VKH and sarcoidosis are the systemic causes of panuveitis. So rheumatoid arthritis does not present as panuveitis.",
+        "C": "Incorrect (it causes panuveitis). Vogt-Koyanagi-Harada syndrome is a bilateral granulomatous panuveitis.",
+        "D": "Incorrect (it causes panuveitis). Sarcoidosis is a classic cause of granulomatous panuveitis."
+      },
+      "subtopic": "Uveitis",
+      "main_concept": "CON-MUL-71BC64755BDE49",
+      "concept_ids": [
+        "CON-MUL-71BC64755BDE49"
+      ],
+      "learning_objective": "Separate the systemic causes of panuveitis from rheumatoid arthritis."
+    },
+    {
+      "key": "q5",
+      "id": "QST-KASR315OPH-KAMAL-CH7-5",
+      "page": 69,
+      "title": "Danger of topical steroids in a viral corneal ulcer",
+      "question": "Topical steroids are contraindicated in a case of viral corneal ulcer for fear of:",
+      "options": {
+        "A": "Secondary uveitis",
+        "B": "Cortical cataract",
+        "C": "Corneal perforation",
+        "D": "Corneal opacity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Secondary uveitis is not the feared consequence of steroids in a herpetic ulcer.",
+        "B": "Incorrect. Cataract is a long-term steroid effect, not the acute danger in a viral ulcer.",
+        "C": "Correct. Topical steroids in a viral (herpes simplex) corneal ulcer suppress local immunity, allowing the dendritic ulcer to enlarge into a geographic ulcer and to deepen with stromal melting toward corneal perforation. This is the feared complication. So steroids are withheld for fear of perforation.",
+        "D": "Incorrect. Some scarring may occur, but the dangerous acute risk driving the contraindication is perforation."
+      },
+      "subtopic": "Corneal ulcer",
+      "main_concept": "CON-MUL-9AAE962546455C",
+      "concept_ids": [
+        "CON-MUL-9AAE962546455C"
+      ],
+      "learning_objective": "Explain that topical steroids in a viral corneal ulcer risk corneal perforation."
+    },
+    {
+      "key": "q6",
+      "id": "QST-KASR315OPH-KAMAL-CH7-6",
+      "page": 69,
+      "title": "True statement about herpes simplex keratitis",
+      "question": "As regards herpes simplex, which statement is true?",
+      "options": {
+        "A": "It typically shows as an epithelial dendritic ulcer",
+        "B": "It typically causes retinal detachment",
+        "C": "It is mainly treated by topical antibiotics",
+        "D": "It is never a recurrent problem"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Herpes simplex keratitis typically presents as a branching epithelial dendritic ulcer that stains with fluorescein. It is treated with topical antivirals such as acyclovir, and it is characteristically recurrent. So the dendritic ulcer is its typical presentation.",
+        "B": "Incorrect. Herpes simplex keratitis does not cause retinal detachment.",
+        "C": "Incorrect. It is treated with a topical antiviral, not antibiotics.",
+        "D": "Incorrect. Herpes simplex keratitis is characteristically a recurrent disease."
+      },
+      "subtopic": "Herpes simplex keratitis",
+      "main_concept": "CON-MUL-77C43E82B7F450",
+      "concept_ids": [
+        "CON-MUL-77C43E82B7F450"
+      ],
+      "learning_objective": "Recognise the dendritic epithelial ulcer as the typical presentation of herpes simplex keratitis."
+    },
+    {
+      "key": "q7",
+      "id": "QST-KASR315OPH-KAMAL-CH7-7",
+      "page": 69,
+      "title": "Best vital stain for a corneal ulcer",
+      "question": "The best vital stain to detect a corneal ulcer is:",
+      "options": {
+        "A": "Fluorescein stain",
+        "B": "Rose Bengal stain",
+        "C": "Trypan blue stain",
+        "D": "Lissamine green stain"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Fluorescein is the best vital stain to detect a corneal ulcer: it pools in and stains areas of denuded epithelium bright green under cobalt-blue light, outlining the ulcer and its dendritic or geographic shape. It is the standard bedside stain for an epithelial defect. So fluorescein is the answer.",
+        "B": "Incorrect. Rose Bengal stains devitalised cells and mucus (useful in dry eye), not the first choice for an ulcer.",
+        "C": "Incorrect. Trypan blue is used to stain the anterior capsule during cataract surgery, not to detect an ulcer.",
+        "D": "Incorrect. Lissamine green stains devitalised cells like Rose Bengal, not the ulcer bed."
+      },
+      "subtopic": "Corneal ulcer",
+      "main_concept": "CON-MUL-4B8C31D10D2A75",
+      "concept_ids": [
+        "CON-MUL-4B8C31D10D2A75"
+      ],
+      "learning_objective": "Select fluorescein as the vital stain used to detect a corneal ulcer."
+    },
+    {
+      "key": "q8",
+      "id": "QST-KASR315OPH-KAMAL-CH7-8",
+      "page": 70,
+      "title": "Correct treatment of a corneal ulcer",
+      "question": "A corneal ulcer should be treated as follows:",
+      "options": {
+        "A": "Topical antimicrobial eye drops, cycloplegia, eye patching",
+        "B": "Topical antimicrobial eye drops, cycloplegia, no eye patching",
+        "C": "Oral antibiotics, cycloplegia, eye patching",
+        "D": "Oral antibiotics, cycloplegia, no eye patching"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The correct treatment uses topical drops but the eye must NOT be patched.",
+        "B": "Correct. An infective corneal ulcer is treated with intensive topical antimicrobial drops and a cycloplegic for comfort and to prevent synechiae, and the eye is NOT patched. Patching creates a warm moist closed space that encourages microbial growth and can worsen the infection. So topical antimicrobials, cycloplegia and no patch is correct.",
+        "C": "Incorrect. Treatment is by topical, not oral, antimicrobials, and the eye is not patched.",
+        "D": "Incorrect. The mainstay is topical antimicrobials rather than oral antibiotics."
+      },
+      "subtopic": "Corneal ulcer",
+      "main_concept": "CON-MUL-C23E4F2E6D41CF",
+      "concept_ids": [
+        "CON-MUL-C23E4F2E6D41CF"
+      ],
+      "learning_objective": "State that an infective corneal ulcer is treated with topical antimicrobials and cycloplegia, without patching."
+    }
+  ]
+}

@@ -21453,3 +21453,892 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q59) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-7BECB4DDEE36A9
+## label
+Viral conjunctivitis is highly contagious and follicular, with a watery discharge and a preauricular node
+## canonical_key
+ophthalmology.viral-conjunctivitis.contagious-follicular-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Viral conjunctivitis, usually adenoviral, is highly contagious and spreads by contact, and it is self-limiting over about two weeks. It produces a follicular conjunctival reaction with a watery discharge and a tender, enlarged preauricular lymph node. Describing it as non-contagious is therefore wrong.
+## explicit_objective
+List the features of viral conjunctivitis and recognise that it is contagious, not non-contagious.
+## pitfalls
+Calling viral conjunctivitis non-contagious; it is in fact highly contagious, which is why it spreads in epidemics.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Conjunctivitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Conjunctivitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q1) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-746158B6BA4249
+## label
+Miotics such as pilocarpine are contraindicated in acute anterior uveitis; a cycloplegic is used instead
+## canonical_key
+ophthalmology.acute-anterior-uveitis.miotics-contraindicated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In acute anterior uveitis (iridocyclitis) the pupil is dilated with a cycloplegic such as atropine to rest the inflamed ciliary body, relieve pain and prevent posterior synechiae. A miotic such as pilocarpine is contraindicated, because constricting the inflamed pupil promotes synechiae and aggravates the inflammation. So pilocarpine is the contraindicated drop here.
+## explicit_objective
+Recognise that miotics are contraindicated and cycloplegics indicated in acute anterior uveitis.
+## pitfalls
+Giving pilocarpine to a red painful eye assuming it is glaucoma; in anterior uveitis a miotic worsens synechiae and pain.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Anterior uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Anterior uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q2) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A4352E8F366A27
+## label
+Trachoma scars the tarsal conjunctiva and causes cicatricial entropion with trichiasis
+## canonical_key
+ophthalmology.trachoma.complication-cicatricial-entropion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic trachoma (Chlamydia trachomatis) scars the upper tarsal conjunctiva; the contracting scar rolls the lid margin inward as a cicatricial entropion, turning the lashes against the cornea (trichiasis). The abrading lashes scar the cornea and can blind the eye. So cicatricial entropion is a classic trachoma complication.
+## explicit_objective
+Identify cicatricial entropion (with trichiasis) as a complication of trachoma.
+## pitfalls
+Attributing subconjunctival haemorrhage or ptosis to trachoma; its hallmark late complication is cicatricial entropion with trichiasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q3) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-71BC64755BDE49
+## label
+Behcet, VKH and sarcoidosis cause panuveitis; rheumatoid arthritis does not
+## canonical_key
+ophthalmology.panuveitis.causes-exclude-rheumatoid-arthritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Panuveitis, inflammation of the whole uveal tract, is characteristic of Behcet disease, Vogt-Koyanagi-Harada syndrome and sarcoidosis. Rheumatoid arthritis is the exception: it is associated with scleritis and keratoconjunctivitis sicca (dry eye), not panuveitis. So rheumatoid arthritis does not present as panuveitis.
+## explicit_objective
+Separate the systemic causes of panuveitis from rheumatoid arthritis, which causes scleritis and dry eye.
+## pitfalls
+Listing rheumatoid arthritis among panuveitis causes; its ocular disease is scleritis and dry eye, not panuveitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q4) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9AAE962546455C
+## label
+Topical steroids in a viral (herpetic) corneal ulcer risk deepening and corneal perforation
+## canonical_key
+ophthalmology.viral-corneal-ulcer.topical-steroids-risk-perforation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical corticosteroids are contraindicated in a viral (herpes simplex) corneal ulcer: they suppress local immunity, allowing the epithelial dendritic ulcer to enlarge into a geographic ulcer and to deepen with stromal melting. This can progress to corneal perforation. So steroids are withheld for fear of perforation.
+## explicit_objective
+Explain why topical steroids are contraindicated in a viral corneal ulcer, the risk being perforation.
+## pitfalls
+Using steroids to quieten a red herpetic eye; they enlarge the dendritic ulcer and can perforate the cornea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q5) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-77C43E82B7F450
+## label
+Herpes simplex keratitis typically causes a branching epithelial dendritic ulcer and recurs
+## canonical_key
+ophthalmology.herpes-simplex-keratitis.dendritic-ulcer
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Herpes simplex keratitis typically presents as a branching epithelial dendritic ulcer that stains with fluorescein. It is a recurrent disease treated with topical antivirals such as acyclovir, not antibiotics, and it does not cause retinal detachment. So the dendritic ulcer is its typical presentation.
+## explicit_objective
+Recognise the dendritic epithelial ulcer as the typical, recurrent presentation of herpes simplex keratitis.
+## pitfalls
+Treating a dendritic ulcer with topical antibiotics or steroids; it needs a topical antiviral, and steroids are harmful.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Herpes simplex keratitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Herpes simplex keratitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q6) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4B8C31D10D2A75
+## label
+Fluorescein is the best vital stain to detect a corneal epithelial ulcer
+## canonical_key
+ophthalmology.corneal-ulcer.fluorescein-vital-stain
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fluorescein is the vital stain of choice to detect a corneal ulcer: it pools in and stains areas of denuded epithelium bright green under cobalt-blue light, outlining the ulcer and revealing a dendritic or geographic shape. Rose Bengal and lissamine green stain devitalised cells and mucus but are not the first choice for an epithelial ulcer. So fluorescein is the best stain.
+## explicit_objective
+Select fluorescein as the vital stain that detects a corneal epithelial ulcer.
+## pitfalls
+Choosing Rose Bengal or lissamine green to detect an ulcer; those stain devitalised cells, while fluorescein outlines an epithelial defect.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q7) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C23E4F2E6D41CF
+## label
+An infective corneal ulcer is treated with topical antimicrobials and cycloplegia, without patching
+## canonical_key
+ophthalmology.corneal-ulcer.treatment-topical-antimicrobial-no-patch
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An infective corneal ulcer is treated with intensive topical antimicrobial drops and a cycloplegic for comfort and to prevent synechiae. The eye is NOT patched, because an occluded warm moist eye encourages microbial growth and can worsen the infection. So the regimen is topical antimicrobials, cycloplegia and no patch.
+## explicit_objective
+State that an infective corneal ulcer is managed with topical antimicrobials and cycloplegia and is not patched.
+## pitfalls
+Patching an infected ulcer or relying on oral antibiotics; a warm closed eye favours the organism and topical therapy is the mainstay.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q8) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

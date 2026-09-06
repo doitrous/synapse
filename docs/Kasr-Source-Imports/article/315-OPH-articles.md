@@ -676,3 +676,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Chapter-6 glaucoma concepts (MCQ Q1-35 authored). Filed under the verified node DIS-OPH-T03 (Glaucoma). Chapter 6 has 70 keyed MCQs (answer key p.3-4; only Q36 omitted). Q1-8 authored the opening slice; Q9-35 authored this tranche (25 clean single-best MCQs; Q26 and Q31 held). Ten new concepts added this tranche (glaucoma diagnostic tools; POAG asymptomatic/disc-analysis; glaucomatous disc signs; antiglaucoma drug classes; untreated glaucoma blindness; steroid-induced glaucoma; POAG risk factors; lens-induced glaucoma treated by cataract extraction; mitomycin-C/trabeculectomy; absolute glaucoma). Two Chapter-1/Chapter-4 concepts are reused for coverage (CON-MUL-CEC20322850905 aqueous drainage for Q17/Q21; CON-MUL-87C1044D003495 intumescent-cataract angle closure for Q28). Q37-71 remain for the next tranche (many are clean single-best; Q46-55, Q61, Q66 are multi-statement vignettes for adjudication).
 ## reading_time
 4
+
+
+---
+
+# Item
+## id
+ART-OPH-315-RED-EYE
+## title
+Ophthalmology: the red eye (conjunctivitis, corneal ulcer, keratitis and uveitis)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 7 of the question bank (The red eye) and groups the anterior-segment causes of a red eye tested by the opening MCQ slice (Q1-8). It covers viral conjunctivitis (highly contagious, follicular, watery discharge with a preauricular node), trachoma and its scarring complication of cicatricial entropion with trichiasis, the corneal ulcer (best detected with fluorescein and treated with topical antimicrobials and cycloplegia without patching), herpes simplex keratitis (a recurrent branching dendritic ulcer in which topical steroids are contraindicated for fear of perforation), and acute anterior uveitis and panuveitis (managed with a cycloplegic, not a miotic, and caused systemically by Behcet, VKH and sarcoidosis but not rheumatoid arthritis).
+## sections
+### Definition
+A red eye is the shared presentation of the acute external and anterior-segment diseases in Chapter 7: conjunctivitis, keratitis and corneal ulcer, and uveitis. This article gathers the opening Chapter-7 concepts on how each is recognised, stained, and treated, and the drugs that are contraindicated in each. Each linked concept states one atomic fact about the red eye.
+### Mechanism
+Redness comes from dilated conjunctival or ciliary vessels: a superficial conjunctival injection in conjunctivitis, a deeper ciliary (circumcorneal) injection in keratitis and iritis. Adenovirus inflames the conjunctiva as a contagious follicular reaction; Chlamydia scars the tarsal conjunctiva and turns the lid inward; bacteria, herpes simplex and other organisms ulcerate the cornea; and immune-mediated disease inflames the uveal tract as iritis or panuveitis. The management of each follows from its mechanism, including which mydriatic or anti-inflammatory agent is safe.
+### Key determinants
+Discriminators tested here: viral conjunctivitis is contagious (not non-contagious); trachoma's late complication is cicatricial entropion with trichiasis (not haemorrhage or ptosis); a corneal ulcer is detected with fluorescein (not Rose Bengal) and treated with topical antimicrobials and cycloplegia without patching; herpes simplex keratitis is a recurrent dendritic ulcer in which topical steroids risk perforation; and acute anterior uveitis is dilated with a cycloplegic while a miotic is contraindicated, with panuveitis pointing to Behcet, VKH or sarcoidosis rather than rheumatoid arthritis.
+### Clinical significance
+These facts underlie the safe first management of a red eye: recognising a contagious viral conjunctivitis, referring trachomatous trichiasis before it scars the cornea, staining and treating an infective corneal ulcer without patching it, withholding steroids from a herpetic ulcer, and using a cycloplegic rather than a miotic in acute uveitis while looking for its systemic cause.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (viral conjunctivitis as non-contagious, steroids or antibiotics for a dendritic ulcer, patching an infective ulcer, a miotic for a uveitic eye, and rheumatoid arthritis as a cause of panuveitis).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye
+## subtopic
+The red eye
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-7BECB4DDEE36A9
+CON-MUL-746158B6BA4249
+CON-MUL-A4352E8F366A27
+CON-MUL-71BC64755BDE49
+CON-MUL-9AAE962546455C
+CON-MUL-77C43E82B7F450
+CON-MUL-4B8C31D10D2A75
+CON-MUL-C23E4F2E6D41CF
+## related_articles
+ART-OPH-315-GLAUCOMA
+ART-OPH-315-PROTECTIVE-SYSTEM
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 7 (The red eye) on the verified node DIS-OPH-T02 (Anterior segment). Chapter 7 has 198 keyed MCQs (answer key p.4-5). Q1-8 authored the opening slice (8 clean single-best items); eight new anterior-segment concepts added (viral conjunctivitis; miotics contraindicated in uveitis; trachoma cicatricial entropion; panuveitis causes; steroids risk perforation in viral ulcer; herpes simplex dendritic ulcer; fluorescein vital stain; corneal-ulcer treatment without patching). Q9-204 remain for later tranches (answer key omits rows Q59/Q63/Q72/Q76/Q84/Q172 - hold when reached; several are multi-statement vignettes and T/F cases for adjudication).
+## reading_time
+4
