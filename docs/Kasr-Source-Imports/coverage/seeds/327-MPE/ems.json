@@ -1,0 +1,55 @@
+{
+  "lane": "KASR327MPE",
+  "cluster": "ems",
+  "header": "Kasr Al Ainy 327 MPE Ethics (Year 3) · Egyptian Medical Syndicate (EMS) section, opening MCQ (Q1) from the MPE 327 PY Answered previous-years question bank. Correct answer from the yellow-highlight fill (pagetext keys; p3 render-confirmed), cross-checked against the printed option text. True/False items in this section (Q2, Q3) are excluded. Ethics has no body-system code, so the concept is CON-MUL- / subject mul, filed on the DIS-PEC (Professionalism, Ethics & Communication) discipline node T05 Professional conduct.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "327 MPE",
+    "module_subject": "327 MPE > Medical Professionalism & Ethics > Professional conduct",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "topic": "Medical Professionalism & Ethics",
+    "question_only_for": "",
+    "library_ids": ["ART-MPE-327-MEDICAL-ERROR-TAXONOMY"],
+    "resource_ids": ["src_d21e884926be1b92ec4a"],
+    "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Egyptian medical syndicate section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+    "setting": "Academic",
+    "exam_relevance": 5,
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "ems-q01",
+      "id": "QST-KASR327MPE-EMS-Q01",
+      "page": 3,
+      "title": "General law regulating the Egyptian medical profession",
+      "question": "One of the following is a General Law that regulates the Egyptian medical profession:",
+      "options": {
+        "A": "The Penal Code",
+        "B": "Profession Ethics Regulations 238/2003",
+        "C": "Law No. 415/1954 for practice of the medical profession",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The Penal Code is a GENERAL law — it applies to everyone and to all conduct, including doctors, and so it is one of the general laws that regulate the medical profession. General laws are distinguished from special (specific) laws that are written to govern a particular activity. Because the Penal Code governs criminal liability for all citizens, it counts as a general law bearing on medical practice.",
+        "B": "Incorrect. The Profession Ethics Regulations 238/2003 are a special regulation issued specifically for the medical profession, not a general law.",
+        "C": "Incorrect. Law No. 415/1954 for the practice of the medical profession is the classic SPECIAL law governing medical practice specifically, not a general law.",
+        "D": "Incorrect. Option A (the Penal Code) is a valid general law, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-MUL-D84ACD28336CDB",
+      "concept_ids": ["CON-MUL-D84ACD28336CDB"],
+      "subtopic": "Egyptian Medical Syndicate and the regulation of practice",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish general laws (e.g. the Penal Code) from special laws (Law 415/1954) regulating the Egyptian medical profession.",
+      "field_notes": { "keySource": "yellow-highlight fill, p3 render-confirmed", "batchTag": "[Dep Revision]" }
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "lane": "KASR327MPE",
+  "cluster": "medical-errors",
+  "header": "Kasr Al Ainy 327 MPE Ethics (Year 3) · Medical errors section MCQs from the MPE 327 PY Answered previous-years question bank (student compilation, native text). Correct answers from the yellow-highlight fill on the correct option (pagetext keys; p3 render-confirmed), each cross-checked against the printed option text. This seed authors the 15 UNIQUE Medical-errors MCQs (Q4,5,6,7,8,9,12,18,20,21,23,24,25,26,27); 6 in-section exact duplicates (Q10/Q11/Q13/Q16/Q17/Q19) and one two-correct-answer stem (Q15) are held, True/False items excluded. Ethics has no body-system code, so concepts are CON-MUL- / subject mul, filed on the real DIS-PEC (Professionalism, Ethics & Communication) discipline nodes.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "327 MPE",
+    "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "topic": "Medical Professionalism & Ethics",
+    "question_only_for": "",
+    "library_ids": ["ART-MPE-327-MEDICAL-ERROR-TAXONOMY"],
+    "resource_ids": ["src_d21e884926be1b92ec4a"],
+    "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+    "setting": "Academic",
+    "exam_relevance": 5,
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "medical-errors-q04",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q04",
+      "page": 3,
+      "title": "Commonest source of laboratory errors",
+      "question": "Most lab errors are due to:",
+      "options": {
+        "A": "Pre-analytical errors",
+        "B": "Analytical errors",
+        "C": "Post-analytical errors",
+        "D": "Samples mixed up"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The great majority of laboratory errors arise in the pre-analytical phase — everything that happens before the sample is actually measured, such as test ordering, patient identification, sample collection, labelling and transport. Studies consistently attribute roughly two-thirds of all lab errors to this stage, because it involves many manual, human-dependent steps. Reducing pre-analytical error (correct identification, correct tube, correct handling) therefore yields the biggest improvement in laboratory safety.",
+        "B": "Incorrect. Analytical errors — those occurring during the actual measurement on the analyser — are now relatively uncommon because of automation and internal quality control.",
+        "C": "Incorrect. Post-analytical errors (result transcription, reporting, interpretation) are a real but smaller contributor than the pre-analytical phase.",
+        "D": "Incorrect. Mixing up samples is one specific example of a pre-analytical error, not the overarching category the question asks for."
+      },
+      "main_concept": "CON-MUL-5CCC9290C887E1",
+      "concept_ids": ["CON-MUL-5CCC9290C887E1"],
+      "subtopic": "Laboratory errors",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that most laboratory errors occur in the pre-analytical phase.",
+      "field_notes": { "keySource": "yellow-highlight fill, p3 render-confirmed", "batchTag": "[196 1st]" }
+    },
+    {
+      "key": "medical-errors-q05",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q05",
+      "page": 4,
+      "title": "Outdated surgical technique causing a patient's death",
+      "question": "The surgeon used old techniques that prolonged the operation and resulted in great exhaustion of the patient, who became shocked and died on table. This case is considered:",
+      "options": {
+        "A": "Anesthetic error",
+        "B": "Professional misconduct",
+        "C": "No medical responsibility",
+        "D": "Surgical error"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The harm arose from the surgical conduct of the operation, not from the administration of anaesthesia, so it is not an anaesthetic error.",
+        "B": "Incorrect. Professional misconduct denotes ethical or disciplinary violations (e.g. dishonesty, breach of confidentiality); using an outdated operative technique is a competence/standard-of-care failure, classified here as a surgical error.",
+        "C": "Incorrect. A patient died as a direct result of substandard surgical technique, so medical responsibility clearly exists rather than being absent.",
+        "D": "Correct. Using outdated techniques that needlessly prolonged the operation, exhausted the patient and led to fatal shock is a failure of surgical standard of care, i.e. a surgical error. The doctor is responsible because the outcome followed from not applying accepted current technique. Such errors fall under professional negligence when they cause harm the reasonably competent surgeon would have avoided."
+      },
+      "main_concept": "CON-MUL-C88F76100B04D9",
+      "concept_ids": ["CON-MUL-C88F76100B04D9"],
+      "subtopic": "Surgical error",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Classify harm from an outdated, prolonged operative technique as a surgical error carrying medical responsibility.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[196 1st]" }
+    },
+    {
+      "key": "medical-errors-q06",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q06",
+      "page": 4,
+      "title": "Prescribing without checking a patient's allergy",
+      "question": "A doctor prescribing a drug without considering the patient's allergy is doing a:",
+      "options": {
+        "A": "Dichotomy",
+        "B": "Civil negligence",
+        "C": "Medication error",
+        "D": "Professional misconduct"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Dichotomy (fee-splitting) is an unethical financial arrangement between doctors and has nothing to do with prescribing.",
+        "B": "Incorrect. Civil negligence is a legal consequence that may follow if harm results; the act of prescribing without checking the allergy is itself categorised as a medication error.",
+        "C": "Correct. Prescribing a drug without accounting for the patient's known allergy is a medication error — specifically a prescribing error — because a wrong decision is made at the ordering stage of the medication process. Checking allergies is a basic prescribing safeguard, and omitting it can cause a preventable adverse drug reaction. It is classified by the step at which it occurs (prescription) rather than by any later legal label.",
+        "D": "Incorrect. Professional misconduct refers to ethical/disciplinary breaches; failing to check an allergy is a patient-safety/medication error, not a conduct offence."
+      },
+      "main_concept": "CON-MUL-A0C16FE55AD5A6",
+      "concept_ids": ["CON-MUL-A0C16FE55AD5A6"],
+      "subtopic": "Medication error",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify prescribing without checking a known allergy as a (prescribing) medication error.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[196 1st]" }
+    },
+    {
+      "key": "medical-errors-q07",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q07",
+      "page": 4,
+      "title": "Example of an error of omission",
+      "question": "Which of the following is considered an error of omission?",
+      "options": {
+        "A": "Administration of overdose of anesthesia",
+        "B": "Giving wrong dose",
+        "C": "Leaving a towel in abdomen",
+        "D": "Unlabeled samples"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Giving an overdose is an act that was done wrongly — an error of commission, not omission.",
+        "B": "Incorrect. Giving the wrong dose is a wrong action performed, i.e. an error of commission.",
+        "C": "Incorrect. Leaving a towel (retained swab) in the abdomen is something actively done incorrectly during the operation — a commission error.",
+        "D": "Correct. An error of omission is a failure to do something that should have been done. Leaving samples unlabelled is the omission of a required step (labelling), so it is the classic omission example here. Omission errors contrast with commission errors, which are wrong acts that were actually carried out."
+      },
+      "main_concept": "CON-MUL-01F43895CA9938",
+      "concept_ids": ["CON-MUL-01F43895CA9938"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety",
+      "subtopic": "Error of omission",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish an error of omission (failure to act, e.g. unlabelled samples) from errors of commission.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[194 1st]", "sourceDuplicates": "Q10 is an exact duplicate of this item (held)" }
+    },
+    {
+      "key": "medical-errors-q08",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q08",
+      "page": 4,
+      "title": "Which is NOT an error of commission",
+      "question": "Which of the following is NOT considered an error of commission?",
+      "options": {
+        "A": "Administration of overdose of anesthesia",
+        "B": "Delay in diagnosis of a disease",
+        "C": "Giving wrong dose",
+        "D": "Performing on wrong patient"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it IS commission). Administering an overdose is a wrong act carried out, an error of commission.",
+        "B": "Correct. A delay in diagnosis is a failure to act in time — an error of omission — so it is the one that is NOT a commission error. Errors of commission are wrong actions actually performed (overdose, wrong dose, wrong patient), whereas omission errors are failures to do something indicated. The delayed diagnosis fits the omission pattern of not doing what should have been done.",
+        "C": "Incorrect (it IS commission). Giving the wrong dose is a wrong action performed.",
+        "D": "Incorrect (it IS commission). Operating on the wrong patient is an active wrong act, a commission error."
+      },
+      "main_concept": "CON-MUL-54859C1BE34B98",
+      "concept_ids": ["CON-MUL-54859C1BE34B98"],
+      "subtopic": "Error of commission",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise a delayed diagnosis as an omission error, not a commission error.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[194 1st]" }
+    },
+    {
+      "key": "medical-errors-q09",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q09",
+      "page": 4,
+      "title": "Example of an error of commission",
+      "question": "Which of the following is considered an error of commission?",
+      "options": {
+        "A": "Delayed indicated surgery",
+        "B": "Not considering history of patient's allergy",
+        "C": "Leaving a towel in the abdomen",
+        "D": "Unsuccessful treatment"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Delaying an indicated operation is a failure to act in time — an error of omission.",
+        "B": "Incorrect. Not considering a known allergy is a failure to perform a required check, i.e. an omission.",
+        "C": "Correct. Leaving a towel (retained surgical swab) in the abdomen is a wrong act actually carried out during surgery, which is the definition of an error of commission. Commission errors are things done incorrectly, as opposed to omission errors which are things not done. A retained foreign body is the textbook operative commission error.",
+        "D": "Incorrect. An unsuccessful treatment outcome is not in itself an error; a poor result can occur despite correct care and does not fit the commission category."
+      },
+      "main_concept": "CON-MUL-54859C1BE34B98",
+      "concept_ids": ["CON-MUL-54859C1BE34B98"],
+      "subtopic": "Error of commission",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify a retained surgical towel as an error of commission.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[193 2nd]" }
+    },
+    {
+      "key": "medical-errors-q12",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q12",
+      "page": 5,
+      "title": "Safe writing of medication orders",
+      "question": "Medication orders should NOT:",
+      "options": {
+        "A": "Contain abbreviations or decimals",
+        "B": "Be written",
+        "C": "Include the medication's purpose",
+        "D": "Consider patient-specific information"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Medication orders should not contain error-prone abbreviations or unnecessary decimal points, because these are a well-recognised source of dosing mistakes (e.g. a trailing zero or an ambiguous abbreviation misread as a different drug or a tenfold dose). Safe-prescribing standards call for writing terms out in full and avoiding trailing/naked decimals. This is why the negative item — what an order should not contain — is abbreviations or decimals.",
+        "B": "Incorrect. Orders must of course be written (or otherwise clearly documented); an unwritten order is unsafe, so this is not what they should avoid.",
+        "C": "Incorrect. Including the medication's purpose (indication) improves safety and is encouraged, not prohibited.",
+        "D": "Incorrect. Orders should always consider patient-specific information such as weight, renal function and allergies."
+      },
+      "main_concept": "CON-MUL-CE8268AE7AE7B9",
+      "concept_ids": ["CON-MUL-CE8268AE7AE7B9"],
+      "subtopic": "Medication safety",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that medication orders should avoid error-prone abbreviations and decimals.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[192 2nd]", "sourceDuplicates": "Q17 is an exact duplicate of this item (held)" }
+    },
+    {
+      "key": "medical-errors-q18",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q18",
+      "page": 6,
+      "title": "Cause of an error of omission",
+      "question": "Error of omission occurs as a result of:",
+      "options": {
+        "A": "Drugs administered at the wrong time",
+        "B": "Surgery performed on the wrong side of the body",
+        "C": "Delay in performing an indicated appendectomy",
+        "D": "Transfusion using blood cross-matched for another patient"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Administering a drug at the wrong time is a wrong act performed — a commission error.",
+        "B": "Incorrect. Wrong-side surgery is an active wrong act, i.e. an error of commission.",
+        "C": "Correct. Delaying an indicated appendectomy is a failure to perform a needed action in time, which is the essence of an error of omission. Omission errors are failures to act (not doing what should be done), in contrast to commission errors which are wrong acts carried out. The delayed indicated operation is therefore the omission example.",
+        "D": "Incorrect. Transfusing blood cross-matched for another patient is a wrong act performed, a commission error."
+      },
+      "main_concept": "CON-MUL-01F43895CA9938",
+      "concept_ids": ["CON-MUL-01F43895CA9938"],
+      "subtopic": "Error of omission",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise a delayed indicated operation as an error of omission.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q20",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q20",
+      "page": 6,
+      "title": "Purpose of using the metric system in dosing",
+      "question": "Using the metric system in weight expression is needed to avoid:",
+      "options": {
+        "A": "Surgical errors",
+        "B": "Anesthetic errors",
+        "C": "Laboratory errors",
+        "D": "Medication errors"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Surgical errors relate to operative technique, not to the units used for expressing weight or dose.",
+        "B": "Incorrect. Anaesthetic errors concern the conduct of anaesthesia; standardising weight units is not aimed at them specifically.",
+        "C": "Incorrect. Laboratory errors are dominated by pre-analytical sample handling, not by dosing units.",
+        "D": "Correct. Expressing weight and dose consistently in the metric system avoids medication errors, because mixing units (e.g. apothecary measures, teaspoons) or ambiguous notation leads to dosing mistakes. Using a single standard unit system removes conversion errors and makes orders unambiguous. Standardised metric dosing is a core medication-safety measure."
+      },
+      "main_concept": "CON-MUL-3A74DA5F064FF9",
+      "concept_ids": ["CON-MUL-3A74DA5F064FF9"],
+      "subtopic": "Medication safety",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that standardised metric weight/dose expression avoids medication errors.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q21",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q21",
+      "page": 7,
+      "title": "Vagal stimulation during induction of anaesthesia",
+      "question": "Vagal stimulation may occur during induction of anesthesia due to:",
+      "options": {
+        "A": "Tracheal intubation",
+        "B": "Traction on viscera",
+        "C": "Improper pre-anesthetic medication",
+        "D": "Overdose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. During induction, instrumentation of the upper airway — laryngoscopy and tracheal intubation — stimulates the vagus and can trigger reflex bradycardia or even cardiac arrest. This airway-manipulation reflex is the induction-phase cause of vagal stimulation. Adequate depth of anaesthesia and, when needed, an anticholinergic (atropine) blunt the response.",
+        "B": "Incorrect. Traction on viscera provokes vagal reflexes during the surgical/maintenance phase when the abdomen is being handled, not at induction.",
+        "C": "Incorrect. Improper premedication may fail to blunt reflexes but is not itself the direct vagal stimulus asked for at induction.",
+        "D": "Incorrect. Overdose of anaesthetic causes cardiorespiratory depression rather than a specific vagal (parasympathetic) reflex on airway instrumentation."
+      },
+      "main_concept": "CON-MUL-5150C285ABBB9F",
+      "concept_ids": ["CON-MUL-5150C285ABBB9F"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Attribute vagal stimulation at induction to tracheal intubation/airway instrumentation.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q23",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q23",
+      "page": 7,
+      "title": "Death from a prolonged operation",
+      "question": "A prolonged operation may cause death due to:",
+      "options": {
+        "A": "Hypoxia",
+        "B": "Surgical shock",
+        "C": "Hypothermia",
+        "D": "Cardiac arrest"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hypoxia is an airway/ventilation problem and is not the characteristic consequence of mere prolongation of surgery.",
+        "B": "Correct. A needlessly prolonged operation exhausts the patient and, through sustained tissue trauma, blood and fluid loss and pain, produces surgical (neurogenic/hypovolaemic) shock, which can be fatal. This is the mechanism highlighted in the earlier vignette of the outdated, prolonged technique that ended in fatal shock. Keeping operative time appropriate is therefore a patient-safety priority.",
+        "C": "Incorrect. Hypothermia can complicate long procedures but is a contributory factor, not the single named cause the item asks for.",
+        "D": "Incorrect. Cardiac arrest is a terminal event that may result from shock or hypoxia, not the specific answer for prolongation itself."
+      },
+      "main_concept": "CON-MUL-84B768A8DE8800",
+      "concept_ids": ["CON-MUL-84B768A8DE8800"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Link a prolonged operation to death from surgical shock.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q24",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q24",
+      "page": 7,
+      "title": "Causes of death under anaesthesia — the exception",
+      "question": "Causes of death under anesthesia include all of the following, EXCEPT:",
+      "options": {
+        "A": "Sympathetic shock due to light anesthesia",
+        "B": "Obstruction of air passage",
+        "C": "Hypoxia",
+        "D": "Respiratory or myocardial depression due to anesthetic overdose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the exception because light (too-shallow) anaesthesia provokes reflexes through the PARAsympathetic (vagal) system, not the sympathetic system — so 'sympathetic shock due to light anaesthesia' is the incorrect statement. Under light anaesthesia, surgical stimulation triggers vagal reflexes that can cause bradycardia and cardiac arrest. Naming it sympathetic reverses the autonomic pathway, which is why it is the odd one out.",
+        "B": "Incorrect (it IS a real cause). Obstruction of the air passage (by secretions, vomitus or foreign body) is a genuine cause of anaesthetic death.",
+        "C": "Incorrect (it IS a real cause). Hypoxia is a leading mechanism of death under anaesthesia.",
+        "D": "Incorrect (it IS a real cause). Anaesthetic overdose causes respiratory and myocardial depression that can be fatal."
+      },
+      "main_concept": "CON-MUL-E88A057A1A8DF1",
+      "concept_ids": ["CON-MUL-E88A057A1A8DF1"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that light anaesthesia provokes parasympathetic (vagal), not sympathetic, reflexes.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q25",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q25",
+      "page": 7,
+      "title": "Airway obstruction under anaesthesia",
+      "question": "Obstruction of air passages under anesthesia may occur due to:",
+      "options": {
+        "A": "Broncho-spasm",
+        "B": "Vomitus",
+        "C": "Piece of gauze",
+        "D": "Any of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Bronchospasm does obstruct the airway, but it is only one of the listed mechanisms.",
+        "B": "Incorrect as the single best answer. Aspirated vomitus obstructs the airway, yet it is one mechanism among several.",
+        "C": "Incorrect as the single best answer. A retained piece of gauze can obstruct the airway, but again it is only one example.",
+        "D": "Correct. Airway obstruction under anaesthesia can be caused by bronchospasm, by aspirated vomitus, or by a foreign body such as a piece of gauze — so all three apply and the complete answer is 'any of the above'. Because each listed item is a genuine cause, no single option is sufficient. Anticipating and clearing these is central to safe airway management."
+      },
+      "main_concept": "CON-MUL-3ADCF8EDE1F21B",
+      "concept_ids": ["CON-MUL-3ADCF8EDE1F21B"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "List bronchospasm, vomitus and a foreign body as causes of airway obstruction under anaesthesia.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q26",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q26",
+      "page": 7,
+      "title": "Death during dental surgery — the exception",
+      "question": "Death during the course of dental surgery may occur as a result of any of the following, EXCEPT:",
+      "options": {
+        "A": "Surgical shock",
+        "B": "Aspiration of blood clots",
+        "C": "Parasympathetic shock",
+        "D": "Inhalation of a tooth"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Surgical shock (from major blood/fluid loss and prolonged operative trauma) is characteristic of major surgery, not of dental procedures, so it is the exception here. Dental-surgery deaths instead follow airway events (aspirated blood clots, an inhaled tooth) and vagal/parasympathetic reflex shock. Surgical shock is therefore the option that does not belong to the dental setting.",
+        "B": "Incorrect (it IS a real cause). Aspiration of blood clots can obstruct the airway and cause death during dental work.",
+        "C": "Incorrect (it IS a real cause). Parasympathetic (vagal) reflex shock can be provoked during dental manipulation and prove fatal.",
+        "D": "Incorrect (it IS a real cause). Inhalation of a dislodged tooth is a classic airway cause of death in dental surgery."
+      },
+      "main_concept": "CON-MUL-08DD5A20ACCC37",
+      "concept_ids": ["CON-MUL-08DD5A20ACCC37"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that surgical shock is not a typical cause of death in dental surgery (airway and vagal causes predominate).",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "medical-errors-q27",
+      "id": "QST-KASR327MPE-MEDICAL-ERRORS-Q27",
+      "page": 8,
+      "title": "Vagal stimulation under light anaesthesia",
+      "question": "Under light anesthesia, vagal stimulation may occur due to:",
+      "options": {
+        "A": "Tracheal intubation",
+        "B": "Traction on viscera",
+        "C": "Suture of skin incision",
+        "D": "Any of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Tracheal intubation does provoke vagal reflexes, but it is only one of the listed stimuli.",
+        "B": "Incorrect as the single best answer. Traction on viscera triggers vagal reflexes, yet it is one mechanism among several.",
+        "C": "Incorrect as the single best answer. Even suturing the skin incision can evoke vagal stimulation under too-light anaesthesia, but it is only one example.",
+        "D": "Correct. When anaesthesia is too light, surgical and airway stimuli of many kinds — tracheal intubation, traction on viscera, and even suturing the skin — can all provoke vagal (parasympathetic) stimulation and reflex bradycardia. Because every listed stimulus can do so, the complete answer is 'any of the above'. Adequate anaesthetic depth and vagolytic premedication reduce this risk."
+      },
+      "main_concept": "CON-MUL-5150C285ABBB9F",
+      "concept_ids": ["CON-MUL-5150C285ABBB9F"],
+      "module_subject": "327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety",
+      "library_ids": ["ART-MPE-327-ANESTHESIA-SAFETY"],
+      "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Medical errors section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+      "subtopic": "Anaesthesia-related death and safety",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise that under light anaesthesia varied stimuli (intubation, visceral traction, suturing) can all provoke vagal stimulation.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    { "key": "medical-errors-q10", "hold": "exact in-section duplicate of Q7 (error of omission; overdose/wrong dose/towel/unlabeled samples; key D) — authored once as Q7" },
+    { "key": "medical-errors-q11", "hold": "exact in-section duplicate of Q4 (most lab errors are due to; key A) — authored once as Q4" },
+    { "key": "medical-errors-q13", "hold": "exact in-section duplicate of Q5 (surgeon used old techniques; key D) — authored once as Q5" },
+    { "key": "medical-errors-q16", "hold": "exact in-section duplicate of Q4 (most lab errors are due to; key A) — authored once as Q4" },
+    { "key": "medical-errors-q17", "hold": "exact in-section duplicate of Q12 (medication orders should not; key A) — authored once as Q12" },
+    { "key": "medical-errors-q19", "hold": "in-section duplicate of Q5 (surgeon used old techniques); additionally no yellow-highlight fill detected on it" },
+    { "key": "medical-errors-q15", "hold": "two-correct-answer stem: 'example of a pre-analytical laboratory error' with both (b) wrong sample collected [printed key B] and (c) samples mixed up being pre-analytical — cannot write an honest single-best distractor for C; held per never-guess/never-mislead" }
+  ]
+}
