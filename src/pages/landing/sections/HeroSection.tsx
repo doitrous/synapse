@@ -41,10 +41,10 @@ export function HeroSection({ className }: { className?: string }) {
       <div className="mt-8 flex flex-wrap items-baseline justify-center gap-x-4 gap-y-1">
         <span dir="rtl" lang="ar" className="font-brand text-[30px] font-bold leading-none text-ink sm:text-[34px]">نيشاني</span>
         <span dir="ltr" className="font-mono text-[13px] text-ink-2">/ni·shaa·ni/</span>
-        <span className="font-serif text-[15px] italic text-ink-2 sm:text-[16px]">Egyptian Arabic — &ldquo;my target.&rdquo;</span>
+        <span className="font-serif text-[15px] italic text-ink-2 sm:text-[16px]">&ldquo;my target.&rdquo;</span>
       </div>
       <h1 className="mt-5 max-w-3xl text-balance font-serif text-[40px] font-semibold leading-[1.06] tracking-[-0.03em] text-ink sm:text-[60px]">
-        Med school, right on target.
+        Medical school, right on target.
       </h1>
       <p className="mt-5 max-w-xl text-[15.5px] leading-relaxed text-ink-2 sm:text-[16.5px]">
         Nishany is built around each university&rsquo;s own curriculum — clinical questions, OSCE stations, and a study engine that points at exactly what to learn next.

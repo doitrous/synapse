@@ -61,8 +61,8 @@ export const NISHANY_EN: NishanyLandingCopy = {
   hero: {
     word: 'نيشاني',
     pron: '/ni·shaa·ni/',
-    gloss: 'Egyptian Arabic — “my target.”',
-    title: 'Med school, right on target.',
+    gloss: '“my target.”',
+    title: 'Medical school, right on target.',
     body: 'Nishany is built around your university’s own curriculum — clinical questions, OSCE stations, and a plan that points at exactly what to study next.',
     primary: 'Start 3 days free',
     trust: 'Full access for 3 days. No card.',

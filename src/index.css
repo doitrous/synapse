@@ -1058,12 +1058,15 @@
 .hero-arc-inner { stroke: var(--hero-arc-inner); stroke-width: 9.8; }
 .hero-mark-dot { fill: var(--hero-dot); }
 .hero-mark-pulse { fill: none; stroke: var(--hero-dot); stroke-width: 2.5; opacity: 0; }
-/* Rotations of the arcs and the whole mark pivot on the mark's centre;
-   the dot's spring and the pulse pivot on the dot. */
+/* Rotations of the arcs and the whole mark pivot on the mark's centre; the
+   dot's spring and the pulse pivot on the dot. fill-box (not view-box) so the
+   pivots hold on the iOS 15.4 Safari floor, where `transform-box: view-box` is
+   unsupported and the animation would otherwise break — each element's fill
+   bounding box is already centred on its intended pivot, so `center` is right. */
 .hero-mark,
-.hero-arc { transform-box: view-box; transform-origin: 100px 100px; }
+.hero-arc { transform-box: fill-box; transform-origin: center; }
 .hero-mark-dot,
-.hero-mark-pulse { transform-box: view-box; transform-origin: 131.8px 69.2px; }
+.hero-mark-pulse { transform-box: fill-box; transform-origin: center; }
 
 .hero-arc-outer { animation: hero-spin-cw 0.95s cubic-bezier(0.2, 1, 0.3, 1) 0.3s backwards; }
 .hero-arc-inner { animation: hero-spin-ccw 0.95s cubic-bezier(0.2, 1, 0.3, 1) 0.45s backwards; }

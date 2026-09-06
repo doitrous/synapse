@@ -92,7 +92,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
   const location = useLocation()
 
   usePageMeta({
-    title: c.lang === 'ar' ? 'Nishany · مذاكرة الطب، في قلب الهدف' : 'Nishany · Med school, right on target',
+    title: c.lang === 'ar' ? 'Nishany · مذاكرة الطب، في قلب الهدف' : 'Nishany · Medical school, right on target',
     description: c.lang === 'ar' ? c.hero.body : 'Nishany is built around each university’s own curriculum — clinical questions, OSCE stations, and a study engine that points at exactly what to learn next.',
     canonical: c.lang === 'ar' ? '/ar' : location.pathname === '/en' ? '/en' : '/',
     alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
