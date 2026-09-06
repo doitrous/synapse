@@ -9,9 +9,9 @@
 | 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
 | 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
 | medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
-| galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 15 | 0 | 0 | ~9 dupe + 9 held(unread key) | ~47 |
-| **207 END module authored (3 EOM + 2 banks)** | **209** | **2** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 209 | 2 | 1 | untriaged | — |
+| galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
+| **207 END module authored (3 EOM + 2 banks)** | **221** | **2** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 221 | 2 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -449,3 +449,25 @@ Q42-family embryology Q45/Q46) plus the 9 held unread stems (Q2/Q3/Q6/Q11/Q13/Q1
 which need a render to recover the key/option text). Next 207 END cluster: continue this Galal
 repro bank, or move to another non-EOM bank (`207 mcq Dr Galal (endo).pdf`, `Anatomy MCQ by
 Dr.Jalal[END].pdf`, `ANATOMY MCQ [RPR].pdf`) or a department book (Anatomy/Histology/Physiology).
+
+### Galal repro bank — completion pass (2026-09-06): bank EXHAUSTED
+
+Rendered pp.1-8 (marked garbled, 220-230 dpi) and recovered **ALL 9 held keys — 0 remain
+unreadable**: Q2.a, Q3.a, Q6.c, Q11.d, Q13.a, Q15.a, Q26.a, Q38.c, Q43.d (Q31 re-confirmed a
+single circle on c, no double-mark). Authored **12 fresh MCQs** in two pushed slices:
+slice A = Q2/Q3/Q6/Q11/Q15/Q19/Q25 (`9933a74c`), slice B = Q26/Q27/Q30/Q38/Q45 (`3e0e73d0`).
+12 concepts minted university-blind — 7 `CON-FND-*`, 4 `CON-GYN-*`, 1 `CON-REN-*` — collision-
+checked corpus-wide (0 collisions, 0 in-batch dupes), added to the four existing galal articles
+(no new article). Subject tags fnd/gyn/renal.
+
+**Dedup this pass:** of ~20 unauthored keyed candidates, 12 authored (~40% dedup rate). SKIPPED as
+dupes of already-authored concepts: Q29 & Q33 (both named in `superficial-perineal-pouch.contents`),
+Q46 (`uterine-duct-anomaly.double-uterus`), Q43 (`paramesonephric-duct.derivatives`, Q42/Q47),
+Q13 (`uterine-artery.course.crosses-above-ureter`, Q10), and the near-dups Q8/Q17/Q20/Q21/Q24/Q41,
+plus the 8 first-pass skips (Q1/Q4/Q9/Q10/Q23/Q31/Q32/Q47). Bank now **27 authored / 0 held**;
+fresh keyed stems EXHAUSTED. Gate-clean each slice: concept 22/0->27/0, article 4/0, mcq 22/0->27/0
+(with `--with` concept+article+resource siblings).
+
+**Next 207 END cluster:** open `207 mcq Dr Galal (endo).pdf` (next non-EOM bank in priority order;
+register a manifest row only if not already listed), recover keys (same circle-around-letter
+marker), dedup vs the 221-item corpus, author push-per-slice.

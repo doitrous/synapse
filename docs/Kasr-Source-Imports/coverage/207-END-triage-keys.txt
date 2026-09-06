@@ -199,3 +199,34 @@ Section map: Q1-6 pelvic muscles/floor, Q7-13 uterus/broad ligament, Q14-19 fema
 pelvic viscera/lymph, Q20-23 internal iliac artery, Q24-35 perineum, Q36-41 breast,
 Q42-47 genital development. Dedup vs all authored 207-END (194) done at authoring time
 (the EOM anatomy tranches already covered much pelvis/perineum — see LEDGER).
+
+— Held-key render pass (all 9 recovered, 0 remain unreadable) —
+Marked pp.1-8 garbled and rendered at 220-230 dpi; every one of the 9 held stems'
+hand-drawn circle read cleanly, cross-checked against the stem for a single-best answer:
+  Q2.a  (Levator prostatae — anterior pubococcygeus into perineal body)
+  Q3.a  (Pubococcygeus — faecal continence)
+  Q6.c  (Ureter crosses the pelvic brim)
+  Q11.d (Round ligament of uterus — gubernaculum derivative)
+  Q13.a (Ureter — hysterectomy uterine-artery ligation)  [DUP of Q10, not authored]
+  Q15.a (Ovarian artery — suspensory ligament crosses external iliac)
+  Q26.a (Ischiorectal fossa — lateral spread of anal-gland infection)
+  Q38.c (Axillary tail of Spence — upper lateral quadrant)
+  Q43.d (Fundus of uterus — paramesonephric derivative)  [DUP of Q42/Q47, not authored]
+No item left held for an unreadable key. Q31 confirmed a single circle on c (lateral wall),
+no double-mark.
+
+— Authoring pass 2026-09-06 (12 fresh MCQs authored, +12 concepts) —
+Slice A (7): Q2, Q3, Q6, Q11, Q15, Q19, Q25.
+Slice B (5): Q26, Q27, Q30, Q38, Q45.
+SKIPPED as duplicates of the authored 207-END corpus (concept already exists):
+  Q29 & Q33 -> superficial-perineal-pouch.contents (Bartholin glands & ischiocavernosus
+              are both named in that concept's definition);
+  Q46       -> uterine-duct-anomaly.double-uterus (incomplete paramesonephric fusion);
+  Q43       -> paramesonephric-duct.derivatives (Q42/Q47);
+  Q13       -> uterine-artery.course.crosses-above-ureter (Q10);
+  Q8, Q17, Q20, Q21, Q24, Q41 -> near-dups of authored uterine-artery / vagina-peritoneum /
+              internal-iliac & internal-pudendal branches / deep-perineal-pouch / breast-
+              cancer-spread facts (plus the 8 already skipped in the first pass:
+              Q1, Q4, Q9, Q10, Q23, Q31, Q32, Q47).
+Galal repro bank now 27 authored / 0 held / dupes skipped; bank EXHAUSTED for fresh keyed
+stems. Dedup rate this pass ~40% (12 authored of ~20 unauthored keyed candidates).
