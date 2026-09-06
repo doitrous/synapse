@@ -1945,3 +1945,294 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-21
+## title
+Mechanism of refractive-surgery laser
+## question
+Laser used in refractive surgery acts on tissues by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Photocoagulation.
+## explanation_a
+Incorrect. Photocoagulation is the argon retinal mechanism.
+## answer_b
+Photovaporization.
+## explanation_b
+Incorrect. Photovaporisation is a different thermal effect.
+## answer_c
+Photoradiation.
+## explanation_c
+Incorrect. Photoradiation is a photodynamic effect.
+## answer_d
+Photoablation.
+## explanation_d
+Correct. Refractive-surgery excimer laser acts by photoablation.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-8759A5DE744C16
+## concept_ids
+CON-MUL-8759A5DE744C16
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that refractive-surgery laser acts by photoablation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-22
+## title
+Treatment of after cataract (2)
+## question
+After cataract is treated with:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Krypton laser.
+## explanation_a
+Incorrect. The krypton laser is not used for capsulotomy.
+## answer_b
+Excimer laser.
+## explanation_b
+Incorrect. The excimer laser is for corneal refractive surgery.
+## answer_c
+Diode laser.
+## explanation_c
+Incorrect. The diode laser is not used for capsulotomy.
+## answer_d
+YAG laser.
+## explanation_d
+Correct. After-cataract is treated with the YAG laser (capsulotomy).
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## main_concept
+CON-MUL-9512BABC9D1F59
+## concept_ids
+CON-MUL-9512BABC9D1F59
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the YAG laser as the treatment of after-cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-23
+## title
+Retinal conditions treated by laser — EXCEPT
+## question
+Laser is used for the treatment of the following retinal conditions EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Proliferative diabetic retinopathy.
+## explanation_a
+Incorrect (a genuine indication). Laser panretinal photocoagulation treats proliferative diabetic retinopathy.
+## answer_b
+Central retinal artery occlusion.
+## explanation_b
+Correct. Central retinal artery occlusion is an acute ischaemic event with no role for laser; it is the exception.
+## answer_c
+Central retinal vein occlusion.
+## explanation_c
+Incorrect (a genuine indication). Laser is used for the neovascular complications of vein occlusion.
+## answer_d
+Retinal tears.
+## explanation_d
+Incorrect (a genuine indication). Laser retinopexy seals retinal tears.
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## main_concept
+CON-MUL-A2B40668538701
+## concept_ids
+CON-MUL-A2B40668538701
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude central retinal artery occlusion from retinal conditions treated by laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
