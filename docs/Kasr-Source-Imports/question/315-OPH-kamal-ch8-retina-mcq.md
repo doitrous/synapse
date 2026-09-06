@@ -1383,3 +1383,1245 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-11
+
+## title
+Feature not characteristic of diabetic maculopathy
+
+## question
+The following is a characteristic of diabetic maculopathy, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hard exudates.
+
+## explanation_a
+Incorrect (a true feature). Hard exudates are a hallmark of diabetic maculopathy.
+
+## answer_b
+Neovascularization.
+
+## explanation_b
+Correct. This is the exception: neovascularization defines PROLIFERATIVE diabetic retinopathy, not maculopathy. The other three are all features of maculopathy.
+
+## answer_c
+Macular edema.
+
+## explanation_c
+Incorrect (a true feature). Macular edema is the central, sight-threatening feature of diabetic maculopathy.
+
+## answer_d
+Microaneurysms.
+
+## explanation_d
+Incorrect (a true feature). Microaneurysms are an early sign seen in diabetic maculopathy.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-2B7C1BAB6A8A20
+
+## concept_ids
+CON-MUL-2B7C1BAB6A8A20
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that neovascularization defines proliferative diabetic retinopathy, not maculopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.112); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-13
+
+## title
+Cause of rhegmatogenous retinal detachment
+
+## question
+Rhegmatogenous retinal detachment is caused by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Vitreous traction.
+
+## explanation_a
+Incorrect. Vitreous traction produces a tractional detachment, not a rhegmatogenous one.
+
+## answer_b
+Retinal tear.
+
+## explanation_b
+Correct. A rhegmatogenous detachment is caused by a retinal break (tear), through which fluid passes beneath the neurosensory retina.
+
+## answer_c
+Choroidal effusion.
+
+## explanation_c
+Incorrect. A choroidal effusion causes an exudative detachment, not a rhegmatogenous one.
+
+## answer_d
+Retinal tumour.
+
+## explanation_d
+Incorrect. A retinal or choroidal tumour causes an exudative (solid) detachment, not a rhegmatogenous one.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-0D7E346D95DE34
+
+## concept_ids
+CON-MUL-0D7E346D95DE34
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that rhegmatogenous retinal detachment is caused by a retinal break (tear).
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.112); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-15
+
+## title
+Cause of exudative retinal detachment
+
+## question
+One of the following is a cause of exudative retinal detachment:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Retinal traction.
+
+## explanation_a
+Incorrect. Retinal traction causes a tractional detachment.
+
+## answer_b
+Proliferative diabetic retinopathy.
+
+## explanation_b
+Incorrect. Proliferative diabetic retinopathy causes a tractional detachment via fibrovascular traction.
+
+## answer_c
+Choroidal tumors as melanoma.
+
+## explanation_c
+Correct. A choroidal tumour such as malignant melanoma exudes fluid beneath the retina, producing an exudative (serous) detachment with no retinal break.
+
+## answer_d
+Retinal tear.
+
+## explanation_d
+Incorrect. A retinal tear causes a rhegmatogenous detachment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-634453721573C2
+
+## concept_ids
+CON-MUL-634453721573C2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify a choroidal tumour (melanoma) as a cause of exudative retinal detachment.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.112); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-16
+
+## title
+Result of central retinal artery occlusion
+
+## question
+A result of central retinal artery occlusion is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cherry red spot.
+
+## explanation_a
+Correct. CRAO infarcts the inner retina, which turns pale and oedematous, leaving the thin foveola to reveal the intact choroidal circulation as a cherry-red spot.
+
+## answer_b
+Macular edema.
+
+## explanation_b
+Incorrect. Macular edema is a feature of venous occlusion and diabetic disease, not of arterial occlusion.
+
+## answer_c
+Retinal detachment.
+
+## explanation_c
+Incorrect. CRAO does not cause retinal detachment.
+
+## answer_d
+Reduced blood coagulation.
+
+## explanation_d
+Incorrect. CRAO is usually embolic or thrombotic; it is not associated with reduced blood coagulation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal artery occlusion
+
+## main_concept
+CON-MUL-D6D8B1DAE97079
+
+## concept_ids
+CON-MUL-D6D8B1DAE97079
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise the cherry-red spot as a result of central retinal artery occlusion.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.112); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-17
+
+## title
+Treatment of wet age-related macular degeneration
+
+## question
+The treatment of the wet type of age-related macular degeneration (ARMD) is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Antibiotics.
+
+## explanation_a
+Incorrect. ARMD is degenerative, not infective; antibiotics have no role.
+
+## answer_b
+Repeated intravitreal injections of anti-VEGF.
+
+## explanation_b
+Correct. Wet (neovascular) ARMD is driven by a choroidal neovascular membrane and is treated with repeated intravitreal anti-VEGF injections.
+
+## answer_c
+YAG laser.
+
+## explanation_c
+Incorrect. YAG laser is used for posterior capsule opacification and peripheral iridotomy, not for wet ARMD.
+
+## answer_d
+Correction of high myopia.
+
+## explanation_d
+Incorrect. Refractive correction does not treat the neovascular membrane of wet ARMD.
+
+## topic
+Ophthalmology
+
+## subtopic
+Age-related macular degeneration
+
+## main_concept
+CON-MUL-BD64B884401EA7
+
+## concept_ids
+CON-MUL-BD64B884401EA7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify repeated intravitreal anti-VEGF as the treatment of wet ARMD.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.112); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-18
+
+## title
+True statement about retinitis pigmentosa
+
+## question
+Regarding retinitis pigmentosa, which of the following is true?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Flat electroretinogram (ERG) is diagnostic.
+
+## explanation_a
+Correct. A markedly reduced or flat (extinguished) ERG reflects widespread photoreceptor loss and is the diagnostic investigation in retinitis pigmentosa.
+
+## answer_b
+Cannot be genetically determined.
+
+## explanation_b
+Incorrect. Retinitis pigmentosa is typically inherited (autosomal dominant, recessive or X-linked).
+
+## answer_c
+Several lines of successful treatment are present.
+
+## explanation_c
+Incorrect. There is no established curative treatment; management is largely supportive.
+
+## answer_d
+Generally affects old age.
+
+## explanation_d
+Incorrect. It usually presents in childhood or early adult life with night blindness, not in old age.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinitis pigmentosa
+
+## main_concept
+CON-MUL-86596B23FB38B9
+
+## concept_ids
+CON-MUL-86596B23FB38B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise a flat ERG as diagnostic of retinitis pigmentosa.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-19
+
+## title
+Treatment of central retinal vein occlusion
+
+## question
+Central retinal vein occlusion can be treated by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Antibiotics.
+
+## explanation_a
+Incorrect. CRVO is a vascular, not infective, condition.
+
+## answer_b
+Parasympathomimetics.
+
+## explanation_b
+Incorrect. Parasympathomimetics (miotics) are glaucoma drugs and do not treat CRVO.
+
+## answer_c
+Anti-vascular endothelial growth factor.
+
+## explanation_c
+Correct. Intravitreal anti-VEGF treats the macular edema and neovascular complications of central retinal vein occlusion.
+
+## answer_d
+Analgesics.
+
+## explanation_d
+Incorrect. CRVO is typically painless; analgesics do not treat it.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vein occlusion
+
+## main_concept
+CON-MUL-5A65937865AF60
+
+## concept_ids
+CON-MUL-5A65937865AF60
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify intravitreal anti-VEGF as a treatment for central retinal vein occlusion.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-20
+
+## title
+Cause of exudative retinal detachment in pregnancy
+
+## question
+Exudative retinal detachment can be caused by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vitreous traction.
+
+## explanation_a
+Incorrect. Vitreous traction causes a tractional detachment.
+
+## answer_b
+Retinal tear.
+
+## explanation_b
+Incorrect. A retinal tear causes a rhegmatogenous detachment.
+
+## answer_c
+Proliferative diabetic retinopathy.
+
+## explanation_c
+Incorrect. Proliferative diabetic retinopathy causes a tractional detachment.
+
+## answer_d
+Toxemia of pregnancy.
+
+## explanation_d
+Correct. Toxaemia of pregnancy (pre-eclampsia) causes a serous/exudative retinal detachment from choroidal ischaemia, with no retinal break.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-634453721573C2
+
+## concept_ids
+CON-MUL-634453721573C2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise toxaemia of pregnancy as a cause of exudative retinal detachment.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-21
+
+## title
+Condition not treated by anti-VEGF injection
+
+## question
+Anti-VEGF intravitreal injections can be used to treat the following conditions, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Diabetic maculopathy.
+
+## explanation_a
+Incorrect (a true indication). Anti-VEGF treats diabetic macular edema.
+
+## answer_b
+Retinal tears predisposing to retinal detachment.
+
+## explanation_b
+Correct. This is the exception: a retinal tear is treated by laser retinopexy or cryotherapy to prevent detachment, not by anti-VEGF.
+
+## answer_c
+Central retinal vein occlusion.
+
+## explanation_c
+Incorrect (a true indication). Anti-VEGF treats the macular edema of central retinal vein occlusion.
+
+## answer_d
+Wet type of age-related macular degeneration.
+
+## explanation_d
+Incorrect (a true indication). Anti-VEGF is the mainstay of treatment for wet ARMD.
+
+## topic
+Ophthalmology
+
+## subtopic
+Age-related macular degeneration
+
+## main_concept
+CON-MUL-C8FB8D08587942
+
+## concept_ids
+CON-MUL-C8FB8D08587942
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that a retinal tear is treated by laser/cryotherapy, not anti-VEGF.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
