@@ -3,8 +3,9 @@
 | cluster | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | abolmagd-r2 Forensic MCQ (Q32-51, `Forensic & Toxo Round 2 (197) SOLVED.pdf`) | 20 | 0 | 0 | 0 | 20 |
-| **abolmagd-r2 cluster total** | **20** | **0** | **0** | untriaged | — |
-| 317 FMT module (Forensic Medicine + Clinical Toxicology sub-corpora) | 20 | 0 | 0 | untriaged | — |
+| abolmagd-r2 Clinical Toxicology MCQ (Q79-96, same paper) | 17 | 0 | 1 | 0 | 18 |
+| **abolmagd-r2 cluster total** | **37** | **0** | **1** | untriaged | — |
+| 317 FMT module (Forensic Medicine + Clinical Toxicology sub-corpora) | 37 | 0 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -37,9 +38,12 @@ double-marks, 0 unmarked, 0 exclusions in the authored range Q32-51**. Recovered
   box-tick detection; deferred).
 - Part B) Forensic Medicine — MCQ **Q32-51** (pp.3-4) — **this tranche, 20/20 authored**.
 - Toxicology True/False Q52-78 (p.5) — not authored this pass.
-- Part E) Clinical Toxicology — MCQ Q79-90 (p6), Q92-96 (p7) — keyed, **next slice**.
-- Part F) Antidote/drug matching Q97-100 — not MCQ, excluded. Q91 not detected on the p6/p7
-  boundary; excluded from the tox slice unless render-recovered.
+- Part E) Clinical Toxicology — MCQ **Q79-90 (p6), Q92-96 (p7)** — **17/17 authored** this pass
+  (`question/317-FMT-abolmagd-r2-toxicology-mcq.md`). Keys render-verified pp.6-7 at 165 dpi
+  (yellow-highlight fill), 0 double-marks, 0 unmarked, 0 ambiguous.
+- Part F) Antidote/drug matching Q97-100 — not MCQ, out of scope. **Q91 is absent from the
+  paper** (numbering jumps 90→92; render-confirmed on p6/p7), recorded as 1 excluded (absent),
+  not a missing key.
 
 ## Cluster — abolmagd-r2 forensic (Q32-51)
 
@@ -56,10 +60,22 @@ corroborated by this paper's own yellow-highlight-keyed stems and options (rende
 pp.3-4); no department book PDF was located/read this pass. All records carry
 `publication_status=needs_evidence` / `status=Draft` pending attachment of a department source.
 
+## Clinical Toxicology cluster — abolmagd-r2 toxicology (Q79-96)
+
+17/17 MCQ authored (`question/317-FMT-abolmagd-r2-toxicology-mcq.md`, seed
+`coverage/seeds/317-FMT/abolmagd-r2-toxicology.json`), **0 held, 1 excluded** (Q91 absent from
+the paper). 17 new concepts minted university-blind (`CON-MUL-` + first 14 hex of SHA-256 of the
+canonical key, uppercased), one atomic fact per question, subject `mul`, primary_node
+`DIS-FOR-T05` (Clinical toxicology). Collision-checked against 9167 corpus concept IDs — **no
+collisions, no in-batch duplicates**. Grouped into one new library article
+`ART-FMT-317-TOXICOLOGY` (17 concepts; cross-linked to the two forensic articles). Keys
+render-verified pp.6-7. All records `publication_status=needs_evidence` / `status=Draft` pending a
+department source. Gate-clean (batch/simulate errors=0, rejected=0); audit adds **no new category
+type** vs the 317-FMT baseline (all findings are the module-wide `needs_evidence` placeholders).
+
 ## Next cluster
 
-Author the Clinical Toxicology MCQ slice **Q79-96** (p6-7) from the same paper — keys already
-detector-recovered (`Q79.A Q80.B Q81.C Q82.D Q83.C Q84.D Q85.A Q86.C Q87.A Q88.B Q89.D Q90.A
-Q92.D Q93.A Q94.D Q95.D Q96.B`); render-verify p6/p7 before authoring. Subject `mul`, concept
-prefix `CON-MUL-`, primary_node `DIS-FOR-T05` (Clinical toxicology). Q91 excluded unless
-render-recovered.
+Same paper, remaining sections need **visual box-tick detection** (not native-text keys):
+Forensic True/False Q1-31 (p1-2), Toxicology True/False Q52-78 (p5), and the antidote/drug
+matching Q97-100 (p7, not MCQ). The module's other papers (`EOY - Answers Final Forensic - Toxic
+2024/2025`, `Forensic 197 final exam`) are essay/model-answer exams and remain untriaged for MCQ.

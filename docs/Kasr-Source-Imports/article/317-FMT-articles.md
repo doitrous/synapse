@@ -1,7 +1,8 @@
 <!--
-  Kasr Al Ainy 317 FMT (Year 3, Forensic Medicine & Toxicology) - two cross-linked library articles
-  grouping the module-opening Forensic Medicine concepts (Q32-51) of the student 'Forensic & Toxo
-  Round 2 (197) [SOLVED]' compilation by Abolmagd. Filed under the forensic discipline node DIS-FOR.
+  Kasr Al Ainy 317 FMT (Year 3, Forensic Medicine & Toxicology) - three cross-linked library articles
+  grouping the module concepts of the student 'Forensic & Toxo Round 2 (197) [SOLVED]' compilation by
+  Abolmagd: two Forensic Medicine articles (Q32-51, filed under DIS-FOR-T01/T04) and one Clinical
+  Toxicology article ART-FMT-317-TOXICOLOGY (Q79-96, filed under DIS-FOR-T05, subject mul).
   publication_gate = needs_evidence (module-wide Draft placeholder until a department source is
   attached).
 
@@ -260,6 +261,13 @@ CON-MUL-31A70F141D3FF5
 CON-MUL-00E952020FF872
 CON-MUL-1281268FB43B07
 CON-MUL-99AFCAE2BB5EB6
+CON-MUL-981B0368F95F0C
+CON-MUL-5434543A49449A
+CON-MUL-2B6A4ACF5F0CBD
+CON-MUL-AB2BA14B1D5BE6
+CON-MUL-165259D4894628
+CON-MUL-0CD971EAA6C085
+CON-MUL-848D406BDCFEF1
 ## related_articles
 ART-FMT-317-FORENSIC-INJURY
 ART-FMT-317-FORENSIC-LAWID

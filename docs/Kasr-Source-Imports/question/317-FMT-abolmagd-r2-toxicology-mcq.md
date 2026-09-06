@@ -1381,3 +1381,969 @@ Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxico
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-89
+
+## title
+Acute digoxin toxicity causes hyperkalaemia, not hypokalaemia
+
+## question
+Which of the following is NOT a side effect of acute Digoxin toxicity?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Vomiting
+
+## explanation_a
+Incorrect (it IS a side effect). Vomiting and other gastrointestinal upset are common early features of digoxin toxicity from central and local effects.
+
+## answer_b
+Yellow vision changes
+
+## explanation_b
+Incorrect (it IS a side effect). Visual disturbance with yellow-green colour vision (xanthopsia) and haloes is a classic feature of digoxin toxicity.
+
+## answer_c
+Arrhythmia on ECG
+
+## explanation_c
+Incorrect (it IS a side effect). Digoxin toxicity produces a wide range of arrhythmias and conduction blocks on the ECG.
+
+## answer_d
+Hypokalemia
+
+## explanation_d
+Correct (the one that is NOT). In ACUTE digoxin toxicity, inhibition of the Na+/K+-ATPase pump blocks cellular potassium uptake, so potassium leaks out of cells and the serum potassium RISES, producing HYPERkalaemia. Hypokalaemia is therefore not a feature of acute toxicity; rather, pre-existing hypokalaemia (often from diuretics) predisposes to chronic toxicity. Because acute toxicity raises rather than lowers potassium, hypokalaemia is the odd one out.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Cardiac glycosides
+
+## main_concept
+CON-MUL-981B0368F95F0C
+
+## concept_ids
+CON-MUL-981B0368F95F0C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Cardiac glycosides
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Recognise that acute digoxin toxicity causes hyperkalaemia rather than hypokalaemia.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-90
+
+## title
+Kerosene toxicity targets the lungs and CNS
+
+## question
+The target organs in kerosene toxicity are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Lungs and CNS
+
+## explanation_a
+Correct. Kerosene is a volatile hydrocarbon whose main dangers are pulmonary and neurological. Its low viscosity lets it be aspirated easily, spreading over the alveolar surface to cause a chemical (aspiration) pneumonitis, while systemically absorbed or inhaled vapour depresses the central nervous system. The lungs and CNS are therefore the target organs, which is why aspiration is the feared complication and induced emesis is avoided.
+
+## answer_b
+Liver and kidney
+
+## explanation_b
+Incorrect. The liver and kidney are not the primary targets of kerosene; hepatorenal injury is not its characteristic picture.
+
+## answer_c
+CNS and kidney
+
+## explanation_c
+Incorrect. Although the CNS is affected, the kidney is not a principal target; the lung is the key second organ.
+
+## answer_d
+CNS and liver
+
+## explanation_d
+Incorrect. The CNS is affected but the liver is not a principal target; the lung, not the liver, is the second target organ.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Hydrocarbons
+
+## main_concept
+CON-MUL-5434543A49449A
+
+## concept_ids
+CON-MUL-5434543A49449A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Hydrocarbons
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Identify the lungs and central nervous system as the target organs in kerosene (hydrocarbon) poisoning.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-92
+
+## title
+Aspirin overdose: initial derangement is respiratory alkalosis
+
+## question
+Following aspirin overdose the initial acid-base derangement is usually:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Metabolic acidosis
+
+## explanation_a
+Incorrect. A high-anion-gap metabolic acidosis does develop in salicylate poisoning, but it is the LATER derangement, not the initial one, and often coexists with the respiratory alkalosis.
+
+## answer_b
+Respiratory acidosis
+
+## explanation_b
+Incorrect. Salicylate stimulates rather than depresses respiration, so a respiratory acidosis (CO2 retention) is not the initial disturbance.
+
+## answer_c
+Metabolic alkalosis
+
+## explanation_c
+Incorrect. Metabolic alkalosis is not a feature of salicylate poisoning.
+
+## answer_d
+Respiratory alkalosis
+
+## explanation_d
+Correct. Salicylate directly stimulates the medullary respiratory centre, causing hyperventilation that blows off CO2 and produces an early RESPIRATORY ALKALOSIS. Only later does uncoupling of oxidative phosphorylation and accumulation of organic acids add a high-anion-gap metabolic acidosis, giving the classic mixed picture. Because the respiratory drive comes first, respiratory alkalosis is the initial derangement.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Salicylates
+
+## main_concept
+CON-MUL-2B6A4ACF5F0CBD
+
+## concept_ids
+CON-MUL-2B6A4ACF5F0CBD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Salicylates
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+State that salicylate overdose first causes a respiratory alkalosis before the later metabolic acidosis.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-93
+
+## title
+Multiple-dose charcoal works in digitalis via enterohepatic circulation
+
+## question
+Multiple dose activated charcoal is given in digitalis toxicity because digitalis:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Has enterohepatic circulation
+
+## explanation_a
+Correct. Digitalis undergoes ENTEROHEPATIC CIRCULATION, being excreted in bile back into the gut where it is reabsorbed. Repeated doses of activated charcoal keep the gut lumen full of adsorbent, trapping the recirculating drug and interrupting its reabsorption ("gut dialysis"), which enhances its elimination. This is the rationale for multiple-dose rather than single-dose charcoal in digitalis toxicity.
+
+## answer_b
+Forms concretions
+
+## explanation_b
+Incorrect. Digitalis does not form pharmacobezoars or concretions; that concern applies to agents such as iron or sustained-release preparations.
+
+## answer_c
+Is re-excreted in the stomach
+
+## explanation_c
+Incorrect. The relevant process is biliary excretion with intestinal reabsorption (enterohepatic circulation), not gastric re-excretion.
+
+## answer_d
+Is weakly adsorbed to activated charcoal
+
+## explanation_d
+Incorrect. Digitalis is in fact adsorbed by activated charcoal; if it were weakly adsorbed, charcoal would not help.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Enhanced elimination
+
+## main_concept
+CON-MUL-AB2BA14B1D5BE6
+
+## concept_ids
+CON-MUL-AB2BA14B1D5BE6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Enhanced elimination
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Explain why enterohepatic circulation makes multiple-dose activated charcoal useful in digitalis toxicity.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-94
+
+## title
+Cobra envenomation is neurotoxic with minimal local damage
+
+## question
+Which of the following is NOT the result of Cobra snake bite?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Diplopia
+
+## explanation_a
+Incorrect (it IS a result). Cobra venom is neurotoxic and causes cranial-nerve palsies; diplopia and ptosis are early signs of neuromuscular blockade.
+
+## answer_b
+Dysphagia
+
+## explanation_b
+Incorrect (it IS a result). Bulbar involvement causes dysphagia as part of the descending neuromuscular paralysis.
+
+## answer_c
+Muscle paralysis
+
+## explanation_c
+Incorrect (it IS a result). Progressive muscle paralysis, potentially reaching the respiratory muscles, is the hallmark of cobra envenomation.
+
+## answer_d
+Local tissue damage
+
+## explanation_d
+Correct (the one that is NOT). Cobra (elapid) venom is predominantly NEUROTOXIC, producing diplopia, dysphagia and muscle paralysis with relatively little tissue destruction at the bite site. Extensive LOCAL tissue damage, swelling and necrosis are instead characteristic of viper (haemotoxic/cytotoxic) bites. Because the cobra's effect is neurological rather than locally destructive, marked local tissue damage is not a typical result.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Envenomation
+
+## main_concept
+CON-MUL-165259D4894628
+
+## concept_ids
+CON-MUL-165259D4894628
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Envenomation
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Contrast the neurotoxic picture of cobra (elapid) envenomation with the local tissue destruction of viper bites.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-95
+
+## title
+Digitalis acts by inhibiting Na+/K+-ATPase
+
+## question
+Digitalis exerts its effect by binding with which of the following enzyme systems?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Carbonic anhydrase
+
+## explanation_a
+Incorrect. Carbonic anhydrase is the target of acetazolamide, not digitalis.
+
+## answer_b
+Cytochrome oxidase
+
+## explanation_b
+Incorrect. Cytochrome oxidase is inhibited by cyanide, not by digitalis.
+
+## answer_c
+Monoamine oxidase
+
+## explanation_c
+Incorrect. Monoamine oxidase is inhibited by MAO-inhibitor antidepressants, not by digitalis.
+
+## answer_d
+Sodium-potassium ATPase
+
+## explanation_d
+Correct. Digitalis binds and inhibits the membrane SODIUM-POTASSIUM ATPase. The resulting rise in intracellular sodium reduces sodium-calcium exchange, so intracellular calcium increases and myocardial contractility is enhanced (its therapeutic inotropic effect), while the same mechanism in overdose raises serum potassium and causes arrhythmias. This Na+/K+-ATPase inhibition is the basis of both the action and the toxicity of digitalis.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Cardiac glycosides
+
+## main_concept
+CON-MUL-0CD971EAA6C085
+
+## concept_ids
+CON-MUL-0CD971EAA6C085
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Cardiac glycosides
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Identify the sodium-potassium ATPase as the molecular target of digitalis.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR317FMT-ABOLMAGD-R2-96
+
+## title
+Cyanide inactivates cytochrome oxidase
+
+## question
+Inactivation of cytochrome oxidase enzyme occurs in case of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Atropine
+
+## explanation_a
+Incorrect. Atropine is an antimuscarinic; it does not act on cytochrome oxidase.
+
+## answer_b
+Cyanide
+
+## explanation_b
+Correct. Cyanide binds the ferric (Fe3+) iron of cytochrome oxidase (cytochrome a3) in the mitochondrial electron-transport chain, halting aerobic ATP production and forcing anaerobic metabolism. This histotoxic (cytotoxic) hypoxia causes lactic acidosis despite normal oxygen delivery, and is the basis of antidotes that provide alternative binding sites (nitrites, hydroxocobalamin). Cyanide is therefore the classic inactivator of cytochrome oxidase.
+
+## answer_c
+Ethanol
+
+## explanation_c
+Incorrect. Ethanol causes CNS depression and metabolic effects but does not inactivate cytochrome oxidase.
+
+## answer_d
+Phenol
+
+## explanation_d
+Incorrect. Phenol is a corrosive with myocardial and renal effects; blocking cytochrome oxidase is not its mechanism.
+
+## topic
+Clinical Toxicology
+
+## subtopic
+Cellular asphyxiants
+
+## main_concept
+CON-MUL-848D406BDCFEF1
+
+## concept_ids
+CON-MUL-848D406BDCFEF1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+317 FMT
+
+## module_subject
+317 FMT > Clinical Toxicology > Cellular asphyxiants
+
+## question_only_for
+
+## library_ids
+ART-FMT-317-TOXICOLOGY
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+
+## learning_objective
+Recognise cyanide as the toxin that inactivates cytochrome oxidase and blocks aerobic respiration.
+
+## source_citation
+Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

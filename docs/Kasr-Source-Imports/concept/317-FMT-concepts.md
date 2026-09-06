@@ -12,6 +12,11 @@
   Written from standard forensic-medicine teaching corroborated by this paper's own yellow-highlight-
   keyed stems and options (render-verified pp.3-4). No department book PDF was read this pass.
 
+  APPENDED (Clinical Toxicology cluster, Q79-96, pp.6-7): 17 further concepts minted CON-MUL- +
+  first 14 hex of SHA-256 of the canonical key (subject mul, primary_node DIS-FOR-T05 Clinical
+  toxicology), grouped under the library article ART-FMT-317-TOXICOLOGY. So this file now holds
+  37 concepts total (20 forensic CON-FND-, 17 toxicology CON-MUL-).
+
   Import: Admin > Bulk import > concept.
 -->
 
@@ -3277,6 +3282,783 @@ Organophosphates
 317 FMT
 ## module_subject
 317 FMT > Clinical Toxicology > Organophosphates
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-981B0368F95F0C
+## label
+Acute digoxin toxicity causes hyperkalaemia, not hypokalaemia
+## canonical_key
+toxicology.acute-digoxin-toxicity.causes-hyperkalemia-not-hypokalemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In acute digoxin toxicity, inhibition of the Na+/K+-ATPase pump blocks cellular potassium uptake, so potassium leaks out of cells and the serum potassium rises, producing hyperkalaemia. Hypokalaemia is not a feature of acute toxicity; pre-existing hypokalaemia instead predisposes to chronic toxicity.
+## explicit_objective
+Recognise that acute digoxin toxicity raises serum potassium (hyperkalaemia) rather than lowering it.
+## pitfalls
+Expecting hypokalaemia in acute toxicity; hypokalaemia is a predisposing factor and a feature of chronic, not acute, poisoning.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Cardiac glycosides
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Cardiac glycosides
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5434543A49449A
+## label
+Kerosene toxicity targets the lungs and CNS
+## canonical_key
+toxicology.kerosene-poisoning.target-organs-lungs-and-cns
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Kerosene is a volatile hydrocarbon whose main targets are the lungs and central nervous system. Its low viscosity allows easy aspiration into the alveoli causing chemical aspiration pneumonitis, while absorbed or inhaled vapour depresses the CNS; induced emesis is avoided because it increases aspiration risk.
+## explicit_objective
+Identify the lungs and CNS as the target organs in kerosene (hydrocarbon) poisoning.
+## pitfalls
+Assuming the liver or kidney is the main target; aspiration pneumonitis and CNS depression dominate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Hydrocarbons
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Hydrocarbons
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2B6A4ACF5F0CBD
+## label
+Aspirin overdose first causes a respiratory alkalosis
+## canonical_key
+toxicology.aspirin-overdose.initial-respiratory-alkalosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Salicylate directly stimulates the medullary respiratory centre, causing hyperventilation that blows off CO2 and produces an early respiratory alkalosis. A high-anion-gap metabolic acidosis develops later from uncoupled oxidative phosphorylation and organic acids, giving the classic mixed disturbance.
+## explicit_objective
+State that salicylate overdose causes an initial respiratory alkalosis before the later metabolic acidosis.
+## pitfalls
+Naming metabolic acidosis as the initial change; it is the later component of the mixed picture.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Salicylates
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Salicylates
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-AB2BA14B1D5BE6
+## label
+Multiple-dose activated charcoal works in digitalis via enterohepatic circulation
+## canonical_key
+toxicology.digitalis.enterohepatic-circulation-multidose-charcoal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digitalis undergoes enterohepatic circulation, being excreted in bile into the gut and reabsorbed. Repeated doses of activated charcoal keep the gut lumen full of adsorbent, trapping the recirculating drug and interrupting its reabsorption ("gut dialysis"), which enhances elimination.
+## explicit_objective
+Explain why enterohepatic circulation makes multiple-dose activated charcoal useful in digitalis toxicity.
+## pitfalls
+Attributing the benefit to concretion formation or poor adsorption; the mechanism is interruption of enterohepatic recirculation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Enhanced elimination
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Enhanced elimination
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-165259D4894628
+## label
+Cobra envenomation is neurotoxic with minimal local tissue damage
+## canonical_key
+toxicology.cobra-envenomation.neurotoxic-minimal-local-tissue-damage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cobra (elapid) venom is predominantly neurotoxic, producing diplopia, ptosis, dysphagia and descending muscle paralysis that can reach the respiratory muscles, with relatively little tissue destruction at the bite. Extensive local swelling and necrosis are instead characteristic of viper (haemotoxic/cytotoxic) bites.
+## explicit_objective
+Contrast the neurotoxic picture of cobra envenomation with the local tissue destruction of viper bites.
+## pitfalls
+Expecting marked local necrosis after a cobra bite; local tissue damage points to a viper, not an elapid.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Envenomation
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Envenomation
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0CD971EAA6C085
+## label
+Digitalis acts by inhibiting the Na+/K+-ATPase
+## canonical_key
+toxicology.digitalis.inhibits-sodium-potassium-atpase
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digitalis binds and inhibits the membrane sodium-potassium ATPase. The resulting rise in intracellular sodium reduces sodium-calcium exchange, raising intracellular calcium and enhancing myocardial contractility (its inotropic effect); in overdose the same mechanism raises serum potassium and causes arrhythmias.
+## explicit_objective
+Identify the sodium-potassium ATPase as the molecular target underlying both the action and toxicity of digitalis.
+## pitfalls
+Confusing the target with cytochrome oxidase (cyanide) or carbonic anhydrase (acetazolamide).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Cardiac glycosides
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Cardiac glycosides
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-848D406BDCFEF1
+## label
+Cyanide inactivates cytochrome oxidase
+## canonical_key
+toxicology.cyanide.inhibits-cytochrome-oxidase
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyanide binds the ferric (Fe3+) iron of cytochrome oxidase (cytochrome a3) in the mitochondrial electron-transport chain, halting aerobic ATP production and forcing anaerobic metabolism. This histotoxic hypoxia causes lactic acidosis despite normal oxygen delivery, and is the basis of antidotes providing alternative binding sites (nitrites, hydroxocobalamin).
+## explicit_objective
+Recognise cyanide as the toxin that inactivates cytochrome oxidase and blocks aerobic respiration.
+## pitfalls
+Attributing cytochrome-oxidase inhibition to phenol or ethanol; it is the defining action of cyanide.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Cellular asphyxiants
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Cellular asphyxiants
 ## article_ids
 ART-FMT-317-TOXICOLOGY
 ## related_article_ids
