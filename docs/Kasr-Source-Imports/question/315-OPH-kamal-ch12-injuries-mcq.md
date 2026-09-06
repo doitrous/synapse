@@ -4221,3 +4221,395 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-63
+## title
+Shaken baby syndrome
+## question
+In shaken baby syndrome:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+The child is quiet and happy.
+## explanation_a
+Incorrect. The child is typically irritable and unwell, not quiet and happy.
+## answer_b
+It is a form of physical abuse to children under the age of 6 years.
+## explanation_b
+Incorrect. It affects infants, characteristically under about two years, not up to six.
+## answer_c
+Retinal hemorrhages are not common.
+## explanation_c
+Incorrect. Multilayered retinal haemorrhages are a hallmark and are common.
+## answer_d
+Afferent pupillary defect may occur.
+## explanation_d
+Correct. An afferent pupillary defect may occur from optic nerve or extensive retinal damage.
+## topic
+Ophthalmology
+## subtopic
+Shaken baby syndrome
+## main_concept
+CON-MUL-BC6AB7664A06F3
+## concept_ids
+CON-MUL-BC6AB7664A06F3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that an afferent pupillary defect may occur in shaken baby syndrome.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-64
+## title
+Tennis ball injury effects — EXCEPT
+## question
+A young patient with a tennis ball injury to the globe can have all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+A dilated pupil.
+## explanation_a
+Incorrect (a genuine effect). Traumatic mydriasis gives a dilated pupil.
+## answer_b
+Intraocular foreign body.
+## explanation_b
+Correct. A blunt (closed-globe) injury does not introduce an intraocular foreign body; it is the exception.
+## answer_c
+Traumatic cataract.
+## explanation_c
+Incorrect (a genuine effect). Blunt trauma can cause traumatic cataract.
+## answer_d
+Iridodialysis.
+## explanation_d
+Incorrect (a genuine effect). Blunt trauma can cause iridodialysis.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-5B49F77EC67FEA
+## concept_ids
+CON-MUL-5B49F77EC67FEA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude an intraocular foreign body from the effects of blunt (tennis-ball) trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-65
+## title
+Closed globe injury includes
+## question
+Closed globe injury include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Lamellar laceration.
+## explanation_a
+Correct. A lamellar (partial-thickness) laceration has no full-thickness wound, so it is a closed-globe injury.
+## answer_b
+Rupture globe.
+## explanation_b
+Incorrect. A rupture is a full-thickness wound, an open-globe injury.
+## answer_c
+Intraocular foreign bodies.
+## explanation_c
+Incorrect. A retained intraocular foreign body is an open-globe injury.
+## answer_d
+Laceration.
+## explanation_d
+Incorrect. A full-thickness laceration is an open-globe injury.
+## topic
+Ophthalmology
+## subtopic
+Ocular trauma classification
+## main_concept
+CON-MUL-00B14B0462AC9B
+## concept_ids
+CON-MUL-00B14B0462AC9B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Classify a lamellar laceration as a closed-globe injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-66
+## title
+Definition of a globe rupture
+## question
+Rupture globe is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Full thickness wound of corneoscleral wall caused by a blunt object.
+## explanation_a
+Correct. A rupture is a full-thickness corneoscleral wound caused by a blunt object (inside-out mechanism).
+## answer_b
+Full thickness wound of corneoscleral wall caused by a sharp object.
+## explanation_b
+Incorrect. A full-thickness wound from a sharp object is a laceration.
+## answer_c
+Full thickness wound of corneoscleral wall with entrance and exit.
+## explanation_c
+Incorrect. A wound with entrance and exit is a perforation.
+## answer_d
+Full thickness wound of corneoscleral wall with retained intraocular foreign body.
+## explanation_d
+Incorrect. A wound with a retained foreign body is an intraocular foreign body injury.
+## topic
+Ophthalmology
+## subtopic
+Ocular trauma classification
+## main_concept
+CON-MUL-00B14B0462AC9B
+## concept_ids
+CON-MUL-00B14B0462AC9B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Define a globe rupture as a full-thickness corneoscleral wound from a blunt object.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
