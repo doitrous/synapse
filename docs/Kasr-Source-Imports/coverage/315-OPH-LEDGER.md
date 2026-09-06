@@ -8,7 +8,7 @@
 | kamal-ch4-image-capture | 76 | 10 | 5 | 91 |
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
-| kamal-ch7-red-eye | 8 | 0 | 196 | 204 |
+| kamal-ch7-red-eye | 33 | 1 | 170 | 204 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -54,6 +54,34 @@
   + 13 reused existing Ch.1/Ch.6 concepts. All 3 added to ART-OPH-315-GLAUCOMA related_concepts.
 - Ch.6 now fully triaged: 54 authored + 17 held = 71. Remaining 0.
 - NEXT cluster: Ch.7 The red eye (198-answer key p.4-5), then Ch.8-15.
+
+## Tranche 13 (2026-09-06): Chapter 7 The red eye Q9-34 — 25 MCQs (1 held)
+- Authored 25 clean single-best 4-option MCQs (Q9-Q28, Q30-Q34) into
+  question/315-OPH-kamal-ch7-red-eye-mcq.md (node DIS-OPH-T02, article ART-OPH-315-RED-EYE).
+  Keys from answer-key p.4-5 Ch.7 table (198 answers), each re-verified vs option text.
+- Held 1: Q29 — identical in-source DUPLICATE of Q11 (same four options + same key A:
+  iritis/hypopyon/panuveitis/oro-genital ulcers); authored Q11, held Q29.
+- Concepts: 13 new on DIS-OPH-T02 (vernal keratoconjunctivitis CON-MUL-9384A56F70F1C3 Q9/Q22;
+  Behcet disease CON-MUL-722BEF1C7D0502 Q11/Q12; glaukomflecken CON-MUL-BA07E6A638DB51 Q15;
+  acute angle-closure glaucoma treatment CON-MUL-D6E127443B062C Q16/Q28; ciliary injection
+  CON-MUL-227CA5096BC668 Q17/Q27; Acanthamoeba keratitis CON-MUL-51C3E827846F5E Q19/Q26;
+  fungal keratitis CON-MUL-1ED9C5AE54012E Q20; pterygium CON-MUL-1F059B701412E8 Q21;
+  anterior-uveitis causes CON-MUL-49617C7535B619 Q23; Vogt-Koyanagi-Harada CON-MUL-C7D0D9BAA95808
+  Q24; Rose Bengal stain CON-MUL-80426E4AAA24F7 Q30; orbital-cellulitis intracranial complications
+  CON-MUL-8B2B05589FF2D5 Q32; trachoma tarsal follicles CON-MUL-95E3B9FBDDD9DD Q33). All 13 added
+  to ART-OPH-315-RED-EYE related_concepts.
+- Reused 8 existing concepts: viral conjunctivitis CON-MUL-7BECB4DDEE36A9 (Q10); fluorescein
+  CON-MUL-4B8C31D10D2A75 (Q13); HSV dendritic ulcer CON-MUL-77C43E82B7F450 (Q14); corneal-ulcer
+  treatment CON-MUL-C23E4F2E6D41CF (Q18); trachoma cicatricial entropion CON-MUL-A4352E8F366A27
+  (Q25); miotics contraindicated in uveitis CON-MUL-746158B6BA4249 (Q34); and the Ch.3
+  proptosis concept CON-MUL-FDB9DB3B3A6DFA (Q31, ACG does not cause proptosis) — added to
+  ART-OPH-315-RED-EYE related_concepts for coverage.
+- Gates: batch 33 items / 0 errors; simulate 255 created / 0 rejected / 0 errors; audit NEUTRAL
+  vs the 315-OPH Draft baseline (17 categories both before and after this slice, 0 NEW-ONLY).
+- Ch.7 now 33 authored + 1 held = 34; remaining 170 (Q35-Q204 minus the 6 no-key rows).
+  Answer-key omits rows Q59/Q63/Q72/Q76/Q84/Q172 (HOLD when reached, never guess).
+- NEXT cluster: Ch.7 Q35-onward (Q35 CRAO/acute-red-eye, Q37-Q58 largely single-best; watch the
+  Q34-class iridocyclitis-vignette items and T/F 29-case section, out of scope), then Ch.8-15.
 
 ## Tranche 12 (2026-09-06): Chapter 7 The red eye OPENED — Q1-8
 - Opened Ch.7 in new file question/315-OPH-kamal-ch7-red-eye-mcq.md on node DIS-OPH-T02 (Anterior segment)
