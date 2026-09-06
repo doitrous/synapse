@@ -32215,3 +32215,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q46-55) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0E71821C51AA1F
+## label
+Causes and investigation of optic neuritis
+## canonical_key
+ophthalmology.optic-neuritis.causes-and-investigation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Optic neuritis (inflammation of the optic nerve) is caused by demyelinating disease (multiple sclerosis, the commonest), local spread (orbital cellulitis, sinusitis), and infections/granulomas such as tuberculosis and syphilis; retinitis pigmentosa is a photoreceptor dystrophy and not a cause. The key investigation is brain MRI (to show demyelinating plaques); CT and ocular ultrasound are not the investigation of choice, and the electroretinogram tests the retina, not the optic nerve.
+## explicit_objective
+List the causes of optic neuritis (excluding retinitis pigmentosa) and identify brain MRI as the key investigation.
+## pitfalls
+Listing retinitis pigmentosa as a cause, or choosing CT/ERG/ultrasound over MRI; MRI is the investigation of choice for optic neuritis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic neuritis
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q56-73) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-326B6F931ED493
+## label
+Diagnosis of giant cell (temporal) arteritis
+## canonical_key
+ophthalmology.giant-cell-arteritis.diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Giant cell (temporal) arteritis is an emergency cause of arteritic ischaemic optic neuropathy in the elderly. It is diagnosed from jaw claudication, headache and scalp tenderness, a markedly raised ESR and CRP, and a temporal artery biopsy (the confirmatory test); the fellow eye is at risk within days to weeks, so high-dose steroids are started immediately.
+## explicit_objective
+Recognise jaw claudication, raised ESR/CRP and temporal artery biopsy as the diagnostic features of giant cell arteritis.
+## pitfalls
+Delaying steroids for the biopsy, or missing jaw claudication and a very high ESR/CRP; giant cell arteritis is a sight-threatening emergency.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic nerve
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q56-73) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BBC53FEDF8D044
+## label
+Non-arteritic ischaemic optic neuropathy: risk factors and prognosis
+## canonical_key
+ophthalmology.non-arteritic-ischaemic-optic-neuropathy.risk-factors-and-prognosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Non-arteritic anterior ischaemic optic neuropathy (NAION) occurs in patients with vascular risk factors — diabetes, hypertension, a small crowded ("disc at risk") optic disc — and gives sudden painless visual loss with an altitudinal field defect and a relative afferent pupillary defect. The prognosis is guarded: about 40% recover some useful vision, and the fellow eye is at risk.
+## explicit_objective
+Recognise diabetes and other vascular risk factors as the aetiology of NAION and its guarded visual prognosis.
+## pitfalls
+Attributing NAION to multiple sclerosis or brain tumours; it is a vascular event in a small crowded disc, not a demyelinating or compressive one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic nerve
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q56-73) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7E89B8CF99E2D5
+## label
+Secondary optic atrophy follows papilledema or papillitis
+## canonical_key
+ophthalmology.optic-atrophy.secondary-follows-papilloedema
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Secondary optic atrophy follows long-standing swelling of the optic disc (papilledema or papillitis). The disc is grey-white with blurred, ill-defined margins and the lamina cribrosa is obscured by gliosis — in contrast to primary optic atrophy (sharp margins, visible lamina) and consecutive optic atrophy (following retinal disease).
+## explicit_objective
+Recognise secondary optic atrophy as the atrophy that follows papilledema/papillitis.
+## pitfalls
+Confusing secondary optic atrophy (blurred margins after disc swelling) with primary (a direct nerve insult) or consecutive (retinal disease) atrophy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic atrophy
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q56-73) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

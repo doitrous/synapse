@@ -3867,3 +3867,993 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The e
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-56
+## title
+Causes of optic neuritis EXCEPT retinitis pigmentosa
+## question
+Causes of optic neuritis include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Orbital cellulitis.
+## explanation_a
+Incorrect (a genuine cause). Orbital cellulitis can spread to inflame the optic nerve.
+## answer_b
+TB.
+## explanation_b
+Incorrect (a genuine cause). Tuberculosis is an infective/granulomatous cause.
+## answer_c
+Demyelinating disease.
+## explanation_c
+Incorrect (a genuine cause). Demyelinating disease (multiple sclerosis) is the commonest cause.
+## answer_d
+Retinitis pigmentosa.
+## explanation_d
+Correct. Retinitis pigmentosa is a photoreceptor dystrophy, not a cause of optic neuritis; this is the exception.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-0E71821C51AA1F
+## concept_ids
+CON-MUL-0E71821C51AA1F
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude retinitis pigmentosa from the causes of optic neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-57
+## title
+Investigation of optic neuritis: brain MRI
+## question
+Investigations for optic neuritis include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Brain CT.
+## explanation_a
+Incorrect. CT is less sensitive than MRI for the demyelinating plaques of optic neuritis.
+## answer_b
+Brain MRI.
+## explanation_b
+Correct. Brain MRI shows demyelinating plaques and is the key investigation for optic neuritis.
+## answer_c
+Electroretinogram.
+## explanation_c
+Incorrect. The electroretinogram tests the retina, not the optic nerve.
+## answer_d
+Ocular ultrasonography.
+## explanation_d
+Incorrect. Ocular ultrasound images the globe/orbit, not the demyelination of optic neuritis.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-0E71821C51AA1F
+## concept_ids
+CON-MUL-0E71821C51AA1F
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify brain MRI as the key investigation for optic neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-58
+## title
+Retrobulbar neuritis differs from papillitis in fundus examination
+## question
+Retrobulbar neuritis differs from papillitis in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Symptoms.
+## explanation_a
+Incorrect. Both cause reduced acuity, a scotoma and impaired colour vision — similar symptoms.
+## answer_b
+Fundus examination.
+## explanation_b
+Correct. In retrobulbar neuritis the disc looks normal, whereas in papillitis it is swollen — the difference is on fundus examination.
+## answer_c
+Pupillary reaction.
+## explanation_c
+Incorrect. Both show a relative afferent pupillary defect.
+## answer_d
+Pattern visual evoked potential.
+## explanation_d
+Incorrect. Both give a delayed pattern visual evoked potential.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-5581B670718650
+## concept_ids
+CON-MUL-5581B670718650
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that retrobulbar neuritis and papillitis differ mainly on fundus examination (normal versus swollen disc).
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-59
+## title
+Giant cell arteritis diagnosis EXCEPT absent pulsation
+## question
+Giant cell arteritis is typically diagnosed by the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Jaw claudication.
+## explanation_a
+Incorrect (a genuine diagnostic feature). Jaw claudication is characteristic of giant cell arteritis.
+## answer_b
+Elevated ESR and CRP.
+## explanation_b
+Incorrect (a genuine diagnostic feature). A markedly raised ESR and CRP support the diagnosis.
+## answer_c
+Temporal artery biopsy.
+## explanation_c
+Incorrect (a genuine diagnostic feature). Temporal artery biopsy is the confirmatory test.
+## answer_d
+Absent pulsation.
+## explanation_d
+Correct. Absent temporal-artery pulsation is a physical sign, not a typical diagnostic criterion; this is the exception.
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## main_concept
+CON-MUL-326B6F931ED493
+## concept_ids
+CON-MUL-326B6F931ED493
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise jaw claudication, raised ESR/CRP and temporal artery biopsy as diagnostic of giant cell arteritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-60
+## title
+Altitudinal field defect in ischaemic optic neuropathy
+## question
+Altitudinal field defect occurs in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Retrobulbar neuritis.
+## explanation_a
+Incorrect. Retrobulbar neuritis gives a central/paracentral scotoma.
+## answer_b
+Consecutive optic atrophy.
+## explanation_b
+Incorrect. Consecutive optic atrophy follows retinal disease with its own field pattern.
+## answer_c
+Ischemic optic neuropathy.
+## explanation_c
+Correct. Ischaemic optic neuropathy characteristically gives an altitudinal field defect (from segmental disc infarction).
+## answer_d
+Papilloedema.
+## explanation_d
+Incorrect. Papilledema gives an enlarged blind spot, not an altitudinal defect.
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## main_concept
+CON-MUL-4CA90787BA5E1C
+## concept_ids
+CON-MUL-4CA90787BA5E1C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Associate an altitudinal field defect with ischaemic optic neuropathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-61
+## title
+Aetiology of non-arteritic ischaemic optic neuropathy: diabetes
+## question
+Etiology of non-arteritic ischemic optic neuropathy:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Diabetes.
+## explanation_a
+Correct. Non-arteritic ischaemic optic neuropathy occurs with vascular risk factors such as diabetes and hypertension in a small crowded disc.
+## answer_b
+Multiple sclerosis.
+## explanation_b
+Incorrect. Multiple sclerosis causes optic neuritis, not ischaemic optic neuropathy.
+## answer_c
+Brain tumors.
+## explanation_c
+Incorrect. A brain tumour causes compressive, not ischaemic, optic neuropathy.
+## answer_d
+Extensive chorioretinal degeneration.
+## explanation_d
+Incorrect. Chorioretinal degeneration is a retinal process, not the cause of NAION.
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## main_concept
+CON-MUL-BBC53FEDF8D044
+## concept_ids
+CON-MUL-BBC53FEDF8D044
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise diabetes as an aetiological risk factor for non-arteritic ischaemic optic neuropathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-62
+## title
+Prognosis of non-arteritic ischaemic optic neuropathy
+## question
+Non-arteritic ischemic optic neuropathy:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+40% recover with perfect vision.
+## explanation_a
+Incorrect. Recovery is not to perfect vision.
+## answer_b
+40% recover with some useful vision.
+## explanation_b
+Correct. Roughly 40% recover some useful vision; the prognosis is guarded.
+## answer_c
+40% have repeated episodes in the same eye.
+## explanation_c
+Incorrect. Recurrence in the same eye is uncommon.
+## answer_d
+40% have repeated episodes in the other eye within days.
+## explanation_d
+Incorrect. Fellow-eye involvement can occur but not typically within days.
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## main_concept
+CON-MUL-BBC53FEDF8D044
+## concept_ids
+CON-MUL-BBC53FEDF8D044
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the guarded visual prognosis of non-arteritic ischaemic optic neuropathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-63
+## title
+Secondary optic atrophy complicates papilledema
+## question
+Secondary optic atrophy is a complication of the following lesion:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Multiple sclerosis.
+## explanation_a
+Incorrect. Optic atrophy after the optic neuritis of multiple sclerosis is a primary/post-neuritic atrophy.
+## answer_b
+Retinitis pigmentosa.
+## explanation_b
+Incorrect. Retinitis pigmentosa leads to consecutive optic atrophy.
+## answer_c
+Papilledema.
+## explanation_c
+Correct. Long-standing papilledema leads to secondary optic atrophy (blurred margins, obscured lamina).
+## answer_d
+Traumatic optic neuropathy.
+## explanation_d
+Incorrect. A direct nerve insult leads to primary optic atrophy.
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## main_concept
+CON-MUL-7E89B8CF99E2D5
+## concept_ids
+CON-MUL-7E89B8CF99E2D5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise papilledema as the lesion that leads to secondary optic atrophy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-64
+## title
+Consecutive optic atrophy complicates retinitis pigmentosa
+## question
+Consecutive optic atrophy is a complication of the following lesion:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Multiple sclerosis.
+## explanation_a
+Incorrect. This leads to a primary/post-neuritic optic atrophy.
+## answer_b
+Retinitis pigmentosa.
+## explanation_b
+Correct. Consecutive optic atrophy follows primary retinal disease such as retinitis pigmentosa.
+## answer_c
+Papilledema.
+## explanation_c
+Incorrect. Papilledema leads to secondary optic atrophy.
+## answer_d
+Traumatic optic neuropathy.
+## explanation_d
+Incorrect. Direct trauma leads to primary optic atrophy.
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## main_concept
+CON-MUL-8944E2669837DC
+## concept_ids
+CON-MUL-8944E2669837DC
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise retinitis pigmentosa as the retinal disease that leads to consecutive optic atrophy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-65
+## title
+Miosis can occur in all EXCEPT oculomotor palsy
+## question
+Miosis can occur in all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Acute iridocyclitis.
+## explanation_a
+Incorrect (a genuine cause). Iridocyclitis causes reflex miosis.
+## answer_b
+Horner's syndrome.
+## explanation_b
+Incorrect (a genuine cause). Sympathetic paralysis causes miosis.
+## answer_c
+Pontine hemorrhage.
+## explanation_c
+Incorrect (a genuine cause). A pontine haemorrhage causes miosis.
+## answer_d
+Oculomotor nerve palsy.
+## explanation_d
+Correct. A third nerve palsy dilates the pupil (mydriasis); it does not cause miosis, so it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-79A95C3D32D326
+## concept_ids
+CON-MUL-79A95C3D32D326
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude the oculomotor (third nerve) palsy from the causes of miosis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
