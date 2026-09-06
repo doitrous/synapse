@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 7,
+ "count": 8,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -337,6 +337,52 @@
    "textLayer": "none",
    "processingStatus": "extracted",
    "extractionDisposition": "Scanned Google-Forms screenshots (no text layer); rendered at ~220 dpi and read visually. Correct answer per item = the FILLED (selected) radio button on the Forms screenshot, never-guess held if no radio is clearly filled. Second keyed ENT source for 316 ENT (after the department bank src_33e91d37f173f0ca3fba); heavy overlap expected with the already-authored 281-item ENT corpus, so authored the FRESH remainder only, dedup against question/316-ENT-*. See coverage/316-ENT-LEDGER.md."
+  },
+  {
+   "sourceId": "src_88f58dc630a0ed14bb4e",
+   "sha256": "88f58dc630a0ed14bb4e683e6e939f0e6042836acac9b859d99f9e328881893c",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/310 PAT/Pharmacology/Questions & MCQs/Pharma MCQ by Abolmagd.pdf",
+   "corpusRelativePath": "310 PAT/Pharmacology/Questions & MCQs/Pharma MCQ by Abolmagd.pdf",
+   "fileName": "Pharma MCQ by Abolmagd.pdf",
+   "fileNameWithoutInstructions": "Pharma MCQ by Abolmagd.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "310 PAT",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Pharmacology"
+   ],
+   "rawModuleShorthand": "310 PAT",
+   "moduleSubjectPath": "310 PAT > Pharmacology",
+   "sourceCategory": "Student material",
+   "instructor": "Abolmagd (student-authored compilation)",
+   "crossModulePractical": false,
+   "subject": "Pharmacology",
+   "folderSubject": "Pharmacology",
+   "subjectSource": "folder",
+   "departmentAuthored": false,
+   "tierEvidence": "Student-authored topic-ordered pharmacology MCQ compilation; cover 'MCQ PHARMA ACCORDING TO THE TOPICS BY: ABOLMAGD'. Authored into 310 PAT as a distinct Pharmacology subject per the module ruling (Omar 2026-09-06): module 310 holds BOTH Pathology and Pharmacology.",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: 'MCQ PHARMA ACCORDING TO THE TOPICS / BY: ABOLMAGD'. Index (p1): 1- Ans p2, 2- Ocular Pharma p9, 3- Muscle p9, 4- Autacoids p10, 5- Cvs & Renal (Diuretics p11, Ischemia p12, Hypertension p15, Heart Failure p20, Cardiac Dysrhythmia p22), 6- Blood p28. Continuously numbered MCQs, 4 options each.",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Topic-ordered pharmacology MCQ compilation, not a single dated sitting; no printed calendar year, so examSittingYear left null (not guessed).",
+   "solvedStatus": "unsolved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 34,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Native text layer (no OCR). This bank prints NO answer key — no colour/highlight/table marks the correct option. Per Omar's 2026-09-07 answer policy, correct answers are EXPERT-DETERMINED by medical reasoning and proven in each authored item's per-option explanations (keySource recorded as such; STATUS=Draft for human review); genuinely ambiguous items are HELD. Authored into the 310-PAT Pharmacology subject (concepts CON-PHA-*, articles ART-PAT-310-PHARMACOLOGY-*, questions 310-PAT-pharma-*-mcq.md). See coverage/310-PAT-PHARMA-LEDGER.md."
   }
  ]
 }
