@@ -5103,3 +5103,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-72
+## title
+Trauma-case management — all true EXCEPT
+## question
+In trauma cases all is true EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Thorough history taking.
+## explanation_a
+Incorrect (a true statement). A thorough history is essential.
+## answer_b
+MRI imaging is mandatory.
+## explanation_b
+Correct. MRI is not mandatory and is contraindicated with a suspected metallic foreign body; this is the false statement.
+## answer_c
+Orbit and EOM examination should be done.
+## explanation_c
+Incorrect (a true statement). Orbit and extraocular-movement examination should be done.
+## answer_d
+The patient should be prevented from eating or drinking.
+## explanation_d
+Incorrect (a true statement). The patient is kept nil by mouth in case surgery is needed.
+## topic
+Ophthalmology
+## subtopic
+Trauma assessment
+## main_concept
+CON-MUL-1AA8409A9F7E79
+## concept_ids
+CON-MUL-1AA8409A9F7E79
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that MRI is not mandatory in trauma (contraindicated with a metallic foreign body).
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-73
+## title
+Orbital floor fracture — true statement
+## question
+In orbital floor fracture:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Treatment is urgent.
+## explanation_a
+Incorrect. Repair is usually planned over days, not urgent.
+## answer_b
+Diagnosis depends on ultrasonography of orbit.
+## explanation_b
+Incorrect. Diagnosis depends on CT of the orbit, not ultrasound.
+## answer_c
+Uniocular diplopia.
+## explanation_c
+Incorrect. The diplopia is binocular, disappearing on covering one eye.
+## answer_d
+Restriction of vertical eye movement.
+## explanation_d
+Correct. Entrapment of the inferior rectus restricts vertical eye movement.
+## topic
+Ophthalmology
+## subtopic
+Orbital fracture
+## main_concept
+CON-MUL-E8480257B59E2B
+## concept_ids
+CON-MUL-E8480257B59E2B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise restriction of vertical eye movement as a feature of orbital floor fracture.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-75
+## title
+Why scleral rupture exceeds corneal rupture
+## question
+Scleral rupture is more common than corneal rupture because:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Cornea is transparent.
+## explanation_a
+Incorrect. Transparency does not determine rupture resistance.
+## answer_b
+Cornea is stronger than sclera.
+## explanation_b
+Correct. The cornea is the tougher coat, so rupture occurs more often in the weaker sclera.
+## answer_c
+Sclera is covered by conjunctiva.
+## explanation_c
+Incorrect. The conjunctival cover does not prevent scleral rupture.
+## answer_d
+Cornea is less elastic than sclera.
+## explanation_d
+Incorrect. The relative elasticity is not the reason; corneal strength is.
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## main_concept
+CON-MUL-9BF77839A8FAD6
+## concept_ids
+CON-MUL-9BF77839A8FAD6
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Explain that scleral rupture exceeds corneal rupture because the cornea is stronger.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-76
+## title
+Commotio retinae — feature
+## question
+Commotio retinae:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Is caused by penetrating ocular injury.
+## explanation_a
+Incorrect. Commotio retinae follows blunt, not penetrating, injury.
+## answer_b
+Is characterized by cherry red fovea.
+## explanation_b
+Correct. Retinal oedema with a cherry-red fovea characterises commotio retinae.
+## answer_c
+Is followed by secondary optic atrophy.
+## explanation_c
+Incorrect. Secondary optic atrophy is not its usual sequel.
+## answer_d
+Is a result of retinal detachment.
+## explanation_d
+Incorrect. It is retinal opacification, not a detachment.
+## topic
+Ophthalmology
+## subtopic
+Commotio retinae
+## main_concept
+CON-MUL-36ADB2DE5C7759
+## concept_ids
+CON-MUL-36ADB2DE5C7759
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the cherry-red fovea as a feature of commotio retinae.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-77
+## title
+Signs of ocular rupture — EXCEPT
+## question
+Signs of ocular rupture include the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Hypotony.
+## explanation_a
+Incorrect (a genuine sign). Hypotony follows the leak from a ruptured globe.
+## answer_b
+Deep anterior chamber.
+## explanation_b
+Correct. The anterior chamber is shallow, not deep, in a rupture; this is the exception.
+## answer_c
+Iris prolapse.
+## explanation_c
+Incorrect (a genuine sign). Iris may prolapse through the wound.
+## answer_d
+Abnormal size and shape of the pupil.
+## explanation_d
+Incorrect (a genuine sign). The pupil is peaked and abnormal toward the wound.
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## main_concept
+CON-MUL-3FB74CDBE1E9B7
+## concept_ids
+CON-MUL-3FB74CDBE1E9B7
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude a deep anterior chamber from the signs of a globe rupture.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
