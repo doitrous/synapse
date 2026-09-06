@@ -2430,3 +2430,492 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-26
+## title
+Drug that raises intraocular pressure
+## question
+One of the following drugs can lead to rise of intraocular pressure:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Beta blockers.
+## explanation_a
+Incorrect. Beta-blockers lower intraocular pressure.
+## answer_b
+Steroids.
+## explanation_b
+Correct. Corticosteroids (the steroid response) can raise intraocular pressure.
+## answer_c
+Mannitol.
+## explanation_c
+Incorrect. Mannitol lowers pressure osmotically.
+## answer_d
+Brimonidine.
+## explanation_d
+Incorrect. Brimonidine lowers pressure.
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## main_concept
+CON-MUL-BC0CE9D4942294
+## concept_ids
+CON-MUL-BC0CE9D4942294
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify steroids as the drug that raises intraocular pressure.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-27
+## title
+Topical corticosteroid side effects include
+## question
+Topical corticosteroids side effects include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Hypersensitivity in children.
+## explanation_a
+Incorrect. Hypersensitivity is not the characteristic steroid side effect here.
+## answer_b
+Rebound vasodilatation of conjunctival vessels.
+## explanation_b
+Incorrect. Rebound vasodilatation is a decongestant effect, not a steroid one.
+## answer_c
+Activation of viral infections.
+## explanation_c
+Correct. Topical corticosteroids activate (worsen) viral infections.
+## answer_d
+Defective near vision.
+## explanation_d
+Incorrect. Defective near vision is a cycloplegic effect, not a steroid one.
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## main_concept
+CON-MUL-4FDFDC644EA43A
+## concept_ids
+CON-MUL-4FDFDC644EA43A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise activation of viral infection as a side effect of topical steroids.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-28
+## title
+Use of topical NSAIDs
+## question
+Topical non-steroidal anti-inflammatory agents are used for:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Orbital cellulitis.
+## explanation_a
+Incorrect. Orbital cellulitis needs systemic antibiotics.
+## answer_b
+Herpes zoster ophthalmicus.
+## explanation_b
+Incorrect. Herpes zoster needs antivirals.
+## answer_c
+Ocular itching.
+## explanation_c
+Correct. Topical NSAIDs relieve ocular itching and inflammation.
+## answer_d
+Fungal infections.
+## explanation_d
+Incorrect. Fungal infection needs antifungals, not NSAIDs.
+## topic
+Ophthalmology
+## subtopic
+Topical NSAIDs
+## main_concept
+CON-MUL-5DE13F6D10AAB9
+## concept_ids
+CON-MUL-5DE13F6D10AAB9
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify ocular itching as an indication for topical NSAIDs.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-29
+## title
+When timolol may still be used — EXCEPT
+## question
+Timolol should not be used in the following conditions EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Chronic obstructive pulmonary disease.
+## explanation_a
+Incorrect (a genuine contraindication). Timolol is avoided in COPD.
+## answer_b
+Bradycardia.
+## explanation_b
+Incorrect (a genuine contraindication). Timolol worsens bradycardia.
+## answer_c
+Hypertension.
+## explanation_c
+Correct. Hypertension is not a contraindication to timolol; it is the exception.
+## answer_d
+Heart failure.
+## explanation_d
+Incorrect (a genuine contraindication). Timolol is avoided in heart failure.
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## main_concept
+CON-MUL-158566FF7BBA90
+## concept_ids
+CON-MUL-158566FF7BBA90
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that hypertension does not contraindicate timolol.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-30
+## title
+Glaucoma beta-blockers
+## question
+Glaucoma medications β-blockers:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+They may be used in all types of glaucoma.
+## explanation_a
+Correct. Beta-blockers reduce aqueous formation and may be used across all types of glaucoma.
+## answer_b
+They can be used safely in patients with cardiac failure.
+## explanation_b
+Incorrect. They are unsafe in cardiac failure.
+## answer_c
+They are drops of choice in patient with bronchial asthma.
+## explanation_c
+Incorrect. They are avoided, not preferred, in bronchial asthma.
+## answer_d
+They can never be combined with prostaglandin analogue.
+## explanation_d
+Incorrect. They can be combined with a prostaglandin analogue.
+## answer_e
+
+## explanation_e
+
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## main_concept
+CON-MUL-018D422C219AB8
+## concept_ids
+CON-MUL-018D422C219AB8
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that beta-blockers may be used in all types of glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
