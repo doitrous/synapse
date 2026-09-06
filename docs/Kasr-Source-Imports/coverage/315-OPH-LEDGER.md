@@ -10,6 +10,7 @@
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
 | kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
 | kamal-ch8-retina | 73 | 17 | 0 | 90 |
+| kamal-ch9-eye-brain | 57 | 16 | 0 | 73 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -221,3 +222,38 @@
 - Ch.8 now COMPLETE: 73 authored + 17 held = 90; remaining 0. The T/F 13-case section (post-Q90) is out of scope.
 - NEXT cluster: OPEN Ch.9 The eye and the brain (bank PDF p.129+, answer key p.6, 72 MCQs) — new file
   question/315-OPH-kamal-ch9-eye-brain-mcq.md + new ART-OPH-315-NEURO-OPHTHALMOLOGY, node DIS-OPH-T05.
+
+## Tranche 18 (2026-09-06): Chapter 9 The eye and the brain OPENED — Q1-73 fully triaged — 57 MCQs (16 held)
+- OPENED Ch.9 in new file question/315-OPH-kamal-ch9-eye-brain-mcq.md on the verified node DIS-OPH-T05
+  (Neuro-ophthalmology, shared with Ch.5 ocular motility) and new article ART-OPH-315-NEURO-OPHTHALMOLOGY.
+  Authored 57 clean single-best MCQs (Q1-29, Q46-73) in five pushed micro-slices:
+  Q1-10 (fa10eaf5), Q11-20 (d3a508f4), Q21-29 (29ecdd4c), Q46-55 (debbef9a), Q56-65 (bdc50e2c), Q66-73 (44bcc454).
+  Keys from answer-key p.6-7 Ch.9 table (72 answers), each re-verified vs option text. Note Q26 is a
+  5-option "all of the above" item (answer E).
+- Held 16: Q45 (answer-key omits the row -> never-guess); and the Q30-44 CASE block (15 items) — patient-scenario
+  vignettes whose four lettered options are independent true/false statements with more than one defensibly true
+  (idiopathic intracranial hypertension / hypertensive papilloedema / optic-neuritis / AION / GCA / optic-atrophy
+  cases), not single-best as printed, held for multi-true adjudication. Keys for reference: Q30.A Q31.? Q32.? Q33.C
+  Q34.A Q35.A Q36.B Q37.C Q38.A Q39.B Q40.C Q41.B Q42.D Q43.A Q44.B (Q31/Q32 rows are on answer-key p.6/p.7).
+- Concepts: 18 new on DIS-OPH-T05, all added to ART-OPH-315-NEURO-OPHTHALMOLOGY related_concepts:
+  mydriasis causes CON-MUL-2AB4DFDE5D7E9D (Q1/Q7/Q12/Q66); RAPD=unilateral optic-nerve disease
+  CON-MUL-A4B40EB11DBC84 (Q3/Q8/Q10/Q18/Q70/Q71); papilledema=raised ICP CON-MUL-0D89C958F3BA46
+  (Q4/Q6/Q20/Q25/Q53/Q54); visual-pathway field defects CON-MUL-C5E0F4125E8139 (Q5/Q16/Q27/Q28/Q47-52);
+  consecutive optic atrophy CON-MUL-8944E2669837DC (Q9/Q64); miosis causes CON-MUL-79A95C3D32D326
+  (Q11/Q14/Q29/Q65/Q67); Horner's syndrome CON-MUL-DDAE5BF64386BD (Q13/Q24/Q72/Q73); ischaemic optic
+  neuropathy (short post. ciliary aa.) CON-MUL-4CA90787BA5E1C (Q15/Q60); pupillary light+near reflex
+  CON-MUL-417ABD2B4A9949 (Q17/Q68/Q69); retrobulbar optic neuritis CON-MUL-5581B670718650 (Q19/Q22/Q26/Q58);
+  optic-disc-swelling causes CON-MUL-1FF9285F996F54 (Q21); primary optic atrophy CON-MUL-D5DB9390A1A334 (Q23);
+  neuro-ophthalmic examination CON-MUL-8DC4628F5D33EE (Q46); pseudotumour cerebri CON-MUL-307858B16A6605 (Q55);
+  optic-neuritis causes+investigation CON-MUL-0E71821C51AA1F (Q56/Q57); giant cell arteritis dx
+  CON-MUL-326B6F931ED493 (Q59); NAION risk+prognosis CON-MUL-BBC53FEDF8D044 (Q61/Q62); secondary optic atrophy
+  CON-MUL-7E89B8CF99E2D5 (Q63). Reused 1 foreign concept: MS optic neuritis CON-MUL-8AE1B2B3F2F161 (Q2), added
+  to the NEURO article related_concepts for coverage.
+- Gates: each micro-slice gate.mjs batch errors=0 (cumulative items 10/20/29/39/49/57 with concept+article+
+  resource siblings). Each slice committed and pushed to origin/main immediately (SHAs above).
+- Ch.9 MCQs now fully triaged: 57 authored + 16 held = 73; remaining 0. A T/F (10 cases) section follows the
+  MCQs (out of scope).
+- NEXT cluster: Ch.10 Eye diseases in infancy and early childhood (bank PDF p.142+, answer key p.7-8, 57 MCQs;
+  key omits rows Q18/Q41/Q52 -> HOLD when reached). New file question/315-OPH-kamal-ch10-childhood-mcq.md; the
+  closest node is likely a paediatric/DIS-OPH child node (verify) else group under a new article. Also still
+  open for adjudication: the held Ch.9 Q30-44 case block + Q45 (no key), and all earlier multi-true/T-F holds.
