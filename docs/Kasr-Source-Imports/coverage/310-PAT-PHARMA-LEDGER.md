@@ -12,7 +12,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · ANS (Q1-10, `Pharma MCQ by Abolmagd.pdf` pp.3-6) | 10 | 0 | 0 | 0 | 10 |
 | Abolmagd Pharma · ANS (Q11-20, same paper pp.6-8) | 10 | 0 | 0 | 0 | 10 |
 | Abolmagd Pharma · ANS autonomic (Q21,26,27,30,31,32,34,35, pp.6-8) | 8 | 0 | 4 | 0 (Q22-25 deferred to CVS/Renal) | 12 |
-| **Pharmacology subject total** | **28** | **0** | **4** | ANS Q37-46, Q22-25→CVS/Renal, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
+| Abolmagd Pharma · ANS tail (Q37-39 + Q43-45 PK, pp.8-9) | 6 | 0 | 3 | 0 (Q46 deferred to Autacoids) | 9 |
+| **Pharmacology subject total (ANS section complete Q1-46)** | **34** | **0** | **7** | Q22-25→CVS/Renal, Q46→Autacoids, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
 
 ## Subject opened
 
@@ -61,11 +62,22 @@ CON-PHA-8224C191083704 (atropine effects). Total concepts so far: 26.
 
 ## Held / excluded
 
-None held in slices 1-3. Excluded as duplicate facts (dedupe): Q28 (pilocarpine sialagogue
+None held in slices 1-4. Excluded as duplicate facts (dedupe): Q28 (pilocarpine sialagogue
 = Q13), Q29 (neostigmine for ileus = cholinergic-uses fact from Q3), Q33 (pralidoxime
-reactivation = Q14), Q36 (hyoscine CNS depressant = Q17). Deferred (not lost): Q22 (CCB
-adverse effects), Q23 (furosemide), Q24 (thiazides), Q25 (diuretics) — these belong to the
-CVS & Renal cluster (DIS-PHA-T04) and will be authored there for coherent grouping.
+reactivation = Q14), Q36 (hyoscine CNS depressant = Q17), Q40 (motion-sickness patch =
+Q8), Q41 (oximes effective early = Q14 pralidoxime), Q42 (bethanechol in asthma =
+cholinergic contraindication from Q3). Deferred (not lost): Q22-25 (CCB/furosemide/
+thiazides/diuretics) → CVS & Renal cluster (DIS-PHA-T04); Q46 (diphenhydramine sedation) →
+Autacoids cluster. ANS section (Q1-46) now fully triaged: 34 authored, 7 excluded (dupes),
+5 deferred.
+
+## Slice-4 concepts (ANS tail)
+
+6 minted, 0 reused: CON-PHA-F2C4CE8E4D8D59 (beta-1 selectivity relative),
+CON-PHA-7A1B72A8535242 (antimuscarinic organ-selective uses), CON-PHA-9BDFC46858D50D
+(edrophonium/Tensilon), CON-PHA-A668F2983A9C7E (Vd calc, T01), CON-PHA-B5BE952D5FCFC4
+(infusion rate calc, T01), CON-PHA-7903DD2E958352 (steady state = 4-5 half-lives, T01).
+Total concepts so far: 32.
 
 ## Next
 

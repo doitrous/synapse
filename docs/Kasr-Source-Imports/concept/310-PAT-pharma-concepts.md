@@ -2116,3 +2116,489 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F2C4CE8E4D8D59
+## label
+Beta-1 selectivity of beta-blockers is relative, not absolute
+## canonical_key
+beta1-blocker.relative-selectivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cardioselective beta-blockers preferentially block beta-1 receptors, giving less bronchospasm, fewer cold extremities and less interference with adrenaline-driven recovery from hypoglycaemia. However this selectivity is only RELATIVE: at higher doses they also block beta-2 receptors, so it is lost. Claiming absolute beta-1 selectivity is therefore false.
+## explicit_objective
+State that beta-1 selectivity is relative and is lost at high doses.
+## pitfalls
+Believing cardioselective beta-blockers are absolutely safe in asthma; selectivity is dose-dependent and incomplete.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Adrenergic blockers
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Adrenergic blockers
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F4085607789FEC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7A1B72A8535242
+## label
+Organ-selective uses of antimuscarinic drugs
+## canonical_key
+antimuscarinic.subtype-selective-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Different antimuscarinics are chosen for the organ they best reach: hyoscine butylbromide for abdominal colic, tropicamide for pupil dilatation in fundus examination, benztropine for Parkinsonism, tiotropium (inhaled) as a bronchodilator in COPD/asthma, and uroselective agents (tolterodine, solifenacin) for bladder overactivity. Tiotropium is an airway drug and is NOT used for urinary incontinence.
+## explicit_objective
+Match antimuscarinic subtypes to their organ-selective uses and recognise tiotropium as an airway, not a bladder, drug.
+## pitfalls
+Pairing tiotropium with urinary incontinence; it is an inhaled bronchodilator, and bladder overactivity needs uroselective agents.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A10C59E7D0E128
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-9BDFC46858D50D
+## label
+Edrophonium (Tensilon) test for myasthenia gravis
+## canonical_key
+edrophonium.myasthenia-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Edrophonium is an ultra-short-acting anticholinesterase; in the Tensilon test it transiently raises acetylcholine at the neuromuscular junction, and a prompt but brief improvement in muscle strength (for example resolution of ptosis) supports a diagnosis of myasthenia gravis. Its very short duration of action makes it ideal for a rapid diagnostic challenge rather than for treatment.
+## explicit_objective
+Identify edrophonium as the short-acting anticholinesterase used to confirm myasthenia gravis.
+## pitfalls
+Choosing a longer-acting anticholinesterase or a smooth-muscle agonist; the brief action of edrophonium is what suits the diagnostic test.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-529EF65F83F0D7
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-A668F2983A9C7E
+## label
+Apparent volume of distribution: dose over concentration
+## canonical_key
+pharmacokinetics.volume-of-distribution.calculation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The apparent volume of distribution relates the amount of drug in the body to its plasma concentration: Vd = dose / plasma concentration. For a 200 mg intravenous dose giving a peak plasma concentration of 0.02 mg/ml, Vd = 200 mg / 0.02 mg per ml = 10 000 ml = 10 litres. A large Vd indicates extensive tissue distribution relative to plasma.
+## explicit_objective
+Calculate the apparent volume of distribution as dose divided by plasma concentration.
+## pitfalls
+Unit errors: keep dose and concentration in matching mass and volume units before dividing.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T01
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Clinical pharmacokinetics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Clinical pharmacokinetics > Volume of distribution
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-B5BE952D5FCFC4
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-B5BE952D5FCFC4
+## label
+Maintenance infusion rate: concentration times clearance
+## canonical_key
+pharmacokinetics.infusion-rate.calculation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At steady state the maintenance infusion rate equals the target plasma concentration multiplied by clearance: rate = Css × CL. For a target of 0.2 g/L and a clearance of 6 L/hour, the rate is 0.2 × 6 = 1.2 g/hour, which exactly replaces the amount cleared per hour. This is the basis of dosing a continuous infusion to a chosen plasma level.
+## explicit_objective
+Calculate a maintenance infusion rate as target concentration multiplied by clearance.
+## pitfalls
+Confusing clearance with volume of distribution, or ignoring units when multiplying concentration by clearance.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T01
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Clinical pharmacokinetics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Clinical pharmacokinetics > Infusion rate
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A668F2983A9C7E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7903DD2E958352
+## label
+Steady state is reached after four to five half-lives
+## canonical_key
+pharmacokinetics.steady-state.half-lives
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On regular dosing, the plasma concentration rises toward a plateau (steady state) reached after about four to five elimination half-lives, regardless of the dosing interval; four half-lives gives roughly 94% of steady state. With a half-life of 6 hours, four half-lives is about 24 hours. The same rule governs the time for a level to fall after stopping the drug.
+## explicit_objective
+State that steady state is reached after about four to five half-lives.
+## pitfalls
+Equating steady state with a single half-life or with the dosing interval; it takes about four to five half-lives.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T01
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Clinical pharmacokinetics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Clinical pharmacokinetics > Steady state
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A668F2983A9C7E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

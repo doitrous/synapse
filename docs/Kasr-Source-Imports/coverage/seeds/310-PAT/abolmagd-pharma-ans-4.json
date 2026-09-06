@@ -1,0 +1,152 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-pharma-ans",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · PHARMACOLOGY subject · Autonomic Nervous System section tail (Q37-39 autonomic + Q43-45 pharmacokinetics calculations), authored from the student 'Pharma MCQ by Abolmagd' compilation (pp.8-9). Q40 (motion-sickness patch), Q41 (oximes early), Q42 (cholinergic in asthma) duplicate earlier facts (excluded); Q46 (diphenhydramine) deferred to the Autacoids cluster. No printed answer key; answers expert-determined, proven in per-option explanations. STATUS=Draft.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-PAT-310-PHARMACOLOGY-CHOLINERGIC"],
+    "resource_ids": ["src_88f58dc630a0ed14bb4e"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pharma MCQ by Abolmagd, Autonomic Nervous System section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pharmacology",
+    "subtopic": "Autonomic nervous system",
+    "question_type": "Mechanism",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 8,
+    "field_notes": { "keySource": "expert-determined by medical reasoning; no source answer key printed in this bank; rationale in per-option explanations" }
+  },
+  "questions": [
+    {
+      "key": "q37", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-37",
+      "title": "Which claimed advantage of beta-1 selective blockers is false",
+      "question": "Adrenergic beta-1 selective blockers offer the following advantages EXCEPT:",
+      "options": { "A": "Lower incidence of bronchospasm", "B": "Less prone to produce cold hands and feet", "C": "Beta-1 selectivity is absolute", "D": "Less liable to cause hypoglycaemia" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it IS an advantage). Sparing beta-2 receptors in the airways means less bronchospasm than with non-selective blockers.",
+        "B": "Incorrect (it IS an advantage). Sparing beta-2-mediated vasodilation means less peripheral vasoconstriction, so fewer cold extremities.",
+        "C": "Correct answer. Beta-1 selectivity is only RELATIVE, not absolute: at higher doses these agents also block beta-2 receptors, so the selectivity is lost. Claiming it is absolute is therefore the false statement and the exception.",
+        "D": "Incorrect (it IS an advantage). Sparing beta-2 receptors preserves adrenaline-driven glycogenolysis, so beta-1 selective agents are less likely to mask or prolong hypoglycaemia."
+      },
+      "main_concept": "CON-PHA-F2C4CE8E4D8D59", "concept_ids": ["CON-PHA-F2C4CE8E4D8D59"],
+      "subtopic": "Adrenergic blockers",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that beta-1 selectivity is relative and lost at high doses.",
+      "module_subject": "310 PAT > Pharmacology > Autonomic > Adrenergic blockers"
+    },
+    {
+      "key": "q38", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-38",
+      "title": "Atropine substitute mismatched with its use",
+      "question": "Which of the following atropine substitutes is NOT matched correctly with its use?",
+      "options": { "A": "Hyoscine butyl bromide in colic", "B": "Tiotropium in urinary incontinence", "C": "Tropicamide for eye fundus examination", "D": "Benztropine in Parkinsonism" },
+      "correct": "B",
+      "explanations": {
+        "A": "Correct pairing (so not the answer). Hyoscine butylbromide is a poorly absorbed antimuscarinic antispasmodic used for abdominal colic.",
+        "B": "Correct answer. This is the WRONG match: tiotropium is a long-acting inhaled antimuscarinic used as a bronchodilator in COPD and asthma, NOT for urinary incontinence (which is treated with uroselective antimuscarinics such as tolterodine or solifenacin). Pairing tiotropium with incontinence is therefore incorrect.",
+        "C": "Correct pairing (so not the answer). Short-acting tropicamide is used to dilate the pupil for fundus examination.",
+        "D": "Correct pairing (so not the answer). Benztropine, a central antimuscarinic, is used in Parkinsonism."
+      },
+      "main_concept": "CON-PHA-7A1B72A8535242", "concept_ids": ["CON-PHA-7A1B72A8535242"],
+      "subtopic": "Antimuscarinics",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Match antimuscarinic subtypes to their organ-selective uses and recognise tiotropium as an airway, not bladder, drug.",
+      "module_subject": "310 PAT > Pharmacology > Autonomic > Antimuscarinics"
+    },
+    {
+      "key": "q39", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-39",
+      "title": "Agent to confirm a diagnosis of myasthenia gravis",
+      "question": "A 44-year-old man has intermittent fatigue and drooping eyelids. Administration of which of the following agents is most appropriate to confirm a diagnosis of myasthenia gravis?",
+      "options": { "A": "Adrenaline", "B": "Edrophonium", "C": "Bethanechol", "D": "Physostigmine" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Adrenaline is a sympathomimetic with no role in diagnosing myasthenia gravis.",
+        "B": "Correct. Edrophonium is an ultra-short-acting anticholinesterase; in the Tensilon test it transiently raises acetylcholine at the neuromuscular junction, and a prompt but brief improvement in muscle strength (for example resolution of ptosis) confirms myasthenia gravis. Its very short duration makes it ideal for a rapid diagnostic challenge. That is why it is the appropriate confirmatory agent.",
+        "C": "Incorrect. Bethanechol is a direct muscarinic agonist acting on smooth muscle, not a diagnostic anticholinesterase for the neuromuscular junction.",
+        "D": "Incorrect. Physostigmine is a longer-acting anticholinesterase used therapeutically; edrophonium's brevity makes it the preferred diagnostic agent."
+      },
+      "main_concept": "CON-PHA-9BDFC46858D50D", "concept_ids": ["CON-PHA-9BDFC46858D50D"],
+      "subtopic": "Anticholinesterases",
+      "question_type": "Clinical case",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 2, "setting": "Clinical",
+      "learning_objective": "Identify edrophonium as the short-acting anticholinesterase used to confirm myasthenia gravis (Tensilon test).",
+      "module_subject": "310 PAT > Pharmacology > Autonomic > Anticholinesterases"
+    },
+    {
+      "key": "q43", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-43",
+      "title": "Calculating the apparent volume of distribution",
+      "question": "A drug given as a 200 mg single intravenous dose produces a peak plasma concentration of 0.02 mg/ml. The apparent volume of distribution (Vd) is:",
+      "options": { "A": "3 litres", "B": "4 litres", "C": "5 litres", "D": "10 litres" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. This does not satisfy Vd = dose / plasma concentration for the given figures.",
+        "B": "Incorrect. 4 litres would require a plasma concentration of 0.05 mg/ml, which is not the case here.",
+        "C": "Incorrect. 5 litres would require a concentration of 0.04 mg/ml, not 0.02 mg/ml.",
+        "D": "Correct. The apparent volume of distribution is Vd = dose / plasma concentration. Here Vd = 200 mg / 0.02 mg per ml = 10 000 ml = 10 litres. This is the only option consistent with the definition, so the answer is 10 litres."
+      },
+      "main_concept": "CON-PHA-A668F2983A9C7E", "concept_ids": ["CON-PHA-A668F2983A9C7E"],
+      "subtopic": "Clinical pharmacokinetics",
+      "topic": "Pharmacology",
+      "question_type": "Calculation",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 9,
+      "library_ids": ["ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS"],
+      "learning_objective": "Calculate the apparent volume of distribution as dose divided by plasma concentration.",
+      "module_subject": "310 PAT > Pharmacology > Clinical pharmacokinetics > Volume of distribution"
+    },
+    {
+      "key": "q44", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-44",
+      "title": "Calculating a maintenance infusion rate",
+      "question": "It is desired to maintain a plasma concentration of 0.2 g/L of an antibiotic. Plasma clearance equals 6 L/hour. Calculate the maintenance infusion rate:",
+      "options": { "A": "1.2 g/hour", "B": "2.4 g/hour", "C": "3 g/hour", "D": "5 g/hour" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At steady state the maintenance infusion rate equals target concentration multiplied by clearance: rate = Css × CL = 0.2 g/L × 6 L/hour = 1.2 g/hour. This balances the amount cleared per hour, so the answer is 1.2 g/hour.",
+        "B": "Incorrect. 2.4 g/hour is twice the required rate and would drive the concentration above target.",
+        "C": "Incorrect. 3 g/hour does not equal Css × CL for these values.",
+        "D": "Incorrect. 5 g/hour greatly exceeds the product of concentration and clearance."
+      },
+      "main_concept": "CON-PHA-B5BE952D5FCFC4", "concept_ids": ["CON-PHA-B5BE952D5FCFC4"],
+      "subtopic": "Clinical pharmacokinetics",
+      "topic": "Pharmacology",
+      "question_type": "Calculation",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 9,
+      "library_ids": ["ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS"],
+      "learning_objective": "Calculate a maintenance infusion rate as target concentration multiplied by clearance.",
+      "module_subject": "310 PAT > Pharmacology > Clinical pharmacokinetics > Infusion rate"
+    },
+    {
+      "key": "q45", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-45",
+      "title": "Time to reach steady-state plasma concentration",
+      "question": "The half-life of a drug is about 6 hours. Approximately how long will it take for blood levels to reach a steady (plateau) concentration on regular dosing?",
+      "options": { "A": "12 hours", "B": "24 hours", "C": "48 hours", "D": "4 days" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 12 hours is only two half-lives, giving about 75% of steady state, which is not yet the plateau.",
+        "B": "Correct. Steady state is reached after roughly four to five half-lives. With a half-life of 6 hours, four half-lives is about 24 hours (approximately 94% of steady state), which is the best approximation of the plateau among the options. Hence about 24 hours.",
+        "C": "Incorrect. 48 hours is eight half-lives, far beyond the time actually needed to plateau.",
+        "D": "Incorrect. 4 days is much longer than the four to five half-lives required."
+      },
+      "main_concept": "CON-PHA-7903DD2E958352", "concept_ids": ["CON-PHA-7903DD2E958352"],
+      "subtopic": "Clinical pharmacokinetics",
+      "topic": "Pharmacology",
+      "question_type": "Calculation",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 9,
+      "library_ids": ["ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS"],
+      "learning_objective": "State that steady state is reached after about four to five half-lives.",
+      "module_subject": "310 PAT > Pharmacology > Clinical pharmacokinetics > Steady state"
+    }
+  ]
+}
