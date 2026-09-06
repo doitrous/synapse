@@ -8338,3 +8338,1113 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q105, p.20 / printed 19); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-D777E515CDEDEA
+## label
+Fallot's tetralogy is the congenital heart disease with a right-to-left shunt
+## canonical_key
+congenital-heart-disease.right-to-left-shunt
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among congenital heart diseases, FALLOT'S TETRALOGY is the classic example of a RIGHT-to-LEFT shunt and is therefore cyanotic. Acyanotic defects (atrial septal defect, ventricular septal defect) are left-to-right shunts that reverse only after Eisenmenger physiology develops, and pulmonary artery stenosis is an obstruction rather than a shunt.
+## explicit_objective
+Identify Fallot's tetralogy as the congenital heart disease with a right-to-left (cyanotic) shunt.
+## pitfalls
+Calling an atrial or ventricular septal defect a right-to-left shunt; these are left-to-right until they reverse.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B387045B92D7A6
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "congenital-heart-disease.right-to-left-shunt", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q106, p.20 / printed 19; render-verified single red option b); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-BF03FBB7B52283
+## label
+A VSD may be isolated or form part of Fallot's tetralogy
+## canonical_key
+ventricular-septal-defect.characteristics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A ventricular septal defect MAY OCCUR ALONE (as the commonest isolated congenital cardiac malformation) or as a COMPONENT of a complex lesion such as Fallot's tetralogy. Muscular defects are usually small and often close spontaneously, whereas a large defect drives a big left-to-right shunt, pulmonary hypertension and eventual shunt reversal (Eisenmenger), and infective endocarditis is a recognised complication.
+## explicit_objective
+State that a VSD may be isolated or form part of Fallot's tetralogy, and outline its behaviour by size.
+## pitfalls
+Assuming muscular VSDs are large, or that a small VSD causes shunt reversal and cyanosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-6849FA2F8FDF20
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "ventricular-septal-defect.characteristics", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q107 and Q135, p.20 & p.23 / printed 19 & 23); detector missed the red on Q107, render-confirmed single red option a on p.20; no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B387045B92D7A6
+## label
+The four components of Fallot's tetralogy
+## canonical_key
+tetralogy-of-fallot.components
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fallot's tetralogy comprises FOUR components: pulmonary stenosis, a ventricular septal defect, an overriding (right-displaced) aorta and right ventricular hypertrophy. The pulmonary stenosis raises right-heart pressure, driving a RIGHT-to-LEFT shunt through the VSD, so the lesion is cyanotic (boot-shaped heart, clubbing, secondary polycythaemia); it is the commonest cyanotic congenital heart disease, and an added atrial septal defect makes it a pentalogy.
+## explicit_objective
+List the four components of Fallot's tetralogy and explain why it is cyanotic.
+## pitfalls
+Including an atrial septal defect as a component (that is pentalogy), or substituting aortic for pulmonary stenosis, or calling the shunt left-to-right.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-7658AF26F5F6EE
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "tetralogy-of-fallot.components", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q108 render-confirmed red d, Q112 red a, Q113 red b; pp.20-21 / printed 19-20); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-6849FA2F8FDF20
+## label
+VSD is the commonest congenital heart disease
+## canonical_key
+congenital-heart-disease.commonest-vsd
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+VENTRICULAR SEPTAL DEFECT is the COMMONEST congenital heart malformation overall. It is an acyanotic left-to-right shunt; small (often muscular) defects may close spontaneously, while large defects cause pulmonary hypertension and eventual reversal. It ranks above atrial septal defect, coarctation and transposition in frequency.
+## explicit_objective
+State that VSD is the commonest congenital heart disease.
+## pitfalls
+Naming atrial septal defect or a cyanotic lesion as the commonest congenital heart disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-BF03FBB7B52283
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "congenital-heart-disease.commonest-vsd", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q109, p.20 / printed 19; render-confirmed single red option c); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-7658AF26F5F6EE
+## label
+Tetralogy of Fallot is the commonest cyanotic congenital heart disease
+## canonical_key
+cyanotic-congenital-heart-disease.commonest-tetralogy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+TETRALOGY OF FALLOT is the COMMONEST cyanotic congenital heart disease. Its right-to-left shunt through the VSD (driven by pulmonary stenosis with an overriding aorta and right ventricular hypertrophy) delivers deoxygenated blood to the systemic circulation, so cyanosis is present. This distinguishes it from the commonest congenital heart disease overall, VSD, which is acyanotic.
+## explicit_objective
+Identify tetralogy of Fallot as the commonest cyanotic congenital heart disease.
+## pitfalls
+Confusing the commonest cyanotic lesion (Fallot) with the commonest congenital lesion overall (VSD), or naming transposition or Eisenmenger.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B387045B92D7A6
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "cyanotic-congenital-heart-disease.commonest-tetralogy", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q110, p.21 / printed 20; detector single red option b); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-5219BAA13484A1
+## label
+Atrial septal defect: features and that it is not the commonest defect
+## canonical_key
+atrial-septal-defect.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atrial septal defect is an acyanotic left-to-right shunt: the ostium primum type is associated with DOWN SYNDROME, the chronic shunt may cause PULMONARY HYPERTENSION with eventual reversal, and survival to middle age without treatment is usual. It is common but is NOT the commonest congenital cardiac abnormality; ventricular septal defect holds that place.
+## explicit_objective
+Recognise the features of ASD and that VSD, not ASD, is the commonest congenital cardiac abnormality.
+## pitfalls
+Stating that ASD is the commonest congenital cardiac abnormality.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-6849FA2F8FDF20
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "atrial-septal-defect.features", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q111, p.21 / printed 20; detector single red option b, the false 'except' statement); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B216F97FD14933
+## label
+Complications of mitral stenosis (the left ventricle is spared)
+## canonical_key
+mitral-stenosis.complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mitral stenosis obstructs left atrial emptying, so its complications arise BEHIND the valve: left atrial hypertrophy/dilatation and fibrillation with mural thrombosis and systemic embolism, pulmonary venous congestion (frothy blood-stained sputum) and pulmonary hypertension, and ultimately right-sided heart failure with bilateral oedema. The LEFT VENTRICLE is underfilled and PROTECTED, so left ventricular hypertrophy does NOT occur, and unilateral leg oedema is not a feature.
+## explicit_objective
+List the complications of mitral stenosis and recognise that the left ventricle is spared.
+## pitfalls
+Attributing left ventricular hypertrophy or unilateral leg oedema to mitral stenosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-A359468216357C
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "mitral-stenosis.complications", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q114 red d, Q117 red d, Q119 red c, and Q136 the 'left-sided failure' distractor; pp.20-25 / printed 19-24); negative-stem 'except' pages, keys adjudicated to the single medically-correct option; no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-4FB52DB05DB5E8
+## label
+Carcinoid heart disease affects the right-sided valves
+## canonical_key
+carcinoid-syndrome.cardiac-lesions
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In carcinoid syndrome, tumour-derived serotonin induces fibrous (plaque-like) thickening of the RIGHT-sided endocardium and valves, classically producing PULMONARY STENOSIS and TRICUSPID regurgitation. The left heart is usually spared because pulmonary monoamine oxidase degrades serotonin before it reaches the systemic side. This right-sided predilection is the hallmark of carcinoid heart disease.
+## explicit_objective
+State that carcinoid heart disease affects the right-sided valves (pulmonary stenosis and tricuspid regurgitation).
+## pitfalls
+Attributing left-sided lesions (aortic or mitral stenosis) to carcinoid; the left heart is protected.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B216F97FD14933
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The printed key selects pulmonary stenosis (option c); tricuspid incompetence (option a) is ALSO a recognised right-sided carcinoid lesion, so both right-sided valve answers are medically defensible. Authored to the single printed red key while flagging tricuspid regurgitation as an equally valid carcinoid lesion.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "carcinoid-syndrome.cardiac-lesions", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q115, p.21 / printed 20; detector single red option c); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-78DF6012896EF1
+## label
+Combined left-sided valve disease causes congestive heart failure
+## canonical_key
+left-sided-valvular-disease.heart-failure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The mitral and aortic valves are LEFT-sided; chronic disease of both overloads the left heart and raises pulmonary venous pressure, dragging the right heart into failure and producing CONGESTIVE (biventricular) heart failure. Left-sided failure is the initial event, but combined left-sided valve disease characteristically ends in congestive failure. Pure isolated right-sided failure is not the expected pattern.
+## explicit_objective
+Explain that combined mitral and aortic (left-sided) valve disease leads to congestive heart failure.
+## pitfalls
+Expecting isolated right-sided failure from left-sided valve disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B216F97FD14933
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.7
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The printed key selects congestive heart failure (option c); left-sided heart failure (option a) is defensible as the initial consequence of left-sided valve disease. Authored to the printed red key (congestive, the biventricular endpoint) with option a's partial validity flagged.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "left-sided-valvular-disease.heart-failure", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q116, p.21 / printed 20; detector single red option c); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-A359468216357C
+## label
+Chronic rheumatic fever is the commonest cause of mitral stenosis
+## canonical_key
+mitral-stenosis.commonest-cause-rheumatic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic RHEUMATIC FEVER (chronic rheumatic heart disease) is by far the COMMONEST cause of mitral stenosis. Recurrent rheumatic valvulitis produces commissural fusion, cusp thickening and shortening/fusion of the chordae, giving the characteristic 'fish-mouth' or 'button-hole' stenotic mitral orifice. It remains the leading cause worldwide and especially in Egypt, above congenital, lupus (Libman-Sacks) and rheumatoid causes.
+## explicit_objective
+State that chronic rheumatic fever is the commonest cause of mitral stenosis.
+## pitfalls
+Naming a congenital or autoimmune cause as the commonest cause of mitral stenosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B216F97FD14933
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "mitral-stenosis.commonest-cause-rheumatic", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q118, p.22 / printed 21; detector single red option b); no department book located/read this pass.
+
+---

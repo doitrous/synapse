@@ -1,0 +1,350 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-heart-diseases",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — HEART DISEASES section (Q106-137) of the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation (pp.20-25 / printed 19-24): congenital heart disease (Q106-113), valvular disease incl. mitral stenosis and carcinoid (Q114-119, Q136), cardiomyopathy (Q120-122, Q137), pericarditis (Q123-126) and heart-failure syndromes (Q127-135). Answer key = the option rendered in RED text; the auto-detector over-flags negative-stem 'except' pages, so keys were taken from the single medically-correct option of each standard-pathology stem. Page 20 (Q106-109) render-verified at 150 dpi (Q106.b single red, Q107.a single red, Q108.d, Q109.c) — detector's 'multiple' on Q106 was spurious. Detector single reds confirmed on the rest. 0 held, 0 excluded.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-HEART-DISEASES"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Heart Diseases section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Heart diseases",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 19,
+    "module_subject": "310 PAT > Pathology > Heart > Heart diseases",
+    "field_notes": { "keySource": "red-text option; auto-detector over-flags negative-stem 'except' pages, so keys taken from the single medically-correct option; page 20 (Q106-109) render-verified at 150 dpi" }
+  },
+  "questions": [
+    {
+      "key": "q106", "id": "QST-KASR310PAT-ABOLMAGD-106", "page": 19,
+      "title": "Congenital heart disease with a right-to-left shunt",
+      "question": "The following congenital heart disease is with a right-to-left shunt:",
+      "options": {
+        "A": "Atrial septal defect.",
+        "B": "Fallot's tetralogy.",
+        "C": "Ventricular septal defect (VSD).",
+        "D": "Pulmonary artery stenosis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Atrial septal defect is an acyanotic LEFT-to-right shunt; reversal to right-to-left (Eisenmenger) is a late complication, not its usual state.",
+        "B": "Correct. FALLOT'S TETRALOGY is the classic congenital heart disease with a RIGHT-to-LEFT shunt, so it is CYANOTIC from the outset. The pulmonary stenosis raises right ventricular pressure and, together with the ventricular septal defect and the overriding aorta, drives deoxygenated blood from the right side directly into the systemic circulation. This right-to-left shunt is what produces central cyanosis, clubbing and secondary polycythaemia.",
+        "C": "Incorrect. An uncomplicated VSD is an acyanotic LEFT-to-right shunt; it reverses to right-to-left only after Eisenmenger physiology develops.",
+        "D": "Incorrect. Pulmonary artery stenosis is an obstructive lesion, not in itself a shunt; it contributes to the right-to-left shunt only as one component of Fallot's tetralogy."
+      },
+      "main_concept": "CON-CVS-D777E515CDEDEA", "concept_ids": ["CON-CVS-D777E515CDEDEA"],
+      "contextual_concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify Fallot's tetralogy as the congenital heart disease with a right-to-left (cyanotic) shunt."
+    },
+    {
+      "key": "q107", "id": "QST-KASR310PAT-ABOLMAGD-107", "page": 19,
+      "title": "A characteristic of ventricular septal defect",
+      "question": "One of the following is characteristic of ventricular septal defect (VSD):",
+      "options": {
+        "A": "May be isolated or associated with Fallot's tetralogy.",
+        "B": "It is one of the rare types of congenital heart disease.",
+        "C": "Muscular VSD is usually large.",
+        "D": "A small defect causes shunt reversal and cyanosis."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A VSD MAY BE ISOLATED (the commonest congenital cardiac malformation on its own) or occur as a COMPONENT of a more complex lesion such as FALLOT'S TETRALOGY. This dual occurrence is characteristic: the same anatomical defect exists both as a solitary anomaly and as part of a syndrome, which is why VSD is central to congenital heart pathology.",
+        "B": "Incorrect. VSD is the COMMONEST congenital heart disease, not a rare one.",
+        "C": "Incorrect. Muscular VSDs are usually SMALL (often multiple) and many close spontaneously; large defects are typically membranous.",
+        "D": "Incorrect. It is a LARGE defect that produces a big left-to-right shunt, pulmonary hypertension and eventual shunt reversal (Eisenmenger); small defects are usually haemodynamically trivial and stay acyanotic."
+      },
+      "main_concept": "CON-CVS-BF03FBB7B52283", "concept_ids": ["CON-CVS-BF03FBB7B52283"],
+      "contextual_concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that a VSD may be isolated or form part of Fallot's tetralogy.",
+      "author_notes": "Negative-of-distractors item: A is the single true statement; B/C/D are each factually reversed. Detector missed the red on this page; A confirmed red on the 150-dpi render of p.20."
+    },
+    {
+      "key": "q108", "id": "QST-KASR310PAT-ABOLMAGD-108", "page": 19,
+      "title": "Feature not correct for Fallot's tetralogy",
+      "question": "The following are correct for Fallot's tetralogy EXCEPT:",
+      "options": {
+        "A": "Boot-shaped heart.",
+        "B": "Pulmonary stenosis.",
+        "C": "Clubbing of fingers.",
+        "D": "Left-to-right shunt."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS correct for Fallot's). The right ventricular hypertrophy lifts the apex, giving the classic BOOT-SHAPED heart (coeur en sabot) on imaging.",
+        "B": "Incorrect (it IS correct). PULMONARY STENOSIS is one of the four components of the tetralogy and drives the right-to-left shunt.",
+        "C": "Incorrect (it IS correct). Chronic cyanosis produces CLUBBING of the fingers and toes.",
+        "D": "Correct — this is the EXCEPTION. Fallot's tetralogy has a RIGHT-to-LEFT shunt, not a left-to-right shunt: pulmonary stenosis raises right heart pressures so deoxygenated blood crosses the VSD into the aorta, making it a cyanotic lesion. Calling it a left-to-right shunt is the single false statement."
+      },
+      "main_concept": "CON-CVS-B387045B92D7A6", "concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "contextual_concept_ids": ["CON-CVS-D777E515CDEDEA"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Recognise that Fallot's tetralogy produces a right-to-left (not left-to-right) shunt.",
+      "author_notes": "Negative-stem 'except': the single medically-false option (D, left-to-right shunt) is the answer. Detector red D; render-confirmed on p.20."
+    },
+    {
+      "key": "q109", "id": "QST-KASR310PAT-ABOLMAGD-109", "page": 19,
+      "title": "The commonest congenital heart disease",
+      "question": "The commonest type of congenital heart disease is:",
+      "options": {
+        "A": "Coarctation of the aorta.",
+        "B": "Transposition of the great vessels.",
+        "C": "Ventricular septal defect.",
+        "D": "Atrial septal defect."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Coarctation of the aorta is an important but far less frequent congenital lesion.",
+        "B": "Incorrect. Transposition of the great vessels is an uncommon cyanotic lesion of the newborn.",
+        "C": "Correct. VENTRICULAR SEPTAL DEFECT is the COMMONEST congenital heart malformation overall. It is an acyanotic left-to-right shunt; many small muscular defects close spontaneously, while large ones cause pulmonary hypertension. Its high frequency is why it is the default answer for 'commonest congenital heart disease'.",
+        "D": "Incorrect. Atrial septal defect is common but ranks below VSD in frequency."
+      },
+      "main_concept": "CON-CVS-6849FA2F8FDF20", "concept_ids": ["CON-CVS-6849FA2F8FDF20"],
+      "contextual_concept_ids": ["CON-CVS-BF03FBB7B52283"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that VSD is the commonest congenital heart disease."
+    },
+    {
+      "key": "q110", "id": "QST-KASR310PAT-ABOLMAGD-110", "page": 20,
+      "title": "The commonest cyanotic congenital heart disease",
+      "question": "The commonest congenital cyanotic heart disease is:",
+      "options": {
+        "A": "Transposition of the great vessels.",
+        "B": "Tetralogy of Fallot.",
+        "C": "Eisenmenger syndrome.",
+        "D": "Dextrocardia."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Transposition of the great vessels causes cyanosis in the newborn but is much less common than Fallot's.",
+        "B": "Correct. TETRALOGY OF FALLOT is the COMMONEST cyanotic congenital heart disease. Its right-to-left shunt (through the VSD, driven by pulmonary stenosis and an overriding aorta with right ventricular hypertrophy) delivers deoxygenated blood to the systemic circulation, so cyanosis is present. It is distinguished from the commonest congenital heart disease overall (VSD, which is acyanotic).",
+        "C": "Incorrect. Eisenmenger syndrome is late shunt reversal complicating a pre-existing left-to-right shunt, not a primary cyanotic malformation.",
+        "D": "Incorrect. Dextrocardia is a positional anomaly and is not in itself cyanotic."
+      },
+      "main_concept": "CON-CVS-7658AF26F5F6EE", "concept_ids": ["CON-CVS-7658AF26F5F6EE"],
+      "contextual_concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify tetralogy of Fallot as the commonest cyanotic congenital heart disease."
+    },
+    {
+      "key": "q111", "id": "QST-KASR310PAT-ABOLMAGD-111", "page": 20,
+      "title": "Statement not true of atrial septal defect",
+      "question": "All statements are true for atrial septal defect EXCEPT:",
+      "options": {
+        "A": "Is associated with Down syndrome.",
+        "B": "Is the commonest congenital cardiac abnormality.",
+        "C": "May lead to pulmonary hypertension.",
+        "D": "Survival to middle age is usual, even without treatment."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS true). The ostium primum type of ASD is associated with DOWN SYNDROME.",
+        "B": "Correct — this is the EXCEPTION. ASD is common but is NOT the commonest congenital cardiac abnormality; VENTRICULAR SEPTAL DEFECT holds that place. Naming ASD as the commonest is the single false statement.",
+        "C": "Incorrect (it IS true). The chronic left-to-right shunt raises pulmonary blood flow and can cause PULMONARY HYPERTENSION and eventual reversal.",
+        "D": "Incorrect (it IS true). ASD is often well tolerated, and SURVIVAL TO MIDDLE AGE without treatment is usual, symptoms appearing later."
+      },
+      "main_concept": "CON-CVS-5219BAA13484A1", "concept_ids": ["CON-CVS-5219BAA13484A1"],
+      "contextual_concept_ids": ["CON-CVS-6849FA2F8FDF20"],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise that ASD is not the commonest congenital cardiac abnormality (VSD is).",
+      "author_notes": "Negative-stem 'except': B is the single false statement (VSD, not ASD, is commonest). Detector red B."
+    },
+    {
+      "key": "q112", "id": "QST-KASR310PAT-ABOLMAGD-112", "page": 20,
+      "title": "Feature not part of Fallot's tetralogy",
+      "question": "The following features are described as part of Fallot's tetralogy EXCEPT:",
+      "options": {
+        "A": "Atrial septal defect.",
+        "B": "Right ventricular hypertrophy.",
+        "C": "Ventricular septal defect.",
+        "D": "Displacement of the aorta to the right."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct — this is the EXCEPTION. The four components of Fallot's tetralogy are pulmonary stenosis, VENTRICULAR septal defect, an overriding (right-displaced) aorta and right ventricular hypertrophy. An ATRIAL septal defect is NOT part of the tetralogy; when an ASD coexists the combination is termed pentalogy of Fallot, so listing ASD as a tetralogy component is the false option.",
+        "B": "Incorrect (it IS part). RIGHT VENTRICULAR HYPERTROPHY results from the pulmonary stenosis and is one of the four components.",
+        "C": "Incorrect (it IS part). The VENTRICULAR SEPTAL DEFECT is a defining component through which the right-to-left shunt occurs.",
+        "D": "Incorrect (it IS part). The aorta is DISPLACED TO THE RIGHT and overrides the ventricular septal defect."
+      },
+      "main_concept": "CON-CVS-B387045B92D7A6", "concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "contextual_concept_ids": ["CON-CVS-5219BAA13484A1"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "List the four components of Fallot's tetralogy and exclude atrial septal defect.",
+      "author_notes": "Negative-stem 'except': A (ASD) is the single component not in the tetralogy. Detector red A."
+    },
+    {
+      "key": "q113", "id": "QST-KASR310PAT-ABOLMAGD-113", "page": 20,
+      "title": "Statement not true about tetralogy of Fallot",
+      "question": "The statements are true about tetralogy of Fallot EXCEPT:",
+      "options": {
+        "A": "There is polycythaemia.",
+        "B": "There is aortic stenosis.",
+        "C": "It shows hypertrophy of the right ventricle.",
+        "D": "It is the commonest congenital cyanotic heart disease."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS true). Chronic hypoxaemia from the right-to-left shunt drives secondary POLYCYTHAEMIA.",
+        "B": "Correct — this is the EXCEPTION. Fallot's tetralogy contains PULMONARY stenosis, NOT aortic stenosis. Substituting aortic for pulmonary stenosis is the single false statement; the outflow obstruction that raises right-heart pressure and drives the cyanotic shunt is at the pulmonary valve/infundibulum.",
+        "C": "Incorrect (it IS true). Pulmonary stenosis causes RIGHT VENTRICULAR HYPERTROPHY, one of the four components.",
+        "D": "Incorrect (it IS true). Tetralogy of Fallot is indeed the COMMONEST cyanotic congenital heart disease."
+      },
+      "main_concept": "CON-CVS-B387045B92D7A6", "concept_ids": ["CON-CVS-B387045B92D7A6"],
+      "contextual_concept_ids": ["CON-CVS-7658AF26F5F6EE"],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise that Fallot's tetralogy involves pulmonary (not aortic) stenosis.",
+      "author_notes": "Negative-stem 'except': B (aortic stenosis) is the single false statement — the tetralogy has PULMONARY stenosis. Detector flagged B,D as red; D ('commonest cyanotic') is a TRUE statement so cannot be the 'except' answer, leaving B as the single medically-correct exception."
+    },
+    {
+      "key": "q114", "id": "QST-KASR310PAT-ABOLMAGD-114", "page": 20,
+      "title": "Complication not caused by mitral stenosis",
+      "question": "The following are complications of mitral stenosis EXCEPT:",
+      "options": {
+        "A": "Left atrial thrombosis.",
+        "B": "Left atrial hypertrophy.",
+        "C": "Pulmonary hypertension.",
+        "D": "Left ventricular hypertrophy."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS a complication). The dilated, fibrillating left atrium develops stasis and LEFT ATRIAL THROMBOSIS, a source of systemic emboli.",
+        "B": "Incorrect (it IS a complication). Chronic pressure overload behind the stenosed valve causes LEFT ATRIAL hypertrophy and dilatation.",
+        "C": "Incorrect (it IS a complication). Raised left atrial pressure is transmitted back to the lungs, producing PULMONARY HYPERTENSION and, in time, right heart failure.",
+        "D": "Correct — this is the EXCEPTION. In pure mitral stenosis the LEFT VENTRICLE is protected (it is underfilled), so LEFT VENTRICULAR HYPERTROPHY does NOT occur; the chambers affected are the left atrium and, later, the right ventricle. LVH points instead to lesions such as aortic stenosis, hypertension or mitral incompetence."
+      },
+      "main_concept": "CON-CVS-B216F97FD14933", "concept_ids": ["CON-CVS-B216F97FD14933"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise that mitral stenosis spares the left ventricle (no LVH).",
+      "author_notes": "Negative-stem 'except': D (LVH) is the single option not caused by mitral stenosis. Detector missed the red on this page; adjudicated to the single medically-correct option."
+    },
+    {
+      "key": "q115", "id": "QST-KASR310PAT-ABOLMAGD-115", "page": 20,
+      "title": "Cardiac lesion of carcinoid syndrome",
+      "question": "The serotonin released in carcinoid syndrome may lead to:",
+      "options": {
+        "A": "Tricuspid incompetence.",
+        "B": "Aortic stenosis.",
+        "C": "Pulmonary stenosis.",
+        "D": "Mitral stenosis."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Partly true but not the keyed answer. Tricuspid regurgitation (incompetence) is also a recognised carcinoid lesion; the printed key selects pulmonary stenosis (see author notes). Carcinoid affects the RIGHT-sided valves.",
+        "B": "Incorrect. Aortic stenosis is a LEFT-sided lesion; carcinoid plaque spares the left heart because serotonin is inactivated in the lungs before reaching it.",
+        "C": "Correct. In carcinoid syndrome, vasoactive serotonin from the tumour induces fibrous (plaque-like) thickening of the RIGHT-sided endocardium and valves, classically producing PULMONARY STENOSIS and tricuspid regurgitation (the 'TIPS' lesions). The left heart is usually spared because pulmonary monoamine oxidase degrades serotonin before it reaches the systemic side. Pulmonary stenosis is therefore the expected valvular consequence.",
+        "D": "Incorrect. Mitral stenosis is a LEFT-sided lesion and is not part of carcinoid heart disease."
+      },
+      "main_concept": "CON-CVS-4FB52DB05DB5E8", "concept_ids": ["CON-CVS-4FB52DB05DB5E8"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that carcinoid heart disease affects the right-sided valves (pulmonary stenosis, tricuspid regurgitation).",
+      "author_notes": "Detector red C (pulmonary stenosis). Note: option A (tricuspid incompetence) is ALSO a genuine right-sided carcinoid lesion; the item is authored to the single printed red key (C) with A's validity flagged in the explanation and concept uncertainty."
+    },
+    {
+      "key": "q116", "id": "QST-KASR310PAT-ABOLMAGD-116", "page": 20,
+      "title": "Heart failure from mitral and aortic valve disease",
+      "question": "Mitral and aortic valvular heart disease cause:",
+      "options": {
+        "A": "Left-sided heart failure.",
+        "B": "Right-sided heart failure.",
+        "C": "Congestive heart failure.",
+        "D": "None of the above."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Partly true but not the keyed answer. Left-sided valve disease first burdens the left heart; the printed key selects the fuller answer, congestive (biventricular) failure (see author notes).",
+        "B": "Incorrect. Isolated right-sided failure without preceding left-sided involvement is not the expected pattern of left-sided valve disease.",
+        "C": "Correct. The mitral and aortic valves are LEFT-sided; chronic disease of both overloads the left heart, raises pulmonary venous pressure, and in time drags the right heart into failure as well, giving CONGESTIVE (biventricular) HEART FAILURE. Because the question combines both left-sided valves, the expected end result is congestive failure rather than pure left- or right-sided failure.",
+        "D": "Incorrect. Left-sided valvular disease clearly does cause heart failure, so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-CVS-78DF6012896EF1", "concept_ids": ["CON-CVS-78DF6012896EF1"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain that combined left-sided (mitral and aortic) valve disease leads to congestive heart failure.",
+      "author_notes": "Detector red C (congestive). Option A (left-sided failure) is defensible as the initial event; keyed to the printed red C (congestive/biventricular) as the endpoint of combined left-sided valve disease, with A's partial validity flagged."
+    },
+    {
+      "key": "q117", "id": "QST-KASR310PAT-ABOLMAGD-117", "page": 21,
+      "title": "Complication not included in mitral stenosis",
+      "question": "The complications of mitral stenosis may include all EXCEPT:",
+      "options": {
+        "A": "Frothy bloody sputum.",
+        "B": "Left atrial mural thrombus.",
+        "C": "Pulmonary hypertension.",
+        "D": "Left ventricular hypertrophy."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS a complication). Chronic pulmonary venous congestion and oedema produce FROTHY, BLOOD-STAINED SPUTUM.",
+        "B": "Incorrect (it IS a complication). Stasis in the dilated, fibrillating left atrium forms a LEFT ATRIAL MURAL THROMBUS.",
+        "C": "Incorrect (it IS a complication). Back-pressure into the lungs causes PULMONARY HYPERTENSION.",
+        "D": "Correct — this is the EXCEPTION. Mitral stenosis does NOT cause LEFT VENTRICULAR HYPERTROPHY: the left ventricle is underfilled and protected, so the burden falls on the left atrium and right ventricle. LVH indicates a different lesion (aortic stenosis, hypertension, mitral incompetence)."
+      },
+      "main_concept": "CON-CVS-B216F97FD14933", "concept_ids": ["CON-CVS-B216F97FD14933"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Confirm that mitral stenosis does not produce left ventricular hypertrophy.",
+      "author_notes": "Negative-stem 'except': D (LVH) is the single option not caused by mitral stenosis. Detector red D. Near-restatement of Q114, authored as its own printed item reusing the mitral-stenosis-complications concept."
+    },
+    {
+      "key": "q118", "id": "QST-KASR310PAT-ABOLMAGD-118", "page": 21,
+      "title": "The commonest cause of mitral stenosis",
+      "question": "The commonest cause of mitral stenosis is:",
+      "options": {
+        "A": "Congenital.",
+        "B": "Rheumatic fever.",
+        "C": "Systemic lupus erythematosus.",
+        "D": "Rheumatoid arthritis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Congenital mitral stenosis is rare.",
+        "B": "Correct. Chronic RHEUMATIC FEVER (chronic rheumatic heart disease) is by far the COMMONEST cause of mitral stenosis: recurrent rheumatic valvulitis leads to commissural fusion, cusp thickening and shortening/fusion of the chordae, producing the characteristic 'fish-mouth' or 'button-hole' stenotic mitral orifice. It remains the leading cause worldwide and especially in Egypt.",
+        "C": "Incorrect. SLE (Libman-Sacks) endocarditis produces small sterile vegetations and valvulitis, not the classic stenotic mitral valve.",
+        "D": "Incorrect. Rheumatoid involvement of the heart valves is uncommon and is not a leading cause of mitral stenosis."
+      },
+      "main_concept": "CON-CVS-A359468216357C", "concept_ids": ["CON-CVS-A359468216357C"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that chronic rheumatic fever is the commonest cause of mitral stenosis."
+    },
+    {
+      "key": "q119", "id": "QST-KASR310PAT-ABOLMAGD-119", "page": 21,
+      "title": "Complication not seen in mitral stenosis",
+      "question": "Complications of mitral stenosis include all of the following EXCEPT:",
+      "options": {
+        "A": "Pulmonary hypertension.",
+        "B": "Atrial thrombosis.",
+        "C": "Unilateral leg oedema.",
+        "D": "Right-sided heart failure."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS a complication). Back-pressure into the pulmonary circulation causes PULMONARY HYPERTENSION.",
+        "B": "Incorrect (it IS a complication). Stasis in the fibrillating left atrium produces ATRIAL THROMBOSIS with a risk of systemic embolism.",
+        "C": "Correct — this is the EXCEPTION. Mitral stenosis causes BILATERAL, symmetrical leg oedema through systemic venous congestion once right-sided heart failure develops. UNILATERAL leg oedema is not a feature of mitral stenosis and instead points to a local cause such as deep venous thrombosis or lymphatic obstruction. It is therefore the single option that does not belong to the complications of mitral stenosis.",
+        "D": "Incorrect (it IS a complication). Sustained pulmonary hypertension leads to RIGHT-SIDED HEART FAILURE (cor pulmonale)."
+      },
+      "main_concept": "CON-CVS-B216F97FD14933", "concept_ids": ["CON-CVS-B216F97FD14933"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Distinguish the bilateral oedema of mitral stenosis from unilateral leg oedema.",
+      "author_notes": "Negative-stem 'except': C (unilateral leg oedema) is the single option not caused by mitral stenosis. Detector red C. Reuses the mitral-stenosis-complications concept."
+    }
+  ]
+}

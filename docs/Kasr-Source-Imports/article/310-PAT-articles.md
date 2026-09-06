@@ -585,3 +585,99 @@ university_notes: No department book PDF was located/read this pass -- written f
 8
 
 ---
+
+# Item
+## id
+ART-CVS-310PAT-HEART-DISEASES
+## title
+Heart diseases: congenital, valvular, cardiomyopathy, pericarditis and heart failure
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+This article groups the heart-disease concepts tested by Q106-137 of the paper. Congenital heart disease: Fallot's tetralogy is the classic right-to-left (cyanotic) shunt and the commonest cyanotic lesion, while ventricular septal defect is the commonest congenital heart disease overall and may be isolated or part of the tetralogy; the tetralogy comprises pulmonary stenosis, VSD, an overriding aorta and right ventricular hypertrophy (an added atrial septal defect makes a pentalogy), and atrial septal defect — associated with Down syndrome and usually well tolerated — is not the commonest defect. Valvular disease: chronic rheumatic fever is the commonest cause of mitral stenosis, whose complications arise behind the valve (left atrial thrombosis, pulmonary hypertension, right heart failure) and spare the left ventricle; carcinoid heart disease affects the right-sided valves (pulmonary stenosis, tricuspid regurgitation); combined left-sided (mitral and aortic) valve disease ends in congestive failure. Cardiomyopathy: dilated (congestive) cardiomyopathy is the commonest type, showing dilatation of all chambers, and the idiopathic types are dilated, hypertrophic and restrictive (toxic is a secondary cause). Pericarditis: constrictive pericarditis usually follows tuberculous pericarditis; rheumatic fever, uraemia and myocardial infarction are causes; rheumatic pericarditis is fibrinous. Heart-failure syndromes: paroxysmal nocturnal dyspnoea and frothy blood-stained sputum are features of left-sided failure; right-sided failure is caused by cor pulmonale, left-sided failure and pulmonary stenosis (but not aortic stenosis); emphysema causes right- not left-sided failure.
+## sections
+### Definition
+This article groups the heart-disease concepts tested by Q106-137 of the paper; each linked concept carries one atomic claim about congenital heart disease, valvular disease (mitral stenosis, carcinoid, combined left-sided disease), cardiomyopathy, pericarditis or the left/right heart-failure syndromes.
+### Mechanism
+Congenital shunts are acyanotic (left-to-right: VSD, ASD) or cyanotic (right-to-left: Fallot's tetralogy, driven by pulmonary stenosis). Mitral stenosis obstructs left atrial emptying, so pressure and complications build up behind the valve while the left ventricle is spared. Carcinoid serotonin scars the right-sided valves; combined left-sided valve disease overloads the left heart and progresses to biventricular (congestive) failure. Dilated cardiomyopathy dilates all chambers; constrictive pericarditis is a healed fibrous (often tuberculous) process; heart failure is classified by the side that fails and its backward congestion.
+### Key determinants
+Discriminators tested here: right-to-left = cyanotic (Fallot) versus left-to-right = acyanotic (VSD/ASD); VSD is the commonest defect overall and Fallot the commonest cyanotic; the tetralogy has pulmonary (not aortic) stenosis and four (not five) components; mitral stenosis spares the left ventricle and causes bilateral (not unilateral) oedema; carcinoid hits the right heart; dilated cardiomyopathy is commonest and dilates all chambers; constrictive pericarditis is usually tuberculous and rheumatic pericarditis is fibrinous; PND and frothy blood-stained sputum mark left-sided failure while emphysema and cor pulmonale cause right-sided failure.
+### Clinical significance
+These facts underlie the recognition of cyanotic versus acyanotic congenital disease, the chamber consequences and embolic risk of mitral stenosis, the right-sided valve lesions of carcinoid, the classification of cardiomyopathy and pericarditis, and the bedside separation of left- from right-sided heart failure.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversals the distractors exploit (a septal defect called a right-to-left shunt, ASD as the commonest defect, aortic stenosis inside the tetralogy, left ventricular hypertrophy or unilateral oedema in mitral stenosis, a left-sided lesion from carcinoid, and emphysema as a cause of left-sided failure).
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## subtopic
+Heart diseases
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 systemic pathology
+## high_yield
+Core
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## related_concepts
+CON-CVS-D777E515CDEDEA
+CON-CVS-BF03FBB7B52283
+CON-CVS-B387045B92D7A6
+CON-CVS-6849FA2F8FDF20
+CON-CVS-7658AF26F5F6EE
+CON-CVS-5219BAA13484A1
+CON-CVS-B216F97FD14933
+CON-CVS-4FB52DB05DB5E8
+CON-CVS-78DF6012896EF1
+CON-CVS-A359468216357C
+## related_articles
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+ART-CVS-310PAT-ENDOCARDITIS
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (pp.20-25 / printed 19-24; Q106-109 render-verified at 150 dpi). related_concepts is authored incrementally per slice; the cardiomyopathy, pericarditis, heart-failure and reused MI concepts (Q120-137) are added with the second slice.
+## reading_time
+9
+
+---
