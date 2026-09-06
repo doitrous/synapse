@@ -29773,3 +29773,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7FA351890607A6
+## label
+Advanced diabetic eye disease is vitreous haemorrhage, tractional detachment and neovascular glaucoma
+## canonical_key
+ophthalmology.advanced-diabetic-eye-disease.vitreous-haemorrhage-tractional-detachment-neovascular-glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Advanced diabetic eye disease is the group of sight-threatening end-stage complications of proliferative diabetic retinopathy: massive (non-clearing) vitreous haemorrhage, tractional retinal detachment, and rubeosis with neovascular glaucoma. Macular oedema, although a major cause of visual loss, is a separate complication and is not classed as advanced diabetic eye disease.
+## explicit_objective
+List the components of advanced diabetic eye disease and distinguish them from macular oedema.
+## pitfalls
+Counting macular oedema as part of advanced diabetic eye disease; it is a distinct complication, not one of the end-stage proliferative sequelae.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-ECE2032D12AF4D
+## label
+Diabetic macular oedema is diagnosed by OCT and treated by focal laser
+## canonical_key
+ophthalmology.diabetic-macular-oedema.oct-diagnosis-focal-laser-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diabetic macular oedema is best diagnosed by optical coherence tomography (OCT), which images and measures the retinal thickening. It is treated with focal/grid laser photocoagulation and intravitreal anti-VEGF (or steroid) injections — not with panretinal photocoagulation, which is reserved for proliferative disease.
+## explicit_objective
+State that OCT diagnoses diabetic macular oedema and focal laser (with anti-VEGF) treats it.
+## pitfalls
+Using panretinal photocoagulation for macular oedema (it is for proliferative retinopathy), or relying on ultrasonography/retinoscopy instead of OCT.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BA81985DC46CC5
+## label
+Cotton-wool spots (soft exudates) indicate retinal ischaemia in severe NPDR
+## canonical_key
+ophthalmology.severe-npdr.cotton-wool-spots-retinal-ischaemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cotton-wool spots (soft exudates) are infarcts of the retinal nerve-fibre layer caused by occlusion of precapillary arterioles; in severe non-proliferative diabetic retinopathy they are a sign of retinal ischaemia. Hard exudates (lipid), dot haemorrhages and microaneurysms are earlier, non-ischaemic changes.
+## explicit_objective
+Recognise cotton-wool spots as a sign of retinal ischaemia in severe non-proliferative diabetic retinopathy.
+## pitfalls
+Mistaking hard exudates or microaneurysms for ischaemic signs; the ischaemic marker is the soft (cotton-wool) exudate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A8881C4DC7633D
+## label
+Arteriosclerotic retinopathy shows arteriovenous crossing changes
+## canonical_key
+ophthalmology.arteriosclerotic-retinopathy.arteriovenous-crossing-changes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In arteriosclerotic (hypertensive) retinopathy the thickened arteriole compresses the vein where they cross, producing arteriovenous nipping: apparent tapering/concealment of the vein under the artery (Gunn sign) and deflection of the vein's course (Salus sign). Banking with venous dilatation occurs distal to the crossing, not proximal.
+## explicit_objective
+Describe the arteriovenous crossing changes of arteriosclerotic retinopathy.
+## pitfalls
+Placing the venous dilatation proximal to the crossing; the banking/dilatation is distal, while the vein is tapered and concealed at the crossing.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal vascular occlusion
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

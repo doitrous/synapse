@@ -6501,3 +6501,1107 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-65
+
+## title
+Not a form of advanced diabetic eye disease
+
+## question
+Advanced diabetic eye disease can be in the form of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Massive vitreous hemorrhage
+
+## explanation_a
+Incorrect (a genuine form). A massive, non-clearing vitreous haemorrhage from new vessels is advanced diabetic eye disease.
+
+## answer_b
+Macular oedema
+
+## explanation_b
+Correct. This is the exception. Macular oedema is a major cause of visual loss but is a SEPARATE complication, not part of advanced diabetic eye disease (which is vitreous haemorrhage, tractional detachment and neovascular glaucoma).
+
+## answer_c
+Neovascular glaucoma
+
+## explanation_c
+Incorrect (a genuine form). Rubeosis leading to neovascular glaucoma is advanced diabetic eye disease.
+
+## answer_d
+Tractional retinal detachment
+
+## explanation_d
+Incorrect (a genuine form). Fibrovascular traction detaching the retina is advanced diabetic eye disease.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-7FA351890607A6
+
+## concept_ids
+CON-MUL-7FA351890607A6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+53
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Distinguish the components of advanced diabetic eye disease from diabetic macular oedema.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-66
+
+## title
+Best test for diabetic macular oedema
+
+## question
+Diabetic macular edema is best diagnosed by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Gonioscopy
+
+## explanation_a
+Incorrect. Gonioscopy examines the drainage angle, not the macula.
+
+## answer_b
+Retinoscopy
+
+## explanation_b
+Incorrect. Retinoscopy measures refractive error, not macular thickening.
+
+## answer_c
+Optical coherence tomography (OCT)
+
+## explanation_c
+Correct. OCT images and measures the retinal thickening of macular oedema in cross-section, making it the best test to diagnose and monitor diabetic macular oedema.
+
+## answer_d
+Ultrasonography
+
+## explanation_d
+Incorrect. B-scan ultrasonography is used for opaque media/posterior segment masses, not for imaging macular oedema.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-ECE2032D12AF4D
+
+## concept_ids
+CON-MUL-ECE2032D12AF4D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+45
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Select OCT as the best test to diagnose diabetic macular oedema.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-67
+
+## title
+Treatment of diabetic macular oedema
+
+## question
+Diabetic macular edema can be treated by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Focal photocoagulation
+
+## explanation_a
+Correct. Focal/grid laser photocoagulation (with intravitreal anti-VEGF) treats diabetic macular oedema by sealing leaking microaneurysms and reducing macular thickening.
+
+## answer_b
+Pan retinal photocoagulation
+
+## explanation_b
+Incorrect. Panretinal (scatter) photocoagulation treats PROLIFERATIVE retinopathy, not macular oedema; applied to the macula it would damage central vision.
+
+## answer_c
+Intravitreal antimetabolites
+
+## explanation_c
+Incorrect. Antimetabolites are not used for macular oedema; the intravitreal agents used are anti-VEGF and steroids.
+
+## answer_d
+Intravitreal antibiotics
+
+## explanation_d
+Incorrect. Intravitreal antibiotics treat endophthalmitis, not macular oedema.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-ECE2032D12AF4D
+
+## concept_ids
+CON-MUL-ECE2032D12AF4D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify focal photocoagulation (and anti-VEGF) as treatment for diabetic macular oedema.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-68
+
+## title
+Not a risk factor for diabetic retinopathy
+
+## question
+Risk factors for diabetic retinopathy include all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Glycemic control
+
+## explanation_a
+Incorrect (a genuine risk factor). Poor glycaemic control increases the risk and progression of retinopathy.
+
+## answer_b
+Hypertension
+
+## explanation_b
+Incorrect (a genuine risk factor). Coexisting hypertension worsens diabetic retinopathy.
+
+## answer_c
+Duration of diabetes
+
+## explanation_c
+Incorrect (a genuine risk factor). The longer the diabetes, the higher the prevalence of retinopathy.
+
+## answer_d
+Ocular infection
+
+## explanation_d
+Correct. This is the exception: ocular infection is not a risk factor for diabetic retinopathy, whose risk is set by duration of diabetes, glycaemic control and blood pressure.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-89DBBAE1EBCF48
+
+## concept_ids
+CON-MUL-89DBBAE1EBCF48
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+46
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recall duration, glycaemic control and blood pressure as diabetic retinopathy risk factors, excluding ocular infection.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-69
+
+## title
+Sign of ischaemia in severe NPDR
+
+## question
+The following is a sign of ischemia in severe NPDR:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hard exudates
+
+## explanation_a
+Incorrect. Hard exudates are lipid/protein deposits from chronic leakage, not a marker of ischaemia.
+
+## answer_b
+Dot hemorrhages
+
+## explanation_b
+Incorrect. Dot haemorrhages are early non-proliferative changes, not specific ischaemic signs.
+
+## answer_c
+Soft exudates
+
+## explanation_c
+Correct. Soft exudates (cotton-wool spots) are infarcts of the nerve-fibre layer from precapillary arteriolar occlusion, marking retinal ischaemia in severe non-proliferative diabetic retinopathy.
+
+## answer_d
+Microaneurysms
+
+## explanation_d
+Incorrect. Microaneurysms are the earliest change of diabetic retinopathy, not a sign of ischaemia.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-BA81985DC46CC5
+
+## concept_ids
+CON-MUL-BA81985DC46CC5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+53
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify cotton-wool (soft) exudates as the ischaemic sign in severe non-proliferative diabetic retinopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-70
+
+## title
+Treatment of proliferative diabetic retinopathy
+
+## question
+The treatment of PDR is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Argon laser panretinal photocoagulation
+
+## explanation_a
+Correct. Proliferative diabetic retinopathy is treated with argon laser panretinal (scatter) photocoagulation, which ablates ischaemic retina and causes the new vessels to regress (with anti-VEGF as an adjunct).
+
+## answer_b
+YAG laser panretinal photocoagulation
+
+## explanation_b
+Incorrect. Panretinal photocoagulation uses a thermal (argon/green) laser; the Nd:YAG laser is used for capsulotomy and iridotomy, not scatter photocoagulation.
+
+## answer_c
+Systemic steroids
+
+## explanation_c
+Incorrect. Systemic steroids have no role in treating proliferative diabetic retinopathy.
+
+## answer_d
+Reassurance and follow up
+
+## explanation_d
+Incorrect. Proliferative disease is sight-threatening and needs prompt laser treatment, not observation alone.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-2FD59A9ABBEF1E
+
+## concept_ids
+CON-MUL-2FD59A9ABBEF1E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Select argon laser panretinal photocoagulation as the treatment of proliferative diabetic retinopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-71
+
+## title
+False statement about arteriosclerotic retinopathy AV changes
+
+## question
+In arteriosclerotic retinopathy, arteriovenous (AV) changes include the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Apparent tapering of vein under the artery
+
+## explanation_a
+Incorrect (a true change). Apparent tapering/concealment of the vein under the crossing artery is the Gunn sign of AV nipping.
+
+## answer_b
+Lateral or vertical deflection
+
+## explanation_b
+Incorrect (a true change). Deflection of the vein's course at the crossing is the Salus sign.
+
+## answer_c
+Dilatation of proximal part of vein
+
+## explanation_c
+Correct. This is the false statement: the venous dilatation (banking) occurs DISTAL to the crossing, not proximal. At and proximal to the crossing the vein is tapered and concealed.
+
+## answer_d
+Concealment of a part of the vein
+
+## explanation_d
+Incorrect (a true change). The compressed vein is partly concealed at the arteriovenous crossing.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular occlusion
+
+## main_concept
+CON-MUL-A8881C4DC7633D
+
+## concept_ids
+CON-MUL-A8881C4DC7633D
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Describe the arteriovenous crossing changes of arteriosclerotic retinopathy and locate the venous banking distal to the crossing.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-72
+
+## title
+Risk factor for central retinal vein occlusion
+
+## question
+Risk factors for central retinal vein occlusion are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Genetic predisposition
+
+## explanation_a
+Incorrect. Central retinal vein occlusion is not primarily a genetic disorder.
+
+## answer_b
+Toxemia of pregnancy
+
+## explanation_b
+Incorrect. Toxaemia of pregnancy causes hypertensive retinopathy, not classically a central retinal vein occlusion.
+
+## answer_c
+Hypertension
+
+## explanation_c
+Correct. Systemic hypertension is a leading risk factor for central retinal vein occlusion, along with diabetes, raised intraocular pressure/glaucoma and hyperviscosity states.
+
+## answer_d
+High myopia
+
+## explanation_d
+Incorrect. High myopia predisposes to retinal detachment, not to vein occlusion.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular occlusion
+
+## main_concept
+CON-MUL-6C2A7B0839154C
+
+## concept_ids
+CON-MUL-6C2A7B0839154C
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+46
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify hypertension as a major risk factor for central retinal vein occlusion.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
