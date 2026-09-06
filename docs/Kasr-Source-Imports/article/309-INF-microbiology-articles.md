@@ -271,3 +271,95 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 5
+
+
+---
+
+# Item
+## id
+ART-INF-309-MICRO-VIROLOGY
+## title
+Systemic virology: herpesviruses, HIV, oncoviruses and virus structure
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Microbiology
+## summary
+This article groups the systemic-virology facts tested by the paper: virus structure and replication (attachment is receptor adsorption; a virus carries either DNA or RNA, not both; the capsid bears the antigens neutralizing antibodies target), the herpesviruses (CMV transmitted by transplantation and diagnosed by owl-eye inclusions; EBV a DNA oncovirus that induces heterophil antibodies), HIV (a retrovirus whose gp120 binds CD4) and Parvovirus B19 (erythema infectiosum).
+## sections
+### Definition
+The cluster covers the general properties of viruses and the medically important viral agents examined in 309 INF - herpesviruses (CMV, EBV), the retrovirus HIV, oncogenic viruses and Parvovirus B19 - defined by structure, replication step, transmission and diagnosis.
+### Mechanism
+Replication begins with adsorption of virion proteins to specific host receptors; the capsid protects the single-type nucleic-acid genome and presents the antigens against which neutralizing antibodies form. CMV persists in leucocytes and is transmitted by transfusion/transplantation, producing owl-eye inclusions in tissue. EBV infects B cells, drives heterophil-antibody production and is oncogenic. HIV, a retrovirus, uses gp120 to bind CD4. Parvovirus B19 targets erythroid precursors, causing erythema infectiosum.
+### Key determinants
+Discriminators tested here: attachment (adsorption) versus penetration/uncoating/assembly; DNA-or-RNA (virus) versus both (bacteria); capsid as neutralizing antigen versus infectious part or drug target; CMV transmission/diagnosis versus EBV's heterophil antibodies and glandular fever; HIV family (Retroviridae) and gp120/CD4 versus gp41/gp160/p24; Parvovirus B19 versus EBV/HTLV/HIV for erythema infectiosum.
+### Clinical significance
+These facts guide viral diagnosis and prevention: screening donors for CMV, recognising owl-eye inclusions, ordering heterophil-antibody tests for glandular fever, understanding HIV entry as a drug target, and identifying the slapped-cheek rash of Parvovirus B19 and its risks in aplastic crisis and pregnancy.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (replication-step confusion; virus vs bacterium nucleic acid; capsid role; CMV vs EBV diagnosis; HIV glycoprotein roles; wrong virus for erythema infectiosum).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology
+## subtopic
+Systemic virology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+DIS-MIC
+## related_concepts
+CON-INF-F55EB6BBF9D8B3
+CON-INF-176D59F29EE4FC
+CON-INF-4CFE039ABEB42C
+CON-INF-1DF2017D3C1A85
+CON-INF-58A3412654E847
+CON-INF-1A32C30E138316
+CON-INF-417F2FF36A3457
+CON-INF-9F6AAC952851B5
+CON-INF-E26C627D68B937
+CON-INF-C89DF8B8EFE9A3
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+6

@@ -2338,3 +2338,1064 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-1
+## title
+Correct statement regarding cytomegalovirus
+## question
+Regarding cytomegalovirus (CMV), which statement is CORRECT?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Diagnosis is made by detecting heterophil antibodies in the patients' serum.
+## explanation_a
+Incorrect. Heterophil antibodies (Monospot/Paul-Bunnell) indicate EBV infectious mononucleosis, not CMV.
+## answer_b
+It can be transmitted by organ transplantation.
+## explanation_b
+Correct. CMV establishes latency in leucocytes and tissues, so it is transmitted by blood transfusion and by solid-organ and bone-marrow transplantation, and is a major pathogen in transplant recipients.
+## answer_c
+It is the causative agent of glandular fever.
+## explanation_c
+Incorrect. Classic glandular fever (infectious mononucleosis) is caused by EBV; CMV causes only a mononucleosis-like syndrome.
+## answer_d
+Target cells infected by CMV are CD4 T lymphocytes.
+## explanation_d
+Incorrect. CD4 T lymphocytes are the target of HIV; CMV infects many cell types (leucocytes, epithelial, endothelial cells).
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## main_concept
+CON-INF-F55EB6BBF9D8B3
+## concept_ids
+CON-INF-F55EB6BBF9D8B3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that CMV can be transmitted by organ transplantation.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q1 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-17
+## title
+Event occurring during viral attachment
+## question
+Which event occurs during viral attachment?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Adsorption of the virus to specific receptors.
+## explanation_a
+Correct. Attachment is the adsorption of virion surface proteins to specific receptor molecules on the host cell, the step that determines host range and tropism.
+## answer_b
+Enclosure of viral nucleic acids within the protein coats.
+## explanation_b
+Incorrect. Enclosure of the nucleic acid within the capsid occurs during assembly, not attachment.
+## answer_c
+Fusion of viral envelope with the host cell membrane.
+## explanation_c
+Incorrect. Fusion of the envelope with the host membrane is part of penetration/entry, which follows attachment.
+## answer_d
+Release of viral nucleic acid from the capsid.
+## explanation_d
+Incorrect. Release of the nucleic acid from the capsid is uncoating, a later step.
+## topic
+Microbiology
+## subtopic
+Virology general
+## main_concept
+CON-INF-176D59F29EE4FC
+## concept_ids
+CON-INF-176D59F29EE4FC
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify adsorption to specific receptors as the event of viral attachment.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q17 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-22
+## title
+Virus family causing AIDS
+## question
+To which virus family do viruses that cause acquired immunodeficiency syndrome (AIDS) belong?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Adenoviruses
+## explanation_a
+Incorrect. Adenoviruses are DNA viruses causing respiratory and conjunctival infections, not AIDS.
+## answer_b
+Herpesviruses
+## explanation_b
+Incorrect. Herpesviruses (e.g. CMV, EBV) are DNA viruses; they do not cause AIDS.
+## answer_c
+Parvoviruses
+## explanation_c
+Incorrect. Parvoviruses (e.g. B19) are small DNA viruses; they do not cause AIDS.
+## answer_d
+Retroviruses
+## explanation_d
+Correct. HIV, the cause of AIDS, is a retrovirus (family Retroviridae) - an enveloped RNA virus that uses reverse transcriptase.
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## main_concept
+CON-INF-4CFE039ABEB42C
+## concept_ids
+CON-INF-4CFE039ABEB42C
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+35
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that the AIDS virus belongs to the retrovirus family.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q22 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-33
+## title
+DNA oncogenic virus
+## question
+Which virus is a DNA oncogenic virus?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Cytomegalovirus
+## explanation_a
+Incorrect. CMV is a DNA herpesvirus but is not classically an oncogenic virus.
+## answer_b
+Epstein-Barr virus
+## explanation_b
+Correct. EBV is a DNA (herpes) virus and a well-established oncogenic virus, linked to Burkitt lymphoma and nasopharyngeal carcinoma.
+## answer_c
+Human immunodeficiency virus
+## explanation_c
+Incorrect. HIV is an RNA retrovirus, not a DNA virus.
+## answer_d
+Human T-cell lymphotropic virus
+## explanation_d
+Incorrect. HTLV is an RNA retrovirus (cause of adult T-cell leukaemia), not a DNA virus.
+## topic
+Microbiology
+## subtopic
+Oncogenic viruses
+## main_concept
+CON-INF-1DF2017D3C1A85
+## concept_ids
+CON-INF-1DF2017D3C1A85
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Oncogenic viruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify EBV as a DNA oncogenic virus.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q33 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-34
+## title
+HIV antigen that binds the CD4 receptor
+## question
+Which HIV antigen is important for viral binding to CD4 receptor?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Glycoprotein 41
+## explanation_a
+Incorrect. gp41 mediates fusion of the viral envelope with the host membrane after CD4 binding, not the primary CD4 attachment.
+## answer_b
+Glycoprotein 120
+## explanation_b
+Correct. gp120 is the HIV envelope glycoprotein that binds the CD4 receptor (with a chemokine co-receptor), initiating entry into CD4-bearing cells.
+## answer_c
+Glycoprotein 160
+## explanation_c
+Incorrect. gp160 is the uncleaved precursor that is processed into gp120 and gp41.
+## answer_d
+P24 antigen
+## explanation_d
+Incorrect. p24 is the internal capsid (core) antigen used in diagnosis, not the CD4-binding protein.
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## main_concept
+CON-INF-58A3412654E847
+## concept_ids
+CON-INF-58A3412654E847
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+48
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that HIV gp120 binds the CD4 receptor.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q34 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-64
+## title
+Correct statement concerning the viral capsid
+## question
+Which of the following statements is correct concerning the viral capsid?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+It is the antigen against which neutralizing antibodies are formed
+## explanation_a
+Correct. The capsid's surface proteins are antigenic and, for non-enveloped viruses, are the targets against which protective neutralizing antibodies are formed.
+## answer_b
+It is responsible for the high sensitivity of viruses to heat and detergents
+## explanation_b
+Incorrect. The capsid actually protects the genome and confers relative resistance; enveloped viruses (not the capsid) are the ones especially sensitive to heat and detergents.
+## answer_c
+It is the structural target on which antiviral drugs can act
+## explanation_c
+Incorrect. Antiviral drugs act mainly on replication enzymes and steps, not on the capsid as a structural target.
+## answer_d
+It is the infectious part of the virus
+## explanation_d
+Incorrect. The infectious component is the nucleic acid; the capsid is its protective protein coat.
+## topic
+Microbiology
+## subtopic
+Virology general
+## main_concept
+CON-INF-1A32C30E138316
+## concept_ids
+CON-INF-1A32C30E138316
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that the viral capsid carries the antigens targeted by neutralizing antibodies.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q64 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-65
+## title
+Viruses versus bacteria — the incorrect statement
+## question
+Regarding the differences between viruses and bacteria, all of the following statements are correct EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Viruses may pass through bacterial filters
+## explanation_a
+Incorrect (this statement is true). Viruses are small enough to pass through bacterial (0.22 µm) filters, unlike bacteria.
+## answer_b
+Viruses can be seen by the electron microscope
+## explanation_b
+Incorrect (this statement is true). Viruses are below the resolution of light microscopy and are visualised only by electron microscopy.
+## answer_c
+Viruses are obligatory intracellular parasites
+## explanation_c
+Incorrect (this statement is true). Viruses can replicate only inside living host cells - they are obligate intracellular parasites.
+## answer_d
+Viruses contain both DNA and RNA
+## explanation_d
+Correct. This is the EXCEPTION: a virus contains only one type of nucleic acid, either DNA or RNA, never both; it is bacteria that contain both.
+## topic
+Microbiology
+## subtopic
+Virology general
+## main_concept
+CON-INF-417F2FF36A3457
+## concept_ids
+CON-INF-417F2FF36A3457
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that a virus contains either DNA or RNA (not both), unlike bacteria.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q65 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-74
+## title
+Test for diagnosis of cytomegalovirus infection
+## question
+Diagnosis of cytomegalovirus infection can be performed by which test?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Inverted
+## explanation_a
+Incorrect. 'Inverted' is not a recognised diagnostic test for CMV.
+## answer_b
+Positive monospot test
+## explanation_b
+Incorrect. A positive Monospot detects heterophil antibodies of EBV infectious mononucleosis, not CMV.
+## answer_c
+Presence of atypical lymphocytes in blood
+## explanation_c
+Incorrect. Atypical lymphocytes are a feature of EBV mononucleosis and are non-specific, not diagnostic of CMV.
+## answer_d
+Detection of intracellular inclusions in tissue biopsy
+## explanation_d
+Correct. CMV is diagnosed histologically by detecting the characteristic large cells with intranuclear 'owl-eye' inclusion bodies in an infected tissue biopsy.
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## main_concept
+CON-INF-9F6AAC952851B5
+## concept_ids
+CON-INF-9F6AAC952851B5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+48
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that CMV is diagnosed by detecting intracellular inclusions in a tissue biopsy.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q74 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-75
+## title
+Virus causing erythema infectiosum
+## question
+Erythema infectiosum is caused by which virus?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Epstein Barr virus
+## explanation_a
+Incorrect. EBV causes infectious mononucleosis (glandular fever), not erythema infectiosum.
+## answer_b
+Human T cell lymphotropic virus
+## explanation_b
+Incorrect. HTLV causes adult T-cell leukaemia/lymphoma, not erythema infectiosum.
+## answer_c
+Human immunodeficiency virus
+## explanation_c
+Incorrect. HIV causes AIDS, not erythema infectiosum.
+## answer_d
+Parvovirus B19
+## explanation_d
+Correct. Erythema infectiosum (fifth disease, slapped-cheek rash) is caused by Parvovirus B19.
+## topic
+Microbiology
+## subtopic
+DNA viruses
+## main_concept
+CON-INF-E26C627D68B937
+## concept_ids
+CON-INF-E26C627D68B937
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+35
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > DNA viruses (Parvovirus)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify Parvovirus B19 as the cause of erythema infectiosum.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q75 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-76
+## title
+Correct statement regarding EBV pathogenesis
+## question
+Which statement is CORRECT regarding Epstein Barr virus pathogenesis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+It replicates locally in oropharynx and does not invade the blood stream
+## explanation_a
+Incorrect. EBV replicates in the oropharynx but does invade the bloodstream and infects circulating B lymphocytes.
+## answer_b
+It infects monocytes and tissue macrophages
+## explanation_b
+Incorrect. EBV infects B lymphocytes (via CD21), not monocytes and tissue macrophages.
+## answer_c
+It causes Kaposi's sarcoma in HIV patients
+## explanation_c
+Incorrect. Kaposi's sarcoma in HIV patients is caused by HHV-8 (Kaposi sarcoma herpesvirus), not EBV.
+## answer_d
+It induces the production of heterophil antibodies
+## explanation_d
+Correct. EBV drives polyclonal B-cell activation that produces heterophil antibodies, the basis of the Paul-Bunnell/Monospot test.
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## main_concept
+CON-INF-C89DF8B8EFE9A3
+## concept_ids
+CON-INF-C89DF8B8EFE9A3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+58
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that EBV induces heterophil antibodies.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q76 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.

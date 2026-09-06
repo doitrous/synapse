@@ -398,6 +398,7 @@ Files: `question/309-INF-microbiology-mcq.md`, `concept/309-INF-microbiology-con
 | S1 General microbiology | Q6,7,8,49,50,51,60 | DIS-MIC-T01 · ART-INF-309-MICRO-GENERAL | 7 | 0 | items=7 errors=0 |
 | S2 Systemic bacteriology | Q4,5,20,21,23,27,30,36,40,63 | DIS-MIC-T01 · ART-INF-309-MICRO-BACTERIOLOGY | 10 | 0 | items=17 errors=0 |
 | S3 Chemotherapy + applied | Q9,52,61,68,69 | DIS-MIC-T01 · ART-INF-309-MICRO-CHEMO-APPLIED | 5 | 0 | items=22 errors=0 |
+| S4 Systemic virology | Q1,17,22,33,34,64,65,74,75,76 | DIS-MIC-T02 · ART-INF-309-MICRO-VIROLOGY | 10 | 0 | items=32 errors=0 |
 
 Held/excluded (running, this bank): within-bank exact/reciprocal duplicates to be held as later slices reach them
 (Q24=Q2, Q26=Q3, Q35=Q1, Q37/Q66 reciprocal of Q2, Q41=Q23, Q42=Q2, Q43=Q25, Q44=Q3, Q45=Q27, Q70=Q40),

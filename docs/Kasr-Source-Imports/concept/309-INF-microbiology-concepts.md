@@ -2451,3 +2451,1114 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-F55EB6BBF9D8B3
+## label
+Cytomegalovirus can be transmitted by organ transplantation
+## canonical_key
+virus.cmv.transmitted-by-organ-transplantation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cytomegalovirus (CMV, a herpesvirus) establishes lifelong latency in leucocytes and tissues, so it can be transmitted by blood transfusion and by solid-organ and bone-marrow transplantation from a seropositive donor, and it is a major opportunistic pathogen in transplant recipients.
+## explicit_objective
+State that CMV can be transmitted by organ transplantation (and transfusion).
+## pitfalls
+CMV is not diagnosed by heterophil antibodies (that is EBV), does not cause classic glandular fever, and does not target CD4 T cells the way HIV does; its transplant/transfusion transmission is the key fact.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-176D59F29EE4FC
+## label
+Viral attachment is adsorption of the virus to specific host receptors
+## canonical_key
+virus.replication.attachment-adsorption-to-specific-receptors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The first step of viral replication is attachment (adsorption): virion surface proteins bind specific receptor molecules on the host-cell surface, determining the virus's host range and tissue tropism before penetration and uncoating occur.
+## explicit_objective
+Identify adsorption to specific host-cell receptors as the event of viral attachment.
+## pitfalls
+Enclosure of nucleic acid in the capsid is assembly, envelope-membrane fusion is penetration, and release of nucleic acid from the capsid is uncoating; attachment specifically is receptor adsorption.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Virology general
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-4CFE039ABEB42C
+## label
+HIV, the cause of AIDS, belongs to the Retroviridae
+## canonical_key
+virus.hiv.belongs-to-retroviridae-family
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The human immunodeficiency virus (HIV) that causes AIDS is a retrovirus (family Retroviridae): an enveloped single-stranded RNA virus that uses reverse transcriptase to copy its genome into DNA for integration into the host chromosome.
+## explicit_objective
+State that the AIDS virus belongs to the retrovirus family.
+## pitfalls
+HIV is not an adenovirus, herpesvirus or parvovirus; its defining feature is reverse transcription, placing it in the Retroviridae.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-1DF2017D3C1A85
+## label
+Epstein-Barr virus is a DNA oncogenic virus
+## canonical_key
+virus.ebv-is-a-dna-oncogenic-virus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Epstein-Barr virus (EBV), a herpesvirus, is a DNA oncogenic virus associated with Burkitt lymphoma, nasopharyngeal carcinoma and other malignancies; its double-stranded DNA genome distinguishes it from the RNA oncoviruses.
+## explicit_objective
+Identify EBV as a DNA oncogenic virus.
+## pitfalls
+HIV and HTLV are RNA (retro)viruses, and CMV, though a DNA herpesvirus, is not classically an oncogenic virus in this list; EBV is the DNA oncovirus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Oncogenic viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Oncogenic viruses
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-58A3412654E847
+## label
+HIV glycoprotein gp120 binds the CD4 receptor
+## canonical_key
+virus.hiv.gp120-binds-cd4-receptor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The HIV envelope glycoprotein gp120 is the attachment protein that binds the CD4 receptor (with a chemokine co-receptor) on host cells; gp41 then mediates fusion. gp120 binding to CD4 initiates entry into helper T cells and other CD4-bearing cells.
+## explicit_objective
+State that HIV gp120 is the antigen responsible for binding to the CD4 receptor.
+## pitfalls
+gp41 mediates fusion (not primary CD4 binding), gp160 is the uncleaved precursor of gp120+gp41, and p24 is the internal capsid antigen; CD4 binding is the specific role of gp120.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-1A32C30E138316
+## label
+The viral capsid carries the antigens targeted by neutralizing antibodies
+## canonical_key
+virus.capsid.target-of-neutralizing-antibodies
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The capsid is the protein coat that encloses the viral nucleic acid; its surface proteins are antigenic, and for non-enveloped viruses they are the targets against which protective neutralizing antibodies are formed.
+## explicit_objective
+State that the viral capsid is the antigen against which neutralizing antibodies are formed.
+## pitfalls
+The capsid protects the genome and actually confers relative resistance to heat/detergents; it is not itself the infectious part (the nucleic acid is) nor the usual target of antiviral drugs - its antigenic role in neutralization is the point.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Virology general
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-417F2FF36A3457
+## label
+A virus contains either DNA or RNA, never both
+## canonical_key
+virus.vs-bacteria.contains-either-dna-or-rna-not-both
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A defining feature of viruses, distinguishing them from bacteria, is that a virion carries only one type of nucleic acid - either DNA or RNA - as its genome, never both; bacteria contain both DNA and RNA.
+## explicit_objective
+State that viruses contain either DNA or RNA (not both), unlike bacteria.
+## pitfalls
+Viruses correctly do pass through bacterial filters, are seen only by electron microscopy, and are obligate intracellular parasites; the FALSE statement is that they contain both DNA and RNA.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Virology general
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Virus structure and replication
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-9F6AAC952851B5
+## label
+CMV infection is diagnosed by intracellular (owl-eye) inclusions in tissue
+## canonical_key
+virus.cmv.diagnosis-intranuclear-owl-eye-inclusions
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cytomegalovirus infection can be diagnosed histologically by detecting the characteristic large cells bearing intranuclear 'owl-eye' inclusion bodies (and cytoplasmic inclusions) in an infected tissue biopsy or cytology specimen.
+## explicit_objective
+State that CMV infection is diagnosed by detecting intracellular inclusions in a tissue biopsy.
+## pitfalls
+A positive Monospot and atypical lymphocytes in blood point to EBV infectious mononucleosis, not CMV; CMV's hallmark is the intracellular owl-eye inclusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-E26C627D68B937
+## label
+Parvovirus B19 causes erythema infectiosum (fifth disease)
+## canonical_key
+virus.parvovirus-b19-causes-erythema-infectiosum
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Erythema infectiosum (fifth disease, 'slapped-cheek' rash) is caused by Parvovirus B19, which also causes transient aplastic crisis in haemolytic anaemias and hydrops fetalis in pregnancy.
+## explicit_objective
+Identify Parvovirus B19 as the cause of erythema infectiosum.
+## pitfalls
+EBV causes glandular fever, HTLV causes adult T-cell leukaemia, and HIV causes AIDS; the slapped-cheek erythema infectiosum is Parvovirus B19.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+DNA viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > DNA viruses (Parvovirus)
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-C89DF8B8EFE9A3
+## label
+Epstein-Barr virus induces heterophil antibodies
+## canonical_key
+virus.ebv.induces-heterophil-antibodies
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In EBV infectious mononucleosis the virus infects B lymphocytes and triggers polyclonal B-cell activation that produces heterophil antibodies (detected by the Paul-Bunnell/Monospot test); the virus invades the bloodstream and B cells rather than remaining localized.
+## explicit_objective
+State that EBV pathogenesis includes induction of heterophil antibodies.
+## pitfalls
+EBV does invade the blood and infects B cells (not merely oropharyngeal epithelium, and not monocytes/macrophages); Kaposi sarcoma is caused by HHV-8, not EBV. The correct pathogenic feature is heterophil-antibody induction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
