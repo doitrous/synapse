@@ -45,9 +45,12 @@ const shell = (lang, head, body) => `<!doctype html>
 <body><header><a href="/${lang}">${T[lang].home}</a> · <a href="/blog/${lang}">${T[lang].blog}</a></header><main>${body}</main><footer>© Nishany</footer></body></html>`
 
 export function articlePage(row, langsStored, origin) {
-  const t = T[row.lang], url = `${origin}/blog/${row.lang}/${row.slug}`
-  const alternates = langsStored.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}/${row.slug}">`).join('')
-    + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/${langsStored.includes('en') ? 'en' : langsStored[0]}/${row.slug}">`
+  // slug is hub-supplied and unrestricted in format, unlike lang (whitelisted
+  // to SUPPORTED); escaped here like every other user-derived string so it
+  // can't break out of these href attributes.
+  const t = T[row.lang], slug = esc(row.slug), url = `${origin}/blog/${row.lang}/${slug}`
+  const alternates = langsStored.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}/${slug}">`).join('')
+    + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/${langsStored.includes('en') ? 'en' : langsStored[0]}/${slug}">`
   const ld = (row.schema_jsonld ?? []).map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`).join('')
   const faq = row.faq?.length ? `<section><h2>${t.faq}</h2>${row.faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}</section>` : ''
   const head = `<title>${esc(row.meta_title || row.title)}</title><meta name="description" content="${esc(row.meta_description)}"><link rel="canonical" href="${url}">${alternates}<meta property="og:title" content="${esc(row.title)}"><meta property="og:description" content="${esc(row.meta_description)}">${row.image_url ? `<meta property="og:image" content="${esc(row.image_url)}">` : ''}${ld}`
@@ -58,7 +61,7 @@ export function articlePage(row, langsStored, origin) {
 export function indexPage(lang, rows, origin) {
   const t = T[lang]
   const head = `<title>${t.blog} · Nishany</title><link rel="canonical" href="${origin}/blog/${lang}">` + SUPPORTED.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}">`).join('')
-  const cards = rows.map((r) => `<div class="card"><h2><a href="/blog/${lang}/${r.slug}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`).join('')
+  const cards = rows.map((r) => `<div class="card"><h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`).join('')
   return shell(lang, head, `<h1>${t.blog}</h1>${cards}`)
 }
 export const STATIC_URLS = [
@@ -79,8 +82,10 @@ export function sitemapXml(rows, origin) {
   const bySlug = new Map()
   for (const r of rows) { if (!bySlug.has(r.slug)) bySlug.set(r.slug, []); bySlug.get(r.slug).push(r) }
   const articleUrls = [...bySlug.values()].flatMap((group) => {
-    const alternates = Object.fromEntries(group.map((r) => [r.lang, `/blog/${r.lang}/${r.slug}`]))
-    return group.map((r) => u(`/blog/${r.lang}/${r.slug}`, alternates, r.updated_at ? new Date(r.updated_at).toISOString().slice(0, 10) : undefined))
+    // Grouped by the raw slug; escaped only where it lands in the XML below —
+    // same reasoning as articlePage/indexPage, slug is hub-supplied and unrestricted.
+    const alternates = Object.fromEntries(group.map((r) => [r.lang, `/blog/${r.lang}/${esc(r.slug)}`]))
+    return group.map((r) => u(`/blog/${r.lang}/${esc(r.slug)}`, alternates, r.updated_at ? new Date(r.updated_at).toISOString().slice(0, 10) : undefined))
   })
   const indexUrls = SUPPORTED.map((l) => u(`/blog/${l}`, Object.fromEntries(SUPPORTED.map((x) => [x, `/blog/${x}`]))))
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${STATIC_URLS.map((s) => u(s.path, s.alternates)).join('')}${indexUrls.join('')}${articleUrls.join('')}</urlset>`

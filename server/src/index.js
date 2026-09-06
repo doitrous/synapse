@@ -31,6 +31,7 @@ import { setMailer } from './qotdReminderEmail.js'
 import { startQotdReminderScheduler } from './qotdReminders.js'
 import { registerContentRoutes } from './studentContent.js'
 import { registerPublicRoutes } from './routes/public.js'
+import { registerSeoArticleRoutes } from './routes/seoArticles.js'
 import { registerAuthRoutes } from './routes/auth.js'
 import { registerAssistantRoutes, registerEssayRoutes } from './routes/assistant.js'
 import { registerMeRoutes } from './routes/me.js'
@@ -137,6 +138,10 @@ app.use(express.json({
  * of an unsubscribe link is signed out.
  */
 registerPublicRoutes(app)
+// The seo-hub receiver: POST /api/articles plus the public /blog/:lang(/:slug)
+// pages and /sitemap.xml it serves. Mounted before the SPA static/catch-all
+// block below so these routes are matched first.
+registerSeoArticleRoutes(app)
 registerAuthRoutes(app)
 registerEssayRoutes(app)
 registerMeRoutes(app)
