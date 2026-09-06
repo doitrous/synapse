@@ -1,0 +1,228 @@
+{
+  "lane": "KASR327MPE",
+  "cluster": "special-procedures",
+  "header": "Kasr Al Ainy 327 MPE Ethics (Year 3) · Section 6 \"Legal regulations for procedures of special nature\" MCQs (Q127-Q141) from the MPE 327 PY Answered previous-years question bank (student compilation, native text). Correct answers from the yellow-highlight fill on the correct option (pagetext keys, pp.29-32), each cross-checked against the printed option text. This seed authors the 7 UNIQUE MCQs (Q127,128,129,130,131,132,137); 8 in-section exact/reordered duplicates are held (Q133,134,135,136,138,139,140,141 — Q134 additionally had no yellow fill detected) and the True/False sentences (Q142-157) are excluded. Ethics has no body-system code, so concepts are CON-MUL- / subject mul, filed on the real DIS-PEC discipline hub at DIS-PEC-T05 (Professional conduct).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "327 MPE",
+    "module_subject": "327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "topic": "Medical Professionalism & Ethics",
+    "question_only_for": "",
+    "library_ids": ["ART-MPE-327-SPECIAL-PROCEDURES"],
+    "resource_ids": ["src_d21e884926be1b92ec4a"],
+    "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Legal regulations for procedures of special nature section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+    "setting": "Academic",
+    "exam_relevance": 5,
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "special-procedures-q127",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q127",
+      "page": 29,
+      "title": "Permitted source of organ transplantation in Egypt",
+      "question": "In Egypt, organ transplantation is allowed from:",
+      "options": { "A": "Cadavers", "B": "Brain dead", "C": "Living spouse", "D": "Consenting friend" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Egyptian organ-transplantation law is built on living, related donation; routine retrieval from cadavers is not the permitted source tested here.",
+        "B": "Incorrect. Egyptian law does not treat the brain-dead individual as a legal source of organs for transplantation in the framework this bank examines; donation is from a living, related donor.",
+        "C": "Correct. In Egypt, organ transplantation is permitted from a living donor who is related to the recipient, and the spouse is accepted within that relationship. The law restricts donation to living relatives to prevent organ trafficking and to keep donation altruistic and consensual. A living spouse is therefore the only listed permitted source.",
+        "D": "Incorrect. A friend, however willing, is not a legally accepted donor: donation is confined to living relatives (including the spouse), not unrelated persons, to guard against commercialisation."
+      },
+      "main_concept": "CON-MUL-5D9292524C283A",
+      "concept_ids": ["CON-MUL-5D9292524C283A"],
+      "subtopic": "Organ transplantation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that organ transplantation in Egypt is permitted only from a living related donor, including the spouse.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q134 (unmarked) and Q136 repeat this item (held)"
+      }
+    },
+    {
+      "key": "special-procedures-q128",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q128",
+      "page": 29,
+      "title": "Traditional (classic) surrogacy — the surrogate's role",
+      "question": "In traditional or classic surrogacy, the surrogate mother:",
+      "options": { "A": "Conceives entirely by other couple sperm and ovum", "B": "Donates her ovum to form the embryo", "C": "Has no genetic link to the baby", "D": "Is fertilized via IVF" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. That describes gestational surrogacy, where the surrogate carries an embryo formed entirely from the commissioning couple's gametes; in traditional surrogacy her own ovum is used.",
+        "B": "Correct. In traditional (classic) surrogacy the surrogate mother provides her own ovum, which is fertilised (usually by the commissioning man's sperm through insemination), so she donates the egg that forms the embryo. Because her own genetic material is used, she is genetically related to the child. This is what distinguishes traditional from gestational surrogacy.",
+        "C": "Incorrect. Because her own ovum forms the embryo, the traditional surrogate is genetically related to the baby; having no genetic link describes the gestational surrogate.",
+        "D": "Incorrect. Traditional surrogacy is classically achieved by insemination of the surrogate rather than IVF of another couple's embryo; the defining feature is that her own ovum is used."
+      },
+      "main_concept": "CON-MUL-D702417F6F36FB",
+      "concept_ids": ["CON-MUL-D702417F6F36FB"],
+      "subtopic": "Surrogacy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define traditional (classic) surrogacy as the surrogate providing her own ovum, giving her a genetic link to the child.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q138 repeats this item (held)"
+      }
+    },
+    {
+      "key": "special-procedures-q129",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q129",
+      "page": 29,
+      "title": "Minimum treatment period before gender correction",
+      "question": "Psychiatric and hormonal treatment in case of gender correction should be done for at least:",
+      "options": { "A": "Two years", "B": "Four years", "C": "Six years", "D": "Eight years" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Before a gender-correction procedure is considered, a mandatory period of psychiatric and hormonal treatment of at least two years must be completed. This waiting period confirms the diagnosis, ensures the decision is stable and considered, and documents that non-surgical management was tried first. Only after this minimum two-year period is the corrective procedure permissible.",
+        "B": "Incorrect. Four years exceeds the required minimum; the stipulated minimum period of psychiatric and hormonal treatment is two years.",
+        "C": "Incorrect. Six years is not the stipulated threshold; the required minimum is two years.",
+        "D": "Incorrect. Eight years is far longer than the required minimum, which is two years."
+      },
+      "main_concept": "CON-MUL-F0EAC914F4F4AF",
+      "concept_ids": ["CON-MUL-F0EAC914F4F4AF"],
+      "subtopic": "Gender correction",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that gender correction requires at least two years of prior psychiatric and hormonal treatment.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q140 repeats this item (held)"
+      }
+    },
+    {
+      "key": "special-procedures-q130",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q130",
+      "page": 29,
+      "title": "Homologous artificial insemination — the exception",
+      "question": "As regards homologous artificial insemination, all of the following are true, except:",
+      "options": { "A": "It is obtained from a donor", "B": "It is used in case of male impotence", "C": "It is a legal procedure", "D": "It is done in female vaginismus" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct (this is the exception — the false statement). Homologous artificial insemination uses the husband's own semen, not a donor's; \"obtained from a donor\" describes heterologous insemination. Because the gametes are the married couple's own, homologous insemination is the legally and ethically accepted form. This is the statement that does not apply to homologous insemination.",
+        "B": "Incorrect (this statement is true). Homologous insemination is a recognised option when a couple cannot conceive naturally because of male impotence, using the husband's semen.",
+        "C": "Incorrect (this statement is true). Because it uses the spouses' own gametes, homologous artificial insemination is a legal procedure.",
+        "D": "Incorrect (this statement is true). It is used when intercourse is not possible, such as female vaginismus, delivering the husband's semen artificially."
+      },
+      "main_concept": "CON-MUL-F081E584CA0A8D",
+      "concept_ids": ["CON-MUL-F081E584CA0A8D"],
+      "subtopic": "Artificial insemination",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that homologous artificial insemination uses the husband's semen, not a donor's.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q133 and Q141 repeat this item (held)"
+      }
+    },
+    {
+      "key": "special-procedures-q131",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q131",
+      "page": 30,
+      "title": "Fundamental rule governing IVF",
+      "question": "A couple was suffering from fertility problems. They wanted to do an IVF procedure. What is the most important rule to be followed?",
+      "options": { "A": "A donor ovum can be used", "B": "A donor sperm can be used", "C": "A sperm and an ovum from the meant couple", "D": "A surrogate mother is accepted" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Using a donor ovum introduces third-party genetic material, which is not permitted; the gametes must come from the married couple.",
+        "B": "Incorrect. Donor sperm is likewise third-party genetic material and is not allowed; the sperm must be the husband's.",
+        "C": "Correct. The governing rule for IVF is that both the sperm and the ovum must come from the married couple themselves, with no third-party donor and no surrogate. Keeping the gametes within the marriage preserves lineage and is the ethical and legal condition for assisted reproduction. Any donor gamete or surrogate arrangement breaches this rule.",
+        "D": "Incorrect. Surrogacy places the couple's or a third party's embryo in another woman's uterus and is not accepted; the pregnancy must be carried by the wife herself."
+      },
+      "main_concept": "CON-MUL-7D07B50B360B45",
+      "concept_ids": ["CON-MUL-7D07B50B360B45"],
+      "subtopic": "In vitro fertilization",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the rule that IVF must use gametes from the married couple only, without donor gametes or surrogacy.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[195 1st]"
+      }
+    },
+    {
+      "key": "special-procedures-q132",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q132",
+      "page": 30,
+      "title": "Gestational surrogacy — the surrogate's role",
+      "question": "In gestational surrogacy, the surrogate mother:",
+      "options": { "A": "Carries another couple's embryo", "B": "Donates her ovum to form the embryo", "C": "Fertilized by deposition of semen into her uterus", "D": "Is the legal mother of the baby" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In gestational surrogacy the surrogate mother carries an embryo formed entirely from the commissioning couple's own gametes, so she contributes only her uterus and has no genetic link to the baby. This is the defining contrast with traditional surrogacy, where her own ovum is used. She gestates another couple's embryo.",
+        "B": "Incorrect. Donating her own ovum describes traditional (classic) surrogacy; the gestational surrogate uses none of her own genetic material.",
+        "C": "Incorrect. Insemination of the surrogate with semen produces a traditional surrogacy using her ovum; in gestational surrogacy a ready-made embryo is transferred, not semen deposited.",
+        "D": "Incorrect. The gestational surrogate is not the intended legal mother; she carries the pregnancy for the commissioning couple and has no genetic tie to the child."
+      },
+      "main_concept": "CON-MUL-D86255B51D80C5",
+      "concept_ids": ["CON-MUL-D86255B51D80C5"],
+      "subtopic": "Surrogacy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define gestational surrogacy as carrying an embryo from the commissioning couple, with no genetic link to the child.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[192 2nd]",
+        "sourceDuplicates": "Q135 and Q139 repeat this item (held)"
+      }
+    },
+    {
+      "key": "special-procedures-q137",
+      "id": "QST-KASR327MPE-SPECIAL-PROCEDURES-Q137",
+      "page": 31,
+      "title": "Record-keeping period for assisted-reproduction centres",
+      "question": "The centers where assisted reproductive operations are performed must keep a detailed record of each case for at least:",
+      "options": { "A": "Four years", "B": "Six years", "C": "Eight years", "D": "Ten years" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Four years is shorter than the required retention period, which is at least ten years.",
+        "B": "Incorrect. Six years does not meet the required minimum retention of ten years.",
+        "C": "Incorrect. Eight years still falls short of the required minimum, which is ten years.",
+        "D": "Correct. Centres performing assisted reproductive procedures must keep a detailed record of each case for at least ten years. The long retention period safeguards lineage documentation, allows later verification of the gametes used, and supports any medico-legal review. Ten years is therefore the stipulated minimum."
+      },
+      "main_concept": "CON-MUL-F524B9CE1E3B50",
+      "concept_ids": ["CON-MUL-F524B9CE1E3B50"],
+      "subtopic": "Assisted reproduction regulation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that assisted-reproduction centres must retain each case record for at least ten years.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[Dep Revision]"
+      }
+    },
+    { "key": "special-procedures-q133", "hold": "exact in-section duplicate of Q130 (homologous artificial insemination, all true except -> obtained from a donor; key A) — authored once as Q130" },
+    { "key": "special-procedures-q134", "hold": "in-section duplicate of Q127 with reordered options (organ transplantation allowed from -> living spouse); additionally no yellow-highlight fill was detected on it — authored once as Q127" },
+    { "key": "special-procedures-q135", "hold": "exact in-section duplicate of Q132 (gestational surrogacy -> carries another couple's embryo; key A) — authored once as Q132" },
+    { "key": "special-procedures-q136", "hold": "exact in-section duplicate of Q127 (organ transplantation allowed from -> living spouse; key C) — authored once as Q127" },
+    { "key": "special-procedures-q138", "hold": "exact in-section duplicate of Q128 (traditional/classic surrogacy -> donates her ovum; key B) — authored once as Q128" },
+    { "key": "special-procedures-q139", "hold": "exact in-section duplicate of Q132 (gestational surrogacy -> carries another couple's embryo; key A) — authored once as Q132" },
+    { "key": "special-procedures-q140", "hold": "in-section duplicate of Q129 with an extra fifth option e) Ten years (gender correction -> at least two years; key A) — authored once as Q129" },
+    { "key": "special-procedures-q141", "hold": "exact in-section duplicate of Q130 (homologous artificial insemination, all true except -> obtained from a donor; key A) — authored once as Q130" }
+  ]
+}

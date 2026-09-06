@@ -487,3 +487,97 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the defensive-medicine concepts (aim, positive/negative forms and their examples, motive, cause, consequence) plus the linked informed-consent-protection fact on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication), Professional-conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-MPE-327-SPECIAL-PROCEDURES
+## title
+Legal regulation of transplantation and assisted reproduction
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article groups the medico-legal facts tested by the "Legal regulations for procedures of special nature" MCQs of the bank. It sets out that in Egypt organ transplantation is permitted only from a living related donor (the spouse included), not from cadavers, the brain-dead, or unrelated friends. It covers the assisted-reproduction rules examined here: IVF must use gametes from the married couple only (no donor gamete, no surrogate); homologous artificial insemination uses the husband's own semen (donor semen being heterologous); traditional (classic) surrogacy uses the surrogate's own ovum so she is genetically related to the child, whereas gestational surrogacy has her carry the commissioning couple's embryo with no genetic link. It also records the regulatory requirements tested: at least two years of psychiatric and hormonal treatment before gender correction, and retention of each assisted-reproduction case record for at least ten years.
+## sections
+### Definition
+Procedures of a special nature — organ transplantation, assisted reproduction, and gender correction — are governed by specific legal and ethical rules that restrict who may donate, whose gametes may be used, and what prerequisites and records are required.
+### Mechanism
+The common thread is keeping donation and reproduction consensual, altruistic, and within defined relationships: transplantation is confined to living related donors to prevent trafficking; assisted reproduction keeps gametes within the marriage to preserve lineage; gender correction requires a documented treatment period to confirm the decision; and centres retain records so lineage and consent can be verified later.
+### Key determinants
+Discriminators tested here: the only permitted transplant source is a living related donor/spouse (not cadaver/brain-dead/friend); IVF requires the couple's own sperm and ovum (not a donor gamete or surrogate); homologous insemination uses the husband's semen (donor = heterologous); traditional surrogacy = surrogate's own ovum with a genetic link, gestational surrogacy = another couple's embryo with no genetic link; gender correction needs at least two years of prior psychiatric and hormonal treatment; and assisted-reproduction centres keep case records for at least ten years.
+### Clinical significance
+Correctly applying these rules protects patients and children, preserves lineage, and keeps the physician within the law: using only permitted donors and the couple's own gametes, honouring the treatment-period prerequisite, and maintaining the required records are each conditions of lawful practice in this domain.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (a cadaver or brain-dead donor treated as permitted, a donor gamete allowed in IVF, homologous insemination described as donor-derived, or the two surrogacy types swapped).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## subtopic
+Legal regulations for procedures of special nature
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-5D9292524C283A
+CON-MUL-D702417F6F36FB
+CON-MUL-F0EAC914F4F4AF
+CON-MUL-F081E584CA0A8D
+CON-MUL-7D07B50B360B45
+CON-MUL-D86255B51D80C5
+CON-MUL-F524B9CE1E3B50
+## related_articles
+ART-MPE-327-MALPRACTICE
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the transplantation, assisted-reproduction, artificial-insemination, surrogacy and gender-correction legal-regulation concepts on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Professional conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
+## reading_time
+5

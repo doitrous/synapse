@@ -5015,3 +5015,781 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
 resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-5D9292524C283A
+## label
+In Egypt, organ transplantation is permitted only from a living related donor, including the spouse
+## canonical_key
+transplantation.egypt.allowed-from-living-spouse-or-relative
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Egyptian organ-transplantation law confines donation to a living donor who is related to the recipient; the spouse is accepted within that relationship. Donation is not taken from cadavers, from the brain-dead, or from unrelated friends, so that donation stays altruistic and consensual and organ trafficking is prevented.
+## explicit_objective
+State that organ transplantation in Egypt is permitted only from a living related donor, the spouse included.
+## pitfalls
+Cadavers, the brain-dead individual, and a consenting unrelated friend are NOT accepted sources in this framework; only a living related donor (spouse) is.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Organ transplantation
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard Egyptian medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D702417F6F36FB
+## label
+In traditional (classic) surrogacy the surrogate provides her own ovum and is genetically related to the child
+## canonical_key
+surrogacy.traditional.surrogate-donates-own-ovum
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In traditional (classic) surrogacy the surrogate mother's own ovum is fertilised, usually by insemination, so she donates the egg that forms the embryo and is genetically related to the resulting child. This is what distinguishes it from gestational surrogacy, where she carries an embryo formed from other people's gametes.
+## explicit_objective
+Define traditional (classic) surrogacy as the surrogate providing her own ovum, giving her a genetic link to the child.
+## pitfalls
+Do not confuse with gestational surrogacy: 'no genetic link' and 'carries another couple's embryo' describe the gestational surrogate, not the traditional one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Surrogacy
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-D86255B51D80C5
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard reproductive-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F0EAC914F4F4AF
+## label
+Gender correction requires at least two years of prior psychiatric and hormonal treatment
+## canonical_key
+gendercorrection.egypt.minimum-two-years-psychiatric-hormonal-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Before a gender-correction procedure may be carried out, a mandatory minimum of two years of psychiatric and hormonal treatment must be completed. The waiting period confirms the diagnosis, documents that non-surgical management was tried, and ensures the decision is stable and considered.
+## explicit_objective
+State that gender correction requires at least two years of prior psychiatric and hormonal treatment.
+## pitfalls
+The stipulated minimum is two years, not four, six, or eight; longer intervals are distractors.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Gender correction
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard Egyptian medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F081E584CA0A8D
+## label
+Homologous artificial insemination uses the husband's own semen, not a donor's
+## canonical_key
+insemination.homologous.from-husband-not-donor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Homologous artificial insemination delivers the husband's own semen artificially, so the gametes stay within the marriage; it is used when natural intercourse or conception is impossible (male impotence, female vaginismus) and is a legal, ethically accepted procedure. Insemination obtained from a donor is heterologous, not homologous.
+## explicit_objective
+Recognise that homologous artificial insemination uses the husband's semen, distinguishing it from heterologous (donor) insemination.
+## pitfalls
+'Obtained from a donor' describes heterologous insemination and is the false statement about homologous insemination; the other listed features (male impotence, legal procedure, vaginismus) are all true of it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Artificial insemination
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-7D07B50B360B45
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard reproductive-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7D07B50B360B45
+## label
+IVF must use gametes from the married couple only, without donor gametes or a surrogate
+## canonical_key
+ivf.egypt.gametes-from-married-couple-only
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The governing rule for in vitro fertilisation is that both the sperm and the ovum must come from the married couple themselves, with no third-party donor gamete and no surrogate carrying the pregnancy. Keeping the gametes within the marriage preserves lineage and is the ethical and legal condition for assisted reproduction.
+## explicit_objective
+Apply the rule that IVF must use gametes from the married couple only, without donor gametes or surrogacy.
+## pitfalls
+A donor ovum, a donor sperm, or an accepted surrogate each violate the rule; the correct condition is sperm and ovum from the couple themselves.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+In vitro fertilization
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard reproductive-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D86255B51D80C5
+## label
+In gestational surrogacy the surrogate carries the commissioning couple's embryo and has no genetic link to the child
+## canonical_key
+surrogacy.gestational.carries-other-couples-embryo-no-genetic-link
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In gestational surrogacy the surrogate mother carries an embryo formed entirely from the commissioning couple's own gametes, contributing only her uterus, so she has no genetic link to the baby and is not its intended legal mother. This contrasts with traditional surrogacy, where her own ovum is used.
+## explicit_objective
+Define gestational surrogacy as carrying an embryo from the commissioning couple, with no genetic link to the child.
+## pitfalls
+Donating her own ovum, being inseminated, or being the legal mother describe traditional surrogacy or are false; the gestational surrogate only carries another couple's embryo.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Surrogacy
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-D702417F6F36FB
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard reproductive-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F524B9CE1E3B50
+## label
+Assisted-reproduction centres must retain each case record for at least ten years
+## canonical_key
+assistedreproduction.egypt.centers-keep-records-ten-years
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Centres that perform assisted reproductive procedures must keep a detailed record of each case for at least ten years. The long retention period safeguards lineage documentation, allows later verification of the gametes used, and supports any subsequent medico-legal review.
+## explicit_objective
+State that assisted-reproduction centres must retain each case record for at least ten years.
+## pitfalls
+The minimum retention is ten years; four, six, and eight years are distractors that fall short.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Assisted reproduction regulation
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Legal regulations for procedures of special nature
+## article_ids
+ART-MPE-327-SPECIAL-PROCEDURES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard Egyptian medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
