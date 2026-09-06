@@ -975,3 +975,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-11
+## title
+Sodium fluorescein used in diagnosis of
+## question
+Sodium fluorescein is a water-soluble dye used in diagnosis of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Diabetic retinopathy.
+## explanation_a
+Correct. Intravenous sodium fluorescein is used for fundus angiography to diagnose diabetic retinopathy.
+## answer_b
+Retinopathy of prematurity.
+## explanation_b
+Incorrect. Retinopathy of prematurity is screened by indirect ophthalmoscopy, not routine dye.
+## answer_c
+Leukocoria.
+## explanation_c
+Incorrect. Leukocoria is assessed by examination and imaging, not fluorescein.
+## answer_d
+Cataract.
+## explanation_d
+Incorrect. Cataract is diagnosed clinically, not with fluorescein.
+## topic
+Ophthalmology
+## subtopic
+Diagnostic dyes
+## main_concept
+CON-MUL-9A193726909335
+## concept_ids
+CON-MUL-9A193726909335
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise diabetic retinopathy (angiography) as a use of sodium fluorescein.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-12
+## title
+Uses of fluorescein — EXCEPT
+## question
+Fluorescein is used for diagnosis of all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Staining spots of denuded epithelium.
+## explanation_a
+Incorrect (a genuine use). Fluorescein stains denuded epithelium.
+## answer_b
+Clinical evaluation of lacrimal drainage system.
+## explanation_b
+Incorrect (a genuine use). Fluorescein evaluates lacrimal drainage.
+## answer_c
+Diagnosis of ptosis.
+## explanation_c
+Correct. Ptosis is diagnosed by lid measurements, not fluorescein; it is the exception.
+## answer_d
+Measurement of intraocular pressure.
+## explanation_d
+Incorrect (a genuine use). Fluorescein is used to measure intraocular pressure.
+## topic
+Ophthalmology
+## subtopic
+Diagnostic dyes
+## main_concept
+CON-MUL-9F7814A0FE281C
+## concept_ids
+CON-MUL-9F7814A0FE281C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude diagnosis of ptosis from the uses of fluorescein.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-13
+## title
+Uses of topical anaesthetics — EXCEPT
+## question
+Topical anaesthetics are used for all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Removal of superficial corneal foreign body.
+## explanation_a
+Incorrect (a genuine use). Anaesthetic drops allow foreign-body removal.
+## answer_b
+Indentation tonometry.
+## explanation_b
+Incorrect (a genuine use). Indentation tonometry needs surface anaesthesia.
+## answer_c
+Testing corneal sensitivity.
+## explanation_c
+Correct. Anaesthetics abolish corneal sensation, so they cannot be used to test it; it is the exception.
+## answer_d
+Performing gonioscopy.
+## explanation_d
+Incorrect (a genuine use). Gonioscopy is performed under topical anaesthesia.
+## topic
+Ophthalmology
+## subtopic
+Topical anaesthetics
+## main_concept
+CON-MUL-EA156549F02221
+## concept_ids
+CON-MUL-EA156549F02221
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude testing of corneal sensitivity from the uses of topical anaesthetics.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-14
+## title
+Use of topical anaesthetics
+## question
+Topical anaesthetics are used in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Measurement of intraocular pressure.
+## explanation_a
+Correct. Topical anaesthetics permit applanation measurement of intraocular pressure.
+## answer_b
+Treatment of photophthalmia.
+## explanation_b
+Incorrect. Anaesthetics are not used to treat photophthalmia.
+## answer_c
+Treatment of corneal ulcerations.
+## explanation_c
+Incorrect. They delay corneal healing and must not treat ulcers.
+## answer_d
+To relieve the pain in case of iridocyclitis.
+## explanation_d
+Incorrect. They must never be dispensed to relieve pain.
+## topic
+Ophthalmology
+## subtopic
+Topical anaesthetics
+## main_concept
+CON-MUL-EA156549F02221
+## concept_ids
+CON-MUL-EA156549F02221
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify measurement of intraocular pressure as a use of topical anaesthetics.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-15
+## title
+Mydriatic drugs — EXCEPT
+## question
+Mydriatics include the following drugs EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Atropine sulphate.
+## explanation_a
+Incorrect (a genuine mydriatic). Atropine dilates the pupil.
+## answer_b
+Phenylephrine chloride.
+## explanation_b
+Incorrect (a genuine mydriatic). Phenylephrine is a sympathomimetic mydriatic.
+## answer_c
+Tropicamide.
+## explanation_c
+Incorrect (a genuine mydriatic). Tropicamide is a short-acting mydriatic.
+## answer_d
+Pilocarpine.
+## explanation_d
+Correct. Pilocarpine is a miotic that constricts the pupil; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-CF4FB6F8D1AD41
+## concept_ids
+CON-MUL-CF4FB6F8D1AD41
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude pilocarpine (a miotic) from the mydriatics.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
