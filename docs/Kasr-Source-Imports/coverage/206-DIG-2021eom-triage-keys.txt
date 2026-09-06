@@ -1,0 +1,139 @@
+# 206 DIG — triage keys for EOM - DIG-206 EOM (solved).pdf
+# sourceId src_d6c329d7d41d74b4662f  sha256 d6c329d7d41d74b4662f456db973ad777417b9c044463933fec1d076cc75fa36
+# Kasr Al Ainy 206 DIG End-of-Module, 120 MCQs (Anatomy Q1-42, Physiology Q43-84,
+#   Histology Q85-114, Biochemistry Q115-120). CamScanner scan, no native text layer;
+#   OCR via pagetext.mjs. Correct answer = solid red/orange circle over the option letter
+#   (OCR transcribes it as "@" or a garbled glyph).
+# Sitting year: 2021 — printed calendar label "2021/02/17" on p.13 footer (calendar label
+#   wins for any exam type, README-y2). Batch number not printed on the file.
+# Verification: Q1-30 (pp.1-3) RENDER-VERIFIED at 160 dpi against the red circle — every
+#   key below for Q1-30 read directly off the circled option. Q31-120 are OCR-only ("@"
+#   marker); render-verify each per authoring slice. Ambiguous OCR (double "@"/garbled)
+#   flagged inline as (OCR? verify) — do not author until rendered.
+#
+# key = question number . circled option
+# --- Anatomy (render-verified Q1-30) ---
+q01=a   # large intestine: appendicitis pain referred to umbilicus
+q02=d   # ureter crosses bifurcation of common iliac artery
+q03=d   # IMA supplies left 1/3 of transverse colon
+q04=c   # spleen supplied by celiac trunk            [DUP of authored spleen.bloodsupply.coeliac-trunk]
+q05=b   # SMV/SM vessels anterior to uncinate process of pancreas head
+q06=b   # 2nd part duodenum related to anterior surface of right kidney
+q07=c   # ilioinguinal nerve passes through superficial inguinal ring
+q08=d   # posterior boundary of epiploic foramen = IVC   [DUP of authored epiploic-foramen concept]
+q09=d   # CBD + main pancreatic duct join to form ampulla of Vater
+q10=a   # lesser omentum connects liver and stomach
+q11=c   # nerve on anterior surface of psoas = genitofemoral  [DUP of authored genitofemoral concept]
+q12=b   # jejunum/ileum blood supply = superior mesenteric artery
+q13=d   # duodenum supplied by both coeliac trunk and SMA
+q14=a   # inferior epigastric artery ascends medial to deep inguinal ring
+q15=a   # inguinal ligament attached laterally to ASIS
+q16=c   # not a content of spermatic cord = iliohypogastric nerve  [DUP of authored spermatic-cord concept]
+q17=c   # short gastric arteries are branches from splenic artery
+q18=d   # caecum lies above lateral 1/2 of inguinal ligament   [caecum topic overlaps authored; deferred]
+q19=c   # sigmoid colon terminates at S3
+q20=a   # conjoint tendon in medial half of posterior wall of inguinal canal
+q21=b   # gall bladder referred pain = right shoulder region  [DUP of authored gallbladder.referredpain]
+q22=a   # abdominal aorta NOT correct = "three pairs of lumbar arteries"
+q23=c   # vein NOT in portal system = left suprarenal vein
+q24=b   # liver NOT correct = "hepatic artery supplies 70% of blood"
+q25=a   # testis receives arterial supply from abdominal aorta
+q26=a   # rectus sheath above costal margin = external oblique aponeurosis  [DUP of authored rectus-sheath]
+q27=c   # duodenum begins at L1, ends at L2
+q28=c   # IMA supplies transverse/descending/sigmoid colon and rectum
+q29=b   # transversalis fascia -> deep inguinal ring  [DUP of authored deep-inguinal-ring concept]
+q30=b   # quadratus lumborum laterally flexes the trunk  [DUP of authored quadratus-lumborum concept]
+# --- Anatomy Q31-42 (OCR-only, verify before authoring) ---
+q31=c   # common hepatic artery gives right gastric + gastroduodenal
+q32=d   # opening between greater and lesser sacs = epiploic foramen  [DUP topic of q08]
+q33=b   # root of mesentery anterior to 3rd part of duodenum
+q34=a   # gangrene of appendix = occlusion of appendicular a. (ileocolic branch)
+q35=a   # right suprarenal gland is triangular/pyramidal in shape
+q36=d   # original posterior border of stomach becomes greater curvature
+q37=?   # midgut derivative — OCR garbled options, RENDER before authoring
+q38=b   # Meckel's diverticulum from vitelline (omphalomesenteric) duct
+q39=d   # main pancreatic duct = distal dorsal duct + whole ventral duct
+q40=a   # ureteric bud gives major calyces
+q41=c   # mesonephric (Wolffian) duct in male -> seminal vesicle
+q42=c   # hindgut gives sigmoid colon
+# --- Physiology (OCR-only, verify before authoring) ---
+q43=c   # slow waves caused by smooth muscle + interstitial cells of Cajal
+q44=d   # gastrin secretion decreased by excess HCl (low antral pH)
+q45=b   # removal of duodenum increases gastric emptying  (OCR double-mark, verify)
+q46=a   # CCK all correct except "inhibits motility of small intestine and colon"
+q47=d   # not produced by GIT hormone = increased salivary secretion
+q48=c   # saliva has highest relative conc vs plasma = potassium ions
+q49=c   # saliva bicarbonate higher than plasma
+q50=b   # NOT contributing to HCl secretion = basolateral H/Na pump
+q51=a   # acetylcholine increases gastric acid secretion
+q52=c   # NSAID does not help peptic ulcer healing
+q53=b   # pancreatic juice released by secretin, high bicarbonate
+q54=d   # pancreas correct except "secretes 150-250 ml/day" (true ~1500 ml)
+q55=d   # acute pancreatitis: all of the above correct
+q56=b   # gallbladder bile: sodium concentration decreased
+q57=b   # gallbladder contraction by CCK & vagal stimulation
+q58=c   # peristalsis relaxation ahead of bolus = nitric oxide
+q59=d   # MMC prevents bacterial overgrowth in small intestine
+q60=a   # swallowing except: centre is NOT in cervical cord (it is medullary)
+q61=b   # LES tone increased by increased gastric acidity
+q62=c   # incorrect gastric-emptying inhibitor = alkalinity of duodenal content
+q63=c   # vomiting: pyloric sphincter does NOT relax (it contracts)
+q64=d   # respiratory quotient: all of the above correct
+q65=b   # food intake: neuropeptide Y is an appetite stimulant
+q66=d   # satiety centre stimulated by GLP-1 + insulin
+q67=c   # sweat secretion starts at ambient temp 32-34C
+q68=b   # fever: hypothalamic thermostat reset at higher point
+q69=d   # JGA autoregulates renal blood flow and GFR
+q70=b   # macula densa releases adenosine to constrict afferent arteriole
+q71=d   # albuminuria when filtration barrier loses negative charge
+q72=c   # GFR increases with high protein diet  (OCR double-mark, verify)
+q73=a   # filtration fraction = GFR / renal plasma flow
+q74=c   # GFR except: increased afferent tone increases GFR (false)
+q75=c   # Na reabsorbed at basolateral surface by Na-K pump
+q76=d   # ANP facilitates NaCl excretion
+q77=b   # K excretion decreases in acidosis
+q78=b   # renal glucose transport linked to sodium transport
+q79=d   # no water permeability = thick ascending limb of Henle
+q80=d   # ADH acts on collecting-duct principal cells to raise water permeability
+q81=c   # PCT H+ secretion = secondary active counter-transport with Na
+q82=b   # urinary acidification: H+ buffered by ammonia in distal tubule/CD
+q83=c   # respiratory system controls pH by adjusting PCO2
+q84=d   # metabolic alkalosis from hyperaldosteronism (Conn)
+# --- Histology (OCR-only, verify before authoring) ---
+q85=c   # taste buds have basal stem cells for renewal
+q86=b   # NOT keratinized = oropharynx
+q87=b   # vermilion of lip: epidermis transparent
+q88=b   # plicae circulares are mucosal folds with submucosal cores
+q89=d   # anal canal: muscularis mucosa breaks at pectinate line
+q90=b   # absorptive cells do terminal digestion of CHO and proteins
+q91=d   # upper 1/3 esophagus muscularis mucosa: inner circular + outer longitudinal smooth
+q92=d   # appendix: extensive lymphoid nodules in submucosa
+q93=b   # pyloric glands lined by surface mucus-secreting cells
+q94=c   # crypts of Lieberkuhn between bases of intestinal villi
+q95=a   # tenia coli = interrupted outer longitudinal muscle layer
+q96=d   # oxyntic (parietal) cells contain intracellular canaliculi
+q97=c   # centroacinar cells telescoped inside pancreatic acini
+q98=c   # parotid serous acini cytoplasm shows zymogen granules
+q99=d   # submandibular main duct = Wharton's duct
+q100=b  # parotid duct with basal elongated mitochondria = striated (intralobular) duct
+q101=c  # Kupffer cell cytoplasm rich in lysosomes and phagocytosed particles
+q102=c  # space of Disse contains Ito cells (lipocytes)
+q103=d  # gall bladder histology: highly folded mucosa
+q104=a  # beta cells at centre of islets of Langerhans
+q105=c  # classic hepatic lobule: hepatic plates separated by sinusoids
+q106=?  # exocrine pancreas — OCR garbled markers, RENDER before authoring
+q107=c  # JGA cells contain renin secretory granules
+q108=a  # filtration slit diaphragm covers gaps between minor podocyte processes
+q109=b  # mesangial cells have a contractile function
+q110=a  # prostatic urethra lined by transitional epithelium
+q111=d  # podocytes rich in rER, actin filaments and mitochondria
+q112=c  # intercalated cells have alpha and beta types
+q113=c  # urinary bladder musculosa arranged in 3 layers
+q114=d  # DCT: extensive interdigitations with indistinct cell boundaries
+# --- Biochemistry (OCR-only, verify before authoring) ---
+q115=c  # lactose intolerance = lactase deficiency
+q116=a  # chylomicrons composed mainly of TAG
+q117=a  # undigested fats in stool = disturbed pancreatic lipase
+q118=d  # end product of protein digestion = amino acid
+q119=c  # pancreatic juice contains all except cholecystokinin
+q120=a  # acute pancreatitis protein-digestion disorder = hyposecretion of trypsin
