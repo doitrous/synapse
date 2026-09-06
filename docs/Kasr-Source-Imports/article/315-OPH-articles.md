@@ -1390,3 +1390,125 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 11 (The eye in systemic diseases) and groups its systemic-ophthalmology concepts. DIS-OPH has no dedicated systemic-disease node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) while each concept carries its own most-specific node: the neuromuscular/demyelinating and VKH-CNS concepts on DIS-OPH-T05 (Neuro-ophthalmology), and the retinal/vaso-occlusive/metastatic concepts on DIS-OPH-T04 (Retina). Chapter 11 has 40 keyed MCQs (answer key p.8; the printed key omits rows Q5/Q39/Q42, and the bank's Q44 has no key row - held, never guess). This tranche authored 24 clean single-best MCQs (Q1-4, Q6, Q22-36, Q38, Q40, Q41, Q43) and held the patient-scenario statement-set vignettes Q7-21 and Q37 (four independent true/false statements with more than one defensibly true option, held for multi-true adjudication), the unkeyed Q39/Q42/Q44, and the post-Q44 True/False (2 cases) section which is out of scope. The Marfan concept is reused from Chapter 8; 22 new concepts minted.
 ## reading_time
 5
+# Item
+## id
+ART-OPH-315-MEDICATIONS
+## title
+Ophthalmology: medications and the eye (antivirals, antibiotics, corticosteroids, anti-glaucoma classes, cycloplegics/mydriatics, diagnostic dyes and drug-induced toxicity)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 13 of the question bank (Medications and the eye) and groups the ocular-pharmacology facts tested by its MCQs. It covers the antiviral drugs (acyclovir for dendritic ulcer), topical antibiotics and their misuse, corticosteroids and their side effects (raised intraocular pressure, cataract, activation of viral and fungal infection) and indications (scleritis), NSAIDs, the anti-glaucoma classes (beta-blockers, prostaglandin analogues, carbonic anhydrase inhibitors, alpha-2 agonists, cholinergic agonists) with their contraindications, the cycloplegics and mydriatics (atropine and its duration, contraindication and side effects; pilocarpine as a miotic), decongestants and lubricants, the diagnostic dyes (topical fluorescein for surface defects versus fundus fluorescein angiography) and topical anaesthetics, and the systemic drugs that are toxic to the retina and optic nerve (chloroquine, amiodarone, ethambutol, interferon).
+## sections
+### Definition
+Ocular medications are the topical and systemic drugs used to diagnose and treat eye disease, together with the systemic drugs whose toxicity reaches the eye. Chapter 13 tests their indications, contraindications and adverse effects; this article gathers the chapter concepts, each stating one atomic pharmacology fact.
+### Mechanism
+Each class acts on a defined target: beta-blockers, carbonic anhydrase inhibitors and alpha-2 agonists reduce aqueous formation while prostaglandin analogues and cholinergic agonists increase outflow; corticosteroids suppress inflammation but raise intraocular pressure, opacify the lens and unmask viral and fungal infection; mydriatics (atropine, phenylephrine, tropicamide) dilate the pupil and cycloplegics paralyse accommodation, whereas pilocarpine is a miotic; and systemic toxins such as chloroquine, amiodarone, ethambutol and interferon injure the retina or optic nerve on chronic exposure.
+### Key determinants
+Discriminators tested here: beta-blockers are avoided in asthma, bradycardia and heart failure; acetazolamide is avoided in sulfa allergy; prostaglandin analogues are avoided after cataract surgery; atropine is contraindicated in primary angle-closure glaucoma and its cycloplegia lasts up to two weeks; corticosteroids raise pressure and are contraindicated in herpetic and fungal keratitis but indicated in scleritis; topical fluorescein diagnoses surface defects and applanation pressure but fundus angiography needs intravenous sodium fluorescein; and chloroquine causes bull's-eye maculopathy while amiodarone and ethambutol cause optic neuropathy.
+### Clinical significance
+These facts underpin safe prescribing: choosing the right anti-glaucoma agent for a patient's comorbidity, avoiding steroid-induced pressure rise and infection, never dispensing topical anaesthetics for home use, and recognising and monitoring the systemic drugs that threaten the retina and optic nerve.
+### Common misconceptions
+See each concept pitfalls field for the exact reversal each distractor exploits (giving beta-blockers to an asthmatic, using topical fluorescein drops to diagnose diabetic retinopathy, dispensing anaesthetic drops for pain relief at home, or attributing a steroid's pressure rise to angle closure).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## subtopic
+Medications and the eye
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+DIS-OPH-T03
+DIS-OPH-T04
+DIS-OPH-T05
+## related_concepts
+CON-MUL-19A101E7C874B3
+CON-MUL-64C52C6BF75034
+CON-MUL-ABFA4137BF930C
+CON-MUL-9F7814A0FE281C
+CON-MUL-EBA6CBB2880D20
+CON-MUL-ADABACA39BCBB2
+CON-MUL-80FBC54356B5FC
+CON-MUL-8C898B7DA6A2AB
+CON-MUL-9A193726909335
+CON-MUL-EA156549F02221
+CON-MUL-CF4FB6F8D1AD41
+CON-MUL-8A2BBC9E60B676
+CON-MUL-679CD592D17D72
+CON-MUL-DF892FD8B39962
+CON-MUL-4601701E1F9DE8
+CON-MUL-FB2910D0AF1592
+CON-MUL-152B9742D1209A
+CON-MUL-572417044270E4
+CON-MUL-4FDFDC644EA43A
+CON-MUL-BC0CE9D4942294
+CON-MUL-5DE13F6D10AAB9
+CON-MUL-158566FF7BBA90
+CON-MUL-018D422C219AB8
+CON-MUL-A92DC6B631C5AA
+CON-MUL-B9AA73C8D3FAE9
+CON-MUL-38AAB839EEF1CC
+CON-MUL-442777A2986152
+CON-MUL-42067DB58F6BB7
+CON-MUL-A7518605CBD0DD
+CON-MUL-10688925A38082
+CON-MUL-E95F76D9A398C0
+CON-MUL-07E05C77AA55C2
+CON-MUL-6760CA65570825
+CON-MUL-FA78BE33CCFCF6
+CON-MUL-3744AE9A61B4D5
+## related_articles
+ART-OPH-315-GLAUCOMA
+ART-OPH-315-RED-EYE
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 13 (Medications and the eye) and groups its ocular-pharmacology concepts. DIS-OPH has no dedicated pharmacology node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter facts are anterior-segment drugs (antivirals, antibiotics, steroids, cycloplegics, dyes) - while each concept carries its own most-specific node: the anti-glaucoma classes on DIS-OPH-T03 (Glaucoma), the retinal-toxicity drugs on DIS-OPH-T04 (Retina), and the optic-neuropathy drugs on DIS-OPH-T05 (Neuro-ophthalmology). Chapter 13 has 43 keyed MCQs (answer key p.9; all rows present). This tranche authored 42 clean single-best MCQs (Q1-41, Q43) and held Q42 (drug-induced optic neuropathy EXCEPT: the key marks Sildenafil, but Sildenafil is classically linked to NAION and topiramate causes angle-closure not optic neuropathy - two defensible exceptions, not single-best as keyed). 34 new concepts minted plus the atropine-contraindicated-in-angle-closure concept reused from Chapter 12.
+## reading_time
+5
+
+---

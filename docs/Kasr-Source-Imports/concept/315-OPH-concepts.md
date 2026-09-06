@@ -42426,3 +42426,3777 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+# Item
+## id
+CON-MUL-19A101E7C874B3
+## label
+Acyclovir is the most potent of the antiviral drugs used in ophthalmology
+## canonical_key
+ophthalmology.pharmacology.antiviral-acyclovir-most-potent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the ocular antiviral drugs, acyclovir is the most potent agent; the older antivirals are not all night-time ointments, do not inhibit RNA replication, and are not limited to two weeks of use.
+## explicit_objective
+State that acyclovir is the most potent ophthalmic antiviral drug.
+## pitfalls
+Assuming all antivirals are night ointments, that they inhibit RNA replication, or that they may be used for only two weeks.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Antiviral drugs
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Antiviral drugs
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-64C52C6BF75034
+## label
+Topical beta-blockers are avoided in a patient with bronchial asthma
+## canonical_key
+ophthalmology.pharmacology.beta-blocker-avoided-bronchial-asthma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical beta-blockers (e.g. timolol) are systemically absorbed and can precipitate bronchospasm, so they are avoided in patients with bronchial asthma; bladder or renal problems and apraclonidine allergy are not the relevant contraindication.
+## explicit_objective
+Identify bronchial asthma as the contraindication to topical beta-blockers.
+## pitfalls
+Choosing bladder trouble, renal stones or apraclonidine allergy instead of bronchial asthma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Beta-blockers
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-ABFA4137BF930C
+## label
+Chloroquine causes a chronic retinal toxicity (bull's-eye maculopathy)
+## canonical_key
+ophthalmology.pharmacology.chloroquine-retinopathy-bulls-eye-maculopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic chloroquine (and hydroxychloroquine) therapy is toxic to the retina and classically produces a bull's-eye maculopathy; corticosteroids, tetracyclines and acetazolamide do not cause this retinopathy.
+## explicit_objective
+Recognise chloroquine as a cause of chronic retinal toxicity and bull's-eye maculopathy.
+## pitfalls
+Attributing bull's-eye maculopathy to steroids, amiodarone, interferon or acetazolamide.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Drug-induced retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Drug-induced retinopathy
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9F7814A0FE281C
+## label
+Topical fluorescein diagnoses ocular-surface defects and applanation pressure, not fundus disease
+## canonical_key
+ophthalmology.pharmacology.topical-fluorescein-diagnostic-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical sodium-fluorescein drops stain epithelial defects and abrasions, allow applanation tonometry, assess the dry-eye tear film and evaluate lacrimal drainage; they do not diagnose fundus disease such as diabetic retinopathy (which needs intravenous fluorescein angiography), ptosis or leukocoria, and are not a way to remove a foreign body.
+## explicit_objective
+List the diagnostic uses of topical fluorescein and exclude fundus/angiographic and non-diagnostic uses.
+## pitfalls
+Thinking topical fluorescein drops diagnose diabetic retinopathy or ptosis, or that fluorescein removes a corneal foreign body.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diagnostic dyes
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Diagnostic dyes
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EBA6CBB2880D20
+## label
+Topiramate can cause acute bilateral angle-closure glaucoma
+## canonical_key
+ophthalmology.pharmacology.topiramate-acute-angle-closure-glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topiramate (Topamax) can precipitate acute bilateral angle-closure glaucoma through a ciliary-body effusion that rotates the lens-iris diaphragm forward; sildenafil, ethambutol and plaquenil do not cause this.
+## explicit_objective
+Identify topiramate as a drug cause of acute bilateral angle-closure glaucoma.
+## pitfalls
+Choosing sildenafil, ethambutol or plaquenil as the cause of acute bilateral angle closure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Drug-induced angle-closure
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Drug-induced angle-closure
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-ADABACA39BCBB2
+## label
+Long-term topical corticosteroids (e.g. for spring catarrh) cause a complicated cataract
+## canonical_key
+ophthalmology.pharmacology.long-term-topical-steroid-complicated-cataract
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A child on long-term topical corticosteroids for vernal keratoconjunctivitis (spring catarrh) most likely loses vision from a steroid-induced complicated (posterior subcapsular) cataract; retinopathy of prematurity, optic neuritis and central retinal vein occlusion do not fit this picture.
+## explicit_objective
+Attribute bilateral visual loss in a child on long-term topical steroids to a complicated cataract.
+## pitfalls
+Choosing retinopathy of prematurity, optic neuritis or vein occlusion instead of a steroid-induced cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical corticosteroids
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-80FBC54356B5FC
+## label
+Acyclovir is the drug of choice for a dendritic (herpes simplex) corneal ulcer
+## canonical_key
+ophthalmology.pharmacology.dendritic-corneal-ulcer-drug-of-choice-acyclovir
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The drug of choice for a dendritic herpes-simplex corneal ulcer is acyclovir; the older agents vidarabine, IDU and trifluorothymidine are more toxic and less preferred.
+## explicit_objective
+Select acyclovir as the drug of choice for a dendritic corneal ulcer.
+## pitfalls
+Choosing vidarabine, IDU or trifluorothymidine over acyclovir.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Antiviral drugs
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Antiviral drugs
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8C898B7DA6A2AB
+## label
+The cycloplegic effect of atropine eye drops lasts up to two weeks, so it is not used for routine fundus dilation
+## canonical_key
+ophthalmology.pharmacology.atropine-cycloplegia-duration-two-weeks
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atropine has a prolonged action: its cycloplegic (and mydriatic) effect can last up to 14 days, which is why short-acting agents (tropicamide) are used for routine fundus examination rather than atropine.
+## explicit_objective
+State that atropine's cycloplegia lasts up to two weeks and is therefore unsuitable for routine fundus dilation.
+## pitfalls
+Thinking atropine's effect lasts only 48 hours or 7 days, or using atropine for routine fundus dilation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Cycloplegics and mydriatics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9A193726909335
+## label
+Intravenous sodium fluorescein is used for fundus fluorescein angiography (e.g. diabetic retinopathy)
+## canonical_key
+ophthalmology.pharmacology.sodium-fluorescein-angiography-diabetic-retinopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sodium fluorescein is a water-soluble dye that, given intravenously, is used for fundus fluorescein angiography to diagnose retinal vascular disease such as diabetic retinopathy; it is not used to diagnose leukocoria or cataract.
+## explicit_objective
+Recognise intravenous sodium fluorescein angiography as a diagnostic tool for retinal vascular disease.
+## pitfalls
+Confusing fundus angiography with leukocoria or cataract diagnosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diagnostic dyes
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Diagnostic dyes
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EA156549F02221
+## label
+Topical anaesthetics are used for procedures (tonometry, foreign-body removal, gonioscopy), never dispensed for pain relief
+## canonical_key
+ophthalmology.pharmacology.topical-anaesthetic-diagnostic-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical anaesthetics are used to allow procedures such as applanation/indentation tonometry, superficial foreign-body removal and gonioscopy; they must never be used to test corneal sensitivity (which they abolish) nor dispensed to treat pain, corneal ulcers or iridocyclitis because they delay healing.
+## explicit_objective
+List the procedural uses of topical anaesthetics and exclude corneal-sensitivity testing and therapeutic/home use.
+## pitfalls
+Using an anaesthetic to test corneal sensation, or prescribing it to relieve the pain of a corneal ulcer or iridocyclitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical anaesthetics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical anaesthetics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-CF4FB6F8D1AD41
+## label
+Mydriatic drugs include atropine, phenylephrine and tropicamide but not pilocarpine
+## canonical_key
+ophthalmology.pharmacology.mydriatic-drugs-exclude-pilocarpine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mydriatics that dilate the pupil include atropine sulphate, phenylephrine and tropicamide; pilocarpine is a cholinergic miotic that constricts the pupil and is not a mydriatic.
+## explicit_objective
+Distinguish the mydriatics from pilocarpine, which is a miotic.
+## pitfalls
+Listing pilocarpine as a mydriatic when it is a miotic.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Cycloplegics and mydriatics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8A2BBC9E60B676
+## label
+Atropine sulphate is a cycloplegic drug
+## canonical_key
+ophthalmology.pharmacology.cycloplegic-drugs-atropine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cycloplegic drugs that paralyse accommodation include atropine sulphate; phenylephrine is a pure mydriatic, pilocarpine is a miotic and timolol is a beta-blocker with no cycloplegic action.
+## explicit_objective
+Identify atropine sulphate as a cycloplegic agent.
+## pitfalls
+Choosing phenylephrine, pilocarpine or timolol as the cycloplegic.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Cycloplegics and mydriatics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-679CD592D17D72
+## label
+A side effect of atropine eye drops is defective near vision (cycloplegia)
+## canonical_key
+ophthalmology.pharmacology.atropine-side-effect-defective-near-vision
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+By paralysing accommodation, atropine eye drops cause defective near vision; they do not cause acute hypertension, defective far vision or loss of corneal sensation.
+## explicit_objective
+Recognise defective near vision as a side effect of atropine.
+## pitfalls
+Choosing acute hypertension, defective far vision or loss of corneal sensation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Cycloplegics and mydriatics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DF892FD8B39962
+## label
+Topical decongestants are used for minor irritation from dust or smoke
+## canonical_key
+ophthalmology.pharmacology.topical-decongestants-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical decongestants (vasoconstrictors) relieve the redness of minor irritation from dust or smoke; they are not treatment for dry eye, viral conjunctivitis or phlyctenular keratoconjunctivitis.
+## explicit_objective
+Identify minor environmental irritation as the indication for topical decongestants.
+## pitfalls
+Using decongestants for dry eye, viral conjunctivitis or phlyctenular disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical decongestants
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical decongestants
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4601701E1F9DE8
+## label
+Lubricating eye drops treat dry eye, chemical burns and thyroid eye disease, not subconjunctival haemorrhage
+## canonical_key
+ophthalmology.pharmacology.lubricant-eye-drops-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lubricant (artificial-tear) drops are used for dry eye, ocular-surface protection after chemical burns and the exposure of thyroid eye disease; a subconjunctival haemorrhage resolves spontaneously and needs no lubricant.
+## explicit_objective
+List the indications for lubricant eye drops and exclude subconjunctival haemorrhage.
+## pitfalls
+Prescribing lubricants for a self-limited subconjunctival haemorrhage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lubricants
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Lubricants
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FB2910D0AF1592
+## label
+Topical antibiotic eye drops are indicated for bacterial keratitis
+## canonical_key
+ophthalmology.pharmacology.topical-antibiotic-eye-drops-bacterial-keratitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical antibiotic eye drops treat bacterial infection such as bacterial keratitis; they are not indicated for simple ocular irritation, viral conjunctivitis or dry eye.
+## explicit_objective
+Identify bacterial keratitis as an indication for topical antibiotic drops.
+## pitfalls
+Prescribing antibiotics for irritation, viral conjunctivitis or dry eye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical antibiotics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical antibiotics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-152B9742D1209A
+## label
+Inappropriate use of antibiotic eye drops leads to antibiotic-resistant organisms
+## canonical_key
+ophthalmology.pharmacology.antibiotic-misuse-resistance
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Inappropriate or excessive use of antibiotic eye drops promotes the development of antibiotic-resistant organisms; it does not cause dry eye, protozoal keratitis or episcleritis.
+## explicit_objective
+State that antibiotic-drop misuse breeds resistant organisms.
+## pitfalls
+Attributing antibiotic misuse to dry eye, protozoal keratitis or episcleritis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical antibiotics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical antibiotics
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-572417044270E4
+## label
+Vidarabine is a topical antiviral agent
+## canonical_key
+ophthalmology.pharmacology.topical-antiviral-agents-vidarabine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical antiviral agents include vidarabine; brolene is an anti-amoebic, natamycin is an antifungal and disodium cromoglycate is a mast-cell stabiliser.
+## explicit_objective
+Identify vidarabine as a topical antiviral agent.
+## pitfalls
+Confusing the antifungal natamycin, anti-amoebic brolene or mast-cell stabiliser cromoglycate with an antiviral.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Antiviral drugs
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Antiviral drugs
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4FDFDC644EA43A
+## label
+Topical corticosteroids cause cataract, open-angle (not closed-angle) glaucoma, and activation of viral and fungal infection
+## canonical_key
+ophthalmology.pharmacology.topical-steroid-side-effects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical corticosteroid side effects include complicated cataract, a secondary OPEN-angle (steroid-response) glaucoma, and activation of viral and fungal infection; a secondary closed-angle glaucoma is not a steroid side effect.
+## explicit_objective
+List the side effects of topical corticosteroids and note the glaucoma is open-angle, not closed-angle.
+## pitfalls
+Calling the steroid-induced glaucoma a closed-angle glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical corticosteroids
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BC0CE9D4942294
+## label
+Corticosteroids can raise the intraocular pressure
+## canonical_key
+ophthalmology.pharmacology.steroids-raise-intraocular-pressure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among ocular drugs, corticosteroids (the steroid response) can raise the intraocular pressure; beta-blockers, mannitol and brimonidine lower it.
+## explicit_objective
+Identify corticosteroids as the drug that raises intraocular pressure.
+## pitfalls
+Choosing a pressure-lowering agent (beta-blocker, mannitol, brimonidine) as the cause of raised pressure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical corticosteroids
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5DE13F6D10AAB9
+## label
+Topical NSAIDs are used for ocular itching (and to control inflammation/pain)
+## canonical_key
+ophthalmology.pharmacology.topical-nsaid-uses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical non-steroidal anti-inflammatory agents are used for ocular itching and to control postoperative inflammation and pain; they are not treatment for orbital cellulitis, herpes zoster ophthalmicus or fungal infection.
+## explicit_objective
+Identify ocular itching as an indication for topical NSAIDs.
+## pitfalls
+Using NSAIDs for orbital cellulitis, herpes zoster or fungal infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical NSAIDs
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical NSAIDs
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-158566FF7BBA90
+## label
+Timolol is avoided in COPD, bradycardia and heart failure but may be used in hypertension
+## canonical_key
+ophthalmology.pharmacology.timolol-contraindications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The beta-blocker timolol is contraindicated in chronic obstructive pulmonary disease, bradycardia and heart failure; systemic hypertension is not a contraindication (beta-blockade may even help).
+## explicit_objective
+List the contraindications to timolol and note that hypertension is not one.
+## pitfalls
+Thinking hypertension contraindicates timolol, or that COPD/bradycardia/heart failure are safe.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Beta-blockers
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-018D422C219AB8
+## label
+Topical beta-blockers may be used in all types of glaucoma
+## canonical_key
+ophthalmology.pharmacology.beta-blocker-uses-all-glaucoma-types
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical beta-blockers lower pressure by reducing aqueous formation and may be used in all types of glaucoma; they are not safe in cardiac failure, are not the drops of choice in bronchial asthma, and can be combined with a prostaglandin analogue.
+## explicit_objective
+State that beta-blockers may be used across the glaucoma types.
+## pitfalls
+Believing beta-blockers are safe in cardiac failure or asthma, or cannot combine with prostaglandins.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Beta-blockers
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A92DC6B631C5AA
+## label
+Topical corticosteroids are indicated in scleritis
+## canonical_key
+ophthalmology.pharmacology.topical-steroid-indication-scleritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical corticosteroids are used to treat scleritis; they are contraindicated in corneal ulceration, herpetic keratitis and fungal infection, where they worsen the disease.
+## explicit_objective
+Identify scleritis as an indication for topical corticosteroids.
+## pitfalls
+Giving steroids for corneal ulcer, herpetic keratitis or fungal infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Topical corticosteroids
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B9AA73C8D3FAE9
+## label
+Beta-blockers are traditionally a first-choice antiglaucoma medication and are not used to increase uveoscleral outflow
+## canonical_key
+ophthalmology.pharmacology.beta-blocker-first-choice-antiglaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Beta-blockers are traditionally a first-choice antiglaucoma medication; they act by reducing aqueous formation (not by increasing uveoscleral outflow), are not the drops of choice in bronchial asthma, and can be used as adjuncts across glaucoma types.
+## explicit_objective
+Recognise beta-blockers as a first-choice antiglaucoma agent acting by reduced aqueous formation.
+## pitfalls
+Thinking beta-blockers increase uveoscleral outflow or are preferred in asthma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Beta-blockers
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-38AAB839EEF1CC
+## label
+Pilocarpine (cholinergic agonist) causes ciliary muscle spasm with headache
+## canonical_key
+ophthalmology.pharmacology.pilocarpine-side-effects-ciliary-spasm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical pilocarpine, a cholinergic agonist, causes ciliary-muscle spasm producing brow-ache/headache and an accommodative (myopic) shift with miosis; it does not cause loss of accommodation, induced hypermetropia or pupillary dilation.
+## explicit_objective
+Identify ciliary-muscle spasm and headache as a side effect of pilocarpine.
+## pitfalls
+Attributing loss of accommodation, hypermetropia or mydriasis to pilocarpine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cholinergic agonists
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Cholinergic agonists
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-442777A2986152
+## label
+Prostaglandin analogues increase uveoscleral outflow and do not decrease aqueous formation
+## canonical_key
+ophthalmology.pharmacology.prostaglandin-analogue-increases-uveoscleral-outflow
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prostaglandin analogues lower pressure by increasing uveoscleral outflow, so they do NOT decrease aqueous formation; beta-blockers, carbonic anhydrase inhibitors and alpha-adrenergic agonists all reduce aqueous formation.
+## explicit_objective
+State that prostaglandin analogues act by increasing outflow, not by decreasing aqueous formation.
+## pitfalls
+Grouping prostaglandin analogues with the aqueous-suppressant classes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Prostaglandin analogues
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Prostaglandin analogues
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-42067DB58F6BB7
+## label
+Prostaglandin analogues are avoided after cataract surgery
+## canonical_key
+ophthalmology.pharmacology.prostaglandin-analogue-avoided-post-cataract-surgery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prostaglandin analogues are avoided after cataract surgery because they can provoke intraocular inflammation and cystoid macular oedema; asthma, systemic hypertension and renal calculi are not their specific contraindications.
+## explicit_objective
+Identify recent cataract surgery as a situation where prostaglandin analogues are avoided.
+## pitfalls
+Choosing asthma, hypertension or renal calculi as the contraindication.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Prostaglandin analogues
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Prostaglandin analogues
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A7518605CBD0DD
+## label
+Carbonic anhydrase inhibitors cause renal calculi, electrolyte depletion and paraesthesia, not bradycardia
+## canonical_key
+ophthalmology.pharmacology.carbonic-anhydrase-inhibitor-side-effects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carbonic anhydrase inhibitors (e.g. acetazolamide) predispose to renal calculi, deplete sodium and potassium and cause paraesthesia; bradycardia is not one of their side effects.
+## explicit_objective
+List carbonic anhydrase inhibitor side effects and exclude bradycardia.
+## pitfalls
+Attributing bradycardia to a carbonic anhydrase inhibitor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Carbonic anhydrase inhibitors
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-10688925A38082
+## label
+Carbonic anhydrase inhibitors are given as eye drops, orally or intravenously, but not as ointment
+## canonical_key
+ophthalmology.pharmacology.carbonic-anhydrase-inhibitor-routes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carbonic anhydrase inhibitors are administered topically (eye drops), orally and intravenously; an ointment is not a route of administration for this class.
+## explicit_objective
+State the routes of carbonic anhydrase inhibitor administration and exclude ointment.
+## pitfalls
+Thinking a carbonic anhydrase inhibitor is given as an ointment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Carbonic anhydrase inhibitors
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E95F76D9A398C0
+## label
+Brimonidine is an alpha-2 adrenergic agonist
+## canonical_key
+ophthalmology.pharmacology.alpha2-adrenergic-agonist-brimonidine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Brimonidine is an alpha-2 adrenergic agonist antiglaucoma drug; pilocarpine is a cholinergic agonist, latanoprost is a prostaglandin analogue and timolol is a beta-blocker.
+## explicit_objective
+Identify brimonidine as an alpha-2 adrenergic agonist.
+## pitfalls
+Confusing brimonidine with pilocarpine, latanoprost or timolol classes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Alpha-adrenergic agonists
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Alpha-adrenergic agonists
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-07E05C77AA55C2
+## label
+Acetazolamide is avoided in a patient with sulfa allergy
+## canonical_key
+ophthalmology.pharmacology.acetazolamide-avoided-sulfa-allergy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acetazolamide is a sulfonamide derivative, so it is avoided in patients with sulfa allergy; penicillin allergy, diabetes mellitus and diabetes insipidus are not the relevant contraindication.
+## explicit_objective
+Identify sulfa allergy as the contraindication to acetazolamide.
+## pitfalls
+Choosing penicillin allergy or diabetes as the contraindication.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Carbonic anhydrase inhibitors
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-6760CA65570825
+## label
+Amiodarone can cause a drug-induced optic neuropathy
+## canonical_key
+ophthalmology.pharmacology.amiodarone-optic-neuropathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amiodarone can cause an insidious drug-induced optic neuropathy (as can ethambutol); interferon, corticosteroids and chloroquine are not the classic optic-neuropathy drug in this stem.
+## explicit_objective
+Recognise amiodarone as a cause of drug-induced optic neuropathy.
+## pitfalls
+Choosing interferon, corticosteroids or chloroquine as the optic-neuropathy drug.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Drug-induced optic neuropathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Drug-induced optic neuropathy
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FA78BE33CCFCF6
+## label
+Interferon can cause a drug-induced retinopathy
+## canonical_key
+ophthalmology.pharmacology.interferon-drug-induced-retinopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Interferon therapy can cause a drug-induced retinopathy (cotton-wool spots and retinal haemorrhages); topiramate causes angle closure, digitalis causes visual disturbance (xanthopsia) and this stem keys interferon as the retinopathy drug.
+## explicit_objective
+Identify interferon as a cause of drug-induced retinopathy.
+## pitfalls
+Choosing topiramate, digitalis or corticosteroids as the retinopathy drug in this stem.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Drug-induced retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye > Drug-induced retinopathy
+## article_ids
+ART-OPH-315-MEDICATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
