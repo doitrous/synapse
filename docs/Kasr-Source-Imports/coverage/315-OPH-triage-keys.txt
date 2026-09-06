@@ -46,3 +46,35 @@ Cross-check notes (key -> the option it selects, verified against the stem):
   (Hirschberg ~15 PD/mm); Q21 D retinoscopy (EXCEPT — a refraction test, not fundus exam); Q22 C
   hemianopia; Q23 C lateral wall separates orbit from sphenoid (the FALSE relation); Q24 B zonules;
   Q25 C retinal pigment epithelium (not an angle structure); Q26 B ophthalmic division of trigeminal.
+
+# ===================================================================
+# TRANCHE 2 (2026-09-06): Chapter 2 (all) + Chapter 3 (first slice)
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf),
+# each RE-VERIFIED against the bank's option text before authoring. 0 excluded, 0 held.
+
+# Chapter 2 — Clinical examination of the eye (Q1-13, bank printed p.5-6 = PDF p.7-8) — all 13 authored
+Q1.C   Q2.C   Q3.B   Q4.A   Q5.C   Q6.A   Q7.A   Q8.D   Q9.C   Q10.C
+Q11.A  Q12.C  Q13.A
+# Cross-check notes (key -> option chosen, verified vs stem):
+#  Q1 C 12 mm (normal horizontal corneal diameter); Q2 C gonioscopy (AC angle method);
+#  Q3 B slit lamp with accessory lenses -> fundus; Q4 A fundus essential for diabetic retinopathy;
+#  Q5 C 11 mm (normal vertical corneal diameter); Q6 A slit lamp needs accessory lenses for fundus;
+#  Q7 A count fingers (next step after Snellen failure); Q8 D automated fields NOT done in all (the false one);
+#  Q9 C B-scan evaluates posterior segment tumours; Q10 C "without accessory lenses -> AC angle" (the wrong statement);
+#  Q11 A greyish reflex in retinal detachment; Q12 C refractive power (retinoscopy, 5-option);
+#  Q13 A slit lamp for detailed anterior segment (5-option).
+
+# Chapter 3 — The protective system of the eye (91 MCQs; Q1-12 authored this tranche, bank printed p.7-9 = PDF p.9-11)
+Q1.A   Q2.B   Q3.D   Q4.B   Q5.B   Q6.D   Q7.A   Q8.A   Q9.C   Q10.A
+Q11.D  Q12.B
+# Cross-check notes:
+#  Q1 A thyroid orbitopathy (commonest bilateral adult proptosis); Q2 B 5th nerve palsy is the EXCEPT (no lagophthalmos);
+#  Q3 D systemic antibiotics (acute-on-chronic dacryocystitis); Q4 B levator palpebrae superioris malfunction (ptosis);
+#  Q5 B ectropion = rolling out; Q6 D ptosis is the EXCEPT in thyroid ophthalmopathy (it retracts the lid);
+#  Q7 A facial nerve palsy -> lagophthalmos + corneal exposure; Q8 A entropion = rolling in;
+#  Q9 C dacryocystorhinostomy (chronic adult dacryocystitis); Q10 A lagophthalmos (incomplete lid closure);
+#  Q11 D yellow crusts and ulcers on lid margin (ulcerative blepharitis); Q12 B hypertension is the EXCEPT among ptosis causes.
+# Chapter-3 answer-key gaps (not authored this tranche, will HOLD/skip when reached): the key omits rows
+#  Q32, Q36, Q47, Q50, Q53 (and lists up to Q96 for a 91-MCQ chapter) — the missing rows are NOT in the Q1-12 slice.
+# REMAINING for next tranche: Chapter 3 Q13-91, then Chapters 4-15.

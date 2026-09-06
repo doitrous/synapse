@@ -1,0 +1,329 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch2-clinical-examination",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 2 Clinical examination of the eye, MCQ Q1-13, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), each key cross-checked against the option text. 13 authored / 0 held / 0 excluded.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > Clinical examination of the eye",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-EYE-EXAM"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.2 Clinical examination of the eye (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "Clinical examination of the eye",
+    "question_type": "Recall",
+    "difficulty": "Easy",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.2 chapter->Q->letter table, cross-checked against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "id": "QST-KASR315OPH-KAMAL-CH2-01",
+      "page": 7,
+      "title": "Normal horizontal corneal diameter in adults",
+      "question": "The normal horizontal diameter of the cornea in adults is about:",
+      "options": { "A": "8 mm", "B": "10 mm", "C": "12 mm", "D": "14 mm" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A horizontal diameter of about 8 mm would represent microcornea, well below the adult norm.",
+        "B": "Incorrect. 10 mm is smaller than the normal adult horizontal corneal diameter.",
+        "C": "Correct. The adult cornea measures about 11.5–12 mm horizontally and slightly less (~10.5–11 mm) vertically, giving it a mildly oval outline. This measurement is used clinically to recognise microcornea (below 10 mm) and megalocornea or buphthalmos (above 13 mm). About 12 mm is therefore the expected normal horizontal diameter.",
+        "D": "Incorrect. A 14 mm cornea is larger than normal and suggests megalocornea or congenital glaucoma."
+      },
+      "main_concept": "CON-MUL-894E3D95277DE1",
+      "concept_ids": ["CON-MUL-894E3D95277DE1"],
+      "subtopic": "Corneal dimensions",
+      "learning_objective": "Recall the normal adult horizontal corneal diameter (~12 mm)."
+    },
+    {
+      "key": "q02",
+      "id": "QST-KASR315OPH-KAMAL-CH2-02",
+      "page": 7,
+      "title": "Method of examining the anterior chamber angle",
+      "question": "The method of examination of the anterior chamber angle is called:",
+      "options": { "A": "Direct ophthalmoscopy", "B": "Retinoscopy", "C": "Gonioscopy", "D": "Indirect ophthalmoscopy" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Direct ophthalmoscopy gives a magnified view of the fundus, not the angle.",
+        "B": "Incorrect. Retinoscopy is an objective measurement of refractive error.",
+        "C": "Correct. The anterior chamber angle cannot be seen directly because light from it undergoes total internal reflection at the cornea, so a gonioscopy contact lens with mirrors is used to visualise it. Gonioscopy is essential for classifying glaucoma as open- or closed-angle. It is therefore the standard method of examining the angle.",
+        "D": "Incorrect. Indirect ophthalmoscopy is used to examine the peripheral fundus."
+      },
+      "main_concept": "CON-MUL-9214F82163A3AE",
+      "concept_ids": ["CON-MUL-9214F82163A3AE"],
+      "subtopic": "Anterior chamber angle",
+      "learning_objective": "Identify gonioscopy as the method of examining the anterior chamber angle."
+    },
+    {
+      "key": "q03",
+      "id": "QST-KASR315OPH-KAMAL-CH2-03",
+      "page": 7,
+      "title": "Slit lamp with accessory lenses for fundus examination",
+      "question": "Regarding slit lamp examination, which statement is correct?",
+      "options": {
+        "A": "It is rarely used in routine examination of the eye.",
+        "B": "With accessory lenses it can be used for fundus examination.",
+        "C": "It can be used for fundus examination in the presence of dense vitreous haemorrhage.",
+        "D": "Without accessory lenses it can be used for anterior chamber angle examination."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The slit lamp is the most frequently used instrument in the routine eye examination.",
+        "B": "Correct. The slit lamp by itself images the anterior segment, but with an auxiliary condensing lens (such as a +78/+90 D lens or a fundus contact lens) it also gives a magnified stereoscopic view of the fundus. Without such a lens the slit lamp cannot be focused on the retina. This is why accessory lenses are required for slit-lamp fundus biomicroscopy.",
+        "C": "Incorrect. A dense vitreous haemorrhage blocks the view of the fundus; ultrasound is used instead.",
+        "D": "Incorrect. Angle examination requires a gonioscopy contact lens, not the slit lamp alone."
+      },
+      "main_concept": "CON-MUL-D82CCA5705D21D",
+      "concept_ids": ["CON-MUL-D82CCA5705D21D"],
+      "subtopic": "Slit lamp examination",
+      "learning_objective": "State that the slit lamp needs accessory lenses to examine the fundus."
+    },
+    {
+      "key": "q04",
+      "id": "QST-KASR315OPH-KAMAL-CH2-04",
+      "page": 7,
+      "title": "Fundus examination in diabetic retinopathy",
+      "question": "Regarding fundus examination, which statement is correct?",
+      "options": {
+        "A": "It is essential for the diagnosis of diabetic retinopathy.",
+        "B": "The slit lamp alone can be used for fundus examination.",
+        "C": "It can be easily done in the presence of a mature cataract.",
+        "D": "It is rarely used in routine examination of the eye."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Diabetic retinopathy is diagnosed by seeing retinal microaneurysms, haemorrhages, exudates and new vessels on fundus examination, so direct visualisation of the retina is indispensable for screening and staging. There is no substitute for looking at the fundus. Hence fundus examination is essential for diagnosing diabetic retinopathy.",
+        "B": "Incorrect. The slit lamp needs accessory condensing or contact lenses before it can image the fundus.",
+        "C": "Incorrect. A mature cataract opacifies the media and blocks the view of the fundus.",
+        "D": "Incorrect. Fundoscopy is a routine, essential part of the eye examination."
+      },
+      "main_concept": "CON-MUL-96BF358B3D224A",
+      "concept_ids": ["CON-MUL-96BF358B3D224A"],
+      "subtopic": "Fundus examination",
+      "learning_objective": "Recognise that fundus examination is essential for diagnosing diabetic retinopathy."
+    },
+    {
+      "key": "q05",
+      "id": "QST-KASR315OPH-KAMAL-CH2-05",
+      "page": 7,
+      "title": "Normal vertical corneal diameter in adults",
+      "question": "The normal vertical diameter of the cornea in adults is about:",
+      "options": { "A": "8 mm", "B": "13 mm", "C": "11 mm", "D": "14 mm" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. About 8 mm is well below the adult norm and would represent microcornea.",
+        "B": "Incorrect. 13 mm is larger than the vertical diameter and approaches megalocornea.",
+        "C": "Correct. The cornea is slightly oval, measuring about 11.5–12 mm horizontally and roughly 10.5–11 mm vertically, so the vertical diameter is a little smaller than the horizontal. This small vertical–horizontal difference gives the cornea its horizontally oval shape. About 11 mm is therefore the expected normal vertical diameter.",
+        "D": "Incorrect. 14 mm exceeds the normal corneal range."
+      },
+      "main_concept": "CON-MUL-894E3D95277DE1",
+      "concept_ids": ["CON-MUL-894E3D95277DE1"],
+      "subtopic": "Corneal dimensions",
+      "learning_objective": "Recall the normal adult vertical corneal diameter (~11 mm)."
+    },
+    {
+      "key": "q06",
+      "id": "QST-KASR315OPH-KAMAL-CH2-06",
+      "page": 7,
+      "title": "Slit lamp needs accessory lenses for fundus examination",
+      "question": "Regarding fundus examination, which statement is correct?",
+      "options": {
+        "A": "The slit lamp needs accessory lenses for fundus examination.",
+        "B": "The slit lamp alone can be used for fundus examination.",
+        "C": "It is rarely used in routine examination of the eye.",
+        "D": "It can be easily done in the presence of dense vitreous haemorrhage."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. On its own the slit lamp focuses only on the anterior segment, so a condensing or contact lens is required to bring the fundus into focus. With such accessory lenses the slit lamp then gives a magnified stereoscopic view of the retina. This dependence on accessory lenses is the key point about slit-lamp fundoscopy.",
+        "B": "Incorrect. Without accessory lenses the slit lamp cannot image the fundus.",
+        "C": "Incorrect. Fundus examination is a routine part of the eye examination.",
+        "D": "Incorrect. A dense vitreous haemorrhage obscures the fundus and prevents its examination."
+      },
+      "main_concept": "CON-MUL-D82CCA5705D21D",
+      "concept_ids": ["CON-MUL-D82CCA5705D21D"],
+      "subtopic": "Slit lamp examination",
+      "learning_objective": "State that the slit lamp requires accessory lenses to examine the fundus."
+    },
+    {
+      "key": "q07",
+      "id": "QST-KASR315OPH-KAMAL-CH2-07",
+      "page": 8,
+      "title": "Next step when Snellen letters cannot be read",
+      "question": "On testing visual acuity, if the patient is unable to identify any letters on the Snellen chart you should next test the ability to:",
+      "options": {
+        "A": "Count fingers.",
+        "B": "Identify the direction of hand movements.",
+        "C": "Identify the position of a light.",
+        "D": "Identify the presence of a light."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When a patient cannot read even the largest Snellen letter, acuity is graded down a standard ladder: counting fingers, then hand movements, then perception and projection of light. Counting fingers is the next step tested immediately after Snellen failure. This ordered sequence quantifies very low vision.",
+        "B": "Incorrect. Hand movements are tested only after counting fingers has failed.",
+        "C": "Incorrect. Light projection (position of a light) is assessed near the bottom of the ladder.",
+        "D": "Incorrect. Light perception (presence of a light) is the very last step, after hand movements."
+      },
+      "main_concept": "CON-MUL-C0C019EFD165AD",
+      "concept_ids": ["CON-MUL-C0C019EFD165AD"],
+      "subtopic": "Visual acuity testing",
+      "learning_objective": "Order the low-vision acuity sequence: counting fingers follows Snellen failure."
+    },
+    {
+      "key": "q08",
+      "id": "QST-KASR315OPH-KAMAL-CH2-08",
+      "page": 8,
+      "title": "Component not part of routine eye examination",
+      "question": "On eye examination all of the following are correct EXCEPT:",
+      "options": {
+        "A": "Visual acuity assessment is mandatory.",
+        "B": "Examination of the pupillary reflexes is important.",
+        "C": "Fundus examination is performed by ophthalmoscopy.",
+        "D": "Automated field testing is done in all patients."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is a true statement). Visual acuity is always recorded as the first step of the examination.",
+        "B": "Incorrect (this is a true statement). Pupillary reflex testing is a routine and important step.",
+        "C": "Incorrect (this is a true statement). The fundus is examined with the ophthalmoscope.",
+        "D": "Correct. This is the false statement: formal automated perimetry is an ancillary investigation requested only when a field defect is suspected (for example in glaucoma or neurological disease), not routinely in every patient. The routine bedside examination covers acuity, pupils, the anterior segment and the fundus. Hence automated field testing in all patients is the exception."
+      },
+      "main_concept": "CON-MUL-92132283B9B575",
+      "concept_ids": ["CON-MUL-92132283B9B575"],
+      "subtopic": "Routine eye examination",
+      "learning_objective": "Recognise that automated perimetry is selective, not part of every routine examination."
+    },
+    {
+      "key": "q09",
+      "id": "QST-KASR315OPH-KAMAL-CH2-09",
+      "page": 8,
+      "title": "B-scan ultrasound of the eye",
+      "question": "One of the following is true about ultrasound examination of the eye:",
+      "options": {
+        "A": "B-scan is used mainly for biometry.",
+        "B": "It is used for fundus examination in retinal detachment without media opacity.",
+        "C": "It can evaluate posterior segment tumours.",
+        "D": "It uses very low frequency sound waves."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Biometry (axial length measurement) is performed with the A-scan, not the B-scan.",
+        "B": "Incorrect. Ultrasound is used precisely when media opacity prevents a direct fundus view.",
+        "C": "Correct. The B-scan produces a two-dimensional image of the posterior segment and orbit, allowing assessment of tumours, retinal detachment and vitreous pathology, especially when the media are opaque. It is a mainstay for characterising intraocular masses such as choroidal melanoma. Hence B-scan ultrasound can evaluate posterior segment tumours.",
+        "D": "Incorrect. Ocular ultrasound uses high-frequency (about 10 MHz) sound waves."
+      },
+      "main_concept": "CON-MUL-FF4CD1841C6C9C",
+      "concept_ids": ["CON-MUL-FF4CD1841C6C9C"],
+      "subtopic": "Ocular ultrasound",
+      "learning_objective": "State that B-scan ultrasound evaluates posterior segment tumours."
+    },
+    {
+      "key": "q10",
+      "id": "QST-KASR315OPH-KAMAL-CH2-10",
+      "page": 8,
+      "title": "Incorrect statement about slit lamp examination",
+      "question": "Regarding slit lamp examination, which answer is wrong?",
+      "options": {
+        "A": "It is the most important examination system for the eye.",
+        "B": "With accessory lenses it can be used for fundus examination.",
+        "C": "Without accessory lenses it can be used for anterior chamber angle examination.",
+        "D": "It has several filters for enhancing examination techniques."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is a true statement). The slit lamp is the central biomicroscope of the eye examination.",
+        "B": "Incorrect (this is a true statement). Accessory condensing or contact lenses let the slit lamp image the fundus.",
+        "C": "Correct. This is the wrong statement: examining the anterior chamber angle requires a gonioscopy contact lens, because total internal reflection at the cornea hides the angle from the direct slit-lamp view. Without such an accessory lens the angle simply cannot be seen. So statement C is false.",
+        "D": "Incorrect (this is a true statement). The slit lamp carries several filters, such as cobalt-blue and red-free."
+      },
+      "main_concept": "CON-MUL-D82CCA5705D21D",
+      "concept_ids": ["CON-MUL-D82CCA5705D21D"],
+      "subtopic": "Slit lamp examination",
+      "learning_objective": "Recognise that anterior chamber angle examination needs an accessory gonioscopy lens."
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR315OPH-KAMAL-CH2-11",
+      "page": 8,
+      "title": "Red reflex in retinal detachment",
+      "question": "In cases of retinal detachment the red reflex becomes:",
+      "options": { "A": "Greyish", "B": "Whitish", "C": "Yellowish", "D": "Black" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When the retina detaches it lifts forward as a grey, opaque, mobile sheet, so the normal red fundal reflex is replaced by a grey reflex. This grey appearance on ophthalmoscopy is a classic sign of rhegmatogenous retinal detachment. Hence the reflex becomes greyish.",
+        "B": "Incorrect. A white reflex (leukocoria) suggests a mature cataract or retinoblastoma rather than a simple detachment.",
+        "C": "Incorrect. A yellow reflex points to endophthalmitis.",
+        "D": "Incorrect. A black reflex is associated with vitreous haemorrhage."
+      },
+      "main_concept": "CON-MUL-97EAD8A5348297",
+      "concept_ids": ["CON-MUL-97EAD8A5348297"],
+      "subtopic": "Fundal reflex",
+      "learning_objective": "Recognise the greyish reflex of retinal detachment."
+    },
+    {
+      "key": "q12",
+      "id": "QST-KASR315OPH-KAMAL-CH2-12",
+      "page": 8,
+      "title": "Purpose of retinoscopy",
+      "question": "Retinoscopy is done for:",
+      "options": {
+        "A": "Examination of the retina",
+        "B": "Degree of strabismus",
+        "C": "Refractive power of the eye",
+        "D": "Axial length of the eye",
+        "E": "Assessment of visual acuity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Despite its name, retinoscopy does not examine the retina.",
+        "B": "Incorrect. The angle of strabismus is measured by cover tests, prisms or the Hirschberg reflex.",
+        "C": "Correct. Retinoscopy is an objective technique in which the examiner neutralises the movement of a reflex from the fundus to determine the eye's refractive error. It provides the refraction without the patient's subjective input, which makes it invaluable in children and uncooperative patients. Hence retinoscopy measures the refractive power of the eye.",
+        "D": "Incorrect. Axial length is measured by A-scan biometry.",
+        "E": "Incorrect. Visual acuity is tested with a Snellen chart, not retinoscopy."
+      },
+      "main_concept": "CON-MUL-CCFB7FB133FB5C",
+      "concept_ids": ["CON-MUL-CCFB7FB133FB5C"],
+      "subtopic": "Retinoscopy",
+      "learning_objective": "State that retinoscopy objectively measures the eye's refractive power."
+    },
+    {
+      "key": "q13",
+      "id": "QST-KASR315OPH-KAMAL-CH2-13",
+      "page": 8,
+      "title": "Instrument for detailed anterior segment examination",
+      "question": "Detailed examination of the anterior segment of the eye is done using:",
+      "options": {
+        "A": "Slit lamp",
+        "B": "Retinoscopy",
+        "C": "Prisms",
+        "D": "Ophthalmoscopy",
+        "E": "Exophthalmometer"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The slit lamp biomicroscope provides a magnified, stereoscopic, variably illuminated view of the lids, conjunctiva, cornea, anterior chamber, iris and lens, making it the instrument of choice for detailed anterior-segment examination. Its adjustable slit beam allows optical sectioning of the transparent ocular structures. Hence the slit lamp is used for detailed anterior-segment examination.",
+        "B": "Incorrect. Retinoscopy measures refractive error.",
+        "C": "Incorrect. Prisms are used to measure ocular deviation.",
+        "D": "Incorrect. Ophthalmoscopy examines the fundus, not the anterior segment.",
+        "E": "Incorrect. An exophthalmometer measures the degree of proptosis."
+      },
+      "main_concept": "CON-MUL-89978BA0862E5A",
+      "concept_ids": ["CON-MUL-89978BA0862E5A"],
+      "subtopic": "Slit lamp examination",
+      "learning_objective": "Identify the slit lamp as the instrument for detailed anterior-segment examination."
+    }
+  ]
+}

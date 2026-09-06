@@ -2903,3 +2903,2346 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 15618 existing IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.1 Q1-26) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-894E3D95277DE1
+## label
+The normal adult corneal diameter is about 12 mm horizontally and 11 mm vertically
+## canonical_key
+ophthalmology.cornea.normal-adult-diameter-horizontal-12mm-vertical-11mm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The adult cornea measures about 11.5–12 mm horizontally and slightly less (~10.5–11 mm) vertically, giving it a mildly horizontally oval outline. These dimensions define the normal range used to flag microcornea (below 10 mm) and megalocornea or buphthalmos (above 13 mm).
+## explicit_objective
+Recall the normal adult corneal diameters (~12 mm horizontal, ~11 mm vertical).
+## pitfalls
+Assuming the cornea is circular: it is slightly oval, with the horizontal diameter a little larger than the vertical.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal dimensions
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Corneal dimensions
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9214F82163A3AE
+## label
+The anterior chamber angle is examined by gonioscopy
+## canonical_key
+ophthalmology.anterior-chamber-angle.examined-by-gonioscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Light from the anterior chamber angle undergoes total internal reflection at the cornea, so the angle cannot be seen directly; a gonioscopy contact lens with mirrors is used to visualise it, which is essential for classifying glaucoma as open- or closed-angle.
+## explicit_objective
+Identify gonioscopy as the method of examining the anterior chamber angle.
+## pitfalls
+Thinking direct or indirect ophthalmoscopy shows the angle: those techniques image the fundus, not the angle, which needs a gonioscopy lens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Anterior chamber angle
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Anterior chamber angle
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D82CCA5705D21D
+## label
+The slit lamp needs accessory lenses to examine the fundus and the angle
+## canonical_key
+ophthalmology.slit-lamp.needs-accessory-lenses-for-fundus-examination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On its own the slit lamp focuses only on the anterior segment; a condensing or contact lens (for example a +78/+90 D lens or a fundus/gonioscopy contact lens) is required before it can image the fundus or the anterior chamber angle. With such accessory lenses the slit lamp gives a magnified stereoscopic posterior-segment or angle view.
+## explicit_objective
+State that the slit lamp requires accessory lenses to examine the fundus and the angle.
+## pitfalls
+Believing the slit lamp alone reaches the fundus or angle: without an accessory lens it cannot, and a dense vitreous haemorrhage still blocks any fundus view.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Slit lamp examination
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Slit lamp examination
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-96BF358B3D224A
+## label
+Fundus examination is essential for the diagnosis of diabetic retinopathy
+## canonical_key
+ophthalmology.fundus-examination.essential-for-diabetic-retinopathy-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diabetic retinopathy is diagnosed by directly seeing retinal microaneurysms, haemorrhages, exudates and new vessels on fundus examination, so visualisation of the retina is indispensable for screening and staging.
+## explicit_objective
+Recognise that fundus examination is essential for diagnosing diabetic retinopathy.
+## pitfalls
+Expecting a fundus view through a mature cataract or with the slit lamp alone: opaque media block the view, and the slit lamp needs accessory lenses.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Fundus examination
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Fundus examination
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C0C019EFD165AD
+## label
+When Snellen letters cannot be read, acuity is graded as counting fingers, then hand movements, then light
+## canonical_key
+ophthalmology.visual-acuity.count-fingers-when-snellen-unreadable
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a patient cannot read even the largest Snellen letter, acuity is graded down a fixed ladder: counting fingers, then hand movements, then perception and projection of light. Counting fingers is the next step tested immediately after Snellen failure.
+## explicit_objective
+Order the low-vision acuity sequence beginning with counting fingers.
+## pitfalls
+Jumping straight to light perception: hand movements and light tests come only after counting fingers has failed.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual acuity testing
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Visual acuity testing
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-92132283B9B575
+## label
+Automated field testing is not performed in all patients
+## canonical_key
+ophthalmology.automated-perimetry.not-performed-in-all-patients
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Formal automated perimetry is an ancillary investigation requested only when a visual field defect is suspected (for example in glaucoma or neurological disease), not routinely in every patient. The routine bedside examination covers acuity, pupils, the anterior segment and the fundus.
+## explicit_objective
+Recognise that automated perimetry is selective, not part of every routine examination.
+## pitfalls
+Treating automated fields as a mandatory routine step: it is a targeted investigation, unlike acuity and pupil testing which are always done.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Routine eye examination
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Routine eye examination
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FF4CD1841C6C9C
+## label
+B-scan ocular ultrasound evaluates posterior segment tumours
+## canonical_key
+ophthalmology.b-scan-ultrasound.evaluates-posterior-segment-tumours
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The B-scan produces a two-dimensional image of the posterior segment and orbit using high-frequency (~10 MHz) sound, allowing assessment of tumours, retinal detachment and vitreous pathology, especially when the media are opaque. Biometry (axial length) uses the A-scan.
+## explicit_objective
+State that B-scan ultrasound evaluates posterior segment tumours.
+## pitfalls
+Confusing A- and B-scan or the frequency: biometry is the A-scan, ocular ultrasound uses high (not low) frequency, and it is used when media opacity prevents a direct view.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular ultrasound
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Ocular ultrasound
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-97EAD8A5348297
+## label
+The fundal reflex becomes greyish in retinal detachment
+## canonical_key
+ophthalmology.retinal-detachment.red-reflex-becomes-greyish
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When the retina detaches it lifts forward as a grey, opaque, mobile sheet, so the normal red fundal reflex is replaced by a grey reflex on ophthalmoscopy — a classic sign of rhegmatogenous retinal detachment.
+## explicit_objective
+Recognise the greyish reflex of retinal detachment.
+## pitfalls
+Confusing reflex colours: white suggests cataract or retinoblastoma, yellow endophthalmitis and black vitreous haemorrhage, while grey indicates detachment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Fundal reflex
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Fundal reflex
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-89978BA0862E5A
+## label
+The slit lamp is used for detailed examination of the anterior segment
+## canonical_key
+ophthalmology.slit-lamp.detailed-anterior-segment-examination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The slit lamp biomicroscope gives a magnified, stereoscopic, variably illuminated view of the lids, conjunctiva, cornea, anterior chamber, iris and lens, and its adjustable slit beam optically sections the transparent structures, making it the instrument of choice for detailed anterior-segment examination.
+## explicit_objective
+Identify the slit lamp as the instrument for detailed anterior-segment examination.
+## pitfalls
+Confusing instruments: ophthalmoscopy examines the fundus, prisms measure deviation and the exophthalmometer measures proptosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Slit lamp examination
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Clinical examination of the eye > Slit lamp examination
+## article_ids
+ART-OPH-315-EYE-EXAM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E7BFE48AD48903
+## label
+Thyroid orbitopathy is the commonest cause of proptosis in adults
+## canonical_key
+ophthalmology.proptosis.thyroid-orbitopathy-commonest-cause-in-adults
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid (Graves) orbitopathy is by far the commonest cause of proptosis in adults, whether unilateral or bilateral, from autoimmune swelling of the extraocular muscles and orbital fat, typically producing bilateral, often asymmetrical, axial proptosis with lid retraction.
+## explicit_objective
+Identify thyroid orbitopathy as the commonest cause of adult proptosis.
+## pitfalls
+Reaching for tumours first: metastasis, lymphoma and meningioma are far less common and usually unilateral.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Proptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Proptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9028DBB3377E0B
+## label
+Lagophthalmos is caused by facial nerve palsy or proptosis, not trigeminal palsy
+## canonical_key
+ophthalmology.lagophthalmos.caused-by-facial-nerve-palsy-not-trigeminal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lagophthalmos results from weak lid closure (facial/7th nerve palsy, including a parotid tumour infiltrating the nerve) or from severe proptosis such as thyrotoxic exophthalmos. Trigeminal (5th nerve) palsy is sensory and does not weaken closure, so it does not cause lagophthalmos.
+## explicit_objective
+Recognise that lagophthalmos follows facial nerve palsy or proptosis, not trigeminal palsy.
+## pitfalls
+Blaming the trigeminal nerve: lid closure depends on the facial nerve, so 5th nerve palsy does not cause lagophthalmos.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lagophthalmos
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Lagophthalmos
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-973F67D2C3EE9A
+## label
+Acute dacryocystitis is treated first with systemic antibiotics before definitive surgery
+## canonical_key
+ophthalmology.acute-dacryocystitis.treated-with-systemic-antibiotics-first
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute dacryocystitis (often an acute-on-chronic flare) presents as a painful medial canthal swelling and is managed acutely with systemic antibiotics and warm compresses; definitive dacryocystorhinostomy is performed later once the acute inflammation has settled.
+## explicit_objective
+Select systemic antibiotics as the acute management of acute dacryocystitis.
+## pitfalls
+Rushing to surgery or infant procedures: DCR is deferred until the infection settles, and probing/intubation are not the acute management.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Dacryocystitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Dacryocystitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A8A1BDD23F13C7
+## label
+Upper eyelid ptosis is due to levator palpebrae superioris dysfunction
+## canonical_key
+ophthalmology.ptosis.due-to-levator-palpebrae-superioris-dysfunction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The levator palpebrae superioris elevates the upper lid, so weakness or dehiscence of this muscle or its aponeurosis produces ptosis; its smooth-muscle partner, Muller’s muscle, adds a small amount of elevation.
+## explicit_objective
+Attribute upper-lid ptosis to levator palpebrae superioris dysfunction.
+## pitfalls
+Blaming the orbicularis or superior rectus: the orbicularis closes the lid (its palsy causes lagophthalmos) and the superior rectus moves the globe.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Ptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EDCB6AC9A42A87
+## label
+Ectropion is outward rolling (eversion) of the eyelid margin
+## canonical_key
+ophthalmology.ectropion.outward-rolling-of-eyelid-margin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ectropion is an outward turning of the eyelid margin away from the globe, commonly involutional in the elderly or secondary to facial nerve palsy or scarring, exposing the palpebral conjunctiva and causing epiphora and exposure keratopathy.
+## explicit_objective
+Define ectropion as outward rolling of the eyelid margin.
+## pitfalls
+Confusing it with entropion (inward rolling), trichiasis or ptosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Eyelid malposition
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Eyelid malposition
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E99C4C95828A27
+## label
+Thyroid eye disease causes lid retraction, not ptosis
+## canonical_key
+ophthalmology.thyroid-eye-disease.causes-lid-retraction-not-ptosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid ophthalmopathy characteristically causes upper-lid retraction and lid lag, along with proptosis, restrictive diplopia and exposure keratopathy or corneal ulcer; ptosis is not a feature and its presence suggests another diagnosis such as coexisting myasthenia.
+## explicit_objective
+Recognise that thyroid eye disease causes lid retraction, the opposite of ptosis.
+## pitfalls
+Expecting ptosis in thyroid eye disease: the lid is retracted, not drooping.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Thyroid eye disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Thyroid eye disease
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7ABBB8B8036F3E
+## label
+Facial nerve palsy causes lagophthalmos and corneal exposure
+## canonical_key
+ophthalmology.facial-nerve-palsy.causes-lagophthalmos-and-corneal-exposure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The facial nerve supplies orbicularis oculi, so its palsy weakens lid closure, producing lagophthalmos and exposure of the cornea, which is then at risk of drying, ulceration and neurotrophic damage.
+## explicit_objective
+State that facial nerve palsy causes lagophthalmos and corneal exposure.
+## pitfalls
+Confusing it with third-nerve palsy (ptosis, down-and-out eye) or Horner’s (miosis); facial palsy opens rather than droops the lid.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Facial nerve palsy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Facial nerve palsy
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F435EABAF475D8
+## label
+Entropion is inward rolling (inversion) of the eyelid margin
+## canonical_key
+ophthalmology.entropion.inward-rolling-of-eyelid-margin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Entropion is an inward turning of the eyelid margin so that the lashes rub against the cornea and conjunctiva; it is commonly involutional or cicatricial (for example after trachoma) and causes irritation and corneal damage from trichiasis.
+## explicit_objective
+Define entropion as inward rolling of the eyelid margin.
+## pitfalls
+Confusing it with ectropion (outward rolling), distichiasis (accessory lash row) or ptosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Eyelid malposition
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Eyelid malposition
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E96A502423C6EA
+## label
+Chronic dacryocystitis in adults is treated by dacryocystorhinostomy
+## canonical_key
+ophthalmology.chronic-dacryocystitis.treated-by-dacryocystorhinostomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic dacryocystitis in adults results from nasolacrimal duct obstruction, and the definitive treatment is dacryocystorhinostomy (DCR), which creates a new drainage passage between the lacrimal sac and the nasal cavity, bypassing the blocked duct.
+## explicit_objective
+Identify dacryocystorhinostomy as the standard treatment of adult chronic dacryocystitis.
+## pitfalls
+Applying infant treatments to adults: probing and sac massage are for congenital obstruction, and intubation is only an adjunct.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Dacryocystitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Dacryocystitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8BC756E2C6A306
+## label
+Lagophthalmos is incomplete closure of the palpebral fissure
+## canonical_key
+ophthalmology.lagophthalmos.incomplete-closure-of-palpebral-fissure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lagophthalmos is the inability to close the eyelids completely, leaving part of the palpebral fissure open on attempted closure; it follows facial nerve palsy, severe proptosis or lid scarring and predisposes to exposure keratopathy.
+## explicit_objective
+Name incomplete palpebral closure as lagophthalmos.
+## pitfalls
+Confusing it with ptosis (lid drooping), Bell’s phenomenon (upward globe roll) or blepharochalasis (lax lid skin).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lagophthalmos
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Lagophthalmos
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-385D088DA85DB4
+## label
+Ulcerative blepharitis shows yellow crusts and ulcers on the lid margin
+## canonical_key
+ophthalmology.ulcerative-blepharitis.yellow-crusts-and-ulcers-on-lid-margin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ulcerative (staphylococcal) blepharitis is marked by hard yellow crusts at the lash bases which, when removed, reveal small bleeding ulcers on an inflamed lid margin; chronic disease leads to lash loss, trichiasis and margin scarring, and it is treated with antibiotics and lid hygiene.
+## explicit_objective
+Recognise the yellow crusts and marginal ulcers of ulcerative blepharitis.
+## pitfalls
+Confusing it with squamous (seborrhoeic) blepharitis, which shows dry scales, or expecting antifungal treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Blepharitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Blepharitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B9F020C4B6B5BB
+## label
+Hypertension is not a cause of ptosis
+## canonical_key
+ophthalmology.ptosis.causes-exclude-hypertension
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The recognised causes of ptosis are neurogenic (third-nerve palsy, Horner’s syndrome), myogenic (myasthenia, myopathies), aponeurotic (age, trauma) and mechanical; systemic hypertension is not among them.
+## explicit_objective
+Recognise that hypertension is not a cause of ptosis.
+## pitfalls
+Assuming any systemic vascular disease causes ptosis: hypertension does not, unlike trauma, myasthenia and Horner’s syndrome.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Ptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank’s stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.

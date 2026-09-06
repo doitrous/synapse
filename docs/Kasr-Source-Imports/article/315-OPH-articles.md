@@ -1,9 +1,12 @@
 <!--
-  Kasr Al Ainy 315 OPH (Year 3, Ophthalmology) - two cross-linked library articles grouping the
-  module-opening Chapter 1 concepts (Brief anatomy of the eye and its adnexa, MCQ Q1-26) of
-  Dr. Ahmed Kamal's ophthalmology question bank: ART-OPH-315-EYE-ANATOMY (anatomy of the eye,
-  filed under DIS-OPH-T02) and ART-OPH-315-EYE-EXAM (basic clinical examination, DIS-OPH-T01).
+  Kasr Al Ainy 315 OPH (Year 3, Ophthalmology) - three cross-linked library articles grouping the
+  Chapter 1-3 concepts of Dr. Ahmed Kamal's ophthalmology question bank:
+  ART-OPH-315-EYE-ANATOMY (anatomy of the eye, filed under DIS-OPH-T02),
+  ART-OPH-315-EYE-EXAM (basic clinical examination, DIS-OPH-T01; Ch.1 Q16/17/20-22 + all of Ch.2),
+  and ART-OPH-315-PROTECTIVE-SYSTEM (lids, lacrimal apparatus and orbit; Ch.3 Q1-12 first tranche).
   subject mul (ophthalmology has no body-system code; system prefix MUL, as for Y3 toxicology).
+  DIS-OPH has no dedicated adnexa/protective-system node, so the Chapter-3 concepts are filed on
+  the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
   publication_gate = needs_evidence (module-wide Draft placeholder until a department source page
   is attached).
 
@@ -130,7 +133,7 @@ Claude
 ## topic
 Ophthalmology
 ## summary
-This article groups the examination facts tested by Chapter 1 of the question bank (Q16, Q17, Q20, Q21, Q22). It covers the abnormal pupillary (fundal) reflex colours (white = mature cataract, black = vitreous haemorrhage, yellow = endophthalmitis, and no blue reflex for glaucoma), the Hirschberg corneal light reflex test for estimating the angle of strabismus (about 15 prism diopters per millimetre of reflex displacement, temporal reflex meaning esotropia), the methods of fundus examination (direct and indirect ophthalmoscopy and slit-lamp biomicroscopy, distinguished from retinoscopy which measures refraction), confrontation visual-field testing (detecting gross defects such as hemianopia but not small scotomas), and the place of OCT as an ancillary imaging investigation rather than a routine bedside examination.
+This article groups the clinical-examination facts tested by Chapter 1 (Q16, Q17, Q20, Q21, Q22) and Chapter 2 (Q1-13) of the question bank. It covers the abnormal pupillary (fundal) reflex colours (white = mature cataract, grey = retinal detachment, black = vitreous haemorrhage, yellow = endophthalmitis, and no blue reflex for glaucoma), the Hirschberg corneal light reflex test for estimating the angle of strabismus (about 15 prism diopters per millimetre of reflex displacement, temporal reflex meaning esotropia), the normal corneal dimensions (~12 mm horizontal, ~11 mm vertical), the instruments of examination (the slit lamp for the anterior segment, needing accessory lenses for the fundus and gonioscopy for the angle; the ophthalmoscope for the fundus, essential in diabetic retinopathy; B-scan ultrasound for the opaque posterior segment; retinoscopy for objective refraction), the low-vision acuity ladder (counting fingers, hand movements, then light after Snellen failure), confrontation visual-field testing (detecting gross defects such as hemianopia but not small scotomas, while automated perimetry is selective), and the place of OCT as an ancillary imaging investigation rather than a routine bedside examination.
 ## sections
 ### Definition
 The basic ophthalmic examination is a sequence of bedside tests of vision, pupils, ocular alignment, fields and the fundus, supplemented by ancillary investigations. Each linked concept states one atomic examination fact.
@@ -172,7 +175,115 @@ CON-MUL-D37456D3801BC5
 CON-MUL-E636DBFE153BD7
 CON-MUL-CCFB7FB133FB5C
 CON-MUL-CD844B84714F9F
+CON-MUL-894E3D95277DE1
+CON-MUL-9214F82163A3AE
+CON-MUL-D82CCA5705D21D
+CON-MUL-96BF358B3D224A
+CON-MUL-C0C019EFD165AD
+CON-MUL-92132283B9B575
+CON-MUL-FF4CD1841C6C9C
+CON-MUL-97EAD8A5348297
+CON-MUL-89978BA0862E5A
 ## related_articles
+ART-OPH-315-EYE-ANATOMY
+ART-OPH-315-PROTECTIVE-SYSTEM
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the examination-flavoured Chapter-1 concepts (Q16, Q17, Q20, Q21, Q22) and the Chapter-2 clinical-examination concepts (Q1-13) under DIS-OPH-T01 (Eye examination). The corneal-dimensions concept (Q1/Q5) is an anatomical measurement filed on DIS-OPH-T02 but grouped here with its examination chapter.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-OPH-315-PROTECTIVE-SYSTEM
+## title
+Ophthalmology: the protective system of the eye (lids, lacrimal apparatus and orbit)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article groups the protective-system (adnexa) facts tested by the first tranche of Chapter 3 of the question bank (Q1-12). It covers proptosis (thyroid orbitopathy being the commonest adult cause), eyelid malposition (ectropion = outward rolling, entropion = inward rolling of the lid margin), ptosis (due to levator palpebrae superioris dysfunction, with causes including trauma, myasthenia and Horner's syndrome but not hypertension), lagophthalmos (incomplete lid closure from facial nerve palsy or proptosis, not trigeminal palsy), the ocular effects of facial nerve palsy (lagophthalmos and corneal exposure), thyroid eye disease (lid retraction rather than ptosis, with diplopia, proptosis and corneal ulcer), blepharitis (yellow crusts and marginal ulcers in the ulcerative form) and dacryocystitis (acute episodes treated with systemic antibiotics, chronic adult disease by dacryocystorhinostomy).
+## sections
+### Definition
+The protective system (adnexa) of the eye comprises the eyelids, the lacrimal apparatus and the bony orbit, which together shield, lubricate and support the globe. Each linked concept states one atomic fact about a disorder of this protective apparatus.
+### Mechanism
+Each structure protects the eye in a specific way, and disease breaks that protection: the eyelids spread the tear film and close reflexly (facial nerve), so levator failure causes ptosis and orbicularis failure causes lagophthalmos with corneal exposure; the lacrimal drainage runs from puncta to sac to nasolacrimal duct, so obstruction causes dacryocystitis; and the orbit houses and cushions the globe, so orbital muscle and fat swelling in thyroid disease causes proptosis.
+### Key determinants
+Discriminators tested here: ectropion turns out and entropion turns in; ptosis is levator failure while lagophthalmos is closure failure; thyroid eye disease retracts rather than droops the lid; the trigeminal nerve does not cause lagophthalmos; hypertension does not cause ptosis; acute dacryocystitis is treated with antibiotics first while chronic adult disease needs dacryocystorhinostomy; and ulcerative blepharitis shows yellow crusts and ulcers, unlike the dry scales of the squamous form.
+### Clinical significance
+These facts underlie everyday oculoplastic and lacrimal practice: recognising thyroid orbitopathy as the leading cause of proptosis, protecting the exposed cornea in facial palsy and lagophthalmos, correcting lid malpositions that threaten the cornea, and timing antibiotics versus dacryocystorhinostomy in lacrimal infection.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (ectropion versus entropion, ptosis versus lagophthalmos, lid retraction versus ptosis in thyroid disease, and the trigeminal versus facial nerve in lid closure).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye
+## subtopic
+The protective system of the eye
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-E7BFE48AD48903
+CON-MUL-9028DBB3377E0B
+CON-MUL-973F67D2C3EE9A
+CON-MUL-A8A1BDD23F13C7
+CON-MUL-EDCB6AC9A42A87
+CON-MUL-E99C4C95828A27
+CON-MUL-7ABBB8B8036F3E
+CON-MUL-F435EABAF475D8
+CON-MUL-E96A502423C6EA
+CON-MUL-8BC756E2C6A306
+CON-MUL-385D088DA85DB4
+CON-MUL-B9F020C4B6B5BB
+## related_articles
+ART-OPH-315-EYE-EXAM
 ART-OPH-315-EYE-ANATOMY
 ## resource_ids
 src_c30b94e296cd15ba86c2
@@ -200,6 +311,6 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the examination-flavoured Chapter-1 concepts (Q16, Q17, Q20, Q21, Q22) under DIS-OPH-T01 (Eye examination).
+groupingNote: Groups the first tranche of Chapter-3 protective-system concepts (Q1-12). DIS-OPH has no dedicated adnexa/protective-system node, so these lids/lacrimal/orbit facts are filed under the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent. Chapter 3 has 91 MCQs; Q13-91 remain for the next tranche.
 ## reading_time
-3
+4

@@ -1,0 +1,325 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch3-protective-system",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 3 The protective system of the eye (lids, lacrimal apparatus, orbit), first tranche MCQ Q1-12, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), each key cross-checked against the option text. 12 authored / 0 held / 0 excluded. Chapter 3 has 91 MCQs; Q13-91 remain for the next tranche.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > The protective system of the eye",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-PROTECTIVE-SYSTEM"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.3 The protective system of the eye (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "The protective system of the eye",
+    "question_type": "Recall",
+    "difficulty": "Easy",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.3 chapter->Q->letter table, cross-checked against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "id": "QST-KASR315OPH-KAMAL-CH3-01",
+      "page": 9,
+      "title": "Commonest cause of bilateral proptosis in adults",
+      "question": "The most common cause of bilateral proptosis in adults is:",
+      "options": {
+        "A": "Thyroid orbitopathy",
+        "B": "Orbital metastasis",
+        "C": "Lymphoma",
+        "D": "Frontal lobe meningioma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thyroid (Graves) orbitopathy is by far the commonest cause of proptosis in adults, whether unilateral or bilateral, resulting from autoimmune inflammation and swelling of the extraocular muscles and orbital fat. It typically produces bilateral, often asymmetrical, axial proptosis with lid retraction. Hence thyroid orbitopathy is the leading cause of bilateral adult proptosis.",
+        "B": "Incorrect. Orbital metastasis is an uncommon cause and is usually unilateral.",
+        "C": "Incorrect. Orbital lymphoma is much less common and typically presents unilaterally.",
+        "D": "Incorrect. A frontal lobe meningioma does not cause proptosis; a sphenoid-wing meningioma may cause unilateral proptosis."
+      },
+      "main_concept": "CON-MUL-E7BFE48AD48903",
+      "concept_ids": ["CON-MUL-E7BFE48AD48903"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Identify thyroid orbitopathy as the commonest cause of bilateral adult proptosis."
+    },
+    {
+      "key": "q02",
+      "id": "QST-KASR315OPH-KAMAL-CH3-02",
+      "page": 9,
+      "title": "Cause that does not produce lagophthalmos",
+      "question": "Lagophthalmos can occur in all of the following EXCEPT:",
+      "options": {
+        "A": "7th cranial nerve paralysis",
+        "B": "5th cranial nerve paralysis",
+        "C": "Thyrotoxic exophthalmos",
+        "D": "Parotid tumour"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it does cause lagophthalmos). Facial (7th) nerve palsy weakens orbicularis oculi so the lids cannot close.",
+        "B": "Correct. This is the exception: the trigeminal (5th) nerve is sensory to the eye and motor to mastication, and its palsy does not weaken lid closure, so it does not cause lagophthalmos (though corneal anaesthesia may cause neurotrophic keratitis). Lid closure depends on the facial nerve, not the trigeminal. Hence 5th nerve palsy is the odd one out.",
+        "C": "Incorrect (it does cause lagophthalmos). Severe proptosis in thyrotoxic exophthalmos prevents the lids from meeting.",
+        "D": "Incorrect (it can cause lagophthalmos). A parotid tumour may infiltrate the facial nerve, producing orbicularis weakness and lagophthalmos."
+      },
+      "main_concept": "CON-MUL-9028DBB3377E0B",
+      "concept_ids": ["CON-MUL-9028DBB3377E0B"],
+      "subtopic": "Lagophthalmos",
+      "learning_objective": "Recognise that trigeminal (5th nerve) palsy does not cause lagophthalmos."
+    },
+    {
+      "key": "q03",
+      "id": "QST-KASR315OPH-KAMAL-CH3-03",
+      "page": 10,
+      "title": "Management of acute-on-chronic dacryocystitis",
+      "question": "A 50-year-old woman presents with an acute painful swelling at the medial canthus. She had been treated for chronic dacryocystitis but was reluctant to undergo surgery. What is the most appropriate current management?",
+      "options": {
+        "A": "Surgery connecting the sac to the nose",
+        "B": "Probing of the lacrimal sac",
+        "C": "Intubation of the lacrimal sac",
+        "D": "Systemic antibiotics"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dacryocystorhinostomy is the definitive treatment but is deferred until the acute infection has settled.",
+        "B": "Incorrect. Probing is used for congenital nasolacrimal duct obstruction in infants and is inappropriate during acute infection.",
+        "C": "Incorrect. Silicone intubation is not the management of an acute infective episode.",
+        "D": "Correct. The picture is acute dacryocystitis (an acute-on-chronic flare), and the immediate management is systemic antibiotics together with warm compresses to control the infection. Definitive dacryocystorhinostomy is performed later, once the acute inflammation has resolved. Hence systemic antibiotics are the appropriate current management."
+      },
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-973F67D2C3EE9A",
+      "concept_ids": ["CON-MUL-973F67D2C3EE9A"],
+      "subtopic": "Dacryocystitis",
+      "learning_objective": "Select systemic antibiotics as the acute management of acute-on-chronic dacryocystitis."
+    },
+    {
+      "key": "q04",
+      "id": "QST-KASR315OPH-KAMAL-CH3-04",
+      "page": 10,
+      "title": "Muscle cause of upper eyelid ptosis",
+      "question": "Upper eyelid ptosis can be caused by:",
+      "options": {
+        "A": "Paralysis of the orbicularis muscle",
+        "B": "Levator palpebrae superioris muscle malfunction",
+        "C": "Levator palpebrae superioris muscle overaction",
+        "D": "Superior rectus muscle malfunction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The orbicularis closes the lid, so its paralysis causes lagophthalmos, not ptosis.",
+        "B": "Correct. The levator palpebrae superioris elevates the upper lid, so weakness or dehiscence of this muscle or its aponeurosis produces ptosis. Its smooth-muscle partner, Muller's muscle, contributes a small additional amount of elevation. Hence malfunction of the levator palpebrae superioris causes upper-lid ptosis.",
+        "C": "Incorrect. Overaction of the levator would retract, not droop, the lid.",
+        "D": "Incorrect. The superior rectus elevates the globe, not the eyelid."
+      },
+      "main_concept": "CON-MUL-A8A1BDD23F13C7",
+      "concept_ids": ["CON-MUL-A8A1BDD23F13C7"],
+      "subtopic": "Ptosis",
+      "learning_objective": "Attribute upper-lid ptosis to levator palpebrae superioris dysfunction."
+    },
+    {
+      "key": "q05",
+      "id": "QST-KASR315OPH-KAMAL-CH3-05",
+      "page": 10,
+      "title": "Definition of ectropion",
+      "question": "Ectropion means:",
+      "options": {
+        "A": "Rolling in of the eyelid margin",
+        "B": "Rolling out of the eyelid margin",
+        "C": "Rubbing of the eyelashes against the cornea",
+        "D": "Drooping of the upper eyelid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Inward rolling of the lid margin describes entropion.",
+        "B": "Correct. Ectropion is an outward turning (eversion) of the eyelid margin away from the globe, commonly involutional in the elderly or secondary to facial nerve palsy or cicatrisation. It exposes the palpebral conjunctiva and causes epiphora and exposure keratopathy. Hence ectropion means rolling out of the lid margin.",
+        "C": "Incorrect. Lashes rubbing on the cornea is trichiasis, often a consequence of entropion.",
+        "D": "Incorrect. Drooping of the upper eyelid is ptosis."
+      },
+      "main_concept": "CON-MUL-EDCB6AC9A42A87",
+      "concept_ids": ["CON-MUL-EDCB6AC9A42A87"],
+      "subtopic": "Eyelid malposition",
+      "learning_objective": "Define ectropion as outward rolling of the eyelid margin."
+    },
+    {
+      "key": "q06",
+      "id": "QST-KASR315OPH-KAMAL-CH3-06",
+      "page": 10,
+      "title": "Feature not seen in thyroid ophthalmopathy",
+      "question": "Thyroid ophthalmopathy can present with all of the following EXCEPT:",
+      "options": {
+        "A": "Diplopia",
+        "B": "Proptosis",
+        "C": "Corneal ulcer",
+        "D": "Ptosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it does occur). Restrictive myopathy of the extraocular muscles causes diplopia.",
+        "B": "Incorrect (it does occur). Orbital muscle and fat swelling produce proptosis.",
+        "C": "Incorrect (it does occur). Exposure from proptosis and lid retraction leads to exposure keratopathy and corneal ulceration.",
+        "D": "Correct. This is the exception: thyroid eye disease characteristically causes upper-lid RETRACTION and lid lag, which is the opposite of ptosis. The presence of ptosis would suggest another diagnosis such as coexisting myasthenia gravis. Hence ptosis is not a feature of thyroid ophthalmopathy."
+      },
+      "main_concept": "CON-MUL-E99C4C95828A27",
+      "concept_ids": ["CON-MUL-E99C4C95828A27"],
+      "subtopic": "Thyroid eye disease",
+      "learning_objective": "Recognise that thyroid eye disease causes lid retraction, not ptosis."
+    },
+    {
+      "key": "q07",
+      "id": "QST-KASR315OPH-KAMAL-CH3-07",
+      "page": 10,
+      "title": "Ocular effect of facial nerve palsy",
+      "question": "Facial nerve palsy:",
+      "options": {
+        "A": "Causes lagophthalmos and corneal exposure",
+        "B": "Causes ptosis and exotropia",
+        "C": "Causes miosis and loss of eye sensation",
+        "D": "Causes loss of vision"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The facial nerve supplies orbicularis oculi, so its palsy weakens lid closure, producing lagophthalmos and exposure of the cornea. The exposed cornea is then at risk of drying, ulceration and neurotrophic damage. Hence facial nerve palsy causes lagophthalmos and corneal exposure.",
+        "B": "Incorrect. Ptosis with a 'down-and-out' eye characterises a third (oculomotor) nerve palsy.",
+        "C": "Incorrect. Miosis is seen in Horner's syndrome, and corneal sensation is carried by the trigeminal nerve.",
+        "D": "Incorrect. Facial palsy does not directly reduce vision unless exposure keratopathy supervenes."
+      },
+      "main_concept": "CON-MUL-7ABBB8B8036F3E",
+      "concept_ids": ["CON-MUL-7ABBB8B8036F3E"],
+      "subtopic": "Facial nerve palsy",
+      "learning_objective": "State that facial nerve palsy causes lagophthalmos and corneal exposure."
+    },
+    {
+      "key": "q08",
+      "id": "QST-KASR315OPH-KAMAL-CH3-08",
+      "page": 10,
+      "title": "Definition of entropion",
+      "question": "Entropion is:",
+      "options": {
+        "A": "Rolling in of the lid margin",
+        "B": "An accessory row of eyelashes",
+        "C": "Downward drooping of the upper lid",
+        "D": "Outward protrusion of the lower lid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Entropion is an inward turning (inversion) of the eyelid margin so that the lashes rub against the cornea and conjunctiva. It is commonly involutional or cicatricial (for example after trachoma) and causes irritation and corneal damage from the resulting trichiasis. Hence entropion is rolling in of the lid margin.",
+        "B": "Incorrect. An accessory row of lashes is distichiasis.",
+        "C": "Incorrect. Downward drooping of the upper lid is ptosis.",
+        "D": "Incorrect. Outward turning of the lid margin is ectropion."
+      },
+      "main_concept": "CON-MUL-F435EABAF475D8",
+      "concept_ids": ["CON-MUL-F435EABAF475D8"],
+      "subtopic": "Eyelid malposition",
+      "learning_objective": "Define entropion as inward rolling of the eyelid margin."
+    },
+    {
+      "key": "q09",
+      "id": "QST-KASR315OPH-KAMAL-CH3-09",
+      "page": 10,
+      "title": "Standard treatment of chronic dacryocystitis in adults",
+      "question": "The standard procedure for the treatment of chronic dacryocystitis in adults is:",
+      "options": {
+        "A": "Probing",
+        "B": "Intubation",
+        "C": "Dacryocystorhinostomy",
+        "D": "Massaging"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Probing is used for congenital nasolacrimal duct obstruction in infants.",
+        "B": "Incorrect. Silicone intubation is an adjunct rather than the standard adult procedure.",
+        "C": "Correct. Chronic dacryocystitis in adults results from nasolacrimal duct obstruction, and the definitive treatment is dacryocystorhinostomy (DCR), which creates a new drainage passage between the lacrimal sac and the nasal cavity. This bypasses the blocked duct and relieves the stagnation and recurrent infection. Hence DCR is the standard procedure.",
+        "D": "Incorrect. Sac massage is used in congenital cases, not adult chronic dacryocystitis."
+      },
+      "main_concept": "CON-MUL-E96A502423C6EA",
+      "concept_ids": ["CON-MUL-E96A502423C6EA"],
+      "subtopic": "Dacryocystitis",
+      "learning_objective": "Identify dacryocystorhinostomy as the standard treatment of adult chronic dacryocystitis."
+    },
+    {
+      "key": "q10",
+      "id": "QST-KASR315OPH-KAMAL-CH3-10",
+      "page": 11,
+      "title": "Term for incomplete lid closure",
+      "question": "Incomplete closure of the palpebral fissure when the eyelids are shut is called:",
+      "options": {
+        "A": "Lagophthalmos",
+        "B": "Ptosis",
+        "C": "Bell's phenomenon",
+        "D": "Blepharochalasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lagophthalmos is the inability to close the eyelids completely, leaving part of the palpebral fissure open when closure is attempted. It results from facial nerve palsy, severe proptosis or lid scarring, and predisposes to exposure keratopathy. Hence incomplete lid closure is called lagophthalmos.",
+        "B": "Incorrect. Ptosis is drooping of the upper eyelid.",
+        "C": "Incorrect. Bell's phenomenon is the protective upward rolling of the globe on attempted lid closure.",
+        "D": "Incorrect. Blepharochalasis is recurrent lid oedema leaving lax, redundant lid skin."
+      },
+      "main_concept": "CON-MUL-8BC756E2C6A306",
+      "concept_ids": ["CON-MUL-8BC756E2C6A306"],
+      "subtopic": "Lagophthalmos",
+      "learning_objective": "Name incomplete palpebral closure as lagophthalmos."
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR315OPH-KAMAL-CH3-11",
+      "page": 11,
+      "title": "Features of ulcerative blepharitis",
+      "question": "In ulcerative blepharitis:",
+      "options": {
+        "A": "The lid margin is not inflamed.",
+        "B": "Scaly dandruff-like material is seen between the cilia.",
+        "C": "Treatment is by antifungal drugs.",
+        "D": "There are yellow crusts and ulcers on the lid margin."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. In ulcerative blepharitis the lid margin is inflamed.",
+        "B": "Incorrect. Scaly dandruff-like material describes squamous (seborrhoeic) blepharitis.",
+        "C": "Incorrect. Ulcerative blepharitis is staphylococcal and is treated with antibiotics and lid hygiene, not antifungals.",
+        "D": "Correct. Ulcerative (staphylococcal) blepharitis is characterised by hard yellow crusts at the lash bases which, when removed, reveal small bleeding ulcers on an inflamed lid margin. Chronic disease leads to lash loss, trichiasis and lid-margin scarring. Hence yellow crusts and ulcers on the lid margin typify ulcerative blepharitis."
+      },
+      "main_concept": "CON-MUL-385D088DA85DB4",
+      "concept_ids": ["CON-MUL-385D088DA85DB4"],
+      "subtopic": "Blepharitis",
+      "learning_objective": "Recognise the yellow crusts and marginal ulcers of ulcerative blepharitis."
+    },
+    {
+      "key": "q12",
+      "id": "QST-KASR315OPH-KAMAL-CH3-12",
+      "page": 11,
+      "title": "Cause not associated with ptosis",
+      "question": "The well-known causes of ptosis include the following EXCEPT:",
+      "options": {
+        "A": "Blunt trauma to the eyelid",
+        "B": "Hypertension",
+        "C": "Myasthenia gravis",
+        "D": "Horner's syndrome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a cause). Blunt trauma can disinsert the levator aponeurosis, producing aponeurotic ptosis.",
+        "B": "Correct. This is the exception: systemic hypertension is not a recognised cause of ptosis. The genuine causes are neurogenic (third-nerve palsy, Horner's syndrome), myogenic (myasthenia, myopathies), aponeurotic (age, trauma) and mechanical. Hence hypertension is the odd one out.",
+        "C": "Incorrect (it is a cause). Fatigable ptosis is a classic feature of myasthenia gravis.",
+        "D": "Incorrect (it is a cause). Loss of Muller's-muscle tone in Horner's syndrome gives a mild ptosis."
+      },
+      "main_concept": "CON-MUL-B9F020C4B6B5BB",
+      "concept_ids": ["CON-MUL-B9F020C4B6B5BB"],
+      "subtopic": "Ptosis",
+      "learning_objective": "Recognise that hypertension is not a cause of ptosis."
+    }
+  ]
+}
