@@ -7339,3 +7339,1002 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q88, p.15-17 / printed 14-16); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-65A70A893C6DB9
+## label
+Ischaemic heart disease is a group of syndromes from myocardial ischaemia
+## canonical_key
+ischemic-heart-disease.definition.group-of-syndromes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ischaemic heart disease (IHD) is not a single disease but a GROUP OF SYNDROMES caused by an imbalance between myocardial oxygen supply and demand, i.e. myocardial ischaemia. The recognised syndromes are angina pectoris, acute myocardial infarction, chronic ischaemic heart disease (heart failure) and sudden cardiac death. In more than 90% of cases the underlying cause is coronary atherosclerosis; embolism and spasm are rare causes, and sudden occlusion does not invariably cause sudden death.
+## explicit_objective
+Define ischaemic heart disease as a group of syndromes resulting from myocardial ischaemia (usually atherosclerotic).
+## pitfalls
+Treating IHD as one entity, attributing it mainly to embolism, or assuming sudden coronary occlusion always kills.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-71D0D90CB53615
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "ischemic-heart-disease.definition.group-of-syndromes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q92, p.18 / printed 17); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-A3936C80921EFD
+## label
+Myocardial infarction is the catastrophic form of ischaemic heart disease
+## canonical_key
+ischemic-heart-disease.myocardial-infarction.catastrophic-form
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the ischaemic heart disease syndromes, MYOCARDIAL INFARCTION is the catastrophic (acute, potentially fatal) form: prolonged coronary occlusion causes irreversible ischaemic coagulative necrosis of myocardium, risking fatal arrhythmia, cardiac failure, rupture and sudden death. It is distinguished from angina pectoris (reversible ischaemia without cell death) and from chronic ischaemic cardiomyopathy (progressive heart failure).
+## explicit_objective
+Identify myocardial infarction as the catastrophic form of ischaemic heart disease.
+## pitfalls
+Confusing the reversible ischaemia of angina, or the chronic failure of ischaemic cardiomyopathy, with the acute catastrophic infarction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-65A70A893C6DB9
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "ischemic-heart-disease.myocardial-infarction.catastrophic-form", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q95, p.18 / printed 17); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-4D2F66890A6FA5
+## label
+Sudden coronary occlusion is commonly caused by thrombosis
+## canonical_key
+coronary.sudden-occlusion.thrombosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sudden (abrupt) total occlusion of a coronary artery is commonly caused by THROMBOSIS superimposed on a disrupted (ruptured or eroded) atherosclerotic plaque: exposure of the lipid core and subendothelial collagen triggers platelet aggregation and a fibrin thrombus that occludes the lumen. This acute thrombotic event is the usual trigger of acute myocardial infarction. Intimal haemorrhage, embolism and vasculitis (polyarteritis nodosa) are far less common causes.
+## explicit_objective
+State that thrombosis on a ruptured plaque is the common cause of sudden coronary occlusion.
+## pitfalls
+Attributing sudden occlusion mainly to embolism or intraplaque haemorrhage rather than thrombosis on a disrupted plaque.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-09D923FF08EA10
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "coronary.sudden-occlusion.thrombosis", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q97, p.19 / printed 18); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-7D5C3E46F4A859
+## label
+Complications of myocardial infarction
+## canonical_key
+myocardial-infarction.complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The complications of myocardial infarction include arrhythmias (notably ventricular fibrillation and sudden death), acute left heart failure and cardiogenic shock, mural thrombosis with systemic embolism, myocardial (free wall, septal or papillary muscle) rupture, fibrinous pericarditis and, in the healed stage, ventricular aneurysm. Polyarteritis nodosa is a separate systemic vasculitis and is NOT a complication of MI.
+## explicit_objective
+List the complications of myocardial infarction and exclude polyarteritis nodosa.
+## pitfalls
+Mistaking the unrelated vasculitis polyarteritis nodosa for a complication of myocardial infarction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-B14B3D79B65E7A
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "myocardial-infarction.complications", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q98, p.19 / printed 18); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-11260360772B4C
+## label
+Acute cardiac ischaemia presents as unstable angina, infarction or sudden death
+## canonical_key
+acute-cardiac-ischemia.clinical-syndromes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ACUTE syndromes of cardiac ischaemia (acute coronary syndromes) are unstable angina pectoris, acute myocardial infarction and sudden cardiac death, all precipitated by acute plaque disruption with thrombosis. Chronic ischaemic heart disease presenting as HEART FAILURE (ischaemic cardiomyopathy) is by contrast the chronic manifestation, reflecting cumulative myocardial loss rather than an acute event.
+## explicit_objective
+Distinguish the acute ischaemic syndromes (unstable angina, MI, sudden death) from chronic ischaemic heart failure.
+## pitfalls
+Classifying chronic ischaemic heart failure as an acute ischaemic syndrome.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-65A70A893C6DB9
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The stem treats chronic heart failure as the item excluded from acute cardiac-ischaemia manifestations; heart failure can also complicate an acute infarction, but as an ischaemic SYNDROME it is the chronic form, so it is authored as the exception per the printed key.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "acute-cardiac-ischemia.clinical-syndromes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q99, p.19 / printed 18); detector gave no single red option on this negative-stem page, key adjudicated medically; no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-7108F99A7A3DC7
+## label
+Commonest site of myocardial infarction is the anterior wall of the left ventricle
+## canonical_key
+myocardial-infarction.commonest-site.anterior-wall-left-ventricle
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The commonest site of myocardial infarction is the ANTERIOR WALL of the LEFT VENTRICLE, extending to the adjacent anterior interventricular septum and apex, the territory of the LEFT ANTERIOR DESCENDING (LAD) coronary artery. The LAD is the most frequently and severely affected coronary vessel, and the left ventricle bears the greatest workload and oxygen demand, so anteroseptal infarction is the typical pattern. Posterior/inferior (right coronary or circumflex) and right-ventricular infarcts are less common.
+## explicit_objective
+State that the anterior wall of the left ventricle (LAD territory) is the commonest MI site.
+## pitfalls
+Choosing a posterior or right-ventricular site as commonest instead of the anterior LAD territory.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "myocardial-infarction.commonest-site.anterior-wall-left-ventricle", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q100, p.19 / printed 18); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-31C8E69B95931E
+## label
+Morphological time course of myocardial infarction
+## canonical_key
+myocardial-infarction.morphology.time-course
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute myocardial infarction evolves in a defined sequence. There is NO naked-eye change within the first few hours; the earliest microscopic finding is wavy myocardial fibres and early coagulative necrosis (contraction bands) within hours, with neutrophil infiltration at 1-3 days. Gross pallor/yellowing appears only from about 12-24 hours and becomes a soft yellow area with a hyperaemic border over 3-7 days as macrophages remove dead myocytes; granulation tissue fills the area in the second week, and a dense fibrous scar is laid down over roughly 2-6 weeks (maturing towards about 2 months).
+## explicit_objective
+Sequence the gross and microscopic changes of MI and state that gross changes are not visible within the first hours and the scar forms over about 2-6 weeks.
+## pitfalls
+Claiming a grossly visible (yellow) infarct within 4 hours, or a mature fibrous scar within the first days.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+Exact time windows for the gross/microscopic/scar stages vary slightly between textbooks; the ranges given (gross visible from ~12-24 h, scar over ~2-6 weeks) follow standard Robbins-level teaching. Q93 (a separate stem on MI morphology) was HELD because more than one of its options fell within defensible ranges and its single printed key could not be resolved.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "myocardial-infarction.morphology.time-course", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q101 + Q104, pp.19-20 / printed 18-19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-C1AD46A3C0D9CA
+## label
+Transmural myocardial infarction involves the full wall thickness
+## canonical_key
+myocardial-infarction.transmural.full-thickness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A TRANSMURAL myocardial infarct extends through the FULL (whole) thickness of the ventricular wall, from endocardium to epicardium. It is a pale (anaemic) ischaemic-necrotic infarct in the solid left-ventricular wall and is characteristically caused by acute occlusive THROMBOSIS on a ruptured coronary plaque. It is contrasted with the subendocardial (non-transmural) infarct, which spares the outer wall and involves only the inner third to half.
+## explicit_objective
+State that a transmural infarct involves the full wall thickness (endocardium to epicardium), distinguishing it from a subendocardial infarct.
+## pitfalls
+Describing a transmural infarct as sparing part of the wall thickness, which actually defines the subendocardial type.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-4D2F66890A6FA5
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "myocardial-infarction.transmural.full-thickness", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q103, p.19 / printed 18); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B14B3D79B65E7A
+## label
+Features of healed myocardial infarction (cardiac enzymes are normal)
+## canonical_key
+myocardial-infarction.healed.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A HEALED myocardial infarct is a dense fibrous scar. Its features/sequelae include ventricular (cardiac) aneurysm from a thin bulging scar, chronic arrhythmias arising from the scar disrupting conduction, and chronic (congestive) heart failure from loss of contractile myocardium. Because there is no ongoing myocyte necrosis in a healed infarct, cardiac enzymes such as serum CPK (and troponins) are NORMAL, not raised; a raised CPK indicates ACUTE, not healed, infarction.
+## explicit_objective
+State that a healed MI shows scar-related aneurysm, arrhythmia and heart failure with NORMAL cardiac enzymes (raised CPK marks acute MI).
+## pitfalls
+Expecting a persistently raised serum CPK in a healed infarct; the enzyme rise is a marker of acute necrosis only.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## article_ids
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-7D5C3E46F4A859
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "myocardial-infarction.healed.features", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q105, p.20 / printed 19); no department book located/read this pass.
+
+---

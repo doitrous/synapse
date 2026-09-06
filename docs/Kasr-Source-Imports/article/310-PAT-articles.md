@@ -488,3 +488,100 @@ university_notes: No department book PDF was located/read this pass -- written f
 7
 
 ---
+
+# Item
+## id
+ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
+## title
+Ischaemic heart disease: syndromes, causes and the morphology of myocardial infarction
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+This article groups the ischaemic-heart-disease concepts tested by Q92-105 of the paper. Ischaemic heart disease (IHD) is a group of syndromes — angina pectoris, acute myocardial infarction, chronic ischaemic heart disease (heart failure) and sudden cardiac death — resulting from myocardial ischaemia, caused in more than 90% of cases by coronary atherosclerosis. Sudden coronary occlusion is usually due to thrombosis on a ruptured plaque, and myocardial infarction is the catastrophic form. The commonest infarct site is the anterior wall of the left ventricle (LAD territory). Morphology evolves in a time course: no gross change in the first hours, wavy fibres and coagulative necrosis as the earliest microscopic findings, and a dense fibrous scar over roughly 2-6 weeks. Transmural infarcts involve the full wall thickness; complications include arrhythmia, heart failure, embolism, rupture and, in the healed scar, ventricular aneurysm — with cardiac enzymes (CPK) raised only in the acute phase, and HDL inversely related to IHD risk.
+## sections
+### Definition
+This article groups the IHD concepts tested by Q92-105 of the paper; each linked concept carries one atomic claim about the definition, causes, sudden occlusion, catastrophic form, commonest site, morphological time course, transmural pattern, complications and healed features of ischaemic heart disease and myocardial infarction.
+### Mechanism
+Coronary atherosclerosis narrows the lumen; plaque disruption with superimposed thrombosis causes sudden occlusion and acute ischaemia. Prolonged occlusion produces irreversible coagulative necrosis (infarction) that heals by organisation and fibrous scarring over weeks. HDL is protective (reverse cholesterol transport) while LDL is atherogenic.
+### Key determinants
+Discriminators tested here: IHD is a group of ischaemic syndromes (not a single embolic disease); atherosclerosis is the >90% cause; thrombosis causes sudden occlusion; MI is the catastrophic form; the anterior LV (LAD) is the commonest site; gross change is not visible within hours and the scar forms over 2-6 weeks; transmural means full wall thickness; complications exclude polyarteritis nodosa; raised CPK marks acute (not healed) MI; HDL is inversely correlated with IHD.
+### Clinical significance
+These facts underlie the recognition and staging of acute coronary syndromes, the interpretation of cardiac enzyme rises, the ageing of an infarct by morphology, and the risk stratification of patients by lipid profile.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversals the distractors exploit (embolism as the main cause, a grossly visible infarct within 4 hours, a transmural infarct sparing part of the wall, polyarteritis nodosa as an MI complication, a raised CPK in a healed infarct).
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Ischemic heart disease
+## subtopic
+Ischemic heart disease
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 systemic pathology
+## high_yield
+Core
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## related_concepts
+CON-CVS-65A70A893C6DB9
+CON-CVS-71D0D90CB53615
+CON-CVS-A3936C80921EFD
+CON-CVS-4D2F66890A6FA5
+CON-CVS-7D5C3E46F4A859
+CON-CVS-11260360772B4C
+CON-CVS-7108F99A7A3DC7
+CON-CVS-31C8E69B95931E
+CON-CVS-C1AD46A3C0D9CA
+CON-CVS-B14B3D79B65E7A
+CON-CVS-CDF186931EF8A8
+## related_articles
+ART-CVS-310PAT-ATHEROSCLEROSIS
+ART-CVS-310PAT-ENDOCARDITIS
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (pp.18-20 / printed 17-19; Q93 held).
+## reading_time
+8
+
+---

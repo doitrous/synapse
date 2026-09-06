@@ -11,8 +11,9 @@
 | abolmagd-cvs Heart / Endocarditis (Q67-72, same paper) | 6 | 0 | 0 | 0 | 6 |
 | abolmagd-cvs Heart chapter cont. (Q73-84, same paper) | 12 | 0 | 0 | 0 | 12 |
 | abolmagd-cvs Heart chapter tail (Q85-91, same paper) | 7 | 0 | 0 | 0 (→ Ischemic Heart Disease Q92+ p.18) | 7 |
-| **abolmagd-cvs cluster total** | **87** | **0** | **3** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 87 | 0 | 3 | untriaged | — |
+| abolmagd-cvs Ischemic Heart Disease (Q92-105, same paper) | 13 | 1 | 0 | 0 (→ Heart Diseases Q106+ p.20) | 14 |
+| **abolmagd-cvs cluster total** | **100** | **1** | **3** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 100 | 1 | 3 | untriaged | — |
 
 ## Module opened
 
@@ -210,13 +211,44 @@ reusing `CON-CVS-DF17094880BEAE` (the bank's established near-restatement patter
 **Gate-clean** (question 7/0, concept 66/0; combined simulate created=91/rejected=0/errors=0; audit
 neutral vs the 310-PAT baseline — 17 pre-existing placeholder families only, no new error category).
 
+## Cluster — abolmagd-cvs-ihd (Q92-105)
+
+13/14 authored (Q92, Q94-105), **1 held (Q93), 0 excluded**. This opens the paper's **ISCHEMIC
+HEART DISEASE** section (pp.18-20 / printed 17-19). The auto-detector over-flags the negative-stem
+pages here (Q92 B,C,D; Q95 C,D; Q98 B,D flagged "multiple"; Q96/Q97/Q99 missed), so keys were taken
+from the single medically-correct option of each standard-pathology stem; detector-confirmed the
+clean reds Q94.d, Q100.a, Q101.c, Q102.c, Q103.d, Q104.d, Q105.b. Authored keys: Q92.b, Q94.d, Q95.c,
+Q96.d, Q97.b, Q98.d, Q99.b, Q100.a, Q101.c, Q102.c, Q103.d, Q104.d, Q105.b. **9 new concepts minted**
+(IHD-definition-group-of-syndromes/Q92; MI-catastrophic-form/Q95; sudden-occlusion-thrombosis/Q97;
+MI-complications/Q98; acute-cardiac-ischaemia-syndromes/Q99; commonest-site-anterior-LV/Q100;
+MI-morphology-time-course/Q101+Q104; transmural-full-thickness/Q103; healed-MI-features/Q105),
+university-blind (CON-CVS- + first 14 hex of SHA-256 of the canonical key, uppercased),
+collision-checked against the corpus — no collisions, no in-batch duplicates. Reused: the
+atherosclerosis-cause-of-IHD concept CON-CVS-71D0D90CB53615 (Q94 main + Q96 main), the HDL-good
+concept CON-CVS-CDF186931EF8A8 (Q102 main), and the atherosclerosis risk-factor / thrombosis-complication
+concepts as contextual links. Grouped into a **new library article
+`ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE`** (cross-linked to the atherosclerosis and endocarditis
+articles). **Held:** Q93 (morphology of MI) — more than one option is defensibly true (coagulative
+necrosis after 24h, fibrous scar over 2-3 months, phagocytosis/organisation in the first week) and the
+single printed red key could not be resolved; recorded in the seed `hold` and in the time-course concept
+`uncertainty`. **Exam-key note:** Q99 (heart failure excluded from acute cardiac ischaemia) — heart
+failure is the chronic IHD syndrome, authored as the exception per the printed key, flagged in
+`author_notes` + concept `uncertainty`. Files: `question/310-PAT-abolmagd-ihd-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-ihd.json`. **Gate-clean** (question 13/0, concept 75/0, article 6/0;
+simulate created=95/rejected=0/errors=0; audit neutral vs the 310-PAT baseline — the new article and 9
+concepts sit only under the pre-existing placeholder families, no new error category, count scales with
+item count).
+
 ## Next cluster
 
-**Remaining on this paper:** the **ISCHEMIC HEART DISEASE** section — **Q92-103+ (p.18+ / printed 17+)**,
-IHD/MI items (provisional keys from medical reading, render-adjudicate the ambiguous ones before
-authoring: Q92.b, Q93 HOLD-render, Q94.d, Q95.c, Q96.d, Q97.b, Q98.d, Q99.b, Q100.a, Q101.c, Q102.c,
-Q103.d — Q93 morphology-of-MI has more than one defensible true option and needs a render check), then
-**Heart Diseases (p.19+)**, the **2008-2015 MCQ set (p.24+)** and Written topics (p.26+, non-MCQ).
+**Remaining on this paper:** the **HEART DISEASES** section — **Q106-132+ (p.20+ / printed 19+)**:
+congenital heart disease (VSD, ASD, Fallot's tetralogy, transposition — Q106-113), valvular disease
+(mitral stenosis and its complications, carcinoid — Q114-119), cardiomyopathy (Q120-122), pericarditis
+(Q123-126) and heart-failure syndromes (left/right, PND — Q127-132+). Detector reds already read on
+pp.20-21: Q108.d, Q109.c, Q110.b, Q111.b, Q112.a, Q115.c, Q116.c (Q106/Q113 flagged multiple, Q107/Q114
+missed — adjudicate the single medically-correct option, all standard-pathology stems). Q93 (morphology
+of MI) stays **HELD** (render did not resolve the multi-defensible key). After Heart Diseases: the
+**2008-2015 MCQ set (p.24+)** and Written topics (p.26+, non-MCQ).
 **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
 Tarek folders) and the entire **Pharmacology** sub-corpus (`All 197 Qs answered by pharmaga.pdf`,
