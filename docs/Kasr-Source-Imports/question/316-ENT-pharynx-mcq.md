@@ -2533,3 +2533,1396 @@ Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF 
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-25
+
+## title
+Management of secondary post-tonsillectomy bleeding
+
+## question
+A 5-year-old boy presented to the emergency room with bleeding from the mouth. He underwent tonsillectomy one week ago. His surgery went uneventful and he was discharged home the same day in a stable condition. Six days later, he started to spit a few blood drops. Then, bleeding gradually progressed. His haemoglobin on admission was 11.5. Management of such a case should be:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Surgical intervention in the form of ligation of the bleeders.
+
+## explanation_a
+Incorrect. Surgical ligation is reserved for a heavy or continuing secondary bleed; a minor day-six bleed with a stable haemoglobin of 11.5 does not need theatre first.
+
+## answer_b
+Admission to the hospital, observation and IV antibiotics.
+
+## explanation_b
+Correct. This is a secondary post-tonsillectomy haemorrhage, beginning about the sixth day when infection separates the slough over the tonsillar bed. A stable child with only a small bleed and a near-normal haemoglobin is managed by admission, observation, rehydration and intravenous antibiotics to treat the underlying infection. Surgical ligation is held in reserve for bleeding that is heavy or does not settle.
+
+## answer_c
+Immediate tracheostomy to save his airway.
+
+## explanation_c
+Incorrect. There is no airway compromise, so an immediate tracheostomy is unwarranted and would add serious morbidity.
+
+## answer_d
+Immediate blood transfusion to replace his blood loss.
+
+## explanation_d
+Incorrect. With a haemoglobin of 11.5 and a small bleed, immediate transfusion is not indicated; transfusion is guided by the actual volume of blood loss, not given reflexively.
+
+## answer_e
+Angiography and embolization of the bleeding vessels.
+
+## explanation_e
+Incorrect. Angiography and embolisation are used for uncontrollable arterial bleeding, not for a minor infective secondary bleed that responds to antibiotics and observation.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillectomy
+
+## main_concept
+CON-MUL-D49FBF136F6AA5
+
+## concept_ids
+CON-MUL-D49FBF136F6AA5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Manage a stable secondary post-tonsillectomy bleed with admission, observation and IV antibiotics.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.51); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-26
+
+## title
+Absolute contraindication to tonsillectomy
+
+## question
+Tonsillectomy is absolutely contraindicated in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Chronic tonsillitis.
+
+## explanation_a
+Incorrect. Chronic tonsillitis is an indication for tonsillectomy, not a contraindication.
+
+## answer_b
+Quinsy.
+
+## explanation_b
+Incorrect. A previous quinsy is in fact an accepted indication for interval tonsillectomy; an active quinsy only delays surgery, it is not an absolute bar.
+
+## answer_c
+Haemophilia.
+
+## explanation_c
+Correct. An uncorrected bleeding disorder such as haemophilia is an absolute contraindication to tonsillectomy, because the raw tonsillar bed cannot be reliably controlled and fatal haemorrhage may follow. The coagulopathy must be corrected before any consideration of surgery. This is why a bleeding history is screened for before the operation.
+
+## answer_d
+Below five years.
+
+## explanation_d
+Incorrect. Age below five is not an absolute contraindication; tonsillectomy is done in younger children when clearly indicated, such as for obstructive sleep apnoea, with appropriate care.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillectomy
+
+## main_concept
+CON-MUL-F963B0991407CF
+
+## concept_ids
+CON-MUL-F963B0991407CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify an uncorrected bleeding disorder as the absolute contraindication to tonsillectomy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.51); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-27
+
+## title
+False statement about acute tonsillitis
+
+## question
+The following is not true about acute tonsillitis:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is more common in children.
+
+## explanation_a
+Incorrect (true statement). Acute tonsillitis is indeed more common in children, so this is true and not the exception.
+
+## answer_b
+It may be complicated by rheumatic fever.
+
+## explanation_b
+Incorrect (true statement). Streptococcal tonsillitis may be complicated by rheumatic fever, so this is true.
+
+## answer_c
+Complete blood count shows marked eosinophilia.
+
+## explanation_c
+Correct (the false statement). Acute tonsillitis is a bacterial infection and its complete blood count shows a neutrophil leucocytosis, not marked eosinophilia. Eosinophilia points instead to allergic or parasitic disease. Naming marked eosinophilia as a feature is therefore the untrue statement.
+
+## answer_d
+Is accompanied by enlarged tender jugulo-digastric lymph nodes.
+
+## explanation_d
+Incorrect (true statement). The jugulodigastric (tonsillar) lymph nodes become enlarged and tender in acute tonsillitis, so this is true.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillitis
+
+## main_concept
+CON-MUL-DCC9F409340272
+
+## concept_ids
+CON-MUL-DCC9F409340272
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that acute tonsillitis shows a neutrophil leucocytosis, not eosinophilia.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.51); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-28
+
+## title
+Timing of primary haemorrhage in tonsillectomy
+
+## question
+Primary haemorrhage in tonsillectomy occurs:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Within the first 24 hours following the operation.
+
+## explanation_a
+Incorrect. Bleeding within the first 24 hours is reactionary haemorrhage, not primary.
+
+## answer_b
+After one week.
+
+## explanation_b
+Incorrect. Bleeding after one week is secondary haemorrhage, from infection of the tonsillar bed.
+
+## answer_c
+Within 2 days following the operation.
+
+## explanation_c
+Incorrect. Bleeding within two days falls in the reactionary or early secondary window, not the primary one.
+
+## answer_d
+During the operation.
+
+## explanation_d
+Correct. Primary haemorrhage is the bleeding that occurs during the operation itself, as the tonsil is removed and the bed is raw. It is controlled at the time by pressure, ligation or diathermy. Reactionary bleeding (first 24 hours) and secondary bleeding (fifth to tenth day) are the later categories.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillectomy
+
+## main_concept
+CON-MUL-670DBEB1C8AF41
+
+## concept_ids
+CON-MUL-670DBEB1C8AF41
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that primary haemorrhage in tonsillectomy occurs during the operation.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.51); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-29
+
+## title
+Timing of reactionary haemorrhage
+
+## question
+Reactionary hemorrhage occurs:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+During the operation.
+
+## explanation_a
+Incorrect. Bleeding during the operation is primary haemorrhage, not reactionary.
+
+## answer_b
+Within the first day after the operation.
+
+## explanation_b
+Correct. Reactionary haemorrhage occurs within the first 24 hours (the first day) after the operation, typically from a slipped ligature or a rise in blood pressure as the patient recovers from anaesthesia. It is distinct from primary bleeding during surgery and from the later secondary bleed. Recognising this early window prompts prompt re-examination and control.
+
+## answer_c
+From 2-5 days after the operation.
+
+## explanation_c
+Incorrect. Bleeding from two to five days is drifting toward the secondary window rather than the reactionary one.
+
+## answer_d
+From 5-15 days after the operation.
+
+## explanation_d
+Incorrect. Bleeding from five to fifteen days is secondary haemorrhage, caused by infection of the healing bed.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillectomy
+
+## main_concept
+CON-MUL-670DBEB1C8AF41
+
+## concept_ids
+CON-MUL-670DBEB1C8AF41
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that reactionary post-tonsillectomy haemorrhage occurs within the first 24 hours.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-30
+
+## title
+Not an indication for tonsillectomy
+
+## question
+Indications of tonsillectomy include the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Repeated attacks of tonsillitis more than 5 attacks per year.
+
+## explanation_a
+Incorrect (true indication). Recurrent tonsillitis with more than about five attacks per year is a classic indication, so it is not the exception.
+
+## answer_b
+Single attack of acute follicular tonsillitis with very high fever.
+
+## explanation_b
+Correct (the exception). A single attack of acute follicular tonsillitis, however high the fever, is not an indication for tonsillectomy; the operation is reserved for recurrent or complicated disease. One episode is treated medically. Naming a single attack as an indication is therefore the incorrect option.
+
+## answer_c
+After an attack of quinsy.
+
+## explanation_c
+Incorrect (true indication). A previous quinsy (peritonsillar abscess) is an accepted indication for interval tonsillectomy, so it is not the exception.
+
+## answer_d
+Large tonsils causing sleep apnea.
+
+## explanation_d
+Incorrect (true indication). Tonsillar hypertrophy causing obstructive sleep apnoea is a strong indication for tonsillectomy, so it is not the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tonsillectomy
+
+## main_concept
+CON-MUL-DB3EC747015EAB
+
+## concept_ids
+CON-MUL-DB3EC747015EAB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-TONSIL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that a single attack of tonsillitis is not an indication for tonsillectomy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-31
+
+## title
+Multiple oral ulcers in a healthy young adult
+
+## question
+A 30 year old female, otherwise healthy, presented with odynophagia of few days duration. On examination of the oral cavity, multiple ulcers were seen in the soft palate, inner cheeks and oropharyngeal walls. The most probable pathogenesis of such ulcers is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Aphthous ulcers.
+
+## explanation_a
+Correct. Multiple painful ulcers on the soft palate, inner cheeks and oropharyngeal walls of an otherwise healthy young adult are typical recurrent aphthous ulcers. They are multiple, recurrent and self-limiting, healing within one to two weeks. This benign pattern fits the picture far better than a neoplastic or infective membrane.
+
+## answer_b
+Leukoplakia.
+
+## explanation_b
+Incorrect. Leukoplakia is a white plaque rather than multiple painful ulcers, and is a disease of older smokers.
+
+## answer_c
+Diphtheria.
+
+## explanation_c
+Incorrect. Diphtheria produces a single adherent membrane with systemic toxaemia, not scattered multiple ulcers in a well patient.
+
+## answer_d
+Carcinoma in situ.
+
+## explanation_d
+Incorrect. Carcinoma in situ presents as a solitary persistent lesion in an older or high-risk patient, not multiple acute ulcers in a healthy 30-year-old.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oral cavity
+
+## main_concept
+CON-MUL-30F7A2EC6C6A30
+
+## concept_ids
+CON-MUL-30F7A2EC6C6A30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Diagnose multiple recurrent oral ulcers in a healthy young adult as aphthous ulcers.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-32
+
+## title
+Condition producing a true pharyngeal membrane
+
+## question
+A true membrane occurs on the pharyngeal mucosa in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Diphtheria.
+
+## explanation_a
+Correct. A true membrane — greyish, firmly adherent, bleeding when peeled off and reforming — occurs in diphtheria. It reflects mucosal necrosis produced by the diphtheria toxin. This is the classic sign that separates diphtheria from other causes of pharyngeal exudate.
+
+## answer_b
+Acute follicular tonsillitis.
+
+## explanation_b
+Incorrect. Acute follicular tonsillitis gives a false membrane of exudate over the crypts that wipes off without bleeding.
+
+## answer_c
+Vincent's angina.
+
+## explanation_c
+Incorrect. Vincent's angina produces an ulcer with a greyish slough rather than a true adherent bleeding membrane.
+
+## answer_d
+Infectious mononucleosis.
+
+## explanation_d
+Incorrect. Infectious mononucleosis causes a whitish exudate on enlarged tonsils that is not a true membrane.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oral cavity
+
+## main_concept
+CON-MUL-B58E511CD8308D
+
+## concept_ids
+CON-MUL-B58E511CD8308D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that a true pharyngeal membrane occurs in diphtheria.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-33
+
+## title
+False statement about oral moniliasis
+
+## question
+In oral moniliasis all is true except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Presents by whitish patches in the oropharynx.
+
+## explanation_a
+Incorrect (true statement). Oral moniliasis presents with removable whitish patches in the oropharynx, so this is true.
+
+## answer_b
+Is treated by massive doses of antibiotics.
+
+## explanation_b
+Correct (the false statement). Oral moniliasis is a fungal (candidal) infection and is treated with antifungals such as nystatin, not antibiotics. Massive doses of antibiotics do not help and actually worsen it by suppressing the competing normal flora. Naming antibiotics as the treatment is therefore the untrue statement.
+
+## answer_c
+Common in immuno compromised patients.
+
+## explanation_c
+Incorrect (true statement). Moniliasis is common in immunocompromised and debilitated patients, so this is true.
+
+## answer_d
+Caused by candida albicans.
+
+## explanation_d
+Incorrect (true statement). Oral moniliasis is caused by Candida albicans, so this is true.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oral cavity
+
+## main_concept
+CON-MUL-5A05E5B39A668B
+
+## concept_ids
+CON-MUL-5A05E5B39A668B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that oral moniliasis is candidal and is treated with antifungals, not antibiotics.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-34
+
+## title
+Causes of oropharyngeal ulcers
+
+## question
+Oropharyngeal ulcers can be due to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Mechanical trauma.
+
+## explanation_a
+Incorrect on its own. Mechanical trauma from a sharp tooth or denture is a genuine cause, but it is not the only one listed.
+
+## answer_b
+Herpes simplex.
+
+## explanation_b
+Incorrect on its own. Herpes simplex is a real viral cause of oropharyngeal ulceration, but only one of several correct items.
+
+## answer_c
+Dyspeptic.
+
+## explanation_c
+Incorrect on its own. Dyspepsia and reflux can ulcerate the oropharyngeal mucosa, yet this is still only part of the answer.
+
+## answer_d
+Agranulocytosis.
+
+## explanation_d
+Incorrect on its own. Agranulocytosis is a recognised haematological cause of oropharyngeal ulcers, but again not the complete answer.
+
+## answer_e
+All of the above.
+
+## explanation_e
+Correct. Oropharyngeal ulcers have a broad differential, and mechanical trauma, herpes simplex, dyspepsia and agranulocytosis are each genuine causes. Because all four listed items are true causes, all of the above is the correct choice. This breadth is why an oropharyngeal ulcer prompts a search across traumatic, infective, dyspeptic and haematological groups.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oral cavity
+
+## main_concept
+CON-MUL-D2DD391C2A1B56
+
+## concept_ids
+CON-MUL-D2DD391C2A1B56
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List trauma, herpes simplex, dyspepsia and agranulocytosis as causes of oropharyngeal ulcers.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.52); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Source printed six options a-f; the redundant never-correct filler f) 'None of the above' was dropped to fit the 4-5 option contract, keeping e) 'All of the above' as the printed key (grid key e).

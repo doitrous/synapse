@@ -14960,3 +14960,892 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tonsillectomy.indications", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+
+---
+
+# Item
+## id
+CON-MUL-D49FBF136F6AA5
+## label
+Secondary post-tonsillectomy haemorrhage is managed by admission, observation and intravenous antibiotics
+## canonical_key
+otolaryngology.tonsillectomy.secondary-haemorrhage-management-admission-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Secondary haemorrhage after tonsillectomy appears around the fifth to tenth day, when infection separates the slough over the healing tonsillar bed. Most such bleeds are minor and are managed conservatively by hospital admission, observation, rehydration and intravenous antibiotics to control the infection. Surgical exploration and ligation of the bleeding vessel are reserved for a heavy or continuing haemorrhage that does not settle.
+## explicit_objective
+State that secondary post-tonsillectomy haemorrhage is managed by admission, observation and intravenous antibiotics.
+## pitfalls
+Because the cause is infection, antibiotics and observation are first line; taking every minor day-six bleed straight to theatre or giving an immediate transfusion for a small bleed is unnecessary, and tracheostomy is not the answer.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillectomy
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tonsillectomy.secondary-haemorrhage-management-admission-antibiotics", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-F963B0991407CF
+## label
+Tonsillectomy is absolutely contraindicated in an uncorrected bleeding disorder
+## canonical_key
+otolaryngology.tonsillectomy.absolute-contraindication-bleeding-disorder
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An uncorrected bleeding disorder such as haemophilia is an absolute contraindication to tonsillectomy, because the raw tonsillar bed cannot be reliably controlled and life-threatening haemorrhage may follow. Active infection (acute tonsillitis or a recent quinsy) and uncontrolled systemic illness are relative contraindications that are corrected or allowed to settle before surgery. Age below five or a correctable bleeding tendency are not absolute bars on their own.
+## explicit_objective
+State that an uncorrected bleeding disorder (e.g. haemophilia) is an absolute contraindication to tonsillectomy.
+## pitfalls
+Chronic tonsillitis, a previous quinsy and age below five are not absolute contraindications, whereas an uncorrected coagulopathy such as haemophilia is.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillectomy
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tonsillectomy.absolute-contraindication-bleeding-disorder", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-DCC9F409340272
+## label
+Acute tonsillitis shows a neutrophil leucocytosis, not eosinophilia
+## canonical_key
+otolaryngology.acute-tonsillitis.features-neutrophilia-not-eosinophilia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute tonsillitis, usually a group A streptococcal infection, is commoner in children, presents with fever, sore throat and tender enlarged jugulodigastric lymph nodes, and may be complicated by rheumatic fever or glomerulonephritis. Its blood picture is a neutrophil leucocytosis that reflects a bacterial infection. Marked eosinophilia is not a feature and instead points to allergic or parasitic disease.
+## explicit_objective
+Recognise that acute tonsillitis produces a neutrophil leucocytosis, tender jugulodigastric nodes and rheumatic or nephritic risk, but not eosinophilia.
+## pitfalls
+Describing the complete blood count of acute tonsillitis as showing marked eosinophilia is the false statement; it shows neutrophilia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillitis
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.acute-tonsillitis.features-neutrophilia-not-eosinophilia", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-670DBEB1C8AF41
+## label
+Post-tonsillectomy haemorrhage is primary (during surgery), reactionary (first 24 hours) or secondary (fifth to tenth day)
+## canonical_key
+otolaryngology.post-tonsillectomy-haemorrhage.classification-timing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bleeding after tonsillectomy is classified by its timing. Primary haemorrhage occurs during the operation itself. Reactionary haemorrhage occurs within the first 24 hours, usually from a slipped ligature or a rise in blood pressure as the patient recovers from anaesthesia. Secondary haemorrhage occurs about the fifth to tenth day, from infection of the healing tonsillar bed.
+## explicit_objective
+Classify post-tonsillectomy haemorrhage as primary (during surgery), reactionary (within the first 24 hours) or secondary (fifth to tenth day).
+## pitfalls
+Confusing reactionary bleeding (within 24 hours, from a slipped ligature or blood pressure) with secondary bleeding (days later, from infection) leads to the wrong cause and management.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillectomy
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.post-tonsillectomy-haemorrhage.classification-timing", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-30F7A2EC6C6A30
+## label
+Aphthous ulcers are recurrent, multiple, self-limiting oral ulcers and are not fungal
+## canonical_key
+otolaryngology.aphthous-ulcer.recurrent-multiple-self-limiting-not-fungal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Recurrent aphthous ulceration produces multiple painful shallow ulcers on the non-keratinised mucosa of the soft palate, inner cheeks and oropharyngeal walls, typically in otherwise healthy young adults. The ulcers recur, are multiple and heal spontaneously within one to two weeks. They are not caused by a fungus; candidal disease (moniliasis) is a separate entity.
+## explicit_objective
+Recognise aphthous ulcers as recurrent, multiple, self-limiting oral ulcers that are not fungal in origin.
+## pitfalls
+Multiple recurrent oral ulcers in a healthy young adult are aphthous, not leukoplakia, diphtheria or carcinoma in situ; attributing them to a fungus is wrong.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oral cavity
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oral cavity
+## article_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.aphthous-ulcer.recurrent-multiple-self-limiting-not-fungal", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-B58E511CD8308D
+## label
+A true membrane on the pharyngeal mucosa occurs in diphtheria
+## canonical_key
+otolaryngology.pharyngeal-diphtheria.true-membrane
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphtheria produces a true membrane on the pharyngeal mucosa: a greyish, firmly adherent membrane that bleeds when peeled off and then reforms. This distinguishes it from the false membrane of acute follicular tonsillitis, which wipes off easily without bleeding. Vincent's angina and infectious mononucleosis give a slough or exudate rather than a true, bleeding membrane.
+## explicit_objective
+State that a true (adherent, bleeding) membrane on the pharyngeal mucosa occurs in diphtheria.
+## pitfalls
+The membrane of follicular tonsillitis is false and wipes off; only the diphtheritic membrane is true, adherent and bleeds on removal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oral cavity
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oral cavity
+## article_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.pharyngeal-diphtheria.true-membrane", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-5A05E5B39A668B
+## label
+Oral moniliasis is a candidal infection and is not treated by antibiotics
+## canonical_key
+otolaryngology.oral-moniliasis.candida-not-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Oral moniliasis (thrush) is caused by Candida albicans and appears as removable whitish patches in the oropharynx, typically in infants, the debilitated or the immunocompromised, and after broad-spectrum antibiotics or steroids. It is treated with antifungal agents such as nystatin. Giving massive doses of antibiotics does not help and actually worsens it by further suppressing the competing normal flora.
+## explicit_objective
+State that oral moniliasis is candidal, occurs in the immunocompromised, and is treated with antifungals rather than antibiotics.
+## pitfalls
+Treating oral candidiasis with massive antibiotics is the false statement and aggravates the infection; the whitish patches and immunocompromised setting are true features.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oral cavity
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oral cavity
+## article_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oral-moniliasis.candida-not-antibiotics", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-D2DD391C2A1B56
+## label
+Oropharyngeal ulcers have many causes including trauma, herpes simplex, dyspepsia and agranulocytosis
+## canonical_key
+otolaryngology.oropharyngeal-ulcers.multiple-causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ulcers of the oropharynx have a wide differential. Mechanical trauma from a sharp tooth or denture, viral infection such as herpes simplex, acid dyspepsia and reflux, and blood dyscrasias such as agranulocytosis can each produce oropharyngeal ulceration. Because every one of these is a genuine cause, an oropharyngeal ulcer should prompt a search across traumatic, infective, dyspeptic and haematological groups.
+## explicit_objective
+List trauma, herpes simplex, dyspepsia and agranulocytosis among the causes of oropharyngeal ulcers.
+## pitfalls
+Assuming a single cause misses the breadth: trauma, herpes simplex, dyspepsia and agranulocytosis are all recognised causes of oropharyngeal ulcers.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oral cavity
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oral cavity
+## article_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oropharyngeal-ulcers.multiple-causes", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

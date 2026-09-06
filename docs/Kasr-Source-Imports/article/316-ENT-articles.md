@@ -2085,6 +2085,10 @@ DIS-ENT-T03
 CON-MUL-CE5D68221B7E82
 CON-MUL-48199190BEB9AE
 CON-MUL-DB3EC747015EAB
+CON-MUL-D49FBF136F6AA5
+CON-MUL-F963B0991407CF
+CON-MUL-DCC9F409340272
+CON-MUL-670DBEB1C8AF41
 ## related_articles
 ART-ENT-316-PHARYNX-ADENOID
 ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
@@ -2115,5 +2119,93 @@ Admin team
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 groupingNote: Groups the Pharynx-section tonsils concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## title
+Otorhinolaryngology: ulcers and membranes of the oral cavity and oropharynx
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the oral-cavity and oropharyngeal lesions tested by the bank's Pharynx section (Q31-35): recurrent aphthous ulcers, the wider causes of oropharyngeal ulcers, oral moniliasis (candidiasis), and the distinction between the true membrane of diphtheria and the false membrane of follicular tonsillitis.
+## sections
+### Definition
+The oral cavity and oropharynx are lined by mucosa that responds to trauma, infection and systemic disease with ulcers and membranes; this cluster covers the common patterns and their discriminators.
+### Mechanism
+Aphthous ulcers are recurrent, multiple, self-limiting ulcers of the non-keratinised mucosa in healthy young adults. Oral moniliasis is a Candida albicans infection favoured by immunocompromise, antibiotics or steroids. Diphtheria lays down a true, adherent membrane that bleeds on removal, whereas follicular tonsillitis produces a false membrane that wipes off. Oropharyngeal ulcers also arise from mechanical trauma, herpes simplex, dyspepsia and blood dyscrasias such as agranulocytosis.
+### Key determinants
+Discriminators tested here: aphthous ulcers are not fungal and heal spontaneously; oral moniliasis is treated with antifungals and is worsened, not helped, by massive antibiotics; a true bleeding membrane means diphtheria, not follicular tonsillitis; and oropharyngeal ulcers have traumatic, infective, dyspeptic and haematological causes.
+### Clinical significance
+These facts guide bedside reasoning: multiple recurrent oral ulcers in a well young adult need reassurance, not a cancer work-up; whitish oropharyngeal patches in an immunocompromised patient call for an antifungal; and an adherent bleeding pharyngeal membrane demands urgent treatment for diphtheria.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (calling aphthous ulcers fungal, treating candidiasis with antibiotics, or mistaking the false membrane of tonsillitis for a true membrane).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Oral cavity
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-30F7A2EC6C6A30
+CON-MUL-B58E511CD8308D
+CON-MUL-5A05E5B39A668B
+CON-MUL-D2DD391C2A1B56
+## related_articles
+ART-ENT-316-PHARYNX-TONSIL
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section oral-cavity and oropharyngeal ulcer/membrane concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
