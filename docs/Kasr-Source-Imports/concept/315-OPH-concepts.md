@@ -32659,3 +32659,2888 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q56-73) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-0B8FD48E3D96AC
+## label
+Congenital nasolacrimal duct obstruction is first treated by massage
+## canonical_key
+ophthalmology.congenital-nasolacrimal-duct-obstruction.first-line-massage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Congenital nasolacrimal duct obstruction (usually an imperforate valve of Hasner) presents with a watery, sometimes sticky eye in infancy; most cases resolve spontaneously, so the first line of treatment in the early months is lacrimal sac massage (with a topical antibiotic for discharge), reserving probing for cases that persist beyond about a year.
+## explicit_objective
+Identify massage as the first-line treatment of congenital nasolacrimal duct obstruction in infancy.
+## pitfalls
+Jumping to probing, intubation or dacryocystorhinostomy in early infancy when conservative massage is first line.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital nasolacrimal duct obstruction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital nasolacrimal duct obstruction
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-043A6922E55651
+## label
+A watering infant eye with a positive regurgitation test indicates congenital nasolacrimal duct obstruction
+## canonical_key
+ophthalmology.congenital-nasolacrimal-duct-obstruction.diagnosis-watery-eye-positive-regurge
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In an infant with epiphora, a positive regurgitation test (reflux of mucopurulent material from the punctum on pressing the lacrimal sac) with an otherwise normal anterior segment points to congenital nasolacrimal duct obstruction rather than keratitis, buphthalmos or keratoconus.
+## explicit_objective
+Diagnose congenital nasolacrimal duct obstruction from infant epiphora with a positive regurge test.
+## pitfalls
+Mistaking a watering eye with a normal cornea for buphthalmos or keratitis when a positive regurge test indicates duct obstruction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital nasolacrimal duct obstruction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital nasolacrimal duct obstruction
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EF26888B645EA8
+## label
+Big hazy corneas with lacrimation and photophobia in a newborn require intraocular pressure measurement
+## canonical_key
+ophthalmology.congenital-glaucoma.presentation-measure-intraocular-pressure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A newborn with large, hazy corneas, lacrimation and photophobia has the classic triad of congenital glaucoma (buphthalmos); the first step in management is to measure the intraocular pressure (under anaesthesia), not to syringe the duct or stain the cornea.
+## explicit_objective
+Recognise the congenital glaucoma triad and measure intraocular pressure as the first management step.
+## pitfalls
+Attributing the watering to nasolacrimal obstruction and syringing the duct instead of measuring intraocular pressure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital glaucoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B7C588C27BAE1B
+## label
+An infant with photophobia, lacrimation and a large cornea but normal tear passages has buphthalmos
+## canonical_key
+ophthalmology.buphthalmos.large-cornea-with-photophobia-and-lacrimation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When an infant presents with photophobia and lacrimation but the tear passages are patent and the cornea is enlarged, the diagnosis is buphthalmos (primary congenital glaucoma) rather than congenital dacryocystitis, keratitis or keratoconus.
+## explicit_objective
+Differentiate buphthalmos from congenital dacryocystitis in an infant with a large cornea and patent tear passages.
+## pitfalls
+Diagnosing dacryocystitis in a watering infant eye when a large cornea with patent passages indicates buphthalmos.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital glaucoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D803E4FA1023FB
+## label
+Buphthalmos has a large corneal diameter and can permanently damage the optic nerve
+## canonical_key
+ophthalmology.buphthalmos.clinical-features-large-cornea-optic-nerve-damage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Buphthalmos (primary congenital glaucoma) is characterised by a large (not small) corneal diameter with corneal haze, lacrimation and photophobia; untreated raised pressure can cause permanent optic nerve damage and blindness, and treatment is essentially surgical, not medical.
+## explicit_objective
+State the clinical features of buphthalmos, including its large corneal diameter and risk of optic nerve damage.
+## pitfalls
+Believing buphthalmos has a small corneal diameter or is treated medically; the cornea is enlarged and treatment is surgical.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital glaucoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7EF3AC85B409F5
+## label
+Goniotomy needs a clear cornea while trabeculotomy is used when the cornea is hazy in congenital glaucoma
+## canonical_key
+ophthalmology.congenital-glaucoma.goniotomy-in-clear-cornea-trabeculotomy-in-hazy-cornea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Angle surgery is the definitive treatment of congenital glaucoma; goniotomy requires a clear cornea to visualise the angle, so a large or hazy cornea (where the angle cannot be seen) is treated by trabeculotomy instead.
+## explicit_objective
+Select goniotomy for a clear cornea and trabeculotomy for a hazy cornea in congenital glaucoma.
+## pitfalls
+Attempting goniotomy through a hazy cornea where the angle cannot be visualised; trabeculotomy is used instead.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital glaucoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0E2B7DFBE8EDAA
+## label
+In primary congenital glaucoma corneal haze may first be noticed by the parents
+## canonical_key
+ophthalmology.primary-congenital-glaucoma.presentation-corneal-haze
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary congenital glaucoma (buphthalmos) usually presents in the first months of life; corneal haze from stretching and rupture of Descemet's membrane (Haab striae) may first be noticed by the parents, the corneal diameter is enlarged (over 12 mm), and the condition is commonly inherited in an autosomal recessive pattern.
+## explicit_objective
+Recognise parent-noticed corneal haze as a presenting feature of primary congenital glaucoma.
+## pitfalls
+Expecting a small (12 mm or less) cornea or autosomal dominant inheritance; the cornea is enlarged and inheritance is usually autosomal recessive.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital glaucoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-038CFEA2B28651
+## label
+Causes of a watering eye in an infant
+## canonical_key
+ophthalmology.infant-epiphora.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A watering (epiphora) eye in an infant can be caused by congenital nasolacrimal duct obstruction, mucopurulent conjunctivitis (including ophthalmia neonatorum) and congenital glaucoma; a congenital corneal opacity or congenital cataract is not itself a cause of tearing.
+## explicit_objective
+List the causes of infant epiphora and distinguish them from non-tearing conditions.
+## pitfalls
+Listing congenital cataract or corneal opacity as a cause of infant watering; they do not produce epiphora.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Infant epiphora
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Infant epiphora
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-681D39774CA258
+## label
+A dense congenital cataract causes amblyopia, strabismus and nystagmus
+## canonical_key
+ophthalmology.congenital-cataract.complications-amblyopia-strabismus-nystagmus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A dense congenital cataract deprives the developing eye of a clear image and can cause stimulus-deprivation amblyopia, strabismus and sensory nystagmus; it does not cause vitreous detachment.
+## explicit_objective
+State the complications of a dense congenital cataract.
+## pitfalls
+Attributing vitreous detachment to congenital cataract; its complications are amblyopia, strabismus and nystagmus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FF92730D258F00
+## label
+Congenital cataract presents with leukocoria, squint or roving eye movements
+## canonical_key
+ophthalmology.congenital-cataract.presentations-leukocoria-squint-roving-eye
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Congenital cataract may present with leukocoria (a white pupil), squint or roving (searching) eye movements from poor fixation; ptosis is not a presenting feature.
+## explicit_objective
+Recognise the presentations of congenital cataract.
+## pitfalls
+Listing ptosis as a presentation of congenital cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-706786630905E6
+## label
+A visually significant congenital cataract needs early surgery and prompt visual rehabilitation
+## canonical_key
+ophthalmology.congenital-cataract.management-early-surgery-and-rehabilitation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A total congenital cataract in an infant requires surgical removal as early as possible followed by prompt visual rehabilitation to prevent deprivation amblyopia; it may be unilateral or bilateral, and although intrauterine infection (e.g. rubella) is one cause it is not always the cause.
+## explicit_objective
+Outline the early-surgery, early-rehabilitation management of total congenital cataract.
+## pitfalls
+Assuming intrauterine infection is always the cause, or delaying surgery until the eye fully develops.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Congenital cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9C824A103C863B
+## label
+Morphological types of paediatric cataract
+## canonical_key
+ophthalmology.pediatric-cataract.morphology-types
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Paediatric cataract is classified morphologically into types such as sutural, lamellar (zonular), anterior polar, posterior polar, nuclear and coronary; an intumescent cataract is a swollen mature lens change, not a paediatric morphological type.
+## explicit_objective
+List the morphological types of paediatric cataract.
+## pitfalls
+Counting intumescent cataract among paediatric morphologies; it is a swollen mature lens, not a congenital morphology.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Paediatric cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A8A5E1B2E9066C
+## label
+Causes of paediatric cataract
+## canonical_key
+ophthalmology.pediatric-cataract.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Paediatric cataract can be caused by intrauterine infection (e.g. rubella), metabolic disease (galactosemia), chromosomal disorders (Down's syndrome), trauma and hereditary factors; Coat's disease is a retinal vascular disorder and not a cause of cataract.
+## explicit_objective
+Identify the causes of paediatric cataract.
+## pitfalls
+Listing Coat's disease as a cause of paediatric cataract; it is a retinal telangiectatic disorder.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Paediatric cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C57CCB55961A95
+## label
+Paediatric cataract is treated by lensectomy with anterior vitrectomy
+## canonical_key
+ophthalmology.pediatric-cataract.treatment-lensectomy-and-anterior-vitrectomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A visually significant paediatric cataract is removed by lensectomy with anterior vitrectomy rather than adult-type phacoemulsification or irrigation-aspiration leaving the posterior capsule, because the capsule opacifies rapidly in children.
+## explicit_objective
+State lensectomy with anterior vitrectomy as the treatment of paediatric cataract.
+## pitfalls
+Applying adult phacoemulsification or leaving an intact posterior capsule in a child, which opacifies quickly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Paediatric cataract
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F9745712CFC8F1
+## label
+Causes of leukocoria (a white pupillary reflex)
+## canonical_key
+ophthalmology.leukocoria.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leukocoria (a white pupillary reflex) is caused by retinoblastoma, congenital cataract, retinopathy of prematurity, Coat's disease, endophthalmitis and persistent fetal vasculature; congenital glaucoma, congenital esotropia and anisometropia do not cause leukocoria.
+## explicit_objective
+List the causes of leukocoria and exclude non-causes such as congenital glaucoma.
+## pitfalls
+Attributing leukocoria to congenital glaucoma, esotropia or anisometropia; these do not whiten the pupil.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Leukocoria
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Leukocoria
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B7499C14512182
+## label
+Presentations of retinoblastoma
+## canonical_key
+ophthalmology.retinoblastoma.presentations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinoblastoma can present with leukocoria, squint, secondary glaucoma, proptosis (from advanced orbital extension) and a masquerade picture of intraocular inflammation; a hazy cornea and cataract are not typical presentations.
+## explicit_objective
+Recognise the range of presentations of retinoblastoma.
+## pitfalls
+Expecting a hazy cornea or cataract as retinoblastoma presentations; the classic signs are leukocoria, squint, glaucoma and proptosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinoblastoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Retinoblastoma
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9853B4C25E6DCE
+## label
+Risk factors for retinopathy of prematurity
+## canonical_key
+ophthalmology.retinopathy-of-prematurity.risk-factors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinopathy of prematurity risk rises with prematurity, low birth weight, prolonged supplemental oxygen, sepsis, respiratory distress syndrome and intraventricular haemorrhage; Down's syndrome, ophthalmia neonatorum and an imperforate Hasner's valve are not risk factors.
+## explicit_objective
+Identify the risk factors for retinopathy of prematurity.
+## pitfalls
+Listing Down's syndrome or nasolacrimal obstruction as ROP risk factors.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinopathy of prematurity
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Retinopathy of prematurity
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B1CBEB8D67F28C
+## label
+Retinopathy of prematurity follows exposure to high oxygen concentration
+## canonical_key
+ophthalmology.retinopathy-of-prematurity.high-oxygen-exposure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinopathy of prematurity affects premature infants exposed to high oxygen concentrations; hyperoxia first causes retinal vaso-obliteration, and the ensuing relative hypoxia drives abnormal neovascularisation that can progress to retinal detachment.
+## explicit_objective
+Link retinopathy of prematurity to high supplemental oxygen exposure.
+## pitfalls
+Attributing ROP to low oxygen or to carbon dioxide levels; the culprit is high oxygen exposure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinopathy of prematurity
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Retinopathy of prematurity
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9B20CF1EC5C204
+## label
+Coat's disease features retinal telangiectasia with exudative detachment
+## canonical_key
+ophthalmology.coats-disease.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Coat's disease is an idiopathic retinal vascular disorder with tortuous telangiectatic vessels and lipid exudation that can produce an exudative retinal detachment and leukocoria; it is usually unilateral and much more common in young males.
+## explicit_objective
+Describe the features of Coat's disease.
+## pitfalls
+Expecting bilateral disease or a female predominance; Coat's is usually unilateral and commoner in males.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Coat's disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Coat's disease
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-55ACAD9B2A7887
+## label
+Ophthalmia neonatorum is conjunctivitis in the first month, distinct from congenital dacryocystitis
+## canonical_key
+ophthalmology.ophthalmia-neonatorum.definition-and-differential
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ophthalmia neonatorum is any conjunctivitis occurring within the first month of life, usually acquired from the maternal birth canal; it must be differentiated from congenital dacryocystitis, and its diagnosis is largely clinical though swabs guide treatment.
+## explicit_objective
+Define ophthalmia neonatorum and distinguish it from congenital dacryocystitis.
+## pitfalls
+Defining it as conjunctivitis in the first two years, or relying solely on laboratory investigations for the diagnosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ophthalmia neonatorum
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Ophthalmia neonatorum
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5EBA7FC9B97D05
+## label
+Infective ophthalmia neonatorum is treated with systemic antibiotics
+## canonical_key
+ophthalmology.ophthalmia-neonatorum.treatment-systemic-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Infectious ophthalmia neonatorum (notably gonococcal and chlamydial) is treated with systemic antibiotics together with topical therapy and lavage; topical steroids, antihistamines or cold compresses are not appropriate treatment.
+## explicit_objective
+State systemic antibiotics as the treatment of infective ophthalmia neonatorum.
+## pitfalls
+Treating infective ophthalmia neonatorum with topical steroids or antihistamines instead of systemic antibiotics.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ophthalmia neonatorum
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Ophthalmia neonatorum
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-715E4963EBAB08
+## label
+Normal changes of the eye during the first year of life
+## canonical_key
+ophthalmology.infant-eye.first-year-of-life-normal-changes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During the first year of life the eye undergoes iris pigmentation, a rapid increase in axial length and corneal flattening; foveal maturation continues after birth and is not yet complete in early infancy.
+## explicit_objective
+Recognise the normal ocular changes of the first year of life.
+## pitfalls
+Assuming foveal maturation is complete at birth; it continues over the first months of life.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Visual development
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-853DD9B6D72C7D
+## label
+A newborn can perceive light but lacks colour vision and steady fixation
+## canonical_key
+ophthalmology.visual-development.newborn-perceives-light
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A newborn baby can perceive light but cannot yet make coordinated eye movements, recognise colours or maintain eye contact; these visual functions develop over the following months.
+## explicit_objective
+State that a newborn can perceive light while higher visual functions develop later.
+## pitfalls
+Expecting a newborn to recognise colours or fixate steadily; only light perception is present at birth.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Visual development
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1AD430868CF7A9
+## label
+Preferential looking assesses visual acuity from birth to about six months
+## canonical_key
+ophthalmology.visual-acuity-assessment.preferential-looking-in-infants
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Preferential looking is a behavioural test of infant visual acuity used from the newborn period up to about six months of age, exploiting the baby's preference to look at a patterned rather than a plain stimulus.
+## explicit_objective
+Identify preferential looking as an acuity test for infants up to about six months.
+## pitfalls
+Reserving preferential looking for older children; it is used in the newborn-to-six-month range.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Visual development
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1F8EA032DFF46B
+## label
+Unilateral visual loss found on childhood screening must prompt fundus examination
+## canonical_key
+ophthalmology.childhood-unilateral-vision-loss.examine-fundus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When routine screening of a child reveals a unilateral diminution of vision, the next step is a full examination including fundus examination to exclude organic disease (e.g. retinoblastoma or Coat's disease) before attributing it to refractive error or amblyopia.
+## explicit_objective
+State fundus examination as the next step in a child with unilateral visual loss.
+## pitfalls
+Prescribing glasses or occlusion before a fundus examination has excluded organic disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Amblyopia
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Amblyopia
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A8A208DF356770
+## label
+Amblyopia is treated by refractive correction plus occlusion of the better eye
+## canonical_key
+ophthalmology.amblyopia.treatment-refractive-correction-and-occlusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Once organic disease is excluded, refractive (e.g. hypermetropic) amblyopia in a child is treated by full refractive correction (glasses) together with occlusion (patching) of the sound, better-seeing eye to force use of the amblyopic eye.
+## explicit_objective
+State that amblyopia is treated by refractive correction plus occlusion of the better eye.
+## pitfalls
+Prescribing glasses alone, or occluding the amblyopic eye instead of the better eye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Amblyopia
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood > Amblyopia
+## article_ids
+ART-OPH-315-PAEDIATRIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.10 Eye diseases in infancy and early childhood) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

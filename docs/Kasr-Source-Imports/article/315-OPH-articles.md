@@ -1040,3 +1040,116 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 9 (The eye and the brain) on the verified node DIS-OPH-T05 (Neuro-ophthalmology, shared with Chapter 5 ocular motility). Chapter 9 has 72 keyed MCQs (answer key p.6-7; the key omits row Q45 - hold when reached, never guess). Q1-10 authored the opening slice (10 clean single-best items); five new neuro-ophthalmology concepts added plus the optic-neuritis concept reused. Q11-73 remain for later tranches (a T/F 10-case section follows, out of scope).
 ## reading_time
 4
+---
+
+# Item
+## id
+ART-OPH-315-PAEDIATRIC
+## title
+Ophthalmology: eye diseases in infancy and early childhood (congenital cataract and glaucoma, retinoblastoma, retinopathy of prematurity, leukocoria)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 10 of the question bank (Eye diseases in infancy and early childhood) and groups the paediatric-ophthalmology facts tested by its MCQs. It covers congenital nasolacrimal duct obstruction (massage first, then probing), congenital (primary) glaucoma or buphthalmos (large hazy cornea, raised intraocular pressure, angle surgery), congenital and paediatric cataract (leukocoria, deprivation amblyopia, early lensectomy), the differential of leukocoria, retinoblastoma, retinopathy of prematurity, Coat's disease, ophthalmia neonatorum, normal infant visual development, and childhood amblyopia and its treatment.
+## sections
+### Definition
+Eye diseases of infancy and early childhood are the congenital and early-acquired disorders that threaten sight during the critical period of visual development; Chapter 10 tests their recognition, differentiation and urgent management. This article gathers the chapter's concepts, each stating one atomic paediatric-ophthalmology fact.
+### Mechanism
+The immature visual system is vulnerable to deprivation: any dense media opacity (congenital cataract), raised pressure (congenital glaucoma), or retinal disease (retinoblastoma, retinopathy of prematurity, Coat's disease) in the first years can cause irreversible amblyopia, so early diagnosis and treatment are decisive. A watery infant eye reflects either an obstructed nasolacrimal drainage (imperforate valve of Hasner) or raised intraocular pressure stretching the cornea (buphthalmos). Leukocoria signals that light is being reflected off an abnormal white structure behind the pupil - a cataract, tumour, detachment or exudate.
+### Key determinants
+Discriminators tested here: a watery eye with a positive regurge test is nasolacrimal duct obstruction (massage first), whereas a watery eye with a large hazy cornea and photophobia is congenital glaucoma (measure intraocular pressure, then angle surgery - goniotomy for a clear cornea, trabeculotomy for a hazy one); leukocoria is caused by retinoblastoma, cataract, retinopathy of prematurity, Coat's disease and endophthalmitis but not by congenital glaucoma, esotropia or anisometropia; retinopathy of prematurity follows high oxygen exposure in low-birth-weight premature infants; ophthalmia neonatorum is conjunctivitis of the first month treated with systemic antibiotics when infective; and childhood amblyopia is treated by refractive correction plus occlusion of the better eye once organic disease is excluded by fundus examination.
+### Clinical significance
+These facts underpin the timely referral and treatment of sight- and life-threatening childhood eye disease: reading leukocoria as a red flag for retinoblastoma, recognising buphthalmos as a surgical emergency, removing a dense congenital cataract early enough to prevent deprivation amblyopia, and screening premature infants for retinopathy of prematurity.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (buphthalmos mistaken for a small cornea or a medical disease, congenital glaucoma listed as a cause of leukocoria, adult phacoemulsification applied to a paediatric cataract, and glasses prescribed for amblyopia before the fundus is examined).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## subtopic
+Eye diseases in infancy and early childhood
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-0B8FD48E3D96AC
+CON-MUL-043A6922E55651
+CON-MUL-EF26888B645EA8
+CON-MUL-B7C588C27BAE1B
+CON-MUL-D803E4FA1023FB
+CON-MUL-7EF3AC85B409F5
+CON-MUL-0E2B7DFBE8EDAA
+CON-MUL-038CFEA2B28651
+CON-MUL-681D39774CA258
+CON-MUL-FF92730D258F00
+CON-MUL-706786630905E6
+CON-MUL-9C824A103C863B
+CON-MUL-A8A5E1B2E9066C
+CON-MUL-C57CCB55961A95
+CON-MUL-F9745712CFC8F1
+CON-MUL-B7499C14512182
+CON-MUL-9853B4C25E6DCE
+CON-MUL-B1CBEB8D67F28C
+CON-MUL-9B20CF1EC5C204
+CON-MUL-55ACAD9B2A7887
+CON-MUL-5EBA7FC9B97D05
+CON-MUL-715E4963EBAB08
+CON-MUL-853DD9B6D72C7D
+CON-MUL-1AD430868CF7A9
+CON-MUL-1F8EA032DFF46B
+CON-MUL-A8A208DF356770
+CON-MUL-0AFD8901536A4E
+CON-MUL-EF216E10015862
+## related_articles
+ART-OPH-315-RETINA
+ART-OPH-315-GLAUCOMA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 10 (Eye diseases in infancy and early childhood) and groups its paediatric-ophthalmology concepts. DIS-OPH has no dedicated paediatric node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter's facts are anterior-segment/adnexal (nasolacrimal duct, congenital cataract, ophthalmia neonatorum) - while each concept carries its own most-specific node: congenital glaucoma/buphthalmos on DIS-OPH-T03, retinoblastoma/leukocoria/retinopathy-of-prematurity/Coat's on DIS-OPH-T04, visual development/preferential-looking on DIS-OPH-T01, and amblyopia on DIS-OPH-T05. Chapter 10 has 57 keyed MCQs (answer key p.7-8; the key omits rows Q18/Q41/Q52 - hold, never guess). This tranche authored 41 clean single-best MCQs (Q1-16, Q19-21, Q35, Q38-40, Q42-51, Q53-60) and held 19: Q17 (two-option, sub-four-option floor), Q18/Q41/Q52 (no printed key), and the patient-scenario statement-set vignettes Q22-34/Q36/Q37 (more than one defensibly true option, held for multi-true adjudication). 26 new concepts minted plus congenital-glaucoma-surgical and retinoblastoma-leukocoria reused. The post-Q60 T/F (11 cases) section is out of scope.
+## reading_time
+5
