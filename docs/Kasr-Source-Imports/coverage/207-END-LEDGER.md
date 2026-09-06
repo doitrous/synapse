@@ -13,8 +13,9 @@
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
 | rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
 | jalal S3+S4+S6 urinary/urethra + male genital + development (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 28 | 0 | 1 | S3+S4+S6 fresh sets done; S1-2/S5/S7 untriaged | ~207 |
-| **207 END module authored (3 EOM + 5 banks)** | **280** | **6** | **2** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 280 | 6 | 2 | untriaged | — |
+| zahra-histology-endocrine (`Histo MCQ by Dr.Zahra [END].pdf`, NON-EOM Histology-dept-folder doctor bank, SOLVED) — HISTOLOGY frontier opened | 14 | 0 | 0 | Endocrine section (pituitary/thyroid/parathyroid/adrenal/pineal) 2 slices; Male/Female sections + Endocrine Department-69 stream untriaged | ~250 |
+| **207 END module authored (3 EOM + 7 banks)** | **294** | **6** | **2** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 294 | 6 | 2 | untriaged | — |
 
 ## Module opened
 
@@ -690,3 +691,70 @@ NOT author `penile-urethra.location.corpus-spongiosum`, `ureter.arterial-supply.
 artery` (RPR), `uterine-tube.development.paramesonephric-duct`, `primordial-germ-cells.migration.dorsal-
 mesentery-of-hindgut` or `external-genitalia-development.cloacal-folds.divide-into-genital-and-anal-folds`
 (already in corpus) in later slices. 3 department books also remain untriaged.
+
+## HISTOLOGY FRONTIER OPENED — Dr Zahra histology bank (first non-anatomy 207 END source)
+
+The 207 END anatomy banks being exhausted, this lane opened the **HISTOLOGY** frontier. Triaged every
+histology MCQ PDF in `207 END/Histology Dpt Histology [1st priority]/MCQs/` (plain `ls`, no recursive
+find):
+
+- **`Histo MCQ by Dr.Zahra [END].pdf` (src_1b57cb8c6e1e06c67ec5) — SOLVED, authored.** Native text, 29
+  pages, three sections (Endocrine, Male, Female). Each section carries its own **printed answer tables**
+  (Endocrine p.11, Male p.19, Female p.29), and each table gives a *Dr Zahra* key set and a *Department*
+  key set for its own numbered stream — the Endocrine section has a "Dr Zahra MCQ" stream (Q1-45, keyed by
+  the p.11 top table) and a separate "Department MCQ" stream (Q1-69, keyed by the p.11 bottom table). Keys
+  are reliable: spot-verified against histology first principles (Dept Q1a ACTH=basophils, Q2a
+  GH=acidophils, Q3d orange-G=somatotrophs, Q7a corticotrophs, Q13c/Q16 pituicytes) — the two tables align
+  perfectly to their own streams once separated. Already in the manifest (no new row needed).
+- The other six histology PDFs are **scanned, no text layer** (`Histo MCQ by Dr.Kandeel [Female]/[Male]`,
+  `Histo MCQ [Female] 2022/2023`, `Histo MCQ by Dr.Dalia [END]`, `mcq histo (207).department .pdf` 36 MB)
+  — untriaged for keys; each needs an OCR+render pass to find a hand-mark or printed key before authoring.
+
+**14 authored** across two pushed slices from the Zahra **Endocrine** section (fresh endocrine-gland
+histology claims NOT in the ~271-item corpus): slice A (`3921c436`, 7 = anterior/posterior pituitary:
+Dr Zahra Q2 basophil PAS/size, Q3 pituicyte glial, Q4 SON/PVN not endorphin, Q10 pars-nervosa no
+nerve-cell-bodies, Q20 orange-G acidophils, Q45 chromophils not oxytocin; Dept Q10 pars-intermedia MSH);
+slice B (`40b3e8be`, 7 = Dr Zahra Q17 follicular-cell lysosomes hydrolyse thyroglobulin, Q19 parathyroid
+oxyphil acidophilic, Q26 adrenal medulla chromaffin+ganglion cells, Q28 pinealocyte melatonin-night/
+serotonin-day, Q30 corpora arenacea radiological landmark; Dept Q21 mineralocorticoid=angiotensin-II,
+Q31 paraganglia=chromaffin). 0 held, 0 excluded. **Dr Zahra Q7 (pineal "formed of acini & ducts" keyed)
+is a bad item — NOT authored.**
+
+14 new concepts minted university-blind (all `CON-END-*`), collision-checked corpus-wide (0 collisions,
+0 in-batch duplicates; none of the EOM histology concepts reusable — those test different atomic claims).
+Filed under **DIS-HIS-T03** (organ histology) with SYS-END-T01 cross-nav. Grouped into 4 new library
+articles (`ART-END-207END-ZAHRA-PITUITARY-HISTOLOGY`, `…-THYROID-PARATHYROID-HISTOLOGY`,
+`…-ADRENAL-HISTOLOGY`, `…-PINEAL-HISTOLOGY`). Subject tag `endo` throughout. Authored from seed
+`seed/207-END-zahra-histology.json` (never hand-edit the emitted `.md`; fix the seed and re-emit) into
+`question/207-END-zahra-histology-mcq.md`, `concept/207-END-zahra-histology-concepts.md`,
+`article/207-END-zahra-histology-articles.md`; source added to `evidence/207-END-resources.md`. Gate-clean
+each slice (concept 7/0→14/0, article 2/0→4/0, MCQ 7/0→14/0 with `--with` concept+article+resource siblings).
+
+Dedup was low: the corpus histology (EOM Q1-26 histology + 198eom histology) covered scattered
+endocrine-gland facts, but this anterior/posterior-pituitary + adrenal/pineal cell-biology set is largely
+fresh. The Zahra Endocrine section still holds the whole **Department-69 stream** plus the un-mined Dr Zahra
+items, and the entire **Male** (p.12-18, key p.19) and **Female** (p.20-28, key p.29) sections — a large
+fresh reproductive-histology seam for the next histology slices.
+
+## PHYSIOLOGY BANKS TRIAGED (not yet authored)
+
+Triaged the physiology MCQ folders in priority order:
+- **`Physio MCQ by Dr.Shebl [END].pdf` (2nd priority) — SOLVED, prime next physiology target.** Native
+  text, 43 pages, organised by chapter (Ch.1 Introduction to the Endocrine System, …). Every question is
+  followed by a **printed `✓ Answer: <letter>- <full option text>` line** — an explicit, unambiguous key
+  in the text itself (e.g. Ch.1 Q1=a, Q2=d, Q3=a, Q4=c, Q5=a, Q6=d). NB the `pagetext keys` extractor is
+  UNRELIABLE on this bank: it reports a red-text/bold-flag on the last option (spurious D/E-heavy run) —
+  IGNORE it and parse the printed `✓ Answer:` line instead. Register a manifest row + evidence entry on
+  first authoring; dedup hard vs the large authored physiology corpus (Ch.1 intro items overlap
+  gpcr/hormone-receptor/cell-communication concepts already authored — go to the gland-specific chapters
+  for fresh yield).
+- **`MCQ ENDO (Dr. Maher)` (3rd priority)** — native text, 29 pages, extractor reports 0 keyed / 129
+  ambiguous: no clean printed key surfaced; needs a render pass to confirm any mark before authoring
+  (provisionally UNSOLVED-pending-verification).
+- **`Merged_PHYSIO MCQ.2022` and `.2023` (Physiology Dpt, 1st priority)** — scanned, no text layer;
+  untriaged for keys (need OCR+render). `MCQ.MHR_Female.pdf` / `MCQ.MHR_male.pdf` (Maher) not yet opened.
+
+**Next 207 END cluster:** author the **Dr Shebl physiology** bank gland chapters (parse the printed
+`✓ Answer:` lines, dedup vs the physiology corpus, push-per-slice), then continue the **Zahra Male/Female**
+histology sections. The Histology department book (`mcq histo (207).department .pdf`, 36 MB) and the scanned
+Kandeel/Dalia/Female-year histology banks remain untriaged (each needs an OCR+render key pass).

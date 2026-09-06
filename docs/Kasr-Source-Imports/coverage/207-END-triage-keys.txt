@@ -404,6 +404,7 @@ authored by the concurrent RPR lane), S4-25 (uvula vesicae). Skipped as flawed/l
 pelvic fascia), S4-11 (urethra emerges anterior to apex), S4-20 ("none of the above" but option b —
 deep dorsal vein into prostatic plexus — is defensibly true). S4 skip/exclude ~17/26 (~65%) — section
 fresh-exhausted.
+
 — Authoring pass 2026-09-07, SLICE C (9 fresh MCQs, S6 Development) —
 Authored S6 items: 4 (ureter = mesonephric/ureteric-bud derivative), 14 (seminal vesicle from
 mesonephric duct), 27 (androgens drive mesonephric-duct development), 9 (pelvic urogenital sinus →
@@ -419,3 +420,59 @@ peritoneum/nerves/vessels (14), S7 Pituitary (5) — all in domains saturated by
 + RPR + EOM anatomy tranches (expect >60% dupe). Do NOT re-author penile-urethra=corpus-spongiosum,
 ureter-arterial-supply=gonadal (RPR), uterine-tube=paramesonephric, germ-cell migration or cloacal-folds
 (already in corpus).
+
+================================================================================
+NINTH SOURCE — Dr Ahmed Zahra HISTOLOGY MCQ bank (HISTOLOGY frontier opened)
+  `Histo MCQ by Dr.Zahra [END].pdf`   src_1b57cb8c6e1e06c67ec5
+================================================================================
+Native text, 29 pages. Three sections, each with printed answer tables:
+  Endocrine  pp.2-10, keys on p.11  (Dr Zahra Q1-45 table + Department Q1-69 table)
+  Male       pp.12-18, keys on p.19 (Dr Zahra + Department tables)
+  Female     pp.20-28, keys on p.29 (Dr Zahra + Department tables)
+STRUCTURE (critical): within a section the "Dr Zahra MCQ" stream and the "Department MCQ" stream are
+CONSECUTIVE with numbers restarting at 1; each answer table keys ITS OWN stream (Dr Zahra table -> the
+Dr Zahra stream Q1-45; Department table -> the Department stream Q1-69). Do NOT align the two tables to
+one stream (they disagree ~87% if you do — that is the tell that they key different streams). Keys are
+RELIABLE, spot-verified against histology first principles.
+
+ENDOCRINE section — Dr Zahra stream keys (p.11 top table):
+Q1.d  Q2.e  Q3.b  Q4.c  Q5.c  Q6.c  Q7.b(BAD ITEM-do not author)  Q8.d  Q9.a  Q10.a
+Q11.b Q12.a Q13.b Q14.b Q15.b Q16.c Q17.c Q18.b Q19.b Q20.a Q21.c Q22.b Q23.b Q24.d Q25.a
+Q26.d Q27.d Q28.d Q29.d Q30.b Q31.c Q32.c Q33.c Q34.b Q35.c Q36.b Q37.c Q38.b Q39.d Q40.e
+Q41.c Q42.a Q43.d Q44.b Q45.c
+ENDOCRINE section — Department stream keys (p.11 bottom table):
+Q1.a  Q2.a  Q3.d  Q4.a  Q5.b  Q6.d  Q7.a  Q8.a  Q9.b  Q10.c Q11.c Q12.c Q13.c Q14.a Q15.a
+Q16.c Q17.a Q18.c Q19.b Q20.d Q21.a Q22.c Q23.a Q24.c Q25.c Q26.b Q27.c Q28.a Q29.c Q30.c
+Q31.a Q32.d Q33.c Q34.b Q35.b Q36.c Q37.d Q38.a Q39.c Q40.c Q41.a Q42.c Q43.d Q44.b Q45.b
+Q46.c Q47.a Q48.c Q49.a Q50.a Q51.c Q52.a Q53.d Q54.a Q55.b Q56.d Q57.c Q58.d Q59.d Q60.b
+Q61.d Q62.d Q63.c Q64.d Q65.a Q66.c Q67.b Q68.b Q69.c
+Q7 (Dr Zahra stream) EXCLUDED as a bad item: pineal keyed to "b. Formed of acini & ducts" which is
+histologically wrong (the correct answer is "regulates sleep rhythm"); not authored.
+
+AUTHORED (14, Endocrine section, 2 pushed slices) — fresh vs the corpus:
+  Slice A (3921c436): Dr Zahra Q2, Q3, Q4, Q10, Q20, Q45 + Department Q10 (pituitary cell biology).
+  Slice B (40b3e8be): Dr Zahra Q17, Q19, Q26, Q28, Q30 + Department Q21, Q31 (thyroid/parathyroid,
+    adrenal, pineal).
+UNMINED on this bank: the rest of the Department-69 stream, the un-authored Dr Zahra items, and the
+entire Male (p.19 keys) and Female (p.29 keys) sections — a large fresh reproductive-histology seam.
+
+Other histology PDFs in the folder: SCANNED, no text layer (Kandeel [Female]/[Male], Female 2022/2023,
+Dalia [END], and the 36 MB department book `mcq histo (207).department .pdf`) — untriaged for keys; each
+needs an OCR+render pass to find a hand-mark or printed key.
+
+================================================================================
+PHYSIOLOGY BANKS — triage (not yet authored)
+================================================================================
+`Physio MCQ by Dr.Shebl [END].pdf` (2nd priority) — SOLVED, prime next physiology target. Native text,
+43 pages, by chapter (Ch.1 Introduction to the Endocrine System ...). Key marker = a printed
+"✓ Answer: <letter>- <full option text>" line after EACH question (explicit, unambiguous). Ch.1 sample:
+Q1.a Q2.d Q3.a Q4.c Q5.a Q6.d. WARNING: the `pagetext keys` extractor is UNRELIABLE here — it flags the
+last option (spurious D/E run) from bold formatting; IGNORE it and parse the printed "✓ Answer:" line.
+Register a manifest row + evidence entry on first authoring; dedup hard vs the authored physiology corpus
+(Ch.1 intro overlaps gpcr/hormone-receptor/cell-communication concepts — go to gland chapters for yield).
+`MCQ ENDO (Dr. Maher)` (3rd priority) — native text, 29 pages, 0 keyed / 129 ambiguous: no clean printed
+key surfaced; needs a render pass to confirm any mark (provisionally UNSOLVED-pending-verification).
+`Merged_PHYSIO MCQ.2022/.2023` (Physiology Dpt, 1st priority) — scanned, no text layer; untriaged for keys.
+`MCQ.MHR_Female.pdf` / `MCQ.MHR_male.pdf` (Maher) — not yet opened.
+NEXT 207 END cluster: author Dr Shebl physiology gland chapters (parse "✓ Answer:" lines, dedup, push-per-
+slice), then continue the Zahra Male/Female histology sections.
