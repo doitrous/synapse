@@ -23786,3 +23786,1779 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q33) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0F9086FC8DA905
+## label
+Central retinal artery occlusion is a painless white eye, not an acute red eye
+## canonical_key
+ophthalmology.acute-red-eye.causes-exclude-central-retinal-artery-occlusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The acute red eye is produced by anterior-segment inflammation or a sudden rise in pressure — acute congestive (angle-closure) glaucoma, iridocyclitis and corneal ulcer. Central retinal artery occlusion is not one of these: it causes sudden painless loss of vision in a white, quiet eye, because the pathology is retinal ischaemia rather than external inflammation. So central retinal artery occlusion is the exception when a stem lists causes of an acute red eye.
+## explicit_objective
+List the causes of an acute red eye and recognise that central retinal artery occlusion is not one of them.
+## pitfalls
+Assuming every sudden ocular emergency is a red eye — central retinal artery occlusion presents with a white eye and painless visual loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Red eye
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Red eye
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q35) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2E5B8F3E771280
+## label
+The WHO simplified grading of trachoma is TF, TI, TS, TT and CO
+## canonical_key
+ophthalmology.trachoma.who-grading-fisto
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The WHO simplified grading of trachoma has five signs: TF (trachomatous follicles), TI (trachomatous inflammation, intense), TS (trachomatous conjunctival scarring), TT (trachomatous trichiasis) and CO (corneal opacity). Pannus is a corneal sign of trachoma but is not one of the graded WHO categories. The grades follow the natural progression from active follicular disease to blinding corneal opacity.
+## explicit_objective
+Recall the five WHO grades of trachoma (TF, TI, TS, TT, CO).
+## pitfalls
+Listing a 'TP pannus' grade — pannus is a sign of trachoma, not a WHO grading category.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q36) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9BB8438013F33E
+## label
+The pupil in acute angle-closure glaucoma is fixed, mid-dilated and vertically oval
+## canonical_key
+ophthalmology.acute-angle-closure-glaucoma.mid-dilated-vertically-oval-fixed-pupil
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In an acute attack of angle-closure glaucoma the pupil is mid-dilated, vertically oval and fixed with a poor or absent light reaction. The very high intraocular pressure paralyses the sphincter pupillae, so the pupil neither constricts to light nor dilates fully. This is a key bedside sign distinguishing acute angle-closure glaucoma from a miosed uveitic eye.
+## explicit_objective
+Recognise the fixed, mid-dilated, vertically oval pupil of acute angle-closure glaucoma.
+## pitfalls
+Expecting a constricted pupil — miosis points to iritis, whereas angle-closure gives a mid-dilated fixed pupil.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Acute angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Acute angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q37) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-18D8C56EF5A5AB
+## label
+The pupil in acute anterior uveitis is small (constricted) from sphincter spasm
+## canonical_key
+ophthalmology.acute-anterior-uveitis.miosis-from-sphincter-spasm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In acute anterior uveitis (iritis) the pupil is characteristically small (constricted), because inflammation causes spasm of the sphincter pupillae and the iris tends to stick to the lens. This contrasts with the mid-dilated fixed pupil of acute angle-closure glaucoma. The miosed, sluggish pupil and its risk of posterior synechiae are why a cycloplegic mydriatic is used to dilate and rest the eye.
+## explicit_objective
+Recognise that the pupil in acute anterior uveitis is constricted.
+## pitfalls
+Confusing the miosed uveitic pupil with the mid-dilated pupil of angle-closure glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q38) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-6D133057229252
+## label
+Acute endophthalmitis gives pain and poor vision and needs urgent intravitreal antibiotics
+## canonical_key
+ophthalmology.postoperative-endophthalmitis.urgent-intravitreal-antibiotics-poor-vision
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute postoperative endophthalmitis presents a few days after intraocular surgery with ocular pain, marked loss of vision, lid oedema, a hypopyon and a yellow reflex from pus replacing the red reflex. It is an emergency treated with immediate intravitreal antibiotics, with a vitreous tap for culture at the same sitting and vitrectomy in severe cases; treatment must not be delayed for culture results, and systemic antibiotics alone are not sufficient. Good vision is therefore not a feature, because vision is severely reduced.
+## explicit_objective
+Recognise acute endophthalmitis and its urgent intravitreal-antibiotic treatment.
+## pitfalls
+Delaying intravitreal antibiotics for culture results, or expecting good vision in endophthalmitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Endophthalmitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Endophthalmitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q40/Q44) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-41045F2580B6EF
+## label
+Corneal sensation is diminished in herpes simplex keratitis
+## canonical_key
+ophthalmology.herpes-simplex-keratitis.diminished-corneal-sensation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Herpes simplex keratitis characteristically reduces corneal sensation, because the virus damages the corneal (trigeminal) nerves, a neurotrophic effect. Reduced corneal sensation over a dendritic ulcer is an important clue to a herpetic rather than a bacterial or marginal keratitis. Conjunctivitis and marginal keratitis leave corneal sensation intact.
+## explicit_objective
+Recognise diminished corneal sensation as a sign of herpes simplex keratitis.
+## pitfalls
+Attributing reduced corneal sensation to conjunctivitis or a marginal ulcer, which spare corneal sensation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Herpes simplex keratitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Herpes simplex keratitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q41) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F5C4D9E79C219C
+## label
+An eye pad is contraindicated in a discharging (mucopurulent) conjunctivitis
+## canonical_key
+ophthalmology.eye-patching.contraindicated-in-mucopurulent-conjunctivitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Patching (occlusion) of the eye is contraindicated in a mucopurulent (infective, discharging) conjunctivitis, because a pad traps the purulent discharge against the eye, warms it and encourages the infection to spread and damage the cornea. Patching is likewise avoided in any actively infected or discharging eye. It may still be used for a sterile corneal abrasion to relieve pain.
+## explicit_objective
+Recognise that an eye pad is contraindicated in a discharging infective conjunctivitis.
+## pitfalls
+Patching a discharging infected eye — occlusion traps pus and worsens the infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q42) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2F39F455DD9DB7
+## label
+An acute angle-closure attack gives corneal oedema and a shallow chamber, not acute disc cupping
+## canonical_key
+ophthalmology.acute-angle-closure-glaucoma.features-corneal-oedema-shallow-chamber-not-disc-cupping
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An acute attack of primary angle-closure glaucoma presents with a painful red eye, headache, epithelial corneal oedema giving haloes, and a shallow anterior chamber with a mid-dilated fixed pupil. An increased cup-to-disc ratio is a feature of chronic glaucomatous optic-nerve damage, not of a single acute attack, so it is not seen acutely. Recognising the acute features allows urgent pressure-lowering treatment.
+## explicit_objective
+List the features of an acute angle-closure attack and distinguish them from chronic disc cupping.
+## pitfalls
+Expecting an increased cup-to-disc ratio acutely — cupping develops with chronic damage, not in the acute attack.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Acute angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Acute angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q45) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-ADC0C8C8CA0B6F
+## label
+Complications of a corneal ulcer include iris prolapse and adherent leucoma, but not optic neuritis
+## canonical_key
+ophthalmology.corneal-ulcer.complications-exclude-optic-neuritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A corneal ulcer that deepens can perforate and lead to iris prolapse, a corneal fistula, an adherent leucoma, anterior staphyloma or endophthalmitis. Optic neuritis is an inflammation of the optic nerve and is not a complication of a corneal ulcer, because the ulcer is confined to the anterior surface of the eye. The complications all follow from progressive tissue destruction and perforation of the cornea.
+## explicit_objective
+List the complications of a corneal ulcer and recognise optic neuritis is not one of them.
+## pitfalls
+Listing optic neuritis as a corneal-ulcer complication — the ulcer damages the anterior segment, not the optic nerve.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q47) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-6C9625E4C9E07F
+## label
+Cavernous sinus thrombosis causes a non-pulsating proptosis with chemosis, limited motility and papilloedema
+## canonical_key
+ophthalmology.cavernous-sinus-thrombosis.non-pulsating-proptosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cavernous sinus thrombosis produces chemosis and conjunctival congestion, proptosis, limited ocular motility (from involvement of the third, fourth and sixth nerves) and papilloedema. The proptosis is non-pulsating; a pulsating proptosis instead suggests a carotid-cavernous fistula. The condition is bilateral and life-threatening because the two cavernous sinuses communicate.
+## explicit_objective
+Recognise the ocular features of cavernous sinus thrombosis, including its non-pulsating proptosis.
+## pitfalls
+Calling the proptosis pulsating — pulsation points to a carotid-cavernous fistula, not thrombosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cavernous sinus thrombosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Cavernous sinus thrombosis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D689DE137A5321
+## label
+Trachomatous pannus can leave a permanent corneal opacity if Bowman's membrane is destroyed
+## canonical_key
+ophthalmology.trachoma.pannus-upper-cornea-opacity-if-bowman-destroyed
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trachomatous pannus is a fibrovascular invasion of the upper cornea in which the cellular infiltration precedes the vascularisation and the leash of vessels has an irregular, festooned lower border. If the inflammation destroys Bowman's membrane, a permanent corneal opacity results, because Bowman's layer does not regenerate. The pannus therefore has a definite upper-corneal site and can threaten sight.
+## explicit_objective
+Recognise that trachomatous pannus can cause permanent corneal opacity when Bowman's membrane is destroyed.
+## pitfalls
+Believing pannus has no site predilection or a rounded border, or that vascularisation precedes infiltration.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q50) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FA9B26B2FA786D
+## label
+Herbert's pits are healed limbal follicles pathognomonic of trachoma
+## canonical_key
+ophthalmology.trachoma.herbert-pits-limbal-follicle-scars
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Herbert's pits are small depressions at the upper limbus left when limbal trachomatous follicles heal and scar, and they are pathognomonic of past trachoma. They are a marker of previous active limbal disease. They are not found in herpetic conjunctivitis, xerophthalmia or keratoconus.
+## explicit_objective
+Recognise Herbert's pits as a healed-follicle sign specific to trachoma.
+## pitfalls
+Attributing Herbert's pits to another follicular or corneal disease — they are specific to trachoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q52) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C4478687FCFB95
+## label
+In an adherent leucoma the anterior chamber is shallow because the iris is stuck to a perforated cornea
+## canonical_key
+ophthalmology.leucoma-adherent.shallow-anterior-chamber
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An adherent leucoma is a dense corneal opacity to which the iris is stuck, following healing of a perforated corneal ulcer. Because the iris has come forward and adhered to the back of the cornea, the anterior chamber is shallow. This distinguishes it from a simple (non-adherent) leucoma, in which the chamber depth is preserved.
+## explicit_objective
+Recognise that the anterior chamber is shallow in an adherent leucoma.
+## pitfalls
+Expecting a deep or normal anterior chamber — the incarcerated iris makes the chamber shallow.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q54) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A49B3969FD069A
+## label
+Trachoma is a Chlamydia trachomatis infection that responds to sulphonamides, tetracycline and azithromycin
+## canonical_key
+ophthalmology.trachoma.chlamydia-trachomatis-antibiotic-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trachoma is a chronic keratoconjunctivitis caused by Chlamydia trachomatis serotypes A, B, Ba and C, and it responds to antibiotics such as sulphonamides, tetracycline and oral azithromycin. Serotypes D to K instead cause adult inclusion (paratrachoma) conjunctivitis, and the trachomatous pannus is vascular but irregular rather than rounded. Late (stage IV, MacCallan) trachoma is a healed, scarred stage without active follicles and papillae.
+## explicit_objective
+Recognise trachoma as a treatable Chlamydia trachomatis infection.
+## pitfalls
+Assigning trachoma to serotype D or expecting a rounded pannus or active follicles at stage IV.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q56) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7E9961CBBBAD79
+## label
+A true membranous conjunctivitis is most often diphtheritic and bleeds when the membrane is peeled
+## canonical_key
+ophthalmology.membranous-conjunctivitis.true-membrane-diphtheria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a true membranous conjunctivitis the inflammatory membrane is firmly adherent to and incorporated into the conjunctival epithelium, so peeling it leaves a raw, bleeding surface; the classic cause is diphtheria. This differs from a pseudomembrane, which is a loose condensation of exudate on the surface that peels off leaving intact epithelium. Recognising a true membrane matters because of the systemic risk of diphtheria.
+## explicit_objective
+Recognise diphtheria as the classic cause of a true membranous conjunctivitis.
+## pitfalls
+Confusing a true membrane with a pseudomembrane, which peels off leaving intact epithelium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Conjunctivitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Conjunctivitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q57) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D9AC54D7BB2C05
+## label
+A descemetocele is a herniation of Descemet's membrane through a melted corneal stroma
+## canonical_key
+ophthalmology.descemetocele.herniation-of-descemet-membrane
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A descemetocele is a bulging (herniation) of Descemet's membrane forward through the floor of a deep corneal ulcer when the overlying stromal layers have melted away. Descemet's membrane is elastic and resists perforation, so it balloons forward under intraocular pressure and appears as a clear vesicle at the ulcer base. It signals an imminent corneal perforation and needs urgent protection.
+## explicit_objective
+Define a descemetocele as a herniation of Descemet's membrane through a melted stroma.
+## pitfalls
+Confusing a descemetocele with a simple epithelial defect or a permanent corneal opacity.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q60) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

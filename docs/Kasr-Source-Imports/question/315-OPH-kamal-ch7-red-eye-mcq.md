@@ -4530,3 +4530,3428 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-35
+
+## title
+Cause not associated with an acute red eye
+
+## question
+Acute red eye is seen in all of the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Acute congestive glaucoma
+
+## explanation_a
+Incorrect (it is true). Acute congestive (angle-closure) glaucoma is a classic painful acute red eye.
+
+## answer_b
+Central retinal artery occlusion
+
+## explanation_b
+Correct. Central retinal artery occlusion is the exception: it causes sudden painless loss of vision in a white, quiet eye, not a red eye. The pathology is retinal ischaemia rather than anterior-segment inflammation. So it is the one condition here that is not an acute red eye.
+
+## answer_c
+Iridocyclitis
+
+## explanation_c
+Incorrect (it is true). Iridocyclitis (acute anterior uveitis) presents with a ciliary-injected red eye.
+
+## answer_d
+Corneal ulcer
+
+## explanation_d
+Incorrect (it is true). A corneal ulcer produces a painful red eye with ciliary injection.
+
+## topic
+Ophthalmology
+
+## subtopic
+Red eye
+
+## main_concept
+CON-MUL-0F9086FC8DA905
+
+## concept_ids
+CON-MUL-0F9086FC8DA905
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that central retinal artery occlusion presents as a painless white eye, not an acute red eye.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.73); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-36
+
+## title
+Grade not part of WHO trachoma grading
+
+## question
+WHO grading of trachoma includes all EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+TF follicles
+
+## explanation_a
+Incorrect (it is true). TF (trachomatous follicles) is a WHO grade.
+
+## answer_b
+TS scarring
+
+## explanation_b
+Incorrect (it is true). TS (trachomatous conjunctival scarring) is a WHO grade.
+
+## answer_c
+TT trichiasis
+
+## explanation_c
+Incorrect (it is true). TT (trachomatous trichiasis) is a WHO grade.
+
+## answer_d
+TP pannus
+
+## explanation_d
+Correct. There is no 'TP pannus' in the WHO simplified grading, whose five signs are TF, TI, TS, TT and CO. Pannus is a corneal sign of trachoma but is not one of the graded categories. So TP is the exception.
+
+## topic
+Ophthalmology
+
+## subtopic
+Trachoma
+
+## main_concept
+CON-MUL-2E5B8F3E771280
+
+## concept_ids
+CON-MUL-2E5B8F3E771280
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recall the five WHO grades of trachoma (TF, TI, TS, TT, CO).
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.73); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-37
+
+## title
+Pupil in acute angle-closure glaucoma
+
+## question
+Pupil in acute angle closure glaucoma is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Miosed and regular with poor reaction
+
+## explanation_a
+Incorrect. The pupil is not miosed in angle-closure glaucoma; miosis points to iritis.
+
+## answer_b
+Miosed and irregular with poor reaction
+
+## explanation_b
+Incorrect. It is neither miosed nor irregular in the classic acute attack.
+
+## answer_c
+Dilated and regular with poor reaction
+
+## explanation_c
+Incorrect. Although partly dilated, it is characteristically oval rather than round and regular.
+
+## answer_d
+Mid-dilated and oval with poor reaction
+
+## explanation_d
+Correct. In an acute attack of angle-closure glaucoma the very high pressure paralyses the sphincter, leaving the pupil mid-dilated, vertically oval and fixed with a poor light reaction. This is a key sign separating it from the miosed pupil of iritis. So the mid-dilated oval pupil is the correct description.
+
+## topic
+Ophthalmology
+
+## subtopic
+Acute angle-closure glaucoma
+
+## main_concept
+CON-MUL-9BB8438013F33E
+
+## concept_ids
+CON-MUL-9BB8438013F33E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise the fixed, mid-dilated, oval pupil of acute angle-closure glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.73); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-38
+
+## title
+Pupil in anterior uveitis
+
+## question
+In anterior uveitis the pupil is generally:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Of normal size
+
+## explanation_a
+Incorrect. The pupil is not of normal size; inflammation makes it small.
+
+## answer_b
+Constricted
+
+## explanation_b
+Correct. In acute anterior uveitis the pupil is small (constricted), because inflammation causes spasm of the sphincter pupillae. The miosed, sluggish pupil is also prone to posterior synechiae. This is why a cycloplegic is used to dilate and rest the eye.
+
+## answer_c
+Mid dilated unreactive
+
+## explanation_c
+Incorrect. A mid-dilated unreactive pupil is the sign of acute angle-closure glaucoma, not uveitis.
+
+## answer_d
+Shows RAPD
+
+## explanation_d
+Incorrect. A relative afferent pupillary defect reflects optic-nerve or extensive retinal disease, not simple anterior uveitis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Uveitis
+
+## main_concept
+CON-MUL-18D8C56EF5A5AB
+
+## concept_ids
+CON-MUL-18D8C56EF5A5AB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that the pupil in acute anterior uveitis is constricted.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.73); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-39
+
+## title
+Drug always indicated in any corneal ulcer
+
+## question
+Irrespective of the etiology of a corneal ulcer, the drug always indicated is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Corticosteroids
+
+## explanation_a
+Incorrect. Corticosteroids are dangerous in an infective or herpetic ulcer and are not routinely indicated.
+
+## answer_b
+Cycloplegics
+
+## explanation_b
+Correct. A cycloplegic is given in every corneal ulcer, whatever the cause, to relieve the reflex ciliary spasm, reduce pain and prevent posterior synechiae. The antimicrobial chosen depends on the organism, but cycloplegia is universal. So the cycloplegic is the drug always indicated.
+
+## answer_c
+Antibiotics
+
+## explanation_c
+Incorrect. Antibiotics treat a bacterial ulcer but not a fungal or viral one, so they are not always the right antimicrobial.
+
+## answer_d
+Antifungals
+
+## explanation_d
+Incorrect. Antifungals are only indicated for a fungal ulcer.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal ulcer
+
+## main_concept
+CON-MUL-C23E4F2E6D41CF
+
+## concept_ids
+CON-MUL-C23E4F2E6D41CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that a cycloplegic is indicated in every corneal ulcer regardless of cause.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.73); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-40
+
+## title
+False statement about post-cataract endophthalmitis
+
+## question
+A patient complains of diminution of vision, ocular pain and redness 2 days following cataract surgery; all is true EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Anterior chamber may show hypopyon
+
+## explanation_a
+Incorrect (it is true). A hypopyon in the anterior chamber is typical of acute endophthalmitis.
+
+## answer_b
+Systemic antibiotics alone are not effective
+
+## explanation_b
+Incorrect (it is true). Systemic antibiotics alone penetrate the vitreous poorly, so they are not sufficient.
+
+## answer_c
+Intravitreal antibiotics must be delayed till the results of culture are obtained
+
+## explanation_c
+Correct. This is the false statement: intravitreal antibiotics must be given immediately, not delayed for culture results, because delay risks rapid irreversible loss of the eye. A vitreous tap for culture is taken at the same sitting as the injection. So delaying treatment is wrong.
+
+## answer_d
+Vitrectomy is a line of treatment and is resorted to in severe cases
+
+## explanation_d
+Incorrect (it is true). Vitrectomy is used in severe cases of endophthalmitis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Endophthalmitis
+
+## main_concept
+CON-MUL-6D133057229252
+
+## concept_ids
+CON-MUL-6D133057229252
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that endophthalmitis needs immediate intravitreal antibiotics without waiting for cultures.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-41
+
+## title
+Condition with diminished corneal sensation
+
+## question
+Corneal sensations are diminished in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Herpes simplex
+
+## explanation_a
+Correct. Herpes simplex keratitis reduces corneal sensation, because the virus damages the corneal (trigeminal) nerves, a neurotrophic effect. Reduced sensation over a dendritic ulcer is an important clue to a herpetic cause. So herpes simplex is the answer.
+
+## answer_b
+Conjunctivitis
+
+## explanation_b
+Incorrect. Conjunctivitis does not affect corneal sensation.
+
+## answer_c
+Fungal infections
+
+## explanation_c
+Incorrect. Fungal keratitis does not characteristically diminish corneal sensation.
+
+## answer_d
+Marginal keratitis
+
+## explanation_d
+Incorrect. Marginal (hypersensitivity) keratitis leaves corneal sensation intact.
+
+## topic
+Ophthalmology
+
+## subtopic
+Herpes simplex keratitis
+
+## main_concept
+CON-MUL-41045F2580B6EF
+
+## concept_ids
+CON-MUL-41045F2580B6EF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise diminished corneal sensation as a feature of herpes simplex keratitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-42
+
+## title
+When eye patching is contraindicated
+
+## question
+Patching of the eye is contraindicated:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+In corneal abrasion
+
+## explanation_a
+Incorrect. A pad is often used for a sterile corneal abrasion to relieve pain.
+
+## answer_b
+In corneal exposure
+
+## explanation_b
+Incorrect. Corneal exposure is managed with lubrication and lid protection, and a pad or dressing may be used.
+
+## answer_c
+In mucopurulent conjunctivitis
+
+## explanation_c
+Correct. Patching is contraindicated in a mucopurulent (infective, discharging) conjunctivitis, because a pad traps the discharge against the eye, warms it and lets the infection spread to the cornea. Any actively discharging infected eye should be left unpadded. So mucopurulent conjunctivitis is the contraindication.
+
+## answer_d
+After glaucoma surgery
+
+## explanation_d
+Incorrect. A pad or shield is routinely applied after glaucoma surgery.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal ulcer
+
+## main_concept
+CON-MUL-F5C4D9E79C219C
+
+## concept_ids
+CON-MUL-F5C4D9E79C219C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that an eye pad is contraindicated in a discharging infective conjunctivitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-43
+
+## title
+Treatment of non-infectious iridocyclitis
+
+## question
+In the treatment of non-infectious iridocyclitis:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Topical steroids are mandatory
+
+## explanation_a
+Incorrect as the single best. Topical steroids are indeed mandatory, but this is only one of the true statements.
+
+## answer_b
+Systemic steroids are sometimes indicated
+
+## explanation_b
+Incorrect as the single best. Systemic steroids are indeed sometimes indicated, but this is not the complete answer.
+
+## answer_c
+Pupillary dilatation is useful
+
+## explanation_c
+Incorrect as the single best. Pupillary dilatation with a cycloplegic is useful, but again only part of the answer.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. All three statements are true: topical steroids are the mainstay, systemic steroids are added in severe cases, and a cycloplegic dilates the pupil to rest the eye and prevent synechiae. Because each is correct, 'all of the above' is the single best answer. A miotic, by contrast, is contraindicated.
+
+## topic
+Ophthalmology
+
+## subtopic
+Uveitis
+
+## main_concept
+CON-MUL-746158B6BA4249
+
+## concept_ids
+CON-MUL-746158B6BA4249
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recall that non-infectious iridocyclitis is treated with topical and sometimes systemic steroids plus a cycloplegic.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-44
+
+## title
+Finding not associated with acute endophthalmitis
+
+## question
+Acute endophthalmitis is characteristically associated with the following findings EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ocular pain
+
+## explanation_a
+Incorrect (it is true). Ocular pain is typical of acute endophthalmitis.
+
+## answer_b
+Good vision
+
+## explanation_b
+Correct. Good vision is the exception: endophthalmitis causes a marked and often severe loss of vision. The infected inflamed vitreous obscures the media and damages the retina. So good vision is the finding that is not present.
+
+## answer_c
+Yellow reflex
+
+## explanation_c
+Incorrect (it is true). A yellow reflex, from pus in the vitreous replacing the red reflex, is characteristic.
+
+## answer_d
+Lid edema
+
+## explanation_d
+Incorrect (it is true). Lid oedema commonly accompanies acute endophthalmitis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Endophthalmitis
+
+## main_concept
+CON-MUL-6D133057229252
+
+## concept_ids
+CON-MUL-6D133057229252
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that vision is severely reduced, not good, in acute endophthalmitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-45
+
+## title
+Feature not seen in acute angle-closure glaucoma
+
+## question
+Which of the following is NOT a feature of an acute attack of primary angle closure glaucoma:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Corneal oedema
+
+## explanation_a
+Incorrect (it is a feature). Epithelial corneal oedema causes the haloes seen in an acute attack.
+
+## answer_b
+Headache
+
+## explanation_b
+Incorrect (it is a feature). Headache accompanies the acute rise in pressure.
+
+## answer_c
+Shallow anterior chamber
+
+## explanation_c
+Incorrect (it is a feature). A shallow anterior chamber underlies the angle closure.
+
+## answer_d
+Increasing cup to disc ratio
+
+## explanation_d
+Correct. An increasing cup-to-disc ratio is not a feature of a single acute attack; it develops with chronic glaucomatous optic-nerve damage over time. The acute attack is defined by pain, corneal oedema and a shallow chamber. So increased cupping is the odd one out.
+
+## topic
+Ophthalmology
+
+## subtopic
+Acute angle-closure glaucoma
+
+## main_concept
+CON-MUL-2F39F455DD9DB7
+
+## concept_ids
+CON-MUL-2F39F455DD9DB7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Distinguish the acute features of angle-closure glaucoma from chronic disc cupping.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-46
+
+## title
+Wrong statement about adenoviral conjunctivitis
+
+## question
+Concerning adenoviral conjunctivitis, choose the wrong answer:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Can happen in epidemic form
+
+## explanation_a
+Incorrect (it is true). Adenoviral conjunctivitis occurs in epidemics (epidemic keratoconjunctivitis).
+
+## answer_b
+Eye practitioners are a common source of spread
+
+## explanation_b
+Incorrect (it is true). It is highly contagious and can be spread through eye clinics and practitioners.
+
+## answer_c
+Enlarged pre-auricular lymph nodes support the condition
+
+## explanation_c
+Incorrect (it is true). A palpable preauricular lymph node supports a viral (adenoviral) cause.
+
+## answer_d
+Most cases are complicated by pseudomonas infection
+
+## explanation_d
+Correct. This is the wrong statement: adenoviral conjunctivitis is a self-limiting viral infection and is not usually complicated by Pseudomonas. Secondary bacterial infection is uncommon and Pseudomonas is not the typical organism. So the claim of pseudomonal complication is false.
+
+## topic
+Ophthalmology
+
+## subtopic
+Conjunctivitis
+
+## main_concept
+CON-MUL-7BECB4DDEE36A9
+
+## concept_ids
+CON-MUL-7BECB4DDEE36A9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise adenoviral conjunctivitis as a contagious, self-limiting viral infection.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.74); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-47
+
+## title
+Not a complication of corneal ulcer
+
+## question
+One of the following is not a complication of corneal ulcers:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Optic neuritis
+
+## explanation_a
+Correct. Optic neuritis is not a complication of a corneal ulcer, because the ulcer damages the anterior surface of the eye and not the optic nerve. The complications of an ulcer follow from its deepening and perforation. So optic neuritis is the exception.
+
+## answer_b
+Corneal fistula
+
+## explanation_b
+Incorrect (it is a complication). A corneal fistula can form when a perforated ulcer fails to seal.
+
+## answer_c
+Iris prolapse
+
+## explanation_c
+Incorrect (it is a complication). Iris prolapse follows perforation of a deep ulcer.
+
+## answer_d
+Leucoma adherent
+
+## explanation_d
+Incorrect (it is a complication). An adherent leucoma is a healed perforation with iris incarcerated in the scar.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal ulcer
+
+## main_concept
+CON-MUL-ADC0C8C8CA0B6F
+
+## concept_ids
+CON-MUL-ADC0C8C8CA0B6F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+List the complications of a corneal ulcer and recognise optic neuritis is not one.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-48
+
+## title
+Wrong statement about pterygium
+
+## question
+One of the following is wrong concerning pterygium:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+More in hot countries
+
+## explanation_a
+Incorrect (it is true). Pterygium is commoner in hot, dry, dusty climates.
+
+## answer_b
+May cause astigmatism
+
+## explanation_b
+Incorrect (it is true). By flattening the cornea a pterygium can induce astigmatism.
+
+## answer_c
+May obstruct the pupil
+
+## explanation_c
+Incorrect (it is true). An advanced pterygium can encroach on and cover the pupil.
+
+## answer_d
+Topical steroids may treat early cases
+
+## explanation_d
+Correct. This is the wrong statement: a pterygium is a fibrovascular degeneration whose definitive treatment is surgical excision, and topical steroids do not treat or reverse it — they only settle associated inflammation. So the claim that steroids treat early cases is false.
+
+## topic
+Ophthalmology
+
+## subtopic
+Pterygium
+
+## main_concept
+CON-MUL-1F059B701412E8
+
+## concept_ids
+CON-MUL-1F059B701412E8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that pterygium is treated surgically, not by topical steroids.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-49
+
+## title
+Not an ocular feature of cavernous sinus thrombosis
+
+## question
+Ocular features of cavernous sinus thrombosis include all of the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Chemosis and congestion of the conjunctiva
+
+## explanation_a
+Incorrect (it is a feature). Chemosis and conjunctival congestion result from impaired venous drainage.
+
+## answer_b
+Limited ocular motility
+
+## explanation_b
+Incorrect (it is a feature). Motility is limited because the third, fourth and sixth nerves run in the sinus.
+
+## answer_c
+Proptosis is usually pulsating
+
+## explanation_c
+Correct. The proptosis of cavernous sinus thrombosis is non-pulsating; a pulsating proptosis instead suggests a carotid-cavernous fistula or a bony defect. The thrombosis produces a tense but non-pulsatile proptosis. So describing the proptosis as pulsating is the exception.
+
+## answer_d
+Papilledema
+
+## explanation_d
+Incorrect (it is a feature). Papilloedema follows the raised orbital and intracranial venous pressure.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cavernous sinus thrombosis
+
+## main_concept
+CON-MUL-6C9625E4C9E07F
+
+## concept_ids
+CON-MUL-6C9625E4C9E07F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that proptosis in cavernous sinus thrombosis is non-pulsating.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-50
+
+## title
+True statement about trachomatous pannus
+
+## question
+In trachomatous pannus the following is true:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Vascularization precedes infiltration
+
+## explanation_a
+Incorrect. In trachomatous pannus the cellular infiltration precedes the vascularisation, not the reverse.
+
+## answer_b
+Usually has a rounded border
+
+## explanation_b
+Incorrect. The advancing edge of the pannus is irregular and festooned, not rounded.
+
+## answer_c
+Permanent opacity can occur if Bowman's membrane is destroyed
+
+## explanation_c
+Correct. If the inflammation of a trachomatous pannus destroys Bowman's membrane, a permanent corneal opacity results, because Bowman's layer cannot regenerate. This is why trachoma can end in blinding corneal scarring. So this is the true statement.
+
+## answer_d
+Has no specific site predilection
+
+## explanation_d
+Incorrect. Trachomatous pannus has a definite site predilection for the upper cornea.
+
+## topic
+Ophthalmology
+
+## subtopic
+Trachoma
+
+## main_concept
+CON-MUL-D689DE137A5321
+
+## concept_ids
+CON-MUL-D689DE137A5321
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that trachomatous pannus can leave a permanent opacity when Bowman's membrane is destroyed.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-51
+
+## title
+Drug not to use for glaucoma from acute iridocyclitis
+
+## question
+Secondary glaucoma due to acute iridocyclitis should NOT be treated by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Atropine (1%)
+
+## explanation_a
+Incorrect (it should be used). Atropine dilates the pupil to rest the eye and prevent synechiae.
+
+## answer_b
+Topical and systemic corticosteroids
+
+## explanation_b
+Incorrect (it should be used). Steroids suppress the underlying inflammation.
+
+## answer_c
+Pilocarpine (2%)
+
+## explanation_c
+Correct. Pilocarpine, a miotic, should NOT be used, because constricting the inflamed pupil worsens the iritis, promotes posterior synechiae and increases pain. In inflammatory secondary glaucoma the pupil is dilated with a cycloplegic while the pressure is lowered by other means. So pilocarpine is the drug to avoid.
+
+## answer_d
+Diamox
+
+## explanation_d
+Incorrect (it should be used). Acetazolamide (Diamox) lowers the intraocular pressure.
+
+## topic
+Ophthalmology
+
+## subtopic
+Uveitis
+
+## main_concept
+CON-MUL-746158B6BA4249
+
+## concept_ids
+CON-MUL-746158B6BA4249
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that miotics such as pilocarpine are contraindicated in glaucoma from acute iridocyclitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-52
+
+## title
+Where Herbert's pits are found
+
+## question
+Herbort's pits are found in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Acute herpetic conjunctivitis
+
+## explanation_a
+Incorrect. Herpetic conjunctivitis does not leave Herbert's pits.
+
+## answer_b
+Trachoma
+
+## explanation_b
+Correct. Herbert's pits are small depressions at the upper limbus left when limbal trachomatous follicles heal and scar, and they are pathognomonic of trachoma. They are a sign of past active disease. So trachoma is the answer.
+
+## answer_c
+Xerophthalmia
+
+## explanation_c
+Incorrect. Xerophthalmia (vitamin A deficiency) produces Bitot's spots, not Herbert's pits.
+
+## answer_d
+Keratoconus
+
+## explanation_d
+Incorrect. Keratoconus is a corneal ectasia and has no limbal follicular pits.
+
+## topic
+Ophthalmology
+
+## subtopic
+Trachoma
+
+## main_concept
+CON-MUL-FA9B26B2FA786D
+
+## concept_ids
+CON-MUL-FA9B26B2FA786D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise Herbert's pits as a scar of healed limbal follicles specific to trachoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-53
+
+## title
+Condition without ciliary injection
+
+## question
+Ciliary injection occurs in the following conditions EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Corneal ulcer
+
+## explanation_a
+Incorrect (it shows ciliary injection). A corneal ulcer causes deep circumcorneal injection.
+
+## answer_b
+Acute glaucoma
+
+## explanation_b
+Incorrect (it shows ciliary injection). Acute angle-closure glaucoma causes ciliary congestion.
+
+## answer_c
+Acute conjunctivitis
+
+## explanation_c
+Correct. Acute conjunctivitis produces a superficial conjunctival injection that is most marked in the fornices, not the deep ciliary (circumcorneal) injection of intraocular disease. Ciliary injection signals corneal or intraocular inflammation. So acute conjunctivitis is the exception.
+
+## answer_d
+Acute iritis
+
+## explanation_d
+Incorrect (it shows ciliary injection). Acute iritis is a classic cause of circumcorneal ciliary injection.
+
+## topic
+Ophthalmology
+
+## subtopic
+Red eye
+
+## main_concept
+CON-MUL-227CA5096BC668
+
+## concept_ids
+CON-MUL-227CA5096BC668
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Distinguish the conjunctival injection of conjunctivitis from the ciliary injection of intraocular disease.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-54
+
+## title
+Anterior chamber in adherent leucoma
+
+## question
+In leucoma adherent the anterior chamber is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Shallow
+
+## explanation_a
+Correct. In an adherent leucoma the iris is stuck to the back of a healed perforated cornea, so it has come forward and the anterior chamber is shallow. This contrasts with a simple leucoma, where chamber depth is preserved. So the chamber is shallow.
+
+## answer_b
+Deep
+
+## explanation_b
+Incorrect. The chamber is not deep; the incarcerated iris makes it shallow.
+
+## answer_c
+Irregular
+
+## explanation_c
+Incorrect. The pupil may be distorted, but the chamber itself is described as shallow, not irregular.
+
+## answer_d
+Lost
+
+## explanation_d
+Incorrect. The anterior chamber is shallow, not completely lost.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal ulcer
+
+## main_concept
+CON-MUL-C4478687FCFB95
+
+## concept_ids
+CON-MUL-C4478687FCFB95
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that the anterior chamber is shallow in an adherent leucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.75); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-55
+
+## title
+Symblepharon caused by trachoma
+
+## question
+Trachoma can lead to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Anterior symblepharon
+
+## explanation_a
+Incorrect. Anterior symblepharon, an adhesion at the lid margin, is typical of chemical burns rather than trachoma.
+
+## answer_b
+Posterior symblepharon
+
+## explanation_b
+Correct. Trachoma scars the tarsal conjunctiva and shortens the fornix, producing a posterior symblepharon where the adhesion lies deep in the fornix. This is part of its cicatricial sequel along with entropion and trichiasis. So posterior symblepharon is the answer.
+
+## answer_c
+Total symblepharon
+
+## explanation_c
+Incorrect. A total symblepharon obliterating the whole sac follows severe chemical burns, not trachoma.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Trachoma does lead to a (posterior) symblepharon, so 'none of the above' is wrong.
+
+## topic
+Ophthalmology
+
+## subtopic
+Trachoma
+
+## main_concept
+CON-MUL-A4352E8F366A27
+
+## concept_ids
+CON-MUL-A4352E8F366A27
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise posterior symblepharon as a cicatricial complication of trachoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.76); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-56
+
+## title
+True statement about trachoma
+
+## question
+In trachoma:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Sulphonamide is an effective treatment
+
+## explanation_a
+Correct. Sulphonamides are an effective treatment of trachoma, which is a chlamydial infection that also responds to tetracycline and oral azithromycin. This reflects its bacterial (Chlamydia trachomatis) aetiology. So this is the true statement.
+
+## answer_b
+It is caused by Chlamydia trachomatis type D
+
+## explanation_b
+Incorrect. Trachoma is caused by serotypes A, B, Ba and C; serotype D (D-K) causes adult inclusion conjunctivitis.
+
+## answer_c
+Trachomatous pannus is usually rounded and very vascular
+
+## explanation_c
+Incorrect. The trachomatous pannus is vascular but has an irregular, festooned border, not a rounded one.
+
+## answer_d
+T4 is characterized by follicles and papillae formation
+
+## explanation_d
+Incorrect. Stage IV (healed) trachoma is a scarred stage without active follicles and papillae.
+
+## topic
+Ophthalmology
+
+## subtopic
+Trachoma
+
+## main_concept
+CON-MUL-A49B3969FD069A
+
+## concept_ids
+CON-MUL-A49B3969FD069A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise trachoma as a treatable Chlamydia trachomatis infection responsive to sulphonamides.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.76); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-57
+
+## title
+True statement about membranous conjunctivitis
+
+## question
+In membranous conjunctivitis, the following is true:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The membrane is formed by condensation of the discharge and exudates over the conjunctival surface
+
+## explanation_a
+Incorrect. That describes a pseudomembrane; a true membrane is incorporated into the epithelium, not merely condensed on the surface.
+
+## answer_b
+The most common cause is diphtheria
+
+## explanation_b
+Correct. The classic cause of a true membranous conjunctivitis is diphtheria (Corynebacterium diphtheriae). The membrane is firmly adherent, and peeling it leaves a raw bleeding surface. So diphtheria is the correct answer.
+
+## answer_c
+Removal of the membrane leaves intact epithelium
+
+## explanation_c
+Incorrect. Removing a true membrane leaves a raw, bleeding surface; it is the pseudomembrane that peels off leaving intact epithelium.
+
+## answer_d
+In children with corneal involvement, atropine eye drops are used
+
+## explanation_d
+Incorrect. Atropine is not the specific treatment; management is of the diphtheria and any corneal ulcer, with a cycloplegic used only if there is iritis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Conjunctivitis
+
+## main_concept
+CON-MUL-7E9961CBBBAD79
+
+## concept_ids
+CON-MUL-7E9961CBBBAD79
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise diphtheria as the classic cause of a true membranous conjunctivitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.76); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-58
+
+## title
+True statement about spring catarrh
+
+## question
+In spring catarrh, the following is true:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is a type I hypersensitivity reaction
+
+## explanation_a
+Correct. Spring catarrh (vernal keratoconjunctivitis) is a type I (IgE-mediated) hypersensitivity reaction, often with a type IV component. It is a seasonal allergic conjunctivitis. So type I hypersensitivity is the true statement.
+
+## answer_b
+Characterized by follicular formation
+
+## explanation_b
+Incorrect. It is characterised by giant cobblestone papillae, not follicles.
+
+## answer_c
+The antigen could be intestinal parasites
+
+## explanation_c
+Incorrect. The antigens are airborne environmental allergens such as pollen, not intestinal parasites.
+
+## answer_d
+Steroid eye drops should be used as the first line of treatment
+
+## explanation_d
+Incorrect. Mast-cell stabilisers and antihistamines are first line; steroids are reserved for severe flares because of their side effects.
+
+## topic
+Ophthalmology
+
+## subtopic
+Vernal keratoconjunctivitis
+
+## main_concept
+CON-MUL-9384A56F70F1C3
+
+## concept_ids
+CON-MUL-9384A56F70F1C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise spring catarrh as a type I hypersensitivity with papillae, not follicles.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.76); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH7-60
+
+## title
+Meaning of descemetocele
+
+## question
+Descematocole means:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Corneal epithelial defect with underlying stromal affection
+
+## explanation_a
+Incorrect. That describes a corneal ulcer, not a descemetocele.
+
+## answer_b
+Inflammation of the deep layers of the cornea
+
+## explanation_b
+Incorrect. Inflammation of the deep cornea is interstitial keratitis, not a descemetocele.
+
+## answer_c
+Bulging of Descemet's membrane due to melting of the overlying corneal layers
+
+## explanation_c
+Correct. A descemetocele is a forward bulging (herniation) of Descemet's membrane through the floor of a deep ulcer once the overlying stroma has melted away. The elastic Descemet's membrane balloons forward under intraocular pressure and signals imminent perforation. So this is the correct definition.
+
+## answer_d
+Permanent opacity of the cornea
+
+## explanation_d
+Incorrect. A permanent corneal opacity is a leucoma or nebula, not a descemetocele.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal ulcer
+
+## main_concept
+CON-MUL-D9AC54D7BB2C05
+
+## concept_ids
+CON-MUL-D9AC54D7BB2C05
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The red eye
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RED-EYE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Define a descemetocele as a herniation of Descemet's membrane through a melted stroma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.7 The red eye (PDF p.76); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
