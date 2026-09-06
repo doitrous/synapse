@@ -9,7 +9,7 @@
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
 | kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
-| kamal-ch8-retina | 28 | 3 | 59 | 90 |
+| kamal-ch8-retina | 55 | 17 | 18 | 90 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -162,3 +162,40 @@
 - NEXT cluster: Ch.8 Q32-Q90 (Q34 CRVO-on-OCP vignette, Q35 melanoma reuse, Q36 RD-plane reuse,
   Q37/Q40 EXCEPT items are clean; Q39 no-key hold; watch Q42/Q43-class patient vignettes and the
   T/F 13-case section for adjudication), then Ch.9 The eye and the brain (answer key p.6, 72 MCQs).
+
+
+## Tranche 16 (2026-09-06): Chapter 8 The retina Q32-72 — 27 MCQs (14 held)
+- Authored 27 clean single-best MCQs into question/315-OPH-kamal-ch8-retina-mcq.md (node DIS-OPH-T04,
+  article ART-OPH-315-RETINA), in three pushed micro-slices:
+  * Slice A Q32-44: Q32,33,34,36,37,38,40,41,44 (9)
+  * Slice B Q49-64: Q49,52,56,57,59,60,61,62,63,64 (10)
+  * Slice C Q65-72: Q65,66,67,68,69,70,71,72 (8)
+  Keys from answer-key p.5-6 Ch.8 table (88 answers), each re-verified vs option text:
+  Q32.B Q33.D Q34.B Q36.C Q37.D Q38.C Q40.C Q41.D Q44.A Q49.A Q52.B Q56.A Q57.B Q59.A Q60.C Q61.D
+  Q62.A Q63.A Q64.C Q65.B Q66.C Q67.A Q68.D Q69.C Q70.A Q71.C Q72.C.
+- Held 14: Q39 (no printed key -> never-guess); and 13 multi-true patient-vignette/statement-set items
+  deferred for adjudication — Q35 (choroidal melanoma: both "secondary glaucoma" (b, the keyed-correct
+  feature in the already-authored Q28) and "mushroom US" (c) defensibly true), Q42, Q43, Q45, Q46, Q47,
+  Q48, Q50, Q51, Q53, Q54, Q55, Q58. Keys for reference: Q35.C Q42.A Q43.A Q45.D Q46.A Q47.B Q48.C
+  Q50.A Q51.B Q53.A Q54.B Q55.B Q58.C.
+- Concepts: 11 new on DIS-OPH-T04, all added to ART-OPH-315-RETINA related_concepts:
+  RD lowers IOP CON-MUL-75C099A5BBA1F1 (Q32/Q33); cilioretinal artery macular sparing in CRAO
+  CON-MUL-BB0BB5DCBD9886 (Q38); panretinal photocoagulation for PDR CON-MUL-2FD59A9ABBEF1E (Q44/Q62/Q70);
+  ARMD Amsler/metamorphopsia CON-MUL-45BB1A304344DA (Q49); RP hereditary rod-cone dystrophy
+  CON-MUL-AC77FFD34417FF (Q56); rods vs cones photoreceptors CON-MUL-8A460DB58F6675 (Q59/Q60);
+  DR is a microangiopathy CON-MUL-82923F41B963F3 (Q64); advanced diabetic eye disease
+  CON-MUL-7FA351890607A6 (Q65); DME OCT+focal laser CON-MUL-ECE2032D12AF4D (Q66/Q67); cotton-wool spots
+  = ischaemia CON-MUL-BA81985DC46CC5 (Q69); arteriosclerotic AV crossing changes CON-MUL-A8881C4DC7633D (Q71).
+- Reused 6 existing Ch.8 concepts: CRVO risk factors CON-MUL-6C2A7B0839154C (Q34/Q72); RD plane
+  CON-MUL-7CC8577EE7523B (Q36); DR macular-edema vision loss CON-MUL-FC03374F08ABBA (Q37); CRVO clinical
+  features CON-MUL-C936EF1E19FD32 (Q40); exudative RD causes CON-MUL-634453721573C2 (Q41/Q52); RP night
+  blindness CON-MUL-B71FD59C678DF1 (Q57); DR risk factors CON-MUL-89DBBAE1EBCF48 (Q68); retinal blood
+  supply CON-MUL-AE4472E9A11DBF (Q61); retinal neovascularization ischaemia CON-MUL-076044B0008F4F (Q63).
+- Gates: each micro-slice gate.mjs batch errors=0 (cumulative items 37/47/55). Each slice committed and
+  pushed to origin/main immediately (7bead7b3 / 4cefb9d9 / 0fb22bf1).
+- Ch.8 now 55 authored + 17 held = 72; remaining 18 (Q73-Q90). Answer-key still omits Q14 and Q39. A T/F
+  (13 cases) section follows the MCQs (out of scope).
+- Deferred-for-adjudication count: was ~48, +13 multi-true (Q35,42,43,45,46,47,48,50,51,53,54,55,58) = ~61.
+- NEXT cluster: Ch.8 Q73-Q90 (18 remaining; watch for more multi-statement vignettes and the T/F 13-case
+  section), then OPEN Ch.9 The eye and the brain (bank PDF p.129+, answer key p.6, ~72 MCQs) — new file
+  question/315-OPH-kamal-ch9-eye-brain-mcq.md + new ART-OPH-315-NEURO-OPHTHALMOLOGY, node DIS-OPH-T05.
