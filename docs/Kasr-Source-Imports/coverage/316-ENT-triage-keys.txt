@@ -94,3 +94,24 @@ Q71.a  Q72.d  Q73.b  Q74.c  Q75.c  Q76.e  Q77.e  Q78.c  Q79.d  Q80.d
 # Nose grid captured in full (Q1-80) so it need not be re-rendered. Authoring
 #   proceeds Q1 onward; per-key cross-check notes and HELD items recorded as the
 #   MCQ slices land (see 316-ENT-nose-mcq.md / coverage/seeds/316-ENT/nose.json).
+
+
+# ============================================================================
+# LARYNX section (Q1-54) — SECTION OPENED 2026-09-06
+# Stems: native text, bank pp.36-45 (PDF p36-45). Keys: section-end PRINTED
+#   ANSWER KEY grid, a page IMAGE at PDF p46, rendered ONCE at 200 dpi and read
+#   visually (Answer Key grid, 6 columns x 9 rows, 54 questions). Each key is to
+#   be cross-checked against the printed option text of its own stem before use.
+# Larynx concepts filed on the real discipline node DIS-ENT-T04 "Larynx and voice"
+#   (core anatomy/physiology on DIS-ENT-T04-S01, clinical facts on
+#   DIS-ENT-T04-S02) — the exact Ear/Nose pattern. Minted CON-MUL- / ## subject
+#   = mul (ENT has no body-system code).
+Q1.b   Q2.b   Q3.d   Q4.d   Q5.c   Q6.e   Q7.b   Q8.a   Q9.a   Q10.d
+Q11.d  Q12.a  Q13.c  Q14.e  Q15.b  Q16.a  Q17.e  Q18.e  Q19.b  Q20.d
+Q21.b  Q22.d  Q23.d  Q24.b  Q25.d  Q26.b  Q27.e  Q28.c  Q29.c  Q30.b
+Q31.d  Q32.a  Q33.a  Q34.d  Q35.c  Q36.c  Q37.b  Q38.b  Q39.d  Q40.d
+Q41.a  Q42.d  Q43.c  Q44.b  Q45.c  Q46.c  Q47.d  Q48.b  Q49.d  Q50.b
+Q51.b  Q52.c  Q53.c  Q54.a
+# Larynx grid captured in full (Q1-54) so it need not be re-rendered. Authoring
+#   proceeds Q1 onward; per-key cross-check notes and HELD items recorded as the
+#   MCQ slices land (see 316-ENT-larynx-mcq.md / coverage/seeds/316-ENT/larynx.json).
