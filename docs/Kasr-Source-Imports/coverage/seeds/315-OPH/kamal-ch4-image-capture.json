@@ -1,19 +1,29 @@
 {
   "lane": "KASR-315OPH",
   "cluster": "kamal-ch4-image-capture",
-  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 4 Normal and abnormal image capture (refractive errors, cataract, cornea/keratoconus, keratoplasty), MCQ Q1-25, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.2 Chapter 4 table), each key re-verified against the option text. 25 authored (Q1-25) / 0 held / 0 excluded in this slice. Q26-91 remain for the next tranche.",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 4 Normal and abnormal image capture (refractive errors, cataract, cornea/keratoconus, keratoplasty), MCQ Q1-49, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.2 Chapter 4 table), each key re-verified against the option text. 49 authored (Q1-49) / 0 held / 0 excluded. Q50-54 are multi-true clinical vignettes deferred for adjudication (like Ch.3 Q59-76); Q55-91 remain for the next tranche.",
   "defaults": {
     "subject": "mul",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["kau"],
-    "years": ["KAU_Y3"],
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y3"
+    ],
     "module": "315 OPH",
     "module_subject": "315 OPH > Ophthalmology > Normal and abnormal image capture",
-    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "exam_weight_by_year": {
+      "KAU_Y3": "moderate"
+    },
     "question_only_for": "",
-    "library_ids": ["ART-OPH-315-IMAGE-CAPTURE"],
-    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "library_ids": [
+      "ART-OPH-315-IMAGE-CAPTURE"
+    ],
+    "resource_ids": [
+      "src_c30b94e296cd15ba86c2"
+    ],
     "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.{page}); key from companion printed answer key",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -53,7 +63,9 @@
       "question_type": "Classification",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-5AB6FDA950BFB7",
-      "concept_ids": ["CON-MUL-5AB6FDA950BFB7"],
+      "concept_ids": [
+        "CON-MUL-5AB6FDA950BFB7"
+      ],
       "learning_objective": "Recognise that a pure minus cylinder corrects simple myopic astigmatism."
     },
     {
@@ -80,7 +92,9 @@
       "question_type": "Classification",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-02775FAEF70B3F",
-      "concept_ids": ["CON-MUL-02775FAEF70B3F"],
+      "concept_ids": [
+        "CON-MUL-02775FAEF70B3F"
+      ],
       "learning_objective": "Distinguish the Fleischer ring of keratoconus from the Kayser-Fleischer ring of Wilson disease."
     },
     {
@@ -104,7 +118,9 @@
       },
       "subtopic": "Cataract",
       "main_concept": "CON-MUL-5146709A7AEC1F",
-      "concept_ids": ["CON-MUL-5146709A7AEC1F"],
+      "concept_ids": [
+        "CON-MUL-5146709A7AEC1F"
+      ],
       "learning_objective": "Recognise the myopic (index) shift of early nuclear cataract."
     },
     {
@@ -128,7 +144,9 @@
       },
       "subtopic": "Keratoconus",
       "main_concept": "CON-MUL-5B63C687521D29",
-      "concept_ids": ["CON-MUL-5B63C687521D29"],
+      "concept_ids": [
+        "CON-MUL-5B63C687521D29"
+      ],
       "learning_objective": "Identify irregular astigmatism as the characteristic refractive error of keratoconus."
     },
     {
@@ -152,7 +170,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-15F0773194E3B9",
-      "concept_ids": ["CON-MUL-15F0773194E3B9"],
+      "concept_ids": [
+        "CON-MUL-15F0773194E3B9"
+      ],
       "learning_objective": "Define hypermetropia as a refractive system too weak for the eye's axial length."
     },
     {
@@ -176,7 +196,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-25AAB747C01A78",
-      "concept_ids": ["CON-MUL-25AAB747C01A78"],
+      "concept_ids": [
+        "CON-MUL-25AAB747C01A78"
+      ],
       "learning_objective": "Recognise near-vision (reading) difficulty as the effect of presbyopia."
     },
     {
@@ -200,7 +222,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-72E9BB729EE89D",
-      "concept_ids": ["CON-MUL-72E9BB729EE89D"],
+      "concept_ids": [
+        "CON-MUL-72E9BB729EE89D"
+      ],
       "learning_objective": "Identify cylindrical spectacle lenses as the simplest treatment of astigmatism."
     },
     {
@@ -224,7 +248,9 @@
       },
       "subtopic": "Keratoconus",
       "main_concept": "CON-MUL-3988BBB38BD53F",
-      "concept_ids": ["CON-MUL-3988BBB38BD53F"],
+      "concept_ids": [
+        "CON-MUL-3988BBB38BD53F"
+      ],
       "learning_objective": "Recognise keratoconus as a progressive ectasia that causes astigmatism."
     },
     {
@@ -248,7 +274,9 @@
       },
       "subtopic": "Keratoplasty",
       "main_concept": "CON-MUL-3A2A6B9FB9A599",
-      "concept_ids": ["CON-MUL-3A2A6B9FB9A599"],
+      "concept_ids": [
+        "CON-MUL-3A2A6B9FB9A599"
+      ],
       "learning_objective": "Define keratoplasty as transplantation of donor corneal tissue."
     },
     {
@@ -274,7 +302,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-87C1044D003495",
-      "concept_ids": ["CON-MUL-87C1044D003495"],
+      "concept_ids": [
+        "CON-MUL-87C1044D003495"
+      ],
       "learning_objective": "Link an intumescent cataract to secondary (phacomorphic) angle-closure glaucoma."
     },
     {
@@ -298,7 +328,9 @@
       },
       "subtopic": "Cataract",
       "main_concept": "CON-MUL-788177381FCF65",
-      "concept_ids": ["CON-MUL-788177381FCF65"],
+      "concept_ids": [
+        "CON-MUL-788177381FCF65"
+      ],
       "learning_objective": "Identify phacoemulsification with IOL implantation as the current cataract treatment."
     },
     {
@@ -324,7 +356,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-34BC6EB8A22E68",
-      "concept_ids": ["CON-MUL-34BC6EB8A22E68"],
+      "concept_ids": [
+        "CON-MUL-34BC6EB8A22E68"
+      ],
       "learning_objective": "Recognise that ectopia lentis may have associated ocular and systemic manifestations."
     },
     {
@@ -348,7 +382,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-E0593FD3B09CCC",
-      "concept_ids": ["CON-MUL-E0593FD3B09CCC"],
+      "concept_ids": [
+        "CON-MUL-E0593FD3B09CCC"
+      ],
       "learning_objective": "State that the myopic eye focuses parallel light in front of the retina."
     },
     {
@@ -372,7 +408,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-EEB9F487907283",
-      "concept_ids": ["CON-MUL-EEB9F487907283"],
+      "concept_ids": [
+        "CON-MUL-EEB9F487907283"
+      ],
       "learning_objective": "Identify the convex (plus) lens as the correction for hypermetropia."
     },
     {
@@ -396,7 +434,9 @@
       },
       "subtopic": "Cataract",
       "main_concept": "CON-MUL-C6D9A211C7D4AE",
-      "concept_ids": ["CON-MUL-C6D9A211C7D4AE"],
+      "concept_ids": [
+        "CON-MUL-C6D9A211C7D4AE"
+      ],
       "learning_objective": "Identify phacoemulsification with a foldable posterior-chamber IOL as the standard adult cataract technique."
     },
     {
@@ -420,7 +460,9 @@
       },
       "subtopic": "Keratoplasty",
       "main_concept": "CON-MUL-495961DCC55D25",
-      "concept_ids": ["CON-MUL-495961DCC55D25"],
+      "concept_ids": [
+        "CON-MUL-495961DCC55D25"
+      ],
       "learning_objective": "Match a superficial corneal opacity to lamellar keratoplasty."
     },
     {
@@ -444,7 +486,9 @@
       },
       "subtopic": "Cataract",
       "main_concept": "CON-MUL-E0D2462BA3FC5C",
-      "concept_ids": ["CON-MUL-E0D2462BA3FC5C"],
+      "concept_ids": [
+        "CON-MUL-E0D2462BA3FC5C"
+      ],
       "learning_objective": "Recognise cataract as a slowly progressive painless loss of vision."
     },
     {
@@ -470,7 +514,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-E366C481012EFE",
-      "concept_ids": ["CON-MUL-E366C481012EFE"],
+      "concept_ids": [
+        "CON-MUL-E366C481012EFE"
+      ],
       "learning_objective": "Recognise intrastromal ring segments as not a form of keratoplasty."
     },
     {
@@ -494,7 +540,9 @@
       },
       "subtopic": "Cataract",
       "main_concept": "CON-MUL-CE406E77626F9A",
-      "concept_ids": ["CON-MUL-CE406E77626F9A"],
+      "concept_ids": [
+        "CON-MUL-CE406E77626F9A"
+      ],
       "learning_objective": "Define cataract as opacity of the crystalline lens."
     },
     {
@@ -518,7 +566,9 @@
       },
       "subtopic": "Keratoplasty",
       "main_concept": "CON-MUL-E0FAD4FCE8CA45",
-      "concept_ids": ["CON-MUL-E0FAD4FCE8CA45"],
+      "concept_ids": [
+        "CON-MUL-E0FAD4FCE8CA45"
+      ],
       "learning_objective": "Match a deep (full-thickness) corneal opacity to penetrating keratoplasty."
     },
     {
@@ -544,7 +594,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-2CC58FF111C5D1",
-      "concept_ids": ["CON-MUL-2CC58FF111C5D1"],
+      "concept_ids": [
+        "CON-MUL-2CC58FF111C5D1"
+      ],
       "learning_objective": "Recognise that corneal ulcer is not a complication of high myopia."
     },
     {
@@ -570,7 +622,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-C6D68DD3B72DD4",
-      "concept_ids": ["CON-MUL-C6D68DD3B72DD4"],
+      "concept_ids": [
+        "CON-MUL-C6D68DD3B72DD4"
+      ],
       "learning_objective": "Recognise perpendicular principal meridia as the defining feature of regular astigmatism."
     },
     {
@@ -594,7 +648,9 @@
       },
       "subtopic": "Refractive errors",
       "main_concept": "CON-MUL-75BF57C02E7E10",
-      "concept_ids": ["CON-MUL-75BF57C02E7E10"],
+      "concept_ids": [
+        "CON-MUL-75BF57C02E7E10"
+      ],
       "learning_objective": "Identify LASIK as a refractive (keratorefractive) surgery."
     },
     {
@@ -620,7 +676,9 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-A7146E1157A353",
-      "concept_ids": ["CON-MUL-A7146E1157A353"],
+      "concept_ids": [
+        "CON-MUL-A7146E1157A353"
+      ],
       "learning_objective": "Recognise that keratoconus presents in adolescence/young adulthood, not old age."
     },
     {
@@ -646,8 +704,676 @@
       "difficulty": "Moderate",
       "reasoning_level": 2,
       "main_concept": "CON-MUL-2E038F5818F7B3",
-      "concept_ids": ["CON-MUL-2E038F5818F7B3"],
+      "concept_ids": [
+        "CON-MUL-2E038F5818F7B3"
+      ],
       "learning_objective": "Recognise that extracapsular cataract extraction is not a cause of vitreous haemorrhage."
+    },
+    {
+      "key": "q26",
+      "id": "QST-KASR315OPH-KAMAL-CH4-26",
+      "page": 29,
+      "title": "True statement about cataract",
+      "question": "Regarding facts about Cataract:",
+      "options": {
+        "A": "Mature cataract alone can cause no perception of light.",
+        "B": "Intumescent cataract can cause secondary glaucoma.",
+        "C": "Complicated cataract can be caused by astigmatism.",
+        "D": "Medical treatment is possible."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A mature cataract reduces vision to hand movements or light perception, but the eye still perceives light; loss of light perception implies additional posterior-segment or optic-nerve disease.",
+        "B": "Correct. An intumescent cataract is a swollen, water-imbibing lens that thickens and pushes the iris forward, shallowing the anterior chamber. This can crowd the drainage angle and precipitate secondary (phacomorphic) angle-closure glaucoma. Urgent lens extraction relieves the pressure rise, so secondary glaucoma is a genuine association of an intumescent cataract.",
+        "C": "Incorrect. A complicated cataract results from other ocular disease such as chronic uveitis or retinal detachment, not from a refractive error like astigmatism.",
+        "D": "Incorrect. There is no effective medical (drug) cure for an established cataract; surgery is the only definitive treatment."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-87C1044D003495",
+      "concept_ids": [
+        "CON-MUL-87C1044D003495"
+      ],
+      "learning_objective": "Recognise that an intumescent cataract can cause secondary (phacomorphic) angle-closure glaucoma."
+    },
+    {
+      "key": "q27",
+      "id": "QST-KASR315OPH-KAMAL-CH4-27",
+      "page": 29,
+      "title": "Symptom of early senile nuclear cataract",
+      "question": "Symptoms of early senile nuclear cataract may include:",
+      "options": {
+        "A": "Pain and headache.",
+        "B": "Improvement of near vision.",
+        "C": "Transient diminution of vision.",
+        "D": "Floating opacities."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Uncomplicated early cataract is painless; pain and headache suggest glaucoma or ocular inflammation.",
+        "B": "Correct. Early nuclear sclerosis raises the refractive index of the lens nucleus, adding plus power and producing an index (lenticular) myopia. This myopic shift can transiently let a previously presbyopic patient read again without glasses, the classic \"second sight\". Improvement of near vision is therefore a recognised early symptom of nuclear cataract.",
+        "C": "Incorrect. Cataract causes a slow, progressive and persistent blur, not transient dimming; transient visual loss suggests a vascular cause such as amaurosis fugax.",
+        "D": "Incorrect. Floaters (floating opacities) arise from the vitreous, not from lens opacification, so they are not a symptom of nuclear cataract."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-5146709A7AEC1F",
+      "concept_ids": [
+        "CON-MUL-5146709A7AEC1F"
+      ],
+      "learning_objective": "Recognise the near-vision improvement (\"second sight\") of early nuclear cataract."
+    },
+    {
+      "key": "q28",
+      "id": "QST-KASR315OPH-KAMAL-CH4-28",
+      "page": 30,
+      "title": "Cause not producing unilateral total cataract",
+      "question": "A thirty three year old man presented with total cataract in his left eye. The right eye is normal with 6/6 vision. The following may be the cause of the condition EXCEPT:",
+      "options": {
+        "A": "Longstanding retinal detachment.",
+        "B": "Hypermetropia.",
+        "C": "Chronic iridocyclitis in the left eye.",
+        "D": "Old trauma to the eye."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a real cause). A longstanding retinal detachment disturbs lens metabolism and can produce a complicated cataract in the affected eye.",
+        "B": "Correct. This is the exception: hypermetropia is a refractive error and is not a cause of a unilateral total cataract. The other options are recognised causes of a complicated or traumatic cataract in one eye. A young man with a dense one-sided cataract should be worked up for local ocular disease or trauma, not for a refractive error.",
+        "C": "Incorrect (it is a real cause). Chronic iridocyclitis (anterior uveitis) is a classic cause of a complicated cataract in the involved eye.",
+        "D": "Incorrect (it is a real cause). Old blunt or penetrating trauma is a common cause of a unilateral traumatic cataract."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-1B22A38684AE4B",
+      "concept_ids": [
+        "CON-MUL-1B22A38684AE4B"
+      ],
+      "learning_objective": "Recognise that hypermetropia is not a cause of a unilateral total cataract."
+    },
+    {
+      "key": "q29",
+      "id": "QST-KASR315OPH-KAMAL-CH4-29",
+      "page": 30,
+      "title": "Commonest cause of cataract",
+      "question": "The commonest cause of cataract is:",
+      "options": {
+        "A": "Trauma.",
+        "B": "Diabetes.",
+        "C": "Hypo-parathyroidism.",
+        "D": "Old age."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Trauma causes cataract but only in a small minority of patients, usually unilaterally.",
+        "B": "Incorrect. Diabetes accelerates and is an important cause of cataract, but it is far less common overall than age-related lens change.",
+        "C": "Incorrect. Hypoparathyroidism can cause a metabolic (hypocalcaemic) cataract, but this is a rare cause.",
+        "D": "Correct. Age-related (senile) cataract is by far the commonest form worldwide, caused by cumulative oxidative and metabolic change in the ageing lens. It is the leading cause of reversible blindness globally. The other listed causes are real but individually account for only a small fraction of cases."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-7A7AB5B07D91DA",
+      "concept_ids": [
+        "CON-MUL-7A7AB5B07D91DA"
+      ],
+      "learning_objective": "Identify old age (senile change) as the commonest cause of cataract."
+    },
+    {
+      "key": "q30",
+      "id": "QST-KASR315OPH-KAMAL-CH4-30",
+      "page": 30,
+      "title": "Correct statement about myopia",
+      "question": "Myopia is a condition which is:",
+      "options": {
+        "A": "Corrected with a concave lens.",
+        "B": "Corrected with a convex lens.",
+        "C": "The image is formed behind the retina.",
+        "D": "The eyeball is small."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In myopia the eye is too powerful or too long, so parallel rays focus in front of the retina. A concave (minus, diverging) lens spreads the rays so that the focus moves back onto the retina. The concave lens is therefore the correct optical correction for myopia.",
+        "B": "Incorrect. A convex (plus) lens adds power and corrects hypermetropia, worsening myopia.",
+        "C": "Incorrect. In myopia the image forms in front of the retina; a focus behind the retina describes hypermetropia.",
+        "D": "Incorrect. Axial myopia is associated with a long, not a small, eyeball; a small eye tends toward hypermetropia."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-AD73386143C000",
+      "concept_ids": [
+        "CON-MUL-AD73386143C000"
+      ],
+      "learning_objective": "Identify the concave (minus) lens as the correction for myopia."
+    },
+    {
+      "key": "q31",
+      "id": "QST-KASR315OPH-KAMAL-CH4-31",
+      "page": 30,
+      "title": "Deposit in band-shaped keratopathy",
+      "question": "Band shaped keratopathy is commonly caused by deposition of:",
+      "options": {
+        "A": "Magnesium salt.",
+        "B": "Calcium salt.",
+        "C": "Ferrous salt.",
+        "D": "Copper salt."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Magnesium salts do not deposit in the cornea to form band keratopathy.",
+        "B": "Correct. Band-shaped keratopathy is the deposition of calcium salts in the sub-epithelial cornea and Bowman layer, forming a horizontal band across the interpalpebral zone. It complicates chronic ocular disease such as uveitis and systemic hypercalcaemia. Because the deposit is calcium, it can be removed with a chelator such as EDTA.",
+        "C": "Incorrect. Ferrous (iron) deposition forms lines such as the Fleischer ring or a Hudson-Stahli line, not band keratopathy.",
+        "D": "Incorrect. Copper deposition in Descemet membrane produces the Kayser-Fleischer ring of Wilson disease, not band keratopathy."
+      },
+      "subtopic": "Cornea",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-B0F3E251810D4F",
+      "concept_ids": [
+        "CON-MUL-B0F3E251810D4F"
+      ],
+      "learning_objective": "Recognise band-shaped keratopathy as corneal calcium deposition."
+    },
+    {
+      "key": "q32",
+      "id": "QST-KASR315OPH-KAMAL-CH4-32",
+      "page": 30,
+      "title": "Best correction of unilateral aphakia",
+      "question": "The best option for management of anisometropia in unilateral aphakia is:",
+      "options": {
+        "A": "Glasses.",
+        "B": "Intraocular lens (IOL) implantation.",
+        "C": "Contact lens.",
+        "D": "Radial keratotomy."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Aphakic spectacles are thick and magnify the image by about 25 percent, producing intolerable aniseikonia when the other eye is normal.",
+        "B": "Correct. An intraocular lens sits at the nodal point of the eye and produces essentially no image-size difference, so it corrects unilateral aphakia without the aniseikonia of glasses. This makes binocular single vision possible when the fellow eye is emmetropic. IOL implantation is therefore the best option for the anisometropia of unilateral aphakia.",
+        "C": "Incorrect. A contact lens is better tolerated than glasses but still magnifies the image by around 7 to 10 percent and needs handling; it is inferior to an IOL for a single aphakic eye.",
+        "D": "Incorrect. Radial keratotomy is an obsolete corneal refractive procedure for low myopia and cannot correct the large hypermetropic error of aphakia."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-7DAC4EC4C0589A",
+      "concept_ids": [
+        "CON-MUL-7DAC4EC4C0589A"
+      ],
+      "learning_objective": "Identify IOL implantation as the best correction for unilateral aphakic anisometropia."
+    },
+    {
+      "key": "q33",
+      "id": "QST-KASR315OPH-KAMAL-CH4-33",
+      "page": 30,
+      "title": "Feature of posterior lens dislocation",
+      "question": "Posterior dislocation of the lens is characterized by:",
+      "options": {
+        "A": "Loss of two Purkinje-Sanson images.",
+        "B": "Uveitis may occur as a complication.",
+        "C": "Neovascular glaucoma is a frequent complication.",
+        "D": "The ocular refraction shifts towards myopia."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Four Purkinje-Sanson images are normally reflected from the anterior and posterior surfaces of the cornea and lens. When the lens dislocates backwards into the vitreous, the two images arising from the lens surfaces (the third and fourth) are lost, leaving only the two corneal reflections. Loss of the two lenticular Purkinje images is therefore a sign of posterior lens dislocation.",
+        "B": "Incorrect. Uveitis is not a characteristic feature of a lens that has fallen posteriorly into the vitreous.",
+        "C": "Incorrect. Neovascular glaucoma is a complication of retinal ischaemia (as in diabetes or vein occlusion), not of posterior lens dislocation.",
+        "D": "Incorrect. A posteriorly dislocated lens leaves the eye aphakic, producing a hypermetropic (not myopic) shift."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-25EC65FD3AD9AC",
+      "concept_ids": [
+        "CON-MUL-25EC65FD3AD9AC"
+      ],
+      "learning_objective": "Recognise loss of the two lenticular Purkinje-Sanson images as a sign of posterior lens dislocation."
+    },
+    {
+      "key": "q34",
+      "id": "QST-KASR315OPH-KAMAL-CH4-34",
+      "page": 30,
+      "title": "Cause not impairing vision in keratoconus",
+      "question": "Causes of visual impairment in keratoconus include all the following EXCEPT:",
+      "options": {
+        "A": "Myopia.",
+        "B": "Corneal opacity.",
+        "C": "Hyperopia.",
+        "D": "Irregular astigmatism."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a real cause). The steepening cornea of keratoconus produces progressive myopia that blurs vision.",
+        "B": "Incorrect (it is a real cause). Stromal scarring and healed hydrops leave corneal opacities that reduce vision.",
+        "C": "Correct. This is the exception: keratoconus steepens the cornea and therefore causes myopia, not hyperopia. Visual loss in keratoconus comes from myopia, irregular astigmatism and corneal opacity. Hyperopia would require corneal flattening, the opposite of the coning seen in this disease.",
+        "D": "Incorrect (it is a real cause). Irregular astigmatism from the asymmetric cone is the hallmark cause of blurred, uncorrectable vision in keratoconus."
+      },
+      "subtopic": "Keratoconus",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-3B59B91809399E",
+      "concept_ids": [
+        "CON-MUL-3B59B91809399E"
+      ],
+      "learning_objective": "Recognise that hyperopia does not cause visual impairment in keratoconus (the error is myopic)."
+    },
+    {
+      "key": "q35",
+      "id": "QST-KASR315OPH-KAMAL-CH4-35",
+      "page": 30,
+      "title": "Nature of arcus senilis",
+      "question": "Arcus senilis is characterized by:",
+      "options": {
+        "A": "It is formed of calcium deposits.",
+        "B": "It starts in the temporal and nasal corneal periphery and spreads circumferentially.",
+        "C": "It is formed of lipid deposits.",
+        "D": "It becomes indistinguishable from the limbus by the age of 60."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Arcus senilis is a lipid, not a calcium, deposit; calcium deposition gives band keratopathy.",
+        "B": "Incorrect. The arc begins at the inferior and superior corneal poles first and only later becomes a complete ring, not at the temporal and nasal periphery.",
+        "C": "Correct. Arcus senilis is a greyish-white ring of lipid (cholesterol and phospholipid) deposited in the peripheral corneal stroma. It is separated from the limbus by a clear zone, the lucid interval of Vogt. In a patient under about 40 (arcus juvenilis) it may signal hyperlipidaemia, but as an ageing change it is a benign lipid deposit.",
+        "D": "Incorrect. A clear lucid interval always separates the arcus from the limbus, so it does not become indistinguishable from the limbus."
+      },
+      "subtopic": "Cornea",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-9ACD767C5F420F",
+      "concept_ids": [
+        "CON-MUL-9ACD767C5F420F"
+      ],
+      "learning_objective": "Recognise arcus senilis as a peripheral corneal lipid deposit."
+    },
+    {
+      "key": "q36",
+      "id": "QST-KASR315OPH-KAMAL-CH4-36",
+      "page": 31,
+      "title": "Result of correcting unilateral aphakia with glasses",
+      "question": "Correction of unilateral aphakia with glasses will result in:",
+      "options": {
+        "A": "Astigmatism.",
+        "B": "Glaucoma.",
+        "C": "Hypermetropia.",
+        "D": "Aniseikonia."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A high-plus aphakic spectacle does not itself create astigmatism; its problem is magnification.",
+        "B": "Incorrect. Correcting aphakia with glasses does not cause glaucoma.",
+        "C": "Incorrect. The spectacle is prescribed precisely to neutralise the hypermetropia of aphakia, so it does not leave the patient hypermetropic.",
+        "D": "Correct. A thick aphakic spectacle magnifies the retinal image of the corrected eye by roughly 25 percent. When the fellow eye is normal, the two eyes then receive images of very different sizes, a condition called aniseikonia. The brain cannot fuse these unequal images, which is why an intraocular lens or contact lens is preferred for unilateral aphakia."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-4D1639A558B97F",
+      "concept_ids": [
+        "CON-MUL-4D1639A558B97F"
+      ],
+      "learning_objective": "Recognise aniseikonia as the result of correcting unilateral aphakia with spectacles."
+    },
+    {
+      "key": "q37",
+      "id": "QST-KASR315OPH-KAMAL-CH4-37",
+      "page": 31,
+      "title": "Diagnosis of astigmatism",
+      "question": "Astigmatism can be diagnosed with:",
+      "options": {
+        "A": "Placido's disc.",
+        "B": "Corneal topography.",
+        "C": "Astigmatic fan.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Placido's disc (keratoscopy) shows distortion of the reflected concentric rings and does detect astigmatism, but it is only one of the listed methods.",
+        "B": "Incorrect as the single best answer. Corneal topography maps corneal curvature and quantifies astigmatism, but again it is only one of the options.",
+        "C": "Incorrect as the single best answer. The astigmatic fan is a subjective chart that identifies the astigmatic axis, but it is only one of the listed tools.",
+        "D": "Correct. Astigmatism can be detected by all of these: Placido's disc and corneal topography reveal the irregular corneal curvature objectively, while the astigmatic fan identifies the axis subjectively. Each probes the same error from a different angle. Because every listed method is valid, 'all of the above' is the correct answer."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-AB9A05A8159DD3",
+      "concept_ids": [
+        "CON-MUL-AB9A05A8159DD3"
+      ],
+      "learning_objective": "Recognise that astigmatism can be diagnosed by keratoscopy, corneal topography and the astigmatic fan."
+    },
+    {
+      "key": "q38",
+      "id": "QST-KASR315OPH-KAMAL-CH4-38",
+      "page": 31,
+      "title": "Recession of the near point with ageing",
+      "question": "Recession of the near point with ageing, making near vision uncomfortable, is termed:",
+      "options": {
+        "A": "Presbyopia.",
+        "B": "Asthenopia.",
+        "C": "Hyperopia.",
+        "D": "None of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Presbyopia is the age-related loss of lens elasticity and accommodative amplitude, so the nearest point that can be focused (the near point) recedes with age. Near tasks such as reading then become blurred and uncomfortable. It is corrected with a convex reading addition.",
+        "B": "Incorrect. Asthenopia is the symptom of eye strain and fatigue, not the specific recession of the near point.",
+        "C": "Incorrect. Hyperopia is a refractive error from a short or weak eye, present from an early age rather than an age-related recession of the near point.",
+        "D": "Incorrect. The described change is exactly presbyopia, so option A applies."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-2C00132D3585F7",
+      "concept_ids": [
+        "CON-MUL-2C00132D3585F7"
+      ],
+      "learning_objective": "Define presbyopia as the age-related recession of the near point."
+    },
+    {
+      "key": "q39",
+      "id": "QST-KASR315OPH-KAMAL-CH4-39",
+      "page": 31,
+      "title": "Disadvantages of contact lenses",
+      "question": "Disadvantages of contact lenses include:",
+      "options": {
+        "A": "Risk of infection.",
+        "B": "Giant papillary conjunctivitis.",
+        "C": "Traumatic corneal abrasions.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. Microbial keratitis is a serious risk of contact-lens wear, but it is only one of the listed disadvantages.",
+        "B": "Incorrect as the single best answer. Giant papillary conjunctivitis is a recognised immune complication of lens wear, but it is only one of the options.",
+        "C": "Incorrect as the single best answer. Insertion, removal or a poorly fitting lens can cause corneal abrasions, but this too is only one option.",
+        "D": "Correct. Contact lenses carry all of these hazards: microbial keratitis, giant papillary conjunctivitis and mechanical corneal abrasions. They stem respectively from contamination, chronic immune stimulation and mechanical trauma. Because every listed item is a genuine disadvantage, \"all of the above\" is correct."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-FE58C5B3747DDE",
+      "concept_ids": [
+        "CON-MUL-FE58C5B3747DDE"
+      ],
+      "learning_objective": "List infection, giant papillary conjunctivitis and corneal abrasion as disadvantages of contact lenses."
+    },
+    {
+      "key": "q40",
+      "id": "QST-KASR315OPH-KAMAL-CH4-40",
+      "page": 31,
+      "title": "Causes of loss of accommodation",
+      "question": "Loss of accommodation may be found in:",
+      "options": {
+        "A": "Third nerve palsy.",
+        "B": "Presbyopia.",
+        "C": "Tropicamide eye drop instillation.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. A third (oculomotor) nerve palsy paralyses the ciliary muscle and abolishes accommodation, but it is only one of the listed causes.",
+        "B": "Incorrect as the single best answer. Presbyopia is the age-related loss of accommodation, but it is only one option.",
+        "C": "Incorrect as the single best answer. Tropicamide is a cycloplegic that temporarily paralyses the ciliary muscle, but it is only one option.",
+        "D": "Correct. Accommodation depends on ciliary-muscle contraction and lens elasticity, and all three situations remove it: an oculomotor palsy paralyses the muscle, presbyopia stiffens the lens, and a cycloplegic drug such as tropicamide blocks the muscle pharmacologically. Each interrupts the accommodative mechanism at a different point. Because all are valid, \"all of the above\" is correct."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-141E693947E38E",
+      "concept_ids": [
+        "CON-MUL-141E693947E38E"
+      ],
+      "learning_objective": "Recognise oculomotor palsy, presbyopia and cycloplegic drops as causes of loss of accommodation."
+    },
+    {
+      "key": "q41",
+      "id": "QST-KASR315OPH-KAMAL-CH4-41",
+      "page": 31,
+      "title": "Retinal change not seen in myopia",
+      "question": "Retinal changes in myopes include all of the following EXCEPT:",
+      "options": {
+        "A": "Temporal crescent.",
+        "B": "Tigroid fundus.",
+        "C": "Lacquer cracks.",
+        "D": "Choroidal folds."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a real change). A temporal (myopic) crescent of bare sclera beside the disc is a classic fundus sign of myopia.",
+        "B": "Incorrect (it is a real change). Thinning of the retinal pigment epithelium reveals the choroidal vessels, giving the tessellated or tigroid fundus of myopia.",
+        "C": "Incorrect (it is a real change). Lacquer cracks are breaks in Bruchs membrane seen in pathological myopia.",
+        "D": "Correct. This is the exception: choroidal folds arise when the eye is compressed or shortened, as in hypermetropia, orbital masses or ocular hypotony. High myopia stretches and thins the posterior pole, producing crescents, a tigroid fundus and lacquer cracks, but not choroidal folds. Choroidal folds therefore do not belong on the list of myopic retinal changes."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-CBEC6401202F95",
+      "concept_ids": [
+        "CON-MUL-CBEC6401202F95"
+      ],
+      "learning_objective": "Recognise that choroidal folds are not a retinal change of myopia."
+    },
+    {
+      "key": "q42",
+      "id": "QST-KASR315OPH-KAMAL-CH4-42",
+      "page": 31,
+      "title": "Correction of myopia",
+      "question": "Myopia can be corrected by:",
+      "options": {
+        "A": "Concave lenses.",
+        "B": "Convex lenses.",
+        "C": "Cylindrical lenses.",
+        "D": "Spherocylindrical lenses."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Myopia focuses parallel light in front of the retina because the eye is too powerful or too long. A concave (minus, diverging) lens reduces the converging power so the image moves back onto the retina. The concave spherical lens is therefore the correction for simple myopia.",
+        "B": "Incorrect. A convex (plus) lens adds power and corrects hypermetropia, making myopia worse.",
+        "C": "Incorrect. A pure cylindrical lens corrects astigmatism, not spherical myopia.",
+        "D": "Incorrect. A spherocylindrical lens is used for compound or mixed astigmatism, not for simple myopia."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-AD73386143C000",
+      "concept_ids": [
+        "CON-MUL-AD73386143C000"
+      ],
+      "learning_objective": "Identify the concave (minus) lens as the correction for myopia."
+    },
+    {
+      "key": "q43",
+      "id": "QST-KASR315OPH-KAMAL-CH4-43",
+      "page": 31,
+      "title": "Diagnosis of keratoconus",
+      "question": "Keratoconus is diagnosed by:",
+      "options": {
+        "A": "Fluorescein test.",
+        "B": "Auto-refractometer.",
+        "C": "Ultrasonography.",
+        "D": "Placido's disc.",
+        "E": "Fluorescein angiography."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The fluorescein test detects epithelial defects and tear-film problems, not the corneal shape of keratoconus.",
+        "B": "Incorrect. An auto-refractometer measures refractive error and may show high or irregular astigmatism, but it does not map the cone and is not diagnostic on its own.",
+        "C": "Incorrect. Ultrasonography images the posterior segment; it is not used to diagnose corneal ectasia.",
+        "D": "Correct. Keratoconus is diagnosed by analysing corneal shape, and Placido's disc (keratoscopy), the basis of corneal topography, shows the distorted, asymmetric mires of the cone. Topographic inferior steepening is the most sensitive early sign. Of the options listed, Placido's disc is the shape-based test that reveals keratoconus.",
+        "E": "Incorrect. Fluorescein angiography images the retinal and choroidal circulation and has no role in diagnosing a corneal disease."
+      },
+      "subtopic": "Keratoconus",
+      "main_concept": "CON-MUL-5FF582D11D21C9",
+      "concept_ids": [
+        "CON-MUL-5FF582D11D21C9"
+      ],
+      "learning_objective": "Identify Placido's disc / corneal topography as the diagnostic test for keratoconus."
+    },
+    {
+      "key": "q44",
+      "id": "QST-KASR315OPH-KAMAL-CH4-44",
+      "page": 31,
+      "title": "Symptom of early senile cataract",
+      "question": "Symptoms of early senile cataract include:",
+      "options": {
+        "A": "Pain and headache.",
+        "B": "Uniocular diplopia.",
+        "C": "Transient diminution of vision.",
+        "D": "Floating opacities."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Uncomplicated early cataract is painless; pain and headache point to glaucoma or inflammation.",
+        "B": "Correct. Early lens opacities create areas of differing refractive index within the lens, splitting the image so that one eye sees double or multiple images. This uniocular diplopia (or polyopia) persists when the fellow eye is covered, which distinguishes it from the binocular diplopia of squint. It is a characteristic early symptom of senile cataract.",
+        "C": "Incorrect. Cataract causes persistent, gradually progressive blur, not transient dimming.",
+        "D": "Incorrect. Floating opacities are a vitreous symptom, unrelated to lens opacification."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-6AB5D295CC1843",
+      "concept_ids": [
+        "CON-MUL-6AB5D295CC1843"
+      ],
+      "learning_objective": "Recognise uniocular diplopia as an early symptom of senile cataract."
+    },
+    {
+      "key": "q45",
+      "id": "QST-KASR315OPH-KAMAL-CH4-45",
+      "page": 32,
+      "title": "Sign that is not keratoconus",
+      "question": "All the following are signs of keratoconus EXCEPT:",
+      "options": {
+        "A": "Vogt striae.",
+        "B": "Munson sign.",
+        "C": "Kayser-Fleischer ring.",
+        "D": "Oil droplet sign on direct ophthalmoscopy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a true sign). Vogt striae are fine vertical stress lines in the deep stroma that disappear on gentle globe pressure, a sign of keratoconus.",
+        "B": "Incorrect (it is a true sign). Munson sign is the V-shaped bulging of the lower lid on downgaze produced by the corneal cone.",
+        "C": "Correct. This is the exception: a Kayser-Fleischer ring is a peripheral corneal copper deposit of Wilson disease, not a sign of keratoconus. The keratoconus-related iron line is the Fleischer ring, which encircles the base of the cone and is different. So the Kayser-Fleischer ring does not belong to keratoconus.",
+        "D": "Incorrect (it is a true sign). The oil-droplet (or Charleux) reflex on distant direct ophthalmoscopy reflects the cone and is a sign of keratoconus."
+      },
+      "subtopic": "Keratoconus",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-02775FAEF70B3F",
+      "concept_ids": [
+        "CON-MUL-02775FAEF70B3F"
+      ],
+      "learning_objective": "Distinguish the Kayser-Fleischer ring (Wilson disease) from the true signs of keratoconus."
+    },
+    {
+      "key": "q46",
+      "id": "QST-KASR315OPH-KAMAL-CH4-46",
+      "page": 32,
+      "title": "Cause of visual loss in lens subluxation",
+      "question": "Diminution of vision in lens subluxation is caused by:",
+      "options": {
+        "A": "Myopia.",
+        "B": "Astigmatism.",
+        "C": "Complications.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single best answer. A displaced or tilted lens changes its effective power and can cause lenticular myopia, but it is only one mechanism.",
+        "B": "Incorrect as the single best answer. Tilting of the subluxated lens induces astigmatism, but this too is only one mechanism.",
+        "C": "Incorrect as the single best answer. Subluxation can cause complications such as secondary glaucoma, uveitis or cataract that reduce vision, but this is only one route.",
+        "D": "Correct. Vision falls in lens subluxation through all of these: the shifted lens induces myopia and astigmatism, and it may trigger complications such as pupillary-block glaucoma, uveitis or cataract. Both the refractive change and the secondary complications blur vision. Because each listed mechanism applies, \"all of the above\" is correct."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-57E3AF8DA3A303",
+      "concept_ids": [
+        "CON-MUL-57E3AF8DA3A303"
+      ],
+      "learning_objective": "Recognise that lens subluxation reduces vision through myopia, astigmatism and complications."
+    },
+    {
+      "key": "q47",
+      "id": "QST-KASR315OPH-KAMAL-CH4-47",
+      "page": 32,
+      "title": "Astigmatism with opposite-sign meridia",
+      "question": "On cycloplegic refraction, when one meridian is hyperopic and the other is myopic, the condition is:",
+      "options": {
+        "A": "Simple astigmatism.",
+        "B": "Compound astigmatism.",
+        "C": "Mixed astigmatism.",
+        "D": "None of the above."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. In simple astigmatism one meridian is emmetropic while the other is ametropic, not one hyperopic and the other myopic.",
+        "B": "Incorrect. In compound astigmatism both meridia carry the same type of error (both myopic or both hyperopic), differing only in degree.",
+        "C": "Correct. When one principal meridian focuses in front of the retina (myopic) and the other behind it (hyperopic), the two errors are of opposite sign, which defines mixed astigmatism. One focal line lies before and the other behind the retina, straddling it. This distinguishes it from simple and compound astigmatism.",
+        "D": "Incorrect. The described situation is exactly mixed astigmatism, so option C applies."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-A8ABF1722466B0",
+      "concept_ids": [
+        "CON-MUL-A8ABF1722466B0"
+      ],
+      "learning_objective": "Define mixed astigmatism as one meridian myopic and the other hyperopic."
+    },
+    {
+      "key": "q48",
+      "id": "QST-KASR315OPH-KAMAL-CH4-48",
+      "page": 32,
+      "title": "Complication of hypermetropia",
+      "question": "Complications of hypermetropia include:",
+      "options": {
+        "A": "Angle-closure glaucoma.",
+        "B": "Iridocyclitis.",
+        "C": "Exotropia.",
+        "D": "Choroidal neovascular membrane.",
+        "E": "Posterior staphyloma."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A hypermetropic eye is short with a crowded anterior segment and a shallow anterior chamber. This narrow, crowded angle predisposes to acute angle-closure glaucoma, especially as the lens thickens with age. Angle-closure glaucoma is therefore a recognised complication of hypermetropia.",
+        "B": "Incorrect. Iridocyclitis (anterior uveitis) is an inflammatory disorder unrelated to the refractive state.",
+        "C": "Incorrect. Hypermetropia drives accommodative convergence and causes esotropia, not exotropia.",
+        "D": "Incorrect. A choroidal neovascular membrane complicates pathological myopia, not hypermetropia.",
+        "E": "Incorrect. Posterior staphyloma is a feature of high axial myopia, the opposite of the short hypermetropic eye."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-F2FDE429BB3531",
+      "concept_ids": [
+        "CON-MUL-F2FDE429BB3531"
+      ],
+      "learning_objective": "Recognise angle-closure glaucoma as a complication of the short hypermetropic eye."
+    },
+    {
+      "key": "q49",
+      "id": "QST-KASR315OPH-KAMAL-CH4-49",
+      "page": 32,
+      "title": "Indication for cylindrical lenses",
+      "question": "Cylindrical lenses are prescribed for:",
+      "options": {
+        "A": "Myopia.",
+        "B": "Hypermetropia.",
+        "C": "Astigmatism.",
+        "D": "Asthenopia.",
+        "E": "Cataract."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Myopia is a spherical error corrected by a concave spherical lens, not a cylinder.",
+        "B": "Incorrect. Hypermetropia is a spherical error corrected by a convex spherical lens.",
+        "C": "Correct. A cylindrical lens has power in only one meridian, so it selectively adds or subtracts power along the astigmatic axis. This neutralises the difference in power between the two principal meridia that defines regular astigmatism. Cylindrical lenses are therefore the correction for astigmatism.",
+        "D": "Incorrect. Asthenopia is a symptom of eye strain, not a refractive error corrected by a cylinder.",
+        "E": "Incorrect. Cataract is a lens opacity treated surgically, not with cylindrical lenses."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-72E9BB729EE89D",
+      "concept_ids": [
+        "CON-MUL-72E9BB729EE89D"
+      ],
+      "learning_objective": "Identify astigmatism as the refractive error corrected by cylindrical lenses."
     }
   ]
 }

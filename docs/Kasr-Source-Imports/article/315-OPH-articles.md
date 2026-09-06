@@ -392,6 +392,25 @@ CON-MUL-C6D68DD3B72DD4
 CON-MUL-75BF57C02E7E10
 CON-MUL-A7146E1157A353
 CON-MUL-2E038F5818F7B3
+CON-MUL-1B22A38684AE4B
+CON-MUL-7A7AB5B07D91DA
+CON-MUL-AD73386143C000
+CON-MUL-B0F3E251810D4F
+CON-MUL-7DAC4EC4C0589A
+CON-MUL-25EC65FD3AD9AC
+CON-MUL-3B59B91809399E
+CON-MUL-9ACD767C5F420F
+CON-MUL-4D1639A558B97F
+CON-MUL-AB9A05A8159DD3
+CON-MUL-2C00132D3585F7
+CON-MUL-FE58C5B3747DDE
+CON-MUL-141E693947E38E
+CON-MUL-CBEC6401202F95
+CON-MUL-5FF582D11D21C9
+CON-MUL-6AB5D295CC1843
+CON-MUL-57E3AF8DA3A303
+CON-MUL-A8ABF1722466B0
+CON-MUL-F2FDE429BB3531
 ## related_articles
 ART-OPH-315-EYE-ANATOMY
 ART-OPH-315-EYE-EXAM
@@ -421,6 +440,6 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-25). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the single vitreous-haemorrhage concept (Q25) is filed on DIS-OPH-T04 (Retina) but grouped here with its chapter. Chapter 4 has 91 MCQs; Q26-91 remain for the next tranche.
+groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-49). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the vitreous-haemorrhage concept (Q25) and the myopic-retinal-changes concept (Q41) are filed on DIS-OPH-T04 (Retina) but grouped here with their chapter. Q26/Q27/Q45/Q49 reuse existing Ch.4 concepts (intumescent-cataract glaucoma, early-nuclear-cataract myopic shift, Kayser-Fleischer-ring, cylindrical-lens for astigmatism). Chapter 4 has 91 MCQs; Q50-54 are multi-true clinical vignettes deferred for adjudication and Q55-91 remain for the next tranche.
 ## reading_time
 4

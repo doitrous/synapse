@@ -12813,3 +12813,2093 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-1B22A38684AE4B
+## label
+Hypermetropia is not a cause of cataract
+## canonical_key
+ophthalmology.cataract.hypermetropia-not-a-cause
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A unilateral total (complicated or traumatic) cataract is caused by local ocular disease such as chronic iridocyclitis or longstanding retinal detachment, or by old trauma. Hypermetropia is a refractive error and is not a cause of cataract.
+## explicit_objective
+Recognise that hypermetropia is not a cause of a unilateral total cataract.
+## pitfalls
+A refractive error such as hypermetropia does not opacify the lens; look for uveitis, retinal detachment or trauma behind a dense one-sided cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-7A7AB5B07D91DA
+## label
+Old age is the commonest cause of cataract
+## canonical_key
+ophthalmology.cataract.commonest-cause-old-age
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Age-related (senile) cataract from cumulative oxidative and metabolic change in the ageing lens is by far the commonest form of cataract worldwide and the leading cause of reversible blindness. Trauma, diabetes and hypoparathyroidism cause cataract but individually account for only a small fraction of cases.
+## explicit_objective
+Identify old age (senile change) as the commonest cause of cataract.
+## pitfalls
+Diabetes and trauma are important but far less common overall than age-related lens change.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-AD73386143C000
+## label
+Myopia is corrected by a concave (minus) lens
+## canonical_key
+ophthalmology.myopia.corrected-by-concave-lens
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In myopia the eye is too powerful or too long, so parallel rays focus in front of the retina. A concave (minus, diverging) lens reduces the converging power so the focus moves back onto the retina, correcting simple myopia.
+## explicit_objective
+Identify the concave (minus) lens as the correction for myopia.
+## pitfalls
+A convex (plus) lens adds power and corrects hypermetropia, worsening myopia; a cylinder corrects astigmatism, not spherical myopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-B0F3E251810D4F
+## label
+Band-shaped keratopathy is corneal calcium deposition
+## canonical_key
+ophthalmology.band-keratopathy.calcium-deposition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Band-shaped keratopathy is the deposition of calcium salts in the sub-epithelial cornea and Bowman layer, forming a horizontal band across the interpalpebral zone. It complicates chronic ocular disease such as uveitis and systemic hypercalcaemia and can be removed with an EDTA chelator.
+## explicit_objective
+Recognise band-shaped keratopathy as corneal calcium deposition.
+## pitfalls
+Iron forms the Fleischer ring or Hudson-Stahli line and copper the Kayser-Fleischer ring; only calcium gives band keratopathy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cornea
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cornea
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-7DAC4EC4C0589A
+## label
+Unilateral aphakia is best corrected by an intraocular lens
+## canonical_key
+ophthalmology.aphakia.unilateral-anisometropia-iol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An intraocular lens sits near the nodal point of the eye and produces essentially no image-size difference, so it corrects unilateral aphakia without the aniseikonia caused by aphakic spectacles or the smaller magnification of a contact lens. It is therefore the best option for the anisometropia of unilateral aphakia.
+## explicit_objective
+Identify IOL implantation as the best correction for unilateral aphakic anisometropia.
+## pitfalls
+Aphakic glasses magnify the image by about 25 percent and a contact lens by 7 to 10 percent, both producing aniseikonia when the fellow eye is normal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-25EC65FD3AD9AC
+## label
+Posterior lens dislocation loses the two lenticular Purkinje-Sanson images
+## canonical_key
+ophthalmology.lens-dislocation.posterior-loss-purkinje-images
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Four Purkinje-Sanson images are normally reflected from the anterior and posterior surfaces of the cornea and lens. When the lens dislocates backwards into the vitreous, the third and fourth images arising from the lens surfaces are lost, leaving only the two corneal reflections, and the eye becomes aphakic (hypermetropic).
+## explicit_objective
+Recognise loss of the two lenticular Purkinje-Sanson images as a sign of posterior lens dislocation.
+## pitfalls
+A posteriorly dislocated lens leaves the eye hypermetropic, not myopic; neovascular glaucoma and uveitis are not its characteristic features.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-3B59B91809399E
+## label
+Keratoconus impairs vision through myopia, not hyperopia
+## canonical_key
+ophthalmology.keratoconus.visual-impairment-exclude-hyperopia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Visual loss in keratoconus results from progressive myopia, irregular astigmatism and corneal opacity produced by the coning cornea. Hyperopia is not a cause, because it would require corneal flattening, the opposite of the steepening seen in keratoconus.
+## explicit_objective
+Recognise that keratoconus impairs vision through myopia and irregular astigmatism, not hyperopia.
+## pitfalls
+The keratoconic cornea steepens and therefore causes myopia; expecting hyperopia reverses the mechanism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-9ACD767C5F420F
+## label
+Arcus senilis is a peripheral corneal lipid deposit
+## canonical_key
+ophthalmology.arcus-senilis.lipid-deposit
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Arcus senilis is a greyish-white ring of lipid (cholesterol and phospholipid) deposited in the peripheral corneal stroma, separated from the limbus by a clear lucid interval of Vogt. As an ageing change it is benign, though in a patient under about 40 it may signal hyperlipidaemia.
+## explicit_objective
+Recognise arcus senilis as a peripheral corneal lipid deposit.
+## pitfalls
+Arcus is lipid (not calcium, which gives band keratopathy), begins at the inferior and superior poles, and never merges with the limbus because of the lucid interval.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cornea
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cornea
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-4D1639A558B97F
+## label
+Spectacle correction of unilateral aphakia causes aniseikonia
+## canonical_key
+ophthalmology.aphakia.spectacle-aniseikonia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A high-plus aphakic spectacle magnifies the retinal image of the corrected eye by roughly 25 percent. When the fellow eye is normal, the two eyes receive images of very different sizes (aniseikonia), which the brain cannot fuse, so an intraocular or contact lens is preferred.
+## explicit_objective
+Recognise aniseikonia as the result of correcting unilateral aphakia with spectacles.
+## pitfalls
+The spectacle neutralises the hypermetropia of aphakia; its problem is image magnification (aniseikonia), not residual refractive error or glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-AB9A05A8159DD3
+## label
+Astigmatism is diagnosed by keratoscopy, topography and the astigmatic fan
+## canonical_key
+ophthalmology.astigmatism.diagnosis-methods
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Astigmatism can be detected objectively by Placido's disc (keratoscopy) and corneal topography, which reveal the irregular corneal curvature, and subjectively by the astigmatic fan, which identifies the astigmatic axis. Each probes the same error from a different angle.
+## explicit_objective
+Recognise that astigmatism can be diagnosed by keratoscopy, corneal topography and the astigmatic fan.
+## pitfalls
+No single one of these is the only method; all are valid ways to demonstrate astigmatism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-2C00132D3585F7
+## label
+Presbyopia is the age-related recession of the near point
+## canonical_key
+ophthalmology.presbyopia.recession-of-near-point
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Presbyopia is the age-related loss of lens elasticity and accommodative amplitude, so the nearest point that can be focused recedes with age and near tasks become blurred and uncomfortable. It is corrected with a convex reading addition.
+## explicit_objective
+Define presbyopia as the age-related recession of the near point.
+## pitfalls
+Asthenopia is eye strain, not the recession of the near point; hyperopia is a refractive error present from an early age, not an ageing change.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-FE58C5B3747DDE
+## label
+Contact lenses risk infection, giant papillary conjunctivitis and corneal abrasion
+## canonical_key
+ophthalmology.contact-lens.disadvantages
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Contact-lens wear carries several hazards: microbial keratitis from contamination, giant papillary conjunctivitis from chronic immune stimulation, and mechanical corneal abrasions from insertion, removal or a poorly fitting lens. These disadvantages must be weighed against the optical benefits.
+## explicit_objective
+List infection, giant papillary conjunctivitis and corneal abrasion as disadvantages of contact lenses.
+## pitfalls
+These are complementary complications, not alternatives; a lens wearer with a red painful eye needs urgent exclusion of microbial keratitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-141E693947E38E
+## label
+Accommodation is lost in oculomotor palsy, presbyopia and cycloplegia
+## canonical_key
+ophthalmology.accommodation.loss-causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Accommodation depends on ciliary-muscle contraction and lens elasticity, so it is lost when a third (oculomotor) nerve palsy paralyses the ciliary muscle, when presbyopia stiffens the ageing lens, or when a cycloplegic drug such as tropicamide pharmacologically blocks the muscle. Each interrupts the accommodative mechanism at a different point.
+## explicit_objective
+Recognise oculomotor palsy, presbyopia and cycloplegic drops as causes of loss of accommodation.
+## pitfalls
+Loss of accommodation can be neurogenic, age-related or drug-induced; all three abolish near focusing.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-CBEC6401202F95
+## label
+Choroidal folds are not a retinal change of myopia
+## canonical_key
+ophthalmology.myopia.retinal-changes-exclude-choroidal-folds
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+High myopia stretches and thins the posterior pole, producing a temporal crescent, a tigroid (tessellated) fundus and lacquer cracks in Bruch membrane. Choroidal folds are not a myopic change; they arise when the eye is compressed or shortened, as in hypermetropia, orbital masses or ocular hypotony.
+## explicit_objective
+Recognise that choroidal folds are not a retinal change of myopia.
+## pitfalls
+Choroidal folds indicate a short or compressed eye, the opposite of the elongated myopic globe.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-5FF582D11D21C9
+## label
+Keratoconus is diagnosed by Placido's disc / corneal topography
+## canonical_key
+ophthalmology.keratoconus.diagnosis-placido-disc
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Keratoconus is diagnosed by analysing corneal shape. Placido's disc (keratoscopy), the basis of corneal topography, shows the distorted, asymmetric mires of the cone, and topographic inferior steepening is the most sensitive early sign.
+## explicit_objective
+Identify Placido's disc / corneal topography as the diagnostic test for keratoconus.
+## pitfalls
+The fluorescein test, auto-refractometer, ultrasonography and fluorescein angiography do not map corneal shape and are not diagnostic of keratoconus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-6AB5D295CC1843
+## label
+Uniocular diplopia is an early symptom of senile cataract
+## canonical_key
+ophthalmology.cataract.early-uniocular-diplopia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Early lens opacities create areas of differing refractive index within the lens, splitting the image so the eye sees double or multiple images. This uniocular diplopia (or polyopia) persists when the fellow eye is covered, distinguishing it from the binocular diplopia of squint, and is a characteristic early symptom of senile cataract.
+## explicit_objective
+Recognise uniocular diplopia as an early symptom of senile cataract.
+## pitfalls
+Uniocular diplopia does not disappear on covering the other eye, unlike the binocular diplopia of a squint.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-57E3AF8DA3A303
+## label
+Lens subluxation reduces vision through myopia, astigmatism and complications
+## canonical_key
+ophthalmology.lens-subluxation.diminution-causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A subluxated lens blurs vision by several mechanisms at once: the displaced lens induces lenticular myopia and astigmatism from its changed power and tilt, and it may cause complications such as pupillary-block glaucoma, uveitis or cataract. Both the refractive change and the secondary complications reduce vision.
+## explicit_objective
+Recognise that lens subluxation reduces vision through myopia, astigmatism and complications.
+## pitfalls
+Visual loss in subluxation is multifactorial; correcting only the refractive error may miss a sight-threatening secondary glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-A8ABF1722466B0
+## label
+Mixed astigmatism has one meridian myopic and the other hyperopic
+## canonical_key
+ophthalmology.astigmatism.mixed-definition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In mixed astigmatism the two principal meridia carry errors of opposite sign: one focuses in front of the retina (myopic) and the other behind it (hyperopic), so one focal line lies before and the other behind the retina. This distinguishes it from simple astigmatism (one meridian emmetropic) and compound astigmatism (both meridia the same type).
+## explicit_objective
+Define mixed astigmatism as one meridian myopic and the other hyperopic.
+## pitfalls
+Opposite-sign meridia mean mixed, not compound; compound astigmatism has both meridia of the same sign.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-F2FDE429BB3531
+## label
+Angle-closure glaucoma is a complication of the short hypermetropic eye
+## canonical_key
+ophthalmology.hypermetropia.complication-angle-closure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A hypermetropic eye is short with a crowded anterior segment and a shallow anterior chamber, so its narrow angle predisposes to acute angle-closure glaucoma, especially as the lens thickens with age. Choroidal neovascular membrane and posterior staphyloma, by contrast, are complications of high myopia.
+## explicit_objective
+Recognise angle-closure glaucoma as a complication of the short hypermetropic eye.
+## pitfalls
+Hypermetropia drives accommodative convergence and causes esotropia, not exotropia; posterior-segment complications like staphyloma belong to myopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q26-49) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
