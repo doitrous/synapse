@@ -1,0 +1,396 @@
+{
+  "lane": "KASR-317FMT",
+  "cluster": "abolmagd-r2-forensic",
+  "header": "Kasr Al Ainy 317 FMT (Year 3) · Forensic Medicine MCQ (Q32-51) from the student 'Forensic & Toxo Round 2 (197) [SOLVED]' compilation by Abolmagd (module opener for Year 3 317 FMT). Answer key = the option carrying a YELLOW HIGHLIGHT FILL; render-verified pp.3-4 at 160-170 dpi, all single-highlight, 0 excluded.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "317 FMT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-FMT-317-FORENSIC-INJURY"],
+    "resource_ids": ["src_2ef422afa7aa0aac43dc"],
+    "source_citation": "Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Forensic Medicine MCQ, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Forensic Medicine",
+    "subtopic": "Forensic Medicine",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "field_notes": { "keySource": "yellow-highlighted option; render-verified pp.3-4 at 160-170 dpi (pagetext.mjs keys + eye)" }
+  },
+  "questions": [
+    {
+      "key": "q32", "id": "QST-KASR317FMT-ABOLMAGD-R2-32", "page": 3,
+      "title": "Fracture from falling on the feet from height",
+      "question": "Falling from height on the feet causes fracture of:",
+      "options": { "A": "The vault", "B": "The parietal bone", "C": "The face or chin", "D": "The base of skull" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A vault fracture typically follows a direct impact to the top of the head, not an axial force transmitted up the spine from the feet.",
+        "B": "Incorrect. An isolated parietal fracture results from localised direct trauma to the side of the head, not from a fall onto the feet.",
+        "C": "Incorrect. Facial or chin fractures follow a direct blow to the face; they are not the characteristic lesion of a fall landing on the feet.",
+        "D": "Correct. When a person falls from a height and lands on the feet, the force is transmitted axially up the vertebral column to the skull base, driving the spine against the foramen magnum and producing a ring (or hinge) fracture around the base of the skull. This indirect, force-transmission mechanism is why the base — not the vault — is the site of fracture. It is a classic medico-legal marker of a fall from height onto the feet or buttocks."
+      },
+      "main_concept": "CON-FND-7D5162ED3DA0CC", "concept_ids": ["CON-FND-7D5162ED3DA0CC"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Recognise that a fall from height landing on the feet transmits axial force to fracture the base of the skull.",
+      "subtopic": "Head injury",
+      "module_subject": "317 FMT > Forensic Medicine > Head injury > Skull fractures"
+    },
+    {
+      "key": "q33", "id": "QST-KASR317FMT-ABOLMAGD-R2-33", "page": 3,
+      "title": "Instrument producing contusions",
+      "question": "Contusions result by the use of:",
+      "options": { "A": "Blunt weapon", "B": "Sharp weapon", "C": "Pointed weapon", "D": "Scissors" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A contusion (bruise) is an area of interstitial haemorrhage caused by rupture of small blood vessels when a BLUNT force crushes the tissues without breaking the skin. The blunt impact deforms the tissue and tears capillaries and venules, so blood leaks into the subcutaneous or deeper tissues. This is precisely why contusions are the signature injury of blunt-force trauma and are used medico-legally to infer a blunt weapon.",
+        "B": "Incorrect. A sharp-edged weapon divides the skin and tissues to produce an incised (cut) wound, not a bruise.",
+        "C": "Incorrect. A pointed weapon produces a stab (penetrating) wound, not a contusion.",
+        "D": "Incorrect. Scissors act as a pointed/sharp instrument producing puncture or incised wounds, not a contusion."
+      },
+      "main_concept": "CON-FND-36CC231E388715", "concept_ids": ["CON-FND-36CC231E388715"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Attribute contusions to blunt-force trauma and distinguish them from incised and stab wounds.",
+      "subtopic": "Wounds",
+      "module_subject": "317 FMT > Forensic Medicine > Wounds > Contusions"
+    },
+    {
+      "key": "q34", "id": "QST-KASR317FMT-ABOLMAGD-R2-34", "page": 3,
+      "title": "Feature not describing diastasis",
+      "question": "Diastasis means the following, except:",
+      "options": { "A": "Linear fracture passes into a suture", "B": "Severe skull fracture", "C": "Widened of the suture line", "D": "Fracture mainly occurs in children" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this DOES describe diastasis). A diastatic fracture is characteristically a linear fracture that runs into and opens up a cranial suture.",
+        "B": "Correct. Diastasis is a separation (widening) of a cranial suture, usually where a linear fracture extends into the suture line; it is a relatively minor pattern most often seen in children whose sutures have not yet fused. It is NOT a 'severe skull fracture' — describing it as severe is the false statement, because the lesion is a suture separation rather than extensive comminution or depression of the vault. The question tests recognition that diastasis is a suture-related, typically paediatric fracture, not a marker of severe cranial disruption.",
+        "C": "Incorrect (this DOES describe diastasis). Widening/separation of the suture line is the defining feature of a diastatic fracture.",
+        "D": "Incorrect (this DOES describe diastasis). Diastatic fractures occur mainly in children because their sutures are still open and can be sprung apart."
+      },
+      "main_concept": "CON-FND-DB82631BF2240E", "concept_ids": ["CON-FND-DB82631BF2240E"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Define a diastatic skull fracture as suture separation, typically in children, and recognise it is not a 'severe' fracture.",
+      "subtopic": "Head injury",
+      "module_subject": "317 FMT > Forensic Medicine > Head injury > Skull fractures"
+    },
+    {
+      "key": "q35", "id": "QST-KASR317FMT-ABOLMAGD-R2-35", "page": 3,
+      "title": "State of hair in scalds",
+      "question": "In scalds, the hair is:",
+      "options": { "A": "Singed", "B": "Wet", "C": "Comma shaped", "D": "Eaten up" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Singeing (burning/curling of hair) is a feature of dry burns caused by flame or a hot solid, not of scalds.",
+        "B": "Correct. A scald is an injury from moist heat — hot liquid or steam — so the hair over a scalded area is simply WET and matted, never singed. Because the temperature of hot water or steam is not high enough to char the keratin, the hair shafts are preserved, unlike the singed, brittle hair of a flame burn. This wet, unsinged hair is one of the classic points distinguishing a scald from a dry burn.",
+        "C": "Incorrect. 'Comma-shaped' describes the trickle marks/splash pattern of a scald on the skin, not the state of the hair.",
+        "D": "Incorrect. Hair is not 'eaten up' in scalds; destruction of hair suggests a corrosive or a severe dry burn."
+      },
+      "main_concept": "CON-FND-C512589D765786", "concept_ids": ["CON-FND-C512589D765786"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "State that in a scald the hair is wet and unsinged, distinguishing moist-heat scalds from dry flame burns.",
+      "subtopic": "Burns and scalds",
+      "module_subject": "317 FMT > Forensic Medicine > Burns and scalds > Scalds"
+    },
+    {
+      "key": "q36", "id": "QST-KASR317FMT-ABOLMAGD-R2-36", "page": 3,
+      "title": "Cause of tattooing around a firearm entry wound",
+      "question": "Tattooing present around firearm entry wound is due to:",
+      "options": { "A": "Grease", "B": "Hot gases", "C": "Flame and smoke", "D": "Unburnt powder particles" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Grease from the bullet produces a greyish grease/dirt collar (grease ring), not the punctate tattooing.",
+        "B": "Incorrect. Hot gases cause burning/searing and, at contact range, the stellate laceration of gas expansion — not tattooing.",
+        "C": "Incorrect. Flame produces scorching/singeing and smoke produces soot blackening (smudging) that can be wiped away; true tattooing cannot be wiped off.",
+        "D": "Correct. Tattooing (stippling) is the pattern of fine, punctate abrasions produced when UNBURNT and partially burnt gunpowder particles strike and embed in the skin around the entry wound. Because the particles are driven into the epidermis, the marks are fixed and cannot be washed off, distinguishing tattooing from wipeable soot smudging. Its presence indicates an intermediate (close but not contact) range of fire, which is why it is a key medico-legal sign for estimating firing distance."
+      },
+      "main_concept": "CON-FND-5160E639F7BFED", "concept_ids": ["CON-FND-5160E639F7BFED"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Attribute firearm tattooing to embedded unburnt powder particles and use it as a sign of intermediate range.",
+      "subtopic": "Firearm injuries",
+      "module_subject": "317 FMT > Forensic Medicine > Firearm injuries > Entry wound features"
+    },
+    {
+      "key": "q37", "id": "QST-KASR317FMT-ABOLMAGD-R2-37", "page": 3,
+      "title": "Site of hypostasis in a drowned body",
+      "question": "The hypostasis in a drowned body generally appears in:",
+      "options": { "A": "Head and neck", "B": "Lower limbs", "C": "Back", "D": "All of the above" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In a drowned body the head hangs down while the trunk and limbs float slightly higher in the water (the classic head-down floating posture), so gravity pools the settling blood into the most dependent parts — the HEAD, neck and, to a degree, the upper chest and distal limbs. Because position after death, not the site of injury, determines where hypostasis forms, the drowned body's head-down attitude explains this distribution. This contrasts with a body lying supine on land, where hypostasis appears on the back.",
+        "B": "Incorrect. Lower-limb hypostasis is seen in a body kept upright (e.g. hanging), not in the typical head-down floating drowned body.",
+        "C": "Incorrect. Hypostasis on the back is the pattern of a body lying supine on a surface, not a floating drowned body.",
+        "D": "Incorrect. Hypostasis follows the dependent parts for the body's position, so it is not uniformly distributed over all regions."
+      },
+      "main_concept": "CON-FND-850EA63F2B2195", "concept_ids": ["CON-FND-850EA63F2B2195"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Explain that hypostasis in a drowned body settles in the head and neck because of the head-down floating position.",
+      "subtopic": "Postmortem changes",
+      "module_subject": "317 FMT > Forensic Medicine > Postmortem changes > Hypostasis"
+    },
+    {
+      "key": "q38", "id": "QST-KASR317FMT-ABOLMAGD-R2-38", "page": 3,
+      "title": "Identification value of an imprint abrasion",
+      "question": "Imprint abrasion helps in the identification of:",
+      "options": { "A": "Victim", "B": "Time of death", "C": "Weapon used", "D": "Both A and B" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An imprint abrasion reproduces the shape of the object, not the identity of the victim.",
+        "B": "Incorrect. Timing of death is estimated from postmortem changes (hypostasis, rigor, temperature), not from an imprint abrasion.",
+        "C": "Correct. An imprint (patterned) abrasion is a stamping abrasion that faithfully reproduces the pattern of the object or WEAPON that struck the skin — for example a tyre tread, radiator grille, or the muzzle of a firearm. Because the surface pattern is copied into the skin, it allows the investigator to identify the striking object or weapon. This is its principal medico-legal value, which is why 'weapon used' is the correct match.",
+        "D": "Incorrect. It identifies the object/weapon, not the victim or the time of death, so 'Both A and B' is wrong."
+      },
+      "main_concept": "CON-FND-43BEE00D3A5B28", "concept_ids": ["CON-FND-43BEE00D3A5B28"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Recognise that an imprint (patterned) abrasion identifies the striking object or weapon.",
+      "subtopic": "Wounds",
+      "module_subject": "317 FMT > Forensic Medicine > Wounds > Abrasions"
+    },
+    {
+      "key": "q39", "id": "QST-KASR317FMT-ABOLMAGD-R2-39", "page": 3,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Position of the hymen in small children",
+      "question": "In small children the hymen is situated:",
+      "options": { "A": "Superficially in the vaginal canal", "B": "In the middle of the vaginal canal", "C": "High up in the vaginal canal", "D": "Hymen is absent" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A superficial position is not the paediatric anatomy; in adults the hymen lies more superficially at the introitus.",
+        "B": "Incorrect. A mid-canal position is not the described paediatric location.",
+        "C": "Correct. In small children the hymen is placed HIGH UP within the vaginal canal (deeply situated), whereas after puberty it comes to lie superficially at the vaginal opening. Its deep position in the child makes it relatively protected, so in sexual assault of a child injury may fall on the vulva and fourchette rather than on the hymen itself. Knowing this developmental difference is important when interpreting genital findings medico-legally in children.",
+        "D": "Incorrect. The hymen is present in children; it is not normally absent."
+      },
+      "main_concept": "CON-FND-DA54AAFF261DE4", "concept_ids": ["CON-FND-DA54AAFF261DE4"],
+      "primary_node_id": "DIS-FOR-T03",
+      "learning_objective": "State that in small children the hymen lies high up in the vaginal canal, unlike its superficial adult position.",
+      "subtopic": "Sexual offences",
+      "module_subject": "317 FMT > Forensic Medicine > Sexual offences > Hymen"
+    },
+    {
+      "key": "q40", "id": "QST-KASR317FMT-ABOLMAGD-R2-40", "page": 3,
+      "title": "Term for aseptic autolysis of the foetus",
+      "question": "Aseptic autolysis of foetus is known as:",
+      "options": { "A": "Maceration of foetus", "B": "Mummification of foetus", "C": "Hydrolysis of foetus", "D": "None of them" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Maceration is the ASEPTIC (sterile) AUTOLYSIS of a dead foetus retained in the uterus, occurring in the absence of air and bacteria. Because it is aseptic, there is softening and discoloration of the tissues, skin slippage, blister formation and overriding of the skull bones, but no putrefactive gas or odour. It is the characteristic change of intrauterine foetal death and is used to estimate the interval since the foetus died.",
+        "B": "Incorrect. Mummification is dehydration/drying of a body in dry, warm conditions, not aseptic autolysis in the uterus.",
+        "C": "Incorrect. 'Hydrolysis of foetus' is not the recognised term for this process.",
+        "D": "Incorrect. The correct named process is maceration, so 'none of them' is wrong."
+      },
+      "main_concept": "CON-FND-2E193FB1FAE68A", "concept_ids": ["CON-FND-2E193FB1FAE68A"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Identify maceration as the aseptic autolysis of a retained dead foetus.",
+      "subtopic": "Infant deaths",
+      "module_subject": "317 FMT > Forensic Medicine > Infant deaths > Intrauterine death"
+    },
+    {
+      "key": "q41", "id": "QST-KASR317FMT-ABOLMAGD-R2-41", "page": 3,
+      "title": "Nature of a polar fracture",
+      "question": "Polar fracture is:",
+      "options": { "A": "Fissure fracture", "B": "Comminuted fracture", "C": "Depressed fracture", "D": "Cut fracture" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A polar (or pole) fracture is a type of FISSURE (linear) fracture of the skull that runs to a 'pole' of the vault; it is a crack in the bone without displacement. As a fissure-type fracture it shows a simple linear line rather than fragmentation or inward driving of bone. Classifying it under fissure fractures is the point being tested here.",
+        "B": "Incorrect. A comminuted fracture breaks the bone into several fragments, which is not the pattern of a polar (linear) fracture.",
+        "C": "Incorrect. A depressed fracture drives a fragment of bone inwards; a polar fracture is linear, not depressed.",
+        "D": "Incorrect. A 'cut fracture' is produced by a heavy sharp-edged weapon; it is not the mechanism of a polar fissure fracture."
+      },
+      "main_concept": "CON-FND-EDC235E6200159", "concept_ids": ["CON-FND-EDC235E6200159"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Classify a polar fracture as a type of fissure (linear) skull fracture.",
+      "subtopic": "Head injury",
+      "module_subject": "317 FMT > Forensic Medicine > Head injury > Skull fractures"
+    },
+    {
+      "key": "q42", "id": "QST-KASR317FMT-ABOLMAGD-R2-42", "page": 3,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Age indicated by full eruption of third molars",
+      "question": "When the third molars are fully erupted the age is definitely:",
+      "options": { "A": "1-2 years", "B": "5-8 years", "C": "12 years", "D": "Above 18 years" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. At 1-2 years only the deciduous (milk) teeth are erupting; third molars are not present.",
+        "B": "Incorrect. At 5-8 years the first permanent molars and incisors appear; the third molars are still absent.",
+        "C": "Incorrect. At about 12 years the second permanent molars erupt, but the third molars have not yet erupted.",
+        "D": "Correct. The third molars (wisdom teeth) are the last teeth to erupt, appearing at ABOUT 18-25 years, so full eruption places the age above 18 years. Because they complete the permanent dentition, their eruption is a standard dental marker of adult age in medico-legal age estimation. This makes 'above 18 years' the definite answer among the options offered."
+      },
+      "main_concept": "CON-FND-070889BA4188EB", "concept_ids": ["CON-FND-070889BA4188EB"],
+      "primary_node_id": "DIS-FOR-T02",
+      "learning_objective": "Use full eruption of the third molars to indicate an age above 18 years.",
+      "subtopic": "Identification",
+      "module_subject": "317 FMT > Forensic Medicine > Identification > Age estimation"
+    },
+    {
+      "key": "q43", "id": "QST-KASR317FMT-ABOLMAGD-R2-43", "page": 3,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Shortest legal period of pregnancy",
+      "question": "The shortest legal period of pregnancy is:",
+      "options": { "A": "5 months", "B": "6 months", "C": "7 months", "D": "8 months" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Five months (about 20 weeks) is below the accepted legal minimum and corresponds to a previable foetus.",
+        "B": "Correct. In forensic/medico-legal practice the shortest legal period of pregnancy that can produce a viable (legitimate) child is taken as 6 MONTHS (about 180 days / 28 weeks), the point from which the foetus is regarded as legally viable. This minimum is used in questions of legitimacy and inheritance to judge whether a child could have resulted from a given period of cohabitation. The longest legal period is correspondingly set at around 10 months.",
+        "C": "Incorrect. Seven months exceeds the legal minimum; a child born at six months can be legally viable.",
+        "D": "Incorrect. Eight months is well beyond the shortest legal period."
+      },
+      "main_concept": "CON-FND-E905ECA86B7A35", "concept_ids": ["CON-FND-E905ECA86B7A35"],
+      "primary_node_id": "DIS-FOR-T04",
+      "learning_objective": "State that the shortest legal period of pregnancy is taken as six months.",
+      "subtopic": "Medical law",
+      "module_subject": "317 FMT > Forensic Medicine > Medical law > Pregnancy and delivery"
+    },
+    {
+      "key": "q44", "id": "QST-KASR317FMT-ABOLMAGD-R2-44", "page": 4,
+      "title": "Sudden death while eating (choking)",
+      "question": "Death due to choking occurs suddenly while eating is referred as:",
+      "options": { "A": "Cafe coronary", "B": "Gagging", "C": "Laffey syndrome", "D": "Suffocation" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. 'Cafe coronary' is the sudden collapse and death caused by a bolus of food impacting the laryngopharynx and occluding the airway during a meal, often mistaken at the table for a heart attack — hence the name. The mechanism combines acute airway obstruction with reflex vagal cardiac inhibition from stimulation of the laryngeal mucosa. Recognising this eponym for fatal choking while eating is the point of the question.",
+        "B": "Incorrect. Gagging refers to obstruction of the mouth/pharynx by a cloth or gag, not the food-bolus choking of a cafe coronary.",
+        "C": "Incorrect. 'Laffey syndrome' is not a recognised forensic entity for choking.",
+        "D": "Incorrect. Suffocation is a broad term for exclusion of air; the specific eponym for sudden fatal choking while eating is cafe coronary."
+      },
+      "main_concept": "CON-FND-B4CD64C20D941D", "concept_ids": ["CON-FND-B4CD64C20D941D"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Name cafe coronary as sudden death from a food bolus obstructing the airway while eating.",
+      "subtopic": "Asphyxia",
+      "module_subject": "317 FMT > Forensic Medicine > Asphyxia > Choking"
+    },
+    {
+      "key": "q45", "id": "QST-KASR317FMT-ABOLMAGD-R2-45", "page": 4,
+      "title": "Firing distance from full-body shot dispersion",
+      "question": "A body with dispersion of shots from the head to the feet, the distance of firing is:",
+      "options": { "A": "5 meters", "B": "10 meters", "C": "15 meters", "D": "20 meters" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. At 5 metres a shotgun charge is still fairly concentrated, producing a compact wound with only slight scatter, not a head-to-feet spread.",
+        "B": "Incorrect. At 10 metres the pellets have spread but would not disperse over the whole length of the body.",
+        "C": "Incorrect. At 15 metres the spread is wider but still short of covering the body from head to feet.",
+        "D": "Correct. With a shotgun the pellet pattern widens as range increases (roughly the spread in inches approximates the range in yards), so pellets scattered over the WHOLE body from head to feet indicate a long range of about 20 metres. The wider the dispersion of the individual pellet wounds, the greater the firing distance. This body-length scatter therefore corresponds to the longest option, 20 metres."
+      },
+      "main_concept": "CON-FND-F7072372BBDDC9", "concept_ids": ["CON-FND-F7072372BBDDC9"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Relate wide shotgun pellet dispersion over the whole body to a long firing range (~20 m).",
+      "subtopic": "Firearm injuries",
+      "module_subject": "317 FMT > Forensic Medicine > Firearm injuries > Range of fire"
+    },
+    {
+      "key": "q46", "id": "QST-KASR317FMT-ABOLMAGD-R2-46", "page": 4,
+      "title": "Death from neglecting to tie the umbilical cord",
+      "question": "Neglecting tying the cord of a newborn may cause death from:",
+      "options": { "A": "Air embolism", "B": "Amniotic fluid embolism", "C": "Hemorrhage", "D": "Sepsis" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Air embolism is not the expected consequence of an untied cord in the newborn.",
+        "B": "Incorrect. Amniotic fluid embolism is a maternal complication of labour, not a mode of neonatal death from an untied cord.",
+        "C": "Incorrect. Although an untied cord can bleed, the newborn's umbilical vessels normally constrict and thrombose, so fatal haemorrhage is not the answer this item expects; the cord stump is instead an open route for infection.",
+        "D": "Correct. An untied, unclean umbilical cord stump is an open wound that provides a portal of entry for bacteria, so the neglected cord characteristically leads to SEPSIS (umbilical sepsis, and classically neonatal tetanus). In the medico-legal context of concealed birth or neglect, failure to tie and dress the cord is judged as neglect that predisposes the infant to fatal infection. This is why sepsis is the expected cause of death from a neglected cord in this classification."
+      },
+      "main_concept": "CON-FND-BBA365C54007F3", "concept_ids": ["CON-FND-BBA365C54007F3"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Recognise that a neglected untied umbilical cord predisposes the newborn to fatal sepsis.",
+      "subtopic": "Infant deaths",
+      "module_subject": "317 FMT > Forensic Medicine > Infant deaths > Neonatal death"
+    },
+    {
+      "key": "q47", "id": "QST-KASR317FMT-ABOLMAGD-R2-47", "page": 4,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Condition invalidating a woman's consent to intercourse",
+      "question": "In which of the following conditions the female consent for sexual intercourse is invalid?",
+      "options": { "A": "She is 18 years old", "B": "She has Down syndrome", "C": "She is well oriented", "D": "She is drug free" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. An 18-year-old of sound mind is legally competent, so her consent is valid.",
+        "B": "Correct. Valid consent requires that the woman understands the nature and consequences of the act; DOWN SYNDROME entails intellectual disability, so a woman with significant mental impairment cannot give legally valid consent and any intercourse is treated as rape. The law treats consent obtained from a person incapable of understanding (through mental deficiency, unconsciousness, intoxication, or being below the age of consent) as no consent at all. Down syndrome here is the marker of mental incapacity that invalidates consent.",
+        "C": "Incorrect. Being well oriented indicates intact mental capacity, which supports rather than invalidates consent.",
+        "D": "Incorrect. Being drug free means she is not intoxicated, so her capacity to consent is preserved."
+      },
+      "main_concept": "CON-FND-2BEB05F50A60D5", "concept_ids": ["CON-FND-2BEB05F50A60D5"],
+      "primary_node_id": "DIS-FOR-T04",
+      "learning_objective": "Recognise that mental incapacity (e.g. Down syndrome) invalidates a woman's consent to intercourse.",
+      "subtopic": "Medical law",
+      "module_subject": "317 FMT > Forensic Medicine > Medical law > Consent"
+    },
+    {
+      "key": "q48", "id": "QST-KASR317FMT-ABOLMAGD-R2-48", "page": 4,
+      "title": "Fatal complication of crush injury",
+      "question": "Crush injury may cause death from:",
+      "options": { "A": "Heart failure", "B": "Liver failure", "C": "Renal failure", "D": "Respiratory failure" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Heart failure is not the characteristic delayed killer of crush injury.",
+        "B": "Incorrect. The liver is not the principal organ that fails in crush syndrome.",
+        "C": "Correct. Prolonged crushing of muscle causes rhabdomyolysis, releasing myoglobin, potassium and other cell contents into the circulation; the myoglobin precipitates in the renal tubules and, with hypovolaemia, produces acute tubular necrosis and RENAL FAILURE (crush syndrome). This acute renal failure, together with hyperkalaemia, is the classic delayed cause of death after a crush injury. That is why renal failure is the expected fatal complication tested here.",
+        "D": "Incorrect. Respiratory failure is not the typical delayed cause of death in crush syndrome, which is dominated by acute kidney injury."
+      },
+      "main_concept": "CON-FND-40150C0B1B065E", "concept_ids": ["CON-FND-40150C0B1B065E"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Link crush injury (rhabdomyolysis/myoglobinuria) to death from acute renal failure.",
+      "subtopic": "Wounds",
+      "module_subject": "317 FMT > Forensic Medicine > Wounds > Crush injury"
+    },
+    {
+      "key": "q49", "id": "QST-KASR317FMT-ABOLMAGD-R2-49", "page": 4,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Blood group a group-O father cannot produce",
+      "question": "A father with blood group O can never have a child with blood group:",
+      "options": { "A": "A", "B": "AB", "C": "B", "D": "O" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A group-O father (genotype OO) contributes an O allele; if the mother supplies an A allele the child is group A, so group A is possible.",
+        "B": "Correct. A group-O father has genotype OO and can only pass an O allele to the child. Group AB requires inheriting an A allele from one parent AND a B allele from the other, so a child can be AB only if BOTH parents contribute an antigen-bearing allele; since this father can give only O, the child can NEVER be AB. This is the standard ABO exclusion used in disputed-paternity work, where an O father excludes an AB child.",
+        "C": "Incorrect. If the mother supplies a B allele, the O father's O allele gives a group B child, so group B is possible.",
+        "D": "Incorrect. If the mother also contributes an O allele, the child is group O, so group O is possible."
+      },
+      "main_concept": "CON-FND-6D788BA6E41F2B", "concept_ids": ["CON-FND-6D788BA6E41F2B"],
+      "primary_node_id": "DIS-FOR-T02",
+      "learning_objective": "Apply ABO inheritance to exclude an AB child for a group-O father in paternity testing.",
+      "subtopic": "Identification",
+      "module_subject": "317 FMT > Forensic Medicine > Identification > Blood groups and paternity"
+    },
+    {
+      "key": "q50", "id": "QST-KASR317FMT-ABOLMAGD-R2-50", "page": 4,
+      "library_ids": ["ART-FMT-317-FORENSIC-LAWID"],
+      "title": "Age of discrimination between right and wrong",
+      "question": "The child can discriminate between right and wrong at the age of:",
+      "options": { "A": "4 years", "B": "5 years", "C": "6 years", "D": "7 years" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. At 4 years the child is below the age at which the law presumes the ability to tell right from wrong.",
+        "B": "Incorrect. Five years is still below the recognised age of discrimination used here.",
+        "C": "Incorrect. Six years is below the threshold; the answer expected in this classification is seven years.",
+        "D": "Correct. In this medico-legal framework a child is regarded as able to DISCRIMINATE between right and wrong (the beginning of criminal responsibility) from the age of 7 YEARS. Below this age the child is presumed incapable of criminal intent (doli incapax). Seven years is therefore taken as the lower age boundary for partial criminal responsibility, which is what the question tests."
+      },
+      "main_concept": "CON-FND-AE33C252980947", "concept_ids": ["CON-FND-AE33C252980947"],
+      "primary_node_id": "DIS-FOR-T04",
+      "learning_objective": "State that a child is taken to discriminate right from wrong (onset of criminal responsibility) at 7 years.",
+      "subtopic": "Medical law",
+      "module_subject": "317 FMT > Forensic Medicine > Medical law > Criminal responsibility"
+    },
+    {
+      "key": "q51", "id": "QST-KASR317FMT-ABOLMAGD-R2-51", "page": 4,
+      "title": "Postmortem change showing arborisation of skin vessels",
+      "question": "Arborisation of skin vessels is seen in:",
+      "options": { "A": "Hypostasis", "B": "Rigor mortis", "C": "Primary flaccidity", "D": "Putrefaction" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Hypostasis is the settling of blood into dependent parts producing a diffuse purple discoloration, not a branching vein pattern.",
+        "B": "Incorrect. Rigor mortis is postmortem muscle stiffening and has nothing to do with the surface vein pattern.",
+        "C": "Incorrect. Primary flaccidity is the early muscular relaxation immediately after death, before any putrefactive change.",
+        "D": "Correct. Arborisation (marbling) is the branching, tree-like network of greenish-brown discoloured superficial veins seen in PUTREFACTION, as haemolysed blood and iron sulphide stain the vessel walls. It is one of the early external signs of decomposition, typically appearing over the abdomen and root of the limbs. Recognising marbling/arborisation as a putrefactive change is the point of this question."
+      },
+      "main_concept": "CON-FND-81311D147B11E8", "concept_ids": ["CON-FND-81311D147B11E8"],
+      "primary_node_id": "DIS-FOR-T01",
+      "learning_objective": "Identify arborisation (marbling) of superficial vessels as a sign of putrefaction.",
+      "subtopic": "Postmortem changes",
+      "module_subject": "317 FMT > Forensic Medicine > Postmortem changes > Putrefaction"
+    }
+  ]
+}
