@@ -305,7 +305,7 @@ Claude
 ## topic
 Parasitology
 ## summary
-This article groups the nematode (roundworm) facts tested by the Nematoda section of the paper (Q1-49 authored so far). It covers Strongyloides stercoralis (skin-penetration infection by filariform larvae, the rhabditiform larva as the stool diagnostic stage, both internal and external autoinfection, larva currens, disseminated hyperinfection in immunosuppression, its capacity to cause different types of anaemia, and its name 'dwarf threadworm'), the intestinal soil-transmitted worms Ascaris lumbricoides (protein-energy malnutrition, maldigestion from anti-enzymes, biliary ascariasis diagnosed by MRCP, transient pulmonary Loeffler symptoms, fatal complications from adult-worm migration, immature-egg cycle preventing direct transmission, and control by mass treatment), Trichuris trichiura (rectal prolapse and the dysentery/anaemia/prolapse picture in heavy infection, appendicitis, and diagnosis by proctoscopy), Enterobius vermicularis (nocturnal pruritus ani, its non-oral routes of retroinfection and inhalation, and identical diagnostic/infective egg) and hookworm Ancylostoma duodenale (iron-deficiency anaemia, melena/occult blood, barefoot skin penetration, and the filariform larva as the infective stage), together with Trichostrongylus colubriformis (faecal-oral, non-vector transmission), Capillaria philippinensis (internal autoinfection and acquisition by eating infected freshwater fish), the animal hookworm Ancylostoma caninum (prolonged cutaneous larva migrans), Toxocara visceral larva migrans (chronic eosinophilia and the seizures/cough/ocular-mass presentation), Trichinella spiralis (undercooked-pork transmission and periorbital oedema) and the tissue filariae Wuchereria bancrofti, Brugia malayi, Onchocerca volvulus and Loa loa (multifactorial lymphatic elephantiasis with warty skin, onchocercal depigmentation and onchodermatitis, the DEC patch and provocative tests, tropical pulmonary eosinophilia, and Loa ocular disease), plus the pig as the shared host of Balantidium coli and Taenia solium.
+This article groups the nematode (roundworm) facts tested by the Nematoda section of the paper (Q1-67 authored so far, of which 61 authored / 6 held). It covers Strongyloides stercoralis (skin-penetration infection by filariform larvae, the rhabditiform larva as the stool diagnostic stage, both internal and external autoinfection, larva currens, disseminated hyperinfection in immunosuppression, its capacity to cause different types of anaemia, and its name 'dwarf threadworm'), the intestinal soil-transmitted worms Ascaris lumbricoides (protein-energy malnutrition, maldigestion from anti-enzymes, biliary ascariasis diagnosed by MRCP, transient pulmonary Loeffler symptoms, fatal complications from adult-worm migration, immature-egg cycle preventing direct transmission, and control by mass treatment), Trichuris trichiura (rectal prolapse and the dysentery/anaemia/prolapse picture in heavy infection, appendicitis, and diagnosis by proctoscopy), Enterobius vermicularis (nocturnal pruritus ani, its non-oral routes of retroinfection and inhalation, and identical diagnostic/infective egg) and hookworm Ancylostoma duodenale (iron-deficiency anaemia, melena/occult blood, barefoot skin penetration, and the filariform larva as the infective stage), together with Trichostrongylus colubriformis (faecal-oral, non-vector transmission), Capillaria philippinensis (internal autoinfection and acquisition by eating infected freshwater fish), the animal hookworm Ancylostoma caninum (prolonged cutaneous larva migrans), Toxocara visceral larva migrans (chronic eosinophilia and the seizures/cough/ocular-mass presentation), Trichinella spiralis (undercooked-pork transmission and periorbital oedema) and the tissue filariae Wuchereria bancrofti, Brugia malayi, Onchocerca volvulus and Loa loa (multifactorial lymphatic elephantiasis with warty skin, onchocercal depigmentation and onchodermatitis, the DEC patch and provocative tests, tropical pulmonary eosinophilia, and Loa ocular disease), plus the pig as the shared host of Balantidium coli and Taenia solium.
 ## sections
 ### Definition
 This article groups the nematode concepts tested by the paper; each linked concept carries one atomic fact about a roundworm's larval stage, mode of infection, autoinfection, diagnosis, pathology or clinical association.
@@ -381,6 +381,17 @@ CON-INF-300AE220C43D05
 CON-INF-89226D70CFAFC0
 CON-INF-3541E43947E325
 CON-INF-C55710E92B923B
+CON-INF-646DCBC8F8800A
+CON-INF-43441769DA9AF8
+CON-INF-A5CB7FF898CE7F
+CON-INF-0993794122EE2B
+CON-INF-3ED5D75E1A27EA
+CON-INF-AD5B1B27EB361A
+CON-INF-DFE085A01F250F
+CON-INF-09A80381CE0844
+CON-INF-E1088781C3F935
+CON-INF-F29A0AD436AF30
+CON-INF-2CABCF7A2AB595
 ## related_articles
 ART-INF-309-PARA-GENERAL
 ART-INF-309-CESTODA

@@ -8565,3 +8565,1224 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-646DCBC8F8800A
+## label
+Fish-eating birds are reservoir hosts of Capillaria philippinensis
+## canonical_key
+parasitology.capillaria-philippinensis.fish-eating-birds-reservoir-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Capillaria philippinensis normally cycles between freshwater fish, which are the intermediate hosts, and fish-eating (piscivorous) birds, which act as the natural reservoir hosts that maintain the parasite in nature. Humans are infected only accidentally by eating raw or undercooked infected fish, and human-to-human transmission is not the natural route. Because fish-eating birds sustain the life cycle, capillariasis behaves as a zoonosis with an avian reservoir rather than a purely human infection.
+## explicit_objective
+Identify fish-eating birds as the reservoir host of Capillaria philippinensis.
+## pitfalls
+The reservoir host is the fish-eating bird; the fish is the intermediate host and man is only an accidental host, so do not confuse the source of human infection (raw fish) with the natural reservoir (piscivorous birds).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-43441769DA9AF8
+## label
+Enterobius can cause ectopic granulomas in the female genital tract
+## canonical_key
+parasitology.enterobius.ectopic-granuloma-female-genital-tract
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In female patients, gravid Enterobius vermicularis worms migrating from the perianal skin can enter the vulva and vagina and ascend to the uterus, fallopian tubes and even the peritoneal cavity, where trapped dead worms and eggs provoke ectopic (extra-intestinal) granulomas. This aberrant migration explains the vulvovaginitis and pelvic or tubal granulomas that are a recognised complication of enterobiasis. Such ectopic genital-tract granulomas are specific to the female reproductive tract and are not a feature of the other intestinal roundworms listed.
+## explicit_objective
+Recognise ectopic granulomas of the female genital tract as a complication of enterobiasis.
+## pitfalls
+Ectopic genital-tract granulomas are the Enterobius complication here; Strongyloides, hookworm and Trichostrongylus do not migrate into the female genital tract to form such granulomas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-A5CB7FF898CE7F
+## label
+In ascariasis pathology is caused by both adults and larvae
+## canonical_key
+parasitology.ascaris.pathology-by-both-adults-and-larvae
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ascaris lumbricoides produces disease in two distinct phases: the migrating larvae cause a transient pulmonary phase (Loeffler syndrome) as they pass through the lungs, and the adult worms in the small intestine cause malnutrition, maldigestion and mechanical complications such as intestinal or biliary obstruction. Because BOTH stages are pathogenic, ascariasis is one of the few intestinal nematode infections in which larvae and adults each contribute to the clinical picture. This contrasts with trichuriasis and adult taeniasis (adult only) and with visceral larva migrans (larvae only).
+## explicit_objective
+State that both adult worms and larvae contribute to the pathology of ascariasis.
+## pitfalls
+Ascariasis pathology comes from adults AND larvae; in trichuriasis and adult taeniasis only the adult is pathogenic and in visceral larva migrans only larvae are, so the both-stages answer is specific to Ascaris.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0993794122EE2B
+## label
+Corticosteroids are essential in the treatment of neurotoxocariasis
+## canonical_key
+parasitology.toxocara.corticosteroids-in-neurotoxocariasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In neuro- and ocular toxocariasis the damage is driven by an intense eosinophilic inflammatory reaction to migrating Toxocara larvae rather than by the worm burden itself, so corticosteroids are an essential part of treatment to suppress that inflammation and limit tissue destruction, given alongside anthelmintics. Steroids are not the essential treatment of a hepatic hydatid cyst (surgery or albendazole) or of cryptosporidiosis (where immunosuppression is actually harmful). This makes neurotoxocariasis the condition in which corticosteroids are essential.
+## explicit_objective
+Recognise that corticosteroids are essential in treating neurotoxocariasis.
+## pitfalls
+Corticosteroids are essential in neurotoxocariasis to control the inflammatory response; they are not the essential treatment of hepatic hydatid cyst, cryptosporidiosis or intestinal taeniasis solium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-3ED5D75E1A27EA
+## label
+Serious complications of ascariasis are due to adult-worm migration
+## canonical_key
+parasitology.ascaris.serious-complications-adult-worm-migration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The serious and sometimes fatal complications of ascariasis — biliary obstruction, acute pancreatitis, intestinal obstruction or volvulus, appendicitis and bowel perforation — arise when adult worms migrate or aggregate into masses, not from toxins, eggs or trapped larvae. Wandering adults are often provoked by fever, drugs or anaesthesia to move into the bile duct, pancreatic duct or appendix. Recognising adult-worm migration as the mechanism explains why heavy infections can present as surgical emergencies.
+## explicit_objective
+Attribute the fatal complications of ascariasis to migration of adult worms.
+## pitfalls
+The dangerous complications come from migrating ADULT worms, not from toxic or enzymatic activity, eggs trapped in tissues, or larvae trapped in tissues.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-AD5B1B27EB361A
+## label
+Ascariasis shows cylindrical filling defects on barium meal
+## canonical_key
+parasitology.ascaris.barium-meal-cylindrical-filling-defects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adult Ascaris lumbricoides worms lying in the small-intestinal lumen appear on a barium meal as long, cylindrical (tubular) filling defects, and barium swallowed by the worm may outline its own gut as a thin central line within the defect. This radiological appearance is characteristic of intraluminal adult ascarids. It distinguishes ascariasis from the mucosal or smaller-worm patterns of strongyloidiasis, ancylostomiasis and capillariasis.
+## explicit_objective
+Recognise cylindrical small-bowel filling defects on barium meal as a sign of ascariasis.
+## pitfalls
+Cylindrical (worm-shaped) barium filling defects indicate adult Ascaris; strongyloidiasis, ancylostomiasis and capillariasis do not produce these large tubular luminal defects.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-DFE085A01F250F
+## label
+Hanging groin is a sign of onchocerciasis
+## canonical_key
+parasitology.onchocerca.hanging-groin-sign
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+'Hanging groin' (adenolymphocele) is a characteristic sign of chronic onchocerciasis in which fibrosed, enlarged inguinal and femoral lymph nodes sag within a sac of loose, atrophic skin. It results from long-standing Onchocerca volvulus infection with lymphadenopathy and loss of skin elasticity. It is one of the classic skin and lymphatic signs — alongside onchocercomas and leopard-skin depigmentation — that point to onchocerciasis rather than to filarial lymphoedema or schistosomiasis.
+## explicit_objective
+Identify hanging groin as a sign of onchocerciasis.
+## pitfalls
+Hanging groin points to onchocerciasis; it is not a feature of cutaneous leishmaniasis, urinary schistosomiasis or bancroftian filariasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-09A80381CE0844
+## label
+Chrysops control is difficult because breeding sites are densely vegetated
+## canonical_key
+parasitology.chrysops.control-difficult-vegetated-breeding-sites
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chrysops, the mango or deer fly vector of Loa loa, breeds in shaded, densely vegetated muddy margins of forest streams, and this inaccessible, plant-covered breeding habitat is what makes larval control and larviciding difficult. The problem is the location and vegetation of the breeding sites, not insecticide resistance or fast-flowing water; rapidly running streams are instead the breeding site of Simulium, the Onchocerca vector. Control of Chrysops therefore relies on personal protection and clearing vegetation rather than easy source reduction.
+## explicit_objective
+Explain that Chrysops control is difficult because its breeding sites are densely vegetated.
+## pitfalls
+Chrysops is hard to control because its breeding sites are densely vegetated; rapidly running streams are the breeding site of Simulium, not Chrysops, and the difficulty here is not insecticide resistance.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Loa loa (Chrysops vector)
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E1088781C3F935
+## label
+Onchocerciasis is diagnosed from skin, not blood, samples
+## canonical_key
+parasitology.onchocerca.diagnosis-skin-snip-not-blood
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Onchocerca volvulus microfilariae live in the skin and subcutaneous tissue rather than in the blood, so diagnosis relies on bloodless skin snips examined for emerging microfilariae, not on blood films. This contrasts with Wuchereria, Brugia and Loa, whose microfilariae circulate in the blood and are sought on blood smears. Using skin rather than blood samples is therefore the key diagnostic distinction for onchocerciasis.
+## explicit_objective
+State that skin snips, not blood samples, are used to diagnose onchocerciasis.
+## pitfalls
+Onchocerca microfilariae are found in skin snips; loiasis, bancroftian and brugian filariasis are diagnosed from BLOOD, so "skin not blood" is specific to onchocerciasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F29A0AD436AF30
+## label
+Wuchereria bancrofti is transmitted by Culex and Aedes mosquitoes
+## canonical_key
+parasitology.wuchereria-bancrofti.vectors-culex-aedes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Wuchereria bancrofti is transmitted by mosquitoes, chiefly Culex (the main urban vector) together with Aedes, Anopheles and Mansonia, so the pairing "Culex and Aedes" names two correct mosquito vectors. Sandflies (Phlebotomus, Lutzomyia), Chrysops and Simulium are the vectors of other parasites — leishmania, Loa loa and Onchocerca respectively — and not of W. bancrofti. Knowing the mosquito vectors underlies vector-control strategies against lymphatic filariasis.
+## explicit_objective
+Identify Culex and Aedes mosquitoes as vectors of Wuchereria bancrofti.
+## pitfalls
+W. bancrofti is mosquito-borne (Culex, Aedes, Anopheles, Mansonia); Phlebotomus/Lutzomyia (sandflies), Chrysops and Simulium transmit leishmania, Loa and Onchocerca, not Wuchereria.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-2CABCF7A2AB595
+## label
+Encysted Trichinella larvae do not provoke type I hypersensitivity
+## canonical_key
+parasitology.trichinella.encysted-larvae-no-type-i-hypersensitivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Type I (immediate) hypersensitivity is seen with insect bites, the allergic pulmonary reaction of Loeffler syndrome and the anaphylaxis of a ruptured hydatid cyst, but the encysted, walled-off Trichinella spiralis larva is immunologically quiescent and does not itself trigger a type I reaction. The acute allergic and eosinophilic phase of trichinellosis accompanies larval invasion and encystment, whereas the mature nurse-cell cyst is tolerated by the host. Thus the encysted Trichinella larva is the item NOT associated with immediate hypersensitivity.
+## explicit_objective
+Recognise that encysted Trichinella spiralis larvae do not cause type I hypersensitivity.
+## pitfalls
+The walled-off encysted Trichinella larva does not drive type I hypersensitivity; insect bites, Loeffler syndrome and a ruptured hydatid cyst all do.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.

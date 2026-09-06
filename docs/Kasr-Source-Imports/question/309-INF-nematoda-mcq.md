@@ -6349,3 +6349,1797 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nemato
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-51
+
+## title
+Mode of human infection with Strongyloides stercoralis
+
+## question
+Concerning Strongyloides stercoralis, human infection occurs by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ingestion of mature egg
+
+## explanation_a
+Incorrect. Strongyloides is not acquired by swallowing eggs; the eggs hatch within the gut and it is rhabditiform larvae, not eggs, that appear in the stool.
+
+## answer_b
+Skin penetration by filariform larva
+
+## explanation_b
+Correct. Human infection with Strongyloides stercoralis occurs when infective filariform (L3) larvae in contaminated soil penetrate intact skin and migrate via the bloodstream through the lungs to reach the intestine. This percutaneous route is shared with hookworm and produces ground itch at the site of entry. Skin penetration by the filariform larva, not ingestion of an egg or adult, is therefore the mode of infection.
+
+## answer_c
+Skin penetration by rhabditiform larva
+
+## explanation_c
+Incorrect. The rhabditiform larva is the non-infective feeding and diagnostic stage found in stool; it is the filariform larva that penetrates skin.
+
+## answer_d
+Ingestion of adult worm
+
+## explanation_d
+Incorrect. The adult worm is not an infective stage and is not ingested.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-C40504A90D83F9
+
+## concept_ids
+CON-INF-C40504A90D83F9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that Strongyloides infects man by skin penetration of the filariform larva.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-52
+
+## title
+Fish-eating birds as reservoir host
+
+## question
+Fish-eating birds could be considered a reservoir host in case of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ascariasis
+
+## explanation_a
+Incorrect. Ascaris has no avian reservoir; it is a soil-transmitted human roundworm acquired by swallowing embryonated eggs.
+
+## answer_b
+Capillariasis
+
+## explanation_b
+Correct. In Capillaria philippinensis infection, freshwater fish are the intermediate hosts and fish-eating (piscivorous) birds serve as the natural reservoir hosts that maintain the cycle in nature. Humans are infected only accidentally by eating raw or undercooked infected fish. Because piscivorous birds sustain transmission, capillariasis is the infection in which fish-eating birds are the reservoir host.
+
+## answer_c
+Trichuriasis
+
+## explanation_c
+Incorrect. Trichuris is a direct soil-transmitted human whipworm with no bird reservoir.
+
+## answer_d
+Trichostrongyliasis
+
+## explanation_d
+Incorrect. Trichostrongylus is acquired by ingesting larvae on vegetation and does not depend on a fish-eating-bird reservoir.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-646DCBC8F8800A
+
+## concept_ids
+CON-INF-646DCBC8F8800A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify fish-eating birds as the reservoir host of Capillaria philippinensis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-53
+
+## title
+Ectopic granulomas in the female genital system
+
+## question
+Ectopic granulomas in the female genital system may be seen with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Trichostrongyliasis
+
+## explanation_a
+Incorrect. Trichostrongylus is a minor intestinal worm that does not migrate to the female genital tract.
+
+## answer_b
+Enterobiasis
+
+## explanation_b
+Correct. Gravid Enterobius vermicularis worms migrating from the perianal skin can enter the vulva and vagina and ascend to the uterus and fallopian tubes, where dead worms and eggs provoke ectopic granulomas. This aberrant genital migration underlies the vulvovaginitis and pelvic granulomas of enterobiasis. Ectopic granulomas of the female genital system are therefore a recognised complication of Enterobius.
+
+## answer_c
+Ancylostomiasis
+
+## explanation_c
+Incorrect. Hookworm larvae penetrate skin and the adult lives in the gut; they do not form female genital granulomas.
+
+## answer_d
+Strongyloidiasis
+
+## explanation_d
+Incorrect. Strongyloides causes autoinfection and gut and lung disease, not ectopic female genital granulomas.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-43441769DA9AF8
+
+## concept_ids
+CON-INF-43441769DA9AF8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise ectopic female genital granulomas as a complication of enterobiasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-55
+
+## title
+Chronic eosinophilia
+
+## question
+Chronic eosinophilia is associated with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Strongyloidiasis
+
+## explanation_a
+Incorrect. Strongyloidiasis causes eosinophilia but it is variable and may be low or absent in disseminated hyperinfection, so it is not the classic cause of sustained chronic eosinophilia.
+
+## answer_b
+Toxocariasis
+
+## explanation_b
+Correct. Visceral larva migrans, usually due to Toxocara canis or cati larvae, is the classic cause of a marked and chronic (persistent) eosinophilia. The non-human larvae wander through the viscera, cannot mature, and provoke a sustained eosinophilic host response, often with hepatomegaly and hypergammaglobulinaemia. Chronic eosinophilia is thus the hallmark laboratory feature of toxocariasis.
+
+## answer_c
+Schistosomiasis
+
+## explanation_c
+Incorrect. Schistosomiasis produces eosinophilia mainly in the acute (Katayama) phase rather than as a defining chronic eosinophilia.
+
+## answer_d
+Trichinosis
+
+## explanation_d
+Incorrect. Trichinosis causes an acute, marked eosinophilia during larval invasion, not the sustained chronic eosinophilia of visceral larva migrans.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-AE2341B790B16E
+
+## concept_ids
+CON-INF-AE2341B790B16E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate chronic eosinophilia with toxocariasis (visceral larva migrans).
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-57
+
+## title
+Pathology caused by both adults and larvae
+
+## question
+Pathology is caused by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Adults and larvae in infection with Trichuris
+
+## explanation_a
+Incorrect. In trichuriasis the pathology is due to the adult whipworm embedded in the colonic mucosa; the larvae do not migrate through tissues.
+
+## answer_b
+Adults and larvae in visceral larva migrans
+
+## explanation_b
+Incorrect. Visceral larva migrans has no adult stage in the human host, so pathology is caused by the wandering larvae alone.
+
+## answer_c
+Larvae in taeniasis saginata
+
+## explanation_c
+Incorrect. Intestinal taeniasis saginata pathology is from the adult tapeworm; the larval (cysticercus) stage of Taenia saginata develops in cattle, not in man.
+
+## answer_d
+Adults and larvae in infection with Ascaris
+
+## explanation_d
+Correct. Ascariasis is pathogenic in both stages: the migrating larvae cause a transient pulmonary phase (Loeffler syndrome) and the adult worms cause malnutrition, maldigestion and mechanical complications such as intestinal or biliary obstruction. Both larvae and adults therefore contribute to disease. This dual-stage pathology is unusual among the intestinal nematodes.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-A5CB7FF898CE7F
+
+## concept_ids
+CON-INF-A5CB7FF898CE7F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that both adults and larvae cause pathology in ascariasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-58
+
+## title
+Corticosteroids essential in treatment
+
+## question
+Corticosteroids are essential in the treatment of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hepatic hydatid cyst
+
+## explanation_a
+Incorrect. Hepatic hydatid disease is treated by surgery (or the PAIR technique) under albendazole cover, not by corticosteroids.
+
+## answer_b
+Neurotoxocariasis
+
+## explanation_b
+Correct. Neuro- and ocular toxocariasis damage is driven by an intense eosinophilic inflammatory reaction to migrating Toxocara larvae, so corticosteroids are essential to suppress that inflammation and limit tissue destruction, given alongside anthelmintics. Without steroids the inflammatory response can itself injure brain or eye. Corticosteroids are therefore essential in the treatment of neurotoxocariasis.
+
+## answer_c
+Cryptosporidiosis
+
+## explanation_c
+Incorrect. Cryptosporidiosis is worsened by immunosuppression; management is immune reconstitution and supportive care, not corticosteroids.
+
+## answer_d
+Taeniasis solium
+
+## explanation_d
+Incorrect. Intestinal taeniasis solium is treated with praziquantel; corticosteroids are adjuncts in neurocysticercosis (the larval CNS disease), not in adult intestinal taeniasis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-0993794122EE2B
+
+## concept_ids
+CON-INF-0993794122EE2B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise corticosteroids as essential in the treatment of neurotoxocariasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-59
+
+## title
+Cause of serious complications of ascariasis
+
+## question
+Serious & sometimes fatal complications of ascariasis are due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Toxic or enzymatic activity
+
+## explanation_a
+Incorrect. Ascaris does not cause its fatal complications through toxins or enzymes.
+
+## answer_b
+Migration of adult worms
+
+## explanation_b
+Correct. The serious and sometimes fatal complications of ascariasis — biliary obstruction, acute pancreatitis, intestinal obstruction, appendicitis and perforation — result from adult worms migrating or aggregating into masses. Fever, drugs or anaesthesia can provoke adults to wander into the bile duct, pancreatic duct or appendix. Adult-worm migration is therefore the mechanism of the dangerous complications.
+
+## answer_c
+Eggs trapped in tissues
+
+## explanation_c
+Incorrect. Egg granulomas trapped in tissue characterise schistosomiasis, not the complications of ascariasis.
+
+## answer_d
+Larvae trapped in tissues
+
+## explanation_d
+Incorrect. Larval lung migration causes transient Loeffler symptoms, not the fatal mechanical complications.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-3ED5D75E1A27EA
+
+## concept_ids
+CON-INF-3ED5D75E1A27EA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Attribute the fatal complications of ascariasis to migration of adult worms.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-60
+
+## title
+Barium meal cylindrical filling defects
+
+## question
+Barium meal showing cylindrical filling defects in the small intestines can suggest:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Strongyloidiasis
+
+## explanation_a
+Incorrect. Strongyloides produces mucosal and oedematous small-bowel changes, not large cylindrical luminal filling defects.
+
+## answer_b
+Ancylostomiasis
+
+## explanation_b
+Incorrect. Hookworms are small and do not appear as cylindrical barium filling defects.
+
+## answer_c
+Ascariasis
+
+## explanation_c
+Correct. Adult Ascaris worms lying in the small-intestinal lumen appear on a barium meal as long, cylindrical (tubular) filling defects, and barium swallowed by the worm may outline its own gut as a thin central line within the defect. This appearance is characteristic of intraluminal adult ascarids. Cylindrical filling defects on a barium meal therefore suggest ascariasis.
+
+## answer_d
+Capillariasis
+
+## explanation_d
+Incorrect. Capillaria worms are tiny and cause a malabsorptive picture, not cylindrical barium filling defects.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-AD5B1B27EB361A
+
+## concept_ids
+CON-INF-AD5B1B27EB361A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise cylindrical small-bowel barium filling defects as a sign of ascariasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-63
+
+## title
+Hanging groin
+
+## question
+Hanging groin is seen with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cutaneous leishmaniasis
+
+## explanation_a
+Incorrect. Cutaneous leishmaniasis causes localised skin ulcers, not hanging groin.
+
+## answer_b
+Schistosomiasis haematobium
+
+## explanation_b
+Incorrect. Urinary schistosomiasis causes haematuria and bladder disease, not hanging groin.
+
+## answer_c
+Bancroftian filariasis
+
+## explanation_c
+Incorrect. Wuchereria bancrofti causes lymphoedema/elephantiasis and hydrocoele, not the sagging adenolymphocele of hanging groin.
+
+## answer_d
+Onchocerciasis
+
+## explanation_d
+Correct. Hanging groin (adenolymphocele) is a classic sign of chronic onchocerciasis, in which fibrosed, enlarged inguinal and femoral lymph nodes sag within a sac of loose, atrophic skin. It reflects long-standing Onchocerca volvulus infection with lymphadenopathy and loss of skin elasticity. Hanging groin is therefore seen with onchocerciasis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-DFE085A01F250F
+
+## concept_ids
+CON-INF-DFE085A01F250F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify hanging groin as a sign of onchocerciasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-64
+
+## title
+Why control of Chrysops is difficult
+
+## question
+Control of Chrysops is difficult because:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Breeding sites are densely vegetated
+
+## explanation_a
+Correct. Chrysops (the mango or deer fly, vector of Loa loa) breeds in shaded, densely vegetated muddy margins of forest streams, and this inaccessible, plant-covered breeding habitat is what makes larval control and larviciding difficult. The obstacle is reaching and treating the vegetated breeding sites. Control therefore relies on personal protection and clearing vegetation rather than easy source reduction.
+
+## answer_b
+They live in rapidly running streams
+
+## explanation_b
+Incorrect. Fast-running, well-oxygenated streams are the breeding site of Simulium (the Onchocerca vector), not of Chrysops.
+
+## answer_c
+Resistance to insecticides
+
+## explanation_c
+Incorrect. The obstacle to Chrysops control is its breeding habitat, not documented insecticide resistance.
+
+## answer_d
+They have land and aquatic stages
+
+## explanation_d
+Incorrect. Having land and aquatic stages is not the reason Chrysops control is difficult.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-09A80381CE0844
+
+## concept_ids
+CON-INF-09A80381CE0844
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Loa loa (Chrysops vector)
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Explain that Chrysops control is difficult because its breeding sites are densely vegetated.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-65
+
+## title
+Skin and not blood samples for diagnosis
+
+## question
+Skin and not blood samples are used for diagnosis of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Loiasis
+
+## explanation_a
+Incorrect. Loa loa microfilariae circulate in the blood with diurnal periodicity and are diagnosed on blood films.
+
+## answer_b
+Bancroftian filariasis
+
+## explanation_b
+Incorrect. Wuchereria bancrofti microfilariae are found in blood with nocturnal periodicity and are diagnosed on blood smears.
+
+## answer_c
+Onchocerciasis
+
+## explanation_c
+Correct. Onchocerca volvulus microfilariae live in the skin and subcutaneous tissue rather than in the blood, so diagnosis uses bloodless skin snips examined for emerging microfilariae. Blood films are unhelpful because the microfilariae do not circulate. Skin, not blood, samples are therefore used to diagnose onchocerciasis.
+
+## answer_d
+Brugian filariasis
+
+## explanation_d
+Incorrect. Brugia malayi microfilariae are found in blood and are diagnosed on blood smears.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-E1088781C3F935
+
+## concept_ids
+CON-INF-E1088781C3F935
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that onchocerciasis is diagnosed from skin snips, not blood samples.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-66
+
+## title
+Vectors of Wuchereria bancrofti
+
+## question
+Wuchereria bancrofti may be transmitted by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Lutzomyia and Phlebotomus
+
+## explanation_a
+Incorrect. Lutzomyia and Phlebotomus are sandflies, vectors of leishmaniasis, not of W. bancrofti.
+
+## answer_b
+Culex and Aedes
+
+## explanation_b
+Correct. Wuchereria bancrofti is transmitted by mosquitoes, chiefly Culex (the main urban vector) together with Aedes, Anopheles and Mansonia, so Culex and Aedes are both valid vectors. Sandflies, Chrysops and Simulium transmit other parasites. Culex and Aedes are therefore the correct pair.
+
+## answer_c
+Phlebotomus and Anopheles
+
+## explanation_c
+Incorrect. Anopheles can transmit W. bancrofti, but Phlebotomus (a sandfly) cannot, so this pair is wrong.
+
+## answer_d
+Chrysops and Simulium
+
+## explanation_d
+Incorrect. Chrysops transmits Loa loa and Simulium transmits Onchocerca, not W. bancrofti.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-F29A0AD436AF30
+
+## concept_ids
+CON-INF-F29A0AD436AF30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify Culex and Aedes as mosquito vectors of Wuchereria bancrofti.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-67
+
+## title
+Type I hypersensitivity not observed
+
+## question
+Type I hypersensitivity reactions are not observed with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Insect bites
+
+## explanation_a
+Incorrect. Insect bites classically provoke immediate (type I) wheal-and-flare hypersensitivity.
+
+## answer_b
+Encysted Trichinella spiralis larvae
+
+## explanation_b
+Correct. The encysted, walled-off Trichinella spiralis larva is immunologically quiescent and does not itself trigger a type I reaction; the allergic and eosinophilic phase of trichinellosis accompanies larval invasion and encystment, whereas the mature nurse-cell cyst is tolerated by the host. Immediate hypersensitivity is therefore not observed with the encysted larva. This makes the encysted larva the exception among the listed items.
+
+## answer_c
+Loeffler syndrome
+
+## explanation_c
+Incorrect. Loeffler syndrome is an allergic, eosinophilic pulmonary reaction of type I hypersensitivity to migrating larvae.
+
+## answer_d
+Ruptured hydatid cyst
+
+## explanation_d
+Incorrect. A ruptured hydatid cyst releases antigen that can cause type I anaphylaxis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-2CABCF7A2AB595
+
+## concept_ids
+CON-INF-2CABCF7A2AB595
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that encysted Trichinella larvae do not provoke type I hypersensitivity.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.13
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

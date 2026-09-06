@@ -6,13 +6,23 @@
     "subject": "inf",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["kau"],
-    "years": ["KAU_Y3"],
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y3"
+    ],
     "module": "309 INF",
-    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "exam_weight_by_year": {
+      "KAU_Y3": "moderate"
+    },
     "question_only_for": "",
-    "library_ids": ["ART-INF-309-NEMATODA"],
-    "resource_ids": ["src_10f1a669aa2eeedf3cd9"],
+    "library_ids": [
+      "ART-INF-309-NEMATODA"
+    ],
+    "resource_ids": [
+      "src_10f1a669aa2eeedf3cd9"
+    ],
     "source_citation": "Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.{page}",
     "setting": "Academic",
     "estimated_seconds": 60,
@@ -24,14 +34,23 @@
     "cognitive_effort": "Medium",
     "reasoning_level": 2,
     "module_subject": "309 INF > Parasitology > Nematoda",
-    "field_notes": { "keySource": "printed answer table 'Answers of Nematoda' p.13 (native text; text layer authoritative, no OCR)" }
+    "field_notes": {
+      "keySource": "printed answer table 'Answers of Nematoda' p.13 (native text; text layer authoritative, no OCR)"
+    }
   },
   "questions": [
     {
-      "key": "q1", "id": "QST-KASR309INF-BANK-NEMATODA-01", "page": 7,
+      "key": "q1",
+      "id": "QST-KASR309INF-BANK-NEMATODA-01",
+      "page": 7,
       "title": "Nematode causing different types of anaemia",
       "question": "Different types of anaemia may occur in infection with:",
-      "options": { "A": "Diphyllobothrium latum", "B": "Fasciola spp.", "C": "Strongyloides stercoralis", "D": "Necator americanus" },
+      "options": {
+        "A": "Diphyllobothrium latum",
+        "B": "Fasciola spp.",
+        "C": "Strongyloides stercoralis",
+        "D": "Necator americanus"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Diphyllobothrium latum causes a single, specific anaemia — megaloblastic (vitamin-B12-deficiency) anaemia from competition for B12 — not 'different types'.",
@@ -39,15 +58,25 @@
         "C": "Correct. Strongyloides stercoralis is the nematode in which SEVERAL types of anaemia may occur: chronic infection produces intestinal malabsorption and chronic blood/protein loss, so an affected patient may develop iron-deficiency (microcytic) anaemia, megaloblastic (folate/B12-malabsorption) anaemia and the anaemia of chronic disease. The breadth of malabsorption and the possibility of hyperinfection in the immunosuppressed is why 'different types of anaemia' points specifically to Strongyloides rather than to a worm that causes one defined anaemia. This distinguishes it from hookworm (iron-deficiency only) and Diphyllobothrium (B12 only).",
         "D": "Incorrect. Necator americanus (hookworm) causes one defined picture — iron-deficiency (microcytic hypochromic) anaemia from chronic intestinal blood loss — not different types."
       },
-      "main_concept": "CON-INF-B62B9FB4C7D556", "concept_ids": ["CON-INF-B62B9FB4C7D556"],
+      "main_concept": "CON-INF-B62B9FB4C7D556",
+      "concept_ids": [
+        "CON-INF-B62B9FB4C7D556"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
       "learning_objective": "Recognise that Strongyloides stercoralis, through malabsorption and chronic loss, can cause several different types of anaemia."
     },
     {
-      "key": "q2", "id": "QST-KASR309INF-BANK-NEMATODA-02", "page": 7,
+      "key": "q2",
+      "id": "QST-KASR309INF-BANK-NEMATODA-02",
+      "page": 7,
       "title": "Route of Strongyloides infection",
       "question": "Individuals contract Strongyloides stercoralis via which of the following?",
-      "options": { "A": "Ingestion of infected freshwater fish", "B": "Skin penetration", "C": "Insect bite", "D": "Ingestion of contaminated beef" },
+      "options": {
+        "A": "Ingestion of infected freshwater fish",
+        "B": "Skin penetration",
+        "C": "Insect bite",
+        "D": "Ingestion of contaminated beef"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Ingestion of infected freshwater fish transmits Diphyllobothrium latum (plerocercoid), not Strongyloides.",
@@ -55,15 +84,25 @@
         "C": "Incorrect. Strongyloides is not vector-borne; no insect bite is involved.",
         "D": "Incorrect. Ingestion of contaminated (undercooked) beef transmits the beef tapeworm Taenia saginata, not Strongyloides."
       },
-      "main_concept": "CON-INF-C40504A90D83F9", "concept_ids": ["CON-INF-C40504A90D83F9"],
+      "main_concept": "CON-INF-C40504A90D83F9",
+      "concept_ids": [
+        "CON-INF-C40504A90D83F9"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
       "learning_objective": "Identify skin penetration by filariform larvae as the route of Strongyloides stercoralis infection."
     },
     {
-      "key": "q3", "id": "QST-KASR309INF-BANK-NEMATODA-03", "page": 7,
+      "key": "q3",
+      "id": "QST-KASR309INF-BANK-NEMATODA-03",
+      "page": 7,
       "title": "Not a Trichostrongylus control strategy",
       "question": "Which of the following is not a Trichostrongylus colubriformis prevention and control strategy?",
-      "options": { "A": "Proper water treatment", "B": "Appropriate food handling", "C": "Use of insect repellent", "D": "Proper sanitation practices" },
+      "options": {
+        "A": "Proper water treatment",
+        "B": "Appropriate food handling",
+        "C": "Use of insect repellent",
+        "D": "Proper sanitation practices"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect (it IS a valid strategy). Trichostrongylus is acquired by swallowing larvae on contaminated water or plants, so proper water treatment does help prevent it.",
@@ -71,15 +110,25 @@
         "C": "Correct. Use of insect repellent is NOT a control strategy for Trichostrongylus colubriformis because the worm is not transmitted by any insect vector — infection is acquired by the faecal-oral route, ingesting infective larvae on contaminated water, soil or plants. Control therefore rests on sanitation, safe water and food hygiene, and repelling insects does nothing to interrupt this non-vector, oral cycle. This is the odd-one-out among the listed measures.",
         "D": "Incorrect (it IS a valid strategy). Because transmission is faecal-oral from soil contaminated with faeces, proper sanitation practices break the cycle."
       },
-      "main_concept": "CON-INF-7F2AE5E6AA055E", "concept_ids": ["CON-INF-7F2AE5E6AA055E"],
+      "main_concept": "CON-INF-7F2AE5E6AA055E",
+      "concept_ids": [
+        "CON-INF-7F2AE5E6AA055E"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Trichostrongylus colubriformis",
       "learning_objective": "Recognise that Trichostrongylus is transmitted by the faecal-oral route, so insect repellent is not a control strategy."
     },
     {
-      "key": "q4", "id": "QST-KASR309INF-BANK-NEMATODA-04", "page": 7,
+      "key": "q4",
+      "id": "QST-KASR309INF-BANK-NEMATODA-04",
+      "page": 7,
       "title": "Parasite causing pruritus ani",
       "question": "Pruritis ani is found with:",
-      "options": { "A": "Trichuriasis", "B": "Enterobiasis", "C": "Toxocariasis", "D": "Ancylostomiasis" },
+      "options": {
+        "A": "Trichuriasis",
+        "B": "Enterobiasis",
+        "C": "Toxocariasis",
+        "D": "Ancylostomiasis"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Trichuriasis (whipworm) causes colitis and, when heavy, rectal prolapse — not the perianal itch of pinworm.",
@@ -87,15 +136,25 @@
         "C": "Incorrect. Toxocariasis causes visceral/ocular larva migrans with eosinophilia, not perianal itch.",
         "D": "Incorrect. Ancylostomiasis (hookworm) causes ground itch at the site of skin penetration and iron-deficiency anaemia, not pruritus ani."
       },
-      "main_concept": "CON-INF-91B7D5DB19A9B7", "concept_ids": ["CON-INF-91B7D5DB19A9B7"],
+      "main_concept": "CON-INF-91B7D5DB19A9B7",
+      "concept_ids": [
+        "CON-INF-91B7D5DB19A9B7"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Enterobius vermicularis",
       "learning_objective": "Associate nocturnal pruritus ani with Enterobius vermicularis (enterobiasis)."
     },
     {
-      "key": "q5", "id": "QST-KASR309INF-BANK-NEMATODA-05", "page": 7,
+      "key": "q5",
+      "id": "QST-KASR309INF-BANK-NEMATODA-05",
+      "page": 7,
       "title": "Parasite causing rectal prolapse",
       "question": "Rectal prolapse is a feature in infection with:",
-      "options": { "A": "Ascaris lumbricoides", "B": "Enterobius vermicularis", "C": "Strongyloides stercoralis", "D": "Trichuris trichiura" },
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermicularis",
+        "C": "Strongyloides stercoralis",
+        "D": "Trichuris trichiura"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Ascaris causes intestinal obstruction and biliary/pulmonary manifestations, not rectal prolapse.",
@@ -103,15 +162,25 @@
         "C": "Incorrect. Strongyloides causes larva currens, malabsorption and hyperinfection, not rectal prolapse.",
         "D": "Correct. Rectal prolapse is the classic feature of heavy Trichuris trichiura (whipworm) infection, characteristically in malnourished children. The adult worms thread their thin anterior ends into the mucosa of the rectum and colon, and a heavy worm burden with chronic straining (tenesmus) and inflammation causes the rectal mucosa to prolapse, sometimes with worms visible on its surface. This makes rectal prolapse a diagnostic clue to massive trichuriasis."
       },
-      "main_concept": "CON-INF-B11783ED1FC082", "concept_ids": ["CON-INF-B11783ED1FC082"],
+      "main_concept": "CON-INF-B11783ED1FC082",
+      "concept_ids": [
+        "CON-INF-B11783ED1FC082"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Trichuris trichiura",
       "learning_objective": "Recognise rectal prolapse as a feature of heavy Trichuris trichiura infection."
     },
     {
-      "key": "q6", "id": "QST-KASR309INF-BANK-NEMATODA-06", "page": 7,
+      "key": "q6",
+      "id": "QST-KASR309INF-BANK-NEMATODA-06",
+      "page": 7,
       "title": "Diagnostic stage of Strongyloides in stool",
       "question": "The typical diagnostic stage of Strongyloides stercoralis seen in stool is:",
-      "options": { "A": "Mature egg", "B": "Rhabditiform larva", "C": "Filariform larva", "D": "Immature egg" },
+      "options": {
+        "A": "Mature egg",
+        "B": "Rhabditiform larva",
+        "C": "Filariform larva",
+        "D": "Immature egg"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Unlike hookworm, Strongyloides eggs hatch within the intestinal mucosa, so mature eggs are not usually found in stool.",
@@ -119,15 +188,25 @@
         "C": "Incorrect. The filariform larva is the infective soil/tissue stage (and appears in autoinfection); it is not the usual stool diagnostic stage.",
         "D": "Incorrect. Immature eggs are not the stool finding for Strongyloides because the eggs hatch in the mucosa before being passed."
       },
-      "main_concept": "CON-INF-19B470E718ED09", "concept_ids": ["CON-INF-19B470E718ED09"],
+      "main_concept": "CON-INF-19B470E718ED09",
+      "concept_ids": [
+        "CON-INF-19B470E718ED09"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
       "learning_objective": "Identify the rhabditiform larva as the diagnostic stage of Strongyloides stercoralis in stool."
     },
     {
-      "key": "q7", "id": "QST-KASR309INF-BANK-NEMATODA-07", "page": 7,
+      "key": "q7",
+      "id": "QST-KASR309INF-BANK-NEMATODA-07",
+      "page": 7,
       "title": "Helminth with internal autoinfection",
       "question": "Internal autoinfection occurs with the following:",
-      "options": { "A": "Ascaris lumbricoides", "B": "Capillaria philippinensis", "C": "Trichuris trichiura", "D": "Trichostrongylus colubriformis" },
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Capillaria philippinensis",
+        "C": "Trichuris trichiura",
+        "D": "Trichostrongylus colubriformis"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Ascaris eggs must embryonate in soil for weeks before becoming infective, so no autoinfection occurs.",
@@ -135,18 +214,29 @@
         "C": "Incorrect. Trichuris eggs need to embryonate in soil; there is no autoinfection.",
         "D": "Incorrect. Trichostrongylus is acquired by ingesting soil/plant larvae and does not autoinfect."
       },
-      "main_concept": "CON-INF-848175DB22D158", "concept_ids": ["CON-INF-848175DB22D158"],
+      "main_concept": "CON-INF-848175DB22D158",
+      "concept_ids": [
+        "CON-INF-848175DB22D158"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Capillaria philippinensis",
       "learning_objective": "Recognise internal autoinfection (larvipary) as a feature of Capillaria philippinensis."
     },
     {
-      "key": "q8", "hold": "printed key A (Ascaris lumbricoides) but the stem specifies 'the following ADULT helminth may cause pulmonary manifestations' — Ascaris pulmonary manifestations (Loeffler syndrome) are produced by the migrating LARVAE during the lung phase, not by the adult worm; stem/parasitology mismatch, held for human adjudication (never author to a wrong fact)."
+      "key": "q8",
+      "hold": "printed key A (Ascaris lumbricoides) but the stem specifies 'the following ADULT helminth may cause pulmonary manifestations' — Ascaris pulmonary manifestations (Loeffler syndrome) are produced by the migrating LARVAE during the lung phase, not by the adult worm; stem/parasitology mismatch, held for human adjudication (never author to a wrong fact)."
     },
     {
-      "key": "q9", "id": "QST-KASR309INF-BANK-NEMATODA-09", "page": 7,
+      "key": "q9",
+      "id": "QST-KASR309INF-BANK-NEMATODA-09",
+      "page": 7,
       "title": "Most common feature of visceral larva migrans",
       "question": "The most common characteristic of visceral larva migrans is:",
-      "options": { "A": "Lymphadenitis", "B": "Chronic eosinophilia", "C": "Seizures", "D": "Leucocytosis" },
+      "options": {
+        "A": "Lymphadenitis",
+        "B": "Chronic eosinophilia",
+        "C": "Seizures",
+        "D": "Leucocytosis"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Lymphadenitis is not the defining feature of visceral larva migrans.",
@@ -154,15 +244,25 @@
         "C": "Incorrect. Seizures may occur if larvae reach the CNS but are uncommon, not the most common feature.",
         "D": "Incorrect. A non-specific leucocytosis is far less characteristic than the eosinophilia that defines the syndrome."
       },
-      "main_concept": "CON-INF-AE2341B790B16E", "concept_ids": ["CON-INF-AE2341B790B16E"],
+      "main_concept": "CON-INF-AE2341B790B16E",
+      "concept_ids": [
+        "CON-INF-AE2341B790B16E"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Toxocara (visceral larva migrans)",
       "learning_objective": "Identify chronic eosinophilia as the most common feature of visceral larva migrans."
     },
     {
-      "key": "q10", "id": "QST-KASR309INF-BANK-NEMATODA-10", "page": 7,
+      "key": "q10",
+      "id": "QST-KASR309INF-BANK-NEMATODA-10",
+      "page": 7,
       "title": "Pair of parasites related to the pig",
       "question": "Pig is related to infection with which pair of parasites?",
-      "options": { "A": "Taenia saginata & Trichostrongylus colubriformis", "B": "Ascaris lumbricoides & Taenia solium", "C": "Balantidium coli & Taenia solium", "D": "Balantidium coli & Entamoeba coli" },
+      "options": {
+        "A": "Taenia saginata & Trichostrongylus colubriformis",
+        "B": "Ascaris lumbricoides & Taenia solium",
+        "C": "Balantidium coli & Taenia solium",
+        "D": "Balantidium coli & Entamoeba coli"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Taenia saginata is the beef tapeworm (cattle, not pig), and Trichostrongylus is a soil/plant-borne nematode unrelated to pigs.",
@@ -170,18 +270,29 @@
         "C": "Correct. The pig is the source/reservoir for BOTH members of this pair. Balantidium coli, the only ciliate pathogen of man, has the pig as its main reservoir host (humans are infected by cysts from pig faeces), and Taenia solium is the PORK tapeworm, acquired by eating undercooked pork containing Cysticercus cellulosae. Both organisms are therefore epidemiologically tied to pigs, which is what makes this the correct pair.",
         "D": "Incorrect. Balantidium coli is pig-related, but Entamoeba coli is a harmless human commensal amoeba with no pig association, so the pair is wrong."
       },
-      "main_concept": "CON-INF-4214A9F78B77B0", "concept_ids": ["CON-INF-4214A9F78B77B0"],
+      "main_concept": "CON-INF-4214A9F78B77B0",
+      "concept_ids": [
+        "CON-INF-4214A9F78B77B0"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Host associations (pig)",
       "learning_objective": "Recognise the pig as the reservoir/source for both Balantidium coli and Taenia solium."
     },
     {
-      "key": "q11", "hold": "printed key B (Toxocara cati) but the stem 'Peri-orbital oedema, fever, eosinophilia' is the classic diagnostic triad of Trichinella spiralis, which is not among the four options; the printed key is the best-of-offered eosinophilic-tissue nematode but the periorbital-oedema triad is misassigned, held for human adjudication."
+      "key": "q11",
+      "hold": "printed key B (Toxocara cati) but the stem 'Peri-orbital oedema, fever, eosinophilia' is the classic diagnostic triad of Trichinella spiralis, which is not among the four options; the printed key is the best-of-offered eosinophilic-tissue nematode but the periorbital-oedema triad is misassigned, held for human adjudication."
     },
     {
-      "key": "q12", "id": "QST-KASR309INF-BANK-NEMATODA-12", "page": 8,
+      "key": "q12",
+      "id": "QST-KASR309INF-BANK-NEMATODA-12",
+      "page": 8,
       "title": "Internal and external autoinfection",
       "question": "Internal and external autoinfection occurs with:",
-      "options": { "A": "Strongyloides stercoralis", "B": "Capillaria philippinensis", "C": "Trichuris trichiura", "D": "Trichostrongylus colubriformis" },
+      "options": {
+        "A": "Strongyloides stercoralis",
+        "B": "Capillaria philippinensis",
+        "C": "Trichuris trichiura",
+        "D": "Trichostrongylus colubriformis"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Strongyloides stercoralis is the nematode showing BOTH internal and external autoinfection. In internal autoinfection, rhabditiform larvae mature to infective filariform larvae inside the gut and re-penetrate the intestinal mucosa; in external autoinfection they re-penetrate the perianal skin. Both routes let the parasite complete new cycles without leaving the host, which allows lifelong persistence and, in the immunosuppressed, life-threatening hyperinfection. This dual (internal AND external) autoinfection distinguishes Strongyloides from Capillaria, which shows internal autoinfection only.",
@@ -189,15 +300,25 @@
         "C": "Incorrect. Trichuris does not autoinfect; its eggs must embryonate in soil.",
         "D": "Incorrect. Trichostrongylus is acquired from soil/plants and does not autoinfect."
       },
-      "main_concept": "CON-INF-91EE545642BBAA", "concept_ids": ["CON-INF-91EE545642BBAA"],
+      "main_concept": "CON-INF-91EE545642BBAA",
+      "concept_ids": [
+        "CON-INF-91EE545642BBAA"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
       "learning_objective": "Recognise that Strongyloides stercoralis shows both internal and external autoinfection."
     },
     {
-      "key": "q13", "id": "QST-KASR309INF-BANK-NEMATODA-13", "page": 8,
+      "key": "q13",
+      "id": "QST-KASR309INF-BANK-NEMATODA-13",
+      "page": 8,
       "title": "Nematode diagnosed by MRCP",
       "question": "Magnetic resonance cholangiopancreatography may be used in diagnosing some cases of infection with:",
-      "options": { "A": "Ascaris lumbricoides", "B": "Capillaria philippinensis", "C": "Trichuris trichiura", "D": "Ancylostoma duodenale" },
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Capillaria philippinensis",
+        "C": "Trichuris trichiura",
+        "D": "Ancylostoma duodenale"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Magnetic resonance cholangiopancreatography (MRCP) is useful in biliary ASCARIASIS, a complication of Ascaris lumbricoides. Adult Ascaris worms can migrate up from the duodenum through the ampulla into the biliary tree or pancreatic duct, causing biliary colic, cholangitis or pancreatitis, and MRCP demonstrates the worm as a linear filling defect within the ducts. This ability of the large adult worm to invade the biliary tree is why an imaging study of the bile ducts helps diagnose it, unlike the other, purely intestinal nematodes listed.",
@@ -205,15 +326,25 @@
         "C": "Incorrect. Trichuris lives in the caecum/colon and is not a biliary parasite.",
         "D": "Incorrect. Ancylostoma duodenale lives attached to small-intestinal mucosa and is diagnosed by stool eggs, not MRCP."
       },
-      "main_concept": "CON-INF-19C4AF7483726F", "concept_ids": ["CON-INF-19C4AF7483726F"],
+      "main_concept": "CON-INF-19C4AF7483726F",
+      "concept_ids": [
+        "CON-INF-19C4AF7483726F"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
       "learning_objective": "Recognise MRCP as an imaging aid in biliary ascariasis (Ascaris lumbricoides)."
     },
     {
-      "key": "q14", "id": "QST-KASR309INF-BANK-NEMATODA-14", "page": 8,
+      "key": "q14",
+      "id": "QST-KASR309INF-BANK-NEMATODA-14",
+      "page": 8,
       "title": "Diagnostic tool for trichuriasis",
       "question": "The following is a diagnostic tool for trichuriasis:",
-      "options": { "A": "NIH swab", "B": "String test", "C": "Proctoscopy", "D": "Bronchial lavage" },
+      "options": {
+        "A": "NIH swab",
+        "B": "String test",
+        "C": "Proctoscopy",
+        "D": "Bronchial lavage"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. The NIH (cellophane) swab is used to recover Enterobius vermicularis eggs from the perianal skin, not for Trichuris.",
@@ -221,15 +352,25 @@
         "C": "Correct. Proctoscopy (or sigmoidoscopy) is a diagnostic tool for trichuriasis. In heavy Trichuris trichiura infection the thin adult whipworms are visible on endoscopy studding the inflamed rectal and colonic mucosa, and they are seen directly on the surface of a prolapsed rectum. Direct visualisation of the worms on proctoscopy therefore confirms the diagnosis alongside finding the barrel-shaped bipolar-plugged eggs in stool.",
         "D": "Incorrect. Bronchial lavage recovers larvae of lung-migrating parasites (e.g. Ascaris, Strongyloides in hyperinfection), not the intestinal whipworm."
       },
-      "main_concept": "CON-INF-D224C0382962BD", "concept_ids": ["CON-INF-D224C0382962BD"],
+      "main_concept": "CON-INF-D224C0382962BD",
+      "concept_ids": [
+        "CON-INF-D224C0382962BD"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Trichuris trichiura",
       "learning_objective": "Identify proctoscopy as a diagnostic tool for trichuriasis."
     },
     {
-      "key": "q15", "id": "QST-KASR309INF-BANK-NEMATODA-15", "page": 8,
+      "key": "q15",
+      "id": "QST-KASR309INF-BANK-NEMATODA-15",
+      "page": 8,
       "title": "Nematode not exclusively oral in transmission",
       "question": "The following parasite is NOT exclusively transmitted by the oral route:",
-      "options": { "A": "Ascaris lumbricoides", "B": "Fasciola gigantica", "C": "Hymenolepis nana", "D": "Enterobius vermicularis" },
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Fasciola gigantica",
+        "C": "Hymenolepis nana",
+        "D": "Enterobius vermicularis"
+      },
       "correct": "D",
       "explanations": {
         "A": "Incorrect. Ascaris is acquired only by swallowing embryonated eggs — an exclusively oral route.",
@@ -237,15 +378,25 @@
         "C": "Incorrect. Hymenolepis nana is acquired by ingesting eggs (directly infective); its transmission is oral.",
         "D": "Correct. Enterobius vermicularis is NOT exclusively transmitted by the oral route. Besides the usual faecal-oral ingestion of eggs, it also spreads by RETROINFECTION (larvae hatching on the perianal skin migrate back up through the anus into the intestine) and by inhalation of airborne eggs from contaminated bedding/dust. Because these additional non-oral routes exist, pinworm is the exception among the listed parasites whose spread is not limited to swallowing."
       },
-      "main_concept": "CON-INF-35AA55DED910AF", "concept_ids": ["CON-INF-35AA55DED910AF"],
+      "main_concept": "CON-INF-35AA55DED910AF",
+      "concept_ids": [
+        "CON-INF-35AA55DED910AF"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Enterobius vermicularis",
       "learning_objective": "Recognise that Enterobius vermicularis spreads by retroinfection and inhalation, not exclusively by the oral route."
     },
     {
-      "key": "q16", "id": "QST-KASR309INF-BANK-NEMATODA-16", "page": 8,
+      "key": "q16",
+      "id": "QST-KASR309INF-BANK-NEMATODA-16",
+      "page": 8,
       "title": "Protein-energy malnutrition feature",
       "question": "Protein energy malnutrition is a feature in:",
-      "options": { "A": "Trichuriasis", "B": "Ascariasis", "C": "Fascioliasis", "D": "Halzoun" },
+      "options": {
+        "A": "Trichuriasis",
+        "B": "Ascariasis",
+        "C": "Fascioliasis",
+        "D": "Halzoun"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Trichuriasis is associated with colitis, dysentery and rectal prolapse; growth retardation can occur but PEM is not its listed hallmark here.",
@@ -253,15 +404,25 @@
         "C": "Incorrect. Fascioliasis is a hepatobiliary fluke disease (liver damage, biliary obstruction), not a PEM syndrome.",
         "D": "Incorrect. Halzoun is an acute pharyngeal irritation from Linguatula/Fasciola in the throat, unrelated to protein-energy malnutrition."
       },
-      "main_concept": "CON-INF-ECBC2F7C57EAB8", "concept_ids": ["CON-INF-ECBC2F7C57EAB8"],
+      "main_concept": "CON-INF-ECBC2F7C57EAB8",
+      "concept_ids": [
+        "CON-INF-ECBC2F7C57EAB8"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
       "learning_objective": "Associate protein-energy malnutrition with heavy Ascaris lumbricoides infection."
     },
     {
-      "key": "q17", "id": "QST-KASR309INF-BANK-NEMATODA-17", "page": 8,
+      "key": "q17",
+      "id": "QST-KASR309INF-BANK-NEMATODA-17",
+      "page": 8,
       "title": "Nematode causing iron-deficiency anaemia",
       "question": "Iron deficiency anaemia may be seen with:",
-      "options": { "A": "Cyclospora cayetanensis", "B": "Enterobius vermicularis", "C": "Ancylostoma duodenale", "D": "Strongyloides stercoralis" },
+      "options": {
+        "A": "Cyclospora cayetanensis",
+        "B": "Enterobius vermicularis",
+        "C": "Ancylostoma duodenale",
+        "D": "Strongyloides stercoralis"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Cyclospora cayetanensis causes watery diarrhoea in the immunocompromised, not iron-deficiency anaemia.",
@@ -269,15 +430,25 @@
         "C": "Correct. Iron-deficiency (microcytic hypochromic) anaemia is the classic feature of hookworm, Ancylostoma duodenale. The adult worms attach to the small-intestinal mucosa and actively suck blood, and each worm removes a small but steady amount of blood daily, so a heavy chronic burden causes continuous intestinal blood loss and depletes body iron stores. The resulting iron-deficiency anaemia is the hallmark of ancylostomiasis and correlates with worm load.",
         "D": "Incorrect. Strongyloides causes malabsorption and can give several anaemias, but chronic blood-sucking iron loss is the defining mechanism of hookworm, not Strongyloides."
       },
-      "main_concept": "CON-INF-621A94B9409492", "concept_ids": ["CON-INF-621A94B9409492"],
+      "main_concept": "CON-INF-621A94B9409492",
+      "concept_ids": [
+        "CON-INF-621A94B9409492"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
       "learning_objective": "Associate iron-deficiency anaemia with the blood-sucking hookworm Ancylostoma duodenale."
     },
     {
-      "key": "q18", "id": "QST-KASR309INF-BANK-NEMATODA-18", "page": 8,
+      "key": "q18",
+      "id": "QST-KASR309INF-BANK-NEMATODA-18",
+      "page": 8,
       "title": "Transmission of Capillaria philippinensis",
       "question": "Capillariasis philippinensis is transmitted by:",
-      "options": { "A": "Eating infected fish", "B": "Accidental swallowing of infected Cyclops", "C": "Eating improperly cooked pork", "D": "Accidental swallowing of an infected flea" },
+      "options": {
+        "A": "Eating infected fish",
+        "B": "Accidental swallowing of infected Cyclops",
+        "C": "Eating improperly cooked pork",
+        "D": "Accidental swallowing of an infected flea"
+      },
       "correct": "A",
       "explanations": {
         "A": "Correct. Capillaria philippinensis is transmitted by EATING raw or improperly cooked infected freshwater fish (the small fish that harbour the infective larvae). Once eaten, the larvae develop in the human small intestine, and because females are larviparous the worm multiplies by internal autoinfection, causing severe malabsorption and protein-losing enteropathy. Undercooked freshwater fish is therefore the source of infection.",
@@ -285,15 +456,25 @@
         "C": "Incorrect. Improperly cooked pork transmits Taenia solium/Trichinella, not Capillaria.",
         "D": "Incorrect. Swallowing an infected flea transmits Hymenolepis/Dipylidium cestodes, not Capillaria."
       },
-      "main_concept": "CON-INF-5FE99BA373F17F", "concept_ids": ["CON-INF-5FE99BA373F17F"],
+      "main_concept": "CON-INF-5FE99BA373F17F",
+      "concept_ids": [
+        "CON-INF-5FE99BA373F17F"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Capillaria philippinensis",
       "learning_objective": "Identify eating infected freshwater fish as the route of Capillaria philippinensis infection."
     },
     {
-      "key": "q19", "id": "QST-KASR309INF-BANK-NEMATODA-19", "page": 8,
+      "key": "q19",
+      "id": "QST-KASR309INF-BANK-NEMATODA-19",
+      "page": 8,
       "title": "Parasite of larva currens",
       "question": "\"Larva currens\" is the name given to the migrating larva of:",
-      "options": { "A": "Ancylostoma duodenale", "B": "Trichostrongylus colubriformis", "C": "Strongyloides stercoralis", "D": "Capillaria philippinensis" },
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Trichostrongylus colubriformis",
+        "C": "Strongyloides stercoralis",
+        "D": "Capillaria philippinensis"
+      },
       "correct": "C",
       "explanations": {
         "A": "Incorrect. Ancylostoma larvae in skin cause a localised, slow-moving ground itch, not the rapid larva currens.",
@@ -301,15 +482,25 @@
         "C": "Correct. 'Larva currens' (running larva) is the name for the rapidly migrating cutaneous larval track of Strongyloides stercoralis. In external autoinfection, filariform larvae re-penetrate the perianal skin and race through it at up to several centimetres per hour, producing a fast-moving, itchy, urticarial serpiginous streak — much faster than the cutaneous larva migrans of animal hookworms. This speed is why it is called larva currens and it is characteristic of Strongyloides autoinfection.",
         "D": "Incorrect. Capillaria philippinensis remains in the gut and produces no migrating skin larva."
       },
-      "main_concept": "CON-INF-26656E518A5766", "concept_ids": ["CON-INF-26656E518A5766"],
+      "main_concept": "CON-INF-26656E518A5766",
+      "concept_ids": [
+        "CON-INF-26656E518A5766"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
       "learning_objective": "Recognise larva currens as the rapidly migrating cutaneous larva of Strongyloides stercoralis."
     },
     {
-      "key": "q20", "id": "QST-KASR309INF-BANK-NEMATODA-20", "page": 8,
+      "key": "q20",
+      "id": "QST-KASR309INF-BANK-NEMATODA-20",
+      "page": 8,
       "title": "Infective stage of Ancylostoma duodenale",
       "question": "Concerning ancylostomiasis duodenale, which of the following is infective:",
-      "options": { "A": "Mature Egg", "B": "Filariform larva", "C": "Rhabditiform larva", "D": "Adult worm" },
+      "options": {
+        "A": "Mature Egg",
+        "B": "Filariform larva",
+        "C": "Rhabditiform larva",
+        "D": "Adult worm"
+      },
       "correct": "B",
       "explanations": {
         "A": "Incorrect. The egg is the diagnostic stool stage, not the infective stage; it hatches in soil to release larvae.",
@@ -317,7 +508,10 @@
         "C": "Incorrect. The rhabditiform larva is the feeding soil stage that precedes the infective form; it is not itself infective.",
         "D": "Incorrect. The adult worm lives in the human small intestine and is not a stage that transmits infection."
       },
-      "main_concept": "CON-INF-1AAC26110CD919", "concept_ids": ["CON-INF-1AAC26110CD919"],
+      "main_concept": "CON-INF-1AAC26110CD919",
+      "concept_ids": [
+        "CON-INF-1AAC26110CD919"
+      ],
       "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
       "learning_objective": "Identify the filariform larva as the infective stage of Ancylostoma duodenale."
     },
@@ -1056,6 +1250,360 @@
     {
       "key": "q50",
       "hold": "ambiguous key — the printed answer table gives Q50 = B (Onchocerca nodule 'develops over bony prominences'), which is correct parasitology, but option a ('It is a granulomatous reaction') is also a defensible true statement about an onchocercoma (a fibrous/granulomatous nodule around coiled adult worms). With two arguably-correct options and only one printed key, the item is held for human adjudication rather than authored with a distractor that is itself defensible. (Options c 'reaction around coiled microfilariae' is wrong — the nodule forms around coiled ADULT worms; d 'painful' is wrong — onchocercomas are painless.)"
+    },
+    {
+      "key": "q51",
+      "id": "QST-KASR309INF-BANK-NEMATODA-51",
+      "page": 12,
+      "title": "Mode of human infection with Strongyloides stercoralis",
+      "question": "Concerning Strongyloides stercoralis, human infection occurs by:",
+      "options": {
+        "A": "Ingestion of mature egg",
+        "B": "Skin penetration by filariform larva",
+        "C": "Skin penetration by rhabditiform larva",
+        "D": "Ingestion of adult worm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Strongyloides is not acquired by swallowing eggs; the eggs hatch within the gut and it is rhabditiform larvae, not eggs, that appear in the stool.",
+        "B": "Correct. Human infection with Strongyloides stercoralis occurs when infective filariform (L3) larvae in contaminated soil penetrate intact skin and migrate via the bloodstream through the lungs to reach the intestine. This percutaneous route is shared with hookworm and produces ground itch at the site of entry. Skin penetration by the filariform larva, not ingestion of an egg or adult, is therefore the mode of infection.",
+        "C": "Incorrect. The rhabditiform larva is the non-infective feeding and diagnostic stage found in stool; it is the filariform larva that penetrates skin.",
+        "D": "Incorrect. The adult worm is not an infective stage and is not ingested."
+      },
+      "main_concept": "CON-INF-C40504A90D83F9",
+      "concept_ids": [
+        "CON-INF-C40504A90D83F9"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
+      "learning_objective": "State that Strongyloides infects man by skin penetration of the filariform larva."
+    },
+    {
+      "key": "q52",
+      "id": "QST-KASR309INF-BANK-NEMATODA-52",
+      "page": 12,
+      "title": "Fish-eating birds as reservoir host",
+      "question": "Fish-eating birds could be considered a reservoir host in case of:",
+      "options": {
+        "A": "Ascariasis",
+        "B": "Capillariasis",
+        "C": "Trichuriasis",
+        "D": "Trichostrongyliasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ascaris has no avian reservoir; it is a soil-transmitted human roundworm acquired by swallowing embryonated eggs.",
+        "B": "Correct. In Capillaria philippinensis infection, freshwater fish are the intermediate hosts and fish-eating (piscivorous) birds serve as the natural reservoir hosts that maintain the cycle in nature. Humans are infected only accidentally by eating raw or undercooked infected fish. Because piscivorous birds sustain transmission, capillariasis is the infection in which fish-eating birds are the reservoir host.",
+        "C": "Incorrect. Trichuris is a direct soil-transmitted human whipworm with no bird reservoir.",
+        "D": "Incorrect. Trichostrongylus is acquired by ingesting larvae on vegetation and does not depend on a fish-eating-bird reservoir."
+      },
+      "main_concept": "CON-INF-646DCBC8F8800A",
+      "concept_ids": [
+        "CON-INF-646DCBC8F8800A"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Capillaria philippinensis",
+      "learning_objective": "Identify fish-eating birds as the reservoir host of Capillaria philippinensis."
+    },
+    {
+      "key": "q53",
+      "id": "QST-KASR309INF-BANK-NEMATODA-53",
+      "page": 12,
+      "title": "Ectopic granulomas in the female genital system",
+      "question": "Ectopic granulomas in the female genital system may be seen with:",
+      "options": {
+        "A": "Trichostrongyliasis",
+        "B": "Enterobiasis",
+        "C": "Ancylostomiasis",
+        "D": "Strongyloidiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus is a minor intestinal worm that does not migrate to the female genital tract.",
+        "B": "Correct. Gravid Enterobius vermicularis worms migrating from the perianal skin can enter the vulva and vagina and ascend to the uterus and fallopian tubes, where dead worms and eggs provoke ectopic granulomas. This aberrant genital migration underlies the vulvovaginitis and pelvic granulomas of enterobiasis. Ectopic granulomas of the female genital system are therefore a recognised complication of Enterobius.",
+        "C": "Incorrect. Hookworm larvae penetrate skin and the adult lives in the gut; they do not form female genital granulomas.",
+        "D": "Incorrect. Strongyloides causes autoinfection and gut and lung disease, not ectopic female genital granulomas."
+      },
+      "main_concept": "CON-INF-43441769DA9AF8",
+      "concept_ids": [
+        "CON-INF-43441769DA9AF8"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Enterobius vermicularis",
+      "learning_objective": "Recognise ectopic female genital granulomas as a complication of enterobiasis."
+    },
+    {
+      "key": "q54",
+      "hold": "ambiguous key: two option pairs are each acquired by ingestion of infective larvae. The printed key B (Trichostrongylus & Capillaria) is correct, but option D (Trichinella & Capillaria) is ALSO fully correct — Trichinella is acquired by ingesting encysted infective larvae in meat and Capillaria by ingesting larvae in fish. With two defensible correct option pairs and one printed key, held for human adjudication rather than authored (never guess an ambiguous key)."
+    },
+    {
+      "key": "q55",
+      "id": "QST-KASR309INF-BANK-NEMATODA-55",
+      "page": 12,
+      "title": "Chronic eosinophilia",
+      "question": "Chronic eosinophilia is associated with:",
+      "options": {
+        "A": "Strongyloidiasis",
+        "B": "Toxocariasis",
+        "C": "Schistosomiasis",
+        "D": "Trichinosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Strongyloidiasis causes eosinophilia but it is variable and may be low or absent in disseminated hyperinfection, so it is not the classic cause of sustained chronic eosinophilia.",
+        "B": "Correct. Visceral larva migrans, usually due to Toxocara canis or cati larvae, is the classic cause of a marked and chronic (persistent) eosinophilia. The non-human larvae wander through the viscera, cannot mature, and provoke a sustained eosinophilic host response, often with hepatomegaly and hypergammaglobulinaemia. Chronic eosinophilia is thus the hallmark laboratory feature of toxocariasis.",
+        "C": "Incorrect. Schistosomiasis produces eosinophilia mainly in the acute (Katayama) phase rather than as a defining chronic eosinophilia.",
+        "D": "Incorrect. Trichinosis causes an acute, marked eosinophilia during larval invasion, not the sustained chronic eosinophilia of visceral larva migrans."
+      },
+      "main_concept": "CON-INF-AE2341B790B16E",
+      "concept_ids": [
+        "CON-INF-AE2341B790B16E"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Toxocara",
+      "learning_objective": "Associate chronic eosinophilia with toxocariasis (visceral larva migrans)."
+    },
+    {
+      "key": "q56",
+      "hold": "printed key A (Ascaris lumbricoides) but the stem specifies \"the following ADULT helminth may cause pulmonary manifestations\" — Ascaris pulmonary manifestations (Loeffler syndrome) are produced by the migrating LARVAE during the lung phase, not by the adult worm. Same adult-vs-larvae stem/parasitology mismatch as the held Q8 (identical stem, same key A); held for human adjudication (never author to a wrong fact)."
+    },
+    {
+      "key": "q57",
+      "id": "QST-KASR309INF-BANK-NEMATODA-57",
+      "page": 12,
+      "title": "Pathology caused by both adults and larvae",
+      "question": "Pathology is caused by:",
+      "options": {
+        "A": "Adults and larvae in infection with Trichuris",
+        "B": "Adults and larvae in visceral larva migrans",
+        "C": "Larvae in taeniasis saginata",
+        "D": "Adults and larvae in infection with Ascaris"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. In trichuriasis the pathology is due to the adult whipworm embedded in the colonic mucosa; the larvae do not migrate through tissues.",
+        "B": "Incorrect. Visceral larva migrans has no adult stage in the human host, so pathology is caused by the wandering larvae alone.",
+        "C": "Incorrect. Intestinal taeniasis saginata pathology is from the adult tapeworm; the larval (cysticercus) stage of Taenia saginata develops in cattle, not in man.",
+        "D": "Correct. Ascariasis is pathogenic in both stages: the migrating larvae cause a transient pulmonary phase (Loeffler syndrome) and the adult worms cause malnutrition, maldigestion and mechanical complications such as intestinal or biliary obstruction. Both larvae and adults therefore contribute to disease. This dual-stage pathology is unusual among the intestinal nematodes."
+      },
+      "main_concept": "CON-INF-A5CB7FF898CE7F",
+      "concept_ids": [
+        "CON-INF-A5CB7FF898CE7F"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "State that both adults and larvae cause pathology in ascariasis."
+    },
+    {
+      "key": "q58",
+      "id": "QST-KASR309INF-BANK-NEMATODA-58",
+      "page": 12,
+      "title": "Corticosteroids essential in treatment",
+      "question": "Corticosteroids are essential in the treatment of:",
+      "options": {
+        "A": "Hepatic hydatid cyst",
+        "B": "Neurotoxocariasis",
+        "C": "Cryptosporidiosis",
+        "D": "Taeniasis solium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hepatic hydatid disease is treated by surgery (or the PAIR technique) under albendazole cover, not by corticosteroids.",
+        "B": "Correct. Neuro- and ocular toxocariasis damage is driven by an intense eosinophilic inflammatory reaction to migrating Toxocara larvae, so corticosteroids are essential to suppress that inflammation and limit tissue destruction, given alongside anthelmintics. Without steroids the inflammatory response can itself injure brain or eye. Corticosteroids are therefore essential in the treatment of neurotoxocariasis.",
+        "C": "Incorrect. Cryptosporidiosis is worsened by immunosuppression; management is immune reconstitution and supportive care, not corticosteroids.",
+        "D": "Incorrect. Intestinal taeniasis solium is treated with praziquantel; corticosteroids are adjuncts in neurocysticercosis (the larval CNS disease), not in adult intestinal taeniasis."
+      },
+      "main_concept": "CON-INF-0993794122EE2B",
+      "concept_ids": [
+        "CON-INF-0993794122EE2B"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Toxocara",
+      "learning_objective": "Recognise corticosteroids as essential in the treatment of neurotoxocariasis."
+    },
+    {
+      "key": "q59",
+      "id": "QST-KASR309INF-BANK-NEMATODA-59",
+      "page": 12,
+      "title": "Cause of serious complications of ascariasis",
+      "question": "Serious & sometimes fatal complications of ascariasis are due to:",
+      "options": {
+        "A": "Toxic or enzymatic activity",
+        "B": "Migration of adult worms",
+        "C": "Eggs trapped in tissues",
+        "D": "Larvae trapped in tissues"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ascaris does not cause its fatal complications through toxins or enzymes.",
+        "B": "Correct. The serious and sometimes fatal complications of ascariasis — biliary obstruction, acute pancreatitis, intestinal obstruction, appendicitis and perforation — result from adult worms migrating or aggregating into masses. Fever, drugs or anaesthesia can provoke adults to wander into the bile duct, pancreatic duct or appendix. Adult-worm migration is therefore the mechanism of the dangerous complications.",
+        "C": "Incorrect. Egg granulomas trapped in tissue characterise schistosomiasis, not the complications of ascariasis.",
+        "D": "Incorrect. Larval lung migration causes transient Loeffler symptoms, not the fatal mechanical complications."
+      },
+      "main_concept": "CON-INF-3ED5D75E1A27EA",
+      "concept_ids": [
+        "CON-INF-3ED5D75E1A27EA"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Attribute the fatal complications of ascariasis to migration of adult worms."
+    },
+    {
+      "key": "q60",
+      "id": "QST-KASR309INF-BANK-NEMATODA-60",
+      "page": 12,
+      "title": "Barium meal cylindrical filling defects",
+      "question": "Barium meal showing cylindrical filling defects in the small intestines can suggest:",
+      "options": {
+        "A": "Strongyloidiasis",
+        "B": "Ancylostomiasis",
+        "C": "Ascariasis",
+        "D": "Capillariasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Strongyloides produces mucosal and oedematous small-bowel changes, not large cylindrical luminal filling defects.",
+        "B": "Incorrect. Hookworms are small and do not appear as cylindrical barium filling defects.",
+        "C": "Correct. Adult Ascaris worms lying in the small-intestinal lumen appear on a barium meal as long, cylindrical (tubular) filling defects, and barium swallowed by the worm may outline its own gut as a thin central line within the defect. This appearance is characteristic of intraluminal adult ascarids. Cylindrical filling defects on a barium meal therefore suggest ascariasis.",
+        "D": "Incorrect. Capillaria worms are tiny and cause a malabsorptive picture, not cylindrical barium filling defects."
+      },
+      "main_concept": "CON-INF-AD5B1B27EB361A",
+      "concept_ids": [
+        "CON-INF-AD5B1B27EB361A"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Recognise cylindrical small-bowel barium filling defects as a sign of ascariasis."
+    },
+    {
+      "key": "q61",
+      "hold": "ambiguous key: creeping eruption (cutaneous larva migrans) is caused by animal hookworm larvae (A. braziliense, A. caninum). The printed key B (non-human schistosomes → swimmer's itch/cercarial dermatitis) is a defensible \"not seen with\", but option D (Ancylostoma duodenale) is ALSO defensible — the corpus concept CON-INF-4AF960D3F63C6F states the human hookworm A. duodenale gives only a brief ground itch, not the serpiginous creeping-eruption track. With two option-answers that both fail to produce classic creeping eruption and one printed key, held for human adjudication rather than authored to a contradiction of our own concept."
+    },
+    {
+      "key": "q62",
+      "hold": "in-source EXACT duplicate of the authored Q39 (\"For trichinellosis, the following is true:\", identical options A splinter haemorrhages / B man is the only definitive host / C orbital oedema is a suggestive sign / D Bachman test is a delayed hypersensitivity test; both printed key C). Q39 is authored, so Q62 is held to avoid a duplicate item (per the brief)."
+    },
+    {
+      "key": "q63",
+      "id": "QST-KASR309INF-BANK-NEMATODA-63",
+      "page": 13,
+      "title": "Hanging groin",
+      "question": "Hanging groin is seen with:",
+      "options": {
+        "A": "Cutaneous leishmaniasis",
+        "B": "Schistosomiasis haematobium",
+        "C": "Bancroftian filariasis",
+        "D": "Onchocerciasis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cutaneous leishmaniasis causes localised skin ulcers, not hanging groin.",
+        "B": "Incorrect. Urinary schistosomiasis causes haematuria and bladder disease, not hanging groin.",
+        "C": "Incorrect. Wuchereria bancrofti causes lymphoedema/elephantiasis and hydrocoele, not the sagging adenolymphocele of hanging groin.",
+        "D": "Correct. Hanging groin (adenolymphocele) is a classic sign of chronic onchocerciasis, in which fibrosed, enlarged inguinal and femoral lymph nodes sag within a sac of loose, atrophic skin. It reflects long-standing Onchocerca volvulus infection with lymphadenopathy and loss of skin elasticity. Hanging groin is therefore seen with onchocerciasis."
+      },
+      "main_concept": "CON-INF-DFE085A01F250F",
+      "concept_ids": [
+        "CON-INF-DFE085A01F250F"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Onchocerca volvulus",
+      "learning_objective": "Identify hanging groin as a sign of onchocerciasis."
+    },
+    {
+      "key": "q64",
+      "id": "QST-KASR309INF-BANK-NEMATODA-64",
+      "page": 13,
+      "title": "Why control of Chrysops is difficult",
+      "question": "Control of Chrysops is difficult because:",
+      "options": {
+        "A": "Breeding sites are densely vegetated",
+        "B": "They live in rapidly running streams",
+        "C": "Resistance to insecticides",
+        "D": "They have land and aquatic stages"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chrysops (the mango or deer fly, vector of Loa loa) breeds in shaded, densely vegetated muddy margins of forest streams, and this inaccessible, plant-covered breeding habitat is what makes larval control and larviciding difficult. The obstacle is reaching and treating the vegetated breeding sites. Control therefore relies on personal protection and clearing vegetation rather than easy source reduction.",
+        "B": "Incorrect. Fast-running, well-oxygenated streams are the breeding site of Simulium (the Onchocerca vector), not of Chrysops.",
+        "C": "Incorrect. The obstacle to Chrysops control is its breeding habitat, not documented insecticide resistance.",
+        "D": "Incorrect. Having land and aquatic stages is not the reason Chrysops control is difficult."
+      },
+      "main_concept": "CON-INF-09A80381CE0844",
+      "concept_ids": [
+        "CON-INF-09A80381CE0844"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Loa loa (Chrysops vector)",
+      "learning_objective": "Explain that Chrysops control is difficult because its breeding sites are densely vegetated."
+    },
+    {
+      "key": "q65",
+      "id": "QST-KASR309INF-BANK-NEMATODA-65",
+      "page": 13,
+      "title": "Skin and not blood samples for diagnosis",
+      "question": "Skin and not blood samples are used for diagnosis of:",
+      "options": {
+        "A": "Loiasis",
+        "B": "Bancroftian filariasis",
+        "C": "Onchocerciasis",
+        "D": "Brugian filariasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Loa loa microfilariae circulate in the blood with diurnal periodicity and are diagnosed on blood films.",
+        "B": "Incorrect. Wuchereria bancrofti microfilariae are found in blood with nocturnal periodicity and are diagnosed on blood smears.",
+        "C": "Correct. Onchocerca volvulus microfilariae live in the skin and subcutaneous tissue rather than in the blood, so diagnosis uses bloodless skin snips examined for emerging microfilariae. Blood films are unhelpful because the microfilariae do not circulate. Skin, not blood, samples are therefore used to diagnose onchocerciasis.",
+        "D": "Incorrect. Brugia malayi microfilariae are found in blood and are diagnosed on blood smears."
+      },
+      "main_concept": "CON-INF-E1088781C3F935",
+      "concept_ids": [
+        "CON-INF-E1088781C3F935"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Onchocerca volvulus",
+      "learning_objective": "State that onchocerciasis is diagnosed from skin snips, not blood samples."
+    },
+    {
+      "key": "q66",
+      "id": "QST-KASR309INF-BANK-NEMATODA-66",
+      "page": 13,
+      "title": "Vectors of Wuchereria bancrofti",
+      "question": "Wuchereria bancrofti may be transmitted by:",
+      "options": {
+        "A": "Lutzomyia and Phlebotomus",
+        "B": "Culex and Aedes",
+        "C": "Phlebotomus and Anopheles",
+        "D": "Chrysops and Simulium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lutzomyia and Phlebotomus are sandflies, vectors of leishmaniasis, not of W. bancrofti.",
+        "B": "Correct. Wuchereria bancrofti is transmitted by mosquitoes, chiefly Culex (the main urban vector) together with Aedes, Anopheles and Mansonia, so Culex and Aedes are both valid vectors. Sandflies, Chrysops and Simulium transmit other parasites. Culex and Aedes are therefore the correct pair.",
+        "C": "Incorrect. Anopheles can transmit W. bancrofti, but Phlebotomus (a sandfly) cannot, so this pair is wrong.",
+        "D": "Incorrect. Chrysops transmits Loa loa and Simulium transmits Onchocerca, not W. bancrofti."
+      },
+      "main_concept": "CON-INF-F29A0AD436AF30",
+      "concept_ids": [
+        "CON-INF-F29A0AD436AF30"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Wuchereria bancrofti",
+      "learning_objective": "Identify Culex and Aedes as mosquito vectors of Wuchereria bancrofti."
+    },
+    {
+      "key": "q67",
+      "id": "QST-KASR309INF-BANK-NEMATODA-67",
+      "page": 13,
+      "title": "Type I hypersensitivity not observed",
+      "question": "Type I hypersensitivity reactions are not observed with:",
+      "options": {
+        "A": "Insect bites",
+        "B": "Encysted Trichinella spiralis larvae",
+        "C": "Loeffler syndrome",
+        "D": "Ruptured hydatid cyst"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Insect bites classically provoke immediate (type I) wheal-and-flare hypersensitivity.",
+        "B": "Correct. The encysted, walled-off Trichinella spiralis larva is immunologically quiescent and does not itself trigger a type I reaction; the allergic and eosinophilic phase of trichinellosis accompanies larval invasion and encystment, whereas the mature nurse-cell cyst is tolerated by the host. Immediate hypersensitivity is therefore not observed with the encysted larva. This makes the encysted larva the exception among the listed items.",
+        "C": "Incorrect. Loeffler syndrome is an allergic, eosinophilic pulmonary reaction of type I hypersensitivity to migrating larvae.",
+        "D": "Incorrect. A ruptured hydatid cyst releases antigen that can cause type I anaphylaxis."
+      },
+      "main_concept": "CON-INF-2CABCF7A2AB595",
+      "concept_ids": [
+        "CON-INF-2CABCF7A2AB595"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Trichinella spiralis",
+      "learning_objective": "Recognise that encysted Trichinella larvae do not provoke type I hypersensitivity."
     }
   ]
 }
