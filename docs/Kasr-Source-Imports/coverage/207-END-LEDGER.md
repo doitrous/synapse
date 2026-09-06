@@ -8,8 +8,9 @@
 | **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **106** | **1** | **1** | **0** | **108** |
 | 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
 | 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
-| **207 END module authored (3 papers)** | **173** | **2** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 173 | 2 | 1 | untriaged | — |
+| medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 17 | 0 | 0 | 4 fresh + 4 dupe | 25 |
+| **207 END module authored (3 EOM + 1 bank)** | **190** | **2** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 190 | 2 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -326,3 +327,55 @@ audit, 0 NEW-ONLY categories).
 department books (Anatomy / Histology / Physiology dept books) or the 6 MCQ banks in the manifest
 (e.g. `ANATOMY MCQ [RPR].pdf`, `Anatomy MCQ by Dr.Jalal[END].pdf`, `207 Dr Medhat mcq (endo).pdf`,
 `207 Mcq Galal (repro).pdf`) — all entirely untriaged. Do NOT mine any 207 END EOM paper further.
+
+
+## Fourth source — Dr Medhat endocrine ANATOMY MCQ bank (FIRST non-EOM source)
+
+Paper: `207 Dr Medhat mcq (endo).pdf` (Anatomy Other [2nd priority]/MCQs; manifest sourceId
+`src_79493b8d5c510e8ca580`, sha256
+79493b8d5c510e8ca580b64e862c3a5567446f7b9a501ccdb9497c95e8a4424c; examType null — a TOPIC bank,
+so manifest examSittingYear=null; already in kasr-y2-sources.json, no new manifest row needed).
+Scanned CamScanner, 5 pages, 25 four-option single-best MCQs on gross anatomy of the endocrine
+glands (Q1-4 pituitary, Q5-9 thyroid, Q10-11 parathyroid, Q12-18 suprarenal, Q19-24 pancreas,
+Q25 thyroid fascia). NOT a dup sha of the three mined EOM papers. Registered in
+`evidence/207-END-resources.md`.
+
+**Key marker: a printed/handwritten ANSWER-KEY LIST on the last page (p.5), Q1-25**, read by eye
+from a 220-dpi render (p.5 OCR was too garbled to trust). All 25 keys recovered, 0 double-marks,
+0 ambiguous; every key cross-checked against its stem for a clean single-best answer (see
+`coverage/207-END-triage-keys.txt`). The blue left-margin ovals are TOPIC references (27=Pituitary
+… 32=Gonads per the p.1 legend), NOT answer marks.
+
+**17 authored** (Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q12, Q13, Q14, Q17, Q19, Q20, Q21, Q24) —
+every one a gross-anatomy claim NOT covered by the three EOM tranches (verified against the corpus
+concept canonical keys). 0 held, 0 excluded. **4 dupes skipped** (Q1 pituitary-lateral-cavernous-
+sinus = existing `pituitary-gland.lateral-relation.cavernous-sinus`; Q11 parathyroid-regulates-
+calcium = existing PTH-calcium physiology concept; Q18 medulla-secretes-adrenaline = existing
+`adrenal-medulla.chromaffin-cell.chromaffin-reaction`; Q25 thyroid-pretracheal-fascia = existing
+`thyroid-gland.anterolateral-surface.pretracheal-fascia`). Dedup/skip rate 4/21 checked ≈ 19% —
+well under the 60% stop threshold; this NON-EOM bank is low-dupe as expected (the EOM anatomy
+sections tested pelvis/perineum/genital + a little endocrine-gland surgical anatomy, so most of
+this gland-anatomy bank is fresh). **4 fresh stems held for a next slice:** Q15, Q16 (suprarenal
+covering/hilum), Q22 (cancer head of pancreas), Q23 (portal vein behind neck).
+
+17 new concepts minted university-blind (CON-END- + first 14 hex of SHA-256 of the canonical key,
+uppercased): all 17 `CON-END-*` — collision-checked corpus-wide, 0 collisions, 0 in-batch
+duplicates; none of the three EOM-tranche concepts reusable (those are histology/physiology/pelvic-
+anatomy claims, not endocrine-gland gross anatomy). Filed under DIS-ANA-T06 (head/neck: pituitary,
+thyroid, parathyroid) or DIS-ANA-T05 (abdomen: suprarenal, pancreas) with SYS-END-T03 cross-nav.
+Grouped into 4 new library articles (`ART-END-207END-MEDHAT-PITUITARY-ANATOMY`,
+`ART-END-207END-MEDHAT-THYROID-ANATOMY`, `ART-END-207END-MEDHAT-SUPRARENAL-ANATOMY`,
+`ART-END-207END-MEDHAT-PANCREAS-ANATOMY`). Subject tag `endo` throughout (the bank is "MCQ OF
+ENDOCRINE" gland anatomy). Written from standard regional-anatomy teaching (Snell / Last's / Moore
+level) corroborated by the bank's own keyed stems/options; no department book read this pass.
+
+Authored in `question/207-END-medhat-endo-anatomy-mcq.md` (from seed
+`seed/207-END-medhat-endo-anatomy.json` — never hand-edit the emitted .md; fix the seed and
+re-emit), `concept/207-END-medhat-endo-anatomy-concepts.md`,
+`article/207-END-medhat-endo-anatomy-articles.md`. Gate-clean vs the module baseline (concept batch
+17 items 0 errors; article batch 4 items 0 errors; MCQ batch 17 items = the shared not-yet-imported
+resource baseline, one `resource_ids` error/item, the single category every 207-END MCQ file
+carries). This bank is RICH (a clean, fully-keyed gland-anatomy set); 4 fresh stems remain for a
+short next slice, after which the next 207 END cluster is a department book (Anatomy / Histology /
+Physiology dept book) or another non-EOM bank (e.g. `ANATOMY MCQ [RPR].pdf`,
+`Anatomy MCQ by Dr.Jalal[END].pdf`, `207 Mcq Galal (repro).pdf`).

@@ -118,3 +118,42 @@ Kasr Al Ainy END 207 End-of-Module examination, printed exam date 29/4/2026 (bat
 0.9
 ## is_assessment
 true
+
+
+# Item
+## id
+src_79493b8d5c510e8ca580
+## title
+207 Dr Medhat mcq (endo)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Anatomy Other [2nd priority]/MCQs/207 Dr Medhat mcq (endo).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+5
+## sha256
+79493b8d5c510e8ca580b64e862c3a5567446f7b9a501ccdb9497c95e8a4424c
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 endocrine ANATOMY MCQ topic bank by Dr Medhat (NON-EOM; not an exam, so examSittingYear is null). 25 four-option single-best MCQs on gross anatomy of the endocrine glands (pituitary, thyroid, parathyroid, suprarenal, pancreas), scanned (CamScanner), 5 pages. Correct answers read from a printed/handwritten answer-key list on p.5 (Q1-25), render-verified at 220 dpi and cross-checked against each stem for a clean single-best answer; the blue left-margin ovals are topic references (27=Pituitary .. 32=Gonads), NOT answer marks -- see coverage/207-END-triage-keys.txt. FIRST non-EOM 207 END source (the three EOM papers are exhausted). 17 non-duplicate items authored this pass.
+## confidence
+0.9
+## is_assessment
+true
+
+---
