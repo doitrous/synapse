@@ -1049,6 +1049,243 @@
       "subtopic": "Quinsy",
       "learning_objective": "Recognise that hoarseness is not a symptom of quinsy."
     },
+    {
+      "key": "pharynx-q45",
+      "id": "QST-KASR316ENT-PHARYNX-45",
+      "page": 54,
+      "title": "Common cause of hypopharyngeal carcinoma",
+      "question": "A common cause of hypopharyngeal carcinoma:",
+      "options": {
+        "A": "Esophageal atresia.",
+        "B": "Zinker's diverticulum.",
+        "C": "Plummer Vinson syndrome.",
+        "D": "Occult primary."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Oesophageal atresia is a congenital anomaly of the newborn, not a cause of hypopharyngeal carcinoma.",
+        "B": "Incorrect. A Zenker's (pharyngeal pouch) diverticulum can rarely harbour carcinoma but is not the common predisposing cause listed here.",
+        "C": "Correct. Plummer-Vinson syndrome — iron-deficiency anaemia with a premalignant postcricoid web — is a leading benign cause of postcricoid (hypopharyngeal) carcinoma. Chronic mucosal atrophy from iron deficiency undergoes malignant change if untreated. This is why correcting the iron deficiency and following the patient matters.",
+        "D": "Incorrect. An occult primary refers to an unknown primary presenting with a neck node, not a cause of hypopharyngeal cancer."
+      },
+      "main_concept": "CON-MUL-149E5631AA46E6",
+      "concept_ids": ["CON-MUL-149E5631AA46E6"],
+      "library_ids": ["ART-ENT-316-PHARYNX-HYPOPHARYNX"],
+      "question_type": "Recall",
+      "subtopic": "Hypopharynx",
+      "learning_objective": "Identify Plummer-Vinson syndrome as a common cause of hypopharyngeal carcinoma."
+    },
+    {
+      "key": "pharynx-q46",
+      "id": "QST-KASR316ENT-PHARYNX-46",
+      "page": 55,
+      "title": "Features of Plummer-Vinson syndrome",
+      "question": "Plummer Vinson's syndrome anemia:",
+      "options": {
+        "A": "Due to iron deficiency anemia.",
+        "B": "Associated with spooned nails and splenomegaly.",
+        "C": "Precancerous and may lead to post cricoid carcinoma.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. The anaemia is indeed iron-deficiency, but this is only one of the listed true features.",
+        "B": "Incorrect on its own. Koilonychia (spooned nails) and splenomegaly are described features, but this is not the complete answer.",
+        "C": "Incorrect on its own. The postcricoid web is precancerous and may lead to postcricoid carcinoma, but again this is only part of the answer.",
+        "D": "Correct. Plummer-Vinson syndrome combines iron-deficiency anaemia, koilonychia (with splenomegaly as a described association) and a premalignant postcricoid web that can progress to postcricoid carcinoma. Because all three listed statements are true, all of the above is correct. These features together define the syndrome."
+      },
+      "main_concept": "CON-MUL-149E5631AA46E6",
+      "concept_ids": ["CON-MUL-149E5631AA46E6"],
+      "library_ids": ["ART-ENT-316-PHARYNX-HYPOPHARYNX"],
+      "question_type": "Recall",
+      "subtopic": "Hypopharynx",
+      "learning_objective": "List iron-deficiency anaemia, koilonychia and a premalignant postcricoid web as features of Plummer-Vinson syndrome."
+    },
+    {
+      "key": "pharynx-q47",
+      "id": "QST-KASR316ENT-PHARYNX-47",
+      "page": 55,
+      "title": "False statement about Plummer-Vinson syndrome",
+      "question": "The following are true about Plummer Vinson syndrome except:",
+      "options": {
+        "A": "More common in females.",
+        "B": "There is iron deficiency anemia.",
+        "C": "There is glossitis with spooning of the nails.",
+        "D": "Dysphagia is present due to upper oesophageal web.",
+        "E": "Laryngeal carcinoma may occur if left untreated."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (true statement). Plummer-Vinson is more common in females, so this is true and not the exception.",
+        "B": "Incorrect (true statement). Iron-deficiency anaemia is central to the syndrome, so this is true.",
+        "C": "Incorrect (true statement). Glossitis with koilonychia (spooning of the nails) is characteristic, so this is true.",
+        "D": "Incorrect (true statement). Dysphagia from an upper (postcricoid) oesophageal web is a defining feature, so this is true.",
+        "E": "Correct (the false statement). The malignancy that complicates untreated Plummer-Vinson is postcricoid (hypopharyngeal) carcinoma, not laryngeal carcinoma. The premalignant change is in the postcricoid mucosa. Naming laryngeal carcinoma is therefore the untrue statement."
+      },
+      "main_concept": "CON-MUL-149E5631AA46E6",
+      "concept_ids": ["CON-MUL-149E5631AA46E6"],
+      "library_ids": ["ART-ENT-316-PHARYNX-HYPOPHARYNX"],
+      "question_type": "Recall",
+      "subtopic": "Hypopharynx",
+      "learning_objective": "Recognise that untreated Plummer-Vinson predisposes to postcricoid, not laryngeal, carcinoma."
+    },
+    {
+      "key": "pharynx-q48",
+      "id": "QST-KASR316ENT-PHARYNX-48",
+      "page": 55,
+      "title": "Diagnosis from dysphagia, koilonychia and anaemia",
+      "question": "A middle aged female with gradually progressive dysphagia, koilonychia, hypochromic anemia and glazed tongue is suffering from:",
+      "options": {
+        "A": "Plummer vinson syndrome.",
+        "B": "Hypopharyngeal carcinoma.",
+        "C": "Esophageal carcinoma.",
+        "D": "Achalasia."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A middle-aged woman with progressive dysphagia, koilonychia, hypochromic (iron-deficiency) anaemia and a glazed (atrophic) tongue has the classic tetrad of Plummer-Vinson syndrome. The dysphagia is due to an upper postcricoid web. This benign but premalignant picture is distinct from an established carcinoma.",
+        "B": "Incorrect. Hypopharyngeal carcinoma may complicate Plummer-Vinson later, but the koilonychia, anaemia and glazed tongue describe the syndrome itself, not an established cancer.",
+        "C": "Incorrect. Oesophageal carcinoma causes progressive dysphagia but not koilonychia, hypochromic anaemia and a glazed tongue in a middle-aged woman.",
+        "D": "Incorrect. Achalasia causes dysphagia more for fluids but does not produce koilonychia, iron-deficiency anaemia or a glazed tongue."
+      },
+      "main_concept": "CON-MUL-149E5631AA46E6",
+      "concept_ids": ["CON-MUL-149E5631AA46E6"],
+      "library_ids": ["ART-ENT-316-PHARYNX-HYPOPHARYNX"],
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "subtopic": "Hypopharynx",
+      "learning_objective": "Diagnose Plummer-Vinson syndrome from dysphagia, koilonychia, hypochromic anaemia and a glazed tongue."
+    },
+    {
+      "key": "pharynx-q49",
+      "id": "QST-KASR316ENT-PHARYNX-49",
+      "page": 55,
+      "title": "Investigation for sleep apnoea",
+      "question": "Polysomnography is a method of investigation of a case with:",
+      "options": {
+        "A": "Sinusitis.",
+        "B": "Sleep apnea syndrome.",
+        "C": "Acute rhinitis.",
+        "D": "Nasal allergy."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sinusitis is diagnosed clinically and by imaging of the sinuses, not by a sleep study.",
+        "B": "Correct. Polysomnography is an overnight sleep study that records airflow, respiratory effort, oxygen saturation and sleep stages, and it is the investigation for sleep apnoea syndrome. It confirms the apnoeas and grades their severity. This is why a patient with suspected sleep apnoea is referred for polysomnography.",
+        "C": "Incorrect. Acute rhinitis is a clinical diagnosis and is not investigated by polysomnography.",
+        "D": "Incorrect. Nasal allergy is assessed by history and allergy testing, not by a sleep study."
+      },
+      "main_concept": "CON-MUL-45FAF2E7C2BEB0",
+      "concept_ids": ["CON-MUL-45FAF2E7C2BEB0"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OSA"],
+      "question_type": "Recall",
+      "subtopic": "Obstructive sleep apnoea",
+      "learning_objective": "State that polysomnography is the investigation for sleep apnoea syndrome."
+    },
+    {
+      "key": "pharynx-q50",
+      "id": "QST-KASR316ENT-PHARYNX-50",
+      "page": 55,
+      "title": "Commonest adult cause of obstructive sleep apnoea",
+      "question": "The commonest cause of obstructive sleep apnea in adults is:",
+      "options": {
+        "A": "Allergic rhinitis.",
+        "B": "Allergic nasal polypi.",
+        "C": "Marked obesity.",
+        "D": "Elongated uvula."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Allergic rhinitis may contribute to nasal obstruction but is not the commonest cause of adult obstructive sleep apnoea.",
+        "B": "Incorrect. Allergic nasal polypi are an uncommon cause and not the leading one in adults.",
+        "C": "Correct. In adults the commonest cause of obstructive sleep apnoea is marked obesity, which narrows and crowds the upper airway so that it collapses during sleep. Weight reduction is central to treatment. This is why obesity is the dominant adult risk factor.",
+        "D": "Incorrect. An elongated uvula may add to snoring but is not the commonest cause of adult obstructive sleep apnoea."
+      },
+      "main_concept": "CON-MUL-F32F0E6BB3B19C",
+      "concept_ids": ["CON-MUL-F32F0E6BB3B19C"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OSA"],
+      "question_type": "Recall",
+      "subtopic": "Obstructive sleep apnoea",
+      "learning_objective": "State that marked obesity is the commonest adult cause of obstructive sleep apnoea."
+    },
+    {
+      "key": "pharynx-q51",
+      "id": "QST-KASR316ENT-PHARYNX-51",
+      "page": 55,
+      "title": "Commonest childhood cause of obstructive sleep apnoea",
+      "question": "The commonest cause for obstructive sleep apnea in children is:",
+      "options": {
+        "A": "Bilateral allergic nasal polypi.",
+        "B": "Antro-choanal polyp.",
+        "C": "Choanal atresia.",
+        "D": "Adeno-tonsillar hypertrophy."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bilateral allergic nasal polypi are uncommon in children and are not the leading cause.",
+        "B": "Incorrect. An antrochoanal polyp causes unilateral obstruction and is not the commonest cause of childhood sleep apnoea.",
+        "C": "Incorrect. Choanal atresia presents in the newborn and is a rare cause, not the commonest.",
+        "D": "Correct. In children the commonest cause of obstructive sleep apnoea is adeno-tonsillar hypertrophy, which narrows the nasopharynx and oropharynx during sleep. Adenotonsillectomy is the usual and effective treatment. This is why enlarged tonsils and adenoids are sought first in a snoring child with apnoeas."
+      },
+      "main_concept": "CON-MUL-53A23729053ED8",
+      "concept_ids": ["CON-MUL-53A23729053ED8"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OSA"],
+      "question_type": "Recall",
+      "subtopic": "Obstructive sleep apnoea",
+      "learning_objective": "State that adeno-tonsillar hypertrophy is the commonest childhood cause of obstructive sleep apnoea."
+    },
+    {
+      "key": "pharynx-q52",
+      "id": "QST-KASR316ENT-PHARYNX-52",
+      "page": 55,
+      "title": "Factors predisposing to obstructive sleep apnoea",
+      "question": "Factors predisposing to obstructive sleep apnea include:",
+      "options": {
+        "A": "Obesity.",
+        "B": "Redundant soft palate.",
+        "C": "Marked tonsillar enlargement.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. Obesity is a major predisposing factor, but it is not the only one listed.",
+        "B": "Incorrect on its own. A redundant soft palate promotes collapse but is only part of the answer.",
+        "C": "Incorrect on its own. Marked tonsillar enlargement narrows the airway but is only one of the listed factors.",
+        "D": "Correct. Obstructive sleep apnoea is predisposed to by any factor that narrows the upper airway, and obesity, a redundant soft palate and marked tonsillar enlargement all do so. Because each is a genuine factor, all of the above is correct. Treatment targets the dominant one — weight, palate or tonsils."
+      },
+      "main_concept": "CON-MUL-E84243F72F0F77",
+      "concept_ids": ["CON-MUL-E84243F72F0F77"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OSA"],
+      "question_type": "Recall",
+      "subtopic": "Obstructive sleep apnoea",
+      "learning_objective": "List obesity, a redundant soft palate and marked tonsillar enlargement as predisposing factors for obstructive sleep apnoea."
+    },
+    {
+      "key": "pharynx-q53",
+      "id": "QST-KASR316ENT-PHARYNX-53",
+      "page": 56,
+      "title": "False statement about sleep apnoea",
+      "question": "The following characterized sleep apnea except:",
+      "options": {
+        "A": "Daytime sleepiness.",
+        "B": "Can never be of central origin.",
+        "C": "Occurs in obese patients.",
+        "D": "Hypertrophied tonsils and adenoids are a cause in children."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (a true feature). Daytime sleepiness is a cardinal feature of sleep apnoea, so it is not the exception.",
+        "B": "Correct (the false statement). Sleep apnoea is not always obstructive; a central form, driven by failure of respiratory drive, also exists, so it can be of central origin. Saying it can never be central is therefore false. The other statements — daytime sleepiness, occurrence in the obese, and adenotonsillar hypertrophy as a childhood cause — are all true.",
+        "C": "Incorrect (a true feature). Sleep apnoea occurs in obese patients, so this is true and not the exception.",
+        "D": "Incorrect (a true feature). Hypertrophied tonsils and adenoids are a cause in children, so this is true and not the exception."
+      },
+      "main_concept": "CON-MUL-5E376AEB8DCBCF",
+      "concept_ids": ["CON-MUL-5E376AEB8DCBCF"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OSA"],
+      "question_type": "Recall",
+      "subtopic": "Obstructive sleep apnoea",
+      "learning_objective": "Recognise that sleep apnoea can be of central origin, so 'never central' is false."
+    },
     { "key": "pharynx-q06", "hold": "In-source near-duplicate of Q2. 'Enlarged adenoids may cause the following except' keys 'b' (epistaxis), the identical keyed teaching point as Q2 (adenoids do not cause epistaxis). Q2 is authored, so Q6 is held so the same fact is not authored twice." },
     { "key": "pharynx-q12", "hold": "In-source near-duplicate of Q9. 'The most common presenting sign or symptom of nasopharyngeal cancer' keys 'c' (neck mass), the same keyed fact as Q9 (commonest NPC presentation = cervical lymph node). Q9 is authored, so Q12 is held." },
     { "key": "pharynx-q14", "hold": "In-source near-duplicate of Q11. Teenage male with recurrent epistaxis and conductive deafness keyed 'c' (nasopharyngeal angiofibroma) — the same diagnostic vignette and answer as Q11. Q11 is authored, so Q14 is held." },

@@ -5324,3 +5324,1251 @@ Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF 
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-45
+
+## title
+Common cause of hypopharyngeal carcinoma
+
+## question
+A common cause of hypopharyngeal carcinoma:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Esophageal atresia.
+
+## explanation_a
+Incorrect. Oesophageal atresia is a congenital anomaly of the newborn, not a cause of hypopharyngeal carcinoma.
+
+## answer_b
+Zinker's diverticulum.
+
+## explanation_b
+Incorrect. A Zenker's (pharyngeal pouch) diverticulum can rarely harbour carcinoma but is not the common predisposing cause listed here.
+
+## answer_c
+Plummer Vinson syndrome.
+
+## explanation_c
+Correct. Plummer-Vinson syndrome — iron-deficiency anaemia with a premalignant postcricoid web — is a leading benign cause of postcricoid (hypopharyngeal) carcinoma. Chronic mucosal atrophy from iron deficiency undergoes malignant change if untreated. This is why correcting the iron deficiency and following the patient matters.
+
+## answer_d
+Occult primary.
+
+## explanation_d
+Incorrect. An occult primary refers to an unknown primary presenting with a neck node, not a cause of hypopharyngeal cancer.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hypopharynx
+
+## main_concept
+CON-MUL-149E5631AA46E6
+
+## concept_ids
+CON-MUL-149E5631AA46E6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify Plummer-Vinson syndrome as a common cause of hypopharyngeal carcinoma.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-46
+
+## title
+Features of Plummer-Vinson syndrome
+
+## question
+Plummer Vinson's syndrome anemia:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Due to iron deficiency anemia.
+
+## explanation_a
+Incorrect on its own. The anaemia is indeed iron-deficiency, but this is only one of the listed true features.
+
+## answer_b
+Associated with spooned nails and splenomegaly.
+
+## explanation_b
+Incorrect on its own. Koilonychia (spooned nails) and splenomegaly are described features, but this is not the complete answer.
+
+## answer_c
+Precancerous and may lead to post cricoid carcinoma.
+
+## explanation_c
+Incorrect on its own. The postcricoid web is precancerous and may lead to postcricoid carcinoma, but again this is only part of the answer.
+
+## answer_d
+All of the above.
+
+## explanation_d
+Correct. Plummer-Vinson syndrome combines iron-deficiency anaemia, koilonychia (with splenomegaly as a described association) and a premalignant postcricoid web that can progress to postcricoid carcinoma. Because all three listed statements are true, all of the above is correct. These features together define the syndrome.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hypopharynx
+
+## main_concept
+CON-MUL-149E5631AA46E6
+
+## concept_ids
+CON-MUL-149E5631AA46E6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List iron-deficiency anaemia, koilonychia and a premalignant postcricoid web as features of Plummer-Vinson syndrome.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-47
+
+## title
+False statement about Plummer-Vinson syndrome
+
+## question
+The following are true about Plummer Vinson syndrome except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+More common in females.
+
+## explanation_a
+Incorrect (true statement). Plummer-Vinson is more common in females, so this is true and not the exception.
+
+## answer_b
+There is iron deficiency anemia.
+
+## explanation_b
+Incorrect (true statement). Iron-deficiency anaemia is central to the syndrome, so this is true.
+
+## answer_c
+There is glossitis with spooning of the nails.
+
+## explanation_c
+Incorrect (true statement). Glossitis with koilonychia (spooning of the nails) is characteristic, so this is true.
+
+## answer_d
+Dysphagia is present due to upper oesophageal web.
+
+## explanation_d
+Incorrect (true statement). Dysphagia from an upper (postcricoid) oesophageal web is a defining feature, so this is true.
+
+## answer_e
+Laryngeal carcinoma may occur if left untreated.
+
+## explanation_e
+Correct (the false statement). The malignancy that complicates untreated Plummer-Vinson is postcricoid (hypopharyngeal) carcinoma, not laryngeal carcinoma. The premalignant change is in the postcricoid mucosa. Naming laryngeal carcinoma is therefore the untrue statement.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hypopharynx
+
+## main_concept
+CON-MUL-149E5631AA46E6
+
+## concept_ids
+CON-MUL-149E5631AA46E6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that untreated Plummer-Vinson predisposes to postcricoid, not laryngeal, carcinoma.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-48
+
+## title
+Diagnosis from dysphagia, koilonychia and anaemia
+
+## question
+A middle aged female with gradually progressive dysphagia, koilonychia, hypochromic anemia and glazed tongue is suffering from:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Plummer vinson syndrome.
+
+## explanation_a
+Correct. A middle-aged woman with progressive dysphagia, koilonychia, hypochromic (iron-deficiency) anaemia and a glazed (atrophic) tongue has the classic tetrad of Plummer-Vinson syndrome. The dysphagia is due to an upper postcricoid web. This benign but premalignant picture is distinct from an established carcinoma.
+
+## answer_b
+Hypopharyngeal carcinoma.
+
+## explanation_b
+Incorrect. Hypopharyngeal carcinoma may complicate Plummer-Vinson later, but the koilonychia, anaemia and glazed tongue describe the syndrome itself, not an established cancer.
+
+## answer_c
+Esophageal carcinoma.
+
+## explanation_c
+Incorrect. Oesophageal carcinoma causes progressive dysphagia but not koilonychia, hypochromic anaemia and a glazed tongue in a middle-aged woman.
+
+## answer_d
+Achalasia.
+
+## explanation_d
+Incorrect. Achalasia causes dysphagia more for fluids but does not produce koilonychia, iron-deficiency anaemia or a glazed tongue.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hypopharynx
+
+## main_concept
+CON-MUL-149E5631AA46E6
+
+## concept_ids
+CON-MUL-149E5631AA46E6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Diagnose Plummer-Vinson syndrome from dysphagia, koilonychia, hypochromic anaemia and a glazed tongue.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-49
+
+## title
+Investigation for sleep apnoea
+
+## question
+Polysomnography is a method of investigation of a case with:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Sinusitis.
+
+## explanation_a
+Incorrect. Sinusitis is diagnosed clinically and by imaging of the sinuses, not by a sleep study.
+
+## answer_b
+Sleep apnea syndrome.
+
+## explanation_b
+Correct. Polysomnography is an overnight sleep study that records airflow, respiratory effort, oxygen saturation and sleep stages, and it is the investigation for sleep apnoea syndrome. It confirms the apnoeas and grades their severity. This is why a patient with suspected sleep apnoea is referred for polysomnography.
+
+## answer_c
+Acute rhinitis.
+
+## explanation_c
+Incorrect. Acute rhinitis is a clinical diagnosis and is not investigated by polysomnography.
+
+## answer_d
+Nasal allergy.
+
+## explanation_d
+Incorrect. Nasal allergy is assessed by history and allergy testing, not by a sleep study.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Obstructive sleep apnoea
+
+## main_concept
+CON-MUL-45FAF2E7C2BEB0
+
+## concept_ids
+CON-MUL-45FAF2E7C2BEB0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OSA
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that polysomnography is the investigation for sleep apnoea syndrome.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-50
+
+## title
+Commonest adult cause of obstructive sleep apnoea
+
+## question
+The commonest cause of obstructive sleep apnea in adults is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Allergic rhinitis.
+
+## explanation_a
+Incorrect. Allergic rhinitis may contribute to nasal obstruction but is not the commonest cause of adult obstructive sleep apnoea.
+
+## answer_b
+Allergic nasal polypi.
+
+## explanation_b
+Incorrect. Allergic nasal polypi are an uncommon cause and not the leading one in adults.
+
+## answer_c
+Marked obesity.
+
+## explanation_c
+Correct. In adults the commonest cause of obstructive sleep apnoea is marked obesity, which narrows and crowds the upper airway so that it collapses during sleep. Weight reduction is central to treatment. This is why obesity is the dominant adult risk factor.
+
+## answer_d
+Elongated uvula.
+
+## explanation_d
+Incorrect. An elongated uvula may add to snoring but is not the commonest cause of adult obstructive sleep apnoea.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Obstructive sleep apnoea
+
+## main_concept
+CON-MUL-F32F0E6BB3B19C
+
+## concept_ids
+CON-MUL-F32F0E6BB3B19C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OSA
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that marked obesity is the commonest adult cause of obstructive sleep apnoea.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-51
+
+## title
+Commonest childhood cause of obstructive sleep apnoea
+
+## question
+The commonest cause for obstructive sleep apnea in children is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bilateral allergic nasal polypi.
+
+## explanation_a
+Incorrect. Bilateral allergic nasal polypi are uncommon in children and are not the leading cause.
+
+## answer_b
+Antro-choanal polyp.
+
+## explanation_b
+Incorrect. An antrochoanal polyp causes unilateral obstruction and is not the commonest cause of childhood sleep apnoea.
+
+## answer_c
+Choanal atresia.
+
+## explanation_c
+Incorrect. Choanal atresia presents in the newborn and is a rare cause, not the commonest.
+
+## answer_d
+Adeno-tonsillar hypertrophy.
+
+## explanation_d
+Correct. In children the commonest cause of obstructive sleep apnoea is adeno-tonsillar hypertrophy, which narrows the nasopharynx and oropharynx during sleep. Adenotonsillectomy is the usual and effective treatment. This is why enlarged tonsils and adenoids are sought first in a snoring child with apnoeas.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Obstructive sleep apnoea
+
+## main_concept
+CON-MUL-53A23729053ED8
+
+## concept_ids
+CON-MUL-53A23729053ED8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OSA
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that adeno-tonsillar hypertrophy is the commonest childhood cause of obstructive sleep apnoea.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-52
+
+## title
+Factors predisposing to obstructive sleep apnoea
+
+## question
+Factors predisposing to obstructive sleep apnea include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Obesity.
+
+## explanation_a
+Incorrect on its own. Obesity is a major predisposing factor, but it is not the only one listed.
+
+## answer_b
+Redundant soft palate.
+
+## explanation_b
+Incorrect on its own. A redundant soft palate promotes collapse but is only part of the answer.
+
+## answer_c
+Marked tonsillar enlargement.
+
+## explanation_c
+Incorrect on its own. Marked tonsillar enlargement narrows the airway but is only one of the listed factors.
+
+## answer_d
+All of the above.
+
+## explanation_d
+Correct. Obstructive sleep apnoea is predisposed to by any factor that narrows the upper airway, and obesity, a redundant soft palate and marked tonsillar enlargement all do so. Because each is a genuine factor, all of the above is correct. Treatment targets the dominant one — weight, palate or tonsils.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Obstructive sleep apnoea
+
+## main_concept
+CON-MUL-E84243F72F0F77
+
+## concept_ids
+CON-MUL-E84243F72F0F77
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OSA
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List obesity, a redundant soft palate and marked tonsillar enlargement as predisposing factors for obstructive sleep apnoea.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.55); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-53
+
+## title
+False statement about sleep apnoea
+
+## question
+The following characterized sleep apnea except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Daytime sleepiness.
+
+## explanation_a
+Incorrect (a true feature). Daytime sleepiness is a cardinal feature of sleep apnoea, so it is not the exception.
+
+## answer_b
+Can never be of central origin.
+
+## explanation_b
+Correct (the false statement). Sleep apnoea is not always obstructive; a central form, driven by failure of respiratory drive, also exists, so it can be of central origin. Saying it can never be central is therefore false. The other statements — daytime sleepiness, occurrence in the obese, and adenotonsillar hypertrophy as a childhood cause — are all true.
+
+## answer_c
+Occurs in obese patients.
+
+## explanation_c
+Incorrect (a true feature). Sleep apnoea occurs in obese patients, so this is true and not the exception.
+
+## answer_d
+Hypertrophied tonsils and adenoids are a cause in children.
+
+## explanation_d
+Incorrect (a true feature). Hypertrophied tonsils and adenoids are a cause in children, so this is true and not the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Obstructive sleep apnoea
+
+## main_concept
+CON-MUL-5E376AEB8DCBCF
+
+## concept_ids
+CON-MUL-5E376AEB8DCBCF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OSA
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that sleep apnoea can be of central origin, so 'never central' is false.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.56); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

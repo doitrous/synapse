@@ -16848,3 +16848,669 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.quinsy.symptoms-not-hoarseness", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-149E5631AA46E6
+## label
+Plummer-Vinson syndrome: iron-deficiency anaemia, koilonychia, glossitis and a premalignant postcricoid web
+## canonical_key
+otolaryngology.plummer-vinson-syndrome.features-postcricoid-carcinoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Plummer-Vinson (Paterson-Brown-Kelly) syndrome occurs mainly in middle-aged women and combines iron-deficiency (hypochromic) anaemia, koilonychia (spooning of the nails), atrophic glossitis and an upper (postcricoid) oesophageal web that causes dysphagia; splenomegaly is a described association. The web and mucosal atrophy are premalignant and may progress to postcricoid (hypopharyngeal) carcinoma if left untreated. It is therefore a leading benign cause of hypopharyngeal carcinoma.
+## explicit_objective
+Recognise Plummer-Vinson syndrome by iron-deficiency anaemia, koilonychia, glossitis and a premalignant postcricoid web, and its link to postcricoid carcinoma.
+## pitfalls
+The malignancy that complicates Plummer-Vinson is postcricoid (hypopharyngeal), not laryngeal, carcinoma; the anaemia is iron-deficiency and the syndrome is commoner in women.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Hypopharynx
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Hypopharynx
+## article_ids
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.plummer-vinson-syndrome.features-postcricoid-carcinoma", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-45FAF2E7C2BEB0
+## label
+Polysomnography is the investigation for sleep apnoea syndrome
+## canonical_key
+otolaryngology.obstructive-sleep-apnoea.polysomnography-investigation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Polysomnography (an overnight sleep study) is the investigation used to diagnose and grade sleep apnoea syndrome, recording airflow, respiratory effort, oxygen saturation and sleep stages. It is not an investigation for sinusitis, acute rhinitis or nasal allergy, which are diagnosed clinically. A sleep study confirms the apnoeas and quantifies their severity.
+## explicit_objective
+State that polysomnography is the investigation for sleep apnoea syndrome.
+## pitfalls
+Polysomnography investigates sleep apnoea, not sinusitis, acute rhinitis or nasal allergy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Obstructive sleep apnoea
+## article_ids
+ART-ENT-316-PHARYNX-OSA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.obstructive-sleep-apnoea.polysomnography-investigation", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-F32F0E6BB3B19C
+## label
+The commonest cause of obstructive sleep apnoea in adults is marked obesity
+## canonical_key
+otolaryngology.obstructive-sleep-apnoea.commonest-adult-cause-obesity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In adults, the commonest cause of obstructive sleep apnoea is marked obesity, in which fatty infiltration and a crowded pharynx narrow the upper airway during sleep. Allergic rhinitis, nasal polypi or an elongated uvula may contribute but are not the leading cause. Body weight is therefore the dominant adult risk factor.
+## explicit_objective
+State that the commonest cause of obstructive sleep apnoea in adults is marked obesity.
+## pitfalls
+In adults obesity, not an elongated uvula or nasal allergy, is the commonest cause of obstructive sleep apnoea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Obstructive sleep apnoea
+## article_ids
+ART-ENT-316-PHARYNX-OSA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.obstructive-sleep-apnoea.commonest-adult-cause-obesity", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-53A23729053ED8
+## label
+The commonest cause of obstructive sleep apnoea in children is adeno-tonsillar hypertrophy
+## canonical_key
+otolaryngology.obstructive-sleep-apnoea.commonest-child-cause-adenotonsillar-hypertrophy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In children, the commonest cause of obstructive sleep apnoea is adeno-tonsillar hypertrophy, which narrows the nasopharynx and oropharynx during sleep. Adenotonsillectomy is the usual treatment. Nasal polypi, an antrochoanal polyp or choanal atresia are far less common causes in this age group.
+## explicit_objective
+State that the commonest cause of obstructive sleep apnoea in children is adeno-tonsillar hypertrophy.
+## pitfalls
+In children adeno-tonsillar hypertrophy, not nasal polypi or choanal atresia, is the commonest cause of obstructive sleep apnoea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Obstructive sleep apnoea
+## article_ids
+ART-ENT-316-PHARYNX-OSA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.obstructive-sleep-apnoea.commonest-child-cause-adenotonsillar-hypertrophy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-E84243F72F0F77
+## label
+Obstructive sleep apnoea is predisposed to by obesity, a redundant soft palate and marked tonsillar enlargement
+## canonical_key
+otolaryngology.obstructive-sleep-apnoea.predisposing-factors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Obstructive sleep apnoea is predisposed to by any factor that narrows the upper airway: obesity, a redundant (long, floppy) soft palate and marked tonsillar enlargement each promote pharyngeal collapse during sleep. Because every one of these contributes, they combine to obstruct the airway. Addressing the dominant factor — weight, palate or tonsils — is the basis of treatment.
+## explicit_objective
+List obesity, a redundant soft palate and marked tonsillar enlargement as predisposing factors for obstructive sleep apnoea.
+## pitfalls
+Obesity, a redundant soft palate and marked tonsillar enlargement are all predisposing factors; treating them as mutually exclusive misses that they combine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Obstructive sleep apnoea
+## article_ids
+ART-ENT-316-PHARYNX-OSA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.obstructive-sleep-apnoea.predisposing-factors", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-5E376AEB8DCBCF
+## label
+Sleep apnoea can be obstructive or central; it is not always obstructive
+## canonical_key
+otolaryngology.sleep-apnoea.obstructive-and-central-types
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sleep apnoea is characterised by repeated apnoeas during sleep with daytime sleepiness, and it occurs in obese patients; in children hypertrophied tonsils and adenoids are a common cause. It is not always obstructive — a central form, driven by failure of respiratory drive, also exists. Saying that sleep apnoea can never be of central origin is therefore false.
+## explicit_objective
+Recognise that sleep apnoea may be obstructive or central, with daytime sleepiness, obesity and adenotonsillar hypertrophy as features and causes.
+## pitfalls
+Claiming sleep apnoea can never be central is false; a central form exists alongside the obstructive type.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Obstructive sleep apnoea
+## article_ids
+ART-ENT-316-PHARYNX-OSA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.sleep-apnoea.obstructive-and-central-types", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

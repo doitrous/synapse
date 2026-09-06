@@ -2302,3 +2302,176 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Pharynx-section deep-neck-space infection concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+## title
+Otorhinolaryngology: Plummer-Vinson syndrome and hypopharyngeal carcinoma
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the hypopharyngeal facts tested by the bank's Pharynx section (Q45-48): Plummer-Vinson syndrome with its iron-deficiency anaemia, koilonychia, glossitis and premalignant postcricoid web, and its role as a leading cause of postcricoid (hypopharyngeal) carcinoma.
+## sections
+### Definition
+The hypopharynx includes the postcricoid region and pyriform fossae; Plummer-Vinson syndrome is the classic premalignant condition of this area.
+### Mechanism
+Chronic iron deficiency produces mucosal atrophy and an upper (postcricoid) oesophageal web, giving dysphagia, koilonychia and glossitis, mainly in middle-aged women. The atrophic premalignant mucosa may progress to postcricoid (hypopharyngeal) squamous carcinoma if the iron deficiency is not corrected.
+### Key determinants
+Discriminators tested here: Plummer-Vinson is diagnosed from progressive dysphagia with koilonychia, hypochromic anaemia and a glazed tongue; its anaemia is iron-deficiency; and the cancer it predisposes to is postcricoid (hypopharyngeal), not laryngeal, carcinoma.
+### Clinical significance
+These facts matter because correcting the iron deficiency and following the patient can prevent a hypopharyngeal cancer, and because a woman with dysphagia and koilonychia should be investigated for a postcricoid web.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (calling the associated cancer laryngeal rather than postcricoid, or mistaking the anaemia for something other than iron deficiency).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Hypopharynx
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-149E5631AA46E6
+## related_articles
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section hypopharynx concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-OSA
+## title
+Otorhinolaryngology: obstructive sleep apnoea
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the sleep-apnoea facts tested by the bank's Pharynx section (Q49-53): polysomnography as the investigation, the commonest adult (obesity) and childhood (adeno-tonsillar hypertrophy) causes, the predisposing factors, and the obstructive-versus-central distinction.
+## sections
+### Definition
+Sleep apnoea is repeated cessation of airflow during sleep; the obstructive type, from upper-airway narrowing, is the ENT-relevant form.
+### Mechanism
+During sleep the pharynx narrows and collapses where soft tissue is redundant: obesity, a long soft palate and large tonsils each predispose. In children adeno-tonsillar hypertrophy is the usual cause; in adults marked obesity dominates. A separate central form arises from failure of respiratory drive. Polysomnography records the apnoeas and their severity.
+### Key determinants
+Discriminators tested here: polysomnography is the investigation; obesity is the commonest adult cause and adeno-tonsillar hypertrophy the commonest childhood cause; obesity, a redundant soft palate and large tonsils are predisposing factors; and sleep apnoea can be central as well as obstructive.
+### Clinical significance
+These facts direct management: weight reduction and palatal or tonsillar surgery target the dominant factor, adenotonsillectomy relieves most childhood cases, and recognising a central component changes treatment.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (denying a central form, or naming an elongated uvula rather than obesity as the commonest adult cause).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Obstructive sleep apnoea
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-45FAF2E7C2BEB0
+CON-MUL-F32F0E6BB3B19C
+CON-MUL-53A23729053ED8
+CON-MUL-E84243F72F0F77
+CON-MUL-5E376AEB8DCBCF
+## related_articles
+ART-ENT-316-PHARYNX-TONSIL
+ART-ENT-316-PHARYNX-ADENOID
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section obstructive sleep apnoea concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
