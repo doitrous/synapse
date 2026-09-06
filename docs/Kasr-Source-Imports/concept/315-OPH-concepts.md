@@ -31216,3 +31216,558 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-79A95C3D32D326
+## label
+Causes of miosis (a small pupil)
+## canonical_key
+ophthalmology.pupil.causes-of-miosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Miosis (a small pupil) results from sphincter overaction or loss of sympathetic (dilator) tone: iritis/iridocyclitis (with an irregular pupil from synechiae), senile (old-age) miosis, Horner’s syndrome, a pontine haemorrhage, and the near reflex or parasympathomimetic drugs. Optic atrophy does not cause miosis.
+## explicit_objective
+List the causes of miosis and exclude optic atrophy.
+## pitfalls
+Listing optic atrophy as a cause of miosis; optic atrophy affects the afferent pathway (a relative afferent defect), not pupil size directly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Pupil
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DDAE5BF64386BD
+## label
+Clinical features of Horner’s syndrome
+## canonical_key
+ophthalmology.horner-syndrome.clinical-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Horner’s syndrome is an interruption of the ocular sympathetic supply. It gives miosis, a mild (partial) ptosis from paralysis of Muller’s muscle (not the levator), apparent enophthalmos, and ipsilateral facial anhidrosis. Because only Muller’s muscle is affected the ptosis is partial, and lagophthalmos is not a feature.
+## explicit_objective
+Recognise miosis, partial ptosis (Muller’s muscle), enophthalmos and anhidrosis as the features of Horner’s syndrome.
+## pitfalls
+Attributing the ptosis to the levator (it is Muller’s muscle), or including lagophthalmos; Horner’s gives a partial ptosis, not lid retraction or lagophthalmos.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Pupil
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4CA90787BA5E1C
+## label
+Ischaemic optic neuropathy follows occlusion of the short posterior ciliary arteries
+## canonical_key
+ophthalmology.ischaemic-optic-neuropathy.short-posterior-ciliary-artery-occlusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Anterior ischaemic optic neuropathy results from occlusion of the short posterior ciliary arteries that supply the optic nerve head. It causes sudden painless visual loss with a relative afferent pupillary defect and disc swelling that later resolves into optic atrophy; the arteritic form is due to giant cell arteritis.
+## explicit_objective
+Attribute ischaemic optic neuropathy to occlusion of the short posterior ciliary arteries.
+## pitfalls
+Expecting a cherry-red spot, papilledema or normal pupil reflexes; ischaemic optic neuropathy is a short-posterior-ciliary-artery event with a relative afferent pupillary defect.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic nerve
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-417ABD2B4A9949
+## label
+The direct and consensual light reflexes are equal
+## canonical_key
+ophthalmology.pupil.light-reflex-direct-and-consensual
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the normal pupillary light reflex, light shone in one eye constricts both pupils. The direct (same eye) and consensual (fellow eye) reactions are equal, because the afferent signal is distributed equally to both Edinger-Westphal nuclei. The reflex centre is in the midbrain, not the occipital (visual) cortex.
+## explicit_objective
+State that the direct and consensual light reactions are equal and that the reflex centre is in the midbrain.
+## pitfalls
+Claiming the direct reaction is greater than the consensual (or vice versa), or that the reflex centre is in the occipital cortex; they are equal and the centre is in the midbrain.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Pupil
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5581B670718650
+## label
+Features of retrobulbar optic neuritis
+## canonical_key
+ophthalmology.retrobulbar-optic-neuritis.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retrobulbar optic neuritis is inflammation of the optic nerve behind the globe, so the disc looks normal acutely ("the patient sees nothing and the doctor sees nothing"). It is usually unilateral, often caused by multiple sclerosis (disseminated sclerosis), may be acute or chronic, and gives reduced acuity, a central/paracentral scotoma (especially for red-green), an impaired direct light reflex (relative afferent pupillary defect) and a delayed (abnormal) visually evoked potential.
+## explicit_objective
+Recognise the features of retrobulbar optic neuritis, including a delayed (abnormal) visually evoked potential.
+## pitfalls
+Expecting a normal visually evoked potential or marked disc swelling; in retrobulbar neuritis the disc is normal acutely and the VEP is delayed (abnormal).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic neuritis
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

@@ -992,3 +992,993 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The e
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-11
+## title
+Miosis found in all EXCEPT (optic atrophy)
+## question
+Miosis may found in all EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Iridocyclitis.
+## explanation_a
+Incorrect (a genuine cause). Iridocyclitis causes miosis with an irregular pupil from synechiae.
+## answer_b
+Old age (senile).
+## explanation_b
+Incorrect (a genuine cause). Senile miosis is common in old age.
+## answer_c
+Horner’s syndrome.
+## explanation_c
+Incorrect (a genuine cause). Sympathetic paralysis in Horner’s syndrome causes miosis.
+## answer_d
+Optic atrophy.
+## explanation_d
+Correct. Optic atrophy does not cause miosis; it affects the afferent pathway, not pupil size directly.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-79A95C3D32D326
+## concept_ids
+CON-MUL-79A95C3D32D326
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Distinguish the causes of miosis from optic atrophy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-12
+## title
+Causes of mydriasis EXCEPT pontine haemorrhage
+## question
+Causes of mydriasis include the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+3rd nerve palsy.
+## explanation_a
+Incorrect (a genuine cause). A third nerve palsy paralyses the sphincter and dilates the pupil.
+## answer_b
+Paralytic stage of cerebral compression.
+## explanation_b
+Incorrect (a genuine cause). The paralytic stage of cerebral compression dilates the pupil.
+## answer_c
+Trauma.
+## explanation_c
+Incorrect (a genuine cause). Blunt trauma can cause traumatic mydriasis.
+## answer_d
+Pontine hemorrhage.
+## explanation_d
+Correct. A pontine haemorrhage causes miosis, not mydriasis; this is the exception.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-2AB4DFDE5D7E9D
+## concept_ids
+CON-MUL-2AB4DFDE5D7E9D
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude the pontine haemorrhage (which causes miosis) from the causes of mydriasis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-13
+## title
+Horner’s ptosis is from paralysis of Muller’s muscle
+## question
+Ptosis in Horner’s syndrome, is due to paralysis of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Riolan’s muscle.
+## explanation_a
+Incorrect. Riolan’s muscle is a lid-margin part of orbicularis, not the cause of Horner’s ptosis.
+## answer_b
+Horner’s muscle.
+## explanation_b
+Incorrect. Horner’s muscle (tensor tarsi) is a lacrimal-pump muscle, not the cause of the ptosis.
+## answer_c
+Muller’s muscle.
+## explanation_c
+Correct. The partial ptosis of Horner’s syndrome is due to paralysis of the sympathetically innervated Muller’s muscle.
+## answer_d
+The levator palpebral muscle.
+## explanation_d
+Incorrect. Levator paralysis (third nerve) gives a complete ptosis; Horner’s ptosis is partial, from Muller’s muscle.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-DDAE5BF64386BD
+## concept_ids
+CON-MUL-DDAE5BF64386BD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute the partial ptosis of Horner’s syndrome to paralysis of Muller’s muscle.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-14
+## title
+Miosis is a common manifestation of iritis
+## question
+The pupillary miosis is a common manifestation of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Conjunctivitis.
+## explanation_a
+Incorrect. Conjunctivitis does not affect pupil size.
+## answer_b
+Iritis.
+## explanation_b
+Correct. Iritis (anterior uveitis) causes reflex miosis with an irregular pupil from posterior synechiae.
+## answer_c
+Acute attack of angle closure glaucoma.
+## explanation_c
+Incorrect. An acute angle-closure attack gives a fixed, mid-dilated pupil (mydriasis).
+## answer_d
+Open angle glaucoma.
+## explanation_d
+Incorrect. Open-angle glaucoma does not characteristically alter pupil size.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-79A95C3D32D326
+## concept_ids
+CON-MUL-79A95C3D32D326
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise iritis as a common cause of pupillary miosis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-15
+## title
+Ischemic optic neuropathy: short posterior ciliary artery occlusion
+## question
+Ischemic optic neuropathy is characterized by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Occlusion of short posterior ciliary arteries.
+## explanation_a
+Correct. Anterior ischaemic optic neuropathy is due to occlusion of the short posterior ciliary arteries supplying the optic nerve head.
+## answer_b
+Papilledema.
+## explanation_b
+Incorrect. Papilledema is bilateral disc swelling from raised intracranial pressure, not the mechanism here.
+## answer_c
+Normal pupillary reflexes.
+## explanation_c
+Incorrect. There is a relative afferent pupillary defect, not normal reflexes.
+## answer_d
+Primary optic atrophy.
+## explanation_d
+Incorrect. Optic atrophy is a late sequel; the defining lesion is the ciliary-artery occlusion.
+## topic
+Ophthalmology
+## subtopic
+Optic nerve
+## main_concept
+CON-MUL-4CA90787BA5E1C
+## concept_ids
+CON-MUL-4CA90787BA5E1C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute ischaemic optic neuropathy to occlusion of the short posterior ciliary arteries.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-16
+## title
+Parietal lobe lesion gives an inferior quadrantanopia
+## question
+Parietal lobe lesions may result in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Bitemporal hemianopia.
+## explanation_a
+Incorrect. A bitemporal hemianopia localises to the optic chiasm.
+## answer_b
+Ipsilateral homonymous hemianopia.
+## explanation_b
+Incorrect. Retrochiasmal lesions give contralateral, not ipsilateral, homonymous defects.
+## answer_c
+Contralateral homonymous inferior quadrantanopia.
+## explanation_c
+Correct. Parietal-lobe (superior optic radiation) lesions give a contralateral homonymous inferior quadrantanopia.
+## answer_d
+Contralateral homonymous superior quadrantanopia.
+## explanation_d
+Incorrect. A superior quadrantanopia points to a temporal-lobe (Meyer’s loop) lesion.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+58
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a contralateral homonymous inferior quadrantanopia to a parietal-lobe lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-17
+## title
+Direct and consensual light reactions are equal
+## question
+In light reflex:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+The direct light reaction is greater than the consensual reaction.
+## explanation_a
+Incorrect. The two are equal in the normal reflex.
+## answer_b
+The consensual light reaction is greater than the direct reaction.
+## explanation_b
+Incorrect. The two are equal in the normal reflex.
+## answer_c
+The direct and consensual light reactions are equal.
+## explanation_c
+Correct. The afferent signal is distributed equally to both Edinger-Westphal nuclei, so the direct and consensual reactions are equal.
+## answer_d
+Its center is in the occipital cortex.
+## explanation_d
+Incorrect. The light-reflex centre is in the midbrain, not the occipital cortex.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-417ABD2B4A9949
+## concept_ids
+CON-MUL-417ABD2B4A9949
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that the direct and consensual light reactions are equal.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-18
+## title
+RAPD may occur in unilateral optic nerve atrophy
+## question
+Relative afferent pupillary defect may occur in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Abducent paralysis.
+## explanation_a
+Incorrect. An abducens (efferent motor) palsy does not affect the afferent pupillary pathway.
+## answer_b
+Unilateral optic nerve atrophy.
+## explanation_b
+Correct. Unilateral optic-nerve atrophy impairs afferent conduction, giving a relative afferent pupillary defect.
+## answer_c
+Unilateral oculomotor nerve lesion.
+## explanation_c
+Incorrect. An oculomotor (efferent) lesion does not cause an afferent defect.
+## answer_d
+Papilledema.
+## explanation_d
+Incorrect. Papilledema is symmetric and does not cause a relative afferent pupillary defect.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-A4B40EB11DBC84
+## concept_ids
+CON-MUL-A4B40EB11DBC84
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify unilateral optic nerve atrophy as a cause of a relative afferent pupillary defect.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-19
+## title
+Retrobulbar optic neuritis features EXCEPT normal VEP
+## question
+Retro-bulbar optic neuritis is characterized by all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Usually unilateral.
+## explanation_a
+Incorrect (a genuine feature). Retrobulbar optic neuritis is usually unilateral.
+## answer_b
+Impaired direct light reflex in the affected eye.
+## explanation_b
+Incorrect (a genuine feature). There is an impaired direct light reflex (relative afferent pupillary defect).
+## answer_c
+Caused by multiple sclerosis.
+## explanation_c
+Incorrect (a genuine feature). Multiple sclerosis is a common cause.
+## answer_d
+Normal visually evoked potential.
+## explanation_d
+Correct. The visually evoked potential is delayed (abnormal), not normal; this is the exception.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-5581B670718650
+## concept_ids
+CON-MUL-5581B670718650
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a delayed (abnormal) visually evoked potential as the rule in retrobulbar optic neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.128); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-20
+## title
+Papilledema characteristics EXCEPT marked vision loss
+## question
+Papilledema has all the following characteristics EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Marked loss of vision.
+## explanation_a
+Correct. Central vision is preserved early in papilledema; marked visual loss is not an early feature, so this is the exception.
+## answer_b
+Blurring of disc margins.
+## explanation_b
+Incorrect (a genuine feature). The swollen disc has blurred margins.
+## answer_c
+Hyperemia of disc.
+## explanation_c
+Incorrect (a genuine feature). The disc is hyperaemic.
+## answer_d
+Field defect.
+## explanation_d
+Incorrect (a genuine feature). An enlarged blind spot is an early field defect.
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## main_concept
+CON-MUL-0D89C958F3BA46
+## concept_ids
+CON-MUL-0D89C958F3BA46
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that vision is preserved early in papilledema, unlike the other listed features.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
