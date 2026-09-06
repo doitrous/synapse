@@ -18677,3 +18677,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EE612F7A3025B7
+## label
+Binocular conjugate movements are versions and disjunctive movements are vergences
+## canonical_key
+ophthalmology.binocular-eye-movements.conjugate-versions-versus-disjunctive-vergences
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Binocular eye movements are of two kinds. Versions are conjugate movements in which both eyes move in the same direction by equal amounts, such as dextroversion, laevoversion, elevation and depression. Vergences are disjunctive movements in which the eyes move in opposite directions, convergence turning both eyes inward and divergence turning them outward. Movements of one eye alone are ductions, which are monocular rather than binocular.
+## explicit_objective
+State that conjugate binocular movements are versions and disjunctive binocular movements are vergences.
+## pitfalls
+Confusing versions (both eyes the same direction) with vergences (eyes in opposite directions), or calling a monocular duction a binocular movement.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular movements
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Ocular movements
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility, Q48) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B1E4ED1B528512
+## label
+A child with esotropia needs fundoscopy and cycloplegic retinoscopy
+## canonical_key
+ophthalmology.childhood-esotropia.workup-fundoscopy-and-cycloplegic-retinoscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A young child presenting with esotropia must have a dilated fundus examination to exclude an organic cause such as retinoblastoma or an optic-nerve or macular lesion, and a cycloplegic retinoscopy to detect the hypermetropia that drives accommodative esotropia. Together these two examinations identify the sight-threatening cause and the treatable refractive cause. Gonioscopy and biometry are not part of the routine squint work-up.
+## explicit_objective
+State that a child with esotropia requires fundoscopy and cycloplegic retinoscopy as the essential examinations.
+## pitfalls
+Omitting fundoscopy and missing a retinoblastoma, or substituting gonioscopy or biometry for the essential fundoscopy and cycloplegic retinoscopy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Strabismus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Strabismus
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility, Q52) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-967654FE636B2E
+## label
+Concomitant strabismus keeps an equal deviation in all gazes with full ductions and no diplopia
+## canonical_key
+ophthalmology.concomitant-strabismus.equal-deviation-all-gazes-full-ductions-no-diplopia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Concomitant (comitant) strabismus is a manifest squint in which the angle of deviation is the same in every direction of gaze and ocular movements (ductions) are full, because no muscle is paralysed. It usually begins in childhood, is often driven by an uncorrected refractive error, and does not cause diplopia because the immature brain suppresses the deviating image, which instead leads to amblyopia. This contrasts with paralytic (incomitant) squint, which shows limited movement, a deviation that changes with the direction of gaze, and diplopia.
+## explicit_objective
+Describe concomitant strabismus as a manifest squint with an equal deviation in all gazes, full ductions, no diplopia, that can be complicated by amblyopia.
+## pitfalls
+Expecting diplopia (absent because of suppression) or limitation of movement (that is paralytic squint), or thinking the angle of deviation varies with the direction of gaze.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Strabismus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Strabismus
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility, Q54/Q55/Q56) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FF63FA938CE91B
+## label
+Trochlear (fourth) nerve palsy causes vertical-torsional diplopia and is most often bilateral after head trauma
+## canonical_key
+ophthalmology.trochlear-nerve-palsy.vertical-torsional-diplopia-trauma-commonest-bilateral-cause
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trochlear (fourth) nerve palsy weakens the superior oblique, so the eye cannot depress fully in adduction and there is limitation of downward-and-inward movement with vertical and torsional diplopia that is worst on downgaze, as when reading or descending stairs, and a compensatory head tilt to the opposite shoulder. Closed head trauma is the commonest cause of bilateral fourth-nerve palsy. Accommodation is unaffected, so any reading difficulty is from the diplopia, not from loss of accommodation.
+## explicit_objective
+Recognise trochlear nerve palsy by vertical-torsional diplopia with limited depression in adduction, with head trauma the commonest cause of bilateral palsy.
+## pitfalls
+Attributing the reading difficulty to lost accommodation (accommodation is intact), forgetting that diplopia is present, or misplacing the movement limitation, which is of down-and-in gaze.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cranial nerve palsies
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Cranial nerve palsies
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility, Q61/Q62) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

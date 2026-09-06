@@ -531,6 +531,10 @@ CON-MUL-99FCBE10530E7E
 CON-MUL-A65F2AA7A56AE6
 CON-MUL-B8ABE72897744D
 CON-MUL-D1F106D916CEBE
+CON-MUL-EE612F7A3025B7
+CON-MUL-B1E4ED1B528512
+CON-MUL-967654FE636B2E
+CON-MUL-FF63FA938CE91B
 ## related_articles
 ART-OPH-315-EYE-ANATOMY
 ART-OPH-315-EYE-EXAM
@@ -560,6 +564,6 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the Chapter-5 ocular-motility concepts (MCQ Q1-25). Filed under the closest verified node DIS-OPH-T05 (Neuro-ophthalmology); DIS-OPH has no dedicated strabismus/ocular-motility node, so the extraocular-muscle anatomy, cranial-nerve, squint and amblyopia facts are all grouped here. Chapter 5 has 63 keyed MCQs; Q1-25 authored this tranche, Q26 (True/False) and Q27 (3-option) held below the four-option floor, Q26+ remain for the next tranche.
+groupingNote: Groups the Chapter-5 ocular-motility concepts (MCQ Q1-63). Filed under the closest verified node DIS-OPH-T05 (Neuro-ophthalmology); DIS-OPH has no dedicated strabismus/ocular-motility node, so the extraocular-muscle anatomy, cranial-nerve, squint and amblyopia facts are all grouped here. Chapter 5 has 63 keyed MCQs; Q1-25 authored the first tranche, Q28-63 clean single-best items authored this tranche (four new concepts: versions/vergences, childhood-esotropia workup, concomitant strabismus, trochlear palsy). Held below the four-option floor: Q26 (True/False) and Q27 (3-option). Deferred for multi-true adjudication (not authored, not held): the patient-scenario vignettes Q32, Q34, Q35, Q37-Q47, Q59 (each lists more than one defensibly true statement). The post-Q63 T/F Cases section (Cases 1-6) is multi-true and out of scope.
 ## reading_time
 4

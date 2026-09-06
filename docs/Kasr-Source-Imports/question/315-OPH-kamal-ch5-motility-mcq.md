@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 315 OPH (Year 3) · Chapter 5 Ocular motility in health and disease (extraocular muscles, cranial nerve palsies, strabismus, amblyopia), MCQ Q1-25, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.3 Chapter 5 table, 63 answers), each key re-verified against the option text. 25 authored (Q1-25) / 2 held (Q26 True/False, Q27 3-option) / 0 excluded. Q26-63 remain for the next tranche.
+  Kasr Al Ainy 315 OPH (Year 3) · Chapter 5 Ocular motility in health and disease (extraocular muscles, cranial nerve palsies, strabismus, amblyopia), MCQ Q1-63, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.3 Chapter 5 table, 63 answers), each key re-verified against the option text. Authored: Q1-25 (first tranche) plus the clean single-best items Q28, Q29, Q30, Q31, Q33, Q36, Q48-Q58, Q60-Q63 (this tranche). Held below the four-option floor: Q26 (True/False), Q27 (3-option). Deferred for multi-true adjudication (not authored, not held): the patient-scenario vignettes Q32, Q34, Q35, Q37-Q47, Q59 (each lists more than one defensibly true statement). Post-Q63 T/F Cases (1-6) are multi-true and out of scope.
 
   Import: Admin › Bulk import → question.
 -->
@@ -3437,6 +3437,2922 @@ Identify the superior oblique (trochlear) as the muscle not supplied by the thir
 
 ## source_citation
 Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.46); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-28
+
+## title
+Squint type with a larger secondary angle of deviation
+
+## question
+Secondary angle of deviation is greater than primary angle of deviation in case of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Latent strabismus
+
+## explanation_a
+Incorrect. In latent strabismus (heterophoria) the eyes are kept straight by fusion, so there is no manifest primary or secondary angle to compare.
+
+## answer_b
+Paralytic strabismus
+
+## explanation_b
+Correct. In paralytic (incomitant) strabismus the secondary angle, measured when the paralysed eye fixes, is greater than the primary angle, measured when the sound eye fixes. This is because fixing with the paralysed eye needs a strong innervational drive that, by Hering's law, overacts the yoke muscle of the normal eye. The inequality of the two angles is a hallmark separating paralytic from concomitant squint.
+
+## answer_c
+Concomitant strabismus
+
+## explanation_c
+Incorrect. In concomitant strabismus the primary and secondary angles are equal, because no muscle is paralysed and the deviation is the same whichever eye fixes.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Paralytic strabismus is the correct option, so "none of the above" is wrong.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-D1F106D916CEBE
+
+## concept_ids
+CON-MUL-D1F106D916CEBE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that the secondary angle exceeds the primary angle in paralytic strabismus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.47); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-29
+
+## title
+Muscle supplied by the trochlear nerve
+
+## question
+Trochlear nerve supplies the following muscle(s):
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Inferior rectus.
+
+## explanation_a
+Incorrect. The inferior rectus is supplied by the third (oculomotor) nerve.
+
+## answer_b
+Inferior oblique.
+
+## explanation_b
+Incorrect. The inferior oblique is supplied by the third (oculomotor) nerve.
+
+## answer_c
+Superior rectus.
+
+## explanation_c
+Incorrect. The superior rectus is supplied by the third (oculomotor) nerve.
+
+## answer_d
+Superior oblique.
+
+## explanation_d
+Correct. The trochlear (fourth) cranial nerve supplies a single muscle, the superior oblique. Its primary action is intorsion with depression of the adducted eye, so its palsy gives vertical and torsional diplopia worse on downgaze. No other extraocular muscle is trochlear.
+
+## answer_e
+Superior rectus and superior oblique.
+
+## explanation_e
+Incorrect. Only the superior oblique is trochlear; the superior rectus is oculomotor, so this pair is wrong.
+
+## topic
+Ophthalmology
+
+## subtopic
+Ocular motor innervation
+
+## main_concept
+CON-MUL-D80292BFE190EE
+
+## concept_ids
+CON-MUL-D80292BFE190EE
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that the trochlear nerve supplies only the superior oblique.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.47); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-30
+
+## title
+Term for a latent outward deviation of the eye
+
+## question
+Latent outward deviation of the eye is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Exotropia.
+
+## explanation_a
+Incorrect. Exotropia is a manifest (constant) outward deviation, not a latent one.
+
+## answer_b
+Exophoria.
+
+## explanation_b
+Correct. A latent deviation is held straight by fusion and revealed only when fusion is broken, as on cover testing; an outward (divergent) latent deviation is an exophoria. The prefix exo- denotes outward and the suffix -phoria denotes the latent form. A manifest outward deviation would instead be an exotropia.
+
+## answer_c
+Esotropia.
+
+## explanation_c
+Incorrect. Esotropia is a manifest inward (convergent) deviation, the opposite direction and manifest rather than latent.
+
+## answer_d
+Esophoria.
+
+## explanation_d
+Incorrect. Esophoria is a latent inward deviation; the direction is inward, not outward.
+
+## answer_e
+Hypertropia.
+
+## explanation_e
+Incorrect. Hypertropia is a manifest upward vertical deviation, not a latent horizontal outward one.
+
+## topic
+Ophthalmology
+
+## subtopic
+Heterophoria
+
+## main_concept
+CON-MUL-F528969F27AB4B
+
+## concept_ids
+CON-MUL-F528969F27AB4B
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Define exophoria as a latent outward deviation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.47); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-31
+
+## title
+True statement about amblyopia
+
+## question
+Amblyopia:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Is due to decline of accommodation amplitude.
+
+## explanation_a
+Incorrect. Decline of accommodation amplitude with age is presbyopia, not amblyopia, which is a developmental failure of visual acuity.
+
+## answer_b
+Could be caused by congenital cataract.
+
+## explanation_b
+Correct. A congenital cataract deprives the developing eye of a clear image during the critical period and causes dense stimulus-deprivation amblyopia. Deprivation is one of the three mechanisms of amblyopia, along with constant strabismus and anisometropia. This makes it the true statement.
+
+## answer_c
+Is easily treated in old age.
+
+## explanation_c
+Incorrect. Amblyopia must be treated early while the visual system is plastic; it is not easily treated in old age, when the deficit is usually permanent.
+
+## answer_d
+Strabismus is not a cause of it.
+
+## explanation_d
+Incorrect. Constant strabismus is a leading cause of amblyopia through suppression of the deviating eye.
+
+## answer_e
+Patching of the affected eye should be done daily.
+
+## explanation_e
+Incorrect. Occlusion therapy patches the sound (better) eye to force use of the amblyopic eye, not the affected eye.
+
+## topic
+Ophthalmology
+
+## subtopic
+Amblyopia
+
+## main_concept
+CON-MUL-32DDCFEA917C5C
+
+## concept_ids
+CON-MUL-32DDCFEA917C5C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise congenital cataract as a cause of stimulus-deprivation amblyopia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.47); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-33
+
+## title
+Feature of pseudostrabismus from a large interpupillary distance
+
+## question
+A 6-year-old child gave a false impression of ocular deviation. Best corrected vision was 6/6 in both eyes. Interpupillary distance was relatively big for his age. On examination the eyes were straight with central corneal light reflex. The correct statement is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Amblyopia is the main complication.
+
+## explanation_a
+Incorrect. There is no amblyopia; best-corrected vision is 6/6 in each eye because the eyes are actually straight.
+
+## answer_b
+This is a type of latent squint.
+
+## explanation_b
+Incorrect. This is pseudostrabismus, a false appearance of squint, not a latent squint (heterophoria), which is a real but fusion-controlled deviation.
+
+## answer_c
+This condition may result from presence of high errors of refraction.
+
+## explanation_c
+Incorrect. The false appearance here arises from the large interpupillary distance, not from a refractive error.
+
+## answer_d
+No movement is present on doing monocular cover-uncover test.
+
+## explanation_d
+Correct. Because the eyes are genuinely straight, the monocular cover-uncover test shows no movement of either eye. The central corneal light reflex and the absent movement confirm there is no true deviation, only a pseudostrabismus produced by the wide interpupillary distance. The child needs reassurance, not squint treatment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-3A37D632008FA9
+
+## concept_ids
+CON-MUL-3A37D632008FA9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise a normal cover-uncover test in pseudostrabismus from a large interpupillary distance.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.48); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-36
+
+## title
+Management of accommodative esotropia in a hypermetropic child
+
+## question
+A 4-year-old child was brought to the clinic due to presence of crossed eyes. Fundus examination was normal, but retinoscopy revealed bilateral hypermetropia. Cover test revealed that the child fixes with both eyes equally. The correct statement is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+This is considered a case of intermittent tropia.
+
+## explanation_a
+Incorrect. The crossed eyes are constant (the child fixes with either eye), so this is a constant accommodative esotropia, not an intermittent tropia.
+
+## answer_b
+Using glasses to correct the refractive error may help in treatment.
+
+## explanation_b
+Correct. Bilateral hypermetropia drives excess accommodation and the linked convergence turns the eyes inward, producing accommodative esotropia. Prescribing the full hypermetropic (convex) correction relaxes accommodation and can straighten the eyes, so glasses are a key part of treatment. That the child fixes with either eye equally shows alternation and no amblyopia.
+
+## answer_c
+The deviation of the eye varies in different direction of gaze.
+
+## explanation_c
+Incorrect. This is a concomitant squint, so the angle of deviation is the same in all directions of gaze; it does not vary with gaze.
+
+## answer_d
+Surgery is not an option for treatment.
+
+## explanation_d
+Incorrect. Surgery remains an option for any residual non-accommodative deviation after glasses, so it is wrong to say surgery is never an option.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-B8ABE72897744D
+
+## concept_ids
+CON-MUL-B8ABE72897744D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise convex-lens correction of hypermetropia as treatment for accommodative esotropia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.48); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-48
+
+## title
+Name for a binocular conjugate eye movement
+
+## question
+Binocular conjugate movement is known as:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adductions.
+
+## explanation_a
+Incorrect. Adduction is a monocular movement of one eye toward the nose (a duction), not a binocular conjugate movement.
+
+## answer_b
+Abductions.
+
+## explanation_b
+Incorrect. Abduction is a monocular movement of one eye toward the temple (a duction), not a binocular movement.
+
+## answer_c
+Versions.
+
+## explanation_c
+Correct. A binocular conjugate movement, in which both eyes move in the same direction by equal amounts, is a version (for example dextroversion or elevation). Versions are distinguished from vergences, which are disjunctive movements with the eyes moving in opposite directions. So the conjugate binocular movement is a version.
+
+## answer_d
+Vergence.
+
+## explanation_d
+Incorrect. A vergence is a disjunctive binocular movement, the eyes moving in opposite directions as in convergence, not a conjugate one.
+
+## topic
+Ophthalmology
+
+## subtopic
+Ocular movements
+
+## main_concept
+CON-MUL-EE612F7A3025B7
+
+## concept_ids
+CON-MUL-EE612F7A3025B7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that a conjugate binocular movement is a version.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.51); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-49
+
+## title
+Extraocular muscle not originating at the orbital apex
+
+## question
+The following extraocular muscles originate around the orbital apex, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Superior rectus.
+
+## explanation_a
+Incorrect (it does originate at the apex). The superior rectus arises from the annulus of Zinn at the orbital apex.
+
+## answer_b
+Superior oblique.
+
+## explanation_b
+Incorrect (it does originate at the apex). The superior oblique arises at the orbital apex near the annulus of Zinn.
+
+## answer_c
+Inferior rectus.
+
+## explanation_c
+Incorrect (it does originate at the apex). The inferior rectus arises from the annulus of Zinn at the orbital apex.
+
+## answer_d
+Inferior oblique.
+
+## explanation_d
+Correct. The inferior oblique is the exception: it is the only extraocular muscle that arises anteriorly, from the orbital floor near the lacrimal fossa, rather than at the orbital apex. The four recti and the superior oblique all take origin from the annulus of Zinn at the apex, so the inferior oblique is the one that does not.
+
+## topic
+Ophthalmology
+
+## subtopic
+Extraocular muscle anatomy
+
+## main_concept
+CON-MUL-1A1EB63A33CA67
+
+## concept_ids
+CON-MUL-1A1EB63A33CA67
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify the inferior oblique as arising from the orbital floor, not the apex.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.51); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-50
+
+## title
+Feature of an apparent (pseudo) squint
+
+## question
+In apparent squint:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Movement is present on doing monocular cover-uncover test.
+
+## explanation_a
+Incorrect. Because the eyes are truly straight, no movement is seen on the monocular cover-uncover test.
+
+## answer_b
+The eyes are straight with central corneal light reflex.
+
+## explanation_b
+Correct. An apparent squint (pseudostrabismus) is a false impression of deviation in eyes that are actually straight, so the corneal light reflex is central in both eyes and the cover test is normal. The appearance comes from facial features such as epicanthus or an abnormal interpupillary distance. It needs only reassurance.
+
+## answer_c
+Amblyopia is the main concern.
+
+## explanation_c
+Incorrect. There is no true deviation, so amblyopia is not a concern in apparent squint.
+
+## answer_d
+Glasses are the main line of treatment.
+
+## explanation_d
+Incorrect. No refractive or squint treatment is needed; reassurance is the management, not glasses.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-3A37D632008FA9
+
+## concept_ids
+CON-MUL-3A37D632008FA9
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise a central corneal reflex and normal cover test as the hallmark of apparent squint.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.51); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-51
+
+## title
+Cause of an apparent (pseudo) squint
+
+## question
+In apparent squint:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Both eyes move on doing cover test.
+
+## explanation_a
+Incorrect. The eyes are truly straight, so neither eye moves on the cover test.
+
+## answer_b
+Glasses are the main line of treatment.
+
+## explanation_b
+Incorrect. Apparent squint needs reassurance, not glasses, because there is no true deviation or refractive cause.
+
+## answer_c
+The corneal light reflex is paracentral in both eyes.
+
+## explanation_c
+Incorrect. The corneal light reflex is central, not paracentral, in both eyes, which is what confirms the eyes are straight.
+
+## answer_d
+Can be due to small or large interpupillary distance.
+
+## explanation_d
+Correct. Apparent squint (pseudostrabismus) can be produced by a small or large interpupillary distance, as well as by prominent epicanthic folds, which create a false impression of deviation. The eyes are actually straight, with a central corneal reflex and a normal cover test. Recognising this avoids unnecessary treatment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-3A37D632008FA9
+
+## concept_ids
+CON-MUL-3A37D632008FA9
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise abnormal interpupillary distance as a cause of pseudostrabismus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-52
+
+## title
+Essential examinations in a child with esotropia
+
+## question
+In a 3-year-old boy with esotropia, the clinical examination that must be done is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Fundoscopy and gonioscopy.
+
+## explanation_a
+Incorrect. Fundoscopy is needed, but gonioscopy (examining the anterior-chamber angle) has no role in the routine assessment of childhood esotropia.
+
+## answer_b
+Fundoscopy and retinoscopy.
+
+## explanation_b
+Correct. A child with esotropia must have a dilated fundus examination to exclude an organic cause such as retinoblastoma, and a cycloplegic retinoscopy to detect the hypermetropia that drives accommodative esotropia. These two tests find the sight-threatening cause and the treatable refractive cause. Together they are the essential squint work-up.
+
+## answer_c
+Retinoscopy and gonioscopy.
+
+## explanation_c
+Incorrect. Retinoscopy is essential, but gonioscopy is not part of the squint work-up; fundoscopy is the needed partner test.
+
+## answer_d
+Retinoscopy and biometry.
+
+## explanation_d
+Incorrect. Retinoscopy is essential, but biometry (axial-length measurement for intraocular-lens power) is not part of assessing childhood esotropia.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-B1E4ED1B528512
+
+## concept_ids
+CON-MUL-B1E4ED1B528512
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that a child with esotropia needs fundoscopy and cycloplegic retinoscopy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-53
+
+## title
+Occlusion therapy in unilateral childhood esotropia
+
+## question
+In unilateral esotropia in a 3-year-old child, the treatment options include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Occlusion of the squinting eye.
+
+## explanation_a
+Incorrect. Occluding the squinting (amblyopic) eye would worsen its amblyopia; it is the wrong eye to patch.
+
+## answer_b
+Occlusion of the non-squinting eye.
+
+## explanation_b
+Correct. Constant unilateral esotropia in a child causes amblyopia of the deviating eye, treated by occluding the non-squinting (better-seeing) eye to force use of the weaker eye. This is the standard occlusion therapy for strabismic amblyopia. The sound eye is patched, not the squinting eye.
+
+## answer_c
+Resection of the medial rectus.
+
+## explanation_c
+Incorrect. Surgery for esotropia weakens the medial rectus by recession, not resection; resecting (strengthening) the medial rectus would increase the convergence.
+
+## answer_d
+Recession of the lateral rectus.
+
+## explanation_d
+Incorrect. Surgery for esotropia strengthens the lateral rectus by resection, not recession; recessing (weakening) the lateral rectus would worsen the esotropia.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-32DDCFEA917C5C
+
+## concept_ids
+CON-MUL-32DDCFEA917C5C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that amblyopia in unilateral esotropia is treated by occluding the non-squinting eye.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-54
+
+## title
+True statement about concomitant squint
+
+## question
+Concomitant squint:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The deviation of the eye varies in different directions of gaze.
+
+## explanation_a
+Incorrect. In concomitant squint the deviation is the same in all directions of gaze; a deviation that varies with gaze is an incomitant (paralytic) squint.
+
+## answer_b
+Acquired cases may be due to refractive errors.
+
+## explanation_b
+Correct. Acquired concomitant squint is often driven by an uncorrected refractive error, most typically the hypermetropia that produces accommodative esotropia. Correcting the refractive error can reduce or abolish the deviation. This refractive association is the true statement.
+
+## answer_c
+Surgery is not an option for treatment.
+
+## explanation_c
+Incorrect. Surgery is an option for concomitant squint, used for the residual deviation not corrected by glasses.
+
+## answer_d
+Treatment of amblyopia is required by patching the squinting eye.
+
+## explanation_d
+Incorrect. Amblyopia is treated by patching the sound (non-squinting) eye, not the squinting eye.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-967654FE636B2E
+
+## concept_ids
+CON-MUL-967654FE636B2E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise the refractive-error association of acquired concomitant squint.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-55
+
+## title
+False statement about unilateral concomitant squint
+
+## question
+The following are true in unilateral concomitant squint, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Early management gives better result.
+
+## explanation_a
+Incorrect (it is true). Early management gives a better result because amblyopia is reversible only while the visual system is still developing.
+
+## answer_b
+The ocular deviation can seriously affect the vision in the affected eye.
+
+## explanation_b
+Incorrect (it is true). Constant unilateral deviation leads to suppression and strabismic amblyopia, which can seriously reduce vision in the affected eye.
+
+## answer_c
+Glasses can be an essential part of the treatment.
+
+## explanation_c
+Incorrect (it is true). Correcting an underlying refractive error with glasses is often an essential part of treatment, especially in accommodative esotropia.
+
+## answer_d
+Diplopia is a prominent symptom in this patient.
+
+## explanation_d
+Correct. Diplopia is the exception: in childhood unilateral concomitant squint the immature brain suppresses the deviating image, so double vision does not occur. Prominent diplopia instead characterises an acquired paralytic squint. This makes the statement about diplopia the false one.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-967654FE636B2E
+
+## concept_ids
+CON-MUL-967654FE636B2E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that suppression prevents diplopia in childhood concomitant squint.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-56
+
+## title
+False statement about concomitant strabismus
+
+## question
+The following are correct in concomitant strabismus, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It is a type of manifest squint.
+
+## explanation_a
+Incorrect (it is true). Concomitant strabismus is a manifest (constant) squint, present without breaking fusion.
+
+## answer_b
+It may be due to uncorrected error of refraction.
+
+## explanation_b
+Incorrect (it is true). It may be due to an uncorrected refractive error, classically the hypermetropia of accommodative esotropia.
+
+## answer_c
+It can be complicated by amblyopia.
+
+## explanation_c
+Incorrect (it is true). Constant deviation causes suppression and can be complicated by amblyopia.
+
+## answer_d
+It is diagnosed by limitation of movement of the eye.
+
+## explanation_d
+Correct. Limitation of ocular movement is the exception: concomitant strabismus has full ductions because no muscle is paralysed, and the deviation is equal in all gazes. Limitation of movement instead defines a paralytic (incomitant) squint. So diagnosing it by limited movement is the false statement.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-967654FE636B2E
+
+## concept_ids
+CON-MUL-967654FE636B2E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise full ductions (no movement limitation) as a feature of concomitant strabismus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-57
+
+## title
+True statement about paralytic strabismus
+
+## question
+In paralytic strabismus:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It is a type of latent squint.
+
+## explanation_a
+Incorrect. Paralytic strabismus is a manifest squint from muscle or nerve paralysis, not a latent squint (heterophoria).
+
+## answer_b
+It may be due to uncorrected error of refraction.
+
+## explanation_b
+Incorrect. Paralytic squint is due to paralysis of a muscle or its nerve, not to an uncorrected refractive error.
+
+## answer_c
+It is associated with diplopia opposite to the direction of action of paralyzed muscle.
+
+## explanation_c
+Incorrect. Diplopia is maximal when looking in the direction of action of the paralysed muscle, not opposite to it.
+
+## answer_d
+It is diagnosed by limitation of movement of the eye.
+
+## explanation_d
+Correct. Paralytic (incomitant) strabismus is diagnosed by limitation of ocular movement in the field of action of the paralysed muscle. The deviation is greater in that direction and increases when the paralysed eye fixes, giving a larger secondary angle. This limitation of movement distinguishes it from a concomitant squint with full ductions.
+
+## topic
+Ophthalmology
+
+## subtopic
+Strabismus
+
+## main_concept
+CON-MUL-D1F106D916CEBE
+
+## concept_ids
+CON-MUL-D1F106D916CEBE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise limitation of movement as the diagnostic feature of paralytic strabismus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.52); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-58
+
+## title
+False statement about third nerve palsy
+
+## question
+The following statements about 3rd nerve palsy are true, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ptosis is a prominent feature.
+
+## explanation_a
+Incorrect (it is true). Third-nerve palsy paralyses the levator palpebrae superioris, giving a prominent ptosis.
+
+## answer_b
+The patient cannot see clearly near objects with the affected eye.
+
+## explanation_b
+Incorrect (it is true). The parasympathetic supply to the ciliary muscle is lost, so accommodation fails and near objects are blurred in the affected eye.
+
+## answer_c
+There is a limitation of abduction of the affected eye.
+
+## explanation_c
+Correct. Limitation of abduction is the exception: the lateral rectus is supplied by the intact sixth (abducens) nerve, so abduction is preserved and the eye rests abducted (down and out). Third-nerve palsy limits adduction, elevation and depression, not abduction. So the statement about limited abduction is the false one.
+
+## answer_d
+Pupil of the affected eye is usually dilated.
+
+## explanation_d
+Incorrect (it is true). When the pupillary fibres are involved the sphincter pupillae is denervated and the pupil is dilated (mydriasis).
+
+## topic
+Ophthalmology
+
+## subtopic
+Cranial nerve palsies
+
+## main_concept
+CON-MUL-F5AC61B694F270
+
+## concept_ids
+CON-MUL-F5AC61B694F270
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that abduction is preserved in third-nerve palsy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.53); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-60
+
+## title
+Correct manifestation of third nerve palsy
+
+## question
+The following manifestation of the 3rd nerve palsy is correct:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Lid retraction.
+
+## explanation_a
+Incorrect. Third-nerve palsy paralyses the levator and causes ptosis (a drooping lid), not lid retraction.
+
+## answer_b
+Preserved accommodation.
+
+## explanation_b
+Incorrect. Accommodation is lost because the parasympathetic supply to the ciliary muscle is interrupted, so it is not preserved.
+
+## answer_c
+Convergent squint and diplopia.
+
+## explanation_c
+Incorrect. Third-nerve palsy causes a divergent squint (exotropia, the eye down and out), not a convergent squint.
+
+## answer_d
+Dilated pupil.
+
+## explanation_d
+Correct. When the parasympathetic pupillary fibres are affected, the sphincter pupillae is denervated and the pupil is fixed and dilated (mydriasis). This dilated pupil, together with ptosis and a down-and-out eye, is the classic third-nerve palsy picture. The dilated pupil is therefore the correct manifestation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cranial nerve palsies
+
+## main_concept
+CON-MUL-F5AC61B694F270
+
+## concept_ids
+CON-MUL-F5AC61B694F270
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise the dilated pupil as a manifestation of third-nerve palsy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.53); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-61
+
+## title
+Commonest cause of bilateral fourth nerve palsy
+
+## question
+The most common cause of bilateral 4th nerve palsy is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Diabetes.
+
+## explanation_a
+Incorrect. Diabetes causes ischaemic mononeuropathies, more typically of the third or sixth nerve, and usually unilateral.
+
+## answer_b
+Aneurysm.
+
+## explanation_b
+Incorrect. Aneurysm is a classic cause of a painful third-nerve palsy, not of bilateral fourth-nerve palsy.
+
+## answer_c
+Head trauma.
+
+## explanation_c
+Correct. The trochlear nerve has a long, thin intracranial course and decussates at the dorsal midbrain, where the two nerves are vulnerable together to a blow. Closed head trauma is therefore the commonest cause of bilateral fourth (trochlear) nerve palsy. It presents with vertical and torsional diplopia worse on downgaze.
+
+## answer_d
+Hypertension.
+
+## explanation_d
+Incorrect. Hypertension contributes to microvascular palsies but is not the commonest cause of bilateral fourth-nerve palsy.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cranial nerve palsies
+
+## main_concept
+CON-MUL-FF63FA938CE91B
+
+## concept_ids
+CON-MUL-FF63FA938CE91B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that head trauma is the commonest cause of bilateral fourth-nerve palsy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.53); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-62
+
+## title
+Feature of fourth nerve palsy
+
+## question
+Fourth nerve palsy:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Closed head trauma is most common cause of unilateral cases.
+
+## explanation_a
+Incorrect. Closed head trauma is the commonest cause of bilateral, not unilateral, fourth-nerve palsy; unilateral cases are often congenital or vascular.
+
+## answer_b
+Diplopia is usually absent.
+
+## explanation_b
+Incorrect. Diplopia is present in fourth-nerve palsy: it is vertical and torsional and worst on downgaze.
+
+## answer_c
+Difficulty in reading is due to lost accommodation.
+
+## explanation_c
+Incorrect. Accommodation is unaffected in fourth-nerve palsy; the difficulty in reading comes from vertical diplopia on downgaze, not from lost accommodation.
+
+## answer_d
+There is limitation of downward and inward movement.
+
+## explanation_d
+Correct. The superior oblique depresses the eye when it is adducted, so its palsy limits downward-and-inward movement. This gives vertical and torsional diplopia that is worst on downgaze, as when reading or descending stairs, and a compensatory head tilt. The limitation of depression in adduction is the characteristic sign.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cranial nerve palsies
+
+## main_concept
+CON-MUL-FF63FA938CE91B
+
+## concept_ids
+CON-MUL-FF63FA938CE91B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise limitation of down-and-in movement in fourth-nerve palsy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.53); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH5-63
+
+## title
+True statement about sixth nerve palsy
+
+## question
+Sixth nerve palsy:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+MRI is important for diagnosis.
+
+## explanation_a
+Correct. An acquired sixth (abducens) nerve palsy is a neurological sign, so neuroimaging (MRI) is important to look for a compressive, ischaemic, inflammatory or raised-intracranial-pressure cause. Because the nerve has a long intracranial course it can also be a false localising sign of raised pressure. Imaging guides management before any treatment of the squint.
+
+## answer_b
+The condition is treated by glasses.
+
+## explanation_b
+Incorrect. Glasses correct a refractive error; they do not treat the weak lateral rectus of a sixth-nerve palsy, for which prisms or later surgery are used.
+
+## answer_c
+Pupil dilatation is a common finding.
+
+## explanation_c
+Incorrect. The pupil is normal in sixth-nerve palsy, which affects only the lateral rectus; a dilated pupil points to a third-nerve lesion.
+
+## answer_d
+Vertical diplopia is present.
+
+## explanation_d
+Incorrect. The diplopia of sixth-nerve palsy is horizontal, worse on gaze to the affected side, not vertical.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cranial nerve palsies
+
+## main_concept
+CON-MUL-0ED841A9984F91
+
+## concept_ids
+CON-MUL-0ED841A9984F91
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-OCULAR-MOTILITY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that an acquired sixth-nerve palsy needs neuroimaging.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.53); key from companion printed answer key
 
 ## attached_image
 
