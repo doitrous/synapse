@@ -490,3 +490,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-6
+## title
+Laser used for capsulotomy (2)
+## question
+Capsulotomy is done using the following laser:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Carbon dioxide laser.
+## explanation_a
+Incorrect. The CO2 laser is not used for capsulotomy.
+## answer_b
+Diode laser.
+## explanation_b
+Incorrect. The diode laser is not used for capsulotomy.
+## answer_c
+ND-YAG.
+## explanation_c
+Correct. Capsulotomy is done with the Nd-YAG laser.
+## answer_d
+Argon laser.
+## explanation_d
+Incorrect. The argon laser is for retinal photocoagulation.
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## main_concept
+CON-MUL-9512BABC9D1F59
+## concept_ids
+CON-MUL-9512BABC9D1F59
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify Nd-YAG as the capsulotomy laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-7
+## title
+Fellow-eye prophylaxis in angle closure
+## question
+For the other eye, in acute angle closure glaucoma, prophylactic treatment of choice is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Trabeculectomy.
+## explanation_a
+Incorrect. Trabeculectomy is a filtering surgery, not prophylaxis for the fellow eye.
+## answer_b
+Trabeculotomy.
+## explanation_b
+Incorrect. Trabeculotomy is used in congenital glaucoma.
+## answer_c
+YAG laser iridotomy.
+## explanation_c
+Correct. A YAG laser peripheral iridotomy relieves pupillary block and is the prophylaxis of choice for the fellow eye.
+## answer_d
+Atropine.
+## explanation_d
+Incorrect. Atropine dilates the pupil and would precipitate, not prevent, an attack.
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## main_concept
+CON-MUL-C87927FCFC71C5
+## concept_ids
+CON-MUL-C87927FCFC71C5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select YAG laser iridotomy as fellow-eye prophylaxis in angle-closure glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-8
+## title
+Mechanism of the argon laser
+## question
+Argon laser produces its effect through:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Photovaporization.
+## explanation_a
+Incorrect. Photovaporisation is a different thermal effect.
+## answer_b
+Photoablation.
+## explanation_b
+Incorrect. Photoablation is the excimer mechanism.
+## answer_c
+Photocoagulation.
+## explanation_c
+Correct. The argon laser produces photocoagulation.
+## answer_d
+Photodisruption.
+## explanation_d
+Incorrect. Photodisruption is the Nd:YAG mechanism.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-1B57AC909CFAEA
+## concept_ids
+CON-MUL-1B57AC909CFAEA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that the argon laser acts by photocoagulation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-9
+## title
+Tissue effect of LASIK
+## question
+LASIK is a refractive surgery of the cornea done by Excimer laser that causes:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Photoablation.
+## explanation_a
+Correct. The excimer laser reshapes the cornea by photoablation.
+## answer_b
+Photodisruption.
+## explanation_b
+Incorrect. Photodisruption is the Nd:YAG mechanism.
+## answer_c
+Photocoagulation.
+## explanation_c
+Incorrect. Photocoagulation is the argon mechanism.
+## answer_d
+Photovaporization.
+## explanation_d
+Incorrect. Photovaporisation is a different thermal effect.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-8759A5DE744C16
+## concept_ids
+CON-MUL-8759A5DE744C16
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that LASIK by excimer laser causes photoablation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-10
+## title
+How laser differs from ambient light — EXCEPT
+## question
+Laser is different from ambient light in the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Laser is monochromatic.
+## explanation_a
+Incorrect (a genuine difference). Laser is monochromatic; ambient light is not.
+## answer_b
+Laser is temporally coherent.
+## explanation_b
+Incorrect (a genuine difference). Laser is temporally coherent.
+## answer_c
+Laser rays are typically divergent.
+## explanation_c
+Correct. Laser rays are collimated (parallel), not typically divergent; this is the false statement (the exception).
+## answer_d
+Laser rays are spatially coherent.
+## explanation_d
+Incorrect (a genuine difference). Laser is spatially coherent.
+## topic
+Ophthalmology
+## subtopic
+Laser physics
+## main_concept
+CON-MUL-1830D30B9DADD4
+## concept_ids
+CON-MUL-1830D30B9DADD4
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that laser rays are not divergent.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
