@@ -397,3 +397,94 @@ university_notes: No department book PDF was located/read this pass -- written f
 7
 
 ---
+
+# Item
+## id
+ART-CVS-310PAT-ENDOCARDITIS
+## title
+Heart: rheumatic fever, endocarditis and their valvular lesions
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+This article opens the paper's HEART chapter and groups the rheumatic-fever and endocarditis concepts tested by Q67-72. Rheumatic fever is an immune-mediated, post-streptococcal inflammatory disease of the young whose pathognomonic lesion is the Aschoff body (with Anitschkow cells); its pericarditis is serofibrinous (bread-and-butter) and it leaves a MacCallum's patch on the posterior wall of the left atrium. Non-bacterial verrucous (Libman-Sacks) endocarditis is the sterile valvular lesion of systemic lupus erythematosus. Infective endocarditis is subacute when low-virulence organisms (Streptococcus viridans) seed previously damaged/unhealthy valves with an insidious course, and acute when virulent organisms (Staphylococcus aureus) destroy previously normal valves with purulent vegetations, perforation, pyaemia and a rapidly fatal course.
+## sections
+### Definition
+This article groups the heart/endocarditis concepts tested by Q67-72 of the paper; each linked concept carries one atomic claim about the nature, characteristic lesion, pericarditis, associated diseases and infective forms of rheumatic and infective endocarditis.
+### Mechanism
+Rheumatic fever follows group A streptococcal pharyngitis, with cross-reactive (molecular-mimicry) immune injury to heart, joints, skin and brain producing Aschoff bodies and pancarditis. Libman-Sacks endocarditis is immune-complex valvular injury in SLE. Infective endocarditis is microbial colonisation of valves — subacute (low-virulence organisms on damaged valves) versus acute (virulent organisms on normal valves).
+### Key determinants
+Discriminators tested here: rheumatic fever is immune-mediated, of the young, and a pancarditis (not a myocardial or staphylococcal disease); the Aschoff body is specific to rheumatic carditis; rheumatic pericarditis is serofibrinous; Libman-Sacks belongs to SLE; MacCallum's patch is on the posterior wall of the left atrium; subacute infective endocarditis affects previously unhealthy valves whereas the acute form (purulent, perforating, pyaemic, rapidly fatal) affects healthy valves.
+### Clinical significance
+These facts underlie the recognition of post-streptococcal rheumatic carditis and its chronic valvular sequelae, the interpretation of sterile vegetations in a lupus patient, and the distinction of subacute from acute infective endocarditis in a patient with valve disease.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversals the distractors exploit (rheumatic fever as a myocardial/old-age/staphylococcal disease, Aschoff body in infective or lupus endocarditis, purulent rapidly fatal features assigned to the subacute form).
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart
+## subtopic
+Endocarditis
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 systemic pathology
+## high_yield
+Core
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## related_concepts
+CON-CVS-41547BEDC714F8
+CON-CVS-564D56257B4A47
+CON-CVS-3C5F82207003D3
+CON-CVS-021DBC9C669D19
+CON-CVS-DF17094880BEAE
+CON-CVS-8FC8A80785631B
+## related_articles
+ART-CVS-310PAT-BLOOD-VESSELS
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (render-verified p.14 / printed 13).
+## reading_time
+7
+
+---

@@ -5341,3 +5341,669 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-41547BEDC714F8
+## label
+Rheumatic fever is an immune-mediated inflammatory disease
+## canonical_key
+rheumatic-fever.nature-immune-mediated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rheumatic fever is an IMMUNE-MEDIATED multisystem inflammatory disease that follows a group A beta-haemolytic STREPTOCOCCAL (Streptococcus pyogenes) pharyngitis by 1–4 weeks. Antibodies and T cells raised against streptococcal antigens (notably M protein) cross-react with host tissues (molecular mimicry), inflaming the heart, joints, skin and brain. It is a disease of children and young people (not the elderly), affects all three cardiac layers (pancarditis) rather than mainly the myocardium, and is not a direct staphylococcal infection.
+## explicit_objective
+State that rheumatic fever is an immune-mediated (post-streptococcal) inflammatory disease of the young, not a myocardial or staphylococcal infection.
+## pitfalls
+Calling it a myocardial disease, a disease of old age, or a staphylococcal complication; it is a post-streptococcal, immune-mediated pancarditis of the young.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.nature-immune-mediated", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-564D56257B4A47
+## label
+Aschoff body is the characteristic lesion of rheumatic carditis
+## canonical_key
+aschoff-body.rheumatic-carditis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ASCHOFF BODY is the pathognomonic histologic lesion of RHEUMATIC fever/carditis. It is a focus of interstitial inflammation with central fibrinoid necrosis surrounded by lymphocytes, plasma cells and characteristic activated macrophages — Anitschkow cells (with 'caterpillar' chromatin) and multinucleate Aschoff giant cells. Aschoff bodies are found in the myocardium (and other cardiac layers) in rheumatic carditis; they are not features of infective endocarditis, SLE (Libman–Sacks) endocarditis or syphilitic disease.
+## explicit_objective
+Identify the Aschoff body as the characteristic (pathognomonic) histologic lesion of rheumatic carditis.
+## pitfalls
+Attributing the Aschoff body to infective, lupus or syphilitic endocarditis; it is specific to rheumatic carditis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aschoff-body.rheumatic-carditis", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-3C5F82207003D3
+## label
+Rheumatic pericarditis is serofibrinous (bread-and-butter)
+## canonical_key
+rheumatic-fever.pericarditis-serofibrinous
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pericarditis of rheumatic fever is characteristically SEROFIBRINOUS (fibrinous). The inflamed visceral and parietal pericardial surfaces are covered by a shaggy fibrin-rich exudate that, when the layers are pulled apart, gives the classic 'bread-and-butter' gross appearance. It is not a suppurative (purulent), purely serous or haemorrhagic pericarditis; the fibrinous exudate usually resolves without significant constriction.
+## explicit_objective
+State that the commonest pericarditis of rheumatic fever is serofibrinous (fibrinous, bread-and-butter).
+## pitfalls
+Calling rheumatic pericarditis suppurative or haemorrhagic; it is a serofibrinous (fibrinous) pericarditis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.pericarditis-serofibrinous", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-021DBC9C669D19
+## label
+Libman-Sacks endocarditis occurs in SLE
+## canonical_key
+libman-sacks-endocarditis.sle
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+LIBMAN–SACKS endocarditis is the non-bacterial verrucous (wart-like) valvular vegetation of SYSTEMIC LUPUS ERYTHEMATOSUS (SLE). Small sterile fibrinous vegetations form on either surface of the valve leaflets (classically the mitral and tricuspid valves), reflecting immune-complex–mediated injury rather than infection. It is distinct from the vegetations of rheumatic heart disease, infective endocarditis and carcinoid heart disease.
+## explicit_objective
+Associate Libman-Sacks (non-bacterial verrucous) endocarditis with systemic lupus erythematosus.
+## pitfalls
+Linking Libman-Sacks vegetations to rheumatic or infective endocarditis; they are the sterile verrucous vegetations of SLE.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "libman-sacks-endocarditis.sle", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-DF17094880BEAE
+## label
+MacCallum's patch lies on the posterior wall of the left atrium
+## canonical_key
+maccallum-patch.left-atrium
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+MacCALLUM'S PATCH is a map-like area of subendocardial thickening on the POSTERIOR WALL of the LEFT ATRIUM seen in rheumatic heart disease. It results from the friction and regurgitant jet across the inflamed mitral valve, producing subendocardial fibrosis at that site. Its location on the left atrial posterior wall (not the right atrium or the ventricles) is the specific fact tested.
+## explicit_objective
+State that MacCallum's patch is located on the posterior wall of the left atrium in rheumatic heart disease.
+## pitfalls
+Placing MacCallum's patch in the right atrium or a ventricle; it is on the posterior wall of the left atrium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "maccallum-patch.left-atrium", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-8FC8A80785631B
+## label
+Subacute infective endocarditis affects previously damaged (unhealthy) valves
+## canonical_key
+subacute-infective-endocarditis.affects-damaged-valves
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+SUBACUTE infective endocarditis is caused by low-virulence organisms (classically Streptococcus viridans) that seed PREVIOUSLY DAMAGED or abnormal (unhealthy) valves — e.g. rheumatic, congenitally abnormal or prosthetic valves. It produces bulky but less destructive vegetations and a slow, insidious course over weeks to months. This contrasts with ACUTE infective endocarditis, in which virulent organisms (e.g. Staphylococcus aureus) attack previously NORMAL valves with rapidly destructive, purulent vegetations, valve perforation, pyaemia and a rapidly fatal course.
+## explicit_objective
+State that subacute infective endocarditis characteristically affects previously damaged (unhealthy) valves, unlike acute infective endocarditis.
+## pitfalls
+Ascribing purulent vegetations, valve perforation, pyaemia or a rapidly fatal course to the SUBACUTE form; those belong to acute infective endocarditis on healthy valves.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "subacute-infective-endocarditis.affects-damaged-valves", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
+
+---

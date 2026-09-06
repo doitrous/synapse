@@ -7,9 +7,10 @@
 | abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 | 6 |
 | abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 | 7 |
 | abolmagd-cvs Blood Vessels / vasculitis (Q38-47, same paper) | 10 | 0 | 0 | 0 | 10 |
-| abolmagd-cvs Aneurysms & Veins (Q48-65, same paper) | 15 | 0 | 3 | 0 (→ p.14+ next section) | 18 |
-| **abolmagd-cvs cluster total** | **62** | **0** | **3** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 62 | 0 | 3 | untriaged | — |
+| abolmagd-cvs Aneurysms & Veins (Q48-65, same paper) | 15 | 0 | 3 | 0 | 18 |
+| abolmagd-cvs Heart / Endocarditis (Q67-72, same paper) | 6 | 0 | 0 | 0 (→ Q73-78 p.15, then Ischemia/Heart Diseases) | 6 |
+| **abolmagd-cvs cluster total** | **68** | **0** | **3** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 68 | 0 | 3 | untriaged | — |
 
 ## Module opened
 
@@ -153,11 +154,31 @@ Files: `question/310-PAT-abolmagd-aneurysms-veins-1-mcq.md` (Q48-57),
 310-PAT baseline — 18 distinct categories, all pre-existing placeholder families, error count scales
 with item count, no new error category).
 
+## Cluster — abolmagd-cvs-endocarditis (Q67-72)
+
+6/6 authored (Q67-72, p.14 / printed 13), **0 excluded, 0 held**. This opens the paper's **HEART**
+chapter (rheumatic fever + endocarditis). Render-adjudicated p.14 at 170 dpi (the "HEART" section
+heading carries a red highlight background — decoration, not an answer; **Q66 is absent** in the
+source, a numbering gap between Q65 and Q67): Q67.b, Q68.b, Q69.c, Q70.b, Q71.b, Q72.b — all single
+red, all medically sound. **6 new concepts minted** (rheumatic-fever immune-mediated/Q67; Aschoff-body
+rheumatic/Q68; rheumatic pericarditis serofibrinous/Q69; Libman-Sacks in SLE/Q70; MacCallum's patch
+left-atrium/Q71; subacute IE affects damaged valves/Q72), university-blind (first 14 hex of SHA-256 of
+the canonical key), collision-checked — no collisions. Grouped into a **new library article
+`ART-CVS-310PAT-ENDOCARDITIS`** (cross-linked to the blood-vessels article). No exam-key caveats this
+slice — all six keys are standard pathology facts. Files:
+`question/310-PAT-abolmagd-endocarditis-1-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-endocarditis-1.json`. **Gate-clean** (question 6/0, concept 54/0,
+article 5/0; simulate created=80/rejected=0/errors=0; audit neutral vs the 310-PAT baseline — 18
+distinct categories, all pre-existing placeholder families, error count scales with item count, no new
+error category).
+
 ## Next cluster
 
-**Remaining on this paper:** the next Pathology section from **p.14+** (printed 13+ — Endocarditis /
-Ischemia / Heart Diseases per the section map), then the **2008-2015 MCQ set (p.24+)** and Written
-topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
+**Remaining on this paper:** the rest of the HEART chapter — **Q73-78 (p.15 / printed 14**, more
+rheumatic-fever/infective-endocarditis items; keys render-adjudicated this pass: Q73.c, Q74.d, Q75.d,
+Q76.b, Q77.a, Q78.c), then **Ischemia (p.17+)**, **Heart Diseases (p.19+)**, the **2008-2015 MCQ set
+(p.24+)** and Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology
+sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
 Tarek folders) and the entire **Pharmacology** sub-corpus (`All 197 Qs answered by pharmaga.pdf`,
 `Pharma MCQ by Abolmagd.pdf`, `PHARMA GITTTTTTT.pdf`, `Pharma RSPPPPP.pdf`) — pharmacology items

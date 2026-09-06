@@ -1,0 +1,140 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-endocarditis",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — HEART / ENDOCARDITIS section (Q67-72), opening the paper's HEART chapter of the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; render-verified p.14 (printed 13) at 170 dpi — every key a single red-text option (the 'HEART' section heading carries a red highlight background — decoration, not an answer). Q66 is absent in the source (numbering gap between Q65 and Q67).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-ENDOCARDITIS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Heart / Endocarditis section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Endocarditis",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 13,
+    "field_notes": { "keySource": "red-text option; render-verified p.14 (printed 13) at 170 dpi — 'HEART' heading red highlight is decoration, not an answer" }
+  },
+  "questions": [
+    {
+      "key": "q67", "id": "QST-KASR310PAT-ABOLMAGD-67",
+      "title": "Nature of rheumatic fever",
+      "question": "Rheumatic fever is:",
+      "options": { "A": "A disease affecting mainly the myocardium", "B": "An immune-mediated inflammatory disease", "C": "A condition that usually starts in old age", "D": "A complication of Staphylococcus infection" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Rheumatic fever is a PANCARDITIS affecting all three layers (endocardium, myocardium and pericardium); it is not confined mainly to the myocardium.",
+        "B": "Correct. Rheumatic fever is an IMMUNE-MEDIATED inflammatory disease that follows a group A streptococcal pharyngitis: antibodies and T cells raised against streptococcal antigens (M protein) cross-react with host tissues (molecular mimicry), inflaming the heart, joints, skin and brain. It is not a direct infection of the heart but an immunological sequel to the throat infection. This immune-mediated, post-streptococcal nature is the defining fact.",
+        "C": "Incorrect. Rheumatic fever is a disease of CHILDREN and young people (about 5–15 years), not of old age.",
+        "D": "Incorrect. It is a complication of group A STREPTOCOCCAL (not staphylococcal) pharyngitis."
+      },
+      "main_concept": "CON-CVS-41547BEDC714F8", "concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Endocarditis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that rheumatic fever is an immune-mediated post-streptococcal inflammatory disease.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q68", "id": "QST-KASR310PAT-ABOLMAGD-68",
+      "title": "Disease characterised by the Aschoff body",
+      "question": "Aschoff body is the characteristic histologic lesion of which of the following:",
+      "options": { "A": "Infective endocarditis", "B": "Rheumatic endocarditis", "C": "Endocarditis of SLE", "D": "Syphilitic disease" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Infective endocarditis is characterised by bacterial vegetations, not Aschoff bodies.",
+        "B": "Correct. The ASCHOFF BODY is the pathognomonic histologic lesion of RHEUMATIC carditis: a focus of interstitial inflammation with central fibrinoid necrosis surrounded by lymphocytes, plasma cells and characteristic activated macrophages (Anitschkow cells with 'caterpillar' chromatin, and multinucleate Aschoff giant cells). Finding an Aschoff body is diagnostic of rheumatic heart disease. It does not occur in infective, lupus or syphilitic endocarditis.",
+        "C": "Incorrect. Libman-Sacks (SLE) endocarditis shows sterile verrucous vegetations, not Aschoff bodies.",
+        "D": "Incorrect. Syphilitic cardiovascular disease affects the aorta (aortitis), and is not characterised by Aschoff bodies."
+      },
+      "main_concept": "CON-CVS-564D56257B4A47", "concept_ids": ["CON-CVS-564D56257B4A47"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Endocarditis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify the Aschoff body as the characteristic lesion of rheumatic carditis.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q69", "id": "QST-KASR310PAT-ABOLMAGD-69",
+      "title": "Type of pericarditis in rheumatic fever",
+      "question": "Which is the most common type of pericarditis in rheumatic fever:",
+      "options": { "A": "Serous", "B": "Suppurative", "C": "Serofibrinous", "D": "Hemorrhagic" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A purely serous pericarditis is typical of viral or uraemic pericarditis, not rheumatic fever.",
+        "B": "Incorrect. Suppurative (purulent) pericarditis is caused by pyogenic bacterial infection, not rheumatic fever.",
+        "C": "Correct. The pericarditis of rheumatic fever is characteristically SEROFIBRINOUS (fibrinous): the inflamed pericardial surfaces are covered by a fibrin-rich exudate that, when the layers are separated, gives the classic 'bread-and-butter' appearance. It usually resolves without significant constriction. This fibrinous pattern, not a serous, suppurative or haemorrhagic one, is the rheumatic pericarditis.",
+        "D": "Incorrect. Haemorrhagic pericarditis suggests tuberculosis or malignancy, not rheumatic fever."
+      },
+      "main_concept": "CON-CVS-3C5F82207003D3", "concept_ids": ["CON-CVS-3C5F82207003D3"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Endocarditis",
+      "learning_objective": "State that rheumatic pericarditis is serofibrinous (bread-and-butter).",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q70", "id": "QST-KASR310PAT-ABOLMAGD-70",
+      "title": "Disease with Libman-Sacks endocarditis",
+      "question": "Libman-Sacks endocarditis occurs in:",
+      "options": { "A": "Rheumatic heart disease", "B": "SLE", "C": "Infective endocarditis", "D": "Carcinoid syndrome" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Rheumatic heart disease produces small vegetations along the lines of valve closure with Aschoff bodies, not the Libman-Sacks lesion.",
+        "B": "Correct. LIBMAN–SACKS endocarditis is the non-bacterial verrucous (wart-like) valvular vegetation of SYSTEMIC LUPUS ERYTHEMATOSUS (SLE). Small sterile fibrinous vegetations form on either surface of the valve leaflets (classically mitral and tricuspid), reflecting immune-complex injury rather than infection. Its association with SLE is the fact tested.",
+        "C": "Incorrect. Infective endocarditis produces bulky infected (bacterial) vegetations, not the sterile verrucous Libman-Sacks lesion.",
+        "D": "Incorrect. Carcinoid heart disease causes right-sided (tricuspid/pulmonary) plaque-like fibrous thickening, not Libman-Sacks vegetations."
+      },
+      "main_concept": "CON-CVS-021DBC9C669D19", "concept_ids": ["CON-CVS-021DBC9C669D19"],
+      "subtopic": "Endocarditis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Associate Libman-Sacks endocarditis with systemic lupus erythematosus.",
+      "module_subject": "310 PAT > Pathology > Heart > Endocarditis"
+    },
+    {
+      "key": "q71", "id": "QST-KASR310PAT-ABOLMAGD-71",
+      "title": "Location of MacCallum's patch",
+      "question": "MacCallum's patch is located at the posterior wall of:",
+      "options": { "A": "Right atrium", "B": "Left atrium", "C": "Right ventricle", "D": "Left ventricle" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. MacCallum's patch is not in the right atrium.",
+        "B": "Correct. MacCALLUM'S PATCH is a map-like area of subendocardial thickening on the POSTERIOR WALL of the LEFT ATRIUM in rheumatic heart disease. It results from the friction and the regurgitant jet across the inflamed mitral valve, producing subendocardial fibrosis at that site. Its left-atrial posterior-wall location is the specific fact tested.",
+        "C": "Incorrect. The right ventricle is not the site of MacCallum's patch.",
+        "D": "Incorrect. Although the left ventricle is on the mitral side, the patch classically lies on the posterior wall of the left ATRIUM, above the mitral valve."
+      },
+      "main_concept": "CON-CVS-DF17094880BEAE", "concept_ids": ["CON-CVS-DF17094880BEAE"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Endocarditis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that MacCallum's patch lies on the posterior wall of the left atrium.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q72", "id": "QST-KASR310PAT-ABOLMAGD-72",
+      "title": "Characteristic of subacute infective endocarditis",
+      "question": "Subacute infective endocarditis is characterized by:",
+      "options": { "A": "Purulent vegetation with valve perforation", "B": "Affecting unhealthy valves", "C": "Pyemia", "D": "Rapidly fatal course" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Purulent vegetations with valve perforation are features of ACUTE infective endocarditis by virulent organisms, not the subacute form.",
+        "B": "Correct. SUBACUTE infective endocarditis characteristically affects previously DAMAGED or abnormal (unhealthy) valves — rheumatic, congenitally abnormal or prosthetic — seeded by low-virulence organisms such as Streptococcus viridans. It produces bulky but less destructive vegetations and an insidious course over weeks to months. This is the opposite of the acute form, which attacks previously normal valves with rapidly destructive, purulent, pyaemic and often fatal disease.",
+        "C": "Incorrect. Pyaemia (widespread pyogenic seeding) characterises acute, not subacute, infective endocarditis.",
+        "D": "Incorrect. A rapidly fatal course is a feature of acute infective endocarditis; the subacute form is insidious and slowly progressive."
+      },
+      "main_concept": "CON-CVS-8FC8A80785631B", "concept_ids": ["CON-CVS-8FC8A80785631B"],
+      "subtopic": "Endocarditis",
+      "learning_objective": "State that subacute infective endocarditis affects previously damaged (unhealthy) valves, unlike the acute form.",
+      "module_subject": "310 PAT > Pathology > Heart > Infective endocarditis"
+    }
+  ]
+}
