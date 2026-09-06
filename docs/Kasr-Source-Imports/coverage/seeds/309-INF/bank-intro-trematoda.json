@@ -1,0 +1,358 @@
+{
+  "lane": "KASR-309INF",
+  "cluster": "bank-intro-trematoda",
+  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Introduction + Trematoda section (Q1-19) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.3] (module opener for Year 3 309 INF). Answer key = the option letter in the printed answer table 'Answers of Introduction + Trematoda' (native text; render refused as not-garbled → text layer authoritative). Q12 held as an in-source exact duplicate of Q15. 18 authored / 1 held / 0 excluded.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "309 INF",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-309-PARA-TREMATODA"],
+    "resource_ids": ["src_10f1a669aa2eeedf3cd9"],
+    "source_citation": "Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Introduction + Trematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Parasitology",
+    "subtopic": "Trematoda",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "module_subject": "309 INF > Parasitology > Trematoda",
+    "field_notes": { "keySource": "printed answer table 'Answers of Introduction + Trematoda' p.3 (native text; render refused page as not-garbled)" }
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-01", "page": 2,
+      "title": "Defining feature of a facultative parasite",
+      "question": "A facultative parasite:",
+      "options": { "A": "Lives only in the environment", "B": "Exists in different hosts", "C": "Able of existing independently of a host", "D": "Spends part of its life cycle in a host or lives independently" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An organism that lives ONLY in the environment and never parasitises a host is a free-living organism, not a parasite at all; a facultative parasite is defined by its capacity to switch between the two modes.",
+        "B": "Incorrect. 'Existing in different hosts' describes host range, not the facultative habit; the defining feature is the ability to live independently of any host.",
+        "C": "Correct. A facultative parasite is normally free-living and is ABLE to exist independently of a host, but it can also invade and live as a parasite when the opportunity arises (for example when it gains entry to compromised tissue). This capacity to survive and complete part of its existence without a host is exactly what distinguishes a facultative parasite from an obligate parasite, which cannot live outside a host. The bank tests recognition of this independence-from-a-host criterion.",
+        "D": "Incorrect. While a facultative parasite can indeed live independently, the single defining criterion the bank asks for is its ability to exist independently of a host (option C); D blends the facultative habit with the obligate life-cycle wording and is not the intended defining statement."
+      },
+      "main_concept": "CON-INF-208CEFCE891C82", "concept_ids": ["CON-INF-208CEFCE891C82"],
+      "library_ids": ["ART-INF-309-PARA-GENERAL"],
+      "primary_node_id": "DIS-PAR",
+      "subtopic": "General parasitology",
+      "module_subject": "309 INF > Parasitology > General parasitology > Host-parasite relationships",
+      "learning_objective": "Define a facultative parasite as one able to exist independently of a host, in contrast to an obligate parasite."
+    },
+    {
+      "key": "q2", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-02", "page": 2,
+      "title": "Parasite whose infective stage is encysted metacercaria on vegetation",
+      "question": "Encysted metacercaria on vegetation is the infective stage of:",
+      "options": { "A": "Trichostrongylus colubriformis", "B": "Heterophyes heterophyes", "C": "Fasciola hepatica", "D": "Trichuris trichiura" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus is a nematode acquired by swallowing filariform larvae on contaminated vegetation, not an encysted metacercaria (a trematode larval stage).",
+        "B": "Incorrect. Heterophyes is acquired by eating undercooked fish carrying metacercariae, not metacercariae encysted on plants.",
+        "C": "Correct. Fasciola hepatica is a trematode whose cercariae leave the snail intermediate host and encyst as metacercariae on aquatic vegetation such as watercress. A human (or sheep) is infected by ingesting this encysted metacercaria on the plant, which is therefore the infective stage. Recognising metacercaria-on-vegetation as the Fasciola infective stage is the atomic fact tested here.",
+        "D": "Incorrect. Trichuris (whipworm) is a soil-transmitted nematode acquired by ingesting embryonated eggs from soil, not a metacercaria on vegetation."
+      },
+      "main_concept": "CON-INF-D8B5E96BCF9A16", "concept_ids": ["CON-INF-D8B5E96BCF9A16"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Identify encysted metacercaria on aquatic vegetation as the infective stage of Fasciola hepatica."
+    },
+    {
+      "key": "q3", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-03", "page": 2,
+      "title": "Disease with Pirenella conica as intermediate host",
+      "question": "Pirenella conica is the intermediate host in cases of:",
+      "options": { "A": "Strongyloidiasis", "B": "Fascioliasis", "C": "Trichuriasis", "D": "Heterophyiasis" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Strongyloides has no snail intermediate host; it is acquired by skin penetration of free-living filariform larvae.",
+        "B": "Incorrect. The snail intermediate host of Fasciola is Lymnaea, not Pirenella conica.",
+        "C": "Incorrect. Trichuris is a soil-transmitted nematode with no snail intermediate host.",
+        "D": "Correct. Heterophyes heterophyes uses the brackish-water snail Pirenella conica as its FIRST intermediate host, in which the sporocyst and cercarial stages develop before the cercariae leave to encyst in fish. Because Pirenella conica is characteristic of the heterophyid life cycle, its presence points to heterophyiasis. This snail–fish two-host cycle is the atomic fact the question tests."
+      },
+      "main_concept": "CON-INF-D3559B3A51BB0C", "concept_ids": ["CON-INF-D3559B3A51BB0C"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "Recognise Pirenella conica as the first (snail) intermediate host of Heterophyes heterophyes."
+    },
+    {
+      "key": "q4", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-04", "page": 2,
+      "title": "Parasite causing halzoun",
+      "question": "Halzoun is caused by infection with:",
+      "options": { "A": "Echinococcus granulosus", "B": "Linguatula serrata", "C": "Toxocara canis", "D": "Trichuris trichiura" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Echinococcus granulosus causes hydatid disease (cystic lesions in liver and lung), not the acute nasopharyngeal syndrome of halzoun.",
+        "B": "Correct. Halzoun is an acute naso-pharyngeal syndrome caused when the larval (nymphal) stage of Linguatula serrata (the tongue worm, a pentastome) is ingested with raw or undercooked visceral tissue such as liver or lymph nodes and attaches to the pharyngeal mucosa. The living nymph provokes intense irritation, oedema, sneezing and dysphagia within hours. (Marrara/halzoun can also follow ingestion of Fasciola in liver, but among the options Linguatula serrata is the recognised cause.)",
+        "C": "Incorrect. Toxocara canis causes visceral and ocular larva migrans, not halzoun.",
+        "D": "Incorrect. Trichuris trichiura (whipworm) causes colitis and, when heavy, rectal prolapse, not halzoun."
+      },
+      "main_concept": "CON-INF-3EE3B9E2CE37B8", "concept_ids": ["CON-INF-3EE3B9E2CE37B8"],
+      "primary_node_id": "DIS-PAR-T03",
+      "subtopic": "Pentastomes",
+      "module_subject": "309 INF > Parasitology > Arthropods and vectors > Linguatula serrata",
+      "learning_objective": "Attribute halzoun to the ingested nymph of Linguatula serrata."
+    },
+    {
+      "key": "q5", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-05", "page": 2,
+      "title": "Fluke causing obstructive jaundice",
+      "question": "Obstructive jaundice may complicate infection with:",
+      "options": { "A": "Diphyllobothrium latum", "B": "Fasciola hepatica", "C": "Taenia saginata", "D": "Hymenolepis nana" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Diphyllobothrium latum lives in the small intestine and competes for vitamin B12, causing megaloblastic anaemia, not biliary obstruction.",
+        "B": "Correct. Adult Fasciola hepatica flukes reside in the large intra- and extra-hepatic BILE DUCTS. Their bulk, together with the biliary hyperplasia, fibrosis and inflammation they provoke, can mechanically obstruct bile flow and produce obstructive (post-hepatic) jaundice. This biliary residence is precisely why an intestinal or tissue helminth would not, but Fasciola can, cause obstructive jaundice.",
+        "C": "Incorrect. Taenia saginata is an intestinal tapeworm; it does not enter the biliary tree.",
+        "D": "Incorrect. Hymenolepis nana is a small intestinal tapeworm and does not cause biliary obstruction."
+      },
+      "main_concept": "CON-INF-EA26E49A99D5E5", "concept_ids": ["CON-INF-EA26E49A99D5E5"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Explain that adult Fasciola in the bile ducts can cause obstructive jaundice."
+    },
+    {
+      "key": "q6", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-06", "page": 2,
+      "title": "Route of Fasciola infection",
+      "question": "Infection with Fasciola is through:",
+      "options": { "A": "Ingestion of raw liver of sheep", "B": "Ingestion of encysted metacercaria on plants", "C": "Ingestion of eggs of Fasciola", "D": "Penetration of skin by cercariae" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Eating raw sheep liver containing adult flukes gives a spurious infection (eggs merely pass through the gut) or halzoun, not a true established infection.",
+        "B": "Correct. True Fasciola infection follows ingestion of the encysted METACERCARIA attached to aquatic plants such as watercress. After ingestion the metacercaria excysts in the duodenum, and the juvenile fluke penetrates the gut wall, crosses the peritoneal cavity and Glisson's capsule, and migrates through liver parenchyma to reach the bile ducts. Ingesting the plant-borne metacercaria is therefore the mode of infection.",
+        "C": "Incorrect. Fasciola eggs passed in faeces are unembryonated and non-infective; they must develop in water and pass through a snail, so swallowing eggs does not cause infection.",
+        "D": "Incorrect. Skin penetration by cercariae is the route for schistosomes, not Fasciola, whose cercariae encyst on vegetation instead of penetrating skin."
+      },
+      "main_concept": "CON-INF-D8B5E96BCF9A16", "concept_ids": ["CON-INF-D8B5E96BCF9A16"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "State that Fasciola is acquired by ingesting encysted metacercariae on aquatic plants."
+    },
+    {
+      "key": "q7", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-07", "page": 2,
+      "title": "Snail intermediate host of Fasciola",
+      "question": "Lymnaea is the snail intermediate host for:",
+      "options": { "A": "Heterophyes", "B": "Diphyllobothrium spp.", "C": "Toxocara spp.", "D": "Fasciola spp." },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The snail intermediate host of Heterophyes is Pirenella conica, not Lymnaea.",
+        "B": "Incorrect. Diphyllobothrium uses a copepod (Cyclops) as first intermediate host and a fish as second, not a snail.",
+        "C": "Incorrect. Toxocara is a soil-transmitted nematode of dogs and cats with no snail intermediate host.",
+        "D": "Correct. Fasciola spp. develop their larval (sporocyst, redia and cercaria) stages inside the freshwater snail LYMNAEA, which serves as the intermediate host. Cercariae then emerge from Lymnaea and encyst as metacercariae on vegetation. Linking Lymnaea to Fasciola is the atomic snail-host fact tested here."
+      },
+      "main_concept": "CON-INF-D6B82AD40F823C", "concept_ids": ["CON-INF-D6B82AD40F823C"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Identify Lymnaea as the snail intermediate host of Fasciola."
+    },
+    {
+      "key": "q8", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-08", "page": 2,
+      "title": "Mode of human Heterophyes infection",
+      "question": "Man is infected by Heterophyes through:",
+      "options": { "A": "Eating insufficiently cooked crabs", "B": "Handling the snail Pirenella conica", "C": "Drinking contaminated water with cercaria", "D": "Eating improperly cooked fish (Tilapia or Mugil)" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Undercooked crabs transmit the lung fluke Paragonimus, not Heterophyes.",
+        "B": "Incorrect. Merely handling the Pirenella snail does not transmit infection; the infective metacercaria is in the fish, not on the snail's surface.",
+        "C": "Incorrect. Heterophyes cercariae do not infect by being drunk in water; they leave the snail and encyst in fish, and infection requires eating that fish.",
+        "D": "Correct. Humans acquire Heterophyes heterophyes by eating raw or improperly cooked brackish-water FISH such as Tilapia or Mugil that contain encysted metacercariae. On digestion the metacercariae excyst and the young flukes attach to the small-intestinal mucosa to mature. Eating undercooked fish is therefore the mode of infection, mirroring the snail (Pirenella)–fish two-host cycle."
+      },
+      "main_concept": "CON-INF-FFB06468007C2B", "concept_ids": ["CON-INF-FFB06468007C2B"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "State that Heterophyes is acquired by eating undercooked fish (Tilapia or Mugil) carrying metacercariae."
+    },
+    {
+      "key": "q9", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-09", "page": 2,
+      "title": "Common name 'sheep liver fluke'",
+      "question": "Sheep liver fluke is common name of:",
+      "options": { "A": "Fasciola hepatica", "B": "Fasciola gigantica", "C": "Taenia saginata", "D": "Taenia solium" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Fasciola hepatica is classically called the SHEEP LIVER FLUKE because sheep are its main definitive host and the adult fluke lives in the sheep's (and human's) hepatic bile ducts. The name captures both the host (sheep) and the site (liver). This is the standard common name asked for.",
+        "B": "Incorrect. Fasciola gigantica is the tropical/large liver fluke of cattle; the specific common name 'sheep liver fluke' refers to F. hepatica.",
+        "C": "Incorrect. Taenia saginata is the beef tapeworm, not a fluke.",
+        "D": "Incorrect. Taenia solium is the pork tapeworm, not a fluke."
+      },
+      "main_concept": "CON-INF-B15282FFD57DA0", "concept_ids": ["CON-INF-B15282FFD57DA0"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Match the common name 'sheep liver fluke' to Fasciola hepatica."
+    },
+    {
+      "key": "q10", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-10", "page": 2,
+      "title": "Consequence of egg emboli",
+      "question": "Egg emboli may cause:",
+      "options": { "A": "Ocular toxocariasis", "B": "Convulsions in diphyllobothriasis latum", "C": "Granulomatous brain lesions in heterophyiasis", "D": "Loeffler syndrome in strongyloidiasis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ocular toxocariasis is caused by migrating Toxocara LARVAE (larva migrans), not by egg emboli.",
+        "B": "Incorrect. Diphyllobothrium causes B12-deficiency megaloblastic anaemia; it does not embolise eggs to the brain.",
+        "C": "Correct. In heterophyiasis the small adult flukes can penetrate the intestinal wall so that their EGGS enter mesenteric venules and are carried as emboli to distant organs, including the brain and spinal cord (and heart), where they lodge and incite GRANULOMATOUS inflammation. This ectopic egg embolisation is the recognised cause of neurological and cardiac heterophyiasis. The question tests that trapped, embolised eggs — not larvae — produce these granulomas.",
+        "D": "Incorrect. Loeffler syndrome is a transient eosinophilic pneumonitis from larval lung migration (e.g. Ascaris, Strongyloides), not from egg emboli."
+      },
+      "main_concept": "CON-INF-55B2D370262207", "concept_ids": ["CON-INF-55B2D370262207"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "Explain that embolised Heterophyes eggs cause granulomatous brain (and cardiac) lesions."
+    },
+    {
+      "key": "q11", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-11", "page": 2,
+      "title": "True statement about Fasciola infection",
+      "question": "The following about Fasciola spp. infection is TRUE:",
+      "options": { "A": "Proline secretion by the worm causes minimal abscesses", "B": "Immature worms produce destruction in liver parenchyma", "C": "No ectopic migration occurs", "D": "Praziquantel is the drug of choice" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Proline secreted by the fluke causes bile-duct hyperplasia and can produce sizeable, not minimal, changes; the statement understates its effect.",
+        "B": "Correct. During the acute (invasive/hepatic) phase the IMMATURE juvenile flukes burrow through the liver, tunnelling through and DESTROYING the hepatic parenchyma before they settle in the bile ducts. This migratory tissue destruction produces the fever, tender hepatomegaly and eosinophilia of acute fascioliasis. Recognising that the immature worms damage liver parenchyma is the true statement the question rewards.",
+        "C": "Incorrect. Ectopic migration DOES occur in fascioliasis (aberrant flukes reach skin, lungs and other sites), so this statement is false.",
+        "D": "Incorrect. The drug of choice for Fasciola is TRICLABENDAZOLE; praziquantel (effective for most other flukes) is notably ineffective against Fasciola."
+      },
+      "main_concept": "CON-INF-B40B43B4A5BBD9", "concept_ids": ["CON-INF-B40B43B4A5BBD9"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Recognise that immature Fasciola flukes destroy liver parenchyma during the acute phase."
+    },
+    { "key": "q12", "hold": "in-source exact duplicate of Q15 — identical stem 'Spurious infection is related to:' with the same options (Halzoun / Fascioliasis / Sparganosis / Hydatidosis) and the same printed key (B, Fascioliasis); Q15 is authored, so Q12 is held to avoid a duplicate item." },
+    {
+      "key": "q13", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-13", "page": 3,
+      "title": "Definition of the definitive host",
+      "question": "The definitive host is:",
+      "options": { "A": "Host in which the larval asexual phase of parasite development occurs", "B": "Host in which the adult or sexual phase of parasite development occurs", "C": "An insect which transmits a parasite to its host", "D": "A host harbouring the parasite in an arrested stage of development" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The host harbouring the larval/asexual stages is the INTERMEDIATE host, not the definitive host.",
+        "B": "Correct. The DEFINITIVE host is the one in which the parasite reaches its ADULT stage and/or undergoes SEXUAL reproduction. For example, humans are the definitive host of Schistosoma (adult worms mating in the veins) and of Taenia (adult tapeworm in the gut). Defining the definitive host by the adult/sexual phase is the atomic fact tested, and it is what separates it from the intermediate host that carries only larval/asexual stages.",
+        "C": "Incorrect. A blood-sucking insect that transmits a parasite is a VECTOR (a form of intermediate host in some cycles), not by definition the definitive host.",
+        "D": "Incorrect. A host that merely carries the parasite in an arrested (hypobiotic) or transport stage is a paratenic/reservoir host, not the definitive host."
+      },
+      "main_concept": "CON-INF-E33402CF625073", "concept_ids": ["CON-INF-E33402CF625073"],
+      "library_ids": ["ART-INF-309-PARA-GENERAL"],
+      "primary_node_id": "DIS-PAR",
+      "subtopic": "General parasitology",
+      "module_subject": "309 INF > Parasitology > General parasitology > Host-parasite relationships",
+      "learning_objective": "Define the definitive host as the one harbouring the adult or sexually reproducing stage of the parasite."
+    },
+    {
+      "key": "q14", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-14", "page": 3,
+      "title": "Main cause of pathology in schistosomiasis",
+      "question": "The main pathology in Schistosoma infection is due to:",
+      "options": { "A": "Presence of adults in the venules", "B": "Eggs trapped in tissues", "C": "Toxic byproducts of migrating juveniles", "D": "Traumatic effect of adult worms" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The paired adult worms live in the venous plexuses and are largely tolerated (they coat themselves in host antigens); they are not the main source of disease.",
+        "B": "Correct. Most schistosomal disease is caused by the EGGS that become TRAPPED in tissues (bladder wall in S. haematobium; intestinal wall and liver in S. mansoni/japonicum). Antigens secreted by the miracidium inside the egg drive a T-cell-mediated GRANULOMATOUS and fibrotic reaction around each trapped egg, producing the haematuria, bladder fibrosis, periportal (pipe-stem) fibrosis and portal hypertension of chronic disease. The egg-induced granuloma is therefore the central mechanism of pathology.",
+        "C": "Incorrect. Migrating schistosomula provoke only transient reactions; they are not the main cause of chronic pathology.",
+        "D": "Incorrect. Adult worms cause little direct trauma; the granulomatous response to trapped eggs, not mechanical injury by adults, drives the disease."
+      },
+      "main_concept": "CON-INF-8468C69F51F3D2", "concept_ids": ["CON-INF-8468C69F51F3D2"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Schistosoma",
+      "learning_objective": "Attribute the main pathology of schistosomiasis to granulomatous reaction around eggs trapped in tissues."
+    },
+    {
+      "key": "q15", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-15", "page": 3,
+      "title": "Disease associated with spurious infection",
+      "question": "Spurious infection is related to:",
+      "options": { "A": "Halzoun", "B": "Fascioliasis", "C": "Sparganosis", "D": "Hydatidosis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Halzoun is a true parasitic irritation of the pharynx (Linguatula/Fasciola nymph or fluke), not a spurious (false) infection.",
+        "B": "Correct. A SPURIOUS (false) infection in fascioliasis occurs when a person eats infected raw LIVER containing adult Fasciola; the fluke's eggs simply pass through the human gut and appear in the stool WITHOUT the person actually being infected. Recognising this is important because such transit eggs can be mistaken on stool microscopy for a genuine infection, so the patient should be re-examined after avoiding liver in the diet. The eggs-in-transit-without-establishment concept is exactly what 'spurious infection' means here.",
+        "C": "Incorrect. Sparganosis is a genuine tissue infection by the plerocercoid (sparganum) larva of Spirometra, not a spurious infection.",
+        "D": "Incorrect. Hydatidosis is a true cystic tissue infection by Echinococcus larvae, not a spurious infection."
+      },
+      "main_concept": "CON-INF-A66C70C9A59FA6", "concept_ids": ["CON-INF-A66C70C9A59FA6"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Fasciola",
+      "learning_objective": "Explain spurious fascioliasis as transit of ingested Fasciola eggs in stool without true infection."
+    },
+    {
+      "key": "q16", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-16", "page": 3,
+      "title": "Parasite with a lophocercous cercaria",
+      "question": "Lophocercous cercaria is that of:",
+      "options": { "A": "Fasciola hepatica", "B": "Fasciola gigantica", "C": "Heterophyes heterophyes", "D": "Schistosoma spp." },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Fasciola releases a gymnocephalic (simple-tailed) cercaria that encysts on vegetation, not a lophocercous one.",
+        "B": "Incorrect. Fasciola gigantica, like F. hepatica, has a gymnocephalic cercaria, not a lophocercous type.",
+        "C": "Correct. Heterophyes heterophyes produces a LOPHOCERCOUS (pleurolophocercous) cercaria, characterised by a tail bearing fin-like folds and pigmented eye-spots, adapted for swimming to reach and penetrate the fish second intermediate host. This distinctive finned tail is the identifying feature the question tests. It contrasts with the fork-tailed schistosome cercaria and the simple gymnocephalic cercaria of Fasciola.",
+        "D": "Incorrect. Schistosomes have a furcocercous (fork-tailed) cercaria that penetrates skin, not a lophocercous cercaria."
+      },
+      "main_concept": "CON-INF-4C1E442158C709", "concept_ids": ["CON-INF-4C1E442158C709"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "Recognise the lophocercous (finned-tail) cercaria as characteristic of Heterophyes."
+    },
+    {
+      "key": "q17", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-17", "page": 3,
+      "title": "Schistosome with Bulinus truncatus as intermediate host",
+      "question": "Bulinus truncatus is the intermediate host of:",
+      "options": { "A": "Non-human schistosomes", "B": "Schistosoma mansoni", "C": "Schistosoma japonicum", "D": "Schistosoma haematobium" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Non-human (avian/animal) schistosomes use other snails and cause only cercarial dermatitis in man; Bulinus is specifically linked to human urinary schistosomiasis.",
+        "B": "Incorrect. Schistosoma mansoni uses Biomphalaria (Planorbis) snails, not Bulinus.",
+        "C": "Incorrect. Schistosoma japonicum uses the amphibious snail Oncomelania, not Bulinus.",
+        "D": "Correct. Bulinus truncatus is the freshwater snail intermediate host of Schistosoma HAEMATOBIUM, the agent of urinary schistosomiasis. Cercariae released from Bulinus penetrate human skin in contaminated water, so the geographic presence of this snail determines transmission of urinary bilharziasis. Pairing Bulinus with S. haematobium is the atomic snail-host fact tested."
+      },
+      "main_concept": "CON-INF-459C611F812E47", "concept_ids": ["CON-INF-459C611F812E47"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Schistosoma",
+      "learning_objective": "Identify Bulinus truncatus as the snail intermediate host of Schistosoma haematobium."
+    },
+    {
+      "key": "q18", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-18", "page": 3,
+      "title": "Condition related to Linguatula serrata infection",
+      "question": "Linguatula serrata infection is related to:",
+      "options": { "A": "Halzoun", "B": "Fascioliasis", "C": "Coenurosis", "D": "Hydatidosis" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Linguatula serrata (the tongue worm) is related to HALZOUN: eating raw or undercooked liver or lymph nodes containing the encysted nymph lets the nymph attach to the human naso-pharynx, producing the acute irritative syndrome called halzoun (marrara). Linguatula and halzoun are therefore linked as parasite and disease. This is the reciprocal of the fact that halzoun is caused by Linguatula.",
+        "B": "Incorrect. Fascioliasis is caused by the liver fluke Fasciola, a trematode, not by the pentastome Linguatula.",
+        "C": "Incorrect. Coenurosis is caused by the coenurus larva of Multiceps (Taenia) multiceps, not by Linguatula.",
+        "D": "Incorrect. Hydatidosis is caused by the larva of Echinococcus granulosus, not by Linguatula."
+      },
+      "main_concept": "CON-INF-3EE3B9E2CE37B8", "concept_ids": ["CON-INF-3EE3B9E2CE37B8"],
+      "primary_node_id": "DIS-PAR-T03",
+      "subtopic": "Pentastomes",
+      "module_subject": "309 INF > Parasitology > Arthropods and vectors > Linguatula serrata",
+      "learning_objective": "Link Linguatula serrata infection to halzoun."
+    },
+    {
+      "key": "q19", "id": "QST-KASR309INF-BANK-INTRO-TREMATODA-19", "page": 3,
+      "title": "Fluke requiring two intermediate hosts",
+      "question": "Two intermediate hosts are required in the life cycle of:",
+      "options": { "A": "Heterophyes", "B": "Fasciola gigantica", "C": "Taenia solium", "D": "Taenia saginata" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Heterophyes heterophyes needs TWO intermediate hosts: a FIRST intermediate host, the snail Pirenella conica (in which sporocyst and cercarial development occur), and a SECOND intermediate host, a brackish-water fish such as Tilapia or Mugil (in which the cercaria encysts as the infective metacercaria). This snail-then-fish requirement is typical of many food-borne flukes and is the atomic fact tested. Man, the definitive host, is infected by eating the fish.",
+        "B": "Incorrect. Fasciola gigantica has only ONE intermediate host (the snail Lymnaea); its metacercaria encysts on vegetation, not in a second animal host.",
+        "C": "Incorrect. Taenia solium has one intermediate host (the pig) harbouring the cysticercus.",
+        "D": "Incorrect. Taenia saginata has one intermediate host (cattle) harbouring the cysticercus."
+      },
+      "main_concept": "CON-INF-2323C289A8F87B", "concept_ids": ["CON-INF-2323C289A8F87B"],
+      "primary_node_id": "DIS-PAR-T02",
+      "subtopic": "Trematoda",
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "Recognise that Heterophyes requires two intermediate hosts (snail then fish)."
+    }
+  ]
+}
