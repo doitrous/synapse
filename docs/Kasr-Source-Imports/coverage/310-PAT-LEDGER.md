@@ -324,3 +324,32 @@ of MI) stays **HELD** (render did not resolve the multi-defensible key). After H
 Tarek folders) and the entire **Pharmacology** sub-corpus (`All 197 Qs answered by pharmaga.pdf`,
 `Pharma MCQ by Abolmagd.pdf`, `PHARMA GITTTTTTT.pdf`, `Pharma RSPPPPP.pdf`) — pharmacology items
 tag subject `pharm`.
+
+## Pharmacology sub-corpus — TRIAGE 2026-09-07 (Omar ruling applied: pharma lives under 310-PAT, subject `pha` → CON-PHA-)
+
+Attempted to open the Pharmacology subject. **0 authored — both named keyed candidates are dead ends; HELD per never-guess.**
+
+- **`All 197 Qs answered by pharmaga.pdf`** — the brief's "primary keyed bank" — is **MISFILED**. Already
+  registered as `src_ba6766e99714b935cdc1` and its CONTENT is **ENT/otology** (CSOM, cholesteatoma,
+  mastoidectomy — a Google-Forms answered-quiz export), NOT pharmacology. Already relocated to the
+  **316 ENT** lane and authored there (commit `0a6f05ba`, 12 MCQs). The filename ("pharmaga") is
+  deceptive. NOT a pharmacology source. (Trusted the manifest evidence + the ENT commit; not
+  re-rendered, as it is a 17-page image-only PDF.)
+- **`Pharma MCQ by Abolmagd.pdf`** — genuine pharmacology, native text, topic-organised (ANS, Ocular,
+  Muscle, Autacoids, CVS & Renal [Diuretics/Ischemia/Hypertension/Heart Failure/Dysrhythmia], Blood),
+  34 pp — but **UNSOLVED**. Filename lacks the `[SOLVED]` tag the pathology file carries; `pagetext keys`
+  reports 0 marked options on every page; render of p.3 confirms the yellow highlight is on the
+  **question STEMS only** (section header green), **no option is marked**; and there is **no answer-key
+  table** anywhere (questions run to the last page, ending Q32 Blood). No printed key → **HOLD**.
+
+**310 pharma NEEDS A KEYED SOURCE.** Candidates NOT yet triaged (no paths supplied; disk-search
+forbidden this pass): `PHARMA GITTTTTTT.pdf`, `Pharma RSPPPPP.pdf` in the same
+`y3/310 PAT/Pharmacology/Questions & MCQs/` folder — a future session with disk access should check
+these for a printed/circled/highlighted key or a separate answer PDF. If a keyed source exists, author
+under **310-PAT** as a distinct **Pharmacology** subject (`pha`), files `310-PAT-pharma-*`.
+
+**Taxonomy note (no node needs inventing):** a pharmacology **discipline node already exists** —
+`DIS-PHA` with `DIS-PHA-T01..T08` (kinetics T01, etc.; 653 refs corpus-wide), used by the Year-2
+108-INT pharmacology concepts (which sit on `SYS-FND-T04` with `DIS-PHA-T01` as discipline cross-nav).
+File pharma articles/concepts under the appropriate `DIS-PHA-T0x`. `CON-PHA-` prefix has 0 corpus uses
+so far (fresh mint space; still collision-check before minting).
