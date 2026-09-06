@@ -1844,3 +1844,276 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Larynx-section acquired-airway/inflammation/airway-management concepts (Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q43, Q44, Q45, Q46, Q48, Q50, Q51, Q52, Q53, Q54) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-ADENOID
+## title
+Otorhinolaryngology: adenoids and their effects
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the adenoid facts tested by the first part of the bank's Pharynx section (Q1-6). It covers the effects of adenoid hypertrophy (bilateral secretory otitis media, recurrent acute otitis media, snoring and obstructive sleep apnoea, and adenoid facies with a high-arched palate, but not epistaxis), the classic childhood presentation of mouth breathing with hyponasal speech and inattention from a middle-ear effusion, adenoid hypertrophy as the commonest cause of bilateral nasal obstruction in a child, and the control of post-adenoidectomy bleeding by a posterior (postnasal) pack.
+## sections
+### Definition
+The adenoid is the nasopharyngeal tonsil, a midline mass of lymphoid tissue in the postnasal space that enlarges in childhood and normally regresses by adolescence. Its enlargement obstructs the nasopharynx and the Eustachian tube openings.
+### Mechanism
+Midline adenoid enlargement blocks both choanae (bilateral nasal obstruction) and both Eustachian tubes (secretory and recurrent acute otitis media). Chronic mouth breathing remodels the growing face into adenoid facies with a high-arched palate, and nasopharyngeal narrowing causes snoring and obstructive sleep apnoea. Being obstructive lymphoid tissue, the adenoid does not bleed, so epistaxis is not one of its effects.
+### Key determinants
+Discriminators tested here: adenoid hypertrophy, not a septal deviation or foreign body, is the commonest cause of bilateral nasal obstruction in a child; mouth breathing with hyponasal speech plus inattention points to adenoid hypertrophy with secretory otitis media; a high-arched palate marks chronic adenoid mouth breathing; and epistaxis is NOT an adenoid effect (it should prompt a search for a vascular cause).
+### Clinical significance
+These facts guide everyday practice: recognising the adenoid child prompts adenoidectomy and grommets for the effusion, understanding that epistaxis is not adenoidal avoids missing a nasopharyngeal angiofibroma, and knowing that the adenoid bed bleeds into the postnasal space directs haemostasis to a posterior pack.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (epistaxis wrongly attributed to adenoids, an anterior pack used for postnasal bleeding, or inattention read as a primary attention disorder rather than a conductive hearing loss).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Adenoids
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-2286F1BE1C589E
+CON-MUL-70F0C7A5EA75E8
+CON-MUL-22CCF99343C356
+CON-MUL-AA18728DF69C52
+CON-MUL-5E37DB7DEE5190
+## related_articles
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+ART-ENT-316-PHARYNX-TONSIL
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section adenoids concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## title
+Otorhinolaryngology: nasopharyngeal carcinoma and juvenile angiofibroma
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the two important nasopharyngeal tumours tested by the bank's Pharynx section (Q7-20): nasopharyngeal carcinoma and juvenile nasopharyngeal angiofibroma. For carcinoma it covers the commonest presentation as a cervical lymph node mass, the cranial nerve palsy pattern (abducent early, facial spared), and radiotherapy as the treatment of choice. For angiofibroma it covers the adolescent-male-only occurrence, the presentation as recurrent epistaxis with an enhancing nasopharyngeal mass, the investigation by imaging and angiography with biopsy contraindicated, and treatment by surgical excision after embolisation rather than radiotherapy.
+## sections
+### Definition
+The nasopharynx harbours two classic tumours in this bank: nasopharyngeal carcinoma, a radiosensitive malignant epithelial tumour of adults, and juvenile nasopharyngeal angiofibroma, a benign but locally aggressive vascular tumour of adolescent males.
+### Mechanism
+Nasopharyngeal carcinoma spreads submucosally and to the skull base, invading the cavernous sinus (abducent nerve early, facial nerve spared) and the jugular foramen, and it metastasises early to cervical nodes. Juvenile angiofibroma arises at the sphenopalatine foramen, is extremely vascular (hence avid contrast enhancement and severe epistaxis), and enlarges to obstruct the nose and Eustachian tube.
+### Key determinants
+Discriminators tested here: an adult with a neck node and a unilateral ear effusion suggests carcinoma, treated by radiotherapy; an adolescent male with recurrent epistaxis and a strongly enhancing nasopharyngeal mass has angiofibroma, imaged and embolised (never biopsied in clinic) and treated by surgery. The facial nerve is spared in carcinoma while the abducent is affected early.
+### Clinical significance
+These facts change management: recognising carcinoma directs the patient to radiotherapy and nasopharyngeal biopsy, whereas recognising angiofibroma forbids office biopsy, mandates angiography with preoperative embolisation, and leads to surgical excision. Both hinge on reading age, sex and the vascularity of the mass correctly.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (biopsying a vascular angiofibroma, choosing radiotherapy for angiofibroma or surgery for carcinoma, or naming the facial nerve as first affected in carcinoma).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Nasopharyngeal tumours
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-23AFF8F39BED7F
+CON-MUL-CEF5100CF755B8
+CON-MUL-8C8819CBA5CD4B
+CON-MUL-86B9EA8485E193
+CON-MUL-BF86DECDF364CB
+CON-MUL-18A03E7B5FE50A
+CON-MUL-E977570DECA3B5
+## related_articles
+ART-ENT-316-PHARYNX-ADENOID
+ART-ENT-316-PHARYNX-TONSIL
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section nasopharyngeal tumours concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-TONSIL
+## title
+Otorhinolaryngology: tonsillitis and tonsillectomy
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the tonsil facts tested by the bank's Pharynx section (Q21-30): the complications of acute tonsillitis (quinsy, rheumatic fever and glomerulonephritis), the indications for tonsillectomy (recurrent tonsillitis, obstructive hypertrophy, previous quinsy and a rheumatic or nephritic focus), and the classification and timing of post-tonsillectomy bleeding, with secondary haemorrhage occurring about the sixth day from infection of the tonsillar bed.
+## sections
+### Definition
+The palatine tonsils are paired lymphoid organs in the oropharynx whose acute streptococcal infection and its complications, together with the indications and haemorrhagic risks of tonsillectomy, are the core of this cluster.
+### Mechanism
+Group A streptococcal tonsillitis can suppurate into a peritonsillar abscess (quinsy) or trigger the immune-mediated sequelae of rheumatic fever and post-streptococcal glomerulonephritis. After tonsillectomy, bleeding is primary (during surgery), reactionary (first 24 hours, from a slipped ligature or rising blood pressure) or secondary (about the fifth to tenth day, from infection of the healing bed).
+### Key determinants
+Discriminators tested here: acute tonsillitis complications include both suppurative (quinsy) and non-suppurative (rheumatic fever, glomerulonephritis) types; tonsillectomy is indicated for recurrent tonsillitis, obstructive hypertrophy, previous quinsy and a rheumatic/nephritic focus, but is absolutely contraindicated in an uncorrected bleeding disorder; and secondary post-tonsillectomy haemorrhage, around the sixth day, is due to infection rather than a technical or clotting fault.
+### Clinical significance
+These facts guide practice: a full antibiotic course for streptococcal tonsillitis prevents the non-suppurative sequelae, correct indications justify surgery, and knowing that the late bleed is infective and occurs around day six lets clinicians warn families and manage it with antibiotics and observation.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (calling a slipped ligature the cause of secondary bleeding, missing the absolute contraindication of a bleeding disorder, or treating streptococcal tonsillitis with too short a course).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Tonsils
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-CE5D68221B7E82
+CON-MUL-48199190BEB9AE
+CON-MUL-DB3EC747015EAB
+## related_articles
+ART-ENT-316-PHARYNX-ADENOID
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section tonsils concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6

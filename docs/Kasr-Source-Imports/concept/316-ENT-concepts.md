@@ -13295,3 +13295,1668 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.referred-otalgia-larynx.vagus-arnolds-nerve", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-2286F1BE1C589E
+## label
+Post-adenoidectomy bleeding is controlled by a posterior (postnasal) pack
+## canonical_key
+otolaryngology.adenoidectomy.reactionary-haemorrhage-postnasal-pack
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The adenoid bed lies in the postnasal space, so haemorrhage after adenoidectomy cannot be reached by an anterior nasal pack alone. Persistent bleeding is arrested by a posterior nasal (postnasal) pack that presses directly on the nasopharynx, with the child resuscitated and observed. Examination under anaesthesia and diathermy to a bleeding point are used if packing fails.
+## explicit_objective
+State that post-adenoidectomy bleeding is controlled by a posterior (postnasal) pack.
+## pitfalls
+An anterior nasal pack, nasal steroids, anti-inflammatory drugs or a mouth gargle do not tamponade the postnasal adenoid bed; NSAIDs may worsen bleeding by impairing platelets.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.adenoidectomy.reactionary-haemorrhage-postnasal-pack", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-70F0C7A5EA75E8
+## label
+Adenoid enlargement causes otitis media, adenoid facies and sleep apnoea but not epistaxis
+## canonical_key
+otolaryngology.adenoid-hypertrophy.clinical-effects-not-epistaxis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adenoid hypertrophy obstructs the nasopharynx and the Eustachian tube openings, producing bilateral secretory otitis media, recurrent acute otitis media, snoring with obstructive sleep apnoea, and (from chronic mouth breathing) adenoid facies with a high-arched palate. Because the adenoid is obstructive lymphoid tissue rather than a vascular lesion, it does not cause epistaxis. Nasal bleeding in a child should instead prompt a search for a vascular cause such as juvenile angiofibroma.
+## explicit_objective
+Recognise that adenoid enlargement causes otitis media, adenoid facies and sleep apnoea but not epistaxis.
+## pitfalls
+Attributing epistaxis to adenoids misses a possible angiofibroma; recurrent nosebleeds are not an adenoid feature.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.adenoid-hypertrophy.clinical-effects-not-epistaxis", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-22CCF99343C356
+## label
+Adenoid hypertrophy presents with mouth breathing, hyponasal speech and secretory otitis media
+## canonical_key
+otolaryngology.adenoid-hypertrophy.mouth-breathing-hyponasality-secretory-otitis-media
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A child with adenoid hypertrophy breathes through the mouth and has hyponasal (dead) speech because the nasopharynx is blocked. The same obstruction closes both Eustachian tubes and causes bilateral secretory otitis media, whose conductive hearing loss shows as poor attention and school difficulty. The combination of mouth breathing, hyponasality and inattention is the classic adenoid symptom cluster.
+## explicit_objective
+Link mouth breathing, hyponasality and inattention in a child to adenoid hypertrophy with secretory otitis media.
+## pitfalls
+The inattention is due to conductive hearing loss from secretory otitis media, not a primary attention disorder; adenoid and middle-ear effusion are suspected together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.adenoid-hypertrophy.mouth-breathing-hyponasality-secretory-otitis-media", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-AA18728DF69C52
+## label
+The high-arched palate of adenoid facies results from chronic adenoid mouth breathing
+## canonical_key
+otolaryngology.adenoid-facies.high-arched-palate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Long-standing adenoidal obstruction forces a child to mouth-breathe, and the tongue no longer rests against the palate during nasal breathing. Over years this remodels the maxilla into a narrow, high-arched palate, part of the adenoid facies that also includes an open mouth, pinched nose, short upper lip and a dull expression. The high-arched palate is therefore a marker of chronic adenoid hypertrophy.
+## explicit_objective
+Attribute the high-arched palate of adenoid facies to chronic adenoid hypertrophy.
+## pitfalls
+A high-arched palate is not a feature of nasopharyngeal angiofibroma, nasopharyngeal carcinoma or allergic polypi; it reflects chronic childhood mouth breathing.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.adenoid-facies.high-arched-palate", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-5E37DB7DEE5190
+## label
+Adenoid hypertrophy is the commonest cause of bilateral nasal obstruction in a child
+## canonical_key
+otolaryngology.child-bilateral-nasal-obstruction.commonest-cause-adenoid-hypertrophy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The adenoid occupies the midline of the postnasal space, so its enlargement blocks both choanae and is the commonest cause of bilateral nasal (nasopharyngeal) obstruction in children. It presents with mouth breathing, hyponasal speech, snoring and secretory otitis media, and adenoidectomy relieves it. A deviated septum or a foreign body more often gives unilateral obstruction, and nasal polypi are uncommon in young children.
+## explicit_objective
+Identify adenoid hypertrophy as the commonest cause of bilateral nasal obstruction in a child.
+## pitfalls
+Nasal polypi in a young child are unusual and should raise suspicion of cystic fibrosis; a foreign body typically obstructs one side with an offensive discharge.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.child-bilateral-nasal-obstruction.commonest-cause-adenoid-hypertrophy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-23AFF8F39BED7F
+## label
+Nasopharyngeal carcinoma affects the abducent nerve early but spares the facial nerve
+## canonical_key
+otolaryngology.nasopharyngeal-carcinoma.cranial-nerve-palsies-facial-spared
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nasopharyngeal carcinoma spreads to the skull base and invades the cavernous sinus through the foramen lacerum, so it typically affects the abducent (VI) nerve early and can involve III, IV and V; extension to the jugular foramen and parapharyngeal space involves IX, X, XI and XII. The facial (VII) nerve runs within the temporal bone away from this path and is characteristically spared. This pattern of multiple cranial nerve palsies with a spared facial nerve is a diagnostic clue.
+## explicit_objective
+Recognise the cranial nerve palsy pattern of nasopharyngeal carcinoma (abducent early, facial spared).
+## pitfalls
+The facial nerve is not the first nerve affected in nasopharyngeal carcinoma; naming it as first affected, or as commonly paralysed, is wrong.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasopharyngeal carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Nasopharyngeal carcinoma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasopharyngeal-carcinoma.cranial-nerve-palsies-facial-spared", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-CEF5100CF755B8
+## label
+Juvenile angiofibroma is investigated by imaging and angiography, and biopsy is contraindicated
+## canonical_key
+otolaryngology.juvenile-angiofibroma.investigation-angiography-biopsy-contraindicated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Juvenile nasopharyngeal angiofibroma is an extremely vascular tumour, so office biopsy is contraindicated because it can provoke torrential haemorrhage. Diagnosis rests on contrast CT/MRI to map extent plus carotid angiography, which shows the characteristic tumour blush and feeding vessels and is therapeutic because the feeders can be embolised before surgery. The imaging-first, no-biopsy pathway is central to safe management.
+## explicit_objective
+State that juvenile angiofibroma is investigated by CT and angiography (with embolisation) and that biopsy is contraindicated.
+## pitfalls
+Never biopsy a suspected angiofibroma in clinic; plain x-ray and ultrasound are inadequate for this deep vascular mass.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Juvenile angiofibroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Juvenile angiofibroma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.juvenile-angiofibroma.investigation-angiography-biopsy-contraindicated", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-8C8819CBA5CD4B
+## label
+The commonest presentation of nasopharyngeal carcinoma is a cervical lymph node mass
+## canonical_key
+otolaryngology.nasopharyngeal-carcinoma.commonest-presentation-cervical-lymph-node
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nasopharyngeal carcinoma metastasises early to the upper deep cervical and posterior triangle lymph nodes, so its commonest presentation is a painless neck (cervical lymph node) mass, often before nasal or aural symptoms appear. Other features include a unilateral middle ear effusion, blood-stained nasal discharge and cranial nerve palsies. An adult with an unexplained upper neck node therefore warrants nasopharyngeal examination.
+## explicit_objective
+State that the commonest presentation of nasopharyngeal carcinoma is a cervical lymph node mass.
+## pitfalls
+Hoarseness is not a feature; epistaxis and nasal stuffiness occur but are not the usual first presentation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasopharyngeal carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Nasopharyngeal carcinoma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasopharyngeal-carcinoma.commonest-presentation-cervical-lymph-node", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-86B9EA8485E193
+## label
+An adolescent male with epistaxis and an enhancing nasopharyngeal mass has a juvenile angiofibroma
+## canonical_key
+otolaryngology.juvenile-angiofibroma.adolescent-male-vascular-nasopharyngeal-mass
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A teenage boy with recurrent (often blood-stained) epistaxis, progressive nasal obstruction, conductive deafness from Eustachian tube obstruction and a strongly contrast-enhancing nasopharyngeal mass on CT has juvenile nasopharyngeal angiofibroma, a benign but locally aggressive vascular tumour. The avid enhancement reflects its vascularity, and age plus sex are decisive. It is distinguished from nasopharyngeal carcinoma (a tumour of adults) and from inverted papilloma and rhinoscleroma.
+## explicit_objective
+Diagnose juvenile angiofibroma from an adolescent male with epistaxis and an enhancing nasopharyngeal mass.
+## pitfalls
+Do not diagnose nasopharyngeal carcinoma in a 15-year-old with a vascular enhancing mass; the age, sex and enhancement point to angiofibroma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Juvenile angiofibroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Juvenile angiofibroma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.juvenile-angiofibroma.adolescent-male-vascular-nasopharyngeal-mass", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-BF86DECDF364CB
+## label
+Juvenile angiofibroma is treated by surgical excision after embolisation, not by radiotherapy
+## canonical_key
+otolaryngology.juvenile-angiofibroma.treatment-surgery-not-radiotherapy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Juvenile angiofibroma is a benign vascular tumour treated by surgical excision, usually after preoperative angiographic embolisation of its feeding vessels to reduce blood loss. Radiotherapy and chemotherapy are not the treatment of choice and are reserved for inaccessible intracranial extension, avoiding irradiation of a young patient. Complete surgical removal is curative.
+## explicit_objective
+State that juvenile angiofibroma is treated by surgical excision (with preoperative embolisation), not radiotherapy or chemotherapy.
+## pitfalls
+Radiotherapy or chemotherapy as the primary treatment is wrong; embolisation is a preoperative adjunct, not the definitive treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Juvenile angiofibroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Juvenile angiofibroma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.juvenile-angiofibroma.treatment-surgery-not-radiotherapy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-18A03E7B5FE50A
+## label
+Radiotherapy is the treatment of choice for nasopharyngeal carcinoma
+## canonical_key
+otolaryngology.nasopharyngeal-carcinoma.treatment-radiotherapy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nasopharyngeal carcinoma is radiosensitive and lies in a surgically inaccessible site with early bilateral nodal spread, so radiotherapy is the treatment of choice and covers the primary and both sides of the neck. Concurrent chemotherapy is added for advanced tumours. Surgery is limited to salvage of residual neck disease rather than primary treatment.
+## explicit_objective
+State that radiotherapy is the treatment of choice for nasopharyngeal carcinoma.
+## pitfalls
+Surgery is not the primary treatment for nasopharyngeal carcinoma; chemotherapy is an adjuvant, not a stand-alone cure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasopharyngeal carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Nasopharyngeal carcinoma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasopharyngeal-carcinoma.treatment-radiotherapy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-E977570DECA3B5
+## label
+Juvenile angiofibroma occurs almost exclusively in adolescent males
+## canonical_key
+otolaryngology.juvenile-angiofibroma.occurs-only-adolescent-males
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Juvenile nasopharyngeal angiofibroma affects almost exclusively young (adolescent) males, typically aged about 10 to 20 years, and is essentially never seen in girls. Its striking age and sex restriction is a defining feature and reflects hormone-related growth, with lesions often stabilising after growth ceases. This is why the same vascular tumour is not expected in females or older adults.
+## explicit_objective
+State that juvenile angiofibroma occurs almost exclusively in adolescent males.
+## pitfalls
+A quoted male-to-female ratio such as 3:1 is misleading; the tumour is effectively male-only, not merely male-predominant.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Juvenile angiofibroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Juvenile angiofibroma
+## article_ids
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.juvenile-angiofibroma.occurs-only-adolescent-males", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-CE5D68221B7E82
+## label
+Acute tonsillitis may be complicated by quinsy, rheumatic fever and glomerulonephritis
+## canonical_key
+otolaryngology.acute-tonsillitis.complications-rheumatic-fever-glomerulonephritis-quinsy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute (group A streptococcal) tonsillitis has suppurative and non-suppurative complications. The suppurative complication is quinsy (peritonsillar abscess) and local spread to parapharyngeal or retropharyngeal spaces. The non-suppurative sequelae are rheumatic fever and post-streptococcal glomerulonephritis, which is why a full antibiotic course is given to eradicate the organism.
+## explicit_objective
+List rheumatic fever, glomerulonephritis and quinsy as complications of acute tonsillitis.
+## pitfalls
+Do not treat streptococcal tonsillitis with a short or incomplete antibiotic course; under-treatment risks the non-suppurative sequelae.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillitis
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.acute-tonsillitis.complications-rheumatic-fever-glomerulonephritis-quinsy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-48199190BEB9AE
+## label
+Secondary post-tonsillectomy haemorrhage occurs about 5-10 days later and is due to infection
+## canonical_key
+otolaryngology.tonsillectomy.secondary-haemorrhage-infection-5-10-days
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Post-tonsillectomy bleeding is classified by timing: primary (during surgery), reactionary (within the first 24 hours, often a slipped ligature or rising blood pressure) and secondary (delayed). Secondary haemorrhage occurs around the fifth to tenth day, typically about the sixth day, when infection of the tonsillar bed separates the healing slough and erodes a vessel. It is managed with antibiotics and supportive care, with surgery reserved for heavy bleeding.
+## explicit_objective
+State that secondary post-tonsillectomy haemorrhage occurs about 5-10 days later and is caused by infection of the tonsillar bed.
+## pitfalls
+A slipped ligature or hypertension causes reactionary (first-day) bleeding, not the delayed secondary bleed; a clotting defect causes early bleeding.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillectomy
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tonsillectomy.secondary-haemorrhage-infection-5-10-days", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-DB3EC747015EAB
+## label
+Indications for tonsillectomy include recurrent tonsillitis, obstructive hypertrophy and a previous quinsy
+## canonical_key
+otolaryngology.tonsillectomy.indications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tonsillectomy is indicated for recurrent acute tonsillitis (frequent disabling attacks), tonsillar hypertrophy causing obstructive sleep apnoea or dysphagia, a previous quinsy (peritonsillar abscess), and when the tonsils are the focus for rheumatic fever or glomerulonephritis; suspected malignancy is a further indication. It is absolutely contraindicated in an uncorrected bleeding disorder such as haemophilia. These indications keep the operation common in children and young adults.
+## explicit_objective
+List the indications for tonsillectomy: recurrent tonsillitis, obstructive hypertrophy, previous quinsy and a rheumatic/nephritic focus.
+## pitfalls
+Tonsillectomy is absolutely contraindicated in an uncorrected bleeding disorder (e.g. haemophilia); a single mild attack of tonsillitis is not an indication.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsillectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsillectomy
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tonsillectomy.indications", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

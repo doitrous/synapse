@@ -1,0 +1,523 @@
+{
+  "lane": "KASR316ENT",
+  "cluster": "pharynx",
+  "header": "Kasr Al Ainy 316 ENT (Year 3) · Pharynx section (Q1-73, the LAST 316-ENT section), from the department ENT MCQ Question Bank. Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p60, rendered once at 200 dpi and read visually), each key cross-checked against the option text. All 73 keys captured in 316-ENT-triage-keys.txt. Tranche 1 = Q1-24 (adenoids, nasopharyngeal carcinoma/angiofibroma, tonsillitis): 18 authored (Q1-5,7-11,13,15,17,18,21-24) / 6 held (Q6,12,14,16,19,20 — in-source duplicates of already-authored facts). Pharynx concepts filed on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx) — clinical facts on DIS-ENT-T03-S02 — minted CON-MUL- / subject mul (ENT has no body-system code, as for 315 OPH and the Ear/Nose/Larynx sections).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "316 ENT",
+    "module_subject": "316 ENT > Otorhinolaryngology > Oral cavity and pharynx",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-ENT-316-PHARYNX-ADENOID"],
+    "resource_ids": ["src_33e91d37f173f0ca3fba"],
+    "source_citation": "Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.{page}); key from the section-end printed answer-key grid (p60)",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Otorhinolaryngology",
+    "subtopic": "Oral cavity and pharynx",
+    "question_type": "Recall",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "section-end printed answer-key grid (image, PDF p60), Q->letter, rendered once at 200 dpi and cross-checked against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "pharynx-q01",
+      "id": "QST-KASR316ENT-PHARYNX-01",
+      "page": 47,
+      "title": "Control of post-adenoidectomy bleeding",
+      "question": "Post adenoidectomy bleeding can be treated by:",
+      "options": {
+        "A": "Posterior nasal packing.",
+        "B": "Local nasal steroids.",
+        "C": "Anti inflammatory drugs.",
+        "D": "Hydrogen peroxide mouth gargle.",
+        "E": "None of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The adenoid bed lies in the postnasal space, so bleeding after adenoidectomy is arrested by a posterior nasal (postnasal) pack that applies direct pressure to the nasopharynx. The pack is placed if simple measures fail and the child is kept under observation. Anterior packing alone does not reach the bleeding bed.",
+        "B": "Incorrect. Local nasal steroids reduce mucosal inflammation over weeks and have no role in stopping active surgical haemorrhage.",
+        "C": "Incorrect. Anti-inflammatory drugs do not control bleeding; some (like NSAIDs) can even worsen it by impairing platelet function.",
+        "D": "Incorrect. A hydrogen peroxide mouth gargle cleans the oral cavity but cannot tamponade a bleeding nasopharyngeal adenoid bed.",
+        "E": "Incorrect. There is an effective measure — a postnasal pack — so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-MUL-2286F1BE1C589E",
+      "concept_ids": ["CON-MUL-2286F1BE1C589E"],
+      "difficulty": "Moderate",
+      "subtopic": "Adenoids",
+      "learning_objective": "State that post-adenoidectomy bleeding is controlled by a posterior (postnasal) pack."
+    },
+    {
+      "key": "pharynx-q02",
+      "id": "QST-KASR316ENT-PHARYNX-02",
+      "page": 47,
+      "title": "Effect not caused by adenoid enlargement",
+      "question": "Adenoid enlargement may result in any of the following EXCEPT:",
+      "options": {
+        "A": "Bilateral middle ear effusion.",
+        "B": "Recurrent epistaxis.",
+        "C": "High arched palate as a feature of adenoid facies.",
+        "D": "Snoring and obstructive sleep apnea.",
+        "E": "Recurrent acute otitis media."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Adenoid hypertrophy obstructs both Eustachian tube openings and causes bilateral secretory otitis media (middle ear effusion), so this is a genuine effect and not the exception.",
+        "B": "Correct. Recurrent epistaxis is NOT a feature of adenoid enlargement; the adenoid is lymphoid tissue that obstructs and infects rather than bleeds. Nasal bleeding in this age group should instead raise suspicion of a vascular nasopharyngeal lesion such as juvenile angiofibroma. Every other listed effect follows directly from chronic nasopharyngeal obstruction.",
+        "C": "Incorrect. Chronic mouth breathing from adenoidal obstruction produces adenoid facies, of which a high-arched palate is a recognised part, so this is a true effect.",
+        "D": "Incorrect. Nasopharyngeal obstruction causes snoring and obstructive sleep apnoea, a true and important effect of adenoid enlargement.",
+        "E": "Incorrect. Eustachian tube obstruction and the adenoid acting as an infection reservoir cause recurrent acute otitis media, so this is a real effect."
+      },
+      "main_concept": "CON-MUL-70F0C7A5EA75E8",
+      "concept_ids": ["CON-MUL-70F0C7A5EA75E8"],
+      "question_type": "Recall",
+      "subtopic": "Adenoids",
+      "learning_objective": "Recognise that adenoid enlargement causes otitis media, adenoid facies and sleep apnoea but not epistaxis."
+    },
+    {
+      "key": "pharynx-q03",
+      "id": "QST-KASR316ENT-PHARYNX-03",
+      "page": 47,
+      "title": "Child with mouth breathing and hyponasality",
+      "question": "A 4 years old child presented by his mother complaining of lack of attention, mouth breathing and hyponasality:",
+      "options": {
+        "A": "secretory otitis media is suspected",
+        "B": "adenoid is suspected",
+        "C": "both a and b",
+        "D": "none of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect on its own. Secretory otitis media is indeed suspected (it explains the inattention through hearing loss), but option a is incomplete because the adenoid is the underlying cause and must also be suspected.",
+        "B": "Incorrect on its own. Adenoid hypertrophy is suspected and explains the mouth breathing and hyponasal speech, but option b omits the associated secretory otitis media that explains the poor attention.",
+        "C": "Correct. Adenoid hypertrophy causes mouth breathing and hyponasal (dead) speech by blocking the nasopharynx, and it simultaneously obstructs the Eustachian tubes to produce secretory otitis media, whose conductive hearing loss shows as inattention. Both diagnoses are therefore suspected together in this child. This is the classic adenoid symptom cluster.",
+        "D": "Incorrect. The picture is a textbook presentation of adenoid hypertrophy with secretory otitis media, so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-MUL-22CCF99343C356",
+      "concept_ids": ["CON-MUL-22CCF99343C356"],
+      "difficulty": "Easy",
+      "question_type": "Diagnosis",
+      "subtopic": "Adenoids",
+      "learning_objective": "Link mouth breathing, hyponasality and inattention in a child to adenoid hypertrophy with secretory otitis media."
+    },
+    {
+      "key": "pharynx-q04",
+      "id": "QST-KASR316ENT-PHARYNX-04",
+      "page": 47,
+      "title": "Condition producing a high-arched palate",
+      "question": "Highly arched palate is found in cases of:",
+      "options": {
+        "A": "Nasopharyngeal fibroma.",
+        "B": "Nasopharyngeal carcinoma.",
+        "C": "Adenoids.",
+        "D": "Allergic nasal polypi."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Nasopharyngeal (juvenile) angiofibroma presents with epistaxis and obstruction in an adolescent male and does not produce the developmental facial changes of chronic childhood mouth breathing.",
+        "B": "Incorrect. Nasopharyngeal carcinoma is a disease of adults presenting with a neck node, ear effusion and cranial nerve palsies, not a high-arched palate.",
+        "C": "Correct. Long-standing adenoidal obstruction forces a child to mouth-breathe, and the resulting adenoid facies includes a high-arched (narrow) palate together with an open mouth, pinched nose and dull expression. The palate is remodelled because the tongue no longer rests against it during nasal breathing. This is why the high-arched palate is a marker of chronic adenoid hypertrophy.",
+        "D": "Incorrect. Allergic nasal polypi cause nasal obstruction and rhinorrhoea but are not classically associated with the high-arched palate of adenoid facies."
+      },
+      "main_concept": "CON-MUL-AA18728DF69C52",
+      "concept_ids": ["CON-MUL-AA18728DF69C52"],
+      "question_type": "Recall",
+      "subtopic": "Adenoids",
+      "learning_objective": "Attribute the high-arched palate of adenoid facies to chronic adenoid hypertrophy."
+    },
+    {
+      "key": "pharynx-q05",
+      "id": "QST-KASR316ENT-PHARYNX-05",
+      "page": 47,
+      "title": "Commonest cause of bilateral nasal obstruction in a child",
+      "question": "The commonest cause of bilateral nasal obstruction in a child is:",
+      "options": {
+        "A": "Deviated septum.",
+        "B": "Adenoid hypertrophy.",
+        "C": "Nasal polypi.",
+        "D": "Nasal foreign body."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A deviated septum usually causes unilateral obstruction and is uncommon as a cause of bilateral blockage in a young child.",
+        "B": "Correct. Adenoid hypertrophy is the commonest cause of bilateral nasal (nasopharyngeal) obstruction in children because the adenoid sits in the midline of the postnasal space and blocks both choanae. It presents with mouth breathing, hyponasal speech and snoring. This is why adenoidectomy is the usual remedy for the persistently blocked-nosed child.",
+        "C": "Incorrect. Nasal polypi are uncommon in young children (and when present should prompt a search for cystic fibrosis), so they are not the commonest cause.",
+        "D": "Incorrect. A nasal foreign body typically causes unilateral obstruction with a unilateral offensive discharge, not bilateral obstruction."
+      },
+      "main_concept": "CON-MUL-5E37DB7DEE5190",
+      "concept_ids": ["CON-MUL-5E37DB7DEE5190"],
+      "question_type": "Recall",
+      "subtopic": "Adenoids",
+      "learning_objective": "Identify adenoid hypertrophy as the commonest cause of bilateral nasal obstruction in a child."
+    },
+    {
+      "key": "pharynx-q07",
+      "id": "QST-KASR316ENT-PHARYNX-07",
+      "page": 48,
+      "title": "False statement about nasopharyngeal carcinoma",
+      "question": "The following are true for nasopharyngeal carcinoma EXCEPT:",
+      "options": {
+        "A": "Radiotherapy is considered the treatment of choice.",
+        "B": "It causes unilateral middle ear effusion.",
+        "C": "The first cranial nerve to be affected is the facial nerve.",
+        "D": "Sends metastases to the cervical lymph nodes.",
+        "E": "The mass may extend into the nasal cavity."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true statement). Radiotherapy is the treatment of choice for nasopharyngeal carcinoma because the tumour is radiosensitive and surgically inaccessible, so this is true and not the exception.",
+        "B": "Incorrect (true statement). The tumour obstructs one Eustachian tube and causes a unilateral middle ear effusion, a classic presenting sign, so this is true.",
+        "C": "Correct (the false statement). The facial nerve is NOT the first cranial nerve affected; nasopharyngeal carcinoma spreads through the foramen lacerum to the cavernous sinus and typically involves the abducent (VI) nerve early, while the facial nerve is characteristically spared. Naming the facial nerve as the first affected is therefore the incorrect statement.",
+        "D": "Incorrect (true statement). Nasopharyngeal carcinoma metastasises early to the cervical lymph nodes, so this is true.",
+        "E": "Incorrect (true statement). The mass can extend anteriorly into the nasal cavity, so this is a genuine feature."
+      },
+      "main_concept": "CON-MUL-23AFF8F39BED7F",
+      "concept_ids": ["CON-MUL-23AFF8F39BED7F"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "question_type": "Recall",
+      "subtopic": "Nasopharyngeal carcinoma",
+      "learning_objective": "Recognise that the facial nerve is spared early in nasopharyngeal carcinoma while the abducent nerve is affected."
+    },
+    {
+      "key": "pharynx-q08",
+      "id": "QST-KASR316ENT-PHARYNX-08",
+      "page": 48,
+      "title": "Best investigation for nasopharyngeal angiofibroma",
+      "question": "The best investigation to diagnose nasopharyngeal angiofibroma is:",
+      "options": {
+        "A": "Biopsy.",
+        "B": "Plain x-ray.",
+        "C": "Carotid angiography.",
+        "D": "Ultrasonography."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect and dangerous. Biopsy of a juvenile angiofibroma is contraindicated because the lesion is extremely vascular and biopsy can provoke torrential, life-threatening haemorrhage.",
+        "B": "Incorrect. A plain x-ray cannot characterise a vascular soft-tissue nasopharyngeal mass or define its feeding vessels.",
+        "C": "Correct. Carotid (or the more specific external carotid) angiography demonstrates the characteristic tumour blush and identifies the feeding vessels of a juvenile angiofibroma, and it is therapeutic as well because the feeders can be embolised before surgery. Contrast CT/MRI provide anatomical extent, but among the options angiography is the definitive vascular investigation. Crucially it lets the diagnosis be made without a hazardous biopsy.",
+        "D": "Incorrect. Ultrasonography does not image a deep nasopharyngeal mass or its skull-base extension adequately."
+      },
+      "main_concept": "CON-MUL-CEF5100CF755B8",
+      "concept_ids": ["CON-MUL-CEF5100CF755B8"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "question_type": "Recall",
+      "subtopic": "Juvenile angiofibroma",
+      "learning_objective": "State that juvenile angiofibroma is investigated by angiography (with embolisation) and that biopsy is contraindicated."
+    },
+    {
+      "key": "pharynx-q09",
+      "id": "QST-KASR316ENT-PHARYNX-09",
+      "page": 48,
+      "title": "Commonest presentation of nasopharyngeal carcinoma",
+      "question": "Most common presentation in nasopharyngeal carcinoma:",
+      "options": {
+        "A": "Epistaxis.",
+        "B": "Hoarseness of voice.",
+        "C": "Nasal stuffiness.",
+        "D": "Cervical lymphadenopathy."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Blood-stained nasal discharge can occur, but frank epistaxis is not the commonest presenting complaint of nasopharyngeal carcinoma.",
+        "B": "Incorrect. Hoarseness is a laryngeal symptom and is not typical of nasopharyngeal carcinoma.",
+        "C": "Incorrect. Nasal stuffiness may occur once the tumour is bulky but is not the usual first presentation.",
+        "D": "Correct. Nasopharyngeal carcinoma most often presents as a painless cervical lymph node mass, because it metastasises early to the upper deep cervical (and posterior triangle) nodes. Many patients seek advice for the neck swelling before any nasal or aural symptom. This is why an adult with an unexplained upper neck node warrants nasopharyngeal examination."
+      },
+      "main_concept": "CON-MUL-8C8819CBA5CD4B",
+      "concept_ids": ["CON-MUL-8C8819CBA5CD4B"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "question_type": "Recall",
+      "subtopic": "Nasopharyngeal carcinoma",
+      "learning_objective": "State that the commonest presentation of nasopharyngeal carcinoma is a cervical lymph node mass."
+    },
+    {
+      "key": "pharynx-q10",
+      "id": "QST-KASR316ENT-PHARYNX-10",
+      "page": 48,
+      "title": "First step for an adolescent with a vascular nasal mass",
+      "question": "A 15 years old boy presented with history of recurrent epistaxis and protrusion of the eye ball that started one year ago. On examination there was a unilateral fleshy nasal mass on the side of the proptosis. The first important step to do is to:",
+      "options": {
+        "A": "Schedule the patient for urgent surgery to remove the mass.",
+        "B": "Do CT of the nose and paranasal sinuses and angiography if found to be vascular.",
+        "C": "Take biopsy from the mass to reach a histological diagnosis.",
+        "D": "Give antibiotics and analgesics.",
+        "E": "Give local steroids."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Rushing to surgery without imaging and preoperative embolisation risks massive intra-operative haemorrhage in a vascular tumour.",
+        "B": "Correct. An adolescent male with recurrent epistaxis, proptosis and a fleshy nasal mass has a juvenile angiofibroma until proven otherwise, so the first step is contrast CT of the nose and paranasal sinuses to map extent, followed by angiography if the mass is vascular. Angiography both confirms the vascular nature and allows preoperative embolisation. This imaging-first pathway deliberately avoids an office biopsy.",
+        "C": "Incorrect and dangerous. Biopsy of a suspected angiofibroma can cause severe uncontrolled bleeding and is contraindicated.",
+        "D": "Incorrect. Antibiotics and analgesics do not address a vascular nasopharyngeal tumour and would delay diagnosis.",
+        "E": "Incorrect. Local steroids treat inflammatory/allergic mucosal disease, not an angiofibroma."
+      },
+      "main_concept": "CON-MUL-CEF5100CF755B8",
+      "concept_ids": ["CON-MUL-CEF5100CF755B8"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "subtopic": "Juvenile angiofibroma",
+      "learning_objective": "Choose CT plus angiography (not biopsy) as the first step for a suspected juvenile angiofibroma."
+    },
+    {
+      "key": "pharynx-q11",
+      "id": "QST-KASR316ENT-PHARYNX-11",
+      "page": 48,
+      "title": "Diagnosis of an enhancing nasopharyngeal mass in a boy",
+      "question": "A 15 year old male with blood stained nasal discharge and conductive deafness. Examination revealed large nasopharyngeal mass. CT showed an enhancing mass in the nasopharynx. The most likely diagnosis is:",
+      "options": {
+        "A": "Nasopharyngeal carcinoma.",
+        "B": "Angiofibroma.",
+        "C": "Rhinoscleroma.",
+        "D": "Maxillary sinus carcinoma.",
+        "E": "Inverted papilloma."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nasopharyngeal carcinoma is a tumour of adults; it would be very unusual at 15 years, and it does not characteristically show the intense vascular enhancement seen here.",
+        "B": "Correct. A 15-year-old male with blood-stained nasal discharge, conductive deafness (Eustachian tube obstruction) and a strongly enhancing nasopharyngeal mass on CT is the classic picture of juvenile nasopharyngeal angiofibroma, a highly vascular benign tumour of adolescent boys. The avid contrast enhancement reflects its vascularity. Age, sex, epistaxis and the enhancing mass together point to angiofibroma.",
+        "C": "Incorrect. Rhinoscleroma is a chronic granulomatous infection of the nose, not a solitary enhancing nasopharyngeal mass in a teenager.",
+        "D": "Incorrect. Maxillary sinus carcinoma arises in the antrum of older adults and presents with cheek/alveolar signs, not a nasopharyngeal mass in a boy.",
+        "E": "Incorrect. Inverted papilloma arises from the lateral nasal wall in adults and is not typically an enhancing nasopharyngeal mass in an adolescent."
+      },
+      "main_concept": "CON-MUL-86B9EA8485E193",
+      "concept_ids": ["CON-MUL-86B9EA8485E193"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "difficulty": "Moderate",
+      "question_type": "Diagnosis",
+      "subtopic": "Juvenile angiofibroma",
+      "learning_objective": "Diagnose juvenile angiofibroma from an adolescent male with epistaxis and an enhancing nasopharyngeal mass."
+    },
+    {
+      "key": "pharynx-q13",
+      "id": "QST-KASR316ENT-PHARYNX-13",
+      "page": 49,
+      "title": "False statement about nasopharyngeal angiofibroma",
+      "question": "All the following about nasopharyngeal angiofibroma is true EXCEPT:",
+      "options": {
+        "A": "occurs exclusively in males",
+        "B": "epistaxis and nasal obstruction are common",
+        "C": "radiotherapy is the treatment of choice",
+        "D": "arises from the sphenopalatine foramen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true statement). Juvenile angiofibroma occurs almost exclusively in adolescent males, so this is true and not the exception.",
+        "B": "Incorrect (true statement). Recurrent severe epistaxis and progressive nasal obstruction are the common presenting features, so this is true.",
+        "C": "Correct (the false statement). Radiotherapy is NOT the treatment of choice; juvenile angiofibroma is treated by surgical excision after preoperative embolisation, with radiotherapy reserved for inaccessible intracranial extension. Because it is a benign vascular tumour, surgery is curative and irradiating a child is avoided. Naming radiotherapy as the treatment of choice is therefore incorrect.",
+        "D": "Incorrect (true statement). The tumour arises at the sphenopalatine foramen region of the posterolateral nasopharynx, so this is a true statement."
+      },
+      "main_concept": "CON-MUL-BF86DECDF364CB",
+      "concept_ids": ["CON-MUL-BF86DECDF364CB"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "question_type": "Recall",
+      "subtopic": "Juvenile angiofibroma",
+      "learning_objective": "State that juvenile angiofibroma is treated by surgical excision, not radiotherapy."
+    },
+    {
+      "key": "pharynx-q15",
+      "id": "QST-KASR316ENT-PHARYNX-15",
+      "page": 49,
+      "title": "Cranial nerve spared in nasopharyngeal carcinoma",
+      "question": "Nasopharyngeal carcinoma can cause paralysis of the following nerves EXCEPT:",
+      "options": {
+        "A": "the vagus nerve",
+        "B": "the facial nerve",
+        "C": "the glossopharyngeal nerve",
+        "D": "the abducent nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The vagus can be paralysed when the tumour reaches the jugular foramen/parapharyngeal space, so it is not the exception.",
+        "B": "Correct. The facial nerve is characteristically spared in nasopharyngeal carcinoma because it runs within the temporal bone away from the tumour's route of spread. The carcinoma instead reaches the cavernous sinus (affecting III, IV, V, VI, with the abducent often first) and the jugular foramen (affecting IX, X, XI, XII). The facial nerve is therefore the nerve NOT paralysed.",
+        "C": "Incorrect. The glossopharyngeal nerve can be involved at the jugular foramen, so it is not the exception.",
+        "D": "Incorrect. The abducent nerve is often the first affected as the tumour invades the cavernous sinus, so it is not the exception."
+      },
+      "main_concept": "CON-MUL-23AFF8F39BED7F",
+      "concept_ids": ["CON-MUL-23AFF8F39BED7F"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "question_type": "Recall",
+      "subtopic": "Nasopharyngeal carcinoma",
+      "learning_objective": "Recognise that the facial nerve is spared while the abducent, vagus and glossopharyngeal nerves can be paralysed in nasopharyngeal carcinoma."
+    },
+    {
+      "key": "pharynx-q17",
+      "id": "QST-KASR316ENT-PHARYNX-17",
+      "page": 49,
+      "title": "Treatment of choice in nasopharyngeal carcinoma",
+      "question": "Treatment of choice in nasopharyngeal carcinoma is:",
+      "options": {
+        "A": "Surgery.",
+        "B": "Chemotherapy.",
+        "C": "Immunotherapy.",
+        "D": "Radiotherapy."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The nasopharynx is surgically inaccessible and the tumour spreads submucosally and to nodes, so surgery is not the primary treatment.",
+        "B": "Incorrect. Chemotherapy is used as an adjuvant (concurrent chemoradiation) for advanced disease but is not the treatment of choice on its own.",
+        "C": "Incorrect. Immunotherapy is not the standard first-line treatment for nasopharyngeal carcinoma.",
+        "D": "Correct. Radiotherapy is the treatment of choice for nasopharyngeal carcinoma because the tumour is radiosensitive and its site precludes surgical clearance, and the bilateral neck nodes are included in the field. Chemotherapy is added concurrently for advanced tumours. This is why radiotherapy, not surgery, anchors management."
+      },
+      "main_concept": "CON-MUL-18A03E7B5FE50A",
+      "concept_ids": ["CON-MUL-18A03E7B5FE50A"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Nasopharyngeal carcinoma",
+      "learning_objective": "State that radiotherapy is the treatment of choice for nasopharyngeal carcinoma."
+    },
+    {
+      "key": "pharynx-q18",
+      "id": "QST-KASR316ENT-PHARYNX-18",
+      "page": 50,
+      "title": "Age and sex affected by nasopharyngeal angiofibroma",
+      "question": "Nasopharyngeal angiofibroma affects only:",
+      "options": {
+        "A": "Infants.",
+        "B": "Young males.",
+        "C": "Adolescent females.",
+        "D": "Adults.",
+        "E": "Elderly patients."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Angiofibroma is not a tumour of infants; it appears around puberty.",
+        "B": "Correct. Juvenile nasopharyngeal angiofibroma affects almost exclusively young (adolescent) males, typically between about 10 and 20 years of age. Its striking sex restriction is a defining feature and reflects a hormone-related growth. This is why the same vascular tumour is essentially never seen in girls or older adults.",
+        "C": "Incorrect. It is essentially not seen in females, so \"adolescent females\" is wrong.",
+        "D": "Incorrect. It presents in adolescence rather than adulthood, and lesions often involute after growth ceases.",
+        "E": "Incorrect. It is a tumour of the young, not the elderly."
+      },
+      "main_concept": "CON-MUL-E977570DECA3B5",
+      "concept_ids": ["CON-MUL-E977570DECA3B5"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Juvenile angiofibroma",
+      "learning_objective": "State that juvenile angiofibroma occurs almost exclusively in adolescent males."
+    },
+    {
+      "key": "pharynx-q21",
+      "id": "QST-KASR316ENT-PHARYNX-21",
+      "page": 50,
+      "title": "Complications of acute tonsillitis",
+      "question": "Complications of acute tonsillitis include:",
+      "options": {
+        "A": "Rheumatic fever.",
+        "B": "Glomerulonephritis.",
+        "C": "Quinsy.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. Rheumatic fever is a real non-suppurative complication of a group A streptococcal throat, but it is not the only complication listed.",
+        "B": "Incorrect on its own. Post-streptococcal glomerulonephritis is another recognised non-suppurative complication, but again it is not the complete answer.",
+        "C": "Incorrect on its own. Quinsy (peritonsillar abscess) is the classic suppurative complication, yet it is only one of the three correct items.",
+        "D": "Correct. Acute (streptococcal) tonsillitis can be complicated by suppurative spread such as quinsy and by the non-suppurative sequelae rheumatic fever and post-streptococcal glomerulonephritis. Because all three listed items are genuine complications, \"all of the above\" is the correct choice. This breadth is why streptococcal tonsillitis is treated with a full antibiotic course."
+      },
+      "main_concept": "CON-MUL-CE5D68221B7E82",
+      "concept_ids": ["CON-MUL-CE5D68221B7E82"],
+      "library_ids": ["ART-ENT-316-PHARYNX-TONSIL"],
+      "question_type": "Recall",
+      "subtopic": "Tonsillitis",
+      "learning_objective": "List rheumatic fever, glomerulonephritis and quinsy as complications of acute tonsillitis."
+    },
+    {
+      "key": "pharynx-q22",
+      "id": "QST-KASR316ENT-PHARYNX-22",
+      "page": 50,
+      "title": "Cause of secondary post-tonsillectomy bleeding",
+      "question": "The main cause of secondary post tonsillectomy bleeding is:",
+      "options": {
+        "A": "Elevated blood pressure.",
+        "B": "Slipped ligature in the tonsillar bed.",
+        "C": "Coagulation factors deficiency.",
+        "D": "Infection at the site of the operation."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Elevated blood pressure or a slipped ligature causes early (reactionary/primary) bleeding within the first hours, not the delayed secondary bleed.",
+        "B": "Incorrect. A slipped ligature produces reactionary haemorrhage within the first 24 hours, whereas secondary bleeding comes days later.",
+        "C": "Incorrect. A coagulation defect tends to cause immediate/primary bleeding and would usually be evident at operation, not as an isolated secondary bleed.",
+        "D": "Correct. Secondary (delayed) post-tonsillectomy haemorrhage occurs around the fifth to tenth day and is caused by infection of the tonsillar bed that separates the healing slough and erodes a vessel. It is therefore managed with antibiotics and supportive measures, with surgery reserved for heavy bleeding. Infection, not a technical or clotting fault, is the main cause of the late bleed."
+      },
+      "main_concept": "CON-MUL-48199190BEB9AE",
+      "concept_ids": ["CON-MUL-48199190BEB9AE"],
+      "library_ids": ["ART-ENT-316-PHARYNX-TONSIL"],
+      "question_type": "Recall",
+      "subtopic": "Tonsillectomy",
+      "learning_objective": "Attribute secondary post-tonsillectomy haemorrhage to infection of the tonsillar bed."
+    },
+    {
+      "key": "pharynx-q23",
+      "id": "QST-KASR316ENT-PHARYNX-23",
+      "page": 50,
+      "title": "Indications of tonsillectomy",
+      "question": "Indications of tonsillectomy are:",
+      "options": {
+        "A": "Repeated attacks of acute tonsillitis.",
+        "B": "Tonsillar hypertrophy causing obstructive sleep apnea.",
+        "C": "Quinsy.",
+        "D": "Rheumatic fever and glomerulonephritis.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect on its own. Recurrent acute tonsillitis is a leading indication, but it is not the only listed one.",
+        "B": "Incorrect on its own. Obstructive tonsillar hypertrophy causing sleep apnoea is a strong indication, yet only part of the answer.",
+        "C": "Incorrect on its own. A previous quinsy (peritonsillar abscess) is an accepted indication for interval tonsillectomy, but not the complete answer.",
+        "D": "Incorrect on its own. Tonsillitis-related rheumatic fever or glomerulonephritis justifies removing the focus, but this is still only one of the listed indications.",
+        "E": "Correct. Tonsillectomy is indicated for recurrent acute tonsillitis, obstructive hypertrophy causing sleep apnoea, a previous quinsy, and when the tonsils are the focus for rheumatic fever or glomerulonephritis. Since every listed item is a genuine indication, \"all of the above\" is correct. These indications are why the operation remains common in children and young adults."
+      },
+      "main_concept": "CON-MUL-DB3EC747015EAB",
+      "concept_ids": ["CON-MUL-DB3EC747015EAB"],
+      "library_ids": ["ART-ENT-316-PHARYNX-TONSIL"],
+      "question_type": "Recall",
+      "subtopic": "Tonsillectomy",
+      "learning_objective": "List the indications for tonsillectomy: recurrent tonsillitis, obstructive hypertrophy, quinsy and a rheumatic/nephritic focus."
+    },
+    {
+      "key": "pharynx-q24",
+      "id": "QST-KASR316ENT-PHARYNX-24",
+      "page": 51,
+      "title": "Timing of secondary post-tonsillectomy haemorrhage",
+      "question": "Secondary haemorrhage after tonsillectomy is most commonly seen:",
+      "options": {
+        "A": "During the surgery.",
+        "B": "Immediately after the surgery.",
+        "C": "24 hours after surgery.",
+        "D": "6 days after surgery.",
+        "E": "4 weeks after surgery."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bleeding during surgery is primary haemorrhage, not secondary.",
+        "B": "Incorrect. Bleeding immediately after surgery is reactionary haemorrhage occurring within the first 24 hours.",
+        "C": "Incorrect. Bleeding at 24 hours still falls within the reactionary window rather than the delayed secondary one.",
+        "D": "Correct. Secondary post-tonsillectomy haemorrhage most commonly occurs around the sixth day (within the fifth-to-tenth-day window), when infection separates the healing slough over the tonsillar bed. The timing reflects the peak of local sepsis after surgery. Recognising this window guides parents to expect and report a late bleed.",
+        "E": "Incorrect. By four weeks the tonsillar fossa has healed, so bleeding this late is not the usual secondary haemorrhage."
+      },
+      "main_concept": "CON-MUL-48199190BEB9AE",
+      "concept_ids": ["CON-MUL-48199190BEB9AE"],
+      "library_ids": ["ART-ENT-316-PHARYNX-TONSIL"],
+      "question_type": "Recall",
+      "subtopic": "Tonsillectomy",
+      "learning_objective": "State that secondary post-tonsillectomy haemorrhage typically occurs around the sixth day after surgery."
+    },
+    { "key": "pharynx-q06", "hold": "In-source near-duplicate of Q2. 'Enlarged adenoids may cause the following except' keys 'b' (epistaxis), the identical keyed teaching point as Q2 (adenoids do not cause epistaxis). Q2 is authored, so Q6 is held so the same fact is not authored twice." },
+    { "key": "pharynx-q12", "hold": "In-source near-duplicate of Q9. 'The most common presenting sign or symptom of nasopharyngeal cancer' keys 'c' (neck mass), the same keyed fact as Q9 (commonest NPC presentation = cervical lymph node). Q9 is authored, so Q12 is held." },
+    { "key": "pharynx-q14", "hold": "In-source near-duplicate of Q11. Teenage male with recurrent epistaxis and conductive deafness keyed 'c' (nasopharyngeal angiofibroma) — the same diagnostic vignette and answer as Q11. Q11 is authored, so Q14 is held." },
+    { "key": "pharynx-q16", "hold": "In-source duplicate of the male-only fact. 'Juvenile angiofibroma is characterized by the following except' keys 'c' (M:F ratio 3:1) because the tumour is essentially male-only — the same teaching point authored in Q18 ('affects only young males'). Held so the male-only fact is not authored twice." },
+    { "key": "pharynx-q19", "hold": "In-source duplicate of Q13. 'Nasopharyngeal angiofibroma is characterized by the following except' keys 'd' (treatment is by chemotherapy) — the same keyed fact as Q13 (treatment is surgery, not radiotherapy/chemotherapy). Q13 is authored, so Q19 is held." },
+    { "key": "pharynx-q20", "hold": "In-source duplicate of Q13. 'The following is true regarding nasopharyngeal angiofibroma except' keys 'd' (radiotherapy is the first line of treatment) — again the JNA treatment-is-surgery fact already authored in Q13. Held so the same fact is not authored twice." }
+  ]
+}
