@@ -20009,3 +20009,1113 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q8/Q13) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DB1B62FE5C05BC
+## label
+Glaucoma is diagnosed by tonometry, perimetry, gonioscopy and fundoscopy, not fluorescein angiography
+## canonical_key
+ophthalmology.glaucoma.diagnosed-by-tonometry-perimetry-gonioscopy-fundoscopy-not-angiography
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glaucoma is diagnosed and monitored by measuring the intraocular pressure (applanation tonometry), mapping the visual field (perimetry), assessing the drainage angle (gonioscopy) and examining the optic disc (fundoscopy, with optical coherence tomography of the nerve-fibre layer). Fluorescein angiography images the retinal and choroidal circulation and has no role in diagnosing glaucoma.
+## explicit_objective
+List tonometry, perimetry, gonioscopy and fundoscopy as the glaucoma work-up and exclude fluorescein angiography.
+## pitfalls
+Including fluorescein angiography, a retinal vascular test, among the tools used to diagnose glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diagnosis of glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Diagnosis of glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q10/Q18/Q45) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0EF5B1225A86CF
+## label
+Primary open-angle glaucoma is asymptomatic early, so optic-disc analysis is mandatory
+## canonical_key
+ophthalmology.primary-open-angle-glaucoma.asymptomatic-early-optic-disc-analysis-mandatory
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary open-angle glaucoma is a chronic, painless disease that stays asymptomatic until the field is severely damaged, so it is not detected by symptoms. Analysis of the optic disc (cup-to-disc ratio and neuroretinal rim), together with tonometry and perimetry, is therefore mandatory to detect and follow it before vision is lost.
+## explicit_objective
+Recognise that primary open-angle glaucoma is asymptomatic early and requires mandatory optic-disc assessment.
+## pitfalls
+Assuming glaucoma announces itself with headache or pain; open-angle glaucoma is silent until advanced.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Primary open-angle glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Primary open-angle glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q11/Q29) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-270814D70DC2E8
+## label
+Glaucomatous optic neuropathy shows a large deep cup, overhanging edge and visible lamina cribrosa
+## canonical_key
+ophthalmology.glaucomatous-optic-neuropathy.disc-signs-deep-cup-overhanging-edge-visible-lamina-cribrosa
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The optic disc in glaucomatous optic neuropathy shows a large deep cup with a bared, overhanging (bayoneting) edge, thinning of the neuroretinal rim, and a visible lamina cribrosa (laminar-dot sign). Sheathing of the retinal vessels is not a sign of glaucoma; it belongs to inflammatory or vascular retinopathies.
+## explicit_objective
+Recognise the glaucomatous disc (deep cup, overhanging edge, visible lamina cribrosa) and exclude vessel sheathing.
+## pitfalls
+Counting perivascular sheathing as a glaucomatous disc sign; sheathing is inflammatory/vascular, not glaucomatous.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Glaucomatous optic neuropathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Glaucomatous optic neuropathy
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q14) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-CA8B8548C33413
+## label
+Antiglaucoma drugs are prostaglandin analogues, beta-blockers, carbonic anhydrase inhibitors and alpha-agonists, not steroids
+## canonical_key
+ophthalmology.open-angle-glaucoma.medical-therapy-prostaglandins-beta-blockers-carbonic-anhydrase-inhibitors-alpha-agonists
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Medical treatment of open-angle glaucoma lowers intraocular pressure with prostaglandin analogues (which increase uveoscleral outflow), beta-blockers, carbonic anhydrase inhibitors and alpha-adrenergic agonists (which reduce aqueous formation). The drug used is a prostaglandin agonist, not an anti-prostaglandin. Topical steroids are not a treatment; they raise the pressure and cause steroid-induced glaucoma.
+## explicit_objective
+List the antiglaucoma drug classes (prostaglandin analogues, beta-blockers, CAIs, alpha-agonists) and exclude steroids.
+## pitfalls
+Listing topical steroids or an 'anti-prostaglandin' as glaucoma treatments; steroids raise IOP and the drug is a prostaglandin agonist.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Medical treatment of glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Medical treatment of glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q15/Q25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-92EC6484AE5AA5
+## label
+Untreated progressive glaucoma causes irreversible blindness
+## canonical_key
+ophthalmology.glaucoma.untreated-progressive-causes-irreversible-blindness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glaucoma is a leading cause of irreversible blindness: sustained raised intraocular pressure progressively destroys the optic-nerve fibres, and the resulting field loss and optic atrophy cannot be recovered. Untreated progressive glaucoma therefore ends in blindness, which is why early detection and pressure control matter.
+## explicit_objective
+Recognise untreated progressive glaucoma as a cause of irreversible blindness.
+## pitfalls
+Believing glaucomatous field loss can be reversed by treatment; treatment only halts further loss, it does not restore lost field.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Complications of glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Complications of glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q16) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C441036738BC5C
+## label
+Prolonged steroids cause secondary open-angle (steroid-induced) glaucoma
+## canonical_key
+ophthalmology.steroid-induced-glaucoma.prolonged-steroids-cause-secondary-open-angle-glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prolonged topical or systemic corticosteroids raise intraocular pressure in steroid responders by reducing trabecular outflow, producing a secondary open-angle glaucoma. It is a recognised hazard of long-term steroid use, for example in a child treated for spring catarrh or an adult on chronic steroids, and the pressure often returns to normal when the steroid is stopped.
+## explicit_objective
+Attribute secondary open-angle glaucoma to prolonged topical or systemic steroid use.
+## pitfalls
+Overlooking chronic steroid use as a cause of raised IOP, or expecting an angle-closure rather than an open-angle mechanism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Steroid-induced glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Steroid-induced glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q20/Q30) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-39F9243FE6D7E4
+## label
+Risk factors for primary open-angle glaucoma are age, family history and myopia, not male gender
+## canonical_key
+ophthalmology.primary-open-angle-glaucoma.risk-factors-age-family-history-myopia-not-male-gender
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The risk factors for primary open-angle glaucoma are increasing age, a positive family history, raised intraocular pressure, myopia, and African ancestry. Male gender is not an established risk factor. Recognising the at-risk patient guides screening of the asymptomatic disease.
+## explicit_objective
+List age, family history and myopia as POAG risk factors and exclude male gender.
+## pitfalls
+Naming male gender as a POAG risk factor; sex is not an established risk factor, whereas age, family history and myopia are.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Primary open-angle glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Primary open-angle glaucoma > Risk factors
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q22) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-849B494447D1AE
+## label
+Lens-induced glaucoma is treated by cataract extraction
+## canonical_key
+ophthalmology.lens-induced-glaucoma.treated-by-cataract-extraction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lens-induced glaucoma (phacolytic glaucoma from a hypermature cataract, and phacomorphic glaucoma from an intumescent cataract) is treated by removing the offending lens, i.e. cataract extraction, after the pressure is first controlled medically. Removing the cataract addresses the cause, so a fistulising drainage operation is not the definitive treatment.
+## explicit_objective
+State that lens-induced glaucoma is treated definitively by cataract extraction.
+## pitfalls
+Choosing a fistulising drainage operation for lens-induced glaucoma; the definitive treatment is removing the lens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lens-induced glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Lens-induced glaucoma > Treatment
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q23) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7F3C4435D53E0A
+## label
+Mitomycin C is used as an adjunct to trabeculectomy
+## canonical_key
+ophthalmology.trabeculectomy.mitomycin-c-adjunct-to-reduce-scarring
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trabeculectomy is the filtering glaucoma operation that drains aqueous to a subconjunctival bleb. Mitomycin C, an antimetabolite, is applied as an intraoperative adjunct to trabeculectomy (and other filtering surgery) to inhibit fibroblast proliferation and prevent scarring of the bleb, improving surgical success. It is not an adjunct to vitrectomy, goniotomy or keratoplasty.
+## explicit_objective
+Associate mitomycin C with trabeculectomy as an antiscarring surgical adjunct.
+## pitfalls
+Pairing mitomycin C with vitrectomy or keratoplasty; in glaucoma it is the antifibrotic adjunct to filtering trabeculectomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Surgical treatment of glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Surgical treatment of glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q32) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7E56C614EBEEBA
+## label
+Absolute glaucoma is the end-stage blind eye with no perception of light
+## canonical_key
+ophthalmology.absolute-glaucoma.end-stage-no-perception-of-light
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Absolute glaucoma is the end stage of any uncontrolled glaucoma: the optic nerve is wholly destroyed and the eye is blind, with no perception of light. It is often a painful blind eye, and treatment at this stage is aimed only at relieving pain, not restoring vision.
+## explicit_objective
+Define absolute glaucoma as the end-stage eye with no perception of light.
+## pitfalls
+Grading absolute-glaucoma vision as counting fingers or hand movements; by definition there is no perception of light.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Absolute glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Absolute glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q34) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

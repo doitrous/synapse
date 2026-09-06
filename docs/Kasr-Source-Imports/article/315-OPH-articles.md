@@ -629,6 +629,18 @@ CON-MUL-DBA7D4DDD6A591
 CON-MUL-0AFD8901536A4E
 CON-MUL-D03EA144F40148
 CON-MUL-05745AF10298BA
+CON-MUL-CEC20322850905
+CON-MUL-87C1044D003495
+CON-MUL-DB1B62FE5C05BC
+CON-MUL-0EF5B1225A86CF
+CON-MUL-270814D70DC2E8
+CON-MUL-CA8B8548C33413
+CON-MUL-92EC6484AE5AA5
+CON-MUL-C441036738BC5C
+CON-MUL-39F9243FE6D7E4
+CON-MUL-849B494447D1AE
+CON-MUL-7F3C4435D53E0A
+CON-MUL-7E56C614EBEEBA
 ## related_articles
 ART-OPH-315-EYE-ANATOMY
 ART-OPH-315-IMAGE-CAPTURE
@@ -658,6 +670,6 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the opening slice of Chapter-6 glaucoma concepts (MCQ Q1-8). Filed under the verified node DIS-OPH-T03 (Glaucoma). Chapter 6 has 70 keyed MCQs (answer key p.3-4; only Q36 omitted); Q1-8 authored this tranche, Q9-71 remain for the next tranche.
+groupingNote: Groups the Chapter-6 glaucoma concepts (MCQ Q1-35 authored). Filed under the verified node DIS-OPH-T03 (Glaucoma). Chapter 6 has 70 keyed MCQs (answer key p.3-4; only Q36 omitted). Q1-8 authored the opening slice; Q9-35 authored this tranche (25 clean single-best MCQs; Q26 and Q31 held). Ten new concepts added this tranche (glaucoma diagnostic tools; POAG asymptomatic/disc-analysis; glaucomatous disc signs; antiglaucoma drug classes; untreated glaucoma blindness; steroid-induced glaucoma; POAG risk factors; lens-induced glaucoma treated by cataract extraction; mitomycin-C/trabeculectomy; absolute glaucoma). Two Chapter-1/Chapter-4 concepts are reused for coverage (CON-MUL-CEC20322850905 aqueous drainage for Q17/Q21; CON-MUL-87C1044D003495 intumescent-cataract angle closure for Q28). Q37-71 remain for the next tranche (many are clean single-best; Q46-55, Q61, Q66 are multi-statement vignettes for adjudication).
 ## reading_time
 4

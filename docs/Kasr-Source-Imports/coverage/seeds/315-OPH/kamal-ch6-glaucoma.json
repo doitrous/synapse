@@ -156,6 +156,665 @@
       "subtopic": "Secondary open-angle glaucoma",
       "main_concept": "CON-MUL-05745AF10298BA", "concept_ids": ["CON-MUL-05745AF10298BA"],
       "learning_objective": "Exclude phacomorphic (angle-closure) glaucoma from the causes of secondary open-angle glaucoma."
+    },
+    {
+      "key": "q9",
+      "id": "QST-KASR315OPH-KAMAL-CH6-9",
+      "page": 57,
+      "title": "Field change not seen in primary open-angle glaucoma",
+      "question": "Field changes in POAG include all of the following EXCEPT:",
+      "options": {
+        "A": "Paracentral scotoma.",
+        "B": "Bitemporal hemianopia.",
+        "C": "Arcuate scotoma.",
+        "D": "Ring scotoma."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a glaucomatous field change). A paracentral scotoma is an early glaucomatous defect.",
+        "B": "Correct. A bitemporal hemianopia is the exception: it is a chiasmal field defect from a lesion compressing the optic chiasm (classically a pituitary tumour), not a glaucomatous change. Glaucoma damages the arcuate nerve-fibre bundles and gives nasal steps, paracentral, arcuate and finally ring or tubular defects that respect the horizontal meridian. So a bitemporal hemianopia does not belong to glaucoma.",
+        "C": "Incorrect (it is a glaucomatous field change). Arcuate (Bjerrum) scotomas follow the arcuate nerve-fibre bundles and are characteristic of glaucoma.",
+        "D": "Incorrect (it is a glaucomatous field change). A ring scotoma forms when superior and inferior arcuate scotomas join in advanced glaucoma."
+      },
+      "subtopic": "Visual fields in glaucoma",
+      "main_concept": "CON-MUL-638E232A3C3F93",
+      "concept_ids": [
+        "CON-MUL-638E232A3C3F93"
+      ],
+      "learning_objective": "Distinguish glaucomatous field loss (nasal step, arcuate and ring scotoma) from a chiasmal bitemporal hemianopia."
+    },
+    {
+      "key": "q10",
+      "id": "QST-KASR315OPH-KAMAL-CH6-10",
+      "page": 57,
+      "title": "Test not used to diagnose glaucoma",
+      "question": "To diagnose glaucoma the following are used, EXCEPT:",
+      "options": {
+        "A": "Applanation tonometry.",
+        "B": "Perimetry.",
+        "C": "Fluorescein angiography.",
+        "D": "Fundus examination."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is used). Applanation tonometry measures the intraocular pressure.",
+        "B": "Incorrect (it is used). Perimetry maps the characteristic glaucomatous field loss.",
+        "C": "Correct. Fluorescein angiography is the exception: it images the retinal and choroidal circulation for vascular and macular disease and has no role in diagnosing glaucoma. Glaucoma is diagnosed by tonometry, perimetry, gonioscopy and optic-disc (fundus) examination. So fluorescein angiography is the tool not used.",
+        "D": "Incorrect (it is used). Fundus examination assesses the optic-disc cupping of glaucoma."
+      },
+      "subtopic": "Diagnosis of glaucoma",
+      "main_concept": "CON-MUL-DB1B62FE5C05BC",
+      "concept_ids": [
+        "CON-MUL-DB1B62FE5C05BC"
+      ],
+      "learning_objective": "Exclude fluorescein angiography from the tools used to diagnose glaucoma."
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR315OPH-KAMAL-CH6-11",
+      "page": 57,
+      "title": "True statement about primary open-angle glaucoma",
+      "question": "One of the following is TRUE about primary open-angle glaucoma:",
+      "options": {
+        "A": "It usually presents with headache.",
+        "B": "Optic disc analysis is mandatory.",
+        "C": "It requires surgery in most cases.",
+        "D": "Gonioscopy reveals a prominent Schwalbe's line."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Primary open-angle glaucoma is painless and does not typically present with headache.",
+        "B": "Correct. Optic-disc analysis is mandatory in primary open-angle glaucoma because the disease is asymptomatic until late and cannot be found from symptoms. Assessing the cup-to-disc ratio and neuroretinal rim, with tonometry and perimetry, is how the disease is detected and followed. So disc analysis being mandatory is the true statement.",
+        "C": "Incorrect. Most cases are controlled medically; surgery is reserved for progression or intolerance, not the majority.",
+        "D": "Incorrect. A prominent Schwalbe line (posterior embryotoxon) is an angle anomaly, not a feature of the open, normal angle of POAG."
+      },
+      "subtopic": "Primary open-angle glaucoma",
+      "main_concept": "CON-MUL-0EF5B1225A86CF",
+      "concept_ids": [
+        "CON-MUL-0EF5B1225A86CF"
+      ],
+      "learning_objective": "Recognise that POAG is asymptomatic early, making optic-disc analysis mandatory."
+    },
+    {
+      "key": "q12",
+      "id": "QST-KASR315OPH-KAMAL-CH6-12",
+      "page": 58,
+      "title": "Lens-induced glaucoma of a hypermature cataract",
+      "question": "Lens induced glaucoma that occurs with hypermature cataract is called:",
+      "options": {
+        "A": "Phacolytic glaucoma.",
+        "B": "Neovascular glaucoma.",
+        "C": "Phacomorphic glaucoma.",
+        "D": "Uveitic glaucoma."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Phacolytic glaucoma is the lens-induced glaucoma of a hypermature (Morgagnian) cataract: liquefied lens proteins leak through the intact capsule and, with macrophages, block the trabecular meshwork. It is a secondary open-angle glaucoma that resolves once the cataract is removed. So the hypermature-cataract glaucoma is phacolytic.",
+        "B": "Incorrect. Neovascular glaucoma follows angle neovascularisation after retinal ischaemia, not a hypermature lens.",
+        "C": "Incorrect. Phacomorphic glaucoma follows an intumescent (swollen) cataract closing the angle, not a hypermature one.",
+        "D": "Incorrect. Uveitic glaucoma follows intraocular inflammation, not a hypermature lens."
+      },
+      "subtopic": "Secondary (lens-induced) glaucoma",
+      "main_concept": "CON-MUL-4339537A4E18E0",
+      "concept_ids": [
+        "CON-MUL-4339537A4E18E0"
+      ],
+      "learning_objective": "Name phacolytic glaucoma as the lens-induced glaucoma of a hypermature cataract."
+    },
+    {
+      "key": "q13",
+      "id": "QST-KASR315OPH-KAMAL-CH6-13",
+      "page": 58,
+      "title": "Condition not causing secondary glaucoma",
+      "question": "Secondary glaucoma may develop after all of the following, EXCEPT:",
+      "options": {
+        "A": "Uveitis.",
+        "B": "Prolonged steroid use.",
+        "C": "Proliferative diabetic retinopathy.",
+        "D": "Entropion."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it can cause it). Uveitis clogs the meshwork with inflammatory cells and forms synechiae, causing secondary glaucoma.",
+        "B": "Incorrect (it can cause it). Prolonged steroids reduce trabecular outflow, causing steroid-induced glaucoma.",
+        "C": "Incorrect (it can cause it). Proliferative diabetic retinopathy causes neovascular glaucoma through angle neovascularisation.",
+        "D": "Correct. Entropion is the exception: it is an inward rolling of the eyelid margin, a lid disorder that irritates the cornea but has nothing to do with the intraocular pressure or the drainage angle. All the other options obstruct aqueous outflow and raise the pressure, whereas entropion does not. So entropion does not cause secondary glaucoma."
+      },
+      "subtopic": "Secondary open-angle glaucoma",
+      "main_concept": "CON-MUL-05745AF10298BA",
+      "concept_ids": [
+        "CON-MUL-05745AF10298BA"
+      ],
+      "learning_objective": "Exclude entropion (a lid disorder) from the causes of secondary glaucoma."
+    },
+    {
+      "key": "q14",
+      "id": "QST-KASR315OPH-KAMAL-CH6-14",
+      "page": 58,
+      "title": "Sign not seen in glaucomatous optic neuropathy",
+      "question": "The clinical picture of glaucomatous optic neuropathy includes the following, EXCEPT:",
+      "options": {
+        "A": "Well defined overhanging edge.",
+        "B": "Large deep cup.",
+        "C": "Vessels are sheathed.",
+        "D": "Well seen lamina cribrosa."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a sign). A bared, overhanging (bayoneting) disc edge is a glaucomatous sign.",
+        "B": "Incorrect (it is a sign). A large deep cup with rim thinning is the hallmark of glaucomatous cupping.",
+        "C": "Correct. Sheathing of the retinal vessels is the exception: perivascular sheathing is a sign of vascular or inflammatory retinopathy, not of glaucomatous optic neuropathy. The glaucomatous disc instead shows a large deep cup, an overhanging edge, rim thinning and a visible lamina cribrosa. So vessel sheathing is not a glaucoma sign.",
+        "D": "Incorrect (it is a sign). A visible (well-seen) lamina cribrosa, the laminar-dot sign, is exposed by glaucomatous cupping."
+      },
+      "subtopic": "Glaucomatous optic neuropathy",
+      "main_concept": "CON-MUL-270814D70DC2E8",
+      "concept_ids": [
+        "CON-MUL-270814D70DC2E8"
+      ],
+      "learning_objective": "Recognise the glaucomatous disc signs and exclude retinal-vessel sheathing."
+    },
+    {
+      "key": "q15",
+      "id": "QST-KASR315OPH-KAMAL-CH6-15",
+      "page": 58,
+      "title": "Not a medical treatment of open-angle glaucoma",
+      "question": "Medical treatment of open angle glaucoma includes the following, EXCEPT:",
+      "options": {
+        "A": "Prostaglandin analogues.",
+        "B": "Beta blockers.",
+        "C": "Topical steroids.",
+        "D": "Carbonic anhydrase inhibitors."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a treatment). Prostaglandin analogues lower pressure by increasing uveoscleral outflow.",
+        "B": "Incorrect (it is a treatment). Beta-blockers lower pressure by reducing aqueous formation.",
+        "C": "Correct. Topical steroids are the exception: far from treating open-angle glaucoma, they raise the intraocular pressure in steroid responders and cause steroid-induced glaucoma. The antiglaucoma classes are prostaglandin analogues, beta-blockers, carbonic anhydrase inhibitors and alpha-agonists. So topical steroids are not a treatment.",
+        "D": "Incorrect (it is a treatment). Carbonic anhydrase inhibitors lower pressure by reducing aqueous formation."
+      },
+      "subtopic": "Medical treatment of glaucoma",
+      "main_concept": "CON-MUL-CA8B8548C33413",
+      "concept_ids": [
+        "CON-MUL-CA8B8548C33413"
+      ],
+      "learning_objective": "Exclude topical steroids from the medical treatment of open-angle glaucoma."
+    },
+    {
+      "key": "q16",
+      "id": "QST-KASR315OPH-KAMAL-CH6-16",
+      "page": 58,
+      "title": "Cause of blindness among the options",
+      "question": "Blindness can result from:",
+      "options": {
+        "A": "Prolonged use of mobile phone.",
+        "B": "Using diseased eyes for a long time.",
+        "C": "Holding books too close to the eye while reading for a long time.",
+        "D": "Untreated progressive glaucoma."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Using a mobile phone does not cause blindness.",
+        "B": "Incorrect. 'Using diseased eyes' is not a mechanism of blindness.",
+        "C": "Incorrect. Holding books close causes eye strain, not blindness.",
+        "D": "Correct. Untreated progressive glaucoma leads to irreversible blindness: sustained raised pressure destroys the optic-nerve fibres and the resulting field loss cannot be recovered. It is a leading cause of preventable blindness worldwide, which is why early detection and pressure control matter. So the cause of blindness here is untreated progressive glaucoma."
+      },
+      "subtopic": "Complications of glaucoma",
+      "main_concept": "CON-MUL-92EC6484AE5AA5",
+      "concept_ids": [
+        "CON-MUL-92EC6484AE5AA5"
+      ],
+      "learning_objective": "Recognise untreated progressive glaucoma as a cause of irreversible blindness."
+    },
+    {
+      "key": "q17",
+      "id": "QST-KASR315OPH-KAMAL-CH6-17",
+      "page": 58,
+      "title": "Drainage route of aqueous humour",
+      "question": "Aqueous humor is drained through:",
+      "options": {
+        "A": "Angle of the anterior chamber.",
+        "B": "The ciliary body.",
+        "C": "Posterior surface of iris.",
+        "D": "Lens."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aqueous humour is drained at the angle of the anterior chamber, through the trabecular meshwork into Schlemm canal and on to the episcleral veins. It is secreted by the ciliary body into the posterior chamber and flows through the pupil before draining at this angle. So the drainage site is the anterior-chamber angle.",
+        "B": "Incorrect. The ciliary body secretes aqueous; it does not drain it.",
+        "C": "Incorrect. The posterior surface of the iris is not a drainage route.",
+        "D": "Incorrect. The lens plays no part in aqueous drainage."
+      },
+      "subtopic": "Aqueous humour drainage",
+      "main_concept": "CON-MUL-CEC20322850905",
+      "concept_ids": [
+        "CON-MUL-CEC20322850905"
+      ],
+      "learning_objective": "Identify the anterior-chamber angle as the drainage route of aqueous humour."
+    },
+    {
+      "key": "q18",
+      "id": "QST-KASR315OPH-KAMAL-CH6-18",
+      "page": 58,
+      "title": "Investigation not used in glaucoma diagnosis",
+      "question": "All of the following are important for diagnosis of glaucoma, EXCEPT:",
+      "options": {
+        "A": "Applanation tonometry.",
+        "B": "Perimetry.",
+        "C": "Gonioscopy.",
+        "D": "Fluorescein angiography."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is used). Applanation tonometry measures the intraocular pressure.",
+        "B": "Incorrect (it is used). Perimetry maps the glaucomatous field loss.",
+        "C": "Incorrect (it is used). Gonioscopy shows whether the drainage angle is open or closed.",
+        "D": "Correct. Fluorescein angiography is the exception: it is a retinal vascular investigation with no role in diagnosing glaucoma. The glaucoma work-up is tonometry, perimetry, gonioscopy and optic-disc examination. So fluorescein angiography is the one not used."
+      },
+      "subtopic": "Diagnosis of glaucoma",
+      "main_concept": "CON-MUL-DB1B62FE5C05BC",
+      "concept_ids": [
+        "CON-MUL-DB1B62FE5C05BC"
+      ],
+      "learning_objective": "Exclude fluorescein angiography from the glaucoma diagnostic work-up."
+    },
+    {
+      "key": "q19",
+      "id": "QST-KASR315OPH-KAMAL-CH6-19",
+      "page": 58,
+      "title": "Lens-induced glaucoma of an intumescent cataract",
+      "question": "Lens induced glaucoma that occurs with intumescent cataract is called:",
+      "options": {
+        "A": "Phacolytic glaucoma.",
+        "B": "Neovascular glaucoma.",
+        "C": "Phacomorphic glaucoma.",
+        "D": "Uveitic glaucoma."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Phacolytic glaucoma follows a hypermature cataract, not an intumescent one.",
+        "B": "Incorrect. Neovascular glaucoma follows retinal ischaemia, not a swollen lens.",
+        "C": "Correct. Phacomorphic glaucoma is the lens-induced glaucoma of an intumescent (swollen) cataract: the enlarged lens pushes the iris forward and closes the angle, a secondary angle-closure glaucoma. It is relieved by removing the cataract after controlling the pressure. So the intumescent-cataract glaucoma is phacomorphic.",
+        "D": "Incorrect. Uveitic glaucoma follows intraocular inflammation, not an intumescent lens."
+      },
+      "subtopic": "Secondary (lens-induced) glaucoma",
+      "main_concept": "CON-MUL-4339537A4E18E0",
+      "concept_ids": [
+        "CON-MUL-4339537A4E18E0"
+      ],
+      "learning_objective": "Name phacomorphic glaucoma as the lens-induced glaucoma of an intumescent cataract."
+    },
+    {
+      "key": "q20",
+      "id": "QST-KASR315OPH-KAMAL-CH6-20",
+      "page": 59,
+      "reasoning_level": 3,
+      "title": "Defective vision in a child on long-term steroids for spring catarrh",
+      "question": "A 12-year-old boy receiving long term steroid treatment for spring catarrh and used to excessively rub his eyes developed defective vision in both eyes. The likely cause is:",
+      "options": {
+        "A": "Secondary glaucoma.",
+        "B": "Retinopathy of prematurity.",
+        "C": "Optic neuritis.",
+        "D": "Vitreous hemorrhage."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A child on long-term topical steroids for vernal (spring) catarrh is at risk of steroid-induced secondary glaucoma, a steroid response that reduces trabecular outflow and raises the pressure in both treated eyes. The bilateral defective vision after prolonged steroid use points to this rather than to a unilateral or vascular cause. So the likely cause is secondary glaucoma.",
+        "B": "Incorrect. Retinopathy of prematurity affects premature neonates, not a 12-year-old.",
+        "C": "Incorrect. Optic neuritis is usually unilateral with pain on eye movement, not a bilateral steroid complication.",
+        "D": "Incorrect. Vitreous haemorrhage is not a recognised consequence of topical steroid use for spring catarrh."
+      },
+      "subtopic": "Steroid-induced glaucoma",
+      "main_concept": "CON-MUL-C441036738BC5C",
+      "concept_ids": [
+        "CON-MUL-C441036738BC5C"
+      ],
+      "learning_objective": "Attribute bilateral visual loss after prolonged steroids for spring catarrh to secondary (steroid-induced) glaucoma."
+    },
+    {
+      "key": "q21",
+      "id": "QST-KASR315OPH-KAMAL-CH6-21",
+      "page": 59,
+      "title": "False statement about aqueous humour",
+      "question": "Regarding aqueous humor, all is true, EXCEPT:",
+      "options": {
+        "A": "Is produced by the ciliary body of the eye.",
+        "B": "Is drained through the trabecular meshwork in the angle of the posterior chamber.",
+        "C": "Drains mostly to the episcleral veins.",
+        "D": "IOP is maintained by balance between its formation and drainage."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is true). Aqueous is produced by the ciliary body.",
+        "B": "Correct. The statement is false because the trabecular meshwork lies in the angle of the ANTERIOR chamber, not the posterior chamber. Aqueous is secreted into the posterior chamber but drains at the anterior-chamber angle through the meshwork into Schlemm canal. So placing the meshwork in the posterior-chamber angle is the untrue statement.",
+        "C": "Incorrect (it is true). Aqueous drains through Schlemm canal mostly to the episcleral veins.",
+        "D": "Incorrect (it is true). Intraocular pressure is maintained by the balance between aqueous formation and drainage."
+      },
+      "subtopic": "Aqueous humour dynamics",
+      "main_concept": "CON-MUL-CEC20322850905",
+      "concept_ids": [
+        "CON-MUL-CEC20322850905"
+      ],
+      "learning_objective": "Recognise that the trabecular meshwork drains aqueous at the anterior- (not posterior-) chamber angle."
+    },
+    {
+      "key": "q22",
+      "id": "QST-KASR315OPH-KAMAL-CH6-22",
+      "page": 59,
+      "title": "Not a risk factor for primary open-angle glaucoma",
+      "question": "All of the following are considered risk factors for POAG, EXCEPT:",
+      "options": {
+        "A": "Age.",
+        "B": "Family history.",
+        "C": "Male gender.",
+        "D": "Myopia."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a risk factor). Increasing age raises the risk of POAG.",
+        "B": "Incorrect (it is a risk factor). A positive family history raises the risk of POAG.",
+        "C": "Correct. Male gender is the exception: sex is not an established risk factor for primary open-angle glaucoma. The recognised risk factors are increasing age, a positive family history, raised intraocular pressure, myopia and African ancestry. So male gender is not a risk factor.",
+        "D": "Incorrect (it is a risk factor). Myopia is a recognised risk factor for POAG."
+      },
+      "subtopic": "Primary open-angle glaucoma",
+      "main_concept": "CON-MUL-39F9243FE6D7E4",
+      "concept_ids": [
+        "CON-MUL-39F9243FE6D7E4"
+      ],
+      "learning_objective": "Exclude male gender from the risk factors for POAG (age, family history, myopia)."
+    },
+    {
+      "key": "q23",
+      "id": "QST-KASR315OPH-KAMAL-CH6-23",
+      "page": 59,
+      "title": "Treatment of phacolytic glaucoma",
+      "question": "Phakolytic glaucoma is best treated by:",
+      "options": {
+        "A": "Fistulizing operation.",
+        "B": "Cataract extraction.",
+        "C": "Cyclo-destructive procedure.",
+        "D": "Miotics and Beta blockers."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A fistulising drainage operation does not remove the leaking lens proteins that cause phacolytic glaucoma.",
+        "B": "Correct. Phacolytic glaucoma is caused by leaked proteins of a hypermature cataract blocking the meshwork, so its definitive treatment is cataract extraction to remove the source, after the pressure is first controlled medically. Removing the cataract cures the glaucoma. So the treatment is cataract extraction.",
+        "C": "Incorrect. A cyclodestructive procedure is reserved for refractory or blind painful eyes, not first-line phacolytic glaucoma.",
+        "D": "Incorrect. Miotics and beta-blockers only temporise; they do not remove the offending lens."
+      },
+      "subtopic": "Lens-induced glaucoma",
+      "main_concept": "CON-MUL-849B494447D1AE",
+      "concept_ids": [
+        "CON-MUL-849B494447D1AE"
+      ],
+      "learning_objective": "State that phacolytic (lens-induced) glaucoma is treated by cataract extraction."
+    },
+    {
+      "key": "q24",
+      "id": "QST-KASR315OPH-KAMAL-CH6-24",
+      "page": 59,
+      "title": "Antecedent of neovascular glaucoma",
+      "question": "Neovascular glaucoma follows:",
+      "options": {
+        "A": "Thrombosis of central retinal vein.",
+        "B": "Acute congestive glaucoma.",
+        "C": "Staphylococcal infection.",
+        "D": "Hypertension."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Neovascular glaucoma follows an ischaemic central retinal vein occlusion (thrombosis): the ischaemic retina releases angiogenic factors that grow new vessels over the iris and angle, blocking outflow. It is the classic cause of rubeotic glaucoma. So it follows central retinal vein thrombosis.",
+        "B": "Incorrect. Acute congestive (angle-closure) glaucoma is a primary angle-closure, not the cause of neovascular glaucoma.",
+        "C": "Incorrect. Staphylococcal infection causes lid and orbital infection, not neovascular glaucoma.",
+        "D": "Incorrect. Systemic hypertension alone does not cause neovascular glaucoma; retinal ischaemia does."
+      },
+      "subtopic": "Secondary (neovascular) glaucoma",
+      "main_concept": "CON-MUL-617A93033CA1F5",
+      "concept_ids": [
+        "CON-MUL-617A93033CA1F5"
+      ],
+      "learning_objective": "Attribute neovascular glaucoma to ischaemic central retinal vein occlusion."
+    },
+    {
+      "key": "q25",
+      "id": "QST-KASR315OPH-KAMAL-CH6-25",
+      "page": 59,
+      "title": "Not a treatment option in POAG",
+      "question": "Treatment options in POAG may include all, EXCEPT:",
+      "options": {
+        "A": "Beta-blockers.",
+        "B": "Anti prostaglandin.",
+        "C": "Carbonic anhydrase inhibitors.",
+        "D": "Alpha agonists."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a treatment). Beta-blockers reduce aqueous formation.",
+        "B": "Correct. 'Anti-prostaglandin' is the exception: the antiglaucoma drug is a prostaglandin analogue (an agonist) that increases uveoscleral outflow, not a prostaglandin antagonist. The other listed classes, beta-blockers, carbonic anhydrase inhibitors and alpha-agonists, are all genuine antiglaucoma drugs. So 'anti-prostaglandin' is not a treatment option.",
+        "C": "Incorrect (it is a treatment). Carbonic anhydrase inhibitors reduce aqueous formation.",
+        "D": "Incorrect (it is a treatment). Alpha-adrenergic agonists reduce formation and increase outflow."
+      },
+      "subtopic": "Medical treatment of glaucoma",
+      "main_concept": "CON-MUL-CA8B8548C33413",
+      "concept_ids": [
+        "CON-MUL-CA8B8548C33413"
+      ],
+      "learning_objective": "Recognise that the antiglaucoma drug is a prostaglandin analogue, not an 'anti-prostaglandin'."
+    },
+    {
+      "key": "q26",
+      "hold": "Printed key marks anterior lens dislocation (b) as the LEAST likely cause of lens-induced glaucoma, which contradicts the option text: anterior lens dislocation classically causes pupillary-block angle-closure glaucoma, whereas posterior subcapsular cataract (c) does not cause lens-induced glaucoma at all. Key-vs-option contradiction; held per the never-guess rule. Key for reference Q26.B."
+    },
+    {
+      "key": "q27",
+      "id": "QST-KASR315OPH-KAMAL-CH6-27",
+      "page": 59,
+      "title": "Important point in diagnosing open-angle glaucoma",
+      "question": "Which of the following would be an important point in diagnosing a case of open angle glaucoma?",
+      "options": {
+        "A": "Shallow anterior chamber.",
+        "B": "Optic disc cupping.",
+        "C": "Narrow angle.",
+        "D": "Visual acuity and refractive error."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A shallow anterior chamber is a feature of angle-closure, not open-angle, glaucoma.",
+        "B": "Correct. Optic-disc cupping is the key diagnostic sign of open-angle glaucoma, reflecting the glaucomatous optic neuropathy that defines the disease. Because the angle is open and the eye is white and quiet, the diagnosis rests on the disc and the field rather than on angle signs. So disc cupping is the important diagnostic point.",
+        "C": "Incorrect. A narrow angle points to angle-closure glaucoma, not open-angle.",
+        "D": "Incorrect. Visual acuity and refractive error are preserved until late and do not diagnose open-angle glaucoma."
+      },
+      "subtopic": "Optic-disc changes in glaucoma",
+      "main_concept": "CON-MUL-D03EA144F40148",
+      "concept_ids": [
+        "CON-MUL-D03EA144F40148"
+      ],
+      "learning_objective": "Identify optic-disc cupping as the key diagnostic sign of open-angle glaucoma."
+    },
+    {
+      "key": "q28",
+      "id": "QST-KASR315OPH-KAMAL-CH6-28",
+      "page": 60,
+      "title": "Lens problem most likely to cause secondary angle-closure",
+      "question": "The following type of lens problem is the most likely to result in secondary angle closure glaucoma:",
+      "options": {
+        "A": "Hypermature cataract.",
+        "B": "Traumatic cataract.",
+        "C": "Intumescent cataract.",
+        "D": "After cataract."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A hypermature cataract causes phacolytic (open-angle) glaucoma, not angle closure.",
+        "B": "Incorrect. A traumatic cataract more often causes angle recession or lens-particle open-angle glaucoma.",
+        "C": "Correct. An intumescent (swollen) cataract is the lens problem most likely to cause secondary angle-closure glaucoma: the enlarged lens pushes the iris forward and closes the drainage angle, i.e. phacomorphic glaucoma. Removing the cataract relieves the closure. So the intumescent cataract is the answer.",
+        "D": "Incorrect. After-cataract (posterior capsular opacification) blurs vision but does not close the angle."
+      },
+      "subtopic": "Secondary angle-closure glaucoma",
+      "main_concept": "CON-MUL-87C1044D003495",
+      "concept_ids": [
+        "CON-MUL-87C1044D003495"
+      ],
+      "learning_objective": "Recognise the intumescent cataract as the lens problem causing secondary angle-closure glaucoma."
+    },
+    {
+      "key": "q29",
+      "id": "QST-KASR315OPH-KAMAL-CH6-29",
+      "page": 60,
+      "title": "True statement about primary open-angle glaucoma",
+      "question": "The following is true about primary open angle glaucoma:",
+      "options": {
+        "A": "It usually presents with headache.",
+        "B": "It is asymptomatic in its early stages.",
+        "C": "It requires surgery in most cases.",
+        "D": "Gonioscopy reveals a prominent Schwalbe's line."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Primary open-angle glaucoma is painless and does not usually present with headache.",
+        "B": "Correct. Primary open-angle glaucoma is asymptomatic in its early stages: the eye is white and quiet and central acuity is preserved, so the patient notices nothing until the field is badly damaged. This silence is why screening by pressure, disc and field examination is essential. So being asymptomatic early is the true statement.",
+        "C": "Incorrect. Most cases are controlled medically; surgery is not required in the majority.",
+        "D": "Incorrect. A prominent Schwalbe line is an angle anomaly, not a feature of the open, normal angle of POAG."
+      },
+      "subtopic": "Primary open-angle glaucoma",
+      "main_concept": "CON-MUL-0EF5B1225A86CF",
+      "concept_ids": [
+        "CON-MUL-0EF5B1225A86CF"
+      ],
+      "learning_objective": "Recognise that POAG is asymptomatic in its early stages."
+    },
+    {
+      "key": "q30",
+      "id": "QST-KASR315OPH-KAMAL-CH6-30",
+      "page": 60,
+      "title": "Eye drops that may cause glaucoma",
+      "question": "Which of the following eye drops may result in glaucoma:",
+      "options": {
+        "A": "Antiviral.",
+        "B": "Steroids.",
+        "C": "NSAID.",
+        "D": "Sulphonamides."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Antiviral drops do not raise intraocular pressure.",
+        "B": "Correct. Topical steroid drops can result in glaucoma: in steroid responders they reduce trabecular outflow and raise the intraocular pressure, causing steroid-induced open-angle glaucoma. The risk grows with prolonged use. So steroids are the drops that may cause glaucoma.",
+        "C": "Incorrect. Topical NSAIDs do not cause a steroid-response rise in pressure.",
+        "D": "Incorrect. Sulphonamide drops do not raise intraocular pressure by a steroid mechanism."
+      },
+      "subtopic": "Steroid-induced glaucoma",
+      "main_concept": "CON-MUL-C441036738BC5C",
+      "concept_ids": [
+        "CON-MUL-C441036738BC5C"
+      ],
+      "learning_objective": "Identify topical steroids as the eye drops that may cause glaucoma."
+    },
+    {
+      "key": "q31",
+      "hold": "The EXCEPT/true-statement stem about neovascular glaucoma has two defensibly false options: the keyed 'It often results from central retinal artery occlusion' (a) is false (NVG follows ischaemic central retinal VEIN occlusion), but 'Miotics are useful for treatment' (d) is also false (miotics are not useful in neovascular glaucoma). Not single-best as printed; held for adjudication. Key for reference Q31.A."
+    },
+    {
+      "key": "q32",
+      "id": "QST-KASR315OPH-KAMAL-CH6-32",
+      "page": 60,
+      "title": "Surgery using mitomycin C as an adjunct",
+      "question": "Mitomycin C is used as an adjunct to which of the following surgeries:",
+      "options": {
+        "A": "Vitrectomy.",
+        "B": "Trabeculectomy.",
+        "C": "Goniotomy.",
+        "D": "Keratoplasty."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Vitrectomy is a posterior-segment operation that does not use mitomycin C as a routine adjunct.",
+        "B": "Correct. Mitomycin C is used as an intraoperative adjunct to trabeculectomy, the filtering glaucoma operation, to inhibit fibroblast proliferation and prevent scarring of the drainage bleb. Reducing scarring improves the long-term success of the filter. So mitomycin C is the adjunct to trabeculectomy.",
+        "C": "Incorrect. Goniotomy for congenital glaucoma does not use mitomycin C.",
+        "D": "Incorrect. Keratoplasty (corneal grafting) is not the mitomycin-C glaucoma operation."
+      },
+      "subtopic": "Surgical treatment of glaucoma",
+      "main_concept": "CON-MUL-7F3C4435D53E0A",
+      "concept_ids": [
+        "CON-MUL-7F3C4435D53E0A"
+      ],
+      "learning_objective": "Associate mitomycin C with trabeculectomy as an antiscarring adjunct."
+    },
+    {
+      "key": "q33",
+      "id": "QST-KASR315OPH-KAMAL-CH6-33",
+      "page": 60,
+      "title": "Complication not caused by a hypermature cataract",
+      "question": "Hypermature cataract can cause the following complications, EXCEPT:",
+      "options": {
+        "A": "Phacomorphic glaucoma.",
+        "B": "Phacotoxic irido-cyclitis.",
+        "C": "Dislocation of the lens.",
+        "D": "Phacolytic glaucoma."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Phacomorphic glaucoma is the exception: it is caused by an intumescent (swollen) cataract closing the angle, not by a hypermature cataract. A hypermature cataract instead causes phacolytic glaucoma, phacotoxic (lens-protein) iridocyclitis and, as its zonules weaken, lens dislocation. So phacomorphic glaucoma is the complication that does not belong to a hypermature cataract.",
+        "B": "Incorrect (it is a complication). Leaked lens proteins of a hypermature cataract cause phacotoxic iridocyclitis.",
+        "C": "Incorrect (it is a complication). A hypermature cataract can dislocate as its zonules degenerate.",
+        "D": "Incorrect (it is a complication). A hypermature cataract causes phacolytic glaucoma."
+      },
+      "subtopic": "Lens-induced glaucoma",
+      "main_concept": "CON-MUL-4339537A4E18E0",
+      "concept_ids": [
+        "CON-MUL-4339537A4E18E0"
+      ],
+      "learning_objective": "Exclude phacomorphic glaucoma (an intumescent-cataract disease) from the complications of a hypermature cataract."
+    },
+    {
+      "key": "q34",
+      "id": "QST-KASR315OPH-KAMAL-CH6-34",
+      "page": 60,
+      "title": "Vision in absolute glaucoma",
+      "question": "In absolute glaucoma the vision:",
+      "options": {
+        "A": "Counting fingers.",
+        "B": "Hand movement.",
+        "C": "Just perception of light.",
+        "D": "No perception of light."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Counting fingers implies residual vision, which absolute glaucoma has lost.",
+        "B": "Incorrect. Hand movements implies residual vision, which absolute glaucoma has lost.",
+        "C": "Incorrect. Just perception of light still implies some retained function; absolute glaucoma has none.",
+        "D": "Correct. In absolute glaucoma the vision is no perception of light: it is the end stage of uncontrolled glaucoma in which the optic nerve is wholly destroyed and the eye is blind. It is often a painful blind eye treated only for comfort. So the vision is no perception of light."
+      },
+      "subtopic": "Absolute glaucoma",
+      "main_concept": "CON-MUL-7E56C614EBEEBA",
+      "concept_ids": [
+        "CON-MUL-7E56C614EBEEBA"
+      ],
+      "learning_objective": "Define absolute glaucoma as the end-stage eye with no perception of light."
+    },
+    {
+      "key": "q35",
+      "id": "QST-KASR315OPH-KAMAL-CH6-35",
+      "page": 60,
+      "title": "Glaucoma caused by an intumescent cataract",
+      "question": "Which type of glaucoma is caused by intumescent cataract?",
+      "options": {
+        "A": "Phacolytic glaucoma.",
+        "B": "Phacoanaphylactic glaucoma.",
+        "C": "Pseudoexfoliation glaucoma.",
+        "D": "Phacomorphic glaucoma."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Phacolytic glaucoma follows a hypermature cataract, not an intumescent one.",
+        "B": "Incorrect. Phacoanaphylactic (lens-induced uveitis) glaucoma follows a ruptured capsule with an autoimmune reaction, not an intumescent lens.",
+        "C": "Incorrect. Pseudoexfoliation glaucoma is caused by fibrillar material on the lens and angle, not by lens swelling.",
+        "D": "Correct. Phacomorphic glaucoma is caused by an intumescent (swollen) cataract: the enlarged lens pushes the iris forward and closes the angle, a secondary angle-closure glaucoma. It is relieved by cataract extraction. So the intumescent-cataract glaucoma is phacomorphic."
+      },
+      "subtopic": "Secondary (lens-induced) glaucoma",
+      "main_concept": "CON-MUL-4339537A4E18E0",
+      "concept_ids": [
+        "CON-MUL-4339537A4E18E0"
+      ],
+      "learning_objective": "Name phacomorphic glaucoma as the glaucoma caused by an intumescent cataract."
     }
   ]
 }
