@@ -1460,3 +1460,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-16
+## title
+Thermotherapy
+## question
+Thermotherapy is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Tissue ablation.
+## explanation_a
+Incorrect. Ablation is a different mechanism.
+## answer_b
+Elevating tissue temperature.
+## explanation_b
+Correct. Thermotherapy elevates the tissue temperature.
+## answer_c
+Incision.
+## explanation_c
+Incorrect. Incision describes photodisruption.
+## answer_d
+Cauterization.
+## explanation_d
+Incorrect. Cauterisation is not laser thermotherapy.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-3E88D17CAC21CD
+## concept_ids
+CON-MUL-3E88D17CAC21CD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that thermotherapy elevates tissue temperature.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-17
+## title
+YAG laser effect
+## question
+YAG laser effect is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Incisions.
+## explanation_a
+Correct. The Nd:YAG laser incises tissue by photodisruption.
+## answer_b
+Coagulation.
+## explanation_b
+Incorrect. Coagulation is the argon mechanism.
+## answer_c
+Tissue ablation.
+## explanation_c
+Incorrect. Ablation is the excimer mechanism.
+## answer_d
+Photosensitized cytotoxicity.
+## explanation_d
+Incorrect. Photosensitised cytotoxicity describes photodynamic therapy.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-B75D3BC47D3A8A
+## concept_ids
+CON-MUL-B75D3BC47D3A8A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that the YAG laser effect is incision (photodisruption).
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-18
+## title
+Diagnostic use of laser
+## question
+Diagnostic uses of laser include the following:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Laser-assisted in situ keratomileusis (LASIK).
+## explanation_a
+Incorrect. LASIK is a therapeutic refractive procedure.
+## answer_b
+Femtocataract.
+## explanation_b
+Incorrect. Femto-cataract is a therapeutic procedure.
+## answer_c
+Photo refractive keratectomy (PRK).
+## explanation_c
+Incorrect. PRK is a therapeutic refractive procedure.
+## answer_d
+Optical coherence tomography.
+## explanation_d
+Correct. Optical coherence tomography is a diagnostic laser application.
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## main_concept
+CON-MUL-7F89312D54A148
+## concept_ids
+CON-MUL-7F89312D54A148
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify OCT as a diagnostic use of laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-19
+## title
+Laser thermal tissue interaction
+## question
+Laser thermal tissue interaction includes:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Photocoagulation.
+## explanation_a
+Correct. Photocoagulation is a thermal laser-tissue interaction.
+## answer_b
+Photoradiation.
+## explanation_b
+Incorrect. Photoradiation is a photochemical (photodynamic) effect.
+## answer_c
+Photoablation.
+## explanation_c
+Incorrect. Photoablation is a photochemical bond-breaking effect.
+## answer_d
+Photodisruption.
+## explanation_d
+Incorrect. Photodisruption is an ionising (plasma) effect.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-1B57AC909CFAEA
+## concept_ids
+CON-MUL-1B57AC909CFAEA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify photocoagulation as a thermal laser-tissue interaction.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-20
+## title
+Tissue interaction in LASIK
+## question
+The tissue interaction in Laser-assisted in situ keratomileusis (LASIK) is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Photoablation.
+## explanation_a
+Correct. LASIK works by excimer photoablation of the cornea.
+## answer_b
+Photodisruption.
+## explanation_b
+Incorrect. Photodisruption is the Nd:YAG mechanism.
+## answer_c
+Photovaporization.
+## explanation_c
+Incorrect. Photovaporisation is a different thermal effect.
+## answer_d
+Photoradiation.
+## explanation_d
+Incorrect. Photoradiation is a photodynamic effect.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-8759A5DE744C16
+## concept_ids
+CON-MUL-8759A5DE744C16
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that LASIK works by photoablation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
