@@ -19121,3 +19121,891 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility, Q61/Q62) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-638E232A3C3F93
+## label
+Glaucomatous field loss gives a nasal step and arcuate scotoma, sparing central vision until late
+## canonical_key
+ophthalmology.open-angle-glaucoma.visual-field-defects-nasal-step-arcuate-not-central
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The retinal nerve-fibre loss of open-angle glaucoma produces characteristic visual-field defects: an early nasal step, paracentral scotomas, arcuate (Bjerrum) scotomas that follow the arcuate nerve-fibre bundles, and in advanced disease a constricted tubular field. Central vision, and therefore visual acuity, is preserved until late, so a central scotoma is not a feature of glaucoma. A bitemporal hemianopia points instead to a chiasmal lesion, not to glaucoma.
+## explicit_objective
+Recognise the nasal step and arcuate scotoma as glaucomatous field defects, with central vision spared until late.
+## pitfalls
+Expecting an early central scotoma (central vision is spared until late) or attributing a bitemporal hemianopia to glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual fields in glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Visual fields in glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q1/Q9) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4339537A4E18E0
+## label
+Phacolytic glaucoma follows a hypermature cataract; phacomorphic glaucoma follows an intumescent one
+## canonical_key
+ophthalmology.lens-induced-glaucoma.phacolytic-hypermature-versus-phacomorphic-intumescent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lens-induced (phacogenic) glaucoma has two main forms. Phacolytic glaucoma is a secondary open-angle glaucoma of a hypermature (Morgagnian) cataract, in which leaked liquefied lens proteins and macrophages clog the trabecular meshwork. Phacomorphic glaucoma is a secondary angle-closure glaucoma of an intumescent (swollen) cataract, in which the enlarged lens pushes the iris forward and closes the angle. Both are treated definitively by removing the cataractous lens.
+## explicit_objective
+Distinguish phacolytic glaucoma (hypermature cataract, open angle) from phacomorphic glaucoma (intumescent cataract, angle closure).
+## pitfalls
+Swapping the two: phacolytic goes with a hypermature cataract (open-angle, protein clogging), phacomorphic with an intumescent cataract (angle closure).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Secondary (lens-induced) glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Secondary (lens-induced) glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q2/Q12/Q19) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-617A93033CA1F5
+## label
+Neovascular glaucoma follows ischaemic retinal vein occlusion through angle neovascularisation
+## canonical_key
+ophthalmology.neovascular-glaucoma.from-ischaemic-retinal-vein-occlusion-angle-neovessels
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neovascular glaucoma is a secondary glaucoma in which retinal ischaemia, classically from an ischaemic central retinal vein occlusion or proliferative diabetic retinopathy, releases angiogenic factors that drive new vessels (rubeosis) over the iris and into the anterior-chamber angle. The fibrovascular membrane first blocks and later contracts over the trabecular meshwork, raising the intraocular pressure. It is a severe, often refractory glaucoma that also requires treatment of the underlying retinal ischaemia.
+## explicit_objective
+Attribute neovascular glaucoma to angle neovascularisation following ischaemic retinal vein occlusion.
+## pitfalls
+Confusing the mechanism with blood in the trabecular meshwork or angle recession; neovascular glaucoma is driven by new vessels growing in the angle.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Secondary (neovascular) glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Secondary (neovascular) glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q3/Q24) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-375C58C2919817
+## label
+Primary open-angle glaucoma has an open deep angle with raised IOP, disc cupping and field loss
+## canonical_key
+ophthalmology.primary-open-angle-glaucoma.open-deep-anterior-chamber-high-iop-disc-and-field-damage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary open-angle glaucoma is a chronic, painless, bilateral optic neuropathy with a normal, open, deep anterior-chamber angle. It presents with a raised intraocular pressure, progressive optic-disc cupping and glaucomatous visual-field loss, but the anterior chamber is not shallow and there is no iris bombe, which belong instead to angle-closure glaucoma. Because it is asymptomatic until advanced, optic-disc assessment and perimetry are mandatory for its diagnosis and monitoring.
+## explicit_objective
+Recognise primary open-angle glaucoma as an open-angle, deep-chamber glaucoma with raised IOP, disc cupping and field loss, without a shallow chamber.
+## pitfalls
+Attributing a shallow anterior chamber or iris bombe to open-angle glaucoma; those are features of angle-closure glaucoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Primary open-angle glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Primary open-angle glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.6
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q4/Q11) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DBA7D4DDD6A591
+## label
+Angle-closure glaucoma is treated definitively by surgery or laser iridotomy, not medicine alone
+## canonical_key
+ophthalmology.angle-closure-glaucoma.definitive-treatment-is-surgical-iridotomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary angle-closure glaucoma occurs in eyes with a shallow anterior chamber and a narrow angle, more often in hypermetropic older women, when the peripheral iris blocks the trabecular meshwork. Medical treatment lowers the intraocular pressure acutely, but the definitive treatment is surgical: a laser (or surgical) peripheral iridotomy to relieve the pupil block. Surgery is therefore still needed even after the pressure has been controlled medically.
+## explicit_objective
+State that angle-closure glaucoma needs a definitive surgical or laser iridotomy, not medical control alone.
+## pitfalls
+Assuming that medical control of the pressure removes the need for iridotomy, or that angle closure is commoner in myopic patients (it is hypermetropic).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Angle-closure glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q5) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0AFD8901536A4E
+## label
+Congenital glaucoma is treated definitively by surgery (goniotomy or trabeculotomy)
+## canonical_key
+ophthalmology.congenital-glaucoma.definitive-treatment-is-surgical
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary congenital glaucoma results from a developmental anomaly of the anterior-chamber angle that obstructs aqueous outflow, presenting with buphthalmos, corneal haze, epiphora and photophobia. Antiglaucoma drops are only a temporising measure; the definitive treatment is surgical, by goniotomy or trabeculotomy to open the obstructed angle. Left untreated it causes irreversible blindness, so early surgery is essential.
+## explicit_objective
+State that congenital glaucoma is treated definitively by angle surgery, not by drops alone or lens extraction.
+## pitfalls
+Treating congenital glaucoma with topical drops alone or by lens extraction, or assuming it does not blind if untreated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Congenital glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q6) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D03EA144F40148
+## label
+Glaucomatous optic neuropathy is seen on fundoscopy as increased optic-disc cupping
+## canonical_key
+ophthalmology.glaucomatous-optic-neuropathy.optic-disc-cupping-on-fundoscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The optic-nerve damage of glaucoma is seen on fundus examination as an enlarged, deep optic-disc cup with an increased cup-to-disc ratio, thinning and notching of the neuroretinal rim, baring of the lamina cribrosa, nasal shift of the vessels and disc haemorrhages. Detecting this cupping is the main reason fundoscopy is essential in glaucoma. Progressive cupping tracks the optic neuropathy and correlates with the visual-field loss.
+## explicit_objective
+Recognise optic-disc cupping on fundoscopy as the sign of glaucomatous optic neuropathy.
+## pitfalls
+Performing fundoscopy in glaucoma to look for a retinal tear or the red reflex rather than for optic-disc cupping.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic-disc changes in glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Optic-disc changes in glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q7/Q14/Q27) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-05745AF10298BA
+## label
+Secondary open-angle glaucoma follows inflammation, steroids or angle recession, not phacomorphic closure
+## canonical_key
+ophthalmology.secondary-open-angle-glaucoma.causes-inflammatory-steroid-angle-recession-not-phacomorphic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Secondary open-angle glaucoma is a raised intraocular pressure with an open angle from an identifiable cause that impairs trabecular outflow: acute iridocyclitis (inflammatory cells and debris), prolonged topical steroid use (steroid-induced glaucoma), post-traumatic angle recession and phacolytic (hypermature-lens) glaucoma. Phacomorphic glaucoma is the exception, being a secondary angle-CLOSURE from an intumescent lens pushing the iris forward, not an open-angle mechanism.
+## explicit_objective
+List inflammatory, steroid-induced and angle-recession causes of secondary open-angle glaucoma and exclude phacomorphic (angle-closure) glaucoma.
+## pitfalls
+Classifying phacomorphic glaucoma as open-angle; it is a secondary angle-closure from a swollen (intumescent) lens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Secondary open-angle glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Secondary open-angle glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q8/Q13) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

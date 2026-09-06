@@ -1,0 +1,161 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch6-glaucoma",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 6 The glaucomas (open-angle, angle-closure, secondary and congenital glaucoma), MCQ Q1-8 opening slice, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.3-4 Chapter 6 table, 70 answers; only Q36 omitted), each key re-verified against the option text. 8 authored (Q1-8) / 0 held / 0 excluded in this slice. Q9-71 remain for the next tranche. Node DIS-OPH-T03 (Glaucoma), grouped in new ART-OPH-315-GLAUCOMA.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > The glaucomas",
+    "exam_weight_by_year": { "KAU_Y3": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-GLAUCOMA"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "The glaucomas",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Low",
+    "reasoning_level": 2,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.6 chapter->Q->letter table (p.3-4, 70 answers), re-verified against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR315OPH-KAMAL-CH6-1", "page": 56,
+      "title": "Field change not seen in open-angle glaucoma",
+      "question": "All the following field changes are associated with open-angle glaucoma, EXCEPT:",
+      "options": { "A": "Nasal step", "B": "Central scotoma", "C": "Arcuate scotoma", "D": "Tubular field" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a glaucomatous field change). A nasal step is a classic early defect of open-angle glaucoma.",
+        "B": "Correct. A central scotoma is the exception: glaucoma damages the arcuate nerve-fibre bundles first and spares the central (macular) fibres until late, so central vision and acuity are preserved and a central scotoma is not a typical glaucomatous defect. A central scotoma instead suggests a maculopathy or optic-nerve disease. This makes it the field change not associated with glaucoma.",
+        "C": "Incorrect (it is a glaucomatous field change). Arcuate (Bjerrum) scotomas follow the arcuate nerve-fibre bundles and are characteristic of glaucoma.",
+        "D": "Incorrect (it is a glaucomatous field change). A constricted tubular field is the end-stage field of advanced glaucoma."
+      },
+      "subtopic": "Visual fields in glaucoma",
+      "main_concept": "CON-MUL-638E232A3C3F93", "concept_ids": ["CON-MUL-638E232A3C3F93"],
+      "learning_objective": "Recognise that central vision is spared until late in glaucoma, so a central scotoma is not a glaucomatous field defect."
+    },
+    {
+      "key": "q2", "id": "QST-KASR315OPH-KAMAL-CH6-2", "page": 56,
+      "title": "Setting of phacolytic glaucoma",
+      "question": "Phacolytic glaucoma occurs in the setting of:",
+      "options": { "A": "Intumescent cataract", "B": "Open anterior lens capsule", "C": "Long-standing retinal detachment", "D": "Hypermature cataract" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. An intumescent (swollen) cataract causes phacomorphic glaucoma by angle closure, not phacolytic glaucoma.",
+        "B": "Incorrect. Phacolytic glaucoma follows leakage through an intact but hypermature capsule; a frankly open (ruptured) capsule with lens material in the anterior chamber gives lens-particle or phaco-antigenic glaucoma.",
+        "C": "Incorrect. A long-standing retinal detachment is not the setting of phacolytic glaucoma.",
+        "D": "Correct. Phacolytic glaucoma is a secondary open-angle glaucoma of a hypermature (Morgagnian) cataract, in which liquefied lens proteins leak through the intact capsule and, with macrophages, clog the trabecular meshwork. The raised pressure resolves after the cataract is removed. So the setting is a hypermature cataract."
+      },
+      "subtopic": "Secondary (lens-induced) glaucoma",
+      "main_concept": "CON-MUL-4339537A4E18E0", "concept_ids": ["CON-MUL-4339537A4E18E0"],
+      "learning_objective": "Associate phacolytic glaucoma with a hypermature cataract."
+    },
+    {
+      "key": "q3", "id": "QST-KASR315OPH-KAMAL-CH6-3", "page": 56,
+      "title": "Mechanism of glaucoma after ischaemic central retinal vein occlusion",
+      "question": "Which mechanism describes secondary glaucoma following ischemic central retinal vein occlusion?",
+      "options": { "A": "Blood in the trabecular meshwork", "B": "Rise of IOP following a rise in systemic blood pressure", "C": "Neo-vessel formation in the anterior chamber angle", "D": "Angle recession" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Blood clogging the trabecular meshwork causes haemolytic or ghost-cell glaucoma after vitreous haemorrhage, not the glaucoma of ischaemic vein occlusion.",
+        "B": "Incorrect. Intraocular pressure is not driven by systemic blood pressure in this way; the glaucoma here is structural, from new vessels.",
+        "C": "Correct. An ischaemic central retinal vein occlusion releases angiogenic factors that grow new vessels (rubeosis) over the iris and into the anterior-chamber angle, forming a fibrovascular membrane that blocks and later contracts over the trabecular meshwork. This is neovascular glaucoma. The mechanism is neovessel formation in the angle.",
+        "D": "Incorrect. Angle recession is a post-traumatic tearing of the ciliary body, not the mechanism after an ischaemic vein occlusion."
+      },
+      "subtopic": "Secondary (neovascular) glaucoma", "reasoning_level": 3,
+      "main_concept": "CON-MUL-617A93033CA1F5", "concept_ids": ["CON-MUL-617A93033CA1F5"],
+      "learning_objective": "Attribute post-ischaemic-CRVO glaucoma to angle neovascularisation."
+    },
+    {
+      "key": "q4", "id": "QST-KASR315OPH-KAMAL-CH6-4", "page": 57,
+      "title": "Feature not seen in open-angle glaucoma",
+      "question": "Open angle glaucoma can present with all of the following, EXCEPT:",
+      "options": { "A": "High intraocular pressure.", "B": "Shallow anterior chamber with iris bombe.", "C": "Optic atrophy.", "D": "Visual field defect." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a feature). A raised intraocular pressure is typical of open-angle glaucoma.",
+        "B": "Correct. A shallow anterior chamber with iris bombe is the exception: open-angle glaucoma has a normal, open, deep angle, whereas a shallow chamber and iris bombe are the hallmarks of angle-closure glaucoma. So this feature does not belong to open-angle glaucoma. It is what separates the closed-angle from the open-angle mechanism.",
+        "C": "Incorrect (it is a feature). Progressive optic-nerve damage produces glaucomatous optic atrophy with cupping.",
+        "D": "Incorrect (it is a feature). Characteristic visual-field loss is a defining feature of open-angle glaucoma."
+      },
+      "subtopic": "Primary open-angle glaucoma",
+      "main_concept": "CON-MUL-375C58C2919817", "concept_ids": ["CON-MUL-375C58C2919817"],
+      "learning_objective": "Recognise that a shallow chamber with iris bombe belongs to angle-closure, not open-angle, glaucoma."
+    },
+    {
+      "key": "q5", "id": "QST-KASR315OPH-KAMAL-CH6-5", "page": 57,
+      "title": "True statement about angle-closure glaucoma",
+      "question": "In angle closure glaucoma:",
+      "options": { "A": "Treatment is essentially surgical.", "B": "If medical treatment controls the high intraocular pressure, surgery is not needed.", "C": "Can be secondary to immature cataract.", "D": "Is more common in myopic women over 40 years old." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The definitive treatment of angle-closure glaucoma is surgical: a laser or surgical peripheral iridotomy to relieve pupil block and reopen the angle. Medical treatment only lowers the pressure acutely and does not cure the anatomical block, so the management is essentially surgical. This is the true statement.",
+        "B": "Incorrect. Even when drops control the pressure, an iridotomy is still needed to remove the underlying pupil block, so medical control does not make surgery unnecessary.",
+        "C": "Incorrect. Angle closure is precipitated by an intumescent (swollen) cataract, not an immature one.",
+        "D": "Incorrect. Angle-closure glaucoma is commoner in hypermetropic (not myopic) older women, because hypermetropic eyes have shallow anterior chambers."
+      },
+      "subtopic": "Angle-closure glaucoma",
+      "main_concept": "CON-MUL-DBA7D4DDD6A591", "concept_ids": ["CON-MUL-DBA7D4DDD6A591"],
+      "learning_objective": "Recognise that angle-closure glaucoma is treated definitively by iridotomy, not medicine alone."
+    },
+    {
+      "key": "q6", "id": "QST-KASR315OPH-KAMAL-CH6-6", "page": 57,
+      "title": "True statement about congenital glaucoma",
+      "question": "Congenital glaucoma:",
+      "options": { "A": "Should be treated by topical antiglaucoma eye drops only.", "B": "Surgical treatment is the definitive treatment.", "C": "Is best treated by lens extraction.", "D": "Does not cause blindness if not treated." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Topical drops are only a temporising measure; they do not correct the developmental angle anomaly.",
+        "B": "Correct. Congenital glaucoma is caused by a developmental anomaly of the anterior-chamber angle that blocks aqueous outflow, and its definitive treatment is surgical, by goniotomy or trabeculotomy to open the obstructed angle. Drops only temporise before surgery. Early surgery is essential to prevent irreversible blindness.",
+        "C": "Incorrect. The problem is the angle, not the lens, so lens extraction is not the treatment.",
+        "D": "Incorrect. Untreated congenital glaucoma causes buphthalmos and progresses to irreversible blindness."
+      },
+      "subtopic": "Congenital glaucoma",
+      "main_concept": "CON-MUL-0AFD8901536A4E", "concept_ids": ["CON-MUL-0AFD8901536A4E"],
+      "learning_objective": "Recognise surgery (goniotomy/trabeculotomy) as the definitive treatment of congenital glaucoma."
+    },
+    {
+      "key": "q7", "id": "QST-KASR315OPH-KAMAL-CH6-7", "page": 57,
+      "title": "Purpose of fundus examination in open-angle glaucoma",
+      "question": "Fundus examination is important in open angle glaucoma examination:",
+      "options": { "A": "To detect arteriovenous correlation.", "B": "To detect optic disc cupping.", "C": "To detect any associated retinal tear.", "D": "To check red reflex." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Arteriovenous crossing changes belong to hypertensive retinopathy, not to the glaucoma assessment.",
+        "B": "Correct. Fundus examination in glaucoma is done to detect optic-disc cupping, the sign of glaucomatous optic neuropathy, with an increased cup-to-disc ratio and neuroretinal-rim thinning. Following the cupping tracks the disease and its field loss. This is the reason fundoscopy is essential in glaucoma.",
+        "C": "Incorrect. Looking for a retinal tear is part of a peripheral retinal examination, not the purpose of fundoscopy in glaucoma.",
+        "D": "Incorrect. The red reflex assesses the clarity of the media (for example a cataract), not the optic-disc damage of glaucoma."
+      },
+      "subtopic": "Optic-disc changes in glaucoma",
+      "main_concept": "CON-MUL-D03EA144F40148", "concept_ids": ["CON-MUL-D03EA144F40148"],
+      "learning_objective": "State that fundoscopy in glaucoma is to detect optic-disc cupping."
+    },
+    {
+      "key": "q8", "id": "QST-KASR315OPH-KAMAL-CH6-8", "page": 57,
+      "title": "Cause not producing secondary open-angle glaucoma",
+      "question": "Causes of secondary open angle glaucoma include all of the following, EXCEPT:",
+      "options": { "A": "Acute iridocyclitis.", "B": "Angle recession.", "C": "Steroid induced glaucoma.", "D": "Phacomorphic glaucoma." },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a secondary open-angle cause). Acute iridocyclitis raises the pressure with an open angle by clogging the meshwork with inflammatory cells and debris.",
+        "B": "Incorrect (it is a secondary open-angle cause). Post-traumatic angle recession damages the trabecular meshwork, causing an open-angle glaucoma.",
+        "C": "Incorrect (it is a secondary open-angle cause). Prolonged topical steroids reduce trabecular outflow, causing steroid-induced open-angle glaucoma.",
+        "D": "Correct. Phacomorphic glaucoma is the exception: it is a secondary angle-CLOSURE glaucoma, in which an intumescent (swollen) cataract pushes the iris forward and closes the angle, not an open-angle mechanism. All the other options act with an open angle, so phacomorphic glaucoma is the one that does not belong."
+      },
+      "subtopic": "Secondary open-angle glaucoma",
+      "main_concept": "CON-MUL-05745AF10298BA", "concept_ids": ["CON-MUL-05745AF10298BA"],
+      "learning_objective": "Exclude phacomorphic (angle-closure) glaucoma from the causes of secondary open-angle glaucoma."
+    }
+  ]
+}

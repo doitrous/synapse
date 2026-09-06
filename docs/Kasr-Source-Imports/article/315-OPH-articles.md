@@ -567,3 +567,97 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Chapter-5 ocular-motility concepts (MCQ Q1-63). Filed under the closest verified node DIS-OPH-T05 (Neuro-ophthalmology); DIS-OPH has no dedicated strabismus/ocular-motility node, so the extraocular-muscle anatomy, cranial-nerve, squint and amblyopia facts are all grouped here. Chapter 5 has 63 keyed MCQs; Q1-25 authored the first tranche, Q28-63 clean single-best items authored this tranche (four new concepts: versions/vergences, childhood-esotropia workup, concomitant strabismus, trochlear palsy). Held below the four-option floor: Q26 (True/False) and Q27 (3-option). Deferred for multi-true adjudication (not authored, not held): the patient-scenario vignettes Q32, Q34, Q35, Q37-Q47, Q59 (each lists more than one defensibly true statement). The post-Q63 T/F Cases section (Cases 1-6) is multi-true and out of scope.
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-OPH-315-GLAUCOMA
+## title
+Ophthalmology: the glaucomas (open-angle, angle-closure, secondary and congenital)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article groups the glaucoma facts tested by the opening slice of Chapter 6 of the question bank (MCQ Q1-8). It covers primary open-angle glaucoma (a chronic, painless, bilateral optic neuropathy with an open deep angle, raised intraocular pressure, optic-disc cupping and characteristic field loss), the glaucomatous visual-field defects (nasal step and arcuate scotoma with central vision spared until late, unlike a chiasmal bitemporal hemianopia), glaucomatous optic neuropathy seen on fundoscopy as increased optic-disc cupping, angle-closure glaucoma (a shallow-chamber, hypermetropic disease whose definitive treatment is a laser or surgical iridotomy rather than medicine alone), congenital glaucoma (treated definitively by goniotomy or trabeculotomy), and the secondary glaucomas (secondary open-angle from iridocyclitis, steroids, angle recession and phacolytic hypermature-lens glaucoma; lens-induced phacolytic versus phacomorphic glaucoma; and neovascular glaucoma from angle neovascularisation after ischaemic retinal vein occlusion).
+## sections
+### Definition
+Glaucoma is a progressive optic neuropathy, usually associated with a raised intraocular pressure, that causes optic-disc cupping and characteristic visual-field loss. This article gathers the Chapter-6 concepts on the primary open-angle and angle-closure forms, the congenital form, and the secondary glaucomas, and how each is recognised and treated. Each linked concept states one atomic fact about the glaucomas.
+### Mechanism
+Intraocular pressure is maintained by the balance between aqueous secretion by the ciliary body and its drainage at the anterior-chamber angle. In open-angle glaucoma outflow is impaired at an open trabecular meshwork; in angle-closure the peripheral iris physically blocks an already narrow angle; in secondary glaucomas an identifiable process (inflammatory debris, steroids, angle recession, liquefied lens protein, an intumescent lens, or angle neovascularisation) obstructs outflow. The sustained pressure damages the optic nerve, cupping the disc and eroding the field.
+### Key determinants
+Discriminators tested here: open-angle glaucoma has a deep open angle (no shallow chamber or iris bombe) whereas angle-closure and phacomorphic glaucoma close the angle; glaucomatous fields show a nasal step and arcuate scotoma with central vision spared until late (a central scotoma and bitemporal hemianopia are not glaucomatous); fundoscopy in glaucoma is for optic-disc cupping; phacolytic glaucoma follows a hypermature cataract (open angle) while phacomorphic follows an intumescent one (angle closure); neovascular glaucoma follows ischaemic retinal vein occlusion through angle neovessels; and angle-closure and congenital glaucoma are treated definitively by surgery or laser, not by drops alone.
+### Clinical significance
+These facts underlie the recognition and management of blinding glaucoma: screening for asymptomatic open-angle disease by intraocular pressure, optic-disc assessment and perimetry; performing a definitive iridotomy in angle-closure; operating early in congenital glaucoma to prevent blindness; and identifying the treatable cause behind a secondary glaucoma (inflammation, steroids, trauma, a cataractous lens, or retinal ischaemia).
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (open-angle versus angle-closure chamber depth, central versus arcuate field loss, phacolytic versus phacomorphic glaucoma, and the belief that medical pressure control removes the need for iridotomy).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+## subtopic
+The glaucomas
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-638E232A3C3F93
+CON-MUL-4339537A4E18E0
+CON-MUL-617A93033CA1F5
+CON-MUL-375C58C2919817
+CON-MUL-DBA7D4DDD6A591
+CON-MUL-0AFD8901536A4E
+CON-MUL-D03EA144F40148
+CON-MUL-05745AF10298BA
+## related_articles
+ART-OPH-315-EYE-ANATOMY
+ART-OPH-315-IMAGE-CAPTURE
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the opening slice of Chapter-6 glaucoma concepts (MCQ Q1-8). Filed under the verified node DIS-OPH-T03 (Glaucoma). Chapter 6 has 70 keyed MCQs (answer key p.3-4; only Q36 omitted); Q1-8 authored this tranche, Q9-71 remain for the next tranche.
+## reading_time
+4
