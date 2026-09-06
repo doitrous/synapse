@@ -6900,3 +6900,1002 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-2E5E4C0B1F1695
+## label
+Warty (verrucous) skin changes occur in bancroftian filariasis
+## canonical_key
+parasitology.wuchereria.warty-skin-changes-elephantiasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In chronic bancroftian filariasis the adult Wuchereria bancrofti worms obstruct the lymphatics, and the long-standing lymphoedema of the affected part (elephantiasis) leads to thickened, hyperkeratotic skin with warty, verrucous nodular changes (the 'mossy foot' appearance). These warty skin changes are a late complication of chronic lymphatic obstruction rather than an early sign of infection.
+## explicit_objective
+Associate warty (verrucous) skin changes with chronic bancroftian filariasis (elephantiasis).
+## pitfalls
+The warty skin change of chronic lymphatic elephantiasis is due to Wuchereria; loaiasis produces transient Calabar swellings, onchocerciasis produces lizard-skin and depigmentation, and 'ground itch' is the hookworm skin-penetration reaction, none of which is verrucous elephantiasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0494147D812ECC
+## label
+Skin depigmentation (leopard skin) occurs in onchocerciasis
+## canonical_key
+parasitology.onchocerca.skin-depigmentation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic onchocerciasis (Onchocerca volvulus) causes patchy loss of skin pigment, classically over the shins, producing the 'leopard skin' appearance, alongside skin atrophy and hyperkeratosis ('lizard skin'). The depigmentation results from the chronic dermatitis provoked by dead microfilariae in the skin, and is part of the spectrum of onchodermatitis.
+## explicit_objective
+Associate skin depigmentation (leopard skin) with onchocerciasis.
+## pitfalls
+Depigmentation is the onchocercal leopard-skin change from microfilarial dermatitis; it is not a feature of scabies, kala-azar or bancroftian filariasis, the last of which causes lymphoedema and elephantiasis rather than depigmentation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-81AB576F988159
+## label
+Lymphatic blockage in bancroftian filariasis is multifactorial
+## canonical_key
+parasitology.wuchereria.lymphatic-blockage-multifactorial
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In bancroftian filariasis the blockage of lymphatic vessels is multifactorial: living and dead adult worms mechanically obstruct and dilate the lymphatics, the host granulomatous and fibrotic reaction around dead worms narrows them, and recurrent secondary bacterial and fungal infections further damage the vessels, together producing progressive lymphoedema and elephantiasis. The infection is mosquito-borne (Culex), predominantly affects the lower limbs and genitalia, and the filaria dance sign is the movement of adult worms seen on scrotal ultrasound.
+## explicit_objective
+Recognise that lymphatic vessel blockage in bancroftian filariasis is multifactorial.
+## pitfalls
+Bancroftian filariasis is mosquito-borne (not tick-borne) and affects lower-limb and genital rather than cervical nodes; the filaria dance sign reflects moving ADULT worms on ultrasound, not microfilariae, and the lymphatic damage arises from worms, host reaction and secondary infection combined.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-75235720159AD0
+## label
+In enterobiasis the diagnostic and infective stages are identical (the egg)
+## canonical_key
+parasitology.enterobius.diagnostic-infective-stage-identical
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In Enterobius vermicularis the egg is both the diagnostic stage, recovered from the perianal skin by the NIH cellophane-tape swab, and the infective stage, because it becomes infective within a few hours of being laid and is then swallowed to start a new infection. Since the same egg both diagnoses and transmits the infection, the diagnostic and infective stages are identical.
+## explicit_objective
+Recognise that the diagnostic and infective stages are identical (the egg) in enterobiasis.
+## pitfalls
+The identity of diagnostic and infective stage here is the Enterobius egg; in trichuriasis the egg must first embryonate in soil, in taeniasis solium the egg is eaten by the pig intermediate host, and in cyclosporiasis the oocyst must sporulate outside the host, so in each of those the diagnostic and infective stages differ.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-DF828D10A99F20
+## label
+Trichuris trichiura can cause appendicitis
+## canonical_key
+parasitology.trichuris.appendicitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Heavy Trichuris trichiura infection can cause appendicitis: the whipworms inhabit the caecum and appendix, and worms lodged in the appendiceal lumen together with the accompanying mucosal inflammation can obstruct and inflame the appendix. Appendicitis is therefore a recognised complication of caecal whipworm infection.
+## explicit_objective
+Recognise appendicitis as a complication of Trichuris trichiura infection.
+## pitfalls
+Among the options the caecum- and appendix-dwelling Trichuris is the appendicitis worm; Ancylostoma and Schistosoma do not lodge in the appendix, and the danger of Taenia solium is cysticercosis, not appendicitis (Enterobius, not listed here, is the other classic appendix worm).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-A67E7D9F2BDC1D
+## label
+The DEC (Mazzotti) patch test is a localised diagnostic test in onchocerciasis
+## canonical_key
+parasitology.onchocerca.dec-patch-test
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The localised diethylcarbamazine (DEC) patch test is a safer topical alternative to the oral Mazzotti test for onchocerciasis: DEC applied to the skin kills local Onchocerca microfilariae and provokes a localised itchy erythematous reaction where microfilariae are present, avoiding the generalised dangerous reaction of the oral test. A false-positive localised reaction can occur where Loa loa is co-endemic, because its skin microfilariae also respond to DEC.
+## explicit_objective
+Recognise the localised DEC (Mazzotti) patch test as a diagnostic aid in onchocerciasis and its correct features.
+## pitfalls
+The patch test is topical and localised (not the hazardous generalised oral test), the reaction is to dying MICROFILARIAE not adult Onchocerca, and the erythema follows topical rather than oral DEC; a false-positive can occur in Loa loa co-infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0884E6E3AF7A8E
+## label
+Transient pulmonary symptoms (Loeffler syndrome) occur in ascariasis
+## canonical_key
+parasitology.ascaris.transient-pulmonary-loeffler
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During ascariasis the swallowed eggs hatch and the larvae migrate through the lungs before being coughed up and re-swallowed to mature in the gut; this larval lung passage provokes a transient pneumonitis with cough, wheeze, fleeting pulmonary infiltrates and blood eosinophilia known as Loeffler syndrome. The pulmonary symptoms are transient because they coincide only with the brief larval migration phase.
+## explicit_objective
+Associate transient pulmonary symptoms (Loeffler syndrome) with the larval lung migration of ascariasis.
+## pitfalls
+Transient pulmonary symptoms mark the larval lung-migration (Loeffler) phase of ascariasis; Trichuris and Hymenolepis nana have no lung phase and Trichostrongylus is a mild intestinal worm, so none of them produces this transient pneumonitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4AF960D3F63C6F
+## label
+Prolonged creeping eruption is due to animal hookworm larvae
+## canonical_key
+parasitology.ancylostoma-caninum.cutaneous-larva-migrans
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Raised, erythematous, serpiginous skin tracks that persist and slowly advance for weeks to months are cutaneous larva migrans (creeping eruption), caused by the filariform larvae of animal hookworms such as Ancylostoma caninum and A. braziliense. Because man is an abnormal host, these larvae cannot penetrate beyond the skin or complete their migration, so they wander in the epidermis for a prolonged period, which distinguishes the lesion from the fast, short-lived larva currens of Strongyloides.
+## explicit_objective
+Attribute prolonged serpiginous creeping eruption to the larvae of animal hookworms (Ancylostoma caninum).
+## pitfalls
+Prolonged creeping eruption is caused by animal hookworm larvae (A. caninum or braziliense) trapped in human skin; the human hookworm A. duodenale completes its migration and gives only a brief ground itch, Strongyloides causes the rapid transient larva currens, and schistosome cercariae cause a brief cercarial dermatitis, not months-long tracks.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma caninum
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F61AC68D18DC7A
+## label
+Orbital (periorbital) oedema is a suggestive sign of trichinellosis
+## canonical_key
+parasitology.trichinella.orbital-oedema-sign
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Periorbital and facial oedema is a classic, suggestive sign of the parenteral (muscle) phase of trichinellosis, appearing together with fever, myalgia and marked eosinophilia as Trichinella spiralis larvae invade and encyst in skeletal muscle. Man is a dead-end host that serves as both definitive and intermediate host, and the Bachman intradermal test used in diagnosis is an IMMEDIATE (type I) hypersensitivity test, not a delayed one.
+## explicit_objective
+Recognise periorbital (orbital) oedema as a suggestive sign of trichinellosis.
+## pitfalls
+Orbital oedema is the suggestive sign of trichinellosis; man is not the only definitive host (many carnivores harbour Trichinella, each acting as both definitive and intermediate host), and the Bachman test is an immediate, not delayed, hypersensitivity test.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.

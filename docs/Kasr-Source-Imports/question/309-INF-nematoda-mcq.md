@@ -3865,3 +3865,1245 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nemato
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-31
+
+## title
+Infection with warty skin changes
+
+## question
+The following infection is associated with development of warty skin changes:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Loaiasis
+
+## explanation_a
+Incorrect. Loaiasis causes transient Calabar (angioedematous) swellings and worm crossing the eye, not warty skin change.
+
+## answer_b
+Ground itch
+
+## explanation_b
+Incorrect. Ground itch is the localised hookworm skin-penetration reaction, not a chronic warty change.
+
+## answer_c
+Bancroftian filariasis
+
+## explanation_c
+Correct. Warty (verrucous) skin changes develop in chronic bancroftian filariasis. The adult Wuchereria bancrofti worms obstruct the lymphatics, and long-standing lymphoedema of the affected part (elephantiasis) leads to thickened, hyperkeratotic skin with warty, nodular 'mossy-foot' changes. These are a late complication of chronic lymphatic obstruction rather than an early sign.
+
+## answer_d
+Visceral larva migrans
+
+## explanation_d
+Incorrect. Visceral larva migrans causes eosinophilia and organ involvement from wandering larvae, not warty skin changes.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-2E5E4C0B1F1695
+
+## concept_ids
+CON-INF-2E5E4C0B1F1695
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate warty (verrucous) skin changes with chronic bancroftian filariasis (elephantiasis).
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-32
+
+## title
+Infection causing skin depigmentation
+
+## question
+Depigmentation of the skin is reported with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Onchocercosis
+
+## explanation_a
+Correct. Skin depigmentation is reported with onchocerciasis (Onchocerca volvulus). Chronic infection causes patchy loss of skin pigment, classically over the shins, giving the 'leopard skin' appearance, together with skin atrophy and hyperkeratosis ('lizard skin'). The depigmentation results from the chronic dermatitis provoked by dead microfilariae in the skin.
+
+## answer_b
+Scabies
+
+## explanation_b
+Incorrect. Scabies causes an itchy papular/burrow eruption from a mite, not depigmentation.
+
+## answer_c
+Kala azar
+
+## explanation_c
+Incorrect. Kala-azar (visceral leishmaniasis) causes hyperpigmentation (its name means 'black sickness') and organomegaly, not the leopard-skin depigmentation.
+
+## answer_d
+Bancroftian filariasis
+
+## explanation_d
+Incorrect. Bancroftian filariasis causes lymphoedema and elephantiasis, not skin depigmentation.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-0494147D812ECC
+
+## concept_ids
+CON-INF-0494147D812ECC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate skin depigmentation (leopard skin) with onchocerciasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-33
+
+## title
+True statement on bancroftian filariasis
+
+## question
+As regards bancroftian filariasis, the following is correct:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Transmission occurs through tick bites
+
+## explanation_a
+Incorrect. Bancroftian filariasis is transmitted by mosquitoes (Culex), not by tick bites.
+
+## answer_b
+Blockage of lymphatic vessels is multifactorial
+
+## explanation_b
+Correct. The blockage of lymphatic vessels in bancroftian filariasis is multifactorial. Living and dead adult worms mechanically obstruct and dilate the lymphatics, the host granulomatous and fibrotic reaction around dead worms narrows them, and recurrent secondary bacterial and fungal infections further damage the vessels; together these produce progressive lymphoedema and elephantiasis. This multifactorial pathology explains why the lymphatic damage exceeds what the worms alone would cause.
+
+## answer_c
+The cervical lymph nodes are most affected
+
+## explanation_c
+Incorrect. The lower limbs and genitalia (inguinal, scrotal) are most affected, not the cervical nodes.
+
+## answer_d
+Filaria dance sign is the visualisation of microfilaria by ultrasonography of the scrotum
+
+## explanation_d
+Incorrect. The filaria dance sign is the movement of ADULT worms seen on scrotal ultrasound, not the visualisation of microfilariae.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-81AB576F988159
+
+## concept_ids
+CON-INF-81AB576F988159
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that lymphatic vessel blockage in bancroftian filariasis is multifactorial.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-34
+
+## title
+Diagnostic and infective stages identical
+
+## question
+Diagnostic and infective stages are identical in:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trichuriasis
+
+## explanation_a
+Incorrect. In trichuriasis the egg passed in stool (diagnostic) must first embryonate in soil before it becomes infective, so the stages differ.
+
+## answer_b
+Taeniasis solium
+
+## explanation_b
+Incorrect. In taeniasis solium the egg from human stool is infective to the pig, but the diagnostic stage in man's own gut infection is the proglottid/egg while the infective stage for man's cysticercosis is the egg and for taeniasis is the cysticercus, so the stages are not identical.
+
+## answer_c
+Cyclosporiasis
+
+## explanation_c
+Incorrect. In cyclosporiasis the oocyst passed in stool is unsporulated (diagnostic) and must sporulate outside the host to become infective, so the stages differ.
+
+## answer_d
+Enterobiasis
+
+## explanation_d
+Correct. In enterobiasis the diagnostic and infective stages are identical, both being the egg. The egg is recovered for diagnosis from the perianal skin by the NIH cellophane-tape swab, and the same egg becomes infective within a few hours of being laid and is swallowed to start a new infection. Because one and the same egg both diagnoses and transmits the infection, the two stages coincide.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-75235720159AD0
+
+## concept_ids
+CON-INF-75235720159AD0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that the diagnostic and infective stages are identical (the egg) in enterobiasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-35
+
+## title
+Parasite causing appendicitis
+
+## question
+Appendicitis can occur as a complication of infection with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ancylostoma duodenale
+
+## explanation_a
+Incorrect. Ancylostoma duodenale attaches to the small-intestinal mucosa and causes iron-deficiency anaemia, not appendicitis.
+
+## answer_b
+Taenia solium
+
+## explanation_b
+Incorrect. The danger of Taenia solium is cysticercosis (from ingested eggs), not appendicitis.
+
+## answer_c
+Trichuris trichiura
+
+## explanation_c
+Correct. Appendicitis can complicate heavy Trichuris trichiura infection. The whipworms inhabit the caecum and appendix, and worms lodged in the appendiceal lumen with the accompanying mucosal inflammation can obstruct and inflame the appendix. Trichuris is therefore the appendicitis worm among the options (the other classic appendix worm, Enterobius, is not listed here).
+
+## answer_d
+Schistosoma mansoni
+
+## explanation_d
+Incorrect. Schistosoma mansoni causes intestinal and hepatic disease from eggs in the mesenteric venules, not appendicitis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-DF828D10A99F20
+
+## concept_ids
+CON-INF-DF828D10A99F20
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise appendicitis as a complication of Trichuris trichiura infection.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-36
+
+## title
+DEC patch test in onchocerciasis
+
+## question
+Concerning the DEC patch test, the following is correct:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is hazardous as it provokes a generalised allergic response
+
+## explanation_a
+Incorrect. The localised patch test is the SAFER alternative; it is the oral Mazzotti test that risks a generalised, potentially dangerous allergic response.
+
+## answer_b
+Positive reaction occurs in response to dying adult Onchocerca
+
+## explanation_b
+Incorrect. The reaction is to dying MICROFILARIAE in the skin, not to adult Onchocerca worms.
+
+## answer_c
+False-positive reactions occur in the presence of Loa loa infection
+
+## explanation_c
+Correct. False-positive reactions to the DEC patch test occur in the presence of Loa loa infection. The localised patch test detects skin microfilariae by provoking an itchy erythematous reaction where topical DEC kills them, and because Loa loa also produces skin/subcutaneous microfilariae that respond to DEC, a co-endemic Loa loa infection can give a positive reaction that is a false positive for onchocerciasis. This is why the test must be interpreted with the local filarial epidemiology in mind.
+
+## answer_d
+Erythematous patches occur in response to oral administration of DEC
+
+## explanation_d
+Incorrect. The patch test is topical; erythematous patches follow topical, not oral, DEC (oral DEC gives the systemic Mazzotti reaction).
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-A67E7D9F2BDC1D
+
+## concept_ids
+CON-INF-A67E7D9F2BDC1D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise the features of the localised DEC patch test in onchocerciasis, including false positives with Loa loa.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-37
+
+## title
+Disease with transient pulmonary symptoms
+
+## question
+Transient pulmonary symptoms occur in the course of the following disease:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Trichuriasis
+
+## explanation_a
+Incorrect. Trichuris has no lung-migration phase; it causes colitis, dysentery and rectal prolapse.
+
+## answer_b
+Ascariasis
+
+## explanation_b
+Correct. Transient pulmonary symptoms occur in ascariasis. After the eggs are swallowed and hatch, the larvae migrate through the lungs before being coughed up and re-swallowed to mature in the gut, and this larval lung passage provokes a transient pneumonitis with cough, wheeze, fleeting pulmonary infiltrates and eosinophilia (Loeffler syndrome). The symptoms are transient because they coincide only with the brief larval migration phase.
+
+## answer_c
+Trichostrongyliasis
+
+## explanation_c
+Incorrect. Trichostrongylus is a mild intestinal worm acquired from plants/soil with no lung phase.
+
+## answer_d
+Hymenolepiasis nana
+
+## explanation_d
+Incorrect. Hymenolepis nana develops in the intestinal villi without a lung-migration phase, so it does not cause transient pulmonary symptoms.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-0884E6E3AF7A8E
+
+## concept_ids
+CON-INF-0884E6E3AF7A8E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate transient pulmonary symptoms (Loeffler syndrome) with the larval lung migration of ascariasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-38
+
+## title
+Cause of persistent creeping eruption on the foot
+
+## question
+Raised erythematous serpiginous tracks on the foot remaining for months may be due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Filariform larva of Ancylostoma duodenale
+
+## explanation_a
+Incorrect. The human hookworm Ancylostoma duodenale completes its migration through the skin, causing only a brief ground itch, not months-long tracks.
+
+## answer_b
+Filariform larva of Strongyloides stercoralis
+
+## explanation_b
+Incorrect. Strongyloides filariform larvae cause larva currens, a rapidly moving (centimetres per hour), short-lived track, not a lesion persisting for months.
+
+## answer_c
+Filariform larva of Ancylostoma caninum
+
+## explanation_c
+Correct. Raised, erythematous, serpiginous tracks on the foot that persist and advance for months are cutaneous larva migrans (creeping eruption) caused by the filariform larvae of the animal hookworm Ancylostoma caninum (and A. braziliense). Because man is an abnormal host, these larvae cannot penetrate beyond the skin or complete their migration, so they wander in the epidermis for a prolonged period, giving the characteristic long-lasting creeping eruption.
+
+## answer_d
+Cercaria of Schistosoma mansoni
+
+## explanation_d
+Incorrect. Schistosoma mansoni cercariae cause a brief cercarial dermatitis (swimmer's itch) at penetration, not a months-long serpiginous track.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-4AF960D3F63C6F
+
+## concept_ids
+CON-INF-4AF960D3F63C6F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma caninum
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Attribute prolonged serpiginous creeping eruption on the foot to animal hookworm larvae (Ancylostoma caninum).
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-39
+
+## title
+True statement on trichinellosis
+
+## question
+For trichinellosis, the following is true:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Splinter haemorrhages under the conjunctiva are common
+
+## explanation_a
+Incorrect. Subconjunctival splinter haemorrhages can occur but are not the common, characteristic sign of trichinellosis.
+
+## answer_b
+Man is the only definitive host
+
+## explanation_b
+Incorrect. Man is not the only definitive host; many carnivores (pigs, rats and other mammals) harbour Trichinella, each acting as both definitive and intermediate host.
+
+## answer_c
+Orbital oedema is a suggestive sign
+
+## explanation_c
+Correct. Orbital (periorbital) oedema is a suggestive sign of trichinellosis. It appears in the parenteral phase together with fever, myalgia and marked eosinophilia as Trichinella spiralis larvae invade and encyst in skeletal muscle, and periorbital/facial swelling is one of the classic early clues to the diagnosis. Recognising it alongside eosinophilia and a history of eating undercooked meat points to trichinellosis.
+
+## answer_d
+The Bachman test is a delayed hypersensitivity test
+
+## explanation_d
+Incorrect. The Bachman intradermal test is an IMMEDIATE (type I) hypersensitivity test, not a delayed one.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-F61AC68D18DC7A
+
+## concept_ids
+CON-INF-F61AC68D18DC7A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise periorbital (orbital) oedema as a suggestive sign of trichinellosis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
