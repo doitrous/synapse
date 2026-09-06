@@ -8,9 +8,9 @@
 | **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **106** | **1** | **1** | **0** | **108** |
 | 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
 | 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
-| medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 17 | 0 | 0 | 4 fresh + 4 dupe | 25 |
-| **207 END module authored (3 EOM + 1 bank)** | **190** | **2** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 190 | 2 | 1 | untriaged | — |
+| medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
+| **207 END module authored (3 EOM + 1 bank)** | **194** | **2** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 194 | 2 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -379,3 +379,19 @@ carries). This bank is RICH (a clean, fully-keyed gland-anatomy set); 4 fresh st
 short next slice, after which the next 207 END cluster is a department book (Anatomy / Histology /
 Physiology dept book) or another non-EOM bank (e.g. `ANATOMY MCQ [RPR].pdf`,
 `Anatomy MCQ by Dr.Jalal[END].pdf`, `207 Mcq Galal (repro).pdf`).
+
+### Medhat tail slice — the 4 held stems (Q15, Q16, Q22, Q23)
+
+**4/4 authored, 0 held, 0 excluded.** All four had clean single-best keys read from the printed
+p.5 list (Q15=d, Q16=a, Q22=b, Q23=a) and verified against their stems (stems/options pulled from
+the OCR of pp.3-4). Q15 = hilum of the left suprarenal gland directed downward; Q16 = left
+suprarenal covered anteriorly by pancreas + stomach; Q22 = carcinoma of the pancreatic head does
+NOT obstruct the aorta (which-is-WRONG stem); Q23 = portal vein formed behind the neck of the
+pancreas. None duplicate an authored 207-END concept (Q23's portal-vein claim was only a distractor
+in the already-authored Q21; Q15/Q16 test distinct left-gland claims). 4 new concepts minted
+university-blind (all `CON-END-*`: 069D50B97BB67C, A0337CD475EF82, 3FA98F77495FD1, 932FA58748A54F),
+collision-checked corpus-wide — 0 collisions, 0 in-batch duplicates. All 4 REUSE existing Medhat
+articles (2 SUPRARENAL, 2 PANCREAS) — no new article. Subject tag `endo`. Seed re-emitted; the
+Medhat bank is now **21 authored / 25** (4 dupes skipped: Q1, Q11, Q18, Q25). Gate-clean vs the
+module baseline (concept batch 21 items 0 errors; MCQ batch 21 items = the single not-yet-imported
+`resource_ids` category, one/item). **The Dr Medhat endocrine-anatomy bank is now fresh-exhausted.**

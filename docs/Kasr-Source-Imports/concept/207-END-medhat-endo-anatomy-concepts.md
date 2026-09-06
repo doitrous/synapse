@@ -1917,3 +1917,451 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified from p.5); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-END-069D50B97BB67C
+## label
+The hilum of the left suprarenal gland is directed downward
+## canonical_key
+left-suprarenal-gland.hilum.directed-downward
+## aliases
+Left suprarenal vein leaves at a downward-facing hilum
+Hilum of the left adrenal gland
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The hilum of the suprarenal gland is the notch from which its single vein emerges. On the left, the semilunar gland lies along the medial border of the upper kidney, and its hilum faces downward (inferomedially) so that the left suprarenal vein can descend to join the left renal vein. This is why the left gland's hilum is described as directed downward. The left vein does not end in the IVC, the gland is supplied by three arteries rather than the aorta alone, and its anterior cover is the pancreas and stomach, not the liver.
+## explicit_objective
+State that the hilum of the left suprarenal gland is directed downward, with its vein draining to the left renal vein.
+## pitfalls
+Assuming the left suprarenal vein ends in the IVC or that a single aortic branch is its only supply.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-END-T03
+## topic
+Anatomy
+## subtopic
+Suprarenal gland
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Suprarenal gland
+## article_ids
+ART-END-207END-MEDHAT-SUPRARENAL-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_79493b8d5c510e8ca580
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified from p.5); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-A0337CD475EF82
+## label
+The left suprarenal gland is covered anteriorly by the pancreas and stomach
+## canonical_key
+left-suprarenal-gland.anterior-relation.pancreas-and-stomach
+## aliases
+Anterior relations of the left adrenal gland
+Left suprarenal behind the lesser sac and pancreas
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The anterior surface of the left suprarenal gland is related above to the stomach through the peritoneum of the lesser sac (omental bursa), and below to the pancreas and the splenic artery. It is therefore covered anteriorly by the pancreas and stomach, unlike the right gland, whose anterior cover is the inferior vena cava and the liver. The left gland lies against the medial border of the upper pole of the left kidney, not behind it.
+## explicit_objective
+List the pancreas and stomach as anterior relations of the left suprarenal gland.
+## pitfalls
+Attributing the right gland's IVC/liver cover to the left gland, or placing the gland behind the kidney.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-END-T03
+## topic
+Anatomy
+## subtopic
+Suprarenal gland
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Suprarenal gland
+## article_ids
+ART-END-207END-MEDHAT-SUPRARENAL-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_79493b8d5c510e8ca580
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified from p.5); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-3FA98F77495FD1
+## label
+Carcinoma of the head of the pancreas does not obstruct the abdominal aorta
+## canonical_key
+pancreatic-head-cancer.effect.not-aortic-obstruction
+## aliases
+Effects of cancer of the head of the pancreas
+Pancreatic head carcinoma and the great vessels
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carcinoma of the head of the pancreas produces obstructive jaundice by compressing the common bile duct behind the head, can compress the inferior vena cava to cause oedema of the lower limbs, and may cause ascites through portal venous obstruction or peritoneal spread. It does not, however, obstruct the abdominal aorta: the aorta is a thick-walled, high-pressure vessel lying behind the body of the pancreas and is not occluded by a head tumour. So aortic obstruction is the wrong statement among the effects.
+## explicit_objective
+Recognise that cancer of the pancreatic head causes obstructive jaundice, IVC compression and ascites but not aortic obstruction.
+## pitfalls
+Assuming a pancreatic head tumour compresses the aorta as readily as it does the bile duct or IVC.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-END-T03
+## topic
+Anatomy
+## subtopic
+Pancreas
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Pancreas
+## article_ids
+ART-END-207END-MEDHAT-PANCREAS-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_79493b8d5c510e8ca580
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified from p.5); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-932FA58748A54F
+## label
+The portal vein is formed behind the neck of the pancreas
+## canonical_key
+portal-vein.formation.behind-pancreatic-neck
+## aliases
+Portal vein begins behind the pancreatic neck
+Union of splenic and superior mesenteric veins
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The portal vein begins behind the neck of the pancreas by the union of the superior mesenteric vein and the splenic vein, at about the level of the second lumbar vertebra. It then ascends behind the first part of the duodenum to reach the porta hepatis. Because it forms behind the neck, a carcinoma of the neck or head can obstruct it and cause portal hypertension. The tail of the pancreas is related to the spleen, the body lies in front of the left kidney and suprarenal gland, and the main duct opens at the middle of the second part of the duodenum.
+## explicit_objective
+State that the portal vein is formed behind the neck of the pancreas by the union of the splenic and superior mesenteric veins.
+## pitfalls
+Placing the origin of the portal vein in front of the neck, or the body of the pancreas behind the left kidney.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-END-T03
+## topic
+Anatomy
+## subtopic
+Pancreas
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Pancreas
+## article_ids
+ART-END-207END-MEDHAT-PANCREAS-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_79493b8d5c510e8ca580
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified from p.5); no department book located/read this pass.
+
+---

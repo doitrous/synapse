@@ -1,5 +1,5 @@
 <!--
-  KASR-207END - Dr Medhat endocrine ANATOMY MCQ bank (17 authored) - Kasr Al Ainy 207 END gross anatomy of the endocrine glands, NON-EOM topic bank, sourceId src_79493b8d5c510e8ca580 (sha256 79493b8d5c510e8ca580b64e862c3a5567446f7b9a501ccdb9497c95e8a4424c). Scanned (CamScanner), 5 pages, 25 four-option MCQs; keys read from the printed answer-key list on p.5 (see coverage/207-END-triage-keys.txt). Fourth 207 END source and the FIRST non-EOM source (the three EOM papers are exhausted). Only items whose atomic claim is NOT already covered by the three EOM tranches (173 authored) are authored here; near-duplicate stems skipped and logged in the LEDGER (Q1 pituitary-cavernous-sinus, Q11 PTH-regulates-calcium, Q18 medulla-adrenaline, Q25 thyroid-pretracheal-fascia). Concepts minted university-blind (CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked - all new. Options faithful to the paper (minor spelling/spacing cleanup only); keys unchanged. Being a topic bank the manifest examSittingYear is null.
+  KASR-207END - Dr Medhat endocrine ANATOMY MCQ bank (21 authored) - Kasr Al Ainy 207 END gross anatomy of the endocrine glands, NON-EOM topic bank, sourceId src_79493b8d5c510e8ca580 (sha256 79493b8d5c510e8ca580b64e862c3a5567446f7b9a501ccdb9497c95e8a4424c). Scanned (CamScanner), 5 pages, 25 four-option MCQs; keys read from the printed answer-key list on p.5 (see coverage/207-END-triage-keys.txt). Fourth 207 END source and the FIRST non-EOM source (the three EOM papers are exhausted). Only items whose atomic claim is NOT already covered by the three EOM tranches (173 authored) are authored here; near-duplicate stems skipped and logged in the LEDGER (Q1 pituitary-cavernous-sinus, Q11 PTH-regulates-calcium, Q18 medulla-adrenaline, Q25 thyroid-pretracheal-fascia). Concepts minted university-blind (CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked - all new. Options faithful to the paper (minor spelling/spacing cleanup only); keys unchanged. Being a topic bank the manifest examSittingYear is null.
 
   Import: Admin › Bulk import → question.
 
@@ -1689,6 +1689,286 @@ kasr: Dr Medhat endo-anatomy bank, p.3
 # Item
 
 ## id
+QST-KASR207END-MEDHATANAT-015
+
+## title
+Direction of the hilum of the left suprarenal gland
+
+## question
+Regarding the suprarenal glands, one of the following is true:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The left gland is covered anteriorly by the pancreas and liver.
+
+## explanation_a
+Incorrect. The left gland's anterior cover is the pancreas and the stomach (through the lesser sac); the liver overlies the RIGHT suprarenal gland, not the left.
+
+## answer_b
+The left suprarenal vein ends in the inferior vena cava.
+
+## explanation_b
+Incorrect. Only the right suprarenal vein ends in the inferior vena cava; the left suprarenal vein descends to join the left renal vein.
+
+## answer_c
+The left gland receives its arterial supply from the abdominal aorta only.
+
+## explanation_c
+Incorrect. Each suprarenal gland has three arteries, superior from the inferior phrenic artery, middle from the aorta and inferior from the renal artery, not the aorta alone.
+
+## answer_d
+The hilum of the left gland is directed downward.
+
+## explanation_d
+Correct. The single left suprarenal vein leaves the gland at a hilum that faces downward (inferomedially). From this hilum the vein descends to join the left renal vein. The hilum of the left gland is therefore described as directed downward.
+
+## topic
+Anatomy
+
+## subtopic
+Suprarenal gland
+
+## main_concept
+CON-END-069D50B97BB67C
+
+## concept_ids
+CON-END-069D50B97BB67C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Suprarenal gland
+
+## question_only_for
+
+## library_ids
+ART-END-207END-MEDHAT-SUPRARENAL-ANATOMY
+
+## resource_ids
+src_79493b8d5c510e8ca580
+
+## learning_objective
+State that the hilum of the left suprarenal gland is directed downward, with its vein draining to the left renal vein.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Medhat endocrine anatomy MCQ bank, Q15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer list p.5 (Q15=d)
+kasr: Dr Medhat endo-anatomy bank, p.3
+
+---
+
+# Item
+
+## id
+QST-KASR207END-MEDHATANAT-016
+
+## title
+Anterior relations of the left suprarenal gland
+
+## question
+Regarding the suprarenal glands, one of the following is true:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The left gland is covered anteriorly by the pancreas and stomach.
+
+## explanation_a
+Correct. The anterior surface of the left suprarenal gland is related above to the stomach through the peritoneum of the lesser sac. Below, it is related to the pancreas and the splenic artery. It is therefore covered anteriorly by the pancreas and stomach.
+
+## answer_b
+The left suprarenal vein ends in the inferior vena cava.
+
+## explanation_b
+Incorrect. The left suprarenal vein drains into the left renal vein; only the right suprarenal vein ends in the inferior vena cava.
+
+## answer_c
+The left gland lies behind the upper end of the left kidney.
+
+## explanation_c
+Incorrect. The gland lies against the medial border of the upper pole of the left kidney, not behind it.
+
+## answer_d
+The hilum of the left gland is directed upward.
+
+## explanation_d
+Incorrect. The hilum of the left gland faces downward, its vein descending to the left renal vein, not upward.
+
+## topic
+Anatomy
+
+## subtopic
+Suprarenal gland
+
+## main_concept
+CON-END-A0337CD475EF82
+
+## concept_ids
+CON-END-A0337CD475EF82
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Suprarenal gland
+
+## question_only_for
+
+## library_ids
+ART-END-207END-MEDHAT-SUPRARENAL-ANATOMY
+
+## resource_ids
+src_79493b8d5c510e8ca580
+
+## learning_objective
+List the pancreas and stomach as anterior relations of the left suprarenal gland.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Medhat endocrine anatomy MCQ bank, Q16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer list p.5 (Q16=a)
+kasr: Dr Medhat endo-anatomy bank, p.3
+
+---
+
+# Item
+
+## id
 QST-KASR207END-MEDHATANAT-017
 
 ## title
@@ -2242,6 +2522,286 @@ yes
 
 ## author_notes
 keySource: printed answer list p.5 (Q21=b)
+kasr: Dr Medhat endo-anatomy bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-MEDHATANAT-022
+
+## title
+Effects of carcinoma of the head of the pancreas (the wrong statement)
+
+## question
+Regarding cancer of the head of the pancreas, one of the following is WRONG:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It can produce obstructive jaundice.
+
+## explanation_a
+Incorrect (this statement is true). By compressing the common bile duct behind the head of the pancreas, the tumour causes progressive obstructive jaundice.
+
+## answer_b
+It can produce obstruction of the abdominal aorta.
+
+## explanation_b
+Correct (this is the wrong statement). The abdominal aorta is a thick-walled, high-pressure vessel lying behind the body of the pancreas. A carcinoma of the head does not compress or obstruct it. Aortic obstruction is therefore false and is the answer to this 'which is WRONG' stem.
+
+## answer_c
+It can produce oedema of the lower limb.
+
+## explanation_c
+Incorrect (this statement is true). The tumour can compress the inferior vena cava, producing oedema of the lower limbs.
+
+## answer_d
+It can produce ascites.
+
+## explanation_d
+Incorrect (this statement is true). Portal venous obstruction or peritoneal spread from the tumour can cause ascites.
+
+## topic
+Anatomy
+
+## subtopic
+Pancreas
+
+## main_concept
+CON-END-3FA98F77495FD1
+
+## concept_ids
+CON-END-3FA98F77495FD1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Pancreas
+
+## question_only_for
+
+## library_ids
+ART-END-207END-MEDHAT-PANCREAS-ANATOMY
+
+## resource_ids
+src_79493b8d5c510e8ca580
+
+## learning_objective
+Recognise that carcinoma of the pancreatic head causes obstructive jaundice, IVC compression and ascites but not aortic obstruction.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Medhat endocrine anatomy MCQ bank, Q22
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer list p.5 (Q22=b)
+kasr: Dr Medhat endo-anatomy bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-MEDHATANAT-023
+
+## title
+Formation of the portal vein behind the neck of the pancreas
+
+## question
+Regarding the pancreas, one of the following is true:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The portal vein begins behind its neck.
+
+## explanation_a
+Correct. The portal vein is formed behind the neck of the pancreas by the union of the superior mesenteric and splenic veins. It then ascends behind the first part of the duodenum to reach the porta hepatis. Because it forms behind the neck, a tumour of the neck or head can obstruct it and cause portal hypertension.
+
+## answer_b
+Its tail is related to the liver.
+
+## explanation_b
+Incorrect. The tail of the pancreas is related to the spleen in the splenorenal ligament, not to the liver.
+
+## answer_c
+Its body lies behind the left suprarenal gland.
+
+## explanation_c
+Incorrect. The body of the pancreas lies in FRONT of the left kidney and the left suprarenal gland, not behind them.
+
+## answer_d
+Its duct opens at the upper end of the second part of the duodenum.
+
+## explanation_d
+Incorrect. The main pancreatic duct opens at the greater duodenal papilla in the MIDDLE of the second part of the duodenum, not at its upper end.
+
+## topic
+Anatomy
+
+## subtopic
+Pancreas
+
+## main_concept
+CON-END-932FA58748A54F
+
+## concept_ids
+CON-END-932FA58748A54F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Pancreas
+
+## question_only_for
+
+## library_ids
+ART-END-207END-MEDHAT-PANCREAS-ANATOMY
+
+## resource_ids
+src_79493b8d5c510e8ca580
+
+## learning_objective
+State that the portal vein is formed behind the neck of the pancreas by the union of the splenic and superior mesenteric veins.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Medhat endocrine anatomy MCQ bank, Q23
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer list p.5 (Q23=a)
 kasr: Dr Medhat endo-anatomy bank, p.4
 
 ---
