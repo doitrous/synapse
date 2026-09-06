@@ -1340,6 +1340,252 @@
       "concept_ids": [
         "CON-INF-DC41B15B85FE5D"
       ]
+    },
+    {
+      "key": "q57",
+      "hold": "in-source exact duplicate of the authored Q50 (\"Cats may be a source of infection with...\", identical options, both printed key C); Q50 is authored, Q57 held per brief."
+    },
+    {
+      "key": "q58",
+      "hold": "in-source exact duplicate of the authored Q51 (\"Man acts as both final and intermediate hosts in infection with...\", identical options, both printed key D); Q51 is authored, Q58 held per brief."
+    },
+    {
+      "key": "q59",
+      "hold": "in-source exact duplicate of the authored Q8 (\"High level of IgM in Trypanosoma brucei infection is due to...\", identical options, both printed key B); Q8 is authored, Q59 held per brief."
+    },
+    {
+      "key": "q60",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-60",
+      "page": 19,
+      "title": "Oocyst with two sporocysts each of four sporozoites = Cystoisospora",
+      "question": "The oocyst containing two sporocysts each with four sporozoites belongs to:",
+      "options": {
+        "A": "Cystoisospora belli",
+        "B": "Cryptosporidium parvum",
+        "C": "Giardia lamblia",
+        "D": "Cyclospora cayetanensis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The mature oocyst of Cystoisospora belli contains two sporocysts, each holding four sporozoites (eight in total). This 2-sporocyst/4-sporozoite structure is diagnostic of the parasite. The oocyst described therefore belongs to Cystoisospora belli.",
+        "B": "Incorrect. Cryptosporidium parvum has four naked sporozoites within the oocyst and no sporocysts.",
+        "C": "Incorrect. Giardia lamblia is a flagellate with a four-nucleate cyst, not a sporocyst-bearing oocyst.",
+        "D": "Incorrect. Cyclospora cayetanensis has two sporocysts each with only two sporozoites, not four."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Cystoisospora belli",
+      "learning_objective": "Identify the 2-sporocyst/4-sporozoite oocyst as that of Cystoisospora belli.",
+      "main_concept": "CON-INF-FDF7581941396E",
+      "concept_ids": [
+        "CON-INF-FDF7581941396E"
+      ]
+    },
+    {
+      "key": "q61",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-61",
+      "page": 19,
+      "title": "Modified Ziehl-Neelsen stains Cryptosporidium",
+      "question": "Modified Ziehl Neelsen stain is used for the diagnosis of:",
+      "options": {
+        "A": "Cryptosporidium parvum",
+        "B": "Entamoeba histolytica",
+        "C": "Giardia lamblia",
+        "D": "Balantidium coli"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cryptosporidium parvum oocysts are acid-fast and are demonstrated in stool with the modified (cold) Ziehl-Neelsen stain, appearing as red spheres on a blue-green ground. The stain is the standard diagnostic method for the intestinal coccidia. Cryptosporidium is therefore diagnosed by modified Ziehl-Neelsen.",
+        "B": "Incorrect. Entamoeba histolytica is identified by trophozoites and cysts on wet mount or trichrome stain, not by acid-fast staining.",
+        "C": "Incorrect. Giardia lamblia is diagnosed by its trophozoites and cysts, which are not acid-fast.",
+        "D": "Incorrect. Balantidium coli is recognised by its large ciliated trophozoite, not by acid-fast staining."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Cryptosporidium parvum",
+      "learning_objective": "Match the modified Ziehl-Neelsen acid-fast stain to Cryptosporidium.",
+      "main_concept": "CON-INF-C6E7968DC3134A",
+      "concept_ids": [
+        "CON-INF-C6E7968DC3134A"
+      ]
+    },
+    {
+      "key": "q62",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-62",
+      "page": 19,
+      "title": "Chocolate-coloured pus = Entamoeba histolytica",
+      "question": "Chocolate-coloured pus is a finding associated with:",
+      "options": {
+        "A": "Entamoeba histolytica",
+        "B": "Entamoeba coli",
+        "C": "Balantidium coli",
+        "D": "Giardia lamblia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An amoebic liver abscess due to Entamoeba histolytica contains reddish-brown, chocolate- or anchovy-sauce-coloured fluid composed of necrotic liquefied liver tissue and blood. This chocolate-coloured pus is the classic gross finding of hepatic amoebiasis. It is therefore associated with Entamoeba histolytica.",
+        "B": "Incorrect. Entamoeba coli is a non-pathogenic commensal and does not cause abscesses.",
+        "C": "Incorrect. Balantidium coli causes large-bowel ulceration, not a chocolate-coloured liver abscess.",
+        "D": "Incorrect. Giardia lamblia is a non-invasive small-bowel parasite and forms no abscess."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "Associate chocolate-coloured pus with amoebic liver abscess (E. histolytica).",
+      "main_concept": "CON-INF-ADE0BCED7114AC",
+      "concept_ids": [
+        "CON-INF-ADE0BCED7114AC"
+      ]
+    },
+    {
+      "key": "q63",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-63",
+      "page": 19,
+      "title": "Entamoeba dispar is non-pathogenic",
+      "question": "The following protozoan is not pathogenic:",
+      "options": {
+        "A": "Giardia lamblia",
+        "B": "Entamoeba dispar",
+        "C": "Entamoeba histolytica",
+        "D": "Balantidium coli"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Giardia lamblia is a pathogen that causes malabsorptive diarrhoea.",
+        "B": "Correct. Entamoeba dispar is morphologically identical to Entamoeba histolytica but is a harmless commensal of the colon that does not invade tissue or cause disease; the two are separated by antigen or molecular tests. It is therefore the non-pathogenic protozoan among the options.",
+        "C": "Incorrect. Entamoeba histolytica is the tissue-invasive pathogen that causes amoebic dysentery and liver abscess.",
+        "D": "Incorrect. Balantidium coli is a pathogen that causes ciliate dysentery."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba dispar",
+      "learning_objective": "Identify Entamoeba dispar as the non-pathogenic amoeba.",
+      "main_concept": "CON-INF-EE65D67C2146A3",
+      "concept_ids": [
+        "CON-INF-EE65D67C2146A3"
+      ]
+    },
+    {
+      "key": "q64",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-64",
+      "page": 19,
+      "title": "Giardia lamblia inhabits the small intestine",
+      "question": "This protozoan inhabits small intestine of man:",
+      "options": {
+        "A": "Entamoeba coli",
+        "B": "Balantidium coli",
+        "C": "Entamoeba histolytica",
+        "D": "Giardia lamblia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Entamoeba coli is a commensal of the large intestine.",
+        "B": "Incorrect. Balantidium coli inhabits the large intestine (caecum and colon).",
+        "C": "Incorrect. Entamoeba histolytica lives in and invades the large-bowel mucosa.",
+        "D": "Correct. Giardia lamblia colonises the duodenum and upper jejunum, attaching to the small-bowel brush border by its ventral sucking disc and causing malabsorption. Its habitat is the small intestine, unlike the large-bowel amoebae and Balantidium. Giardia lamblia is therefore the small-intestinal protozoan."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Giardia lamblia",
+      "learning_objective": "State that Giardia lamblia inhabits the small intestine.",
+      "main_concept": "CON-INF-8055C986151DF4",
+      "concept_ids": [
+        "CON-INF-8055C986151DF4"
+      ]
+    },
+    {
+      "key": "q65",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-65",
+      "page": 19,
+      "title": "Amoebiasis is not accompanied by eosinophilia",
+      "question": "Which of the following is not true regarding intestinal amoebiasis?",
+      "options": {
+        "A": "It affects the large intestinal mucosa",
+        "B": "It is accompanied by high blood eosinophilia",
+        "C": "It is characterized by formation of ulcer",
+        "D": "Blood and mucus are prominent in stool"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true statement). Intestinal amoebiasis does affect the large-intestinal mucosa.",
+        "B": "Correct. This statement is false: amoebiasis is caused by the protozoan Entamoeba histolytica and does not raise the blood eosinophil count, because eosinophilia is a response to tissue-invasive helminths, not protozoa. High blood eosinophilia is therefore the untrue statement about amoebiasis. The remaining options are all genuine features.",
+        "C": "Incorrect (true statement). Amoebiasis characteristically forms flask-shaped ulcers in the bowel wall.",
+        "D": "Incorrect (true statement). Blood and mucus are prominent in the stool of amoebic dysentery."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "State that amoebiasis does not cause blood eosinophilia.",
+      "main_concept": "CON-INF-64F0CD69F534BD",
+      "concept_ids": [
+        "CON-INF-64F0CD69F534BD"
+      ]
+    },
+    {
+      "key": "q66",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-66",
+      "page": 19,
+      "title": "Cholecystitis and malabsorption with giardiasis",
+      "question": "Cholecystitis and malabsorption may happen with:",
+      "options": {
+        "A": "Giardia lamblia",
+        "B": "Entamoeba histolytica",
+        "C": "Capillaria philippinensis",
+        "D": "Taenia saginata"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Giardia lamblia colonises the duodenum and can ascend the biliary tract to cause cholecystitis, while its mucosal coating and damage produce malabsorption of fat and fat-soluble vitamins. Both cholecystitis and malabsorption are therefore recognised consequences of giardiasis. It is the answer.",
+        "B": "Incorrect. Entamoeba histolytica causes colitis and liver abscess, not this biliary/malabsorptive picture.",
+        "C": "Incorrect. Capillaria philippinensis causes a protein-losing enteropathy with malabsorption but not cholecystitis.",
+        "D": "Incorrect. Taenia saginata is usually an asymptomatic large tapeworm, not a cause of cholecystitis and malabsorption."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Giardia lamblia",
+      "learning_objective": "Associate cholecystitis and malabsorption with giardiasis.",
+      "main_concept": "CON-INF-C7C9E48E8F08BD",
+      "concept_ids": [
+        "CON-INF-C7C9E48E8F08BD"
+      ]
+    },
+    {
+      "key": "q67",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-67",
+      "page": 19,
+      "title": "Entamoeba histolytica is not opportunistic",
+      "question": "Which parasite is not considered opportunistic?",
+      "options": {
+        "A": "Cryptosporidium parvum",
+        "B": "Cystoisospora belli",
+        "C": "Entamoeba histolytica",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cryptosporidium parvum is a classic opportunist causing severe chronic diarrhoea in the immunosuppressed.",
+        "B": "Incorrect. Cystoisospora belli is an opportunist that flares in AIDS.",
+        "C": "Correct. Entamoeba histolytica is a primary tissue-invasive pathogen that causes disease in immunocompetent hosts and does not depend on immunosuppression. Unlike the coccidia and Strongyloides, it is not an opportunist. Entamoeba histolytica is therefore the parasite not considered opportunistic.",
+        "D": "Incorrect. Strongyloides stercoralis is an opportunist that causes life-threatening hyperinfection when immunity fails."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "Identify Entamoeba histolytica as a primary (non-opportunistic) pathogen.",
+      "main_concept": "CON-INF-D2A8E327864380",
+      "concept_ids": [
+        "CON-INF-D2A8E327864380"
+      ]
+    },
+    {
+      "key": "q68",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-68",
+      "page": 19,
+      "title": "Encystation of Entamoeba histolytica occurs in the colon",
+      "question": "Encystation of Entamoeba histolytica occurs in:",
+      "options": {
+        "A": "The stomach",
+        "B": "The duodenum",
+        "C": "The ileum",
+        "D": "The colon"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. No encystation occurs in the stomach.",
+        "B": "Incorrect. Encystation does not occur in the duodenum.",
+        "C": "Incorrect. Encystation does not occur in the ileum.",
+        "D": "Correct. Encystation of Entamoeba histolytica takes place in the lumen of the large intestine (colon), where trophozoites round up and secrete a resistant wall to form the infective quadrinucleate cyst passed in stool. Cysts never form in invaded tissue or the upper gut. Encystation therefore occurs in the colon."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "State that Entamoeba histolytica encysts in the colon.",
+      "main_concept": "CON-INF-4877AC88981C2F",
+      "concept_ids": [
+        "CON-INF-4877AC88981C2F"
+      ]
     }
   ]
 }

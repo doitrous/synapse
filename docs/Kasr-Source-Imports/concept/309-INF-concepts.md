@@ -15155,3 +15155,1002 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-FDF7581941396E
+## label
+Cystoisospora belli oocyst has two sporocysts each with four sporozoites
+## canonical_key
+parasitology.cystoisospora-belli.oocyst-two-sporocysts-four-sporozoites
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The mature oocyst of Cystoisospora belli contains two sporocysts, each enclosing four sporozoites (a total of eight sporozoites), which is the diagnostic sporulated structure of this coccidian. This 2-sporocyst/4-sporozoite arrangement distinguishes it from Cryptosporidium (four naked sporozoites, no sporocyst) and Cyclospora (two sporocysts each with two sporozoites). The 2 x 4 oocyst therefore identifies Cystoisospora belli.
+## explicit_objective
+State that the Cystoisospora belli oocyst has two sporocysts, each with four sporozoites.
+## pitfalls
+Cystoisospora oocyst = 2 sporocysts x 4 sporozoites; Cyclospora = 2 x 2; Cryptosporidium = 4 naked sporozoites.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cystoisospora belli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C6E7968DC3134A
+## label
+Cryptosporidium is diagnosed by modified Ziehl-Neelsen stain
+## canonical_key
+parasitology.cryptosporidium-parvum.modified-ziehl-neelsen
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cryptosporidium parvum oocysts are acid-fast and are demonstrated in stool by the modified (cold) Ziehl-Neelsen stain, in which the oocysts appear as red spheres against a blue-green background. The same acid-fast stain also reveals the other intestinal coccidia (Cyclospora, Cystoisospora), unlike the non-acid-fast Giardia, Entamoeba and Balantidium. Modified Ziehl-Neelsen is therefore the diagnostic stain for Cryptosporidium.
+## explicit_objective
+Associate the modified Ziehl-Neelsen (acid-fast) stain with the diagnosis of Cryptosporidium.
+## pitfalls
+Acid-fast (modified ZN) stool oocysts = Cryptosporidium/coccidia, not Giardia, Entamoeba or Balantidium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cryptosporidium parvum
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-ADE0BCED7114AC
+## label
+Amoebic liver abscess yields chocolate-coloured pus
+## canonical_key
+parasitology.entamoeba-histolytica.amoebic-liver-abscess
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Invasive Entamoeba histolytica reaches the liver via the portal vein and produces an amoebic liver abscess whose contents are a reddish-brown, chocolate- or anchovy-sauce-coloured fluid made of necrotic liquefied hepatocytes and blood. This chocolate-coloured pus is the classic gross finding of hepatic amoebiasis. Chocolate-coloured pus therefore points to Entamoeba histolytica.
+## explicit_objective
+Associate chocolate-coloured (anchovy-sauce) pus and hepatic abscess with Entamoeba histolytica.
+## pitfalls
+Chocolate/anchovy-sauce pus + hepatic abscess = E. histolytica, not E. coli/Balantidium/Giardia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-EE65D67C2146A3
+## label
+Entamoeba dispar is a non-pathogenic amoeba
+## canonical_key
+parasitology.entamoeba-dispar.non-pathogenic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Entamoeba dispar is morphologically identical to Entamoeba histolytica but is a harmless commensal of the large bowel that does not invade tissue or cause disease; only E. histolytica is pathogenic. The two are separated by antigen or molecular tests, not by microscopy. Among the listed protozoa, Entamoeba dispar is therefore the non-pathogenic one.
+## explicit_objective
+State that Entamoeba dispar is a non-pathogenic amoeba (unlike E. histolytica).
+## pitfalls
+Non-pathogenic look-alike of E. histolytica = E. dispar; Giardia, E. histolytica and Balantidium are pathogens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba dispar
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-8055C986151DF4
+## label
+Giardia lamblia inhabits the small intestine
+## canonical_key
+parasitology.giardia-lamblia.small-intestine-habitat
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Giardia lamblia is a flagellate that colonises the duodenum and upper jejunum, where its trophozoites attach to the brush border by a ventral sucking disc and cause malabsorption. Its small-intestinal habitat contrasts with the large-bowel dwellers Entamoeba coli, Entamoeba histolytica and Balantidium coli. Giardia lamblia is therefore the protozoan that inhabits the small intestine of man.
+## explicit_objective
+State that Giardia lamblia inhabits the small intestine (duodenum/jejunum).
+## pitfalls
+Small-intestine protozoan = Giardia; Entamoeba coli/histolytica and Balantidium live in the large bowel.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-64F0CD69F534BD
+## label
+Intestinal amoebiasis is not accompanied by eosinophilia
+## canonical_key
+parasitology.entamoeba-histolytica.no-eosinophilia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Intestinal amoebiasis is caused by the protozoan Entamoeba histolytica, which invades the large-bowel mucosa to form flask-shaped ulcers with blood and mucus in the stool, but it does NOT raise the blood eosinophil count because eosinophilia is a response to tissue-invasive helminths, not protozoa. High blood eosinophilia is therefore the statement that is not true of amoebiasis. The other features (large-bowel mucosa, ulcers, blood and mucus in stool) are all correct.
+## explicit_objective
+State that intestinal amoebiasis is not accompanied by high blood eosinophilia.
+## pitfalls
+Eosinophilia = tissue helminths, not protozoa; amoebiasis (a protozoan) does not raise eosinophils.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C7C9E48E8F08BD
+## label
+Giardiasis may cause cholecystitis and malabsorption
+## canonical_key
+parasitology.giardia-lamblia.cholecystitis-malabsorption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Giardia lamblia colonises the duodenum and can ascend into the biliary tract to cause cholecystitis, while its heavy coating of the small-bowel mucosa and the mucosal damage it produces cause malabsorption of fat and fat-soluble vitamins. Both cholecystitis and malabsorption are therefore recognised consequences of giardiasis. Capillaria, Taenia saginata and Entamoeba histolytica do not produce this combination.
+## explicit_objective
+State that giardiasis can cause both cholecystitis and malabsorption.
+## pitfalls
+Cholecystitis + malabsorption = Giardia; not Entamoeba/Capillaria/Taenia saginata.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-D2A8E327864380
+## label
+Entamoeba histolytica is not an opportunistic parasite
+## canonical_key
+parasitology.entamoeba-histolytica.not-opportunistic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Entamoeba histolytica is a primary tissue-invasive pathogen that causes disease in immunocompetent people and does not depend on immunosuppression. In contrast, Cryptosporidium parvum, Cystoisospora belli and Strongyloides stercoralis are classic opportunists that flare (hyperinfection, chronic diarrhoea) when host immunity fails. Entamoeba histolytica is therefore the parasite not considered opportunistic.
+## explicit_objective
+State that Entamoeba histolytica is a primary pathogen, not an opportunistic parasite.
+## pitfalls
+Opportunists = Cryptosporidium, Cystoisospora, Strongyloides; E. histolytica is a primary pathogen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4877AC88981C2F
+## label
+Entamoeba histolytica encysts in the colon
+## canonical_key
+parasitology.entamoeba-histolytica.encystation-in-colon
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Encystation of Entamoeba histolytica occurs in the lumen of the large intestine (colon), where trophozoites round up, shed food vacuoles and secrete a resistant wall to form the infective quadrinucleate cyst passed in formed stool. Cysts do not form in the stomach, duodenum or ileum, nor in invaded tissue. Encystation therefore takes place in the colon.
+## explicit_objective
+State that Entamoeba histolytica encysts in the colon (large-intestinal lumen).
+## pitfalls
+Encystation site = colon lumen; cysts never form in tissue, stomach, duodenum or ileum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
