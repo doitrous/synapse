@@ -3889,3 +3889,197 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-41
+## title
+Drug causing optic neuropathy
+## question
+Optic neuropathy occurs as a side effect of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Amiodarone.
+## explanation_a
+Correct. Amiodarone can cause a drug-induced optic neuropathy.
+## answer_b
+Interferon.
+## explanation_b
+Incorrect. Interferon causes a retinopathy, not optic neuropathy.
+## answer_c
+Corticosteroids.
+## explanation_c
+Incorrect. Corticosteroids cause cataract and raised pressure.
+## answer_d
+Chloroquines.
+## explanation_d
+Incorrect. Chloroquine causes a maculopathy.
+## topic
+Ophthalmology
+## subtopic
+Drug-induced optic neuropathy
+## main_concept
+CON-MUL-6760CA65570825
+## concept_ids
+CON-MUL-6760CA65570825
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify amiodarone as a cause of drug-induced optic neuropathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.188); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-43
+## title
+Drug-induced retinopathy
+## question
+Drug induced retinopathy occurs with:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Topiramate (Topamax).
+## explanation_a
+Incorrect. Topiramate causes acute angle-closure glaucoma, not retinopathy.
+## answer_b
+Digitalis.
+## explanation_b
+Incorrect. Digitalis causes visual disturbance (xanthopsia), not a retinopathy.
+## answer_c
+Interferon.
+## explanation_c
+Correct. Interferon can cause a drug-induced retinopathy (cotton-wool spots and haemorrhages).
+## answer_d
+Corticosteroids.
+## explanation_d
+Incorrect. Corticosteroids cause cataract and raised pressure, not this retinopathy.
+## topic
+Ophthalmology
+## subtopic
+Drug-induced retinopathy
+## main_concept
+CON-MUL-FA78BE33CCFCF6
+## concept_ids
+CON-MUL-FA78BE33CCFCF6
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify interferon as a cause of drug-induced retinopathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.188); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
