@@ -1,0 +1,542 @@
+{
+  "lane": "KASR316ENT",
+  "cluster": "larynx",
+  "header": "Kasr Al Ainy 316 ENT (Year 3) · Larynx section, MCQ Q1-19 tranche, from the department ENT MCQ Question Bank. Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p46, rendered once at 200 dpi and read visually), each key cross-checked against the option text. Larynx section is Q1-54 (all 54 keys captured in 316-ENT-triage-keys.txt). This tranche: 18 authored (Q1-9, Q11-19) / 1 held (Q10). Larynx concepts filed on the real discipline node DIS-ENT-T04 (Larynx and voice) — core anatomy on DIS-ENT-T04-S01, clinical facts on DIS-ENT-T04-S02 — minted CON-MUL- / subject mul (ENT has no body-system code, as for 315 OPH and the Ear/Nose sections).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "316 ENT",
+    "module_subject": "316 ENT > Otorhinolaryngology > Larynx and voice",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+    "resource_ids": ["src_33e91d37f173f0ca3fba"],
+    "source_citation": "Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Larynx section (PDF p.{page}); key from the section-end printed answer-key grid (p46)",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Otorhinolaryngology",
+    "subtopic": "Larynx and voice",
+    "question_type": "Recall",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "section-end printed answer-key grid (image, PDF p46), Q->letter, rendered once at 200 dpi and cross-checked against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "larynx-q01",
+      "id": "QST-KASR316ENT-LARYNX-01",
+      "page": 36,
+      "title": "Motor supply of the intrinsic laryngeal muscles",
+      "question": "Innervation of the intrinsic muscles of the larynx comes mainly from:",
+      "options": {
+        "A": "The superior laryngeal nerve",
+        "B": "The recurrent laryngeal nerve",
+        "C": "The glossopharyngeal nerve",
+        "D": "The hypoglossal nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The superior laryngeal nerve's external branch supplies only the cricothyroid muscle, and its internal branch is sensory to the supraglottis; it does not supply the other intrinsic muscles.",
+        "B": "Correct. The recurrent laryngeal nerve is the motor nerve of all the intrinsic muscles of the larynx except the cricothyroid. It also carries sensation from below the vocal cords. Injury to it therefore paralyses cord movement and changes the voice.",
+        "C": "Incorrect. The glossopharyngeal nerve supplies the pharynx and posterior third of the tongue, not the intrinsic laryngeal muscles.",
+        "D": "Incorrect. The hypoglossal nerve is the motor nerve of the tongue muscles and has no role in laryngeal muscle innervation."
+      },
+      "main_concept": "CON-MUL-0E33FAFA00F10A",
+      "concept_ids": ["CON-MUL-0E33FAFA00F10A"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal nerve supply",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "State that the recurrent laryngeal nerve supplies the intrinsic laryngeal muscles (except cricothyroid)."
+    },
+    {
+      "key": "larynx-q02",
+      "id": "QST-KASR316ENT-LARYNX-02",
+      "page": 36,
+      "title": "Muscle not supplied by the recurrent laryngeal nerve",
+      "question": "The recurrent laryngeal nerve supplies all the muscles of the larynx EXCEPT:",
+      "options": {
+        "A": "Interarytenoid",
+        "B": "Cricothyroid",
+        "C": "Thyrohyoid",
+        "D": "Posterior cricoarytenoid",
+        "E": "Lateral cricoarytenoid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The interarytenoid is an intrinsic laryngeal muscle supplied by the recurrent laryngeal nerve, so it is not the exception.",
+        "B": "Correct. The cricothyroid is the one intrinsic laryngeal muscle NOT supplied by the recurrent laryngeal nerve; it is supplied by the external branch of the superior laryngeal nerve. It tenses the vocal cords, so a superior laryngeal palsy weakens and lowers the voice. Every other intrinsic laryngeal muscle receives the recurrent laryngeal nerve.",
+        "C": "Incorrect. The thyrohyoid is not an intrinsic laryngeal muscle at all — it is an infrahyoid strap muscle supplied by the C1 fibres running with the hypoglossal nerve, so it lies outside the intrinsic-muscle group the stem is asking about.",
+        "D": "Incorrect. The posterior cricoarytenoid, the sole abductor of the vocal cords, is supplied by the recurrent laryngeal nerve.",
+        "E": "Incorrect. The lateral cricoarytenoid is an adductor supplied by the recurrent laryngeal nerve."
+      },
+      "main_concept": "CON-MUL-0E33FAFA00F10A",
+      "concept_ids": ["CON-MUL-0E33FAFA00F10A"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal nerve supply",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "Identify the cricothyroid as the only intrinsic laryngeal muscle not supplied by the recurrent laryngeal nerve."
+    },
+    {
+      "key": "larynx-q03",
+      "id": "QST-KASR316ENT-LARYNX-03",
+      "page": 36,
+      "title": "Correct statement about laryngomalacia",
+      "question": "Choose the correct statement regarding laryngomalacia:",
+      "options": {
+        "A": "It starts in infancy and persists till adulthood.",
+        "B": "There is hoarseness of voice in all cases.",
+        "C": "Stridor decreases on lying on the back and increases on lying on the face.",
+        "D": "Most cases need only observation as the condition resolves spontaneously.",
+        "E": "It frequently needs an artificial airway with tracheostomy or endotracheal intubation."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Laryngomalacia appears in the first weeks of life and typically resolves by 18-24 months as the laryngeal cartilage stiffens; it does not persist into adulthood.",
+        "B": "Incorrect. The voice and cry are characteristically normal because the vocal cords are not involved, so hoarseness in every case is untrue.",
+        "C": "Incorrect. The stridor of laryngomalacia is worse when the infant lies supine (on the back) and improves in the prone position, the opposite of what this option states.",
+        "D": "Correct. Laryngomalacia is a self-limiting congenital softening of the supraglottic cartilages, and the great majority of infants need only reassurance and observation because it resolves spontaneously as the larynx matures. Surgery (supraglottoplasty) is reserved for the few with failure to thrive or severe obstruction. It is the commonest congenital cause of stridor.",
+        "E": "Incorrect. Only a small minority with severe obstruction or feeding failure need airway intervention; most never require tracheostomy or intubation."
+      },
+      "main_concept": "CON-MUL-807A936645C92F",
+      "concept_ids": ["CON-MUL-807A936645C92F"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngomalacia",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "Recognise laryngomalacia as a self-limiting condition that usually needs only observation."
+    },
+    {
+      "key": "larynx-q04",
+      "id": "QST-KASR316ENT-LARYNX-04",
+      "page": 36,
+      "title": "Infant stridor with a hoarse cry — the unlikely diagnosis",
+      "question": "An infant is noticed to have stridor and a hoarse cry. All of the following diagnoses are possible EXCEPT:",
+      "options": {
+        "A": "Laryngeal web",
+        "B": "Laryngeal paralysis",
+        "C": "Congenital laryngeal cyst",
+        "D": "Laryngomalacia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A laryngeal web lies at the level of the vocal cords and produces both stridor and an abnormal (hoarse or weak) cry, so it fits the picture.",
+        "B": "Incorrect. Congenital laryngeal (vocal cord) paralysis affects cord movement and causes both stridor and a hoarse or weak cry.",
+        "C": "Incorrect. A congenital laryngeal cyst can obstruct the airway and distort the cords, giving stridor together with a hoarse cry.",
+        "D": "Correct. Laryngomalacia is the exception because it is a supraglottic disorder that spares the vocal cords, so the cry and voice are normal even though the infant has inspiratory stridor. A hoarse cry points instead to a lesion at cord level (web, paralysis or cyst). A normal voice with stridor is what suggests laryngomalacia."
+      },
+      "main_concept": "CON-MUL-807A936645C92F",
+      "concept_ids": ["CON-MUL-807A936645C92F"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "subtopic": "Laryngomalacia",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "Use the normal voice of laryngomalacia to distinguish it from cord-level causes of infant stridor."
+    },
+    {
+      "key": "larynx-q05",
+      "id": "QST-KASR316ENT-LARYNX-05",
+      "page": 36,
+      "title": "False statement about laryngomalacia",
+      "question": "All of the following are correct about laryngomalacia EXCEPT:",
+      "options": {
+        "A": "It is due to a congenitally weak, flaccid larynx.",
+        "B": "The child looks healthy.",
+        "C": "It affects the vocal cords.",
+        "D": "Inspiratory stridor starts soon after birth."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Laryngomalacia is due to a congenitally soft, flaccid supraglottic framework that collapses on inspiration, so this statement is true.",
+        "B": "Incorrect. The infant is otherwise healthy and thriving in typical laryngomalacia, so this is a true statement rather than the exception.",
+        "C": "Correct. Laryngomalacia affects the supraglottic structures (the omega-shaped epiglottis, short aryepiglottic folds and bulky arytenoids), NOT the vocal cords, which is why the voice is normal. Saying it affects the vocal cords is therefore the false statement. Disease at cord level would instead alter the cry.",
+        "D": "Incorrect. Inspiratory stridor beginning within the first weeks of life is characteristic, so this statement is true."
+      },
+      "main_concept": "CON-MUL-807A936645C92F",
+      "concept_ids": ["CON-MUL-807A936645C92F"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngomalacia",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "State that laryngomalacia affects the supraglottis and spares the vocal cords."
+    },
+    {
+      "key": "larynx-q06",
+      "id": "QST-KASR316ENT-LARYNX-06",
+      "page": 37,
+      "title": "Clues to an inhaled foreign body in a child",
+      "question": "Which of the following raises the suspicion of an inhaled foreign body in a young child?",
+      "options": {
+        "A": "A history of a sudden attack of cough, choking and cyanosis.",
+        "B": "A chest X-ray showing unilateral lung emphysema.",
+        "C": "A chest X-ray showing unilateral lung atelectasis.",
+        "D": "Persistent wheezes over one lung.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single answer. A witnessed choking crisis strongly suggests an inhaled foreign body, but it is only one of several clues listed.",
+        "B": "Incorrect as the single answer. A ball-valve foreign body traps air distally and produces unilateral obstructive emphysema — a real sign, but not the only one.",
+        "C": "Incorrect as the single answer. Complete bronchial obstruction instead collapses that lung (unilateral atelectasis); this too is only one of the listed features.",
+        "D": "Incorrect as the single answer. Persistent wheeze localised to one lung is a classic sign of a bronchial foreign body, but again only one of several clues.",
+        "E": "Correct. All the listed features — a sudden choking, coughing and cyanotic attack, unilateral emphysema or atelectasis on the chest film, and persistent unilateral wheeze — raise the suspicion of an inhaled foreign body. Any of them in a young child mandates bronchoscopy. That is why 'all of the above' is the answer."
+      },
+      "main_concept": "CON-MUL-24F1D7601AE7C0",
+      "concept_ids": ["CON-MUL-24F1D7601AE7C0"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Inhaled foreign body",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "List the history and chest X-ray clues that suggest an inhaled foreign body."
+    },
+    {
+      "key": "larynx-q07",
+      "id": "QST-KASR316ENT-LARYNX-07",
+      "page": 37,
+      "title": "Toddler with sudden respiratory distress and cyanosis",
+      "question": "A 3-year-old boy has sudden acute respiratory distress with spasmodic cough, cyanosis and use of the accessory respiratory muscles. This is most probably due to:",
+      "options": {
+        "A": "Acute follicular tonsillitis",
+        "B": "Foreign body inhalation",
+        "C": "Adenoid hypertrophy",
+        "D": "Vocal cord nodule"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Acute follicular tonsillitis causes sore throat, fever and dysphagia, not a sudden choking attack with cyanosis.",
+        "B": "Correct. A sudden attack of spasmodic cough, cyanosis and respiratory distress with accessory-muscle use in a toddler is the classic presentation of an inhaled foreign body. Children of this age explore with the mouth and readily aspirate nuts or small objects. Urgent bronchoscopy for removal is required.",
+        "C": "Incorrect. Adenoid hypertrophy causes gradual nasal obstruction, snoring and mouth-breathing, not an acute choking crisis.",
+        "D": "Incorrect. A vocal cord nodule causes chronic hoarseness from voice abuse, not sudden respiratory distress."
+      },
+      "main_concept": "CON-MUL-24F1D7601AE7C0",
+      "concept_ids": ["CON-MUL-24F1D7601AE7C0"],
+      "difficulty": "Easy",
+      "question_type": "Application",
+      "subtopic": "Inhaled foreign body",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "Recognise the sudden choking presentation of an inhaled foreign body in a toddler."
+    },
+    {
+      "key": "larynx-q08",
+      "id": "QST-KASR316ENT-LARYNX-08",
+      "page": 37,
+      "title": "Commonest site an inhaled foreign body lodges",
+      "question": "An inhaled foreign body is more commonly lodged in the:",
+      "options": {
+        "A": "Right main bronchus",
+        "B": "Left main bronchus",
+        "C": "Right or left main bronchi equally",
+        "D": "Larynx"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An inhaled foreign body most often lodges in the RIGHT main bronchus because it is wider, shorter and more vertical (more in line with the trachea) than the left. Aspirated material therefore tends to travel down the right side. The same anatomy explains right-sided aspiration pneumonia.",
+        "B": "Incorrect. The left main bronchus is narrower and more horizontal, so it receives aspirated objects less often than the right.",
+        "C": "Incorrect. Although a foreign body can occasionally enter either side, the question asks for the commonest site, which is specifically the right.",
+        "D": "Incorrect. Large objects may impact at the larynx, but small inhaled foreign bodies usually pass through to a main bronchus, the right one most often."
+      },
+      "main_concept": "CON-MUL-19190AA99852DD",
+      "concept_ids": ["CON-MUL-19190AA99852DD"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Inhaled foreign body",
+      "library_ids": ["ART-ENT-316-LARYNX-CONGENITAL-AIRWAY"],
+      "learning_objective": "State that an inhaled foreign body most commonly lodges in the right main bronchus and explain why."
+    },
+    {
+      "key": "larynx-q09",
+      "id": "QST-KASR316ENT-LARYNX-09",
+      "page": 37,
+      "title": "Premalignant benign laryngeal lesion",
+      "question": "Which of the following benign lesions of the larynx can be pre-cancerous?",
+      "options": {
+        "A": "Leukoplakia",
+        "B": "Reinke's oedema",
+        "C": "Laryngeal nodule",
+        "D": "Laryngosclerosis",
+        "E": "Juvenile-onset recurrent respiratory papillomatosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Laryngeal leukoplakia is a white keratotic patch of the vocal cord, driven by smoking, and it carries epithelial dysplasia that can progress to squamous cell carcinoma. It is the classic premalignant lesion of the larynx and must be biopsied and followed up. Stopping smoking is essential.",
+        "B": "Incorrect. Reinke's oedema (polypoid cord swelling from smoking and voice abuse) causes a deep, hoarse voice but is not itself premalignant.",
+        "C": "Incorrect. A laryngeal (singer's) nodule is a benign response to voice abuse with no malignant potential.",
+        "D": "Incorrect. Laryngosclerosis (laryngoscleroma) is a chronic granulomatous infection; it causes stenosis, not malignant transformation.",
+        "E": "Incorrect. Juvenile-onset recurrent respiratory papillomatosis is generally benign and only rarely undergoes malignant change, so among these options leukoplakia is the established premalignant lesion."
+      },
+      "main_concept": "CON-MUL-A85924041B2640",
+      "concept_ids": ["CON-MUL-A85924041B2640"],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "subtopic": "Laryngeal leukoplakia",
+      "library_ids": ["ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT"],
+      "learning_objective": "Identify leukoplakia as the premalignant benign lesion of the larynx."
+    },
+    { "key": "larynx-q10", "hold": "Non-unique positive stem. 'Recurrent respiratory papillomatosis:' is keyed d (occurs in children), but recurrent respiratory papillomatosis has both a juvenile form (children) AND an adult-onset form (option a, occurs in adults), and malignant transformation is a recognised event (option b, may turn malignant). At least two of the four statements are defensible, so the key is not uniquely correct. Held per the never-guess rule." },
+    {
+      "key": "larynx-q11",
+      "id": "QST-KASR316ENT-LARYNX-11",
+      "page": 37,
+      "title": "Investigation not used for cancer larynx",
+      "question": "Investigations for cancer of the larynx include all of the following EXCEPT:",
+      "options": {
+        "A": "CT scan to assess tumour extension and lymph node involvement.",
+        "B": "Biopsy by direct laryngoscopy to confirm the diagnosis.",
+        "C": "Metastatic work-up: chest X-ray, brain CT scan, bone scan and abdominal ultrasound.",
+        "D": "Carotid angiography and embolization."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. CT of the neck is routine to map tumour extension and nodal disease, so it is a genuine investigation.",
+        "B": "Incorrect. Biopsy taken at direct laryngoscopy provides the tissue diagnosis and is essential, so it is not the exception.",
+        "C": "Incorrect. A metastatic work-up is part of staging, so it is a real investigation rather than the exception.",
+        "D": "Correct. Carotid angiography and embolization is a vascular interventional procedure used for highly vascular tumours such as juvenile angiofibroma or paragangliomas, NOT part of the routine work-up of laryngeal carcinoma. It is therefore the exception. Laryngeal cancer is assessed by endoscopy and biopsy, CT or MRI, and a metastatic survey."
+      },
+      "main_concept": "CON-MUL-D2D8BD89564721",
+      "concept_ids": ["CON-MUL-D2D8BD89564721"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal carcinoma — investigations",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "List the investigations used to stage laryngeal carcinoma and recognise which is not part of the work-up."
+    },
+    {
+      "key": "larynx-q12",
+      "id": "QST-KASR316ENT-LARYNX-12",
+      "page": 38,
+      "title": "True statement about glottic carcinoma",
+      "question": "Regarding glottic laryngeal carcinoma, which is the true statement?",
+      "options": {
+        "A": "Hoarseness of voice is an early presentation.",
+        "B": "Dysphagia and regurgitation are early common symptoms.",
+        "C": "It usually presents in late stages.",
+        "D": "It causes early nodal metastasis."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A glottic (vocal cord) carcinoma disturbs cord vibration from the outset, so progressive hoarseness is an early symptom that brings the patient to attention while the tumour is still small. This early warning, together with the sparse lymphatic drainage of the glottis, gives glottic cancer a relatively good prognosis. Any hoarseness lasting more than 2-3 weeks in a smoker needs laryngoscopy.",
+        "B": "Incorrect. Dysphagia and regurgitation are features of hypopharyngeal or advanced supraglottic disease, not of early glottic cancer.",
+        "C": "Incorrect. Because hoarseness appears early, glottic carcinoma is usually detected at an early stage rather than late.",
+        "D": "Incorrect. The glottis has a poor lymphatic supply, so nodal metastasis is late, not early."
+      },
+      "main_concept": "CON-MUL-05DC95DD12C391",
+      "concept_ids": ["CON-MUL-05DC95DD12C391"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Glottic carcinoma",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "State that glottic carcinoma presents early with hoarseness and has a good prognosis."
+    },
+    {
+      "key": "larynx-q13",
+      "id": "QST-KASR316ENT-LARYNX-13",
+      "page": 38,
+      "title": "Treatment of advanced node-positive cancer larynx",
+      "question": "The treatment of advanced cancer of the larynx with neck lymph node metastasis is:",
+      "options": {
+        "A": "Partial laryngectomy.",
+        "B": "Antibiotics.",
+        "C": "Total laryngectomy and radical neck dissection.",
+        "D": "Laser cordectomy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Partial laryngectomy is a conservation option for selected early tumours, not for advanced disease with nodal spread.",
+        "B": "Incorrect. Antibiotics have no role in treating a laryngeal malignancy.",
+        "C": "Correct. Advanced laryngeal carcinoma with palpable neck node metastasis is treated by total laryngectomy together with neck dissection (with adjuvant radiotherapy), removing both the primary and the nodal disease. Organ-preservation chemoradiation is an alternative in some protocols, but among these options this is the definitive surgical answer. Voice rehabilitation follows total laryngectomy.",
+        "D": "Incorrect. Laser cordectomy treats only very early, cord-confined tumours, not advanced node-positive disease."
+      },
+      "main_concept": "CON-MUL-AC617D3F5B4B03",
+      "concept_ids": ["CON-MUL-AC617D3F5B4B03"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Advanced laryngeal carcinoma — management",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "State that advanced node-positive laryngeal cancer is treated by total laryngectomy and neck dissection."
+    },
+    {
+      "key": "larynx-q14",
+      "id": "QST-KASR316ENT-LARYNX-14",
+      "page": 38,
+      "title": "Features of the single (adult) laryngeal papilloma",
+      "question": "The single laryngeal papilloma of the adult:",
+      "options": {
+        "A": "Occurs in adults.",
+        "B": "Causes hoarseness of voice.",
+        "C": "Is treated by microlaryngosurgery.",
+        "D": "Might turn malignant.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as the single answer. A single (solitary) laryngeal papilloma is typical of adults, but this is only one true feature.",
+        "B": "Incorrect as the single answer. Sitting usually on the vocal cord, it causes hoarseness — true, but not the whole answer.",
+        "C": "Incorrect as the single answer. It is removed by microlaryngosurgery (with biopsy), which is correct but only one of the features.",
+        "D": "Incorrect as the single answer. The adult solitary papilloma is regarded as premalignant and can undergo malignant change — again only one of the listed truths.",
+        "E": "Correct. The adult single laryngeal papilloma occurs in adults, presents with hoarseness, is treated by microlaryngeal excision, and is premalignant (may turn malignant), so all the statements are correct. This contrasts with juvenile multiple papillomatosis, which tends to regress at puberty and rarely turns malignant. Hence 'all of the above'."
+      },
+      "main_concept": "CON-MUL-D8F3344BC4A6D8",
+      "concept_ids": ["CON-MUL-D8F3344BC4A6D8"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Adult laryngeal papilloma",
+      "library_ids": ["ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT"],
+      "learning_objective": "List the features of the adult single laryngeal papilloma, including its premalignant potential."
+    },
+    {
+      "key": "larynx-q15",
+      "id": "QST-KASR316ENT-LARYNX-15",
+      "page": 38,
+      "title": "Meaning of T3 in cancer larynx",
+      "question": "T3 cancer of the larynx means:",
+      "options": {
+        "A": "Extralaryngeal spread.",
+        "B": "Fixed vocal cord.",
+        "C": "Multiple ipsilateral neck lymph nodes, each less than 6 cm.",
+        "D": "Tumour involving two regions of the larynx.",
+        "E": "None of the above."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Spread beyond the larynx (for example through the thyroid cartilage into neck tissues) is T4, not T3.",
+        "B": "Correct. In laryngeal cancer T-staging, T3 denotes a tumour still confined to the larynx but with vocal cord FIXATION (and/or invasion of the paraglottic space or the inner cortex of the thyroid cartilage). Fixation signals deep muscle or space involvement while the tumour remains intralaryngeal. T4 is reserved for cartilage penetration or extralaryngeal spread.",
+        "C": "Incorrect. Multiple ipsilateral nodes each under 6 cm describe the N stage (N2b), not the T stage.",
+        "D": "Incorrect. Involving two subsites relates to tumour extent, but the defining feature of T3 is cord fixation, not merely spanning two regions.",
+        "E": "Incorrect. A correct definition is offered (fixed vocal cord), so 'none of the above' is wrong."
+      },
+      "main_concept": "CON-MUL-C5FFD0CF7617C2",
+      "concept_ids": ["CON-MUL-C5FFD0CF7617C2"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal carcinoma — T staging",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "Define T3 laryngeal carcinoma as vocal cord fixation with the tumour still intralaryngeal."
+    },
+    {
+      "key": "larynx-q16",
+      "id": "QST-KASR316ENT-LARYNX-16",
+      "page": 38,
+      "title": "Child with warty growths on both vocal cords",
+      "question": "A 7-year-old boy presents to the emergency department with stridor. He has had hoarseness of voice for a year. His temperature is 37 degrees C, and nasal and oral examination show no disease. Laryngeal examination shows warty growths affecting both vocal cords and reducing the airway. The most likely diagnosis is:",
+      "options": {
+        "A": "Juvenile-onset recurrent respiratory papillomatosis",
+        "B": "Laryngeal nodules",
+        "C": "Laryngoscleroma",
+        "D": "Laryngomalacia",
+        "E": "Chronic laryngitis secondary to gastro-oesophageal reflux"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Warty (papillomatous) growths on both vocal cords in a child, with a year of hoarseness now progressing to stridor, are characteristic of juvenile-onset recurrent respiratory papillomatosis (caused by HPV types 6 and 11). The lesions are multiple, recur after removal, and can obstruct the airway. Treatment is repeated microlaryngeal or laser excision to keep the airway clear.",
+        "B": "Incorrect. Vocal cord nodules are small, smooth, symmetrical swellings from voice abuse, not warty growths, and they do not cause stridor.",
+        "C": "Incorrect. Laryngoscleroma is a chronic granuloma causing subglottic stenosis, not warty cord lesions in a young child.",
+        "D": "Incorrect. Laryngomalacia presents in infancy with stridor and a normal voice, not warty cord growths with a year of hoarseness.",
+        "E": "Incorrect. Reflux laryngitis causes posterior cord inflammation and hoarseness, not discrete warty growths."
+      },
+      "main_concept": "CON-MUL-5B5A3290DD0FFA",
+      "concept_ids": ["CON-MUL-5B5A3290DD0FFA"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "subtopic": "Juvenile recurrent respiratory papillomatosis",
+      "library_ids": ["ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT"],
+      "learning_objective": "Recognise juvenile recurrent respiratory papillomatosis from warty growths on both vocal cords in a child."
+    },
+    {
+      "key": "larynx-q17",
+      "id": "QST-KASR316ENT-LARYNX-17",
+      "page": 39,
+      "title": "False statement about laryngeal squamous cell carcinoma",
+      "question": "Laryngeal squamous cell carcinoma is characterized by all of the following EXCEPT:",
+      "options": {
+        "A": "Smoking is a predisposing factor in carcinogenesis.",
+        "B": "It seldom arises from the subglottic area.",
+        "C": "Invasion of the laryngeal cartilages is staged as T4 disease.",
+        "D": "The most common site of nodal metastasis is the upper deep cervical group (level II).",
+        "E": "It commonly sends distant metastasis to the lungs, bone and liver."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Smoking (with alcohol) is the major carcinogenic risk factor for laryngeal squamous cell carcinoma, so this statement is true.",
+        "B": "Incorrect. The subglottis is the least common primary site; most laryngeal squamous cell carcinomas are glottic or supraglottic, so 'seldom arises from the subglottic area' is true.",
+        "C": "Incorrect. Invasion of the laryngeal cartilage is indeed staged as T4 disease, so this statement is correct.",
+        "D": "Incorrect. The upper deep cervical (level II) nodes are the commonest site of nodal metastasis, so this is true.",
+        "E": "Correct. Laryngeal squamous cell carcinoma is predominantly a locoregional disease, so distant metastasis is relatively UNCOMMON, and saying it 'commonly' spreads to lungs, bone and liver is the false statement. When distant spread does occur the lung is the usual site, but it is not a frequent event. The other four statements are all true."
+      },
+      "main_concept": "CON-MUL-C0DDAC344BAB19",
+      "concept_ids": ["CON-MUL-C0DDAC344BAB19"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal squamous cell carcinoma",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "State that laryngeal SCC is mainly locoregional and that distant metastasis is uncommon."
+    },
+    {
+      "key": "larynx-q18",
+      "id": "QST-KASR316ENT-LARYNX-18",
+      "page": 39,
+      "title": "Purpose of CT in a fixed vocal cord tumour",
+      "question": "A 60-year-old man, a chronic heavy smoker, presents with hoarseness of several months, not responsive to medical treatment. Laryngeal examination shows a fungating mass arising from the right vocal cord, which is fixed. A CT scan in this case is indicated in order to determine:",
+      "options": {
+        "A": "The exact site of the tumour",
+        "B": "The exact size of the tumour",
+        "C": "Extension of the tumour to the hypopharynx",
+        "D": "Extension of the tumour to the tongue base",
+        "E": "Extension of the tumour to the cartilage and/or the intralaryngeal spaces"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The exact site is already seen directly at laryngoscopy, so CT is not needed for that.",
+        "B": "Incorrect. The surface size is assessed endoscopically; CT adds little just to measure the visible tumour.",
+        "C": "Incorrect. Hypopharyngeal extension is not the main question in a cord tumour that is already fixed; deep and cartilage spread is.",
+        "D": "Incorrect. Tongue-base extension is not the concern for a glottic tumour; it is a feature of very different sites.",
+        "E": "Correct. In a fixed cord tumour, CT is done to reveal what the endoscope cannot see — invasion of the thyroid or cricoid cartilage and of the deep paraglottic and pre-epiglottic (intralaryngeal) spaces. This deep extension determines the T stage and whether cord-conserving surgery is possible. Cartilage invasion in particular upstages the tumour to T4."
+      },
+      "main_concept": "CON-MUL-D2D8BD89564721",
+      "concept_ids": ["CON-MUL-D2D8BD89564721"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "subtopic": "Laryngeal carcinoma — investigations",
+      "library_ids": ["ART-ENT-316-LARYNX-CARCINOMA"],
+      "learning_objective": "Explain that CT in a fixed cord tumour shows cartilage and deep-space invasion that guides staging and surgery."
+    },
+    {
+      "key": "larynx-q19",
+      "id": "QST-KASR316ENT-LARYNX-19",
+      "page": 39,
+      "title": "False statement about laryngeal leukoplakia",
+      "question": "All of the following are correct about leukoplakia of the larynx EXCEPT:",
+      "options": {
+        "A": "It is caused by excessive smoking.",
+        "B": "It never turns malignant.",
+        "C": "It causes gradual hoarseness of voice.",
+        "D": "It is white in colour."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Leukoplakia is strongly associated with heavy smoking, so this statement is true.",
+        "B": "Correct. Leukoplakia is a premalignant lesion that CAN progress to squamous cell carcinoma through worsening dysplasia, so 'never turns malignant' is the false statement. It must be biopsied and followed up, and the patient advised to stop smoking. This malignant potential is exactly what makes it important.",
+        "C": "Incorrect. A white patch on the vibrating cord causes gradual hoarseness, so this is a true statement.",
+        "D": "Incorrect. By definition leukoplakia is a white plaque (from keratin), so this statement is true."
+      },
+      "main_concept": "CON-MUL-A85924041B2640",
+      "concept_ids": ["CON-MUL-A85924041B2640"],
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "subtopic": "Laryngeal leukoplakia",
+      "library_ids": ["ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT"],
+      "learning_objective": "State that leukoplakia is premalignant and can progress to carcinoma."
+    }
+  ]
+}

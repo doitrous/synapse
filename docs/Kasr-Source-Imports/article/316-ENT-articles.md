@@ -1473,3 +1473,270 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Nose-section concepts (Q68, Q69, Q70, Q71, Q72, Q75, Q77) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4
+
+---
+
+## id
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## title
+Otorhinolaryngology: the larynx — nerve supply, laryngomalacia and inhaled foreign body
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the introductory larynx facts tested by the Larynx section (Q1-Q8): the motor nerve supply of the intrinsic muscles (recurrent laryngeal nerve, except the cricothyroid), laryngomalacia as the self-limiting supraglottic cause of infant stridor with a normal voice, and the inhaled foreign body (its choking presentation, unilateral lung signs, and its commonest site in the right main bronchus).
+## sections
+### Definition
+This group covers the basic motor innervation of the larynx and two common airway problems of childhood: laryngomalacia and the inhaled foreign body.
+### Mechanism
+The recurrent laryngeal nerve drives all intrinsic laryngeal muscles except the cricothyroid; a congenitally flaccid supraglottis collapses on inspiration in laryngomalacia; and an aspirated object follows the wider, more vertical right main bronchus, trapping or blocking air distally.
+### Key determinants
+The cricothyroid (superior laryngeal nerve) is the one intrinsic muscle not supplied by the recurrent laryngeal nerve; laryngomalacia gives inspiratory stridor with a normal voice and usually needs only observation; and an inhaled foreign body causes sudden choking with unilateral emphysema, atelectasis or wheeze and lodges most often in the right main bronchus.
+### Clinical significance
+These facts guide the assessment of the noisy-breathing child: a normal voice with stridor suggests laryngomalacia, while a sudden choking attack or unilateral lung signs demand bronchoscopy.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice
+## subtopic
+Larynx anatomy, laryngomalacia and airway foreign body
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T04
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-0E33FAFA00F10A
+CON-MUL-807A936645C92F
+CON-MUL-24F1D7601AE7C0
+CON-MUL-19190AA99852DD
+## related_articles
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+ART-ENT-316-LARYNX-CARCINOMA
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Larynx-section concepts (Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+## id
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## title
+Otorhinolaryngology: benign and premalignant laryngeal lesions — leukoplakia and papillomas
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the benign and premalignant laryngeal lesions tested by the Larynx section (Q9, Q14, Q16, Q19): leukoplakia as the smoking-related premalignant white cord lesion, the adult single papilloma (solitary, hoarseness-causing and premalignant), and juvenile recurrent respiratory papillomatosis (multiple recurrent warty cord growths in children).
+## sections
+### Definition
+This group covers the white premalignant patch (leukoplakia) and the papillomas of the larynx, distinguishing the solitary premalignant adult lesion from the multiple juvenile disease.
+### Mechanism
+Chronic smoking drives keratosis and dysplasia (leukoplakia) that can progress to carcinoma; the adult solitary papilloma likewise carries premalignant potential, whereas HPV 6/11 produces the multiple, recurrent, usually benign juvenile papillomatosis.
+### Key determinants
+Leukoplakia is white, smoking-related and premalignant (it can turn malignant); the adult single papilloma is solitary, causes hoarseness and is premalignant; juvenile recurrent respiratory papillomatosis is multiple, recurrent and usually benign, and regresses around puberty.
+### Clinical significance
+Recognising which laryngeal lesion is premalignant decides who needs biopsy, close follow-up and smoking cessation, and separates the solitary adult papilloma from the multiple juvenile disease.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice
+## subtopic
+Laryngeal leukoplakia and papillomas
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T04
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-A85924041B2640
+CON-MUL-D8F3344BC4A6D8
+CON-MUL-5B5A3290DD0FFA
+## related_articles
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+ART-ENT-316-LARYNX-CARCINOMA
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Larynx-section concepts (Q9, Q14, Q16, Q19) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+## id
+ART-ENT-316-LARYNX-CARCINOMA
+## title
+Otorhinolaryngology: laryngeal carcinoma — presentation, staging, investigation and management
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the laryngeal carcinoma facts tested by the Larynx section (Q11, Q12, Q13, Q15, Q17, Q18): the risk factors and spread pattern of squamous cell carcinoma, the early hoarseness and good prognosis of glottic cancer, the investigations (endoscopy/biopsy, CT/MRI, metastatic work-up), the meaning of T3 (vocal cord fixation), and the treatment of advanced node-positive disease by total laryngectomy and neck dissection.
+## sections
+### Definition
+This group covers the presentation, investigation, staging and management of laryngeal squamous cell carcinoma.
+### Mechanism
+Smoking and alcohol drive squamous carcinogenesis; a glottic tumour disturbs cord vibration early (hoarseness) while its sparse lymphatics delay nodal spread; deep growth fixes the cord (T3) and cartilage invasion (T4) is shown by CT.
+### Key determinants
+Glottic carcinoma presents early with hoarseness and has a good prognosis; investigation is by direct laryngoscopy with biopsy, CT or MRI and a metastatic work-up (not carotid angiography); T3 means vocal cord fixation; cartilage invasion is T4 and distant metastasis is uncommon; and advanced node-positive disease is treated by total laryngectomy with neck dissection.
+### Clinical significance
+Early hoarseness is the warning that can catch glottic cancer while it is curable, and correct staging (cord fixation, cartilage invasion, nodal disease) decides between conservation surgery and total laryngectomy with neck dissection.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice
+## subtopic
+Laryngeal carcinoma
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T04
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-D2D8BD89564721
+CON-MUL-05DC95DD12C391
+CON-MUL-AC617D3F5B4B03
+CON-MUL-C5FFD0CF7617C2
+CON-MUL-C0DDAC344BAB19
+## related_articles
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Larynx-section concepts (Q11, Q12, Q13, Q15, Q17, Q18) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4

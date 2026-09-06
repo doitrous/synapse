@@ -10325,3 +10325,1323 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.functional-endoscopic-sinus-surgery.complications", uppercased (same scheme as the Ear section and Nose Q1-48); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q49-80) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+## id
+CON-MUL-0E33FAFA00F10A
+## label
+The recurrent laryngeal nerve supplies all intrinsic laryngeal muscles except the cricothyroid
+## canonical_key
+otolaryngology.larynx-motor-innervation.recurrent-laryngeal-nerve-except-cricothyroid
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The intrinsic muscles of the larynx are supplied by the recurrent laryngeal nerve, with one exception: the cricothyroid, which is supplied by the external branch of the superior laryngeal nerve. The recurrent laryngeal nerve also carries sensation from below the vocal cords, while the internal branch of the superior laryngeal nerve is sensory above them. Injury to the recurrent laryngeal nerve therefore paralyses cord movement and alters the voice.
+## explicit_objective
+State that the recurrent laryngeal nerve supplies all intrinsic laryngeal muscles except the cricothyroid.
+## pitfalls
+The cricothyroid (external branch of the superior laryngeal nerve) is the exception; the thyrohyoid is an infrahyoid strap muscle, not an intrinsic laryngeal muscle at all.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal nerve supply
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal nerve supply
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.larynx-motor-innervation.recurrent-laryngeal-nerve-except-cricothyroid", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-807A936645C92F
+## label
+Laryngomalacia is a self-limiting congenital supraglottic softening causing inspiratory stridor with a normal voice
+## canonical_key
+otolaryngology.laryngomalacia.self-limiting-supraglottic-stridor-normal-voice
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngomalacia is the commonest congenital cause of stridor. A soft, flaccid supraglottis (omega-shaped epiglottis, short aryepiglottic folds and bulky arytenoids) collapses on inspiration, producing inspiratory stridor that begins in the first weeks of life, is worse supine and on crying, and improves prone. The vocal cords are spared, so the voice and cry are normal and the child is otherwise healthy. Most cases resolve spontaneously by 18-24 months and need only observation; supraglottoplasty is reserved for severe obstruction or failure to thrive.
+## explicit_objective
+Describe laryngomalacia as a self-limiting supraglottic cause of infant stridor with a normal voice.
+## pitfalls
+The voice is normal because the cords are spared, so a hoarse cry points to a cord lesion instead; the stridor is worse supine, not prone; and most cases need only observation, not tracheostomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngomalacia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngomalacia
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngomalacia.self-limiting-supraglottic-stridor-normal-voice", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-24F1D7601AE7C0
+## label
+An inhaled foreign body presents with sudden choking and unilateral lung signs
+## canonical_key
+otolaryngology.inhaled-foreign-body.presentation-cough-choking-unilateral-lung-signs
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aspiration of a foreign body in a young child typically causes a sudden attack of coughing, choking and cyanosis. Later a ball-valve obstruction traps air and gives unilateral obstructive emphysema, while complete obstruction collapses the lung (atelectasis), and persistent wheeze localised to one lung is characteristic. Any of these features mandates bronchoscopy for diagnosis and removal.
+## explicit_objective
+List the history and chest X-ray signs that suggest an inhaled foreign body.
+## pitfalls
+A normal chest X-ray does not exclude a radiolucent foreign body; a witnessed choking episode alone justifies bronchoscopy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Inhaled foreign body
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Inhaled foreign body
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.inhaled-foreign-body.presentation-cough-choking-unilateral-lung-signs", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-19190AA99852DD
+## label
+An inhaled foreign body most commonly lodges in the right main bronchus
+## canonical_key
+otolaryngology.inhaled-foreign-body.commonest-site-right-main-bronchus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An inhaled foreign body most often lodges in the right main bronchus because it is wider, shorter and more vertical (more nearly in line with the trachea) than the left main bronchus. The same anatomy explains the right-sided predominance of aspiration pneumonia. Large objects may instead impact at the larynx.
+## explicit_objective
+State that an inhaled foreign body most commonly lodges in the right main bronchus and explain why.
+## pitfalls
+The right main bronchus is favoured because it is wider, shorter and more vertical; a foreign body can occasionally still enter the left.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Inhaled foreign body
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Inhaled foreign body
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.inhaled-foreign-body.commonest-site-right-main-bronchus", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-A85924041B2640
+## label
+Laryngeal leukoplakia is a smoking-related white premalignant lesion of the vocal cord
+## canonical_key
+otolaryngology.laryngeal-leukoplakia.smoking-related-premalignant-white-lesion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngeal leukoplakia is a white keratotic patch on the vocal cord caused by chronic irritation, chiefly smoking. It causes gradual hoarseness and carries epithelial dysplasia that can progress to squamous cell carcinoma, making it the classic premalignant lesion of the larynx. It must be biopsied and followed up, and the patient advised to stop smoking.
+## explicit_objective
+Identify leukoplakia as a smoking-related premalignant white lesion of the vocal cord.
+## pitfalls
+Leukoplakia can turn malignant, so "never turns malignant" is false; it is white (keratin) and causes gradual hoarseness.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal leukoplakia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal leukoplakia
+## article_ids
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-leukoplakia.smoking-related-premalignant-white-lesion", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-D8F3344BC4A6D8
+## label
+The adult single laryngeal papilloma is usually solitary, causes hoarseness and is premalignant
+## canonical_key
+otolaryngology.adult-laryngeal-papilloma.single-premalignant-hoarseness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The adult laryngeal papilloma is usually a single (solitary) lesion, most often on the vocal cord, presenting with hoarseness. It is regarded as premalignant and can undergo malignant transformation, so it is removed by microlaryngosurgery with histological examination. This contrasts with juvenile multiple papillomatosis, which tends to regress at puberty and rarely turns malignant.
+## explicit_objective
+Describe the adult single laryngeal papilloma as solitary, hoarseness-causing and premalignant.
+## pitfalls
+The adult papilloma is single and premalignant; the juvenile form is multiple and usually benign, regressing at puberty.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adult laryngeal papilloma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Adult laryngeal papilloma
+## article_ids
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.adult-laryngeal-papilloma.single-premalignant-hoarseness", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-D2D8BD89564721
+## label
+Laryngeal carcinoma is investigated by endoscopy and biopsy, CT or MRI, and a metastatic work-up
+## canonical_key
+otolaryngology.laryngeal-carcinoma.investigations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The work-up of laryngeal carcinoma is direct laryngoscopy with biopsy for the tissue diagnosis, CT or MRI of the neck to map tumour extension (including cartilage and the deep intralaryngeal spaces) and nodal disease, and a metastatic survey (chest imaging, with further scans as indicated). Carotid angiography and embolization is not part of the routine work-up; it belongs to highly vascular tumours such as juvenile angiofibroma or paraganglioma.
+## explicit_objective
+List the investigations used to diagnose and stage laryngeal carcinoma.
+## pitfalls
+Carotid angiography and embolization is not part of the laryngeal cancer work-up; CT is chosen to show the deep cartilage and paraglottic invasion the endoscope cannot see.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal carcinoma — investigations
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal carcinoma > Investigations
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-carcinoma.investigations", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-05DC95DD12C391
+## label
+Glottic carcinoma presents early with hoarseness and has a good prognosis
+## canonical_key
+otolaryngology.glottic-carcinoma.early-hoarseness-good-prognosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glottic (vocal cord) carcinoma disturbs cord vibration from the outset, so it presents early with progressive hoarseness while the tumour is still small. The glottis has a sparse lymphatic supply, so nodal metastasis is late; early presentation together with late spread give glottic cancer a relatively good prognosis. Persistent hoarseness beyond 2-3 weeks in a smoker demands laryngoscopy.
+## explicit_objective
+State that glottic carcinoma presents early with hoarseness and carries a good prognosis.
+## pitfalls
+Dysphagia and early nodal metastasis are features of supraglottic or hypopharyngeal disease, not of early glottic cancer.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Glottic carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Glottic carcinoma
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.glottic-carcinoma.early-hoarseness-good-prognosis", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-AC617D3F5B4B03
+## label
+Advanced node-positive laryngeal carcinoma is treated by total laryngectomy and neck dissection
+## canonical_key
+otolaryngology.advanced-laryngeal-carcinoma.total-laryngectomy-and-neck-dissection
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Advanced laryngeal carcinoma with neck lymph node metastasis is treated by total laryngectomy together with neck dissection, usually with adjuvant radiotherapy, to remove both the primary and the nodal disease. Organ-preservation chemoradiation is an alternative in selected protocols, and voice rehabilitation follows total laryngectomy. Partial laryngectomy and laser cordectomy are conservation options limited to early tumours.
+## explicit_objective
+State the surgical treatment of advanced node-positive laryngeal carcinoma.
+## pitfalls
+Partial laryngectomy and laser cordectomy are for early tumours only; advanced node-positive disease needs total laryngectomy with neck dissection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Advanced laryngeal carcinoma — management
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal carcinoma > Management
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.advanced-laryngeal-carcinoma.total-laryngectomy-and-neck-dissection", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-C5FFD0CF7617C2
+## label
+In laryngeal carcinoma, T3 denotes vocal cord fixation with the tumour still intralaryngeal
+## canonical_key
+otolaryngology.laryngeal-carcinoma.t-staging-t3-cord-fixation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the T-staging of laryngeal carcinoma, T3 denotes a tumour confined to the larynx but with vocal cord FIXATION (and/or invasion of the paraglottic space or the inner cortex of the thyroid cartilage). Fixation reflects deep muscle or space involvement while the tumour remains within the larynx. T4 is reserved for cartilage penetration or extralaryngeal spread, and nodal counts belong to the separate N stage.
+## explicit_objective
+Define T3 laryngeal carcinoma as vocal cord fixation with the tumour still intralaryngeal.
+## pitfalls
+T4, not T3, is extralaryngeal or through-cartilage spread; multiple neck nodes describe the N stage, not the T stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal carcinoma — T staging
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal carcinoma > Staging
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-carcinoma.t-staging-t3-cord-fixation", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-5B5A3290DD0FFA
+## label
+Juvenile recurrent respiratory papillomatosis causes multiple recurrent warty vocal-cord growths in children
+## canonical_key
+otolaryngology.juvenile-recurrent-respiratory-papillomatosis.multiple-vocal-cord-warts-children
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Juvenile-onset recurrent respiratory papillomatosis is caused by human papillomavirus (types 6 and 11) and produces multiple warty (papillomatous) growths on the vocal cords and airway of a child. It causes progressive hoarseness and can obstruct the airway to give stridor. The lesions recur after removal, so treatment is repeated microlaryngeal or laser excision to keep the airway clear; malignant change is rare.
+## explicit_objective
+Recognise juvenile recurrent respiratory papillomatosis as multiple recurrent warty cord growths in children.
+## pitfalls
+It is multiple and recurrent (unlike the solitary adult papilloma) and usually benign; warty growths distinguish it from smooth vocal nodules.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Juvenile recurrent respiratory papillomatosis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Juvenile recurrent respiratory papillomatosis
+## article_ids
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.juvenile-recurrent-respiratory-papillomatosis.multiple-vocal-cord-warts-children", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-C0DDAC344BAB19
+## label
+Laryngeal squamous cell carcinoma is smoking-related, seldom subglottic, and rarely sends distant metastasis
+## canonical_key
+otolaryngology.laryngeal-squamous-cell-carcinoma.features-and-spread
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngeal squamous cell carcinoma is driven by smoking and alcohol. It seldom arises from the subglottis (most are glottic or supraglottic), invasion of the laryngeal cartilage is staged as T4, and the commonest site of nodal metastasis is the upper deep cervical (level II) group. It is predominantly a locoregional disease, so distant metastasis (usually to the lung) is uncommon.
+## explicit_objective
+List the risk factors, sites and spread pattern of laryngeal squamous cell carcinoma.
+## pitfalls
+Distant metastasis is uncommon (mainly lung when it occurs); the subglottis is the least common primary site; cartilage invasion is staged T4.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal squamous cell carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal squamous cell carcinoma
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-squamous-cell-carcinoma.features-and-spread", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
