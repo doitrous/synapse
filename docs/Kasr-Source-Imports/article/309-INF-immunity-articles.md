@@ -93,3 +93,94 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-INF-309-IMMUNO-GENERAL2
+## title
+General immunology: cells, tolerance, interferon and transplantation
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Immunology
+## summary
+This article groups a second set of general-immunology facts tested by the paper: innate effector cells (neutrophils are the main innate defence against fungi; eosinophils do not kill tumour cells non-specifically), cell-mediated immunity (Th1-driven macrophage activation clears intracellular bacteria), lymphocyte biology (naive lymphocytes recirculate via blood to lymph nodes), interferon (type I interferon acts mainly by a paracrine antiviral effect), complement effector functions (complement does not neutralize toxins), tolerance (induced more easily prenatally) and transplantation immunology (the isograft; HLA typing by microlymphocytotoxicity dye exclusion).
+## sections
+### Definition
+The cluster covers immune cells and their functions, the induction of tolerance, interferon action, complement effector roles and the basics of transplantation immunology as examined in 309 INF.
+### Mechanism
+Neutrophils phagocytose and kill fungi; eosinophils fight helminths and allergy but do not kill tumour cells non-specifically. Th1 cells secrete IFN-gamma to activate macrophages against intracellular bacteria. Naive lymphocytes leave bone marrow/thymus and recirculate through blood to lymph nodes. Type I interferon acts paracrine to induce an antiviral state in neighbouring cells. Complement recruits phagocytes, opsonizes, lyses and clears immune complexes. Tolerance is favoured by antigen encounter in immature (prenatal) life. Grafts are classified by genetic relationship, and HLA typing uses complement-dependent lysis read by vital-dye exclusion.
+### Key determinants
+Discriminators tested here: neutrophils (antifungal) versus other cells; eosinophil functions minus tumour killing; Th1/macrophage (intracellular) versus antibody/complement (extracellular); naive (mature, recirculating) versus immature/memory cells; type I interferon (paracrine, innate) versus IFN-gamma effects; complement functions minus toxin neutralization; prenatal tolerance induction; isograft versus autograft/allograft/xenograft; and the lymphocytotoxicity typing test versus the mixed lymphocyte reaction.
+### Clinical significance
+These facts explain susceptibility to fungal infection in neutropenia, the cell-mediated basis of defence against organisms such as mycobacteria, the rationale of HLA matching and tolerance induction in transplantation, and the therapeutic use of interferons.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (wrong innate antifungal cell; misattributed eosinophil/complement functions; extracellular vs intracellular defence; naive-cell misconceptions; interferon type confusion; tolerance conditions; graft classification; typing test vs MLR).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity
+## subtopic
+General immunology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## related_concepts
+CON-INF-1D3FC3A2BE2D56
+CON-INF-2B4CEE715CB615
+CON-INF-1A1ADD084AFE01
+CON-INF-1AB0597AD89F32
+CON-INF-7FAE63093EEC9F
+CON-INF-4254140D744A3A
+CON-INF-DEDFC58AE00EC9
+CON-INF-19D83D7149F179
+CON-INF-1DA6031DCFBA4C
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+6

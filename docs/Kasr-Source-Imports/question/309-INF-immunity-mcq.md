@@ -1063,3 +1063,958 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-16
+## title
+Most important cell in innate immunity to fungi
+## question
+Which is the most important cell involved in innate immunity to fungi?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Cytotoxic T cell
+## explanation_a
+Incorrect. Cytotoxic T cells belong to adaptive immunity and act mainly against virus-infected and tumour cells.
+## answer_b
+Eosinophil
+## explanation_b
+Incorrect. Eosinophils are directed chiefly against helminths and in allergic reactions, not fungi.
+## answer_c
+Antibody
+## explanation_c
+Incorrect. Antibody is an adaptive, not innate, effector (and not a cell).
+## answer_d
+Neutrophil
+## explanation_d
+Correct. Neutrophils are the most important innate cells against fungi; neutropenia or neutrophil dysfunction is the principal risk factor for invasive fungal infection.
+## topic
+Immunology
+## subtopic
+Innate immunity
+## main_concept
+CON-INF-1D3FC3A2BE2D56
+## concept_ids
+CON-INF-1D3FC3A2BE2D56
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+48
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Innate immunity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify the neutrophil as the main innate defence against fungi.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q16 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-29
+## title
+Definition of an isograft
+## question
+What is meant by an isograft?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+A transplant from one part of the body to another
+## explanation_a
+Incorrect. A transplant from one part of the body to another in the same individual is an autograft.
+## answer_b
+A transplant from one person to a genetically identical person
+## explanation_b
+Correct. An isograft (syngeneic graft) is between genetically identical individuals - such as identical twins - so all histocompatibility antigens are shared and the graft is not rejected.
+## answer_c
+A transplant from one species to the same species
+## explanation_c
+Incorrect. A graft between genetically different members of the same species is an allograft.
+## answer_d
+A transplant from one species to another species
+## explanation_d
+Incorrect. A graft between different species is a xenograft.
+## topic
+Immunology
+## subtopic
+Transplantation immunology
+## main_concept
+CON-INF-2B4CEE715CB615
+## concept_ids
+CON-INF-2B4CEE715CB615
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+35
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Transplantation immunology
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Define an isograft as a graft between genetically identical individuals.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q29 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-31
+## title
+Correct statement regarding tolerance
+## question
+Regarding tolerance, which statement is CORRECT?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Induction of tolerance is easier in the prenatal period
+## explanation_a
+Correct. Tolerance is induced most easily when the antigen meets an immature immune system, so induction is easier in the prenatal (fetal/neonatal) period.
+## answer_b
+Administration of low doses of antigen usually tolerizes B cells
+## explanation_b
+Incorrect. Low doses of antigen preferentially tolerize T cells, not B cells.
+## answer_c
+Giving the antigen with an immunosuppressant inhibits the induction of tolerance
+## explanation_c
+Incorrect. Giving antigen together with an immunosuppressant favours, rather than inhibits, the induction of tolerance.
+## answer_d
+Particulate protein antigens are more tolerogenic than soluble ones
+## explanation_d
+Incorrect. Soluble antigens are more tolerogenic than particulate ones, which are more immunogenic.
+## topic
+Immunology
+## subtopic
+Tolerance
+## main_concept
+CON-INF-1A1ADD084AFE01
+## concept_ids
+CON-INF-1A1ADD084AFE01
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Tolerance
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that tolerance is induced more easily in the prenatal period.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q31 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-48
+## title
+Eosinophil functions — the exception
+## question
+All are functions of eosinophils EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Phagocytosis
+## explanation_a
+Incorrect (this is a function). Eosinophils have a limited but genuine phagocytic capacity.
+## answer_b
+Participation in allergic reactions
+## explanation_b
+Incorrect (this is a function). Eosinophils participate prominently in allergic (type I) reactions.
+## answer_c
+Non-specific killing of tumor cells
+## explanation_c
+Correct. This is the EXCEPTION: non-specific killing of tumour cells is a function of natural killer cells and activated macrophages, not eosinophils.
+## answer_d
+Defense against helminthic parasites
+## explanation_d
+Incorrect (this is a function). Defence against helminthic parasites is a hallmark eosinophil function.
+## topic
+Immunology
+## subtopic
+Innate immunity
+## main_concept
+CON-INF-1AB0597AD89F32
+## concept_ids
+CON-INF-1AB0597AD89F32
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Innate immunity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Recognise that non-specific tumour-cell killing is not an eosinophil function.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q48 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-54
+## title
+Main defence against intracellular bacteria
+## question
+The main protective immune response against intracellular bacteria is mediated by:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Complement activation
+## explanation_a
+Incorrect. Complement acts mainly against extracellular organisms and immune complexes.
+## answer_b
+Cytotoxic killing by natural killer cells
+## explanation_b
+Incorrect. NK-cell cytotoxicity targets virus-infected and tumour cells, not the clearance of intracellular bacteria.
+## answer_c
+Macrophage activation by Th-1 cells
+## explanation_c
+Correct. Th1 cells secrete interferon-gamma that activates infected macrophages, enhancing killing of the intracellular bacteria they harbour - the main protective response.
+## answer_d
+Increased expression of MHC-I molecules
+## explanation_d
+Incorrect. Increased MHC-I expression aids recognition of virus-infected cells by cytotoxic T cells, not the clearance of intracellular bacteria.
+## topic
+Immunology
+## subtopic
+Adaptive immunity
+## main_concept
+CON-INF-7FAE63093EEC9F
+## concept_ids
+CON-INF-7FAE63093EEC9F
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+58
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Adaptive immunity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that Th1-mediated macrophage activation clears intracellular bacteria.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q54 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-56
+## title
+Correct statement concerning naive lymphocytes
+## question
+Which of the following statements is correct concerning naïve lymphocytes?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+They are immature lymphocytes
+## explanation_a
+Incorrect. Naive lymphocytes are mature cells that have simply not yet met their antigen; they are not immature.
+## answer_b
+They leave primary lymphoid organs via blood to lymph nodes
+## explanation_b
+Correct. Naive lymphocytes leave the primary lymphoid organs (bone marrow, thymus) and recirculate via the blood to secondary lymphoid organs such as lymph nodes, where they may first meet antigen.
+## answer_c
+They can produce cytokines
+## explanation_c
+Incorrect. Naive cells produce little cytokine until they are activated; effector cells are the cytokine producers.
+## answer_d
+They are responsible for the immunological memory
+## explanation_d
+Incorrect. Immunological memory resides in memory cells, not naive lymphocytes.
+## topic
+Immunology
+## subtopic
+Lymphocytes
+## main_concept
+CON-INF-4254140D744A3A
+## concept_ids
+CON-INF-4254140D744A3A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Lymphocytes
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that naive lymphocytes recirculate via blood to lymph nodes.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q56 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-58
+## title
+Correct statement regarding type I interferon
+## question
+Which statement is correct regarding type I interferon?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+It is the most important specific antiviral defense mechanism
+## explanation_a
+Incorrect. Interferon is an innate, non-specific defence, not the most important specific (adaptive) antiviral mechanism.
+## answer_b
+Its antiviral action is mainly paracrine
+## explanation_b
+Correct. Type I interferon is released by an infected cell and acts mainly in a paracrine manner on neighbouring cells, inducing an antiviral state that resists infection.
+## answer_c
+It increases the expression of class II MHC molecules
+## explanation_c
+Incorrect. Increasing class II MHC expression is an action of IFN-gamma (type II interferon).
+## answer_d
+It acts by interference with viral assembly
+## explanation_d
+Incorrect. Interferon induces antiviral proteins that block viral protein synthesis/replication, not specifically viral assembly.
+## topic
+Immunology
+## subtopic
+Cytokines
+## main_concept
+CON-INF-DEDFC58AE00EC9
+## concept_ids
+CON-INF-DEDFC58AE00EC9
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Cytokines
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that type I interferon's antiviral action is mainly paracrine.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q58 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-59
+## title
+Consequences of complement activation — the exception
+## question
+Complement activation leads to the following EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Recruitment and activation of phagocytes
+## explanation_a
+Incorrect (this is a complement function). C5a recruits and activates phagocytes.
+## answer_b
+Opsonization
+## explanation_b
+Incorrect (this is a complement function). C3b opsonizes microbes for phagocytosis.
+## answer_c
+Clearance of immune complexes
+## explanation_c
+Incorrect (this is a complement function). Complement promotes solubilisation and clearance of immune complexes.
+## answer_d
+Neutralization of bacterial toxins
+## explanation_d
+Correct. This is the EXCEPTION: neutralization of bacterial toxins is an antibody function, not a function of complement.
+## topic
+Immunology
+## subtopic
+Complement
+## main_concept
+CON-INF-19D83D7149F179
+## concept_ids
+CON-INF-19D83D7149F179
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Complement system
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Recognise that toxin neutralization is not a function of complement.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q59 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-71
+## title
+HLA typing by lymphocytotoxicity test
+## question
+Which statement best describes HLA typing (lymphocytotoxicity test)?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Donor and recipient lymphocytes are mixed and incubated together
+## explanation_a
+Incorrect. Mixing donor and recipient lymphocytes and incubating them describes the mixed lymphocyte reaction, not the lymphocytotoxicity typing test.
+## answer_b
+Mismatching between donor and recipient antigens leads to cell proliferation
+## explanation_b
+Incorrect. Mismatch leading to proliferation is a feature of the mixed lymphocyte reaction.
+## answer_c
+Trypan blue dye is added to differentiate between dead and living cells
+## explanation_c
+Correct. In the complement-dependent microlymphocytotoxicity test, known antisera plus complement lyse cells bearing the corresponding HLA antigen, and a vital dye (trypan blue) is added so dead cells are distinguished from living ones.
+## answer_d
+Donor's lymphocytes should be irradiated prior to the test
+## explanation_d
+Incorrect. Irradiating one population (the stimulator) is part of the one-way mixed lymphocyte reaction, not the lymphocytotoxicity typing test.
+## topic
+Immunology
+## subtopic
+Transplantation immunology
+## main_concept
+CON-INF-1DA6031DCFBA4C
+## concept_ids
+CON-INF-1DA6031DCFBA4C
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Single best answer
+## cognitive_effort
+High
+## cognitive_effort_score
+0.65
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+68
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Transplantation immunology
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-GENERAL2
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Describe the microlymphocytotoxicity HLA-typing test read by dye exclusion.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q71 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.

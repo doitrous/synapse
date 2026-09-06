@@ -1121,3 +1121,1003 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-1D3FC3A2BE2D56
+## label
+Neutrophils are the main innate defence against fungi
+## canonical_key
+immunology.neutrophils-main-innate-defense-against-fungi
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neutrophils are the most important innate effector cells against fungi: they phagocytose and kill fungal elements, and their deficiency (neutropenia) or dysfunction is the principal predisposing factor for invasive fungal infection.
+## explicit_objective
+Identify the neutrophil as the most important cell of innate immunity to fungi.
+## pitfalls
+Cytotoxic T cells act in adaptive antiviral/antitumour immunity, eosinophils target helminths, and antibody is an adaptive (not innate) effector; innate antifungal defence rests mainly on neutrophils.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Innate immunity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Innate immunity
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-2B4CEE715CB615
+## label
+An isograft is a graft between genetically identical individuals
+## canonical_key
+immunology.isograft-between-genetically-identical-individuals
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An isograft (syngeneic graft) is transplanted between genetically identical individuals - such as identical twins or inbred animals of the same strain - so donor and recipient share all histocompatibility antigens and the graft is not rejected.
+## explicit_objective
+Define an isograft as a transplant between genetically identical individuals.
+## pitfalls
+A graft from one part of the body to another in the same person is an autograft; between genetically different members of the same species is an allograft; between species is a xenograft. The isograft is the genetically identical case.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Transplantation immunology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Transplantation immunology
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-1A1ADD084AFE01
+## label
+Immunological tolerance is induced more easily in the prenatal period
+## canonical_key
+immunology.tolerance-induced-more-easily-in-prenatal-period
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Immunological tolerance - specific unresponsiveness to an antigen - is most readily induced when the antigen is encountered by the immature immune system, so induction is easier in the prenatal (fetal/neonatal) period than in the mature adult.
+## explicit_objective
+State that tolerance is induced more easily in the prenatal period.
+## pitfalls
+Low doses of antigen tend to tolerize T cells (not simply B cells), giving antigen with an immunosuppressant favours (not inhibits) tolerance, and soluble antigens are more tolerogenic than particulate ones; the key fact is that immaturity (prenatal life) favours tolerance.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Tolerance
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Tolerance
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-1AB0597AD89F32
+## label
+Eosinophils do not perform non-specific killing of tumour cells
+## canonical_key
+immunology.eosinophil-functions-exclude-nonspecific-tumor-cell-killing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The functions of eosinophils include participation in allergic reactions, defence against helminthic parasites and a limited phagocytic capacity; non-specific killing of tumour cells is a function of natural killer cells and activated macrophages, not eosinophils.
+## explicit_objective
+Recognise that non-specific tumour-cell killing is NOT an eosinophil function.
+## pitfalls
+Allergic-reaction participation and anti-helminth defence are genuine eosinophil functions; the odd-one-out is non-specific tumour-cell killing, which belongs to NK cells/macrophages.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Innate immunity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Innate immunity
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-7FAE63093EEC9F
+## label
+Intracellular bacteria are cleared by Th1-mediated macrophage activation
+## canonical_key
+immunology.intracellular-bacteria-cleared-by-th1-macrophage-activation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The main protective response against intracellular bacteria is cell-mediated: Th1 cells secrete interferon-gamma that activates infected macrophages, enhancing their killing of the organisms they harbour.
+## explicit_objective
+State that macrophage activation by Th1 cells is the main defence against intracellular bacteria.
+## pitfalls
+Complement and antibody act mainly on extracellular organisms, and NK-cell cytotoxicity and MHC-I up-regulation target virus-infected cells; intracellular bacteria are handled by Th1-driven macrophage activation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Adaptive immunity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Adaptive immunity
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-4254140D744A3A
+## label
+Naive lymphocytes travel via the blood from primary lymphoid organs to lymph nodes
+## canonical_key
+immunology.naive-lymphocytes-migrate-via-blood-to-lymph-nodes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Naive lymphocytes are mature, antigen-inexperienced cells that leave the primary lymphoid organs (bone marrow, thymus) and recirculate via the blood to secondary lymphoid organs such as lymph nodes, where they may first encounter their antigen.
+## explicit_objective
+State that naive lymphocytes leave the primary lymphoid organs via the blood to reach lymph nodes.
+## pitfalls
+Naive lymphocytes are mature (not immature), do not carry immunological memory (that is memory cells), and produce little cytokine until activated; their defining behaviour is recirculation via blood to secondary lymphoid organs.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Lymphocytes
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Lymphocytes
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-DEDFC58AE00EC9
+## label
+Type I interferon exerts its antiviral action mainly by a paracrine effect
+## canonical_key
+immunology.type-i-interferon-antiviral-action-is-paracrine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Type I interferons (alpha and beta) are secreted by a virus-infected cell and act mainly in a paracrine fashion on neighbouring cells, inducing an antiviral state (synthesis of proteins that block viral replication) so that surrounding cells resist infection.
+## explicit_objective
+State that type I interferon's antiviral action is mainly paracrine.
+## pitfalls
+Interferon is an innate, non-specific defence (not the most important specific one), increasing class II MHC is an IFN-gamma (type II) effect, and its action is to block viral protein synthesis/replication rather than assembly specifically; the key feature is its paracrine action.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Cytokines
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Cytokines
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-19D83D7149F179
+## label
+Complement activation does not neutralize bacterial toxins
+## canonical_key
+immunology.complement-functions-exclude-toxin-neutralization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Complement activation recruits and activates phagocytes (C5a), opsonizes microbes (C3b), lyses cells (membrane attack complex) and clears immune complexes; neutralization of bacterial toxins is an antibody function, not a complement function.
+## explicit_objective
+Recognise that toxin neutralization is NOT a function of complement.
+## pitfalls
+Phagocyte recruitment, opsonization and immune-complex clearance are genuine complement functions; the odd-one-out is toxin neutralization, which is achieved by specific antibody.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Complement
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Complement system
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-1DA6031DCFBA4C
+## label
+HLA typing by microlymphocytotoxicity uses dye exclusion to detect dead cells
+## canonical_key
+immunology.hla-typing-microlymphocytotoxicity-dye-exclusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the complement-dependent microlymphocytotoxicity (HLA typing) test, antisera of known specificity plus complement are added to the cells; if the corresponding HLA antigen is present the cells are killed, and a vital dye (e.g. trypan blue/eosin) is added so that dead cells take up the dye and are distinguished from living cells.
+## explicit_objective
+Describe the microlymphocytotoxicity HLA-typing test as using dye exclusion to identify dead (antigen-positive) cells.
+## pitfalls
+Mixing donor and recipient lymphocytes and reading proliferation describes the mixed lymphocyte reaction, and irradiating stimulator cells is part of that assay; the lymphocytotoxicity typing test is read by adding trypan blue to differentiate dead from living cells.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Transplantation immunology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Transplantation immunology
+## article_ids
+ART-INF-309-IMMUNO-GENERAL2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
