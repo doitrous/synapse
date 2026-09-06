@@ -335,3 +335,40 @@ Q61.C  Q62.D  Q63.D  Q64.D  Q65.D  Q66.B  Q67.B  Q68.D  Q69.C  Q70.B  Q71.A
 #  (198 answers, key p.4-5), Ch.8-15.
 # STILL DEFERRED for adjudication (do NOT author blind, carried forward): Ch.5 vignettes Q32/34/35/37-47/59;
 #  Ch.4 Q50-54 + Q55/57/58/59/61/62/64/65/66/67; Ch.3 vignettes Q59-76 + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49.
+
+# ===================================================================
+# TRANCHE 10 (2026-09-06): Chapter 6 The glaucomas Q9-35 authored
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.3-4
+# Ch.6 table (70 answers; only Q36 omitted). Each authored key RE-VERIFIED against the bank option
+# text (bank pp.57-60 = PDF p.57-60). 25 authored / 2 held / 0 excluded in this slice.
+# AUTHORED (25) clean single-best: Q9.B Q10.C Q11.B Q12.A Q13.D Q14.C Q15.C Q16.D Q17.A Q18.D
+#  Q19.C Q20.A Q21.B Q22.C Q23.B Q24.A Q25.B Q27.B Q28.C Q29.B Q30.B Q32.B Q33.A Q34.D Q35.D
+# HELD (2, authored around, not emitted):
+#  Q26 - printed key marks anterior lens dislocation (b) as LEAST likely lens-induced glaucoma,
+#        contradicting option text (anterior dislocation causes pupil-block glaucoma; posterior
+#        subcapsular cataract does not); key-vs-option contradiction, held (never guess). Key Q26.B.
+#  Q31 - neovascular-glaucoma stem has TWO false options: keyed (a) CRAO (should be CRVO) AND
+#        (d) miotics useful (false in NVG); not single-best as printed. Key Q31.A.
+#  Q36 - answer-key omits the Q36 row; no printed key, held (never guess).
+# Cross-check notes (authored key -> option chosen, verified vs stem):
+#  Q9 B bitemporal hemianopia (chiasmal, not glaucomatous); Q10 C fluorescein angiography (not a glaucoma test);
+#  Q11 B optic-disc analysis mandatory (POAG asymptomatic); Q12 A phacolytic (hypermature cataract);
+#  Q13 D entropion (a lid disorder, not a secondary-glaucoma cause); Q14 C vessels sheathed (not a disc sign);
+#  Q15 C topical steroids (raise IOP, not a treatment); Q16 D untreated progressive glaucoma -> blindness;
+#  Q17 A angle of anterior chamber (aqueous drainage); Q18 D fluorescein angiography (not used in diagnosis);
+#  Q19 C phacomorphic (intumescent cataract); Q20 A secondary (steroid-induced) glaucoma (child on steroids);
+#  Q21 B trabecular meshwork is in the ANTERIOR- not posterior-chamber angle (false statement);
+#  Q22 C male gender (not a POAG risk factor); Q23 B cataract extraction (phacolytic treatment);
+#  Q24 A central retinal vein thrombosis (neovascular glaucoma); Q25 B anti-prostaglandin (drug is a PG agonist);
+#  Q27 B optic-disc cupping (OAG diagnosis); Q28 C intumescent cataract (secondary angle closure);
+#  Q29 B asymptomatic in early stages (POAG); Q30 B steroids (drops causing glaucoma);
+#  Q32 B trabeculectomy (mitomycin-C adjunct); Q33 A phacomorphic (an intumescent- not hypermature-cataract disease);
+#  Q34 D no perception of light (absolute glaucoma); Q35 D phacomorphic (intumescent cataract).
+# Concepts: 10 new on DIS-OPH-T03 + 7 reused (5 existing Ch.6 glaucoma + 2 Ch.1/Ch.4 for coverage:
+#  CON-MUL-CEC20322850905 aqueous drainage Q17/Q21, CON-MUL-87C1044D003495 intumescent angle-closure Q28).
+# REMAINING for next tranche: Ch.6 Q37-71 (Q37-45, Q56, Q58-60, Q62-71 clean single-best; Q46-55/Q57/Q61/Q66
+#  multi-statement vignettes for adjudication; Q41 two-option True/False below floor; Q36 no-key hold),
+#  then Ch.7 The red eye (198-answer key p.4-5), Ch.8-15.
+# STILL DEFERRED for adjudication (carried forward): Ch.5 vignettes Q32/34/35/37-47/59; Ch.4 Q50-54 +
+#  Q55/57/58/59/61/62/64/65/66/67; Ch.3 vignettes Q59-76 + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49; Ch.6 Q26/Q31.
