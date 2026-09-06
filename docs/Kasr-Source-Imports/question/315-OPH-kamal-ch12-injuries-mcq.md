@@ -3829,3 +3829,395 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-58
+## title
+Pigment ring imprinted on the anterior lens capsule
+## question
+Circle of iris pigment on the anterior lens capsule due to impression of the pupillary border of iris on lens is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Weis ring.
+## explanation_a
+Incorrect. A Weiss ring is a vitreous opacity after posterior vitreous detachment.
+## answer_b
+Vossius ring.
+## explanation_b
+Correct. A Vossius ring is the pupillary-margin pigment imprint on the anterior lens capsule from blunt trauma.
+## answer_c
+Glaucomflecken.
+## explanation_c
+Incorrect. Glaukomflecken are lens opacities after acute angle-closure glaucoma.
+## answer_d
+Band keratopathy.
+## explanation_d
+Incorrect. Band keratopathy is calcium deposition in the cornea.
+## topic
+Ophthalmology
+## subtopic
+Traumatic cataract
+## main_concept
+CON-MUL-2ACB7CAC5BDFA3
+## concept_ids
+CON-MUL-2ACB7CAC5BDFA3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the Vossius ring as the pupillary-margin pigment imprint on the lens.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-59
+## title
+When to avoid pupil dilation in trauma — EXCEPT
+## question
+Pupillary dilation and ophthalmoscopy are avoided in the following cases of trauma EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Open eye injury.
+## explanation_a
+Incorrect (dilation is avoided). An open globe should not be dilated or manipulated.
+## answer_b
+Cases of head trauma.
+## explanation_b
+Incorrect (dilation is avoided). Pupil signs must be preserved in head trauma.
+## answer_c
+Cases with lost red reflex.
+## explanation_c
+Correct. A lost red reflex mandates a dilated fundus examination to find the cause; it is the exception.
+## answer_d
+The presence of hyphema.
+## explanation_d
+Incorrect (dilation is avoided). Hyphema risks rebleed, so dilation is avoided.
+## topic
+Ophthalmology
+## subtopic
+Trauma assessment
+## main_concept
+CON-MUL-D374E2D0546835
+## concept_ids
+CON-MUL-D374E2D0546835
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify a lost red reflex as the situation where dilation is required, not avoided.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-60
+## title
+Sympathetic ophthalmia — timing
+## question
+Sympathetic ophthalmia:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Never occurs after years of trauma.
+## explanation_a
+Incorrect. It can occur even years after the injury.
+## answer_b
+May occur as early as 4 weeks after trauma.
+## explanation_b
+Correct. Sympathetic ophthalmia may begin as early as about four weeks after penetrating trauma.
+## answer_c
+Symptoms are unilateral.
+## explanation_c
+Incorrect. It is a bilateral disease.
+## answer_d
+Uveal tissues are usually not involved.
+## explanation_d
+Incorrect. It is a granulomatous uveitis with uveal involvement.
+## topic
+Ophthalmology
+## subtopic
+Sympathetic ophthalmia
+## main_concept
+CON-MUL-158ABF60C8339C
+## concept_ids
+CON-MUL-158ABF60C8339C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that sympathetic ophthalmia may occur as early as four weeks after trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-62
+## title
+Effect of looking directly at the sun
+## question
+Looking directly at the sun may result in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Cataract.
+## explanation_a
+Incorrect. Sun-gazing does not directly cause cataract.
+## answer_b
+Photophthalmia.
+## explanation_b
+Incorrect. Photophthalmia is a UV corneal burn (welding/snow), not from sun-gazing focus.
+## answer_c
+Primary optic atrophy.
+## explanation_c
+Incorrect. Primary optic atrophy has other causes.
+## answer_d
+Burn of the central retina.
+## explanation_d
+Correct. Focused sunlight burns the central retina (solar retinopathy).
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## main_concept
+CON-MUL-E358793E4D1F44
+## concept_ids
+CON-MUL-E358793E4D1F44
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a central retinal burn as the result of gazing at the sun.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.176); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
