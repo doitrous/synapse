@@ -28995,3 +28995,337 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-75C099A5BBA1F1
+## label
+Retinal detachment characteristically lowers the intraocular pressure
+## canonical_key
+ophthalmology.retinal-detachment.lowers-intraocular-pressure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a rhegmatogenous (simple) retinal detachment the intraocular pressure is characteristically low, not raised, because the detached retina reduces aqueous production and subretinal fluid escapes through the retinal pigment epithelium. A myopic eye, a retinal tear and a history of trauma are the other typical features, and the fundal (red) reflex is grey.
+## explicit_objective
+State that intraocular pressure is typically low in a rhegmatogenous retinal detachment, so a raised pressure is not a feature.
+## pitfalls
+Assuming a detachment raises the intraocular pressure; the pressure is usually low, and a raised pressure points away from a simple rhegmatogenous detachment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal detachment
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BB0BB5DCBD9886
+## label
+A cilioretinal artery can spare central vision in central retinal artery occlusion
+## canonical_key
+ophthalmology.central-retinal-artery-occlusion.cilioretinal-artery-macular-sparing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A cilioretinal artery is a branch of the ciliary (choroidal) circulation, present in a minority of eyes, that supplies part of the macula independently of the central retinal artery. When it is present, an occlusion of the central retinal artery can spare the central macula, so the patient keeps central vision despite the surrounding infarct.
+## explicit_objective
+Explain macular sparing in central retinal artery occlusion by the presence of a patent cilioretinal artery.
+## pitfalls
+Attributing preserved central vision to patent retinal veins or arteries; it is the cilioretinal artery, arising from the ciliary circulation, that maintains the central field.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal vascular occlusion
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2FD59A9ABBEF1E
+## label
+Panretinal photocoagulation treats proliferative diabetic retinopathy
+## canonical_key
+ophthalmology.proliferative-diabetic-retinopathy.panretinal-photocoagulation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Proliferative diabetic retinopathy is treated with panretinal (scatter) laser photocoagulation, which ablates ischaemic peripheral retina, lowers the VEGF drive and causes regression of the retinal and disc new vessels. Anti-VEGF injections are an adjunct (not contraindicated), and macular oedema remains common in these eyes.
+## explicit_objective
+Identify panretinal photocoagulation as the laser treatment that regresses new vessels in proliferative diabetic retinopathy.
+## pitfalls
+Believing anti-VEGF agents are contraindicated when new vessels are present, or that macular oedema is uncommon in proliferative disease; both are wrong.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

@@ -3867,3 +3867,1253 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-32
+
+## title
+Sign not characteristic of a simple retinal detachment
+
+## question
+Simple retinal detachment is characterized by the following criteria, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Low intraocular pressure
+
+## explanation_a
+Incorrect (a true feature). A rhegmatogenous (simple) detachment characteristically lowers the intraocular pressure.
+
+## answer_b
+High intraocular pressure
+
+## explanation_b
+Correct. This is the false criterion. In a simple (rhegmatogenous) retinal detachment the intraocular pressure is characteristically LOW, not high, because aqueous production falls and subretinal fluid drains across the pigment epithelium. A raised pressure would argue against a simple detachment.
+
+## answer_c
+Presence of retinal tear
+
+## explanation_c
+Incorrect (a true feature). A retinal break/tear is the defining lesion of a rhegmatogenous detachment.
+
+## answer_d
+Eye is usually myopic
+
+## explanation_d
+Incorrect (a true feature). Rhegmatogenous detachment is commoner in myopic eyes with lattice degeneration.
+
+## answer_e
+History of trauma may be present
+
+## explanation_e
+Incorrect (a true feature). Blunt or penetrating trauma can precipitate a retinal break and detachment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-75C099A5BBA1F1
+
+## concept_ids
+CON-MUL-75C099A5BBA1F1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that intraocular pressure is low, not high, in a simple retinal detachment.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.115); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-33
+
+## title
+False statement about retinal detachment
+
+## question
+In retinal detachment (RD), the following are true, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The red reflex is always grey whatever the size of the pupil or the position of gaze
+
+## explanation_a
+Incorrect (a true statement). A detached retina gives a grey fundal reflex.
+
+## answer_b
+In rhegmatogenous RD the retina is corrugated, mobile, with wavy vessels
+
+## explanation_b
+Incorrect (a true statement). A rhegmatogenous detachment is convex, corrugated and mobile with undulating vessels.
+
+## answer_c
+The retina is anteriorly convex in exudative RD
+
+## explanation_c
+Incorrect (a true statement). An exudative detachment is smooth and convex, and the subretinal fluid shifts with gravity.
+
+## answer_d
+IOP may be elevated
+
+## explanation_d
+Correct. This is the false statement. The intraocular pressure in a retinal detachment is characteristically LOW, not elevated; a raised pressure argues against a simple detachment. The other three (grey reflex, corrugated mobile rhegmatogenous retina, convex exudative retina) are all true.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-75C099A5BBA1F1
+
+## concept_ids
+CON-MUL-75C099A5BBA1F1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recall that intraocular pressure is low in retinal detachment, so an elevated pressure is not a feature.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.115); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-34
+
+## title
+Painless monocular vision loss in a woman on oral contraceptives
+
+## question
+A 30-year-old woman on oral contraceptive pills for 3 years developed rapid, marked, painless diminution of vision in one eye. The most probable diagnosis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Central retinal artery occlusion
+
+## explanation_a
+Incorrect. Arterial occlusion causes sudden painless loss too, but it is embolic/atherosclerotic in older patients, with a pale retina and cherry-red spot, not the classic complication of the pill.
+
+## answer_b
+Central retinal vein occlusion
+
+## explanation_b
+Correct. Oral contraceptives create a hypercoagulable (prothrombotic) state, and central retinal vein occlusion is the classic retinal venous thrombosis in a young woman on the pill, presenting with sudden painless unilateral visual loss. The fundus shows dilated tortuous veins and scattered haemorrhages.
+
+## answer_c
+Branch retinal vein occlusion
+
+## explanation_c
+Incorrect. A branch occlusion causes a sectoral, usually less marked field/visual loss, not the rapid global drop described.
+
+## answer_d
+Acute angle-closure glaucoma
+
+## explanation_d
+Incorrect. Angle-closure produces a painful red eye with haloes, not a painless loss of vision.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular occlusion
+
+## main_concept
+CON-MUL-6C2A7B0839154C
+
+## concept_ids
+CON-MUL-6C2A7B0839154C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Link oral-contraceptive-induced hypercoagulability to central retinal vein occlusion as the cause of painless monocular visual loss.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.115); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-36
+
+## title
+Anatomical plane of a retinal detachment
+
+## question
+Retinal detachment is a result of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Separation between the external limiting membrane and the outer nuclear layer
+
+## explanation_a
+Incorrect. This is an intraretinal plane, not the plane of a detachment.
+
+## answer_b
+Separation between the outer nuclear layer and the outer plexiform layer
+
+## explanation_b
+Incorrect. This lies within the neurosensory retina and is not where a detachment occurs.
+
+## answer_c
+Separation between the RPE and the neurosensory retina
+
+## explanation_c
+Correct. A retinal detachment is separation of the neurosensory retina from the underlying retinal pigment epithelium (RPE), with subretinal fluid collecting in this potential space. The embryological cleft between the two is why this is the plane that separates.
+
+## answer_d
+Separation between the outer plexiform layer and the inner nuclear layer
+
+## explanation_d
+Incorrect. This is another intraretinal plane, not the detachment plane.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-7CC8577EE7523B
+
+## concept_ids
+CON-MUL-7CC8577EE7523B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify the plane of a retinal detachment as between the neurosensory retina and the RPE.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.115); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-37
+
+## title
+Cause not responsible for vision loss in diabetic retinopathy
+
+## question
+Marked drop of vision in patients suffering from diabetic retinopathy is due to all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Diabetic macular edema
+
+## explanation_a
+Incorrect (a genuine cause). Macular oedema is the commonest cause of visual loss in diabetic retinopathy.
+
+## answer_b
+Tractional retinal detachment affecting the macula
+
+## explanation_b
+Incorrect (a genuine cause). Fibrovascular traction can detach the macula in advanced proliferative disease.
+
+## answer_c
+Vitreous hemorrhage
+
+## explanation_c
+Incorrect (a genuine cause). Bleeding from new vessels into the vitreous causes sudden visual loss.
+
+## answer_d
+Retinal drusens
+
+## explanation_d
+Correct. This is the odd one out: drusen are deposits of age-related macular degeneration, not a feature of diabetic retinopathy, so they do not explain visual loss in a diabetic. The other three (macular oedema, tractional detachment, vitreous haemorrhage) are all true diabetic causes.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-FC03374F08ABBA
+
+## concept_ids
+CON-MUL-FC03374F08ABBA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Separate the causes of diabetic visual loss from drusen, which belong to age-related macular degeneration.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.115); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-38
+
+## title
+Macular sparing in central retinal artery occlusion
+
+## question
+In some patients with central retinal artery occlusion the central visual field may be spared. This may be explained by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Patent retinal veins
+
+## explanation_a
+Incorrect. Patent veins do not maintain the arterial supply of the macula.
+
+## answer_b
+Patent retinal arteries
+
+## explanation_b
+Incorrect. The occluded vessel is the central retinal artery itself, so other retinal arteries do not explain the sparing.
+
+## answer_c
+Patent cilioretinal artery
+
+## explanation_c
+Correct. A cilioretinal artery, present in a minority of eyes, arises from the ciliary (choroidal) circulation and supplies part of the macula independently of the central retinal artery. When present, it keeps the central macula perfused during a central retinal artery occlusion, sparing central vision.
+
+## answer_d
+Patent external carotid artery
+
+## explanation_d
+Incorrect. The external carotid does not supply the retina; the ocular supply is from the internal carotid via the ophthalmic artery.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular occlusion
+
+## main_concept
+CON-MUL-BB0BB5DCBD9886
+
+## concept_ids
+CON-MUL-BB0BB5DCBD9886
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Cause and effect
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+56
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Explain central-field sparing in central retinal artery occlusion by a patent cilioretinal artery.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.116); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-40
+
+## title
+False statement about retinal vein occlusion
+
+## question
+Regarding retinal vein occlusion, all of the following are true, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hypertension is a common risk factor
+
+## explanation_a
+Incorrect (a true statement). Systemic hypertension is a leading risk factor for retinal vein occlusion.
+
+## answer_b
+Macular edema can be a complication
+
+## explanation_b
+Incorrect (a true statement). Macular oedema is a common cause of visual loss in vein occlusion.
+
+## answer_c
+Fundus examination shows attenuated retinal vessels and pale disc
+
+## explanation_c
+Correct. This is the false statement: attenuated (thin) arterioles and a pale disc describe arterial occlusion or optic atrophy. A vein occlusion shows DILATED, tortuous veins with flame-shaped and dot-blot haemorrhages, not attenuated vessels.
+
+## answer_d
+Neovascular glaucoma is a possible complication
+
+## explanation_d
+Incorrect (a true statement). Ischaemic vein occlusion can lead to rubeosis and neovascular glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular occlusion
+
+## main_concept
+CON-MUL-C936EF1E19FD32
+
+## concept_ids
+CON-MUL-C936EF1E19FD32
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+53
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Distinguish the dilated tortuous veins of a vein occlusion from the attenuated vessels and pale disc of arterial disease.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.116); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-41
+
+## title
+Cause of exudative retinal detachment
+
+## question
+Causes of exudative retinal detachment include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Retinal breaks
+
+## explanation_a
+Incorrect. A retinal break causes a rhegmatogenous detachment, not an exudative one.
+
+## answer_b
+Retinopathy of prematurity
+
+## explanation_b
+Incorrect. Retinopathy of prematurity causes fibrovascular traction, i.e. a tractional detachment.
+
+## answer_c
+Penetrating trauma
+
+## explanation_c
+Incorrect. Penetrating trauma causes a rhegmatogenous or tractional detachment through breaks and fibrosis.
+
+## answer_d
+Choroidal melanoma
+
+## explanation_d
+Correct. A choroidal melanoma (like other tumours and inflammatory/vascular leakage) produces subretinal fluid without a break or traction, i.e. an exudative (serous) retinal detachment. The other options work through breaks or traction.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-634453721573C2
+
+## concept_ids
+CON-MUL-634453721573C2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify a choroidal melanoma as a cause of exudative retinal detachment, distinct from rhegmatogenous and tractional causes.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.116); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-44
+
+## title
+Management of proliferative diabetic retinopathy
+
+## question
+Regarding this patient, which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A 60-year-old man with diabetes mellitus for the last 20 years presents with bilateral retinal haemorrhages and exudates, with neovascularization on the optic disc.
+
+## correct_answer
+A
+
+## answer_a
+Argon laser pan-retinal photocoagulation can help regression of the neovessels
+
+## explanation_a
+Correct. This eye has proliferative diabetic retinopathy (new vessels on the disc). Argon laser panretinal (scatter) photocoagulation ablates ischaemic peripheral retina, lowers the VEGF drive and causes the new vessels to regress. It is the standard treatment of proliferative disease.
+
+## answer_b
+Macular edema is not common in this case
+
+## explanation_b
+Incorrect. Macular oedema is common in long-standing diabetic retinopathy and is the leading cause of visual loss.
+
+## answer_c
+Anti-VEGF are contraindicated in presence of neovessels
+
+## explanation_c
+Incorrect. Anti-VEGF injections are used (as an adjunct to laser) precisely because there are new vessels; they are not contraindicated.
+
+## answer_d
+Ultrasonography is essential for diagnosis in this case
+
+## explanation_d
+Incorrect. The retina is directly visible on fundoscopy here, so B-scan ultrasonography is not needed; it is reserved for eyes with opaque media.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-2FD59A9ABBEF1E
+
+## concept_ids
+CON-MUL-2FD59A9ABBEF1E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Select panretinal photocoagulation to regress new vessels in proliferative diabetic retinopathy, and recognise anti-VEGF as an adjunct.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.117); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
