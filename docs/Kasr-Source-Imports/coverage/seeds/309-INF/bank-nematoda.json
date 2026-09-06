@@ -320,6 +320,266 @@
       "main_concept": "CON-INF-1AAC26110CD919", "concept_ids": ["CON-INF-1AAC26110CD919"],
       "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
       "learning_objective": "Identify the filariform larva as the infective stage of Ancylostoma duodenale."
+    },
+    {
+      "key": "q21",
+      "id": "QST-KASR309INF-BANK-NEMATODA-21",
+      "page": 9,
+      "title": "Chronic diarrhoea after eating undercooked fish",
+      "question": "A patient presenting with chronic diarrhoea and a history of eating improperly cooked whole infected fish may be infected with:",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Echinococcus granulosus",
+        "C": "Ascaris lumbricoides",
+        "D": "Capillaria philippinensis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Enterobius vermicularis is acquired by faecal-oral ingestion of eggs and causes perianal pruritus, not a fish-borne chronic diarrhoea.",
+        "B": "Incorrect. Echinococcus granulosus is acquired from dog faeces and forms hydatid cysts in the liver/lung; it is not fish-borne and does not cause chronic diarrhoea.",
+        "C": "Incorrect. Ascaris lumbricoides is acquired by swallowing embryonated eggs from soil, not from fish, and causes obstruction and malnutrition rather than fish-linked chronic diarrhoea.",
+        "D": "Correct. Capillaria philippinensis is acquired by eating raw or improperly cooked infected freshwater fish that harbour the larvae. In the small intestine the females are larviparous and multiply by internal autoinfection, so the worm burden climbs and produces a severe, chronic, protein-losing enteropathy with watery diarrhoea, malabsorption and wasting. The history of eating undercooked whole fish followed by chronic diarrhoea therefore points to intestinal capillariasis."
+      },
+      "main_concept": "CON-INF-5FE99BA373F17F",
+      "concept_ids": [
+        "CON-INF-5FE99BA373F17F"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Capillaria philippinensis",
+      "learning_objective": "Recognise intestinal capillariasis (Capillaria philippinensis) in a patient with chronic diarrhoea after eating undercooked freshwater fish."
+    },
+    {
+      "key": "q22",
+      "id": "QST-KASR309INF-BANK-NEMATODA-22",
+      "page": 9,
+      "title": "Risk of walking barefoot",
+      "question": "Walking barefooted poses a risk of acquiring:",
+      "options": {
+        "A": "Trichostrongyliasis",
+        "B": "Visceral larva migrans",
+        "C": "Ancylostomiasis",
+        "D": "Intestinal capillariasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus is acquired by swallowing larvae on contaminated water or plants (faecal-oral), not by skin penetration of bare feet.",
+        "B": "Incorrect. Visceral larva migrans follows ingestion of Toxocara eggs (from soil contaminated by dog/cat faeces), not skin penetration while barefoot.",
+        "C": "Correct. Walking barefoot exposes the skin to soil containing infective filariform larvae of the hookworm Ancylostoma duodenale (and Necator), which actively penetrate intact skin, typically of the feet. From the skin they enter the circulation, migrate through the lungs and mature in the small intestine. Because transmission depends on skin contact with contaminated soil, wearing footwear is a simple preventive measure and going barefoot is the classic risk for ancylostomiasis.",
+        "D": "Incorrect. Intestinal capillariasis is acquired by eating infected freshwater fish, not by skin penetration when barefoot."
+      },
+      "main_concept": "CON-INF-1AAC26110CD919",
+      "concept_ids": [
+        "CON-INF-1AAC26110CD919"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
+      "learning_objective": "Recognise walking barefoot as the risk for hookworm (ancylostomiasis) acquired by filariform-larva skin penetration."
+    },
+    {
+      "key": "q23",
+      "id": "QST-KASR309INF-BANK-NEMATODA-23",
+      "page": 9,
+      "title": "Disseminated infection in AIDS",
+      "question": "Disseminated systemic infection in an AIDS patient is reported with:",
+      "options": {
+        "A": "Trichostrongyliasis",
+        "B": "Enterobiasis",
+        "C": "Ancylostomiasis",
+        "D": "Strongyloidiasis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus cannot autoinfect and remains a mild intestinal infection; it does not disseminate in immunosuppression.",
+        "B": "Incorrect. Enterobius causes perianal pruritus and does not multiply within or disseminate through the host.",
+        "C": "Incorrect. Hookworm larvae complete their migration and mature in the gut without autoinfection, so ancylostomiasis does not cause disseminated systemic disease.",
+        "D": "Correct. Strongyloides stercoralis is the nematode that causes disseminated (hyperinfection) systemic disease in the immunosuppressed AIDS patient. Because it can complete internal autoinfection, it persists for years, and when cell-mediated immunity fails the autoinfective cycle accelerates uncontrollably so that filariform larvae spread from the gut throughout the body, carrying enteric bacteria to the lungs, brain and other organs. This disseminated strongyloidiasis is frequently fatal, which is why the worm must be sought and treated before immunosuppression."
+      },
+      "main_concept": "CON-INF-74438A0C646242",
+      "concept_ids": [
+        "CON-INF-74438A0C646242"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
+      "learning_objective": "Associate disseminated (hyperinfection) strongyloidiasis with the immunosuppressed or AIDS patient."
+    },
+    {
+      "key": "q24",
+      "id": "QST-KASR309INF-BANK-NEMATODA-24",
+      "page": 9,
+      "title": "Nematode infecting by skin penetration",
+      "question": "Which of the following parasites infects man by skin penetration?",
+      "options": {
+        "A": "Trichostrongylus colubriformis",
+        "B": "Enterobius vermicularis",
+        "C": "Trichuris trichiura",
+        "D": "Strongyloides stercoralis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Trichostrongylus colubriformis is acquired by swallowing infective larvae on contaminated plants or water, not by skin penetration.",
+        "B": "Incorrect. Enterobius vermicularis is acquired by ingesting eggs (and by retroinfection), not by larvae penetrating the skin.",
+        "C": "Incorrect. Trichuris trichiura is acquired by swallowing embryonated eggs from soil; there is no skin-penetration stage.",
+        "D": "Correct. Strongyloides stercoralis infects man when infective filariform larvae in the soil actively penetrate intact skin, exactly as hookworm larvae do. After penetrating the skin the larvae enter the circulation, migrate through the lungs, are swallowed and mature in the small intestine. This percutaneous route also underlies external autoinfection and the rapidly migrating skin track called larva currens, so skin penetration is the mode of infection for Strongyloides among the worms listed."
+      },
+      "main_concept": "CON-INF-C40504A90D83F9",
+      "concept_ids": [
+        "CON-INF-C40504A90D83F9"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
+      "learning_objective": "Identify Strongyloides stercoralis as the listed nematode that infects man by skin penetration."
+    },
+    {
+      "key": "q25",
+      "id": "QST-KASR309INF-BANK-NEMATODA-25",
+      "page": 9,
+      "title": "Cause of maldigestion in ascariasis",
+      "question": "Maldigestion is seen with ascariasis due to:",
+      "options": {
+        "A": "Multivitamin deficiency",
+        "B": "Secretion of anti-IgA blocking antibodies",
+        "C": "Presence of chronic malabsorption",
+        "D": "Secretion of anti-enzymes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Multivitamin deficiency is a consequence of poor nutrition in heavy infection, not the mechanism that causes the maldigestion.",
+        "B": "Incorrect. There is no anti-IgA blocking antibody mechanism in ascariasis; this is not how the worm impairs digestion.",
+        "C": "Incorrect. Chronic mucosal malabsorption is the mechanism seen with Strongyloides and Capillaria, whereas Ascaris impairs luminal digestion, so this describes malabsorption rather than the maldigestion asked about.",
+        "D": "Correct. Maldigestion in ascariasis is due to the adult worm's secretion of anti-enzyme substances such as antitrypsin and other protease inhibitors, which neutralise the host's digestive enzymes in the gut lumen. With digestion of protein and other nutrients inhibited, food is poorly broken down, giving maldigestion that is distinct from the mucosal malabsorption of other worms. In a heavy worm burden this luminal enzyme inhibition contributes to the nutritional impairment of ascariasis."
+      },
+      "main_concept": "CON-INF-1302AF5304CD10",
+      "concept_ids": [
+        "CON-INF-1302AF5304CD10"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Attribute the maldigestion of ascariasis to the worm's secretion of anti-enzymes."
+    },
+    {
+      "key": "q26",
+      "id": "QST-KASR309INF-BANK-NEMATODA-26",
+      "page": 9,
+      "title": "Cause of fatal complications of ascariasis",
+      "question": "Serious and sometimes fatal complications of ascariasis are due to:",
+      "options": {
+        "A": "Toxic or enzymatic activity",
+        "B": "Migration of adult worms",
+        "C": "Eggs trapped in tissues",
+        "D": "Larvae trapped in tissues"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Toxic or enzymatic activity contributes to maldigestion but is not the cause of the life-threatening complications.",
+        "B": "Correct. The serious and sometimes fatal complications of ascariasis are due to migration of the ADULT worms. A tangled bolus of worms can cause intestinal obstruction or volvulus, and single worms migrating through the ampulla cause biliary obstruction, cholangitis, pancreatitis or hepatic abscess, while entry into the appendix causes appendicitis. These mechanical adult-worm events, rather than the eggs or larvae, produce the dangerous disease.",
+        "C": "Incorrect. Ascaris eggs are passed in the stool and are not trapped in tissues (unlike schistosome eggs), so they do not cause these complications.",
+        "D": "Incorrect. Larval migration through the lungs causes only the transient Loeffler (pulmonary) phase, not the serious mechanical complications."
+      },
+      "main_concept": "CON-INF-E75F5DCDA9BFBF",
+      "concept_ids": [
+        "CON-INF-E75F5DCDA9BFBF"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Recognise that the serious and fatal complications of ascariasis result from migration of the adult worms."
+    },
+    {
+      "key": "q27",
+      "id": "QST-KASR309INF-BANK-NEMATODA-27",
+      "page": 9,
+      "title": "Infection controlled by mass treatment",
+      "question": "Mass treatment is one of the control measures against infection with:",
+      "options": {
+        "A": "Amoebiasis",
+        "B": "Cryptosporidiosis",
+        "C": "Ascariasis",
+        "D": "Fascioliasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Amoebiasis is a protozoal infection controlled mainly by safe water and sanitation, not by community mass deworming.",
+        "B": "Incorrect. Cryptosporidiosis is a protozoal, often self-limiting infection with no effective mass-treatment programme.",
+        "C": "Correct. Mass (population) treatment, that is periodic community-wide deworming with albendazole or mebendazole, is a recognised control measure against ascariasis and the other soil-transmitted helminths. Treating the whole at-risk community lowers the average worm burden and egg output, so soil contamination and onward transmission fall. It works because Ascaris has a simple direct soil cycle that responds to reducing the human reservoir.",
+        "D": "Incorrect. Fascioliasis is a food-borne fluke controlled by avoiding contaminated aquatic plants and by snail control, not by mass deworming of the population."
+      },
+      "main_concept": "CON-INF-993CACF2ED57C2",
+      "concept_ids": [
+        "CON-INF-993CACF2ED57C2"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Identify mass treatment (community deworming) as a control measure against ascariasis."
+    },
+    {
+      "key": "q28",
+      "id": "QST-KASR309INF-BANK-NEMATODA-28",
+      "page": 9,
+      "title": "Seizures, cough and retinal mass",
+      "question": "Seizures, cough and a unilateral retinal mass could be presenting symptoms of:",
+      "options": {
+        "A": "Trichuriasis",
+        "B": "Amoebiasis",
+        "C": "Balantidiasis",
+        "D": "Visceral larva migrans (VLM)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Trichuriasis causes colitis, dysentery and rectal prolapse, not neurological, pulmonary and ocular disease.",
+        "B": "Incorrect. Amoebiasis causes dysentery and, when it spreads, a liver abscess, not a retinal mass with seizures.",
+        "C": "Incorrect. Balantidiasis is a colonic infection causing dysentery, not multi-organ larval migration.",
+        "D": "Correct. Seizures, cough and a unilateral retinal mass together point to visceral (and ocular) larva migrans caused by the larvae of the dog/cat ascarid Toxocara. The larvae cannot mature in man and wander through organs: in the brain they can cause seizures, in the lungs cough and wheeze, and in the eye an inflammatory retinal granuloma that appears as a unilateral retinal mass, sometimes mistaken for retinoblastoma. This multi-organ larval migration explains the combination of symptoms."
+      },
+      "main_concept": "CON-INF-98CEC465617F42",
+      "concept_ids": [
+        "CON-INF-98CEC465617F42"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Toxocara (visceral larva migrans)",
+      "learning_objective": "Recognise seizures, cough and a unilateral retinal mass as presentations of Toxocara visceral and ocular larva migrans."
+    },
+    {
+      "key": "q29",
+      "id": "QST-KASR309INF-BANK-NEMATODA-29",
+      "page": 9,
+      "title": "Melena and occult blood in stool",
+      "question": "Melena and occult blood in the stool could be a manifestation of:",
+      "options": {
+        "A": "Ancylostomiasis",
+        "B": "Enterobiasis",
+        "C": "Taeniasis",
+        "D": "Cystoisosporiasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Melena and occult blood in the stool are manifestations of ancylostomiasis (hookworm). The adult Ancylostoma duodenale worms attach to the small-intestinal mucosa and actively suck blood, and they also move to fresh sites leaving bleeding points, so there is continuous intestinal blood loss that appears as occult blood or, when heavy, as melena. This chronic blood loss is also what produces the iron-deficiency anaemia of hookworm disease.",
+        "B": "Incorrect. Enterobius does not suck blood; it causes perianal pruritus, not gastrointestinal bleeding.",
+        "C": "Incorrect. Taeniasis (adult tapeworm) usually causes mild abdominal symptoms and proglottids in stool, not melena or occult blood.",
+        "D": "Incorrect. Cystoisospora (Cystoisosporiasis) causes watery diarrhoea, especially in the immunocompromised, not bloody stool."
+      },
+      "main_concept": "CON-INF-621A94B9409492",
+      "concept_ids": [
+        "CON-INF-621A94B9409492"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
+      "learning_objective": "Associate melena and occult blood in stool with the blood-sucking hookworm (ancylostomiasis)."
+    },
+    {
+      "key": "q30",
+      "id": "QST-KASR309INF-BANK-NEMATODA-30",
+      "page": 9,
+      "title": "Prevention by proper cooking of pork",
+      "question": "Proper cooking of pig meat is a preventive measure against:",
+      "options": {
+        "A": "Fascioliasis",
+        "B": "Trichinella spiralis infection",
+        "C": "Taeniasis saginata",
+        "D": "Coenurosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Fascioliasis is acquired from metacercariae on aquatic plants, so cooking pork does not prevent it.",
+        "B": "Correct. Proper cooking of pig meat prevents Trichinella spiralis infection, because the worm is acquired by eating raw or undercooked pork containing encysted infective larvae and thorough cooking kills those larvae. Man is a dead-end host who develops an early enteral phase of diarrhoea followed by a parenteral phase of myositis, periorbital oedema and eosinophilia as new larvae encyst in muscle. Adequate cooking of the meat therefore interrupts transmission.",
+        "C": "Incorrect. Taeniasis saginata is the BEEF tapeworm, acquired from undercooked beef, so cooking pork does not prevent it.",
+        "D": "Incorrect. Coenurosis is acquired by ingesting eggs of Taenia multiceps from dog faeces, not from eating pork."
+      },
+      "main_concept": "CON-INF-760579E0739811",
+      "concept_ids": [
+        "CON-INF-760579E0739811"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Trichinella spiralis",
+      "learning_objective": "Identify proper cooking of pork as the preventive measure against Trichinella spiralis."
     }
   ]
 }

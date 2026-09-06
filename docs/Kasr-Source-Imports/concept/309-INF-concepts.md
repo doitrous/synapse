@@ -6234,3 +6234,669 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-74438A0C646242
+## label
+Strongyloides causes disseminated hyperinfection in immunosuppression
+## canonical_key
+parasitology.strongyloides.hyperinfection-dissemination-immunosuppressed
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because Strongyloides stercoralis can complete internal autoinfection, it persists in the host for years and, when cell-mediated immunity falls (AIDS, corticosteroid therapy, HTLV-1 infection), the autoinfective cycle accelerates uncontrollably; filariform larvae disseminate from the gut throughout the body, carrying enteric bacteria to the lungs, central nervous system and other organs. This disseminated (hyperinfection) syndrome is the serious, often fatal systemic infection reported in immunosuppressed and AIDS patients.
+## explicit_objective
+Recognise disseminated strongyloidiasis (hyperinfection) as the serious systemic infection seen in the immunosuppressed or AIDS patient.
+## pitfalls
+The other listed intestinal nematodes cannot autoinfect, so they do not disseminate; only Strongyloides multiplies within the host through autoinfection and produces the disseminated hyperinfection of immunosuppression, which is why screening and treating it before immunosuppression is essential.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1302AF5304CD10
+## label
+Maldigestion in ascariasis is due to worm anti-enzymes
+## canonical_key
+parasitology.ascaris.maldigestion-anti-enzymes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adult Ascaris lumbricoides secretes anti-enzyme substances (antitrypsin and other protease inhibitors) that neutralise the host's digestive enzymes in the gut lumen; this inhibition of luminal digestion produces maldigestion of ingested food. It is distinct from the mucosal malabsorption seen with Strongyloides or Capillaria, and in heavy infection it contributes to the nutritional impairment of ascariasis.
+## explicit_objective
+Attribute the maldigestion of ascariasis to the worm's secretion of anti-enzymes.
+## pitfalls
+Maldigestion here is caused by enzyme inhibition (anti-enzymes), not by multivitamin deficiency, not by an anti-IgA blocking antibody, and not by chronic mucosal malabsorption; the malabsorption mechanism instead characterises Strongyloides and Capillaria.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E75F5DCDA9BFBF
+## label
+Fatal complications of ascariasis are due to adult worm migration
+## canonical_key
+parasitology.ascaris.fatal-complications-adult-worm-migration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The serious and sometimes fatal complications of ascariasis arise from migration of the ADULT worms: a tangled bolus of worms can cause intestinal obstruction or volvulus, and single worms migrating through the ampulla cause biliary obstruction, cholangitis, pancreatitis or hepatic abscess, while entry into the appendix causes appendicitis. These mechanical adult-worm events, not the larvae or the eggs, produce the life-threatening disease.
+## explicit_objective
+Recognise that the serious and fatal complications of ascariasis result from migration of the adult worms.
+## pitfalls
+The danger is mechanical migration of adult worms, not toxic or enzymatic activity, not eggs trapped in tissues (Ascaris eggs are passed in stool, unlike schistosome eggs) and not larvae trapped in tissues (larval lung migration causes only the transient Loeffler phase).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-993CACF2ED57C2
+## label
+Mass treatment is a control measure for ascariasis
+## canonical_key
+parasitology.ascaris.control-mass-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mass (population) chemotherapy, that is periodic community-wide deworming, usually with albendazole or mebendazole, is a recognised control measure against ascariasis and the other soil-transmitted helminths. Treating the whole at-risk community lowers the average worm burden and egg output, so environmental soil contamination and onward transmission fall. It is applied to helminths with a simple direct soil cycle rather than to protozoa.
+## explicit_objective
+Identify mass treatment (community deworming) as a control measure against ascariasis.
+## pitfalls
+Mass treatment targets soil-transmitted helminths such as Ascaris; it is not the primary control approach for the protozoa amoebiasis or cryptosporidiosis, nor for fascioliasis, a food-borne fluke controlled by avoiding contaminated aquatic plants and by snail control.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-98CEC465617F42
+## label
+Visceral larva migrans presents with seizures, cough and an ocular mass
+## canonical_key
+parasitology.toxocara.visceral-larva-migrans-clinical-triad
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In visceral larva migrans, the larvae of the dog/cat ascarid Toxocara canis or cati cannot mature in the human host and wander through many organs. Reaching the brain they can provoke seizures, in the lungs they cause cough and wheeze, and in the eye they form an inflammatory retinal granuloma (ocular larva migrans) that may present as a unilateral retinal mass mimicking retinoblastoma. This multi-organ larval migration explains the combination of seizures, cough and a retinal mass.
+## explicit_objective
+Recognise seizures, cough and a unilateral retinal mass as presentations of visceral and ocular larva migrans due to Toxocara.
+## pitfalls
+This multi-organ larval-migration picture is Toxocara larva migrans, not trichuriasis (colitis and prolapse), amoebiasis (dysentery and liver abscess) or balantidiasis (dysentery); the retinal mass of ocular larva migrans must not be mistaken for a retinoblastoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara (visceral larva migrans)
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-760579E0739811
+## label
+Proper cooking of pork prevents Trichinella spiralis infection
+## canonical_key
+parasitology.trichinella.transmission-undercooked-pork
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trichinella spiralis is acquired by eating raw or undercooked pork (or other meat) that contains encysted infective larvae, so thorough cooking that kills the larvae is the key preventive measure. Man is a dead-end host who develops an early enteral phase (diarrhoea) followed by a parenteral phase of myositis, periorbital oedema and eosinophilia as the new larvae encyst in skeletal muscle.
+## explicit_objective
+Identify proper cooking of pig meat as the preventive measure against Trichinella spiralis.
+## pitfalls
+Proper cooking of pork prevents Trichinella spiralis (and the pork tapeworm Taenia solium); it does not prevent Taenia saginata, which is the beef tapeworm, nor fascioliasis (acquired from aquatic plants) or coenurosis (acquired by ingesting Taenia multiceps eggs).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.

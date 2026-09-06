@@ -2485,3 +2485,1383 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nemato
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-21
+
+## title
+Chronic diarrhoea after eating undercooked fish
+
+## question
+A patient presenting with chronic diarrhoea and a history of eating improperly cooked whole infected fish may be infected with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Enterobius vermicularis
+
+## explanation_a
+Incorrect. Enterobius vermicularis is acquired by faecal-oral ingestion of eggs and causes perianal pruritus, not a fish-borne chronic diarrhoea.
+
+## answer_b
+Echinococcus granulosus
+
+## explanation_b
+Incorrect. Echinococcus granulosus is acquired from dog faeces and forms hydatid cysts in the liver/lung; it is not fish-borne and does not cause chronic diarrhoea.
+
+## answer_c
+Ascaris lumbricoides
+
+## explanation_c
+Incorrect. Ascaris lumbricoides is acquired by swallowing embryonated eggs from soil, not from fish, and causes obstruction and malnutrition rather than fish-linked chronic diarrhoea.
+
+## answer_d
+Capillaria philippinensis
+
+## explanation_d
+Correct. Capillaria philippinensis is acquired by eating raw or improperly cooked infected freshwater fish that harbour the larvae. In the small intestine the females are larviparous and multiply by internal autoinfection, so the worm burden climbs and produces a severe, chronic, protein-losing enteropathy with watery diarrhoea, malabsorption and wasting. The history of eating undercooked whole fish followed by chronic diarrhoea therefore points to intestinal capillariasis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-5FE99BA373F17F
+
+## concept_ids
+CON-INF-5FE99BA373F17F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise intestinal capillariasis (Capillaria philippinensis) in a patient with chronic diarrhoea after eating undercooked freshwater fish.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-22
+
+## title
+Risk of walking barefoot
+
+## question
+Walking barefooted poses a risk of acquiring:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Trichostrongyliasis
+
+## explanation_a
+Incorrect. Trichostrongylus is acquired by swallowing larvae on contaminated water or plants (faecal-oral), not by skin penetration of bare feet.
+
+## answer_b
+Visceral larva migrans
+
+## explanation_b
+Incorrect. Visceral larva migrans follows ingestion of Toxocara eggs (from soil contaminated by dog/cat faeces), not skin penetration while barefoot.
+
+## answer_c
+Ancylostomiasis
+
+## explanation_c
+Correct. Walking barefoot exposes the skin to soil containing infective filariform larvae of the hookworm Ancylostoma duodenale (and Necator), which actively penetrate intact skin, typically of the feet. From the skin they enter the circulation, migrate through the lungs and mature in the small intestine. Because transmission depends on skin contact with contaminated soil, wearing footwear is a simple preventive measure and going barefoot is the classic risk for ancylostomiasis.
+
+## answer_d
+Intestinal capillariasis
+
+## explanation_d
+Incorrect. Intestinal capillariasis is acquired by eating infected freshwater fish, not by skin penetration when barefoot.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-1AAC26110CD919
+
+## concept_ids
+CON-INF-1AAC26110CD919
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma duodenale
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise walking barefoot as the risk for hookworm (ancylostomiasis) acquired by filariform-larva skin penetration.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-23
+
+## title
+Disseminated infection in AIDS
+
+## question
+Disseminated systemic infection in an AIDS patient is reported with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trichostrongyliasis
+
+## explanation_a
+Incorrect. Trichostrongylus cannot autoinfect and remains a mild intestinal infection; it does not disseminate in immunosuppression.
+
+## answer_b
+Enterobiasis
+
+## explanation_b
+Incorrect. Enterobius causes perianal pruritus and does not multiply within or disseminate through the host.
+
+## answer_c
+Ancylostomiasis
+
+## explanation_c
+Incorrect. Hookworm larvae complete their migration and mature in the gut without autoinfection, so ancylostomiasis does not cause disseminated systemic disease.
+
+## answer_d
+Strongyloidiasis
+
+## explanation_d
+Correct. Strongyloides stercoralis is the nematode that causes disseminated (hyperinfection) systemic disease in the immunosuppressed AIDS patient. Because it can complete internal autoinfection, it persists for years, and when cell-mediated immunity fails the autoinfective cycle accelerates uncontrollably so that filariform larvae spread from the gut throughout the body, carrying enteric bacteria to the lungs, brain and other organs. This disseminated strongyloidiasis is frequently fatal, which is why the worm must be sought and treated before immunosuppression.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-74438A0C646242
+
+## concept_ids
+CON-INF-74438A0C646242
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate disseminated (hyperinfection) strongyloidiasis with the immunosuppressed or AIDS patient.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-24
+
+## title
+Nematode infecting by skin penetration
+
+## question
+Which of the following parasites infects man by skin penetration?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trichostrongylus colubriformis
+
+## explanation_a
+Incorrect. Trichostrongylus colubriformis is acquired by swallowing infective larvae on contaminated plants or water, not by skin penetration.
+
+## answer_b
+Enterobius vermicularis
+
+## explanation_b
+Incorrect. Enterobius vermicularis is acquired by ingesting eggs (and by retroinfection), not by larvae penetrating the skin.
+
+## answer_c
+Trichuris trichiura
+
+## explanation_c
+Incorrect. Trichuris trichiura is acquired by swallowing embryonated eggs from soil; there is no skin-penetration stage.
+
+## answer_d
+Strongyloides stercoralis
+
+## explanation_d
+Correct. Strongyloides stercoralis infects man when infective filariform larvae in the soil actively penetrate intact skin, exactly as hookworm larvae do. After penetrating the skin the larvae enter the circulation, migrate through the lungs, are swallowed and mature in the small intestine. This percutaneous route also underlies external autoinfection and the rapidly migrating skin track called larva currens, so skin penetration is the mode of infection for Strongyloides among the worms listed.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-C40504A90D83F9
+
+## concept_ids
+CON-INF-C40504A90D83F9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify Strongyloides stercoralis as the listed nematode that infects man by skin penetration.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-25
+
+## title
+Cause of maldigestion in ascariasis
+
+## question
+Maldigestion is seen with ascariasis due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Multivitamin deficiency
+
+## explanation_a
+Incorrect. Multivitamin deficiency is a consequence of poor nutrition in heavy infection, not the mechanism that causes the maldigestion.
+
+## answer_b
+Secretion of anti-IgA blocking antibodies
+
+## explanation_b
+Incorrect. There is no anti-IgA blocking antibody mechanism in ascariasis; this is not how the worm impairs digestion.
+
+## answer_c
+Presence of chronic malabsorption
+
+## explanation_c
+Incorrect. Chronic mucosal malabsorption is the mechanism seen with Strongyloides and Capillaria, whereas Ascaris impairs luminal digestion, so this describes malabsorption rather than the maldigestion asked about.
+
+## answer_d
+Secretion of anti-enzymes
+
+## explanation_d
+Correct. Maldigestion in ascariasis is due to the adult worm's secretion of anti-enzyme substances such as antitrypsin and other protease inhibitors, which neutralise the host's digestive enzymes in the gut lumen. With digestion of protein and other nutrients inhibited, food is poorly broken down, giving maldigestion that is distinct from the mucosal malabsorption of other worms. In a heavy worm burden this luminal enzyme inhibition contributes to the nutritional impairment of ascariasis.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-1302AF5304CD10
+
+## concept_ids
+CON-INF-1302AF5304CD10
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Attribute the maldigestion of ascariasis to the worm's secretion of anti-enzymes.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-26
+
+## title
+Cause of fatal complications of ascariasis
+
+## question
+Serious and sometimes fatal complications of ascariasis are due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Toxic or enzymatic activity
+
+## explanation_a
+Incorrect. Toxic or enzymatic activity contributes to maldigestion but is not the cause of the life-threatening complications.
+
+## answer_b
+Migration of adult worms
+
+## explanation_b
+Correct. The serious and sometimes fatal complications of ascariasis are due to migration of the ADULT worms. A tangled bolus of worms can cause intestinal obstruction or volvulus, and single worms migrating through the ampulla cause biliary obstruction, cholangitis, pancreatitis or hepatic abscess, while entry into the appendix causes appendicitis. These mechanical adult-worm events, rather than the eggs or larvae, produce the dangerous disease.
+
+## answer_c
+Eggs trapped in tissues
+
+## explanation_c
+Incorrect. Ascaris eggs are passed in the stool and are not trapped in tissues (unlike schistosome eggs), so they do not cause these complications.
+
+## answer_d
+Larvae trapped in tissues
+
+## explanation_d
+Incorrect. Larval migration through the lungs causes only the transient Loeffler (pulmonary) phase, not the serious mechanical complications.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-E75F5DCDA9BFBF
+
+## concept_ids
+CON-INF-E75F5DCDA9BFBF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that the serious and fatal complications of ascariasis result from migration of the adult worms.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-27
+
+## title
+Infection controlled by mass treatment
+
+## question
+Mass treatment is one of the control measures against infection with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Amoebiasis
+
+## explanation_a
+Incorrect. Amoebiasis is a protozoal infection controlled mainly by safe water and sanitation, not by community mass deworming.
+
+## answer_b
+Cryptosporidiosis
+
+## explanation_b
+Incorrect. Cryptosporidiosis is a protozoal, often self-limiting infection with no effective mass-treatment programme.
+
+## answer_c
+Ascariasis
+
+## explanation_c
+Correct. Mass (population) treatment, that is periodic community-wide deworming with albendazole or mebendazole, is a recognised control measure against ascariasis and the other soil-transmitted helminths. Treating the whole at-risk community lowers the average worm burden and egg output, so soil contamination and onward transmission fall. It works because Ascaris has a simple direct soil cycle that responds to reducing the human reservoir.
+
+## answer_d
+Fascioliasis
+
+## explanation_d
+Incorrect. Fascioliasis is a food-borne fluke controlled by avoiding contaminated aquatic plants and by snail control, not by mass deworming of the population.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-993CACF2ED57C2
+
+## concept_ids
+CON-INF-993CACF2ED57C2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify mass treatment (community deworming) as a control measure against ascariasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-28
+
+## title
+Seizures, cough and retinal mass
+
+## question
+Seizures, cough and a unilateral retinal mass could be presenting symptoms of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trichuriasis
+
+## explanation_a
+Incorrect. Trichuriasis causes colitis, dysentery and rectal prolapse, not neurological, pulmonary and ocular disease.
+
+## answer_b
+Amoebiasis
+
+## explanation_b
+Incorrect. Amoebiasis causes dysentery and, when it spreads, a liver abscess, not a retinal mass with seizures.
+
+## answer_c
+Balantidiasis
+
+## explanation_c
+Incorrect. Balantidiasis is a colonic infection causing dysentery, not multi-organ larval migration.
+
+## answer_d
+Visceral larva migrans (VLM)
+
+## explanation_d
+Correct. Seizures, cough and a unilateral retinal mass together point to visceral (and ocular) larva migrans caused by the larvae of the dog/cat ascarid Toxocara. The larvae cannot mature in man and wander through organs: in the brain they can cause seizures, in the lungs cough and wheeze, and in the eye an inflammatory retinal granuloma that appears as a unilateral retinal mass, sometimes mistaken for retinoblastoma. This multi-organ larval migration explains the combination of symptoms.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-98CEC465617F42
+
+## concept_ids
+CON-INF-98CEC465617F42
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara (visceral larva migrans)
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise seizures, cough and a unilateral retinal mass as presentations of Toxocara visceral and ocular larva migrans.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-29
+
+## title
+Melena and occult blood in stool
+
+## question
+Melena and occult blood in the stool could be a manifestation of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ancylostomiasis
+
+## explanation_a
+Correct. Melena and occult blood in the stool are manifestations of ancylostomiasis (hookworm). The adult Ancylostoma duodenale worms attach to the small-intestinal mucosa and actively suck blood, and they also move to fresh sites leaving bleeding points, so there is continuous intestinal blood loss that appears as occult blood or, when heavy, as melena. This chronic blood loss is also what produces the iron-deficiency anaemia of hookworm disease.
+
+## answer_b
+Enterobiasis
+
+## explanation_b
+Incorrect. Enterobius does not suck blood; it causes perianal pruritus, not gastrointestinal bleeding.
+
+## answer_c
+Taeniasis
+
+## explanation_c
+Incorrect. Taeniasis (adult tapeworm) usually causes mild abdominal symptoms and proglottids in stool, not melena or occult blood.
+
+## answer_d
+Cystoisosporiasis
+
+## explanation_d
+Incorrect. Cystoisospora (Cystoisosporiasis) causes watery diarrhoea, especially in the immunocompromised, not bloody stool.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-621A94B9409492
+
+## concept_ids
+CON-INF-621A94B9409492
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma duodenale
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate melena and occult blood in stool with the blood-sucking hookworm (ancylostomiasis).
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-30
+
+## title
+Prevention by proper cooking of pork
+
+## question
+Proper cooking of pig meat is a preventive measure against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Fascioliasis
+
+## explanation_a
+Incorrect. Fascioliasis is acquired from metacercariae on aquatic plants, so cooking pork does not prevent it.
+
+## answer_b
+Trichinella spiralis infection
+
+## explanation_b
+Correct. Proper cooking of pig meat prevents Trichinella spiralis infection, because the worm is acquired by eating raw or undercooked pork containing encysted infective larvae and thorough cooking kills those larvae. Man is a dead-end host who develops an early enteral phase of diarrhoea followed by a parenteral phase of myositis, periorbital oedema and eosinophilia as new larvae encyst in muscle. Adequate cooking of the meat therefore interrupts transmission.
+
+## answer_c
+Taeniasis saginata
+
+## explanation_c
+Incorrect. Taeniasis saginata is the BEEF tapeworm, acquired from undercooked beef, so cooking pork does not prevent it.
+
+## answer_d
+Coenurosis
+
+## explanation_d
+Incorrect. Coenurosis is acquired by ingesting eggs of Taenia multiceps from dog faeces, not from eating pork.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-760579E0739811
+
+## concept_ids
+CON-INF-760579E0739811
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichinella spiralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify proper cooking of pork as the preventive measure against Trichinella spiralis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
