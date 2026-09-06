@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 4,
+ "count": 5,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -194,6 +194,53 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "Native text layer (no OCR). Stems+options from this question bank; correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf) which lists chapter -> Q number -> option letter. Each key cross-checked against the stem/option text before authoring (unambiguous, machine-readable table). First authored tranche: Chapter 1 Brief anatomy of the eye and its adnexa, Q1-26. See coverage/315-OPH-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_33e91d37f173f0ca3fba",
+   "sha256": "33e91d37f173f0ca3fba45244ef468adb19c013f6f94113e42253912489fb1b7",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/316 ENT/ENT/Questions & MCQs/Department Question Bank - ENT MCQ Question Bank.pdf",
+   "corpusRelativePath": "316 ENT/ENT/Questions & MCQs/Department Question Bank - ENT MCQ Question Bank.pdf",
+   "fileName": "Department Question Bank - ENT MCQ Question Bank.pdf",
+   "fileNameWithoutInstructions": "Department Question Bank - ENT MCQ Question Bank.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "316 ENT",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Otorhinolaryngology",
+    "ENT"
+   ],
+   "rawModuleShorthand": "316 ENT",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Department material",
+   "instructor": null,
+   "crossModulePractical": false,
+   "subject": "Otorhinolaryngology",
+   "folderSubject": "ENT",
+   "subjectSource": "folder",
+   "departmentAuthored": true,
+   "tierEvidence": "Department MCQ question bank (native text, 60 pp) organised into four ENT sections by an INDEX page: Ear (p3), Nose (p21), Larynx (p36), Pharynx (p47). Cover states it is compiled from previous-year questions with repeats and outdated questions removed. Each section ends with a printed ANSWER KEY grid (Ear p20, Nose p35, Larynx p46, Pharynx p60); the grids are page IMAGES (no text layer), rendered once and read visually. Ear-section grid gives a clean Q->letter table for Q1-102. High-yield department source with self-contained keys.",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: 'MCQ Question Bank — Previous Year Questions · No Repeated Questions · Outdated Questions Removed', branded 'ENT 2026'. INDEX (p2): Ear p3, Nose p21, Larynx p36, Pharynx p47. Questions numbered per section (Ear 1-102), 4-5 options each. Answer keys as per-section image grids (p20/p35/p46/p60). The 'ENT 2026' label is a study-edition brand, not a dated exam sitting.",
+   "bookKind": "question_bank",
+   "sourceTier": 2,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Compiled previous-years question bank, not a single dated sitting; the cover's 'ENT 2026' is an edition brand, no exam calendar year printed. examSittingYear left null (not guessed).",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 60,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Native text layer for stems+options (no OCR). Correct answers come from the section-end ANSWER KEY grids, which are page images (no text layer): the Ear grid (p20) was rendered once and read visually, then each key cross-checked against the printed option text before authoring. First authored tranche: Ear section Q1-18 (17 authored, Q17 held: its printed key is 'e' but the stem prints only options a-d, a key/stem conflict held per the never-guess rule). See coverage/316-ENT-triage-keys.txt."
   }
  ]
 }

@@ -1,0 +1,53 @@
+316 ENT — triage keys (Year 3, Otorhinolaryngology / ENT) — MODULE OPENED 2026-09-06
+Source (stems): 316 ENT/ENT/Questions & MCQs/Department Question Bank - ENT MCQ Question Bank.pdf
+  (manifest sourceId src_33e91d37f173f0ca3fba, kasr-y3-sources.json;
+   sha256 33e91d37f173f0ca3fba45244ef468adb19c013f6f94113e42253912489fb1b7;
+   department MCQ question bank; native text layer; 60 pages; four sections by INDEX —
+   Ear p3, Nose p21, Larynx p36, Pharynx p47; compiled previous-years questions).
+Key source: section-end PRINTED ANSWER KEY grids (Ear p20, Nose p35, Larynx p46, Pharynx p60).
+  The grids are page IMAGES (no text layer) — the Ear grid (PDF p20) was rendered once at 200 dpi
+  and read visually; every key below is CROSS-CHECKED against the printed option text of the stem.
+
+Sitting year: none printed. Compiled previous-years bank; the cover's "ENT 2026" is a study-edition
+  brand, not a dated exam sitting, so manifest examSittingYear = null (not guessed).
+Module: 316 ENT (Otorhinolaryngology), Year 3; disk tree files it under y3/316 ENT.
+  Taxonomy: a real discipline hub DIS-ENT exists with topic nodes T01 Ear and hearing,
+  T02 Nose and sinuses, T03 Oral cavity and pharynx, T04 Larynx and voice, T05 Head and neck
+  masses, T06 ENT emergencies. ENT has NO body-system code in docs/medical-library-program/systems
+  (valid codes: AND CVS DER DEV END FND GIT GYN HEM IMM INF MSK MUL NEU OBS POP PSY REN RES), so —
+  exactly like Y3 ophthalmology (315 OPH) and toxicology — concepts are minted CON-MUL- and
+  ## subject = mul, but filed on the real DIS-ENT-* discipline nodes (Ear section -> DIS-ENT-T01
+  "Ear and hearing").
+
+Method: native text for stems+options; keys from the printed answer-key grid image, each
+  cross-checked against option text. Missing/ambiguous/conflicting keys -> EXCLUDE, never guess.
+
+Paper structure (four sections, Ear 1-102). THIS TRANCHE authors only:
+  Ear section, MCQ Q1-18 (bank pp.3-5). 17 authored / 1 held / 0 excluded.
+
+# Ear section (Q1-18) — keys from the p20 answer-key grid, cross-checked vs option text
+Q1.A   Q2.D   Q3.D   Q4.A   Q5.C   Q6.B   Q7.D   Q8.A   Q9.E   Q10.B
+Q11.E  Q12.B  Q13.C  Q14.B  Q15.D  Q16.E  Q17.(held)  Q18.D
+
+# HELD
+Q17 — the p20 grid prints the key as "e", but the Q17 stem prints only options a-d (no option e).
+  Key/stem conflict with no printed option to select; held per the never-guess rule, not authored.
+
+Cross-check notes (key -> the option it selects, verified against the stem):
+  Q1 A nothing per ear until spontaneous healing (traumatic perforation, keep the ear dry);
+  Q2 D all of the above (bleeding per ear + usually central pars-tensa + irregular edges);
+  Q3 D incision and evacuation (auricular haematoma drained to prevent cauliflower ear);
+  Q4 A irregular edges of the perforation (traumatic hallmark);
+  Q5 C marginal (EXCEPT — traumatic perforations are central, not marginal);
+  Q6 B CSF otorrhoea (watery discharge increased by straining);
+  Q7 D glomus jugulare tumour (pulsatile tinnitus);
+  Q8 A unilateral tinnitus with progressive SNHL (commonest acoustic-neuroma symptom);
+  Q9 E all of the above (CT/MRI petrous, blood sugar & ESR, isotope bone scan, culture);
+  Q10 B otomycosis (canal full of white debris with blackish spots = Aspergillus);
+  Q11 E all of the above (pseudomonas, diabetic/low-immunity, skull-base osteomyelitis, quinolones);
+  Q12 B treated by local antifungal ear drops (otomycosis);
+  Q13 C fungal otitis externa (otomycosis = another name);
+  Q14 B malignant otitis externa (uncontrolled diabetes in the elderly);
+  Q15 D itching (main symptom of otomycosis);
+  Q16 E A & C (control of diabetes + antibiotics in large doses; not radiotherapy);
+  Q18 D otomycosis (EXCEPT — bacterial OE causes furunculosis/diffuse/malignant OE; otomycosis is fungal).
