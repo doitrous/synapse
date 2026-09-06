@@ -141,3 +141,30 @@ physiology (overlap 2024 physiology Q59-108). Q44 Sheehan's HELD (printed key a
 "accompanied by progeria" is medically wrong — bad item, not authored).
 After this fresh slice the EOM line for 207 END is EXHAUSTED (three EOMs mined);
 next 207 END cluster must be a NON-EOM source (department book / MCQ bank).
+
+
+========================================================================
+FOURTH SOURCE — Dr Medhat endocrine ANATOMY MCQ bank (NON-EOM, topic bank)
+========================================================================
+Source: 207 END/Anatomy Other [2nd priority]/MCQs/207 Dr Medhat mcq (endo).pdf
+(manifest sourceId src_79493b8d5c510e8ca580; sha256
+79493b8d5c510e8ca580b64e862c3a5567446f7b9a501ccdb9497c95e8a4424c; examType null —
+a TOPIC bank, not an exam, so examSittingYear=null). Scanned (CamScanner), 5 pages,
+25 four-option MCQs on gross anatomy of the endocrine glands (pituitary, thyroid,
+parathyroid, suprarenal, pancreas). NOT a dup sha of the three mined EOM papers.
+
+Key marker: a PRINTED/handwritten ANSWER-KEY LIST on the last page (p.5), Q1-25,
+"n. LETTER" per line in four columns. Read by eye from a 220-dpi render of p.5 (OCR of
+p.5 was too garbled to trust). The blue ovals in the left margin of the question pages
+are TOPIC references (27=Pituitary .. 32=Gonads per the p.1 legend), NOT answer marks.
+All 25 keys cross-checked against their stems for a clean single-best answer — every one
+consistent (e.g. Q4 WRONG=above-diaphragma-sellae=a; Q17 WRONG=both-suprarenal-veins-in-
+IVC=d; Q22 WRONG=aorta-obstruction=b; Q25 pretracheal-fascia=b). 0 double-marks, 0 ambiguous.
+
+Q1.d  Q2.c  Q3.b  Q4.a  Q5.c  Q6.b  Q7.a  Q8.d
+Q9.a  Q10.b Q11.b Q12.b Q13.a Q14.a Q15.d Q16.a
+Q17.d Q18.d Q19.c Q20.c Q21.b Q22.b Q23.a Q24.d Q25.b
+
+Section map: Q1-4 pituitary, Q5-9 thyroid, Q10-11 parathyroid, Q12-18 suprarenal,
+Q19-24 pancreas, Q25 thyroid fascia. 25/25 keys recovered, 0 held, 0 excluded.
+Dedup vs all authored 207-END (173) done at authoring time (see LEDGER).
