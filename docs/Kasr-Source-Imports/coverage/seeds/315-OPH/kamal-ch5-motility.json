@@ -1,0 +1,433 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch5-motility",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 5 Ocular motility in health and disease (extraocular muscles, cranial nerve palsies, strabismus, amblyopia), MCQ Q1-25, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.3 Chapter 5 table, 63 answers), each key re-verified against the option text. 25 authored (Q1-25) / 2 held (Q26 True/False, Q27 3-option) / 0 excluded. Q26-63 remain for the next tranche.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > Ocular motility in health and disease",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-OCULAR-MOTILITY"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.5 Ocular motility in health and disease (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "Ocular motility",
+    "question_type": "Recall",
+    "difficulty": "Easy",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.5 chapter->Q->letter table (p.3, 63 answers), re-verified against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR315OPH-KAMAL-CH5-1", "page": 43,
+      "title": "Extraocular muscle not arising from the orbital apex",
+      "question": "All of the following muscles arise from the apex of the orbit, EXCEPT:",
+      "options": { "A": "Superior oblique muscle", "B": "Lateral rectus muscle", "C": "Inferior oblique muscle", "D": "Inferior rectus muscle" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it does arise at the apex). The superior oblique arises from the body of the sphenoid near the annulus of Zinn at the orbital apex.",
+        "B": "Incorrect (it does arise at the apex). The lateral rectus, like the other recti, arises from the annulus of Zinn at the orbital apex.",
+        "C": "Correct. The inferior oblique is the exception: it is the only extraocular muscle that arises anteriorly, from the orbital floor near the lacrimal fossa, rather than at the apex. The four recti and the superior oblique all take origin from the annulus of Zinn at the orbital apex, so the inferior oblique is the one that does not.",
+        "D": "Incorrect (it does arise at the apex). The inferior rectus is one of the four recti and arises from the annulus of Zinn at the orbital apex."
+      },
+      "subtopic": "Extraocular muscle anatomy", "question_type": "Classification", "reasoning_level": 2,
+      "main_concept": "CON-MUL-1A1EB63A33CA67", "concept_ids": ["CON-MUL-1A1EB63A33CA67"],
+      "learning_objective": "Identify the inferior oblique as the extraocular muscle arising from the orbital floor, not the apex."
+    },
+    {
+      "key": "q2", "id": "QST-KASR315OPH-KAMAL-CH5-2", "page": 43,
+      "title": "Action of the superior rectus muscle",
+      "question": "What is the action of the superior rectus muscle?",
+      "options": { "A": "Elevation, intorsion, abduction", "B": "Elevation, intorsion, adduction", "C": "Elevation, extorsion, adduction", "D": "Elevation, extorsion, abduction" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The superior rectus adducts, not abducts, as its tertiary action, though intorsion is correct.",
+        "B": "Correct. The superior rectus runs above the globe at an angle to the visual axis, so its primary action is elevation with secondary intorsion and tertiary adduction. This is why its elevating action is tested with the eye abducted, where the muscle acts as a pure elevator. The combination elevation-intorsion-adduction distinguishes it from the inferior oblique, which elevates but extorts and abducts.",
+        "C": "Incorrect. The superior rectus intorts (not extorts); extorsion with elevation belongs to the inferior oblique.",
+        "D": "Incorrect. The superior rectus intorts and adducts; extorsion and abduction describe the inferior oblique."
+      },
+      "subtopic": "Extraocular muscle actions", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-35A6E75513E4DB", "concept_ids": ["CON-MUL-35A6E75513E4DB"],
+      "learning_objective": "Recall that the superior rectus elevates, intorts and adducts."
+    },
+    {
+      "key": "q3", "id": "QST-KASR315OPH-KAMAL-CH5-3", "page": 44,
+      "title": "Best management of acute esotropia with limited abduction",
+      "question": "A 40-year-old male patient presents with a recent onset of esodeviation in the right eye with diplopia that improved on covering either eye. On examination, there is right esotropia 30 prism diopters and limited abduction. What is the best management plan?",
+      "options": { "A": "Prescribing glasses", "B": "Starting systemic antibiotics", "C": "Asking for brain MRI", "D": "Scheduling of urgent extraocular muscle surgery" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Glasses correct a refractive error; they do not address an acquired sixth-nerve palsy causing the esotropia and limited abduction.",
+        "B": "Incorrect. There is no infective process here; antibiotics have no role in an acute cranial nerve palsy.",
+        "C": "Correct. Recent-onset esotropia with limited abduction and diplopia relieved by covering either eye is an acquired sixth (abducens) nerve palsy. In an adult this is a neurological sign that requires neuroimaging (brain MRI) to exclude a compressive, ischaemic or intracranial cause before any surgical treatment. Investigating the cause takes priority over intervention on the muscle itself.",
+        "D": "Incorrect. Muscle surgery is premature and is not done for a recent acquired palsy before the cause is found and a period of observation for recovery has passed."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Application", "difficulty": "Moderate", "cognitive_effort": "Moderate", "reasoning_level": 3, "estimated_seconds": 75,
+      "main_concept": "CON-MUL-0ED841A9984F91", "concept_ids": ["CON-MUL-0ED841A9984F91"],
+      "learning_objective": "Recognise that an acquired sixth-nerve palsy needs neuroimaging before surgery."
+    },
+    {
+      "key": "q4", "id": "QST-KASR315OPH-KAMAL-CH5-4", "page": 44,
+      "title": "True statement about amblyopia",
+      "question": "Amblyopia:",
+      "options": { "A": "Is a problem of adolescence.", "B": "Occurs only after age 9.", "C": "Can be caused by congenital cataract and congenital corneal opacity.", "D": "Is not a serious problem that we should avoid." },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Amblyopia develops in early childhood, when the visual system is still plastic, not in adolescence.",
+        "B": "Incorrect. Amblyopia develops in the early years of visual development and must be treated before, not after, that window; it does not begin only after age 9.",
+        "C": "Correct. Congenital cataract and congenital corneal opacity block a clear image during the critical period of visual development, producing stimulus-deprivation amblyopia. Deprivation is one of the three main mechanisms of amblyopia along with constant strabismus and anisometropia. Early removal of the obstruction is essential because the deficit becomes permanent if not treated while the visual system is plastic.",
+        "D": "Incorrect. Amblyopia is a serious, preventable cause of childhood visual loss that should be detected and treated, not ignored."
+      },
+      "subtopic": "Amblyopia", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-32DDCFEA917C5C", "concept_ids": ["CON-MUL-32DDCFEA917C5C"],
+      "learning_objective": "Recognise stimulus deprivation from congenital cataract or corneal opacity as a cause of amblyopia."
+    },
+    {
+      "key": "q5", "id": "QST-KASR315OPH-KAMAL-CH5-5", "page": 44,
+      "title": "Cause not producing esotropia",
+      "question": "Esotropia can be due to all of the following EXCEPT:",
+      "options": { "A": "High hypermetropia.", "B": "Oculomotor cranial nerve palsy.", "C": "Abducent cranial nerve palsy.", "D": "Medial rectus overaction." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it does cause esotropia). High hypermetropia drives excess accommodation and convergence, producing accommodative esotropia.",
+        "B": "Correct. Oculomotor (third) nerve palsy paralyses the medial rectus, so the unopposed lateral rectus pulls the eye outward into an EXOtropia (down and out), not an esotropia. All the other options converge the eye, so the third-nerve palsy is the exception. It is the divergent, not convergent, deviation that follows third-nerve palsy.",
+        "C": "Incorrect (it does cause esotropia). Abducens (sixth) nerve palsy weakens the lateral rectus, so the eye drifts inward into esotropia with limited abduction.",
+        "D": "Incorrect (it does cause esotropia). Overaction of the medial rectus, an adductor, converges the eye and causes esotropia."
+      },
+      "subtopic": "Strabismus", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-F5AC61B694F270", "concept_ids": ["CON-MUL-F5AC61B694F270"],
+      "learning_objective": "Recognise that oculomotor palsy causes exotropia, not esotropia."
+    },
+    {
+      "key": "q6", "id": "QST-KASR315OPH-KAMAL-CH5-6", "page": 44,
+      "title": "Cause of exotropia in an elderly hypertensive",
+      "question": "Exotropia in a 70 year old male with uncontrolled hypertension can be due to:",
+      "options": { "A": "Trochlear cranial nerve palsy.", "B": "Oculomotor cranial nerve palsy.", "C": "Abducent cranial nerve palsy.", "D": "Trigeminal cranial nerve palsy." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Trochlear (fourth) nerve palsy weakens the superior oblique and causes a vertical deviation with torsional diplopia, not a horizontal exotropia.",
+        "B": "Correct. Oculomotor (third) nerve palsy paralyses the medial rectus and other muscles, so the intact lateral rectus and superior oblique carry the eye down and out into an exotropia. A vasculopathic third-nerve palsy is common in an elderly hypertensive or diabetic patient. The divergent deviation, often with ptosis, points to the third nerve.",
+        "C": "Incorrect. Abducens (sixth) nerve palsy weakens the lateral rectus and causes esotropia with limited abduction, the opposite horizontal deviation.",
+        "D": "Incorrect. The trigeminal (fifth) nerve is sensory to the eye and motor to muscles of mastication; it does not move the globe, so its lesion does not cause a squint."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Application", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-F5AC61B694F270", "concept_ids": ["CON-MUL-F5AC61B694F270"],
+      "learning_objective": "Attribute a divergent (exotropic) deviation to oculomotor nerve palsy."
+    },
+    {
+      "key": "q7", "id": "QST-KASR315OPH-KAMAL-CH5-7", "page": 44,
+      "title": "Muscle supplied by the trochlear nerve",
+      "question": "Trochlear nerve supplies:",
+      "options": { "A": "Superior rectus and superior oblique muscles.", "B": "Inferior oblique muscle.", "C": "Superior oblique muscle.", "D": "Superior oblique and inferior oblique muscles." },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The superior rectus is supplied by the third (oculomotor) nerve, not the trochlear nerve.",
+        "B": "Incorrect. The inferior oblique is supplied by the third (oculomotor) nerve.",
+        "C": "Correct. The trochlear (fourth) cranial nerve innervates a single muscle, the superior oblique. Its primary action is intorsion, with depression of the adducted eye. Palsy therefore causes vertical and torsional diplopia worse on downgaze with a compensatory head tilt.",
+        "D": "Incorrect. Only the superior oblique is trochlear; the inferior oblique is supplied by the third nerve."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-D80292BFE190EE", "concept_ids": ["CON-MUL-D80292BFE190EE"],
+      "learning_objective": "State that the trochlear nerve supplies only the superior oblique."
+    },
+    {
+      "key": "q8", "id": "QST-KASR315OPH-KAMAL-CH5-8", "page": 44,
+      "title": "Cause that does not produce amblyopia",
+      "question": "Amblyopia is caused by all of the following EXCEPT:",
+      "options": { "A": "Bilateral mild myopia.", "B": "Unilateral high myopia.", "C": "Unilateral congenital cataract.", "D": "Unilateral ocular deviation in childhood." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bilateral mild myopia is a small, symmetrical refractive error that lets both eyes develop reasonably equal images, so it does not cause amblyopia. Amblyopia arises from an asymmetric or deprivational insult, which a mild symmetric error is not. This makes it the exception among the options.",
+        "B": "Incorrect (it does cause amblyopia). Unilateral high myopia is a large interocular refractive difference (anisometropia), which blurs one eye and causes anisometropic amblyopia.",
+        "C": "Incorrect (it does cause amblyopia). A unilateral congenital cataract deprives one eye of a clear image and causes dense stimulus-deprivation amblyopia.",
+        "D": "Incorrect (it does cause amblyopia). Constant unilateral ocular deviation (strabismus) in childhood leads to suppression and strabismic amblyopia."
+      },
+      "subtopic": "Amblyopia", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-32DDCFEA917C5C", "concept_ids": ["CON-MUL-32DDCFEA917C5C"],
+      "learning_objective": "Recognise that symmetric bilateral mild refractive error does not cause amblyopia."
+    },
+    {
+      "key": "q9", "id": "QST-KASR315OPH-KAMAL-CH5-9", "page": 44,
+      "title": "Cranial nerve responsible for adduction",
+      "question": "The following cranial nerve is responsible for adduction of the eye:",
+      "options": { "A": "Third nerve.", "B": "Fourth nerve.", "C": "Fifth nerve.", "D": "Sixth nerve." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adduction (inward movement) of the eye is produced by the medial rectus, which is supplied by the third (oculomotor) nerve. So the third nerve is responsible for adduction. Weak adduction therefore points to medial rectus or third-nerve dysfunction.",
+        "B": "Incorrect. The fourth (trochlear) nerve supplies the superior oblique, which intorts and depresses the adducted eye; it does not produce adduction.",
+        "C": "Incorrect. The fifth (trigeminal) nerve is not an ocular motor nerve and does not move the globe.",
+        "D": "Incorrect. The sixth (abducens) nerve supplies the lateral rectus and produces abduction, the opposite movement."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-8B71EF8CD65FF3", "concept_ids": ["CON-MUL-8B71EF8CD65FF3"],
+      "learning_objective": "State that the third nerve (medial rectus) controls adduction."
+    },
+    {
+      "key": "q10", "id": "QST-KASR315OPH-KAMAL-CH5-10", "page": 45,
+      "title": "Refractive error associated with exophoria",
+      "question": "Exophoria is commonly associated with which error of refraction?",
+      "options": { "A": "Myopia.", "B": "Hypermetropia.", "C": "Presbyopia.", "D": "Compound astigmatism." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Myopes need little accommodation for near work, so the accommodation-convergence link drives less convergence and the eyes tend to drift outward, giving a latent divergent deviation (exophoria). Fusion normally keeps the eyes straight, and the deviation becomes manifest only when fusion is interrupted, as on cover testing. This is the mirror image of the esophoria seen with hypermetropia.",
+        "B": "Incorrect. Hypermetropia is associated with esophoria, because over-accommodation drives over-convergence inward.",
+        "C": "Incorrect. Presbyopia is age-related loss of accommodation and is not the classic association of exophoria.",
+        "D": "Incorrect. Compound astigmatism is a refractive error of two meridia and is not the recognised association of exophoria."
+      },
+      "subtopic": "Heterophoria", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-F528969F27AB4B", "concept_ids": ["CON-MUL-F528969F27AB4B"],
+      "learning_objective": "Associate exophoria with myopia."
+    },
+    {
+      "key": "q11", "id": "QST-KASR315OPH-KAMAL-CH5-11", "page": 45,
+      "title": "Diagnosis of exotropia with ptosis and limited adduction",
+      "question": "The presentation of exotropia in primary position with ptosis and limited adduction is suggestive of:",
+      "options": { "A": "Third nerve palsy.", "B": "Optic atrophy.", "C": "Fourth nerve palsy.", "D": "Sixth nerve palsy." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Third (oculomotor) nerve palsy paralyses the levator (giving ptosis) and the medial, superior and inferior recti and inferior oblique, so the eye rests down and out (exotropia) with limited adduction, elevation and depression. The combination of ptosis, exotropia and limited adduction is the classic picture. A dilated pupil may accompany it when the pupillary fibres are involved.",
+        "B": "Incorrect. Optic atrophy reduces vision and pupil reaction but does not cause ptosis or restrict eye movement.",
+        "C": "Incorrect. Fourth (trochlear) nerve palsy causes a vertical/torsional deviation with head tilt, not ptosis with limited adduction.",
+        "D": "Incorrect. Sixth (abducens) nerve palsy causes esotropia with limited abduction and no ptosis."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Application", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-F5AC61B694F270", "concept_ids": ["CON-MUL-F5AC61B694F270"],
+      "learning_objective": "Recognise the ptosis, exotropia and limited adduction of third-nerve palsy."
+    },
+    {
+      "key": "q12", "id": "QST-KASR315OPH-KAMAL-CH5-12", "page": 45,
+      "title": "Action of the inferior oblique muscle",
+      "question": "The action of the inferior oblique muscle is:",
+      "options": { "A": "Extorsion, elevation and abduction.", "B": "Depression, intorsion, adduction.", "C": "Elevation, intorsion, adduction.", "D": "Elevation, intorsion, abduction." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The inferior oblique runs below the globe from the orbital floor to insert postero-laterally, so its primary action is extorsion with secondary elevation and tertiary abduction. It elevates the eye maximally when the eye is adducted, which is how its function is tested. This extorsion-elevation-abduction pattern is the opposite torsion to the superior rectus.",
+        "B": "Incorrect. Depression with intorsion is the action of the superior oblique, not the inferior oblique.",
+        "C": "Incorrect. Elevation with intorsion and adduction describes the superior rectus, which intorts rather than extorts.",
+        "D": "Incorrect. The inferior oblique extorts, not intorts; only the elevation and abduction components are correct here."
+      },
+      "subtopic": "Extraocular muscle actions", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-D81C154E4B0B4E", "concept_ids": ["CON-MUL-D81C154E4B0B4E"],
+      "learning_objective": "Recall that the inferior oblique elevates, extorts and abducts."
+    },
+    {
+      "key": "q13", "id": "QST-KASR315OPH-KAMAL-CH5-13", "page": 45,
+      "title": "Cause of pseudostrabismus",
+      "question": "Causes of pseudo-strabismus:",
+      "options": { "A": "Extraocular muscle paralysis.", "B": "Presence of large or small interpupillary distance.", "C": "Cranial nerve palsy.", "D": "Extraocular muscle surgery." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Extraocular muscle paralysis produces a true (paralytic) squint with real deviation, not a false appearance.",
+        "B": "Correct. Pseudostrabismus is a false impression of squint in eyes that are actually straight, produced by facial features such as prominent epicanthic folds or an unusually large or small interpupillary distance. The corneal light reflex is central and the cover test shows no movement, confirming there is no true deviation. It needs reassurance, not squint treatment.",
+        "C": "Incorrect. Cranial nerve palsy causes a true paralytic strabismus, not pseudostrabismus.",
+        "D": "Incorrect. Extraocular muscle surgery alters a real deviation; it is not a cause of the false appearance of squint."
+      },
+      "subtopic": "Strabismus", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-3A37D632008FA9", "concept_ids": ["CON-MUL-3A37D632008FA9"],
+      "learning_objective": "Recognise abnormal interpupillary distance and epicanthus as causes of pseudostrabismus."
+    },
+    {
+      "key": "q14", "id": "QST-KASR315OPH-KAMAL-CH5-14", "page": 45,
+      "title": "Cranial nerve controlling adduction",
+      "question": "Ocular adduction is controlled by:",
+      "options": { "A": "4th cranial nerve.", "B": "3rd cranial nerve.", "C": "6th cranial nerve.", "D": "5th cranial nerve." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The fourth (trochlear) nerve supplies the superior oblique and does not adduct the eye.",
+        "B": "Correct. Adduction is produced by the medial rectus, which is innervated by the third (oculomotor) cranial nerve. So ocular adduction is controlled by the third nerve. This is why third-nerve palsy limits adduction and leaves the eye deviated outward.",
+        "C": "Incorrect. The sixth (abducens) nerve supplies the lateral rectus and produces abduction, the opposite movement.",
+        "D": "Incorrect. The fifth (trigeminal) nerve is not an ocular motor nerve and does not move the globe."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-8B71EF8CD65FF3", "concept_ids": ["CON-MUL-8B71EF8CD65FF3"],
+      "learning_objective": "State that the third nerve controls adduction."
+    },
+    {
+      "key": "q15", "id": "QST-KASR315OPH-KAMAL-CH5-15", "page": 45,
+      "title": "True statement about cranial nerve palsies",
+      "question": "Regarding cranial nerves palsy:",
+      "options": { "A": "6th nerve palsy causes limitation of abduction.", "B": "4th nerve palsy causes limitation of elevation.", "C": "3rd nerve palsy causes limitation of downward movement.", "D": "5th nerve palsy causes limitation of adduction." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The sixth (abducens) nerve supplies the lateral rectus, the abductor of the eye, so its palsy limits abduction and produces esotropia. This is the true statement. Horizontal diplopia worsens on gaze toward the affected side.",
+        "B": "Incorrect. Fourth (trochlear) nerve palsy weakens the superior oblique and limits depression of the adducted eye, not elevation.",
+        "C": "Incorrect. Third-nerve palsy limits adduction, elevation and depression, but downgaze is partly preserved by the intact superior oblique; the classic eye position is down and out.",
+        "D": "Incorrect. The fifth (trigeminal) nerve does not move the eye, so its lesion does not limit adduction."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-FA92C0D77C4BAD", "concept_ids": ["CON-MUL-FA92C0D77C4BAD"],
+      "learning_objective": "Recognise that sixth-nerve palsy limits abduction."
+    },
+    {
+      "key": "q16", "id": "QST-KASR315OPH-KAMAL-CH5-16", "page": 45,
+      "title": "Muscle arising from the annulus of Zinn",
+      "question": "The following muscle arises from the annulus of Zinn:",
+      "options": { "A": "Levator palpebrae superioris.", "B": "Muller's muscle.", "C": "Medial rectus.", "D": "Orbicularis oculi." },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The levator palpebrae superioris arises just above the annulus, from the lesser wing of the sphenoid, not from the annulus itself.",
+        "B": "Incorrect. Muller's muscle is a small sympathetic smooth muscle of the eyelid arising from the undersurface of the levator, not from the annulus of Zinn.",
+        "C": "Correct. The medial rectus, like all four recti, takes origin from the annulus of Zinn (the common tendinous ring) at the orbital apex. The recti and the superior oblique arise here, whereas the inferior oblique arises from the orbital floor. So among the options the medial rectus is the annulus-of-Zinn muscle.",
+        "D": "Incorrect. The orbicularis oculi is a facial muscle of the eyelids supplied by the facial nerve; it does not arise from the annulus of Zinn."
+      },
+      "subtopic": "Extraocular muscle anatomy", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-1A1EB63A33CA67", "concept_ids": ["CON-MUL-1A1EB63A33CA67"],
+      "learning_objective": "Identify the recti (medial rectus) as arising from the annulus of Zinn."
+    },
+    {
+      "key": "q17", "id": "QST-KASR315OPH-KAMAL-CH5-17", "page": 45,
+      "title": "Muscle supplied by the oculomotor nerve",
+      "question": "The 3rd cranial nerve (oculomotor nerve) supplies the following muscle:",
+      "options": { "A": "Orbicularis oculi muscle", "B": "Inferior oblique muscle", "C": "Lateral rectus muscle", "D": "Superior oblique muscle" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The orbicularis oculi is supplied by the facial (seventh) nerve, not the oculomotor nerve.",
+        "B": "Correct. The third (oculomotor) nerve supplies the inferior oblique along with the superior, inferior and medial recti and the levator palpebrae superioris. It does not supply the superior oblique (trochlear) or the lateral rectus (abducens). So among these options the inferior oblique is the oculomotor muscle.",
+        "C": "Incorrect. The lateral rectus is supplied by the sixth (abducens) nerve.",
+        "D": "Incorrect. The superior oblique is supplied by the fourth (trochlear) nerve."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-99FCBE10530E7E", "concept_ids": ["CON-MUL-99FCBE10530E7E"],
+      "learning_objective": "Recall that the third nerve supplies the inferior oblique."
+    },
+    {
+      "key": "q18", "id": "QST-KASR315OPH-KAMAL-CH5-18", "page": 46,
+      "title": "Cranial nerve responsible for abduction",
+      "question": "The following cranial nerve is responsible for abduction of the eye:",
+      "options": { "A": "Third nerve.", "B": "Fourth nerve.", "C": "Fifth nerve.", "D": "Sixth nerve." },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The third (oculomotor) nerve supplies the medial rectus and adducts the eye, the opposite movement.",
+        "B": "Incorrect. The fourth (trochlear) nerve supplies the superior oblique and does not abduct the eye.",
+        "C": "Incorrect. The fifth (trigeminal) nerve is not an ocular motor nerve and does not move the globe.",
+        "D": "Correct. Abduction (outward movement) of the eye is produced by the lateral rectus, which is supplied by the sixth (abducens) nerve. So the sixth nerve is responsible for abduction. Its palsy limits abduction and causes esotropia."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-FA92C0D77C4BAD", "concept_ids": ["CON-MUL-FA92C0D77C4BAD"],
+      "learning_objective": "State that the sixth nerve (lateral rectus) produces abduction."
+    },
+    {
+      "key": "q19", "id": "QST-KASR315OPH-KAMAL-CH5-19", "page": 46,
+      "title": "Refractive error associated with esophoria",
+      "question": "Esophoria is commonly associated with which error of refraction?",
+      "options": { "A": "Myopia.", "B": "Hypermetropia.", "C": "Presbyopia.", "D": "Compound astigmatism." },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Myopia is associated with exophoria, because myopes accommodate and converge less.",
+        "B": "Correct. Uncorrected hypermetropes accommodate constantly to see clearly, and the accommodation-convergence reflex drives excess convergence, so the eyes tend to drift inward, giving a latent convergent deviation (esophoria). Fusion keeps the eyes straight until it is interrupted, when the deviation becomes manifest. This is the counterpart of the exophoria seen with myopia.",
+        "C": "Incorrect. Presbyopia is age-related loss of accommodation and is not the classic association of esophoria.",
+        "D": "Incorrect. Compound astigmatism is not the recognised refractive association of esophoria."
+      },
+      "subtopic": "Heterophoria", "question_type": "Recall", "reasoning_level": 1,
+      "main_concept": "CON-MUL-A65F2AA7A56AE6", "concept_ids": ["CON-MUL-A65F2AA7A56AE6"],
+      "learning_objective": "Associate esophoria with hypermetropia."
+    },
+    {
+      "key": "q20", "id": "QST-KASR315OPH-KAMAL-CH5-20", "page": 46,
+      "title": "Diagnosis of diabetic diplopia with esotropia",
+      "question": "A 60 year old patient has been diabetic for 20 years. He presented suffering from diplopia and esotropia. What is the probable diagnosis?",
+      "options": { "A": "Horner's syndrome.", "B": "Oculomotor nerve palsy.", "C": "Trochlear nerve palsy.", "D": "Abducent nerve palsy." },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Horner syndrome gives ptosis, miosis and anhidrosis from sympathetic interruption; it does not cause esotropia or diplopia.",
+        "B": "Incorrect. Oculomotor palsy produces exotropia (a down-and-out eye) with ptosis, not esotropia.",
+        "C": "Incorrect. Trochlear palsy causes a vertical/torsional deviation with head tilt, not a horizontal esotropia.",
+        "D": "Correct. A long-standing diabetic developing diplopia with esotropia has an ischaemic sixth (abducens) nerve palsy: the weak lateral rectus lets the eye drift inward and abduction is limited. Microvascular sixth-nerve palsy is a classic diabetic mononeuropathy and usually recovers over weeks to months. The convergent deviation with horizontal diplopia points to the sixth nerve."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Application", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-0ED841A9984F91", "concept_ids": ["CON-MUL-0ED841A9984F91"],
+      "learning_objective": "Attribute esotropia with diplopia in a diabetic to abducens nerve palsy."
+    },
+    {
+      "key": "q21", "id": "QST-KASR315OPH-KAMAL-CH5-21", "page": 46,
+      "title": "Treatment of concomitant esotropia",
+      "question": "Treatment of a case of concomitant esotropia includes:",
+      "options": { "A": "Correction of the error of refraction by using concave lenses", "B": "Correction of the error of refraction by using convex lenses", "C": "Treatment of amblyopia if present by occlusion of the weak eye", "D": "Surgical treatment which is always needed in all cases" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Concave (minus) lenses correct myopia; concomitant esotropia is typically accommodative and associated with hypermetropia, which needs plus lenses.",
+        "B": "Correct. Concomitant esotropia is commonly accommodative, driven by uncorrected hypermetropia, so prescribing the full convex (plus) hypermetropic correction relaxes accommodation and can straighten the eyes. This is the first-line treatment before any surgery is considered. Convex lenses address the underlying refractive cause of the convergent deviation.",
+        "C": "Incorrect. Amblyopia is treated by occluding the sound (better-seeing) eye to force use of the weak eye, not by occluding the weak eye.",
+        "D": "Incorrect. Surgery is not always needed; many accommodative esotropias are controlled with glasses, and surgery is reserved for the non-accommodative or residual deviation."
+      },
+      "subtopic": "Strabismus", "question_type": "Application", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-B8ABE72897744D", "concept_ids": ["CON-MUL-B8ABE72897744D"],
+      "learning_objective": "Recognise convex lenses as treatment for accommodative concomitant esotropia."
+    },
+    {
+      "key": "q22", "id": "QST-KASR315OPH-KAMAL-CH5-22", "page": 46,
+      "title": "True statement about paralytic strabismus",
+      "question": "Regarding paralytic strabismus:",
+      "options": { "A": "Eye deviates to the opposite direction of action of paralyzed muscle", "B": "Limitation of movement in the opposite direction of the paralyzed muscle.", "C": "Diplopia rarely occurs in paralytic squint", "D": "Injury of the nerve trunk is the only cause" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In paralytic strabismus the affected muscle cannot pull the eye into its field of action, so the unopposed antagonist deviates the eye in the opposite direction. For example, a lateral rectus palsy leaves the eye deviated inward, away from the muscle's abducting action. This is the true statement.",
+        "B": "Incorrect. Movement is limited in the direction of the paralysed muscle's action (toward its field), not in the opposite direction.",
+        "C": "Incorrect. Diplopia is characteristic of and usually prominent in paralytic squint, being worst in the direction of the paralysed muscle's action.",
+        "D": "Incorrect. Nerve trunk injury is only one cause; paralytic squint also follows nuclear, muscular and neuromuscular-junction lesions and vascular palsies."
+      },
+      "subtopic": "Strabismus", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-D1F106D916CEBE", "concept_ids": ["CON-MUL-D1F106D916CEBE"],
+      "learning_objective": "State that in paralytic strabismus the eye deviates opposite to the paralysed muscle's action."
+    },
+    {
+      "key": "q23", "id": "QST-KASR315OPH-KAMAL-CH5-23", "page": 46,
+      "title": "Cause of ptosis with mydriasis",
+      "question": "Ptosis and mydriasis are seen in:",
+      "options": { "A": "Facial palsy", "B": "Peripheral neuritis", "C": "Oculomotor palsy", "D": "Sympathetic palsy" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Facial (seventh) nerve palsy weakens eyelid closure (lagophthalmos), not lid elevation, and does not dilate the pupil.",
+        "B": "Incorrect. A non-specific peripheral neuritis does not produce the specific combination of ptosis with a dilated pupil.",
+        "C": "Correct. Third (oculomotor) nerve palsy paralyses the levator, causing ptosis, and when the parasympathetic pupillary fibres are affected the sphincter pupillae is denervated, giving a fixed dilated pupil (mydriasis). The eye also rests down and out. This ptosis-plus-mydriasis pattern distinguishes it from Horner syndrome.",
+        "D": "Incorrect. Sympathetic (Horner) palsy causes ptosis with a small pupil (miosis), not mydriasis."
+      },
+      "subtopic": "Cranial nerve palsies", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-F5AC61B694F270", "concept_ids": ["CON-MUL-F5AC61B694F270"],
+      "learning_objective": "Attribute ptosis with mydriasis to oculomotor nerve palsy."
+    },
+    {
+      "key": "q24", "id": "QST-KASR315OPH-KAMAL-CH5-24", "page": 46,
+      "title": "True statement about esotropia",
+      "question": "Esotropia is:",
+      "options": { "A": "Divergent squint", "B": "Latent convergent squint", "C": "Congenital if it appears after 6 months of age", "D": "Associated with accommodation and hypermetropia" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Esotropia is a convergent (inward) squint; a divergent squint is exotropia.",
+        "B": "Incorrect. Esotropia is a manifest convergent deviation; the latent form is esophoria, not esotropia.",
+        "C": "Incorrect. Infantile (congenital) esotropia appears within the first 6 months of life; onset after that is acquired, not congenital.",
+        "D": "Correct. A common form is accommodative esotropia, in which uncorrected hypermetropia drives excess accommodation and the linked convergence turns the eye inward. Correcting the hypermetropia with convex lenses relaxes accommodation and can straighten the eyes. This accommodation-hypermetropia link is the true statement."
+      },
+      "subtopic": "Strabismus", "question_type": "Classification", "difficulty": "Moderate", "reasoning_level": 2,
+      "main_concept": "CON-MUL-B8ABE72897744D", "concept_ids": ["CON-MUL-B8ABE72897744D"],
+      "learning_objective": "Recognise accommodative esotropia as associated with hypermetropia."
+    },
+    {
+      "key": "q25", "id": "QST-KASR315OPH-KAMAL-CH5-25", "page": 46,
+      "title": "Muscle not supplied by the third nerve",
+      "question": "Third cranial nerve supplies the following muscles except:",
+      "options": { "A": "Superior rectus", "B": "Superior oblique", "C": "Medial rectus", "D": "Inferior oblique" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is supplied by the third nerve). The superior rectus is one of the recti innervated by the oculomotor nerve.",
+        "B": "Correct. The superior oblique is the exception: it is supplied by the fourth (trochlear) nerve, not the third. The oculomotor nerve supplies the superior, inferior and medial recti, the inferior oblique and the levator, so the superior oblique is the one it does not supply. The lateral rectus (abducens) is the other non-oculomotor muscle.",
+        "C": "Incorrect (it is supplied by the third nerve). The medial rectus is an oculomotor muscle and adducts the eye.",
+        "D": "Incorrect (it is supplied by the third nerve). The inferior oblique is innervated by the oculomotor nerve."
+      },
+      "subtopic": "Ocular motor innervation", "question_type": "Classification", "reasoning_level": 2,
+      "main_concept": "CON-MUL-99FCBE10530E7E", "concept_ids": ["CON-MUL-99FCBE10530E7E"],
+      "learning_objective": "Identify the superior oblique (trochlear) as the muscle not supplied by the third nerve."
+    }
+  ]
+}

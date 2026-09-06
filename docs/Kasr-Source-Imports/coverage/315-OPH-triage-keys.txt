@@ -247,3 +247,41 @@ Q81.B  Q82.D  Q83.B  Q84.D  Q85.A  Q86.B  Q87.C  Q88.A  Q89.B  Q90.D  Q91.A
 # STILL DEFERRED for adjudication (do NOT author blind): Ch.4 Q50-54; Ch.3 vignettes Q59-76 + Q89-91;
 #  Ch.3 sub-4-option Q20 (3-option), Q48 & Q49 (True/False).
 # REMAINING for next tranche: Chapter 5 Ocular motility (bank p.41 / PDF p.43), then Ch.6 Glaucoma.
+
+
+# ===================================================================
+# TRANCHE 8 (2026-09-06): Chapter 5 Ocular motility, Q1-25 slice
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.3
+# "Chapter 5: Ocular motility in health and disease / MCQs (63 answers)" table. Each authored key
+# RE-VERIFIED against the bank option text (bank pp.41-44 = PDF p.43-46). 25 authored / 2 held / 0 excluded.
+
+# Chapter 5 - Ocular motility in health and disease (full answer-key table, 63 answers)
+Q1.C   Q2.B   Q3.C   Q4.C   Q5.B   Q6.B   Q7.C   Q8.A   Q9.A   Q10.A
+Q11.A  Q12.A  Q13.B  Q14.B  Q15.A  Q16.C  Q17.B  Q18.D  Q19.B  Q20.D
+Q21.B  Q22.A  Q23.C  Q24.D  Q25.B  Q26.B  Q27.A  Q28.B  Q29.D  Q30.B
+Q31.B  Q32.D  Q33.D  Q34.A  Q35.B  Q36.B  Q37.B  Q38.C  Q39.C  Q40.A
+Q41.D  Q42.C  Q43.D  Q44.A  Q45.D  Q46.C  Q47.A  Q48.C  Q49.D  Q50.B
+Q51.D  Q52.B  Q53.B  Q54.B  Q55.D  Q56.D  Q57.D  Q58.C  Q59.B  Q60.D
+Q61.C  Q62.D  Q63.A
+# HELD (authored around, not emitted):
+#  Q26 - two-option True/False statement (a True, b False); below the four-option MCQ floor. Key Q26.B.
+#  Q27 - three-option item (a cover-uncover, b Hess screen, c motility limitation); below the four-option floor. Key Q27.A.
+# Cross-check notes for the authored Q1-25 (key -> option chosen, verified vs stem):
+#  Q1 C inferior oblique (EXCEPT - arises from orbital floor, not apex); Q2 B superior rectus = elevation/intorsion/adduction;
+#  Q3 C brain MRI (acquired 6th-nerve palsy, esotropia + limited abduction); Q4 C amblyopia from congenital cataract/corneal opacity;
+#  Q5 B oculomotor palsy is the EXCEPT (3rd palsy -> exotropia, not esotropia); Q6 B oculomotor palsy (exotropia, vasculopathic);
+#  Q7 C trochlear supplies superior oblique; Q8 A bilateral mild myopia is the EXCEPT (symmetric, no amblyopia);
+#  Q9 A third nerve adducts (medial rectus); Q10 A exophoria with myopia; Q11 A third nerve palsy (ptosis + limited adduction + exotropia);
+#  Q12 A inferior oblique = extorsion/elevation/abduction; Q13 B pseudostrabismus from large/small IPD; Q14 B third nerve controls adduction;
+#  Q15 A 6th palsy limits abduction (true statement); Q16 C medial rectus from annulus of Zinn; Q17 B third nerve supplies inferior oblique;
+#  Q18 D sixth nerve abducts (lateral rectus); Q19 B esophoria with hypermetropia; Q20 D abducent palsy (diabetic esotropia + diplopia);
+#  Q21 B convex lenses (accommodative concomitant esotropia); Q22 A eye deviates opposite to paralysed muscle action;
+#  Q23 C oculomotor palsy (ptosis + mydriasis); Q24 D esotropia associated with accommodation + hypermetropia;
+#  Q25 B superior oblique is the EXCEPT (trochlear, not third nerve).
+# Concept reuse within slice: EOM-origins Q1/Q16; amblyopia Q4/Q8; oculomotor-palsy Q5/Q6/Q11/Q23; MR-adduction Q9/Q14;
+#  abducens-LR Q15/Q18; oculomotor-supply Q17/Q25; accommodative-esotropia Q21/Q24; abducens-palsy Q3/Q20 => 15 concepts for 25 Qs.
+# REMAINING for next tranche: Chapter 5 Q28-63 (Q26/Q27 held; the Q31-36+ vignettes are multi-statement -> adjudication),
+#  then Ch.6 Glaucoma (key p.3, 70 answers; table omits Q36/Q48/Q49), Ch.7 Red eye, Ch.8-15.
+# STILL DEFERRED for adjudication (do NOT author blind, unchanged this tranche): Ch.4 Q50-54; Ch.3 vignettes Q59-76 + Q89-91;
+#  Ch.3 sub-4-option Q20 (3-option), Q48 & Q49 (True/False).

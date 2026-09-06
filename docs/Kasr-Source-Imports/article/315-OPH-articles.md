@@ -462,3 +462,104 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-91). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the retinal/vitreous concepts (Q25, Q41, Q70, Q87) are filed on DIS-OPH-T04 (Retina) and the prognosis test (Q91) on DIS-OPH-T01 (Eye examination), but grouped here with their chapter. Reused Ch.4 concepts: Q26/Q27/Q45/Q49 (earlier tranche) and Q69 choroidal-folds, Q71 accommodation-loss, Q74 minus-cylinder, Q75 hypermetropia-angle-closure, Q77 presbyopia, Q80 endothelial-pump, Q84 keratoconus-astigmatism, Q89 Purkinje-images. Chapter 4 has 91 keyed MCQs, now fully authored (Q1-49, Q55-91 = 76) EXCEPT the multi-true clinical vignettes Q50-54 and Q55/Q57-59/Q61/Q62/Q64-67 (each lists more than one true statement), which are deferred for adjudication; the post-Q91 T/F Cases section is multi-true and out of scope.
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-OPH-315-OCULAR-MOTILITY
+## title
+Ophthalmology: ocular motility in health and disease (extraocular muscles, cranial nerve palsies and strabismus)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article groups the ocular-motility facts tested by Chapter 5 of the question bank (MCQ Q1-25). It covers the extraocular muscles and their origins (the four recti and the superior oblique arising from the annulus of Zinn at the orbital apex, the inferior oblique arising anteriorly from the orbital floor), their actions (superior rectus elevation-intorsion-adduction and inferior oblique elevation-extorsion-abduction), and their innervation (the third nerve supplying all extraocular muscles except the superior oblique, which is trochlear, and the lateral rectus, which is abducens; adduction by the medial rectus via the third nerve and abduction by the lateral rectus via the sixth). It covers the cranial nerve palsies (oculomotor palsy giving ptosis, mydriasis and a down-and-out eye; abducens palsy giving esotropia with limited abduction that warrants neuroimaging; paralytic strabismus deviating the eye opposite to the paralysed muscle's action), the heterophorias (exophoria with myopia, esophoria with hypermetropia), accommodative esotropia associated with hypermetropia and corrected by convex lenses, pseudostrabismus from epicanthus or abnormal interpupillary distance, and amblyopia as a childhood disorder of deprivation, strabismus or anisometropia.
+## sections
+### Definition
+Ocular motility is the coordinated movement of the two eyes by the six extraocular muscles under third, fourth and sixth cranial nerve control, allowing binocular single vision. This article gathers the Chapter-5 concepts on the muscles, their innervation, the squints and heterophorias that arise when alignment or movement fails, and amblyopia. Each linked concept states one atomic fact about ocular motility.
+### Mechanism
+Binocular single vision needs both eyes aligned and moving together. The recti and obliques, working from the annulus of Zinn and the orbital floor, move each eye; the third, fourth and sixth nerves drive them; and the accommodation-convergence link couples focusing to alignment. When a nerve is paralysed the eye deviates opposite to the paralysed muscle's field (paralytic squint); when accommodation is unbalanced by a refractive error the eyes drift into a heterophoria or accommodative esotropia; and when clear binocular input is lost in childhood the brain suppresses one image and amblyopia develops.
+### Key determinants
+Discriminators tested here: only the inferior oblique arises anteriorly (from the orbital floor) while the recti and superior oblique arise at the apex; the third nerve supplies all extraocular muscles except the superior oblique (trochlear) and lateral rectus (abducens); the medial rectus adducts and the lateral rectus abducts; oculomotor palsy gives ptosis with mydriasis and a down-and-out eye whereas abducens palsy gives esotropia with limited abduction; exophoria pairs with myopia and esophoria with hypermetropia; accommodative esotropia is corrected by convex lenses; pseudostrabismus has a central corneal reflex and normal cover test; and amblyopia is an asymmetric childhood disorder, not the result of mild symmetric refractive error.
+### Clinical significance
+These facts underlie the clinical assessment of a squinting or diplopic patient: localising a cranial nerve palsy, deciding when an acquired sixth-nerve palsy needs neuroimaging rather than surgery, distinguishing true strabismus from pseudostrabismus, prescribing convex lenses for accommodative esotropia, and detecting and treating amblyopia early while vision is still recoverable.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (inferior oblique versus the apex-origin muscles, superior rectus versus inferior oblique actions, oculomotor versus trochlear versus abducens supply, oculomotor palsy versus Horner syndrome, exophoria versus esophoria, and true squint versus pseudostrabismus).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease
+## subtopic
+Ocular motility in health and disease
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-1A1EB63A33CA67
+CON-MUL-35A6E75513E4DB
+CON-MUL-0ED841A9984F91
+CON-MUL-32DDCFEA917C5C
+CON-MUL-F5AC61B694F270
+CON-MUL-D80292BFE190EE
+CON-MUL-8B71EF8CD65FF3
+CON-MUL-F528969F27AB4B
+CON-MUL-D81C154E4B0B4E
+CON-MUL-3A37D632008FA9
+CON-MUL-FA92C0D77C4BAD
+CON-MUL-99FCBE10530E7E
+CON-MUL-A65F2AA7A56AE6
+CON-MUL-B8ABE72897744D
+CON-MUL-D1F106D916CEBE
+## related_articles
+ART-OPH-315-EYE-ANATOMY
+ART-OPH-315-EYE-EXAM
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Chapter-5 ocular-motility concepts (MCQ Q1-25). Filed under the closest verified node DIS-OPH-T05 (Neuro-ophthalmology); DIS-OPH has no dedicated strabismus/ocular-motility node, so the extraocular-muscle anatomy, cranial-nerve, squint and amblyopia facts are all grouped here. Chapter 5 has 63 keyed MCQs; Q1-25 authored this tranche, Q26 (True/False) and Q27 (3-option) held below the four-option floor, Q26+ remain for the next tranche.
+## reading_time
+4

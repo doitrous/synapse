@@ -17013,3 +17013,1667 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q55-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
 
+---
+
+# Item
+## id
+CON-MUL-1A1EB63A33CA67
+## label
+The recti and superior oblique arise from the orbital apex, the inferior oblique from the orbital floor
+## canonical_key
+ophthalmology.extraocular-muscle-origins.recti-from-annulus-of-zinn-inferior-oblique-from-floor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The four rectus muscles and the superior oblique arise from the annulus of Zinn at the apex of the orbit; the inferior oblique is the only extraocular muscle that arises anteriorly, from the orbital floor near the lacrimal fossa. The levator palpebrae superioris arises just above the annulus from the lesser wing of the sphenoid.
+## explicit_objective
+State that the recti and superior oblique arise from the orbital apex (annulus of Zinn) while the inferior oblique arises from the orbital floor.
+## pitfalls
+Assuming every extraocular muscle arises at the apex: the inferior oblique is the exception, taking origin anteriorly from the orbital floor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Extraocular muscle anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Extraocular muscle anatomy
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-35A6E75513E4DB
+## label
+The superior rectus elevates, intorts and adducts the eye
+## canonical_key
+ophthalmology.superior-rectus.elevation-intorsion-adduction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because the superior rectus runs above the globe at an angle to the visual axis, its primary action is elevation, with secondary intorsion and adduction. Its actions are tested in abduction, where elevation becomes pure.
+## explicit_objective
+Recall that the superior rectus produces elevation, intorsion and adduction.
+## pitfalls
+Confusing it with the inferior oblique (which also elevates but extorts and abducts): the superior rectus intorts and adducts.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Extraocular muscle actions
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Extraocular muscle actions
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0ED841A9984F91
+## label
+Abducens (sixth) nerve palsy causes esotropia with limited abduction and warrants neuroimaging
+## canonical_key
+ophthalmology.abducens-nerve-palsy.esotropia-with-limited-abduction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Paralysis of the sixth (abducens) nerve weakens the lateral rectus, so the eye cannot abduct and drifts inward into an esotropia, producing horizontal diplopia that worsens on gaze to the affected side. In an adult, especially a vasculopath, a non-resolving isolated sixth-nerve palsy needs neuroimaging to exclude a compressive or intracranial cause before muscle surgery is considered.
+## explicit_objective
+Recognise sixth-nerve palsy as a cause of esotropia with limited abduction that requires neuroimaging.
+## pitfalls
+Rushing to squint surgery: an acquired sixth-nerve palsy is a neurological sign and must be investigated (brain MRI), not immediately operated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cranial nerve palsies
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Cranial nerve palsies
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-32DDCFEA917C5C
+## label
+Amblyopia is a childhood disorder from deprivation, strabismus or anisometropia
+## canonical_key
+ophthalmology.amblyopia.caused-by-deprivation-strabismus-or-anisometropia-in-childhood
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amblyopia is reduced best-corrected vision from abnormal visual development in early childhood, caused by stimulus deprivation (for example congenital cataract or corneal opacity), constant strabismus, or anisometropia. It is treatable while the visual system is plastic in childhood, so it is a serious, preventable problem; symmetric bilateral mild refractive error does not cause it.
+## explicit_objective
+State that amblyopia results from childhood deprivation, strabismus or anisometropia and must be treated early.
+## pitfalls
+Thinking a mild symmetric bilateral refractive error causes amblyopia, or that amblyopia is a benign adult problem: it is an asymmetric childhood disorder that permanently harms vision if untreated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Amblyopia
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Amblyopia
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F5AC61B694F270
+## label
+Oculomotor (third) nerve palsy gives ptosis, mydriasis and a down-and-out eye
+## canonical_key
+ophthalmology.oculomotor-nerve-palsy.ptosis-mydriasis-and-down-and-out-eye
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Third (oculomotor) nerve palsy paralyses the levator and most extraocular muscles, so the eye rests down and out (exotropia and hypotropia) with complete ptosis and, when the pupillary fibres are involved, a fixed dilated pupil (mydriasis). Adduction, elevation and depression are limited because the medial, superior and inferior recti and inferior oblique are all denervated.
+## explicit_objective
+Recognise the triad of ptosis, mydriasis and a down-and-out (exotropic) eye in oculomotor palsy.
+## pitfalls
+Confusing it with Horner syndrome, which also causes ptosis but gives miosis (not mydriasis) and no exotropia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cranial nerve palsies
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Cranial nerve palsies
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D80292BFE190EE
+## label
+The trochlear (fourth) nerve supplies only the superior oblique muscle
+## canonical_key
+ophthalmology.trochlear-nerve.supplies-superior-oblique-muscle
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fourth cranial (trochlear) nerve innervates a single muscle, the superior oblique, whose primary action is intorsion with depression in adduction. Its palsy causes vertical diplopia worse on downgaze and a compensatory head tilt away from the affected side.
+## explicit_objective
+State that the trochlear nerve supplies only the superior oblique muscle.
+## pitfalls
+Assigning the superior oblique to the oculomotor nerve: the superior oblique is trochlear, and the lateral rectus is abducens; the third nerve supplies the rest.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular motor innervation
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Ocular motor innervation
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8B71EF8CD65FF3
+## label
+The medial rectus, supplied by the third nerve, adducts the eye
+## canonical_key
+ophthalmology.medial-rectus.adducts-eye-via-oculomotor-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adduction (inward movement) of the eye is produced by the medial rectus muscle, which is innervated by the third (oculomotor) cranial nerve. Weakness of adduction therefore points to medial rectus or third-nerve dysfunction.
+## explicit_objective
+State that the third nerve, through the medial rectus, controls adduction of the eye.
+## pitfalls
+Attributing adduction to the sixth nerve: the sixth nerve abducts (lateral rectus); adduction is the third nerve through the medial rectus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular motor innervation
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Ocular motor innervation
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F528969F27AB4B
+## label
+Exophoria is commonly associated with myopia
+## canonical_key
+ophthalmology.exophoria.associated-with-myopia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Myopes need little or no accommodation for near, so the accommodation-convergence link drives less convergence and the eyes tend to drift outward, giving a latent divergent deviation (exophoria). It is controlled by fusion and becomes manifest when fusion is broken, as on cover testing.
+## explicit_objective
+Associate exophoria with myopia.
+## pitfalls
+Swapping the associations: exophoria goes with myopia, whereas esophoria goes with hypermetropia (which over-accommodates and over-converges).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Heterophoria
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Heterophoria
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D81C154E4B0B4E
+## label
+The inferior oblique elevates, extorts and abducts the eye
+## canonical_key
+ophthalmology.inferior-oblique.elevation-extorsion-abduction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The inferior oblique passes below the globe from the orbital floor to insert postero-laterally, so its primary action is extorsion with secondary elevation and abduction. It elevates the eye maximally when the eye is adducted.
+## explicit_objective
+Recall that the inferior oblique produces elevation, extorsion and abduction.
+## pitfalls
+Confusing it with the superior rectus (which also elevates but intorts and adducts): the inferior oblique extorts and abducts.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Extraocular muscle actions
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Extraocular muscle actions
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3A37D632008FA9
+## label
+Pseudostrabismus is a false impression of squint from epicanthus or abnormal interpupillary distance
+## canonical_key
+ophthalmology.pseudostrabismus.due-to-epicanthus-or-abnormal-interpupillary-distance
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pseudostrabismus is the false appearance of ocular deviation in eyes that are actually straight, caused by prominent epicanthic folds, a broad or narrow nasal bridge, or an unusually large or small interpupillary distance. The corneal light reflex is central and the cover test shows no movement, confirming there is no true squint.
+## explicit_objective
+State that pseudostrabismus is a false squint from epicanthus or abnormal interpupillary distance, with a normal cover test.
+## pitfalls
+Mistaking pseudostrabismus for a true squint and treating it: the corneal reflex is central and the cover test shows no movement.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Strabismus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Strabismus
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FA92C0D77C4BAD
+## label
+The abducens (sixth) nerve supplies the lateral rectus and abducts the eye
+## canonical_key
+ophthalmology.abducens-nerve.supplies-lateral-rectus-and-abducts-eye
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The sixth (abducens) cranial nerve innervates the lateral rectus muscle, which abducts the eye (moves it outward). Its palsy therefore limits abduction and produces an esotropia.
+## explicit_objective
+State that the sixth nerve, through the lateral rectus, produces abduction of the eye.
+## pitfalls
+Attributing abduction to another nerve: only the sixth nerve (lateral rectus) abducts; the fourth supplies the superior oblique and the third supplies the remaining muscles.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular motor innervation
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Ocular motor innervation
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-99FCBE10530E7E
+## label
+The oculomotor (third) nerve supplies all extraocular muscles except the superior oblique and lateral rectus
+## canonical_key
+ophthalmology.oculomotor-nerve.supplies-all-extraocular-muscles-except-superior-oblique-and-lateral-rectus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The third (oculomotor) nerve innervates the superior, inferior and medial recti, the inferior oblique and the levator palpebrae superioris, and carries the parasympathetic supply to the sphincter pupillae and ciliary muscle. The only extraocular muscles it does not supply are the superior oblique (trochlear) and the lateral rectus (abducens).
+## explicit_objective
+List the muscles supplied by the third nerve and identify the superior oblique and lateral rectus as the exceptions.
+## pitfalls
+Including the superior oblique among third-nerve muscles: it is trochlear; the lateral rectus is abducens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ocular motor innervation
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Ocular motor innervation
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A65F2AA7A56AE6
+## label
+Esophoria is commonly associated with hypermetropia
+## canonical_key
+ophthalmology.esophoria.associated-with-hypermetropia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Uncorrected hypermetropes accommodate constantly to see clearly, and the accommodation-convergence reflex drives excess convergence, so the eyes tend to drift inward, giving a latent convergent deviation (esophoria). It is held straight by fusion and becomes manifest when fusion is interrupted.
+## explicit_objective
+Associate esophoria with hypermetropia.
+## pitfalls
+Swapping the associations: esophoria goes with hypermetropia (over-accommodation and over-convergence), whereas exophoria goes with myopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Heterophoria
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Heterophoria
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B8ABE72897744D
+## label
+Accommodative esotropia is associated with hypermetropia and corrected by convex lenses
+## canonical_key
+ophthalmology.accommodative-esotropia.associated-with-hypermetropia-corrected-by-convex-lenses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Concomitant convergent squint of childhood is often accommodative: an uncorrected hypermetrope over-accommodates to focus, and the linked convergence pulls the eye inward into esotropia. Prescribing the full hypermetropic (convex, plus) correction relaxes accommodation and can straighten the eyes, and any coexisting amblyopia is treated by occluding the sound eye.
+## explicit_objective
+State that accommodative esotropia relates to hypermetropia and is treated by convex (plus) spectacle correction.
+## pitfalls
+Prescribing concave lenses or occluding the squinting eye: hypermetropic accommodative esotropia needs convex lenses, and amblyopia therapy occludes the better-seeing eye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Strabismus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Strabismus
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D1F106D916CEBE
+## label
+In paralytic strabismus the eye deviates opposite to the action of the paralysed muscle
+## canonical_key
+ophthalmology.paralytic-strabismus.eye-deviates-opposite-to-action-of-paralysed-muscle
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In paralytic (incomitant) strabismus the affected muscle cannot move the eye in its field of action, so the unopposed antagonist deviates the eye in the opposite direction and movement is limited toward the paralysed muscle's field. The deviation and diplopia are greatest in the direction of the paralysed muscle's action, and the secondary deviation exceeds the primary.
+## explicit_objective
+State that in paralytic strabismus the eye deviates opposite to the action of the paralysed muscle, with limited movement toward that muscle's field.
+## pitfalls
+Expecting limitation opposite the paralysed muscle: movement is limited toward the paralysed muscle's field of action, and the eye deviates the other way.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Strabismus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular motility in health and disease > Strabismus
+## article_ids
+ART-OPH-315-OCULAR-MOTILITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.5 Ocular motility) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
