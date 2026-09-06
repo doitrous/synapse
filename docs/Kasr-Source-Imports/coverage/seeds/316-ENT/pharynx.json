@@ -1286,11 +1286,285 @@
       "subtopic": "Obstructive sleep apnoea",
       "learning_objective": "Recognise that sleep apnoea can be of central origin, so 'never central' is false."
     },
+    {
+      "key": "pharynx-q54",
+      "id": "QST-KASR316ENT-PHARYNX-54",
+      "page": 56,
+      "title": "Next step for a metastatic squamous neck node",
+      "question": "A 50 year old female presented with a 3 months history of right sided cervical lymph node swelling that was increasing in size. CT neck revealed heterogenous appearance of the lymph nodes and fine needle aspiration cytology came to be squamous cell carcinoma. The next step to do is:",
+      "options": {
+        "A": "Start radiotherapy for the neck.",
+        "B": "Take an open biopsy from the mass to support the diagnosis.",
+        "C": "Do panendoscopy of the upper aerodigestive tract with biopsy from any suspicious mass.",
+        "D": "Schedule the patient for radical neck dissection on the right side.",
+        "E": "Do abdominal ultrasound to detect if there are other lymph node enlargement."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Radiotherapy cannot be planned until the primary is found and the disease is staged.",
+        "B": "Incorrect. An open biopsy of the node is avoided because it can seed the neck and worsen the prognosis; the primary should be sought first.",
+        "C": "Correct. A cervical node showing metastatic squamous carcinoma with no obvious primary is worked up by panendoscopy of the upper aerodigestive tract (nasopharynx, pharynx, larynx and oesophagus) with biopsy of any suspicious mucosa and of the silent areas. This finds the hidden primary so that treatment can be planned. It is done before any open node biopsy or definitive therapy.",
+        "D": "Incorrect. Radical neck dissection is a treatment decided after the primary is identified and staged, not the next diagnostic step.",
+        "E": "Incorrect. An abdominal ultrasound does not address a squamous primary of the upper aerodigestive tract."
+      },
+      "main_concept": "CON-MUL-E0612BF8291870",
+      "concept_ids": ["CON-MUL-E0612BF8291870"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NECK-MASS"],
+      "difficulty": "Moderate",
+      "question_type": "Management",
+      "subtopic": "Neck masses",
+      "learning_objective": "Choose panendoscopy with biopsy of suspicious mucosa as the next step for a metastatic squamous cervical node with no obvious primary."
+    },
+    {
+      "key": "pharynx-q55",
+      "id": "QST-KASR316ENT-PHARYNX-55",
+      "page": 56,
+      "title": "Feature not suggesting a malignant lymph node",
+      "question": "Malignancy is suspected in enlarged lymph node if it has the following except:",
+      "options": {
+        "A": "Hard.",
+        "B": "Painful.",
+        "C": "Progressive.",
+        "D": "Fixed."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (a true feature). A hard consistency suggests malignancy, so it is not the exception.",
+        "B": "Correct (the exception). Pain is not a feature of a malignant lymph node; a painful, tender node suggests an inflammatory cause instead. Malignant nodes are typically hard, fixed, progressive and painless. Naming pain as a sign of malignancy is therefore the exception.",
+        "C": "Incorrect (a true feature). Progressive enlargement suggests malignancy, so it is not the exception.",
+        "D": "Incorrect (a true feature). Fixation to surrounding structures suggests malignancy, so it is not the exception."
+      },
+      "main_concept": "CON-MUL-D848D1B0E23E21",
+      "concept_ids": ["CON-MUL-D848D1B0E23E21"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NECK-MASS"],
+      "question_type": "Recall",
+      "subtopic": "Neck masses",
+      "learning_objective": "Recognise that pain is not a feature of a malignant lymph node."
+    },
+    {
+      "key": "pharynx-q56",
+      "id": "QST-KASR316ENT-PHARYNX-56",
+      "page": 56,
+      "title": "Structure that is not a silent area",
+      "question": "Not considered as a silent area in the head and neck:",
+      "options": {
+        "A": "Pyriform fossa.",
+        "B": "Vocal cord.",
+        "C": "Nasopharynx.",
+        "D": "Base of the tongue."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The pyriform fossa is a silent area, so it is not the structure that is 'not silent'.",
+        "B": "Correct. The vocal cord is not a silent area, because even a small glottic tumour causes early hoarseness and so declares itself. The true silent areas — nasopharynx, base of tongue and pyriform fossa — grow tumours quietly and present late. The vocal cord is therefore the structure that is not silent.",
+        "C": "Incorrect. The nasopharynx is a silent area, so it is not the answer.",
+        "D": "Incorrect. The base of the tongue is a silent area, so it is not the answer."
+      },
+      "main_concept": "CON-MUL-A81C6F630B204B",
+      "concept_ids": ["CON-MUL-A81C6F630B204B"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NECK-MASS"],
+      "question_type": "Recall",
+      "subtopic": "Neck masses",
+      "learning_objective": "Recognise that the vocal cord is not a silent area."
+    },
+    {
+      "key": "pharynx-q57",
+      "id": "QST-KASR316ENT-PHARYNX-57",
+      "page": 56,
+      "title": "Silent areas of the head and neck",
+      "question": "Silent areas in the head & neck include:",
+      "options": {
+        "A": "Nasopharynx.",
+        "B": "Base of the tongue.",
+        "C": "Pyriform fossa.",
+        "D": "All of the above.",
+        "E": "None of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. The nasopharynx is a silent area, but it is not the only one listed.",
+        "B": "Incorrect on its own. The base of the tongue is a silent area, but only part of the answer.",
+        "C": "Incorrect on its own. The pyriform fossa is a silent area, but again only one of the listed items.",
+        "D": "Correct. The silent areas of the head and neck are the nasopharynx, the base of the tongue and the pyriform fossa, each of which grows a tumour quietly and presents late. Because all three listed items are silent areas, all of the above is correct. Tumours here often present first as a neck node.",
+        "E": "Incorrect. Since all three listed sites are silent areas, none of the above is wrong."
+      },
+      "main_concept": "CON-MUL-A81C6F630B204B",
+      "concept_ids": ["CON-MUL-A81C6F630B204B"],
+      "library_ids": ["ART-ENT-316-PHARYNX-NECK-MASS"],
+      "question_type": "Recall",
+      "subtopic": "Neck masses",
+      "learning_objective": "List the nasopharynx, base of tongue and pyriform fossa as silent areas of the head and neck."
+    },
+    {
+      "key": "pharynx-q58",
+      "id": "QST-KASR316ENT-PHARYNX-58",
+      "page": 57,
+      "title": "Location of Killian's dehiscence",
+      "question": "Where is Killian's dehiscence located?",
+      "options": {
+        "A": "Between the superior and middle constrictor muscles.",
+        "B": "Between the cricopharyngeus and thyropharyngeus muscles.",
+        "C": "Between middle and inferior constrictor muscles.",
+        "D": "Between the cricopharyngeus and the most superior esophageal circular muscles."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Killian's dehiscence is not between the superior and middle constrictors.",
+        "B": "Correct. Killian's dehiscence is a weak area in the posterior wall of the lower pharynx, lying between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor muscle. It is the site through which a pharyngeal pouch (Zenker's diverticulum) herniates. The unsupported mucosa here yields to raised hypopharyngeal pressure.",
+        "C": "Incorrect. It is not between the middle and inferior constrictor muscles.",
+        "D": "Incorrect. It is not between the cricopharyngeus and the upper oesophageal circular muscles."
+      },
+      "main_concept": "CON-MUL-05AB642863DBCF",
+      "concept_ids": ["CON-MUL-05AB642863DBCF"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "State that Killian's dehiscence lies between the thyropharyngeus and cricopharyngeus muscles."
+    },
+    {
+      "key": "pharynx-q59",
+      "id": "QST-KASR316ENT-PHARYNX-59",
+      "page": 57,
+      "title": "First step for a swallowed coin",
+      "question": "A 3-year-old girl was brought to the ER after swallowing a coin. She has been vomiting and drooling since then. On examination, there were no signs of airway compromise. The first step in management of this girl is:",
+      "options": {
+        "A": "Barium Swallow.",
+        "B": "Neck Ultrasound.",
+        "C": "Plain X-ray of the neck and chest.",
+        "D": "MRI of the neck.",
+        "E": "Bronchoscopy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A barium swallow coats the field and risks aspiration, and is not the first step for a radio-opaque coin.",
+        "B": "Incorrect. Neck ultrasound does not reliably localise a swallowed coin in the oesophagus.",
+        "C": "Correct. A swallowed coin is radio-opaque, so the first step is a plain X-ray of the neck and chest to confirm and localise it. This guides removal by oesophagoscopy. Imaging first avoids blind instrumentation and clarifies whether the object is in the oesophagus or the airway.",
+        "D": "Incorrect. MRI is not the first investigation for a swallowed coin.",
+        "E": "Incorrect. Bronchoscopy addresses an airway foreign body, but here there is no airway compromise and the object is in the oesophagus."
+      },
+      "main_concept": "CON-MUL-AF866B8143912E",
+      "concept_ids": ["CON-MUL-AF866B8143912E"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "difficulty": "Moderate",
+      "question_type": "Management",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Choose a plain X-ray of the neck and chest as the first step for a swallowed radio-opaque coin."
+    },
+    {
+      "key": "pharynx-q60",
+      "id": "QST-KASR316ENT-PHARYNX-60",
+      "page": 57,
+      "title": "Oesophageal foreign bodies in prisoners",
+      "question": "Foreign bodies in the oesophagus in prisoners are mostly:",
+      "options": {
+        "A": "Coins.",
+        "B": "Razors and pins.",
+        "C": "Fishbone.",
+        "D": "Dentures."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Coins are the typical foreign body in children, not the characteristic one in prisoners.",
+        "B": "Correct. Oesophageal foreign bodies in prisoners are mostly sharp objects such as razor blades and pins, often swallowed deliberately. Sharp objects carry a higher risk of perforation and dictate careful endoscopic removal. The likely object varies with the population, and razors and pins are characteristic of prisoners.",
+        "C": "Incorrect. A fishbone is a common foreign body from eating fish, not the characteristic prisoner object.",
+        "D": "Incorrect. Dentures are typical of edentulous adults, not the characteristic prisoner foreign body."
+      },
+      "main_concept": "CON-MUL-08464905674F16",
+      "concept_ids": ["CON-MUL-08464905674F16"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "State that oesophageal foreign bodies in prisoners are usually sharp objects such as razors and pins."
+    },
+    {
+      "key": "pharynx-q61",
+      "id": "QST-KASR316ENT-PHARYNX-61",
+      "page": 57,
+      "title": "Measure not used in caustic ingestion (antihistamines)",
+      "question": "A 3-year-old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda. The girl was crying and drooling. Management of the case include all of the following EXCEPT:",
+      "options": {
+        "A": "Pain killer.",
+        "B": "Systemic steroids.",
+        "C": "Antibiotics.",
+        "D": "Monitoring of the airway.",
+        "E": "Antihistamines."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (a true measure). A pain killer is part of acute corrosive management, so it is not the exception.",
+        "B": "Incorrect (a true measure). Systemic steroids reduce stricture formation, so they are part of management and not the exception.",
+        "C": "Incorrect (a true measure). Antibiotics cover secondary infection, so they are part of management.",
+        "D": "Incorrect (a true measure). Monitoring of the airway is essential in a corrosive burn, so it is part of management.",
+        "E": "Correct (the exception). Antihistamines have no role in acute corrosive ingestion. The measures used are analgesia, systemic steroids, antibiotics and airway monitoring. Naming antihistamines as management is therefore the exception."
+      },
+      "main_concept": "CON-MUL-8E81CA467C9BF2",
+      "concept_ids": ["CON-MUL-8E81CA467C9BF2"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that antihistamines are not part of acute corrosive management."
+    },
+    {
+      "key": "pharynx-q62",
+      "id": "QST-KASR316ENT-PHARYNX-62",
+      "page": 57,
+      "title": "Measure not used in caustic ingestion (immediate dilatation)",
+      "question": "A 3 year old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda. The girl was crying and drooling. Management includes all of the following EXCEPT:",
+      "options": {
+        "A": "Pain killer.",
+        "B": "Systemic steroids.",
+        "C": "Antibiotics.",
+        "D": "Monitoring of the airway.",
+        "E": "Immediate dilatation."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (a true measure). A pain killer is part of acute corrosive management, so it is not the exception.",
+        "B": "Incorrect (a true measure). Systemic steroids reduce stricture formation, so they are part of management.",
+        "C": "Incorrect (a true measure). Antibiotics cover secondary infection, so they are part of management.",
+        "D": "Incorrect (a true measure). Airway monitoring is essential, so it is part of management.",
+        "E": "Correct (the exception). Immediate dilatation is contraindicated in the acute stage, because the inflamed friable oesophagus may perforate. Dilatation is reserved for the later stricture stage. Naming immediate dilatation as acute management is therefore the exception."
+      },
+      "main_concept": "CON-MUL-4432D0D11B47E4",
+      "concept_ids": ["CON-MUL-4432D0D11B47E4"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that immediate dilatation is contraindicated in acute corrosive injury."
+    },
+    {
+      "key": "pharynx-q63",
+      "id": "QST-KASR316ENT-PHARYNX-63",
+      "page": 58,
+      "title": "Not used in acute corrosive poisoning (stomach wash)",
+      "question": "Not used in the treatment of the acute stage of corrosive poisoning:",
+      "options": {
+        "A": "Emollients.",
+        "B": "Antibiotics.",
+        "C": "Stomach wash.",
+        "D": "Analgesics."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Emollients and demulcents such as egg white and milk are used, so this is not the answer.",
+        "B": "Incorrect. Antibiotics are used to cover secondary infection, so this is not the answer.",
+        "C": "Correct. A stomach wash (gastric lavage) is not used in the acute stage of corrosive poisoning, because passing a tube or bringing the corrosive back up re-exposes the mucosa and risks perforation. Treatment instead uses demulcents, analgesia, antibiotics, steroids and airway care. Washing out the stomach is therefore the measure that is avoided.",
+        "D": "Incorrect. Analgesics are used for pain relief, so this is not the answer."
+      },
+      "main_concept": "CON-MUL-97ECE24202163F",
+      "concept_ids": ["CON-MUL-97ECE24202163F"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "State that a stomach wash (gastric lavage) is not used in the acute stage of corrosive poisoning."
+    },
     { "key": "pharynx-q06", "hold": "In-source near-duplicate of Q2. 'Enlarged adenoids may cause the following except' keys 'b' (epistaxis), the identical keyed teaching point as Q2 (adenoids do not cause epistaxis). Q2 is authored, so Q6 is held so the same fact is not authored twice." },
     { "key": "pharynx-q12", "hold": "In-source near-duplicate of Q9. 'The most common presenting sign or symptom of nasopharyngeal cancer' keys 'c' (neck mass), the same keyed fact as Q9 (commonest NPC presentation = cervical lymph node). Q9 is authored, so Q12 is held." },
     { "key": "pharynx-q14", "hold": "In-source near-duplicate of Q11. Teenage male with recurrent epistaxis and conductive deafness keyed 'c' (nasopharyngeal angiofibroma) — the same diagnostic vignette and answer as Q11. Q11 is authored, so Q14 is held." },
     { "key": "pharynx-q16", "hold": "In-source duplicate of the male-only fact. 'Juvenile angiofibroma is characterized by the following except' keys 'c' (M:F ratio 3:1) because the tumour is essentially male-only — the same teaching point authored in Q18 ('affects only young males'). Held so the male-only fact is not authored twice." },
     { "key": "pharynx-q19", "hold": "In-source duplicate of Q13. 'Nasopharyngeal angiofibroma is characterized by the following except' keys 'd' (treatment is by chemotherapy) — the same keyed fact as Q13 (treatment is surgery, not radiotherapy/chemotherapy). Q13 is authored, so Q19 is held." },
-    { "key": "pharynx-q20", "hold": "In-source duplicate of Q13. 'The following is true regarding nasopharyngeal angiofibroma except' keys 'd' (radiotherapy is the first line of treatment) — again the JNA treatment-is-surgery fact already authored in Q13. Held so the same fact is not authored twice." }
+    { "key": "pharynx-q20", "hold": "In-source duplicate of Q13. 'The following is true regarding nasopharyngeal angiofibroma except' keys 'd' (radiotherapy is the first line of treatment) — again the JNA treatment-is-surgery fact already authored in Q13. Held so the same fact is not authored twice." },
+    { "key": "pharynx-q64", "hold": "In-source duplicate of Q63. 'Treatment of acute corrosive poisoning includes the following except' keys 'c' (stomach wash) — the same keyed fact as Q63 (gastric lavage / stomach wash is contraindicated in the acute stage). Q63 is authored, so Q64 is held so the same fact is not authored twice." },
+    { "key": "pharynx-q65", "hold": "In-source duplicate of Q63. 'Acute corrosive poisoning is treated by the following except one' keys 'c' (gastric lavage / stomach wash) — again the acute-stage stomach-wash-contraindicated fact already authored in Q63. Held so the same fact is not authored twice." }
   ]
 }

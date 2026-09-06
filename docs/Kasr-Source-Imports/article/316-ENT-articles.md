@@ -2475,3 +2475,180 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Pharynx-section obstructive sleep apnoea concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-NECK-MASS
+## title
+Otorhinolaryngology: cervical lymph nodes and silent areas of the head and neck
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the neck-mass facts tested by the bank's Pharynx section (Q54-57): the work-up of a cervical node with metastatic squamous carcinoma from an unknown primary, the features that mark a node as malignant, and the silent areas of the head and neck that present late with a neck node.
+## sections
+### Definition
+An enlarged cervical lymph node may be inflammatory or neoplastic; a metastatic squamous node signals a mucosal primary in the upper aerodigestive tract, sometimes a silent one.
+### Mechanism
+Squamous carcinomas of the head and neck spread first to cervical nodes. When the node shows squamous carcinoma but no primary is visible, panendoscopy with biopsy of the silent areas hunts the primary. The silent areas — nasopharynx, base of tongue and pyriform fossa — grow tumours quietly and often declare themselves only as a neck node, whereas the vocal cord announces itself early with hoarseness.
+### Key determinants
+Discriminators tested here: a metastatic squamous node with no obvious primary is worked up by panendoscopy, not open biopsy first; a malignant node is hard, fixed, progressive and painless; and the nasopharynx, base of tongue and pyriform fossa are silent areas while the vocal cord is not.
+### Clinical significance
+These facts protect the patient: avoiding an early open node biopsy preserves the prognosis, the physical signs triage which node needs urgent work-up, and knowing the silent areas directs the search for a hidden primary.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (doing an open node biopsy first, calling a painful node malignant, or listing the vocal cord as a silent area).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Neck masses
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-E0612BF8291870
+CON-MUL-D848D1B0E23E21
+CON-MUL-A81C6F630B204B
+## related_articles
+ART-ENT-316-PHARYNX-NASOPHARYNGEAL-TUMOURS
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section neck-mass and silent-area concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## title
+Otorhinolaryngology: the oesophagus — foreign bodies, corrosives, achalasia and dysphagia
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the oesophageal facts tested by the bank's Pharynx section (Q58-73): Killian's dehiscence and the pharyngeal pouch, the management of swallowed oesophageal foreign bodies and corrosive ingestion, achalasia of the cardia, the laryngeal manifestations of GERD, and the causes of dysphagia.
+## sections
+### Definition
+The pharynx opens into the oesophagus at the cricopharyngeal sphincter; disorders of foreign bodies, corrosive burns, motility (achalasia) and reflux all present to the ENT surgeon with dysphagia.
+### Mechanism
+Killian's dehiscence, a gap between thyropharyngeus and cricopharyngeus, is where a pharyngeal pouch herniates. A radio-opaque swallowed foreign body is localised by plain X-ray; corrosive burns are managed acutely with analgesia, steroids, antibiotics and airway care, avoiding gastric lavage and early dilatation. Achalasia is a neuromuscular failure of the lower oesophageal sphincter giving dysphagia more for fluids than solids, and GERD can reflux to the larynx.
+### Key determinants
+Discriminators tested here: Killian's dehiscence lies between thyropharyngeus and cricopharyngeus; a swallowed coin is imaged first by plain X-ray; acute corrosive care omits antihistamines, immediate dilatation and gastric lavage; achalasia gives paradoxical fluid dysphagia with maintained weight; GERD's laryngeal effects exclude conductive deafness; and gastric peptic ulcer is not a cause of dysphagia.
+### Clinical significance
+These facts guide safe practice: the right first investigation for a foreign body, the corrosive measures that avoid perforation, and the pattern of dysphagia that separates achalasia from a stricture or a cancer.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (barium first for a coin, gastric lavage or early dilatation for a corrosive, or solid-worse dysphagia for achalasia).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Oesophagus
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-05AB642863DBCF
+CON-MUL-AF866B8143912E
+CON-MUL-08464905674F16
+CON-MUL-8E81CA467C9BF2
+CON-MUL-4432D0D11B47E4
+CON-MUL-97ECE24202163F
+## related_articles
+ART-ENT-316-PHARYNX-HYPOPHARYNX
+ART-ENT-316-PHARYNX-NECK-MASS
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section oesophageal concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6

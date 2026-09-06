@@ -17514,3 +17514,1002 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.sleep-apnoea.obstructive-and-central-types", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-E0612BF8291870
+## label
+A cervical node with metastatic squamous carcinoma and no obvious primary is investigated by panendoscopy of the upper aerodigestive tract
+## canonical_key
+otolaryngology.cervical-node-metastasis.unknown-primary-panendoscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When fine-needle aspiration of an enlarging cervical lymph node shows squamous cell carcinoma but no primary is obvious, the next step is panendoscopy (examination under anaesthesia of the nasopharynx, pharynx, larynx and oesophagus) with biopsy of any suspicious mucosa and of the silent areas. This finds the hidden primary before treatment is planned. An open node biopsy is avoided early because it can seed the neck and worsen the prognosis.
+## explicit_objective
+State that a cervical node with metastatic squamous carcinoma and no obvious primary is investigated by panendoscopy with biopsy of suspicious mucosa.
+## pitfalls
+An open excision biopsy of the node is avoided as the first step; panendoscopy to find the primary comes first, and radiotherapy or neck dissection are not begun before the primary is sought.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Neck masses
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Neck masses
+## article_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.cervical-node-metastasis.unknown-primary-panendoscopy", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-D848D1B0E23E21
+## label
+A malignant cervical lymph node is hard, fixed and progressive but characteristically painless
+## canonical_key
+otolaryngology.cervical-lymph-node.malignant-features-hard-fixed-painless
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Features that suggest malignancy in an enlarged cervical lymph node are a hard consistency, fixation to surrounding structures and progressive enlargement. Pain is not a feature of a malignant node; a painful, tender node suggests an inflammatory cause instead. The worrying pattern is a node that is hard, fixed, progressive and painless.
+## explicit_objective
+Recognise that a malignant cervical node is hard, fixed and progressive but characteristically painless.
+## pitfalls
+A painful node suggests inflammation, not malignancy; the malignant node is hard, fixed, progressive and painless.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Neck masses
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Neck masses
+## article_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.cervical-lymph-node.malignant-features-hard-fixed-painless", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-A81C6F630B204B
+## label
+Silent areas of the head and neck (nasopharynx, base of tongue, pyriform fossa) present late; the vocal cord is not silent
+## canonical_key
+otolaryngology.head-neck.silent-areas
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Silent areas of the head and neck are sites where a tumour grows without early symptoms and so presents late: the nasopharynx, the base of the tongue and the pyriform fossa. The vocal cord is not a silent area, because even a small glottic tumour causes early hoarseness. Tumours of the silent areas often present first with a neck node.
+## explicit_objective
+Identify the nasopharynx, base of tongue and pyriform fossa as silent areas, and recognise that the vocal cord is not silent.
+## pitfalls
+The vocal cord is not a silent area (it declares itself early with hoarseness); the nasopharynx, base of tongue and pyriform fossa are the silent areas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Neck masses
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Neck masses
+## article_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.head-neck.silent-areas", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-05AB642863DBCF
+## label
+Killian's dehiscence lies between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor
+## canonical_key
+otolaryngology.killians-dehiscence.thyropharyngeus-cricopharyngeus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Killian's dehiscence is a weak area in the posterior wall of the lower pharynx, lying between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor muscle. It is the site through which a pharyngeal pouch (Zenker's diverticulum) herniates. Because the mucosa is unsupported here, raised hypopharyngeal pressure can push it out through the gap.
+## explicit_objective
+State that Killian's dehiscence lies between the thyropharyngeus and cricopharyngeus muscles.
+## pitfalls
+Killian's dehiscence is between thyropharyngeus and cricopharyngeus, not between the superior and middle or middle and inferior constrictors.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.killians-dehiscence.thyropharyngeus-cricopharyngeus", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-AF866B8143912E
+## label
+A swallowed radio-opaque oesophageal foreign body is first investigated by plain X-ray of the neck and chest
+## canonical_key
+otolaryngology.oesophageal-foreign-body.plain-xray-first
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a child who has swallowed a coin and is drooling but has no airway compromise, the first step is a plain X-ray of the neck and chest to confirm and localise the radio-opaque foreign body. A radio-opaque object such as a coin shows up clearly and guides removal by oesophagoscopy. A barium swallow is avoided because it coats the field and risks aspiration, and MRI or ultrasound are not the first investigation.
+## explicit_objective
+State that a swallowed radio-opaque oesophageal foreign body is first investigated by plain X-ray of the neck and chest.
+## pitfalls
+A barium swallow is not the first step for a swallowed coin; a plain X-ray localises the radio-opaque object first.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oesophageal-foreign-body.plain-xray-first", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-08464905674F16
+## label
+Oesophageal foreign bodies in prisoners are usually sharp objects such as razors and pins
+## canonical_key
+otolaryngology.oesophageal-foreign-body.prisoners-sharp-objects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The type of oesophageal foreign body varies with the person: children swallow coins, the edentulous may swallow dentures, and prisoners characteristically swallow sharp objects such as razor blades and pins, often deliberately. Recognising the likely object guides the urgency and technique of removal. Sharp foreign bodies carry a higher risk of perforation.
+## explicit_objective
+State that oesophageal foreign bodies in prisoners are usually sharp objects such as razors and pins.
+## pitfalls
+In prisoners the swallowed object is typically a sharp razor or pin, not a coin or fishbone; the object type depends on the population.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oesophageal-foreign-body.prisoners-sharp-objects", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-8E81CA467C9BF2
+## label
+Acute corrosive ingestion is managed with analgesia, steroids, antibiotics and airway monitoring, not antihistamines
+## canonical_key
+otolaryngology.corrosive-ingestion.acute-management-not-antihistamines
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Immediate management of acute corrosive (caustic) ingestion includes analgesia, systemic steroids to reduce stricture formation, antibiotics to cover secondary infection, and close monitoring of the airway. Antihistamines have no role in a corrosive burn. The mainstays are pain relief, steroids, antibiotics and airway care.
+## explicit_objective
+State that acute corrosive ingestion is managed with analgesia, steroids, antibiotics and airway monitoring, but not antihistamines.
+## pitfalls
+Antihistamines are not part of corrosive management; analgesia, steroids, antibiotics and airway monitoring are.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.corrosive-ingestion.acute-management-not-antihistamines", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-4432D0D11B47E4
+## label
+Immediate oesophageal dilatation is contraindicated in acute corrosive injury
+## canonical_key
+otolaryngology.corrosive-ingestion.no-immediate-dilatation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the acute stage of corrosive ingestion the oesophageal wall is inflamed and friable, so immediate dilatation is contraindicated because it risks perforation. Acute management is analgesia, steroids, antibiotics and airway monitoring. Dilatation is reserved for the later stricture stage, weeks after the burn, when the tissue has stabilised.
+## explicit_objective
+State that immediate oesophageal dilatation is contraindicated in acute corrosive injury.
+## pitfalls
+Dilating the oesophagus in the acute corrosive stage risks perforation; dilatation is a late-stage treatment for the resulting stricture.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.corrosive-ingestion.no-immediate-dilatation", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-97ECE24202163F
+## label
+Gastric lavage (stomach wash) is contraindicated in the acute stage of corrosive poisoning
+## canonical_key
+otolaryngology.corrosive-ingestion.no-gastric-lavage-acute
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gastric lavage (stomach wash) and induced emesis are contraindicated in acute corrosive poisoning, because passing a tube or bringing the corrosive back up re-exposes the mucosa and risks perforation. Treatment instead uses demulcents such as egg white and milk, analgesia, antibiotics, steroids and airway care. Neutralising or washing out the stomach is avoided.
+## explicit_objective
+State that gastric lavage (stomach wash) is contraindicated in the acute stage of corrosive poisoning.
+## pitfalls
+A stomach wash or induced emesis re-exposes the oesophagus to the corrosive and risks perforation, so it is not used acutely.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.corrosive-ingestion.no-gastric-lavage-acute", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

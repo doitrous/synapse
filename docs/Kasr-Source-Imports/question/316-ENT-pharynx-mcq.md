@@ -6572,3 +6572,1413 @@ Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF 
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-54
+
+## title
+Next step for a metastatic squamous neck node
+
+## question
+A 50 year old female presented with a 3 months history of right sided cervical lymph node swelling that was increasing in size. CT neck revealed heterogenous appearance of the lymph nodes and fine needle aspiration cytology came to be squamous cell carcinoma. The next step to do is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Start radiotherapy for the neck.
+
+## explanation_a
+Incorrect. Radiotherapy cannot be planned until the primary is found and the disease is staged.
+
+## answer_b
+Take an open biopsy from the mass to support the diagnosis.
+
+## explanation_b
+Incorrect. An open biopsy of the node is avoided because it can seed the neck and worsen the prognosis; the primary should be sought first.
+
+## answer_c
+Do panendoscopy of the upper aerodigestive tract with biopsy from any suspicious mass.
+
+## explanation_c
+Correct. A cervical node showing metastatic squamous carcinoma with no obvious primary is worked up by panendoscopy of the upper aerodigestive tract (nasopharynx, pharynx, larynx and oesophagus) with biopsy of any suspicious mucosa and of the silent areas. This finds the hidden primary so that treatment can be planned. It is done before any open node biopsy or definitive therapy.
+
+## answer_d
+Schedule the patient for radical neck dissection on the right side.
+
+## explanation_d
+Incorrect. Radical neck dissection is a treatment decided after the primary is identified and staged, not the next diagnostic step.
+
+## answer_e
+Do abdominal ultrasound to detect if there are other lymph node enlargement.
+
+## explanation_e
+Incorrect. An abdominal ultrasound does not address a squamous primary of the upper aerodigestive tract.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Neck masses
+
+## main_concept
+CON-MUL-E0612BF8291870
+
+## concept_ids
+CON-MUL-E0612BF8291870
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Choose panendoscopy with biopsy of suspicious mucosa as the next step for a metastatic squamous cervical node with no obvious primary.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.56); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-55
+
+## title
+Feature not suggesting a malignant lymph node
+
+## question
+Malignancy is suspected in enlarged lymph node if it has the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hard.
+
+## explanation_a
+Incorrect (a true feature). A hard consistency suggests malignancy, so it is not the exception.
+
+## answer_b
+Painful.
+
+## explanation_b
+Correct (the exception). Pain is not a feature of a malignant lymph node; a painful, tender node suggests an inflammatory cause instead. Malignant nodes are typically hard, fixed, progressive and painless. Naming pain as a sign of malignancy is therefore the exception.
+
+## answer_c
+Progressive.
+
+## explanation_c
+Incorrect (a true feature). Progressive enlargement suggests malignancy, so it is not the exception.
+
+## answer_d
+Fixed.
+
+## explanation_d
+Incorrect (a true feature). Fixation to surrounding structures suggests malignancy, so it is not the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Neck masses
+
+## main_concept
+CON-MUL-D848D1B0E23E21
+
+## concept_ids
+CON-MUL-D848D1B0E23E21
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that pain is not a feature of a malignant lymph node.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.56); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-56
+
+## title
+Structure that is not a silent area
+
+## question
+Not considered as a silent area in the head and neck:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Pyriform fossa.
+
+## explanation_a
+Incorrect. The pyriform fossa is a silent area, so it is not the structure that is 'not silent'.
+
+## answer_b
+Vocal cord.
+
+## explanation_b
+Correct. The vocal cord is not a silent area, because even a small glottic tumour causes early hoarseness and so declares itself. The true silent areas — nasopharynx, base of tongue and pyriform fossa — grow tumours quietly and present late. The vocal cord is therefore the structure that is not silent.
+
+## answer_c
+Nasopharynx.
+
+## explanation_c
+Incorrect. The nasopharynx is a silent area, so it is not the answer.
+
+## answer_d
+Base of the tongue.
+
+## explanation_d
+Incorrect. The base of the tongue is a silent area, so it is not the answer.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Neck masses
+
+## main_concept
+CON-MUL-A81C6F630B204B
+
+## concept_ids
+CON-MUL-A81C6F630B204B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that the vocal cord is not a silent area.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.56); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-57
+
+## title
+Silent areas of the head and neck
+
+## question
+Silent areas in the head & neck include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Nasopharynx.
+
+## explanation_a
+Incorrect on its own. The nasopharynx is a silent area, but it is not the only one listed.
+
+## answer_b
+Base of the tongue.
+
+## explanation_b
+Incorrect on its own. The base of the tongue is a silent area, but only part of the answer.
+
+## answer_c
+Pyriform fossa.
+
+## explanation_c
+Incorrect on its own. The pyriform fossa is a silent area, but again only one of the listed items.
+
+## answer_d
+All of the above.
+
+## explanation_d
+Correct. The silent areas of the head and neck are the nasopharynx, the base of the tongue and the pyriform fossa, each of which grows a tumour quietly and presents late. Because all three listed items are silent areas, all of the above is correct. Tumours here often present first as a neck node.
+
+## answer_e
+None of the above.
+
+## explanation_e
+Incorrect. Since all three listed sites are silent areas, none of the above is wrong.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Neck masses
+
+## main_concept
+CON-MUL-A81C6F630B204B
+
+## concept_ids
+CON-MUL-A81C6F630B204B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List the nasopharynx, base of tongue and pyriform fossa as silent areas of the head and neck.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.56); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-58
+
+## title
+Location of Killian's dehiscence
+
+## question
+Where is Killian's dehiscence located?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Between the superior and middle constrictor muscles.
+
+## explanation_a
+Incorrect. Killian's dehiscence is not between the superior and middle constrictors.
+
+## answer_b
+Between the cricopharyngeus and thyropharyngeus muscles.
+
+## explanation_b
+Correct. Killian's dehiscence is a weak area in the posterior wall of the lower pharynx, lying between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor muscle. It is the site through which a pharyngeal pouch (Zenker's diverticulum) herniates. The unsupported mucosa here yields to raised hypopharyngeal pressure.
+
+## answer_c
+Between middle and inferior constrictor muscles.
+
+## explanation_c
+Incorrect. It is not between the middle and inferior constrictor muscles.
+
+## answer_d
+Between the cricopharyngeus and the most superior esophageal circular muscles.
+
+## explanation_d
+Incorrect. It is not between the cricopharyngeus and the upper oesophageal circular muscles.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-05AB642863DBCF
+
+## concept_ids
+CON-MUL-05AB642863DBCF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that Killian's dehiscence lies between the thyropharyngeus and cricopharyngeus muscles.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.57); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-59
+
+## title
+First step for a swallowed coin
+
+## question
+A 3-year-old girl was brought to the ER after swallowing a coin. She has been vomiting and drooling since then. On examination, there were no signs of airway compromise. The first step in management of this girl is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Barium Swallow.
+
+## explanation_a
+Incorrect. A barium swallow coats the field and risks aspiration, and is not the first step for a radio-opaque coin.
+
+## answer_b
+Neck Ultrasound.
+
+## explanation_b
+Incorrect. Neck ultrasound does not reliably localise a swallowed coin in the oesophagus.
+
+## answer_c
+Plain X-ray of the neck and chest.
+
+## explanation_c
+Correct. A swallowed coin is radio-opaque, so the first step is a plain X-ray of the neck and chest to confirm and localise it. This guides removal by oesophagoscopy. Imaging first avoids blind instrumentation and clarifies whether the object is in the oesophagus or the airway.
+
+## answer_d
+MRI of the neck.
+
+## explanation_d
+Incorrect. MRI is not the first investigation for a swallowed coin.
+
+## answer_e
+Bronchoscopy.
+
+## explanation_e
+Incorrect. Bronchoscopy addresses an airway foreign body, but here there is no airway compromise and the object is in the oesophagus.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-AF866B8143912E
+
+## concept_ids
+CON-MUL-AF866B8143912E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Choose a plain X-ray of the neck and chest as the first step for a swallowed radio-opaque coin.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.57); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-60
+
+## title
+Oesophageal foreign bodies in prisoners
+
+## question
+Foreign bodies in the oesophagus in prisoners are mostly:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Coins.
+
+## explanation_a
+Incorrect. Coins are the typical foreign body in children, not the characteristic one in prisoners.
+
+## answer_b
+Razors and pins.
+
+## explanation_b
+Correct. Oesophageal foreign bodies in prisoners are mostly sharp objects such as razor blades and pins, often swallowed deliberately. Sharp objects carry a higher risk of perforation and dictate careful endoscopic removal. The likely object varies with the population, and razors and pins are characteristic of prisoners.
+
+## answer_c
+Fishbone.
+
+## explanation_c
+Incorrect. A fishbone is a common foreign body from eating fish, not the characteristic prisoner object.
+
+## answer_d
+Dentures.
+
+## explanation_d
+Incorrect. Dentures are typical of edentulous adults, not the characteristic prisoner foreign body.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-08464905674F16
+
+## concept_ids
+CON-MUL-08464905674F16
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that oesophageal foreign bodies in prisoners are usually sharp objects such as razors and pins.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.57); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-61
+
+## title
+Measure not used in caustic ingestion (antihistamines)
+
+## question
+A 3-year-old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda. The girl was crying and drooling. Management of the case include all of the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Pain killer.
+
+## explanation_a
+Incorrect (a true measure). A pain killer is part of acute corrosive management, so it is not the exception.
+
+## answer_b
+Systemic steroids.
+
+## explanation_b
+Incorrect (a true measure). Systemic steroids reduce stricture formation, so they are part of management and not the exception.
+
+## answer_c
+Antibiotics.
+
+## explanation_c
+Incorrect (a true measure). Antibiotics cover secondary infection, so they are part of management.
+
+## answer_d
+Monitoring of the airway.
+
+## explanation_d
+Incorrect (a true measure). Monitoring of the airway is essential in a corrosive burn, so it is part of management.
+
+## answer_e
+Antihistamines.
+
+## explanation_e
+Correct (the exception). Antihistamines have no role in acute corrosive ingestion. The measures used are analgesia, systemic steroids, antibiotics and airway monitoring. Naming antihistamines as management is therefore the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-8E81CA467C9BF2
+
+## concept_ids
+CON-MUL-8E81CA467C9BF2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that antihistamines are not part of acute corrosive management.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.57); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-62
+
+## title
+Measure not used in caustic ingestion (immediate dilatation)
+
+## question
+A 3 year old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda. The girl was crying and drooling. Management includes all of the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Pain killer.
+
+## explanation_a
+Incorrect (a true measure). A pain killer is part of acute corrosive management, so it is not the exception.
+
+## answer_b
+Systemic steroids.
+
+## explanation_b
+Incorrect (a true measure). Systemic steroids reduce stricture formation, so they are part of management.
+
+## answer_c
+Antibiotics.
+
+## explanation_c
+Incorrect (a true measure). Antibiotics cover secondary infection, so they are part of management.
+
+## answer_d
+Monitoring of the airway.
+
+## explanation_d
+Incorrect (a true measure). Airway monitoring is essential, so it is part of management.
+
+## answer_e
+Immediate dilatation.
+
+## explanation_e
+Correct (the exception). Immediate dilatation is contraindicated in the acute stage, because the inflamed friable oesophagus may perforate. Dilatation is reserved for the later stricture stage. Naming immediate dilatation as acute management is therefore the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-4432D0D11B47E4
+
+## concept_ids
+CON-MUL-4432D0D11B47E4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that immediate dilatation is contraindicated in acute corrosive injury.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.57); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-63
+
+## title
+Not used in acute corrosive poisoning (stomach wash)
+
+## question
+Not used in the treatment of the acute stage of corrosive poisoning:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Emollients.
+
+## explanation_a
+Incorrect. Emollients and demulcents such as egg white and milk are used, so this is not the answer.
+
+## answer_b
+Antibiotics.
+
+## explanation_b
+Incorrect. Antibiotics are used to cover secondary infection, so this is not the answer.
+
+## answer_c
+Stomach wash.
+
+## explanation_c
+Correct. A stomach wash (gastric lavage) is not used in the acute stage of corrosive poisoning, because passing a tube or bringing the corrosive back up re-exposes the mucosa and risks perforation. Treatment instead uses demulcents, analgesia, antibiotics, steroids and airway care. Washing out the stomach is therefore the measure that is avoided.
+
+## answer_d
+Analgesics.
+
+## explanation_d
+Incorrect. Analgesics are used for pain relief, so this is not the answer.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oesophagus
+
+## main_concept
+CON-MUL-97ECE24202163F
+
+## concept_ids
+CON-MUL-97ECE24202163F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that a stomach wash (gastric lavage) is not used in the acute stage of corrosive poisoning.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.58); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
