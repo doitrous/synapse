@@ -10062,3 +10062,2754 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5AB6FDA950BFB7
+## label
+A minus (concave) cylinder corrects simple myopic astigmatism
+## canonical_key
+ophthalmology.astigmatism.minus-cylinder-corrects-simple-myopic-astigmatism
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A pure minus (concave) cylinder with no spherical component corrects simple myopic astigmatism, in which one principal meridian is emmetropic and the other is myopic. Only the myopic meridian needs concave power, so a cylinder alone suffices.
+## explicit_objective
+Recognise that a pure minus cylinder corrects simple myopic astigmatism.
+## pitfalls
+Do not confuse simple (cylinder only) with compound myopic astigmatism, which needs a sphere plus a cylinder; a plus cylinder would be used for hypermetropic astigmatism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-02775FAEF70B3F
+## label
+Keratoconus is not associated with a Kayser-Fleischer ring
+## canonical_key
+ophthalmology.keratoconus.no-kayser-fleischer-ring
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Keratoconus shows Munson sign, possible stromal scarring and diagnostic topographic steepening, and its corneal iron line is the Fleischer ring. It is not associated with a Kayser-Fleischer ring, which is a copper deposit of Wilson disease.
+## explicit_objective
+Distinguish the Fleischer ring of keratoconus from the Kayser-Fleischer ring of Wilson disease.
+## pitfalls
+The similarly named Fleischer ring (iron, keratoconus) and Kayser-Fleischer ring (copper, Wilson disease) are different entities and must not be conflated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-5146709A7AEC1F
+## label
+Early nuclear cataract causes a myopic shift of refraction
+## canonical_key
+ophthalmology.nuclear-cataract.myopic-shift-of-refraction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Early nuclear sclerosis raises the refractive index of the lens nucleus, increasing its power and producing a myopic shift (index myopia). This can transiently improve unaided near vision, the so-called second sight.
+## explicit_objective
+Recognise the myopic (index) shift of early nuclear cataract.
+## pitfalls
+The shift is toward myopia, not hyperopia; night blindness and pain belong to retinal disease and glaucoma respectively, not to early nuclear cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-5B63C687521D29
+## label
+Keratoconus characteristically causes irregular astigmatism
+## canonical_key
+ophthalmology.keratoconus.irregular-astigmatism
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The conical, asymmetric corneal thinning of keratoconus produces irregular astigmatism whose meridia are neither perpendicular nor uniform. It cannot be fully corrected by spectacle cylinders and usually needs rigid or scleral contact lenses.
+## explicit_objective
+Identify irregular astigmatism as the characteristic refractive error of keratoconus.
+## pitfalls
+Keratoconus gives irregular, not regular, astigmatism; regular astigmatism has perpendicular meridia correctable by simple cylinders.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-15F0773194E3B9
+## label
+In hypermetropia the eye's refractive system is too weak for its axial length
+## canonical_key
+ophthalmology.hypermetropia.refractive-power-too-weak
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In hypermetropia parallel rays focus behind the retina because the refractive power of the eye is insufficient for its axial length, usually from a short axial length or a weak cornea/lens. A convex (plus) lens supplies the missing power.
+## explicit_objective
+Define hypermetropia as a refractive system too weak for the eye's axial length.
+## pitfalls
+An overly strong system or a long axial length causes myopia, the opposite of hypermetropia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-25AAB747C01A78
+## label
+Presbyopia causes difficulty with near vision (reading)
+## canonical_key
+ophthalmology.presbyopia.difficulty-with-near-vision
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Presbyopia is the age-related loss of lens elasticity and accommodative amplitude, so the eye can no longer focus on near targets. Patients complain of difficulty reading and hold text further away; it is corrected with convex reading additions.
+## explicit_objective
+Recognise near-vision (reading) difficulty as the effect of presbyopia.
+## pitfalls
+Distance vision is unaffected; presbyopia is an accommodative failure, not lens subluxation or uniocular diplopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-72E9BB729EE89D
+## label
+Regular astigmatism is simply treated with cylindrical spectacle lenses
+## canonical_key
+ophthalmology.astigmatism.treated-with-cylindrical-lenses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Regular astigmatism is most simply corrected by prescribing cylindrical spectacle lenses that add power in the appropriate meridian. This is non-invasive, cheap and reversible, so it is first-line, with laser or surgery reserved for spectacle/contact-lens intolerance.
+## explicit_objective
+Identify cylindrical spectacle lenses as the simplest treatment of astigmatism.
+## pitfalls
+Cycloplegia only relaxes accommodation and does not correct astigmatism; laser and keratoplasty are not the simplest options.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-3988BBB38BD53F
+## label
+Keratoconus is a progressive corneal ectasia that causes astigmatism
+## canonical_key
+ophthalmology.keratoconus.progressive-ectasia-causing-astigmatism
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Keratoconus is a progressive, non-inflammatory corneal ectasia in which the cornea thins and bulges into a cone, producing progressive myopia and irregular astigmatism. It is diagnosed by corneal topography and managed by contact lenses, cross-linking or keratoplasty.
+## explicit_objective
+Recognise keratoconus as a progressive ectasia that causes astigmatism.
+## pitfalls
+Keratoconus is not diagnosed by ultrasound, is not cured by eye drops, and is a progressive, not a static, disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-3A2A6B9FB9A599
+## label
+Keratoplasty is transplantation of donor corneal tissue
+## canonical_key
+ophthalmology.keratoplasty.donor-corneal-transplantation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Keratoplasty (corneal grafting) replaces diseased or opaque host cornea with donor corneal tissue, usually obtained from an eye bank. It may be full-thickness (penetrating) or partial-thickness (lamellar), aiming to restore corneal clarity and vision.
+## explicit_objective
+Define keratoplasty as transplantation of donor corneal tissue.
+## pitfalls
+Keratoplasty is a corneal transplant, not intraocular lens implantation, excimer laser ablation, or eyelid plastic surgery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoplasty
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoplasty
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-87C1044D003495
+## label
+An intumescent cataract can cause secondary angle-closure glaucoma
+## canonical_key
+ophthalmology.intumescent-cataract.secondary-angle-closure-glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An intumescent cataract is a swollen, water-imbibing lens that thickens and pushes the iris forward, shallowing the anterior chamber and crowding the drainage angle. This can precipitate secondary (phacomorphic) angle-closure glaucoma, relieved by urgent lens extraction.
+## explicit_objective
+Link an intumescent cataract to secondary (phacomorphic) angle-closure glaucoma.
+## pitfalls
+A mature cataract gives poor vision and a lost red reflex, not acuity better than 2/60 or a good red reflex, and has no medical cure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-788177381FCF65
+## label
+Modern cataract treatment is phacoemulsification with intraocular lens implantation
+## canonical_key
+ophthalmology.cataract.phacoemulsification-with-iol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Modern cataract treatment is phacoemulsification, in which ultrasonic energy fragments and aspirates the lens through a small incision, followed by implantation of an intraocular lens in the preserved capsular bag. This restores focus with rapid visual recovery.
+## explicit_objective
+Identify phacoemulsification with IOL implantation as the current cataract treatment.
+## pitfalls
+Intracapsular extraction is obsolete, removing the cataract without an IOL leaves the eye aphakic, and excimer laser treats the cornea, not the lens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-34BC6EB8A22E68
+## label
+Ectopia lentis may have associated ocular and systemic manifestations
+## canonical_key
+ophthalmology.ectopia-lentis.ocular-and-systemic-associations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A subluxated lens results from weak or broken zonules and may be an isolated ocular finding or part of a systemic disorder such as Marfan syndrome, homocystinuria or trauma, each with its own ocular and non-ocular features. Because it can signal systemic disease, it warrants a broader work-up.
+## explicit_objective
+Recognise that ectopia lentis may have associated ocular and systemic manifestations.
+## pitfalls
+Lens subluxation is not always uniocular, is often hereditary, and is not managed by conservative measures alone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-E0593FD3B09CCC
+## label
+The myopic eye focuses parallel light in front of the retina
+## canonical_key
+ophthalmology.myopia.image-focuses-in-front-of-retina
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In myopia the eye is too powerful or too long, so with accommodation fully relaxed parallel rays focus in front of the retina and the retinal image is blurred for distance. A concave (minus) lens diverges the rays so the focus falls on the retina.
+## explicit_objective
+State that the myopic eye focuses parallel light in front of the retina.
+## pitfalls
+Focusing behind the retina describes hypermetropia; the defining relationship is of the focal point to the retina, not to the lens or cornea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-EEB9F487907283
+## label
+Hypermetropia is corrected with a convex (plus) lens
+## canonical_key
+ophthalmology.hypermetropia.corrected-by-convex-lens
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hypermetropia is corrected by a convex (plus, converging) lens that adds the refractive power the eye lacks, moving the focus forward onto the retina. The plus lens compensates for the short axial length or weak refracting media.
+## explicit_objective
+Identify the convex (plus) lens as the correction for hypermetropia.
+## pitfalls
+A concave lens corrects myopia and worsens hypermetropia; a +2 D reading add corrects presbyopia at near, not hypermetropia in general.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-C6D9A211C7D4AE
+## label
+The standard adult cataract technique is phacoemulsification with a foldable posterior-chamber IOL
+## canonical_key
+ophthalmology.cataract-surgery.phaco-foldable-posterior-chamber-iol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The current standard adult cataract technique is phacoemulsification, which emulsifies and aspirates the lens through a small self-sealing incision, followed by insertion of a foldable posterior-chamber IOL into the capsular bag through the same small incision. This gives rapid, sutureless visual rehabilitation.
+## explicit_objective
+Identify phacoemulsification with a foldable posterior-chamber IOL as the standard adult cataract technique.
+## pitfalls
+LASIK is corneal refractive surgery, conventional ECCE with a rigid PMMA lens needs a large sutured incision, and there is no routine laser that simply dissolves the lens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-495961DCC55D25
+## label
+A superficial corneal opacity is treated by lamellar keratoplasty
+## canonical_key
+ophthalmology.corneal-opacity.superficial-treated-by-lamellar-keratoplasty
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A superficial (anterior stromal) corneal opacity is best treated by lamellar keratoplasty, which replaces only the diseased anterior layers while preserving the healthy host endothelium. Sparing the endothelium lowers the risk of rejection compared with a full-thickness graft.
+## explicit_objective
+Match a superficial corneal opacity to lamellar keratoplasty.
+## pitfalls
+LASIK, iridectomy and phacoemulsification do not treat a corneal opacity; a deep full-thickness opacity needs penetrating, not lamellar, keratoplasty.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoplasty
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoplasty
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-E0D2462BA3FC5C
+## label
+Cataract presents as a slowly progressive painless loss of vision
+## canonical_key
+ophthalmology.cataract.slow-progressive-painless-visual-loss
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cataract develops as the lens slowly opacifies, so patients report a painless, gradually progressive blurring of vision over months to years, often with glare and difficulty in night driving. The slow, painless course distinguishes it from acute causes of visual loss.
+## explicit_objective
+Recognise cataract as a slowly progressive painless loss of vision.
+## pitfalls
+Rapid visual loss suggests a vascular/retinal event and a discrete field defect suggests glaucoma or neurological disease, not cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-E366C481012EFE
+## label
+Intrastromal corneal ring segments are not a form of keratoplasty
+## canonical_key
+ophthalmology.keratoplasty.intrastromal-rings-not-a-keratoplasty
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Penetrating keratoplasty, deep anterior lamellar keratoplasty and Descemet membrane endothelial keratoplasty are all corneal transplants using donor tissue. Intrastromal corneal ring segments are inert plastic implants that reshape a keratoconic cornea and add no donor tissue, so they are not a keratoplasty.
+## explicit_objective
+Recognise intrastromal ring segments as not a form of keratoplasty.
+## pitfalls
+Ring segments are a refractive/tectonic procedure, not a transplant, despite being a keratoconus treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoplasty
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoplasty
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-CE406E77626F9A
+## label
+Opacity of the crystalline lens is called a cataract
+## canonical_key
+ophthalmology.cataract.definition-crystalline-lens-opacity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Any opacity of the crystalline lens is by definition a cataract, whether congenital or acquired, and it is graded by location and maturity. The term applies whatever the cause, from age-related sclerosis to trauma or metabolic disease.
+## explicit_objective
+Define cataract as opacity of the crystalline lens.
+## pitfalls
+Leucoma is a corneal opacity, ciliary staphyloma is a scleral bulge, and iris bombe is forward iris bowing; none is a lens opacity.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Cataract
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-E0FAD4FCE8CA45
+## label
+A deep (full-thickness) corneal opacity is treated by penetrating keratoplasty
+## canonical_key
+ophthalmology.corneal-opacity.deep-treated-by-penetrating-keratoplasty
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A deep opacity involving the full corneal thickness is treated by penetrating keratoplasty, which replaces the entire thickness of the diseased cornea with a donor button and restores a clear optical pathway. Superficial opacities, by contrast, can be managed with lamellar keratoplasty.
+## explicit_objective
+Match a deep (full-thickness) corneal opacity to penetrating keratoplasty.
+## pitfalls
+LASIK removes only a thin superficial layer and cannot clear a deep opacity; iridectomy and phacoemulsification do not treat the cornea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoplasty
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoplasty
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-2CC58FF111C5D1
+## label
+Corneal ulcer is not a complication of high myopia
+## canonical_key
+ophthalmology.high-myopia.complications-exclude-corneal-ulcer
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+High (pathological) myopia damages the posterior segment, so its complications are retinal detachment, myopic macular hole and choroidal neovascular membrane. Corneal ulceration is an infective surface disease and is not a consequence of axial elongation.
+## explicit_objective
+Recognise that corneal ulcer is not a complication of high myopia.
+## pitfalls
+The complications of high myopia are retinal and choroidal, not corneal; do not list corneal ulcer among them.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-C6D68DD3B72DD4
+## label
+In regular astigmatism the principal meridia are perpendicular
+## canonical_key
+ophthalmology.regular-astigmatism.perpendicular-principal-meridia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In regular astigmatism the steepest and flattest principal meridia lie at right angles to each other, and power changes gradually between them. This orderly geometry is what allows the error to be neutralised with a cylindrical lens.
+## explicit_objective
+Recognise perpendicular principal meridia as the defining feature of regular astigmatism.
+## pitfalls
+An acute (step) transition, incorrectability by cylinders, and associated corneal opacities characterise irregular, not regular, astigmatism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-75BF57C02E7E10
+## label
+LASIK is a refractive (keratorefractive) surgery
+## canonical_key
+ophthalmology.refractive-surgery.lasik
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+LASIK reshapes the corneal stroma with an excimer laser under a lamellar flap to change the eye's refractive power, correcting myopia, hypermetropia and astigmatism. Altering corneal curvature to change the refractive state is the defining aim of refractive surgery.
+## explicit_objective
+Identify LASIK as a refractive (keratorefractive) surgery.
+## pitfalls
+Trabeculectomy lowers pressure, posterior capsulotomy clears a cloudy capsule, and vitrectomy treats vitreoretinal disease; none is refractive surgery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Refractive errors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Refractive errors
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-A7146E1157A353
+## label
+Keratoconus presents in adolescence/young adulthood, not old age
+## canonical_key
+ophthalmology.keratoconus.onset-in-adolescence-not-old-age
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Keratoconus is conical thinning and protrusion of the cornea that characteristically begins around puberty and progresses through adolescence and early adulthood, causing progressively increasing myopia and irregular astigmatism diagnosable on topography. Onset in old age would be atypical.
+## explicit_objective
+Recognise that keratoconus presents in adolescence/young adulthood, not old age.
+## pitfalls
+Saying keratoconus presents in old age is wrong; its youthful onset is a key epidemiological feature.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Keratoconus
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Keratoconus
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+---
+
+# Item
+## id
+CON-MUL-2E038F5818F7B3
+## label
+Extracapsular cataract extraction is not a cause of vitreous haemorrhage
+## canonical_key
+ophthalmology.vitreous-haemorrhage.causes-exclude-ecce
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitreous haemorrhage arises from retinal or choroidal vascular sources such as trauma, a retinal tear from posterior vitreous detachment, or ruptured neovascularisation in proliferative diabetic retinopathy. Extracapsular cataract extraction is an anterior-segment lens operation and does not itself bleed into the vitreous cavity.
+## explicit_objective
+Recognise that extracapsular cataract extraction is not a cause of vitreous haemorrhage.
+## pitfalls
+Vitreous haemorrhage comes from posterior-segment vessels, not from routine anterior-segment lens surgery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Vitreous haemorrhage
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture > Vitreous haemorrhage
+## article_ids
+ART-OPH-315-IMAGE-CAPTURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the existing corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.4 Q1-25) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

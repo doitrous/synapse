@@ -5,6 +5,7 @@
 | kamal-ch3-protective-q41-91 | 25 | 5 | 0 | 30 |
 | kamal-ch3-protective-remainder | 25 | 3 | 0 | 28 |
 | kamal-ch3-protective-system | 12 | 0 | 0 | 12 |
+| kamal-ch4-image-capture | 25 | 0 | 66 | 91 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -17,4 +18,6 @@
 - q36 — Answer-key table omits the Q36 row (the table skips from Q35 to Q37); no printed key to re-verify against, so held per the never-guess rule.
 
 ## Remaining
-(none)
+- Ch.4 Normal and abnormal image capture Q26-91 (66 MCQs) — next tranche.
+- Ch.5-15 (Ocular motility, Glaucoma, Red eye, Retina, Eye & brain, Childhood, Systemic, Injuries, Medications, Lasers, Related topics) — not yet triaged.
+- Deferred for adjudication (do NOT author blind): Ch.3 vignettes Q59-76 (multi-true, not single-best) + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49 (True/False or 3-option, below the four-option floor).

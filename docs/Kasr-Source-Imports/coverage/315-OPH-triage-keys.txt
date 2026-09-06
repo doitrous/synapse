@@ -144,3 +144,40 @@ Q77.C  Q78.B  Q79.C  Q80.D  Q81.D  Q82.A  Q83.D  Q84.B  Q85.D  Q86.C  Q87.B  Q88
 #  they are not single-best-answer as printed and need multi-true adjudication before authoring. Answer-key letters for reference:
 #  Q59.D Q60.A Q61.A Q62.B Q63.A Q64.B Q65.C Q66.B Q67.B Q68.A Q69.C Q70.B Q71.C Q72.B Q73.D Q74.B Q75.B Q76.A ; Q89.D Q90.C Q91.D.
 # REMAINING for next tranche: Chapter 3 vignettes Q59-76 + Q89-91, then Chapters 4-15 (Ch.4 Normal/abnormal image capture, 91 MCQs, key p.2).
+
+# ===================================================================
+# TRANCHE 5 (2026-09-06): Chapter 4 Normal and abnormal image capture, Q1-25 slice
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.2
+# "Chapter 4: Normal and abnormal image capture / MCQs (91 answers)" table. All 91 rows present
+# (none omitted). Each authored key RE-VERIFIED against the bank option text. 25 authored / 0 held /
+# 0 excluded in this slice.
+
+# Chapter 4 - Normal and abnormal image capture (full answer-key table, bank pp.24-40 = PDF p.26-42)
+Q1.B   Q2.D   Q3.A   Q4.C   Q5.A   Q6.B   Q7.B   Q8.B   Q9.B   Q10.B
+Q11.C  Q12.D  Q13.B  Q14.A  Q15.D  Q16.D  Q17.C  Q18.D  Q19.B  Q20.B
+Q21.C  Q22.A  Q23.C  Q24.D  Q25.C  Q26.B  Q27.B  Q28.B  Q29.D  Q30.A
+Q31.B  Q32.B  Q33.A  Q34.C  Q35.C  Q36.D  Q37.D  Q38.A  Q39.D  Q40.D
+Q41.D  Q42.A  Q43.D  Q44.B  Q45.C  Q46.D  Q47.C  Q48.A  Q49.C  Q50.C
+Q51.C  Q52.B  Q53.A  Q54.D  Q55.D  Q56.A  Q57.A  Q58.A  Q59.B  Q60.C
+Q61.B  Q62.B  Q63.A  Q64.B  Q65.A  Q66.B  Q67.B  Q68.A  Q69.B  Q70.D
+Q71.C  Q72.B  Q73.C  Q74.C  Q75.C  Q76.D  Q77.D  Q78.B  Q79.B  Q80.C
+Q81.B  Q82.D  Q83.B  Q84.D  Q85.A  Q86.B  Q87.C  Q88.A  Q89.B  Q90.D  Q91.A
+# Cross-check notes for the authored Q1-25 (key -> option chosen, verified vs stem):
+#  Q1 B simple myopic astigmatism (pure minus cylinder); Q2 D Kayser-Fleischer ring (EXCEPT - Wilson, not keratoconus);
+#  Q3 A myopic shift (early nuclear cataract, index myopia); Q4 C irregular astigmatism (keratoconus);
+#  Q5 A weaker than emmetrope (hypermetropia); Q6 B difficulty in reading (presbyopia);
+#  Q7 B cylindrical lenses (simplest astigmatism treatment); Q8 B can cause astigmatism (keratoconus);
+#  Q9 B corneal transplantation from eye bank (keratoplasty); Q10 B secondary angle-closure glaucoma (intumescent cataract);
+#  Q11 C phaco with IOL (current cataract treatment); Q12 D associated ocular/non-ocular manifestations (subluxated lens);
+#  Q13 B in front of the retina (myopic focus); Q14 A convex lens (hypermetropia correction);
+#  Q15 D phaco with foldable PC IOL (standard adult technique); Q16 D lamellar keratoplasty (superficial corneal opacity);
+#  Q17 C slow progressive gradual diminution of vision (cataract); Q18 D intrastromal rings (EXCEPT - not a keratoplasty);
+#  Q19 B cataract (lens opacity definition); Q20 B penetrating keratoplasty (deep corneal opacity);
+#  Q21 C corneal ulcer (EXCEPT among high-myopia complications); Q22 A steep/flat axes perpendicular (regular astigmatism);
+#  Q23 C LASIK (refractive surgery); Q24 D presents in old age (WRONG - keratoconus is young onset);
+#  Q25 C extracapsular cataract extraction (EXCEPT among vitreous-haemorrhage causes).
+# REMAINING for next tranche: Chapter 4 Q26-91 (66 MCQs), then Chapters 5-15.
+# STILL DEFERRED for adjudication (from earlier tranches, do NOT author blind):
+#  Ch.3 vignettes Q59-76 (each lists more than one true statement, not single-best) + Q89-91;
+#  Ch.3 sub-4-option items Q20 (3-option), Q48 & Q49 (two-option True/False).

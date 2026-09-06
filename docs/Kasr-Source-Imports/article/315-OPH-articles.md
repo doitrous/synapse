@@ -314,3 +314,113 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the first tranche of Chapter-3 protective-system concepts (Q1-12). DIS-OPH has no dedicated adnexa/protective-system node, so these lids/lacrimal/orbit facts are filed under the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent. Chapter 3 has 91 MCQs; Q13-91 remain for the next tranche.
 ## reading_time
 4
+---
+
+# Item
+## id
+ART-OPH-315-IMAGE-CAPTURE
+## title
+Ophthalmology: normal and abnormal image capture (refractive errors, cataract and the cornea)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article groups the image-capture facts tested by Chapter 4 of the question bank (MCQ Q1-25). It covers the refractive errors and their correction (myopia focusing in front of the retina and corrected by a concave lens; hypermetropia being a refractive system too weak for the axial length, corrected by a convex lens; presbyopia causing near-vision difficulty; regular astigmatism having perpendicular meridia treated by cylindrical lenses, while a pure minus cylinder corrects simple myopic astigmatism), keratoconus (progressive conical corneal ectasia of adolescence causing irregular astigmatism, with a Fleischer rather than a Kayser-Fleischer ring, diagnosed by topography), the crystalline lens and cataract (opacity of the lens presenting as slow painless visual loss, nuclear sclerosis giving a myopic shift, intumescent cataract causing secondary angle-closure glaucoma, ectopia lentis carrying systemic associations, and treatment by phacoemulsification with a foldable posterior-chamber IOL), corneal opacity and keratoplasty (superficial opacities treated by lamellar and deep opacities by penetrating keratoplasty, with intrastromal rings not being a keratoplasty), refractive surgery (LASIK), and the boundary facts that corneal ulcer is not a complication of high myopia and that extracapsular cataract extraction does not cause vitreous haemorrhage.
+## sections
+### Definition
+Normal image capture depends on the eye focusing light precisely on the retina through the cornea and crystalline lens. This article gathers the Chapter-4 concepts on how that focus is disturbed by refractive errors, corneal ectasia and lens opacity, and how each is corrected. Each linked concept states one atomic fact about normal or abnormal image capture.
+### Mechanism
+Clear vision needs the correct optical power for the eye's axial length and a clear media pathway. Myopia focuses light in front of the retina and hypermetropia behind it; astigmatism gives two focal lines; presbyopia is loss of accommodation; keratoconus distorts corneal curvature into irregular astigmatism; and cataract or corneal opacity scatters and blocks light before it reaches the retina.
+### Key determinants
+Discriminators tested here: a minus lens corrects myopia and a plus lens hypermetropia; a pure cylinder corrects simple astigmatism while a sphere plus cylinder corrects compound; regular astigmatism has perpendicular meridia (cylinder-correctable) whereas keratoconus gives irregular astigmatism; nuclear cataract causes a myopic shift; an intumescent lens can trigger angle-closure glaucoma; superficial corneal opacity needs lamellar and deep opacity penetrating keratoplasty; and phacoemulsification with a foldable posterior-chamber IOL is the standard cataract operation.
+### Clinical significance
+These facts underlie everyday refraction and anterior-segment practice: prescribing the correct spherical, cylindrical or reading correction, recognising keratoconus early on topography, timing cataract surgery and choosing its technique, selecting the right keratoplasty for the depth of a corneal opacity, and avoiding the traps that corneal ulcer is not a high-myopia complication and that extracapsular cataract extraction is not a cause of vitreous haemorrhage.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (minus versus plus lenses, simple versus compound astigmatism, regular versus irregular astigmatism, Fleischer versus Kayser-Fleischer ring, lamellar versus penetrating keratoplasty, and the intrastromal ring that is not a keratoplasty).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+## subtopic
+Normal and abnormal image capture
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-5AB6FDA950BFB7
+CON-MUL-02775FAEF70B3F
+CON-MUL-5146709A7AEC1F
+CON-MUL-5B63C687521D29
+CON-MUL-15F0773194E3B9
+CON-MUL-25AAB747C01A78
+CON-MUL-72E9BB729EE89D
+CON-MUL-3988BBB38BD53F
+CON-MUL-3A2A6B9FB9A599
+CON-MUL-87C1044D003495
+CON-MUL-788177381FCF65
+CON-MUL-34BC6EB8A22E68
+CON-MUL-E0593FD3B09CCC
+CON-MUL-EEB9F487907283
+CON-MUL-C6D9A211C7D4AE
+CON-MUL-495961DCC55D25
+CON-MUL-E0D2462BA3FC5C
+CON-MUL-E366C481012EFE
+CON-MUL-CE406E77626F9A
+CON-MUL-E0FAD4FCE8CA45
+CON-MUL-2CC58FF111C5D1
+CON-MUL-C6D68DD3B72DD4
+CON-MUL-75BF57C02E7E10
+CON-MUL-A7146E1157A353
+CON-MUL-2E038F5818F7B3
+## related_articles
+ART-OPH-315-EYE-ANATOMY
+ART-OPH-315-EYE-EXAM
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-25). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the single vitreous-haemorrhage concept (Q25) is filed on DIS-OPH-T04 (Retina) but grouped here with its chapter. Chapter 4 has 91 MCQs; Q26-91 remain for the next tranche.
+## reading_time
+4

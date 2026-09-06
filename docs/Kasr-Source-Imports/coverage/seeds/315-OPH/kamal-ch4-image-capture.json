@@ -1,0 +1,653 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch4-image-capture",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 4 Normal and abnormal image capture (refractive errors, cataract, cornea/keratoconus, keratoplasty), MCQ Q1-25, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.2 Chapter 4 table), each key re-verified against the option text. 25 authored (Q1-25) / 0 held / 0 excluded in this slice. Q26-91 remain for the next tranche.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > Normal and abnormal image capture",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-IMAGE-CAPTURE"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "Normal and abnormal image capture",
+    "question_type": "Recall",
+    "difficulty": "Easy",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.4 chapter->Q->letter table (p.2), re-verified against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q1",
+      "id": "QST-KASR315OPH-KAMAL-CH4-1",
+      "page": 26,
+      "title": "Refractive error corrected by a minus cylinder axis 180",
+      "question": "A patient corrected with a minus 2 diopter cylinder axis 180 has:",
+      "options": {
+        "A": "Simple hypermetropic astigmatism",
+        "B": "Simple myopic astigmatism",
+        "C": "Compound myopic astigmatism",
+        "D": "Simple myopia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A minus (concave) cylinder corrects myopic, not hypermetropic, astigmatism; a plus cylinder would be used for hypermetropic astigmatism.",
+        "B": "Correct. A pure minus (concave) cylinder with no spherical component corrects simple myopic astigmatism: one meridian is emmetropic and the other is myopic, so only the myopic meridian needs a concave cylinder. Because there is no sphere, it is 'simple' rather than 'compound'. Compound myopic astigmatism would need a sphere plus a cylinder.",
+        "C": "Incorrect. Compound myopic astigmatism has both meridia myopic and needs a spherical lens combined with the cylinder, not a cylinder alone.",
+        "D": "Incorrect. Simple myopia is corrected by a spherical concave lens, not a cylinder; a cylinder implies astigmatism."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-5AB6FDA950BFB7",
+      "concept_ids": ["CON-MUL-5AB6FDA950BFB7"],
+      "learning_objective": "Recognise that a pure minus cylinder corrects simple myopic astigmatism."
+    },
+    {
+      "key": "q2",
+      "id": "QST-KASR315OPH-KAMAL-CH4-2",
+      "page": 26,
+      "title": "False statement about keratoconus",
+      "question": "In keratoconus, all the following statements are true EXCEPT:",
+      "options": {
+        "A": "Munson sign is positive",
+        "B": "Corneal opacity may be seen",
+        "C": "Corneal topography is diagnostic",
+        "D": "Kayser-Fleischer ring is present"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a true statement). Munson sign, a V-shaped bulging of the lower lid on downgaze, is a classic sign of advanced keratoconus.",
+        "B": "Incorrect (it is a true statement). Corneal opacity from stromal scarring or healed hydrops can be seen in keratoconus.",
+        "C": "Incorrect (it is a true statement). Corneal topography demonstrating inferior steepening is the most sensitive diagnostic tool, especially in early disease.",
+        "D": "Correct. This is the false statement: a Kayser-Fleischer ring is a corneal copper deposit of Wilson disease, not a feature of keratoconus. The keratoconus-specific corneal iron line is the Fleischer ring, which is different. So a Kayser-Fleischer ring does not belong to keratoconus."
+      },
+      "subtopic": "Keratoconus",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-02775FAEF70B3F",
+      "concept_ids": ["CON-MUL-02775FAEF70B3F"],
+      "learning_objective": "Distinguish the Fleischer ring of keratoconus from the Kayser-Fleischer ring of Wilson disease."
+    },
+    {
+      "key": "q3",
+      "id": "QST-KASR315OPH-KAMAL-CH4-3",
+      "page": 26,
+      "title": "Refractive change in early nuclear cataract",
+      "question": "Early senile nuclear cataract is accompanied by:",
+      "options": {
+        "A": "Myopic shift of refraction.",
+        "B": "Hyperopic shift of refraction.",
+        "C": "Night blindness.",
+        "D": "Ocular pain."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Early nuclear sclerosis increases the refractive index of the lens nucleus, which increases its refractive power and produces a myopic shift. This 'index myopia' can transiently improve near vision, the so-called second sight. It is a classic early feature of nuclear cataract.",
+        "B": "Incorrect. A hyperopic shift is not typical of nuclear cataract; the change is toward myopia.",
+        "C": "Incorrect. Night blindness points to retinal disease such as retinitis pigmentosa, not to early nuclear cataract.",
+        "D": "Incorrect. Uncomplicated cataract is painless; ocular pain suggests glaucoma or inflammation."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-5146709A7AEC1F",
+      "concept_ids": ["CON-MUL-5146709A7AEC1F"],
+      "learning_objective": "Recognise the myopic (index) shift of early nuclear cataract."
+    },
+    {
+      "key": "q4",
+      "id": "QST-KASR315OPH-KAMAL-CH4-4",
+      "page": 26,
+      "title": "Refractive error characteristic of keratoconus",
+      "question": "Which refractive error is characteristic of keratoconus?",
+      "options": {
+        "A": "Regular astigmatism",
+        "B": "Hypermetropia",
+        "C": "Irregular astigmatism",
+        "D": "Emmetropia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Regular astigmatism has perpendicular principal meridia and is correctable by cylinders; keratoconus distorts the cornea irregularly.",
+        "B": "Incorrect. Keratoconus steepens the cornea and causes myopia, not hypermetropia.",
+        "C": "Correct. The conical, asymmetric thinning of keratoconus produces irregular astigmatism whose meridia are neither perpendicular nor uniform. This cannot be fully corrected by spectacle cylinders and typically needs rigid or scleral contact lenses. Irregular astigmatism is therefore the hallmark refractive error of keratoconus.",
+        "D": "Incorrect. Emmetropia means no refractive error, which is the opposite of the progressive ametropia of keratoconus."
+      },
+      "subtopic": "Keratoconus",
+      "main_concept": "CON-MUL-5B63C687521D29",
+      "concept_ids": ["CON-MUL-5B63C687521D29"],
+      "learning_objective": "Identify irregular astigmatism as the characteristic refractive error of keratoconus."
+    },
+    {
+      "key": "q5",
+      "id": "QST-KASR315OPH-KAMAL-CH4-5",
+      "page": 27,
+      "title": "Meaning of hypermetropia",
+      "question": "Hypermetropia means that the refractive system of the eye is:",
+      "options": {
+        "A": "Weaker than the emmetrope.",
+        "B": "Stronger than the emmetrope.",
+        "C": "The cornea is very steep.",
+        "D": "The eye has long axial length."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In hypermetropia parallel rays are focused behind the retina because the eye's refractive power is too weak for its axial length. This usually reflects a short axial length or an insufficiently powerful cornea/lens. A convex (plus) lens is needed to add the missing power.",
+        "B": "Incorrect. An overly strong refractive system focuses light in front of the retina, which is myopia, not hypermetropia.",
+        "C": "Incorrect. A very steep cornea increases power and causes myopia, the opposite of hypermetropia.",
+        "D": "Incorrect. A long axial length causes myopia; hypermetropia is associated with a short axial length."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-15F0773194E3B9",
+      "concept_ids": ["CON-MUL-15F0773194E3B9"],
+      "learning_objective": "Define hypermetropia as a refractive system too weak for the eye's axial length."
+    },
+    {
+      "key": "q6",
+      "id": "QST-KASR315OPH-KAMAL-CH4-6",
+      "page": 27,
+      "title": "Effect of presbyopia",
+      "question": "Presbyopia causes:",
+      "options": {
+        "A": "Difficulty in seeing far.",
+        "B": "Difficulty in reading.",
+        "C": "Unocular diplopia.",
+        "D": "Subluxation of crystalline lens."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Distance vision is unaffected by presbyopia; the difficulty is with near tasks.",
+        "B": "Correct. Presbyopia is the age-related loss of lens elasticity and accommodative amplitude, so the eye can no longer focus on near objects. Patients typically complain of difficulty reading and hold text further away. It is corrected with convex reading additions.",
+        "C": "Incorrect. Uniocular diplopia suggests a lens or corneal irregularity, not presbyopia.",
+        "D": "Incorrect. Lens subluxation is a zonular problem unrelated to the accommodative failure of presbyopia."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-25AAB747C01A78",
+      "concept_ids": ["CON-MUL-25AAB747C01A78"],
+      "learning_objective": "Recognise near-vision (reading) difficulty as the effect of presbyopia."
+    },
+    {
+      "key": "q7",
+      "id": "QST-KASR315OPH-KAMAL-CH4-7",
+      "page": 27,
+      "title": "Simplest treatment of astigmatism",
+      "question": "The simplest treatment of astigmatism is:",
+      "options": {
+        "A": "Cycloplegia.",
+        "B": "Cylindrical lenses glass prescription.",
+        "C": "Laser surgery.",
+        "D": "Keratoplasty."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cycloplegia relaxes accommodation for refraction but does not correct astigmatism.",
+        "B": "Correct. Regular astigmatism is most simply corrected by prescribing cylindrical spectacle lenses that add power in the appropriate meridian. This is non-invasive, cheap and reversible, so it is first-line. Laser or surgical options are reserved for those intolerant of glasses or contact lenses.",
+        "C": "Incorrect. Laser refractive surgery corrects astigmatism but is not the simplest option and carries surgical risk.",
+        "D": "Incorrect. Keratoplasty is a corneal graft used for severe corneal disease, not a routine treatment for astigmatism."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-72E9BB729EE89D",
+      "concept_ids": ["CON-MUL-72E9BB729EE89D"],
+      "learning_objective": "Identify cylindrical spectacle lenses as the simplest treatment of astigmatism."
+    },
+    {
+      "key": "q8",
+      "id": "QST-KASR315OPH-KAMAL-CH4-8",
+      "page": 27,
+      "title": "True statement about keratoconus",
+      "question": "Keratoconus:",
+      "options": {
+        "A": "Can be diagnosed by ultrasound.",
+        "B": "Can cause astigmatism.",
+        "C": "Is best treated by eye drops.",
+        "D": "Is not a progressive disease."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Keratoconus is diagnosed by corneal topography/tomography, not by ultrasound.",
+        "B": "Correct. Keratoconus is a progressive non-inflammatory corneal ectasia in which the cornea thins and bulges into a cone. This distorted corneal curvature produces progressive myopia and irregular astigmatism. Causing astigmatism is therefore a true statement about the disease.",
+        "C": "Incorrect. Eye drops do not treat keratoconus; management ranges from rigid contact lenses to cross-linking or keratoplasty.",
+        "D": "Incorrect. Keratoconus is characteristically progressive, especially in young patients."
+      },
+      "subtopic": "Keratoconus",
+      "main_concept": "CON-MUL-3988BBB38BD53F",
+      "concept_ids": ["CON-MUL-3988BBB38BD53F"],
+      "learning_objective": "Recognise keratoconus as a progressive ectasia that causes astigmatism."
+    },
+    {
+      "key": "q9",
+      "id": "QST-KASR315OPH-KAMAL-CH4-9",
+      "page": 27,
+      "title": "Definition of keratoplasty",
+      "question": "Keratoplasty means:",
+      "options": {
+        "A": "Intra-ocular lens implantation.",
+        "B": "Transplantation of a cornea from eye bank.",
+        "C": "Excimer laser treatment of the cornea.",
+        "D": "Plastic surgery of the eyelids."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Intraocular lens implantation is part of cataract surgery, not keratoplasty.",
+        "B": "Correct. Keratoplasty (corneal grafting) is the transplantation of donor corneal tissue, usually obtained from an eye bank, to replace diseased or opaque host cornea. It may be full-thickness (penetrating) or partial-thickness (lamellar). The goal is to restore corneal clarity and vision.",
+        "C": "Incorrect. Excimer laser corneal ablation is refractive/phototherapeutic surgery, not a corneal transplant.",
+        "D": "Incorrect. Plastic surgery of the eyelids is blepharoplasty; keratoplasty concerns the cornea."
+      },
+      "subtopic": "Keratoplasty",
+      "main_concept": "CON-MUL-3A2A6B9FB9A599",
+      "concept_ids": ["CON-MUL-3A2A6B9FB9A599"],
+      "learning_objective": "Define keratoplasty as transplantation of donor corneal tissue."
+    },
+    {
+      "key": "q10",
+      "id": "QST-KASR315OPH-KAMAL-CH4-10",
+      "page": 27,
+      "title": "Association of mature intumescent cataract",
+      "question": "Mature intumescent cataract can be associated with:",
+      "options": {
+        "A": "Visual acuity better than 2/60.",
+        "B": "Secondary angle closure glaucoma.",
+        "C": "Good red reflex on retinoscopy.",
+        "D": "Can be treated medically."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A mature cataract severely reduces vision, usually to hand movements or light perception, not better than 2/60.",
+        "B": "Correct. An intumescent cataract is a swollen, water-imbibing lens that becomes thicker and pushes the iris forward. This shallows the anterior chamber and can crowd the drainage angle, precipitating secondary (phacomorphic) angle-closure glaucoma. Urgent lens extraction relieves the attack.",
+        "C": "Incorrect. A dense cataract obscures the fundus, so the red reflex is lost, not good.",
+        "D": "Incorrect. There is no medical cure for cataract; surgery is the only effective treatment."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-87C1044D003495",
+      "concept_ids": ["CON-MUL-87C1044D003495"],
+      "learning_objective": "Link an intumescent cataract to secondary (phacomorphic) angle-closure glaucoma."
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR315OPH-KAMAL-CH4-11",
+      "page": 27,
+      "title": "Current treatment of cataract",
+      "question": "The current treatment of cataract is:",
+      "options": {
+        "A": "Intracapsular cataract surgery with IOL implantation.",
+        "B": "Phacoemulsification without intraocular lens implantation.",
+        "C": "Phacoemulsification with intraocular lens implantation.",
+        "D": "Excimer laser corneal ablation."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Intracapsular extraction removes the whole lens with its capsule and is obsolete; without an intact capsule, in-the-bag IOL placement is not possible.",
+        "B": "Incorrect. Removing the cataract without implanting an IOL leaves the eye markedly hypermetropic (aphakic) and is not the standard.",
+        "C": "Correct. Modern cataract treatment is phacoemulsification, in which ultrasonic energy fragments and aspirates the lens through a small incision. A foldable intraocular lens is then implanted in the preserved capsular bag to restore focus. This combination gives rapid visual recovery and is the current standard of care.",
+        "D": "Incorrect. Excimer laser ablates the cornea for refractive errors; it does not treat lens opacity."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-788177381FCF65",
+      "concept_ids": ["CON-MUL-788177381FCF65"],
+      "learning_objective": "Identify phacoemulsification with IOL implantation as the current cataract treatment."
+    },
+    {
+      "key": "q12",
+      "id": "QST-KASR315OPH-KAMAL-CH4-12",
+      "page": 27,
+      "title": "Features of a subluxated lens",
+      "question": "A Subluxated lens whether clear or cataractous:",
+      "options": {
+        "A": "Is always unocular.",
+        "B": "Is never hereditary.",
+        "C": "Treatment is only conservative.",
+        "D": "It can be associated with other ocular or non-ocular manifestations."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Lens subluxation is frequently bilateral, especially when it is part of a systemic disorder.",
+        "B": "Incorrect. Ectopia lentis is often hereditary, as in Marfan syndrome, homocystinuria and Weill-Marchesani syndrome.",
+        "C": "Incorrect. Management is not purely conservative; a significantly displaced or cataractous lens often needs surgical removal.",
+        "D": "Correct. A subluxated lens results from weak or broken zonules and may be an isolated ocular finding or part of a systemic disease. Marfan syndrome, homocystinuria and trauma are typical causes, each with their own ocular and non-ocular manifestations. Because it can signal systemic disease, ectopia lentis warrants a broader work-up."
+      },
+      "subtopic": "Cataract",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-34BC6EB8A22E68",
+      "concept_ids": ["CON-MUL-34BC6EB8A22E68"],
+      "learning_objective": "Recognise that ectopia lentis may have associated ocular and systemic manifestations."
+    },
+    {
+      "key": "q13",
+      "id": "QST-KASR315OPH-KAMAL-CH4-13",
+      "page": 28,
+      "title": "Image position in the myopic eye",
+      "question": "Myopic eye focuses images (With complete relaxation of accommodation):",
+      "options": {
+        "A": "In front of the lens.",
+        "B": "In front of the retina.",
+        "C": "Behind the retina.",
+        "D": "Behind the cornea."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Light is not focused in front of the lens; the relevant focal point in ametropia is relative to the retina.",
+        "B": "Correct. In myopia the eye is too powerful or too long, so with accommodation fully relaxed parallel rays come to a focus in front of the retina. The image reaching the retina is therefore blurred for distance. A concave (minus) lens diverges the rays so the focus falls on the retina.",
+        "C": "Incorrect. Focusing behind the retina describes hypermetropia, not myopia.",
+        "D": "Incorrect. 'Behind the cornea' does not describe the retinal focus relationship that defines myopia."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-E0593FD3B09CCC",
+      "concept_ids": ["CON-MUL-E0593FD3B09CCC"],
+      "learning_objective": "State that the myopic eye focuses parallel light in front of the retina."
+    },
+    {
+      "key": "q14",
+      "id": "QST-KASR315OPH-KAMAL-CH4-14",
+      "page": 28,
+      "title": "Correction of hypermetropia",
+      "question": "Hypermetropia can be corrected by:",
+      "options": {
+        "A": "A convex lens.",
+        "B": "A concave lens.",
+        "C": "A Sphero-cylindrical lens.",
+        "D": "A + 2 D lens for reading."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hypermetropia is corrected by a convex (plus, converging) lens that adds the refractive power the eye lacks, moving the focus forward onto the retina. This restores clear distance and, with the right power, near vision. The plus lens compensates for the short axial length or weak refracting media.",
+        "B": "Incorrect. A concave (minus) lens diverges light and corrects myopia, worsening hypermetropia.",
+        "C": "Incorrect. A sphero-cylindrical lens is used for astigmatism combined with a spherical error, not for simple hypermetropia.",
+        "D": "Incorrect. A +2 D reading add corrects presbyopia for near work; it is not the general correction of hypermetropia."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-EEB9F487907283",
+      "concept_ids": ["CON-MUL-EEB9F487907283"],
+      "learning_objective": "Identify the convex (plus) lens as the correction for hypermetropia."
+    },
+    {
+      "key": "q15",
+      "id": "QST-KASR315OPH-KAMAL-CH4-15",
+      "page": 28,
+      "title": "Standard adult cataract extraction technique",
+      "question": "The current standard technique for cataract extraction in adults is:",
+      "options": {
+        "A": "LASIK.",
+        "B": "Extracapsular cataract extraction with hard PMMA intraocular lens (IOL).",
+        "C": "Removal of the lens matter by laser.",
+        "D": "Phacoemulsification with posterior chamber foldable IOL."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. LASIK is a corneal refractive procedure and has no role in cataract extraction.",
+        "B": "Incorrect. Conventional extracapsular extraction with a rigid PMMA lens needs a large incision and sutures; it has largely been replaced by phacoemulsification.",
+        "C": "Incorrect. There is no routine laser that simply dissolves and removes the lens matter; femtosecond lasers only assist selected steps of phaco.",
+        "D": "Correct. The current standard is phacoemulsification, which emulsifies and aspirates the lens through a small self-sealing incision. A foldable posterior-chamber IOL is then inserted into the capsular bag through that same small incision. This gives rapid, sutureless visual rehabilitation and is the technique of choice in adults."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-C6D9A211C7D4AE",
+      "concept_ids": ["CON-MUL-C6D9A211C7D4AE"],
+      "learning_objective": "Identify phacoemulsification with a foldable posterior-chamber IOL as the standard adult cataract technique."
+    },
+    {
+      "key": "q16",
+      "id": "QST-KASR315OPH-KAMAL-CH4-16",
+      "page": 28,
+      "title": "Treatment of a superficial corneal opacity",
+      "question": "A superficial corneal opacity is best treated by:",
+      "options": {
+        "A": "LASIK.",
+        "B": "Iridectomy.",
+        "C": "Phacoemulsification.",
+        "D": "Lamellar keratoplasty."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. LASIK reshapes the cornea for refractive error and is not the treatment for an established corneal opacity.",
+        "B": "Incorrect. Iridectomy removes a piece of iris for angle-closure glaucoma; it does not address a corneal opacity.",
+        "C": "Incorrect. Phacoemulsification is lens surgery for cataract and has nothing to do with corneal opacity.",
+        "D": "Correct. A superficial (anterior stromal) corneal opacity is best treated by lamellar keratoplasty, which replaces only the diseased anterior layers while preserving the healthy host endothelium. Sparing the endothelium reduces the risk of rejection compared with a full-thickness graft. A deep, full-thickness opacity, by contrast, needs penetrating keratoplasty."
+      },
+      "subtopic": "Keratoplasty",
+      "main_concept": "CON-MUL-495961DCC55D25",
+      "concept_ids": ["CON-MUL-495961DCC55D25"],
+      "learning_objective": "Match a superficial corneal opacity to lamellar keratoplasty."
+    },
+    {
+      "key": "q17",
+      "id": "QST-KASR315OPH-KAMAL-CH4-17",
+      "page": 28,
+      "title": "Typical presentation of cataract",
+      "question": "Cataract typically presents as:",
+      "options": {
+        "A": "Rapid diminution of vision",
+        "B": "Visual field defect",
+        "C": "Slow progressive gradual diminution of vision.",
+        "D": "Limitation of ocular motility"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Rapid loss of vision suggests a vascular or retinal event, not the gradual course of cataract.",
+        "B": "Incorrect. Field defects point to glaucoma or neurological disease; cataract blurs vision globally rather than as a discrete field loss.",
+        "C": "Correct. Cataract develops as the lens slowly opacifies, so patients report a painless, gradually progressive blurring of vision over months to years. Glare and difficulty with night driving are common accompaniments. The slow, painless course is characteristic and distinguishes it from acute causes of visual loss.",
+        "D": "Incorrect. Limitation of ocular motility reflects an extraocular muscle or nerve problem, unrelated to lens opacity."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-E0D2462BA3FC5C",
+      "concept_ids": ["CON-MUL-E0D2462BA3FC5C"],
+      "learning_objective": "Recognise cataract as a slowly progressive painless loss of vision."
+    },
+    {
+      "key": "q18",
+      "id": "QST-KASR315OPH-KAMAL-CH4-18",
+      "page": 28,
+      "title": "Type that is not a keratoplasty",
+      "question": "Different Types of keratoplasties include the following EXCEPT:",
+      "options": {
+        "A": "Penetrating keratoplasty PKP.",
+        "B": "Deep lamellar keratoplasty.",
+        "C": "Descemet's membrane endothelial keratoplasty.",
+        "D": "Application of intrastromal rings."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a keratoplasty). Penetrating keratoplasty replaces the full thickness of the cornea with donor tissue.",
+        "B": "Incorrect (it is a keratoplasty). Deep anterior lamellar keratoplasty replaces the anterior stroma while sparing host endothelium.",
+        "C": "Incorrect (it is a keratoplasty). Descemet membrane endothelial keratoplasty selectively transplants donor endothelium with Descemet membrane.",
+        "D": "Correct. Intrastromal corneal ring segments are inert plastic implants placed within the stroma to flatten and reshape a keratoconic cornea. They add no donor tissue, so they are a refractive/tectonic procedure, not a corneal transplant. Therefore intrastromal rings are the exception that is not a keratoplasty."
+      },
+      "subtopic": "Keratoplasty",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-E366C481012EFE",
+      "concept_ids": ["CON-MUL-E366C481012EFE"],
+      "learning_objective": "Recognise intrastromal ring segments as not a form of keratoplasty."
+    },
+    {
+      "key": "q19",
+      "id": "QST-KASR315OPH-KAMAL-CH4-19",
+      "page": 28,
+      "title": "Term for crystalline lens opacity",
+      "question": "Opacity of the crystalline lens is known as:",
+      "options": {
+        "A": "Leucoma.",
+        "B": "Cataract.",
+        "C": "Ciliary staphyloma.",
+        "D": "Iris bombe."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Leucoma is a dense white opacity of the cornea, not the lens.",
+        "B": "Correct. Any opacity of the crystalline lens is by definition a cataract. It may be congenital or acquired and is graded by location and maturity. The term applies whatever the cause, from age-related sclerosis to trauma or metabolic disease.",
+        "C": "Incorrect. Ciliary staphyloma is an outward bulge of thinned sclera over the ciliary region, unrelated to the lens.",
+        "D": "Incorrect. Iris bombe is forward bowing of the iris from pupillary block, not a lens opacity."
+      },
+      "subtopic": "Cataract",
+      "main_concept": "CON-MUL-CE406E77626F9A",
+      "concept_ids": ["CON-MUL-CE406E77626F9A"],
+      "learning_objective": "Define cataract as opacity of the crystalline lens."
+    },
+    {
+      "key": "q20",
+      "id": "QST-KASR315OPH-KAMAL-CH4-20",
+      "page": 28,
+      "title": "Treatment of a deep corneal opacity",
+      "question": "A deep corneal opacity can be treated by:",
+      "options": {
+        "A": "LASIK.",
+        "B": "Penetrating keratoplasty.",
+        "C": "Iridectomy.",
+        "D": "Phacoemulsification."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. LASIK removes only a thin superficial layer of stroma and cannot clear a deep, full-thickness opacity.",
+        "B": "Correct. A deep opacity involving the full corneal thickness is treated by penetrating keratoplasty, which replaces the entire thickness of the diseased cornea with a donor button. This restores a clear optical pathway when lamellar (partial-thickness) grafting would leave opaque tissue behind. Superficial opacities, by contrast, can be managed with lamellar keratoplasty.",
+        "C": "Incorrect. Iridectomy is an iris procedure for glaucoma and does not treat corneal opacity.",
+        "D": "Incorrect. Phacoemulsification is lens surgery and has no role in treating a corneal opacity."
+      },
+      "subtopic": "Keratoplasty",
+      "main_concept": "CON-MUL-E0FAD4FCE8CA45",
+      "concept_ids": ["CON-MUL-E0FAD4FCE8CA45"],
+      "learning_objective": "Match a deep (full-thickness) corneal opacity to penetrating keratoplasty."
+    },
+    {
+      "key": "q21",
+      "id": "QST-KASR315OPH-KAMAL-CH4-21",
+      "page": 29,
+      "title": "Complication not seen in high myopia",
+      "question": "Complications of high myopia include the following EXCEPT:",
+      "options": {
+        "A": "Retinal detachment.",
+        "B": "Macular hole.",
+        "C": "Corneal ulcer.",
+        "D": "Choroidal neovascular membrane."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a real complication). The stretched, thin peripheral retina of high myopia predisposes to retinal breaks and rhegmatogenous detachment.",
+        "B": "Incorrect (it is a real complication). Progressive posterior staphyloma and vitreous traction can produce a myopic macular hole.",
+        "C": "Correct. This is the exception: corneal ulceration is an infective/surface disease of the cornea and is not a consequence of axial elongation. High (pathological) myopia damages the posterior segment, so its complications are retinal and choroidal, not corneal. A corneal ulcer therefore does not belong on this list.",
+        "D": "Incorrect (it is a real complication). Lacquer cracks in the stretched choroid allow myopic choroidal neovascular membranes to form at the macula."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-2CC58FF111C5D1",
+      "concept_ids": ["CON-MUL-2CC58FF111C5D1"],
+      "learning_objective": "Recognise that corneal ulcer is not a complication of high myopia."
+    },
+    {
+      "key": "q22",
+      "id": "QST-KASR315OPH-KAMAL-CH4-22",
+      "page": 29,
+      "title": "Feature of regular astigmatism",
+      "question": "Regular astigmatism is characterized by:",
+      "options": {
+        "A": "The steep and flat axes are perpendicular.",
+        "B": "The transition between the steep and flat meridian is acute.",
+        "C": "Cannot be corrected by cylindrical lenses.",
+        "D": "Associates corneal opacities."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In regular astigmatism the two principal meridia, the steepest and the flattest, lie at right angles (90 degrees) to each other. Because the meridia are orderly and perpendicular, the error can be neutralised with a cylindrical lens. This regular geometry is what separates it from irregular astigmatism.",
+        "B": "Incorrect. The change of power between meridia in regular astigmatism is gradual and smooth, not an acute step.",
+        "C": "Incorrect. Regular astigmatism is precisely the type that can be corrected by cylindrical lenses.",
+        "D": "Incorrect. Corneal opacities are associated with irregular astigmatism, not the smooth toricity of regular astigmatism."
+      },
+      "subtopic": "Refractive errors",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-C6D68DD3B72DD4",
+      "concept_ids": ["CON-MUL-C6D68DD3B72DD4"],
+      "learning_objective": "Recognise perpendicular principal meridia as the defining feature of regular astigmatism."
+    },
+    {
+      "key": "q23",
+      "id": "QST-KASR315OPH-KAMAL-CH4-23",
+      "page": 29,
+      "title": "Which procedure is refractive surgery",
+      "question": "One of the following surgeries is considered refractive surgery:",
+      "options": {
+        "A": "Trabeculectomy.",
+        "B": "Posterior capsulotomy.",
+        "C": "Laser in situ assisted keratomileusis (LASIK).",
+        "D": "Vitrectomy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Trabeculectomy creates a drainage fistula to lower intraocular pressure in glaucoma.",
+        "B": "Incorrect. Posterior capsulotomy (usually with Nd:YAG laser) clears a cloudy posterior capsule after cataract surgery.",
+        "C": "Correct. LASIK reshapes the corneal stroma with an excimer laser under a lamellar flap to change the eye's refractive power. By altering corneal curvature it corrects myopia, hypermetropia and astigmatism, which is the defining aim of refractive surgery. The other listed operations target pressure, capsule or vitreous, not the refractive state.",
+        "D": "Incorrect. Vitrectomy removes vitreous gel to treat retinal and vitreous disease, not refractive error."
+      },
+      "subtopic": "Refractive errors",
+      "main_concept": "CON-MUL-75BF57C02E7E10",
+      "concept_ids": ["CON-MUL-75BF57C02E7E10"],
+      "learning_objective": "Identify LASIK as a refractive (keratorefractive) surgery."
+    },
+    {
+      "key": "q24",
+      "id": "QST-KASR315OPH-KAMAL-CH4-24",
+      "page": 29,
+      "title": "Wrong statement about keratoconus",
+      "question": "Regarding keratoconus, choose the WRONG answer:",
+      "options": {
+        "A": "It is conical thinning and protrusion of the cornea.",
+        "B": "It causes progressively increasing myopia and myopic astigmatism.",
+        "C": "It can be diagnosed by corneal topography.",
+        "D": "It presents in old age."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a true statement). Keratoconus is defined by progressive conical thinning and forward protrusion of the central/paracentral cornea.",
+        "B": "Incorrect (it is a true statement). The steepening cornea produces progressively increasing myopia and irregular myopic astigmatism.",
+        "C": "Incorrect (it is a true statement). Corneal topography showing inferior steepening is the most sensitive diagnostic test.",
+        "D": "Correct. This is the wrong statement: keratoconus characteristically begins around puberty and progresses through adolescence and early adulthood, not in old age. Onset in the elderly would be atypical and should prompt another diagnosis. Its youthful onset is a key epidemiological feature."
+      },
+      "subtopic": "Keratoconus",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-A7146E1157A353",
+      "concept_ids": ["CON-MUL-A7146E1157A353"],
+      "learning_objective": "Recognise that keratoconus presents in adolescence/young adulthood, not old age."
+    },
+    {
+      "key": "q25",
+      "id": "QST-KASR315OPH-KAMAL-CH4-25",
+      "page": 29,
+      "title": "Cause not producing vitreous haemorrhage",
+      "question": "Causes of vitreous hemorrhage include the following (EXCEPT):",
+      "options": {
+        "A": "Trauma.",
+        "B": "Posterior vitreous detachment causing retinal tear.",
+        "C": "Extracapsular cataract extraction.",
+        "D": "Ruptured neovascularization at the disc or elsewhere in retina in proliferative diabetic retinopathy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a real cause). Blunt or penetrating trauma can rupture retinal or choroidal vessels and bleed into the vitreous.",
+        "B": "Incorrect (it is a real cause). A posterior vitreous detachment can tear a retinal vessel as it separates, causing vitreous haemorrhage.",
+        "C": "Correct. This is the exception: extracapsular cataract extraction is an anterior-segment lens operation and does not itself cause bleeding into the vitreous cavity. Vitreous haemorrhage arises from retinal or choroidal vascular sources, which routine cataract surgery does not involve. It is therefore not a cause of vitreous haemorrhage.",
+        "D": "Incorrect (it is a real cause). Fragile new vessels of proliferative diabetic retinopathy rupture easily and are a leading cause of vitreous haemorrhage."
+      },
+      "subtopic": "Vitreous haemorrhage",
+      "difficulty": "Moderate",
+      "reasoning_level": 2,
+      "main_concept": "CON-MUL-2E038F5818F7B3",
+      "concept_ids": ["CON-MUL-2E038F5818F7B3"],
+      "learning_objective": "Recognise that extracapsular cataract extraction is not a cause of vitreous haemorrhage."
+    }
+  ]
+}
