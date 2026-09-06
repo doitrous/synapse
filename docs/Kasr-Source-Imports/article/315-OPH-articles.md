@@ -1512,3 +1512,106 @@ groupingNote: Opens Chapter 13 (Medications and the eye) and groups its ocular-p
 5
 
 ---
+
+# Item
+## id
+ART-OPH-315-LASERS
+## title
+Ophthalmology: lasers (physics, laser types, tissue interactions and clinical applications)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 14 of the question bank (Lasers in ophthalmology) and groups the laser facts tested by its MCQs. It covers the physical properties of laser light (monochromatic, coherent, collimated), the laser types used in ophthalmology (excimer, Nd:YAG, argon, diode, ruby and their solid/gas/semiconductor classification), the laser-tissue interactions (photoablation, photodisruption, photocoagulation, photovaporisation and thermotherapy), and their clinical applications: excimer corneal refractive surgery (LASIK/PRK by photoablation), Nd:YAG capsulotomy for after-cataract and Nd:YAG iridotomy for angle-closure prophylaxis, argon retinal photocoagulation, and the diagnostic use of laser in optical coherence tomography.
+## sections
+### Definition
+A laser (light amplification by stimulated emission of radiation) is a monochromatic, coherent and collimated light source used in ophthalmology to cut, coagulate, ablate or image tissue. Chapter 14 tests the laser types, their tissue interactions and their clinical uses; this article gathers the chapter concepts, each stating one atomic laser fact.
+### Mechanism
+Laser light differs from ambient light in being monochromatic (one wavelength), temporally and spatially coherent and collimated (not divergent). Different lasers interact with tissue differently: the excimer (argon-fluoride) laser photoablates corneal tissue in refractive surgery; the Nd:YAG laser photodisrupts (incises) the posterior capsule or iris; the argon laser photocoagulates the retina by a thermal effect; and thermotherapy elevates tissue temperature. Lasers are classified by medium as gas (CO2, argon), solid-state (ruby, Nd:YAG) or semiconductor (diode).
+### Key determinants
+Discriminators tested here: excimer laser (photoablation) for corneal refractive surgery; Nd:YAG (photodisruption) for capsulotomy of after-cataract and for iridotomy as angle-closure prophylaxis in the fellow eye; argon laser (photocoagulation) for proliferative diabetic retinopathy, vein occlusion and retinal tears but not for central retinal artery occlusion; ruby is a solid-state laser, diode is a semiconductor laser, and OCT is the diagnostic (not therapeutic) laser application.
+### Clinical significance
+These facts underpin the choice of laser for each ophthalmic procedure: reshaping the cornea, clearing a cloudy posterior capsule, relieving pupillary block, ablating ischaemic retina, and imaging the retina and optic nerve non-invasively.
+### Common misconceptions
+See each concept pitfalls field for the exact reversal each distractor exploits (calling laser light divergent, using an excimer laser for capsulotomy, or offering retinal photocoagulation for an artery occlusion).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## subtopic
+Lasers in ophthalmology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+DIS-OPH-T01
+DIS-OPH-T03
+DIS-OPH-T04
+## related_concepts
+CON-MUL-43D136144A293E
+CON-MUL-0F39352B4E6A76
+CON-MUL-B75D3BC47D3A8A
+CON-MUL-9512BABC9D1F59
+CON-MUL-C87927FCFC71C5
+CON-MUL-1B57AC909CFAEA
+CON-MUL-8759A5DE744C16
+CON-MUL-1830D30B9DADD4
+CON-MUL-20AD2B92ECCC11
+CON-MUL-10A3CD3CCFD3AC
+CON-MUL-0D1C524C4D5E21
+CON-MUL-AC4162891061EF
+CON-MUL-3E88D17CAC21CD
+CON-MUL-7F89312D54A148
+CON-MUL-A2B40668538701
+## related_articles
+ART-OPH-315-GLAUCOMA
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 14 (Lasers in ophthalmology) and groups its laser concepts. DIS-OPH has no dedicated laser/physics node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter facts are anterior-segment laser applications (refractive surgery, YAG capsulotomy, laser physics) - while each concept carries its own most-specific node: YAG iridotomy on DIS-OPH-T03 (Glaucoma), argon retinal photocoagulation and the retinal-treatment concept on DIS-OPH-T04 (Retina), and the diagnostic OCT concept on DIS-OPH-T01 (Eye examination). Chapter 14 has 23 keyed MCQs (answer key p.9; all rows present), all clean single-best 4-option items - 0 held. A Written prompt precedes the MCQs (out of scope). 15 new concepts minted.
+## reading_time
+5
+
+---

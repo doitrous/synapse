@@ -46200,3 +46200,1668 @@ sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.13 Medications and the eye) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
 
 ---
+
+# Item
+## id
+CON-MUL-43D136144A293E
+## label
+The excimer laser is used for corneal refractive surgery
+## canonical_key
+ophthalmology.lasers.excimer-corneal-refractive-surgery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Corneal refractive surgery (LASIK, PRK) uses the excimer laser to reshape the cornea; the diode, carbon-dioxide and Nd:YAG lasers are not used for corneal refractive ablation.
+## explicit_objective
+Identify the excimer laser as the laser for corneal refractive surgery.
+## pitfalls
+Choosing diode, CO2 or Nd:YAG for corneal refractive surgery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0F39352B4E6A76
+## label
+The femtosecond laser is used for LASIK, keratoplasty and cataract surgery but not iridectomy
+## canonical_key
+ophthalmology.lasers.femto-laser-uses-except-iridectomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The femtosecond laser is used in LASIK flap creation, penetrating keratoplasty and femto-cataract surgery; iridectomy/iridotomy is done with the Nd:YAG (or argon) laser, not the femtosecond laser.
+## explicit_objective
+List femtosecond-laser uses and exclude iridectomy.
+## pitfalls
+Thinking the femtosecond laser performs iridectomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B75D3BC47D3A8A
+## label
+The Nd:YAG laser produces photodisruption (tissue incision)
+## canonical_key
+ophthalmology.lasers.nd-yag-photodisruption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Nd:YAG laser works by photodisruption, an ionising plasma effect that incises tissue (e.g. posterior capsule, iris); the argon laser photocoagulates and the excimer photoablates instead.
+## explicit_objective
+State that the Nd:YAG laser acts by photodisruption (incision).
+## pitfalls
+Attributing photocoagulation or ablation to the Nd:YAG laser.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser-tissue interaction
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9512BABC9D1F59
+## label
+After-cataract (posterior capsule opacification) is treated by Nd:YAG laser capsulotomy
+## canonical_key
+ophthalmology.lasers.yag-capsulotomy-after-cataract
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An after-cataract (posterior capsule opacification) is treated by Nd:YAG laser capsulotomy, which is also the laser of choice for capsulotomy generally; the excimer, argon, diode and CO2 lasers are not used for this.
+## explicit_objective
+Identify Nd:YAG laser capsulotomy as the treatment of after-cataract.
+## pitfalls
+Choosing excimer, argon or diode laser for capsulotomy of after-cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C87927FCFC71C5
+## label
+Nd:YAG laser iridotomy is the prophylactic treatment of choice for the fellow eye in acute angle-closure glaucoma
+## canonical_key
+ophthalmology.lasers.yag-iridotomy-prophylaxis-angle-closure-fellow-eye
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In acute angle-closure glaucoma the prophylactic treatment of choice for the other (fellow) eye is a YAG laser peripheral iridotomy, which relieves pupillary block; trabeculectomy, trabeculotomy and atropine are not the prophylaxis.
+## explicit_objective
+Select YAG laser iridotomy as fellow-eye prophylaxis in angle-closure glaucoma.
+## pitfalls
+Choosing trabeculectomy, trabeculotomy or atropine for fellow-eye prophylaxis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1B57AC909CFAEA
+## label
+The argon laser produces its effect through photocoagulation (a thermal interaction)
+## canonical_key
+ophthalmology.lasers.argon-laser-photocoagulation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The argon laser acts by photocoagulation, a thermal laser-tissue interaction used for retinal photocoagulation; photovaporisation, photoablation and photodisruption are different mechanisms.
+## explicit_objective
+State that the argon laser acts by photocoagulation (thermal).
+## pitfalls
+Attributing photoablation, photovaporisation or photodisruption to the argon laser.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser-tissue interaction
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8759A5DE744C16
+## label
+LASIK/refractive surgery by the excimer laser works through photoablation
+## canonical_key
+ophthalmology.lasers.excimer-lasik-photoablation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+LASIK and other excimer-laser refractive surgery act on the cornea by photoablation; the tissue interaction is not photodisruption, photocoagulation or photovaporisation.
+## explicit_objective
+State that excimer refractive surgery works by photoablation.
+## pitfalls
+Calling the excimer refractive interaction photocoagulation, photodisruption or photovaporisation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser-tissue interaction
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1830D30B9DADD4
+## label
+Laser light is monochromatic, coherent and collimated (not divergent)
+## canonical_key
+ophthalmology.lasers.laser-physical-properties-collimated-coherent-monochromatic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laser differs from ambient light in being monochromatic, temporally and spatially coherent and collimated (parallel, not divergent and not convergent); it does not contain all wavelengths and is not temporally incoherent.
+## explicit_objective
+List the physical properties of laser light and note it is collimated, not divergent.
+## pitfalls
+Describing laser as divergent, convergent, polychromatic or incoherent.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser physics
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser physics
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-20AD2B92ECCC11
+## label
+The ruby laser is a solid-state laser
+## canonical_key
+ophthalmology.lasers.solid-state-laser-ruby
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Solid-state lasers include the ruby laser (and Nd:YAG); the carbon-dioxide and argon lasers are gas lasers and the diode laser is a semiconductor laser.
+## explicit_objective
+Classify the ruby laser as a solid-state laser.
+## pitfalls
+Confusing gas (CO2, argon) or semiconductor (diode) lasers with solid-state.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser types
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-10A3CD3CCFD3AC
+## label
+The excimer laser is an argon-fluoride laser
+## canonical_key
+ophthalmology.lasers.excimer-argon-fluoride-laser
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The excimer laser used in ophthalmology is an argon-fluoride (ArF) laser emitting in the ultraviolet; it is not a krypton, diode or YAG laser.
+## explicit_objective
+Identify the excimer laser as an argon-fluoride laser.
+## pitfalls
+Confusing the excimer with krypton, diode or YAG lasers.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser types
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0D1C524C4D5E21
+## label
+The diode laser is a semiconductor laser
+## canonical_key
+ophthalmology.lasers.diode-semiconductor-laser
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The diode laser is a semiconductor laser; it is not a solid-state, gas or dye laser.
+## explicit_objective
+Classify the diode laser as a semiconductor laser.
+## pitfalls
+Calling the diode laser solid-state, gas or dye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser types
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-AC4162891061EF
+## label
+Photovaporisation is a thermal laser effect
+## canonical_key
+ophthalmology.lasers.photovaporisation-thermal-laser
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Photovaporisation is a thermal laser-tissue interaction (heating tissue to vaporisation); it is not a photochemical, ionising or cryo effect.
+## explicit_objective
+Classify photovaporisation as a thermal laser effect.
+## pitfalls
+Calling photovaporisation a photochemical, ionising or cryo effect.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser-tissue interaction
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3E88D17CAC21CD
+## label
+Thermotherapy elevates tissue temperature
+## canonical_key
+ophthalmology.lasers.thermotherapy-elevating-tissue-temperature
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laser thermotherapy works by elevating the tissue temperature (sub-coagulation heating); it is not tissue ablation, incision or cauterisation.
+## explicit_objective
+State that thermotherapy elevates tissue temperature.
+## pitfalls
+Confusing thermotherapy with ablation, incision or cauterisation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser-tissue interaction
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7F89312D54A148
+## label
+Optical coherence tomography is a diagnostic use of laser
+## canonical_key
+ophthalmology.lasers.laser-diagnostic-use-optical-coherence-tomography
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Optical coherence tomography (OCT) is a diagnostic laser application; LASIK, femto-cataract and PRK are therapeutic/surgical uses, not diagnostic.
+## explicit_objective
+Identify OCT as the diagnostic use of laser.
+## pitfalls
+Listing LASIK, femto-cataract or PRK as a diagnostic use.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T01
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A2B40668538701
+## label
+Laser treats proliferative diabetic retinopathy, vein occlusion and retinal tears but not central retinal artery occlusion
+## canonical_key
+ophthalmology.lasers.laser-retinal-treatment-except-central-retinal-artery-occlusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinal laser photocoagulation treats proliferative diabetic retinopathy, central retinal vein occlusion and retinal tears; it has no role in central retinal artery occlusion, which is an acute ischaemic event.
+## explicit_objective
+Exclude central retinal artery occlusion from the retinal conditions treated by laser.
+## pitfalls
+Thinking laser photocoagulation treats a central retinal artery occlusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Laser applications
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology > Laser applications
+## article_ids
+ART-OPH-315-LASERS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
