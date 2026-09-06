@@ -2919,3 +2919,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-31
+## title
+When beta-blockers are avoided (2)
+## question
+Beta blockers are avoided when patient has:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Bronchial asthma.
+## explanation_a
+Correct. Beta-blockers can trigger bronchospasm and are avoided in bronchial asthma.
+## answer_b
+Bladder troubles.
+## explanation_b
+Incorrect. Bladder trouble is not a contraindication.
+## answer_c
+Renal stones.
+## explanation_c
+Incorrect. Renal stones are unrelated.
+## answer_d
+Allergy to apraclonidine.
+## explanation_d
+Incorrect. Apraclonidine allergy concerns another drug.
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## main_concept
+CON-MUL-64C52C6BF75034
+## concept_ids
+CON-MUL-64C52C6BF75034
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify bronchial asthma as the contraindication to beta-blockers.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-32
+## title
+Indication for topical corticosteroids
+## question
+Topical corticosteroids are used in the treatment of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Scleritis.
+## explanation_a
+Correct. Topical corticosteroids treat scleritis.
+## answer_b
+Corneal ulceration.
+## explanation_b
+Incorrect. Steroids delay healing of a corneal ulcer.
+## answer_c
+Herpetic keratitis.
+## explanation_c
+Incorrect. Steroids worsen herpetic keratitis.
+## answer_d
+Fungal infections.
+## explanation_d
+Incorrect. Steroids worsen fungal infection.
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## main_concept
+CON-MUL-A92DC6B631C5AA
+## concept_ids
+CON-MUL-A92DC6B631C5AA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify scleritis as an indication for topical corticosteroids.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-33
+## title
+Beta-blockers as glaucoma medications
+## question
+β-blockers as glaucoma medications:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Are not used in closed angle glaucoma.
+## explanation_a
+Incorrect. Beta-blockers can be used as adjuncts in closed-angle glaucoma too.
+## answer_b
+Act by increasing uveoscleral outflow.
+## explanation_b
+Incorrect. They act by reducing aqueous formation, not by increasing uveoscleral outflow.
+## answer_c
+Are drops of choice in patient with bronchial asthma.
+## explanation_c
+Incorrect. They are avoided in bronchial asthma.
+## answer_d
+Are first choice antiglaucoma medications.
+## explanation_d
+Correct. Beta-blockers are traditionally a first-choice antiglaucoma medication.
+## topic
+Ophthalmology
+## subtopic
+Beta-blockers
+## main_concept
+CON-MUL-B9AA73C8D3FAE9
+## concept_ids
+CON-MUL-B9AA73C8D3FAE9
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise beta-blockers as a first-choice antiglaucoma medication.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-34
+## title
+Side effects of topical pilocarpine
+## question
+Topical pilocarpine (cholinergic agonists) has the following side effects:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Loss of accommodation.
+## explanation_a
+Incorrect. Pilocarpine causes accommodative spasm, not loss of accommodation.
+## answer_b
+Induced hypermetropia.
+## explanation_b
+Incorrect. It induces a myopic shift, not hypermetropia.
+## answer_c
+Ciliary muscle spasm causing headache.
+## explanation_c
+Correct. Pilocarpine causes ciliary-muscle spasm producing brow-ache/headache.
+## answer_d
+Pupillary dilation.
+## explanation_d
+Incorrect. Pilocarpine is a miotic; it constricts the pupil.
+## topic
+Ophthalmology
+## subtopic
+Cholinergic agonists
+## main_concept
+CON-MUL-38AAB839EEF1CC
+## concept_ids
+CON-MUL-38AAB839EEF1CC
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify ciliary-muscle spasm and headache as a pilocarpine side effect.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-35
+## title
+Drug that does not decrease aqueous formation
+## question
+One of the following drugs does not decrease aqueous formation:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Beta blockers.
+## explanation_a
+Incorrect. Beta-blockers decrease aqueous formation.
+## answer_b
+Prostaglandin analogue.
+## explanation_b
+Correct. Prostaglandin analogues act by increasing uveoscleral outflow, not by decreasing aqueous formation.
+## answer_c
+Carbonic anhydrase inhibitors.
+## explanation_c
+Incorrect. Carbonic anhydrase inhibitors decrease aqueous formation.
+## answer_d
+Alpha-adrenergic agonists.
+## explanation_d
+Incorrect. Alpha-adrenergic agonists decrease aqueous formation.
+## topic
+Ophthalmology
+## subtopic
+Prostaglandin analogues
+## main_concept
+CON-MUL-442777A2986152
+## concept_ids
+CON-MUL-442777A2986152
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that prostaglandin analogues do not decrease aqueous formation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
