@@ -8594,3 +8594,795 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-83
+## title
+Features of dry age-related macular degeneration
+## question
+Dry type of age-related macular degeneration:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Manifests with drusen and central choroidal atrophy.
+## explanation_a
+Correct. Dry (atrophic) AMD shows drusen and geographic atrophy of the retinal pigment epithelium and choriocapillaris at the macula.
+## answer_b
+Less common than wet AMD.
+## explanation_b
+Incorrect. The dry form is the commoner type of age-related macular degeneration (about 90% of cases).
+## answer_c
+Treated with anti VEGF.
+## explanation_c
+Incorrect. Anti-VEGF treats the wet (neovascular) form; dry AMD has no specific medical cure.
+## answer_d
+Cherry red spot at macular area.
+## explanation_d
+Incorrect. A cherry-red spot is a sign of central retinal artery occlusion, not of dry AMD.
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## main_concept
+CON-MUL-58CD566E688FDF
+## concept_ids
+CON-MUL-58CD566E688FDF
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise drusen and geographic atrophy as the features of dry age-related macular degeneration and distinguish it from the wet form.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-84
+## title
+Cause of exudative retinal detachment
+## question
+Exudative retinal detachment can be caused by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Diabetic retinopathy.
+## explanation_a
+Incorrect. Diabetic retinopathy causes a tractional detachment through fibrovascular contraction.
+## answer_b
+Retinopathy of prematurity.
+## explanation_b
+Incorrect. Retinopathy of prematurity causes a tractional detachment.
+## answer_c
+Toxaemia of pregnancy.
+## explanation_c
+Correct. Toxaemia of pregnancy (pre-eclampsia) causes an exudative/serous retinal detachment from choroidal vascular leakage.
+## answer_d
+Penetrating trauma.
+## explanation_d
+Incorrect. Penetrating trauma typically causes a tractional or rhegmatogenous detachment.
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## main_concept
+CON-MUL-634453721573C2
+## concept_ids
+CON-MUL-634453721573C2
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify toxaemia of pregnancy as a cause of exudative (serous) retinal detachment.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-85
+## title
+Cause of tractional retinal detachment
+## question
+Tractional retinal detachment can be caused by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Diabetic retinopathy.
+## explanation_a
+Correct. In advanced diabetic eye disease, fibrovascular proliferation contracts and pulls the retina off, producing a tractional detachment.
+## answer_b
+Choroidal haemangioma.
+## explanation_b
+Incorrect. A choroidal haemangioma causes an exudative detachment.
+## answer_c
+Toxaemia of pregnancy.
+## explanation_c
+Incorrect. Toxaemia of pregnancy causes an exudative detachment.
+## answer_d
+Retinal breaks.
+## explanation_d
+Incorrect. A retinal break causes a rhegmatogenous detachment.
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## main_concept
+CON-MUL-24625CAF40326B
+## concept_ids
+CON-MUL-24625CAF40326B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify diabetic retinopathy as a cause of tractional retinal detachment.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-86
+## title
+Treatment of choroidal malignant melanoma
+## question
+Treatment of malignant melanoma is by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Pars plana vitrectomy.
+## explanation_a
+Incorrect. Pars plana vitrectomy is not a treatment for choroidal melanoma.
+## answer_b
+Scleral buckling.
+## explanation_b
+Incorrect. Scleral buckling is a retinal-detachment operation, not melanoma treatment.
+## answer_c
+Intravitreal injection of anti VEGF.
+## explanation_c
+Incorrect. Anti-VEGF does not treat choroidal melanoma.
+## answer_d
+Surgical excision.
+## explanation_d
+Correct. Choroidal melanoma is managed surgically (local resection or enucleation), alongside radiotherapy for suitable tumours.
+## topic
+Ophthalmology
+## subtopic
+Choroidal melanoma
+## main_concept
+CON-MUL-C72572221990A6
+## concept_ids
+CON-MUL-C72572221990A6
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise surgical excision (with radiotherapy) as the treatment of choroidal malignant melanoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.122); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-87
+## title
+Risk factor for rhegmatogenous retinal detachment
+## question
+Risk factors for rhegmatogenous retinal detachment include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Open angle glaucoma.
+## explanation_a
+Incorrect. Open-angle glaucoma is not a risk factor for rhegmatogenous detachment.
+## answer_b
+Toxemia of pregnancy.
+## explanation_b
+Incorrect. Toxaemia of pregnancy causes an exudative, not rhegmatogenous, detachment.
+## answer_c
+Hypertension.
+## explanation_c
+Incorrect. Hypertension is not a risk factor for rhegmatogenous detachment.
+## answer_d
+High myopia.
+## explanation_d
+Correct. High myopia, with its lattice degeneration and posterior vitreous detachment, is a major risk factor for rhegmatogenous retinal detachment.
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## main_concept
+CON-MUL-0BCA326DF12B10
+## concept_ids
+CON-MUL-0BCA326DF12B10
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify high myopia as a major risk factor for rhegmatogenous retinal detachment.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.122); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-88
+## title
+Important differential diagnosis of choroidal malignant melanoma
+## question
+Malignant melanoma:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Treatment is by pars plana vitrectomy.
+## explanation_a
+Incorrect. It is treated by local resection, enucleation or radiotherapy, not vitrectomy.
+## answer_b
+Causes tractional retinal detachment.
+## explanation_b
+Incorrect. A choroidal melanoma produces a solid, exudative detachment, not a tractional one.
+## answer_c
+Amsler grid chart helps in diagnosis.
+## explanation_c
+Incorrect. The Amsler grid detects macular distortion (as in a CNVM), not a choroidal melanoma.
+## answer_d
+The most important differential diagnosis is choroidal metastasis.
+## explanation_d
+Correct. Choroidal metastasis is the key differential diagnosis for a choroidal melanoma.
+## topic
+Ophthalmology
+## subtopic
+Choroidal melanoma
+## main_concept
+CON-MUL-C72572221990A6
+## concept_ids
+CON-MUL-C72572221990A6
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise choroidal metastasis as the most important differential diagnosis of choroidal malignant melanoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.122); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-89
+## title
+Risk factor for retinitis pigmentosa
+## question
+Risk factors for retinitis pigmentosa include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Senility.
+## explanation_a
+Incorrect. Retinitis pigmentosa presents in youth and is not an age-related degeneration.
+## answer_b
+Genetic.
+## explanation_b
+Correct. Retinitis pigmentosa is a genetically determined (hereditary) rod-cone dystrophy.
+## answer_c
+Trauma.
+## explanation_c
+Incorrect. Trauma is not a cause of retinitis pigmentosa.
+## answer_d
+Myopia.
+## explanation_d
+Incorrect. Myopia is not a risk factor for retinitis pigmentosa.
+## topic
+Ophthalmology
+## subtopic
+Retinitis pigmentosa
+## main_concept
+CON-MUL-AC77FFD34417FF
+## concept_ids
+CON-MUL-AC77FFD34417FF
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+44
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise retinitis pigmentosa as a genetically determined (hereditary) disorder.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.122); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-90
+## title
+Fundus sign of retinitis pigmentosa
+## question
+In retinitis pigmentosa the following is true:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Day blindness.
+## explanation_a
+Incorrect. Retinitis pigmentosa causes night blindness (nyctalopia), not day blindness.
+## answer_b
+Attenuated retinal vessels.
+## explanation_b
+Correct. Retinitis pigmentosa shows the classic triad of bone-spicule pigmentation, attenuated (narrowed) retinal vessels and a waxy pale disc.
+## answer_c
+Primary optic atrophy.
+## explanation_c
+Incorrect. Retinitis pigmentosa causes a waxy/secondary disc pallor, not primary optic atrophy.
+## answer_d
+Soft exudates.
+## explanation_d
+Incorrect. Soft (cotton-wool) exudates are ischaemic signs of retinopathies, not features of retinitis pigmentosa.
+## topic
+Ophthalmology
+## subtopic
+Retinitis pigmentosa
+## main_concept
+CON-MUL-AC77FFD34417FF
+## concept_ids
+CON-MUL-AC77FFD34417FF
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise attenuated retinal vessels as part of the retinitis pigmentosa fundus triad.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.122); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
