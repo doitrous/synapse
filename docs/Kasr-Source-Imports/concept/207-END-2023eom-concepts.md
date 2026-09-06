@@ -2018,3 +2018,1012 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
 
+
+---
+
+# Item
+## id
+CON-END-0661CBB7488767
+## label
+Pinealocytes have an organelle-rich basophilic cytoplasm with secretory granules
+## canonical_key
+pineal-histology.pinealocytes.organelle-rich-basophilic-cytoplasm
+## aliases
+Pineal parenchymal cells
+Melatonin-secreting pinealocytes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pinealocytes are the principal parenchymal cells of the pineal gland. Their basophilic cytoplasm is rich in mitochondria, a well-developed Golgi apparatus, rough endoplasmic reticulum and membrane-bound secretory granules, reflecting active synthesis and secretion of melatonin. Long cytoplasmic processes end in bulbous expansions near the fenestrated capillaries. This organelle profile distinguishes them from the pale lipid-laden adrenal spongiocytes and the mitochondria-packed acidophilic parathyroid oxyphil cells.
+## explicit_objective
+Identify the pinealocyte as the organelle-rich, basophilic secretory cell producing melatonin.
+## pitfalls
+Confusing pinealocytes with adrenal spongiocytes (pale, lipid-rich) or parathyroid oxyphil cells (acidophilic, mitochondria only).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-END-T01
+## topic
+Histology
+## subtopic
+Pineal gland
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Pineal gland
+## article_ids
+ART-END-207END-2023EOM-ENDO-GLAND-HISTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-A7D5DA3B4DC725
+## label
+Prostatic carcinoma arises most often in the peripheral zone
+## canonical_key
+prostate-histology.carcinoma.peripheral-zone-origin
+## aliases
+Peripheral zone prostate cancer
+Prostate zonal anatomy of carcinoma
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The prostate is divided into central, transitional and peripheral zones. About 70% of prostatic adenocarcinomas arise in the peripheral zone, the outer glandular zone lying posteriorly, which is why they are often palpable on digital rectal examination and sampled by needle biopsy. This contrasts with benign prostatic hyperplasia, which arises in the peri-urethral transitional zone, and with the relatively resistant central zone around the ejaculatory ducts.
+## explicit_objective
+State that prostatic carcinoma most often arises in the peripheral zone, unlike hyperplasia in the transitional zone.
+## pitfalls
+Assigning carcinoma to the transitional zone (site of benign hyperplasia) or to the central zone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Histology
+## subtopic
+Prostate
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Prostate
+## article_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-332FA96A7EAA42
+## label
+The seminal vesicle has a highly folded, androgen-dependent mucosa
+## canonical_key
+seminal-vesicle-histology.mucosa.highly-folded
+## aliases
+Seminal vesicle histology
+Folded seminal-vesicle mucosa
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The seminal vesicle has an extensively folded mucosa forming a network of thin primary, secondary and tertiary folds that greatly increase the secretory surface for its fructose-rich alkaline fluid. The lining is a pseudostratified or simple columnar non-ciliated epithelium whose secretory activity is androgen (testosterone) dependent. Its wall has two smooth-muscle layers, an inner circular and an outer longitudinal.
+## explicit_objective
+Recognise the highly folded, androgen-dependent mucosa of the seminal vesicle.
+## pitfalls
+Believing the lining is ciliated, that the muscle has three layers, or that activity depends on inhibin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Histology
+## subtopic
+Seminal vesicle
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Seminal vesicle
+## article_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-C8A081AEE30DDD
+## label
+Glandular glycogen accumulation is the hallmark of the secretory phase
+## canonical_key
+menstrual-cycle-histology.secretory-phase.glycogen-accumulation
+## aliases
+Luteal phase endometrium
+Secretory endometrium glycogen
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The secretory (luteal) phase follows ovulation and is driven by progesterone from the corpus luteum. The endometrial gland cells accumulate glycogen, first as sub-nuclear then supra-nuclear vacuoles, and the glands become tortuous and secrete a glycogen-rich fluid that would nourish an implanting blastocyst. The endometrium reaches only about 5-6 mm and its spiral arteries lengthen into the functional layer.
+## explicit_objective
+Identify glandular glycogen accumulation under progesterone as the hallmark of the secretory phase.
+## pitfalls
+Attributing the phase to FSH, over-estimating endometrial thickness, or denying spiral-artery extension.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Histology
+## subtopic
+Menstrual cycle
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Uterus
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-13DC0917483DB4
+## label
+The spongy urethra is not a content of the deep perineal pouch
+## canonical_key
+deep-perineal-pouch.contents.excludes-spongy-urethra
+## aliases
+Deep perineal pouch contents
+Contents of the deep perineal space
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The deep perineal pouch lies between the perineal membrane below and the fascia of the pelvic diaphragm above. It contains the sphincter urethrae and deep transversus perinei muscles, the bulbo-urethral (Cowper's) glands and membranous urethra in the male, and the internal pudendal vessels and dorsal nerve of the penis. The spongy (penile) urethra runs within the corpus spongiosum in the penis and superficial pouch, so it is not a content of the deep pouch.
+## explicit_objective
+List the contents of the deep perineal pouch and recognise the spongy urethra as excluded.
+## pitfalls
+Placing the spongy urethra in the deep pouch, or excluding the bulbo-urethral glands or sphincter urethrae.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Deep perineal pouch
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineum
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-09F20D269EFFA0
+## label
+The sphenoidal air sinus lies immediately inferior to the pituitary fossa
+## canonical_key
+pituitary-relations.inferior.sphenoidal-air-sinus
+## aliases
+Inferior relation of the hypophysis
+Sella turcica and sphenoid sinus
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pituitary gland sits in the hypophyseal fossa (sella turcica) of the body of the sphenoid bone, and the thin floor of the fossa separates it from the sphenoidal air sinus directly below. Laterally the gland relates to the cavernous sinuses and superiorly to the optic chiasma. The inferior relation to the sphenoid sinus is the anatomical basis of the trans-sphenoidal surgical approach to pituitary tumours.
+## explicit_objective
+State that the sphenoidal air sinus lies immediately inferior to the pituitary fossa, the basis of the trans-sphenoidal approach.
+## pitfalls
+Naming the cavernous sinus (lateral) or temporal lobe as the inferior relation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-ANA-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Anatomy
+## subtopic
+Pituitary relations
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Pituitary gland
+## article_ids
+ART-END-207END-2023EOM-ENDO-GLAND-HISTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-C4A37121285E19
+## label
+The ovary attaches to the posterior layer of the broad ligament
+## canonical_key
+broad-ligament.attachments.ovary-on-posterior-margin
+## aliases
+Broad ligament attachments
+Ovary and the broad ligament
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The broad ligament is a peritoneal fold extending from the side of the uterus to the lateral wall and floor of the pelvis. The uterine tube runs in its free upper border, and it contains mesonephric (Wolffian) remnants such as the epoophoron and paroophoron. The ovary is attached to the posterior layer of the broad ligament by the mesovarium, not to its anterior margin.
+## explicit_objective
+Recognise that the ovary attaches to the posterior, not anterior, layer of the broad ligament.
+## pitfalls
+Stating the ovary lies on the anterior margin, or denying its tubal and mesonephric-remnant contents.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Broad ligament
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Broad ligament
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-PELVIC-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-F297A676463B0D
+## label
+The pubovesical ligament connects the bladder neck to the pubis
+## canonical_key
+bladder-ligaments.pubovesical.bladder-neck-to-pubis
+## aliases
+Pubovesical ligament
+Puboprostatic/pubovesical support
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pubovesical ligaments (in the female) are condensations of pelvic fascia that connect the neck of the bladder to the back of the pubic bones; the male equivalent is the puboprostatic ligament. They are true fascial ligaments that anchor the bladder neck, and weakening of this support contributes to stress incontinence. The superior surface of the bladder, by contrast, is covered by peritoneum, and the cardinal ligaments support the cervix rather than the bladder.
+## explicit_objective
+Identify the pubovesical ligament as connecting the bladder neck to the pubis.
+## pitfalls
+Attaching the pubovesical ligament to the superior surface, or calling the cardinal or broad ligament a bladder ligament.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Urinary bladder ligaments
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Urinary bladder
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-372594CB33C64E
+## label
+The ejaculatory ducts open beside the utricle on the urethral crest
+## canonical_key
+prostatic-urethra.ejaculatory-ducts.open-beside-utricle
+## aliases
+Seminal colliculus openings
+Ejaculatory duct openings
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On the posterior wall of the prostatic urethra the urethral crest bears a midline elevation, the seminal colliculus (verumontanum), on which the prostatic utricle opens; the two ejaculatory ducts open on either side of the utricle opening. The prostatic ducts open into the prostatic sinuses that flank the crest. The prostatic urethra is the widest and most dilatable part of the male urethra, unlike the narrow membranous part.
+## explicit_objective
+Locate the ejaculatory-duct openings beside the prostatic utricle on the urethral crest.
+## pitfalls
+Placing the urethral crest or ejaculatory-duct openings on the anterior wall, or calling the prostatic urethra the narrowest part.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Anatomy
+## subtopic
+Prostatic urethra
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Prostatic urethra
+## article_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+

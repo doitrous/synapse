@@ -2521,3 +2521,1263 @@ yes
 ## author_notes
 keySource: printed answer table p.19 (Q96=a)
 kasr: 2023 EOM 195, p.16
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-001
+
+## title
+Cell with organelle-rich basophilic cytoplasm and secretory granules
+
+## question
+Basophilic cytoplasm rich in mitochondria, Golgi apparatus, rER and secretory granules is a characteristic feature of which of the following?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pinealocytes.
+
+## explanation_a
+Correct. Pinealocytes are the principal secretory cells of the pineal gland and have a basophilic cytoplasm packed with mitochondria, a well-developed Golgi apparatus, rough endoplasmic reticulum and membrane-bound secretory granules for melatonin production. Their organelle-rich cytoplasm reflects active synthesis and secretion. Long cytoplasmic processes end in bulbous expansions near the fenestrated capillaries.
+
+## answer_b
+Spongiocytes.
+
+## explanation_b
+Incorrect. Spongiocytes are the cells of the adrenal zona fasciculata; their cytoplasm is pale and vacuolated (spongy) from abundant lipid droplets and smooth ER for steroidogenesis, not basophilic and granule-rich.
+
+## answer_c
+Herring bodies.
+
+## explanation_c
+Incorrect. Herring bodies are not cells; they are dilated axon terminals in the pars nervosa storing neurosecretion, so they cannot display this organelle-rich cell cytoplasm.
+
+## answer_d
+Oxyphil cells.
+
+## explanation_d
+Incorrect. Oxyphil cells of the parathyroid are acidophilic and crammed almost entirely with mitochondria, lacking the prominent rER, Golgi and secretory granules described here.
+
+## topic
+Histology
+
+## subtopic
+Pineal gland
+
+## main_concept
+CON-END-0661CBB7488767
+
+## concept_ids
+CON-END-0661CBB7488767
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Pineal gland
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-ENDO-GLAND-HISTOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the pinealocyte as the organelle-rich, basophilic secretory cell producing melatonin.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q1
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q1=a)
+kasr: 2023 EOM 195, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-012
+
+## title
+Most susceptible zone for prostatic carcinoma
+
+## question
+The acini most susceptible to prostatic carcinoma are located in the:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Peripheral zone.
+
+## explanation_a
+Correct. About 70% of prostatic adenocarcinomas arise in the peripheral zone, the outer glandular zone that lies posteriorly and is palpable on digital rectal examination. This peripheral location is why the tumour is often detectable by rectal palpation and sampled by needle biopsy. It contrasts with benign prostatic hyperplasia, which arises in the transitional zone.
+
+## answer_b
+Transitional zone.
+
+## explanation_b
+Incorrect. The transitional zone around the urethra is the usual site of benign prostatic hyperplasia, not the commonest site of carcinoma.
+
+## answer_c
+Central zone.
+
+## explanation_c
+Incorrect. The central zone surrounding the ejaculatory ducts is relatively resistant and is an uncommon site of primary carcinoma.
+
+## answer_d
+Urethra.
+
+## explanation_d
+Incorrect. The urethra is not a glandular zone of the prostate and is not where prostatic acinar carcinoma originates.
+
+## topic
+Histology
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-A7D5DA3B4DC725
+
+## concept_ids
+CON-AND-A7D5DA3B4DC725
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that prostatic carcinoma most often arises in the peripheral zone, unlike hyperplasia in the transitional zone.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q12=a)
+kasr: 2023 EOM 195, p.3
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-016
+
+## title
+Histological feature of the seminal vesicle
+
+## question
+Which of the following is a histological feature of the seminal vesicle?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Its lining cell activity depends on the inhibin level.
+
+## explanation_a
+Incorrect. The secretory activity of the seminal-vesicle epithelium depends on testosterone, not on inhibin.
+
+## answer_b
+Its lining epithelium is stratified columnar ciliated.
+
+## explanation_b
+Incorrect. The lining is a pseudostratified or simple columnar non-ciliated epithelium, not stratified columnar ciliated.
+
+## answer_c
+Its musculosa is formed of three layers.
+
+## explanation_c
+Incorrect. The muscularis of the seminal vesicle has two layers, an inner circular and an outer longitudinal, not three.
+
+## answer_d
+Its mucosa is highly folded to provide a wide surface area for secretion.
+
+## explanation_d
+Correct. The seminal vesicle has an extensively folded mucosa forming a network of thin primary, secondary and tertiary folds that greatly increase the secretory surface for its fructose-rich alkaline fluid. The lining is a pseudostratified or simple columnar epithelium whose secretory activity is androgen (testosterone) dependent. Its wall has only two smooth-muscle layers, an inner circular and an outer longitudinal.
+
+## topic
+Histology
+
+## subtopic
+Seminal vesicle
+
+## main_concept
+CON-AND-332FA96A7EAA42
+
+## concept_ids
+CON-AND-332FA96A7EAA42
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Seminal vesicle
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise the highly folded, androgen-dependent mucosa of the seminal vesicle.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q16
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q16=d)
+kasr: 2023 EOM 195, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-022
+
+## title
+Feature of the secretory phase of the menstrual cycle
+
+## question
+The secretory phase of the menstrual cycle is characterised by:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It is under the control of FSH.
+
+## explanation_a
+Incorrect. The secretory phase is controlled by progesterone from the corpus luteum, whereas FSH drives the earlier follicular (proliferative) phase.
+
+## answer_b
+At its end the endometrial thickness reaches 2-3 cm.
+
+## explanation_b
+Incorrect. The endometrium thickens to only about 5-6 mm, not 2-3 cm, at the end of the secretory phase.
+
+## answer_c
+Spiral arteries do not extend to the upper third of the endometrium.
+
+## explanation_c
+Incorrect. The spiral (coiled) arteries lengthen and do extend into the superficial functional layer during the secretory phase.
+
+## answer_d
+Glycogen is accumulated in the cells lining the endometrial glands.
+
+## explanation_d
+Correct. The secretory (luteal) phase follows ovulation and is driven by progesterone from the corpus luteum. The endometrial gland cells accumulate glycogen, first as sub-nuclear then supra-nuclear vacuoles, and the glands become tortuous and secrete a glycogen-rich fluid that would nourish an implanting blastocyst. This secretory transformation is the histological hallmark of the phase.
+
+## topic
+Histology
+
+## subtopic
+Menstrual cycle
+
+## main_concept
+CON-GYN-C8A081AEE30DDD
+
+## concept_ids
+CON-GYN-C8A081AEE30DDD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Uterus
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify glandular glycogen accumulation under progesterone as the hallmark of the secretory phase.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q22
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q22=d)
+kasr: 2023 EOM 195, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-027
+
+## title
+Structure that is not a content of the deep perineal pouch
+
+## question
+The following is NOT a content of the deep perineal pouch:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bulbo-urethral glands.
+
+## explanation_a
+Incorrect. The bulbo-urethral (Cowper's) glands lie within the deep perineal pouch in the male, so they are a content of it.
+
+## answer_b
+Sphincter urethrae.
+
+## explanation_b
+Incorrect. The sphincter urethrae is a principal muscle of the deep perineal pouch.
+
+## answer_c
+Deep transversus perinei muscle.
+
+## explanation_c
+Incorrect. The deep transversus perinei muscle lies within the deep perineal pouch.
+
+## answer_d
+Spongy part of the urethra.
+
+## explanation_d
+Correct. The deep perineal pouch lies between the perineal membrane below and the fascia of the pelvic diaphragm above, and it contains the sphincter urethrae and deep transversus perinei muscles, the bulbo-urethral glands and membranous urethra in the male, and the internal pudendal vessels and dorsal nerve of the penis. The spongy (penile) part of the urethra runs within the corpus spongiosum in the penis and superficial pouch, so it is not a content of the deep pouch. This is why it is the exception in the list.
+
+## topic
+Anatomy
+
+## subtopic
+Deep perineal pouch
+
+## main_concept
+CON-FND-13DC0917483DB4
+
+## concept_ids
+CON-FND-13DC0917483DB4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+List the contents of the deep perineal pouch and recognise the spongy urethra as excluded.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q27
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q27=d)
+kasr: 2023 EOM 195, p.6
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-037
+
+## title
+Inferior relation of the pituitary gland
+
+## question
+Inferiorly, the pituitary gland is related to the:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Temporal lobe of the brain.
+
+## explanation_a
+Incorrect. The temporal lobes lie lateral and superior to the region and are not the direct inferior relation of the gland.
+
+## answer_b
+Cavernous sinus.
+
+## explanation_b
+Incorrect. The cavernous sinuses are lateral relations of the pituitary, not inferior.
+
+## answer_c
+Sphenoidal air sinus.
+
+## explanation_c
+Correct. The pituitary gland sits in the hypophyseal fossa (sella turcica) of the body of the sphenoid bone, and the floor of the fossa separates it from the sphenoidal air sinus that lies directly below. This close relation is the basis of the trans-sphenoidal surgical approach to pituitary tumours through the nose and sphenoid sinus. Laterally the gland relates to the cavernous sinuses and superiorly to the optic chiasma.
+
+## answer_d
+Orbital cavity.
+
+## explanation_d
+Incorrect. The orbital cavity is anterolateral to the sphenoid body and is not the inferior relation of the gland.
+
+## topic
+Anatomy
+
+## subtopic
+Pituitary relations
+
+## main_concept
+CON-END-09F20D269EFFA0
+
+## concept_ids
+CON-END-09F20D269EFFA0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Pituitary gland
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-ENDO-GLAND-HISTOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that the sphenoidal air sinus lies immediately inferior to the pituitary fossa, the basis of the trans-sphenoidal approach.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q37
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q37=c)
+kasr: 2023 EOM 195, p.7
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-041
+
+## title
+False statement about the broad ligament
+
+## question
+Regarding the broad ligament, which of the following statements is FALSE?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It has the ovary attached to its anterior margin.
+
+## explanation_a
+Correct (this is the false statement). The ovary is attached to the POSTERIOR layer of the broad ligament by the mesovarium, not to its anterior margin. Placing the ovary on the anterior margin is therefore incorrect, which is why this statement is the one to be selected as false. The uterine tube, by contrast, occupies the free upper margin.
+
+## answer_b
+It has the fallopian tube at its upper border.
+
+## explanation_b
+Incorrect (this statement is true). The uterine (fallopian) tube runs in the free upper border of the broad ligament.
+
+## answer_c
+It contains remnants of the mesonephric tubules.
+
+## explanation_c
+Incorrect (this statement is true). The broad ligament contains mesonephric (Wolffian) remnants such as the epoophoron and paroophoron.
+
+## answer_d
+It extends from the uterus to the lateral wall of the pelvis.
+
+## explanation_d
+Incorrect (this statement is true). The broad ligament is a peritoneal fold extending from the side of the uterus to the lateral wall and floor of the pelvis.
+
+## topic
+Anatomy
+
+## subtopic
+Broad ligament
+
+## main_concept
+CON-GYN-C4A37121285E19
+
+## concept_ids
+CON-GYN-C4A37121285E19
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Broad ligament
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-PELVIC-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise that the ovary attaches to the posterior, not anterior, layer of the broad ligament.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q41=a)
+kasr: 2023 EOM 195, p.8
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-045
+
+## title
+True statement about the ligaments of the urinary bladder
+
+## question
+Regarding the ligaments of the urinary bladder, which of the following is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The pubovesical ligaments connect the superior surface of the bladder with the pubic bone.
+
+## explanation_a
+Incorrect. The pubovesical ligaments attach to the neck of the bladder, not to its superior surface, which is covered by peritoneum.
+
+## answer_b
+The pubovesical ligaments connect the neck of the bladder with the pubic bone.
+
+## explanation_b
+Correct. The pubovesical ligaments (in the female) are condensations of pelvic fascia that connect the neck of the bladder to the back of the pubic bones; the male equivalent is the puboprostatic ligament. They are true fascial ligaments that anchor the bladder neck, and weakening of this support contributes to stress incontinence. They attach to the neck, not the superior surface, of the bladder.
+
+## answer_c
+The cardinal ligaments are the true ligaments of the bladder.
+
+## explanation_c
+Incorrect. The cardinal (transverse cervical) ligaments support the cervix and vaginal vault, not the bladder.
+
+## answer_d
+The broad ligament is the supporting ligament of the bladder.
+
+## explanation_d
+Incorrect. The broad ligament is a peritoneal fold related to the uterus and adnexa, not a ligament of the bladder.
+
+## topic
+Anatomy
+
+## subtopic
+Urinary bladder ligaments
+
+## main_concept
+CON-FND-F297A676463B0D
+
+## concept_ids
+CON-FND-F297A676463B0D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Urinary bladder
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the pubovesical ligament as connecting the bladder neck to the pubis.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q45
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q45=b)
+kasr: 2023 EOM 195, p.8
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-051
+
+## title
+Feature of the prostatic urethra
+
+## question
+The prostatic urethra has the following feature:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The urethral crest is located in the anterior wall.
+
+## explanation_a
+Incorrect. The urethral crest lies on the posterior wall of the prostatic urethra, not the anterior wall.
+
+## answer_b
+The ejaculatory ducts open in the anterior wall.
+
+## explanation_b
+Incorrect. The ejaculatory ducts open on the posterior wall beside the utricle, not on the anterior wall.
+
+## answer_c
+The ejaculatory ducts open on either side of the utricle opening.
+
+## explanation_c
+Correct. On the posterior wall of the prostatic urethra the urethral crest bears a midline elevation, the seminal colliculus (verumontanum), on which the prostatic utricle opens; the two ejaculatory ducts open on either side of the utricle opening. This is where the seminal-vesicle and vas-deferens secretions enter the urethra. The many prostatic ducts open into the prostatic sinuses that flank the crest.
+
+## answer_d
+It is the narrowest and least dilatable part of the urethra.
+
+## explanation_d
+Incorrect. The prostatic urethra is the widest and most dilatable part of the male urethra; the membranous part is the narrowest.
+
+## topic
+Anatomy
+
+## subtopic
+Prostatic urethra
+
+## main_concept
+CON-AND-372594CB33C64E
+
+## concept_ids
+CON-AND-372594CB33C64E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Prostatic urethra
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Locate the ejaculatory-duct openings beside the prostatic utricle on the urethral crest.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q51
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q51=c)
+kasr: 2023 EOM 195, p.9
