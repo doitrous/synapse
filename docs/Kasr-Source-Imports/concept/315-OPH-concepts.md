@@ -25562,3 +25562,883 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q60) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1C7B9054154986
+## label
+Acute angle-closure glaucoma can present with nausea and vomiting mimicking an acute abdomen
+## canonical_key
+ophthalmology.acute-angle-closure-glaucoma.mimics-acute-abdomen
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In an acute attack of angle-closure glaucoma the sudden steep rise in intraocular pressure stimulates the vagus nerve and often produces severe nausea, vomiting and prostration alongside the ocular pain. These systemic symptoms can dominate the presentation, so the eye is overlooked and the patient is misdiagnosed as having an acute abdomen or another gastrointestinal emergency. Any older patient with a painful red eye, a hazy cornea and a fixed mid-dilated pupil who is vomiting should be recognised as an ocular, not an abdominal, emergency.
+## explicit_objective
+Recognise that an acute angle-closure glaucoma attack can mimic an acute abdomen through vagally mediated vomiting.
+## pitfalls
+Attributing the vomiting to a primary abdominal cause and overlooking the red, painful eye of an angle-closure attack.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.8
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-511D8AF5C977E3
+## label
+Trachoma can scar the cornea and progress to corneal ulceration and descemetocele
+## canonical_key
+ophthalmology.trachoma.corneal-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Long-standing trachoma scars the tarsal conjunctiva, producing cicatricial entropion and trichiasis whose in-turned lashes abrade the cornea. This chronic corneal insult, together with trachomatous pannus and a dry ocular surface, can lead to corneal ulceration and, once an ulcer deepens, to a descemetocele and even perforation. These corneal complications are the main threat to sight in trachoma, unlike self-limiting features such as an enlarged preauricular node, which belongs to viral rather than chlamydial disease.
+## explicit_objective
+List corneal ulceration and descemetocele among the sight-threatening corneal complications of trachoma.
+## pitfalls
+Confusing trachoma's cicatricial entropion with ectropion, or expecting subconjunctival haemorrhage or preauricular node enlargement as trachoma complications.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-1D95C7ED78C3C9
+## label
+Complications of iridocyclitis include posterior synechiae, iris bombe and secondary glaucoma
+## canonical_key
+ophthalmology.iridocyclitis.complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute iridocyclitis inflames the iris and ciliary body and can bind the pupil margin to the lens by posterior synechiae. When the synechiae become annular (seclusio pupillae) aqueous can no longer pass from the posterior to the anterior chamber, so the peripheral iris balloons forward as iris bombe and closes the angle, producing secondary angle-closure glaucoma. Other sequelae include a complicated posterior subcapsular cataract, cystoid macular oedema and band keratopathy, but iris bombe with secondary glaucoma is the classic pupillary-block complication.
+## explicit_objective
+Identify iris bombe and secondary glaucoma among the complications of iridocyclitis.
+## pitfalls
+Attributing anterior polar cataract, ghost-cell glaucoma or a dislocated lens to iridocyclitis; its cataract is posterior and complicated and its glaucoma is pupillary-block.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-91D1382A82B898
+## label
+Anterior uveitis is treated with steroids and a cycloplegic, not vasodilators
+## canonical_key
+ophthalmology.anterior-uveitis.treatment-principles
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The mainstays of treating acute iridocyclitis are anti-inflammatory steroids (topical, with systemic steroids added for severe or posterior involvement) and a cycloplegic-mydriatic such as atropine that rests the ciliary body, relieves pain and prevents posterior synechiae. Treating any identifiable systemic cause is also part of management. Vasodilators have no role, and miotics such as pilocarpine are contraindicated because they promote synechiae and worsen the inflammation.
+## explicit_objective
+State that uveitis is treated with steroids and a cycloplegic while vasodilators and miotics are excluded.
+## pitfalls
+Adding vasodilators, or substituting a miotic for a cycloplegic, in the treatment of uveitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-A943CE897E1CC8
+## label
+Uveitis is investigated with chest X-ray, tuberculin test and rheumatological assessment for a systemic cause
+## canonical_key
+ophthalmology.anterior-uveitis.systemic-investigations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because uveitis is frequently a manifestation of systemic disease, the work-up targets its common causes: a chest X-ray and tuberculin (Mantoux) test for sarcoidosis and tuberculosis, and a rheumatological assessment including HLA-B27 for the seronegative spondyloarthropathies and other autoimmune disease. Serology for syphilis, toxoplasma and other infections is added as the clinical picture suggests. Cardiac imaging such as echocardiography is not part of the routine uveitis screen.
+## explicit_objective
+Select the systemic investigations used to find the cause of uveitis and exclude those that are not.
+## pitfalls
+Ordering an echocardiogram as part of a uveitis screen, or failing to look for tuberculosis and sarcoidosis before starting steroids.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-DE919F68C704B9
+## label
+Surgery in uveitis is reserved for pupillary block, complicated cataract and secondary glaucoma
+## canonical_key
+ophthalmology.anterior-uveitis.surgical-indications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Uveitis is mainly a medical disease, but surgery has defined roles: a peripheral (laser) iridotomy relieves pupillary block from seclusio pupillae, cataract extraction is done for a visually significant complicated cataract once the eye is quiet, and an external fistulising operation such as trabeculectomy controls chronic secondary glaucoma. Argon-laser photocoagulation is not used to treat the exudative retinal detachment of uveitis, which settles with steroids as the inflammation is controlled. Each operation addresses a structural complication rather than the inflammation itself.
+## explicit_objective
+Identify the surgical indications in uveitis and exclude laser photocoagulation of an exudative detachment.
+## pitfalls
+Believing argon-laser photocoagulation treats the exudative retinal detachment of uveitis; that detachment is managed medically with steroids.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-B2379009B0BE55
+## label
+Mydriatics such as atropine can precipitate acute angle-closure glaucoma in a predisposed narrow-angle eye
+## canonical_key
+ophthalmology.angle-closure-glaucoma.mydriatic-precipitant
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In an eye with a shallow anterior chamber and a narrow angle, dilating the pupil crowds the peripheral iris into the angle and can trigger an acute angle-closure attack. Mydriatic and cycloplegic drugs such as atropine are therefore the classic pharmacological precipitants, whether given as eye drops or systemically. This differs from corticosteroids, which raise intraocular pressure by an open-angle mechanism rather than by physically closing the angle.
+## explicit_objective
+Recognise a mydriatic (atropine) as a precipitant of angle-closure glaucoma in a predisposed eye.
+## pitfalls
+Confusing the angle-closing effect of a mydriatic with the open-angle pressure rise caused by steroids.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-B8D103F1A5BC95
+## label
+Acute bacterial conjunctivitis is a mucopurulent Staphylococcus or Haemophilus infection that can cause secondary keratitis
+## canonical_key
+ophthalmology.acute-bacterial-conjunctivitis.organisms-and-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute bacterial conjunctivitis presents with a red eye, lid oedema and a mucopurulent discharge that gums the lids together in the morning, most often caused by Staphylococcus aureus and Haemophilus influenzae, with Streptococcus pneumoniae also common. It is usually self-limiting but is treated with topical broad-spectrum antibiotics to shorten the illness and limit spread. If neglected it may progress to secondary keratitis and corneal ulceration, and a hyperacute purulent picture should raise suspicion of Neisseria gonorrhoeae, which needs systemic antibiotics.
+## explicit_objective
+State the common organisms of acute bacterial conjunctivitis and that neglected disease can cause secondary keratitis.
+## pitfalls
+Bandaging a discharging eye, using steroid drops, or overlooking the corneal ulceration that can complicate untreated bacterial conjunctivitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Conjunctivitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Conjunctivitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
