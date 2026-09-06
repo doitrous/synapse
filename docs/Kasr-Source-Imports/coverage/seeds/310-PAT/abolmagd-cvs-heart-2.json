@@ -1,0 +1,255 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-heart-2",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — HEART chapter continued (Q73-84), rheumatic fever + infective/non-bacterial endocarditis of the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; the auto-detector is unreliable on this bank, so keys were taken from the single medically-correct option of each standard-pathology stem (all unambiguous). Q73-78 keys match the ledger's prior render-adjudication (Q73.c Q74.d Q75.d Q76.b Q77.a Q78.c). Continues from Q72 (endocarditis-1); Q66 was absent (numbering gap).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-ENDOCARDITIS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Heart section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Endocarditis",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 14,
+    "field_notes": { "keySource": "red-text option; standard-pathology single-correct stems, detector unreliable on this bank (relied on medical adjudication); Q73-78 match prior render-adjudication" }
+  },
+  "questions": [
+    {
+      "key": "q73", "id": "QST-KASR310PAT-ABOLMAGD-73",
+      "title": "Disease with Roth spots and splinter haemorrhages",
+      "question": "What is the disease characterized by infection of diseased cardiac valves and embolic manifestations in the form of Roth spots and splinter haemorrhage?",
+      "options": { "A": "Acute rheumatic fever", "B": "Acute infective endocarditis", "C": "Subacute infective endocarditis", "D": "Cardiomyopathy" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acute rheumatic fever produces small sterile warty vegetations along the lines of valve closure, not the embolic Roth spots and splinter haemorrhages of an infected valve.",
+        "B": "Incorrect. Acute infective endocarditis is a rapidly destructive infection of previously NORMAL valves by virulent organisms; the picture of infection seeded onto already-DISEASED valves with peripheral embolic stigmata is the subacute form.",
+        "C": "Correct. SUBACUTE infective endocarditis characteristically infects previously DAMAGED or abnormal valves with low-virulence organisms (e.g. Streptococcus viridans). Its peripheral embolic and immune-complex phenomena are classic: Roth spots (retinal haemorrhages with pale centres), splinter (subungual) haemorrhages, Osler nodes, Janeway lesions and microscopic haematuria. This combination of infected diseased valves plus embolic manifestations defines subacute infective endocarditis.",
+        "D": "Incorrect. Cardiomyopathy is a primary myocardial disease and does not produce valvular vegetations or embolic Roth spots and splinter haemorrhages."
+      },
+      "main_concept": "CON-CVS-CAF69B8F78112F", "concept_ids": ["CON-CVS-CAF69B8F78112F"],
+      "contextual_concept_ids": ["CON-CVS-8FC8A80785631B"],
+      "subtopic": "Infective endocarditis",
+      "learning_objective": "Recognise subacute infective endocarditis from its embolic stigmata (Roth spots, splinter haemorrhages) on diseased valves.",
+      "module_subject": "310 PAT > Pathology > Heart > Infective endocarditis"
+    },
+    {
+      "key": "q74", "id": "QST-KASR310PAT-ABOLMAGD-74",
+      "title": "Aschoff nodule — which statement is not an exception",
+      "question": "All are correct for Aschoff nodule lesions except:",
+      "options": { "A": "Pathognomonic for rheumatic fever", "B": "Associated with mitral vegetation", "C": "Result from antibodies against M protein", "D": "None of the above" },
+      "correct": "D",
+      "explanations": {
+        "A": "A correct statement. The Aschoff nodule (body) is the pathognomonic histologic lesion of rheumatic carditis, so this is not the exception.",
+        "B": "A correct statement. Rheumatic carditis shows Aschoff bodies in the myocardium together with small warty vegetations along the mitral valve line of closure, so the association with mitral vegetation is true.",
+        "C": "A correct statement. Rheumatic injury is driven by antibodies raised against streptococcal M protein that cross-react with cardiac tissue (molecular mimicry), so this is true.",
+        "D": "Correct. Options A, B and C are ALL true statements about the Aschoff nodule, so there is no exception among them — 'none of the above' is therefore the correct choice. The Aschoff body is pathognomonic of rheumatic carditis, accompanies the mitral vegetations of rheumatic valvulitis, and reflects the anti-M-protein immune reaction. Because every listed statement is correct, the 'except' has no target and the answer is none of the above."
+      },
+      "main_concept": "CON-CVS-564D56257B4A47", "concept_ids": ["CON-CVS-564D56257B4A47"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Rheumatic fever",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Confirm the Aschoff nodule is pathognomonic of rheumatic carditis, mitral-associated and immune (anti-M-protein) in origin.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q75", "id": "QST-KASR310PAT-ABOLMAGD-75",
+      "title": "Diseases causing cardiac valve vegetations",
+      "question": "The following diseases can cause cardiac valve vegetations:",
+      "options": { "A": "Rheumatic fever", "B": "Infective endocarditis", "C": "Systemic lupus erythematosus", "D": "All of the above" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incomplete. Rheumatic fever does cause vegetations (small sterile warty vegetations along the line of valve closure), but it is not the only cause listed.",
+        "B": "Incomplete. Infective endocarditis causes bulky infected vegetations, but rheumatic fever and SLE also produce vegetations, so this alone is not the best answer.",
+        "C": "Incomplete. SLE causes the sterile verrucous Libman-Sacks vegetations, but it is not the only listed cause.",
+        "D": "Correct. Valvular vegetations arise in several conditions: rheumatic fever (small sterile warty vegetations), infective endocarditis (bulky infected vegetations), systemic lupus erythematosus (Libman-Sacks sterile verrucous vegetations) and non-bacterial thrombotic (marantic) endocarditis. Because all three listed diseases produce vegetations, 'all of the above' is correct. Distinguishing them rests on whether the vegetations are infected, sterile-immune or sterile-thrombotic."
+      },
+      "main_concept": "CON-CVS-BF753C90029E2B", "concept_ids": ["CON-CVS-BF753C90029E2B"],
+      "contextual_concept_ids": ["CON-CVS-021DBC9C669D19"],
+      "subtopic": "Endocarditis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "List rheumatic fever, infective endocarditis and SLE as causes of cardiac valve vegetations.",
+      "module_subject": "310 PAT > Pathology > Heart > Endocarditis"
+    },
+    {
+      "key": "q76", "id": "QST-KASR310PAT-ABOLMAGD-76",
+      "title": "Immune mechanism of rheumatic heart disease",
+      "question": "The immune reaction of rheumatic heart is:",
+      "options": { "A": "Type IV hypersensitivity", "B": "Type II hypersensitivity", "C": "Type III hypersensitivity", "D": "Type I hypersensitivity" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (per the source key). A delayed T-cell (type IV) component does contribute to rheumatic carditis, but the reaction is classified here as antibody-mediated type II; see the author note.",
+        "B": "Correct. Rheumatic heart disease is an antibody-mediated (TYPE II) hypersensitivity: antibodies raised against group A streptococcal M protein cross-react with structurally similar antigens in the heart valves and myocardium (molecular mimicry), binding host tissue and triggering complement and inflammatory injury. This anti-tissue antibody cross-reactivity is why it is grouped with type II reactions. It is a post-streptococcal immune sequel, not a direct infection of the heart.",
+        "C": "Incorrect. Type III (immune-complex) hypersensitivity underlies post-streptococcal glomerulonephritis and polyarteritis nodosa, not the cross-reactive antibody injury of rheumatic carditis.",
+        "D": "Incorrect. Type I (IgE, immediate) hypersensitivity mediates atopy and anaphylaxis and has no role in rheumatic heart disease."
+      },
+      "main_concept": "CON-CVS-9652CA62EEE612", "concept_ids": ["CON-CVS-9652CA62EEE612"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Rheumatic fever",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that rheumatic carditis is an antibody-mediated (type II) hypersensitivity from molecular mimicry.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever",
+      "field_notes": { "medical": "Source keys type II (anti-M-protein antibody cross-reactivity). Modern immunology recognises a combined mechanism: type II antibody-mediated PLUS a type IV CD4 T-cell response drive rheumatic carditis. Authored to the printed key with the T-cell component noted." },
+      "author_notes": "Exam-key nuance: authored to the printed key (type II). Rheumatic carditis is now understood as a mixed type II (cross-reactive antibody) and type IV (CD4 T-cell) reaction; the source emphasises the antibody component."
+    },
+    {
+      "key": "q77", "id": "QST-KASR310PAT-ABOLMAGD-77",
+      "title": "Gross appearance of serofibrinous pericarditis",
+      "question": "Pathognomonic for the gross appearance of serofibrinous pericarditis is:",
+      "options": { "A": "Bread and butter appearance", "B": "Scar formation", "C": "Haemorrhage and pus formation", "D": "All of the above" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Serofibrinous (fibrinous) pericarditis coats the visceral and parietal pericardial surfaces with a shaggy fibrin-rich exudate. When the two inflamed layers are pulled apart the strands of fibrin give the classic 'BREAD-AND-BUTTER' appearance, as if buttered bread had been separated. This shaggy fibrinous surface is the pathognomonic gross feature, characteristically seen in rheumatic pericarditis.",
+        "B": "Incorrect. Scar formation (fibrous adhesion or constrictive pericarditis) is a late healing sequel, not the acute gross appearance of serofibrinous pericarditis.",
+        "C": "Incorrect. Haemorrhage and pus indicate haemorrhagic or suppurative (purulent) pericarditis, not the fibrinous 'bread-and-butter' pattern.",
+        "D": "Incorrect. Only the bread-and-butter appearance is characteristic; scar formation and haemorrhage/pus describe different types of pericarditis."
+      },
+      "main_concept": "CON-CVS-3C5F82207003D3", "concept_ids": ["CON-CVS-3C5F82207003D3"],
+      "contextual_concept_ids": [],
+      "subtopic": "Rheumatic fever",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify the bread-and-butter appearance as the gross hallmark of serofibrinous pericarditis.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q78", "id": "QST-KASR310PAT-ABOLMAGD-78",
+      "title": "Most valuable lab finding in subacute bacterial endocarditis",
+      "question": "Most valuable laboratory finding in diagnosis of subacute bacterial endocarditis:",
+      "options": { "A": "Evidence of haemolytic anaemia", "B": "High titre of antistreptolysins", "C": "Finding of Streptococcus viridans in blood culture", "D": "Persistent leukocytosis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A mild normocytic anaemia of chronic disease may occur, but haemolytic anaemia is neither specific nor diagnostic of subacute infective endocarditis.",
+        "B": "Incorrect. A high antistreptolysin O titre indicates recent group A streptococcal infection (rheumatic fever), not the Streptococcus viridans of subacute endocarditis.",
+        "C": "Correct. The single most valuable diagnostic finding in subacute bacterial endocarditis is a POSITIVE BLOOD CULTURE, classically growing Streptococcus viridans, the low-virulence organism that seeds previously damaged valves. Repeated positive cultures of the same organism confirm the continuous bacteraemia arising from the infected vegetation. This microbiological confirmation, together with echocardiographic vegetations, anchors the diagnosis.",
+        "D": "Incorrect. Leukocytosis is a non-specific marker of inflammation and may be mild or absent in the indolent subacute form, so it is not the most valuable test."
+      },
+      "main_concept": "CON-CVS-F5088EC70CA943", "concept_ids": ["CON-CVS-F5088EC70CA943"],
+      "contextual_concept_ids": ["CON-CVS-8FC8A80785631B"],
+      "subtopic": "Infective endocarditis",
+      "learning_objective": "State that a positive blood culture (Streptococcus viridans) is the key diagnostic finding in subacute infective endocarditis.",
+      "module_subject": "310 PAT > Pathology > Heart > Infective endocarditis"
+    },
+    {
+      "key": "q79", "id": "QST-KASR310PAT-ABOLMAGD-79", "page": 15,
+      "title": "True statement in rheumatic heart disease",
+      "question": "In rheumatic heart disease:",
+      "options": { "A": "MacCallum plaque usually seen in right atrium", "B": "Destructive friable vegetation seen on mitral valve", "C": "Fibrous bridging across mitral valve commissure with calcification", "D": "All of the above" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. MacCallum's patch lies on the posterior wall of the LEFT atrium, not the right atrium.",
+        "B": "Incorrect. Destructive friable vegetations are a feature of INFECTIVE endocarditis; rheumatic valvulitis produces small, firm, sterile warty vegetations along the line of closure, not destructive ones.",
+        "C": "Correct. Chronic (healed) rheumatic heart disease produces fibrous FUSION and BRIDGING across the valve commissures, thickening and often calcification of the cusps, and shortening/fusion of the chordae tendineae. In the mitral valve this yields the classic 'fish-mouth' or 'buttonhole' stenosis. Commissural fibrous bridging with calcification is therefore the true statement.",
+        "D": "Incorrect. Only statement C is true; the right-atrial MacCallum location and the destructive mitral vegetation are both false."
+      },
+      "main_concept": "CON-CVS-C280A32A6A0F22", "concept_ids": ["CON-CVS-C280A32A6A0F22"],
+      "contextual_concept_ids": ["CON-CVS-DF17094880BEAE"],
+      "subtopic": "Rheumatic fever",
+      "learning_objective": "State that chronic rheumatic heart disease causes commissural fibrous fusion/bridging with valve calcification.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q80", "id": "QST-KASR310PAT-ABOLMAGD-80", "page": 15,
+      "title": "Non-bacterial thrombotic endocarditis associations",
+      "question": "Non-bacterial thrombotic endocarditis may be associated with the following conditions except:",
+      "options": { "A": "Carcinoma of pancreas", "B": "Promyelocytic leukemia", "C": "Hemophilia", "D": "Disseminated intravascular coagulation" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (not the exception). Mucin-secreting adenocarcinomas, classically carcinoma of the pancreas, induce a hypercoagulable (paraneoplastic) state that predisposes to non-bacterial thrombotic (marantic) endocarditis.",
+        "B": "Incorrect (not the exception). Acute promyelocytic leukemia is a classic trigger of disseminated intravascular coagulation and a hypercoagulable state, and can be associated with marantic endocarditis.",
+        "C": "Correct. HAEMOPHILIA is a hereditary BLEEDING (hypocoagulable) disorder caused by deficiency of factor VIII or IX, so it does not promote the sterile fibrin-platelet vegetations of non-bacterial thrombotic endocarditis. Marantic endocarditis arises in HYPERcoagulable states, the opposite of haemophilia. It is therefore the exception among the listed conditions.",
+        "D": "Incorrect (not the exception). Disseminated intravascular coagulation is a hypercoagulable, thrombosis-prone state and is a recognised association of non-bacterial thrombotic endocarditis."
+      },
+      "main_concept": "CON-CVS-299BC35F7419B2", "concept_ids": ["CON-CVS-299BC35F7419B2"],
+      "contextual_concept_ids": ["CON-CVS-021DBC9C669D19"],
+      "subtopic": "Endocarditis",
+      "learning_objective": "State that non-bacterial thrombotic (marantic) endocarditis complicates hypercoagulable states, not bleeding disorders such as haemophilia.",
+      "module_subject": "310 PAT > Pathology > Heart > Endocarditis"
+    },
+    {
+      "key": "q81", "id": "QST-KASR310PAT-ABOLMAGD-81", "page": 15,
+      "title": "True statements about infective endocarditis (except)",
+      "question": "These are true for infective endocarditis except:",
+      "options": { "A": "The commonest organism of acute infective endocarditis is Staphylococcus aureus", "B": "The commonest organism of subacute infective endocarditis is Streptococcus viridans", "C": "It is commoner on the valves of the right side of the heart in drug addicts", "D": "The vegetations are not detachable" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (not the exception). Staphylococcus aureus is indeed the commonest organism of acute infective endocarditis, attacking normal valves with high virulence.",
+        "B": "Incorrect (not the exception). Streptococcus viridans is indeed the commonest organism of subacute infective endocarditis, seeding previously damaged valves.",
+        "C": "Incorrect (not the exception). In intravenous drug users infective endocarditis characteristically affects the RIGHT-sided (tricuspid) valve, so this statement is true.",
+        "D": "Correct (the false statement). The vegetations of infective endocarditis are FRIABLE and readily DETACHABLE: fragments embolise to produce septic infarcts and, in the subacute form, the peripheral immune/embolic stigmata. Saying they are 'not detachable' is therefore false and is the exception. Their friability and tendency to embolise is a defining, dangerous property of infective vegetations."
+      },
+      "main_concept": "CON-CVS-2FA5C2A12079A2", "concept_ids": ["CON-CVS-2FA5C2A12079A2"],
+      "contextual_concept_ids": [],
+      "subtopic": "Infective endocarditis",
+      "learning_objective": "State that infective endocarditis vegetations are friable and detachable (embolic), and recall the commonest acute/subacute organisms.",
+      "module_subject": "310 PAT > Pathology > Heart > Infective endocarditis"
+    },
+    {
+      "key": "q82", "id": "QST-KASR310PAT-ABOLMAGD-82", "page": 15,
+      "title": "True statements about acute infective bacterial endocarditis (except)",
+      "question": "These are true for acute infective bacterial endocarditis except:",
+      "options": { "A": "Vegetations are septic", "B": "Commoner to affect the tricuspid valve in drug addicts", "C": "On detachment it leads to pyaemia", "D": "The commonest organism is E. coli" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (not the exception). Acute infective endocarditis produces SEPTIC (infected) vegetations packed with virulent organisms, so this is true.",
+        "B": "Incorrect (not the exception). In intravenous drug users the tricuspid (right-sided) valve is characteristically affected, so this statement is true.",
+        "C": "Incorrect (not the exception). Detachment of the septic vegetations releases infected emboli that seed distant organs, producing PYAEMIA and septic infarcts, so this is true.",
+        "D": "Correct (the false statement). The commonest organism of ACUTE infective endocarditis is STAPHYLOCOCCUS AUREUS, not E. coli. Staph aureus is a highly virulent organism able to attack previously normal valves and cause rapid destruction. Naming E. coli as the commonest cause is therefore false and is the exception."
+      },
+      "main_concept": "CON-CVS-2FA5C2A12079A2", "concept_ids": ["CON-CVS-2FA5C2A12079A2"],
+      "contextual_concept_ids": [],
+      "subtopic": "Infective endocarditis",
+      "learning_objective": "State that Staphylococcus aureus (not E. coli) is the commonest organism of acute infective endocarditis.",
+      "module_subject": "310 PAT > Pathology > Heart > Infective endocarditis"
+    },
+    {
+      "key": "q83", "id": "QST-KASR310PAT-ABOLMAGD-83", "page": 15,
+      "title": "Organism related to rheumatic fever",
+      "question": "Rheumatic fever is related to:",
+      "options": { "A": "Group A alpha-haemolytic streptococci", "B": "Group B beta-haemolytic streptococci", "C": "Group A beta-haemolytic streptococci", "D": "Group B alpha-haemolytic streptococci" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Group A streptococci are BETA-haemolytic, not alpha; alpha-haemolytic streptococci (e.g. Strep viridans) cause subacute infective endocarditis, not rheumatic fever.",
+        "B": "Incorrect. Group B beta-haemolytic streptococci (Strep agalactiae) cause neonatal sepsis and meningitis, not rheumatic fever.",
+        "C": "Correct. Rheumatic fever follows pharyngitis by GROUP A BETA-HAEMOLYTIC streptococcus (Streptococcus pyogenes). Antibodies against its M protein cross-react with cardiac and other host tissues (molecular mimicry) two to four weeks after the throat infection. This specific organism, group A beta-haemolytic streptococcus, is the trigger.",
+        "D": "Incorrect. Group B alpha-haemolytic streptococci are not the cause; rheumatic fever is specifically linked to group A beta-haemolytic streptococcal pharyngitis."
+      },
+      "main_concept": "CON-CVS-E617B50466DC23", "concept_ids": ["CON-CVS-E617B50466DC23"],
+      "contextual_concept_ids": ["CON-CVS-41547BEDC714F8"],
+      "subtopic": "Rheumatic fever",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that rheumatic fever follows group A beta-haemolytic streptococcal pharyngitis.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    },
+    {
+      "key": "q84", "id": "QST-KASR310PAT-ABOLMAGD-84", "page": 15,
+      "title": "Commonest valve affected by rheumatic fever",
+      "question": "Most common cardiac valve affected by rheumatic fever is:",
+      "options": { "A": "Aortic valve", "B": "Mitral valve", "C": "Tricuspid valve", "D": "Pulmonary valve" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The aortic valve is the SECOND most commonly involved valve in rheumatic heart disease, frequently together with the mitral, but it is not the commonest.",
+        "B": "Correct. The MITRAL valve is the valve most commonly affected by rheumatic fever, involved in the great majority of cases (often with the aortic valve). Its high left-sided pressures and mechanical stress make it most vulnerable to the recurrent rheumatic valvulitis that leads to mitral stenosis and regurgitation. Mitral, then aortic, is the usual order of frequency.",
+        "C": "Incorrect. Tricuspid involvement in rheumatic disease is uncommon and almost always accompanies mitral and aortic disease.",
+        "D": "Incorrect. The pulmonary valve is very rarely affected by rheumatic fever."
+      },
+      "main_concept": "CON-CVS-C4B5530BEE3169", "concept_ids": ["CON-CVS-C4B5530BEE3169"],
+      "contextual_concept_ids": [],
+      "subtopic": "Rheumatic fever",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that the mitral valve is the commonest valve affected by rheumatic fever.",
+      "module_subject": "310 PAT > Pathology > Heart > Rheumatic fever"
+    }
+  ]
+}

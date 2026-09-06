@@ -6007,3 +6007,1335 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.14 / printed 13); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-CAF69B8F78112F
+## label
+Subacute infective endocarditis presents with embolic stigmata (Roth spots, splinter haemorrhages)
+## canonical_key
+subacute-infective-endocarditis.embolic-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+SUBACUTE infective endocarditis infects previously DAMAGED cardiac valves with low-virulence organisms (classically Streptococcus viridans) and characteristically produces peripheral EMBOLIC and immune-complex phenomena. These stigmata include Roth spots (retinal haemorrhages with pale centres), splinter (subungual) haemorrhages, Osler nodes, Janeway lesions and microscopic haematuria. The combination of infection on a diseased valve plus these embolic manifestations distinguishes subacute infective endocarditis from acute rheumatic fever and from cardiomyopathy.
+## explicit_objective
+Recognise subacute infective endocarditis from its embolic stigmata (Roth spots, splinter haemorrhages) arising on previously diseased valves.
+## pitfalls
+Attributing Roth spots and splinter haemorrhages to rheumatic fever or cardiomyopathy; these embolic stigmata belong to infective endocarditis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Infective endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-8FC8A80785631B
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "subacute-infective-endocarditis.embolic-features", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q73, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-BF753C90029E2B
+## label
+Causes of cardiac valve vegetations (rheumatic fever, infective endocarditis, SLE)
+## canonical_key
+cardiac-valve-vegetations.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cardiac valve VEGETATIONS arise in several distinct diseases distinguished by whether they are infected, immune or thrombotic. Rheumatic fever produces small sterile warty vegetations along the line of valve closure; infective endocarditis produces bulky INFECTED (bacterial) vegetations; systemic lupus erythematosus produces the sterile verrucous vegetations of Libman-Sacks endocarditis; and hypercoagulable states produce the sterile fibrin-platelet vegetations of non-bacterial thrombotic (marantic) endocarditis. Recognising that all of these cause vegetations, and how they differ, is the tested point.
+## explicit_objective
+List rheumatic fever, infective endocarditis and SLE (and marantic endocarditis) as causes of cardiac valve vegetations.
+## pitfalls
+Assuming vegetations are always infective; rheumatic, lupus (Libman-Sacks) and marantic vegetations are sterile.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-021DBC9C669D19
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "cardiac-valve-vegetations.causes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q75, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-9652CA62EEE612
+## label
+Rheumatic carditis is an antibody-mediated (type II) hypersensitivity
+## canonical_key
+rheumatic-fever.type-ii-hypersensitivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rheumatic carditis is driven by an IMMUNE cross-reaction: antibodies raised against group A streptococcal M protein cross-react with structurally similar antigens in cardiac valve and myocardium (molecular mimicry), binding host tissue and activating complement and inflammation. Because it is mediated by antibody directed at tissue antigen, it is classified as a TYPE II (antibody-mediated) hypersensitivity. It is a post-streptococcal immune sequel, not a direct valve infection, and is distinct from the immune-complex (type III), immediate (type I) and purely T-cell (type IV) reactions.
+## explicit_objective
+State that rheumatic carditis is an antibody-mediated (type II) hypersensitivity arising by molecular mimicry.
+## pitfalls
+Classifying rheumatic carditis as type III (immune complex) or type I; the printed key is type II antibody cross-reactivity, though a type IV T-cell component also contributes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-41547BEDC714F8
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+The source classifies rheumatic carditis as type II (anti-M-protein antibody cross-reactivity). Modern immunology recognises a MIXED mechanism: type II antibody-mediated injury PLUS a type IV CD4 T-cell response. Authored to the printed key (type II) with this nuance recorded.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.type-ii-hypersensitivity", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q76, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-F5088EC70CA943
+## label
+Positive blood culture (Streptococcus viridans) is the key diagnostic finding in subacute infective endocarditis
+## canonical_key
+subacute-infective-endocarditis.blood-culture-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The single most valuable diagnostic test in subacute infective endocarditis is a POSITIVE BLOOD CULTURE, classically growing Streptococcus viridans, the low-virulence organism that seeds previously damaged valves. The infected vegetation causes a continuous low-grade bacteraemia, so repeated cultures of the same organism confirm the diagnosis. Non-specific findings such as anaemia of chronic disease, mild leukocytosis or a raised ESR support but do not confirm it, and a high antistreptolysin titre points instead to rheumatic fever.
+## explicit_objective
+State that a positive blood culture (Streptococcus viridans) is the most valuable diagnostic finding in subacute infective endocarditis.
+## pitfalls
+Choosing antistreptolysin titre (that indicates rheumatic fever) or non-specific leukocytosis instead of blood culture.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Infective endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-8FC8A80785631B
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "subacute-infective-endocarditis.blood-culture-diagnosis", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q78, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-C280A32A6A0F22
+## label
+Chronic rheumatic heart disease causes commissural fibrous fusion and valve calcification
+## canonical_key
+chronic-rheumatic-heart-disease.commissural-fusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic (healed) rheumatic heart disease is the fibrotic end-stage of recurrent rheumatic valvulitis. It produces fibrous FUSION and BRIDGING across the valve commissures, diffuse fibrous thickening and often CALCIFICATION of the cusps, and thickening, shortening and fusion of the chordae tendineae. In the mitral valve this yields the classic 'fish-mouth' or 'buttonhole' stenosis, in contrast to the small acute warty vegetations and to MacCallum's patch on the left atrial wall.
+## explicit_objective
+State that chronic rheumatic heart disease causes commissural fibrous fusion/bridging with valve calcification (fish-mouth mitral stenosis).
+## pitfalls
+Confusing the destructive friable vegetations of infective endocarditis with the fibrous commissural fusion of chronic rheumatic disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-DF17094880BEAE
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "chronic-rheumatic-heart-disease.commissural-fusion", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q79, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-299BC35F7419B2
+## label
+Non-bacterial thrombotic (marantic) endocarditis complicates hypercoagulable states
+## canonical_key
+nonbacterial-thrombotic-endocarditis.associations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Non-bacterial thrombotic (marantic) endocarditis is the deposition of small sterile fibrin-platelet vegetations on valve leaflets in HYPERCOAGULABLE states, without infection or inflammation. Recognised associations include mucin-secreting adenocarcinomas (classically carcinoma of the pancreas), acute promyelocytic leukemia and disseminated intravascular coagulation, all of which promote a thrombosis-prone state. It is NOT a feature of bleeding disorders such as haemophilia, which are hypocoagulable and the opposite of the state that produces marantic vegetations.
+## explicit_objective
+State that non-bacterial thrombotic (marantic) endocarditis complicates hypercoagulable states (pancreatic carcinoma, promyelocytic leukemia, DIC), not bleeding disorders.
+## pitfalls
+Listing haemophilia as an association; haemophilia is a bleeding (hypocoagulable) disorder and does not cause marantic vegetations.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-021DBC9C669D19
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "nonbacterial-thrombotic-endocarditis.associations", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q80, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-2FA5C2A12079A2
+## label
+Infective endocarditis: causative organisms and friable embolic vegetations
+## canonical_key
+infective-endocarditis.organisms-and-vegetations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In infective endocarditis the commonest organism of the ACUTE form is Staphylococcus aureus (high virulence, attacks normal valves) and of the SUBACUTE form is Streptococcus viridans (low virulence, seeds damaged valves). In intravenous drug users the right-sided (tricuspid) valve is characteristically involved. The vegetations are FRIABLE and readily DETACHABLE: septic emboli break off to cause pyaemia and septic infarcts, a defining and dangerous property of infective vegetations.
+## explicit_objective
+Recall the commonest acute/subacute organisms, right-sided involvement in drug users, and the friable, detachable (embolic) nature of infective vegetations.
+## pitfalls
+Naming E. coli as the commonest cause (it is Staph aureus for acute), or calling the vegetations non-detachable.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Infective endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "infective-endocarditis.organisms-and-vegetations", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q81/Q82, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-E617B50466DC23
+## label
+Rheumatic fever follows group A beta-haemolytic streptococcal infection
+## canonical_key
+rheumatic-fever.group-a-beta-haemolytic-streptococcus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rheumatic fever follows a pharyngitis caused by GROUP A BETA-HAEMOLYTIC streptococcus (Streptococcus pyogenes). Two to four weeks after the throat infection, antibodies against the streptococcal M protein cross-react with cardiac and other host tissues (molecular mimicry) to produce the disease. The organism is specifically group A and beta-haemolytic; alpha-haemolytic streptococci (e.g. Strep viridans) instead cause subacute infective endocarditis, and group B streptococci cause neonatal sepsis.
+## explicit_objective
+State that rheumatic fever follows group A beta-haemolytic streptococcal pharyngitis.
+## pitfalls
+Confusing the alpha-haemolytic Strep viridans of subacute endocarditis, or group B streptococci, with the group A beta-haemolytic cause of rheumatic fever.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-41547BEDC714F8
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.group-a-beta-haemolytic-streptococcus", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q83, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-C4B5530BEE3169
+## label
+The mitral valve is the commonest valve affected by rheumatic fever
+## canonical_key
+rheumatic-fever.mitral-valve-commonest
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The MITRAL valve is the valve most commonly affected by rheumatic fever, involved in the great majority of cases, followed by the aortic valve (the two are often affected together). The high left-sided pressures and mechanical stress on the mitral valve make it most vulnerable to recurrent rheumatic valvulitis, which leads to mitral stenosis and/or regurgitation. Tricuspid and pulmonary involvement is uncommon and almost always accompanies left-sided disease.
+## explicit_objective
+State that the mitral valve is the commonest valve affected by rheumatic fever (aortic second).
+## pitfalls
+Naming the aortic valve as commonest; it is second to the mitral.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.mitral-valve-commonest", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q84, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-AA62D582CF3D8E
+## label
+Jones major criteria for rheumatic fever (arthritis, not arthralgia)
+## canonical_key
+rheumatic-fever.jones-major-criteria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Jones MAJOR criteria for diagnosing acute rheumatic fever are carditis, migratory polyARTHRITIS, Sydenham chorea, subcutaneous nodules and erythema marginatum (mnemonic JONES / CASES). ARTHRALGIA (joint pain without objective arthritis) is a MINOR criterion, not a major one, and is the common distractor. Fever, raised acute-phase reactants (ESR/CRP), a prolonged PR interval and arthralgia make up the minor criteria.
+## explicit_objective
+List the Jones major criteria and distinguish arthritis (major) from arthralgia (minor).
+## pitfalls
+Counting arthralgia as a major criterion; it is minor, whereas migratory arthritis is major.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-41547BEDC714F8
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-fever.jones-major-criteria", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q85, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-617142B092359B
+## label
+Aschoff nodules lie in the myocardial interstitium
+## canonical_key
+aschoff-nodule.myocardium-location
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Aschoff nodule (body) is the pathognomonic granulomatous lesion of rheumatic carditis and is best seen in the MYOCARDIUM, characteristically in the perivascular interstitial connective tissue. It consists of central fibrinoid necrosis surrounded by activated macrophages (Anitschkow cells with 'caterpillar' chromatin), multinucleate Aschoff giant cells, lymphocytes and plasma cells. Although rheumatic fever is a pancarditis, the diagnostic Aschoff body is identified in the myocardial interstitium rather than on the valves or pericardium.
+## explicit_objective
+State that the Aschoff nodule is best seen in the myocardial (perivascular interstitial) tissue.
+## pitfalls
+Placing the Aschoff nodule on the valve or pericardium; the diagnostic lesion is found in the myocardium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Rheumatic fever
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Rheumatic fever
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-564D56257B4A47
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aschoff-nodule.myocardium-location", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q86, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-2A4A1892DF4913
+## label
+Acute infective endocarditis attacks previously normal valves
+## canonical_key
+acute-infective-endocarditis.affects-normal-valves
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACUTE infective endocarditis is caused by highly virulent organisms (classically Staphylococcus aureus) that attack PREVIOUSLY NORMAL (healthy) valves and destroy them rapidly. It produces large septic vegetations, valve perforation, embolic complications and death within days to weeks in a high proportion of patients. This contrasts with the SUBACUTE form, in which low-virulence organisms seed previously DAMAGED valves with an indolent course; affecting an already-injured valve is therefore NOT a feature of the acute form.
+## explicit_objective
+State that acute infective endocarditis attacks previously normal valves (unlike the subacute form on damaged valves).
+## pitfalls
+Saying acute infective endocarditis affects previously injured valves; that describes the subacute form.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Infective endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-2FA5C2A12079A2
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "acute-infective-endocarditis.affects-normal-valves", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q88, p.15-17 / printed 14-16); no department book located/read this pass.
+
+---

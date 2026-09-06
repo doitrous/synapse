@@ -8,9 +8,11 @@
 | abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 | 7 |
 | abolmagd-cvs Blood Vessels / vasculitis (Q38-47, same paper) | 10 | 0 | 0 | 0 | 10 |
 | abolmagd-cvs Aneurysms & Veins (Q48-65, same paper) | 15 | 0 | 3 | 0 | 18 |
-| abolmagd-cvs Heart / Endocarditis (Q67-72, same paper) | 6 | 0 | 0 | 0 (→ Q73-78 p.15, then Ischemia/Heart Diseases) | 6 |
-| **abolmagd-cvs cluster total** | **68** | **0** | **3** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 68 | 0 | 3 | untriaged | — |
+| abolmagd-cvs Heart / Endocarditis (Q67-72, same paper) | 6 | 0 | 0 | 0 | 6 |
+| abolmagd-cvs Heart chapter cont. (Q73-84, same paper) | 12 | 0 | 0 | 0 | 12 |
+| abolmagd-cvs Heart chapter tail (Q85-91, same paper) | 7 | 0 | 0 | 0 (→ Ischemic Heart Disease Q92+ p.18) | 7 |
+| **abolmagd-cvs cluster total** | **87** | **0** | **3** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 87 | 0 | 3 | untriaged | — |
 
 ## Module opened
 
@@ -172,13 +174,50 @@ article 5/0; simulate created=80/rejected=0/errors=0; audit neutral vs the 310-P
 distinct categories, all pre-existing placeholder families, error count scales with item count, no new
 error category).
 
+## Cluster — abolmagd-cvs-heart-2 (Q73-84)
+
+12/12 authored (Q73-84, pp.15-16 / printed 14-15), **0 excluded, 0 held**. Continues the HEART
+chapter (rheumatic fever + infective/non-bacterial endocarditis) from Q72. The auto-detector is
+unreliable on this bank (over-flags/misses), so keys were taken from the single medically-correct
+option of each standard-pathology stem — all unambiguous: Q73.c, Q74.d, Q75.d, Q76.b, Q77.a, Q78.c
+(these six match the prior render-adjudication), Q79.c, Q80.c, Q81.d, Q82.d, Q83.c, Q84.b. **9 new
+concepts minted** (subacute-IE embolic features/Q73; causes-of-valve-vegetations/Q75; RF type-II
+hypersensitivity/Q76; subacute-IE blood-culture diagnosis/Q78; chronic-RHD commissural fusion/Q79;
+non-bacterial-thrombotic-endocarditis associations/Q80; IE organisms-and-vegetations/Q81+Q82;
+RF group-A-beta-haemolytic-streptococcus/Q83; mitral-commonest-valve/Q84), university-blind
+(CON-CVS- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked against the
+corpus — no collisions, no in-batch duplicates. Reused: Aschoff concept (Q74), serofibrinous-
+pericarditis concept (Q77), IE-organisms concept again (Q82). All added to the existing
+`ART-CVS-310PAT-ENDOCARDITIS` article (no new article). **Exam-key caveat:** Q76 (immune reaction of
+rheumatic heart) authored to the printed key *type II* while noting the modern mixed type II (antibody)
++ type IV (T-cell) mechanism — in `author_notes` + concept `uncertainty`. Files:
+`question/310-PAT-abolmagd-heart-2-mcq.md`, seed `coverage/seeds/310-PAT/abolmagd-cvs-heart-2.json`.
+**Gate-clean** (question 12/0, concept 66/0; simulate created=84/rejected=0/errors=0; audit neutral vs
+the 310-PAT baseline — 17 pre-existing placeholder families only, no new error category).
+
+## Cluster — abolmagd-cvs-heart-3 (Q85-91)
+
+7/7 authored (Q85-91, p.17 / printed 16), **0 excluded, 0 held**. Closes the HEART chapter (Jones
+criteria, rheumatic carditis, IE) before the ISCHEMIC HEART DISEASE section. Keys medically
+unambiguous (detector-confirmed Q90.c, Q91.d): Q85.c, Q86.d, Q87.a, Q88.b, Q89.b, Q90.c, Q91.d. **3
+new concepts minted** (Jones-major-criteria/Q85; Aschoff-in-myocardium/Q86; acute-IE-affects-normal-
+valves/Q88), university-blind, collision-checked — no collisions. Reused: serofibrinous concept (Q87),
+Aschoff concept (Q89), MacCallum concept (Q90), subacute-IE-damaged-valves concept (Q91). **Dedupe:**
+Q90 restates the MacCallum's-patch fact of Q71 as a distinct printed item — authored as its own MCQ
+reusing `CON-CVS-DF17094880BEAE` (the bank's established near-restatement pattern). All under
+`ART-CVS-310PAT-ENDOCARDITIS`. The [196] tag on Q91 is a yellow batch highlight, not an answer. Files:
+`question/310-PAT-abolmagd-heart-3-mcq.md`, seed `coverage/seeds/310-PAT/abolmagd-cvs-heart-3.json`.
+**Gate-clean** (question 7/0, concept 66/0; combined simulate created=91/rejected=0/errors=0; audit
+neutral vs the 310-PAT baseline — 17 pre-existing placeholder families only, no new error category).
+
 ## Next cluster
 
-**Remaining on this paper:** the rest of the HEART chapter — **Q73-78 (p.15 / printed 14**, more
-rheumatic-fever/infective-endocarditis items; keys render-adjudicated this pass: Q73.c, Q74.d, Q75.d,
-Q76.b, Q77.a, Q78.c), then **Ischemia (p.17+)**, **Heart Diseases (p.19+)**, the **2008-2015 MCQ set
-(p.24+)** and Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology
-sub-corpus
+**Remaining on this paper:** the **ISCHEMIC HEART DISEASE** section — **Q92-103+ (p.18+ / printed 17+)**,
+IHD/MI items (provisional keys from medical reading, render-adjudicate the ambiguous ones before
+authoring: Q92.b, Q93 HOLD-render, Q94.d, Q95.c, Q96.d, Q97.b, Q98.d, Q99.b, Q100.a, Q101.c, Q102.c,
+Q103.d — Q93 morphology-of-MI has more than one defensible true option and needs a render check), then
+**Heart Diseases (p.19+)**, the **2008-2015 MCQ set (p.24+)** and Written topics (p.26+, non-MCQ).
+**Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
 Tarek folders) and the entire **Pharmacology** sub-corpus (`All 197 Qs answered by pharmaga.pdf`,
 `Pharma MCQ by Abolmagd.pdf`, `PHARMA GITTTTTTT.pdf`, `Pharma RSPPPPP.pdf`) — pharmacology items
