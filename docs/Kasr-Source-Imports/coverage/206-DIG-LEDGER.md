@@ -12,7 +12,8 @@
 | 2021-eom-anatomy-tranche-1 (Q1-27 slice, `EOM - DIG-206 EOM (solved).pdf`) | 20 | 0 | 7 skipped-dupe | 27 |
 | 2021-eom-anatomy-tranche-2 (Q28-42 tail, same paper) | 9 | 1 (Q37) | 5 skipped-dupe | 15 |
 | 2021-eom-physiology-tranche-3 (Q43-64, same paper) | 11 | 1 (Q45) | 10 skipped (9 dupe + Q56 ambiguous key) | 22 |
-| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **40** | **2** | **56** | **120** |
+| 2021-eom-physiology-tranche-4 (Q65-84 renal/thermoreg, same paper) | 10 | 1 (Q72) | 9 skipped-dupe | 20 |
+| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **50** | **3** | **36** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
@@ -176,6 +177,32 @@ questions remain on this paper: Q65-84 Physiology cont'd (renal/metabolism — d
 2025 tranche-4 renal/metabolism concepts), Q85-114 Histology, Q115-120 Biochemistry — all keys in
 `coverage/206-DIG-2021eom-triage-keys.txt` (Q72/Q106 flagged ambiguous, render before authoring).**
 Next author starts at Q65.
+
+2021-eom-physiology-tranche-4 (Q65-84, renal physiology + thermoregulation): 10/10 authored
+(Q67, 70, 73, 74, 79, 80, 81, 82, 83, 84), 1 held (Q72), 9 skipped as near-duplicate stems of
+the fully-authored 2025 EOM tranche-4 renal/metabolism concepts (Q65/66 food-intake control,
+Q68 fever set-point, Q69 JGA function, Q71 filtration-barrier charge, Q75 basolateral Na-K pump,
+Q76 ANP natriuresis, Q77 K handling, Q78 renal glucose-Na cotransport). Full stems/options read
+from the pagetext OCR cache (pp.8-9); each keyed answer matches the red-circle "@" marker. Q72
+held: OCR shows two circled options ("afferent arteriolar constriction" and "high protein diet")
+on the GFR-increase stem — the medicine favours high-protein diet (afferent constriction lowers
+GFR) but the double circle is unresolved on OCR, so render before authoring. This slice ran a
+**~48% dupe rate for Q65-84 (9 skipped + 1 held of 20)** — the 2025 tranche-4 already covers this
+renal/metabolism section densely — but the genuinely-new facts (tubuloglomerular-feedback
+adenosine, filtration fraction, GFR determinants, thick-ascending-limb water impermeability,
+ADH/aquaporin-2, proximal H+ counter-transport, ammonia buffering, respiratory PCO2 control,
+metabolic alkalosis, sweating onset temperature) were authored. 10 new concepts minted
+university-blind (1 `CON-END-*` thermoregulation under DIS-PHY-T08, 9 `CON-REN-*` renal/acid-base
+under DIS-PHY-T04 with SYS-REN-T01; SHA-256 collision-checked, no collisions), grouped into one
+article `ART-REN-206DIG-2021EOM-RENALPHYS`. Authored in `question/206-DIG-2021eom-mcq-tranche4.md`
+(seed `seed/206-DIG-2021eom-physiology-tranche4.json`),
+`concept/206-DIG-2021eom-physiology-tranche4-concepts.md`,
+`article/206-DIG-2021eom-physiology-tranche4-articles.md`. Gate-clean (batch 0 errors on all
+three; simulate created=21/rejected=0/errors=0; audit neutral vs the 206-DIG baseline — 28
+category families in both, 0 new categories). **36 questions remain on this paper: Q85-114
+Histology (dedupe hard vs 2025 tranche-5/6 histology) and Q115-120 Biochemistry (2025 biochem is
+all lipid, so carb/protein digestion here is fresh). Q106 flagged ambiguous — render before
+authoring.** Next author starts at Q85.
 
 ## Sources
 
