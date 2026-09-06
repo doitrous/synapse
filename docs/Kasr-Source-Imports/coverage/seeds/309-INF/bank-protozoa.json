@@ -1802,6 +1802,140 @@
     {
       "key": "q78",
       "hold": "in-source repeat of the granuloma fact already tested by the authored Q2 (\"Granulomatous reactions may occur in infection with...\", Entamoeba histolytica); Q78 (\"Granuloma formation may be seen with which protozoan?\", key B = E. histolytica) re-tests the same atomic fact, so it is held per brief."
+    },
+    {
+      "key": "q79",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-79",
+      "page": 20,
+      "title": "Recent toxoplasmosis raises IgM",
+      "question": "Recent or active toxoplasmosis is possibly related to elevated levels of:",
+      "options": {
+        "A": "IgG antibodies",
+        "B": "IgM antibodies",
+        "C": "IgA antibodies",
+        "D": "IgE antibodies"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgG rises later and persists for life, so it marks past exposure or immunity rather than recent infection.",
+        "B": "Correct. IgM is the first antibody class produced after Toxoplasma seroconversion, appearing early and declining faster than IgG, so a raised specific IgM indicates recent or active infection. Detecting anti-Toxoplasma IgM therefore signals acute toxoplasmosis. Elevated IgM is the answer.",
+        "C": "Incorrect. IgA is a supplementary marker but not the primary indicator of acute toxoplasmosis in this comparison.",
+        "D": "Incorrect. IgE is not the standard serological marker of recent toxoplasmosis."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Toxoplasma gondii",
+      "learning_objective": "State that recent or active toxoplasmosis is marked by elevated IgM.",
+      "main_concept": "CON-INF-B5C931A8DF09B9",
+      "concept_ids": [
+        "CON-INF-B5C931A8DF09B9"
+      ]
+    },
+    {
+      "key": "q80",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-80",
+      "page": 20,
+      "title": "Autoimmune reaction causes haemolytic anaemia in malaria",
+      "question": "Autoimmune reactions are the cause of:",
+      "options": {
+        "A": "Haemolytic anaemia in malaria",
+        "B": "Cerebral malaria",
+        "C": "Tropical pulmonary eosinophilia",
+        "D": "Aplastic anaemia in kala-azar"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In malaria, host antibody and complement coat red cells altered by the parasite and bystander uninfected cells, so immune (autoimmune) destruction of red cells adds to the direct rupture of parasitised cells and worsens the haemolytic anaemia. This antibody-mediated haemolysis is the autoimmune contribution to malarial anaemia. Haemolytic anaemia in malaria is therefore the answer.",
+        "B": "Incorrect. Cerebral malaria results from cytoadherence and sequestration of parasitised red cells in the brain microvasculature, not from autoimmunity.",
+        "C": "Incorrect. Tropical pulmonary eosinophilia is a type I hypersensitivity to filarial antigens, not an autoimmune reaction.",
+        "D": "Incorrect. The cytopenias of kala-azar are due to hypersplenism and bone-marrow infiltration, not autoimmune destruction."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium (malaria)",
+      "learning_objective": "Attribute an autoimmune component of malarial haemolytic anaemia to antibody-mediated red-cell destruction.",
+      "main_concept": "CON-INF-F9CC3F63DD1E7A",
+      "concept_ids": [
+        "CON-INF-F9CC3F63DD1E7A"
+      ]
+    },
+    {
+      "key": "q81",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-81",
+      "page": 21,
+      "title": "Nephrotic syndrome in P. malariae is type III hypersensitivity",
+      "question": "Nephrotic syndrome caused by P. malariae is due to:",
+      "options": {
+        "A": "Type I hypersensitivity",
+        "B": "Type II hypersensitivity",
+        "C": "Type III hypersensitivity",
+        "D": "Type IV hypersensitivity"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Type I (immediate, IgE-mediated) hypersensitivity is not the mechanism of quartan malarial nephropathy.",
+        "B": "Incorrect. Type II (antibody-mediated cytotoxic) hypersensitivity is not the cause of the glomerular lesion.",
+        "C": "Correct. Chronic Plasmodium malariae infection causes nephrotic syndrome by depositing soluble immune (antigen-antibody) complexes in the glomerular basement membrane, a type III hypersensitivity reaction that injures the glomerulus. This immune-complex mechanism defines quartan malarial nephropathy. It is therefore a type III hypersensitivity.",
+        "D": "Incorrect. Type IV (delayed, cell-mediated) hypersensitivity does not underlie this immune-complex nephropathy."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium malariae",
+      "learning_objective": "Classify quartan malarial nephrotic syndrome as a type III hypersensitivity.",
+      "main_concept": "CON-INF-1EC0B310934D5F",
+      "concept_ids": [
+        "CON-INF-1EC0B310934D5F"
+      ]
+    },
+    {
+      "key": "q82",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-82",
+      "page": 21,
+      "title": "Entamoeba coli has no intracellular location",
+      "question": "Intracellular location is not found with:",
+      "options": {
+        "A": "Toxoplasma gondii",
+        "B": "Entamoeba coli",
+        "C": "Plasmodium vivax",
+        "D": "Trypanosoma cruzi"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Toxoplasma gondii survives inside host cells within a parasitophorous vacuole.",
+        "B": "Correct. Entamoeba coli is a harmless commensal that lives free in the lumen of the large bowel and never enters host cells, so it has no intracellular stage. This contrasts with the truly intracellular protozoa in the other options. Entamoeba coli is therefore the organism with no intracellular location.",
+        "C": "Incorrect. Plasmodium vivax lives inside hepatocytes and red cells.",
+        "D": "Incorrect. Trypanosoma cruzi multiplies as intracellular amastigotes within host cells."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba coli",
+      "learning_objective": "State that Entamoeba coli has no intracellular stage.",
+      "main_concept": "CON-INF-F092EFFE3152C8",
+      "concept_ids": [
+        "CON-INF-F092EFFE3152C8"
+      ]
+    },
+    {
+      "key": "q83",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-83",
+      "page": 21,
+      "title": "Autoimmune reaction with Trypanosoma cruzi",
+      "question": "Autoimmune reaction may be seen with:",
+      "options": {
+        "A": "Toxoplasma gondii",
+        "B": "Trichinella spiralis",
+        "C": "Trypanosoma cruzi",
+        "D": "Trypanosoma brucei"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Toxoplasma gondii causes disease by direct tissue invasion, not by a defining autoimmune reaction.",
+        "B": "Incorrect. Trichinella spiralis causes disease through larval muscle invasion and hypersensitivity, not the characteristic autoimmunity of Chagas.",
+        "C": "Correct. Chronic Chagas disease due to Trypanosoma cruzi is driven partly by autoimmunity, in which molecular mimicry between parasite and host cardiac/neural antigens generates cross-reacting antibodies and T cells that damage the myocardium and autonomic ganglia. This autoimmune mechanism is characteristic of T. cruzi. An autoimmune reaction is therefore seen with Trypanosoma cruzi.",
+        "D": "Incorrect. Trypanosoma brucei evades immunity by antigenic variation (high IgM); autoimmunity is not its hallmark."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Trypanosoma cruzi (Chagas)",
+      "learning_objective": "Associate an autoimmune reaction with Trypanosoma cruzi (Chagas disease).",
+      "main_concept": "CON-INF-0C611D5EC08D33",
+      "concept_ids": [
+        "CON-INF-0C611D5EC08D33"
+      ]
+    },
+    {
+      "key": "q84",
+      "hold": "in-source exact duplicate of the authored Q11 (\"Fine (malaria) pigment is found in RBCs infected with...\", Plasmodium vivax, both printed key = vivax); Q11 is authored, Q84 held per brief."
     }
   ]
 }

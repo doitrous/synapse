@@ -9109,3 +9109,693 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protoz
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-79
+
+## title
+Recent toxoplasmosis raises IgM
+
+## question
+Recent or active toxoplasmosis is possibly related to elevated levels of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+IgG antibodies
+
+## explanation_a
+Incorrect. IgG rises later and persists for life, so it marks past exposure or immunity rather than recent infection.
+
+## answer_b
+IgM antibodies
+
+## explanation_b
+Correct. IgM is the first antibody class produced after Toxoplasma seroconversion, appearing early and declining faster than IgG, so a raised specific IgM indicates recent or active infection. Detecting anti-Toxoplasma IgM therefore signals acute toxoplasmosis. Elevated IgM is the answer.
+
+## answer_c
+IgA antibodies
+
+## explanation_c
+Incorrect. IgA is a supplementary marker but not the primary indicator of acute toxoplasmosis in this comparison.
+
+## answer_d
+IgE antibodies
+
+## explanation_d
+Incorrect. IgE is not the standard serological marker of recent toxoplasmosis.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-B5C931A8DF09B9
+
+## concept_ids
+CON-INF-B5C931A8DF09B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that recent or active toxoplasmosis is marked by elevated IgM.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-80
+
+## title
+Autoimmune reaction causes haemolytic anaemia in malaria
+
+## question
+Autoimmune reactions are the cause of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Haemolytic anaemia in malaria
+
+## explanation_a
+Correct. In malaria, host antibody and complement coat red cells altered by the parasite and bystander uninfected cells, so immune (autoimmune) destruction of red cells adds to the direct rupture of parasitised cells and worsens the haemolytic anaemia. This antibody-mediated haemolysis is the autoimmune contribution to malarial anaemia. Haemolytic anaemia in malaria is therefore the answer.
+
+## answer_b
+Cerebral malaria
+
+## explanation_b
+Incorrect. Cerebral malaria results from cytoadherence and sequestration of parasitised red cells in the brain microvasculature, not from autoimmunity.
+
+## answer_c
+Tropical pulmonary eosinophilia
+
+## explanation_c
+Incorrect. Tropical pulmonary eosinophilia is a type I hypersensitivity to filarial antigens, not an autoimmune reaction.
+
+## answer_d
+Aplastic anaemia in kala-azar
+
+## explanation_d
+Incorrect. The cytopenias of kala-azar are due to hypersplenism and bone-marrow infiltration, not autoimmune destruction.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-F9CC3F63DD1E7A
+
+## concept_ids
+CON-INF-F9CC3F63DD1E7A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium (malaria)
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Attribute an autoimmune component of malarial haemolytic anaemia to antibody-mediated red-cell destruction.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-81
+
+## title
+Nephrotic syndrome in P. malariae is type III hypersensitivity
+
+## question
+Nephrotic syndrome caused by P. malariae is due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Type I hypersensitivity
+
+## explanation_a
+Incorrect. Type I (immediate, IgE-mediated) hypersensitivity is not the mechanism of quartan malarial nephropathy.
+
+## answer_b
+Type II hypersensitivity
+
+## explanation_b
+Incorrect. Type II (antibody-mediated cytotoxic) hypersensitivity is not the cause of the glomerular lesion.
+
+## answer_c
+Type III hypersensitivity
+
+## explanation_c
+Correct. Chronic Plasmodium malariae infection causes nephrotic syndrome by depositing soluble immune (antigen-antibody) complexes in the glomerular basement membrane, a type III hypersensitivity reaction that injures the glomerulus. This immune-complex mechanism defines quartan malarial nephropathy. It is therefore a type III hypersensitivity.
+
+## answer_d
+Type IV hypersensitivity
+
+## explanation_d
+Incorrect. Type IV (delayed, cell-mediated) hypersensitivity does not underlie this immune-complex nephropathy.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-1EC0B310934D5F
+
+## concept_ids
+CON-INF-1EC0B310934D5F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium malariae
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Classify quartan malarial nephrotic syndrome as a type III hypersensitivity.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.21
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-82
+
+## title
+Entamoeba coli has no intracellular location
+
+## question
+Intracellular location is not found with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Toxoplasma gondii
+
+## explanation_a
+Incorrect. Toxoplasma gondii survives inside host cells within a parasitophorous vacuole.
+
+## answer_b
+Entamoeba coli
+
+## explanation_b
+Correct. Entamoeba coli is a harmless commensal that lives free in the lumen of the large bowel and never enters host cells, so it has no intracellular stage. This contrasts with the truly intracellular protozoa in the other options. Entamoeba coli is therefore the organism with no intracellular location.
+
+## answer_c
+Plasmodium vivax
+
+## explanation_c
+Incorrect. Plasmodium vivax lives inside hepatocytes and red cells.
+
+## answer_d
+Trypanosoma cruzi
+
+## explanation_d
+Incorrect. Trypanosoma cruzi multiplies as intracellular amastigotes within host cells.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-F092EFFE3152C8
+
+## concept_ids
+CON-INF-F092EFFE3152C8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba coli
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that Entamoeba coli has no intracellular stage.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.21
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-83
+
+## title
+Autoimmune reaction with Trypanosoma cruzi
+
+## question
+Autoimmune reaction may be seen with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Toxoplasma gondii
+
+## explanation_a
+Incorrect. Toxoplasma gondii causes disease by direct tissue invasion, not by a defining autoimmune reaction.
+
+## answer_b
+Trichinella spiralis
+
+## explanation_b
+Incorrect. Trichinella spiralis causes disease through larval muscle invasion and hypersensitivity, not the characteristic autoimmunity of Chagas.
+
+## answer_c
+Trypanosoma cruzi
+
+## explanation_c
+Correct. Chronic Chagas disease due to Trypanosoma cruzi is driven partly by autoimmunity, in which molecular mimicry between parasite and host cardiac/neural antigens generates cross-reacting antibodies and T cells that damage the myocardium and autonomic ganglia. This autoimmune mechanism is characteristic of T. cruzi. An autoimmune reaction is therefore seen with Trypanosoma cruzi.
+
+## answer_d
+Trypanosoma brucei
+
+## explanation_d
+Incorrect. Trypanosoma brucei evades immunity by antigenic variation (high IgM); autoimmunity is not its hallmark.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-0C611D5EC08D33
+
+## concept_ids
+CON-INF-0C611D5EC08D33
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma cruzi (Chagas)
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate an autoimmune reaction with Trypanosoma cruzi (Chagas disease).
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.21
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

@@ -16820,3 +16820,558 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B5C931A8DF09B9
+## label
+Recent or active toxoplasmosis raises specific IgM
+## canonical_key
+parasitology.toxoplasma-gondii.acute-infection-igm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A rising specific IgM antibody titre indicates recent or active Toxoplasma gondii infection, because IgM is the first antibody class produced after seroconversion, appearing before and declining faster than the long-lived IgG that marks past exposure. Detecting anti-Toxoplasma IgM therefore points to recent or active infection. Elevated IgM is the marker of acute toxoplasmosis.
+## explicit_objective
+State that recent or active toxoplasmosis is indicated by elevated specific IgM antibodies.
+## pitfalls
+Acute toxoplasmosis = specific IgM; persistent IgG alone indicates past infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F9CC3F63DD1E7A
+## label
+Autoimmune red-cell destruction contributes to malarial anaemia
+## canonical_key
+parasitology.malaria.autoimmune-haemolytic-anaemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In malaria, host antibody and complement bind to red-cell membranes altered by the parasite and to bystander uninfected cells, so immune (autoimmune) destruction of red cells adds to the direct rupture of parasitised cells and accelerates the haemolytic anaemia. This antibody-mediated haemolysis is why autoimmune reactions are counted among the causes of malarial anaemia. The haemolytic anaemia of malaria therefore has an autoimmune component.
+## explicit_objective
+State that autoimmune (antibody-mediated) red-cell destruction contributes to the haemolytic anaemia of malaria.
+## pitfalls
+Autoimmune reaction in malaria -> haemolytic anaemia; cerebral malaria is sequestration, kala-azar cytopenia is hypersplenism/marrow suppression.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium (malaria)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1EC0B310934D5F
+## label
+Quartan malarial nephrotic syndrome is a type III hypersensitivity
+## canonical_key
+parasitology.plasmodium-malariae.nephrotic-type-iii-hypersensitivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The nephrotic syndrome of chronic Plasmodium malariae (quartan) infection is caused by deposition of soluble antigen-antibody (immune) complexes in the glomerular basement membrane, a type III hypersensitivity reaction that damages the glomerulus. It is not a type I, II or IV mechanism. Quartan malarial nephropathy is therefore a type III (immune-complex) hypersensitivity.
+## explicit_objective
+Classify the nephrotic syndrome of Plasmodium malariae as a type III (immune-complex) hypersensitivity.
+## pitfalls
+Quartan malarial nephropathy = type III immune-complex reaction, not type I/II/IV.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium malariae
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F092EFFE3152C8
+## label
+Entamoeba coli has no intracellular stage
+## canonical_key
+parasitology.entamoeba-coli.not-intracellular
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Entamoeba coli is a harmless commensal that lives free in the lumen of the large bowel and never enters host cells, so it uses no intracellular niche. This contrasts with the intracellular protozoa Toxoplasma gondii (parasitophorous vacuole), Plasmodium vivax (hepatocytes and red cells) and Trypanosoma cruzi (amastigotes in host cells). Entamoeba coli is therefore the organism with no intracellular location.
+## explicit_objective
+State that Entamoeba coli has no intracellular stage (unlike Toxoplasma, Plasmodium and T. cruzi).
+## pitfalls
+No intracellular niche = luminal commensal Entamoeba coli; Toxoplasma/Plasmodium/T. cruzi are intracellular.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba coli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0C611D5EC08D33
+## label
+Chagas disease (Trypanosoma cruzi) involves an autoimmune reaction
+## canonical_key
+parasitology.trypanosoma-cruzi.autoimmune-reaction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic Chagas disease due to Trypanosoma cruzi is driven partly by autoimmunity: molecular mimicry between parasite antigens and host cardiac and neural tissue triggers cross-reacting antibodies and T cells that damage the myocardium and autonomic ganglia, producing cardiomyopathy and the mega-syndromes. This autoimmune mechanism is characteristic of T. cruzi. An autoimmune reaction is therefore seen with Trypanosoma cruzi.
+## explicit_objective
+Associate an autoimmune (molecular-mimicry) reaction with Trypanosoma cruzi (Chagas disease).
+## pitfalls
+Autoimmune tissue damage (molecular mimicry) = T. cruzi/Chagas, not Toxoplasma, Trichinella or T. brucei.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma cruzi (Chagas)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
