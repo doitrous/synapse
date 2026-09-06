@@ -9,8 +9,9 @@
 | 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
 | 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
 | medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
-| **207 END module authored (3 EOM + 1 bank)** | **194** | **2** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 194 | 2 | 1 | untriaged | — |
+| galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 15 | 0 | 0 | ~9 dupe + 9 held(unread key) | ~47 |
+| **207 END module authored (3 EOM + 2 banks)** | **209** | **2** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 209 | 2 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -395,3 +396,56 @@ articles (2 SUPRARENAL, 2 PANCREAS) — no new article. Subject tag `endo`. Seed
 Medhat bank is now **21 authored / 25** (4 dupes skipped: Q1, Q11, Q18, Q25). Gate-clean vs the
 module baseline (concept batch 21 items 0 errors; MCQ batch 21 items = the single not-yet-imported
 `resource_ids` category, one/item). **The Dr Medhat endocrine-anatomy bank is now fresh-exhausted.**
+
+## Fifth source — Dr Galal reproductive/pelvis ANATOMY MCQ bank (SECOND non-EOM source)
+
+Paper: `207 Mcq Galal (repro).pdf` (Anatomy Other [2nd priority]/MCQs; manifest sourceId
+`src_3c7b49ee6f8407106c2a`, sha256
+3c7b49ee6f8407106c2a478abeedeabd3194af6c8aad8cfb42f32bb8bc75dff1; examType null — a TOPIC
+bank, so examSittingYear=null; already in kasr-y2-sources.json, no new manifest row). Scanned
+(CamScanner), 8 pages, no text layer (OCR'd), ~47 four/five-option single-best MCQs on female
+pelvis/perineum/breast/genital-development gross anatomy, organised into topic sections. NOT a
+dup sha of any mined 207 END source. Registered in `evidence/207-END-resources.md`.
+
+**Key marker: a hand-drawn CIRCLE around the correct OPTION LETTER.** Read from the OCR (each
+circled letter surfaces as a stray glyph) and render-verified on pp.4 and 6 at 150 dpi — the
+circled letters matched the OCR reading exactly on both pages, 0 disagreements. 38/47 keys
+recovered with high confidence into `coverage/207-END-triage-keys.txt`; 9 stems (Q2, Q3, Q6,
+Q11, Q13, Q15, Q26, Q38, Q43) are HELD as unread (garbled OCR / cut option text) pending a
+render. Every authored key was also cross-checked against its stem for a clean single-best answer.
+
+**15 authored** (Q5, Q7, Q12, Q14, Q16, Q18, Q22, Q28, Q34, Q35, Q36, Q37, Q40, Q42, Q44) — every
+one a claim NOT already covered by the authored 207-END corpus (194), verified against the corpus
+canonical keys. 0 held-for-image, 0 excluded. The EOM anatomy tranches already covered much
+pelvis/perineum, so ~9 near-duplicate stems were skipped: Q1 (levator-ani vaginal sphincter =
+`levator-ani.anterior-fibres.vaginal-sphincter`), Q4 (pelvic-diaphragm-separates-pelvis-from-
+perineum), Q9 (mesosalpinx), Q10 (uterine-artery/ureter = `uterine-artery.course.crosses-above-
+ureter`), Q31/Q32 (ischiorectal lateral wall / pudendal Alcock canal), Q47 (paramesonephric
+excludes-lower-vagina), Q20/Q23 (internal-iliac branches family, already `internal-iliac-artery.
+branches.excludes-inferior-epigastric`). Effective dedupe rate ~9/24 checked (~37%), well under
+the 60% stop threshold — this bank is RICH and lower-dupe than a third EOM would be.
+
+15 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical
+key, uppercased): 9 `CON-GYN-*`, 3 `CON-FND-*`, 1 `CON-AND-*`, plus 2 embryology `CON-GYN-*` —
+collision-checked corpus-wide (0 collisions, 0 in-batch duplicates; none of the EOM/Medhat concepts
+reusable — distinct atomic claims). Filed under DIS-ANA-T05 (pelvis/perineum), DIS-ANA-T04 (thorax:
+breast) or DIS-EMB-T03 (system development) with SYS-GYN/FND/AND cross-nav. Grouped into 4 new
+library articles (`ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA`, `ART-FND-207END-GALAL-PELVIS-
+PERINEUM`, `ART-GYN-207END-GALAL-BREAST-ANATOMY`, `ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT`).
+Subject tags gyn/fnd/androl. Written from standard regional-anatomy/embryology teaching (Snell /
+Last's / Moore / Langman level) corroborated by this bank's own keyed stems and options (keys
+render-verified pp.4/6); no department book read this pass.
+
+Authored in `question/207-END-galal-repro-mcq.md` (from seed `seed/207-END-galal-repro.json` —
+never hand-edit the emitted .md; fix the seed and re-emit), `concept/207-END-galal-repro-concepts.md`,
+`article/207-END-galal-repro-articles.md`. Gate-clean vs the module baseline (concept batch 15 items
+0 errors; article batch 4 items 0 errors; MCQ batch 15 items = the shared not-yet-imported
+`resource_ids` category, one/item — the single category every 207-END MCQ file carries).
+
+**This bank is RICH** (a large, cleanly-circled repro/pelvis set) and still holds ~23 keyed but
+un-authored stems for a next slice (many are dupes; fresh remainders include Q19 scrotum↔labia,
+Q27 perineum boundary, Q29 Bartholin glands, Q30 male deep-pouch contents, Q33 ischiocavernosus,
+Q42-family embryology Q45/Q46) plus the 9 held unread stems (Q2/Q3/Q6/Q11/Q13/Q15/Q26/Q38/Q43,
+which need a render to recover the key/option text). Next 207 END cluster: continue this Galal
+repro bank, or move to another non-EOM bank (`207 mcq Dr Galal (endo).pdf`, `Anatomy MCQ by
+Dr.Jalal[END].pdf`, `ANATOMY MCQ [RPR].pdf`) or a department book (Anatomy/Histology/Physiology).
