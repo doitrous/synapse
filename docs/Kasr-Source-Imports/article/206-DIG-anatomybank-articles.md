@@ -312,3 +312,103 @@ Admin team
 ## last_reviewed
 
 ## review_due
+
+# Item
+## id
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## title
+Abdominal, hepatobiliary and developmental gross anatomy IV (206 DIG anatomy bank)
+## subject
+gi
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+This article gathers a fourth set of gross-anatomy and developmental facts tested in the 206 DIG Anatomy department question bank, drawn from the final block of past papers in the source (the 2010 to 2017 exams on pp.33-54). It covers the anterior abdominal wall (the contents of the rectus sheath, the peritoneal folds, and the derivatives of the external oblique aponeurosis), the branches of the abdominal aorta and the arrangement of structures at the renal hilum, the stomach (its arterial supply from the coeliac trunk and the coeliac lymphatic drainage of gastric carcinoma), the pancreas and duodenum (the common bile duct behind the pancreatic head, the formation of the portal vein behind the pancreatic neck, and the gastroduodenal artery behind the duodenal cap), the spleen (its surface relation to the left lower ribs and the vessels of the gastrosplenic ligament), the liver (the ligamentum teres), the peritoneum (a posterior gastric ulcer discharging into the lesser sac), the colon (its lymphatic drainage), and gut development (the foregut origin of the liver, the extent of the midgut, and the urachal remnant). Each linked concept carries the precise claim and the distractors the exam options are built from.
+## sections
+### Definition
+This article groups the tested facts of its cluster; each linked concept holds one atomic statement, and this overview ties them into a single picture of the abdominal wall, hepatobiliary, splenic and developmental gross anatomy tested in the bank's final papers. Read the individual concepts for the exact claim and the distractor each exam option is built from.
+### Mechanism
+The abdominal wall is organised by its layered muscles and their aponeurotic derivatives: the rectus sheath encloses the rectus and pyramidalis with the epigastric vessels, the external oblique aponeurosis forms the inguinal, lacunar ligaments and external spermatic fascia but not the conjoint tendon, and the peritoneal folds record the obliterated fetal vessels (median = urachus, medial = umbilical arteries, lateral = inferior epigastric vessels). The great vessels of the posterior wall follow a fixed plan: the aorta gives anterior gut arteries, lateral paired branches and dorsal lumbar plus median sacral arteries, while the renal hilum arranges vein, artery and pelvis from front to back. The hepatobiliary and splenic structures are defined by their relations to the pancreas and stomach: the bile duct grooves the posterior surface of the pancreatic head, the portal vein forms behind its neck, the gastroduodenal artery lies behind the duodenal cap, and the gastrosplenic ligament carries the short gastric and left gastro-epiploic vessels. Developmentally the foregut yields the liver, the midgut reaches only the proximal two-thirds of the transverse colon, the ligamentum teres is the obliterated left umbilical vein, and the urachus is the allantoic remnant between bladder and umbilicus.
+### Key determinants
+Each item turns on one discriminator: the pyramidalis (not the conjoint tendon) is a content of the rectus sheath; the conjoint tendon is formed by internal oblique and transversus, not external oblique; the medial umbilical fold is raised by the obliterated umbilical artery; the median sacral artery is a dorsal aortic branch; at the renal hilum the vein is anterior (VAP); the whole gastric supply is from the coeliac trunk and gastric lymph drains to coeliac nodes; the common bile duct lies behind the pancreatic head; the portal vein forms behind the pancreatic neck; the gastroduodenal artery lies behind the first part of the duodenum; the spleen lies deep to the left 9th to 11th ribs; the gastrosplenic ligament carries the short gastric and left gastro-epiploic vessels; the ligamentum teres is the obliterated left umbilical vein; a posterior gastric ulcer discharges into the lesser sac; transverse-colon lymph drains through mesenteric nodes to the cisterna chyli, not the para-aortic nodes; the liver is a foregut derivative; the descending colon is hindgut, not midgut; and a urachal cyst is an allantoic remnant.
+### Clinical significance
+These facts underlie common clinical scenarios: rupture of the spleen in left lower rib fractures, obstructive jaundice from carcinoma of the pancreatic head grooved by the bile duct, torrential haemorrhage from a posterior duodenal ulcer eroding the gastroduodenal artery, the coeliac-node spread of gastric carcinoma, a localised lesser-sac collection from a posterior gastric perforation, and the midline suprapubic urachal cyst of a child.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in this cluster's questions are built from exactly those reversals - for example placing the gastroduodenal artery anterior to the head of the pancreas, reversing the renal vein and artery at the hilum, listing the descending colon as a midgut derivative, draining colonic lymph to the para-aortic nodes, or confusing the ligamentum teres (left umbilical vein) with the ligamentum venosum (ductus venosus).
+## universities
+kau
+## years
+KAU_Y2
+## module
+206 DIG
+## module_subject
+206 DIG > Anatomy > Abdominal and urogenital anatomy
+## subtopic
+Abdominal, hepatobiliary and developmental gross anatomy IV
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## related_concepts
+CON-GIT-9C385C9924391D
+CON-GIT-E527E78C5F5059
+CON-GIT-F0402E14AEF5E1
+CON-GIT-689E3485AFF08C
+CON-GIT-0CD88C85EFD7A6
+CON-GIT-CCCBD33C7F7913
+CON-GIT-A22EB3924C3C15
+CON-GIT-6BB5BA825D258F
+CON-GIT-8714EB72F92047
+CON-GIT-5084635E155B04
+CON-GIT-C51550D531A9CD
+CON-GIT-317540F9504646
+CON-GIT-87E9811FE1DF79
+CON-GIT-27B90004C359B6
+CON-GIT-9D9D1EB3979C7D
+CON-GIT-8E43FADDDD3B79
+CON-GIT-951359E1FA6443
+CON-GIT-95A908F9C81F16
+## related_articles
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass -- written from standard gross-anatomy and embryology (Snell/Last's/Langman/Moore-level) teaching corroborated by this bank's own keyed stems (full OCR stems + hand-circled answer). OCR pass covered pp.33-54, the final papers of the 54-page bank (p54 blank); the source is now fully triaged.
+## reading_time
+7
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due

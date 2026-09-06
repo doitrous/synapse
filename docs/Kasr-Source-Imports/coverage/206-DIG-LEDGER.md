@@ -351,3 +351,42 @@ created=79/rejected=0/errors=0; audit neutral vs the 206-DIG baseline -- 24 plac
 (the bank is NOT yet exhausted at ~42% dupe; pp.33+ likely hold yet more past exams), then the
 unsolved GIT/physio/histo dept banks (need a key-recovery pass) -- see
 `coverage/KAU-Y2-priority-sources.md`.
+
+anatbank-tranche-4 (pp.33-54 OCR'd this pass -- END OF THE 54-pp BANK; 18 authored): OCR'd
+pp.33-44 (already done by an earlier full-doc pass) + pp.45-54 (--force this pass; p54 = blank
+end sheet). These hold seven further past papers: exam F "2017" tail (p33 Q11-14), exam G
+"Anatomy Meg Ques 2016" (pp.34-36), exam H "2015" (pp.37-40), exam I "2014" (pp.41-43), exam J
+"2013" (pp.44-45), exam K "2012" (pp.46-49), exam L "2011" (pp.50-51), exam M "2010" (pp.52-53).
+Keys recovered off the pen circle and appended to `coverage/206-DIG-anatomybank-triage-keys.txt`.
+18/18 authored (f11,f12,g01,g09,h06,h08,h13,i01,i04,i05,i06,j01,j03,j04,k02,k06,k11,l03), 2 held
+(j02 urorectal-septum contestable phrasing; m05 hydrocele double-circle), 3 fresh-but-deferred to
+keep the slice at 18 (i11 peritoneal-layers-to-ileal-artery, l06 first-part-duodenum posterior
+relations, l08 diaphragm embryological origins). ~19 keyed items skipped as near-duplicates of
+already-authored 206-DIG content (plus many intra-tranche repeats: foregut derivative x3, gastric
+lymph x2, gastrosplenic-splenectomy x2, colon lymph x2, diaphragm-phrenic x2, four-lumbar x2, SMA
+branches EXCEPT x4). Dupe rate this pass ~40% of DISTINCT keyed concepts (NOT >60%, consistent
+with tranches 2-3). Two candidates were dropped as CONFIRMED dupes when their concept already
+existed (h07 anterior-right-kidney reuses CON-GIT-7A3BB7294BC022; i07 cystic-artery reuses
+CON-GIT-61894DAB693687), and m04/m07 dropped because portalvenoussystem.tributaries /
+mainpancreaticduct.formation concepts already exist. Systems covered: anterior abdominal wall
+(rectus-sheath contents/pyramidalis, external-oblique aponeurosis derivatives, medial umbilical
+fold), abdominal aorta (median sacral dorsal branch) & renal hilum (VAP), stomach (all-coeliac
+arterial supply, coeliac lymphatic drainage), pancreas/duodenum (CBD behind head, portal vein
+behind neck, GDA behind duodenal cap), spleen (left-9th-11th-rib surface relation, gastrosplenic-
+ligament vessels), liver (ligamentum teres = left umbilical vein), peritoneum (posterior gastric
+ulcer -> lesser sac), colon lymphatics, and gut development (liver = foregut, midgut extent,
+urachal cyst). 17 new concepts minted university-blind (SHA-256 first-14-hex, collision-checked --
+no collisions) + 1 minted for j03 (conjoint-tendon, minted rather than reusing the not-yet-live
+CON-GIT-BEBB5A0EE5F6D0 to keep the batch self-contained) = 18 new `CON-GIT-*`, filed under
+DIS-ANA-T05 with SYS-GIT-T01-S01, grouped into a fourth article (`ART-GIT-206DIG-ANATBANK-GROSS-4`).
+Authored in `question/206-DIG-anatomybank-mcq-tranche4.md`, concepts appended to
+`concept/206-DIG-anatomybank-concepts.md`, article appended to
+`article/206-DIG-anatomybank-articles.md`. Gate-clean (batch 0 errors on all three; simulate 3
+files self-contained created=95/rejected=0/errors=0; audit neutral vs the 206-DIG baseline -- 27
+placeholder families [blank-without-reason / missing-optional-field / unknown-resource], 0 new/
+semantic categories).
+
+206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 76 (anatomy bank: 20+18+20+18) = 260 MCQs.
+**THE ANATOMY MCQ BANK IS NOW FULLY TRIAGED (pp.1-54, p54 blank).** Next 206-DIG source = the
+unsolved GIT/physiology/histology department banks in `coverage/KAU-Y2-priority-sources.md` (need
+a fresh key-recovery/OCR pass; no more circle-keyed material remains in this anatomy bank).

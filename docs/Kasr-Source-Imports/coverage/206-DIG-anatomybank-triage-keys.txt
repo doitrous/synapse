@@ -160,3 +160,102 @@ f08=b   # anal columns of Morgagni contain terminal branches of superior rectal 
 f09=b   # midgut loop rotates 90 degrees anticlockwise during herniation                       >> AUTHOR
 f10=c   # annular pancreas typically obstructs the second part of the duodenum                 >> AUTHOR
 # (pp.33-54 NOT OCR'd this pass — 20 authored from pp.25-32; remainder = next author)
+
+# === tranche 4 OCR pass (pp.33-54 — END OF BANK; p54 blank) ===
+#     exam F "2017" tail (p33, Q11-14) + exam G "Anatomy Meg Ques 2016" (pp.34-36, Q1-14)
+#     + exam H "2015" (pp.37-40, Q1-14) + exam I "2014" (pp.41-43, Q1-13)
+#     + exam J "2013" (pp.44-45, Q1-6) + exam K "2012" (pp.46-49, Q1-13)
+#     + exam L "2011" (pp.50-51, Q1-8) + exam M "2010" (pp.52-53, Q1-7)
+# pp.33-44 were already OCR'd by an earlier full-doc pass; pp.45-54 OCR'd --force this pass
+#   (p54 = blank end sheet, 0 words). This is the LAST content of the 54-pp bank.
+# --- exam F "2017" tail (p33) ---
+f11=d   # midline mass umbilicus->bladder apex = urachal cyst                              >> AUTHOR
+f12=c   # left 9th/10th rib fracture + LUQ tenderness/shock = spleen injury                >> AUTHOR
+f13=d   # ileal ectopic gastric mucosa bleeding = Meckel's diverticulum                    D (Meckel authored) skip
+f14=a   # obese jaundice + gallstones obstructing = common bile duct                       borderline skip (biliary tree)
+# --- exam G "2016" (pp.34-36) ---
+g01=b   # medial umbilical fold raised by obliterated umbilical artery                     >> AUTHOR
+g02=d   # duodeno-jejunal flexure demarcated by ligament of Treitz                         D (q26 authored) skip
+g03=d   # phrenicocolic ligament attached to left colic flexure                            D (spleen ligaments) skip
+g04=a   # nerve on anterior surface of psoas = genitofemoral                               D (d08 authored) skip
+g05=b   # branch of SMA = inferior pancreaticoduodenal                                     D (SMA saturated) skip
+g06=d   # part of large intestine with no taenia coli = appendix                           D (taenia/appendix) skip
+g07=b   # posterior surface of liver related to oesophagus                                 D (E3 authored) skip
+g08=c   # posterior division internal iliac = superior gluteal                             D (E8 authored) skip
+g09=b   # derivative of foregut = liver                                                    >> AUTHOR
+g10=a   # derivative of mesonephric duct = ureter                                          D (ureter/mesonephric) skip
+g11=b   # free border lesser omentum clamped -> hepatic artery proper (Pringle)            borderline skip (portal triad)
+g12=c   # portal hypertension + fatty stool tumour = porta hepatis                         D (porta hepatis) skip
+g13=c   # splenectomy careful ligament = lienorenal                                        borderline skip (K2 covers gastrosplenic)
+g14=b   # left kidney/ureter pain referral = L1 gluteal/pubis/scrotal skin                 skip (contestable nerve territory)
+# --- exam H "2015" (pp.37-40) ---
+h01=a   # lower border posterior wall rectus sheath = arcuate line                         D (E1 arcuate) skip
+h02=c   # organ completely covered by peritoneum = transverse colon                        borderline skip (intraperitoneal)
+h03=a   # transpyloric plane + 9th costal cartilage = fundus of gall bladder              D (q24 authored) skip
+h04=c   # McBurney's point = base of vermiform appendix                                    borderline skip (appendix base)
+h05=a   # posterior surface of liver = abdominal oesophagus                                D (E3) skip
+h06=e   # structure posterior to head of pancreas = common bile duct                       >> AUTHOR
+h07=b   # anterior surface of right kidney = 2nd part duodenum                             D (concept CON-GIT-7A3BB7294BC022 exists) skip
+h08=e   # artery from posterior/dorsal aspect of aorta = median sacral                     >> AUTHOR
+h09=d   # Meckel's = persistence of vitelline duct                                         D (Meckel authored) skip
+h10=b   # paramesonephric (Mullerian) derivative = uterine tube                            borderline skip (covered in D50 expl)
+h11=e   # testis descends during the 9th month                                            D (c46 authored) skip
+h12=e   # tail-of-pancreas tumour affects blood supply of spleen                          D (E6 tail/splenic) skip
+h13=a   # gastric antrum malignancy lymph = coeliac nodes                                  >> AUTHOR
+h14=b   # IMA-block collateral to descending colon = middle colic (marginal a.)           D (E2 marginal artery) skip
+# --- exam I "2014" (pp.41-43) ---
+i01=d   # abdominal muscles TRUE: pyramidalis is a content of the rectus sheath           >> AUTHOR
+i02=e   # diaphragm TRUE: motor supply from the phrenic nerve                              skip (low-yield basic; dup exam M2/K10)
+i03=c   # liver TRUE: quadrate lobe related to transverse colon                           D (quadrate authored) skip
+i04=d   # stomach TRUE: all arterial supply from the coeliac trunk                        >> AUTHOR
+i05=b   # kidneys TRUE: at hilum renal vein lies anterior to renal artery                 >> AUTHOR
+i06=c   # pancreas TRUE: portal vein formed behind its neck                               >> AUTHOR
+i07=a   # artery clamped to remove gall bladder = cystic                                   D (concept CON-GIT-61894DAB693687 exists) skip
+i08=c   # IVC TRUE: drains right and left renal veins                                      borderline skip (IVC tributaries)
+i09=a   # foregut derivative = first part of duodenum                                      D (dup of g09 foregut) skip
+i10=c   # mesonephric-duct derivative = ureter                                             D (ureter) skip
+i11=d   # access ileal artery = parietal peritoneum + mesentery                            fresh-deferred (kept to 18)
+i12=e   # distinguish direct/indirect hernia = inferior epigastric vessels                D (inguinal/inf.epigastric) skip
+i13=b   # IMA-block collateral = middle colic                                              D (dup h14) skip
+# --- exam J "2013" (pp.44-45) ---
+j01=a   # ligamentum teres = obliterated left umbilical vein                               >> AUTHOR
+j02=c   # urorectal septum develops between allantois and cloaca                           H (contestable phrasing)
+j03=e   # external oblique contributes to all EXCEPT conjoint tendon                       >> AUTHOR (minted own concept; not-yet-live reuse avoided)
+j04=c   # posterior gastric wall perforating ulcer -> omental bursa (lesser sac)           >> AUTHOR
+j05=c   # cremasteric reflex nerve = genitofemoral                                         D (genitofemoral saturated) skip
+j06=b   # posterior boundary epiploic foramen bleed = IVC                                  D (epiploic foramen) skip
+# --- exam K "2012" (pp.46-49) ---
+k01=b   # lesser sac boundary EXCEPT left triangular ligament                              D (lesser sac c24) skip
+k02=c   # artery in gastrosplenic ligament (splenectomy) = left gastroepiploic            >> AUTHOR (also exam M1)
+k03=e   # suprarenal EXCEPT: right suprarenal vein drains into right renal vein            D (E11 suprarenal drainage) skip
+k04=d   # pancreas EXCEPT: splenic vein along upper border of body (=artery)              borderline skip (I6 pancreas)
+k05=c   # inflamed gall bladder referred pain = right shoulder                             D (q21 authored) skip
+k06=c   # posterior first-part duodenal ulcer erodes gastroduodenal artery                >> AUTHOR
+k07=d   # SMA branches EXCEPT superior pancreaticoduodenal                                 D (SMA saturated) skip
+k08=a   # caecum EXCEPT: has no taenia coli (it HAS)                                       D (caecum/taenia) skip
+k09=a   # gastric antrum malignancy lymph = coeliac                                        D (dup h13) skip
+k10=d   # motor to diaphragm = phrenic nerve                                               skip (low-yield basic; dup i02/M2)
+k11=d   # midgut gives rise to all EXCEPT descending colon (hindgut)                       >> AUTHOR
+k12=c   # common carotid develops from 3rd aortic arch                                     skip (off-topic head/neck)
+k13=d   # kidney dev EXCEPT: same renal artery supplies in all stages                      D (c55 authored) skip
+# --- exam L "2011" (pp.50-51) ---
+l01=d   # superficial inguinal ring EXCEPT: above and lateral to pubic tubercle           D (inguinal) skip
+l02=e   # rectus sheath contains EXCEPT ilioinguinal nerve                                 D (dup i01 rectus-sheath contents) skip
+l03=c   # transverse colon lymph drainage EXCEPT para-aortic nodes                         >> AUTHOR (also exam M6)
+l04=a   # SMA branches EXCEPT superior pancreaticoduodenal                                 D (SMA saturated) skip
+l05=a   # abdominal oesophagus INCORRECT: enters via left crus (=right crus)              D (E5 right crus) skip
+l06=b   # behind first part of duodenum EXCEPT coeliac artery                              fresh-deferred (kept to 18)
+l07=d   # vas deferens INCORRECT: lies lateral to seminal vesicles (=medial)              D (c54 authored) skip
+l08=c   # diaphragm develops from all EXCEPT dorsal mesocardium                            fresh-deferred (kept to 18)
+# --- exam M "2010" (pp.52-53) ---
+m01=c   # gastrosplenic ligament artery (splenectomy) = left gastroepiploic               D (dup k02) skip
+m02=a   # diaphragm TRUE: motor supply from phrenic nerve                                  D (dup i02) skip
+m03=b   # abdominal aorta EXCEPT: gives three pairs of lumbar arteries (=four)            D (c20 four lumbar) skip
+m04=b   # portal system veins EXCEPT left suprarenal vein                                  D (concept portalvenoussystem.tributaries exists) skip
+m05=b/d # hydrocele tapping needle passes all EXCEPT (two circles)                         H (ambiguous double marker)
+m06=c   # transverse colon lymph drainage EXCEPT para-aortic                              D (dup l03) skip
+m07=d   # main pancreatic duct = distal dorsal + ventral duct                             D (concept mainpancreaticduct.formation exists) skip
+# (END OF BANK — pp.33-54 fully triaged; p54 blank. 18 authored tranche 4:
+#  f11,f12,g01,g09,h06,h08,h13,i01,i04,i05,i06,j01,j03,j04,k02,k06,k11,l03.
+#  2 held (j02,m05); fresh-deferred to next author: i11,l06,l08. ~40% dupe, NOT exhausted
+#  by dupe but the SOURCE is now fully consumed -> next 206-DIG source = unsolved dept banks.)

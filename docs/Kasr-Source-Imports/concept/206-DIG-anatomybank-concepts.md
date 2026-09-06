@@ -5946,3 +5946,1857 @@ Admin team
 ## review_due
 
 ---
+
+# Item
+## id
+CON-GIT-9C385C9924391D
+## label
+A urachal cyst is a remnant of the allantois between the umbilicus and bladder apex
+## canonical_key
+urachal.cyst.persistent-urachus-umbilicus-bladder
+## aliases
+urachal cyst
+urachus remnant
+allantois remnant mass
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The urachus is the fibrous median umbilical ligament, the obliterated remnant of the allantois, running in the midline from the apex of the urinary bladder to the umbilicus. Failure of a segment to obliterate leaves an epithelial-lined cavity — a urachal cyst — which presents as a midline mass between the umbilicus and the bladder apex; other urachal anomalies include a patent urachus, urachal sinus and urachal diverticulum.
+## explicit_objective
+State that a midline mass between the umbilicus and bladder apex is a urachal (allantoic remnant) cyst.
+## pitfalls
+Confusing a urachal cyst with an omphalocele or a Meckel's diverticulum, which have different origins and locations.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Urachal anomalies
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Urachus and bladder development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-E527E78C5F5059
+## label
+The spleen lies deep to the left 9th to 11th ribs and is injured in left lower rib fractures
+## canonical_key
+spleen.surface.left-9th-11th-ribs-injury
+## aliases
+spleen surface marking
+spleen rib relation
+splenic rupture rib fracture
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The spleen lies in the left hypochondrium against the diaphragm, deep to the left 9th, 10th and 11th ribs, with its long axis along the 10th rib. Because it is closely applied to these ribs, fractures of the left lower ribs (with left mid-axillary tenderness and signs of shock) commonly rupture the spleen — the most frequent solid-organ injury in blunt left lower thoracic trauma.
+## explicit_objective
+State that the spleen lies deep to the left 9th to 11th ribs and is at risk in left lower rib fractures.
+## pitfalls
+Attributing left lower rib fracture injury to the kidney or stomach rather than the spleen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Spleen surface anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Spleen
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-F0402E14AEF5E1
+## label
+The medial umbilical fold is raised by the obliterated umbilical artery
+## canonical_key
+medial.umbilical-fold.obliterated-umbilical-artery
+## aliases
+medial umbilical ligament
+obliterated umbilical artery
+medial umbilical fold
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On the internal surface of the anterior abdominal wall below the umbilicus there are five peritoneal folds. The single midline median umbilical fold overlies the urachus (median umbilical ligament); the paired medial umbilical folds are each raised by the medial umbilical ligament, the fibrous remnant of the obliterated distal part of the umbilical artery; and the paired lateral umbilical folds overlie the inferior epigastric vessels.
+## explicit_objective
+State that the medial umbilical fold is raised by the obliterated umbilical artery.
+## pitfalls
+Confusing the medial umbilical fold (umbilical artery) with the median fold (urachus) or the lateral fold (inferior epigastric vessels).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Umbilical folds
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterior abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-689E3485AFF08C
+## label
+The liver develops from the foregut as the hepatic diverticulum
+## canonical_key
+liver.foregut-derivative.hepatic-diverticulum
+## aliases
+liver foregut derivative
+hepatic diverticulum
+foregut derivatives
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The foregut gives rise to the pharynx and its derivatives, the lower respiratory tract, the oesophagus, stomach, the duodenum proximal to the bile-duct opening, and the liver, gall bladder and biliary tree, the ventral pancreas and part of the dorsal pancreas. The liver arises specifically as the hepatic diverticulum, an endodermal outgrowth of the caudal foregut into the septum transversum; the shared foregut origin is reflected in the coeliac-trunk blood supply.
+## explicit_objective
+State that the liver (hepatic diverticulum) is a foregut derivative.
+## pitfalls
+Classifying the spleen as a foregut derivative — it is mesodermal, though supplied by the coeliac (foregut) artery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gut development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Gut development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-0CD88C85EFD7A6
+## label
+The common bile duct lies in a groove on the posterior surface of the head of the pancreas
+## canonical_key
+commonbileduct.posterior-relation.head-of-pancreas
+## aliases
+CBD posterior to pancreas head
+bile duct pancreatic groove
+pancreatic head relations
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The terminal part of the common bile duct descends behind (posterior to) the head of the pancreas, lying in a groove on, or a tunnel through, its posterior surface before piercing the medial wall of the second part of the duodenum at the hepatopancreatic ampulla. This close relation explains the obstructive jaundice produced by carcinoma of the head of the pancreas.
+## explicit_objective
+State that the common bile duct lies posterior to the head of the pancreas.
+## pitfalls
+Placing the gastroduodenal artery (which is anterior) or the portal vein (related to the neck) behind the head of the pancreas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Pancreatic head relations
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Pancreas
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-CCCBD33C7F7913
+## label
+The median sacral artery arises from the posterior aspect of the abdominal aorta
+## canonical_key
+mediansacral.artery.dorsal-branch-abdominal-aorta
+## aliases
+median sacral artery
+dorsal branches of aorta
+posterior aortic branch
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The branches of the abdominal aorta are grouped by their surface of origin: anterior (ventral) unpaired visceral branches (coeliac, superior and inferior mesenteric arteries) to the gut; lateral (paired) branches (inferior phrenic, middle suprarenal, renal and gonadal); and dorsal (posterior) branches, which are the four pairs of lumbar arteries and the single midline median sacral artery arising just above the aortic bifurcation.
+## explicit_objective
+State that the median sacral artery is a dorsal (posterior) branch of the abdominal aorta.
+## pitfalls
+Assuming the unpaired gut arteries (coeliac, SMA, IMA) arise from the posterior surface — they arise anteriorly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Abdominal aorta branches
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Abdominal aorta
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-A22EB3924C3C15
+## label
+Gastric lymph drains ultimately to the coeliac group of pre-aortic nodes
+## canonical_key
+stomach.lymph-drainage.coeliac-nodes
+## aliases
+gastric lymphatic drainage
+coeliac nodes stomach
+stomach cancer lymph nodes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lymph from all regions of the stomach passes through gastric, gastro-epiploic, pyloric, pancreaticosplenic and left gastric nodes and ultimately converges on the coeliac group of pre-aortic lymph nodes around the coeliac trunk. This makes the coeliac nodes the key station in the spread of gastric carcinoma, regardless of which part of the stomach is affected.
+## explicit_objective
+State that stomach lymph drains ultimately to the coeliac pre-aortic nodes.
+## pitfalls
+Assigning the stomach to the superior or inferior mesenteric nodes, which drain the midgut and hindgut respectively.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gastric lymphatic drainage
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Gastric lymphatic drainage
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-6BB5BA825D258F
+## label
+The pyramidalis, with the epigastric vessels, is a content of the rectus sheath
+## canonical_key
+pyramidalis.content.rectus-sheath
+## aliases
+rectus sheath contents
+pyramidalis muscle
+contents of rectus sheath
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The rectus sheath encloses the rectus abdominis muscle, the small triangular pyramidalis lying anterior to its lower end, the superior and inferior epigastric vessels, the lower six thoracic (and subcostal) nerves and their accompanying vessels, and lymphatics. The conjoint tendon and the ilioinguinal nerve are not contents of the sheath.
+## explicit_objective
+State that the pyramidalis and the epigastric vessels are contents of the rectus sheath.
+## pitfalls
+Listing the conjoint tendon or the ilioinguinal nerve as a content of the rectus sheath.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Rectus sheath contents
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterior abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-8714EB72F92047
+## label
+The whole arterial supply of the stomach is derived from branches of the coeliac trunk
+## canonical_key
+stomach.blood-supply.all-from-coeliac-trunk
+## aliases
+gastric arteries
+stomach blood supply coeliac trunk
+gastric arterial supply
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The stomach is supplied entirely by branches of the coeliac trunk: the left gastric artery directly from the trunk; the right gastric and right gastro-epiploic arteries via the common/proper hepatic artery; and the short gastric and left gastro-epiploic arteries via the splenic artery. The right and left gastric arteries run along the lesser curvature, the gastro-epiploic arteries along the greater curvature.
+## explicit_objective
+State that the entire arterial supply of the stomach comes from branches of the coeliac trunk.
+## pitfalls
+Placing the gastric arteries on the greater curvature — they run on the lesser curvature; the gastro-epiploics run on the greater.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gastric blood supply
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Stomach
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-5084635E155B04
+## label
+At the renal hilum the vein is anterior, the artery is middle and the pelvis is posterior
+## canonical_key
+renalhilum.arrangement.vein-anterior-to-artery
+## aliases
+renal hilum arrangement
+VAP order
+renal vein anterior to artery
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At the hilum of the kidney the structures are arranged from anterior to posterior as renal Vein, renal Artery and renal Pelvis (the mnemonic VAP). The renal vein is therefore the most anterior structure and the renal pelvis the most posterior, an arrangement important during surgical approaches to the renal pedicle.
+## explicit_objective
+State that at the renal hilum the vein lies anterior to the artery, which lies anterior to the pelvis (VAP).
+## pitfalls
+Reversing the order and placing the renal artery in front of the vein.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Renal hilum
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Kidney
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-C51550D531A9CD
+## label
+The portal vein is formed behind the neck of the pancreas by the splenic and superior mesenteric veins
+## canonical_key
+portalvein.formation.behind-neck-of-pancreas
+## aliases
+portal vein formation
+behind neck of pancreas
+splenic and SMV union
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The hepatic portal vein is formed behind the neck of the pancreas at the level of the second lumbar vertebra by the union of the splenic vein and the superior mesenteric vein. It ascends behind the first part of the duodenum and then in the free edge of the lesser omentum to the porta hepatis, where it lies posterior to the bile duct and hepatic artery.
+## explicit_objective
+State that the portal vein forms behind the neck of the pancreas from the splenic and superior mesenteric veins.
+## pitfalls
+Confusing the splenic artery (upper border of the body) with the splenic vein (behind the body) when locating the portal vein's formation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Portal vein formation
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Pancreas
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-317540F9504646
+## label
+The ligamentum teres hepatis is the obliterated left umbilical vein
+## canonical_key
+ligamentumteres.hepatis.obliterated-left-umbilical-vein
+## aliases
+ligamentum teres hepatis
+round ligament of liver
+obliterated left umbilical vein
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ligamentum teres hepatis (round ligament of the liver) is the fibrous remnant of the obliterated left umbilical vein, which in the fetus carried oxygenated placental blood to the liver. It runs in the free margin of the falciform ligament from the umbilicus to the porta hepatis. The obliterated ductus venosus forms the separate ligamentum venosum.
+## explicit_objective
+State that the ligamentum teres hepatis is the obliterated left umbilical vein.
+## pitfalls
+Confusing the ligamentum teres (left umbilical vein) with the ligamentum venosum (ductus venosus) or the medial umbilical ligaments (umbilical arteries).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Fetal remnants of the liver
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Liver
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-87E9811FE1DF79
+## label
+A perforating ulcer of the posterior stomach wall discharges into the omental bursa (lesser sac)
+## canonical_key
+posteriorgastriculcer.perforation.omental-bursa-lesser-sac
+## aliases
+posterior gastric ulcer perforation
+lesser sac collection
+omental bursa peritonitis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The posterior wall of the stomach forms the anterior boundary of the omental bursa (lesser sac). A posterior gastric ulcer that perforates therefore discharges its contents directly into the lesser sac, producing a localised collection there before the fluid escapes through the epiploic foramen into the greater sac and the hepatorenal pouch of Morison.
+## explicit_objective
+State that a posterior gastric perforation collects first in the omental bursa (lesser sac).
+## pitfalls
+Assuming all gastric perforations collect in the greater sac — only anterior perforations do so directly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Lesser sac (omental bursa)
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Peritoneum and lesser sac
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-27B90004C359B6
+## label
+The gastrosplenic ligament carries the short gastric and left gastro-epiploic vessels
+## canonical_key
+gastrosplenicligament.contents.short-gastric-left-gastroepiploic
+## aliases
+gastrosplenic ligament contents
+short gastric arteries
+left gastroepiploic artery
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The gastrosplenic ligament connects the hilum of the spleen to the greater curvature of the stomach and contains the short gastric arteries and the left gastro-epiploic (gastro-omental) artery, both branches of the splenic artery. During splenectomy these vessels must be secured; the separate lienorenal ligament carries the splenic vessels and the tail of the pancreas.
+## explicit_objective
+State that the gastrosplenic ligament carries the short gastric and left gastro-epiploic vessels.
+## pitfalls
+Confusing the gastrosplenic ligament (short gastric + left gastro-epiploic) with the lienorenal ligament (splenic vessels + pancreatic tail).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Splenic ligaments and vessels
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Spleen
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-9D9D1EB3979C7D
+## label
+A posterior first-part duodenal ulcer erodes the gastroduodenal artery
+## canonical_key
+posteriorduodenalulcer.erosion.gastroduodenal-artery
+## aliases
+posterior duodenal ulcer
+gastroduodenal artery erosion
+duodenal ulcer haemorrhage
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The gastroduodenal artery, a branch of the common hepatic artery, descends immediately behind the first part (cap) of the duodenum before dividing into the right gastro-epiploic and superior pancreaticoduodenal arteries. An ulcer in the posterior wall of the duodenal cap therefore erodes the gastroduodenal artery, producing brisk upper gastrointestinal haemorrhage.
+## explicit_objective
+State that a posterior first-part duodenal ulcer erodes the gastroduodenal artery.
+## pitfalls
+Confusing anterior duodenal ulcers (which perforate into the peritoneal cavity) with posterior ulcers (which bleed from the gastroduodenal artery).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Duodenal relations
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Duodenum
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-8E43FADDDD3B79
+## label
+The midgut extends to the proximal two-thirds of the transverse colon; the descending colon is hindgut
+## canonical_key
+midgut.derivatives.exclude-descending-colon
+## aliases
+midgut derivatives
+midgut extent
+descending colon hindgut
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The midgut forms the gut from the duodenum distal to the opening of the bile duct, through the jejunum, ileum, caecum, appendix, ascending colon and the proximal two-thirds of the transverse colon; it is supplied by the superior mesenteric artery. The distal third of the transverse colon, descending colon, sigmoid colon and upper rectum are hindgut derivatives supplied by the inferior mesenteric artery.
+## explicit_objective
+State that the midgut ends at the proximal two-thirds of the transverse colon and that the descending colon is hindgut.
+## pitfalls
+Including the descending colon among midgut derivatives — it is hindgut, supplied by the inferior mesenteric artery.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gut development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Gut development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-951359E1FA6443
+## label
+Transverse-colon lymph drains via mesenteric nodes to the intestinal trunk and cisterna chyli, not the para-aortic nodes
+## canonical_key
+transversecolon.lymph-drainage.not-para-aortic
+## aliases
+transverse colon lymph drainage
+intestinal lymph trunk
+cisterna chyli colon
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lymph from the transverse colon drains along the middle colic vessels to the superior mesenteric nodes (proximal two-thirds) and along the left colic vessels to the inferior mesenteric nodes (distal third). From these it passes to the pre-aortic nodes, the intestinal lymph trunk and the cisterna chyli. The para-aortic (lateral aortic/lumbar) nodes drain the kidneys, gonads and body wall, not the gut.
+## explicit_objective
+State that transverse-colon lymph passes through the mesenteric nodes to the intestinal trunk and cisterna chyli, not the para-aortic nodes.
+## pitfalls
+Assigning colonic lymphatic drainage to the para-aortic (lateral aortic) nodes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Colonic lymphatic drainage
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Colonic lymphatic drainage
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-95A908F9C81F16
+## label
+The conjoint tendon is formed by internal oblique and transversus, not the external oblique aponeurosis
+## canonical_key
+externaloblique.aponeurosis-derivatives.exclude-conjoint-tendon
+## aliases
+external oblique aponeurosis derivatives
+conjoint tendon origin
+falx inguinalis composition
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The external oblique aponeurosis contributes to the inguinal ligament (its in-rolled lower border), the lacunar ligament, the external spermatic fascia at the superficial inguinal ring, and part of the anterior wall of the rectus sheath. It does not form the conjoint tendon (falx inguinalis), which is made by the fused arched fibres of the internal oblique and transversus abdominis and strengthens the posterior wall of the inguinal canal behind the superficial ring.
+## explicit_objective
+State that the conjoint tendon is formed by internal oblique and transversus, not the external oblique aponeurosis.
+## pitfalls
+Attributing the conjoint tendon to the external oblique; it is the exception among external-oblique derivatives.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anterolateral abdominal wall
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterolateral abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-4
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
