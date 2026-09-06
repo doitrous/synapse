@@ -213,3 +213,37 @@ Q81.B  Q82.D  Q83.B  Q84.D  Q85.A  Q86.B  Q87.C  Q88.A  Q89.B  Q90.D  Q91.A
 #  THAN ONE true statement, not single-best as printed (same class as Ch.3 Q59-76). Keys for reference:
 #  Q50.C Q51.C Q52.B Q53.A Q54.D.
 # REMAINING for next tranche: Chapter 4 Q55-91 (37 MCQs), then Ch.5 Ocular motility (bank p.41 / PDF p.43).
+
+# ===================================================================
+# TRANCHE 7 (2026-09-06): Chapter 4 Q55-91 tail slice
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.2
+# Chapter 4 table (all 91 rows captured in Tranche 5). Each authored key RE-VERIFIED against the
+# bank option text (bank pp.32-38 = PDF p.34-40). 27 authored / 10 held / 0 excluded in this slice.
+# AUTHORED (27): Q56 Q60 Q63 (clean single-best vignettes) + Q68 Q69 Q70 Q71 Q72 Q73 Q74 Q75 Q76
+#  Q77 Q78 Q79 Q80 Q81 Q82 Q83 Q84 Q85 Q86 Q87 Q88 Q89 Q90 Q91.
+# Keys: Q56.A Q60.C Q63.A Q68.A Q69.B Q70.D Q71.C Q72.B Q73.C Q74.C Q75.C Q76.D Q77.D Q78.B Q79.B
+#  Q80.C Q81.B Q82.D Q83.B Q84.D Q85.A Q86.B Q87.C Q88.A Q89.B Q90.D Q91.A
+# HELD (10) - clinical-scenario items whose options are statements with MORE THAN ONE defensibly
+#  true (not single-best as printed; same class as the deferred Q50-54). Keys for reference:
+#  Q55.D Q57.A Q58.A Q59.B Q61.B Q62.B Q64.B Q65.A Q66.B Q67.B.
+# Cross-check notes (authored key -> option chosen, verified vs stem):
+#  Q56 A corneal oedema from endothelial cell damage (post-cataract); Q60 C dystrophies affect vision by layer;
+#  Q63 A immature senile cataract (sectored red reflex); Q68 A posterior dislocation deepens (not shallows) AC (EXCEPT);
+#  Q69 B choroidal folds not a myopic retinal change (EXCEPT, reuses Q41 concept);
+#  Q70 D optic-disc cupping not a pathological-myopia complication (EXCEPT);
+#  Q71 C hypermetropia does not lose accommodation (EXCEPT, reuses Q40 concept);
+#  Q72 B telescopes are low-vision aids not refractive correction (EXCEPT);
+#  Q73 C anisometropia = inter-ocular refractive difference; Q74 C concave cylinder for simple myopic astigmatism (reuses Q1 concept);
+#  Q75 C hypermetropia predisposes to angle-closure glaucoma (reuses Q48 concept); Q76 D aphakia focuses behind retina (high hypermetropia);
+#  Q77 D accommodation decreases with age (reuses presbyopia concept); Q78 B emmetropia focuses on retina;
+#  Q79 B indirect ophthalmoscopy not a keratoconus test (EXCEPT); Q80 C endothelium does corneal deturgescence (reuses Ch.1 Q9 concept, +EYE-ANATOMY lib for coverage);
+#  Q81 B Munson sign on downgaze; Q82 D acute hydrops in keratoconus; Q83 B Vogt striae characteristic; Q84 D myopic astigmatism (reuses Q4 keratoconus-astigmatism concept);
+#  Q85 A jet-black pupil in posterior dislocation; Q86 B monocular diplopia in severe subluxation; Q87 C uveitis not a common vitreous-haemorrhage cause (EXCEPT);
+#  Q88 A corneal perforation not an anterior-dislocation complication (EXCEPT); Q89 B loss of Purkinje-Sanson images in subluxation (reuses Q33 concept);
+#  Q90 D Behcet not a cause of subluxated lens (EXCEPT); Q91 A light projection tests visual prognosis before cataract surgery.
+# Ch.4 keyed MCQs now COMPLETE except the 10 held multi-true vignettes (Q55/57/58/59/61/62/64/65/66/67)
+#  and the 5 earlier-deferred Q50-54. Post-Q91 "T/F Cases" section (Cases 1-9) is multi-true, out of scope.
+# STILL DEFERRED for adjudication (do NOT author blind): Ch.4 Q50-54; Ch.3 vignettes Q59-76 + Q89-91;
+#  Ch.3 sub-4-option Q20 (3-option), Q48 & Q49 (True/False).
+# REMAINING for next tranche: Chapter 5 Ocular motility (bank p.41 / PDF p.43), then Ch.6 Glaucoma.

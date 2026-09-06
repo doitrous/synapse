@@ -5,7 +5,7 @@
 | kamal-ch3-protective-q41-91 | 25 | 5 | 0 | 30 |
 | kamal-ch3-protective-remainder | 25 | 3 | 0 | 28 |
 | kamal-ch3-protective-system | 12 | 0 | 0 | 12 |
-| kamal-ch4-image-capture | 49 | 0 | 42 | 91 |
+| kamal-ch4-image-capture | 76 | 10 | 5 | 91 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -16,8 +16,9 @@
 - q20 — Bank printed only three options (a Corneal ulceration, b Diplopia, c Anisometropia); below the four-option MCQ floor the emitter enforces, so cannot be authored as a single-best-answer item.
 - q32 — Answer-key table omits the Q32 row (the table skips from Q31 to Q33); no printed key to re-verify against, so held per the never-guess rule.
 - q36 — Answer-key table omits the Q36 row (the table skips from Q35 to Q37); no printed key to re-verify against, so held per the never-guess rule.
+- Ch.4 q55/q57/q58/q59/q61/q62/q64/q65/q66/q67 — clinical-scenario items whose options are statements of which more than one is defensibly true (not single-best as printed), same class as the deferred Q50-54; held for multi-true adjudication. Answer-key letters for reference: Q55.D Q57.A Q58.A Q59.B Q61.B Q62.B Q64.B Q65.A Q66.B Q67.B.
 
 ## Remaining
-- Ch.4 Normal and abnormal image capture Q26-49 authored this tranche (24 MCQs; Q26/Q27/Q45/Q49 reuse existing Ch.4 concepts, 19 new concepts minted). Q55-91 (37 MCQs) remain for the next tranche.
-- Ch.5-15 (Ocular motility, Glaucoma, Red eye, Retina, Eye & brain, Childhood, Systemic, Injuries, Medications, Lasers, Related topics) — not yet triaged. Ch.5 Ocular motility starts bank p.41 / PDF p.43.
+- Ch.4 Normal and abnormal image capture Q55-91 tail authored this tranche (27 MCQs: Q56/Q60/Q63 clean single-best vignettes + Q68-91 single-best; 19 new concepts minted, 8 reuse existing Ch.1/Ch.4 concepts). Ch.4 keyed MCQs are now complete except the 10 held multi-true vignettes above and the 5 deferred Q50-54.
+- Ch.5-15 (Ocular motility, Glaucoma, Red eye, Retina, Eye & brain, Childhood, Systemic, Injuries, Medications, Lasers, Related topics) — not yet triaged. Ch.5 Ocular motility starts bank p.41 / PDF p.43. NEXT CLUSTER: open Ch.5 (new question file + new ART-OPH-315-OCULAR-MOTILITY on DIS-OPH-T05 Neuro-ophthalmology or the closest verified motility node), then Ch.6 Glaucoma.
 - Deferred for adjudication (do NOT author blind): Ch.4 vignettes Q50-54 (clinical scenarios each listing more than one true statement, not single-best — keys Q50.C Q51.C Q52.B Q53.A Q54.D); Ch.3 vignettes Q59-76 (multi-true, not single-best) + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49 (True/False or 3-option, below the four-option floor).
