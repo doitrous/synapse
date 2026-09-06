@@ -3,8 +3,9 @@
 | cluster | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | bank Introduction + Trematoda MCQ (Q1-19, `8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf`) | 18 | 1 | 0 | 0 | 19 |
-| **bank Intro+Trematoda cluster total** | **18** | **1** | **0** | untriaged | — |
-| 309 INF module (Microbiology + Parasitology sub-corpora) | 18 | 1 | 0 | untriaged | — |
+| bank Cestoda MCQ (Q1-21 of 28, answer table p.6) | 20 | 1 | 0 | 7 | 28 |
+| **bank Trematoda + Cestoda clusters total** | **38** | **2** | **0** | 7 (Cestoda Q22-28) | — |
+| 309 INF module (Microbiology + Parasitology sub-corpora) | 38 | 2 | 0 | untriaged | — |
 
 ## Module opened
 
@@ -73,8 +74,44 @@ rejected=0 errors=0; **audit** category-neutral vs the 317 FMT baseline — no N
 module-wide `needs_evidence` Draft placeholders (blank optional fields, missing
 evidenceBasis/claimIds) that the 317 opener also carries (309: 149 findings vs 317: 268).
 
+## Cluster — bank Cestoda (Q1-21 of 28)
+
+**20/21 authored, 1 held, 0 excluded** (this slice covers Q1-21; Q22-28 remain untriaged). Keys read
+from the printed answer table **'Answers of Cestoda' p.6** (native text; no OCR):
+`1 B 2 C 3 C 4 D 5 D | 6 B 7 D 8 C 9 C 10 D | 11 B 12 D 13 B 14 B 15 C | 16 C 17 C 18 B 19 D 20 C |
+21 D 22 D 23 C 24 C 25 B | 26 C 27 C 28 D`. All 28 keys recovered from the table; sample
+cross-checked against parasitology (Q1 Cysticercus bovis→beef tapeworm B, Q2 operculated egg→
+Diphyllobothrium C, Q5 man-only-intermediate→Echinococcus D, Q13 blind IH→cysticercosis B,
+Q21 dog→Echinococcus D — all consistent).
+
+**Q8 HELD (unreliable key):** the answer table gives Q8 = **C (Heterophyes heterophyes)** but the stem
+is *'Undercooked **meat** is the source of infection with'* — Heterophyes is fish-borne, and undercooked
+meat/beef is the source of **Taenia saginata (option D)**. The printed key contradicts the stem and
+established parasitology, so the item is held for human adjudication rather than authored to a wrong
+fact (never guess a key). Note Q17 and Q26 are in-source exact duplicates ('Corticosteroids are used in
+cysticercosis treatment to:', same options, both key C); Q26 is in the untriaged Q22-28 range and will be
+held when that range is authored.
+
+**17 concepts minted** university-blind (`CON-INF-` + first 14 hex of SHA-256 of the canonical key,
+uppercased; collision-checked corpus-wide — no collisions), with two deliberate in-batch reuses
+(Q4+Q15 share the Taenia-solium-cysticercosis concept `CON-INF-61F78E487864E9`; Q12+Q16 share the
+Diphyllobothrium-B12-deficiency concept `CON-INF-E1BFD3D459FA76`) and one cross-cluster reuse
+(Q18, 'Heterophyes not transmitted via vegetables', reuses the Trematoda concept
+`CON-INF-FFB06468007C2B` and points its library at `ART-INF-309-PARA-TREMATODA`). All new cestode
+concepts filed under `DIS-PAR-T02` (Helminthology) and grouped into a new article
+`ART-INF-309-CESTODA` (tapeworms of Taenia, Diphyllobothrium, Echinococcus, Hymenolepis),
+cross-linked bidirectionally to `ART-INF-309-PARA-GENERAL` and `ART-INF-309-PARA-TREMATODA`. All
+records `publication_status=needs_evidence` / `status=Draft`.
+
+Gates (all from `.gates/`): **batch** items=20 errors=0 (with concept + article + resource `--with`
+siblings); **simulate** batches=4 created=57 rejected=0 errors=0; **audit** category-neutral vs the 309-INF
+baseline — 292 findings, all the module-wide `needs_evidence`/Draft placeholders (blank optional fields:
+evidenceBasis/claimIds/spanIds/notes, aliases, reviewDue, arabicLabel, microtopicId, approved*ResourceIds),
+no NEW category type (the count scales with the whole simulated module, not a new defect class).
+
 ## Next cluster
 
-Author the **Cestoda MCQ** slice from the same bank (pp.4-5, keys in the printed answer table
-p.6); then Nematoda (answers p.13), Protozoology (answers p.21) and Entomology (answers p.23).
-Recover each section's keys from its own printed answer table before authoring.
+Author **Cestoda Q22-28** (7 remaining; key table p.6 already recovered above — HOLD Q26 as an exact
+duplicate of Q17), then the **Nematoda MCQ** slice (p.7-12, answer table p.13); then Protozoology
+(answers p.21) and Entomology (answers p.23). Recover each section's keys from its own printed answer
+table before authoring.

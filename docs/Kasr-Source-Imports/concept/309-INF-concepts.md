@@ -1793,3 +1793,1890 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Introduction + Trematoda section, p.2-3); no department book read this pass.
 
+---
+
+# Item
+## id
+CON-INF-FEDC533374ACB0
+## label
+Cysticercus bovis is the larval stage of Taenia saginata
+## canonical_key
+parasitology.taenia-saginata.cysticercus-bovis-larval-stage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cysticercus bovis is the bladder-worm (cysticercus) larval stage of the beef tapeworm Taenia saginata; it develops in cattle muscle, and a human who eats raw or undercooked beef ingests the cysticercus, which everts its scolex and grows into the adult intestinal tapeworm.
+## explicit_objective
+Identify Cysticercus bovis as the infective larval stage of Taenia saginata (beef tapeworm).
+## pitfalls
+Cysticercus bovis (of cattle) belongs to Taenia saginata; Cysticercus cellulosae (of pig/man) belongs to Taenia solium — do not swap them.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia saginata
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F8893DBE840FB8
+## label
+Diphyllobothrium latum has an operculated egg
+## canonical_key
+parasitology.diphyllobothrium-latum.operculated-egg
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphyllobothrium latum is the only common cestode with an operculated egg: an oval, yellow-brown egg bearing a lid (operculum) at one pole and a small terminal knob at the other, resembling a trematode egg and reflecting its aquatic life cycle.
+## explicit_objective
+Recognise the operculated egg as characteristic of Diphyllobothrium latum.
+## pitfalls
+Taeniid eggs (Taenia solium/saginata) and Hymenolepis nana eggs are non-operculated; an operculated cestode egg means Diphyllobothrium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Diphyllobothrium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-888B84F6375D6D
+## label
+Hymenolepis nana eggs are directly infective to man
+## canonical_key
+parasitology.hymenolepis-nana.eggs-directly-infective
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hymenolepis nana is exceptional in that its egg is directly infective to man: a swallowed egg hatches in the small intestine and completes the whole cycle in a single host, needing no intermediate host, which also underlies internal autoinfection and person-to-person spread.
+## explicit_objective
+State that Hymenolepis nana eggs are directly infective to man without an intermediate host.
+## pitfalls
+Ascaris, Diphyllobothrium and Fasciola eggs all require maturation in soil/water or an intermediate host and are not directly infective when passed.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-61F78E487864E9
+## label
+Taenia solium can cause human cysticercosis
+## canonical_key
+parasitology.taenia-solium.causes-human-cysticercosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Human cysticercosis is caused by Taenia solium: unlike Taenia saginata, its eggs are infective to man, so ingested or autoinfected eggs release oncospheres that disseminate as cysticerci to tissues including muscle, eye and brain (neurocysticercosis), making T. solium far more dangerous than T. saginata.
+## explicit_objective
+Explain that Taenia solium (not T. saginata) causes human cysticercosis and is therefore more dangerous.
+## pitfalls
+Taenia saginata eggs are not infective to man, so it causes only intestinal taeniasis; only Taenia solium causes human cysticercosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia solium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B99D25FC7D7FEF
+## label
+Man is only an intermediate host of Echinococcus granulosus
+## canonical_key
+parasitology.echinococcus-granulosus.man-accidental-intermediate-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+For Echinococcus granulosus man acts only as an accidental intermediate host: swallowed eggs hatch and form hydatid cysts in liver, lung and other organs, but man never harbours the adult worm and is a dead end that does not continue the cycle.
+## explicit_objective
+Recognise that man is only an (accidental) intermediate host of Echinococcus granulosus.
+## pitfalls
+The adult Echinococcus lives only in the definitive host (dog); man harbours the larval hydatid cyst, not the adult worm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-DEC13EA4A304E5
+## label
+PAIR technique treats hydatid cyst
+## canonical_key
+parasitology.hydatid-cyst.pair-technique-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+PAIR (Puncture, Aspiration, Injection, Re-aspiration) is a percutaneous, image-guided treatment for hydatid disease: the cyst is punctured, its fluid aspirated, a protoscolicidal agent injected and then re-aspirated, usually under albendazole cover, as an alternative to surgery for suitable liver cysts.
+## explicit_objective
+Associate the PAIR technique with treatment of hydatid disease (Echinococcus granulosus).
+## pitfalls
+PAIR is for hydatid cysts; cysticercosis is treated medically and coenurosis surgically, not by PAIR.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-82493B886332C3
+## label
+Diphyllobothrium latum is acquired from undercooked fish
+## canonical_key
+parasitology.diphyllobothrium-latum.infection-via-undercooked-fish
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphyllobothrium latum, the broad fish tapeworm, is acquired by eating raw or improperly cooked freshwater fish containing the plerocercoid larva; the adult worm attaches in the small intestine and can cause chronic diarrhoea and abdominal discomfort.
+## explicit_objective
+Attribute fish-borne intestinal infection to Diphyllobothrium latum.
+## pitfalls
+A fish-eating history with intestinal symptoms points to Diphyllobothrium, not soil-transmitted (Ascaris) or dog-borne (Echinococcus) worms.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Diphyllobothrium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-5E8594ADD747DE
+## label
+Hydatid cyst shows a cartwheel (daughter-cyst) ultrasound appearance
+## canonical_key
+parasitology.hydatid-cyst.daughter-cyst-ultrasound-appearance
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cartwheel (rosette / wheel-spoke) appearance on ultrasound is produced by multiple endogenous daughter cysts within the mother hydatid cyst, separated by radiating septa; it is characteristic of an active Echinococcus granulosus cyst.
+## explicit_objective
+Recognise the ultrasound cartwheel appearance as endogenous daughter cysts of a hydatid cyst.
+## pitfalls
+A calcified rim signifies an inactive cyst; the cartwheel of daughter cysts marks a viable, multivesicular hydatid.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C4C294960C323F
+## label
+Diphyllobothrium latum: diagnosis by operculated eggs in stool
+## canonical_key
+parasitology.diphyllobothrium-latum.stool-operculated-eggs-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphyllobothrium latum is diagnosed on stool microscopy by its oval, operculated, yellow-brown eggs with a small terminal knob; because the worm releases eggs continuously and its proglottids disintegrate in the gut, intact segments are usually not seen in stool.
+## explicit_objective
+Diagnose Diphyllobothrium latum by operculated yellow-brown eggs without segments in stool.
+## pitfalls
+Unlike Taenia, Diphyllobothrium does not pass intact gravid segments; the diagnostic finding is operculated eggs, not proglottids.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Diphyllobothrium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-29AD4F5534B3CC
+## label
+Bears are paratenic hosts of Diphyllobothrium latum
+## canonical_key
+parasitology.diphyllobothrium-latum.bear-paratenic-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the Diphyllobothrium latum cycle a large predatory fish or a fish-eating mammal such as a bear can carry the plerocercoid larva without further development, acting as a paratenic (transport) host that bridges the parasite to the definitive host.
+## explicit_objective
+Recognise bears as paratenic hosts in the Diphyllobothrium latum life cycle.
+## pitfalls
+A paratenic host carries the larva without development; it is not a true intermediate host and adds no new developmental stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Diphyllobothrium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E1BFD3D459FA76
+## label
+Diphyllobothrium latum causes vitamin B12 deficiency
+## canonical_key
+parasitology.diphyllobothrium-latum.vitamin-b12-deficiency
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diphyllobothrium latum competitively absorbs dietary vitamin B12 in the small intestine and deprives the host, producing B12 deficiency that causes megaloblastic (macrocytic) anaemia and, through impaired myelin maintenance, peripheral neuropathy and subacute combined degeneration.
+## explicit_objective
+Attribute both the megaloblastic anaemia and the neuropathy of diphyllobothriasis to worm-induced vitamin B12 deficiency.
+## pitfalls
+The anaemia is megaloblastic from B12 deficiency, not iron-deficiency from blood loss (hookworm) or haemolysis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Diphyllobothrium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-6C4C00E8991CEE
+## label
+Man is a blind (dead-end) intermediate host in cysticercosis
+## canonical_key
+parasitology.cysticercosis.man-dead-end-intermediate-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In cysticercosis man harbours the larval cysticercus of Taenia solium and so is an intermediate host, but a blind (dead-end) one: the tissue cysticerci cannot be eaten by a definitive host, so the cycle stops in man, making it an accidental, non-transmitting infection.
+## explicit_objective
+Recognise man as a blind (dead-end) intermediate host in cysticercosis.
+## pitfalls
+In taeniasis (adult worm) man is the definitive host; only in cysticercosis (larval stage) is he a blind intermediate host.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia solium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E02914342F474B
+## label
+Hymenolepis nana neuro manifestations are not from CNS invasion
+## canonical_key
+parasitology.hymenolepis-nana.neuro-not-cns-invasion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The nervous manifestations of Hymenolepis nana (headache, irritability, sometimes convulsions in heavy childhood infection) arise from toxic and allergic effects of the intestinal worms, not from any invasion of the central nervous system, since the worm remains in the gut.
+## explicit_objective
+Recognise that the nervous manifestations of Hymenolepis nana are toxic/allergic, not from CNS invasion.
+## pitfalls
+Toxoplasmosis, African trypanosomiasis and heterophyid egg emboli reach the CNS directly; Hymenolepis nana does not.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-726FF91F339AD4
+## label
+Corticosteroids in neurocysticercosis reduce inflammation from cyst disintegration
+## canonical_key
+parasitology.neurocysticercosis.corticosteroids-reduce-cyst-disintegration-symptoms
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In neurocysticercosis, anti-helminthic killing of cysts releases parasite antigens and triggers intense peri-cyst inflammation and oedema; corticosteroids are given as anti-inflammatory cover to suppress this reaction and decrease the CNS symptoms provoked by cyst disintegration during treatment.
+## explicit_objective
+Explain that corticosteroids in (neuro)cysticercosis suppress inflammation from cyst disintegration.
+## pitfalls
+Steroids do not potentiate the anti-helminthic, prevent autoinfection or stop dissemination; their role is anti-inflammatory.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia solium
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F204D1BF8E7A1B
+## label
+Taenia saginata requires only one intermediate host
+## canonical_key
+parasitology.taenia-saginata.single-intermediate-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Taenia saginata has just one intermediate host, cattle, in whose muscles the egg develops into the Cysticercus bovis; man, the definitive host, is infected by eating that single intermediate host as beef, in contrast to the two-host cycles of Heterophyes and Diphyllobothrium.
+## explicit_objective
+Recognise that Taenia saginata requires only one intermediate host (cattle).
+## pitfalls
+Heterophyes (snail then fish) and Diphyllobothrium (copepod then fish) each need two intermediate hosts; the taeniids need one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia saginata
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1434AF9EDE6F4B
+## label
+Taeniid (Taenia) eggs are acid-fast (Ziehl-Neelsen positive)
+## canonical_key
+parasitology.taenia.eggs-acid-fast-ziehl-neelsen
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Taeniid eggs (Taenia saginata and, identically, T. solium) have a thick, radially striated embryophore that is acid-fast: it retains carbol-fuchsin and stains well with the Ziehl-Neelsen (modified acid-fast) stain.
+## explicit_objective
+Recognise that taeniid (Taenia) eggs are acid-fast and stain with Ziehl-Neelsen.
+## pitfalls
+Diphyllobothrium and Hymenolepis nana eggs are not acid-fast; ZN-positivity among these options points to a Taenia egg.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-87482EA4580BA3
+## label
+Dog is the definitive host of Echinococcus granulosus
+## canonical_key
+parasitology.echinococcus-granulosus.dog-definitive-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The dog is the definitive host of Echinococcus granulosus: the adult tapeworm lives in the dog small intestine and sheds eggs in its faeces, which humans and livestock swallow to become intermediate hosts with hydatid cysts, so dog contact is the key risk factor for hydatid disease.
+## explicit_objective
+Identify the dog as the definitive host of Echinococcus granulosus.
+## pitfalls
+Toxocara cati is the cat roundworm and T. canis the dog roundworm; among tapeworms the dog is the definitive host of Echinococcus granulosus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+

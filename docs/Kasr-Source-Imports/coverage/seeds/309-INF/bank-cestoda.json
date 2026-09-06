@@ -1,0 +1,354 @@
+{
+  "lane": "KASR-309INF",
+  "cluster": "bank-cestoda",
+  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Cestoda section (Q1-28) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.6 'Answers of Cestoda']. This slice authors Q1-21 (~20-item budget); Q22-28 remain untriaged. Q8 held: printed key C (Heterophyes heterophyes) contradicts the stem 'Undercooked meat is the source of infection with' (Heterophyes is fish-borne; meat → Taenia saginata) — an unreliable key, held for human adjudication rather than authored to a wrong fact. 20 authored / 1 held / 0 excluded (of Q1-21).",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "309 INF",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-309-CESTODA"],
+    "resource_ids": ["src_10f1a669aa2eeedf3cd9"],
+    "source_citation": "Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Parasitology",
+    "subtopic": "Cestoda",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "module_subject": "309 INF > Parasitology > Cestoda",
+    "field_notes": { "keySource": "printed answer table 'Answers of Cestoda' p.6 (native text; text layer authoritative, no OCR)" }
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR309INF-BANK-CESTODA-01", "page": 4,
+      "title": "Adult stage of Cysticercus bovis",
+      "question": "Cysticercus bovis is infective stage of:",
+      "options": { "A": "Broad tapeworm", "B": "Beef tapeworm", "C": "Pinworm", "D": "Giant intestinal roundworm" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The broad tapeworm is Diphyllobothrium latum, whose larval stage is the plerocercoid in fish, not the Cysticercus bovis of cattle muscle.",
+        "B": "Correct. Cysticercus bovis is the bladder-worm (cysticercus) larval stage that develops in the muscles of cattle; when a human eats raw or undercooked beef the cysticercus everts its scolex, attaches to the small intestine and grows into the adult BEEF tapeworm, Taenia saginata. Cysticercus bovis is therefore the infective stage of Taenia saginata. The name 'bovis' (of cattle) marks the beef-tapeworm cycle and distinguishes it from Cysticercus cellulosae of Taenia solium.",
+        "C": "Incorrect. The pinworm is Enterobius vermicularis, a nematode with no cysticercus stage.",
+        "D": "Incorrect. The giant intestinal roundworm is Ascaris lumbricoides, a nematode; its infective stage is the embryonated egg, not a cysticercus."
+      },
+      "main_concept": "CON-INF-FEDC533374ACB0", "concept_ids": ["CON-INF-FEDC533374ACB0"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia saginata",
+      "learning_objective": "Identify Cysticercus bovis as the infective larval stage of the beef tapeworm Taenia saginata."
+    },
+    {
+      "key": "q2", "id": "QST-KASR309INF-BANK-CESTODA-02", "page": 4,
+      "title": "Cestode with an operculated egg",
+      "question": "This parasite has an operculated egg:",
+      "options": { "A": "Hymenolepis nana", "B": "Taenia solium", "C": "Diphyllobothrium latum", "D": "Taenia saginata" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana has a spherical, non-operculated egg with polar filaments between its two membranes.",
+        "B": "Incorrect. Taenia solium (like all taeniid tapeworms) has a rounded, radially striated, non-operculated egg.",
+        "C": "Correct. Diphyllobothrium latum is the only common cestode whose egg is OPERCULATED: it is an oval, yellow-brown egg bearing a lid (operculum) at one pole and a small knob at the other, closely resembling a trematode egg. This operculate morphology reflects the fish-tapeworm's aquatic life cycle, in which the egg releases a ciliated coracidium into water. Recognising the operculated egg as Diphyllobothrium is the identifying fact tested.",
+        "D": "Incorrect. Taenia saginata shares the non-operculated, radially striated taeniid egg and cannot be told apart from T. solium on egg morphology."
+      },
+      "main_concept": "CON-INF-F8893DBE840FB8", "concept_ids": ["CON-INF-F8893DBE840FB8"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Recognise the operculated egg as characteristic of Diphyllobothrium latum."
+    },
+    {
+      "key": "q3", "id": "QST-KASR309INF-BANK-CESTODA-03", "page": 4,
+      "title": "Helminth egg directly infective to man",
+      "question": "Which of the following helminth eggs are directly infective to man?",
+      "options": { "A": "Ascaris lumbricoides", "B": "Diphyllobothrium latum", "C": "Hymenolepis nana", "D": "Fasciola hepatica" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ascaris eggs are passed unembryonated and must mature in soil for weeks before they become infective, so they are not directly infective when shed.",
+        "B": "Incorrect. Diphyllobothrium eggs must reach water and pass through a copepod (Cyclops) and then a fish; the egg is not infective to man.",
+        "C": "Correct. Hymenolepis nana is exceptional in that its egg is DIRECTLY infective to man: an egg swallowed from a contaminated hand, food or water hatches in the small intestine and the oncosphere completes the whole cycle in one host, needing no intermediate host. This direct egg infectivity also underlies internal autoinfection and person-to-person spread. The atomic fact tested is that H. nana eggs infect man directly.",
+        "D": "Incorrect. Fasciola eggs are unembryonated when passed and require water and the snail Lymnaea; the egg is not infective to man."
+      },
+      "main_concept": "CON-INF-888B84F6375D6D", "concept_ids": ["CON-INF-888B84F6375D6D"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Hymenolepis",
+      "learning_objective": "State that Hymenolepis nana eggs are directly infective to man without an intermediate host."
+    },
+    {
+      "key": "q4", "id": "QST-KASR309INF-BANK-CESTODA-04", "page": 4,
+      "title": "Infection complicated by cysticercosis",
+      "question": "Cysticercosis may complicate:",
+      "options": { "A": "Strongyloidiasis", "B": "Sparganosis", "C": "Taeniasis saginata", "D": "Taeniasis solium" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Strongyloidiasis is a nematode infection; its complication is hyperinfection/autoinfection with filariform larvae, not cysticercosis.",
+        "B": "Incorrect. Sparganosis is itself a larval (sparganum) tissue infection by Spirometra, not a complication caused by cysticerci.",
+        "C": "Incorrect. Taeniasis saginata (Taenia saginata) does not cause human cysticercosis because its eggs are not infective to man; only cattle harbour its cysticercus.",
+        "D": "Correct. Cysticercosis complicates taeniasis SOLIUM: a person carrying the adult Taenia solium can ingest its eggs (by faecal–oral contamination or internal autoinfection), and the hatched oncospheres disseminate to tissues — muscle, subcutaneous tissue, eye and especially brain — to form cysticerci. Because only Taenia solium eggs are infective to man, only T. solium causes human cysticercosis, making it far more dangerous than T. saginata."
+      },
+      "main_concept": "CON-INF-61F78E487864E9", "concept_ids": ["CON-INF-61F78E487864E9"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia solium",
+      "learning_objective": "Explain that human cysticercosis is a complication of Taenia solium (taeniasis solium)."
+    },
+    {
+      "key": "q5", "id": "QST-KASR309INF-BANK-CESTODA-05", "page": 4,
+      "title": "Cestode for which man is only an intermediate host",
+      "question": "Man acts as intermediate host only for:",
+      "options": { "A": "Hymenolepis nana", "B": "Taenia solium", "C": "Diphyllobothrium latum", "D": "Echinococcus granulosus" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. For Hymenolepis nana man is chiefly the definitive host harbouring the adult worm (and, through direct egg infection, also carries the larval stage); he is not exclusively an intermediate host.",
+        "B": "Incorrect. For Taenia solium man is the definitive host of the adult tapeworm and only occasionally, in cysticercosis, an accidental intermediate host — not intermediate 'only'.",
+        "C": "Incorrect. For Diphyllobothrium latum man is the definitive host of the adult worm; the intermediate hosts are the copepod and fish.",
+        "D": "Correct. For Echinococcus granulosus man acts ONLY as an (accidental) intermediate host: swallowed eggs hatch and the oncospheres form hydatid cysts in liver, lung and other organs, but man never harbours the adult worm. The adult tapeworm lives only in the definitive host, the dog. Being solely an intermediate host — a dead end that does not continue the cycle — is the atomic fact tested."
+      },
+      "main_concept": "CON-INF-B99D25FC7D7FEF", "concept_ids": ["CON-INF-B99D25FC7D7FEF"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Recognise that man is only an (accidental) intermediate host of Echinococcus granulosus."
+    },
+    {
+      "key": "q6", "id": "QST-KASR309INF-BANK-CESTODA-06", "page": 4,
+      "title": "Condition treated by the PAIR technique",
+      "question": "PAIR technique is used for treatment of:",
+      "options": { "A": "Cysticercosis", "B": "Hydatidosis", "C": "Taeniasis", "D": "Coenurosis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cysticercosis is managed with anti-helminthics (albendazole/praziquantel) plus corticosteroids, not with the PAIR cyst-drainage procedure.",
+        "B": "Correct. PAIR (Puncture, Aspiration, Injection, Re-aspiration) is a percutaneous, image-guided treatment for HYDATID disease: the hydatid cyst is punctured, its fluid aspirated, a protoscolicidal agent (e.g. hypertonic saline) injected and then re-aspirated, usually under albendazole cover. It is used for suitable liver hydatid cysts as an alternative to surgery. Linking PAIR to hydatidosis (Echinococcus) is the fact tested.",
+        "C": "Incorrect. Taeniasis (intestinal adult tapeworm) is cured with a single dose of praziquantel or niclosamide, not a drainage procedure.",
+        "D": "Incorrect. Coenurosis (a Taenia multiceps larval cyst) is treated by surgical excision, not by PAIR."
+      },
+      "main_concept": "CON-INF-DEC13EA4A304E5", "concept_ids": ["CON-INF-DEC13EA4A304E5"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Associate the PAIR technique with treatment of hydatid disease (Echinococcus granulosus)."
+    },
+    {
+      "key": "q7", "id": "QST-KASR309INF-BANK-CESTODA-07", "page": 4,
+      "title": "Chronic diarrhoea after eating infected fish",
+      "question": "A patient presenting with chronic diarrhoea, with history of eating improperly cooked whole infected fish, may be infected with:",
+      "options": { "A": "Enterobius vermicularis", "B": "Echinococcus granulosus", "C": "Ascaris lumbricoides", "D": "Diphyllobothrium latum" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Enterobius vermicularis (pinworm) is acquired by the faecal–oral route and causes perianal itching, not fish-borne chronic diarrhoea.",
+        "B": "Incorrect. Echinococcus granulosus is acquired from dog faeces and forms hydatid cysts; it is not fish-borne and does not present as chronic diarrhoea.",
+        "C": "Incorrect. Ascaris lumbricoides is a soil-transmitted roundworm acquired by swallowing embryonated eggs from contaminated food, not from fish.",
+        "D": "Correct. Diphyllobothrium latum, the broad fish tapeworm, is acquired by eating raw or improperly cooked freshwater FISH containing the plerocercoid larva. The adult worm attaches in the small intestine and can cause chronic diarrhoea, abdominal discomfort and, in some, vitamin B12 deficiency. The fish-eating history with intestinal symptoms points to Diphyllobothrium latum, the fact tested."
+      },
+      "main_concept": "CON-INF-82493B886332C3", "concept_ids": ["CON-INF-82493B886332C3"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Attribute fish-borne intestinal infection (chronic diarrhoea) to Diphyllobothrium latum."
+    },
+    { "key": "q8", "hold": "unreliable printed key: the answer table gives Q8 = C (Heterophyes heterophyes) but the stem is 'Undercooked meat is the source of infection with' — Heterophyes is fish-borne, and undercooked meat/beef is the source of Taenia saginata (option D). The printed key contradicts established parasitology and the stem, so the item is held for human adjudication rather than authored to a wrong fact (never guess a key)." },
+    {
+      "key": "q9", "id": "QST-KASR309INF-BANK-CESTODA-09", "page": 4,
+      "title": "Ultrasound cartwheel sign in hydatid disease",
+      "question": "Cartwheel appearance in sonar is a pathognomonic feature of:",
+      "options": { "A": "Pulmonary hydatid cyst", "B": "Calcified hepatic hydatid cyst", "C": "Endogenous daughter hydatid cyst", "D": "Osseous hydatid cyst" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A pulmonary hydatid cyst is imaged mainly by chest X-ray/CT (a rounded opacity or the 'water-lily' sign after rupture), not by the sonographic cartwheel of daughter cysts.",
+        "B": "Incorrect. A calcified hepatic hydatid cyst shows a dense calcified rim (often signifying an inactive cyst), not the cartwheel pattern of viable daughter cysts.",
+        "C": "Correct. The cartwheel (rosette / 'wheel-spoke') appearance on ultrasound is produced by multiple ENDOGENOUS DAUGHTER cysts arranged within the mother hydatid cyst, each separated by septa radiating like the spokes of a wheel. This multivesicular pattern is characteristic of an active Echinococcus granulosus cyst. Recognising the cartwheel as daughter-cyst formation is the atomic imaging fact tested.",
+        "D": "Incorrect. Osseous (bone) hydatid disease is infiltrative and imaged by X-ray/CT/MRI as lytic destruction, and it typically lacks the well-formed daughter-cyst cartwheel."
+      },
+      "main_concept": "CON-INF-5E8594ADD747DE", "concept_ids": ["CON-INF-5E8594ADD747DE"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Recognise the ultrasound cartwheel appearance as endogenous daughter cysts of a hydatid cyst."
+    },
+    {
+      "key": "q10", "id": "QST-KASR309INF-BANK-CESTODA-10", "page": 4,
+      "title": "Stool finding after eating undercooked salmon",
+      "question": "Parasitic infection caused by eating under cooked salmon fish could be diagnosed by stool analysis showing:",
+      "options": { "A": "Operculated eggs & mature segments", "B": "Translucent eggs with gravid segments", "C": "Mature eggs & mature segments", "D": "Oval operculated yellowish brown mature eggs with no segments" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Diphyllobothrium does not shed distinct mature proglottids in the stool the way Taenia does, so paired 'operculated eggs & mature segments' is not the finding.",
+        "B": "Incorrect. Translucent eggs with gravid segments describe the Taenia pattern (taeniid eggs plus motile gravid proglottids), not the fish tapeworm.",
+        "C": "Incorrect. 'Mature eggs & mature segments' again implies passing intact segments, which is not typical of Diphyllobothrium.",
+        "D": "Correct. Eating undercooked salmon transmits Diphyllobothrium latum, and its diagnosis on stool microscopy rests on the characteristic egg: an OVAL, OPERCULATED, yellowish-brown egg with a small terminal knob. The worm releases eggs continuously and its proglottids disintegrate in the gut, so intact segments are usually NOT seen in stool. Operculated yellow-brown eggs without segments is therefore the expected finding."
+      },
+      "main_concept": "CON-INF-C4C294960C323F", "concept_ids": ["CON-INF-C4C294960C323F"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Diagnose Diphyllobothrium latum by operculated yellow-brown eggs without segments in stool."
+    },
+    {
+      "key": "q11", "id": "QST-KASR309INF-BANK-CESTODA-11", "page": 4,
+      "title": "Cestode with bears as paratenic hosts",
+      "question": "Bears may act as paratenic hosts in:",
+      "options": { "A": "Heterophyes heterophyes", "B": "Diphyllobothrium latum", "C": "Giardia lamblia", "D": "Ascaris lumbricoides" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Heterophyes heterophyes uses a snail then a fish; a bear plays no part in its life cycle.",
+        "B": "Correct. In the Diphyllobothrium latum cycle a large predatory fish (or a fish-eating mammal such as a BEAR) that eats infected small fish can carry the plerocercoid larva without further development, acting as a PARATENIC (transport) host that bridges the parasite to the definitive host. Man or another mammal is then infected by eating that host's flesh. Bears serving as paratenic hosts is the atomic life-cycle fact tested.",
+        "C": "Incorrect. Giardia lamblia is a directly transmitted intestinal protozoan with no paratenic host.",
+        "D": "Incorrect. Ascaris lumbricoides is a soil-transmitted roundworm whose egg matures in soil; it has no paratenic host such as a bear."
+      },
+      "main_concept": "CON-INF-29AD4F5534B3CC", "concept_ids": ["CON-INF-29AD4F5534B3CC"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Recognise bears as paratenic hosts in the Diphyllobothrium latum life cycle."
+    },
+    {
+      "key": "q12", "id": "QST-KASR309INF-BANK-CESTODA-12", "page": 5,
+      "title": "Cause of neuropathy in diphyllobothriasis",
+      "question": "Peripheral neuropathy which occurs in diphyllobothriasis is due to:",
+      "options": { "A": "Intestinal obstruction", "B": "Migrating segments", "C": "Cholecystitis", "D": "Vitamin B12 deficiency" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Intestinal obstruction is only an occasional effect of a heavy worm mass and does not explain peripheral neuropathy.",
+        "B": "Incorrect. Diphyllobothrium proglottids do not migrate through tissues, so 'migrating segments' is not the cause.",
+        "C": "Incorrect. Cholecystitis is not a feature of the fish tapeworm, which lives in the intestinal lumen.",
+        "D": "Correct. Diphyllobothrium latum avidly absorbs dietary VITAMIN B12 from the gut lumen (especially a worm high in the jejunum), depriving the host and producing B12 deficiency. Because B12 is essential for myelin maintenance, its deficiency causes subacute combined degeneration and peripheral neuropathy as well as megaloblastic anaemia. The neuropathy of diphyllobothriasis is therefore a consequence of worm-induced vitamin B12 deficiency."
+      },
+      "main_concept": "CON-INF-E1BFD3D459FA76", "concept_ids": ["CON-INF-E1BFD3D459FA76"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Attribute the neuropathy of diphyllobothriasis to worm-induced vitamin B12 deficiency."
+    },
+    {
+      "key": "q13", "id": "QST-KASR309INF-BANK-CESTODA-13", "page": 5,
+      "title": "Infection in which man is a blind intermediate host",
+      "question": "Man acts as a blind intermediate host in infection with:",
+      "options": { "A": "Taeniasis saginata", "B": "Cysticercosis", "C": "Diphyllobothriasis", "D": "Ascariasis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. In taeniasis saginata man is the definitive host of the adult beef tapeworm, not an intermediate host.",
+        "B": "Correct. In CYSTICERCOSIS man harbours the larval cysticercus of Taenia solium, so he is an intermediate host — but a BLIND (dead-end) one, because the tissue cysticerci cannot be eaten by a definitive host and so the cycle stops in man. This makes human cysticercosis an accidental, non-transmitting infection. The 'blind intermediate host' role of man in cysticercosis is exactly what is tested.",
+        "C": "Incorrect. In diphyllobothriasis man is the definitive host of the adult fish tapeworm; the intermediate hosts are the copepod and fish.",
+        "D": "Incorrect. In ascariasis man is the definitive host of the adult roundworm, with only a transient lung migration and no intermediate-host role."
+      },
+      "main_concept": "CON-INF-6C4C00E8991CEE", "concept_ids": ["CON-INF-6C4C00E8991CEE"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia solium",
+      "learning_objective": "Recognise man as a blind (dead-end) intermediate host in cysticercosis."
+    },
+    {
+      "key": "q14", "id": "QST-KASR309INF-BANK-CESTODA-14", "page": 5,
+      "title": "Neuro manifestations not from CNS invasion",
+      "question": "In following parasites nervous manifestations are NOT due to CNS invasion:",
+      "options": { "A": "Toxoplasmosis", "B": "Hymenolepiasis nana", "C": "African trypanosomiasis", "D": "Heterophyiasis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. In toxoplasmosis the tachyzoites and tissue cysts directly INVADE the brain, causing encephalitis and space-occupying lesions.",
+        "B": "Correct. In hymenolepiasis nana the nervous symptoms (headache, irritability, sometimes convulsions in heavy infection, especially in children) are attributed to TOXIC and allergic effects of the intestinal worms, NOT to any invasion of the central nervous system — Hymenolepis nana remains in the gut and does not enter the brain. The other listed parasites all reach the CNS directly, so H. nana is the exception the question seeks.",
+        "C": "Incorrect. African trypanosomiasis (sleeping sickness) involves direct trypanosome invasion of the CNS in its late (meningoencephalitic) stage.",
+        "D": "Incorrect. In heterophyiasis eggs can embolise to the brain and lodge there, producing granulomatous CNS lesions — a form of central invasion by the parasite's eggs."
+      },
+      "main_concept": "CON-INF-E02914342F474B", "concept_ids": ["CON-INF-E02914342F474B"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Hymenolepis",
+      "learning_objective": "Recognise that the nervous manifestations of Hymenolepis nana are toxic/allergic, not from CNS invasion."
+    },
+    {
+      "key": "q15", "id": "QST-KASR309INF-BANK-CESTODA-15", "page": 5,
+      "title": "Why Taenia solium is more dangerous than T. saginata",
+      "question": "Taenia solium is more dangerous than Taenia saginata due to:",
+      "options": { "A": "Infection can occur by ingestion of Cysticercus cellulosae", "B": "Infection can occur by ingestion of Cysticercus bovis", "C": "It can cause cysticercosis", "D": "Infection occurs by eating pork" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Swallowing the Cysticercus cellulosae in undercooked pork gives only intestinal taeniasis (the ordinary, less dangerous adult-worm infection); it is not what makes T. solium especially dangerous.",
+        "B": "Incorrect. Cysticercus bovis belongs to Taenia saginata (beef), so this describes the acquisition of the beef tapeworm, not any special danger of T. solium.",
+        "C": "Correct. Taenia solium is more dangerous than Taenia saginata because it can cause human CYSTICERCOSIS: unlike T. saginata, its eggs are infective to man, so ingested or autoinfected eggs disseminate as cysticerci to tissues including the brain (neurocysticercosis) and eye. This tissue-larval disease, not the intestinal adult worm, is the serious hazard. The capacity to cause cysticercosis is the atomic fact tested.",
+        "D": "Incorrect. Eating pork explains how the adult intestinal T. solium is acquired but is not the reason it is more dangerous; the danger lies in egg-borne cysticercosis."
+      },
+      "main_concept": "CON-INF-61F78E487864E9", "concept_ids": ["CON-INF-61F78E487864E9"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia solium",
+      "learning_objective": "Explain that Taenia solium is more dangerous than T. saginata because it can cause human cysticercosis."
+    },
+    {
+      "key": "q16", "id": "QST-KASR309INF-BANK-CESTODA-16", "page": 5,
+      "title": "Mechanism of anaemia in diphyllobothriasis",
+      "question": "Anaemia of Diphyllobothrium latum is due to:",
+      "options": { "A": "Iron deficiency", "B": "Blood loss", "C": "Vitamin B12 deficiency", "D": "Hemolysis of red blood cells" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Iron-deficiency anaemia is the pattern of blood-sucking helminths such as hookworm, not of the fish tapeworm.",
+        "B": "Incorrect. Diphyllobothrium does not suck blood from the gut wall, so chronic blood loss is not the mechanism.",
+        "C": "Correct. The anaemia of Diphyllobothrium latum is MEGALOBLASTIC, caused by the worm competitively absorbing dietary VITAMIN B12 in the small intestine and depriving the host. The resulting B12 deficiency impairs DNA synthesis in erythroid precursors, giving a macrocytic megaloblastic anaemia (and can coexist with the neuropathy of B12 deficiency). Worm-induced vitamin B12 deficiency is the mechanism tested.",
+        "D": "Incorrect. The fish tapeworm does not lyse red cells; haemolysis is not the cause of its anaemia."
+      },
+      "main_concept": "CON-INF-E1BFD3D459FA76", "concept_ids": ["CON-INF-E1BFD3D459FA76"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Diphyllobothrium",
+      "learning_objective": "Attribute the megaloblastic anaemia of diphyllobothriasis to worm-induced vitamin B12 deficiency."
+    },
+    {
+      "key": "q17", "id": "QST-KASR309INF-BANK-CESTODA-17", "page": 5,
+      "title": "Role of corticosteroids in cysticercosis treatment",
+      "question": "Corticosteroids are used in cysticercosis treatment to:",
+      "options": { "A": "Potentiate the action of anti-helminthics", "B": "Protect against internal autoinfection", "C": "Decrease CNS symptoms from cyst disintegration", "D": "Prevent cysts from spreading to other tissues" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Corticosteroids do not potentiate the parasiticidal action of albendazole/praziquantel; if anything they can alter drug levels and are given for their anti-inflammatory effect.",
+        "B": "Incorrect. Preventing internal autoinfection is not a corticosteroid effect; that concern relates to controlling the intestinal adult worm, not to steroids.",
+        "C": "Correct. In neurocysticercosis, killing the cysts with anti-helminthics releases parasite antigens and triggers intense peri-cyst INFLAMMATION and oedema that can worsen headache, seizures and raised intracranial pressure. Corticosteroids are given to suppress this inflammatory reaction and DECREASE the CNS symptoms provoked by cyst disintegration during treatment. Their role is anti-inflammatory cover, the fact tested.",
+        "D": "Incorrect. Corticosteroids do not stop cysts spreading to other tissues; dissemination is governed by egg exposure/autoinfection, not by steroid use."
+      },
+      "main_concept": "CON-INF-726FF91F339AD4", "concept_ids": ["CON-INF-726FF91F339AD4"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia solium",
+      "learning_objective": "Explain that corticosteroids in (neuro)cysticercosis suppress inflammation from cyst disintegration."
+    },
+    {
+      "key": "q18", "id": "QST-KASR309INF-BANK-CESTODA-18", "page": 5,
+      "title": "Parasite not transmitted through vegetables",
+      "question": "Parasite that is not transmitted through vegetables:",
+      "options": { "A": "Fasciola", "B": "Heterophyes", "C": "Taenia solium", "D": "Amoeba" },
+      "correct": "B",
+      "subtopic": "Trematoda",
+      "library_ids": ["ART-INF-309-PARA-TREMATODA"],
+      "explanations": {
+        "A": "Incorrect. Fasciola IS transmitted via vegetables: its infective metacercariae encyst on aquatic plants such as watercress that are then eaten.",
+        "B": "Correct. Heterophyes heterophyes is NOT transmitted through vegetables; it is a FISH-borne fluke, acquired by eating raw or undercooked brackish-water fish (Tilapia, Mugil) carrying the encysted metacercariae. Its cercariae encyst in fish flesh, never on plants, so vegetables play no part in its transmission. Among the options only Heterophyes is fish-borne rather than plant/food-borne, which is the discriminator tested.",
+        "C": "Incorrect. Taenia solium eggs can contaminate raw vegetables and, when swallowed, cause cysticercosis, so it can be transmitted via vegetables.",
+        "D": "Incorrect. Entamoeba histolytica cysts are spread faecal–orally on contaminated raw vegetables and water, so amoebiasis is a vegetable/water-borne infection."
+      },
+      "main_concept": "CON-INF-FFB06468007C2B", "concept_ids": ["CON-INF-FFB06468007C2B"],
+      "module_subject": "309 INF > Parasitology > Trematoda > Heterophyes",
+      "learning_objective": "Recognise Heterophyes as fish-borne, not transmitted through vegetables."
+    },
+    {
+      "key": "q19", "id": "QST-KASR309INF-BANK-CESTODA-19", "page": 5,
+      "title": "Parasite requiring only one intermediate host",
+      "question": "Only one Intermediate host is required in the life cycle of:",
+      "options": { "A": "Heterophyes", "B": "Diphyllobothrium latum", "C": "Diphyllobothrium mansoni", "D": "Taenia saginata" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Heterophyes needs TWO intermediate hosts, the snail Pirenella conica and then a fish.",
+        "B": "Incorrect. Diphyllobothrium latum needs TWO intermediate hosts, a copepod (Cyclops) and then a fish.",
+        "C": "Incorrect. Diphyllobothrium (Spirometra) mansoni likewise uses two intermediate hosts, a copepod and then a second (vertebrate) host.",
+        "D": "Correct. Taenia saginata has just ONE intermediate host: cattle, in whose muscles the egg develops into the Cysticercus bovis. Man, the definitive host, is infected by eating that single intermediate host's beef. A single intermediate host is typical of the taeniid tapeworms and is the atomic fact tested, contrasting with the two-host cycles of Heterophyes and Diphyllobothrium."
+      },
+      "main_concept": "CON-INF-F204D1BF8E7A1B", "concept_ids": ["CON-INF-F204D1BF8E7A1B"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia saginata",
+      "learning_objective": "Recognise that Taenia saginata requires only one intermediate host (cattle)."
+    },
+    {
+      "key": "q20", "id": "QST-KASR309INF-BANK-CESTODA-20", "page": 5,
+      "title": "Egg that stains with Ziehl-Neelsen",
+      "question": "Eggs that stain well with Ziehl-Neelsen stain belong to:",
+      "options": { "A": "Diphyllobothrium latum", "B": "Hymenolepis nana", "C": "Taenia saginata", "D": "Taenia solium" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Diphyllobothrium latum eggs are operculated but are not acid-fast; they do not retain the Ziehl-Neelsen carbol-fuchsin.",
+        "B": "Incorrect. Hymenolepis nana eggs are not acid-fast and are identified by their polar filaments, not by Ziehl-Neelsen staining.",
+        "C": "Correct. Taeniid eggs (Taenia saginata, and identically T. solium) have a thick, radially striated embryophore that is ACID-FAST: it retains carbol-fuchsin and stains well with the Ziehl-Neelsen (modified acid-fast) stain. Among the listed options Taenia saginata is the acid-fast (ZN-positive) egg. This acid-fastness of the taeniid embryophore is the fact tested (T. solium would be equally correct, but of the choices T. saginata is the intended taeniid answer).",
+        "D": "Incorrect. Taenia solium eggs are in fact also acid-fast and indistinguishable from T. saginata on morphology; the printed key selects T. saginata as the taeniid answer, so T. solium is scored incorrect here."
+      },
+      "main_concept": "CON-INF-1434AF9EDE6F4B", "concept_ids": ["CON-INF-1434AF9EDE6F4B"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia",
+      "learning_objective": "Recognise that taeniid (Taenia) eggs are acid-fast and stain with Ziehl-Neelsen."
+    },
+    {
+      "key": "q21", "id": "QST-KASR309INF-BANK-CESTODA-21", "page": 5,
+      "title": "Infection for which the dog is the host",
+      "question": "Dog is related to which infection:",
+      "options": { "A": "Strongyloides stercoralis", "B": "Toxocara cati", "C": "Hymenolepis nana", "D": "Echinococcus granulosus" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Strongyloides stercoralis is a human soil-transmitted nematode acquired by skin penetration of filariform larvae; the dog is not its characteristic host.",
+        "B": "Incorrect. Toxocara CATI is the roundworm of the CAT (the dog species is Toxocara canis), so the dog is not the host named here.",
+        "C": "Incorrect. Hymenolepis nana is a directly transmitted human/rodent dwarf tapeworm with no dog host.",
+        "D": "Correct. The dog is the DEFINITIVE host of Echinococcus granulosus: the adult tapeworm lives in the dog's small intestine and sheds eggs in its faeces. Humans and livestock swallow these eggs and become intermediate hosts with hydatid cysts, so dog contact is the key risk factor for hydatid disease. Linking the dog to Echinococcus granulosus is the atomic fact tested."
+      },
+      "main_concept": "CON-INF-87482EA4580BA3", "concept_ids": ["CON-INF-87482EA4580BA3"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Identify the dog as the definitive host of Echinococcus granulosus."
+    }
+  ]
+}

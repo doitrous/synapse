@@ -62,6 +62,7 @@ CON-INF-208CEFCE891C82
 CON-INF-E33402CF625073
 ## related_articles
 ART-INF-309-PARA-TREMATODA
+ART-INF-309-CESTODA
 ## resource_ids
 src_10f1a669aa2eeedf3cd9
 ## nanotopic
@@ -180,5 +181,104 @@ Admin team
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 university_notes: No department book PDF was located/read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Introduction + Trematoda section, answer table p.3).
+## reading_time
+8
+
+---
+
+# Item
+## id
+ART-INF-309-CESTODA
+## title
+Cestodes: tapeworms of Taenia, Diphyllobothrium, Echinococcus and Hymenolepis
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Parasitology
+## summary
+This article groups the cestode (tapeworm) facts tested by the Cestoda section of the paper (Q1-21). It covers Taenia (Cysticercus bovis as the larval stage of the beef tapeworm T. saginata, the single cattle intermediate host, the acid-fast/Ziehl-Neelsen-positive taeniid egg, and how T. solium is more dangerous than T. saginata because it causes human cysticercosis — with man a blind dead-end intermediate host and corticosteroids used to cover the inflammation of cyst disintegration), Diphyllobothrium latum (the operculated egg, fish-borne infection, stool diagnosis by operculated eggs without segments, bears as paratenic hosts, and vitamin-B12-deficiency megaloblastic anaemia with neuropathy), Echinococcus granulosus (man as accidental intermediate host, the dog definitive host, the cartwheel daughter-cyst ultrasound sign, and PAIR treatment of hydatid disease) and Hymenolepis nana (eggs directly infective to man, and toxic/allergic — not CNS-invasive — nervous manifestations).
+## sections
+### Definition
+This article groups the cestode concepts tested by the paper; each linked concept carries one atomic fact about a tapeworm's larval stage, egg, host role, mode of infection, pathology or treatment.
+### Mechanism
+The facts follow cestode life cycles: taeniid eggs develop into a cysticercus in one intermediate host (cattle for T. saginata, pig/man for T. solium), Diphyllobothrium passes through a copepod then a fish, and Echinococcus cycles between the dog (adult worm) and an intermediate host (man, livestock) that forms hydatid cysts; disease arises from larval tissue cysts (cysticercosis, hydatidosis), worm-induced vitamin B12 deficiency (Diphyllobothrium) or toxic/allergic effects (Hymenolepis) rather than from CNS invasion by the worm itself.
+### Key determinants
+Discriminators tested here: Cysticercus bovis = T. saginata larva; only T. solium causes human cysticercosis (man a blind intermediate host); Diphyllobothrium has the operculated egg, is fish-borne, uses bears as paratenic hosts and causes B12-deficiency anaemia/neuropathy; Echinococcus has the dog as definitive host, man as accidental intermediate host, the cartwheel daughter-cyst sign and PAIR treatment; Hymenolepis nana eggs are directly infective; taeniid eggs are acid-fast; Taenia saginata needs only one intermediate host.
+### Clinical significance
+These facts underlie diagnosis and control of the medically important tapeworms: recognising fish- versus meat-borne acquisition, diagnosing Diphyllobothrium by operculated eggs and its megaloblastic anaemia, imaging and treating hydatid disease (cartwheel sign, PAIR, dog contact as the risk factor), and managing neurocysticercosis (anti-helminthics under corticosteroid cover).
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (Cysticercus bovis vs cellulosae; taeniasis vs cysticercosis; operculated Diphyllobothrium egg vs non-operculated taeniid/Hymenolepis eggs; B12-deficiency anaemia vs iron-deficiency/haemolysis; dog as definitive vs man as intermediate host of Echinococcus).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda
+## subtopic
+Cestoda
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 parasitology
+## high_yield
+Core
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## related_concepts
+CON-INF-FEDC533374ACB0
+CON-INF-F8893DBE840FB8
+CON-INF-888B84F6375D6D
+CON-INF-61F78E487864E9
+CON-INF-B99D25FC7D7FEF
+CON-INF-DEC13EA4A304E5
+CON-INF-82493B886332C3
+CON-INF-5E8594ADD747DE
+CON-INF-C4C294960C323F
+CON-INF-29AD4F5534B3CC
+CON-INF-E1BFD3D459FA76
+CON-INF-6C4C00E8991CEE
+CON-INF-E02914342F474B
+CON-INF-726FF91F339AD4
+CON-INF-F204D1BF8E7A1B
+CON-INF-1434AF9EDE6F4B
+CON-INF-87482EA4580BA3
+## related_articles
+ART-INF-309-PARA-GENERAL
+ART-INF-309-PARA-TREMATODA
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Cestoda section, answer table p.6).
 ## reading_time
 8
