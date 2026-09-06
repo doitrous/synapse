@@ -181,3 +181,35 @@ Q81.B  Q82.D  Q83.B  Q84.D  Q85.A  Q86.B  Q87.C  Q88.A  Q89.B  Q90.D  Q91.A
 # STILL DEFERRED for adjudication (from earlier tranches, do NOT author blind):
 #  Ch.3 vignettes Q59-76 (each lists more than one true statement, not single-best) + Q89-91;
 #  Ch.3 sub-4-option items Q20 (3-option), Q48 & Q49 (two-option True/False).
+
+# ===================================================================
+# TRANCHE 6 (2026-09-06): Chapter 4 Q26-49 slice
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.2
+# Chapter 4 table (all 91 rows already captured in Tranche 5). Each authored key RE-VERIFIED
+# against the bank option text (bank pp.27-30 = PDF p.29-32). 24 authored / 0 held / 0 excluded.
+# Q26.B Q27.B Q28.B Q29.D Q30.A Q31.B Q32.B Q33.A Q34.C Q35.C Q36.D Q37.D Q38.A Q39.D Q40.D
+# Q41.D Q42.A Q43.D Q44.B Q45.C Q46.D Q47.C Q48.A Q49.C
+# Cross-check notes (key -> option chosen, verified vs stem):
+#  Q26 B intumescent cataract can cause secondary glaucoma (reuses Q10 concept);
+#  Q27 B improvement of near vision / second sight (reuses Q3 nuclear-cataract concept);
+#  Q28 B hypermetropia (EXCEPT - not a cause of unilateral total cataract);
+#  Q29 D old age (commonest cause of cataract); Q30 A concave lens corrects myopia (new concept, reused for Q42);
+#  Q31 B calcium salt (band keratopathy); Q32 B IOL implantation (unilateral aphakic anisometropia);
+#  Q33 A loss of two lenticular Purkinje-Sanson images (posterior lens dislocation);
+#  Q34 C hyperopia (EXCEPT - keratoconus causes myopia); Q35 C lipid deposits (arcus senilis);
+#  Q36 D aniseikonia (unilateral aphakia corrected with glasses); Q37 D all of the above (astigmatism diagnosis);
+#  Q38 A presbyopia (recession of near point with ageing); Q39 D all of the above (contact-lens disadvantages);
+#  Q40 D all of the above (loss of accommodation: CN III palsy / presbyopia / tropicamide);
+#  Q41 D choroidal folds (EXCEPT - not a myopic retinal change; new concept on DIS-OPH-T04);
+#  Q42 A concave lenses (myopia correction, reuses Q30 new concept);
+#  Q43 D Placido disc (keratoconus diagnosis; 5-option a-e);
+#  Q44 B uniocular diplopia (early senile cataract symptom); Q45 C Kayser-Fleischer ring (EXCEPT - reuses Q2 concept);
+#  Q46 D all of the above (diminution of vision in lens subluxation);
+#  Q47 C mixed astigmatism (one meridian hyperopic, other myopic);
+#  Q48 A angle-closure glaucoma (hypermetropia complication; 5-option a-e);
+#  Q49 C astigmatism (cylindrical lenses prescribed for; 5-option a-e; reuses Q7 concept).
+# DEFERRED to adjudication (NOT authored, NOT held): Ch.4 clinical vignettes Q50-54 - each lists MORE
+#  THAN ONE true statement, not single-best as printed (same class as Ch.3 Q59-76). Keys for reference:
+#  Q50.C Q51.C Q52.B Q53.A Q54.D.
+# REMAINING for next tranche: Chapter 4 Q55-91 (37 MCQs), then Ch.5 Ocular motility (bank p.41 / PDF p.43).

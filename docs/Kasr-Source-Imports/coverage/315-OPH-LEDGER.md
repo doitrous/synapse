@@ -5,7 +5,7 @@
 | kamal-ch3-protective-q41-91 | 25 | 5 | 0 | 30 |
 | kamal-ch3-protective-remainder | 25 | 3 | 0 | 28 |
 | kamal-ch3-protective-system | 12 | 0 | 0 | 12 |
-| kamal-ch4-image-capture | 25 | 0 | 66 | 91 |
+| kamal-ch4-image-capture | 49 | 0 | 42 | 91 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -18,6 +18,6 @@
 - q36 — Answer-key table omits the Q36 row (the table skips from Q35 to Q37); no printed key to re-verify against, so held per the never-guess rule.
 
 ## Remaining
-- Ch.4 Normal and abnormal image capture Q26-91 (66 MCQs) — next tranche.
-- Ch.5-15 (Ocular motility, Glaucoma, Red eye, Retina, Eye & brain, Childhood, Systemic, Injuries, Medications, Lasers, Related topics) — not yet triaged.
-- Deferred for adjudication (do NOT author blind): Ch.3 vignettes Q59-76 (multi-true, not single-best) + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49 (True/False or 3-option, below the four-option floor).
+- Ch.4 Normal and abnormal image capture Q26-49 authored this tranche (24 MCQs; Q26/Q27/Q45/Q49 reuse existing Ch.4 concepts, 19 new concepts minted). Q55-91 (37 MCQs) remain for the next tranche.
+- Ch.5-15 (Ocular motility, Glaucoma, Red eye, Retina, Eye & brain, Childhood, Systemic, Injuries, Medications, Lasers, Related topics) — not yet triaged. Ch.5 Ocular motility starts bank p.41 / PDF p.43.
+- Deferred for adjudication (do NOT author blind): Ch.4 vignettes Q50-54 (clinical scenarios each listing more than one true statement, not single-best — keys Q50.C Q51.C Q52.B Q53.A Q54.D); Ch.3 vignettes Q59-76 (multi-true, not single-best) + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49 (True/False or 3-option, below the four-option floor).
