@@ -2663,3 +2663,1263 @@ yes
 ## author_notes
 keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 16=b)
 kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-020
+
+## title
+The ureter is a mesonephric-duct derivative
+
+## question
+Which of the following is a derivative of the mesonephric (Wolffian) duct?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ureter.
+
+## explanation_a
+Correct. The ureter develops from the ureteric bud (metanephric diverticulum), which is an outgrowth of the caudal end of the mesonephric duct. It is therefore a mesonephric-duct derivative, and gives the ureter, pelvis, calyces and collecting tubules of the kidney.
+
+## answer_b
+Loop of Henle.
+
+## explanation_b
+Incorrect. The loop of Henle belongs to the nephron and develops from the metanephric blastema (mesoderm), not the mesonephric duct.
+
+## answer_c
+Bowman's capsule.
+
+## explanation_c
+Incorrect. Bowman's capsule is part of the nephron, derived from the metanephric blastema.
+
+## answer_d
+Prostatic urethra.
+
+## explanation_d
+Incorrect. The prostatic urethra develops from the pelvic part of the urogenital sinus (endoderm), not the mesonephric duct.
+
+## topic
+Anatomy
+
+## subtopic
+Urinary tract development
+
+## main_concept
+CON-REN-AD5EFB17DFF14B
+
+## concept_ids
+CON-REN-AD5EFB17DFF14B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Urinary tract development
+
+## question_only_for
+
+## library_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The ureter (from the ureteric bud) is a mesonephric-duct derivative.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.27
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 4=a)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-021
+
+## title
+Mesonephric-duct derivative in the male
+
+## question
+Which of the following structures develops from the mesonephric (Wolffian) duct in the male?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Paradidymis.
+
+## explanation_a
+Incorrect. The paradidymis is a vestige of the mesonephric TUBULES, not the duct.
+
+## answer_b
+Vasa efferentia.
+
+## explanation_b
+Incorrect. The vasa efferentia (efferent ductules) develop from persisting mesonephric TUBULES, not the duct.
+
+## answer_c
+Seminal vesicle.
+
+## explanation_c
+Correct. The seminal vesicle is an outgrowth of the mesonephric (Wolffian) duct, which in the male also forms the epididymis, vas deferens and ejaculatory duct. Its development is driven by testosterone from the fetal testis.
+
+## answer_d
+Prostatic utricle.
+
+## explanation_d
+Incorrect. The prostatic utricle is the male homologue of the uterus/vagina and develops from the PARAMESONEPHRIC (Mullerian) ducts / urogenital sinus, not the mesonephric duct.
+
+## topic
+Anatomy
+
+## subtopic
+Male genital development
+
+## main_concept
+CON-AND-399CFE51A7D83C
+
+## concept_ids
+CON-AND-399CFE51A7D83C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Male genital development
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The epididymis, vas deferens and seminal vesicle develop from the mesonephric duct.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.29
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 14=c)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-022
+
+## title
+Androgens drive mesonephric-duct development
+
+## question
+Regarding the genital ducts, which of the following statements is correct?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The uterus develops from the mesonephric ducts in the female.
+
+## explanation_a
+Incorrect. The uterus develops from the fused PARAMESONEPHRIC (Mullerian) ducts, not the mesonephric ducts.
+
+## answer_b
+The fetal testis produces hormones that induce growth of the mesonephric ducts.
+
+## explanation_b
+Correct. The fetal testis drives male genital-duct development by two hormones. Testosterone from the Leydig cells stimulates the mesonephric (Wolffian) ducts to form the epididymis, vas deferens and seminal vesicle. Anti-Mullerian hormone from the Sertoli cells causes the paramesonephric ducts to regress.
+
+## answer_c
+The vas deferens develops from the mesonephric tubules.
+
+## explanation_c
+Incorrect. The vas deferens develops from the mesonephric DUCT; the mesonephric tubules form the efferent ductules and vestiges.
+
+## answer_d
+The uterine tubes develop from the mesonephric ducts.
+
+## explanation_d
+Incorrect. The uterine tubes develop from the unfused cranial parts of the PARAMESONEPHRIC ducts.
+
+## topic
+Anatomy
+
+## subtopic
+Male genital development
+
+## main_concept
+CON-AND-A4C888119E17F3
+
+## concept_ids
+CON-AND-A4C888119E17F3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Male genital development
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+Testicular androgens induce mesonephric-duct development into the male genital ducts.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.31
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 27=b)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-023
+
+## title
+Pelvic part of the urogenital sinus forms the membranous and lower prostatic urethra
+
+## question
+Regarding the development of the urinary bladder and urethra, which of the following statements is correct?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The epithelium of the urinary bladder is mesodermal in origin.
+
+## explanation_a
+Incorrect. The bladder epithelium is derived from ENDODERM of the urogenital sinus, not mesoderm.
+
+## answer_b
+The trigone is formed by absorption of the paramesonephric ducts.
+
+## explanation_b
+Incorrect. The trigone is formed by absorption of the caudal ends of the MESONEPHRIC (not paramesonephric) ducts.
+
+## answer_c
+The pelvic part of the urogenital sinus in the male gives rise to the membranous urethra and the lower part of the prostatic urethra.
+
+## explanation_c
+Correct. The urogenital sinus has three parts. The upper (vesical) part forms the bladder, and the phallic part forms the spongy urethra. The pelvic part forms the whole female urethra and, in the male, the membranous urethra plus the lower part of the prostatic urethra.
+
+## answer_d
+The lowermost part of the male urethra is mesodermal in origin.
+
+## explanation_d
+Incorrect. The lowermost (glandular) part of the male urethra is ECTODERMAL, formed by an ingrowth of surface ectoderm at the glans.
+
+## topic
+Anatomy
+
+## subtopic
+Urinary tract development
+
+## main_concept
+CON-REN-939212978FD7B2
+
+## concept_ids
+CON-REN-939212978FD7B2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Urinary tract development
+
+## question_only_for
+
+## library_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The pelvic part of the urogenital sinus forms the membranous and lower prostatic urethra in the male.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.28
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 9=c)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-024
+
+## title
+Incomplete division of the ureteric bud causes a bifid ureter
+
+## question
+Incomplete division of the metanephric diverticulum (ureteric bud) results in:
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bifid ureter and a supernumerary kidney.
+
+## explanation_a
+Incorrect. A supernumerary (extra) kidney with a completely separate ureter results from an accessory ureteric bud, not from incomplete division of one bud.
+
+## answer_b
+A bifid kidney.
+
+## explanation_b
+Incorrect. 'Bifid kidney' is not the recognised term for this ureteric-bud anomaly.
+
+## answer_c
+Complete duplication of the ureter.
+
+## explanation_c
+Incorrect. COMPLETE early division of the ureteric bud gives a completely duplicated ureter with two separate orifices, not a bifid ureter.
+
+## answer_d
+A bifid ureter.
+
+## explanation_d
+Correct. Premature but INCOMPLETE division of the ureteric bud produces a Y-shaped bifid ureter, in which two ureters join before entering the bladder by a single orifice. It is usually asymptomatic.
+
+## topic
+Anatomy
+
+## subtopic
+Urinary tract development
+
+## main_concept
+CON-REN-EB77C30F35FD52
+
+## concept_ids
+CON-REN-EB77C30F35FD52
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Urinary tract development
+
+## question_only_for
+
+## library_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+Incomplete division of the ureteric bud produces a bifid ureter.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.29
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 13=d)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-025
+
+## title
+The genital tubercle forms the clitoris in the female
+
+## question
+Regarding the development of the external genitalia, which of the following statements is correct?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The genital tubercle elongates slightly in the female to form the clitoris.
+
+## explanation_a
+Correct. The genital tubercle is the midline swelling at the cranial end of the cloacal membrane. In the male it enlarges under androgens to form the glans penis. In the female, with little androgen, it elongates only slightly to form the clitoris.
+
+## answer_b
+The genital (labioscrotal) swellings form the labia minora in the female.
+
+## explanation_b
+Incorrect. The labioscrotal (genital) swellings form the labia MAJORA in the female (and the scrotum in the male); the labia minora form from the urogenital folds.
+
+## answer_c
+Hypospadias is an abnormal urethral meatus on the dorsum of the penis.
+
+## explanation_c
+Incorrect. Hypospadias is an abnormal urethral opening on the VENTRAL surface of the penis; a dorsal opening is epispadias.
+
+## answer_d
+The most distal part of the penile urethra is endodermal in origin.
+
+## explanation_d
+Incorrect. The most distal (glandular) part of the penile urethra is ECTODERMAL, from an ingrowth of surface ectoderm.
+
+## topic
+Anatomy
+
+## subtopic
+External genitalia development
+
+## main_concept
+CON-GYN-62DD487700D108
+
+## concept_ids
+CON-GYN-62DD487700D108
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > External genitalia development
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The genital tubercle forms the clitoris in the female and the glans penis in the male.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.29
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 17=a)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-026
+
+## title
+The glandular part of the male urethra is ectodermal
+
+## question
+Regarding the development of the urinary bladder and urethra, all of the following statements are correct EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The trigone of the bladder is formed by absorption of the mesonephric ducts.
+
+## explanation_a
+Incorrect (this statement is true). The trigone forms by absorption of the caudal ends of the mesonephric ducts.
+
+## answer_b
+The urachus extends from the apex of the developing bladder to the umbilicus.
+
+## explanation_b
+Incorrect (this statement is true). The urachus runs from the bladder apex to the umbilicus and persists as the median umbilical ligament.
+
+## answer_c
+The pelvic part of the definitive urogenital sinus in the male gives rise to the membranous urethra and the lower part of the prostatic urethra.
+
+## explanation_c
+Incorrect (this statement is true). The pelvic part of the urogenital sinus forms the membranous and lower prostatic urethra in the male.
+
+## answer_d
+The lowermost part of the male urethra is endodermal in origin.
+
+## explanation_d
+Correct. This is the FALSE statement, so it answers the 'except' stem. The lowermost (glandular / navicular) part of the male urethra is ECTODERMAL, formed by an ingrowth of surface ectoderm at the glans that canalises to join the endodermal spongy urethra. The rest of the urethra is endodermal.
+
+## topic
+Anatomy
+
+## subtopic
+Male genital development
+
+## main_concept
+CON-AND-C446FA796112CA
+
+## concept_ids
+CON-AND-C446FA796112CA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Male genital development
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The glandular (distal) part of the male urethra is ectodermal in origin.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.31
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 25=d, the false statement)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-027
+
+## title
+Uterus didelphys
+
+## question
+A double uterus with a double vagina, resulting from complete failure of fusion of the paramesonephric ducts, is called:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Uterus didelphys.
+
+## explanation_a
+Correct. The uterus and upper vagina form by fusion of the lower parts of the two paramesonephric ducts. Complete failure of this fusion produces uterus didelphys. There are then two separate uterine bodies, two cervices and (usually) a double vagina.
+
+## answer_b
+Uterus bicornis bicollis.
+
+## explanation_b
+Incorrect. Uterus bicornis bicollis has two horns and two cervices but the ducts have partly fused, so it is less complete than didelphys.
+
+## answer_c
+Uterus bicornis unicollis.
+
+## explanation_c
+Incorrect. Uterus bicornis unicollis has two horns but a single cervix and vagina.
+
+## answer_d
+Septate uterus.
+
+## explanation_d
+Incorrect. A septate uterus has a normal external outline with a persistent internal septum from failure of resorption, not failure of fusion.
+
+## topic
+Anatomy
+
+## subtopic
+Female genital development
+
+## main_concept
+CON-GYN-2181937C2327CA
+
+## concept_ids
+CON-GYN-2181937C2327CA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Female genital development
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+Complete failure of paramesonephric fusion produces uterus didelphys (double uterus and vagina).
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.30
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 19=a)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-028
+
+## title
+Uterus bicornis unicollis
+
+## question
+A double uterus with a single cervix and a single vagina is called:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Uterus didelphys.
+
+## explanation_a
+Incorrect. Uterus didelphys has two cervices and a double vagina, reflecting a more complete fusion failure.
+
+## answer_b
+Uterus bicornis bicollis.
+
+## explanation_b
+Incorrect. Uterus bicornis bicollis has two horns AND two cervices.
+
+## answer_c
+Uterus bicornis unicollis.
+
+## explanation_c
+Correct. The lower parts of the paramesonephric ducts fuse normally to form a single cervix and vagina. Failure of fusion limited to the upper parts then produces uterus bicornis unicollis. This gives two uterine horns opening into a single cervix and vagina.
+
+## answer_d
+Septate uterus.
+
+## explanation_d
+Incorrect. A septate uterus has a single normal external outline with an internal septum, from failed resorption rather than failed fusion.
+
+## topic
+Anatomy
+
+## subtopic
+Female genital development
+
+## main_concept
+CON-GYN-767C1688CE4A5F
+
+## concept_ids
+CON-GYN-767C1688CE4A5F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Female genital development
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+A double uterus with a single cervix and vagina is uterus bicornis unicollis.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.30
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.34 (Development section, 23=c)
+kasr: Anatomy MCQ by Dr Jalal [END] bank

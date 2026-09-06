@@ -404,6 +404,18 @@ authored by the concurrent RPR lane), S4-25 (uvula vesicae). Skipped as flawed/l
 pelvic fascia), S4-11 (urethra emerges anterior to apex), S4-20 ("none of the above" but option b —
 deep dorsal vein into prostatic plexus — is defensibly true). S4 skip/exclude ~17/26 (~65%) — section
 fresh-exhausted.
-NEXT Jalal slice: S5 Female genital/rectum/perineum (86 Qs) and S6 Development (30 Qs) —
-the largest still-unmined sections (expect high overlap with Galal repro and the RPR bank). Do NOT
-author penile-urethra=corpus-spongiosum or ureter-arterial-supply=gonadal (both covered by RPR).
+— Authoring pass 2026-09-07, SLICE C (9 fresh MCQs, S6 Development) —
+Authored S6 items: 4 (ureter = mesonephric/ureteric-bud derivative), 14 (seminal vesicle from
+mesonephric duct), 27 (androgens drive mesonephric-duct development), 9 (pelvic urogenital sinus →
+membranous + lower prostatic urethra), 13 (incomplete ureteric-bud division → bifid ureter), 17
+(genital tubercle → clitoris), 25 (glandular male urethra ectodermal), 19 (uterus didelphys), 23
+(uterus bicornis unicollis). 9 concepts (3 REN, 3 AND, 3 GYN), 3 new development articles.
+SKIPPED as dupes: S6-1 double-uterus, S6-2 vesicourethral→upper prostatic urethra, S6-3 round-ligament
+=gubernaculum, S6-6/22/28 paramesonephric derivatives, S6-16 germ-cell migration, S6-18 cloacal folds,
+S6-20 imperforate anus, S6-21 trigone mesodermal, S6-24 urachal cyst, S6-29/30 hindgut. S6 skip ~13/30
+(~43%) — development section fresh-exhausted.
+REMAINING Jalal sections: S5 Female genital/rectum/perineum (86 Qs), S1 Pelvic muscles (8), S2 Pelvic
+peritoneum/nerves/vessels (14), S7 Pituitary (5) — all in domains saturated by the exhausted Galal repro
++ RPR + EOM anatomy tranches (expect >60% dupe). Do NOT re-author penile-urethra=corpus-spongiosum,
+ureter-arterial-supply=gonadal (RPR), uterine-tube=paramesonephric, germ-cell migration or cloacal-folds
+(already in corpus).

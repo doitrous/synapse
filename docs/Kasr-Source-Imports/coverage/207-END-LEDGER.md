@@ -12,9 +12,9 @@
 | galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
 | rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
-| jalal S3+S4 urinary/urethra + male genital (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 19 | 0 | 1 | S3+S4 fresh sets done; S1-2/S5-7 untriaged | ~207 |
-| **207 END module authored (3 EOM + 5 banks)** | **271** | **6** | **2** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 271 | 6 | 2 | untriaged | — |
+| jalal S3+S4+S6 urinary/urethra + male genital + development (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 28 | 0 | 1 | S3+S4+S6 fresh sets done; S1-2/S5/S7 untriaged | ~207 |
+| **207 END module authored (3 EOM + 5 banks)** | **280** | **6** | **2** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 280 | 6 | 2 | untriaged | — |
 
 ## Module opened
 
@@ -667,11 +667,26 @@ S4-7/11/20 flawed/low-yield (apex-on-pelvic-fascia; urethra-emerges-anterior; "n
 option b is defensibly true). S4 skip/exclude ~17/26 (~65%) — the male-genital section is now
 fresh-exhausted.
 
-The 207 END module is now **271 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 +
-RPR 14 + Jalal 19), 6 held, 2 excluded (Jalal Male-Q13 double-mark added). The **RPR bank**
-(fresh-exhausted, 14/3, concurrent lane) is NOT re-authored by this lane. **Next Jalal slice:** mine S5
-(Female genital/rectum/perineum, 86 Qs) and S6 (Development, 30 Qs) — the largest still-unmined sections
-(expect heavy overlap with the exhausted Galal repro bank and the RPR pelvis/perineum bank), then
-S1/S2/S7. NB do NOT author `penile-urethra.location.corpus-spongiosum` or
-`ureter.arterial-supply.testicular-or-ovarian-artery` in later slices — both are already covered by RPR.
-3 department books also remain untriaged.
+**Slice C — 9 authored** from S6 (Development of the ureter, bladder, urethra & genital tract): S6-4
+ureter = mesonephric-duct (ureteric-bud) derivative, S6-14 seminal vesicle from the mesonephric duct,
+S6-27 androgens drive mesonephric-duct development, S6-9 pelvic urogenital sinus → membranous + lower
+prostatic urethra, S6-13 incomplete ureteric-bud division → bifid ureter, S6-17 genital tubercle →
+clitoris, S6-25 glandular male urethra is ectodermal, S6-19 uterus didelphys, S6-23 uterus bicornis
+unicollis. 9 concepts (3 `CON-REN-*`, 3 `CON-AND-*`, 3 `CON-GYN-*`), grouped into 3 new development
+articles (lower-urinary, male-genital, female-genital); collision-checked corpus-wide (0 collisions).
+**Skipped as dupes** (already in the corpus, several from the concurrent RPR lane): S6-1 double-uterus
+(uterine-duct-anomaly.double-uterus), S6-3 round-ligament=gubernaculum, S6-6/22/28 paramesonephric
+derivatives (uterine-tube.development.paramesonephric-duct / excludes-lower-vagina), S6-16 primordial
+germ-cell migration, S6-18 cloacal folds, S6-20 imperforate anus, S6-21 trigone mesodermal, S6-24
+urachal cyst, S6-29/30 hindgut (rectum.embryology.hindgut), S6-2 vesicourethral→upper prostatic urethra.
+S6 skip ~13/30 (~43%) — the development section is now fresh-exhausted for this lane.
+
+The 207 END module is now **280 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 +
+RPR 14 + Jalal 28), 6 held, 2 excluded. The **RPR bank** (fresh-exhausted, 14/3, concurrent lane) is
+NOT re-authored by this lane. **Jalal remaining sections:** S5 (Female genital/rectum/perineum, 86 Qs)
+and S1/S2/S7 (pelvic muscles 8, pelvic peritoneum/nerves/vessels 14, pituitary 5) — all in domains
+heavily saturated by the exhausted Galal repro + RPR + EOM anatomy tranches (expect >60% dupe). NB do
+NOT author `penile-urethra.location.corpus-spongiosum`, `ureter.arterial-supply.testicular-or-ovarian-
+artery` (RPR), `uterine-tube.development.paramesonephric-duct`, `primordial-germ-cells.migration.dorsal-
+mesentery-of-hindgut` or `external-genitalia-development.cloacal-folds.divide-into-genital-and-anal-folds`
+(already in corpus) in later slices. 3 department books also remain untriaged.

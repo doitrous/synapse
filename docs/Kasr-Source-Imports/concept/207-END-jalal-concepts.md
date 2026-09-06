@@ -1,12 +1,14 @@
 <!--
-  Kasr Al Ainy 207 END - concepts for the Anatomy MCQ by Dr Jalal [END] bank (slices A+B, 19 items:
-  urinary bladder, male & female urethra and sphincters [S3]; male genital ducts, glands and their
-  blood supply [S4]). NON-EOM instructor topic bank, sourceId src_2a6c0ccf47e9feb287a3. Each concept minted
-  university-blind: CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased,
-  collision-checked corpus-wide -- no collisions, no in-batch duplicates. Filed under DIS-ANA-T05
-  (abdomen and pelvis) with SYS-AND-T01 (male genital) or SYS-REN-T01 (urinary) system cross-nav.
-  Grouped into three library articles (male urethra & accessory glands; urinary bladder & continence
-  mechanism; male genital ducts, glands & blood supply). None of the exhausted
+  Kasr Al Ainy 207 END - concepts for the Anatomy MCQ by Dr Jalal [END] bank (slices A+B+C, 28 items:
+  urinary bladder, male & female urethra and sphincters [S3]; male genital ducts, glands & blood
+  supply [S4]; development of the ureter, bladder, urethra and genital tract [S6]). NON-EOM
+  instructor topic bank, sourceId src_2a6c0ccf47e9feb287a3. Each concept minted university-blind: CON-<SYS>- + first
+  14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collisions,
+  no in-batch duplicates. Filed under DIS-ANA-T05 (abdomen and pelvis) with SYS-AND-T01 (male
+  genital), SYS-REN-T01 (urinary) or SYS-GYN-T01 (female genital) system cross-nav. Grouped into six
+  library articles (male urethra & glands; bladder & continence; male genital ducts & blood supply;
+  lower-urinary development; male genital development; female genital & external-genitalia
+  development). None of the exhausted
   Galal repro / Galal endo / Medhat / EOM anatomy concepts were reusable (those test different
   atomic claims; near-duplicate stems were skipped -- see the LEDGER). Written from standard
   regional-anatomy teaching (Snell / Last's / Moore level) corroborated by this bank's own keyed
@@ -2097,6 +2099,1014 @@ kau
 KAU_Y2=moderate
 ## clinical_relevance
 0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-REN-AD5EFB17DFF14B
+## label
+The ureter (from the ureteric bud) is a mesonephric-duct derivative
+## canonical_key
+ureter.development.ureteric-bud-mesonephric-duct
+## aliases
+Ureter from the ureteric bud
+Mesonephric-duct derivatives (urinary)
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ureter develops from the ureteric bud (metanephric diverticulum), an outgrowth from the caudal end of the mesonephric (Wolffian) duct. The bud forms the ureter, renal pelvis, major and minor calyces and the collecting tubules, while the metanephric blastema (mesoderm) forms the nephron (glomerulus, Bowman capsule, and the tubules down to the distal convoluted tubule). The ureter is therefore counted among the mesonephric-duct derivatives.
+## explicit_objective
+State that the ureter arises from the ureteric bud, a mesonephric-duct derivative.
+## pitfalls
+Assigning the ureter to the metanephric blastema (which forms the nephron) rather than the ureteric bud from the mesonephric duct.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+renal
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-REN-T01
+## topic
+Anatomy
+## subtopic
+Urinary tract development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Urinary tract development
+## article_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-399CFE51A7D83C
+## label
+The epididymis, vas deferens and seminal vesicle develop from the mesonephric duct
+## canonical_key
+mesonephric-duct.male-derivatives.epididymis-vas-seminal-vesicle
+## aliases
+Mesonephric (Wolffian) duct derivatives in the male
+Seminal vesicle from mesonephric duct
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the male the mesonephric (Wolffian) duct persists and forms the duct of the epididymis, the vas deferens, the seminal vesicle and the ejaculatory duct. The neighbouring mesonephric TUBULES form the efferent ductules (vasa efferentia) and vestiges such as the paradidymis and appendix of epididymis. The prostatic utricle, by contrast, is a paramesonephric/urogenital-sinus derivative.
+## explicit_objective
+List the epididymis, vas deferens and seminal vesicle as mesonephric-duct derivatives in the male.
+## pitfalls
+Confusing derivatives of the mesonephric DUCT (vas, seminal vesicle) with those of the mesonephric TUBULES (efferent ductules, paradidymis).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Anatomy
+## subtopic
+Male genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Male genital development
+## article_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-A4C888119E17F3
+## label
+Testicular androgens induce the mesonephric ducts to form the male genital ducts
+## canonical_key
+mesonephric-duct.male-persistence.androgen-dependent
+## aliases
+Testosterone and the Wolffian ducts
+Fetal testis hormones and genital ducts
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fetal testis controls genital-duct development by two hormones: testosterone from the Leydig cells stimulates the mesonephric (Wolffian) ducts to differentiate into the epididymis, vas deferens and seminal vesicle, while anti-Mullerian hormone (Mullerian-inhibiting substance) from the Sertoli cells causes the paramesonephric ducts to regress. In the absence of a testis (the female pattern) the mesonephric ducts regress and the paramesonephric ducts persist to form the uterine tubes, uterus and upper vagina.
+## explicit_objective
+Explain that testicular androgens drive mesonephric-duct persistence into the male genital ducts.
+## pitfalls
+Overlooking that mesonephric-duct persistence is androgen-dependent, or confusing it with the AMH-mediated regression of the paramesonephric ducts.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Anatomy
+## subtopic
+Male genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Male genital development
+## article_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-REN-939212978FD7B2
+## label
+The pelvic part of the urogenital sinus forms the membranous and lower prostatic urethra
+## canonical_key
+urogenital-sinus.pelvic-part.membranous-and-lower-prostatic-urethra
+## aliases
+Urogenital sinus parts and the urethra
+Pelvic urogenital sinus derivatives
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The urogenital sinus is divided into three parts. The upper (vesical) part forms the urinary bladder and the upper part of the prostatic urethra; the pelvic (middle) part forms the whole female urethra and, in the male, the membranous urethra and the lower part of the prostatic urethra; and the phallic part forms the spongy urethra (with the ectodermal glandular part). All are endodermal except the glandular urethra.
+## explicit_objective
+State that the pelvic part of the urogenital sinus forms the membranous and lower prostatic urethra in the male.
+## pitfalls
+Confusing the vesical part (bladder, upper prostatic urethra) with the pelvic part (membranous, lower prostatic urethra).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+renal
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-REN-T01
+## topic
+Anatomy
+## subtopic
+Urinary tract development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Urinary tract development
+## article_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-REN-EB77C30F35FD52
+## label
+Incomplete division of the ureteric bud produces a bifid ureter
+## canonical_key
+ureteric-bud.incomplete-division.bifid-ureter
+## aliases
+Bifid ureter
+Ureteric-bud division anomalies
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Premature but INCOMPLETE division of the ureteric bud produces a bifid (Y-shaped) ureter, in which two ureters unite before opening into the bladder by a single orifice; it is usually asymptomatic. COMPLETE early division, or a separate accessory bud, instead gives a fully duplicated ureter with two orifices, often with a duplex kidney and a risk of reflux or obstruction.
+## explicit_objective
+Relate incomplete division of the ureteric bud to a bifid ureter (versus complete division causing duplication).
+## pitfalls
+Equating a bifid ureter (incomplete division, one orifice) with complete ureteric duplication (two orifices).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+renal
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-REN-T01
+## topic
+Anatomy
+## subtopic
+Urinary tract development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Urinary tract development
+## article_ids
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-62DD487700D108
+## label
+The genital tubercle forms the clitoris in the female and the glans penis in the male
+## canonical_key
+genital-tubercle.female-derivative.clitoris
+## aliases
+Genital tubercle derivatives
+Clitoris and glans penis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The external genitalia develop from indifferent primordia around the cloacal membrane: the genital tubercle, the paired urogenital (genital) folds and the paired labioscrotal (genital) swellings. Under androgens the tubercle enlarges to the glans penis, the folds fuse to enclose the spongy urethra, and the swellings fuse to the scrotum. Without androgens the tubercle elongates only slightly to the clitoris, the folds remain unfused as the labia minora, and the swellings form the labia majora.
+## explicit_objective
+State that the genital tubercle forms the clitoris in the female and the glans penis in the male.
+## pitfalls
+Swapping the derivatives of the urogenital folds (labia minora) and the labioscrotal swellings (labia majora), or misplacing hypospadias to the dorsum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+External genitalia development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > External genitalia development
+## article_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-C446FA796112CA
+## label
+The glandular (distal) part of the male urethra is ectodermal in origin
+## canonical_key
+penile-urethra.glandular-part.ectodermal-origin
+## aliases
+Glandular urethra ectodermal
+Distal penile urethra origin
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Most of the urethra is endodermal (from the urogenital sinus), but the distal glandular part within the glans penis, including the navicular fossa and external meatus, forms from an ingrowth of surface ECTODERM. This ectodermal plate canalises and joins the endodermal spongy urethra. Failure of this fusion at the ventral surface produces the commonest form of hypospadias.
+## explicit_objective
+State that the glandular (distal) part of the male urethra is ectodermal in origin.
+## pitfalls
+Assuming the entire urethra is endodermal and forgetting the ectodermal glandular segment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Anatomy
+## subtopic
+Male genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Male genital development
+## article_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-2181937C2327CA
+## label
+Uterus didelphys is a double uterus with a double vagina from complete fusion failure
+## canonical_key
+uterine-fusion-anomaly.uterus-didelphys.double-uterus-double-vagina
+## aliases
+Uterus didelphys
+Double uterus and double vagina
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The uterus and upper vagina form by fusion of the lower parts of the two paramesonephric (Mullerian) ducts. Complete failure of this fusion produces uterus didelphys: two separate uterine bodies, two cervices and usually a double vagina. It is the most complete of the fusion anomalies, in contrast to the partial defects (bicornis, septate).
+## explicit_objective
+Recognise uterus didelphys as a double uterus with double vagina from complete paramesonephric fusion failure.
+## pitfalls
+Confusing didelphys (two cervices, double vagina) with bicornis unicollis (single cervix and vagina).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Female genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Female genital development
+## article_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy (Snell / Last's / Moore-level) teaching corroborated by this bank's own keyed stem/options (printed answer-key table, native text pp.33-34); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-767C1688CE4A5F
+## label
+Uterus bicornis unicollis is a double uterus with a single cervix and vagina
+## canonical_key
+uterine-fusion-anomaly.bicornis-unicollis.double-uterus-single-cervix
+## aliases
+Uterus bicornis unicollis
+Two horns, one cervix
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When the lower parts of the paramesonephric ducts fuse normally to form a single cervix and vagina but the upper parts fail to fuse, the result is uterus bicornis unicollis: two uterine horns opening into a single cervix and vagina. It is an intermediate fusion defect, less complete than uterus didelphys (two cervices, double vagina) and distinct from a septate uterus (normal outline with a persistent internal septum from failed resorption).
+## explicit_objective
+Recognise uterus bicornis unicollis as a double uterus with a single cervix and vagina.
+## pitfalls
+Confusing bicornis unicollis (single cervix) with didelphys (two cervices) or a septate uterus (failed resorption).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Female genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Female genital development
+## article_ids
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
 ## academic_relevance
 0.8
 ## weight_confidence

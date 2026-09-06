@@ -1,8 +1,9 @@
 <!--
-  Kasr Al Ainy 207 END - library articles for the Anatomy MCQ by Dr Jalal [END] bank (slices A+B).
-  Three articles group the nineteen urinary/urethral/male-genital gross-anatomy concepts: the male
-  urethra and its glands (androl), the urinary bladder, urethral sphincters and continence (renal),
-  and the male genital ducts, glands and their blood supply (androl). NON-EOM instructor
+  Kasr Al Ainy 207 END - library articles for the Anatomy MCQ by Dr Jalal [END] bank (slices A+B+C).
+  Six articles group the twenty-eight urinary/urethral/male-genital gross-anatomy and development
+  concepts: male urethra & glands, bladder & continence, male genital ducts & blood supply (gross
+  anatomy), plus lower-urinary development, male genital development, and female genital &
+  external-genitalia development (embryology). NON-EOM instructor
   topic bank, sourceId src_2a6c0ccf47e9feb287a3. Filed under DIS-ANA-T05 (abdomen and pelvis) with SYS-AND-T01 /
   SYS-REN-T01 system cross-nav. Written from standard regional-anatomy teaching (Snell / Last's /
   Moore level) corroborated by this bank's own keyed stems and options (printed answer-key table,
@@ -251,6 +252,270 @@ CON-AND-35267959C72D5B
 CON-AND-9C891A68A59878
 CON-AND-D6D37AE4B4FE2F
 CON-AND-C42F53FDFAE992
+## related_articles
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard regional-anatomy teaching (Snell / Last's / Moore-level) corroborated by this bank's own keyed stems and options (printed answer-key table, native text pp.33-34).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-REN-207END-JALAL-LOWER-URINARY-DEVELOPMENT
+## title
+Development of the ureter, bladder and urethra
+## subject
+renal
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+The ureter and collecting system arise from the ureteric bud, an outgrowth of the mesonephric duct; incomplete division of the bud gives a bifid ureter. The urogenital sinus forms the lower urinary tract: its vesical part the bladder, and its pelvic part the whole female urethra and, in the male, the membranous urethra and lower prostatic urethra.
+## sections
+### Definition
+This article groups the lower-urinary developmental facts tested by the Jalal bank: the ureteric-bud (mesonephric-duct) origin of the ureter and collecting system, the bifid-ureter anomaly of incomplete bud division, and the derivatives of the pelvic part of the urogenital sinus (membranous and lower prostatic urethra).
+### Mechanism
+The ureteric bud and metanephric blastema induce each other to form the kidney and ureter, while the endodermal urogenital sinus is partitioned by the growth of the urorectal septum and later canalises into the bladder and urethra.
+### Key determinants
+Discriminators tested here: ureteric bud (ureter, collecting system) versus metanephric blastema (nephron); bifid ureter (incomplete division, one orifice) versus duplicated ureter (complete division, two orifices); and vesical (bladder, upper prostatic urethra) versus pelvic (membranous, lower prostatic urethra) parts of the urogenital sinus.
+### Clinical significance
+These points underlie duplex-kidney and bifid-ureter anomalies, urachal remnants, and the interpretation of congenital urethral defects.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in these questions are built from exactly those reversals.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Anatomy > Urinary tract development
+## subtopic
+Urinary tract development
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-REN-T01
+## related_concepts
+CON-REN-AD5EFB17DFF14B
+CON-REN-939212978FD7B2
+CON-REN-EB77C30F35FD52
+## related_articles
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard regional-anatomy teaching (Snell / Last's / Moore-level) corroborated by this bank's own keyed stems and options (printed answer-key table, native text pp.33-34).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-AND-207END-JALAL-MALE-GENITAL-DEVELOPMENT
+## title
+Development of the male genital ducts and urethra
+## subject
+androl
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+Under testosterone from the fetal testis the mesonephric (Wolffian) ducts persist to form the epididymis, vas deferens and seminal vesicle, while anti-Mullerian hormone regresses the paramesonephric ducts. Most of the male urethra is endodermal (from the urogenital sinus), but its distal glandular part is ectodermal.
+## sections
+### Definition
+This article groups the male genital developmental facts tested by the Jalal bank: the mesonephric-duct origin of the epididymis, vas deferens and seminal vesicle, the androgen-dependence of that persistence, and the ectodermal origin of the glandular (distal) part of the male urethra.
+### Mechanism
+The fetal Leydig cells secrete testosterone that stabilises the Wolffian ducts, and the Sertoli cells secrete anti-Mullerian hormone that regresses the Mullerian ducts; the glandular urethra forms separately as an ectodermal ingrowth at the glans that canalises to join the endodermal urethra.
+### Key determinants
+Discriminators tested here: mesonephric DUCT derivatives (vas, seminal vesicle) versus mesonephric TUBULE derivatives (efferent ductules, paradidymis); androgen-driven duct persistence versus AMH-driven paramesonephric regression; and the ectodermal glandular urethra versus the endodermal remainder.
+### Clinical significance
+These points underlie disorders of sex development, the pattern of Wolffian versus Mullerian remnants, and the embryology of hypospadias.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in these questions are built from exactly those reversals.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Anatomy > Male genital development
+## subtopic
+Male genital development
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## related_concepts
+CON-AND-399CFE51A7D83C
+CON-AND-A4C888119E17F3
+CON-AND-C446FA796112CA
+## related_articles
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard regional-anatomy teaching (Snell / Last's / Moore-level) corroborated by this bank's own keyed stems and options (printed answer-key table, native text pp.33-34).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-GYN-207END-JALAL-FEMALE-GENITAL-DEVELOPMENT
+## title
+Development of the female genital tract and external genitalia
+## subject
+gyn
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+The genital tubercle forms the clitoris in the female (and the glans penis in the male). The uterus and upper vagina form by fusion of the lower paramesonephric ducts; complete failure of fusion gives uterus didelphys (double uterus and vagina) and partial failure gives uterus bicornis unicollis (double uterus, single cervix and vagina).
+## sections
+### Definition
+This article groups the female genital developmental facts tested by the Jalal bank: the genital-tubercle origin of the clitoris, and the paramesonephric-fusion anomalies (uterus didelphys and uterus bicornis unicollis).
+### Mechanism
+The paired paramesonephric (Mullerian) ducts fuse in the midline from below upward to form the uterus and upper vagina; the degree and level of a fusion failure determines which anomaly results, while a septate uterus arises from failed resorption of the fusion septum rather than failed fusion.
+### Key determinants
+Discriminators tested here: genital tubercle (clitoris/glans) versus folds (labia minora) and swellings (labia majora); and didelphys (two cervices, double vagina) versus bicornis unicollis (single cervix and vagina) versus septate uterus (failed resorption).
+### Clinical significance
+These points underlie the recognition and classification of Mullerian-duct anomalies and their obstetric significance.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in these questions are built from exactly those reversals.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Anatomy > Female genital development
+## subtopic
+Female genital development
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## related_concepts
+CON-GYN-62DD487700D108
+CON-GYN-2181937C2327CA
+CON-GYN-767C1688CE4A5F
 ## related_articles
 
 ## resource_ids
