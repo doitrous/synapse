@@ -19,14 +19,24 @@ export function registerSeoArticleRoutes(app) {
       const { skipped, rows } = toRows(v.payload)
       if (!rows.length) return res.status(400).json({ error: 'no supported languages' })
       const results = []
-      for (const r of rows) {
-        await pool.query(
-          `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials)
-           VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-           ON DUPLICATE KEY UPDATE slug=VALUES(slug), title=VALUES(title), meta_title=VALUES(meta_title), meta_description=VALUES(meta_description), body_md=VALUES(body_md), body_html=VALUES(body_html), faq=VALUES(faq), schema_jsonld=VALUES(schema_jsonld), image_url=VALUES(image_url), image_alt=VALUES(image_alt), author_name=VALUES(author_name), author_credentials=VALUES(author_credentials)`,
-          [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials])
-        const [[row]] = await pool.query('SELECT id FROM seo_articles WHERE external_id=? AND lang=?', [r.external_id, r.lang])
-        results.push({ lang: r.lang, remoteId: String(row.id), remoteUrl: `${PUBLIC_ORIGIN}/blog/${r.lang}/${r.slug}` })
+      const conn = await pool.getConnection()
+      try {
+        await conn.beginTransaction()
+        for (const r of rows) {
+          await conn.query(
+            `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials)
+             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+             ON DUPLICATE KEY UPDATE slug=VALUES(slug), title=VALUES(title), meta_title=VALUES(meta_title), meta_description=VALUES(meta_description), body_md=VALUES(body_md), body_html=VALUES(body_html), faq=VALUES(faq), schema_jsonld=VALUES(schema_jsonld), image_url=VALUES(image_url), image_alt=VALUES(image_alt), author_name=VALUES(author_name), author_credentials=VALUES(author_credentials)`,
+            [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials])
+          const [[row]] = await conn.query('SELECT id FROM seo_articles WHERE external_id=? AND lang=?', [r.external_id, r.lang])
+          results.push({ lang: r.lang, remoteId: String(row.id), remoteUrl: `${PUBLIC_ORIGIN}/blog/${r.lang}/${r.slug}` })
+        }
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      } finally {
+        conn.release()
       }
       res.json({ results, skipped })
     } catch (e) { next(e) }
@@ -42,15 +52,19 @@ export function registerSeoArticleRoutes(app) {
   app.get('/blog/:lang/:slug', async (req, res, next) => {
     try {
       if (!SUPPORTED.includes(req.params.lang)) return next()
-      const [rows] = await pool.query('SELECT * FROM seo_articles WHERE slug=?', [req.params.slug])
-      const row = rows.find((r) => r.lang === req.params.lang)
+      const [rows] = await pool.query('SELECT * FROM seo_articles WHERE slug=? AND lang=?', [req.params.slug, req.params.lang])
+      const row = rows[0]
       if (!row) return res.status(404).type('html').send('<!doctype html><title>Not found</title><h1>404</h1>')
-      res.type('html').set('Cache-Control', 'public, max-age=300').send(articlePage(parseRow(row), rows.map((r) => r.lang), PUBLIC_ORIGIN))
+      // Siblings are the other languages of the SAME job, keyed by external_id —
+      // not just anything sharing this slug, which two different jobs can (see
+      // seoArticles.js sitemapXml for the matching grouping).
+      const [siblings] = await pool.query('SELECT lang FROM seo_articles WHERE external_id=?', [row.external_id])
+      res.type('html').set('Cache-Control', 'public, max-age=300').send(articlePage(parseRow(row), siblings.map((r) => r.lang), PUBLIC_ORIGIN))
     } catch (e) { next(e) }
   })
   app.get('/sitemap.xml', async (_req, res, next) => {
     try {
-      const [rows] = await pool.query('SELECT lang, slug, updated_at FROM seo_articles ORDER BY updated_at DESC')
+      const [rows] = await pool.query('SELECT external_id, lang, slug, updated_at FROM seo_articles ORDER BY updated_at DESC')
       res.type('application/xml').set('Cache-Control', 'public, max-age=3600').send(sitemapXml(rows, PUBLIC_ORIGIN))
     } catch (e) { next(e) }
   })

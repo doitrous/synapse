@@ -17,6 +17,10 @@ export function validatePayload(body) {
 }
 
 const stripRawHtml = (md) => md.replace(/<\s*\/?\s*(script|iframe|object|embed|style)[^>]*>/gi, '').replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|\S+)/gi, '')
+  // Markdown link/image targets ([text](url) / ![alt](url)) that resolve to a
+  // script-running scheme once marked renders them into an href/src — swap the
+  // target for a harmless in-page anchor instead of dropping the whole markup.
+  .replace(/(!?\[[^\]]*\]\()\s*(?:javascript|data|vbscript):[^)]*(\))/gi, '$1#$2')
 export function renderBody(md) {
   const html = marked.parse(stripRawHtml(md.replace(/^# .*\n?/m, '')), { async: false })
   return html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" rel="noopener" target="_blank"')
@@ -60,7 +64,9 @@ export function articlePage(row, langsStored, origin) {
 }
 export function indexPage(lang, rows, origin) {
   const t = T[lang]
-  const head = `<title>${t.blog} · Nishany</title><link rel="canonical" href="${origin}/blog/${lang}">` + SUPPORTED.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}">`).join('')
+  const head = `<title>${t.blog} · Nishany</title><link rel="canonical" href="${origin}/blog/${lang}">`
+    + SUPPORTED.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}">`).join('')
+    + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/en">`
   const cards = rows.map((r) => `<div class="card"><h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`).join('')
   return shell(lang, head, `<h1>${t.blog}</h1>${cards}`)
 }
@@ -79,11 +85,14 @@ export const STATIC_URLS = [
 ]
 export function sitemapXml(rows, origin) {
   const u = (loc, alternates, lastmod) => `<url><loc>${origin}${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}${Object.entries(alternates).map(([l, p]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${origin}${p}"/>`).join('')}</url>`
-  const bySlug = new Map()
-  for (const r of rows) { if (!bySlug.has(r.slug)) bySlug.set(r.slug, []); bySlug.get(r.slug).push(r) }
-  const articleUrls = [...bySlug.values()].flatMap((group) => {
-    // Grouped by the raw slug; escaped only where it lands in the XML below —
-    // same reasoning as articlePage/indexPage, slug is hub-supplied and unrestricted.
+  // Grouped by external_id, not slug: two different jobs can share a slug in
+  // different languages (each (lang, slug) pair is only unique within one
+  // language), and those must NOT be linked to each other as hreflang alternates.
+  const byExternalId = new Map()
+  for (const r of rows) { if (!byExternalId.has(r.external_id)) byExternalId.set(r.external_id, []); byExternalId.get(r.external_id).push(r) }
+  const articleUrls = [...byExternalId.values()].flatMap((group) => {
+    // slug is hub-supplied and unrestricted in format; escaped only where it
+    // lands in the XML below — same reasoning as articlePage/indexPage.
     const alternates = Object.fromEntries(group.map((r) => [r.lang, `/blog/${r.lang}/${esc(r.slug)}`]))
     return group.map((r) => u(`/blog/${r.lang}/${esc(r.slug)}`, alternates, r.updated_at ? new Date(r.updated_at).toISOString().slice(0, 10) : undefined))
   })
