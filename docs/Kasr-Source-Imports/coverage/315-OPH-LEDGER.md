@@ -9,7 +9,7 @@
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
 | kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
-| kamal-ch8-retina | 55 | 17 | 18 | 90 |
+| kamal-ch8-retina | 73 | 17 | 0 | 90 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -198,4 +198,26 @@
 - Deferred-for-adjudication count: was ~48, +13 multi-true (Q35,42,43,45,46,47,48,50,51,53,54,55,58) = ~61.
 - NEXT cluster: Ch.8 Q73-Q90 (18 remaining; watch for more multi-statement vignettes and the T/F 13-case
   section), then OPEN Ch.9 The eye and the brain (bank PDF p.129+, answer key p.6, ~72 MCQs) — new file
+  question/315-OPH-kamal-ch9-eye-brain-mcq.md + new ART-OPH-315-NEURO-OPHTHALMOLOGY, node DIS-OPH-T05.
+
+## Tranche 17 (2026-09-06): Chapter 8 The retina Q73-90 — 18 MCQs — Ch.8 COMPLETE
+- Authored all 18 remaining Ch.8 stems as clean single-best 4-option MCQs (Q73-90) into
+  question/315-OPH-kamal-ch8-retina-mcq.md (node DIS-OPH-T04, article ART-OPH-315-RETINA), in two pushed
+  micro-slices: Slice A Q73-82 (10), Slice B Q83-90 (8). 0 held (all keyed, all single-best). Keys from
+  answer-key p.5-6 Ch.8 table, each re-verified vs option text:
+  Q73.C Q74.B Q75.D Q76.A Q77.D Q78.C Q79.C Q80.C Q81.C Q82.D Q83.A Q84.C Q85.A Q86.D Q87.D Q88.D Q89.B Q90.B.
+- Concepts: 4 new on DIS-OPH-T04, all added to ART-OPH-315-RETINA related_concepts:
+  CRAO sudden-painless-loss ocular emergency requiring rapid IOP reduction CON-MUL-89A02837D12611 (Q73);
+  choroidal neovascular membrane manifestations+causes CON-MUL-14ACFBCF209397 (Q79/80/81/82);
+  dry AMD drusen+geographic atrophy CON-MUL-58CD566E688FDF (Q83);
+  tractional RD from diabetic retinopathy CON-MUL-24625CAF40326B (Q85).
+- Reused 6 existing concepts (foreign glaucoma concept CON-MUL-617A93033CA1F5 neovascular glaucoma from
+  ischaemic RVO added to RETINA related_concepts for Q74; plus CRVO anti-VEGF CON-MUL-5A65937865AF60 Q75;
+  iris neovascularisation CON-MUL-2D5537A21D4226 Q76; CRAO cherry-red spot CON-MUL-D6D8B1DAE97079 Q77/Q78;
+  exudative RD causes CON-MUL-634453721573C2 Q84; RRD risk factors CON-MUL-0BCA326DF12B10 Q87; choroidal
+  melanoma CON-MUL-C72572221990A6 Q86/Q88; RP hereditary rod-cone CON-MUL-AC77FFD34417FF Q89/Q90).
+- Gates: each micro-slice gate.mjs batch errors=0 (cumulative items 65/73 with concept+article+resource
+  siblings). Committed+pushed to origin/main immediately (e85e1763 / 5d71eeca).
+- Ch.8 now COMPLETE: 73 authored + 17 held = 90; remaining 0. The T/F 13-case section (post-Q90) is out of scope.
+- NEXT cluster: OPEN Ch.9 The eye and the brain (bank PDF p.129+, answer key p.6, 72 MCQs) — new file
   question/315-OPH-kamal-ch9-eye-brain-mcq.md + new ART-OPH-315-NEURO-OPHTHALMOLOGY, node DIS-OPH-T05.
