@@ -983,3 +983,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-11
+## title
+Blunt trauma and the iris — EXCEPT
+## question
+Blunt trauma can affect the iris as follows EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Traumatic mydriasis.
+## explanation_a
+Incorrect (a genuine blunt effect). Traumatic mydriasis is a common iris response to a blunt blow.
+## answer_b
+Iridodialysis and D shaped pupil.
+## explanation_b
+Incorrect (a genuine blunt effect). Iridodialysis produces a D-shaped pupil.
+## answer_c
+Lost anterior chamber and anterior iris displacement.
+## explanation_c
+Correct. A lost anterior chamber with anterior iris displacement is a penetrating open-globe sign, not a blunt iris effect; it is the exception.
+## answer_d
+Iris sphincter tear.
+## explanation_d
+Incorrect (a genuine blunt effect). Sphincter tears follow a blunt blow.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-3E40A16E963B04
+## concept_ids
+CON-MUL-3E40A16E963B04
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude a lost anterior chamber with iris displacement from blunt iris injuries.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.166); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-12
+## title
+Sharp penetrating trauma results — EXCEPT
+## question
+Penetrating ocular trauma by sharp objects can result in all of the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Surgical emphysema.
+## explanation_a
+Correct. Surgical emphysema follows a fracture into an air sinus (blunt orbital trauma); it is the exception here.
+## answer_b
+Vitreous loss.
+## explanation_b
+Incorrect (a genuine result). A sharp penetrating wound can cause vitreous loss.
+## answer_c
+Intra ocular foreign body.
+## explanation_c
+Incorrect (a genuine result). A sharp object may lodge as an intraocular foreign body.
+## answer_d
+Hypotony.
+## explanation_d
+Incorrect (a genuine result). A leaking open globe causes hypotony.
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## main_concept
+CON-MUL-A229C532FFBB90
+## concept_ids
+CON-MUL-A229C532FFBB90
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude surgical emphysema from the results of sharp penetrating ocular trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-13
+## title
+Ocular surface foreign body
+## question
+Regarding an ocular surface foreign body:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+It is mostly metallic.
+## explanation_a
+Correct. An ocular surface foreign body is most often metallic.
+## answer_b
+It is mostly asymptomatic.
+## explanation_b
+Incorrect. It is usually very symptomatic (pain, foreign-body sensation, watering).
+## answer_c
+In adults, it needs general anesthesia to be removed.
+## explanation_c
+Incorrect. In adults it is removed under topical anaesthesia, not general anaesthesia.
+## answer_d
+Ocular anesthetics can be prescribed for home use to avoid pain.
+## explanation_d
+Incorrect. Topical anaesthetics must never be given for home use; they delay healing and mask damage.
+## topic
+Ophthalmology
+## subtopic
+Ocular surface foreign body
+## main_concept
+CON-MUL-208264F4BF03E3
+## concept_ids
+CON-MUL-208264F4BF03E3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that an ocular surface foreign body is mostly metallic.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-14
+## title
+Ocular chemical injury — all true EXCEPT
+## question
+Regarding ocular chemical injury all is true EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Alkalis are more serious than acids.
+## explanation_a
+Incorrect (a true statement). Alkalis penetrate deeply and are more serious than acids.
+## answer_b
+Antidotes are mandatory for proper management.
+## explanation_b
+Correct. No specific antidote is mandatory; immediate irrigation is the key measure. This is the false statement.
+## answer_c
+Topical steroids and antibiotics are indicated.
+## explanation_c
+Incorrect (a true statement). Topical steroids and antibiotics are used in management.
+## answer_d
+Immediate profuse irrigation with any source of water is demanded.
+## explanation_d
+Incorrect (a true statement). Immediate profuse irrigation with any water source is demanded.
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## main_concept
+CON-MUL-1F4608D4575C91
+## concept_ids
+CON-MUL-1F4608D4575C91
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify that antidotes are not mandatory in a chemical eye injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-15
+## title
+Rosette-shaped cataract
+## question
+Rosette shaped cataract is characteristic of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Senile cataract.
+## explanation_a
+Incorrect. Senile cataract is nuclear/cortical, not rosette-shaped.
+## answer_b
+Secondary to diabetes.
+## explanation_b
+Incorrect. Diabetic cataract is a snowflake cortical opacity, not a rosette.
+## answer_c
+Radiation induced cataract.
+## explanation_c
+Incorrect. Radiation cataract is posterior subcapsular, not rosette-shaped.
+## answer_d
+Traumatic cataract with blunt trauma.
+## explanation_d
+Correct. A rosette (flower-shaped) cataract is characteristic of blunt traumatic injury to the lens.
+## topic
+Ophthalmology
+## subtopic
+Traumatic cataract
+## main_concept
+CON-MUL-7786E35CF8CA73
+## concept_ids
+CON-MUL-7786E35CF8CA73
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the rosette-shaped cataract as characteristic of blunt trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
