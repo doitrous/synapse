@@ -9,6 +9,7 @@ import { nishanyCopy } from './nishanyContent'
 import type { LandingContent } from './content'
 import { TRIAL_PATH } from './sections/shared'
 import { HeroSection } from './sections/HeroSection'
+import { ShowcaseSection } from './sections/ShowcaseSection'
 import { RoadmapSection } from './sections/RoadmapSection'
 import { ConceptMasterySection } from './sections/ConceptMasterySection'
 import { WeakConceptSection } from './sections/WeakConceptSection'
@@ -120,6 +121,8 @@ export function LandingShell({ content }: { content: LandingContent }) {
           <p className="mt-4 inline-flex items-center gap-2 text-[12.5px] font-medium text-ink-2"><Icon icon={Check} size={14} className="text-success" />{c.hero.trust}</p>
         </section>
 
+        <ShowcaseSection lang="ar" />
+
         {/* Three steps */}
         <section id="why-nishany" className="grid scroll-mt-24 gap-10 border-t border-line py-16 sm:py-20 md:grid-cols-3 md:gap-14">
           {c.steps.map((step) => (
@@ -175,6 +178,7 @@ export function LandingShell({ content }: { content: LandingContent }) {
   return (
     <MarketingShell c={content}>
       <HeroSection />
+      <ShowcaseSection />
       <RoadmapSection id="why-nishany" />
       <ConceptMasterySection />
       <WeakConceptSection />
