@@ -17715,3 +17715,1323 @@ authored_needs_independent_evidence
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 4-6 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against 6304 live+pending IDs and the module concept file; new concept. Second triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q25-51), de-duplicated against the ~137 already-authored 205 NEU stems before authoring.
 
 ---
+
+---
+
+# Item
+## id
+CON-NEU-5BBA8F3B399722
+## label
+The synaptic cleft is filled with Na+-rich extracellular fluid, and CNS neurons communicate mainly through chemical, dynamic synapses
+## canonical_key
+synapse.cleft.extracellular-fluid-sodium-rich
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The synaptic cleft is the narrow (~20 nm) extracellular gap between the pre- and postsynaptic membranes; it is continuous with the interstitial fluid, so it is filled with extracellular fluid rich in Na+ and the other ions of ECF. In the mammalian CNS the great majority of interneuronal communication is through CHEMICAL synapses, not electrical ones, and these are dynamic, plastic structures whose strength changes with use. The vesicle-associated SNARE (v-SNARE/synaptobrevin) sits on the synaptic vesicle membrane, pairing with target-SNAREs (syntaxin, SNAP-25) on the presynaptic plasma membrane to drive vesicle fusion.
+## explicit_objective
+State that the synaptic cleft contains Na+-rich extracellular fluid and recognise chemical synapses as the dynamic, predominant mode of CNS communication.
+## pitfalls
+Believing neurons communicate mostly by electrical synapses, treating synapses as static, or placing v-SNARE on the presynaptic membrane (it is on the vesicle membrane).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > The Synapse
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is correct as regards the synapse? a- Neurons communicate with each other mostly through electrical synapses b- V-SNARE protein is present on the presynaptic membrane c- They are static structures d- The synaptic cleft contains fluid that is rich in Na+" ANSWER: d (205 NEU EOM 2023, Q53)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-3478CDD5247D54
+## label
+The grand (summated) postsynaptic potential makes the membrane more excitable when EPSPs exceed IPSPs
+## canonical_key
+synapse.summation.epsp-ipsp-net-excitability
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At any instant a postsynaptic neuron sums all the excitatory (EPSP) and inhibitory (IPSP) inputs converging on it into a single net, or grand, postsynaptic potential. When the algebraic sum favours excitation (EPSPs greater than IPSPs) the membrane is depolarised toward threshold and becomes more excitable, and if the net depolarisation reaches threshold an action potential is fired. When IPSPs dominate the membrane is hyperpolarised, moved away from threshold, and becomes less excitable. Summation is both spatial (many terminals at once) and temporal (rapid repeated firing of one terminal).
+## explicit_objective
+Explain that the net postsynaptic potential reflects EPSP minus IPSP, so the membrane is more excitable when EPSPs exceed IPSPs.
+## pitfalls
+Assuming a single EPSP fires the neuron, or thinking summation of IPSPs could cause firing (IPSPs hyperpolarise and oppose firing).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Summation and Postsynaptic Potentials
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Grand post-synaptic potential may cause the postsynaptic membrane to: a- be more excitable if EPSPs are more than IPSPs b- be less excitable if IPSPs are lesser than EPSPs c- reach firing if there is summation of IPSPs d- propagate easily when it is hyperpolarized" ANSWER: a (205 NEU EOM 2023, Q55)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-D66D6963A2AF87
+## label
+Synaptic fatigue is caused by exhaustion (depletion) of neurotransmitter stores in the presynaptic terminal
+## canonical_key
+synapse.fatigue.neurotransmitter-depletion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Synaptic fatigue is the progressive decline in postsynaptic response when a synapse is driven at a high rate for a prolonged period. Its main cause is exhaustion of the readily releasable stores of neurotransmitter in the presynaptic terminal faster than they can be resynthesised and repackaged. Fatigue is protective: it limits over-excitation of neural circuits and is one mechanism that helps terminate epileptic-type runaway discharge. It reflects a presynaptic supply limit, not activation of postsynaptic receptors or increased discharge from the postsynaptic neuron.
+## explicit_objective
+Attribute synaptic fatigue to presynaptic depletion of transmitter stores and recognise its protective, anti-over-excitation role.
+## pitfalls
+Attributing fatigue to postsynaptic receptor activation or to increased postsynaptic discharge, rather than to presynaptic transmitter depletion.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Synaptic Fatigue
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"As regards fatigue of synaptic transmission, which of the following is correct? a- It is due to activation of postsynaptic receptors b- It is due to exhaustion of neurotransmitters in presynaptic terminal c- It helps over-excitation of neurons d- occurs due to increased impulses discharge from post synaptic neuron" ANSWER: b (205 NEU EOM 2023, Q56)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-0965E77F4CD34C
+## label
+Ionotropic receptors are ligand-gated ion channels that alter neuronal activity directly by opening ion channels
+## canonical_key
+receptor.ionotropic.ligand-gated-ion-channel
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ionotropic receptors are membrane proteins that are themselves ligand-gated ion channels: transmitter binding opens an intrinsic pore, letting ions flow and changing the membrane potential directly and rapidly (milliseconds). This is distinct from metabotropic (G-protein-coupled) receptors, which act indirectly and more slowly through second messengers such as cAMP or IP3. Ionotropic receptors are gated by their ligand, not by voltage, which separates them from voltage-gated channels of the action potential. Examples include the nicotinic ACh receptor, ionotropic glutamate (AMPA/NMDA) and GABA-A receptors.
+## explicit_objective
+Define ionotropic receptors as ligand-gated ion channels producing fast, direct changes in neuronal activity, contrasting them with metabotropic and voltage-gated channels.
+## pitfalls
+Confusing ionotropic (direct, ligand-gated channel) with metabotropic receptors (indirect via cAMP/IP3) or with voltage-gated channels.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic receptors
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Receptors
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Ionotropic receptors: a- affect the neuronal activity through activating ion channels b- affect neuronal activity directly by changing levels of intracellular cAMP c- act by increasing intracellular IP3 d- act by voltage gated ion channels" ANSWER: a (205 NEU EOM 2023, Q57)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-9E53D91C699A05
+## label
+The micturition reflex is modulated by bladder sensory signals and brainstem/cortical centres; voluntary control comes from the cerebral cortex, not the spinal cord
+## canonical_key
+micturition.reflex.voluntary-control-cerebral-cortex
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Micturition is basically a spinal (sacral, S2-S4) reflex triggered by stretch receptors in the bladder wall, but it is normally modulated by higher centres. Facilitatory and inhibitory signals descend from the pons (pontine micturition/storage centres) and brainstem, and VOLUNTARY control of micturition is exercised from the CEREBRAL CORTEX, which can inhibit or permit the reflex. Voluntary control is therefore cortical, not something initiated from the spinal cord; the spinal cord carries the basic reflex arc. Loss of the cortical/brainstem influence (e.g. after cord transection) leaves an automatic reflex bladder.
+## explicit_objective
+List the signals modulating the micturition reflex and recognise that voluntary control is cortical, not spinal.
+## pitfalls
+Stating that voluntary control of micturition is initiated from the spinal cord; the cord carries the basic reflex, but voluntary control is cortical.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Autonomic and visceral reflexes
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Autonomic and Visceral Control > Micturition Reflex
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The micturition reflex is influenced by all of the following signals Except: a- Sensory signals from receptors in the wall of the urinary bladder b- Facilitatory and inhibitory signals from the brain stem c- Voluntary control initiated from spinal cord d- Voluntary control from cerebral cortex" ANSWER: c (205 NEU EOM 2023, Q58)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-BAC4706B38ACD9
+## label
+Tetanus toxin blocks release of the inhibitory transmitters glycine and GABA in the CNS, causing spastic paralysis
+## canonical_key
+tetanustoxin.mechanism.blocks-glycine-gaba-spastic-paralysis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tetanus toxin (tetanospasmin) is taken up by motor nerve terminals, transported retrogradely to the spinal cord, and there blocks the release of the INHIBITORY transmitters glycine and GABA from inhibitory interneurons (e.g. Renshaw cells). Removing this inhibition leaves motor neurons unopposed, so muscles contract excessively, giving SPASTIC paralysis with rigidity and spasms (e.g. lockjaw, opisthotonus). This contrasts with botulinum toxin, which blocks acetylcholine release at the neuromuscular junction and causes FLACCID paralysis. The core defect in tetanus is loss of central inhibition, not loss of excitatory transmission.
+## explicit_objective
+Explain that tetanus toxin produces spastic paralysis by blocking release of the inhibitory transmitters glycine and GABA in the CNS.
+## pitfalls
+Confusing tetanus (blocks inhibitory glycine/GABA release -> spastic paralysis) with botulinum toxin (blocks ACh release -> flaccid paralysis).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Toxins and Transmitters
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tetanus toxin leads to: a- spastic paralysis due to inhibition of GABA or glycine in CNS b- convulsions due to competitive inhibition with inhibitory transmitters c- flaccid paralysis due to inhibition of acetyl choline release d- flaccid paralysis due to inhibition of GABA release" ANSWER: a (205 NEU EOM 2023, Q60)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E16413E08270D4
+## label
+The hippocampus is the brain region most activated during learning and the formation of short-term (declarative) memory
+## canonical_key
+hippocampus.function.learning-short-term-memory
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The hippocampus, part of the limbic system in the medial temporal lobe, is the region most engaged during learning and the acquisition of new declarative memories, and in the consolidation of short-term into long-term memory. Bilateral hippocampal damage causes anterograde amnesia, an inability to form new long-term memories, while older memories and immediate working memory are relatively spared. The cerebellum is concerned with motor coordination and motor (procedural) learning, and the thalamus is a relay, so neither is the primary site for declarative learning and short-term memory.
+## explicit_objective
+Identify the hippocampus as the principal region for learning and short-term (declarative) memory formation.
+## pitfalls
+Attributing declarative learning/short-term memory to the cerebellum (motor learning) or thalamus (relay) instead of the hippocampus.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Higher cortical functions
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Higher Functions > Learning and Memory
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which part of the brain is mostly activated during learning and short term memory? a- Cerebellum b- Hippocampus c- Cerebellum d- Thalamus" ANSWER: b (205 NEU EOM 2023, Q61)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-CEC3AC47DEAA8C
+## label
+Sensitization of synapses is due to presynaptic facilitation with excess neurotransmitter release
+## canonical_key
+synapse.sensitization.presynaptic-facilitation-increased-release
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sensitization is a form of short-term synaptic plasticity in which the response to a stimulus is enhanced. It is produced by PRESYNAPTIC FACILITATION: a facilitating (modulatory) interneuron synapses axo-axonically on the sensory neuron's terminal and, via a second messenger, prolongs the action potential and increases Ca2+ entry, so MORE neurotransmitter is released and the postsynaptic response grows. This is the opposite of presynaptic inhibition (which reduces release) and of habituation (reduced release). The classic model is facilitation of the Aplysia sensory-to-motor synapse by a serotonergic facilitating neuron.
+## explicit_objective
+Explain sensitization as presynaptic facilitation that increases transmitter release, distinguishing it from presynaptic inhibition and habituation.
+## pitfalls
+Confusing sensitization (increased release via presynaptic facilitation) with presynaptic inhibition/habituation (decreased release), or invoking postsynaptic hyperpolarisation.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic plasticity
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Plasticity and Sensitization
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"As regards sensitization of synapses: a- is due to decreased release of neurotransmitter from presynaptic neuron b- causes hyperpolarization of postsynaptic neuron c- is explained by presynaptic facilitation and excess release of neurotransmitters d- is due to activation of a 3rd inhibitory neuron that inhibits a sensory neuron" ANSWER: c (205 NEU EOM 2023, Q63)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-2CE12E77080D97
+## label
+A depolarising shift of the postsynaptic membrane (e.g. -65 to -55 mV) is an excitatory postsynaptic potential of +10 mV
+## canonical_key
+postsynapticpotential.epsp.depolarization-toward-threshold
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An excitatory postsynaptic potential (EPSP) is a local DEPOLARISATION of the postsynaptic membrane that moves the potential toward threshold, produced by opening of cation (mainly Na+) channels. A change from -65 mV to -55 mV is a depolarisation of +10 mV, so it is an EPSP of +10 mV. An inhibitory postsynaptic potential (IPSP), by contrast, is a hyperpolarisation (e.g. -65 to -70 mV, moving away from threshold). Sign convention: depolarising = excitatory (positive change); hyperpolarising = inhibitory (negative change).
+## explicit_objective
+Classify a depolarising shift toward threshold as an EPSP and quantify its size (here +10 mV).
+## pitfalls
+Mislabelling a depolarisation as inhibitory, or giving the change a negative sign; -65 to -55 mV is +10 mV and excitatory.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Synaptic transmission
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Postsynaptic Potentials
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"When an input neuron causes the membrane potential of a target neuron to change from -65 millivolts to -55 millivolts. Which best describes this change (in millivolts)? a- Excitatory postsynaptic potential = +10 b- Excitatory postsynaptic potential = -10 c- Inhibitory postsynaptic potential = +10 d- Inhibitory postsynaptic potential = -10" ANSWER: a (205 NEU EOM 2023, Q64)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C957387ACC86D8
+## label
+Serotonin is a small-molecule, rapidly acting transmitter; endorphin and enkephalin are neuropeptides
+## canonical_key
+neurotransmitter.classification.small-molecule-rapid-acting
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Transmitters fall into two broad classes. Small-molecule, rapidly acting transmitters (acetylcholine, the amino acids glutamate/GABA/glycine, and the amines noradrenaline, dopamine and SEROTONIN) are synthesised in the terminal, act fast and briefly, and mediate most moment-to-moment signalling. Neuropeptides (e.g. the endorphins, enkephalins, substance P) are made in the cell body, act slowly and for prolonged periods, and are often neuromodulatory. Adenosine is a purine neuromodulator. So among serotonin, adenosine, endorphin and enkephalin, serotonin is the small-molecule, rapidly acting transmitter.
+## explicit_objective
+Classify serotonin as a small-molecule rapidly acting transmitter and endorphin/enkephalin as slow neuropeptides.
+## pitfalls
+Grouping neuropeptides (endorphin, enkephalin) with the rapidly acting small-molecule transmitters, or forgetting the amines (incl. serotonin) belong to the fast class.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Neurotransmitters
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Synaptic Transmission > Neurotransmitter Classes
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is considered small molecules, rapidly acting transmitter? a- Serotonin b- Adenosine c- Endorphin d- Enkephalin" ANSWER: a (205 NEU EOM 2023, Q66)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-9391E5A4113E29
+## label
+Reciprocal innervation: excitation of a muscle by one nerve is coupled to inhibition of its antagonist
+## canonical_key
+reciprocalinnervation.definition.antagonist-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Reciprocal innervation (reciprocal inhibition) is the spinal wiring by which excitation of a muscle is automatically accompanied by inhibition of its antagonist, so the two do not oppose each other during movement. In the stretch reflex, Ia afferents excite the agonist's motor neurons and, through an inhibitory (Ia) interneuron, inhibit the antagonist's motor neurons. This lets a joint move smoothly. It is distinct from convergence (many inputs onto one neuron) and divergence (one neuron onto many), which describe neuronal-pool connectivity, not agonist-antagonist coordination.
+## explicit_objective
+Define reciprocal innervation as coupled excitation of a muscle with inhibition of its antagonist via a spinal inhibitory interneuron.
+## pitfalls
+Confusing reciprocal innervation with convergence or divergence in a neuronal pool; it specifically pairs agonist excitation with antagonist inhibition.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Spinal reflexes
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Reflexes > Reciprocal Innervation
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Reciprocal innervation is defined as: a- The number of neurons, with which one afferent neuron synapses b- The stimulation of one muscle and inhibition of its antagonist by excitation of one nerve c- Many neuronal inputs stimulate one neuron in a neuronal pool d- One neuron stimulates many neurons in a neuronal pool" ANSWER: b (205 NEU EOM 2023, Q67)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-1173F361F77E47
+## label
+A-beta (group II) fibres carry fine touch, vibration and stereognosis; conscious proprioception from spindles/GTOs is carried by A-alpha (group Ia/Ib) fibres
+## canonical_key
+nervefiber.abeta.tactile-not-proprioception
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A-beta fibres (group II) are large myelinated afferents that carry discriminative mechanoreception: fine (discriminative) touch, vibration, pressure and stereognosis (which depends on fine touch). Muscle and tendon PROPRIOCEPTION, however, arises from the primary spindle endings (Ia) and Golgi tendon organs (Ib), which are carried by the largest A-ALPHA (group I) fibres, not A-beta. So of a list of A-beta modalities, proprioception is the exception. (Note that dorsal columns carry both discriminative touch and conscious proprioception centrally, but the peripheral afferent fibre classes differ: A-beta for touch/vibration, A-alpha Ia/Ib for spindle/tendon proprioception.)
+## explicit_objective
+State that A-beta fibres carry fine touch, vibration and stereognosis, whereas spindle/tendon proprioception travels in A-alpha (Ia/Ib) fibres.
+## pitfalls
+Assuming proprioception travels in A-beta fibres; primary spindle (Ia) and Golgi tendon (Ib) afferents are A-alpha (group I).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory nerve fibres
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory System > Nerve Fibre Types
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following sensations are carried by A beta fibers Except: a- Fine touch b- Vibration c- Proprioception d- Stereognosis" ANSWER: c (205 NEU EOM 2023, Q68)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.

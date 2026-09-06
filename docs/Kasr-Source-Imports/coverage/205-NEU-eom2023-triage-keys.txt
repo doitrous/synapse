@@ -44,4 +44,23 @@ Q43.B Q44.D Q45.A Q46.C Q47.B Q48.D Q49.D Q50.C Q51.A
 #   Q47 (commissural fiber = corpus callosum) == EOM197 CNS "Fibers connecting corresponding areas in the 2 cerebral hemispheres" (same fact).
 #   Q48 (cerebral cortex true statement -> primary motor cortex in frontal lobe) == EOM197 CNS "Skilled voluntary movement / primary motor cortex" localisation; single-fact Q51 (auditory=temporal) authored instead.
 #
-# NOT YET TRIAGED: Q52-115 (pages 7-14, image-only) and Section B (extended cross-match).
+# ============================================================================
+# THIRD PASS (2026-09-06) — SLICE 1: Q52-69 (pages 7-8) rendered at 200dpi,
+# margin letters read by eye and cross-checked against standard neurophysiology.
+# Keys read this slice (Q52-69):
+Q52.B Q53.D Q54.C Q55.A Q56.B Q57.A Q58.C Q59.C Q60.A
+Q61.B Q62.B Q63.C Q64.A Q65.D Q66.A Q67.B Q68.C Q69.B
+#
+# AUTHORED this slice (12 genuinely-new items, cluster 2023-eom-head-and-neck-anatomy,
+# seed eom2023-head-and-neck-anatomy-p3.json -> batch 205-NEU-2023eom-head-neck-p3-mcq.md):
+#   Q53, Q55, Q56, Q57, Q58, Q60, Q61, Q63, Q64, Q66, Q67, Q68
+#
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q52 (trochlear nerve NOT in interpeduncular fossa) == existing "cranial nerve attached to posterior aspect of brain stem" (trochlear dorsal, same fact).
+#   Q54 (Presynaptic inhibition is characterized by:) == EXACT existing stem "Presynaptic inhibition is characterized by:" (2024eom-q53).
+#   Q59 (which increases synaptic transmission -> hypocalcemia) == 2024eom-q54 "Concerning synaptic transmission" (hypoxia/hypoglycemia/acidosis depress; same factor set).
+#   Q62 (post-tetanic potentiation = presynaptic Ca2+ accumulation) == existing "Post-tetanic potentiation in synapses:" (2024eom-q57).
+#   Q65 (receptor potential = non-specific Na+ channel opening) == existing "The receptor potential:" (2024eom-q60, same concept probe).
+#   Q69 (sensation carried by dorsal column -> stereognosis) == 2024eom-q70 "A lesion of the dorsal column pathway is most likely to affect: Fine touch" (same dorsal-column discriminative-touch fact).
+#
+# NOT YET TRIAGED: Q70-115 (pages 9-14, image-only) and Section B (extended cross-match, held for image attachment).

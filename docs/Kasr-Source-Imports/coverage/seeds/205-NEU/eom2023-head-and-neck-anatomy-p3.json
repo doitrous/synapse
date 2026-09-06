@@ -1,0 +1,467 @@
+{
+ "lane": "KASR-205NEU",
+ "cluster": "2023-eom-head-and-neck-anatomy",
+ "header": "Kasr Al Ainy 205 NEU · CNS physiology — THIRD triage pass over the 205 NEU EOM (2023 sitting) exam paper (printed date 30/11/2023; sourceId src_1d0cd2a7afeb66dcfd85). This pass reads the physiology tail Q52-115 (pages 7-14, image-only, rendered at 200dpi and read by eye). Slice 1 = Q53-68 physiology, genuinely-new items only; near-duplicates of already-authored 205 NEU stems skipped (Q52 trochlear-not-in-fossa, Q54 presynaptic inhibition, Q59 factors affecting transmission, Q62 post-tetanic potentiation, Q65 receptor potential, Q69 dorsal-column modality). Keys read from the hand-written left-margin answer letter with a pencil arrow to the chosen option, cross-checked against standard neurophysiology.",
+ "defaults": {
+  "subject": "neuro",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": [
+   "kau"
+  ],
+  "years": [
+   "KAU_Y2"
+  ],
+  "module": "205 NEU",
+  "exam_weight_by_year": {
+   "KAU_Y2": "moderate"
+  },
+  "question_only_for": "",
+  "library_ids": [
+   "ART-NEU-205NEU-CNS-PHYSIOLOGY"
+  ],
+  "resource_ids": [
+   "src_1d0cd2a7afeb66dcfd85"
+  ],
+  "source_citation": "Kasr Al Ainy 205 NEU EOM 2023 exam paper, p.{page}",
+  "setting": "Academic",
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Physiology",
+  "source": "past-paper"
+ },
+ "questions": [
+  {
+   "key": "2023eom-q53",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-53",
+   "title": "Ionic content of the synaptic cleft",
+   "question": "Which of the following is correct as regards the synapse?",
+   "options": {
+    "A": "Neurons communicate with each other mostly through electrical synapses",
+    "B": "V-SNARE protein is present on the presynaptic membrane",
+    "C": "They are static structures",
+    "D": "The synaptic cleft contains fluid that is rich in Na+"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. In the mammalian CNS the overwhelming majority of interneuronal communication is through chemical synapses; electrical (gap-junction) synapses are relatively uncommon and confined to a few specialised sites.",
+    "B": "Incorrect. The vesicle-associated SNARE (v-SNARE, e.g. synaptobrevin/VAMP) lies on the synaptic vesicle membrane; the target-SNAREs (syntaxin, SNAP-25) are the ones on the presynaptic plasma membrane, and the two pair to fuse the vesicle.",
+    "C": "Incorrect. Synapses are dynamic, plastic structures: their strength varies with use through facilitation, potentiation and depression, which is the cellular basis of learning and memory.",
+    "D": "Correct. The synaptic cleft is a narrow extracellular gap continuous with the interstitial fluid, so it is filled with extracellular fluid rich in Na+ and the other ECF ions. Released transmitter diffuses across this Na+-rich fluid to reach postsynaptic receptors. Its ionic composition matches extracellular, not intracellular, fluid."
+   },
+   "main_concept": "CON-NEU-5BBA8F3B399722",
+   "concept_ids": [
+    "CON-NEU-5BBA8F3B399722"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Recognise the ionic environment of the synaptic cleft and the predominant, dynamic nature of chemical CNS synapses.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > The Synapse",
+   "subtopic": "Synaptic transmission",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q55",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-55",
+   "title": "Net postsynaptic potential and membrane excitability",
+   "question": "The grand (net) postsynaptic potential may cause the postsynaptic membrane to:",
+   "options": {
+    "A": "be more excitable if EPSPs are more than IPSPs",
+    "B": "be less excitable if IPSPs are lesser than EPSPs",
+    "C": "reach firing if there is summation of IPSPs",
+    "D": "propagate easily when it is hyperpolarized"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The grand postsynaptic potential is the algebraic sum of all converging EPSPs and IPSPs. When EPSPs exceed IPSPs the net effect is depolarisation toward threshold, so the membrane becomes more excitable and, if threshold is reached, fires. This is the basis of spatial and temporal summation.",
+    "B": "Incorrect. If IPSPs are LESS than EPSPs the net effect is excitatory, so the membrane becomes MORE excitable, not less; the statement inverts the relationship.",
+    "C": "Incorrect. IPSPs are hyperpolarising; summing more IPSPs moves the membrane further from threshold and makes firing less likely, not more.",
+    "D": "Incorrect. A hyperpolarised membrane is further from threshold and less likely to generate or propagate an action potential; hyperpolarisation opposes firing."
+   },
+   "main_concept": "CON-NEU-3478CDD5247D54",
+   "concept_ids": [
+    "CON-NEU-3478CDD5247D54"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Reasoning",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Predict changes in postsynaptic excitability from the balance of EPSPs and IPSPs.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Summation and Postsynaptic Potentials",
+   "subtopic": "Synaptic transmission",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q56",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-56",
+   "title": "Cause of synaptic fatigue",
+   "question": "As regards fatigue of synaptic transmission, which of the following is correct?",
+   "options": {
+    "A": "It is due to activation of postsynaptic receptors",
+    "B": "It is due to exhaustion of neurotransmitters in the presynaptic terminal",
+    "C": "It helps over-excitation of neurons",
+    "D": "It occurs due to increased impulse discharge from the postsynaptic neuron"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Fatigue is a presynaptic phenomenon; it is not produced by activation of postsynaptic receptors, which mediate the postsynaptic response rather than limiting transmitter supply.",
+    "B": "Correct. When a synapse is stimulated rapidly and repeatedly, the presynaptic transmitter stores are used up faster than they can be resynthesised and repackaged, so the postsynaptic response progressively declines. This depletion of releasable transmitter is the principal mechanism of synaptic fatigue. Recovery follows once transmitter is replenished.",
+    "C": "Incorrect. Fatigue does the opposite: by damping transmission it PROTECTS against over-excitation of neurons, helping to terminate excessive or runaway (e.g. seizure-like) discharge.",
+    "D": "Incorrect. Fatigue is a decline in transmission, reflecting reduced presynaptic release, not increased impulse discharge from the postsynaptic neuron."
+   },
+   "main_concept": "CON-NEU-D66D6963A2AF87",
+   "concept_ids": [
+    "CON-NEU-D66D6963A2AF87"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Identify presynaptic transmitter depletion as the cause of synaptic fatigue.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Synaptic Fatigue",
+   "subtopic": "Synaptic transmission",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q57",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-57",
+   "title": "Mechanism of ionotropic receptors",
+   "question": "Ionotropic receptors:",
+   "options": {
+    "A": "affect neuronal activity through activating ion channels",
+    "B": "affect neuronal activity directly by changing levels of intracellular cAMP",
+    "C": "act by increasing intracellular IP3",
+    "D": "act by voltage-gated ion channels"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. An ionotropic receptor is itself a ligand-gated ion channel: binding of the transmitter opens an intrinsic pore, so ions flow and the membrane potential changes directly and within milliseconds. This gives the fast synaptic responses of the nicotinic ACh, AMPA/NMDA glutamate and GABA-A receptors. No second messenger is required.",
+    "B": "Incorrect. Acting through changes in intracellular cAMP is the hallmark of metabotropic (G-protein-coupled) receptors, which work indirectly and more slowly, not of ionotropic receptors.",
+    "C": "Incorrect. Coupling to increased IP3 is again a metabotropic, second-messenger mechanism, not the direct channel-opening action of an ionotropic receptor.",
+    "D": "Incorrect. Ionotropic receptor channels are opened by their LIGAND, not by membrane voltage; voltage-gated channels are a separate class that generate and conduct the action potential."
+   },
+   "main_concept": "CON-NEU-0965E77F4CD34C",
+   "concept_ids": [
+    "CON-NEU-0965E77F4CD34C"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Classify ionotropic receptors as fast, ligand-gated ion channels versus metabotropic and voltage-gated channels.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Receptors",
+   "subtopic": "Synaptic receptors",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q58",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-58",
+   "title": "Signals influencing the micturition reflex",
+   "question": "The micturition reflex is influenced by all of the following signals EXCEPT:",
+   "options": {
+    "A": "Sensory signals from receptors in the wall of the urinary bladder",
+    "B": "Facilitatory and inhibitory signals from the brain stem",
+    "C": "Voluntary control initiated from the spinal cord",
+    "D": "Voluntary control from the cerebral cortex"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect (this signal DOES influence the reflex). Stretch receptors in the bladder wall are the afferent limb of the micturition reflex, signalling filling to the sacral cord, so they genuinely influence it.",
+    "B": "Incorrect (this signal DOES influence the reflex). The pons and brain stem send both facilitatory and inhibitory signals that modulate the sacral micturition reflex, coordinating detrusor contraction with sphincter relaxation.",
+    "C": "Correct (this is the EXCEPTION). Voluntary control of micturition is NOT initiated from the spinal cord; the cord carries only the basic reflex arc. Voluntary, willed control is exercised from the CEREBRAL CORTEX, so 'voluntary control initiated from spinal cord' is the false statement and the intended answer.",
+    "D": "Incorrect (this signal DOES influence the reflex). The cerebral cortex provides voluntary control, inhibiting or permitting micturition, and is a genuine influence on the reflex."
+   },
+   "main_concept": "CON-NEU-9E53D91C699A05",
+   "concept_ids": [
+    "CON-NEU-9E53D91C699A05"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Distinguish cortical voluntary control of micturition from the spinal reflex arc.",
+   "module_subject": "205 NEU > Physiology > Autonomic and Visceral Control > Micturition Reflex",
+   "subtopic": "Autonomic and visceral reflexes",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q60",
+   "page": 7,
+   "id": "QST-KASR205NEU-2023EOM-60",
+   "title": "Mechanism of tetanus toxin",
+   "question": "Tetanus toxin leads to:",
+   "options": {
+    "A": "spastic paralysis due to inhibition of GABA or glycine in the CNS",
+    "B": "convulsions due to competitive inhibition with inhibitory transmitters",
+    "C": "flaccid paralysis due to inhibition of acetylcholine release",
+    "D": "flaccid paralysis due to inhibition of GABA release"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Tetanus toxin is transported to the spinal cord and blocks the release of the inhibitory transmitters glycine and GABA from inhibitory interneurons. With inhibition removed, motor neurons fire unopposed and muscles contract excessively, producing spastic paralysis with rigidity and spasms (lockjaw, opisthotonus). The lesion is loss of central inhibition.",
+    "B": "Incorrect. The toxin does not act by competitive antagonism at inhibitory receptors; it blocks the RELEASE of the inhibitory transmitters. Although clinical spasms occur, the mechanism stated here is wrong.",
+    "C": "Incorrect. Blocking acetylcholine release at the neuromuscular junction, causing flaccid paralysis, is the mechanism of BOTULINUM toxin, not tetanus toxin.",
+    "D": "Incorrect. Tetanus does block GABA (and glycine) release, but the result is SPASTIC, not flaccid, paralysis; removing inhibition increases muscle tone."
+   },
+   "main_concept": "CON-NEU-BAC4706B38ACD9",
+   "concept_ids": [
+    "CON-NEU-BAC4706B38ACD9"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Mechanism",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Contrast the spastic paralysis of tetanus toxin (blocks inhibitory transmitter release) with botulinum flaccid paralysis.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Toxins and Transmitters",
+   "subtopic": "Synaptic pharmacology",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.7"
+   }
+  },
+  {
+   "key": "2023eom-q61",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-61",
+   "title": "Brain region for learning and short-term memory",
+   "question": "Which part of the brain is mostly activated during learning and short-term memory?",
+   "options": {
+    "A": "Cerebellum",
+    "B": "Hippocampus",
+    "C": "Substantia nigra",
+    "D": "Thalamus"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The cerebellum is concerned with coordination of movement and with motor (procedural) learning, not with the formation of declarative short-term memory.",
+    "B": "Correct. The hippocampus, in the medial temporal lobe, is the region most activated during learning and the formation of new declarative and short-term memory, and in consolidating memories for long-term storage. Bilateral hippocampal damage produces anterograde amnesia, the failure to form new long-term memories. This is its classic, high-yield role.",
+    "C": "Incorrect. The substantia nigra is a basal-ganglia nucleus for motor control (dopaminergic nigrostriatal pathway); it is not the centre for learning and short-term memory.",
+    "D": "Incorrect. The thalamus is mainly a sensory and motor relay and part of memory circuits, but it is not the region 'mostly activated' in learning and short-term memory formation; that is the hippocampus."
+   },
+   "main_concept": "CON-NEU-E16413E08270D4",
+   "concept_ids": [
+    "CON-NEU-E16413E08270D4"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Localise learning and short-term declarative memory to the hippocampus.",
+   "module_subject": "205 NEU > Physiology > Higher Functions > Learning and Memory",
+   "subtopic": "Higher cortical functions",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  },
+  {
+   "key": "2023eom-q63",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-63",
+   "title": "Mechanism of synaptic sensitization",
+   "question": "As regards sensitization of synapses, which statement is correct?",
+   "options": {
+    "A": "It is due to decreased release of neurotransmitter from the presynaptic neuron",
+    "B": "It causes hyperpolarization of the postsynaptic neuron",
+    "C": "It is explained by presynaptic facilitation and excess release of neurotransmitters",
+    "D": "It is due to activation of a 3rd inhibitory neuron that inhibits a sensory neuron"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Decreased presynaptic transmitter release underlies habituation and presynaptic inhibition, which DEPRESS the response; sensitization enhances it.",
+    "B": "Incorrect. Sensitization increases the excitatory postsynaptic response; it does not hyperpolarise the postsynaptic neuron.",
+    "C": "Correct. Sensitization is produced by presynaptic facilitation: a modulatory (facilitating) interneuron acts axo-axonically on the sensory terminal, prolonging its action potential and raising Ca2+ entry, so MORE transmitter is released and the postsynaptic response is enhanced. It is the mirror image of presynaptic inhibition. The Aplysia serotonergic facilitating synapse is the classic model.",
+    "D": "Incorrect. Activation of a third INHIBITORY neuron acting on a sensory neuron describes presynaptic INHIBITION, which reduces transmission; sensitization uses a facilitating, not inhibitory, third neuron."
+   },
+   "main_concept": "CON-NEU-CEC3AC47DEAA8C",
+   "concept_ids": [
+    "CON-NEU-CEC3AC47DEAA8C"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Mechanism",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Attribute synaptic sensitization to presynaptic facilitation and increased transmitter release.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Plasticity and Sensitization",
+   "subtopic": "Synaptic plasticity",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  },
+  {
+   "key": "2023eom-q64",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-64",
+   "title": "Classifying a membrane-potential change as an EPSP",
+   "question": "An input neuron changes the membrane potential of a target neuron from -65 mV to -55 mV. Which of the following best describes this change (in millivolts)?",
+   "options": {
+    "A": "Excitatory postsynaptic potential = +10",
+    "B": "Excitatory postsynaptic potential = -10",
+    "C": "Inhibitory postsynaptic potential = +10",
+    "D": "Inhibitory postsynaptic potential = -10"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Moving from -65 mV to -55 mV is a DEPOLARISATION (the membrane becomes less negative, toward threshold), which is by definition an excitatory postsynaptic potential. The size of the change is -55 minus -65 = +10 mV. Hence it is an EPSP of +10 mV.",
+    "B": "Incorrect. The classification (excitatory) is right, but the sign is wrong: a depolarisation from -65 to -55 mV is +10 mV, not -10 mV.",
+    "C": "Incorrect. A depolarisation toward threshold is excitatory, not inhibitory; an IPSP would move the potential to a more negative value.",
+    "D": "Incorrect. This is doubly wrong: the change is excitatory (depolarising), not inhibitory, and its value is +10 mV, not -10 mV."
+   },
+   "main_concept": "CON-NEU-2CE12E77080D97",
+   "concept_ids": [
+    "CON-NEU-2CE12E77080D97"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Reasoning",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Compute and classify a membrane-potential change as an EPSP of a given magnitude.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Postsynaptic Potentials",
+   "subtopic": "Synaptic transmission",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  },
+  {
+   "key": "2023eom-q66",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-66",
+   "title": "Small-molecule rapidly acting transmitter",
+   "question": "Which of the following is considered a small-molecule, rapidly acting transmitter?",
+   "options": {
+    "A": "Serotonin",
+    "B": "Adenosine",
+    "C": "Endorphin",
+    "D": "Enkephalin"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Serotonin (5-HT) is a biogenic amine, and the amines together with acetylcholine and the amino-acid transmitters make up the small-molecule, rapidly acting class: synthesised in the terminal, fast in onset and short in action. It therefore fits the description.",
+    "B": "Incorrect. Adenosine is a purine acting as a neuromodulator; it is not classed with the fast small-molecule transmitters in this scheme.",
+    "C": "Incorrect. Endorphins are NEUROPEPTIDES: made in the cell body, slow and prolonged in action and neuromodulatory, not rapidly acting small molecules.",
+    "D": "Incorrect. Enkephalins are also neuropeptides (opioid peptides), belonging to the slowly acting class rather than the small-molecule, rapidly acting transmitters."
+   },
+   "main_concept": "CON-NEU-C957387ACC86D8",
+   "concept_ids": [
+    "CON-NEU-C957387ACC86D8"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Easy",
+   "question_type": "Classification",
+   "cognitive_effort": "Low",
+   "reasoning_level": 1,
+   "learning_objective": "Separate small-molecule rapidly acting transmitters from slow neuropeptides.",
+   "module_subject": "205 NEU > Physiology > Synaptic Transmission > Neurotransmitter Classes",
+   "subtopic": "Neurotransmitters",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  },
+  {
+   "key": "2023eom-q67",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-67",
+   "title": "Definition of reciprocal innervation",
+   "question": "Reciprocal innervation is defined as:",
+   "options": {
+    "A": "The number of neurons with which one afferent neuron synapses",
+    "B": "The stimulation of one muscle and inhibition of its antagonist by excitation of one nerve",
+    "C": "Many neuronal inputs stimulating one neuron in a neuronal pool",
+    "D": "One neuron stimulating many neurons in a neuronal pool"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The number of neurons contacted by one afferent describes DIVERGENCE (the field of an input), not reciprocal innervation.",
+    "B": "Correct. Reciprocal innervation couples excitation of a muscle with simultaneous inhibition of its antagonist: the afferent excites the agonist's motor neurons and, via a Ia inhibitory interneuron, inhibits the antagonist's, so the antagonist relaxes as the agonist contracts. This allows smooth movement about a joint. It is also called reciprocal inhibition.",
+    "C": "Incorrect. Many inputs converging on one neuron is CONVERGENCE, a property of neuronal pools, not the agonist-antagonist coupling of reciprocal innervation.",
+    "D": "Incorrect. One neuron exciting many others is DIVERGENCE; it does not describe the reciprocal excitation-inhibition of a muscle and its antagonist."
+   },
+   "main_concept": "CON-NEU-9391E5A4113E29",
+   "concept_ids": [
+    "CON-NEU-9391E5A4113E29"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Define reciprocal innervation and distinguish it from convergence and divergence.",
+   "module_subject": "205 NEU > Physiology > Reflexes > Reciprocal Innervation",
+   "subtopic": "Spinal reflexes",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  },
+  {
+   "key": "2023eom-q68",
+   "page": 8,
+   "id": "QST-KASR205NEU-2023EOM-68",
+   "title": "Sensory modalities carried by A-beta fibres",
+   "question": "All of the following sensations are carried by A-beta fibres EXCEPT:",
+   "options": {
+    "A": "Fine touch",
+    "B": "Vibration",
+    "C": "Proprioception",
+    "D": "Stereognosis"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect (A-beta DOES carry it). Fine, discriminative touch is a classic A-beta (group II) modality carried by large myelinated cutaneous mechanoreceptor afferents.",
+    "B": "Incorrect (A-beta DOES carry it). Vibration sense is transduced by Pacinian corpuscles and conveyed by A-beta fibres.",
+    "C": "Correct (this is the EXCEPTION). Muscle and tendon proprioception arises from primary muscle-spindle endings (Ia) and Golgi tendon organs (Ib), which are carried by the largest A-ALPHA (group I) fibres, not A-beta. Hence proprioception is the odd one out on this list.",
+    "D": "Incorrect (A-beta DOES carry it). Stereognosis is the recognition of objects by touch and depends on fine discriminative touch, so it too travels in A-beta fibres."
+   },
+   "main_concept": "CON-NEU-1173F361F77E47",
+   "concept_ids": [
+    "CON-NEU-1173F361F77E47"
+   ],
+   "contextual_concept_ids": [],
+   "difficulty": "Moderate",
+   "question_type": "Classification",
+   "cognitive_effort": "Medium",
+   "reasoning_level": 2,
+   "learning_objective": "Match sensory modalities to A-beta versus A-alpha afferent fibre classes.",
+   "module_subject": "205 NEU > Physiology > Sensory System > Nerve Fibre Types",
+   "subtopic": "Sensory nerve fibres",
+   "topic": "Physiology",
+   "field_notes": {
+    "keySource": "render-confirmed left-margin answer letter, p.8"
+   }
+  }
+ ]
+}
