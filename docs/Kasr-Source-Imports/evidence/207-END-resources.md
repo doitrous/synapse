@@ -233,3 +233,41 @@ Kasr Al Ainy END 207 endocrine ANATOMY MCQ topic bank by Dr Galal (NON-EOM; not 
 true
 
 ---
+
+# Item
+## id
+src_ba88dd0b6e105afb419c
+## title
+ANATOMY MCQ [RPR]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Anatomy Dpt Anatomy [1st priority]/MCQs/ANATOMY MCQ [RPR].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+10
+## sha256
+ba88dd0b6e105afb419cfc37166b9f224197f818300fc2e6abe656b0780ae933
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 department Pelvis-and-Perineum ANATOMY MCQ bank ([RPR] compiler tag; NON-EOM topic bank, so examSittingYear is null). Native text layer, 10 pages, 48 single-best MCQs on gross anatomy of the pelvis, perineum, perineal pouches, prostate, urethra, rectum and anal canal. SOLVED: a printed KEY ANSWERS table on p.10 gives all 48 keys (Q1-48; the row printed "1- b" at position 7 is a typo for 7-b, resolved by sequence). SEVENTH 207 END source and the FOURTH non-EOM bank; the pelvis/perineum domain heavily overlaps the authored 207-END corpus (EOM anatomy tranche + Dr Galal repro bank), so ~30 duplicate/near-duplicate stems were skipped, 2 held as bad items (Q34 rectal-ampulla key locates the ampulla in the wrong part; Q45 vas-deferens key b conflicts with the anatomically-true option c) and 15 non-duplicate items authored. The companion "Anatomy MCQ by Dr.Jalal[END].pdf" (src_2a6c0ccf47e9feb287a3) in the same folder is an UNSOLVED bank (colored stems, no answer marked on any of 35 pages) and yields no authorable keyed items.
+## confidence
+0.9
+## is_assessment
+true
+
+---
