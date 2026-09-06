@@ -47865,3 +47865,447 @@ sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.14 Lasers in ophthalmology) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
 
 ---
+
+# Item
+## id
+CON-MUL-45443626A36C21
+## label
+Acute painless severe visual loss is most probably a central retinal artery occlusion
+## canonical_key
+ophthalmology.clinical.acute-painless-severe-vision-loss-central-retinal-artery-occlusion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A sudden, painless, severe loss of vision is most probably due to a central retinal artery occlusion; acute angle-closure glaucoma and acute iridocyclitis are painful, and a cranial nerve palsy causes diplopia rather than visual loss.
+## explicit_objective
+Attribute acute painless severe visual loss to a central retinal artery occlusion.
+## pitfalls
+Choosing a painful cause (angle closure, iridocyclitis) or a cranial nerve palsy for painless visual loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Approach to visual loss
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Some related topics > Approach to visual loss
+## article_ids
+ART-OPH-315-RELATED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.15 Some related topics) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-063F5C59F89701
+## label
+Gradual painless visual loss over months in an older patient is most likely a senile cataract
+## canonical_key
+ophthalmology.clinical.gradual-painless-vision-loss-senile-cataract
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a 65-year-old with gradual painless visual loss over about six months, the likely diagnosis is a senile cataract; artery and vein occlusions cause sudden, not gradual, loss.
+## explicit_objective
+Attribute gradual painless visual loss in an older patient to a senile cataract.
+## pitfalls
+Choosing an acute vascular occlusion for a slowly progressive visual loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Approach to visual loss
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Some related topics > Approach to visual loss
+## article_ids
+ART-OPH-315-RELATED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.15 Some related topics) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BC4C87D27E891C
+## label
+Retinitis pigmentosa is a chronic, not acute, cause of visual loss
+## canonical_key
+ophthalmology.clinical.acute-vision-loss-causes-except-retinitis-pigmentosa
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute visual loss is caused by vitreous haemorrhage, central retinal artery occlusion and acute angle-closure glaucoma; retinitis pigmentosa is a slowly progressive hereditary dystrophy and is not a cause of acute visual loss.
+## explicit_objective
+Exclude retinitis pigmentosa from the causes of acute visual loss.
+## pitfalls
+Listing retinitis pigmentosa, a chronic dystrophy, as a cause of acute visual loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Approach to visual loss
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Some related topics > Approach to visual loss
+## article_ids
+ART-OPH-315-RELATED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.15 Some related topics) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1D295EDA2D3060
+## label
+Bilateral visual loss is most often caused by a post-chiasmatic lesion
+## canonical_key
+ophthalmology.clinical.bilateral-vision-loss-post-chiasmatic-lesion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Simultaneous bilateral visual loss is most often caused by a post-chiasmatic (retrochiasmal) visual-pathway lesion; traumatic vitreous haemorrhage, acute angle-closure glaucoma and primary retinal detachment are typically unilateral.
+## explicit_objective
+Attribute bilateral visual loss to a post-chiasmatic lesion.
+## pitfalls
+Choosing a typically unilateral ocular cause for bilateral visual loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Approach to visual loss
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Some related topics > Approach to visual loss
+## article_ids
+ART-OPH-315-RELATED
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.15 Some related topics) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---

@@ -1615,3 +1615,94 @@ groupingNote: Opens Chapter 14 (Lasers in ophthalmology) and groups its laser co
 5
 
 ---
+
+# Item
+## id
+ART-OPH-315-RELATED
+## title
+Ophthalmology: some related topics (clinical approach to visual loss)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article closes Chapter 15 of the question bank (Some related topics) and groups the visual-loss facts tested by its MCQs: the pattern-recognition approach to a patient with reduced vision. It covers acute painless severe visual loss (central retinal artery occlusion), gradual painless visual loss in an older patient (senile cataract), the distinction of acute from chronic causes of visual loss (retinitis pigmentosa being chronic), and the localising value of bilateral visual loss (a post-chiasmatic lesion).
+## sections
+### Definition
+Visual loss is characterised clinically by its tempo (acute versus gradual), the presence or absence of pain, and whether it is unilateral or bilateral; these features localise the cause. Chapter 15 tests this approach; this article gathers the chapter concepts, each stating one atomic fact.
+### Mechanism
+The pattern points to the lesion: a sudden painless drop in one eye reflects a vascular retinal or optic-nerve event (e.g. central retinal artery occlusion); a slow painless decline reflects a media opacity such as cataract; a hereditary rod-cone dystrophy (retinitis pigmentosa) declines over years, not acutely; and bilateral simultaneous loss usually localises behind the chiasm (post-chiasmatic visual-pathway disease).
+### Key determinants
+Discriminators tested here: acute painless severe loss most probably a central retinal artery occlusion; gradual painless loss over months in an older patient most probably a senile cataract; retinitis pigmentosa is a chronic, not acute, cause of visual loss; and bilateral visual loss is most often caused by a post-chiasmatic lesion.
+### Clinical significance
+This structured approach lets the clinician triage visual loss quickly - separating the ophthalmic emergency (artery occlusion) from a chronic media opacity, and recognising when bilateral loss signals disease of the retrochiasmal visual pathway.
+### Common misconceptions
+See each concept pitfalls field for the exact reversal each distractor exploits (attributing acute painless loss to angle closure or iridocyclitis, which are painful, or calling retinitis pigmentosa an acute cause of visual loss).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Some related topics
+## subtopic
+Some related topics
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+DIS-OPH-T04
+DIS-OPH-T05
+## related_concepts
+CON-MUL-45443626A36C21
+CON-MUL-063F5C59F89701
+CON-MUL-BC4C87D27E891C
+CON-MUL-1D295EDA2D3060
+## related_articles
+ART-OPH-315-RETINA
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Closes Chapter 15 (Some related topics) and groups its clinical-approach-to-visual-loss concepts. DIS-OPH has no dedicated general-clinical node, so the article is filed under the closest verified catch-all node DIS-OPH-T02 (Anterior segment), matching the cross-cutting-chapter precedent (Ch.10-13), while each concept carries its own most-specific node: the central-retinal-artery-occlusion and acute-versus-chronic concepts on DIS-OPH-T04 (Retina), the senile-cataract concept on DIS-OPH-T02 (Anterior segment), and the post-chiasmatic bilateral-loss concept on DIS-OPH-T05 (Neuro-ophthalmology). Chapter 15 has 4 keyed MCQs (answer key p.9; all rows present), all clean single-best 4-option items - 0 held. A T/F (2 cases) section follows the MCQs (out of scope). This is the final chapter of the bank; 4 new concepts minted.
+## reading_time
+5
+
+---
