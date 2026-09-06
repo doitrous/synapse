@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 316 ENT (Year 3) · Nose section, MCQ Q1-18 (first tranche of 80), from the department ENT MCQ Question Bank. Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p35, rendered once at 220 dpi and read visually), each key cross-checked against the option text. This tranche: 18 authored / 0 held / 0 excluded. Nose concepts filed on the real discipline node DIS-ENT-T02 (Nose and sinuses) — core anatomy on DIS-ENT-T02-S01, clinical facts on DIS-ENT-T02-S02 — minted CON-MUL- / subject mul (ENT has no body-system code, as for 315 OPH and the Ear section).
+  Kasr Al Ainy 316 ENT (Year 3) · Nose section, MCQ Q1-80 (COMPLETE), from the department ENT MCQ Question Bank. Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p35, rendered once at 220 dpi and read visually), each key cross-checked against the option text. Section total: 70 authored / 10 held / 0 excluded (Q1-18 18/0, Q19-48 23/7, Q49-80 29/3). Nose concepts filed on the real discipline node DIS-ENT-T02 (Nose and sinuses) — core anatomy on DIS-ENT-T02-S01, clinical facts on DIS-ENT-T02-S02 — minted CON-MUL- / subject mul (ENT has no body-system code, as for 315 OPH and the Ear section).
 
   Import: Admin › Bulk import → question.
 -->
@@ -5693,6 +5693,4068 @@ State that mucormycosis is the commonest cause of acute fulminant invasive funga
 
 ## source_citation
 Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.29); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-49
+
+## title
+Most helpful investigation for the nose and paranasal sinuses
+
+## question
+The most helpful investigation for the nose and the paranasal sinuses is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Plain X ray
+
+## explanation_a
+Incorrect. A plain X-ray gives only a crude view and underestimates both mucosal disease and bony detail.
+
+## answer_b
+CT scan
+
+## explanation_b
+Correct. CT (usually coronal) is the imaging investigation of choice for the nose and paranasal sinuses. It best demonstrates the bony anatomy, the ostiomeatal complex, the extent of mucosal disease and any bony erosion. This is why it is preferred over plain X-ray, MRI or MRA for most sinonasal problems.
+
+## answer_c
+MRI
+
+## explanation_c
+Incorrect. MRI is complementary for soft-tissue characterisation and intracranial extension but is not the first-line sinus investigation.
+
+## answer_d
+MRA
+
+## explanation_d
+Incorrect. MRA images blood vessels and is used for vascular lesions, not for routine assessment of the sinuses.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Imaging of the paranasal sinuses
+
+## main_concept
+CON-MUL-21BA83B39AC65B
+
+## concept_ids
+CON-MUL-21BA83B39AC65B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SINUSITIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that CT is the most helpful investigation for the nose and paranasal sinuses.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.29); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-50
+
+## title
+Sinus lesion causing lateral displacement of the eyeball
+
+## question
+Lateral displacement of the eyeball is due to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Sphenoidal sinus lesions
+
+## explanation_a
+Incorrect. The sphenoid sinus lies behind the orbit and its lesions do not characteristically push the eyeball laterally.
+
+## answer_b
+Ethmoidal sinus lesions
+
+## explanation_b
+Correct. The ethmoid sinuses lie medial to the orbit, separated only by the thin lamina papyracea, so an expanding ethmoidal lesion pushes the eyeball laterally. Lesions of the other sinuses displace the globe in other directions. The direction of proptosis therefore points to the sinus involved.
+
+## answer_c
+Maxillary sinus lesions
+
+## explanation_c
+Incorrect. A maxillary sinus lesion, lying below the orbit, tends to displace the eyeball upward, not laterally.
+
+## answer_d
+Frontal sinus lesions
+
+## explanation_d
+Incorrect. A frontal sinus lesion, lying above and medial, tends to displace the eyeball downward and laterally rather than purely laterally.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Sinus anatomy and orbital relations
+
+## main_concept
+CON-MUL-4C93C78D6CBFCB
+
+## concept_ids
+CON-MUL-4C93C78D6CBFCB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SINUSITIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that an ethmoidal sinus lesion displaces the eyeball laterally.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.29); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-51
+
+## title
+Deviated nasal septum facts (except) — FESS
+
+## question
+The following facts regarding "deviated nasal septum" are true EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It may be caused by an old trauma
+
+## explanation_a
+Incorrect (this is true). A deviated septum may follow old nasal trauma.
+
+## answer_b
+A sharp septal deviation may be a cause of nasal bleeding
+
+## explanation_b
+Incorrect (this is true). A sharp septal deviation (spur) can erode the mucosa and cause epistaxis.
+
+## answer_c
+The treatment of choice is septoplasty
+
+## explanation_c
+Incorrect (this is true). Septoplasty (or submucous resection) is the treatment of choice.
+
+## answer_d
+The treatment is functional endoscopic sinus surgery
+
+## explanation_d
+Correct. This is the false statement, so it is the answer. Functional endoscopic sinus surgery treats sinus and ostiomeatal disease, not septal deviation; the operation for a deviated septum is septoplasty. FESS therefore has no role in correcting the deviation itself.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deviated nasal septum
+
+## main_concept
+CON-MUL-C4DDA4168C32A3
+
+## concept_ids
+CON-MUL-C4DDA4168C32A3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that FESS is not the treatment of a deviated nasal septum.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.29); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-53
+
+## title
+Deviated nasal septum facts (except) — surgery not contraindicated
+
+## question
+The following facts regarding "deviated nasal septum" are true EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+It may be caused by an old trauma
+
+## explanation_a
+Incorrect (this is true). A deviated septum may follow old trauma.
+
+## answer_b
+A sharp septal deviation may be a cause of nasal bleeding
+
+## explanation_b
+Incorrect (this is true). A sharp deviation can be a source of nasal bleeding.
+
+## answer_c
+Hypertrophy of the inferior turbinate on the other side of the deviation
+
+## explanation_c
+Incorrect (this is true). Compensatory hypertrophy of the inferior turbinate develops on the wider, concave side opposite the deviation.
+
+## answer_d
+The treatment of choice is septoplasty
+
+## explanation_d
+Incorrect (this is true). Septoplasty is the treatment of choice.
+
+## answer_e
+Surgery is contraindicated to avoid septal perforation
+
+## explanation_e
+Correct. This is the false statement. Surgery (septoplasty) is indicated and is not contraindicated; a properly performed submucous septoplasty preserves the mucoperichondrial flaps and does not routinely cause septal perforation. Withholding surgery for fear of perforation is therefore wrong.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deviated nasal septum
+
+## main_concept
+CON-MUL-C4DDA4168C32A3
+
+## concept_ids
+CON-MUL-C4DDA4168C32A3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that septal surgery is indicated, not contraindicated, in a deviated nasal septum.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-54
+
+## title
+Septal haematoma — false statement
+
+## question
+What is not true about septal hematoma:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It might cause saddle nose
+
+## explanation_a
+Incorrect (this is true). An undrained haematoma strips the cartilage of its blood supply and can cause cartilage necrosis with a saddle-nose deformity.
+
+## answer_b
+Treated by decongestants and antihistamines
+
+## explanation_b
+Correct. This is the false statement. A septal haematoma is a collection of blood that must be drained surgically; decongestants and antihistamines do not treat it. Relying on medical treatment alone risks cartilage necrosis and abscess formation.
+
+## answer_c
+Needs surgical drainage
+
+## explanation_c
+Incorrect (this is true). It requires surgical incision and drainage.
+
+## answer_d
+Can cause secondary infection
+
+## explanation_d
+Incorrect (this is true). A retained haematoma can become secondarily infected to form a septal abscess.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Septal haematoma
+
+## main_concept
+CON-MUL-BB6C2E4AA0A6FE
+
+## concept_ids
+CON-MUL-BB6C2E4AA0A6FE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that a septal haematoma is drained surgically, not treated by decongestants and antihistamines.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-55
+
+## title
+Septal perforation aetiology (except)
+
+## question
+Septal perforation aetiology can be all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Nose picking
+
+## explanation_a
+Incorrect (this is a cause). Habitual nose-picking is a well-recognised cause of anterior septal perforation.
+
+## answer_b
+Congenital deformity
+
+## explanation_b
+Correct. A congenital deformity of the septum is not a cause of septal perforation; it deviates or malforms the septum but does not create a hole. The genuine causes are trauma, nose-picking, septal abscess, surgery and specific infections or granulomas. Congenital deformity is therefore the exception.
+
+## answer_c
+Septal abscess
+
+## explanation_c
+Incorrect (this is a cause). A septal abscess can necrose the cartilage and leave a perforation.
+
+## answer_d
+Surgical trauma
+
+## explanation_d
+Incorrect (this is a cause). Septal surgery can perforate the septum.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Septal perforation
+
+## main_concept
+CON-MUL-62CB835B6B1FD4
+
+## concept_ids
+CON-MUL-62CB835B6B1FD4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that congenital deformity is not a cause of nasal septal perforation.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-56
+
+## title
+Feature of septal haematoma
+
+## question
+In hematoma of the nasal septum:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+There is recurrent severe epistaxis
+
+## explanation_a
+Incorrect. A haematoma is a contained collection of blood, not a source of recurrent active epistaxis.
+
+## answer_b
+Excessive watery nasal discharge is reported
+
+## explanation_b
+Incorrect. Excessive watery discharge suggests allergic rhinitis or CSF rhinorrhoea, not a septal haematoma.
+
+## answer_c
+The patient smells a bad odour
+
+## explanation_c
+Incorrect. A bad odour points to atrophic rhinitis or infection, not to an uninfected haematoma.
+
+## answer_d
+There is bilateral nasal obstruction
+
+## explanation_d
+Correct. A septal haematoma collects on both sides of the septum, producing a boggy bilateral swelling that causes bilateral nasal obstruction. This bilateral block after trauma is the characteristic finding. It must be drained before the cartilage necroses.
+
+## answer_e
+The nose is roomy with considerable crusts
+
+## explanation_e
+Incorrect. A roomy nose with crusts describes atrophic rhinitis, not a septal haematoma.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Septal haematoma
+
+## main_concept
+CON-MUL-BB6C2E4AA0A6FE
+
+## concept_ids
+CON-MUL-BB6C2E4AA0A6FE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that a septal haematoma causes bilateral nasal obstruction.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-57
+
+## title
+Causes of septal perforation (all of the above)
+
+## question
+Perforation of the nasal septum may be due to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trauma
+
+## explanation_a
+Incorrect as the single answer (it is a cause). Trauma, including surgery and nose-picking, perforates the septum, but the other options are also causes.
+
+## answer_b
+Septal abscess
+
+## explanation_b
+Incorrect as the single answer (it is a cause). A septal abscess necroses the cartilage, but the other options are also causes.
+
+## answer_c
+Granuloma of the nose
+
+## explanation_c
+Incorrect as the single answer (it is a cause). A nasal granuloma (for example syphilis or a midline granuloma) can perforate the septum, but the other options are also causes.
+
+## answer_d
+All the above
+
+## explanation_d
+Correct. Trauma, a septal abscess and a nasal granuloma are all genuine causes of septal perforation, so the answer is all of the above. Each destroys the septal cartilage or its blood supply. Recognising the cause guides management.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect. Since all three listed items are real causes, "none of the above" is wrong.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Septal perforation
+
+## main_concept
+CON-MUL-62CB835B6B1FD4
+
+## concept_ids
+CON-MUL-62CB835B6B1FD4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List trauma, septal abscess and nasal granuloma as causes of septal perforation.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-58
+
+## title
+Causes of septal perforation (except rhinoscleroma)
+
+## question
+Causes of nasal septal perforation include all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Trauma
+
+## explanation_a
+Incorrect (this is a cause). Trauma, including surgery, perforates the septum.
+
+## answer_b
+Cocaine sniffers
+
+## explanation_b
+Incorrect (this is a cause). Cocaine sniffing causes ischaemic necrosis of the septal cartilage and perforation.
+
+## answer_c
+Rhinoscleroma
+
+## explanation_c
+Correct. Rhinoscleroma characteristically causes scarring and stenosis of the nose rather than a septal perforation, so it is the exception. The typical granulomatous causes of perforation are syphilis and lethal midline granuloma, alongside trauma and cocaine. Rhinoscleroma is therefore the odd one out.
+
+## answer_d
+Syphilis
+
+## explanation_d
+Incorrect (this is a cause). Syphilis (a gumma) destroys the bony septum and perforates it.
+
+## answer_e
+Mid-line lethal granuloma
+
+## explanation_e
+Incorrect (this is a cause). Lethal midline (T-cell) granuloma is a destructive midline lesion that perforates the septum.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Septal perforation
+
+## main_concept
+CON-MUL-62CB835B6B1FD4
+
+## concept_ids
+CON-MUL-62CB835B6B1FD4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SEPTUM
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that rhinoscleroma is not a typical cause of nasal septal perforation.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.30); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-59
+
+## title
+Sneezing as a symptom
+
+## question
+Sneezing is a common symptom in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Sinusitis
+
+## explanation_a
+Incorrect. Sinusitis presents with facial pain, obstruction and mucopurulent discharge rather than paroxysmal sneezing.
+
+## answer_b
+Fracture nasal bones
+
+## explanation_b
+Incorrect. A nasal fracture presents with deformity, bleeding and obstruction, not sneezing.
+
+## answer_c
+Allergic rhinitis
+
+## explanation_c
+Correct. Sneezing is a hallmark symptom of allergic rhinitis, an IgE-mediated hypersensitivity of the nasal mucosa. It occurs in paroxysms together with watery rhinorrhoea, itching and obstruction. Sinusitis, nasal fracture and CSF rhinorrhoea do not cause these sneezing attacks.
+
+## answer_d
+Cerebrospinal rhinorrhoea
+
+## explanation_d
+Incorrect. CSF rhinorrhoea is a clear watery leak worse on bending forward; it does not cause sneezing.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Allergic rhinitis
+
+## main_concept
+CON-MUL-61DF70E96E2A03
+
+## concept_ids
+CON-MUL-61DF70E96E2A03
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that sneezing is a common symptom of allergic rhinitis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-60
+
+## title
+Sneezing, watery discharge and alternating obstruction
+
+## question
+Attack of sneezing, watery nasal discharge and alternating nasal obstruction can be caused by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Allergic rhinitis
+
+## explanation_a
+Correct. Paroxysmal sneezing, a watery nasal discharge and nasal obstruction that alternates between the two sides is the classic picture of allergic rhinitis. It is an IgE-mediated hypersensitivity, and a nasal smear shows eosinophils. The alternating obstruction reflects the normal nasal cycle exaggerated by mucosal swelling.
+
+## answer_b
+Rhinoscleroma
+
+## explanation_b
+Incorrect. Rhinoscleroma is a chronic granuloma causing masses, crusting or stenosis, not sneezing attacks with watery discharge.
+
+## answer_c
+Nasal foreign body
+
+## explanation_c
+Incorrect. A nasal foreign body causes a unilateral offensive discharge, not bilateral sneezing and watery rhinorrhoea.
+
+## answer_d
+CSF rhinorrhea
+
+## explanation_d
+Incorrect. CSF rhinorrhoea is a clear watery leak worse on bending forward, without sneezing or alternating obstruction.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Allergic rhinitis
+
+## main_concept
+CON-MUL-61DF70E96E2A03
+
+## concept_ids
+CON-MUL-61DF70E96E2A03
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise sneezing with watery discharge and alternating obstruction as allergic rhinitis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-61
+
+## title
+True statement about antrochoanal polyp
+
+## question
+Regarding antrochoanal polyp, which is the true statement?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It usually indicates an underlying fungal infection
+
+## explanation_a
+Incorrect. An antrochoanal polyp is an inflammatory polyp of the maxillary antrum, not a marker of fungal infection.
+
+## answer_b
+It arises primarily from the ethmoidal sinus
+
+## explanation_b
+Incorrect. It arises from the maxillary sinus, not the ethmoid.
+
+## answer_c
+The primary treatment is endoscopic sinus surgery
+
+## explanation_c
+Correct. The primary treatment of an antrochoanal polyp is endoscopic sinus surgery to remove the polyp together with its origin in the maxillary antrum, which prevents recurrence. Simple avulsion that leaves the antral origin behind tends to recur. It is benign, arises from the maxillary sinus and does not resolve on its own.
+
+## answer_d
+It is precancerous if left untreated
+
+## explanation_d
+Incorrect. It is benign and not precancerous.
+
+## answer_e
+Observation only is required, since it resolves spontaneously
+
+## explanation_e
+Incorrect. It does not resolve spontaneously; it needs surgical removal.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Antrochoanal polyp
+
+## main_concept
+CON-MUL-719A103F16416F
+
+## concept_ids
+CON-MUL-719A103F16416F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the primary treatment of an antrochoanal polyp is endoscopic sinus surgery.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-62
+
+## title
+Correct statement about antrochoanal polyp
+
+## question
+The following is correct about antrochoanal polyp:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Causes unilateral nasal obstruction
+
+## explanation_a
+Correct. An antrochoanal polyp is a solitary polyp arising from the maxillary antrum, so it causes unilateral nasal obstruction. It passes through the maxillary ostium and grows back towards the choana, and may reach the nasopharynx. This one-sided obstruction distinguishes it from the bilateral allergic polyps.
+
+## answer_b
+Arises in the superior meatus
+
+## explanation_b
+Incorrect. It reaches the nose through the maxillary ostium in the middle meatus, not the superior meatus.
+
+## answer_c
+Associated with watery nasal discharge
+
+## explanation_c
+Incorrect. It is not characteristically associated with a watery discharge; that suggests allergic rhinitis.
+
+## answer_d
+Removed by lateral rhinotomy
+
+## explanation_d
+Incorrect. It is removed endoscopically (with or without a radical antrum operation), not usually by lateral rhinotomy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Antrochoanal polyp
+
+## main_concept
+CON-MUL-719A103F16416F
+
+## concept_ids
+CON-MUL-719A103F16416F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that an antrochoanal polyp causes unilateral nasal obstruction.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-63
+
+## title
+Not characteristic of allergic nasal polypi
+
+## question
+The following is not characteristic for allergic nasal polypi:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Bilateral
+
+## explanation_a
+Incorrect (this is characteristic). Allergic polyps are multiple and bilateral.
+
+## answer_b
+Arise from the maxillary sinus
+
+## explanation_b
+Correct. Allergic nasal polyps arise mainly from the ethmoidal sinuses and middle meatus, not the maxillary sinus, so "arise from the maxillary sinus" is not characteristic. A polyp arising from the maxillary antrum is instead the solitary antrochoanal polyp. This is the option that does not fit allergic polyps.
+
+## answer_c
+A nasal smear contains excess eosinophils
+
+## explanation_c
+Incorrect (this is characteristic). A nasal smear contains excess eosinophils.
+
+## answer_d
+Commonly recurs after excision
+
+## explanation_d
+Incorrect (this is characteristic). Allergic polyps commonly recur after excision.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Allergic nasal polyps
+
+## main_concept
+CON-MUL-6F76AE78ACBBE8
+
+## concept_ids
+CON-MUL-6F76AE78ACBBE8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that allergic nasal polyps arise from the ethmoid, not the maxillary, sinus.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-64
+
+## title
+Origin of the antrochoanal polyp
+
+## question
+Antrochoanal polyp arises from the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Sphenoid sinus
+
+## explanation_a
+Incorrect. It does not arise from the sphenoid sinus.
+
+## answer_b
+Ethmoid sinus
+
+## explanation_b
+Incorrect. Multiple bilateral allergic polyps arise from the ethmoid; the antrochoanal polyp does not.
+
+## answer_c
+Frontal sinus
+
+## explanation_c
+Incorrect. It does not arise from the frontal sinus.
+
+## answer_d
+Maxillary sinus
+
+## explanation_d
+Correct. An antrochoanal polyp arises from the mucosa of the maxillary antrum, hence the name "antro-choanal". It passes through the maxillary ostium and grows back towards the choana. Its single maxillary origin distinguishes it from the ethmoidal allergic polyps.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Antrochoanal polyp
+
+## main_concept
+CON-MUL-719A103F16416F
+
+## concept_ids
+CON-MUL-719A103F16416F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the antrochoanal polyp arises from the maxillary sinus.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.31); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-65
+
+## title
+Allergic nasal polypi are bilateral
+
+## question
+Allergic nasal polypi are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Unilateral
+
+## explanation_a
+Incorrect. Allergic polyps are not unilateral; a solitary unilateral polyp suggests an antrochoanal polyp.
+
+## answer_b
+Bilateral
+
+## explanation_b
+Correct. Allergic nasal polyps are multiple and bilateral, arising from the ethmoids in atopic patients. They are pale, smooth and mobile, and a nasal smear shows eosinophils. Being bilateral distinguishes them from the solitary antrochoanal polyp.
+
+## answer_c
+Fleshy
+
+## explanation_c
+Incorrect. They are pale and grape-like rather than fleshy; a fleshy single polyp suggests an antrochoanal polyp.
+
+## answer_d
+Ulcerating
+
+## explanation_d
+Incorrect. Ulceration suggests malignancy, not a benign allergic polyp.
+
+## answer_e
+Bleed easily
+
+## explanation_e
+Incorrect. Easy bleeding suggests a vascular tumour such as angiofibroma, not an allergic polyp.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Allergic nasal polyps
+
+## main_concept
+CON-MUL-6F76AE78ACBBE8
+
+## concept_ids
+CON-MUL-6F76AE78ACBBE8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that allergic nasal polyps are bilateral.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-66
+
+## title
+Antrochoanal polyp facts (except)
+
+## question
+In Antrochoanal polyp all is true except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Arises usually from the sphenoid sinus
+
+## explanation_a
+Correct. This is the false statement. An antrochoanal polyp arises from the maxillary antrum, not the sphenoid sinus, so "arises usually from the sphenoid sinus" is the exception. The maxillary origin is what gives it its name.
+
+## answer_b
+Causes unilateral nasal obstruction
+
+## explanation_b
+Incorrect (this is true). Being solitary, it causes unilateral nasal obstruction.
+
+## answer_c
+May reach the nasopharynx
+
+## explanation_c
+Incorrect (this is true). Its choanal end may extend into the nasopharynx.
+
+## answer_d
+Is treated by excision with or without radical antrum operation
+
+## explanation_d
+Incorrect (this is true). It is treated by excision with or without a radical antrum operation to remove its origin.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Antrochoanal polyp
+
+## main_concept
+CON-MUL-719A103F16416F
+
+## concept_ids
+CON-MUL-719A103F16416F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that the antrochoanal polyp arises from the maxillary, not sphenoid, sinus.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-67
+
+## title
+Bilateral nasal obstruction in an adult
+
+## question
+Bilateral nasal obstruction in a 40 years old adult can be caused by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Allergic nasal polyp
+
+## explanation_a
+Correct. Allergic nasal polyps are multiple and bilateral, so they are the listed cause of bilateral nasal obstruction in an adult. They arise from the ethmoids in atopic patients and block both nasal cavities. The other options cause unilateral obstruction or occur at other ages.
+
+## answer_b
+Nasopharyngeal angiofibroma
+
+## explanation_b
+Incorrect. Nasopharyngeal angiofibroma occurs in adolescent males and causes unilateral obstruction with epistaxis, not bilateral obstruction in a 40-year-old.
+
+## answer_c
+Choanal atresia
+
+## explanation_c
+Incorrect. Bilateral choanal atresia presents in the neonate; unilateral atresia presents later with unilateral obstruction.
+
+## answer_d
+Foreign body
+
+## explanation_d
+Incorrect. A foreign body is a problem of young children and causes unilateral obstruction.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Allergic nasal polyps
+
+## main_concept
+CON-MUL-6F76AE78ACBBE8
+
+## concept_ids
+CON-MUL-6F76AE78ACBBE8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise bilateral allergic nasal polyps as a cause of bilateral nasal obstruction in an adult.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-68
+
+## title
+Commonest cause of epistaxis
+
+## question
+The most common cause of epistaxis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Congenital blood disease
+
+## explanation_a
+Incorrect. A congenital blood disease is a rare cause of epistaxis compared with idiopathic bleeding.
+
+## answer_b
+Idiopathic
+
+## explanation_b
+Correct. The commonest cause of epistaxis is idiopathic (spontaneous) bleeding, typically from the exposed vessels of Little’s area on the anteroinferior septum. It is far more common than local disease such as rhinoscleroma or chronic sinusitis. Most such bleeds are minor and anterior.
+
+## answer_c
+Rhinoscleroma
+
+## explanation_c
+Incorrect. Rhinoscleroma is an uncommon local cause of epistaxis.
+
+## answer_d
+Chronic sinusitis
+
+## explanation_d
+Incorrect. Chronic sinusitis is an uncommon cause of epistaxis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis
+
+## main_concept
+CON-MUL-23F0699AD2D3CF
+
+## concept_ids
+CON-MUL-23F0699AD2D3CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the commonest cause of epistaxis is idiopathic.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-69
+
+## title
+Commonest cause of epistaxis in the elderly
+
+## question
+The most common cause of epistaxis in elderly is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Congenital blood disease
+
+## explanation_a
+Incorrect. A congenital blood disease usually presents earlier in life and is not the common elderly cause.
+
+## answer_b
+Hypertension
+
+## explanation_b
+Correct. In elderly patients the commonest cause of epistaxis is hypertension, which tends to produce a more profuse posterior bleed from the sphenopalatine vessels. Blood pressure should be checked and controlled as part of management. This contrasts with the idiopathic anterior bleeds of children and young adults.
+
+## answer_c
+Rhinoscleroma
+
+## explanation_c
+Incorrect. Rhinoscleroma is an uncommon cause and not specific to the elderly.
+
+## answer_d
+Chronic sinusitis
+
+## explanation_d
+Incorrect. Chronic sinusitis is an uncommon cause of epistaxis.
+
+## answer_e
+Septal perforation
+
+## explanation_e
+Incorrect. A septal perforation may bleed a little but is not the commonest elderly cause.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis
+
+## main_concept
+CON-MUL-5EAFD9818191B0
+
+## concept_ids
+CON-MUL-5EAFD9818191B0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that hypertension is the commonest cause of epistaxis in the elderly.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-70
+
+## title
+Best treatment of mild epistaxis from Little’s area
+
+## question
+The best treatment of mild epistaxis from Little’s area is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Anterior nasal pack
+
+## explanation_a
+Incorrect. Anterior nasal packing is reserved for diffuse or brisk anterior bleeding, not for a discrete visible point.
+
+## answer_b
+Cautery of the bleeding point
+
+## explanation_b
+Correct. When epistaxis is mild and the bleeding point is visible in Little’s area, the best treatment is cautery of that point, using chemical (silver nitrate) or electrocautery after local decongestion and anaesthesia. Directed cautery is definitive for a discrete anterior bleeding point. Packing and transfusion are for heavier bleeding.
+
+## answer_c
+Posterior nasal pack
+
+## explanation_c
+Incorrect. A posterior pack is used for posterior epistaxis, not a mild anterior bleed.
+
+## answer_d
+Blood transfusion
+
+## explanation_d
+Incorrect. Blood transfusion is only needed for significant blood loss, not for mild epistaxis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis management
+
+## main_concept
+CON-MUL-A13B5101901FB5
+
+## concept_ids
+CON-MUL-A13B5101901FB5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that mild epistaxis from a visible point in Little’s area is treated by cautery.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.32); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-71
+
+## title
+Commonest site of epistaxis
+
+## question
+The commonest site for epistaxis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The anterior end of the nasal septum
+
+## explanation_a
+Correct. The commonest site of epistaxis is the anterior end of the nasal septum, which is Little’s area (Kiesselbach’s plexus) on the anteroinferior septum. Its exposed anastomotic vessels bleed easily from trauma or drying. Most nosebleeds, especially in children, come from here.
+
+## answer_b
+The posterior end of the nasal septum
+
+## explanation_b
+Incorrect. The posterior septum is the site of the heavier posterior epistaxis of the elderly, not the commonest overall site.
+
+## answer_c
+The anterior end of the inferior turbinate
+
+## explanation_c
+Incorrect. The anterior end of the inferior turbinate is not the classic bleeding site.
+
+## answer_d
+The posterior end of the inferior turbinate
+
+## explanation_d
+Incorrect. The posterior end of the inferior turbinate (Woodruff’s plexus) is an occasional posterior source, not the commonest site.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis
+
+## main_concept
+CON-MUL-DE7439CF2C8234
+
+## concept_ids
+CON-MUL-DE7439CF2C8234
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the commonest site of epistaxis is Little’s area on the anterior septum.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.33); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-72
+
+## title
+Commonest cause of epistaxis in a child
+
+## question
+The commonest cause for epistaxis in a 5 years old child is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Angiofibroma
+
+## explanation_a
+Incorrect. Angiofibroma occurs in adolescent males, not typically a 5-year-old, and is uncommon.
+
+## answer_b
+Rhinoscleroma
+
+## explanation_b
+Incorrect. Rhinoscleroma is a chronic granuloma of older patients, not the common childhood cause.
+
+## answer_c
+Inverted papilloma
+
+## explanation_c
+Incorrect. Inverted papilloma is a tumour of adults, not a cause of childhood epistaxis.
+
+## answer_d
+Idiopathic
+
+## explanation_d
+Correct. The commonest cause of epistaxis in a young child is idiopathic bleeding from Little’s area, usually precipitated by nose-picking or drying. It is far more common than any tumour or granuloma. Most such bleeds are minor and anterior.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis
+
+## main_concept
+CON-MUL-23F0699AD2D3CF
+
+## concept_ids
+CON-MUL-23F0699AD2D3CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the commonest cause of epistaxis in a child is idiopathic.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.33); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-74
+
+## title
+Cause of unilateral nasal obstruction
+
+## question
+A cause of unilateral nasal obstruction:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Allergic rhinitis
+
+## explanation_a
+Incorrect. Allergic rhinitis is a bilateral mucosal disease and causes bilateral obstruction.
+
+## answer_b
+Rhinoscleroma
+
+## explanation_b
+Incorrect. Rhinoscleroma is a diffuse granulomatous disease that tends to affect the nose bilaterally.
+
+## answer_c
+Cancer maxilla
+
+## explanation_c
+Correct. Cancer of the maxilla (maxillary antrum) is a one-sided lesion, so it causes unilateral nasal obstruction. A persistent unilateral block, especially with blood-stained discharge, must raise the suspicion of a sinonasal neoplasm. The bilateral mucosal diseases in the other options obstruct both sides.
+
+## answer_d
+Common cold
+
+## explanation_d
+Incorrect. The common cold is an acute viral rhinitis that obstructs both nasal cavities.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Unilateral nasal obstruction
+
+## main_concept
+CON-MUL-43463777F87819
+
+## concept_ids
+CON-MUL-43463777F87819
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise cancer of the maxilla as a cause of unilateral nasal obstruction.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.33); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-75
+
+## title
+Commonest cause of epistaxis in children
+
+## question
+The commonest cause of epistaxis in children is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adenoids
+
+## explanation_a
+Incorrect. Adenoids cause nasal obstruction and mouth-breathing, not the common childhood nosebleed.
+
+## answer_b
+Nasopharyngeal fibroma
+
+## explanation_b
+Incorrect. Nasopharyngeal fibroma (angiofibroma) affects adolescent males and is uncommon.
+
+## answer_c
+Idiopathic
+
+## explanation_c
+Correct. The commonest cause of epistaxis in children is idiopathic bleeding from Little’s area, usually precipitated by nose-picking or drying of the mucosa. It is far more common than adenoids, angiofibroma or a foreign body. Such bleeds are typically minor and anterior.
+
+## answer_d
+Foreign body
+
+## explanation_d
+Incorrect. A foreign body causes a unilateral offensive discharge; it is not the commonest cause of epistaxis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Epistaxis
+
+## main_concept
+CON-MUL-23F0699AD2D3CF
+
+## concept_ids
+CON-MUL-23F0699AD2D3CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the commonest cause of epistaxis in children is idiopathic.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.33); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-76
+
+## title
+Causes of unilateral nasal obstruction (except)
+
+## question
+Causes of unilateral nasal obstruction includes the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Unilateral choanal atresia
+
+## explanation_a
+Incorrect (this is a cause). Unilateral choanal atresia blocks one side.
+
+## answer_b
+Antrochoanal polyp
+
+## explanation_b
+Incorrect (this is a cause). An antrochoanal polyp is solitary and obstructs one side.
+
+## answer_c
+Sinusitis of dental origin
+
+## explanation_c
+Incorrect (this is a cause). Sinusitis of dental origin is a unilateral maxillary sinus disease.
+
+## answer_d
+Sinonasal neoplasm
+
+## explanation_d
+Incorrect (this is a cause). A sinonasal neoplasm is a one-sided lesion causing unilateral obstruction.
+
+## answer_e
+Allergic rhinitis
+
+## explanation_e
+Correct. Allergic rhinitis is a bilateral mucosal disease and causes bilateral, not unilateral, obstruction, so it is the exception. The other four options are all one-sided lesions. A unilateral block therefore points to a local structural cause rather than allergy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Unilateral nasal obstruction
+
+## main_concept
+CON-MUL-43463777F87819
+
+## concept_ids
+CON-MUL-43463777F87819
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that allergic rhinitis causes bilateral, not unilateral, nasal obstruction.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.33); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-77
+
+## title
+Systemic causes of epistaxis
+
+## question
+Systemic causes of epistaxis include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Hypertension
+
+## explanation_a
+Incorrect as the single answer (it is a systemic cause). Hypertension raises vascular pressure and causes bleeding, but the other options are also systemic causes.
+
+## answer_b
+Leukemia
+
+## explanation_b
+Incorrect as the single answer (it is a systemic cause). Leukaemia is a blood dyscrasia that impairs haemostasis, but the other options are also causes.
+
+## answer_c
+Anticoagulants
+
+## explanation_c
+Incorrect as the single answer (it is a systemic cause). Anticoagulant drugs promote bleeding, but the other options are also causes.
+
+## answer_d
+Liver cell failure
+
+## explanation_d
+Incorrect as the single answer (it is a systemic cause). Liver cell failure impairs clotting-factor synthesis, but the other options are also causes.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. Hypertension, blood dyscrasias such as leukaemia, anticoagulant drugs and liver cell failure are all systemic causes of epistaxis, so the answer is all of the above. They act by raising vascular pressure or impairing haemostasis. Recognising a systemic cause is essential because local measures alone may not stop the bleeding.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Systemic causes of epistaxis
+
+## main_concept
+CON-MUL-140B6AAC6D5A95
+
+## concept_ids
+CON-MUL-140B6AAC6D5A95
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-EPISTAXIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List hypertension, blood dyscrasias, anticoagulants and liver failure as systemic causes of epistaxis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.34); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-78
+
+## title
+Indications of endoscopic sinus surgery (except)
+
+## question
+Endoscopic sinus surgery is indicated in the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Allergic fungal sinusitis
+
+## explanation_a
+Incorrect (this is an indication). Allergic fungal sinusitis is treated by FESS to clear the allergic mucin.
+
+## answer_b
+Extensive Sinonasal polyposis
+
+## explanation_b
+Incorrect (this is an indication). Extensive sinonasal polyposis is a standard indication for FESS.
+
+## answer_c
+Atrophic rhinitis
+
+## explanation_c
+Correct. Atrophic rhinitis is managed medically with nasal toilet and moisturising, not by endoscopic sinus surgery, so it is the exception. FESS is aimed at restoring sinus ventilation and drainage or removing disease, which atrophic rhinitis does not require. It is therefore the odd one out.
+
+## answer_d
+Antrochoanal polyp
+
+## explanation_d
+Incorrect (this is an indication). An antrochoanal polyp is removed endoscopically.
+
+## answer_e
+Inverted papilloma
+
+## explanation_e
+Incorrect (this is an indication). Inverted papilloma is resected endoscopically in suitable cases.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+FESS indications
+
+## main_concept
+CON-MUL-DD37394846E322
+
+## concept_ids
+CON-MUL-DD37394846E322
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SINUSITIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that atrophic rhinitis is not an indication for endoscopic sinus surgery.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.34); key from the section-end printed answer-key grid (p35)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-NOSE-79
+
+## title
+Complications of FESS
+
+## question
+Complications of Functional endoscopic sinus surgery might include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bleeding
+
+## explanation_a
+Incorrect as the single answer (it is a complication). Bleeding can occur, but the other complications also occur.
+
+## answer_b
+Nasal adhesions
+
+## explanation_b
+Incorrect as the single answer (it is a complication). Nasal adhesions (synechiae) can form, but the other complications also occur.
+
+## answer_c
+CSF leak
+
+## explanation_c
+Incorrect as the single answer (it is a complication). A CSF leak can follow a skull-base breach, but the other complications also occur.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. Functional endoscopic sinus surgery can be complicated by bleeding, nasal adhesions and a CSF leak (and orbital injury), so the answer is all of the above. These reflect the close relation of the sinuses to the orbit and anterior cranial fossa. Careful technique and anatomical knowledge minimise them.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+FESS complications
+
+## main_concept
+CON-MUL-2305C75737BEE3
+
+## concept_ids
+CON-MUL-2305C75737BEE3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-NOSE-SINUSITIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+List bleeding, nasal adhesions and CSF leak among the complications of FESS.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Nose section (PDF p.34); key from the section-end printed answer-key grid (p35)
 
 ## attached_image
 

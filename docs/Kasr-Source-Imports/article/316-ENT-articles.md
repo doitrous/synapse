@@ -1126,7 +1126,7 @@ Claude
 ## topic
 Otorhinolaryngology
 ## summary
-This article groups the sinusitis facts tested by the Nose section (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48). It covers the presenting signs of acute sinusitis, allergic fungal sinusitis (raised specific IgE, expansile heterogeneous opacity, treated by FESS) and acute fulminant invasive fungal sinusitis (mucormycosis of the immunocompromised, treated with amphotericin B), and the orbital complications of sinusitis (orbital cellulitis commonest after ethmoid sinusitis, assessed by CT of the nose and paranasal sinuses).
+This article groups the sinusitis facts tested by the Nose section (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48), together with paranasal-sinus imaging and endoscopic sinus surgery (Q49, Q50, Q78, Q79). It covers the presenting signs of acute sinusitis, allergic fungal sinusitis (raised specific IgE, expansile heterogeneous opacity, treated by FESS) and acute fulminant invasive fungal sinusitis (mucormycosis of the immunocompromised, treated with amphotericin B), the orbital complications of sinusitis (orbital cellulitis commonest after ethmoid sinusitis, assessed by CT of the nose and paranasal sinuses), the role of CT as the imaging of choice for the nose and paranasal sinuses and the lateral eyeball displacement of an ethmoidal lesion, and the indications for and complications of functional endoscopic sinus surgery.
 ## sections
 ### Definition
 This group covers acute sinusitis, its fungal forms and its orbital spread.
@@ -1168,9 +1168,15 @@ CON-MUL-24448847D51C89
 CON-MUL-CCC6547D56C233
 CON-MUL-AD33CFE46D272F
 CON-MUL-531EC7085C491B
+CON-MUL-21BA83B39AC65B
+CON-MUL-4C93C78D6CBFCB
+CON-MUL-DD37394846E322
+CON-MUL-2305C75737BEE3
 ## related_articles
 ART-ENT-316-NOSE-TRAUMA-INFECTION
 ART-ENT-316-NOSE-TUMOURS
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+ART-ENT-316-NOSE-EPISTAXIS
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -1197,6 +1203,273 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the Nose-section concepts (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+groupingNote: Groups the Nose-section concepts (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48, plus Q49, Q50, Q78, Q79 on sinus imaging and endoscopic sinus surgery) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+## id
+ART-ENT-316-NOSE-SEPTUM
+## title
+Otorhinolaryngology: nasal septum — deviation, haematoma and perforation
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the nasal-septum facts tested by the Nose section (Q51, Q53, Q54, Q55, Q56, Q57, Q58). It covers the deviated nasal septum (may follow old trauma, a sharp spur can bleed, treated by septoplasty rather than FESS and surgery is not contraindicated), the septal haematoma (bilateral obstruction, drained surgically to prevent saddle nose and abscess) and the causes of septal perforation (trauma, nose-picking, septal abscess, surgery, cocaine, syphilis and midline granuloma, but not congenital deformity or rhinoscleroma).
+## sections
+### Definition
+This group covers the three common septal problems: deviation, haematoma and perforation.
+### Mechanism
+Trauma or developmental growth deviates the septum; blunt trauma collects blood beneath the perichondrium as a haematoma that can necrose the cartilage; and a variety of insults (trauma, surgery, cocaine, specific infections and granulomas) destroy cartilage to leave a perforation.
+### Key determinants
+A deviated septum is treated by septoplasty, not FESS, and shows compensatory contralateral inferior-turbinate hypertrophy; a septal haematoma causes bilateral obstruction and needs drainage; septal perforation follows trauma, nose-picking, septal abscess, surgery, cocaine, syphilis and midline granuloma, but not congenital deformity or rhinoscleroma.
+### Clinical significance
+Recognising these guides correct treatment: septoplasty for deviation, urgent drainage of a haematoma to prevent saddle nose and abscess, and a search for the cause of a perforation.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Nasal septum disorders
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-C4DDA4168C32A3
+CON-MUL-BB6C2E4AA0A6FE
+CON-MUL-62CB835B6B1FD4
+## related_articles
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q51, Q53, Q54, Q55, Q56, Q57, Q58) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+## id
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+## title
+Otorhinolaryngology: allergic rhinitis, nasal polyps and nasal obstruction
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the allergic-rhinitis, nasal-polyp and nasal-obstruction facts tested by the Nose section (Q59, Q60, Q61, Q62, Q63, Q64, Q65, Q66, Q67, Q74, Q76). It covers allergic rhinitis (sneezing, watery rhinorrhoea and alternating obstruction), the antrochoanal polyp (solitary, from the maxillary sinus, unilateral, endoscopically removed), allergic nasal polyps (bilateral, ethmoidal, eosinophil-rich, recurrent) and the distinction between unilateral and bilateral nasal obstruction.
+## sections
+### Definition
+This group covers allergic rhinitis, the two main nasal polyps and the causes of nasal obstruction.
+### Mechanism
+Allergic rhinitis is an IgE-mediated mucosal hypersensitivity; a chronically inflamed sinus mucosa prolapses as polyps — a solitary antrochoanal polyp from the maxillary antrum or multiple bilateral allergic polyps from the ethmoids; obstruction is unilateral when the lesion is one-sided and structural, and bilateral when the mucosal disease is diffuse.
+### Key determinants
+Allergic rhinitis brings sneezing, watery rhinorrhoea and alternating obstruction; an antrochoanal polyp is unilateral, arises from the maxillary sinus and is removed endoscopically; allergic polyps are bilateral, ethmoidal, eosinophil-rich and recurrent; unilateral obstruction points to atresia, polyp, dental sinusitis or neoplasm, whereas allergic rhinitis and the common cold obstruct both sides.
+### Clinical significance
+These distinctions direct treatment — antihistamines and avoidance for allergic rhinitis, endoscopic removal for polyps — and flag a persistent unilateral block for a search for a local lesion including malignancy.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Rhinitis, polyps and nasal obstruction
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-61DF70E96E2A03
+CON-MUL-719A103F16416F
+CON-MUL-6F76AE78ACBBE8
+CON-MUL-43463777F87819
+## related_articles
+ART-ENT-316-NOSE-TUMOURS
+ART-ENT-316-NOSE-SINUSITIS
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q59, Q60, Q61, Q62, Q63, Q64, Q65, Q66, Q67, Q74, Q76) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+## id
+ART-ENT-316-NOSE-EPISTAXIS
+## title
+Otorhinolaryngology: epistaxis — causes, site and management
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the epistaxis facts tested by the Nose section (Q68, Q69, Q70, Q71, Q72, Q75, Q77). It covers the commonest cause (idiopathic, including in children) and commonest site (Little’s area on the anteroinferior septum), the elderly (hypertension, often posterior), the systemic causes (hypertension, blood dyscrasias, anticoagulants, liver failure) and the treatment of a mild anterior bleed by cautery of the visible bleeding point.
+## sections
+### Definition
+This group covers the causes, commonest site and first-line management of nosebleeds.
+### Mechanism
+Most bleeding comes from the exposed anastomotic vessels of Little’s area on the anteroinferior septum; hypertension and systemic bleeding tendencies (blood dyscrasias, anticoagulants, liver failure) predispose to heavier and posterior bleeds.
+### Key determinants
+The commonest cause of epistaxis, including in children, is idiopathic; the commonest site is Little’s area (anterior septum); in the elderly hypertension predominates; systemic causes include hypertension, leukaemia, anticoagulants and liver failure; and a mild bleed from a visible point in Little’s area is treated by cautery, with packing reserved for diffuse or posterior bleeding.
+### Clinical significance
+Knowing the usual site and cause guides first aid and definitive care — directed cautery for a visible anterior point, packing for diffuse or posterior bleeds, and control of blood pressure or a bleeding disorder where present.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Epistaxis
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-23F0699AD2D3CF
+CON-MUL-5EAFD9818191B0
+CON-MUL-A13B5101901FB5
+CON-MUL-140B6AAC6D5A95
+CON-MUL-DE7439CF2C8234
+## related_articles
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+ART-ENT-316-NOSE-SEPTUM
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q68, Q69, Q70, Q71, Q72, Q75, Q77) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4
