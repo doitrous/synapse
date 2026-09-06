@@ -5593,3 +5593,297 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-79
+## title
+Radiation that causes cataract
+## question
+The following radiation causes cataract:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Laser light.
+## explanation_a
+Incorrect. Laser injury is targeted to tissues treated, not a general cataractogen here.
+## answer_b
+Ultraviolet rays.
+## explanation_b
+Incorrect. Ultraviolet chiefly injures the ocular surface (photophthalmia, pterygium).
+## answer_c
+X rays.
+## explanation_c
+Correct. Ionising X-ray radiation causes a radiation cataract.
+## answer_d
+Solar rays.
+## explanation_d
+Incorrect. Solar rays cause a macular burn, not cataract.
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## main_concept
+CON-MUL-1B6125C6941523
+## concept_ids
+CON-MUL-1B6125C6941523
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify X-rays as the radiation causing cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-80
+## title
+Radiation causing a macular burn — EXCEPT
+## question
+The following radiation causes macular burn EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Infrared rays.
+## explanation_a
+Incorrect (a genuine cause). Infrared rays are focused onto the retina and can burn the macula.
+## answer_b
+Ultraviolet rays.
+## explanation_b
+Correct. Ultraviolet is absorbed by the cornea (photophthalmia) and does not reach the macula; it is the exception.
+## answer_c
+Laser light.
+## explanation_c
+Incorrect (a genuine cause). Laser light can burn the macula.
+## answer_d
+Solar rays.
+## explanation_d
+Incorrect (a genuine cause). Solar rays cause a macular (foveal) burn.
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## main_concept
+CON-MUL-406E80C241DE7D
+## concept_ids
+CON-MUL-406E80C241DE7D
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude ultraviolet from the causes of a macular burn.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-81
+## title
+Cause of photophthalmia
+## question
+Photophthalmia is caused by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Infrared rays.
+## explanation_a
+Incorrect. Infrared rays cause cataract and retinal burns, not photophthalmia.
+## answer_b
+Ultraviolet rays.
+## explanation_b
+Correct. Photophthalmia is a corneal burn caused by ultraviolet rays (welding flash, snow glare).
+## answer_c
+X rays.
+## explanation_c
+Incorrect. X-rays cause radiation cataract, not photophthalmia.
+## answer_d
+Solar rays.
+## explanation_d
+Incorrect. Solar rays cause a macular burn, not photophthalmia.
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## main_concept
+CON-MUL-0554C2D52E5AED
+## concept_ids
+CON-MUL-0554C2D52E5AED
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify ultraviolet rays as the cause of photophthalmia.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.178); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
