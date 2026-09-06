@@ -6781,3 +6781,3731 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Norma
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-56
+
+## title
+Corneal oedema after cataract surgery
+
+## question
+A 68-year-old man has blurred vision in the right eye two days after cataract surgery with intraocular lens implantation. Examination shows corneal oedema (increased corneal thickness and haziness); the left cornea is clear. Which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Corneal oedema may be due to damage of the corneal endothelial cells.
+
+## explanation_a
+Correct. Surgical trauma to the corneal endothelium during cataract surgery impairs the endothelial pump, so the stroma imbibes fluid and becomes oedematous. This explains unilateral corneal oedema appearing soon after an operation. The clear fellow cornea supports a surgical rather than a systemic cause.
+
+## answer_b
+The corneal oedema is most likely due to herpetic eye disease.
+
+## explanation_b
+Incorrect. Herpetic endotheliitis can cause oedema, but appearing two days after cataract surgery in the operated eye it is far more likely to be surgical endothelial trauma.
+
+## answer_c
+Fuch’s dystrophy is the cause of corneal oedema in this patient.
+
+## explanation_c
+Incorrect. Fuchs endothelial dystrophy is bilateral and chronic; an acute unilateral oedema two days after surgery points to intra-operative endothelial damage.
+
+## answer_d
+Pumping of ions and fluid out of the cornea is mostly done by the epithelial cells.
+
+## explanation_d
+Incorrect. It is the endothelium, not the epithelium, that actively pumps ions and fluid out of the cornea to keep it dehydrated and clear.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal oedema
+
+## main_concept
+CON-MUL-28C14F52641AFA
+
+## concept_ids
+CON-MUL-28C14F52641AFA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Corneal oedema after cataract surgery.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.34); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-60
+
+## title
+Bilateral symmetrical corneal opacities with family history
+
+## question
+A 30-year-old man has bilateral blurred vision with bilateral symmetrical corneal opacities; his father also had poor vision. Which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The diminution of vision is caused by deposition of red blood cells in the cornea.
+
+## explanation_a
+Incorrect. Bilateral symmetrical opacities with a family history indicate an inherited corneal dystrophy, not deposition of red blood cells (which follows haemorrhage).
+
+## answer_b
+The diminution of vision is caused by calcium deposition in the cornea.
+
+## explanation_b
+Incorrect. Calcium deposition is band keratopathy, an acquired degeneration; this familial bilateral picture is a corneal dystrophy.
+
+## answer_c
+Corneal dystrophies affect vision depending on the corneal layer involved.
+
+## explanation_c
+Correct. Corneal dystrophies are inherited, usually bilateral and symmetrical, and their visual effect depends on which layer of the cornea is involved. Axial stromal or endothelial dystrophies reduce vision more than peripheral epithelial ones. The bilateral symmetry and family history in this patient are typical of a dystrophy.
+
+## answer_d
+Treatment of most corneal opacities is mainly surgical.
+
+## explanation_d
+Incorrect. Most corneal opacities are observed or managed medically; only visually significant ones need keratoplasty, so treatment is not “mainly surgical”.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal dystrophy
+
+## main_concept
+CON-MUL-90C54C1BB3DB64
+
+## concept_ids
+CON-MUL-90C54C1BB3DB64
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Bilateral symmetrical corneal opacities with family history.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.35); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-63
+
+## title
+Painless visual loss with sectored red reflex
+
+## question
+A 73-year-old woman has glare and gradual painless decrease of vision in the right eye with no systemic or local disease. The cornea is clear; the red reflex shows black sectors and vision is 5/60 right and 6/18 left. Which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The patient may have an immature senile cataract.
+
+## explanation_a
+Correct. A partly opaque lens gives a red reflex broken into dark sectors against a still-visible red background, which defines an immature senile cataract. Gradual, painless visual loss with a clear cornea in an elderly patient fits senile cataract. The retained (sectored) red reflex confirms it is immature, not mature.
+
+## answer_b
+The commonest cause of cataract is congenital cataract.
+
+## explanation_b
+Incorrect. The commonest cause of cataract is ageing (senile cataract); congenital cataract is uncommon.
+
+## answer_c
+The patient should be diagnosed as a mature cataract.
+
+## explanation_c
+Incorrect. A mature cataract makes the lens totally opaque with an absent (white) reflex; the surviving sectored red reflex here means the cataract is still immature.
+
+## answer_d
+Uveitis is the cause of the decreased vision in this patient.
+
+## explanation_d
+Incorrect. There is no history or sign of intraocular inflammation; the painless gradual loss with a sectored reflex is due to cataract.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cataract
+
+## main_concept
+CON-MUL-9EC496C43A6807
+
+## concept_ids
+CON-MUL-9EC496C43A6807
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Painless visual loss with sectored red reflex.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.36); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-68
+
+## title
+False statement about lens subluxation and dislocation
+
+## question
+Regarding subluxation and dislocation of the lens, all the following are true EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+In posterior dislocation the anterior chamber is shallow.
+
+## explanation_a
+Correct (this is the false statement). In posterior dislocation the iris loses lens support and falls back, so the anterior chamber becomes abnormally deep, not shallow; a shallow chamber occurs with anterior dislocation.
+
+## answer_b
+In posterior dislocation there is loss of the Purkinje-Sanson images.
+
+## explanation_b
+Incorrect (a true statement). With the lens displaced out of the pupillary axis the two lenticular Purkinje-Sanson reflections are lost.
+
+## answer_c
+Subluxation and dislocation may be complicated by cataract.
+
+## explanation_c
+Incorrect (a true statement). A displaced lens frequently becomes cataractous.
+
+## answer_d
+Subluxation and dislocation may be complicated by uveitis and glaucoma.
+
+## explanation_d
+Incorrect (a true statement). Lens displacement can obstruct the pupil or irritate the uvea, causing secondary glaucoma and uveitis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens dislocation
+
+## main_concept
+CON-MUL-95BB0512561B7A
+
+## concept_ids
+CON-MUL-95BB0512561B7A
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+False statement about lens subluxation and dislocation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.37); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-69
+
+## title
+Retinal changes in myopia except
+
+## question
+Retinal changes in myopes include all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Tigroid (tessellated) fundus.
+
+## explanation_a
+Incorrect (a true myopic change). Thinning of the RPE and choroid in the elongated eye gives a tigroid, tessellated fundus.
+
+## answer_b
+Choroidal folds.
+
+## explanation_b
+Correct (this is the exception). Choroidal folds arise with hypotony, orbital masses or disc oedema; they are not a retinal change of myopia, whose hallmark is stretching and thinning of the posterior pole.
+
+## answer_c
+Chorioretinal degenerations.
+
+## explanation_c
+Incorrect (a true myopic change). Stretching of the elongated globe produces peripheral chorioretinal (lattice) degenerations.
+
+## answer_d
+Posterior staphyloma.
+
+## explanation_d
+Incorrect (a true myopic change). Ectasia of the posterior sclera forms a posterior staphyloma in pathological myopia.
+
+## topic
+Ophthalmology
+
+## subtopic
+Pathological myopia
+
+## main_concept
+CON-MUL-CBEC6401202F95
+
+## concept_ids
+CON-MUL-CBEC6401202F95
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Retinal changes in myopia except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.37); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-70
+
+## title
+Pathological myopia susceptibility except
+
+## question
+In pathological myopia the patient is susceptible to all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Retinal breaks.
+
+## explanation_a
+Incorrect (a true risk). Stretched, thin peripheral retina in high myopia tears easily, giving retinal breaks.
+
+## answer_b
+Retinal detachment.
+
+## explanation_b
+Incorrect (a true risk). Retinal breaks in a myopic eye readily progress to rhegmatogenous retinal detachment.
+
+## answer_c
+Foveal choroidal neovascular membrane.
+
+## explanation_c
+Incorrect (a true risk). Lacquer cracks in the myopic macula predispose to a foveal choroidal neovascular membrane.
+
+## answer_d
+Cupping of the optic disc.
+
+## explanation_d
+Correct (this is the exception). Glaucomatous cupping of the optic disc is a sign of glaucoma; it is not a direct complication of the myopic elongation itself, although high myopes are separately at increased risk of glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Pathological myopia
+
+## main_concept
+CON-MUL-D4F6661459F965
+
+## concept_ids
+CON-MUL-D4F6661459F965
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Pathological myopia susceptibility except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.37); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-71
+
+## title
+Loss of accommodation except
+
+## question
+Loss of accommodation may be found in all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Third nerve palsy.
+
+## explanation_a
+Incorrect (a true cause). The oculomotor nerve carries the parasympathetic supply to the ciliary muscle, so third nerve palsy abolishes accommodation.
+
+## answer_b
+Presbyopia.
+
+## explanation_b
+Incorrect (a true cause). Presbyopia is the age-related loss of accommodative amplitude.
+
+## answer_c
+Hypermetropia.
+
+## explanation_c
+Correct (this is the exception). Hypermetropes actually use more accommodation to see clearly; the refractive error does not abolish accommodation.
+
+## answer_d
+Tropicamide (a parasympatholytic mydriatic) eye drops.
+
+## explanation_d
+Incorrect (a true cause). Tropicamide is a cycloplegic that paralyses the ciliary muscle and so temporarily abolishes accommodation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Accommodation
+
+## main_concept
+CON-MUL-141E693947E38E
+
+## concept_ids
+CON-MUL-141E693947E38E
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Loss of accommodation except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.37); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-72
+
+## title
+Methods of correcting refractive error except
+
+## question
+The following are methods for correction of refractive errors EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Contact lenses.
+
+## explanation_a
+Incorrect (a true method). Contact lenses neutralise the refractive error at the corneal plane.
+
+## answer_b
+Telescopes.
+
+## explanation_b
+Correct (this is the exception). A telescope is a low-vision magnifying aid for irreversible visual loss; it does not correct the eye’s refractive error.
+
+## answer_c
+Spectacles.
+
+## explanation_c
+Incorrect (a true method). Spectacles are the commonest way to correct refractive error.
+
+## answer_d
+Refractive surgery.
+
+## explanation_d
+Incorrect (a true method). Keratorefractive and intraocular refractive surgery permanently alter the eye’s power.
+
+## topic
+Ophthalmology
+
+## subtopic
+Correction of refractive errors
+
+## main_concept
+CON-MUL-F7535F2B63FC13
+
+## concept_ids
+CON-MUL-F7535F2B63FC13
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Methods of correcting refractive error except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.37); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-73
+
+## title
+Significant difference in refraction between the two eyes
+
+## question
+A significant difference in refractive error between the two eyes is called:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Asthenopia.
+
+## explanation_a
+Incorrect. Asthenopia is eye strain (a symptom), not a difference in refraction between the eyes.
+
+## answer_b
+Ametropia.
+
+## explanation_b
+Incorrect. Ametropia is any refractive error (myopia, hypermetropia, astigmatism), not specifically an inter-ocular difference.
+
+## answer_c
+Anisometropia.
+
+## explanation_c
+Correct. Anisometropia is a clinically significant difference in refractive error between the two eyes. Large anisometropia produces unequal retinal image sizes and, in children, can cause amblyopia of the more ametropic eye. The prefix aniso- (unequal) with metropia (refraction) names the condition.
+
+## answer_d
+Aniseikonia.
+
+## explanation_d
+Incorrect. Aniseikonia is a difference in retinal image size between the eyes; it may result from anisometropia but is not the definition of it.
+
+## topic
+Ophthalmology
+
+## subtopic
+Anisometropia
+
+## main_concept
+CON-MUL-A524560AAA8D34
+
+## concept_ids
+CON-MUL-A524560AAA8D34
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Significant difference in refraction between the two eyes.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-74
+
+## title
+Spectacle correction of simple myopic astigmatism
+
+## question
+In simple myopic astigmatism, the prescribed spectacles are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Convex spherical lenses.
+
+## explanation_a
+Incorrect. A convex sphere would add plus power to both meridia; simple myopic astigmatism has only one myopic meridian.
+
+## answer_b
+Concave spherical lenses.
+
+## explanation_b
+Incorrect. A concave sphere corrects simple myopia (both meridia), not simple myopic astigmatism where only one meridian is ametropic.
+
+## answer_c
+Concave cylindrical lenses.
+
+## explanation_c
+Correct. In simple myopic astigmatism one meridian is emmetropic and the other myopic, so only the myopic meridian needs correction with a concave (minus) cylinder. There is no spherical component, so a pure cylinder suffices. A convex cylinder would be used for simple hypermetropic astigmatism.
+
+## answer_d
+Convex cylindrical lenses.
+
+## explanation_d
+Incorrect. A convex (plus) cylinder corrects simple hypermetropic astigmatism, not the myopic type.
+
+## topic
+Ophthalmology
+
+## subtopic
+Astigmatism
+
+## main_concept
+CON-MUL-5AB6FDA950BFB7
+
+## concept_ids
+CON-MUL-5AB6FDA950BFB7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Spectacle correction of simple myopic astigmatism.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-75
+
+## title
+Features of hypermetropia
+
+## question
+In hypermetropia:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Accommodation is relaxed.
+
+## explanation_a
+Incorrect. The hypermetrope uses constant accommodation to focus, so accommodation is not relaxed.
+
+## answer_b
+It is corrected by concave lenses.
+
+## explanation_b
+Incorrect. Hypermetropia needs a convex (plus) lens; a concave lens corrects myopia.
+
+## answer_c
+The patient is predisposed to angle-closure glaucoma.
+
+## explanation_c
+Correct. The hypermetropic eye is short with a shallow anterior chamber and a crowded angle, so it is predisposed to angle-closure glaucoma. Sustained accommodation and a relatively anterior lens add to the crowding. This is why acute angle-closure typically strikes the small hypermetropic eye.
+
+## answer_d
+Exophoria is common.
+
+## explanation_d
+Incorrect. Excess accommodation drives accommodative convergence, so esophoria (not exophoria) is the associated deviation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Hypermetropia
+
+## main_concept
+CON-MUL-F2FDE429BB3531
+
+## concept_ids
+CON-MUL-F2FDE429BB3531
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Features of hypermetropia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-76
+
+## title
+Refraction in aphakia
+
+## question
+In aphakia:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Accommodation is in excess.
+
+## explanation_a
+Incorrect. Removing the lens abolishes accommodation entirely; it is not in excess.
+
+## answer_b
+The expected refraction is myopia.
+
+## explanation_b
+Incorrect. Loss of the lens removes about 20 dioptres of plus power, so the eye becomes highly hypermetropic, not myopic.
+
+## answer_c
+The patient can see well for near.
+
+## explanation_c
+Incorrect. With no lens and no accommodation the aphakic eye cannot focus for near without a strong reading correction.
+
+## answer_d
+Parallel rays are focused behind the retina.
+
+## explanation_d
+Correct. Aphakia removes the converging power of the crystalline lens, so the eye is strongly hypermetropic and parallel rays come to a focus behind the retina. A large plus correction (spectacle, contact lens or intraocular lens) is required. Accommodation is lost, so a separate near add is also needed.
+
+## topic
+Ophthalmology
+
+## subtopic
+Aphakia
+
+## main_concept
+CON-MUL-CC036365192D41
+
+## concept_ids
+CON-MUL-CC036365192D41
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Refraction in aphakia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-77
+
+## title
+Physiology of accommodation
+
+## question
+Regarding accommodation:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The refractive power of the eye decreases.
+
+## explanation_a
+Incorrect. During accommodation the lens becomes more convex, so the refractive power of the eye increases, not decreases.
+
+## answer_b
+The ciliary muscle relaxes.
+
+## explanation_b
+Incorrect. Accommodation is produced by contraction of the ciliary muscle, which relaxes the zonules and lets the lens round up.
+
+## answer_c
+The sympathetic tone increases.
+
+## explanation_c
+Incorrect. Accommodation is a parasympathetic (oculomotor) function; it is not driven by increased sympathetic tone.
+
+## answer_d
+It decreases with age.
+
+## explanation_d
+Correct. The amplitude of accommodation falls steadily with age as the lens hardens, producing presbyopia and the age-related recession of the near point. By the mid-forties the reduced amplitude causes symptomatic near blur. This age-related decline is the defining feature of accommodation over life.
+
+## topic
+Ophthalmology
+
+## subtopic
+Accommodation
+
+## main_concept
+CON-MUL-2C00132D3585F7
+
+## concept_ids
+CON-MUL-2C00132D3585F7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Physiology of accommodation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-78
+
+## title
+Definition of emmetropia
+
+## question
+Emmetropia is the state of refraction, with accommodation relaxed, in which:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Parallel rays are focused behind the retina.
+
+## explanation_a
+Incorrect. Focus behind the retina with accommodation relaxed defines hypermetropia.
+
+## answer_b
+Parallel rays are focused on the retina.
+
+## explanation_b
+Correct. In emmetropia, with accommodation relaxed, parallel rays from a distant object are brought to a focus exactly on the retina, giving clear distance vision without correction. It is the ideal balance between the eye’s refractive power and its axial length. Any mismatch produces a refractive error.
+
+## answer_c
+Parallel rays are focused in front of the retina.
+
+## explanation_c
+Incorrect. Focus in front of the retina defines myopia.
+
+## answer_d
+Parallel rays are multi-focused around the retina.
+
+## explanation_d
+Incorrect. Two separate focal lines rather than a single point define astigmatism, not emmetropia.
+
+## topic
+Ophthalmology
+
+## subtopic
+Emmetropia
+
+## main_concept
+CON-MUL-D2F0A5CB49E1A0
+
+## concept_ids
+CON-MUL-D2F0A5CB49E1A0
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Definition of emmetropia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-79
+
+## title
+Diagnosis of keratoconus except
+
+## question
+All the following are used in the diagnosis of keratoconus EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Retinoscopy.
+
+## explanation_a
+Incorrect (a true test). Retinoscopy shows a scissoring reflex in keratoconus.
+
+## answer_b
+Indirect ophthalmoscopy.
+
+## explanation_b
+Correct (this is the exception). Indirect ophthalmoscopy examines the fundus and has no role in diagnosing a corneal ectasia such as keratoconus.
+
+## answer_c
+Slit-lamp examination.
+
+## explanation_c
+Incorrect (a true test). The slit lamp reveals Vogt striae, a Fleischer ring and stromal thinning.
+
+## answer_d
+Corneal topography.
+
+## explanation_d
+Incorrect (a true test). Corneal topography (keratoscopy) is the most sensitive test, showing inferior steepening of the cone.
+
+## topic
+Ophthalmology
+
+## subtopic
+Keratoconus
+
+## main_concept
+CON-MUL-4E6523B92974EB
+
+## concept_ids
+CON-MUL-4E6523B92974EB
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Diagnosis of keratoconus except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.38); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-80
+
+## title
+Structure responsible for corneal dehydration
+
+## question
+Corneal dehydration (deturgescence) is the responsibility of the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Epithelium.
+
+## explanation_a
+Incorrect. The epithelium is a surface barrier to fluid but does not actively pump the stroma dry.
+
+## answer_b
+Stroma.
+
+## explanation_b
+Incorrect. The stroma is the tissue kept dehydrated; it does not do the pumping itself.
+
+## answer_c
+Endothelium.
+
+## explanation_c
+Correct. The corneal endothelium contains active metabolic pumps that move ions and fluid out of the stroma, keeping the cornea relatively dehydrated (deturgescent) and therefore transparent. When the endothelium fails, the stroma swells and the cornea becomes oedematous. This deturgescence is essential to corneal clarity.
+
+## answer_d
+Bowman’s membrane.
+
+## explanation_d
+Incorrect. Bowman’s membrane is an acellular layer; it has no pumping function.
+
+## topic
+Ophthalmology
+
+## subtopic
+Corneal physiology
+
+## main_concept
+CON-MUL-28B5D2DE5570E5
+
+## concept_ids
+CON-MUL-28B5D2DE5570E5
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+ART-OPH-315-EYE-ANATOMY
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Structure responsible for corneal dehydration.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-81
+
+## title
+Features of keratoconus
+
+## question
+In keratoconus:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It is a progressive disease of old age.
+
+## explanation_a
+Incorrect. Keratoconus begins in adolescence and young adulthood, not old age.
+
+## answer_b
+Munson sign is seen on downgaze.
+
+## explanation_b
+Correct. Munson sign is a V-shaped bulging of the lower eyelid seen when the patient with advanced keratoconus looks down, produced by the conical cornea. It is a classic clinical sign of the disease. Its presence indicates significant corneal protrusion.
+
+## answer_c
+The expected refraction is hypermetropia.
+
+## explanation_c
+Incorrect. The steep cone produces myopia and irregular (myopic) astigmatism, not hypermetropia.
+
+## answer_d
+It is associated with Haab’s striae of the cornea.
+
+## explanation_d
+Incorrect. Haab’s striae are Descemet breaks of congenital glaucoma; keratoconus shows Vogt striae, not Haab’s striae.
+
+## topic
+Ophthalmology
+
+## subtopic
+Keratoconus
+
+## main_concept
+CON-MUL-5F04267D0BF02B
+
+## concept_ids
+CON-MUL-5F04267D0BF02B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Features of keratoconus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-82
+
+## title
+Keratoconus characteristics
+
+## question
+Keratoconus:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Is usually unilateral.
+
+## explanation_a
+Incorrect. Keratoconus is usually bilateral, though often asymmetric.
+
+## answer_b
+Is a progressive disease of old age.
+
+## explanation_b
+Incorrect. It presents in adolescence and progresses in young adulthood, not old age.
+
+## answer_c
+Shows a flat cornea on keratometry.
+
+## explanation_c
+Incorrect. Keratometry shows a steep, not flat, cornea because of the cone.
+
+## answer_d
+May be complicated by acute hydrops.
+
+## explanation_d
+Correct. Acute hydrops is a sudden break in Descemet’s membrane in advanced keratoconus that floods the stroma with aqueous, causing acute corneal oedema and a sudden drop in vision. It usually resolves with scarring over weeks. It is a recognised complication of advanced disease.
+
+## topic
+Ophthalmology
+
+## subtopic
+Keratoconus
+
+## main_concept
+CON-MUL-BCB2C35E7E7F33
+
+## concept_ids
+CON-MUL-BCB2C35E7E7F33
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Keratoconus characteristics.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-83
+
+## title
+Characteristic corneal sign of keratoconus
+
+## question
+One of the clinical signs characteristic of keratoconus is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Haab’s striae.
+
+## explanation_a
+Incorrect. Haab’s striae are horizontal Descemet breaks of congenital glaucoma.
+
+## answer_b
+Vogt striae.
+
+## explanation_b
+Correct. Vogt striae are fine vertical stress lines in the deep stroma/Descemet region that disappear on gentle pressure on the globe, and are characteristic of keratoconus. With a Fleischer ring and Munson sign they help confirm the diagnosis. They reflect the corneal thinning and steepening of the cone.
+
+## answer_c
+Corneal double stain.
+
+## explanation_c
+Incorrect. “Corneal double stain” is not a recognised keratoconus sign.
+
+## answer_d
+Herbert’s pits.
+
+## explanation_d
+Incorrect. Herbert’s pits are limbal scars of trachoma, not a keratoconus sign.
+
+## topic
+Ophthalmology
+
+## subtopic
+Keratoconus
+
+## main_concept
+CON-MUL-0A6BA2CB071FFB
+
+## concept_ids
+CON-MUL-0A6BA2CB071FFB
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Characteristic corneal sign of keratoconus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-84
+
+## title
+Expected refraction in keratoconus
+
+## question
+The most expected refraction in a case of keratoconus is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+High hypermetropia.
+
+## explanation_a
+Incorrect. The steep cone increases corneal power, causing myopia, not hypermetropia.
+
+## answer_b
+High myopia.
+
+## explanation_b
+Incorrect. Pure spherical high myopia does not capture the irregular astigmatism of the cone.
+
+## answer_c
+Against-the-rule astigmatism.
+
+## explanation_c
+Incorrect. Keratoconus typically gives irregular astigmatism from the eccentric cone, not a simple against-the-rule pattern.
+
+## answer_d
+Myopic (irregular) astigmatism.
+
+## explanation_d
+Correct. The eccentric, steepened cone of keratoconus produces myopia combined with irregular astigmatism, so the expected refraction is myopic astigmatism. The irregularity is why spectacles eventually fail and rigid contact lenses are needed. Topography shows the asymmetric inferior steepening responsible.
+
+## topic
+Ophthalmology
+
+## subtopic
+Keratoconus
+
+## main_concept
+CON-MUL-5B63C687521D29
+
+## concept_ids
+CON-MUL-5B63C687521D29
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Expected refraction in keratoconus.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-85
+
+## title
+Pupil appearance in posterior lens dislocation
+
+## question
+In posterior dislocation of the lens, the pupil is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Jet black.
+
+## explanation_a
+Correct. When the lens drops back into the vitreous the pupillary aperture is left aphakic, so the pupil looks uniformly jet black. The anterior chamber is deep and iridodonesis is present. The jet-black pupil reflects the absence of the lens behind it.
+
+## answer_b
+Peaked.
+
+## explanation_b
+Incorrect. A peaked pupil suggests iris incarceration in a wound, not lens dislocation.
+
+## answer_c
+Festooned.
+
+## explanation_c
+Incorrect. A festooned pupil results from posterior synechiae in uveitis.
+
+## answer_d
+Irregular.
+
+## explanation_d
+Incorrect. An irregular pupil indicates iris trauma or synechiae, whereas posterior lens dislocation leaves a round jet-black pupil.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens dislocation
+
+## main_concept
+CON-MUL-FCBDC2D4898C79
+
+## concept_ids
+CON-MUL-FCBDC2D4898C79
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Pupil appearance in posterior lens dislocation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.39); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-86
+
+## title
+Symptom of severe lens subluxation
+
+## question
+Severe lens subluxation may cause:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Binocular diplopia.
+
+## explanation_a
+Incorrect. Binocular diplopia arises from ocular misalignment and disappears on covering one eye; the diplopia of subluxation is within one eye.
+
+## answer_b
+Monocular diplopia.
+
+## explanation_b
+Correct. When the subluxated lens edge lies across the pupil, part of the pupil is phakic and part aphakic, giving two focal powers in one eye and hence monocular diplopia. It persists when the fellow eye is covered, confirming its uniocular origin. This bisecting lens edge is the classic mechanism.
+
+## answer_c
+Myopia.
+
+## explanation_c
+Incorrect. Refractive change is possible, but the specific hallmark of a lens edge crossing the pupil is monocular diplopia.
+
+## answer_d
+Aniseikonia.
+
+## explanation_d
+Incorrect. Aniseikonia is unequal image size between the two eyes, not the uniocular double image of subluxation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens subluxation
+
+## main_concept
+CON-MUL-E76F056F9AA5C4
+
+## concept_ids
+CON-MUL-E76F056F9AA5C4
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Symptom of severe lens subluxation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-87
+
+## title
+Common causes of vitreous haemorrhage except
+
+## question
+The commonest causes of vitreous haemorrhage include all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Diabetic retinopathy.
+
+## explanation_a
+Incorrect (a true cause). Proliferative diabetic retinopathy grows fragile new vessels that bleed into the vitreous.
+
+## answer_b
+Trauma.
+
+## explanation_b
+Incorrect (a true cause). Ocular trauma is a common cause of vitreous haemorrhage.
+
+## answer_c
+Uveitis.
+
+## explanation_c
+Correct (this is the exception). Uveitis is an intraocular inflammation; it is not among the common causes of bleeding into the vitreous.
+
+## answer_d
+Posterior vitreous detachment causing a retinal tear.
+
+## explanation_d
+Incorrect (a true cause). A posterior vitreous detachment can tear a retinal vessel and bleed into the vitreous.
+
+## topic
+Ophthalmology
+
+## subtopic
+Vitreous haemorrhage
+
+## main_concept
+CON-MUL-189CAECD099509
+
+## concept_ids
+CON-MUL-189CAECD099509
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Common causes of vitreous haemorrhage except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-88
+
+## title
+Complications of anterior lens dislocation except
+
+## question
+Complications of anterior dislocation of the lens include all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Corneal perforation.
+
+## explanation_a
+Correct (this is the exception). A lens in the anterior chamber touches and damages the corneal endothelium and blocks the pupil, but it does not perforate the cornea.
+
+## answer_b
+Glaucoma.
+
+## explanation_b
+Incorrect (a true complication). A lens in the anterior chamber blocks the pupil and causes secondary (pupillary-block) glaucoma.
+
+## answer_c
+Iridocyclitis.
+
+## explanation_c
+Incorrect (a true complication). Contact and irritation of the uvea cause iridocyclitis.
+
+## answer_d
+Cataract.
+
+## explanation_d
+Incorrect (a true complication). The displaced lens commonly becomes cataractous.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens dislocation
+
+## main_concept
+CON-MUL-14B5B15A6A6ADF
+
+## concept_ids
+CON-MUL-14B5B15A6A6ADF
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Complications of anterior lens dislocation except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-89
+
+## title
+Correct statement about lens subluxation
+
+## question
+Regarding lens subluxation, which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The patient may complain of binocular diplopia.
+
+## explanation_a
+Incorrect. The diplopia of subluxation is monocular, arising within one eye when the lens edge crosses the pupil.
+
+## answer_b
+There is loss of the Purkinje-Sanson images.
+
+## explanation_b
+Correct. Displacement of the lens out of its normal position distorts or loses the lenticular (third and fourth) Purkinje-Sanson reflections, a useful sign of subluxation. The catoptric images from the lens surfaces become irregular or absent. Their loss reflects the abnormal lens position.
+
+## answer_c
+Surgery is the only treatment.
+
+## explanation_c
+Incorrect. Mild subluxation may be managed optically; surgery is reserved for significant displacement, so it is not the only treatment.
+
+## answer_d
+Astigmatism is always present.
+
+## explanation_d
+Incorrect. Astigmatism is common but not invariable, so “always present” is incorrect.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens subluxation
+
+## main_concept
+CON-MUL-25EC65FD3AD9AC
+
+## concept_ids
+CON-MUL-25EC65FD3AD9AC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Correct statement about lens subluxation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-90
+
+## title
+Causes of subluxated lens except
+
+## question
+A subluxated lens is found in all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Marfan syndrome.
+
+## explanation_a
+Incorrect (a true cause). Marfan syndrome weakens the zonules, classically dislocating the lens upward.
+
+## answer_b
+Homocystinuria.
+
+## explanation_b
+Incorrect (a true cause). Homocystinuria weakens the zonules, classically dislocating the lens downward.
+
+## answer_c
+Trauma.
+
+## explanation_c
+Incorrect (a true cause). Blunt or penetrating trauma can rupture the zonules and displace the lens.
+
+## answer_d
+Behcet disease.
+
+## explanation_d
+Correct (this is the exception). Behcet disease is a uveitic vasculitis; it does not cause zonular weakness or ectopia lentis.
+
+## topic
+Ophthalmology
+
+## subtopic
+Ectopia lentis
+
+## main_concept
+CON-MUL-37A78340E57E25
+
+## concept_ids
+CON-MUL-37A78340E57E25
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Causes of subluxated lens except.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH4-91
+
+## title
+Test of visual prognosis before cataract surgery
+
+## question
+The following test is done to determine the visual prognosis after cataract surgery:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Projection of light.
+
+## explanation_a
+Correct. When a dense cataract blocks the view of the fundus, accurate projection of light (with colour discrimination) tests gross retinal and optic-nerve function and so predicts the visual prognosis after surgery. Defective projection warns of coexisting posterior-segment disease. It is the bedside test that still works through opaque media.
+
+## answer_b
+Fluorescein angiography.
+
+## explanation_b
+Incorrect. Fluorescein angiography needs a clear media and a fundus view, which a dense cataract prevents.
+
+## answer_c
+Field of vision.
+
+## explanation_c
+Incorrect. Formal visual fields cannot be measured reliably through a dense cataract.
+
+## answer_d
+Corneal topography.
+
+## explanation_d
+Incorrect. Corneal topography assesses the cornea, not the retinal function behind a cataract.
+
+## topic
+Ophthalmology
+
+## subtopic
+Cataract assessment
+
+## main_concept
+CON-MUL-221EAF853BCEFC
+
+## concept_ids
+CON-MUL-221EAF853BCEFC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > Normal and abnormal image capture
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-IMAGE-CAPTURE
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Test of visual prognosis before cataract surgery.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.4 Normal and abnormal image capture (PDF p.40); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+

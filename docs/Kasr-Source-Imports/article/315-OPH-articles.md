@@ -411,6 +411,25 @@ CON-MUL-6AB5D295CC1843
 CON-MUL-57E3AF8DA3A303
 CON-MUL-A8ABF1722466B0
 CON-MUL-F2FDE429BB3531
+CON-MUL-28C14F52641AFA
+CON-MUL-90C54C1BB3DB64
+CON-MUL-9EC496C43A6807
+CON-MUL-95BB0512561B7A
+CON-MUL-D4F6661459F965
+CON-MUL-F7535F2B63FC13
+CON-MUL-A524560AAA8D34
+CON-MUL-CC036365192D41
+CON-MUL-D2F0A5CB49E1A0
+CON-MUL-4E6523B92974EB
+CON-MUL-5F04267D0BF02B
+CON-MUL-BCB2C35E7E7F33
+CON-MUL-0A6BA2CB071FFB
+CON-MUL-FCBDC2D4898C79
+CON-MUL-E76F056F9AA5C4
+CON-MUL-189CAECD099509
+CON-MUL-14B5B15A6A6ADF
+CON-MUL-37A78340E57E25
+CON-MUL-221EAF853BCEFC
 ## related_articles
 ART-OPH-315-EYE-ANATOMY
 ART-OPH-315-EYE-EXAM
@@ -440,6 +459,6 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-49). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the vitreous-haemorrhage concept (Q25) and the myopic-retinal-changes concept (Q41) are filed on DIS-OPH-T04 (Retina) but grouped here with their chapter. Q26/Q27/Q45/Q49 reuse existing Ch.4 concepts (intumescent-cataract glaucoma, early-nuclear-cataract myopic shift, Kayser-Fleischer-ring, cylindrical-lens for astigmatism). Chapter 4 has 91 MCQs; Q50-54 are multi-true clinical vignettes deferred for adjudication and Q55-91 remain for the next tranche.
+groupingNote: Groups the Chapter-4 image-capture concepts (MCQ Q1-91). Filed under the closest verified node DIS-OPH-T02 (Anterior segment) for the refraction/cornea/lens facts; the retinal/vitreous concepts (Q25, Q41, Q70, Q87) are filed on DIS-OPH-T04 (Retina) and the prognosis test (Q91) on DIS-OPH-T01 (Eye examination), but grouped here with their chapter. Reused Ch.4 concepts: Q26/Q27/Q45/Q49 (earlier tranche) and Q69 choroidal-folds, Q71 accommodation-loss, Q74 minus-cylinder, Q75 hypermetropia-angle-closure, Q77 presbyopia, Q80 endothelial-pump, Q84 keratoconus-astigmatism, Q89 Purkinje-images. Chapter 4 has 91 keyed MCQs, now fully authored (Q1-49, Q55-91 = 76) EXCEPT the multi-true clinical vignettes Q50-54 and Q55/Q57-59/Q61/Q62/Q64-67 (each lists more than one true statement), which are deferred for adjudication; the post-Q91 T/F Cases section is multi-true and out of scope.
 ## reading_time
 4
