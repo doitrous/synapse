@@ -184,3 +184,91 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## title
+Hypersensitivity and autoimmunity
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Immunology
+## summary
+This article groups the hypersensitivity and autoimmunity facts tested by the paper: serum sickness as the prototype type III immune-complex disease; the type I anaphylaxis axis (predisposition by abundant allergen-specific IgE; mast cells as the effector); delayed (type IV) hypersensitivity mediated by Th1 cells; and ulcerative colitis as a type IV cell-mediated autoimmune disease, distinct from the antibody-mediated (type II) autoimmune diseases.
+## sections
+### Definition
+The cluster covers the Gell and Coombs hypersensitivity types examined in 309 INF and their autoimmune counterparts: immediate IgE/mast-cell reactions (type I), immune-complex disease (type III), delayed cell-mediated reactions (type IV) and the classification of autoimmune diseases by mechanism.
+### Mechanism
+Type I anaphylaxis requires large amounts of allergen-specific IgE that arms mast cells; re-exposure cross-links the IgE and degranulates the mast cell. Type III serum sickness deposits circulating immune complexes that fix complement. Type IV delayed hypersensitivity is driven by Th1 cells activating macrophages. Autoimmune diseases follow the same typing: antibody-mediated (type II) versus cell-mediated (type IV, e.g. ulcerative colitis).
+### Key determinants
+Discriminators tested here: type III serum sickness versus type I (asthma/rhinitis), type II (blood-group/Rh) and type IV (contact dermatitis); anaphylaxis predisposed by IgE (not complement/immune complexes/IgG-cell antigen); mast cells (not neutrophils/macrophages/Th1) as the anaphylaxis effector; Th1 cells for delayed hypersensitivity; and cell-mediated (type IV) ulcerative colitis versus antibody-mediated (type II) AIHA/myasthenia gravis/rheumatic fever.
+### Clinical significance
+These facts underpin the recognition and management of allergy and anaphylaxis, serum sickness after antisera, delayed reactions such as the tuberculin test and contact dermatitis, and the mechanistic classification of autoimmune disease that guides therapy.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (hypersensitivity-type confusion; wrong anaphylaxis trigger or effector cell; antibody vs cell-mediated autoimmunity).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## subtopic
+Hypersensitivity and autoimmunity
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-IMU-T03
+## secondary_node_ids
+DIS-IMU-T04
+DIS-IMU
+## related_concepts
+CON-INF-C21F7578EB15AB
+CON-INF-83A163C40959E1
+CON-INF-D6909A5F34A535
+CON-INF-FC08392457FC8B
+CON-INF-570409B15F77A9
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+5

@@ -402,6 +402,7 @@ Files: `question/309-INF-microbiology-mcq.md`, `concept/309-INF-microbiology-con
 | S5 Virology cont + mycology | Q25,39,77,78 (viro), Q10,62 (myco) | DIS-MIC-T02 · ART-INF-309-MICRO-VIROLOGY / DIS-MIC-T03 · ART-INF-309-MICRO-MYCOLOGY | 6 | 0 | items=38 errors=0 |
 | S6 Immunity — general I | Q11,12,13,14,15,46,47,53,55,57 | DIS-IMU · ART-INF-309-IMMUNO-GENERAL | 10 | 0 | items=10 errors=0 (immunity file) |
 | S7 Immunity — general II | Q16,29,31,48,54,56,58,59,71 | DIS-IMU · ART-INF-309-IMMUNO-GENERAL2 | 9 | 0 | items=19 errors=0 (immunity file) |
+| S8 Hypersensitivity + autoimmunity | Q2,19,32,67 (T03), Q72 (T04) | DIS-IMU-T03/T04 · ART-INF-309-IMMUNO-HYPERSENSITIVITY | 5 | 0 | items=24 errors=0 (immunity file) |
 
 Held/excluded (running, this bank): within-bank exact/reciprocal duplicates to be held as later slices reach them
 (Q24=Q2, Q26=Q3, Q35=Q1, Q37/Q66 reciprocal of Q2, Q41=Q23, Q42=Q2, Q43=Q25, Q44=Q3, Q45=Q27, Q70=Q40),

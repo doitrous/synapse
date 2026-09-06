@@ -2121,3 +2121,559 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-C21F7578EB15AB
+## label
+Serum sickness is a type III (immune-complex) hypersensitivity disease
+## canonical_key
+immunology.serum-sickness-is-type-iii-immune-complex-disease
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Serum sickness is the prototype type III hypersensitivity reaction: circulating antigen-antibody (immune) complexes are deposited in vessel walls, joints and glomeruli, where they activate complement and cause inflammation days after exposure to a foreign protein (e.g. antitoxic serum).
+## explicit_objective
+Identify serum sickness as a type III immune-complex-mediated disease.
+## pitfalls
+Blood-group and Rh incompatibility are type II (cytolytic), bronchial asthma and allergic rhinitis are type I (immediate/IgE), and contact dermatitis is type IV (cell-mediated); serum sickness is the type III immune-complex example.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T03
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## article_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-83A163C40959E1
+## label
+Anaphylaxis is predisposed by production of large amounts of allergen-specific IgE
+## canonical_key
+immunology.anaphylaxis-predisposed-by-high-allergen-specific-ige
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Anaphylaxis is a type I (immediate) hypersensitivity reaction: production of large amounts of allergen-specific IgE, which binds mast cells and basophils, so that re-exposure to allergen cross-links the IgE and triggers explosive mediator release.
+## explicit_objective
+State that production of large amounts of allergen-specific IgE predisposes to anaphylaxis.
+## pitfalls
+Complement activation, soluble immune complexes (type III) and IgG reacting with cell-bound antigen (type II) do not underlie anaphylaxis; the predisposing factor is abundant allergen-specific IgE.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T03
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## article_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-D6909A5F34A535
+## label
+Delayed (type IV) hypersensitivity is mediated by T helper-1 cells
+## canonical_key
+immunology.delayed-hypersensitivity-mediated-by-th1-cells
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Delayed-type (type IV) hypersensitivity is a cell-mediated reaction in which sensitised T helper-1 cells, on re-encountering antigen, secrete cytokines that recruit and activate macrophages over 24-72 hours, as in the tuberculin reaction.
+## explicit_objective
+State that delayed hypersensitivity is mediated by T helper-1 cells.
+## pitfalls
+Basophils and mast cells drive immediate (type I) reactions and B cells make antibody for types I-III; delayed (type IV) hypersensitivity is a T-cell (Th1) response, not antibody-mediated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T03
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## article_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-FC08392457FC8B
+## label
+The anaphylactic reaction is mediated by mast cells
+## canonical_key
+immunology.anaphylactic-reaction-mediated-by-mast-cells
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In type I anaphylaxis, allergen cross-links IgE bound to mast cells (and basophils), triggering degranulation and release of histamine and other mediators that produce the vasodilatation, bronchoconstriction and increased vascular permeability of the reaction.
+## explicit_objective
+Identify mast cells as the cells responsible for the anaphylactic reaction.
+## pitfalls
+Neutrophils and macrophages are phagocytes and Th1 cells drive delayed hypersensitivity; the immediate anaphylactic reaction is mediated by IgE-armed mast cells.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T03
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## article_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-570409B15F77A9
+## label
+Ulcerative colitis is a type IV cell-mediated autoimmune disease
+## canonical_key
+immunology.type-iv-cell-mediated-autoimmune-disease-ulcerative-colitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the listed autoimmune diseases, ulcerative colitis is driven mainly by a T-cell (cell-mediated, type IV) inflammatory response against colonic tissue, in contrast to the antibody-mediated (type II) autoimmune diseases.
+## explicit_objective
+Identify ulcerative colitis as a type IV cell-mediated autoimmune disease.
+## pitfalls
+Autoimmune haemolytic anaemia, myasthenia gravis and acute rheumatic fever are antibody-mediated (type II) autoimmune diseases; the cell-mediated (type IV) example here is ulcerative colitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T04
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Autoimmunity
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Autoimmunity
+## article_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.

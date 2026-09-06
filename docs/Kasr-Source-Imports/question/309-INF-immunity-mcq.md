@@ -2018,3 +2018,534 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-2
+## title
+Disease mediated by immune-complex reactions
+## question
+Which disease is mediated by immune-complex reactions?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Blood group incompatibility.
+## explanation_a
+Incorrect. Blood-group incompatibility is a type II (cytolytic) reaction, mediated by antibody against cell-surface antigens.
+## answer_b
+Bronchial asthma.
+## explanation_b
+Incorrect. Bronchial asthma is a type I (immediate, IgE-mediated) reaction.
+## answer_c
+Contact dermatitis.
+## explanation_c
+Incorrect. Contact dermatitis is a type IV (delayed, cell-mediated) reaction.
+## answer_d
+Serum sickness.
+## explanation_d
+Correct. Serum sickness is the prototype type III immune-complex disease: deposited antigen-antibody complexes activate complement and cause inflammation.
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## main_concept
+CON-INF-C21F7578EB15AB
+## concept_ids
+CON-INF-C21F7578EB15AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify serum sickness as an immune-complex (type III) disease.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q2 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-19
+## title
+What predisposes to anaphylaxis
+## question
+What predisposes to anaphylaxis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Activation of the complement components
+## explanation_a
+Incorrect. Complement activation features in type III and some type II reactions, not in IgE-mediated anaphylaxis.
+## answer_b
+Formation of soluble immune complexes
+## explanation_b
+Incorrect. Soluble immune complexes cause type III (serum-sickness) reactions, not anaphylaxis.
+## answer_c
+Production of large amount of allergen-specific IgE
+## explanation_c
+Correct. Anaphylaxis is a type I reaction: large amounts of allergen-specific IgE arm mast cells and basophils, so re-exposure triggers explosive mediator release.
+## answer_d
+Reaction of IgG with cell bound antigen
+## explanation_d
+Incorrect. IgG reacting with cell-bound antigen is a type II (cytolytic) reaction, not anaphylaxis.
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## main_concept
+CON-INF-83A163C40959E1
+## concept_ids
+CON-INF-83A163C40959E1
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that abundant allergen-specific IgE predisposes to anaphylaxis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q19 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-32
+## title
+Cells in the development of delayed hypersensitivity
+## question
+Which cells are important in the development of delayed hypersensitivity?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Basophils
+## explanation_a
+Incorrect. Basophils act in immediate (type I) reactions, not delayed hypersensitivity.
+## answer_b
+B cells
+## explanation_b
+Incorrect. B cells produce antibody for types I-III; delayed hypersensitivity is cell-mediated.
+## answer_c
+Mast cells
+## explanation_c
+Incorrect. Mast cells mediate immediate (type I) reactions.
+## answer_d
+T helper-1 cells
+## explanation_d
+Correct. Delayed (type IV) hypersensitivity is mediated by sensitised T helper-1 cells that secrete cytokines to recruit and activate macrophages.
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## main_concept
+CON-INF-D6909A5F34A535
+## concept_ids
+CON-INF-D6909A5F34A535
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that delayed hypersensitivity is mediated by T helper-1 cells.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q32 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-67
+## title
+Cells responsible for the anaphylactic reaction
+## question
+Which cells are responsible for anaphylactic reaction?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Mast cells
+## explanation_a
+Correct. In type I anaphylaxis, allergen cross-links IgE bound to mast cells, triggering degranulation and release of histamine and other mediators.
+## answer_b
+Neutrophils
+## explanation_b
+Incorrect. Neutrophils are phagocytes of acute inflammation, not the effectors of anaphylaxis.
+## answer_c
+Macrophages
+## explanation_c
+Incorrect. Macrophages are phagocytic/antigen-presenting cells, not the mediators of the immediate anaphylactic reaction.
+## answer_d
+Th1 cells
+## explanation_d
+Incorrect. Th1 cells drive delayed (type IV) hypersensitivity, not immediate anaphylaxis.
+## topic
+Immunology
+## subtopic
+Hypersensitivity
+## main_concept
+CON-INF-FC08392457FC8B
+## concept_ids
+CON-INF-FC08392457FC8B
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+38
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Hypersensitivity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify mast cells as responsible for the anaphylactic reaction.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q67 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-72
+## title
+Autoimmune disease mediated by type IV hypersensitivity
+## question
+Which autoimmune disease is mediated by cell-mediated type IV hypersensitivity reaction?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Autoimmune haemolytic anemia
+## explanation_a
+Incorrect. Autoimmune haemolytic anaemia is antibody-mediated (type II), with antibodies against red-cell antigens.
+## answer_b
+Myasthenia gravis
+## explanation_b
+Incorrect. Myasthenia gravis is antibody-mediated (type II), with antibodies against the acetylcholine receptor.
+## answer_c
+Acute rheumatic fever
+## explanation_c
+Incorrect. Acute rheumatic fever is antibody-mediated (type II), from cross-reacting anti-streptococcal antibodies.
+## answer_d
+Ulcerative colitis
+## explanation_d
+Correct. Ulcerative colitis is driven mainly by a T-cell (cell-mediated, type IV) inflammatory response against colonic tissue.
+## topic
+Immunology
+## subtopic
+Autoimmunity
+## main_concept
+CON-INF-570409B15F77A9
+## concept_ids
+CON-INF-570409B15F77A9
+## contextual_concept_ids
+
+## difficulty
+Hard
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.6
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+64
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Autoimmunity
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-HYPERSENSITIVITY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify ulcerative colitis as a type IV cell-mediated autoimmune disease.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q72 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
