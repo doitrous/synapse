@@ -102,4 +102,26 @@ Q97.B Q98.A Q99.C Q100.C Q101.D Q102.D Q103.B Q104.A Q105.A
 #   Q102 (nerve degeneration -> digestion/fermentation chambers distal) == EXACT existing EOY198 stem "Regarding degeneration of nerves" (digestion chambers, ans d).
 #   Q104 (neuroglia -> fibrous astrocytes few long processes) == 2024eom-q103 "The answer that best applies to neuroglia" (astrocyte-morphology concept; its distractor states the same fact for protoplasmic astrocytes).
 #
-# NOT YET TRIAGED: Q106-115 (pages 13-14, image-only) and Section B (extended cross-match, held for image attachment).
+# ============================================================================
+# THIRD PASS (2026-09-06) — SLICE 4 (COMPLETES SECTION A): Q106-115 (pages 13-14)
+# rendered at 200dpi, margin letters read by eye and cross-checked against standard neuroscience.
+# Keys read this slice (Q106-115):
+Q106.C Q107.A Q108.B Q109.B Q110.A Q111.C Q112.C Q113.A Q114.C Q115.C
+#
+# AUTHORED this slice (8 genuinely-new items, seed eom2023-head-and-neck-anatomy-p6.json
+# -> batch 205-NEU-2023eom-head-neck-p6-mcq.md):
+#   Q106, Q108, Q109, Q110, Q111, Q112, Q113, Q115
+#
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q107 (presbyopia caused by loss of lens capsule elasticity) == just-authored Q96 (presbyopia = age-related loss of accommodation from lens stiffening; same fact).
+#   Q114 (cerebellar cortex: Golgi-cell dendrites extend in all layers) == existing concept cerebellum.golgi-cell.dendrites-all-layers (2023eom-q44 / cerebellar-cortex stem).
+#
+# SECTION B (extended cross-match): figure-dependent, HELD for image attachment (labelled spinal-cord
+# cross-section). Render-read keys: 1(gracile fasciculus)->g fine touch/proprioception lower half same side;
+# 2(ventral spinocerebellar)->f proprioception to cerebellum from lumbar/sacral/coccygeal; 3(posterior /
+# fasciculus proprius, pointed at posterior horn base)->b second-order neuron in pain & temperature pathway;
+# 4(ventral reticulospinal)->e arises from reticular formation; 5(crossed/lateral corticospinal, "crossed
+# pyramidal")->c present in lateral column of white matter. (Statements a & d unused among labels 1-5.)
+#
+# SECTION A COMPLETE: 115 MCQs = 87 authored (6 passes) + 28 near-duplicate skips. Only Section B remains
+# (held for image attachment).

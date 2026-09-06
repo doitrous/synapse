@@ -4,7 +4,7 @@
 | 2024-eom-head-and-neck-anatomy | 26 | 2 | 0 | 28 |
 | 2024-eom-physiology | 23 | 0 | 0 | 23 |
 | 2024-eom-physiology-b | 34 | 4 | 0 | 38 |
-| 2023-eom-head-and-neck-anatomy | 79 | 0 | 10 | 89 |
+| 2023-eom-head-and-neck-anatomy | 87 | 1 | 0 | 88 |
 
 `2023-eom-head-and-neck-anatomy` is the EOM (2023 sitting) paper src_1d0cd2a7afeb66dcfd85
 (printed 30/11/2023). First pass: Q1-24 read (pages 1-3), 20 genuinely-new items authored,
@@ -51,6 +51,18 @@ minted (unsalted university-blind, collision-checked); 9 added to ART-NEU-205NEU
 3 (synapse/ganglion/RPE histology) to ART-NEU-205NEU-SPECIAL-SENSES-NERVE-HISTOLOGY coverage.
 `total` = 115 - 26 dupes = 89; authored 67 -> 79; `remaining` = Q106-115 (pages 13-14, image-only)
 + Section B (held for image attachment).
+
+Third pass SLICE 4 (2026-09-06) — COMPLETES SECTION A: Q106-115 read (pages 13-14). 8 genuinely-new
+items authored (Q106,108,109,110,111,112,113,115 — eye/ear/meninges histology + ascending/descending
+spinal tracts) into seed eom2023-head-and-neck-anatomy-p6.json -> batch 205-NEU-2023eom-head-neck-p6-mcq.md;
+2 skipped as near-duplicates (Q107 presbyopia = lens elasticity loss, dup of the just-authored Q96;
+Q114 Golgi-cell dendrites in all layers, existing concept cerebellum.golgi-cell.dendrites-all-layers).
+Section B (extended cross-match over a labelled spinal-cord cross-section) HELD for image attachment;
+render-read keys recorded in the seed (1 gracile->g, 2 ventral spinocerebellar->f, 3 posterior/fasciculus
+proprius->b, 4 ventral reticulospinal->e, 5 crossed pyramidal->c). 8 new concepts minted (unsalted
+university-blind, collision-checked); 6 added to ART-NEU-205NEU-SPECIAL-SENSES-NERVE-HISTOLOGY and 2
+(spinal tracts) to ART-NEU-205NEU-CNS-GROSS-ANATOMY coverage. SECTION A COMPLETE: 115 MCQs = 87 authored
+(across 6 passes) + 28 skipped near-duplicates; Section B is the sole remaining hold (needs the figure).
 
 ## Held
 - 2024eom-q20 — Printed options are Lingual/Hypoglossal/Internal laryngeal/Glossopharyngeal for the nerve related to the superior thyroid artery; the source's own hand annotation crosses out the green-highlighted "Internal laryngeal" and corrects it in the margin to "External laryngeal" — the anatomically correct nerve (external laryngeal nerve is closely related to the superior thyroid artery, not internal laryngeal) — but "External laryngeal" is not one of the four printed options. No printed option is source-supported as correct after the correction; held per the book-is-the-source rule rather than authored against a key the source's own correction contradicts.

@@ -21565,3 +21565,883 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-0F9177EF9D416D
+## label
+The tear film has three layers; the middle aqueous layer (from the lacrimal gland) is the thickest
+## canonical_key
+tearfilm.layers.aqueous-middle-thickest
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The precorneal tear film has three layers. The SUPERFICIAL LIPID layer is produced by the MEIBOMIAN (tarsal) glands and retards evaporation. The MIDDLE AQUEOUS (watery) layer, secreted by the lacrimal and accessory lacrimal glands, is the THICKEST layer and carries most of the tear volume, oxygen and antibacterial substances. The INNERMOST MUCIN layer, produced by conjunctival goblet cells, lets the watery layer wet the cornea. So the aqueous layer is the middle and thickest layer, and it is the lacrimal (not Meibomian) glands that make it.
+## explicit_objective
+State the three tear-film layers and their sources, identifying the middle aqueous layer as the thickest.
+## pitfalls
+Assigning the aqueous layer to Meibomian glands, or the lipid/mucin layers to the wrong glands; lipid = Meibomian, aqueous = lacrimal, mucin = goblet cells.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Eye histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Tear Film
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"About the layers of the tear film: a- Innermost mucin layer is produced by Meibomian glands b- Superficial lipid layer is produced by conjunctival goblet cells c- Aqueous (watery) layer is the middle thickest layer d- The middle layer is produced by Meibomian glands" ANSWER: c (205 NEU EOM 2023, Q106)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-85188462F08E65
+## label
+Moll's glands of the eyelid are modified apocrine sweat glands
+## canonical_key
+eyelid.moll-gland.apocrine-sweat-gland
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The eyelid margin carries several glands. MOLL's glands are modified APOCRINE SWEAT glands opening near the eyelash follicles. Zeis glands are modified SEBACEOUS glands on the lashes, and their inflammation (with the lash follicle) causes a stye (external hordeolum) — a CHALAZION instead is a granuloma of a blocked Meibomian (tarsal) gland. The nasolacrimal duct is lined by pseudostratified/stratified columnar epithelium (not simple non-ciliated), and the PALPEBRAL conjunctiva (not bulbar) lines the inner surface of the eyelid. So the true statement is that Moll's glands are apocrine sweat glands.
+## explicit_objective
+Identify Moll's glands as apocrine sweat glands and correct common eyelid-gland errors.
+## pitfalls
+Confusing Zeis (sebaceous, stye) with Meibomian blockage (chalazion), or bulbar with palpebral conjunctiva lining the eyelid's inner surface.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Eye histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Eyelid Glands
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Concerning the accessory eye structures: a- Inflammation of Zeis sebaceous glands causes chalazion formation b- Moll's glands are apocrine sweat glands in the eyelid c- Nasolacrimal duct is lined by simple columnar non-ciliated epithelium d- Bulbar conjunctiva line the inner surface of eyelid" ANSWER: b (205 NEU EOM 2023, Q108)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-7DED527FD680EA
+## label
+The tensor tympani and stapedius muscles regulate sound conduction through the middle ear
+## canonical_key
+middleear.intratympanic-muscles.tensor-tympani-stapedius-sound-regulation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Two small intratympanic muscles, the TENSOR TYMPANI (on the malleus, V3) and the STAPEDIUS (on the stapes, facial nerve), reflexly contract to dampen ossicular movement and so REGULATE sound conduction, protecting the inner ear from loud sounds (the attenuation/acoustic reflex). Other true anatomy: the handle of the malleus is attached to the tympanic membrane (not the oval window); the auditory (Eustachian) tube is lined by pseudostratified ciliated columnar epithelium; and the Eustachian tube connects the middle ear to the NASOPHARYNX (not the oropharynx). So the correct statement is that these two muscles regulate sound conduction.
+## explicit_objective
+Identify tensor tympani and stapedius as the middle-ear muscles that regulate sound conduction.
+## pitfalls
+Placing the malleus handle in the oval window, or saying the Eustachian tube opens into the oropharynx; it attaches to the tympanic membrane and opens into the nasopharynx.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Ear histology and anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Ear > Middle Ear
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"As regards to middle ear boundaries and contents; select the correct answer: a- The handle of malleus fits into the oval window b- Tensor tympani & stapedius muscles regulate sound conduction c- The auditory tube is lined by stratified cubical epithelium d- Eustachian tube connects middle ear cavity to the oropharynx" ANSWER: b (205 NEU EOM 2023, Q109)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-312B81CA0780B2
+## label
+In the organ of Corti the phalangeal (Deiters') cells directly support the hair cells
+## canonical_key
+organofcorti.phalangeal-cells.direct-support-to-hair-cells
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the organ of Corti the PHALANGEAL cells (inner and outer/Deiters' cells) are the supporting cells that DIRECTLY support the hair cells, cupping their bases and sending phalangeal processes to the reticular lamina. The OUTER hair cells are arranged in THREE (to four) rows and the INNER hair cells in a single row (not the reverse); inner phalangeal cells accompany the single inner row. The organ of Corti is the neuroreceptor for HEARING, not equilibrium (equilibrium is the vestibular apparatus). So the correct statement is that phalangeal cells directly support the hair cells.
+## explicit_objective
+State that phalangeal (Deiters') cells directly support the organ-of-Corti hair cells and correct the row/receptor errors.
+## pitfalls
+Reversing inner/outer hair-cell row numbers, or calling the organ of Corti a receptor for equilibrium; it is the receptor for hearing.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Ear histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Ear > Organ of Corti
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the organ of Corti, the following is correct: a- Phalangeal cells make direct support to hair cells b- Outer hair cells are arranged as one row c- Inner phalangeal cells are arranged as 3-4 rows d- Organ of Corti is a neuroreceptor for equilibrium" ANSWER: a (205 NEU EOM 2023, Q110)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-DA05A36467E5E6
+## label
+The maculae of the utricle and saccule contain type 1 and type 2 mechanoreceptor hair cells under an otolithic membrane
+## canonical_key
+vestibularmacula.hair-cells.type-1-and-type-2-mechanoreceptors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The maculae of the utricle and saccule are the receptors for linear acceleration and gravity. Their sensory epithelium contains TYPE 1 (flask-shaped, chalice nerve ending) and TYPE 2 (cylindrical) MECHANORECEPTOR hair cells, whose stereocilia and a single true kinocilium project into a gelatinous OTOLITHIC (statoconial) membrane carrying otoconia — NOT the tectorial membrane (that belongs to the cochlea). The two maculae lie roughly PERPENDICULAR (utricle horizontal, saccule vertical), not parallel, and the kinocilium is on the HAIR cell, not the supporting cell. So the correct statement is that they have type 1 and type 2 hair cells.
+## explicit_objective
+State that vestibular maculae contain type 1 and type 2 hair cells and correct membrane/orientation errors.
+## pitfalls
+Calling the macular covering a tectorial membrane, saying the two maculae are parallel, or placing the kinocilium on the supporting cell.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Ear histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Ear > Vestibular Maculae
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Regarding the maculae of utricle and saccule: a- They lie parallel to each other b- Covered by proteoglycan membrane called tectorial membrane c- Have type 1 and 2 mechanoreceptor hair cells d- Supporting cell has apical true cilium (kinocilium)" ANSWER: c (205 NEU EOM 2023, Q111)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-12C784526182DD
+## label
+The spinotectal tract carries information for the spino-visual reflex to the midbrain tectum
+## canonical_key
+spinotectaltract.function.spino-visual-reflex
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The SPINOTECTAL tract ascends in the anterolateral cord to the SUPERIOR COLLICULUS (tectum) of the midbrain and mediates the SPINO-VISUAL reflex — turning the eyes and head toward a cutaneous/somatic stimulus. The other options are wrong: the ventral spinocerebellar tract arises from SPINAL BORDER cells (not the gracile and cuneate nuclei, which are the dorsal-column relay); the external (dorsal) arcuate fibres and posterior spinocerebellar tract arise from CLARKE's column, but 'external arcuate from Clarke's' as phrased is not the intended key; and the spino-olivary tract does not simply originate from posterior-horn laminae I & V. So the correct statement is that the spinotectal tract subserves the spino-visual reflex.
+## explicit_objective
+Identify the spinotectal tract's projection to the tectum and its role in the spino-visual reflex.
+## pitfalls
+Confusing spinotectal (spino-visual reflex, to superior colliculus) with spinocerebellar or spino-olivary tracts and their different cells of origin.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal cord tracts
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Spinal Cord > Ascending Tracts
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Select the correct answer: a- Ventral spinocerebellar tract originates from cells in Gracil & Cuneate nuclei b- External arcuate fibers arise from Clark's nucleus c- Spinotectal tract is concerned with spino-visual reflex d- Spino-olivary tract originates from cells in laminae I & V in posterior horn" ANSWER: c (205 NEU EOM 2023, Q112)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F020DF17CFCD54
+## label
+The sulcomarginal and reticulospinal tracts run in all levels of the spinal cord
+## canonical_key
+extrapyramidaltracts.spinalcord.sulcomarginal-reticulospinal-all-levels
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the descending extrapyramidal tracts, the SULCOMARGINAL tract (the medial longitudinal fasciculus/anterior vestibulospinal complex near the anterior median fissure) and the RETICULOSPINAL tracts are present at ALL levels of the spinal cord. The others are misstated: the TECTOSPINAL tract arises from the superior colliculus/tectum (not the red nucleus — that is the rubrospinal tract); the rubrospinal tract runs the length of the cord, not the lumbar level only; and the olivospinal tract is a small, inconstant bundle, not a paired ventral-and-lateral tract. So the correct statement is that the sulcomarginal and reticulospinal tracts are present at all levels.
+## explicit_objective
+State that the sulcomarginal and reticulospinal tracts occur at all cord levels and correct the origin/extent of tectospinal, rubrospinal and olivospinal tracts.
+## pitfalls
+Deriving the tectospinal tract from the red nucleus (it is from the tectum) or restricting the rubrospinal tract to the lumbar cord.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Anatomy
+## subtopic
+Spinal cord tracts
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Anatomy > Spinal Cord > Descending Tracts
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"At view of the extrapyramidal tracts of the spinal cord: a- Sulcomarginal and reticulospinal tracts are present in all levels b- Tectospinal tract is originated from red nucleus c- Rubrospinal tract is found in lumber level only d- Olivospinal tract is a paired tract (ventral & lateral)" ANSWER: a (205 NEU EOM 2023, Q113)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 13 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-3AD4D290C2DD89
+## label
+The arachnoid barrier cell layer is formed by tight junctions and desmosomes between its cells
+## canonical_key
+arachnoidbarrier.ultrastructure.tight-junctions-and-desmosomes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The arachnoid BARRIER is the outermost cell layer of the arachnoid mater, whose cells are joined by TIGHT JUNCTIONS and DESMOSOMES; this continuous belt of junctions makes the layer impermeable and forms the barrier between the CSF-containing subarachnoid space and the dura/blood. It is distinct from the blood-CSF barrier at the choroid plexus (which separates choroid capillary blood from ventricular CSF) and from the blood-brain barrier (astrocyte end-feet plus tight junctions of brain capillary endothelium separating blood from nerve cells). So the arachnoid barrier is best described as being formed by tight junctions and desmosomes between its cells.
+## explicit_objective
+Describe the arachnoid barrier as a tight-junction/desmosome-linked cell layer, distinct from the blood-CSF and blood-brain barriers.
+## pitfalls
+Confusing the arachnoid barrier with the choroid-plexus blood-CSF barrier or the astrocyte/endothelial blood-brain barrier.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Meninges histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Meninges > Arachnoid Barrier
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following best describes the arachnoid barrier? a- It separates the blood in choroid capillaries from CSF in brain ventricles b- End feet of astrocytes share in this barrier c- Formed by tight junctions & desmosomes between its cells d- It separates blood in intracerebral capillaries from nerve cells" ANSWER: c (205 NEU EOM 2023, Q115)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Histology and Physiology, image-only, no text layer) were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience/histology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 14 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
