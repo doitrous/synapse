@@ -1,0 +1,68 @@
+# 206 DIG — triage keys for Anatomy MCQ Previous exams Answer [206].pdf
+# sourceId src_e2f2f2fc0a951d31ff71  sha256 e2f2f2fc0a951d31ff71... (tier 5, solved MCQ bank)
+# Kasr Al Ainy 206 DIG Anatomy department "previous exams" solved MCQ bank, 54 pages, a
+#   COMPILATION of multiple past anatomy papers (numbering restarts: exam A = pp.1-9 Q1-56,
+#   exam B = pp.10-12 Q1-18..., more exams follow on pp.13-54, un-OCR'd this pass).
+#   NON-EOM, image-only (no native text), OCR via pagetext.mjs. Correct answer = solid
+#   circle drawn over the option letter (OCR transcribes it as "(a)", "@", "®", "&", "()",
+#   "€", or a garbled leading glyph on the correct line).
+# Marker CONFIRMED by rendering p.5 once at default dpi against the circle (see triage note).
+# Scope: GIT gross anatomy + urinary/genital gross anatomy & embryology (the module's
+#   Anatomy dept treats renal/genital gross anatomy as part of 206). This ESCAPES the EOM
+#   overlap because the two EOM papers covered renal/genital only as histology/physiology.
+# Sitting year: unknown (compilation of undated past exams) — left null, authored items use
+#   the source's own citation, no examSittingYear claim.
+#
+# key = question number . circled option   [D = dup of already-authored EOM content; H = held]
+# === exam A (pp.1-9, Q1-56) ===
+q01=?   # gastroduodenal artery origin (stem head OCR-garbled)                          H
+q02=b   # porto-systemic anastomosis: superior<->inferior rectal veins                  D (portal-caval authored)
+q03=d   # psoas major attached distally to lesser trochanter                            D (psoas/genitofemoral authored)
+q04=a   # superficial inguinal ring is circular (incorrect-select)                      D (inguinal region saturated)
+q05=c   # inferior margin of external oblique aponeurosis folds to form inguinal lig.   D
+q06=d   # inguinal canal in female transmits round ligament of uterus                   D
+q07=a   # transpyloric plane at L1 (OCR "4th lumbar" garbled) - stem uncertain          H
+q08=c   # rectum: "begins at S1" is the WRONG statement (rectosigmoid jn at S3)         >> AUTHOR
+q09=c   # appendix blood supply from superior mesenteric artery (appendicular a.)       D (appendix authored)
+q10=b   # porta hepatis contains all EXCEPT gastroduodenal artery                       D (portal/porta authored 2025)
+q11=a   # SMA crosses over 3rd part of duodenum                                         D (SMV/uncinate authored)
+q14=a   # structure medial to 2nd part of duodenum = head of pancreas                   >> AUTHOR
+q15=a   # ileal arterial arcades are complex and numerous                              D-ish (jejunum-vs-ileum authored) skip
+q16=d   # U-shaped sling around anorectal junction = puborectalis muscle               >> AUTHOR
+q18=b   # branch of inferior mesenteric artery = sigmoidal arteries                     D (IMA saturated) skip
+q19=?   # origin of middle suprarenal arteries (OCR key garbled, likely abdominal aorta) H
+q21=b   # anterior wall of inguinal canal = external oblique aponeurosis               D
+q24=b   # surface marking (tip R 9th costal cart.) = fundus of gall bladder            D (Murphy's point authored)
+q25=b   # deep inguinal ring lies in fascia transversalis                              D (inguinal) skip
+q26=a   # ligament of Treitz = landmark of duodenojejunal junction                     >> AUTHOR
+q27=b   # quadrate lobe lies on inferior surface of liver                              D (quadrate lobe authored)
+q28=a   # NOT related to anterior surface of stomach = body of pancreas                >> AUTHOR
+q29=c   # Ampulla of Vater = hepatopancreatic ampulla                                  D (ampulla authored)
+q30=d   # posterior boundary of epiploic foramen = IVC                                 D
+q31=c   # structure related to base of bladder = seminal vesicle (stem OCR-truncated)  H
+q32=d   # spermatic cord content = pampiniform plexus of veins                         D (spermatic cord authored)
+q33=c   # structure indenting/related = liver (stem OCR-truncated)                     H
+q34=a   # ejaculatory ducts open into the prostatic urethra                            >> AUTHOR
+q35=d   # right ureter lies behind 3rd part of duodenum                                H (contestable) skip
+q36=a   # vas deferens begins as continuation of tail of epididymis                    >> AUTHOR
+q37=b   # male genital untrue: artery of vas from inferior epigastric (untrue-select)  D-ish skip
+q38=b   # prostate: apex rests on (urogenital diaphragm) pelvic fascia                 skip (contestable)
+q39=c   # glomeruli of the kidney derived from the metanephric cap                     >> AUTHOR
+q40=d   # kidney relations untrue: "both hila at T12" (untrue-select)                  D (kidney level authored)
+q42=a   # NOT a derivative of metanephric cap = ureter                                 D (ureteric bud authored) skip
+q44=d   # bladder apex to umbilicus = median umbilical ligament                        >> AUTHOR
+q45=c   # seminal vesicle FALSE: "acts as a reservoir of sperms" (does not store sperm) >> AUTHOR
+q46=a   # pelvic part of urogenital sinus (male) -> membranous urethra                 >> AUTHOR
+q47=d   # internal spermatic fascia derived from fascia transversalis                  >> AUTHOR
+q48=c   # ureter narrowest constriction at the pelvi-ureteric junction                 >> AUTHOR
+q49=a   # failure of testes to descend = cryptorchidism                               >> AUTHOR
+q50=c   # early splitting of the ureteric bud -> bifid ureter                          D (double ureter authored) skip
+q52=d   # right ureter INCORRECT: "related medially to inferior mesenteric vessels"    >> AUTHOR
+q53=a   # prostatic urethra is the widest and most dilatable part of the urethra       >> AUTHOR
+q54=b   # anterior relation of the LEFT kidney = body of pancreas                      >> AUTHOR
+q55=c   # bladder trigone: internal urethral orifice lies at its (inferior) apex       >> AUTHOR
+q56=a   # testis supplied by testicular artery arising from abdominal aorta            D (testis artery authored) skip
+# === exam B (pp.10-12) — mostly repeats exam A; unique keys noted ===
+b08=d   # IVC: the hepatic veins are tributaries (true-statement)                      >> AUTHOR (p11 Q8)
+b17=d   # lower half of anal canal INCORRECT: "sacrum/sacral plexus lie anterior to it" >> AUTHOR (p12 Q17)
+# (pp.13-54 not OCR'd this pass — 20 items already exceed the slice; remainder = next author)

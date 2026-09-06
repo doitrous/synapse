@@ -120,3 +120,26 @@ read `kasr-y2-sources.json`, or confirm resource-kind files are meant to gate on
 - 31 tier-5 banks (mostly Anatomy MCQ banks under the `Dpt Anatomy` folder) — untouched.
 - OCR the Anatomy department book(s) (213 pages, image atlas) to ground `CLM-`/`CIT-`
   evidence for these 16 concepts and move them past `needs_evidence`.
+
+
+## PIVOT -- Anatomy MCQ bank (tier-5, solved, NON-EOM) -- 2026-09-06
+
+Both 206-DIG EOM papers are exhausted (2021-vs-2025 ran ~43% dupe). Pivoted to the
+highest-priority FRESH keyed non-EOM source: `Anatomy MCQ Previous exams Answer [206].pdf`
+(sourceId `src_e2f2f2fc0a951d31ff71`, tier 5, solvedStatus solved, 54 pp., image-only).
+It is the only tier-5 206-DIG bank marked solved; the tier-2 EOY paper
+(`src_9413877598afdf50acd9`) was inspected and REJECTED -- it is a WRITTEN ESSAY exam
+("Explain mechanism of salivary secretion {8 Marks}"), no MCQs, no keys.
+
+The bank compiles past Anatomy dept exams (numbering restarts per exam: exam A pp.1-9 =
+Q1-56, exam B pp.10-12, more on pp.13-54 un-OCR'd this pass). Scope is GIT gross anatomy
+PLUS urinary/genital gross anatomy and embryology -- which escapes the EOM overlap, since
+the two EOM papers covered renal/genital only as histology/physiology. Key marker CONFIRMED
+by rendering p.5 once at 150 dpi: the correct option letter is hand-circled in blue/purple
+pen (stems highlighted yellow); every OCR key on p.5 (Q28a Q29c Q30d Q31c Q32d Q33c Q34a)
+matched the circle exactly.
+
+Keys recovered for Q1-56 (exam A) + exam-B uniques in `206-DIG-anatomybank-triage-keys.txt`.
+Of ~58 keyed items ~24 are near-duplicate stems of the already-authored EOM anatomy and were
+skipped; a few held (OCR-truncated stems). Authored 20 fresh items (mostly urinary/genital
+gross anatomy and embryology, plus a few GIT relations the EOMs missed).
