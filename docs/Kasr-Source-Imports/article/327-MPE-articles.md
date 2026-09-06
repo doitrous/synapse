@@ -581,3 +581,100 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the transplantation, assisted-reproduction, artificial-insemination, surrogacy and gender-correction legal-regulation concepts on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Professional conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
 ## reading_time
 5
+
+
+---
+
+# Item
+## id
+ART-MPE-327-SPECIAL-SITUATIONS
+## title
+Ethical care of patients in special situations
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article groups the professionalism facts tested by the "Ethical aspects for patients in special situations" MCQs of the bank. It covers communicating with an aggressive patient by calm, sympathetic engagement; managing a boundary-challenging (seductive) encounter by calling a chaperone; the minor-consent rule (a minor cannot consent independently, so guardian/parental consent is required and confidentiality yields), applied both to a pregnant 15-year-old's confidentiality request and to operative consent for a 17-year-old; the HIV-positive patient (continue treatment plus statutory notification, no discrimination) and the competent patient's right to refuse HIV testing; the appropriate indication for phone consultation (an infectious, examination-independent condition such as COVID-19); the prohibition on doctors assisting in interrogation of prisoners; refusing non-indicated sedation of a child requested for the carers' convenience; and the mental-health-care principles of dignity (respect and courtesy) and liberty (least-restrictive care).
+## sections
+### Definition
+Certain patients — aggressive, seductive, minors, HIV-positive, imprisoned, mentally ill — raise specific ethical duties about consent, confidentiality, communication, non-discrimination and the limits of the physician's role.
+### Mechanism
+The common thread is acting in the patient's best interest within professional boundaries: engaging difficult patients calmly, using a chaperone to protect both parties, obtaining consent from the right person (guardian for a minor, the competent patient herself for HIV testing), never discriminating or abandoning, refusing requests that harm the patient, and confining the doctor's role to care rather than custodial or interrogatory ends.
+### Key determinants
+Discriminators tested here: aggressive patient -> talk politely with sympathy; seductive encounter -> call a chaperone; minor -> guardian/parental consent (confidentiality yields); HIV-positive -> treat and notify (never refuse/refer); refused HIV test in a competent adult -> do not test; phone consultation -> appropriate for an infectious, examination-independent condition; prisoners -> doctor must not assist interrogation; child sedation for carers' convenience -> refuse; respect and courtesy = dignity; least-restrictive care = liberty.
+### Clinical significance
+Applying these rules protects vulnerable patients, keeps the physician within professional and legal limits, and preserves trust: correct consent, non-discrimination, use of a chaperone, and acting as the patient's (or child's) advocate are each conditions of ethical practice in these situations.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (sedating or avoiding an aggressive patient, a minor consenting alone, refusing or referring an HIV-positive patient, covert HIV testing, or swapping the dignity and liberty principles).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## subtopic
+Ethical aspects for patients in special situations
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+DIS-PEC-T01
+## related_concepts
+CON-MUL-DE36E1F0F3616C
+CON-MUL-E145E89474813D
+CON-MUL-313692E49FB621
+CON-MUL-1BB0D6C238AD25
+CON-MUL-B0311FB3CF160B
+CON-MUL-D0620EAF45F74E
+CON-MUL-C8CB6C8AC8EB6F
+CON-MUL-BCDE6D3554F054
+CON-MUL-E2084D26281134
+CON-MUL-87D1518DB66A70
+## related_articles
+ART-MPE-327-SPECIAL-PROCEDURES
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the special-situations professionalism concepts on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Professional conduct node DIS-PEC-T05, reaching Consent and capacity DIS-PEC-T01 for the minor-consent and HIV-testing-consent concepts. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
+## reading_time
+6

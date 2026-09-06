@@ -5793,3 +5793,1114 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard Egyptian medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-DE36E1F0F3616C
+## label
+An aggressive patient should be met with calm, sympathetic, de-escalating communication
+## canonical_key
+professionalism.aggressive-patient.communicate-politely-with-sympathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The appropriate way to communicate with an aggressive patient is to talk to him politely and with sympathy, using calm, respectful, non-confrontational engagement that de-escalates agitation. Sedating him without indication, leaving, or bypassing him to speak only with the family are not first-line responses.
+## explicit_objective
+Select calm, sympathetic engagement as the way to communicate with an aggressive patient.
+## pitfalls
+Chemical sedation for behaviour control, walking away, or talking only to the family and avoiding the patient are all wrong; direct empathetic communication is correct.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+The aggressive patient
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard professionalism/communication teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E145E89474813D
+## label
+A minor cannot give valid independent consent; the guardian or parent must consent
+## canonical_key
+consent.minor.requires-guardian-or-parental-consent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A minor lacks the legal capacity to give independent informed consent, so consent for treatment or a procedure must be obtained from the guardian or parent, and a minor's request for confidentiality yields to the need for parental involvement. This applies both to a pregnant 15-year-old's request to conceal her care and to operative consent for a 17-year-old.
+## explicit_objective
+Recognise that a minor cannot consent independently, so guardian/parental consent is required and confidentiality yields.
+## pitfalls
+A peer's approval, the patient's physical fitness, or the setting do not substitute for guardian consent; a minor cannot bind the doctor to secrecy from her parents.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T01
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Consent and capacity in minors
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-E2084D26281134
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept; shared by Q159 and Q165.
+resourceOccurrenceIds: Fact grounded in standard consent-capacity teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-313692E49FB621
+## label
+An HIV-positive patient must still be treated, with statutory notification and no discrimination
+## canonical_key
+professionalism.hiv-positive-patient.duty-to-treat-and-notify-authority
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a patient is found HIV positive, the physician must both continue to treat the presenting illness and notify the authority, because HIV is a notifiable condition but the duty of care is not suspended. Refusing to treat or referring the patient elsewhere on the basis of HIV status is discriminatory abandonment.
+## explicit_objective
+Combine the duty to treat with statutory notification when managing an HIV-positive patient, without discrimination.
+## pitfalls
+Notifying alone, refusing treatment, or referring the patient away are each wrong; treatment plus notification is required.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+The HIV-positive patient
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard professionalism and public-health teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1BB0D6C238AD25
+## label
+A chaperone should be called to safeguard a boundary-challenging patient encounter
+## canonical_key
+professionalism.intimate-encounter.call-a-chaperone
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a patient behaves seductively or an intimate examination is involved, the appropriate response is to call in a chaperone (such as a nurse). A third party maintains professional boundaries, protects both patient and doctor, and allows care to continue without abandoning or accusing the patient.
+## explicit_objective
+Choose calling a chaperone as the appropriate safeguard in a boundary-challenging patient encounter.
+## pitfalls
+Referring the patient away, refusing to examine her, or relying only on a questioning technique do not address the boundary/safety issue; a chaperone does.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Professional boundaries and chaperones
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard professional-boundaries teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B0311FB3CF160B
+## label
+Dignity is the mental-health-care principle of treating patients with respect and courtesy
+## canonical_key
+mentalhealthethics.principle.dignity-respect-and-courtesy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the principles governing care of the mentally ill, dignity is the requirement that patients be treated with respect and courtesy, regarded as persons of worth and never demeaned. It is distinct from liberty, confidentiality, and bodily integrity, each of which protects a different interest.
+## explicit_objective
+Identify dignity as the principle of treating patients with respect and courtesy.
+## pitfalls
+Do not confuse with liberty (least-restrictive care), confidentiality (information), or bodily integrity (physical non-interference).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Principles of mental-health care
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-87D1518DB66A70
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard mental-health-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D0620EAF45F74E
+## label
+Phone/tele-consultation is appropriate for infectious, examination-independent conditions such as COVID-19
+## canonical_key
+telemedicine.indication.appropriate-for-infectious-conditions
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Phone-based consultation is an accepted option for a condition such as corona virus infection, where remote assessment avoids exposing others to a contagious illness and physical examination adds little. It is not suitable for problems that require hands-on examination, such as acute abdominal pain, simple wounds, or a skin rash.
+## explicit_objective
+Recognise an infectious, examination-independent condition as an appropriate indication for phone consultation.
+## pitfalls
+Presentations needing physical examination (acute abdomen, wounds, rash) are not suitable for phone consultation; the infectious case is.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Telemedicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard telemedicine teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C8CB6C8AC8EB6F
+## label
+Doctors caring for prisoners must not assist in interrogation or torture
+## canonical_key
+professionalism.prisoner-care.must-not-assist-interrogation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A physician caring for imprisoned patients must not assist in the interrogation of the patient, as participating in interrogation or torture violates medical ethics and the duty to act only in the patient's interest. Legitimate care tasks — safe restraint of an agitated patient when necessary, taking consent, and properly indicated treatments — remain permissible.
+## explicit_objective
+State that doctors caring for prisoners must not assist in interrogation.
+## pitfalls
+Safe clinical restraint, taking consent, and indicated therapies are legitimate; only assisting interrogation/torture is prohibited.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Care of prisoners
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-ethics teaching on care of detainees corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BCDE6D3554F054
+## label
+A physician must refuse sedation of a child requested for carers' convenience, acting in the child's best interest
+## canonical_key
+professionalism.mentalhealth.refuse-non-indicated-sedation-for-convenience
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When parents ask for a child to be sedated merely to keep her quiet rather than for a medical indication, the physician must refuse the request because it is not in the child's best interest. The doctor acts as the child's advocate and continues appropriate care for her illness while declining harmful, non-indicated sedation.
+## explicit_objective
+Decline non-indicated sedation requested for carers' convenience, acting in the child's best interest.
+## pitfalls
+Giving the medication or referring the parents so it is given elsewhere both harm the child; refusing to treat her altogether abandons a genuinely ill child. The correct step is to refuse only the improper sedation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Best interests of the child
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard best-interests teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E2084D26281134
+## label
+HIV testing requires the competent patient's consent; a refusal must be respected
+## canonical_key
+consent.hiv-testing.requires-patient-consent
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+HIV testing requires the informed consent of a competent adult patient, so when a mentally intact patient refuses to be tested, her refusal must be respected and she must not be tested. Testing her against her will, arranging testing through a third party, or testing covertly all violate her autonomy.
+## explicit_objective
+Respect a competent patient's refusal of HIV testing, which requires informed consent.
+## pitfalls
+Reporting to have her tested, testing without approval, or covert testing are all breaches; a competent patient's refusal is binding.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T01
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Consent for HIV testing
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-E145E89474813D
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard consent teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-87D1518DB66A70
+## label
+Liberty is the mental-health-care principle of least-restrictive treatment and freedom to enjoy life
+## canonical_key
+mentalhealthethics.principle.liberty-least-restrictive-care
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Among the principles governing care of the mentally ill, liberty requires that patients be free from interventions that inhibit their ability to enjoy life and that treatment be the least restrictive possible. It protects the patient's freedom, permitting only the minimum necessary restriction, and is distinct from dignity, confidentiality, and bodily integrity.
+## explicit_objective
+Identify liberty as the least-restrictive principle in mental-health care.
+## pitfalls
+Do not confuse with dignity (respect and courtesy), confidentiality (information), or bodily integrity (physical non-interference).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Principles of mental-health care
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical aspects for patients in special situations
+## article_ids
+ART-MPE-327-SPECIAL-SITUATIONS
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-B0311FB3CF160B
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard mental-health-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
