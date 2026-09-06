@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 3,
+ "count": 4,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -148,6 +148,52 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "answer key = the option letter printed in the section's ANSWER-KEY TABLE (native text, not a colour/highlight), e.g. 'Answers of Introduction + Trematoda' p.3 reads '1 C 2 C 3 D ...'. Machine-readable via scripts/content/pagetext.mjs show; render not needed (render refused p.3 as 'not garbled', confirming the text layer is authoritative). Cover p.1 is an image (garbled), MCQ/answer pages are native. See coverage/309-INF-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_c30b94e296cd15ba86c2",
+   "sha256": "c30b94e296cd15ba86c2a409918ee5ab3a44b3053e854b1e21289dae52d54202",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/315 Ophthalmology/Ophthalmology/Questions & MCQs/Department Question Bank - Ophthalmology question bank Dr Ahmed Kamal 3r 260612 153055.pdf",
+   "corpusRelativePath": "315 Ophthalmology/Ophthalmology/Questions & MCQs/Department Question Bank - Ophthalmology question bank Dr Ahmed Kamal 3r 260612 153055.pdf",
+   "fileName": "Department Question Bank - Ophthalmology question bank Dr Ahmed Kamal 3r 260612 153055.pdf",
+   "fileNameWithoutInstructions": "Department Question Bank - Ophthalmology question bank Dr Ahmed Kamal.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "315 OPH",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Ophthalmology"
+   ],
+   "rawModuleShorthand": "315 Ophthalmology",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Dr. Ahmed Kamal",
+   "crossModulePractical": false,
+   "subject": "Ophthalmology",
+   "folderSubject": "Ophthalmology",
+   "subjectSource": "folder",
+   "departmentAuthored": false,
+   "tierEvidence": "Instructor-compiled comprehensive MCQ bank by Dr. Ahmed Kamal. Cover (Arabic) states the bank contains previous-years questions AND the department book (كتاب القسم): Written + MCQs + T/F cases. 15-chapter TOC mirrors the department ophthalmology syllabus. Companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf, sha256 da00e151bc67cfc814686923bf5553215b6878e036ad11f1248772e6a7ce108d, 9 pp) gives keys per chapter/Q number. High-yield instructor material sourced from the department book.",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: Dr. Ahmed Kamal ophthalmology question bank; Arabic subtitle بنك الأسئلة يحتوي على: أسئلة الأعوام السابقة وكتاب القسم (Written+MCQs+T/F Cases). 15-chapter TOC: 1 Brief anatomy (p1), 2 Clinical examination (p5), 3 Protective system (p7), 4 Normal/abnormal image capture (p24), 5 Ocular motility (p41), 6 The glaucomas (p54), 7 The red eye (p66), 8 The retina (p108), 9 Eye and the brain (p127), 10 Eye diseases in infancy/childhood (p142), 11 Eye in systemic diseases (p155), 12 Ocular/orbital injuries (p163), 13 Medications and the eye (p181), 14 Lasers (p187), 15 Some related topics (p190). MCQs numbered per chapter; keys in the companion answer-key PDF match chapter+Q count (Ch1 26, Ch2 13, Ch3 91).",
+   "bookKind": "question_bank",
+   "sourceTier": 2,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Comprehensive bank of previous-years + department-book questions, not a single dated sitting; no calendar year printed on cover. examSittingYear left null (not guessed).",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 193,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Native text layer (no OCR). Stems+options from this question bank; correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf) which lists chapter -> Q number -> option letter. Each key cross-checked against the stem/option text before authoring (unambiguous, machine-readable table). First authored tranche: Chapter 1 Brief anatomy of the eye and its adnexa, Q1-26. See coverage/315-OPH-triage-keys.txt."
   }
  ]
 }

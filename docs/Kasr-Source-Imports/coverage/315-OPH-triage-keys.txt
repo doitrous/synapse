@@ -1,0 +1,48 @@
+315 OPH — triage keys (Year 3, Ophthalmology) — MODULE OPENED 2026-09-06
+Source (stems): 315 Ophthalmology/Ophthalmology/Questions & MCQs/Department Question Bank - Ophthalmology question bank Dr Ahmed Kamal 3r 260612 153055.pdf
+  (manifest sourceId src_c30b94e296cd15ba86c2, kasr-y3-sources.json;
+   sha256 c30b94e296cd15ba86c2a409918ee5ab3a44b3053e854b1e21289dae52d54202;
+   instructor Dr. Ahmed Kamal; native text layer; 193 pages; 15-chapter comprehensive MCQ bank
+   built from previous-years questions + the department book — Written + MCQs + T/F cases).
+Key source (companion PRINTED ANSWER KEY): 315 Ophthalmology/Ophthalmology/Ophthalmology Dr. Kamal [5th priority]/Files/Ophthalmology - Answer Key . Dr. Kamal.pdf
+  (sha256 da00e151bc67cfc814686923bf5553215b6878e036ad11f1248772e6a7ce108d; native text; 9 pages).
+
+Sitting year: none printed. Comprehensive bank of previous-years + department-book questions,
+  not a single dated EOY sitting; no calendar year printed on the cover, so manifest
+  examSittingYear = null (not guessed).
+Module: 315 OPH (Ophthalmology), Year 3. The disk tree files this under y3/315 Ophthalmology;
+  the module code 315 follows the owner's tree. Taxonomy: discipline hub DIS-OPH exists with
+  topic nodes T01 Eye examination, T02 Anterior segment, T03 Glaucoma, T04 Retina,
+  T05 Neuro-ophthalmology, T06 Trauma, T07 Ophthalmic procedures. Ophthalmology has NO body-
+  system code in docs/medical-library-program/systems (valid codes: AND CVS DER DEV END FND GIT
+  GYN HEM IMM INF MSK MUL NEU OBS POP PSY REN RES), so — exactly like Y3 toxicology — concepts
+  are minted CON-MUL- (multisystem) and ## subject = mul, filed on the DIS-OPH-* discipline nodes.
+
+Method: native text layer (no OCR). The correct answer is the option letter printed in the
+  companion answer-key table (chapter -> Q number -> letter). Each key was CROSS-CHECKED against
+  the stem/option text of the question bank before authoring (unambiguous printed table, not a
+  highlight/OCR guess). No rendering needed. Answer-key table chapter counts match the bank
+  (Ch1 26 MCQs, Ch2 13, Ch3 91). Missing/ambiguous keys -> EXCLUDE, never guess.
+
+Paper structure (15 chapters). THIS TRANCHE authors only:
+  Chapter 1) Brief anatomy of the eye and its adnexa — MCQ Q1-26 (bank pp.3-6). All 26 keyed,
+  each cross-checked against option text: 26 keyed / 0 ambiguous / 0 unmarked / 0 excluded.
+
+# Chapter 1 — Brief anatomy of the eye and its adnexa (Q1-26) — cross-checked vs option text
+Q1.B   Q2.A   Q3.B   Q4.D   Q5.A   Q6.B   Q7.B   Q8.C   Q9.C   Q10.B
+Q11.C  Q12.D  Q13.C  Q14.A  Q15.D  Q16.C  Q17.B  Q18.B  Q19.B  Q20.C
+Q21.D  Q22.C  Q23.C  Q24.B  Q25.C  Q26.B
+
+Cross-check notes (key -> the option it selects, verified against the stem):
+  Q1 B ciliary body; Q2 A angle of anterior chamber; Q3 B posterior chamber; Q4 D protects
+  against microbial invasion; Q5 A vascular coat (uvea); Q6 B inferior nasal meatus; Q7 B
+  non-keratinized stratified squamous epithelium; Q8 C myelinated nerve fibres (EXCEPT — corneal
+  nerves are unmyelinated); Q9 C active endothelial pumps; Q10 B ~20 D (department key for lens
+  power); Q11 C Bruch's membrane (EXCEPT — a choroid/retina layer, not corneal); Q12 D keratinized
+  epithelium (EXCEPT); Q13 C retina (EXCEPT — uvea = iris/ciliary body/choroid); Q14 A between lens
+  and iris; Q15 D tarsus (EXCEPT — conjunctiva = palpebral/bulbar/fornix); Q16 C OCT (investigation,
+  not routine exam); Q17 B blue reflex indicates glaucoma (the FALSE statement); Q18 B closely
+  related to paranasal sinuses; Q19 B stroma collagen fibres in lamellae; Q20 C 30 PD esotropia
+  (Hirschberg ~15 PD/mm); Q21 D retinoscopy (EXCEPT — a refraction test, not fundus exam); Q22 C
+  hemianopia; Q23 C lateral wall separates orbit from sphenoid (the FALSE relation); Q24 B zonules;
+  Q25 C retinal pigment epithelium (not an angle structure); Q26 B ophthalmic division of trigeminal.
