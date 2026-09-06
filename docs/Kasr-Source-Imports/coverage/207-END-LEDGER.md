@@ -11,8 +11,9 @@
 | medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
 | galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
-| **207 END module authored (3 EOM + 3 banks)** | **238** | **3** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 238 | 3 | 1 | untriaged | — |
+| rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
+| **207 END module authored (3 EOM + 4 banks)** | **252** | **6** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 252 | 6 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -534,3 +535,71 @@ repro 27 + Galal endo 17), 3 held, 1 excluded. **Next 207 END cluster:** open
 `Anatomy MCQ by Dr.Jalal[END].pdf` (next non-EOM bank in priority order), then `ANATOMY MCQ [RPR].pdf`;
 register a manifest row only if the source isn't already listed, recover keys, dedup vs the ~238-item
 corpus, author push-per-slice. 3 department books also remain entirely untriaged.
+
+## Seventh source — department Pelvis-and-Perineum ANATOMY bank [RPR] (FOURTH non-EOM bank); and the Jalal bank is UNSOLVED
+
+Two department banks in `207 END/Anatomy Dpt Anatomy [1st priority]/MCQs/` were triaged this pass.
+Both were newly registered in `manifest/kasr-y2-sources.json` (count 631->633); the [RPR] bank was
+also added to `evidence/207-END-resources.md`.
+
+**`Anatomy MCQ by Dr.Jalal[END].pdf` (src_2a6c0ccf47e9feb287a3, sha256 2a6c0ccf47e9feb287a3...) is
+UNSOLVED and yields NO authorable items.** Native text layer, 35 pages, ~202 pelvis/perineum/bladder/
+prostate anatomy MCQs organised by topic with year tags. The question stems are coloured (blue text,
+red year tags) but **not a single option is marked on any page** — render-verified on pp.1, 3 and 9
+(all four options plain black, no circle/bold/highlight). The `pagetext keys` extractor's 3 "hits"
+(p3Q10, p5Q6, p9Q36) are false positives from the red year-tags/footer. Per NEVER-GUESS an unkeyed
+bank is not authorable; it is recorded in the manifest as `solvedStatus: unsolved` /
+`extractionDisposition: no_key_unsolved_bank` so it is not re-triaged expecting keys. (If a keyed copy
+of this same doctor's bank ever surfaces, its stems are high-quality and worth authoring.)
+
+**`ANATOMY MCQ [RPR].pdf` (src_ba88dd0b6e105afb419c) is SOLVED — 14 authored.** Native text layer, 10
+pages, 48 single-best MCQs on pelvis, perineum, perineal pouches, prostate, urethra, rectum and anal
+canal, with a **printed KEY ANSWERS table on p.10** giving all 48 keys (the row printed "1- b" at
+position 7 is a typo for 7-b, resolved by the 6-a/8-c sequence). This is the seventh 207 END source and
+heavily overlaps the pelvis/perineum corpus (EOM anatomy tranche + Galal repro bank), so dedup was hard.
+
+**14 authored** in two pushed slices: slice A = Q3, Q4, Q42, Q12, Q15, Q25 (6, sacral-plexus/pudendal/
+ureter vessels-nerves + perineal-pouch contents); slice B = Q16, Q19, Q33, Q38, Q48, Q14, Q32, Q46 (8,
+prostate/male-urethra + rectum/anal-canal lymph & haemorrhoids). 0 held-for-image. **3 HELD as bad/
+ambiguous items:** Q34 (rectal "ampulla" key locates the dilated part in the upper rectum — anatomically
+the ampulla is the lower part, and the clean true option d "12 cm" duplicates the authored rectum-length
+concept); Q45 (vas-deferens key b "medial to the inferior epigastric at the deep ring" conflicts with the
+anatomically-true option c "crosses the ureter near the ischial spine" — no clean single-best); Q28
+(parietal branch of the internal iliac — both option a internal pudendal and option d iliolumbar are
+parietal branches by the standard classification, so two options qualify).
+
+**~31 dupes skipped** (dedupe rate ~31/45 keyed-considered ≈ 69%, above the 60% stop threshold — expected
+for a fourth pelvis/perineum bank on an already-saturated corpus). Representative hard-duplicates skipped:
+Q1 uterine-fundus lymph→ovarian, Q5 pudendal in ischiorectal lateral wall, Q6 anal-gland ischiorectal
+abscess, Q7 perineum boundary pubic symphysis, Q8 membranous urethra in UG diaphragm, Q9 labia majora=
+scrotum, Q10 uterine-artery over ureter, Q11 mesosalpinx, Q13 ischiorectal medial wall, Q17 gluteal
+arteries=internal iliac, Q21 ischiorectal lateral wall obturator internus, Q22 pelvic diaphragm separates
+pelvis/perineum, Q23 obturator-internus-tendon lesser sciatic foramen, Q24 ureter crosses pelvic brim,
+Q26 internal pudendal in deep pouch, Q30 levator-ani vaginal sphincter, Q31 prostatic urethra ejaculatory
+ducts, Q37 trigone interureteric ridge, Q43 fallopian tube peritoneal covering, Q44 ovary lymph→para-
+aortic (plus Q2, Q18, Q27, Q29, Q35, Q36, Q39, Q40, Q41 near-dups and Q47, an intra-bank dup of the
+authored Q14).
+
+14 new concepts minted university-blind (CON-<SYS>- + first 14 hex of SHA-256 of the canonical key,
+uppercased): 5 `CON-FND-*`, 5 `CON-AND-*`, 3 `CON-GIT-*`, 1 `CON-REN-*`, 1 `CON-GYN-*` — collision-checked
+corpus-wide (0 collisions, 0 in-batch duplicates; none of the authored 207-END concepts reusable —
+distinct atomic claims). Filed under DIS-ANA-T05 with SYS-FND/AND/GIT/REN/GYN cross-nav. Grouped into 4
+new library articles (`ART-FND-207END-RPR-PELVIC-WALL-VESSELS-NERVES`, `ART-FND-207END-RPR-PERINEAL-
+POUCHES`, `ART-AND-207END-RPR-PROSTATE-MALE-URETHRA`, `ART-GIT-207END-RPR-RECTUM-ANAL-CANAL`). Subject
+tags fnd/androl/gi/renal/gyn. Written from standard regional-anatomy teaching (Snell / Last's / Moore
+level) corroborated by the bank's own keyed stems/options (printed p.10 key table); no department book
+read this pass.
+
+Authored in `question/207-END-rpr-mcq.md` (from seed `seed/207-END-rpr.json` — never hand-edit the
+emitted .md; fix the seed and re-emit), `concept/207-END-rpr-concepts.md`, `article/207-END-rpr-articles.md`.
+Committed in two slices (A = 6 with 2 articles + both source registrations, B = 8 with 2 articles) so a
+mid-lane failure loses nothing. Gate-clean vs the module baseline (concept batch 14 items 0 errors; article
+batch 4 items 0 errors; MCQ batch 14 items 0 errors with `--with` concept+article+resource siblings).
+
+**The 207 END module is now 252 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR
+14), 6 held, 1 excluded. **The 207 END ANATOMY MCQ banks are now EXHAUSTED:** all four non-EOM anatomy
+banks (Medhat, Galal repro, Galal endo, RPR) are fresh-exhausted, and the fifth (Jalal) is unsolved with
+no keys. **Next 207 END cluster MUST be a non-anatomy source:** the Histology and Physiology department
+books, or a Histology/Physiology MCQ bank if one exists in the manifest — the three department books
+remain entirely untriaged. Do NOT re-triage the Jalal bank for keys and do NOT mine any 207 END anatomy
+bank further.

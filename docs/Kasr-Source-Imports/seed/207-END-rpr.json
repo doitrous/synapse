@@ -246,6 +246,294 @@
         "keySource": "printed KEY ANSWERS table p.10 (Q25 = c)",
         "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
       }
+    },
+    {
+      "key": "q007",
+      "id": "QST-KASR207END-RPR-007",
+      "page": "p.2",
+      "subject": "androl",
+      "title": "Ejaculate composition after vasectomy",
+      "question": "Two months after a vasectomy in which the ductus deferens was ligated in the upper part of the scrotum, the ejaculate contains:",
+      "options": {
+        "A": "Prostatic fluid only.",
+        "B": "Seminal and prostatic fluids.",
+        "C": "Sperm only.",
+        "D": "Sperm and seminal fluid."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Vasectomy divides the ductus deferens, so sperm can no longer reach the ejaculate. The secretions added downstream of the cut, from the seminal vesicles and the prostate, still enter the urethra normally. The ejaculate therefore contains seminal and prostatic fluids but no sperm.",
+        "A": "Incorrect. Prostatic fluid is present, but so is the seminal vesicle secretion, which forms the largest volume fraction of semen, so 'prostatic only' is wrong.",
+        "C": "Incorrect. Sperm are exactly what is lost once the ductus deferens is divided.",
+        "D": "Incorrect. Sperm are absent after vasectomy; seminal fluid remains along with prostatic fluid."
+      },
+      "main_concept": "CON-AND-812D07DDC1B61B",
+      "concept_ids": [
+        "CON-AND-812D07DDC1B61B"
+      ],
+      "subtopic": "Male genital ducts",
+      "library_ids": [
+        "ART-AND-207END-RPR-PROSTATE-MALE-URETHRA"
+      ],
+      "module_subject": "207 END > Anatomy > Male genital ducts",
+      "learning_objective": "Predict the composition of the ejaculate after vasectomy.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q16 = b)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q008",
+      "id": "QST-KASR207END-RPR-008",
+      "page": "p.4",
+      "subject": "androl",
+      "title": "Penile urethra lies within the corpus spongiosum",
+      "question": "In the male, the penile (spongy) part of the urethra is the part that:",
+      "options": {
+        "A": "Lies within the prostate gland.",
+        "B": "Starts at the trigone of the bladder.",
+        "C": "Lies within the urogenital diaphragm.",
+        "D": "Lies within the corpus spongiosum."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The male urethra has prostatic, membranous and spongy (penile) parts. The spongy part is the longest and runs the whole length of the corpus spongiosum of the penis. It is therefore the part that lies within the corpus spongiosum.",
+        "A": "Incorrect. The part within the prostate is the prostatic urethra.",
+        "B": "Incorrect. The urethra begins at the internal urethral orifice at the bladder neck, not at the trigone (a region of the bladder wall).",
+        "C": "Incorrect. The part traversing the urogenital diaphragm is the membranous urethra."
+      },
+      "main_concept": "CON-AND-2DEBEDA5B2370A",
+      "concept_ids": [
+        "CON-AND-2DEBEDA5B2370A"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-RPR-PROSTATE-MALE-URETHRA"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "Identify the spongy urethra as the part within the corpus spongiosum.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q19 = d)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q009",
+      "id": "QST-KASR207END-RPR-009",
+      "page": "p.6",
+      "subject": "androl",
+      "title": "The anterior lobe of the prostate is devoid of glandular tissue",
+      "question": "Regarding the prostate, which one of the following statements is correct?",
+      "options": {
+        "A": "Its anterior lobe is devoid of glandular tissue.",
+        "B": "Its anterior lobe is rich in glandular tissue.",
+        "C": "Its posterior surface is related to the levator ani muscles.",
+        "D": "The prostatic venous plexus drains into the external iliac vein."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The prostate is described in lobes arranged around the urethra and ejaculatory ducts. The anterior lobe (isthmus), lying in front of the urethra, is composed of fibromuscular tissue. It is essentially devoid of glandular acini, so it is rarely a site of disease.",
+        "B": "Incorrect. This is the reverse of the truth; the anterior lobe contains little or no glandular tissue.",
+        "C": "Incorrect. The posterior surface is related to the ampulla of the rectum; the levator ani lies laterally as the levator prostatae.",
+        "D": "Incorrect. The prostatic venous plexus drains into the internal iliac veins and the vertebral venous plexus, not the external iliac vein."
+      },
+      "main_concept": "CON-AND-F4A11DDB5AC78B",
+      "concept_ids": [
+        "CON-AND-F4A11DDB5AC78B"
+      ],
+      "subtopic": "Prostate",
+      "library_ids": [
+        "ART-AND-207END-RPR-PROSTATE-MALE-URETHRA"
+      ],
+      "module_subject": "207 END > Anatomy > Prostate",
+      "learning_objective": "State that the anterior lobe of the prostate lacks glandular tissue.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q33 = a)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q010",
+      "id": "QST-KASR207END-RPR-010",
+      "page": "p.7",
+      "subject": "androl",
+      "title": "The posterior surface of the prostate is related to the ampulla of the rectum",
+      "question": "Regarding the prostate, choose the correct statement:",
+      "options": {
+        "A": "Its base is continuous with the apex of the bladder.",
+        "B": "Its posterior surface is related to the ampulla of the rectum.",
+        "C": "Benign enlargement commonly involves the posterior lobe.",
+        "D": "The prostatic venous plexus drains into the external iliac veins."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The prostate sits below the bladder with its base above and apex below. Its posterior surface is separated from the ampulla of the rectum only by the rectovesical fascia of Denonvilliers. This is why the gland is palpable through the anterior rectal wall on digital rectal examination.",
+        "A": "Incorrect. The base is continuous with the neck, not the apex, of the bladder.",
+        "C": "Incorrect. Benign hyperplasia arises in the median/transitional (periurethral) zone; the posterior lobe is the common site of carcinoma.",
+        "D": "Incorrect. The prostatic venous plexus drains into the internal iliac veins and the vertebral plexus, not the external iliac veins."
+      },
+      "main_concept": "CON-AND-BC14FD19C1FE77",
+      "concept_ids": [
+        "CON-AND-BC14FD19C1FE77"
+      ],
+      "subtopic": "Prostate",
+      "library_ids": [
+        "ART-AND-207END-RPR-PROSTATE-MALE-URETHRA"
+      ],
+      "module_subject": "207 END > Anatomy > Prostate",
+      "learning_objective": "Relate the posterior surface of the prostate to the rectal ampulla.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q38 = b)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q011",
+      "id": "QST-KASR207END-RPR-011",
+      "page": "p.9",
+      "subject": "androl",
+      "title": "The base of the prostate is continuous with the neck of the bladder",
+      "question": "Regarding the prostate gland, choose the correct statement:",
+      "options": {
+        "A": "Its base is continuous with the neck of the urinary bladder.",
+        "B": "Its anterior surface is related to the ampulla of the rectum.",
+        "C": "The ejaculatory ducts open on to the anterior wall of the prostatic urethra.",
+        "D": "The prostatic venous plexus drains into the external iliac veins."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The prostate is shaped like an inverted cone with the base directed upward. The base is directly continuous with the neck of the urinary bladder, through which the urethra passes. Its apex rests below on the sphincter urethrae in the deep perineal pouch.",
+        "B": "Incorrect. It is the posterior, not the anterior, surface that is related to the ampulla of the rectum.",
+        "C": "Incorrect. The ejaculatory ducts open on the posterior wall of the prostatic urethra, on the seminal colliculus beside the prostatic utricle.",
+        "D": "Incorrect. The prostatic venous plexus drains into the internal iliac veins and the vertebral plexus."
+      },
+      "main_concept": "CON-AND-4B70A4890F0F2A",
+      "concept_ids": [
+        "CON-AND-4B70A4890F0F2A"
+      ],
+      "subtopic": "Prostate",
+      "library_ids": [
+        "ART-AND-207END-RPR-PROSTATE-MALE-URETHRA"
+      ],
+      "module_subject": "207 END > Anatomy > Prostate",
+      "learning_objective": "State that the base of the prostate is continuous with the bladder neck.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q48 = a)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q012",
+      "id": "QST-KASR207END-RPR-012",
+      "page": "p.3",
+      "subject": "gi",
+      "title": "Lymphatic drainage of the anal canal below the pectinate line",
+      "question": "Lymphatic vessels from the anal canal below the pectinate line drain into which lymph nodes?",
+      "options": {
+        "A": "Para-aortic.",
+        "B": "Superior mesenteric.",
+        "C": "Internal iliac.",
+        "D": "Superficial inguinal."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The pectinate (dentate) line marks the junction of the endodermal and ectodermal parts of the anal canal. Below the line the lining is somatic (ectodermal), so its lymph drains to the superficial inguinal nodes. Above the line the visceral part drains upward to the internal iliac and inferior mesenteric nodes.",
+        "A": "Incorrect. Para-aortic nodes drain the gonads and kidneys, not the lower anal canal.",
+        "B": "Incorrect. Superior mesenteric nodes drain the midgut.",
+        "C": "Incorrect. Internal iliac nodes drain the anal canal above the pectinate line, not below it."
+      },
+      "main_concept": "CON-GIT-96FB9834B2AFE4",
+      "concept_ids": [
+        "CON-GIT-96FB9834B2AFE4"
+      ],
+      "subtopic": "Anal canal",
+      "library_ids": [
+        "ART-GIT-207END-RPR-RECTUM-ANAL-CANAL"
+      ],
+      "module_subject": "207 END > Anatomy > Anal canal",
+      "learning_objective": "State the inguinal lymph drainage of the anal canal below the pectinate line.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q14 = d)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q013",
+      "id": "QST-KASR207END-RPR-013",
+      "page": "p.6",
+      "subject": "gi",
+      "title": "Lymphatic drainage of the rectum",
+      "question": "Lymph vessels of the rectum drain into which one of the following groups of lymph nodes?",
+      "options": {
+        "A": "Superior mesenteric.",
+        "B": "Inferior mesenteric and internal iliac.",
+        "C": "External iliac.",
+        "D": "Superficial and deep inguinal."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Rectal lymph follows the arteries that supply the rectum. Along the superior rectal vessels it passes to the inferior mesenteric nodes, and along the middle rectal vessels to the internal iliac nodes. Its drainage is therefore to the inferior mesenteric and internal iliac groups.",
+        "A": "Incorrect. Superior mesenteric nodes drain the midgut, not the rectum.",
+        "C": "Incorrect. External iliac nodes drain the lower limb and viscera such as the bladder, not the rectum.",
+        "D": "Incorrect. Inguinal nodes drain the anal canal below the pectinate line and the lower limb, not the rectum."
+      },
+      "main_concept": "CON-GIT-6D9A67C2EE7649",
+      "concept_ids": [
+        "CON-GIT-6D9A67C2EE7649"
+      ],
+      "subtopic": "Rectum",
+      "library_ids": [
+        "ART-GIT-207END-RPR-RECTUM-ANAL-CANAL"
+      ],
+      "module_subject": "207 END > Anatomy > Rectum",
+      "learning_objective": "State the lymphatic drainage of the rectum.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q32 = b)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
+    },
+    {
+      "key": "q014",
+      "id": "QST-KASR207END-RPR-014",
+      "page": "p.8",
+      "subject": "gi",
+      "title": "Nature of external haemorrhoids",
+      "question": "External haemorrhoids are:",
+      "options": {
+        "A": "Varicosities of tributaries of the superior rectal veins covered with mucous membrane.",
+        "B": "Varicosities of tributaries of the inferior rectal veins covered with skin.",
+        "C": "A tear in the anal valves extending down to the anus.",
+        "D": "An abscess in the submucosa of the anal canal."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. External haemorrhoids arise below the pectinate line, in the territory of the inferior rectal veins. Because this part of the anal canal is lined by skin, they are covered by skin and are sensitive to pain. Internal haemorrhoids, by contrast, are dilatations of the superior rectal (portal) tributaries above the line, covered by mucous membrane.",
+        "A": "Incorrect. That description (superior rectal tributaries, mucous membrane) is an internal haemorrhoid.",
+        "C": "Incorrect. A tear in the anal lining is an anal fissure, not a haemorrhoid.",
+        "D": "Incorrect. A submucosal collection of pus is an anal abscess, not a haemorrhoid."
+      },
+      "main_concept": "CON-GIT-58AF03B522BDDB",
+      "concept_ids": [
+        "CON-GIT-58AF03B522BDDB"
+      ],
+      "subtopic": "Anal canal",
+      "library_ids": [
+        "ART-GIT-207END-RPR-RECTUM-ANAL-CANAL"
+      ],
+      "module_subject": "207 END > Anatomy > Anal canal",
+      "learning_objective": "Define external haemorrhoids and distinguish them from internal haemorrhoids.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed KEY ANSWERS table p.10 (Q46 = b)",
+        "kasr": "department [RPR] Pelvis & Perineum anatomy bank"
+      }
     }
   ]
 }

@@ -293,3 +293,52 @@ HELD (1): box67 suprarenal "which is not correct" — annotator wrote "all are c
   circled nothing, so there is no valid single-best key. Do NOT author without a real key.
 Dedup/skip rate this pass 9/26 keyed ~= 35%, under the 60% stop threshold. Bank EXHAUSTED
 for fresh keyed stems (17 authored / 1 held / 9 skipped of 27 keyed).
+
+================================================================================
+SEVENTH SOURCE — department Pelvis-and-Perineum ANATOMY bank [RPR]
+  `ANATOMY MCQ [RPR].pdf`  src_ba88dd0b6e105afb419c
+================================================================================
+KEY MARKER: printed KEY ANSWERS table on p.10 (native text). All 48 keys below.
+NOTE: the table prints "1- b" at the 7th position — a typo for 7-b (sequence 6-a, 8-c).
+Q1=c  Q2=d  Q3=a  Q4=a  Q5=c  Q6=a  Q7=b  Q8=c  Q9=c  Q10=b  Q11=d  Q12=b
+Q13=b Q14=d Q15=b Q16=b Q17=d Q18=c Q19=d Q20=d Q21=c Q22=d Q23=c Q24=c
+Q25=c Q26=b Q27=c Q28=d Q29=d Q30=a Q31=d Q32=b Q33=a Q34=a Q35=a Q36=c
+Q37=c Q38=b Q39=a Q40=c Q41=b Q42=a Q43=b Q44=d Q45=b Q46=b Q47=d Q48=a
+
+— Authoring pass 2026-09-07 (14 fresh MCQs authored across 2 pushed slices) —
+Slice A (6): Q3 inferior-gluteal=sacral-plexus, Q4 deep-artery-of-penis=internal-pudendal,
+  Q42 ureter supply=gonadal artery, Q12 deep-transverse-perinei=deep pouch, Q15
+  ischiocavernosus=superficial pouch, Q25 Bartholin=female superficial pouch.
+Slice B (8): Q16 post-vasectomy ejaculate (seminal+prostatic, no sperm), Q19 penile
+  urethra=corpus spongiosum, Q33 prostate anterior-lobe no glands, Q38 prostate posterior
+  surface=rectal ampulla, Q48 prostate base=bladder neck, Q14 anal-canal below-pectinate=
+  superficial inguinal, Q32 rectum lymph=IMA+internal-iliac, Q46 external haemorrhoids=
+  inferior-rectal-vein varices, skin-covered.
+14 concepts minted university-blind (5 FND, 5 AND, 3 GIT, 1 REN, 1 GYN), collision-checked
+corpus-wide (0 collisions, 0 in-batch dupes), grouped into 4 new library articles.
+HELD (3, bad/ambiguous — NOT authored): Q34 (key a "upper rectum=ampulla" is anatomically the
+  lower part; the clean-true option d 12cm duplicates the authored rectum-length concept);
+  Q45 (key b "vas medial to inferior epigastric at deep ring" conflicts with the true option c
+  "crosses ureter near ischial spine" — no clean single-best); Q28 (parietal branch of internal
+  iliac — both a internal-pudendal and d iliolumbar are parietal branches, two answers qualify).
+SKIPPED (~31 dupes/near-dupes of the authored 207-END corpus): Q1,Q2,Q5,Q6,Q7,Q8,Q9,Q10,Q11,
+  Q13,Q17,Q18,Q21,Q22,Q23,Q24,Q26,Q27,Q29,Q30,Q31,Q35,Q36,Q37,Q39,Q40,Q41,Q43,Q44, plus
+  Q47 (intra-bank dup of authored Q14).
+Dedup/skip rate this pass ~31/45 keyed-considered ~= 69% (above 60% — expected for a 4th
+pelvis/perineum bank on a saturated corpus). Bank FRESH-EXHAUSTED (14 authored / 3 held /
+~31 skipped of 48 keyed).
+
+================================================================================
+EIGHTH SOURCE — `Anatomy MCQ by Dr.Jalal[END].pdf`  src_2a6c0ccf47e9feb287a3  — UNSOLVED
+================================================================================
+Native text layer, 35 pages, ~202 pelvis/perineum/bladder/prostate anatomy MCQs by topic.
+NO ANSWER KEY: stems are coloured (blue text, red year tags) but NOT ONE option is marked on
+any page — render-verified pp.1, 3, 9 (all options plain black; no circle/bold/highlight).
+The `pagetext keys` extractor's 3 "hits" (p3Q10, p5Q6, p9Q36) are false positives from the red
+year-tags/footer. Per NEVER-GUESS an unkeyed bank is not authorable — 0 authored, all held.
+Recorded in the manifest as solvedStatus=unsolved / extractionDisposition=no_key_unsolved_bank.
+Do NOT re-triage this bank expecting keys unless a keyed copy of the same doctor's bank surfaces.
+
+*** 207 END ANATOMY MCQ banks now EXHAUSTED (Medhat, Galal repro, Galal endo, RPR all fresh-
+exhausted; Jalal unsolved). Next 207 END cluster MUST be non-anatomy: Histology/Physiology
+department books (3 dept books remain entirely untriaged), or a Histology/Physiology MCQ bank. ***
