@@ -1462,3 +1462,1891 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
 resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1E6946AD88D1CC
+## label
+Failing to use commonly-expected skill and thereby injuring the patient is malpractice
+## canonical_key
+medical-responsibility.malpractice.failure-of-skill-causing-injury
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a physician fails to use the degree of skill and learning commonly expected and the patient is injured as a result, the physician can be sued for malpractice — the broad charge of professional wrongdoing that harms a patient, which covers both negligence and incompetence.
+## explicit_objective
+Identify failure to use commonly expected skill that injures the patient as malpractice.
+## pitfalls
+Negligence is one sub-type of malpractice; the general charge for a skill failure causing injury is malpractice, not assault/indecency.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Malpractice
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-D00FF511454167
+CON-MUL-D4C82D96592680
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D00FF511454167
+## label
+Incompetence is a lack of reasonable skill or knowledge
+## canonical_key
+medical-responsibility.incompetence.lack-of-reasonable-skill-or-knowledge
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Incompetence is defined as a lack of the reasonable skill or knowledge expected of a practitioner; it is a deficiency of ability or learning, distinct from negligence (a careless failure to apply the care one is capable of) and from malpractice (the umbrella charge).
+## explicit_objective
+Define incompetence as a lack of reasonable skill or knowledge.
+## pitfalls
+Not to be confused with negligence (inadequate care despite ability) or malpractice (the umbrella charge); assault is unconsented contact, unrelated to skill.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Incompetence
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-D4C82D96592680
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D4C82D96592680
+## label
+Medical negligence is an inadequacy of medical care
+## canonical_key
+medical-responsibility.negligence.inadequacy-of-medical-care
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Medical negligence is a conviction for inadequacy of medical care — a careless failure to apply the attention and diligence a competent doctor would give, even when knowledge and skill are present; it contrasts with incompetence, which is an inadequacy of knowledge or skill.
+## explicit_objective
+Distinguish negligence (inadequacy of care) from incompetence (inadequacy of knowledge/skill).
+## pitfalls
+Inadequate scientific knowledge or technical skill is incompetence; inadequate professional behaviour is misconduct — negligence is specifically inadequate care.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Negligence
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-D00FF511454167
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5F41A59F9D54A3
+## label
+Malpractice requires a fault (negligence or incompetence) that caused patient harm
+## canonical_key
+medical-responsibility.malpractice.harm-must-be-proved
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Every malpractice case must prove both a fault — negligence or incompetence — and that the fault caused harm to the patient; fault without resulting harm (for example a retained instrument that caused no damage) or harm without fault is not actionable malpractice.
+## explicit_objective
+State that malpractice requires a fault that caused harm.
+## pitfalls
+Negligence or incompetence alone is not enough; the damage element must be met, so a fault causing no harm is not actionable.
+## concept_type
+concept
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Elements of malpractice
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-59E2FEAF0AD94E
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-59E2FEAF0AD94E
+## label
+A bad outcome without fault is not malpractice
+## canonical_key
+medical-responsibility.malpractice.bad-outcome-without-fault-not-malpractice
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An adverse result that follows proper care — for example death from progression of the underlying disease after a correctly performed operation, or an unsuccessful operation done to standard — is not malpractice, because liability needs a proven fault (negligence or incompetence) that caused the harm.
+## explicit_objective
+Recognise that a poor outcome following proper care is not, by itself, malpractice.
+## pitfalls
+A poor result is not evidence of fault; without a breach of the standard of care there is no suable malpractice.
+## concept_type
+concept
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Bad outcome versus fault
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-5F41A59F9D54A3
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-739CF0DD8B7841
+## label
+Failing to admit or observe a patient who needs it is a breach of duty by omission
+## canonical_key
+medical-responsibility.breach-of-duty.failure-to-admit-omission
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Not admitting or observing a patient who clearly needs monitoring (for example a severe head-trauma patient sent home who then deteriorates) is a breach of the duty of care by omission — a failure to do something that should have been done — as opposed to a commission error, which is a wrong act performed.
+## explicit_objective
+Classify a failure to admit/observe an at-risk patient as a breach of duty by omission.
+## pitfalls
+It is an omission (a failure to act), not commission, abandonment, or unnecessary treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Breach of duty by omission
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C9C99A9BF4F00A
+## label
+In a genuine emergency, failure to obtain consent is not malpractice
+## canonical_key
+medical-responsibility.consent.emergency-exception-not-malpractice
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a patient cannot consent and delay would risk life or serious harm, consent is presumed and treating without formal consent is lawful; therefore failure to take operative consent in a genuine emergency is not malpractice, emergency care being the recognised exception to the consent requirement.
+## explicit_objective
+Recognise that failing to obtain consent in a genuine emergency is not malpractice.
+## pitfalls
+The exception applies only to genuine emergencies; outside an emergency, failure to obtain consent is negligence.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Consent — emergency exception
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-4DD277587D8251
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4DD277587D8251
+## label
+Failure to obtain consent for a non-emergency surgical procedure is negligence
+## canonical_key
+medical-responsibility.consent.failure-to-obtain-surgical-consent-is-negligence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Informing the patient and securing consent before a non-emergency surgical procedure is a required duty; omitting it breaches the standard of care and is medical negligence, exposing the patient to an unauthorised procedure.
+## explicit_objective
+Identify failure to obtain consent for a non-emergency surgical procedure as negligence.
+## pitfalls
+Consent is dispensed with only in a genuine emergency; performing emergency CPR without waiting for consent is appropriate care, not negligence.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Consent — duty to obtain
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-C9C99A9BF4F00A
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3802661AE5CEA1
+## label
+Good-faith emergency aid to a stranger, with no pre-existing duty, is not medical negligence
+## canonical_key
+medical-responsibility.negligence.no-duty-emergency-aid-to-stranger
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Negligence presupposes a duty of care that was breached; performing CPR on a stranger who arrests in the street is emergency aid with no prior doctor-patient relationship and hence no pre-existing legal duty, so it is not medical negligence.
+## explicit_objective
+Recognise that good-faith emergency aid to a stranger, with no pre-existing duty, is not negligence.
+## pitfalls
+Negligence needs a duty of care; a bystander rendering emergency help is not held to the professional duty owed to one's own patients.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Duty of care
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C49B5F223C07AF
+## label
+Giving an incompatible blood transfusion makes the doctor liable for negligence
+## canonical_key
+medical-responsibility.transfusion.incompatible-transfusion-is-negligence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Transfusing incompatible blood is negligence, because the doctor failed the standard safeguard of confirming blood-group compatibility before transfusing; it is a breach of the duty of care rather than a lack of knowledge (incompetence), an ethical offence (misconduct) or a pharmacy dispensing error.
+## explicit_objective
+Identify an incompatible blood transfusion as negligence for which the doctor is liable.
+## pitfalls
+It is negligence (careless practice), not incompetence, misconduct, or a dispensing error.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Negligence
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-C5434C88E564FA
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C5434C88E564FA
+## label
+Death in a haemolytic transfusion reaction is due to renal failure
+## canonical_key
+patient-safety.transfusion.hemolytic-reaction-death-renal-failure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a haemolytic (incompatible) transfusion reaction, massive red-cell breakdown releases free haemoglobin which, with hypotension and disseminated intravascular coagulation, precipitates acute renal failure — the usual cause of death.
+## explicit_objective
+State that death in a haemolytic transfusion reaction occurs through acute renal failure.
+## pitfalls
+The fatal pathway is renal (pigment nephropathy/shock), not adrenal, hepatic or respiratory failure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T06
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Transfusion reaction
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Patient safety > Transfusion safety
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-C624632B074D19
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C624632B074D19
+## label
+An incompatible blood transfusion can cause jaundice
+## canonical_key
+patient-safety.transfusion.incompatible-transfusion-causes-jaundice
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An incompatible blood transfusion causes intravascular haemolysis, and the breakdown of red cells releases bilirubin that produces jaundice; the same haemolysis drives the free-haemoglobin load that can damage the kidneys.
+## explicit_objective
+Recognise jaundice (from haemolysis) as a feature of an incompatible blood transfusion.
+## pitfalls
+The hallmark is jaundice from haemolysis, not cyanosis, flushing or pallor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T06
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Transfusion reaction
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Patient safety > Transfusion safety
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-C5434C88E564FA
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A7FABE8964217F
+## label
+The anaesthesiologist must examine the patient thoroughly before administering anaesthesia
+## canonical_key
+patient-safety.anesthesia.preanesthetic-thorough-examination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Before administering anaesthesia the anaesthesiologist must perform a thorough pre-anaesthetic evaluation of the patient's history, airway, comorbidities and investigations; this preoperative assessment identifies risks and prevents avoidable anaesthetic harm, and omitting it breaches the standard of care.
+## explicit_objective
+State that the anaesthesiologist must examine the patient thoroughly before anaesthesia.
+## pitfalls
+Data unrelated to the operation must not be ignored, the patient should be assessed beforehand (not first met in theatre), and agitation is not a reason to refuse care.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T06
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Pre-anaesthetic assessment
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Patient safety > Anaesthesia safety
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-ADD7EFFEB87318
+## label
+A patient who unilaterally ends care relieves the doctor of duty for the later course
+## canonical_key
+medical-responsibility.abandonment.patient-terminated-relationship-defense
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a patient unilaterally terminates the doctor-patient relationship (leaving for another physician without declaration), the first doctor no longer holds a continuing duty for the subsequent course of the disease; truthfully stating that the patient dismissed him is the doctor's honest and legally sound defence against a later claim.
+## explicit_objective
+Recognise that a patient who unilaterally ends care relieves the doctor of duty for the later course.
+## pitfalls
+The defence is that the patient dismissed the doctor, not denying the relationship (dishonest) or merely hiring a lawyer.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Termination of the relationship
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7CA1D985BA6F69
+## label
+Doctors are obliged to help the disabled, rescue those in danger, and prevent/remove harm
+## canonical_key
+medical-responsibility.duties.doctor-obligations-rescue-and-prevent-harm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A doctor's professional obligations include helping individuals with disabilities, rescuing persons in danger, and preventing and removing harm — expressions of the ethical duties of beneficence and non-maleficence.
+## explicit_objective
+List helping the disabled, rescuing those in danger, and preventing/removing harm as doctors' obligations.
+## pitfalls
+All are genuine obligations, so no single one is the complete answer.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Duties of the doctor
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-38A36A9418C6CC
+## label
+A malpractice claim is raised upon the physician
+## canonical_key
+medical-responsibility.malpractice.claim-raised-upon-physician
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A claim of medical malpractice is raised upon the physician, because malpractice concerns the professional duty and conduct of the individual doctor whose act or omission caused the harm; the hospital, nursing staff or technicians answer separately for their own acts.
+## explicit_objective
+State that a malpractice claim is raised upon the physician.
+## pitfalls
+The hospital may carry separate institutional liability, but the malpractice claim targets the physician personally.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Who is liable
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F51278045BE3EB
+## label
+Exceeding scope, non-disclosure of complications, and operating without consent are acts of negligence
+## canonical_key
+medical-responsibility.negligence.acts-constituting-negligence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acts of medical negligence include modifying the operative procedure beyond the permitted scope, not informing the patient of operative complications, and operating without the patient's consent — each a breach of the duty of care owed to the patient.
+## explicit_objective
+Recognise exceeding scope, non-disclosure of complications, and operating without consent as acts of negligence.
+## pitfalls
+All three are breaches of the duty of care, so each qualifies as negligence.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Acts of negligence
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Malpractice and medical responsibility
+## article_ids
+ART-MPE-327-MALPRACTICE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
