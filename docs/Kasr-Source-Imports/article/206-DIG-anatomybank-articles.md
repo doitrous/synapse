@@ -210,3 +210,105 @@ Admin team
 ## last_reviewed
 
 ## review_due
+
+# Item
+## id
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## title
+Abdominal, thoracic-wall and urogenital gross anatomy III (206 DIG anatomy bank)
+## subject
+gi
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+This article gathers a third set of gross-anatomy and developmental facts tested in the 206 DIG Anatomy department question bank, drawn from three further past papers (the tail of the 2020 paper and the 2018 and 2017 papers). It covers the anterior abdominal wall and the arcuate line, the origin of the transversus abdominis from the thoracolumbar fascia, the diaphragm (the oesophageal hiatus and the passage of the phrenic nerves), the pancreas (its only mobile part and the annular anomaly), the spleen and its phrenicocolic support, the dual blood supply of the transverse colon, the posterior surface of the liver, and the anal canal (the anal columns of Morgagni and the somatic innervation of external piles). It then works through the male urinary and genital structures and their development: the membranous urethra within the external sphincter, the interior of the bladder and the interureteric crest, the blood supply of the prostate and scrotum, the venous drainage of the left suprarenal gland, the branches of the internal iliac artery, the nerve supply of the testis, and the mesonephric origin of the vas deferens. Each linked concept carries the precise claim and the distractors the exam options are built from.
+## sections
+### Definition
+This article groups the tested facts of its cluster; each linked concept holds one atomic statement, and this overview ties them into a single picture of the abdominal wall, diaphragm, hepatobiliary and urogenital gross anatomy tested in these three papers. Read the individual concepts for the exact claim and the distractor each exam option is built from.
+### Mechanism
+The abdominal wall and diaphragm are organised by their layered muscles and openings: below the arcuate line all three flat-muscle aponeuroses pass in front of the rectus, the transversus takes a posterior origin from the thoracolumbar fascia, and the diaphragm transmits the oesophagus through a sling of the right crus at T10 while its left dome is pierced by the left phrenic nerve. The gut and its glands are fixed or mobile according to their peritoneal covering: the pancreatic tail alone lies intraperitoneally in the splenorenal ligament, the spleen rests on the phrenicocolic shelf, and the transverse colon draws a dual blood supply across the midgut-hindgut boundary. The urinary and genital organs share a developmental history: the mesonephric duct forms the vas deferens, the vesical part of the urogenital sinus lines the bladder whose trigone bears the interureteric crest, the membranous urethra is invested by the external sphincter, and the asymmetrical suprarenal veins reflect the embryology of the great veins.
+### Key determinants
+Each item turns on one discriminator: below the arcuate line the posterior rectus sheath is absent; the transversus (not the external oblique) arises from the thoracolumbar fascia; the right crus forms the oesophageal hiatus at T10; the left phrenic nerve pierces the muscular dome while the right passes at the caval opening; only the tail of the pancreas is intraperitoneal; the phrenicocolic ligament supports the spleen from below; the transverse colon is supplied by both the middle colic (SMA) and left colic (IMA) through the marginal artery; the oesophageal groove lies on the posterior surface of the liver; the anal columns of Morgagni carry superior rectal vessels; external piles are pain-sensitive through the inferior rectal branch of the pudendal nerve; the membranous urethra lies in the external urethral sphincter; the interureteric crest joins the ureteric orifices; the prostate and scrotum are supplied by the inferior vesical and pudendal arteries respectively; the left suprarenal vein drains to the left renal vein; the superior gluteal artery springs from the posterior division of the internal iliac; the testis is supplied by T10 sympathetic fibres; the vas deferens is a mesonephric-duct derivative; and an annular pancreas obstructs the second part of the duodenum.
+### Clinical significance
+These facts underlie common clinical scenarios: incisional herniation through the weak posterior wall below the arcuate line, the pinch-cock antireflux role of the right crus and hiatus hernia, the vulnerability of the pancreatic tail at splenectomy, ischaemic colitis at the splenic-flexure watershed, the referred periumbilical pain of testicular torsion (T10), the severe pain of external but not internal haemorrhoids, the spread of left adrenal tumour along the left renal vein, and the neonatal duodenal obstruction of an annular pancreas.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in this cluster's questions are built from exactly those reversals - for example swapping the two phrenic nerves, placing the annular-pancreas obstruction at the third part of the duodenum, draining both suprarenal veins into the cava, or attributing external-pile pain to autonomic nerves.
+## universities
+kau
+## years
+KAU_Y2
+## module
+206 DIG
+## module_subject
+206 DIG > Anatomy > Abdominal and urogenital anatomy
+## subtopic
+Abdominal, thoracic-wall and urogenital gross anatomy III
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## related_concepts
+CON-GIT-68171298510EAB
+CON-GIT-D59DBA0038F677
+CON-GIT-9E486037934246
+CON-GIT-BC70181959999F
+CON-GIT-52F1A17D148ED2
+CON-GIT-574D329CA721D3
+CON-GIT-7768A5AD6045A8
+CON-GIT-61BBC41363794A
+CON-GIT-3D896A01DBEC19
+CON-GIT-A4A7ECFDEAEB62
+CON-GIT-A5F29DB0C5A3DD
+CON-GIT-C8879D14523C51
+CON-GIT-2814555086B7A3
+CON-GIT-D86730FA676846
+CON-GIT-C6384BDD3B4098
+CON-GIT-B94004AA97857E
+CON-GIT-C1894013B634DC
+CON-GIT-E69AE738AC2593
+CON-GIT-1503C2006AD867
+CON-GIT-6000CE2E710AFA
+## related_articles
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass -- written from standard gross-anatomy and embryology (Snell/Last's/Langman/Moore-level) teaching corroborated by this bank's own keyed stems (full OCR stems + hand-circled answer). OCR pass covered pp.25-32 (the 2020-paper tail plus the 2018 and 2017 papers); pp.33-54 remain for the next author.
+## reading_time
+7
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due

@@ -114,4 +114,49 @@ d15=d   # anal valves at the level of the pectinate line                        
 d17=a   # ligament of Treitz = duodenojejunal junction                                     D (authored q26) skip
 d19=d   # SMA origin NOT a posterior relation of 3rd part of duodenum                        >> AUTHOR
 d20=b   # stomach bed EXCEPT gall bladder                                                   borderline skip
-# (pp.25-54 NOT OCR'd this pass — 18 authored from pp.13-24; remainder = next author)
+# (pp.13-24 tranche 2 — 18 authored)
+
+# === tranche 3 OCR pass (pp.25-32) — exam D 2020 tail (pp.25-27, Q39-53) +
+#     exam E "Anatomy Meg Ques 2018" (pp.28-30, Q1-13) + exam F "2017" (pp.31-32, Q1-10) ===
+# --- exam D 2020 tail (pp.25-27) ---
+d39=c?  # trigone limited superiorly by interureteric crest (circle garbled "el:")           H (ambiguous circle)
+d40=b   # membranous urethra lies in the external urethral sphincter                          >> AUTHOR
+d41=b   # right testis supplied by the gonadal artery                                         D (testis artery authored) skip
+d42=a   # interureteric crest joins the two ureteric orifices                                 >> AUTHOR
+d43=b   # prostate supplied by the inferior vesical artery                                    >> AUTHOR
+d44=c   # scrotum: deep external pudendal artery among its arteries                           >> AUTHOR
+d45=b   # ureter as a mesonephric-duct derivative                                             D (ureteric bud authored) skip
+d46=d   # seminal vesicles lie on the posterior surface of the bladder                        D (SV saturated) skip
+d47=a   # subsequent ejaculate contains seminal + prostatic fluid                             skip (low-yield/physio)
+d48=b   # artery of the vas deferens from the superior vesical artery                         D (dup of q37) skip
+d49=c   # ureter constricted at the pelvi-ureteric junction                                   D (authored q48) skip
+d50=a   # ductus deferens derived from the mesonephric ducts                                  >> AUTHOR
+d51=b   # failure of testes to descend = cryptorchidism                                       D (authored q49) skip
+d52=d   # bifid ureter (early ureteric-bud splitting)                                         D (authored q50) skip
+d53=d   # testis supplied by sympathetic fibres from the T10 segment                          >> AUTHOR
+# --- exam E "Anatomy Meg Ques 2018" (pp.28-30) ---
+e01=b   # below the arcuate line all three aponeuroses pass anterior to rectus                >> AUTHOR
+e02=c   # transverse colon supplied by both SMA and IMA (marginal artery)                     >> AUTHOR
+e03=d   # posterior surface of the liver is related to the oesophagus                         >> AUTHOR
+e04=c?  # ureteric-colic groin pain via ilioinguinal (vs genitofemoral)                       H (contestable)
+e05=b   # oesophageal hiatus surrounded by the right crus of the diaphragm                    >> AUTHOR
+e06=d   # tail is the only mobile intraperitoneal part of the pancreas                        >> AUTHOR
+e07=d   # NOT a ureteric constriction: where crossed by the gonadal artery                    borderline skip (PUJ authored)
+e08=a   # superior gluteal a. = branch of posterior division of internal iliac               >> AUTHOR
+e09=a   # indirect inguinal hernia oozing = inferior epigastric artery                        D (inf. epigastric authored) skip
+e10=a   # obstructive jaundice pancreatic cancer = head of pancreas                           borderline skip (head relations)
+e11=c   # left suprarenal vein tumour spread -> left renal vein                               >> AUTHOR
+e12=c   # appendectomy scrotal/thigh numbness = ilioinguinal nerve                            skip (nerve-territory, see e04 held)
+e13=d   # external-pile pain carried by the pudendal nerve                                    >> AUTHOR
+# --- exam F "2017" (pp.31-32) ---
+f01=b   # transversus abdominis takes partial origin from the lumbar (thoracolumbar) fascia   >> AUTHOR
+f02=b   # duodenojejunal flexure held by suspensory ligament of Treitz                        D (authored q26) skip
+f03=c   # uncinate process supplied by the superior mesenteric artery                         D (SMA saturated) skip
+f04=c   # phrenicocolic ligament supports the spleen from below                               >> AUTHOR
+f05=b   # left phrenic nerve pierces the cupola of the diaphragm                               >> AUTHOR
+f06=d   # organ separated from stomach by a recess of greater sac = spleen                     skip (contestable)
+f07=c   # transverse colon related to the quadrate lobe of the liver                           borderline skip (quadrate authored)
+f08=b   # anal columns of Morgagni contain terminal branches of superior rectal artery        >> AUTHOR
+f09=b   # midgut loop rotates 90 degrees anticlockwise during herniation                       >> AUTHOR
+f10=c   # annular pancreas typically obstructs the second part of the duodenum                 >> AUTHOR
+# (pp.33-54 NOT OCR'd this pass — 20 authored from pp.25-32; remainder = next author)

@@ -3905,3 +3905,2044 @@ Admin team
 
 ---
 
+
+# Item
+## id
+CON-GIT-68171298510EAB
+## label
+The membranous urethra passes through the external urethral sphincter
+## canonical_key
+urethra.membranous.external-urethral-sphincter
+## aliases
+membranous urethra deep perineal pouch
+sphincter urethrae membranous urethra
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The membranous part of the male urethra is the short segment that passes through the deep perineal pouch and the perineal membrane, surrounded by the sphincter urethrae (external urethral sphincter). It is the shortest and least dilatable part of the urethra and provides voluntary continence.
+## explicit_objective
+State that the membranous urethra passes through the external urethral sphincter.
+## pitfalls
+Confusing the membranous urethra with the prostatic part (surrounded by the prostate) or the bulbar spongy part.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Male urethra
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Male urethra and pelvis
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-D59DBA0038F677
+## label
+The interureteric crest joins the two ureteric orifices
+## canonical_key
+bladder.interior.interureteric-crest-joins-ureteric-orifices
+## aliases
+interureteric bar
+trigone superior boundary
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The interureteric crest (bar) is a transverse ridge of mucosa raised by the underlying interureteric muscle, running between the two ureteric orifices. It forms the superior boundary of the trigone and is a landmark at cystoscopy; the smooth, firmly adherent trigone mucosa lies below it.
+## explicit_objective
+State that the interureteric crest connects the two ureteric orifices and bounds the trigone superiorly.
+## pitfalls
+Placing the apex of the trigone at a ureteric orifice rather than at the internal urethral orifice.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Urinary bladder
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Urinary bladder
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-9E486037934246
+## label
+The prostate is supplied mainly by the inferior vesical artery
+## canonical_key
+prostate.blood-supply.inferior-vesical-artery
+## aliases
+prostatic blood supply
+inferior vesical artery prostate
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The prostate gland receives its main arterial supply from the inferior vesical artery, a branch of the internal iliac artery, with additional contributions from the middle rectal and internal pudendal arteries. It has both a true fibrous capsule and a false capsule of condensed pelvic fascia, with the prostatic venous plexus between them.
+## explicit_objective
+State that the prostate is supplied mainly by the inferior vesical artery from the internal iliac.
+## pitfalls
+Assuming the prostate lies behind the bladder base (it lies below it) or that it has only a true capsule.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Prostate gland
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Prostate and male pelvis
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-BC70181959999F
+## label
+The scrotum is supplied by the external and internal pudendal arteries
+## canonical_key
+scrotum.blood-supply.external-pudendal-arteries
+## aliases
+scrotal blood supply
+external pudendal scrotum
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The scrotum is supplied anteriorly by the anterior scrotal branches of the superficial and deep external pudendal arteries (from the femoral artery) and posteriorly by the posterior scrotal branches of the internal pudendal artery, with a contribution from the cremasteric artery. Its skin is thrown into rugae by the dartos smooth muscle.
+## explicit_objective
+State that the scrotum is supplied by the external pudendal (anterior) and internal pudendal (posterior) arteries.
+## pitfalls
+Attributing scrotal skin corrugation to the external oblique rather than the dartos muscle.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Scrotum
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Scrotum and external genitalia
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-52F1A17D148ED2
+## label
+The vas deferens develops from the mesonephric (Wolffian) duct
+## canonical_key
+vas.development.mesonephric-duct
+## aliases
+ductus deferens development
+Wolffian duct derivatives
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ductus (vas) deferens, together with the epididymis, seminal vesicle and ejaculatory duct, is a derivative of the mesonephric (Wolffian) duct, whose persistence and differentiation in the male are driven by testosterone. The paramesonephric duct regresses under anti-Müllerian hormone.
+## explicit_objective
+State that the vas deferens is a mesonephric (Wolffian) duct derivative.
+## pitfalls
+Confusing the mesonephric-duct genital derivatives with the ureteric bud (ureter/collecting system) or the metanephric cap (nephrons).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Genital development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Genital development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-574D329CA721D3
+## label
+The testis is supplied by sympathetic fibres from the T10 segment
+## canonical_key
+testis.innervation.sympathetic-t10
+## aliases
+testicular nerve supply
+testis referred pain T10
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The testis receives autonomic, mainly sympathetic, fibres from the T10-T11 spinal segments via the renal and aortic (testicular) plexuses that accompany the testicular vessels. Because of this segmental supply, testicular pain is referred to the periumbilical region (the T10 dermatome). Testicular lymph drains to the para-aortic nodes at L1-L2.
+## explicit_objective
+State that the testis is supplied by sympathetic fibres from T10 and refers pain to the umbilicus.
+## pitfalls
+Thinking the testis drains lymph to the inguinal nodes (that is the scrotal skin); the testis drains to the para-aortic nodes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Testis
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Testis
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-7768A5AD6045A8
+## label
+Below the arcuate line all three aponeuroses pass in front of the rectus
+## canonical_key
+rectus.arcuate-line.aponeuroses-anterior
+## aliases
+arcuate line of Douglas
+rectus sheath below arcuate line
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Below the arcuate line (about midway between the umbilicus and the pubic symphysis) the aponeuroses of the external oblique, internal oblique and transversus abdominis all pass anterior to the rectus abdominis, so the posterior surface of the muscle rests directly on the transversalis fascia. Above the line the internal oblique aponeurosis splits to enclose the muscle.
+## explicit_objective
+State that below the arcuate line all three flat-muscle aponeuroses pass in front of the rectus.
+## pitfalls
+Believing the tendinous intersections are posterior (they are attached to the anterior sheath) or that inferior epigastric vessels lie in front of the muscle.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anterior abdominal wall
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterior abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-61BBC41363794A
+## label
+The transverse colon is supplied by both the SMA and the IMA
+## canonical_key
+colon.transverse.dual-sma-ima-supply
+## aliases
+transverse colon blood supply
+marginal artery of Drummond
+splenic flexure watershed
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The transverse colon straddles the midgut-hindgut junction, so its proximal part is supplied by the middle colic artery (from the superior mesenteric artery) and its distal part by the left colic artery (from the inferior mesenteric artery). The two systems anastomose through the marginal artery of Drummond near the splenic flexure, a watershed zone prone to ischaemic colitis.
+## explicit_objective
+State that the transverse colon has a dual SMA/IMA supply anastomosing at the splenic-flexure watershed.
+## pitfalls
+Assigning the whole transverse colon to the SMA and forgetting the IMA (left colic) contribution and the watershed.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Colonic blood supply
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Colonic blood supply
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-3D896A01DBEC19
+## label
+The posterior surface of the liver is related to the oesophagus
+## canonical_key
+liver.posterior-surface.oesophageal-relation
+## aliases
+oesophageal groove of liver
+bare area posterior surface liver
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The posterior surface of the liver bears the groove for the inferior vena cava and the triangular bare area (in direct contact with the diaphragm), and to the left an oesophageal groove where the abdominal oesophagus contacts the posterior surface of the left lobe. The right kidney, colic flexure and stomach impressions lie on the visceral (inferior) surface instead.
+## explicit_objective
+State that the oesophageal groove lies on the posterior surface of the left lobe of the liver.
+## pitfalls
+Confusing the posterior-surface relations (IVC, bare area, oesophagus) with the visceral-surface impressions (kidney, colic flexure, stomach).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Liver surfaces and relations
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Liver
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-A4A7ECFDEAEB62
+## label
+The oesophageal hiatus is formed by the right crus of the diaphragm
+## canonical_key
+hiatus.oesophageal.right-crus-of-diaphragm
+## aliases
+oesophageal hiatus T10
+right crus sling oesophagus
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The oesophageal hiatus lies at the level of the tenth thoracic vertebra (T10) and is formed by fibres of the right crus of the diaphragm, which split and loop around the oesophagus as a muscular sling. This sling acts as a physiological (pinch-cock) sphincter that helps prevent gastro-oesophageal reflux.
+## explicit_objective
+State that the oesophageal hiatus (T10) is formed by the right crus of the diaphragm.
+## pitfalls
+Confusing the openings: the caval opening (T8) is in the central tendon and the aortic hiatus (T12) behind the median arcuate ligament.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Diaphragm
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Diaphragm
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-A5F29DB0C5A3DD
+## label
+The tail is the only mobile, intraperitoneal part of the pancreas
+## canonical_key
+pancreas.tail.mobile-intraperitoneal
+## aliases
+pancreatic tail splenorenal ligament
+intraperitoneal pancreas
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The tail of the pancreas is enclosed, together with the splenic vessels, between the two layers of the splenorenal (lienorenal) ligament as it reaches the splenic hilum. It is therefore the only part of the pancreas covered by peritoneum and relatively mobile; the head, uncinate process, neck and body are all retroperitoneal and fixed.
+## explicit_objective
+State that the tail is the only intraperitoneal, mobile part of the pancreas (in the splenorenal ligament).
+## pitfalls
+Forgetting that the tail is at risk during splenectomy because it lies in the splenorenal ligament at the hilum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Pancreas
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Pancreas
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-C8879D14523C51
+## label
+The superior gluteal artery is a branch of the posterior division of the internal iliac
+## canonical_key
+gluteal.superior.posterior-division-internal-iliac
+## aliases
+posterior division internal iliac branches
+superior gluteal artery origin
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The posterior division of the internal iliac artery gives three parietal branches: the iliolumbar, the lateral sacral and the superior gluteal artery. The superior gluteal artery is the largest branch of the internal iliac and leaves the pelvis above the piriformis; the inferior gluteal, uterine and internal pudendal arteries all arise from the anterior division.
+## explicit_objective
+State that the superior gluteal artery is a branch of the posterior division of the internal iliac.
+## pitfalls
+Confusing the superior gluteal (posterior division) with the inferior gluteal artery (anterior division).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Pelvic arteries
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Pelvic arteries
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-2814555086B7A3
+## label
+The left suprarenal vein drains into the left renal vein
+## canonical_key
+suprarenal.venous-drainage.left-suprarenal-vein-renal-vein
+## aliases
+left adrenal vein drainage
+suprarenal venous drainage asymmetry
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The venous drainage of the suprarenal glands is asymmetrical: the short right suprarenal vein drains directly into the inferior vena cava, whereas the longer left suprarenal vein descends to drain into the left renal vein (which the left gonadal vein also joins). Tumour or thrombus extending along the left suprarenal vein therefore reaches the left renal vein next.
+## explicit_objective
+State that the left suprarenal vein drains into the left renal vein (the right into the IVC).
+## pitfalls
+Assuming both suprarenal veins drain directly into the IVC; only the right does.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Suprarenal venous drainage
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Suprarenal gland and posterior abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-D86730FA676846
+## label
+The lower anal canal is pain-sensitive via the pudendal nerve
+## canonical_key
+anus.lower-canal.pudendal-nerve-pain
+## aliases
+inferior rectal nerve anal canal
+external haemorrhoid pain innervation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The anal canal below the pectinate line, and external haemorrhoids there, are lined by somatic-sensitive epithelium innervated by the inferior rectal (inferior anal) branch of the pudendal nerve (S2-S4). Painful stimuli here are keenly felt, in contrast to the upper anal canal above the pectinate line, which has only visceral (pain-insensitive) autonomic innervation.
+## explicit_objective
+State that the lower anal canal (external piles) is pain-sensitive via the inferior rectal branch of the pudendal nerve.
+## pitfalls
+Attributing external-pile pain to autonomic (hypogastric/pelvic splanchnic) nerves, which serve only the pain-insensitive upper canal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anal canal innervation
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anal canal
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-C6384BDD3B4098
+## label
+The transversus abdominis takes origin from the thoracolumbar fascia
+## canonical_key
+transversus.origin.thoracolumbar-fascia
+## aliases
+transversus abdominis origin
+lumbar fascia abdominal muscle
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The transversus abdominis, the deepest of the flat abdominal muscles, arises from the inner surfaces of the lower six costal cartilages, the thoracolumbar (lumbar) fascia, the anterior two-thirds of the iliac crest and the lateral part of the inguinal ligament. The thoracolumbar fascia provides its posterior origin.
+## explicit_objective
+State that the transversus abdominis takes a posterior origin from the thoracolumbar fascia.
+## pitfalls
+Attributing a lumbar-fascia origin to the external oblique (lower ribs only) or to psoas/quadratus lumborum (vertebral/iliac attachments).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anterolateral abdominal wall
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterolateral abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-B94004AA97857E
+## label
+The phrenicocolic ligament supports the spleen from below
+## canonical_key
+spleen.ligaments.phrenicocolic-support
+## aliases
+phrenicocolic ligament splenic sling
+spleen inferior support
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The phrenicocolic ligament runs from the splenic (left colic) flexure of the colon to the diaphragm and forms a shelf, the splenic sling, on which the lower pole of the spleen rests, supporting it from below. The gastrosplenic and lienorenal ligaments suspend the spleen but do not support it inferiorly.
+## explicit_objective
+State that the phrenicocolic ligament supports the spleen from below.
+## pitfalls
+Confusing the supporting phrenicocolic ligament with the gastrosplenic and lienorenal ligaments that merely connect the spleen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Spleen
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Spleen
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-C1894013B634DC
+## label
+The left phrenic nerve pierces the muscular dome of the diaphragm
+## canonical_key
+phrenic.left.pierces-diaphragm-cupola
+## aliases
+left phrenic nerve diaphragm
+phrenic nerve diaphragmatic passage
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The left phrenic nerve pierces the muscular part of the left dome (cupola) of the diaphragm, just lateral to the pericardium, to supply it from below and reach the peritoneum. The right phrenic nerve, by contrast, passes through the diaphragm at or beside the vena caval opening (T8) in the central tendon.
+## explicit_objective
+State that the left phrenic nerve pierces the muscular dome of the diaphragm (the right passes at the caval opening).
+## pitfalls
+Swapping the two phrenic nerves: the right accompanies the IVC through the central tendon, the left pierces the muscular cupola.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Diaphragm
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Diaphragm
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-E69AE738AC2593
+## label
+The anal columns of Morgagni contain branches of the superior rectal artery
+## canonical_key
+anorectal.columns.superior-rectal-artery
+## aliases
+anal columns of Morgagni
+internal rectal venous plexus
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each anal column of Morgagni, in the upper (endodermal) half of the anal canal above the pectinate line, contains a terminal radicle of the superior rectal artery and vein. The veins here form the internal rectal (haemorrhoidal) plexus, which is the origin of internal haemorrhoids.
+## explicit_objective
+State that the anal columns of Morgagni carry terminal branches of the superior rectal vessels.
+## pitfalls
+Attributing the anal-column vessels to the inferior rectal artery, which instead supplies the canal below the pectinate line.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anal canal
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anal canal
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-1503C2006AD867
+## label
+The herniated midgut loop rotates 90 degrees anticlockwise
+## canonical_key
+midgut.rotation.90-anticlockwise-herniation
+## aliases
+midgut rotation
+physiological umbilical herniation rotation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During physiological herniation into the umbilical cord (around the sixth week) the midgut loop rotates 90 degrees anticlockwise around the axis of the superior mesenteric artery. A further 180 degrees of anticlockwise rotation occurs as the loop returns to the abdomen, giving a total of 270 degrees; failure of rotation underlies malrotation and volvulus.
+## explicit_objective
+State that the herniated midgut loop rotates 90 degrees anticlockwise (270 degrees in total).
+## pitfalls
+Confusing the initial 90-degree herniation rotation with the 180-degree return rotation, or citing a clockwise direction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Midgut development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Midgut development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-6000CE2E710AFA
+## label
+An annular pancreas obstructs the second part of the duodenum
+## canonical_key
+pancreas.annular.second-part-duodenum-obstruction
+## aliases
+annular pancreas
+ventral pancreatic bud malformation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An annular pancreas arises from abnormal migration/rotation of the ventral pancreatic bud, so a ring of pancreatic tissue surrounds the second (descending) part of the duodenum. It can constrict the duodenum and present in infancy with vomiting and duodenal obstruction; the third part, by contrast, is compressed by the superior mesenteric vessels in SMA syndrome.
+## explicit_objective
+State that an annular pancreas encircles and obstructs the second part of the duodenum.
+## pitfalls
+Placing the obstruction at the third part (SMA syndrome) rather than the second part encircled by the pancreatic ring.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Pancreatic development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Pancreatic development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-3
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
