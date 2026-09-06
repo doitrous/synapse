@@ -1473,3 +1473,497 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-16
+## title
+Topical atropine is contraindicated in
+## question
+Topical atropine is contraindicated in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Retinoscopy in children.
+## explanation_a
+Incorrect. Atropine is used for cycloplegic retinoscopy in children.
+## answer_b
+Iridocyclitis.
+## explanation_b
+Incorrect. Atropine is indicated in iridocyclitis to rest the pupil and prevent synechiae.
+## answer_c
+Corneal ulcer.
+## explanation_c
+Incorrect. A cycloplegic is used in corneal ulcer for comfort.
+## answer_d
+Primary angle closure glaucoma.
+## explanation_d
+Correct. Atropine dilates the pupil and can precipitate an attack in primary angle-closure glaucoma, so it is contraindicated.
+## topic
+Ophthalmology
+## subtopic
+Mydriatics and trauma
+## main_concept
+CON-MUL-3744AE9A61B4D5
+## concept_ids
+CON-MUL-3744AE9A61B4D5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify primary angle-closure glaucoma as the contraindication to topical atropine.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-17
+## title
+Metallic IOFB and impaired vision — EXCEPT
+## question
+Metallic intra ocular foreign bodies can cause impaired vision through all except:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Cataract.
+## explanation_a
+Incorrect (a genuine mechanism). A metallic foreign body can induce cataract.
+## answer_b
+Siderosis bulbi.
+## explanation_b
+Incorrect (a genuine mechanism). Iron causes siderosis bulbi.
+## answer_c
+Chalcosis bulbi.
+## explanation_c
+Incorrect (a genuine mechanism). Copper causes chalcosis bulbi.
+## answer_d
+Orbital cellulitis.
+## explanation_d
+Correct. Orbital cellulitis is an orbital infection, not a way a retained intraocular metallic body impairs vision; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## main_concept
+CON-MUL-6BDE4364E772DD
+## concept_ids
+CON-MUL-6BDE4364E772DD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude orbital cellulitis from the visual effects of a metallic intraocular foreign body.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-18
+## title
+Photophthalmia
+## question
+Photophthalmia:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Is caused by exposure to UV rays.
+## explanation_a
+Incorrect as the single best answer. It is true that UV rays cause photophthalmia, but option d combines it with the correct prevention.
+## answer_b
+Can be avoided by wearing protective goggles.
+## explanation_b
+Incorrect as the single best answer. It is true that goggles prevent it, but option d is the complete answer.
+## answer_c
+Is treated by copious irrigation with saline.
+## explanation_c
+Incorrect. Photophthalmia is a UV epithelial burn treated by padding and lubricants, not by irrigation.
+## answer_d
+Answers a and b.
+## explanation_d
+Correct. Photophthalmia is caused by UV exposure (a) and avoided by protective goggles (b), so answers a and b are correct.
+## answer_e
+Answers a and c.
+## explanation_e
+Incorrect. Statement c (irrigation treatment) is false, so this combination is wrong.
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## main_concept
+CON-MUL-0554C2D52E5AED
+## concept_ids
+CON-MUL-0554C2D52E5AED
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that photophthalmia is caused by UV exposure and prevented by goggles.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.167); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-19
+## title
+First-line management of an acidic chemical injury
+## question
+The first line of management of an acidic chemical injury is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Wash with water immediately.
+## explanation_a
+Correct. Immediate washing with water is the first-line management of any chemical injury, including acid.
+## answer_b
+Do not touch the eye, refer to a specialist.
+## explanation_b
+Incorrect. Delaying to refer without irrigating worsens the burn.
+## answer_c
+Give intravenous steroids then refer.
+## explanation_c
+Incorrect. Systemic steroids are not the first step and do not remove the chemical.
+## answer_d
+Look for alkaline antidote to wash with.
+## explanation_d
+Incorrect. Neutralising an acid with an alkali is dangerous; plain water irrigation is used.
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## main_concept
+CON-MUL-4693A9F2D11E81
+## concept_ids
+CON-MUL-4693A9F2D11E81
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose immediate irrigation with water as the first-line management of an acid burn.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-20
+## title
+Site of the Vossius ring
+## question
+Vossius ring is found on anterior lens capsule in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Complicated cataract.
+## explanation_a
+Incorrect. A complicated cataract follows intraocular inflammation, not blunt trauma.
+## answer_b
+Congenital cataract.
+## explanation_b
+Incorrect. A congenital cataract is present from birth and has no Vossius ring.
+## answer_c
+Traumatic cataract.
+## explanation_c
+Correct. The Vossius ring is a pigment imprint of the pupil margin from blunt trauma, seen with traumatic cataract.
+## answer_d
+Hypermature cataract.
+## explanation_d
+Incorrect. A hypermature cataract is an ageing change, not a traumatic imprint.
+## topic
+Ophthalmology
+## subtopic
+Traumatic cataract
+## main_concept
+CON-MUL-2ACB7CAC5BDFA3
+## concept_ids
+CON-MUL-2ACB7CAC5BDFA3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the Vossius ring as a sign of traumatic (blunt) lens injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

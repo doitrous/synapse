@@ -37098,3 +37098,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3744AE9A61B4D5
+## label
+Topical atropine is contraindicated in primary angle-closure glaucoma because it dilates the pupil
+## canonical_key
+ophthalmology.trauma.atropine-contraindicated-angle-closure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical atropine (a cycloplegic mydriatic) is contraindicated in primary angle-closure glaucoma because dilating the pupil crowds the drainage angle and can precipitate an acute attack; it is safely used for retinoscopy in children and in iridocyclitis and corneal ulcer.
+## explicit_objective
+State that topical atropine is contraindicated in primary angle-closure glaucoma.
+## pitfalls
+Giving a mydriatic to an eye with a narrow angle and precipitating acute angle closure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Mydriatics and trauma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Mydriatics and trauma
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-6BDE4364E772DD
+## label
+A metallic intraocular foreign body impairs vision through cataract, siderosis and chalcosis but not orbital cellulitis
+## canonical_key
+ophthalmology.trauma.metallic-iofb-vision-loss-mechanisms
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A metallic intraocular foreign body impairs vision through cataract, siderosis bulbi (iron) and chalcosis bulbi (copper); orbital cellulitis is an infection of the orbit and is not a mechanism by which a retained intraocular metallic body reduces vision.
+## explicit_objective
+State the mechanisms by which a metallic intraocular foreign body impairs vision and exclude orbital cellulitis.
+## pitfalls
+Listing orbital cellulitis among the visual effects of a retained metallic intraocular foreign body.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Intraocular foreign body
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0554C2D52E5AED
+## label
+Photophthalmia is caused by ultraviolet exposure and is prevented by protective goggles
+## canonical_key
+ophthalmology.trauma.photophthalmia-uv-exposure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Photophthalmia (ultraviolet keratitis, e.g. snow blindness or welder's flash) is caused by exposure to ultraviolet rays and can be avoided by wearing protective goggles; it is a self-limiting epithelial burn treated with padding and lubricants, not by irrigation.
+## explicit_objective
+State that photophthalmia is caused by ultraviolet exposure and prevented by protective goggles.
+## pitfalls
+Treating photophthalmia by irrigation, or overlooking that goggles prevent it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Radiation and ultraviolet injury
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Radiation and ultraviolet injury
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2ACB7CAC5BDFA3
+## label
+A Vossius ring on the anterior lens capsule is a sign of traumatic (blunt) injury
+## canonical_key
+ophthalmology.trauma.vossius-ring-traumatic-cataract
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A Vossius ring is a ring of pigment imprinted on the anterior lens capsule by the pupillary margin during blunt trauma; it is a sign of traumatic injury and may accompany a traumatic cataract, not senile, congenital or hypermature cataract.
+## explicit_objective
+Recognise the Vossius ring as a sign of blunt traumatic lens injury.
+## pitfalls
+Attributing a Vossius ring to congenital, complicated or hypermature cataract.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Traumatic cataract
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Traumatic cataract
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
