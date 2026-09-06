@@ -8005,3 +8005,1107 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protoz
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-70
+
+## title
+Dysentery without extraintestinal spread = balantidiasis
+
+## question
+Dysentery without extraintestinal spread is seen with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Amoebiasis
+
+## explanation_a
+Incorrect. Amoebiasis causes dysentery but does spread extraintestinally, classically to the liver.
+
+## answer_b
+Balantidiasis
+
+## explanation_b
+Correct. Balantidium coli invades the large-bowel mucosa to cause a dysentery like amoebic colitis, but it very rarely disseminates beyond the gut, so there is no extraintestinal (hepatic) spread. Balantidiasis is therefore dysentery without extraintestinal spread. It is the answer.
+
+## answer_c
+Giardiasis
+
+## explanation_c
+Incorrect. Giardiasis causes malabsorptive diarrhoea, not dysentery.
+
+## answer_d
+Hookworm disease
+
+## explanation_d
+Incorrect. Hookworm disease causes iron-deficiency anaemia from blood loss, not dysentery.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-0DD6278BB4A6F3
+
+## concept_ids
+CON-INF-0DD6278BB4A6F3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Balantidium coli
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify balantidiasis as dysentery without extraintestinal spread.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-71
+
+## title
+Malabsorption may occur with giardiasis
+
+## question
+Malabsorption may occur with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Enterobiasis
+
+## explanation_a
+Incorrect. Enterobiasis (pinworm) causes perianal pruritus, not malabsorption.
+
+## answer_b
+Giardiasis
+
+## explanation_b
+Correct. Giardia lamblia coats and damages the duodenojejunal brush border, blunting villi and impairing absorption of fat and fat-soluble vitamins, so malabsorption is a recognised feature of giardiasis. This small-bowel injury is the mechanism. Malabsorption therefore occurs with giardiasis.
+
+## answer_c
+Trichuriasis
+
+## explanation_c
+Incorrect. Trichuriasis affects the large bowel (colitis, prolapse), not small-bowel absorption.
+
+## answer_d
+Amoebiasis
+
+## explanation_d
+Incorrect. Amoebiasis causes large-bowel dysentery and liver abscess, not malabsorption.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-C7C9E48E8F08BD
+
+## concept_ids
+CON-INF-C7C9E48E8F08BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate malabsorption with giardiasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-72
+
+## title
+IgA deficiency predisposes to giardiasis
+
+## question
+Immunoglobulin A deficiency may predispose to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hepatic amoebiasis
+
+## explanation_a
+Incorrect. Hepatic amoebiasis is not the infection classically linked to IgA deficiency.
+
+## answer_b
+Giardiasis
+
+## explanation_b
+Correct. Secretory IgA normally blocks attachment of Giardia trophozoites to the small-bowel mucosa, so patients with IgA deficiency (and common variable immunodeficiency) develop chronic, heavy giardiasis. Loss of mucosal IgA is the reason. IgA deficiency therefore predisposes to giardiasis.
+
+## answer_c
+Fascioliasis
+
+## explanation_c
+Incorrect. Fascioliasis is acquired from metacercariae on vegetation and is not linked to IgA deficiency.
+
+## answer_d
+Balantidiasis
+
+## explanation_d
+Incorrect. Balantidiasis is not the infection associated with IgA deficiency.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-B3C0F250496E97
+
+## concept_ids
+CON-INF-B3C0F250496E97
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that IgA deficiency predisposes to giardiasis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-73
+
+## title
+Watery diarrhoea after transplant = cyclosporiasis
+
+## question
+A patient on immunosuppressive therapy after kidney transplantation presented with abrupt onset of severe watery diarrhoea, nausea, vomiting, anorexia and fatigue. What is your provisional diagnosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Blastocystosis
+
+## explanation_a
+Incorrect. Blastocystosis is usually a mild irritable-bowel-type illness, not this abrupt severe watery diarrhoea in an immunosuppressed host.
+
+## answer_b
+Cyclosporiasis
+
+## explanation_b
+Correct. Cyclospora cayetanensis is an intestinal coccidian that, in the immunosuppressed (such as a transplant recipient), causes an abrupt severe watery diarrhoea with nausea, vomiting, anorexia and profound fatigue. This opportunistic, prolonged watery diarrhoea fits the vignette. The provisional diagnosis is therefore cyclosporiasis.
+
+## answer_c
+Giardiasis
+
+## explanation_c
+Incorrect. Giardiasis causes chronic malabsorptive diarrhoea, not this abrupt opportunistic picture.
+
+## answer_d
+Amoebiasis
+
+## explanation_d
+Incorrect. Amoebiasis causes bloody dysentery, not profuse watery diarrhoea.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-E4EE37755D37DB
+
+## concept_ids
+CON-INF-E4EE37755D37DB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Cyclospora cayetanensis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Diagnose cyclosporiasis in an immunosuppressed patient with abrupt watery diarrhoea.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-74
+
+## title
+String test diagnoses Giardia
+
+## question
+String test may be used in diagnosis of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Heterophyes heterophyes
+
+## explanation_a
+Incorrect. Heterophyes is diagnosed by finding its small operculated eggs in stool, not by a string test.
+
+## answer_b
+Diphyllobothrium latum
+
+## explanation_b
+Incorrect. Diphyllobothrium latum is diagnosed by operculated eggs or proglottids in stool.
+
+## answer_c
+Giardia lamblia
+
+## explanation_c
+Correct. The string (Enterotest) test uses a swallowed capsule on a string retrieved from the duodenum, from which adherent Giardia trophozoites are recovered; it samples the small-bowel habitat of the parasite when stool is negative. The string test is therefore used to diagnose Giardia lamblia.
+
+## answer_d
+Ascaris lumbricoides
+
+## explanation_d
+Incorrect. Ascaris lumbricoides is diagnosed by its eggs in stool, not by a string test.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-CCEDFF43542A94
+
+## concept_ids
+CON-INF-CCEDFF43542A94
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Match the string (Enterotest) test to the diagnosis of Giardia.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-75
+
+## title
+Hepatic abscess may occur with Entamoeba histolytica
+
+## question
+Hepatic abscess may occur with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cyclospora cayetanensis
+
+## explanation_a
+Incorrect. Cyclospora cayetanensis causes watery diarrhoea, not a liver abscess.
+
+## answer_b
+Giardia lamblia
+
+## explanation_b
+Incorrect. Giardia lamblia is a non-invasive small-bowel parasite and forms no abscess.
+
+## answer_c
+Entamoeba histolytica
+
+## explanation_c
+Correct. Invasive Entamoeba histolytica trophozoites reach the liver through the portal vein and produce an amoebic liver abscess, the commonest extraintestinal complication of amoebiasis. Hepatic abscess is therefore a recognised outcome of E. histolytica infection. It is the answer.
+
+## answer_d
+Naegleria fowleri
+
+## explanation_d
+Incorrect. Naegleria fowleri causes primary amoebic meningoencephalitis, not a liver abscess.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-ADE0BCED7114AC
+
+## concept_ids
+CON-INF-ADE0BCED7114AC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate hepatic (amoebic liver) abscess with Entamoeba histolytica.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-76
+
+## title
+Non-sporulated oocyst is not an infective toxoplasma stage
+
+## question
+As regards toxoplasmosis, the following is not an infective stage:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Sporulated oocyst
+
+## explanation_a
+Incorrect. The sporulated oocyst is infective and is acquired from cat-contaminated soil, water or food.
+
+## answer_b
+Non-sporulated oocyst
+
+## explanation_b
+Correct. Toxoplasma oocysts are shed unsporulated in cat faeces and are not infective until they sporulate in the environment over one to five days. The freshly passed non-sporulated oocyst therefore cannot transmit infection. It is the stage that is not infective.
+
+## answer_c
+Tissue cyst
+
+## explanation_c
+Incorrect. The tissue cyst (bradyzoites) is infective when undercooked meat is eaten.
+
+## answer_d
+Tissue pseudocyst
+
+## explanation_d
+Incorrect. The tissue pseudocyst (tachyzoites) is infective, for example by transfusion or transplacentally.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-E869BCDA5017E0
+
+## concept_ids
+CON-INF-E869BCDA5017E0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that the non-sporulated Toxoplasma oocyst is not infective.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-77
+
+## title
+RBCs not enlarged with P. falciparum and P. malariae
+
+## question
+Parasitized RBCs are not enlarged with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Plasmodium falciparum & Plasmodium ovale
+
+## explanation_a
+Incorrect. Plasmodium ovale enlarges the infected red cell, so this pair is wrong.
+
+## answer_b
+Plasmodium ovale & Plasmodium malariae
+
+## explanation_b
+Incorrect. Plasmodium ovale enlarges the infected cell, so this pair is wrong.
+
+## answer_c
+Plasmodium falciparum & Plasmodium malariae
+
+## explanation_c
+Correct. Plasmodium vivax and Plasmodium ovale infect and enlarge young red cells, whereas Plasmodium falciparum and Plasmodium malariae parasitise cells without enlarging them, leaving the infected cell normal-sized. The pair whose red cells are not enlarged is therefore P. falciparum and P. malariae. This size clue aids species identification.
+
+## answer_d
+Plasmodium vivax & Plasmodium malariae
+
+## explanation_d
+Incorrect. Plasmodium vivax enlarges the infected red cell, so this pair is wrong.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-56142219DDAC10
+
+## concept_ids
+CON-INF-56142219DDAC10
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that red cells are not enlarged in P. falciparum and P. malariae infection.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.20
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

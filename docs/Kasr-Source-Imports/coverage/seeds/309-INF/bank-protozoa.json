@@ -1586,6 +1586,222 @@
       "concept_ids": [
         "CON-INF-4877AC88981C2F"
       ]
+    },
+    {
+      "key": "q69",
+      "hold": "in-source duplicated distractor — options a (\"Hymenolepis nana & Balantidium coll.\") and d (\"Hymenolepis nana & Balantidium coli.\") are the same pair, so the printed item has only three distinct options; a clean 4-option MCQ cannot be authored without fabricating the missing distractor. Held per the <4-option rule."
+    },
+    {
+      "key": "q70",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-70",
+      "page": 20,
+      "title": "Dysentery without extraintestinal spread = balantidiasis",
+      "question": "Dysentery without extraintestinal spread is seen with:",
+      "options": {
+        "A": "Amoebiasis",
+        "B": "Balantidiasis",
+        "C": "Giardiasis",
+        "D": "Hookworm disease"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Amoebiasis causes dysentery but does spread extraintestinally, classically to the liver.",
+        "B": "Correct. Balantidium coli invades the large-bowel mucosa to cause a dysentery like amoebic colitis, but it very rarely disseminates beyond the gut, so there is no extraintestinal (hepatic) spread. Balantidiasis is therefore dysentery without extraintestinal spread. It is the answer.",
+        "C": "Incorrect. Giardiasis causes malabsorptive diarrhoea, not dysentery.",
+        "D": "Incorrect. Hookworm disease causes iron-deficiency anaemia from blood loss, not dysentery."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Balantidium coli",
+      "learning_objective": "Identify balantidiasis as dysentery without extraintestinal spread.",
+      "main_concept": "CON-INF-0DD6278BB4A6F3",
+      "concept_ids": [
+        "CON-INF-0DD6278BB4A6F3"
+      ]
+    },
+    {
+      "key": "q71",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-71",
+      "page": 20,
+      "title": "Malabsorption may occur with giardiasis",
+      "question": "Malabsorption may occur with:",
+      "options": {
+        "A": "Enterobiasis",
+        "B": "Giardiasis",
+        "C": "Trichuriasis",
+        "D": "Amoebiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Enterobiasis (pinworm) causes perianal pruritus, not malabsorption.",
+        "B": "Correct. Giardia lamblia coats and damages the duodenojejunal brush border, blunting villi and impairing absorption of fat and fat-soluble vitamins, so malabsorption is a recognised feature of giardiasis. This small-bowel injury is the mechanism. Malabsorption therefore occurs with giardiasis.",
+        "C": "Incorrect. Trichuriasis affects the large bowel (colitis, prolapse), not small-bowel absorption.",
+        "D": "Incorrect. Amoebiasis causes large-bowel dysentery and liver abscess, not malabsorption."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Giardia lamblia",
+      "learning_objective": "Associate malabsorption with giardiasis.",
+      "main_concept": "CON-INF-C7C9E48E8F08BD",
+      "concept_ids": [
+        "CON-INF-C7C9E48E8F08BD"
+      ]
+    },
+    {
+      "key": "q72",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-72",
+      "page": 20,
+      "title": "IgA deficiency predisposes to giardiasis",
+      "question": "Immunoglobulin A deficiency may predispose to:",
+      "options": {
+        "A": "Hepatic amoebiasis",
+        "B": "Giardiasis",
+        "C": "Fascioliasis",
+        "D": "Balantidiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hepatic amoebiasis is not the infection classically linked to IgA deficiency.",
+        "B": "Correct. Secretory IgA normally blocks attachment of Giardia trophozoites to the small-bowel mucosa, so patients with IgA deficiency (and common variable immunodeficiency) develop chronic, heavy giardiasis. Loss of mucosal IgA is the reason. IgA deficiency therefore predisposes to giardiasis.",
+        "C": "Incorrect. Fascioliasis is acquired from metacercariae on vegetation and is not linked to IgA deficiency.",
+        "D": "Incorrect. Balantidiasis is not the infection associated with IgA deficiency."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Giardia lamblia",
+      "learning_objective": "State that IgA deficiency predisposes to giardiasis.",
+      "main_concept": "CON-INF-B3C0F250496E97",
+      "concept_ids": [
+        "CON-INF-B3C0F250496E97"
+      ]
+    },
+    {
+      "key": "q73",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-73",
+      "page": 20,
+      "title": "Watery diarrhoea after transplant = cyclosporiasis",
+      "question": "A patient on immunosuppressive therapy after kidney transplantation presented with abrupt onset of severe watery diarrhoea, nausea, vomiting, anorexia and fatigue. What is your provisional diagnosis?",
+      "options": {
+        "A": "Blastocystosis",
+        "B": "Cyclosporiasis",
+        "C": "Giardiasis",
+        "D": "Amoebiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Blastocystosis is usually a mild irritable-bowel-type illness, not this abrupt severe watery diarrhoea in an immunosuppressed host.",
+        "B": "Correct. Cyclospora cayetanensis is an intestinal coccidian that, in the immunosuppressed (such as a transplant recipient), causes an abrupt severe watery diarrhoea with nausea, vomiting, anorexia and profound fatigue. This opportunistic, prolonged watery diarrhoea fits the vignette. The provisional diagnosis is therefore cyclosporiasis.",
+        "C": "Incorrect. Giardiasis causes chronic malabsorptive diarrhoea, not this abrupt opportunistic picture.",
+        "D": "Incorrect. Amoebiasis causes bloody dysentery, not profuse watery diarrhoea."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Cyclospora cayetanensis",
+      "learning_objective": "Diagnose cyclosporiasis in an immunosuppressed patient with abrupt watery diarrhoea.",
+      "main_concept": "CON-INF-E4EE37755D37DB",
+      "concept_ids": [
+        "CON-INF-E4EE37755D37DB"
+      ]
+    },
+    {
+      "key": "q74",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-74",
+      "page": 20,
+      "title": "String test diagnoses Giardia",
+      "question": "String test may be used in diagnosis of:",
+      "options": {
+        "A": "Heterophyes heterophyes",
+        "B": "Diphyllobothrium latum",
+        "C": "Giardia lamblia",
+        "D": "Ascaris lumbricoides"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Heterophyes is diagnosed by finding its small operculated eggs in stool, not by a string test.",
+        "B": "Incorrect. Diphyllobothrium latum is diagnosed by operculated eggs or proglottids in stool.",
+        "C": "Correct. The string (Enterotest) test uses a swallowed capsule on a string retrieved from the duodenum, from which adherent Giardia trophozoites are recovered; it samples the small-bowel habitat of the parasite when stool is negative. The string test is therefore used to diagnose Giardia lamblia.",
+        "D": "Incorrect. Ascaris lumbricoides is diagnosed by its eggs in stool, not by a string test."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Giardia lamblia",
+      "learning_objective": "Match the string (Enterotest) test to the diagnosis of Giardia.",
+      "main_concept": "CON-INF-CCEDFF43542A94",
+      "concept_ids": [
+        "CON-INF-CCEDFF43542A94"
+      ]
+    },
+    {
+      "key": "q75",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-75",
+      "page": 20,
+      "title": "Hepatic abscess may occur with Entamoeba histolytica",
+      "question": "Hepatic abscess may occur with:",
+      "options": {
+        "A": "Cyclospora cayetanensis",
+        "B": "Giardia lamblia",
+        "C": "Entamoeba histolytica",
+        "D": "Naegleria fowleri"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cyclospora cayetanensis causes watery diarrhoea, not a liver abscess.",
+        "B": "Incorrect. Giardia lamblia is a non-invasive small-bowel parasite and forms no abscess.",
+        "C": "Correct. Invasive Entamoeba histolytica trophozoites reach the liver through the portal vein and produce an amoebic liver abscess, the commonest extraintestinal complication of amoebiasis. Hepatic abscess is therefore a recognised outcome of E. histolytica infection. It is the answer.",
+        "D": "Incorrect. Naegleria fowleri causes primary amoebic meningoencephalitis, not a liver abscess."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "Associate hepatic (amoebic liver) abscess with Entamoeba histolytica.",
+      "main_concept": "CON-INF-ADE0BCED7114AC",
+      "concept_ids": [
+        "CON-INF-ADE0BCED7114AC"
+      ]
+    },
+    {
+      "key": "q76",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-76",
+      "page": 20,
+      "title": "Non-sporulated oocyst is not an infective toxoplasma stage",
+      "question": "As regards toxoplasmosis, the following is not an infective stage:",
+      "options": {
+        "A": "Sporulated oocyst",
+        "B": "Non-sporulated oocyst",
+        "C": "Tissue cyst",
+        "D": "Tissue pseudocyst"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The sporulated oocyst is infective and is acquired from cat-contaminated soil, water or food.",
+        "B": "Correct. Toxoplasma oocysts are shed unsporulated in cat faeces and are not infective until they sporulate in the environment over one to five days. The freshly passed non-sporulated oocyst therefore cannot transmit infection. It is the stage that is not infective.",
+        "C": "Incorrect. The tissue cyst (bradyzoites) is infective when undercooked meat is eaten.",
+        "D": "Incorrect. The tissue pseudocyst (tachyzoites) is infective, for example by transfusion or transplacentally."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Toxoplasma gondii",
+      "learning_objective": "State that the non-sporulated Toxoplasma oocyst is not infective.",
+      "main_concept": "CON-INF-E869BCDA5017E0",
+      "concept_ids": [
+        "CON-INF-E869BCDA5017E0"
+      ]
+    },
+    {
+      "key": "q77",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-77",
+      "page": 20,
+      "title": "RBCs not enlarged with P. falciparum and P. malariae",
+      "question": "Parasitized RBCs are not enlarged with:",
+      "options": {
+        "A": "Plasmodium falciparum & Plasmodium ovale",
+        "B": "Plasmodium ovale & Plasmodium malariae",
+        "C": "Plasmodium falciparum & Plasmodium malariae",
+        "D": "Plasmodium vivax & Plasmodium malariae"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Plasmodium ovale enlarges the infected red cell, so this pair is wrong.",
+        "B": "Incorrect. Plasmodium ovale enlarges the infected cell, so this pair is wrong.",
+        "C": "Correct. Plasmodium vivax and Plasmodium ovale infect and enlarge young red cells, whereas Plasmodium falciparum and Plasmodium malariae parasitise cells without enlarging them, leaving the infected cell normal-sized. The pair whose red cells are not enlarged is therefore P. falciparum and P. malariae. This size clue aids species identification.",
+        "D": "Incorrect. Plasmodium vivax enlarges the infected red cell, so this pair is wrong."
+      },
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium",
+      "learning_objective": "State that red cells are not enlarged in P. falciparum and P. malariae infection.",
+      "main_concept": "CON-INF-56142219DDAC10",
+      "concept_ids": [
+        "CON-INF-56142219DDAC10"
+      ]
+    },
+    {
+      "key": "q78",
+      "hold": "in-source repeat of the granuloma fact already tested by the authored Q2 (\"Granulomatous reactions may occur in infection with...\", Entamoeba histolytica); Q78 (\"Granuloma formation may be seen with which protozoan?\", key B = E. histolytica) re-tests the same atomic fact, so it is held per brief."
     }
   ]
 }

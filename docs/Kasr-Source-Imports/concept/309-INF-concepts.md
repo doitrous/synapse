@@ -16154,3 +16154,669 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0DD6278BB4A6F3
+## label
+Balantidiasis causes dysentery without extraintestinal spread
+## canonical_key
+parasitology.balantidium-coli.dysentery-no-extraintestinal-spread
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Balantidium coli, the only ciliate parasite of man, invades the large-bowel mucosa to cause a dysentery resembling amoebic colitis, but unlike Entamoeba histolytica it very rarely disseminates beyond the intestine (no liver abscess). Its disease is therefore dysentery confined to the gut. Balantidiasis is the dysentery without extraintestinal spread.
+## explicit_objective
+State that balantidiasis causes dysentery without extraintestinal (e.g. hepatic) spread.
+## pitfalls
+Dysentery without extraintestinal spread = balantidiasis; amoebiasis spreads to the liver.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Balantidium coli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B3C0F250496E97
+## label
+IgA deficiency predisposes to giardiasis
+## canonical_key
+parasitology.giardia-lamblia.iga-deficiency-predisposition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Secretory IgA on the small-bowel mucosa is a key defence that prevents Giardia trophozoites from attaching and colonising, so people with immunoglobulin A deficiency (and common variable immunodeficiency) are prone to chronic, heavy giardiasis. The loss of mucosal IgA is the reason for this susceptibility. IgA deficiency therefore predisposes specifically to giardiasis.
+## explicit_objective
+State that IgA deficiency predisposes to giardiasis (loss of protective secretory IgA).
+## pitfalls
+IgA deficiency -> giardiasis (mucosal IgA normally blocks Giardia attachment), not hepatic amoebiasis/fascioliasis/balantidiasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E4EE37755D37DB
+## label
+Cyclosporiasis causes abrupt watery diarrhoea in the immunosuppressed
+## canonical_key
+parasitology.cyclospora-cayetanensis.immunosuppressed-watery-diarrhoea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclospora cayetanensis is an intestinal coccidian that, in an immunosuppressed patient such as a transplant recipient, causes an abrupt onset of severe watery diarrhoea with nausea, vomiting, anorexia and profound fatigue. This opportunistic, prolonged watery diarrhoea in the immunocompromised is characteristic of cyclosporiasis. The clinical picture therefore points to cyclosporiasis.
+## explicit_objective
+Recognise abrupt severe watery diarrhoea with anorexia and fatigue in an immunosuppressed patient as cyclosporiasis.
+## pitfalls
+Transplant/immunosuppressed + abrupt watery diarrhoea + fatigue = cyclosporiasis, not giardiasis/amoebiasis/blastocystosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cyclospora cayetanensis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-CCEDFF43542A94
+## label
+The string (Enterotest) test diagnoses Giardia
+## canonical_key
+parasitology.giardia-lamblia.string-test
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The string test (Enterotest) uses a swallowed gelatin capsule on a string that is retrieved from the duodenum; adherent Giardia trophozoites are then recovered from the string, making it a diagnostic method for duodenal giardiasis when stool examination is negative. It samples the small-bowel habitat of the parasite. The string test is therefore used to diagnose Giardia lamblia.
+## explicit_objective
+Associate the string (Enterotest) test with the diagnosis of Giardia lamblia.
+## pitfalls
+String/Enterotest samples the duodenum for Giardia, not Heterophyes/Diphyllobothrium/Ascaris.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-E869BCDA5017E0
+## label
+The non-sporulated Toxoplasma oocyst is not infective
+## canonical_key
+parasitology.toxoplasma-gondii.non-sporulated-oocyst-not-infective
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Toxoplasma gondii oocysts are shed unsporulated in cat faeces and are NOT infective until they sporulate in the environment over one to five days; the infective stages are the sporulated oocyst, the tissue cyst (bradyzoites) and the pseudocyst (tachyzoites). The freshly passed non-sporulated oocyst therefore cannot transmit infection. It is the stage that is not infective.
+## explicit_objective
+State that the non-sporulated Toxoplasma oocyst is not an infective stage.
+## pitfalls
+Non-sporulated oocyst = non-infective; sporulated oocyst, tissue cyst and pseudocyst are all infective.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-56142219DDAC10
+## label
+Red cells are not enlarged in P. falciparum and P. malariae infection
+## canonical_key
+parasitology.plasmodium.falciparum-malariae-rbc-not-enlarged
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Plasmodium vivax and Plasmodium ovale infect and enlarge young red cells (with Schuffner/James dots), whereas Plasmodium falciparum and Plasmodium malariae parasitise red cells of any age without enlarging them, so infected cells stay normal-sized (P. malariae may even prefer smaller older cells). The pair whose parasitised red cells are not enlarged is therefore P. falciparum and P. malariae. This size clue helps species identification on a film.
+## explicit_objective
+State that parasitised red cells are not enlarged in Plasmodium falciparum and Plasmodium malariae.
+## pitfalls
+RBC enlargement = P. vivax/ovale; P. falciparum and P. malariae leave the cell normal-sized.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
