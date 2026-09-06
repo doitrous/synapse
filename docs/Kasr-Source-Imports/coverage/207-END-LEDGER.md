@@ -6,9 +6,9 @@
 | 2024-eom-anatomy-tranche-2 (Q27-58, `EOM - END-207 2024 ANS.pdf`) | 32 | 0 | 0 | 50 | 108 |
 | 2024-eom-physiology-tranche-3 (Q59-108, `EOM - END-207 2024 ANS.pdf`) | 49 | 1 | 0 | 0 | 108 |
 | **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **106** | **1** | **1** | **0** | **108** |
-| 2023-eom-mixed-slices-1+2 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 36 | 0 | 0 | 72 | 108 |
-| **207 END module authored (2 papers)** | **142** | **1** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 142 | 1 | 1 | untriaged | — |
+| 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
+| **207 END module authored (2 papers)** | **157** | **1** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 157 | 1 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -220,9 +220,54 @@ Q54 (rectum length), Q62 (receptor up-regulation), Q68 (GH short-stature causes)
 functions), Q83 (PTH regulated by plasma calcium), Q101 (ovulation timing), Q105 (progesterone
 effect), Q106 (estrogen effect), Q108 (menopause) — about 15 clean fresh stems left on this paper.
 
-Next 207-END cluster: continue the 2023 EOM "195" paper with a third ~15-item non-duplicate
-slice drawn from the fresh single-best stems listed just above (Q14, Q19, Q35, Q39, Q42, Q47,
-Q54, Q62, Q68, Q73, Q83, Q101, Q105, Q106, Q108 — all keyed, all non-dup of the 2024 tranche and
-of slices 1-2), then move to a fresh non-EOM keyed source or the 2023 EOM 195 unsolved twin only
-if a key can be recovered. (Q49 prostate relations and Q52 uterine position were dropped this
-slice as an ambiguous single-best and a 2024 duplicate respectively; do not re-author them.)
+## Second paper — 2023 EOM "195" (frontier slice 3 — FINAL fresh slice)
+
+**15 authored** this slice (Q14, Q19, Q35, Q39, Q42, Q47, Q54, Q62, Q68, Q73, Q83, Q101, Q105,
+Q106, Q108) — every one a claim NOT covered by the 2024 tranche or by slices 1-2. 0 held, 0
+excluded, 0 dedup drops. Sections: 2 Histology (vas-deferens stereocilia disappearance,
+lactating-mammary alveolar cells), 5 Anatomy (external-anal-sphincter three parts, posterior
+vaginal fornix, pudendal nerve = sacral plexus, ischiocavernosus not on perineal body, rectum
+length), 8 Physiology (receptor up-regulation, cretinism-not-GH short stature, TSH does not
+convert T4→T3, PTH regulated by plasma calcium, ovulation 14 days before menses, progesterone
+thermogenic, estrogen grows follicles, menopausal osteoclast osteoporosis). Systems: 4 endo, 6
+gyn, 4 fnd, 1 androl. Keys all read from the printed p.19 table and cross-checked against each
+stem for a clean single-best answer (Q14 has two identical distractors, vasa efferentia = efferent
+ductules, which reinforces the keyed answer d).
+
+15 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical
+key, uppercased): 4 `CON-END-*`, 6 `CON-GYN-*`, 4 `CON-FND-*`, 1 `CON-AND-*` (collision-checked
+against the whole corpus — 0 collisions, 0 in-batch duplicates; none of the 2024 or slice-1/2
+concepts were reusable — distinct atomic claims; related cross-university concepts test different
+claims, e.g. stereocilia *function* not disappearance, pudendal *root values* not plexus
+membership). Filed under DIS-HIS-T03 / DIS-ANA-T05 / DIS-PHY-T06 with SYS-END/GYN/FND/AND
+cross-nav. Eleven concepts REUSE seven existing slice-1/2 articles (endocrine-gland histology,
+male reproduction, female reproduction, pelvis/perineum, female pelvic anatomy, general endocrine
+physiology, pituitary-thyroid physiology, calcium-adrenal-pancreas physiology); the four female
+reproductive physiology concepts (ovulation, progesterone, estrogen, menopause) are grouped into
+**1 new library article** (`ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY`). Subject tags
+endo/gyn/fnd/androl.
+
+Authored in `question/207-END-2023eom-mcq.md` (from seed `seed/207-END-2023eom.json`, re-emitted;
+never hand-edit the .md), `concept/207-END-2023eom-concepts.md`, `article/207-END-2023eom-articles.md`.
+Gate-clean vs the module baseline (concept batch 51 items 0 errors; article batch 9 items 0 errors;
+MCQ batch 51 items = the shared not-yet-imported resource baseline, one error/item, the single
+`resource_ids not-yet-imported` category the 2024/slice files also carry; simulate created=111/
+updated=0/rejected=0/errors=0; audit NEUTRAL — 5 article + 3 concept blank-field/needs_evidence
+categories, every one spanning old and new items, 0 NEW-ONLY categories, error count scales with
+item count).
+
+**The 2023 EOM "195" paper is now FRESH-EXHAUSTED: 51/108 authored (18 slice 1 + 18 slice 2 + 15
+slice 3), 0 held, 0 excluded, 57 stems remaining — and the remaining 57 are all near-duplicates of
+the fully-triaged 2024 EOM tranche (sperm maturation, Sertoli, follicle stages, bladder/rectum
+relations, GH/prolactin/oxytocin/ADH, Graves, aldosterone, ACTH rhythm, insulin C-peptide,
+blood-testis barrier, LH surge, hCG, etc.). Do NOT mine this paper further; do not re-author Q49
+(ambiguous single-best) or Q52 (2024 duplicate).**
+
+Next 207-END cluster: move to a fresh untriaged tier-1-3 paper. The best next MCQ candidate is
+`EOM (END - 207) 198 (Solved).pdf.pdf` (EOM, solved, paper "198" — a different paper from the 195
+and 2024 sets, entirely untriaged; keying method not yet known — being "solved" it has an answer
+key, but whether that is a printed table or a highlight is unconfirmed until triaged). If it proves
+unkeyed/unsolvable, the fallbacks are the 2023 EOM 195 *unsolved* twin (`EOM - END - 207 2023
+195.pdf`) or `EOM (END - 207) 198.pdf.pdf` only if a key can be recovered; the `{198}` EOY/Baqoon
+family is WRITTEN/essay (no MCQs — written lane). 3 department books and 6 banks also remain
+entirely untriaged.
