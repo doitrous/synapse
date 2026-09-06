@@ -2457,3 +2457,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-26
+## title
+When choroidal rupture affects vision
+## question
+Rupture of the choroid affects the vision markedly:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+In the most of cases.
+## explanation_a
+Incorrect. Peripheral ruptures may spare central vision, so it is not most cases.
+## answer_b
+If it is underlying the fovea.
+## explanation_b
+Correct. A rupture underneath the fovea markedly reduces central vision.
+## answer_c
+If it is caused by blunt trauma.
+## explanation_c
+Incorrect. Most choroidal ruptures are from blunt trauma regardless of visual effect.
+## answer_d
+If covered with hemorrhage.
+## explanation_d
+Incorrect. Overlying haemorrhage is transient; the lasting effect depends on foveal involvement.
+## topic
+Ophthalmology
+## subtopic
+Choroidal rupture
+## main_concept
+CON-MUL-2E80A13A854BF6
+## concept_ids
+CON-MUL-2E80A13A854BF6
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that a choroidal rupture markedly affects vision when it underlies the fovea.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.169); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-27
+## title
+Monocular diplopia due to
+## question
+Monocular diplopia can be due to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Paralytic squint.
+## explanation_a
+Incorrect. A paralytic squint causes binocular diplopia.
+## answer_b
+Blow out fracture of the orbit.
+## explanation_b
+Incorrect. A blow-out fracture causes binocular diplopia from restricted motility.
+## answer_c
+Iridocyclitis.
+## explanation_c
+Incorrect. Iridocyclitis causes pain and photophobia, not a split single-eye image.
+## answer_d
+Iridodialysis.
+## explanation_d
+Correct. Iridodialysis creates a second aperture and causes monocular diplopia.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-9D2E19CEA1B585
+## concept_ids
+CON-MUL-9D2E19CEA1B585
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify iridodialysis as a cause of monocular diplopia.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.169); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-28
+## title
+D-shaped pupil occurs in
+## question
+D-shaped pupil occurs in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Iridocyclitis.
+## explanation_a
+Incorrect. Iridocyclitis gives a small, sometimes irregular, pupil from synechiae, not a D-shape.
+## answer_b
+Acute glaucoma.
+## explanation_b
+Incorrect. Acute glaucoma gives a mid-dilated oval pupil, not a D-shape.
+## answer_c
+Iridodialysis.
+## explanation_c
+Correct. Iridodialysis (iris root separation) gives the characteristic D-shaped pupil.
+## answer_d
+Cyclodialysis.
+## explanation_d
+Incorrect. Cyclodialysis is a ciliary-body separation and does not shape the pupil into a D.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-C74CB9E533E3AB
+## concept_ids
+CON-MUL-C74CB9E533E3AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise iridodialysis as the cause of a D-shaped pupil.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.169); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-31
+## title
+Persistent ptosis after lid trauma
+## question
+A 22-year-old male patient came to outpatient clinic complaining of persistent drooping of his left eyelid. He gave a history of lid edema and hematoma 3 weeks ago after being hit by a football. What is the most probable cause?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Most probably edema of lid is the cause.
+## explanation_a
+Incorrect. Oedema would have settled within three weeks.
+## answer_b
+Most probably hematoma of the lid is the cause.
+## explanation_b
+Incorrect. A lid haematoma would have resolved by three weeks.
+## answer_c
+Most probably injury of orbicularis muscle is the cause.
+## explanation_c
+Incorrect. The orbicularis closes the lid; its injury does not cause drooping.
+## answer_d
+Most probably injury of levator aponeurosis is the cause.
+## explanation_d
+Correct. Persistent ptosis after the swelling settles is due to injury of the levator aponeurosis.
+## topic
+Ophthalmology
+## subtopic
+Traumatic ptosis
+## main_concept
+CON-MUL-83AF442C55738E
+## concept_ids
+CON-MUL-83AF442C55738E
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute persistent post-traumatic ptosis to levator aponeurosis injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.169); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-35
+## title
+Signs of a subluxated lens after blunt trauma
+## question
+A 50-year-old patient came to the ophthalmology clinic suffering from decreased visual acuity and monocular diplopia following blunt trauma to the eye. On examination the patient showed tremulous iris, irregular depth of anterior chamber, and the edge of the lens was seen across the pupil. What is the most probable diagnosis?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Most probable diagnosis is iris sphincter tear.
+## explanation_a
+Incorrect. A sphincter tear affects the pupil margin, not the lens position or anterior-chamber depth.
+## answer_b
+Most probable diagnosis is lens subluxation.
+## explanation_b
+Correct. Tremulous iris, irregular anterior-chamber depth and a lens edge across the pupil indicate lens subluxation.
+## answer_c
+Most probable diagnosis is lens dislocation.
+## explanation_c
+Incorrect. In dislocation the lens leaves the pupillary area entirely; here its edge is still seen across the pupil.
+## answer_d
+Complications never occur.
+## explanation_d
+Incorrect. Complications such as glaucoma and uveitis can occur.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-C3BCDA5E0F39C3
+## concept_ids
+CON-MUL-C3BCDA5E0F39C3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose lens subluxation from tremulous iris and a visible lens edge across the pupil.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.170); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

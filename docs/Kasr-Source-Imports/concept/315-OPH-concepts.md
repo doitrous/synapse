@@ -38097,3 +38097,225 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2E80A13A854BF6
+## label
+A traumatic choroidal rupture affects vision markedly when it lies underneath the fovea
+## canonical_key
+ophthalmology.trauma.choroidal-rupture-vision-fovea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A choroidal rupture from blunt trauma affects vision markedly only when it lies underneath the fovea (or when a secondary choroidal neovascular membrane involves the fovea); peripheral ruptures may spare central vision.
+## explicit_objective
+State that a choroidal rupture markedly affects vision when it underlies the fovea.
+## pitfalls
+Assuming every choroidal rupture, or any covered by haemorrhage, always destroys central vision.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Choroidal rupture
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Choroidal rupture
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-83AF442C55738E
+## label
+Persistent ptosis weeks after blunt lid trauma is usually due to injury of the levator aponeurosis
+## canonical_key
+ophthalmology.trauma.traumatic-levator-aponeurosis-ptosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When lid drooping persists weeks after the oedema and haematoma of a blunt lid injury have settled, the cause is usually traumatic dehiscence or injury of the levator aponeurosis (aponeurotic ptosis), not residual oedema, haematoma or orbicularis injury.
+## explicit_objective
+Attribute persistent post-traumatic ptosis to levator aponeurosis injury.
+## pitfalls
+Blaming persistent ptosis on lid oedema or haematoma that has already resolved, or on the orbicularis (a lid closer).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Traumatic ptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Traumatic ptosis
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
