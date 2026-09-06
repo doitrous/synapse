@@ -272,3 +272,89 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 5
+
+
+---
+
+# Item
+## id
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## title
+Immunodeficiency: T-cell, complement and phagocyte defects
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Immunology
+## summary
+This article groups the immunodeficiency facts tested by the paper: DiGeorge syndrome as a T-cell immunodeficiency from thymic hypoplasia; terminal complement (C5-C9) deficiency predisposing to Neisseria infections; chronic granulomatous disease as a defect of intracellular (oxidative) killing; and hereditary angioedema from C1 inhibitor deficiency - each mapping a specific immune defect to its characteristic clinical consequence.
+## sections
+### Definition
+The cluster covers primary immunodeficiencies of different arms of the immune system examined in 309 INF: a T-cell defect (DiGeorge), a complement defect (terminal components and the C1-inhibitor regulator) and a phagocyte-killing defect (chronic granulomatous disease).
+### Mechanism
+DiGeorge syndrome is thymic hypoplasia, so T cells fail to mature. Loss of terminal complement components (C5-C9) prevents membrane-attack-complex formation, removing the lysis that controls Neisseria. In chronic granulomatous disease the phagocyte NADPH oxidase fails, so ingested organisms are not killed. Hereditary angioedema is loss of C1 inhibitor, allowing unregulated complement/kinin activation and bradykinin-mediated swelling.
+### Key determinants
+Discriminators tested here: DiGeorge (T-cell) versus B-cell/complement/killing defects; terminal complement deficiency specifically linked to Neisseria; chronic granulomatous disease as an intracellular-killing (not engulfment/migration/complement) defect; and hereditary angioedema as C1-inhibitor (not B-cell/NK/C3-convertase) deficiency.
+### Clinical significance
+These facts guide recognition of primary immunodeficiency: the pattern of infection (recurrent Neisseria, catalase-positive organisms) or presentation (non-urticarial angioedema, neonatal tetany with cardiac defects) points to the specific defect and its management.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (T-cell vs B-cell DiGeorge; wrong infection pattern for complement defects; engulfment vs killing defect in CGD; wrong deficiency in hereditary angioedema).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## subtopic
+Immunodeficiency
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-IMU-T05
+## secondary_node_ids
+DIS-IMU
+## related_concepts
+CON-INF-2D7DE8987CC9B7
+CON-INF-CB1F1B7EBA160C
+CON-INF-3108D10CC36165
+CON-INF-45B9087D773BF5
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+5

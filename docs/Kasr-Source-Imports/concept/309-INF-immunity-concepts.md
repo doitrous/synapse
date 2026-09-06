@@ -2677,3 +2677,448 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-2D7DE8987CC9B7
+## label
+DiGeorge syndrome causes T-cell immunodeficiency
+## canonical_key
+immunology.digeorge-syndrome-causes-t-cell-immunodeficiency
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+DiGeorge syndrome results from failure of development of the third and fourth pharyngeal pouches, producing thymic hypoplasia/aplasia; the absent thymus cannot mature T cells, so the defect is a T-cell (cell-mediated) immunodeficiency (with hypocalcaemia and cardiac anomalies).
+## explicit_objective
+State that DiGeorge syndrome is a T-cell immunodeficiency due to thymic hypoplasia.
+## pitfalls
+It is not a primary B-cell defect, a terminal-complement deficiency, or a defect of intracellular killing; the missing thymus makes DiGeorge a T-cell immunodeficiency.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T05
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## article_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-CB1F1B7EBA160C
+## label
+Terminal complement (C5-C9) deficiency predisposes to Neisseria infections
+## canonical_key
+immunology.terminal-complement-deficiency-predisposes-to-neisseria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Deficiency of the terminal complement components (C5-C9) prevents assembly of the membrane attack complex, so the complement-dependent lysis that controls Neisseria is lost; such patients suffer recurrent Neisseria (meningococcal and gonococcal) infections.
+## explicit_objective
+State that deficiency of terminal complement components predisposes to Neisseria infections.
+## pitfalls
+Terminal-component deficiency is specifically linked to Neisseria, not to a general excess of viral, pyogenic or fungal infections; the missing membrane attack complex explains the Neisseria susceptibility.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T05
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## article_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-3108D10CC36165
+## label
+Chronic granulomatous disease is a defect of intracellular killing
+## canonical_key
+immunology.chronic-granulomatous-disease-is-intracellular-killing-defect
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic granulomatous disease is caused by a defect in the phagocyte NADPH oxidase, so the respiratory burst and reactive-oxygen production fail; phagocytes can engulf organisms but cannot kill them intracellularly, leading to recurrent catalase-positive infections and granulomas.
+## explicit_objective
+State that chronic granulomatous disease is a defect of intracellular killing.
+## pitfalls
+The problem is not complement, engulfment (uptake) or migration; the phagocyte ingests normally but has a defect of intracellular (oxidative) killing.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T05
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## article_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-45B9087D773BF5
+## label
+Hereditary angioedema is due to C1 inhibitor deficiency
+## canonical_key
+immunology.hereditary-angioedema-due-to-c1-inhibitor-deficiency
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hereditary angioedema is caused by deficiency of C1 inhibitor, the regulator of the classical complement and contact (kinin) pathways; unopposed activation generates bradykinin, producing recurrent non-pitting swelling of the face, limbs, airway and gut without urticaria.
+## explicit_objective
+State that hereditary angioedema is due to C1 inhibitor deficiency.
+## pitfalls
+The defect is C1 inhibitor, not a deficiency of B cells, NK cells, or C3 convertase; recognising bradykinin-mediated angioedema (not histamine urticaria) is the key.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-IMU-T05
+## secondary_node_ids
+
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## article_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.

@@ -403,6 +403,50 @@ Files: `question/309-INF-microbiology-mcq.md`, `concept/309-INF-microbiology-con
 | S6 Immunity — general I | Q11,12,13,14,15,46,47,53,55,57 | DIS-IMU · ART-INF-309-IMMUNO-GENERAL | 10 | 0 | items=10 errors=0 (immunity file) |
 | S7 Immunity — general II | Q16,29,31,48,54,56,58,59,71 | DIS-IMU · ART-INF-309-IMMUNO-GENERAL2 | 9 | 0 | items=19 errors=0 (immunity file) |
 | S8 Hypersensitivity + autoimmunity | Q2,19,32,67 (T03), Q72 (T04) | DIS-IMU-T03/T04 · ART-INF-309-IMMUNO-HYPERSENSITIVITY | 5 | 0 | items=24 errors=0 (immunity file) |
+| S9 Immunodeficiency | Q3,18,38,73 | DIS-IMU-T05 · ART-INF-309-IMMUNO-IMMUNODEFICIENCY | 4 | 0 | items=28 errors=0 (immunity file) |
+| **Extra 309 Questions PY — MCQ section B total** | **Q1-78** | micro DIS-MIC-T01/T02/T03 · immunity DIS-IMU/T03/T04/T05 | **66** | **12** | 66 authored / 12 held / 78 total |
+
+### Held / excluded (Extra 309 Questions PY, section B MCQ)
+
+12 held, all in-bank exact/reciprocal duplicates or a single ambiguous item — no fact lost:
+- Q24 = Q2, Q42 = Q2, Q37 = Q2, Q66 = Q2 (serum sickness / type III immune complex — one concept `CON-INF-C21F7578EB15AB` represents it; the four extra directions/phrasings are held).
+- Q26 = Q3, Q44 = Q3 (DiGeorge → T-cell immunodeficiency).
+- Q35 = Q1 (CMV transmitted by organ transplantation).
+- Q41 = Q23 (early antibiotic → false-negative Widal).
+- Q43 = Q25 (heterophil antibodies → EBV).
+- Q45 = Q27 (Brucella melitensis → Malta fever).
+- Q70 = Q40 (Lyme disease → Borrelia burgdorferi).
+- Q28 (best HIV-therapy monitor "viral load" not offered among options; "CD4 count" defensible but ambiguous vs Q78 which offers viral load) — HELD as ambiguous.
+
+Section A (Written / essay) and Section C (Matching: scenario→organism, scenario→toxin) are NOT authored —
+they are not 4-option single-best MCQ, so out of scope for this pipeline (Matching could be re-authored as
+single-best items later if desired). Dedupe vs the pre-existing 309-INF corpus (parasitology, 188 items) = 0
+overlap: this source is 100% fresh microbiology + immunology.
+
+### Answer provenance
+
+The bank prints NO answer key. Every keyed answer is EXPERT-DETERMINED by microbiological/immunological
+reasoning (Omar 2026-09-07) and justified in each item's per-option `explanations`; `keySource` on every
+concept and question records "expert-determined by reasoning; no reliable source key". No source mark was
+overridden (there were none to override). All records STATUS=Draft / publication_status=needs_evidence
+pending a department source and human review.
+
+### Taxonomy flag
+
+Immunology general-immunology records are filed on the **DIS-IMU** parent node. The corpus contains
+`DIS-IMU-T01` and `DIS-IMU-T02` but their exact scope was not resolvable from the available taxonomy
+ledgers, so broad general-immunology concepts (Ig, complement, cytokines, cells, tolerance, transplantation)
+were filed on the DIS-IMU parent rather than guessed into T01/T02 — a human should refine these to the
+correct T-node if T01/T02 have defined scopes.
+
+### Next cluster
+
+`Extra 309 Questions PY.pdf` MCQ section B is now FULLY MINED (66 authored / 12 held). Remaining 309-INF
+Microbiology work needs OTHER sources: (a) the two other micro banks named in the task —
+`Micro MCQ [GIT].pdf` and `Micro MCQ by Dr.Hesham [GIT].pdf` — for facts not already covered here (dedupe
+against this 66-item set + the Hesham file's student self-marks must be ignored/re-reasoned); (b) the
+Section C Matching items here, if a future pass converts scenario→organism/toxin matches into 4-option
+single-best MCQ. No new microbiology taxonomy node was needed (DIS-MIC-T01/T02/T03 all existed).
 
 Held/excluded (running, this bank): within-bank exact/reciprocal duplicates to be held as later slices reach them
 (Q24=Q2, Q26=Q3, Q35=Q1, Q37/Q66 reciprocal of Q2, Q41=Q23, Q42=Q2, Q43=Q25, Q44=Q3, Q45=Q27, Q70=Q40),

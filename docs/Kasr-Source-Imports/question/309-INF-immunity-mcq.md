@@ -2549,3 +2549,428 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-3
+## title
+Immune defect in DiGeorge syndrome
+## question
+Which defect in immune system is associated with Di-George's syndrome?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+B cell immunodeficiency.
+## explanation_a
+Incorrect. DiGeorge syndrome is not a primary B-cell (antibody) immunodeficiency.
+## answer_b
+Deficiency of the terminal complement components.
+## explanation_b
+Incorrect. Terminal complement deficiency predisposes to Neisseria infections; it is not the DiGeorge defect.
+## answer_c
+Defects of intracellular killing.
+## explanation_c
+Incorrect. A defect of intracellular killing describes chronic granulomatous disease, not DiGeorge syndrome.
+## answer_d
+T cell immunodeficiency.
+## explanation_d
+Correct. DiGeorge syndrome is thymic hypoplasia/aplasia, so T cells cannot mature - a T-cell (cell-mediated) immunodeficiency.
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## main_concept
+CON-INF-2D7DE8987CC9B7
+## concept_ids
+CON-INF-2D7DE8987CC9B7
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that DiGeorge syndrome is a T-cell immunodeficiency.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q3 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-18
+## title
+Infections with terminal complement deficiency
+## question
+Which infections may affect patients with deficiency of terminal components of complement (C5–C9)?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Viral infections
+## explanation_a
+Incorrect. Terminal complement deficiency is not characteristically associated with excess viral infection.
+## answer_b
+Neisseria infections
+## explanation_b
+Correct. Without C5-C9 the membrane attack complex cannot form, so the complement-mediated lysis that controls Neisseria is lost, and patients suffer recurrent Neisseria (meningococcal/gonococcal) infections.
+## answer_c
+Pyogenic infections
+## explanation_c
+Incorrect. Recurrent pyogenic infections point more to antibody, C3 or early-complement/phagocyte defects, not the terminal components.
+## answer_d
+Fungal infections
+## explanation_d
+Incorrect. Fungal infections point to neutrophil/T-cell defects, not terminal complement deficiency.
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## main_concept
+CON-INF-CB1F1B7EBA160C
+## concept_ids
+CON-INF-CB1F1B7EBA160C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that terminal complement deficiency predisposes to Neisseria infections.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q18 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-38
+## title
+Defect in chronic granulomatous disease
+## question
+Which defect is associated with chronic granulomatous disease?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Complement defect
+## explanation_a
+Incorrect. Chronic granulomatous disease is not a complement defect.
+## answer_b
+Engulfment defect
+## explanation_b
+Incorrect. Engulfment (uptake) is normal in CGD; the phagocyte ingests the organism.
+## answer_c
+Intracellular killing defect
+## explanation_c
+Correct. CGD is a defect of the phagocyte NADPH oxidase, so the respiratory burst fails and ingested organisms are not killed intracellularly - a defect of intracellular killing.
+## answer_d
+Migration defect
+## explanation_d
+Incorrect. A migration defect describes leukocyte adhesion/chemotaxis disorders, not CGD.
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## main_concept
+CON-INF-3108D10CC36165
+## concept_ids
+CON-INF-3108D10CC36165
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that chronic granulomatous disease is a defect of intracellular killing.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q38 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-73
+## title
+Deficiency responsible for hereditary angioedema
+## question
+A 17-year old girl presented with recurrent attacks of abdominal pain and swelling of face and limbs, she was diagnosed with hereditary angioedema. Which deficiency is responsible for her illness?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+C1 inhibitor
+## explanation_a
+Correct. Hereditary angioedema is caused by C1 inhibitor deficiency; unregulated complement/contact-pathway activation generates bradykinin, producing recurrent non-urticarial swelling of the face, limbs and gut.
+## answer_b
+B cells
+## explanation_b
+Incorrect. A B-cell deficiency causes antibody immunodeficiency with recurrent infections, not angioedema.
+## answer_c
+NK cells
+## explanation_c
+Incorrect. NK-cell deficiency predisposes to viral infection, not angioedema.
+## answer_d
+C3 convertase
+## explanation_d
+Incorrect. C3 convertase is an enzyme complex, not a deficiency that causes hereditary angioedema; the defect is in its regulator, C1 inhibitor.
+## topic
+Immunology
+## subtopic
+Immunodeficiency
+## main_concept
+CON-INF-45B9087D773BF5
+## concept_ids
+CON-INF-45B9087D773BF5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Immunity > Immunodeficiency
+## question_only_for
+
+## library_ids
+ART-INF-309-IMMUNO-IMMUNODEFICIENCY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that hereditary angioedema is due to C1 inhibitor deficiency.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q73 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
