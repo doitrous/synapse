@@ -42,3 +42,41 @@ Kasr Al Ainy END 207 End-of-Module examination, "Endocrine & Reproductive System
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_bb589c39762100585461
+## title
+EOM - End of END - 207 2023 195 With Answers
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/EOM/EOM - End of END - 207 2023 195 With Answers.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+19
+## sha256
+bb589c397621005854617e35a4007a8a6333d18871c18607d1fb19a6b9a9a202
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 End-of-Module examination 2023 (batch 195, solved, 108 MCQs, 19 pages). NATIVE text layer (no OCR/render needed). Correct answers read from a PRINTED answer-key table on the last page (p.19, "ANSWER 207 END"), listing 1.A..108.B; unambiguous, 0 double-marks; spot-validated on Q1/Q92/Q97/Q102/Q104/Q108 -- see coverage/207-END-triage-keys.txt. Second paper of the module (different year from the 2024 EOM); 18 non-duplicate items authored this pass.
+## confidence
+0.9
+## is_assessment
+true

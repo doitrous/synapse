@@ -6,7 +6,9 @@
 | 2024-eom-anatomy-tranche-2 (Q27-58, `EOM - END-207 2024 ANS.pdf`) | 32 | 0 | 0 | 50 | 108 |
 | 2024-eom-physiology-tranche-3 (Q59-108, `EOM - END-207 2024 ANS.pdf`) | 49 | 1 | 0 | 0 | 108 |
 | **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **106** | **1** | **1** | **0** | **108** |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 106 | 1 | 1 | untriaged | — |
+| 2023-eom-mixed-slice-1 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 18 | 0 | 0 | 90 | 108 |
+| **207 END module authored (2 papers)** | **124** | **1** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 124 | 1 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -118,3 +120,63 @@ simulate created=106/rejected=0/errors=0; audit neutral vs the anatomy baseline 
 **The EOM - END-207 2024 ANS.pdf 108-MCQ paper is now fully triaged: 106 authored, 1 held (Q103,
 image), 1 excluded (Q10, double-mark), 0 remaining.** 9 more tier 1-3 papers, 3 department books
 and 6 banks for this module remain entirely untriaged.
+
+## Second paper — 2023 EOM "195" (frontier slice 1)
+
+Paper: `EOM - End of END - 207 2023 195 With Answers.pdf` (manifest sourceId
+`src_bb589c39762100585461`, sha256
+bb589c397621005854617e35a4007a8a6333d18871c18607d1fb19a6b9a9a202; EOM, **2023** — a
+different year from the mined 2024 EOM, so not EOM-vs-EOM same-year saturation; solved, 108
+MCQs, 19 pages, **native text layer**). Registered in `evidence/207-END-resources.md`.
+
+**Key marker: a PRINTED answer-key table on the last page (p.19), not a highlight** — native
+text, so no OCR/render needed. All 108 keys recovered into `coverage/207-END-triage-keys.txt`;
+0 double-marks; spot-validated on Q1/Q92/Q97/Q102/Q104/Q108. Section map matches the 2024
+paper: Q1-26 Histology, Q27-58 Anatomy, Q59-108 Physiology.
+
+**18 authored** this slice (Q3, Q7, Q8, Q15, Q20, Q23, Q28, Q33, Q36, Q38, Q40, Q57, Q61,
+Q63, Q84, Q85, Q96, Q98) — every one a claim NOT already covered by the 2024 tranche. 0 held,
+0 excluded. ~22 stems were skipped as near-duplicates of already-authored 2024 items (e.g.
+Q11 sperm maturation=epididymis, Q13 Sertoli, Q26 secondary follicle, Q29 bladder-base
+posterior relation, Q31 perineal-membrane piercing, Q34 internal-iliac branch, Q43 rectum
+posterior relation, Q65 somatomedin C, Q69 prolactin, Q70 oxytocin, Q71 ADH, Q75 Graves,
+Q78 hormone-not-from-pituitary, Q80 pyrophosphate, Q86 Ca-organs-EXCEPT, Q88 hyperaldosteronism-
+EXCEPT, Q91 ACTH-highest, Q93 insulin-C-peptide, Q95 insulin-EXCEPT, Q97 blood-testis barrier,
+Q104 LH surge, Q107 hCG). Dup rate ~20% — well under the 60% stop threshold; the paper still
+holds many un-mined fresh stems (90 remaining) for a next slice.
+
+18 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical
+key, uppercased): 11 `CON-END-*`, 2 `CON-AND-*`, 4 `CON-GYN-*`, 1 `CON-OBS-*`, 2 `CON-FND-*`
+(collision-checked against the corpus — 0 collisions, 0 in-batch duplicates; none of the 2024
+concepts were reusable — distinct atomic claims). Filed under DIS-HIS-T03 / DIS-ANA-T05 /
+DIS-ANA-T06 / DIS-PHY-T06 with SYS-END/AND/GYN/OBS/FND cross-nav. Grouped into 6 library
+articles (endocrine-gland histology, male reproduction, female reproductive/placental histology,
+pelvis/perineum anatomy, female pelvic anatomy, general endocrine physiology). Subject tags
+endo/androl/gyn/obs/fnd.
+
+Authored in `question/207-END-2023eom-mcq.md` (from seed `seed/207-END-2023eom.json` — never
+hand-edit the emitted .md, fix the seed and re-emit), `concept/207-END-2023eom-concepts.md`,
+`article/207-END-2023eom-articles.md`. Gate-clean vs the module baseline (concept batch 0
+errors; article batch 0 errors; MCQ batch = the shared not-yet-imported resource baseline, one
+error/item, same single category the 2024 file carries; simulate created=42/rejected=0/errors=0;
+audit NEUTRAL — the same five `article.articleData.*` needs_evidence categories, no NEW-ONLY
+category).
+
+**Non-MCQ finding:** `EOY - SOLVED EOY 207-END {198}.pdf` (src_4e3adb975001d4704555, EOY 2026
+solved) was surveyed and is a **WRITTEN/essay exam** (Anatomy tables, Physiology and Histology
+short-answer) — it contains **no MCQs** and is not an MCQ source; skip it for MCQ authoring
+(belongs to the written lane). `EOY (END-207) {198 2nd}` and the `{198}` family share this
+written format.
+
+Next 207-END cluster: continue the 2023 EOM "195" paper with a second ~18-item non-duplicate
+slice (plenty of fresh stems remain — e.g. Q1 pinealocytes/oxyphil distinction, Q12 prostatic-
+cancer peripheral zone, Q14 stereocilia, Q16 seminal vesicle, Q19 lactating mammary, Q22
+secretory phase, Q27 deep-perineal-pouch, Q35 external-anal-sphincter parts, Q37 pituitary
+inferior relation, Q39 posterior fornix, Q41 broad-ligament-false, Q42 sacral-plexus, Q45
+pubovesical ligament, Q47 perineal-body muscle, Q49 prostate relations, Q51 prostatic urethra,
+Q52 uterine position, Q54 rectum length, Q59 cell-communication cytokines, Q62 receptor up-
+regulation, Q66 GH long-loop feedback, Q68 GH short-stature causes, Q72 thyroid-synthesis order,
+Q73 TSH functions, Q76 hypothyroid features, Q79 calcium distribution, Q81-83 PTH, Q90 cortisol
+metabolism, Q94 insulin-dependent glucose entry, Q99 spermatogenesis temperature, Q101 ovulation
+timing, Q105 progesterone, Q106 estrogen, Q108 menopause), then move to a fresh non-EOM keyed
+source or the 2023 EOM 195 unsolved twin only if a key can be recovered.
