@@ -26442,3 +26442,1113 @@ authored_needs_independent_evidence
 
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+
+---
+
+# Item
+## id
+CON-MUL-68CD902A3AD25C
+## label
+Marfan syndrome — ocular and systemic features
+## canonical_key
+ophthalmology.marfan-syndrome.ocular-and-systemic-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Marfan syndrome is a connective-tissue disorder with tall stature and long, slender fingers (arachnodactyly); its ocular hallmarks are superotemporal lens subluxation (ectopia lentis) and a high risk of rhegmatogenous retinal detachment. Short fingers are NOT a feature.
+## explicit_objective
+Recognise the ocular and systemic features of Marfan syndrome.
+## pitfalls
+Marfan causes arachnodactyly (long fingers), not short fingers; and its lens subluxation is superotemporal, unlike the inferonasal subluxation of homocystinuria.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal detachment
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FC03374F08ABBA
+## label
+Diabetic macular edema is the commonest cause of vision loss in diabetic retinopathy
+## canonical_key
+ophthalmology.diabetic-retinopathy.macular-oedema-commonest-cause-of-vision-loss
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diabetic macular edema — leakage of fluid with retinal thickening at the macula — is the most common cause of visual loss in diabetic retinopathy and can occur at any stage of the disease.
+## explicit_objective
+Identify diabetic macular edema as the commonest cause of visual loss in diabetic retinopathy.
+## pitfalls
+Attributing diabetic visual loss primarily to vitreous haemorrhage or disc oedema rather than macular oedema.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B71FD59C678DF1
+## label
+Night blindness results from rod photoreceptor degeneration
+## canonical_key
+ophthalmology.retinitis-pigmentosa.night-blindness-photoreceptor-degeneration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nyctalopia (night blindness) results from degeneration of the rod photoreceptors, as in retinitis pigmentosa; rods mediate vision in dim light, so their loss impairs night vision first.
+## explicit_objective
+Attribute night blindness to degeneration of the rod photoreceptors.
+## pitfalls
+Confusing rod-mediated night blindness with macular (cone) disease, which instead impairs central daytime vision.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinitis pigmentosa
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinitis pigmentosa
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2D5537A21D4226
+## label
+Iris neovascularization follows chronic retinal ischaemia
+## canonical_key
+ophthalmology.iris-neovascularisation.causes-ischaemic-retinopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Iris neovascularisation (rubeosis iridis) is driven by VEGF released from chronically ischaemic retina — as in ischaemic central retinal vein occlusion, proliferative diabetic retinopathy and carotid ocular ischaemic syndrome. Central retinal artery occlusion rarely causes it, because the inner retina infarcts rather than sustaining a chronic VEGF drive.
+## explicit_objective
+List the ischaemic retinal conditions that cause iris neovascularisation, and the exception (CRAO).
+## pitfalls
+Assuming every retinal vascular occlusion causes rubeosis; central retinal artery occlusion is a notable exception.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal vascular disease
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EF216E10015862
+## label
+Retinoblastoma presents with leukocoria
+## canonical_key
+ophthalmology.retinoblastoma.leukocoria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinoblastoma is the commonest intraocular malignancy of childhood; it typically presents with leukocoria (a white pupillary reflex) or strabismus, has a genetic basis (RB1 tumour-suppressor gene), and is treatable by chemotherapy, focal therapy, radiotherapy or enucleation.
+## explicit_objective
+Recognise leukocoria as a presenting sign of retinoblastoma.
+## pitfalls
+Believing retinoblastoma has no genetic basis or no treatment, or that it occurs in adults; it is a treatable childhood tumour.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinoblastoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinoblastoma
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0D7E346D95DE34
+## label
+Rhegmatogenous retinal detachment is caused by a retinal break and treated surgically
+## canonical_key
+ophthalmology.rhegmatogenous-retinal-detachment.retinal-tear-treated-by-surgery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rhegmatogenous retinal detachment is defined by a retinal break (tear or hole) through which fluid passes to separate the neurosensory retina from the retinal pigment epithelium; it is a surgical condition treated by vitrectomy, scleral buckling or pneumatic retinopexy.
+## explicit_objective
+State the cause (a retinal break) and the surgical treatment of rhegmatogenous retinal detachment.
+## pitfalls
+Confusing rhegmatogenous detachment with the tractional detachment of diabetes, or managing it conservatively.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal detachment
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-89DBBAE1EBCF48
+## label
+Diabetic retinopathy risk depends on duration and control of diabetes
+## canonical_key
+ophthalmology.diabetic-retinopathy.risk-duration-and-control
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The risk of diabetic retinopathy is determined by both the duration of diabetes and the quality of glycaemic control; longer disease and poorer control each independently increase the risk.
+## explicit_objective
+Recognise duration and glycaemic control as the main determinants of diabetic retinopathy risk.
+## pitfalls
+Ascribing retinopathy risk to control alone, to duration alone, or to genetic factors alone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-992B03BF5B2DA6
+## label
+Persistent vitreous hemorrhage is treated by pars plana vitrectomy
+## canonical_key
+ophthalmology.vitreous-haemorrhage.persistent-treated-by-pars-plana-vitrectomy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A vitreous haemorrhage that fails to clear (for example, persisting beyond several months) is removed surgically by pars plana vitrectomy, which also permits endolaser treatment of the underlying retinal disease.
+## explicit_objective
+Identify pars plana vitrectomy as the treatment for a non-clearing vitreous haemorrhage.
+## pitfalls
+Expecting laser or medical therapy to clear organised vitreous blood; laser cannot be delivered through dense haemorrhage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Vitreous hemorrhage
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Vitreous hemorrhage
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-6C2A7B0839154C
+## label
+Risk factors for central retinal vein occlusion
+## canonical_key
+ophthalmology.central-retinal-vein-occlusion.risk-factors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The principal risk factors for central retinal vein occlusion are systemic hypertension, diabetes mellitus and open-angle glaucoma, together with increasing age and hyperviscosity states.
+## explicit_objective
+List hypertension, diabetes and glaucoma as the principal risk factors for central retinal vein occlusion.
+## pitfalls
+Mistaking a bleeding tendency or hypotension for a risk factor; CRVO is associated with a prothrombotic, hypertensive state.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal vein occlusion
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal vein occlusion
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8AE1B2B3F2F161
+## label
+Multiple sclerosis presents with optic neuritis
+## canonical_key
+ophthalmology.multiple-sclerosis.optic-neuritis-young-female
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Optic neuritis — subacute painful loss of vision with a relative afferent pupillary defect, typically in a young woman — is a classic presenting feature of multiple sclerosis.
+## explicit_objective
+Recognise optic neuritis in a young woman as a presentation of multiple sclerosis.
+## pitfalls
+Confusing the optic neuritis of multiple sclerosis with orbital signs such as lid retraction or proptosis (thyroid eye disease).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Optic neuritis
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

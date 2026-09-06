@@ -809,3 +809,99 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 7 (The red eye) on the verified node DIS-OPH-T02 (Anterior segment). Chapter 7 has 198 keyed MCQs (answer key p.4-5). Q1-8 authored the opening slice (8 clean single-best items); eight new anterior-segment concepts added (viral conjunctivitis; miotics contraindicated in uveitis; trachoma cicatricial entropion; panuveitis causes; steroids risk perforation in viral ulcer; herpes simplex dendritic ulcer; fluorescein vital stain; corneal-ulcer treatment without patching). Q9-204 remain for later tranches (answer key omits rows Q59/Q63/Q72/Q76/Q84/Q172 - hold when reached; several are multi-statement vignettes and T/F cases for adjudication).
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-OPH-315-RETINA
+## title
+Ophthalmology: the retina (diabetic retinopathy, retinal detachment, vascular occlusions and retinoblastoma)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 8 of the question bank (The retina: function and diseases) and groups the retinal disorders tested by the opening MCQ slice (Q1-10). It covers diabetic retinopathy (whose commonest cause of visual loss is macular edema, and whose risk depends on duration and glycaemic control), the retinal detachments (rhegmatogenous detachment from a retinal break, treated surgically, versus tractional and exudative types), the retinal vascular occlusions (central retinal vein occlusion with its hypertension/diabetes/glaucoma risk factors, and central retinal artery occlusion), iris neovascularization from chronic retinal ischaemia, the management of a non-clearing vitreous haemorrhage by pars plana vitrectomy, retinoblastoma presenting with leukocoria, night blindness from rod photoreceptor degeneration, Marfan syndrome, and optic neuritis as a presentation of multiple sclerosis.
+## sections
+### Definition
+The retina is the neurosensory layer that captures light; Chapter 8 tests its vascular, degenerative and neoplastic diseases. This article gathers the opening Chapter-8 concepts on how each is recognised, what determines its risk, and how it is treated. Each linked concept states one atomic fact about the retina.
+### Mechanism
+Retinal disease in this chapter runs along a few threads: chronic hyperglycaemia damages retinal capillaries (diabetic retinopathy and its macular edema); retinal ischaemia releases VEGF that drives new vessels on the retina and iris (proliferative retinopathy, rubeosis, and after ischaemic vein occlusion or carotid disease); a retinal break lets fluid under the retina (rhegmatogenous detachment); venous or arterial occlusion infarcts or congests the retina; the rod photoreceptors degenerate (retinitis pigmentosa, night blindness); and an RB1 mutation gives rise to a childhood retinal tumour (retinoblastoma). Management follows from the mechanism — laser and anti-VEGF for ischaemic drive, vitrectomy for non-clearing haemorrhage, and surgery for a rhegmatogenous detachment.
+### Key determinants
+Discriminators tested here: diabetic macular edema (not vitreous haemorrhage or disc oedema) is the commonest cause of diabetic visual loss; diabetic retinopathy risk depends on both duration and control of diabetes; rhegmatogenous detachment is caused by a retinal break and needs surgery (whereas the diabetic detachment is tractional); iris neovascularization follows chronic ischaemia (CRVO, PDR, carotid disease) but rarely central retinal artery occlusion; CRVO risk factors are hypertension, diabetes and glaucoma; a non-clearing vitreous haemorrhage is treated by pars plana vitrectomy; retinoblastoma presents with leukocoria and is a genetic, treatable childhood tumour; night blindness reflects rod photoreceptor degeneration; and optic neuritis in a young woman suggests multiple sclerosis.
+### Clinical significance
+These facts underlie the safe recognition and referral of sight-threatening retinal disease: screening and treating diabetic maculopathy, repairing a rhegmatogenous detachment before the macula is lost, clearing a persistent vitreous haemorrhage, recognising leukocoria as a red flag for retinoblastoma, and identifying optic neuritis as a possible first presentation of multiple sclerosis.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (Marfan's arachnodactyly mistaken for short fingers, a rhegmatogenous detachment managed conservatively, central retinal artery occlusion assumed to cause rubeosis, hypotension or a bleeding tendency taken as CRVO risk factors, and retinoblastoma thought untreatable or non-genetic).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## subtopic
+The retina
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-68CD902A3AD25C
+CON-MUL-FC03374F08ABBA
+CON-MUL-B71FD59C678DF1
+CON-MUL-2D5537A21D4226
+CON-MUL-EF216E10015862
+CON-MUL-0D7E346D95DE34
+CON-MUL-89DBBAE1EBCF48
+CON-MUL-992B03BF5B2DA6
+CON-MUL-6C2A7B0839154C
+CON-MUL-8AE1B2B3F2F161
+## related_articles
+ART-OPH-315-RED-EYE
+ART-OPH-315-GLAUCOMA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 8 (The retina: function and diseases) on the verified node DIS-OPH-T04 (Retina). Chapter 8 has 88 keyed MCQs (answer key p.5-6; answer key omits rows Q14 and Q39 - hold when reached, never guess). Q1-10 authored the opening slice (10 clean single-best items); ten new retina concepts added. Q11-90 remain for later tranches (several are patient-scenario vignettes and a T/F 13-case section for adjudication).
+## reading_time
+4
