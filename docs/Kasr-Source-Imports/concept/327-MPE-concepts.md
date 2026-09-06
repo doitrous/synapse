@@ -3350,3 +3350,891 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH and the module-opening 327 MPE tranche); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior malpractice/negligence/medical-responsibility ethics record to reuse.
 resourceOccurrenceIds: Fact grounded in standard medico-legal / patient-safety teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; the two two-column items Q44/Q49 render-confirmed on p11/p12); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FFF1F06B04927F
+## label
+Repeatedly practising under the influence of alcohol is professional misconduct
+## canonical_key
+professional-conduct.misconduct.practising-under-influence-of-alcohol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A doctor who repeatedly treats patients while under the influence of alcohol is committing professional misconduct — infamous conduct in a professional respect that falls below the profession's standards and shows unfitness to practise safely. It is a disciplinary matter for the medical syndicate rather than a single act of civil negligence.
+## explicit_objective
+Classify repeatedly practising while impaired by alcohol as professional misconduct.
+## pitfalls
+Do not call it civil negligence: impairment is a disciplinary breach of professional standards judged by the syndicate, not a single negligent clinical act; dichotomy (fee-splitting) and privileged communication are unrelated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Practising while impaired
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-970A09F40E4273
+## label
+A physician's registration may be erased for a criminal offence
+## canonical_key
+professional-conduct.syndicate.registration-erased-for-criminal-offence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A physician's name may be erased (struck off) from the medical syndicate register when he is convicted of a criminal offence, because a criminal conviction demonstrates unfitness to remain on the professional register. Erasure is a disciplinary sanction reserved for serious wrongdoing such as crime or grave misconduct.
+## explicit_objective
+Identify a criminal conviction as a ground for erasing a doctor from the syndicate register.
+## pitfalls
+Owning more than one clinic, holding a private job, or reaching pension age are not disciplinary grounds for erasure; only serious wrongdoing such as a criminal offence is.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Erasure from the syndicate register
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-56AF6EE95D11E6
+## label
+Physical harassment of a patient is an assault the physician can be sued for
+## canonical_key
+medical-responsibility.assault.patient-harassment-is-assault
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Verbal and, especially, physical harassment of a patient during examination is an assault — an intentional act that threatens or inflicts unlawful physical contact, for which the physician can be sued in the courts. Assault is a deliberate wrong against the patient's person, distinct from clinical error.
+## explicit_objective
+Recognise physical harassment of a patient as an assault for which the physician can be sued.
+## pitfalls
+Do not classify a deliberate harassment as incompetence or negligence (both concern quality of care, not intentional wrongs); the specific ground for a lawsuit is assault, whereas professional misconduct is handled by the syndicate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Harassment and assault
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F333546E8D8366
+## label
+Self-advertising of professional expertise is professional misconduct
+## canonical_key
+professional-conduct.misconduct.self-advertising-of-expertise
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A doctor who repeatedly advertises his professional expertise in newspapers is committing professional misconduct, because self-promotion and soliciting patients through advertising breach the profession's ethical rules on dignified, non-commercial practice. It is judged by the syndicate as infamous conduct in a professional respect.
+## explicit_objective
+Classify self-advertising of professional expertise as professional misconduct.
+## pitfalls
+Advertising harms no single patient, so it is not civil negligence; it is not privileged communication (protected confidential information) nor dichotomy (fee-splitting) but an ethical breach of professional standards.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Self-advertising
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1CF7B49BD6FA3A
+## label
+Persistently disrespectful conduct toward patients is professional misconduct
+## canonical_key
+professional-conduct.misconduct.disrespectful-conduct-toward-patients
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A doctor who habitually makes crude jokes about patients that disturb colleagues is displaying professional misconduct — unbecoming, disrespectful behaviour that falls below the ethical standards of the profession. Professionalism requires respect and courtesy toward patients and the team, and persistent disrespect breaches that duty.
+## explicit_objective
+Classify persistently disrespectful behaviour toward patients as professional misconduct.
+## pitfalls
+Disrespectful attitude is not incompetence (a lack of skill), not malpractice, and not negligence (both concern substandard or careless treatment); it is a behavioural/ethical breach judged as misconduct.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Disrespectful conduct
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FE11F4B29C96B8
+## label
+Appeal against a professional-misconduct decision is made to the Egyptian Medical Syndicate
+## canonical_key
+professional-conduct.misconduct.appeal-made-to-medical-syndicate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An appeal against a finding of professional misconduct is made to the Egyptian Medical Syndicate, which holds disciplinary jurisdiction over its members. Because misconduct is judged within the profession's own disciplinary structure, the appeal is heard by the syndicate rather than by the general courts or the Ministry of Health.
+## explicit_objective
+State that an appeal against a professional-misconduct decision is made to the Egyptian Medical Syndicate.
+## pitfalls
+The Ministry of Health and the ordinary courts are not the appellate authorities for a professional-misconduct finding; the appeal route is specifically the syndicate, so 'all of the above' is wrong.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Appeal against misconduct
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8DBFC7998F86EE
+## label
+Professional misconduct includes immoral conduct, aiding unlicensed practice and discriminatory refusal of care
+## canonical_key
+professional-conduct.misconduct.examples-immoral-aiding-unlicensed-discrimination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Professional misconduct is a broad category that includes immoral conduct in the practice of the profession, permitting or aiding an unlicensed person to perform medical activities, and refusing a patient's service out of greed or discrimination (colour, national origin). Each of these is a recognised form of infamous professional conduct.
+## explicit_objective
+List immoral conduct, aiding unlicensed practice, and discriminatory refusal of care as forms of professional misconduct.
+## pitfalls
+None of the listed behaviours is exclusive — all are misconduct — so choosing a single example over 'all of the above' is the error the item tests.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Examples of misconduct
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2ADA6BCF9F94F8
+## label
+Disciplinary actions escalate: alarm, warning, blame, then temporary revocation
+## canonical_key
+professional-conduct.misconduct.disciplinary-action-sequence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The disciplinary actions of the medical council for a doctor's disgraceful behaviour escalate in the sequence alarm, warning, blame, then temporary revocation of the licence — running from the mildest measure to the most severe short of permanent erasure. The graduated ladder matches the sanction to the seriousness and repetition of the conduct.
+## explicit_objective
+Order the medical council's disciplinary actions: alarm, warning, blame, then temporary revocation.
+## pitfalls
+Temporary revocation is the last and most severe step, not the first; the ladder opens with an alarm/caution, not a warning or blame.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Disciplinary sequence
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## article_ids
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
+resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.

@@ -299,3 +299,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the malpractice / medical-responsibility concepts (negligence, incompetence, malpractice elements, consent, duty of care, liability) on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication), Professional-conduct node DIS-PEC-T05, reaching Patient safety DIS-PEC-T06 for the clinical transfusion/anaesthesia facts. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## title
+Professional misconduct: the syndicate's disciplinary framework
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article groups the professional-conduct facts tested by the Professional misconduct MCQs of the bank. It defines professional misconduct as infamous conduct in a professional respect, judged by the medical syndicate, and separates it from incompetence, negligence and medical malpractice. It lists recognised forms of misconduct — practising under the influence of alcohol, self-advertising of expertise, disrespectful conduct toward patients, immoral conduct in practice, aiding an unlicensed person, and discriminatory refusal of care. It sets out the disciplinary framework: the escalating ladder of sanctions (alarm, warning, blame, temporary revocation), erasure of a doctor's name from the register for a criminal offence, and the appeal against a misconduct decision being made to the Egyptian Medical Syndicate. It also fixes two discriminators the section repeatedly tests — physical harassment of a patient is an assault the physician can be sued for, and harm from persistently outdated operative technique is medical malpractice rather than misconduct.
+## sections
+### Definition
+Professional misconduct is "infamous conduct in a professional respect" — behaviour that falls below the ethical standards of the profession and is judged by the medical syndicate's disciplinary process, as distinct from incompetence (lack of skill/knowledge), negligence (careless substandard care) and medical malpractice (substandard treatment that harms a patient).
+### Mechanism
+Misconduct is handled within the profession's own disciplinary structure. The medical council escalates sanctions for disgraceful behaviour through a graduated ladder — alarm, then warning, then blame, then temporary revocation of the licence — and an appeal against a misconduct decision is made to the Egyptian Medical Syndicate rather than to the courts or the Ministry of Health. A doctor's name may be erased from the register for serious wrongdoing such as a criminal conviction.
+### Key determinants
+Recognised forms of misconduct tested here: practising while impaired by alcohol; self-advertising of expertise; persistently disrespectful conduct toward patients; immoral conduct in practice; aiding an unlicensed person; and discriminatory refusal of care. Two discriminators recur — a deliberate physical harassment of a patient is an assault the physician can be sued for (a court action, not a disciplinary matter), and harmful use of outdated operative technique is medical malpractice (substandard care that injures) rather than misconduct.
+### Clinical significance
+Distinguishing misconduct from malpractice, negligence and incompetence tells a doctor which failures are disciplinary (syndicate) and which are legal (court), and frames the duties of dignified practice, fitness for duty, respect for patients, and non-discrimination that protect patients and the profession.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (impairment or advertising read as civil negligence, disrespect read as incompetence, harassment treated as a disciplinary matter rather than an assault, or temporary revocation placed first in the disciplinary ladder).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Professional misconduct
+## subtopic
+Professional misconduct and syndicate discipline
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-FFF1F06B04927F
+CON-MUL-970A09F40E4273
+CON-MUL-56AF6EE95D11E6
+CON-MUL-F333546E8D8366
+CON-MUL-C88F76100B04D9
+CON-MUL-1CF7B49BD6FA3A
+CON-MUL-FE11F4B29C96B8
+CON-MUL-8DBFC7998F86EE
+CON-MUL-2ADA6BCF9F94F8
+## related_articles
+ART-MPE-327-MALPRACTICE
+ART-MPE-327-MEDICAL-ERROR-TAXONOMY
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the professional-misconduct concepts (impairment, self-advertising, disrespect, erasure grounds, appeal route, disciplinary sequence, misconduct examples) plus the harassment-as-assault and outdated-technique-as-malpractice discriminators on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication), Professional-conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node. Reuses CON-MUL-C88F76100B04D9 (outdated-technique harm) from the malpractice tranche.
+## reading_time
+6

@@ -1,0 +1,329 @@
+{
+  "lane": "KASR327MPE",
+  "cluster": "professional-misconduct",
+  "header": "Kasr Al Ainy 327 MPE Ethics (Year 3) · Professional misconduct section MCQs (Q89-Q103) from the MPE 327 PY Answered previous-years question bank (student compilation, native text). Correct answers from the yellow-highlight fill on the correct option (pagetext keys), each cross-checked against the printed option text and corroborated by the section's own T/F sentences (Q109 confirms temporary revocation is NOT first; Q111 confirms appeal is to the syndicate). This seed authors the 9 UNIQUE MCQs (Q89,90,91,92,96,97,101,102,103); 6 in-section exact/reordered/same-fact duplicates are held (Q93,94,95,98,99,100) and the 8 True/False sentences (Q104-Q111) excluded. Ethics has no body-system code, so concepts are CON-MUL- / subject mul, filed on the real DIS-PEC discipline hub at DIS-PEC-T05 (Professional conduct).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "327 MPE",
+    "module_subject": "327 MPE > Medical Professionalism & Ethics > Professional misconduct",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "topic": "Medical Professionalism & Ethics",
+    "question_only_for": "",
+    "library_ids": ["ART-MPE-327-PROFESSIONAL-MISCONDUCT"],
+    "resource_ids": ["src_d21e884926be1b92ec4a"],
+    "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Professional misconduct section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+    "setting": "Academic",
+    "exam_relevance": 5,
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "professional-misconduct-q89",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q89",
+      "page": 20,
+      "title": "Repeatedly practising under the influence of alcohol",
+      "question": "A doctor repeatedly treating his patient under the influence of alcohol is doing:",
+      "options": {
+        "A": "Civil negligence",
+        "B": "Dichotomy",
+        "C": "Privileged communication",
+        "D": "Professional misconduct"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Civil negligence is a careless breach of the duty of care that harms a specific patient; repeatedly practising while intoxicated is judged as a disciplinary breach of professional standards rather than as a single negligent clinical act.",
+        "B": "Incorrect. Dichotomy (fee-splitting) is the unethical sharing of fees in return for patient referral; it has nothing to do with practising under the influence of alcohol.",
+        "C": "Incorrect. Privileged communication refers to legally protected confidential information between doctor and patient; it is not a form of wrongdoing at all.",
+        "D": "Correct. Repeatedly treating patients while under the influence of alcohol is professional misconduct — infamous conduct in a professional respect that falls below the standards expected of the profession. It reflects a pattern of unfitness to practise safely and is handled by the medical syndicate's disciplinary process rather than as a single act of civil negligence. Practising while impaired endangers every patient seen and breaches the doctor's ethical duty to be fit for duty."
+      },
+      "main_concept": "CON-MUL-FFF1F06B04927F",
+      "concept_ids": ["CON-MUL-FFF1F06B04927F"],
+      "subtopic": "Practising while impaired",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify repeatedly practising under the influence of alcohol as professional misconduct.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q93 repeats this alcohol item (held)"
+      }
+    },
+    {
+      "key": "professional-misconduct-q90",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q90",
+      "page": 20,
+      "title": "Ground for erasing a physician's registration",
+      "question": "A physician's registration may be erased from the medical syndicate if he:",
+      "options": {
+        "A": "Has more than one clinic.",
+        "B": "Is involved in a private job.",
+        "C": "Committed a criminal offence.",
+        "D": "Reached the age of pension."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Owning more than one clinic is permitted and is not a ground for erasing a physician's name from the register.",
+        "B": "Incorrect. Holding a private job alongside practice is not, by itself, a disciplinary ground for erasure from the syndicate register.",
+        "C": "Correct. A physician's name may be erased (struck off) from the medical syndicate register when he is convicted of a criminal offence, because a criminal conviction demonstrates unfitness to remain on the professional register. Erasure is a disciplinary sanction reserved for serious wrongdoing such as crime or grave professional misconduct, not for ordinary administrative facts. It removes the legal right to practise.",
+        "D": "Incorrect. Reaching pension age ends active service but does not erase the doctor's name from the register as a disciplinary measure."
+      },
+      "main_concept": "CON-MUL-970A09F40E4273",
+      "concept_ids": ["CON-MUL-970A09F40E4273"],
+      "subtopic": "Erasure from the syndicate register",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise a criminal conviction as a ground for erasing a doctor from the medical syndicate register.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[196 1st]",
+        "sourceDuplicates": "Q95/Q98 repeat this erasure item (held); Q110 T/F excluded"
+      }
+    },
+    {
+      "key": "professional-misconduct-q91",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q91",
+      "page": 20,
+      "title": "Physical harassment of a patient during examination",
+      "question": "During examination, a female patient experienced verbal and physical harassment by the physician. She filed a complaint against him. The physician can be sued for which of the following?",
+      "options": {
+        "A": "Assault",
+        "B": "Incompetence",
+        "C": "Negligence",
+        "D": "Professional misconduct"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Verbal and, especially, physical harassment of a patient during examination is an assault — an intentional act that threatens or inflicts unlawful physical contact, for which the physician can be sued in the courts. Assault is a criminal and civil wrong distinct from clinical error, because it is a deliberate violation of the patient's person rather than a lapse of care. The patient's complaint therefore founds a legal action for assault.",
+        "B": "Incorrect. Incompetence is a lack of reasonable skill or knowledge in providing care; harassment is a deliberate wrongful act, not a deficiency of clinical ability.",
+        "C": "Incorrect. Negligence is a careless failure to meet the standard of care; harassment is intentional misconduct, not carelessness, so it is not negligence.",
+        "D": "Incorrect. Although harassment is also unprofessional, the specific ground on which the physician can be sued in court is assault; professional misconduct is dealt with by the syndicate's disciplinary process rather than by a lawsuit."
+      },
+      "main_concept": "CON-MUL-56AF6EE95D11E6",
+      "concept_ids": ["CON-MUL-56AF6EE95D11E6"],
+      "subtopic": "Harassment as assault",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify physical harassment of a patient as an assault for which the physician can be sued.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[195 1st]"
+      }
+    },
+    {
+      "key": "professional-misconduct-q92",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q92",
+      "page": 20,
+      "title": "Advertising one's expertise in newspapers",
+      "question": "A doctor repeatedly advertising about his professional expertise in a newspaper is doing a:",
+      "options": {
+        "A": "Privileged communication.",
+        "B": "Civil negligence.",
+        "C": "Dichotomy.",
+        "D": "Professional misconduct."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Privileged communication is protected confidential doctor-patient information; it is unrelated to advertising.",
+        "B": "Incorrect. Civil negligence is a careless breach of the duty of care that harms a patient; self-advertising harms no individual patient and is instead an ethical breach.",
+        "C": "Incorrect. Dichotomy is fee-splitting for referrals; it is a different offence from advertising one's expertise.",
+        "D": "Correct. A doctor who repeatedly advertises his professional expertise in newspapers is committing professional misconduct, because self-promotion and soliciting patients through advertising breach the profession's ethical rules on dignified, non-commercial practice. Such conduct is judged by the medical syndicate as infamous conduct in a professional respect. It is an offence against professional standards rather than a civil wrong against a particular patient."
+      },
+      "main_concept": "CON-MUL-F333546E8D8366",
+      "concept_ids": ["CON-MUL-F333546E8D8366"],
+      "subtopic": "Self-advertising",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify self-advertising of professional expertise as professional misconduct.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[194 1st]",
+        "sourceDuplicates": "Q94 repeats this advertising item with reordered options (held)"
+      }
+    },
+    {
+      "key": "professional-misconduct-q96",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q96",
+      "page": 21,
+      "title": "Senior surgeon persisting with outdated operative technique",
+      "question": "Dr. X is alarmed by the behavior of the senior surgeon in the operating room. The surgeon uses out-of-date techniques that prolong operations and result in greater post-operative pain and longer recovery time. This case is an example of:",
+      "options": {
+        "A": "Medical malpractice.",
+        "B": "Professional Misconduct.",
+        "C": "Negligence",
+        "D": "Incompetence."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A surgeon who uses out-of-date techniques that prolong operations and cause greater pain and slower recovery is committing medical malpractice — substandard professional treatment that harms patients. Malpractice is the umbrella term for care that falls below the accepted standard and injures the patient, which is exactly what outdated, harmful operative technique does. The demonstrable harm (added pain, longer recovery) is the injury that makes it malpractice rather than a mere ethical lapse.",
+        "B": "Incorrect. Professional misconduct covers ethical or disciplinary offences (advertising, impairment, dishonesty); using outmoded surgical technique is a failure of clinical standard that harms patients, i.e. malpractice, not an ethics offence.",
+        "C": "Incorrect. Negligence can be one element underlying malpractice, but the best single description of substandard technique that injures patients is medical malpractice; here the pattern of harmful practice is the malpractice itself.",
+        "D": "Incorrect. Incompetence is a lack of skill or knowledge; a senior surgeon who is capable but persists with outdated methods is delivering substandard care (malpractice) rather than simply lacking ability."
+      },
+      "main_concept": "CON-MUL-C88F76100B04D9",
+      "concept_ids": ["CON-MUL-C88F76100B04D9"],
+      "library_ids": ["ART-MPE-327-MEDICAL-ERROR-TAXONOMY"],
+      "subtopic": "Outdated technique as malpractice",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise harm from persistently outdated operative technique as medical malpractice.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[192 2nd]",
+        "conceptReuse": "reuses CON-MUL-C88F76100B04D9 (outdated-technique harm) from the medical-errors/malpractice tranche",
+        "sourceDuplicates": "Q99 repeats this outdated-technique item (held)"
+      }
+    },
+    {
+      "key": "professional-misconduct-q97",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q97",
+      "page": 22,
+      "title": "Crude jokes about patients that disturb colleagues",
+      "question": "Dr. X is accustomed to make frequent crude jokes about the patients that obviously bother the assisting nurses. This attitude is considered:",
+      "options": {
+        "A": "Incompetence",
+        "B": "Medical malpractice.",
+        "C": "Negligence",
+        "D": "Professional misconduct."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Incompetence is a lack of skill or knowledge; making crude jokes reflects unprofessional behaviour, not a deficiency of clinical ability.",
+        "B": "Incorrect. Medical malpractice is substandard treatment that harms a patient; distasteful jokes do not constitute negligent or harmful treatment.",
+        "C": "Incorrect. Negligence is a careless failure in the standard of care causing harm; offensive jokes are an attitude and behaviour problem, not a lapse in clinical care.",
+        "D": "Correct. A doctor who habitually makes crude jokes about patients that disturb colleagues is displaying professional misconduct — conduct that is unbecoming and disrespectful and falls below the ethical standards of the profession. Professionalism requires respect and courtesy toward patients and the healthcare team, and persistently disrespectful conduct breaches that duty. It is a disciplinary and ethical matter judged as misconduct rather than a clinical error."
+      },
+      "main_concept": "CON-MUL-1CF7B49BD6FA3A",
+      "concept_ids": ["CON-MUL-1CF7B49BD6FA3A"],
+      "subtopic": "Disrespectful conduct",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify persistently disrespectful behaviour toward patients as professional misconduct.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[192 1st]",
+        "sourceDuplicates": "Q100 repeats this crude-jokes item with reordered options (held)"
+      }
+    },
+    {
+      "key": "professional-misconduct-q101",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q101",
+      "page": 23,
+      "title": "Appellate body for a professional-misconduct decision",
+      "question": "Appeal against the professional misconduct is made to:",
+      "options": {
+        "A": "Egyptian medical syndicate.",
+        "B": "Ministry of health.",
+        "C": "The court.",
+        "D": "All of the above."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. An appeal against a finding of professional misconduct is made to the Egyptian Medical Syndicate, which holds disciplinary jurisdiction over its members. Because professional misconduct is judged within the profession's own disciplinary structure, the appeal is heard by the syndicate rather than by the general courts or the ministry. The syndicate's disciplinary bodies both impose and review sanctions against doctors.",
+        "B": "Incorrect. The Ministry of Health administers health services but is not the appellate body for a professional-misconduct decision, which lies with the syndicate.",
+        "C": "Incorrect. The ordinary court handles criminal and civil suits, not the internal disciplinary appeal against a professional-misconduct finding.",
+        "D": "Incorrect. Since the correct route is specifically the syndicate, 'all of the above' is wrong; the ministry and the court are not the appellate authorities here."
+      },
+      "main_concept": "CON-MUL-FE11F4B29C96B8",
+      "concept_ids": ["CON-MUL-FE11F4B29C96B8"],
+      "subtopic": "Appeal against misconduct",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that an appeal against a professional-misconduct decision is made to the Egyptian Medical Syndicate.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[Dep Revision]",
+        "corroboration": "Q111 T/F confirms appeal is to the Medical Syndicate (key True)"
+      }
+    },
+    {
+      "key": "professional-misconduct-q102",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q102",
+      "page": 23,
+      "title": "What professional misconduct includes",
+      "question": "Professional misconduct includes:",
+      "options": {
+        "A": "Immoral conduct in the practice of the profession.",
+        "B": "Permitting or aiding an unlicensed person to perform activities without a license.",
+        "C": "Refusing a client or patient's service because of greed, color or national origin.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect on its own. Immoral conduct in practice is indeed professional misconduct, but it is only one of the listed examples, so it cannot be the complete answer.",
+        "B": "Incorrect on its own. Permitting or aiding an unlicensed person to practise is professional misconduct, but it is not the only correct example listed.",
+        "C": "Incorrect on its own. Refusing a patient's service out of greed or discrimination (colour, national origin) is professional misconduct, yet it too is only one instance among the options.",
+        "D": "Correct. Professional misconduct is a broad category that includes all of these: immoral conduct in the practice of the profession, permitting or aiding an unlicensed person to perform medical activities, and refusing a patient's service out of greed or discrimination. Because each listed behaviour is a recognised form of infamous professional conduct, 'all of the above' is the complete answer. The heading of misconduct groups these diverse ethical breaches together."
+      },
+      "main_concept": "CON-MUL-8DBFC7998F86EE",
+      "concept_ids": ["CON-MUL-8DBFC7998F86EE"],
+      "subtopic": "Examples of misconduct",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "List immoral conduct, aiding unlicensed practice, and discriminatory refusal of care as forms of professional misconduct.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[Dep Revision]"
+      }
+    },
+    {
+      "key": "professional-misconduct-q103",
+      "id": "QST-KASR327MPE-PROFESSIONAL-MISCONDUCT-Q103",
+      "page": 23,
+      "title": "Sequence of disciplinary actions for disgraceful behaviour",
+      "question": "The disciplinary actions of the medical council in case of disgraceful behavior of a doctor are taken in the following sequence:",
+      "options": {
+        "A": "Alarm, warning, blame & temporary revocation.",
+        "B": "Temporary revocation, alarm, warning & blame.",
+        "C": "Blame, alarm, warning & temporary revocation.",
+        "D": "Warning, blame, alarm, & temporary revocation."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The disciplinary actions of the medical council for a doctor's disgraceful behaviour escalate in the sequence alarm, warning, blame, then temporary revocation of the licence. The order runs from the mildest measure (an alarm or caution) through warning and blame to the most severe short of permanent erasure (temporary suspension). This graduated ladder matches the sanction to the seriousness and repetition of the conduct.",
+        "B": "Incorrect. Temporary revocation is the most severe step and cannot come first; the sanctions begin with the mildest measure.",
+        "C": "Incorrect. Blame is not the first action; the ladder opens with an alarm or caution before blame.",
+        "D": "Incorrect. The correct opening step is the alarm, not a warning; this option also misorders the early sanctions."
+      },
+      "main_concept": "CON-MUL-2ADA6BCF9F94F8",
+      "concept_ids": ["CON-MUL-2ADA6BCF9F94F8"],
+      "subtopic": "Disciplinary sequence",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Order the medical council's disciplinary actions: alarm, warning, blame, then temporary revocation.",
+      "field_notes": {
+        "keySource": "yellow-highlight fill",
+        "batchTag": "[Dep Revision]",
+        "corroboration": "Q109 T/F confirms temporary revocation is NOT the first action (key False)"
+      }
+    },
+    { "key": "professional-misconduct-q93", "hold": "exact in-section duplicate of Q89 (repeatedly practising under the influence of alcohol = professional misconduct; key D) — authored once as Q89" },
+    { "key": "professional-misconduct-q94", "hold": "same-fact duplicate of Q92 with reordered options (newspaper self-advertising = professional misconduct; key D) — authored once as Q92" },
+    { "key": "professional-misconduct-q95", "hold": "exact in-section duplicate of Q90 (registration erased for a criminal offence; key C) — authored once as Q90" },
+    { "key": "professional-misconduct-q98", "hold": "exact in-section duplicate of Q90 (registration erased for a criminal offence; key C) — authored once as Q90" },
+    { "key": "professional-misconduct-q99", "hold": "exact in-section duplicate of Q96 (senior surgeon's outdated technique = medical malpractice; key A) — authored once as Q96" },
+    { "key": "professional-misconduct-q100", "hold": "same-fact duplicate of Q97 with reordered options (crude jokes about patients = professional misconduct; key B) — authored once as Q97" }
+  ]
+}

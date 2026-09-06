@@ -3,6 +3,7 @@
 | ems | 1 | 0 | 0 | 1 |
 | malpractice | 19 | 13 | 0 | 32 |
 | medical-errors | 15 | 7 | 0 | 22 |
+| professional-misconduct | 9 | 6 | 0 | 15 |
 
 ## Held
 - malpractice-q46 — exact in-section duplicate of Q40 (lack of reasonable skills or knowledge = incompetence; key B) — authored once as Q40
@@ -25,6 +26,12 @@
 - medical-errors-q17 — exact in-section duplicate of Q12 (medication orders should not; key A) — authored once as Q12
 - medical-errors-q19 — in-section duplicate of Q5 (surgeon used old techniques); additionally no yellow-highlight fill detected on it
 - medical-errors-q15 — two-correct-answer stem: 'example of a pre-analytical laboratory error' with both (b) wrong sample collected [printed key B] and (c) samples mixed up being pre-analytical — cannot write an honest single-best distractor for C; held per never-guess/never-mislead
+- professional-misconduct-q93 — exact in-section duplicate of Q89 (repeatedly practising under the influence of alcohol = professional misconduct; key D) — authored once as Q89
+- professional-misconduct-q94 — same-fact duplicate of Q92 with reordered options (newspaper self-advertising = professional misconduct; key D) — authored once as Q92
+- professional-misconduct-q95 — exact in-section duplicate of Q90 (registration erased for a criminal offence; key C) — authored once as Q90
+- professional-misconduct-q98 — exact in-section duplicate of Q90 (registration erased for a criminal offence; key C) — authored once as Q90
+- professional-misconduct-q99 — exact in-section duplicate of Q96 (senior surgeon's outdated technique = medical malpractice; key A) — authored once as Q96
+- professional-misconduct-q100 — same-fact duplicate of Q97 with reordered options (crude jokes about patients = professional misconduct; key B) — authored once as Q97
 
 ## Remaining
 (none)
