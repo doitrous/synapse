@@ -22342,3 +22342,1447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q8) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-9384A56F70F1C3
+## label
+Vernal keratoconjunctivitis (spring catarrh) is a seasonal allergic conjunctivitis with cobblestone papillae
+## canonical_key
+ophthalmology.vernal-keratoconjunctivitis.seasonal-allergic-cobblestone-papillae
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vernal keratoconjunctivitis (spring catarrh) is a seasonal, warm-weather allergic conjunctivitis of children and young adults that affects both the conjunctiva and the cornea. It is a hypersensitivity reaction, not an autoimmune disease, and produces intense itching, a ropy discharge and giant cobblestone papillae on the upper tarsal conjunctiva.
+## explicit_objective
+Recognise vernal keratoconjunctivitis as a seasonal allergic conjunctivitis with giant cobblestone papillae affecting conjunctiva and cornea.
+## pitfalls
+Calling it autoimmune, or treating it with long courses of topical steroids (which risk glaucoma and cataract); the lesions are cobblestone papillae, not follicles.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Vernal keratoconjunctivitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Vernal keratoconjunctivitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q9/Q22) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-722BEF1C7D0502
+## label
+Behcet disease causes iritis, hypopyon, panuveitis and oro-genital ulcers
+## canonical_key
+ophthalmology.behcet-disease.iritis-hypopyon-panuveitis-orogenital-ulcers
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Behcet disease is a systemic vasculitis of young adult males whose ocular hallmark is a recurrent iritis with a mobile hypopyon and a panuveitis, occurring together with oral and genital ulcers. Vision may also be lost from optic-nerve involvement (papillopathy) and occlusive retinal vasculitis, and it is treated with steroids and systemic immunosuppression.
+## explicit_objective
+Recognise the ocular and systemic features of Behcet disease, including hypopyon uveitis and papillopathy.
+## pitfalls
+Confusing it with Vogt-Koyanagi-Harada (vitiligo, poliosis, alopecia); expecting old-age onset or carbonic-anhydrase-inhibitor treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q11/Q12) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BA07E6A638DB51
+## label
+Glaukomflecken are anterior lens opacities that follow acute angle-closure glaucoma
+## canonical_key
+ophthalmology.glaukomflecken.acute-angle-closure-glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glaukomflecken are small grey-white anterior subcapsular lens opacities produced by ischaemic infarction of the lens epithelium during the pressure spike of an acute angle-closure glaucoma attack. They are a permanent marker that a previous acute attack has occurred.
+## explicit_objective
+Recognise glaukomflecken as lens opacities left by an attack of acute angle-closure glaucoma.
+## pitfalls
+Attributing glaukomflecken to congenital, traumatic or hypermature cataract rather than to an angle-closure attack.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q15) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D6E127443B062C
+## label
+Acute angle-closure glaucoma is treated with miotics and pressure-lowering, not antibiotics
+## canonical_key
+ophthalmology.acute-angle-closure-glaucoma.treatment-miotics-not-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute angle-closure glaucoma is a pressure emergency treated by hospitalization, urgent pressure-lowering with a topical miotic (pilocarpine) plus systemic agents, and a definitive laser or surgical iridotomy. Mydriatics are contraindicated because they worsen the angle closure, and antibiotics have no role because it is not an infection.
+## explicit_objective
+State that acute angle-closure glaucoma is treated with miotics, pressure-lowering and iridotomy, not with antibiotics or mydriatics.
+## pitfalls
+Giving mydriatics (which worsen closure) or antibiotics (no role); forgetting the definitive iridotomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Angle-closure glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Angle-closure glaucoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q16/Q28) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-227CA5096BC668
+## label
+Ciliary (circumcorneal) injection is a sign of intraocular or corneal inflammation, not conjunctivitis
+## canonical_key
+ophthalmology.ciliary-injection.circumcorneal-in-iritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ciliary (circumcorneal) injection is a deep, violaceous flush of the vessels around the limbus that signals intraocular or corneal inflammation. It is seen in acute iritis/iridocyclitis, acute angle-closure glaucoma and corneal ulcer, and differs from the superficial, brick-red conjunctival injection of conjunctivitis.
+## explicit_objective
+Recognise ciliary injection as a sign of iritis, angle-closure and corneal ulcer, distinct from the conjunctival injection of conjunctivitis.
+## pitfalls
+Mistaking ciliary injection for conjunctivitis, or assuming it is absent in angle-closure glaucoma or corneal ulcer.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ciliary injection
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Ciliary injection
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q17/Q27) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-51C3E827846F5E
+## label
+Acanthamoeba (protozoal) keratitis is a painful infection of contact-lens wearers
+## canonical_key
+ophthalmology.acanthamoeba-keratitis.painful-contact-lens-wearers
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acanthamoeba (protozoal) keratitis is a severe corneal infection that occurs characteristically in contact-lens wearers, especially with poor hygiene or exposure to contaminated water. It causes severe pain out of proportion to the clinical signs because the organism attacks the corneal nerves, and it is notoriously difficult to treat.
+## explicit_objective
+Recognise Acanthamoeba keratitis as a painful, hard-to-treat infection of contact-lens wearers.
+## pitfalls
+Dismissing it as a mild or painless infection, or treating contact-lens wear as a remedy rather than the risk factor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Acanthamoeba keratitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Acanthamoeba keratitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q19/Q26) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1ED9C5AE54012E
+## label
+Fungal keratitis is treated with an antifungal such as fluconazole
+## canonical_key
+ophthalmology.fungal-keratitis.treated-with-antifungal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fungal keratitis is a corneal infection treated with antifungal agents such as topical natamycin or voriconazole and azoles like fluconazole. Antibacterials such as vancomycin and ceftazidime, and antivirals such as trifluridine, are ineffective against fungi.
+## explicit_objective
+Select an antifungal agent as the treatment of fungal keratitis.
+## pitfalls
+Reaching for an antibacterial or antiviral drug for a fungal infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Fungal keratitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Fungal keratitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1F059B701412E8
+## label
+A pterygium is a triangular conjunctival encroachment onto the cornea
+## canonical_key
+ophthalmology.pterygium.triangular-conjunctival-encroachment-on-cornea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A pterygium is a triangular, wing-shaped fibrovascular fold of bulbar conjunctiva that grows across the cornea, usually from the nasal side, and is related to chronic ultraviolet, wind and dust exposure. Its apex encroaches onto the cornea and can induce astigmatism or obstruct the pupil.
+## explicit_objective
+Identify a pterygium as a triangular conjunctival encroachment onto the cornea.
+## pitfalls
+Confusing it with a symblepharon (conjunctival adhesion) or a phlyctenular nodule.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pterygium
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Pterygium
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q21) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-49617C7535B619
+## label
+Anterior uveitis can be caused by systemic disease such as tuberculosis
+## canonical_key
+ophthalmology.anterior-uveitis.causes-include-tuberculosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Anterior uveitis (iritis/iridocyclitis) has many systemic associations, including infective causes such as tuberculosis, sarcoidosis and syphilis and immune-mediated causes such as HLA-B27 disease. Systemic hypertension, thyrotoxicosis and myasthenia gravis are not causes of uveitis.
+## explicit_objective
+Recognise tuberculosis among the systemic causes of anterior uveitis.
+## pitfalls
+Attributing uveitis to hypertension, thyrotoxicosis or myasthenia, which cause other eye problems.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q23) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C7D0D9BAA95808
+## label
+Vogt-Koyanagi-Harada syndrome causes uveitis with vitiligo and poliosis
+## canonical_key
+ophthalmology.vogt-koyanagi-harada.uveitis-with-vitiligo-poliosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vogt-Koyanagi-Harada syndrome is a bilateral granulomatous panuveitis caused by an autoimmune reaction against melanocytes, accompanied by poliosis, vitiligo, alopecia and meningism. Uveitis associated with vitiligo therefore points to this syndrome.
+## explicit_objective
+Associate uveitis with vitiligo and poliosis with Vogt-Koyanagi-Harada syndrome.
+## pitfalls
+Confusing it with Behcet disease (oro-genital ulcers) or attributing vitiligo-associated uveitis to toxoplasmosis or HLA-B27 disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Uveitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Uveitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q24) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-80426E4AAA24F7
+## label
+Rose Bengal stains the devitalised cells of a viral (herpetic) corneal ulcer
+## canonical_key
+ophthalmology.rose-bengal-stain.viral-corneal-ulcer
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rose Bengal is a vital stain that colours devitalised epithelial cells and mucus, so it highlights the cells at the margins of a herpetic (viral) dendritic corneal ulcer and is also used in dry eye. It complements fluorescein, which pools in and stains the bare ulcer bed.
+## explicit_objective
+Recognise Rose Bengal as the stain that highlights the devitalised cells of a viral corneal ulcer.
+## pitfalls
+Confusing Rose Bengal (devitalised cells) with fluorescein (epithelial defect and ulcer bed).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Corneal ulcer
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q30) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8B2B05589FF2D5
+## label
+Intracranial complications of orbital cellulitis are meningitis, brain abscess and cavernous sinus thrombosis
+## canonical_key
+ophthalmology.orbital-cellulitis.intracranial-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bacterial orbital cellulitis can spread intracranially to cause meningitis, a cerebral (brain) abscess and cavernous sinus thrombosis. A brain tumour is a neoplasm and is not a complication of the infection.
+## explicit_objective
+List meningitis, brain abscess and cavernous sinus thrombosis as intracranial complications of orbital cellulitis.
+## pitfalls
+Including a brain tumour, which is a neoplasm and not an infective complication.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Orbital cellulitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Orbital cellulitis
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q32) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-95E3B9FBDDD9DD
+## label
+Trachoma produces follicles on the upper palpebral (tarsal) conjunctiva
+## canonical_key
+ophthalmology.trachoma.upper-tarsal-follicles
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trachoma, a chronic chlamydial conjunctivitis, characteristically produces follicles on the upper palpebral (tarsal) conjunctiva, later followed by scarring, entropion and pannus. Vernal disease by contrast gives papillae, not follicles, on the upper tarsus.
+## explicit_objective
+Recognise upper palpebral (tarsal) follicles as a sign of trachoma.
+## pitfalls
+Confusing trachomatous follicles with the giant papillae of vernal disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Trachoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The red eye > Trachoma
+## article_ids
+ART-OPH-315-RED-EYE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.7 The red eye, Q33) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
