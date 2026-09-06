@@ -71,3 +71,26 @@ Q22 — near-identical to Q20 (same four options, same printed key C); the diffe
 Q30 — exact in-source duplicate of Q27 ("Cholesteatoma is characterized by", identical five options, same key E) — held.
 
 # Q19-48 tranche: 28 authored (Q19-21,23-29,31-48), 2 held (Q22, Q30). Remaining Ear: Q49-102 (keys above).
+
+
+# ============================================================================
+# NOSE section (Q1-80) — SECTION OPENED 2026-09-06
+# Stems: native text, bank pp.21-34 (PDF p21-34). Keys: section-end PRINTED
+#   ANSWER KEY grid, a page IMAGE at PDF p35, rendered once at 220 dpi and read
+#   visually (top+bottom crops re-read to confirm every letter); each key is to
+#   be cross-checked against the printed option text of its own stem before use.
+# Nose concepts filed on the real discipline node DIS-ENT-T02 "Nose and sinuses"
+#   (core definitions on DIS-ENT-T02-S01 "Core principles", clinical facts on
+#   DIS-ENT-T02-S02 "Applied / clinical correlations") — the exact Ear pattern
+#   one topic over. Minted CON-MUL- / ## subject = mul (ENT has no body-system code).
+Q1.c   Q2.b   Q3.a   Q4.b   Q5.c   Q6.b   Q7.c   Q8.b   Q9.c   Q10.c
+Q11.d  Q12.c  Q13.a  Q14.a  Q15.a  Q16.b  Q17.c  Q18.b  Q19.c  Q20.a
+Q21.c  Q22.a  Q23.c  Q24.c  Q25.d  Q26.d  Q27.b  Q28.d  Q29.e  Q30.c
+Q31.e  Q32.c  Q33.c  Q34.b  Q35.a  Q36.c  Q37.a  Q38.c  Q39.c  Q40.d
+Q41.d  Q42.d  Q43.d  Q44.c  Q45.d  Q46.d  Q47.a  Q48.d  Q49.b  Q50.b
+Q51.d  Q52.e  Q53.e  Q54.b  Q55.b  Q56.d  Q57.d  Q58.c  Q59.c  Q60.a
+Q61.c  Q62.a  Q63.b  Q64.d  Q65.b  Q66.a  Q67.a  Q68.b  Q69.b  Q70.b
+Q71.a  Q72.d  Q73.b  Q74.c  Q75.c  Q76.e  Q77.e  Q78.c  Q79.d  Q80.d
+# Nose grid captured in full (Q1-80) so it need not be re-rendered. Authoring
+#   proceeds Q1 onward; per-key cross-check notes and HELD items recorded as the
+#   MCQ slices land (see 316-ENT-nose-mcq.md / coverage/seeds/316-ENT/nose.json).
