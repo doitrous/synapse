@@ -709,3 +709,91 @@ university_notes: No department book PDF was located/read this pass -- written f
 ## reading_time
 6
 
+---
+
+# Item
+## id
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## title
+Female reproductive physiology: ovulation, ovarian steroids and menopause
+## subject
+gyn
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+This article groups the female reproductive physiology items tested by the 2023 EOM paper. Ovulation occurs about 14 days before the next menstruation because the luteal phase is of fixed length. Progesterone is thermogenic and quietens the uterus, estrogen drives ovarian follicle growth and the proliferative endometrium, and the estrogen withdrawal of menopause raises osteoclast activity to cause osteoporosis.
+## sections
+### Definition
+A grouping of the ovulation-timing, progesterone, estrogen and menopause items; each linked concept carries one atomic claim.
+### Mechanism
+The luteal phase is of near-constant length, so ovulation falls about 14 days before the next period, triggered by the mid-cycle LH surge. Progesterone from the corpus luteum raises basal body temperature and relaxes the myometrium; estrogen drives granulosa-cell proliferation, follicular growth and the proliferative endometrium with thin alkaline cervical mucus. At menopause estrogen loss removes the brake on osteoclasts, causing bone resorption.
+### Key determinants
+Discriminators tested here: ovulation is 14 days before menstruation; progesterone is thermogenic; estrogen promotes ovarian follicle growth; and menopause increases osteoclast activity to cause osteoporosis.
+### Clinical significance
+These principles underlie fertility-awareness timing of ovulation, the basal-temperature method, the endometrial effects that guide hormonal therapy, and the recognition and prevention of postmenopausal osteoporosis.
+### Common misconceptions
+See each concept's pitfalls; distractors time ovulation before the LH surge, give progesterone a uterine-contraction or ovulation-inducing role, or expect preserved cycles and cardio-protection at menopause.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## subtopic
+Ovulation, ovarian steroids and menopause
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## related_concepts
+CON-GYN-19D8C2130369C0
+CON-GYN-E1679A5CC87819
+CON-GYN-653A4F2B57FEF8
+CON-GYN-185665DCCEC9BE
+## related_articles
+
+## resource_ids
+src_bb589c39762100585461
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stems and options (2023 EOM 195, native text; printed answer table p.19).
+## reading_time
+6

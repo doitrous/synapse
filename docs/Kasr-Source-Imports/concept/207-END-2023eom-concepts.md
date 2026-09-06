@@ -4036,3 +4036,1682 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
 
+---
+
+# Item
+## id
+CON-AND-B57CABC89BCE42
+## label
+Stereocilia begin to disappear in the ductus (vas) deferens
+## canonical_key
+male-genital-ducts.vas-deferens.stereocilia-disappear
+## aliases
+Loss of stereocilia along the male genital ducts
+Stereocilia shorten in the vas deferens
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pseudostratified columnar epithelium of the male genital ducts bears long apical stereocilia that are tallest in the epididymis. As the tract continues into the ductus (vas) deferens the stereocilia become progressively shorter and begin to disappear, and they are effectively absent by the ejaculatory duct and prostatic urethra. The vas deferens is therefore the duct in which stereocilia start to disappear.
+## explicit_objective
+Identify the ductus (vas) deferens as the duct where the stereocilia of the male genital tract begin to disappear.
+## pitfalls
+Confusing the efferent ductules (vasa efferentia are the same structure) with the vas deferens, or assuming stereocilia are already absent in the epididymis where they are in fact tallest.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Histology
+## subtopic
+Male genital ducts
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Male genital ducts
+## article_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-7BFD2214B1867B
+## label
+Lactating mammary alveolar cells are rich in rER, sER and lipid droplets
+## canonical_key
+mammary-gland-histology.lactating.alveolar-cells-organelle-rich
+## aliases
+Active secretory alveolar cells of the lactating breast
+Lactating mammary gland histology
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the lactating mammary gland the secretory alveoli enlarge and their cuboidal-to-columnar alveolar epithelial cells become highly active, showing abundant rough and smooth endoplasmic reticulum, a well-developed Golgi apparatus, and numerous apical lipid droplets and protein (casein) secretory granules for milk synthesis. The intervening connective tissue and fat are correspondingly reduced as the glandular tissue expands, unlike the fat-rich dense stroma of the resting gland. This organelle-rich secretory cytoplasm is the histological hallmark of the lactating state.
+## explicit_objective
+Recognise the abundant rER, sER and lipid droplets of alveolar cells as the histological hallmark of the lactating mammary gland.
+## pitfalls
+Assigning the resting gland's dense fat-rich stroma or abundant loose connective tissue to the lactating state, or calling the lactiferous sinus lining simple columnar rather than stratified/two-layered.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Histology
+## subtopic
+Mammary gland
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Histology > Mammary gland
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-F4B31C5CC96815
+## label
+The external anal sphincter has three parts: subcutaneous, superficial and deep
+## canonical_key
+anal-canal.external-anal-sphincter.three-parts
+## aliases
+Parts of the external anal sphincter
+External anal sphincter subdivisions
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The external anal sphincter is the voluntary striated muscle surrounding the anal canal and is classically described in three parts: subcutaneous, superficial and deep. There is no "intermediate" part in this scheme. The three parts, together with the puborectalis sling of levator ani, maintain voluntary faecal continence.
+## explicit_objective
+State that the external anal sphincter comprises subcutaneous, superficial and deep parts, with no "intermediate" part.
+## pitfalls
+Inventing an "intermediate" part, or confusing the voluntary three-part external sphincter with the involuntary smooth-muscle internal anal sphincter.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Anal canal
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Anal canal
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-B419023B8B5AE6
+## label
+The posterior fornix is the deepest part of the vagina
+## canonical_key
+vagina-anatomy.posterior-fornix.deepest-recess
+## aliases
+Deepest vaginal fornix
+Posterior vaginal fornix
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The vaginal fornices are the recesses formed where the vaginal wall reflects around the projecting cervix, and of the anterior, posterior and two lateral fornices the posterior fornix is the deepest. It is closely related above to the recto-uterine pouch of Douglas, so it is the route used for culdocentesis and posterior colpotomy. Its greater depth follows from the anteverted, anteflexed position of the uterus and the higher attachment of the vagina to the back of the cervix.
+## explicit_objective
+Identify the posterior fornix as the deepest of the vaginal fornices, related above to the pouch of Douglas.
+## pitfalls
+Attributing the deepest recess to the uterus, bladder or perineal space rather than the vagina, or overlooking its relation to the rectouterine pouch.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Vagina
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Vagina
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-PELVIC-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-9FDCA470F5C252
+## label
+The pudendal nerve is a branch of the sacral plexus
+## canonical_key
+sacral-plexus.pudendal-nerve.branch
+## aliases
+Pudendal nerve origin
+S2-S4 sacral plexus branch
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pudendal nerve arises from the anterior rami of S2, S3 and S4 and is therefore a branch of the sacral plexus. It leaves the pelvis through the greater sciatic foramen, hooks around the ischial spine, and re-enters the perineum through the lesser sciatic foramen to supply the perineum and external genitalia. By contrast the lateral cutaneous nerve of the thigh, the ilioinguinal nerve and the genitofemoral nerve are all branches of the lumbar plexus.
+## explicit_objective
+State that the pudendal nerve (S2-S4) is a branch of the sacral plexus, distinct from the lumbar-plexus nerves.
+## pitfalls
+Misassigning lumbar-plexus nerves (lateral cutaneous of thigh, ilioinguinal, genitofemoral) to the sacral plexus, or confusing the pudendal nerve's S2-S4 origin with the sciatic nerve's wider root value.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Sacral plexus
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Sacral plexus
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-CEFA9263929E68
+## label
+The ischiocavernosus is not attached to the perineal body
+## canonical_key
+perineal-body.ischiocavernosus.not-attached
+## aliases
+Muscles attached to the perineal body
+Perineal body attachments
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The perineal body (central perineal tendon) is a fibromuscular node into which several perineal muscles converge and interlace: the superficial and deep transversus perinei, the external anal sphincter, the bulbospongiosus and part of levator ani. The ischiocavernosus muscle is not attached to it, because it runs along the ischiopubic ramus to cover the crus of the penis or clitoris. So in a list of perineal muscles the ischiocavernosus is the one that does not insert into the perineal body.
+## explicit_objective
+Recognise the ischiocavernosus as the perineal muscle that is not attached to the perineal body.
+## pitfalls
+Assuming every perineal muscle attaches to the perineal body; the ischiocavernosus attaches instead to the ischiopubic ramus and crus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Perineal body
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineal body
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-FND-1E5AED5D749180
+## label
+The rectum is about 5 inches (12 cm) long
+## canonical_key
+rectum-anatomy.length.about-5-inches
+## aliases
+Length of the rectum
+Rectum measures about 12 cm
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The rectum is about 12 cm (roughly 5 inches) long, beginning at the rectosigmoid junction in front of the third piece of the sacrum and ending at the anorectal junction. Unlike the colon it has no sacculations, no appendices epiploicae, no mesentery and no teniae coli, and only its upper third is covered by peritoneum on the front and sides. These features distinguish it from the sigmoid colon above.
+## explicit_objective
+State that the rectum is about 5 inches (12 cm) long and lacks the appendices epiploicae, teniae and sacculations of the colon.
+## pitfalls
+Placing the rectal origin at the first sacral piece (it is the third), claiming the rectum is wholly extraperitoneal, or attributing appendices epiploicae to it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T06
+## topic
+Anatomy
+## subtopic
+Rectum
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Rectum
+## article_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-6507FB610DAED5
+## label
+Up-regulation of receptors results from increased receptor expression
+## canonical_key
+hormone-receptors.up-regulation.increased-receptor-expression
+## aliases
+Receptor up-regulation mechanism
+Increased receptor number
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Up-regulation is an increase in the number of a hormone's receptors on or in a target cell, produced by increased synthesis and expression of new receptor molecules, and it typically occurs when circulating hormone levels are low so the cell becomes more sensitive. It is the opposite of down-regulation, in which some receptors are inactivated, internalised and destroyed by lysosomes, or their intracellular signalling proteins are inactivated, when hormone levels are persistently high. Thus increased receptor expression, not receptor loss, defines up-regulation.
+## explicit_objective
+State that receptor up-regulation is an increase in receptor number through increased receptor expression, opposite to down-regulation.
+## pitfalls
+Confusing up-regulation with the receptor inactivation, internalisation or lysosomal destruction that characterise down-regulation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Hormone receptors
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Hormone receptors
+## article_ids
+ART-END-207END-2023EOM-ENDOCRINE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-A9C22E04701FF5
+## label
+Cretinism causes short stature through thyroid, not growth-hormone, deficiency
+## canonical_key
+growth-hormone.short-stature.cretinism-is-thyroid-not-gh
+## aliases
+Short stature not due to GH deficiency
+Cretinism versus pituitary dwarfism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pituitary infantilism, pituitary dwarfism and the Levi-Lorain (Lorain-Levi) type of dwarfism are all forms of short stature caused by decreased secretion of growth hormone. Cretinism, by contrast, is short stature caused by congenital thyroid hormone deficiency (hypothyroidism), not by a lack of growth hormone, and it is additionally marked by mental retardation. So among the causes of dwarfism cretinism is the exception that is not due to growth-hormone deficiency.
+## explicit_objective
+Distinguish cretinism (thyroid-deficiency short stature) from the growth-hormone-deficiency dwarfisms.
+## pitfalls
+Grouping cretinism with the pituitary and Levi-Lorain dwarfisms as a GH-deficiency state; its cause is thyroid hormone deficiency.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Growth hormone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Growth hormone
+## article_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-73CE6BF9F02588
+## label
+Peripheral T4-to-T3 conversion is not a function of TSH
+## canonical_key
+tsh.functions.not-peripheral-t4-to-t3-conversion
+## aliases
+Functions of TSH
+TSH does not deiodinate T4
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid-stimulating hormone (TSH) acts on the thyroid follicular cells to increase iodide trapping, thyroglobulin synthesis, thyroid hormone synthesis and release, and overall gland activity and growth; it has no direct effect on skeletal growth, which is an action of the thyroid hormones themselves. The peripheral conversion of thyroxine (T4) to the more active tri-iodothyronine (T3) is carried out by deiodinase enzymes in the liver, kidney and other tissues, and is not a function of TSH. Therefore, in a list of thyroid-related actions, T4-to-T3 conversion is the one that TSH does not perform.
+## explicit_objective
+Recognise that TSH stimulates follicular-cell activity and thyroglobulin synthesis but does not carry out peripheral T4-to-T3 conversion.
+## pitfalls
+Attributing peripheral deiodinase conversion of T4 to T3 to TSH; that step is done by tissue deiodinases, not by TSH.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormones
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormones
+## article_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-9A00192286D49E
+## label
+Parathyroid hormone secretion is regulated by plasma calcium
+## canonical_key
+parathyroid-hormone.secretion-regulation.plasma-calcium
+## aliases
+Control of PTH secretion
+Calcium-sensing regulation of PTH
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The secretion of parathyroid hormone is regulated directly by the ionised calcium concentration of the plasma acting on the calcium-sensing receptor of the parathyroid chief cells: a fall in plasma calcium stimulates PTH release, while a rise suppresses it. There is no hypothalamic or pituitary "parathyroid releasing" or "parathyroid inhibiting" hormone, and thyroid-stimulating hormone controls the thyroid, not the parathyroid glands. Thus the plasma calcium level is itself the physiological regulator of PTH.
+## explicit_objective
+State that PTH secretion is controlled by the plasma (ionised) calcium level through the calcium-sensing receptor, not by a pituitary hormone.
+## pitfalls
+Inventing a parathyroid releasing/inhibiting hormone or having TSH control the parathyroids; PTH is regulated by plasma calcium directly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Parathyroid hormone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Parathyroid hormone
+## article_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-19D8C2130369C0
+## label
+Ovulation occurs about 14 days before the next menstruation
+## canonical_key
+menstrual-cycle.ovulation.14-days-before-menstruation
+## aliases
+Timing of ovulation
+Fixed luteal phase length
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In the menstrual cycle the luteal (secretory) phase has a fairly constant length of about 14 days, so ovulation occurs approximately 14 days before the onset of the next menstruation regardless of the overall cycle length. In a typical 28-day cycle this places ovulation around day 14, triggered by the mid-cycle LH surge. It is the follicular phase, not the luteal phase, that varies to lengthen or shorten the cycle, and progesterone rises only after ovulation once the corpus luteum has formed.
+## explicit_objective
+State that ovulation occurs about 14 days before the next menstruation because the luteal phase length is roughly constant.
+## pitfalls
+Timing ovulation to just before the LH surge or to a progesterone rise; ovulation follows the LH surge, and progesterone rises only afterwards from the corpus luteum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Ovulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Ovulation
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-E1679A5CC87819
+## label
+Progesterone has a thermogenic effect that raises basal body temperature
+## canonical_key
+progesterone.physiologic-effect.thermogenic
+## aliases
+Thermogenic action of progesterone
+Basal temperature rise after ovulation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Progesterone from the corpus luteum has a thermogenic effect, raising the basal body temperature by about 0.3-0.5 degrees C after ovulation, which is the basis of the basal-body-temperature method of detecting ovulation. Progesterone also relaxes and quietens uterine smooth muscle rather than stimulating contraction, thickens cervical mucus into a scanty viscous plug, and does not stimulate ovulation. Its thermogenic action is the physiological effect that distinguishes the post-ovulatory luteal phase.
+## explicit_objective
+Identify the thermogenic (basal-temperature-raising) action as a physiological effect of progesterone.
+## pitfalls
+Attributing uterine-contraction stimulation, ovulation induction or thin cervical mucus to progesterone; progesterone relaxes the uterus and thickens cervical mucus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Progesterone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Progesterone
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-653A4F2B57FEF8
+## label
+Estrogen promotes growth of ovarian follicles
+## canonical_key
+estrogen.physiologic-effect.follicle-growth
+## aliases
+Estrogen and follicular growth
+Physiological effects of estrogen
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Estrogen promotes the growth and maturation of ovarian follicles, acting locally on the granulosa cells to increase their proliferation and to up-regulate FSH and LH receptors, thereby amplifying follicular development. It also drives the proliferative phase of the endometrium and produces a thin, watery, alkaline cervical mucus that favours sperm penetration. The thermogenic effect and the secretory endometrial phase, by contrast, are actions of progesterone.
+## explicit_objective
+Identify stimulation of ovarian follicle growth as a physiological effect of estrogen.
+## pitfalls
+Assigning the thermogenic effect, the secretory endometrial phase, or thick acidic cervical mucus to estrogen; those are progesterone effects, whereas estrogen makes cervical mucus thin and alkaline.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Estrogen
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Estrogen
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-GYN-185665DCCEC9BE
+## label
+Menopause raises osteoclast activity, causing osteoporosis
+## canonical_key
+menopause.estrogen-deficiency.osteoclast-osteoporosis
+## aliases
+Bone loss after menopause
+Postmenopausal osteoporosis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At menopause the ovarian output of estrogen falls sharply, and because estrogen normally restrains osteoclasts, its loss increases osteoclastic bone resorption and leads to postmenopausal osteoporosis. Menstrual cycles cease rather than stay regular, the cardio-protective effects of estrogen are lost rather than increased, and the genital organs atrophy rather than grow. Increased osteoclast activity with osteoporosis is therefore the characteristic feature of menopause.
+## explicit_objective
+Recognise increased osteoclast activity leading to osteoporosis as a feature of the estrogen deficiency of menopause.
+## pitfalls
+Expecting regular cycles, preserved cardio-protection or genital growth at menopause; estrogen withdrawal instead causes bone loss, loss of cardio-protection and genital atrophy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Menopause
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Menopause
+## article_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.

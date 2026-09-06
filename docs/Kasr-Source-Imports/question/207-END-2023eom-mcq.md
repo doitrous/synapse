@@ -5041,3 +5041,2103 @@ yes
 ## author_notes
 keySource: printed answer table p.19 (Q99=b)
 kasr: 2023 EOM 195, p.17
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-014
+
+## title
+Duct where stereocilia begin to disappear
+
+## question
+Stereocilia start to disappear in the following duct:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Epididymis.
+
+## explanation_a
+Incorrect. The epididymis carries the tallest stereocilia of the male genital tract, so it is where stereocilia are most prominent, not where they disappear.
+
+## answer_b
+Vasa efferentia.
+
+## explanation_b
+Incorrect. The vasa efferentia (efferent ductules) lie proximal to the epididymis and are lined by ciliated and non-ciliated cells; they are also the same structure named in option C, so neither can be the single answer.
+
+## answer_c
+Efferent ductules.
+
+## explanation_c
+Incorrect. The efferent ductules are identical to the vasa efferentia of option B and precede the epididymis; the stereocilia are still well developed downstream of them.
+
+## answer_d
+Vas deferens.
+
+## explanation_d
+Correct. The pseudostratified columnar epithelium of the male genital ducts bears long apical stereocilia that are tallest in the epididymis. As the tract continues into the ductus (vas) deferens the stereocilia become progressively shorter and begin to disappear. They are effectively absent by the ejaculatory duct and prostatic urethra, so the vas deferens is the duct in which they start to disappear.
+
+## topic
+Histology
+
+## subtopic
+Male genital ducts
+
+## main_concept
+CON-AND-B57CABC89BCE42
+
+## concept_ids
+CON-AND-B57CABC89BCE42
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Male genital ducts
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the vas deferens as the duct where the stereocilia of the male genital tract begin to disappear.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q14
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q14=d)
+kasr: 2023 EOM 195, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-019
+
+## title
+Histological feature of the lactating mammary gland
+
+## question
+Regarding the histological feature of the lactating state of the mammary gland:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Contains dense connective tissue septa rich in fat cells.
+
+## explanation_a
+Incorrect. Dense connective tissue septa rich in fat cells describe the resting (inactive) gland; during lactation the glandular tissue expands and the fibro-fatty stroma is reduced.
+
+## answer_b
+Abundant loose connective tissue.
+
+## explanation_b
+Incorrect. Abundant loose connective tissue is a feature of the resting gland; in the lactating gland the connective tissue is scanty as the secretory alveoli enlarge.
+
+## answer_c
+Lactiferous sinus is lined by simple columnar epithelium.
+
+## explanation_c
+Incorrect. The lactiferous sinus is lined by a two-layered (stratified cuboidal/columnar) epithelium, not a simple columnar epithelium.
+
+## answer_d
+Alveolar cells show abundant rER, sER and lipid droplets.
+
+## explanation_d
+Correct. In the lactating gland the secretory alveoli enlarge and their alveolar epithelial cells become highly active. They show abundant rough and smooth endoplasmic reticulum, a well-developed Golgi apparatus and numerous apical lipid droplets and protein (casein) secretory granules for milk synthesis. This organelle-rich secretory cytoplasm is the histological hallmark of the lactating state.
+
+## topic
+Histology
+
+## subtopic
+Mammary gland
+
+## main_concept
+CON-GYN-7BFD2214B1867B
+
+## concept_ids
+CON-GYN-7BFD2214B1867B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Mammary gland
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise the abundant rER, sER and lipid droplets of alveolar cells as the hallmark of the lactating mammary gland.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q19=d)
+kasr: 2023 EOM 195, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-035
+
+## title
+Part that does not belong to the external anal sphincter
+
+## question
+One of the following is NOT a part of the external anal sphincter:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Intermediate.
+
+## explanation_a
+Correct. The external anal sphincter is the voluntary striated muscle surrounding the anal canal, and it is classically described in three parts: subcutaneous, superficial and deep. There is no "intermediate" part in this scheme, so "intermediate" is the option that does not belong. The three real parts, with the puborectalis sling, maintain voluntary faecal continence.
+
+## answer_b
+Superficial.
+
+## explanation_b
+Incorrect. The superficial part is one of the three genuine parts of the external anal sphincter.
+
+## answer_c
+Subcutaneous.
+
+## explanation_c
+Incorrect. The subcutaneous part is the most inferior of the three genuine parts of the external anal sphincter.
+
+## answer_d
+Deep.
+
+## explanation_d
+Incorrect. The deep part is the uppermost of the three genuine parts of the external anal sphincter.
+
+## topic
+Anatomy
+
+## subtopic
+Anal canal
+
+## main_concept
+CON-FND-F4B31C5CC96815
+
+## concept_ids
+CON-FND-F4B31C5CC96815
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Anal canal
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that the external anal sphincter has subcutaneous, superficial and deep parts, with no intermediate part.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q35
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q35=a)
+kasr: 2023 EOM 195, p.7
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-039
+
+## title
+Structure whose deepest part is the posterior fornix
+
+## question
+The posterior fornix is the deepest part of which of the following structures?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Urinary bladder.
+
+## explanation_a
+Incorrect. The urinary bladder has no fornices; the posterior fornix is a recess of the vagina.
+
+## answer_b
+Vagina.
+
+## explanation_b
+Correct. The vaginal fornices are the recesses where the vaginal wall reflects around the projecting cervix, and of the anterior, posterior and two lateral fornices the posterior fornix is the deepest. It is related above to the recto-uterine pouch of Douglas, which is why it is used for culdocentesis and posterior colpotomy. Its greater depth follows from the anteverted, anteflexed position of the uterus and the higher vaginal attachment on the back of the cervix.
+
+## answer_c
+Deep perineal space.
+
+## explanation_c
+Incorrect. The deep perineal space (pouch) is a fascial compartment of the perineum and has no fornix.
+
+## answer_d
+Uterus.
+
+## explanation_d
+Incorrect. The fornices belong to the vagina around the cervix, not to the body of the uterus.
+
+## topic
+Anatomy
+
+## subtopic
+Vagina
+
+## main_concept
+CON-GYN-B419023B8B5AE6
+
+## concept_ids
+CON-GYN-B419023B8B5AE6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Vagina
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-PELVIC-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the posterior fornix as the deepest of the vaginal fornices, related to the pouch of Douglas.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q39
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q39=b)
+kasr: 2023 EOM 195, p.7
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-042
+
+## title
+Branch of the sacral plexus
+
+## question
+The following is a branch of the sacral plexus:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pudendal nerve.
+
+## explanation_a
+Correct. The pudendal nerve arises from the anterior rami of S2, S3 and S4 and is therefore a branch of the sacral plexus. It leaves the pelvis through the greater sciatic foramen, hooks around the ischial spine, and re-enters the perineum through the lesser sciatic foramen to supply the perineum and external genitalia. The other listed nerves are branches of the lumbar plexus.
+
+## answer_b
+Lateral cutaneous nerve of the thigh.
+
+## explanation_b
+Incorrect. The lateral cutaneous nerve of the thigh (L2-L3) is a branch of the lumbar plexus.
+
+## answer_c
+Ilioinguinal nerve.
+
+## explanation_c
+Incorrect. The ilioinguinal nerve (L1) is a branch of the lumbar plexus.
+
+## answer_d
+Genitofemoral nerve.
+
+## explanation_d
+Incorrect. The genitofemoral nerve (L1-L2) is a branch of the lumbar plexus.
+
+## topic
+Anatomy
+
+## subtopic
+Sacral plexus
+
+## main_concept
+CON-FND-9FDCA470F5C252
+
+## concept_ids
+CON-FND-9FDCA470F5C252
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Sacral plexus
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the pudendal nerve (S2-S4) as a branch of the sacral plexus, distinct from lumbar-plexus nerves.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q42=a)
+kasr: 2023 EOM 195, p.8
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-047
+
+## title
+Muscle not attached to the perineal body
+
+## question
+One of the following muscles is NOT attached to the perineal body:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Superficial transversus perinei.
+
+## explanation_a
+Incorrect. The superficial transversus perinei converges on and inserts into the perineal body.
+
+## answer_b
+Deep transversus perinei.
+
+## explanation_b
+Incorrect. The deep transversus perinei is attached to the perineal body.
+
+## answer_c
+Sphincter ani externus.
+
+## explanation_c
+Incorrect. The external anal sphincter (sphincter ani externus) is anchored anteriorly to the perineal body.
+
+## answer_d
+Ischiocavernosus.
+
+## explanation_d
+Correct. The perineal body is a fibromuscular node into which the superficial and deep transversus perinei, the external anal sphincter, the bulbospongiosus and part of levator ani converge. The ischiocavernosus is not attached to it, because it runs along the ischiopubic ramus to cover the crus of the penis or clitoris. So in this list the ischiocavernosus is the muscle that does not insert into the perineal body.
+
+## topic
+Anatomy
+
+## subtopic
+Perineal body
+
+## main_concept
+CON-FND-CEFA9263929E68
+
+## concept_ids
+CON-FND-CEFA9263929E68
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineal body
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise the ischiocavernosus as the perineal muscle not attached to the perineal body.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q47
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q47=d)
+kasr: 2023 EOM 195, p.9
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-054
+
+## title
+Correct statement about the rectum
+
+## question
+Concerning the rectum, one is true:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Is about 5 inches long.
+
+## explanation_a
+Correct. The rectum is about 12 cm, roughly 5 inches, long. It begins at the rectosigmoid junction in front of the third piece of the sacrum and ends at the anorectal junction. Only its upper third is covered by peritoneum on the front and sides, and it lacks the sacculations, appendices epiploicae, mesentery and teniae coli of the colon.
+
+## answer_b
+Is wholly not covered by peritoneum.
+
+## explanation_b
+Incorrect. The rectum is not wholly extraperitoneal; the upper third is covered by peritoneum anteriorly and laterally and the middle third anteriorly.
+
+## answer_c
+Usually has appendices epiploicae.
+
+## explanation_c
+Incorrect. The rectum has no appendices epiploicae; these fatty tags belong to the colon, not the rectum.
+
+## answer_d
+Begins at the level of the first piece of the sacrum.
+
+## explanation_d
+Incorrect. The rectum begins in front of the third piece of the sacrum, not the first.
+
+## topic
+Anatomy
+
+## subtopic
+Rectum
+
+## main_concept
+CON-FND-1E5AED5D749180
+
+## concept_ids
+CON-FND-1E5AED5D749180
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Rectum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-2023EOM-PELVIS-PERINEUM-ANATOMY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that the rectum is about 5 inches long and lacks appendices epiploicae, teniae and sacculations.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q54
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q54=a)
+kasr: 2023 EOM 195, p.10
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-062
+
+## title
+Cause of receptor up-regulation
+
+## question
+Up-regulation of the receptors can occur as a result of:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Increase in receptor expression.
+
+## explanation_a
+Correct. Up-regulation is an increase in the number of a hormone's receptors on or in the target cell, produced by increased synthesis and expression of new receptor molecules. It usually occurs when circulating hormone levels are low, making the cell more sensitive. It is the opposite of down-regulation, which reduces receptor number.
+
+## answer_b
+Inactivation of some of the receptor molecules.
+
+## explanation_b
+Incorrect. Inactivation of receptor molecules reduces the number of functional receptors and is a mechanism of down-regulation, not up-regulation.
+
+## answer_c
+Inactivation of some of the intracellular protein signalling molecules.
+
+## explanation_c
+Incorrect. Inactivation of intracellular signalling proteins blunts the response and is part of down-regulation, not up-regulation.
+
+## answer_d
+Destruction of the receptors by lysosomes after they are internalised.
+
+## explanation_d
+Incorrect. Lysosomal destruction of internalised receptors decreases receptor number and is a mechanism of down-regulation.
+
+## topic
+Physiology
+
+## subtopic
+Hormone receptors
+
+## main_concept
+CON-END-6507FB610DAED5
+
+## concept_ids
+CON-END-6507FB610DAED5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Hormone receptors
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-ENDOCRINE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that receptor up-regulation is an increase in receptor number through increased receptor expression.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q62
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q62=a)
+kasr: 2023 EOM 195, p.11
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-068
+
+## title
+Short stature not due to growth-hormone deficiency
+
+## question
+All of the following conditions show short stature due to decreased secretion of growth hormone EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Pituitary infantilism.
+
+## explanation_a
+Incorrect. Pituitary infantilism is short stature caused by decreased growth-hormone secretion.
+
+## answer_b
+Pituitary dwarfism.
+
+## explanation_b
+Incorrect. Pituitary dwarfism is a classic short stature caused by growth-hormone deficiency.
+
+## answer_c
+Levi-Lorain dwarfism.
+
+## explanation_c
+Incorrect. Levi-Lorain (Lorain-Levi) dwarfism is a form of growth-hormone-deficiency short stature.
+
+## answer_d
+Cretinism.
+
+## explanation_d
+Correct. Cretinism is short stature caused by congenital thyroid hormone deficiency (hypothyroidism), not by a lack of growth hormone. It is additionally marked by mental retardation. So among these causes of dwarfism it is the exception that is not due to growth-hormone deficiency.
+
+## topic
+Physiology
+
+## subtopic
+Growth hormone
+
+## main_concept
+CON-END-A9C22E04701FF5
+
+## concept_ids
+CON-END-A9C22E04701FF5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Growth hormone
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Distinguish cretinism (thyroid-deficiency short stature) from the growth-hormone-deficiency dwarfisms.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q68
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q68=d)
+kasr: 2023 EOM 195, p.12
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-073
+
+## title
+Action that is not a function of TSH
+
+## question
+All of the following are functions of TSH EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Activation of thyroid follicular cells.
+
+## explanation_a
+Incorrect. Activating the thyroid follicular cells is a genuine function of TSH.
+
+## answer_b
+Conversion of T4 to T3.
+
+## explanation_b
+Correct. TSH acts on the thyroid follicular cells to increase iodide trapping, thyroglobulin synthesis and thyroid hormone synthesis and release. The peripheral conversion of thyroxine (T4) to the more active tri-iodothyronine (T3) is carried out by deiodinase enzymes in the liver, kidney and other tissues, and is not a function of TSH. So T4-to-T3 conversion is the one action here that TSH does not perform.
+
+## answer_c
+Increasing thyroglobulin synthesis.
+
+## explanation_c
+Incorrect. Increasing thyroglobulin synthesis is a genuine trophic function of TSH on the follicular cells.
+
+## answer_d
+Has no effect on skeletal growth.
+
+## explanation_d
+Incorrect. It is true that TSH has no direct effect on skeletal growth (that is an action of the thyroid hormones themselves), so this statement is correct about TSH and is not the exception.
+
+## topic
+Physiology
+
+## subtopic
+Thyroid hormones
+
+## main_concept
+CON-END-73CE6BF9F02588
+
+## concept_ids
+CON-END-73CE6BF9F02588
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Thyroid hormones
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise that peripheral T4-to-T3 conversion is done by tissue deiodinases, not by TSH.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q73
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q73=b)
+kasr: 2023 EOM 195, p.13
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-083
+
+## title
+Regulator of parathyroid hormone secretion
+
+## question
+Parathyroid hormone secretion is regulated by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Calcium concentration in plasma.
+
+## explanation_a
+Correct. Parathyroid hormone secretion is regulated directly by the ionised calcium concentration of the plasma acting on the calcium-sensing receptor of the chief cells. A fall in plasma calcium stimulates PTH release, while a rise suppresses it. Thus plasma calcium itself is the physiological regulator of PTH.
+
+## answer_b
+Thyroid stimulating hormone.
+
+## explanation_b
+Incorrect. Thyroid-stimulating hormone controls the thyroid gland, not the parathyroid glands.
+
+## answer_c
+Parathyroid releasing hormone.
+
+## explanation_c
+Incorrect. There is no hypothalamic or pituitary "parathyroid releasing hormone"; PTH is regulated by plasma calcium.
+
+## answer_d
+Parathyroid inhibiting factor.
+
+## explanation_d
+Incorrect. There is no "parathyroid inhibiting factor"; a high plasma calcium, acting through the calcium-sensing receptor, is what suppresses PTH.
+
+## topic
+Physiology
+
+## subtopic
+Parathyroid hormone
+
+## main_concept
+CON-END-9A00192286D49E
+
+## concept_ids
+CON-END-9A00192286D49E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Parathyroid hormone
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that PTH secretion is controlled by the plasma calcium level through the calcium-sensing receptor.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q83
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q83=a)
+kasr: 2023 EOM 195, p.15
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-101
+
+## title
+Timing of ovulation in a 28-day cycle
+
+## question
+Ovulation in a woman with a 28-day cycle occurs:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Just before the LH surge.
+
+## explanation_a
+Incorrect. Ovulation follows the mid-cycle LH surge (about 16-24 hours after the LH peak), not just before it.
+
+## answer_b
+Just after corpus luteal maturation.
+
+## explanation_b
+Incorrect. The corpus luteum forms from the ruptured follicle after ovulation, so ovulation cannot follow its maturation.
+
+## answer_c
+Due to a progesterone rise.
+
+## explanation_c
+Incorrect. Ovulation is triggered by the LH surge under estrogen positive feedback; progesterone rises only after ovulation from the corpus luteum.
+
+## answer_d
+14 days prior to menstruation.
+
+## explanation_d
+Correct. The luteal (secretory) phase has a fairly constant length of about 14 days, so ovulation occurs approximately 14 days before the onset of the next menstruation regardless of overall cycle length. In a 28-day cycle this places ovulation around day 14. It is the follicular phase that varies to lengthen or shorten the cycle.
+
+## topic
+Physiology
+
+## subtopic
+Ovulation
+
+## main_concept
+CON-GYN-19D8C2130369C0
+
+## concept_ids
+CON-GYN-19D8C2130369C0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Ovulation
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that ovulation occurs about 14 days before the next menstruation because the luteal phase length is constant.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q101
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q101=d)
+kasr: 2023 EOM 195, p.17
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-105
+
+## title
+Physiological effect of progesterone
+
+## question
+Which of the following is a physiological effect of progesterone?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Thermogenic effect.
+
+## explanation_a
+Correct. Progesterone from the corpus luteum has a thermogenic effect, raising the basal body temperature by about 0.3-0.5 degrees C after ovulation. This post-ovulatory temperature rise is the basis of the basal-body-temperature method of detecting ovulation. It marks the shift into the luteal phase.
+
+## answer_b
+Stimulation of uterine contraction.
+
+## explanation_b
+Incorrect. Progesterone relaxes and quietens uterine smooth muscle; it does not stimulate uterine contraction.
+
+## answer_c
+Stimulation of ovulation.
+
+## explanation_c
+Incorrect. Progesterone does not stimulate ovulation; it exerts negative feedback on the hypothalamic-pituitary axis after ovulation has occurred.
+
+## answer_d
+Thin cervical mucus.
+
+## explanation_d
+Incorrect. Progesterone thickens cervical mucus into a scanty viscous plug; it is estrogen that makes the mucus thin and watery.
+
+## topic
+Physiology
+
+## subtopic
+Progesterone
+
+## main_concept
+CON-GYN-E1679A5CC87819
+
+## concept_ids
+CON-GYN-E1679A5CC87819
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Progesterone
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify the thermogenic action as a physiological effect of progesterone.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q105
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q105=a)
+kasr: 2023 EOM 195, p.18
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-106
+
+## title
+Physiological effect of estrogen
+
+## question
+Which of the following is a physiological effect of estrogen?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Thermogenic effect.
+
+## explanation_a
+Incorrect. The thermogenic effect that raises basal body temperature after ovulation is an action of progesterone, not estrogen.
+
+## answer_b
+Secretory phase of the endometrium.
+
+## explanation_b
+Incorrect. The secretory phase of the endometrium is driven by progesterone; estrogen drives the earlier proliferative phase.
+
+## answer_c
+Growth of ovarian follicles.
+
+## explanation_c
+Correct. Estrogen promotes the growth and maturation of ovarian follicles, acting on the granulosa cells to increase their proliferation and to up-regulate FSH and LH receptors. It also drives the proliferative endometrium and produces thin, watery, alkaline cervical mucus that favours sperm penetration. Follicular growth is therefore a physiological effect of estrogen.
+
+## answer_d
+Thick acidic cervical mucus.
+
+## explanation_d
+Incorrect. Estrogen produces thin, watery, alkaline cervical mucus; the thick acidic mucus is an effect of progesterone.
+
+## topic
+Physiology
+
+## subtopic
+Estrogen
+
+## main_concept
+CON-GYN-653A4F2B57FEF8
+
+## concept_ids
+CON-GYN-653A4F2B57FEF8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Estrogen
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify stimulation of ovarian follicle growth as a physiological effect of estrogen.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q106
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q106=c)
+kasr: 2023 EOM 195, p.18
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-108
+
+## title
+Feature of menopause
+
+## question
+Which of the following is a feature of menopause?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Regular menstrual cycles.
+
+## explanation_a
+Incorrect. Menstrual cycles become irregular and then cease at menopause; they do not remain regular.
+
+## answer_b
+Increased activity of osteoclasts leading to osteoporosis.
+
+## explanation_b
+Correct. At menopause ovarian estrogen output falls sharply, and because estrogen normally restrains osteoclasts, its loss increases osteoclastic bone resorption. This leads to postmenopausal osteoporosis. Increased osteoclast activity with osteoporosis is therefore a characteristic feature of menopause.
+
+## answer_c
+Increased cardio-protective effects of estrogen.
+
+## explanation_c
+Incorrect. The cardio-protective effects of estrogen are lost, not increased, after menopause.
+
+## answer_d
+Growth of genital organs.
+
+## explanation_d
+Incorrect. The genital organs atrophy after menopause rather than grow.
+
+## topic
+Physiology
+
+## subtopic
+Menopause
+
+## main_concept
+CON-GYN-185665DCCEC9BE
+
+## concept_ids
+CON-GYN-185665DCCEC9BE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Menopause
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-2023EOM-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise increased osteoclast activity with osteoporosis as a feature of the estrogen deficiency of menopause.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q108
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q108=b)
+kasr: 2023 EOM 195, p.18
