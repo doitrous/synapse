@@ -78,3 +78,41 @@ Kasr Al Ainy 206 DIG End-of-Module examination, printed sitting date 2021/02/17 
 0.9
 ## is_assessment
 true
+
+# Item
+## id
+src_e2f2f2fc0a951d31ff71
+## title
+Anatomy MCQ Previous exams Answer [206]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/Anatomy Dpt Anatomy [1st priority]/MCQs/Anatomy MCQ Previous exams Answer [206].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+54
+## sha256
+e2f2f2fc0a951d31ff7135fb14b8ec682748f2b378533a0f6ad9e227b5028110
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG Anatomy department 'previous exams' solved MCQ bank (tier 5, NON-EOM). A compilation of multiple past anatomy papers (numbering restarts per exam: exam A = pp.1-9 Q1-56, exam B = pp.10-12, more on pp.13-54 not OCR'd this pass), covering GIT gross anatomy plus urinary/genital gross anatomy and embryology (the module's Anatomy department treats renal/genital gross anatomy as part of 206 DIG > Anatomy). No native text layer (image-only scan); OCR'd via scripts/content/pagetext.mjs. Correct answer marked by a hand-drawn blue/purple circle over the option letter; marker confirmed by rendering p.5 once at 150 dpi against the circle (Q28-34 keys matched exactly) -- see coverage/206-DIG-anatomybank-triage-keys.txt. Selected as the fresh non-EOM pivot after both 206-DIG EOM papers were exhausted.
+## confidence
+0.9
+## is_assessment
+true
+
+---

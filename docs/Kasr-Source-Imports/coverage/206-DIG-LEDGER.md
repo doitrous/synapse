@@ -257,3 +257,35 @@ ideally a non-EOM paper to escape the recurring EOM overlap.
 Method: `pagetext.mjs ocr --force`, `highlight/circle-annot` (solid circle over the
 correct option). Confirmed by two renders (p.2, p.16, both matching the OCR '@' marker
 exactly) — see `206-DIG-triage-keys.txt`.
+
+
+## Anatomy MCQ bank -- `Anatomy MCQ Previous exams Answer [206].pdf` (fresh NON-EOM pivot)
+
+Both 206-DIG EOM papers are exhausted (2021-vs-2025 ran ~43% dupe). Pivoted to the highest-
+priority FRESH keyed non-EOM source: the Anatomy department 'previous exams' SOLVED MCQ bank
+(sourceId `src_e2f2f2fc0a951d31ff71`, tier 5, 54 pp., image-only). It is the only tier-5
+206-DIG bank marked solved; the tier-2 EOY paper (`src_9413877598afdf50acd9`) was inspected
+and REJECTED as a WRITTEN ESSAY exam (no MCQs, no keys). Key marker = hand-drawn blue/purple
+circle over the option letter, CONFIRMED by rendering p.5 once (Q28-34 matched exactly).
+
+anatbank-tranche-1 (Q-range: exam A Q8-55 + exam B Q8/Q17, 20 authored): 20/20 authored, 0
+held, 0 excluded. Focus is urinary/genital gross anatomy & embryology + a few GIT relations
+the EOM papers missed -- which is what ESCAPES the EOM overlap (the two EOMs covered
+renal/genital only as histology/physiology). Keys read off the circle and corroborated by
+textbook fact; ~24 near-duplicate stems of the already-authored EOM anatomy were skipped and
+~5 OCR-truncated stems held (documented in `coverage/206-DIG-anatomybank-triage-keys.txt`).
+20 new concepts minted university-blind via mint-concept-id.mjs (all `CON-GIT-*`, SHA-256
+collision-checked against 15618 IDs -- no collisions), filed under DIS-ANA-T05 with
+SYS-GIT-T01-S01, grouped into one library article (`ART-GIT-206DIG-ANATBANK-GROSS`). Authored
+in `question/206-DIG-anatomybank-mcq-tranche1.md` (seed
+`seed/206-DIG-anatomybank-tranche1.json`), `concept/206-DIG-anatomybank-concepts.md`,
+`article/206-DIG-anatomybank-articles.md`; resource registered in `evidence/206-DIG-resources.md`.
+Gate-clean (batch 0 errors on all three; simulate created=43/rejected=0/errors=0; audit neutral
+vs the 206-DIG baseline -- 23 placeholder category families, 0 new/semantic categories).
+
+Dupe rate for this source was LOW as expected for a fresh non-EOM bank (the authored 20 came
+from the ~34 non-duplicate keyed items of exam A + exam B; the bulk of pp.13-54 is un-OCR'd).
+206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 20 (anatomy bank) = 204 MCQs.
+**Next 206-DIG source:** continue this same anatomy bank (OCR pp.13-54 for more past exams),
+then the unsolved GIT/physio/histo dept banks (need a key-recovery pass) -- see
+`coverage/KAU-Y2-priority-sources.md`.
