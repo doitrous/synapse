@@ -818,6 +818,244 @@
     {
       "key": "q40",
       "hold": "source question incomplete — the printed bank lists only three options for Q40 (a) reservoir hosts make control more difficult, b) hydrocoele is a common presentation, c) microfilariae show diurnal periodicity; no fourth option (d) is printed in the native text (confirmed by pagetext grep across all 56 pages). The printed key is A, which is correct parasitology (Brugia malayi has animal reservoir hosts, unlike Wuchereria), but a valid 4-option MCQ cannot be authored without fabricating a distractor, so held for human adjudication."
+    },
+    {
+      "key": "q41",
+      "id": "QST-KASR309INF-BANK-NEMATODA-41",
+      "page": 11,
+      "title": "True statement on filarial worms",
+      "question": "The following is true as regards filarial worms:",
+      "options": {
+        "A": "Adult worms are responsible for the main pathology in onchocercosis",
+        "B": "Elephantiasis is a sequel of microfilariae blocking lymphatics in bancroftian filariasis",
+        "C": "In loaiasis, impairment of vision may be due to both the adult worm and microfilariae",
+        "D": "Direct diagnosis of loaiasis is done by detection of adult worms in a biopsy specimen of Calabar swellings"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. In onchocercosis the MICROFILARIAE in the skin and eye, not the adult worms, cause the main pathology (dermatitis and river blindness).",
+        "B": "Incorrect. Elephantiasis is a sequel of the ADULT worms obstructing the lymphatics, not of microfilariae blocking them.",
+        "C": "Correct. In loaiasis, impairment of vision may be due to both the adult worm and the microfilariae. The adult Loa loa characteristically migrates across the eye beneath the conjunctiva (the 'eye worm'), causing irritation and transient inflammation, and the microfilariae can also contribute to ocular and periocular inflammation. Because both stages can affect the eye, vision impairment in loaiasis is attributable to the adult worm and the microfilariae together.",
+        "D": "Incorrect. Calabar swellings are transient angioedema in which the adult worm is not reliably found; direct diagnosis of loaiasis relies on microfilariae in daytime blood or on seeing the adult worm crossing the eye, not on biopsy of a Calabar swelling."
+      },
+      "main_concept": "CON-INF-DA76B849FFDAB4",
+      "concept_ids": [
+        "CON-INF-DA76B849FFDAB4"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Loa loa",
+      "learning_objective": "Recognise that in loaiasis vision impairment may be due to both the adult worm and the microfilariae."
+    },
+    {
+      "key": "q42",
+      "id": "QST-KASR309INF-BANK-NEMATODA-42",
+      "page": 11,
+      "title": "Purpose of the DEC provocative test",
+      "question": "The diethylcarbamazine provocative test is used to:",
+      "options": {
+        "A": "Overcome nocturnal periodicity of microfilaria",
+        "B": "Treat filarial infection",
+        "C": "Dissolve chyle",
+        "D": "Detect the filarial dance sign"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The diethylcarbamazine (DEC) provocative test is used to overcome the nocturnal periodicity of microfilariae. A daytime dose of DEC provokes the sheathed microfilariae of Wuchereria and Brugia to appear in the peripheral blood during the day, so a diagnostic blood film can be obtained without waiting for the usual night-time peak. It is thus a diagnostic aid that circumvents the inconvenience of nocturnal sampling.",
+        "B": "Incorrect. Although DEC is also a treatment for filariasis, in this test it is being used as a diagnostic provocation, not for cure.",
+        "C": "Incorrect. The test does not dissolve chyle; chyluria reflects lymphatic rupture and is unrelated to the provocative test.",
+        "D": "Incorrect. The filaria dance sign is an ultrasound finding of moving adult worms in the scrotal lymphatics, not something detected by the DEC provocative test."
+      },
+      "main_concept": "CON-INF-0B4C87BED4A28A",
+      "concept_ids": [
+        "CON-INF-0B4C87BED4A28A"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Wuchereria bancrofti",
+      "learning_objective": "Recognise that the DEC provocative test is used to overcome the nocturnal periodicity of microfilariae for daytime diagnosis."
+    },
+    {
+      "key": "q43",
+      "id": "QST-KASR309INF-BANK-NEMATODA-43",
+      "page": 11,
+      "title": "Why ascariasis is not directly transmitted",
+      "question": "Ascariasis is not transmitted directly between family members as:",
+      "options": {
+        "A": "Infection is through ingestion of larvae",
+        "B": "Eggs are laid immature",
+        "C": "Infection is through skin penetration by larvae",
+        "D": "It needs close contact"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Infection is not by ingesting larvae; it is by swallowing embryonated eggs, so this does not explain the lack of direct transmission.",
+        "B": "Correct. Ascariasis is not transmitted directly between family members because the eggs are laid immature. Ascaris lumbricoides eggs are passed unembryonated and must spend two to several weeks in warm moist soil to embryonate before they become infective, so a freshly passed egg cannot infect another person immediately. This obligatory maturation in the environment prevents the direct person-to-person spread that occurs with Enterobius or Hymenolepis nana, whose eggs are infective almost at once.",
+        "C": "Incorrect. Ascaris does not infect by skin penetration; that is the route of hookworm and Strongyloides.",
+        "D": "Incorrect. Close contact alone is not the issue; the eggs must first mature in soil regardless of contact."
+      },
+      "main_concept": "CON-INF-300AE220C43D05",
+      "concept_ids": [
+        "CON-INF-300AE220C43D05"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ascaris lumbricoides",
+      "learning_objective": "Explain that ascariasis is not transmitted directly between people because the eggs are laid immature and must embryonate in soil."
+    },
+    {
+      "key": "q44",
+      "id": "QST-KASR309INF-BANK-NEMATODA-44",
+      "page": 11,
+      "title": "Dysentery, anaemia and rectal prolapse",
+      "question": "A patient who presented with dysentery, anaemia and prolapse of a heavy oedematous rectal mucosa could be infected with:",
+      "options": {
+        "A": "Schistosoma mansoni",
+        "B": "Trichuris trichiura",
+        "C": "Strongyloides stercoralis",
+        "D": "Leishmania donovani"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Schistosoma mansoni causes intestinal and hepatic disease with bloody stool, but rectal prolapse with a heavy oedematous mucosa studded with worms is the picture of whipworm, not schistosomiasis.",
+        "B": "Correct. The combination of dysentery, anaemia and prolapse of a heavy oedematous rectal mucosa is the classic picture of heavy Trichuris trichiura (whipworm) infection, characteristically in malnourished children. The worms thread their thin anterior ends into the rectal and colonic mucosa, and the chronic inflammation, blood loss and straining (tenesmus) cause dysentery, anaemia and prolapse of the inflamed rectum, sometimes with worms visible on its surface. This triad is a diagnostic clue to massive trichuriasis.",
+        "C": "Incorrect. Strongyloides causes larva currens, malabsorption and hyperinfection, not dysentery with rectal prolapse.",
+        "D": "Incorrect. Leishmania donovani causes visceral leishmaniasis (kala-azar) with fever, hepatosplenomegaly and pancytopenia, not a prolapsed rectal mucosa."
+      },
+      "main_concept": "CON-INF-B11783ED1FC082",
+      "concept_ids": [
+        "CON-INF-B11783ED1FC082"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Trichuris trichiura",
+      "learning_objective": "Recognise dysentery, anaemia and rectal prolapse as the picture of heavy Trichuris trichiura infection."
+    },
+    {
+      "key": "q45",
+      "id": "QST-KASR309INF-BANK-NEMATODA-45",
+      "page": 11,
+      "title": "The dwarf threadworm",
+      "question": "\"Dwarf threadworm\" is the name given to:",
+      "options": {
+        "A": "Ancylostoma duodenale",
+        "B": "Trichostrongylus colubriformis",
+        "C": "Strongyloides stercoralis",
+        "D": "Capillaria philippinensis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ancylostoma duodenale is the (old-world) hookworm, not the dwarf threadworm.",
+        "B": "Incorrect. Trichostrongylus colubriformis is a soil/plant-borne intestinal nematode, not the dwarf threadworm.",
+        "C": "Correct. 'Dwarf threadworm' is the common name given to Strongyloides stercoralis. It reflects the very small size of the parthenogenetic female (about 2 mm) that lives embedded in the small-intestinal mucosa, distinguishing this tiny worm from the larger intestinal nematodes. The name is a recognised synonym used in parasitology teaching for Strongyloides.",
+        "D": "Incorrect. Capillaria philippinensis is a small fish-borne intestinal nematode causing protein-losing enteropathy, not the worm called the dwarf threadworm."
+      },
+      "main_concept": "CON-INF-89226D70CFAFC0",
+      "concept_ids": [
+        "CON-INF-89226D70CFAFC0"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Strongyloides stercoralis",
+      "learning_objective": "Recognise Strongyloides stercoralis as the worm called the dwarf threadworm."
+    },
+    {
+      "key": "q46",
+      "id": "QST-KASR309INF-BANK-NEMATODA-46",
+      "page": 11,
+      "title": "Mode of hookworm infection",
+      "question": "Concerning ancylostomiasis duodenale, human infection occurs by:",
+      "options": {
+        "A": "Ingestion of a mature egg",
+        "B": "Skin penetration by filariform larva",
+        "C": "Skin penetration by rhabditiform larva",
+        "D": "Ingestion of the adult worm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The egg is the diagnostic stool stage that hatches in soil; it is not the stage that infects man.",
+        "B": "Correct. Human infection with Ancylostoma duodenale occurs by skin penetration of the infective FILARIFORM (third-stage) larva. Eggs passed in stool hatch in warm moist soil into feeding rhabditiform larvae that moult twice into non-feeding filariform larvae, and these penetrate intact skin (typically of bare feet); for A. duodenale they may also be swallowed. After skin penetration the larvae migrate through the lungs and mature in the small intestine.",
+        "C": "Incorrect. The rhabditiform larva is the non-infective feeding soil stage that precedes the filariform larva; it does not penetrate skin.",
+        "D": "Incorrect. The adult worm lives in the human gut and is not a transmissible stage; ingesting it does not cause infection."
+      },
+      "main_concept": "CON-INF-1AAC26110CD919",
+      "concept_ids": [
+        "CON-INF-1AAC26110CD919"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Ancylostoma duodenale",
+      "learning_objective": "Recognise that hookworm (Ancylostoma duodenale) infects man by skin penetration of the filariform larva."
+    },
+    {
+      "key": "q47",
+      "id": "QST-KASR309INF-BANK-NEMATODA-47",
+      "page": 11,
+      "title": "Cause of increasing worm burden in capillariasis",
+      "question": "The gradually increasing worm burden in capillariasis is mainly due to:",
+      "options": {
+        "A": "Repeated hetero-infection",
+        "B": "Multiplication of adult worms",
+        "C": "Internal autoinfection",
+        "D": "Mature eggs"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The rising worm burden is not mainly from repeated new (hetero-)infections from outside; it is generated within the host.",
+        "B": "Incorrect. Adult worms do not multiply as adults; the increase comes from a new generation produced within the gut.",
+        "C": "Correct. The gradually increasing worm burden in capillariasis is mainly due to internal autoinfection. In Capillaria philippinensis some females are larviparous and produce larvae that develop and reinfect the same host's intestine without leaving the body, so the worm population multiplies internally. This progressive internal build-up is what causes the severe, protein-losing enteropathy and the potentially fatal hyperinfection of intestinal capillariasis.",
+        "D": "Incorrect. Mature eggs passed to the environment continue the ordinary cycle but do not explain the internal build-up of worms within one patient."
+      },
+      "main_concept": "CON-INF-848175DB22D158",
+      "concept_ids": [
+        "CON-INF-848175DB22D158"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Capillaria philippinensis",
+      "learning_objective": "Attribute the gradually increasing worm burden in capillariasis to internal autoinfection."
+    },
+    {
+      "key": "q48",
+      "id": "QST-KASR309INF-BANK-NEMATODA-48",
+      "page": 11,
+      "title": "Feature of tropical pulmonary eosinophilia",
+      "question": "Tropical pulmonary eosinophilia is characterised by:",
+      "options": {
+        "A": "High titres of IgM",
+        "B": "A high eosinophil count",
+        "C": "Membrane filtration demonstrating microfilariae in peripheral blood",
+        "D": "Lymphangitis and lymphadenitis of the lower limbs"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Tropical pulmonary eosinophilia is associated with very high IgE, not high IgM.",
+        "B": "Correct. Tropical pulmonary eosinophilia is characterised by a very high blood eosinophil count. It is a hypersensitivity reaction to filarial microfilariae trapped and destroyed in the lungs, producing nocturnal cough, wheeze and pulmonary infiltrates together with the striking eosinophilia and high IgE. The marked eosinophil count is the laboratory hallmark that suggests the diagnosis.",
+        "C": "Incorrect. Because the microfilariae are sequestered and destroyed in the lungs, they are NOT found in the peripheral blood, so membrane filtration of blood does not demonstrate them.",
+        "D": "Incorrect. Lower-limb lymphangitis and lymphadenitis are features of overt lymphatic filariasis, not of the pulmonary syndrome of tropical pulmonary eosinophilia."
+      },
+      "main_concept": "CON-INF-3541E43947E325",
+      "concept_ids": [
+        "CON-INF-3541E43947E325"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Wuchereria bancrofti",
+      "learning_objective": "Recognise a high eosinophil count as the characteristic feature of tropical pulmonary eosinophilia."
+    },
+    {
+      "key": "q49",
+      "id": "QST-KASR309INF-BANK-NEMATODA-49",
+      "page": 11,
+      "title": "Feature not seen in onchodermatitis",
+      "question": "Onchodermatitis does NOT present with:",
+      "options": {
+        "A": "Hyperkeratosis",
+        "B": "Atrophy of skin",
+        "C": "Subcutaneous oedema",
+        "D": "Dark discoloration of skin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it IS a feature). Onchodermatitis produces hyperkeratosis and lichenification ('lizard skin').",
+        "B": "Incorrect (it IS a feature). Chronic onchodermatitis causes skin atrophy with loss of elasticity.",
+        "C": "Correct. Onchodermatitis does NOT present with subcutaneous oedema. The chronic skin disease of onchocerciasis, driven by microfilariae in the skin, produces itching, hyperkeratosis, skin atrophy and patchy depigmentation, but not pitting or subcutaneous oedema. When subcutaneous oedema is present it points instead to other filariases such as loaiasis (Calabar swellings) or lymphatic filariasis, which is why it is the feature absent from onchodermatitis.",
+        "D": "Incorrect (it IS a feature). Patchy depigmentation gives dark and pale discoloration of the skin (the 'leopard skin' change)."
+      },
+      "main_concept": "CON-INF-C55710E92B923B",
+      "concept_ids": [
+        "CON-INF-C55710E92B923B"
+      ],
+      "module_subject": "309 INF > Parasitology > Nematoda > Onchocerca volvulus",
+      "learning_objective": "Recognise that onchodermatitis presents with hyperkeratosis, atrophy and depigmentation but not subcutaneous oedema."
+    },
+    {
+      "key": "q50",
+      "hold": "ambiguous key — the printed answer table gives Q50 = B (Onchocerca nodule 'develops over bony prominences'), which is correct parasitology, but option a ('It is a granulomatous reaction') is also a defensible true statement about an onchocercoma (a fibrous/granulomatous nodule around coiled adult worms). With two arguably-correct options and only one printed key, the item is held for human adjudication rather than authored with a distractor that is itself defensible. (Options c 'reaction around coiled microfilariae' is wrong — the nodule forms around coiled ADULT worms; d 'painful' is wrong — onchocercomas are painless.)"
     }
   ]
 }

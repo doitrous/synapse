@@ -5107,3 +5107,1245 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nemato
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-41
+
+## title
+True statement on filarial worms
+
+## question
+The following is true as regards filarial worms:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adult worms are responsible for the main pathology in onchocercosis
+
+## explanation_a
+Incorrect. In onchocercosis the MICROFILARIAE in the skin and eye, not the adult worms, cause the main pathology (dermatitis and river blindness).
+
+## answer_b
+Elephantiasis is a sequel of microfilariae blocking lymphatics in bancroftian filariasis
+
+## explanation_b
+Incorrect. Elephantiasis is a sequel of the ADULT worms obstructing the lymphatics, not of microfilariae blocking them.
+
+## answer_c
+In loaiasis, impairment of vision may be due to both the adult worm and microfilariae
+
+## explanation_c
+Correct. In loaiasis, impairment of vision may be due to both the adult worm and the microfilariae. The adult Loa loa characteristically migrates across the eye beneath the conjunctiva (the 'eye worm'), causing irritation and transient inflammation, and the microfilariae can also contribute to ocular and periocular inflammation. Because both stages can affect the eye, vision impairment in loaiasis is attributable to the adult worm and the microfilariae together.
+
+## answer_d
+Direct diagnosis of loaiasis is done by detection of adult worms in a biopsy specimen of Calabar swellings
+
+## explanation_d
+Incorrect. Calabar swellings are transient angioedema in which the adult worm is not reliably found; direct diagnosis of loaiasis relies on microfilariae in daytime blood or on seeing the adult worm crossing the eye, not on biopsy of a Calabar swelling.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-DA76B849FFDAB4
+
+## concept_ids
+CON-INF-DA76B849FFDAB4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Loa loa
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that in loaiasis vision impairment may be due to both the adult worm and the microfilariae.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-42
+
+## title
+Purpose of the DEC provocative test
+
+## question
+The diethylcarbamazine provocative test is used to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Overcome nocturnal periodicity of microfilaria
+
+## explanation_a
+Correct. The diethylcarbamazine (DEC) provocative test is used to overcome the nocturnal periodicity of microfilariae. A daytime dose of DEC provokes the sheathed microfilariae of Wuchereria and Brugia to appear in the peripheral blood during the day, so a diagnostic blood film can be obtained without waiting for the usual night-time peak. It is thus a diagnostic aid that circumvents the inconvenience of nocturnal sampling.
+
+## answer_b
+Treat filarial infection
+
+## explanation_b
+Incorrect. Although DEC is also a treatment for filariasis, in this test it is being used as a diagnostic provocation, not for cure.
+
+## answer_c
+Dissolve chyle
+
+## explanation_c
+Incorrect. The test does not dissolve chyle; chyluria reflects lymphatic rupture and is unrelated to the provocative test.
+
+## answer_d
+Detect the filarial dance sign
+
+## explanation_d
+Incorrect. The filaria dance sign is an ultrasound finding of moving adult worms in the scrotal lymphatics, not something detected by the DEC provocative test.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-0B4C87BED4A28A
+
+## concept_ids
+CON-INF-0B4C87BED4A28A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that the DEC provocative test is used to overcome the nocturnal periodicity of microfilariae for daytime diagnosis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-43
+
+## title
+Why ascariasis is not directly transmitted
+
+## question
+Ascariasis is not transmitted directly between family members as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Infection is through ingestion of larvae
+
+## explanation_a
+Incorrect. Infection is not by ingesting larvae; it is by swallowing embryonated eggs, so this does not explain the lack of direct transmission.
+
+## answer_b
+Eggs are laid immature
+
+## explanation_b
+Correct. Ascariasis is not transmitted directly between family members because the eggs are laid immature. Ascaris lumbricoides eggs are passed unembryonated and must spend two to several weeks in warm moist soil to embryonate before they become infective, so a freshly passed egg cannot infect another person immediately. This obligatory maturation in the environment prevents the direct person-to-person spread that occurs with Enterobius or Hymenolepis nana, whose eggs are infective almost at once.
+
+## answer_c
+Infection is through skin penetration by larvae
+
+## explanation_c
+Incorrect. Ascaris does not infect by skin penetration; that is the route of hookworm and Strongyloides.
+
+## answer_d
+It needs close contact
+
+## explanation_d
+Incorrect. Close contact alone is not the issue; the eggs must first mature in soil regardless of contact.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-300AE220C43D05
+
+## concept_ids
+CON-INF-300AE220C43D05
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Explain that ascariasis is not transmitted directly between people because the eggs are laid immature and must embryonate in soil.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-44
+
+## title
+Dysentery, anaemia and rectal prolapse
+
+## question
+A patient who presented with dysentery, anaemia and prolapse of a heavy oedematous rectal mucosa could be infected with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Schistosoma mansoni
+
+## explanation_a
+Incorrect. Schistosoma mansoni causes intestinal and hepatic disease with bloody stool, but rectal prolapse with a heavy oedematous mucosa studded with worms is the picture of whipworm, not schistosomiasis.
+
+## answer_b
+Trichuris trichiura
+
+## explanation_b
+Correct. The combination of dysentery, anaemia and prolapse of a heavy oedematous rectal mucosa is the classic picture of heavy Trichuris trichiura (whipworm) infection, characteristically in malnourished children. The worms thread their thin anterior ends into the rectal and colonic mucosa, and the chronic inflammation, blood loss and straining (tenesmus) cause dysentery, anaemia and prolapse of the inflamed rectum, sometimes with worms visible on its surface. This triad is a diagnostic clue to massive trichuriasis.
+
+## answer_c
+Strongyloides stercoralis
+
+## explanation_c
+Incorrect. Strongyloides causes larva currens, malabsorption and hyperinfection, not dysentery with rectal prolapse.
+
+## answer_d
+Leishmania donovani
+
+## explanation_d
+Incorrect. Leishmania donovani causes visceral leishmaniasis (kala-azar) with fever, hepatosplenomegaly and pancytopenia, not a prolapsed rectal mucosa.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-B11783ED1FC082
+
+## concept_ids
+CON-INF-B11783ED1FC082
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise dysentery, anaemia and rectal prolapse as the picture of heavy Trichuris trichiura infection.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-45
+
+## title
+The dwarf threadworm
+
+## question
+"Dwarf threadworm" is the name given to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ancylostoma duodenale
+
+## explanation_a
+Incorrect. Ancylostoma duodenale is the (old-world) hookworm, not the dwarf threadworm.
+
+## answer_b
+Trichostrongylus colubriformis
+
+## explanation_b
+Incorrect. Trichostrongylus colubriformis is a soil/plant-borne intestinal nematode, not the dwarf threadworm.
+
+## answer_c
+Strongyloides stercoralis
+
+## explanation_c
+Correct. 'Dwarf threadworm' is the common name given to Strongyloides stercoralis. It reflects the very small size of the parthenogenetic female (about 2 mm) that lives embedded in the small-intestinal mucosa, distinguishing this tiny worm from the larger intestinal nematodes. The name is a recognised synonym used in parasitology teaching for Strongyloides.
+
+## answer_d
+Capillaria philippinensis
+
+## explanation_d
+Incorrect. Capillaria philippinensis is a small fish-borne intestinal nematode causing protein-losing enteropathy, not the worm called the dwarf threadworm.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-89226D70CFAFC0
+
+## concept_ids
+CON-INF-89226D70CFAFC0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise Strongyloides stercoralis as the worm called the dwarf threadworm.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-46
+
+## title
+Mode of hookworm infection
+
+## question
+Concerning ancylostomiasis duodenale, human infection occurs by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ingestion of a mature egg
+
+## explanation_a
+Incorrect. The egg is the diagnostic stool stage that hatches in soil; it is not the stage that infects man.
+
+## answer_b
+Skin penetration by filariform larva
+
+## explanation_b
+Correct. Human infection with Ancylostoma duodenale occurs by skin penetration of the infective FILARIFORM (third-stage) larva. Eggs passed in stool hatch in warm moist soil into feeding rhabditiform larvae that moult twice into non-feeding filariform larvae, and these penetrate intact skin (typically of bare feet); for A. duodenale they may also be swallowed. After skin penetration the larvae migrate through the lungs and mature in the small intestine.
+
+## answer_c
+Skin penetration by rhabditiform larva
+
+## explanation_c
+Incorrect. The rhabditiform larva is the non-infective feeding soil stage that precedes the filariform larva; it does not penetrate skin.
+
+## answer_d
+Ingestion of the adult worm
+
+## explanation_d
+Incorrect. The adult worm lives in the human gut and is not a transmissible stage; ingesting it does not cause infection.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-1AAC26110CD919
+
+## concept_ids
+CON-INF-1AAC26110CD919
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma duodenale
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that hookworm (Ancylostoma duodenale) infects man by skin penetration of the filariform larva.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-47
+
+## title
+Cause of increasing worm burden in capillariasis
+
+## question
+The gradually increasing worm burden in capillariasis is mainly due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Repeated hetero-infection
+
+## explanation_a
+Incorrect. The rising worm burden is not mainly from repeated new (hetero-)infections from outside; it is generated within the host.
+
+## answer_b
+Multiplication of adult worms
+
+## explanation_b
+Incorrect. Adult worms do not multiply as adults; the increase comes from a new generation produced within the gut.
+
+## answer_c
+Internal autoinfection
+
+## explanation_c
+Correct. The gradually increasing worm burden in capillariasis is mainly due to internal autoinfection. In Capillaria philippinensis some females are larviparous and produce larvae that develop and reinfect the same host's intestine without leaving the body, so the worm population multiplies internally. This progressive internal build-up is what causes the severe, protein-losing enteropathy and the potentially fatal hyperinfection of intestinal capillariasis.
+
+## answer_d
+Mature eggs
+
+## explanation_d
+Incorrect. Mature eggs passed to the environment continue the ordinary cycle but do not explain the internal build-up of worms within one patient.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-848175DB22D158
+
+## concept_ids
+CON-INF-848175DB22D158
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Attribute the gradually increasing worm burden in capillariasis to internal autoinfection.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-48
+
+## title
+Feature of tropical pulmonary eosinophilia
+
+## question
+Tropical pulmonary eosinophilia is characterised by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+High titres of IgM
+
+## explanation_a
+Incorrect. Tropical pulmonary eosinophilia is associated with very high IgE, not high IgM.
+
+## answer_b
+A high eosinophil count
+
+## explanation_b
+Correct. Tropical pulmonary eosinophilia is characterised by a very high blood eosinophil count. It is a hypersensitivity reaction to filarial microfilariae trapped and destroyed in the lungs, producing nocturnal cough, wheeze and pulmonary infiltrates together with the striking eosinophilia and high IgE. The marked eosinophil count is the laboratory hallmark that suggests the diagnosis.
+
+## answer_c
+Membrane filtration demonstrating microfilariae in peripheral blood
+
+## explanation_c
+Incorrect. Because the microfilariae are sequestered and destroyed in the lungs, they are NOT found in the peripheral blood, so membrane filtration of blood does not demonstrate them.
+
+## answer_d
+Lymphangitis and lymphadenitis of the lower limbs
+
+## explanation_d
+Incorrect. Lower-limb lymphangitis and lymphadenitis are features of overt lymphatic filariasis, not of the pulmonary syndrome of tropical pulmonary eosinophilia.
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-3541E43947E325
+
+## concept_ids
+CON-INF-3541E43947E325
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise a high eosinophil count as the characteristic feature of tropical pulmonary eosinophilia.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-NEMATODA-49
+
+## title
+Feature not seen in onchodermatitis
+
+## question
+Onchodermatitis does NOT present with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hyperkeratosis
+
+## explanation_a
+Incorrect (it IS a feature). Onchodermatitis produces hyperkeratosis and lichenification ('lizard skin').
+
+## answer_b
+Atrophy of skin
+
+## explanation_b
+Incorrect (it IS a feature). Chronic onchodermatitis causes skin atrophy with loss of elasticity.
+
+## answer_c
+Subcutaneous oedema
+
+## explanation_c
+Correct. Onchodermatitis does NOT present with subcutaneous oedema. The chronic skin disease of onchocerciasis, driven by microfilariae in the skin, produces itching, hyperkeratosis, skin atrophy and patchy depigmentation, but not pitting or subcutaneous oedema. When subcutaneous oedema is present it points instead to other filariases such as loaiasis (Calabar swellings) or lymphatic filariasis, which is why it is the feature absent from onchodermatitis.
+
+## answer_d
+Dark discoloration of skin
+
+## explanation_d
+Incorrect (it IS a feature). Patchy depigmentation gives dark and pale discoloration of the skin (the 'leopard skin' change).
+
+## topic
+Parasitology
+
+## subtopic
+Nematoda
+
+## main_concept
+CON-INF-C55710E92B923B
+
+## concept_ids
+CON-INF-C55710E92B923B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-NEMATODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that onchodermatitis presents with hyperkeratosis, atrophy and depigmentation but not subcutaneous oedema.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Nematoda, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

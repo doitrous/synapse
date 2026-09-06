@@ -7899,3 +7899,669 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-DA76B849FFDAB4
+## label
+In loaiasis vision may be impaired by both the adult worm and microfilariae
+## canonical_key
+parasitology.loa.vision-impairment-adult-microfilariae
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In loaiasis (Loa loa) impairment of vision may be caused by both the adult worm and the microfilariae: the adult worm characteristically migrates across the eye beneath the conjunctiva (the 'eye worm'), causing irritation and transient inflammation, while the microfilariae can also contribute to ocular and periocular inflammation. Both stages may therefore affect the eye, which contrasts with onchocerciasis, where the main ocular pathology (river blindness) is due to the microfilariae rather than the adult worms.
+## explicit_objective
+Recognise that in loaiasis vision impairment may be due to both the adult worm and the microfilariae.
+## pitfalls
+In onchocercosis the MICROFILARIAE (not adults) cause the main pathology; elephantiasis is due to ADULT worms (not microfilariae) obstructing lymphatics in bancroftian filariasis; and Calabar swellings are transient angioedema in which the adult worm is not reliably found on biopsy, so direct diagnosis rests on microfilariae in blood or the adult crossing the eye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Loa loa
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-0B4C87BED4A28A
+## label
+The DEC provocative test brings out nocturnally periodic microfilariae by day
+## canonical_key
+parasitology.filaria.dec-provocative-test-periodicity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The diethylcarbamazine (DEC) provocative test is used to overcome the nocturnal periodicity of microfilariae: a daytime dose of DEC provokes the sheathed microfilariae of Wuchereria and Brugia to appear in the peripheral blood during the day, so a diagnostic blood sample can be taken without waiting for the usual night-time peak. It is a diagnostic aid, not a treatment and not a means of detecting the filaria dance sign.
+## explicit_objective
+Recognise that the DEC provocative test is used to overcome the nocturnal periodicity of microfilariae for daytime diagnosis.
+## pitfalls
+The DEC provocative test is a diagnostic manoeuvre to bring nocturnally periodic microfilariae into daytime blood; it is not primarily a treatment, it does not dissolve chyle, and it does not detect the filaria dance sign, which is an ultrasound finding of moving adult worms.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-300AE220C43D05
+## label
+Ascaris eggs are laid immature, so ascariasis is not transmitted directly between people
+## canonical_key
+parasitology.ascaris.eggs-laid-immature-no-direct-transmission
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ascaris lumbricoides eggs are passed in the stool unembryonated (immature) and must spend two to several weeks in warm moist soil to embryonate before they become infective. Because a freshly passed egg is not immediately infective, ascariasis cannot be transmitted directly from person to person within a family; an obligatory period in the external environment is required. This contrasts with Enterobius and Hymenolepis nana, whose eggs are infective almost immediately and can spread directly.
+## explicit_objective
+Explain that ascariasis is not transmitted directly between people because the eggs are laid immature and must embryonate in soil.
+## pitfalls
+The reason ascariasis is not directly transmitted is that the eggs are laid immature and need soil maturation, not that infection is by larval ingestion or by skin penetration; Ascaris is acquired by swallowing embryonated eggs, while skin penetration is the route for hookworm and Strongyloides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-89226D70CFAFC0
+## label
+Strongyloides stercoralis is the dwarf threadworm
+## canonical_key
+parasitology.strongyloides.dwarf-threadworm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+'Dwarf threadworm' is the common name given to Strongyloides stercoralis, reflecting the very small size of its parthenogenetic female (about 2 mm) that lives embedded in the small-intestinal mucosa. The name is a recognised synonym used in parasitology teaching to distinguish this tiny worm from the larger intestinal nematodes.
+## explicit_objective
+Recognise Strongyloides stercoralis as the worm called the dwarf threadworm.
+## pitfalls
+The dwarf threadworm is Strongyloides stercoralis, not the hookworm Ancylostoma, Trichostrongylus or Capillaria; note that 'threadworm' alone is used for Enterobius (pinworm) in some regions, but 'dwarf threadworm' specifically denotes Strongyloides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-3541E43947E325
+## label
+Tropical pulmonary eosinophilia shows a very high eosinophil count without peripheral microfilariae
+## canonical_key
+parasitology.filaria.tropical-pulmonary-eosinophilia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tropical pulmonary eosinophilia is a hypersensitivity reaction to filarial (Wuchereria and Brugia) microfilariae that are trapped and destroyed in the lungs; it is characterised by a very high blood eosinophil count together with high IgE, nocturnal cough and wheeze and pulmonary infiltrates. Because the microfilariae are sequestered in the lungs, they are NOT found in the peripheral blood, and the disease is pulmonary rather than a limb lymphangitis.
+## explicit_objective
+Recognise a very high eosinophil count as the characteristic feature of tropical pulmonary eosinophilia.
+## pitfalls
+Tropical pulmonary eosinophilia shows a very high eosinophil count and high IgE (not high IgM); microfilariae are trapped in the lungs and are absent from peripheral blood, and the picture is pulmonary, not the lower-limb lymphangitis and lymphadenitis of overt lymphatic filariasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Wuchereria bancrofti
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C55710E92B923B
+## label
+Onchodermatitis presents with hyperkeratosis, atrophy and depigmentation, not subcutaneous oedema
+## canonical_key
+parasitology.onchocerca.onchodermatitis-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Onchodermatitis, the chronic skin disease of onchocerciasis caused by microfilariae in the skin, presents with intense itching, hyperkeratosis and lichenification ('lizard skin'), skin atrophy with loss of elasticity, and patchy depigmentation with dark and pale discoloration ('leopard skin'). Subcutaneous oedema is NOT a feature of onchodermatitis; pitting or subcutaneous oedema instead suggests other filariases such as loaiasis or lymphatic filariasis.
+## explicit_objective
+Recognise that onchodermatitis presents with hyperkeratosis, atrophy and depigmentation but not subcutaneous oedema.
+## pitfalls
+Hyperkeratosis, skin atrophy and dark or pale depigmentation are all features of onchodermatitis; subcutaneous oedema is the exception that does NOT occur, and when present it points instead to loaiasis (Calabar swellings) or lymphatic filariasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Onchocerca volvulus
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.9-12, answer table p.13); no department book read this pass.
