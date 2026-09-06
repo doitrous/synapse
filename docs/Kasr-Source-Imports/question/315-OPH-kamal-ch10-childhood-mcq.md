@@ -2847,3 +2847,787 @@ yes
 ## author_notes
 
 ---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-48
+## title
+Coat's disease — characteristic finding
+## question
+Coat's disease is characterized by the presence of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Retinal vessel tortuosity and telangiectasia.
+## explanation_a
+Correct. Coat's disease is characterised by tortuous telangiectatic retinal vessels with exudation.
+## answer_b
+Proptosis.
+## explanation_b
+Incorrect. Proptosis is not a feature of Coat's disease.
+## answer_c
+Secondary glaucoma.
+## explanation_c
+Incorrect. Secondary glaucoma is a late complication, not the characteristic finding.
+## answer_d
+Masquerade syndrome.
+## explanation_d
+Incorrect. Masquerade is a term for retinoblastoma, not the defining feature of Coat's.
+## topic
+Ophthalmology
+## subtopic
+Coat's disease
+## main_concept
+CON-MUL-9B20CF1EC5C204
+## concept_ids
+CON-MUL-9B20CF1EC5C204
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify telangiectasia as the characteristic finding of Coat's disease.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-49
+## title
+Coat's disease — true statement
+## question
+The following is true about Coat's disease:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+It is associated with exudative retinal detachment.
+## explanation_a
+Correct. Coat's disease can cause an exudative retinal detachment from lipid exudation.
+## answer_b
+It is more common in females.
+## explanation_b
+Incorrect. It is much more common in males.
+## answer_c
+It is usually bilateral.
+## explanation_c
+Incorrect. It is usually unilateral.
+## answer_d
+Cases are diagnosed in the first two years of life.
+## explanation_d
+Incorrect. It usually presents in childhood but later than the first two years.
+## topic
+Ophthalmology
+## subtopic
+Coat's disease
+## main_concept
+CON-MUL-9B20CF1EC5C204
+## concept_ids
+CON-MUL-9B20CF1EC5C204
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that Coat's disease is associated with exudative retinal detachment.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-50
+## title
+Paediatric cataract — true statement
+## question
+Pediatric cataract:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+May occur due to intrauterine infections.
+## explanation_a
+Correct. Intrauterine infection (e.g. rubella) is a recognised cause of paediatric cataract.
+## answer_b
+Amblyopia occurs in bilateral cases only.
+## explanation_b
+Incorrect. Amblyopia also occurs in unilateral cases, often more severely.
+## answer_c
+All cases of congenital cataract should be surgically removed once diagnosed.
+## explanation_c
+Incorrect. Only visually significant cataracts need surgery.
+## answer_d
+IOL implantation is done at any age.
+## explanation_d
+Incorrect. IOL implantation is not done at any age; it is deferred in very young infants.
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## main_concept
+CON-MUL-A8A5E1B2E9066C
+## concept_ids
+CON-MUL-A8A5E1B2E9066C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise intrauterine infection as a cause of paediatric cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-51
+## title
+Causes of paediatric cataract — EXCEPT
+## question
+Causes of pediatric cataract include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Galactosemia.
+## explanation_a
+Incorrect (a genuine cause). Galactosemia causes paediatric cataract.
+## answer_b
+Traumatic.
+## explanation_b
+Incorrect (a genuine cause). Trauma causes cataract.
+## answer_c
+Down's syndrome.
+## explanation_c
+Incorrect (a genuine cause). Down's syndrome is associated with cataract.
+## answer_d
+Coat's disease.
+## explanation_d
+Correct. Coat's disease is a retinal telangiectatic disorder and not a cause of cataract; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## main_concept
+CON-MUL-A8A5E1B2E9066C
+## concept_ids
+CON-MUL-A8A5E1B2E9066C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude Coat's disease from causes of paediatric cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-53
+## title
+Treatment of paediatric cataract
+## question
+Treatment of pediatric cataract is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Pars plana vitrectomy.
+## explanation_a
+Incorrect. Pars plana vitrectomy alone does not remove the lens.
+## answer_b
+Pars plana lensectomy and anterior vitrectomy.
+## explanation_b
+Correct. Paediatric cataract is treated by lensectomy with anterior vitrectomy because the capsule opacifies rapidly.
+## answer_c
+Phacoemulsification.
+## explanation_c
+Incorrect. Adult-type phacoemulsification is not the standard for a young child.
+## answer_d
+Irrigation-aspiration with intact posterior capsule.
+## explanation_d
+Incorrect. Leaving an intact posterior capsule leads to rapid opacification in children.
+## topic
+Ophthalmology
+## subtopic
+Paediatric cataract
+## main_concept
+CON-MUL-C57CCB55961A95
+## concept_ids
+CON-MUL-C57CCB55961A95
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select lensectomy with anterior vitrectomy for paediatric cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-54
+## title
+Risk factors for ROP — EXCEPT
+## question
+Risk factors for ROP include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Down's syndrome.
+## explanation_a
+Correct. Down's syndrome is not a risk factor for ROP; it is the exception.
+## answer_b
+Low birth weight.
+## explanation_b
+Incorrect (a genuine risk factor). Low birth weight is a major risk factor.
+## answer_c
+Respiratory distress syndrome.
+## explanation_c
+Incorrect (a genuine risk factor). Respiratory distress syndrome increases risk.
+## answer_d
+High oxygen level in incubator.
+## explanation_d
+Incorrect (a genuine risk factor). High incubator oxygen is a key risk factor.
+## topic
+Ophthalmology
+## subtopic
+Retinopathy of prematurity
+## main_concept
+CON-MUL-9853B4C25E6DCE
+## concept_ids
+CON-MUL-9853B4C25E6DCE
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude Down's syndrome from ROP risk factors.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-55
+## title
+Unilateral visual loss on screening — next step
+## question
+On routine examination, a 5-year-old child showed unilateral diminution of vision. What should be done next?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Prescribe glasses.
+## explanation_a
+Incorrect. Glasses are prescribed only after organic disease is excluded.
+## answer_b
+Fundus examination.
+## explanation_b
+Correct. A fundus examination is done next to exclude organic disease before treating for amblyopia.
+## answer_c
+Occlusion of the sound eye.
+## explanation_c
+Incorrect. Occlusion is a treatment, applied only after the cause is established.
+## answer_d
+Refractive surgery.
+## explanation_d
+Incorrect. Refractive surgery has no role in a young child here.
+## topic
+Ophthalmology
+## subtopic
+Amblyopia
+## main_concept
+CON-MUL-1F8EA032DFF46B
+## concept_ids
+CON-MUL-1F8EA032DFF46B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose fundus examination as the next step in childhood unilateral visual loss.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-56
+## title
+Hypermetropic amblyopia — treatment
+## question
+On routine examination, a 5-year-old child showed unilateral diminution of vision. Eye examination revealed hypermetropia; what is the treatment?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Prescribe glasses.
+## explanation_a
+Incorrect. Glasses alone do not treat the amblyopia component.
+## answer_b
+Occlusion of the sound eye.
+## explanation_b
+Incorrect. Occlusion alone omits the needed refractive correction.
+## answer_c
+Prescribe glasses and occlusion of the eye with better vision.
+## explanation_c
+Correct. Refractive amblyopia is treated by full glasses plus occlusion of the better-seeing eye.
+## answer_d
+Refractive surgery.
+## explanation_d
+Incorrect. Refractive surgery is not used to treat childhood amblyopia.
+## topic
+Ophthalmology
+## subtopic
+Amblyopia
+## main_concept
+CON-MUL-A8A208DF356770
+## concept_ids
+CON-MUL-A8A208DF356770
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Combine refractive correction with occlusion of the better eye for amblyopia.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
