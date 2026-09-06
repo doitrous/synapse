@@ -109,3 +109,38 @@ Q33.D  Q34.D  Q35.C  Q36.—  Q37.A  Q38.D  Q39.A  Q40.A
 #  Q38 D lacrimal sac (EXCEPT — drainage, not secretory); Q39 A reflex tear secretion (orbital lacrimal gland);
 #  Q40 A nasolacrimal duct obstruction (+ve regurge test).
 # REMAINING for next tranche: Chapter 3 Q41-91, then Chapters 4-15 (Ch.4 Normal/abnormal image capture, 91 MCQs).
+
+# ===================================================================
+# TRANCHE 4 (2026-09-06): Chapter 3 Q41-91 slice
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf),
+# each RE-VERIFIED against the bank option text before authoring. 25 authored / 5 held / 0 excluded.
+
+# Chapter 3 - The protective system of the eye (Q41-88, bank printed p.12-20 = PDF p.14-22)
+Q41.A  Q42.D  Q43.D  Q44.D  Q45.D  Q46.D  Q47.-  Q48.-  Q49.-  Q50.-
+Q51.D  Q52.B  Q53.-  Q54.D  Q55.C  Q56.A  Q57.D  Q58.B
+Q77.C  Q78.B  Q79.C  Q80.D  Q81.D  Q82.A  Q83.D  Q84.B  Q85.D  Q86.C  Q87.B  Q88.C
+# HELD (authored around, not emitted):
+#  Q47 - answer-key table omits the Q47 row (skips Q46 -> Q48); no printed key to re-verify, held (never guess).
+#  Q48 - bank item is a two-option True/False statement (a True, b False); below the four-option MCQ floor.
+#  Q49 - bank item is a two-option True/False statement (a True, b False); below the four-option MCQ floor.
+#  Q50 - answer-key table omits the Q50 row (skips Q49 -> Q51); also a two-option True/False statement.
+#  Q53 - answer-key table omits the Q53 row (skips Q52 -> Q54); no printed key to re-verify, held (never guess).
+# Cross-check notes (key -> option chosen, verified vs stem):
+#  Q41 A goblet cells (tear mucin); Q42 D tear film IS affected by goblet-cell deficiency (the false statement);
+#  Q43 D fluorescein angiography (EXCEPT - a retinal test, not epiphora work-up); Q44 D squint (EXCEPT among acute dacryocystitis complications);
+#  Q45 D negative regurge (EXCEPT - chronic dacryocystitis gives a POSITIVE regurge); Q46 D all of the above (dacryocystography indications);
+#  Q51 D squamous blepharitis (EXCEPT - not a suppurative lid-gland inflammation); Q52 B moderate ptosis with good levator function (levator resection);
+#  Q54 D all thyroid states (hyper/hypo/euthyroid); Q55 C endophthalmitis (proptosis absent - intraocular only);
+#  Q56 A ophthalmoplegia (EXCEPT among vit-A-deficiency effects); Q57 D 7th (facial) nerve palsy -> lagophthalmos (5-option, reuses Q7 concept);
+#  Q58 B Horner syndrome (EXCEPT - enophthalmos not proptosis, 5-option); Q77 C chalazion (EXCEPT - a lid granuloma, no proptosis);
+#  Q78 B Grave disease (commonest adult proptosis, reuses Q23 concept); Q79 C ptosis (EXCEPT - TED retracts the lid, reuses Q6 concept);
+#  Q80 D chest x-ray (EXCEPT among proptosis investigations); Q81 D thyroxine (EXCEPT - not a TED treatment);
+#  Q82 A cavernous haemangioma (commonest benign orbital tumour); Q83 D ectropion (EXCEPT among TED features);
+#  Q84 B hypertension (EXCEPT among acute-hordeolum predispositions); Q85 D chalazion (EXCEPT - sterile, not staphylococcal);
+#  Q86 C skin grafting (cicatricial ectropion); Q87 B facial nerve closes the lid (orbicularis oculi); Q88 C amblyopia in severe unilateral congenital ptosis.
+# DEFERRED to next tranche (NOT authored, NOT held): the clinical-vignette block Q59-76 and the single-best items Q89-91.
+#  Q59-76 are scenario items that each list MORE THAN ONE true statement (e.g. Q59 a and d both true; Q63 a and c; Q66 a and b);
+#  they are not single-best-answer as printed and need multi-true adjudication before authoring. Answer-key letters for reference:
+#  Q59.D Q60.A Q61.A Q62.B Q63.A Q64.B Q65.C Q66.B Q67.B Q68.A Q69.C Q70.B Q71.C Q72.B Q73.D Q74.B Q75.B Q76.A ; Q89.D Q90.C Q91.D.
+# REMAINING for next tranche: Chapter 3 vignettes Q59-76 + Q89-91, then Chapters 4-15 (Ch.4 Normal/abnormal image capture, 91 MCQs, key p.2).
