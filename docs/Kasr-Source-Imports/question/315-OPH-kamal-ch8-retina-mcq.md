@@ -5117,3 +5117,1387 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-49
+
+## title
+Diagnosis and testing in age-related macular degeneration
+
+## question
+Which of the following statements about this patient is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A 70-year-old man notices gradual progressive decrease of vision in his left eye and that straight lines look wavy and distorted. The anterior segment is normal in both eyes; the fundus of the left eye shows yellowish spots in the macula.
+
+## correct_answer
+A
+
+## answer_a
+Amsler grid chart is helpful in diagnosis
+
+## explanation_a
+Correct. The picture is age-related macular degeneration (older man, central visual loss, metamorphopsia, macular drusen). The Amsler grid detects the metamorphopsia and central scotoma at the bedside, so it is helpful in diagnosis.
+
+## answer_b
+Anti-VEGF is the treatment of choice
+
+## explanation_b
+Incorrect. Yellowish drusen indicate the DRY form; anti-VEGF is reserved for wet (neovascular) macular degeneration, not the dry type described here.
+
+## answer_c
+The condition may be caused by increased blood coagulation diseases
+
+## explanation_c
+Incorrect. Hypercoagulable states cause retinal vein occlusion, not macular degeneration.
+
+## answer_d
+The field shows a tubular field
+
+## explanation_d
+Incorrect. A tubular (tunnel) field is seen in retinitis pigmentosa and advanced glaucoma; macular degeneration causes a CENTRAL scotoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Age-related macular degeneration
+
+## main_concept
+CON-MUL-45BB1A304344DA
+
+## concept_ids
+CON-MUL-45BB1A304344DA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise dry age-related macular degeneration and use the Amsler grid to detect its metamorphopsia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.118); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-52
+
+## title
+Recognising an exudative retinal detachment
+
+## question
+Which of the following statements about this patient is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A 60-year-old man has a visual field defect. Examination shows an elevated retina with a smooth, non-corrugated surface and mobile subretinal fluid.
+
+## correct_answer
+B
+
+## answer_a
+Retinal break is the cause
+
+## explanation_a
+Incorrect. A smooth, non-corrugated retina with shifting fluid is an EXUDATIVE detachment, which has no retinal break (a break causes a rhegmatogenous, corrugated detachment).
+
+## answer_b
+May occur as a complication of posterior uveitis
+
+## explanation_b
+Correct. An exudative (serous) retinal detachment — smooth surface, mobile/shifting subretinal fluid, no break — results from leakage beneath the retina, and posterior uveitis is a recognised cause (along with tumours, malignant hypertension and central serous conditions).
+
+## answer_c
+Treatment is with low vision aids
+
+## explanation_c
+Incorrect. Treatment is directed at the underlying cause, not low-vision aids.
+
+## answer_d
+Neovascular glaucoma may develop in this patient
+
+## explanation_d
+Incorrect. Neovascular glaucoma follows ischaemic retinal vascular disease, not a simple exudative detachment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-634453721573C2
+
+## concept_ids
+CON-MUL-634453721573C2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify an exudative retinal detachment by its smooth surface and shifting fluid, and link it to posterior uveitis.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.118); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-56
+
+## title
+Nature of retinitis pigmentosa in a syndromic child
+
+## question
+Which of the following statements about this condition is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A 13-year-old obese boy complains of defective dark adaptation and progressive loss of vision. He has an extra digit on his hand. Ophthalmoscopy shows spider-like pigmentation at the equator.
+
+## correct_answer
+A
+
+## answer_a
+The condition is genetically determined
+
+## explanation_a
+Correct. This is retinitis pigmentosa, here part of a syndrome (obesity plus polydactyly suggest Bardet-Biedl). Retinitis pigmentosa is a genetically determined hereditary rod-cone dystrophy, so it is inherited/genetically determined.
+
+## answer_b
+Retinal vessels are dilated
+
+## explanation_b
+Incorrect. The retinal vessels are attenuated (narrowed), not dilated.
+
+## answer_c
+OCT is essential in diagnosis
+
+## explanation_c
+Incorrect. The electroretinogram, not OCT, is the diagnostic test in retinitis pigmentosa.
+
+## answer_d
+Laser photocoagulation is the treatment of choice
+
+## explanation_d
+Incorrect. There is no established curative treatment; laser photocoagulation is not used for retinitis pigmentosa.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinitis pigmentosa
+
+## main_concept
+CON-MUL-AC77FFD34417FF
+
+## concept_ids
+CON-MUL-AC77FFD34417FF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+56
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise syndromic retinitis pigmentosa as a genetically determined hereditary dystrophy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.119); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-57
+
+## title
+Symptom of retinitis pigmentosa
+
+## question
+Which of the following statements about this condition is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A young patient complains of progressive loss of vision. Ophthalmoscopy shows spider-like pigmentation and an atrophic waxy optic disc.
+
+## correct_answer
+B
+
+## answer_a
+This is a type of secondary optic atrophy
+
+## explanation_a
+Incorrect. The waxy disc pallor of retinitis pigmentosa is CONSECUTIVE optic atrophy (secondary to retinal degeneration), not secondary optic atrophy (which follows papilloedema or papillitis).
+
+## answer_b
+Night blindness is one of the manifestations of this condition
+
+## explanation_b
+Correct. Retinitis pigmentosa degenerates the rods first, so night blindness (defective dark adaptation) is an early and characteristic manifestation, alongside progressive constriction of the visual field.
+
+## answer_c
+Pupil reaction shows relative afferent pupillary defect (RAPD)
+
+## explanation_c
+Incorrect. Retinitis pigmentosa is usually symmetrical and bilateral, so there is no relative afferent pupillary defect.
+
+## answer_d
+Anti-VEGF is the treatment of choice
+
+## explanation_d
+Incorrect. Anti-VEGF has no role; there is no established curative treatment for retinitis pigmentosa.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinitis pigmentosa
+
+## main_concept
+CON-MUL-B71FD59C678DF1
+
+## concept_ids
+CON-MUL-B71FD59C678DF1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Clinical scenario
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recall night blindness as an early manifestation of retinitis pigmentosa.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.119); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-59
+
+## title
+Function of cone photoreceptors
+
+## question
+Cone photoreceptors are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Responsible for color vision
+
+## explanation_a
+Correct. Cones mediate colour and detailed daylight (photopic) vision; the three cone types underlie colour discrimination.
+
+## answer_b
+Responsible for vision in dim light
+
+## explanation_b
+Incorrect. Dim-light (scotopic) vision is a rod function.
+
+## answer_c
+Relatively more than rods in the retina
+
+## explanation_c
+Incorrect. Rods (about 120 million) greatly outnumber cones (about 6 million).
+
+## answer_d
+Distributed all over the retina
+
+## explanation_d
+Incorrect. Cones are concentrated at the fovea/macula, not evenly distributed.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal photoreceptors
+
+## main_concept
+CON-MUL-8A460DB58F6675
+
+## concept_ids
+CON-MUL-8A460DB58F6675
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+42
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that cones mediate colour and daylight vision and are concentrated at the fovea.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-60
+
+## title
+Function of rod photoreceptors
+
+## question
+Rod photoreceptors are:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Responsible for day vision
+
+## explanation_a
+Incorrect. Daylight (photopic) and colour vision are cone functions; rods serve dim-light vision.
+
+## answer_b
+Each rod is connected to one bipolar cell
+
+## explanation_b
+Incorrect. Many rods converge onto a single bipolar cell (high convergence); the near one-to-one connection belongs to foveal cones.
+
+## answer_c
+Respond to all wavelengths
+
+## explanation_c
+Correct. Rods contain a single pigment (rhodopsin) and respond across the visible spectrum without discriminating colour, which is why scotopic vision is achromatic.
+
+## answer_d
+Found in the fovea
+
+## explanation_d
+Incorrect. The fovea is rod-free (cone-only); rods lie in the peripheral retina.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal photoreceptors
+
+## main_concept
+CON-MUL-8A460DB58F6675
+
+## concept_ids
+CON-MUL-8A460DB58F6675
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+44
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State that rods mediate achromatic dim-light vision, converge on bipolar cells, and are absent from the fovea.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-61
+
+## title
+Avascular layer of the retina
+
+## question
+The following layer of the retina is avascular:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ganglion cell layer
+
+## explanation_a
+Incorrect. The inner retinal layers, including the ganglion cell layer, are supplied by the central retinal artery.
+
+## answer_b
+Nerve fiber layer
+
+## explanation_b
+Incorrect. The nerve fibre layer is part of the vascularized inner retina.
+
+## answer_c
+Inner nuclear layer
+
+## explanation_c
+Incorrect. The inner nuclear layer lies within the territory of the retinal (inner) circulation.
+
+## answer_d
+Layer of rods and cones
+
+## explanation_d
+Correct. The outer retina — the photoreceptor (rod and cone) layer — is avascular and is nourished by diffusion from the underlying choriocapillaris, not by retinal vessels.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal photoreceptors
+
+## main_concept
+CON-MUL-AE4472E9A11DBF
+
+## concept_ids
+CON-MUL-AE4472E9A11DBF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Factual recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify the photoreceptor layer as the avascular outer retina supplied by the choroid.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-62
+
+## title
+Stages of diabetic retinopathy
+
+## question
+Regarding the stages of diabetic retinopathy, which statement is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+PDR needs prompt treatment
+
+## explanation_a
+Correct. Proliferative diabetic retinopathy (PDR) carries a high risk of vitreous haemorrhage and tractional detachment, so it needs prompt treatment (panretinal photocoagulation, with anti-VEGF as an adjunct).
+
+## answer_b
+NPDR is complicated with vitreous hemorrhage
+
+## explanation_b
+Incorrect. Vitreous haemorrhage arises from new vessels and so belongs to the PROLIFERATIVE (PDR) stage, not non-proliferative disease.
+
+## answer_c
+Maculopathy is only present with PDR
+
+## explanation_c
+Incorrect. Diabetic maculopathy can occur at any stage, including non-proliferative retinopathy.
+
+## answer_d
+Clinically diabetic maculopathy presents with a cherry red spot
+
+## explanation_d
+Incorrect. A cherry-red spot is a sign of central retinal artery occlusion, not diabetic maculopathy.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-2FD59A9ABBEF1E
+
+## concept_ids
+CON-MUL-2FD59A9ABBEF1E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that proliferative diabetic retinopathy needs prompt treatment and that maculopathy occurs at any stage.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-63
+
+## title
+Feature not part of non-proliferative diabetic retinopathy
+
+## question
+Non-proliferative diabetic retinopathy (NPDR) includes all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Neovessels at the disc (NVD)
+
+## explanation_a
+Correct. This is the exception: new vessels at the disc (NVD) define the PROLIFERATIVE stage (PDR), not NPDR. NPDR is limited to microaneurysms, haemorrhages, exudates and oedema without neovascularization.
+
+## answer_b
+Hard exudates
+
+## explanation_b
+Incorrect (a genuine NPDR feature). Hard exudates are seen in non-proliferative disease.
+
+## answer_c
+Macular oedema
+
+## explanation_c
+Incorrect (a genuine feature). Macular oedema can complicate NPDR.
+
+## answer_d
+Blot hemorrhage
+
+## explanation_d
+Incorrect (a genuine NPDR feature). Dot-and-blot haemorrhages are characteristic of non-proliferative disease.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-076044B0008F4F
+
+## concept_ids
+CON-MUL-076044B0008F4F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+51
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise neovascularization as the defining feature of proliferative, not non-proliferative, diabetic retinopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-64
+
+## title
+Mechanism of diabetic retinopathy
+
+## question
+Findings in diabetic retinopathy are attributed to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hyperglycaemia
+
+## explanation_a
+Incorrect. Chronic hyperglycaemia is the underlying risk factor, but the retinal FINDINGS themselves (microaneurysms, haemorrhages, exudates) are produced by the small-vessel damage it causes, i.e. microangiopathy.
+
+## answer_b
+Neuropathy
+
+## explanation_b
+Incorrect. Diabetic retinopathy is a vascular, not a neuropathic, process.
+
+## answer_c
+Microangiopathy
+
+## explanation_c
+Correct. Diabetic retinopathy is a retinal MICROANGIOPATHY: hyperglycaemia damages the small retinal vessels, producing microaneurysms, haemorrhages, exudates and capillary non-perfusion, with later ischaemia-driven neovascularization.
+
+## answer_d
+Inflammation
+
+## explanation_d
+Incorrect. It is not primarily an inflammatory disease.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-82923F41B963F3
+
+## concept_ids
+CON-MUL-82923F41B963F3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Cause and effect
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Attribute the retinal findings of diabetic retinopathy to microangiopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

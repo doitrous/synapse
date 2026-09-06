@@ -29329,3 +29329,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-45BB1A304344DA
+## label
+Age-related macular degeneration is detected with the Amsler grid (metamorphopsia)
+## canonical_key
+ophthalmology.age-related-macular-degeneration.amsler-grid-metamorphopsia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Age-related macular degeneration presents in an older patient with gradual central visual loss and metamorphopsia — straight lines appear wavy and distorted. The Amsler grid is the simple bedside test that detects this metamorphopsia and central scotoma. Yellowish macular drusen are the hallmark of the dry form.
+## explicit_objective
+Use the Amsler grid to detect the metamorphopsia of age-related macular degeneration.
+## pitfalls
+Attributing macular drusen and metamorphopsia to a clotting disorder (that causes vein occlusion) or expecting a tubular field (that is retinitis pigmentosa or glaucoma).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Age-related macular degeneration
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-AC77FFD34417FF
+## label
+Retinitis pigmentosa is a hereditary, genetically determined rod-cone dystrophy
+## canonical_key
+ophthalmology.retinitis-pigmentosa.hereditary-rod-cone-dystrophy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinitis pigmentosa is a genetically determined (hereditary) progressive rod-cone dystrophy. It can occur in isolation or as part of a syndrome (for example Bardet-Biedl, with obesity and polydactyly). The fundus shows spider/bone-spicule pigmentation, attenuated vessels and a waxy pale disc, and the electroretinogram is the diagnostic test.
+## explicit_objective
+State that retinitis pigmentosa is a genetically determined hereditary retinal dystrophy, sometimes syndromic.
+## pitfalls
+Assuming the retinal vessels are dilated (they are attenuated) or that laser or anti-VEGF treats it; there is no established curative treatment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinitis pigmentosa
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinitis pigmentosa
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8A460DB58F6675
+## label
+Rods mediate dim-light vision; cones mediate colour and detailed vision
+## canonical_key
+ophthalmology.photoreceptors.rods-scotopic-cones-photopic-colour
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cone photoreceptors are responsible for colour and detailed daylight (photopic) vision and are concentrated at the fovea. Rod photoreceptors are responsible for dim-light (scotopic) vision, respond across wavelengths without discriminating colour, are far more numerous than cones, and are absent from the fovea. Many rods converge on a single bipolar cell, whereas foveal cones have near one-to-one connections.
+## explicit_objective
+Distinguish rod (scotopic, achromatic, peripheral) from cone (photopic, colour, foveal) photoreceptor function.
+## pitfalls
+Reversing the two — thinking cones work in dim light or are distributed all over the retina, or that rods give colour vision or sit in the fovea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal photoreceptors
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal photoreceptors
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-82923F41B963F3
+## label
+Diabetic retinopathy is a retinal microangiopathy
+## canonical_key
+ophthalmology.diabetic-retinopathy.retinal-microangiopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The fundus findings of diabetic retinopathy — microaneurysms, dot-and-blot haemorrhages, exudates and capillary closure — are attributed to a microangiopathy: chronic hyperglycaemia damages the small retinal vessels. It is not primarily an inflammatory or neuropathic process, and neovascularization arises later from the resulting retinal ischaemia.
+## explicit_objective
+Attribute the findings of diabetic retinopathy to retinal microangiopathy.
+## pitfalls
+Attributing the retinal findings to inflammation or neuropathy rather than to small-vessel (microangiopathic) damage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Diabetic retinopathy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Diabetic retinopathy
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
