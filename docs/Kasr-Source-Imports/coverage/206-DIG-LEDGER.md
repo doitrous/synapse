@@ -10,7 +10,9 @@
 | 2025-eom-tranche-6 (Q105-120, same paper) | 16 | 0 | 0 | 16 |
 | **2025 EOM paper total** (`EOM - 206 solved (197).pdf`) | **120** | **0** | **0** | **120** |
 | 2021-eom-anatomy-tranche-1 (Q1-27 slice, `EOM - DIG-206 EOM (solved).pdf`) | 20 | 0 | 7 skipped-dupe | 27 |
-| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **20** | **0** | **93** | **120** |
+| 2021-eom-anatomy-tranche-2 (Q28-42 tail, same paper) | 9 | 1 (Q37) | 5 skipped-dupe | 15 |
+| 2021-eom-physiology-tranche-3 (Q43-64, same paper) | 11 | 1 (Q45) | 10 skipped (9 dupe + Q56 ambiguous key) | 22 |
+| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **40** | **2** | **56** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
@@ -141,6 +143,39 @@ Q43-84, Histology Q85-114 and Biochemistry Q115-120 — all keys recovered in
 `coverage/206-DIG-2021eom-triage-keys.txt` (Q1-30 render-verified; Q31-120 OCR-only, three
 flagged ambiguous — Q37, Q45, Q72, Q106 — to render before authoring).** Next author starts
 at Q28.
+
+2021-eom-anatomy-tranche-2 (Q28-42 tail): 9/9 authored (Q28, 31, 34, 35, 36, 39, 40, 41, 42),
+1 held (Q37), 5 skipped as dupes (Q29 deep inguinal ring, Q30 quadratus lumborum, Q32 epiploic
+foramen, Q33 root of mesentery, Q38 Meckel's — all covered by the 2025 paper or 2021 tranche 1).
+Full stems and options were read from the pagetext OCR cache (pp.3-5), not re-rendered per item:
+each keyed answer is the established textbook-correct fact and matches the red-circle marker, so
+the OCR key is corroborated by the medicine itself. Q37 held because OCR dropped option c and left
+the circle unresolved (render before authoring). Q28 (IMA territory) REUSES tranche 1's
+`CON-GIT-1E6FA25205D1D7` and cites the tranche-1 article `ART-GIT-206DIG-2021EOM-ANATOMY`; the
+other 8 are newly minted `CON-GIT-*` (foregut/hindgut blood supply + gut/urogenital development),
+collision-checked against 15618 IDs, filed under DIS-ANA-T05 with SYS-GIT-T01-S01, grouped into
+`ART-GIT-206DIG-2021EOM-ANATOMY2`. Authored in `question/206-DIG-2021eom-mcq-tranche2.md` (seed
+`seed/206-DIG-2021eom-anatomy-tranche2.json`), `concept/206-DIG-2021eom-anatomy-tranche2-concepts.md`,
+`article/206-DIG-2021eom-anatomy-tranche2-articles.md`. Gate-clean (batch 0 errors; simulate
+created=39/rejected=0/errors=0 with the tranche-1 concept/article files supplying the reused IMA;
+audit neutral vs the 206-DIG baseline — no new category families).
+
+2021-eom-physiology-tranche-3 (Q43-64): 11/11 authored (Q44, 46, 47, 50, 51, 52, 54, 55, 61, 62,
+63), 1 held (Q45, OCR shows two circled options — render before authoring), 10 skipped: 9 near-
+duplicate stems of the 2025 EOM paper's physiology concepts (Q43 slow waves, Q48/49 saliva
+composition, Q53 pancreatic secretin, Q57 gallbladder CCK, Q58 NO peristalsis, Q59 MMC, Q60
+swallowing centre) plus Q56 skipped because its keyed answer (gallbladder bile "sodium concentration
+decreased") is medically contestable. Full stems/options read from the OCR cache (pp.5-7). 11 new
+`CON-GIT-*` GI-physiology concepts minted university-blind (gastric/pancreatic/biliary secretion, GI
+hormones, motility), collision-checked, filed under DIS-PHY-T05 with SYS-GIT-T01-S02, grouped into
+`ART-GIT-206DIG-2021EOM-PHYSIOLOGY`. Authored in `question/206-DIG-2021eom-mcq-tranche3.md` (seed
+`seed/206-DIG-2021eom-physiology-tranche3.json`), `concept/206-DIG-2021eom-physiology-tranche3-concepts.md`,
+`article/206-DIG-2021eom-physiology-tranche3-articles.md`. Gate-clean (batch 0 errors; simulate
+created=25/rejected=0/errors=0; audit neutral — 23 category families, no new categories). **56
+questions remain on this paper: Q65-84 Physiology cont'd (renal/metabolism — dedupe against the
+2025 tranche-4 renal/metabolism concepts), Q85-114 Histology, Q115-120 Biochemistry — all keys in
+`coverage/206-DIG-2021eom-triage-keys.txt` (Q72/Q106 flagged ambiguous, render before authoring).**
+Next author starts at Q65.
 
 ## Sources
 
