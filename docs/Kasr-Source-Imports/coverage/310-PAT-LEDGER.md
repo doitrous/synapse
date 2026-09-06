@@ -353,3 +353,27 @@ under **310-PAT** as a distinct **Pharmacology** subject (`pha`), files `310-PAT
 108-INT pharmacology concepts (which sit on `SYS-FND-T04` with `DIS-PHA-T01` as discipline cross-nav).
 File pharma articles/concepts under the appropriate `DIS-PHA-T0x`. `CON-PHA-` prefix has 0 corpus uses
 so far (fresh mint space; still collision-check before minting).
+
+### Follow-up 2026-09-07 — the two remaining candidates triaged (disk access this pass)
+
+Both files in `y3/310 PAT/Pharmacology/Questions & MCQs/` were checked with `pagetext.mjs keys`
++ `grep`; genuine pharma but **neither carries a reliable printed key -> both HELD, 0 authored.**
+
+- **`PHARMA GITTTTTTT.pdf`** — **genuine pharmacology** (cover: "PHARMA (GIT) PREVIOUS YEARS (MCQ)
+  [210] BY: ABOLMAGD"; gastrointestinal pharmacology — antiemetics, antidiarrheals, purgatives, etc.),
+  native text, 62 MCQs in clean single-best 4-option format across 13 pp. **key marker found? NO.**
+  `keys` = **2 keyed / 0 ambiguous / 60 unmarked**; the only two marks (Q50, Q57) are
+  `highlight-fill-yellow` — the same stray yellow batch-highlight artifact this ledger repeatedly
+  flags as "not an answer" (cf. the [196] tags), not a per-question key. `grep` for
+  answer|answers|key|model = **0 hits in 13 pages**; no answer table, no model-answer sheet.
+  **verdict: held-no-key.** (This is the GI subset of the same unsolved Abolmagd pharma bank.)
+- **`Pharma RSPPPPP.pdf`** — **genuine pharmacology** (respiratory pharmacology), native text, 39 MCQs
+  across 7 pp. **key marker found? NO.** `keys` = **1 keyed / 0 ambiguous / 38 unmarked**; the lone
+  mark (Q30) is the same `highlight-fill-yellow` artifact. `grep` answer|key|model = **0 hits in
+  7 pages**; no answer table. **verdict: held-no-key.**
+
+**Conclusion: 310 pharmacology is BLOCKED.** All four named pharma sources are now exhausted —
+`pharmaga` (misfiled ENT), `Pharma MCQ by Abolmagd` (unsolved), `PHARMA GITTTTTTT` (unsolved),
+`Pharma RSPPPPP` (unsolved). **needs Omar: a keyed pharma source** (a printed answer table, a
+consistently circled/coloured correct-OPTION letter, or a separate model-answer PDF) before any
+pharma MCQs can be authored under 310-PAT. No source registered, no content authored this pass.
