@@ -3,9 +3,9 @@
 | cluster | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | bank Introduction + Trematoda MCQ (Q1-19, `8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf`) | 18 | 1 | 0 | 0 | 19 |
-| bank Cestoda MCQ (Q1-21 of 28, answer table p.6) | 20 | 1 | 0 | 7 | 28 |
-| **bank Trematoda + Cestoda clusters total** | **38** | **2** | **0** | 7 (Cestoda Q22-28) | — |
-| 309 INF module (Microbiology + Parasitology sub-corpora) | 38 | 2 | 0 | untriaged | — |
+| bank Cestoda MCQ (Q1-28, answer table p.6) | 25 | 3 | 0 | 0 | 28 |
+| **bank Trematoda + Cestoda clusters total** | **43** | **4** | **0** | 0 | — |
+| 309 INF module (Microbiology + Parasitology sub-corpora) | 43 | 4 | 0 | Nematoda p.7-12, Protozoology p.14-20, Entomology p.22 | — |
 
 ## Module opened
 
@@ -109,9 +109,23 @@ baseline — 292 findings, all the module-wide `needs_evidence`/Draft placeholde
 evidenceBasis/claimIds/spanIds/notes, aliases, reviewDue, arabicLabel, microtopicId, approved*ResourceIds),
 no NEW category type (the count scales with the whole simulated module, not a new defect class).
 
+## Cluster — bank Cestoda tail (Q22-28)
+
+**5/7 authored, 2 held, 0 excluded** (Q22 D indirect cycle=Hymenolepis nana; Q23 C Casoni=immediate
+hypersensitivity; Q24 C anaphylaxis in hydatidosis; Q25 B coenurosis=Taenia multiceps; Q27 C helminths
+by ingestion of flea). Keys read from the printed 'Answers of Cestoda' table p.6. **Q26 HELD** (in-source
+exact duplicate of Q17, corticosteroids-in-cysticercosis, same key C). **Q28 HELD** (unreliable key): the
+table gives Q28 = D (Hymenolepis nana) but the stem 'Cyclops is involved in the life cycle of' points to
+Diphyllobothrium latum (option B) — Cyclops is the copepod first intermediate host of D. latum, not of
+H. nana; a Q8-style key/stem contradiction, held for human adjudication. **5 new concepts minted**
+university-blind under DIS-PAR-T02 (`CON-INF-8EF99977712B01` H. nana indirect cycle, `CON-INF-1AB1AFB917678E`
+Casoni test, `CON-INF-25F2060F654366` hydatid-rupture anaphylaxis, `CON-INF-95155ACD58617A` coenurosis/
+T. multiceps, `CON-INF-6CCC3CAEC2A24F` cestode transmission by flea ingestion), all added to
+`ART-INF-309-CESTODA`. Gates (`.gates/`): **batch** items=25 errors=0; **simulate** batches=4 created=67
+rejected=0 errors=0; **audit** 332 findings, category-neutral vs the 309-INF baseline (only the module-wide
+needs_evidence/Draft placeholder families; no NEW category type — count scales with the added records).
+
 ## Next cluster
 
-Author **Cestoda Q22-28** (7 remaining; key table p.6 already recovered above — HOLD Q26 as an exact
-duplicate of Q17), then the **Nematoda MCQ** slice (p.7-12, answer table p.13); then Protozoology
-(answers p.21) and Entomology (answers p.23). Recover each section's keys from its own printed answer
-table before authoring.
+Author the **Nematoda MCQ** slice (p.7-12, answer table p.13); then Protozoology (answers p.21) and
+Entomology (answers p.23). Recover each section's keys from its own printed answer table before authoring.

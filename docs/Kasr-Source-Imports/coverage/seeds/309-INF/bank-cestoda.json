@@ -1,7 +1,7 @@
 {
   "lane": "KASR-309INF",
   "cluster": "bank-cestoda",
-  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Cestoda section (Q1-28) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.6 'Answers of Cestoda']. This slice authors Q1-21 (~20-item budget); Q22-28 remain untriaged. Q8 held: printed key C (Heterophyes heterophyes) contradicts the stem 'Undercooked meat is the source of infection with' (Heterophyes is fish-borne; meat → Taenia saginata) — an unreliable key, held for human adjudication rather than authored to a wrong fact. 20 authored / 1 held / 0 excluded (of Q1-21).",
+  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Cestoda section (Q1-28) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.6 'Answers of Cestoda']. Whole Cestoda section (Q1-28) now authored. Q8 held: printed key C (Heterophyes heterophyes) contradicts the stem 'Undercooked meat is the source of infection with' (Heterophyes is fish-borne; meat → Taenia saginata). Q26 held: exact duplicate of Q17. Q28 held: printed key D (Hymenolepis nana) contradicts the stem 'Cyclops is involved in the life cycle of' — Cyclops is the intermediate host of Diphyllobothrium latum (option B). Held items adjudicated by human, never authored to a wrong fact. 25 authored / 3 held / 0 excluded (of Q1-28).",
   "defaults": {
     "subject": "inf",
     "status": "Draft",
@@ -349,6 +349,95 @@
       "main_concept": "CON-INF-87482EA4580BA3", "concept_ids": ["CON-INF-87482EA4580BA3"],
       "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
       "learning_objective": "Identify the dog as the definitive host of Echinococcus granulosus."
+    },
+    {
+      "key": "q22", "id": "QST-KASR309INF-BANK-CESTODA-22", "page": 5,
+      "title": "Tapeworm with an indirect life cycle",
+      "question": "Indirect life cycle is found with:",
+      "options": { "A": "Toxocara canis", "B": "Loa loa", "C": "Heterophyes", "D": "Hymenolepis nana" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Toxocara canis has a DIRECT cycle: the embryonated egg is directly infective when swallowed, with no intermediate host required.",
+        "B": "Incorrect in this cestode-section item. Loa loa is a filarial NEMATODE transmitted by the Chrysops fly, not one of the tapeworms this Cestoda question contrasts, so it is not the keyed answer.",
+        "C": "Incorrect in this cestode-section item. Heterophyes is a TREMATODE that needs a snail and a fish; it is a fluke, not a tapeworm, and is not the keyed answer here.",
+        "D": "Correct. Hymenolepis nana is the tapeworm whose cycle can be INDIRECT: the egg is taken up by an arthropod intermediate host (grain beetle or flea) in which it develops into a cysticercoid, and man is then infected by swallowing the infected insect. It is unique among tapeworms in ALSO retaining a direct man-to-man cycle, but the arthropod-mediated (indirect) route is the atomic fact tested here."
+      },
+      "main_concept": "CON-INF-8EF99977712B01", "concept_ids": ["CON-INF-8EF99977712B01"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Hymenolepis",
+      "learning_objective": "Recognise that Hymenolepis nana can have an indirect life cycle using an arthropod intermediate host."
+    },
+    {
+      "key": "q23", "id": "QST-KASR309INF-BANK-CESTODA-23", "page": 5,
+      "title": "Immediate hypersensitivity test in parasitic infection",
+      "question": "The following is an immediate hypersensitivity test:",
+      "options": { "A": "Montenegro test", "B": "Sabin Feldman dye test", "C": "Casoni test", "D": "Cruzin test" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The Montenegro (leishmanin) test is a DELAYED (type IV) hypersensitivity skin test for cutaneous leishmaniasis, read at 48–72 hours, not an immediate reaction.",
+        "B": "Incorrect. The Sabin–Feldman dye test is a serological (antibody) test for toxoplasmosis, not a hypersensitivity skin test at all.",
+        "C": "Correct. The Casoni test is an intradermal injection of sterile hydatid (Echinococcus) fluid antigen that, in a sensitised patient with hydatid disease, produces an IMMEDIATE (type I) wheal-and-flare within about 20 minutes. Being an immediate IgE-mediated reaction distinguishes it from the delayed tests listed. This immediate-hypersensitivity nature of the Casoni test is the fact tested.",
+        "D": "Incorrect. The Cruzin (intradermal T. cruzi antigen) test for Chagas disease is a DELAYED hypersensitivity reaction, not an immediate one."
+      },
+      "main_concept": "CON-INF-1AB1AFB917678E", "concept_ids": ["CON-INF-1AB1AFB917678E"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Identify the Casoni test as an immediate (type I) hypersensitivity test for hydatid disease."
+    },
+    {
+      "key": "q24", "id": "QST-KASR309INF-BANK-CESTODA-24", "page": 6,
+      "title": "Parasitic infection that may cause anaphylaxis",
+      "question": "Anaphylaxis in parasitic infection may occur with:",
+      "options": { "A": "Malaria", "B": "African trypanosomiasis", "C": "Hydatidosis", "D": "Enterobiasis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Malaria is a protozoan blood infection whose hallmark is paroxysmal fever with haemolysis, not anaphylaxis.",
+        "B": "Incorrect. African trypanosomiasis (sleeping sickness) causes chronic lymphadenopathy, wasting and CNS disease, not anaphylaxis.",
+        "C": "Correct. In hydatidosis, leakage or rupture of an Echinococcus hydatid cyst suddenly releases highly antigenic cyst fluid into sensitised tissue, triggering massive type I (IgE-mediated) mast-cell degranulation and ANAPHYLAXIS. This is a feared complication of spontaneous rupture, trauma or surgical spillage of a cyst. Linking anaphylaxis to hydatid cyst rupture is the atomic fact tested.",
+        "D": "Incorrect. Enterobiasis (pinworm) causes perianal pruritus and is not associated with anaphylaxis."
+      },
+      "main_concept": "CON-INF-25F2060F654366", "concept_ids": ["CON-INF-25F2060F654366"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Echinococcus",
+      "learning_objective": "Recognise that rupture of a hydatid cyst can cause anaphylaxis."
+    },
+    {
+      "key": "q25", "id": "QST-KASR309INF-BANK-CESTODA-25", "page": 6,
+      "title": "Cause of coenurosis",
+      "question": "Coenurosis is caused by:",
+      "options": { "A": "Taenia solium", "B": "Taenia multiceps", "C": "Toxocara canis", "D": "Toxocara cati" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Taenia solium's larva is the Cysticercus cellulosae, which causes cysticercosis, not a coenurus.",
+        "B": "Correct. Coenurosis is caused by the larval stage of Taenia multiceps (Multiceps multiceps): the COENURUS is a fluid-filled bladder worm bearing many invaginated scolices, and when man accidentally swallows the eggs the coenurus develops — often in the CNS or eye — producing coenurosis. Linking the coenurus larva to Taenia multiceps is the atomic fact tested.",
+        "C": "Incorrect. Toxocara canis is the dog roundworm (a nematode) causing visceral/ocular larva migrans, not coenurosis.",
+        "D": "Incorrect. Toxocara cati is the cat roundworm (a nematode) causing larva migrans, not coenurosis."
+      },
+      "main_concept": "CON-INF-95155ACD58617A", "concept_ids": ["CON-INF-95155ACD58617A"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Taenia",
+      "learning_objective": "Identify Taenia multiceps as the cause of coenurosis."
+    },
+    {
+      "key": "q26",
+      "hold": "in-source exact duplicate of Q17 ('Corticosteroids are used in cysticercosis treatment to:', identical options and identical printed key C). Q17 is authored; Q26 is held to avoid a duplicate item (flagged in the Cestoda Q1-21 ledger note)."
+    },
+    {
+      "key": "q27", "id": "QST-KASR309INF-BANK-CESTODA-27", "page": 6,
+      "title": "Helminth transmitted by ingestion of a flea",
+      "question": "Some helminths are transmitted by:",
+      "options": { "A": "Bite of flea", "B": "Bite of tick", "C": "Ingestion of flea", "D": "Hookworm infection" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A flea BITE can transmit some bacterial and protozoal agents, but helminths are not acquired through a flea bite.",
+        "B": "Incorrect. Tick bites transmit bacterial, viral and protozoal agents, not helminths.",
+        "C": "Correct. The flea (and the grain beetle) is the intermediate host of Hymenolepis species and of Dipylidium caninum: it harbours the cysticercoid larva, so man or animals become infected by SWALLOWING the infected flea, not by its bite. Transmission by ingestion of the infected insect is the atomic fact tested.",
+        "D": "Incorrect. Hookworm (Ancylostoma/Necator) is acquired by skin penetration of filariform larvae from soil; it is itself a mode of infection, not a route by which other helminths are transmitted, so it does not answer the stem."
+      },
+      "main_concept": "CON-INF-6CCC3CAEC2A24F", "concept_ids": ["CON-INF-6CCC3CAEC2A24F"],
+      "module_subject": "309 INF > Parasitology > Cestoda > Hymenolepis",
+      "field_notes": { "keySource": "printed answer table 'Answers of Cestoda' p.6", "optionNote": "the fourth option 'd) Hookworm infection' is printed floated at the foot of the Q26 column in the two-column layout but belongs to Q27 (Q26 is a 4-option duplicate of Q17); transcribed here as option D." },
+      "learning_objective": "Recognise that some cestodes (Hymenolepis, Dipylidium) are transmitted by ingestion of an infected flea."
+    },
+    {
+      "key": "q28",
+      "hold": "unreliable printed key: the answer table gives Q28 = D (Hymenolepis nana) but the stem is 'Cyclops is involved in the life cycle of:'. Cyclops (a copepod) is the first intermediate host of Diphyllobothrium latum (option B), not of Hymenolepis nana (which uses insect hosts or a direct cycle). The printed key contradicts established parasitology and the stem, so the item is held for human adjudication rather than authored to a wrong fact (never guess a key)."
     }
   ]
 }

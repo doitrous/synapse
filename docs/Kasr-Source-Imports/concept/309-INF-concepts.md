@@ -3680,3 +3680,559 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
 
+
+
+---
+
+# Item
+## id
+CON-INF-8EF99977712B01
+## label
+Hymenolepis nana can have an indirect life cycle via an arthropod host
+## canonical_key
+parasitology.hymenolepis-nana.indirect-cycle-arthropod-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hymenolepis nana can complete an INDIRECT life cycle in which the egg is ingested by an arthropod intermediate host (grain beetle or flea), develops into a cysticercoid, and man is infected by swallowing the infected insect. It is unique among tapeworms in also retaining a direct man-to-man cycle.
+## explicit_objective
+Recognise that Hymenolepis nana can have an indirect life cycle using an arthropod intermediate host.
+## pitfalls
+H. nana is best known for its DIRECT (egg directly infective) cycle; the point tested here is that it can ALSO run an indirect cycle through a grain beetle or flea. Toxocara canis is purely direct.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1AB1AFB917678E
+## label
+Casoni test is an immediate hypersensitivity test for hydatid disease
+## canonical_key
+parasitology.echinococcus.casoni-immediate-hypersensitivity-test
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Casoni test is an intradermal injection of sterile hydatid (Echinococcus) fluid antigen that, in a sensitised patient with hydatid disease, produces an IMMEDIATE (type I) wheal-and-flare within about 20 minutes. Its immediate IgE-mediated nature distinguishes it from delayed hypersensitivity tests.
+## explicit_objective
+Identify the Casoni test as an immediate (type I) hypersensitivity test for hydatid disease.
+## pitfalls
+Contrast with DELAYED (type IV) intradermal tests: Montenegro/leishmanin (leishmaniasis) and Cruzin (Chagas). The Sabin-Feldman dye test is a serological antibody test, not a skin test.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-25F2060F654366
+## label
+Rupture of a hydatid cyst can cause anaphylaxis
+## canonical_key
+parasitology.echinococcus.hydatid-rupture-anaphylaxis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In hydatidosis, leakage or rupture of an Echinococcus hydatid cyst suddenly releases highly antigenic cyst fluid into sensitised tissue, triggering massive type I (IgE-mediated) mast-cell degranulation and ANAPHYLAXIS. This is a feared complication of spontaneous rupture, trauma or surgical spillage of a cyst.
+## explicit_objective
+Recognise that rupture of a hydatid cyst can cause anaphylaxis.
+## pitfalls
+Anaphylaxis here is antigen release from cyst fluid, not a feature of malaria (fever/haemolysis), African trypanosomiasis (chronic wasting/CNS) or enterobiasis (perianal pruritus).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-95155ACD58617A
+## label
+Coenurosis is caused by the larva of Taenia multiceps
+## canonical_key
+parasitology.taenia-multiceps.coenurosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Coenurosis is caused by the larval stage of Taenia multiceps (Multiceps multiceps): the COENURUS is a fluid-filled bladder worm bearing many invaginated scolices, and when man accidentally swallows the eggs the coenurus develops — often in the CNS or eye — producing coenurosis.
+## explicit_objective
+Identify Taenia multiceps as the cause of coenurosis.
+## pitfalls
+Distinguish the larval names: coenurus = Taenia multiceps; Cysticercus cellulosae = T. solium (cysticercosis). Toxocara canis/cati are nematodes causing larva migrans, not coenurosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-6CCC3CAEC2A24F
+## label
+Some cestodes are transmitted by ingestion of an infected flea
+## canonical_key
+parasitology.cestode.transmission-by-ingestion-of-flea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The flea (and the grain beetle) is the intermediate host of Hymenolepis species and of Dipylidium caninum: it harbours the cysticercoid larva, so man or animals become infected by SWALLOWING the infected flea, not by its bite. Transmission is by ingestion of the infected insect.
+## explicit_objective
+Recognise that some cestodes (Hymenolepis, Dipylidium) are transmitted by ingestion of an infected flea.
+## pitfalls
+The route is ingestion of the flea, not a flea or tick BITE (which transmit bacterial/protozoal agents). Hookworm is acquired by skin penetration of soil larvae, a different mechanism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Cestoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+## article_ids
+ART-INF-309-CESTODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.

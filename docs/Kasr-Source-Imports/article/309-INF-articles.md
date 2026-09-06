@@ -200,7 +200,7 @@ Claude
 ## topic
 Parasitology
 ## summary
-This article groups the cestode (tapeworm) facts tested by the Cestoda section of the paper (Q1-21). It covers Taenia (Cysticercus bovis as the larval stage of the beef tapeworm T. saginata, the single cattle intermediate host, the acid-fast/Ziehl-Neelsen-positive taeniid egg, and how T. solium is more dangerous than T. saginata because it causes human cysticercosis — with man a blind dead-end intermediate host and corticosteroids used to cover the inflammation of cyst disintegration), Diphyllobothrium latum (the operculated egg, fish-borne infection, stool diagnosis by operculated eggs without segments, bears as paratenic hosts, and vitamin-B12-deficiency megaloblastic anaemia with neuropathy), Echinococcus granulosus (man as accidental intermediate host, the dog definitive host, the cartwheel daughter-cyst ultrasound sign, and PAIR treatment of hydatid disease) and Hymenolepis nana (eggs directly infective to man, and toxic/allergic — not CNS-invasive — nervous manifestations).
+This article groups the cestode (tapeworm) facts tested by the Cestoda section of the paper (Q1-28), including the tail items on Hymenolepis nana's indirect arthropod cycle, the Casoni immediate-hypersensitivity test and anaphylaxis from hydatid-cyst rupture, coenurosis (Taenia multiceps) and cestode transmission by ingestion of an infected flea. It covers Taenia (Cysticercus bovis as the larval stage of the beef tapeworm T. saginata, the single cattle intermediate host, the acid-fast/Ziehl-Neelsen-positive taeniid egg, and how T. solium is more dangerous than T. saginata because it causes human cysticercosis — with man a blind dead-end intermediate host and corticosteroids used to cover the inflammation of cyst disintegration), Diphyllobothrium latum (the operculated egg, fish-borne infection, stool diagnosis by operculated eggs without segments, bears as paratenic hosts, and vitamin-B12-deficiency megaloblastic anaemia with neuropathy), Echinococcus granulosus (man as accidental intermediate host, the dog definitive host, the cartwheel daughter-cyst ultrasound sign, and PAIR treatment of hydatid disease) and Hymenolepis nana (eggs directly infective to man, and toxic/allergic — not CNS-invasive — nervous manifestations).
 ## sections
 ### Definition
 This article groups the cestode concepts tested by the paper; each linked concept carries one atomic fact about a tapeworm's larval stage, egg, host role, mode of infection, pathology or treatment.
@@ -254,6 +254,11 @@ CON-INF-726FF91F339AD4
 CON-INF-F204D1BF8E7A1B
 CON-INF-1434AF9EDE6F4B
 CON-INF-87482EA4580BA3
+CON-INF-8EF99977712B01
+CON-INF-1AB1AFB917678E
+CON-INF-25F2060F654366
+CON-INF-95155ACD58617A
+CON-INF-6CCC3CAEC2A24F
 ## related_articles
 ART-INF-309-PARA-GENERAL
 ART-INF-309-PARA-TREMATODA

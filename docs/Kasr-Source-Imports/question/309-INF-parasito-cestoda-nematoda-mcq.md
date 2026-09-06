@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Cestoda section (Q1-28) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.6 'Answers of Cestoda']. This slice authors Q1-21 (~20-item budget); Q22-28 remain untriaged. Q8 held: printed key C (Heterophyes heterophyes) contradicts the stem 'Undercooked meat is the source of infection with' (Heterophyes is fish-borne; meat → Taenia saginata) — an unreliable key, held for human adjudication rather than authored to a wrong fact. 20 authored / 1 held / 0 excluded (of Q1-21).
+  Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Cestoda section (Q1-28) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.6 'Answers of Cestoda']. Whole Cestoda section (Q1-28) now authored. Q8 held: printed key C (Heterophyes heterophyes) contradicts the stem 'Undercooked meat is the source of infection with' (Heterophyes is fish-borne; meat → Taenia saginata). Q26 held: exact duplicate of Q17. Q28 held: printed key D (Hymenolepis nana) contradicts the stem 'Cyclops is involved in the life cycle of' — Cyclops is the intermediate host of Diphyllobothrium latum (option B). Held items adjudicated by human, never authored to a wrong fact. 25 authored / 3 held / 0 excluded (of Q1-28).
 
   Import: Admin › Bulk import → question.
 -->
@@ -2761,3 +2761,695 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestod
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-CESTODA-22
+
+## title
+Tapeworm with an indirect life cycle
+
+## question
+Indirect life cycle is found with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Toxocara canis
+
+## explanation_a
+Incorrect. Toxocara canis has a DIRECT cycle: the embryonated egg is directly infective when swallowed, with no intermediate host required.
+
+## answer_b
+Loa loa
+
+## explanation_b
+Incorrect in this cestode-section item. Loa loa is a filarial NEMATODE transmitted by the Chrysops fly, not one of the tapeworms this Cestoda question contrasts, so it is not the keyed answer.
+
+## answer_c
+Heterophyes
+
+## explanation_c
+Incorrect in this cestode-section item. Heterophyes is a TREMATODE that needs a snail and a fish; it is a fluke, not a tapeworm, and is not the keyed answer here.
+
+## answer_d
+Hymenolepis nana
+
+## explanation_d
+Correct. Hymenolepis nana is the tapeworm whose cycle can be INDIRECT: the egg is taken up by an arthropod intermediate host (grain beetle or flea) in which it develops into a cysticercoid, and man is then infected by swallowing the infected insect. It is unique among tapeworms in ALSO retaining a direct man-to-man cycle, but the arthropod-mediated (indirect) route is the atomic fact tested here.
+
+## topic
+Parasitology
+
+## subtopic
+Cestoda
+
+## main_concept
+CON-INF-8EF99977712B01
+
+## concept_ids
+CON-INF-8EF99977712B01
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-CESTODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that Hymenolepis nana can have an indirect life cycle using an arthropod intermediate host.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-CESTODA-23
+
+## title
+Immediate hypersensitivity test in parasitic infection
+
+## question
+The following is an immediate hypersensitivity test:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Montenegro test
+
+## explanation_a
+Incorrect. The Montenegro (leishmanin) test is a DELAYED (type IV) hypersensitivity skin test for cutaneous leishmaniasis, read at 48–72 hours, not an immediate reaction.
+
+## answer_b
+Sabin Feldman dye test
+
+## explanation_b
+Incorrect. The Sabin–Feldman dye test is a serological (antibody) test for toxoplasmosis, not a hypersensitivity skin test at all.
+
+## answer_c
+Casoni test
+
+## explanation_c
+Correct. The Casoni test is an intradermal injection of sterile hydatid (Echinococcus) fluid antigen that, in a sensitised patient with hydatid disease, produces an IMMEDIATE (type I) wheal-and-flare within about 20 minutes. Being an immediate IgE-mediated reaction distinguishes it from the delayed tests listed. This immediate-hypersensitivity nature of the Casoni test is the fact tested.
+
+## answer_d
+Cruzin test
+
+## explanation_d
+Incorrect. The Cruzin (intradermal T. cruzi antigen) test for Chagas disease is a DELAYED hypersensitivity reaction, not an immediate one.
+
+## topic
+Parasitology
+
+## subtopic
+Cestoda
+
+## main_concept
+CON-INF-1AB1AFB917678E
+
+## concept_ids
+CON-INF-1AB1AFB917678E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-CESTODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify the Casoni test as an immediate (type I) hypersensitivity test for hydatid disease.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-CESTODA-24
+
+## title
+Parasitic infection that may cause anaphylaxis
+
+## question
+Anaphylaxis in parasitic infection may occur with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Malaria
+
+## explanation_a
+Incorrect. Malaria is a protozoan blood infection whose hallmark is paroxysmal fever with haemolysis, not anaphylaxis.
+
+## answer_b
+African trypanosomiasis
+
+## explanation_b
+Incorrect. African trypanosomiasis (sleeping sickness) causes chronic lymphadenopathy, wasting and CNS disease, not anaphylaxis.
+
+## answer_c
+Hydatidosis
+
+## explanation_c
+Correct. In hydatidosis, leakage or rupture of an Echinococcus hydatid cyst suddenly releases highly antigenic cyst fluid into sensitised tissue, triggering massive type I (IgE-mediated) mast-cell degranulation and ANAPHYLAXIS. This is a feared complication of spontaneous rupture, trauma or surgical spillage of a cyst. Linking anaphylaxis to hydatid cyst rupture is the atomic fact tested.
+
+## answer_d
+Enterobiasis
+
+## explanation_d
+Incorrect. Enterobiasis (pinworm) causes perianal pruritus and is not associated with anaphylaxis.
+
+## topic
+Parasitology
+
+## subtopic
+Cestoda
+
+## main_concept
+CON-INF-25F2060F654366
+
+## concept_ids
+CON-INF-25F2060F654366
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Cestoda > Echinococcus
+
+## question_only_for
+
+## library_ids
+ART-INF-309-CESTODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that rupture of a hydatid cyst can cause anaphylaxis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-CESTODA-25
+
+## title
+Cause of coenurosis
+
+## question
+Coenurosis is caused by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Taenia solium
+
+## explanation_a
+Incorrect. Taenia solium's larva is the Cysticercus cellulosae, which causes cysticercosis, not a coenurus.
+
+## answer_b
+Taenia multiceps
+
+## explanation_b
+Correct. Coenurosis is caused by the larval stage of Taenia multiceps (Multiceps multiceps): the COENURUS is a fluid-filled bladder worm bearing many invaginated scolices, and when man accidentally swallows the eggs the coenurus develops — often in the CNS or eye — producing coenurosis. Linking the coenurus larva to Taenia multiceps is the atomic fact tested.
+
+## answer_c
+Toxocara canis
+
+## explanation_c
+Incorrect. Toxocara canis is the dog roundworm (a nematode) causing visceral/ocular larva migrans, not coenurosis.
+
+## answer_d
+Toxocara cati
+
+## explanation_d
+Incorrect. Toxocara cati is the cat roundworm (a nematode) causing larva migrans, not coenurosis.
+
+## topic
+Parasitology
+
+## subtopic
+Cestoda
+
+## main_concept
+CON-INF-95155ACD58617A
+
+## concept_ids
+CON-INF-95155ACD58617A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Cestoda > Taenia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-CESTODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify Taenia multiceps as the cause of coenurosis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-CESTODA-27
+
+## title
+Helminth transmitted by ingestion of a flea
+
+## question
+Some helminths are transmitted by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Bite of flea
+
+## explanation_a
+Incorrect. A flea BITE can transmit some bacterial and protozoal agents, but helminths are not acquired through a flea bite.
+
+## answer_b
+Bite of tick
+
+## explanation_b
+Incorrect. Tick bites transmit bacterial, viral and protozoal agents, not helminths.
+
+## answer_c
+Ingestion of flea
+
+## explanation_c
+Correct. The flea (and the grain beetle) is the intermediate host of Hymenolepis species and of Dipylidium caninum: it harbours the cysticercoid larva, so man or animals become infected by SWALLOWING the infected flea, not by its bite. Transmission by ingestion of the infected insect is the atomic fact tested.
+
+## answer_d
+Hookworm infection
+
+## explanation_d
+Incorrect. Hookworm (Ancylostoma/Necator) is acquired by skin penetration of filariform larvae from soil; it is itself a mode of infection, not a route by which other helminths are transmitted, so it does not answer the stem.
+
+## topic
+Parasitology
+
+## subtopic
+Cestoda
+
+## main_concept
+CON-INF-6CCC3CAEC2A24F
+
+## concept_ids
+CON-INF-6CCC3CAEC2A24F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Cestoda > Hymenolepis
+
+## question_only_for
+
+## library_ids
+ART-INF-309-CESTODA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Recognise that some cestodes (Hymenolepis, Dipylidium) are transmitted by ingestion of an infected flea.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Cestoda, p.6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table 'Answers of Cestoda' p.6
+optionNote: the fourth option 'd) Hookworm infection' is printed floated at the foot of the Q26 column in the two-column layout but belongs to Q27 (Q26 is a 4-option duplicate of Q17); transcribed here as option D.
