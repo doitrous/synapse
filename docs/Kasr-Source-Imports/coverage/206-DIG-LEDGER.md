@@ -317,6 +317,37 @@ only [missing-optional-field / blank-without-reason / unknown-resource], 0 new/s
 categories).
 
 206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 38 (anatomy bank: 20+18) = 222 MCQs.
-**Next 206-DIG source:** continue this SAME anatomy bank -- OCR the still-untouched pp.25-54
-(more past exams; the bank is NOT yet exhausted at ~40% dupe), then the unsolved GIT/physio/
-histo dept banks (need a key-recovery pass) -- see `coverage/KAU-Y2-priority-sources.md`.
+
+anatbank-tranche-3 (pp.25-32 OCR'd this pass; 20 authored): OCR'd pp.25-32, which hold three
+further past papers -- the tail of exam D "Anatomy EXAM 2020" (pp.25-27, Q39-53), exam E
+"Anatomy Meg Ques 2018" (pp.28-30, Q1-13) and exam F "2017" (pp.31-32, Q1-10). Keys recovered
+off the pen circle and appended to `coverage/206-DIG-anatomybank-triage-keys.txt`. 20/20
+authored (6 from the 2020 tail: D40,D42,D43,D44,D50,D53; 8 from 2018: E1,E2,E3,E5,E6,E8,E11,E13;
+6 from 2017: F1,F4,F5,F8,F9,F10), 2 held (D39 garbled trigone circle "el:", E4 ureteric-colic
+groin nerve contestable ilioinguinal-vs-genitofemoral), 16 skipped as near-duplicates of
+already-authored 206-DIG content (~42% of keyed items -- NOT >60%, so the source is not yet
+exhausted). Systems covered: anterior/anterolateral abdominal wall (arcuate line & rectus
+sheath, transversus abdominis thoracolumbar origin), diaphragm (oesophageal hiatus = right
+crus, left phrenic pierces the cupola), pancreas (tail = only mobile intraperitoneal part;
+annular pancreas obstructing the 2nd duodenum), spleen (phrenicocolic support), colon (dual
+SMA/IMA transverse-colon supply & splenic-flexure watershed), liver (posterior surface /
+oesophageal groove), anal canal (columns of Morgagni superior-rectal vessels; external-pile
+pudendal pain), and the male urinary/genital tract (membranous urethra in the external
+sphincter, interureteric crest, prostate & scrotum blood supply, left suprarenal->left renal
+vein, superior gluteal from the posterior division of the internal iliac, testis T10
+innervation, vas deferens mesonephric origin). 20 new concepts minted university-blind via
+`mint-concept-id.mjs` conventions (all `CON-GIT-*`, SHA-256 first-14-hex, collision-checked
+against 15618 IDs -- no collisions; note the minter requires a hyphen-free first canonical-key
+segment), filed under DIS-ANA-T05 with SYS-GIT-T01-S01, grouped into a third article
+(`ART-GIT-206DIG-ANATBANK-GROSS-3`); 0 concept reuse this pass (all 20 topics distinct from
+tranches 1-2). Authored in `question/206-DIG-anatomybank-mcq-tranche3.md`, concepts appended to
+`concept/206-DIG-anatomybank-concepts.md`, article appended to
+`article/206-DIG-anatomybank-articles.md`. Gate-clean (batch 0 errors on all three; simulate
+created=79/rejected=0/errors=0; audit neutral vs the 206-DIG baseline -- 24 placeholder families
+[missing-optional-field / blank-without-reason / unknown-resource], 0 new/semantic categories).
+
+206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 58 (anatomy bank: 20+18+20) = 242 MCQs.
+**Next 206-DIG source:** continue this SAME anatomy bank -- OCR the still-untouched pp.33-54
+(the bank is NOT yet exhausted at ~42% dupe; pp.33+ likely hold yet more past exams), then the
+unsolved GIT/physio/histo dept banks (need a key-recovery pass) -- see
+`coverage/KAU-Y2-priority-sources.md`.
