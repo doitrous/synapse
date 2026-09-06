@@ -8,7 +8,7 @@
 | kamal-ch4-image-capture | 76 | 10 | 5 | 91 |
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
-| kamal-ch7-red-eye | 33 | 1 | 170 | 204 |
+| kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -82,6 +82,36 @@
   Answer-key omits rows Q59/Q63/Q72/Q76/Q84/Q172 (HOLD when reached, never guess).
 - NEXT cluster: Ch.7 Q35-onward (Q35 CRAO/acute-red-eye, Q37-Q58 largely single-best; watch the
   Q34-class iridocyclitis-vignette items and T/F 29-case section, out of scope), then Ch.8-15.
+
+## Tranche 14 (2026-09-06): Chapter 7 The red eye Q35-60 — 25 MCQs (1 held)
+- Authored 25 clean single-best 4-option MCQs (Q35-Q58, Q60) into
+  question/315-OPH-kamal-ch7-red-eye-mcq.md (node DIS-OPH-T02, article ART-OPH-315-RED-EYE).
+  Keys from answer-key p.4-5 Ch.7 table (198 answers), each re-verified vs option text:
+  Q35.B Q36.D Q37.D Q38.B Q39.B Q40.C Q41.A Q42.C Q43.D Q44.B Q45.D Q46.D Q47.A Q48.D Q49.C
+  Q50.C Q51.C Q52.B Q53.C Q54.A Q55.B Q56.A Q57.B Q58.A Q60.C.
+- Held 1: Q59 — answer-key table omits the Q59 row (skips Q58 -> Q60); no printed key, held per never-guess.
+- Concepts: 16 new on DIS-OPH-T02 (acute-red-eye excludes CRAO CON-MUL-0F9086FC8DA905 Q35;
+  trachoma WHO grading CON-MUL-2E5B8F3E771280 Q36; ACG mid-dilated oval pupil CON-MUL-9BB8438013F33E Q37;
+  anterior-uveitis miosis CON-MUL-18D8C56EF5A5AB Q38; postop endophthalmitis CON-MUL-6D133057229252 Q40/Q44;
+  HSV diminished corneal sensation CON-MUL-41045F2580B6EF Q41; eye-patching contraindication
+  CON-MUL-F5C4D9E79C219C Q42; ACG acute features not disc cupping CON-MUL-2F39F455DD9DB7 Q45; corneal-ulcer
+  complications CON-MUL-ADC0C8C8CA0B6F Q47; cavernous sinus thrombosis CON-MUL-6C9625E4C9E07F Q49;
+  trachomatous pannus CON-MUL-D689DE137A5321 Q50; Herbert's pits CON-MUL-FA9B26B2FA786D Q52; adherent
+  leucoma shallow chamber CON-MUL-C4478687FCFB95 Q54; trachoma chlamydia/sulphonamide CON-MUL-A49B3969FD069A
+  Q56; membranous conjunctivitis/diphtheria CON-MUL-7E9961CBBBAD79 Q57; descemetocele CON-MUL-D9AC54D7BB2C05
+  Q60). All 16 added to ART-OPH-315-RED-EYE related_concepts.
+- Reused 7 existing concepts: corneal-ulcer treatment CON-MUL-C23E4F2E6D41CF (Q39); miotics contraindicated
+  in uveitis CON-MUL-746158B6BA4249 (Q43/Q51); viral conjunctivitis CON-MUL-7BECB4DDEE36A9 (Q46); pterygium
+  CON-MUL-1F059B701412E8 (Q48); ciliary injection CON-MUL-227CA5096BC668 (Q53); trachoma cicatricial
+  CON-MUL-A4352E8F366A27 (Q55); vernal keratoconjunctivitis CON-MUL-9384A56F70F1C3 (Q58).
+- Gates: batch 58 items / 0 errors (with concept+article+resource siblings); simulate 296 created / 0
+  rejected / 0 errors; audit NEUTRAL vs the 315-OPH Draft baseline (29 category types both before and
+  after this slice, 0 NEW-ONLY).
+- Ch.7 now 58 authored + 2 held (Q29 dup, Q59 no-key) = 60; remaining 144 (Q61-Q204 minus later no-key rows).
+  Answer-key omits rows Q59/Q63/Q72/Q76/Q84/Q172 (HOLD when reached, never guess).
+- Deferred-for-adjudication count unchanged (~46): this slice added no multi-true/sub-4-option holds.
+- NEXT cluster: Ch.7 Q61-onward (Q63 no-key; watch multi-statement vignettes + the T/F 29-case section,
+  out of scope), then Ch.8 The retina.
 
 ## Tranche 12 (2026-09-06): Chapter 7 The red eye OPENED — Q1-8
 - Opened Ch.7 in new file question/315-OPH-kamal-ch7-red-eye-mcq.md on node DIS-OPH-T02 (Anterior segment)
