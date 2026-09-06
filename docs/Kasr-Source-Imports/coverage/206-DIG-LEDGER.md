@@ -9,6 +9,8 @@
 | 2025-eom-histology-tranche-5 (Q85-104, same paper) | 20 | 0 | 16 | 36 |
 | 2025-eom-tranche-6 (Q105-120, same paper) | 16 | 0 | 0 | 16 |
 | **2025 EOM paper total** (`EOM - 206 solved (197).pdf`) | **120** | **0** | **0** | **120** |
+| 2021-eom-anatomy-tranche-1 (Q1-27 slice, `EOM - DIG-206 EOM (solved).pdf`) | 20 | 0 | 7 skipped-dupe | 27 |
+| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **20** | **0** | **93** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
@@ -106,6 +108,39 @@ baseline — 23 category types in both, 0 new categories, total 150 vs 196 propo
 fewer records). **The 2025 EOM paper is now fully authored, 120/120, 0 held.** Next
 206-DIG work is the 9 remaining tier 1-3 papers and 31 tier-5 banks for this module (all
 untriaged) — see `coverage/KAU-Y2-priority-sources.md`.
+
+## 2021 EOM paper — `EOM - DIG-206 EOM (solved).pdf` (opens the module's next paper)
+
+2021-eom-anatomy-tranche-1: 20/20 authored (0 held), from the Q1-27 slice of the 120-MCQ
+2021 End-of-Module paper (sourceId `src_d6c329d7d41d74b4662f`; printed calendar sitting
+`2021/02/17` on p.13, so `examSittingYear` 2021 — batch number not printed on the file).
+Key marker is the same solid red circle over the option (OCR `@`) as the 2025 paper; Q1-30
+(pp.1-3) were RENDER-VERIFIED at 160 dpi against the circle and every authored key read
+directly off it — 0 ambiguous. Authored Q1,2,3,5,6,7,9,10,12,13,14,15,17,19,20,22,23,24,25,27.
+**7 items in this range were skipped as near-duplicate STEMS of the already-authored 2025
+paper** (not re-authored, counted): Q4 (spleen supplied by celiac trunk), Q8 (posterior
+boundary of epiploic foramen = IVC), Q11 (nerve on anterior psoas = genitofemoral), Q16
+(iliohypogastric not a spermatic-cord content), Q21 (gall-bladder referred pain = right
+shoulder), Q26 (rectus sheath above costal margin = external oblique aponeurosis) — plus
+Q18 (caecum) deferred as a topic overlap. Dupe rate ≈ 7/27 (26%) in the anatomy head.
+18 concepts newly minted university-blind via `mint-concept-id.mjs` (all `CON-GIT-*`,
+SHA-256 collision-checked against 15618 IDs — no collisions), filed under DIS-ANA-T05 with
+SYS-GIT-T01-S01 cross-nav; Q14 and Q15 REUSE the existing 2025-paper concepts
+`CON-GIT-BD6F8A06B226B6` (inferior epigastric artery) and `CON-GIT-073DD62CC12B35` (inguinal
+ligament) rather than re-minting. Grouped into one library article
+(`ART-GIT-206DIG-2021EOM-ANATOMY`). Authored in
+`question/206-DIG-2021eom-mcq-tranche1.md` (seed `seed/206-DIG-2021eom-anatomy-tranche1.json`),
+`concept/206-DIG-2021eom-anatomy-tranche1-concepts.md`,
+`article/206-DIG-2021eom-anatomy-tranche1-articles.md`; resource registered in
+`evidence/206-DIG-resources.md`. Gate-clean (batch 0 errors on all three; simulate
+created=64/rejected=0/errors=0 with the tranche-2 concept file supplying the two reused
+concepts; audit neutral vs the 206-DIG baseline — 23 category types, 0 new categories).
+**93 questions remain on this paper: anatomy tail Q28-42 minus the further dupes (Q28 IMA
+territory reuses this tranche's new IMA concept; Q29/Q30 are dupes), then Physiology
+Q43-84, Histology Q85-114 and Biochemistry Q115-120 — all keys recovered in
+`coverage/206-DIG-2021eom-triage-keys.txt` (Q1-30 render-verified; Q31-120 OCR-only, three
+flagged ambiguous — Q37, Q45, Q72, Q106 — to render before authoring).** Next author starts
+at Q28.
 
 ## Sources
 

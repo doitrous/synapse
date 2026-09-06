@@ -40,3 +40,41 @@ Kasr Al Ainy 206 DIG End-of-Module examination, printed sitting date 16/1/2025 (
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_d6c329d7d41d74b4662f
+## title
+EOM - DIG-206 EOM (solved)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/EOM/EOM - DIG-206 EOM (solved).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+## sha256
+d6c329d7d41d74b4662f456db973ad777417b9c044463933fec1d076cc75fa36
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG End-of-Module examination, printed sitting date 2021/02/17 (calendar label on the file; batch number not printed). 120 MCQs spanning Anatomy (Q1-42), Physiology (Q43-84), Histology (Q85-114) and Biochemistry (Q115-120) of the digestive/renal/metabolism module. No native text layer (CamScanner scan); OCR'd via scripts/content/pagetext.mjs. Correct answer marked by a solid red/orange circle over the option letter; Q1-30 render-verified at 160 dpi against the circle -- see coverage/206-DIG-2021eom-triage-keys.txt. Opens the module's next paper after the fully-authored 2025 EOM (src_e3657885d0289f6df4d4).
+## confidence
+0.9
+## is_assessment
+true
