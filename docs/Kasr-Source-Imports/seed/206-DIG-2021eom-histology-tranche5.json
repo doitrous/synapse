@@ -1,0 +1,241 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "2021eom-histology",
+  "header": "KASR-206DIG · 2021 EOM histology tranche 5 (Q85-114 slice, 9 authored) — Kasr Al Ainy 206 DIG End-of-Module (solved), sitting 2021/02/17, sourceId src_d6c329d7d41d74b4662f. Full stems/options from the pagetext OCR cache (pp.10-12); each keyed answer matches the red circle. HARD-deduped against the fully-authored 2025 EOM histology tranches (5+6): 20 near-duplicate stems skipped (Q85 taste bud, Q86 keratinized mucosa, Q87 vermilion, Q90 enterocyte brush border, Q91 oesophagus, Q92 appendix lymphoid, Q93 pylorus, Q95 large intestine/tenia, Q97 centroacinar, Q98 parotid serous, Q100 striated duct, Q101 Kupffer, Q102 space of Disse [also a contestable double-true stem], Q103 gall bladder, Q104 islet beta cell, Q105 hepatic lobule, Q107 JG apparatus, Q108 filtration slit, Q111 podocyte, Q113 bladder muscularis). Q106 held (OCR garbled markers — render). Histology dupe rate ~68% for Q85-114 (20 skipped + 1 held of 30). 9 new concepts.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Histology",
+    "exam_weight_by_year": { "KAU_Y2": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-2021EOM-GIHISTOLOGY"],
+    "resource_ids": ["src_d6c329d7d41d74b4662f"],
+    "source_citation": "Kasr Al Ainy 206 DIG End-of-Module 2021 (solved), {page}",
+    "setting": "Academic",
+    "topic": "Histology",
+    "difficulty": "Moderate",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q88", "id": "QST-KASR206DIG-2021EOM-88", "page": "Q88",
+      "title": "Plicae circulares of the small intestine",
+      "question": "Choose the correct statement concerning the histology of the small intestine:",
+      "options": {
+        "A": "Villi are folds of the intestinal mucosa and submucosa",
+        "B": "Plicae circulares are folds with a mucosal covering and a submucosal core",
+        "C": "Microvilli decrease the surface area available for absorption",
+        "D": "Intestinal crypts are simple branched alveolar glands"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Villi are finger-like projections of the mucosa only (epithelium plus lamina propria core); it is the plicae circulares, not the villi, that also contain a submucosal core.",
+        "B": "Correct. The plicae circulares (valves of Kerckring) are permanent circular folds whose surface is mucosa but whose core contains submucosa; this is what distinguishes them from villi, which are mucosal projections only. These folds greatly increase the absorptive surface of the small intestine, most prominently in the jejunum. Villi, microvilli and plicae circulares together amplify the surface area several hundred-fold.",
+        "C": "Incorrect. Microvilli (the brush border) markedly increase, not decrease, the absorptive surface area of each enterocyte.",
+        "D": "Incorrect. The intestinal crypts of Lieberkuhn are simple tubular glands, not branched alveolar glands."
+      },
+      "main_concept": "CON-GIT-2792F6ADC5B136",
+      "concept_ids": ["CON-GIT-2792F6ADC5B136"],
+      "subtopic": "Small intestine",
+      "learning_objective": "Distinguish plicae circulares (mucosal fold with a submucosal core) from villi (mucosa only)."
+    },
+    {
+      "key": "q89", "id": "QST-KASR206DIG-2021EOM-89", "page": "Q89",
+      "title": "Histology of the anal canal",
+      "question": "Regarding the histology of the anal canal, choose the correct statement:",
+      "options": {
+        "A": "The haemorrhoidal plexuses are arterial and lie in the lamina propria",
+        "B": "The epithelium lining the transitional (colorectal) zone is simple squamous",
+        "C": "The inner circular layer of the muscularis externa forms the external anal sphincter",
+        "D": "The muscularis mucosae breaks up and disappears at the level of the pectinate line"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The haemorrhoidal plexuses are venous, not arterial, and lie in the submucosa; internal haemorrhoids are dilatations of the submucosal venous plexus above the pectinate line.",
+        "B": "Incorrect. The transitional zone is lined by stratified epithelium (transitioning from simple columnar of the rectum to stratified squamous of the anal skin), not simple squamous.",
+        "C": "Incorrect. The external anal sphincter is formed of skeletal (voluntary) muscle; it is the thickened inner circular smooth muscle that forms the internal anal sphincter.",
+        "D": "Correct. At the pectinate (dentate) line the muscularis mucosae breaks up and disappears, one of the histological landmarks of the anorectal junction. Above this line the mucosa has the colorectal pattern with a muscularis mucosae; below it the lining becomes stratified squamous of the anal skin without a muscularis mucosae. This transition coincides with the change in epithelium, blood supply and innervation across the pectinate line."
+      },
+      "main_concept": "CON-GIT-AC5B1E92D702C9",
+      "concept_ids": ["CON-GIT-AC5B1E92D702C9"],
+      "subtopic": "Anal canal",
+      "learning_objective": "State that the muscularis mucosae breaks up and disappears at the pectinate line of the anal canal."
+    },
+    {
+      "key": "q94", "id": "QST-KASR206DIG-2021EOM-94", "page": "Q94",
+      "title": "Crypts of Lieberkuhn",
+      "question": "The crypts of Lieberkuhn are:",
+      "options": {
+        "A": "Finger-like projections of the intestinal mucosa into the lumen",
+        "B": "Simple branched alveolar glands",
+        "C": "Simple tubular glands located between the bases of the intestinal villi",
+        "D": "Circular folds of the intestinal mucosa and submucosa"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Finger-like mucosal projections into the lumen are the villi; the crypts open at the base between the villi and extend downward into the mucosa.",
+        "B": "Incorrect. The crypts are simple tubular glands, not branched alveolar glands.",
+        "C": "Correct. The crypts (intestinal glands) of Lieberkuhn are simple tubular glands that open on the mucosal surface between the bases of adjacent villi and extend down to the muscularis mucosae. They house the stem cells that renew the epithelium, together with Paneth cells at their base and enteroendocrine and goblet cells along their walls. Their location between villus bases is the defining histological feature tested here.",
+        "D": "Incorrect. Circular folds of mucosa and submucosa are the plicae circulares, a different structure from the crypts."
+      },
+      "main_concept": "CON-GIT-F8680ABE6310FE",
+      "concept_ids": ["CON-GIT-F8680ABE6310FE"],
+      "subtopic": "Intestinal glands",
+      "learning_objective": "Identify the crypts of Lieberkuhn as simple tubular glands lying between the bases of the villi."
+    },
+    {
+      "key": "q96", "id": "QST-KASR206DIG-2021EOM-96", "page": "Q96",
+      "title": "Oxyntic (parietal) cells of the stomach",
+      "question": "Regarding the oxyntic (parietal) cells of the gastric glands, which of the following is true?",
+      "options": {
+        "A": "Their cytoplasm shows deep basal basophilia",
+        "B": "They are present mainly at the base of the pyloric glands",
+        "C": "They contain basal electron-dense (secretory) granules",
+        "D": "They contain intracellular canaliculi"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Parietal cells are strongly acidophilic (eosinophilic) because of their abundant mitochondria; deep basophilia is a feature of the pepsinogen-rich chief (peptic) cells.",
+        "B": "Incorrect. Parietal cells are concentrated in the oxyntic (gastric/fundic) glands of the body and fundus, especially the neck and upper region, not at the base of the pyloric glands.",
+        "C": "Incorrect. Parietal cells do not store basal electron-dense secretory granules; abundant apical granules are a feature of chief cells (zymogen) or basal granules of enteroendocrine cells.",
+        "D": "Correct. The parietal (oxyntic) cell is characterised by a deep intracellular canaliculus, an invagination of the apical plasma membrane lined by microvilli, together with an associated tubulovesicular system. On stimulation the tubulovesicles fuse with the canalicular membrane, expanding the microvillous surface for hydrochloric acid secretion. This canalicular system is the hallmark ultrastructural feature of the acid-secreting parietal cell."
+      },
+      "main_concept": "CON-GIT-707867BD9C2653",
+      "concept_ids": ["CON-GIT-707867BD9C2653"],
+      "subtopic": "Stomach",
+      "learning_objective": "Identify the intracellular canaliculus as the hallmark feature of the acidophilic parietal cell.",
+      "topic": "Histology"
+    },
+    {
+      "key": "q99", "id": "QST-KASR206DIG-2021EOM-99", "page": "Q99",
+      "title": "Histology of the submandibular gland",
+      "question": "Which of the following is true regarding the human submandibular gland?",
+      "options": {
+        "A": "It has pure serous acini only",
+        "B": "Its stroma is formed of thick connective-tissue trabeculae",
+        "C": "Most of its acini are mucous and mucoserous",
+        "D": "Its main excretory duct is called Wharton's duct"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The submandibular gland is a mixed gland; although it is predominantly serous, it also contains mucous acini and serous demilunes, so it is not purely serous (the purely serous gland is the parotid).",
+        "B": "Incorrect. Its capsule and septa are relatively delicate connective tissue; thick, prominent trabeculae are not a distinguishing histological feature of this gland.",
+        "C": "Incorrect. Most of its acini are serous, with a minority mucous/mixed; the predominantly mucous major gland is the sublingual.",
+        "D": "Correct. The main excretory duct of the submandibular gland is Wharton's duct, which opens at the sublingual caruncle beside the frenulum of the tongue. Recognising the named main ducts is a standard histology/anatomy point: Wharton's duct for the submandibular, Stensen's duct for the parotid. This is the correct statement among the options."
+      },
+      "main_concept": "CON-GIT-998360CC4818EB",
+      "concept_ids": ["CON-GIT-998360CC4818EB"],
+      "subtopic": "Salivary glands",
+      "learning_objective": "Recall that the submandibular gland is predominantly serous and drains through Wharton's duct."
+    },
+    {
+      "key": "q109", "id": "QST-KASR206DIG-2021EOM-109", "page": "Q109",
+      "subject": "renal",
+      "library_ids": ["ART-REN-206DIG-2021EOM-RENHISTOLOGY"],
+      "title": "Mesangial cells of the renal corpuscle",
+      "question": "Regarding the mesangial cells of the renal corpuscle, which of the following is true?",
+      "options": {
+        "A": "They are acidophilic cells rich in ribosomes",
+        "B": "They have a contractile function",
+        "C": "They are the lacis cells located at the urinary pole",
+        "D": "They are located only between the glomerular capillaries (intraglomerular)"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Mesangial cells are modified pericyte-like cells; they are not described as acidophilic ribosome-rich cells (that description fits protein-synthesising cells such as plasma cells, not mesangial cells).",
+        "B": "Correct. Mesangial cells are contractile, phagocytic supporting cells: their contraction can alter the glomerular capillary surface area and hence the filtration rate, and they also clear trapped macromolecules and secrete matrix and cytokines. This contractile, regulatory role is their key functional feature. They respond to angiotensin II and other vasoactive agents.",
+        "C": "Incorrect. The lacis (extraglomerular mesangial) cells sit at the vascular pole within the juxtaglomerular apparatus, not at the urinary pole; intraglomerular mesangial cells lie among the capillaries.",
+        "D": "Incorrect. Mesangial cells exist in two populations: intraglomerular (between the capillaries) and extraglomerular (lacis cells at the vascular pole), so they are not located only between the glomerular capillaries."
+      },
+      "main_concept": "CON-REN-5FEC7C2C38E5AF",
+      "concept_ids": ["CON-REN-5FEC7C2C38E5AF"],
+      "module_subject": "206 DIG > Histology > Renal corpuscle",
+      "subtopic": "Renal corpuscle",
+      "learning_objective": "State that mesangial cells are contractile (and phagocytic) supporting cells of the glomerulus."
+    },
+    {
+      "key": "q110", "id": "QST-KASR206DIG-2021EOM-110", "page": "Q110",
+      "subject": "renal",
+      "library_ids": ["ART-REN-206DIG-2021EOM-RENHISTOLOGY"],
+      "title": "Epithelium of the prostatic urethra",
+      "question": "Which statement is correct regarding the prostatic part of the male urethra?",
+      "options": {
+        "A": "It is lined by transitional epithelium (urothelium)",
+        "B": "The ducts of the glands of Littre open into it",
+        "C": "It is surrounded by the external urethral sphincter",
+        "D": "It lies within the corpus spongiosum"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The prostatic urethra, the first part of the male urethra as it passes through the prostate, is lined by transitional epithelium (urothelium) continuous with that of the bladder. Further along, the membranous and penile parts change to pseudostratified/stratified columnar and finally stratified squamous near the meatus. The urothelial lining of the prostatic urethra is the correct statement here.",
+        "B": "Incorrect. The mucous glands of Littre open mainly into the penile (spongy) urethra, not the prostatic urethra.",
+        "C": "Incorrect. The external (striated) urethral sphincter surrounds the membranous urethra as it crosses the urogenital diaphragm, not the prostatic urethra.",
+        "D": "Incorrect. The prostatic urethra lies within the prostate gland; it is the penile urethra that runs within the corpus spongiosum."
+      },
+      "main_concept": "CON-REN-8F8D3AE6959A55",
+      "concept_ids": ["CON-REN-8F8D3AE6959A55"],
+      "module_subject": "206 DIG > Histology > Urethra",
+      "subtopic": "Urethra",
+      "learning_objective": "Recall that the prostatic urethra is lined by transitional epithelium (urothelium)."
+    },
+    {
+      "key": "q112", "id": "QST-KASR206DIG-2021EOM-112", "page": "Q112",
+      "subject": "renal",
+      "library_ids": ["ART-REN-206DIG-2021EOM-RENHISTOLOGY"],
+      "title": "Intercalated cells of the collecting ducts",
+      "question": "Regarding the intercalated cells lining the collecting tubules, which of the following is true?",
+      "options": {
+        "A": "They show a single central cilium",
+        "B": "They have numerous basal infoldings like the proximal tubule",
+        "C": "They are of alpha and beta types",
+        "D": "They have very few organelles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A single central cilium is a feature of the principal (light) cells of the collecting duct, not the intercalated (dark) cells.",
+        "B": "Incorrect. Prominent basal infoldings packed with mitochondria characterise the proximal (and distal) convoluted tubule cells; intercalated cells have abundant mitochondria and apical microplicae rather than the deep basal infoldings of the proximal tubule.",
+        "C": "Correct. The intercalated (dark) cells of the collecting duct occur as two functional types: alpha-intercalated cells secrete H+ (via apical H+ ATPase and H+/K+ ATPase) and reabsorb bicarbonate, while beta-intercalated cells secrete bicarbonate and reabsorb H+. This alpha/beta division lets the collecting duct handle either acid or base loads, and is the correct descriptive feature. They are interspersed among the more numerous principal cells.",
+        "D": "Incorrect. Intercalated cells are rich in mitochondria and cytoplasmic organelles (reflecting their active ion transport), so 'very few organelles' is wrong."
+      },
+      "main_concept": "CON-REN-CB9577FA589C0B",
+      "concept_ids": ["CON-REN-CB9577FA589C0B"],
+      "module_subject": "206 DIG > Histology > Renal tubules",
+      "subtopic": "Collecting duct",
+      "learning_objective": "State that collecting-duct intercalated cells are of alpha (acid-secreting) and beta (bicarbonate-secreting) types."
+    },
+    {
+      "key": "q114", "id": "QST-KASR206DIG-2021EOM-114", "page": "Q114",
+      "subject": "renal",
+      "library_ids": ["ART-REN-206DIG-2021EOM-RENHISTOLOGY"],
+      "title": "Histology of the distal convoluted tubule",
+      "question": "Regarding the distal convoluted tubule (DCT), which of the following is true?",
+      "options": {
+        "A": "It is lined by tall pyramidal cells",
+        "B": "Its lining cells have a deeply basophilic cytoplasm",
+        "C": "Its apical cell surface bears a dense, tall microvillous brush border",
+        "D": "It shows extensive basolateral interdigitations with indistinct cell boundaries"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The DCT is lined by low cuboidal cells, not tall pyramidal cells.",
+        "B": "Incorrect. Its cytoplasm is paler and less acidophilic than the proximal tubule and is not deeply basophilic.",
+        "C": "Incorrect. A tall, dense microvillous brush border is the hallmark of the proximal convoluted tubule; the DCT has only sparse, short microvilli, so its lumen appears clearer and wider.",
+        "D": "Correct. The distal convoluted tubule cells show extensive basolateral membrane interdigitations with neighbouring cells (and basal infoldings packed with mitochondria), which makes the lateral cell boundaries indistinct in the light microscope. This basolateral amplification supports active sodium reabsorption. Together with the absence of a prominent brush border and the wider, clearer lumen, it distinguishes the DCT from the proximal tubule."
+      },
+      "main_concept": "CON-REN-CFECF04B8063CE",
+      "concept_ids": ["CON-REN-CFECF04B8063CE"],
+      "module_subject": "206 DIG > Histology > Renal tubules",
+      "subtopic": "Renal tubules",
+      "learning_objective": "Recognise the DCT by its extensive basolateral interdigitations, indistinct boundaries and lack of a brush border."
+    },
+    { "key": "q106", "hold": "OCR shows garbled/ambiguous markers on the exocrine-pancreas stem (options a and b both partly circled); render the single red circle before authoring (flagged ambiguous in triage)." }
+  ]
+}

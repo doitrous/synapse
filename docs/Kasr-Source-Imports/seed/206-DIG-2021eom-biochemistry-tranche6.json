@@ -1,0 +1,149 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "2021eom-biochemistry",
+  "header": "KASR-206DIG · 2021 EOM biochemistry tranche 6 (Q115-120 slice, 5 authored) — Kasr Al Ainy 206 DIG End-of-Module (solved), sitting 2021/02/17, sourceId src_d6c329d7d41d74b4662f. Full stems/options from the pagetext OCR cache (pp.12-13); each keyed answer matches the red circle. The 2025 EOM biochemistry section was entirely lipid/liver, so this carbohydrate/protein-digestion and pancreatic-enzyme section is genuinely FRESH: only Q117 skipped (steatorrhoea/pancreatic-lipase dupe of the 2025 lipid-malabsorption concept). 5 new fnd (Foundations) concepts minted university-blind, filed under DIS-BIO-T04/T07 with SYS-GIT-T01.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Biochemistry",
+    "exam_weight_by_year": { "KAU_Y2": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-2021EOM-BIOCHEM"],
+    "resource_ids": ["src_d6c329d7d41d74b4662f"],
+    "source_citation": "Kasr Al Ainy 206 DIG End-of-Module 2021 (solved), {page}",
+    "setting": "Academic",
+    "topic": "Biochemistry",
+    "difficulty": "Easy",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q115", "id": "QST-KASR206DIG-2021EOM-115", "page": "Q115",
+      "title": "Enzyme deficient in lactose intolerance",
+      "question": "Lactose intolerance is a condition that occurs because of a deficiency of which of the following enzymes?",
+      "options": {
+        "A": "Gluten",
+        "B": "Maltase",
+        "C": "Lactase",
+        "D": "Pepsin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Gluten is a wheat storage protein, not an enzyme; sensitivity to it causes coeliac disease, which is unrelated to lactose digestion.",
+        "B": "Incorrect. Maltase hydrolyses maltose to glucose; its deficiency would impair starch-derived maltose digestion, not lactose.",
+        "C": "Correct. Lactose intolerance results from a deficiency of intestinal lactase (a brush-border beta-galactosidase), the enzyme that splits lactose into glucose and galactose. Undigested lactose remains osmotically active in the gut lumen and is fermented by colonic bacteria, causing bloating, cramps and osmotic diarrhoea after dairy. Lactase deficiency is the commonest disaccharidase deficiency worldwide.",
+        "D": "Incorrect. Pepsin is a gastric protease that digests protein, not the disaccharide lactose."
+      },
+      "main_concept": "CON-GIT-C41B9871913142",
+      "concept_ids": ["CON-GIT-C41B9871913142"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion",
+      "subtopic": "Carbohydrate digestion",
+      "learning_objective": "Identify lactase deficiency as the cause of lactose intolerance.",
+      "clinical_relevance": 0.6
+    },
+    {
+      "key": "q116", "id": "QST-KASR206DIG-2021EOM-116", "page": "Q116",
+      "title": "Main lipid component of chylomicrons",
+      "question": "Chylomicrons are composed mainly of:",
+      "options": {
+        "A": "Triacylglycerol (TAG)",
+        "B": "Cholesterol",
+        "C": "Free fatty acids",
+        "D": "Phospholipids"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Chylomicrons are the largest and least dense lipoproteins and are composed mainly of triacylglycerol (about 85-90% by mass), the dietary fat absorbed from the intestine. They carry this exogenous triacylglycerol from the gut, through the lymph, to peripheral tissues where lipoprotein lipase releases the fatty acids. Their very high triacylglycerol content is why they scatter light and make post-prandial plasma turbid.",
+        "B": "Incorrect. Cholesterol is only a minor component of chylomicrons; cholesterol-rich particles are the LDL fraction.",
+        "C": "Incorrect. Free fatty acids are transported in blood bound to albumin, not packaged as the core of chylomicrons.",
+        "D": "Incorrect. Phospholipids form only a thin surface monolayer of the chylomicron, not its bulk; the core is triacylglycerol."
+      },
+      "main_concept": "CON-GIT-8805B279D1259E",
+      "concept_ids": ["CON-GIT-8805B279D1259E"],
+      "module_subject": "206 DIG > Biochemistry > Lipid absorption",
+      "subtopic": "Lipoprotein composition",
+      "learning_objective": "State that chylomicrons are composed mainly of triacylglycerol."
+    },
+    {
+      "key": "q118", "id": "QST-KASR206DIG-2021EOM-118", "page": "Q118",
+      "title": "End product of protein digestion",
+      "question": "The end product of protein digestion in the gastrointestinal tract is:",
+      "options": {
+        "A": "Dipeptide",
+        "B": "Tripeptide",
+        "C": "Polypeptide",
+        "D": "Amino acid"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dipeptides are intermediate products; most are further hydrolysed by brush-border and cytoplasmic peptidases before or after absorption.",
+        "B": "Incorrect. Tripeptides are likewise intermediates that are largely split to amino acids by intracellular peptidases.",
+        "C": "Incorrect. Polypeptides are early, partial products of gastric and pancreatic protease action, not the final product.",
+        "D": "Correct. The final end products of complete protein digestion are free amino acids, produced by the combined action of gastric pepsin, pancreatic proteases (trypsin, chymotrypsin, carboxypeptidases, elastase) and intestinal brush-border and cytoplasmic peptidases. Small di- and tri-peptides are also absorbed but are hydrolysed to amino acids inside the enterocyte, so amino acids are what enter the portal blood. Amino acids are therefore the definitive end product."
+      },
+      "main_concept": "CON-GIT-7D5F446390BB0E",
+      "concept_ids": ["CON-GIT-7D5F446390BB0E"],
+      "module_subject": "206 DIG > Biochemistry > Protein digestion",
+      "subtopic": "Protein digestion",
+      "learning_objective": "State that free amino acids are the end product of protein digestion."
+    },
+    {
+      "key": "q119", "id": "QST-KASR206DIG-2021EOM-119", "page": "Q119",
+      "title": "Component not found in pancreatic juice",
+      "question": "Pancreatic juice contains all of the following EXCEPT:",
+      "question_type": "Negative-stem single best answer",
+      "options": {
+        "A": "Trypsinogen",
+        "B": "Lipase",
+        "C": "Cholecystokinin",
+        "D": "Chymotrypsinogen"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the answer. Trypsinogen is a pancreatic zymogen secreted in the juice and activated to trypsin by enteropeptidase in the duodenum.",
+        "B": "Incorrect as the answer. Pancreatic lipase is a major enzyme of pancreatic juice, responsible for triacylglycerol digestion.",
+        "C": "Correct. Cholecystokinin is not a component of pancreatic juice; it is a hormone secreted by the duodenal I cells that stimulates the pancreatic acinar cells to release enzyme-rich juice. It acts on the pancreas rather than being contained within its secretion, so it is the exception. The other options are all genuine constituents of pancreatic juice.",
+        "D": "Incorrect as the answer. Chymotrypsinogen is another pancreatic zymogen in the juice, activated to chymotrypsin by trypsin."
+      },
+      "main_concept": "CON-GIT-559F93165D42DD",
+      "concept_ids": ["CON-GIT-559F93165D42DD"],
+      "module_subject": "206 DIG > Biochemistry > Pancreatic secretion",
+      "subtopic": "Pancreatic enzymes",
+      "learning_objective": "Recognise cholecystokinin as a hormonal stimulus of the pancreas, not a constituent of pancreatic juice."
+    },
+    {
+      "key": "q120", "id": "QST-KASR206DIG-2021EOM-120", "page": "Q120",
+      "title": "Enzyme deficient in pancreatitis-related protein maldigestion",
+      "vignette": "A 30-year-old man with acute pancreatitis is found to have a disorder of protein digestion.",
+      "question": "The most likely reason for this protein-digestion disorder is hyposecretion of which enzyme?",
+      "options": {
+        "A": "Trypsin",
+        "B": "Lipase",
+        "C": "Pepsin",
+        "D": "Amylase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Trypsin is the principal pancreatic protease and also the activator of the other pancreatic zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). When a damaged pancreas hyposecretes its enzymes, the loss of trypsin most directly impairs protein digestion, both by its own proteolytic action and by failing to activate the downstream proteases. This makes trypsin hyposecretion the best explanation for the maldigestion of protein.",
+        "B": "Incorrect. Lipase deficiency impairs fat digestion (causing steatorrhoea), not protein digestion.",
+        "C": "Incorrect. Pepsin is a gastric, not pancreatic, protease; its secretion is not the primary defect in pancreatitis, and gastric proteolysis alone cannot compensate for lost pancreatic proteases.",
+        "D": "Incorrect. Amylase digests carbohydrate (starch), so its deficiency would affect carbohydrate rather than protein digestion."
+      },
+      "main_concept": "CON-GIT-1314B33C30C0EE",
+      "concept_ids": ["CON-GIT-1314B33C30C0EE"],
+      "module_subject": "206 DIG > Biochemistry > Protein digestion",
+      "subtopic": "Pancreatic proteases",
+      "learning_objective": "Explain that pancreatic trypsin hyposecretion impairs protein digestion in pancreatitis.",
+      "clinical_relevance": 0.6,
+      "setting": "Clinical"
+    }
+  ]
+}

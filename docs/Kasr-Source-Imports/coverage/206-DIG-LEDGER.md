@@ -13,7 +13,9 @@
 | 2021-eom-anatomy-tranche-2 (Q28-42 tail, same paper) | 9 | 1 (Q37) | 5 skipped-dupe | 15 |
 | 2021-eom-physiology-tranche-3 (Q43-64, same paper) | 11 | 1 (Q45) | 10 skipped (9 dupe + Q56 ambiguous key) | 22 |
 | 2021-eom-physiology-tranche-4 (Q65-84 renal/thermoreg, same paper) | 10 | 1 (Q72) | 9 skipped-dupe | 20 |
-| **2021 EOM paper running** (`EOM - DIG-206 EOM (solved).pdf`) | **50** | **3** | **36** | **120** |
+| 2021-eom-histology-tranche-5 (Q85-114, same paper) | 9 | 1 (Q106) | 20 skipped-dupe | 30 |
+| 2021-eom-biochemistry-tranche-6 (Q115-120, same paper) | 5 | 0 | 1 skipped-dupe (Q117) | 6 |
+| **2021 EOM paper COMPLETE** (`EOM - DIG-206 EOM (solved).pdf`) | **64** | **4** | **0** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
@@ -203,6 +205,41 @@ category families in both, 0 new categories). **36 questions remain on this pape
 Histology (dedupe hard vs 2025 tranche-5/6 histology) and Q115-120 Biochemistry (2025 biochem is
 all lipid, so carb/protein digestion here is fresh). Q106 flagged ambiguous — render before
 authoring.** Next author starts at Q85.
+
+2021-eom-histology-tranche-5 (Q85-114) + 2021-eom-biochemistry-tranche-6 (Q115-120): 9 + 5
+authored, 1 held (Q106), 21 skipped as dupes — this **completes the 2021 EOM paper triage at
+64/120 authored, 4 held, 52 skipped-dupe**. Histology (Q85-114): 9 authored (Q88 plicae
+circulares, Q89 anal-canal muscularis mucosae at the pectinate line, Q94 crypts of Lieberkuhn,
+Q96 parietal-cell intracellular canaliculi, Q99 submandibular/Wharton's duct, Q109 mesangial
+contractility, Q110 prostatic-urethra urothelium, Q112 collecting-duct alpha/beta intercalated
+cells, Q114 DCT interdigitations), Q106 held (OCR garbled exocrine-pancreas markers — render),
+and **20 skipped as near-duplicate stems of the fully-authored 2025 EOM histology tranches 5-6**
+(Q85 taste bud, Q86 keratinised mucosa, Q87 vermilion, Q90 enterocyte brush border, Q91
+oesophagus, Q92 appendix lymphoid, Q93 pylorus, Q95 large intestine, Q97 centroacinar, Q98
+parotid serous, Q100 striated duct, Q101 Kupffer, Q102 space of Disse [also a contestable
+double-true stem], Q103 gall bladder, Q104 islet beta cell, Q105 hepatic lobule, Q107 JG
+apparatus, Q108 filtration slit, Q111 podocyte, Q113 bladder muscularis) — a **~68% histology
+dupe rate (20 + 1 held of 30)**. Biochemistry (Q115-120): 5 authored (Q115 lactase deficiency,
+Q116 chylomicron triacylglycerol, Q118 protein-digestion end product, Q119 CCK not a
+pancreatic-juice constituent, Q120 trypsin hyposecretion in pancreatitis), only Q117 skipped
+(steatorrhoea/pancreatic-lipase dupe of the 2025 lipid-malabsorption concept) — this section is
+**fresh (~17% dupe)** because the 2025 biochemistry was entirely lipid/liver, so carbohydrate
+and protein digestion were untouched. 14 new concepts minted university-blind (9 histology under
+DIS-HIS-T03 with SYS-GIT-T01/SYS-REN-T01; 5 biochemistry subject `fnd` under DIS-BIO-T04/T07 with
+SYS-GIT-T01; SHA-256 collision-checked, no collisions), grouped into 3 articles
+(`ART-GIT-206DIG-2021EOM-GIHISTOLOGY`, `ART-REN-206DIG-2021EOM-RENHISTOLOGY`,
+`ART-GIT-206DIG-2021EOM-BIOCHEM`). Authored in `question/206-DIG-2021eom-mcq-tranche5.md` and
+`-tranche6.md` (seeds `seed/206-DIG-2021eom-histology-tranche5.json`,
+`seed/206-DIG-2021eom-biochemistry-tranche6.json`),
+`concept/206-DIG-2021eom-histology-biochem-tranche56-concepts.md`,
+`article/206-DIG-2021eom-histology-biochem-tranche56-articles.md`. Gate-clean (batch 0 errors on
+all four; simulate created=31/rejected=0/errors=0; audit neutral vs the 206-DIG baseline — 28
+category families in both, 0 new categories). **The 2021 EOM paper is now fully triaged.** Whole-
+paper dupe rate against the 2025 EOM paper: 52 skipped + 4 held of 120 ≈ **43% dupe** (physiology
+and histology ran 45-68% dupe; anatomy and biochemistry were the freshest). RECOMMENDATION:
+the 2021 EOM paper is exhausted — next 206-DIG work should **pivot to a fresh source** (one of the
+9 remaining tier 1-3 papers or the 31 tier-5 banks in `coverage/KAU-Y2-priority-sources.md`),
+ideally a non-EOM paper to escape the recurring EOM overlap.
 
 ## Sources
 
