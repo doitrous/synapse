@@ -11,6 +11,7 @@
 | kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
 | kamal-ch8-retina | 73 | 17 | 0 | 90 |
 | kamal-ch9-eye-brain | 57 | 16 | 0 | 73 |
+| kamal-ch10-childhood | 41 | 19 | 0 | 60 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -257,3 +258,49 @@
   key omits rows Q18/Q41/Q52 -> HOLD when reached). New file question/315-OPH-kamal-ch10-childhood-mcq.md; the
   closest node is likely a paediatric/DIS-OPH child node (verify) else group under a new article. Also still
   open for adjudication: the held Ch.9 Q30-44 case block + Q45 (no key), and all earlier multi-true/T-F holds.
+
+
+## Tranche 19 (2026-09-06): Chapter 10 Eye diseases in infancy and early childhood — Q1-60 fully triaged — 41 MCQs (19 held)
+- OPENED Ch.10 in new file question/315-OPH-kamal-ch10-childhood-mcq.md. Verified node: DIS-OPH has NO dedicated
+  paediatric node (only T01 Eye-exam, T02 Anterior-segment, T03 Glaucoma, T04 Retina, T05 Neuro-ophthalmology).
+  Filed the new article ART-OPH-315-PAEDIATRIC under the closest verified catch-all node DIS-OPH-T02 (matching the
+  Ch.1/Ch.3/Ch.4 no-dedicated-node precedent); each concept carries its own most-specific node (congenital
+  glaucoma/buphthalmos -> T03; leukocoria/retinoblastoma/ROP/Coat's -> T04; visual development/preferential-looking
+  -> T01; amblyopia -> T05; NLD/cataract/ophthalmia neonatorum -> T02).
+- Authored 41 clean single-best MCQs in five pushed micro-slices (each gate.mjs batch errors=0, cumulative
+  items 10/19/29/37/41): Q1-10, Q11-16+Q19-21, Q35+Q38-40+Q42-47, Q48-51+Q53-56, Q57-60.
+  Keys from answer-key p.7-8 Ch.10 table (57 answers), each re-verified vs option text:
+  Q1.D Q2.D Q3.C Q4.C Q5.B Q6.A Q7.D Q8.B Q9.A Q10.A Q11.C Q12.C Q13.D Q14.B Q15.D Q16.B Q19.B Q20.D Q21.D
+  Q35.D Q38.C Q39.A Q40.A Q42.A Q43.D Q44.C Q45.D Q46.B Q47.A Q48.A Q49.A Q50.A Q51.D Q53.B Q54.A Q55.B Q56.C
+  Q57.B Q58.C Q59.C Q60.A.
+- Held 19: Q18/Q41/Q52 (answer-key OMITS these rows -> never-guess); Q17 (only two printed options, below the
+  four-option floor; key Q17.A); and the patient-scenario statement-set vignettes Q22-34, Q36, Q37 (15 items:
+  each is a vignette followed by four independent true/false statements with more than one defensibly true, not
+  single-best as printed -> held for multi-true adjudication). Keys for reference: Q22.A Q23.B Q24.D Q25.B Q26.B
+  Q27.A Q28.A Q29.C Q30.A Q31.A Q32.C Q33.A Q34.A Q36.A Q37.D.
+- Concepts: 26 NEW minted on their per-topic nodes, all added to ART-OPH-315-PAEDIATRIC related_concepts
+  (congenital-NLD massage 0B8FD48E3D96AC Q1/Q12; NLD diagnosis-positive-regurge 043A6922E55651 Q58;
+  congenital-glaucoma measure-IOP EF26888B645EA8 Q2; buphthalmos large-cornea-diagnosis B7C588C27BAE1B Q57;
+  buphthalmos clinical-features D803E4FA1023FB Q9/Q14; congenital-glaucoma surgical-choice-by-corneal-clarity
+  7EF3AC85B409F5 Q59; primary-congenital-glaucoma corneal-haze 0E2B7DFBE8EDAA Q60; infant-epiphora causes
+  038CFEA2B28651 Q3/Q11; congenital-cataract complications 681D39774CA258 Q4; congenital-cataract presentations
+  FF92730D258F00 Q7; congenital-cataract management 706786630905E6 Q13; pediatric-cataract morphology
+  9C824A103C863B Q20; pediatric-cataract causes A8A5E1B2E9066C Q50/Q51; pediatric-cataract treatment
+  C57CCB55961A95 Q53; leukocoria causes F9745712CFC8F1 Q10/Q16/Q19/Q42/Q43; retinoblastoma presentations
+  B7499C14512182 Q44/Q45; ROP risk-factors 9853B4C25E6DCE Q46/Q54; ROP high-oxygen B1CBEB8D67F28C Q47;
+  coats-disease features 9B20CF1EC5C204 Q48/Q49; ophthalmia-neonatorum definition 55ACAD9B2A7887 Q8;
+  ophthalmia-neonatorum treatment 5EBA7FC9B97D05 Q21; infant-eye first-year-changes 715E4963EBAB08 Q38;
+  newborn-perceives-light 853DD9B6D72C7D Q39; preferential-looking 1AD430868CF7A9 Q40;
+  childhood-unilateral-vision-loss examine-fundus 1F8EA032DFF46B Q55; amblyopia treatment A8A208DF356770 Q56).
+  REUSED 2 existing corpus concepts: congenital-glaucoma-surgical CON-MUL-0AFD8901536A4E (Q5/Q15/Q35) and
+  retinoblastoma-leukocoria CON-MUL-EF216E10015862 (Q6). All 28 in the article related_concepts. All 26 new IDs
+  collision-checked corpus-wide (no collision).
+- Gates: five micro-slices, each gate.mjs batch errors=0 with concept+article+resource(evidence/315-OPH-resources.md)
+  siblings. Each slice committed and pushed to origin/main immediately.
+- Ch.10 now fully triaged: 41 authored + 19 held = 60; remaining 0. The post-Q60 T/F (11 cases) section is out of scope.
+- Deferred-for-adjudication count: was ~61, +15 multi-true vignettes (Q22-34, Q36, Q37) = ~76 (plus the sub-4-option
+  and no-key holds tracked separately).
+- NEXT cluster: OPEN Ch.11 The eye in systemic diseases (answer key p.8, 40 answers; key OMITS rows Q5/Q39/Q42 ->
+  HOLD when reached; a T/F 2-case section follows). New file question/315-OPH-kamal-ch11-systemic-mcq.md; verify the
+  closest node per topic (most systemic-disease ocular manifestations are retinal/anterior — reuse existing nodes,
+  do NOT invent) and create/extend the appropriate article. Then Ch.12 Ocular and orbital injuries (80 answers), Ch.13-15.
