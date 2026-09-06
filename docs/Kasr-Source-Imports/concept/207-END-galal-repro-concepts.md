@@ -2470,3 +2470,558 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
 
 ---
+# Item
+## id
+CON-FND-77B425CA76B2CE
+## label
+Infected anal glands spread laterally into the ischiorectal fossa (ischiorectal abscess)
+## canonical_key
+anal-gland-infection.spread.ischiorectal-fossa-abscess
+## aliases
+Ischiorectal (ischioanal) abscess
+Lateral spread of anal-canal infection
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The anal glands drain into the anal sinuses at the pectinate line. Infection can erode through the anal-canal wall and external anal sphincter into the fat of the ischiorectal (ischioanal) fossa, giving an ischiorectal abscess; the fossa's fat and its communication across the posterior midline let such infection spread. The perineal pouches and retropubic space lie anteriorly and are not involved.
+## explicit_objective
+Route a laterally spreading anal-gland infection into the ischiorectal fossa.
+## pitfalls
+Sending anal-canal infection into the anterior perineal pouches or the retropubic space instead of the ischiorectal fossa.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Perineum
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineum
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-FND-2CB325B319E670
+## label
+The pubic symphysis is the anterior boundary of the perineum
+## canonical_key
+perineum.boundary.pubic-symphysis
+## aliases
+Boundaries of the perineal diamond
+Perineum surface boundaries
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The perineum is a diamond-shaped region bounded anteriorly by the pubic symphysis and pubic arch, anterolaterally by the ischiopubic rami, laterally by the ischial tuberosities, posterolaterally by the sacrotuberous ligaments and posteriorly by the tip of the coccyx. Levator ani forms its roof, not a boundary, and a line between the ischial tuberosities divides it into anterior urogenital and posterior anal triangles.
+## explicit_objective
+Name the pubic symphysis as the anterior boundary of the perineum.
+## pitfalls
+Treating the pelvic-floor levator ani, the sacral apex, or the superior pubic ramus as perineal boundaries.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Perineum
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineum
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-FND-1CFEB159A62B7A
+## label
+The internal pudendal vessels and nerve traverse the deep perineal pouch
+## canonical_key
+deep-perineal-pouch.contents.internal-pudendal-artery
+## aliases
+Deep perineal pouch contents
+Structures in the deep perineal space
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The deep perineal pouch, enclosed by the perineal membrane below and the deep investing fascia above, contains the sphincter urethrae, the deep transverse perinei, the membranous urethra, the bulbourethral (Cowper) glands in the male, and the internal pudendal vessels with the dorsal nerve of the penis or clitoris. The erectile crura and bulb, ischiocavernosus and bulbospongiosus, and the greater vestibular glands lie in the superficial pouch instead.
+## explicit_objective
+Assign the internal pudendal vessels (with the membranous urethra and sphincter urethrae) to the deep perineal pouch.
+## pitfalls
+Placing the erectile crura or bulb, or their muscles (superficial-pouch structures), in the deep perineal pouch.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Perineum
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineum
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-GYN-3D706EF3112339
+## label
+The axillary tail of Spence extends from the upper lateral quadrant of the breast
+## canonical_key
+breast.axillary-tail-of-spence.upper-lateral-quadrant
+## aliases
+Axillary tail of Spence
+Superolateral prolongation of the breast
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The axillary tail of Spence is a tongue of breast tissue extending from the upper lateral (superolateral) quadrant through an opening in the deep fascia (foramen of Langer) into the axilla. The gland itself lies on pectoralis major over the retromammary space and is made of about 15 to 20 lobes, and its medial quadrants drain to the internal thoracic nodes.
+## explicit_objective
+State that the axillary tail of the breast arises from the upper lateral quadrant.
+## pitfalls
+Misplacing the axillary tail to another quadrant, or miscounting the breast lobes (about 15 to 20, not 10).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Breast
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Breast
+## article_ids
+ART-GYN-207END-GALAL-BREAST-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-GYN-CC061574814CF6
+## label
+The cloacal folds divide into urethral (genital) folds anteriorly and anal folds posteriorly
+## canonical_key
+external-genitalia-development.cloacal-folds.divide-into-genital-and-anal-folds
+## aliases
+Urethral folds and anal folds
+Subdivision of the cloacal folds
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Early external genitalia begin as the genital tubercle at the cranial edge of the cloacal membrane, flanked by the cloacal folds. When the urorectal septum divides the cloaca into urogenital sinus and anorectal canal, the cloacal folds are subdivided into the urethral (genital) folds anteriorly and the anal folds posteriorly, with the labioscrotal (genital) swellings lateral to the urethral folds.
+## explicit_objective
+Describe the subdivision of the cloacal folds into anterior urethral (genital) folds and posterior anal folds.
+## pitfalls
+Confusing the genital tubercle position, or fusing the urethral folds (which enclose the penile urethra) rather than the labioscrotal swellings to form the scrotum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-EMB-T03
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Embryology
+## subtopic
+Genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Embryology > Genital system
+## article_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---

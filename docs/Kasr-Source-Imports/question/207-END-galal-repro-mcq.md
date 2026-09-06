@@ -1975,6 +1975,286 @@ kasr: Dr Galal repro bank
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-026
+
+## title
+Lateral spread of an anal-gland infection
+
+## question
+Infected anal glands near the pectinate line may erode the wall of the anal canal and rupture laterally into the:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ischiorectal fossa.
+
+## explanation_a
+Correct. The anal glands open at the anal sinuses at the pectinate line. When infected they can burrow through the wall of the anal canal and the external sphincter to reach the fat-filled ischiorectal (ischioanal) fossa on either side. This produces an ischiorectal (ischioanal) abscess.
+
+## answer_b
+Deep perineal pouch (space).
+
+## explanation_b
+Incorrect. The deep perineal pouch lies in the anterior urogenital perineum above the perineal membrane, away from the anal canal.
+
+## answer_c
+Superficial perineal pouch (space).
+
+## explanation_c
+Incorrect. The superficial perineal pouch is an anterior urogenital-triangle space and is not the destination of a laterally spreading anal infection.
+
+## answer_d
+Retropubic space.
+
+## explanation_d
+Incorrect. The retropubic (prevesical) space lies anterior to the bladder, far from the anal canal.
+
+## topic
+Anatomy
+
+## subtopic
+Perineum
+
+## main_concept
+CON-FND-77B425CA76B2CE
+
+## concept_ids
+CON-FND-77B425CA76B2CE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Route a laterally spreading anal-gland infection into the ischiorectal fossa.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q26
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.5 (Q26=a)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-027
+
+## title
+Boundary of the perineum
+
+## question
+Regarding the perineum, which one of the following structures is considered a boundary of it?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Levator ani.
+
+## explanation_a
+Incorrect. Levator ani forms the pelvic floor, the ROOF of the perineum, not one of its diamond-shaped marginal boundaries.
+
+## answer_b
+Pubic symphysis.
+
+## explanation_b
+Correct. The perineum, seen as a diamond, is bounded anteriorly by the pubic symphysis and pubic arch, laterally by the ischial tuberosities, and posteriorly by the tip of the coccyx. The pubic symphysis is therefore one of its boundaries. Levator ani, by contrast, roofs the region rather than bounding it.
+
+## answer_c
+Apex of the sacrum.
+
+## explanation_c
+Incorrect. The posterior apex of the perineal diamond is the tip of the COCCYX, not the apex of the sacrum.
+
+## answer_d
+Superior pubic ramus.
+
+## explanation_d
+Incorrect. The margins run along the ischiopubic rami (inferior pubic ramus), not the superior pubic ramus, which lies at the pelvic brim.
+
+## topic
+Anatomy
+
+## subtopic
+Perineum
+
+## main_concept
+CON-FND-2CB325B319E670
+
+## concept_ids
+CON-FND-2CB325B319E670
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Name the pubic symphysis as the anterior boundary of the perineum.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q27
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.5 (Q27=b)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-028
 
 ## title
@@ -2109,6 +2389,146 @@ yes
 ## author_notes
 keySource: circled option (Q28=c)
 kasr: Dr Galal repro bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-030
+
+## title
+Contents of the deep perineal pouch in the male
+
+## question
+Which one of the following structures is present in the deep perineal pouch in the male?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Two crura of the penis.
+
+## explanation_a
+Incorrect. The crura of the penis are attached to the ischiopubic rami in the SUPERFICIAL perineal pouch, covered by ischiocavernosus.
+
+## answer_b
+Internal pudendal artery.
+
+## explanation_b
+Correct. The deep perineal pouch, between the perineal membrane and the superior fascia of the urogenital diaphragm, contains the sphincter urethrae, deep transverse perinei, the membranous urethra, the bulbourethral (Cowper) glands in the male, and the internal pudendal vessels with the dorsal nerve of the penis. The internal pudendal artery therefore lies in the deep pouch.
+
+## answer_c
+Bulb of the penis.
+
+## explanation_c
+Incorrect. The bulb of the penis lies in the SUPERFICIAL perineal pouch, ensheathed by bulbospongiosus.
+
+## answer_d
+Ischiocavernosus muscle.
+
+## explanation_d
+Incorrect. Ischiocavernosus is a SUPERFICIAL perineal pouch muscle covering the crura.
+
+## topic
+Anatomy
+
+## subtopic
+Perineum
+
+## main_concept
+CON-FND-1CFEB159A62B7A
+
+## concept_ids
+CON-FND-1CFEB159A62B7A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Assign the internal pudendal vessels (with the membranous urethra and sphincter urethrae) to the deep perineal pouch.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q30
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.5 (Q30=b)
+kasr: Dr Galal repro bank
 
 ---
 
@@ -2675,6 +3095,146 @@ kasr: Dr Galal repro bank, p.6
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-038
+
+## title
+Origin of the axillary tail of the breast
+
+## question
+Considering the breast, choose the one correct statement:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It lies directly on the pectoralis minor.
+
+## explanation_a
+Incorrect. The breast lies on the deep pectoral fascia over pectoralis MAJOR (and serratus anterior and external oblique), separated by the retromammary space; pectoralis minor is deeper.
+
+## answer_b
+Its medial part is drained by the subscapular lymph nodes.
+
+## explanation_b
+Incorrect. The medial part of the breast drains mainly to the internal thoracic (parasternal) nodes, not to the subscapular (posterior axillary) group.
+
+## answer_c
+Its axillary tail arises from the upper lateral quadrant.
+
+## explanation_c
+Correct. The axillary tail of Spence is a prolongation of the upper lateral (superolateral) quadrant of the gland that pierces the deep fascia at the axillary opening to enter the axilla. It is the only part of the breast deep to the deep fascia.
+
+## answer_d
+It is formed of 10 lobes.
+
+## explanation_d
+Incorrect. The breast is composed of about 15 to 20 lobes, not 10.
+
+## topic
+Anatomy
+
+## subtopic
+Breast
+
+## main_concept
+CON-GYN-3D706EF3112339
+
+## concept_ids
+CON-GYN-3D706EF3112339
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Breast
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-BREAST-ANATOMY
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+State that the axillary tail of the breast arises from the upper lateral quadrant.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q38
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.6 (Q38=c)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-040
 
 ## title
@@ -3089,3 +3649,143 @@ yes
 ## author_notes
 keySource: circled option (Q44=a)
 kasr: Dr Galal repro bank, p.7
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-045
+
+## title
+Development of the external genitalia — the cloacal folds
+
+## question
+Regarding development of the external genitalia, mark the one correct statement:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Caudal to the cloacal membrane, the cloacal folds unite to form the genital tubercle.
+
+## explanation_a
+Incorrect. The genital tubercle forms at the CRANIAL end of the cloacal membrane, not caudal to it.
+
+## answer_b
+The cloacal folds divide into genital folds anteriorly and anal folds posteriorly.
+
+## explanation_b
+Correct. The urorectal septum divides the cloaca into the urogenital sinus and the anorectal canal. The cloacal folds are then subdivided into the urethral (genital) folds anteriorly, around the urogenital membrane, and the anal folds posteriorly, around the anal membrane. The labioscrotal swellings appear lateral to the urethral folds.
+
+## answer_c
+The genital swellings develop on each side of the anal fold.
+
+## explanation_c
+Incorrect. The genital (labioscrotal) swellings appear on each side of the urethral/genital folds, not the anal fold.
+
+## answer_d
+The genital folds fuse to form the scrotum in the male.
+
+## explanation_d
+Incorrect. It is the labioscrotal SWELLINGS, not the genital (urethral) folds, that fuse to form the scrotum in the male; the urethral folds fuse to enclose the penile urethra.
+
+## topic
+Embryology
+
+## subtopic
+Genital development
+
+## main_concept
+CON-GYN-CC061574814CF6
+
+## concept_ids
+CON-GYN-CC061574814CF6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Embryology > Genital system
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Describe the subdivision of the cloacal folds into anterior urethral (genital) folds and posterior anal folds.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q45
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.8 (Q45=b)
+kasr: Dr Galal repro bank
