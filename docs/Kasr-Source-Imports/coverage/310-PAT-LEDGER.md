@@ -4,9 +4,10 @@
 |---|---:|---:|---:|---:|---:|
 | abolmagd-cvs Hypertension (Q1-18, `Pathology MCQ by Abolmagd [SOLVED].pdf`) | 18 | 0 | 0 | 0 | 18 |
 | abolmagd-cvs Atherosclerosis (Q19-24, same paper) | 6 | 0 | 0 | 0 | 6 |
-| abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 (→ Blood Vessels p.8) | 6 |
-| **abolmagd-cvs cluster total** | **30** | **0** | **0** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 30 | 0 | 0 | untriaged | — |
+| abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 | 6 |
+| abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 (→ Blood Vessels Q38+) | 7 |
+| **abolmagd-cvs cluster total** | **37** | **0** | **0** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 37 | 0 | 0 | untriaged | — |
 
 ## Module opened
 
@@ -84,9 +85,24 @@ Files: `question/310-PAT-abolmagd-atherosclerosis-2-mcq.md`, seed
 23/0, article 2/0; simulate created=32/rejected=0/errors=0; audit neutral vs the 310-PAT baseline —
 same placeholder categories only, no new error category).
 
+## Cluster — abolmagd-cvs-atherosclerosis-3 (Q31-37)
+
+7/7 authored (Q31-37, pp.8-9 / printed 7-8), **0 excluded, 0 held**. Render-adjudicated pp.8-9 at
+170 dpi: detector over-flagged Q33 (A,C,D) and Q37 (B,D) and missed Q31/32/34/36, but every key is a
+single red option — Q31.b, Q32.a, Q33.c, Q34.a, Q35.a, Q36.b, Q37.b — all medically sound (the [196]
+tags on Q36/Q37 are yellow highlights, not answers). 1 concept reused (CON-CVS-0DBEB0ED79AA4D
+features-and-complications on Q35+Q37) and **5 new minted** (CON-CVS-989CE492689256 foam-cells/Q31,
+CON-CVS-09D923FF08EA10 most-important-complication/Q32, CON-CVS-71D0D90CB53615 cause-of-IHD/Q33,
+CON-CVS-C0BE3F3B5ACEAB monckeberg/Q34, CON-CVS-FDBEFEE06AEF06 critical-stenosis/Q36), university-blind,
+collision-checked — no collisions. All added to `ART-CVS-310PAT-ATHEROSCLEROSIS`. Files:
+`question/310-PAT-abolmagd-atherosclerosis-3-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-atherosclerosis-3.json`. **Gate-clean** (question 7/0, concept
+28/0, article 2/0; simulate created=44/rejected=0/errors=0; audit neutral vs the 310-PAT baseline —
+same categories, error count scales linearly with concept count).
+
 ## Next cluster
 
-**Remaining on this paper:** Blood Vessels (p.8+),
+**Remaining on this paper:** Blood Vessels (Q38+, p.9+),
 Endocarditis (p.13+), Ischemia (p.17+), Heart Diseases (p.19+), the 2008-2015 MCQ set (p.24+), and
 Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr

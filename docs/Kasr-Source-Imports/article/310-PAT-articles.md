@@ -126,7 +126,7 @@ Pathology
 Atherosclerosis is a disease of the intima of large elastic and medium muscular arteries, where lipid-laden atheromatous plaques form; it does not affect veins or the myocardium directly, injuring the heart only through coronary narrowing. This source classifies it as a degenerative arterial disease (with a chronic inflammatory/response-to-injury component in modern teaching), not autoimmune or embolic. Its major risk factors are hypertension, diabetes mellitus, smoking and hyperlipidaemia (high LDL); high HDL is protective (the 'good' cholesterol performing reverse cholesterol transport) and hypocholesterolaemia is not a risk factor. In patients under 45, hyperlipidaemia is the single most important risk factor for premature disease.
 ## sections
 ### Definition
-This article groups the atherosclerosis concepts tested by Q19-30 of the paper; each linked concept carries one atomic claim about the nature, target vessels, lipoproteins, risk factors, features/complications and plaque composition of atherosclerosis.
+This article groups the atherosclerosis concepts tested by Q19-37 of the paper; each linked concept carries one atomic claim about the nature, target vessels, lipoproteins, risk factors, features/complications, plaque composition, arterial calcification and ischaemic heart disease of atherosclerosis.
 ### Mechanism
 Chronic intimal lipid deposition (driven by high LDL) with fibrosis and calcification degenerates the arterial wall; HDL opposes this by reverse cholesterol transport. Hypertension, diabetes and smoking accelerate the process through endothelial injury.
 ### Key determinants
@@ -168,6 +168,11 @@ CON-CVS-8B7919ABF54FDE
 CON-CVS-0DBEB0ED79AA4D
 CON-CVS-E4D32045684F43
 CON-CVS-3F8BC81C0F9611
+CON-CVS-989CE492689256
+CON-CVS-09D923FF08EA10
+CON-CVS-71D0D90CB53615
+CON-CVS-C0BE3F3B5ACEAB
+CON-CVS-FDBEFEE06AEF06
 ## related_articles
 ART-CVS-310PAT-HYPERTENSION
 ## resource_ids

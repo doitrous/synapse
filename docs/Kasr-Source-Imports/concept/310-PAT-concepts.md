@@ -2566,3 +2566,558 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.7/printed 6); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-989CE492689256
+## label
+Foamy macrophages are characteristic of atherosclerosis
+## canonical_key
+atherosclerosis.foam-cells-characteristic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Foamy macrophages (‘foam cells’) are lipid-laden macrophages in the arterial intima that have engulfed oxidised LDL. They are the characteristic cells of atherosclerosis, forming the earliest lesion (the fatty streak) and populating the atheromatous plaque. They are not a feature of syphilitic arteritis (plasma-cell inflammation of vasa vasorum) or of hypertension (hyaline/fibrinoid arteriolar change).
+## explicit_objective
+Identify foamy macrophages as characteristic of atherosclerosis and exclude syphilitic arteritis and hypertension.
+## pitfalls
+Attributing foam cells to syphilitic arteritis or hypertension: those have plasma-cell or hyaline/fibrinoid changes respectively, not foam cells.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Morphology
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-09D923FF08EA10
+## label
+Thrombosis is the most important complication of atherosclerosis
+## canonical_key
+atherosclerosis.most-important-complication-thrombosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The most important complication of atherosclerosis is thrombus formation over a ruptured or ulcerated plaque, which causes acute arterial occlusion and the major clinical events — myocardial infarction, ischaemic stroke and acute limb ischaemia. Although plaques also ulcerate, calcify and weaken the wall into aneurysms, it is superimposed thrombosis that most often converts a chronic stable plaque into a lethal acute event.
+## explicit_objective
+State that thrombus formation over a plaque is the most important complication of atherosclerosis.
+## pitfalls
+Choosing ulceration, calcification or aneurysm as the most important complication: these occur, but superimposed thrombosis is the one that causes the major acute events.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Complications
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-71D0D90CB53615
+## label
+Atherosclerosis is the usual cause of ischaemic heart disease
+## canonical_key
+atherosclerosis.cause-of-ischemic-heart-disease
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Coronary atherosclerosis is the cause of the great majority (about 90%) of ischaemic heart disease: atheromatous plaques narrow the coronary arteries and, on rupture with thrombosis, occlude them, producing angina and myocardial infarction. Smoking and physical inactivity are classic risk factors that accelerate coronary atheroma. Rarer causes of myocardial ischaemia (coronary embolism, vasculitis, valvular disease) are far less common.
+## explicit_objective
+Recognise coronary atherosclerosis as the usual cause of ischaemic heart disease, especially in a patient with cardiovascular risk factors.
+## pitfalls
+Reaching for coronary embolism or valvular lesions: these are rare causes; coronary atherosclerosis underlies about 90% of ischaemic heart disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Ischaemic heart disease
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-C0BE3F3B5ACEAB
+## label
+Monckeberg medial calcific sclerosis
+## canonical_key
+monckeberg.medial-calcification
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mönckeberg medial calcific sclerosis is calcification of the MEDIA of medium-sized muscular arteries (classically the radial, ulnar, femoral and uterine arteries), typically in people over 50. The calcification lies in the muscular media, does not encroach on the lumen and is usually clinically insignificant. It is distinct from atherosclerosis, which calcifies the intimal plaque, and from pseudoxanthoma elasticum, which calcifies elastic fibres.
+## explicit_objective
+Identify Mönckeberg medial calcific sclerosis as the cause of medial (not intimal) calcification of muscular arteries.
+## pitfalls
+Confusing medial (Mönckeberg) with intimal (atherosclerotic) calcification: Mönckeberg spares the lumen and lies in the media.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Arterial calcification
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-FDBEFEE06AEF06
+## label
+Critical coronary stenosis (>75%) causes myocardial ischaemia
+## canonical_key
+atherosclerosis.critical-coronary-stenosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute myocardial ischaemia requires a flow-limiting lesion: an atheromatous plaque narrowing the coronary lumen by more than about 75% (‘critical stenosis’) so that oxygen demand outstrips supply on exertion. Below this threshold flow is usually adequate at rest and on moderate exertion, which is why the 75% cut-off is the classic teaching for flow-limiting coronary disease; an acute event is then often precipitated by rupture and thrombosis of such a plaque.
+## explicit_objective
+State that a coronary atheromatous plaque narrowing the lumen by more than 75% (critical stenosis) causes myocardial ischaemia.
+## pitfalls
+Attributing ischaemia to fatty streaks or a stable fibrous plaque: ischaemia needs a >75% flow-limiting stenosis, not the early or non-stenosing lesions.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Ischaemic heart disease
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
+
+---
