@@ -1,0 +1,36 @@
+317 FMT — triage keys (Year 3, Forensic Medicine & Toxicology) — MODULE OPENED 2026-09-06
+Source: 317 Forensic & Toxicology/Forensic Medicine/Forensic Medicine Other Useful [3rd priority]/Files/Forensic & Toxo Round 2 (197) SOLVED.pdf
+  (manifest sourceId src_2ef422afa7aa0aac43dc, kasr-y3-sources.json;
+   sha256 2ef422afa7aa0aac43dc3767708c61465850d41b84956961d806ffdf56556895;
+   corpusRelativePath "317 Forensic & Toxicology/Forensic Medicine/Forensic Medicine Other Useful [3rd priority]/Files/Forensic & Toxo Round 2 (197) SOLVED.pdf";
+   student-authored "Round 2 (197)" revision compilation by Abolmagd, [SOLVED], 7 pages).
+Sitting year: none printed. The paper is a Round-2 revision compilation tagged batch 197, not a
+  single dated EOY sitting. No calendar year is printed, so manifest examSittingYear = null (a
+  batch-197 EOY under the Y3 k=3 rule would be 197+1826+3 = 2026, recorded as a hint only — a
+  printed calendar year would win but none is printed).
+Module: 317 FMT (Forensic Medicine & Toxicology), Year 3. The disk tree files this under
+  y3/317 Forensic & Toxicology; the module code 317 follows the owner's tree.
+
+Method: native text layer (no OCR). The correct answer is the option whose text carries a YELLOW
+  HIGHLIGHT FILL. Detected with `node scripts/content/pagetext.mjs keys <pdf> --pages N`, then
+  render-verified at 160-170 dpi against pp.3-4 by eye (mark-garbled -> render -> unmark). Every
+  keyed answer is a SINGLE yellow-highlighted option. Detector output across the MCQ pages:
+  37 keyed / 0 ambiguous / 0 unmarked. Render match on p3 (Q32-43) and p4 (Q44-51): exact,
+  0 double-marks, 0 unmarked, 0 exclusions in the authored range.
+
+Paper structure:
+  Part A) Forensic Medicine — True/False statements Q1-31 (A/B boxes) — NOT authored this pass
+    (needs visual box-tick detection, deferred).
+  Part B) Forensic Medicine — MCQ Q32-51 (pp.3-4). <-- this tranche authors these 20.
+  (page 5: Part C/D toxicology True/False, Q52-78 — not authored this pass.)
+  Part E) Clinical Toxicology — MCQ Q79-90 (p6), Q92-96 (p7) — keyed, authored next slice.
+  Part F) Matching (antidote/drug) Q97-100 — not MCQ, excluded.
+  Note: Q91 not detected on the p6/p7 boundary; excluded from the tox slice unless render-recovered.
+
+# Part B Forensic MCQ (Q32-51) — render-verified pp.3-4 — THIS TRANCHE
+Q32.D  Q33.A  Q34.B  Q35.B  Q36.D  Q37.A  Q38.C  Q39.C  Q40.A  Q41.A
+Q42.D  Q43.B  Q44.A  Q45.D  Q46.D  Q47.B  Q48.C  Q49.B  Q50.D  Q51.D
+
+# Part E Clinical Toxicology MCQ (Q79-96) — detector-keyed, render-verify before authoring next slice
+Q79.A  Q80.B  Q81.C  Q82.D  Q83.C  Q84.D  Q85.A  Q86.C  Q87.A  Q88.B
+Q89.D  Q90.A  Q92.D  Q93.A  Q94.D  Q95.D  Q96.B

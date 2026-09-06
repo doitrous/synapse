@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 1,
+ "count": 2,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -19,7 +19,10 @@
    "yearId": "KAU_Y3",
    "moduleId": "310 PAT",
    "secondaryModule": null,
-   "moduleHints": ["Pathology", "Pharmacology"],
+   "moduleHints": [
+    "Pathology",
+    "Pharmacology"
+   ],
    "rawModuleShorthand": "310 PAT",
    "moduleSubjectPath": null,
    "sourceCategory": "Instructor material",
@@ -51,6 +54,53 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "answer key = correct option rendered in RED text; machine-detectable via scripts/content/pagetext.mjs keys, render-verified pp.3-6 at 170 dpi (all single red-text, detector multi-color false-positives corrected by eye). See coverage/310-PAT-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_2ef422afa7aa0aac43dc",
+   "sha256": "2ef422afa7aa0aac43dc3767708c61465850d41b84956961d806ffdf56556895",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/317 Forensic & Toxicology/Forensic Medicine/Forensic Medicine Other Useful [3rd priority]/Files/Forensic & Toxo Round 2 (197) SOLVED.pdf",
+   "corpusRelativePath": "317 Forensic & Toxicology/Forensic Medicine/Forensic Medicine Other Useful [3rd priority]/Files/Forensic & Toxo Round 2 (197) SOLVED.pdf",
+   "fileName": "Forensic & Toxo Round 2 (197) SOLVED.pdf",
+   "fileNameWithoutInstructions": "Forensic & Toxo Round 2 (197).pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "317 FMT",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Forensic Medicine",
+    "Clinical Toxicology"
+   ],
+   "rawModuleShorthand": "317 Forensic & Toxicology",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Abolmagd (student-authored compilation)",
+   "crossModulePractical": false,
+   "subject": "Forensic Medicine",
+   "folderSubject": "Forensic Medicine",
+   "subjectSource": "folder",
+   "departmentAuthored": false,
+   "tierEvidence": "student-authored 'Round 2 (197)' revision compilation; footer names a person (Abolmagd), so a doctor's/student's bank, not department-authored. Marked [SOLVED].",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: 'Forensic & Toxicology / Round 2 (197) / MOST UPDATED'; footer 'Forensic & Toxo Round 2 (197) - ABOLMAGD'. Sections: A) Forensic True/False Q1-31, B) Forensic MCQ Q32-51, toxicology True/False Q52-78, E) Clinical Toxicology MCQ Q79-96, F) Antidote/drug matching Q97-100.",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": "Forensic Medicine Other Useful [3rd priority]",
+   "examSitting": null,
+   "rawYearCode": "197",
+   "batchImpliesCalendarYear": 2026,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Round-2 revision compilation tagged batch 197; no single sitting date and no printed calendar year, so examSittingYear left null rather than guessed. Batch-197 EOY under Y3 k=3 would be 197+1826+3 = 2026 (hint only).",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 7,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "answer key = correct option with a YELLOW HIGHLIGHT FILL; machine-detectable via scripts/content/pagetext.mjs keys, render-verified pp.3-4 at 160-170 dpi (all single-highlight, 37 keyed / 0 ambiguous / 0 unmarked across MCQ pages). See coverage/317-FMT-triage-keys.txt."
   }
  ]
 }
