@@ -14,21 +14,32 @@ const bodyMarked = new Marked({
       const text = this.parser.parseInline(tokens)
       const target = String(href ?? '').trim()
       if (!SAFE_TARGET.test(target)) return text
-      return `<a href="${target}"${title ? ` title="${esc(title)}"` : ''}>${text}</a>`
+      return `<a href="${esc(target)}"${title ? ` title="${esc(title)}"` : ''}>${text}</a>`
     },
     image({ href, title, text }) {
       const target = String(href ?? '').trim()
       if (!SAFE_TARGET.test(target)) return ''
-      return `<img src="${target}" alt="${text}"${title ? ` title="${esc(title)}"` : ''}>`
+      return `<img src="${esc(target)}" alt="${esc(text)}"${title ? ` title="${esc(title)}"` : ''}>`
     },
+    // marked's default html renderer emits block AND inline html tokens
+    // (both go through renderer.html in v15) verbatim — the very hole a
+    // source-regex strip (formerly stripRawHtml here) can't reliably close,
+    // since a nested/broken tag like `<scr<script>ipt>` still tokenizes as
+    // html. Escaping every such token instead means no raw markup ever
+    // reaches the page, regardless of how it's spelled.
+    html(token) { return esc(token.text) },
   },
 })
 
+const SLUG_RE = /^[a-z0-9-]{1,191}$/
 export function validatePayload(body) {
   if (!body || !Number.isInteger(body.externalId)) return { error: 'invalid externalId' }
   if (!Array.isArray(body.articles) || body.articles.length === 0) return { error: 'invalid articles' }
   for (const [i, a] of body.articles.entries()) {
     for (const k of ['lang', 'title', 'slug', 'bodyMd']) if (!str(a?.[k])) return { error: `invalid articles[${i}].${k}` }
+    if (!SLUG_RE.test(a.slug)) return { error: `invalid articles[${i}].slug` }
+    if (a.title.length > 500) return { error: `invalid articles[${i}].title` }
+    if (a.metaDescription !== undefined && (!str(a.metaDescription) || a.metaDescription.length > 1000)) return { error: `invalid articles[${i}].metaDescription` }
     if (a.faq !== undefined && (!Array.isArray(a.faq) || a.faq.some((f) => !str(f?.q) || !str(f?.a)))) return { error: `invalid articles[${i}].faq` }
     if (a.schemaJsonld !== undefined && !Array.isArray(a.schemaJsonld)) return { error: `invalid articles[${i}].schemaJsonld` }
   }
@@ -36,13 +47,14 @@ export function validatePayload(body) {
   return { payload: body }
 }
 
-const stripRawHtml = (md) => md.replace(/<\s*\/?\s*(script|iframe|object|embed|style)[^>]*>/gi, '').replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|\S+)/gi, '')
+// Anchored to the start of the string (no /m flag) so only a genuinely
+// leading H1 is dropped — an H1 anywhere later in the body is real content.
 export function renderBody(md) {
-  const html = bodyMarked.parse(stripRawHtml(md.replace(/^# .*\n?/m, '')), { async: false })
+  const html = bodyMarked.parse(md.replace(/^# .*\n?/, ''), { async: false })
   return html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" rel="noopener" target="_blank"')
 }
 export function intro(md) {
-  const p = md.replace(/^# .*\n?/m, '').split(/\n{2,}/).map((x) => x.trim()).find((x) => x && !x.startsWith('#')) ?? ''
+  const p = md.replace(/^# .*\n?/, '').split(/\n{2,}/).map((x) => x.trim()).find((x) => x && !x.startsWith('#')) ?? ''
   return p.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '')
 }
 export function toRows(payload) {
@@ -64,13 +76,17 @@ const shell = (lang, head, body) => `<!doctype html>
 <style>body{margin:0;font-family:${lang === 'ar' ? "'IBM Plex Sans Arabic',system-ui" : 'Figtree,system-ui'},sans-serif;color:#1c1c1e;background:#fff}header,main,footer{max-width:760px;margin:0 auto;padding:1.5rem 1.25rem}header a{color:#0b5fff;text-decoration:none;font-weight:600}h1{font-size:2rem;line-height:1.2}article img{max-width:100%;border-radius:12px}article p,article li{line-height:1.8}article h2{margin-top:2rem}.meta{color:#666;font-size:.9rem}.card{padding:1rem 0;border-bottom:1px solid #eee}footer{color:#666;font-size:.85rem}</style></head>
 <body><header><a href="/${lang}">${T[lang].home}</a> · <a href="/blog/${lang}">${T[lang].blog}</a></header><main>${body}</main><footer>© Nishany</footer></body></html>`
 
-export function articlePage(row, langsStored, origin) {
-  // slug is hub-supplied and unrestricted in format, unlike lang (whitelisted
-  // to SUPPORTED); escaped here like every other user-derived string so it
-  // can't break out of these href attributes.
+export function articlePage(row, siblings, origin) {
+  // slug is hub-supplied; escaped here like every other user-derived string
+  // (defence in depth even though validatePayload already restricts its
+  // format) so it can't break out of these href attributes. Each sibling
+  // carries its OWN slug — the hub lets translations of the same job use
+  // different slugs — so hreflang must not reuse this row's slug for every
+  // language.
   const t = T[row.lang], slug = esc(row.slug), url = `${origin}/blog/${row.lang}/${slug}`
-  const alternates = langsStored.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}/${slug}">`).join('')
-    + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/${langsStored.includes('en') ? 'en' : langsStored[0]}/${slug}">`
+  const xDefault = siblings.find((s) => s.lang === 'en') ?? siblings[0]
+  const alternates = siblings.map((s) => `<link rel="alternate" hreflang="${s.lang}" href="${origin}/blog/${s.lang}/${esc(s.slug)}">`).join('')
+    + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/${xDefault.lang}/${esc(xDefault.slug)}">`
   const ld = (row.schema_jsonld ?? []).map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`).join('')
   const faq = row.faq?.length ? `<section><h2>${t.faq}</h2>${row.faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}</section>` : ''
   const head = `<title>${esc(row.meta_title || row.title)}</title><meta name="description" content="${esc(row.meta_description)}"><link rel="canonical" href="${url}">${alternates}<meta property="og:title" content="${esc(row.title)}"><meta property="og:description" content="${esc(row.meta_description)}">${row.image_url ? `<meta property="og:image" content="${esc(row.image_url)}">` : ''}${ld}`
@@ -83,7 +99,10 @@ export function indexPage(lang, rows, origin) {
   const head = `<title>${t.blog} · Nishany</title><link rel="canonical" href="${origin}/blog/${lang}">`
     + SUPPORTED.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin}/blog/${l}">`).join('')
     + `<link rel="alternate" hreflang="x-default" href="${origin}/blog/en">`
-  const cards = rows.map((r) => `<div class="card"><h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`).join('')
+  const cards = rows.map((r) => {
+    const img = r.image_url ? `<img src="${esc(r.image_url)}" alt="${esc(r.image_alt || r.title)}" loading="lazy">` : ''
+    return `<div class="card">${img}<h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`
+  }).join('')
   return shell(lang, head, `<h1>${t.blog}</h1>${cards}`)
 }
 export const STATIC_URLS = [
@@ -107,8 +126,8 @@ export function sitemapXml(rows, origin) {
   const byExternalId = new Map()
   for (const r of rows) { if (!byExternalId.has(r.external_id)) byExternalId.set(r.external_id, []); byExternalId.get(r.external_id).push(r) }
   const articleUrls = [...byExternalId.values()].flatMap((group) => {
-    // slug is hub-supplied and unrestricted in format; escaped only where it
-    // lands in the XML below — same reasoning as articlePage/indexPage.
+    // slug is hub-supplied; escaped only where it lands in the XML below —
+    // same reasoning as articlePage/indexPage.
     const alternates = Object.fromEntries(group.map((r) => [r.lang, `/blog/${r.lang}/${esc(r.slug)}`]))
     return group.map((r) => u(`/blog/${r.lang}/${esc(r.slug)}`, alternates, r.updated_at ? new Date(r.updated_at).toISOString().slice(0, 10) : undefined))
   })

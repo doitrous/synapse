@@ -5,8 +5,15 @@ import { SUPPORTED, articlePage, indexPage, sitemapXml, toRows, validatePayload 
 
 function authorized(req) {
   const secret = process.env.SEO_HUB_SECRET || ''
+  if (!secret) return false
   const given = (req.header('authorization') || '').replace(/^Bearer\s+/i, '')
-  return Boolean(secret) && given.length === secret.length && timingSafeEqual(Buffer.from(given), Buffer.from(secret))
+  // Compare Buffer byte lengths, not the JS string .length — a mismatch in
+  // multi-byte characters can make the two differ, and timingSafeEqual
+  // throws (rather than returning false) when its two buffers aren't the
+  // same byte length.
+  const givenBuf = Buffer.from(given)
+  const secretBuf = Buffer.from(secret)
+  return givenBuf.length === secretBuf.length && timingSafeEqual(givenBuf, secretBuf)
 }
 const parseRow = (r) => ({ ...r, faq: typeof r.faq === 'string' ? JSON.parse(r.faq) : r.faq ?? [], schema_jsonld: typeof r.schema_jsonld === 'string' ? JSON.parse(r.schema_jsonld) : r.schema_jsonld ?? [] })
 
@@ -23,17 +30,32 @@ export function registerSeoArticleRoutes(app) {
       try {
         await conn.beginTransaction()
         for (const r of rows) {
-          await conn.query(
-            `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials)
-             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
-             ON DUPLICATE KEY UPDATE slug=VALUES(slug), title=VALUES(title), meta_title=VALUES(meta_title), meta_description=VALUES(meta_description), body_md=VALUES(body_md), body_html=VALUES(body_html), faq=VALUES(faq), schema_jsonld=VALUES(schema_jsonld), image_url=VALUES(image_url), image_alt=VALUES(image_alt), author_name=VALUES(author_name), author_credentials=VALUES(author_credentials)`,
-            [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials])
-          const [[row]] = await conn.query('SELECT id FROM seo_articles WHERE external_id=? AND lang=?', [r.external_id, r.lang])
-          results.push({ lang: r.lang, remoteId: String(row.id), remoteUrl: `${PUBLIC_ORIGIN}/blog/${r.lang}/${r.slug}` })
+          // ON DUPLICATE KEY UPDATE matches on EITHER unique key — a slug
+          // collision with a different job's external_id would silently
+          // overwrite that other job's row instead of failing. Look the row
+          // up by (external_id, lang) ourselves and update by id, so the
+          // only way a write touches another job's row is the (lang, slug)
+          // key rejecting the INSERT outright.
+          const [[existing]] = await conn.query('SELECT id FROM seo_articles WHERE external_id=? AND lang=? FOR UPDATE', [r.external_id, r.lang])
+          let id
+          if (existing) {
+            id = existing.id
+            await conn.query(
+              `UPDATE seo_articles SET slug=?, title=?, meta_title=?, meta_description=?, body_md=?, body_html=?, faq=?, schema_jsonld=?, image_url=?, image_alt=?, author_name=?, author_credentials=? WHERE id=?`,
+              [r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials, id])
+          } else {
+            const [insertResult] = await conn.query(
+              `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+              [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials])
+            id = insertResult.insertId
+          }
+          results.push({ lang: r.lang, remoteId: String(id), remoteUrl: `${PUBLIC_ORIGIN}/blog/${r.lang}/${r.slug}` })
         }
         await conn.commit()
       } catch (error) {
         await conn.rollback()
+        if (error.code === 'ER_DUP_ENTRY') return res.status(409).json({ error: 'slug_taken' })
         throw error
       } finally {
         conn.release()
@@ -42,24 +64,27 @@ export function registerSeoArticleRoutes(app) {
     } catch (e) { next(e) }
   })
 
+  app.get('/blog', (_req, res) => res.redirect(302, '/blog/en'))
   app.get('/blog/:lang', async (req, res, next) => {
     try {
-      if (!SUPPORTED.includes(req.params.lang)) return next()
-      const [rows] = await pool.query('SELECT * FROM seo_articles WHERE lang=? ORDER BY published_at DESC LIMIT 100', [req.params.lang])
-      res.type('html').set('Cache-Control', 'public, max-age=300').send(indexPage(req.params.lang, rows.map(parseRow), PUBLIC_ORIGIN))
+      if (!SUPPORTED.includes(req.params.lang)) return res.status(404).type('text').send('Not found')
+      const [rows] = await pool.query('SELECT slug, title, meta_description, image_url, image_alt, published_at FROM seo_articles WHERE lang=? ORDER BY published_at DESC LIMIT 100', [req.params.lang])
+      res.type('html').set('Cache-Control', 'public, max-age=300').send(indexPage(req.params.lang, rows, PUBLIC_ORIGIN))
     } catch (e) { next(e) }
   })
   app.get('/blog/:lang/:slug', async (req, res, next) => {
     try {
-      if (!SUPPORTED.includes(req.params.lang)) return next()
+      if (!SUPPORTED.includes(req.params.lang)) return res.status(404).type('text').send('Not found')
       const [rows] = await pool.query('SELECT * FROM seo_articles WHERE slug=? AND lang=?', [req.params.slug, req.params.lang])
       const row = rows[0]
       if (!row) return res.status(404).type('html').send('<!doctype html><title>Not found</title><h1>404</h1>')
-      // Siblings are the other languages of the SAME job, keyed by external_id —
-      // not just anything sharing this slug, which two different jobs can (see
-      // seoArticles.js sitemapXml for the matching grouping).
-      const [siblings] = await pool.query('SELECT lang FROM seo_articles WHERE external_id=?', [row.external_id])
-      res.type('html').set('Cache-Control', 'public, max-age=300').send(articlePage(parseRow(row), siblings.map((r) => r.lang), PUBLIC_ORIGIN))
+      // Siblings are the other languages of the SAME job, keyed by external_id
+      // — not just anything sharing this slug, which two different jobs can
+      // (see seoArticles.js sitemapXml for the matching grouping) — and each
+      // carries its OWN slug: translations of the same job aren't required to
+      // share one.
+      const [siblings] = await pool.query('SELECT lang, slug FROM seo_articles WHERE external_id=?', [row.external_id])
+      res.type('html').set('Cache-Control', 'public, max-age=300').send(articlePage(parseRow(row), siblings, PUBLIC_ORIGIN))
     } catch (e) { next(e) }
   })
   app.get('/sitemap.xml', async (_req, res, next) => {
