@@ -1,0 +1,44 @@
+309 INF — triage keys (Year 3, Infectious Diseases: Microbiology & Parasitology) — MODULE OPENED 2026-09-06
+Source: Microbiology/Questions & MCQs/8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf
+  (manifest sourceId src_10f1a669aa2eeedf3cd9, kasr-y3-sources.json;
+   sha256 10f1a669aa2eeedf3cd95f73664022018e901f6af879c1be9c9afe6276502365;
+   corpusRelativePath "309 INF/Microbiology/Questions & MCQs/8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf";
+   department/faculty parasitology question bank — MCQs + printed answer keys + cases + formative
+   assessments + collection, 56 pages).
+Sitting year: none printed. This is a compiled question bank (a "Collection" of previous-years and
+  formative MCQs grouped by parasite class), not a single dated sitting; the Intro+Trematoda section
+  carries no per-question batch tags and the answer pages print no calendar year. So manifest
+  examSittingYear = null (a printed calendar year would win but none is printed). NOTE: the sibling
+  "Para MCQ & Match PY V2.0.pdf" (unsolved) tags many of the SAME stems [196 EOM]/[195 EOM]; those are
+  batch hints for individual items, not a sitting for this compiled bank.
+Module: 309 INF (Infectious Diseases: Microbiology & Parasitology), Year 3. This bank is filed under
+  the disk tree y3/309 INF/Microbiology/Questions & MCQs but its content is PARASITOLOGY (Trematoda,
+  Cestoda, Nematoda, Protozoology, Entomology); module code 309 follows the owner's tree. Subject:
+  parasitology.
+
+Method: native text layer (no OCR). The correct answer is read from the PRINTED ANSWER-KEY TABLE at
+  the end of each section (e.g. "Answers of Introduction + Trematoda" on p.3: "1 C  2 C  3 D ..."). The
+  key is machine-readable native text, not a colour/highlight, so no render was needed — pagetext.mjs
+  render refused p.3 as "not garbled", confirming the text layer is authoritative. Keys transcribed
+  directly from the answer table and cross-checked against known parasitology for a sample (Q2 Fasciola
+  metacercaria=C, Q3 Pirenella=Heterophyiasis=D, Q6 Fasciola via metacercaria on plants=B, Q9 sheep
+  liver fluke=Fasciola hepatica=A) — all consistent.
+
+Paper structure (MCQ sections, each followed by its own printed answer table):
+  MCQs of Introduction + Trematoda  Q1-19   pp.2-3   answers p.3    <-- THIS TRANCHE
+  MCQs of Cestoda                            pp.4-5   answers p.6
+  MCQs of Nematoda                           pp.7-12  answers p.13
+  MCQs of Protozoology                       pp.14-20 answers p.21
+  MCQs of Entomology                         p.22     answers p.23
+  Cross matching Questions                   pp.24-28 answers p.29    (matching, not 4-option MCQ)
+  Clinical Cases Questions                   pp.30-32 answers p.33    (case/essay, not MCQ)
+
+# Introduction + Trematoda MCQ (Q1-19) — printed answer table p.3 — THIS TRANCHE
+Q1.C   Q2.C   Q3.D   Q4.B   Q5.B   Q6.B   Q7.D   Q8.D   Q9.A   Q10.C
+Q11.B  Q12.B  Q13.B  Q14.B  Q15.B  Q16.C  Q17.D  Q18.A  Q19.A
+# Q12 EXCLUDED as an in-source exact duplicate of Q15 (identical stem "Spurious infection is related
+#   to:" with the same options and the same key B); Q15 authored, Q12 held as duplicate.
+# Authored this tranche: Q1-11, Q13-19 (18 MCQs). Excluded: Q12 (duplicate).
+
+# Next slices (keys to recover from the printed answer tables on the pages named above):
+#   Cestoda (answers p.6), Nematoda (answers p.13), Protozoology (answers p.21), Entomology (answers p.23).

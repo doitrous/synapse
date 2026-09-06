@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 2,
+ "count": 3,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -101,6 +101,53 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "answer key = correct option with a YELLOW HIGHLIGHT FILL; machine-detectable via scripts/content/pagetext.mjs keys, render-verified pp.3-4 at 160-170 dpi (all single-highlight, 37 keyed / 0 ambiguous / 0 unmarked across MCQ pages). See coverage/317-FMT-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_10f1a669aa2eeedf3cd9",
+   "sha256": "10f1a669aa2eeedf3cd95f73664022018e901f6af879c1be9c9afe6276502365",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/309 INF/Microbiology/Questions & MCQs/8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf",
+   "corpusRelativePath": "309 INF/Microbiology/Questions & MCQs/8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf",
+   "fileName": "8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf",
+   "fileNameWithoutInstructions": "8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "309 INF",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Parasitology",
+    "Microbiology"
+   ],
+   "rawModuleShorthand": "309 INF",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Department/faculty parasitology bank (compilation)",
+   "crossModulePractical": false,
+   "subject": "Parasitology",
+   "folderSubject": "Microbiology",
+   "subjectSource": "content",
+   "departmentAuthored": true,
+   "tierEvidence": "Department/faculty PARASITOLOGY question bank: grouped MCQ sections (Introduction+Trematoda, Cestoda, Nematoda, Protozoology, Entomology) each with a printed answer-key table, plus clinical cases and formative assessments. No individual author named on the stems; structured departmental bank style, so treated as instructor/department material rather than a student compilation. Filed on disk under Microbiology/Questions & MCQs though its content is parasitology.",
+   "examType": "bank",
+   "examPaperEvidence": "Header 'I- Multiple Choice Questions: MCQs of Introduction + Trematoda' (p.2); section answer tables 'Answers of Introduction + Trematoda' (p.3), '... Cestoda' (p.6), '... Nematoda' (p.13), '... Protozoology' (p.21), '... Entomology' (p.23), 'Answers of Cross matching Questions' (p.29), 'Answers of Clinical Cases Questions' (p.33). Parasitology only. No per-question batch tags in the Intro+Trematoda section; the unsolved sibling 'Para MCQ & Match PY V2.0.pdf' tags many of the same stems [196 EOM]/[195 EOM].",
+   "bookKind": "question_bank",
+   "sourceTier": 2,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Compiled 'Collection' bank grouped by parasite class, not a single dated sitting; no printed calendar year on the answer pages, so examSittingYear left null rather than guessed. (Sibling Para MCQ bank carries [196 EOM]/[195 EOM] per-item batch hints only.)",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 56,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "answer key = the option letter printed in the section's ANSWER-KEY TABLE (native text, not a colour/highlight), e.g. 'Answers of Introduction + Trematoda' p.3 reads '1 C 2 C 3 D ...'. Machine-readable via scripts/content/pagetext.mjs show; render not needed (render refused p.3 as 'not garbled', confirming the text layer is authoritative). Cover p.1 is an image (garbled), MCQ/answer pages are native. See coverage/309-INF-triage-keys.txt."
   }
  ]
 }
