@@ -12,6 +12,7 @@
 | kamal-ch8-retina | 73 | 17 | 0 | 90 |
 | kamal-ch9-eye-brain | 57 | 16 | 0 | 73 |
 | kamal-ch10-childhood | 41 | 19 | 0 | 60 |
+| kamal-ch12-injuries | 60 | 21 | 0 | 81 |
 | kamal-ch11-systemic | 24 | 19 | 0 | 43 |
 
 ## Held
@@ -320,3 +321,40 @@
 - Ch.11 fully triaged: 24 authored + 19 held = 43; remaining 0. The post-Q44 T/F (2 cases) section is out of scope.
 - NEXT cluster: Ch.12 Ocular and orbital injuries (answer key p.9, 80 answers) — already IN PROGRESS on origin/main by a
   parallel lane (file question/315-OPH-kamal-ch12-injuries-mcq.md). Coordinate before touching Ch.12.
+## Tranche 20 (2026-09-07): Chapter 12 Ocular and orbital injuries OPENED and fully triaged — Q1-81 — 60 MCQs (21 held). Ch.11 SKIPPED.
+- OPENED Ch.12 in new file question/315-OPH-kamal-ch12-injuries-mcq.md and new article ART-OPH-315-INJURIES,
+  filed under the closest verified catch-all node DIS-OPH-T02 (Anterior segment) — DIS-OPH has no trauma node —
+  matching the Ch.1/Ch.3/Ch.10 no-dedicated-node precedent. Per-concept nodes: most trauma facts on DIS-OPH-T02;
+  retinal trauma (commotio retinae, choroidal rupture, solar/macular burn, shaken-baby, retinal-tear cryo/laser)
+  on DIS-OPH-T04.
+- Authored 60 clean single-best MCQs in 13 pushed micro-slices (each gate.mjs batch errors=0, cumulative items
+  5/10/15/20/25/30/34/39/43/47/52/57/60): Q1-28, Q31, Q35, Q37, Q39, Q41, Q43, Q53-60, Q62-73, Q75-77, Q79-81.
+  Keys from answer-key p.8-9 Ch.12 table (80 answers), each re-verified vs option text:
+  Q1.B Q2.B Q3.A Q4.A Q5.B Q6.C Q7.D Q8.D Q9.C Q10.B Q11.C Q12.A Q13.A Q14.B Q15.D Q16.D Q17.D Q18.D Q19.A Q20.C
+  Q21.A Q22.C Q23.A Q24.C Q25.B Q26.B Q27.D Q28.C Q31.D Q35.B Q37.C Q39.D Q41.D Q43.B Q53.C Q54.A Q55.A Q56.A
+  Q57.C Q58.B Q59.C Q60.B Q62.D Q63.D Q64.B Q65.A Q66.A Q67.B Q68.B Q69.C Q70.C Q71.D Q72.B Q73.D Q75.B Q76.B
+  Q77.B Q79.C Q80.B Q81.B.
+- Held 21: Q74 (answer-key OMITS the row, skips Q73->Q75 -> never-guess); Q18 was authored (5-option combined
+  answer, above the four-option floor). The 20 multi-true holds are patient-scenario/statement-set vignettes with
+  more than one defensibly true option (not single-best as printed): Q29, Q30, Q32, Q33, Q34, Q36, Q38, Q40, Q42,
+  Q44, Q45, Q46, Q47, Q48, Q49, Q50, Q51, Q52, Q61, Q78. Keys for reference: Q29.B Q30.D Q32.B Q33.A Q34.A Q36.A
+  Q38.A Q40.C Q42.C Q44.C Q45.B Q46.A Q47.B Q48.B Q49.B Q50.A Q51.C Q52.A Q61.A Q78.B. (Q78 held because infrared is
+  defensibly both a cataractogen AND — per the bank's own Q80 — a macular-burn cause; internally inconsistent.)
+- Concepts: 35 NEW minted on DIS-OPH-T02/T04 (hyphema management/complications/definition; chemical-injury
+  first-aid-irrigation/alkali-vs-acid/cycloplegics-steroids; IOFB metallic-risks/mechanical-effects/imaging-no-MRI/
+  vision-loss-mechanisms/orbital-FB-CT-MRI; blunt lens-subluxation/iris-injuries/complications-exclude-symblepharon/
+  excludes-IOFB; penetrating corneal-laceration-mgmt/sharp-exclude-surgical-emphysema/open-globe-exam/rupture-signs/
+  scleral-rupture-superonasal/scleral-rupture-cornea-stronger; ocular-trauma classification; iridodialysis-definition;
+  monocular-diplopia-causes; commotio-retinae; choroidal-rupture-fovea; traumatic-levator-aponeurosis-ptosis;
+  atropine-contraindicated-angle-closure; photophthalmia-uv; vossius-ring; blowout-fracture-CT; retinal-tear-cryo-laser;
+  sympathetic-ophthalmia-timing; solar-retinopathy; shaken-baby; radiation-cataract-xray; radiation-macular-burn-except-uv;
+  avoid-pupil-dilation-in-trauma). REUSED 1 foreign concept: Ch.7 fungal keratitis CON-MUL-1ED9C5AE54012E (Q53), added
+  to ART-OPH-315-INJURIES related_concepts for coverage. All 35 new IDs collision-checked corpus-wide one at a time
+  (filename-only grep) — no collision. All new + the reused foreign concept added to the article related_concepts.
+- Gates: 13 micro-slices, each gate.mjs batch errors=0 with concept+article+resource(evidence/315-OPH-resources.md)
+  siblings. Each slice committed and pushed to origin/main immediately (e334dea0 737ff2e2 32a591d5 53aca1e1 f1b253af
+  895d839a 7179a3e8 cdedaff8 e1abc13b e840f9f4 c4ccf862 88c771f3 53ddf689).
+- Ch.12 now fully triaged: 60 authored + 21 held = 81; remaining 0. The post-Q81 T/F (14 cases) section is out of scope.
+- Ch.11 (The eye in systemic diseases) remains SKIPPED per lane brief.
+- NEXT cluster: Ch.13 Medications and the eye (answer key p.9, 43 answers, all rows present), then Ch.14 Lasers
+  (23 answers) and Ch.15 Some related topics (4 answers). New files per chapter; verify closest EXISTING node per topic.
