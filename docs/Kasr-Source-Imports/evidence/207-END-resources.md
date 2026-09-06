@@ -195,3 +195,41 @@ Kasr Al Ainy END 207 reproductive/pelvic ANATOMY MCQ topic bank by Dr Galal (NON
 true
 
 ---
+
+# Item
+## id
+src_d553e1179fb89eb56d5a
+## title
+207 mcq Dr Galal (endo)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Anatomy Other [2nd priority]/MCQs/207 mcq Dr Galal (endo).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+7
+## sha256
+d553e1179fb89eb56d5a9b66f19586e0278057b6583dfa1b33315eed30473b5a
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 endocrine ANATOMY MCQ topic bank by Dr Galal (NON-EOM; not an exam, so examSittingYear is null). Scanned (CamScanner), 7 pages, gross anatomy of the endocrine glands (thyroid, parathyroid, pituitary, suprarenal, pancreas) with a topic legend (27=Pituitary .. 32=Gonads) on p.1; the blue left-margin numbers are those topic references, NOT answer marks. Correct answers read by eye from 220-dpi renders of pp.2-6: typed items (pp.2-4) carry a hand-drawn CIRCLE around the correct option letter, handwritten items (pp.5-6) a SOLID/filled blob on the correct option (all options drawn with circled-letter bullets). 27 keyed stems recovered, 1 stem (a suprarenal "which is not correct" item annotated "all are correct") HELD as having no valid single-best key -- see coverage/207-END-triage-keys.txt. SIXTH 207 END source and the THIRD non-EOM bank; endocrine-gland anatomy overlaps the Dr Medhat bank, so 9 duplicate/low-value stems were skipped and 17 non-duplicate items authored this pass.
+## confidence
+0.9
+## is_assessment
+true
+
+---
