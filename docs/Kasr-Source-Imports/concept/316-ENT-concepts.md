@@ -15849,3 +15849,1002 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oropharyngeal-ulcers.multiple-causes", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-A3E1FB2CC1D796
+## label
+Ludwig's angina is a cellulitis of the submandibular space
+## canonical_key
+otolaryngology.ludwigs-angina.submandibular-space
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ludwig's angina is a rapidly spreading cellulitis of the submandibular space, usually arising from a lower molar dental infection. Inflammatory oedema and pus collect in the submandibular space, elevating the floor of the mouth and the tongue and threatening the airway. It is not a peritonsillar, parapharyngeal, retropharyngeal or prevertebral collection.
+## explicit_objective
+State that the pus in Ludwig's angina collects in the submandibular space.
+## pitfalls
+Ludwig's angina is submandibular; placing it in the parapharyngeal, retropharyngeal or prevertebral space misplaces the collection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.ludwigs-angina.submandibular-space", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-99333F10BFC103
+## label
+Parapharyngeal abscess presents with a medially displaced tonsil, external neck swelling and trismus
+## canonical_key
+otolaryngology.parapharyngeal-abscess.presentation-lateral-swelling-trismus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A parapharyngeal (lateral pharyngeal) space abscess presents with swelling of the lateral pharyngeal wall that pushes an otherwise normal tonsil medially, a tender firm swelling on the lateral side of the neck, and trismus from irritation of the pterygoid muscles. White spots on the tonsil surface belong to tonsillitis and are not part of this deep-space picture. Recognising this cluster points to a lateral pharyngeal collection rather than simple tonsillitis.
+## explicit_objective
+Recognise medial displacement of a normal tonsil, external neck swelling and trismus as features of a parapharyngeal abscess.
+## pitfalls
+White spots on the tonsil indicate tonsillitis, not a parapharyngeal abscess; the deep-space signs are a displaced normal tonsil, external neck swelling and trismus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.parapharyngeal-abscess.presentation-lateral-swelling-trismus", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-F791D749B699D0
+## label
+The initial treatment of quinsy is intravenous broad-spectrum antibiotics
+## canonical_key
+otolaryngology.quinsy.initial-treatment-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Quinsy (peritonsillar abscess) is first treated with intravenous broad-spectrum antibiotics together with rehydration and analgesia, which settle a peritonsillar cellulitis and control infection while the patient is assessed. If frank pus has formed or there is no response, incision and drainage or needle aspiration follows. A CT scan or tracheostomy is not the initial step when there is no airway compromise or diagnostic doubt.
+## explicit_objective
+State that the initial treatment of quinsy is intravenous broad-spectrum antibiotics, with drainage reserved for frank pus or non-response.
+## pitfalls
+Jumping straight to incision and drainage, CT or tracheostomy skips the initial step; antibiotics with fluids are begun first, and drainage follows for frank pus or non-response.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Quinsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Quinsy
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.quinsy.initial-treatment-antibiotics", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-52C7EB77E5F364
+## label
+Deep neck abscesses form in the peritonsillar, parapharyngeal, retropharyngeal and submandibular spaces but not the paraglottic space
+## canonical_key
+otolaryngology.deep-neck-abscess-spaces.not-paraglottic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Abscesses of the head and neck collect in the deep cervical spaces that communicate with the pharynx and floor of the mouth: the peritonsillar, parapharyngeal, retropharyngeal and submandibular spaces. The paraglottic space is an internal laryngeal space involved in the spread of laryngeal cancer, not a site of deep neck abscess. Naming the paraglottic space as an abscess site is therefore the exception.
+## explicit_objective
+Recognise that deep neck abscesses form in the peritonsillar, parapharyngeal, retropharyngeal and submandibular spaces, not the paraglottic space.
+## pitfalls
+The paraglottic space is a laryngeal cancer-spread space, not a deep neck abscess site.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.deep-neck-abscess-spaces.not-paraglottic", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-4370824CE8FC14
+## label
+Quinsy is a collection of pus in the peritonsillar space
+## canonical_key
+otolaryngology.quinsy.peritonsillar-abscess-definition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Quinsy is a peritonsillar abscess: a collection of pus between the tonsillar capsule and the superior constrictor muscle, within the peritonsillar space. It usually complicates acute tonsillitis and pushes the affected tonsil medially and downwards. It is not a parapharyngeal, retropharyngeal or other deep-space collection.
+## explicit_objective
+State that quinsy is a collection of pus in the peritonsillar space.
+## pitfalls
+Placing the quinsy pus in the parapharyngeal or retropharyngeal space is wrong; quinsy is peritonsillar.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Quinsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Quinsy
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.quinsy.peritonsillar-abscess-definition", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-C738B4FE7A0D9D
+## label
+A quinsy that fails to respond to antibiotics is relieved by incision and drainage
+## canonical_key
+otolaryngology.quinsy.incision-drainage-when-antibiotics-fail
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a quinsy has formed frank pus or fails to settle on antibiotics, rapid relief is obtained by incision and drainage (or needle aspiration) of the peritonsillar abscess. Draining the pus relieves the throbbing pain, trismus and dysphagia at once. Radiotherapy, reassurance and rest, or antidiphtheritic serum have no role.
+## explicit_objective
+State that a quinsy not responding to antibiotics is relieved by incision and drainage.
+## pitfalls
+Reassurance, radiotherapy or antidiphtheritic serum do not relieve a quinsy; drainage of the pus does.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Quinsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Quinsy
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.quinsy.incision-drainage-when-antibiotics-fail", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-23C778BC6AA8A0
+## label
+Acute retropharyngeal abscess presents with fever, dysphagia and a posterior pharyngeal wall swelling but not trismus
+## canonical_key
+otolaryngology.retropharyngeal-abscess.presentation-no-trismus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An acute retropharyngeal abscess presents with fever, malaise and anorexia, dysphagia and odynophagia, and a bulging swelling of the posterior pharyngeal wall. Trismus is not a feature, because the pterygoid muscles are not involved; trismus instead suggests a peritonsillar or parapharyngeal collection. A midline posterior swelling without trismus is the distinguishing picture.
+## explicit_objective
+Recognise that acute retropharyngeal abscess presents with fever, dysphagia and a posterior pharyngeal wall swelling, but not trismus.
+## pitfalls
+Trismus is not a feature of a retropharyngeal abscess; it points instead to a peritonsillar or parapharyngeal collection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.retropharyngeal-abscess.presentation-no-trismus", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-1546F3D6CF05E6
+## label
+Acute retropharyngeal abscess affects mainly infants and young children
+## canonical_key
+otolaryngology.retropharyngeal-abscess.affects-infants-young-children
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute retropharyngeal abscess affects mainly infants and young children, in whom prominent retropharyngeal lymph nodes suppurate after an upper respiratory infection. These nodes atrophy with age, so the acute abscess is uncommon in adults, in whom a chronic tuberculous retropharyngeal abscess is the usual form instead. Age is therefore a key pointer to the diagnosis.
+## explicit_objective
+State that acute retropharyngeal abscess affects mainly infants and young children.
+## pitfalls
+The acute retropharyngeal abscess is a disease of young children, not adults or the elderly; the retropharyngeal nodes that suppurate atrophy with age.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.retropharyngeal-abscess.affects-infants-young-children", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-CDFE58DD904C4F
+## label
+Quinsy causes dysphagia, trismus and dribbling of saliva but not hoarseness
+## canonical_key
+otolaryngology.quinsy.symptoms-not-hoarseness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Quinsy (peritonsillar abscess) causes severe dysphagia and odynophagia, trismus from pterygoid irritation, dribbling of saliva, and a muffled hot-potato voice. Hoarseness is a laryngeal symptom and is not a feature of quinsy. Listing hoarseness among quinsy symptoms is therefore the false statement.
+## explicit_objective
+Recognise that quinsy causes dysphagia, trismus and dribbling of saliva, but not hoarseness.
+## pitfalls
+Hoarseness is laryngeal, not a quinsy symptom; quinsy gives a muffled hot-potato voice, dysphagia, trismus and dribbling.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Quinsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Quinsy
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.quinsy.symptoms-not-hoarseness", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

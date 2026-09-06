@@ -3926,3 +3926,1401 @@ yes
 
 ## author_notes
 Source printed six options a-f; the redundant never-correct filler f) 'None of the above' was dropped to fit the 4-5 option contract, keeping e) 'All of the above' as the printed key (grid key e).
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-35
+
+## title
+False statement about aphthous ulceration
+
+## question
+Apthous ulceration of the pharynx is characterized by the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Recurrent.
+
+## explanation_a
+Incorrect (true statement). Aphthous ulcers are recurrent, so this is a genuine feature and not the exception.
+
+## answer_b
+Multiple.
+
+## explanation_b
+Incorrect (true statement). They are typically multiple, so this is true.
+
+## answer_c
+Heals spontaneously.
+
+## explanation_c
+Incorrect (true statement). Aphthous ulcers heal spontaneously within one to two weeks, so this is true.
+
+## answer_d
+Caused by fungus.
+
+## explanation_d
+Correct (the false statement). Aphthous ulcers are not caused by a fungus; their cause is idiopathic and multifactorial, and candidal disease is a separate entity. Because a fungal cause is untrue, this is the exception. The other three features — recurrent, multiple and self-limiting — are all genuine.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Oral cavity
+
+## main_concept
+CON-MUL-30F7A2EC6C6A30
+
+## concept_ids
+CON-MUL-30F7A2EC6C6A30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that aphthous ulcers are recurrent, multiple and self-limiting, and are not fungal.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.53); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-36
+
+## title
+Site of pus in Ludwig's angina
+
+## question
+Accumulation of pus in Ludwig's angina occurs in the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Parapharyngeal space.
+
+## explanation_a
+Incorrect. The parapharyngeal (lateral pharyngeal) space is a different deep-neck space, not the seat of Ludwig's angina.
+
+## answer_b
+Retropharyngeal space.
+
+## explanation_b
+Incorrect. The retropharyngeal space lies behind the pharynx and is not where Ludwig's angina collects.
+
+## answer_c
+Submandibular space.
+
+## explanation_c
+Correct. Ludwig's angina is a cellulitis of the submandibular space, usually from a lower molar dental infection, in which oedema and pus elevate the floor of the mouth and the tongue and threaten the airway. The collection is submandibular. This is why airway vigilance and dental source control are central to its management.
+
+## answer_d
+Prevertebral space.
+
+## explanation_d
+Incorrect. The prevertebral space lies in front of the vertebrae and is not involved in Ludwig's angina.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deep neck space infections
+
+## main_concept
+CON-MUL-A3E1FB2CC1D796
+
+## concept_ids
+CON-MUL-A3E1FB2CC1D796
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that Ludwig's angina collects in the submandibular space.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.53); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-37
+
+## title
+Feature not part of a parapharyngeal abscess
+
+## question
+"Beck's Triad" include all of the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Swelling in the lateral pharyngeal wall pushing a normal tonsil medially.
+
+## explanation_a
+Incorrect (a true feature). Swelling of the lateral pharyngeal wall pushing a normal tonsil medially is a sign of a parapharyngeal (lateral pharyngeal) abscess, so it is not the exception.
+
+## answer_b
+Tender firm external swelling in the lateral side of the neck.
+
+## explanation_b
+Incorrect (a true feature). A tender firm external swelling on the lateral side of the neck is part of the parapharyngeal abscess picture, so it is not the exception.
+
+## answer_c
+Trismus.
+
+## explanation_c
+Incorrect (a true feature). Trismus from pterygoid irritation accompanies a parapharyngeal abscess, so it is not the exception.
+
+## answer_d
+White spots on the surface of the tonsil.
+
+## explanation_d
+Correct (the exception). White spots on the tonsil surface are a sign of tonsillitis, not of a parapharyngeal (lateral pharyngeal) space abscess. The abscess is characterised by a medially displaced normal tonsil, an external neck swelling and trismus. White spots on the tonsil therefore do not belong with the deep-space signs.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deep neck space infections
+
+## main_concept
+CON-MUL-99333F10BFC103
+
+## concept_ids
+CON-MUL-99333F10BFC103
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that white spots on the tonsil are not part of a parapharyngeal abscess, whose signs are a displaced tonsil, external neck swelling and trismus.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.53); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-38
+
+## title
+Initial treatment of quinsy
+
+## question
+A 20-year-old male presented to the Emergency Room complaining of severe throbbing pain in the right side of his throat. His pain started two days ago and rapidly progressed and became throbbing in nature. On examination, his temperature was 38. He could not open his mouth properly during oral examination. The palate was found to be swollen and the tonsil was pushed medially and downwards. His upper deep cervical nodes were enlarged and tender. The initial line of treatment is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Intravenous Broad Spectrum Antibiotics.
+
+## explanation_a
+Correct. This is a quinsy (peritonsillar abscess). The initial line of treatment is intravenous broad-spectrum antibiotics, together with rehydration and analgesia, to control the infection and settle a peritonsillar cellulitis. Incision and drainage follows if frank pus has formed or there is no response. Starting with antibiotics is therefore the correct first step.
+
+## answer_b
+Incision and Drainage under Local Anesthesia.
+
+## explanation_b
+Incorrect. Incision and drainage is the step reserved for frank pus or failure of antibiotics, not the initial blanket treatment.
+
+## answer_c
+CT scan to diagnose the extension of the disease.
+
+## explanation_c
+Incorrect. The diagnosis of quinsy is clinical, so a CT scan is not the initial step in this straightforward presentation.
+
+## answer_d
+Intravenous Fluids to avoid dehydration.
+
+## explanation_d
+Incorrect. Intravenous fluids are only supportive; they do not treat the infection and are not the definitive initial line.
+
+## answer_e
+Tracheostomy to avoid any airway compromise.
+
+## explanation_e
+Incorrect. There is no airway compromise, so a tracheostomy is not indicated.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Quinsy
+
+## main_concept
+CON-MUL-F791D749B699D0
+
+## concept_ids
+CON-MUL-F791D749B699D0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Choose intravenous broad-spectrum antibiotics as the initial treatment of quinsy, with drainage reserved for frank pus or non-response.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.53); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-39
+
+## title
+Space not a site of head and neck abscess
+
+## question
+The following spaces can be the site of "abscess formation" in the area of the head and neck EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The peritonsillar space.
+
+## explanation_a
+Incorrect. The peritonsillar space is the site of a quinsy, a genuine deep neck abscess, so it is not the exception.
+
+## answer_b
+The paraglottic space.
+
+## explanation_b
+Correct (the exception). The paraglottic space is an internal laryngeal space involved in the spread of laryngeal cancer, not a site of deep neck abscess. The true deep-neck abscess spaces are the peritonsillar, parapharyngeal, retropharyngeal and submandibular spaces. Naming the paraglottic space as an abscess site is therefore the exception.
+
+## answer_c
+The parapharyngeal space.
+
+## explanation_c
+Incorrect. The parapharyngeal space is a recognised deep neck abscess site, so it is not the exception.
+
+## answer_d
+The retropharyngeal space.
+
+## explanation_d
+Incorrect. The retropharyngeal space is a recognised deep neck abscess site, so it is not the exception.
+
+## answer_e
+The Submandibular space.
+
+## explanation_e
+Incorrect. The submandibular space is the site of Ludwig's angina, so it is not the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deep neck space infections
+
+## main_concept
+CON-MUL-52C7EB77E5F364
+
+## concept_ids
+CON-MUL-52C7EB77E5F364
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that the paraglottic space is not a deep neck abscess site.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.53); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-40
+
+## title
+Definition of quinsy
+
+## question
+Quinsy means collection of pus in the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Parapharyngeal space.
+
+## explanation_a
+Incorrect. The parapharyngeal space is a separate deep-neck space, not the seat of a quinsy.
+
+## answer_b
+Retropharyngeal space.
+
+## explanation_b
+Incorrect. The retropharyngeal space lies behind the pharynx and is not where a quinsy collects.
+
+## answer_c
+Peritonsillar space.
+
+## explanation_c
+Correct. Quinsy is a peritonsillar abscess: a collection of pus between the tonsillar capsule and the superior constrictor muscle, in the peritonsillar space. It usually complicates acute tonsillitis and pushes the tonsil medially. The peritonsillar location is the definition.
+
+## answer_d
+Crypto magna.
+
+## explanation_d
+Incorrect. "Crypto magna" is not a deep-neck space; the crypta magna is a tonsillar crypt, not the site of a quinsy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Quinsy
+
+## main_concept
+CON-MUL-4370824CE8FC14
+
+## concept_ids
+CON-MUL-4370824CE8FC14
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that quinsy is a collection of pus in the peritonsillar space.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-41
+
+## title
+Relief of a quinsy not responding to antibiotics
+
+## question
+A 20 years old man c/o fever & increasing sore throat with dripping of saliva & trismus for only 2 days on examination (the right tonsil pushed medially & forward) no response to antibiotics.. rapid relief can be obtained by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Short course of radiotherapy.
+
+## explanation_a
+Incorrect. Radiotherapy has no role in an acute peritonsillar abscess.
+
+## answer_b
+Assurance & rest.
+
+## explanation_b
+Incorrect. Reassurance and rest will not relieve a collection of pus that has failed to respond to antibiotics.
+
+## answer_c
+Antidiphtheric serum.
+
+## explanation_c
+Incorrect. Antidiphtheritic serum treats diphtheria, not a quinsy.
+
+## answer_d
+Incision & drainage.
+
+## explanation_d
+Correct. This is a quinsy (peritonsillar abscess) that has not responded to antibiotics, so rapid relief is obtained by incision and drainage (or needle aspiration) of the pus. Draining the abscess relieves the pain, trismus and dysphagia at once. Drainage is the definitive step once pus has formed or antibiotics have failed.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Quinsy
+
+## main_concept
+CON-MUL-C738B4FE7A0D9D
+
+## concept_ids
+CON-MUL-C738B4FE7A0D9D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that a quinsy not responding to antibiotics is relieved by incision and drainage.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-42
+
+## title
+Feature not seen in acute retropharyngeal abscess
+
+## question
+Acute retropharyngeal abscess presents by the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Fever, malaise and anorexia.
+
+## explanation_a
+Incorrect (a true feature). Fever, malaise and anorexia accompany an acute retropharyngeal abscess, so this is not the exception.
+
+## answer_b
+Dysphagia and odynophagia.
+
+## explanation_b
+Incorrect (a true feature). Dysphagia and odynophagia are typical, so this is not the exception.
+
+## answer_c
+A swelling in the posterior pharyngeal wall.
+
+## explanation_c
+Incorrect (a true feature). A bulging swelling of the posterior pharyngeal wall is the local sign, so this is not the exception.
+
+## answer_d
+Trismus.
+
+## explanation_d
+Correct (the exception). Trismus is not a feature of a retropharyngeal abscess, because the pterygoid muscles are not involved; trismus instead points to a peritonsillar or parapharyngeal collection. The retropharyngeal abscess gives fever, dysphagia and a posterior wall swelling without trismus. Naming trismus as a feature is therefore the exception.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deep neck space infections
+
+## main_concept
+CON-MUL-23C778BC6AA8A0
+
+## concept_ids
+CON-MUL-23C778BC6AA8A0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that trismus is not a feature of an acute retropharyngeal abscess.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-43
+
+## title
+Age group affected by acute retropharyngeal abscess
+
+## question
+Acute retropharyngeal abscess affects mainly:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Elderly patients.
+
+## explanation_a
+Incorrect. The elderly are not the main group; the responsible retropharyngeal nodes have long since atrophied.
+
+## answer_b
+Adult males.
+
+## explanation_b
+Incorrect. Adult males are not the main group affected by the acute abscess.
+
+## answer_c
+Adult females.
+
+## explanation_c
+Incorrect. Adult females are not the main group affected.
+
+## answer_d
+Adolescent.
+
+## explanation_d
+Incorrect. Adolescents are not the typical group; the nodes atrophy before this age.
+
+## answer_e
+Infants and young children.
+
+## explanation_e
+Correct. Acute retropharyngeal abscess affects mainly infants and young children, in whom prominent retropharyngeal lymph nodes suppurate after an upper respiratory infection. These nodes atrophy with age, so the acute abscess is uncommon later in life. Age is therefore a key pointer to the diagnosis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deep neck space infections
+
+## main_concept
+CON-MUL-1546F3D6CF05E6
+
+## concept_ids
+CON-MUL-1546F3D6CF05E6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that acute retropharyngeal abscess affects mainly infants and young children.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-PHARYNX-44
+
+## title
+False statement about quinsy symptoms
+
+## question
+Choose the false answer regarding Quinsy symptoms:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Dysphagia.
+
+## explanation_a
+Incorrect (a true symptom). Severe dysphagia is characteristic of quinsy, so it is not the false answer.
+
+## answer_b
+Hoarseness of voice.
+
+## explanation_b
+Correct (the false statement). Hoarseness of voice is a laryngeal symptom and is not a feature of quinsy; quinsy instead gives a muffled hot-potato voice. Listing hoarseness among quinsy symptoms is therefore false. The genuine symptoms are dysphagia, trismus and dribbling of saliva.
+
+## answer_c
+Trismus.
+
+## explanation_c
+Incorrect (a true symptom). Trismus from pterygoid irritation is typical of quinsy, so it is not the false answer.
+
+## answer_d
+Dribbling of saliva.
+
+## explanation_d
+Incorrect (a true symptom). Dribbling of saliva from painful swallowing is characteristic of quinsy, so it is not the false answer.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Quinsy
+
+## main_concept
+CON-MUL-CDFE58DD904C4F
+
+## concept_ids
+CON-MUL-CDFE58DD904C4F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that hoarseness is not a symptom of quinsy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Pharynx section (PDF p.54); key from the section-end printed answer-key grid (p60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

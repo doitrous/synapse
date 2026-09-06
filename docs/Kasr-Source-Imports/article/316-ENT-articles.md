@@ -2209,3 +2209,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Pharynx-section oral-cavity and oropharyngeal ulcer/membrane concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## title
+Otorhinolaryngology: deep neck space infections and abscesses
+## subject
+mul
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the deep-neck-space infections tested by the bank's Pharynx section (Q36-44): quinsy (peritonsillar abscess) with its definition, symptoms and treatment, the parapharyngeal and retropharyngeal abscesses, Ludwig's angina of the submandibular space, and the deep cervical spaces in which abscesses form.
+## sections
+### Definition
+The pharynx and floor of the mouth are surrounded by deep cervical spaces — peritonsillar, parapharyngeal, retropharyngeal and submandibular — in which infection can collect as an abscess.
+### Mechanism
+Quinsy is pus between the tonsillar capsule and superior constrictor (peritonsillar space), usually complicating tonsillitis. A parapharyngeal abscess pushes a normal tonsil medially and causes external neck swelling and trismus. Ludwig's angina is a submandibular-space cellulitis from a dental source. An acute retropharyngeal abscess follows suppuration of retropharyngeal nodes in young children and bulges the posterior pharyngeal wall. The paraglottic space is laryngeal and is not a deep-neck abscess site.
+### Key determinants
+Discriminators tested here: quinsy is peritonsillar, treated first with antibiotics and drained if pus forms or it fails to respond, and gives dysphagia, trismus and dribbling but not hoarseness; a parapharyngeal abscess adds external neck swelling and a medially displaced normal tonsil; a retropharyngeal abscess affects young children, bulges the posterior wall and lacks trismus; and Ludwig's angina occupies the submandibular space.
+### Clinical significance
+These distinctions guide urgent care: the space involved dictates the site of drainage and the airway risk, trismus separates peritonsillar/parapharyngeal from retropharyngeal disease, and recognising Ludwig's angina prompts early airway vigilance.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (placing quinsy pus in the wrong space, calling the paraglottic space an abscess site, attributing trismus to a retropharyngeal abscess, or listing hoarseness among quinsy symptoms).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx
+## subtopic
+Deep neck space infections
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T03
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-A3E1FB2CC1D796
+CON-MUL-99333F10BFC103
+CON-MUL-F791D749B699D0
+CON-MUL-52C7EB77E5F364
+CON-MUL-4370824CE8FC14
+CON-MUL-C738B4FE7A0D9D
+CON-MUL-23C778BC6AA8A0
+CON-MUL-1546F3D6CF05E6
+CON-MUL-CDFE58DD904C4F
+## related_articles
+ART-ENT-316-PHARYNX-TONSIL
+ART-ENT-316-PHARYNX-ORAL-CAVITY
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Pharynx-section deep-neck-space infection concepts on the real discipline node DIS-ENT-T03 (Oral cavity and pharynx). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
