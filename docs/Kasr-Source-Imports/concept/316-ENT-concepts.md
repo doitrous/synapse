@@ -7565,3 +7565,1113 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oroantral-fistula.dental-extraction-cause", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C6DBC7146432D2
+## label
+Inverted papilloma of the nose recurs, may undergo malignant transformation and needs wide surgical excision
+## canonical_key
+otolaryngology.inverted-papilloma.recurrence-malignant-potential-wide-excision
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Inverted (Schneiderian) papilloma is a benign but locally aggressive tumour of the lateral nasal wall that characteristically recurs after incomplete removal, carries a small risk of malignant transformation to squamous cell carcinoma, and is therefore treated by wide surgical excision rather than simple polypectomy.
+## explicit_objective
+State that inverted papilloma recurs, may become malignant and requires wide surgical excision.
+## pitfalls
+It arises from the lateral nasal wall, not the septum, and is not diagnosed by angiography; radiotherapy is not the primary treatment, and simple polyp-style removal leaves it to recur.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Inverted papilloma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Inverted papilloma
+## article_ids
+ART-ENT-316-NOSE-TUMOURS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.inverted-papilloma.recurrence-malignant-potential-wide-excision", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-03DF799A1FC323
+## label
+Atrophic rhinitis is characterised by a foul nasal smell, anosmia and crusting
+## canonical_key
+otolaryngology.atrophic-rhinitis.features-foul-smell-anosmia-crusts
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atrophic rhinitis (ozaena) is a chronic disease with atrophy of the nasal mucosa, turbinate bones and glands, producing a roomy nose filled with foul greenish crusts, a bad smell (ozaena) noticed by others, and anosmia so the patient usually cannot smell the odour.
+## explicit_objective
+List the features of atrophic rhinitis: foul nasal smell, anosmia and crusting.
+## pitfalls
+Despite the foul smell, the patient is often anosmic and does not perceive it ("merciful anosmia"); the nose is roomy, not obstructed, distinguishing it from hypertrophic or allergic rhinitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Atrophic rhinitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Atrophic rhinitis
+## article_ids
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.atrophic-rhinitis.features-foul-smell-anosmia-crusts", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-86F9CF1868FB53
+## label
+The atrophic stage of rhinoscleroma leaves a roomy nose with abundant crusts
+## canonical_key
+otolaryngology.rhinoscleroma.atrophic-stage-roomy-nose-with-crusts
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rhinoscleroma passes through catarrhal (atrophic), granulomatous (nodular) and cicatricial (stenotic) stages; in its atrophic stage the nasal mucosa atrophies so the nose becomes roomy with considerable foul crusts, resembling atrophic rhinitis, before nodular masses and scarring develop.
+## explicit_objective
+Recognise the atrophic (catarrhal) stage of rhinoscleroma as a roomy, crusted nose.
+## pitfalls
+Swollen turbinates, watery discharge, itching and sneezing (allergic rhinitis) and bilateral nasal masses (the granulomatous stage) are not features of the atrophic stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Rhinoscleroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Rhinoscleroma
+## article_ids
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.rhinoscleroma.atrophic-stage-roomy-nose-with-crusts", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E3EF9877CE6F60
+## label
+Rhinoscleroma is a chronic specific granuloma of the nose
+## canonical_key
+otolaryngology.rhinoscleroma.chronic-granuloma-of-the-nose
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rhinoscleroma is a chronic granulomatous (specific granuloma) disease of the nose and upper respiratory tract caused by Klebsiella rhinoscleromatis; it is an infective inflammatory granuloma, not a benign or malignant tumour and not a chronic non-specific inflammation.
+## explicit_objective
+Classify rhinoscleroma as a chronic granuloma of the nose.
+## pitfalls
+It is neither a benign nor a malignant tumour, and it is a specific (organism-driven) granuloma rather than a chronic non-specific inflammation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Rhinoscleroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Rhinoscleroma
+## article_ids
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.rhinoscleroma.chronic-granuloma-of-the-nose", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0A075A897769F0
+## label
+Rhinoscleroma histology shows Mikulicz cells and Russell bodies but not Langhans giant cells
+## canonical_key
+otolaryngology.rhinoscleroma.histopathology-mikulicz-cells-and-russell-bodies
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The histopathology of rhinoscleroma shows the pathognomonic Mikulicz cell (a large foamy macrophage containing Klebsiella), Russell bodies (immunoglobulin-laden plasma cells), plasma cells and fibroblasts; Langhans giant cells belong to tuberculous granuloma and are not a feature.
+## explicit_objective
+Identify the Mikulicz cell as pathognomonic of rhinoscleroma and Langhans giant cells as absent.
+## pitfalls
+Langhans giant cells indicate tuberculosis, not rhinoscleroma; the diagnostic cell here is the Mikulicz cell, accompanied by Russell bodies.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Rhinoscleroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Rhinoscleroma
+## article_ids
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.rhinoscleroma.histopathology-mikulicz-cells-and-russell-bodies", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-34CD6B110FE3EE
+## label
+Orbital complications of sinusitis are investigated by CT of the nose and paranasal sinuses
+## canonical_key
+otolaryngology.sinusitis-orbital-complications.ct-nose-and-paranasal-sinuses
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sinusitis can spread to the orbit to cause orbital cellulitis, orbital (subperiosteal) abscess and cavernous sinus thrombosis; when a patient with sinusitis develops eyelid swelling the most informative investigation is a CT scan of the nose and paranasal sinuses to show the diseased sinus and any orbital collection. Lateral (sigmoid) sinus thrombosis is an otogenic, not an orbital, complication.
+## explicit_objective
+State that orbital complications of sinusitis are assessed by CT of the nose and paranasal sinuses.
+## pitfalls
+Lateral (sigmoid) sinus thrombosis is a complication of ear disease, not of sinusitis; serum IgE, blood counts, ocular ultrasound and nasal culture do not localise an orbital complication as CT does.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Complications of sinusitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Complications of sinusitis
+## article_ids
+ART-ENT-316-NOSE-SINUSITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.sinusitis-orbital-complications.ct-nose-and-paranasal-sinuses", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-24448847D51C89
+## label
+Allergic fungal sinusitis shows raised specific IgE, expansile heterogeneous sinus opacity and is treated by FESS
+## canonical_key
+otolaryngology.allergic-fungal-sinusitis.raised-ige-ct-expansion-fess
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Allergic fungal sinusitis is a non-invasive hypersensitivity reaction to fungi in immunocompetent atopic patients; it shows elevated fungus-specific IgE, a CT of heterogeneous opacity with expansion of the sinus, and is treated mainly by functional endoscopic sinus surgery to remove the allergic mucin, often with post-operative steroids.
+## explicit_objective
+List the immunological, radiological and surgical features of allergic fungal sinusitis.
+## pitfalls
+It is non-invasive and occurs in immunocompetent atopic patients, unlike invasive fungal sinusitis; medical therapy alone without FESS usually fails.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Fungal sinusitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Fungal sinusitis
+## article_ids
+ART-ENT-316-NOSE-SINUSITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.allergic-fungal-sinusitis.raised-ige-ct-expansion-fess", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-CCC6547D56C233
+## label
+Acute fulminant invasive fungal sinusitis occurs in the immunocompromised, is usually mucormycosis and is treated with amphotericin B
+## canonical_key
+otolaryngology.invasive-fungal-sinusitis.mucor-immunocompromised-amphotericin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute fulminant invasive fungal sinusitis is an aggressive angio-invasive infection of immunocompromised or poorly controlled diabetic patients, most commonly caused by Mucor (mucormycosis); it is treated with urgent surgical debridement and systemic amphotericin B together with correction of the underlying immune or metabolic state.
+## explicit_objective
+State that fulminant invasive fungal sinusitis is a mucormycosis of the immunocompromised treated with amphotericin B.
+## pitfalls
+It occurs in the immunocompromised, not the healthy; the commonest organism is Mucor rather than Aspergillus, and delay in debridement and amphotericin B is rapidly fatal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Fungal sinusitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Fungal sinusitis
+## article_ids
+ART-ENT-316-NOSE-SINUSITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.invasive-fungal-sinusitis.mucor-immunocompromised-amphotericin", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-AD33CFE46D272F
+## label
+Acute sinusitis presents with sinus tenderness, nasal mucosal congestion and mucopurulent discharge
+## canonical_key
+otolaryngology.acute-sinusitis.presenting-signs
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute sinusitis presents with tenderness over the affected sinus, congestion and oedema of the nasal mucosa and a mucopurulent nasal discharge, together with facial pain or pressure and nasal obstruction.
+## explicit_objective
+List the presenting signs of acute sinusitis.
+## pitfalls
+These local signs, not systemic features alone, characterise acute sinusitis; tenderness, mucosal congestion and mucopurulent discharge are present together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Acute sinusitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Acute sinusitis
+## article_ids
+ART-ENT-316-NOSE-SINUSITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.acute-sinusitis.presenting-signs", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-531EC7085C491B
+## label
+Orbital cellulitis is the commonest complication of ethmoid sinusitis, especially in children
+## canonical_key
+otolaryngology.ethmoid-sinusitis.orbital-cellulitis-commonest-complication
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ethmoid sinuses are separated from the orbit only by the thin lamina papyracea, so ethmoid sinusitis is the commonest sinus source of orbital cellulitis, particularly in children, in whom acute ethmoiditis is the usual cause of an orbital infection.
+## explicit_objective
+State that orbital cellulitis is the commonest complication of ethmoid sinusitis, especially in children.
+## pitfalls
+The maxillary, frontal and sphenoid sinuses less commonly cause orbital cellulitis; the thin lamina papyracea explains the ethmoid predisposition.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Complications of sinusitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Complications of sinusitis
+## article_ids
+ART-ENT-316-NOSE-SINUSITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.ethmoid-sinusitis.orbital-cellulitis-commonest-complication", uppercased (same scheme as the Ear section and Nose Q1-18); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q19-48) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.

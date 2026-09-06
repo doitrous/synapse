@@ -550,6 +550,686 @@
       "subtopic": "CSF rhinorrhoea",
       "library_ids": ["ART-ENT-316-NOSE-CSF-RHINORRHOEA"],
       "learning_objective": "State that the nose must not be packed in CSF rhinorrhoea."
+    },
+    {
+      "key": "nose-q19",
+      "id": "QST-KASR316ENT-NOSE-19",
+      "page": 24,
+      "title": "Commonest cause of oroantral fistula",
+      "question": "The most common cause of oroantral fistula is:",
+      "options": {
+        "A": "Acute sinusitis",
+        "B": "A road traffic accident",
+        "C": "Dental extraction of an upper posterior tooth",
+        "D": "Radical antrum operation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acute sinusitis inflames the antral lining but does not by itself create a communication between the mouth and the antrum.",
+        "B": "Incorrect. Facial trauma from a road accident is a rare cause compared with dental extraction.",
+        "C": "Correct. The commonest cause of an oroantral fistula is extraction of an upper posterior tooth whose roots project into the floor of the maxillary sinus, so their removal opens a communication between the mouth and the antrum. Acute sinusitis, trauma and antral surgery are far less frequent causes. The close relation of the upper premolar and molar roots to the antral floor makes dental extraction the usual culprit.",
+        "D": "Incorrect. A radical antrum (Caldwell-Luc) operation can occasionally cause a fistula but is much rarer than dental extraction."
+      },
+      "main_concept": "CON-MUL-3846487DB6D940",
+      "concept_ids": ["CON-MUL-3846487DB6D940"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Oroantral fistula",
+      "library_ids": ["ART-ENT-316-NOSE-TRAUMA-INFECTION"],
+      "learning_objective": "State that dental extraction of an upper posterior tooth is the commonest cause of oroantral fistula."
+    },
+    {
+      "key": "nose-q20",
+      "id": "QST-KASR316ENT-NOSE-20",
+      "page": 24,
+      "title": "Watery nasal discharge that reduces Fehling's solution",
+      "question": "A unilateral clear watery nasal discharge that reduces Fehling's solution is suggestive of:",
+      "options": {
+        "A": "CSF rhinorrhoea",
+        "B": "Allergic rhinitis",
+        "C": "Viral rhinitis",
+        "D": "Nasal diphtheria"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Reduction of Fehling's solution shows that the fluid contains glucose, and a clear watery nasal discharge rich in glucose is cerebrospinal fluid. CSF rhinorrhoea is typically unilateral and increases on bending forward, matching the description. Ordinary nasal mucus does not contain the glucose that reduces Fehling's reagent.",
+        "B": "Incorrect. Allergic rhinitis gives a bilateral watery discharge with sneezing and contains no glucose.",
+        "C": "Incorrect. Viral rhinitis produces a self-limiting mucoid discharge without glucose.",
+        "D": "Incorrect. Nasal diphtheria causes a blood-stained membranous discharge, not a clear glucose-containing fluid."
+      },
+      "main_concept": "CON-MUL-4527EBEAF22FE1",
+      "concept_ids": ["CON-MUL-4527EBEAF22FE1"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "CSF rhinorrhoea",
+      "library_ids": ["ART-ENT-316-NOSE-CSF-RHINORRHOEA"],
+      "learning_objective": "Recognise a glucose-containing (Fehling-reducing) watery nasal discharge as CSF rhinorrhoea."
+    },
+    {
+      "key": "nose-q21",
+      "id": "QST-KASR316ENT-NOSE-21",
+      "page": 24,
+      "title": "Tooth whose extraction causes oroantral fistula",
+      "question": "Oroantral fistula commonly follows extraction of:",
+      "options": {
+        "A": "The upper first premolar",
+        "B": "The upper canine",
+        "C": "The upper first molar",
+        "D": "The upper wisdom tooth"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The upper first premolar root is less intimately related to the antral floor than the molar roots.",
+        "B": "Incorrect. The upper canine is anterior and its long root is not related to the maxillary antrum.",
+        "C": "Correct. The roots of the upper first molar lie closest to, and often project into, the floor of the maxillary sinus, so extracting it most commonly opens an oroantral communication. The neighbouring premolar and molar roots are related to the antrum as well, but the first molar is the usual offender. This close root-to-antrum relation is the anatomical basis of the fistula.",
+        "D": "Incorrect. The upper wisdom tooth is related to the antrum but is a less common cause than the first molar."
+      },
+      "main_concept": "CON-MUL-3846487DB6D940",
+      "concept_ids": ["CON-MUL-3846487DB6D940"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Oroantral fistula",
+      "library_ids": ["ART-ENT-316-NOSE-TRAUMA-INFECTION"],
+      "learning_objective": "State that oroantral fistula most commonly follows extraction of the upper first molar."
+    },
+    {
+      "key": "nose-q22",
+      "id": "QST-KASR316ENT-NOSE-22",
+      "page": 24,
+      "title": "Character of CSF rhinorrhoea",
+      "question": "Cerebrospinal fluid rhinorrhoea is:",
+      "options": {
+        "A": "Unilateral",
+        "B": "Sweet in taste",
+        "C": "Bilateral",
+        "D": "Yellowish in colour"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CSF rhinorrhoea is characteristically a unilateral, clear, watery discharge that leaks from a single skull-base defect. It tastes salty rather than sweet and is colourless, not yellow. Its unilateral, clear nature helps distinguish it from ordinary nasal discharge.",
+        "B": "Incorrect. CSF tastes salty, not sweet, even though it contains glucose.",
+        "C": "Incorrect. The leak is usually from one skull-base defect, so the discharge is unilateral, not bilateral.",
+        "D": "Incorrect. CSF is clear and colourless, not yellowish."
+      },
+      "main_concept": "CON-MUL-4527EBEAF22FE1",
+      "concept_ids": ["CON-MUL-4527EBEAF22FE1"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "CSF rhinorrhoea",
+      "library_ids": ["ART-ENT-316-NOSE-CSF-RHINORRHOEA"],
+      "learning_objective": "State that CSF rhinorrhoea is a unilateral clear watery discharge."
+    },
+    {
+      "key": "nose-q23",
+      "id": "QST-KASR316ENT-NOSE-23",
+      "page": 25,
+      "title": "Next step in post-traumatic CSF rhinorrhoea",
+      "question": "A young adult male sustains facial trauma in a motor vehicle accident and still has copious clear watery discharge from his nose 24 hours later. The next step is:",
+      "options": {
+        "A": "Blowing the nose to clean the nasal cavity",
+        "B": "Bilateral nasal packing",
+        "C": "Bed rest and prophylactic antibiotics",
+        "D": "Putting his head down"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Blowing or straining raises intracranial pressure and can force organisms through the leak, so it is avoided.",
+        "B": "Incorrect. The nose must not be packed in CSF rhinorrhoea, as packing risks driving infection intracranially.",
+        "C": "Correct. Persistent clear watery nasal discharge after a head injury is post-traumatic CSF rhinorrhoea. Most traumatic leaks close spontaneously, so initial management is conservative: bed rest with the head elevated, avoidance of straining and nose-blowing, and antibiotic cover against meningitis. Nasal packing is contraindicated, and surgical repair is reserved for leaks that do not settle.",
+        "D": "Incorrect. The head should be elevated, not lowered, to reduce the leak."
+      },
+      "main_concept": "CON-MUL-4527EBEAF22FE1",
+      "concept_ids": ["CON-MUL-4527EBEAF22FE1"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "subtopic": "CSF rhinorrhoea",
+      "library_ids": ["ART-ENT-316-NOSE-CSF-RHINORRHOEA"],
+      "learning_objective": "Recognise that post-traumatic CSF rhinorrhoea is first managed by bed rest and antibiotics, not packing."
+    },
+    {
+      "key": "nose-q24",
+      "id": "QST-KASR316ENT-NOSE-24",
+      "page": 25,
+      "title": "Criteria of CSF rhinorrhoea except",
+      "question": "The following are criteria of CSF rhinorrhoea EXCEPT:",
+      "options": {
+        "A": "Watery nasal discharge",
+        "B": "Increased on bending forward",
+        "C": "Commonly bilateral discharge",
+        "D": "The fluid is rich in glucose"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is a true feature). CSF rhinorrhoea is a clear watery discharge.",
+        "B": "Incorrect (this is a true feature). The leak increases on bending forward as intracranial pressure rises.",
+        "C": "Correct. CSF rhinorrhoea is characteristically unilateral, coming from a single skull-base defect, so a commonly bilateral discharge is the exception. The other statements — watery fluid, exacerbation on bending forward and a glucose-rich fluid — are all genuine criteria. Its unilateral, glucose-containing nature is what identifies the leak.",
+        "D": "Incorrect (this is a true feature). CSF contains glucose, unlike ordinary nasal mucus."
+      },
+      "main_concept": "CON-MUL-4527EBEAF22FE1",
+      "concept_ids": ["CON-MUL-4527EBEAF22FE1"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "CSF rhinorrhoea",
+      "library_ids": ["ART-ENT-316-NOSE-CSF-RHINORRHOEA"],
+      "learning_objective": "Identify that a bilateral discharge is not a criterion of CSF rhinorrhoea."
+    },
+    {
+      "key": "nose-q25",
+      "id": "QST-KASR316ENT-NOSE-25",
+      "page": 25,
+      "title": "Features of inverted papilloma",
+      "question": "In inverted papilloma:",
+      "options": {
+        "A": "Recurrence is common",
+        "B": "There is an incidence of malignant transformation",
+        "C": "The treatment is wide local surgical excision",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer (the statement itself is true). Inverted papilloma does recur after incomplete removal, but the other statements are also true.",
+        "B": "Incorrect as the single answer (the statement itself is true). It carries a risk of malignant transformation, but the other statements are also true.",
+        "C": "Incorrect as the single answer (the statement itself is true). Wide local excision is the correct treatment, but the other statements are also true.",
+        "D": "Correct. Inverted (Schneiderian) papilloma of the lateral nasal wall characteristically recurs after incomplete removal, carries a small risk of malignant transformation to squamous carcinoma, and is therefore treated by wide local surgical excision. All three statements are true, so the answer is all of the above. Simple polypectomy is inadequate because it leaves tumour behind."
+      },
+      "main_concept": "CON-MUL-C6DBC7146432D2",
+      "concept_ids": ["CON-MUL-C6DBC7146432D2"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Inverted papilloma",
+      "library_ids": ["ART-ENT-316-NOSE-TUMOURS"],
+      "learning_objective": "State that inverted papilloma recurs, may become malignant and needs wide excision."
+    },
+    {
+      "key": "nose-q26",
+      "id": "QST-KASR316ENT-NOSE-26",
+      "page": 25,
+      "title": "True statement about inverted papilloma",
+      "question": "\"Inverted papilloma\" of the nose:",
+      "options": {
+        "A": "Is a malignant tumour",
+        "B": "Arises from the nasal septum in most cases",
+        "C": "Is best diagnosed by carotid angiography",
+        "D": "Should be treated by wide surgical resection to avoid recurrence",
+        "E": "Surgery should be followed by radiation therapy to avoid recurrence"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Inverted papilloma is a benign but locally aggressive tumour, though it can transform to malignancy.",
+        "B": "Incorrect. It arises from the lateral nasal wall, not the septum, in most cases.",
+        "C": "Incorrect. It is diagnosed by endoscopy, imaging and biopsy; carotid angiography is used for vascular tumours such as angiofibroma.",
+        "D": "Correct. Inverted papilloma recurs readily if incompletely removed, so it must be treated by wide surgical resection that removes its site of origin on the lateral nasal wall. Adequate excision, rather than simple polypectomy, is what prevents recurrence. It is benign, arises from the lateral wall, and does not need routine post-operative radiotherapy.",
+        "E": "Incorrect. Routine post-operative radiotherapy is not required; complete surgical excision is the key to avoiding recurrence."
+      },
+      "main_concept": "CON-MUL-C6DBC7146432D2",
+      "concept_ids": ["CON-MUL-C6DBC7146432D2"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Inverted papilloma",
+      "library_ids": ["ART-ENT-316-NOSE-TUMOURS"],
+      "learning_objective": "State that inverted papilloma is treated by wide surgical resection to avoid recurrence."
+    },
+    {
+      "key": "nose-q27",
+      "id": "QST-KASR316ENT-NOSE-27",
+      "page": 25,
+      "title": "Spread of a nasal vestibule furuncle",
+      "question": "A furuncle of the nasal vestibule should not be squeezed to avoid spread of infection to:",
+      "options": {
+        "A": "The orbit",
+        "B": "The cavernous sinus",
+        "C": "The sigmoid sinus",
+        "D": "None of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Although orbital spread is possible, the classical feared route is intracranial venous spread to the cavernous sinus.",
+        "B": "Correct. The nasal vestibule lies in the dangerous area of the face, drained by valveless facial and ophthalmic veins that communicate with the cavernous sinus. Squeezing a furuncle can push infected thrombus along these valveless veins to cause cavernous sinus thrombosis. This is why such furuncles must never be squeezed.",
+        "C": "Incorrect. The sigmoid (lateral) sinus is related to spread from ear and mastoid infection, not from a nasal vestibule furuncle.",
+        "D": "Incorrect. There is a definite danger — spread to the cavernous sinus — so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-MUL-4B38D1B113707F",
+      "concept_ids": ["CON-MUL-4B38D1B113707F"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Nasal vestibule furuncle and the dangerous area of the face",
+      "library_ids": ["ART-ENT-316-NOSE-TRAUMA-INFECTION"],
+      "learning_objective": "State that a nasal vestibule furuncle can spread to the cavernous sinus."
+    },
+    {
+      "key": "nose-q28",
+      "id": "QST-KASR316ENT-NOSE-28",
+      "page": 25,
+      "title": "Features of atrophic rhinitis",
+      "question": "Atrophic rhinitis is characterised by:",
+      "options": {
+        "A": "Foul smell from the nose",
+        "B": "Anosmia",
+        "C": "Crust formation",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer (the statement is true). A foul smell (ozaena) is present, but the other statements are also true.",
+        "B": "Incorrect as the single answer (the statement is true). Anosmia is present, but the other statements are also true.",
+        "C": "Incorrect as the single answer (the statement is true). Crust formation is present, but the other statements are also true.",
+        "D": "Correct. Atrophic rhinitis (ozaena) produces a roomy nose filled with foul greenish crusts, a bad smell noticed by others, and anosmia. Because all three features occur together, the answer is all of the above. The patient is usually anosmic and so does not perceive the foul smell that others notice."
+      },
+      "main_concept": "CON-MUL-03DF799A1FC323",
+      "concept_ids": ["CON-MUL-03DF799A1FC323"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Atrophic rhinitis",
+      "library_ids": ["ART-ENT-316-NOSE-GRANULOMA-ATROPHIC"],
+      "learning_objective": "List foul smell, anosmia and crusting as the features of atrophic rhinitis."
+    },
+    {
+      "key": "nose-q29",
+      "id": "QST-KASR316ENT-NOSE-29",
+      "page": 26,
+      "title": "Atrophic stage of rhinoscleroma",
+      "question": "In the atrophic stage of rhinoscleroma:",
+      "options": {
+        "A": "The middle and inferior turbinates are markedly swollen",
+        "B": "Excessive watery nasal discharge is seen",
+        "C": "The patient has nasal itching and excessive sneezing",
+        "D": "There are bilateral nasal masses",
+        "E": "The nose is roomy with considerable crusts"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Markedly swollen turbinates are not a feature of the atrophic stage.",
+        "B": "Incorrect. Excessive watery discharge suggests allergic rhinitis, not the atrophic stage of rhinoscleroma.",
+        "C": "Incorrect. Itching and sneezing are features of allergic rhinitis, not this disease.",
+        "D": "Incorrect. Bilateral nasal masses belong to the granulomatous (nodular) stage, not the atrophic stage.",
+        "E": "Correct. Rhinoscleroma passes through an atrophic (catarrhal), a granulomatous (nodular) and a cicatricial (stenotic) stage. In the atrophic stage the mucosa atrophies so the nose becomes roomy with abundant foul crusts, resembling atrophic rhinitis. Nodular masses and scarring appear only in the later stages."
+      },
+      "main_concept": "CON-MUL-86F9CF1868FB53",
+      "concept_ids": ["CON-MUL-86F9CF1868FB53"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Rhinoscleroma",
+      "library_ids": ["ART-ENT-316-NOSE-GRANULOMA-ATROPHIC"],
+      "learning_objective": "Recognise a roomy crusted nose as the atrophic stage of rhinoscleroma."
+    },
+    {
+      "key": "nose-q30",
+      "id": "QST-KASR316ENT-NOSE-30",
+      "page": 26,
+      "title": "Infection of the dangerous area of the face",
+      "question": "Infections in the dangerous area of the face include:",
+      "options": {
+        "A": "Acute otitis media",
+        "B": "Infected preauricular cyst",
+        "C": "Furunculosis of the nasal vestibule",
+        "D": "Chronic suppurative otitis media"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acute otitis media is a middle-ear infection, not a dangerous-area-of-the-face infection.",
+        "B": "Incorrect. An infected preauricular cyst lies in front of the ear, outside the dangerous area of the face.",
+        "C": "Correct. The dangerous area of the face is the region drained by the valveless facial and ophthalmic veins that communicate with the cavernous sinus. Furunculosis of the nasal vestibule lies within this area, so its infection can spread intracranially to cause cavernous sinus thrombosis. Ear infections drain elsewhere and are not part of this area.",
+        "D": "Incorrect. Chronic suppurative otitis media is an ear disease and its complications are otogenic, not facial-venous."
+      },
+      "main_concept": "CON-MUL-4B38D1B113707F",
+      "concept_ids": ["CON-MUL-4B38D1B113707F"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Nasal vestibule furuncle and the dangerous area of the face",
+      "library_ids": ["ART-ENT-316-NOSE-TRAUMA-INFECTION"],
+      "learning_objective": "Identify nasal vestibule furunculosis as an infection of the dangerous area of the face."
+    },
+    { "key": "nose-q31", "hold": "Exact in-source duplicate of Q29 (same stem 'In the atrophic stage of rhinoscleroma', same five options a-e, same printed key e); held so the same item is not authored twice." },
+    { "key": "nose-q32", "hold": "Non-unique positive stem. 'In atrophic rhinitis' with printed key c (anosmia), but options a (roomy patent nose) and b (bad odour in the nose) are equally true features of atrophic rhinitis, so more than one option is correct; held per the never-guess rule." },
+    { "key": "nose-q33", "hold": "Key/stem conflict. 'Scleroma can affect the following sites EXCEPT' with printed key c (bronchi), but scleroma is a disease of the whole respiratory tract and does involve the bronchi, so bronchi cannot be the exception (the least-typical listed site is the lacrimal system); held per the never-guess rule." },
+    {
+      "key": "nose-q34",
+      "id": "QST-KASR316ENT-NOSE-34",
+      "page": 26,
+      "title": "Nature of rhinoscleroma",
+      "question": "Rhinoscleroma is:",
+      "options": {
+        "A": "A benign tumour",
+        "B": "A granuloma of the nose",
+        "C": "A malignant tumour",
+        "D": "A chronic non-specific inflammation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. It is not a neoplasm; it is an inflammatory granuloma.",
+        "B": "Correct. Rhinoscleroma is a chronic specific granuloma of the nose and upper respiratory tract caused by Klebsiella rhinoscleromatis. It is an infective granulomatous disease, not a tumour. Being organism-driven, it is a specific granuloma rather than a chronic non-specific inflammation.",
+        "C": "Incorrect. It is not malignant, although long-standing disease causes scarring and stenosis.",
+        "D": "Incorrect. It is a specific (Klebsiella) granuloma, not a non-specific inflammation."
+      },
+      "main_concept": "CON-MUL-E3EF9877CE6F60",
+      "concept_ids": ["CON-MUL-E3EF9877CE6F60"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Rhinoscleroma",
+      "library_ids": ["ART-ENT-316-NOSE-GRANULOMA-ATROPHIC"],
+      "learning_objective": "Classify rhinoscleroma as a chronic granuloma of the nose."
+    },
+    { "key": "nose-q35", "hold": "Ambiguous / non-unique. 'Choose the false statement regarding atrophic rhinitis' with printed key a (cacosmia); cacosmia is listed elsewhere in this same bank (Q73) as characteristic of atrophic rhinitis, and option c ('nasal granuloma has no role') is also arguably false since granulomatous disease can cause secondary atrophic rhinitis, giving two defensible 'false' statements; held per the never-guess rule." },
+    {
+      "key": "nose-q36",
+      "id": "QST-KASR316ENT-NOSE-36",
+      "page": 27,
+      "title": "Pathognomonic cell of rhinoscleroma",
+      "question": "The pathognomonic cell of rhinoscleroma is the:",
+      "options": {
+        "A": "Lymphocyte",
+        "B": "Plasma cell",
+        "C": "Mikulicz cell",
+        "D": "Langhans giant cell"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Lymphocytes are non-specific inflammatory cells found in many conditions.",
+        "B": "Incorrect. Plasma cells (and Russell bodies) are seen but are not the pathognomonic cell.",
+        "C": "Correct. The Mikulicz cell — a large foamy macrophage containing the causative Klebsiella rhinoscleromatis — is the pathognomonic histological feature of rhinoscleroma. It is accompanied by Russell bodies and plasma cells. Its presence confirms the diagnosis.",
+        "D": "Incorrect. Langhans giant cells are characteristic of tuberculosis, not rhinoscleroma."
+      },
+      "main_concept": "CON-MUL-0A075A897769F0",
+      "concept_ids": ["CON-MUL-0A075A897769F0"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Rhinoscleroma",
+      "library_ids": ["ART-ENT-316-NOSE-GRANULOMA-ATROPHIC"],
+      "learning_objective": "Identify the Mikulicz cell as pathognomonic of rhinoscleroma."
+    },
+    { "key": "nose-q37", "hold": "Scleroma-site key not cross-checkable. 'Scleroma commonly affects the following sites except' with printed key a (epiglottis); the bank's scleroma-site keys are internally inconsistent (see held Q33), so the intended affected-site list cannot be verified against the options; held per the never-guess rule." },
+    {
+      "key": "nose-q38",
+      "id": "QST-KASR316ENT-NOSE-38",
+      "page": 27,
+      "title": "Histopathology of scleroma except",
+      "question": "The following cells are found in the histopathology of scleroma EXCEPT:",
+      "options": {
+        "A": "Fibroblasts",
+        "B": "Mikulicz cells",
+        "C": "Langhans giant cells",
+        "D": "Russell bodies"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (fibroblasts are present). Fibroblasts appear, especially in the later scarring stage.",
+        "B": "Incorrect (Mikulicz cells are present). The Mikulicz cell is the pathognomonic cell of scleroma.",
+        "C": "Correct. The histology of scleroma shows Mikulicz cells, Russell bodies, plasma cells and fibroblasts. Langhans giant cells are a feature of tuberculous granuloma, not scleroma, so they are the exception. Their presence should instead suggest tuberculosis.",
+        "D": "Incorrect (Russell bodies are present). Russell bodies are immunoglobulin-laden plasma cells characteristic of scleroma."
+      },
+      "main_concept": "CON-MUL-0A075A897769F0",
+      "concept_ids": ["CON-MUL-0A075A897769F0"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Rhinoscleroma",
+      "library_ids": ["ART-ENT-316-NOSE-GRANULOMA-ATROPHIC"],
+      "learning_objective": "Recognise that Langhans giant cells are not found in scleroma."
+    },
+    { "key": "nose-q39", "hold": "Exact in-source duplicate of Q30 (same stem 'Infections in the dangerous area of the face include', same four options, same printed key c); held so the same item is not authored twice." },
+    {
+      "key": "nose-q40",
+      "id": "QST-KASR316ENT-NOSE-40",
+      "page": 27,
+      "title": "Investigation of an orbital complication of sinusitis",
+      "question": "A 10-year-old girl presents to the emergency room with a swollen left eyelid. Her illness began a week earlier with fever, nasal discharge and facial pain, progressing to pain around the left eye and oedema of both eyelids. The most informative investigation is:",
+      "options": {
+        "A": "Culture and sensitivity of her nasal discharge",
+        "B": "Measurement of serum IgE levels",
+        "C": "Complete blood picture",
+        "D": "CT scan of the nose and paranasal sinuses"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Nasal culture identifies an organism but does not show the orbital spread or its source.",
+        "B": "Incorrect. Serum IgE relates to allergy, not to an orbital complication of sinusitis.",
+        "C": "Incorrect. A complete blood count is supportive only and does not localise the disease.",
+        "D": "Correct. The picture is an orbital complication (orbital cellulitis) of acute sinusitis. A CT scan of the nose and paranasal sinuses is the most informative investigation, showing the diseased sinus, spread through the lamina papyracea and any subperiosteal or orbital abscess. It guides both medical and surgical management."
+      },
+      "main_concept": "CON-MUL-34CD6B110FE3EE",
+      "concept_ids": ["CON-MUL-34CD6B110FE3EE"],
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "subtopic": "Complications of sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "Select CT of the nose and paranasal sinuses to investigate an orbital complication of sinusitis."
+    },
+    {
+      "key": "nose-q41",
+      "id": "QST-KASR316ENT-NOSE-41",
+      "page": 28,
+      "title": "Features of allergic fungal sinusitis",
+      "question": "In allergic fungal sinusitis:",
+      "options": {
+        "A": "There is elevated specific IgE",
+        "B": "CT shows heterogeneous soft-tissue opacity and sinus expansion",
+        "C": "Surgery in the form of FESS is the mainstay of treatment",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer (the statement is true). Specific IgE is elevated, but the other statements are also true.",
+        "B": "Incorrect as the single answer (the statement is true). CT does show heterogeneous opacity with sinus expansion, but the other statements are also true.",
+        "C": "Incorrect as the single answer (the statement is true). FESS is the mainstay, but the other statements are also true.",
+        "D": "Correct. Allergic fungal sinusitis is a hypersensitivity reaction to fungi in atopic, immunocompetent patients: fungus-specific IgE is elevated, CT shows heterogeneous opacity with expansion of the involved sinus, and functional endoscopic sinus surgery to clear the allergic mucin is the mainstay of treatment. Because all three statements are true, the answer is all of the above. Post-operative steroids help prevent recurrence."
+      },
+      "main_concept": "CON-MUL-24448847D51C89",
+      "concept_ids": ["CON-MUL-24448847D51C89"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Fungal sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "List the immunological, radiological and surgical features of allergic fungal sinusitis."
+    },
+    {
+      "key": "nose-q42",
+      "id": "QST-KASR316ENT-NOSE-42",
+      "page": 28,
+      "title": "Invasive fulminant fungal sinusitis",
+      "question": "Invasive fulminant fungal sinusitis:",
+      "options": {
+        "A": "Occurs in immunocompromised individuals",
+        "B": "Is caused by Mucor",
+        "C": "Is treated by amphotericin B",
+        "D": "All of the above",
+        "E": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer (the statement is true). It occurs in the immunocompromised, but the other statements are also true.",
+        "B": "Incorrect as the single answer (the statement is true). Mucor is the usual organism, but the other statements are also true.",
+        "C": "Incorrect as the single answer (the statement is true). Amphotericin B is used, but the other statements are also true.",
+        "D": "Correct. Acute fulminant invasive fungal sinusitis is an aggressive angio-invasive infection of immunocompromised or poorly controlled diabetic patients, usually caused by Mucor (mucormycosis), and treated with urgent surgical debridement plus systemic amphotericin B. All three statements are true, so the answer is all of the above. Correcting the underlying immune or metabolic state is also essential.",
+        "E": "Incorrect. The first three statements are all true, so \"none of the above\" is wrong."
+      },
+      "main_concept": "CON-MUL-CCC6547D56C233",
+      "concept_ids": ["CON-MUL-CCC6547D56C233"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Fungal sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "State that invasive fulminant fungal sinusitis is a mucormycosis of the immunocompromised treated with amphotericin B."
+    },
+    {
+      "key": "nose-q43",
+      "id": "QST-KASR316ENT-NOSE-43",
+      "page": 28,
+      "title": "Presenting signs of acute sinusitis",
+      "question": "The following is a presenting sign of acute sinusitis:",
+      "options": {
+        "A": "Tenderness over the affected sinus",
+        "B": "Congestion and oedema of the nasal mucosa",
+        "C": "Mucopurulent nasal discharge",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer (the statement is true). Sinus tenderness is present, but the other signs occur too.",
+        "B": "Incorrect as the single answer (the statement is true). Mucosal congestion is present, but the other signs occur too.",
+        "C": "Incorrect as the single answer (the statement is true). Mucopurulent discharge is present, but the other signs occur too.",
+        "D": "Correct. Acute sinusitis presents with tenderness over the affected sinus, congestion and oedema of the nasal mucosa and a mucopurulent nasal discharge. All three signs are found together, so the answer is all of the above. They accompany facial pain or pressure and nasal obstruction."
+      },
+      "main_concept": "CON-MUL-AD33CFE46D272F",
+      "concept_ids": ["CON-MUL-AD33CFE46D272F"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Acute sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "List the presenting signs of acute sinusitis."
+    },
+    {
+      "key": "nose-q44",
+      "id": "QST-KASR316ENT-NOSE-44",
+      "page": 28,
+      "title": "Sinusitis causing orbital cellulitis",
+      "question": "Orbital cellulitis most commonly occurs after infection of which sinus:",
+      "options": {
+        "A": "Maxillary",
+        "B": "Frontal",
+        "C": "Ethmoidal",
+        "D": "Sphenoidal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Maxillary sinusitis is a less common source of orbital cellulitis.",
+        "B": "Incorrect. Frontal sinusitis can spread to the orbit but is a less common cause.",
+        "C": "Correct. The ethmoid sinuses are separated from the orbit only by the paper-thin lamina papyracea, so ethmoid sinusitis is the commonest sinus source of orbital cellulitis. Infection readily crosses this thin plate into the orbit. This is especially true in children.",
+        "D": "Incorrect. Sphenoid sinusitis is an uncommon cause of orbital cellulitis."
+      },
+      "main_concept": "CON-MUL-531EC7085C491B",
+      "concept_ids": ["CON-MUL-531EC7085C491B"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Complications of sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "State that ethmoid sinusitis is the commonest sinus source of orbital cellulitis."
+    },
+    { "key": "nose-q45", "hold": "Near-exact in-source duplicate of Q40 (identical 10-year-old orbital-cellulitis vignette, same keyed answer CT scan of the nose and paranasal sinuses; only the distractors differ); held so the same item is not authored twice." },
+    {
+      "key": "nose-q46",
+      "id": "QST-KASR316ENT-NOSE-46",
+      "page": 28,
+      "title": "Orbital complications of sinusitis except",
+      "question": "Orbital complications of sinusitis include all of the following EXCEPT:",
+      "options": {
+        "A": "Orbital cellulitis",
+        "B": "Orbital abscess",
+        "C": "Cavernous sinus thrombosis",
+        "D": "Lateral sinus thrombosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is an orbital complication). Orbital cellulitis is the commonest orbital complication of sinusitis.",
+        "B": "Incorrect (this is an orbital complication). An orbital or subperiosteal abscess can follow sinusitis.",
+        "C": "Incorrect (this is an orbital complication). Cavernous sinus thrombosis is the most serious orbital/intracranial complication.",
+        "D": "Correct. Lateral (sigmoid) sinus thrombosis is an otogenic complication of ear and mastoid disease, not an orbital complication of sinusitis. Orbital cellulitis, orbital abscess and cavernous sinus thrombosis are the orbital complications of sinusitis. The lateral sinus is therefore the exception."
+      },
+      "main_concept": "CON-MUL-34CD6B110FE3EE",
+      "concept_ids": ["CON-MUL-34CD6B110FE3EE"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Complications of sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "Recognise that lateral sinus thrombosis is otogenic, not an orbital complication of sinusitis."
+    },
+    {
+      "key": "nose-q47",
+      "id": "QST-KASR316ENT-NOSE-47",
+      "page": 29,
+      "title": "Commonest complication of childhood ethmoid sinusitis",
+      "question": "The most common complication associated with acute ethmoid sinusitis in children is:",
+      "options": {
+        "A": "Orbital cellulitis",
+        "B": "Osteomyelitis of the frontal bone",
+        "C": "Subdural abscess",
+        "D": "Cavernous sinus thrombosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acute ethmoid sinusitis is the commonest cause of orbital cellulitis in children, because the ethmoid sinus is separated from the orbit only by the thin lamina papyracea. Infection crosses this thin plate to produce orbital cellulitis. Frontal osteomyelitis, subdural abscess and cavernous sinus thrombosis are far less common.",
+        "B": "Incorrect. Frontal bone osteomyelitis follows frontal sinusitis and is uncommon in young children whose frontal sinus is undeveloped.",
+        "C": "Incorrect. A subdural abscess is a rare intracranial complication, not the commonest one.",
+        "D": "Incorrect. Cavernous sinus thrombosis is a rare and late complication."
+      },
+      "main_concept": "CON-MUL-531EC7085C491B",
+      "concept_ids": ["CON-MUL-531EC7085C491B"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Complications of sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "State that orbital cellulitis is the commonest complication of childhood ethmoid sinusitis."
+    },
+    {
+      "key": "nose-q48",
+      "id": "QST-KASR316ENT-NOSE-48",
+      "page": 29,
+      "title": "Commonest cause of fulminant invasive fungal sinusitis",
+      "question": "The commonest cause of acute fulminant invasive fungal sinusitis is:",
+      "options": {
+        "A": "Aspergillosis",
+        "B": "Rhinosporidiosis",
+        "C": "Candidiasis",
+        "D": "Mucormycosis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Aspergillus causes chronic and allergic fungal sinusitis more than the acute fulminant form.",
+        "B": "Incorrect. Rhinosporidiosis causes a friable nasal polypoidal mass, not fulminant invasive sinusitis.",
+        "C": "Incorrect. Candida is an uncommon cause of fulminant invasive sinusitis.",
+        "D": "Correct. Acute fulminant invasive fungal sinusitis is most commonly caused by the Mucorales (mucormycosis), typically in immunocompromised or poorly controlled diabetic patients. The fungus is angio-invasive, causing tissue necrosis, and needs urgent debridement and amphotericin B. Mucor, not Aspergillus, is the classic organism of the fulminant form."
+      },
+      "main_concept": "CON-MUL-CCC6547D56C233",
+      "concept_ids": ["CON-MUL-CCC6547D56C233"],
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "subtopic": "Fungal sinusitis",
+      "library_ids": ["ART-ENT-316-NOSE-SINUSITIS"],
+      "learning_objective": "State that mucormycosis is the commonest cause of acute fulminant invasive fungal sinusitis."
     }
   ]
 }

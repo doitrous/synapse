@@ -932,3 +932,271 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Nose-section concepts (Q11, Q12, Q18) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-TUMOURS
+## title
+Otorhinolaryngology: sinonasal tumours and inverted papilloma
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the sinonasal tumour facts tested by the Nose section (Q25, Q26). It covers inverted (Schneiderian) papilloma of the lateral nasal wall, which characteristically recurs after incomplete removal, carries a risk of malignant transformation to squamous carcinoma, and is treated by wide surgical excision rather than simple polypectomy or radiotherapy.
+## sections
+### Definition
+Inverted papilloma is the sinonasal tumour tested here: a benign but locally aggressive epithelial tumour arising from the lateral nasal wall.
+### Mechanism
+Its inverted growth pattern into the underlying stroma makes incomplete removal leave tumour behind, so it recurs; a minority undergo malignant transformation to squamous cell carcinoma.
+### Key determinants
+The tumour arises from the lateral nasal wall (not the septum), recurs after inadequate excision, and carries a small risk of malignancy; complete wide excision of its origin, not polypectomy, is what prevents recurrence.
+### Clinical significance
+Recognising inverted papilloma directs the surgeon to wide excision and long-term follow-up for recurrence and malignant change, and avoids the error of treating it as a simple polyp.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Sinonasal tumours
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-C6DBC7146432D2
+## related_articles
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q25, Q26) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-GRANULOMA-ATROPHIC
+## title
+Otorhinolaryngology: atrophic rhinitis and rhinoscleroma
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the atrophic and granulomatous nasal-condition facts tested by the Nose section (Q28, Q29, Q34, Q36, Q38). It covers atrophic rhinitis (a roomy crusted nose with a foul smell and anosmia) and rhinoscleroma, a chronic Klebsiella granuloma of the nose whose histology shows Mikulicz cells and Russell bodies (but no Langhans giant cells) and which passes from an atrophic crusted stage to nodular masses and scarring.
+## sections
+### Definition
+This group covers chronic non-neoplastic nasal diseases: atrophic rhinitis (ozaena) and rhinoscleroma, a specific granuloma of the nose.
+### Mechanism
+In atrophic rhinitis the mucosa, turbinate bones and glands atrophy, leaving a roomy foul crusted nose; rhinoscleroma is a Klebsiella rhinoscleromatis granuloma that evolves through atrophic, granulomatous and cicatricial stages, with Mikulicz cells and Russell bodies on histology.
+### Key determinants
+Atrophic rhinitis is marked by cacosmia, anosmia and crusts in a roomy nose; rhinoscleroma is a chronic granuloma (not a tumour) whose pathognomonic Mikulicz cell and Russell bodies distinguish it from tuberculosis, which shows Langhans giant cells.
+### Clinical significance
+Distinguishing these conditions guides management: nasal toilet and moisturising or narrowing operations for atrophic rhinitis, and long-course antibiotics with attention to airway stenosis for rhinoscleroma, while their histology separates them from neoplasia and tuberculosis.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Atrophic rhinitis and rhinoscleroma
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-03DF799A1FC323
+CON-MUL-86F9CF1868FB53
+CON-MUL-E3EF9877CE6F60
+CON-MUL-0A075A897769F0
+## related_articles
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+ART-ENT-316-NOSE-TUMOURS
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q28, Q29, Q34, Q36, Q38) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-SINUSITIS
+## title
+Otorhinolaryngology: sinusitis, fungal sinusitis and orbital complications
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the sinusitis facts tested by the Nose section (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48). It covers the presenting signs of acute sinusitis, allergic fungal sinusitis (raised specific IgE, expansile heterogeneous opacity, treated by FESS) and acute fulminant invasive fungal sinusitis (mucormycosis of the immunocompromised, treated with amphotericin B), and the orbital complications of sinusitis (orbital cellulitis commonest after ethmoid sinusitis, assessed by CT of the nose and paranasal sinuses).
+## sections
+### Definition
+This group covers acute sinusitis, its fungal forms and its orbital spread.
+### Mechanism
+Acute sinusitis inflames the sinus and nasal mucosa; fungal disease is either a non-invasive hypersensitivity reaction (allergic fungal sinusitis) or an angio-invasive infection of the immunocompromised (mucormycosis); infection spreads to the orbit across the thin lamina papyracea of the ethmoid.
+### Key determinants
+Acute sinusitis shows sinus tenderness, mucosal congestion and mucopurulent discharge; allergic fungal sinusitis shows raised specific IgE and expansile heterogeneous CT opacity treated by FESS; fulminant invasive disease is a mucormycosis treated with amphotericin B; orbital cellulitis is the commonest orbital complication, usually from ethmoid sinusitis, and is investigated by CT of the nose and paranasal sinuses (lateral sinus thrombosis is otogenic, not orbital).
+### Clinical significance
+These distinctions drive management: antibiotics and drainage for acute sinusitis, FESS for allergic fungal disease, urgent debridement and amphotericin B for invasive disease, and CT-guided medical or surgical treatment of an orbital complication.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Sinusitis and its complications
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-34CD6B110FE3EE
+CON-MUL-24448847D51C89
+CON-MUL-CCC6547D56C233
+CON-MUL-AD33CFE46D272F
+CON-MUL-531EC7085C491B
+## related_articles
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+ART-ENT-316-NOSE-TUMOURS
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q40, Q41, Q42, Q43, Q44, Q46, Q47, Q48) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
