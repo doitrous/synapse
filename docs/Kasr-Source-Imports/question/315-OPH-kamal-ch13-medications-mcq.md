@@ -3404,3 +3404,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-36
+## title
+When prostaglandin analogues are avoided
+## question
+Prostaglandin analogues should be avoided in cases of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Bronchial asthma.
+## explanation_a
+Incorrect. Asthma contraindicates beta-blockers, not prostaglandins.
+## answer_b
+After cataract surgery.
+## explanation_b
+Correct. Prostaglandin analogues are avoided after cataract surgery because they can cause inflammation and cystoid macular oedema.
+## answer_c
+Systemic hypertension.
+## explanation_c
+Incorrect. Systemic hypertension is not their contraindication.
+## answer_d
+Renal calculi.
+## explanation_d
+Incorrect. Renal calculi relate to carbonic anhydrase inhibitors.
+## topic
+Ophthalmology
+## subtopic
+Prostaglandin analogues
+## main_concept
+CON-MUL-42067DB58F6BB7
+## concept_ids
+CON-MUL-42067DB58F6BB7
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify recent cataract surgery as a situation where prostaglandin analogues are avoided.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-37
+## title
+Carbonic anhydrase inhibitor side effects — EXCEPT
+## question
+Carbonic anhydrase inhibitors have the following side effects EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Predisposition to renal calculi.
+## explanation_a
+Incorrect (a genuine side effect). They predispose to renal calculi.
+## answer_b
+Sodium and potassium depletion.
+## explanation_b
+Incorrect (a genuine side effect). They deplete sodium and potassium.
+## answer_c
+Bradycardia.
+## explanation_c
+Correct. Bradycardia is not a carbonic anhydrase inhibitor side effect; it is the exception.
+## answer_d
+Paraesthesia.
+## explanation_d
+Incorrect (a genuine side effect). They cause paraesthesia.
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## main_concept
+CON-MUL-A7518605CBD0DD
+## concept_ids
+CON-MUL-A7518605CBD0DD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude bradycardia from the side effects of carbonic anhydrase inhibitors.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.187); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-38
+## title
+Route not used for carbonic anhydrase inhibitors
+## question
+Which of the following is not a route of administration of carbonic anhydrase inhibitors:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Eye drops.
+## explanation_a
+Incorrect (a genuine route). They are given as eye drops.
+## answer_b
+Oral.
+## explanation_b
+Incorrect (a genuine route). They are given orally.
+## answer_c
+Ointment.
+## explanation_c
+Correct. An ointment is not a route for carbonic anhydrase inhibitors; it is the exception.
+## answer_d
+Intravenous.
+## explanation_d
+Incorrect (a genuine route). They can be given intravenously.
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## main_concept
+CON-MUL-10688925A38082
+## concept_ids
+CON-MUL-10688925A38082
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude ointment as a route of carbonic anhydrase inhibitor administration.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.188); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-39
+## title
+Alpha-2 adrenergic agonist
+## question
+α2-adrenergic agonist include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Pilocarpine.
+## explanation_a
+Incorrect. Pilocarpine is a cholinergic agonist.
+## answer_b
+Brimonidine.
+## explanation_b
+Correct. Brimonidine is an alpha-2 adrenergic agonist.
+## answer_c
+Latanoprost.
+## explanation_c
+Incorrect. Latanoprost is a prostaglandin analogue.
+## answer_d
+Timolol.
+## explanation_d
+Incorrect. Timolol is a beta-blocker.
+## topic
+Ophthalmology
+## subtopic
+Alpha-adrenergic agonists
+## main_concept
+CON-MUL-E95F76D9A398C0
+## concept_ids
+CON-MUL-E95F76D9A398C0
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify brimonidine as an alpha-2 adrenergic agonist.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.188); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-40
+## title
+When acetazolamide is avoided
+## question
+Acetazolamide should be avoided if the patient has:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Allergy to penicillin.
+## explanation_a
+Incorrect. Penicillin allergy is not the relevant contraindication.
+## answer_b
+Allergy to sulfa.
+## explanation_b
+Correct. Acetazolamide is a sulfonamide, so it is avoided in sulfa allergy.
+## answer_c
+Diabetes mellitus.
+## explanation_c
+Incorrect. Diabetes mellitus is not a contraindication.
+## answer_d
+Diabetes insipidus.
+## explanation_d
+Incorrect. Diabetes insipidus is not a contraindication.
+## topic
+Ophthalmology
+## subtopic
+Carbonic anhydrase inhibitors
+## main_concept
+CON-MUL-07E05C77AA55C2
+## concept_ids
+CON-MUL-07E05C77AA55C2
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify sulfa allergy as the contraindication to acetazolamide.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.188); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
