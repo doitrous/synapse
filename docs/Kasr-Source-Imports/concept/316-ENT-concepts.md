@@ -18513,3 +18513,558 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.corrosive-ingestion.no-gastric-lavage-acute", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-6998A68AF60560
+## label
+Achalasia of the cardia is a neuromuscular disorder of the lower oesophageal sphincter
+## canonical_key
+otolaryngology.achalasia-cardia.neuromuscular-lower-oesophageal-sphincter
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Achalasia of the cardia is a neuromuscular (motility) disorder in which the lower oesophageal sphincter fails to relax and the oesophageal body loses effective peristalsis, from degeneration of the myenteric (Auerbach) plexus. The failure of relaxation is at the lower oesophageal (cardiac) sphincter, not the cricopharyngeal sphincter, and it is not a tumour, a hiatus hernia or a fibrosis of the upper sphincter. Food is held up above the tight cardia.
+## explicit_objective
+State that achalasia of the cardia is a neuromuscular disorder of the lower oesophageal sphincter.
+## pitfalls
+Achalasia is a neuromuscular failure of the lower oesophageal (cardiac) sphincter, not a fibrosis of the upper sphincter, a cricopharyngeal spasm, a hiatus hernia or a tumour.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.achalasia-cardia.neuromuscular-lower-oesophageal-sphincter", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-2C33F71A818896
+## label
+In achalasia of the cardia dysphagia is intermittent and more marked for fluids than solids
+## canonical_key
+otolaryngology.achalasia-cardia.paradoxical-dysphagia-more-fluids
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A hallmark of achalasia of the cardia is paradoxical dysphagia that is more marked for fluids than for solids, and is intermittent. Regurgitation of undigested food is common, and the condition is treated by cardiomyotomy (Heller's operation) or pneumatic dilatation. The fluid-predominant dysphagia distinguishes achalasia from an obstructing carcinoma or stricture, in which solids stick first.
+## explicit_objective
+State that dysphagia in achalasia is intermittent and more marked for fluids than solids.
+## pitfalls
+In achalasia dysphagia is worse for fluids than solids (the reverse of a mechanical obstruction); saying it is worse for solids is wrong.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.achalasia-cardia.paradoxical-dysphagia-more-fluids", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-8ADAC888ED9568
+## label
+Achalasia of the cardia causes dysphagia with relatively maintained weight, unlike carcinoma
+## canonical_key
+otolaryngology.achalasia-cardia.weight-maintained-vs-carcinoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Achalasia of the cardia is a benign motility disorder with a long history of intermittent dysphagia in which body weight is relatively maintained, in contrast to oesophageal carcinoma, where a short history of progressive dysphagia is accompanied by marked weight loss. It is a genuine cause of dysphagia, is not cured by antibiotics, and is not a tumour of the cardiac sphincter. The preserved weight and long history are reassuring pointers away from cancer.
+## explicit_objective
+Recognise that achalasia causes dysphagia with relatively maintained weight, unlike the marked weight loss of carcinoma.
+## pitfalls
+Achalasia is a cause of dysphagia (not exempt from it) and is not a tumour or cured by antibiotics; its relatively maintained weight helps separate it from carcinoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.achalasia-cardia.weight-maintained-vs-carcinoma", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-62B79C54C78F47
+## label
+Laryngeal manifestations of GERD include globus, chronic cough and hoarseness, but not conductive deafness
+## canonical_key
+otolaryngology.gerd.laryngeal-manifestations
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gastro-oesophageal reflux disease can reflux acid to the laryngopharynx and produce laryngeal manifestations: a globus (lump-in-the-throat) sensation, chronic cough and hoarseness of voice. Conductive deafness is a middle-ear problem and is not a laryngeal manifestation of reflux. The laryngeal triad is globus, cough and hoarseness.
+## explicit_objective
+List globus, chronic cough and hoarseness as laryngeal manifestations of GERD, and recognise that conductive deafness is not one.
+## pitfalls
+Conductive deafness is a middle-ear sign, not a laryngeal manifestation of reflux; globus, chronic cough and hoarseness are.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.gerd.laryngeal-manifestations", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-0BE3C8E687FFBB
+## label
+Dysphagia is caused by an oesophageal foreign body, achalasia, oesophageal carcinoma and tonsillitis, but not by a gastric peptic ulcer
+## canonical_key
+otolaryngology.dysphagia.causes-not-gastric-peptic-ulcer
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dysphagia (difficulty swallowing) is caused by lesions along the swallowing pathway: an oesophageal foreign body, achalasia of the cardia, oesophageal carcinoma and even acute follicular tonsillitis (painful swallowing). A peptic ulcer of the stomach lies below the oesophagus and causes epigastric pain, not dysphagia. The gastric peptic ulcer is therefore the odd one out among these causes.
+## explicit_objective
+Recognise that an oesophageal foreign body, achalasia, oesophageal carcinoma and tonsillitis cause dysphagia, whereas a gastric peptic ulcer does not.
+## pitfalls
+A peptic ulcer of the stomach causes epigastric pain, not dysphagia; the true dysphagia causes here are a foreign body, achalasia, oesophageal carcinoma and tonsillitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oesophagus
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Oesophagus
+## article_ids
+ART-ENT-316-PHARYNX-OESOPHAGUS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.dysphagia.causes-not-gastric-peptic-ulcer", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).

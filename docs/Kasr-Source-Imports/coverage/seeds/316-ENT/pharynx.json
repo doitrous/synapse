@@ -1558,6 +1558,217 @@
       "subtopic": "Oesophagus",
       "learning_objective": "State that a stomach wash (gastric lavage) is not used in the acute stage of corrosive poisoning."
     },
+    {
+      "key": "pharynx-q66",
+      "id": "QST-KASR316ENT-PHARYNX-66",
+      "page": 58,
+      "title": "Definition of achalasia of the cardia",
+      "question": "Achalasia of the cardia is:",
+      "options": {
+        "A": "Fibrosis of the upper esophageal sphincter.",
+        "B": "A neuromuscular disorder of the lower esophageal sphincter.",
+        "C": "Occurs as a result of herniation of the esophagus through the diaphragm.",
+        "D": "All of the above."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Achalasia is not a fibrosis of the upper oesophageal sphincter; the problem is at the lower (cardiac) sphincter.",
+        "B": "Correct. Achalasia of the cardia is a neuromuscular (motility) disorder of the lower oesophageal sphincter, which fails to relax while oesophageal peristalsis is lost, from degeneration of the myenteric plexus. Food is held up above the tight cardia. It is not a fibrosis, a hiatus hernia or a tumour.",
+        "C": "Incorrect. Herniation of the oesophagus through the diaphragm is a hiatus hernia, not achalasia.",
+        "D": "Incorrect. Since only the neuromuscular-lower-sphincter description is correct, 'all of the above' is wrong."
+      },
+      "main_concept": "CON-MUL-6998A68AF60560",
+      "concept_ids": ["CON-MUL-6998A68AF60560"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Define achalasia of the cardia as a neuromuscular disorder of the lower oesophageal sphincter."
+    },
+    {
+      "key": "pharynx-q67",
+      "id": "QST-KASR316ENT-PHARYNX-67",
+      "page": 58,
+      "title": "False statement about achalasia of the cardia",
+      "question": "Achalasia of the cardia is characterized by the followings except:",
+      "options": {
+        "A": "Dysphagia is more marked for solids than fluids.",
+        "B": "Dysphagia is more marked for fluid than solids.",
+        "C": "Treated by cardiomyotomy.",
+        "D": "Regurgitation of undigested food."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct (the false statement). In achalasia, dysphagia is paradoxically more marked for fluids than for solids, so saying it is more marked for solids is false. A mechanical obstruction such as carcinoma gives the opposite pattern, with solids sticking first. This reversal is the classic discriminator, making option a the exception.",
+        "B": "Incorrect (true statement). Dysphagia in achalasia is indeed more marked for fluids than solids, so this is true.",
+        "C": "Incorrect (true statement). Achalasia is treated by cardiomyotomy (Heller's operation), so this is true.",
+        "D": "Incorrect (true statement). Regurgitation of undigested food is characteristic of achalasia, so this is true."
+      },
+      "main_concept": "CON-MUL-2C33F71A818896",
+      "concept_ids": ["CON-MUL-2C33F71A818896"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that dysphagia in achalasia is more marked for fluids than solids, so 'more for solids' is false.",
+      "author_notes": "Source printed option c as 'treated by cardiomyopathy', an evident typo for cardiomyotomy (Heller's operation, the standard achalasia treatment); rendered as 'cardiomyotomy' so the intended true distractor is not misread as false. The keyed answer a is unaffected and remains uniquely correct."
+    },
+    {
+      "key": "pharynx-q68",
+      "id": "QST-KASR316ENT-PHARYNX-68",
+      "page": 58,
+      "title": "True statement about achalasia of the cardia",
+      "question": "Achalasia of the cardia is:",
+      "options": {
+        "A": "Tumour of the cardiac sphincter.",
+        "B": "Not accompanied by loss of weight.",
+        "C": "Cured by antibiotics.",
+        "D": "Not considered as a cause of dysphagia."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Achalasia is a neuromuscular motility disorder, not a tumour of the cardiac sphincter.",
+        "B": "Correct. Achalasia has a long history of intermittent dysphagia in which body weight is relatively maintained, unlike oesophageal carcinoma with its short history and marked weight loss. This preserved weight is a reassuring pointer away from cancer. Among the options it is the only true statement.",
+        "C": "Incorrect. Achalasia is not cured by antibiotics; it is treated by cardiomyotomy or pneumatic dilatation.",
+        "D": "Incorrect. Achalasia is a recognised cause of dysphagia, so saying it is not a cause is wrong."
+      },
+      "main_concept": "CON-MUL-8ADAC888ED9568",
+      "concept_ids": ["CON-MUL-8ADAC888ED9568"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that achalasia causes dysphagia with relatively maintained weight, unlike carcinoma."
+    },
+    {
+      "key": "pharynx-q69",
+      "id": "QST-KASR316ENT-PHARYNX-69",
+      "page": 59,
+      "title": "Direction of dysphagia in achalasia",
+      "question": "In achalasia of the cardia dysphagia is:",
+      "options": {
+        "A": "Not present.",
+        "B": "More to solids.",
+        "C": "More to fluids.",
+        "D": "Equal for both."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Dysphagia is present in achalasia; indeed it is the main symptom.",
+        "B": "Incorrect. Dysphagia more to solids is the pattern of a mechanical obstruction such as carcinoma, not achalasia.",
+        "C": "Correct. In achalasia of the cardia the dysphagia is paradoxically more marked for fluids than for solids, because the failure of the lower sphincter to relax impedes the passage of liquids that would otherwise flow through. This fluid-predominant, intermittent dysphagia is the classic discriminator. It contrasts with the solids-first pattern of an obstructing lesion.",
+        "D": "Incorrect. The dysphagia is not equal for both; it is more to fluids."
+      },
+      "main_concept": "CON-MUL-2C33F71A818896",
+      "concept_ids": ["CON-MUL-2C33F71A818896"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "State that dysphagia in achalasia is more marked for fluids than solids."
+    },
+    {
+      "key": "pharynx-q70",
+      "id": "QST-KASR316ENT-PHARYNX-70",
+      "page": 59,
+      "title": "Condition with fluid-predominant dysphagia",
+      "question": "Dysphagia to fluids more than solids occurs in:",
+      "options": {
+        "A": "Cancer oesophagus.",
+        "B": "Post-corrosive oesophageal stricture.",
+        "C": "Achalasia of the cardia.",
+        "D": "Peptic ulcer."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cancer of the oesophagus is a mechanical obstruction, so dysphagia is worse for solids first.",
+        "B": "Incorrect. A post-corrosive stricture is a mechanical narrowing, so solids stick before fluids.",
+        "C": "Correct. Dysphagia that is more marked for fluids than solids occurs in achalasia of the cardia, a motility disorder in which the lower sphincter fails to relax. This paradoxical, fluid-predominant dysphagia separates achalasia from mechanical causes. Cancer, strictures and other obstructions give the opposite pattern.",
+        "D": "Incorrect. A peptic ulcer causes epigastric pain, not fluid-predominant dysphagia."
+      },
+      "main_concept": "CON-MUL-2C33F71A818896",
+      "concept_ids": ["CON-MUL-2C33F71A818896"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise achalasia as the condition with fluid-predominant dysphagia."
+    },
+    {
+      "key": "pharynx-q71",
+      "id": "QST-KASR316ENT-PHARYNX-71",
+      "page": 59,
+      "title": "Not a criterion of cardiac achalasia",
+      "question": "The following are criteria of cardiac achalasia except:",
+      "options": {
+        "A": "Spasm of the lower esophageal sphincter.",
+        "B": "Dysphagia is more to liquid.",
+        "C": "Dysphagia is intermittent.",
+        "D": "Spasm of cricopharyngeal sphincter."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (a true criterion). Failure of relaxation (functional spasm) of the lower oesophageal sphincter is central to achalasia, so it is not the exception.",
+        "B": "Incorrect (a true criterion). Dysphagia more to liquid is characteristic, so it is not the exception.",
+        "C": "Incorrect (a true criterion). The dysphagia of achalasia is intermittent, so it is not the exception.",
+        "D": "Correct (the exception). The abnormality in achalasia is at the lower oesophageal (cardiac) sphincter, not the cricopharyngeal (upper) sphincter. A cricopharyngeal spasm is a different, upper-sphincter problem. Naming a cricopharyngeal spasm as a criterion of cardiac achalasia is therefore the exception."
+      },
+      "main_concept": "CON-MUL-6998A68AF60560",
+      "concept_ids": ["CON-MUL-6998A68AF60560"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that a cricopharyngeal (upper sphincter) spasm is not a criterion of cardiac achalasia."
+    },
+    {
+      "key": "pharynx-q72",
+      "id": "QST-KASR316ENT-PHARYNX-72",
+      "page": 59,
+      "title": "Not a laryngeal manifestation of GERD",
+      "question": "Laryngeal manifestations of GERD include the following except:",
+      "options": {
+        "A": "Globus pharyngeus.",
+        "B": "Conductive deafness.",
+        "C": "Chronic cough.",
+        "D": "Hoarseness of voice."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (a true manifestation). A globus (lump-in-the-throat) sensation is a laryngeal manifestation of reflux, so it is not the exception.",
+        "B": "Correct (the exception). Conductive deafness is a middle-ear problem and is not a laryngeal manifestation of gastro-oesophageal reflux. The laryngeal effects of reflux are globus, chronic cough and hoarseness. Naming conductive deafness is therefore the exception.",
+        "C": "Incorrect (a true manifestation). Chronic cough from laryngopharyngeal reflux is a recognised manifestation, so it is not the exception.",
+        "D": "Incorrect (a true manifestation). Hoarseness from acid irritation of the larynx is a recognised manifestation, so it is not the exception."
+      },
+      "main_concept": "CON-MUL-62B79C54C78F47",
+      "concept_ids": ["CON-MUL-62B79C54C78F47"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that conductive deafness is not a laryngeal manifestation of GERD."
+    },
+    {
+      "key": "pharynx-q73",
+      "id": "QST-KASR316ENT-PHARYNX-73",
+      "page": 59,
+      "title": "Condition that does not cause dysphagia",
+      "question": "All except one can cause dysphagia:",
+      "options": {
+        "A": "Foreign body in the oesophagus.",
+        "B": "Achalasia of the cardia.",
+        "C": "Peptic ulcer of the stomach.",
+        "D": "Esophageal carcinoma.",
+        "E": "Acute follicular tonsillitis."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A foreign body in the oesophagus obstructs swallowing and causes dysphagia, so it is not the exception.",
+        "B": "Incorrect. Achalasia of the cardia causes dysphagia, so it is not the exception.",
+        "C": "Correct. A peptic ulcer of the stomach lies below the oesophagus and causes epigastric pain, not dysphagia. The other options — an oesophageal foreign body, achalasia, oesophageal carcinoma and acute follicular tonsillitis — all impede or pain swallowing. So the gastric peptic ulcer is the one that does not cause dysphagia.",
+        "D": "Incorrect. Oesophageal carcinoma causes progressive dysphagia, so it is not the exception.",
+        "E": "Incorrect. Acute follicular tonsillitis causes painful swallowing (dysphagia and odynophagia), so it is not the exception."
+      },
+      "main_concept": "CON-MUL-0BE3C8E687FFBB",
+      "concept_ids": ["CON-MUL-0BE3C8E687FFBB"],
+      "library_ids": ["ART-ENT-316-PHARYNX-OESOPHAGUS"],
+      "question_type": "Recall",
+      "subtopic": "Oesophagus",
+      "learning_objective": "Recognise that a gastric peptic ulcer does not cause dysphagia."
+    },
     { "key": "pharynx-q06", "hold": "In-source near-duplicate of Q2. 'Enlarged adenoids may cause the following except' keys 'b' (epistaxis), the identical keyed teaching point as Q2 (adenoids do not cause epistaxis). Q2 is authored, so Q6 is held so the same fact is not authored twice." },
     { "key": "pharynx-q12", "hold": "In-source near-duplicate of Q9. 'The most common presenting sign or symptom of nasopharyngeal cancer' keys 'c' (neck mass), the same keyed fact as Q9 (commonest NPC presentation = cervical lymph node). Q9 is authored, so Q12 is held." },
     { "key": "pharynx-q14", "hold": "In-source near-duplicate of Q11. Teenage male with recurrent epistaxis and conductive deafness keyed 'c' (nasopharyngeal angiofibroma) — the same diagnostic vignette and answer as Q11. Q11 is authored, so Q14 is held." },
