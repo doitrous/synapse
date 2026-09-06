@@ -21119,3 +21119,337 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q34) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-28411D1CF7A34C
+## label
+Glaucoma is treated surgically by trabeculectomy, goniotomy or iridectomy, not blepharoplasty
+## canonical_key
+ophthalmology.glaucoma-surgery.procedures-exclude-blepharoplasty
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glaucoma surgery lowers intraocular pressure by improving aqueous outflow. Trabeculectomy makes a guarded filtering fistula in adult glaucoma, goniotomy or trabeculotomy opens the malformed angle in congenital glaucoma, and a peripheral iridotomy or iridectomy relieves pupil block in angle closure. Blepharoplasty is eyelid (lid-margin and skin) surgery and has no role in treating glaucoma.
+## explicit_objective
+List the surgical procedures used for glaucoma and recognise that blepharoplasty is not one of them.
+## pitfalls
+Assuming any ophthalmic operation lowers pressure; blepharoplasty addresses the eyelids and does nothing for intraocular pressure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Surgical treatment of glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Surgical treatment
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q37) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7CB04C08F57089
+## label
+The normal intraocular pressure is about 8-21 mmHg and is normal when it does not damage the optic nerve
+## canonical_key
+ophthalmology.intraocular-pressure.normal-range
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Normal intraocular pressure ranges roughly from 8 to 21 mmHg, with a diurnal variation under about 5 mmHg and only a small difference between the two eyes. Functionally a pressure is normal when it does not damage the optic nerve, which is why some eyes tolerate higher readings (ocular hypertension) while others are damaged at statistically normal pressure (normal-tension glaucoma). A blood-pressure-style figure such as 120/80 mmHg is meaningless for the eye.
+## explicit_objective
+State the normal range of intraocular pressure and that normality is defined by the absence of optic-nerve damage.
+## pitfalls
+Quoting a systemic blood-pressure value for the eye, or treating 21 mmHg as an absolute cut-off rather than judging pressure against optic-nerve damage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Intraocular pressure
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Intraocular pressure
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q56/Q65) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FE729AFE4DD7FD
+## label
+Primary open-angle glaucoma is a painless white eye, unlike the painful red angle-closure and neovascular glaucomas
+## canonical_key
+ophthalmology.primary-open-angle-glaucoma.painless-white-eye
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary open-angle glaucoma raises intraocular pressure slowly, so the eye stays white and comfortable and peripheral vision is lost insidiously without pain or redness. A painful red eye instead points to primary angle-closure, neovascular or secondary angle-closure glaucoma, in which the pressure rises abruptly or the eye is inflamed. This is why open-angle glaucoma is detected on screening rather than by symptoms.
+## explicit_objective
+Contrast the painless white eye of open-angle glaucoma with the painful red eye of angle-closure and neovascular glaucoma.
+## pitfalls
+Expecting pain or redness in open-angle glaucoma; its silence is exactly what makes it dangerous and screening necessary.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T03
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Primary open-angle glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The glaucomas > Primary open-angle glaucoma
+## article_ids
+ART-OPH-315-GLAUCOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.6 The glaucomas, Q59) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

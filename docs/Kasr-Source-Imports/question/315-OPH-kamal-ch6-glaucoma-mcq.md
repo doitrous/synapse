@@ -4555,3 +4555,2901 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The g
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-37
+
+## title
+Procedure that is not a glaucoma operation
+
+## question
+Glaucoma surgeries include all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Trabeculectomy
+
+## explanation_a
+Incorrect (it is a glaucoma operation). Trabeculectomy is the standard filtering procedure for adult glaucoma.
+
+## answer_b
+Goniotomy
+
+## explanation_b
+Incorrect (it is a glaucoma operation). Goniotomy opens the malformed angle in congenital glaucoma.
+
+## answer_c
+Peripheral iridectomy
+
+## explanation_c
+Incorrect (it is a glaucoma operation). A peripheral iridectomy relieves pupil block in angle-closure glaucoma.
+
+## answer_d
+Blepharoplasty
+
+## explanation_d
+Correct. Blepharoplasty is the exception: it is eyelid surgery that removes redundant lid skin and does nothing to intraocular pressure. Glaucoma operations instead work by improving aqueous drainage or relieving pupil block, as with trabeculectomy, goniotomy and iridectomy. So blepharoplasty is not a glaucoma procedure.
+
+## topic
+Ophthalmology
+
+## subtopic
+Surgical treatment of glaucoma
+
+## main_concept
+CON-MUL-28411D1CF7A34C
+
+## concept_ids
+CON-MUL-28411D1CF7A34C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise blepharoplasty as an eyelid, not a glaucoma, operation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-38
+
+## title
+Wrong statement about the visual field in glaucoma
+
+## question
+Which of the following statements is WRONG?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Only the central field is important in glaucoma
+
+## explanation_a
+Correct. This is the wrong statement: glaucoma damages the peripheral (arcuate) nerve-fibre bundles first, so the peripheral field is the important one to monitor, and central vision is preserved until end-stage. Saying only the central field matters inverts the natural history of the disease. It would cause early field loss to be missed.
+
+## answer_b
+Peripheral field changes occur in glaucoma
+
+## explanation_b
+Incorrect (a true statement). Peripheral field defects such as the nasal step are the earliest glaucomatous changes.
+
+## answer_c
+Enlargement of the blind spot is a glaucomatous field change
+
+## explanation_c
+Incorrect (a true statement). Enlargement of the blind spot is a recognised early glaucomatous field change.
+
+## answer_d
+Tubular fields can occur in glaucoma
+
+## explanation_d
+Incorrect (a true statement). A constricted tubular field is the end-stage glaucomatous field.
+
+## topic
+Ophthalmology
+
+## subtopic
+Visual fields in glaucoma
+
+## main_concept
+CON-MUL-638E232A3C3F93
+
+## concept_ids
+CON-MUL-638E232A3C3F93
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that glaucoma affects the peripheral field first, sparing central vision until late.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-39
+
+## title
+Antiglaucoma drug that does not reduce aqueous formation
+
+## question
+Which of the following drugs does NOT decrease aqueous formation?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Beta blockers
+
+## explanation_a
+Incorrect. Topical beta blockers lower pressure by reducing aqueous secretion by the ciliary epithelium.
+
+## answer_b
+Prostaglandin analogues
+
+## explanation_b
+Correct. Prostaglandin analogues are the exception: they lower intraocular pressure by increasing uveoscleral outflow of aqueous, not by reducing its formation. The other three classes all suppress aqueous secretion. So the prostaglandin analogue is the drug that does not decrease aqueous production.
+
+## answer_c
+Carbonic anhydrase inhibitors
+
+## explanation_c
+Incorrect. Carbonic anhydrase inhibitors reduce aqueous formation by blocking bicarbonate production in the ciliary body.
+
+## answer_d
+Alpha-adrenergic agonists
+
+## explanation_d
+Incorrect. Alpha-adrenergic agonists such as brimonidine both reduce aqueous formation and increase uveoscleral outflow.
+
+## topic
+Ophthalmology
+
+## subtopic
+Antiglaucoma drug mechanisms
+
+## main_concept
+CON-MUL-CA8B8548C33413
+
+## concept_ids
+CON-MUL-CA8B8548C33413
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Distinguish prostaglandin analogues (increase outflow) from the aqueous-suppressant antiglaucoma classes.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-40
+
+## title
+Drug that can raise the intraocular pressure
+
+## question
+Which of the following drugs can lead to a rise of intraocular pressure?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Steroids
+
+## explanation_a
+Correct. Steroids can raise intraocular pressure: in susceptible (steroid-responder) patients they reduce outflow through the trabecular meshwork and cause a secondary open-angle (steroid-induced) glaucoma. The other three drugs all lower pressure. So steroids are the pressure-raising drug.
+
+## answer_b
+Beta blockers
+
+## explanation_b
+Incorrect. Beta blockers lower pressure by reducing aqueous formation.
+
+## answer_c
+Brimonidine
+
+## explanation_c
+Incorrect. Brimonidine, an alpha-2 agonist, lowers pressure.
+
+## answer_d
+Mannitol
+
+## explanation_d
+Incorrect. Mannitol is an osmotic agent used to lower a dangerously high pressure acutely.
+
+## topic
+Ophthalmology
+
+## subtopic
+Steroid-induced glaucoma
+
+## main_concept
+CON-MUL-C441036738BC5C
+
+## concept_ids
+CON-MUL-C441036738BC5C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify steroids as the drug that raises, rather than lowers, intraocular pressure.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-42
+
+## title
+Not a cause of secondary glaucoma
+
+## question
+Causes of secondary glaucoma do NOT include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Corneal ulcer
+
+## explanation_a
+Incorrect (it is a cause). A severe corneal ulcer with inflammation can raise pressure and cause secondary glaucoma.
+
+## answer_b
+Mature senile cataract
+
+## explanation_b
+Correct. A mature senile cataract is the exception: it is fully opaque but neither swollen nor hypermature, so it does not obstruct aqueous outflow. Lens-induced glaucoma needs an intumescent (swollen) cataract for phacomorphic angle closure or a hypermature (leaking) cataract for phacolytic glaucoma. A plain mature cataract therefore does not cause secondary glaucoma.
+
+## answer_c
+Iridocyclitis
+
+## explanation_c
+Incorrect (it is a cause). Iridocyclitis (anterior uveitis) causes secondary glaucoma through inflammatory debris and synechiae.
+
+## answer_d
+Central retinal vein thrombosis
+
+## explanation_d
+Incorrect (it is a cause). Ischaemic central retinal vein thrombosis leads to neovascular glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Secondary glaucoma
+
+## main_concept
+CON-MUL-4339537A4E18E0
+
+## concept_ids
+CON-MUL-4339537A4E18E0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that a mature (not intumescent or hypermature) cataract does not cause secondary glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-43
+
+## title
+Occlusion least likely to cause neovascular glaucoma
+
+## question
+Neovascular glaucoma is least likely to occur as a result of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Central retinal vein occlusion
+
+## explanation_a
+Incorrect. Ischaemic central retinal vein occlusion is a classic cause of neovascular glaucoma.
+
+## answer_b
+Central retinal artery occlusion
+
+## explanation_b
+Incorrect. A central retinal artery occlusion produces widespread retinal ischaemia and can drive angle neovascularisation.
+
+## answer_c
+Branch retinal artery occlusion
+
+## explanation_c
+Correct. A branch retinal artery occlusion is least likely: it infarcts only a sector of retina, so the area of ischaemia and the angiogenic drive are small and rarely enough to produce rubeosis and neovascular glaucoma. The large-territory ischaemia of a central vein occlusion, central artery occlusion or diabetic retinopathy is far more likely to. So the branch occlusion is the least likely cause.
+
+## answer_d
+Proliferative diabetic retinopathy
+
+## explanation_d
+Incorrect. Proliferative diabetic retinopathy is a leading cause of neovascular glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Neovascular glaucoma
+
+## main_concept
+CON-MUL-617A93033CA1F5
+
+## concept_ids
+CON-MUL-617A93033CA1F5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Rank the ischaemic causes of neovascular glaucoma and identify branch arterial occlusion as least likely.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.61); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-44
+
+## title
+Not a cause of secondary open-angle glaucoma
+
+## question
+The most important causes of secondary OPEN-angle glaucoma include all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Lens-induced phacolytic glaucoma
+
+## explanation_a
+Incorrect (it is a secondary open-angle cause). Phacolytic glaucoma clogs the open trabecular meshwork with leaked lens proteins.
+
+## answer_b
+Corticosteroid-induced glaucoma
+
+## explanation_b
+Incorrect (it is a secondary open-angle cause). Steroids reduce trabecular outflow through an open angle.
+
+## answer_c
+Lens-induced phacomorphic glaucoma
+
+## explanation_c
+Correct. Phacomorphic glaucoma is the exception: an intumescent cataract pushes the iris forward and closes the angle, so it is a secondary ANGLE-CLOSURE, not open-angle, glaucoma. The others all raise pressure through an open angle. So phacomorphic glaucoma does not belong on the open-angle list.
+
+## answer_d
+Angle recession after blunt trauma
+
+## explanation_d
+Incorrect (it is a secondary open-angle cause). Angle recession damages the trabecular meshwork of an anatomically open angle.
+
+## topic
+Ophthalmology
+
+## subtopic
+Secondary open-angle glaucoma
+
+## main_concept
+CON-MUL-05745AF10298BA
+
+## concept_ids
+CON-MUL-05745AF10298BA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Separate phacomorphic (angle-closure) from the secondary open-angle mechanisms.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.62); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-45
+
+## title
+Investigation used to diagnose glaucoma
+
+## question
+An investigation needed for the diagnosis of glaucoma includes:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+OCT of the macula
+
+## explanation_a
+Incorrect. OCT of the macula assesses macular disease; glaucoma is followed with OCT of the optic nerve/RNFL, not the macula.
+
+## answer_b
+Fundus fluorescein angiography
+
+## explanation_b
+Incorrect. Fundus fluorescein angiography images retinal vasculature and is not a glaucoma test.
+
+## answer_c
+Visual field
+
+## explanation_c
+Correct. Visual field testing (perimetry) is a core investigation for diagnosing and staging glaucoma, because it maps the characteristic arcuate and nasal-step defects of glaucomatous nerve-fibre loss. Together with tonometry and optic-disc assessment it confirms the diagnosis. So the visual field is the needed investigation.
+
+## answer_d
+Ocular ultrasound
+
+## explanation_d
+Incorrect. Ocular ultrasound (B-scan) images the posterior segment when the media are opaque and is not used to diagnose glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diagnosis of glaucoma
+
+## main_concept
+CON-MUL-DB1B62FE5C05BC
+
+## concept_ids
+CON-MUL-DB1B62FE5C05BC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Select visual-field testing as a core glaucoma investigation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.62); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-56
+
+## title
+Normal range of intraocular pressure
+
+## question
+The following is the normal range of intraocular pressure:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+120/80 mmHg
+
+## explanation_a
+Incorrect. 120/80 mmHg is a systemic arterial blood-pressure figure, meaningless for the eye.
+
+## answer_b
+90/60 mmHg
+
+## explanation_b
+Incorrect. 90/60 mmHg is again a systemic blood-pressure reading, not an intraocular pressure.
+
+## answer_c
+4 to 28 mmHg
+
+## explanation_c
+Incorrect. 4-28 mmHg is too wide; the upper figure is well into the pathological range.
+
+## answer_d
+8 to 21 mmHg
+
+## explanation_d
+Correct. The normal intraocular pressure is about 8-21 mmHg, measured as a single value (not a ratio), with only a small diurnal variation and little difference between the eyes. Readings above this band raise suspicion of glaucoma, though a pressure is ultimately judged normal by whether it damages the optic nerve. So 8-21 mmHg is the normal range.
+
+## topic
+Ophthalmology
+
+## subtopic
+Intraocular pressure
+
+## main_concept
+CON-MUL-7CB04C08F57089
+
+## concept_ids
+CON-MUL-7CB04C08F57089
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+State the normal intraocular pressure as roughly 8-21 mmHg.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.64); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-58
+
+## title
+Steroids and secondary open-angle glaucoma
+
+## question
+As regards secondary glaucoma, which statement is true?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Secondary angle-closure glaucoma may occur with prolonged use of topical steroids
+
+## explanation_a
+Incorrect. Steroids raise pressure through an open angle by reducing trabecular outflow, so the mechanism is open-angle, not angle-closure.
+
+## answer_b
+Secondary open-angle glaucoma may occur with prolonged use of topical steroids
+
+## explanation_b
+Correct. Prolonged topical steroids cause a secondary OPEN-angle glaucoma in steroid-responders: the drug reduces aqueous outflow through an anatomically open trabecular meshwork, raising the pressure. Stopping the steroid usually returns the pressure toward normal. So this is the true statement.
+
+## answer_c
+Topical steroids never cause glaucoma
+
+## explanation_c
+Incorrect. Topical steroids are a well-recognised cause of glaucoma, so 'never' is false.
+
+## answer_d
+Patients do not develop glaucoma a long time after blunt trauma
+
+## explanation_d
+Incorrect. Angle-recession glaucoma can appear years after blunt trauma, so late post-traumatic glaucoma does occur.
+
+## topic
+Ophthalmology
+
+## subtopic
+Steroid-induced glaucoma
+
+## main_concept
+CON-MUL-C441036738BC5C
+
+## concept_ids
+CON-MUL-C441036738BC5C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise prolonged topical steroids as a cause of secondary open-angle glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-59
+
+## title
+Glaucoma that is not a painful red eye
+
+## question
+Painful red eyes do NOT occur with:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Primary open-angle glaucoma
+
+## explanation_a
+Correct. Primary open-angle glaucoma is the exception: the pressure rises slowly, so the eye stays white and painless and the vision is lost insidiously. The other three raise pressure abruptly or inflame the eye and present as a painful red eye. So a painful red eye is not a feature of open-angle glaucoma.
+
+## answer_b
+Primary angle-closure glaucoma
+
+## explanation_b
+Incorrect. Acute primary angle-closure is the classic painful red eye with a high pressure.
+
+## answer_c
+Secondary angle-closure glaucoma
+
+## explanation_c
+Incorrect. Secondary angle-closure glaucoma likewise presents with a painful red eye.
+
+## answer_d
+Neovascular glaucoma
+
+## explanation_d
+Incorrect. Neovascular glaucoma is a painful red eye from rubeosis and very high pressure.
+
+## topic
+Ophthalmology
+
+## subtopic
+Primary open-angle glaucoma
+
+## main_concept
+CON-MUL-FE729AFE4DD7FD
+
+## concept_ids
+CON-MUL-FE729AFE4DD7FD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Contrast the painless white eye of open-angle glaucoma with the painful red angle-closure and neovascular glaucomas.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-60
+
+## title
+Risk factor for open-angle glaucoma
+
+## question
+As regards open-angle glaucoma (OAG):
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It is symptomatic in early stages
+
+## explanation_a
+Incorrect. Open-angle glaucoma is asymptomatic in early stages, which is why it is caught on screening.
+
+## answer_b
+Treatment is mainly surgical
+
+## explanation_b
+Incorrect. Treatment is mainly medical (pressure-lowering drops) first, with surgery reserved for failure of medical control.
+
+## answer_c
+Astigmatism is a risk factor
+
+## explanation_c
+Incorrect. Astigmatism is a refractive error unrelated to open-angle glaucoma risk.
+
+## answer_d
+Myopia is a risk factor
+
+## explanation_d
+Correct. Myopia is a recognised risk factor for primary open-angle glaucoma, alongside older age, a positive family history, raised intraocular pressure, diabetes and African ancestry. Myopic eyes have discs more susceptible to pressure-related damage. So myopia is the true risk factor here.
+
+## topic
+Ophthalmology
+
+## subtopic
+Risk factors for open-angle glaucoma
+
+## main_concept
+CON-MUL-39F9243FE6D7E4
+
+## concept_ids
+CON-MUL-39F9243FE6D7E4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify myopia as a risk factor for primary open-angle glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-62
+
+## title
+Condition not causing secondary glaucoma
+
+## question
+Secondary glaucoma may occur in all of the following conditions, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hyphema
+
+## explanation_a
+Incorrect (it is a cause). Blood cells from a hyphema block the trabecular meshwork and raise pressure.
+
+## answer_b
+Iritis
+
+## explanation_b
+Incorrect (it is a cause). Iritis (anterior uveitis) causes secondary glaucoma through inflammatory cells and synechiae.
+
+## answer_c
+Intumescent cataract
+
+## explanation_c
+Incorrect (it is a cause). An intumescent (swollen) cataract closes the angle and causes phacomorphic glaucoma.
+
+## answer_d
+Immature cataract
+
+## explanation_d
+Correct. An immature cataract is the exception: it is only partially opaque and neither swollen nor leaking, so it does not obstruct aqueous outflow or cause glaucoma. Lens-induced glaucoma needs an intumescent or hypermature lens. So an immature cataract does not cause secondary glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Secondary glaucoma
+
+## main_concept
+CON-MUL-05745AF10298BA
+
+## concept_ids
+CON-MUL-05745AF10298BA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that an immature cataract does not cause secondary glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-63
+
+## title
+Cause least likely to give neovascular glaucoma
+
+## question
+Neovascular glaucoma is less likely to occur as a result of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Proliferative diabetic retinopathy
+
+## explanation_a
+Incorrect. Proliferative diabetic retinopathy is a major cause of neovascular glaucoma.
+
+## answer_b
+Central retinal vein occlusion
+
+## explanation_b
+Incorrect. Ischaemic central retinal vein occlusion is a classic cause.
+
+## answer_c
+Ischaemia of the retina
+
+## explanation_c
+Incorrect. Retinal ischaemia is the common final pathway that drives angle neovascularisation.
+
+## answer_d
+Mature cataract
+
+## explanation_d
+Correct. A mature cataract is the exception: it is a lens opacity with no retinal ischaemia, so it releases no angiogenic factors and does not cause rubeosis or neovascular glaucoma. The other three all produce the retinal ischaemia that drives new-vessel formation. So a mature cataract is the least likely cause.
+
+## topic
+Ophthalmology
+
+## subtopic
+Neovascular glaucoma
+
+## main_concept
+CON-MUL-617A93033CA1F5
+
+## concept_ids
+CON-MUL-617A93033CA1F5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that neovascular glaucoma arises from retinal ischaemia, not from a cataract.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-64
+
+## title
+Cataract that causes lens-induced glaucoma
+
+## question
+Lens-induced glaucoma occurs in the following:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Anterior polar cataract
+
+## explanation_a
+Incorrect. An anterior polar cataract is a small stationary opacity that does not raise pressure.
+
+## answer_b
+Posterior subcapsular cataract
+
+## explanation_b
+Incorrect. A posterior subcapsular cataract impairs vision but does not cause lens-induced glaucoma.
+
+## answer_c
+Nuclear cataract
+
+## explanation_c
+Incorrect. A nuclear cataract causes an index myopic shift, not glaucoma.
+
+## answer_d
+Hypermature cataract
+
+## explanation_d
+Correct. A hypermature cataract causes lens-induced (phacolytic) glaucoma: liquefied lens proteins leak through the intact capsule and, with macrophages, clog the trabecular meshwork and raise the pressure. An intumescent lens likewise causes phacomorphic angle closure. So the hypermature cataract is the lens that causes glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens-induced glaucoma
+
+## main_concept
+CON-MUL-4339537A4E18E0
+
+## concept_ids
+CON-MUL-4339537A4E18E0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Associate lens-induced glaucoma with a hypermature (or intumescent) cataract.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-65
+
+## title
+When intraocular pressure is considered normal
+
+## question
+For the intraocular pressure to be considered normal, the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Difference between the two eyes should be more than 3 mmHg
+
+## explanation_a
+Incorrect. The inter-eye difference should be SMALL (a few mmHg); a difference greater than about 3-4 mmHg is suspicious, not normal.
+
+## answer_b
+Diurnal variation does not exceed 7 mmHg
+
+## explanation_b
+Incorrect. The normal diurnal variation is only a few mmHg (about 3-5); a swing this large is not the defining criterion of normality.
+
+## answer_c
+Measurement ranges between 5 and 25 mmHg
+
+## explanation_c
+Incorrect. The quoted band is inaccurate; the accepted statistical range is about 8-21 (10-21) mmHg.
+
+## answer_d
+IOP is considered normal if it is not damaging the optic nerve
+
+## explanation_d
+Correct. The functional definition is that a pressure is normal when it does not damage the optic nerve. This is why some eyes tolerate statistically high readings (ocular hypertension) while others are damaged within the normal band (normal-tension glaucoma). So normality is judged by optic-nerve safety, not a single number.
+
+## topic
+Ophthalmology
+
+## subtopic
+Intraocular pressure
+
+## main_concept
+CON-MUL-7CB04C08F57089
+
+## concept_ids
+CON-MUL-7CB04C08F57089
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Define a normal intraocular pressure functionally, as one that does not damage the optic nerve.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.65); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-67
+
+## title
+Important point in diagnosing open-angle glaucoma
+
+## question
+An important point in diagnosing open-angle glaucoma is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Shallow anterior chamber
+
+## explanation_a
+Incorrect. Open-angle glaucoma has a normal deep chamber; a shallow chamber suggests angle closure.
+
+## answer_b
+Optic disc cupping
+
+## explanation_b
+Correct. Optic-disc cupping is a key diagnostic sign of open-angle glaucoma: progressive loss of neuroretinal rim enlarges the cup, raising the cup-disc ratio and producing the characteristic glaucomatous disc. It is assessed alongside the intraocular pressure and visual field. So disc cupping is the important diagnostic point.
+
+## answer_c
+Narrow angle
+
+## explanation_c
+Incorrect. A narrow angle is the hallmark of angle-closure, not open-angle, glaucoma.
+
+## answer_d
+Visual acuity and refractive error
+
+## explanation_d
+Incorrect. Central visual acuity and refractive error are typically preserved until late and are not diagnostic of open-angle glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diagnosis of open-angle glaucoma
+
+## main_concept
+CON-MUL-D03EA144F40148
+
+## concept_ids
+CON-MUL-D03EA144F40148
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise optic-disc cupping as a central diagnostic feature of open-angle glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.66); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-68
+
+## title
+Field change not seen in open-angle glaucoma
+
+## question
+The following field changes are associated with open-angle glaucoma, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Nasal step
+
+## explanation_a
+Incorrect (it is a glaucomatous change). A nasal step is a classic early defect.
+
+## answer_b
+Arcuate scotoma
+
+## explanation_b
+Incorrect (it is a glaucomatous change). An arcuate (Bjerrum) scotoma follows the arcuate nerve-fibre bundles.
+
+## answer_c
+Tubular vision
+
+## explanation_c
+Incorrect (it is a glaucomatous change). Tubular (tunnel) vision is the end-stage constricted field.
+
+## answer_d
+Early loss of the central field
+
+## explanation_d
+Correct. Early loss of the central field is the exception: glaucoma damages the arcuate bundles first and spares the central (macular) fibres until end-stage, so central vision and acuity are preserved early. Early central loss instead suggests a maculopathy or optic-nerve disease. So it is not an early glaucomatous field change.
+
+## topic
+Ophthalmology
+
+## subtopic
+Visual fields in glaucoma
+
+## main_concept
+CON-MUL-638E232A3C3F93
+
+## concept_ids
+CON-MUL-638E232A3C3F93
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that central vision is preserved early in glaucoma, so early central field loss is not glaucomatous.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.66); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-69
+
+## title
+Field change that is seen in open-angle glaucoma
+
+## question
+The following is a field change associated with open-angle glaucoma:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Temporal step
+
+## explanation_a
+Incorrect. The characteristic step in glaucoma is a NASAL step, not a temporal one.
+
+## answer_b
+Altitudinal field defect
+
+## explanation_b
+Incorrect. An altitudinal field defect points to ischaemic optic neuropathy or a retinal vascular occlusion, not glaucoma.
+
+## answer_c
+Arcuate scotoma
+
+## explanation_c
+Correct. An arcuate (Bjerrum) scotoma is a characteristic glaucomatous field defect: it follows the arc of the retinal nerve-fibre bundles that glaucoma damages, sweeping from the blind spot around the central field. With the nasal step it is one of the early defects of glaucoma. So the arcuate scotoma is the glaucomatous change.
+
+## answer_d
+Early loss of the central field
+
+## explanation_d
+Incorrect. Central vision is spared until late in glaucoma, so early central loss is not glaucomatous.
+
+## topic
+Ophthalmology
+
+## subtopic
+Visual fields in glaucoma
+
+## main_concept
+CON-MUL-638E232A3C3F93
+
+## concept_ids
+CON-MUL-638E232A3C3F93
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify the arcuate scotoma as a characteristic glaucomatous field defect.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.66); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-70
+
+## title
+Cataract that does not cause lens-induced glaucoma
+
+## question
+Lens-induced glaucoma occurs in all of the following, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Traumatic cataract
+
+## explanation_a
+Incorrect (it can cause it). A traumatic cataract can release lens material that blocks the meshwork (lens-particle glaucoma).
+
+## answer_b
+Posterior subcapsular cataract
+
+## explanation_b
+Correct. A posterior subcapsular cataract is the exception: it is a thin opacity at the back of the lens that impairs vision but does not swell or leak, so it does not obstruct aqueous outflow or cause glaucoma. Lens-induced glaucoma needs an intumescent, hypermature or ruptured lens. So the posterior subcapsular cataract does not cause it.
+
+## answer_c
+Intumescent cataract
+
+## explanation_c
+Incorrect (it can cause it). An intumescent (swollen) cataract closes the angle and causes phacomorphic glaucoma.
+
+## answer_d
+Hypermature cataract
+
+## explanation_d
+Incorrect (it can cause it). A hypermature cataract leaks proteins and causes phacolytic glaucoma.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens-induced glaucoma
+
+## main_concept
+CON-MUL-4339537A4E18E0
+
+## concept_ids
+CON-MUL-4339537A4E18E0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that a posterior subcapsular cataract does not cause lens-induced glaucoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.66); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH6-71
+
+## title
+Correct statement about phacomorphic glaucoma
+
+## question
+As regards phacomorphic glaucoma, which of the following is correct?
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is treated by cataract extraction
+
+## explanation_a
+Correct. Phacomorphic glaucoma is treated by cataract extraction: removing the swollen intumescent lens relieves the pupil block and reopens the closed angle, curing the glaucoma. Pressure-lowering drops only temporise before surgery. So cataract extraction is the definitive treatment.
+
+## answer_b
+It is due to a hypermature cataract
+
+## explanation_b
+Incorrect. Phacomorphic glaucoma is caused by an intumescent (swollen) cataract; a hypermature cataract causes phacolytic glaucoma.
+
+## answer_c
+It is associated with an open angle
+
+## explanation_c
+Incorrect. The swollen lens pushes the iris forward and CLOSES the angle, so it is an angle-closure, not open-angle, glaucoma.
+
+## answer_d
+There is a deep anterior chamber
+
+## explanation_d
+Incorrect. The anterior chamber is SHALLOW, because the intumescent lens crowds the angle forward.
+
+## topic
+Ophthalmology
+
+## subtopic
+Lens-induced glaucoma
+
+## main_concept
+CON-MUL-849B494447D1AE
+
+## concept_ids
+CON-MUL-849B494447D1AE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The glaucomas
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-GLAUCOMA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that phacomorphic glaucoma is a shallow-chamber angle-closure treated by cataract extraction.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.6 The glaucomas (PDF p.66); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
