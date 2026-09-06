@@ -1267,3 +1267,113 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 12 (Ocular and orbital injuries) and groups its trauma concepts. DIS-OPH has no dedicated trauma node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter facts are anterior-segment (hyphema, chemical burns, corneal laceration, intraocular foreign body, traumatic cataract) - while each concept carries its own most-specific node (retinal trauma on DIS-OPH-T04, neuro/orbital on DIS-OPH-T02 catch-all). Chapter 12 has 80 keyed MCQs (answer key p.8-9; the key omits row Q74 - hold, never guess). A T/F (14 cases) section follows the MCQs, out of scope.
 ## reading_time
 5
+
+
+---
+
+# Item
+## id
+ART-OPH-315-SYSTEMIC
+## title
+Ophthalmology: the eye in systemic diseases
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article groups the ocular manifestations of systemic disease tested by Chapter 11 of Dr. Ahmed Kamal's ophthalmology question bank. It covers neuromuscular and demyelinating disease (myasthenia gravis - fatigable pupil-sparing ptosis, edrophonium/ice-pack diagnosis; multiple sclerosis presenting as optic neuritis), the systemic uveitides (Behcet syndrome with orogenital ulcers, Vogt-Koyanagi-Harada granulomatous panuveitis with exudative retinal detachment and meningeal/auditory/skin features, juvenile idiopathic arthritis chronic anterior uveitis, ankylosing spondylitis and rheumatoid-associated scleritis, sarcoidosis), the endocrine and pregnancy effects (thyroid eye disease, diabetic ocular disease, and the refractive/accommodative/IOP changes of pregnancy), neoplasia and its treatment (choroidal and orbital metastasis sparing the avascular cornea, systemic lymphoma, paraneoplastic retinopathies, radiation ocular toxicity), infection (AIDS with HIV retinopathy, CMV retinitis and Kaposi sarcoma) and the systemic causes of ectopia lentis (Marfan, homocystinuria, trauma) and of retinal neovascularisation.
+## sections
+### Definition
+Systemic diseases reach the eye through shared vasculature, autoimmune targeting of ocular tissues, metabolic change, neoplastic spread and infection. Each linked concept states one atomic fact tested by this chapter.
+### Mechanism
+The mechanisms differ by system: autoantibodies against the acetylcholine receptor fatigue the extraocular and levator muscles in myasthenia; autoimmune granulomatous inflammation drives the uveitides; ischaemia from embolic or vaso-occlusive disease produces retinal artery occlusion and neovascularisation; and metabolic swelling of the lens and reduced corneal sensitivity underlie the transient refractive changes of pregnancy and diabetes.
+### Key determinants
+Discriminators tested here: myasthenia spares the pupil and is diagnosed by cooling and edrophonium (not heat); VKH detachment is exudative and granulomatous (not rhegmatogenous); the avascular cornea is spared by metastasis; ectopia lentis is caused by Marfan, homocystinuria and trauma but not Behcet; and retinal neovascularisation follows venous occlusion, diabetes and retinopathy of prematurity but not arterial occlusion.
+### Clinical significance
+Recognising the ocular signs of systemic disease allows the eye to flag or monitor conditions such as myasthenia, multiple sclerosis, the seronegative and autoimmune arthritides, sarcoidosis, malignancy and AIDS, and guides safe management in pregnancy.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (heat versus cooling in myasthenia, exudative versus rhegmatogenous detachment, direct infiltration versus remote paraneoplastic effect, arterial versus venous occlusion as a cause of neovascularisation).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## subtopic
+The eye in systemic diseases
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+DIS-OPH-T04
+DIS-OPH-T05
+## related_concepts
+CON-MUL-40F6A29AE4D23D
+CON-MUL-B85F2EB077CB33
+CON-MUL-9D7A96DA1B1399
+CON-MUL-2660E0B98F36A1
+CON-MUL-C9496E85A577A7
+CON-MUL-B6AB0CB1C6DED3
+CON-MUL-1F65E19BAA92F9
+CON-MUL-87B6F199CFF28B
+CON-MUL-7542AED871F09A
+CON-MUL-F1AEE7754268CE
+CON-MUL-C08EFFE1F11CA9
+CON-MUL-6140B3BF7BE261
+CON-MUL-CECF9B3A095A08
+CON-MUL-EBC04EE545C480
+CON-MUL-D390CE52CD4F88
+CON-MUL-D0DF1C814F9638
+CON-MUL-CB2A871581DE7A
+CON-MUL-62605655D7211B
+CON-MUL-CF4FD5458186C3
+CON-MUL-CCC62D929CB2D5
+CON-MUL-CF3B8F48A3F344
+CON-MUL-FEB55D720E8CD8
+CON-MUL-68CD902A3AD25C
+## related_articles
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 11 (The eye in systemic diseases) and groups its systemic-ophthalmology concepts. DIS-OPH has no dedicated systemic-disease node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) while each concept carries its own most-specific node: the neuromuscular/demyelinating and VKH-CNS concepts on DIS-OPH-T05 (Neuro-ophthalmology), and the retinal/vaso-occlusive/metastatic concepts on DIS-OPH-T04 (Retina). Chapter 11 has 40 keyed MCQs (answer key p.8; the printed key omits rows Q5/Q39/Q42, and the bank's Q44 has no key row - held, never guess). This tranche authored 24 clean single-best MCQs (Q1-4, Q6, Q22-36, Q38, Q40, Q41, Q43) and held the patient-scenario statement-set vignettes Q7-21 and Q37 (four independent true/false statements with more than one defensibly true option, held for multi-true adjudication), the unkeyed Q39/Q42/Q44, and the post-Q44 True/False (2 cases) section which is out of scope. The Marfan concept is reused from Chapter 8; 22 new concepts minted.
+## reading_time
+5
