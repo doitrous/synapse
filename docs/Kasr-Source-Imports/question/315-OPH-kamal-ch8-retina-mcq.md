@@ -7605,3 +7605,992 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-73
+## title
+Clinical situation requiring rapid marked reduction of IOP
+## question
+One of these clinical situations require rapid marked reduction of IOP:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+A patient with central venous pulsations.
+## explanation_a
+Incorrect. Spontaneous central retinal venous pulsations are a normal finding reflecting a normal pressure relationship; they do not call for urgent IOP lowering.
+## answer_b
+An open angle glaucoma patient with IOP 28 mmHg.
+## explanation_b
+Incorrect. This is chronically, moderately raised pressure managed by routine topical therapy, not by rapid marked reduction.
+## answer_c
+A patient with sudden painless loss of vision.
+## explanation_c
+Correct. Sudden painless loss of vision suggests central retinal artery occlusion, an ocular emergency; ocular massage and rapid IOP-lowering are attempted within the first hours to dislodge the embolus and restore retinal perfusion.
+## answer_d
+A patient with blurring of vision upon waking up.
+## explanation_d
+Incorrect. Blurring on waking (for example corneal oedema in endothelial dystrophy) is not an emergency requiring acute IOP reduction.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-89A02837D12611
+## concept_ids
+CON-MUL-89A02837D12611
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical scenario
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise sudden painless visual loss (central retinal artery occlusion) as the ocular emergency needing rapid IOP reduction.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-74
+## title
+Complication making CRVO cause painful visual loss
+## question
+CRVO can lead to painful loss of vision by the following complication:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Widespread retinal hemorrhages.
+## explanation_a
+Incorrect. Extensive retinal haemorrhage produces painless loss of vision, the typical presentation of CRVO.
+## answer_b
+Neovascular glaucoma.
+## explanation_b
+Correct. Ischaemic CRVO releases VEGF that drives iris and angle neovascularisation; the resulting neovascular glaucoma raises IOP acutely and is the painful complication.
+## answer_c
+Optic disc edema.
+## explanation_c
+Incorrect. Disc oedema in CRVO causes painless visual disturbance, not pain.
+## answer_d
+Macular edema.
+## explanation_d
+Incorrect. Macular oedema lowers central vision painlessly and is the commonest cause of visual loss in non-ischaemic CRVO.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-617A93033CA1F5
+## concept_ids
+CON-MUL-617A93033CA1F5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify neovascular glaucoma as the painful complication of ischaemic central retinal vein occlusion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-75
+## title
+Treatment of CRVO — the exception
+## question
+Treatment of CRVO include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Injection of intravitreal anti-VEGF.
+## explanation_a
+Incorrect (a genuine treatment). Intravitreal anti-VEGF controls the macular oedema and neovascularisation of CRVO.
+## answer_b
+Panretinal photocoagulation.
+## explanation_b
+Incorrect (a genuine treatment). Panretinal photocoagulation is used for the ischaemic/neovascular form to prevent or treat rubeosis.
+## answer_c
+Adequate blood pressure control.
+## explanation_c
+Incorrect (a genuine measure). Hypertension is a leading risk factor, so controlling it is part of management.
+## answer_d
+Oral anticoagulants.
+## explanation_d
+Correct. Systemic anticoagulation is not a standard treatment for CRVO and does not improve the outcome; this is the false option.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-5A65937865AF60
+## concept_ids
+CON-MUL-5A65937865AF60
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the treatments of central retinal vein occlusion and exclude systemic anticoagulation.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-76
+## title
+Cause of iris neovascularization
+## question
+Causes of iris neovascularization include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Ischemic central retinal vein occlusion.
+## explanation_a
+Correct. Ischaemic CRVO is a classic cause of rubeosis iridis, driven by VEGF released from the ischaemic retina.
+## answer_b
+Anterior ischemic optic neuropathy.
+## explanation_b
+Incorrect. AION infarcts the optic nerve head, not a diffusely ischaemic retina, and does not cause rubeosis.
+## answer_c
+Primary open angle glaucoma.
+## explanation_c
+Incorrect. POAG does not itself produce iris neovascularisation.
+## answer_d
+Retinitis pigmentosa.
+## explanation_d
+Incorrect. Retinitis pigmentosa is a photoreceptor dystrophy without the retinal ischaemia that drives neovascularisation.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-2D5537A21D4226
+## concept_ids
+CON-MUL-2D5537A21D4226
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise ischaemic central retinal vein occlusion as a classic cause of iris neovascularisation (rubeosis).
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-77
+## title
+Feature of central retinal artery occlusion
+## question
+In central retinal artery occlusion:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Gradual diminution of vision.
+## explanation_a
+Incorrect. Central retinal artery occlusion causes sudden, not gradual, visual loss.
+## answer_b
+Dilated arteries.
+## explanation_b
+Incorrect. The retinal arteries are attenuated and thread-like, with segmented (cattle-truck) flow.
+## answer_c
+Increase of intraocular pressure.
+## explanation_c
+Incorrect. Intraocular pressure is not raised in central retinal artery occlusion.
+## answer_d
+Cherry red spot in the fundus.
+## explanation_d
+Correct. The oedematous, opaque ischaemic inner retina surrounds a foveola still perfused by the choroid, producing the classic cherry-red spot.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-D6D8B1DAE97079
+## concept_ids
+CON-MUL-D6D8B1DAE97079
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the cherry-red spot as the characteristic fundus sign of central retinal artery occlusion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-78
+## title
+Cause of a macular cherry-red spot
+## question
+Cherry red spot at the macula:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Is a common association with OAG.
+## explanation_a
+Incorrect. Open-angle glaucoma does not produce a cherry-red spot.
+## answer_b
+Is common in high myopia.
+## explanation_b
+Incorrect. High myopia causes macular degeneration and atrophy, not a cherry-red spot.
+## answer_c
+Is caused by coagulative necrosis of the retina.
+## explanation_c
+Correct (the intended answer). The cherry-red spot arises when the ischaemic inner retina becomes opaque (retinal infarction), leaving the choroid-perfused fovea visible as a red spot; the other three do not cause it.
+## answer_d
+May be due to laser macular burn.
+## explanation_d
+Incorrect. A laser burn scars and pigments the macula rather than producing a cherry-red spot.
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## main_concept
+CON-MUL-D6D8B1DAE97079
+## concept_ids
+CON-MUL-D6D8B1DAE97079
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute a macular cherry-red spot to ischaemic retinal infarction rather than to glaucoma, myopia or a laser burn.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-79
+## title
+Cause of gradual vision loss in a 72-year-old
+## question
+In a 72-year-old patient, a possible cause for gradual vision loss is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Arteritic anterior ischemic optic neuropathy.
+## explanation_a
+Incorrect. Arteritic AION (giant cell arteritis) causes sudden, profound visual loss.
+## answer_b
+Amaurosis fugax related to impending vascular occlusion.
+## explanation_b
+Incorrect. Amaurosis fugax is a transient loss of vision, not gradual.
+## answer_c
+Choroidal neovascular membrane.
+## explanation_c
+Correct. A choroidal neovascular membrane (wet age-related macular degeneration) causes progressive central visual loss with metamorphopsia in the elderly.
+## answer_d
+Ischemic CRVO.
+## explanation_d
+Incorrect. Ischaemic central retinal vein occlusion causes sudden painless visual loss.
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## main_concept
+CON-MUL-14ACFBCF209397
+## concept_ids
+CON-MUL-14ACFBCF209397
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical scenario
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a choroidal neovascular membrane (wet AMD) as a cause of gradual central visual loss in the elderly.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.120); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-80
+## title
+Manifestation of a choroidal neovascular membrane
+## question
+The following is a manifestation of choroidal neovascular membrane:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Secondary glaucoma.
+## explanation_a
+Incorrect. A choroidal neovascular membrane does not cause glaucoma.
+## answer_b
+Microaneurysms.
+## explanation_b
+Incorrect. Microaneurysms are a sign of diabetic retinopathy, not of a CNVM.
+## answer_c
+Macular scar.
+## explanation_c
+Correct. An untreated choroidal neovascular membrane bleeds and fibroses into a disciform macular scar.
+## answer_d
+Vascular tortuosity.
+## explanation_d
+Incorrect. Vascular tortuosity is seen in vein occlusion and other retinopathies, not as a CNVM feature.
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## main_concept
+CON-MUL-14ACFBCF209397
+## concept_ids
+CON-MUL-14ACFBCF209397
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a disciform macular scar as an end-stage manifestation of a choroidal neovascular membrane.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-81
+## title
+Manifestations of CNVM — the exception
+## question
+Manifestations of CNVM include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Formation of a macular scar.
+## explanation_a
+Incorrect (a genuine manifestation). The membrane fibroses into a disciform macular scar.
+## answer_b
+Subretinal hemorrhage.
+## explanation_b
+Incorrect (a genuine manifestation). The fragile new vessels bleed under the retina.
+## answer_c
+Secondary glaucoma.
+## explanation_c
+Correct. Secondary glaucoma is not a manifestation of a choroidal neovascular membrane; this is the false option.
+## answer_d
+Metamorphopsia.
+## explanation_d
+Incorrect (a genuine manifestation). The raised macula distorts images, giving metamorphopsia.
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## main_concept
+CON-MUL-14ACFBCF209397
+## concept_ids
+CON-MUL-14ACFBCF209397
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the manifestations of a choroidal neovascular membrane and exclude secondary glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-82
+## title
+Causes of CNVM — the exception
+## question
+Causes of CNVM include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Age related.
+## explanation_a
+Incorrect (a genuine cause). Age-related (wet) macular degeneration is the commonest cause.
+## answer_b
+Degenerative myopia.
+## explanation_b
+Incorrect (a genuine cause). Pathological myopia produces myopic CNVM.
+## answer_c
+Trauma.
+## explanation_c
+Incorrect (a genuine cause). Choroidal rupture from trauma can be complicated by a CNVM.
+## answer_d
+Open angle glaucoma.
+## explanation_d
+Correct. Open-angle glaucoma does not cause a choroidal neovascular membrane; this is the false option.
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## main_concept
+CON-MUL-14ACFBCF209397
+## concept_ids
+CON-MUL-14ACFBCF209397
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the causes of a choroidal neovascular membrane and exclude open-angle glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.121); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.5-6 Ch.8 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

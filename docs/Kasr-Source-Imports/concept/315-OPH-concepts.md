@@ -30217,3 +30217,447 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-89A02837D12611
+## label
+Sudden painless visual loss (central retinal artery occlusion) is an ocular emergency needing rapid IOP reduction
+## canonical_key
+ophthalmology.central-retinal-artery-occlusion.ocular-emergency-rapid-iop-reduction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sudden painless loss of vision suggests central retinal artery occlusion, an ocular emergency. Immediate measures aim to dislodge the embolus and restore retinal perfusion within the first hours — ocular massage and rapid lowering of the intraocular pressure (for example by anterior-chamber paracentesis or IOP-lowering drugs).
+## explicit_objective
+Recognise central retinal artery occlusion as the situation requiring rapid marked reduction of intraocular pressure.
+## pitfalls
+Treating chronic moderately raised pressure (open-angle glaucoma at 28 mmHg) or a normal finding (spontaneous venous pulsations) as the emergency; the emergency is the sudden painless loss of vision of an artery occlusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal vascular occlusion
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal vascular occlusion
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina Q73-90) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-14ACFBCF209397
+## label
+Choroidal neovascular membrane: manifestations and causes
+## canonical_key
+ophthalmology.choroidal-neovascular-membrane.manifestations-and-causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A choroidal neovascular membrane (the wet form of macular disease) grows from the choroid through Bruch membrane under the macula. It presents with progressive central visual loss and metamorphopsia, and manifests with subretinal haemorrhage and, when untreated, a disciform macular scar. Its causes include age-related (wet AMD), degenerative myopia and trauma (choroidal rupture). Secondary glaucoma and open-angle glaucoma are neither manifestations nor causes.
+## explicit_objective
+List the manifestations (metamorphopsia, subretinal haemorrhage, disciform macular scar) and causes (age-related, myopic, traumatic) of a choroidal neovascular membrane.
+## pitfalls
+Counting secondary glaucoma as a manifestation, or open-angle glaucoma as a cause; neither is related to a choroidal neovascular membrane.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Age-related macular degeneration
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina Q73-90) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-58CD566E688FDF
+## label
+Dry age-related macular degeneration presents with drusen and geographic atrophy
+## canonical_key
+ophthalmology.age-related-macular-degeneration.dry-type-drusen-geographic-atrophy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dry (atrophic) age-related macular degeneration is the commoner form (about 90% of cases). It shows drusen and geographic atrophy of the retinal pigment epithelium and choriocapillaris at the macula, and causes a gradual central visual decline. There is no specific medical cure; anti-VEGF is reserved for the wet (neovascular) form.
+## explicit_objective
+Recognise drusen and geographic atrophy as the features of dry AMD and distinguish it from the treatable wet form.
+## pitfalls
+Thinking dry AMD is the rarer form, is treated with anti-VEGF, or produces a cherry-red spot; it is the commoner form, untreated by anti-VEGF, and a cherry-red spot belongs to artery occlusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Age-related macular degeneration
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Age-related macular degeneration
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina Q73-90) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-24625CAF40326B
+## label
+Tractional retinal detachment is caused by diabetic retinopathy
+## canonical_key
+ophthalmology.tractional-retinal-detachment.diabetic-retinopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A tractional retinal detachment results when contracting fibrovascular tissue pulls the neurosensory retina off the pigment epithelium. Its classic cause is advanced (proliferative) diabetic retinopathy; other traction membranes (for example after penetrating trauma or in retinopathy of prematurity) act the same way. This differs from the rhegmatogenous detachment (from a retinal break) and the exudative detachment (from choroidal leakage, as in toxaemia of pregnancy or a choroidal haemangioma).
+## explicit_objective
+Identify diabetic retinopathy as the classic cause of tractional retinal detachment and separate it from rhegmatogenous and exudative types.
+## pitfalls
+Confusing the traction detachment of diabetic retinopathy with the rhegmatogenous detachment of a retinal break or the exudative detachment of toxaemia/haemangioma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Retinal detachment
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The retina > Retinal detachment
+## article_ids
+ART-OPH-315-RETINA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina Q73-90) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
