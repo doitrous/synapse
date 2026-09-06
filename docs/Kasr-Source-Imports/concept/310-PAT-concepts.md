@@ -3121,3 +3121,891 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.8-9/printed 7-8); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-8DE1BE845765C7
+## label
+Polyarteritis nodosa is an immune-mediated vasculitis
+## canonical_key
+polyarteritis-nodosa.etiology
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Polyarteritis nodosa is a necrotising vasculitis of small and medium muscular arteries caused by an immune-mediated (immune-complex) reaction. About a third of cases are associated with hepatitis B, in which HBsAg–antibody immune complexes deposit in the vessel wall and activate complement; the rest are idiopathic. It is ANCA-negative and is classed as immune-complex (type III) mediated rather than a direct infection or a classic autoantibody autoimmune disease.
+## explicit_objective
+State that polyarteritis nodosa is an immune-mediated (immune-complex) necrotising vasculitis, distinct from direct infection or classic autoimmune disease.
+## pitfalls
+Calling it a direct infection or a classic autoimmune (autoantibody) disease: it is immune-complex mediated, ~30% hepatitis-B–associated, and ANCA-negative.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Polyarteritis nodosa
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+Source classes it 'immune-mediated' over 'unknown cause'; classic PAN is idiopathic in most cases but immune-complex/HBV-associated in ~30%. Authored to the printed key.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-127A45A3338C04
+## label
+Fibrinoid necrosis is the defining lesion of polyarteritis nodosa
+## canonical_key
+polyarteritis-nodosa.fibrinoid-necrosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The defining pathologic feature of polyarteritis nodosa is transmural fibrinoid necrosis of the wall of small and medium muscular arteries, with a mixed inflammatory infiltrate. Affected segments undergo acute necrotising inflammation in which fibrin and plasma proteins deposit in the necrotic wall, weakening it and producing the small nodular aneurysms that name the disease. Lesions of different ages coexist, and healing leads to fibrosis, but the hallmark acute lesion is fibrinoid necrosis.
+## explicit_objective
+Identify transmural fibrinoid necrosis of the arterial wall as the defining pathologic feature of polyarteritis nodosa.
+## pitfalls
+Choosing hyalinosis, elastosis or fibrosis: those are hypertensive or healed changes; the defining acute lesion of polyarteritis nodosa is fibrinoid necrosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Polyarteritis nodosa
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-70AF7D79AC6C2A
+## label
+Buerger's disease is strongly associated with smoking
+## canonical_key
+buerger-disease.smoking-association
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Buerger's disease (thromboangiitis obliterans) is the vasculitis most strongly and directly associated with cigarette smoking: it occurs almost exclusively in smokers, its activity tracks tobacco use, and smoking cessation is the essential treatment that halts progression. This tight, dose-related link to tobacco separates it from the other vasculitides (polyarteritis nodosa, hypersensitivity vasculitis, lupus vasculitis), which are not smoking-related.
+## explicit_objective
+Identify Buerger's disease (thromboangiitis obliterans) as the vasculitis directly and strongly related to smoking.
+## pitfalls
+Attributing the smoking link to another vasculitis or to Raynaud's/dissecting aneurysm: the strong tobacco association is specific to Buerger's disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-106985273650DA
+## label
+Buerger's disease affects small and medium arteries and veins
+## canonical_key
+buerger-disease.vessels-affected
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Buerger's disease (thromboangiitis obliterans) is a segmental thrombosing inflammation that affects the small and medium arteries and the veins (and often the adjacent nerves) of the extremities. The inflammation typically involves the whole neurovascular bundle of the distal limbs, so arteries, veins and nerves are affected together. This multi-vessel, neurovascular involvement distinguishes it from a purely arterial disease.
+## explicit_objective
+State that Buerger's disease affects small and medium arteries and veins (and nerves) of the extremities.
+## pitfalls
+Restricting it to a single vessel type: it affects small and medium arteries, veins and nerves together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-9CF2A14EB414DC
+## label
+Buerger's disease affects young male smokers
+## canonical_key
+buerger-disease.clinical-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Buerger's disease (thromboangiitis obliterans) characteristically affects young adults — typically men under about 40–45 years — who are heavy cigarette smokers, with a marked male predominance. It causes segmental thrombosis of the distal limb arteries such as the tibial and radial arteries. Onset after 60 years is not typical and would instead suggest atherosclerotic peripheral vascular disease.
+## explicit_objective
+List the clinical characters of Buerger's disease (young male smoker, distal limb artery thrombosis) and recognise that it does not affect those over 60.
+## pitfalls
+Assuming it affects the elderly (over 60): Buerger's disease is a disease of young male smokers, unlike atherosclerotic peripheral vascular disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-7BD75BA0B13D94
+## label
+Thromboangiitis obliterans is a segmental thrombosing inflammation of the neurovascular bundle
+## canonical_key
+buerger-disease.nature
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thromboangiitis obliterans (Buerger's disease) is a segmental, inflammatory thrombosing disease that involves the whole neurovascular bundle — the small and medium arteries, the accompanying veins and the adjacent nerves — of the distal limbs. The inflamed segments are occluded by intraluminal thrombosis (often with small microabscesses), which produces the ischaemia and the 'obliterans' name; the thrombus later organises and recanalises. It is segmental (skip lesions), painful (nerve involvement), occurs in young smokers, and does not affect the coronary arteries.
+## explicit_objective
+Define thromboangiitis obliterans as a segmental inflammatory thrombosing disease of the neurovascular bundle of the limbs, with intraluminal thrombosis.
+## pitfalls
+Calling it a coronary or large-artery disease, or painless: it is a painful, segmental small/medium-vessel and neurovascular disease of the limbs with intraluminal thrombosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-90BE947F33FD19
+## label
+Buerger's disease vessel changes: thrombosis, organization, recanalization
+## canonical_key
+buerger-disease.thrombus-organization-recanalization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The vascular pathological sequence of Buerger's disease is intraluminal thrombosis of the inflamed segments, followed by organisation of the thrombus (ingrowth of granulation tissue) and then partial recanalisation. Skin ulceration and gangrene are downstream ischaemic clinical consequences of the arterial occlusion, not part of the vessel-wall lesion itself.
+## explicit_objective
+State that the vessel changes of Buerger's disease are thrombosis, organisation and recanalisation, not ulceration.
+## pitfalls
+Listing ulceration as a vessel change: ulceration/gangrene is a downstream ischaemic complication; the vessel sequence is thrombosis, organisation, recanalisation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B8AEE0A4917D45
+## label
+Features of hypersensitivity vasculitis
+## canonical_key
+hypersensitivity-vasculitis.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hypersensitivity (leukocytoclastic) vasculitis is an immune-mediated small-vessel disease, typically from immune-complex deposition, that behaves as a multisystem process affecting small vessels of highly vascular tissues (skin, kidney, gastrointestinal tract). It is not complicated by a mycotic aneurysm, which is an infective weakening of the arterial wall (classically from septic emboli in infective endocarditis) and belongs to infection, not to sterile immune-complex vasculitis.
+## explicit_objective
+List the features of hypersensitivity vasculitis (immune-mediated, multisystem, small vessels of highly vascular tissues) and exclude a mycotic aneurysm.
+## pitfalls
+Attaching a mycotic (infective) aneurysm to hypersensitivity vasculitis: it is an infective lesion, not a feature of this immune-mediated small-vessel disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Hypersensitivity vasculitis
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
+
+---

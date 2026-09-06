@@ -206,3 +206,96 @@ university_notes: No department book PDF was located/read this pass -- written f
 6
 
 ---
+
+# Item
+## id
+ART-CVS-310PAT-BLOOD-VESSELS
+## title
+Blood vessels: vasculitis — polyarteritis nodosa, Buerger's disease and hypersensitivity vasculitis
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+The vasculitides tested here are distinguished by cause, target vessel and defining lesion. Polyarteritis nodosa is an immune-mediated (immune-complex, ~30% hepatitis-B–associated) necrotising vasculitis of small and medium muscular arteries whose defining lesion is transmural fibrinoid necrosis, producing nodular aneurysms. Buerger's disease (thromboangiitis obliterans) is the smoking-related, segmental thrombosing inflammation of the whole neurovascular bundle (small and medium arteries, veins and nerves) of the limbs in young male smokers; its vessel sequence is intraluminal thrombosis, organisation and recanalisation (ulceration/gangrene are downstream ischaemic consequences, not vessel changes), and it does not affect the coronary arteries or the elderly. Hypersensitivity (leukocytoclastic) vasculitis is an immune-mediated multisystem small-vessel disease of highly vascular tissues that is not complicated by a mycotic (infective) aneurysm.
+## sections
+### Definition
+This article groups the blood-vessel/vasculitis concepts tested by Q38-47 of the paper; each linked concept carries one atomic claim about the cause, target vessels or defining lesion of polyarteritis nodosa, Buerger's disease and hypersensitivity vasculitis.
+### Mechanism
+Polyarteritis nodosa is immune-complex (type III) mediated with transmural fibrinoid necrosis; Buerger's disease is a smoking-driven segmental thrombosing inflammation of the neurovascular bundle; hypersensitivity vasculitis is immune-complex small-vessel injury of highly vascular organs.
+### Key determinants
+Discriminators tested here: PAN is immune-mediated (not a direct infection or classic autoimmune) with fibrinoid necrosis as its hallmark; Buerger's is the smoking-associated vasculitis of young male smokers, affects small/medium arteries + veins + nerves, shows thrombosis→organisation→recanalisation (not ulceration), and is painful and limb-limited (not coronary); hypersensitivity vasculitis is immune-mediated and multisystem but is not complicated by a mycotic aneurysm.
+### Clinical significance
+These facts underlie the diagnosis of limb ischaemia in a young smoker (Buerger's), the recognition of a hepatitis-B–associated necrotising arteritis (PAN), and the interpretation of small-vessel leukocytoclastic vasculitis in skin/kidney/gut.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversals the distractors exploit (Buerger's in the elderly, ulceration as a vessel change, a mycotic aneurysm as a hypersensitivity feature).
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels
+## subtopic
+Vasculitis
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 systemic pathology
+## high_yield
+Core
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## related_concepts
+CON-CVS-8DE1BE845765C7
+CON-CVS-127A45A3338C04
+CON-CVS-70AF7D79AC6C2A
+CON-CVS-106985273650DA
+CON-CVS-9CF2A14EB414DC
+CON-CVS-7BD75BA0B13D94
+CON-CVS-90BE947F33FD19
+CON-CVS-B8AEE0A4917D45
+## related_articles
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (render-verified pp.9-10 / printed 8-9).
+## reading_time
+7
+
+---

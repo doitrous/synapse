@@ -1,0 +1,214 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-blood-vessels",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — BLOOD VESSELS / vasculitis section (Q38-47), authored from the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; render-verified pp.9-10 (printed 8-9) at 170 dpi — all single red-text, 0 excluded. Detector over-flagged Q38 (B,D), Q39 (B,D), Q40 (A,D) and missed the rest; render is authoritative and every key resolves to a single red option.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-BLOOD-VESSELS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Blood Vessels section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Blood vessels",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 8,
+    "field_notes": { "keySource": "red-text option; render-verified pp.9-10 (printed 8-9) at 170 dpi — detector unreliable on this page, eye-adjudicated" }
+  },
+  "questions": [
+    {
+      "key": "q38", "id": "QST-KASR310PAT-ABOLMAGD-38",
+      "title": "Cause of polyarteritis nodosa",
+      "question": "Polyarteritis nodosa is due to:",
+      "options": { "A": "Infection", "B": "Autoimmune reaction", "C": "Unknown cause", "D": "Immune-mediated reaction" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Polyarteritis nodosa is not a direct infection of the arterial wall; although about a third of cases are associated with hepatitis B, the vessel damage is caused by the immune response, not by organisms infecting the wall.",
+        "B": "Incorrect (per this source). ‘Autoimmune’ implies autoantibodies directed against self antigens; classic polyarteritis nodosa is ANCA-negative and is better described as immune-COMPLEX mediated rather than a classic autoantibody autoimmune disease, so the source separates it from ‘autoimmune reaction’.",
+        "C": "Incorrect (per this source). Although many cases are idiopathic, the source specifies an identifiable IMMUNE-mediated mechanism rather than ‘unknown cause’, so this is not the keyed answer.",
+        "D": "Correct. Polyarteritis nodosa is a necrotising vasculitis of small and medium muscular arteries caused by an IMMUNE-MEDIATED (immune-complex) reaction — classically deposition of circulating immune complexes (notably HBsAg–antibody complexes in the ~30% of cases linked to hepatitis B) in the vessel wall, triggering complement activation, neutrophil recruitment and fibrinoid necrosis. This immune-complex (type III) mechanism is why it is classed as immune-mediated rather than a direct infection or a classic autoantibody autoimmune disease."
+      },
+      "main_concept": "CON-CVS-8DE1BE845765C7", "concept_ids": ["CON-CVS-8DE1BE845765C7"],
+      "subtopic": "Vasculitis",
+      "author_notes": "Source keys D (immune-mediated) over C (unknown) and B (autoimmune). Classic PAN is idiopathic in most cases but immune-complex/HBV-associated in ~30%; explanation authored to the printed key with that nuance.",
+      "learning_objective": "State that polyarteritis nodosa is an immune-mediated (immune-complex) necrotising vasculitis, distinct from a direct infection or classic autoimmune disease.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Polyarteritis nodosa"
+    },
+    {
+      "key": "q39", "id": "QST-KASR310PAT-ABOLMAGD-39",
+      "title": "Most important pathologic feature of polyarteritis nodosa",
+      "question": "The most important pathologic feature of polyarteritis nodosa is:",
+      "options": { "A": "Hyalinosis", "B": "Fibrinoid necrosis", "C": "Elastosis", "D": "Fibrosis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hyalinosis (hyaline arteriolosclerosis) is the small-vessel lesion of benign hypertension and diabetes, not the defining feature of polyarteritis nodosa.",
+        "B": "Correct. The defining pathologic feature of polyarteritis nodosa is transmural FIBRINOID NECROSIS of the wall of small and medium muscular arteries, with a mixed inflammatory infiltrate. Segments of the artery undergo acute necrotising inflammation in which fibrin and plasma proteins deposit in the necrotic wall (fibrinoid necrosis), weakening it and producing the small nodular aneurysms that name the disease. Different segments show lesions of different ages, and healing leads to fibrosis — but the hallmark acute lesion is fibrinoid necrosis.",
+        "C": "Incorrect. Elastosis (elastic-tissue reduplication) is a chronic adaptive change of hypertension, not the lesion of polyarteritis nodosa.",
+        "D": "Incorrect. Fibrosis is the healed/late change of a resolved lesion; it is not the most important (defining) acute feature, which is fibrinoid necrosis."
+      },
+      "main_concept": "CON-CVS-127A45A3338C04", "concept_ids": ["CON-CVS-127A45A3338C04"],
+      "contextual_concept_ids": ["CON-CVS-8DE1BE845765C7"],
+      "subtopic": "Vasculitis",
+      "learning_objective": "Identify transmural fibrinoid necrosis of the arterial wall as the defining pathologic feature of polyarteritis nodosa.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Polyarteritis nodosa"
+    },
+    {
+      "key": "q40", "id": "QST-KASR310PAT-ABOLMAGD-40",
+      "title": "Vascular disease directly related to smoking",
+      "question": "Which of the following diseases is directly related to smoking:",
+      "options": { "A": "Buerger's disease", "B": "Raynaud's disease", "C": "Dissecting aneurysm", "D": "Varicocele" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. BUERGER'S DISEASE (thromboangiitis obliterans) is directly and strongly related to smoking: it occurs almost exclusively in cigarette smokers, and continued smoking drives the disease while cessation halts its progression. It is a segmental thrombosing inflammation of the small and medium arteries and veins of the limbs in young male smokers. The tight, dose-related link to tobacco is the single most characteristic aetiological fact about the disease.",
+        "B": "Incorrect. Raynaud's disease is episodic vasospasm of the digits provoked by cold or emotion; it is not directly caused by smoking.",
+        "C": "Incorrect. A dissecting aneurysm relates to hypertension and to medial degeneration (e.g. cystic medial necrosis, Marfan), not directly to smoking.",
+        "D": "Incorrect. A varicocele is dilatation of the pampiniform venous plexus of the scrotum, unrelated to smoking."
+      },
+      "main_concept": "CON-CVS-70AF7D79AC6C2A", "concept_ids": ["CON-CVS-70AF7D79AC6C2A"],
+      "subtopic": "Vasculitis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Recognise Buerger's disease (thromboangiitis obliterans) as the vascular disease directly related to smoking.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q41", "id": "QST-KASR310PAT-ABOLMAGD-41",
+      "title": "Vessels affected by Buerger's disease",
+      "question": "Buerger's disease affects:",
+      "options": { "A": "Medium-sized arteries", "B": "Veins", "C": "Small arteries", "D": "All of the above" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer. Medium-sized arteries (e.g. tibial, radial) are involved, but they are not the only vessels affected.",
+        "B": "Incorrect as the single answer. Veins are involved (a migratory superficial thrombophlebitis is characteristic), but not exclusively.",
+        "C": "Incorrect as the single answer. Small arteries are involved, but not exclusively.",
+        "D": "Correct. Buerger's disease (thromboangiitis obliterans) is a segmental thrombosing inflammation that affects the SMALL and MEDIUM arteries AND the veins (and often the adjacent nerves) of the extremities — so ‘all of the above’ is correct. The inflammation typically involves the whole neurovascular bundle of the distal limbs, which is why arteries, veins and nerves are affected together. This multi-vessel, neurovascular involvement distinguishes it from a pure arterial disease."
+      },
+      "main_concept": "CON-CVS-106985273650DA", "concept_ids": ["CON-CVS-106985273650DA"],
+      "subtopic": "Vasculitis",
+      "learning_objective": "State that Buerger's disease affects small and medium arteries and veins (and nerves) of the extremities.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q42", "id": "QST-KASR310PAT-ABOLMAGD-42",
+      "title": "Feature not true of Buerger's disease (affects those over 60)",
+      "question": "All are characters of Buerger's disease except:",
+      "options": { "A": "Often causes thrombosis in tibial arteries", "B": "Is associated with cigarette smoking", "C": "Usually affects those older than 60 years", "D": "Has an increased incidence in male individuals" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a character). Buerger's disease characteristically causes segmental thrombosis of the distal limb arteries, including the tibial and radial arteries.",
+        "B": "Incorrect (this IS a character). It is strongly associated with cigarette smoking, occurring almost exclusively in smokers.",
+        "C": "Correct. This statement is FALSE, so it is the exception: Buerger's disease characteristically affects YOUNG adults (typically men under 40–45 years), NOT people older than 60. Onset in a young heavy smoker is a defining clinical feature, and disease beginning after 60 would point instead to atherosclerotic peripheral vascular disease. Stating that it usually affects those over 60 reverses its young age of onset, which is the trap here.",
+        "D": "Incorrect (this IS a character). Buerger's disease has a marked male predominance."
+      },
+      "main_concept": "CON-CVS-9CF2A14EB414DC", "concept_ids": ["CON-CVS-9CF2A14EB414DC"],
+      "contextual_concept_ids": ["CON-CVS-70AF7D79AC6C2A"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "learning_objective": "List the clinical characters of Buerger's disease (young male smoker, distal limb artery thrombosis) and recognise that it does not affect those over 60.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q43", "id": "QST-KASR310PAT-ABOLMAGD-43",
+      "title": "True statement about thromboangiitis obliterans",
+      "question": "In thromboangitis obliterans:",
+      "options": { "A": "Smoking is not a predisposing factor", "B": "Accompanied by intraluminal thrombosis in vessel wall", "C": "Occurs in large sized arteries mainly", "D": "Complicated with sudden death" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Smoking IS the key predisposing factor for thromboangiitis obliterans; the disease occurs almost exclusively in smokers.",
+        "B": "Correct. Thromboangiitis obliterans is a segmental thrombosing vasculitis: the inflamed arterial (and venous) segments are occluded by INTRALUMINAL THROMBOSIS, often containing small microabscesses, superimposed on the inflamed wall. This luminal thrombosis is what produces the ischaemia and the ‘obliterans’ (obliterating) name. The thrombus then tends to organise and recanalise over time.",
+        "C": "Incorrect. It occurs mainly in SMALL and MEDIUM arteries (and veins) of the extremities, not large arteries.",
+        "D": "Incorrect. Its complications are distal limb ischaemia, ulceration and gangrene, not sudden death."
+      },
+      "main_concept": "CON-CVS-7BD75BA0B13D94", "concept_ids": ["CON-CVS-7BD75BA0B13D94"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "learning_objective": "Recognise thromboangiitis obliterans as a smoking-related segmental thrombosing vasculitis of small/medium limb vessels with intraluminal thrombosis.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q44", "id": "QST-KASR310PAT-ABOLMAGD-44",
+      "title": "Change not characteristic of Buerger's disease (ulceration)",
+      "question": "Buerger's disease is not characterized by:",
+      "options": { "A": "Thrombosis", "B": "Organization", "C": "Recanalization", "D": "Ulceration" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS characteristic). Segmental intraluminal THROMBOSIS of the inflamed vessels is a hallmark of the disease.",
+        "B": "Incorrect (this IS characteristic). The occluding thrombus undergoes ORGANISATION (ingrowth of granulation tissue) as part of the natural history.",
+        "C": "Incorrect (this IS characteristic). The organised thrombus may partially RECANALISE, restoring small channels through the occluded segment.",
+        "D": "Correct. ULCERATION is not part of the vascular pathological sequence of Buerger's disease. The vessel changes are thrombosis → organisation → recanalisation of the inflamed segments; skin ulceration and gangrene are downstream ISCHAEMIC clinical consequences of the arterial occlusion, not a characteristic of the vessel lesion itself. The question asks about the vascular characterisation, where thrombosis, organisation and recanalisation belong and ulceration does not."
+      },
+      "main_concept": "CON-CVS-90BE947F33FD19", "concept_ids": ["CON-CVS-90BE947F33FD19"],
+      "contextual_concept_ids": ["CON-CVS-7BD75BA0B13D94"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "learning_objective": "State that the vessel changes of Buerger's disease are thrombosis, organisation and recanalisation, not ulceration (a downstream ischaemic complication).",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q45", "id": "QST-KASR310PAT-ABOLMAGD-45",
+      "title": "Definition of thromboangiitis obliterans",
+      "question": "Thromboangitis obliterans (Buerger's disease):",
+      "options": { "A": "A segmental, inflammatory disease of neurovascular bundle.", "B": "Affects the coronary arteries.", "C": "It occurs almost exclusively in alcoholics.", "D": "Painless disease mainly affect legs." },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Thromboangiitis obliterans (Buerger's disease) is a SEGMENTAL, INFLAMMATORY thrombosing disease that involves the whole NEUROVASCULAR BUNDLE — the small and medium arteries, the accompanying veins and the adjacent nerves — of the distal limbs. The segmental (skip) pattern and the involvement of the entire neurovascular bundle (which is why the pain is prominent) are its defining features, occurring in young male smokers.",
+        "B": "Incorrect. It affects the peripheral limb vessels, not the coronary arteries.",
+        "C": "Incorrect. It occurs almost exclusively in SMOKERS, not alcoholics.",
+        "D": "Incorrect. It is a notably PAINFUL disease (from nerve involvement and ischaemia), not painless, though it does mainly affect the legs."
+      },
+      "main_concept": "CON-CVS-7BD75BA0B13D94", "concept_ids": ["CON-CVS-7BD75BA0B13D94"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "learning_objective": "Define thromboangiitis obliterans as a segmental inflammatory thrombosing disease of the neurovascular bundle of the limbs in young smokers.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    },
+    {
+      "key": "q46", "id": "QST-KASR310PAT-ABOLMAGD-46",
+      "title": "Not a feature of hypersensitivity vasculitis (mycotic aneurysm)",
+      "question": "Which of the following Is Not a feature of hypersensitivity vasculitis:",
+      "options": { "A": "They are immune mediated diseases", "B": "They may be complicated by Mycotic aneurysm", "C": "They are Multisystem diseases", "D": "They are affecting highly vascular tissues" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS a feature). Hypersensitivity (leukocytoclastic) vasculitis is an immune-mediated small-vessel disease, typically from immune-complex deposition.",
+        "B": "Correct. This is NOT a feature, so it is the answer: a MYCOTIC aneurysm is an INFECTIVE weakening of the arterial wall (classically from septic emboli in infective endocarditis), a complication of infection — not of the sterile immune-complex injury of hypersensitivity vasculitis. Hypersensitivity vasculitis affects small vessels of many highly vascular organs (skin, kidney, gut) as a multisystem immune-mediated process, but it does not produce mycotic aneurysms. Attaching an infective mycotic aneurysm to an immune-mediated small-vessel vasculitis is the error tested here.",
+        "C": "Incorrect (this IS a feature). Hypersensitivity vasculitis is a multisystem disease, involving small vessels of several organs.",
+        "D": "Incorrect (this IS a feature). It preferentially affects highly vascular tissues (skin, kidney, gastrointestinal tract) where small vessels are abundant."
+      },
+      "main_concept": "CON-CVS-B8AEE0A4917D45", "concept_ids": ["CON-CVS-B8AEE0A4917D45"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "learning_objective": "List the features of hypersensitivity vasculitis (immune-mediated, multisystem, small vessels of highly vascular tissues) and recognise a mycotic aneurysm as an infective, not a hypersensitivity, lesion.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Hypersensitivity vasculitis"
+    },
+    {
+      "key": "q47", "id": "QST-KASR310PAT-ABOLMAGD-47",
+      "title": "Vasculitis highly associated with smoking",
+      "question": "Which of the following types of vasculitis is highly associated with smoking:",
+      "options": { "A": "Hypersensitivity vasculitis.", "B": "Polyarteritis nodosa", "C": "Thromboangitis obliterans vasculitis.", "D": "Systemic lupus vasculitis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hypersensitivity (leukocytoclastic) vasculitis is triggered by drugs, infections or immune complexes, not specifically by smoking.",
+        "B": "Incorrect. Polyarteritis nodosa is an immune-complex necrotising vasculitis (about a third hepatitis-B–associated), not a smoking-related disease.",
+        "C": "Correct. THROMBOANGIITIS OBLITERANS (Buerger's disease) is the vasculitis most highly associated with smoking: it occurs almost exclusively in cigarette smokers, its activity tracks tobacco use, and stopping smoking is the essential treatment. This tight, dose-related link to tobacco is the single most characteristic aetiological feature that separates it from the other vasculitides listed. No other option has this specific smoking association.",
+        "D": "Incorrect. Systemic lupus vasculitis is part of an autoimmune (autoantibody/immune-complex) disease, not a smoking-related vasculitis."
+      },
+      "main_concept": "CON-CVS-70AF7D79AC6C2A", "concept_ids": ["CON-CVS-70AF7D79AC6C2A"],
+      "contextual_concept_ids": ["CON-CVS-B8AEE0A4917D45", "CON-CVS-8DE1BE845765C7"],
+      "subtopic": "Vasculitis",
+      "page": 9,
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify thromboangiitis obliterans (Buerger's disease) as the vasculitis most highly associated with smoking.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Thromboangiitis obliterans"
+    }
+  ]
+}

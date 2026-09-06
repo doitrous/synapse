@@ -5,9 +5,10 @@
 | abolmagd-cvs Hypertension (Q1-18, `Pathology MCQ by Abolmagd [SOLVED].pdf`) | 18 | 0 | 0 | 0 | 18 |
 | abolmagd-cvs Atherosclerosis (Q19-24, same paper) | 6 | 0 | 0 | 0 | 6 |
 | abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 | 6 |
-| abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 (→ Blood Vessels Q38+) | 7 |
-| **abolmagd-cvs cluster total** | **37** | **0** | **0** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 37 | 0 | 0 | untriaged | — |
+| abolmagd-cvs Atherosclerosis-3 (Q31-37, same paper) | 7 | 0 | 0 | 0 | 7 |
+| abolmagd-cvs Blood Vessels (Q38-47, same paper) | 10 | 0 | 0 | 0 (→ p.11+ Endocarditis) | 10 |
+| **abolmagd-cvs cluster total** | **47** | **0** | **0** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 47 | 0 | 0 | untriaged | — |
 
 ## Module opened
 
@@ -100,9 +101,29 @@ collision-checked — no collisions. All added to `ART-CVS-310PAT-ATHEROSCLEROSI
 28/0, article 2/0; simulate created=44/rejected=0/errors=0; audit neutral vs the 310-PAT baseline —
 same categories, error count scales linearly with concept count).
 
+## Cluster — abolmagd-cvs-blood-vessels (Q38-47)
+
+10/10 authored (Q38-47, pp.9-10 / printed 8-9), **0 excluded, 0 held**. This opens the paper's
+**BLOOD VESSELS** section (vasculitis). Render-adjudicated pp.9-10 at 170 dpi: detector over-flagged
+Q38 (B,D), Q39 (B,D), Q40 (A,D) and missed the rest, but every key is a single red option — Q38.d,
+Q39.b, Q40.a, Q41.d, Q42.c, Q43.b, Q44.d, Q45.a, Q46.b, Q47.c — all medically sound. **8 new concepts
+minted** (PAN etiology/Q38, PAN fibrinoid-necrosis/Q39, Buerger smoking/Q40+Q47, Buerger vessels/Q41,
+Buerger clinical-features/Q42, Buerger nature/Q43+Q45, Buerger thrombus-org-recanalization/Q44,
+hypersensitivity-vasculitis features/Q46), university-blind, collision-checked — no collisions; Q47
+reuses the Buerger-smoking concept and Q45 reuses the Buerger-nature concept. Grouped into a **new
+library article `ART-CVS-310PAT-BLOOD-VESSELS`** (cross-linked to the atherosclerosis article). Note
+on Q38: source keys D (immune-mediated) over C (unknown cause); classic PAN is idiopathic in most
+cases but immune-complex/HBV-associated in ~30% — authored to the printed key with that nuance in the
+explanation and concept `uncertainty`. Note on Q44: ulceration is keyed as NOT a Buerger vessel change
+(the vessel sequence is thrombosis→organisation→recanalisation; ulceration/gangrene is a downstream
+ischaemic consequence). Files: `question/310-PAT-abolmagd-blood-vessels-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-blood-vessels.json`. **Gate-clean** (question 10/0, concept 36/0,
+article 3/0; simulate created=63/rejected=0/errors=0; audit neutral vs the 310-PAT baseline — the new
+article and all 8 concepts sit only under the pre-existing placeholder categories, no new error category).
+
 ## Next cluster
 
-**Remaining on this paper:** Blood Vessels (Q38+, p.9+),
+**Remaining on this paper:** the rest of Blood Vessels / Endocarditis onward (p.11+),
 Endocarditis (p.13+), Ischemia (p.17+), Heart Diseases (p.19+), the 2008-2015 MCQ set (p.24+), and
 Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
