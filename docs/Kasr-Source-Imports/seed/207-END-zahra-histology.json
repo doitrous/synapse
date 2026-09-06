@@ -207,6 +207,197 @@
    "module_subject": "207 END > Histology > Anterior pituitary",
    "learning_objective": "Identify MSH as the secretory product of the pars intermedia.",
    "field_notes": { "keySource": "printed p.11 answer table (Department Q10 = c)", "kasr": "Dr Zahra histology bank, Endocrine section p.5 (Department MCQ set)" }
+  },
+  {
+   "key": "zq17",
+   "id": "QST-KASR207END-ZAHRAHIS-008",
+   "page": "Endocrine p.3 (Dr Zahra Q17)",
+   "title": "Role of lysosomes in thyroid follicular cells",
+   "question": "In follicular cells of the thyroid gland, lysosomes are essential because their enzymes carry out:",
+   "options": {
+    "A": "Synthesis of thyroglobulin",
+    "B": "Iodination of thyroglobulin",
+    "C": "Hydrolysis of thyroglobulin",
+    "D": "Iodide trapping"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Thyroglobulin is synthesised on the rough endoplasmic reticulum and Golgi apparatus, not by lysosomes.",
+    "B": "Incorrect. Iodination of thyroglobulin occurs extracellularly at the apical membrane in the follicular lumen (colloid), catalysed by thyroid peroxidase, not by lysosomal enzymes.",
+    "C": "Correct. To release hormone, follicular cells endocytose iodinated thyroglobulin from the colloid, and the colloid droplets fuse with lysosomes whose proteolytic enzymes hydrolyse thyroglobulin. This proteolysis liberates free T3 and T4, which then diffuse into the blood, so lysosomes are essential for hormone release.",
+    "D": "Incorrect. Iodide trapping is performed by the basal sodium-iodide symporter of the follicular cell membrane, not by lysosomes."
+   },
+   "main_concept": "CON-END-7E58CEA0994352",
+   "concept_ids": ["CON-END-7E58CEA0994352"],
+   "subtopic": "Thyroid gland",
+   "module_subject": "207 END > Histology > Thyroid gland",
+   "library_ids": ["ART-END-207END-ZAHRA-THYROID-PARATHYROID-HISTOLOGY"],
+   "learning_objective": "Explain that follicular-cell lysosomes hydrolyse thyroglobulin to release T3 and T4.",
+   "field_notes": { "keySource": "printed p.11 answer table (Dr Zahra Q17 = c)", "kasr": "Dr Zahra histology bank, Endocrine section p.3" }
+  },
+  {
+   "key": "zq19",
+   "id": "QST-KASR207END-ZAHRAHIS-009",
+   "page": "Endocrine p.3 (Dr Zahra Q19)",
+   "title": "Features of parathyroid oxyphil cells",
+   "question": "Oxyphil cells of the parathyroid gland are characterised by the following EXCEPT:",
+   "options": {
+    "A": "Few in number and large in size",
+    "B": "Strongly basophilic",
+    "C": "They represent degenerated chief cells",
+    "D": "Increase with age"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Oxyphil cells are indeed few in number and larger than the chief cells, so this is a true feature, not the exception.",
+    "B": "Correct. Oxyphil cells have a cytoplasm packed with mitochondria, which makes them strongly acidophilic (eosinophilic), not basophilic. Describing them as strongly basophilic is therefore the false statement and the required exception.",
+    "C": "Incorrect. Oxyphils are generally regarded as degenerated or inactive chief cells, so this is a true feature.",
+    "D": "Incorrect. Oxyphil cells appear around puberty and increase in number with age, so this is a true feature."
+   },
+   "main_concept": "CON-END-BC72B1F210A20F",
+   "concept_ids": ["CON-END-BC72B1F210A20F"],
+   "subtopic": "Parathyroid gland",
+   "module_subject": "207 END > Histology > Parathyroid gland",
+   "library_ids": ["ART-END-207END-ZAHRA-THYROID-PARATHYROID-HISTOLOGY"],
+   "learning_objective": "Describe parathyroid oxyphil cells as large, few, acidophilic and age-related.",
+   "field_notes": { "keySource": "printed p.11 answer table (Dr Zahra Q19 = b)", "kasr": "Dr Zahra histology bank, Endocrine section p.3" }
+  },
+  {
+   "key": "zq26",
+   "id": "QST-KASR207END-ZAHRAHIS-010",
+   "page": "Endocrine p.3 (Dr Zahra Q26)",
+   "title": "Cells of the adrenal medulla",
+   "question": "The cells of the adrenal medulla are:",
+   "options": {
+    "A": "Chromaffin cells",
+    "B": "Sympathetic ganglion cells",
+    "C": "Glial cells",
+    "D": "Both A and B"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect as a sole answer. Chromaffin cells are the principal cells, but they are not the only neural cells present in the medulla.",
+    "B": "Incorrect as a sole answer. Sympathetic ganglion cells are present but scattered; they are not the whole cellular composition.",
+    "C": "Incorrect. The adrenal medulla is a modified sympathetic ganglion and does not consist of glial cells.",
+    "D": "Correct. The adrenal medulla is a modified sympathetic ganglion, so its principal cells are the chromaffin cells, modified postganglionic sympathetic neurons that store catecholamines and give the chromaffin reaction. Scattered among them are true sympathetic ganglion cells. Both populations are therefore present, which makes the combined choice the single best answer."
+   },
+   "main_concept": "CON-END-EBFCE669C7A4B6",
+   "concept_ids": ["CON-END-EBFCE669C7A4B6"],
+   "subtopic": "Adrenal gland",
+   "module_subject": "207 END > Histology > Adrenal gland",
+   "library_ids": ["ART-END-207END-ZAHRA-ADRENAL-HISTOLOGY"],
+   "learning_objective": "Identify the two neural cell populations of the adrenal medulla.",
+   "field_notes": { "keySource": "printed p.11 answer table (Dr Zahra Q26 = d)", "kasr": "Dr Zahra histology bank, Endocrine section p.3" }
+  },
+  {
+   "key": "dq21",
+   "id": "QST-KASR207END-ZAHRAHIS-011",
+   "page": "Endocrine p.5 (Department Q21)",
+   "title": "Regulation and nature of mineralocorticoids",
+   "question": "Mineralocorticoids are:",
+   "options": {
+    "A": "Regulated by angiotensin II",
+    "B": "Secreted from the zona fasciculata",
+    "C": "Regulating carbohydrate metabolism",
+    "D": "Protein in nature"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Mineralocorticoids, chiefly aldosterone, are steroid hormones made in the zona glomerulosa of the adrenal cortex. Their secretion is controlled mainly by the renin-angiotensin system, in which angiotensin II stimulates the glomerulosa to release aldosterone. A rise in plasma potassium acts as a second stimulus, whereas ACTH plays only a minor permissive role here.",
+    "B": "Incorrect. Mineralocorticoids are secreted from the zona glomerulosa; the zona fasciculata secretes glucocorticoids.",
+    "C": "Incorrect. Regulation of carbohydrate metabolism is a glucocorticoid (cortisol) action; mineralocorticoids regulate sodium, potassium and water balance.",
+    "D": "Incorrect. Mineralocorticoids are steroid hormones derived from cholesterol, not proteins."
+   },
+   "main_concept": "CON-END-10DED90CDA32C8",
+   "concept_ids": ["CON-END-10DED90CDA32C8"],
+   "subtopic": "Adrenal gland",
+   "module_subject": "207 END > Histology > Adrenal gland",
+   "library_ids": ["ART-END-207END-ZAHRA-ADRENAL-HISTOLOGY"],
+   "learning_objective": "State that angiotensin II is the main regulator of mineralocorticoid secretion.",
+   "field_notes": { "keySource": "printed p.11 answer table (Department Q21 = a)", "kasr": "Dr Zahra histology bank, Endocrine section p.5 (Department MCQ set)" }
+  },
+  {
+   "key": "dq31",
+   "id": "QST-KASR207END-ZAHRAHIS-012",
+   "page": "Endocrine p.6 (Department Q31)",
+   "title": "Composition of paraganglia",
+   "question": "Paraganglia are aggregates of:",
+   "options": {
+    "A": "Chromaffin cells",
+    "B": "Zona reticularis cells",
+    "C": "Zona fasciculata cells",
+    "D": "Zona glomerulosa cells"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Paraganglia are small collections of chromaffin cells located outside the adrenal medulla, alongside the sympathetic chain and autonomic plexuses. A well-known example is the para-aortic bodies of Zuckerkandl. Like the medullary cells they are neural-crest-derived and store catecholamines, which is why they are chromaffin rather than cortical aggregates.",
+    "B": "Incorrect. Zona reticularis cells are steroid-secreting cortical cells, not the chromaffin cells that form paraganglia.",
+    "C": "Incorrect. Zona fasciculata cells are cortical glucocorticoid-secreting cells, not chromaffin cells.",
+    "D": "Incorrect. Zona glomerulosa cells are cortical mineralocorticoid-secreting cells, not chromaffin cells."
+   },
+   "main_concept": "CON-END-C38FC5EA7C5CB7",
+   "concept_ids": ["CON-END-C38FC5EA7C5CB7"],
+   "subtopic": "Adrenal gland",
+   "module_subject": "207 END > Histology > Adrenal gland",
+   "library_ids": ["ART-END-207END-ZAHRA-ADRENAL-HISTOLOGY"],
+   "learning_objective": "Define paraganglia as extra-adrenal aggregates of chromaffin cells.",
+   "field_notes": { "keySource": "printed p.11 answer table (Department Q31 = a)", "kasr": "Dr Zahra histology bank, Endocrine section p.6 (Department MCQ set)" }
+  },
+  {
+   "key": "zq28",
+   "id": "QST-KASR207END-ZAHRAHIS-013",
+   "page": "Endocrine p.3 (Dr Zahra Q28)",
+   "title": "Secretions of pinealocytes",
+   "question": "Regarding pinealocytes:",
+   "options": {
+    "A": "Secrete melatonin at night",
+    "B": "Secrete serotonin during the daylight",
+    "C": "Resemble astrocytes",
+    "D": "Choices A and B",
+    "E": "Choices A and C"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect as a sole answer. Pinealocytes do secrete melatonin at night, but this is only part of the correct combination.",
+    "B": "Incorrect as a sole answer. Pinealocytes do secrete serotonin during daylight, but this is only part of the correct combination.",
+    "C": "Incorrect. The supporting interstitial (glial) cells of the pineal resemble astrocytes; the pinealocytes themselves are the neuroendocrine secretory cells, so this statement does not describe pinealocytes.",
+    "D": "Correct. Pinealocyte secretion follows the light-dark cycle. Melatonin is released during darkness at night, while its precursor serotonin predominates during daylight. Both statements A and B are therefore true, which makes the combined choice the single best answer.",
+    "E": "Incorrect. This pairs the true melatonin statement with the false 'resemble astrocytes' statement, so it is wrong."
+   },
+   "main_concept": "CON-END-C550F20753124E",
+   "concept_ids": ["CON-END-C550F20753124E"],
+   "subtopic": "Pineal gland",
+   "module_subject": "207 END > Histology > Pineal gland",
+   "library_ids": ["ART-END-207END-ZAHRA-PINEAL-HISTOLOGY"],
+   "learning_objective": "State that pinealocytes secrete melatonin at night and serotonin by day.",
+   "field_notes": { "keySource": "printed p.11 answer table (Dr Zahra Q28 = d)", "kasr": "Dr Zahra histology bank, Endocrine section p.3" }
+  },
+  {
+   "key": "zq30",
+   "id": "QST-KASR207END-ZAHRAHIS-014",
+   "page": "Endocrine p.3 (Dr Zahra Q30)",
+   "title": "Brain sand of the pineal gland",
+   "question": "Brain sand (corpora arenacea) of the pineal gland:",
+   "options": {
+    "A": "Is found only in the diseased pineal body",
+    "B": "Serves as a landmark for radiologists",
+    "C": "Is intensely acidophilic",
+    "D": "Decreases in size throughout life"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Corpora arenacea are a normal, age-related accumulation of calcified concretions, not a marker of pineal disease.",
+    "B": "Correct. Corpora arenacea are calcified, radio-opaque concretions that accumulate in the midline pineal gland. Because they show up on skull radiographs and CT, they serve as a useful landmark. A shift of this calcified pineal from the midline signals a space-occupying lesion, which is the classic clinical use.",
+    "C": "Incorrect. Corpora arenacea are calcified (mineralised) concretions that stain with haematoxylin (basophilic), not intensely acidophilic.",
+    "D": "Incorrect. Brain sand accumulates and increases with age rather than decreasing throughout life."
+   },
+   "main_concept": "CON-END-F0DBA9DC372C66",
+   "concept_ids": ["CON-END-F0DBA9DC372C66"],
+   "subtopic": "Pineal gland",
+   "module_subject": "207 END > Histology > Pineal gland",
+   "library_ids": ["ART-END-207END-ZAHRA-PINEAL-HISTOLOGY"],
+   "learning_objective": "Recognise corpora arenacea as calcified pineal bodies used as a midline radiological landmark.",
+   "field_notes": { "keySource": "printed p.11 answer table (Dr Zahra Q30 = b)", "kasr": "Dr Zahra histology bank, Endocrine section p.3" }
   }
  ]
 }
