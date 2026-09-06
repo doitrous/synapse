@@ -746,3 +746,1064 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-4
+## title
+Correct statement regarding relapsing fever
+## question
+Which statement regarding relapsing fever is CORRECT?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+The causative agent can be detected by Giemsa stain.
+## explanation_a
+Correct. In relapsing fever the Borrelia spirochaetes circulate in the blood during febrile episodes and are demonstrated as loose spirals on a Giemsa- (or Wright-) stained peripheral blood film.
+## answer_b
+The disease is caused by Borrelia burgdorferi.
+## explanation_b
+Incorrect. Borrelia burgdorferi causes Lyme disease, not relapsing fever, which is caused by B. recurrentis (louse-borne) and B. duttonii/hermsii (tick-borne).
+## answer_c
+The endemic form of the disease is transmitted by body louse.
+## explanation_c
+Incorrect. The endemic form is transmitted by soft ticks; it is the epidemic form that is transmitted by the body louse.
+## answer_d
+The treatment of choice is penicillin.
+## explanation_d
+Incorrect. The treatment of choice is a tetracycline (e.g. doxycycline); penicillin is not the drug of choice and its use may precipitate a Jarisch-Herxheimer reaction.
+## topic
+Microbiology
+## subtopic
+Spirochaetes
+## main_concept
+CON-INF-FF26FB884868D3
+## concept_ids
+CON-INF-FF26FB884868D3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.55
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+60
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Spirochaetes
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Recognise that relapsing-fever Borrelia are detected on a Giemsa-stained blood film.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q4 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-5
+## title
+Laboratory test for Malta fever (brucellosis)
+## question
+Which laboratory test is used for diagnosis of Malta fever (brucellosis)?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Monospot test.
+## explanation_a
+Incorrect. The Monospot test detects heterophil antibodies and is used for EBV infectious mononucleosis, not brucellosis.
+## answer_b
+Standard tube agglutination.
+## explanation_b
+Correct. Brucellosis is diagnosed serologically by the standard (serum) tube agglutination test, which detects agglutinating antibodies to Brucella - important because the organism is intracellular and often blood-culture negative.
+## answer_c
+Western blot.
+## explanation_c
+Incorrect. Western blot is a confirmatory test for HIV infection, not for brucellosis.
+## answer_d
+Widal test.
+## explanation_d
+Incorrect. The Widal test detects antibodies to Salmonella Typhi and is used for enteric fever, not brucellosis.
+## topic
+Microbiology
+## subtopic
+Brucella
+## main_concept
+CON-INF-20B293F824F143
+## concept_ids
+CON-INF-20B293F824F143
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Brucella
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify the standard tube agglutination test as the diagnostic test for brucellosis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q5 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-20
+## title
+Disease prevented by TAB vaccine
+## question
+Which disease can be prevented by using TAB vaccine?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Brucellosis
+## explanation_a
+Incorrect. There is no routine TAB-type vaccine for brucellosis; prevention relies on animal control and pasteurisation.
+## answer_b
+Enteric fever
+## explanation_b
+Correct. TAB is a killed vaccine containing Salmonella Typhi and Salmonella Paratyphi A and B; it protects against enteric (typhoid and paratyphoid) fever.
+## answer_c
+Glandular fever
+## explanation_c
+Incorrect. Glandular fever (EBV infectious mononucleosis) has no such vaccine.
+## answer_d
+Lyme disease
+## explanation_d
+Incorrect. Lyme disease is not prevented by the TAB vaccine.
+## topic
+Microbiology
+## subtopic
+Enterobacteriaceae
+## main_concept
+CON-INF-D32CC56B46DB6B
+## concept_ids
+CON-INF-D32CC56B46DB6B
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Enterobacteriaceae (Salmonella)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that the TAB vaccine prevents enteric (typhoid/paratyphoid) fever.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q20 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-21
+## title
+Mode of transmission of Borrelia
+## question
+Human infection with Borrelia occurs by which mode of transmission?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Contact with infected animals
+## explanation_a
+Incorrect. Direct animal contact is the route for zoonoses such as brucellosis, not for Borrelia.
+## answer_b
+Ingestion of contaminated meat
+## explanation_b
+Incorrect. Ingestion of contaminated meat transmits organisms such as some Salmonella or tapeworms, not Borrelia.
+## answer_c
+Inhalation of infected aerosols
+## explanation_c
+Incorrect. Aerosol inhalation is the route for respiratory pathogens; Borrelia is not airborne.
+## answer_d
+Tick and louse bites
+## explanation_d
+Correct. Borrelia are arthropod-borne: relapsing fever is spread by the body louse (epidemic) and soft ticks (endemic), and Lyme disease by hard Ixodes ticks - transmission is by tick and louse bites.
+## topic
+Microbiology
+## subtopic
+Spirochaetes
+## main_concept
+CON-INF-201A1FDA0BAA6C
+## concept_ids
+CON-INF-201A1FDA0BAA6C
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Spirochaetes
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that Borrelia is transmitted by tick and louse bites.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q21 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-23
+## title
+Cause of a false-negative Widal test
+## question
+Which condition could give false-negative Widal test results?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Having an autoimmune disease
+## explanation_a
+Incorrect. Autoimmune disease is not a recognised cause of a false-negative Widal test.
+## answer_b
+Early antibiotic administration
+## explanation_b
+Correct. Early antibiotic treatment aborts the infection before an antibody response develops, so the agglutinating antibodies the Widal test measures are absent - a false-negative result.
+## answer_c
+Following vaccination
+## explanation_c
+Incorrect. Previous vaccination tends to raise the antibody titre and cause false-positives, not false-negatives.
+## answer_d
+Living in an endemic area
+## explanation_d
+Incorrect. Residence in an endemic area raises baseline titres (false-positives), it does not lower them.
+## topic
+Microbiology
+## subtopic
+Enterobacteriaceae
+## main_concept
+CON-INF-96EE4D60F3F987
+## concept_ids
+CON-INF-96EE4D60F3F987
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Enterobacteriaceae (Salmonella)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Explain that early antibiotic therapy causes a false-negative Widal test.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q23 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-27
+## title
+Disease caused by Brucella melitensis
+## question
+Which disease is caused by Brucella melitensis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Glandular fever
+## explanation_a
+Incorrect. Glandular fever (infectious mononucleosis) is caused by Epstein-Barr virus.
+## answer_b
+Lyme disease
+## explanation_b
+Incorrect. Lyme disease is caused by Borrelia burgdorferi.
+## answer_c
+Malta fever
+## explanation_c
+Correct. Brucella melitensis, acquired mainly from goats and sheep, is the classic cause of Malta (undulant) fever - brucellosis.
+## answer_d
+Relapsing fever
+## explanation_d
+Incorrect. Relapsing fever is caused by other Borrelia species (B. recurrentis, B. duttonii/hermsii).
+## topic
+Microbiology
+## subtopic
+Brucella
+## main_concept
+CON-INF-534DF32BE6F023
+## concept_ids
+CON-INF-534DF32BE6F023
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+35
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Brucella
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify Brucella melitensis as the cause of Malta fever.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q27 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-30
+## title
+Disease caused by Salmonella Choleraesuis
+## question
+Which disease is caused by Salmonella Choleraesuis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Food poisoning
+## explanation_a
+Incorrect. Food-poisoning gastroenteritis is caused by other non-typhoidal salmonellae (e.g. S. Enteritidis, S. Typhimurium); S. Choleraesuis characteristically does not cause a localized enterocolitis.
+## answer_b
+Malta fever
+## explanation_b
+Incorrect. Malta fever is brucellosis, caused by Brucella, not by any Salmonella.
+## answer_c
+Septicaemia
+## explanation_c
+Correct. Salmonella Choleraesuis is a highly invasive non-typhoidal Salmonella that characteristically produces septicaemia (bacteraemia) with metastatic focal infection.
+## answer_d
+Typhoid fever
+## explanation_d
+Incorrect. Typhoid (enteric) fever is caused by Salmonella Typhi, not Salmonella Choleraesuis.
+## topic
+Microbiology
+## subtopic
+Enterobacteriaceae
+## main_concept
+CON-INF-37B25CAF61E4F5
+## concept_ids
+CON-INF-37B25CAF61E4F5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Enterobacteriaceae (Salmonella)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that Salmonella Choleraesuis characteristically causes septicaemia.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q30 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-36
+## title
+Correct statement about brucellosis
+## question
+Which statement about brucellosis is CORRECT?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+The main animal reservoirs are small rodents
+## explanation_a
+Incorrect. The main reservoirs are large farm animals - cattle, goats, sheep and pigs - not small rodents.
+## answer_b
+The causative agent is an obligatory intracellular pathogen
+## explanation_b
+Incorrect. Brucella is a facultative intracellular organism; it can survive inside phagocytes but is not an obligate intracellular pathogen.
+## answer_c
+Transmission occurs by ingestion of unpasteurized milk
+## explanation_c
+Correct. Humans acquire brucellosis mainly by ingesting unpasteurized milk and dairy products (and by contact with infected animal tissues).
+## answer_d
+Serology has no value in the diagnosis of brucellosis
+## explanation_d
+Incorrect. Serology, especially the standard tube agglutination test, is a mainstay of diagnosis because the organism is often blood-culture negative.
+## topic
+Microbiology
+## subtopic
+Brucella
+## main_concept
+CON-INF-721B4B441C3DEA
+## concept_ids
+CON-INF-721B4B441C3DEA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Brucella
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that brucellosis is transmitted by ingestion of unpasteurized milk.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q36 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-40
+## title
+Correct statement about Lyme disease
+## question
+Which statement about Lyme disease is CORRECT?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+It is transmitted by fleas' bite
+## explanation_a
+Incorrect. Lyme disease is transmitted by hard Ixodes ticks, not by fleas.
+## answer_b
+It is caused by Borrelia burgdorferi
+## explanation_b
+Correct. Lyme disease is caused by the spirochaete Borrelia burgdorferi, transmitted by Ixodes ticks and typically beginning with the erythema migrans rash.
+## answer_c
+It is characterized by several relapses
+## explanation_c
+Incorrect. Recurring febrile relapses characterise relapsing fever (other Borrelia species); Lyme disease progresses through early and late stages rather than repeated relapses.
+## answer_d
+The causative agent grows on simple media
+## explanation_d
+Incorrect. Borrelia burgdorferi is fastidious and grows only on special (Barbour-Stoenner-Kelly) media, not on simple media.
+## topic
+Microbiology
+## subtopic
+Spirochaetes
+## main_concept
+CON-INF-78BFFE0BC33982
+## concept_ids
+CON-INF-78BFFE0BC33982
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Spirochaetes
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify Borrelia burgdorferi as the cause of Lyme disease.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q40 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-63
+## title
+Anti-phagocytic bacterial enzyme
+## question
+Which of the following enzymes is antiphagocytic?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Coagulase
+## explanation_a
+Correct. Coagulase (of Staphylococcus aureus) converts fibrinogen to fibrin, coating the organism and walling off the focus; this fibrin coat resists opsonisation and phagocytosis, making coagulase the anti-phagocytic enzyme.
+## answer_b
+Collagenase
+## explanation_b
+Incorrect. Collagenase breaks down connective-tissue collagen and promotes bacterial spread; it is not anti-phagocytic.
+## answer_c
+Deoxyribonuclease
+## explanation_c
+Incorrect. Deoxyribonuclease depolymerises DNA in pus, lowering viscosity and aiding spread; it is not anti-phagocytic.
+## answer_d
+Hyaluronidase
+## explanation_d
+Incorrect. Hyaluronidase (spreading factor) hydrolyses hyaluronic acid in connective tissue to promote invasion; it is not anti-phagocytic.
+## topic
+Microbiology
+## subtopic
+Staphylococci
+## main_concept
+CON-INF-E19FF2F6F3F26B
+## concept_ids
+CON-INF-E19FF2F6F3F26B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Staphylococci
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify coagulase as the anti-phagocytic bacterial enzyme.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q63 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
