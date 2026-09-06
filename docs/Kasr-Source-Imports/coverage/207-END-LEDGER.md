@@ -12,9 +12,9 @@
 | galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
 | rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
-| jalal S3 ureter/bladder/urethra (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 10 | 0 | 0 | S3 slice-A fresh set done; S1-2/S4-7 untriaged | ~207 |
-| **207 END module authored (3 EOM + 5 banks)** | **262** | **6** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 262 | 6 | 1 | untriaged | — |
+| jalal S3+S4 urinary/urethra + male genital (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 19 | 0 | 1 | S3+S4 fresh sets done; S1-2/S5-7 untriaged | ~207 |
+| **207 END module authored (3 EOM + 5 banks)** | **271** | **6** | **2** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 271 | 6 | 2 | untriaged | — |
 
 ## Module opened
 
@@ -650,9 +650,28 @@ PRINTED per-section answer-key tables at the BACK of the document (pp.33-34), no
 This lane read them from the native text and authored from them; the evidence note and the manifest
 `solvedStatus`/`extractionDisposition` for src_2a6c0ccf47e9feb287a3 are corrected accordingly.
 
-The 207 END module is now **262 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 +
-RPR 14 + Jalal 10), 6 held, 1 excluded. The **RPR bank** (fresh-exhausted, 14/3, concurrent lane) is
-NOT re-authored by this lane. **Next Jalal slice:** mine S5 (Female genital/rectum/perineum, 86 Qs) and
-S6 (Development, 30 Qs) — the largest still-unmined sections (expect heavy overlap with the exhausted
-Galal repro bank and the RPR pelvis/perineum bank), then S1/S2/S4/S7. 3 department books also remain
-untriaged.
+**Slice B — 9 authored** from S4 (Male genital system): S4-2 vas crosses above the ureter near the
+ischial spine, S4-3 seminal vesicle on the bladder base, S4-5 epididymal tail (vas origin) at the lower
+pole, S4-6/18 artery of the vas from a vesical artery, S4-8/10 seminal vesicle secretes fluid (not a
+sperm store), S4-9 testicular artery from the abdominal aorta, S4-14 vas ampulla medial to the seminal
+vesicle, S4-15 ejaculatory duct = vas + seminal-vesicle duct, S4-16 prostate supplied by the inferior
+vesical artery. 9 concepts (all `CON-AND-*`), grouped into 1 new article
+(`ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS`); collision-checked corpus-wide (0 collisions). **1
+EXCLUDED:** S4-13 (printed key "b&c" — a genuine double-mark, ambiguous). **Skipped as dupes:** S4-1
+BPH middle/transitional lobe (prostate.benign-hyperplasia.transitional-zone), S4-4 ejaculatory ducts
+open into prostatic urethra (prostatic-urethra.ejaculatory-ducts.open-beside-utricle), S4-12 utricle
+anterior wall (my slice-A concept), S4-17 post-vasectomy ejaculate + S4-19 penile urethra=corpus
+spongiosum + S4-21 anterior-lobe + S4-22 posterior-surface=rectal-ampulla + S4-23/24 base=bladder-neck
+(all authored by the concurrent RPR lane), S4-25 uvula vesicae (prostate.median-lobe.uvula-vesicae),
+S4-7/11/20 flawed/low-yield (apex-on-pelvic-fascia; urethra-emerges-anterior; "none of the above" where
+option b is defensibly true). S4 skip/exclude ~17/26 (~65%) — the male-genital section is now
+fresh-exhausted.
+
+The 207 END module is now **271 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 +
+RPR 14 + Jalal 19), 6 held, 2 excluded (Jalal Male-Q13 double-mark added). The **RPR bank**
+(fresh-exhausted, 14/3, concurrent lane) is NOT re-authored by this lane. **Next Jalal slice:** mine S5
+(Female genital/rectum/perineum, 86 Qs) and S6 (Development, 30 Qs) — the largest still-unmined sections
+(expect heavy overlap with the exhausted Galal repro bank and the RPR pelvis/perineum bank), then
+S1/S2/S7. NB do NOT author `penile-urethra.location.corpus-spongiosum` or
+`ureter.arterial-supply.testicular-or-ovarian-artery` in later slices — both are already covered by RPR.
+3 department books also remain untriaged.

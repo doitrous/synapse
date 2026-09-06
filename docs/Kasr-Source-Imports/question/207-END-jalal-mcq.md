@@ -1403,3 +1403,1263 @@ yes
 ## author_notes
 keySource: printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 34=c)
 kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-011
+
+## title
+Vas deferens crosses the ureter near the ischial spine
+
+## question
+Regarding the vas deferens, which of the following statements is correct?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It does not pass through the inguinal canal.
+
+## explanation_a
+Incorrect. The vas deferens is a content of the spermatic cord and does pass through the inguinal canal, entering at the deep ring.
+
+## answer_b
+It is medial to the inferior epigastric artery at the deep inguinal ring.
+
+## explanation_b
+Incorrect. At the deep inguinal ring the vas hooks around the LATERAL side of the inferior epigastric artery, not the medial side.
+
+## answer_c
+It crosses the ureter in the region of the ischial spine.
+
+## explanation_c
+Correct. As the vas deferens reaches the pelvic floor near the ischial spine it crosses superior (superficial) to the ureter, before running medial to the seminal vesicle to reach the base of the prostate. This 'water under the bridge' relation mirrors the uterine artery crossing the ureter in the female. Surgeons recall it to avoid the ureter in this region.
+
+## answer_d
+It lies lateral to the seminal vesicles on the back of the bladder.
+
+## explanation_d
+Incorrect. Behind the bladder the ampulla of the vas lies MEDIAL to the seminal vesicle, not lateral to it.
+
+## topic
+Anatomy
+
+## subtopic
+Vas deferens
+
+## main_concept
+CON-AND-3A7A7A3A0843A3
+
+## concept_ids
+CON-AND-3A7A7A3A0843A3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Vas deferens
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The vas deferens crosses above the ureter near the ischial spine.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.9
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 2=c)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-012
+
+## title
+Seminal vesicle at the base of the bladder
+
+## question
+Which of the following structures is present at the base of the urinary bladder?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Prostate gland.
+
+## explanation_a
+Incorrect. The prostate lies below the neck of the bladder, not on its base.
+
+## answer_b
+Bulbourethral gland.
+
+## explanation_b
+Incorrect. The bulbourethral glands lie in the deep perineal pouch, far below the bladder.
+
+## answer_c
+Seminal vesicle.
+
+## explanation_c
+Correct. The two seminal vesicles lie on the posterior surface (base) of the bladder, lateral to the ampullae of the vasa deferentia, above the prostate. Together with the vas ampullae and the terminal ureters they are the posterior relations of the bladder base.
+
+## answer_d
+Membranous urethra.
+
+## explanation_d
+Incorrect. The membranous urethra lies in the deep perineal pouch below the prostate, not at the bladder base.
+
+## topic
+Anatomy
+
+## subtopic
+Seminal vesicle
+
+## main_concept
+CON-AND-A172B509581444
+
+## concept_ids
+CON-AND-A172B509581444
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Seminal vesicle
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The seminal vesicles lie on the base (posterior surface) of the bladder.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 3=c)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-013
+
+## title
+The tail of the epididymis lies at the lower pole of the testis
+
+## question
+Regarding the ductus (vas) deferens, select the WRONG statement.
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It begins as a continuation of the tail of the epididymis at the upper end of the testis.
+
+## explanation_a
+Correct. This is the FALSE statement, so it answers the 'wrong statement' stem. The vas deferens begins as the continuation of the tail of the epididymis at the LOWER pole of the testis, not the upper end. The head of the epididymis caps the upper pole and the tail hangs at the lower pole.
+
+## answer_b
+It is palpable in the spermatic cord.
+
+## explanation_b
+Incorrect (this statement is true). The firm, cord-like vas is easily palpable between finger and thumb in the spermatic cord at the neck of the scrotum.
+
+## answer_c
+It leaves the spermatic cord at the deep inguinal ring.
+
+## explanation_c
+Incorrect (this statement is true). The vas leaves the spermatic cord at the deep inguinal ring and hooks around the inferior epigastric artery to enter the pelvis.
+
+## answer_d
+The ampulla of the vas lies behind the base of the bladder.
+
+## explanation_d
+Incorrect (this statement is true). The terminal vas dilates as the ampulla, which lies behind the base of the bladder medial to the seminal vesicle.
+
+## topic
+Anatomy
+
+## subtopic
+Epididymis
+
+## main_concept
+CON-AND-A1A530DC145751
+
+## concept_ids
+CON-AND-A1A530DC145751
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Epididymis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The tail of the epididymis, continuous with the vas, lies at the lower pole of the testis.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 5=a, the wrong statement)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-014
+
+## title
+The artery of the vas deferens arises from a vesical artery
+
+## question
+One of the following statements is NOT true regarding the male genital structures. Which one?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The left testicular vein drains into the left renal vein.
+
+## explanation_a
+Incorrect (this statement is true). The left testicular vein drains into the left renal vein, while the right drains into the inferior vena cava.
+
+## answer_b
+The artery of the vas deferens is a branch of the inferior epigastric artery.
+
+## explanation_b
+Correct. This is the untrue statement. The artery of the vas deferens is normally a branch of the superior (or inferior) vesical artery, itself from the anterior division of the internal iliac artery, not a branch of the inferior epigastric artery.
+
+## answer_c
+The right testicular vein drains into the inferior vena cava.
+
+## explanation_c
+Incorrect (this statement is true). The right testicular vein opens directly into the inferior vena cava at an acute angle.
+
+## answer_d
+The tunica albuginea is the fibrous coat that completely covers the testis.
+
+## explanation_d
+Incorrect (this statement is true). The tunica albuginea is the tough fibrous capsule that completely invests the testis.
+
+## topic
+Anatomy
+
+## subtopic
+Vas deferens
+
+## main_concept
+CON-AND-67AD49D8DFC1DF
+
+## concept_ids
+CON-AND-67AD49D8DFC1DF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Vas deferens
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The artery of the vas deferens is a branch of a vesical artery (internal iliac), not the inferior epigastric.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 6=b, the untrue statement)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-015
+
+## title
+The seminal vesicle secretes fluid and does not store sperm
+
+## question
+One of the following statements is FALSE regarding the seminal vesicle. Which one?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It lies on the posterior surface of the bladder.
+
+## explanation_a
+Incorrect (this statement is true). The seminal vesicles lie on the posterior surface (base) of the bladder above the prostate.
+
+## answer_b
+Its medial surface is related to the ampulla of the vas deferens.
+
+## explanation_b
+Incorrect (this statement is true). Each seminal vesicle lies lateral to, and its medial surface is related to, the ampulla of the vas deferens.
+
+## answer_c
+It acts as a reservoir for spermatozoa.
+
+## explanation_c
+Correct. This is the FALSE statement. Despite its name the seminal vesicle does NOT store sperm; it is a secretory gland whose alkaline, fructose-rich fluid forms most of the semen volume. Sperm are stored mainly in the tail of the epididymis and the vas deferens.
+
+## answer_d
+Its duct unites with the ductus deferens to form the ejaculatory duct.
+
+## explanation_d
+Incorrect (this statement is true). The duct of the seminal vesicle joins the vas deferens to form the ejaculatory duct.
+
+## topic
+Anatomy
+
+## subtopic
+Seminal vesicle
+
+## main_concept
+CON-AND-979D7F44EBAB91
+
+## concept_ids
+CON-AND-979D7F44EBAB91
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Seminal vesicle
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The seminal vesicle secretes seminal fluid and does not store sperm.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 8=c, the false statement)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-016
+
+## title
+The testicular artery arises from the abdominal aorta
+
+## question
+Regarding the male genital structures, which one of the following statements is correct?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The testis is supplied by the testicular artery, which arises from the abdominal aorta.
+
+## explanation_a
+Correct. The testicular artery arises directly from the abdominal aorta just below the renal arteries, reflecting the testis's high (lumbar) developmental origin before its descent. It reaches the testis through the spermatic cord.
+
+## answer_b
+The uncoiled epididymis is about one metre long.
+
+## explanation_b
+Incorrect. The duct of the epididymis, if uncoiled, is about 6 metres long, not one metre.
+
+## answer_c
+The scrotum is drained by the para-aortic lymph nodes.
+
+## explanation_c
+Incorrect. The scrotal skin drains to the superficial inguinal lymph nodes; only the testis itself drains to the para-aortic nodes.
+
+## answer_d
+The left pampiniform plexus drains directly into the inferior vena cava.
+
+## explanation_d
+Incorrect. The left testicular (pampiniform) venous drainage is into the left renal vein; only the right drains directly into the inferior vena cava.
+
+## topic
+Anatomy
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-35267959C72D5B
+
+## concept_ids
+CON-AND-35267959C72D5B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The testicular artery arises from the abdominal aorta.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 9=a)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-017
+
+## title
+The ampulla of the vas lies medial to the seminal vesicle
+
+## question
+Regarding the vas deferens, choose the INCORRECT statement.
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It passes through the inguinal canal.
+
+## explanation_a
+Incorrect (this statement is true). The vas is a content of the spermatic cord and passes through the inguinal canal.
+
+## answer_b
+It lies lateral to the inferior epigastric artery at the deep inguinal ring.
+
+## explanation_b
+Incorrect (this statement is true). At the deep inguinal ring the vas hooks around the lateral side of the inferior epigastric artery.
+
+## answer_c
+It lies lateral to the seminal vesicles on the back of the bladder.
+
+## explanation_c
+Correct. This is the incorrect statement. Behind the bladder the ampulla of the vas lies MEDIAL to the seminal vesicle, with the two seminal vesicles lying lateral to the two vasa; their ducts then unite to form the ejaculatory ducts.
+
+## answer_d
+Its terminal part dilates to form the ampulla of the vas deferens.
+
+## explanation_d
+Incorrect (this statement is true). The terminal part of the vas dilates to form its ampulla behind the bladder.
+
+## topic
+Anatomy
+
+## subtopic
+Vas deferens
+
+## main_concept
+CON-AND-9C891A68A59878
+
+## concept_ids
+CON-AND-9C891A68A59878
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Vas deferens
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The ampulla of the vas lies medial to the seminal vesicle behind the bladder.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 14=c, the incorrect statement)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-018
+
+## title
+Formation of the ejaculatory duct
+
+## question
+The union of the vas deferens with the duct of the seminal vesicle forms the:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ejaculatory vesicle.
+
+## explanation_a
+Incorrect. There is no structure called an 'ejaculatory vesicle'.
+
+## answer_b
+Prostatic urethra.
+
+## explanation_b
+Incorrect. The prostatic urethra is the segment of the urethra within the prostate, not a duct formed by this union.
+
+## answer_c
+Seminiferous tubule.
+
+## explanation_c
+Incorrect. Seminiferous tubules lie within the testis and produce sperm; they are far proximal to this union.
+
+## answer_d
+Ejaculatory duct.
+
+## explanation_d
+Correct. On each side the duct of the seminal vesicle joins the ampulla of the vas deferens to form the ejaculatory duct. The two ejaculatory ducts then pierce the prostate and open on the urethral crest beside the prostatic utricle. This is how seminal-vesicle secretion and sperm reach the prostatic urethra.
+
+## topic
+Anatomy
+
+## subtopic
+Ejaculatory duct
+
+## main_concept
+CON-AND-D6D37AE4B4FE2F
+
+## concept_ids
+CON-AND-D6D37AE4B4FE2F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Ejaculatory duct
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The ejaculatory duct is formed by the union of the vas deferens and the seminal vesicle duct.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 15=d)
+kasr: Anatomy MCQ by Dr Jalal [END] bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-JALAL-019
+
+## title
+Arterial supply of the prostate
+
+## question
+Which of the following statements about the prostate is TRUE?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The urethral crest is found on the anterior wall of the prostatic urethra.
+
+## explanation_a
+Incorrect. The urethral crest, with the utricle and ejaculatory-duct openings, lies on the POSTERIOR wall of the prostatic urethra.
+
+## answer_b
+It is supplied mainly by the inferior vesical artery.
+
+## explanation_b
+Correct. The prostate is supplied mainly by the inferior vesical artery (with contributions from the middle rectal and internal pudendal arteries), all branches of the internal iliac artery. Its rich venous plexus drains to the internal iliac vein and the vertebral venous plexus.
+
+## answer_c
+It lies behind the base of the urinary bladder.
+
+## explanation_c
+Incorrect. The prostate lies BELOW the neck of the bladder, not behind its base; the seminal vesicles and vas ampullae lie behind the base.
+
+## answer_d
+It has a true capsule only.
+
+## explanation_d
+Incorrect. The prostate has both a true fibrous capsule and a false capsule (condensed pelvic fascia) containing the prostatic venous plexus.
+
+## topic
+Anatomy
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-C42F53FDFAE992
+
+## concept_ids
+CON-AND-C42F53FDFAE992
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+
+## learning_objective
+The prostate is supplied mainly by the inferior vesical artery.
+
+## source_citation
+Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, p.12
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer-key table, native text pdf p.33 (Male genital system section, 16=b)
+kasr: Anatomy MCQ by Dr Jalal [END] bank

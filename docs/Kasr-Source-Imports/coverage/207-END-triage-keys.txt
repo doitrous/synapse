@@ -391,5 +391,19 @@ brim), S3-27 (bladder-base excludes posterior vaginal wall), S3-29 (pubovesical 
 S3-32 (bladder neck behind lower symphysis), S3-33 (membranous urethra narrowest/least
 distensible), S3-35 (seminal vesicle at bladder base). Dedup rate S3 ~16/38 authored-eligible
 (~58% skipped) — under the 60% stop; the section is exhausted for slice A's fresh set.
+— Authoring pass 2026-09-07, SLICE B (9 fresh MCQs, S4 Male genital system) —
+Authored S4 items: 2 (vas crosses above ureter@ischial spine), 3 (seminal vesicle on bladder base),
+5 (epididymal tail/vas origin at lower pole), 6+18 (artery of vas = vesical artery), 8+10 (seminal
+vesicle secretes fluid, not sperm store), 9 (testicular artery from abdominal aorta), 14 (vas ampulla
+medial to seminal vesicle), 15 (ejaculatory duct = vas + seminal-vesicle duct), 16 (prostate = inferior
+vesical artery). 9 concepts (all CON-AND-*), 1 new article. EXCLUDED: S4-13 (printed "b&c" double-mark).
+SKIPPED as dupes: S4-1 (BPH transitional/middle lobe), S4-4 (ejaculatory ducts open in prostatic urethra),
+S4-12 (utricle anterior wall = slice-A concept), S4-17/19/21/22/23/24 (post-vasectomy ejaculate, penile
+urethra=corpus spongiosum, prostate anterior-lobe / posterior=rectal-ampulla / base=bladder-neck — all
+authored by the concurrent RPR lane), S4-25 (uvula vesicae). Skipped as flawed/low-yield: S4-7 (apex on
+pelvic fascia), S4-11 (urethra emerges anterior to apex), S4-20 ("none of the above" but option b —
+deep dorsal vein into prostatic plexus — is defensibly true). S4 skip/exclude ~17/26 (~65%) — section
+fresh-exhausted.
 NEXT Jalal slice: S5 Female genital/rectum/perineum (86 Qs) and S6 Development (30 Qs) —
-the largest still-unmined sections (expect high overlap with Galal repro and the RPR bank).
+the largest still-unmined sections (expect high overlap with Galal repro and the RPR bank). Do NOT
+author penile-urethra=corpus-spongiosum or ureter-arterial-supply=gonadal (both covered by RPR).

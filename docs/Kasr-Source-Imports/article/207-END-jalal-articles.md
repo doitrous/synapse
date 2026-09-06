@@ -1,7 +1,8 @@
 <!--
-  Kasr Al Ainy 207 END - library articles for the Anatomy MCQ by Dr Jalal [END] bank (slice A). Two
-  articles group the ten urinary/urethral gross-anatomy concepts: the male urethra and its glands
-  (androl), and the urinary bladder, urethral sphincters and continence (renal). NON-EOM instructor
+  Kasr Al Ainy 207 END - library articles for the Anatomy MCQ by Dr Jalal [END] bank (slices A+B).
+  Three articles group the nineteen urinary/urethral/male-genital gross-anatomy concepts: the male
+  urethra and its glands (androl), the urinary bladder, urethral sphincters and continence (renal),
+  and the male genital ducts, glands and their blood supply (androl). NON-EOM instructor
   topic bank, sourceId src_2a6c0ccf47e9feb287a3. Filed under DIS-ANA-T05 (abdomen and pelvis) with SYS-AND-T01 /
   SYS-REN-T01 system cross-nav. Written from standard regional-anatomy teaching (Snell / Last's /
   Moore level) corroborated by this bank's own keyed stems and options (printed answer-key table,
@@ -156,6 +157,100 @@ CON-REN-3F65C06C14B055
 CON-REN-3065B73967DC53
 CON-REN-931BA6F79C4D14
 CON-REN-ED7E7C42E89C04
+## related_articles
+
+## resource_ids
+src_2a6c0ccf47e9feb287a3
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard regional-anatomy teaching (Snell / Last's / Moore-level) corroborated by this bank's own keyed stems and options (printed answer-key table, native text pp.33-34).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-AND-207END-JALAL-MALE-GENITAL-DUCTS-GLANDS
+## title
+The male genital ducts, glands and their blood supply
+## subject
+androl
+## status
+Draft
+## owner
+Claude
+## topic
+Anatomy
+## summary
+Sperm pass from the tail of the epididymis (lower pole of the testis) into the vas deferens, which crosses above the ureter near the ischial spine and dilates as the ampulla medial to the seminal vesicle behind the bladder. The seminal-vesicle duct joins the vas to form the ejaculatory duct. The testicular artery arises from the abdominal aorta, the artery of the vas from a vesical artery, and the prostate from the inferior vesical artery; the seminal vesicle secretes fluid and does not store sperm.
+## sections
+### Definition
+This article groups the male genital duct-and-gland facts tested by the Jalal bank: the epididymal tail at the lower pole continuing as the vas, the course of the vas (crossing above the ureter, ampulla medial to the seminal vesicle), the seminal vesicle position and secretory (non-storage) function, the formation of the ejaculatory duct, and the arterial supply of the testis (aorta), vas (vesical) and prostate (inferior vesical).
+### Mechanism
+The pattern follows development and descent: the testis and its artery arise high (lumbar) and descend, while the mesonephric-duct derivatives (epididymis, vas, seminal vesicle, ejaculatory duct) drain in series to the prostatic urethra; the pelvic arteries supplying the ducts and glands come from the internal iliac.
+### Key determinants
+Discriminators tested here: tail (lower pole) versus head (upper pole) of epididymis; vas medial versus lateral to the seminal vesicle; artery of vas from a vesical branch versus the inferior epigastric; testicular artery from the aorta versus a pelvic vessel; and the seminal vesicle as a secretory gland versus a sperm store.
+### Clinical significance
+These points underlie vasectomy and its effect on the ejaculate, the interpretation of scrotal versus testicular lymphatic spread, varicocele (commoner on the left), and the venous route of prostatic-carcinoma metastasis.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors in these questions are built from exactly those reversals.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Anatomy > Male genital system
+## subtopic
+Male genital system
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-AND-T01
+## related_concepts
+CON-AND-3A7A7A3A0843A3
+CON-AND-A172B509581444
+CON-AND-A1A530DC145751
+CON-AND-67AD49D8DFC1DF
+CON-AND-979D7F44EBAB91
+CON-AND-35267959C72D5B
+CON-AND-9C891A68A59878
+CON-AND-D6D37AE4B4FE2F
+CON-AND-C42F53FDFAE992
 ## related_articles
 
 ## resource_ids
